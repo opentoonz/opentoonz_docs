@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenToonz'
-copyright = u': This page is licensed under a CC-BY-NC 4.0 Int. License.'
+copyright = u': This page is licensed under a CC-BY-NC 4.0 Int. License'
 author = u'OpenToonz Team'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -178,5 +178,5 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-
-
+def setup(app):
+    app.add_stylesheet('css/theme_extra.css')  # may also be an URL
