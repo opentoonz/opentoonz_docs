@@ -23,7 +23,7 @@ The documentation is written in [reStructuredText](http://docutils.sourceforge.n
 
 `$ make html`
 
-- The result HTML files will be generated under `_build/html/`
+- The result HTML files will be generated under `build/html/`
 
 ## Licensing
 
