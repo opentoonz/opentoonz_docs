@@ -19,6 +19,7 @@ This is the manual for OpenToonz, an open-source full-featured 2D animation crea
    :maxdepth: 2
    :caption: Sections:
 
+   production_workflow
    interface_overview
    managing_projects
    setting_up_a_scene
@@ -41,6 +42,10 @@ This is the manual for OpenToonz, an open-source full-featured 2D animation crea
    using_the_version_control
    keyboard_shortcuts
 
+Special Thanks
+--------------
+
+This documentation is based on Toonz Harlequin 7.1 User Guide, originally created by Digital Video S.p.A., Rome Italy.
 
 
 
