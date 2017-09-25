@@ -1,0 +1,1670 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-25 17:00+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/painting_animation_levels.rst:4
+msgid "Painting Animation Levels"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:5
+msgid ""
+"Toonz animation levels, both those cleaned up, and those made directly in"
+" Toonz, can be painted by using the styles stored in the palette and a "
+"set of tools."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:7
+msgid ""
+"All Toonz drawings are made of outlines, determined by the lines of "
+"scanned drawings or vectors of vector drawings, and areas defined by "
+"outlines. Lines and vectors can be painted or erased, partially or for "
+"their full extent; areas can be filled with styles, or remain empty, with"
+" complete transparency."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:9
+msgid ""
+"All the painting work is not saved until you save the related level, or "
+"the scene (see  :ref:`Saving Levels <saving_levels>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:11
+msgid ""
+"If the computer performance worsens during the painting process of raster"
+" animation levels, try activating the Minimize Raster Image Fragmentation"
+" option in the Preferences > General dialog (see  :ref:`Optimizing the "
+"Memory Usage <optimizing_the_memory_usage>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:16
+msgid "Painting Tools"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:17
+msgid ""
+"Painting operations can be performed by using the Fill tool ( "
+"|Toonz71_155| ) and the"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:19
+msgid "Paint Brush tool ("
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:21
+msgid "|Toonz71_156| )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:25
+msgid ""
+"In case you want to retrieve a style already used in the drawing, you can"
+" pick it with the Style Picker tool ( |Toonz71_157| )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:29
+msgid ""
+"The filling operation can be performed by activating different options, "
+"that can be combined together to perform particular tasks, for example to"
+" fill several areas at the same time with the same style, or several "
+"frames, with a single operation."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:31
+msgid ""
+"The Fill tool ( |Toonz71_158| ) allows you to paint a drawing area, or a "
+"drawing outline by clicking it. Options available are the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:35
+msgid ""
+"Type has the options Normal, to fill an area by clicking in it; "
+"Rectangular, to fill all the areas included in the box you define; "
+"Freehand, to fill all the areas included in the area you outline by "
+"clicking and dragging; and Polyline, to fill all the areas included in "
+"the area you outline by defining a series of lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:37
+msgid ""
+"Mode has the options Areas, to fill only areas, Lines, to paint only the "
+"drawing outline, and Lines and Areas, to perform both the operations."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:39
+msgid ""
+"Selective prevents the fill operation to be performed on already filled "
+"areas."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:41
+msgid ""
+"Fill Depth sets how much the fill style passes through the antialiasing "
+"of the area outline. With low values, even a very thin outline made of "
+"semitransparent pixels will be effective; with high values, only the more"
+" opaque pixels will stop color from flooding outside. This option applies"
+" to raster drawings only. It is possible to set two values: the minimum "
+"value is used when using the tool with the standard mouse click, the "
+"maximum value when using the tool with the shift-click."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:43
+msgid ""
+"Segment lets you apply the fill only to a segment of the raster outline. "
+"A segment is determined by an abrupt change of thickness or direction in "
+"the outline. This is available for Toonz raster drawings only."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:45
+msgid ""
+"Onion Skin lets you pick the style from other drawings visible in the "
+"onion skin mode, and apply it to the current drawing (see  :ref:`Using "
+"Onion Skin <using_onion_skin>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:47
+msgid ""
+"Frame Range allows you to perform the filling on a range of frames by "
+"clicking in the first and then in the last frame of the range. You can "
+"also shift-click to define the filling position for intermediate frames."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:49
+msgid ""
+"The Paint Brush tool ( |Toonz71_159| ) allows you to paint a drawing "
+"area, or an outline, as if you were using a brush. It is available for "
+"raster drawings only. Options are the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:51
+msgid "Size sets the brush size."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:53
+msgid ""
+"Mode has the options Areas, to paint only inside areas, Lines, to paint "
+"manually only the drawing outline, and Lines and Areas, to perform both "
+"the operations."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:55
+msgid ""
+"Selective prevents the painting operation to be performed on already "
+"painted areas."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:60
+msgid "Filling Areas"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:61
+msgid ""
+"Areas can be filled when their outline is well-defined, with no gaps "
+"occurring along it. For vector drawings, the outline can be defined by a "
+"single vector with overlapping or joined ends, or by different vectors."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:63
+msgid ""
+"Options available for the painting tools can help you to speed up the "
+"painting job. You can decide which options are the most suitable for your"
+" task by following the guidelines below."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:65
+msgid ""
+"In Toonz raster levels, the areas that can be painted are limited either "
+"by the image border or by the image savebox, according to the Use TLV "
+"Savebox to Limit Filling Operations option available in Preferences > "
+"Drawing."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:67
+msgid ""
+"Some styles may not be suitable for filling areas, such as the custom "
+"styles or some of the special styles. If you select one of these styles "
+"in the palette, and you use it to fill an area, no operation will be "
+"performed."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:69
+msgid "**To fill an area:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:71
+msgid ""
+"Select the Fill tool (), set the fill type to Normal and the mode to "
+"Areas, and select a style in the palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:73
+msgid "Click in the area you want to fill."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:75
+msgid ""
+"If the filling color doesn’t flood the narrowest areas in raster drawings"
+" because of semitransparent pixels, try to increase the minimum Fill "
+"Depth value, or shift-click to use the maximum value (see  :ref:`Painting"
+" Tools <painting_tools>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:77
+msgid "**To fill several frames with a single command:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:79
+msgid ""
+"Select the Fill tool (), set the fill type to Normal and the mode to "
+"Areas, and activate the Frame Range option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:81
+msgid ""
+"Select the first frame of the range and click in the area you want to "
+"fill, for example the character’s face."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:83
+#: ../../source/painting_animation_levels.rst:95
+#: ../../source/painting_animation_levels.rst:119
+#: ../../source/painting_animation_levels.rst:197
+#: ../../source/painting_animation_levels.rst:292
+#: ../../source/painting_animation_levels.rst:302
+#: ../../source/painting_animation_levels.rst:316
+#: ../../source/painting_animation_levels.rst:332
+#: ../../source/painting_animation_levels.rst:348
+#: ../../source/painting_animation_levels.rst:412
+#: ../../source/painting_animation_levels.rst:501
+#: ../../source/painting_animation_levels.rst:511
+#: ../../source/painting_animation_levels.rst:525
+#: ../../source/painting_animation_levels.rst:541
+#: ../../source/painting_animation_levels.rst:557
+#: ../../source/painting_animation_levels.rst:696
+#: ../../source/painting_animation_levels.rst:710
+#: ../../source/painting_animation_levels.rst:726
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:85
+msgid ""
+"Select the last frame of the range you want to apply the Fill to, and "
+"click in the same area, in the example the character’s face: the areas in"
+" all of the frames in the range will be automatically filled according to"
+" the first and second clicking positions."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:87
+msgid ""
+"Select an intermediate frame of the range you want to apply the Fill to, "
+"and shift-click in the same area, in the example the character’s face: "
+"the areas in all of the frames in the range will be automatically filled "
+"according to the first and second clicking positions. Select another "
+"intermediate frame and shift-click again: the areas in all of the frames "
+"in the new range will be automatically filled according to the second and"
+" third clicking positions. Do the same as many times as you like, then "
+"click in the same area on the last frame of the range to complete the "
+"multi frame filling mode."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:89
+msgid ""
+"Since the Fill with the Frame Range option is applied making a linear "
+"interpolation from the first clicking point to the following one, some "
+"painting mistakes may occur. The more the area you want to fill moves "
+"along the frame range, the more mistakes may be made."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:91
+msgid "**To fill several areas at once with the same style:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:93
+msgid "Select the Fill tool (), set the fill mode to Areas."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:97
+msgid ""
+"Set the type to Rectangular and click and drag to define a box: all the "
+"areas completely included in the box will be filled with the current "
+"style."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:99
+msgid ""
+"Set the type to Freehand and click and drag to outline an area: all the "
+"areas completely included in the area you outline will be filled with the"
+" current style. If the ends of the outline you draw are open, the area "
+"will be defined as if joining the two open ends."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:101
+msgid ""
+"Set the type to Polyline and click to outline an area by defining a "
+"series of lines: all the areas completely included in the area you "
+"outline will be filled with the current style. If the ends of the outline"
+" you draw are open, the area will be defined as if joining the two open "
+"ends."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:103
+msgid "**To fill all remaining areas in a level drawing with the same style:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:105
+msgid ""
+"Select the Fill tool (), set the fill type to Rectangular and the mode to"
+" Areas, and activate the Selective option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:107
+msgid ""
+"Click and drag to define a box: all the outlined non-filled areas "
+"completely included in the box will be filled with the current style. "
+"This option combination may be useful if the drawing has a lot of areas "
+"to be painted with the same style, that can be painted at the end at once"
+" by using this command."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:109
+msgid ""
+"You can add to this combination the Frame Range option as well, to "
+"perform the same task extended to a range of frames."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:111
+msgid "**To fill drawing areas using as reference a previously painted drawing:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:113
+#: ../../source/painting_animation_levels.rst:129
+#: ../../source/painting_animation_levels.rst:342
+msgid ""
+"Activate the onion skin mode to display the painted drawing behind your "
+"current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:115
+msgid ""
+"Select the Fill tool ( |Toonz71_164| ), set the fill mode to Areas and "
+"activate the Onion Skin option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:117
+#: ../../source/painting_animation_levels.rst:346
+#: ../../source/painting_animation_levels.rst:555
+msgid ""
+"Click to pick the style to use from the drawing displayed in onion skin "
+"mode."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:121
+msgid "Release to fill the area where the cursor is."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:123
+msgid "Drag to the area you want to fill and release the mouse button."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:125
+#: ../../source/painting_animation_levels.rst:135
+msgid ""
+"If several drawings are displayed in onion skin mode, only the drawing "
+"closest to the current one will be considered."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:127
+msgid ""
+"**To automatically fill a whole drawing using as reference a previously "
+"painted drawing:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:131
+msgid ""
+"Select the Fill tool ( |Toonz71_165| ), set the fill type to Rectangular,"
+" the mode to Areas, and activate the Onion Skin option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:133
+msgid ""
+"Click and drag to define a box: all the areas completely included in the "
+"box will be filled with the styles picked from the painted areas of the "
+"drawing displayed in onion skin mode."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:137
+msgid ""
+"If some areas are automatically painted with the wrong style, fix them to"
+" prevent the mistake to be amplified in the following frames you are "
+"going to paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:139
+#: ../../source/painting_animation_levels.rst:354
+#: ../../source/painting_animation_levels.rst:563
+msgid "**To retrieve a style from a drawing:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:141
+#: ../../source/painting_animation_levels.rst:356
+#: ../../source/painting_animation_levels.rst:565
+msgid "Select the Style Picker tool ()."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:143
+msgid ""
+"Click in the area whose style you want to pick. The picked style becomes "
+"the current one."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:148
+#: ../../source/painting_animation_levels.rst:363
+msgid "Closing Gaps in Drawing Outline"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:149
+msgid ""
+"If the area outline is not perfectly defined, you will not be able to "
+"fill it. The gap can be closed by adding a line with the Brush ( "
+"|Toonz71_167| ) or Geometric tool ("
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:151
+msgid "|Toonz71_168| ) (see"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:153
+msgid ":ref:`Drawing Tools <drawing_tools>`  ), or by using the"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:155
+#: ../../source/painting_animation_levels.rst:370
+msgid "Tape tool ("
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:157
+msgid "|Toonz71_169| )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:161
+msgid ""
+"For Toonz vector drawings the Tape tool ( |Toonz71_170| ) allows you to "
+"join vectors manually or automatically, both considering their endpoints "
+"and any point along the vectors themselves, according to the tool "
+"settings. Options available are the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:165
+#: ../../source/painting_animation_levels.rst:380
+msgid ""
+"Type has the options Normal, to manually define joining vectors, or "
+"Rectangular, to automatically close all the gaps detected in the box you "
+"define."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:167
+#: ../../source/painting_animation_levels.rst:382
+msgid ""
+"When the type is set to Rectangular only gaps between endpoints, and "
+"between an endpoint and a line, are considered."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:169
+#: ../../source/painting_animation_levels.rst:384
+msgid ""
+"Mode has the option Endpoint to Endpoint, to join two vector endpoints; "
+"Endpoint to Line, to join an endpoint to any point along a vector; and "
+"Line to Line, to join any point along a vector to any other point along a"
+" vector."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:171
+#: ../../source/painting_animation_levels.rst:386
+msgid ""
+"Distance sets the maximum distance between endpoints, and between an "
+"endpoint and a line, that are automatically joined when using the "
+"rectangular option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:173
+msgid ""
+"Join Vectors, when activated, connects the join vector to the endpoint "
+"thus creating a single vector; if deactivated the join vector will be a "
+"new vector (see  :ref:`Joining and Splitting <joining_and_splitting>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:175
+#: ../../source/painting_animation_levels.rst:390
+msgid ""
+"If the vectors you are going to join have different styles, the style of "
+"this first vector you click will be assigned to the second one after the "
+"joining."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:177
+#: ../../source/painting_animation_levels.rst:392
+msgid "Smooth, when activated, creates a joined vector with no corners."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:179
+msgid ""
+"For Toonz raster drawings the Tape tool ( |Toonz71_171| ) automatically "
+"joins the open ends detected in the drawing according to the tool "
+"settings. Options available are the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:181
+#: ../../source/painting_animation_levels.rst:396
+msgid ""
+"Type has the options Normal, to close all the gaps detected in the "
+"drawing by clicking in it; Rectangular, to close all the gaps detected in"
+" the box you define; Freehand, to close on all the gaps detected in the "
+"area you outline by clicking and dragging; and Polyline, to close on all "
+"the gaps detected in the area you outline by defining a series of lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:183
+#: ../../source/painting_animation_levels.rst:398
+msgid ""
+"Frame Range allows you to perform the joining on a range of frames by "
+"clicking in the first and then in the last frame of the range."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:185
+#: ../../source/painting_animation_levels.rst:400
+msgid ""
+"Distance sets the maximum distance between two open ends to be detected "
+"in order to join them."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:187
+#: ../../source/painting_animation_levels.rst:402
+msgid ""
+"Angle sets the maximum angle between two open ends to be detected in "
+"order to join them."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:189
+#: ../../source/painting_animation_levels.rst:404
+msgid ""
+"Style Index sets the style to be used for the line joining the open ends."
+" If instead of a style index you type ``current`` , the current style "
+"will be used."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:191
+#: ../../source/painting_animation_levels.rst:406
+msgid ""
+"Opacity sets the opacity of the style used for the line joining the open "
+"ends."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:193
+#: ../../source/painting_animation_levels.rst:408
+msgid "**To close a gap in a vector drawing outline:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:195
+#: ../../source/painting_animation_levels.rst:410
+msgid ""
+"Select the Tape tool (), set the type to Normal and set whether to join "
+"vectors, or to create a smooth joining."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:199
+#: ../../source/painting_animation_levels.rst:414
+msgid ""
+"Set the mode to Endpoint to Endpoint, then click a vector endpoint and "
+"drag to a different endpoint; the pointer snaps to the closest detected "
+"vector endpoint as start and as end."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:201
+#: ../../source/painting_animation_levels.rst:416
+msgid ""
+"Set the mode to Endpoint to Line, then click a vector endpoint and drag "
+"to any point along a vector; the pointer snaps to the closest detected "
+"vector endpoint as start, and to any closest point along a vector as end."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:203
+#: ../../source/painting_animation_levels.rst:418
+msgid ""
+"Set the mode to Line to Line, then click any point along a vector and "
+"drag to any other point along a vector; the pointer snaps to the closest "
+"point along a vector as start, and to the any other closest point along a"
+" vector as end."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:205
+#: ../../source/painting_animation_levels.rst:420
+msgid "**To close all gaps in a vector drawing outline in a specific area:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:207
+#: ../../source/painting_animation_levels.rst:422
+msgid "Select the Tape tool (), set the type to Rectangular."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:209
+#: ../../source/painting_animation_levels.rst:424
+msgid ""
+"Click and drag to define an area: all the gaps between endpoints, and "
+"between endpoints and lines, detected in the area according to the set "
+"distance will be closed."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:211
+#: ../../source/painting_animation_levels.rst:426
+msgid "**To close all gaps in a raster drawing outline:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:213
+#: ../../source/painting_animation_levels.rst:428
+msgid "Select the Tape tool ()."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:215
+#: ../../source/painting_animation_levels.rst:430
+msgid ""
+"Click in the work area to close all the gaps detected according to the "
+"set distance and angle."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:217
+#: ../../source/painting_animation_levels.rst:432
+msgid "**To close a specific gap in a raster drawing outline:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:219
+#: ../../source/painting_animation_levels.rst:434
+msgid "Select the Tape tool () and activate the Rectangular option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:221
+#: ../../source/painting_animation_levels.rst:436
+msgid ""
+"Click and drag to define an area: all the gaps detected in the area "
+"according to the set distance and angle will be closed."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:226
+#: ../../source/painting_animation_levels.rst:439
+msgid "Checking Gaps in the Drawing Outline"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:227
+#: ../../source/painting_animation_levels.rst:440
+msgid ""
+"To control the drawing outline and see if areas are well-defined in order"
+" to be filled with colors, it is possible to activate a series of checks:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:229
+msgid ""
+"The Gap Check highlights with magenta lines the gaps that can be "
+"automatically closed by using the Tape tool ( |Toonz71_176| ) with its "
+"current settings; if you change the Distance and Angle value of the Tape "
+"tool while the check is activated, you can check interactively the gaps "
+"that are detected."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:233
+msgid ""
+"The Fill Check displays all the well-defined areas that can be filled "
+"with colors in grey, all the lines or vectors in black, and the not well-"
+"defined areas and background in white; if the Black BG Check is "
+"activated, all the lines or vectors are displayed in white (see  "
+":ref:`Checking Painted Drawings <checking_painted_drawings>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:235
+#: ../../source/painting_animation_levels.rst:448
+msgid ""
+"All the checks can also be combined in order to achieve specific display "
+"modes (see also  :ref:`Checking Painted Drawings "
+"<checking_painted_drawings>` )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:237
+#: ../../source/painting_animation_levels.rst:450
+msgid "**To check if gaps occur in the drawing outline:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:239
+#: ../../source/painting_animation_levels.rst:452
+msgid "Activate or deactivate the Gap Check from the View menu."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:241
+#: ../../source/painting_animation_levels.rst:454
+msgid "**To check if the areas in the drawing are well-defined:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:243
+#: ../../source/painting_animation_levels.rst:456
+msgid "Activate or deactivate the Fill Check from the View menu."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:248
+#: ../../source/painting_animation_levels.rst:459
+msgid "Checking Painted Drawings"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:249
+#: ../../source/painting_animation_levels.rst:460
+msgid ""
+"To control if all the drawings areas are properly painted, and to see if "
+"the filling left small gaps along the line antialiasing, or where a "
+"certain style is used to paint lines or areas, it is possible to activate"
+" a series of checks:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:251
+#: ../../source/painting_animation_levels.rst:462
+msgid ""
+"The Transparency Check displays all the painted areas in the color "
+"defined in Preferences>Transparency Check>Paint Color, all the lines or "
+"vectors in the Color defined in Preferences>Transparency Check>Ink Colors"
+" on White Bg or Preferences>Transparency Check>Ink Colors on Black Bg "
+"depending on the chosen Bg color."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:253
+#: ../../source/painting_animation_levels.rst:464
+msgid ""
+"The Ink Check displays the lines or vectors colored with the current "
+"style in red."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:255
+#: ../../source/painting_animation_levels.rst:466
+msgid "The Paint Check displays the areas painted with the current color in red."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:257
+msgid ""
+"The Black BG Check displays the background colors defined in the scene "
+"settings for the viewer and the camera in black (see  :ref:`Customizing "
+"the Work Area <customizing_the_work_area>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:259
+#: ../../source/painting_animation_levels.rst:470
+msgid ""
+"All the checks can also be combined in order to achieve specific display "
+"modes (see also  :ref:`Checking Gaps in the Drawing Outline "
+"<checking_gaps_in_the_drawing_outline>` )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:261
+#: ../../source/painting_animation_levels.rst:472
+msgid "**To activate or deactivate a check:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:263
+#: ../../source/painting_animation_levels.rst:474
+msgid "Activate or deactivate the check from the View menu."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:271
+#: ../../source/painting_animation_levels.rst:480
+msgid "Painting Outlines"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:272
+msgid ""
+"Drawing outline can be painted with the Fill tool ( |Toonz71_178| ). For "
+"Toonz raster drawings, the Fill tool ("
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:274
+msgid ""
+"|Toonz71_179| ) affects the continuous outline sharing the same style; "
+"for Toonz vector drawings, only a single vector at a time."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:278
+msgid ""
+"For Toonz raster drawings, the outline can be also painted with the Paint"
+" Brush tool ( |Toonz71_180| ) set to Lines mode. In this case by setting "
+"the size of the tool, you can paint any section of the outline as if you "
+"were using a brush."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:282
+#: ../../source/painting_animation_levels.rst:491
+msgid ""
+"For Toonz vector drawings, a vector can be also painted by selecting it "
+"first, then selecting the style you want in the animation level palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:284
+#: ../../source/painting_animation_levels.rst:493
+msgid "**To paint a raster outline:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:286
+#: ../../source/painting_animation_levels.rst:495
+msgid ""
+"Select the Fill tool (), set the fill mode to Lines and select a style in"
+" the palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:288
+#: ../../source/painting_animation_levels.rst:497
+msgid "Click the outline you want to paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:290
+#: ../../source/painting_animation_levels.rst:499
+msgid "**To paint a vector:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:294
+msgid ""
+"Select the Fill tool ( |Toonz71_182| ), set the fill mode to Lines, "
+"select a style in the palette and click the vector you want to paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:298
+msgid ""
+"Select the vectors you want to paint with the Selection tool ( "
+"|Toonz71_183| ), then select a style in the palette (see  :ref:`Using the"
+" Selection Tool <using_the_selection_tool>`  )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:300
+#: ../../source/painting_animation_levels.rst:509
+msgid "**To paint a raster outline partially:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:304
+msgid ""
+"Select the Fill tool ( |Toonz71_184| ), set the fill mode to Lines, "
+"activate the Segment option, and click the outline section you want to "
+"paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:308
+msgid ""
+"Select the Paint Brush tool ( |Toonz71_185| ), set the mode to Lines and "
+"use it on the outline section you want to paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:310
+msgid ""
+"Use the Paint Brush tool ( |Toonz71_186| ) with the proper style to split"
+" a continuous outline into sections, then use the Fill tool ( "
+"|Toonz71_187| ) to paint the separated sections."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:312
+#: ../../source/painting_animation_levels.rst:521
+msgid "**To paint several separated outlines, or vectors, at once:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:314
+#: ../../source/painting_animation_levels.rst:523
+msgid "Select the Fill tool (), set the fill mode to Lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:318
+#: ../../source/painting_animation_levels.rst:527
+msgid ""
+"Set the type to Rectangular and click and drag to define a box: all the "
+"outlines included in the box will be painted with the current style."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:320
+#: ../../source/painting_animation_levels.rst:529
+msgid ""
+"Set the type to Freehand and click and drag to outline an area: all the "
+"outlines included in the area you outline will be painted with the "
+"current style. If the ends of the outline you draw are open, the area "
+"will be defined as if joining the two open ends."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:322
+#: ../../source/painting_animation_levels.rst:531
+msgid ""
+"Set the type to Polyline and click to outline an area by defining a "
+"series of lines: all the outlines completely included in the area you "
+"outline will be painted with the current style. If the ends of the "
+"outline you draw are open, the area will be defined as if joining the two"
+" open ends."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:324
+#: ../../source/painting_animation_levels.rst:533
+msgid "A vector is painted only if it is fully included in the area you define."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:326
+#: ../../source/painting_animation_levels.rst:535
+msgid ""
+"**To paint outlines, or vectors, in several frames with a single "
+"command:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:328
+#: ../../source/painting_animation_levels.rst:537
+msgid ""
+"Select the Fill tool (), set the fill mode to Lines and activate the "
+"Frame Range option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:330
+#: ../../source/painting_animation_levels.rst:539
+msgid ""
+"Select the first frame of the range and click the outline you want to "
+"paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:334
+#: ../../source/painting_animation_levels.rst:543
+msgid ""
+"Select the last frame of the range you want to apply the paint to, and "
+"click the same outline: the outline in all the frames in the range will "
+"be automatically painted according to the first and second clicking "
+"positions."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:336
+#: ../../source/painting_animation_levels.rst:545
+msgid ""
+"Select an intermediate frame of the range you want to apply the paint to,"
+" and shift-click in the same outline: the outline in all of the frames in"
+" the range will be automatically painted according to the first and "
+"second clicking positions. Select another intermediate frame and shift-"
+"click again: the outline in all of the frames in the new range will be "
+"automatically painted according to the second and third clicking "
+"positions. Do the same as many times as you like, then click in the same "
+"outline on the last frame of the range to complete the multi frame "
+"painting mode."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:338
+msgid ""
+"Since the Fill tool ( |Toonz71_190| ) with the Frame Range option is "
+"applied making a linear interpolation from the first to the second "
+"clicking point, some painting mistakes may occur. The more the outline "
+"you want to fill moves along the frame range, the more mistakes may be "
+"made."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:340
+#: ../../source/painting_animation_levels.rst:549
+msgid "**To paint an outline using as reference a previously painted drawing:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:344
+msgid ""
+"Select the Fill tool ( |Toonz71_191| ), set the fill mode to Lines and "
+"activate the Onion Skin option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:350
+#: ../../source/painting_animation_levels.rst:559
+msgid "Release to paint the outline where the cursor is."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:352
+#: ../../source/painting_animation_levels.rst:561
+msgid "Drag to the outline you want to paint and release the mouse button."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:358
+#: ../../source/painting_animation_levels.rst:570
+msgid ""
+"Click the outline whose style you want to pick. The picked style becomes "
+"the current one."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:364
+msgid ""
+"If the area outline is not perfectly defined, you will not be able to "
+"fill it. The gap can be closed by adding a line with the Brush ( "
+"|Toonz71_193| ) or Geometric tool ("
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:366
+msgid "|Toonz71_194| ) (see"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:368
+msgid ":ref:`Drawing Tools <drawing_tools>`  for details), or by using the"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:372
+msgid "|Toonz71_195| )."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:376
+msgid ""
+"For Toonz vector drawings the Tape tool ( |Toonz71_196| ) allows you to "
+"join vectors manually or automatically, both considering their endpoints "
+"and any point along the vectors themselves, according to the tool "
+"settings. Options available are the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:388
+msgid ""
+"Join Vectors, when activated, connects the join vector to the endpoint "
+"thus creating a single vector; if deactivated the join vector will be a "
+"new vector (see  :ref:`Joining and Splitting <joining_and_splitting>`  "
+"for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:394
+msgid ""
+"For Toonz raster drawings the Tape tool ( |Toonz71_197| ) automatically "
+"joins the open ends detected in the drawing according to the tool "
+"settings. Options available are the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:442
+msgid ""
+"The Gap Check highlights with magenta lines the gaps that can be "
+"automatically closed by using the Tape tool ( |Toonz71_202| ) with its "
+"current settings; if you change the Distance and Angle value of the Tape "
+"tool while the check is activated, you can check interactively the gaps "
+"that are detected."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:446
+msgid ""
+"The Fill Check displays all the well-defined areas that can be filled "
+"with colors in grey, all the lines or vectors in black, and the not well-"
+"defined areas and background in white; if the Black BG Check is "
+"activated, all the lines or vectors are displayed in white (see  "
+":ref:`Checking Painted Drawings <checking_painted_drawings>`  for "
+"details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:468
+msgid ""
+"The Black BG Check displays the background colors defined in the scene "
+"settings for the viewer and the camera in black (see  :ref:`Customizing "
+"the Work Area <customizing_the_work_area>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:481
+msgid ""
+"Drawing outline can be painted with the Fill tool ( |Toonz71_204| ). For "
+"Toonz raster drawings, the Fill tool ("
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:483
+msgid ""
+"|Toonz71_205| ) affects the continuous outline sharing the same style; "
+"for Toonz vector drawings, only a single vector at a time."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:487
+msgid ""
+"For Toonz raster drawings, the outline can be also painted with the Paint"
+" Brush tool ( |Toonz71_206| ) set to Lines mode. In this case by setting "
+"the size of the tool, you can paint any section of the outline as if you "
+"were using a brush."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:503
+msgid ""
+"Select the Fill tool ( |Toonz71_208| ), set the fill mode to Lines, "
+"select a style in the palette and click the vector you want to paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:507
+msgid ""
+"Select the vectors you want to paint with the Selection tool ( "
+"|Toonz71_209| ), then select a style in the palette (see  :ref:`Using the"
+" Selection Tool <using_the_selection_tool>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:513
+msgid ""
+"Select the Fill tool ( |Toonz71_210| ), set the fill mode to Lines, "
+"activate the Segment option, and click the outline section you want to "
+"paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:517
+msgid ""
+"Select the Paint Brush tool ( |Toonz71_211| ), set the mode to Lines and "
+"use it on the outline section you want to paint."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:519
+msgid ""
+"Use the Paint Brush tool ( |Toonz71_212| ) with the proper style to split"
+" a continuous outline into sections, then use the Fill tool ( "
+"|Toonz71_213| ) to paint the separated sections."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:547
+msgid ""
+"Since the Fill tool ( |Toonz71_216| ) with the Frame Range option is "
+"applied making a linear interpolation from the first to the second "
+"clicking point, some painting mistakes may occur. The more the outline "
+"you want to fill moves along the frame range, the more mistakes may be "
+"made."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:551
+msgid ""
+"Activate the onion skin mode to display the painted drawing behind your "
+"current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  for "
+"details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:553
+msgid ""
+"Select the Fill tool ( |Toonz71_217| ), set the fill mode to Lines and "
+"activate the Onion Skin option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:574
+msgid "Using Match Lines"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:575
+msgid ""
+"Sometimes it may be useful to split a hand-drawn animation level into "
+"several animation levels that can be scanned separately and later re-"
+"assembled before the painting process. For example you can draw an "
+"animation level with some shadow lines that match perfectly a character "
+"animation, then apply them with a color different from the character "
+"outline in order to paint them more easily."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:577
+msgid ""
+"Some other times you may need to merge two or several animation levels "
+"into a single one, or automatically add the same drawing on all the "
+"drawings of an animation level, for example a line closing the drawing "
+"areas that fall outside the shot and that the animator left open."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:579
+msgid ""
+"In both cases you can use the match lines feature to achieve your tasks "
+"as it allows you to merge the levels exposed in two columns, and if "
+"needed to delete the merged match lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:581
+msgid "Match lines can be applied to raster Toonz animation levels only (TLV)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:583
+msgid ""
+"When two columns are merged, the column drawings on the right are "
+"considered as match lines applied to the drawings on the left, and it is "
+"possible to define the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:585
+msgid ""
+"Add Match Line Styles preserves the original match line styles and adds "
+"them to the destination level palette in a separate page named match "
+"line."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:587
+msgid ""
+"Use Style allows you to define which style among those in the destination"
+" level palette has to be used for the applied match lines, replacing any "
+"original styles the match lines may be painted with."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:589
+msgid ""
+"Line Prevalence sets whether the match lines have to be placed behind the"
+" lines of the destination level (value set to 0), or on top of them "
+"(value set to 100)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:591
+msgid ""
+"When the Line Prevalence value is set to 0, the match lines are applied "
+"without modifying the lines in the destination level at all."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:593
+msgid ""
+"When the match lines are applied, any geometrical transformation achieved"
+" by editing and moving the related column or pegbar, will be retained."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:595
+msgid ""
+"Match lines are associated to the animation level drawings according to "
+"the following guidelines:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:597
+msgid ""
+"The xsheet frame numbering order is followed. This means that the match "
+"line drawing exposed at frame 1 will be applied to the animation drawing "
+"exposed at frame 1."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:599
+msgid ""
+"If two different match line drawings are associated to the same animation"
+" level drawing at different frames, only the first one according to the "
+"frame numbering order will be applied."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:601
+msgid ""
+"For all the drawings not corresponding to any match line drawing, no "
+"match lines will be applied."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:603
+msgid "Match lines not corresponding to any drawing will be ignored."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:605
+msgid ""
+"If several animation levels are exposed in the column to which match "
+"lines have to be applied, only the first one according to the frame "
+"numbering order will be considered."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:607
+msgid ""
+"If several animation levels are exposed in the column used as match line,"
+" all of them will be applied."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:609
+msgid ""
+"Several match lines can be added to the same animation level, by applying"
+" them one at a time."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:611
+msgid ""
+"Applied match lines can be deleted as a whole from the destination level,"
+" or it is possible to delete specific lines according to their style "
+"indexes."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:613
+msgid "**To apply match lines to an animation level:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:615
+msgid "Expose in a column the level you want to apply the match lines to."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:617
+msgid ""
+"Expose the match line animation levels or drawings in another column, to "
+"the right of the previous one."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:619
+msgid "Move, scale, rotate the match line drawings if needed."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:621
+msgid "Select the two columns by shift-clicking their headers."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:623
+msgid "Choose Xsheet > Apply Match Lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:625
+msgid ""
+"In the dialog that opens choose the styles to be used for the match lines"
+" and the lines prevalence, and click the Apply button."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:627
+msgid "**To delete all applied match lines:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:629
+msgid ""
+"Select the columns, the cells, or the level strip frames where the "
+"animation level with the applied match lines is."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:631
+msgid "Choose Xsheet > Delete Match Lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:633
+msgid "**To delete lines by selecting the style index:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:635
+msgid ""
+"Select the columns, the cells, or the level strip frames where the "
+"animation level whose lines you want to delete is."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:637
+msgid "Choose Xsheet > Delete Lines."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:639
+msgid ""
+"In the dialog that opens choose the indexes of the styles used for lines "
+"you want to delete, and the frames where you want to apply the deletion."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:641
+msgid "Click the Delete button."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:643
+msgid ""
+"To specify multiple indexes or frames, values have to be separated by a "
+"comma; to define a range of values, you can type the first and the last "
+"separated by a dash (e.g. 4-7 will refer to values 4, 5, 6 and 7)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:648
+msgid "Using the Autopaint for Lines Option"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:649
+msgid ""
+"Toonz raster levels may include colored lines coming from a color cleanup"
+" session, or from some applied match line levels (see  :ref:`Processing "
+"Colored Lineart Drawings <processing_colored_lineart_drawings>`  and  "
+":ref:`Using Match Lines <using_match_lines>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:654
+msgid ""
+"In most of the cases these colored lines are meant to set the outline of "
+"the body shadow, or of the body highlight, and for this reason usually "
+"they have to be painted the same color of the shadow or highlight areas "
+"they define."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:656
+msgid ""
+"This task can be performed automatically by setting a special property "
+"for the color, so that when you paint an area defined totally or "
+"partially by a line whose color has this property, the line is "
+"automatically painted with the same color you use for the area."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:658
+msgid "**To set the autopaint property for a color:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:660
+msgid "Select the color in the palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:662
+msgid ""
+"In the style editor select the Settings page and activate the Autopaint "
+"for Lines option."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:664
+msgid "**To automatically paint lines when painting areas:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:666
+msgid ""
+"Paint an area defined totally or partially by a line whose color has the "
+"Autopaint for Lines option activated: the line is automatically painted "
+"with the same color you use for the area."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:671
+msgid "Using a Color Model"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:672
+msgid ""
+"Color models, usually created for accurate color-referencing during a "
+"production in the form of images or animation levels, can be used for "
+"painting animation levels."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:674
+msgid ""
+"Any image or animation level can be used as a reference by loading it in "
+"the color model viewer. In case an animation level is loaded, you can "
+"select any frame as a reference at any moment; in this way you can also "
+"create color models made of several drawings, for example one drawing for"
+" the front view of the character, and one for the back view."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:676
+msgid "|Toonz71_220|"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:678
+msgid ""
+"When a color model is loaded for the current level, you can decide to "
+"load its palette, thus overwriting the current level palette, or to keep "
+"the current animation level palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:680
+msgid ""
+"If the color model is a Toonz raster or vector level (TLV or PLI file), "
+"it already comes with a palette, whose style names and page configuration"
+" will be preserved."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:682
+msgid ""
+"If the color model is a full-color image or animation level, the palette "
+"is automatically generated by extracting colors from the image, or the "
+"first image of the level. If the full-color image contains many shaded "
+"colors, the palette will be optimized to reduce the number of colors; "
+"best results can be achieved by preparing models painted with flat colors"
+" and whose outline has no antialiasing."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:684
+msgid ""
+"When a color model is loaded for a certain animation level, it is "
+"associated to that level and the related palette, and it is displayed in "
+"the color model viewer every time that level is selected."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:686
+msgid ""
+"A color model can be associated to palettes stored in the studio palette."
+" In this way every time you assign a palette to an animation level "
+"retrieving it from the studio palette, its related color model will be "
+"automatically associated to the level (see  :ref:`Using the Studio "
+"Palette <using_the_studio_palette>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:688
+msgid ""
+"You can also use any drawing belonging to the animation level as a color "
+"model to be used on the fly, but in this case it will neither be "
+"associated to the level, nor to the palette saved in the studio palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:690
+msgid ""
+"When the image is displayed in the color model viewer, you can use it not"
+" only as visual reference, but also for picking styles with no need to "
+"use the palette or the Style Picker tool ( |Toonz71_221| ). The color "
+"model can also be panned and zoomed in or out by using standard "
+"shortcuts."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:694
+msgid "**To load a color model:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:698
+msgid ""
+"Choose File > Load Color Model, and load the Toonz level or the full "
+"color image you want to use as a reference."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:700
+msgid ""
+"Right-Click in the color model viewer and choose Load Color Model from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:702
+msgid ""
+"Drag and drop the Toonz level or the full color image you want to use as "
+"reference to the color model viewer."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:704
+msgid ""
+"Choose whether to overwrite current palette with the color model palette "
+"or to keep the current animation level palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:706
+msgid ""
+"If you decide to keep the current animation level palette, the current "
+"level palette will be applied to the color model as well."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:708
+msgid "**To select a frame from the loaded color model level:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:712
+msgid "Use the playback buttons."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:714
+msgid "Drag the frame bar cursor."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:716
+msgid "Type in the frame bar field the number of the frame you want to view."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:718
+msgid "**To pick styles from a color model:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:720
+msgid ""
+"Click the area or outline whose style you want to pick, whatever your "
+"current tool is."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:722
+msgid ""
+"If you are using a full-color image as reference and you decided to keep "
+"the current animation level palette, when you click an area or an "
+"outline, the closest style available in the palette will be picked."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:724
+msgid "**To navigate the color model viewer:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:728
+msgid ""
+"Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom "
+"out at specific steps (e.g. 50%, 100%, 200%, etc.)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:730
+msgid "Use the mouse wheel to zoom in and zoom out."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:732
+msgid ""
+"Use the reset view shortcut (by default the 0 key), or right-click in the"
+" viewer and choose Reset View from the menu that opens, to display the "
+"flipbook content at its actual size, centered on the image center."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:734
+msgid "Middle-click and drag to scroll in any direction."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:736
+msgid "**To create a color model from an original drawing:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:738
+msgid "Scan and cleanup, or draw, your color model."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:740
+msgid "Create the needed styles in the palette and paint the image."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:742
+msgid "Save the image and load it as color model whenever it is needed."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:744
+msgid "**To use a drawing from the current animation level as a model:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:746
+msgid ""
+"Select the drawing you want to use as a reference for the current "
+"animation level."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:748
+msgid ""
+"Right-click in the color model viewer and choose Use Current Frame from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:750
+msgid "**To store a color model together with a palette in the studio palette:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:752
+msgid "Load the color model to associate it to the current level palette."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:754
+msgid ""
+"Store the level palette in the studio palette (see  :ref:`Using the "
+"Studio Palette <using_the_studio_palette>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:756
+msgid ""
+"**To associate a color model to a palette already saved in the studio "
+"palette:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:758
+msgid ""
+"In the studio palette select the palette to which you want to associate a"
+" color model, and do one of the following:"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:760
+msgid "Choose File > Load Color Model."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:762
+msgid ""
+"Right-click the palette in the studio palette tree and choose Load Color "
+"Model from the menu that opens (see  :ref:`Using the Studio Palette "
+"<using_the_studio_palette>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:764
+msgid "Retrieve the color model from the browser that opens."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:766
+msgid ""
+"If the color model uses a palette different from the one stored in the "
+"studio palette, you will be prompted whether to keep or to overwrite it."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:768
+msgid "**To retrieve a color model stored in the studio palette:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:770
+msgid ""
+"Load the palette it is associated to from the studio palette as the "
+"current level palette (see  :ref:`Using the Studio Palette "
+"<using_the_studio_palette>`  for details)."
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:772
+msgid "**To remove the association of a palette to a color model:**"
+msgstr ""
+
+#: ../../source/painting_animation_levels.rst:774
+msgid ""
+"Right-click in the color model viewer and choose Remove Color Model from "
+"the menu that opens."
+msgstr ""
+
