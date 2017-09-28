@@ -122,13 +122,15 @@ First , launch Git Bash and move to `opentoonz_docs` folder using `cd` command
       
     - If there is conflicts, message will appear like;
     
-      `CONFLICT (content): Merge conflict in path/to/file/name`
+      `CONFLICT (content): Merge conflict in path/to/conflicted/file.rst`
       
     - Use `$ git status` to list conflicted files
     
     - Open the conflicted file and resolve the coflicted part (appears as below) manually
       
       ```
+      path/to/conflicted/file.rst
+      
       <<<<<<< HEAD
       CHANGES_IN_YOUR_COMMIT
       =======
@@ -136,7 +138,7 @@ First , launch Git Bash and move to `opentoonz_docs` folder using `cd` command
       >>>>>>> [commit id]
       ```
     
-    - `$ git add path/to/conflicted/file/name` for all conflicted files
+    - `$ git add path/to/conflicted/file.rst` for all conflicted files
     
     - `$ git commit`
          
