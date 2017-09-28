@@ -11,6 +11,7 @@ This document describes contribution process for OpenToonz User Manual.
 - Install Python
   
   Confirmed working with [Anaconda](https://www.anaconda.com/download/) distribution Python 2.7 version. Python 3.6 version should work, I guess.
+  
   Anaconda Prompt will be installed accordingly. Command Prompt will work if the Python is added to PATH on installation.
 
 ## Preparation (to be done once for the first time)
@@ -30,6 +31,7 @@ This document describes contribution process for OpenToonz User Manual.
    - Clone
    
      `$ git clone https://github.com/your_github_account_name/opentoonz_docs.git`
+     
      The folder `opentoonz_docs` will be created under the current folder.
      
    - Move into opentoonz local repositry
@@ -63,7 +65,8 @@ This document describes contribution process for OpenToonz User Manual.
    - Make HTML
    
      `$ make html`
-     he result HTML files will be generated under `build/html/`
+     
+     The result HTML files will be generated under `build/html/`
 
 ## Workflow (to be done each time you modify the code)
 
@@ -173,6 +176,7 @@ Please see [Sphinx/reStructuredText documentation](http://www.sphinx-doc.org/en/
   `$ sphinx-intl update -p build/gettext -l ja`
 
   Please replace `ja` by the language you would like to translate. See [the sphinx manual](http://www.sphinx-doc.org/en/stable/config.html#confval-language) for supported languages.
+  
   Then .po files will be generated in `source/locale/ja/LC_MESSAGES`.
 
 - To update .po to the latest version, do the same commands again;
