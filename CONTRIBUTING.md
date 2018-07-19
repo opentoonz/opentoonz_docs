@@ -211,5 +211,10 @@ Please see [Sphinx/reStructuredText documentation](http://www.sphinx-doc.org/en/
 - Generate the translated-version HTML locally
 
   `$ make SPHINXOPTS="-D language='ja'" html`
-
+  or
+  ```
+  $ set SPHINXOPTS=-D language=ja
+  $ make.bat html
+  ```
+  
 - NOTE : To include the translation to the User Manual, some settings in Read the Docs is needed. Please let me (@shun-iwasawa) know when you firstly merge your language translation.
