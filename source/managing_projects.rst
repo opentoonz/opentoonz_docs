@@ -61,8 +61,7 @@ The projectroot information can be changed at any moment, for instance if you ne
     2. In the folder that opens browse to the ``Contents/Resources``  folder and open the ``SystemVar.ini``  file with a text editor application, such as TextEdit.
 
     3. Look for the following line where the projectroot is defined:
-
-``TOONZPROJECTS=”/Applications/Toonz 7.0 /Toonz 7.0`` ``stuff/projects”`` 
+    ``TOONZPROJECTS=”/Applications/Toonz 7.0 /Toonz 7.0 stuff/projects”`` 
 
     4. Change the path in inverted commas by typing a new one.
 
