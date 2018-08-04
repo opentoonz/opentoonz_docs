@@ -1,6 +1,6 @@
 .. _editing_curves_and_numerical_columns:
 
-Editing Curves and Numerical Columns
+Editing Using Spreadsheet and Curves
 ====================================
 Object and FX transformations are mapped in the function editor window, where set key values and related interpolations can be controlled and modified by using a spreadsheet of numerical columns or a graph editor.
 
