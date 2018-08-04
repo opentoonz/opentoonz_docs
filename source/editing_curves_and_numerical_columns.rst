@@ -14,9 +14,9 @@ Curves and columns are different representations of the same transformation, so 
 
 Using the Function Editor
 -------------------------
-The function editor window is divided into three sections. On the left there is the objects/FX tree, on the right top an area where the curves or the numerical columns are displayed, and on the right bottom an area where the interpolation of the current transformation segment is displayed.
+The function editor window is divided into three sections. On the left there is an area where the numerical columns or curves are displayed, on the right top an area where the interpolation of the current transformation segment is displayed, and on the right bottom there is the objects/FX tree.
 
-The tree has two main items, Stage and FX: in the first you can find folders for defined cameras, the table, used pegbars and columns; in the second you can find folders for each used effect. Each folder contains the related transformation parameters.
+The tree has two main items, Stage and FX: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each used effect. Each folder contains the related transformation parameters.
 
 The objects/FX tree tells if the object/effect is animated and which parameter is animated, by using the following icons:
 
