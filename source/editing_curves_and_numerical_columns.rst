@@ -14,6 +14,9 @@ Curves and columns are different representations of the same transformation, so 
 
 Using the Function Editor
 -------------------------
+
+|function_editor_1|
+
 The function editor window is divided into three sections. On the left there is an area where the numerical columns or curves are displayed, on the right top an area where the interpolation of the current transformation segment is displayed, and on the right bottom there is the objects/FX tree.
 
 The tree has two main items, Stage and FX: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each used effect. Each folder contains the related transformation parameters.
@@ -751,6 +754,7 @@ As concerning interpolation, if all the visible curves have a key at the same sp
 
     Move the markers visible on the sides of the key points.
 
+.. |function_editor_1| image:: /_static/function_editor_1.png
 .. |Toonz71_520| image:: /_static/Toonz71/Toonz71_520.gif
 .. |Toonz71_521| image:: /_static/Toonz71/Toonz71_521.gif
 .. |Toonz71_522| image:: /_static/Toonz71/Toonz71_522.gif
