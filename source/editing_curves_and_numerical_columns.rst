@@ -333,6 +333,9 @@ In the same area it is also possible to define an interpolation step, that is to
 
 Using Linear Interpolations
 '''''''''''''''''''''''''''
+
+|function_editor_iLinear|
+
 When the interpolation is linear the curve segment turns to a straight line and the speed of the transformation is constant.
 
 .. tip:: **To set a linear interpolation:**
@@ -348,6 +351,9 @@ When the interpolation is linear the curve segment turns to a straight line and 
 
 Using Speed In / Speed Out Interpolations
 '''''''''''''''''''''''''''''''''''''''''
+
+|function_editor_iSpeed|
+
 When the interpolation is speed in / speed out, both control points at the ends of the segment have handles whose direction and length define the slope of the curve, therefore the speed of the transformation. The handles direction and length can be set by entering values in the interpolation area of the function editor, or by dragging the handles themselves.
 
 By default the handles are linked, making their degree of movement dependent on adjacent segments in order to define a smooth curve, but the link can be broken in order to move the handle freely. For example if subsequent segments have the speed in / speed out interpolation, the handles of the shared points share the same direction, but breaking the link each handle can have a different direction. 
@@ -397,6 +403,9 @@ Handles can also be collapsed in control points in order to turn them into corne
 
 Using Ease In / Ease Out Interpolations
 '''''''''''''''''''''''''''''''''''''''
+
+|function_editor_iEase|
+
 When the interpolation is ease in / ease out, the segment is divided into three sections by two vertical lines: the first section is an acceleration, the second is at constant speed, the third is a deceleration. The duration in frames of each section can be set by entering values in the interpolation area of the function editor, or by dragging the vertical lines available on the segment.
 
 .. tip:: **To set an ease in / ease out interpolation:**
@@ -422,6 +431,9 @@ When the interpolation is ease in / ease out, the segment is divided into three 
 
 Using Ease In / Ease Out % Interpolations
 '''''''''''''''''''''''''''''''''''''''''
+
+|function_editor_iEasePer|
+
 The ease in / ease out % interpolation is similar to the ease in / ease out one, but the ease in and ease out sections of the segments are expressed as a percentage of the segment frame duration.
 
 .. tip:: **To set an ease in / ease out % interpolation:**
@@ -447,6 +459,9 @@ The ease in / ease out % interpolation is similar to the ease in / ease out one,
 
 Using Exponential Interpolations
 ''''''''''''''''''''''''''''''''
+
+|function_editor_iExpon|
+
 When the interpolation is exponential the curve segment turns to a curve that continually becomes steeper, because of that, the higher the frame, the faster the related value grows. Only positive values are significant for this interpolation.
 
 .. tip:: **To set an exponential interpolation:**
@@ -462,6 +477,9 @@ When the interpolation is exponential the curve segment turns to a curve that co
 
 Using Interpolations Based on Expressions
 '''''''''''''''''''''''''''''''''''''''''
+
+|function_editor_iExpres|
+
 When the interpolation is defined by an expression, the segment values come from a mathematical formula that can be typed by using algebra notations. In this case the key values at both ends of the segment may change as well, according to the typed expression.
 
 While typing the expression, if the syntax is recognized, a menu automatically opens suggesting you the possible terms: from the menu you can select the term both to display in a tooltip box its correct syntax, and to insert it in the expression.
@@ -662,6 +680,9 @@ For example ``fx.blur2.value``  refers to the Value setting of the effect Blur2;
 
 Using Interpolations Based on File Data
 '''''''''''''''''''''''''''''''''''''''
+
+|function_editor_iFile|
+
 When an interpolation is based on file data, the segment values are retrieved from the file content. In this case the key values at both ends of the segment may change as well, according to the file data.
 
 The file can be created by an external device or other applications, such as motion-control camera or 3D software; supported file formats are BAT, DAT, RTF and TXT.
@@ -703,6 +724,9 @@ The unit used for the data is displayed in a box next to the file path; in case 
 
 Using Constant Interpolations
 '''''''''''''''''''''''''''''
+
+|function_editor_iConst|
+
 When an interpolation is constant, the segment values are always equal to the value of the first key defining the segment.
 
 .. tip:: **To set a constant interpolation:**
@@ -718,6 +742,9 @@ When an interpolation is constant, the segment values are always equal to the va
 
 Using Interpolations Based on Similar Shapes
 ''''''''''''''''''''''''''''''''''''''''''''
+
+|function_editor_iSimilar|
+
 When the interpolation is based on a similar shape, the segment values changes according to the shape of the curve you specify as reference (see  :ref:`Using Transformation References <using_transformation_references>`  ). As soon as the interpolation is set, whenever the reference curve is edited, the segment will change accordingly.
 
 This interpolation proves useful when you want to control at once several curves: if all of them share the same reference curve, by modifying the reference curve you will modify automatically all the curves referring to it.
@@ -770,6 +797,15 @@ With respect to interpolation, if all the visible curves have a key at the same 
     Move the markers visible on the sides of the key points.
 
 .. |function_editor_1| image:: /_static/function_editor_1.png
+.. |function_editor_iLinear| image:: /_static/function_editor_iLinear.png
+.. |function_editor_iSpeed| image:: /_static/function_editor_iSpeed.png
+.. |function_editor_iEase| image:: /_static/function_editor_iEase.png
+.. |function_editor_iEasePer| image:: /_static/function_editor_iEasePer.png
+.. |function_editor_iExpon| image:: /_static/function_editor_iExpon.png
+.. |function_editor_iExpres| image:: /_static/function_editor_iExpres.png
+.. |function_editor_iFile| image:: /_static/function_editor_iFile.png
+.. |function_editor_iConst| image:: /_static/function_editor_iConst.png
+.. |function_editor_iSimilar| image:: /_static/function_editor_iSimilar.png
 .. |Toonz71_520| image:: /_static/Toonz71/Toonz71_520.gif
 .. |Toonz71_521| image:: /_static/Toonz71/Toonz71_521.gif
 .. |Toonz71_522| image:: /_static/Toonz71/Toonz71_522.gif
