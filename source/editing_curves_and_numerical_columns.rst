@@ -142,6 +142,9 @@ In spreadsheet numerical columns they are displayed in specific cells; in graph 
 
 Using the Spreadsheet
 '''''''''''''''''''''
+
+|function_editor_spreadsheet|
+
 The spreadsheet displays transformations in columns like the ones available in xsheet, having one for each parameter. For each frame the column cells display the related transformation values, that can be edited as in a spreadsheet.
 
 Key values are displayed in different-colored cells, and can be moved along the column to different frame positions. In-between values are automatically generated according to the key values and to the set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ).
@@ -186,6 +189,9 @@ Columns cells can be used to type in directly values for keys, edit or move them
 
 Using the Graph Editor
 ''''''''''''''''''''''
+
+|function_editor_grapheditor|
+
 The Graph Editor display transformations as curves in a graph where frames are laid horizontally, and values are laid vertically. 
 
 Curves are defined by control points representing key values. Points can be easily added by working directly in the graph or using the Set Key button ( |Toonz71_522| ) in the top bar of the editor. 
@@ -797,6 +803,8 @@ With respect to interpolation, if all the visible curves have a key at the same 
     Move the markers visible on the sides of the key points.
 
 .. |function_editor_1| image:: /_static/function_editor_1.png
+.. |function_editor_spreadsheet| image:: /_static/function_editor_spreadsheet.png
+.. |function_editor_grapheditor| image:: /_static/function_editor_grapheditor.png
 .. |function_editor_iLinear| image:: /_static/function_editor_iLinear.png
 .. |function_editor_iSpeed| image:: /_static/function_editor_iSpeed.png
 .. |function_editor_iEase| image:: /_static/function_editor_iEase.png
