@@ -487,7 +487,7 @@ Frames are rendered reading images from bottom to top in each cell column.
 See  :ref:`Working in Xsheet <working_in_xsheet>`  .
 
 
-.. _timeline:
+.. _history:
 
 History
 '''''''
@@ -497,6 +497,19 @@ History
 The history pane, lets you check and undo/redo the history of the latest actions performed in the current OpenToonz scene.
 
 See  :ref:`Assigning Memory for the Undo Operation <assigning_memory_for_the_undo_operations>`  .
+
+
+.. _record_audio:
+
+Record Audio
+''''''''''''
+
+|UI_recordaudio|
+
+The record audio window, lets you record a live audio source, listen to it, and insert it into a new column of the xsheet.
+The insertion point will be located at the right of the selected column cell, and starting at the selected cell frame.
+
+.. note:: Currently, this window cannot be docked to form part of a room, like the other ones in the Windows menu. Instead it must be opened as a floating window, when needed.
 
 
 .. _customizing_the_interface_appearance:
