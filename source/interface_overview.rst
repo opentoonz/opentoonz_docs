@@ -536,6 +536,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 .. |UI_viewer| image:: /_static/UI_viewer.png
 .. |UI_comboviewer| image:: /_static/UI_comboviewer.png
 .. |UI_xsheet| image:: /_static/UI_xsheet.png
+.. |UI_timeline| image:: /_static/UI_timeline.png
 .. |UI_history| image:: /_static/UI_history.png
 .. |UI_recordaudio| image:: /_static/UI_recordaudio.png
 
