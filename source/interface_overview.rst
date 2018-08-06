@@ -108,6 +108,9 @@ Below there is a list of the panes that can be used to build rooms and that can 
 
 Batch Servers
 '''''''''''''
+
+|UI_batch|
+
 The Batch Servers window allows you to process the batch list by using the render farm, and contains information about the list of server (rendering) nodes defined for the farm. 
 
 See  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  .
@@ -117,6 +120,9 @@ See  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  .
 
 Color Model
 '''''''''''
+
+|UI_colormodel|
+
 The color model viewer displays the image, or animation level, you loaded as reference to paint the current animation level.
 
 See  :ref:`Using a Color Model <using_a_color_model>`  .
@@ -126,6 +132,9 @@ See  :ref:`Using a Color Model <using_a_color_model>`  .
 
 File Browser
 ''''''''''''
+
+|UI_filebrowser|
+
 The file browser allows you to load and save files, and to access projects.
 
 On the left there is a file tree with some main folders containing material stored on your computer: My Computer, Network, My Documents, History, Library and Projects. You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right.
@@ -137,6 +146,9 @@ See  :ref:`Managing Projects <managing_projects>`  and  :ref:`Using the File Bro
 
 Flipbook
 ''''''''
+
+|UI_flipbook|
+
 The flipbook can display animation levels, clips or sequences of images. It can be used to check levels for instance before loading them, or to control a rendered sequence. 
 
 See  :ref:`Using the Flipbook <using_the_flipbook>`  .
@@ -146,6 +158,9 @@ See  :ref:`Using the Flipbook <using_the_flipbook>`  .
 
 Function Editor
 '''''''''''''''
+
+|UI_functioneditor|
+
 The function editor maps objects and FX transformations with key values and related interpolations by using a spreadsheet or a graph editor. It is divided into two sections: on the left there is an area where the spreadsheet or graph editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/FX tree.
 
 See  :ref:`Using the Function Editor <using_the_function_editor>`  .
@@ -155,6 +170,9 @@ See  :ref:`Using the Function Editor <using_the_function_editor>`  .
 
 Level Strip
 '''''''''''
+
+|UI_levelstrip|
+
 The level strip displays the sequence of drawings belonging to the level currently selected in the xsheet. 
 
 It helps you to edit the sequence of drawings and to see all the drawings of the current level, even if those drawings are not exposed in a xsheet. 
@@ -166,6 +184,9 @@ See  :ref:`Editing Animation Levels <editing_animation_levels>`  .
 
 Message Center
 ''''''''''''''
+
+|UI_messagecenter|
+
 The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
 
 
@@ -173,6 +194,9 @@ The message center displays in a list the messages OpenToonz is sending to the u
 
 Palette
 '''''''
+
+|UI_palette|
+
 It displays the styles defined for the current level, or in case it is inactive the styles defined for a previously selected level.
 
 See  :ref:`The Palette Window <the_palette_window>`  .
@@ -182,6 +206,9 @@ See  :ref:`The Palette Window <the_palette_window>`  .
 
 Scene Cast
 ''''''''''
+
+|UI_scenecast|
+
 The scene cast pane lets you control the files loaded in the scene, save them and load new ones. It can be organized in folders and sub-folders. 
 
 See  :ref:`Using the Scene Cast <using_the_scene_cast>`  .
@@ -191,6 +218,9 @@ See  :ref:`Using the Scene Cast <using_the_scene_cast>`  .
 
 Schematic
 '''''''''
+
+|UI_schematic|
+
 The schematic can alternatively display stage information or special FX usage.
 
 The stage schematic displays as nodes all the objects defined in a scene, i.e. columns, pegbars, cameras, the table and motion paths, and allows you to manage the way they are linked to each other.
@@ -204,6 +234,9 @@ See  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Us
 
 Style Editor
 ''''''''''''
+
+|UI_styleeditor|
+
 The style editor allows you to modify the palette styles. You can choose the type of style among color, texture, vector and raster. There also is a settings tab where you can decide some parameters for the style.
 
 See  :ref:`Editing Styles <editing_styles>`  .
@@ -213,6 +246,9 @@ See  :ref:`Editing Styles <editing_styles>`  .
 
 Studio Palette
 ''''''''''''''
+
+|UI_studiopalette|
+
 The studio palette allows you to store an unlimited number of level palettes. From here any palette can be retrieved and assigned to the current level in order to paint it, with no need to define the same styles again and again. It also includes a viewer displaying the styles of the currently selected palette.
 
 See  :ref:`Using the Studio Palette <using_the_studio_palette>`  .
@@ -222,6 +258,9 @@ See  :ref:`Using the Studio Palette <using_the_studio_palette>`  .
 
 Tasks
 '''''
+
+|UI_tasks|
+
 The Tasks window contains the task tree with all the tasks submitted to the batch processing, and information about the task currently selected in the tree. From the task tree you can start or stop a task execution, or remove it.
 
 See  :ref:`Managing and Executing Render Tasks <managing_and_executing_render_tasks>`  .
@@ -231,6 +270,9 @@ See  :ref:`Managing and Executing Render Tasks <managing_and_executing_render_ta
 
 Toolbar
 '''''''
+
+|UI_toolbar|
+
 The toolbar contains tools to draw, select and edit drawings, and to animate objects like the camera, columns and pegbars. The tools in the toolbar can only be used in the main viewer. 
 
 .. note:: If the toolbar is too short to display all the tools, it can be scrolled by using arrow buttons available at its ends.
@@ -362,6 +404,9 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 Tool Options Bar
 ''''''''''''''''
+
+|UI_tooloptionsbar|
+
 The tool options bar displays settings for the current tool, if it has any.
 
 For example it lets you set the thickness and other properties of the Brush tool.
@@ -373,6 +418,9 @@ For example it lets you set the thickness and other properties of the Brush tool
 
 Viewer
 ''''''
+
+|UI_viewer|
+
 The viewer is the work area where you can draw images and see at the same time the result of your compositing. It is endless and you can scroll, zoom in, zoom out and rotate it the way you prefer.
 
 It has different modes of visualization among which you can choose the more suitable to the operation you are performing.
@@ -384,6 +432,9 @@ See  :ref:`Using the Viewer <using_the_work_area>`  and  :ref:`Previewing the An
 
 Xsheet
 ''''''
+
+|UI_xsheet|
+
 The xsheet allows you to manage the scene content, in the same manner as the timeline. It is organized in columns, and columns are divided into cells, representing the content of that column in that particular frame. In the columns you can load animation levels, clips, images, audio files or other xsheets. 
 
 Each column has its own header containing information about its content. The column on the far left displays the frame number, with a cursor placed on the current frame. The headers area and the frame column are always visible, even when scrolling the xsheet area; in this way it's easier to understand how the scene is built.
@@ -397,6 +448,9 @@ See  :ref:`Working in Xsheet <working_in_xsheet>`  .
 
 Timeline
 ''''''''
+
+|UI_timeline|
+
 The timeline allows you to manage the scene content, in the same manner as the xsheet. It is organized in horizontal layers, and layers are divided into cells, representing the content of that layer in that particular frame. In the layers you can load animation levels, clips, images, audio files or other timelines. 
 
 At the leftmost part each layer has its own header containing information about its content. At the top part of the timeline there is a time ruler that displays the frame number, with a cursor placed on the current frame. The headers area and the time ruler are always visible, even when scrolling the timeline area; in this way it's easier to understand how the scene is built.
@@ -462,4 +516,25 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. |UI_1| image:: /_static/UI_1.png
 .. |UI_rooms| image:: /_static/UI_rooms.png
+.. |UI_batch| image:: /_static/UI_batch.png
+.. |UI_cleanup| image:: /_static/UI_cleanup.png
+.. |UI_colormodel| image:: /_static/UI_colormodel.png
+.. |UI_filebrowser| image:: /_static/UI_filebrowser.png
+.. |UI_flipbook| image:: /_static/UI_flipbook.png
+.. |UI_functioneditor| image:: /_static/UI_functioneditor.png
+.. |UI_levelstrip| image:: /_static/UI_levelstrip.png
+.. |UI_palette| image:: /_static/UI_palette.png
+.. |UI_scenecast| image:: /_static/UI_scenecast.png
+.. |UI_schematic| image:: /_static/UI_schematic.png
+.. |UI_styleeditor| image:: /_static/UI_styleeditor.png
+.. |UI_tasks| image:: /_static/UI_tasks.png
+.. |UI_messagecenter| image:: /_static/UI_messagecenter.png
+.. |UI_toolbar| image:: /_static/UI_toolbar.png
+.. |UI_commandbar| image:: /_static/UI_commandbar.png
+.. |UI_tooloptionsbar| image:: /_static/UI_tooloptionsbar.png
+.. |UI_viewer| image:: /_static/UI_viewer.png
+.. |UI_comboviewer| image:: /_static/UI_comboviewer.png
+.. |UI_xsheet| image:: /_static/UI_xsheet.png
+.. |UI_history| image:: /_static/UI_history.png
+.. |UI_recordaudio| image:: /_static/UI_recordaudio.png
 
