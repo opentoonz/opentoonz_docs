@@ -101,7 +101,7 @@ Most of the panes can be maximized to fill the full interface, and can be added 
 
 Room Panes
 ----------
-Below there is a list of the panes that can be used to build rooms and that can be opened as floating windows.
+Below there is a list of the panes (in the same order in which they appear in the Windows menu) that can be used to build rooms and that can be opened as floating windows.
 
 
 .. _batch_servers:
