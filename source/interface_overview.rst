@@ -12,6 +12,9 @@ OpenToonz interface is organized into rooms, also known as workspaces: each room
 
 Using Rooms
 -----------
+
+|UI_rooms|
+
 Available rooms are listed on the far right of the menu bar. Each of them always displays the content of the current scene.
 
 Rooms can be named and their order can be rearranged. New rooms can be added and existing rooms can be deleted. When a room is added it is empty; to configure it, panes can be added one by one (see below).
@@ -458,3 +461,5 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
     Open and edit with an image editor software the PNG files available in the style folder.
 
 .. |UI_1| image:: /_static/UI_1.png
+.. |UI_rooms| image:: /_static/UI_rooms.png
+
