@@ -2,6 +2,9 @@
 
 Interface Overview
 ==================
+
+|UI_1|
+
 OpenToonz interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
 
 
@@ -454,3 +457,4 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
     Open and edit with an image editor software the PNG files available in the style folder.
 
+.. |UI_1| image:: /_static/UI_1.png
