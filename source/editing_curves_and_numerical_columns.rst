@@ -802,18 +802,18 @@ With respect to interpolation, if all the visible curves have a key at the same 
 
     Move the markers visible on the sides of the key points.
 
-.. |function_editor_1| image:: /_static/function_editor_1.png
-.. |function_editor_spreadsheet| image:: /_static/function_editor_spreadsheet.png
-.. |function_editor_grapheditor| image:: /_static/function_editor_grapheditor.png
-.. |function_editor_iLinear| image:: /_static/function_editor_iLinear.png
-.. |function_editor_iSpeed| image:: /_static/function_editor_iSpeed.png
-.. |function_editor_iEase| image:: /_static/function_editor_iEase.png
-.. |function_editor_iEasePer| image:: /_static/function_editor_iEasePer.png
-.. |function_editor_iExpon| image:: /_static/function_editor_iExpon.png
-.. |function_editor_iExpres| image:: /_static/function_editor_iExpres.png
-.. |function_editor_iFile| image:: /_static/function_editor_iFile.png
-.. |function_editor_iConst| image:: /_static/function_editor_iConst.png
-.. |function_editor_iSimilar| image:: /_static/function_editor_iSimilar.png
+.. |function_editor_1| image:: /_static/function_editor/function_editor_1.png
+.. |function_editor_spreadsheet| image:: /_static/function_editor/function_editor_spreadsheet.png
+.. |function_editor_grapheditor| image:: /_static/function_editor/function_editor_grapheditor.png
+.. |function_editor_iLinear| image:: /_static/function_editor/function_editor_iLinear.png
+.. |function_editor_iSpeed| image:: /_static/function_editor/function_editor_iSpeed.png
+.. |function_editor_iEase| image:: /_static/function_editor/function_editor_iEase.png
+.. |function_editor_iEasePer| image:: /_static/function_editor/function_editor_iEasePer.png
+.. |function_editor_iExpon| image:: /_static/function_editor/function_editor_iExpon.png
+.. |function_editor_iExpres| image:: /_static/function_editor/function_editor_iExpres.png
+.. |function_editor_iFile| image:: /_static/function_editor/function_editor_iFile.png
+.. |function_editor_iConst| image:: /_static/function_editor/function_editor_iConst.png
+.. |function_editor_iSimilar| image:: /_static/function_editor/function_editor_iSimilar.png
 .. |Toonz71_520| image:: /_static/Toonz71/Toonz71_520.gif
 .. |Toonz71_521| image:: /_static/Toonz71/Toonz71_521.gif
 .. |Toonz71_522| image:: /_static/Toonz71/Toonz71_522.gif
