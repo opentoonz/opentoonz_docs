@@ -116,6 +116,18 @@ The Batch Servers window allows you to process the batch list by using the rende
 See  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  .
 
 
+.. _cleanup_settings:
+
+Cleanup Settings
+''''''''''''''''
+
+|UI_cleanup|
+
+The Cleanup Settings pane allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Toonz Raster images, ready to be painted in OpenToonz. 
+
+See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  .
+
+
 .. _color_model:
 
 Color Model
@@ -180,16 +192,6 @@ It helps you to edit the sequence of drawings and to see all the drawings of the
 See  :ref:`Editing Animation Levels <editing_animation_levels>`  .
 
 
-.. _message_center:
-
-Message Center
-''''''''''''''
-
-|UI_messagecenter|
-
-The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
-
-
 .. _palette:
 
 Palette
@@ -230,18 +232,6 @@ The FX schematic allows you to apply FX to the content of xsheet columns, and to
 See  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  .
 
 
-.. _style_editor:
-
-Style Editor
-''''''''''''
-
-|UI_styleeditor|
-
-The style editor allows you to modify the palette styles. You can choose the type of style among color, texture, vector and raster. There also is a settings tab where you can decide some parameters for the style.
-
-See  :ref:`Editing Styles <editing_styles>`  .
-
-
 .. _studio_palette:
 
 Studio Palette
@@ -254,6 +244,18 @@ The studio palette allows you to store an unlimited number of level palettes. Fr
 See  :ref:`Using the Studio Palette <using_the_studio_palette>`  .
 
 
+.. _style_editor:
+
+Style Editor
+''''''''''''
+
+|UI_styleeditor|
+
+The style editor allows you to modify the palette styles. You can choose the type of style among color, texture, vector and raster. There also is a settings tab where you can decide some parameters for the style.
+
+See  :ref:`Editing Styles <editing_styles>`  .
+
+
 .. _tasks:
 
 Tasks
@@ -264,6 +266,16 @@ Tasks
 The Tasks window contains the task tree with all the tasks submitted to the batch processing, and information about the task currently selected in the tree. From the task tree you can start or stop a task execution, or remove it.
 
 See  :ref:`Managing and Executing Render Tasks <managing_and_executing_render_tasks>`  .
+
+
+.. _message_center:
+
+Message Center
+''''''''''''''
+
+|UI_messagecenter|
+
+The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
 
 
 .. _toolbar:
@@ -428,6 +440,21 @@ It has different modes of visualization among which you can choose the more suit
 See  :ref:`Using the Viewer <using_the_work_area>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  .
 
 
+.. _combo_viewer:
+
+ComboViewer
+'''''''''''
+
+|UI_comboviewer|
+
+The comboviewer integrates in a single pane a viewer, horizontal toolbar and a tool options bar.
+It's and alternative work area where you can draw images and see at the same time the result of your compositing. It is endless and you can scroll, zoom in, zoom out and rotate it the way you prefer.
+
+It has different modes of visualization among which you can choose the more suitable to the operation you are performing.
+
+See  :ref:`Using the Viewer <using_the_work_area>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  .
+
+
 .. _xsheet:
 
 Xsheet
@@ -458,6 +485,18 @@ At the leftmost part each layer has its own header containing information about 
 Frames are rendered reading images from bottom to top in each cell column.
 
 See  :ref:`Working in Xsheet <working_in_xsheet>`  .
+
+
+.. _timeline:
+
+History
+'''''''
+
+|UI_history|
+
+The history pane, lets you check and undo/redo the history of the latest actions performed in the current OpenToonz scene.
+
+See  :ref:`Assigning Memory for the Undo Operation <assigning_memory_for_the_undo_operations>`  .
 
 
 .. _customizing_the_interface_appearance:
