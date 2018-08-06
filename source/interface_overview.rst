@@ -514,29 +514,29 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
     Open and edit with an image editor software the PNG files available in the style folder.
 
-.. |UI_1| image:: /_static/UI_1.png
-.. |UI_rooms| image:: /_static/UI_rooms.png
-.. |UI_batch| image:: /_static/UI_batch.png
-.. |UI_cleanup| image:: /_static/UI_cleanup.png
-.. |UI_colormodel| image:: /_static/UI_colormodel.png
-.. |UI_filebrowser| image:: /_static/UI_filebrowser.png
-.. |UI_flipbook| image:: /_static/UI_flipbook.png
-.. |UI_functioneditor| image:: /_static/UI_functioneditor.png
-.. |UI_levelstrip| image:: /_static/UI_levelstrip.png
-.. |UI_palette| image:: /_static/UI_palette.png
-.. |UI_scenecast| image:: /_static/UI_scenecast.png
-.. |UI_schematic| image:: /_static/UI_schematic.png
-.. |UI_styleeditor| image:: /_static/UI_styleeditor.png
-.. |UI_studiopalette| image:: /_static/UI_studiopalette.png
-.. |UI_tasks| image:: /_static/UI_tasks.png
-.. |UI_messagecenter| image:: /_static/UI_messagecenter.png
-.. |UI_toolbar| image:: /_static/UI_toolbar.png
-.. |UI_commandbar| image:: /_static/UI_commandbar.png
-.. |UI_tooloptionsbar| image:: /_static/UI_tooloptionsbar.png
-.. |UI_viewer| image:: /_static/UI_viewer.png
-.. |UI_comboviewer| image:: /_static/UI_comboviewer.png
-.. |UI_xsheet| image:: /_static/UI_xsheet.png
-.. |UI_timeline| image:: /_static/UI_timeline.png
-.. |UI_history| image:: /_static/UI_history.png
-.. |UI_recordaudio| image:: /_static/UI_recordaudio.png
+.. |UI_1| image:: /_static/UI/UI_1.png
+.. |UI_rooms| image:: /_static/UI/UI_rooms.png
+.. |UI_batch| image:: /_static/UI/UI_batch.png
+.. |UI_cleanup| image:: /_static/UI/UI_cleanup.png
+.. |UI_colormodel| image:: /_static/UI/UI_colormodel.png
+.. |UI_filebrowser| image:: /_static/UI/UI_filebrowser.png
+.. |UI_flipbook| image:: /_static/UI/UI_flipbook.png
+.. |UI_functioneditor| image:: /_static/UI/UI_functioneditor.png
+.. |UI_levelstrip| image:: /_static/UI/UI_levelstrip.png
+.. |UI_palette| image:: /_static/UI/UI_palette.png
+.. |UI_scenecast| image:: /_static/UI/UI_scenecast.png
+.. |UI_schematic| image:: /_static/UI/UI_schematic.png
+.. |UI_styleeditor| image:: /_static/UI/UI_styleeditor.png
+.. |UI_studiopalette| image:: /_static/UI/UI_studiopalette.png
+.. |UI_tasks| image:: /_static/UI/UI_tasks.png
+.. |UI_messagecenter| image:: /_static/UI/UI_messagecenter.png
+.. |UI_toolbar| image:: /_static/UI/UI_toolbar.png
+.. |UI_commandbar| image:: /_static/UI/UI_commandbar.png
+.. |UI_tooloptionsbar| image:: /_static/UI/UI_tooloptionsbar.png
+.. |UI_viewer| image:: /_static/UI/UI_viewer.png
+.. |UI_comboviewer| image:: /_static/UI/UI_comboviewer.png
+.. |UI_xsheet| image:: /_static/UI/UI_xsheet.png
+.. |UI_timeline| image:: /_static/UI/UI_timeline.png
+.. |UI_history| image:: /_static/UI/UI_history.png
+.. |UI_recordaudio| image:: /_static/UI/UI_recordaudio.png
 
