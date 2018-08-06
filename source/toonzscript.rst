@@ -2,33 +2,36 @@
 
 ToonzScript
 ===========
-ToonzScript is the scripting language used in Toonz. The scripting usage allows to create sequences of commands avoiding to commit manpower to perform some repetitive tasks.ToonzScript is based on QtScript and is built on the stadard ECMAScript. a reference guide for the ECMAScript can be found to the following URL:
+ToonzScript is the scripting language used in OpenToonz. The scripting usage allows to create sequences of commands avoiding to commit manpower to perform some repetitive tasks. ToonzScript is based on QtScript and is built on the stadard ECMAScript. a reference guide for the ECMAScript can be found to the following URL:
 
 ``http://qt-project.org/doc/qt-4.8/ecmascript.html`` 
 
 .. note:: several well known scripting languages are based on the ECMAScript standard like JavaScript, JScript and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason a good introduction to JavaScript can be very useful to understand better the ToonzScript basics.
 
-The Toonz script user guide and some examples are available at the following URL:
+The ToonzScript user guide and some examples are available at the following URL:
 
 ``http://www.toonz.com/htm/support/Script.htm`` 
 
 The scripts can be started using the File > Run Script command or the commands can be directly inserted in the Script Console that can be opened using the File > Open Script Console command.
 
-.. note:: When a Script is running the Script Console opens automatically and shows the scripting commands.
+.. note:: When a script is running the Script Console opens automatically and shows the scripting commands.
+
 
 .. _files_managing:
 
 Files managing
 --------------
-The Toonz script file extension is .js, the scripts have to be collected into the Script sub-folder of Library to be automatically retrieved opening the run script browser.
+The ToonzScript file extension is .js, the scripts have to be collected into the Script sub-folder of the Library, to be automatically retrieved opening the run script browser.
+
 
 .. _use_the_script_console:
 
 Use the Script Console
 ----------------------
-The Script Console allows entering directly the language commands or the drag&drop of external text files, in the latter case the drop generates a string containing the file path.
+The Script Console allows entering directly the language commands or the drag & drop of external text files, in the latter case the drop generates a string containing the file path.
 
 Start a series of lengthy operations from the console does not block the interface.
+
 
 .. _console_use_conventions:
 
@@ -44,19 +47,21 @@ The following conventions are implemented in the use of the Script Console:
 
 - The **ctrl+y**  shortcut interrupts the execution of time consuming commands.
 
-- When entering a path in a string all the backslashes must be doubled. Following this rule the path ``c:\tmp\prova.jpg``  becomes ``c:\\tmp\\prova.jpg`` .
+- When entering a path in a string all the backslashes must be doubled. Following this rule the path ``C:\tmp\test.jpg``  becomes ``C:\\tmp\\test.jpg`` .
 
-- Even if working on a Windows family OS the slash and the backslash can be used in the same way, thus the path ``c:\tmp\prova.jpg``  is equivalent to the path ``c:/tmp/prova.jpg`` .
+- Even if working on a Windows family OS the slash and the backslash can be used in the same way, thus the path ``C:\tmp\test.jpg``  is equivalent to the path ``C:/tmp/test.jpg`` .
 
-- The drag&drop of an external file into the console generates a string containing the file’s path and the backslashes are doubled automatically.
+- The drag & drop of an external file into the console generates a string containing the file’s path and the backslashes are doubled automatically.
 
 - While you can copy multiple lines of text from the console is allowed only one line paste.
+
 
 .. _toonzscript_specifications:
 
 ToonzScript specifications
 --------------------------
-Built on the foundaments of ECMAScript, ToonzScript retains a degree of similarity to the JavaScript syntax but, at the same time, implements some functions and several classes specifically built to make easier the interaction with the Toonz software architecture.Here follows the list of the ToonzScript specifications:
+Built on the foundaments of ECMAScript, ToonzScript retains a degree of similarity to the JavaScript syntax but, at the same time, implements some functions and several classes specifically built to make easier the interaction with the OpenToonz software architecture. Here follows the list of the ToonzScript specifications:
+
 
 .. _commands:
 
@@ -70,32 +75,30 @@ Commands
 
 print(“result=”,12*3);
 
-    - ``run(filename)`` : runs the script saved in filename. The relatives path are referred to the folder "<toonz library> / scripts /"
+    - ``run(filename)`` : runs the script saved in filename. The relative path are referred to the folder "<toonz library> / scripts /"
 
 **Examples:** 
 
 run(“test.js”)
 
-run(“C:\\Users\\gmt\\tests\\altro_test.js”)
+run(“C:\\Users\\animator\\tests\\another_test.js”)
 
-    - ``view(image)`` : allows to view an image.The view command can be legally used in the following context: ``view(new Image(filename))`` 
+    - ``view(image)`` : allows to view an image. The view command can be legally used in the following context: ``view(new Image(filename))`` 
 
     - ``view(level)`` : allows to view a level.
 
 **Examples:** 
 
-view(new Level(“C:\\Toonz 6.3 stuff\\sandbox\\drawings\\A.pli”))
+view(new Level(“C:\\OpenToonz 1.2 stuff\\sandbox\\drawings\\A.pli”))
 
-    - The variable ToonzVersion can be used to check the current version of Toonz.
-
+    - The variable ToonzVersion can be used to check the current version of OpenToonz.
 
 
 .. _classes:
 
 Classes
 '''''''
-For each class are listed the related constructor, methods and attibutes.
-
+For each class, the related constructor, methods and attibutes are listed.
 
 
 .. _file_path:
@@ -110,15 +113,15 @@ contains the path of an object.
 
 **Methods:** 
 
-- path2 = path.withExtension(e)
+- ``path2 = path.withExtension(e)``
 
-- path2 = path.withName(name)
+- ``path2 = path.withName(name)``
 
-- path2 = path.withParentDirectory(d)
+- ``path2 = path.withParentDirectory(d)``
 
 - ``path2 = path.concat(f)`` - where f can be a FilePath or a string
 
-- files = path.files() - if path is a folder then this method returns the files inside the folder.
+- ``files = path.files()`` - if path is a folder then this method returns the files inside the folder.
 
 **Attributes:** 
 
@@ -126,13 +129,13 @@ contains the path of an object.
 
 - ``path.name`` - read and write attribute
 
-- path.parentDirectory - read and write attribute
+- ``path.parentDirectory`` - read and write attribute
 
-- path.lastModified - read only attribute
+- ``path.lastModified`` - read only attribute
 
-- path.exists - read only attribute
+- ``path.exists`` - read only attribute
 
-- path.isDirectory- read only attribute
+- ``path.isDirectory`` - read only attribute
 
 **Examples:** 
 
@@ -159,7 +162,6 @@ files = myRoot.files();
 for(k in files) print(files[k]); // print all files in myRoot
 
 
-
 .. _image:
 
 Image
@@ -174,7 +176,7 @@ contains an image, supported types are: tlv, pli or fullcolor.
 
 - ``img.save(filename)`` - the file extension has to be compatible with the kind of used level 
 
-- img.load(filename)
+- ``img.load(filename)``
 
 **Attributes:** 
 
@@ -188,7 +190,7 @@ contains an image, supported types are: tlv, pli or fullcolor.
 
 **Examples:** 
 
-img = new Image(“C:/images/name.0003.tif”);
+img = new Image(“C:/images/basename.0003.tif”);
 
 view(img);
 
@@ -199,7 +201,6 @@ img = new Image(“C:/images/name.pli”); // reads only the first frame.
 view(img);
 
 img.save(“C:/images/name.pli”); 
-
 
 
 .. _level:
@@ -214,25 +215,25 @@ contains a level, the supported types are: tlv, pli or fullcolor.
 
 **Methods:** 
 
-- level.load(filename)
+- ``level.load(filename)``
 
 - ``level.save(filename)`` - the file extension has to be compatible with the kind of usedlevel 
 
-- level.getFrameIds() - lists the names of all the frames
+- ``level.getFrameIds()`` - lists the names of all the frames
 
-- level.getFrame(frameId) - retrive the image of the specified frame
+- ``level.getFrame(frameId)`` - retrive the image of the specified frame
 
-- level.getFrameByIndex(index) - gets the frame specified by the index value (first value of index is 0)
+- ``level.getFrameByIndex(index)`` - gets the frame specified by the index value (first value of index is 0)
 
-- level.setFrame(frameId, image) - sets a frame (if the level is not empty its content and the type of image has to be compatible)
+- ``level.setFrame(frameId, image)`` - sets a frame (if the level is not empty its content and the type of image has to be compatible)
 
 **Attributes:** 
 
 - ``level.name`` - is a read and write attribute
 
-- ``level.path -`` is a read and write attribute
+- ``level.path`` - is a read and write attribute
 
-- ``level.frameCount``  - is a read only value
+- ``level.frameCount`` - is a read only value
 
 - ``level.type``  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read only value
 
@@ -269,7 +270,6 @@ outputLevel.setFrame(fids[i], img);
 view(outputLevel);
 
 
-
 .. _scene:
 
 Scene
@@ -282,29 +282,29 @@ contains a Toonz scene.
 
 **Methods:** 
 
-- scene.load(filename)
+- ``scene.load(filename)``
 
 .. note:: If the path is relative scenes of the current project are used.
 
 - ``scene.save(filename)`` 
 
-- scene.setCel(row, col, cell), scene.setCell(row, col, level, frameId) 
+- ``scene.setCel(row, col, cell)`` , ``scene.setCell(row, col, level, frameId)`` 
 
-.. note:: ``cell``  is the kind of object returned by ``getCell()`` . - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))`` - To delete a cell: ``scene.setCell(row, col, undefined)- cell``  is a standard JavaScript object thet includes the attributes:``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})-`` ``level`` can be a Level or a level name. The level has to be already in the scene.``- fid``  supports numeric values or string values as “2” or “2a”
+.. note:: ``cell``  is the kind of object returned by ``getCell()`` . - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))`` - To delete a cell: ``scene.setCell(row, col, undefined)- cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})-`` ``level`` can be a Level or a level name. The level has to be already in the scene.``- fid``  supports numeric values or string values as “2” or “2a”
 
-- cell. = scene.getCell(row, col) - returns a JavaScript object with level and fid attributes
+- ``cell. = scene.getCell(row, col)`` - returns a JavaScript object with level and fid attributes
 
-- scene.insertColumn(col)
+- ``scene.insertColumn(col)``
 
-- scene.deleteColumn(col)
+- ``scene.deleteColumn(col)``
 
-- scene.getLevels() - returns an arrray that contains all the levels belonging to the scene
+- ``scene.getLevels()`` - returns an arrray that contains all the levels belonging to the scene
 
-- scene.getLevel(name)- returns the level basing on its name. If a level using the name specified does not exists the value ``undefined``  is returned.
+- ``scene.getLevel(name)`` - returns the level basing on its name. If a level using the name specified does not exists the value ``undefined``  is returned.
 
-- level = scene.newLevel(type, name). Adds a layer to the scene. Type can be "Raster", "ToonzRaster" or "Vector". Name must not be already 'used in the scene.
+- ``level = scene.newLevel(type, name)`` -  Adds a layer to the scene. Type can be "Raster", "ToonzRaster" or "Vector". Name must not be already 'used in the scene.
 
-- level = scene.loadLevel(name, path). Load a level (mode '"links") in the scene. The path must exist and be an absolute path.The name must not have been already used for another level of the scene.
+- ``level = scene.loadLevel(name, path)`` - Load a level (mode '"links") in the scene. The path must exist and be an absolute path.The name must not have been already used for another level of the scene.
 
 **Attributes:** 
 
@@ -316,7 +316,7 @@ contains a Toonz scene.
 
 **Examples:** 
 
-filename = “test.tnz”; // relative to“+scenes”
+filename = “test.tnz”; // relative to “+scenes”
 
 scene = new Scene(filename);
 
@@ -360,6 +360,7 @@ print(level.name, level.path, level.frameCount);
 
 }
 
+
 .. _transform:
 
 Transform
@@ -374,20 +375,19 @@ represents a geometric tansformation (composed by rotation, translation and scal
 
 - ``transform.translate(dx, dy)`` 
 
-- transform.rotate(degrees) 
+- ``transform.rotate(degrees)``
 
 .. note:: Positive values correspond to a counterclockwise rotation.
 
-- transform.scale(s)
+- ``transform.scale(s)``
 
-- transform.scale(sx, sy)
+- ``transform.scale(sx, sy)``
 
 **Examples:** 
 
 transform = new Transform().rotate(45).translate(10,2);
 
 print(transform); 
-
 
 
 .. _imagebuilder:
@@ -404,11 +404,11 @@ allows to modify an image (rotate, scale, crop), or to make an over between two 
 
 - ``builder.add(img)`` 
 
-- builder.add(img, transform)
+- ``builder.add(img, transform)``
 
 .. note:: The component of translation of the transform means expressed in pixels for Raster and Toonz Raster levels, and in Camera Stand units for Vector levels.
 
-- builder.fill(color)
+- ``builder.fill(color)``
 
 **Attributes:** 
 
@@ -439,7 +439,6 @@ scale *= 0.9;
 view(ib.image);
 
 
-
 .. _outlinevectorizer:
 
 OutlineVectorizer
@@ -460,19 +459,19 @@ vectorize raster images using an outline algorithm.
 
 - ``v.despeckling`` 
 
-- v.preservePaintedAreas
+- ``v.preservePaintedAreas``
 
-- v.cornerAdherence
+- ``v.cornerAdherence``
 
-- v.cornerAngle
+- ``v.cornerAngle``
 
-- v.cornerCurveRadius
+- ``v.cornerCurveRadius``
 
-- v.maxColors
+- ``v.maxColors``
 
-- v.transparentColor
+- ``v.transparentColor``
 
-- v.toneThreshold
+- ``v.toneThreshold``
 
 **Examples:** 
 
@@ -485,6 +484,7 @@ a = new Image("C:/Users/username/name.tif");
 b = v.vectorize(a);
 
 view(b);
+
 
 .. _centerlinevectorizer:
 
@@ -508,13 +508,13 @@ vectorize raster images using a centerline algorithm.
 
 - ``v.despeckling`` 
 
-- v.maxThickness
+- ``v.maxThickness``
 
-- v.thicknessCalibration
+- ``v.thicknessCalibration``
 
-- v.preservePaintedAreas
+- ``v.preservePaintedAreas``
 
-- v.addBorder
+- ``v.addBorder``
 
 **Examples:** 
 
@@ -522,12 +522,11 @@ v = new OutlineVectorizer();
 
 v.preservePaintedAreas = true;
 
-a = new Image("C:/Users/username//name.tif");
+a = new Image("C:/Users/username/name.tif");
 
 b = v.vectorize(a);
 
 view(b);
-
 
 
 .. _rasterizer:
@@ -548,11 +547,11 @@ converts vector images into Raster or ToonzRaster images.
 
 - ``r.colorMapped`` - if its value is set to True the generated image is of ToonzRaster type
 
-- r.xres
+- ``r.xres``
 
-- r.yres
+- ``r.yres``
 
-- r.dpi
+- ``r.dpi``
 
 **Examples:** 
 
@@ -571,7 +570,6 @@ r.colorMapped = true
 c = r.rasterize(new Level("C:\\Users\\username\\PLI\\name.pli"))
 
 c.save(“C:\\Users\\username\\PLI\\bimba.tlv”);
-
 
 
 .. _renderer:
@@ -594,9 +592,9 @@ renders a whole scene or part of a scene, creating levels or images.
 
 **Attributes:** 
 
-- r.columns (list of indices of columns to render. es. r.columns = [0,3])
+- ``r.columns`` (list of indices of columns to render.  e.g. r.columns = [0,3])
 
-- r.frames (list of indices of frames to render. es. r.frames = [0,1,2,3])
+- ``r.frames`` (list of indices of frames to render.  e.g. r.frames = [0,1,2,3])
 
 **Examples:** 
 
@@ -608,7 +606,7 @@ view(r.renderScene(scene ,0));
 
 r.columns = [0,2];
 
-view(r.renderScene(a,0)); // frame 1; columns 1 e 3
+view(r.renderScene(a,0)); // frame 1; columns 1 and 3
 
 r.frames = [0,2,4,6];
 
@@ -623,30 +621,30 @@ output = r.renderScene(scene ); // frames 1,3,5,7; all columns
 output.save(““C:\\Users\\username\\output\\name..tif””);
 
 
-
 .. _code_examples:
 
 Code examples
 -------------
-Here follows some examples of scripting code.
+Following there are some examples of scripting code:
+
 
 .. _outline_vectorization:
 
 Outline vectorization
 '''''''''''''''''''''
-This brief script is an example of using the OutlineVectorizer on a single image. The scrip is commented explaining what each section does:
+This brief script is an example of using the OutlineVectorizer on a single image. The script is commented, explaining what each section does:
 
-``//Define the input and output folders`` 
-
-
-
-``dir = "C:\\Toonz 7.0 stuff\\SCRIPT IMAGES IN\\";`` 
-
-``dir2 = "C:\\Toonz 7.0 stuff\\SCRIPT IMAGES OUT\\";`` 
+//Define the input and output folders 
 
 
 
-``//Load image toad3.0001.tif from disk`` 
+``dir = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES IN\\";`` 
+
+``dir2 = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES OUT\\";`` 
+
+
+
+//Load image toad3.0001.tif from disk 
 
 
 
@@ -656,7 +654,7 @@ This brief script is an example of using the OutlineVectorizer on a single image
 
 
 
-``//Initialize a vectorizer and specify any relevant options`` 
+//Initialize a vectorizer and specify any relevant options
 
 
 
@@ -672,7 +670,7 @@ This brief script is an example of using the OutlineVectorizer on a single image
 
 
 
-``//Run the vectorization process and save the result`` 
+//Run the vectorization process and save the result
 
 
 
@@ -681,18 +679,17 @@ This brief script is an example of using the OutlineVectorizer on a single image
 ``print("vectorized");`` 
 
 
-
 .. _rotating_an_image:
 
 Rotating an image
 '''''''''''''''''
-This example explains how to load an image and then create an animation in a level rotating the loaded frame.
+This example explains how to load an image and then create an animation in a level, rotating the loaded frame.
 
-``//Define the input and output folders`` 
+//Define the input and output folders
 
-``dir = "C:\\Toonz 7.0 stuff\\SCRIPT IMAGES IN\\";`` 
+``dir = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES IN\\";`` 
 
-``dir2 = "C:\\Toonz 7.0 stuff\\SCRIPT IMAGES OUT\\";`` 
+``dir2 = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES OUT\\";`` 
 
 
 
@@ -740,5 +737,5 @@ This example explains how to load an image and then create an animation in a lev
 
 //Shows the resulting level in a flipbook window.
 
-view(b);
+``view(b);``
 
