@@ -6,7 +6,7 @@ ToonzScript is the scripting language used in OpenToonz. The scripting usage all
 
 ``http://qt-project.org/doc/qt-4.8/ecmascript.html`` 
 
-.. note:: several well known scripting languages are based on the ECMAScript standard like JavaScript, JScript and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason a good introduction to JavaScript can be very useful to understand better the ToonzScript basics.
+.. note:: Several well known scripting languages are based on the ECMAScript standard like JavaScript, JScript and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason a good introduction to JavaScript can be very useful to understand better the ToonzScript basics.
 
 The ToonzScript user guide and some examples are available at the following URL:
 
@@ -21,7 +21,7 @@ The scripts can be started using the File > Run Script command or the commands c
 
 Files managing
 --------------
-The ToonzScript file extension is .js, the scripts have to be collected into the Script sub-folder of the Library, to be automatically retrieved opening the run script browser.
+The ToonzScript file extension is .js, the scripts have to be into the Script sub-folder of the ``OpenToonz 1.2 stuff/Library`` folder, to be automatically retrieved opening the run script browser.
 
 
 .. _use_the_script_console:
@@ -67,9 +67,7 @@ Built on the foundaments of ECMAScript, ToonzScript retains a degree of similari
 
 Commands
 ''''''''
-    - ``print(arg1, arg2, ...)`` : writes a message on console.
-
-    - The print command doesn’t return the ``undefined``  value.
+    - ``print(arg1, arg2, ...)`` : writes a message on console. The print command doesn’t return the ``undefined``  value.
 
 **Example:** 
 
