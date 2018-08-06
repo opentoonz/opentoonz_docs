@@ -468,7 +468,7 @@ The appearance of the OpenToonz interface can be customized to suit any producti
 
 OpenToonz allows users to choose a specific language for the software interface, including menus, commands, tooltips, and on-screen messages. Currently available languages are: English, German, Spanish, French, Italian, Russian, Japanese and Chinese.
 
-There are several included themes to choose from: Default, Blue, Dark and Light.
+There are also several included themes to choose from: Default, Blue, Dark and Light.
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
