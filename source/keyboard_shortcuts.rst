@@ -83,7 +83,7 @@ Segment                **F8**
 ==============================   =========  =====  =========  =====  =====
 Zoom in                          **+**
 Zoom out                         **-**
-Reser View                       **0**
+Reset View                       **0**
 Move to next xsheet column       **->**
 Move to previous xsheet column   **<-**
 ==============================   =========  =====  =========  =====  =====
