@@ -19,25 +19,28 @@ Shortcuts are related to the user, i.e. each user can have a different set of sh
 
     1. Choose File > Configure Shortcuts.
 
-    2. Retrieve in the related folder the command or tool you want to configure the shortcut for.
+    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the Top of the window.
 
-    3. Move the cursor in the filed available at the bottom of the dialog: the area will be highlighted.
+    3. Select the command or tool name in the list.
 
-    4. Press the keyboard key, or combined keys, you want to assign as shortcut.
+    4. Press the keyboard key, or combination of keys, you want to assign as shortcut.
 
 .. tip:: **To remove a configured shortcut:**
 
     1. Choose File > Configure Shortcuts.
 
-    2. Retrieve in the related folder the command or tool you want to remove the shortcut for.
+    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the Top of the window.
 
-    3. Click the Remove button.
+    3. Select the command or tool name in the list.
+    
+    4. Click the Remove button.
+
 
 .. _predefined_keyboard_shortcuts:
 
 Predefined Keyboard Shortcuts
 -----------------------------
-The following are some of the predefined shortcuts available in Toonz. 
+The following are **some** of the predefined shortcuts available in OpenToonz. 
 
 
 .. note:: In Mac systems, the modifier key shown in the following tables as **Ctrl**, must be substituted by **Cmd** ().
@@ -160,10 +163,10 @@ Apply Lip Sync Data to Column    **Alt**    **+**  **L**
 **Menu Cells**    
 ==============================   =========  =====  =========  =====  =====
 Duplicate Drawing                **D**
-Decrease Step                    **;**
-Increase Step                    **'**
 Drawing Substitution Backward    **Q**
 Drawing Substitution Forward     **W**
+Decrease Step                    **;**
+Increase Step                    **'**
 ==============================   =========  =====  =========  =====  =====
 
 
