@@ -46,8 +46,8 @@ The following are the predefined shortcuts available in Toonz.
 ==========  =  =  =  =  =  
 **Tools**   -  -  -  -  -  
 ==========  =  =  =  =  =  
-Animate            A  -  -  -  
-Selection            S  -  -  -  
+Animate            - A -  -  -  
+Selection            - S -  -  -  
 Brush            B  -  -  -  
 Geometric            G  -  -  -  
 Type            Y  -  -  -  
