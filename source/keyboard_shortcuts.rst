@@ -13,13 +13,13 @@ Configuring Shortcuts
 
 Predefined shortcuts are available for OpenToonz tools, modifiers and menu commands. They can be customized, and new shortcuts can be added for undefined items. 
 
-Shortcuts are related to the user, i.e. each user can have a different set of shortcuts.
+Shortcuts are related to the user, i.e. each user in the system can have a different set of shortcuts.
 
 .. tip:: **To configure a shortcut:**
 
     1. Choose File > Configure Shortcuts.
 
-    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the Top of the window.
+    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the window.
 
     3. Select the command or tool name in the list.
 
@@ -29,7 +29,7 @@ Shortcuts are related to the user, i.e. each user can have a different set of sh
 
     1. Choose File > Configure Shortcuts.
 
-    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the Top of the window.
+    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the window.
 
     3. Select the command or tool name in the list.
     
