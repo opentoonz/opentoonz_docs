@@ -37,9 +37,10 @@ Shortcuts are related to the user, i.e. each user can have a different set of sh
 
 Predefined Keyboard Shortcuts
 -----------------------------
-The following are the predefined shortcuts available in Toonz. 
+The following are some of the predefined shortcuts available in Toonz. 
 
-.. note:: The modifier key to perform shortcut operations is Ctrl for Windows, and Cmd () for Mac.
+
+.. note:: In Mac systems, the modifier key shown in the following tables as **Ctrl**, must be substituted by **Cmd** ().
 
 
 ==============================   =========  =====  =========  =====  =====
@@ -71,6 +72,8 @@ Hand                             **Space**
 ==============================   =========  =====  =========  =====  =====
 **Tool Modifiers**    
 ==============================   =========  =====  =========  =====  =====
+Brush Size - Decrease max        **U**
+Brush Size - Increase max        **I**
 Rectangular                      **F5**
 Frame Range                      **F6**
 Selective                        **F7**
@@ -81,11 +84,28 @@ Segment                          **F8**
 ==============================   =========  =====  =========  =====  =====
 **Visualization**    
 ==============================   =========  =====  =========  =====  =====
+Actual Pixel Size                **N**
+Fit to Window                    **Alt**    **+**  **9**
+Reset View                       **Alt**    **+**  **0**
 Zoom in                          **+**
 Zoom out                         **-**
-Reset View                       **0**
 Move to next xsheet column       **->**
 Move to previous xsheet column   **<-**
+Onion Skin Toggle                **/**
+Maximize Panel                   **`**
+Main Window Full Screen Mode     **Ctrl**   **+**  **`**
+==============================   =========  =====  =========  =====  =====
+
+
+==============================   =========  =====  =========  =====  =====
+**Playback Controls**    
+==============================   =========  =====  =========  =====  =====
+Play                             **P**
+Loop                             **L**
+Previous Drawing                 **,**
+Next Drawing                     **.**
+Previous Frame                   **Shift**  **+**  **,**
+Next Frame                       **Shift**  **+**  **.**
 ==============================   =========  =====  =========  =====  =====
 
 
@@ -96,7 +116,12 @@ New Scene                        **Ctrl**   **+**  **N**
 Load Scene                       **Ctrl**   **+**  **L**
 Save Scene                       **Ctrl**   **+**  **S**
 Save Scene As                    **Ctrl**   **+**  **Shift**  **+**  **S**
-Render                           **Ctrl**   **+**  **R**
+New Level                        **Alt**    **+**  **N**
+Preview                          **Ctrl**   **+**  **R**
+Output Settings                  **Ctrl**   **+**  **O**
+Render                           **Ctrl**   **+**  **Shift**  **+**  **R**
+Fast Render to MP4               **Alt**    **+**  **R**
+Preferences                      **Ctrl**   **+**  **U**
 Quit                             **Ctrl**   **+**  **Q**
 ==============================   =========  =====  =========  =====  =====
 
@@ -108,31 +133,46 @@ Undo                             **Ctrl**   **+**  **Z**
 Redo                             **Ctrl**   **+**  **Y**
 Cut                              **Ctrl**   **+**  **X**
 Copy                             **Ctrl**   **+**  **C**
-Paste                            **Ctrl**   **+**  **V**
+Paste Insert                     **Ctrl**   **+**  **V**
 Delete                           **Del**
 Insert                           **Ins**
 Select All                       **Ctrl**   **+**  **A**
+Group                            **Ctrl**   **+**  **G**
+Ungroup                          **Ctrl**   **+**  **Shift**  **+**  **G**
+Bring to Front                   **Ctrl**   **+**  **]**
+Bring Forward                    **]**
+Send Backward                    **[**
+Send to Back                     **Ctrl**   **+**  **[**
 ==============================   =========  =====  =========  =====  =====
 
 
 ==============================   =========  =====  =========  =====  =====
 **Menu Xsheet**    
 ==============================   =========  =====  =========  =====  =====
+Set Key                          **Z**
 New FX                           **Ctrl**   **+**  **F**
 Edit FX                          **Ctrl**   **+**  **K**
+Apply Lip Sync Data to Column    **Alt**    **+**  **L**
 ==============================   =========  =====  =========  =====  =====
 
 
 ==============================   =========  =====  =========  =====  =====
 **Menu Cells**    
 ==============================   =========  =====  =========  =====  =====
-Increase Step                    **'**
-Decrease Step                    **;**
 Duplicate Drawing                **D**
-Drawing Substitution Backward    **Ctrl**   **+**  **Q**
-Drawing Substitution Forward     **Ctrl**   **+**  **W**
+Decrease Step                    **;**
+Increase Step                    **'**
+Drawing Substitution Backward    **Q**
+Drawing Substitution Forward     **W**
 ==============================   =========  =====  =========  =====  =====
 
+
+==============================   =========  =====  =========  =====  =====
+**Menu Windows**    
+==============================   =========  =====  =========  =====  =====
+History                          **Ctrl**   **+**  **H**
+Record Audio                     **Alt**    **+**  **A**
+==============================   =========  =====  =========  =====  =====
 
 
 
