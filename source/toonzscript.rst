@@ -21,13 +21,19 @@ The scripts can be started using the File > Run Script command or the commands c
 
 Files managing
 --------------
-The ToonzScript file extension is .js, the scripts have to be into the Script sub-folder of the ``OpenToonz 1.2 stuff/Library`` folder, to be automatically retrieved opening the run script browser.
+
+|toonz_script_runscript|
+
+The ToonzScript file extension is .js, the scripts have to be into the ``OpenToonz 1.2 stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
 
 
 .. _use_the_script_console:
 
 Use the Script Console
 ----------------------
+
+|toonz_script_console|
+
 The Script Console allows entering directly the language commands or the drag & drop of external text files, in the latter case the drop generates a string containing the file path.
 
 Start a series of lengthy operations from the console does not block the interface.
@@ -73,13 +79,13 @@ Commands
 
 print(“result=”,12*3);
 
-    - ``run(filename)`` : runs the script saved in filename. The relative path are referred to the folder "<toonz library> / scripts /"
+    - ``run(filename)`` : runs the script saved in filename. The relative path are referred to the folder "<opentoonz library>/scripts/"
 
 **Examples:** 
 
 run(“test.js”)
 
-run(“C:\\Users\\animator\\tests\\another_test.js”)
+run(“C:\\Users\\Username\\Tests\\another_test.js”)
 
     - ``view(image)`` : allows to view an image. The view command can be legally used in the following context: ``view(new Image(filename))`` 
 
@@ -89,7 +95,7 @@ run(“C:\\Users\\animator\\tests\\another_test.js”)
 
 view(new Level(“C:\\OpenToonz 1.2 stuff\\sandbox\\drawings\\A.pli”))
 
-    - The variable ToonzVersion can be used to check the current version of OpenToonz.
+    - The variable ``ToonzVersion`` can be used to check the current version of OpenToonz.
 
 
 .. _classes:
@@ -736,4 +742,9 @@ This example explains how to load an image and then create an animation in a lev
 //Shows the resulting level in a flipbook window.
 
 ``view(b);``
+
+
+.. |toonz_script_console| image:: /_static/toonz_script/toonz_script_console.png
+.. |toonz_script_runscript| image:: /_static/toonz_script/toonz_script_runscript.png
+
 
