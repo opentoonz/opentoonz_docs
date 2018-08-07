@@ -61,7 +61,7 @@ Control Point Editor                     ``C``
 Pinch                                    ``M``
 Skeleton                                 ``V``
 Hook                                     ``O``
-Plastic                                  **``X``**
+Plastic                                  ``**X**``
 Zoom                   ``Shift``  ``+``  ``Space``
 Rotate                 ``Ctrl``   **+**  ``Space``
 Hand                   ``Space``
