@@ -4,13 +4,13 @@ ToonzScript
 ===========
 ToonzScript is the scripting language used in OpenToonz. The scripting usage allows to create sequences of commands avoiding to commit manpower to perform some repetitive tasks. ToonzScript is based on QtScript and is built on the stadard ECMAScript. a reference guide for the ECMAScript can be found to the following URL:
 
-``http://qt-project.org/doc/qt-4.8/ecmascript.html`` 
+`ECMAScript Reference <http://doc.qt.io/qt-5/ecmascript.html>`_
 
 .. note:: Several well known scripting languages are based on the ECMAScript standard like JavaScript, JScript and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason a good introduction to JavaScript can be very useful to understand better the ToonzScript basics.
 
-The ToonzScript user guide and some examples are available at the following URL:
+The ToonzScript page with some (rather old) examples are available at the following URL:
 
-``http://www.toonz.com/htm/support/Script.htm`` 
+`ToonzScript page <http://www.toonz.com/htm/support/Script.htm>`_
 
 The scripts can be started using the File > Run Script command or the commands can be directly inserted in the Script Console that can be opened using the File > Open Script Console command.
 
