@@ -46,21 +46,24 @@ The following are the predefined shortcuts available in Toonz.
 ==========  =  =  =  =  =  
 **Tools**   -  -  -  -  -  
 ==========  =  =  =  =  =  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
-            -  -  -  -  
+Animate            A  -  -  -  
+Selection            S  -  -  -  
+Brush            B  -  -  -  
+Geometric            G  -  -  -  
+Type            Y  -  -  -  
+Fill            F  -  -  -  
+Eraser            E  -  -  -  
+Tape            T  -  -  -  
+Style Picker            K  -  -  -  
+RGB Picker            R  -  -  -  
+Control Point Editor            C  -  -  -  
+Pinch            M  -  -  -  
+Skeleton            V  -  -  -  
+Hook            O  -  -  -  
+Plastic            X  -  -  -  
+Zoom            Shift  +  Space  -  
+Rotate            Ctrl  +  Space  -  
+Hand            Space  -  -  -  
 ==========  =  =  =  =  =  
 
 
