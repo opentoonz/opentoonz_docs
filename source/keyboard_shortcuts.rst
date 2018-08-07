@@ -58,13 +58,10 @@ Style Picker           - K -  -  -
 RGB Picker             - R -  -  -  
 Control Point Editor   - C -  -  -  
 Pinch                  - M -  -  -  
-Skeleton            V  -  -  -  
-Hook            O  -  -  -  
-Plastic            X  -  -  -  
-Zoom            Shift  +  Space  -  
-Rotate            Ctrl  +  Space  -  
-Hand            Space  -  -  -  
-==========  =  =  =  =  =  
+Skeleton               - V -  -  -  
+Hook                   - O -  -  -  
+Plastic                - X  -  -  -  
+==========             =  =  =  =  =  
 
 
 
