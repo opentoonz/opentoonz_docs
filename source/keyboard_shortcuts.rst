@@ -2,11 +2,16 @@
 
 Keyboard Shortcuts 
 ===================
+
+
 .. _configuring_shortcuts:
 
 Configuring Shortcuts
 ---------------------
-Predefined shortcuts are available for Toonz tools, modifiers and menu commands. They can be customized, and new shortcuts can be added for undefined items. 
+
+|configure_shortcuts_window|
+
+Predefined shortcuts are available for OpenToonz tools, modifiers and menu commands. They can be customized, and new shortcuts can be added for undefined items. 
 
 Shortcuts are related to the user, i.e. each user can have a different set of shortcuts.
 
@@ -36,6 +41,8 @@ The following are the predefined shortcuts available in Toonz.
 
 .. note:: The modifier key to perform shortcut operations is Ctrl for Windows, and Cmd () for Mac.
 
+.. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
+
 ==========  =  =  =  =  =  
 **Tools**   -  -  -  -  -  
 ==========  =  =  =  =  =  
@@ -55,12 +62,6 @@ The following are the predefined shortcuts available in Toonz.
             -  -  -  -  
             -  -  -  -  
 ==========  =  =  =  =  =  
-
-
-
-
-
-.. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
 
 
 
@@ -138,4 +139,5 @@ The following are the predefined shortcuts available in Toonz.
 
 
 
+.. |configure_shortcuts_window| image:: /_static/configure_shortcuts/configure_shortcuts_window.png
 
