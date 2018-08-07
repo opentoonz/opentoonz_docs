@@ -76,7 +76,7 @@ caca                 --  --  --  --
 
 **Zoom** | | | | |
 --- | --- | --- | --- | --- |
-a ver | que pasa | con | esto | que no se | lo que es
+a ver | que pasa | con | esto | que no se |
 
 
 =========  =  =  =  =  =  
@@ -87,7 +87,7 @@ a ver | que pasa | con | esto | que no se | lo que es
            -  -  -  -  
            -  -  -  -  
            -  -  -  -  
-========   =  =  =  =  =  
+=========  =  =  =  =  =  
 
 
 
