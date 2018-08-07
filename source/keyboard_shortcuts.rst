@@ -44,9 +44,9 @@ The following are the predefined shortcuts available in Toonz.
 .. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
 
 
-====================   =====  ===  =====  ===  =====
+====================   =====  =====  =====  =====  =====
 **Tools**
-====================   =====  ===  =====  ===  =====
+====================   =====  =====  =====  =====  =====
 Animate                  A
 Selection                S
 Brush                    B
@@ -63,9 +63,9 @@ Skeleton                 V
 Hook                     O
 Plastic                  X
 Zoom                   Shift  ``+``  Space
-Rotate                 Ctrl   **+**   Space
+Rotate                 Ctrl   **+**  Space
 Hand                   Space
-====================   =====  ===  =====  ===  =====
+====================   =====  =====  =====  =====  =====
 
 
 
