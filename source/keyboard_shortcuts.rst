@@ -74,9 +74,9 @@ caca                 --  --  --  --
                      --  --  --  --  
 ===================  ==  ==  ==  ==  ==  
 
-**Zoom** | | | | |
---- | --- | --- | --- | --- |
-a ver | que pasa | con | esto | que no se |
+| **Zoom** | s | d | f | g |
+| --- | --- | --- | --- | --- |
+| a ver | que pasa | con | esto | que no se |
 
 
 =========  =  =  =  =  =  
