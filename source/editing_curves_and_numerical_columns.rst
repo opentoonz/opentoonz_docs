@@ -682,6 +682,15 @@ For example ``fx.blur2.value``  refers to the Value setting of the effect Blur2;
 .. note:: If the effect setting name consists of several words, they have to be typed in expressions without blank spaces.
 
 
+The syntax to create a reference to a Plastic vertex transformation is the following:
+
+``vertex(column_number, "vertex_name").parameter`` 
+
+where ``column_number``  is the number of the column in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, and ``parameter``  is any of the available vertex parameters: ``angle``, ``distance``, or ``so``. 
+
+See :ref:`Use Mathematical Expression in Plastic Animation <use_mathematical_expression_in_plastic_animation>` for further details on animating a Plastic mesh using expressions.
+
+
 .. _using_interpolations_based_on_file_data:
 
 Using Interpolations Based on File Data
