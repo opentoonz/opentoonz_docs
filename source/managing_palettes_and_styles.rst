@@ -72,7 +72,21 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 .. tip:: **To select a style:**
 
-    Click it in the palette editor.
+    Do one of the following:
+
+    - Click it in the palette editor.
+    
+    - Use the number keys on the main or numerical keyboards to select the corresponding style. 
+    
+.. note:: In case of having more than 10 styles, you can use the Tab key on the keyboard to switch to the next bank of 10 styles. 
+
+.. tip:: **To select multiple styles:**
+
+    Do one of the following:
+
+    - Shift-click to extend the selection.
+
+    - Ctrl-click (PC) or Cmd-click (Mac) to add a style to, or remove it from the selection.
 
 .. tip:: **To add a new style:**
 
@@ -81,14 +95,6 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 .. tip:: **To name a style:**
 
     When styles are displayed in Medium/Large Thumbnails View or List View modes, double-click the style name to edit it.
-
-.. tip:: **To perform a multiple styles selection:**
-
-    Do one of the following:
-
-    - Shift-click to extend the selection.
-
-    - Ctrl-click (PC) or Cmd-click (Mac) to add a style to, or remove it from the selection.
 
 .. tip:: **To edit palette styles with the Edit menu commands:**
 
