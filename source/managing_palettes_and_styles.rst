@@ -78,9 +78,9 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
     
     - Use the number keys on the main or numerical keyboards to select the corresponding style. 
     
-.. note:: In case of having more than 10 styles, you can use the Tab key on the keyboard to switch to the next bank of 10 styles. 
-
 .. note:: When in Medium/Large Thumbnails View a visual cue of which key shortcut corresponds to which style is shown on the upper center of each style chip.
+
+.. note:: In case of having more than 10 styles, you can use the Tab key on the keyboard to switch to the next bank of 10 styles. 
 
 .. tip:: **To select multiple styles:**
 
