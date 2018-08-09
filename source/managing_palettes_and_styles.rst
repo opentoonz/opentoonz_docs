@@ -42,7 +42,7 @@ Palettes also can be saved as independent files in TPL format, to be loaded back
 
     Do one of the following:
     
-    - Click the option button ( |Toonz71_127| ) on the right of the top bar, and choose a display mode from the menu that opens.
+    - Click the option button ( |Toonz71_127| ) on the right of the top bar of the palette editor, and choose a display mode from the menu that opens.
     
     - Use the standard zoom ``+`` or ``-`` shortcut keys in the palette editor to increase or decrease the styles chips size.
 
