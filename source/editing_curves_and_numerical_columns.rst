@@ -631,7 +631,7 @@ numeric constant   E.g. 1, 2, 4.3.
 
 Using Transformation References
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-It is possible to use in expressions references to any object or effect transformation. In this way expressions can be used to create relationships between different transformations belonging to different items that can be both objects or FX.
+It is possible to use in expressions references to any object, effect or Plastic vertex transformation. In this way, expressions can be used to create relationships between different transformations belonging to different items that can be of any of the aforementioned types.
 
 The syntax to create a reference to an object transformation is the following:
 
@@ -665,6 +665,7 @@ Supported terms are the following:
 ``z``                                  Refers to the position along the z axis.                
 =====================================  ======================================================  
 
+
 The syntax to create a reference to an effect transformation is the following:
 
 ``fx.name.setting`` 
@@ -686,7 +687,7 @@ The syntax to create a reference to a Plastic vertex transformation is the follo
 
 ``vertex(column_number, "vertex_name").parameter`` 
 
-where ``column_number``  is the number of the column in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, and ``parameter``  is any of the available vertex parameters: ``angle``, ``distance``, or ``so``. 
+where ``column_number``  is the ID number of the column in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, and ``parameter``  is any of the available vertex parameters: ``angle``, ``distance`` or ``so``. 
 
 See :ref:`Use Mathematical Expression in Plastic Animation <use_mathematical_expression_in_plastic_animation>` for further details on animating a Plastic mesh using expressions.
 
