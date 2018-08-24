@@ -55,7 +55,7 @@ It is also possible to group several nodes in one single node, in order to bette
 
 .. tip:: **To name a node:**
 
-    Double-click the node name and type a new name.
+    Ctrl + double-click the node name and type a new name.
 
 .. tip:: **To minimize/maximize the column and FX nodes:**
 
