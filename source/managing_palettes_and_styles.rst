@@ -569,8 +569,6 @@ For Toonz vector levels, it contains parameters only when the style is a generat
 
 When the style is a generated one, the Settings tab contains one or more sliders that allow you to finetune the predefined style to your needs. When the style is a trail one, the Settings tab contains two sliders: the Distance sets the space between two subsequent images of the animation level used as a trail; the Rotation sets the angle of all the images. 
 
- |Toonz71_152| 
-
 You can add the same generated or trail style as many times as you want, each time defining different settings for it.
 
 
@@ -604,9 +602,9 @@ Note that when you change from a style suitable for both lines and areas to a st
 Editing Several Styles at the Same Time
 '''''''''''''''''''''''''''''''''''''''
 
-|palette_gizmo|
-
 You can modify several styles at the same time by using the Palette Gizmo. It allows you to scale or shift the value, saturation, hue and alpha of the selected styles, blend them, or fade them to a specific color.
+
+|palette_gizmo|
 
 .. note:: Only the color styles are affected by the Palette Gizmo editing and the blending. e.g. generated and trail styles will not be affected.
 
