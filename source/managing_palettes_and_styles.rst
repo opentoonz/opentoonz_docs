@@ -14,6 +14,9 @@ In raster levels, palette styles are simply used to draw or touch up images, and
 
 The Palette Editor
 ------------------
+
+|palette| 
+ 
 The palette editor displays the styles of the current animation level that are used, or can be used, to draw and paint the level itself. 
 
 The default palette of any new Toonz vector level contains only the plain black color; the default palette of a Toonz raster level contains the colors recognized during the cleanup process. Any palette always contains the Color 0 item, that allows you to remove any style from lines and filled areas. 
@@ -25,8 +28,6 @@ Styles in the palette can be displayed in different modes:
 - Small Thumbnails View displays styles as small squares. The style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip.
 
 - Medium Thumbnails View displays styles as medium squares. You can read the first letters of the name of the style directly inside the chips; the style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip. 
-
- |Toonz71_126| 
 
 - Large Thumbnails View displays styles as large squares. You can read the first letters of the name of the style directly inside the chips; the style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip. 
 
@@ -161,7 +162,7 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 Using the Studio Palette
 ------------------------
- |Toonz71_132| 
+ |studio_palette| 
 
 The studio palette allows you to store and manage an unlimited number of palettes. It is intended as a library of character and prop palettes related to one or more specific productions. From here palettes, or styles contained in them, can be retrieved, assigned, or merged to the current level palette, with no need to define the same styles again and again. 
 
@@ -175,10 +176,10 @@ Palettes added to the Project Palettes folder will be available only when the cu
 
 If you want to add to the studio palette a series of palettes you have previously created and stored in a folder, you can also automatically retrieve them by searching that specific folder.
 
- |Toonz71_133| 
-
 Styles that are imported from the studio palette to the palette of the current level are marked with a small white square. This reference can be used to link styles to the original studio palette styles: the link can be activated or deactivated anytime for any selection of styles. 
 
+|regular-imported-linked_style| 
+ 
 When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original studio palette style. When the link is deactivated, the style can be modified regardless of the original studio palette style. 
 
 Linking animation level palettes to the studio palette can assure color consistency for the whole production, because as soon as a change is needed, it can be done in the studio palette automatically updating all the linked animation levels palettes and, consequently, drawings. 
@@ -362,6 +363,7 @@ Keys are set for all the palette colors and settings (in the case of Special Sty
 
 Editing Styles
 --------------
+
 Palette styles can be modified with the Style Editor. There are four types of styles to choose from: Color, Texture, Vector and Raster. Generated, Trail and Vector Brushes are available for vector animation levels only. For several types of styles, there is also control over various Settings.
 
 An Auto button lets you decide whether the edits have to be assigned automatically to the style, or only after you click on the Apply button. In the bottom right corner you can see swatches for the previous and new style status; if you want to go back to the previous style, simply click on it. 
@@ -395,13 +397,14 @@ Only the first style in the palette, labeled Color 0, cannot be edited: instead,
 
 Colors
 ''''''
+
+|style_editor_color|
+
 Colors can be defined either by Hue, Saturation and Value or by Red, Green and Blue values. They can be used for both drawing lines and filling areas.
 
 You can also set the color opacity with the Alpha slider: the lower the value, the more transparent the color. You can check the opacity of the color with the checkerboard pattern visible beneath the color, whose visibility is proportional to the color transparency.
 
 To edit a color you can use either the sliders or the color wheel. To pick a color from the sliders or from the wheel, click it; to adjust values you can use the arrowhead buttons available at each slider ends. 
-
- |Toonz71_145| 
 
 Colors can also be picked from the viewer content by using the RGB Picker tool ( |Toonz71_146| ), whose Type option lets you choose the following: Normal, to pick values of a color; Rectangular, to pick the average values of the colors included in the box you define; Freehand, to pick the average values of the colors included in the area you outline by clicking and dragging; and Polyline, to pick the average values of the colors included in the area you outline by defining a series of lines. 
 
@@ -426,11 +429,12 @@ If the current style is a special one, the color you edit is the color used by t
 
 Textures
 ''''''''
+
+|style_editor_texture|
+
 Textures can be used both for drawing lines and filling areas. They can be selected from a list available in the Texture page, where your own textures can be added as well, or added as Custom Texture clicking the Custom Texture button.
 
 Vector texture mapping, that is the way the texture is applied to vectors, is performed using vector parametric coordinates: this means that the texture “follows” the vector’s shape and thickness. 
-
- |Toonz71_148| 
 
 Custom Textures can be loaded both on PLI and TLV levels, but their parameters can be used only on TLV levels.
 
@@ -470,13 +474,14 @@ Custom Textures can be used both for drawing lines and filling areas. Using Cust
 
 Generated Styles
 ''''''''''''''''
+
+|style_editor_generated|
+
 Generated styles use a number of mathematical functions to create effects that can be used either for vector strokes or for filling areas defined by vectors. They can be selected from a list available in the Generated section of the Vector tab, where styles suitable for vector strokes have a thumbnail representing how they will look as a diagonal line; styles suitable for filling have a thumbnail representing the top right corner piece of an area.
 
 Generated styles can simulate for instance a frieze, a leaf, or a pencil stroke along a vector, or allow you to fill areas with special effects such as polka dots.
 
 Generated styles can be customized by defining the parameters available in the Settings tab. This allows you to have many similar styles, each with a different configuration of settings.
-
- |Toonz71_150| 
 
 Colors used by generated styles can be modified by using the Color tab available in the Style Editor.
 
@@ -495,6 +500,9 @@ The first item available in the list allows you to remove the Generated style, i
 
 Trail Styles
 ''''''''''''
+
+|style_editor_trail|
+
 Trail styles are available for vector levels only. A trail style repeats an image or an animation level, created with OpenToonz or third party software, along the vectors of a vector level. Trail styles cannot be used to paint areas.
 
 In the Trail section on the Vector tab you can select the image or the animation level you want to use as a style. You can add to the list your own animation levels as well: both OpenToonz animation levels (PLI) and full-color images or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF) are supported.
@@ -504,8 +512,6 @@ In the Trail section on the Vector tab you can select the image or the animation
 The images are repeated changing their placement and size according to the vector’s shape and thickness. If the animation levels contains different drawings, they are repeated cyclically along the vector length. 
 
 Parameters such as the distance between subsequent images along the vector and their rotation can be defined in the Settings tab (see  :ref:`Settings <settings>`  ).
-
- |Toonz71_149| 
 
 .. tip:: **To add a new custom style:**
 
@@ -518,6 +524,9 @@ Parameters such as the distance between subsequent images along the vector and t
 
 Vector Brush Styles
 '''''''''''''''''''
+
+|style_editor_vectorbrush|
+
 Vector brush styles are available for vector levels only. A vector brush applies a vector image, created with OpenToonz, along the vector strokes of a vector level. Vector brush styles cannot be used to paint areas.
 
 In the Vector Brush section of the Vector tab, you can select the image you want to use as a style. You can add to the list your own PLI images as well.
@@ -525,8 +534,6 @@ In the Vector Brush section of the Vector tab, you can select the image you want
 .. note:: PLI levels are rendered according to the vector length and thickness, thus appearing jagged when zoomed in. If the output format is a vector one, then the PLI level will remain vector-based. (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
 The Vector Brush image is applyed to each stroke of the drawing that use this style according to the stroke’s shape and thickness. If the animation levels used as vector Brush contains different drawings, only the first one will be taken into account.
-
- |Toonz71_151| 
 
 Colors used by vector brushes can be modified by using the Color tab available in the style editor.
 
@@ -551,6 +558,9 @@ The first item available in the list allows you to remove the Vector Brush in or
 
 Settings
 ''''''''
+
+|style_editor_settings|
+
 The Settings tab is available for defining some color properties. 
 
 For Toonz raster levels, it contains only the Autopaint for Lines option, that can be used to automatically paint border lines of an area, with the same color used to fill that area (see  :ref:`Using the Autopaint for Lines Option <using_the_autopaint_for_lines_option>`  ).
@@ -593,6 +603,9 @@ Note that when you change from a style suitable for both lines and areas to a st
 
 Editing Several Styles at the Same Time
 '''''''''''''''''''''''''''''''''''''''
+
+|palette_gizmo|
+
 You can modify several styles at the same time by using the Palette Gizmo. It allows you to scale or shift the value, saturation, hue and alpha of the selected styles, blend them, or fade them to a specific color.
 
 .. note:: Only the color styles are affected by the Palette Gizmo editing and the blending. e.g. generated and trail styles will not be affected.
@@ -660,7 +673,18 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
     3. Click the Fade button to fade styles to the set color, according to the set percentage.
 
 
-.. |Toonz71_126| image:: /_static/Toonz71/Toonz71_126.gif
+.. |palette| image:: /_static/palettes_styles/palette.png
+.. |studio_palette| image:: /_static/palettes_styles/studio_palette.png
+.. |regular-imported-linked_style| image:: /_static/palettes_styles/regular-imported-linked_style.png
+.. |style_editor_color| image:: /_static/palettes_styles/style_editor_color.png
+.. |style_editor_texture| image:: /_static/palettes_styles/style_editor_texture.png
+.. |style_editor_generated| image:: /_static/palettes_styles/style_editor_generated.png
+.. |style_editor_trail| image:: /_static/palettes_styles/style_editor_trail.png
+.. |style_editor_vectorbrush| image:: /_static/palettes_styles/style_editor_vectorbrush.png
+.. |style_editor_raster| image:: /_static/palettes_styles/style_editor_raster.png
+.. |style_editor_settings| image:: /_static/palettes_styles/style_editor_settings.png
+.. |palette_gizmo| image:: /_static/palettes_styles/palette_gizmo.png
+
 .. |Toonz71_127| image:: /_static/Toonz71/Toonz71_127.gif
 .. |Toonz71_128| image:: /_static/Toonz71/Toonz71_128.gif
 .. |Toonz71_130| image:: /_static/Toonz71/Toonz71_130.gif
