@@ -563,7 +563,7 @@ Raster Brushes
 
 Raster brushes are available to paint in raster levels and, with some limitations, in Toonz raster levels. They are essentially brushes compatible with the `MyPaint <http://mypaint.org/about/>`_ open source painting software.
 
-The Raster brushes use the color from the current style as a base, and all its remaining options can be found in the Settings tab of the Style Editor pane.
+The Raster brushes use the color from the current style as a base, and all its remaining options can be found in the Settings tab of the Style Editor pane (see  :ref:`Settings <settings>`  ).
 
 .. note:: In Toonz raster levels, currently only additive Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
 
@@ -571,8 +571,6 @@ The Raster brushes use the color from the current style as a base, and all its r
 
 .. note:: In Toonz raster levels, Raster brushes paint only Lines (not Areas).
 
-
-Parameters for the selected brush can be defined in the Settings tab (see  :ref:`Settings <settings>`  ).
 
 
 .. _settings:
