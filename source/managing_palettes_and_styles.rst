@@ -15,9 +15,9 @@ In raster levels, palette styles are simply used to draw or touch up images, and
 The Palette Editor
 ------------------
 
-|palette| 
- 
 The palette editor displays the styles of the current animation level that are used, or can be used, to draw and paint the level itself. 
+
+|palette| 
 
 The default palette of any new Toonz vector level contains only the plain black color; the default palette of a Toonz raster level contains the colors recognized during the cleanup process. Any palette always contains the Color 0 item, that allows you to remove any style from lines and filled areas. 
 
@@ -552,6 +552,27 @@ The first item available in the list allows you to remove the Vector Brush in or
     2. Edit the color using the wheel and sliders.
 
     3. If the vector brush uses more than one color, select the color to edit in the row of swatches available below the Auto and Apply buttons. 
+
+
+.. _raster_brushes:
+
+Raster Brushes
+''''''''''''''
+
+|style_editor_raster|
+
+Raster brushes are available to paint in raster levels and, with some limitations, Toonz raster levels. They are essentially brushes compatible with the MyPaint painting open source software.
+
+The Raster brushes use the color from the current style as a base, and all its remaining options can be found in the Settings tab of the Style Editor pane.
+
+.. note:: In Toonz raster levels, currently only additive Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
+
+.. note:: In Toonz raster levels, Raster brushes paint only Lines (not Areas).
+
+.. note:: In Toonz raster levels, Raster brushes use only the alpha channel of the selected brush to paint with the current style Color, and cannot use any of the other color related settings of that brush.
+
+
+Parameters for the selected brush can be defined in the Settings tab (see  :ref:`Settings <settings>`  ).
 
 
 .. _settings:
