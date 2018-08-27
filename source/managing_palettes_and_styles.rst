@@ -567,9 +567,9 @@ The Raster brushes use the color from the current style as a base, and all its r
 
 .. note:: In Toonz raster levels, currently only additive Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
 
-.. note:: In Toonz raster levels, Raster brushes paint only Lines (not Areas).
+.. note:: In Toonz raster levels, Raster brushes use only the alpha channel (opacity) values of the selected brush to paint with the current style Color, and cannot use any of the other color related settings of that brush.
 
-.. note:: In Toonz raster levels, Raster brushes use only the alpha channel of the selected brush to paint with the current style Color, and cannot use any of the other color related settings of that brush.
+.. note:: In Toonz raster levels, Raster brushes paint only Lines (not Areas).
 
 
 Parameters for the selected brush can be defined in the Settings tab (see  :ref:`Settings <settings>`  ).
