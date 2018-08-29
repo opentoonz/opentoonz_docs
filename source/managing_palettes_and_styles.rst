@@ -690,6 +690,23 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
     3. Click the Fade button to fade styles to the set color, according to the set percentage.
 
 
+.. _using_the_name_editor:
+
+Using the Name Editor
+'''''''''''''''''''''
+
+The Name Editor allows to systematize the naming of colors in the palettes used in a production by defining preset names for Character, Part and Suffix. In that way, palette's colors can be easily be given significant names that ease its use throughout the production.  
+
+|name_editor|
+
+.. note:: Currently there's no standard separator character inserted between the different preset names used, so if you want to have those separated by an underscore, for example, you should insert that character at the beginning or end of the different names in each category, as shown in the image above.
+
+.. tip:: **To open the Name Editor:**
+
+    Right-click in the Palette Editor and choose Name Editor from the menu that opens.
+
+
+
 .. |palette| image:: /_static/palettes_styles/palette.png
 .. |studio_palette| image:: /_static/palettes_styles/studio_palette.png
 .. |regular-imported-linked_style| image:: /_static/palettes_styles/regular-imported-linked_style.png
@@ -701,6 +718,7 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 .. |style_editor_raster| image:: /_static/palettes_styles/style_editor_raster.png
 .. |style_editor_settings| image:: /_static/palettes_styles/style_editor_settings.png
 .. |palette_gizmo| image:: /_static/palettes_styles/palette_gizmo.png
+.. |name_editor| image:: /_static/palettes_styles/name_editor.png
 
 .. |Toonz71_127| image:: /_static/Toonz71/Toonz71_127.gif
 .. |Toonz71_128| image:: /_static/Toonz71/Toonz71_128.gif
