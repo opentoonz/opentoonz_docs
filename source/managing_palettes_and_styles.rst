@@ -695,7 +695,7 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 Using the Name Editor
 '''''''''''''''''''''
 
-The Name Editor allows to systematize the naming of colors in the palettes used in a production by defining preset names for Character, Part and Suffix. In that way, palette's colors can be easily be given significant names that ease its use throughout the production.  
+The Name Editor allows to systematize the naming of styles used in a production, by defining preset names for Character, Part and Suffix. In that way, styles in a palette can easily be given significant names that will ease its use later on the production.  
 
 |name_editor|
 
@@ -704,6 +704,10 @@ The Name Editor allows to systematize the naming of colors in the palettes used 
 .. tip:: **To open the Name Editor:**
 
     Right-click in the Palette Editor and choose Name Editor from the menu that opens.
+
+.. tip:: **To delete a preset name:**
+
+    Right-click over the desired preset name and choose Remove from the menu that opens.
 
 
 
