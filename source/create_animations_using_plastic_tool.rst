@@ -412,7 +412,7 @@ Activating the Paint Rigid mode in the tool Plastic options bar, a specific draw
 
 Parenting Plastic levels using vertices and hooks
 '''''''''''''''''''''''''''''''''''''''''''''''''
-For building interesting and complex animations it could be useful and time saving to create a Parent -> Children relation between standard Toonz levels and Plastic modified levels, or between Plastic modified levels, so that the children levels inherit the transformations of the parent automatically. It is always possible to link the levels using the Pegbar as target but what if something more subtler is needed as using hooks? We have already described similar techniques for Toonz standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool is not active on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
+For building interesting and complex animations it could be useful and time saving to create a Parent -> Children relation between standard Toonz levels and Plastic modified levels, or between Plastic modified levels, so that the children levels inherit the transformations of the parent automatically. It is always possible to link the levels using the Pegbar as target but what if something more subtler is needed as using hooks? We have already described similar techniques for OpenToonz standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool is not active on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
 
 .. tip:: **To link a standard level to a Plastic modified level**
 
@@ -470,11 +470,11 @@ The values of these parameters can be visualized into the Function Editor as num
 
 Use Mathematical Expression in Plastic Animation
 ''''''''''''''''''''''''''''''''''''''''''''''''
-To use Toonz mathematical expression in the Plastic Animation, link the vertexes of the skeleton eachother or to a column, pegbar or camera.
+To use OpenToonz mathematical expressions in the Plastic Animation, link the vertices of the skeleton to each other or to a column, pegbar or camera.
 
-This allow you to set some automatic actions of the skeleton, for example you can link the main vertexes of the shoulders, so that moving just one shoulder the other moves automatically.
+This allow you to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder the other moves automatically.
 
-Suppose that the main vertexes of the shoulders are named shoulder_left and shoulder_right, you can link the rotation of the shoulder_left vertex to the one of the shoulder_right one setting the following expression in the expression field of the angle parameter of the shoulder_left in the Function Editor:
+Suppose that the main vertices of the shoulders are named shoulder_left and shoulder_right, you can link the rotation of the shoulder_left vertex to the one of the shoulder_right one setting the following expression in the expression field of the angle parameter of the shoulder_left in the Function Editor:
 
 vertex(column_number, "Shoulder_right").angle
 
