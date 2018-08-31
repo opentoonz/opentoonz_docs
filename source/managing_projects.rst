@@ -14,13 +14,13 @@ The right use of production material is achieved because once you have defined a
 
 Setting the Projectroot
 -----------------------
-The projectroot is the folder where the project information and database are stored; it is displayed in the Toonz browser as one of the main folders with the related path in brackets.
+The projectroot is the folder where the project information and database are stored; it is displayed in the OpenToonz browser as one of the main folders with the related path in brackets.
 
-It can be specified during the Toonz Harlequin installation on Windows, or by editing a configuration file on Macintosh. The default value is ``C:\Toonz 7.0  stuff\projetcs``  on Windows and ``/Applications/Toonz 7.0 /Toonz 7.0  stuff/projects``  on Macintosh.
+The default value is ``C:\OpenToonz 1.x stuff\projects``  on Windows and ``/Applications/OpenToonz 1.x /OpenToonz 1.x stuff/projects``  on Macintosh.
 
 If your production has to be managed on more than one computer or on a network, you can share the same project information and database on all the computers you want, by defining the same projectroot on the network computers during each installation.
 
-It is also possible to define more than one projectroot if needed: in this case projectroot folders will be visible in the Toonz browser, each with the related path in brackets.
+It is also possible to define more than one projectroot if needed: in this case projectroot folders will be visible in the OpenToonz browser, each with the related path in brackets.
 
 The projectroot information can be changed at any moment, for instance if you need to move the project database files from one computer to another.
 
@@ -28,15 +28,11 @@ The projectroot information can be changed at any moment, for instance if you ne
 
 .. tip:: **To set the projectroot on Windows:**
 
-    1. Open the Run application dialog by doing one of the following:
-
-    - On Windows XP, select Start > Run.
-
-    - On Windows Vista and Windows 7, select Start > All Programs > Accessories > Run.
+    1. Open the Run application dialog by selecting Run from the Start menu.
 
     2. Type ``regedit``  in the text box and click OK. This will open the Registry Editor application.
 
-    3. Navigate to the ``HKEY_LOCAL_MACHINE\SOFTWARE\Digital Video\Toonz\7.0`` and double-click TOONZPROJECTS in the right part of the window: the Edit String dialog opens.
+    3. Navigate to the ``HKEY_LOCAL_MACHINE\SOFTWARE\OpenToonz\OpenToonz\1.x`` and double-click TOONZPROJECTS in the right part of the window: the Edit String dialog opens.
 
     4. Enter the new path for the projectroot. 
 
@@ -52,16 +48,16 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     3. Click OK and exit from the Registry Editor application.
 
-    4. Restart Toonz Harlequin to make the change effective.
+    4. Restart OpenToonz to make the change effective.
 
 .. tip:: **To set the projectroot on Macintosh:**
 
-    1. Right-click the Toonz 7.0 icon in the ``Applications/Toonz 7.0 `` folder, and choose Show Package Contents from the menu that opens.
+    1. Right-click the OpenToonz icon in the ``Applications/OpenToonz 1.x `` folder, and choose Show Package Contents from the menu that opens.
 
     2. In the folder that opens browse to the ``Contents/Resources``  folder and open the ``SystemVar.ini``  file with a text editor application, such as TextEdit.
 
     3. Look for the following line where the projectroot is defined:
-    ``TOONZPROJECTS=”/Applications/Toonz 7.0 /Toonz 7.0 stuff/projects”`` 
+    ``TOONZPROJECTS=”/Applications/OpenToonz 1.x /OpenToonz 1.x stuff/projects”`` 
 
     4. Change the path in inverted commas by typing a new one.
 
@@ -71,11 +67,11 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     1. Open the configuration file to edit the TOONZPROJECTS variable as described above.
 
-    2. Change the path in inverted commas by adding a new path for the new projectroot, separated by a semicolon (e.g. ``/Applications/Toonz 7.0`` ``/Toonz 7.0 stuff/production01`` ``;`` ``/Applications/Toonz 7.0 /Toonz 7.0 stuff/production02`` ). 
+    2. Change the path in inverted commas by adding a new path for the new projectroot, separated by a semicolon (e.g. ``/Applications/OpenToonz 1.x`` ``/OpenToonz 1.x stuff/production01`` ``;`` ``/Applications/OpenToonz 1.x /OpenToonz 1.x stuff/production02`` ). 
 
     3. Save the ``SystemVar.ini``  file.
 
-    4. Restart Toonz Harlequin to make the change effective.
+    4. Restart OpenToonz to make the change effective.
 
 .. _setting_up_projects:
 
@@ -85,9 +81,7 @@ When you define a new project you can specify its default folders, while its def
 
 Project information is stored in an XML file named as the project with the ``_prj63ml``  suffix in a folder named as the project located in the projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
-.. note:: Starting from Toonz Harlequin6.4 ML, projects are not compatible with previous versions of the software. In case you use Toonz Harlequin 6.4 ML (or later versions of the software) to work on a project created with a previous version, the project information will be stored in a new XML file with the ``_prj63ml``  suffix, while the old XML file will be renamed with a ``.xml_``  extension.
-
-Projects can be organized in folders and can contain sub-projects that can be browsed in the Toonz file browser. This allows you to customize the project structures in order to follow your production needs, for instance creating a folder for each episode, then a project for each scene belonging to that episode. As the project browser will display the project tree and all the folders contained in the projectroot, you can also organize your folder structure in the projectroot by using the OS file system.
+Projects can be organized in folders and can contain sub-projects that can be browsed in the OpenToonz file browser. This allows you to customize the project structures in order to follow your production needs, for instance creating a folder for each episode, then a project for each scene belonging to that episode. As the project browser will display the project tree and all the folders contained in the projectroot, you can also organize your folder structure in the projectroot by using the OS file system.
 
 There is always one current project selected in the project browser: when you start working on a scene, automatically it will belong to the current project, inheriting its settings and default folders. 
 
@@ -99,7 +93,7 @@ If you want a new scene to be part of a new project, first you have to define a 
 
     1. Choose File > New Project. 
 
-    2. Select the projectroot or repository (see  :ref:`Configuring the Version Control in Toonz <configuring_the_version_control_in_toonz>`  ), and the project or folder where you want to create the new project.
+    2. Select the projectroot or repository (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ), and the project or folder where you want to create the new project.
 
     3. Type the name of the project and set the path to the folders you want to use as default. 
 
@@ -107,7 +101,7 @@ If you want a new scene to be part of a new project, first you have to define a 
 
 .. tip:: **To change the current project:**
 
-    Click the small round button on the left of the project name in the project tree available in the Toonz file browser. It becomes red when selected.
+    Click the small round button on the left of the project name in the project tree available in the OpenToonz file browser. It becomes red when selected.
 
 .. tip:: **To add a scene to a project:**
 
@@ -129,11 +123,11 @@ Projects have default folders where scanned drawings, painted drawings, scenes, 
 
 - +inputs is the folder where all scanned drawings are saved (as TIF files).
 
-- +drawings is the folder where Toonz cleaned up drawings, drawings made directly in Toonz and imported Toonz drawings are saved (TLV and PLI files).
+- +drawings is the folder where OpenToonz cleaned up drawings, drawings made directly in OpenToonz and imported OpenToonz drawings are saved (TLV and PLI files).
 
-- +scenes is the folder where the Toonz scenes are saved (TNZ files).
+- +scenes is the folder where the OpenToonz scenes are saved (TNZ files).
 
-- +extras is the folder where all the imported non-Toonz levels, images and audio files are saved.
+- +extras is the folder where all the imported non-OpenToonz levels, images and audio files are saved.
 
 - +outputs is the folder where rendered images are saved.
 
@@ -143,13 +137,13 @@ For each of these folders you can specify different locations on your computer n
 
 Absolute or relative paths can be specified for the default folders definition.
 
-If you specify an absolute path, the folders will be created, when needed, where specified. For example you can set +drawings to be ``C:\production\drawings01`` on Windows, or ``/Volume/Macintosh HD/production/drawing 01``  on Macintosh: this means that the Toonz drawn and cleaned up levels will be automatically saved in ``C:\production\drawings01`` on Windows, or in ``/Volume/Macintosh HD/production/drawing 01``  on Macintosh.
+If you specify an absolute path, the folders will be created, when needed, where specified. For example you can set +drawings to be ``C:\production\drawings01`` on Windows, or ``/Volume/Macintosh HD/production/drawing 01``  on Macintosh: this means that the OpenToonz drawn and cleaned up levels will be automatically saved in ``C:\production\drawings01`` on Windows, or in ``/Volume/Macintosh HD/production/drawing 01``  on Macintosh.
 
-If you specify a relative path, all the folders you specify in the path will be created, when needed, in the project folder under the selected projectroot or repository (see  :ref:`Configuring the Version Control in Toonz <configuring_the_version_control_in_toonz>`  ). For example, for the project myproject, you can set +drawings to be ``sequence01\mydrawings`` : this means that the Toonz drawn and cleaned up levels will be automatically saved in the ``myproject\sequence01\mydrawings``  folder located in the selected projectroot or repository. 
+If you specify a relative path, all the folders you specify in the path will be created, when needed, in the project folder under the selected projectroot or repository (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ). For example, for the project myproject, you can set +drawings to be ``sequence01\mydrawings`` : this means that the OpenToonz drawn and cleaned up levels will be automatically saved in the ``myproject\sequence01\mydrawings``  folder located in the selected projectroot or repository. 
 
 The $scenepath variable can also be used to automatically create specific folders according to the scene you are working on. The variable can be either appended to the specified paths, or used in the path definition.
 
-The labels of the default folders you can find in the project settings (i.e. +drawings, +extras, etc.) can be used as aliases in Toonz. For example if some material is retrieved from the extras default folder, its loading path will contain the alias +extras. They can be also used when you need to specify a saving path, for example in the Path field of the New Level dialog.
+The labels of the default folders you can find in the project settings (i.e. +drawings, +extras, etc.) can be used as aliases in OpenToonz. For example if some material is retrieved from the extras default folder, its loading path will contain the alias +extras. They can be also used when you need to specify a saving path, for example in the Path field of the New Level dialog.
 
 When in a scene you load material not located in the current project folders, you can choose whether to import files, that is to say copy them in the related project folders, or to create a link with the external file. The link is defined by an absolute path. 
 
@@ -157,7 +151,7 @@ When in a scene you load material not located in the current project folders, yo
 
 .. note:: All shared disks involved in the folder definitions, i.e. disks where production material has to be written and read, must be shared granting full permissions to any user, otherwise the exchange of files will not succeed. For Windows, disks must have a Share Permission set to Full Control for Everyone; for Macintosh, the sharing settings must allow any user to read from and write to disks.
 
-.. note:: When no project is defined, the ``Toonz 7.0 stuff`` ``/sandbox`` project is used by default.
+.. note:: When no project is defined, the ``OpenToonz 1.x stuff`` ``/sandbox`` project is used by default.
 
 .. tip:: **To set default folders for a new project:**
 
@@ -171,7 +165,7 @@ When in a scene you load material not located in the current project folders, yo
 
 Adding Custom Default Folders
 '''''''''''''''''''''''''''''
-Besides the basic default folders you can also add your own default folders, and use the related aliases, by defining a TXT file named ``project_folders.txt``  in the ``Toonz 7.0  stuff\profiles``  folder. In this file you can also change the order of the folders already available to change the way they are listed in the project settings dialog. The following is an example of a ``projectfolders.txt``  file:
+Besides the basic default folders you can also add your own default folders, and use the related aliases, by defining a TXT file named ``project_folders.txt``  in the ``OpenToonz 1.x stuff\profiles``  folder. In this file you can also change the order of the folders already available to change the way they are listed in the project settings dialog. The following is an example of a ``projectfolders.txt``  file:
 
 inputsdrawingsbackgroundscenesextrasoutputspalettes3D
 
@@ -179,7 +173,7 @@ where the +backgrounds and +3D aliases were added to the default ones.
 
 .. tip:: **To add more default folders to projects:**
 
-    1. Open the ``Toonz 7.0  stuff\profiles\project_folders.txt``  file.
+    1. Open the ``OpenToonz 1.x stuff\profiles\project_folders.txt``  file.
 
     2. List the default folders you want to define, one per line, and save the file.
 
@@ -189,13 +183,13 @@ Using the $scenepath Variable in Folder Definition
 ''''''''''''''''''''''''''''''''''''''''''''''''''
 The $scenepath variable can also be used in the definition of the +inputs, +drawings, and +extras aliases when typing the default folder path. In this case the path where you save the current scene will replace the $scenepath variable in the path definition, with the needed folders automatically created during the saving process.
 
-For example if +drawings is ``$scenepath\mydrawings,`` and you save the scene scene01 in ``+scenes\seq01`` , Toonz drawn or cleaned up levels for that scene will be saved in ``seq01\scene01\mydrawings`` ; when you save the scene scene02, in ``seq01\scene02\mydrawings`` ; and so on. 
+For example if +drawings is ``$scenepath\mydrawings,`` and you save the scene scene01 in ``+scenes\seq01`` , OpenToonz drawn or cleaned up levels for that scene will be saved in ``seq01\scene01\mydrawings`` ; when you save the scene scene02, in ``seq01\scene02\mydrawings`` ; and so on. 
 
 In this way the needed default folders are automatically created with the same given name (mydrawings), one for each scene, according to the path used when saving the scene. As a consequence, if the variable is used in this way for all the aliases, all the files related to a scene will be stored in a folder named as the scene.
 
  |Toonz71_031| 
 
-A second example: if +drawings is ``mydrawings\$scenepath,`` when you save the scene scene01 in ``+scenes\seq01`` , Toonz drawn or cleaned up levels for that scene will be saved in ``mydrawings\seq01\scene01`` ; when you save the scene scene02, in ``mydrawings\seq01\scene02`` ; and so on. 
+A second example: if +drawings is ``mydrawings\$scenepath,`` when you save the scene scene01 in ``+scenes\seq01`` , OpenToonz drawn or cleaned up levels for that scene will be saved in ``mydrawings\seq01\scene01`` ; when you save the scene scene02, in ``mydrawings\seq01\scene02`` ; and so on. 
 
 In this case the needed default folders are automatically created with the name and path of folders used when saving the scene, inside the path specified (mydrawings). As a consequence, if the variable is used in this way for all the aliases, all the files used in the project will be stored in a main folder for each alias, whose content is divided into folders named as the scenes. 
 
@@ -209,11 +203,11 @@ Using the Append $scenepath Option
 ''''''''''''''''''''''''''''''''''
 The Append $scenepath option is available for the +inputs, +drawings and +extras aliases. If you activate the Append $scenepath option for an alias, the path where you save the current scene will be added to the path of the alias, with the needed folders automatically created during the saving process.
 
-For example if +drawings is ``mydrawings`` , and you save the scene scene01 in ``+scenes\seq01`` , Toonz drawn or cleaned up levels for that scene will be saved in ``mydrawings\seq01\scene01`` ; if you save the scene scene02 in ``+scenes\seq01`` , Toonz drawn or cleaned up levels for that scene will be saved in ``mydrawings\seq01\scene02`` ; and so on.
+For example if +drawings is ``mydrawings`` , and you save the scene scene01 in ``+scenes\seq01`` , OpenToonz drawn or cleaned up levels for that scene will be saved in ``mydrawings\seq01\scene01`` ; if you save the scene scene02 in ``+scenes\seq01`` , OpenToonz drawn or cleaned up levels for that scene will be saved in ``mydrawings\seq01\scene02`` ; and so on.
 
  |Toonz71_032| 
 
-This allows Toonz to create scene-related folders automatically when saving Toonz files or importing external files, while allowing the use of the generic aliases +drawings, +inputs and +extras, no matter where levels are loaded from within the current project.
+This allows OpenToonz to create scene-related folders automatically when saving OpenToonz files or importing external files, while allowing the use of the generic aliases +drawings, +inputs and +extras, no matter where levels are loaded from within the current project.
 
 .. note:: When a scene is saved in the +scenes folder, the value for $scenepath is the scene name; for example if you save the scene scene02 in +scenes, $scenepath will be scene02.
 
@@ -223,7 +217,7 @@ This allows Toonz to create scene-related folders automatically when saving Toon
 
 Using the Project Browser
 -------------------------
-The project browser is available at the end of the file browser tree. It lists all of the projects that have been created, whose actual location is in the projectroot that was defined in the initial installation of Toonz. The projectroot value is displayed in brackets.
+The project browser is available at the end of the file browser tree. It lists all of the projects that have been created, whose actual location is in the projectroot that was defined in the initial installation of OpenToonz. The projectroot value is displayed in brackets.
 
 The name of the folders which the aliases point to are displayed in blue. 
 
