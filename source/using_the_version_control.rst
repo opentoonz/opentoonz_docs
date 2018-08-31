@@ -10,9 +10,9 @@ When you need to work on a file, you can get it from the central repository to y
 
 The file you put will be saved as the last revision of the file, while the previous revisions will be retained as file history, and all the users sharing the same central repository can get if from there. In case a previous version of the file is needed, it is always possible to retrieve it from the central repository.
 
-Toonz supports the version control system Subversion, which is one of the most popular version control system used in many high-scale open source projects.
+OpenToonz supports the Subversion version control system, which is one of the most popular version control system used in many high-scale open source projects.
 
-.. note:: The central repository defined for your version control system behaves exactly as a Toonz projectroot, therefore the project management under the version control system is the same, only referencing to the central repository instead of the projectroot (see  :ref:`Managing Projects <managing_projects>`  ).
+.. note:: The central repository defined for your version control system behaves exactly as an OpenToonz projectroot, therefore the project management under the version control system is the same, only referencing to the central repository instead of the projectroot (see  :ref:`Managing Projects <managing_projects>`  ).
 
 .. _installing_the_version_control_system:
 
@@ -50,29 +50,30 @@ If the OS is older than Snow Leopard the setup requires the download and install
 
 The starting page for downloading Subversion is ``http://subversion.apache.org/``  where you should look for the available binary packages, and download a version control client for Macintosh. We suggest the use of openCollabNet Universal Subversion Binaries related to your Mac OS X version.
 
-After the installation is very important to check where Subversion is installed as this information is needed to configure the version control in Toonz: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
+After the installation is very important to check where Subversion is installed, as this information is needed to configure the version control in OpenToonz: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
 
 .. note:: If an older Subversion release is used some version control features might not work.
 
+
 .. _configuring_the_version_control_in_toonz:
 
-Configuring the Version Control in Toonz
-''''''''''''''''''''''''''''''''''''''''
-Once the version control server is configured and the version control client is installed it is possible to configure Toonz in order to use the version control.
+Configuring the Version Control in OpenToonz
+''''''''''''''''''''''''''''''''''''''''''''
+Once the version control server is configured and the version control client is installed it is possible to configure OpenToonz in order to use the version control.
 
-In Toonz the version control information are stored in the ``versioncontrol.xml``  file located in the ``Toonz 7.0  stuff\config`` folder. By default the file has the following content:
+In OpenToonz the version control information is stored in the ``versioncontrol.xml``  file located in the ``OpenToonz 1.x stuff\config`` folder. By default the file has the following content:
 
 ``<?xml version="1.0" encoding="UTF-8"?><Repositories><!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN<repository><name>PutYourRepositoryName</name><localPath>putYourWorkingCopyPath</localPath><repoPath>putYourRepositoryPath</repoPath></repository>REMOVE ENTIRELY THIS LINE TO ENABLE SVN --> <svnPath></svnPath></Repositories>`` 
 
 By editing the file with a text editor (e.g. Notepad) it is possible to set the information for the central repository and the working copy location.
 
-Together with the configuration file, version control users can be defined by editing the ``permissions.xml``  file located in the ``Toonz 7.0  stuff\config`` folder (see the Toonz Setup Guide on the Toonz CD-ROM ).
+Together with the configuration file, version control users must be defined by editing the ``permissions.xml``  file located in the ``OpenToonz 1.x stuff\config`` folder.
 
-.. note:: The ``versioncontrol.xml``  and ``permissions.xml``  file have to be well-formed, and so cannot contain an opening tag without its related closing tag, otherwise Toonz will not run. If you decide to edit the files, make a backup copy first in case you need to revert the file to the original version.
+.. note:: The ``versioncontrol.xml``  and ``permissions.xml``  file have to be well-formed, and so cannot contain an opening tag without its related closing tag, otherwise OpenToonz will not run. If you decide to edit the files, make a backup copy first in case you need to revert the file to the original version.
 
-.. tip:: **To configure the version control in Toonz:**
+.. tip:: **To configure the version control in OpenToonz:**
 
-    1. Open the ``versioncontrol.xml``  file located in the ``Toonz 7.0  stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz 1.x stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. Delete the line
 
@@ -94,7 +95,7 @@ and the line
 
 <name>PutYourRepositoryName</name>
 
-type between the tags the name you want the repository to have in the Toonz browser.
+type between the tags the name you want the repository to have in the OpenToonz browser.
 
     4. In the line 
 
@@ -128,9 +129,10 @@ type between the tags the path to the folder where Subversion is installed (this
 
 Save the ``versioncontrol.xml``  file.
 
+
 .. tip:: **To define the version control users:**
 
-    1. Open the ``permissions.xml``  file located in the ``Toonz 7.0  stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``permissions.xml``  file located in the ``OpenToonz 1.x stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
 
@@ -142,9 +144,10 @@ Save the ``versioncontrol.xml``  file.
 
     3. Save the ``permissions.xml``  file.
 
+
 .. tip:: **To define several version control repositories:**
 
-    1. Open the ``versioncontrol.xml``  file located in the ``Toonz 7.0  stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz 1.x stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. Add after the lines defining a repository the following lines 
 
@@ -158,9 +161,10 @@ and set the related information.
 
 Save the ``versioncontrol.xml``  file.
 
+
 .. tip:: **To define users for different repositories:**
 
-    1. Open the ``permissions.xml``  file located in the ``Toonz 7.0  stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``permissions.xml``  file located in the ``OpenToonz 1.x stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
 
@@ -172,23 +176,25 @@ Save the ``versioncontrol.xml``  file.
 
     3. Save the ``permissions.xml``  file.
 
+
 .. _initializing_the_version_control_in_toonz:
 
-Initializing the Version Control in Toonz
-'''''''''''''''''''''''''''''''''''''''''
-Before starting to use the version control system, it has to be initialized by setting an option in the Preferences dialog and restarting Toonz.
+Initializing the Version Control in OpenToonz
+'''''''''''''''''''''''''''''''''''''''''''''
+Before starting to use the version control system, it has to be initialized by setting an option in the Preferences dialog and restarting OpenToonz.
 
 At this point the repository will be displayed in the Toonz browser, and you will be able to start using it.
 
 .. tip:: **To initialize the version control system:**
 
-    1. In Toonz open the Preferences > Version Control dialog and activate the Enable Version Control option.
+    1. In OpenToonz open the Preferences > Version Control dialog and activate the Enable Version Control option.
 
 .. note:: If the version control is not correctly installed or the configuration file is not correctly defined, activating the option will prompt a warning message.
 
-Quit and restart Toonz.
+Quit and restart OpenToonz.
 
-In the Toonz browser look for the repository at the end of the folder tree, named as you defined in the configuration file; right-click it and choose Get from the menu that opens to establish the connection between the central repository and the local working copy.
+In the OpenToonz browser look for the repository at the end of the folder tree, named as you defined in the configuration file; right-click it and choose Get from the menu that opens to establish the connection between the central repository and the local working copy.
+
 
 .. _using_the_version_control_system:
 
@@ -196,9 +202,9 @@ Using the Version Control System
 --------------------------------
  |Toonz71_573| 
 
-The central repository and the local working copy are displayed in the Toonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it is possible to retrieve the folders and files. 
+The central repository and the local working copy are displayed in the OpenToonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it is possible to retrieve the folders and files. 
 
-When a folder is selected in the folder tree a refresh operation occurs automatically to check the status of the folder and its content. As this operations may requires some time according to the connection speed on the local network or in the Internet, the automatic refresh operation can be disabled.
+When a folder is selected in the folder tree a refresh operation occurs automatically to check the status of the folder and its content. As this operations may require some time according to the connection speed on the local network or in the Internet, the automatic refresh operation can be disabled.
 
 .. note:: If several repositories are defined, each of them will be displayed with the name you assigned to each.
 
@@ -211,6 +217,7 @@ When a folder is selected in the folder tree a refresh operation occurs automati
 .. tip:: **To manually refresh a folder content visualization:**
 
     Right-click the folder icon in the folder tree and choose Refresh from the menu that opens.
+
 
 .. _getting_and_putting_folders_and_files:
 
@@ -246,11 +253,12 @@ In case you are getting or putting scene files (TNZ format), in the dialog that 
 
     3. Type a comment if required and click the Put button.
 
+
 .. _editing_files:
 
 Editing Files
 '''''''''''''
-When using a version control system in order to modify files you have to Edit them before loading them into Toonz; if files are not in edit mode, they can only be loaded as read-only.
+When using a version control system in order to modify files you have to Edit them before loading them into OpenToonz; if files are not in edit mode, they can only be loaded as read-only.
 
 The Edit operation unlocks the file for the user running the command, preventing other users sharing the same central repository from unlocking it and being able to modify it. when a file is edited, it is possible to type a comment to let the other users know about s of your editing operation.
 
