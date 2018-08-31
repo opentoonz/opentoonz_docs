@@ -2,17 +2,15 @@
 
 Drawing Animation Levels
 ========================
-In Toonz it is possible to draw Toonz vector levels (PLI format), Toonz raster levels (TLV format) and standard raster levels (TIF format) directly in the work area. Drawing tools can also be used for touch-up in cleaned up drawings, and any loaded raster images.
+In OpenToonz it is possible to draw Toonz vector levels (PLI format), Toonz raster levels (TLV format) and standard raster levels (TIF format) directly in the work area. Drawing tools can also be used for touch-up in cleaned up drawings, and any loaded raster images.
 
 .. _drawing_in_toonz:
 
-Drawing In Toonz
+Drawing In OpenToonz
 ----------------
 To draw an animation level, first you have to define its type, Toonz vector, Toonz raster or raster, and its settings like its name, the number of frames it is made of and the way its drawings are numbered.
 
 Toonz vector levels are defined by drawing vector strokes; vectors and areas defined by vectors can be painted by using the styles available in the level palette. Toonz vector levels have unlimited size and resolution, as they are vector-based. They are saved as PLI files.
-
-.. note:: Starting from Toonz Harlequin 6.4 ML, vector levels (PLI files) created with Toonz are not compatible with previous versions of the software.
 
 Toonz raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz raster levels have a limited size and resolution, defined when they are created. They are saved as TLV files.
 
@@ -26,19 +24,17 @@ When selected in the xsheet, the work area displays the whole scene content at t
 
 Setting the Default Type of Level to Draw
 '''''''''''''''''''''''''''''''''''''''''
-It is possible to define the level type that will be created by default when you draw inside Toonz.
+It is possible to define the level type that will be created by default when you draw inside OpenToonz.
 
-The choice is among Toonz Vector Leveland Raster Level.
-
-By default Toonz raster and vector levels are saved in the +drawing folder of the current project when the scene is saved, while raster levels are saved in the +extras folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
+By default Toonz raster and Toonz vector levels are saved in the +drawing folder of the current project when the scene is saved, while raster levels are saved in the +extras folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 .. tip:: **To define the Default Type of Level to Draw:**
 
-    1. Open File>Preferences > Drawing.
+    1. Open File> Preferences > Drawing.
 
-    2. Choose the level type you want to use as default from the Default Level Type option menu. Widht, Height and DPI fields are available for Toonz Raster Level, Raster Level and Scan level.
+    2. Choose the level type you want to use as default from the Default Level Type option menu. Width, Height and DPI fields are available for Toonz Raster Level, Raster Level and Scan level.
 
-.. note:: The Width, Height and DPI value set in the File>Preferences > Drawing page will be used as default by the New Level pop up.
+.. note:: The Width, Height and DPI value set in the File> Preferences > Drawing page will be used as default by the New Level dialog.
 
 Drawing Animation Levels
 ''''''''''''''''''''''''
@@ -549,7 +545,7 @@ Two main conversion modes are available: centerline and outline. The choice betw
 
 
 
-In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in Toonz, for example you can change the bend of a vector with the Pinch tool ( |Toonz71_079| ) or with the Control Point Editor tool and the thickness with the Pump tool (
+In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool ( |Toonz71_079| ) or with the Control Point Editor tool and the thickness with the Pump tool (
 
  |Toonz71_080| ).
 
@@ -607,8 +603,6 @@ In the Centerline mode the following settings are available:
 - It is possible to select the images or the level frames that have to be converted directly in the xsheet.
 
 When a conversion is performed a new level is created according to the selection you made, and exposed in the xsheet in the column next to that containing the source level: the new file has the same name of the starting one but has a PLI extension, and a “v” suffix, and is saved in the +drawings default folder. 
-
-.. note:: Toonz vector levels (PLI files) created with Toonz Harlequin 7.0 are not compatible with previous versions of the software.
 
 .. note:: In case a PLI level with the same name already exists, the name of the new file will be followed by a progressive number.
 
@@ -706,7 +700,7 @@ Changing the Canvas Size
 ------------------------
 It is possible to change the size of Toonz and standard raster levels, in order to increase or decrease the area around the images of a level.
 
-The new size can be set in any unit supported by Toonz, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level images.
+The new size can be set in any unit supported by OpenToonz, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level images.
 
 .. tip:: **To change the canvas size:**
 
@@ -726,7 +720,7 @@ The new size can be set in any unit supported by Toonz, by using absolute or rel
 
 Editing Drawings
 ----------------
-Toonz raster and vector drawings, and raster images, can be manipulated in Toonz.
+Toonz raster and vector drawings, and raster images, can be manipulated in OpenToonz.
 
 To edit a drawing, for example to copy a part of it, you have first to select it in the xsheet or in the level strip. When selected in the xsheet, the work area displays the whole scene contents at the current frame, when selected in the level strip, the work area displays the selected frame of the current animation level only, to let you work more easily on it.
 
@@ -1339,7 +1333,7 @@ The best solution for this kind of issue is to overlap the final section of vect
 
 Animation Techniques
 --------------------
-Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to Toonz features.
+Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to OpenToonz features.
 
 Whatever the technique is, you can control your work and how smooth the animation is by using the onion skin, that allows you to view more than one image in the viewer at the same time as reference.
 
