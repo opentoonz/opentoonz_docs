@@ -1148,7 +1148,7 @@ Premultiply
 ~~~~~~~~~~~
 Premultiplies the alpha channel of the Source node content. 
 
-Full-color images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in Toonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply effect it is possible to transform the image alpha-channel so that it is correctly read by Toonz.
+Full-color images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply effect it is possible to transform the image alpha-channel so that it is correctly read by OpenToonz.
 
 .. note:: Full-color images can also be premultiplied by using a Level Settings option, or processed permanently in the browser, so that there is no need to apply the effect in the schematic (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the File Browser <using_the_file_browser>`  ).
 
@@ -1534,7 +1534,7 @@ The Mode option menu lets you set how the texture node content will be applied: 
 
 Shaders
 '''''''
-Toonz enables support for special fxs rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices to execute with extreme speed. Toonz's shader fxs are written in the OpenGL Shading Language (GLSL), and are located in PROJECTROOT/library/shaders. Refer to the readme.txt file there for further s on editing or creating new shader fxs.
+OpenToonz enables support for special fxs rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices to execute with extreme speed. OpenToonz's shader fxs are written in the OpenGL Shading Language (GLSL), and are located in PROJECTROOT/library/shaders. Refer to the readme.txt file there for further s on editing or creating new shader fxs.
 
 .. _caustic:
 
