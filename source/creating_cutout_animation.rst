@@ -8,7 +8,7 @@ Animations in this case can be defined not by adding animated drawings, but by m
 
  |Toonz71_328| 
 
-In Toonz it is possible to create links between the model different sections and set pivot points for each section, in order to better manage the animation. For example you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
+In OpenToonz it is possible to create links between the model different sections and set pivot points for each section, in order to better manage the animation. For example you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
 
 .. tip:: **To create a cutout animation:**
 
