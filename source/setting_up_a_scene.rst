@@ -8,7 +8,7 @@ Scene Settings and Project Default Settings
 -------------------------------------------
 When you start working on a scene, automatically it will belong to the current project, inheriting its settings and default folders. In this way all the scenes belonging to a project are created with the same settings, assuring the consistency of the production (see  :ref:`Managing Projects <managing_projects>`  ). 
 
-Settings concern different tasks you may perform in Toonz, such as the scanning, or cleanup process, the camera size and resolution, the frame rate, the output options, etc. They can be accessed in dialogs you can open with commands available in the related menu; for example the scan and cleanup settings commands are available in the Scan & Cleanup menu.
+Settings concern different tasks you may perform in OpenToonz, such as the scanning, or cleanup process, the camera size and resolution, the frame rate, the output options, etc. They can be accessed in dialogs you can open with commands available in the related menu; for example the scan and cleanup settings commands are available in the Scan & Cleanup menu.
 
 Settings for a particular scene can always be changed independently from the other ones, and will be automatically saved when the scene is saved. 
 
@@ -74,7 +74,7 @@ More than one camera can be defined for each scene, in order to have different o
 
 The camera size can be expressed in any unit, but will be visualized in the default one chosen in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ). 
 
-In Toonz the Camera is defined by different parameters:
+In OpenToonz the Camera is defined by different parameters:
 
 
 
@@ -87,9 +87,9 @@ In Toonz the Camera is defined by different parameters:
 
     - XDpi and YDpi that are the X and Y resolutions calculated using the standard formulas: XDpi=XPx/Width, and, YDpi=YPx/Height. This two fields can be forced having the same valu using the appropriate checkbox.
 
-When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of value has to be considered fixed by Toonz . The buttons of the top row and leftmost column of the camera parameters let you selct which colum and row of values has to be preserved by Toonz while changing the others as needed.
+When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of value has to be considered fixed by OpenToonz . The buttons of the top row and leftmost column of the camera parameters let you selct which colum and row of values has to be preserved by OpenToonz while changing the others as needed.
 
-The Use Current Level Settings button let you set the camera for framing exactly the content of the selected level. Just press this button and Toonz will calculate the appropriate values for the camera.
+The Use Current Level Settings button let you set the camera for framing exactly the content of the selected level. Just press this button and OpenToonz will calculate the appropriate values for the camera.
 
 Camera resolutions can also be selected from a list of predefined cameras. You can add any camera you define to the list, as well as remove any predefined camera from the list.
 
@@ -125,11 +125,11 @@ As soon as the limit is reached, the oldest undo operations will be discarded to
 
 Optimizing the Memory Usage
 ---------------------------
-When working with raster images, predominantly being animation levels scanned with Toonz, an extensive usage of computer memory may be required during the cleanup, painting and rendering processes.
+When working with raster images, predominantly being animation levels scanned with OpenToonz, an extensive usage of computer memory may be required during the cleanup, painting and rendering processes.
 
 After a certain amount of time the computer performance may worsen, as the memory gets fragmented because of the several writing and reading accesses. To prevent this behavior, the Minimize Raster Image Fragmentation option can be activated in the Files > Preferences > General dialog. When activated, a section of computer memory is reserved and used only for operation concerning raster images.
 
-If you are working mainly with vector images, that have been drawn inside Toonz, this option should be deactivated, as the reserved memory section would be unused by the computer.
+If you are working mainly with vector images, that have been drawn inside OpenToonz, this option should be deactivated, as the reserved memory section would be unused by the computer.
 
-.. note:: The value set for this option is valid only after Toonz is restarted.
+.. note:: The value set for this option is valid only after OpenToonz is restarted.
 
