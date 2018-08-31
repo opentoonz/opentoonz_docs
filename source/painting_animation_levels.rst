@@ -473,99 +473,6 @@ To control if all the drawings areas are properly painted, and to see if the fil
     Activate or deactivate the check from the View menu.
 
 
-
-
-Painting Outlines
------------------
-Drawing outline can be painted with the Fill tool ( |Toonz71_204| ). For Toonz raster drawings, the Fill tool (
-
- |Toonz71_205| ) affects the continuous outline sharing the same style; for Toonz vector drawings, only a single vector at a time. 
-
-
-
-For Toonz raster drawings, the outline can be also painted with the Paint Brush tool ( |Toonz71_206| ) set to Lines mode. In this case by setting the size of the tool, you can paint any section of the outline as if you were using a brush.
-
-
-
-For Toonz vector drawings, a vector can be also painted by selecting it first, then selecting the style you want in the animation level palette.
-
-.. tip:: **To paint a raster outline:**
-
-    1. Select the Fill tool (), set the fill mode to Lines and select a style in the palette.
-
-    2. Click the outline you want to paint. 
-
-.. tip:: **To paint a vector:**
-
-    Do one of the following:
-
-    - Select the Fill tool ( |Toonz71_208| ), set the fill mode to Lines, select a style in the palette and click the vector you want to paint.
-
-
-
-    - Select the vectors you want to paint with the Selection tool ( |Toonz71_209| ), then select a style in the palette (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  for details).
-
-.. tip:: **To paint a raster outline partially:**
-
-    Do one of the following:
-
-    - Select the Fill tool ( |Toonz71_210| ), set the fill mode to Lines, activate the Segment option, and click the outline section you want to paint.
-
-
-
-    - Select the Paint Brush tool ( |Toonz71_211| ), set the mode to Lines and use it on the outline section you want to paint.
-
-    - Use the Paint Brush tool ( |Toonz71_212| ) with the proper style to split a continuous outline into sections, then use the Fill tool ( |Toonz71_213| ) to paint the separated sections.
-
-.. tip:: **To paint several separated outlines, or vectors, at once:**
-
-    1. Select the Fill tool (), set the fill mode to Lines.
-
-    2. Do one of the following:
-
-    - Set the type to Rectangular and click and drag to define a box: all the outlines included in the box will be painted with the current style.
-
-    - Set the type to Freehand and click and drag to outline an area: all the outlines included in the area you outline will be painted with the current style. If the ends of the outline you draw are open, the area will be defined as if joining the two open ends.
-
-    - Set the type to Polyline and click to outline an area by defining a series of lines: all the outlines completely included in the area you outline will be painted with the current style. If the ends of the outline you draw are open, the area will be defined as if joining the two open ends.
-
-.. note:: A vector is painted only if it is fully included in the area you define.
-
-.. tip:: **To paint outlines, or vectors, in several frames with a single command:**
-
-    1. Select the Fill tool (), set the fill mode to Lines and activate the Frame Range option.
-
-    2. Select the first frame of the range and click the outline you want to paint.
-
-    3. Do one of the following:
-
-    - Select the last frame of the range you want to apply the paint to, and click the same outline: the outline in all the frames in the range will be automatically painted according to the first and second clicking positions.
-
-    - Select an intermediate frame of the range you want to apply the paint to, and shift-click in the same outline: the outline in all of the frames in the range will be automatically painted according to the first and second clicking positions. Select another intermediate frame and shift-click again: the outline in all of the frames in the new range will be automatically painted according to the second and third clicking positions. Do the same as many times as you like, then click in the same outline on the last frame of the range to complete the multi frame painting mode.
-
-.. note:: Since the Fill tool ( |Toonz71_216| ) with the Frame Range option is applied making a linear interpolation from the first to the second clicking point, some painting mistakes may occur. The more the outline you want to fill moves along the frame range, the more mistakes may be made.
-
-.. tip:: **To paint an outline using as reference a previously painted drawing:**
-
-    1. Activate the onion skin mode to display the painted drawing behind your current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  for details).
-
-    2. Select the Fill tool ( |Toonz71_217| ), set the fill mode to Lines and activate the Onion Skin option. 
-
-    3. Click to pick the style to use from the drawing displayed in onion skin mode.
-
-    4. Do one of the following:
-
-    - Release to paint the outline where the cursor is.
-
-    - Drag to the outline you want to paint and release the mouse button.
-
-.. tip:: **To retrieve a style from a drawing:**
-
-    1. Select the Style Picker tool.
-    
-    2. Click the outline whose style you want to pick. The picked style becomes the current one.
-
-
 .. _using_match_lines:
 
 Using Match Lines
@@ -640,6 +547,7 @@ Applied match lines can be deleted as a whole from the destination level, or it 
 
 .. note:: To specify multiple indexes or frames, values have to be separated by a comma; to define a range of values, you can type the first and the last separated by a dash (e.g. 4-7 will refer to values 4, 5, 6 and 7).
 
+
 .. _using_the_autopaint_for_lines_option:
 
 Using the Autopaint for Lines Option
@@ -662,6 +570,7 @@ This task can be performed automatically by setting a special property for the c
 .. tip:: **To automatically paint lines when painting areas:**
 
     Paint an area defined totally or partially by a line whose color has the Autopaint for Lines option activated: the line is automatically painted with the same color you use for the area.
+
 
 .. _using_a_color_model:
 
