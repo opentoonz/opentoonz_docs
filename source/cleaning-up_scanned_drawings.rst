@@ -2,7 +2,7 @@
 
 Cleaning-up Scanned Drawings
 ============================
-In order to be painted and edited with Toonz, scanned drawings have to undergo the cleanup process. The process involves autocentering, to align each drawing according to the pegbar holes; line processing, to recognize the drawing outline; image cropping and re-sizing, to make the drawings fit properly the camera.
+In order to be painted and edited with OpenToonz, scanned drawings have to undergo the cleanup process. The process involves autocentering, to align each drawing according to the pegbar holes; line processing, to recognize the drawing outline; image cropping and re-sizing, to make the drawings fit properly the camera.
 
 The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
@@ -92,7 +92,7 @@ Processing Black and White or Greyscale Lineart Drawings
 
 For black and white or greyscale lineart drawings, a set of parameters are available to calibrate the black line recognition process. 
 
-The result of the process can be previewed both in the preview area available at the bottom of the Cleanup Settings window, and in the Toonz viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
+The result of the process can be previewed both in the preview area available at the bottom of the Cleanup Settings window, and in the OpenToonz viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
 Parameters are the following:
 
@@ -154,7 +154,7 @@ For all the cleanup colors you can define a color to be assigned automatically t
 
 Different parameters are available for the black color, that usually defines the main outline in lineart drawings, and for the additional colors, that usually defines special outlines for areas such as shadows and highlights.
 
-The result of the process can be previewed both in the preview area available at the bottom of the Cleanup Settings window, and in the Toonz viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
+The result of the process can be previewed both in the preview area available at the bottom of the Cleanup Settings window, and in the OpenToonz viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
 General parameters are the following:
 
@@ -493,7 +493,7 @@ When cleaning up drawings directly in the scene it is possible to perform a sele
 
 You can also select non-consecutive drawings and drawings from different animation levels. Levels will be processed starting from the first selected column, considering only exposed drawings according to their numbering order.
 
-When a drawing is cleaned up, its cell color turns from light blue to light green, the color denoting Toonz levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). If you cleanup partially an animation level, the remaining cells where the level is exposed will have a double color (green and blue), to stress the fact that the level is partially processed.
+When a drawing is cleaned up, its cell color turns from light blue to light green, the color denoting Toonz raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). If you cleanup partially an animation level, the remaining cells where the level is exposed will have a double color (green and blue), to stress the fact that the level is partially processed.
 
 When drawings belonging to partially processed levels are selected to be cleaned up, you are prompted whether to cleanup selected drawings overwriting the previous cleaned up version, or to add non-cleaned up frames to the existing level, or to delete the existing level and create a new level with the selected drawings only.
 
@@ -531,7 +531,7 @@ Cleaning up Drawings in Batch Mode
 ''''''''''''''''''''''''''''''''''
 The cleanup of drawings exposed in a scene can be added to a task list and performed in batch mode in order to run it in the background while you perform other work on your computer.
 
-Cleanup tasks can be submitted from the Toonz browser and can be managed and executed in the Tasks pane, together with render tasks (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`  s).
+Cleanup tasks can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with render tasks (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`  s).
 
 The Tasks pane is divided into two sections: on the left there is the task tree where all of the cleanup tasks are displayed with a brush icon and all of the render tasks with a clapboard icon; on the right there is information about the task selected in the tree.
 
@@ -614,7 +614,7 @@ When a cleanup task is selected in the tree, in the section on the right of the 
 
     - Dependencies lets you set which of the other submitted tasks have to be successfully completed before starting the current task execution: these tasks can be added from the box on the right where all submitted tasks are displayed.
 
-Task execution can be started and stopped from the task list. If you are using the Toonz render farm, render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
+Task execution can be started and stopped from the task list. If you are using the OpenToonz render farm, render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the OpenToonz Farm <using_the_toonz_farm>`  ). 
 
 When the tasks are executed, the icon color tells the status of the task according to the following color code:
 
@@ -636,7 +636,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 
 
-    - Select the scenes in the Toonz Browser, then right-click any of them and choose Add As Cleanup Task from the menu that opens.
+    - Select the scenes in the OpenToonz Browser, then right-click any of them and choose Add As Cleanup Task from the menu that opens.
 
 .. tip:: **To configure the cleanup task in the task list:**
 
