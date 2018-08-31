@@ -2,7 +2,13 @@
 
 Scanning Paper Drawings
 =======================
-In order to be managed by Toonz, paper drawings have to be scanned into Toonz. Paper drawings can be both animation levels, consisting of a large number of sequenced drawings, and other elements such as backgrounds and overlays.
+
+.. note:: Currently OpenToonz DOES NOT support the native scanning functionality, as described in this page. Instead you can use the provided GTS scanning and cleaning software, please follow `this link to download GTS <https://opentoonz.github.io/e/download/gts.html>`_ .
+
+.. note:: This manual page is preserved in its original form, in case the scanning code of OpenToonz is reactivated in a future version.
+
+
+In order to be managed by OpenToonz, paper drawings have to be scanned into OpenToonz. Paper drawings can be both animation levels, consisting of a large number of sequenced drawings, and other elements such as backgrounds and overlays.
 
 The scan process can be done in different modes, and in case autocenter is needed it has to follow specific guidelines. 
 
@@ -12,11 +18,11 @@ Animation levels have to be defined first and then scanned according to a define
 
 Supported Scanners
 ------------------
-Toonz supports directly, by using internal drivers, some specific scanners via a USB connection; all the other scanners are supported via any type of connection by using TWAIN drivers. 
+OpenToonz supports directly, by using internal drivers, some specific scanners via a USB connection; all the other scanners are supported via any type of connection by using TWAIN drivers. 
 
-.. note:: For an updated list of directly supported scanners, please visit the Toonz Web site ``www.toonz.com`` .
+.. note:: For an updated list of directly supported scanners, please visit the `OpenToonz Web site <https://opentoonz.github.io/e/>`_ .
 
-If your scanner is supported via internal drivers, the scanning process is managed completely by Toonz and the Scan Settings dialog; if it is not, the scanning process is managed by the TWAIN interface.
+If your scanner is supported via internal drivers, the scanning process is managed completely by OpenToonz and the Scan Settings dialog; if it is not, the scanning process is managed by the TWAIN interface.
 
 On Windows, the TWAIN drivers provided with the scanner need to be installed. Note that if you decide to use internal drivers, you have to disable the Windows Image Acquisition (WIA) service on your computer; if you want to use TWAIN drivers, you have to enable it.
 
@@ -24,7 +30,7 @@ On Macintosh, you need to install the TWAIN drivers only if you are going to use
 
 The driver you want to use must be selected according to your scanner before starting the scanning process. You can choose whether to use the internal or TWAIN drivers; in the latter case, you have to select which driver to use from a list based on the TWAIN drivers installed on your computer.
 
-.. note:: When using TWAIN drivers you need to specify the driver every time you restart Toonz: the dialog box is automatically displayed when you select any Scan related command.
+.. note:: When using TWAIN drivers you need to specify the driver every time you restart OpenToonz: the dialog box is automatically displayed when you select any Scan related command.
 
 .. tip:: **To install TWAIN drivers:**
 
@@ -174,7 +180,7 @@ You can also select non-consecutive drawings and drawings from different animati
 
 As soon as a drawing is scanned, it is saved and its name and number displayed in the xsheet turn black, as the level now has physical drawings saved on disk. 
 
-Images are saved as compressed TIF files with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. They are displayed in the Toonz browser with a double dot before the file extension, e.g. ``animation..tif`` .
+Images are saved as compressed TIF files with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. They are displayed in the OpenToonz browser with a double dot before the file extension, e.g. ``animation..tif`` .
 
 If you need to scan again an animation level, or a part of it, select the relevant drawings and scan them again. Drawings can be also inserted by editing the level sequence (see  :ref:`Renumbering and Adding Frames in a Level <renumbering_and_adding_frames_in_a_level>`  ).
 
@@ -196,7 +202,7 @@ If you need to scan again an animation level, or a part of it, select the releva
 
     - If you are not using the paper feeder, you will be prompted to replace the drawing on the scanner bed, before scanning the following drawing.
 
-.. note:: After a drawing is scanned, or several drawings are scanned at once by using the paper feeder, in some TWAIN interfaces you may need to use a specific command (such as Back to Application) to return to Toonz before proceeding with the next scanning session. Refer to the scanner documentation for more s.
+.. note:: After a drawing is scanned, or several drawings are scanned at once by using the paper feeder, in some TWAIN interfaces you may need to use a specific command (such as Back to Application) to return to OpenToonz before proceeding with the next scanning session. Refer to the scanner documentation for more s.
 
 .. _setting_the_cropbox:
 
