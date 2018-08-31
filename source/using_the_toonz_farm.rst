@@ -2,7 +2,7 @@
 
 Using the Toonz Farm
 ====================
-The Toonz Farm allows you to process Toonz scenes submitted as cleanup tasks or render tasks in the task list by using a series of computers connected on the same network using TCP/IP (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  and  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`  ). 
+The Toonz Farm allows you to process OpenToonz scenes submitted as cleanup tasks or render tasks in the task list by using a series of computers connected on the same network using TCP/IP (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  and  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`  ). 
 
 When tasks are executed, they are automatically assigned to the computers belonging to the farm in order to balance the workload. When all computers are busy, remaining tasks are not assigned until a machine is ready to process them. 
 
@@ -18,7 +18,7 @@ The Toonz Farm is composed by the following:
 
 - Root folder named FARMROOT: is a shared folder where a number of configuration files are stored. The controller node and all the rendering nodes must be able to access this shared folder (see  :ref:`Configuring the Toonz Farm <configuring_the_toonz_farm>`  ).
 
-- Client program: is the program run by the user to queue new tasks and to monitor the Toonz Farm. Toonz itself is the client program of the Toonz Farm, and can be run on any computer on the network, not necessarily on a controller node or a sever (rendering) node. 
+- Client program: is the program run by the user to queue new tasks and to monitor the Toonz Farm. OpenToonz itself is the client program of the Toonz Farm, and can be run on any computer on the network, not necessarily on a controller node or a sever (rendering) node. 
 
 .. note:: In order to render the scenes successfully all the computers involved in the Toonz Farm, controller, servers and clients have to share the same projectroot folders (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
@@ -27,8 +27,6 @@ The Toonz Farm is composed by the following:
 Installing the Toonz Farm on Windows
 ------------------------------------
 To install the Toonz Farm, you have to install the Farm Controller component on the controller node, and the Farm Server component on the server (rendering) nodes.
-
-These components can be installed during the Toonz installation, or later on by running again the Toonz installer, when you are prompted to choose the installation components.
 
 .. note:: If you want to use a computer both as controller and as server (rendering) node, you have to install both the components.
 
@@ -52,7 +50,7 @@ On the controller node the controller component is installed as a Windows servic
 
 Since the Toonz Farm Controller needs to access the FARMROOT folder, typically shared by a remote host, please run this service as a user with the proper rights. 
 
-.. note:: It is possible to start the service from a DOS shell by navigating to the Toonz 7.0 BIN directory and using the following command line:``tfarmcontroller -console`` 
+.. note:: It is possible to start the service from a DOS shell by navigating to the folder where the binaries of OpenToonz are installed, and then using the following command line:``tfarmcontroller -console`` 
 
 .. tip:: **To run the Toonz Farm Controller as a user with the proper rights:**
 
@@ -72,7 +70,7 @@ On the server (rendering) nodes, the server component is installed as a Windows 
 
 Since the Toonz Farm Server, for rendering purposes, needs to access one or more folders shared by remote hosts, please run this service as an user with the proper rights. 
 
-.. note:: It is possible to start the service from a DOS shell by navigating to the Toonz 7.0 BIN directory and using the following command line:``tfarmserver -console`` 
+.. note:: It is possible to start the service from a DOS shell by navigating to the folder where the binaries of OpenToonz are installed, and then using the following command line:``tfarmserver -console`` 
 
 .. tip:: **To run the Toonz Farm Controller as an user with the proper rights:**
 
@@ -90,17 +88,15 @@ Installing the Toonz Farm on Macintosh
 --------------------------------------
 To install the Toonz Farm, you have to install the Farm Controller component on the controller node, and the Farm Server component on the server (rendering) nodes. 
 
-These components can be installed during the Toonz installation, or later on by running again the Toonz installer, by clicking the Customize button in the Installation Type dialog.
-
 .. note:: If you want to use a computer both as controller and as server (rendering) node, you have to install both the components.
 
 After the installation of the toonz farm components, a FARMROOT folder has to be defined, and on all the computers belonging to the farm, both controller and servers, the full-path of the FARMROOT folder has to be specified.
 
-To define the FARMROOT folder you can take as model the ``toonzfarm``  folder stored in Toonz 7.0 stuff. You can take the ``toonzfarm``  folder from any computer where Toonz in installed, choose the location you prefer, and share it on the network, giving full control to any user by setting the right permissions.
+To define the FARMROOT folder you can take as model the ``toonzfarm``  folder stored in OpenToonz 1.x stuff. You can take the ``toonzfarm``  folder from any computer where OpenToonz in installed, choose the location you prefer, and share it on the network, giving full control to any user by setting the right permissions.
 
 To specify the path to the FARMROOT on the computers, both controller and servers, belonging to the farm, you have to edit the ``configfarmroot.txt``  file by typing in it the full path to the FARMROOT folder.
 
-To retrieve this file open the ``Applications\Toonz 7.0`` folder, right-click the Toonz 7.0 icon and choose Show Package Contents from the menu that opens; in the folder that opens browse to the ``Contents\Resources``  folder and retrieve the ``configfarmroot.txt``  file.
+To retrieve this file open the ``Applications\OpenToonz 1.x`` folder, right-click the OpenToonz icon and choose Show Package Contents from the menu that opens; in the folder that opens browse to the ``Contents\Resources``  folder and retrieve the ``configfarmroot.txt``  file.
 
 .. note:: As the Toonz farm requires exchanges of data between computers in the network by using TCP/IP protocol, any firewall system that may block access on computer ports has to be disabled.
 
@@ -110,7 +106,7 @@ Configuring the Toonz Farm
 --------------------------
 Once the installation has been completed, you have to configure the Toonz Farm by editing some configuration files stored in the FARMROOT folder.
 
-The FARMROOT folder must be accessible by all the nodes that compose the Toonz Farm: the controller node, the server (rendering) nodes and the computers running Toonz. This means that the drive where the FARMROOT folder is located has to be shared on the network, and the permissions for users have to be maximum, in order to give full control to any users.
+The FARMROOT folder must be accessible by all the nodes that compose the Toonz Farm: the controller node, the server (rendering) nodes and the computers running OpenToonz. This means that the drive where the FARMROOT folder is located has to be shared on the network, and the permissions for users have to be maximum, in order to give full control to any users.
 
 For the same reason the computer where the FARMROOT is located has to be started before all the other computers involved in the farm.
 
@@ -151,6 +147,7 @@ Each of the above information must be separated by a single space. Here is an ex
     render1 10.10.0.130 10000
 
 In the above example, ``render1``  is the controller node, its IP address is ``10.10.0.166``  and the controller program runs on the ``10000``  port.
+
 
 .. _defining_the_server_nodes:
 
@@ -200,19 +197,20 @@ In the above example, ``render1``  is a server node whose IP address is ``10.10.
 
 If you want to add or remove a server (rendering) node from the ``servers.txt``  file, you have to restart the controller node in order to make the changes effective.
 
+
 .. _defining_the_toonz_farm_in_toonz:
 
-Defining the Toonz Farm in Toonz
-''''''''''''''''''''''''''''''''
-Toonz is the Toonz Farm client program: it allows you to submit new tasks and monitor the status of the farm. 
+Defining the Toonz Farm in OpenToonz
+''''''''''''''''''''''''''''''''''''
+OpenToonz is the Toonz Farm client program: it allows you to submit new tasks and monitor the status of the farm. 
 
-If the computer where you run Toonz is a controller or a server (rendering) node for the Toonz Farm, no further settings are required. 
+If the computer where you run OpenToonz is a controller or a server (rendering) node for the Toonz Farm, no further settings are required. 
 
 If the computer is neither a controller nor a server (rendering) node for the Toonz Farm, the FARMROOT has to be defined.
 
 .. tip:: **To define the FARMROOT in Toonz:**
 
-    1. Run Toonz and go to the Render Farm room.
+    1. Run OpenToonz and go to the Render Farm room.
 
     2. In the Batch Servers window, set the Process With option menu to Render Farm.
 
@@ -220,13 +218,15 @@ If the computer is neither a controller nor a server (rendering) node for the To
 
     4. Click the OK button.
 
+
 Using the Toonz Farm
 --------------------
-In Toonz you can find the Render Farm room that allows you to monitor the farm processes. This room contains two main windows: the Tasks window and the Batch Servers window.
+In OpenToonz you can find the Farm room that allows you to monitor the farm processes. This room contains two main windows: the Tasks window and the Batch Servers window.
 
-The Render Farm can be monitored by using the Tasks pane, where the list of tasks can be managed and executed, and the Servers pane, where the computers executing the task can be managed.
+The render farm can be monitored by using the Tasks pane, where the list of tasks can be managed and executed, and the Servers pane, where the computers executing the tasks can be managed.
 
 .. note:: All shared disks involved in the task processing, i.e. disks where files resulting from the task execution have to be written, must be shared granting full permissions to any user, otherwise tasks execution will not succeed. For Windows, disks must have a Share Permission set to Full Control for Everyone; for Macintosh, the sharing settings must allow any user to read from and write to disks.
+
 
 .. _monitoring_the_server_nodes:
 
@@ -266,13 +266,14 @@ When a server is selected in the list, the following related information are dis
 
     Set the Process With option menu to Render Farm.
 
+
 .. _checking_the_toonz_farm_processing:
 
 Checking the Toonz Farm Processing
 ''''''''''''''''''''''''''''''''''
 When the Toonz Farm is used, any problem that may be experienced during the processing is recorded in LOG files, that can be opened and used to diagnose problems.
 
-The LOG files are saved in the ``Toonz 7.0 stuff\toonzfarm``  folder of the computer experiencing the problem; each LOG refers to the processing performed by that computer only.
+The LOG files are saved in the ``OpenToonz 1.x stuff\toonzfarm``  folder of the computer experiencing the problem; each LOG refers to the processing performed by that computer only.
 
 The LOG files that may be generated by the Toonz Farm processing are the following:
 
