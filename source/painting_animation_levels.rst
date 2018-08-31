@@ -2,13 +2,13 @@
 
 Painting Animation Levels
 =========================
-Toonz animation levels, both those cleaned up, and those made directly in Toonz, can be painted by using the styles stored in the palette and a set of tools.
+Toonz animation levels, both those cleaned up, and those made directly in OpenToonz, can be painted by using the styles stored in the palette and a set of tools.
 
-All Toonz drawings are made of outlines, determined by the lines of scanned drawings or vectors of vector drawings, and areas defined by outlines. Lines and vectors can be painted or erased, partially or for their full extent; areas can be filled with styles, or remain empty, with complete transparency.
+All Toonz level drawings are made of outlines, determined by the lines of scanned drawings or vectors of vector drawings, and areas defined by outlines. Lines and vectors can be painted or erased, partially or for their full extent; areas can be filled with styles, or remain empty, with complete transparency.
 
 .. note:: All the painting work is not saved until you save the related level, or the scene (see  :ref:`Saving Levels <saving_levels>`  ).
 
-.. note:: If the computer performance worsens during the painting process of raster animation levels, try activating the Minimize Raster Image Fragmentation option in the Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance worsens during the painting process of Toonz raster animation levels, try activating the Minimize Raster Image Fragmentation option in the Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 .. _painting_tools:
 
@@ -353,11 +353,10 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
 .. tip:: **To retrieve a style from a drawing:**
 
-    1. Select the Style Picker tool ().
+    1. Select the Style Picker tool.
 
     2. Click the outline whose style you want to pick. The picked style becomes the current one.
 
-    3. 
 
 Closing Gaps in Drawing Outline
 '''''''''''''''''''''''''''''''
@@ -562,12 +561,11 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
 .. tip:: **To retrieve a style from a drawing:**
 
-    1. Select the Style Picker tool ().
+    1. Select the Style Picker tool.
+    
+    2. Click the outline whose style you want to pick. The picked style becomes the current one.
 
-.. _click_the_outline_whose_style_you_want_to_pick._the_picked_style_becomes_the_current_one.:
 
-Click the outline whose style you want to pick. The picked style becomes the current one.
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 .. _using_match_lines:
 
 Using Match Lines
@@ -578,7 +576,7 @@ Some other times you may need to merge two or several animation levels into a si
 
 In both cases you can use the match lines feature to achieve your tasks as it allows you to merge the levels exposed in two columns, and if needed to delete the merged match lines. 
 
-Match lines can be applied to raster Toonz animation levels only (TLV).
+Match lines can be applied to Toonz raster animation levels only (TLV).
 
 When two columns are merged, the column drawings on the right are considered as match lines applied to the drawings on the left, and it is possible to define the following:
 
