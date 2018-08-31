@@ -10,7 +10,7 @@ It is also possible to preview the animation for the final checks and tune ups b
 
 Previewing the Animation
 ------------------------
-Animations can be previewed directly in the Toonz work area, including in the preview mode all the flipbook features, or by rendering a preview and visualizing it in a separate flipbook window.
+Animations can be previewed directly in the OpenToonz work area, including in the preview mode all the flipbook features, or by rendering a preview and visualizing it in a separate flipbook window.
 
 In both cases the flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
@@ -200,7 +200,7 @@ Of course if something changes in the flow up to the cached node, for example an
 
 Using the Flipbook
 ''''''''''''''''''
-The flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In Toonz it is used to display the scene contents in the viewer, including the preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the xsheet, and to display the loaded color model.
+The flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the viewer, including the preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the xsheet, and to display the loaded color model.
 
 .. note:: The safe area is the only element that can be shown or hidden in the flipbook when previewing the animation (see  :ref:`Customizing the Work Area <customizing_the_work_area>`  ).
 
@@ -249,7 +249,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Right-click in the flipbook and choose Load Images from the menu that opens, then use the browser to retrieve the file you want to load.
 
-    - Drag and drop the file you want to load from the Toonz file browser to the flipbook.
+    - Drag and drop the file you want to load from the OpenToonz file browser to the flipbook.
 
 .. tip:: **To append some content to the flipbook content:**
 
@@ -463,7 +463,7 @@ The Output Settings dialog lets you define the file format, location and propert
 
 - File Name is the name you want to assign to the output file; by default it is the same name of the scene. 
 
-In case the format is an image format, the name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will be displayed in the Toonz file browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level.
+In case the format is an image format, the name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will be displayed in the OpenToonz file browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level.
 
 - File Format is the format for the output; supported formats are the following: 3GP, AVI, BMP, JPG, MOV, NOL, PIC, PICT, PCT, PNG, RGB, SGI, SWF, TGA, TIF and TIFF. 
 
@@ -471,7 +471,7 @@ Apart from the formats 3GP for mobile video, Microsoft AVI, QuickTime MOV and Ad
 
 The Options button opens a dialog to set specific properties related to the chosen format, such as codecs for MOV files, or color depth for TIF images.
 
-.. note:: The 64-bit version of Toonz Harlequin supports the 3GP, MOV, PICT and PCT formats by using the 32-bit version of QuickTime, because at release time Quicktime is not available for 64-bit OS.
+.. note:: OpenToonz supports the 3GP, MOV, PICT and PCT formats by using the 32-bit version of QuickTime.
 
 .. note:: To be able to export AVI format with Xvid codec, you have to deactivate the Display encoding status option available in the Other Options > Encoder page of the Configure Encoder tool.
 
@@ -511,7 +511,7 @@ When passing from a higher frame rate to a lower one, some level drawings will n
 
 Stereoscopic Render activates the Stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.The Camera Shift parameter sets the distance between the two camera views.
 
-.. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. Toonz uses these values ad the Camera Shift parameter for rendering the stereoscopic effect.
+.. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. OpenToonz uses these values as the Camera Shift parameter for rendering the stereoscopic effect.
 
 - Dedicated CPUs sets, in case your computer has multiple CPUs, how many processors will be assigned to the rendering process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However it is suggested to use the Half or Single values if the scene to render is very complex, because the higher the dedicated CPUs, the more the memory required to perform the rendering. 
 
@@ -523,27 +523,6 @@ Stereoscopic Render activates the Stereoscopic 3D output of the scenes. Each fra
 
     2. Set the options you want to use for the final rendering.
 
-.. _rendering_in_flash_swf_format:
-
-Rendering in Flash SWF Format
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When the SWF format is selected as output format, the Options button opens a dialog containing the following options:
-
-- Curve Quality sets the quality of the vectors drawn in Toonz; the higher the quality, the larger the size of the file produced. Low sets a constant thickness for all the lines, even those drawn with a very strong thickness variation; the constant thickness is assigned to each vector according to the medium thickness of the vector itself. Medium sets a constant thickness for most of the lines, but those with a very strong thickness variation are preserved. High preserves the original thickness variation for all the vectors. 
-
-- File Compression generates files with a smaller size; the files produced with this option are compatible only with a Flash player from version 6.0 on.
-
-- Looping sets if the animation has to be played back continuously once viewed.
-
-- Autoplay sets if the animation has to start automatically once viewed.
-
-- Insert Preloader defines a loading image to be displayed while the animation is being loaded, for example from a Web page. The first frame of the scene will be used as preloader; when the animation is loaded, the first frame will not be visible anymore, even if the animation is looping.
-
-- URL sets a URL address and transforms the animation into a button linked to that address, for example to an Internet Web site.
-
-- JPEG Quality controls the quality and file compression of raster images contained in your scene; the higher the quality, the larger the size of your exported animation.
-
-.. note:: Some limitations apply to the scene rendered in SWF format: all the special FX, some special styles and texture styles applied to vectors are not considered.
 
 .. _creating_multiple_renderings:
 
@@ -581,7 +560,7 @@ In this case no image has to be used as background, and the output file format h
 
 Rendering A Loaded Scene
 ''''''''''''''''''''''''
-The current scene can be rendered directly while being loaded in Toonz according to the defined output settings.
+The current scene can be rendered directly while being loaded in OpenToonz according to the defined output settings.
 
 By choosing the appropriate range in the output settings it is possible to render the scene in chunks, for example by rendering a section first, and then another one. In this case the animation available in the output location will always include all frames rendered up to that point both if the format is a multiple-files output, e.g. TIF or TGA, and a single-file one, e.g. QuickTime MOV. The same applies if a section of the scene has to be rendered again because some corrections were needed.
 
@@ -589,7 +568,7 @@ If the scene contains some audio files and is rendered in a file format supporti
 
 .. note:: Audio files loaded in sub-xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  ).
 
-As soon as the rendering is over, the rendered animation can be automatically displayed in a Toonz flipbook by activating the Open Flipbook after Rendering option in the Preferences > Interface dialog; it is also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it is also possible to listen to it.
+As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz flipbook by activating the Open Flipbook after Rendering option in the Preferences > Interface dialog; it is also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it is also possible to listen to it.
 
 When displayed in the flipbook, the rendering can be checked by using the flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
@@ -615,7 +594,7 @@ Rendering Scenes in Batch Mode
 ''''''''''''''''''''''''''''''
 The rendering of a scene can be added to a task list and performed in batch mode in order to run it in the background while you perform other work on your computer. 
 
-Render tasks can be submitted from the Toonz browser and can be managed and executed in the Tasks pane, together with cleanup tasks (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
+Render tasks can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with cleanup tasks (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
 
 
 
@@ -728,7 +707,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 
 
-    - Select the scenes in the Toonz Browser, then right-click any of them and choose Add As Render Task from the menu that opens.
+    - Select the scenes in the OpenToonz Browser, then right-click any of them and choose Add As Render Task from the menu that opens.
 
 .. tip:: **To configure the render task in the task list:**
 
@@ -788,7 +767,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 Using Chunks when Rendering Tasks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you are using the Toonz render farm, it is possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
+If you are using the OpenToonz render farm, it is possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
 
 The default value for the chunk size, expressed in number of frames, can be set using the Render Task Chunk Size in the Preferences > General page. If the default value is higher than the duration in frames of the submitted scene, automatically the value will be equal to the duration in frames of the scene.
 
@@ -796,7 +775,7 @@ Once a task is submitted, it is possible to change the chuck size by editing the
 
 When a task is divided into chunks, each task is represented in the task tree as sub-tasks.
 
-If you are not using the Toonz render farm, dividing the task in chunks not only is useless, but it slows down the rendering process as well. For this reason it is suggested to use a very high Render Task Chunk Size value in the Preferences (e.g. 1000).
+If you are not using the OpenToonz render farm, dividing the task in chunks not only is useless, but it slows down the rendering process as well. For this reason it is suggested to use a very high Render Task Chunk Size value in the Preferences (e.g. 1000).
 
 .. note:: The chunk size is relevant only when animation are rendered as sequences of full-color images, for example in TIF or TGA format.
 
