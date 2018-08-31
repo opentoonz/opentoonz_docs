@@ -50,27 +50,32 @@ Animation levels can be created in the following ways:
 
 Using the New Level Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the xsheet, and the increment, that sets the way the level drawings are numbered. For example, step 2 repeats each drawing twice in the xsheet column, while increment 2 numbers the drawings 1, 3, 5, etc. The dialog also allows you to choose a destination folder different from the default one by using the Save In field.
+New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the xsheet, and the increment, that sets the way the level drawings are numbered. For example, step 2 repeats each drawing twice in the xsheet column or timeline layer, while increment 2 numbers the drawings 1, 3, 5, etc. The dialog also allows you to choose a destination folder different from the default one by using the Save In field.
 
 In case you define a Toonz raster or a raster level, you can set its Width, Height and DPI values, according to the way you want to use it in the scene.
 
 Settings like the length of the level and the numbering order can be edited later, as you are free to arrange the images composing an animation level the way you prefer (see  :ref:`Editing Animation Levels <editing_animation_levels>`  ).
 
-When a Toonz raster or vector level is defined, the color of the column cells where the level is exposed are colored in light green, the color denoting Toonz levels; when a raster level is defined, the color of the column cells where the level is exposed are colored in light blue, the color denoting raster images (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
+When a new level is created in an empty column, the color of the column header and cells where the new level gets exposed are colored denoting the type of level in that column: light yellow for Toonz vector levels, light green for Toonz raster levels, and light blue for standard raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
 .. note:: The New Level dialog inherits the Level Type settings defined in Preferences > Drawing.
 
-.. tip:: **To define an animation level to draw:**
+.. tip:: **To create a new animation level to draw:**
 
     1. Do one of the following:
 
-    - Select a cell in the xsheet where you want to place your animation level and choose File > New Level.
+    - Select a cell in the xsheet/timeline where you want to place your animation level and choose File > New Level.
 
-    - Right-click the cell in the xsheet where you want to place your animation level and choose New Level from the menu that opens.
+    - Right-click the cell in the xsheet/timeline where you want to place your animation level and choose New Level from the menu that opens.
 
-.. note:: If a level is already exposed in the cell column, the new level will be created in an empty column.
+    - (If the xsheet/timeline toolbar is visible) Click any of the three New Level buttons at the leftmost part of it.
 
     2. Choose the type of level, Toonz Vector, Toonz Raster or Raster, from the Type option menu, and define its settings, then click the OK button.
+
+
+.. note:: When using the xsheet's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
+
+.. note:: If a level is already exposed in the cell column, the new level will be created in an empty column.
 
 .. tip:: **To define the saving location for the level you want to draw:**
 
