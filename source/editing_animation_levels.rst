@@ -74,7 +74,8 @@ The width of the level strip pane cannot be resized freely, because it depends o
 
     2. Set values for the Width and Height of the Level Strip Frames.
 
-    3. Restart Toonz to make the changes effective.
+    3. Restart OpenToonz to make the changes effective.
+
 
 .. _editing_level_frames:
 
@@ -426,7 +427,7 @@ When saving an animation level it is possible to automatically create a backup f
 
 Exporting Levels
 ----------------
-Animation levels created with Toonz can be exported in a variety of image file formats in order to be used in third-party software. The levels are exported as a sequence of files named with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc.or a single file for the .TLV format. File formats available are BMP, JPG, PNG, TGA ,TIF and TLV (the .TLV format is available only to export vector levels (.PLI); the format options can be set for each format in the Output Settings dialog (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+Animation levels created with OpenToonz can be exported in a variety of image file formats in order to be used in third-party software. The levels are exported as a sequence of files named with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc.or a single file for the .TLV format. File formats available are BMP, JPG, PNG, TGA ,TIF and TLV (the .TLV format is available only to export vector levels (.PLI); the format options can be set for each format in the Output Settings dialog (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
 When exporting vector levels, the size and resolution of the exported sequence can be defined in the Export Level dialog. The default size and resolution are those defined in the camera settings, and the preview of the resulting image is visible in the preview area of the Export Options page to understand how the exported images will be cropped (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). The size of the exported image can be changed entering a scale value in the Scale field.
 
