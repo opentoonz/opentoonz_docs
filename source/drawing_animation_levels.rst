@@ -317,11 +317,7 @@ The set of buttons and information available in the bottom bar of the work area 
 
 Drawing Tools
 '''''''''''''
-You can draw by using the Brush( |Toonz71_066| ) and 
-
-Geometric (
-
- |Toonz71_067| ) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
+You can draw by using the Brush( |Toonz71_066| ) and Geometric ( |Toonz71_067| ) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
 
 
 
@@ -341,11 +337,12 @@ When creating vector drawings the thickness can also be set to 0 (zero): in this
 
 .. note:: For vector drawings, line thickness can be changed and calibrated afterwards by using other tools (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
+
 .. _drawing_with_the_brush_tool:
 
 Drawing with the Brush Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Brush tool( |Toonz71_070| ) allows you to draw freehand lines with the current style. 
+The Brush tool ( |Toonz71_070| ) allows you to draw freehand lines with the current style. 
 
 
 
@@ -391,11 +388,12 @@ In the tool options bar you can set the following:
 
     1. Click the - button on the right of the presets list.
 
+
 .. _drawing_with_the_geometric_tool:
 
 Drawing with the Geometric Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Geometric tool( |Toonz71_072| ) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs. 
+The Geometric tool ( |Toonz71_072| ) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs. 
 
 
 
@@ -467,6 +465,7 @@ While rectangles and ellipses are defined by a (bounding) box, circles and polyg
 
     3. Drag to set the bend, and click to draw the arc.
 
+
 .. _adding_text:
 
 Adding Text
@@ -481,7 +480,7 @@ Text can be added by using the Type tool ( |Toonz71_073| ). In the tool options 
 
     - The font Size, that can be chosen among a set of options. 
 
-.. note:: Written text can be resized by using the Selection tool( |Toonz71_074| ) (see  :ref:`Editing Drawings <editing_drawings>`  ).
+.. note:: Written text can be resized by using the Selection tool ( |Toonz71_074| ) (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
     - The Vertical Orientation option lets you place the text vertically, one letter under another, instead of horizontally.
 
@@ -920,6 +919,7 @@ When a Toonz drawing, or a section of a drawing, is pasted to another one, the c
 
     3. Paste the copied/cut selection: automatically a new drawing will be created.
 
+
 .. _grouping_and_ungrouping_vectors:
 
 Grouping and Ungrouping Vectors
@@ -938,9 +938,7 @@ It is possible to create as many group as you want in any drawing; groups can be
 
 
 
-When drawing with the Geometric tool ( |Toonz71_097| ) closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the Auto Group option (see 
-
-:ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
+When drawing with the Geometric tool ( |Toonz71_097| ) closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the Auto Group option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
 
 
 
@@ -1022,6 +1020,7 @@ As the Selection tool ( |Toonz71_098| ) considers the group as a whole, if you w
 
     2. Click the vector to select it.
 
+
 .. _setting_stroke_and_group_layering_order:
 
 Setting Stroke and Group Layering Order
@@ -1063,6 +1062,7 @@ For each drawing, vectors and groups layering order can be changed by setting wh
 
     - Right-click on the selection and choose Send Backward from the menu that opens.
 
+
 .. _editing_vector_drawings:
 
 Editing Vector Drawings
@@ -1070,6 +1070,7 @@ Editing Vector Drawings
 Vector drawings can be edited in some additional ways by using the set of tools. This allows you for example to better calibrate the bend of a vector, or to change its thickness.
 
 All these transformations can be also achieved on already painted drawings, because the fill styles used to paint will automatically follow the shape of the areas you modify, working like “liquid” color flooding an area defined by an outline.
+
 
 .. _editing_vector_control_points:
 
@@ -1154,6 +1155,7 @@ The option Auto Select Drawing is available to automatically select any vector o
 
     - Right-click the control point and choose Set Non-linear Control Point from the menu that opens.
 
+
 .. _changing_the_bend_of_vectors:
 
 Changing the Bend of Vectors
@@ -1230,10 +1232,7 @@ To bend a part of a drawing, for example a character’s arm, you can use the Be
 
 .. note:: If you move the cursor far from the bending center, you will be able to set with more precision the amount of bend you want to apply to the vectors.
 
-To smooth a vector, you can use the Iron tool ( |Toonz71_111| )
-
-
-. When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
+To smooth a vector, you can use the Iron tool ( |Toonz71_111| ). When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
 
 
 
@@ -1272,11 +1271,12 @@ To smooth a vector, you can use the Iron tool ( |Toonz71_111| )
 
     2. Click and drag along the vector you want to smooth. By dragging over and over you increasingly flatten the vector.
 
+
 .. _joining_and_splitting:
 
 Joining and Splitting
 ~~~~~~~~~~~~~~~~~~~~~
-To join the ends of two different vectors, you can use the Tape tool( |Toonz71_117| ). This way it will be possible to handle them as a single vector, for instance for modifying their bend, or thickness, as a whole. 
+To join the ends of two different vectors, you can use the Tape tool ( |Toonz71_117| ). This way it will be possible to handle them as a single vector, for instance for modifying their bend, or thickness, as a whole. 
 
 
 
