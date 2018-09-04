@@ -317,13 +317,15 @@ The set of buttons and information available in the bottom bar of the work area 
 
 Drawing Tools
 '''''''''''''
-You can draw by using the Brush( |Toonz71_066| ) and Geometric ( |Toonz71_067| ) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
+You can draw by using the Brush ( |Toonz71_066| ) and Geometric ( |Toonz71_067| ) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
 
 
 
 .. note:: For Toonz and standard raster levels it is possible to set a the Brush tool size higher than 100 by typing the value in the Size text boxes.
 
-.. note:: The Min and Max Thickness can be modified by pressing Shift or Ctrl and dragging the mouse without clicking. Press Ctrl to modify the Min thickness and Shift for the Max.
+.. note:: The Min and Max Thickness can be modified by either of this methods:
+    1. Pressing Ctrl + Alt and moving the mouse. Moving horizontally changes the Max value, while moving --vertically changes the Min value.
+    2. Using the predefined keyboard shortcuts. U and I for respectively decreasing and increasing the Max value, or H and J for respectively decreasing and increasing the Min value.
 
 With the Brush tool ( |Toonz71_068| ), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
 
