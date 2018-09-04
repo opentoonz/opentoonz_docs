@@ -332,7 +332,7 @@ You can draw by using the Brush ( |Toonz71_066| ) and Geometric ( |Toonz71_067| 
 
 .. note:: The Min and Max Thickness can be modified by either of this methods:
 
-    1. Pressing Ctrl + Alt and moving the mouse. Moving horizontally changes the Max value, while moving --vertically changes the Min value.
+    1. Pressing Ctrl + Alt and moving the mouse. Moving horizontally changes the Max value, while moving vertically changes the Min value.
     
     2. Using the predefined keyboard shortcuts. U and I for respectively decreasing and increasing the Max value, or H and J for respectively decreasing and increasing the Min value.
 
