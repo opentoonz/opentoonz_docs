@@ -330,7 +330,7 @@ You can draw by using the Brush ( |Toonz71_066| ) and Geometric ( |Toonz71_067| 
 
 .. note:: For Toonz and standard raster levels it is possible to set a the Brush tool size higher than 100 by typing the value in the Size text boxes.
 
-.. note:: The Min and Max Thickness can be modified by either of this methods:
+.. note:: The Min and Max Thickness can be modified by either of these methods:
 
     1. Pressing Ctrl + Alt and moving the mouse. Moving horizontally changes the Max value, while moving vertically changes the Min value.
     
