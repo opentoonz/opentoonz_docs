@@ -20,6 +20,7 @@ When an animation level is defined, you can select any of its frame in the xshee
 
 When selected in the xsheet, the work area displays the whole scene content at the current frame; when selected in the level strip, the work area displays the selected frame of the current animation level only, to let you work more easily on it.
 
+
 .. _setting_the_default_type_of_level_to_draw:
 
 Setting the Default Type of Level to Draw
@@ -45,6 +46,7 @@ Animation levels can be created in the following ways:
 - Enabling the Autocreation option.
 
 - Setting the Animation option to Use Xsheet as Animation Sheet.
+
 
 .. _using_the_new_level_dialog:
 
@@ -83,6 +85,7 @@ When a new level is created in an empty column, the color of the column header a
 
 .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
+
 .. _using_the_autocreation_option:
 
 Using the Autocreation Option
@@ -90,6 +93,7 @@ Using the Autocreation Option
 When in Preferences > Drawing the Autocreation option is set to Enabled, it is possible to create new drawings automatically by using drawing tools in the work area. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is right below one containing a level drawing, either in the xsheet or in the level strip, a new drawing will be added to the level.
 
 .. note:: The level type is the one defined in Preferences > Drawing as Default Level Type.
+
 
 .. _using_the_xsheet_as_animation_sheet:
 
@@ -122,6 +126,7 @@ Once the animation is completed you can renumber the whole sequence according to
     2. Choose the Cells > Autorenumber command.
 
 .. note:: The Autorenumber command is also available in the menu that opens when right-clicking in a cell.
+
 
 .. _using_the_work_area:
 
@@ -189,6 +194,7 @@ The other buttons are relevant only using the Edit tool ( |Toonz71_061| ) to ani
 
     - Use the frame rate slider.
 
+
 .. _adjusting_the_work_area_visualization:
 
 Adjusting the Work Area Visualization
@@ -220,6 +226,7 @@ Raster drawings and images that usually are displayed in the work area according
     2. Select the drawing or image in the level strip in order to display it alone.
 
     3. Use the Actual Pixel Size shortcut (by default the N key) or right-click the work area and choose Actual Pixel Size from the menu that opens.
+
 
 .. _customizing_the_work_area:
 
@@ -324,8 +331,11 @@ You can draw by using the Brush ( |Toonz71_066| ) and Geometric ( |Toonz71_067| 
 .. note:: For Toonz and standard raster levels it is possible to set a the Brush tool size higher than 100 by typing the value in the Size text boxes.
 
 .. note:: The Min and Max Thickness can be modified by either of this methods:
+
     1. Pressing Ctrl + Alt and moving the mouse. Moving horizontally changes the Max value, while moving --vertically changes the Min value.
+    
     2. Using the predefined keyboard shortcuts. U and I for respectively decreasing and increasing the Max value, or H and J for respectively decreasing and increasing the Min value.
+
 
 With the Brush tool ( |Toonz71_068| ), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
 
