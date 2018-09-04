@@ -135,11 +135,7 @@ At the bottom of the work area another customizable set of buttons is available.
 
 The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and in case the playback is activated, the actual frame rate is displayed on its left. 
 
-The other buttons are relevant only using the Edit tool ( |Toonz71_061| ) to animate objects and when previewing the animation in the viewer (see 
-
-:ref:`Animating Objects <animating_objects>`  and 
-
-:ref:`Previewing the Animation <previewing_the_animation>`  ).
+The other buttons are relevant only using the Edit tool ( |Toonz71_061| ) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 
 
@@ -550,9 +546,7 @@ Two main conversion modes are available: centerline and outline. The choice betw
 
 
 
-In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool ( |Toonz71_079| ) or with the Control Point Editor tool and the thickness with the Pump tool (
-
- |Toonz71_080| ).
+In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool ( |Toonz71_079| ) or with the Control Point Editor tool and the thickness with the Pump tool ( |Toonz71_080| ).
 
 
 
@@ -620,6 +614,7 @@ When a conversion is performed a new level is created according to the selection
     3. In the dialog set parameters for the conversion.
 
     4. Click the Convert button.
+
 
 .. _checking_the_convert_to_vectors_process:
 
@@ -1212,6 +1207,7 @@ In both automatic and manual modes different types of editing can be performed w
 
     2. Click and drag to correct the bend of the newly smoothed segment.
 
+
 .. _using_other_modifier_tools:
 
 Using Other Modifier Tools
@@ -1220,9 +1216,7 @@ To modify the thickness of a vector you can use the Pump tool ( |Toonz71_107| ).
 
 
 
-.. note:: It is possible to modify the thickness of a vector, a vector selection, or vectors in all of the level drawings, by using the Selection tool ( |Toonz71_108| ) and its related options (see 
-
-:ref:`Using the Selection Tool <using_the_selection_tool>`  ).
+.. note:: It is possible to modify the thickness of a vector, a vector selection, or vectors in all of the level drawings, by using the Selection tool ( |Toonz71_108| ) and its related options (see :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
 
 
@@ -1288,9 +1282,7 @@ To join the ends of two different vectors, you can use the Tape tool( |Toonz71_1
 
 When the tool is used, the pointer snaps to the closest detected vector endpoint in order to make the operation easier.
 
-.. note:: The Tape tool ( |Toonz71_118| ) can also be used to close gaps along the drawing outline for painting purposes (see 
-
-:ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
+.. note:: The Tape tool ( |Toonz71_118| ) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
 
 
 
