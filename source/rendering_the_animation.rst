@@ -523,6 +523,21 @@ Stereoscopic Render activates the Stereoscopic 3D output of the scenes. Each fra
 
     2. Set the options you want to use for the final rendering.
 
+    .. _rendering_in_mpeg4_and_webm_formats:
+
+Rendering in MPEG4 and WebM Formats
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FFmpeg is a free software project that produces libraries and programs for handling multimedia data. If installed allows to render in MP4 and WebM formats. MP4 and WebM will be listed in Output Settings > File Settings. To enable this feature it is necessary to install FFmpeg on the computer and set its path in Preferences > Import/Export.
+
+.. tip:: **To enable the rendering in MPEG4 and WebM:**
+
+    1. Go to https://www.ffmpeg.org/download.html and install FFmpeg.
+
+    2. Go to the File > Preferences > Import/Export page.
+
+    3. Write the FFmpeg installation path in the text field (e.g. C:\\ffmpeg\\bin) .
+    
+    4. Go in File > Output Settings and choose mp4 or webm from the File Format list.
 
 .. _creating_multiple_renderings:
 
