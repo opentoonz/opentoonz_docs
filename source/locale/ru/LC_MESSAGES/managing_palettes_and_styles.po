@@ -1,0 +1,1757 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-16 00:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/managing_palettes_and_styles.rst:4
+msgid "Managing Palettes and Styles"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:5
+msgid ""
+"In OpenToonz, each Toonz raster and vector animation level comes with its"
+" own palette containing styles that can be used to draw lines and paint "
+"lines and areas. Raster levels, on the contrary, can be edited by using "
+"styles available in the raster drawing palette, that is shared by all of "
+"the raster levels."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:7
+msgid ""
+"In Toonz levels, palette styles are interactively “linked” to drawn lines"
+" and filled areas by using indexes. The main advantage of this method is "
+"that if you edit a style of the palette, all the lines and filled areas "
+"using that style will be automatically updated. This allows you to change"
+" or calibrate colors, even after the painting process has been done, "
+"without correcting the style line by line, or area by area."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:9
+msgid ""
+"In raster levels, palette styles are simply used to draw or touch up "
+"images, and no link exists between the styles and the drawn lines. This "
+"palette, named Raster Drawing Palette, is shared by all the raster levels"
+" belonging to a specific project and is stored in the ``+palettes``  "
+"project default folder (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:11
+msgid ""
+"All the editing performed in palettes and styles is not saved until you "
+"save the related Toonz level, the palette itself, or the Save All command"
+" is used (see  :ref:`Saving Levels <saving_levels>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:16
+msgid "The Palette Editor"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:18
+msgid ""
+"The palette editor displays the styles of the current animation level "
+"that are used, or can be used, to draw and paint the level itself."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:20
+msgid "|palette|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:22
+msgid ""
+"The default palette of any new Toonz vector level contains only the plain"
+" black color; the default palette of a Toonz raster level contains the "
+"colors recognized during the cleanup process. Any palette always contains"
+" the Color 0 item, that allows you to remove any style from lines and "
+"filled areas."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:24
+msgid "Each palette can contain up to 4096 styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:26
+msgid "Styles in the palette can be displayed in different modes:"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:28
+msgid ""
+"Small Thumbnails View displays styles as small squares. The style index "
+"is displayed at the bottom right corner. Full name of the style can be "
+"displayed as a tooltip."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:30
+msgid ""
+"Medium Thumbnails View displays styles as medium squares. You can read "
+"the first letters of the name of the style directly inside the chips; the"
+" style index is displayed at the bottom right corner. Full name of the "
+"style can be displayed as a tooltip."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:32
+msgid ""
+"Large Thumbnails View displays styles as large squares. You can read the "
+"first letters of the name of the style directly inside the chips; the "
+"style index is displayed at the bottom right corner. Full name of the "
+"style can be displayed as a tooltip."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:34
+msgid ""
+"List View displays style thumbnails next to their names in a list; the "
+"index of the style is displayed as a tooltip. If the palette styles refer"
+" to a studio palette, its path will be displayed along with the style "
+"name (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:36
+msgid ""
+"By default each palette is active, that means that it automatically "
+"displays the styles of the current animation level, but it can be turned "
+"off in order not to be updated when you select a different level. In this"
+" way, by opening more than one palette it is possible to compare and edit"
+" palettes referring to different animation levels at the same time."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:38
+msgid ""
+"Palettes also can be saved as independent files in TPL format, to be "
+"loaded back into the scene to retrieve colors, or to be used with the "
+"External Palette FX (see  :ref:`Using the File Browser "
+"<using_the_file_browser>`  and  :ref:`External Palette "
+"<external_palette>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:40
+msgid ""
+"Most of the palette editing described below can be applied to the palette"
+" viewer available in the studio palette as well (see  :ref:`Using the "
+"Studio Palette <using_the_studio_palette>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:42
+msgid "**To change the palette display mode:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:44
+#: ../../source/managing_palettes_and_styles.rst:76
+#: ../../source/managing_palettes_and_styles.rst:88
+#: ../../source/managing_palettes_and_styles.rst:142
+#: ../../source/managing_palettes_and_styles.rst:214
+#: ../../source/managing_palettes_and_styles.rst:250
+#: ../../source/managing_palettes_and_styles.rst:274
+#: ../../source/managing_palettes_and_styles.rst:375
+#: ../../source/managing_palettes_and_styles.rst:417
+#: ../../source/managing_palettes_and_styles.rst:638
+#: ../../source/managing_palettes_and_styles.rst:648
+#: ../../source/managing_palettes_and_styles.rst:658
+#: ../../source/managing_palettes_and_styles.rst:668
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:46
+msgid ""
+"Click the option button ( |Toonz71_127| ) on the right of the top bar of "
+"the palette editor, and choose a display mode from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:48
+msgid ""
+"Use the standard zoom ``+`` or ``-`` shortcut keys in the palette editor "
+"to increase or decrease the styles chips size."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:51
+msgid "**To make the palette inactive or active:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:53
+msgid ""
+"Click the switch button ( |Toonz71_128| ) on the right of the palette "
+"editor title bar."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:57
+msgid "**To save a palette with a different name in a different location:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:59
+msgid "Click the Save Palette As button () in the top bar of the palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:61
+msgid ""
+"In the browser that opens choose a location and name for the palette you "
+"want to save, and click the Save button."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:63
+msgid ""
+"The Save Palette As command creates a copy of the palette with a "
+"different file name and location, but does not change the name and "
+"location of the palette used in the scene."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:69
+msgid "Arranging Palette Styles and Pages"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:70
+msgid ""
+"Palette styles can be added, named, reordered and arranged in pages. They"
+" can be copied and pasted from one position to another, or from a palette"
+" to another."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:72
+msgid ""
+"When styles used for painting drawings are cut, lines and areas painted "
+"with them will be displayed in red; if they are deleted, you will be "
+"prompted whether to delete the styles only and show the lines and areas "
+"painted with them in red, or to delete the lines and areas painted with "
+"them as well."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:74
+msgid "**To select a style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:78
+msgid "Click it in the palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:80
+msgid ""
+"Use the number keys on the main or numerical keyboards to select the "
+"corresponding style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:82
+msgid ""
+"When in Medium/Large Thumbnails View a visual cue of which key shortcut "
+"corresponds to which style is shown on the upper center of each style "
+"chip."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:84
+msgid ""
+"In case of having more than 10 styles in the current palette, you can use"
+" the Tab key on the keyboard to switch to the next bank of 10 styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:86
+msgid "**To select multiple styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:90
+msgid "Shift-click to extend the selection."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:92
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) to add a style to, or remove it from "
+"the selection."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:94
+msgid "**To add a new style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:96
+msgid ""
+"Click the New Style button ( |Toonz71_130| ) in the top bar of the "
+"palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:98
+msgid "**To name a style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:100
+msgid ""
+"When styles are displayed in Medium/Large Thumbnails View or List View "
+"modes, double-click the style name to edit it."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:102
+msgid "**To edit palette styles with the Edit menu commands:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:104
+msgid "Select the styles you want to edit."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:106
+#: ../../source/managing_palettes_and_styles.rst:316
+msgid "Do any of the following:"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:108
+msgid ""
+"Use the Copy command to keep in memory selected styles for further "
+"operations."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:110
+msgid ""
+"Use the Cut command to eliminate selected styles from the palette and "
+"keep them in memory for further operations."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:112
+msgid ""
+"Use the Paste Insert command to paste styles kept in memory in the "
+"palette, after the currently selected style. Cut styles will be added "
+"preserving their indexes; copied styles will be added using new indexes."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:114
+msgid ""
+"Use the Paste Color & Name command to paste styles kept in memory, over "
+"the styles selected in the palette, overwriting their content. If the "
+"selection contains less styles than those kept in memory, styles in "
+"excess will be ignored; if the selection contains more styles than those "
+"kept in memory, styles in excess will be left as they are."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:116
+msgid ""
+"Use the Paste Color command to paste the red, green, blue and alpha "
+"values of the styles kept in memory in the styles selected in the "
+"palette, preserving their name. If the selection contains less styles "
+"than those kept in memory, styles in excess will be ignored; if the "
+"selection contains more styles than those kept in memory, styles in "
+"excess will be left as they are."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:118
+msgid ""
+"Use the Paste Name command to paste the names of the styles kept in "
+"memory in the styles selected in the palette, preserving their colors. If"
+" the selection contains less styles than those kept in memory, styles in "
+"excess will be ignored; if the selection contains more styles than those "
+"kept in memory, styles in excess will be left as they are."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:120
+msgid "Use the Delete command to delete selected styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:122
+msgid ""
+"All the Edit menu commands are also available in the menu that opens when"
+" right-clicking the selection."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:124
+msgid "**To move selected styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:126
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the new "
+"position; the insertion point is marked while you drag."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:128
+msgid "**To move selected styles into a different page:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:130
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the tab of "
+"the page where you want to put selected styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:132
+msgid "**To move styles into a new page:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:134
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the right of"
+" the last page tab: a new page will be created containing the dragged "
+"styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:136
+msgid "**To remove all the unused styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:138
+msgid ""
+"Right-click in the palette and choose Remove Unused Styles from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:140
+msgid "**To add a new page:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:144
+msgid ""
+"Click the New Page button ( |Toonz71_131| ) in the top bar of the palette"
+" editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:146
+msgid ""
+"Right-click in the palette area where page tabs are displayed and choose "
+"New Page from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:148
+msgid "**To name a page:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:150
+msgid "Double-click the page name to edit it."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:152
+msgid "**To move a page:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:154
+msgid "Click and drag the page tab to the new position."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:156
+msgid "**To delete a page:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:158
+msgid ""
+"Right-click the page tab and choose Delete Page from the menu that opens."
+" The current page cannot be deleted."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:164
+msgid "Using the Studio Palette"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:165
+msgid "|studio_palette|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:167
+msgid ""
+"The studio palette allows you to store and manage an unlimited number of "
+"palettes. It is intended as a library of character and prop palettes "
+"related to one or more specific productions. From here palettes, or "
+"styles contained in them, can be retrieved, assigned, or merged to the "
+"current level palette, with no need to define the same styles again and "
+"again."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:169
+msgid ""
+"It consists of a palette tree and a palette viewer: the palette tree "
+"lists two main folders, Global Palettes and Project Palettes, and all the"
+" folders and palettes you add; the palette viewer displays the currently "
+"selected palette and allows you to edit it as a standard palette (see  "
+":ref:`The Palette Window <the_palette_window>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:171
+msgid ""
+"Any level palette can be added to the studio palette; if a color model is"
+" defined for that level, it will be saved along with the palette and "
+"retrieved any time that palette will be assigned to a level (see  "
+":ref:`Using a Color Model <using_a_color_model>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:173
+msgid ""
+"Palettes added to the Global Palettes folder will be available in the "
+"studio palette in any OpenToonz session, regardless of the current "
+"project."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:175
+msgid ""
+"Palettes added to the Project Palettes folder will be available only when"
+" the current project is the relevant one. For example if your current "
+"project is Production One, and you add some palettes to the Project "
+"Palettes folder, those palettes will be available only when the current "
+"project is Production One."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:177
+msgid ""
+"If you want to add to the studio palette a series of palettes you have "
+"previously created and stored in a folder, you can also automatically "
+"retrieve them by searching that specific folder."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:179
+msgid ""
+"Styles that are imported from the studio palette to the palette of the "
+"current level are marked with a small white square. This reference can be"
+" used to link styles to the original studio palette styles: the link can "
+"be activated or deactivated anytime for any selection of styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:181
+msgid "|regular-imported-linked_style|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:183
+msgid ""
+"When the link is activated, an arrow is displayed on the small white "
+"square, and the style will be updated according to the original studio "
+"palette style. When the link is deactivated, the style can be modified "
+"regardless of the original studio palette style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:185
+msgid ""
+"Linking animation level palettes to the studio palette can assure color "
+"consistency for the whole production, because as soon as a change is "
+"needed, it can be done in the studio palette automatically updating all "
+"the linked animation levels palettes and, consequently, drawings."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:187
+msgid ""
+"In the level palette, the information about which studio palette the "
+"palette styles refers to can be retrieved in the List view mode, where, "
+"next to the style thumbnails and names, the path to the source studio "
+"palette is displayed."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:189
+msgid ""
+"When palettes are added to the global studio palette, they are copied to "
+"the ``studiopalette``  folder located where OpenToonz projects are stored"
+" (see  :ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:191
+msgid ""
+"When palettes are added to the project studio palette, they are copied to"
+" the ``+palettes`` folder you specified for the current project (see  "
+":ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:193
+msgid ""
+"These folders can be used, for example, to move your studio palette, or "
+"the project studio palette, to a different network, or to make a backup "
+"copy of it."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:196
+msgid "**To add an empty palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:198
+msgid "Select the folder where you want to create the new palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:200
+msgid ""
+"Right-click the folder where you want to locate the palette and choose "
+"New Palette from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:202
+msgid "**To name a palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:204
+#: ../../source/managing_palettes_and_styles.rst:236
+msgid "Double click its name and type a new name."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:206
+msgid "**To view a palette in the studio palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:208
+#: ../../source/managing_palettes_and_styles.rst:240
+msgid "Select it in the palette tree."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:210
+msgid "**To add a level palette to the studio palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:212
+msgid "Select the level to display its palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:216
+msgid ""
+"Click the Palette button ( |Toonz71_135| ) in the top bar of the palette "
+"editor and drag the current palette to the studio palette folder where "
+"you want to locate it. The palette will retain its name."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:218
+msgid ""
+"Add an empty palette in the studio palette browser, right-click it and "
+"select Replace with Current Palette from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:220
+msgid "**To add palettes by searching in a computer folder:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:222
+msgid ""
+"Select the folder where you want to place palettes retrieved during the "
+"search."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:224
+msgid ""
+"Right-click the folder and select Search for Palettes from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:226
+msgid "Type the full path to the computer folder you want to scan."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:228
+msgid "**To add a new folder:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:230
+msgid "Select the folder where you want to create the new folder."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:232
+msgid ""
+"Right-click the folder where you want to locate your new folder and "
+"choose New Folder from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:234
+msgid "**To name a folder:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:238
+msgid "**To delete a palette or a folder:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:242
+msgid ""
+"Right-click the palette or the folder you want to delete and choose "
+"Delete Palette from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:244
+msgid "**To rearrange palettes in the studio palette folders:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:246
+msgid "Click and drag the palette from the current location to the new one."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:248
+msgid ""
+"**To load a palette from the studio palette to the current level "
+"palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:252
+msgid ""
+"Click and drag the palette, from the studio palette tree to the Palette "
+"button ( |Toonz71_139| ) in the top bar of the palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:254
+msgid ""
+"Right-click the palette you want to use and select Load into Current "
+"Palette from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:256
+msgid ""
+"In case the palette misses some styles used to paint the level drawings, "
+"you will be prompted whether to delete the styles only and show the lines"
+" and areas painted with them in red, or to delete the lines and areas "
+"painted with them as well."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:258
+msgid ""
+"**To reorder the current palette using a specific studio palette as "
+"reference:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:260
+msgid "Select the level that uses the palette that has to be modified."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:262
+msgid ""
+"Select into the Studio Palette window the palette you want to use as "
+"reference."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:264
+msgid "Right-click the palette and select Adjust Current Level to This Palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:266
+msgid "Insert a Tolerance value in the window that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:268
+msgid ""
+"The Tolerance parameter defines the range of RGB values that will be used"
+" for matching colors from the curret palette to those of the studio "
+"palette. Default value of 0 means no range use, just colors with the same"
+" RGB values will be reordered and all the others will be added as new "
+"colors."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:270
+msgid ""
+"All the colors of the studio palette will be transferred into the current"
+" palette, all of this colors will show the Reference to Studio Palette "
+"box. The colors that are used in both palettes will be ordered, for "
+"positon and color index, as in the reference studio palette. All the "
+"colors that are new into the curent palette will be moved after the last "
+"transferred color. Pages will be added when required."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:272
+msgid ""
+"**To merge a palette from the studio palette to the current level "
+"palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:276
+msgid ""
+"Click and drag the palette from the studio palette tree to the level "
+"palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:278
+msgid ""
+"Right-click the palette you want to use and select Merge to Current "
+"Palette from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:280
+msgid "**To replace a palette from the studio palette with the current palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:282
+msgid ""
+"Select the palette you want modify in the studio palette, or project "
+"palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:284
+msgid "Right-click the palette and select Replace with Current Palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:286
+msgid ""
+"**To copy styles from the studio palette to the current level palette, "
+"and vice versa:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:288
+msgid ""
+"Select the palette in the studio palette to display it in the palette "
+"viewer."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:290
+msgid "Select the styles you want to copy in one palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:292
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the other "
+"palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:294
+msgid ""
+"If you drag the selection to the right of the last page tab, a new page "
+"will be created containing the dragged styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:296
+msgid "**To activate a style link to the studio palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:298
+msgid "Select the styles that have been imported from the studio palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:300
+#: ../../source/managing_palettes_and_styles.rst:306
+msgid ""
+"Right-click the selection and select Toggle Link to Studio Palette from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:302
+msgid "**To deactivate a style link to the studio palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:304
+msgid "Select the styles that have been linked to the studio palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:308
+msgid "**To remove style reference to the studio palette:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:310
+msgid "Select the styles that have a reference to the studio palette."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:312
+msgid ""
+"Right-click the selection and select Remove Reference to Studio Palette "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:314
+msgid "**To resize the studio palette sections:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:318
+msgid "Click and drag the separator to resize sections."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:320
+msgid "Click and drag the separator towards the window border to hide a section."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:322
+msgid ""
+"Click and drag the separator collapsed to the window border toward the "
+"window center to display again the hidden section."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:328
+msgid "Animating Palettes"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:329
+msgid ""
+"For Toonz raster and vector levels, colors in a palette can be animated "
+"and changed according to the frames of the animation."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:331
+msgid ""
+"The animation is defined by keys that refer to timing of the xsheet: this"
+" means that there is no relation between the level length and the length "
+"of the animation of the palette colors. For example you can create a "
+"palette animated from frame 1 to 100 even if its level is only five "
+"frames long."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:333
+msgid ""
+"The color animation will always refer to the xsheet timing, even if you "
+"move the related level to a different frame range. For example if you "
+"animate a palette from frame 1 to frame 20, and the level is exposed "
+"after frame 20, no color animation will be visible and the color used for"
+" the level will refer to the last key of the colors animation."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:335
+msgid ""
+"Keys are set for all the palette colors and settings (in the case of "
+"Special Styles and Textures) at once and can be navigated directly in the"
+" palette (with the expected update of the viewer content) to check the "
+"color animation."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:337
+msgid "**To define a palette key:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:339
+msgid "Select in the xsheet the frame where you want to define the key."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:341
+msgid ""
+"Click the key button ( |Toonz71_140| ) in the top bar of the palette "
+"editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:343
+msgid "**To check if the palette has a key at a specific frame:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:345
+msgid ""
+"Select the frame you want to check: if the key button ( |Toonz71_141| ) "
+"in the top bar of the palette editor is blue, the colors have a key at "
+"the current frame."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:347
+msgid "**To navigate the palette keys:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:349
+msgid ""
+"Use the Next ( |Toonz71_142| ) and Previous Key buttons ( |Toonz71_143| )"
+" available at the side of the key button in the top bar of the palette "
+"editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:351
+msgid "**To remove a palette key:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:353
+msgid ""
+"Do one of the following to select the frame you want to remove the key "
+"from:"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:355
+msgid "Select it in the xsheet frame column."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:357
+msgid "Navigate the palette keys."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:359
+msgid ""
+"Click the key button ( |Toonz71_144| ) in the top bar of the palette "
+"editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:365
+msgid "Editing Styles"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:367
+msgid ""
+"Palette styles can be modified with the Style Editor. There are four "
+"types of styles to choose from: Color, Texture, Vector and Raster. "
+"Generated, Trail and Vector Brushes are available for vector animation "
+"levels only. For several types of styles, there is also control over "
+"various Settings."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:369
+msgid ""
+"An Auto button lets you decide whether the edits have to be assigned "
+"automatically to the style, or only after you click on the Apply button. "
+"In the bottom right corner you can see swatches for the previous and new "
+"style status; if you want to go back to the previous style, simply click "
+"on it."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:371
+msgid ""
+"Only the first style in the palette, labeled Color 0, cannot be edited: "
+"instead, it allows you to remove any style from lines and filled areas."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:373
+msgid "**To open the style editor as a floating window:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:377
+msgid "Choose Windows > Style Editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:379
+msgid "Double-click the style you want to edit in the palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:381
+msgid "**To automatically apply the editing to the style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:383
+msgid "Activate the Auto button in the style editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:385
+msgid "**To apply manually the editing to the style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:387
+msgid "Deactivate the Auto button in the style editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:389
+msgid ""
+"Click the Apply button every time you want to apply the editing to the "
+"style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:391
+msgid "**To return to the old style cancelling the editing:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:393
+msgid ""
+"Click the style swatch in the very bottom right corner of the style "
+"editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:399
+msgid "Colors"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:401
+msgid "|style_editor_color|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:403
+msgid ""
+"Colors can be defined either by Hue, Saturation and Value or by Red, "
+"Green and Blue values. They can be used for both drawing lines and "
+"filling areas."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:405
+msgid ""
+"You can also set the color opacity with the Alpha slider: the lower the "
+"value, the more transparent the color. You can check the opacity of the "
+"color with the checkerboard pattern visible beneath the color, whose "
+"visibility is proportional to the color transparency."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:407
+msgid ""
+"To edit a color you can use either the sliders or the color wheel. To "
+"pick a color from the sliders or from the wheel, click it; to adjust "
+"values you can use the arrowhead buttons available at each slider ends."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:409
+msgid ""
+"Colors can also be picked from the viewer content by using the RGB Picker"
+" tool ( |Toonz71_146| ), whose Type option lets you choose the following:"
+" Normal, to pick values of a color; Rectangular, to pick the average "
+"values of the colors included in the box you define; Freehand, to pick "
+"the average values of the colors included in the area you outline by "
+"clicking and dragging; and Polyline, to pick the average values of the "
+"colors included in the area you outline by defining a series of lines."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:411
+msgid ""
+"If the current style is a special one, the color you edit is the color "
+"used by the special style. If the special style uses more than one color,"
+" you can select the color to edit in the row of thumbnails available "
+"below the Auto and Apply buttons. (see  :ref:`Special Styles "
+"<special_styles>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:413
+msgid "**To pick the color from the viewer content:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:415
+msgid "Select the RGB Picker tool ()."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:419
+msgid "Click in the viewer to pick the needed color values."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:421
+msgid ""
+"Set the type to Rectangular, then click and drag in the viewer to define "
+"a box which picks the average values of the colors included in the box."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:423
+msgid ""
+"Set the type to Freehand, then click and drag in the viewer to outline an"
+" area which picks the average values of the colors included in the area."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:425
+msgid ""
+"Set the type to Polyline, then click in the viewer to outline an area by "
+"defining a series of lines and this will pick the average values of the "
+"colors included in the area."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:431
+msgid "Textures"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:433
+msgid "|style_editor_texture|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:435
+msgid ""
+"Textures can be used both for drawing lines and filling areas. They can "
+"be selected from a list available in the Texture page, where your own "
+"textures can be added as well, or added as Custom Texture clicking the "
+"Custom Texture button."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:437
+msgid ""
+"Vector texture mapping, that is the way the texture is applied to "
+"vectors, is performed using vector parametric coordinates: this means "
+"that the texture “follows” the vector’s shape and thickness."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:439
+msgid ""
+"Custom Textures can be loaded both on PLI and TLV levels, but their "
+"parameters can be used only on TLV levels."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:441
+msgid ""
+"Lines and areas texture mapping, applied for raster drawing, use the "
+"standard mapping: this means that the texture image is tiled to cover the"
+" lines or areas painted with the style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:443
+msgid ""
+"A more powerful texture mapping can be performed by using the Texture and"
+" Pinned Texture special FX (see  :ref:`Toonz Level <toonz_level>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:445
+msgid "**To add a new Texture:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:447
+msgid ""
+"Create the image you want to use as a texture with the following "
+"characteristics:"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:449
+msgid ""
+"The number of pixels of the width and height of the image has to be equal"
+" to 2 to the power of any number (i.e. 2, 4, 8, 16, 32, 64, 128, 256, "
+"etc.); if not, texture images will show stretched."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:451
+msgid ""
+"The file has to be saved in any of the following formats: TIF, TGA, PNG, "
+"BMP, JPG, NOL, RGB and SGI."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:453
+msgid ""
+"Save the texture file in the folder ``Projectroot\\library\\textures``  "
+"(see  :ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:459
+msgid "Custom Textures"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:460
+msgid ""
+"Custom Textures can be used both for drawing lines and filling areas. "
+"Using Custom Textures allows to set many parameters such as: Use As "
+"Pattern, using the brightness of the loaded image to modulate the "
+"brightness of the Color index to which it is applied; choose the position"
+" between Fixed (the texture will be fixed and slide into the character), "
+"Automatic (the texture will follow the character position during the "
+"animation) and Random (the texture position change at each frame in a "
+"random way); Scale, Rotation, apply an Horizontal or Vertical offset and "
+"change the Contrast. The Custom Texture will be saved into the Palette "
+"and its icon will be replaced with an icon of the loaded texture."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:462
+msgid "**To add a Custom Texture:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:464
+msgid "Select a style in the palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:466
+msgid ""
+"Go in the Texture tab of the Style Editor and press the Custom Texture "
+"button."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:468
+msgid ""
+"Go in the Settings tab, use the Load From File field and choose the image"
+" (or the image sequence) you want to use as texture."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:470
+msgid "Press the Preview button to visualize the texture."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:476
+msgid "Generated Styles"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:478
+msgid "|style_editor_generated|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:480
+msgid ""
+"Generated styles use a number of mathematical functions to create effects"
+" that can be used either for vector strokes or for filling areas defined "
+"by vectors. They can be selected from a list available in the Generated "
+"section of the Vector tab, where styles suitable for vector strokes have "
+"a thumbnail representing how they will look as a diagonal line; styles "
+"suitable for filling have a thumbnail representing the top right corner "
+"piece of an area."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:482
+msgid ""
+"Generated styles can simulate for instance a frieze, a leaf, or a pencil "
+"stroke along a vector, or allow you to fill areas with special effects "
+"such as polka dots."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:484
+msgid ""
+"Generated styles can be customized by defining the parameters available "
+"in the Settings tab. This allows you to have many similar styles, each "
+"with a different configuration of settings."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:486
+msgid ""
+"Colors used by generated styles can be modified by using the Color tab "
+"available in the Style Editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:488
+msgid ""
+"The first item available in the list allows you to remove the Generated "
+"style, in order to return it to a Color style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:490
+msgid "**To change colors used by a generated style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:492
+#: ../../source/managing_palettes_and_styles.rst:550
+msgid "Move to the Color tab in the Style Editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:494
+#: ../../source/managing_palettes_and_styles.rst:552
+msgid "Edit the color using the wheel and sliders."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:496
+msgid ""
+"If the generated style uses more than one color, select the color to edit"
+" in the row of swatches available below the Auto and Apply buttons."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:502
+msgid "Trail Styles"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:504
+msgid "|style_editor_trail|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:506
+msgid ""
+"Trail styles are available for vector levels only. A trail style repeats "
+"an image or an animation level, created with OpenToonz or third party "
+"software, along the vectors of a vector level. Trail styles cannot be "
+"used to paint areas."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:508
+msgid ""
+"In the Trail section on the Vector tab you can select the image or the "
+"animation level you want to use as a style. You can add to the list your "
+"own animation levels as well: both OpenToonz animation levels (PLI) and "
+"full-color images or sequences of full-color images (BMP, JPG, NOL, PIC, "
+"PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF) are supported."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:510
+#: ../../source/managing_palettes_and_styles.rst:534
+msgid ""
+"PLI levels are rendered according to the vector length and thickness, "
+"thus appearing jagged when zoomed in. If the output format is a vector "
+"one, then the PLI level will remain vector-based. (see  :ref:`Choosing "
+"the Output Settings <choosing_the_output_settings>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:512
+msgid ""
+"The images are repeated changing their placement and size according to "
+"the vector’s shape and thickness. If the animation levels contains "
+"different drawings, they are repeated cyclically along the vector length."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:514
+msgid ""
+"Parameters such as the distance between subsequent images along the "
+"vector and their rotation can be defined in the Settings tab (see  "
+":ref:`Settings <settings>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:516
+msgid "**To add a new custom style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:518
+msgid ""
+"Create an image or an animation level with OpenToonz, or with third-party"
+" software."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:520
+msgid ""
+"Save it in the folder ``Projectroot\\library\\custom styles`` (see  "
+":ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:526
+msgid "Vector Brush Styles"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:528
+msgid "|style_editor_vectorbrush|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:530
+msgid ""
+"Vector brush styles are available for vector levels only. A vector brush "
+"applies a vector image, created with OpenToonz, along the vector strokes "
+"of a vector level. Vector brush styles cannot be used to paint areas."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:532
+msgid ""
+"In the Vector Brush section of the Vector tab, you can select the image "
+"you want to use as a style. You can add to the list your own PLI images "
+"as well."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:536
+msgid ""
+"The Vector Brush image is applyed to each stroke of the drawing that use "
+"this style according to the stroke’s shape and thickness. If the "
+"animation levels used as vector Brush contains different drawings, only "
+"the first one will be taken into account."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:538
+msgid ""
+"Colors used by vector brushes can be modified by using the Color tab "
+"available in the style editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:540
+msgid ""
+"The first item available in the list allows you to remove the Vector "
+"Brush in order to return it to a Color style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:542
+msgid "**To add a new vector brush:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:544
+msgid "Create a PLI level with OpenToonz."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:546
+msgid ""
+"Save it in the folder ``Projectroot\\library\\vector brushes`` (see  "
+":ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:548
+msgid "**To change colors used by a vector brush style:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:554
+msgid ""
+"If the vector brush uses more than one color, select the color to edit in"
+" the row of swatches available below the Auto and Apply buttons."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:560
+msgid "Raster Brushes"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:562
+msgid "|style_editor_raster|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:564
+msgid ""
+"Raster brushes are available to paint in raster levels and, with some "
+"limitations, in Toonz raster levels. They are essentially brushes "
+"compatible with the `MyPaint <http://mypaint.org/about/>`_ open source "
+"painting software."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:566
+msgid ""
+"The Raster brushes use the color from the current style as a base, and "
+"all its remaining options can be found in the Settings tab of the Style "
+"Editor pane (see  :ref:`Settings <settings>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:568
+msgid ""
+"In Toonz raster levels, currently only additive Raster brushes can be "
+"used (i.e. brushes that add paint to a level, not the ones that erase, "
+"blend or blur already painted strokes)."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:570
+msgid ""
+"In Toonz raster levels, Raster brushes use only the alpha channel "
+"(opacity) values of the selected brush to paint with the current style "
+"Color, and cannot use any of the other color related settings of that "
+"brush."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:572
+msgid "In Toonz raster levels, Raster brushes paint only Lines (not Areas)."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:579
+msgid "Settings"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:581
+msgid "|style_editor_settings|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:583
+msgid "The Settings tab is available for defining some color properties."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:585
+msgid ""
+"For Toonz raster levels, it contains only the Autopaint for Lines option,"
+" that can be used to automatically paint border lines of an area, with "
+"the same color used to fill that area (see  :ref:`Using the Autopaint for"
+" Lines Option <using_the_autopaint_for_lines_option>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:587
+msgid ""
+"For Toonz vector levels, it contains parameters only when the style is a "
+"generated or trail one."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:589
+msgid ""
+"When the style is a generated one, the Settings tab contains one or more "
+"sliders that allow you to finetune the predefined style to your needs. "
+"When the style is a trail one, the Settings tab contains two sliders: the"
+" Distance sets the space between two subsequent images of the animation "
+"level used as a trail; the Rotation sets the angle of all the images."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:591
+msgid ""
+"You can add the same generated or trail style as many times as you want, "
+"each time defining different settings for it."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:597
+msgid "Changing the Type of Style"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:598
+msgid ""
+"When you select color, texture, generated, trail or vector brush in the "
+"style editor, you automatically assign it to the current style, thus "
+"changing the type of style."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:600
+msgid ""
+"The only exception is when you want to change from a generated or a "
+"vector brush style to a color one, because when the current style is a "
+"generated or a vector brush one, the Color tab is used for setting its "
+"colors. In this case you have first to remove the generated or vector "
+"brush style by using the first swatch available in the swatch list, and "
+"then move to the Color tab."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:602
+msgid ""
+"Note that when you change from a style suitable for both lines and areas "
+"to a style suitable only for lines, areas painted with that style will "
+"become invisible, and vice versa. For example if you change a style from "
+"color to trail, all areas painted with that color will become invisible. "
+"If you modify the style so that it is suitable again for lines and areas,"
+" the invisible parts will become visible again."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:604
+msgid "**To change the type of style from color to any other:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:606
+msgid "Choose an item in the texture or vector tabs."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:608
+msgid "**To change the type of style back to color:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:610
+#: ../../source/managing_palettes_and_styles.rst:616
+msgid ""
+"Choose the Color tab and start moving a slider or the selector in the "
+"color wheel."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:612
+msgid ""
+"**To change the type of style from generated or vector brush back to "
+"color:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:614
+msgid ""
+"In the Generated or Vector Brush sections of the Vector tab select the "
+"first style in the list (the top-left most style) to assign no special "
+"style to the current color."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:622
+msgid "Editing Several Styles at the Same Time"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:624
+msgid ""
+"You can modify several styles at the same time by using the Palette "
+"Gizmo. It allows you to scale or shift the value, saturation, hue and "
+"alpha of the selected styles, blend them, or fade them to a specific "
+"color."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:626
+msgid "|palette_gizmo|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:628
+msgid ""
+"Only the color styles are affected by the Palette Gizmo editing and the "
+"blending. e.g. generated and trail styles will not be affected."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:630
+msgid "**To open the Palette Gizmo:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:632
+msgid ""
+"Right-click the selected styles and choose Palette Gizmo from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:634
+msgid "**To change the value of the selected styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:636
+msgid ""
+"Set the percentage of variation or the shift magnitude you want to apply "
+"to the styles value."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:640
+msgid ""
+"Click the + button to increase the value on the set percentage or shift "
+"magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:642
+msgid ""
+"Click the - button to decrease the value on the set percentage or shift "
+"magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:644
+msgid "**To change the saturation of the selected styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:646
+msgid ""
+"Set the percentage of variation or the shift magnitude you want to apply "
+"to the styles saturation."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:650
+msgid ""
+"Click the + button to increase the saturation on the set percentage or "
+"shift magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:652
+msgid ""
+"Click the - button to decrease the saturation on the set percentage or "
+"shift magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:654
+msgid "**To change the hue of the selected styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:656
+msgid "Set the shift magnitude you want to apply to the styles hue."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:660
+msgid "Click the + button to increase the hue on the set shift magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:662
+msgid "Click the - button to decrease the hue on the set shift magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:664
+msgid "**To change the alpha of the selected styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:666
+msgid ""
+"Set the percentage of variation or the shift magnitude you want to apply "
+"to the styles alpha."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:670
+msgid ""
+"Click the + button to increase the alpha on the set percentage or shift "
+"magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:672
+msgid ""
+"Click the - button to decrease the alpha on the set percentage or shift "
+"magnitude."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:674
+msgid "**To blend selected styles:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:676
+msgid "Select a set of styles in the palette editor."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:678
+msgid ""
+"Click the Blend button: style colors will be blended from the first to "
+"the last color of the selected styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:680
+msgid "**To fade the selected styles to a specific color:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:682
+msgid ""
+"Choose the color you want to fade the selection to by doing one of the "
+"following:"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:684
+msgid "Set the Red, Green and Blue values."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:686
+msgid ""
+"Click the color thumbnail and use the Style Editor to edit it (see  "
+":ref:`Plain Colors <plain_colors>`  )."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:688
+msgid "Set the percentage of the fading you want to apply to the styles."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:690
+msgid ""
+"Click the Fade button to fade styles to the set color, according to the "
+"set percentage."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:696
+msgid "Using the Name Editor"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:698
+msgid ""
+"The Name Editor allows to systematize the naming of styles used in a "
+"production, by defining preset names for Character, Part and Suffix. In "
+"that way, styles in a palette can easily be given significant names that "
+"will ease its use later on the production."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:700
+msgid "|name_editor|"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:702
+msgid ""
+"Currently there's no standard separator character inserted between the "
+"different preset names used, so if you want to have those separated by an"
+" underscore, for example, you should insert that character at the "
+"beginning or end of the different names in each category, as shown in the"
+" image above."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:704
+msgid "**To open the Name Editor:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:706
+msgid ""
+"Right-click in the Palette Editor and choose Name Editor from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:708
+msgid "**To delete a preset name:**"
+msgstr ""
+
+#: ../../source/managing_palettes_and_styles.rst:710
+msgid ""
+"Right-click over the desired preset name and choose Remove from the menu "
+"that opens."
+msgstr ""
+
