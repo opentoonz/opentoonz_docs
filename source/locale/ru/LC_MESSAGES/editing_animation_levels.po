@@ -1,0 +1,1119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-16 00:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/editing_animation_levels.rst:4
+msgid "Editing Animation Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:5
+msgid ""
+"Once you have created your animation levels, you may need to work on them"
+" in order to add or insert new drawings, or rearrange the frame sequence."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:7
+msgid ""
+"All the editing can be saved by saving the level, or by saving the scene,"
+" thus automatically saving all of its levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:12
+msgid "Using the Level Strip"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:13
+msgid ""
+"An animation level can be managed in the level strip. The level strip "
+"shows all of the drawings of the current level, even drawings not "
+"currently exposed in the , according to their numbering order."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:15
+msgid ""
+"In case a frame range of the animation level has been loaded with the "
+"Load Level dialog, only the frames within the allocated frame range will "
+"be visible in the level strip (see  :ref:`Using the File Browser "
+"<using_the_file_browser>`  )."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:17
+msgid ""
+"When a level is selected, each frame of the strip contains a level "
+"drawing, according to the level numbering order. When a frame in the "
+"strip is selected, the related drawing is displayed in the work area, "
+"replacing any previous displayed content, to let you work on it more "
+"easily."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:19
+msgid ""
+"When one or more frames are selected you can perform standard cut, copy, "
+"paste, delete and insert operations. New drawings can be added, and any "
+"sequence can be renumbered. From the level strip drawings can be also "
+"exposed in the ."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:21
+msgid ""
+"When you change the order of the drawings in the level strip, or when a "
+"drawing is cut, deleted or inserted, and drawings are exposed in the "
+"scene, the  will continue to contain a reference to that particular frame"
+" of the animation level, whatever its content is. When the  contains a "
+"reference to a drawing that is eliminated in the level strip, the level "
+"name and number turn red, to warn you that there is no drawing available "
+"for that cell anymore."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:23
+msgid ""
+"The width of the level strip pane cannot be resized freely, because it "
+"depends on the size of the animation level preview icons, but it can be "
+"customized in the Preferences > Interface dialog."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:25
+msgid "**To edit an animation level in the level strip:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:27
+#: ../../source/editing_animation_levels.rst:35
+#: ../../source/editing_animation_levels.rst:51
+#: ../../source/editing_animation_levels.rst:178
+#: ../../source/editing_animation_levels.rst:188
+#: ../../source/editing_animation_levels.rst:280
+#: ../../source/editing_animation_levels.rst:412
+#: ../../source/editing_animation_levels.rst:448
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:29
+msgid ""
+"Select in the  a cell containing a drawing from the animation level you "
+"want to edit."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:31
+msgid ""
+"Right-click the level icon in the scene cast and choose Display in Level "
+"Strip from the menu that opens."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:33
+msgid "**To scroll the level strip:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:37
+msgid "Middle-click and drag to scroll up or down."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:39
+msgid "Use the mouse wheel to scroll up or down."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:41
+msgid "Use the scrolling bars to scroll only within the actual level extent."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:43
+msgid "Use the Up Arrow and Down Arrow keys to move one frame up or down."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:45
+msgid ""
+"Use the Page Up and Page Down keys to scroll the visible frames up or "
+"down."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:47
+msgid ""
+"Use the Home and End keys to scroll up to the beginning or the end of the"
+" level strip content."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:49
+msgid "**To select drawings in the level strip:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:53
+msgid "Click a drawing to select it."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:55
+msgid "Click and drag to select a series of drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:57
+msgid "Shift-click a frame to extend the selection up to that frame."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:59
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) the frames to add them to, or remove "
+"them from the selection."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:61
+msgid "Use the Edit > Select All command to select all of the level drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:63
+msgid ""
+"Use the Edit > Invert Selection command to invert the current selection "
+"of drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:65
+msgid ""
+"The Select All and Invert Selection commands are also available in the "
+"menu that opens when right-clicking in the level strip."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:67
+msgid "**To exit the level strip editing mode:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:69
+msgid "Click a cell in the , or select a frame in the  frame column."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:71
+msgid "**To customize the level strip width:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:73
+msgid "Choose File > Preferences > Interface."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:75
+msgid "Set values for the Width and Height of the Level Strip Frames."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:77
+msgid "Restart OpenToonz to make the changes effective."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:83
+msgid "Editing Level Frames"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:84
+msgid ""
+"The level content can be edited one frame at a time, for example for "
+"retouching some artwork or copying a part of a drawing to a different "
+"frame, or several frames at the same time, for example to rearrange the "
+"drawing sequence."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:86
+msgid "**To edit a drawing of an animation level:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:88
+msgid ""
+"Select the frame in the level strip containing the drawing you want to "
+"modify."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:90
+msgid "Use the tools to edit the drawing in the work area."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:92
+msgid "**To edit drawings of an animation level with the Edit menu commands:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:94
+#: ../../source/editing_animation_levels.rst:114
+msgid "Select the frames you want to edit."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:96
+#: ../../source/editing_animation_levels.rst:116
+#: ../../source/editing_animation_levels.rst:270
+msgid "Do any of the following:"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:98
+msgid ""
+"Use the Copy command to keep in memory selected drawings for further "
+"operations."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:100
+msgid ""
+"Use the Cut command to eliminate selected drawings from the animation "
+"level and keep them in memory for further operations. The frames "
+"elimination causes a gap in the level numbering order."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:102
+msgid ""
+"Use the Paste command to paste drawings kept in memory in the animation "
+"level, starting from the selected insertion frame. The operation shifts "
+"down the following frames, and automatically renumbers them. If before "
+"the insertion frame there is a numbering gap, the pasted frames will fill"
+" the gap before starting to shift and renumber the following frames."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:104
+msgid ""
+"Use the Paste Into command to paste drawings kept in memory in the frames"
+" selected in the level strip, overwriting their content. If the selection"
+" contains less frames than those kept in memory, frames in excess will be"
+" ignored; if the selection contains more frames than those kept in "
+"memory, frames in excess will be left as they are."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:106
+msgid "Use the Delete command to delete selected drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:108
+msgid ""
+"Use the Insert command to insert white frames before the selection; "
+"inserted frames will be as many as the selected ones. The operation "
+"shifts down the following frames, and automatically renumbers them."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:110
+msgid ""
+"All of the Edit menu commands are also available in the menu that opens "
+"when right-clicking in the level strip."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:112
+msgid "**To edit drawings of an animation level with the Cells menu commands:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:118
+msgid "Use the Reverse command to invert the order of selected drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:120
+msgid ""
+"Use the Swing command to append selected drawings to the end of the "
+"selection in a reversed order. The last drawing of the selection will not"
+" be repeated."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:122
+msgid ""
+"Use the Step 2, Step 3 or Step 4 command to repeat selected drawings in "
+"order to have a step 2, step 3 or step 4 animation."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:124
+msgid ""
+"Use the Each 2, Each 3 or Each 4, command to preserve only one drawing "
+"each 2, each 3 or each 4, of the selection, and delete the others."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:126
+msgid ""
+"Use the Duplicate Drawing command to make a copy of the first drawing of "
+"the selection in the following frame. If the following frames already "
+"contain drawings, the duplicated drawing will be inserted by shifting the"
+" others down."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:128
+msgid ""
+"Use the Merge command to paste in the current level the drawings copied "
+"from a different level, according to their original frame position and "
+"regardless of the currently selected frames."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:130
+msgid ""
+"All the Cells menu commands are also available in the menu that opens "
+"when right-clicking in the level strip."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:135
+msgid "Renumbering and Adding Frames in a Level"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:136
+msgid ""
+"When you need to add one or several drawings to a level, you first need "
+"to create room for the new drawings. This task can be achieved either "
+"using the Insert command (see  :ref:`Editing Level Frames "
+"<editing_level_frames>`  ), or the Renumber dialog."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:138
+msgid ""
+"While the inserting operation automatically shifts the numbering of the "
+"following frames in order to make room for the new ones, the renumbering "
+"lets you control the way frames have to be renumbered."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:140
+msgid ""
+"After the renumbering, drawings are rearranged to have an incremental "
+"numbering in the level strip, where blank frames are not considered. For "
+"example for a level where frames 4 and 5 are renumbered 11 and 12, the "
+"level strip will display only five frames correctly numbered 1, 2, 3, 11 "
+"and 12."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:142
+msgid ""
+"If you need to add a range of frames to a level, for instance for "
+"scanning them or creating some artwork, you can add it with the Add "
+"Frames dialog. This dialog allows you also to insert drawings in a level "
+"numbered in an irregular way, for example after some frames which have "
+"been cut or renumbered."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:144
+msgid ""
+"Both the renumbering and the adding frames operation fails if the "
+"numbering assigned to the frames is used by already existing frames."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:146
+msgid ""
+"If the Automatically Create Drawings option is activated in the "
+"Preferences > Drawing dialog, when you want to add a drawing at the end "
+"of the sequence simply select the first grey frame available, and draw in"
+" the work area."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:148
+msgid "**To renumber drawings of an animation level:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:150
+msgid ""
+"Select the drawings you want to renumber; also a non-continuous selection"
+" is allowed."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:152
+msgid "Select Level > Renumber."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:154
+msgid ""
+"In the dialog that opens set the Start Frame number that will be assigned"
+" to the first drawing of the selection, and the Step used to number all "
+"following frames in the selection."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:156
+msgid "**To add drawings to an animation level:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:158
+msgid "Select Level > Add Frames."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:160
+msgid ""
+"In the dialog that opens sets the frame range you want to add, and the "
+"Step used to number the frames in the range."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:162
+msgid ""
+"The Add Frames and Renumber commands are also available in the menu that "
+"opens when right-clicking in the level strip."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:167
+msgid "Reverting Level Frames to a Previous Version"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:168
+msgid ""
+"In case some mistakes are made during the editing of a level, or during "
+"the painting process, e.g. a drawing section is accidentally deleted, it "
+"is possible to retrieve the last saved version of the level frames."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:170
+msgid ""
+"For Toonz raster levels generated from a cleanup process, it is also "
+"possible to retrieve the original cleaned up drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:172
+msgid ""
+"In order to revert to the original cleaned up drawings the Preferences > "
+"Drawing > Keep Original Cleaned Up Drawings As Backup option has to be "
+"activated when the cleanup is performed (see  :ref:`Cleaning up Drawings "
+"<cleaning_up_drawings>`  )."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:174
+msgid "**To revert the level drawings to the last saved version:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:176
+#: ../../source/editing_animation_levels.rst:186
+msgid "In the level strip select the drawings you want to revert."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:180
+msgid "Choose Level > Revert to Last Saved Version."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:182
+msgid ""
+"Right click the selection and choose Revert to Last Saved Version from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:184
+msgid "**To revert to the original cleaned up drawings:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:190
+msgid "Choose Level > Revert to Cleaned Up."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:192
+msgid ""
+"Right click the selection and choose Revert to Cleaned Up from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:197
+msgid "Merging Animation Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:198
+msgid ""
+"Toonz vector levels and standard raster levels can be easily merged into "
+"a single animation level generated by flattening them according to their "
+"stacking order, using the  > Merge levels command. TLV levels can be "
+"merged, using the  > Merge tlv Levels command."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:200
+msgid ""
+"This can be useful for instance if you are sketching an animation with "
+"drawings repeated in several cells and exposed in several columns, and "
+"you want to generate a single sequence of drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:202
+msgid "In both cases there is no limit to the number of columns you can merge."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:207
+msgid "Merging Toonz Vector Levels or Raster Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:208
+msgid ""
+"Using the  > Merge levels command the number of resulting drawings will "
+"depend on the number of drawings exposed in the first column on the left "
+"of the selection. When merging raster levels, the resolution of the "
+"resulting drawings will depend on the resolution of the drawings exposed "
+"in the first column on the left of the selection."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:210
+#: ../../source/editing_animation_levels.rst:238
+msgid "Animation levels are merged according to the following guidelines:"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:212
+msgid ""
+"The  frame numbering order is followed; this means that all the drawings "
+"exposed at frame 1 will be merged to the drawing exposed at frame 1 of "
+"the first column of the selection."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:214
+msgid ""
+"If two different drawings are associated at different frames to the same "
+"drawing exposed in the first column of the selection, only the first one "
+"will be applied."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:216
+msgid ""
+"Drawings not corresponding to any drawing exposed in the first column of "
+"the selection will be ignored."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:218
+msgid ""
+"It is not possible to merge columns if more than one level is exposed in "
+"any of them."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:220
+#: ../../source/editing_animation_levels.rst:246
+msgid ""
+"When levels are merged, any geometrical transformation achieved by "
+"editing and moving the related column or pegbar, will be retained."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:222
+msgid ""
+"For Toonz vector levels each drawing of the merged levels will be "
+"retained as a group of vectors in the resulting level drawings; the "
+"palette of the resulting level will contain all of the styles used in the"
+" drawings of the merged levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:224
+msgid "**To merge animation levels:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:226
+msgid ""
+"Select the columns where the animation levels you want to merge are "
+"exposed."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:228
+msgid "Choose  > Merge Levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:233
+msgid "Merging Toonz Raster Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:234
+msgid ""
+"The  > Merge tlv Levels allows to combine several columns containing "
+"Toonz Raster Levels creating a new TLV level. The merged columns will be "
+"eliminated from the  and replaced with a new TLV level."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:236
+msgid ""
+"Using the  > Merge tlv Levels command the number of resulting drawings "
+"will depend on the frames combination of the involved levels. When "
+"merging Toonz Raster levels, the resolution of the resulting level will "
+"depend on the resolution of the drawings exposed in the first column on "
+"the left of the selection."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:240
+msgid ""
+"The  frame numbering order is followed; this means that the merge level "
+"will be created following the frames numbering."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:242
+msgid ""
+"If a combination of drawings will be reused the drawing previously "
+"created will be reused."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:244
+msgid "Also the palettes of the selected levels will be merged."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:248
+msgid ""
+"**It is not possible to merge columns if more than one level is exposed "
+"in any of them.**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:250
+msgid "**To merge tlv levels:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:252
+msgid "Select two ore more columns filled with the tlv you want to merge."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:254
+msgid "Choose  > Merge tlv Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:256
+msgid "Define File name and location in the pop up that opens and press Apply."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:261
+msgid "Processing Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:262
+msgid ""
+"Some commands are available to process the raster levels in order to "
+"adjust the brightness and contrast or the levels, to fade the colors "
+"toward a defined set of Red, Green, Blue and Alpha values, to adjust the "
+"levels of the images or to binarize them. The Adjust Thickness command is"
+" available to modify the thickness of the lines on Toonz Vector Levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:264
+msgid ""
+"A preview area is available to check the result of the applied "
+"processing: you can navigate its content and set its size."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:266
+msgid ""
+"The processed images are stored in the cache and will be saved on disk "
+"using the save level or the save scene command."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:268
+msgid "**To resize the preview area:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:272
+msgid "Click and drag the horizontal separator."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:274
+msgid ""
+"Click and drag the separator toward the window border to hide the preview"
+" area."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:276
+msgid ""
+"Click and drag the separator collapsed to the window border toward the "
+"window center to display again the preview area."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:278
+msgid "**To navigate the preview area:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:282
+msgid ""
+"Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) "
+"to zoom in and zoom out."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:284
+msgid "Middle-click and drag to scroll in any direction."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:286
+msgid ""
+"Use the reset view shortcut (by default the 0 key) to display preview at "
+"its actual size."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:291
+msgid "Brightness and Contrast"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:292
+msgid ""
+"In case it is needed to adjust drawings in order to increase the darkness"
+" and the opacity of the drawing, it is possible to process them by "
+"calibrating the brightness and contrast.This is available only for raster"
+" levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:294
+msgid "**To process drawings brightness and contrast:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:296
+#: ../../source/editing_animation_levels.rst:312
+#: ../../source/editing_animation_levels.rst:390
+msgid "Select the images or the level frames to process in the ."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:298
+msgid "Choose Level > Brightness and Contrast."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:300
+msgid "In the dialog that opens set the brightness and contrast variation."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:302
+#: ../../source/editing_animation_levels.rst:318
+#: ../../source/editing_animation_levels.rst:334
+#: ../../source/editing_animation_levels.rst:374
+#: ../../source/editing_animation_levels.rst:398
+msgid "Click the Apply button."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:307
+msgid "Add Antialias"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:308
+msgid ""
+"Allows to add antialias or to make it smoother or harder on raster and "
+"Toonz raster images."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:310
+msgid "**To use the Add Antialias command:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:314
+msgid "Choose Level > Add Antialias..."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:316
+msgid "In the dialog that opens set the threshold and the smoothness values."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:323
+msgid "Adjust Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:324
+msgid ""
+"Adjusts the highlights and shadows of the Source content by remapping "
+"pixels intensity according to the Input and Output levels values for the "
+"RGB, Red, Green, Blue and Alpha channels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:326
+msgid "**To adjust images levels:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:328
+#: ../../source/editing_animation_levels.rst:344
+msgid "Select the images or the level frames to adjust in the ."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:330
+msgid "Choose Level > Adjust Levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:332
+msgid "Adjust the image levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:339
+msgid "Adjust Thickness"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:340
+msgid ""
+"The Adjust Thickness command allows to modify the thickness of all the "
+"lines of the layer or of those selected. If no line is selected the "
+"command acts on the whole level, otherwise it works on selected lines."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:342
+msgid "**To adjust the thickness of the lines:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:346
+msgid "Choose Level > Adjust Thickness."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:348
+msgid ""
+"Choose a mode. The modes are: Scale Thickness that scale lines up or down"
+" using a percentage value, Add Thickness that add an amount of thickness "
+"to the lines using the current unit, Costant Thickness that apply a "
+"thickness value, ignoring its variations, using the current unit."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:350
+msgid "Sets a starting and an ending value."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:352
+msgid "Press the Apply button."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:357
+msgid "Color Fade"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:358
+msgid ""
+"In case it is needed to adjust the drawing colors it is possible to fade "
+"the drawings toward a color defined by Red, Green, Blue and Alpha values."
+" The Intensity, expressed as a percentage, ranges from 0 to 100.The "
+"original color will fade to the color you set according with the "
+"Intensity parameter. This is available only for raster levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:360
+msgid "**To fade drawing colors:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:362
+msgid "Select the images or the level frames to fade in the ."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:364
+msgid "Choose Level > Color Fade."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:366
+msgid ""
+"In the dialog that opens set the color you want to fade the selection to "
+"by doing one of the following:"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:368
+msgid "Set the Red, Green and Blue values."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:370
+msgid ""
+"Click the color thumbnail and use the Style Editor to edit it (see  "
+":ref:`Editing Styles <editing_styles>`  )."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:372
+msgid "Move the Intensity slider to set the value."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:379
+msgid "Binarize"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:380
+msgid ""
+"Allows you to process colored raster lines images recognizing basic "
+"colors (red, green, blue, cyan, magenta and yellow) plus black. The "
+"process produce an uniform background color, eliminating shadows and "
+"dirty pixels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:382
+msgid ""
+"The colored lines are identified and all the pixels belonging to each "
+"line are changed to the maximum value of the identified color. The anti-"
+"aliasing is removed."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:384
+msgid ""
+"The use o f this command is useful to pre-process scanned images "
+"simplifying the Cleanup process."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:386
+msgid ""
+"The preview is available to check the result. The alpha toggle allows to "
+"produce images with a transparent background."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:388
+msgid "**To binarize images:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:392
+msgid "Choose Level > Binarize."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:394
+msgid "Activate the Preview toggle to check the result."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:396
+msgid "Activate the Alpha toggle if you need transparent background."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:403
+msgid "Saving Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:404
+msgid ""
+"All the editing performed in the level strip is not saved until you save "
+"the level. You can also automatically save all of the editing done on any"
+" level of the  by saving the scene (see  :ref:`Saving and Loading Scenes "
+"<saving_and_loading_scenes>`  )."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:406
+msgid ""
+"When saving an animation level it is possible to automatically create a "
+"backup file of the previous version by setting the Backup Animation "
+"Levels when Saving option in the Preferences > General dialog. The backup"
+" version is created in the same location where the level is saved, and "
+"has an _backup suffix."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:408
+msgid ""
+"An asterisk after the level name in the level strip title bar denotes "
+"that there are unsaved changes for the current level."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:410
+msgid "**To save the current level:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:414
+msgid "Choose File > Save Level."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:416
+msgid ""
+"Right-click in the scene cast and choose Save Level from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:418
+msgid ""
+"**To save the current level with a different name in a different "
+"location:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:420
+msgid "Choose File > Save Level As."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:422
+msgid ""
+"In the browser that opens select for the level you want to save a "
+"location and name, and click the Save button."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:424
+msgid ""
+"The Save Level As command creates a copy of the level with a different "
+"file name and location, but does not change the name and location of the "
+"level used in the scene."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:429
+msgid "Exporting Levels"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:430
+msgid ""
+"Animation levels created with OpenToonz can be exported in a variety of "
+"image file formats in order to be used in third-party software. The "
+"levels are exported as a sequence of files named with a progressive four-"
+"digits number written between the file name and the file extension, e.g. "
+"``animation.0001.tif`` , ``animation.0002.tif`` , etc.or a single file "
+"for the .TLV format. File formats available are BMP, JPG, PNG, TGA ,TIF "
+"and TLV (the .TLV format is available only to export vector levels "
+"(.PLI); the format options can be set for each format in the Output "
+"Settings dialog (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:432
+msgid ""
+"When exporting vector levels, the size and resolution of the exported "
+"sequence can be defined in the Export Level dialog. The default size and "
+"resolution are those defined in the camera settings, and the preview of "
+"the resulting image is visible in the preview area of the Export Options "
+"page to understand how the exported images will be cropped (see  "
+":ref:`Defining Camera Settings <defining_camera_settings>`  ). The size "
+"of the exported image can be changed entering a scale value in the Scale "
+"field."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:434
+msgid ""
+"Any trucking, resizing and animation of the camera is not considered when"
+" exporting vector levels."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:436
+msgid ""
+"The Retas Compliant option name the exported sequence with a a "
+"progressive four-digits number suffix before the file extension, e.g. "
+"``animation0001.tga`` , ``animation0002.tga`` , etc and sets the "
+"exporting format to TGA."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:438
+msgid "Background Color allows to set the RGBA values of the background color."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:440
+msgid ""
+"The No Antialias option allow to remove the antialias from the exported "
+"sequence."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:442
+msgid "**To export the current level:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:444
+msgid "Choose File > Export Level."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:446
+msgid ""
+"In the File Browser page select the level you want to save, a location "
+"and a name."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:450
+msgid "Choose the file format you want the exported level to have."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:452
+msgid ""
+"Activate the Retas Compliant option to export the level in the same "
+"format and with the same options that the Retas software uses when "
+"exporting painted drawings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:454
+msgid "In the Export Options, sets the RGBA values for the background color."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:456
+msgid ""
+"Activate the No Antialias option to remove the anitialias from the "
+"exported levels sequence images."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:458
+msgid "If you are exporting a Toonz Vector Level:"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:460
+msgid "Set the Output Size in the Vectors Export Box fields"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:462
+msgid "Set a Start and End percentage value for the line thickness"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:464
+msgid "Click the Export button."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:466
+msgid ""
+"The Export Level command creates a new version of the level with a "
+"different file name, location and format, but does not change the name, "
+"location and format of the level used in the scene."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:468
+msgid "**To set the file format options:**"
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:470
+msgid "Choose File > Output Settings."
+msgstr ""
+
+#: ../../source/editing_animation_levels.rst:472
+msgid "Set the options for the format you want to use for exporting levels."
+msgstr ""
+
