@@ -43,7 +43,7 @@ Predefined Keyboard Shortcuts
 The following are **some** of the predefined shortcuts available in OpenToonz. 
 
 
-.. note:: In Mac systems, the modifier key shown in the following tables as **Ctrl**, must be substituted by **Cmd** ().
+.. note:: In Mac systems, the modifier key shown in the following tables as **Ctrl**, must be substituted by **Cmd** (⌘).
 
 
 ==============================   =========  =====  =========  =====  =====
