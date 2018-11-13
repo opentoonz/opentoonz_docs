@@ -96,7 +96,7 @@ To define the FARMROOT folder you can take as model the ``toonzfarm``  folder st
 
 To specify the path to the FARMROOT on the computers, both controller and servers, belonging to the farm, you have to edit the ``configfarmroot.txt``  file by typing in it the full path to the FARMROOT folder.
 
-To retrieve this file open the ``Applications\OpenToonz 1.x`` folder, right-click the OpenToonz icon and choose Show Package Contents from the menu that opens; in the folder that opens browse to the ``Contents\Resources``  folder and retrieve the ``configfarmroot.txt``  file.
+To retrieve this file open the ``Applications/OpenToonz 1.x`` folder, right-click the OpenToonz icon and choose Show Package Contents from the menu that opens; in the folder that opens browse to the ``Contents/Resources``  folder and retrieve the ``configfarmroot.txt``  file.
 
 .. note:: As the Toonz farm requires exchanges of data between computers in the network by using TCP/IP protocol, any firewall system that may block access on computer ports has to be disabled.
 
