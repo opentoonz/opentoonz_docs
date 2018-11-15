@@ -217,7 +217,7 @@ Each object has always a free port in order to accept a link to a different cent
 
     - To link a column to a pegbar or another column, choose the object and the center in the column header of the xsheet.
 
-    - To link a column to another column, select the Edit tool ( |Toonz71_278| ) with the Pick option to Column, and in the work area shift-click the column contents to which you want to link the current column.
+    - To link a column to another column, select the Edit tool (|animate|) with the Pick option to Column, and in the work area shift-click the column contents to which you want to link the current column.
 
 
 
@@ -227,7 +227,7 @@ Each object has always a free port in order to accept a link to a different cent
 
     - Select it in the stage schematic. 
 
-    - Use the Edit tool ( |Toonz71_279| ) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
+    - Use the Edit tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
 
 
 
@@ -255,7 +255,7 @@ Each object has always a free port in order to accept a link to a different cent
 
 Using Hooks
 '''''''''''
-Hooks are reference points that can be defined for any animation level directly in the work area by using the Hook tool ( |Toonz71_280| ).
+Hooks are reference points that can be defined for any animation level directly in the work area by using the Hook tool (|hook|).
 
 
 
@@ -286,7 +286,7 @@ Hook information is saved along with the level as a file in XML format named as 
 
     1. Select a frame from the level you want to set hooks for.
 
-    2. Choose the Hook tool ( |Toonz71_282| ).
+    2. Choose the Hook tool (|hook|).
 
     3. Do one of the following:
 
@@ -354,11 +354,11 @@ Hook information is saved along with the level as a file in XML format named as 
 
 Tracking Points
 '''''''''''''''
-It is possible to automatically track specific regions in a sequence of images by using the Tracker tool ( |Toonz71_284| ). The results of the tool are a series of hooks that can be used to link an object to another (see above).
+It is possible to automatically track specific regions in a sequence of images by using the Tracker tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above).
 
 
 
-When selected the Tracker tool ( |Toonz71_285| ) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool defines both the pattern that the tracking system will try to recognize in the following images, and the size of the area where it will look for it (approximately twice the region).
+When selected the Tracker tool (|tracker|) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool defines both the pattern that the tracking system will try to recognize in the following images, and the size of the area where it will look for it (approximately twice the region).
 
 
 
@@ -374,7 +374,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
 .. tip:: **To define a region to be tracked:**
 
-    1. Choose the Tracker tool () and click and drag in the image.
+    1. Choose the Tracker tool (|tracker|) and click and drag in the image.
 
     2. Use the handles along the defined region bounding box to resize it.
 
@@ -382,13 +382,13 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
 .. tip:: **To define a region connected to another one:**
 
-    1. Choose the Tracker tool () and select the region to which you want to connect another region.
+    1. Choose the Tracker tool (|tracker|) and select the region to which you want to connect another region.
 
     2. Click and drag elsewhere to define a connected region: the center of the region will be labelled with the same letter of the first one.
 
 .. tip:: **To delete a defined region:**
 
-    1. Choose the Tracker tool () and select the region you want to delete.
+    1. Choose the Tracker tool (|tracker|) and select the region you want to delete.
 
     2. Choose Edit > Delete.
 
@@ -396,7 +396,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
     1. Select the first image of the range you want to track.
 
-    2. Choose the Tracker tool ( |Toonz71_289| ) and define the regions to be tracked.
+    2. Choose the Tracker tool (|tracker|) and define the regions to be tracked.
 
     3. Select the frame range in the xsheet or in the level strip.
 
@@ -410,7 +410,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
 Animating Objects
 -----------------
-You can edit, move, rotate, scale and shear columns, pegbars, the table and cameras by using the Edit tool ( |Toonz71_290| ). Objects to be animated can be selected in the stage schematic, in the work area and in the xsheet.
+You can edit, move, rotate, scale and shear columns, pegbars, the table and cameras by using the Edit tool (|animate|). Objects to be animated can be selected in the stage schematic, in the work area and in the xsheet.
 
 
 
@@ -474,9 +474,9 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - If the object is a column, select it in the xsheet.
 
-    - Use the Edit tool ( |Toonz71_294| ) with the Pick option set to Column to click a drawing in the work area to select the related column.
+    - Use the Edit tool (|animate|) with the Pick option set to Column to click a drawing in the work area to select the related column.
 
-    - Use the Edit tool ( |Toonz71_295| ) with the Pick option set to Pegbar to click a drawing in the work area to select the pegbar that the column containing the drawing is linked to.
+    - Use the Edit tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area to select the pegbar that the column containing the drawing is linked to.
 
     - Right-click in the work area a drawing to select an object from the list of the objects hierarchically linked to the column containing the drawing, from the first one up to the table and current camera (see  :ref:`Linking Objects <linking_objects>`  ). 
 
@@ -484,7 +484,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     1. Select the object you want to edit.
 
-    2. Choose the Edit tool ( |Toonz71_296| ). 
+    2. Choose the Edit tool (|animate|). 
 
     3. Set the frame where you want to define the key by doing one of the following:
 
@@ -598,7 +598,7 @@ The SO default value for all the columns is 0, meaning that the xsheet column or
 
     1. Select the column to which you want to edit the SO value.
 
-    2. Choose the Edit tool ( |Toonz71_305| ). 
+    2. Choose the Edit tool (|animate|). 
 
     3. Set the frame where you want to define the key.
 
@@ -622,7 +622,7 @@ The key positions of the object on the motion path can be defined by dragging th
 
 It is also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
 
-.. note:: If you want to change the center of the object, you can move it with the Edit tool ( |Toonz71_307| ) and then use the Reset Center command in the stage.
+.. note:: If you want to change the center of the object, you can move it with the Edit tool (|animate|) and then use the Reset Center command in the stage.
 
 
 
@@ -674,7 +674,7 @@ It is also possible to link the key positions of the objects to the positions of
 
 .. tip:: **To change the center of the object:**
 
-    1. Choose the Edit tool ().
+    1. Choose the Edit tool (|animate|).
 
     2. Move the center of the object to the new position.
 
@@ -694,7 +694,7 @@ It is also possible to link the key positions of the objects to the positions of
 
 .. tip:: **To use a drawing vector as a motion path:**
 
-    1. Select the vector you want to use as a motion path with the Selection tool ().
+    1. Select the vector you want to use as a motion path with the Selection tool (|selection|).
 
     2. Copy/cut it.
 
@@ -706,7 +706,7 @@ It is also possible to link the key positions of the objects to the positions of
 
     1. Select the motion path in the stage.
 
-    2. Select the motion path with the Selection tool ( |Toonz71_314| ) in the work area.
+    2. Select the motion path with the Selection tool (|selection|) in the work area.
 
     3. Copy/cut it.
 
@@ -745,9 +745,9 @@ All animations and interpolations set for the column can be visible and edited w
 
     2. Do one of the following:
 
-    - Use the Edit tool ( |Toonz71_316| ) to modify position and size.
+    - Use the Edit tool (|animate|) to modify position and size.
 
-    - Enter values you want to modify in the Edit tool ( |Toonz71_317| ) options bar. 
+    - Enter values you want to modify in the Edit tool (|animate|) options bar. 
 
 .. tip:: **To select keys:**
 
@@ -883,7 +883,7 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     2. Select the object you want to move.
 
-    3. Select the Edit tool ( |Toonz71_321| ).
+    3. Select the Edit tool (|animate|).
 
     4. Do one of the following:
 
@@ -897,13 +897,13 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
 .. tip:: **To move the work area displayed in 3D:**
 
-    Select the Hand tool( |Toonz71_322| ) and drag in the viewer.
+    Select the Hand tool(|hand|) and drag in the viewer.
 
 
 
 .. tip:: **To rotate the work area displayed in 3D:**
 
-    Select the Rotate tool( |Toonz71_323| ) and drag in the viewer.
+    Select the Rotate tool(|rotate|) and drag in the viewer.
 
 
 
@@ -936,20 +936,9 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |Toonz71_275| image:: /_static/Toonz71/Toonz71_275.gif
 .. |Toonz71_276| image:: /_static/Toonz71/Toonz71_276.gif
 .. |Toonz71_277| image:: /_static/Toonz71/Toonz71_277.gif
-.. |Toonz71_278| image:: /_static/Toonz71/Toonz71_278.gif
-.. |Toonz71_279| image:: /_static/Toonz71/Toonz71_279.gif
-.. |Toonz71_280| image:: /_static/Toonz71/Toonz71_280.gif
-.. |Toonz71_282| image:: /_static/Toonz71/Toonz71_282.gif
-.. |Toonz71_284| image:: /_static/Toonz71/Toonz71_284.gif
-.. |Toonz71_285| image:: /_static/Toonz71/Toonz71_285.gif
-.. |Toonz71_289| image:: /_static/Toonz71/Toonz71_289.gif
-.. |Toonz71_290| image:: /_static/Toonz71/Toonz71_290.gif
 .. |Toonz71_291| image:: /_static/Toonz71/Toonz71_291.gif
 .. |Toonz71_292| image:: /_static/Toonz71/Toonz71_292.gif
 .. |Toonz71_293| image:: /_static/Toonz71/Toonz71_293.gif
-.. |Toonz71_294| image:: /_static/Toonz71/Toonz71_294.gif
-.. |Toonz71_295| image:: /_static/Toonz71/Toonz71_295.gif
-.. |Toonz71_296| image:: /_static/Toonz71/Toonz71_296.gif
 .. |Toonz71_297| image:: /_static/Toonz71/Toonz71_297.gif
 .. |Toonz71_298| image:: /_static/Toonz71/Toonz71_298.gif
 .. |Toonz71_299| image:: /_static/Toonz71/Toonz71_299.gif
@@ -958,23 +947,21 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |Toonz71_302| image:: /_static/Toonz71/Toonz71_302.gif
 .. |Toonz71_303| image:: /_static/Toonz71/Toonz71_303.gif
 .. |Toonz71_304| image:: /_static/Toonz71/Toonz71_304.gif
-.. |Toonz71_305| image:: /_static/Toonz71/Toonz71_305.gif
 .. |Toonz71_306| image:: /_static/Toonz71/Toonz71_306.gif
-.. |Toonz71_307| image:: /_static/Toonz71/Toonz71_307.gif
 .. |Toonz71_308| image:: /_static/Toonz71/Toonz71_308.gif
 .. |Toonz71_309| image:: /_static/Toonz71/Toonz71_309.gif
 .. |Toonz71_310| image:: /_static/Toonz71/Toonz71_310.gif
 .. |Toonz71_311| image:: /_static/Toonz71/Toonz71_311.gif
-.. |Toonz71_314| image:: /_static/Toonz71/Toonz71_314.gif
-.. |Toonz71_316| image:: /_static/Toonz71/Toonz71_316.gif
-.. |Toonz71_317| image:: /_static/Toonz71/Toonz71_317.gif
 .. |Toonz71_318| image:: /_static/Toonz71/Toonz71_318.gif
 .. |Toonz71_319| image:: /_static/Toonz71/Toonz71_319.gif
 .. |Toonz71_320| image:: /_static/Toonz71/Toonz71_320.gif
-.. |Toonz71_321| image:: /_static/Toonz71/Toonz71_321.gif
-.. |Toonz71_322| image:: /_static/Toonz71/Toonz71_322.gif
-.. |Toonz71_323| image:: /_static/Toonz71/Toonz71_323.gif
 .. |Toonz71_324| image:: /_static/Toonz71/Toonz71_324.gif
 .. |Toonz71_325| image:: /_static/Toonz71/Toonz71_325.gif
 .. |Toonz71_326| image:: /_static/Toonz71/Toonz71_326.gif
 .. |Toonz71_327| image:: /_static/Toonz71/Toonz71_327.gif
+.. |animate| image:: /_static/movements/animate.png
+.. |hand| image:: /_static/movements/hand.png
+.. |hook| image:: /_static/movements/hook.png
+.. |rotate| image:: /_static/movements/rotate.png
+.. |tracker| image:: /_static/movements/tracker.png
+.. |selection| image:: /_static/movements/selection.png

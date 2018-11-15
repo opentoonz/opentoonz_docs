@@ -132,7 +132,7 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
 Defining Key Values
 -------------------
-Key values, including those defined for object transformations done by using the Animate tool ( |Toonz71_521| ) and those defined for FX parameters in the FX Settings window, can be controlled and edited both using spreadsheet numerical columns and graph editor curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
+Key values, including those defined for object transformations done by using the Animate tool (|animate|) and those defined for FX parameters in the FX Settings window, can be controlled and edited both using spreadsheet numerical columns and graph editor curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
 
 
 In spreadsheet numerical columns they are displayed in specific cells; in graph editor curves, key values are represented as control points along the curve. In both cases they can be added, edited, moved and deleted.
@@ -825,7 +825,6 @@ With respect to interpolation, if all the visible curves have a key at the same 
 .. |function_editor_iConst| image:: /_static/function_editor/function_editor_iConst.png
 .. |function_editor_iSimilar| image:: /_static/function_editor/function_editor_iSimilar.png
 .. |Toonz71_520| image:: /_static/Toonz71/Toonz71_520.gif
-.. |Toonz71_521| image:: /_static/Toonz71/Toonz71_521.gif
 .. |Toonz71_522| image:: /_static/Toonz71/Toonz71_522.gif
 .. |Toonz71_524| image:: /_static/Toonz71/Toonz71_524.gif
 .. |Toonz71_525| image:: /_static/Toonz71/Toonz71_525.gif
@@ -834,3 +833,4 @@ With respect to interpolation, if all the visible curves have a key at the same 
 .. |Toonz71_528| image:: /_static/Toonz71/Toonz71_528.gif
 .. |Toonz71_529| image:: /_static/Toonz71/Toonz71_529.gif
 .. |Toonz71_530| image:: /_static/Toonz71/Toonz71_530.gif
+.. |animate| image:: /_static/function_editor/animate.png

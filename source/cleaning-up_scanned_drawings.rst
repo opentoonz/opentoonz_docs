@@ -218,7 +218,7 @@ It is possible to add colors to the list, or removed them if they are not needed
 
     - Use the style editor (see  :ref:`Editing Styles <editing_styles>`  ).
 
-    - Use the RGB Picker tool ( |Toonz71_039| ) to pick the value of the line color from the drawings visible in the work area (see  :ref:`Plain Colors <plain_colors>`  ).
+    - Use the RGB Picker tool (|RGB_picker|) to pick the value of the line color from the drawings visible in the work area (see  :ref:`Plain Colors <plain_colors>`  ).
 
 .. tip:: **To define colors to be assigned to lines after cleanup processing:**
 
@@ -694,7 +694,6 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 .. |Toonz71_037| image:: /_static/Toonz71/Toonz71_037.gif
 .. |Toonz71_038| image:: /_static/Toonz71/Toonz71_038.gif
-.. |Toonz71_039| image:: /_static/Toonz71/Toonz71_039.gif
 .. |Toonz71_040| image:: /_static/Toonz71/Toonz71_040.gif
 .. |Toonz71_041| image:: /_static/Toonz71/Toonz71_041.gif
 .. |Toonz71_042| image:: /_static/Toonz71/Toonz71_042.gif
@@ -714,3 +713,4 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |Toonz71_058| image:: /_static/Toonz71/Toonz71_058.gif
 .. |Toonz71_059| image:: /_static/Toonz71/Toonz71_059.gif
 .. |Toonz71_060| image:: /_static/Toonz71/Toonz71_060.gif
+.. |RGB_picker| image:: /_static/cleanup/RGB_picker.png

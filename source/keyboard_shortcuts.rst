@@ -49,24 +49,24 @@ The following are **some** of the predefined shortcuts available in OpenToonz.
 ==============================   =========  =====  =========  =====  =====
 **Tools**
 ==============================   =========  =====  =========  =====  =====
-Animate                          **A**
-Selection                        **S**
-Brush                            **B**
-Geometric                        **G**
-Type                             **Y**
-Fill                             **F**
-Eraser                           **E**
-Tape                             **T**
-Style Picker                     **K**
-RGB Picker                       **R**
-Control Point Editor             **C**
-Pinch                            **M**
-Skeleton                         **V**
-Hook                             **O**
-Plastic                          **X**
-Zoom                             **Shift**  **+**  **Space**
-Rotate                           **Ctrl**   **+**  **Space**
-Hand                             **Space**
+Animate (|animate|)              **A**
+Selection (|selection|)          **S**
+Brush (|brush|)                  **B**
+Geometric (|geometric|)          **G**
+Type (|type|)                    **Y**
+Fill (|fill|)                    **F**
+Eraser (|eraser|)                **E**
+Tape (|tape|)                    **T**
+Style Picker (|style_picker|)    **K**
+RGB Picker (|RGB_picker|)        **R**
+Control Point Editor (|cpe|)     **C**
+Pinch (|pinch|)                  **M**
+Skeleton (|skeleton|)            **V**
+Hook (|hook|)                    **O**
+Plastic (|plastic|)              **X**
+Zoom (|zoom|)                    **Shift**  **+**  **Space**
+Rotate (|rotate|)                **Ctrl**   **+**  **Space**
+Hand (|hand|)                    **Space**
 ==============================   =========  =====  =========  =====  =====
 
 .. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
@@ -182,6 +182,22 @@ Record Audio                     **Alt**    **+**  **A**
 
 
 .. |configure_shortcuts_window| image:: /_static/configure_shortcuts/configure_shortcuts_window.png
-
-
-
+.. |animate| image:: /_static/configure_shortcuts/animate.png
+.. |brush| image:: /_static/configure_shortcuts/brush.png
+.. |cpe| image:: /_static/configure_shortcuts/cpe.png
+.. |eraser| image:: /_static/configure_shortcuts/eraser.png
+.. |fill| image:: /_static/configure_shortcuts/fill.png
+.. |geometric| image:: /_static/configure_shortcuts/geometric.png
+.. |hand| image:: /_static/configure_shortcuts/hand.png
+.. |hook| image:: /_static/configure_shortcuts/hook.png
+.. |pinch| image:: /_static/configure_shortcuts/pinch.png
+.. |plastic| image:: /_static/configure_shortcuts/plastic.png
+.. |RGB_picker| image:: /_static/configure_shortcuts/RGB_picker.png
+.. |rotate| image:: /_static/configure_shortcuts/rotate.png
+.. |selection| image:: /_static/configure_shortcuts/selection.png
+.. |skeleton| image:: /_static/configure_shortcuts/skeleton.png
+.. |style_picker| image:: /_static/configure_shortcuts/style_picker.png
+.. |tape| image:: /_static/configure_shortcuts/tape.png
+.. |tracker| image:: /_static/configure_shortcuts/tracker.png
+.. |type| image:: /_static/configure_shortcuts/type.png
+.. |zoom| image:: /_static/configure_shortcuts/zoom.png

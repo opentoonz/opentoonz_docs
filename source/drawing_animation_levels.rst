@@ -7,7 +7,7 @@ In OpenToonz it is possible to draw Toonz vector levels (PLI format), Toonz rast
 .. _drawing_in_toonz:
 
 Drawing In OpenToonz
-----------------
+--------------------
 To draw an animation level, first you have to define its type, Toonz vector, Toonz raster or raster, and its settings like its name, the number of frames it is made of and the way its drawings are numbered.
 
 Toonz vector levels are defined by drawing vector strokes; vectors and areas defined by vectors can be painted by using the styles available in the level palette. Toonz vector levels have unlimited size and resolution, as they are vector-based. They are saved as PLI files.
@@ -140,7 +140,7 @@ At the bottom of the work area another customizable set of buttons is available.
 
 The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and in case the playback is activated, the actual frame rate is displayed on its left. 
 
-The other buttons are relevant only using the Edit tool ( |Toonz71_061| ) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
+The other buttons are relevant only using the Edit tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 
 
@@ -152,7 +152,7 @@ The other buttons are relevant only using the Edit tool ( |Toonz71_061| ) to ani
 
     Do one of the following:
 
-    - Use the Zoom tool ( |Toonz71_062| ): to zoom in, click and drag up; to zoom out, click and drag down. The point where you click is the center of the zooming action.
+    - Use the Zoom tool (|zoom|): to zoom in, click and drag up; to zoom out, click and drag down. The point where you click is the center of the zooming action.
 
 
 
@@ -160,9 +160,9 @@ The other buttons are relevant only using the Edit tool ( |Toonz71_061| ) to ani
 
     - Use the mouse wheel to zoom in and zoom out.
 
-    - Middle-click and drag or use the Hand tool ( |Toonz71_063| ) to scroll in any direction.
+    - Middle-click and drag or use the Hand tool (|hand|) to scroll in any direction.
 
-    - Use the Rotate tool ( |Toonz71_064| ) to rotate the work area: an horizon line is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area.
+    - Use the Rotate tool (|rotate|) to rotate the work area: an horizon line is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area.
 
     - Use the reset view shortcut (by default the 0 key) or right-click in the viewer and select Reset View from the menu that opens, to display the viewer at its actual size, centered on the absolute center with no rotation applied.
 
@@ -324,7 +324,7 @@ The set of buttons and information available in the bottom bar of the work area 
 
 Drawing Tools
 '''''''''''''
-You can draw by using the Brush ( |Toonz71_066| ) and Geometric ( |Toonz71_067| ) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
+You can draw by using the Brush (|brush|) and Geometric (|geometric|) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
 
 
 
@@ -337,11 +337,11 @@ You can draw by using the Brush ( |Toonz71_066| ) and Geometric ( |Toonz71_067| 
     2. Using the predefined keyboard shortcuts. U and I for respectively decreasing and increasing the Max value, or H and J for respectively decreasing and increasing the Min value.
 
 
-With the Brush tool ( |Toonz71_068| ), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
+With the Brush tool (|brush|), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
 
 
 
-With the Geometric tool ( |Toonz71_069| ), the thickness value is constantly applied to the whole shape you draw. 
+With the Geometric tool (|geometric|), the thickness value is constantly applied to the whole shape you draw. 
 
 
 
@@ -354,13 +354,13 @@ When creating vector drawings the thickness can also be set to 0 (zero): in this
 
 Drawing with the Brush Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Brush tool ( |Toonz71_070| ) allows you to draw freehand lines with the current style. 
+The Brush tool (|brush|) allows you to draw freehand lines with the current style. 
 
 
 
 When using a pressure sensitive tablet, and the Pressure Sensitivity option is activated, varying the pressure of the pen on the tablet will allow you to create variable-thickness lines that will make your drawings more expressive. 
 
-When using the Brush tool ( |Toonz71_071| ) on Toonz and standard raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the minimum brush thickness, and the outer one, the maximum.
+When using the Brush tool (|brush|) on Toonz and standard raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the minimum brush thickness, and the outer one, the maximum.
 
 
 
@@ -405,7 +405,7 @@ In the tool options bar you can set the following:
 
 Drawing with the Geometric Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Geometric tool ( |Toonz71_072| ) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs. 
+The Geometric tool (|geometric|) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs. 
 
 
 
@@ -482,7 +482,7 @@ While rectangles and ellipses are defined by a (bounding) box, circles and polyg
 
 Adding Text
 ~~~~~~~~~~~
-Text can be added by using the Type tool ( |Toonz71_073| ). In the tool options bar you can set the following:
+Text can be added by using the Type tool (|type|). In the tool options bar you can set the following:
 
 
 
@@ -492,7 +492,7 @@ Text can be added by using the Type tool ( |Toonz71_073| ). In the tool options 
 
     - The font Size, that can be chosen among a set of options. 
 
-.. note:: Written text can be resized by using the Selection tool ( |Toonz71_074| ) (see  :ref:`Editing Drawings <editing_drawings>`  ).
+.. note:: Written text can be resized by using the Selection tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
     - The Vertical Orientation option lets you place the text vertically, one letter under another, instead of horizontally.
 
@@ -502,7 +502,7 @@ The current palette style is applied to the text you type. The palette style can
 
 .. tip:: **To add text:**
 
-    1. Select the Type tool() and click in the work area where you want to start writing. 
+    1. Select the Type tool (|type|) and click in the work area where you want to start writing. 
 
     2. Choose options for the size, font and orientation. These options can be changed as long as you are in text editing mode.
 
@@ -516,7 +516,7 @@ The current palette style is applied to the text you type. The palette style can
 
 Using the Eraser
 ~~~~~~~~~~~~~~~~
-The Eraser tool ( |Toonz71_076| ) allows you to partially erase lines, both in vector and raster drawings. 
+The Eraser tool (|eraser|) allows you to partially erase lines, both in vector and raster drawings. 
 
 
 
@@ -542,7 +542,7 @@ In the tool options bar you can set the following:
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: The Eraser tool ( |Toonz71_077| ) can be automatically selected by using the eraser of the tablet pen.
+.. note:: The Eraser tool (|eraser|) can be automatically selected by using the eraser of the tablet pen.
 
 
 
@@ -557,7 +557,7 @@ Two main conversion modes are available: centerline and outline. The choice betw
 
 
 
-In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool ( |Toonz71_079| ) or with the Control Point Editor tool and the thickness with the Pump tool ( |Toonz71_080| ).
+In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool (|pinch|) or with the Control Point Editor tool and the thickness with the Pump tool (|pump|).
 
 
 
@@ -753,7 +753,7 @@ Drawings can be also selected directly in the work area: this allows you to work
 
 Using the Selection Tool
 ''''''''''''''''''''''''
-The Selection tool ( |Toonz71_090| ) allows you to edit, move, rotate, scale and distort a selection in a drawing. 
+The Selection tool (|selection|) allows you to edit, move, rotate, scale and distort a selection in a drawing. 
 
 
 
@@ -950,7 +950,7 @@ It is possible to create as many group as you want in any drawing; groups can be
 
 
 
-When drawing with the Geometric tool ( |Toonz71_097| ) closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the Auto Group option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
+When drawing with the Geometric tool (|geometric|) closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the Auto Group option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
 
 
 
@@ -962,17 +962,17 @@ When a group is released, if no other group is defined in the same drawing, all 
 
 It is possible to enter groups to isolate them visually from the rest of the drawing and better understand which vectors are inside and which outside the group. In this way it is also easier to work on the drawing, for instance to fill an area or to change the color of some vectors. 
 
-As the Selection tool ( |Toonz71_098| ) considers the group as a whole, if you want to select a vector belonging to a group, first you have to enter the group, and then select the vector.
+As the Selection tool (|selection|) considers the group as a whole, if you want to select a vector belonging to a group, first you have to enter the group, and then select the vector.
 
 
 
-.. note:: As groups define layers, when using the Fill tool ( |Toonz71_099| ), only areas defined by vectors within the same group can be filled.
+.. note:: As groups define layers, when using the Fill tool (|fill|), only areas defined by vectors within the same group can be filled.
 
 
 
 .. tip:: **To define a group:**
 
-    1. Use the Selection tool () to select the vectors you want to be in a group.
+    1. Use the Selection tool (|selection|) to select the vectors you want to be in a group.
 
     2. Do one of the following:
 
@@ -1012,7 +1012,7 @@ As the Selection tool ( |Toonz71_098| ) considers the group as a whole, if you w
 
 .. tip:: **To select a group:**
 
-    Choose the Selection tool ( |Toonz71_101| ) and do any of the following:
+    Choose the Selection tool (|selection|) and do any of the following:
 
 
 
@@ -1088,7 +1088,7 @@ All these transformations can be also achieved on already painted drawings, beca
 
 Editing Vector Control Points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To modify a vector by editing its control points you can use the Control Point Editor tool ( |Toonz71_103| ). 
+To modify a vector by editing its control points you can use the Control Point Editor tool (|cpe|). 
 
 
 
@@ -1172,7 +1172,7 @@ The option Auto Select Drawing is available to automatically select any vector o
 
 Changing the Bend of Vectors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To modify a bend of a vector in a more intuitive way you can use the Pinch tool ( |Toonz71_105| ). You can use it anywhere you want on the vector in order to modify the bend in any direction. 
+To modify a bend of a vector in a more intuitive way you can use the Pinch tool (|pinch|). You can use it anywhere you want on the vector in order to modify the bend in any direction. 
 
 
 
@@ -1226,31 +1226,31 @@ In both automatic and manual modes different types of editing can be performed w
 
 Using Other Modifier Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-To modify the thickness of a vector you can use the Pump tool ( |Toonz71_107| ). You can use it anywhere you want on the vector to increase or decrease the thickness locally. When the tool is selected, a segment of the closest vector is highlighted: the segment shows the length of the vector that will be affected by the tool. To modify this length you can change the Size value in the tool options bar.
+To modify the thickness of a vector you can use the Pump tool (|pump|). You can use it anywhere you want on the vector to increase or decrease the thickness locally. When the tool is selected, a segment of the closest vector is highlighted: the segment shows the length of the vector that will be affected by the tool. To modify this length you can change the Size value in the tool options bar.
 
 
 
-.. note:: It is possible to modify the thickness of a vector, a vector selection, or vectors in all of the level drawings, by using the Selection tool ( |Toonz71_108| ) and its related options (see :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
+.. note:: It is possible to modify the thickness of a vector, a vector selection, or vectors in all of the level drawings, by using the Selection tool (|selection|) and its related options (see :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
 
 
-To distort more than one vector at once, you can use the Magnet tool ( |Toonz71_109| ). The tool affects all vectors included in a circular area and allows you to distort them in the direction of your dragging. Highlighted segments will show the vectors that will be affected. To modify the action range of the tool, represented by a circle, you can change the tool size in the tool options bar.
+To distort more than one vector at once, you can use the Magnet tool (|magnet|). The tool affects all vectors included in a circular area and allows you to distort them in the direction of your dragging. Highlighted segments will show the vectors that will be affected. To modify the action range of the tool, represented by a circle, you can change the tool size in the tool options bar.
 
 
 
-To bend a part of a drawing, for example a character’s arm, you can use the Bender tool ( |Toonz71_110| ). The tool allows you to define a line and then bend all the vectors intersected by the segment. While bending you can see the affected vectors assuming their position after the transformation. The bending can be performed in both clockwise and counterclockwise direction; once you start dragging you cannot change the bend direction.
+To bend a part of a drawing, for example a character’s arm, you can use the Bender tool (|bender|). The tool allows you to define a line and then bend all the vectors intersected by the segment. While bending you can see the affected vectors assuming their position after the transformation. The bending can be performed in both clockwise and counterclockwise direction; once you start dragging you cannot change the bend direction.
 
 
 
 .. note:: If you move the cursor far from the bending center, you will be able to set with more precision the amount of bend you want to apply to the vectors.
 
-To smooth a vector, you can use the Iron tool ( |Toonz71_111| ). When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
+To smooth a vector, you can use the Iron tool (|iron|). When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
 
 
 
 .. tip:: **To modify the thickness of a vector:**
 
-    1. Select the Pump tool ().
+    1. Select the Pump tool (|pump|).
 
     2. Set the Size value in the tool options bar.
 
@@ -1261,7 +1261,7 @@ To smooth a vector, you can use the Iron tool ( |Toonz71_111| ). When used again
 
 .. tip:: **To distort several vectors at once:**
 
-    1. Select the Magnet tool ().
+    1. Select the Magnet tool (|magnet|).
 
     2. Click in the viewer: all the vectors included in the circle will be affected by the tool. 
 
@@ -1269,7 +1269,7 @@ To smooth a vector, you can use the Iron tool ( |Toonz71_111| ). When used again
 
 .. tip:: **To bend one or several vectors:**
 
-    1. Select the Bender tool ().
+    1. Select the Bender tool (|bender|).
 
     2. Click on one side of the vectors you want to bend to set the center of the bend.
 
@@ -1279,7 +1279,7 @@ To smooth a vector, you can use the Iron tool ( |Toonz71_111| ). When used again
 
 .. tip:: **To smooth a vector:**
 
-    1. Select the Iron tool ().
+    1. Select the Iron tool (|iron|).
 
     2. Click and drag along the vector you want to smooth. By dragging over and over you increasingly flatten the vector.
 
@@ -1288,23 +1288,23 @@ To smooth a vector, you can use the Iron tool ( |Toonz71_111| ). When used again
 
 Joining and Splitting
 ~~~~~~~~~~~~~~~~~~~~~
-To join the ends of two different vectors, you can use the Tape tool ( |Toonz71_117| ). This way it will be possible to handle them as a single vector, for instance for modifying their bend, or thickness, as a whole. 
+To join the ends of two different vectors, you can use the Tape tool (|tape|). This way it will be possible to handle them as a single vector, for instance for modifying their bend, or thickness, as a whole. 
 
 
 
 When the tool is used, the pointer snaps to the closest detected vector endpoint in order to make the operation easier.
 
-.. note:: The Tape tool ( |Toonz71_118| ) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
+.. note:: The Tape tool (|tape|) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
 
 
 
-To do the contrary, that is to say splitting a vector in two sections, you can use the Cutter tool ( |Toonz71_119| ). 
+To do the contrary, that is to say splitting a vector in two sections, you can use the Cutter tool (|cutter|). 
 
 
 
 .. tip:: **To join two open ends of one or two vectors:**
 
-    1. Select the Tape tool (), and activate the Join Vectors option; activate also the Smooth option if you want a joining with no corners.
+    1. Select the Tape tool (|tape|), and activate the Join Vectors option; activate also the Smooth option if you want a joining with no corners.
 
     2. Do one of the following: 
 
@@ -1316,7 +1316,7 @@ To do the contrary, that is to say splitting a vector in two sections, you can u
 
 .. tip:: **To split a vector:**
 
-    1. Select the Cutter tool (): the pointer snaps to the closest vector indicating, with a small highlighted segment, the point where you are going to split the vector.
+    1. Select the Cutter tool (|cutter|): the pointer snaps to the closest vector indicating, with a small highlighted segment, the point where you are going to split the vector.
 
     2. Click to split the vector in the highlighted point.
 
@@ -1330,7 +1330,7 @@ The best solution for this kind of issue is to overlap the final section of vect
 
 .. tip:: **To cleanup vector intersections:**
 
-    1. Use the Selection tool () to select the vectors whose intersections you want to cleanup.
+    1. Use the Selection tool (|selection|) to select the vectors whose intersections you want to cleanup.
 
     2. Do one of the following:
 
@@ -1622,43 +1622,29 @@ To better check the new drawing and the animation you can toggle the shift and t
 
     7. Create the inbetween drawing.
 
-.. |Toonz71_061| image:: /_static/Toonz71/Toonz71_061.gif
-.. |Toonz71_062| image:: /_static/Toonz71/Toonz71_062.gif
-.. |Toonz71_063| image:: /_static/Toonz71/Toonz71_063.gif
-.. |Toonz71_064| image:: /_static/Toonz71/Toonz71_064.gif
 .. |Toonz71_065| image:: /_static/Toonz71/Toonz71_065.gif
-.. |Toonz71_066| image:: /_static/Toonz71/Toonz71_066.gif
-.. |Toonz71_067| image:: /_static/Toonz71/Toonz71_067.gif
-.. |Toonz71_068| image:: /_static/Toonz71/Toonz71_068.gif
-.. |Toonz71_069| image:: /_static/Toonz71/Toonz71_069.gif
-.. |Toonz71_070| image:: /_static/Toonz71/Toonz71_070.gif
-.. |Toonz71_071| image:: /_static/Toonz71/Toonz71_071.gif
-.. |Toonz71_072| image:: /_static/Toonz71/Toonz71_072.gif
-.. |Toonz71_073| image:: /_static/Toonz71/Toonz71_073.gif
-.. |Toonz71_074| image:: /_static/Toonz71/Toonz71_074.gif
-.. |Toonz71_076| image:: /_static/Toonz71/Toonz71_076.gif
-.. |Toonz71_077| image:: /_static/Toonz71/Toonz71_077.gif
-.. |Toonz71_079| image:: /_static/Toonz71/Toonz71_079.gif
-.. |Toonz71_080| image:: /_static/Toonz71/Toonz71_080.gif
 .. |Toonz71_082| image:: /_static/Toonz71/Toonz71_082.gif
 .. |Toonz71_083| image:: /_static/Toonz71/Toonz71_083.gif
 .. |Toonz71_084| image:: /_static/Toonz71/Toonz71_084.gif
 .. |Toonz71_085| image:: /_static/Toonz71/Toonz71_085.gif
 .. |Toonz71_086| image:: /_static/Toonz71/Toonz71_086.gif
 .. |Toonz71_089| image:: /_static/Toonz71/Toonz71_089.gif
-.. |Toonz71_090| image:: /_static/Toonz71/Toonz71_090.gif
-.. |Toonz71_097| image:: /_static/Toonz71/Toonz71_097.gif
-.. |Toonz71_098| image:: /_static/Toonz71/Toonz71_098.gif
-.. |Toonz71_099| image:: /_static/Toonz71/Toonz71_099.gif
-.. |Toonz71_101| image:: /_static/Toonz71/Toonz71_101.gif
-.. |Toonz71_103| image:: /_static/Toonz71/Toonz71_103.gif
-.. |Toonz71_105| image:: /_static/Toonz71/Toonz71_105.gif
-.. |Toonz71_107| image:: /_static/Toonz71/Toonz71_107.gif
-.. |Toonz71_108| image:: /_static/Toonz71/Toonz71_108.gif
-.. |Toonz71_109| image:: /_static/Toonz71/Toonz71_109.gif
-.. |Toonz71_110| image:: /_static/Toonz71/Toonz71_110.gif
-.. |Toonz71_111| image:: /_static/Toonz71/Toonz71_111.gif
-.. |Toonz71_117| image:: /_static/Toonz71/Toonz71_117.gif
-.. |Toonz71_118| image:: /_static/Toonz71/Toonz71_118.gif
-.. |Toonz71_119| image:: /_static/Toonz71/Toonz71_119.gif
 .. |Toonz71_123| image:: /_static/Toonz71/Toonz71_123.gif
+.. |animate| image:: /_static/drawning_animations_levels/animate.png
+.. |bender| image:: /_static/drawning_animations_levels/bender.png
+.. |brush| image:: /_static/drawning_animations_levels/brush.png
+.. |cpe| image:: /_static/drawning_animations_levels/cpe.png
+.. |cutter| image:: /_static/drawning_animations_levels/cutter.png
+.. |eraser| image:: /_static/drawning_animations_levels/eraser.png
+.. |fill| image:: /_static/drawning_animations_levels/fill.png
+.. |geometric| image:: /_static/drawning_animations_levels/geometric.png
+.. |hand| image:: /_static/drawning_animations_levels/hand.png
+.. |iron| image:: /_static/drawning_animations_levels/iron.png
+.. |magnet| image:: /_static/drawning_animations_levels/magnet.png
+.. |pinch| image:: /_static/drawning_animations_levels/pinch.png
+.. |pump| image:: /_static/drawning_animations_levels/pump.png
+.. |rotate| image:: /_static/drawning_animations_levels/rotate.png
+.. |selection| image:: /_static/drawning_animations_levels/selection.png
+.. |tape| image:: /_static/drawning_animations_levels/tape.png
+.. |type| image:: /_static/drawning_animations_levels/type.png
+.. |zoom| image:: /_static/drawning_animations_levels/zoom.png

@@ -406,13 +406,13 @@ You can also set the color opacity with the Alpha slider: the lower the value, t
 
 To edit a color you can use either the sliders or the color wheel. To pick a color from the sliders or from the wheel, click it; to adjust values you can use the arrowhead buttons available at each slider ends. 
 
-Colors can also be picked from the viewer content by using the RGB Picker tool ( |Toonz71_146| ), whose Type option lets you choose the following: Normal, to pick values of a color; Rectangular, to pick the average values of the colors included in the box you define; Freehand, to pick the average values of the colors included in the area you outline by clicking and dragging; and Polyline, to pick the average values of the colors included in the area you outline by defining a series of lines. 
+Colors can also be picked from the viewer content by using the RGB Picker tool (|RGB_picker|), whose Type option lets you choose the following: Normal, to pick values of a color; Rectangular, to pick the average values of the colors included in the box you define; Freehand, to pick the average values of the colors included in the area you outline by clicking and dragging; and Polyline, to pick the average values of the colors included in the area you outline by defining a series of lines. 
 
 If the current style is a special one, the color you edit is the color used by the special style. If the special style uses more than one color, you can select the color to edit in the row of thumbnails available below the Auto and Apply buttons. (see  :ref:`Special Styles <special_styles>`  ).
 
 .. tip:: **To pick the color from the viewer content:**
 
-    1. Select the RGB Picker tool ().
+    1. Select the RGB Picker tool (|RGB_picker|).
 
     2. Do one of the following:
 
@@ -742,10 +742,10 @@ The Name Editor allows to systematize the naming of styles used in a production,
 .. |Toonz71_143| image:: /_static/Toonz71/Toonz71_143.gif
 .. |Toonz71_144| image:: /_static/Toonz71/Toonz71_144.gif
 .. |Toonz71_145| image:: /_static/Toonz71/Toonz71_145.gif
-.. |Toonz71_146| image:: /_static/Toonz71/Toonz71_146.gif
 .. |Toonz71_148| image:: /_static/Toonz71/Toonz71_148.gif
 .. |Toonz71_149| image:: /_static/Toonz71/Toonz71_149.gif
 .. |Toonz71_150| image:: /_static/Toonz71/Toonz71_150.gif
 .. |Toonz71_151| image:: /_static/Toonz71/Toonz71_151.gif
 .. |Toonz71_152| image:: /_static/Toonz71/Toonz71_152.gif
 .. |Toonz71_154| image:: /_static/Toonz71/Toonz71_154.gif
+.. |RGB_picker| image:: /_static/palettes_styles/RGB_picker.png
