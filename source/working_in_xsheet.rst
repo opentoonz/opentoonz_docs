@@ -19,11 +19,7 @@ The viewer, or work area, has different modes of visualizing the scene contents.
 
 
 
-At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Work Area <using_the_work_area>`  ), some others are relevant only using the Edit tool ( |Toonz71_223| ) to animate objects and when previewing the animation in the viewer (see 
-
-:ref:`Animating Objects <animating_objects>`  and 
-
-:ref:`Previewing the Animation <previewing_the_animation>`  ).
+At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Work Area <using_the_work_area>`  ), some others are relevant only using the Edit tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 
 
@@ -1318,11 +1314,7 @@ Lip Synching
 ''''''''''''
 When you need to synchronize the movement of a character’s lips with the sound of the speech, you can take advantage of the possibility to examine the audio files loaded in the scene.
 
-Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the Skeleton tool ( |Toonz71_261| ) features (see 
-
-:ref:`Using the Level Strip <using_the_level_strip>`  and 
-
-:ref:`Animating Models <animating_models>`  ).
+Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the Skeleton tool (|skeleton|) features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
 
 
 
@@ -1350,7 +1342,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
     - Right-click in the work area on the mouth drawing you want to flip through, and choose the Select command related to the column containing the drawing you clicked.
 
-    2. Choose the Skeleton tool ( |Toonz71_262| ) and set the tool mode to Animate.
+    2. Choose the Skeleton tool (|skeleton|) and set the tool mode to Animate.
 
     3. In the work area click the label with the level name on the right of the current section pivot point and flip through following and previous frames by doing one of the following:
 
@@ -1711,7 +1703,6 @@ Elements defined in the CSS are the following:
 
     Open the ``xsheet.css``  file available in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
 
-.. |Toonz71_223| image:: /_static/Toonz71/Toonz71_223.gif
 .. |Toonz71_224| image:: /_static/Toonz71/Toonz71_224.gif
 .. |Toonz71_225| image:: /_static/Toonz71/Toonz71_225.gif
 .. |Toonz71_226| image:: /_static/Toonz71/Toonz71_226.gif
@@ -1742,7 +1733,7 @@ Elements defined in the CSS are the following:
 .. |Toonz71_258| image:: /_static/Toonz71/Toonz71_258.gif
 .. |Toonz71_259| image:: /_static/Toonz71/Toonz71_259.gif
 .. |Toonz71_260| image:: /_static/Toonz71/Toonz71_260.gif
-.. |Toonz71_261| image:: /_static/Toonz71/Toonz71_261.gif
-.. |Toonz71_262| image:: /_static/Toonz71/Toonz71_262.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
 .. |Toonz71_265| image:: /_static/Toonz71/Toonz71_265.gif
+.. |animate| image:: /_static/xsheet/animate.png
+.. |skeleton| image:: /_static/xsheet/skeleton.png

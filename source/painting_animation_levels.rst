@@ -14,21 +14,17 @@ All Toonz level drawings are made of outlines, determined by the lines of scanne
 
 Painting Tools
 --------------
-Painting operations can be performed by using the Fill tool ( |Toonz71_155| ) and the 
-
-Paint Brush tool (
-
- |Toonz71_156| ). 
+Painting operations can be performed by using the Fill tool (|fill|) and the Paint Brush tool (|paint_brush|). 
 
 
 
-In case you want to retrieve a style already used in the drawing, you can pick it with the Style Picker tool ( |Toonz71_157| ).
+In case you want to retrieve a style already used in the drawing, you can pick it with the Style Picker tool (|style_picker|).
 
 
 
 The filling operation can be performed by activating different options, that can be combined together to perform particular tasks, for example to fill several areas at the same time with the same style, or several frames, with a single operation.
 
-The Fill tool ( |Toonz71_158| ) allows you to paint a drawing area, or a drawing outline by clicking it. Options available are the following:
+The Fill tool (|fill|) allows you to paint a drawing area, or a drawing outline by clicking it. Options available are the following:
 
 
 
@@ -46,7 +42,7 @@ The Fill tool ( |Toonz71_158| ) allows you to paint a drawing area, or a drawing
 
     - Frame Range allows you to perform the filling on a range of frames by clicking in the first and then in the last frame of the range. You can also shift-click to define the filling position for intermediate frames.
 
-The Paint Brush tool ( |Toonz71_159| ) allows you to paint a drawing area, or an outline, as if you were using a brush. It is available for raster drawings only. Options are the following:
+The Paint Brush tool (|paint_brush|) allows you to paint a drawing area, or an outline, as if you were using a brush. It is available for raster drawings only. Options are the following:
 
     - Size sets the brush size.
 
@@ -68,7 +64,7 @@ Options available for the painting tools can help you to speed up the painting j
 
 .. tip:: **To fill an area:**
 
-    1. Select the Fill tool (), set the fill type to Normal and the mode to Areas, and select a style in the palette.
+    1. Select the Fill tool (|fill|), set the fill type to Normal and the mode to Areas, and select a style in the palette.
 
     2. Click in the area you want to fill. 
 
@@ -76,7 +72,7 @@ Options available for the painting tools can help you to speed up the painting j
 
 .. tip:: **To fill several frames with a single command:**
 
-    1. Select the Fill tool (), set the fill type to Normal and the mode to Areas, and activate the Frame Range option. 
+    1. Select the Fill tool (|fill|), set the fill type to Normal and the mode to Areas, and activate the Frame Range option. 
 
     2. Select the first frame of the range and click in the area you want to fill, for example the character’s face.
 
@@ -90,7 +86,7 @@ Options available for the painting tools can help you to speed up the painting j
 
 .. tip:: **To fill several areas at once with the same style:**
 
-    1. Select the Fill tool (), set the fill mode to Areas.
+    1. Select the Fill tool (|fill|), set the fill mode to Areas.
 
     2. Do one of the following:
 
@@ -102,7 +98,7 @@ Options available for the painting tools can help you to speed up the painting j
 
 .. tip:: **To fill all remaining areas in a level drawing with the same style:**
 
-    1. Select the Fill tool (), set the fill type to Rectangular and the mode to Areas, and activate the Selective option. 
+    1. Select the Fill tool (|fill|), set the fill type to Rectangular and the mode to Areas, and activate the Selective option. 
 
     2. Click and drag to define a box: all the outlined non-filled areas completely included in the box will be filled with the current style. This option combination may be useful if the drawing has a lot of areas to be painted with the same style, that can be painted at the end at once by using this command.
 
@@ -112,7 +108,7 @@ Options available for the painting tools can help you to speed up the painting j
 
     1. Activate the onion skin mode to display the painted drawing behind your current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
-    2. Select the Fill tool ( |Toonz71_164| ), set the fill mode to Areas and activate the Onion Skin option. 
+    2. Select the Fill tool (|fill|), set the fill mode to Areas and activate the Onion Skin option. 
 
     3. Click to pick the style to use from the drawing displayed in onion skin mode.
 
@@ -128,7 +124,7 @@ Options available for the painting tools can help you to speed up the painting j
 
     1. Activate the onion skin mode to display the painted drawing behind your current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
-    2. Select the Fill tool ( |Toonz71_165| ), set the fill type to Rectangular, the mode to Areas, and activate the Onion Skin option. 
+    2. Select the Fill tool (|fill|), set the fill type to Rectangular, the mode to Areas, and activate the Onion Skin option. 
 
     3. Click and drag to define a box: all the areas completely included in the box will be filled with the styles picked from the painted areas of the drawing displayed in onion skin mode.
 
@@ -138,7 +134,7 @@ Options available for the painting tools can help you to speed up the painting j
 
 .. tip:: **To retrieve a style from a drawing:**
 
-    1. Select the Style Picker tool ().
+    1. Select the Style Picker tool (|style_picker|).
 
     2. Click in the area whose style you want to pick. The picked style becomes the current one.
 
@@ -146,19 +142,11 @@ Options available for the painting tools can help you to speed up the painting j
 
 Closing Gaps in Drawing Outline
 '''''''''''''''''''''''''''''''
-If the area outline is not perfectly defined, you will not be able to fill it. The gap can be closed by adding a line with the Brush ( |Toonz71_167| ) or Geometric tool (
-
- |Toonz71_168| ) (see 
-
-:ref:`Drawing Tools <drawing_tools>`  ), or by using the 
-
-Tape tool (
-
- |Toonz71_169| ).
+If the area outline is not perfectly defined, you will not be able to fill it. The gap can be closed by adding a line with the Brush (|brush|) or Geometric tool (|geometric|) (see :ref:`Drawing Tools <drawing_tools>`  ), or by using the Tape tool (|tape|).
 
 
 
-For Toonz vector drawings the Tape tool ( |Toonz71_170| ) allows you to join vectors manually or automatically, both considering their endpoints and any point along the vectors themselves, according to the tool settings. Options available are the following:
+For Toonz vector drawings the Tape tool (|tape|) allows you to join vectors manually or automatically, both considering their endpoints and any point along the vectors themselves, according to the tool settings. Options available are the following:
 
 
 
@@ -176,7 +164,7 @@ For Toonz vector drawings the Tape tool ( |Toonz71_170| ) allows you to join vec
 
     - Smooth, when activated, creates a joined vector with no corners.
 
-For Toonz raster drawings the Tape tool ( |Toonz71_171| ) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
+For Toonz raster drawings the Tape tool (|tape|) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
 
     - Type has the options Normal, to close all the gaps detected in the drawing by clicking in it; Rectangular, to close all the gaps detected in the box you define; Freehand, to close on all the gaps detected in the area you outline by clicking and dragging; and Polyline, to close on all the gaps detected in the area you outline by defining a series of lines.
 
@@ -192,7 +180,7 @@ For Toonz raster drawings the Tape tool ( |Toonz71_171| ) automatically joins th
 
 .. tip:: **To close a gap in a vector drawing outline:**
 
-    1. Select the Tape tool (), set the type to Normal and set whether to join vectors, or to create a smooth joining.
+    1. Select the Tape tool (|tape|), set the type to Normal and set whether to join vectors, or to create a smooth joining.
 
     2. Do one of the following: 
 
@@ -204,19 +192,19 @@ For Toonz raster drawings the Tape tool ( |Toonz71_171| ) automatically joins th
 
 .. tip:: **To close all gaps in a vector drawing outline in a specific area:**
 
-    1. Select the Tape tool (), set the type to Rectangular.
+    1. Select the Tape tool (|tape|), set the type to Rectangular.
 
     2. Click and drag to define an area: all the gaps between endpoints, and between endpoints and lines, detected in the area according to the set distance will be closed.
 
 .. tip:: **To close all gaps in a raster drawing outline:**
 
-    1. Select the Tape tool ().
+    1. Select the Tape tool (|tape|).
 
     2. Click in the work area to close all the gaps detected according to the set distance and angle.
 
 .. tip:: **To close a specific gap in a raster drawing outline:**
 
-    1. Select the Tape tool () and activate the Rectangular option.
+    1. Select the Tape tool (|tape|) and activate the Rectangular option.
 
     2. Click and drag to define an area: all the gaps detected in the area according to the set distance and angle will be closed.
 
@@ -226,7 +214,7 @@ Checking Gaps in the Drawing Outline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To control the drawing outline and see if areas are well-defined in order to be filled with colors, it is possible to activate a series of checks:
 
-- The Gap Check highlights with magenta lines the gaps that can be automatically closed by using the Tape tool ( |Toonz71_176| ) with its current settings; if you change the Distance and Angle value of the Tape tool while the check is activated, you can check interactively the gaps that are detected. 
+- The Gap Check highlights with magenta lines the gaps that can be automatically closed by using the Tape tool (|tape|) with its current settings; if you change the Distance and Angle value of the Tape tool while the check is activated, you can check interactively the gaps that are detected. 
 
 
 
@@ -269,13 +257,11 @@ To control if all the drawings areas are properly painted, and to see if the fil
 
 Painting Outlines
 -----------------
-Drawing outline can be painted with the Fill tool ( |Toonz71_178| ). For Toonz raster drawings, the Fill tool (
-
- |Toonz71_179| ) affects the continuous outline sharing the same style; for Toonz vector drawings, only a single vector at a time. 
+Drawing outline can be painted with the Fill tool (|fill|). For Toonz raster drawings, the Fill tool (|fill|) affects the continuous outline sharing the same style; for Toonz vector drawings, only a single vector at a time. 
 
 
 
-For Toonz raster drawings, the outline can be also painted with the Paint Brush tool ( |Toonz71_180| ) set to Lines mode. In this case by setting the size of the tool, you can paint any section of the outline as if you were using a brush.
+For Toonz raster drawings, the outline can be also painted with the Paint Brush tool (|paint_brush|) set to Lines mode. In this case by setting the size of the tool, you can paint any section of the outline as if you were using a brush.
 
 
 
@@ -283,7 +269,7 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
 .. tip:: **To paint a raster outline:**
 
-    1. Select the Fill tool (), set the fill mode to Lines and select a style in the palette.
+    1. Select the Fill tool (|fill|), set the fill mode to Lines and select a style in the palette.
 
     2. Click the outline you want to paint. 
 
@@ -291,27 +277,27 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
     Do one of the following:
 
-    - Select the Fill tool ( |Toonz71_182| ), set the fill mode to Lines, select a style in the palette and click the vector you want to paint.
+    - Select the Fill tool (|fill|), set the fill mode to Lines, select a style in the palette and click the vector you want to paint.
 
 
 
-    - Select the vectors you want to paint with the Selection tool ( |Toonz71_183| ), then select a style in the palette (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
+    - Select the vectors you want to paint with the Selection tool (|selection|), then select a style in the palette (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
 .. tip:: **To paint a raster outline partially:**
 
     Do one of the following:
 
-    - Select the Fill tool ( |Toonz71_184| ), set the fill mode to Lines, activate the Segment option, and click the outline section you want to paint.
+    - Select the Fill tool (|fill|), set the fill mode to Lines, activate the Segment option, and click the outline section you want to paint.
 
 
 
-    - Select the Paint Brush tool ( |Toonz71_185| ), set the mode to Lines and use it on the outline section you want to paint.
+    - Select the Paint Brush tool (|paint_brush|), set the mode to Lines and use it on the outline section you want to paint.
 
-    - Use the Paint Brush tool ( |Toonz71_186| ) with the proper style to split a continuous outline into sections, then use the Fill tool ( |Toonz71_187| ) to paint the separated sections.
+    - Use the Paint Brush tool (|paint_brush|) with the proper style to split a continuous outline into sections, then use the Fill tool (|fill|) to paint the separated sections.
 
 .. tip:: **To paint several separated outlines, or vectors, at once:**
 
-    1. Select the Fill tool (), set the fill mode to Lines.
+    1. Select the Fill tool (|fill|), set the fill mode to Lines.
 
     2. Do one of the following:
 
@@ -325,7 +311,7 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
 .. tip:: **To paint outlines, or vectors, in several frames with a single command:**
 
-    1. Select the Fill tool (), set the fill mode to Lines and activate the Frame Range option.
+    1. Select the Fill tool (|fill|), set the fill mode to Lines and activate the Frame Range option.
 
     2. Select the first frame of the range and click the outline you want to paint.
 
@@ -335,13 +321,13 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
     - Select an intermediate frame of the range you want to apply the paint to, and shift-click in the same outline: the outline in all of the frames in the range will be automatically painted according to the first and second clicking positions. Select another intermediate frame and shift-click again: the outline in all of the frames in the new range will be automatically painted according to the second and third clicking positions. Do the same as many times as you like, then click in the same outline on the last frame of the range to complete the multi frame painting mode.
 
-.. note:: Since the Fill tool ( |Toonz71_190| ) with the Frame Range option is applied making a linear interpolation from the first to the second clicking point, some painting mistakes may occur. The more the outline you want to fill moves along the frame range, the more mistakes may be made.
+.. note:: Since the Fill tool (|fill|) with the Frame Range option is applied making a linear interpolation from the first to the second clicking point, some painting mistakes may occur. The more the outline you want to fill moves along the frame range, the more mistakes may be made.
 
 .. tip:: **To paint an outline using as reference a previously painted drawing:**
 
     1. Activate the onion skin mode to display the painted drawing behind your current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
-    2. Select the Fill tool ( |Toonz71_191| ), set the fill mode to Lines and activate the Onion Skin option. 
+    2. Select the Fill tool (|fill|), set the fill mode to Lines and activate the Onion Skin option. 
 
     3. Click to pick the style to use from the drawing displayed in onion skin mode.
 
@@ -353,26 +339,18 @@ For Toonz vector drawings, a vector can be also painted by selecting it first, t
 
 .. tip:: **To retrieve a style from a drawing:**
 
-    1. Select the Style Picker tool.
+    1. Select the Style Picker tool (|style_picker|).
 
     2. Click the outline whose style you want to pick. The picked style becomes the current one.
 
 
 Closing Gaps in Drawing Outline
 '''''''''''''''''''''''''''''''
-If the area outline is not perfectly defined, you will not be able to fill it. The gap can be closed by adding a line with the Brush ( |Toonz71_193| ) or Geometric tool (
-
- |Toonz71_194| ) (see 
-
-:ref:`Drawing Tools <drawing_tools>`  for details), or by using the 
-
-Tape tool (
-
- |Toonz71_195| ).
+If the area outline is not perfectly defined, you will not be able to fill it. The gap can be closed by adding a line with the Brush (|brush|) or Geometric tool (|geometric|) (see :ref:`Drawing Tools <drawing_tools>`  for details), or by using the Tape tool (|tape|).
 
 
 
-For Toonz vector drawings the Tape tool ( |Toonz71_196| ) allows you to join vectors manually or automatically, both considering their endpoints and any point along the vectors themselves, according to the tool settings. Options available are the following:
+For Toonz vector drawings the Tape tool (|tape|) allows you to join vectors manually or automatically, both considering their endpoints and any point along the vectors themselves, according to the tool settings. Options available are the following:
 
 
 
@@ -390,7 +368,7 @@ For Toonz vector drawings the Tape tool ( |Toonz71_196| ) allows you to join vec
 
     - Smooth, when activated, creates a joined vector with no corners.
 
-For Toonz raster drawings the Tape tool ( |Toonz71_197| ) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
+For Toonz raster drawings the Tape tool (|tape|) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
 
     - Type has the options Normal, to close all the gaps detected in the drawing by clicking in it; Rectangular, to close all the gaps detected in the box you define; Freehand, to close on all the gaps detected in the area you outline by clicking and dragging; and Polyline, to close on all the gaps detected in the area you outline by defining a series of lines.
 
@@ -406,7 +384,7 @@ For Toonz raster drawings the Tape tool ( |Toonz71_197| ) automatically joins th
 
 .. tip:: **To close a gap in a vector drawing outline:**
 
-    1. Select the Tape tool (), set the type to Normal and set whether to join vectors, or to create a smooth joining.
+    1. Select the Tape tool (|tape|), set the type to Normal and set whether to join vectors, or to create a smooth joining.
 
     2. Do one of the following: 
 
@@ -418,19 +396,19 @@ For Toonz raster drawings the Tape tool ( |Toonz71_197| ) automatically joins th
 
 .. tip:: **To close all gaps in a vector drawing outline in a specific area:**
 
-    1. Select the Tape tool (), set the type to Rectangular.
+    1. Select the Tape tool (|tape|), set the type to Rectangular.
 
     2. Click and drag to define an area: all the gaps between endpoints, and between endpoints and lines, detected in the area according to the set distance will be closed.
 
 .. tip:: **To close all gaps in a raster drawing outline:**
 
-    1. Select the Tape tool ().
+    1. Select the Tape tool (|tape|).
 
     2. Click in the work area to close all the gaps detected according to the set distance and angle.
 
 .. tip:: **To close a specific gap in a raster drawing outline:**
 
-    1. Select the Tape tool () and activate the Rectangular option.
+    1. Select the Tape tool (|tape|) and activate the Rectangular option.
 
     2. Click and drag to define an area: all the gaps detected in the area according to the set distance and angle will be closed.
 
@@ -438,7 +416,7 @@ Checking Gaps in the Drawing Outline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To control the drawing outline and see if areas are well-defined in order to be filled with colors, it is possible to activate a series of checks:
 
-- The Gap Check highlights with magenta lines the gaps that can be automatically closed by using the Tape tool ( |Toonz71_202| ) with its current settings; if you change the Distance and Angle value of the Tape tool while the check is activated, you can check interactively the gaps that are detected. 
+- The Gap Check highlights with magenta lines the gaps that can be automatically closed by using the Tape tool (|tape|) with its current settings; if you change the Distance and Angle value of the Tape tool while the check is activated, you can check interactively the gaps that are detected. 
 
 
 
@@ -594,7 +572,7 @@ A color model can be associated to palettes stored in the studio palette. In thi
 
 You can also use any drawing belonging to the animation level as a color model to be used on the fly, but in this case it will neither be associated to the level, nor to the palette saved in the studio palette.
 
-When the image is displayed in the color model viewer, you can use it not only as visual reference, but also for picking styles with no need to use the palette or the Style Picker tool ( |Toonz71_221| ). The color model can also be panned and zoomed in or out by using standard shortcuts.
+When the image is displayed in the color model viewer, you can use it not only as visual reference, but also for picking styles with no need to use the palette or the Style Picker tool (|style_picker|). The color model can also be panned and zoomed in or out by using standard shortcuts.
 
 
 
@@ -680,46 +658,11 @@ When the image is displayed in the color model viewer, you can use it not only a
 
     Right-click in the color model viewer and choose Remove Color Model from the menu that opens.
 
-.. |Toonz71_155| image:: /_static/Toonz71/Toonz71_155.gif
-.. |Toonz71_156| image:: /_static/Toonz71/Toonz71_156.gif
-.. |Toonz71_157| image:: /_static/Toonz71/Toonz71_157.gif
-.. |Toonz71_158| image:: /_static/Toonz71/Toonz71_158.gif
-.. |Toonz71_159| image:: /_static/Toonz71/Toonz71_159.gif
-.. |Toonz71_164| image:: /_static/Toonz71/Toonz71_164.gif
-.. |Toonz71_165| image:: /_static/Toonz71/Toonz71_165.gif
-.. |Toonz71_167| image:: /_static/Toonz71/Toonz71_167.gif
-.. |Toonz71_168| image:: /_static/Toonz71/Toonz71_168.gif
-.. |Toonz71_169| image:: /_static/Toonz71/Toonz71_169.gif
-.. |Toonz71_170| image:: /_static/Toonz71/Toonz71_170.gif
-.. |Toonz71_171| image:: /_static/Toonz71/Toonz71_171.gif
-.. |Toonz71_176| image:: /_static/Toonz71/Toonz71_176.gif
-.. |Toonz71_178| image:: /_static/Toonz71/Toonz71_178.gif
-.. |Toonz71_179| image:: /_static/Toonz71/Toonz71_179.gif
-.. |Toonz71_180| image:: /_static/Toonz71/Toonz71_180.gif
-.. |Toonz71_182| image:: /_static/Toonz71/Toonz71_182.gif
-.. |Toonz71_183| image:: /_static/Toonz71/Toonz71_183.gif
-.. |Toonz71_184| image:: /_static/Toonz71/Toonz71_184.gif
-.. |Toonz71_185| image:: /_static/Toonz71/Toonz71_185.gif
-.. |Toonz71_186| image:: /_static/Toonz71/Toonz71_186.gif
-.. |Toonz71_187| image:: /_static/Toonz71/Toonz71_187.gif
-.. |Toonz71_190| image:: /_static/Toonz71/Toonz71_190.gif
-.. |Toonz71_191| image:: /_static/Toonz71/Toonz71_191.gif
-.. |Toonz71_193| image:: /_static/Toonz71/Toonz71_193.gif
-.. |Toonz71_194| image:: /_static/Toonz71/Toonz71_194.gif
-.. |Toonz71_195| image:: /_static/Toonz71/Toonz71_195.gif
-.. |Toonz71_196| image:: /_static/Toonz71/Toonz71_196.gif
-.. |Toonz71_197| image:: /_static/Toonz71/Toonz71_197.gif
-.. |Toonz71_202| image:: /_static/Toonz71/Toonz71_202.gif
-.. |Toonz71_204| image:: /_static/Toonz71/Toonz71_204.gif
-.. |Toonz71_205| image:: /_static/Toonz71/Toonz71_205.gif
-.. |Toonz71_206| image:: /_static/Toonz71/Toonz71_206.gif
-.. |Toonz71_208| image:: /_static/Toonz71/Toonz71_208.gif
-.. |Toonz71_209| image:: /_static/Toonz71/Toonz71_209.gif
-.. |Toonz71_210| image:: /_static/Toonz71/Toonz71_210.gif
-.. |Toonz71_211| image:: /_static/Toonz71/Toonz71_211.gif
-.. |Toonz71_212| image:: /_static/Toonz71/Toonz71_212.gif
-.. |Toonz71_213| image:: /_static/Toonz71/Toonz71_213.gif
-.. |Toonz71_216| image:: /_static/Toonz71/Toonz71_216.gif
-.. |Toonz71_217| image:: /_static/Toonz71/Toonz71_217.gif
 .. |Toonz71_220| image:: /_static/Toonz71/Toonz71_220.gif
-.. |Toonz71_221| image:: /_static/Toonz71/Toonz71_221.gif
+.. |brush| image:: /_static/painting_animation_levels/brush.png
+.. |fill| image:: /_static/painting_animation_levels/fill.png
+.. |geometric| image:: /_static/painting_animation_levels/geometric.png
+.. |paint_brush| image:: /_static/painting_animation_levels/paint_brush.png
+.. |selection| image:: /_static/painting_animation_levels/selection.png
+.. |style_picker| image:: /_static/painting_animation_levels/style_picker.png
+.. |tape| image:: /_static/painting_animation_levels/tape.png

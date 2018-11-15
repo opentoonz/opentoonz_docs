@@ -289,127 +289,127 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 .. note:: If the toolbar is too short to display all the tools, it can be scrolled by using arrow buttons available at its ends.
 
-**Animate**  modifies the position, rotation and size of the current objects (see  :ref:`Animating Objects <animating_objects>`  ).
+|animate| **Animate** modifies the position, rotation and size of the current objects (see  :ref:`Animating Objects <animating_objects>`  ).
 
 
 
 
-**Selection**  performs a selection and transforms it (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
+|selection| **Selection** performs a selection and transforms it (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
 
 
 
-**Brush**  draws in the work area in freehand mode (see  :ref:`Drawing with the Brush Tool <drawing_with_the_brush_tool>`  ).
+|brush| **Brush** draws in the work area in freehand mode (see  :ref:`Drawing with the Brush Tool <drawing_with_the_brush_tool>`  ).
 
 
 
 
-**Geometric**  draws geometric shapes (see  :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ).
+|geometric| **Geometric** draws geometric shapes (see  :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ).
 
 
 
 
-**Type**  adds text by setting the font and size (see  :ref:`Adding Text <adding_text>`  ).
+|type| **Type** adds text by setting the font and size (see  :ref:`Adding Text <adding_text>`  ).
 
 
 
 
-**Fill**  fills drawing areas with the current style (see  :ref:`Filling Areas <filling_areas>`  ).
+|fill| **Fill** fills drawing areas with the current style (see  :ref:`Filling Areas <filling_areas>`  ).
 
 
 
 
-**Paint Brush**  paints lines and areas in Toonz raster drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  ).
+|paint_brush| **Paint Brush** paints lines and areas in Toonz raster drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  ).
 
 
 
 
-**Eraser**  deletes vectors in vector drawings, and painted areas and lines in raster drawings (see  :ref:`Drawing Tools <drawing_tools>`  ).
+|eraser| **Eraser** deletes vectors in vector drawings, and painted areas and lines in raster drawings (see  :ref:`Drawing Tools <drawing_tools>`  ).
 
 
 
 
-**Tape**  joins two open ends of one or two vectors in vector drawings, or closes gaps in raster drawings (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
+|tape| **Tape** joins two open ends of one or two vectors in vector drawings, or closes gaps in raster drawings (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
 
 
 
 
-**Style Picker**  picks a style from the current drawing, that becomes the current style in the palette and in the style editor.
+|style_picker| **Style Picker** picks a style from the current drawing, that becomes the current style in the palette and in the style editor.
 
 
 
 
-**RGB Picker**  picks red, green and blue values from the viewer content, and applies them to the current style (see  :ref:`Plain Colors <plain_colors>`  ).
+|RGB_picker| **RGB Picker** picks red, green and blue values from the viewer content, and applies them to the current style (see  :ref:`Plain Colors <plain_colors>`  ).
 
 
 
 
-**Control Point Editor**  modifies the vector shape by editing its control points (see  :ref:`Editing Vector Control Points <editing_vector_control_points>`  ).
+|cpe| **Control Point Editor** modifies the vector shape by editing its control points (see  :ref:`Editing Vector Control Points <editing_vector_control_points>`  ).
 
 
 
 
-**Pinch**  modifies the vector shape by clicking and dragging anywhere on the vector (see  :ref:`Changing the Bend of Vectors <changing_the_bend_of_vectors>`  ).
+|pinch| **Pinch** modifies the vector shape by clicking and dragging anywhere on the vector (see  :ref:`Changing the Bend of Vectors <changing_the_bend_of_vectors>`  ).
 
 
 
 
-**Pump**  locally modifies the vector thickness by clicking on the section you want to affect and then dragging up or down (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
+|pump| **Pump** locally modifies the vector thickness by clicking on the section you want to affect and then dragging up or down (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
 
 
 
 
-**Magnet**  deforms several vectors at once by clicking the area you want to affect and dragging (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
+|magnet| **Magnet** deforms several vectors at once by clicking the area you want to affect and dragging (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
 
 
 
 
-**Bender**  bends vectors in vector drawings (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
+|bender| **Bender** bends vectors in vector drawings (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
 
 
 
 
-**Iron**  removes creases from vectors by moving the cursor on the vector you want to flatten (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
+|iron| **Iron** removes creases from vectors by moving the cursor on the vector you want to flatten (see  :ref:`Using Other Modifier Tools <using_other_modifier_tools>`  ).
 
 
 
 
-**Cutter**  splits a vector in two sections when clicking on it (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
+|cutter| **Cutter** splits a vector in two sections when clicking on it (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
 
 
 
 
-**Skeleton**  defines character models, and animates them as in cutout animation (see  :ref:`Using the Skeleton Tool <using_the_skeleton_tool>`  )
+|skeleton| **Skeleton** defines character models, and animates them as in cutout animation (see  :ref:`Using the Skeleton Tool <using_the_skeleton_tool>`  )
 
 
 
 
-**Hook**  defines reference points to be used in the stage schematic to move an object, or link one object to another (see  :ref:`Using Hooks <using_hooks>`  ).
+|hook| **Hook** defines reference points to be used in the stage schematic to move an object, or link one object to another (see  :ref:`Using Hooks <using_hooks>`  ).
 
 
 
 
-**Tracker**  tracks specific regions in a sequence of images (see  :ref:`Tracking Points <tracking_points>`  ).
+|tracker| **Tracker** tracks specific regions in a sequence of images (see  :ref:`Tracking Points <tracking_points>`  ).
 
 
 
 
-**Plastic**  builds a mesh that allows to deform and animate a character or part of it (see  :ref:`Using Plastic tool <using_plastic_tool>`  ).
+|plastic| **Plastic** builds a mesh that allows to deform and animate a character or part of it (see  :ref:`Using Plastic tool <using_plastic_tool>`  ).
 
 
 
 
-**Zoom** zooms in and out the viewer content; after you click you can drag up to zoom in the work area, or drag down to zoom out.
+|zoom| **Zoom** zooms in and out the viewer content; after you click you can drag up to zoom in the work area, or drag down to zoom out.
 
 
 
 
-**Hand**  pans over the viewer content; if the 3D view is activated, the Hand tool lets you pan over the 3D view as well.
+|hand| **Hand** pans over the viewer content; if the 3D view is activated, the Hand tool lets you pan over the 3D view as well.
 
 
 
 
-**Rotate**  rotates the viewer content; if the 3D view is activated, the Rotate tool lets you change the point of view.
+|rotate| **Rotate** rotates the viewer content; if the 3D view is activated, the Rotate tool lets you change the point of view.
 
 
 .. _tool_options_bar:
@@ -591,4 +591,28 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 .. |UI_timeline| image:: /_static/UI/UI_timeline.png
 .. |UI_history| image:: /_static/UI/UI_history.png
 .. |UI_recordaudio| image:: /_static/UI/UI_recordaudio.png
-
+.. |animate| image:: /_static/UI/animate.png
+.. |bender| image:: /_static/UI/bender.png
+.. |brush| image:: /_static/UI/brush.png
+.. |cpe| image:: /_static/UI/cpe.png
+.. |cutter| image:: /_static/UI/cutter.png
+.. |eraser| image:: /_static/UI/eraser.png
+.. |fill| image:: /_static/UI/fill.png
+.. |geometric| image:: /_static/UI/geometric.png
+.. |hand| image:: /_static/UI/hand.png
+.. |hook| image:: /_static/UI/hook.png
+.. |iron| image:: /_static/UI/iron.png
+.. |magnet| image:: /_static/UI/magnet.png
+.. |paint_brush| image:: /_static/UI/paint_brush.png
+.. |pinch| image:: /_static/UI/pinch.png
+.. |plastic| image:: /_static/UI/plastic.png
+.. |pump| image:: /_static/UI/pump.png
+.. |RGB_picker| image:: /_static/UI/RGB_picker.png
+.. |rotate| image:: /_static/UI/rotate.png
+.. |selection| image:: /_static/UI/selection.png
+.. |skeleton| image:: /_static/UI/skeleton.png
+.. |style_picker| image:: /_static/UI/style_picker.png
+.. |tape| image:: /_static/UI/tape.png
+.. |tracker| image:: /_static/UI/tracker.png
+.. |type| image:: /_static/UI/type.png
+.. |zoom| image:: /_static/UI/zoom.png

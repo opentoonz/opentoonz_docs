@@ -14,7 +14,7 @@ In OpenToonz it is possible to create links between the model different sections
 
     1. Place each section, that can be a drawing or an animated level, of your character in a different column. 
 
-    2. Use the Skeleton tool ( |Toonz71_329| ) to link each section to the other and set the related pivot points.
+    2. Use the Skeleton tool (|skeleton|) to link each section to the other and set the related pivot points.
 
     3. Create key positions for each section at different frames to animate the cutout character.
 
@@ -22,15 +22,11 @@ In OpenToonz it is possible to create links between the model different sections
 
 Using the Skeleton Tool
 -----------------------
-The Skeleton tool ( |Toonz71_330| ) allows you to define a model by setting hierarchical links between its different sections exposed in different xsheet columns, and animate it.
+The Skeleton tool (|skeleton|) allows you to define a model by setting hierarchical links between its different sections exposed in different xsheet columns, and animate it.
 
 
 
-It basically makes possible in a single and more immediate tool the same tasks that can be achieved by using the stage schematic and the Edit tool ( |Toonz71_331| ) when creating links and moving columns (see 
-
-:ref:`Linking Objects <linking_objects>`  ). Indeed any editing performed with the Skeleton tool (
-
- |Toonz71_332| ) is mirrored in the schematic and the column movements, and vice versa.
+It basically makes possible in a single and more immediate tool the same tasks that can be achieved by using the stage schematic and the Edit tool (|animate|) when creating links and moving columns (see :ref:`Linking Objects <linking_objects>`  ). Indeed any editing performed with the Skeleton tool (|skeleton|) is mirrored in the schematic and the column movements, and vice versa.
 
 
 
@@ -46,7 +42,7 @@ In the tool options bar you can set the following:
 
 Building a Skeleton
 '''''''''''''''''''
-When the Skeleton tool ( |Toonz71_333| ) mode is set to Build Skeleton, it is possible to set pivot points and links between sections by using the handle available in the work area.
+When the Skeleton tool (|skeleton|) mode is set to Build Skeleton, it is possible to set pivot points and links between sections by using the handle available in the work area.
 
 
 
@@ -77,7 +73,7 @@ A basic model is made of sections linked to each other by their centers. It is s
 
 By default each section has a center that is placed at the center of the work area. When creating a model, this center has to be moved to where the pivot point for that specific section has to be.
 
-The Skeleton tool ( |Toonz71_337| ) allows you both to change the center position of the currently selected model section, and to link it to the center of another section visible in the work area.
+The Skeleton tool (|skeleton|) allows you both to change the center position of the currently selected model section, and to link it to the center of another section visible in the work area.
 
 
 
@@ -87,7 +83,7 @@ In case the sections of your model are drawn in the right place, setting the piv
 
 .. tip:: **To select a model section:**
 
-    Select the Skeleton tool ( |Toonz71_338| ), set the mode to Build Skeleton, and click the section in the work area.
+    Select the Skeleton tool (|skeleton|), set the mode to Build Skeleton, and click the section in the work area.
 
 
 
@@ -127,13 +123,13 @@ By using hooks you can specify drawing by drawing where the pivot points have to
 
 For example, by placing hooks on the drawings of the trunk and on the limbs where they have to be connected, and defining the links by using hooks instead of centers, the limbs will follow the trunk even if it is bending.
 
-The Skeleton tool ( |Toonz71_341| ) allows you both to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the work area.
+The Skeleton tool (|skeleton|) allows you both to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the work area.
 
 
 
 Hooks have to be placed for all the sections where you want the pivot points to be. For example, a trunk may have five hooks, one for the head, two for the arms and two for the legs; a forearm may have two hooks, one for the elbow and one for the wrist. 
 
-When using the Hook tool ( |Toonz71_342| ) for defining hooks for the model sections, the Snap option can be activated (see 
+When using the Hook tool (|hook|) for defining hooks for the model sections, the Snap option can be activated (see 
 
 :ref:`Using Hooks <using_hooks>`  ). In this way it is possible to place hooks exactly in the same position of hooks defined for other animation levels visible in the work area, or, in case the level is a Toonz vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the Tape tool). 
 
@@ -159,7 +155,7 @@ In the latter case an hook of the selected section and a hook of another section
 
 .. tip:: **To select a model section:**
 
-    Select the Skeleton tool ( |Toonz71_345| ), set the mode to Build Skeleton, and click the section in the work area.
+    Select the Skeleton tool (|skeleton|), set the mode to Build Skeleton, and click the section in the work area.
 
 
 
@@ -191,7 +187,7 @@ In the latter case an hook of the selected section and a hook of another section
 
 Animating Models
 ''''''''''''''''
-When the Skeleton tool ( |Toonz71_346| ) mode is set to Animate, it is possible to set positions for the model sections at different frames, thus defining an animation.
+When the Skeleton tool (|skeleton|) mode is set to Animate, it is possible to set positions for the model sections at different frames, thus defining an animation.
 
 
 
@@ -221,13 +217,13 @@ As key positions can be defined at specific frames for specific sections only, y
 
 .. note:: Columns can also be animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  )
 
-In case a model section is an animation level consisting of several drawing instead of a single one, for example the character’s hand is an animation level consisting of drawings of the hand in different positions, the Skeleton tool ( |Toonz71_348| ) lets you also flip through the drawings to choose the one you need. 
+In case a model section is an animation level consisting of several drawing instead of a single one, for example the character’s hand is an animation level consisting of drawings of the hand in different positions, the Skeleton tool (|skeleton|) lets you also flip through the drawings to choose the one you need. 
 
 
 
 .. tip:: **To select a model section:**
 
-    Choose the Skeleton tool ( |Toonz71_349| ), set the mode to Animate, and click the section in the work area.
+    Choose the Skeleton tool (|skeleton|), set the mode to Animate, and click the section in the work area.
 
 
 
@@ -255,7 +251,7 @@ In case a model section is an animation level consisting of several drawing inst
 
 Using Inverse Kinematics
 ''''''''''''''''''''''''
-When the Skeleton tool ( |Toonz71_350| ) mode is set to Inverse Kinematics, it is possible to move the model considering the articulation of all the sections its skeleton is made of. This means that if you want to move the end of a model limb to a particular position, all the rest of the sections belonging to that limb will move consequently, with no need to move each section separately.
+When the Skeleton tool (|skeleton|) mode is set to Inverse Kinematics, it is possible to move the model considering the articulation of all the sections its skeleton is made of. This means that if you want to move the end of a model limb to a particular position, all the rest of the sections belonging to that limb will move consequently, with no need to move each section separately.
 
 
 
@@ -275,9 +271,7 @@ The pinned center can be moved from a joint to another along the animation in or
 
 Changing the pinned center allows for a more complex animation where fixed points have to change while the model is moving, for example a walk where one ankle is pinned while the character is doing the first step, and the other ankle is pinned during the second step.
 
-.. note:: Once the pinned center is defined, it will remain active when animating skeleton sections both with the Skeleton tool ( |Toonz71_353| ), and with the Edit tool (
-
- |Toonz71_354| ). To animate freely any skeleton section again, reset the pinned center information (see below).
+.. note:: Once the pinned center is defined, it will remain active when animating skeleton sections both with the Skeleton tool (|skeleton|), and with the Edit tool (|animate|). To animate freely any skeleton section again, reset the pinned center information (see below).
 
 
 
@@ -295,7 +289,7 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 .. tip:: **To animate the model with inverse kinematics:**
 
-    1. Choose the Skeleton tool () and set the mode to Inverse Kinematics.
+    1. Choose the Skeleton tool (|skeleton|) and set the mode to Inverse Kinematics.
 
     2. Click any point of any model section and drag it to the desired position.
 
@@ -315,25 +309,12 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 .. tip:: **To reset the pinned centers information:**
 
-    1. Choose the Skeleton tool ().
+    1. Choose the Skeleton tool (|skeleton|).
 
     2. Right-click in the viewer and choose Reset Pinned Center from the menu that opens
 
 .. |Toonz71_328| image:: /_static/Toonz71/Toonz71_328.gif
-.. |Toonz71_329| image:: /_static/Toonz71/Toonz71_329.gif
-.. |Toonz71_330| image:: /_static/Toonz71/Toonz71_330.gif
-.. |Toonz71_331| image:: /_static/Toonz71/Toonz71_331.gif
-.. |Toonz71_332| image:: /_static/Toonz71/Toonz71_332.gif
-.. |Toonz71_333| image:: /_static/Toonz71/Toonz71_333.gif
-.. |Toonz71_337| image:: /_static/Toonz71/Toonz71_337.gif
-.. |Toonz71_338| image:: /_static/Toonz71/Toonz71_338.gif
-.. |Toonz71_341| image:: /_static/Toonz71/Toonz71_341.gif
-.. |Toonz71_342| image:: /_static/Toonz71/Toonz71_342.gif
-.. |Toonz71_345| image:: /_static/Toonz71/Toonz71_345.gif
-.. |Toonz71_346| image:: /_static/Toonz71/Toonz71_346.gif
 .. |Toonz71_347| image:: /_static/Toonz71/Toonz71_347.gif
-.. |Toonz71_348| image:: /_static/Toonz71/Toonz71_348.gif
-.. |Toonz71_349| image:: /_static/Toonz71/Toonz71_349.gif
-.. |Toonz71_350| image:: /_static/Toonz71/Toonz71_350.gif
-.. |Toonz71_353| image:: /_static/Toonz71/Toonz71_353.gif
-.. |Toonz71_354| image:: /_static/Toonz71/Toonz71_354.gif
+.. |animate| image:: /_static/cutout_animation/animate.png
+.. |hook| image:: /_static/cutout_animation/hook.png
+.. |skeleton| image:: /_static/cutout_animation/skeleton.png
