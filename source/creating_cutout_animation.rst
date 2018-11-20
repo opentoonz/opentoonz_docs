@@ -26,7 +26,7 @@ The Skeleton tool (|skeleton|) allows you to define a model by setting hierarchi
 
 
 
-It basically makes possible in a single and more immediate tool the same tasks that can be achieved by using the stage schematic and the Edit tool (|animate|) when creating links and moving columns (see :ref:`Linking Objects <linking_objects>`  ). Indeed any editing performed with the Skeleton tool (|skeleton|) is mirrored in the schematic and the column movements, and vice versa.
+It basically makes possible in a single and more immediate tool the same tasks that can be achieved by using the stage schematic and the Animate tool (|animate|) when creating links and moving columns (see :ref:`Linking Objects <linking_objects>`  ). Indeed any editing performed with the Skeleton tool (|skeleton|) is mirrored in the schematic and the column movements, and vice versa.
 
 
 
@@ -79,7 +79,7 @@ The Skeleton tool (|skeleton|) allows you both to change the center position of 
 
 Usually it is simpler to start working from the parent section, then link the other sections one by one, following one limb at a time. For example first set the center of the model trunk, then set the arm pivot point and link the arm to the trunk, then set the forearm pivot point and link the forearm to the arm, then set the hand pivot point and link the hand to the forearm, and so on.
 
-In case the sections of your model are drawn in the right place, setting the pivot points and the links is all you have to do to define a skeleton. If they are not, you can set the section right position either before or after setting links by using the Edit tool or the Skeleton tool in Animate mode (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Animating Models <animating_models>`  ). 
+In case the sections of your model are drawn in the right place, setting the pivot points and the links is all you have to do to define a skeleton. If they are not, you can set the section right position either before or after setting links by using the Animate tool or the Skeleton tool in Animate mode (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Animating Models <animating_models>`  ). 
 
 .. tip:: **To select a model section:**
 
@@ -271,7 +271,7 @@ The pinned center can be moved from a joint to another along the animation in or
 
 Changing the pinned center allows for a more complex animation where fixed points have to change while the model is moving, for example a walk where one ankle is pinned while the character is doing the first step, and the other ankle is pinned during the second step.
 
-.. note:: Once the pinned center is defined, it will remain active when animating skeleton sections both with the Skeleton tool (|skeleton|), and with the Edit tool (|animate|). To animate freely any skeleton section again, reset the pinned center information (see below).
+.. note:: Once the pinned center is defined, it will remain active when animating skeleton sections both with the Skeleton tool (|skeleton|), and with the Animate tool (|animate|). To animate freely any skeleton section again, reset the pinned center information (see below).
 
 
 
@@ -285,7 +285,7 @@ When moving the model, a rotation key is automatically defined for all the secti
 
 The pinned centers information and coordinates are saved along with the scene; in case you want to delete it or start the animation by using the inverse kinematics from scratch, this information can be reset to the default, where only the center of the parent section of the skeleton is pinned.
 
-.. note:: When using inverse kinematics the movements of the parent section of the skeleton are automatically computed to allow the right configuration of the skeleton; this means that they cannot be edited anymore by using standard movement editing tools like the Edit tool or the function editor. To return to the standard movement editing mode, you have to reset the pinned centers information.
+.. note:: When using inverse kinematics the movements of the parent section of the skeleton are automatically computed to allow the right configuration of the skeleton; this means that they cannot be edited anymore by using standard movement editing tools like the Animate tool or the function editor. To return to the standard movement editing mode, you have to reset the pinned centers information.
 
 .. tip:: **To animate the model with inverse kinematics:**
 

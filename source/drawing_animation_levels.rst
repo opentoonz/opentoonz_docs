@@ -140,7 +140,7 @@ At the bottom of the work area another customizable set of buttons is available.
 
 The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and in case the playback is activated, the actual frame rate is displayed on its left. 
 
-The other buttons are relevant only using the Edit tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
+The other buttons are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 
 

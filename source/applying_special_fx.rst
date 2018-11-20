@@ -502,7 +502,7 @@ Some FX parameters related to positions or dimensions have some gadgets availabl
 
 
 
-As soon as an effect node is selected in the schematic, the Edit tool becomes the current tool and the related effect gadgets, if available, are visualized. The Edit tool settings will refer to the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:`Animating Objects <animating_objects>`  ).
+As soon as an effect node is selected in the schematic, the Animate tool becomes the current tool and the related effect gadgets, if available, are visualized. The Animate tool settings will refer to the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:`Animating Objects <animating_objects>`  ).
 
 .. tip:: **To visualize FX gadgets in the work area:**
 
