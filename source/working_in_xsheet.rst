@@ -19,7 +19,7 @@ The viewer, or work area, has different modes of visualizing the scene contents.
 
 
 
-At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Work Area <using_the_work_area>`  ), some others are relevant only using the Edit tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
+At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Work Area <using_the_work_area>`  ), some others are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 
 

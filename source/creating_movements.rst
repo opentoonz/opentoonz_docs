@@ -217,7 +217,7 @@ Each object has always a free port in order to accept a link to a different cent
 
     - To link a column to a pegbar or another column, choose the object and the center in the column header of the xsheet.
 
-    - To link a column to another column, select the Edit tool (|animate|) with the Pick option to Column, and in the work area shift-click the column contents to which you want to link the current column.
+    - To link a column to another column, select the Animate tool (|animate|) with the Pick option to Column, and in the work area shift-click the column contents to which you want to link the current column.
 
 
 
@@ -227,7 +227,7 @@ Each object has always a free port in order to accept a link to a different cent
 
     - Select it in the stage schematic. 
 
-    - Use the Edit tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
+    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
 
 
 
@@ -410,7 +410,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
 Animating Objects
 -----------------
-You can edit, move, rotate, scale and shear columns, pegbars, the table and cameras by using the Edit tool (|animate|). Objects to be animated can be selected in the stage schematic, in the work area and in the xsheet.
+You can edit, move, rotate, scale and shear columns, pegbars, the table and cameras by using the Animate tool (|animate|). Objects to be animated can be selected in the stage schematic, in the work area and in the xsheet.
 
 
 
@@ -426,13 +426,13 @@ In the tool options bar you can set the following:
 
     - Rotation sets the rotation of the selected object.
 
-    - Scale Global, H and V sets the global, horizontal and vertical scaling of the selected object. Maintain sets the constraint for scaling operations performed by using the Edit tool handle: if it is set to A/R the object will maintain its proportions, if it is set to Mass the object will maintain its overall size even when changing proportions.
+    - Scale Global, H and V sets the global, horizontal and vertical scaling of the selected object. Maintain sets the constraint for scaling operations performed by using the Animate tool handle: if it is set to A/R the object will maintain its proportions, if it is set to Mass the object will maintain its overall size even when changing proportions.
 
     - Shear H and V sets the horizontal and vertical shearing of the selected object.
 
     - Center N/S and E/W sets the vertical and horizontal position of the center of the selected object. 
 
-    - Global Key when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Edit tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
+    - Global Key when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Animate tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
 
     - A lock button ( |Toonz71_292| ) defines which transformations have to be locked while transforming the object.
 
@@ -474,17 +474,17 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - If the object is a column, select it in the xsheet.
 
-    - Use the Edit tool (|animate|) with the Pick option set to Column to click a drawing in the work area to select the related column.
+    - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the work area to select the related column.
 
-    - Use the Edit tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area to select the pegbar that the column containing the drawing is linked to.
+    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area to select the pegbar that the column containing the drawing is linked to.
 
     - Right-click in the work area a drawing to select an object from the list of the objects hierarchically linked to the column containing the drawing, from the first one up to the table and current camera (see  :ref:`Linking Objects <linking_objects>`  ). 
 
-.. tip:: **To animate an object with the Edit tool:**
+.. tip:: **To animate an object with the Animate tool:**
 
     1. Select the object you want to edit.
 
-    2. Choose the Edit tool (|animate|). 
+    2. Choose the Animate tool (|animate|). 
 
     3. Set the frame where you want to define the key by doing one of the following:
 
@@ -504,7 +504,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     2. Do one of the following:
 
-    - Enter values in the Edit tool options bar for the object transformations you want to set a key for. 
+    - Enter values in the Animate tool options bar for the object transformations you want to set a key for. 
 
     - Operate the handle to move, scale, rotate or shear the object, automatically generating a key only for the modified transformation. 
 
@@ -516,7 +516,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     2. Do one of the following:
 
-    - Enter values you want to modify in the Edit tool options bar. 
+    - Enter values you want to modify in the Animate tool options bar. 
 
     - Operate the handle to move, scale, rotate or shear the object. 
 
@@ -526,7 +526,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     1. Deactivate the Global Key option in the tool options bar.
 
-    2. In the Edit tool options bar click in the field of the object transformations you want to set a key for, and press the Enter key. 
+    2. In the Animate tool options bar click in the field of the object transformations you want to set a key for, and press the Enter key. 
 
 .. note:: As this key position is partial and refers only to some transformations, the Set Key button turns striped-blue.
 
@@ -570,7 +570,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
 .. note:: Keys can also be removed or navigated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
-.. tip:: **To customize the Edit tool options bar:**
+.. tip:: **To customize the Animate tool options bar:**
 
     Do any of the following:
 
@@ -598,7 +598,7 @@ The SO default value for all the columns is 0, meaning that the xsheet column or
 
     1. Select the column to which you want to edit the SO value.
 
-    2. Choose the Edit tool (|animate|). 
+    2. Choose the Animate tool (|animate|). 
 
     3. Set the frame where you want to define the key.
 
@@ -622,7 +622,7 @@ The key positions of the object on the motion path can be defined by dragging th
 
 It is also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
 
-.. note:: If you want to change the center of the object, you can move it with the Edit tool (|animate|) and then use the Reset Center command in the stage.
+.. note:: If you want to change the center of the object, you can move it with the Animate tool (|animate|) and then use the Reset Center command in the stage.
 
 
 
@@ -674,7 +674,7 @@ It is also possible to link the key positions of the objects to the positions of
 
 .. tip:: **To change the center of the object:**
 
-    1. Choose the Edit tool (|animate|).
+    1. Choose the Animate tool (|animate|).
 
     2. Move the center of the object to the new position.
 
@@ -733,7 +733,7 @@ As soon as a key position is defined for a column, a related icon is displayed o
 
 
 
-When the Global Key option is activated for the Edit tool, and the default interpolation is not set to Linear, as soon as at least two key positions are created for a column a vertical line connecting them with two arrowheads is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed and speed out phases of all the transformations defined for the movement. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
+When the Global Key option is activated for the Animate tool, and the default interpolation is not set to Linear, as soon as at least two key positions are created for a column a vertical line connecting them with two arrowheads is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed and speed out phases of all the transformations defined for the movement. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
 
 You can also cycle previously created keys, in order to repeat automatically all the previously defined keys for the whole length of the scene, with no need to copy and paste keys from cells to cells.
 
@@ -745,9 +745,9 @@ All animations and interpolations set for the column can be visible and edited w
 
     2. Do one of the following:
 
-    - Use the Edit tool (|animate|) to modify position and size.
+    - Use the Animate tool (|animate|) to modify position and size.
 
-    - Enter values you want to modify in the Edit tool (|animate|) options bar. 
+    - Enter values you want to modify in the Animate tool (|animate|) options bar. 
 
 .. tip:: **To select keys:**
 
@@ -883,7 +883,7 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     2. Select the object you want to move.
 
-    3. Select the Edit tool (|animate|).
+    3. Select the Animate tool (|animate|).
 
     4. Do one of the following:
 
