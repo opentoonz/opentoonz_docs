@@ -85,6 +85,7 @@ Paperless Workflow
 ------------------
 The following is an example of how OpenToonz allows the management of a paperless animation production.
 
+|paperless_workflow|
 
 .. _preproduction:_concept:
 
@@ -176,3 +177,5 @@ The OpenToonz render farm allows you to batch-render OpenToonz scenes by using a
 
 See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  .
 
+
+.. |paperless_workflow| image:: /_static/production_workflow/paperless_workflow.png
