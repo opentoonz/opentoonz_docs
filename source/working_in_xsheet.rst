@@ -29,19 +29,19 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 
     Use the buttons available in the work area title bar to do the following:
 
-    - The Camera Stand View button ( |Toonz71_224| ) is for standard view, where any part of the work area can be displayed. When playing back the scene, the work area stands still, while all of the other elements, including the camera, move in relation to its position.
+    - The Camera Stand View button (|camera_stand|) is for standard view, where any part of the work area can be displayed. When playing back the scene, the work area stands still, while all of the other elements, including the camera, move in relation to its position.
 
 
 
-    - The 3D View button ( |Toonz71_225| ) is for activating or deactivating the 3D view of the elements composing the scene (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ).
+    - The 3D View button (|3d|) is for activating or deactivating the 3D view of the elements composing the scene (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ).
 
-    - The Camera View button ( |Toonz71_226| ) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
+    - The Camera View button (|camera_view|) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
 
 .. note:: When a frame of the level strip is selected, the view mode is set in order to display the level only, and consequently the buttons on the viewer title bar are disabled. To enable them again, select a cell in the xsheet. 
 
 .. tip:: **To freeze/un-freeze the viewer:**
 
-    Click the Freeze button ( |Toonz71_227| ) in the work area title bar to freeze/unfreeze the displayed content; when activated the word frozen is displayed at the center of the work area.
+    Click the Freeze button (|freeze|) in the work area title bar to freeze/unfreeze the displayed content; when activated the word frozen is displayed at the center of the work area.
 
 
 
@@ -116,11 +116,9 @@ If any of the files you want to import has the same name of a file already exist
 
     Do one of the following:
 
-    - Click the thumbnails button ( |Toonz71_229| ) in the bottom bar of the browser to display files with the related icons.
+    - Click the thumbnails button (|thumbnails|) in the bottom bar of the browser to display files with the related icons.
 
-
-
-    - Click the list button ( |Toonz71_230| ) in the bottom bar of the browser to display files in a list with related s; click the labels at the top of the  columns to sort files accordingly; right-click the label at the top of the  columns to open the menu that allows to toggle the visualization of the  columns.
+    - Click the list button (|list|) in the bottom bar of the browser to display files in a list with related s; click the labels at the top of the  columns to sort files accordingly; right-click the label at the top of the  columns to open the menu that allows to toggle the visualization of the  columns.
 
 .. tip:: **To resize the browser sections:**
 
@@ -138,13 +136,13 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To create a new folder:**
 
-    Click the new folder button ( |Toonz71_231| ) in the bottom bar of the browser.
+    Click the new folder button (|new_folder|) in the bottom bar of the browser.
 
 
 
 .. tip:: **To move one folder up in the file tree:**
 
-    Click the folder up button ( |Toonz71_232| ) in the bottom bar of the browser.
+    Click the folder up button (|folder_up|) in the bottom bar of the browser.
 
 
 
@@ -457,11 +455,11 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Do one of the following:
 
-    - Click the icon button ( |Toonz71_239| ) in the bottom bar of the cast to display levels with the related icons.
+    - Click the icon button (|thumbnails|) in the bottom bar of the cast to display levels with the related icons.
 
 
 
-    - Click the list button ( |Toonz71_240| ) in the bottom bar of the cast to display levels in a list; click the labels at the top of the  columns to sort files accordingly.
+    - Click the list button (|list|) in the bottom bar of the cast to display levels in a list; click the labels at the top of the  columns to sort files accordingly.
 
 .. tip:: **To resize the scene cast sections:**
 
@@ -479,13 +477,13 @@ You can create new folders and sub-folders where animation levels can be arrange
 
 .. tip:: **To create a new folder:**
 
-    Click the new folder button ( |Toonz71_241| ) in the bottom bar of the cast.
+    Click the new folder button (|new_folder|) in the bottom bar of the cast.
 
 
 
 .. tip:: **To move one folder up in the cast tree:**
 
-    Click the folder up button ( |Toonz71_242| ) in the bottom bar of the cast.
+    Click the folder up button (|folder_up|) in the bottom bar of the cast.
 
 
 
@@ -651,32 +649,23 @@ Working with Xsheet Columns
 ---------------------------
 When levels are exposed in the xsheet, they are placed in columns. The column stacking order sets which drawings and images are placed on top, or behind, other images. Its direction is from left to right, so what is on the left is behind what is on the right. Use the shortcuts > and < to move between the columns.
 
-
-
-
-
 The xsheet is divided into sections by horizontal markers, whose interval can be customized; at each marker the name of the level exposed in the xsheet is displayed.
 
 Column cells may have different colors according to the type of level they contain. Toonz animation levels are displayed in light green; raster drawings, full color images, sequences and clips are displayed in light blue; sub-xsheet in light red (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  ); FX that create computer generated images in light orange (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); audio files in yellow (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 The column header contains information about the column content.
 
-
-
-
 From the top you can see :
 
 - A number representing the stacking order.
 
-- A camera stand toggle ( |Toonz71_245| ) allowing you to hide, display, or display with a limited opacity the column content in the work area. When activated an animation table icon is visible in the toggle; the icon is greyed out in case a limited opacity is set.
+- A camera stand toggle (|camera_stand|) allowing you to hide, display, or display with a limited opacity the column content in the work area. When activated an animation table icon is visible in the toggle; the icon is greyed out in case a limited opacity is set.
 
-
-
-    - A render toggle ( |Toonz71_246| ) allowing you to include or not the column content in the rendering; when activated an eye icon is visible in the toggle.
+- A render toggle (|preview|) allowing you to include or not the column content in the rendering; when activated an eye icon is visible in the toggle.
 
 .. note:: The camera stand and the render toggles are linked to similar toggles available in the schematic column nodes (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
 
-- A lock toggle ( |Toonz71_247| ) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
+- A lock toggle (|lock|) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
 
 
 
@@ -770,7 +759,7 @@ Columns you want to hide in the xsheet can be also folded in order to save space
 
     Do one of the following:
 
-    - Click the camera stand toggle ( |Toonz71_248| ) on the upper right corner of the column header. The icon is greyed out in case a limited opacity is set (see below). If you right-click the toggle you can select commands from a menu that opens that lets you affect several columns at the same time.
+    - Click the camera stand toggle (|camera_stand|) on the upper right corner of the column header. The icon is greyed out in case a limited opacity is set (see below). If you right-click the toggle you can select commands from a menu that opens that lets you affect several columns at the same time.
 
 
 
@@ -778,19 +767,19 @@ Columns you want to hide in the xsheet can be also folded in order to save space
 
 .. tip:: **To set a limited opacity for a column content:**
 
-    Click and hold the camera stand toggle ( |Toonz71_249| ) on the upper right corner of the column header, and use the slider that is displayed to set the column opacity.
+    Click and hold the camera stand toggle (|camera_stand|) on the upper right corner of the column header, and use the slider that is displayed to set the column opacity.
 
 
 
 .. tip:: **To include or exclude a column contents from the rendering:**
 
-    Click the render toggle ( |Toonz71_250| ) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
+    Click the render toggle (|preview|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
 
 
 
 .. tip:: **To lock or unlock a column contents:**
 
-    Click the lock toggle ( |Toonz71_251| ) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
+    Click the lock toggle (|lock|) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
 
 
 
@@ -1184,17 +1173,17 @@ Audio columns can be edited the way you edit any other column. The column header
 
 - A number representing the stacking order, that is not relevant for audio columns.
 
-- A camera stand toggle ( |Toonz71_255| ) allowing you to include or not the column content when scrubbing the audio with the current frame cursor (see below); when activated an animation table icon is visible in the toggle.
+- A camera stand toggle (|camera_stand|) allowing you to include or not the column content when scrubbing the audio with the current frame cursor (see below); when activated an animation table icon is visible in the toggle.
 
 
 
-    - A render toggle ( |Toonz71_256| ) allowing you to include or not the audio column content in the rendering; when activated an eye icon is visible in the toggle.
+- A render toggle (|preview|) allowing you to include or not the audio column content in the rendering; when activated an eye icon is visible in the toggle.
 
-    - A lock toggle ( |Toonz71_257| ) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
+- A lock toggle (|lock|) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
 
-    - A vertical slider allowing you to set the volume.
+- A vertical slider allowing you to set the volume.
 
-    - A loudspeaker icon that lets you play the contents back.
+- A loudspeaker icon that lets you play the contents back.
 
 The Level Settings dialog is available for audio clips as well, allowing you to check the location of the related file, or to update the loading path to a different location, or to a different file (see  :ref:`Editing Level Settings <editing_level_settings>`  ).
 
@@ -1216,19 +1205,19 @@ When a scene is rendered in a file format supporting audio, for example QuickTim
 
 .. tip:: **To include or exclude an audio when scrubbing the audio with the current frame cursor**
 
-    Click the camera stand toggle ( |Toonz71_258| ) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
+    Click the camera stand toggle (|camera_stand|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
 
 
 
 .. tip:: **To include or exclude the audio column contents from the rendering:**
 
-    Click the render toggle ( |Toonz71_259| ) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
+    Click the render toggle (|preview|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
 
 
 
 .. tip:: **To lock or unlock a column contents:**
 
-    Click the lock toggle ( |Toonz71_260| ) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
+    Click the lock toggle (|lock|) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
 
 
 
@@ -1703,37 +1692,22 @@ Elements defined in the CSS are the following:
 
     Open the ``xsheet.css``  file available in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
 
-.. |Toonz71_224| image:: /_static/Toonz71/Toonz71_224.gif
-.. |Toonz71_225| image:: /_static/Toonz71/Toonz71_225.gif
-.. |Toonz71_226| image:: /_static/Toonz71/Toonz71_226.gif
-.. |Toonz71_227| image:: /_static/Toonz71/Toonz71_227.gif
-.. |Toonz71_229| image:: /_static/Toonz71/Toonz71_229.gif
-.. |Toonz71_230| image:: /_static/Toonz71/Toonz71_230.gif
-.. |Toonz71_231| image:: /_static/Toonz71/Toonz71_231.gif
-.. |Toonz71_232| image:: /_static/Toonz71/Toonz71_232.gif
 .. |Toonz71_233| image:: /_static/Toonz71/Toonz71_233.gif
-.. |Toonz71_239| image:: /_static/Toonz71/Toonz71_239.gif
-.. |Toonz71_240| image:: /_static/Toonz71/Toonz71_240.gif
-.. |Toonz71_241| image:: /_static/Toonz71/Toonz71_241.gif
-.. |Toonz71_242| image:: /_static/Toonz71/Toonz71_242.gif
 .. |Toonz71_243| image:: /_static/Toonz71/Toonz71_243.gif
-.. |Toonz71_245| image:: /_static/Toonz71/Toonz71_245.gif
-.. |Toonz71_246| image:: /_static/Toonz71/Toonz71_246.gif
-.. |Toonz71_247| image:: /_static/Toonz71/Toonz71_247.gif
-.. |Toonz71_248| image:: /_static/Toonz71/Toonz71_248.gif
-.. |Toonz71_249| image:: /_static/Toonz71/Toonz71_249.gif
-.. |Toonz71_250| image:: /_static/Toonz71/Toonz71_250.gif
-.. |Toonz71_251| image:: /_static/Toonz71/Toonz71_251.gif
 .. |Toonz71_252| image:: /_static/Toonz71/Toonz71_252.gif
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
-.. |Toonz71_255| image:: /_static/Toonz71/Toonz71_255.gif
-.. |Toonz71_256| image:: /_static/Toonz71/Toonz71_256.gif
-.. |Toonz71_257| image:: /_static/Toonz71/Toonz71_257.gif
-.. |Toonz71_258| image:: /_static/Toonz71/Toonz71_258.gif
-.. |Toonz71_259| image:: /_static/Toonz71/Toonz71_259.gif
-.. |Toonz71_260| image:: /_static/Toonz71/Toonz71_260.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
 .. |Toonz71_265| image:: /_static/Toonz71/Toonz71_265.gif
 .. |animate| image:: /_static/xsheet/animate.png
 .. |skeleton| image:: /_static/xsheet/skeleton.png
+.. |3d| image:: /_static/xsheet/3d.png
+.. |camera_stand| image:: /_static/xsheet/camera_stand.png
+.. |camera_view| image:: /_static/xsheet/camera_view.png
+.. |folder_up| image:: /_static/xsheet/folder_up.png
+.. |freeze| image:: /_static/xsheet/freeze.png
+.. |list| image:: /_static/xsheet/list.png
+.. |lock| image:: /_static/xsheet/lock.png
+.. |new_folder| image:: /_static/xsheet/new_folder.png
+.. |preview| image:: /_static/xsheet/preview.png
+.. |thumbnails| image:: /_static/xsheet/thumbnails.png

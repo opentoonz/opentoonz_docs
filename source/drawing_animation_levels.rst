@@ -316,7 +316,7 @@ The set of buttons and information available in the bottom bar of the work area 
 
 .. tip:: **To customize the set of buttons in the bottom bar of the work area:**
 
-    Click the option button ( |Toonz71_065| ) on the far left of the bottom area, and select the elements to show, or deselect those to hide, in the menu that opens. 
+    Click the option button (|option|) on the far left of the bottom area, and select the elements to show, or deselect those to hide, in the menu that opens. 
 
 
 
@@ -568,7 +568,7 @@ In centerline mode a single vector with a variable thickness is generated for ea
 
 In the outline mode two vectors are generated to define each line in the drawing, and areas filled with different colors are separated by a vector. This means that, for example, to change the bend of a line you have to change the bend of the two vectors defining it, and to change the thickness you have to model one or both vectors defining it. The thickness of all the vectors is set to 0, so that they won’t be visible in the final render.
 
-.. note:: Parameters that are not considered necessary by the user can be hidden using the option button  |Toonz71_082|  at the bottom right of the Convert To vector Pop Up.
+.. note:: Parameters that are not considered necessary by the user can be hidden using the option button (|option|) at the bottom right of the Convert To vector Pop Up.
 
 
 
@@ -631,7 +631,7 @@ When a conversion is performed a new level is created according to the selection
 
 Checking the Convert to Vectors Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-At the bottom of the Convert-to-Vectors settings window a preview area is available to display the drawing selected in the xsheet as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original raster drawing that is displayed on the left side, and to highlight the vector structure by clicking the Centerlines Check button ( |Toonz71_083| ).
+At the bottom of the Convert-to-Vectors settings window a preview area is available to display the drawing selected in the xsheet as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original raster drawing that is displayed on the left side, and to highlight the vector structure by clicking the Centerlines Check button (|check|).
 
 
 
@@ -643,11 +643,11 @@ If you change any parameter in the Convert-to-Vector settings, the previewed dra
 
     1. In the xsheet select the drawing you want to preview. 
 
-    2. Click the Preview button ( |Toonz71_084| ) in the bottom bar of the Convert-to-Vector settings window.
+    2. Click the Preview button (|preview|) in the bottom bar of the Convert-to-Vector settings window.
 
 .. tip:: **To deactivate the preview area:**
 
-    Click the Preview button ( |Toonz71_085| ) in the bottom bar of the Convert-to-Vector settings window.
+    Click the Preview button (|preview|) in the bottom bar of the Convert-to-Vector settings window.
 
 
 
@@ -673,7 +673,7 @@ If you change any parameter in the Convert-to-Vector settings, the previewed dra
 
 .. tip:: **To activate and deactivate the Centerlines Check:**
 
-    Click the Centerlines Check button ( |Toonz71_086| ) in the bottom bar of the Convert-to-Vector window.
+    Click the Centerlines Check button (|check|) in the bottom bar of the Convert-to-Vector window.
 
 
 
@@ -687,19 +687,19 @@ Loaded Convert To Vector settings can also become the default settings for the s
 
 .. tip:: **To save the Convert To Vector settings:**
 
-    1. Click the Save Settings button () in the bottom bar of the Convert To Vector window.
+    1. Click the Save Settings button (|save|) in the bottom bar of the Convert To Vector window.
 
     2. In the browser that opens choose for the tnzsettings file a location and a name, and click the Save button.
 
 .. tip:: **To load saved Convert To Vector settings:**
 
-    1. Click the Load Settings button () in the bottom bar of the Convert To Vector window.
+    1. Click the Load Settings button (|load|) in the bottom bar of the Convert To Vector window.
 
     2. In the browser that opens retrieve the tnzsettings file you want to load, and click the Load button.
 
 .. tip:: **To reset the Convert To Vector settings to the scene default:**
 
-    Click the Reset Settings button ( |Toonz71_089| ) in the bottom bar of the Convert To Vector settings window.
+    Click the Reset Settings button (|reset|) in the bottom bar of the Convert To Vector settings window.
 
 
 
@@ -1622,13 +1622,6 @@ To better check the new drawing and the animation you can toggle the shift and t
 
     7. Create the inbetween drawing.
 
-.. |Toonz71_065| image:: /_static/Toonz71/Toonz71_065.gif
-.. |Toonz71_082| image:: /_static/Toonz71/Toonz71_082.gif
-.. |Toonz71_083| image:: /_static/Toonz71/Toonz71_083.gif
-.. |Toonz71_084| image:: /_static/Toonz71/Toonz71_084.gif
-.. |Toonz71_085| image:: /_static/Toonz71/Toonz71_085.gif
-.. |Toonz71_086| image:: /_static/Toonz71/Toonz71_086.gif
-.. |Toonz71_089| image:: /_static/Toonz71/Toonz71_089.gif
 .. |Toonz71_123| image:: /_static/Toonz71/Toonz71_123.gif
 .. |animate| image:: /_static/drawing_animation_levels/animate.png
 .. |bender| image:: /_static/drawing_animation_levels/bender.png
@@ -1648,3 +1641,9 @@ To better check the new drawing and the animation you can toggle the shift and t
 .. |tape| image:: /_static/drawing_animation_levels/tape.png
 .. |type| image:: /_static/drawing_animation_levels/type.png
 .. |zoom| image:: /_static/drawing_animation_levels/zoom.png
+.. |check| image:: /_static/drawing_animation_levels/check.png
+.. |load| image:: /_static/drawing_animation_levels/load.png
+.. |option| image:: /_static/drawing_animation_levels/option.png
+.. |preview| image:: /_static/drawing_animation_levels/preview.png
+.. |reset| image:: /_static/drawing_animation_levels/reset.png
+.. |save| image:: /_static/drawing_animation_levels/save.png
