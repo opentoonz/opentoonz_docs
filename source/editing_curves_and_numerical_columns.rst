@@ -66,19 +66,19 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     1. Make sure the option Graph Editor Opens in Popup is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
     
-    2. Click the Function Editor Toggle button ( |Toonz71_520| ) in the top bar of the Function Editor.
+    2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To open the spreadsheet in a separate window:**
 
     1. Make sure the option Spreadsheet Opens in Popup is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
     
-    2. Click the Function Editor Toggle button ( |Toonz71_520| ) in the top bar of the Function Editor.
+    2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To switch between spreadsheet and graph editor in the Function Editor:**
 
     1. Make sure the option Toggle Between Graph Editor and Spreadsheet is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
     
-    2. Click the Function Editor Toggle button ( |Toonz71_520| ) in the top bar of the Function Editor.
+    2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To scroll the spreadsheet:**
 
@@ -194,13 +194,13 @@ Using the Graph Editor
 
 The Graph Editor display transformations as curves in a graph where frames are laid horizontally, and values are laid vertically. 
 
-Curves are defined by control points representing key values. Points can be easily added by working directly in the graph or using the Set Key button ( |Toonz71_522| ) in the top bar of the editor. 
+Curves are defined by control points representing key values. Points can be easily added by working directly in the graph or using the Set Key button (|key|) in the top bar of the editor. 
 
 Control points can also be selected in order to be edited, moved or deleted. 
 
-The Set Key button ( |Toonz71_524| ) is either grey when no key value is defined for the current curve at the current frame, or blue when a key value is defined for the current curve at the current frame.
+The Set Key button (|key|) is either grey when no key value is defined for the current curve at the current frame, or blue when a key value is defined for the current curve at the current frame.
 
-Frames and key values can be navigated by using the related buttons in the top bar of the editor. The Next ( |Toonz71_525| ) and Previous Key buttons ( |Toonz71_526| ) are available only if more than one key value is defined. 
+Frames and key values can be navigated by using the related buttons in the top bar of the editor. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined. 
 
 
 
@@ -230,7 +230,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
     Do one of the following:
 
-    - Click the Set Key button ( |Toonz71_527| ) to add a key point at the current frame.
+    - Click the Set Key button (|key|) to add a key point at the current frame.
 
     - Type a value in the Value text box to add a key point at the current frame.
 
@@ -244,7 +244,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
     - Select the key point to remove and choose Edit > Delete.
 
-    - Set the current frame where a key point is and click the Set Key button ( |Toonz71_528| ).
+    - Set the current frame where a key point is and click the Set Key button (|key|).
 
 .. tip:: **To select key points:**
 
@@ -278,7 +278,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
 .. tip:: **To navigate key points for the current curve:**
 
-    Use the Next ( |Toonz71_529| ) and Previous Key buttons ( |Toonz71_530| ) available at the sides of the Set Key button.
+    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the sides of the Set Key button.
 
 .. tip:: **To cycle previously created key points:**
 
@@ -824,13 +824,8 @@ With respect to interpolation, if all the visible curves have a key at the same 
 .. |function_editor_iFile| image:: /_static/function_editor/function_editor_iFile.png
 .. |function_editor_iConst| image:: /_static/function_editor/function_editor_iConst.png
 .. |function_editor_iSimilar| image:: /_static/function_editor/function_editor_iSimilar.png
-.. |Toonz71_520| image:: /_static/Toonz71/Toonz71_520.gif
-.. |Toonz71_522| image:: /_static/Toonz71/Toonz71_522.gif
-.. |Toonz71_524| image:: /_static/Toonz71/Toonz71_524.gif
-.. |Toonz71_525| image:: /_static/Toonz71/Toonz71_525.gif
-.. |Toonz71_526| image:: /_static/Toonz71/Toonz71_526.gif
-.. |Toonz71_527| image:: /_static/Toonz71/Toonz71_527.gif
-.. |Toonz71_528| image:: /_static/Toonz71/Toonz71_528.gif
-.. |Toonz71_529| image:: /_static/Toonz71/Toonz71_529.gif
-.. |Toonz71_530| image:: /_static/Toonz71/Toonz71_530.gif
 .. |animate| image:: /_static/function_editor/animate.png
+.. |key| image:: /_static/function_editor/key.png
+.. |next_key| image:: /_static/function_editor/next_key.png
+.. |prevkey| image:: /_static/function_editor/prevkey.png
+.. |schematic| image:: /_static/function_editor/schematic.png

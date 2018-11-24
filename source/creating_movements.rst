@@ -27,19 +27,11 @@ Objects can be easily added and arranged, and they can be selected in order to b
 
 It is also possible to group several objects in one single node, in order to better manage the whole stage schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations, or new groups.
 
-.. note:: Column nodes have the camera stand ( |Toonz71_267| ) and the render (
-
- |Toonz71_268| ) toggles on the top right: these toggles are the same as the toggles available in the xsheet column headers (see 
-
-:ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
-
-
+.. note:: Column nodes have the camera stand (|camera_stand|) and the render (|preview|) toggles on the top right: these toggles are the same as the toggles available in the xsheet column headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
 
 .. tip:: **To access the stage schematic:**
 
-    Click the schematic toggle button ( |Toonz71_269| ) in the bottom bar of a schematic window until the title bar displays Stage Schematic.
-
-
+    Click the schematic toggle button (|schematic|) in the bottom bar of a schematic window until the title bar displays Stage Schematic.
 
 .. tip:: **To navigate the stage schematic:**
 
@@ -49,13 +41,11 @@ It is also possible to group several objects in one single node, in order to bet
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the Fit to Window button ( |Toonz71_270| ) in the bottom bar of the stage window to display all the objects in the current window.
+    - Use the Fit to Window button (|fit_to_window|) in the bottom bar of the stage window to display all the objects in the current window.
 
+    - Use the Focus on Current button (|focus_on_current|) in the bottom bar of the stage window to center the stage on the current object.
 
-
-    - Use the Focus on Current button ( |Toonz71_271| ) in the bottom bar of the stage window to center the stage on the current object.
-
-    - Use the Reset Size button ( |Toonz71_272| ) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
+    - Use the Reset Size button (|reset|) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
 
 .. tip:: **To add a column:**
 
@@ -65,9 +55,7 @@ It is also possible to group several objects in one single node, in order to bet
 
     Do one of the following:
 
-    - Click the New Pegbar button ( |Toonz71_273| ) in the bottom bar of the stage window.
-
-
+    - Click the New Pegbar button (|pegbar|) in the bottom bar of the stage window.
 
     - Right-click in the stage and choose New Pegbar from the menu that opens.
 
@@ -75,9 +63,7 @@ It is also possible to group several objects in one single node, in order to bet
 
     Do one of the following:
 
-    - Click the New Camera button ( |Toonz71_274| ) in the bottom bar of the stage window.
-
-
+    - Click the New Camera button (|camera|) in the bottom bar of the stage window.
 
     - Right-click in the stage and choose New Camera from the menu that opens.
 
@@ -95,11 +81,7 @@ It is also possible to group several objects in one single node, in order to bet
 
     - Click the arrowhead next to the column name to minimize/maximize columns selectively.
 
-    - Click the Minimize/Maximize ( |Toonz71_275| /
-
- |Toonz71_276| ) button in the bottom bar of the stage window to minimize/maximize all the column nodes.
-
-
+    - Click the Minimize/Maximize (|minimize|/|maximize|) button in the bottom bar of the stage window to minimize/maximize all the column nodes.
 
 .. tip:: **To select objects and links:**
 
@@ -155,7 +137,7 @@ It is also possible to group several objects in one single node, in order to bet
 
 .. tip:: **To reorder nodes in the stage schematic:**
 
-    Click the Reorder Nodes button ( |Toonz71_277| ) in the bottom bar of the stage window.
+    Click the Reorder Nodes button (|reorder_nodes|) in the bottom bar of the stage window.
 
 
 
@@ -416,7 +398,7 @@ You can edit, move, rotate, scale and shear columns, pegbars, the table and came
 
 In the tool options bar you can set the following:
 
-- An option button ( |Toonz71_291| ) lets you set which tool options have to be displayed in the bar.
+- An option button (|option|) lets you set which tool options have to be displayed in the bar.
 
 
 
@@ -434,7 +416,7 @@ In the tool options bar you can set the following:
 
     - Global Key when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Animate tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
 
-    - A lock button ( |Toonz71_292| ) defines which transformations have to be locked while transforming the object.
+    - A lock button (|lock|) defines which transformations have to be locked while transforming the object.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
@@ -458,7 +440,7 @@ To control interactively transformation values you can also use the handle avail
 
 When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the Global Key option is activated, keys will be generated for all of the transformations.
 
-If you want to set a key for an object transformation leaving its value as it is at the current frame, you can just hit Enter on the displayed value; if the Global Key option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations leaving their values as they are at the current frame, you can use the Set Key button ( |Toonz71_293| ) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations regardless of the Global Key option.
+If you want to set a key for an object transformation leaving its value as it is at the current frame, you can just hit Enter on the displayed value; if the Global Key option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations leaving their values as they are at the current frame, you can use the Set Key button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations regardless of the Global Key option.
 
 
 
@@ -536,9 +518,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Activate the Global Key option in the tool options bar, click in any object transformations field, and press the Enter key.
 
-    - Click the Set Key button ( |Toonz71_297| ).
-
-
+    - Click the Set Key button (|key|).
 
     - When animating columns only, right-click in the column cell and choose Set Key from the menu that opens. 
 
@@ -546,7 +526,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
 .. tip:: **To turn a partial key position to a global key:**
 
-    Click the Set Key button ( |Toonz71_298| ): it turns from blue-striped to blue.
+    Click the Set Key button (|key|): it turns from blue-striped to blue.
 
 
 
@@ -554,17 +534,15 @@ If you want to set a key for an object transformation leaving its value as it is
 
     Do one of the following:
 
-    - If the key position is global, click the Set Key button ( |Toonz71_299| ): it turns from blue to grey.
+    - If the key position is global, click the Set Key button (|key|): it turns from blue to grey.
 
 
 
-    - If the key position is partial, click twice the Set Key button ( |Toonz71_300| ): with the first click it turns from striped-blue to blue, with the second from blue to grey.
+    - If the key position is partial, click twice the Set Key button (|key|): with the first click it turns from striped-blue to blue, with the second from blue to grey.
 
 .. tip:: **To navigate frames where key positions are defined in the viewer bottom bar:**
 
-    Use the Next ( |Toonz71_301| ) and Previous Key buttons (
-
- |Toonz71_302| ) available at the side of the Set Key button.
+    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the Set Key button.
 
 
 
@@ -574,11 +552,9 @@ If you want to set a key for an object transformation leaving its value as it is
 
     Do any of the following:
 
-    - Use the option button ( |Toonz71_303| ) to choose which tool options have to be displayed: only selected items will be displayed.
+    - Use the option button (|option|) to choose which tool options have to be displayed: only selected items will be displayed.
 
-
-
-    - Use the lock button ( |Toonz71_304| ) to choose which transformations have to be locked while transforming the object: only selected items will be locked.
+    - Use the lock button (|lock|) to choose which transformations have to be locked while transforming the object: only selected items will be locked.
 
 .. _changing_columns_stacking_order:
 
@@ -634,7 +610,7 @@ It is also possible to link the key positions of the objects to the positions of
 
     2. Do one of the following:
 
-    - Click the New Motion Path button ( |Toonz71_308| ) in the bottom bar of the stage window.
+    - Click the New Motion Path button (|new_motion_path|) in the bottom bar of the stage window.
 
     - Right-click in the stage and choose New Motion Path from the menu that opens.
 
@@ -660,15 +636,13 @@ It is also possible to link the key positions of the objects to the positions of
 
 .. tip:: **To set the type of movement along a motion path:**
 
-    Click the button at the far left of the object bottom port to switch between two options: the square ( |Toonz71_309| ) will preserve the object original orientation, and the rotated square (
-
- |Toonz71_310| ) will automatically rotate the object according to the motion path direction.
+    Click the button at the far left of the object bottom port to switch between two options: the square (|square|) will preserve the object original orientation, and the rotated square (|rhomb|) will automatically rotate the object according to the motion path direction.
 
 
 
 .. tip:: **To link the object key positions to the control points defining the motion path:**
 
-    Click the button at the left of the object bottom port to activate or deactivate the Link to Control Points option ( |Toonz71_311| ).
+    Click the button at the left of the object bottom port to activate or deactivate the Link to Control Points option (|link_to_control_points|).
 
 
 
@@ -797,7 +771,7 @@ All animations and interpolations set for the column can be visible and edited w
 
 .. tip:: **To activate/deactivate the cycling of previously created keys:**
 
-    Click the tab with a circular arrow ( |Toonz71_318| ) visible after the last key of a series.The cells affected by the cycled 
+    Click the tab with a circular arrow (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled 
 
 movement are marked on the right by a vertical zigzagged line. 
 
@@ -857,7 +831,7 @@ You can place and move cameras, the table, pegbars and columns in a 3D environme
 
 This means that it is possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
 
-The 3D environment can be activated, or deactivated, with the 3D button ( |Toonz71_319| ) available in the viewer title bar. When activated the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top view can be set. 
+The 3D environment can be activated, or deactivated, with the 3D button (|3d|) available in the viewer title bar. When activated the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top view can be set. 
 
 
 
@@ -873,7 +847,7 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
 .. tip:: **To enter the 3D environment:**
 
-    Click the 3D view button ( |Toonz71_320| ) available on the right of the viewer title bar.
+    Click the 3D view button (|3d|) available on the right of the viewer title bar.
 
 
 
@@ -911,57 +885,45 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     Do one of the following:
 
-    - To set a side view use the button ( |Toonz71_324| ) available on the side wall or the 3D environment.
+    - To set a side view use the button (|side_view|) available on the side wall or the 3D environment.
 
 
 
-    - To set a top view use the button ( |Toonz71_325| ) available on the floor or the 3D environment.
+    - To set a top view use the button (|top_view|) available on the floor or the 3D environment.
 
 .. tip:: **To exit the 3D environment:**
 
-    Click the standard ( |Toonz71_326| ) or camera view button (
+    Click the standard (|camera_stand|) or camera view button (|camera_view|) available on the right of the viewer title bar.
 
- |Toonz71_327| ) available on the right of the viewer title bar.
-
-
-
-.. |Toonz71_267| image:: /_static/Toonz71/Toonz71_267.gif
-.. |Toonz71_268| image:: /_static/Toonz71/Toonz71_268.gif
-.. |Toonz71_269| image:: /_static/Toonz71/Toonz71_269.gif
-.. |Toonz71_270| image:: /_static/Toonz71/Toonz71_270.gif
-.. |Toonz71_271| image:: /_static/Toonz71/Toonz71_271.gif
-.. |Toonz71_272| image:: /_static/Toonz71/Toonz71_272.gif
-.. |Toonz71_273| image:: /_static/Toonz71/Toonz71_273.gif
-.. |Toonz71_274| image:: /_static/Toonz71/Toonz71_274.gif
-.. |Toonz71_275| image:: /_static/Toonz71/Toonz71_275.gif
-.. |Toonz71_276| image:: /_static/Toonz71/Toonz71_276.gif
-.. |Toonz71_277| image:: /_static/Toonz71/Toonz71_277.gif
-.. |Toonz71_291| image:: /_static/Toonz71/Toonz71_291.gif
-.. |Toonz71_292| image:: /_static/Toonz71/Toonz71_292.gif
-.. |Toonz71_293| image:: /_static/Toonz71/Toonz71_293.gif
-.. |Toonz71_297| image:: /_static/Toonz71/Toonz71_297.gif
-.. |Toonz71_298| image:: /_static/Toonz71/Toonz71_298.gif
-.. |Toonz71_299| image:: /_static/Toonz71/Toonz71_299.gif
-.. |Toonz71_300| image:: /_static/Toonz71/Toonz71_300.gif
-.. |Toonz71_301| image:: /_static/Toonz71/Toonz71_301.gif
-.. |Toonz71_302| image:: /_static/Toonz71/Toonz71_302.gif
-.. |Toonz71_303| image:: /_static/Toonz71/Toonz71_303.gif
-.. |Toonz71_304| image:: /_static/Toonz71/Toonz71_304.gif
 .. |Toonz71_306| image:: /_static/Toonz71/Toonz71_306.gif
-.. |Toonz71_308| image:: /_static/Toonz71/Toonz71_308.gif
-.. |Toonz71_309| image:: /_static/Toonz71/Toonz71_309.gif
-.. |Toonz71_310| image:: /_static/Toonz71/Toonz71_310.gif
-.. |Toonz71_311| image:: /_static/Toonz71/Toonz71_311.gif
-.. |Toonz71_318| image:: /_static/Toonz71/Toonz71_318.gif
-.. |Toonz71_319| image:: /_static/Toonz71/Toonz71_319.gif
-.. |Toonz71_320| image:: /_static/Toonz71/Toonz71_320.gif
-.. |Toonz71_324| image:: /_static/Toonz71/Toonz71_324.gif
-.. |Toonz71_325| image:: /_static/Toonz71/Toonz71_325.gif
-.. |Toonz71_326| image:: /_static/Toonz71/Toonz71_326.gif
-.. |Toonz71_327| image:: /_static/Toonz71/Toonz71_327.gif
 .. |animate| image:: /_static/movements/animate.png
 .. |hand| image:: /_static/movements/hand.png
 .. |hook| image:: /_static/movements/hook.png
 .. |rotate| image:: /_static/movements/rotate.png
 .. |tracker| image:: /_static/movements/tracker.png
 .. |selection| image:: /_static/movements/selection.png
+.. |3d| image:: /_static/movements/3d.png
+.. |camera_stand| image:: /_static/movements/camera_stand.png
+.. |camera_view| image:: /_static/movements/camera_view.png
+.. |camera| image:: /_static/movements/camera.png
+.. |circular_arrow| image:: /_static/movements/circular_arrow.png
+.. |fit_to_window| image:: /_static/movements/fit_to_window.png
+.. |focus_on_current| image:: /_static/movements/focus_on_current.png
+.. |key| image:: /_static/movements/key.png
+.. |link_to_control_points| image:: /_static/movements/link_to_control_points.png
+.. |lock| image:: /_static/movements/lock.png
+.. |maximize| image:: /_static/movements/maximize.png
+.. |minimize| image:: /_static/movements/minimize.png
+.. |new_motion_path| image:: /_static/movements/new_motion_path.png
+.. |next_key| image:: /_static/movements/next_key.png
+.. |option| image:: /_static/movements/option.png
+.. |pegbar| image:: /_static/movements/pegbar.png
+.. |preview| image:: /_static/movements/preview.png
+.. |prevkey| image:: /_static/movements/prevkey.png
+.. |reorder_nodes| image:: /_static/movements/reorder_nodes.png
+.. |reset| image:: /_static/movements/reset.png
+.. |rhomb| image:: /_static/movements/rhomb.png
+.. |schematic| image:: /_static/movements/schematic.png
+.. |side_view| image:: /_static/movements/side_view.png
+.. |square| image:: /_static/movements/square.png
+.. |top_view| image:: /_static/movements/top_view.png

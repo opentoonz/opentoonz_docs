@@ -17,13 +17,7 @@ In the FX schematic all columns are displayed as nodes having an output port con
 
 When FX are added, they are displayed as nodes as well, with ports to create links that let you set the way FX affect the scene contents. 
 
-Column nodes have the camera stand ( |Toonz71_379| ) and the render (
-
- |Toonz71_380| ) toggles on the top right: these toggles are the same as the toggles available in the xsheet column headers (see 
-
-:ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the render toggle (
-
- |Toonz71_381| ) allowing you to include or exclude temporally the effect in the rendering.
+Column nodes have the camera stand (|camera_stand|) and the render (|preview|) toggles on the top right: these toggles are the same as the toggles available in the xsheet column headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the render toggle (|preview|) allowing you to include or exclude temporally the effect in the rendering.
 
 
 
@@ -33,7 +27,7 @@ It is also possible to group several nodes in one single node, in order to bette
 
 .. tip:: **To access the FX schematic:**
 
-    Click the schematic toggle button ( |Toonz71_382| ) in the bottom bar of the schematic window until the title bar displays FX Schematic.
+    Click the schematic toggle button (|schematic|) in the bottom bar of the schematic window until the title bar displays FX Schematic.
 
 
 
@@ -45,13 +39,13 @@ It is also possible to group several nodes in one single node, in order to bette
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the Fit to Window button ( |Toonz71_383| ) in the bottom bar of the schematic window to display all of the objects in the current window.
+    - Use the Fit to Window button (|fit_to_window|) in the bottom bar of the schematic window to display all of the objects in the current window.
 
 
 
-    - Use the Focus on Current button ( |Toonz71_384| ) in the bottom bar of the schematic window to center the stage on the current object.
+    - Use the Focus on Current button (|focus_on_current|) in the bottom bar of the schematic window to center the stage on the current object.
 
-    - Use the Reset Size button ( |Toonz71_385| ) in the bottom bar of the schematic window, or use the reset view shortcut (by default the 0 key) to display all of the objects at the default size.
+    - Use the Reset Size button (|reset|) in the bottom bar of the schematic window, or use the reset view shortcut (by default the 0 key) to display all of the objects at the default size.
 
 .. tip:: **To name a node:**
 
@@ -63,9 +57,7 @@ It is also possible to group several nodes in one single node, in order to bette
 
     - Click the arrowhead next to the node name to minimize/maximize columns selectively.
 
-    - Click the Minimize/Maximize ( |Toonz71_386| /
-
- |Toonz71_387| ) button in the bottom bar of the schematic window to minimize/maximize all the column nodes.
+    - Click the Minimize/Maximize (|minimize|/|maximize|) button in the bottom bar of the schematic window to minimize/maximize all the column nodes.
 
 
 
@@ -105,13 +97,13 @@ It is also possible to group several nodes in one single node, in order to bette
 
 .. tip:: **To include or exclude temporally an effect from the rendering:**
 
-    Click the render toggle ( |Toonz71_388| ) on the upper right corner of the effect node.
+    Click the render toggle (|preview|) on the upper right corner of the effect node.
 
 
 
 .. tip:: **To reorder nodes in the FX schematic:**
 
-    Click the Reorder Nodes button ( |Toonz71_389| ) in the bottom bar of the schematic window.
+    Click the Reorder Nodes button (|reorder_nodes|) in the bottom bar of the schematic window.
 
 
 
@@ -157,7 +149,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     - Choose Xsheet > New FX.
 
-    - Click the New FX button ( |Toonz71_394| ) in the bottom bar of the schematic window.
+    - Click the New FX button (|fx|) in the bottom bar of the schematic window.
 
 
 
@@ -323,7 +315,7 @@ When more than one output node is defined, you can set which is the active one, 
 
     2. Do one of the following:
 
-    - Click the New Output button ( |Toonz71_395| ) in the bottom bar of the schematic window.
+    - Click the New Output button (|output|) in the bottom bar of the schematic window.
 
     - Right-click the node and choose New Output from the menu that opens.
 
@@ -331,7 +323,7 @@ When more than one output node is defined, you can set which is the active one, 
 
     Do one of the following:
 
-    - Click the New Output button ( |Toonz71_396| ) in the bottom bar of the schematic window.
+    - Click the New Output button (|output|) in the bottom bar of the schematic window.
 
 
 
@@ -361,11 +353,11 @@ Editing FX Settings
 -------------------
 FX parameters and their animation can be controlled in the FX Settings window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc. At the bottom of the window a preview area is available to check the result of the applied effect: you can activate or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
 
-Parameters can be animated by setting key values at specific frames. A Set Key button ( |Toonz71_397| ) is available in the bottom bar of the window to set key values for all of the parameters. For all of the parameters that can be animated there is also a specific set key button, a small square located on the far right of each parameter, in order to set key values for each parameter independently. 
+Parameters can be animated by setting key values at specific frames. A Set Key button (|key|) is available in the bottom bar of the window to set key values for all of the parameters. For all of the parameters that can be animated there is also a specific set key button, a small square located on the far right of each parameter, in order to set key values for each parameter independently. 
 
 
 
-The Set Key button ( |Toonz71_398| ) may have the following colors:
+The Set Key button (|key|) may have the following colors:
 
 
 
@@ -385,7 +377,7 @@ The parameter specific set key button may have the following colors:
 
     - It is outlined in red if you change the parameter value and the current frame does not have a key for the parameter.
 
-Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The Next ( |Toonz71_399| ) and Previous Key buttons ( |Toonz71_400| ) are available only if more than one key value is defined.  |Toonz71_401| 
+Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined.  |Toonz71_401| 
 
 If no key values are defined, parameters you set will be used throughout the scene.
 
@@ -415,9 +407,9 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     1. Do one of the following:
 
-    - If the current frame is not a key, click the Set Key button ( |Toonz71_402| ) in the bottom bar of the window: it turns from grey to blue and current values become key values for all the parameters at the current frame. 
+    - If the current frame is not a key, click the Set Key button (|key|) in the bottom bar of the window: it turns from grey to blue and current values become key values for all the parameters at the current frame. 
 
-    - If the current frame is a key for some parameters only, click the Set Key button ( |Toonz71_403| ): it turns from blue striped to blue and current values become key values for all the parameters at the current frame. 
+    - If the current frame is a key for some parameters only, click the Set Key button (|key|): it turns from blue striped to blue and current values become key values for all the parameters at the current frame. 
 
     2. Define the values for the parameters.
 
@@ -433,11 +425,9 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     Do one of the following:
 
-    - If the key values are set for all the parameters, click the Set Key button ( |Toonz71_404| ) in the bottom bar of the window: it turns from blue to grey.
+    - If the key values are set for all the parameters, click the Set Key button (|key|) in the bottom bar of the window: it turns from blue to grey.
 
-
-
-    - If the key values are set for some parameters only, click twice the Set Key button ( |Toonz71_405| ) in the bottom bar of the window: with the first click it turns from blue-striped to blue as you set keys for all the parameters; with the second click, it turns from blue to grey.
+    - If the key values are set for some parameters only, click twice the Set Key button (|key|) in the bottom bar of the window: with the first click it turns from blue-striped to blue as you set keys for all the parameters; with the second click, it turns from blue to grey.
 
 .. tip:: **To remove a key value for a specific parameter at the current frame:**
 
@@ -445,21 +435,17 @@ If no key values are defined, parameters you set will be used throughout the sce
 
 .. tip:: **To navigate frames where key values are defined:**
 
-    Use the Next ( |Toonz71_406| ) and Previous Key buttons (
-
- |Toonz71_407| ) available at the side of the Set Key button.
-
-
+    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the Set Key button.
 
 .. tip:: **To activate/deactivate the preview area:**
 
     Do any of the following:
 
-    - Click the Camera Preview button ( |Toonz71_408| ) in the bottom bar of the FX settings window to limit the preview to the camera shot.
+    - Click the Camera Preview button ( |Toonz71_408|) in the bottom bar of the FX settings window to limit the preview to the camera shot.
 
 
 
-    - Click the Preview button ( |Toonz71_409| ) in the bottom bar of the FX settings window to preview the results regardless of the camera shot.
+    - Click the Preview button (|preview|) in the bottom bar of the FX settings window to preview the results regardless of the camera shot.
 
 .. tip:: **To resize the preview area:**
 
@@ -475,11 +461,7 @@ If no key values are defined, parameters you set will be used throughout the sce
 
 .. tip:: **To change the background color of the preview area:**
 
-    Use the buttons in the bottom bar of the FX settings window to choose a white ( |Toonz71_410| ), black (
-
- |Toonz71_411| ) or transparent (
-
- |Toonz71_412| ) background.
+    Use the buttons in the bottom bar of the FX settings window to choose a white (|preview_white|), black (|preview_black|) or transparent (|preview_checkbox|) background.
 
 
 
@@ -1627,43 +1609,12 @@ GPU Spin Blur
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Safe Radius. The Blur parameter sets the amount of blur.
 
 
-
-
-
-.. |Toonz71_379| image:: /_static/Toonz71/Toonz71_379.gif
-.. |Toonz71_380| image:: /_static/Toonz71/Toonz71_380.gif
-.. |Toonz71_381| image:: /_static/Toonz71/Toonz71_381.gif
-.. |Toonz71_382| image:: /_static/Toonz71/Toonz71_382.gif
-.. |Toonz71_383| image:: /_static/Toonz71/Toonz71_383.gif
-.. |Toonz71_384| image:: /_static/Toonz71/Toonz71_384.gif
-.. |Toonz71_385| image:: /_static/Toonz71/Toonz71_385.gif
-.. |Toonz71_386| image:: /_static/Toonz71/Toonz71_386.gif
-.. |Toonz71_387| image:: /_static/Toonz71/Toonz71_387.gif
-.. |Toonz71_388| image:: /_static/Toonz71/Toonz71_388.gif
-.. |Toonz71_389| image:: /_static/Toonz71/Toonz71_389.gif
 .. |Toonz71_390| image:: /_static/Toonz71/Toonz71_390.gif
 .. |Toonz71_391| image:: /_static/Toonz71/Toonz71_391.gif
 .. |Toonz71_392| image:: /_static/Toonz71/Toonz71_392.gif
 .. |Toonz71_393| image:: /_static/Toonz71/Toonz71_393.gif
-.. |Toonz71_394| image:: /_static/Toonz71/Toonz71_394.gif
-.. |Toonz71_395| image:: /_static/Toonz71/Toonz71_395.gif
-.. |Toonz71_396| image:: /_static/Toonz71/Toonz71_396.gif
-.. |Toonz71_397| image:: /_static/Toonz71/Toonz71_397.gif
-.. |Toonz71_398| image:: /_static/Toonz71/Toonz71_398.gif
-.. |Toonz71_399| image:: /_static/Toonz71/Toonz71_399.gif
-.. |Toonz71_400| image:: /_static/Toonz71/Toonz71_400.gif
 .. |Toonz71_401| image:: /_static/Toonz71/Toonz71_401.gif
-.. |Toonz71_402| image:: /_static/Toonz71/Toonz71_402.gif
-.. |Toonz71_403| image:: /_static/Toonz71/Toonz71_403.gif
-.. |Toonz71_404| image:: /_static/Toonz71/Toonz71_404.gif
-.. |Toonz71_405| image:: /_static/Toonz71/Toonz71_405.gif
-.. |Toonz71_406| image:: /_static/Toonz71/Toonz71_406.gif
-.. |Toonz71_407| image:: /_static/Toonz71/Toonz71_407.gif
 .. |Toonz71_408| image:: /_static/Toonz71/Toonz71_408.gif
-.. |Toonz71_409| image:: /_static/Toonz71/Toonz71_409.gif
-.. |Toonz71_410| image:: /_static/Toonz71/Toonz71_410.gif
-.. |Toonz71_411| image:: /_static/Toonz71/Toonz71_411.gif
-.. |Toonz71_412| image:: /_static/Toonz71/Toonz71_412.gif
 .. |Toonz71_414| image:: /_static/Toonz71/Toonz71_414.gif
 .. |Toonz71_415| image:: /_static/Toonz71/Toonz71_415.gif
 .. |Toonz71_417| image:: /_static/Toonz71/Toonz71_417.gif
@@ -1753,3 +1704,20 @@ Blurs along concentric circular lines as if the Source content turns around the 
 .. |Toonz71_501| image:: /_static/Toonz71/Toonz71_501.gif
 .. |Toonz71_502| image:: /_static/Toonz71/Toonz71_502.gif
 .. |Toonz71_503| image:: /_static/Toonz71/Toonz71_503.gif
+.. |camera_stand| image:: /_static/sfx/camera_stand.png
+.. |fit_to_window| image:: /_static/sfx/fit_to_window.png
+.. |focus_on_current| image:: /_static/sfx/focus_on_current.png
+.. |fx| image:: /_static/sfx/fx.png
+.. |key| image:: /_static/sfx/key.png
+.. |maximize| image:: /_static/sfx/maximize.png
+.. |minimize| image:: /_static/sfx/minimize.png
+.. |next_key| image:: /_static/sfx/next_key.png
+.. |output| image:: /_static/sfx/output.png
+.. |preview_black| image:: /_static/sfx/preview_black.png
+.. |preview_checkbox| image:: /_static/sfx/preview_checkbox.png
+.. |preview_white| image:: /_static/sfx/preview_white.png
+.. |preview| image:: /_static/sfx/preview.png
+.. |prevkey| image:: /_static/sfx/prevkey.png
+.. |reorder_nodes| image:: /_static/sfx/reorder_nodes.png
+.. |reset| image:: /_static/sfx/reset.png
+.. |schematic| image:: /_static/sfx/schematic.png
