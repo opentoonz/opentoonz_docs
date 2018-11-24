@@ -203,7 +203,7 @@ Every time a position for a section is set, a key position is automatically gene
 
 It is also possible to activate the Global Key option in order to set a key for all the section transformations, including scaling and shearing, as soon as a key for one transformation is set. This may result useful if you want to animate the model first, and then refine the animation by adding stretching and squashing transformations.
 
-If you want to create a key without operating the handle, in order to leave the section position and rotation as they are, you can use the Set Key button ( |Toonz71_347| ) available in the bottom bar of the viewer. In this case keys are created for all the object transformations (see 
+If you want to create a key without operating the handle, in order to leave the section position and rotation as they are, you can use the Set Key button (|key|) available in the bottom bar of the viewer. In this case keys are created for all the object transformations (see 
 
 :ref:`Animating Objects <animating_objects>`  ). It is also possible to manage keys for several model sections at once by inserting or deleting keys affecting the xsheet as a whole, or a selection of xsheet columns (see 
 
@@ -314,7 +314,7 @@ The pinned centers information and coordinates are saved along with the scene; i
     2. Right-click in the viewer and choose Reset Pinned Center from the menu that opens
 
 .. |Toonz71_328| image:: /_static/Toonz71/Toonz71_328.gif
-.. |Toonz71_347| image:: /_static/Toonz71/Toonz71_347.gif
 .. |animate| image:: /_static/cutout_animation/animate.png
 .. |hook| image:: /_static/cutout_animation/hook.png
 .. |skeleton| image:: /_static/cutout_animation/skeleton.png
+.. |key| image:: /_static/cutout_animation/key.png

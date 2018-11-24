@@ -43,20 +43,20 @@ Palettes also can be saved as independent files in TPL format, to be loaded back
 
     Do one of the following:
     
-    - Click the option button ( |Toonz71_127| ) on the right of the top bar of the palette editor, and choose a display mode from the menu that opens.
+    - Click the option button (|option|) on the right of the top bar of the palette editor, and choose a display mode from the menu that opens.
     
     - Use the standard zoom ``+`` or ``-`` shortcut keys in the palette editor to increase or decrease the styles chips size.
 
 
 .. tip:: **To make the palette inactive or active:**
 
-    Click the switch button ( |Toonz71_128| ) on the right of the palette editor title bar.
+    Click the switch button (|switch|) on the right of the palette editor title bar.
 
 
 
 .. tip:: **To save a palette with a different name in a different location:**
 
-    1. Click the Save Palette As button () in the top bar of the palette editor.
+    1. Click the Save Palette As button (|save_as|) in the top bar of the palette editor.
 
     2. In the browser that opens choose a location and name for the palette you want to save, and click the Save button.
 
@@ -93,7 +93,7 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 .. tip:: **To add a new style:**
 
-    Click the New Style button ( |Toonz71_130| ) in the top bar of the palette editor. 
+    Click the New Style button (|new_style|) in the top bar of the palette editor. 
 
 .. tip:: **To name a style:**
 
@@ -141,7 +141,7 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
     Do one of the following:
 
-    - Click the New Page button ( |Toonz71_131| ) in the top bar of the palette editor.
+    - Click the New Page button (|new_page|) in the top bar of the palette editor.
 
     - Right-click in the palette area where page tabs are displayed and choose New Page from the menu that opens.
 
@@ -213,7 +213,7 @@ These folders can be used, for example, to move your studio palette, or the proj
 
     2. Do one of the following:
 
-    - Click the Palette button ( |Toonz71_135| ) in the top bar of the palette editor and drag the current palette to the studio palette folder where you want to locate it. The palette will retain its name.
+    - Click the Palette button (|drag_palette|) in the top bar of the palette editor and drag the current palette to the studio palette folder where you want to locate it. The palette will retain its name.
 
     - Add an empty palette in the studio palette browser, right-click it and select Replace with Current Palette from the menu that opens.
 
@@ -249,7 +249,7 @@ These folders can be used, for example, to move your studio palette, or the proj
 
     Do one of the following:
 
-    - Click and drag the palette, from the studio palette tree to the Palette button ( |Toonz71_139| ) in the top bar of the palette editor.
+    - Click and drag the palette, from the studio palette tree to the Palette button (|drag_palette|) in the top bar of the palette editor.
 
     - Right-click the palette you want to use and select Load into Current Palette from the menu that opens.
 
@@ -338,15 +338,15 @@ Keys are set for all the palette colors and settings (in the case of Special Sty
 
     1. Select in the xsheet the frame where you want to define the key.
 
-    2. Click the key button ( |Toonz71_140| ) in the top bar of the palette editor.
+    2. Click the key button (|key|) in the top bar of the palette editor.
 
 .. tip:: **To check if the palette has a key at a specific frame:**
 
-    Select the frame you want to check: if the key button ( |Toonz71_141| ) in the top bar of the palette editor is blue, the colors have a key at the current frame.
+    Select the frame you want to check: if the key button (|key|) in the top bar of the palette editor is blue, the colors have a key at the current frame.
 
 .. tip:: **To navigate the palette keys:**
 
-    Use the Next ( |Toonz71_142| ) and Previous Key buttons ( |Toonz71_143| ) available at the side of the key button in the top bar of the palette editor.
+    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the key button in the top bar of the palette editor.
 
 .. tip:: **To remove a palette key:**
 
@@ -356,7 +356,7 @@ Keys are set for all the palette colors and settings (in the case of Special Sty
 
     - Navigate the palette keys.
 
-    2. Click the key button ( |Toonz71_144| ) in the top bar of the palette editor.
+    2. Click the key button (|key|) in the top bar of the palette editor.
 
 
 .. _editing_styles:
@@ -723,24 +723,8 @@ The Name Editor allows to systematize the naming of styles used in a production,
 .. |style_editor_settings| image:: /_static/palettes_styles/style_editor_settings.png
 .. |palette_gizmo| image:: /_static/palettes_styles/palette_gizmo.png
 .. |name_editor| image:: /_static/palettes_styles/name_editor.png
-
-.. |Toonz71_127| image:: /_static/Toonz71/Toonz71_127.gif
-.. |Toonz71_128| image:: /_static/Toonz71/Toonz71_128.gif
-.. |Toonz71_130| image:: /_static/Toonz71/Toonz71_130.gif
-.. |Toonz71_131| image:: /_static/Toonz71/Toonz71_131.gif
 .. |Toonz71_132| image:: /_static/Toonz71/Toonz71_132.gif
 .. |Toonz71_133| image:: /_static/Toonz71/Toonz71_133.gif
-.. |Toonz71_134| image:: /_static/Toonz71/Toonz71_134.gif
-.. |Toonz71_135| image:: /_static/Toonz71/Toonz71_135.gif
-.. |Toonz71_136| image:: /_static/Toonz71/Toonz71_136.gif
-.. |Toonz71_137| image:: /_static/Toonz71/Toonz71_137.gif
-.. |Toonz71_138| image:: /_static/Toonz71/Toonz71_138.gif
-.. |Toonz71_139| image:: /_static/Toonz71/Toonz71_139.gif
-.. |Toonz71_140| image:: /_static/Toonz71/Toonz71_140.gif
-.. |Toonz71_141| image:: /_static/Toonz71/Toonz71_141.gif
-.. |Toonz71_142| image:: /_static/Toonz71/Toonz71_142.gif
-.. |Toonz71_143| image:: /_static/Toonz71/Toonz71_143.gif
-.. |Toonz71_144| image:: /_static/Toonz71/Toonz71_144.gif
 .. |Toonz71_145| image:: /_static/Toonz71/Toonz71_145.gif
 .. |Toonz71_148| image:: /_static/Toonz71/Toonz71_148.gif
 .. |Toonz71_149| image:: /_static/Toonz71/Toonz71_149.gif
@@ -749,3 +733,12 @@ The Name Editor allows to systematize the naming of styles used in a production,
 .. |Toonz71_152| image:: /_static/Toonz71/Toonz71_152.gif
 .. |Toonz71_154| image:: /_static/Toonz71/Toonz71_154.gif
 .. |RGB_picker| image:: /_static/palettes_styles/RGB_picker.png
+.. |drag_palette| image:: /_static/palettes_styles/drag_palette.png
+.. |key| image:: /_static/palettes_styles/key.png
+.. |new_page| image:: /_static/palettes_styles/new_page.png
+.. |new_style| image:: /_static/palettes_styles/new_style.png
+.. |next_key| image:: /_static/palettes_styles/next_key.png
+.. |option| image:: /_static/palettes_styles/option.png
+.. |prevkey| image:: /_static/palettes_styles/prevkey.png
+.. |save_as| image:: /_static/palettes_styles/save_as.png
+.. |switch| image:: /_static/palettes_styles/switch.png

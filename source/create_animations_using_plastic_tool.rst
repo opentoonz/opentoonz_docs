@@ -2,7 +2,7 @@
 
 Create animations using Plastic tool
 ====================================
-Plastic is a powerful tool ( |Toonz71_357| ) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it is applied to creating smooth animations.
+Plastic is a powerful tool (|plastic|) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it is applied to creating smooth animations.
 
 
 
@@ -33,7 +33,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
     1. Select the column that is going to be animated using the Plastic tool. This will be the texture-column (TC) of the mesh that is going to be created.
 
-    2. Choose the Plastic tool ( |Toonz71_359| )
+    2. Choose the Plastic tool (|plastic|)
 
     3. Press the Create Mesh button in the tool options bar.
 
@@ -110,7 +110,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     1. Select in the Xsheet the mesh column you want to modify. 
 
-    2. If not already active, choose the Plastic tool ( |Toonz71_362| )
+    2. If not already active, choose the Plastic tool (|plastic|)
 
     3. In the Tool Option bar set the Mode to Edit Mesh.
 
@@ -168,7 +168,7 @@ The Plastic skeleton is a control structure linked to a mesh level that gives us
 
     1. Select in the Xsheet the mesh column for which you want to build the skeleton.
 
-    2. If not already active, choose the Plastic tool ( |Toonz71_365| )
+    2. If not already active, choose the Plastic tool (|plastic|)
 
     3. In the Tool Option bar set the Mode to Build Skeleton.
 
@@ -379,7 +379,7 @@ Activating the Paint Rigid mode in the tool Plastic options bar, a specific draw
 
     1. Select the mesh column in the xsheet.
 
-    2. Choose the Plastic tool ( |Toonz71_370| )
+    2. Choose the Plastic tool (|plastic|)
 
     3. Set the Mode to Paint Rigid.
 
@@ -396,7 +396,7 @@ Activating the Paint Rigid mode in the tool Plastic options bar, a specific draw
 
     1. Select the mesh column in the xsheet.
 
-    2. Choose the Plastic tool ( |Toonz71_372| )
+    2. Choose the Plastic tool (|plastic|)
 
     3. Set the Mode to Paint Rigid.
 
@@ -524,12 +524,7 @@ Plastic and subxsheets
 ''''''''''''''''''''''
 A subxsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a subxsheet is selected as starting element, all the columns in the subxsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected subxsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested subxsheet with its own mesh and skeleton).
 
-.. |Toonz71_357| image:: /_static/Toonz71/Toonz71_357.gif
-.. |Toonz71_359| image:: /_static/Toonz71/Toonz71_359.gif
 .. |Toonz71_361| image:: /_static/Toonz71/Toonz71_361.gif
-.. |Toonz71_362| image:: /_static/Toonz71/Toonz71_362.gif
-.. |Toonz71_365| image:: /_static/Toonz71/Toonz71_365.gif
 .. |Toonz71_368| image:: /_static/Toonz71/Toonz71_368.gif
-.. |Toonz71_370| image:: /_static/Toonz71/Toonz71_370.gif
-.. |Toonz71_372| image:: /_static/Toonz71/Toonz71_372.gif
 .. |Toonz71_373| image:: /_static/Toonz71/Toonz71_373.gif
+.. |plastic| image:: /_static/plastic_tool/plastic.png

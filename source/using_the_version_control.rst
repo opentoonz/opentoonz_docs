@@ -356,54 +356,52 @@ According to the folder and file icons you can tell if the folder or the file in
 
 For the folders the following icons are used:
 
-- A grey folder icon ( |Toonz71_577| ) is used for folders available only in the repository. You can use the Get command to copy them to the local working copy.
+- A grey folder icon (|grey_folder|) is used for folders available only in the repository. You can use the Get command to copy them to the local working copy.
 
 
 
-    - A colored folder icon with a yellow mark ( |Toonz71_578| ) is used when the folder contents in the working copy is not up to date and does not match to the folder contents in the repository: this is the case when there are modified or new files in the working copy or there are modified or new files in the repository. You can use the Get command to copy them to the local working copy.
+- A colored folder icon with a yellow mark (|colored_folder_with_yellow_mark|) is used when the folder contents in the working copy is not up to date and does not match to the folder contents in the repository: this is the case when there are modified or new files in the working copy or there are modified or new files in the repository. You can use the Get command to copy them to the local working copy.
 
-    - A colored folder icon with a green mark ( |Toonz71_579| ) is used when the folder contents in the working copy is up to date and matches to the folder contents in the repository.
+- A colored folder icon with a green mark (|colored_folder_with_green_mark|) is used when the folder contents in the working copy is up to date and matches to the folder contents in the repository.
 
-    - A colored folder with a plus mark ( |Toonz71_580| ) is used for folders available only in the working copy. You can use the Put command to copy them to the local working copy.
+- A colored folder with a plus mark (|colored_folder_with_plus_mark|) is used for folders available only in the working copy. You can use the Put command to copy them to the local working copy.
 
 For the files the following icons are used:
 
 - A generic grey icon is used for files available only in the repository. You can use the Get command to copy them to the local working copy.
 
-- The file icon with a grey check mark ( |Toonz71_581| ) is used when files in the working copy are up to date and match to the latest version available in the repository. The files are in read-only mode, and they have to be in edit mode in order to be modified.
+- The file icon with a grey check mark (|grey_mark_check|) is used when files in the working copy are up to date and match to the latest version available in the repository. The files are in read-only mode, and they have to be in edit mode in order to be modified.
 
+- The file icon with a green check mark (|green_mark_check|) is used when files in the working copy are in edit mode.
 
+- The file icon with a green check mark on a grey and white background (|half_grey_mark_check|) is used when files in the working copy are partially in edit mode.
 
-    - The file icon with a green check mark ( |Toonz71_582| ) is used when files in the working copy are in edit mode.
+- The file icon with a red exclamation mark (|red_exclamation_mark_check|) is used when files in the working copy are newer than the latest version available in the repository, because you modified them. You can use the Put command to copy them to the central repository.
 
-    - The file icon with a green check mark on a grey and white background ( |Toonz71_583| ) is used when files in the working copy are partially in edit mode.
+- The file icon with a red exclamation mark on a grey and white background (|half_grey_red_exclamation_mark_check|) is used when files in the working copy are partially newer than to the latest version available in the repository, because you modified them. You can use the Put command to copy them to the central repository.
 
-    - The file icon with a red exclamation mark ( |Toonz71_584| ) is used when files in the working copy are newer than the latest version available in the repository, because you modified them. You can use the Put command to copy them to the central repository.
+- The file icon with an orange exclamation mark (|orange_exclamation_mark_check|) is used when files in the working copy are older than the latest version available in the repository, because someone modified them. You can use the Get command to copy them to the local working copy.
 
-    - The file icon with a red exclamation mark on a grey and white background ( |Toonz71_585| ) is used when files in the working copy are partially newer than to the latest version available in the repository, because you modified them. You can use the Put command to copy them to the central repository.
+- The file icon with an lock mark (|lock_mark|) is used when files are in edit mode by other users. For these files it is only possible to check the information about the user editing the file. 
 
-    - The file icon with an orange exclamation mark ( |Toonz71_586| ) is used when files in the working copy are older than the latest version available in the repository, because someone modified them. You can use the Get command to copy them to the local working copy.
+- The file icon with a lock mark on a grey and white background (|half_grey_lock_mark|) is used when files are partially in edit mode by other users. 
 
-    - The file icon with an lock mark ( |Toonz71_587| ) is used when files are in edit mode by other users. For these files it is only possible to check the information about the user editing the file. 
-
-    - The file icon with a lock mark on a grey and white background ( |Toonz71_588| ) is used when files are partially in edit mode by other users. 
-
-    - The file icon with the + mark ( |Toonz71_589| ) is used for files available only in the working copy. You can use the Put command to copy them to the local working copy.
+- The file icon with the + mark (|blue_plus_mark|) is used for files available only in the working copy. You can use the Put command to copy them to the local working copy.
 
 .. |Toonz71_573| image:: /_static/Toonz71/Toonz71_573.gif
 .. |Toonz71_574| image:: /_static/Toonz71/Toonz71_574.gif
 .. |Toonz71_575| image:: /_static/Toonz71/Toonz71_575.gif
 .. |Toonz71_576| image:: /_static/Toonz71/Toonz71_576.gif
-.. |Toonz71_577| image:: /_static/Toonz71/Toonz71_577.gif
-.. |Toonz71_578| image:: /_static/Toonz71/Toonz71_578.gif
-.. |Toonz71_579| image:: /_static/Toonz71/Toonz71_579.gif
-.. |Toonz71_580| image:: /_static/Toonz71/Toonz71_580.gif
-.. |Toonz71_581| image:: /_static/Toonz71/Toonz71_581.gif
-.. |Toonz71_582| image:: /_static/Toonz71/Toonz71_582.gif
-.. |Toonz71_583| image:: /_static/Toonz71/Toonz71_583.gif
-.. |Toonz71_584| image:: /_static/Toonz71/Toonz71_584.gif
-.. |Toonz71_585| image:: /_static/Toonz71/Toonz71_585.gif
-.. |Toonz71_586| image:: /_static/Toonz71/Toonz71_586.gif
-.. |Toonz71_587| image:: /_static/Toonz71/Toonz71_587.gif
-.. |Toonz71_588| image:: /_static/Toonz71/Toonz71_588.gif
-.. |Toonz71_589| image:: /_static/Toonz71/Toonz71_589.gif
+.. |grey_folder| image:: /_static/version_control/grey_folder.png
+.. |blue_plus_mark| image:: /_static/version_control/blue_plus_mark.png
+.. |colored_folder_with_green_mark| image:: /_static/version_control/colored_folder_with_green_mark.png
+.. |colored_folder_with_plus_mark| image:: /_static/version_control/colored_folder_with_plus_mark.png
+.. |colored_folder_with_yellow_mark| image:: /_static/version_control/colored_folder_with_yellow_mark.png
+.. |green_mark_check| image:: /_static/version_control/green_mark_check.png
+.. |grey_mark_check| image:: /_static/version_control/grey_mark_check.png
+.. |half_grey_lock_mark| image:: /_static/version_control/half_grey_lock_mark.png
+.. |half_grey_mark_check| image:: /_static/version_control/half_grey_mark_check.png
+.. |lock_mark| image:: /_static/version_control/lock_mark.png
+.. |orange_exclamation_mark_check| image:: /_static/version_control/orange_exclamation_mark_check.png
+.. |red_exclamation_mark_check| image:: /_static/version_control/red_exclamation_mark_check.png
+.. |half_grey_red_exclamation_mark_check| image:: /_static/version_control/half_grey_red_exclamation_mark_check.png

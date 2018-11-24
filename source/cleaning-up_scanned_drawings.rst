@@ -272,7 +272,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select an empty cell in the xsheet.
 
-    2. Click the Save Settings button ( |Toonz71_041| ) in the bottom bar of the cleanup settings window.
+    2. Click the Save Settings button (|save|) in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens choose for the CLN file a location and name, and click the Save button.
 
@@ -280,7 +280,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select an empty cell in the xsheet.
 
-    2. Click the Load Settings button ( |Toonz71_042| ) in the bottom bar of the cleanup settings window.
+    2. Click the Load Settings button (|load|) in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens retrieve the CLN file you want to load, and click the Load button.
 
@@ -288,7 +288,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select any cell where the level is exposed in the xsheet.
 
-    2. Click the Save Settings button ( |Toonz71_043| ) in the bottom bar of the cleanup settings window.
+    2. Click the Save Settings button (|save|) in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens save the CLN file in the same location and with the same name as the level, and click the Save button.
 
@@ -296,15 +296,15 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select any cell where the level is exposed in the xsheet.
 
-    2. Click the Load Settings button ( |Toonz71_044| ) in the bottom bar of the cleanup settings window.
+    2. Click the Load Settings button (|load|) in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens retrieve the CLN file you want to load, and click the Load button.
 
-    4. Click the Save Settings button ( |Toonz71_045| ) and in the browser that opens save the CLN file in the same location and with the same name as the level, and click the Save button.
+    4. Click the Save Settings button (|save|) and in the browser that opens save the CLN file in the same location and with the same name as the level, and click the Save button.
 
 .. tip:: **To reset cleanup settings to the scene default:**
 
-    Click the Reset Settings button ( |Toonz71_046| ) in the bottom bar of the cleanup settings window.
+    Click the Reset Settings button (|reset|) in the bottom bar of the cleanup settings window.
 
 
 
@@ -334,13 +334,13 @@ If you change any parameter in the cleanup settings, the previewed drawing autom
 
 .. tip:: **To activate the preview area:**
 
-    In the xsheet select the scanned drawing you want to preview, and click the Preview button ( |Toonz71_047| ) in the bottom bar of the cleanup settings window.
+    In the xsheet select the scanned drawing you want to preview, and click the Preview button (|preview|) in the bottom bar of the cleanup settings window.
 
 
 
 .. tip:: **To deactivate the preview area:**
 
-    Click the Preview button ( |Toonz71_048| ) in the bottom bar of the cleanup settings window.
+    Click the Preview button (|preview|) in the bottom bar of the cleanup settings window.
 
 
 
@@ -407,7 +407,7 @@ The check is visible both in the preview area of the cleanup settings and in the
 
 .. tip:: **To activate and deactivate the opacity check:**
 
-    Click the Opacity Check button ( |Toonz71_050| ) in the bottom bar of the cleanup settings window.
+    Click the Opacity Check button (|check|) in the bottom bar of the cleanup settings window.
 
 
 
@@ -544,7 +544,7 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
 
     1. Do one of the following:
 
-    - Click the Save Task List ( |Toonz71_053| ) or the Save Task List As button ( |Toonz71_054| ) in the bottom bar of the Tasks pane.
+    - Click the Save Task List (|save|) or the Save Task List As button (|save_as|) in the bottom bar of the Tasks pane.
 
     - Right-click the Tasks item at the top of the list and choose Save Task List or the Save Task List As from the menu that opens.
 
@@ -554,7 +554,7 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
 
     1. Do one of the following:
 
-    - Click the Load Task List button ( |Toonz71_055| ) in the bottom bar of the Tasks pane.
+    - Click the Load Task List button (|load|) in the bottom bar of the Tasks pane.
 
     - Right-click the Tasks item at the top of the list and choose Load Task List from the menu that opens.
 
@@ -604,7 +604,7 @@ When a cleanup task is selected in the tree, in the section on the right of the 
 
 - Priority sets the importance or urgency of the task: tasks with a higher priority will be executed first. This can be edited to change the priority of a task.
 
-- Visible Only, when activated, limits the cleanup process only to columns whose camera stand toggle ( |Toonz71_056| ) is on, that is to say whose content is visible (see 
+- Visible Only, when activated, limits the cleanup process only to columns whose camera stand toggle (|camera_stand|) is on, that is to say whose content is visible (see 
 
 :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
 
@@ -632,7 +632,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Add Cleanup Task button ( |Toonz71_057| ) in the bottom bar of the Tasks pane and use the browser to select a scene file.
+    - Click the Add Cleanup Task button (|add_cleanup|) in the bottom bar of the Tasks pane and use the browser to select a scene file.
 
 
 
@@ -658,7 +658,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Start button ( |Toonz71_058| ) in the bottom bar of the pane.
+    - Click the Start button (|start|) in the bottom bar of the pane.
 
 
 
@@ -668,7 +668,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Stop button ( |Toonz71_059| ) in the bottom bar of the pane.
+    - Click the Stop button (|stop|) in the bottom bar of the pane.
 
 
 
@@ -678,7 +678,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Remove button ( |Toonz71_060| ) in the bottom bar of the Tasks pane.
+    - Click the Remove button (|remove|) in the bottom bar of the Tasks pane.
 
 
 
@@ -695,22 +695,16 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |Toonz71_037| image:: /_static/Toonz71/Toonz71_037.gif
 .. |Toonz71_038| image:: /_static/Toonz71/Toonz71_038.gif
 .. |Toonz71_040| image:: /_static/Toonz71/Toonz71_040.gif
-.. |Toonz71_041| image:: /_static/Toonz71/Toonz71_041.gif
-.. |Toonz71_042| image:: /_static/Toonz71/Toonz71_042.gif
-.. |Toonz71_043| image:: /_static/Toonz71/Toonz71_043.gif
-.. |Toonz71_044| image:: /_static/Toonz71/Toonz71_044.gif
-.. |Toonz71_045| image:: /_static/Toonz71/Toonz71_045.gif
-.. |Toonz71_046| image:: /_static/Toonz71/Toonz71_046.gif
-.. |Toonz71_047| image:: /_static/Toonz71/Toonz71_047.gif
-.. |Toonz71_048| image:: /_static/Toonz71/Toonz71_048.gif
-.. |Toonz71_050| image:: /_static/Toonz71/Toonz71_050.gif
 .. |Toonz71_051| image:: /_static/Toonz71/Toonz71_051.gif
-.. |Toonz71_053| image:: /_static/Toonz71/Toonz71_053.gif
-.. |Toonz71_054| image:: /_static/Toonz71/Toonz71_054.gif
-.. |Toonz71_055| image:: /_static/Toonz71/Toonz71_055.gif
-.. |Toonz71_056| image:: /_static/Toonz71/Toonz71_056.gif
-.. |Toonz71_057| image:: /_static/Toonz71/Toonz71_057.gif
-.. |Toonz71_058| image:: /_static/Toonz71/Toonz71_058.gif
-.. |Toonz71_059| image:: /_static/Toonz71/Toonz71_059.gif
-.. |Toonz71_060| image:: /_static/Toonz71/Toonz71_060.gif
 .. |RGB_picker| image:: /_static/cleanup/RGB_picker.png
+.. |add_cleanup| image:: /_static/cleanup/add_cleanup.png
+.. |camera_stand| image:: /_static/cleanup/camera_stand.png
+.. |load| image:: /_static/cleanup/load.png
+.. |check| image:: /_static/cleanup/check.png
+.. |preview| image:: /_static/cleanup/preview.png
+.. |remove| image:: /_static/cleanup/remove.png
+.. |reset| image:: /_static/cleanup/reset.png
+.. |save| image:: /_static/cleanup/save.png
+.. |save_as| image:: /_static/cleanup/save_as.png
+.. |start| image:: /_static/cleanup/start.png
+.. |stop| image:: /_static/cleanup/stop.png

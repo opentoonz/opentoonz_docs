@@ -48,7 +48,7 @@ The background colors of the preview window, including the colors of the camera 
 
 .. tip:: **To activate and deactivate the preview:**
 
-    Click the Preview button ( |Toonz71_535| ) in the viewer title bar to activate or deactivate the preview mode.
+    Click the Preview button (|preview|) in the viewer title bar to activate or deactivate the preview mode.
 
 
 
@@ -60,13 +60,13 @@ The background colors of the preview window, including the colors of the camera 
 
 .. tip:: **To hide the sub-camera box:**
 
-    Deactivate the Define Preview Sub-camera button ( |Toonz71_537| ) in the viewer bottom bar.
+    Deactivate the Define Preview Sub-camera button (|define_preview_subcamera|) in the viewer bottom bar.
 
 
 
 .. tip:: **To activate and deactivate the sub-camera preview:**
 
-    Click the Sub-camera Preview button ( |Toonz71_538| ) in the viewer title bar to activate or deactivate the sub-camera preview mode.
+    Click the Sub-camera Preview button (|subcamera_preview|) in the viewer title bar to activate or deactivate the sub-camera preview mode.
 
 
 
@@ -82,7 +82,7 @@ The background colors of the preview window, including the colors of the camera 
 
     1. Do one of the following:
 
-    - Click the Save button ( |Toonz71_539| ) in the viewer bottom bar.
+    - Click the Save button (|save|) in the viewer bottom bar.
 
     - Right-click in the viewer, and choose Save Previewed Frames from the menu that opens.
 
@@ -208,27 +208,27 @@ The flipbook title bar displays the information about the content on the left, a
 
 At the bottom a customizable set of buttons is available:
 
-- The Option button ( |Toonz71_541| ) sets which buttons and elements have to be displayed in the bottom bar.
+- The Option button (|option|) sets which buttons and elements have to be displayed in the bottom bar.
 
 
 
-    - The Save button ( |Toonz71_542| ) opens a browser to save the flipbook content.
+- The Save button (|save|) opens a browser to save the flipbook content.
 
-    - The Snapshot ( |Toonz71_543| ) and Compare to Snapshot ( |Toonz71_544| ) buttons allow the comparison between different frames of the flipbook content.
+- The Snapshot (|snapshot|) and Compare to Snapshot (|compare|) buttons allow the comparison between different frames of the flipbook content.
 
-    - The Define Loading Box button ( |Toonz71_545| ) allows the definition of a box, smaller than the size of the loaded image sequence, that will limit the portion of the images that will be displayed in the flipbook. It may prove useful to speed up the loading time and increase the playback speed, when you are only interested in a portion of the images.
+- The Define Loading Box button (|define_preview_subcamera|) allows the definition of a box, smaller than the size of the loaded image sequence, that will limit the portion of the images that will be displayed in the flipbook. It may prove useful to speed up the loading time and increase the playback speed, when you are only interested in a portion of the images.
 
-    - The Use Loading Box button ( |Toonz71_546| ) activate or deactivate the defined loading box (see above).
+- The Use Loading Box button (|subcamera_preview|) activate or deactivate the defined loading box (see above).
 
-    - The Background colors buttons sets a white ( |Toonz71_547| ), black ( |Toonz71_548| ) or checkered ( |Toonz71_549| ) background for transparent images.
+- The Background colors buttons sets a white (|preview_white|), black (|preview_black|) or checkered (|preview_checkboard|) background for transparent images.
 
-    - The framerate slider sets the number of frames per second to be displayed during playback.
+- The framerate slider sets the number of frames per second to be displayed during playback.
 
-    - The playback buttons can be used to play the flipbook content back and set the current frame.
+- The playback buttons can be used to play the flipbook content back and set the current frame.
 
-    - The Channel buttons display the red, green, blue and alpha channels of the flipbook content, both in colors and grey-scale.
+- The Channel buttons display the red, green, blue and alpha channels of the flipbook content, both in colors and grey-scale.
 
-    - The Histogram button ( |Toonz71_550| ) opens a window displaying histograms mapping the amount of the darkest and lightest pixels in each channel.
+- The Histogram button (|histogram|) opens a window displaying histograms mapping the amount of the darkest and lightest pixels in each channel.
 
 .. note:: If the bottom bar is too short to display all the options, it can be scrolled by using arrow buttons available at its ends.
 
@@ -279,7 +279,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To customize the flipbook bottom bar:**
 
-    Use the Option button ( |Toonz71_552| ) to choose which buttons and elements have to be displayed: only selected items will be displayed.
+    Use the Option button (|option|) to choose which buttons and elements have to be displayed: only selected items will be displayed.
 
 
 
@@ -321,7 +321,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Right-click in the flipbook and choose Save Images from the menu that opens.
 
-    - Click the Save button ( |Toonz71_553| ) in the flipbook bottom bar,
+    - Click the Save button (|save|) in the flipbook bottom bar,
 
     2. Use the browser to choose a name, a format and a location for the file to be saved.
 
@@ -329,33 +329,29 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     1. Select the frame you want to store and click the Snapshot button () in the flipbook bottom bar.
 
-    2. Move to a different frame, or load some different content, and click the Compare to Snapshot button ( |Toonz71_555| ).
+    2. Move to a different frame, or load some different content, and click the Compare to Snapshot button (|snapshot|).
 
     3. Click and drag the vertical or horizontal marker to display the taken snapshot under the current frame.
 
-    4. Click again the Compare to Snapshot button ( |Toonz71_556| ) to exit the compare mode.
+    4. Click again the Compare to Snapshot button (|compare|) to exit the compare mode.
 
 .. tip:: **To define the loading box:**
 
     1. Load in the flipbook the sequence of images you want to visualize.
 
-    2. Activate the Define Loading Box button ( |Toonz71_557| ) in the flipbook bottom bar.
+    2. Activate the Define Loading Box button (|define_preview_subcamera|) in the flipbook bottom bar.
 
     3. Click and drag in the image to define the loading box; once the box is define you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside it.
 
 .. tip:: **To activate and deactivate the loading box:**
 
-    Click the Use Loading Box button ( |Toonz71_558| ) in the flipbook bottombar to activate or deactivate the loading box.
+    Click the Use Loading Box button (|subcamera_preview|) in the flipbook bottombar to activate or deactivate the loading box.
 
 
 
 .. tip:: **To set the flipbook background color for transparent images:**
 
-    Click the White ( |Toonz71_559| ), Black (
-
- |Toonz71_560| ) or Checkered Background (
-
- |Toonz71_561| ) buttons in the flipbook bottom bar to activate/deactivate the related background color.
+    Click the White (|preview_white|), Black (|preview_black|) or Checkered Background (|preview_checkboard|) buttons in the flipbook bottom bar to activate/deactivate the related background color.
 
 
 
@@ -377,7 +373,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     1. Do one of the following:
 
-    - Click the Histogram button ( |Toonz71_563| ) in the flipbook bottom bar.
+    - Click the Histogram button (|histogram|) in the flipbook bottom bar.
 
     - Right-click the flipbook content and choose Show Histogram from the menu that opens.
 
@@ -624,7 +620,7 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
 
     1. Do one of the following:
 
-    - Click the Save Task List ( |Toonz71_566| ) or the Save Task List As button ( |Toonz71_567| ) in the bottom bar of the Tasks pane.
+    - Click the Save Task List (|save|) or the Save Task List As button (|save_as|) in the bottom bar of the Tasks pane.
 
     - Right-click the Tasks item at the top of the list and choose Save Task List or the Save Task List As from the menu that opens.
 
@@ -634,7 +630,7 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
 
     1. Do one of the following:
 
-    - Click the Load Task List button ( |Toonz71_568| ) in the bottom bar of the Tasks pane.
+    - Click the Load Task List button (|load|) in the bottom bar of the Tasks pane.
 
     - Right-click the Tasks item at the top of the list and choose Load Task List from the menu that opens.
 
@@ -718,7 +714,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Add Render Task button ( |Toonz71_569| ) in the bottom bar of the Tasks pane and use the browser to select a scene file.
+    - Click the Add Render Task button (|add_render|) in the bottom bar of the Tasks pane and use the browser to select a scene file.
 
 
 
@@ -744,7 +740,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Start button ( |Toonz71_570| ) in the bottom bar of the pane.
+    - Click the Start button (|start|) in the bottom bar of the pane.
 
 
 
@@ -754,7 +750,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Stop button ( |Toonz71_571| ) in the bottom bar of the pane.
+    - Click the Stop button (|stop|) in the bottom bar of the pane.
 
 
 
@@ -764,7 +760,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the Remove button ( |Toonz71_572| ) in the bottom bar of the Tasks pane.
+    - Click the Remove button (|remove|) in the bottom bar of the Tasks pane.
 
 
 
@@ -796,36 +792,22 @@ If you are not using the OpenToonz render farm, dividing the task in chunks not 
 
 render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
-.. |Toonz71_535| image:: /_static/Toonz71/Toonz71_535.gif
-.. |Toonz71_537| image:: /_static/Toonz71/Toonz71_537.gif
-.. |Toonz71_538| image:: /_static/Toonz71/Toonz71_538.gif
-.. |Toonz71_539| image:: /_static/Toonz71/Toonz71_539.gif
 .. |Toonz71_540| image:: /_static/Toonz71/Toonz71_540.gif
-.. |Toonz71_541| image:: /_static/Toonz71/Toonz71_541.gif
-.. |Toonz71_542| image:: /_static/Toonz71/Toonz71_542.gif
-.. |Toonz71_543| image:: /_static/Toonz71/Toonz71_543.gif
-.. |Toonz71_544| image:: /_static/Toonz71/Toonz71_544.gif
-.. |Toonz71_545| image:: /_static/Toonz71/Toonz71_545.gif
-.. |Toonz71_546| image:: /_static/Toonz71/Toonz71_546.gif
-.. |Toonz71_547| image:: /_static/Toonz71/Toonz71_547.gif
-.. |Toonz71_548| image:: /_static/Toonz71/Toonz71_548.gif
-.. |Toonz71_549| image:: /_static/Toonz71/Toonz71_549.gif
-.. |Toonz71_550| image:: /_static/Toonz71/Toonz71_550.gif
-.. |Toonz71_552| image:: /_static/Toonz71/Toonz71_552.gif
-.. |Toonz71_553| image:: /_static/Toonz71/Toonz71_553.gif
-.. |Toonz71_555| image:: /_static/Toonz71/Toonz71_555.gif
-.. |Toonz71_556| image:: /_static/Toonz71/Toonz71_556.gif
-.. |Toonz71_557| image:: /_static/Toonz71/Toonz71_557.gif
-.. |Toonz71_558| image:: /_static/Toonz71/Toonz71_558.gif
-.. |Toonz71_559| image:: /_static/Toonz71/Toonz71_559.gif
-.. |Toonz71_560| image:: /_static/Toonz71/Toonz71_560.gif
-.. |Toonz71_561| image:: /_static/Toonz71/Toonz71_561.gif
-.. |Toonz71_563| image:: /_static/Toonz71/Toonz71_563.gif
 .. |Toonz71_564| image:: /_static/Toonz71/Toonz71_564.gif
-.. |Toonz71_566| image:: /_static/Toonz71/Toonz71_566.gif
-.. |Toonz71_567| image:: /_static/Toonz71/Toonz71_567.gif
-.. |Toonz71_568| image:: /_static/Toonz71/Toonz71_568.gif
-.. |Toonz71_569| image:: /_static/Toonz71/Toonz71_569.gif
-.. |Toonz71_570| image:: /_static/Toonz71/Toonz71_570.gif
-.. |Toonz71_571| image:: /_static/Toonz71/Toonz71_571.gif
-.. |Toonz71_572| image:: /_static/Toonz71/Toonz71_572.gif
+.. |add_render| image:: /_static/rendering/add_render.png
+.. |compare| image:: /_static/rendering/compare.png
+.. |define_preview_subcamera| image:: /_static/rendering/define_preview_subcamera.png
+.. |histogram| image:: /_static/rendering/histogram.png
+.. |load| image:: /_static/rendering/load.png
+.. |option| image:: /_static/rendering/option.png
+.. |preview_black| image:: /_static/rendering/preview_black.png
+.. |preview_checkboard| image:: /_static/rendering/preview_checkboard.png
+.. |preview_white| image:: /_static/rendering/preview_white.png
+.. |preview| image:: /_static/rendering/preview.png
+.. |remove| image:: /_static/rendering/remove.png
+.. |save| image:: /_static/rendering/save.png
+.. |save_as| image:: /_static/rendering/save_as.png
+.. |snapshot| image:: /_static/rendering/snapshot.png
+.. |start| image:: /_static/rendering/start.png
+.. |stop| image:: /_static/rendering/stop.png
+.. |subcamera_preview| image:: /_static/rendering/subcamera_preview.png
