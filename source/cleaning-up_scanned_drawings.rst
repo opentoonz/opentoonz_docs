@@ -86,7 +86,7 @@ Originally in Toonz, the line recognition process could also be skipped, in case
 
 Processing Black and White or Greyscale Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- |Toonz71_037| 
+ |greaycale| |greaycale_sample|
 
 For black and white or greyscale lineart drawings, a set of parameters are available to calibrate the black line recognition process. 
 
@@ -150,7 +150,8 @@ Only the effects of the Black Eq process can be checked using the Scan & Cleanup
 
 Processing Colored Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- |Toonz71_038| 
+ |color| |color_sample|
+ 
 
 For colored lineart drawings, a set of parameters are available to calibrate the line recognition process, and to set which and how colors have to be detected in the drawings (see  :ref:`Defining Colors for the Color Line Processing <defining_colors_for_the_color_line_processing>`  ).
 
@@ -666,7 +667,10 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     - Select a task in the list on the left and click the Remove button.
 
-.. |Toonz71_037| image:: /_static/Toonz71/Toonz71_037.gif
+.. |greyscale| image:: /_static/cleanup/cleanup_greyscale.png
+.. |greyscale_sample| image:: /_static/cleanup/cleanup_greyscale_sample.png
+.. |color| image:: /_static/cleanup/cleanup_color.png
+.. |color_sample| image:: /_static/cleanup/cleanup_color_sample.png
 .. |Toonz71_038| image:: /_static/Toonz71/Toonz71_038.gif
 .. |Toonz71_040| image:: /_static/Toonz71/Toonz71_040.gif
 .. |Toonz71_051| image:: /_static/Toonz71/Toonz71_051.gif
