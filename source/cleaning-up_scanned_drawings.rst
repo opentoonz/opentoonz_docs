@@ -7,9 +7,7 @@ In order to be painted and edited with OpenToonz, scanned drawings have to under
 The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
 
-
-
-.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the Minimize Raster Image Fragmentation option in the Files > Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the Minimize Raster Memory Fragmentation* option in the Files > Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 .. _the_cleanup_settings:
 
@@ -28,27 +26,25 @@ Usually settings are defined and checked for one of the level drawings, then app
 Defining Cleanup Parameters
 '''''''''''''''''''''''''''
 
-
-
 The Cleanup parameters set the autocentering information and some geometric transformations.
 
 .. _autocentering:
 
 Autocentering
 ~~~~~~~~~~~~~
-The Autocenter option aligns lineart drawings and full-color images according to the shape and position of the pegbar holes, in order to set the correct registration for them once they are used in an animation scene.
+The Autocenter option aligns lineart drawings and full-color images according to the shape and position of the pegbar holes, in order to set the correct registration for them, once they are used in an animation scene.
 
 Pegbar holes have to be included properly during the scanning process in order to be recognized during the process (see  :ref:`Scanning Guidelines for Autocentering <scanning_guidelines_for_autocentering>`  ). 
 
-When the autocenter fails because it is not possible to recognize properly the pegbar holes, an error message is displayed; yet the drawings and images are processed according to the other set parameters.
+In case the autocenter fails because it's not possible to recognize properly the pegbar holes, an error message is displayed; yet the drawings and images are processed according to the other set parameters.
 
 Autocenter parameters are the following:
 
 - Autocenter, when activated, triggers the autocenter process. 
 
-- Pegbar Holes sets the side of the drawing along which holes should be detected.
+- Pegbar Holes, sets the side of the drawing along which holes should be detected.
 
-- Field Guide specifies the size of the reference field guide that has to be used to set the center of the processed drawings and images, and the type of pegbar holes that have to be detected (such as Acme or Oxbry).
+- Field Guide, specifies the size of the reference field guide that has to be used to set the center of the processed drawings and images, and the type of pegbar holes that have to be detected (such as Acme or Oxbry).
 
 .. tip:: **To check the autocenter on a selected drawing:**
 
@@ -58,19 +54,20 @@ Autocenter parameters are the following:
 
     3. Set the Field Guide to be used as reference to set the center in the correct place, and to match the shape of the pegbar holes.
 
-    4. Choose Scan & Cleanup > Preview Cleanup to preview the process.
+    4. Choose Scan & Cleanup > Preview Cleanup to preview the process in the Viewer.
 
 .. _other_cleanup_parameters:
 
 Other Cleanup Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~
-The Cleanup page contains also other parameters that can be activated regardless of the autocenter, as they will affect processed images even if the Autocenter option is not activated. Parameters are the following:
+The Cleanup pane contains also other parameters that can be activated regardless of the autocenter, as they will affect processed images even if the Autocenter option is not activated. Parameters are the following:
 
-- Rotate rotates the image by 90° steps clockwise. It can be used to set the right orientation for images scanned with a different direction in order to fit the scanner bed.
+- Rotate, rotates the image by 90° steps clockwise. It can be used to set the right orientation for images scanned with a different direction in order to fit the scanner bed.
 
-- Flip mirrors the image horizontally, vertically or both, according to the activated options. It can be used, for example, when processing a shadow level drawn on the other side of the paper where the character level is drawn, in order to match the two animation levels later.
+- Flip, mirrors the image horizontally, vertically or both, according to the activated options. It can be used, for example, when processing a shadow level drawn on the other side of the paper where the character level is drawn, in order to match the two animation levels later.
 
-- Save in lets you define the folder where the cleaned up drawings are saved. By default it is set to the +drawings default folder of the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
+- Save In, lets you define the folder where the cleaned up drawings are saved. By default it is set to the +drawings default folder of the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
+
 
 .. _defining_line_processing_parameters:
 
@@ -78,11 +75,11 @@ Defining Line Processing Parameters
 '''''''''''''''''''''''''''''''''''
 The Processing parameters set the line processing options in order to prepare drawings for the painting process, recognizing black lines in black and white, or grayscale lineart drawings, or colored lines in colored lineart drawings. 
 
-The line recognition process can also be skipped in case you are doing the cleanup only for registering full-color images, such as backgrounds, that were scanned including pegbar holes. 
+Originally in Toonz, the line recognition process could also be skipped, in case you were doing the cleanup only for registering full-color images, such as backgrounds, that were scanned including pegbar holes. This option is not currently present in OpenToonz. 
 
 .. tip:: **To set the type of line processing:**
 
-    Set the Line Processing option to None, if no line processing is required, Greyscale, if lines have to be recognized as black, or Color, if lines have to be recognized as colored.
+    Set the Line Processing option to Greyscale, if lines have to be recognized as black, or Color, if lines have to be recognized as colored ones.
 
 
 .. _processing_black_and_white_or_greyscale_lineart_drawings:
@@ -93,13 +90,13 @@ Processing Black and White or Greyscale Lineart Drawings
 
 For black and white or greyscale lineart drawings, a set of parameters are available to calibrate the black line recognition process. 
 
-The result of the process can be previewed both in the preview area available at the bottom of the Cleanup Settings window, and in the OpenToonz viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
+The result of the process can be previewed in the OpenToonz main Viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
 Parameters are the following:
 
-- Antialias can be set to Standard, None or Morphological. Use Standard to keep the antialias resulting from current camera and defined settings. Use None to eliminate the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels smoothing its edges. Use Morphological to replace the standard antialias with the one obtained analyzing the image edges.
+- Antialias can be set to Standard, None or Morphological. Use Standard to keep the antialias resulting from current camera and defined settings. Use None to eliminate the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels that smooths its edges. Use Morphological to replace the standard antialias with one obtained by analyzing the image edges.
 
-- Autoadjust corrects the levels of grey in the drawings in order to avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). (This feature is currently not available in OpenToonz).
+- Autoadjust corrects the levels of grey in the drawings in order to avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). (NOTE: This feature is currently not available in OpenToonz).
 
 - Sharpness defines how sharp the processed lines will be. Higher values produce sharper, harder lines, and lower values create smoother lines. 
 
@@ -109,9 +106,11 @@ Parameters are the following:
 
 - Brightness controls the thickness of the recognized line: the lower the value, the thicker the line.
 
-- Contrast controls the antialiasing of the recognized line: a higher value produces more solid pixels, a lower value more antialiasing pixels. The amount of antialiasing can also be checked by activating the Opacity Check (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  ).
+- Contrast controls the antialiasing of the recognized line: a higher value produces more solid pixels, a lower value lines with more antialiased pixels. The amount of antialiasing can also be checked by activating the Opacity Check (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  ).
 
-.. note:: If the Antialias is sets on None or Morphological, the Contrast parameter will not be effective.
+
+.. note:: If the Antialias is set on None or Morphological, the Contrast parameter will become deactivated.
+
 
 .. tip:: **To set the line processing for black and white or greyscale lineart drawings:**
 
@@ -155,17 +154,18 @@ Processing Colored Lineart Drawings
 
 For colored lineart drawings, a set of parameters are available to calibrate the line recognition process, and to set which and how colors have to be detected in the drawings (see  :ref:`Defining Colors for the Color Line Processing <defining_colors_for_the_color_line_processing>`  ).
 
-For all the cleanup colors you can define a color to be assigned automatically to the lines after the processing, with no need to paint them. The two colors, the one used for the recognition and the one to be assigned after the recognition, are available in the bottom area of the Style Editor.
+For all the cleanup colors you can define a color to be assigned automatically to the lines after the processing, with no need to paint them. The two colors, the one used for the recognition and the one to be assigned to the recognized lines, are available at the bottom area of the Style Editor pane.
 
 Different parameters are available for the black color, that usually defines the main outline in lineart drawings, and for the additional colors, that usually defines special outlines for areas such as shadows and highlights.
 
-The result of the process can be previewed both in the preview area available at the bottom of the Cleanup Settings window, and in the OpenToonz viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
+The result of the process can be previewed in the OpenToonz main Viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
 General parameters are the following:
 
-- Antialias can be set to Standard, None or Morphological. Use Standard to keep the antialias resulting from current camera and defined settings. Use None to remove the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels smoothing its edges. Use Morphological to replace the standard antialias with the one obtained analyzing the image edges.
+- Antialias can be set to Standard, None or Morphological. Use Standard to keep the antialias resulting from current camera and defined settings. Use None to remove the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels smoothing its edges. Use Morphological to replace the standard antialias with the one obtained by analyzing the image edges.
 
-.. note:: If the Antialias is sets on None or Morphological, the Contrast parameter will not be effective.
+
+.. note:: If the Antialias is set to None or Morphological, the Contrast parameter will become desactivated.
 
 - Sharpness defines how sharp the processed lines will be. Higher values produce sharper, harder lines, and lower values create smoother lines. 
 
@@ -177,21 +177,21 @@ In the color list, parameters for the black color are the following:
 
 - Brightness controls the thickness of the recognized line: the lower the value, the thicker the line.
 
-- Contrast controls the antialiasing of the recognized line: a higher value produces more solid pixels, a lower value more antialiasing pixels. The amount of antialiasing can also be checked by activating the Opacity Check (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  ).
+- Contrast controls the antialiasing of the recognized line: a higher value produces more solid pixels, a lower value lines with more antialiased pixels. The amount of antialiasing can also be checked by activating the Opacity Check (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  ).
 
-- Color Threshold sets pixels that have to be considered black and those that have to be considered colors: the higher the value, the higher the number of pixels that will be considered as colored.
+- Color Threshold sets pixels that have to be considered as black and those that have to be considered as colors: the higher the value, the higher the number of pixels that will be considered as colored.
 
-- White Threshold sets pixels that have to be considered white, for example to eliminate the paper color: the higher the value, the higher the number of pixels that will be considered as white.
+- White Threshold sets pixels that have to be considered as white, for example to eliminate the paper color: the higher the value, the higher the number of pixels that will be considered as white.
 
 In the color list, parameters for the other colors are the following:
 
 - Brightness controls the thickness of the recognized colored line: the lower the value, the thicker the line.
 
-- Contrast controls the antialiasing of the recognized colored line: a higher value produces more solid pixels, a lower value more antialiasing pixels. The amount of antialiasing can also be checked by activating the Opacity Check (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  ).
+- Contrast controls the antialiasing of the recognized colored line: a higher value produces more solid pixels, a lower value lines with more antialiased pixels. The amount of antialiasing can also be checked by activating the Opacity Check (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  ).
 
-- H Range sets the range of hue for the color recognition: the higher the value, the higher the number of differently colored pixels that will be associated to the set color.
+- H Range sets the range of the hue for color recognition: the higher the value, the higher the number of differently colored pixels that will be associated to the defined color.
 
-- Line Width sets the width of the recognized colored line: the higher the value, the higher the number of desaturated pixels that will be associated to the set color, thus increasing the line thickness.
+- Line Width sets the width of the recognized colored line: the higher the value, the higher the number of desaturated pixels that will be associated to the defined color, thus increasing the line thickness.
 
 .. tip:: **To set the line processing for colored lineart drawings:**
 
@@ -205,15 +205,18 @@ In the color list, parameters for the other colors are the following:
 
     5. Preview the result of the cleanup process (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
+
 .. _defining_colors_for_the_color_line_processing:
 
 Defining Colors for the Color Line Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The colors used to recognize and process drawing lines when doing color line processing can be defined by using the style editor or picking color values directly from the drawing you want to process
 
-It is possible to add colors to the list, or removed them if they are not needed. The maximum number of color you can define is seven (black included). 
+It is possible to add colors to the list, or remove them if they are not needed anymore. The maximum number of color you can define is seven (black included). 
+
 
 .. note:: The first color of the list, i.e. the black color, cannot be edited or removed.
+
 
 .. tip:: **To define colors:**
 
@@ -225,23 +228,27 @@ It is possible to add colors to the list, or removed them if they are not needed
 
     - Use the RGB Picker tool (|RGB_picker|) to pick the value of the line color from the drawings visible in the work area (see  :ref:`Plain Colors <plain_colors>`  ).
 
+
 .. tip:: **To define colors to be assigned to lines after cleanup processing:**
 
     1. Select the color for which you want to define the post-process color.
 
-    2. At the bottom of the Style Editor select the square on the right of current color: it is the color to be assigned after the processing.
+    2. At the bottom of the Style Editor select the square on the right of the current color: this is the color to be assigned after the processing is done.
 
     3. Edit the color in the Style Editor.
+
 
 .. tip:: **To add a color in the color list:**
 
     Click the + button available under the color list.
+
 
 .. tip:: **To remove a color from the color list:**
 
     1. Select the color you want to remove from the list.
 
     2. Click the - button available under the color list.
+
 
 .. _defining_camera:
 
@@ -251,27 +258,29 @@ Defining Camera
 
 The Camera parameters define the size and resolution of the camera that is used to crop and resize drawings during the cleanup process, in order to prepare and optimize them for the scene.
 
-For example if the cleanup camera is 768x576 pixels (PAL) with a 12 field size, the cleaned up drawings will be cropped according to the 12 field size and will have the resolution of 768x576 pixels.
+For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16" field size, the cleaned up drawings will be cropped according to the 16" field size and will have the resolution of 1920x1080 pixels.
 
 The cleanup camera definition is similar to the definition of the stage camera (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). Usually the two cameras have the same parameters, but sometimes you may need to define a cleanup camera that is larger than the stage camera especially if you want drawings border area to overflow the shot. 
 
 You can also set other parameters and options:
 
-- The Closest Field defines the smallest field size you will zoom into the drawing with the camera when compositing the scene. This value is meaningful if it is smaller than the camera field size, as it increases the final image resolution, preventing zoomed-in images from appearing jagged. For example if the cleanup camera is 768x576 pixels (PAL) with a 12 field size and the closest field is set to 6, the cleaned up drawings will have twice the camera resolution, that is 1536 by 1152 pixels. 
+- The Closest Field parameter (NOT AVAILABLE in OpenToonz) defines the smallest field size you will zoom into the drawing, with the camera when compositing the scene. This value is meaningful if it is smaller than the camera field size, as it increases the final image resolution, preventing zoomed-in images from appearing jagged. For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16" field size and the Closest Field is set to 8", the cleaned up drawings will have to be of twice the camera resolution, that is 3840 by 2160 pixels, so that when the camera closes up, the original image pixel resolution is preserved.
 
-- The E/W and N/S Offset shifts the camera position in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the autocenter is on, or different from the actual center of the image if the autocenter is off; after the cleanup the camera center will be the new center for the processed drawings.
+- The E/W and N/S offset parameters shift the camera position, in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the autocenter is on, or different from the actual center of the image if the autocenter is off; after the cleanup, the camera center will be the new center for the processed drawings.
 
-The cleanup camera size, resolution and offset can also be graphically controlled in the viewer when checking the cleanup process with the Camera Test mode (see  :ref:`Using the Camera Test <using_the_camera_test>`  ).
+The cleanup camera size, resolution and offset can also be graphically controlled in OpenToonz's main Viewer when checking the cleanup process with the Camera Test mode (see  :ref:`Using the Camera Test <using_the_camera_test>`  ).
+
 
 .. _saving_and_loading_cleanup_settings:
 
 Saving and Loading Cleanup Settings
 '''''''''''''''''''''''''''''''''''
-Cleanup settings can be saved as CLN files in order to be loaded back and used in a different scene. 
+Cleanup settings can be saved as .CLN files in order to be loaded back and used in a different scene. 
 
 They can also be associated specifically to an animation level by saving them in the same location and with the same name of the level: in this way the settings will be automatically displayed when the level is selected, and used every time the level is cleaned up.
 
 Loaded cleanup settings can also become the default settings for the scene or for the project (see  :ref:`Scene Settings and Project Default Settings <scene_settings_and_project_default_settings>`  ). 
+
 
 .. tip:: **To save the cleanup settings:**
 
@@ -323,51 +332,7 @@ While defining the cleanup settings it is possible to preview the full cleanup p
 
 Previewing the Cleanup Process
 ''''''''''''''''''''''''''''''
-The full cleanup process can be checked both in the preview area available in the cleanup settings window, and in the main viewer. 
-
-.. _using_the_preview_area_in_the_cleanup_settings_window:
-
-Using the Preview Area in the Cleanup Settings Window
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-At the bottom of the cleanup settings window a preview area is available to display the drawing selected in the xsheet as it will be after the real cleanup process according to the defined cleanup settings. At the same time it allows you to compare the final result with the original scanned drawing that is displayed on the left side. 
-
-You can activate or deactivate it, resize it or navigate its content.
-
-Using this preview area is faster than checking the cleanup process in the main viewer because the set processing parameters are applied only to the visible part of the drawing, and not to the drawing as a whole.
-
-If you change any parameter in the cleanup settings, the previewed drawing automatically updates to display how the changes affect the process.
-
-.. tip:: **To activate the preview area:**
-
-    In the xsheet select the scanned drawing you want to preview, and click the Preview button (|preview|) in the bottom bar of the cleanup settings window.
-
-
-
-.. tip:: **To deactivate the preview area:**
-
-    Click the Preview button (|preview|) in the bottom bar of the cleanup settings window.
-
-
-
-.. tip:: **To resize the preview area:**
-
-    Do any of the following:
-
-    - Click and drag the horizontal separator. 
-
-    - Click and drag the separator toward the window border to hide the preview area.
-
-    - Click and drag the separator collapsed to the window border toward the window center to display again the preview area.
-
-.. tip:: **To navigate the preview area:**
-
-    Do one of the following:
-
-    - Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to zoom in and zoom out.
-
-    - Middle-click and drag to scroll in any direction.
-
-    - Use the reset view shortcut (by default the 0 key) to display preview at its actual size.
+The full cleanup process can be checked in the main viewer. 
 
 .. _previewing_the_cleanup_process_in_the_main_viewer:
 
@@ -397,23 +362,21 @@ If you change any parameter in the cleanup settings, the preview automatically u
 
     Choose Scan & Cleanup > Preview Cleanup to deactivate it. 
 
+
 .. _using_the_opacity_check:
 
 Using the Opacity Check
 ~~~~~~~~~~~~~~~~~~~~~~~
 When calibrating the line processing it is important to check the amount of antialiasing along the drawing outline to understand how smooth the result will be, and to check the small spots and marks that are removed from the drawing because of the despeckling function (see  :ref:`Defining Line Processing Parameters <defining_line_processing_parameters>`  ). 
 
-
-
-
 The opacity check, when activated, displays fully solid pixels in black, and semi-transparent pixels belonging to the line antialiasing in red; moreover pixels that will be removed because of the despeckling function are displayed in green.
 
 The check is visible both in the preview area of the cleanup settings and in the cleanup preview performed in the main viewer.
 
+
 .. tip:: **To activate and deactivate the opacity check:**
 
     Click the Opacity Check button (|check|) in the bottom bar of the cleanup settings window.
-
 
 
 .. _using_the_camera_test:
@@ -426,7 +389,9 @@ It is possible to modify the camera box directly in the viewer thus updating the
 
 If you change any of the Cleanup or Camera parameters, the camera test automatically updates to display how the changes affect the process.
 
+
 .. note:: The Preview Cleanup and the Camera Test checks cannot be activated at the same time: when one is activated the other one is automatically deactivated.
+
 
 .. tip:: **To activate the camera test:**
 
@@ -455,6 +420,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 .. tip:: **To exit the camera test mode:**
 
     Choose Scan & Cleanup > Camera Test to deactivate it. 
+
 
 .. _cleaning_up_drawings:
 
@@ -487,6 +453,7 @@ It is also possible to automatically create a backup copy of the cleaned up draw
     - Choose Level > Revert to Cleaned Up.
 
     - Right click the selection and choose Revert to Cleaned Up from the menu that opens.
+
 
 .. _cleaning_up_drawings_directly_in_the_scene:
 
@@ -529,6 +496,7 @@ If you want you can also revert to the scanned version of the level you cleaned 
     2. Choose Level > Level Setting.
 
     3. Copy the Scan Path information in the Path text field.
+
 
 .. _cleaning_up_drawings_in_batch_mode:
 
@@ -574,6 +542,7 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
     - Click and drag the separator toward the window border to hide a section.
 
     - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+
 
 .. _managing_and_executing_cleanup_tasks:
 
