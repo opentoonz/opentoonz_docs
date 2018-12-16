@@ -84,6 +84,7 @@ The line recognition process can also be skipped in case you are doing the clean
 
     Set the Line Processing option to None, if no line processing is required, Greyscale, if lines have to be recognized as black, or Color, if lines have to be recognized as colored.
 
+
 .. _processing_black_and_white_or_greyscale_lineart_drawings:
 
 Processing Black and White or Greyscale Lineart Drawings
@@ -98,7 +99,7 @@ Parameters are the following:
 
 - Antialias can be set to Standard, None or Morphological. Use Standard to keep the antialias resulting from current camera and defined settings. Use None to eliminate the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels smoothing its edges. Use Morphological to replace the standard antialias with the one obtained analyzing the image edges.
 
-- Autoadjust corrects the levels of grey in the drawings in order to avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). 
+- Autoadjust corrects the levels of grey in the drawings in order to avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). (This feature is currently not available in OpenToonz).
 
 - Sharpness defines how sharp the processed lines will be. Higher values produce sharper, harder lines, and lower values create smoother lines. 
 
@@ -120,10 +121,13 @@ Parameters are the following:
 
     3. Preview the result of the cleanup process (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
+
 .. _autoadjusting_greyscale_lineart_drawings:
 
 Autoadjusting Greyscale Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. note:: The Autoadjust clean-up options explained here are currently unavailable in OpenToonz. There is no certainty about its reinclusion at a later version or not. If you judge them to be useful for your workflow, you could file an issue about that in the OpenToon's GitHub repository or in the various OpenToonz forums.
+
 The Autoadjust option available among the Cleanup parameters allows you to even the differences between drawings made by key animators and those made by in-betweeners by adjusting the line darkness of all of the level drawings.
 
 .. note:: The Autoadjust option has effect only on drawings scanned in greyscale mode, while it has no effect on drawings scanned in black and white. 
@@ -141,6 +145,7 @@ Three different autoadjust algorithms are available:
 Only the effects of the Black Eq process can be checked using the Scan & Cleanup > Cleanup Preview command; the effects of Histogram and Histo-L are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup > Cleanup command. You may need to make a few trials using different algorithms before obtaining the desired results. 
 
 .. note:: These algorithms work on the area of the drawing specified in the Field text boxes, excluding a 5 mm boundary edge. In this way any line might be drawn to delimit the camera shot on paper, and the pegbar holes, do not affect the result.
+
 
 .. _processing_colored_lineart_drawings:
 
