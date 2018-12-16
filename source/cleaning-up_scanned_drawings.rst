@@ -32,6 +32,7 @@ The Cleanup parameters set the autocentering information and some geometric tran
 
 Autocentering
 ~~~~~~~~~~~~~
+ |autocentering|
 The Autocenter option aligns lineart drawings and full-color images according to the shape and position of the pegbar holes, in order to set the correct registration for them, once they are used in an animation scene.
 
 Pegbar holes have to be included properly during the scanning process in order to be recognized during the process (see  :ref:`Scanning Guidelines for Autocentering <scanning_guidelines_for_autocentering>`  ). 
@@ -62,10 +63,12 @@ Other Cleanup Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~
 The Cleanup pane contains also other parameters that can be activated regardless of the autocenter, as they will affect processed images even if the Autocenter option is not activated. Parameters are the following:
 
+ |rotate|
 - Rotate, rotates the image by 90° steps clockwise. It can be used to set the right orientation for images scanned with a different direction in order to fit the scanner bed.
 
 - Flip, mirrors the image horizontally, vertically or both, according to the activated options. It can be used, for example, when processing a shadow level drawn on the other side of the paper where the character level is drawn, in order to match the two animation levels later.
 
+ |savein|
 - Save In, lets you define the folder where the cleaned up drawings are saved. By default it is set to the +drawings default folder of the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
 
@@ -671,6 +674,9 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     - Select a task in the list on the left and click the Remove button.
 
+.. |autocentering| image:: /_static/cleanup/cleanup_autocentering.png
+.. |rotate| image:: /_static/cleanup/cleanup_rotate.png
+.. |savein| image:: /_static/cleanup/cleanup_savein.png
 .. |greyscale| image:: /_static/cleanup/cleanup_greyscale.png
 .. |greyscale_sample| image:: /_static/cleanup/cleanup_greyscale_sample.png
 .. |color| image:: /_static/cleanup/cleanup_color.png
