@@ -87,6 +87,7 @@ Originally in Toonz, the line recognition process could also be skipped, in case
 Processing Black and White or Greyscale Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  |greyscale|
+ 
  |greyscale_sample|
 
 For black and white or greyscale lineart drawings, a set of parameters are available to calibrate the black line recognition process. 
@@ -152,6 +153,7 @@ Only the effects of the Black Eq process can be checked using the Scan & Cleanup
 Processing Colored Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  |color|
+ 
  |color_sample|
  
 
