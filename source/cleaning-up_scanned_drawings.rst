@@ -464,7 +464,7 @@ It is also possible to automatically create a backup copy of the cleaned up draw
 
 Cleaning up Drawings Directly in the Scene
 ''''''''''''''''''''''''''''''''''''''''''
- |Toonz71_051| 
+|progress|
 
 When cleaning up drawings directly in the scene it is possible to perform a selection of drawings and process them with the current cleanup settings. In this case you can also manage the process frame by frame, as you are prompted to choose an action for each drawing of the selection.
 
@@ -675,9 +675,9 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |greyscale_sample| image:: /_static/cleanup/cleanup_greyscale_sample.png
 .. |color| image:: /_static/cleanup/cleanup_color.png
 .. |color_sample| image:: /_static/cleanup/cleanup_color_sample.png
+.. |progress| image:: /_static/cleanup/cleanup_progress.png
 .. |Toonz71_038| image:: /_static/Toonz71/Toonz71_038.gif
 .. |Toonz71_040| image:: /_static/Toonz71/Toonz71_040.gif
-.. |Toonz71_051| image:: /_static/Toonz71/Toonz71_051.gif
 .. |RGB_picker| image:: /_static/cleanup/RGB_picker.png
 .. |add_cleanup| image:: /_static/cleanup/add_cleanup.png
 .. |camera_stand| image:: /_static/cleanup/camera_stand.png
