@@ -126,7 +126,7 @@ Parameters are the following:
 
 Autoadjusting Greyscale Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. note:: The Autoadjust clean-up options explained here are currently unavailable in OpenToonz. There is no certainty about its reinclusion at a later version or not. If you judge them to be useful for your workflow, you could file an issue about that in the OpenToon's GitHub repository or in the various OpenToonz forums.
+.. note:: The Autoadjust clean-up options explained here are currently unavailable in OpenToonz. There is no certainty about its reinclusion at a later version or not. If you judge them to be useful for your workflow, you could file an issue about that in the OpenToonz' GitHub repository or in the various OpenToonz forums.
 
 The Autoadjust option available among the Cleanup parameters allows you to even the differences between drawings made by key animators and those made by in-betweeners by adjusting the line darkness of all of the level drawings.
 
