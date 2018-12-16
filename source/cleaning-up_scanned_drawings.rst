@@ -86,7 +86,7 @@ Originally in Toonz, the line recognition process could also be skipped, in case
 
 Processing Black and White or Greyscale Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- |greaycale| |greaycale_sample|
+ |greyscale| |greyscale_sample|
 
 For black and white or greyscale lineart drawings, a set of parameters are available to calibrate the black line recognition process. 
 
