@@ -262,7 +262,7 @@ It is possible to add colors to the list, or remove them if they are not needed 
 
 Defining Camera
 '''''''''''''''
- |Toonz71_040| 
+ |camera| 
 
 The Camera parameters define the size and resolution of the camera that is used to crop and resize drawings during the cleanup process, in order to prepare and optimize them for the scene.
 
@@ -283,6 +283,8 @@ The cleanup camera size, resolution and offset can also be graphically controlle
 
 Saving and Loading Cleanup Settings
 '''''''''''''''''''''''''''''''''''
+|saveloadreset|
+
 Cleanup settings can be saved as .CLN files in order to be loaded back and used in a different scene. 
 
 They can also be associated specifically to an animation level by saving them in the same location and with the same name of the level: in this way the settings will be automatically displayed when the level is selected, and used every time the level is cleaned up.
@@ -681,9 +683,9 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |greyscale_sample| image:: /_static/cleanup/cleanup_greyscale_sample.png
 .. |color| image:: /_static/cleanup/cleanup_color.png
 .. |color_sample| image:: /_static/cleanup/cleanup_color_sample.png
+.. |camera| image:: /_static/cleanup/cleanup_camera.png
+.. |saveloadreset| image:: /_static/cleanup/cleanup_saveloadreset.png
 .. |progress| image:: /_static/cleanup/cleanup_progress.png
-.. |Toonz71_038| image:: /_static/Toonz71/Toonz71_038.gif
-.. |Toonz71_040| image:: /_static/Toonz71/Toonz71_040.gif
 .. |RGB_picker| image:: /_static/cleanup/RGB_picker.png
 .. |add_cleanup| image:: /_static/cleanup/add_cleanup.png
 .. |camera_stand| image:: /_static/cleanup/camera_stand.png
