@@ -13,6 +13,7 @@ The process generates a Toonz raster level (TLV format) and the related default 
 
 The Cleanup Settings
 --------------------
+ |cleanup_settings|
 The cleanup process can be controlled by using the Cleanup Settings that include Cleanup, Processing and Camera parameters.
 
 Usually settings are defined and checked for one of the level drawings, then applied to the whole animation level. If all of the drawings in the scene have the same characteristics, it is very likely that the same settings can be used for every drawing throughout all of the animation levels.
@@ -676,6 +677,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     - Select a task in the list on the left and click the Remove button.
 
+.. |cleanup_settings| image:: /_static/cleanup/cleanup_settings_pane.png
 .. |autocentering| image:: /_static/cleanup/cleanup_autocentering.png
 .. |rotate| image:: /_static/cleanup/cleanup_rotate.png
 .. |savein| image:: /_static/cleanup/cleanup_savein.png
