@@ -53,6 +53,8 @@ If a value without a specific unit is used, it is supposed to be expressed in th
 
 Setting the Frame Rate
 ----------------------
+|scene_settings|
+
 The frame rate is the number of frames per second of animation, and has to be set according to the type of output you have to render, for instance it should usually be 24 for cinematic production, 25 for PAL output, or 30 for NTSC.
 
 The current scene frame rate can be set in the Scene Settings... dialog, and it is displayed in the bottom bar of any Viewer pane. In case the play back is activated, the actual frame rate is displayed on its left.
@@ -139,4 +141,6 @@ If you are working mainly with vector images, that have been drawn inside OpenTo
 .. note:: The changes set for this option is valid only after OpenToonz is restarted.
 
 
+.. |scene_settings| image:: /_static/setting_up_a_scene/scene_settings.png
 .. |camera_settings| image:: /_static/setting_up_a_scene/camera_settings.png
+
