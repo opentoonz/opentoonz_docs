@@ -16,7 +16,7 @@ Setting the Projectroot
 -----------------------
 The projectroot is the folder where the project information and database are stored; it is displayed in the OpenToonz browser as one of the main folders with the related path in brackets.
 
-The default value is ``C:\OpenToonz 1.x stuff\projects``  on Windows and ``/Applications/OpenToonz 1.x /OpenToonz 1.x stuff/projects``  on Macintosh.
+The default value is ``C:\OpenToonz_stuff\projects``  on Windows and ``/Applications/OpenToonz/OpenToonz_stuff/projects``  on Macintosh.
 
 If your production has to be managed on more than one computer or on a network, you can share the same project information and database on all the computers you want, by defining the same projectroot on the network computers during each installation.
 
@@ -32,7 +32,7 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     2. Type ``regedit``  in the text box and click OK. This will open the Registry Editor application.
 
-    3. Navigate to the ``HKEY_LOCAL_MACHINE\SOFTWARE\OpenToonz\OpenToonz\1.x`` and double-click TOONZPROJECTS in the right part of the window: the Edit String dialog opens.
+    3. Navigate to the ``HKEY_LOCAL_MACHINE\SOFTWARE\OpenToonz\OpenToonz`` and double-click TOONZPROJECTS in the right part of the window: the Edit String dialog opens.
 
     4. Enter the new path for the projectroot. 
 
@@ -52,12 +52,12 @@ The projectroot information can be changed at any moment, for instance if you ne
 
 .. tip:: **To set the projectroot on Macintosh:**
 
-    1. Right-click the OpenToonz icon in the ``Applications/OpenToonz 1.x `` folder, and choose Show Package Contents from the menu that opens.
+    1. Right-click the OpenToonz icon in the ``Applications/OpenToonz`` folder, and choose Show Package Contents from the menu that opens.
 
     2. In the folder that opens browse to the ``Contents/Resources``  folder and open the ``SystemVar.ini``  file with a text editor application, such as TextEdit.
 
     3. Look for the following line where the projectroot is defined:
-    ``TOONZPROJECTS=”/Applications/OpenToonz 1.x /OpenToonz 1.x stuff/projects”`` 
+    ``TOONZPROJECTS=”/Applications/OpenToonz/OpenToonz_stuff/projects”`` 
 
     4. Change the path in inverted commas by typing a new one.
 
@@ -67,7 +67,7 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     1. Open the configuration file to edit the TOONZPROJECTS variable as described above.
 
-    2. Change the path in inverted commas by adding a new path for the new projectroot, separated by a semicolon (e.g. ``/Applications/OpenToonz 1.x`` ``/OpenToonz 1.x stuff/production01`` ``;`` ``/Applications/OpenToonz 1.x /OpenToonz 1.x stuff/production02`` ). 
+    2. Change the path in inverted commas by adding a new path for the new projectroot, separated by a semicolon (e.g. ``/Applications/OpenToonz`` ``/OpenToonz_stuff/production01`` ``;`` ``/Applications/OpenToonz/OpenToonz_stuff/production02`` ). 
 
     3. Save the ``SystemVar.ini``  file.
 
@@ -151,7 +151,7 @@ When in a scene you load material not located in the current project folders, yo
 
 .. note:: All shared disks involved in the folder definitions, i.e. disks where production material has to be written and read, must be shared granting full permissions to any user, otherwise the exchange of files will not succeed. For Windows, disks must have a Share Permission set to Full Control for Everyone; for Macintosh, the sharing settings must allow any user to read from and write to disks.
 
-.. note:: When no project is defined, the ``OpenToonz 1.x stuff`` ``/sandbox`` project is used by default.
+.. note:: When no project is defined, the ``OpenToonz_stuff/sandbox`` project is used by default.
 
 .. tip:: **To set default folders for a new project:**
 
@@ -165,7 +165,7 @@ When in a scene you load material not located in the current project folders, yo
 
 Adding Custom Default Folders
 '''''''''''''''''''''''''''''
-Besides the basic default folders you can also add your own default folders, and use the related aliases, by defining a TXT file named ``project_folders.txt``  in the ``OpenToonz 1.x stuff\profiles``  folder. In this file you can also change the order of the folders already available to change the way they are listed in the project settings dialog. The following is an example of a ``projectfolders.txt``  file:
+Besides the basic default folders you can also add your own default folders, and use the related aliases, by defining a TXT file named ``project_folders.txt``  in the ``OpenToonz_stuff\profiles``  folder. In this file you can also change the order of the folders already available to change the way they are listed in the project settings dialog. The following is an example of a ``projectfolders.txt``  file:
 
 inputsdrawingsbackgroundscenesextrasoutputspalettes3D
 
@@ -173,7 +173,7 @@ where the +backgrounds and +3D aliases were added to the default ones.
 
 .. tip:: **To add more default folders to projects:**
 
-    1. Open the ``OpenToonz 1.x stuff\profiles\project_folders.txt``  file.
+    1. Open the ``OpenToonz_stuff\profiles\project_folders.txt``  file.
 
     2. List the default folders you want to define, one per line, and save the file.
 
