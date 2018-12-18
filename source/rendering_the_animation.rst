@@ -451,53 +451,71 @@ Final animations can be rendered directly by loading the related scene, or in ba
 
 Choosing the Output Settings
 ''''''''''''''''''''''''''''
- |output_settings_dialog| 
-
 The Output Settings dialog lets you define the file format, location and properties for the final rendering. Settings are the following:
 
-- Save in is for setting the location where the output is saved; the location can be set by typing or by using the browser button.
+ |output_settings_dialog| 
+
+- **Save in:** is for setting the location where the output is saved; the location can be set by typing or by using the browser button.
 
 .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-- File Name is the name you want to assign to the output file; by default it is the same name of the scene. 
+- **Name:** is the name you want to assign to the output file; by default it is the same name of the scene. 
 
 In case the format is an image format, the name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will be displayed in the OpenToonz file browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level.
 
-- File Format is the format for the output; supported formats are the following: 3GP, AVI, BMP, JPG, MOV, NOL, PIC, PICT, PCT, PNG, RGB, SGI, SWF, TGA, TIF and TIFF. 
+- **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
-Apart from the formats 3GP for mobile video, Microsoft AVI, QuickTime MOV and Adobe Flash SWF, all the other formats output a sequences of full-color images. 
 
-The Options button opens a dialog to set specific properties related to the chosen format, such as codecs for MOV files, or color depth for TIF images.
+.. _rendering_in_mpeg4_and_webm_formats:
 
-.. note:: OpenToonz supports the 3GP, MOV, PICT and PCT formats by using the 32-bit version of QuickTime.
+Rendering in MP4 and WebM Formats
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FFmpeg is a free software project that produces libraries and programs for handling multimedia data and can allow OpenToonz to load and render MP4 and WebM video formats. MP4 and WebM will be listed along the other standard output formats. To enable this feature it is necessary to install FFmpeg on the computer, indicate its installation path to OpenToonz by going to Preferences > Import/Export page, and restart OpenToonz for the change to take effect.
 
-.. note:: To be able to export AVI format with Xvid codec, you have to deactivate the Display encoding status option available in the Other Options > Encoder page of the Configure Encoder tool.
+.. tip:: **To enable the rendering in MP4 and WebM:**
 
-- Output Camera sets which camera, among the ones defined in the scene, has to be used to set the resolution and render the animation. 
+    1. Go to https://www.ffmpeg.org/download.html and install FFmpeg.
 
-- From Frame and To Frame set the frame range of the scene to render; by default these values refer to the whole scene length.
+    2. Go to the File > Preferences > Import/Export page.
 
-- Step sets the step for the rendered sequence; for example if it is two, one frame each two will be rendered.
+    3. Write the FFmpeg installation path in the text field (e.g. C:\\ffmpeg\\bin) .
+    
+    4. Restart OpenToonz.
 
-- Shrink sets the reduction value of the rendered sequence resolution; for example if it is two, one pixel each two will be rendered, thus resulting in frames having half of the original output camera resolution.
+    5. Go to File > Output Settings and choose mp4 or webm from the File Format list.
 
-- Multiple Rendering creates automatically for a single scene several output files based on the xsheet columns content, and according to the FX schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
 
-- Resample Balance controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
+Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other formats will output sequences of full-color images.
 
-Options are: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output.
+.. note:: OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of QuickTime.
 
-- Channel Width sets the color depth for rendered images; choices are 8 bit, resulting in 32 bit images, and 16 bit, resulting in 64 bit images. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the TIF format with the 64 bit option.
+The **Options** button opens a dialog to set specific properties related to the chosen file format, such as codecs for MOV files, color depth for TIF images, etc.
 
-- Gamma performs a gamma correction on rendered images before writing them to disk; the value you specify can include decimal fractions.
+- **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
 
-- Dominant Field allows you to render two images per frame, then taking only odd lines from one image, and even lines from the other, to compose the final frame. This process is also called interlacing.
+- **Frame Start:** and End: set the frame range of the scene to render; by default these values refer to the whole scene length.
+
+- **Step:** sets the step for the rendered sequence; for example if it is 2, one frame each two will be rendered.
+
+- **Shrink:** sets a reduction value for the defined render resolution; for example if it is 2, one pixel each two will be rendered, thus resulting in frames having half of the original output camera resolution.
+
+- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns content, and according to the FX Schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
+
+- **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
+
+There are several options to choose from. Originally Toonz provided three options: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output. Now OpenToonz also provides several other standard resampling filters that could help improve the final results in a wider range of situations.
+
+- **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the TIF format with the 64 Bits Per Pixel option activated.
+
+- **Gamma:** performs a gamma correction on rendered images before writing them to disk; the value you specify can include decimal fractions.
+
+- **Dominant Field:** allows you to render two images per frame, then taking only odd lines from one image, and even lines from the other, to compose the final frame. This process is also called interlacing.
 
 Interlacing is useful when experiencing a strobe effect due to a fast camera or pegbar movement, because all object movements are interpolated on a double number of images (one odd-lines image and one even-lines image instead of just one frame), thus becoming smoother.
 
-Field rendering is only relevant for scenes to be rendered for video output. Options are Even (PAL) and Odd (NTSC), according to the video standard you are outputting to. 
+Field rendering is only relevant for scenes to be rendered for video output. Options are Even (PAL) and Odd (NTSC), and you should choose it according to the video standard you are outputting to. 
 
-- Stretch from FPS to FPS changes the timing of the xsheet when outputting files: in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
+- **Stretch from FPS: To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
 For example, if you are working at 25 fps, a 150 frames xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
 
@@ -507,13 +525,14 @@ When passing from a higher frame rate to a lower one, some level drawings will n
 
 .. note:: Particles FX may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
 
-Stereoscopic Render activates the Stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.The Camera Shift parameter sets the distance between the two camera views.
+**Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.The **Camera Shift** parameter sets the distance between the two camera views.
 
 .. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. OpenToonz uses these values as the Camera Shift parameter for rendering the stereoscopic effect.
 
-- Dedicated CPUs sets, in case your computer has multiple CPUs, how many processors will be assigned to the rendering process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However it is suggested to use the Half or Single values if the scene to render is very complex, because the higher the dedicated CPUs, the more the memory required to perform the rendering. 
+- **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processors will be assigned to the rendering process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However it is suggested to use the Half or Single values if the scene to render is very complex, because the higher the dedicated CPUs, the more memory will be required to perform the rendering. 
 
-- Render Tile allows the rendering of very complex scenes whose frames will be computed in tiles that are automatically stitched to create the final output: the smaller the size of the tile, the longer the rendering. Setting the value to Medium or Small will allow the rendering of very high resolution outputs of very complex scenes, that otherwise may fail to be rendered; setting the value to None may prevent some artifacts that the tile stitching may generate. In most of the cases the Large value will do the work, because it is not slower than the None option, and yet is able to render complex scenes.
+- **Render Tile:** allows the rendering of very complex scenes whose frames will be computed in tiles that are automatically stitched to create the final output: the smaller the size of the tile, the longer the rendering. Setting the value to Medium or Small will allow the rendering of very high resolution outputs of very complex scenes, that otherwise may fail to be rendered; setting the value to None may prevent some artifacts that the tile stitching may generate. In most cases the Large value will do the work, because it is not slower than the None option, and yet is able to render complex scenes.
+
 
 .. tip:: **To set the scene output settings:**
 
@@ -521,37 +540,23 @@ Stereoscopic Render activates the Stereoscopic 3D output of the scenes. Each fra
 
     2. Set the options you want to use for the final rendering.
 
-    .. _rendering_in_mpeg4_and_webm_formats:
-
-Rendering in MPEG4 and WebM Formats
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-FFmpeg is a free software project that produces libraries and programs for handling multimedia data. If installed allows to render in MP4 and WebM formats. MP4 and WebM will be listed in Output Settings > File Settings. To enable this feature it is necessary to install FFmpeg on the computer and set its path in Preferences > Import/Export.
-
-.. tip:: **To enable the rendering in MPEG4 and WebM:**
-
-    1. Go to https://www.ffmpeg.org/download.html and install FFmpeg.
-
-    2. Go to the File > Preferences > Import/Export page.
-
-    3. Write the FFmpeg installation path in the text field (e.g. C:\\ffmpeg\\bin) .
-    
-    4. Go in File > Output Settings and choose mp4 or webm from the File Format list.
 
 .. _creating_multiple_renderings:
 
 Creating Multiple Renderings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-It is possible to render automatically from a single scene several output files based on the xsheet columns content, and according to the FX schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes.
+With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the xsheet columns content, and according to the FX schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes.
 
 FX Schematic Flows creates as many outputs as the flows connecting the column nodes to the Xsheet one; any FX node with multiple input ports met along the flow, such as the Matte FX, are ignored.
 
-FX Schematic Terminal Nodes creates as many outputs as the number of nodes that in the FX schematic are linked to the Xsheet node; all the columns and FX linked to each of these nodes will be taken into account for the rendering.
+FX Schematic Terminal Nodes creates as many outputs as the number of nodes that in the FX Schematic are linked to the Xsheet node; all the columns and FX linked to each of these nodes will be taken into account for the rendering.
 
-The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the output file name the name of the column, then the column ID as can be read in the FX schematic nodes tooltips, then the FX node name, then the node ID (as can be read in the FX schematic nodes tooltips) if the FX node was renamed. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from the column B (whose ID is Col3) to the FX node My Blur (whose ID is Blur1).
+The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the output file name the name of the column, then the column ID as can be read in the FX Schematic nodes tooltips, then the FX node name, then the node ID (as can be read in the FX Schematic nodes tooltips) if the FX node was renamed. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from the column B (whose ID is Col3) to the FX node My Blur (whose ID is Blur1).
 
 .. note:: No output is displayed after the rendering, regardless of the Open Flipbook After Rendering option in the Preferences dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using sub-xsheets and Over FX (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a sub-xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using sub-xsheets and the Over FX (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a sub-xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
+
 
 .. _rendering_animations_with_alpha_channel_information:
 
@@ -559,7 +564,7 @@ Rendering Animations with Alpha Channel Information
 '''''''''''''''''''''''''''''''''''''''''''''''''''
 It is possible to render a scene with a transparent background color in order to export it to editing systems supporting the alpha channel information. 
 
-In this case no image has to be used as background, and the output file format has to support the alpha channel information, e.g. TIF at 32 or 64 bit, or MOV with codecs supporting alpha.
+In this case no image has to be used as background, and the output file format has to support the alpha channel information, e.g. TIF at 32 or 64 bits, TGA at 32 bits, or MOV with codecs supporting alpha.
 
 .. tip:: **To render animation with alpha channel information:**
 
@@ -568,6 +573,7 @@ In this case no image has to be used as background, and the output file format h
     2. Set the alpha channel of the Camera BG Color to transparent.
 
     3. Choose an output file format supporting alpha channel information.
+
 
 .. _rendering_a_loaded_scene:
 
@@ -601,6 +607,7 @@ You can also activate the Use Default Viewer for Movie Format option in the Pref
 
     - In the Preview Blank Color set the color for the blank frames.
 
+
 .. _rendering_scenes_in_batch_mode:
 
 Rendering Scenes in Batch Mode
@@ -608,10 +615,6 @@ Rendering Scenes in Batch Mode
 The rendering of a scene can be added to a task list and performed in batch mode in order to run it in the background while you perform other work on your computer. 
 
 Render tasks can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with cleanup tasks (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
-
-
-
-
 
 
 The Tasks pane is divided into two sections: on the left there is the task tree where all of the render tasks are displayed with a clapboard icon and all the cleanup tasks with a brush icon; on the right there is information about the task selected in the tree.
@@ -647,6 +650,7 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
     - Click and drag the separator toward the window border to hide a section.
 
     - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+
 
 .. _managing_and_executing_render_tasks:
 
@@ -775,6 +779,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
     - To add a task to the dependencies list, select a task in the task list on the right and click the Add button.
 
     - To remove a task from the dependencies list, select a task in the dependencies list on the left, and click the Remove button.
+
 
 .. _using_chunks_when_rendering_tasks:
 
