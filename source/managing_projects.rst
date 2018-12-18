@@ -121,7 +121,7 @@ Project Default Folders
 -----------------------
 Projects have default folders where scanned drawings, painted drawings, scenes, rendered frames and palettes are automatically saved. These folders are shared by all of the scenes created for that particular project, and are labelled in the following way:
 
-- +inputs is the folder where all scanned drawings are saved (as TIF files).
+- *+inputs* is the folder where all scanned drawings are saved (as TIF files).
 
 - +drawings is the folder where OpenToonz cleaned up drawings, drawings made directly in OpenToonz and imported OpenToonz drawings are saved (TLV and PLI files).
 
