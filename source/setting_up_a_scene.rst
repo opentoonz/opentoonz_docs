@@ -72,6 +72,8 @@ Even if a scene has been composited with a specific frame rate for a certain out
 
 Defining Camera Settings
 ------------------------
+|camera_settings|
+
 The Camera Settings... dialog, that can be opened from the Xsheet menu, contains parameters for defining the current camera size and resolution. 
 
 More than one camera can be defined for each scene, in order to have different output resolutions, or to shot only a particular area of the scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  ).
@@ -136,3 +138,5 @@ If you are working mainly with vector images, that have been drawn inside OpenTo
 
 .. note:: The changes set for this option is valid only after OpenToonz is restarted.
 
+
+.. |camera_settings| image:: /_static/setting_up_a_scene/camera_settings.png
