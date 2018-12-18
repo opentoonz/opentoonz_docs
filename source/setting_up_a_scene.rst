@@ -34,7 +34,7 @@ In the Files > Preferences > Interface dialog you can set the following default 
 
 - The Camera Unit is used to display and define the camera size in the Xsheet > Camera Settings... dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
-You can also express values in an unit different from the default one by entering any of the following units and abbreviations: in, inch,“, ‘ ‘ (double apostrophe), cm, mm, fld, field and px, after the input value itself. As soon as the value is entered it's converted in the default unit.
+You can also express values in an unit different from the default one by entering any of the following units and abbreviations: in, inch, ", '' (two apostrophes), cm, mm, fld, field and px, after the input value itself. As soon as the value is entered it's converted in the default unit.
 
 If a value without a specific unit is used, it is supposed to be expressed in the default unit.
 
@@ -59,7 +59,7 @@ The current scene frame rate can be set in the Scene Settings... dialog, and it 
 
 Apart from affecting the playback speed when previewing or rendering a scene, the frame rate also determines the frame count of an audio file when it is imported into the xsheet (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
-Even if a scene has been composited with a specific frame rate for a certain output, it is possible to render it out at a different frame rate by using the Stretch option in Output Settings (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+Even if a scene has been composited with a specific frame rate for a certain output, it is possible to render it out at a different frame rate by using the Stretch from FPS: To: option in the Output Settings > Other Settings dialog (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
 .. tip:: **To set the frame rate:**
 
