@@ -60,7 +60,7 @@ Since the Toonz Farm Controller needs to access the FARMROOT folder, typically s
 
     2. Select the Log On page, check the This Account option.
 
-    3. Choose the network where the Toonz farm is going to work and set an account that has administrator rights on that network. Insert and confirm the related password.
+    3. Choose the network where the Toonz Farm is going to work and set an account that has administrator rights on that network. Insert and confirm the related password.
 
     4. Click the OK button.
 
