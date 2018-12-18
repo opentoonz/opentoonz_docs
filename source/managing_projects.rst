@@ -67,7 +67,7 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     1. Open the configuration file to edit the TOONZPROJECTS variable as described above.
 
-    2. Change the path in inverted commas by adding a new path for the new projectroot, separated by a semicolon (e.g. ``/Applications/OpenToonz`` ``/OpenToonz_stuff/production01`` ``;`` ``/Applications/OpenToonz/OpenToonz_stuff/production02`` ). 
+    2. Change the path in inverted commas by adding a new path for the new projectroot, separated by a semicolon (e.g. ``/Applications/OpenToonz/OpenToonz_stuff/production01`` ``;`` ``/Applications/OpenToonz/OpenToonz_stuff/production02`` ). 
 
     3. Save the ``SystemVar.ini``  file.
 
