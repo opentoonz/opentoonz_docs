@@ -19,9 +19,9 @@ The projectroot is the folder where the project information and database are sto
 
 The default value is ``C:\OpenToonz_stuff\projects``  on Windows and ``/Applications/OpenToonz/OpenToonz_stuff/projects``  on Macintosh.
 
- |additional_project_locations|
-
 If your production has to be managed on more than one computer or on a network, you can share the same project information and database on all the computers you want, by defining the same projectroot on the network computers during each installation.
+
+ |additional_project_locations|
 
 It is also possible to define more than one projectroot if needed: in this case projectroot folders will be visible in the OpenToonz browser, each with the related path in brackets.
 
