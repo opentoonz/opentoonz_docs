@@ -80,15 +80,15 @@ The camera size can be expressed in any unit, but will be visualized in the defa
 
 In OpenToonz the Camera is defined by different parameters:
 
-    - Width and Height, are the size of the camera usually expressed in inches.
+    - X (Width) and Y (Height) size of the camera, expressed in the default Camera Unit (usually inches).
 
-    - A/R is the aspect ratio value resulting by the Width/Height formula.
+    - A/R is the aspect ratio value resulting by dividing Width/Height.
 
-    - XPx and YPx that are the number of pixels for the Width and the Height respectively.
+    - X and Y resolution Pixels of the resulting image seen by the camera.
 
-    - XDpi and YDpi that are the X and Y resolutions calculated using the standard formulas: XDpi=XPx/Width, and, YDpi=YPx/Height. This two fields can be forced to have the same value, using the appropriate checkbox.
+    - X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal sign button between them.
 
-When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of value has to be considered fixed by OpenToonz . The buttons of the top row and leftmost column of the camera parameters let you select which column and row of values has to be preserved by OpenToonz while changing the others as needed.
+When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by OpenToonz . The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by OpenToonz, while changing the others as needed.
 
 The Use Current Level Settings button let you set the camera for framing exactly the content of the selected level. Just press this button and OpenToonz will calculate the appropriate values for the camera.
 
