@@ -88,9 +88,9 @@ In OpenToonz the Camera is defined by different parameters:
 
     - X and Y resolution Pixels of the resulting image seen by the camera.
 
-    - X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal sign button between them.
+    - X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal-sign button between them.
 
-When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by OpenToonz . The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by OpenToonz, while changing the others as needed.
+When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by OpenToonz. The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by OpenToonz, while changing the others as needed.
 
 The Use Current Level Settings button let you set the camera for framing exactly the content of the selected level. Just press this button and OpenToonz will calculate the appropriate values for the camera.
 
