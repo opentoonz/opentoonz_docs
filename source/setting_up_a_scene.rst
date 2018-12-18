@@ -26,7 +26,7 @@ Choosing the Working Unit
 -------------------------
 Positions, distances and sizes can be expressed in several units of measure: inches, millimeters, centimeters, fields and pixels. 
 
-The field unit is equal to 1/2 inch on the horizontal dimension, and it depends on the A/R set in the field guide information of the Scene settings dialog on the vertical dimension (see  :ref:`Using the Work Area <using_the_work_area>`  ). For example if the A/R value is 1.77778, two horizontal fields are equal to an inch, while the vertical field is an inch divided by 1.77778.
+The field unit is equal to 1/2 inch on the horizontal dimension, and it depends on the A/R set in the field guide information of the Scene settings dialog on the vertical dimension (see  :ref:`Using the Work Area <using_the_work_area>`  ). For example if the A/R value is 1.77778, two horizontal fields are equal to an inch, while one vertical field equals to an inch divided by 1.77778.
 
 In the Files > Preferences > Interface dialog you can set the following default units:
 
