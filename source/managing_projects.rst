@@ -77,7 +77,7 @@ The projectroot information can be changed at any moment, for instance if you ne
 
 Setting up Projects
 -------------------
-|new_project|
+ |new_project| 
 
 When you define a new project you can specify its default folders, while its default settings will be inherited from the current project. Default folders and settings can be modified at any time to satisfy new production needs.
 
