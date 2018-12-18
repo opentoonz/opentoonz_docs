@@ -110,27 +110,29 @@ The preview window framebar displays rendered frames in grey, frames that have t
 
 The Preview Settings dialog lets you define the resolution, range, step and shrink of the preview frames. Settings are the following:
 
-- Output Camera sets which camera, among the ones defined in the scene, has to be used to set the resolution and preview the animation. 
+- **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to set the resolution and preview the animation. 
 
-- Use Sub-camera if activated uses the sub-camera defined for the selected camera in the preview frames (see  :ref:`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  ).
+- **Frame Start:** and **End:** set the frame range of the scene to preview; by default these values refer to the whole scene length.
 
-- From Frame and To Frame set the frame range of the scene to preview; by default these values refer to the whole scene length.
+- **Step:** sets the step for the rendered sequence; for example if it is two, one frame each two will be rendered.
 
-- Step sets the step for the rendered sequence; for example if it is two, one frame each two will be rendered.
+- **Shrink:** sets the reduction value for the previewed sequence resolution; for example if it is 2, one pixel each two will be rendered, thus resulting in previewed frames having half of the original output camera resolution.
 
-- Shrink sets the reduction value of the previewed sequence resolution; for example if it is two, one pixel each two will be rendered, thus resulting in previewed frames having half of the original output camera resolution.
+- **Apply Shrink to Main Viewer** if activated uses the shrink value set in the preview settings to the preview mode of the viewer as well (see  :ref:`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  ).
 
-- Apply Shrink to Main Viewer if activated uses the shrink value set in the preview settings to the preview mode of the viewer as well (see  :ref:`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  ).
+- **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
 
-- Resample Balance controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
+There are several options to choose from. Originally Toonz provided three options: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output. Now OpenToonz also provides several other standard resampling filters that could help improve the final results in a wider range of situations.
 
-Options are: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output.
+- **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. 
 
-- Channel Width sets the color depth for rendered images; choices are 8 bit, resulting in 32 bit images, and 16 bit, resulting in 64 bit images. 
+- **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processors will be assigned to the previewing process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the previewing process. However it is suggested to use the Half or Single values if the scene to preview is very complex, because the higher the dedicated CPUs, the more the memory required to perform the preview. 
 
-- Dedicated CPUs sets, in case your computer has multiple CPUs, how many processors will be assigned to the previewing process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the previewing process. However it is suggested to use the Half or Single values if the scene to preview is very complex, because the higher the dedicated CPUs, the more the memory required to perform the preview. 
+- **Render Tile:** allows the preview of very complex scenes whose frames will be computed in tiles that are automatically stitched to create the final preview: the smaller the size of the tile, the longer the preview process. Setting the value to Medium or Small will allow the preview of very high resolution outputs of very complex scenes, that otherwise may fail to be previewed; setting the value to None may prevent some artifacts that the tile stitching may generate. In most of the cases the Large value will do the work, because it is not slower than the None option, and yet is able to preview complex scenes.
 
-- Render Tile allows the preview of very complex scenes whose frames will be computed in tiles that are automatically stitched to create the final preview: the smaller the size of the tile, the longer the preview process. Setting the value to Medium or Small will allow the preview of very high resolution outputs of very complex scenes, that otherwise may fail to be previewed; setting the value to None may prevent some artifacts that the tile stitching may generate. In most of the cases the Large value will do the work, because it is not slower than the None option, and yet is able to preview complex scenes.
+- **Use Sub-camera**, when activated, uses the sub-camera defined for the selected camera in the preview frames (see  :ref:`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  ).
+
+
 
 .. tip:: **To set the scene preview settings:**
 
@@ -171,6 +173,7 @@ Options are: Standard, Improved, High. The higher the balance chosen, the longer
     - Use Blank Frames to set how many blank frames you want to be displayed after each preview playback when looping.
 
     - Use Blank Frames Color to set the color for the blank frames.
+
 
 .. _previewing_and_caching_fx_nodes_in_the_schematic:
 
@@ -215,9 +218,9 @@ At the bottom a customizable set of buttons is available:
 
 - The Snapshot (|snapshot|) and Compare to Snapshot (|compare|) buttons allow the comparison between different frames of the flipbook content.
 
-- The Define Loading Box button (|define_preview_subcamera|) allows the definition of a box, smaller than the size of the loaded image sequence, that will limit the portion of the images that will be displayed in the flipbook. It may prove useful to speed up the loading time and increase the playback speed, when you are only interested in a portion of the images.
+- The Define Sub-camera button (|define_preview_subcamera|) allows the definition of a region, smaller than the size of the loaded image sequence, that will limit the portion of the images that will be displayed in the flipbook. It may prove useful to speed up the loading time and increase the playback speed, when you are only interested in a certain region of the full camera image.
 
-- The Use Loading Box button (|subcamera_preview|) activate or deactivate the defined loading box (see above).
+- The Sub-camera Preview button (|subcamera_preview|) lets you activate or deactivate the defined sub-camera region (see above).
 
 - The Background colors buttons sets a white (|preview_white|), black (|preview_black|) or checkered (|preview_checkboard|) background for transparent images.
 
@@ -493,7 +496,7 @@ The **Options** button opens a dialog to set specific properties related to the 
 
 - **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
 
-- **Frame Start:** and End: set the frame range of the scene to render; by default these values refer to the whole scene length.
+- **Frame Start:** and **End:** set the frame range of the scene to render; by default these values refer to the whole scene length.
 
 - **Step:** sets the step for the rendered sequence; for example if it is 2, one frame each two will be rendered.
 
@@ -515,7 +518,7 @@ Interlacing is useful when experiencing a strobe effect due to a fast camera or 
 
 Field rendering is only relevant for scenes to be rendered for video output. Options are Even (PAL) and Odd (NTSC), and you should choose it according to the video standard you are outputting to. 
 
-- **Stretch from FPS: To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
+- **Stretch from FPS:  To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
 For example, if you are working at 25 fps, a 150 frames xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
 
@@ -525,7 +528,8 @@ When passing from a higher frame rate to a lower one, some level drawings will n
 
 .. note:: Particles FX may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
 
-**Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.The **Camera Shift** parameter sets the distance between the two camera views.
+**Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.
+The **Camera Shift** parameter sets the distance between the two camera views.
 
 .. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. OpenToonz uses these values as the Camera Shift parameter for rendering the stereoscopic effect.
 
