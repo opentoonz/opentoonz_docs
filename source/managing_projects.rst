@@ -22,9 +22,9 @@ The default value is ``C:\OpenToonz_stuff\projects``  on Windows and ``/Applicat
 .. note:: If your production has to be managed on more than one computer on a network, you can share the same project database on all the computers you want, by defining the same projectroot on each computer.
 
 
- |additional_project_locations|
-
 It is also possible to define more than one projectroot if needed: in this case projectroot folders will be visible in the OpenToonz browser, each with the related path in brackets.
+
+ |additional_project_locations|
 
 The projectroot information can be changed at any moment, for instance if you need to move the project database files from one computer to another.
 
