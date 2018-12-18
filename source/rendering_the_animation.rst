@@ -100,7 +100,7 @@ It is possible to activate the Preferences > Preview > Fit to Flipbook option to
 
 It is possible to clone the preview window, or to automatically open as many preview windows as needed by activating the Preferences > Preview > Display in a New Flipbook Window option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
- |Toonz71_540| 
+ |preview_settings_dialog| 
 
 .. note:: As when changes are made in the scene all the preview windows automatically update, it is possible to check the animation before and after some editing by freezing any of the preview. 
 
@@ -196,6 +196,7 @@ Of course if something changes in the flow up to the cached node, for example an
 
     Right-click the node and choose Cache FX from the menu that opens: the cached preview images will be discarded.
 
+
 .. _using_the_flipbook:
 
 Using the Flipbook
@@ -209,8 +210,6 @@ The flipbook title bar displays the information about the content on the left, a
 At the bottom a customizable set of buttons is available:
 
 - The Option button (|option|) sets which buttons and elements have to be displayed in the bottom bar.
-
-
 
 - The Save button (|save|) opens a browser to save the flipbook content.
 
@@ -411,6 +410,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
+
 .. _using_the_playback_markers:
 
 Using the Playback Markers
@@ -439,17 +439,19 @@ When activated, they will define the starting and ending frame to be considered 
 
     Click any of the markers: when activated, the markers turn grey. 
 
+
 Rendering the Animation
 -----------------------
 Final animations can be rendered directly by loading the related scene, or in batch mode. In both cases the rendering properties are defined in the Output Settings dialog.
 
 .. note:: Information about the scene name and frame number can be included when needed in rendered frames by activating the Show Info in Rendered Frames option in the Preferences > General dialog.
 
+
 .. _choosing_the_output_settings:
 
 Choosing the Output Settings
 ''''''''''''''''''''''''''''
- |Toonz71_564| 
+ |output_settings_dialog| 
 
 The Output Settings dialog lets you define the file format, location and properties for the final rendering. Settings are the following:
 
@@ -792,8 +794,8 @@ If you are not using the OpenToonz render farm, dividing the task in chunks not 
 
 render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
-.. |Toonz71_540| image:: /_static/Toonz71/Toonz71_540.gif
-.. |Toonz71_564| image:: /_static/Toonz71/Toonz71_564.gif
+.. |preview_settings_dialog| image:: /_static/rendering/preview_settings_dialog.png
+.. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
 .. |add_render| image:: /_static/rendering/add_render.png
 .. |compare| image:: /_static/rendering/compare.png
 .. |define_preview_subcamera| image:: /_static/rendering/define_preview_subcamera.png
