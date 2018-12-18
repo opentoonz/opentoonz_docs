@@ -121,17 +121,17 @@ Project Default Folders
 -----------------------
 Projects have default folders where scanned drawings, painted drawings, scenes, rendered frames and palettes are automatically saved. These folders are shared by all of the scenes created for that particular project, and are labelled in the following way:
 
-- *+inputs* is the folder where all scanned drawings are saved (as TIF files).
+- **+inputs** is the folder where all scanned drawings are saved (as TIF files).
 
-- +drawings is the folder where OpenToonz cleaned up drawings, drawings made directly in OpenToonz and imported OpenToonz drawings are saved (TLV and PLI files).
+- **+drawings** is the folder where OpenToonz cleaned up drawings, drawings made directly in OpenToonz and imported OpenToonz drawings are saved (TLV and PLI files).
 
-- +scenes is the folder where the OpenToonz scenes are saved (TNZ files).
+- **+scenes** is the folder where the OpenToonz scenes are saved (TNZ files).
 
-- +extras is the folder where all the imported non-OpenToonz levels, images and audio files are saved.
+- **+extras** is the folder where all the imported non-OpenToonz levels, images and audio files are saved.
 
-- +outputs is the folder where rendered images are saved.
+- **+outputs** is the folder where rendered images are saved.
 
-- +palettes is the folder where the project palettes of the studio palette are saved, and where the Raster Drawing Palette, shared by all the raster levels belonging to the project, is stored.
+- **+palettes** is the folder where the project palettes of the studio palette are saved, and where the Raster Drawing Palette, shared by all the raster levels belonging to the project, is stored.
 
 For each of these folders you can specify different locations on your computer network depending on the way you set up the storage of your production material. 
 
