@@ -168,14 +168,14 @@ Adding Custom Default Folders
 '''''''''''''''''''''''''''''
 Besides the basic default folders you can also add your own default folders, and use the related aliases, by defining a TXT file named ``project_folders.txt``  in the ``OpenToonz_stuff\profiles``  folder. In this file you can also change the order of the folders already available to change the way they are listed in the project settings dialog. The following is an example of a ``projectfolders.txt``  file:
 
-inputs/n
-drawings
-background
-scenes
-extras
-outputs
-palettes
-3D
+inputs  
+drawings  
+background  
+scenes  
+extras  
+outputs  
+palettes  
+3D  
 
 where the **+backgrounds** and **+3D** aliases were added to the default ones.
 
