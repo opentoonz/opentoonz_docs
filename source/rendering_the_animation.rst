@@ -98,7 +98,7 @@ It is possible to define the range of previewed frames both in the preview setti
 
 It is possible to activate the Preferences > Preview > Fit to Flipbook option to ensure that the previewed images fit the size of the preview window regardless their resolution.
 
-It is possible to clone the preview window, or to automatically open as many preview windows as needed by activating the Preferences > Preview > Display in a New Flipbook Window option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
+It is possible to clone the preview window, or to automatically open as many preview windows as needed by activating the Preferences > Preview > Display in a New Flipbook Window option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
 
  |preview_settings_dialog| 
 
