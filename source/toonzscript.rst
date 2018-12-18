@@ -8,7 +8,7 @@ ToonzScript is the scripting language used in OpenToonz. The scripting usage all
 
 .. note:: Several well known scripting languages are based on the ECMAScript standard like JavaScript, JScript and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason a good introduction to JavaScript can be very useful to understand better the ToonzScript basics.
 
-The ToonzScript page with some (rather old) examples are available at the following URL:
+The original ToonzScript page with some (rather old) examples are available at the following URL:
 
 `ToonzScript page <http://www.toonz.com/htm/support/Script.htm>`_
 
