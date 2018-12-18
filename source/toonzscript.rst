@@ -24,7 +24,7 @@ Files managing
 
 |toonz_script_runscript|
 
-The ToonzScript file extension is .js, the scripts have to be into the ``OpenToonz 1.2 stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
+The ToonzScript file extension is .js, the scripts have to be into the ``OpenToonz_stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
 
 
 .. _use_the_script_console:
@@ -93,7 +93,7 @@ run(“C:\\Users\\Username\\Tests\\another_test.js”)
 
 **Examples:** 
 
-view(new Level(“C:\\OpenToonz 1.2 stuff\\sandbox\\drawings\\A.pli”))
+view(new Level(“C:\\OpenToonz_stuff\\sandbox\\drawings\\A.pli”))
 
     - The variable ``ToonzVersion`` can be used to check the current version of OpenToonz.
 
@@ -642,9 +642,9 @@ This brief script is an example of using the OutlineVectorizer on a single image
 
 
 
-``dir = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES IN\\";`` 
+``dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\";`` 
 
-``dir2 = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES OUT\\";`` 
+``dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\";`` 
 
 
 
@@ -691,9 +691,9 @@ This example explains how to load an image and then create an animation in a lev
 
 //Define the input and output folders
 
-``dir = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES IN\\";`` 
+``dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\";`` 
 
-``dir2 = "C:\\OpenToonz 1.2 stuff\\SCRIPT IMAGES OUT\\";`` 
+``dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\";`` 
 
 
 
