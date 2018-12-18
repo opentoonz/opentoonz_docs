@@ -61,8 +61,10 @@ The current scene frame rate can be set in the Scene Settings... dialog, and it 
 
 Apart from affecting the playback speed when previewing or rendering a scene, the frame rate also determines the frame count of an audio file when it is imported into the xsheet (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
-|stretch_fps_to|
 Even if a scene has been composited with a specific frame rate for a certain output, it is possible to render it out at a different frame rate by using the Stretch from FPS: To: option in the Output Settings > Other Settings dialog (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+
+|stretch_fps_to|
+
 
 .. tip:: **To set the frame rate:**
 
