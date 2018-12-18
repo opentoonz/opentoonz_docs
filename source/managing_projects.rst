@@ -14,9 +14,12 @@ The right use of production material is achieved because once you have defined a
 
 Setting the Projectroot
 -----------------------
+
 The projectroot is the folder where the project information and database are stored; it is displayed in the OpenToonz browser as one of the main folders with the related path in brackets.
 
 The default value is ``C:\OpenToonz_stuff\projects``  on Windows and ``/Applications/OpenToonz/OpenToonz_stuff/projects``  on Macintosh.
+
+ |additional_project_locations|
 
 If your production has to be managed on more than one computer or on a network, you can share the same project information and database on all the computers you want, by defining the same projectroot on the network computers during each installation.
 
@@ -81,7 +84,7 @@ Setting up Projects
 
 When you define a new project you can specify its default folders, while its default settings will be inherited from the current project. Default folders and settings can be modified at any time to satisfy new production needs.
 
-Project information is stored in an XML file named as the project with the ``_otprj``  suffix in a folder named as the project located in the projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+Project information is stored in an XML file named as the project with the ``_otprj``  suffix, in a folder named as the project located in the projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
 Projects can be organized in folders and can contain sub-projects that can be browsed in the OpenToonz file browser. This allows you to customize the project structures in order to follow your production needs, for instance creating a folder for each episode, then a project for each scene belonging to that episode. As the project browser will display the project tree and all the folders contained in the projectroot, you can also organize your folder structure in the projectroot by using the OS file system.
 
@@ -116,6 +119,7 @@ If you want a new scene to be part of a new project, first you have to define a 
     Select File > Project Settings and change default folders paths.
 
 .. note:: When changing default folders, scenes previously created in the same project may fail retrieving used files.
+
 
 .. _project_default_folders:
 
@@ -292,6 +296,7 @@ with **+drawings** that is ``C:\seq01\scene01\prod drawings`` on Windows, or ``/
 If the $scenepath is used in the folder definition, with **+drawings** that is ``C:\prod drawings\$scenepath`` on Windows, or ``/Volume/Macintosh HD/prod drawings/$scenepath`` on Macintosh, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the same as above, but this time **+drawings** is ``C:\prod drawings\seq01\scene01`` on Windows, or ``/Volume/Macintosh HD/prod drawings/seq01/scene01`` on Macintosh.
 
 .. |new_project| image:: /_static/managing_projects/new_project_dialog.png
+.. |additional_project_locations| image:: /_static/managing_projects/additional_project_locations.png
 .. |scenepath_variable| image:: /_static/managing_projects/scenepath_variable.png
 .. |append_scenepath| image:: /_static/managing_projects/append_scenepath.png
 
