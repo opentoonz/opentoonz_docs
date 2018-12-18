@@ -22,6 +22,7 @@ The Toonz Farm is composed by the following:
 
 .. note:: In order to render the scenes successfully all the computers involved in the Toonz Farm, controller, servers and clients have to share the same projectroot folders (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
+
 .. _installing_the_toonz_farm_on_windows:
 
 Installing the Toonz Farm on Windows
@@ -40,7 +41,8 @@ When you choose to install the Farm Controller component, the installation progr
 
 When you choose to install the Farm Server component, the installation program will create for the server program a Windows Service, named Toonz Farm Server.
 
-.. note:: As the Toonz farm requires exchanges of data between computers in the network by using TCP/IP protocol, any firewall system that may block access on computer ports has to be disabled.
+.. note:: As the Toonz Farm requires exchanges of data between computers in the network by using TCP/IP protocol, any firewall system that may block access on computer ports has to be disabled.
+
 
 .. _setting_the_controller_node:
 
@@ -62,6 +64,7 @@ Since the Toonz Farm Controller needs to access the FARMROOT folder, typically s
 
     4. Click the OK button.
 
+
 .. _setting_the_server_nodes:
 
 Setting the Server Nodes
@@ -78,9 +81,10 @@ Since the Toonz Farm Server, for rendering purposes, needs to access one or more
 
     2. Select the Log On page, check the This Account option.
 
-    3. Choose the network where the Toonz farm is going to work and set an account that has administrator rights on that network. Insert and confirm the related password.
+    3. Choose the network where the Toonz Farm is going to work and set an account that has administrator rights on that network. Insert and confirm the related password.
 
     4. Click the OK button.
+
 
 .. _installing_the_toonz_farm_on_macintosh:
 
@@ -92,13 +96,14 @@ To install the Toonz Farm, you have to install the Farm Controller component on 
 
 After the installation of the toonz farm components, a FARMROOT folder has to be defined, and on all the computers belonging to the farm, both controller and servers, the full-path of the FARMROOT folder has to be specified.
 
-To define the FARMROOT folder you can take as model the ``toonzfarm``  folder stored in OpenToonz 1.x stuff. You can take the ``toonzfarm``  folder from any computer where OpenToonz in installed, choose the location you prefer, and share it on the network, giving full control to any user by setting the right permissions.
+To define the FARMROOT folder you can take as model the ``toonzfarm``  folder stored in OpenToonz_stuff. You can take the ``toonzfarm``  folder from any computer where OpenToonz in installed, choose the location you prefer, and share it on the network, giving full control to any user by setting the right permissions.
 
 To specify the path to the FARMROOT on the computers, both controller and servers, belonging to the farm, you have to edit the ``configfarmroot.txt``  file by typing in it the full path to the FARMROOT folder.
 
-To retrieve this file open the ``Applications/OpenToonz 1.x`` folder, right-click the OpenToonz icon and choose Show Package Contents from the menu that opens; in the folder that opens browse to the ``Contents/Resources``  folder and retrieve the ``configfarmroot.txt``  file.
+To retrieve this file open the ``Applications/OpenToonz`` folder, right-click the OpenToonz icon and choose Show Package Contents from the menu that opens; in the folder that opens browse to the ``Contents/Resources``  folder and retrieve the ``configfarmroot.txt``  file.
 
 .. note:: As the Toonz farm requires exchanges of data between computers in the network by using TCP/IP protocol, any firewall system that may block access on computer ports has to be disabled.
+
 
 .. _configuring_the_toonz_farm:
 
@@ -112,13 +117,12 @@ For the same reason the computer where the FARMROOT is located has to be started
 
 The FARMROOT folder contains the following:
 
-- the ``config``  folder containing the ``servers.txt`` , the`` controller.txt`` and the
-
-``id.txt`` .
+- the ``config``  folder containing the ``servers.txt`` , the ``controller.txt`` and the ``id.txt`` .
 
 - the ``logs``  folder.
 
 The ``controller.txt`` and the ``servers.txt``  configuration files must be edited to define the controller node and the server (rendering) nodes before using the Render Farm.
+
 
 .. _defining_the_controller_node:
 
@@ -252,6 +256,7 @@ When a server is selected in the list, the following related information are dis
 
 - State: displays if the server is Ready, Busy or Down. 
 
+
 .. note:: A server node state may be down if the server port you set is blocked by a firewall system, and is not open for all the computers belonging to the Toonz farm (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ).
 
 - Number of CPU: displays the number of CPUs available on the server.
@@ -273,7 +278,7 @@ Checking the Toonz Farm Processing
 ''''''''''''''''''''''''''''''''''
 When the Toonz Farm is used, any problem that may be experienced during the processing is recorded in LOG files, that can be opened and used to diagnose problems.
 
-The LOG files are saved in the ``OpenToonz 1.x stuff\toonzfarm``  folder of the computer experiencing the problem; each LOG refers to the processing performed by that computer only.
+The LOG files are saved in the ``OpenToonz_stuff\toonzfarm``  folder of the computer experiencing the problem; each LOG refers to the processing performed by that computer only.
 
 The LOG files that may be generated by the Toonz Farm processing are the following:
 
