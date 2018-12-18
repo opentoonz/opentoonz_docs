@@ -77,6 +77,8 @@ The projectroot information can be changed at any moment, for instance if you ne
 
 Setting up Projects
 -------------------
+|new_project|
+
 When you define a new project you can specify its default folders, while its default settings will be inherited from the current project. Default folders and settings can be modified at any time to satisfy new production needs.
 
 Project information is stored in an XML file named as the project with the ``_otprj``  suffix in a folder named as the project located in the projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
@@ -289,6 +291,7 @@ with **+drawings** that is ``C:\seq01\scene01\prod drawings`` on Windows, or ``/
 
 If the $scenepath is used in the folder definition, with **+drawings** that is ``C:\prod drawings\$scenepath`` on Windows, or ``/Volume/Macintosh HD/prod drawings/$scenepath`` on Macintosh, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the same as above, but this time **+drawings** is ``C:\prod drawings\seq01\scene01`` on Windows, or ``/Volume/Macintosh HD/prod drawings/seq01/scene01`` on Macintosh.
 
+.. |new_project| image:: /_static/managing_projects/new_project_dialog.png
 .. |scenepath_variable| image:: /_static/managing_projects/scenepath_variable.png
 .. |append_scenepath| image:: /_static/managing_projects/append_scenepath.png
 
