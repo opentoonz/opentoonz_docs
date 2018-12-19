@@ -524,7 +524,7 @@ There are also several included themes to choose from: Default, Blue, Dark and L
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
-These files are stored in a folder named as the QSS file, and located in the ``C:\OpenToonz 1.x stuff\config\qss``  folder on Windows and ``OpenToonz 1.x stuff\config\qss``  folder on Macintosh. 
+These files are stored in a folder named as the QSS file, and located in the ``C:\OpenToonz_stuff\config\qss``  folder on Windows and ``OpenToonz_stuff\config\qss``  folder on Macintosh. 
 
 .. note:: The QSS file for Macintosh is named with the _mac suffix.
 
@@ -548,7 +548,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To create a new theme:**
 
-    1. Navigate to ``C:\OpenToonz 1.x stuff\config\qss``  folder on Windows and ``OpenToonz 1.x stuff\config\qss``  folder on Macintosh.
+    1. Navigate to ``C:\OpenToonz_stuff\config\qss``  folder on Windows and ``OpenToonz_stuff\config\qss``  folder on Macintosh.
 
     2. Duplicate one of the already existing style folder.
 
