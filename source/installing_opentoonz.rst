@@ -10,6 +10,8 @@ Downloading OpenToonz
 ---------------------
 You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or OS X version to start downloading the installer application.
 
+.. note:: For instructions on how to download the Linux version of OpenToonz, please see below.
+
 
 
 .. _installing_on_windows:
@@ -19,32 +21,31 @@ Installing on Windows
 Excecute the OpenToonzSetup.exe file and follow these steps:
 
 
-Choose languange for the installer messages:
-
+1. Choose languange for the installer messages:
  |win_setup_1|
  
 
-Accept OpenToonz Terms of Use:
+2. Accept OpenToonz Terms of Use:
 
  |win_setup_2| 
  
 
-Decide where to install the OpenToonz_stuff folder and if you wish to overwrite any previous settings in a preexisting OpenToonz_stuff folder in the chosen location (except for user's personal settings, which will always be preserved): 
+3. Decide where to install the OpenToonz_stuff folder and if you wish to overwrite any previous settings in a preexisting OpenToonz_stuff folder in the chosen location (except for user's personal settings, which will always be preserved): 
 
  |win_setup_3| 
  
 
-Decide whether or not to create a desktop icon during the installation process: 
+4. Decide whether or not to create a desktop icon during the installation process: 
 
  |win_setup_4| 
  
 
-Press the Install button to start the installation process with the chosen settings: 
+5. Press the Install button to start the installation process with the chosen settings: 
 
  |win_setup_5| 
  
 
-Decide whether or not to Launch OpenToonz right away after closing the installer: 
+6. Decide whether or not to Launch OpenToonz right away after closing the installer: 
 
  |win_setup_6| 
 
