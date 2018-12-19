@@ -10,6 +10,7 @@ Other OpenToonz scenes can be loaded as well: they will be nested inside a colum
 
 All of the xsheet contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
 
+
 .. _using_the_viewer:
 
 Using the Viewer
@@ -49,6 +50,7 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 
     Move the pointer to the viewer area.
 
+
 .. _using_the_file_browser:
 
 Using the File Browser
@@ -57,7 +59,7 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 You can either use the standard OpenToonz file browser to drag and drop levels or folders to the xsheet or the scene cast window, or use the Load Level and Load Folder browser you can open from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time that will be exposed each in a separate column; if you use the Load Level browser, when loading an animation level you can also specify the frame range to load. When you use the Load Folder command all the files contained in the folder (if supported) are loaded into the xsheet.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences>Loading>Level Settings by Format. In this case the Level Settings specified will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by Format. In this case the Level Settings specified will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. note:: It is possible to Ignore the Alpha Channel of levels loaded on the column 1 by activating the option in Prefernces>Xsheet.
 
@@ -88,13 +90,13 @@ You can open folders and sub-folders in order to retrieve files that are display
 
 .. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the size set for the level strip frames in the Preferences > Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
 
-As part of the scene you can load Toonz raster and vector animation levels (TLV and PLI), Toonz palettes (TPL), full-color images or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF), clips (AVI and MOV), Photoshop documents (PSD), vector images including animation (SWF), vector images (SVG) and audio files (AIFF and WAV). Images or clips with alpha channel information once imported will retain their transparency information.
+As part of the scene you can load Toonz raster and vector animation levels (TLV and PLI), Toonz palettes (TPL), full-color images or sequences of full-color images (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information once imported will retain their transparency information.
 
 .. note:: It is also possible to load TZU and TZP files created with Toonz version 4.x: in this case the files will be automatically converted and loaded in the TLV format.
 
 .. note:: Photoshop files can be loaded taking into account the layers the document is made of (see  :ref:`Loading Photoshop Documents <loading_photoshop_documents>`  ).
 
-.. note:: SWF and SVG files are automatically converted and loaded in the PLI format.
+.. note:: SVG files are automatically converted and loaded in the PLI format.
 
 Sequences of full color images can be recognized by OpenToonz file browsers as a single animation level if they are named with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. They are displayed in the file browser with a double dot before the file extension, e.g. ``animation..tif`` .
 
@@ -230,6 +232,7 @@ If any of the files you want to import has the same name of a file already exist
 
     Right-click in the right area of the browser and choose Show Folder Contents from the menu that opens: the entire folder contents are displayed in a default OS window.
 
+
 .. _loading_photoshop_documents:
 
 Loading Photoshop Documents
@@ -260,6 +263,7 @@ When a Photoshop document is loaded as columns, it is also possible to set the w
 
 .. note:: In order to be properly displayed in the final rendering, images based on Photoshop document layers have to be premultiplied either using the Premultiply option in the level settings, or the Premultiply effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Premultiply <premultiply>`  ).
 
+
 .. _executing_tasks_in_the_file_browser:
 
 Executing Tasks in the File Browser
@@ -272,7 +276,7 @@ When duplicating files, the new files will be renamed by appending an underscore
 
 When converting files, a dialog prompts the frame range to convert, a saving location, a name, the new format with related options and a color for the background of the converted file. It is also possible to select more files at once but, in this case, the frame range and the file name fields won’t be available. All levels, images and clips supported by OpenToonz can be converted. The PLI files can be converted to the SVG format.
 
-When converting files to TLV format, it is possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by OpenToonz can be converted, except PSD and SWF files.
+When converting files to TLV format, it is possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by OpenToonz can be converted, except PSD files.
 
 The conversion to the unpainted TLV format is available when one or several files are selected and it is meant for lineart images: the images and levels are converted into black lineart images with a transparent background, so that they can be painted with the same techniques and tools you can use for Toonz raster levels (see  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In particular if images have some transparency, transparent pixels remain transparent, while solid pixels are transformed into black ones; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black ones. 
 
@@ -297,9 +301,6 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 .. tip:: **To convert a file to a different format:**
 
     1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convertwindow change depending on the format of the selected files.
-
-
-
 
     2. Choose the frame range to convert, the saving location, a name, the new format, and the background color of the converted file.
 
@@ -356,9 +357,6 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     3. Select painted tlv from the File format drop down menu.
 
-
-
-
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
     5. Activate the Skip Existing Files to to prevent overwriting already existing files.
@@ -378,9 +376,6 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 .. tip:: **To convert files to the painted TLV format from non AA source:**
 
     1. Select the Raster Full color file you want to convert. 
-
-
-
 
     2. Choose the saving location and, if you have selected one sequence, the frame range.
 
@@ -410,6 +405,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     2. Right-click any of the selected files and choose Premultiply from the menu that opens.
 
+
 .. _exposing_levels:
 
 Exposing Levels
@@ -421,6 +417,7 @@ If the level you want to use has already been loaded but not exposed, or it was 
 In case you need to retrieve some specific drawings from an animation level, you can display it in the Level Strip, in order to select the drawings to expose.
 
 .. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in OpenToonz, are automatically exposed in the xsheet.
+
 
 .. _using_the_scene_cast:
 
@@ -533,6 +530,9 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     - Right-click in the scene cast and choose Remove All Unused from the menu that opens.
 
+
+.. _using_the_level_strip:
+
 Using the Level Strip
 '''''''''''''''''''''
 When an animation level is displayed in the level strip, you can select the specific drawings you want to expose in the xsheet. This feature may prove useful especially when you need to retrieve some drawings that belongs to the level, but that are not available in the xsheet cells.
@@ -573,6 +573,7 @@ When an animation level is displayed in the level strip, you can select the spec
 
 .. note:: When it is not possible to release the selection, a red outline is displayed instead of the selection.
 
+
 .. _replacing_levels:
 
 Replacing Levels
@@ -596,6 +597,7 @@ The original level is preserved in the scene cast from where it can be retrieved
     - Right-click the selection and choose Replace Level from the menu that opens.
 
     3. In the browser select the new level, and click the OK button (see  :ref:`Using the File Browser <using_the_file_browser>`  ).
+
 
 .. _editing_level_settings:
 
@@ -642,6 +644,7 @@ Once a level is exposed, its properties, like path, DPI and subsampling, can be 
     - Right-click a level in the xsheet and choose Level Setting from the menu that opens.
 
     - Right-click a level in the cast and choose Level Setting from the menu that opens.
+
 
 .. _working_with_xsheet_columns:
 
@@ -793,6 +796,7 @@ Columns you want to hide in the xsheet can be also folded in order to save space
 
     Click the fold visible between the column headers.
 
+
 .. _working_with_xsheet_cells:
 
 Working with Xsheet Cells
@@ -897,6 +901,7 @@ Selected cells can also be dragged to a new position in the xsheet, in duplicati
 
 .. note:: The column data are moved along except for the linked columns, because linked columns can only have one parent column.
 
+
 .. _using_the_smart_fill_handle:
 
 Using the Smart Fill Handle
@@ -920,6 +925,7 @@ It is the small tab appearing at the bottom of the cell selection. By dragging t
     - If you want a progressive sequence to be repeated, first copy the sequence first drawing at the end of the sequence, then select all and drag down the fill handle. For example if the sequence is 1, 2, 3, 4, copy the drawing 1 at the end of the sequence (the result will be 1, 2, 3, 4, 1), and the added drawings will be 2, 3, 4, 1, 2, etc.
 
     - If you want to delete some cells, select a region so that the cells you want to delete are in the last rows, and drag the fill handle up.
+
 
 .. _stretching_the_xsheet_timing:
 
@@ -949,6 +955,7 @@ Options are the following.
 
     3. Define the time stretching options, then click the Stretch button.
 
+
 .. _working_globally_with_frames:
 
 Working Globally with Frames
@@ -973,6 +980,7 @@ When a frame is removed, the current frame cells are deleted, and the following 
 
     2. Choose Xsheet > Remove Frame.
 
+
 .. _using_sub-xsheets:
 
 Using Sub-xsheets
@@ -996,6 +1004,7 @@ As sub-xsheets can be loaded and saved, they can also be used for importing or e
 When working in a sub-xsheet, by default only its contents are displayed in the work area. If you need to edit the sub-xsheet contents while looking at the whole scene contents, you can activate the Edit in Place mode. 
 
 Like standard xsheets, sub-xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded in sub-xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the sub-xsheet columns frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+
 
 .. _creating_sub-xsheets:
 
@@ -1089,6 +1098,7 @@ When copying sub-xsheet columns and cells, their copies refer always to the same
 
     - Right-click the column header and choose Resequence from the menu that opens.
 
+
 .. _loading_a_scene_as_a_sub-xsheet:
 
 Loading a Scene as a Sub-xsheet
@@ -1121,6 +1131,7 @@ On the occasion the camera settings of the scene you are loading as a sub-xsheet
 
 .. note:: OpenToonz scene files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, xsheet, or work area.
 
+
 .. _exploding_sub-xsheets:
 
 Exploding Sub-xsheets
@@ -1143,6 +1154,7 @@ Sub-xsheets can be exploded to automatically bring their content into the xsheet
 
     3. Choose whether to bring relevant pegbars to the main xsheet, or to bring columns only, then click the OK button.
 
+
 .. _saving_a_sub-xsheet_as_a_scene:
 
 Saving a Sub-xsheet as a Scene
@@ -1156,6 +1168,7 @@ The sub-xsheet content will be saved according to the current project settings f
     1. Open the sub-xsheet you want to save, so that its contents are displayed in the xsheet.
 
     2. Choose Xsheet > Save Sub-xsheet As and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
+
 
 .. _creating_a_soundtrack:
 
@@ -1189,7 +1202,7 @@ The Level Settings dialog is available for audio clips as well, allowing you to 
 
 The soundtrack you define with audio clips will be created by merging all of the contents of audio columns according to the volume you set for each of them. While it cannot be played back when using the playback controls in the viewer, it can be scrubbed with the current frame cursor in the xsheet frame column or in the viewer framebar, and played back when a scene is previewed (see  :ref:`Editing Audio Clips <editing_audio_clips>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  ). 
 
-When a scene is rendered in a file format supporting audio, for example QuickTime MOV, the soundtrack will be included in the file (see  :ref:`Rendering the Animation <rendering_the_animation>`  ). 
+When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or AVI), the soundtrack will be included in the file (see  :ref:`Rendering the Animation <rendering_the_animation>`  ). 
 
 .. note:: Audio clips loaded in sub-xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  ).
 
@@ -1297,6 +1310,7 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     - Windows only: click and drag on the dashed vertical strip available on the right of the audio column cells: the selected section will be automatically played back.
 
+
 .. _lip_synching:
 
 Lip Synching
@@ -1339,6 +1353,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
     - Click the up or down arrowheads.
 
+
 .. _importing_magpie_files:
 
 Importing Magpie Files
@@ -1351,7 +1366,7 @@ While Magpie takes care of the audio file analysis and phoneme recognition, the 
 
 .. tip:: **To export the OpenToonz lip sync file in Magpie:**
 
-    1. Copy the file ``export-toonz.lua``  available in ``OpenToonz 1.x stuff\config``  folder into the ``C:\Program Files\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
+    1. Copy the file ``export-toonz.lua``  available in ``OpenToonz_stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
 
     2. In Magpie choose File > Export and choose Toonz among the 2D software list to export the TLS file.
 
@@ -1368,6 +1383,7 @@ While Magpie takes care of the audio file analysis and phoneme recognition, the 
     - Use the Animation Level section to retrieve the animation level you want to expose in the xsheet, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frame of the selected animation level.
 
     4. Click the Import button.
+
 
 .. _using_memos:
 
@@ -1420,13 +1436,14 @@ When editing a memo its color can be set, and the text you write can be formatte
 
     - Right-click it and choose Delete Memo from the menu that opens.
 
+
 .. _saving_and_loading_scenes:
 
 Saving and Loading Scenes
 -------------------------
 When working on a new scene the default name (untitled) followed by a progressive number is assigned to the scene until you save it with a different name. This name is also used in case the $scenepath variable is used in the project settings to store temporarily the material used in the scene.
 
-.. note:: Untitled scenes and related material are stored in the ``OpenToonz 1.x stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
+.. note:: Untitled scenes and related material are stored in the ``OpenToonz_stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
 
 Scene files can be saved and loaded as TNZ files using the related menu commands. Scenes have to be saved in the current project +scenes folder, or any of its sub-folders, in order to retrieve all the material when they are loaded back.
 
@@ -1482,6 +1499,7 @@ An option to automatically save the scene every given number of minutes is avail
 
     2. Activate the Save Automatically Every Minutes option and enter the number of minutes that have to pass between each saving operation.
 
+
 .. _importing_and_exporting_scenes:
 
 Importing and Exporting Scenes
@@ -1489,6 +1507,7 @@ Importing and Exporting Scenes
 In OpenToonz each scene file belongs to a specific project, so that the material created and used in the scene is located and can be retrieved from the project default folders.
 
 If you need to copy the scene and the related material to a different project, it is possible either to import any scene file in the current project, or to export it to any other project available in the projectroot (see  :ref:`Setting up Projects <setting_up_projects>`  ).
+
 
 .. _importing_scenes_from_a_different_project:
 
@@ -1524,6 +1543,7 @@ In this case both the material files located in the original project default fol
 
     2. Right-click the selection and choose Import Scene from the menu that opens: the scene and the related material files copied in the default folders of the current project.
 
+
 .. _exporting_scenes_to_a_different_project:
 
 Exporting Scenes to a Different Project
@@ -1550,6 +1570,7 @@ In both cases the scenes files and the related assets will be automatically coll
 
     4. Click the Export button.
 
+
 .. _collecting_assets:
 
 Collecting Assets
@@ -1565,6 +1586,7 @@ For this reason it is possible to collect all the files used in a scene, thus im
     1. Select the scenes for which you want to collect assets.
 
     2. Right-click the selection and choose Collect Assets from the menu that opens: all the scene files that were located in external folders are copied into the default folders of the project, and the related paths used in the scene files are updated.
+
 
 .. _scene_backup_files:
 
@@ -1586,6 +1608,7 @@ If you want to recover a scene backup version of a scene, you have to remove the
 
     3. Copy and paste it into the +scenes folder, to replace the version you want to scratch.
 
+
 .. _printing_xsheets:
 
 Printing Xsheets
@@ -1596,7 +1619,7 @@ The HTML file contains a header with general information, several tables, whose 
 
 If any sub-xsheets are used in the scene, they are displayed after the main xsheet where they are exposed.
 
-The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings`` :
+The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` :
 
 - ``xsheet_html.xml``  contains the information used for the HTML xsheet header, and the size for the tables used to represent the xsheet content.
 
@@ -1604,15 +1627,16 @@ The information displayed in the header and the appearance of the HTML table can
 
 When using the Print Xsheet command, a dialog with information about the location and name of the generated HTML file is displayed; then the generated HTML file is displayed in your default browser.
 
-The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML xsheet file is saved, it will be used instead of generating a new one.
+The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML xsheet file is saved, it will be used instead of generating a new one.
 
 .. note:: If you want to move the HTML xsheet file, you should move the CSS file as well, in order to preserve the HTML file appearance as defined by the CSS file.
+
 
 .. _editing_the_html_xsheet_header_and_table_size:
 
 Editing the HTML Xsheet Header and Table Size
 '''''''''''''''''''''''''''''''''''''''''''''
-The HTML xsheet header and the size for the tables used to represent the xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
+The HTML xsheet header and the size for the tables used to represent the xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
 
 The whole text is included in the tag ``xsheet_html`` , that contains the elements ``page``  and ``info`` , where the different users and roles are defined. The basic structure of the file is the following:
 
@@ -1642,7 +1666,7 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
 .. tip:: **To edit the xsheet_html.xml file:**
 
-    Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
+    Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
 
 .. tip:: **To change the size of the table used for splitting the xsheet in sections:**
 
@@ -1656,11 +1680,12 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
     Open it with an Internet browser and check if all the elements are displayed in a nested list where they can be opened and closed to display or hide the related contents.
 
+
 .. _editing_html_xsheet_appearance:
 
 Editing HTML Xsheet Appearance
 ''''''''''''''''''''''''''''''
-The HTML xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings`` . 
+The HTML xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . 
 
 The ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML xsheet file. It can be edited with any text editor software, e.g. Notepad or TextEdit. 
 
@@ -1690,7 +1715,8 @@ Elements defined in the CSS are the following:
 
 .. tip:: **To edit the xsheet.css file:**
 
-    Open the ``xsheet.css``  file available in the folder ``OpenToonz 1.x stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
+    Open the ``xsheet.css``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
+
 
 .. |Toonz71_233| image:: /_static/Toonz71/Toonz71_233.gif
 .. |Toonz71_243| image:: /_static/Toonz71/Toonz71_243.gif
