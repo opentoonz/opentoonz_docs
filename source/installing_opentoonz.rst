@@ -12,9 +12,9 @@ You can download the appropriate version of OpenToonz for your operating system 
 
 
 
-.. _installing_in_windows:
+.. _installing_on_windows:
 
-Installing in Windows
+Installing on Windows
 ---------------------
 Excecute the OpenToonzSetup.exe file and follow these steps:
 
@@ -50,17 +50,17 @@ Decide whether or not to Launch OpenToonz right away after closing the installer
 
 
 
-.. _installing_in_os_x:
+.. _installing_on_os_x:
 
-Installing in OS X
+Installing on OS X
 ------------------
 Excecute the OpenToonz.pkg file and follow the steps indicated there.
 
 
 
-.. _installing_in_linux:
+.. _installing_on_linux:
 
-Installing in Linux
+Installing on Linux
 -------------------
 Currently there is no official support for OpenToonz on Linux, nevertheless, with the kind help of the friends of the Morevna Project there are versions of OpenToonz for Linux, which can be downloaded directly from the `Morevna Project website <https://morevnaproject.org/opentoonz/>`_.
 
