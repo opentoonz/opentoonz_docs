@@ -61,7 +61,7 @@ You can either use the standard OpenToonz file browser to drag and drop levels o
 
 .. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by Format. In this case the Level Settings specified will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
-.. note:: It is possible to Ignore the Alpha Channel of levels loaded on the column 1 by activating the option in Prefernces>Xsheet.
+.. note:: It is possible to Ignore the Alpha Channel of levels loaded on the column 1 by activating the option in Preferences > Xsheet.
 
 In the file tree available on the left there are the following main items:
 
