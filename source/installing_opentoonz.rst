@@ -56,6 +56,7 @@ Follow these steps:
 1. Right-click on the OpenToonz.pkg file in Finder & select Open.
 
 
+
 2. Select Continue.
  |osx_setup_2| 
  
