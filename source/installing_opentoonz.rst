@@ -22,26 +22,32 @@ Execute the OpenToonzSetup.exe file and follow these steps:
 
 
 1. Choose the language for the installer messages.
+
  |win_setup_1|
  
 
 2. Accept OpenToonz Terms of Use.
+
  |win_setup_2| 
  
 
 3. Decide where to install the OpenToonz_stuff folder and if you wish to overwrite any settings in a preexisting OpenToonz_stuff folder in the chosen location (except for user's personal settings, which will always be preserved). 
+
  |win_setup_3| 
  
 
 4. Decide whether or not to create a desktop icon during the installation process. 
+
  |win_setup_4| 
  
 
 5. Press the Install button to start the installation process with the chosen settings. 
+
  |win_setup_5| 
  
 
 6. Decide whether or not to Launch OpenToonz right away after closing the installer. 
+
  |win_setup_6| 
 
 
@@ -57,26 +63,32 @@ Follow these steps:
 
 
 2. Press the Continue button.
+
  |osx_setup_2| 
  
 
 3. Choose a language and press the Continue button. 
+
  |osx_setup_3| 
  
 
 4. Press the Agree button to accept the OpenToonz Terms of Use. 
+
  |osx_setup_4| 
  
 
 5. Select the install destination (will be Macintosh HD unless multiple disks are available) and press the Continue button. 
+
  |osx_setup_5| 
  
 
 6. Press the Install button to start the installation process with the chosen settings. 
+
  |osx_setup_6| 
 
 
 7. Press the Close button to exit the installer. 
+
  |osx_setup_7| 
 
 
