@@ -79,29 +79,21 @@ Together with the configuration file, version control users must be defined by e
     1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz_stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. Delete the line
-
     ``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN``
-
     and the line
-
     ``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``
-    ````
 
     3. In the line 
-
     ``<name>PutYourRepositoryName</name>``
-
     type between the tags the name you want the repository to have in the OpenToonz browser.
 
     4. In the line 
-
     ``<localPath>putYourWorkingCopyPath</localPath>``
-
     type between the tags the path to where you want the working copy to be located on the local computer (e.g. ``C:\myworkingcopy\``  for Windows or ``/myworkingcopy``  for Macintosh).
 
-In the line 
+    5. In the line 
     ``<repoPath>putYourRepositoryPath</repoPath>``
-type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
+    type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
 
 For Macintosh only, if the OS is older than Snow Leopard and you installed the Subversion client 1.5 or later, in the line 
     ``<svnPath></svnPath>``
@@ -115,12 +107,7 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``permissions.xml``  file located in the ``OpenToonz_stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
-
-
-
-::
-
-    <user name="JohnDoe">	<roles>	toonzer	</roles>	<svn name="johnd" password="johndpassword" /></user>
+    ``<user name="JohnDoe">	<roles>	toonzer	</roles>	<svn name="johnd" password="johndpassword" /></user>``
 
     3. Save the ``permissions.xml``  file.
 
@@ -130,16 +117,11 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz_stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. Add after the lines defining a repository the following lines 
+    ``<repository>	<name>PutYourRepositoryName</name>	<localPath>putYourWorkingCopyPath</localPath>	<repoPath>putYourRepositoryPath</repoPath></repository>``
 
+    and set the related information.
 
-
-::
-
-    <repository>	<name>PutYourRepositoryName</name>	<localPath>putYourWorkingCopyPath</localPath>	<repoPath>putYourRepositoryPath</repoPath></repository>
-
-and set the related information.
-
-Save the ``versioncontrol.xml``  file.
+    3. Save the ``versioncontrol.xml``  file.
 
 
 .. tip:: **To define users for different repositories:**
@@ -147,12 +129,7 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``permissions.xml``  file located in the ``OpenToonz_stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
-
-
-
-::
-
-    <user name="JohnDoe">	<roles>	toonzer	</roles>	<svn name="johnd" password="johndpassword" />	<svn name="johnd2" password="johndpassword2" /></user>
+    ``<user name="JohnDoe">	<roles>	toonzer	</roles>	<svn name="johnd" password="johndpassword" />	<svn name="johnd2" password="johndpassword2" /></user>``
 
     3. Save the ``permissions.xml``  file.
 
