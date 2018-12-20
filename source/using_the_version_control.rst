@@ -93,8 +93,11 @@ and the line
 ::
 
     REMOVE ENTIRELY THIS LINE TO ENABLE SVN --> 
+    
 
     3. In the line 
+
+::
 
 <name>PutYourRepositoryName</name>
 
