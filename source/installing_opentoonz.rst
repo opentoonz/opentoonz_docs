@@ -50,7 +50,34 @@ Execute the OpenToonzSetup.exe file and follow these steps:
 
 Installing on OS X
 ------------------
-Execute the OpenToonz.pkg file and follow the steps indicated there.
+Follow these steps:
+
+
+1. Right-click on the OpenToonz.pkg file in Finder & select Open.
+
+
+2. Select Continue.
+ |osx_setup_2| 
+ 
+
+3. Choose the language & select Continue. 
+ |osx_setup_3| 
+ 
+
+4. Agree to the license agreement. 
+ |osx_setup_4| 
+ 
+
+5. Select the install destination (will be Macintosh HD unless multiple disks are available). 
+ |osx_setup_5| 
+ 
+
+6. Select Install. 
+ |osx_setup_6| 
+
+
+7. Select Close to finish the installation process. 
+ |osx_setup_7| 
 
 
 
@@ -70,4 +97,10 @@ Currently there is no official support for OpenToonz on Linux, nevertheless with
 .. |win_setup_4| image:: /_static/installing/windows_setup_4.png
 .. |win_setup_5| image:: /_static/installing/windows_setup_5.png
 .. |win_setup_6| image:: /_static/installing/windows_setup_6.png
+.. |osx_setup_2| image:: /_static/installing/osx_setup_2.png
+.. |osx_setup_3| image:: /_static/installing/osx_setup_3.png
+.. |osx_setup_4| image:: /_static/installing/osx_setup_4.png
+.. |osx_setup_5| image:: /_static/installing/osx_setup_5.png
+.. |osx_setup_6| image:: /_static/installing/osx_setup_6.png
+.. |osx_setup_7| image:: /_static/installing/osx_setup_7.png
 
