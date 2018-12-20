@@ -69,7 +69,7 @@ Follow these steps:
  |osx_setup_4| 
  
 
-5. Select the install destination (will be Macintosh HD unless multiple disks are available). 
+5. Select the install destination (will be Macintosh HD unless multiple disks are available) and select Continue. 
  |osx_setup_5| 
  
 
