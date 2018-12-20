@@ -82,7 +82,7 @@ Together with the configuration file, version control users must be defined by e
 
 ::
 
-    <!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN
+    <!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN  ::
 
   and the line
 
