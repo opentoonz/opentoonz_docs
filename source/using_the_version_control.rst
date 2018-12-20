@@ -80,38 +80,28 @@ Together with the configuration file, version control users must be defined by e
 
     2. Delete the line
 
-
-
 ::
-
     <!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN
 
-and the line
-
-
+    and the line
 
 ::
-
     REMOVE ENTIRELY THIS LINE TO ENABLE SVN --> 
     
 
     3. In the line 
 
 ::
-
 <name>PutYourRepositoryName</name>
 
-type between the tags the name you want the repository to have in the OpenToonz browser.
+    type between the tags the name you want the repository to have in the OpenToonz browser.
 
     4. In the line 
 
-
-
 ::
-
     <localPath>putYourWorkingCopyPath</localPath>
 
-type between the tags the path to where you want the working copy to be located on the local computer (e.g. ``C:\myworkingcopy\``  for Windows or ``/myworkingcopy``  for Macintosh).
+    type between the tags the path to where you want the working copy to be located on the local computer (e.g. ``C:\myworkingcopy\``  for Windows or ``/myworkingcopy``  for Macintosh).
 
 In the line 
 
