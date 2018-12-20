@@ -10,6 +10,8 @@ Downloading OpenToonz
 ---------------------
 You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or OS X version to start downloading the installer application.
 
+.. note:: Unofficial releases OpenToonz for 32-bit Windows can be found `here <https://github.com/morevnaproject/opentoonz/releases>`_.
+
 .. note:: For instructions on how to download the Linux version of OpenToonz, please see :ref:`Installing on Linux <installing_on_linux>` .
 
 
@@ -97,11 +99,83 @@ Follow these steps:
 
 Installing on Linux
 -------------------
-Currently there is no official support for OpenToonz on Linux, nevertheless with the kind help of the friends of the Morevna Project there are versions available of OpenToonz for Linux, which can be downloaded directly from the `Morevna Project website <https://morevnaproject.org/opentoonz/>`_.
+Currently there is no official support for OpenToonz on Linux, nevertheless with the kind help of the friends of the Morevna Project there are versions available of OpenToonz for Linux, which can be downloaded directly from the `Morevna Project website <https://morevnaproject.org/opentoonz/>`_ (required e-mail).
 
+.. _universal_binaries:
 
+Universal binaries
+''''''''''''''''''
 
+.. _appimage_by_morevna_project:
 
+AppImage by Morevna Project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Download AppImage
+``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux64-b8b54.appimage`` for 64-bit OS or ``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux32-b8b54.appimage`` for 32-bit OS
+
+2. Make AppImage executable
+``chmod a+x OpenToonz*.appimage``
+
+3. Run
+``./OpenToonz*.appimage``
+
+.. note:: Build by Morevna Project contain some experimental features.
+
+.. _flatpak:
+
+Flatpak
+~~~~~~~
+
+1. Installing
+``flatpak install flathub io.github.OpenToonz``
+
+2. Run
+``flatpak run io.github.OpenToonz``
+
+.. _snap:
+
+Snap
+~~~~
+
+``sudo snap install opentoonz``
+
+.. _debian:
+
+Debian GNU/Linux
+''''''''''''''''
+
+1. Download PGP signing key package
+``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb``
+
+2. Install PGP package
+``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``
+
+3. Add repository address to your sources list
+``sudo echo "deb http://www.deb-multimedia.org stable main" | tee -a /etc/apt/sources.list`` Builds for testing and sid also avalaible.
+
+.. note:: Debian packages avalaible only for amd64, arm64 and i386 architectures.
+
+4. Install OpenToonz
+``sudo apt update && apt install opentoonz opentoonz-data``
+
+.. tip:: For updating enter ``sudo apt update && apt upgrade``
+
+For more information visit `repository website <http://deb-multimedia.org/>`_ .
+
+.. _arch:
+
+Arch Linux
+''''''''''
+
+`Aur <https://aur.archlinux.org/packages/opentoonz>`_
+
+.. _gentoo:
+
+Gentoo Linux
+''''''''''''
+
+`Ebuild <https://packages.gentoo.org/packages/media-gfx/opentoonz>`_
 
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png
