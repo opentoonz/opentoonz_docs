@@ -56,28 +56,27 @@ Follow these steps:
 1. Right-click on the OpenToonz.pkg file in Finder & select Open.
 
 
-
-2. Select Continue.
+2. Press the Continue button.
  |osx_setup_2| 
  
 
-3. Choose the language & select Continue. 
+3. Choose a language and press the Continue button. 
  |osx_setup_3| 
  
 
-4. Agree to the license agreement. 
+4. Press the Agree button to accept the OpenToonz Terms of Use. 
  |osx_setup_4| 
  
 
-5. Select the install destination (will be Macintosh HD unless multiple disks are available) and select Continue. 
+5. Select the install destination (will be Macintosh HD unless multiple disks are available) and press the Continue button. 
  |osx_setup_5| 
  
 
-6. Select Install. 
+6. Press the Install button to start the installation process with the chosen settings. 
  |osx_setup_6| 
 
 
-7. Select Close to finish the installation process. 
+7. Press the Close button to exit the installer. 
  |osx_setup_7| 
 
 
