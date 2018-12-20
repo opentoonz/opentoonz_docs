@@ -10,7 +10,7 @@ Downloading OpenToonz
 ---------------------
 You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or OS X version to start downloading the installer application.
 
-.. note:: Unofficial releases OpenToonz for 32-bit Windows can be found `here <https://github.com/morevnaproject/opentoonz/releases>`_.
+.. note:: Unofficial releases OpenToonz by Morevna Project for 32-bit Windows can be found `here <https://github.com/morevnaproject/opentoonz/releases>`_.
 
 .. note:: For instructions on how to download the Linux version of OpenToonz, please see :ref:`Installing on Linux <installing_on_linux>` .
 
