@@ -161,8 +161,6 @@ Debian GNU/Linux
 
 .. tip:: For updating enter ``sudo apt update && apt upgrade``
 
-For more information visit `repository website <http://deb-multimedia.org/>`_ .
-
 .. _arch:
 
 Arch Linux
