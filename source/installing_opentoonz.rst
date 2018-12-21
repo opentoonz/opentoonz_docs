@@ -169,14 +169,23 @@ Arch Linux
 ''''''''''''
 
 ``sudo pacman -S base-devel git``
+
 ``git clone https://aur.archlinux.org/superlu.git``
+
 ``cd superlu``
+
 ``makepkg -si``
+
 ``cd ..``
+
 ``git clone https://aur.archlinux.org/opentoonz.git``
+
 ``cd opentoonz``
+
 ``makepkg -si``
+
 ``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``
+
 ``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/opentoonz" >> ~/.bashrc``
 
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
