@@ -163,12 +163,21 @@ Debian GNU/Linux
 
 For more information visit `repository website <http://deb-multimedia.org/>`_ .
 
-.. _gentoo:
+.. _arch:
 
-Gentoo Linux
+Arch Linux
 ''''''''''''
 
-`Ebuild <https://packages.gentoo.org/packages/media-gfx/opentoonz>`_
+``sudo pacman -S base-devel git``
+``git clone https://aur.archlinux.org/superlu.git``
+``cd superlu``
+``makepkg -si``
+``cd ..``
+``git clone https://aur.archlinux.org/opentoonz.git``
+``cd opentoonz``
+``makepkg -si``
+``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``
+``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/opentoonz" >> ~/.bashrc``
 
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png
