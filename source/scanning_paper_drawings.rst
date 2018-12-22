@@ -21,6 +21,8 @@ Supported Scanners
 ------------------
 OpenToonz supports directly, by using internal drivers, some specific scanners via a USB connection; all the other scanners are supported via any type of connection by using TWAIN drivers. 
 
+ |define_scanner|
+ 
 .. note:: For an updated list of directly supported scanners, please visit the `OpenToonz Web site <https://opentoonz.github.io/e/>`_ .
 
 If your scanner is supported via internal drivers, the scanning process is managed completely by OpenToonz and the Scan Settings dialog; if it is not, the scanning process is managed by the TWAIN interface.
@@ -167,6 +169,8 @@ Scanning Drawings
 -----------------
 According to the driver you are using, internal or TWAIN, the scanning process will be controlled either by the Scan Settings dialog or the TWAIN interface.
 
+ |scan_settings|
+
 The Scan Settings dialog allows you to define the following:
 
 - **Paper Format** sets the size for the drawings to be scanned. The option menu contains a list of already defined formats.
@@ -246,5 +250,7 @@ Once defined the cropbox will be used for any scanning performed for the scene.
 
 
 
+.. |define_scanner| image:: /_static/scanning_paper_drawings/define_scanner.png
 .. |new_scan_level| image:: /_static/scanning_paper_drawings/new_scan_level.png
+.. |scan_settings| image:: /_static/scanning_paper_drawings/scan_settings.png
 
