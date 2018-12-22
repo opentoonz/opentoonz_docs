@@ -14,6 +14,7 @@ The scan process can be done in different modes, and in case autocenter is neede
 
 Animation levels have to be defined first and then scanned according to a defined set of parameters.
 
+
 .. _supported_scanners:
 
 Supported Scanners
@@ -64,6 +65,7 @@ The driver you want to use must be selected according to your scanner before sta
 
     - If your scanner is not directly supported, be sure that TWAIN drivers are installed, and choose Scanner Driver > TWAIN, and click the OK button: in the dialog that opens, select the TWAIN driver related to your scanner.
 
+
 .. _scanning_modes:
 
 Scanning Modes
@@ -78,11 +80,13 @@ Greyscale scanning, being based on a range of grey values, requires a longer sca
 
 Color scanning is for scanning colored lineart and other colored images as backgrounds and overlays. Using colors in lineart allows you to draw different lines with different colors, for example a character outline in black and its body shadow in red or in blue. As colored lines can be identified later during the cleanup process, scanning colored artwork in colors allows you to preserve different line colors with no need of intensive painting work. See  :ref:`Processing Colored Lineart Drawings <processing_colored_lineart_drawings>`  .
 
+
 .. _scanning_guidelines_for_autocentering:
 
 Scanning Guidelines for Autocentering
 -------------------------------------
 To autocenter scanned drawings during the cleanup process, the pegbar holes need to be detected on the images (see  :ref:`Autocentering <autocentering>`  ). For this reason they have to be scanned in black, by properly preparing the scanner and performing the scanning process according to the following guidelines.
+
 
 .. _preparing_scanners:
 
@@ -91,6 +95,7 @@ Preparing Scanners
     - If you use the scanner automatic paper feeder, you should stick a piece of thin black tape in the feeder on the opposite side of the scanner lamp. Be sure to stick the black tape in a position to face the peg holes when the paper is fed into the scanner. 
 
     - If you use the scanner bed, you should place a black sheet of paper under the scanner cover, so that when a drawing is scanned facing down the glass of the scanner bed, the black paper will be behind it. The black paper must be larger than your animation paper, but it does not have to cover the entire scanner bed.
+
 
 .. _scanning_artwork:
 
@@ -102,6 +107,7 @@ Scanning Artwork
 
     - Do not draw too close to the pegbar holes. Avoid drawing anything with the same shape or area of the pegbar hole in the pegbar holes area; leave at least 1 cm (~1/2”) of clear space between the pegbar holes and the rest of your drawings. Lines drawn near the pegbar holes may cause the registration to fail.
 
+
 .. _defining_animation_levels_to_scan:
 
 Defining Animation Levels to Scan
@@ -112,9 +118,9 @@ The definition can be made drawing by drawing directly in the xsheet, or at once
 
 In case you use the New Level dialog you can set the number of drawings the level is made of, the animation step to expose the level repeating its frames, and the increment, that sets the way the level drawings are numbered. For example a step value 2 repeats each drawing twice in the xsheet column, while an increment value 2 numbers the drawings 1, 3, 5, etc.
 
- |Toonz71_034| 
+ |new_scan_level|
 
-By default scanned drawings are saved in the +inputs directory of the current project; if the +inputs definition uses the $scenepath variable, they are saved only if the scene is saved (see  :ref:`Project Default Folders <project_default_folders>`  ). 
+By default scanned drawings are saved in the **+inputs** directory of the current project; if the +inputs definition uses the $scenepath variable, they are saved only if the scene is saved (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
 You can change the location by using either the Path field in the New Level dialog, or the Level Settings window in case you define a level directly in xsheet. 
 
@@ -154,6 +160,7 @@ When an animation level is defined, the name and numbers for the drawings of the
 
 .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
+
 .. _scanning_drawings:
 
 Scanning Drawings
@@ -162,13 +169,13 @@ According to the driver you are using, internal or TWAIN, the scanning process w
 
 The Scan Settings dialog allows you to define the following:
 
-- Paper Format sets the size for the drawings to be scanned. The option menu contains a list of already defined formats.
+- **Paper Format** sets the size for the drawings to be scanned. The option menu contains a list of already defined formats.
 
-- Reverse Order makes the scanning process in a reverse order, starting from the last selected frame to the first one. 
+- **Reverse Order** makes the scanning process in a reverse order, starting from the last selected frame to the first one. 
 
-- Paper Feeder lets the scanner use the automatic document feeder, in case the scanner has one, to scan all the selected drawings without having to insert one image at a time into the scanner.
+- **Paper Feeder** lets the scanner use the automatic document feeder, in case the scanner has one, to scan all the selected drawings without having to insert one image at a time into the scanner.
 
-- Mode is for setting the scanning mode among black and white, greyscale and colors. 
+- **Mode** is for setting the scanning mode among black and white, greyscale and colors. 
 
 The TWAIN interface is related to the scanner you are using and is available only when the TWAIN drivers, provided with the scanner, are installed on your computer. Refer to the scanner documentation for more s.
 
@@ -204,6 +211,7 @@ If you need to scan again an animation level, or a part of it, select the releva
 
 .. note:: After a drawing is scanned, or several drawings are scanned at once by using the paper feeder, in some TWAIN interfaces you may need to use a specific command (such as Back to Application) to return to OpenToonz before proceeding with the next scanning session. Refer to the scanner documentation for more s.
 
+
 .. _setting_the_cropbox:
 
 Setting the Cropbox
@@ -236,4 +244,7 @@ Once defined the cropbox will be used for any scanning performed for the scene.
 
     Choose Scan & Cleanup > Reset Cropbox.
 
-.. |Toonz71_034| image:: /_static/Toonz71/Toonz71_034.gif
+
+
+.. |new_scan_level| image:: /_static/scannig_paper_drawings/new_scan_level.png
+
