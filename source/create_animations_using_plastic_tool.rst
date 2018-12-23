@@ -432,6 +432,37 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 .. note:: The default colour of a mesh is green; it means that the whole mesh is flexible. The red colour is used to point out the rigid areas of the mesh (if any was defined). But if a mesh is all painted in red colour it behaves as a flexible one.
 
 
+.. _displaying_plastic_elements_and_properties:
+
+Displaying Plastic elements and properties
+------------------------------------------
+While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the main viewer. Clicking the right mouse button on the main viewer while the Plastic tool is active brings up a context menu. There are four checkboxes that sets the display property for the Mesh, the Rigidity, the SO (Stacking Order) and the Skeleton Onion Skin.
+
+ |display_options|
+ 
+If the Show Mesh is enabled the mesh will be visible as a wire frame triangulated shape.
+
+ |display_options_mesh|
+
+
+If the Show Rigidity is enabled, a continuous green shape will show the flexible areas while red areas showing the rigid portions.
+
+ |display_options_rigidity|
+
+
+If the Show SO is enabled a grey shading shows the Stacking Order values of the vertices, lighter areas are on top, while darker ones are behind.
+
+ |display_options_so|
+
+
+If the Show Skeleton Onion Skin is enabled, then the ghost of the skeleton at the selected frames is displayed at incremental levels of transparency.
+
+ |display_options_onion_skin|
+
+
+All this information can be displayed at once (checking all the options) giving an overall description of the vertices state.
+
+
 .. _parenting_plastic_levels_using_vertices_and_hooks:
 
 Parenting Plastic levels using vertices and hooks
@@ -516,37 +547,6 @@ For more information about the mathematical Expression usage refer to (See  :ref
 
 
 
-.. _displaying_plastic_elements_and_properties:
-
-Displaying Plastic elements and properties
-------------------------------------------
-While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the main viewer. Clicking the right mouse button on the main viewer while the Plastic tool is active brings up a context menu. There are four checkboxes that sets the display property for the Mesh, the Rigidity, the SO (Stacking Order) and the Skeleton Onion Skin.
-
- |display_options|
- 
-If the Show Mesh is enabled the mesh will be visible as a wire frame triangulated shape.
-
- |display_options_mesh|
-
-
-If the Show Rigidity is enabled, a continuous green shape will show the flexible areas while red areas showing the rigid portions.
-
- |display_options_rigidity|
-
-
-If the Show SO is enabled a grey shading shows the Stacking Order values of the vertices, lighter areas are on top, while darker ones are behind.
-
- |display_options_so|
-
-
-If the Show Skeleton Onion Skin is enabled, then the ghost of the skeleton at the selected frames is displayed at incremental levels of transparency.
-
- |display_options_onion_skin|
-
-
-All this information can be displayed at once (checking all the options) giving an overall description of the vertices state.
-
-
 .. _plastic_and_subxsheets:
 
 Plastic and subxsheets
@@ -574,10 +574,10 @@ A subxsheet is a valid object for the Plastic tool and all or some of its column
 .. |paint_rigid_mode| image:: /_static/plastic_tool/paint_rigid_mode.png
 .. |paint_rigid_options_rigid| image:: /_static/plastic_tool/paint_rigid_options_rigid.png
 .. |paint_rigid_options_flex| image:: /_static/plastic_tool/paint_rigid_options_flex.png
-.. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
 .. |display_options| image:: /_static/plastic_tool/display_options.png
 .. |display_options_mesh| image:: /_static/plastic_tool/display_options_mesh.png
 .. |display_options_rigidity| image:: /_static/plastic_tool/display_options_rigidity.png
 .. |display_options_so| image:: /_static/plastic_tool/display_options_so.png
 .. |display_options_onion_skin| image:: /_static/plastic_tool/display_options_onion_skin.png
+.. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
 
