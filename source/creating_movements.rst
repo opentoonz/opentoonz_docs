@@ -9,13 +9,13 @@ Every movement or transformation you set for an object at a specific frame autom
 To create more complex animation, you can also work in a 3D environment, where camera and scene elements can be placed like on a stage at different distances one from another.
 
 
-
-
 .. _using_the_stage_schematic:
 
 Using the Stage Schematic
 -------------------------
 The stage schematic contains all the objects used in a scene, making it possible to manage the way they are linked to each other. It is organized in a hierarchy starting from the animation table, where all the pegbars and columns are placed. A camera is available as well, and other cameras can be defined.
+
+|stage_schematic|
 
 By default the stage schematic contains one camera, the table, pegbar 1 and 2, and column 1 and 2 nodes, linked in the following way: column 1 is linked to pegbar 1, and this is linked to the table; column 2 is linked to pegbar 2, and this is linked to the table.
 
@@ -140,7 +140,6 @@ It is also possible to group several objects in one single node, in order to bet
     Click the Reorder Nodes button (|reorder_nodes|) in the bottom bar of the stage window.
 
 
-
 .. _linking_objects:
 
 Linking Objects
@@ -201,8 +200,6 @@ Each object has always a free port in order to accept a link to a different cent
 
     - To link a column to another column, select the Animate tool (|animate|) with the Pick option to Column, and in the work area shift-click the column contents to which you want to link the current column.
 
-
-
 .. tip:: **To select the linked object to edit in the hierarchy:**
 
     Do one of the following:
@@ -210,8 +207,6 @@ Each object has always a free port in order to accept a link to a different cent
     - Select it in the stage schematic. 
 
     - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
-
-
 
     - Right-click in the work area a drawing to choose from the menu that opens the Select command related to the object hierarchically linked that you want to edit, from the first one up to the table.
 
@@ -233,13 +228,12 @@ Each object has always a free port in order to accept a link to a different cent
 
     Choose Edit > Delete: links will be replaced by default ones, i.e pegbars will be linked to the table and columns to the pegbar 2.
 
+
 .. _using_hooks:
 
 Using Hooks
 '''''''''''
 Hooks are reference points that can be defined for any animation level directly in the work area by using the Hook tool (|hook|).
-
-
 
 Once defined they can be used in the stage schematic to link an object to the column where the hooked level is exposed according to a specific hook set, or to move the column according to any of its hook sets.
 
@@ -249,8 +243,7 @@ In the second case the hook is used as the center of the column where the hooked
 
 Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example the hook following the character’s foot feature can pass from one foot to another, in order to make the character move continuously onward.
 
-
-
+|hooks|
 
 A hook set can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved.
 
@@ -314,6 +307,8 @@ Hook information is saved along with the level as a file in XML format named as 
 
     3. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook set to be used.
 
+|link_to_hooks|
+
 .. tip:: **To make the level move according to one of its hook set:**
 
     1. Place the pointer left port of the column where the level is exposed, and wait for the double-arrow button to appear.
@@ -332,27 +327,24 @@ Hook information is saved along with the level as a file in XML format named as 
 
     - If the animation is a cycle and you want the character to keep on walking, the last hook position has to be connected to the first and the hook has to pass from one foot to the other by splitting it, and then to the first one by splitting it again. 
 
+
 .. _tracking_points:
 
 Tracking Points
 '''''''''''''''
 It is possible to automatically track specific regions in a sequence of images by using the Tracker tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above).
 
-
-
 When selected the Tracker tool (|tracker|) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool defines both the pattern that the tracking system will try to recognize in the following images, and the size of the area where it will look for it (approximately twice the region).
-
-
 
 Once areas to be tracked are defined in the first frame of a range, it is possible to automatically tracks the regions in a selected range, by specifying the following options:
 
-- Threshold sets the amount of difference between the defined pattern and the recognized one. When using low values, the tracking system will look for an area with an almost identical pattern, and when using high values, for an area that can be quite different from the original one. This means that if the value is too low, it’s likely the tracking will fail on certain images; if too high, the tracking may follow the wrong areas. 
+- **Threshold** sets the amount of difference between the defined pattern and the recognized one. When using low values, the tracking system will look for an area with an almost identical pattern, and when using high values, for an area that can be quite different from the original one. This means that if the value is too low, it’s likely the tracking will fail on certain images; if too high, the tracking may follow the wrong areas. 
 
-- Sensitivity sets how often the defined pattern has to be updated according to the variation it may have in the following images. For the maximum value, the pattern will be updated after each image is tracked.
+- **Sensitivity** sets how often the defined pattern has to be updated according to the variation it may have in the following images. For the maximum value, the pattern will be updated after each image is tracked.
 
-- Variable Region Size, when activated, will look for the defined pattern considering also the different sizes that it can have in the following images. 
+- **Variable Region Size**, when activated, will look for the defined pattern considering also the different sizes that it can have in the following images. 
 
-- Include Background, when activated, considers the background as part of the defined pattern. It can be deactivated when tracking an element whose background does not affect the pattern, such as a blue screen background.
+- **Include Background**, when activated, considers the background as part of the defined pattern. It can be deactivated when tracking an element whose background does not affect the pattern, such as a blue screen background.
 
 .. tip:: **To define a region to be tracked:**
 
@@ -388,33 +380,34 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
     Link the object to the hook automatically defined by the tracking process (see  :ref:`Using Hooks <using_hooks>`  ).
 
+
 .. _animating_objects:
 
 Animating Objects
 -----------------
-You can edit, move, rotate, scale and shear columns, pegbars, the table and cameras by using the Animate tool (|animate|). Objects to be animated can be selected in the stage schematic, in the work area and in the xsheet.
-
-
+You can animate the motion, rotation, scale and shear (plus edit the center) of columns, pegbars, cameras and the table by using the Animate tool (|animate|). Objects to be animated can be selected either in the Stage Schematic, the Viewer, the Xsheet/Timeline or by using a dropdown menu in the Animate tool's own options bar.
 
 In the tool options bar you can set the following:
 
-- An option button (|option|) lets you set which tool options have to be displayed in the bar.
+    - **Select** lets you select which scene element is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself.
+    
+    - **Tool Mode** lets you choose which transformation category to display in the tool options bar. Options are: Position, Rotation, Scale, Shear, Center and All.
 
+    - **Position** **N/S** and **E/W** sets the vertical and horizontal positions of the selected object, position **Z** sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position **SO** sets the column stacking order that can be different from the one defined in the xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
+    - **Rotation** sets the rotation of the selected object.
 
-    - Pick lets you choose if you want to select automatically the column or pegbar to be animated by clicking it in the viewer: when set to column, clicking a drawing automatically selects the related column; when set to pegbar, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked.
+    - **Scale Global**, **H** and **V** sets the global, horizontal and vertical scaling of the selected object. Maintain sets the constraint for scaling operations performed by using the Animate tool handle: if it is set to A/R the object will maintain its proportions, if it is set to Mass the object will maintain its overall size even when changing proportions.
 
-    - Position N/S and E/W sets the vertical and horizontal positions of the selected object, position Z sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position SO sets the column stacking order that can be different from the one defined in the xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+    - **Shear** **H** and **V** sets the horizontal and vertical shearing of the selected object.
 
-    - Rotation sets the rotation of the selected object.
+    - **Center** **N/S** and **E/W** sets the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
 
-    - Scale Global, H and V sets the global, horizontal and vertical scaling of the selected object. Maintain sets the constraint for scaling operations performed by using the Animate tool handle: if it is set to A/R the object will maintain its proportions, if it is set to Mass the object will maintain its overall size even when changing proportions.
+    - **All** displays all transformation types at the same time. In the Viewer a Gizmo will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center. In case there is not enough room available in the toolbar to show all of the options, arrow buttons will be shown at the right/left extremes to access the hidden options by scrolling.
 
-    - Shear H and V sets the horizontal and vertical shearing of the selected object.
+    - **Pick** (only available in **All** mode) lets the user choose to automatically select columns or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked (if there is one).
 
-    - Center N/S and E/W sets the vertical and horizontal position of the center of the selected object. 
-
-    - Global Key when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Animate tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
+    - **Global Key** when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Animate tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
 
     - A lock button (|lock|) defines which transformations have to be locked while transforming the object.
 
@@ -441,8 +434,6 @@ To control interactively transformation values you can also use the handle avail
 When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the Global Key option is activated, keys will be generated for all of the transformations.
 
 If you want to set a key for an object transformation leaving its value as it is at the current frame, you can just hit Enter on the displayed value; if the Global Key option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations leaving their values as they are at the current frame, you can use the Set Key button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations regardless of the Global Key option.
-
-
 
 .. note:: Objects can also be animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
@@ -528,23 +519,17 @@ If you want to set a key for an object transformation leaving its value as it is
 
     Click the Set Key button (|key|): it turns from blue-striped to blue.
 
-
-
 .. tip:: **To remove a set key position from the viewer bottom bar:**
 
     Do one of the following:
 
     - If the key position is global, click the Set Key button (|key|): it turns from blue to grey.
 
-
-
     - If the key position is partial, click twice the Set Key button (|key|): with the first click it turns from striped-blue to blue, with the second from blue to grey.
 
 .. tip:: **To navigate frames where key positions are defined in the viewer bottom bar:**
 
     Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the Set Key button.
-
-
 
 .. note:: Keys can also be removed or navigated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
@@ -555,6 +540,7 @@ If you want to set a key for an object transformation leaving its value as it is
     - Use the option button (|option|) to choose which tool options have to be displayed: only selected items will be displayed.
 
     - Use the lock button (|lock|) to choose which transformations have to be locked while transforming the object: only selected items will be locked.
+
 
 .. _changing_columns_stacking_order:
 
@@ -582,6 +568,7 @@ The SO default value for all the columns is 0, meaning that the xsheet column or
 
 .. note:: Columns SO values can also be edited and animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
+
 .. _creating_a_movement_along_a_motion_path:
 
 Creating a Movement along a Motion Path
@@ -590,7 +577,7 @@ Objects can be moved along a motion path according to two different type of move
 
 A motion path can be assigned to an object in the stage schematic, and it can be defined with drawing tools and edited in the work area as if it was a vector. Once defined it is displayed as a dashed red line, with small numbers indicating the control points defining the vector shape.
 
- |Toonz71_306| 
+|motion_path|
 
 As soon as a path is assigned to an object, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it, and not in the E/W and N/S directions anymore.
 
@@ -599,8 +586,6 @@ The key positions of the object on the motion path can be defined by dragging th
 It is also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
 
 .. note:: If you want to change the center of the object, you can move it with the Animate tool (|animate|) and then use the Reset Center command in the stage.
-
-
 
 .. note:: A motion path can also be created by copying and pasting a drawing vector, and a drawing vector can be created by copying and pasting a motion path.
 
@@ -638,13 +623,9 @@ It is also possible to link the key positions of the objects to the positions of
 
     Click the button at the far left of the object bottom port to switch between two options: the square (|square|) will preserve the object original orientation, and the rotated square (|rhomb|) will automatically rotate the object according to the motion path direction.
 
-
-
 .. tip:: **To link the object key positions to the control points defining the motion path:**
 
     Click the button at the left of the object bottom port to activate or deactivate the Link to Control Points option (|link_to_control_points|).
-
-
 
 .. tip:: **To change the center of the object:**
 
@@ -696,6 +677,7 @@ It is also possible to link the key positions of the objects to the positions of
 
     - Right-click the motion path node and choose Delete from the menu that opens.
 
+
 .. _using_column_keys:
 
 Using Column Keys
@@ -704,8 +686,7 @@ When columns are animated, their animation can be controlled in a quick way by m
 
 As soon as a key position is defined for a column, a related icon is displayed on the right of the column cell to which it refers; the key is displayed regardless of how many parameters are animated. Keys can be moved within the column they refer to, and selected in order to be copied/cut and pasted from one cell to another. 
 
-
-
+|using_column_keys|
 
 When the Global Key option is activated for the Animate tool, and the default interpolation is not set to Linear, as soon as at least two key positions are created for a column a vertical line connecting them with two arrowheads is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed and speed out phases of all the transformations defined for the movement. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
 
@@ -771,11 +752,7 @@ All animations and interpolations set for the column can be visible and edited w
 
 .. tip:: **To activate/deactivate the cycling of previously created keys:**
 
-    Click the tab with a circular arrow (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled 
-
-movement are marked on the right by a vertical zigzagged line. 
-
-
+    Click the tab with a circular arrow (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled movement are marked on the right by a vertical zigzagged line. 
 
 .. tip:: **To open the function editor:**
 
@@ -784,6 +761,7 @@ movement are marked on the right by a vertical zigzagged line.
     - Double-click a key. 
 
     - Right-click a key and choose Function Editor from the menu that opens.
+
 
 .. _working_with_multiple_column_keys:
 
@@ -823,6 +801,7 @@ When a multiple key is deleted at the current frame, any key available in any xs
 
     3. Choose Xsheet > Remove Multiple Keys.
 
+
 .. _working_in_a_3d_environment:
 
 Working in a 3D Environment
@@ -832,8 +811,6 @@ You can place and move cameras, the table, pegbars and columns in a 3D environme
 This means that it is possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
 
 The 3D environment can be activated, or deactivated, with the 3D button (|3d|) available in the viewer title bar. When activated the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top view can be set. 
-
-
 
 By default all the pegbars and columns are on the table: their Z position is equal to the number of horizontal fields defined for the default camera, as the value represents the size of the area that is shot by the camera (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). By increasing the field value, objects are placed farther from the camera; by decreasing it, objects are placed closer to the camera; at zero they are at the same Z position as the camera and for negative value they are behind the camera.
 
@@ -848,8 +825,6 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. tip:: **To enter the 3D environment:**
 
     Click the 3D view button (|3d|) available on the right of the viewer title bar.
-
-
 
 .. tip:: **To set an object position in the 3D environment:**
 
@@ -873,21 +848,16 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     Select the Hand tool(|hand|) and drag in the viewer.
 
-
-
 .. tip:: **To rotate the work area displayed in 3D:**
 
     Select the Rotate tool(|rotate|) and drag in the viewer.
-
-
 
 .. tip:: **To set a side or a top view:**
 
     Do one of the following:
 
-    - To set a side view use the button (|side_view|) available on the side wall or the 3D environment.
-
-
+    - To set a side view use the button (|side_view|) availabl.. |animate| image:: /_static/movements/animate.png
+ on the side wall or the 3D environment.
 
     - To set a top view use the button (|top_view|) available on the floor or the 3D environment.
 
@@ -895,7 +865,14 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     Click the standard (|camera_stand|) or camera view button (|camera_view|) available on the right of the viewer title bar.
 
-.. |Toonz71_306| image:: /_static/Toonz71/Toonz71_306.gif
+
+
+.. |stage_schematic| image:: /_static/movements/stage_schematic.png
+.. |hooks| image:: /_static/movements/hooks.png
+.. |link_to_hooks| image:: /_static/movements/link_to_hooks.png
+.. |motion_path| image:: /_static/movements/motion_path.png
+.. |using_column_keys| image:: /_static/movements/using_column_keys.png
+
 .. |animate| image:: /_static/movements/animate.png
 .. |hand| image:: /_static/movements/hand.png
 .. |hook| image:: /_static/movements/hook.png
