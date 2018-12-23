@@ -856,14 +856,13 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     Do one of the following:
 
-    - To set a side view use the button (|side_view|) availabl.. |animate| image:: /_static/movements/animate.png
- on the side wall or the 3D environment.
+    - To set a side view use the button (|side_view|) available on the side wall or the 3D environment.
 
     - To set a top view use the button (|top_view|) available on the floor or the 3D environment.
 
 .. tip:: **To exit the 3D environment:**
 
-    Click the standard (|camera_stand|) or camera view button (|camera_view|) available on the right of the viewer title bar.
+    Click the standard (|camera_stand|) or camera view buttons (|camera_view|) available on the right of the viewer title bar.
 
 
 
