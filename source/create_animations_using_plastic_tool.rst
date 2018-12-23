@@ -58,7 +58,8 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
 .. note:: Into the Stage Schematic you can see that the TC column is now connected to the mesh column just created, its node has a purple header for easing recognition.
 
-If the Create Mesh is applied to a column that is already modified by the Plastic tool (then already linked to a mesh) a dialog will prompt asking how to manage the new and the old mesh files, and the user can choose one from the different listed oprions: 
+If the Create Mesh is applied to a column that is already modified by the Plastic tool (then already linked to a mesh) a dialog will prompt asking how to manage the new and the old mesh files, and the user can choose from one of three options: 
+
 |create_mesh_warning|
 
     - **delete the old level entirely** : the original mesh file is replaced by a new one with the data of the last mesh generated; a new column for the new mesh is created as the old column retains the old structure but exposes only the new created mesh.
@@ -493,7 +494,7 @@ The values of these parameters can be visualized into the Function Editor as num
 
 .. _use_mathematical_expression_in_plastic_animation:
 
-Use Mathematical Expression in Plastic Animation
+Use Mathematical Expressions in Plastic Animation
 ------------------------------------------------
 To use OpenToonz mathematical expressions in the Plastic Animation, link the vertices of the skeleton to each other or to a column, pegbar or camera.
 
