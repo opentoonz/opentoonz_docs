@@ -101,11 +101,13 @@ Not always it is easy to estimate the right density for a mesh. Sometimes a high
 
 Edit a Plastic mesh
 '''''''''''''''''''
-The mesh created using the Create Mesh button can be edited in several way. It is possible to: move a mesh point, swap, collapse, split and cut a mesh edge. 
+The mesh created using the Create Mesh button can be edited in several ways. It is possible to: move a mesh point, swap, collapse, split and cut the mesh by its edges. 
 
-Swap an edge if you want to change the shape of a mesh triangle; collapse an edge if you want to join the ends of the edge; split an edge if you want to increase the density of the mesh at a given point; cut the mesh if you want to duplicate an edge to have the possibility, for example, to move the triangle points and create a hole.
+ |edit_mesh_mode|
 
-.. note:: The command is visible only if the selected edge can be cut.
+Swap an edge if you want to change the shape of a mesh triangle; collapse an edge if you want to join the ends of the edge; split an edge if you want to increase the density of the mesh at any given point; cut the mesh if you want to duplicate an edge to have the possibility, for example, to create a hole in the mesh and be able to animate it.
+
+.. note:: The Cut Mesh command is visible only if the selected edges can be cut.
 
 .. tip:: **To edit a Plastic mesh:**
 
@@ -115,9 +117,6 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     3. In the Tool Option bar set the Mode to Edit Mesh.
 
- |edit_mesh_mode|
-
-
 .. tip:: **To move a mesh point:**
 
     1. Select the mesh point you want to modify. It became red.
@@ -126,13 +125,13 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
 .. tip:: **To swap an edge of the mesh:**
 
- |swap-collapse-split_edge|
-
     1. Select a mesh edge.
 
     2. Click the right mouse button to open the context menu.
 
     3. Choose the Swap Edge command.
+
+ |swap-collapse-split_edge|
 
 .. tip:: **To collapse an edge of the mesh:**
 
@@ -150,13 +149,13 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     3. Choose the Split Edge command.
  
-.. tip:: **To cut an edge of the mesh:**
+.. tip:: **To cut edges of the mesh:**
 
-    1. Select a mesh edge.
+    1. Select several mesh edges.
 
     2. Click the right mouse button to open the context menu.
 
-    3. Choose the Cut Edge command.
+    3. Choose the Cut Mesh command.
 
 |cut_mesh|
 
@@ -167,6 +166,9 @@ Building a Plastic skeleton
 '''''''''''''''''''''''''''
 The Plastic skeleton is a control structure linked to a mesh level that gives us the handles for deforming/animating the chosen element/s of the xsheet.
 
+ |build_skeleton_mode|
+
+
 .. tip:: **To create a Plastic skeleton:**
 
     1. Select in the Xsheet the mesh column for which you want to build the skeleton.
@@ -174,7 +176,7 @@ The Plastic skeleton is a control structure linked to a mesh level that gives us
     2. If not already active, choose the Plastic tool (|plastic|)
 
     3. In the Tool Option bar set the Mode to Build Skeleton.
-
+ 
     4. Move the mouse pointer on the main viewer. A small red square is now visible near the tip of the cursor. 
 
  |build_skeleton|
@@ -298,6 +300,9 @@ Animating Plastic elements
 ''''''''''''''''''''''''''
 Creating an animation in Plastic is quite an easy task: just select the vertices and move them to the desired position at a specific frame and an animation key frame will be created. Playback the sequence to check the results.
 
+ |animate_mode|
+
+
 .. tip:: **To animate Plastic elements:**
 
     1. Select the mesh column you like to animate.
@@ -377,11 +382,15 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     2. Set a bound for the vertex rotation,setting a minimum and a maximum rotation value inserting the values in the relevant fields.
 
-.. tip:: **Defining Rigidity for a Plastic mesh**
+.. _defining_rigidity_for_a_plastic_mesh:
 
-    In many occasions it may be required that one or more portions of the mesh that is been animated using the Plastic tool, have to preserve their shape even if following the overall transformations of the whole element, simulating a rigid structure, or part of it. To achieve this kind of effect a Rigidity value can be painted directly on the mesh.
+Defining Rigidity for a Plastic mesh
+''''''''''''''''''''''''''''''''''''
+In many occasions it may be required that certain portions of a mesh that's being animated using the Plastic tool, preserve their shape even if following the overall transformations of the whole element, simulating a more rigid structure, or part of it. To achieve this kind of effect a Rigidity value can be painted directly on the mesh.
 
-Activating the Paint Rigid mode in the tool Plastic options bar, a specific drawing tool become available. In the main viewer a red circle is visible near the tip of the mouse pointer, the size of the circle is the size of the brush you are going to use for painting the rigidity on the mesh.
+ |paint_rigid_mode|
+
+When activating the Paint Rigid mode in the tool Plastic options bar, a specific drawing tool become available. In the main viewer a red circle is visible near the tip of the mouse pointer, the size of the circle is the size of the brush you are going to use for painting the rigidity on the mesh.
 
 .. tip:: **To paint rigidity on a mesh:**
 
@@ -390,8 +399,6 @@ Activating the Paint Rigid mode in the tool Plastic options bar, a specific draw
     2. Choose the Plastic tool (|plastic|)
 
     3. Set the Mode to Paint Rigid.
-
- |paint_rigid|
 
     4. Set the size of the brush moving the Thickness slider or writing a value into the appropriate text field.
 
@@ -547,12 +554,14 @@ A subxsheet is a valid object for the Plastic tool and all or some of its column
 .. |edit_mesh_mode| image:: /_static/plastic_tool/edit_mesh_mode.png
 .. |swap-collapse-split_edge| image:: /_static/plastic_tool/swap-collapse-split_edge.png
 .. |cut_mesh| image:: /_static/plastic_tool/cut_mesh.png
+.. |build_skeleton_mode| image:: /_static/plastic_tool/build_skeleton_mode.png
 .. |build_skeleton| image:: /_static/plastic_tool/build_skeleton.png
 .. |multiple_skeletons| image:: /_static/plastic_tool/multiple_skeletons.png
 .. |copy_skeleton| image:: /_static/plastic_tool/copy_skeleton.png
+.. |animate_mode| image:: /_static/plastic_tool/animate_mode.png
 .. |set_keys| image:: /_static/plastic_tool/set_keys.png
 .. |keep_distance| image:: /_static/plastic_tool/keep_distance.png
-.. |paint_rigid| image:: /_static/plastic_tool/paint_rigid.png
+.. |paint_rigid_mode| image:: /_static/plastic_tool/paint_rigid_mode.png
 .. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
 .. |display_options| image:: /_static/plastic_tool/display_options.png
 .. |display_options_mesh| image:: /_static/plastic_tool/display_options_mesh.png
