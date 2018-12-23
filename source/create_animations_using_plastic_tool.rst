@@ -4,9 +4,7 @@ Create animations using Plastic tool
 ====================================
 Plastic is a powerful tool (|plastic|) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it is applied to creating smooth animations.
 
-
-
-
+ |plastic_tool_example|
 
 
 .. _using_plastic_tool:
@@ -18,6 +16,7 @@ The Plastic tool needs as starting input at least one column of the xsheet where
 For animating/deforming a mesh level, Plastic allows the building of a specific skeleton structure active on the mesh. The skeleton is a set of connected vertices, and, for each vertex, different parameters can be specified as: its position, Angle Bounds, Rigidity and Staking Order. Thus a great range of animations and effects can easily be created.
 
 .. note:: The Plastic tool is applied to a column of the xsheet, and the content of the column can be an animated level.
+
 
 .. _building_a_plastic_mesh:
 
@@ -36,10 +35,8 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
     2. Choose the Plastic tool (|plastic|)
 
     3. Press the Create Mesh button in the tool options bar.
-
-
-
-
+  |create_mesh|
+  
     4. Check, in the dialog that opens, the Mesh density in the preview area. Adjust as needed the density using the Mesh Edges Length slider.
 
 .. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the Mesh Edges Length value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but even more computing resources will be required.
@@ -58,15 +55,18 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
 .. note:: Into the Stage Schematic you can see that the TC column is now connected to the mesh column just created, its node has a purple header for easing recognition.
 
+ |create_mesh_warning|
+
 If the Create Mesh is applied to a column that is already modified by the Plastic tool (then already linked to a mesh) a dialog will prompt asking how to manage the new and the old mesh files, and the user can choose one from the different listed oprions: |Toonz71_361| 
 
-    - ``delete the old level entirely`` : the original mesh file is replaced by a new one with the data of the last mesh generated; a new column for the new mesh is created as the old column retains the old structure but exposes only the new created mesh.
+    - **delete the old level entirely** : the original mesh file is replaced by a new one with the data of the last mesh generated; a new column for the new mesh is created as the old column retains the old structure but exposes only the new created mesh.
 
-    - ``keep the old level and overwrite processed frames`` : the original mesh file is updated and the old mesh column exposes the new content for the selected frames, a new column is created exposing just the contents of the selected frames.
+    - **keep the old level and overwrite processed frames** : the original mesh file is updated and the old mesh column exposes the new content for the selected frames, a new column is created exposing just the contents of the selected frames.
 
-    - ``chose a different path`` (same name as the original level plus _X where X is the ordinal number of the copy): an entirely new mesh file is generated and a new column exposes the new contents while the old column exposes the old ones.
+    - **chose a different path** (same name as the original level plus _X where X is the ordinal number of the copy): an entirely new mesh file is generated and a new column exposes the new contents while the old column exposes the old ones.
 
 .. note:: All the above options cause the creation of a new mesh column and the building of a chain, linking the texture column and the meshes columns, into the Stage Schematic. In this chain the older mesh is linked to the younger and the youngest mesh is linked to the texture-column. Rearranging the links into the Stage Schematic can be needed for avoiding undesired results while animating. 
+
 
 .. _modifying_a_plastic_mesh:
 
@@ -96,6 +96,7 @@ Not always it is easy to estimate the right density for a mesh. Sometimes a high
 
     5. Press the Apply button.
 
+
 .. _edit_a_plastic_mesh:
 
 Edit a Plastic mesh
@@ -114,7 +115,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     3. In the Tool Option bar set the Mode to Edit Mesh.
 
-
+ |edit_mesh_mode|
 
 
 .. tip:: **To move a mesh point:**
@@ -125,8 +126,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
 .. tip:: **To swap an edge of the mesh:**
 
-
-
+ |swap-collapse-split_edge|
 
     1. Select a mesh edge.
 
@@ -149,7 +149,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
     2. Click the right mouse button to open the context menu.
 
     3. Choose the Split Edge command.
-
+ 
 .. tip:: **To cut an edge of the mesh:**
 
     1. Select a mesh edge.
@@ -157,6 +157,9 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
     2. Click the right mouse button to open the context menu.
 
     3. Choose the Cut Edge command.
+
+|cut_mesh|
+
 
 .. _building_a_plastic_skeleton:
 
@@ -174,8 +177,7 @@ The Plastic skeleton is a control structure linked to a mesh level that gives us
 
     4. Move the mouse pointer on the main viewer. A small red square is now visible near the tip of the cursor. 
 
-
-
+ |build_skeleton|
 
     5. In the main viewer click (to set in place) or click and drag (to adjust positioning) to place the first vertex. A purple square is now visible in the main viewer.
 
@@ -184,6 +186,7 @@ The Plastic skeleton is a control structure linked to a mesh level that gives us
     6. Move to the position where you want to add the second vertex and click or click and drag to place it. An orange line with a black border will connect the two vertices.
 
     7. Continue clicking or clicking and dragging until all the vertices are in the right place and the skeleton is completed.
+
 
 .. _using_multiple_skeletons_on_a_mesh_level:
 
@@ -197,8 +200,7 @@ Every mesh level uses at least one skeleton for animating, but this is just the 
 
     2. In the Tool Options Bar press the + button next the option menu labeled Skeleton. A new numeric entry is added to the list and a key is created at the selected frame.
 
-
-
+ |multiple_skeletons|
 
     3. Start building the new skeleton as usual.
 
@@ -219,6 +221,7 @@ Every mesh level uses at least one skeleton for animating, but this is just the 
     2. Select from the Skeleton drop down the ID matching the skeleton to delete.
 
     3. Press the - button.
+
 
 .. _modifying_a_plastic_skeleton:
 
@@ -276,6 +279,8 @@ While drawing the skeleton, or when finished to drawing it, some adjustments to 
 
     2. From the context menu that appears select the Copy Skeleton option.
 
+ |copy_skeleton|
+
 .. tip:: **To paste a skeleton:**
 
     1. Select a mesh column in the xsheet.
@@ -285,6 +290,7 @@ While drawing the skeleton, or when finished to drawing it, some adjustments to 
     3. Click the rigth mouse button and select the Paste Skeleton option.
 
 .. note:: Pasting the skeleton on an already existing one will end up in losing the old structure and all its animations. This outcome can be reverted to the previous state using the Undo command.
+
 
 .. _animating_plastic_elements:
 
@@ -316,6 +322,8 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     3. A new key at the current frame is created using the rest values for the selected vertex.
 
+ |set_keys|
+ 
 .. tip:: **To set a Global rest position key for the whole skeleton:**
 
     The first time you draw a skeleton you are even creating the rest position of this structure. This pose is automatically stored and you can recall it on a the vertices.
@@ -330,7 +338,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     If it is needed that the distance between two joints doesn’t change during the animation, check the Keep Distance checkbox in the tool option bar.
 
-
+ |keep_distance|
 
 
 .. tip:: **To set keys on all vertices at the same time:**
@@ -383,8 +391,7 @@ Activating the Paint Rigid mode in the tool Plastic options bar, a specific draw
 
     3. Set the Mode to Paint Rigid.
 
-
-
+ |paint_rigid|
 
     4. Set the size of the brush moving the Thickness slider or writing a value into the appropriate text field.
 
@@ -407,6 +414,7 @@ Activating the Paint Rigid mode in the tool Plastic options bar, a specific draw
     6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to green where painted. Now the green areas behave as flexible portions of the mesh.
 
 .. note:: The default colour of a mesh is green; it means that the whole mesh is flexible. The red colour is used to point out the rigid areas of the mesh (if any was defined). But if a mesh is all painted in red colour it behaves as a flexible one.
+
 
 .. _parenting_plastic_levels_using_vertices_and_hooks:
 
@@ -442,6 +450,7 @@ For building interesting and complex animations it could be useful and time savi
 
     4. Do the same procedure of point 3 on the small square on the right of the Plastic modified level that was used as target for the link. Select the number of the skeleton vertex that has to be used as target reference point for the link. Into the main viewer the first level moves to overlap the position of its selected skeleton vertex to that of the target skeleton vertex just selected.
 
+
 .. _function_editor_representation_of_plastic_data:
 
 Function Editor representation of Plastic data
@@ -454,17 +463,18 @@ The keys into the Function Editor are more ed, giving you the chance for fine-tu
 
 When, in the Function Editor Browser, you open the folder of a column that has the Plastic tool applied, you can see a Plastic skeleton folder. This Plastic skeleton folder contains the Skeleton Id channel and a number of subfolders: the Root subfolder and one subfolder for each vertex of the Plastic skeleton, labeled with the name of the related vertex.
 
- |Toonz71_373| 
+ |plastic_data_in_function_editor|
 
-``The Skeleton Id``  channel contains the data related to which skeleton is active at a determined frame. If the level is using multiple skeletons here are visible the switches from one skeleton to the other both as numeric values as in graphical format.
+The **Skeleton Id**  channel contains the data related to which skeleton is active at a determined frame. If the level is using multiple skeletons here are visible the switches from one skeleton to the other both as numeric values as in graphical format.
 
-``The Root``  subfolder shows all the parameters channels but only the SO (Staking Order) can be animated when this vertex is actually used as root of the skeleton 
+The **Root**  subfolder shows all the parameters channels but only the SO (Staking Order) can be animated when this vertex is actually used as root of the skeleton 
 
-``The vertices``  subfolders (one for each vertex of the skeleton\s), if opened, shows three parameters: Angle, Distance and SO that are used to determine the position of the vertex at every frame during the animation.
+The **Vertex**  subfolders (one for each vertex of the skeleton\s), if opened, shows three parameters: Angle, Distance and SO that are used to determine the position of the vertex at every frame during the animation.
 
 The values of these parameters can be visualized into the Function Editor as numeric values or as curves, and modified as required.
 
 .. note:: The vertices of multiple skeletons are shown as a single list and not grouped for each skeleton. In this way the animation curve of the Vertex1 is built using the animation values of the vertices named Vertex1 of all the skeletons of the mesh, so just one curve can be modified to adjust the animation of related vertices on different skeletons.
+
 
 .. _use_mathematical_expression_in_plastic_animation:
 
@@ -496,27 +506,30 @@ Displaying Plastic elements and properties
 ''''''''''''''''''''''''''''''''''''''''''
 While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the main viewer. Clicking the right mouse button on the main viewer while the Plastic tool is active brings up a context menu. There are four checkboxes that sets the display property for the Mesh, the Rigidity, the SO (Stacking Order) and the Skeleton Onion Skin.
 
+ |display_options|
+ 
 If the Show Mesh is enabled the mesh will be visible as a wire frame triangulated shape.
 
-
+ |display_options_mesh|
 
 
 If the Show Rigidity is enabled, a continuous green shape will show the flexible areas while red areas showing the rigid portions.
 
-
+ |display_options_rigidity|
 
 
 If the Show SO is enabled a grey shading shows the Stacking Order values of the vertices, lighter areas are on top, while darker ones are behind.
 
-
+ |display_options_so|
 
 
 If the Show Skeleton Onion Skin is enabled, then the ghost of the skeleton at the selected frames is displayed at incremental levels of transparency.
 
-
+ |display_options_onion_skin|
 
 
 All this information can be displayed at once (checking all the options) giving an overall description of the vertices state.
+
 
 .. _plastic_and_subxsheets:
 
@@ -524,7 +537,26 @@ Plastic and subxsheets
 ''''''''''''''''''''''
 A subxsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a subxsheet is selected as starting element, all the columns in the subxsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected subxsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested subxsheet with its own mesh and skeleton).
 
-.. |Toonz71_361| image:: /_static/Toonz71/Toonz71_361.gif
-.. |Toonz71_368| image:: /_static/Toonz71/Toonz71_368.gif
-.. |Toonz71_373| image:: /_static/Toonz71/Toonz71_373.gif
+
+
+
 .. |plastic| image:: /_static/plastic_tool/plastic.png
+.. |plastic_tool_example| image:: /_static/plastic_tool/plastic_tool_example.png
+.. |create_mesh| image:: /_static/plastic_tool/create_mesh.png
+.. |create_mesh_warning| image:: /_static/plastic_tool/create_mesh_warning.png
+.. |edit_mesh_mode| image:: /_static/plastic_tool/edit_mesh_mode.png
+.. |swap-collapse-split_edge| image:: /_static/plastic_tool/swap-collapse-split_edge.png
+.. |cut_mesh| image:: /_static/plastic_tool/cut_mesh.png
+.. |build_skeleton| image:: /_static/plastic_tool/build_skeleton.png
+.. |multiple_skeletons| image:: /_static/plastic_tool/multiple_skeletons.png
+.. |copy_skeleton| image:: /_static/plastic_tool/copy_skeleton.png
+.. |set_keys| image:: /_static/plastic_tool/set_keys.png
+.. |keep_distance| image:: /_static/plastic_tool/keep_distance.png
+.. |paint_rigid| image:: /_static/plastic_tool/paint_rigid.png
+.. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
+.. |display_options| image:: /_static/plastic_tool/display_options.png
+.. |display_options_mesh| image:: /_static/plastic_tool/display_options_mesh.png
+.. |display_options_rigidity| image:: /_static/plastic_tool/display_options_rigidity.png
+.. |display_options_so| image:: /_static/plastic_tool/display_options_so.png
+.. |display_options_onion_skin| image:: /_static/plastic_tool/display_options_onion_skin.png
+
