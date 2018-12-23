@@ -58,9 +58,8 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
 .. note:: Into the Stage Schematic you can see that the TC column is now connected to the mesh column just created, its node has a purple header for easing recognition.
 
- |create_mesh_warning|
-
-If the Create Mesh is applied to a column that is already modified by the Plastic tool (then already linked to a mesh) a dialog will prompt asking how to manage the new and the old mesh files, and the user can choose one from the different listed oprions: |Toonz71_361| 
+If the Create Mesh is applied to a column that is already modified by the Plastic tool (then already linked to a mesh) a dialog will prompt asking how to manage the new and the old mesh files, and the user can choose one from the different listed oprions: 
+|create_mesh_warning|
 
     - **delete the old level entirely** : the original mesh file is replaced by a new one with the data of the last mesh generated; a new column for the new mesh is created as the old column retains the old structure but exposes only the new created mesh.
 
@@ -327,7 +326,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     1. Select a vertex and click the right mouse button.
 
-    2. From the context menu select Set Rest Key. |Toonz71_368| 
+    2. From the context menu select Set Rest Key. 
 
     3. A new key at the current frame is created using the rest values for the selected vertex.
 
