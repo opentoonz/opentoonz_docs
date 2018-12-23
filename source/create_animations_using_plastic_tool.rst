@@ -62,11 +62,11 @@ If the Create Mesh is applied to a column that is already modified by the Plasti
 
 |create_mesh_warning|
 
-    - **delete the old level entirely** : the original mesh file is replaced by a new one with the data of the last mesh generated; a new column for the new mesh is created as the old column retains the old structure but exposes only the new created mesh.
+    - **Delete the old level entirely** : the original mesh file is replaced by a new one with the data of the last mesh generated; a new column for the new mesh is created as the old column retains the old structure but exposes only the new created mesh.
 
-    - **keep the old level and overwrite processed frames** : the original mesh file is updated and the old mesh column exposes the new content for the selected frames, a new column is created exposing just the contents of the selected frames.
+    - **Keep the old level and overwrite processed frames** : the original mesh file is updated and the old mesh column exposes the new content for the selected frames, a new column is created exposing just the contents of the selected frames.
 
-    - **chose a different path** (same name as the original level plus _X where X is the ordinal number of the copy): an entirely new mesh file is generated and a new column exposes the new contents while the old column exposes the old ones.
+    - **Choose a different path** (same name as the original level plus _X where X is the ordinal number of the copy): an entirely new mesh file is generated and a new column exposes the new contents while the old column exposes the old ones.
 
 .. note:: All the above options cause the creation of a new mesh column and the building of a chain, linking the texture column and the meshes columns, into the Stage Schematic. In this chain the older mesh is linked to the younger and the youngest mesh is linked to the texture-column. Rearranging the links into the Stage Schematic can be needed for avoiding undesired results while animating. 
 
