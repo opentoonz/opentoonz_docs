@@ -186,6 +186,11 @@ Arch Linux
 
 ``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/opentoonz" >> ~/.bashrc``
 
+Gentoo Linux
+''''''''''''
+
+``# emerge opentoonz``
+
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png
 .. |win_setup_3| image:: /_static/installing/windows_setup_3.png
