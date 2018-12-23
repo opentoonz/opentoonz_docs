@@ -417,6 +417,8 @@ In the tool options bar you can set the following:
 
 When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to perform the following transformations:
 
+- **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
+
 - **Rotate:** Click and drag the circle end to rotate the object;
 
 - **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the Shift key is pressed while dragging, the scaling will be uniform.
@@ -426,8 +428,6 @@ When the Animation tool is in All mode, you can also interactively control trans
 - **Center:** Click and drag the double circle at the center to change the center of the object.
 
 .. note:: The object center can be moved, but cannot change its position during the animation: once it is set, or modified, it is retained during all of the animation. If the center is changed many times, and you want to set it back to its original position, right-click the object in the schematic and choose Reset Center from the menu that opens.
-
-- **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
