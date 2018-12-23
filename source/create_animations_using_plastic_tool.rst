@@ -410,6 +410,8 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 
     6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to red where painted. Now the red areas behave as rigid portions of the mesh.
 
+ |paint_rigid_options_rigid|
+
 .. tip:: **To modify, correct, erase rigidity on a mesh:**
 
     1. Select the mesh column in the xsheet.
@@ -424,7 +426,7 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 
     6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to green where painted. Now the green areas behave as flexible portions of the mesh.
 
- |paint_rigid_options|
+ |paint_rigid_options_flex|
 
 .. note:: The default colour of a mesh is green; it means that the whole mesh is flexible. The red colour is used to point out the rigid areas of the mesh (if any was defined). But if a mesh is all painted in red colour it behaves as a flexible one.
 
@@ -569,7 +571,8 @@ A subxsheet is a valid object for the Plastic tool and all or some of its column
 .. |set_keys| image:: /_static/plastic_tool/set_keys.png
 .. |keep_distance| image:: /_static/plastic_tool/keep_distance.png
 .. |paint_rigid_mode| image:: /_static/plastic_tool/paint_rigid_mode.png
-.. |paint_rigid_options| image:: /_static/plastic_tool/paint_rigid_options.png
+.. |paint_rigid_options_rigid| image:: /_static/plastic_tool/paint_rigid_options_rigid.png
+.. |paint_rigid_options_flex| image:: /_static/plastic_tool/paint_rigid_options_flex.png
 .. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
 .. |display_options| image:: /_static/plastic_tool/display_options.png
 .. |display_options_mesh| image:: /_static/plastic_tool/display_options_mesh.png
