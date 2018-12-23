@@ -502,11 +502,11 @@ This allow you to set some automatic actions of the skeleton, for example you ca
 
 Suppose that the main vertices of the shoulders are named shoulder_left and shoulder_right, you can link the rotation of the shoulder_left vertex to the one of the shoulder_right one setting the following expression in the expression field of the angle parameter of the shoulder_left in the Function Editor:
 
-**vertex(column_number, "Shoulder_right").angle**
+``vertex(column_number, "Shoulder_right").angle``
 
 If you prefer that the rotation of the left shoulder acting contrary to the one of the right one add a multiplication as following:
 
-``vertex(2, "Shoulder_right").angle*-1**``
+``vertex(2, "Shoulder_right").angle*-1``
 
 The general syntax is:
 
