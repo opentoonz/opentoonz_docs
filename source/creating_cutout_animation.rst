@@ -2,21 +2,22 @@
 
 Creating Cutout Animation
 =========================
-The cutout animation is based on characters made of several sections connected together to create a character model. For example a basic model can be made of a drawing for the head, one for the body, one for each arm, and one for each leg.
+Cutout animation is based on characters made of several sections connected together to create a character model. For example a basic model can be made of a drawing for the head, one for the body, one for each arm, and one for each leg.
 
-Animations in this case can be defined not by adding animated drawings, but by moving individually the model sections at different frames in order to create different actions. 
+Animations in this case can be created not by adding drawings depicting the new animated poses, but by transforming (i.e. moving or rotating) the model sections individually at different frames, in order to create different actions. 
 
  |Toonz71_328| 
 
-In OpenToonz it is possible to create links between the model different sections and set pivot points for each section, in order to better manage the animation. For example you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
+In OpenToonz it is possible to create links between a model's different sections and to set pivot points for each section, in order to better manage the animation. For example, you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
 
 .. tip:: **To create a cutout animation:**
 
-    1. Place each section, that can be a drawing or an animated level, of your character in a different column. 
+    1. Place each section (that can be a single drawing or an animated level) of your character in a different column. 
 
     2. Use the Skeleton tool (|skeleton|) to link each section to the other and set the related pivot points.
 
     3. Create key positions for each section at different frames to animate the cutout character.
+
 
 .. _using_the_skeleton_tool:
 
@@ -26,7 +27,7 @@ The Skeleton tool (|skeleton|) allows you to define a model by setting hierarchi
 
 
 
-It basically makes possible in a single and more immediate tool the same tasks that can be achieved by using the stage schematic and the Animate tool (|animate|) when creating links and moving columns (see :ref:`Linking Objects <linking_objects>`  ). Indeed any editing performed with the Skeleton tool (|skeleton|) is mirrored in the schematic and the column movements, and vice versa.
+It basically makes possible, by using a single and more immediate tool, the same tasks that could be achieved by using the Stage Schematic and the Animate tool (|animate|), when used to create links and animate the transformations of columns (see :ref:`Linking Objects <linking_objects>`  ). Indeed, any editing performed with the Skeleton tool (|skeleton|) can also be seen happening in the Stage Schematic and the column transformation values, and vice versa.
 
 
 
@@ -36,12 +37,13 @@ In the tool options bar you can set the following:
 
 - Global Key when activated sets a key for all the object transformations as soon as a key is defined by animating the skeleton. This means that if you rotate a model section, automatically a key will be defined for the position, scaling and shearing transformations as well.
 
-- Show Only Active Skeleton when activated displays only the pivot points and the skeleton from the current section up to the parent section: in this way it will be easier to manage even the more complex skeletons. 
+- Show Only Active Skeleton when activated displays only the pivot points and the skeleton from the current section up to the parent section: in this way it will be easier to manage characters with skeletons of a higher complexity. 
+
 
 .. _building_a_skeleton:
 
 Building a Skeleton
-'''''''''''''''''''
+-------------------
 When the Skeleton tool (|skeleton|) mode is set to Build Skeleton, it is possible to set pivot points and links between sections by using the handle available in the work area.
 
 
@@ -59,10 +61,11 @@ The handle is made of a small circle, with an arm that by default extends upward
 
 The handle refers to the current section; when you link a section to another, the link is graphically displayed connecting the centers of the two sections. When one or several sections are linked, all their links and the related centers, are displayed as well, configuring the skeleton for the model.
 
+
 .. _creating_basic_models:
 
 Creating Basic Models
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 A basic model is made of sections linked to each other by their centers. It is simpler to create if compared to a model based on hooks (see  :ref:`Creating Models with Hooks <creating_models_with_hooks>`  ), and has some limitations, but it is suitable for most of the cases of cutout animation. 
 
 
@@ -73,7 +76,7 @@ A basic model is made of sections linked to each other by their centers. It is s
 
 By default each section has a center that is placed at the center of the work area. When creating a model, this center has to be moved to where the pivot point for that specific section has to be.
 
-The Skeleton tool (|skeleton|) allows you both to change the center position of the currently selected model section, and to link it to the center of another section visible in the work area.
+The Skeleton tool (|skeleton|) allows you, both, to change the center position of the currently selected model section, and to link it to the center of another section visible in the work area.
 
 
 
@@ -105,33 +108,32 @@ In case the sections of your model are drawn in the right place, setting the piv
 
     Activate the Show Only Active Skeleton option in the tool options bar.
 
+
 .. _creating_models_with_hooks:
 
 Creating Models with Hooks
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-Sometimes basic models may not produce the desired results because the positions of the pivot points in the skeleton are fixed, therefore they cannot follow the animation of model whose sections are animated levels themselves. 
+--------------------------
+Sometimes basic models may not produce the desired results because the positions of the pivot points in the skeleton are fixed, and therefore cannot follow the changes of model sections which are animated levels themselves. 
 
 
 
 
-For example suppose you have a character whose trunk is an animated level made of several drawings of the trunk bending: as the animation of the trunk goes on, the limbs linked to it will not follow the movement of the trunk, because the trunk is neither moving nor rotating.
+For example suppose you have a character whose trunk is an animated level made of several drawings of the trunk bending: as the animation of the trunk goes on, the limbs linked to it will not follow the movement of the trunk, because the trunk is neither moving nor rotating in terms of its transformation values.
 
 
 
 
-By using hooks you can specify drawing by drawing where the pivot points have to be placed: in this way the model will maintain its consistency even when during the animation different drawings from an animation level are used (see  :ref:`Using Hooks <using_hooks>`  ).
+By using hooks you can specify, drawing by drawing, where the pivot points have to be placed: in this way the model will maintain its consistency even when different drawings from an animation level are used, during the course of the action (see  :ref:`Using Hooks <using_hooks>`  ).
 
-For example, by placing hooks on the drawings of the trunk and on the limbs where they have to be connected, and defining the links by using hooks instead of centers, the limbs will follow the trunk even if it is bending.
+For example, by placing hooks on the drawings of the trunk and on the limbs, where they have to be connected, and defining the links by using hooks instead of centers, the limbs will follow the trunk even if it is bending.
 
-The Skeleton tool (|skeleton|) allows you both to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the work area.
+The Skeleton tool (|skeleton|) allows you, both, to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the work area.
 
 
 
-Hooks have to be placed for all the sections where you want the pivot points to be. For example, a trunk may have five hooks, one for the head, two for the arms and two for the legs; a forearm may have two hooks, one for the elbow and one for the wrist. 
+Hooks have to be placed for each character model section where you want the joints to be. For example, a trunk may have five hooks, one for the head, two for the arms and two for the legs; a forearm may have two hooks, one for the elbow and one for the wrist. 
 
-When using the Hook tool (|hook|) for defining hooks for the model sections, the Snap option can be activated (see 
-
-:ref:`Using Hooks <using_hooks>`  ). In this way it is possible to place hooks exactly in the same position of hooks defined for other animation levels visible in the work area, or, in case the level is a Toonz vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the Tape tool). 
+When using the Hook tool (|hook|) for defining hooks for the model sections, the Snap option can be activated (see :ref:`Using Hooks <using_hooks>`  ). In this way it is possible to place hooks exactly in the same position of hooks already defined for other animation levels visible in the work area, or, in case the level is a Toonz vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the Tape tool). 
 
 
 
@@ -148,7 +150,7 @@ When starting to build a skeleton with hooks, two different cases may take place
 
 In the former case the appropriate hook has first to be set as the pivot point for the model section, then the link can be created. Note that when setting a hook as the new pivot point, the hook, and consequently the section, shifts to the center of the work area; as soon as you link that section to the hook of another section, it goes in the right place, with the two hooks perfectly overlapping.
 
-In the latter case an hook of the selected section and a hook of another section are overlapping (e.g. the hook on the wrist of the hand section overlaps the hook on the wrist of the forearm section), and a special button displaying information about the overlapping hooks can be used to link automatically the two section with a single click.
+In the latter case a hook of the selected section and a hook of another section are overlapping (e.g. the hook on the wrist of the hand section overlaps the hook on the wrist of the forearm section), and a special button displaying information about the overlapping hooks can be used to link automatically the two section with a single click.
 
 
 
@@ -183,10 +185,11 @@ In the latter case an hook of the selected section and a hook of another section
 
     Activate the Show Only Active Skeleton option in the tool options bar.
 
+
 .. _animating_models:
 
 Animating Models
-''''''''''''''''
+----------------
 When the Skeleton tool (|skeleton|) mode is set to Animate, it is possible to set positions for the model sections at different frames, thus defining an animation.
 
 
@@ -247,10 +250,11 @@ In case a model section is an animation level consisting of several drawing inst
 
     - Click the up or down arrowheads.
 
+
 .. _using_inverse_kinematics:
 
 Using Inverse Kinematics
-''''''''''''''''''''''''
+------------------------
 When the Skeleton tool (|skeleton|) mode is set to Inverse Kinematics, it is possible to move the model considering the articulation of all the sections its skeleton is made of. This means that if you want to move the end of a model limb to a particular position, all the rest of the sections belonging to that limb will move consequently, with no need to move each section separately.
 
 
@@ -313,8 +317,11 @@ The pinned centers information and coordinates are saved along with the scene; i
 
     2. Right-click in the viewer and choose Reset Pinned Center from the menu that opens
 
+
+
 .. |Toonz71_328| image:: /_static/Toonz71/Toonz71_328.gif
 .. |animate| image:: /_static/cutout_animation/animate.png
 .. |hook| image:: /_static/cutout_animation/hook.png
 .. |skeleton| image:: /_static/cutout_animation/skeleton.png
 .. |key| image:: /_static/cutout_animation/key.png
+
