@@ -156,7 +156,7 @@ Links can be set by using ports located around the object node:
 
 - The port on the right is for accepting links from other objects.
 
-- The port at the bottom is for assigning a motion path to the object (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>`  s).
+- The port at the bottom is for assigning a motion path to the object (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` ).
 
 Links can also be selected in order to be deleted: when selected, links are highlighted in white; when at least one object is selected, the related links are displayed in blue.
 
@@ -403,7 +403,7 @@ In the tool options bar you can set the following:
 
     - **Center** **N/S** and **E/W** sets the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
 
-    - **All** displays all transformation types at the same time. In the Viewer a Gizmo will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center. In case there is not enough room available in the toolbar to show all of the options, arrow buttons will be shown at the right/left extremes to access the hidden options by scrolling.
+    - **All** displays all transformation types at the same time. In the Viewer a handle will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center. In case there is not enough room available in the toolbar to show all of the options, arrow buttons will be shown at the right/left extremes to access the hidden options by scrolling.
 
     - **Pick** (only available in **All** mode) lets the user choose to automatically select columns or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked (if there is one).
 
@@ -415,19 +415,19 @@ In the tool options bar you can set the following:
 
 .. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
-To control interactively transformation values you can also use the handle available in the work area. The handle is made of an inner double circle with three arms that allows you to perform the following transformations:
+When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to perform the following transformations:
 
-- Click and drag the circle end to rotate the object;
+- **Rotate:** Click and drag the circle end to rotate the object;
 
-- Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the Shift key is pressed while dragging, the scaling will be uniform.
+- **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the Shift key is pressed while dragging, the scaling will be uniform.
 
-- Click and drag the parallelogram end to shear the object; if the Shift key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
+- **Shear:** Click and drag the parallelogram end to shear the object; if the Shift key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
 
-- Click and drag the double circle at the center to change the center of the object.
+- **Center:** Click and drag the double circle at the center to change the center of the object.
 
 .. note:: The object center can be moved, but cannot change its position during the animation: once it is set, or modified, it is retained during all of the animation. If the center is changed many times, and you want to set it back to its original position, right-click the object in the schematic and choose Reset Center from the menu that opens.
 
-- Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
+- **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
