@@ -198,13 +198,14 @@ Using multiple skeletons on a mesh level
 ''''''''''''''''''''''''''''''''''''''''
 Every mesh level uses at least one skeleton for animating, but this is just the easier configuration for working: a mesh level can have multiple skeletons active at different frames for building more complex animations: like a character turn-around, or for animating a level with multiple drawings of different shapes. Every time the drawings change in shape, there a new ad-hoc skeleton structure can be built with the number of vertices needed and placed in the right positions.
 
+ |multiple_skeletons|
+
+
 .. tip:: **To add a new skeleton on a mesh level**
 
     1. In the Xsheet select the mesh level and the frame where the new skeleton is needed.
 
     2. In the Tool Options Bar press the + button next the option menu labeled Skeleton. A new numeric entry is added to the list and a key is created at the selected frame.
-
- |multiple_skeletons|
 
     3. Start building the new skeleton as usual.
 
@@ -384,6 +385,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     2. Set a bound for the vertex rotation,setting a minimum and a maximum rotation value inserting the values in the relevant fields.
 
+
 .. _defining_rigidity_for_a_plastic_mesh:
 
 Defining Rigidity for a Plastic mesh
@@ -421,6 +423,8 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
     5. Select Flex from the option menu next to the Thickness slider (Rigid is the default value).
 
     6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to green where painted. Now the green areas behave as flexible portions of the mesh.
+
+ |paint_rigid_options|
 
 .. note:: The default colour of a mesh is green; it means that the whole mesh is flexible. The red colour is used to point out the rigid areas of the mesh (if any was defined). But if a mesh is all painted in red colour it behaves as a flexible one.
 
