@@ -21,7 +21,7 @@ For animating/deforming a mesh level, Plastic allows the building of a specific 
 .. _building_a_plastic_mesh:
 
 Building a Plastic mesh
-'''''''''''''''''''''''
+-----------------------
 The first step for using Plastic is creating a mesh for the xsheet column that we are going to animate using the Plastic tool. The mesh is a new kind of Toonz level, and can be saved as any other kind of levels. 
 
 The mesh level can be seen as purple column created when the button Create Mesh of the Plastic tool is pressed.
@@ -73,7 +73,7 @@ If the Create Mesh is applied to a column that is already modified by the Plasti
 .. _modifying_a_plastic_mesh:
 
 Modifying a Plastic mesh
-''''''''''''''''''''''''
+------------------------
 Not always it is easy to estimate the right density for a mesh. Sometimes a higher density could be needed to avoid straight lines on bending elements, or a lower density could be used for saving computing resources in a complex scene, or, simply, the drawings of an element are changed. In all this occurrences modifying the mesh can solve the problem.
 
 .. tip:: **To update a Plastic mesh to reflect changing in the Level Strip:**
@@ -102,7 +102,7 @@ Not always it is easy to estimate the right density for a mesh. Sometimes a high
 .. _edit_a_plastic_mesh:
 
 Edit a Plastic mesh
-'''''''''''''''''''
+-------------------
 The mesh created using the Create Mesh button can be edited in several ways. It is possible to: move a mesh point, swap, collapse, split and cut the mesh by its edges. 
 
  |edit_mesh_mode|
@@ -165,7 +165,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 .. _building_a_plastic_skeleton:
 
 Building a Plastic skeleton
-'''''''''''''''''''''''''''
+---------------------------
 The Plastic skeleton is a control structure linked to a mesh level that gives us the handles for deforming/animating the chosen element/s of the xsheet.
 
  |build_skeleton_mode|
@@ -195,7 +195,7 @@ The Plastic skeleton is a control structure linked to a mesh level that gives us
 .. _using_multiple_skeletons_on_a_mesh_level:
 
 Using multiple skeletons on a mesh level
-''''''''''''''''''''''''''''''''''''''''
+----------------------------------------
 Every mesh level uses at least one skeleton for animating, but this is just the easier configuration for working: a mesh level can have multiple skeletons active at different frames for building more complex animations: like a character turn-around, or for animating a level with multiple drawings of different shapes. Every time the drawings change in shape, there a new ad-hoc skeleton structure can be built with the number of vertices needed and placed in the right positions.
 
  |multiple_skeletons|
@@ -230,8 +230,8 @@ Every mesh level uses at least one skeleton for animating, but this is just the 
 
 .. _modifying_a_plastic_skeleton:
 
-Modifying a Plastic skeleton:
-'''''''''''''''''''''''''''''
+Modifying a Plastic skeleton
+----------------------------
 While drawing the skeleton, or when finished to drawing it, some adjustments to the vertices positions, or to the number of vertices, may be needed:
 
 .. tip:: **To select a vertex:**
@@ -300,7 +300,7 @@ While drawing the skeleton, or when finished to drawing it, some adjustments to 
 .. _animating_plastic_elements:
 
 Animating Plastic elements
-''''''''''''''''''''''''''
+--------------------------
 Creating an animation in Plastic is quite an easy task: just select the vertices and move them to the desired position at a specific frame and an animation key frame will be created. Playback the sequence to check the results.
 
  |animate_mode|
@@ -389,7 +389,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 .. _defining_rigidity_for_a_plastic_mesh:
 
 Defining Rigidity for a Plastic mesh
-''''''''''''''''''''''''''''''''''''
+------------------------------------
 In many occasions it may be required that certain portions of a mesh that's being animated using the Plastic tool, preserve their shape even if following the overall transformations of the whole element, simulating a more rigid structure, or part of it. To achieve this kind of effect a Rigidity value can be painted directly on the mesh.
 
  |paint_rigid_mode|
@@ -434,7 +434,7 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 .. _parenting_plastic_levels_using_vertices_and_hooks:
 
 Parenting Plastic levels using vertices and hooks
-'''''''''''''''''''''''''''''''''''''''''''''''''
+-------------------------------------------------
 For building interesting and complex animations it could be useful and time saving to create a Parent -> Children relation between standard Toonz levels and Plastic modified levels, or between Plastic modified levels, so that the children levels inherit the transformations of the parent automatically. It is always possible to link the levels using the Pegbar as target but what if something more subtler is needed as using hooks? We have already described similar techniques for OpenToonz standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool is not active on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
 
 .. tip:: **To link a standard level to a Plastic modified level**
@@ -469,7 +469,7 @@ For building interesting and complex animations it could be useful and time savi
 .. _function_editor_representation_of_plastic_data:
 
 Function Editor representation of Plastic data
-''''''''''''''''''''''''''''''''''''''''''''''
+----------------------------------------------
 While animating Plastic elements, key frames are created for the vertices of the skeleton. You can see them as standard key in the xsheet, or you can operate on the values of each vertex into the Function Editor.
 
 The keys of the Xsheet mark a key frame for the Plastic skeleton at the specified frame but don’t give any information about the number of vertices involved; they can be indifferently, one, some or all. Moving this key you can easily change the timing of the whole animation.
@@ -494,7 +494,7 @@ The values of these parameters can be visualized into the Function Editor as num
 .. _use_mathematical_expression_in_plastic_animation:
 
 Use Mathematical Expression in Plastic Animation
-''''''''''''''''''''''''''''''''''''''''''''''''
+------------------------------------------------
 To use OpenToonz mathematical expressions in the Plastic Animation, link the vertices of the skeleton to each other or to a column, pegbar or camera.
 
 This allow you to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder the other moves automatically.
@@ -518,7 +518,7 @@ For more information about the mathematical Expression usage refer to (See  :ref
 .. _displaying_plastic_elements_and_properties:
 
 Displaying Plastic elements and properties
-''''''''''''''''''''''''''''''''''''''''''
+------------------------------------------
 While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the main viewer. Clicking the right mouse button on the main viewer while the Plastic tool is active brings up a context menu. There are four checkboxes that sets the display property for the Mesh, the Rigidity, the SO (Stacking Order) and the Skeleton Onion Skin.
 
  |display_options|
@@ -549,7 +549,7 @@ All this information can be displayed at once (checking all the options) giving 
 .. _plastic_and_subxsheets:
 
 Plastic and subxsheets
-''''''''''''''''''''''
+----------------------
 A subxsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a subxsheet is selected as starting element, all the columns in the subxsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected subxsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested subxsheet with its own mesh and skeleton).
 
 
