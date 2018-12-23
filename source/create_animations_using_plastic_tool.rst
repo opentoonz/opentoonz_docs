@@ -37,9 +37,10 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
     2. Choose the Plastic tool (|plastic|)
 
     3. Press the Create Mesh button in the tool options bar.
-  |create_mesh_options|
   
     4. Check, in the dialog that opens, the Mesh density in the preview area. Adjust as needed the density using the Mesh Edges Length slider.
+
+  |create_mesh_options|
 
 .. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the Mesh Edges Length value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but even more computing resources will be required.
 
