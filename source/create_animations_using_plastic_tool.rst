@@ -26,6 +26,8 @@ The first step for using Plastic is creating a mesh for the xsheet column that w
 
 The mesh level can be seen as purple column created when the button Create Mesh of the Plastic tool is pressed.
 
+ |create_mesh|
+
 The mesh is the real object that the Plastic tool modifies when a plastic skeleton is animated. For this reason all the elements, that are going to be animated by the Plastic tool, need a mesh. 
 
 .. tip:: **To create a Plastic mesh:**
@@ -35,7 +37,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
     2. Choose the Plastic tool (|plastic|)
 
     3. Press the Create Mesh button in the tool options bar.
-  |create_mesh|
+  |create_mesh_options|
   
     4. Check, in the dialog that opens, the Mesh density in the preview area. Adjust as needed the density using the Mesh Edges Length slider.
 
@@ -550,6 +552,7 @@ A subxsheet is a valid object for the Plastic tool and all or some of its column
 .. |plastic| image:: /_static/plastic_tool/plastic.png
 .. |plastic_tool_example| image:: /_static/plastic_tool/plastic_tool_example.png
 .. |create_mesh| image:: /_static/plastic_tool/create_mesh.png
+.. |create_mesh_options| image:: /_static/plastic_tool/create_mesh_options.png
 .. |create_mesh_warning| image:: /_static/plastic_tool/create_mesh_warning.png
 .. |edit_mesh_mode| image:: /_static/plastic_tool/edit_mesh_mode.png
 .. |swap-collapse-split_edge| image:: /_static/plastic_tool/swap-collapse-split_edge.png
@@ -562,6 +565,7 @@ A subxsheet is a valid object for the Plastic tool and all or some of its column
 .. |set_keys| image:: /_static/plastic_tool/set_keys.png
 .. |keep_distance| image:: /_static/plastic_tool/keep_distance.png
 .. |paint_rigid_mode| image:: /_static/plastic_tool/paint_rigid_mode.png
+.. |paint_rigid_options| image:: /_static/plastic_tool/paint_rigid_options.png
 .. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
 .. |display_options| image:: /_static/plastic_tool/display_options.png
 .. |display_options_mesh| image:: /_static/plastic_tool/display_options_mesh.png
