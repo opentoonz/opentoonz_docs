@@ -415,7 +415,7 @@ In the tool options bar you can set the following:
 
 .. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
-When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to perform the following transformations:
+When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
 
 - **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
