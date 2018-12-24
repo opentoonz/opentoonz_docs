@@ -69,13 +69,13 @@ It is also possible to group several objects nodes into one single node, in orde
 
     - Right-click in the stage and choose New Camera from the menu that opens.
 
-.. tip:: **To set the current camera:**
+.. tip:: **To set the active camera:**
 
     In the Stage right-click the camera node you want to set as active and choose **Activate** from the menu that opens.
 
 .. tip:: **To name an object:**
 
-    Ctrl + double-click the node name and type a new name.
+    Ctrl + double-click the node name and type a new one.
 
 .. tip:: **To minimize/maximize the column nodes:**
 
@@ -111,11 +111,11 @@ It is also possible to group several objects nodes into one single node, in orde
 
     - Use the **Paste** command to paste the selection kept in memory in the Stage Schematic: the pasted selection will be linked to the same object to which the copied or cut objects were linked. 
 
-    - Use the Delete command to delete the selection.
+    - Use the **Delete** command to delete the selection.
 
 .. note:: All of these commands are available in the menu that opens when right-clicking nodes and links. 
 
-.. note:: The table and the default camera cannot be removed from the schematic.
+.. note:: The table and the default camera cannot be removed from the Stage Schematic.
 
 .. tip:: **To Group selected objects:**
 
@@ -160,11 +160,11 @@ Links can be set by using the ports located at each side of the object node:
 
 - The port at the bottom is for assigning the object a motion path to follow (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` ).
 
-Links can also be selected in order to be deleted: when selected, links are highlighted in white; when at least one object is selected, the related links are displayed in blue.
+Links can also be selected in order to be deleted: when selected, links are highlighted; when at least one object is selected, the related links are displayed in blue.
 
 Columns and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default, i.e. to the table.
 
-Optionally, the connector ports can be displayed as letters (instead of the default arrows), to be able to control the position of the center used for the connection: center **B** is the geometrical center of each object, while center **A** is placed 8 inches to the left and center **C**, 8 inches to the right, etc. When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset; while if, for example, a column centered on B is linked to a pegbar center on A, it will have an offset of 8 inches to the left.
+Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for the connection: center **B** is the geometrical center of each object, while center **A** is placed 8 inches to the left and center **C**, 8 inches to the right, etc. When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if, for example, a column centered on B is linked to a pegbar center on A, it will have an offset of 8 inches to the left.
 
 In this mode, each object will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
 
