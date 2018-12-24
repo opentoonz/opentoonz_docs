@@ -169,7 +169,7 @@ Columns and pegbars are always linked, at least to the table: this means that th
 
 Advanced Linking
 ~~~~~~~~~~~~~~~~
-Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for the connection: 
+Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for linking: 
     - Center **B** is the geometrical center of each object.
     - Center **A** is placed 8 inches to the left.
     - Center **C**, is placed 8 inches to the right, etc.
