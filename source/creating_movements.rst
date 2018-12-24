@@ -170,9 +170,9 @@ Columns and pegbars are always linked, at least to the table: this means that th
 Advanced Linking
 ~~~~~~~~~~~~~~~~
 Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for the connection: 
-- Center **B** is the geometrical center of each object.
-- Center **A** is placed 8 inches to the left.
-- Center **C**, is placed 8 inches to the right, etc.
+    - Center **B** is the geometrical center of each object.
+    - Center **A** is placed 8 inches to the left.
+    - Center **C**, is placed 8 inches to the right, etc.
 When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if, for example, a column centered on B is linked to a pegbar centered on A, it will have an offset of 8 inches to the left.
 
 While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
