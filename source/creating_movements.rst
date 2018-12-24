@@ -405,7 +405,7 @@ Animating Objects
 -----------------
 You can animate the motion, rotation, scale and shear (plus edit the center) of columns, pegbars, cameras and the table by using the Animate tool (|animate|). Objects to be animated can be selected either in the Stage Schematic, the Viewer, the Xsheet/Timeline or by using a dropdown menu in the Animate tool's own options bar.
 
-In the tool options bar you can set the following:
+In the **Animate tool** options bar you can set the following:
 
     - **Select** lets you select which scene element is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself.
     
