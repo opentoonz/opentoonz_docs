@@ -906,4 +906,5 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |schematic| image:: /_static/movements/schematic.png
 .. |side_view| image:: /_static/movements/side_view.png
 .. |square| image:: /_static/movements/square.png
+.. |switch_output_port| image:: /_static/movements/switch_output_port.png
 .. |top_view| image:: /_static/movements/top_view.png
