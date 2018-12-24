@@ -172,7 +172,7 @@ In this mode, each object will have always a free connector port available in or
 
 .. tip:: **To switch the connector port display mode:**
 
-    - Click the Switch Output Port Display Mode button (|schematic|) in the bottom bar of the Schematic pane until you see the letters on each side of Stage Schematic nodes.
+    - Click the Switch Output Port Display Mode button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
 
 .. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
