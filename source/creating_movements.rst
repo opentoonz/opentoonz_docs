@@ -247,7 +247,7 @@ While in this mode, each node will have always a free connector port available i
 .. _using_hooks:
 
 Using Hooks
-'''''''''''
+~~~~~~~~~~~
 Hooks are reference points that can be defined for any animation level directly in the work area by using the Hook tool (|hook|).
 
 Once defined they can be used in the stage schematic to link an object to the column where the hooked level is exposed according to a specific hook set, or to move the column according to any of its hook sets.
@@ -346,7 +346,7 @@ Hook information is saved along with the level as a file in XML format named as 
 .. _tracking_points:
 
 Tracking Points
-'''''''''''''''
+~~~~~~~~~~~~~~~
 It is possible to automatically track specific regions in a sequence of images by using the Tracker tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above).
 
 When selected the Tracker tool (|tracker|) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool defines both the pattern that the tracking system will try to recognize in the following images, and the size of the area where it will look for it (approximately twice the region).
