@@ -164,17 +164,28 @@ Links can also be selected in order to be deleted: when selected, links are high
 
 Columns and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default, i.e. to the table.
 
-Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for the connection: center **B** is the geometrical center of each object, while center **A** is placed 8 inches to the left and center **C**, 8 inches to the right, etc. When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if, for example, a column centered on B is linked to a pegbar center on A, it will have an offset of 8 inches to the left.
 
-In this mode, each object will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
+.. _advanced_linking:
 
-.. note:: Apart from the letters, columns also have numbered centers as well, for setting the links relative to the position of Hooks assigned to them (see  :ref:`Using Hooks <using_hooks>`  ).
+Advanced Linking
+~~~~~~~~~~~~~~~~
+Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for the connection: 
+- Center **B** is the geometrical center of each object.
+- Center **A** is placed 8 inches to the left.
+- Center **C**, is placed 8 inches to the right, etc.
+When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if, for example, a column centered on B is linked to a pegbar centered on A, it will have an offset of 8 inches to the left.
+
+While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
 
 .. tip:: **To switch the connector port display mode:**
 
     - Click the Switch Output Port Display Mode button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
 
+.. note:: Apart from the letters, columns also have numbered centers as well, for setting the links relative to the position of Hooks assigned to them (see  :ref:`Using Hooks <using_hooks>`  ).
+
+
 .. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+
 
 .. tip:: **To link an object to another:**
 
