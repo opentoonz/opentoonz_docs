@@ -2,36 +2,38 @@
 
 Creating Movements
 ==================
-Each scene has a series of objects that can be moved and transformed: they are xsheet columns and pegbars, table and cameras.
+Each scene has a series of objects that can be moved and transformed: they are xsheet columns (timeline layers) and pegbars, table and cameras.
 
-Every movement or transformation you set for an object at a specific frame automatically defines a key position. When keys are defined at different frames, in-between positions are automatically interpolated.
+Every movement or transformation you set for an object at a specific frame automatically defines a keyframe. When keyframes are defined at different frames, in-between positions are automatically interpolated.
 
-To create more complex animation, you can also work in a 3D environment, where camera and scene elements can be placed like on a stage at different distances one from another.
+To create more complex animations, you can also work in a 3D environment, where cameras and scene elements can be placed like on a stage at different distances one from another.
 
 
 .. _using_the_stage_schematic:
 
 Using the Stage Schematic
 -------------------------
-The stage schematic contains all the objects used in a scene, making it possible to manage the way they are linked to each other. It is organized in a hierarchy starting from the animation table, where all the pegbars and columns are placed. A camera is available as well, and other cameras can be defined.
+The Stage Schematic contains all the objects used in a scene, making it possible to manage the way they are linked to each other. It's organized in a hierarchy starting from the animation table, where all the columns and pegbars are placed. A camera is available as well, and other cameras can be defined.
 
 |stage_schematic|
 
-By default the stage schematic contains one camera, the table, pegbar 1 and 2, and column 1 and 2 nodes, linked in the following way: column 1 is linked to pegbar 1, and this is linked to the table; column 2 is linked to pegbar 2, and this is linked to the table.
+By default the Stage Schematic contains the table and one camera nodes.
 
-Columns are added as soon as you load or create some content for them; new pegbars and cameras can be added at any time. Any other column you use will be linked by default to pegbar 2; new pegbars will be automatically linked to the table.
+Column nodes are added as soon as you load or create some content; pegbars and cameras can be added at any time, and will be automatically linked to the table.
 
-When more than one camera is defined, you can set which is the current camera used in the work area; the current camera is displayed in blue while the others are left idle in grey. Each camera can have a different size and resolution, and each of them can be animated independently (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
+When more than one camera is created, you can set which is the active one, used in the Viewer; the active camera node is displayed in blue while the others are left idle in grey. Each camera can have a different size and resolution, and each of them can be animated independently (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
-Objects can be easily added and arranged, and they can be selected in order to be cut, copied, pasted or deleted. When selected, objects are highlighted in white; the current object has its label in red; when at least one object is selected, the related links are displayed in blue.
+Objects can be easily added and arranged and they can be selected in order to be cut, copied, pasted or deleted. When selected, object nodes are highlighted in white; the current object has its label in red; when at least one object is selected, the related links are displayed in blue.
 
-It is also possible to group several objects in one single node, in order to better manage the whole stage schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations, or new groups.
+It is also possible to group several objects nodes into one single node, in order to better manage the whole Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations or new groups.
 
-.. note:: Column nodes have the camera stand (|camera_stand|) and the render (|preview|) toggles on the top right: these toggles are the same as the toggles available in the xsheet column headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
+.. note:: Column nodes have buttons for camera stand (|camera_stand|) and render (|preview|) view toggles on the top right: these toggles are linked to the ones available in the xsheet columns headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
 
 .. tip:: **To access the stage schematic:**
 
-    Click the schematic toggle button (|schematic|) in the bottom bar of a schematic window until the title bar displays Stage Schematic.
+    - Go to the Window menu, and choose the Schematic option.
+    
+    - If necessary, click the FX/Stage toggle button (|schematic|) in the bottom bar of the Schematic pane until the title bar displays Stage Schematic.
 
 .. tip:: **To navigate the stage schematic:**
 
@@ -49,15 +51,15 @@ It is also possible to group several objects in one single node, in order to bet
 
 .. tip:: **To add a column:**
 
-    Load or create some content for the xsheet column: it will be automatically displayed in the stage.
+    Load or create some content for the xsheet column (timeline layer): it will be automatically displayed in the Stage.
 
 .. tip:: **To add a pegbar:**
 
     Do one of the following:
 
-    - Click the New Pegbar button (|pegbar|) in the bottom bar of the stage window.
+    - Click the New Pegbar button (|pegbar|) in the bottom bar of the Stage window.
 
-    - Right-click in the stage and choose New Pegbar from the menu that opens.
+    - Right-click in the Stage and choose New Pegbar from the menu that opens.
 
 .. tip:: **To add a camera:**
 
@@ -69,19 +71,19 @@ It is also possible to group several objects in one single node, in order to bet
 
 .. tip:: **To set the current camera:**
 
-    In the stage right-click the camera you want to set as current and choose Activate from the menu that opens.
+    In the Stage right-click the camera node you want to set as active and choose **Activate** from the menu that opens.
 
 .. tip:: **To name an object:**
 
-    Double-click the object name and type a new name.
+    Ctrl + double-click the node name and type a new name.
 
 .. tip:: **To minimize/maximize the column nodes:**
 
     Do one of the following: 
 
-    - Click the arrowhead next to the column name to minimize/maximize columns selectively.
+    - Click the arrowhead button to the left of the node name to minimize/maximize it selectively.
 
-    - Click the Minimize/Maximize (|minimize|/|maximize|) button in the bottom bar of the stage window to minimize/maximize all the column nodes.
+    - Click the Minimize/Maximize (|minimize|/|maximize|) button in the bottom bar of the Stage pane to minimize/maximize all of the nodes.
 
 .. tip:: **To select objects and links:**
 
@@ -103,39 +105,39 @@ It is also possible to group several objects in one single node, in order to bet
 
     Do one of the following:
 
-    - Use the Copy command to keep the selection in memory for further operations.
+    - Use the **Copy** command to keep the selection in memory for further operations.
 
-    - Use the Cut command to eliminate the selection from the schematic and keep it in memory for further operations.
+    - Use the **Cut** command to eliminate the nodes selection from the Stage Schematic and keep them in memory for further operations.
 
-    - Use the Paste command to paste the selection kept in memory in the stage schematic: the pasted selection is linked to the same object to which the copied or cut objects were linked. 
+    - Use the **Paste** command to paste the selection kept in memory in the Stage Schematic: the pasted selection will be linked to the same object to which the copied or cut objects were linked. 
 
     - Use the Delete command to delete the selection.
 
-.. note:: All these commands are available in the menu that opens when right-clicking nodes and links. 
+.. note:: All of these commands are available in the menu that opens when right-clicking nodes and links. 
 
-.. note:: The table, the default cameras, pegbars 1 and 2, and columns 1 and 2 cannot be removed from the schematic.
+.. note:: The table and the default camera cannot be removed from the schematic.
 
-.. tip:: **To group selected objects:**
+.. tip:: **To Group selected objects:**
 
-    Right-click any selected object and choose Group from the menu that opens.
+    Right-click any selected nodes and choose **Group** from the menu that opens.
 
-.. note:: Objects can only be grouped if they share a parent object, and the parent object is included in the selection.
+.. note:: Nodes can only be grouped if they share the parent node, and the parent node is included in the selection.
 
-.. tip:: **To open a group:**
+.. tip:: **To open a Group:**
 
-    Right-click the group and choose Open Group from the menu that opens: the group objects are displayed in a box, showing links between group nodes, and links with nodes outside of the group. 
+    Right-click the group and choose **Open Group** from the menu that opens: the group objects are displayed in a box, showing links between group nodes, and links with nodes outside of the group. 
 
-.. note:: In the stage schematic, when the content of a group is displayed it is not possible to edit the links between group objects, and links with objects outside of the group.
+.. note:: In the Stage Schematic, when the content of a group is displayed it's not possible to edit the links between group nodes, and links with nodes outside of the group.
 
-.. tip:: **To close a group:**
+.. tip:: **To close a Group:**
 
     Click the close button on the right of the group box bar. 
 
-.. tip:: **To release a group:**
+.. tip:: **To release a Group:**
 
-    Right-click the group and choose Ungroup from the menu that opens.
+    Right-click the group and choose **Ungroup** from the menu that opens.
 
-.. tip:: **To reorder nodes in the stage schematic:**
+.. tip:: **To reorder nodes in the Stage Schematic:**
 
     Click the Reorder Nodes button (|reorder_nodes|) in the bottom bar of the stage window.
 
@@ -144,41 +146,45 @@ It is also possible to group several objects in one single node, in order to bet
 
 Linking Objects
 ---------------
-Objects can be linked in order to create shared movements, that is to say a movement that all the linked objects share with the parent object, and relative movements, that is to say a movement that is the sum of the object own movement and the movement of its parent object. 
+Objects can be linked in order to create shared movements, that is to say a movement that all the linked objects share with the parent object, and relative movements, that is to say a movement that is the sum of the object's own movement and the movement of its parent object. 
 
-As parent objects can be linked in their turn to other moving objects, it is possible to define a complex hierarchy of movements.
+As parent objects can be linked in their turn to other moving objects, it is possible to define a complex hierarchy of transformations.
 
-The hierarchy between objects can be edited by setting links that allow you to set parent and linked objects: columns can be linked to other columns, pegbars, table and cameras; pegbars can be linked to other pegbars, table and cameras; cameras can be linked to any object in order to create complex shots, for example with a camera following the movement of a character in the scene.
+The hierarchy between objects can be edited by setting links that allow you to set parent and linked objects: columns can be linked to other columns, pegbars, the table or cameras; pegbars can be linked to other pegbars, the table or cameras; cameras can be linked to any object in order to create complex shots, for example with a camera following the movement of a character in the scene.
 
-Links can be set by using ports located around the object node: 
+Links can be set by using the ports located at each side of the object node: 
 
-- The port on the left is for linking the object to another object.
+- The port on the left is for linking the object to a parent object.
 
-- The port on the right is for accepting links from other objects.
+- The port on the right is for linking the object to a child object.
 
-- The port at the bottom is for assigning a motion path to the object (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` ).
+- The port at the bottom is for assigning the object a motion path to follow (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` ).
 
 Links can also be selected in order to be deleted: when selected, links are highlighted in white; when at least one object is selected, the related links are displayed in blue.
 
-Columns and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default, i.e. pegbars to the table and columns to the pegbar 2.
+Columns and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default, i.e. to the table.
 
-Letters displayed on the ports set the center of the object: center B is the geometrical center of each object, while center A is placed 8 inches to the left and center C, 8 inches to the right, etc. When a link is created, the letters at its ends set the way the linked object overlaps the parent object. If at both ends of the link you set the same letter, the two object overlap with no offset; while if, for example, a column centered on B is linked to a pegbar center A, it will have an offset of 8 inches to the left.
+Optionally, the connector ports can be displayed as letters (instead of the default arrows), to be able to control the position of the center used for the connection: center **B** is the geometrical center of each object, while center **A** is placed 8 inches to the left and center **C**, 8 inches to the right, etc. When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset; while if, for example, a column centered on B is linked to a pegbar center on A, it will have an offset of 8 inches to the left.
 
-Each object has always a free port in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a new one.
+In this mode, each object will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
 
-.. note:: Apart from the letters, columns have number centers as well for setting hook centers (see  :ref:`Using Hooks <using_hooks>`  ).
+.. note:: Apart from the letters, columns also have numbered centers as well, for setting the links relative to the position of Hooks assigned to them (see  :ref:`Using Hooks <using_hooks>`  ).
 
-.. note:: By defining parent and linked objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+.. tip:: **To switch the connector port display mode:**
+
+    - Click the Switch Output Port Display Mode button (|schematic|) in the bottom bar of the Schematic pane until you see the letters on each side of Stage Schematic nodes.
+
+.. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
 .. tip:: **To link an object to another:**
 
-    In the stage, click and drag the object left port to the parent object right port.
+    In the stage, click and drag an object left port to the parent object right port.
 
 .. tip:: **To set the center of an object:**
 
     1. Place the pointer on the object left port and wait for the double-arrow button to appear.
 
-    2. Click and drag up or down the double-arrow button to scroll the options available: letters and numbers for columns, and letters for all the other objects.
+    2. Click and drag up or down the double-arrow button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects.
 
 .. tip:: **To set the way a linked object overlaps the parent object:**
 
@@ -194,21 +200,19 @@ Each object has always a free port in order to accept a link to a different cent
 
     Do any of the following:
 
-    - To link a column to any other object, define the link in the schematic.
+    - To link a column to any other object, define the link in the Stage Schematic.
 
-    - To link a column to a pegbar or another column, choose the object and the center in the column header of the xsheet.
-
-    - To link a column to another column, select the Animate tool (|animate|) with the Pick option to Column, and in the work area shift-click the column contents to which you want to link the current column.
+    - To link a column to another column, select the Animate tool (|animate|) with the Pick option set to Column, and in the Viewer shift-click the column contents to which you want to link the current column.
 
 .. tip:: **To select the linked object to edit in the hierarchy:**
 
     Do one of the following:
 
-    - Select it in the stage schematic. 
+    - Select it in the Stage Schematic. 
 
     - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
 
-    - Right-click in the work area a drawing to choose from the menu that opens the Select command related to the object hierarchically linked that you want to edit, from the first one up to the table.
+    - Right-click a drawing in the Viewer to choose from the menu that opens the Select command related to the object hierarchically linked that you want to edit, from the first one up to the table.
 
 .. note:: The right-click menu first lists all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
 
@@ -226,7 +230,7 @@ Each object has always a free port in order to accept a link to a different cent
 
 .. tip:: **To remove selected links:**
 
-    Choose Edit > Delete: links will be replaced by default ones, i.e pegbars will be linked to the table and columns to the pegbar 2.
+    Choose Edit > Delete: links will be replaced by default ones (i.e to the table).
 
 
 .. _using_hooks:
