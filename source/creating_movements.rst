@@ -175,6 +175,7 @@ Advanced Linking
 Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for linking in more advanced ways: 
 
 |adv_linking_1|
+
 |adv_linking_2|
 
     - Center **B** is the geometrical center of each object (and the default connection option).
