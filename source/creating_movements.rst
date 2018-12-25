@@ -225,13 +225,13 @@ Optionally, the connector ports can be displayed as letters (instead of the defa
     
 When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if for example, a column centered on B is linked to a pegbar centered on A, it will have an offset of 8 inches to the left.
 
-While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
-
-.. note:: Apart from letters, columns have also numbered centers as well; these serve for setting links relative to the position of Hooks assigned to these columns (see  :ref:`Using Hooks <using_hooks>` ).
+Apart from letters, columns have also numbered centers as well; these serve for setting links relative to the position of Hooks assigned to these columns (see  :ref:`Using Hooks <using_hooks>` ).
 
     - Center **1** is the center defined by hook number 1.
     - Center **2** is the center defined by hook number 2.
     - etc.
+
+.. note:: While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
 
 .. tip:: **To switch the connector ports display mode:**
 
