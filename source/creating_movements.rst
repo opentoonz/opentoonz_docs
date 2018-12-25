@@ -420,19 +420,29 @@ In the **Animate tool** (|animate|) options bar you can set the following:
     
     - **Tool Mode** lets you choose which transformation category to display in the tool options bar. Options are: Position, Rotation, Scale, Shear, Center and All.
 
-|animate_tool_all|
-
     - **Position** **N/S** and **E/W** sets the vertical and horizontal positions of the selected object, position **Z** sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position **SO** sets the column stacking order that can be different from the one defined in the xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+
+|animate_tool_position|
 
     - **Rotation** sets the rotation of the selected object.
 
+|animate_tool_rotation|
+
     - **Scale Global**, **H** and **V** sets the global, horizontal and vertical scaling of the selected object. Maintain sets the constraint for scaling operations performed by using the Animate tool handle: if it is set to A/R the object will maintain its proportions, if it is set to Mass the object will maintain its overall size even when changing proportions.
+
+|animate_tool_scale|
 
     - **Shear** **H** and **V** sets the horizontal and vertical shearing of the selected object.
 
+|animate_tool_shear|
+
     - **Center** **N/S** and **E/W** sets the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
 
+|animate_tool_center|
+
     - **All** displays all transformation types at the same time. In the Viewer a handle will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center. In case there is not enough room available in the toolbar to show all of the options, arrow buttons will be shown at the right/left extremes to access the hidden options by scrolling.
+
+|animate_tool_all|
 
     - **Pick** (only available in **All** mode) lets the user choose to automatically select columns or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked (if there is one).
 
@@ -444,9 +454,9 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 .. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
-|animate_tool_handle|
-
 When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
+
+|animate_tool_handle|
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
@@ -902,6 +912,11 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |adv_linking_2| image:: /_static/movements/adv_linking_2.png
 .. |hooks| image:: /_static/movements/hooks.png
 .. |link_to_hooks| image:: /_static/movements/link_to_hooks.png
+.. |animate_tool_position| image:: /_static/movements/animate_tool_position.png
+.. |animate_tool_rotation| image:: /_static/movements/animate_tool_rotation.png
+.. |animate_tool_scale| image:: /_static/movements/animate_tool_scale.png
+.. |animate_tool_shear| image:: /_static/movements/animate_tool_shear.png
+.. |animate_tool_center| image:: /_static/movements/animate_tool_center.png
 .. |animate_tool_all| image:: /_static/movements/animate_tool_all.png
 .. |animate_tool_handle| image:: /_static/movements/animate_tool_handle.png
 .. |motion_path| image:: /_static/movements/motion_path.png
