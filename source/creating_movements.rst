@@ -446,13 +446,14 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
     - **Pick** (only available in **All** mode) lets the user choose to automatically select columns or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked (if there is one).
 
-.. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
+    - A **lock button** (|lock|) defines which transformations have to be locked while transforming the object.
 
     - **Global Key** when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Animate tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
 
-    - A lock button (|lock|) defines which transformations have to be locked while transforming the object.
+.. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
 .. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
+
 
 .. _animate_tool_handle:
 
@@ -467,13 +468,17 @@ When the Animation tool is in **All** mode, you can also interactively control t
 - **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
 - **Rotate:** Click and drag the circle end to rotate the object;
+|animate_tool_handle_rotate|
 
 - **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the Shift key is pressed while dragging, the scaling will be uniform.
+|animate_tool_handle_scale|
 
 - **Shear:** Click and drag the parallelogram end to shear the object; if the Shift key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
+|animate_tool_handle_scaleHV|
 
 - **Center:** Click and drag the double circle at the center to change the center of the object.
-
+|animate_tool_handle_center
+|
 .. note:: The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the center is changed many times, and you want to set it back to its original position, right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens.
 
 When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations.
@@ -923,6 +928,11 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |animate_tool_center| image:: /_static/movements/animate_tool_center.png
 .. |animate_tool_all| image:: /_static/movements/animate_tool_all.png
 .. |animate_tool_handle| image:: /_static/movements/animate_tool_handle.png
+.. |animate_tool_handle_rotate| image:: /_static/movements/animate_tool_handle_rotate.png
+.. |animate_tool_handle_scale| image:: /_static/movements/animate_tool_handle_scale.png
+.. |animate_tool_handle_scaleHV| image:: /_static/movements/animate_tool_handle_scaleHV.png
+.. |animate_tool_handle_shear| image:: /_static/movements/animate_tool_handle_shear.png
+.. |animate_tool_handle_center| image:: /_static/movements/animate_tool_handle_center.png
 .. |motion_path| image:: /_static/movements/motion_path.png
 .. |using_column_keys| image:: /_static/movements/using_column_keys.png
 
