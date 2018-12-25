@@ -420,6 +420,8 @@ In the **Animate tool** (|animate|) options bar you can set the following:
     
     - **Tool Mode** lets you choose which transformation category to display in the tool options bar. Options are: Position, Rotation, Scale, Shear, Center and All.
 
+|animate_tool_all|
+
     - **Position** **N/S** and **E/W** sets the vertical and horizontal positions of the selected object, position **Z** sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position **SO** sets the column stacking order that can be different from the one defined in the xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
     - **Rotation** sets the rotation of the selected object.
@@ -442,7 +444,11 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 .. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
+|animate_tool_handle|
+
 When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
+
+.. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
 - **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
@@ -454,9 +460,7 @@ When the Animation tool is in All mode, you can also interactively control trans
 
 - **Center:** Click and drag the double circle at the center to change the center of the object.
 
-.. note:: The object center can be moved, but cannot change its position during the animation: once it is set, or modified, it is retained during all of the animation. If the center is changed many times, and you want to set it back to its original position, right-click the object in the schematic and choose Reset Center from the menu that opens.
-
-.. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
+.. note:: The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the center is changed many times, and you want to set it back to its original position, right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens.
 
 When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations.
 
@@ -898,6 +902,8 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |adv_linking_2| image:: /_static/movements/adv_linking_2.png
 .. |hooks| image:: /_static/movements/hooks.png
 .. |link_to_hooks| image:: /_static/movements/link_to_hooks.png
+.. |animate_tool_all| image:: /_static/movements/animate_tool_all.png
+.. |animate_tool_handle| image:: /_static/movements/animate_tool_handle.png
 .. |motion_path| image:: /_static/movements/motion_path.png
 .. |using_column_keys| image:: /_static/movements/using_column_keys.png
 
