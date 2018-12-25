@@ -227,7 +227,7 @@ When a link is created, the letters at its ends set the way the linked object ov
 
 While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
 
-.. note:: Apart from letters, columns have also numbered centers as well; these serve for setting links relative to the position of Hooks assigned these columns (see  :ref:`Using Hooks <using_hooks>` ).
+.. note:: Apart from letters, columns have also numbered centers as well; these serve for setting links relative to the position of Hooks assigned to these columns (see  :ref:`Using Hooks <using_hooks>` ).
 
     - Center **1** is the center defined by hook number 1.
     - Center **2** is the center defined by hook number 2.
