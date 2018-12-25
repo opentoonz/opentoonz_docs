@@ -473,9 +473,10 @@ When the Animation tool is in **All** mode, you can also interactively control t
 
 - **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the Shift key is pressed while dragging, the scaling will be uniform.
 |animate_tool_handle_scale|
+|animate_tool_handle_scaleHV|
 
 - **Shear:** Click and drag the parallelogram end to shear the object; if the Shift key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
-|animate_tool_handle_scaleHV|
+|animate_tool_handle_shear|
 
 - **Center:** Click and drag the double circle at the center to change the center of the object.
 |animate_tool_handle_center|
