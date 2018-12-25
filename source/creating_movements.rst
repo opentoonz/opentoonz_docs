@@ -446,15 +446,19 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
     - **Pick** (only available in **All** mode) lets the user choose to automatically select columns or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked (if there is one).
 
+.. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
+
     - **Global Key** when activated sets a key for all the object transformations as soon as a key for one transformation is set by using the Animate tool handle. For example if you change the position of an object, thus defining a key position, automatically a key will be defined for the rotation, scaling and shearing transformations as well.
 
     - A lock button (|lock|) defines which transformations have to be locked while transforming the object.
 
-.. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
-
 .. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
-When the Animation tool is in All mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
+.. _animate_tool_handle:
+
+Animate Tool Handle
+~~~~~~~~~~~~~~~~~~~
+When the Animation tool is in **All** mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
 
 |animate_tool_handle|
 
@@ -482,7 +486,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
 .. tip:: **To select the object to edit:**
 
-    1. Do one of the following:
+    Do one of the following:
 
     - Select it in the stage schematic. 
 
