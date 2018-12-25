@@ -923,6 +923,8 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |adv_linking_2| image:: /_static/movements/adv_linking_2.png
 .. |hooks| image:: /_static/movements/hooks.png
 .. |link_to_hooks| image:: /_static/movements/link_to_hooks.png
+.. |tracking_regions| image:: /_static/movements/tracking_regions.png
+.. |tracking_options| image:: /_static/movements/tracking_options.png
 .. |animate_tool_position| image:: /_static/movements/animate_tool_position.png
 .. |animate_tool_rotation| image:: /_static/movements/animate_tool_rotation.png
 .. |animate_tool_scale| image:: /_static/movements/animate_tool_scale.png
