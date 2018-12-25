@@ -543,11 +543,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     1. Activate the Global Key option in the tool options bar.
 
-    2. Do one of the following:
-
-    - Enter values you want to modify in the Animate tool options bar. 
-
-    - If in **All** mode, operate the handle to move, scale, rotate or shear the object. 
+    2. Interactively move, rotate, scale or shear the object in the Viewer. 
 
 .. note:: As this key position is global and refers to all the transformations, the Set Key button turns blue.
 
@@ -562,8 +558,6 @@ If you want to set a key for an object transformation leaving its value as it is
 .. tip:: **To define keys for all of the object transformations leaving their values as they are at the current frame:**
 
     Do one of the following:
-
-    - Activate the Global Key option in the tool options bar, click in any object transformations field, and press the Enter key.
 
     - Click the Set Key button (|key|).
 
