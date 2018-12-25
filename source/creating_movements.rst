@@ -167,54 +167,9 @@ Links can also be selected in order to be deleted: when selected, links are high
 
 Columns and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default, i.e. to the table.
 
+.. tip:: **To link a node to another:**
 
-.. _advanced_linking:
-
-Advanced Linking
-~~~~~~~~~~~~~~~~
-Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for linking in more advanced ways: 
-
-|adv_linking_1|
-
-|adv_linking_2|
-
-    - Center **B** is the geometrical center of each object (and the default connection option).
-    - Center **A** is placed 8 inches to the left.
-    - Center **C** is placed 8 inches to the right.
-    - Etc.
-    
-When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if, for example, a column centered on B is linked to a pegbar centered on A, it will have an offset of 8 inches to the left.
-
-While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
-
-.. tip:: **To switch the connector ports display mode:**
-
-    - Click the Switch Output Port Display Mode button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
-
-.. note:: Apart from the letters, columns also have numbered centers as well, these serve for setting links relative to the position of Hooks assigned to columns (see  :ref:`Using Hooks <using_hooks>`  ).
-
-.. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
-
-
-.. tip:: **To link an object to another:**
-
-    In the stage, click and drag an object left port to the parent object right port.
-
-.. tip:: **To set the center of an object:**
-
-    1. Place the pointer on the object left port and wait for the double-arrow button to appear.
-
-    2. Click and drag up or down the double-arrow button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects.
-
-.. tip:: **To set the way a linked object overlaps the parent object:**
-
-    Do any of the following:
-
-    - Set the same letter for the two ports at the end of a link to overlap the objects without an offset.
-
-    - Set the following letter in the alphabetical order on the left port of the linked object to offset it to the right: for each letter there is an offset of 8 inches to the right.
-
-    - Set the previous letter in the alphabetical order on the linked object left port to offset it to the left: for each letter there is an offset of 8 inches to the left.
+    In the Stage Schematic, click and drag from a node's left port to the parent node's right port, or viceversa.
 
 .. tip:: **To link a column to another object:**
 
@@ -234,7 +189,7 @@ While in this mode, each node will have always a free connector port available i
 
     - Right-click a drawing in the Viewer to choose from the menu that opens the Select command related to the object hierarchically linked that you want to edit, from the first one up to the table.
 
-.. note:: The right-click menu first lists all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
+.. note:: The right-click menu lists in first place all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
 
 .. tip:: **To select links:**
 
@@ -251,6 +206,54 @@ While in this mode, each node will have always a free connector port available i
 .. tip:: **To remove selected links:**
 
     Choose Edit > Delete: links will be replaced by default ones (i.e to the table).
+
+
+.. _advanced_linking:
+
+Advanced Linking
+~~~~~~~~~~~~~~~~
+Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control, in more advanced ways, the position of the centers to be used when linking the nodes: 
+
+|adv_linking_1|
+
+|adv_linking_2|
+
+    - Center **B** is the geometrical center of each object (and the default connection option).
+    - Center **A** is placed 8 inches to the left.
+    - Center **C** is placed 8 inches to the right.
+    - etc.
+    
+When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; while if for example, a column centered on B is linked to a pegbar centered on A, it will have an offset of 8 inches to the left.
+
+While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
+
+.. note:: Apart from letters, columns have also numbered centers as well; these serve for setting links relative to the position of Hooks assigned these columns (see  :ref:`Using Hooks <using_hooks>` ).
+
+    - Center **1** is the center defined by hook number 1.
+    - Center **2** is the center defined by hook number 2.
+    - etc.
+
+.. tip:: **To switch the connector ports display mode:**
+
+    - Click the Switch Output Port Display Mode button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
+
+.. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+
+.. tip:: **To set the center of an object:**
+
+    1. Place the pointer on the object left port and wait for the double-arrow button to appear.
+
+    2. Click and drag up or down the double-arrow button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects.
+
+.. tip:: **To set the way a linked object overlaps the parent object:**
+
+    Do any of the following:
+
+    - Set the same letter for the two ports at the end of a link to overlap the objects without an offset.
+
+    - Set the following letter in the alphabetical order on the left port of the linked object to offset it to the right: for each letter there is an offset of 8 inches to the right.
+
+    - Set the previous letter in the alphabetical order on the linked object left port to offset it to the left: for each letter there is an offset of 8 inches to the left.
 
 
 .. _using_hooks:
