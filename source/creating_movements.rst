@@ -565,7 +565,7 @@ If you want to set a key for an object transformation leaving its value as it is
 .. _changing_columns_stacking_order:
 
 Changing Columns Stacking Order
-'''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the xsheet/timeline: xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
 
 This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element.
@@ -592,7 +592,7 @@ The SO default value for all the columns is 0, meaning that the xsheet column (o
 .. _creating_a_movement_along_a_motion_path:
 
 Creating a Movement along a Motion Path
-'''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Objects can be moved along a motion path according to two different type of movements: one without changing the object orientation, and the other with an automatic orientation set according to the direction of the motion path.
 
 A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the Viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers indicating the control points defining the vector shape.
@@ -786,7 +786,7 @@ All animations and interpolations set for the column can be visible and edited w
 .. _working_with_multiple_column_keys:
 
 Working with Multiple Column Keys
-'''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 It is possible to insert or delete keys affecting the xsheet as a whole, or a selection of xsheet columns. 
 
 Inserting or deleting multiple keys allows you to manage keys for several columns at the same time, for instance when you are working on a cutout animation where keys may be required for all the columns where model sections are exposed (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ). 
