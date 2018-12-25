@@ -2,9 +2,9 @@
 
 Creating Movements
 ==================
-Each scene has a series of objects that can be moved and transformed: they are xsheet columns (timeline layers) and pegbars, table and cameras.
+Each scene has a series of objects that can be moved and transformed: they can be xsheet columns (or timeline layers), pegbars, cameras, and the table.
 
-Every movement or transformation you set for an object at a specific frame automatically defines a keyframe. When keyframes are defined at different frames, in-between positions are automatically interpolated.
+Every transformation you set for an object at a specific frame automatically defines a keyframe. When keyframes are defined at several frames, in-between positions are automatically interpolated.
 
 To create more complex animations, you can also work in a 3D environment, where cameras and scene elements can be placed like on a stage at different distances one from another.
 
@@ -13,21 +13,21 @@ To create more complex animations, you can also work in a 3D environment, where 
 
 Using the Stage Schematic
 -------------------------
-The Stage Schematic contains all the objects used in a scene, making it possible to manage the way they are linked to each other. It's organized in a hierarchy starting from the animation table, where all the columns and pegbars are placed. A camera is available as well, and other cameras can be defined.
+The Stage Schematic contains nodes for all of the objects used in a scene, making it possible to manage the way they are linked to each other. It's organized in a hierarchy starting from the animation table, where all the columns and pegbars are placed. A camera is available as well, and additional cameras can be defined.
 
 |stage_schematic|
 
-By default the Stage Schematic contains the table and one camera nodes.
+By default the Stage Schematic contains the table node and one camera node.
 
-Column nodes are added as soon as you load or create some content; pegbars and cameras can be added at any time, and will be automatically linked to the table.
+Column nodes are added as soon as you load or create some content; pegbars and cameras can be added at any time (pegbars will be automatically linked to the table).
 
 When more than one camera is created, you can set which is the active one, used in the Viewer; the active camera node is displayed in blue while the others are left idle in grey. Each camera can have a different size and resolution, and each of them can be animated independently (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
-Objects can be easily added and arranged and they can be selected in order to be cut, copied, pasted or deleted. When selected, object nodes are highlighted in white; the current object has its label in red; when at least one object is selected, the related links are displayed in blue.
+Objects nodes can be easily added and arranged and they can be selected in order to be cut, copied, pasted or deleted. When selected, nodes edges are highlighted in white; the current object has its label displayed in yellow; when at least one node is selected, its related links are displayed in cyan.
 
-It is also possible to group several objects nodes into one single node, in order to better manage the whole Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations or new groups.
+It's also possible to group several nodes into one single node, in order to better manage a complex Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations or new groups.
 
-.. note:: Column nodes have buttons for camera stand (|camera_stand|) and render (|preview|) view toggles on the top right: these toggles are linked to the ones available in the xsheet columns headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
+.. note:: Column nodes have buttons defining their visibility in camera stand (|camera_stand|) and render (|preview|) views, these buttons are located at the top right of the nodes: the toggles are linked to the ones available in the xsheet columns (timeline layers) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>` ).
 
 .. tip:: **To access the stage schematic:**
 
@@ -43,11 +43,14 @@ It is also possible to group several objects nodes into one single node, in orde
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the Fit to Window button (|fit_to_window|) in the bottom bar of the stage window to display all the objects in the current window.
+    - Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the stage window to display all the objects in the current window.
 
-    - Use the Focus on Current button (|focus_on_current|) in the bottom bar of the stage window to center the stage on the current object.
+    - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the stage window to center the stage on the current object.
 
-    - Use the Reset Size button (|reset|) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
+    - Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage window to change the position of the nodes in the schematic to a default arrangement.
+
+    - Use the **Reset Size** button (|reset|) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
+
 
 .. tip:: **To add a column:**
 
@@ -59,7 +62,7 @@ It is also possible to group several objects nodes into one single node, in orde
 
     - Click the New Pegbar button (|pegbar|) in the bottom bar of the Stage window.
 
-    - Right-click in the Stage and choose New Pegbar from the menu that opens.
+    - Right-click in the Stage and choose **New Pegbar** from the menu that opens.
 
 .. tip:: **To add a camera:**
 
@@ -67,13 +70,13 @@ It is also possible to group several objects nodes into one single node, in orde
 
     - Click the New Camera button (|camera|) in the bottom bar of the stage window.
 
-    - Right-click in the stage and choose New Camera from the menu that opens.
+    - Right-click in the stage and choose **New Camera** from the menu that opens.
 
 .. tip:: **To set the active camera:**
 
     In the Stage right-click the camera node you want to set as active and choose **Activate** from the menu that opens.
 
-.. tip:: **To name an object:**
+.. tip:: **To rename an object:**
 
     Ctrl + double-click the node name and type a new one.
 
@@ -83,7 +86,7 @@ It is also possible to group several objects nodes into one single node, in orde
 
     - Click the arrowhead button to the left of the node name to minimize/maximize it selectively.
 
-    - Click the Minimize/Maximize (|minimize|/|maximize|) button in the bottom bar of the Stage pane to minimize/maximize all of the nodes.
+    - Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage pane to minimize/maximize all of the nodes.
 
 .. tip:: **To select objects and links:**
 
@@ -121,7 +124,7 @@ It is also possible to group several objects nodes into one single node, in orde
 
     Right-click any selected nodes and choose **Group** from the menu that opens.
 
-.. note:: Nodes can only be grouped if they share the parent node, and the parent node is included in the selection.
+.. note:: Nodes can only be grouped if they share the parent node, and parent node is included in the selection.
 
 .. tip:: **To open a Group:**
 
@@ -139,7 +142,7 @@ It is also possible to group several objects nodes into one single node, in orde
 
 .. tip:: **To reorder nodes in the Stage Schematic:**
 
-    Click the Reorder Nodes button (|reorder_nodes|) in the bottom bar of the stage window.
+    Click the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage window.
 
 
 .. _linking_objects:
@@ -184,8 +187,7 @@ While in this mode, each node will have always a free connector port available i
 
     - Click the Switch Output Port Display Mode button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
 
-.. note:: Apart from the letters, columns also have numbered centers as well, for setting the links relative to the position of Hooks assigned to them (see  :ref:`Using Hooks <using_hooks>`  ).
-
+.. note:: Apart from the letters, columns also have numbered centers as well, these serve for setting links relative to the position of Hooks assigned to columns (see  :ref:`Using Hooks <using_hooks>`  ).
 
 .. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
@@ -251,31 +253,31 @@ While in this mode, each node will have always a free connector port available i
 
 Using Hooks
 ~~~~~~~~~~~
-Hooks are reference points that can be defined for any animation level directly in the work area by using the Hook tool (|hook|).
+Hooks are reference points that can be defined for any animation level directly in the Viewer, by using the Hook tool (|hook|).
 
-Once defined they can be used in the stage schematic to link an object to the column where the hooked level is exposed according to a specific hook set, or to move the column according to any of its hook sets.
+Once defined for a column, they can be used in the Stage Schematic to link another object to this column, in relation to a specific hook, or to move the column according to any of its hook sets.
 
-In the first case the hook is used as a tracking point to link an object, for example another column or a camera, to a specific feature of the animation level. For example, if you have a character carrying a lamp, you can track the lamp position with a hook set and link a radial gradient to it to create a glow placed over the lamp for every frame of the animation.
+In the first case the hook is used as a tracking point to link another object to it, for example a column or camera, to a specific feature of the animation level. For example, if you have a character carrying a lamp, you can track the lamp position with a hook, and link a radial gradient to it to create a glow, placed over the lamp for every frame of the animation.
 
-In the second case the hook is used as the center of the column where the hooked level is exposed, thus creating a different center and offset for each level frame. For example, if you have a walking animation cycle, you can set a new center following the character’s feet with a hook set, and make the level move accordingly to prevent a moon-walking effect on the background. 
+In the second case the hook is used as the center of the column where the hooked level is exposed, thus creating a different center and offset for each level frame. For example, if you have a walking animation cycle, you can set a new center following the character’s feet with a hook, and make the level move accordingly to prevent a moon-walking effect on the background. 
 
 Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example the hook following the character’s foot feature can pass from one foot to another, in order to make the character move continuously onward.
 
 |hooks|
 
-A hook set can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved.
+A hook can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved.
 
-You can use up to 20 hook sets for each level; each hook set is labeled with a number, to retrieve it in each level frame. 
+You can use up to 20 hooks for each level; each hook is labeled with a number, to retrieve it in each level frame. 
 
-By activating the Snap option, hooks for the current level can be placed by snapping them exactly in the same position of hooks defined for the other animation levels visible in the work area. In case the current level is a Toonz vector level, hooks will snap also at the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+By activating the Snap option, hooks for the current level can be accurately placed by snapping them exactly to the same position of hooks defined for the other animation levels visible in the Viewer. In case the current level is a Toonz vector level, hooks will snap also to the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
-Hook information is saved along with the level as a file in XML format named as the file with the _hooks suffix. For example, hooks defined for the level ``mouse``  will be saved in the file ``mouse_hooks.xml`` .
+Hook information is saved along with the level as a file in XML format, named as the file but with the _hooks suffix. For example, hooks defined for the level ``mouse``  will be saved in the file ``mouse_hooks.xml`` .
 
 .. note:: Hooks are also visible in onion skin mode (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
-.. note:: Hooks can be also used to create a cutout animation model, as they allows you to link the model sections according to specific pivot points (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+.. note:: Hooks can be also used to create a cutout animation model, as they allow you to link the model sections according to specific pivot points (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
-.. tip:: **To define a hook set for a level:**
+.. tip:: **To define a hook for a level:**
 
     1. Select a frame from the level you want to set hooks for.
 
@@ -283,9 +285,9 @@ Hook information is saved along with the level as a file in XML format named as 
 
     3. Do one of the following:
 
-    - Click to create a hook set and drag to define the hook starting position.
+    - Click to create a hook and drag to define the hook starting position.
 
-    - Click elsewhere to create another hook set and the related hook starting position.
+    - Click elsewhere to create another hook and the related hook starting position.
 
 .. tip:: **To select hooks:**
 
@@ -303,47 +305,47 @@ Hook information is saved along with the level as a file in XML format named as 
 
     - Shift-drag to constrain an horizontal or vertical movement.
 
-    - Activate the Snap option to place the hook exactly in the same position of hooks defined for other animation levels visible in the work area, or in case the level is a Toonz vector level, at the center of closed shapes.
+    - Activate the Snap option to place the hook exactly at the same position of hooks defined for other animation levels visible in the Viewer, or in case the level is a Toonz vector level, at the center of closed shapes.
 
 .. tip:: **To pass a hook from one position to another:**
 
-    1. Alt-click and drag the hook to split it in two.
+    1. Alt-click and drag the hook to split it into two.
 
-    2. Place the double circle where the hook has to be for the current frame.
+    2. Place the **double circle** where the hook has to be for the current frame.
 
-    3. Place the cross where you want the reference point to be from the next frame onwards.
+    3. Place the **cross** where you want the reference point to be from the next frame onwards.
 
-.. tip:: **To delete a hook set:**
+.. tip:: **To delete a hook:**
 
     Select the related hook in any frame and choose Edit > Delete.
 
-.. tip:: **To link an object to a level hook set:**
+.. tip:: **To link an object to a level hook:**
 
-    1. Link the object to the column where the hooked level is exposed.
+    1. Link the object to the column containing the hook.
 
-    2. Place the pointer on the column right port and wait for the double-arrow button to appear.
+    2. Place the pointer over the column right port and wait for the double-arrow button to appear.
 
-    3. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook set to be used.
+    3. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook number to be used.
 
 |link_to_hooks|
 
-.. tip:: **To make the level move according to one of its hook set:**
+.. tip:: **To make the level move according to one of its hooks:**
 
-    1. Place the pointer left port of the column where the level is exposed, and wait for the double-arrow button to appear.
+    1. Place the pointer over the left port of the column containing the hook, and wait for the double-arrow button to appear.
 
-    2. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook set to be used.
+    2. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook to be used.
 
 .. tip:: **To prevent an animation walking cycle from moon-walking:**
 
-    Define a hook set by following these guidelines:
+    Define a hook by following these guidelines:
 
     - Place the hook on the same foot feature along the whole sequence, for example the tip of the foot.
 
-    - If the character is supposed to be moving horizontally on the ground, the hook should always lie on the ground line without changing its vertical position along the sequence. If the feature you are following leaves the ground, place the hook on the ground line, under the feature you were following.
+    - If the character is supposed to be moving horizontally on the ground, the hook should always lie on the ground line (without changing its vertical position along the sequence). If the feature you are following leaves the ground, still place the hook on the ground line, under the feature you were following.
 
     - When both feet are on the ground line you can split the hook to pass it form one foot to the other.
 
-    - If the animation is a cycle and you want the character to keep on walking, the last hook position has to be connected to the first and the hook has to pass from one foot to the other by splitting it, and then to the first one by splitting it again. 
+    - If the animation is a cycle and you want the character to keep on walking, the last hook position has to be connected to the first, and the hook has to pass from one foot to the other by splitting it, and then to the first one again by splitting it again. 
 
 
 .. _tracking_points:
@@ -352,17 +354,17 @@ Tracking Points
 ~~~~~~~~~~~~~~~
 It is possible to automatically track specific regions in a sequence of images by using the Tracker tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above).
 
-When selected the Tracker tool (|tracker|) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool defines both the pattern that the tracking system will try to recognize in the following images, and the size of the area where it will look for it (approximately twice the region).
+When selected the Tracker tool (|tracker|) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool sets both the pattern that the tracking system will try to recognize in the following images, and the size of the search area where it will look for it (that will be of approximately twice that region).
 
-Once areas to be tracked are defined in the first frame of a range, it is possible to automatically tracks the regions in a selected range, by specifying the following options:
+Once areas to be tracked are defined in the first frame of a range, it is possible to automatically track the regions in a selected range, by specifying the following options:
 
-- **Threshold** sets the amount of difference between the defined pattern and the recognized one. When using low values, the tracking system will look for an area with an almost identical pattern, and when using high values, for an area that can be quite different from the original one. This means that if the value is too low, it’s likely the tracking will fail on certain images; if too high, the tracking may follow the wrong areas. 
+- **Threshold** sets the amount of difference between the defined pattern and the recognized one. When using low values, the tracking system will look for an area with an almost identical pattern, and when using high values, will look for an area that can be quite different from the original one. This means that if the value is too low, it’s more likely for the tracking to fail on certain images; if too high, the tracking may fail by following the wrong areas. 
 
 - **Sensitivity** sets how often the defined pattern has to be updated according to the variation it may have in the following images. For the maximum value, the pattern will be updated after each image is tracked.
 
 - **Variable Region Size**, when activated, will look for the defined pattern considering also the different sizes that it can have in the following images. 
 
-- **Include Background**, when activated, considers the background as part of the defined pattern. It can be deactivated when tracking an element whose background does not affect the pattern, such as a blue screen background.
+- **Include Background**, when activated, it considers the background as part of the defined pattern. It can be deactivated when tracking an element whose background does not affect the pattern, such as a green/blue screen background.
 
 .. tip:: **To define a region to be tracked:**
 
@@ -390,20 +392,20 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
     2. Choose the Tracker tool (|tracker|) and define the regions to be tracked.
 
-    3. Select the frame range in the xsheet or in the level strip.
+    3. Select the frame range in the xsheet/timeline or in the level strip.
 
     4. Choose Level > Tracking, set the tracking options and click the Track button.
 
 .. tip:: **To link an object to the tracked region:**
 
-    Link the object to the hook automatically defined by the tracking process (see  :ref:`Using Hooks <using_hooks>`  ).
+    Link the object to one of the hooks defined by the tracking process (see  :ref:`Using Hooks <using_hooks>`  ).
 
 
 .. _animating_objects:
 
 Animating Objects
 -----------------
-You can animate the motion, rotation, scale and shear (plus edit the center) of columns, pegbars, cameras and the table by using the Animate tool. Objects to be animated can be selected either in the Stage Schematic, the Viewer, the Xsheet/Timeline or by using a dropdown menu in the Animate tool's own options bar.
+You can animate the position, rotation, scale and shear (plus edit the center) of columns, pegbars, cameras and the table by using the Animate tool. Objects to be animated can be selected either in the Stage Schematic, the Viewer, the Xsheet/Timeline or by using a dropdown menu in the Animate tool's own options bar.
 
 In the **Animate tool** (|animate|) options bar you can set the following:
 
@@ -449,7 +451,7 @@ When the Animation tool is in All mode, you can also interactively control trans
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
-When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the Global Key option is activated, keys will be generated for all of the transformations.
+When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations.
 
 If you want to set a key for an object transformation leaving its value as it is at the current frame, you can just hit Enter on the displayed value; if the Global Key option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations leaving their values as they are at the current frame, you can use the Set Key button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations regardless of the Global Key option.
 
@@ -463,7 +465,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Select it in the stage schematic. 
 
-    - If the object is a column, select it in the xsheet.
+    - If the object is a column/layer, select it in the xsheet/timeline.
 
     - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the work area to select the related column.
 
@@ -479,11 +481,11 @@ If you want to set a key for an object transformation leaving its value as it is
 
     3. Set the frame where you want to define the key by doing one of the following:
 
-    - Move the current frame cursor in the xsheet or in the function editor.
+    - Move the current frame cursor in the xsheet/timeline or in the function editor.
 
     - Use the frame bar or the playback buttons in the bottom bar of the work area.
 
-    - When animating columns only, select the related cell in the column.
+    - When animating columns only, select the related cell in the column/layer.
 
     4. Define a key position.
 
@@ -497,7 +499,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Enter values in the Animate tool options bar for the object transformations you want to set a key for. 
 
-    - Operate the handle to move, scale, rotate or shear the object, automatically generating a key only for the modified transformation. 
+    - If in **All** mode, operate the handle to move, scale, rotate or shear the object, automatically generating a key only for the modified transformation. 
 
 .. note:: As this key position is partial and refers only to some transformations, the Set Key button turns striped-blue.
 
@@ -509,7 +511,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Enter values you want to modify in the Animate tool options bar. 
 
-    - Operate the handle to move, scale, rotate or shear the object. 
+    - If in **All** mode, operate the handle to move, scale, rotate or shear the object. 
 
 .. note:: As this key position is global and refers to all the transformations, the Set Key button turns blue.
 
@@ -555,7 +557,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     Do any of the following:
 
-    - Use the option button (|option|) to choose which tool options have to be displayed: only selected items will be displayed.
+    - Use the **Tool Mode** dropdown menu to choose from one of its modes: Position, Rotate, Scale, Shear, Center or All: only the options for the selected transformation category will be displayed.
 
     - Use the lock button (|lock|) to choose which transformations have to be locked while transforming the object: only selected items will be locked.
 
@@ -564,27 +566,27 @@ If you want to set a key for an object transformation leaving its value as it is
 
 Changing Columns Stacking Order
 '''''''''''''''''''''''''''''''
-The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the xsheet: its direction is from left to right, making what is on the left is behind what is on the right. 
+The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the xsheet/timeline: xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
 
-This means that if an animation element has to move behind another animation element, and then in front of it, it has to be exposed in two different columns, one before and one after the column containing the second animation element.
+This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element.
 
-By editing the position SO (i.e. stacking order) value it is possible to change and animate the stacking order without editing the columns position in the xsheet.
+By editing the position SO (i.e. stacking order) value it is possible to change and animate the element compositing order without editing the columns/layers position in the xsheet/timeline.
 
-The SO default value for all the columns is 0, meaning that the xsheet column order is taken into account when there are no modifications of the SO position. As soon as a column has a higher SO value, it will be placed on top, regardless of the position of the column in the xsheet; if the value is lower it will be placed behind.
+The SO default value for all the columns is 0, meaning that the xsheet column (or timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the xsheet/timeline; conversely if the SO value is lower it will be placed behind.
 
-.. note:: In case the columns Z position is edited, columns closer to the camera are displayed on top of the others, ignoring both the xsheet stacking order and the SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ).
+.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of the others, ignoring both its xsheet/timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
 
-.. tip:: **To edit and animate the columns SO value:**
+.. tip:: **To edit and animate a column/layer SO value:**
 
-    1. Select the column to which you want to edit the SO value.
+    1. Select the column/layer to which you want to edit the SO value.
 
     2. Choose the Animate tool (|animate|). 
 
     3. Set the frame where you want to define the key.
 
-    4. In the tool options bar enter the value in the SO position field.
+    4. In the tool options bar enter the value in the SO field.
 
-.. note:: Columns SO values can also be edited and animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
+.. note:: Columns/layers SO values can also be edited and animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
 
 .. _creating_a_movement_along_a_motion_path:
@@ -593,17 +595,17 @@ Creating a Movement along a Motion Path
 '''''''''''''''''''''''''''''''''''''''
 Objects can be moved along a motion path according to two different type of movements: one without changing the object orientation, and the other with an automatic orientation set according to the direction of the motion path.
 
-A motion path can be assigned to an object in the stage schematic, and it can be defined with drawing tools and edited in the work area as if it was a vector. Once defined it is displayed as a dashed red line, with small numbers indicating the control points defining the vector shape.
+A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the Viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers indicating the control points defining the vector shape.
 
 |motion_path|
 
-As soon as a path is assigned to an object, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it, and not in the E/W and N/S directions anymore.
+As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it, and not in the E/W and N/S directions anymore.
 
-The key positions of the object on the motion path can be defined by dragging the object along it, and they are expressed as a percentage where 0 is the starting point and 100 is the ending point of the path. 
+The key positions of the object on the motion path can be defined by dragging the object along it, and they are expressed as a percentage where 0% is the starting point and 100% is the ending point of the path. 
 
-It is also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
+It's also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
 
-.. note:: If you want to change the center of the object, you can move it with the Animate tool (|animate|) and then use the Reset Center command in the stage.
+.. note:: If you want to change the center of the object, you can move it using the Animate tool (|animate|), and then use the **Reset Center** command in the Stage Schematic.
 
 .. note:: A motion path can also be created by copying and pasting a drawing vector, and a drawing vector can be created by copying and pasting a motion path.
 
@@ -613,23 +615,23 @@ It is also possible to link the key positions of the objects to the positions of
 
     2. Do one of the following:
 
-    - Click the New Motion Path button (|new_motion_path|) in the bottom bar of the stage window.
+    - Click the **New Motion Path** button (|new_motion_path|) in the bottom bar of the stage window.
 
-    - Right-click in the stage and choose New Motion Path from the menu that opens.
+    - Right-click in the stage and choose **New Motion Path** from the menu that opens.
 
 .. tip:: **To define and edit a motion path:**
 
-    Select the motion path in the stage and do any of the following:
+    Select the motion path node in the stage and do any of the following:
 
     - Use the drawing tools to define it in the work area.
 
     - Use the modifier tools to edit it. 
 
-    - Draw a new line, and confirm in the dialog that opens, to replace a previously created motion path with a new one. 
+    - Draw a new line, and confirm in the dialog that opens, to replace a previously created motion path with the new one. 
 
 .. tip:: **To assign a motion path to an object:**
 
-    Click and drag the motion path top port to the object bottom port. 
+    Click and drag the motion path top port to the object node bottom port. 
 
 .. tip:: **To remove a motion path from an object:**
 
@@ -643,7 +645,7 @@ It is also possible to link the key positions of the objects to the positions of
 
 .. tip:: **To link the object key positions to the control points defining the motion path:**
 
-    Click the button at the left of the object bottom port to activate or deactivate the Link to Control Points option (|link_to_control_points|).
+    Click the button at the left of the object bottom port to activate or deactivate the **Link to Control Points** option (|link_to_control_points|).
 
 .. tip:: **To change the center of the object:**
 
@@ -651,17 +653,17 @@ It is also possible to link the key positions of the objects to the positions of
 
     2. Move the center of the object to the new position.
 
-    3. Right-click the object in the stage and select Reset Center from the menu that opens.
+    3. Right-click the object node in the Stage Schematic and select **Reset Center** from the menu that opens.
 
 .. tip:: **To save a motion path:**
 
-    1. Right-click it and select Save Motion Path from the menu that opens. 
+    1. Right-click it and select **Save Motion Path** from the menu that opens. 
 
-    2. In the browser choose a location and a name and click the Save button. The file will be saved with the MPATH extension.
+    2. In the browser choose a location and a name and click the **Save** button. The file will be saved with the MPATH extension.
 
 .. tip:: **To load a motion path:**
 
-    1. Right-click the motion path and select Load Motion Path from the menu that opens. 
+    1. Right-click the motion path and select **Load Motion Path** from the menu that opens. 
 
     2. In the browser retrieve the MPATH file you want to load and click the Load button.
 
@@ -673,7 +675,7 @@ It is also possible to link the key positions of the objects to the positions of
 
     3. Select the motion path you want to paste to in the stage.
 
-    4. Click in the work area and paste the copied/cut vector that automatically becomes a motion path.
+    4. Click in the Viewer and paste the copied/cut vector that will automatically become the motion path.
 
 .. tip:: **To use a motion path as a vector:**
 
@@ -685,7 +687,7 @@ It is also possible to link the key positions of the objects to the positions of
 
     4. Select the drawing where you want to paste the new vector.
 
-    5. Paste the copied/cut motion path that automatically becomes a vector.
+    5. Paste the copied/cut motion path that will automatically become a vector.
 
 .. tip:: **To remove a motion path from the stage:**
 
@@ -832,13 +834,13 @@ The 3D environment can be activated, or deactivated, with the 3D button (|3d|) a
 
 By default all the pegbars and columns are on the table: their Z position is equal to the number of horizontal fields defined for the default camera, as the value represents the size of the area that is shot by the camera (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). By increasing the field value, objects are placed farther from the camera; by decreasing it, objects are placed closer to the camera; at zero they are at the same Z position as the camera and for negative value they are behind the camera.
 
-As concerning the camera, by default its Z position is equal to the number of horizontal fields defined for the default camera. By increasing the field value, the camera moves further from the table; by decreasing it, closer; at zero it is at the same Z position of the table and for negative value it is behind the table.
+As concerning the camera, by default its Z position is equal to the number of horizontal fields defined for the default camera. By increasing the field value, the camera moves farther from the table; by decreasing it, it moves closer; at zero it is at the same Z position of the table and for negative value it is behind the table.
 
 As soon as objects are moved, projections on an imaginary floor and side wall let you understand the position of the drawings in relation to each other and to the camera. If the current object is a column, a dotted bounding box displays the way the column content will be shot by the camera.
 
-The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it is possible to define an additional Z position value in the tool options bar that sets the position at which the object has to keep its original size. 
+The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it's possible to define an additional Z position value in the tool options bar that sets the position at which the object has to keep its original size. 
 
-.. note:: Columns closer to the camera are displayed on top of the others, ignoring the xsheet stacking order and the position SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the xsheet stacking order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+.. note:: Columns closer to the camera are displayed on top of the others, ignoring the xsheet/timeline order and the SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the xsheet/timeline order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
 .. tip:: **To enter the 3D environment:**
 
@@ -860,7 +862,7 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
 .. tip:: **To set at which position the object has to keep its original size:**
 
-    Enter a value for the additional Z position field displayed in brackets in the tool options bar. For example if you want a column content to keep its original size when placed at the Z position 8, enter 8 as the value in brackets.
+    Enter a value for the additional Z position field displayed in brackets in the tool options bar. For example if you want a column content to keep its original size when placed at the Z position 8, also enter 8 as the value in brackets.
 
 .. tip:: **To move the work area displayed in 3D:**
 
@@ -874,13 +876,13 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
     Do one of the following:
 
-    - To set a side view use the button (|side_view|) available on the side wall or the 3D environment.
+    - To set a Side view use the button (|side_view|) available on the side wall or the 3D environment.
 
-    - To set a top view use the button (|top_view|) available on the floor or the 3D environment.
+    - To set a Top view use the button (|top_view|) available on the floor or the 3D environment.
 
 .. tip:: **To exit the 3D environment:**
 
-    Click the standard (|camera_stand|) or camera view buttons (|camera_view|) available on the right of the viewer title bar.
+    Click the camera stand (|camera_stand|) or camera view (|camera_view|) buttons available on the right of the viewer title bar.
 
 
 
