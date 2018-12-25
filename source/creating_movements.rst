@@ -174,6 +174,9 @@ Advanced Linking
 ~~~~~~~~~~~~~~~~
 Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control the position of the center used for linking in more advanced ways: 
 
+|adv_linking_1|
+|adv_linking_2|
+
     - Center **B** is the geometrical center of each object (and the default connection option).
     - Center **A** is placed 8 inches to the left.
     - Center **C** is placed 8 inches to the right.
@@ -887,6 +890,8 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
 
 .. |stage_schematic| image:: /_static/movements/stage_schematic.png
+.. |adv_linking_1| image:: /_static/movements/adv_linking_1.png
+.. |adv_linking_2| image:: /_static/movements/adv_linking_2.png
 .. |hooks| image:: /_static/movements/hooks.png
 .. |link_to_hooks| image:: /_static/movements/link_to_hooks.png
 .. |motion_path| image:: /_static/movements/motion_path.png
