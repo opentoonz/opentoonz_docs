@@ -526,7 +526,7 @@ The values of these parameters can be visualized into the Function Editor as num
 .. _use_mathematical_expression_in_plastic_animation:
 
 Use Mathematical Expressions in Plastic Animation
-------------------------------------------------
+-------------------------------------------------
 To use OpenToonz mathematical expressions in the Plastic Animation, link the vertices of the skeleton to each other or to a column, pegbar or camera.
 
 This allow you to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder the other moves automatically.
