@@ -114,9 +114,11 @@ AppImage by Morevna Project
 ``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux64-b8b54.appimage`` for 64-bit OS or ``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux32-b8b54.appimage`` for 32-bit OS.
 
 2. Make AppImage executable.
+
 ``chmod a+x OpenToonz*.appimage``
 
 3. Run.
+
 ``./OpenToonz*.appimage``
 
 .. note:: Builds by Morevna Project contain some experimental features.
@@ -127,9 +129,11 @@ Flatpak
 ~~~~~~~
 
 1. Installing.
+
 ``flatpak install flathub io.github.OpenToonz``
 
 2. Run.
+
 ``flatpak run io.github.OpenToonz``
 
 .. _snap:
@@ -145,17 +149,21 @@ Debian GNU/Linux
 ''''''''''''''''
 
 1. Download PGP signing key package.
+
 ``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb``
 
 2. Install PGP package.
+
 ``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``
 
 3. Add repository address to your sources list.
+
 ``sudo echo "deb http://www.deb-multimedia.org stable main" | tee -a /etc/apt/sources.list`` Builds for testing and sid also avalaible.
 
 .. note:: Debian packages avalaible only for amd64, arm64 and i386 architectures.
 
 4. Install OpenToonz.
+
 ``sudo apt update && apt install opentoonz opentoonz-data``
 
 .. tip:: For updating enter ``sudo apt update && apt upgrade``.
