@@ -4,33 +4,34 @@ Editing Animation Levels
 ========================
 Once you have created your animation levels, you may need to work on them in order to add or insert new drawings, or rearrange the frame sequence.
 
-All the editing can be saved by saving the level, or by saving the scene, thus automatically saving all of its levels.
+All the editing can be saved by saving the level, or by saving the scene with the Save All command, thus automatically saving all of its levels.
+
 
 .. _using_the_level_strip:
 
 Using the Level Strip
 ---------------------
-An animation level can be managed in the level strip. The level strip shows all of the drawings of the current level, even drawings not currently exposed in the , according to their numbering order. 
+An animation level can be managed in the Level Strip. The Level Strip shows all of the drawings of the current level (even drawings not currently exposed in the Xsheet/Timeline) according to their numbering order. 
 
 .. note:: In case a frame range of the animation level has been loaded with the Load Level dialog, only the frames within the allocated frame range will be visible in the level strip (see  :ref:`Using the File Browser <using_the_file_browser>`  ).
 
-When a level is selected, each frame of the strip contains a level drawing, according to the level numbering order. When a frame in the strip is selected, the related drawing is displayed in the work area, replacing any previous displayed content, to let you work on it more easily. 
+When a level is selected, each frame of the strip contains a level drawing, according to the level numbering order. When a frame in the strip is selected, the related drawing is displayed in the Viewer, replacing any previous displayed content, to let you work on it more easily. 
 
-When one or more frames are selected you can perform standard cut, copy, paste, delete and insert operations. New drawings can be added, and any sequence can be renumbered. From the level strip drawings can be also exposed in the .
+When one or more frames are selected you can perform standard cut, copy, paste, delete and insert operations. New drawings can be added, and any sequence can be renumbered. From the Level Strip, drawings can be also exposed in the Xsheet/Timeline.
 
-When you change the order of the drawings in the level strip, or when a drawing is cut, deleted or inserted, and drawings are exposed in the scene, the  will continue to contain a reference to that particular frame of the animation level, whatever its content is. When the  contains a reference to a drawing that is eliminated in the level strip, the level name and number turn red, to warn you that there is no drawing available for that cell anymore.
+When you change the order of the drawings in the Level Strip, or when a drawing is cut, deleted or inserted, and drawings are exposed in the scene, the Xsheet/Timeline will continue to contain a reference to that particular frame of the animation level, whatever its content is. When the Xsheet/Timeline contains a reference to a drawing that is eliminated in the Level Strip, the level name and number turn red, to warn you that there is no drawing available for that cell anymore.
 
 The width of the level strip pane cannot be resized freely, because it depends on the size of the animation level preview icons, but it can be customized in the Preferences > Interface dialog.
 
-.. tip:: **To edit an animation level in the level strip:**
+.. tip:: **To edit an animation level in the Level Strip:**
 
     Do one of the following:
 
-    - Select in the  a cell containing a drawing from the animation level you want to edit.
+    - Select in the Xsheet/Timeline a cell containing a drawing from the animation level you want to edit.
 
-    - Right-click the level icon in the scene cast and choose Display in Level Strip from the menu that opens.
+    - Right-click the level icon in the Scene Cast and choose Display in Level Strip from the menu that opens.
 
-.. tip:: **To scroll the level strip:**
+.. tip:: **To scroll the Level Strip:**
 
     Do one of the following:
 
@@ -46,7 +47,7 @@ The width of the level strip pane cannot be resized freely, because it depends o
 
     - Use the Home and End keys to scroll up to the beginning or the end of the level strip content.
 
-.. tip:: **To select drawings in the level strip:**
+.. tip:: **To select drawings in the Level Strip:**
 
     Do one of the following:
 
@@ -62,17 +63,17 @@ The width of the level strip pane cannot be resized freely, because it depends o
 
     - Use the Edit > Invert Selection command to invert the current selection of drawings.
 
-.. note:: The Select All and Invert Selection commands are also available in the menu that opens when right-clicking in the level strip.
+.. note:: The Select All and Invert Selection commands are also available in the menu that opens when right-clicking in the Level Strip.
 
 .. tip:: **To exit the level strip editing mode:**
 
-    Click a cell in the , or select a frame in the  frame column.
+    Click a cell or select a frame in the frames area of the Xsheet/Timeline.
 
 .. tip:: **To customize the level strip width:**
 
     1. Choose File > Preferences > Interface.
 
-    2. Set values for the Width and Height of the Level Strip Frames.
+    2. Set the Width and Height values of the level strip Icon Size*.
 
     3. Restart OpenToonz to make the changes effective.
 
@@ -85,9 +86,9 @@ The level content can be edited one frame at a time, for example for retouching 
 
 .. tip:: **To edit a drawing of an animation level:**
 
-    1. Select the frame in the level strip containing the drawing you want to modify.
+    1. Select the frame in the Level Strip containing the drawing you want to modify.
 
-    2. Use the tools to edit the drawing in the work area. 
+    2. Use the tools to edit the drawing in the Viewer. 
 
 .. tip:: **To edit drawings of an animation level with the Edit menu commands:**
 
@@ -105,7 +106,7 @@ The level content can be edited one frame at a time, for example for retouching 
 
     - Use the Delete command to delete selected drawings.
 
-    - Use the Insert command to insert white frames before the selection; inserted frames will be as many as the selected ones. The operation shifts down the following frames, and automatically renumbers them.
+    - Use the Insert command to insert empty (white) frames before the selection; inserted frames will be as many as the selected ones. The operation shifts down the following frames, and automatically renumbers them.
 
 .. note:: All of the Edit menu commands are also available in the menu that opens when right-clicking in the level strip.
 
@@ -127,7 +128,8 @@ The level content can be edited one frame at a time, for example for retouching 
 
     - Use the Merge command to paste in the current level the drawings copied from a different level, according to their original frame position and regardless of the currently selected frames.
 
-.. note:: All the Cells menu commands are also available in the menu that opens when right-clicking in the level strip.
+.. note:: All the Cells menu commands are also available in the menu that opens when right-clicking in the Level Strip.
+
 
 .. _renumbering_and_adding_frames_in_a_level:
 
@@ -137,13 +139,13 @@ When you need to add one or several drawings to a level, you first need to creat
 
 While the inserting operation automatically shifts the numbering of the following frames in order to make room for the new ones, the renumbering lets you control the way frames have to be renumbered. 
 
-After the renumbering, drawings are rearranged to have an incremental numbering in the level strip, where blank frames are not considered. For example for a level where frames 4 and 5 are renumbered 11 and 12, the level strip will display only five frames correctly numbered 1, 2, 3, 11 and 12.
+After the renumbering, drawings are rearranged to have an incremental numbering in the Level Strip, where blank frames are not considered. For example for a level where frames 4 and 5 are renumbered 11 and 12, the Level Strip will display only five frames correctly numbered 1, 2, 3, 11 and 12.
 
 If you need to add a range of frames to a level, for instance for scanning them or creating some artwork, you can add it with the Add Frames dialog. This dialog allows you also to insert drawings in a level numbered in an irregular way, for example after some frames which have been cut or renumbered.
 
 Both the renumbering and the adding frames operation fails if the numbering assigned to the frames is used by already existing frames.
 
-.. note:: If the Automatically Create Drawings option is activated in the Preferences > Drawing dialog, when you want to add a drawing at the end of the sequence simply select the first grey frame available, and draw in the work area. 
+.. note:: If the Automatically Create Drawings option is activated in the Preferences > Drawing dialog, when you want to add a drawing at the end of the sequence simply select the first grey frame available, and draw in the Viewer. 
 
 .. tip:: **To renumber drawings of an animation level:**
 
@@ -159,7 +161,8 @@ Both the renumbering and the adding frames operation fails if the numbering assi
 
     2. In the dialog that opens sets the frame range you want to add, and the Step used to number the frames in the range.
 
-.. note:: The Add Frames and Renumber commands are also available in the menu that opens when right-clicking in the level strip.
+.. note:: The Add Frames and Renumber commands are also available in the menu that opens when right-clicking in the Level Strip.
+
 
 .. _reverting_level_frames_to_a_previous_version:
 
@@ -173,7 +176,7 @@ For Toonz raster levels generated from a cleanup process, it is also possible to
 
 .. tip:: **To revert the level drawings to the last saved version:**
 
-    1. In the level strip select the drawings you want to revert.
+    1. In the Level Strip select the drawings you want to revert.
 
     2. Do one of the following:
 
@@ -183,7 +186,7 @@ For Toonz raster levels generated from a cleanup process, it is also possible to
 
 .. tip:: **To revert to the original cleaned up drawings:**
 
-    1. In the level strip select the drawings you want to revert.
+    1. In the Level Strip select the drawings you want to revert.
 
     2. Do one of the following:
 
@@ -191,25 +194,27 @@ For Toonz raster levels generated from a cleanup process, it is also possible to
 
     - Right click the selection and choose Revert to Cleaned Up from the menu that opens.
 
+
 .. _merging_animation_levels:
 
 Merging Animation Levels
 ------------------------
-Toonz vector levels and standard raster levels can be easily merged into a single animation level generated by flattening them according to their stacking order, using the  > Merge levels command. TLV levels can be merged, using the  > Merge tlv Levels command.
+Toonz vector levels and standard raster levels can be easily merged into a single animation level generated by flattening them according to their stacking order, using the  > Merge Levels command. TLV levels can be merged, using the  > Merge TLV Levels command.
 
 This can be useful for instance if you are sketching an animation with drawings repeated in several cells and exposed in several columns, and you want to generate a single sequence of drawings.
 
 In both cases there is no limit to the number of columns you can merge.
 
+
 .. _merging_toonz_vector_levels_or_raster_levels:
 
 Merging Toonz Vector Levels or Raster Levels
 ''''''''''''''''''''''''''''''''''''''''''''
-Using the  > Merge levels command the number of resulting drawings will depend on the number of drawings exposed in the first column on the left of the selection. When merging raster levels, the resolution of the resulting drawings will depend on the resolution of the drawings exposed in the first column on the left of the selection.
+Using the  > Merge Levels command the number of resulting drawings will depend on the number of drawings exposed in the first column on the left of the selection. When merging raster levels, the resolution of the resulting drawings will depend on the resolution of the drawings exposed in the first column on the left of the selection.
 
 Animation levels are merged according to the following guidelines:
 
-- The  frame numbering order is followed; this means that all the drawings exposed at frame 1 will be merged to the drawing exposed at frame 1 of the first column of the selection. 
+- The frame numbering order is followed; this means that all the drawings exposed at frame 1 will be merged to the drawing exposed at frame 1 of the first column of the selection. 
 
 - If two different drawings are associated at different frames to the same drawing exposed in the first column of the selection, only the first one will be applied.
 
