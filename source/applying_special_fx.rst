@@ -1609,10 +1609,10 @@ GPU Spin Blur
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Safe Radius. The Blur parameter sets the amount of blur.
 
 
-.. |Toonz71_390| image:: /_static/Toonz71/Toonz71_390.gif
-.. |Toonz71_391| image:: /_static/Toonz71/Toonz71_391.gif
-.. |Toonz71_392| image:: /_static/Toonz71/Toonz71_392.gif
-.. |Toonz71_393| image:: /_static/Toonz71/Toonz71_393.gif
+.. |Toonz71_390| image:: /applying_special_fx\Inserting Special FX\FX Browser.gif
+.. |Toonz71_391| image:: /applying_special_fx\Inserting Special FX\Basic FX Example.gif
+.. |Toonz71_392| image:: /applying_special_fx\Inserting Special FX\Combined FX Example.gif
+.. |Toonz71_393| image:: /applying_special_fx\Inserting Special FX\Generated FX Example
 .. |Toonz71_401| image:: /_static/Toonz71/Toonz71_401.gif
 .. |Toonz71_408| image:: /_static/Toonz71/Toonz71_408.gif
 .. |Toonz71_414| image:: /_static/Toonz71/Toonz71_414.gif
