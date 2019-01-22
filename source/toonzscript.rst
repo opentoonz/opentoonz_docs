@@ -2,39 +2,39 @@
 
 ToonzScript
 ===========
-ToonzScript is the scripting language used in OpenToonz. The scripting usage allows to create sequences of commands avoiding to commit manpower to perform some repetitive tasks. ToonzScript is based on QtScript and is built on the stadard ECMAScript. a reference guide for the ECMAScript can be found to the following URL:
+ToonzScript is the scripting language used in OpenToonz. Using ToonzScript allows users to create sequences of commands, thus avoiding the need to perform repetitive tasks manually. ToonzScript is based on QtScript and is built on the ECMAScript standard. A reference guide for the ECMAScript standard can be found at the following URL:
 
 `ECMAScript Reference <http://doc.qt.io/qt-5/ecmascript.html>`_
 
-.. note:: Several well known scripting languages are based on the ECMAScript standard like JavaScript, JScript and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason a good introduction to JavaScript can be very useful to understand better the ToonzScript basics.
+.. note:: Several well known scripting languages are based on the ECMAScript standard such as JavaScript, JScript, and ActionScript. The ToonzScript syntax is similar to that of JavaScript, for this reason, a good introduction to JavaScript can be very useful to better understand ToonzScript's basics.
 
-The original ToonzScript page with some (rather old) examples are available at the following URL:
+The original ToonzScript page with some (rather old) examples is available at the following URL:
 
 `ToonzScript page <http://www.toonz.com/htm/support/Script.htm>`_
 
-The scripts can be started using the File > Run Script command or the commands can be directly inserted in the Script Console that can be opened using the File > Open Script Console command.
+Scripts can be run using the ``File > Run Script...`` command. Alternatively, commands can be typed and executed directly in the Script Console, which can be opened using the ``File > Open Script Console...`` command.
 
-.. note:: When a script is running the Script Console opens automatically and shows the scripting commands.
+.. note:: When a script is running, the Script Console will open automatically to show the commands contained within the script.
 
 
-.. _files_managing:
+.. _file_management:
 
-Files managing
---------------
+File management
+---------------
 
 |toonz_script_runscript|
 
-The ToonzScript file extension is .js, the scripts have to be into the ``OpenToonz_stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
+The ToonzScript file extension is .js, scripts need to be in the ``OpenToonz_stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
 
 
-.. _use_the_script_console:
+.. _using_the_script_console:
 
-Use the Script Console
-----------------------
+Using the Script Console
+------------------------
 
 |toonz_script_console|
 
-The Script Console allows entering directly the language commands or the drag & drop of external text files, in the latter case the drop generates a string containing the file path.
+The Script Console allows the user to directly enter commands, additionally, dragging & dropping external text files into the console will automatically insert the path of the file(s).
 
 Start a series of lengthy operations from the console does not block the interface.
 
@@ -53,7 +53,7 @@ The following conventions are implemented in the use of the Script Console:
 
 - The **ctrl+y**  shortcut interrupts the execution of time consuming commands.
 
-- When entering a path in a string all the backslashes must be doubled. Following this rule the path ``C:\tmp\test.jpg``  becomes ``C:\\tmp\\test.jpg`` .
+- When entering a path in a string, any and all backslashes must be doubled. Following this rule the path: ``C:\tmp\test.jpg``  becomes ``C:\\tmp\\test.jpg`` .
 
 - Even if working on a Windows family OS the slash and the backslash can be used in the same way, thus the path ``C:\tmp\test.jpg``  is equivalent to the path ``C:/tmp/test.jpg`` .
 
@@ -73,29 +73,28 @@ Built on the foundaments of ECMAScript, ToonzScript retains a degree of similari
 
 Commands
 ''''''''
-    - ``print(arg1, arg2, ...)`` : writes a message on console. The print command doesn’t return the ``undefined``  value.
+- ``print(arg1, arg2, ...)`` : writes a message on console. The print command doesn’t return the ``undefined``  value.
 
-**Example:** 
+Example:: 
 
-print(“result=”,12*3);
+	print(“result=”,12*3);
 
-    - ``run(filename)`` : runs the script saved in filename. The relative path are referred to the folder "<opentoonz library>/scripts/"
+- ``run(filename)`` : runs the script saved in filename. The relative path are referred to the folder "<opentoonz library>/scripts/"
 
-**Examples:** 
+**Examples**::
 
-run(“test.js”)
+	run(“test.js”)
 
-run(“C:\\Users\\Username\\Tests\\another_test.js”)
+	run(“C:\\Users\\Username\\Tests\\another_test.js”)
 
-    - ``view(image)`` : allows to view an image. The view command can be legally used in the following context: ``view(new Image(filename))`` 
+- ``view(image)`` : allows to view an image. The view command can be legally used in the following context: ``view(new Image(filename))`` 
+- ``view(level)`` : allows to view a level.
 
-    - ``view(level)`` : allows to view a level.
+**Examples**::
 
-**Examples:** 
+	view(new Level(“C:\\OpenToonz_stuff\\sandbox\\drawings\\A.pli”))
 
-view(new Level(“C:\\OpenToonz_stuff\\sandbox\\drawings\\A.pli”))
-
-    - The variable ``ToonzVersion`` can be used to check the current version of OpenToonz.
+- The variable ``ToonzVersion`` can be used to check the current version of OpenToonz.
 
 
 .. _classes:
@@ -141,29 +140,29 @@ contains the path of an object.
 
 - ``path.isDirectory`` - read only attribute
 
-**Examples:** 
+**Examples**::
 
-myRoot = new FilePath(“C:\\Users\\username\\”);
+	myRoot = new FilePath(“C:\\Users\\username\\”);
 
-f = myRoot.concat(“tests”).concat(“name.0001.tif”);
+	f = myRoot.concat(“tests”).concat(“name.0001.tif”);
 
-print(f.extension); // => “tif”
+	print(f.extension); // => “tif”
 
-print(f.name); // => “name”
+	print(f.name); // => “name”
 
-print(f.parentDirectory); // => “C:\Users\username\tests”
+	print(f.parentDirectory); // => “C:\Users\username\tests”
 
-if(f.exists) print(“the file “,f,”exists”); else print(“the file “,f,”does not exist”);
+	if(f.exists) print(“the file “,f,”exists”); else print(“the file “,f,”does not exist”);
 
-d = new Date().getTime() - f.lastModified.getTime();
+	d = new Date().getTime() - f.lastModified.getTime();
 
-d.setDate(d.getDate()-1);
+	d.setDate(d.getDate()-1);
 
-if(f.lastModified>=d) print(“file modified in the last 24 hours);
+	if(f.lastModified>=d) print(“file modified in the last 24 hours);
 
-files = myRoot.files();
+	files = myRoot.files();
 
-for(k in files) print(files[k]); // print all files in myRoot
+	for(k in files) print(files[k]); // print all files in myRoot
 
 
 .. _image:
@@ -192,19 +191,19 @@ contains an image, supported types are: tlv, pli or fullcolor.
 
 - ``img.type``  - accepted values (“Empty”, “Raster”, “ToonzRaster”, “Vector”)
 
-**Examples:** 
+**Examples**::
 
-img = new Image(“C:/images/basename.0003.tif”);
+	img = new Image(“C:/images/basename.0003.tif”);
 
-view(img);
+	view(img);
 
-print(img.width,img.height,img.dpi);
+	print(img.width,img.height,img.dpi);
 
-img = new Image(“C:/images/name.pli”); // reads only the first frame.
+	img = new Image(“C:/images/name.pli”); // reads only the first frame.
 
-view(img);
+	view(img);
 
-img.save(“C:/images/name.pli”); 
+	img.save(“C:/images/name.pli”); 
 
 
 .. _level:
@@ -241,37 +240,34 @@ contains a level, the supported types are: tlv, pli or fullcolor.
 
 - ``level.type``  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read only value
 
-**Examples:** 
+**Examples**:: 
 
-// This example produces a "renumber"
+	// This example produces a "renumber"
 
-inputLevel= new Image(“C:/images/name.pli”);
+	inputLevel= new Image(“C:/images/name.pli”);
 
-outputLevel = new Level();
+	outputLevel = new Level();
 
-for(i=0;i<inputLevel.frameCount;i++) 
+	for(i=0;i<inputLevel.frameCount;i++) 
+	{
+	    outputLevel.setFrame(i+1, inputLevel.getFrameByIndex(i));
 
-outputLevel .setFrame(i+1, inputLevel.getFrameByIndex(i));
+	    outputLevel.save(“C:/images/name.pli”);
+	}
+	
+	// instead this keeps the sequence of frames, but reverses the order
 
-outputLevel .save(“C:/images/name.pli”);
+	outputLevel = new Level();
 
-// instead this keeps the sequence of frames, but reverses the order
+	fids = inputLevel.getFrameIds();
 
-outputLevel = new Level();
+	for(i=0;i<fids.length;i++) 
+	{
+	    img = inputLevel.getFrame(fids[fids.length-1-i]);
+	    outputLevel.setFrame(fids[i], img);
+	} 
 
-fids = inputLevel.getFrameIds();
-
-for(i=0;i<fids.length;i++) 
-
-{
-
-img = inputLevel.getFrame(fids[fids.length-1-i]);
-
-outputLevel.setFrame(fids[i], img);
-
-} 
-
-view(outputLevel);
+	view(outputLevel);
 
 
 .. _scene:
@@ -318,51 +314,49 @@ contains a Toonz scene.
 
 
 
-**Examples:** 
+**Examples**:: 
 
-filename = “test.tnz”; // relative to “+scenes”
+	filename = “test.tnz”; // relative to “+scenes”
 
-scene = new Scene(filename);
+	scene = new Scene(filename);
 
-print(scene.frameCount, scene.columnCount);
+	print(scene.frameCount, scene.columnCount);
 
-// Move the cells of the first column on the first frame of the other columns.
+	// Move the cells of the first column on the first frame of the other columns.
 
-for(r=1;r<scene.frameCount;r++) {
+	for(r=1;r<scene.frameCount;r++) 
+	{
+	    scene.setCell(0,r, scene.getCell(r,0));
 
-scene.setCell(0,r, scene.getCell(r,0));
+	    scene.setCell(r,0,undefined); // delete the old cell.
+	}
 
-scene.setCell(r,0,undefined); // delete the old cell.
+	scene.save(“name.tnz”);
 
-}
+	//Create a new scene. 
 
-scene.save(“name.tnz”);
+	scene = new Scene();
 
-//Create a new scene. 
+	level = scene.load(“A”,”C:/levels/name.pli”);
 
-scene = new Scene();
+	fids = level.getFrameIds();
 
-level = scene.load(“A”,”C:/levels/name.pli”);
+	for(i=0;i<fids.length;i++) scene.setCell(i,0,level,fids[i]);
 
-fids = level.getFrameIds();
+	scene.save(“name.tnz”);
 
-for(i=0;i<fids.length;i++) scene.setCell(i,0,level,fids[i]);
+	// writes name, path and number of frames of each level in the scene.
 
-scene.save(“name.tnz”);
+	scene = new Scene(“name.tnz”);
 
-// writes name, path and number of frames of each level in the scene.
+	levels = scene.getLevels();
 
-scene = new Scene(“name.tnz”);
+	for(i=0;i<levels.length;i++) 
+	{
+	    level = levels[i];
 
-levels = scene.getLevels();
-
-for(i=0;i<levels.length;i++) {
-
-level = levels[i];
-
-print(level.name, level.path, level.frameCount);
-
-}
+	    print(level.name, level.path, level.frameCount);
+	}
 
 
 .. _transform:
@@ -387,11 +381,11 @@ represents a geometric tansformation (composed by rotation, translation and scal
 
 - ``transform.scale(sx, sy)``
 
-**Examples:** 
+**Examples**::
 
-transform = new Transform().rotate(45).translate(10,2);
+	transform = new Transform().rotate(45).translate(10,2);
 
-print(transform); 
+	print(transform); 
 
 
 .. _imagebuilder:
@@ -418,29 +412,28 @@ allows to modify an image (rotate, scale, crop), or to make an over between two 
 
 - ``builder.image``  - returns the actual result.
 
-**Examples:** 
+**Examples**::
 
-ib = new ImageBuilder(800,800);
+	ib = new ImageBuilder(800,800);
 
-img = new Image(“C:/levels/name.0001.tif”);
+	img = new Image(“C:/levels/name.0001.tif”);
 
-scale = 1;
+	scale = 1;
 
-phi = 0;
+	phi = 0;
 
-for(i=0;i<20;i++) {
+	for(i=0;i<20;i++) 
+	{
+	    tr = new Transform().scale(scale).translate(0,-200).rotate(phi);
 
-tr = new Transform().scale(scale).translate(0,-200).rotate(phi);
+	    ib.add(img, tr);
 
-ib.add(img, tr);
+	    phi -= scale*30;
 
-phi -= scale*30;
+	    scale *= 0.9;
+	}
 
-scale *= 0.9;
-
-}
-
-view(ib.image);
+	view(ib.image);
 
 
 .. _outlinevectorizer:
@@ -477,17 +470,17 @@ vectorize raster images using an outline algorithm.
 
 - ``v.toneThreshold``
 
-**Examples:** 
+**Examples**::
 
-v = new OutlineVectorizer();
+	v = new OutlineVectorizer();
 
-v.preservePaintedAreas = true;
+	v.preservePaintedAreas = true;
 
-a = new Image("C:/Users/username/name.tif");
+	a = new Image("C:/Users/username/name.tif");
 
-b = v.vectorize(a);
+	b = v.vectorize(a);
 
-view(b);
+	view(b);
 
 
 .. _centerlinevectorizer:
@@ -520,17 +513,17 @@ vectorize raster images using a centerline algorithm.
 
 - ``v.addBorder``
 
-**Examples:** 
+**Examples**::
 
-v = new OutlineVectorizer();
+	v = new OutlineVectorizer();
 
-v.preservePaintedAreas = true;
+	v.preservePaintedAreas = true;
 
-a = new Image("C:/Users/username/name.tif");
+	a = new Image("C:/Users/username/name.tif");
 
-b = v.vectorize(a);
+	b = v.vectorize(a);
 
-view(b);
+	view(b);
 
 
 .. _rasterizer:
@@ -557,23 +550,23 @@ converts vector images into Raster or ToonzRaster images.
 
 - ``r.dpi``
 
-**Examples:** 
+**Examples**:: 
 
-a = new Level("C:\\Users\\username\\PLI\\name.pli");
+	a = new Level("C:\\Users\\username\\PLI\\name.pli");
 
-r= new Rasterizer();
+	r= new Rasterizer();
 
-r.xres=768; r.yres=576; r.dpi=40;
+	r.xres=768; r.yres=576; r.dpi=40;
 
-b = r.rasterize(a);
+	b = r.rasterize(a);
 
-b.save(“C:\\Users\\username\\PLI\\name.tif”);
+	b.save(“C:\\Users\\username\\PLI\\name.tif”);
 
-r.colorMapped = true
+	r.colorMapped = true
 
-c = r.rasterize(new Level("C:\\Users\\username\\PLI\\name.pli"))
+	c = r.rasterize(new Level("C:\\Users\\username\\PLI\\name.pli"))
 
-c.save(“C:\\Users\\username\\PLI\\bimba.tlv”);
+	c.save(“C:\\Users\\username\\PLI\\bimba.tlv”);
 
 
 .. _renderer:
@@ -600,29 +593,29 @@ renders a whole scene or part of a scene, creating levels or images.
 
 - ``r.frames`` (list of indices of frames to render.  e.g. r.frames = [0,1,2,3])
 
-**Examples:** 
+**Examples**:: 
 
-scene = new Scene("testscene.tnz”);
+	scene = new Scene("testscene.tnz”);
 
-r= new Rasterizer();
+	r= new Rasterizer();
 
-view(r.renderScene(scene ,0));
+	view(r.renderScene(scene ,0));
 
-r.columns = [0,2];
+	r.columns = [0,2];
 
-view(r.renderScene(a,0)); // frame 1; columns 1 and 3
+	view(r.renderScene(a,0)); // frame 1; columns 1 and 3
 
-r.frames = [0,2,4,6];
+	r.frames = [0,2,4,6];
 
-output = r.renderScene(scene ); // frames 1,3,5,7; columns 1 and 3
+	output = r.renderScene(scene ); // frames 1,3,5,7; columns 1 and 3
 
-output.save(“C:\\Users\\username\\output\\name..tif”);
+	output.save(“C:\\Users\\username\\output\\name..tif”);
 
-r.columns = []; 
+	r.columns = []; 
 
-output = r.renderScene(scene ); // frames 1,3,5,7; all columns
+	output = r.renderScene(scene ); // frames 1,3,5,7; all columns
 
-output.save(““C:\\Users\\username\\output\\name..tif””);
+	output.save(““C:\\Users\\username\\output\\name..tif””);
 
 
 .. _code_examples:
@@ -638,110 +631,98 @@ Outline vectorization
 '''''''''''''''''''''
 This brief script is an example of using the OutlineVectorizer on a single image. The script is commented, explaining what each section does:
 
-//Define the input and output folders 
+//Define the input and output folders::
+
+	dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\"; 
+
+	dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\"; 
 
 
 
-``dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\";`` 
+//Load image toad3.0001.tif from disk::
 
-``dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\";`` 
+	a = new Image(dir+"toad3.0001.tif"); 
 
-
-
-//Load image toad3.0001.tif from disk 
+	print("loaded",a);
 
 
 
-``a = new Image(dir+"toad3.0001.tif");`` 
+//Initialize a vectorizer and specify any relevant options::
 
-``print("loaded",a);`` 
+	v = new OutlineVectorizer(); 
 
+	v.maxThickness = 1; 
 
+	v.preservePaintedAreas = false; 
 
-//Initialize a vectorizer and specify any relevant options
+	v.accuracy = 10;
 
-
-
-``v = new OutlineVectorizer();`` 
-
-``v.maxThickness = 1;`` 
-
-``v.preservePaintedAreas = false;`` 
-
-``v.accuracy = 10;`` 
-
-``v.maxColors = 10;`` 
+	v.maxColors = 10;
 
 
 
-//Run the vectorization process and save the result
+//Run the vectorization process and save the result::
 
+	v.vectorize(a).save(dir2 + "vec.pli");
 
-
-``v.vectorize(a).save(dir2 + "vec.pli");`` 
-
-``print("vectorized");`` 
+	print("vectorized");
 
 
 .. _rotating_an_image:
 
 Rotating an image
 '''''''''''''''''
-This example explains how to load an image and then create an animation in a level, rotating the loaded frame.
+This example explains how to load an image and then create an animation in a level, rotating the loaded frame.::
 
-//Define the input and output folders
+	\\Define the input and output folders
 
-``dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\";`` 
+	dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\";
 
-``dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\";`` 
-
-
-
-//Load the toad3.tif image
-
-``a = new Level(dir+"toad3..tif");`` 
-
-``print("loaded\n",a);`` 
+	dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\";
 
 
+	//Load the toad3.tif image
 
-//Initialization of the new objects and creation of a list containing the IDs of all the frames
+	a = new Level(dir+"toad3..tif");
 
-``t = new Transform();`` 
-
-``b=new Level();`` 
-
-``ll=a.getFrameIds();`` 
+	print("loaded\n",a);
 
 
+	//Initialization of the new objects and creation of a list containing the IDs of all the frames
 
-//For cycle that builds the new level. At each step a new frame is added to the level b using the setFrame method that adds the myimage frame rotated of a step degrees value using the ib ImageBuilder
+	t = new Transform();
 
-``for(i=0; i<a.frameCount;i++)`` 
+	b=new Level();
 
-``{`` 
+	ll=a.getFrameIds();
 
-``ib = new ImageBuilder();`` 
+	
+	//For loop that builds the new level. At each step a new frame is added to the level b using the setFrame method that adds the myimage frame rotated of a step degrees value using the ib ImageBuilder
 
-``step=360/a.frameCount;`` 
+	for(i=0; i<a.frameCount;i++)
+	{
+	    ib = new ImageBuilder();
 
-``myimage=a.getFrame(ll[i]);`` 
+	    step=360/a.frameCount;
 
-``b.setFrame(ll[i], ib.add(myimage, t.rotate(step)).image);`` 
+	    myimage=a.getFrame(ll[i]);
 
-``print("building frame " + ll[i] + "\n");`` 
+	    b.setFrame(ll[i], ib.add(myimage, t.rotate(step)).image);
 
-``}`` 
+	    print("building frame " + ll[i] + "\n");
+	}
 
-//Save the result prompting a status message
+	
+	//Save the result prompting a status message
 
-``b.save(dir2+"rottoad3..tif")`` 
+	b.save(dir2+"rottoad3..tif")
 
-``print("saved\n",b);`` 
+	print("saved\n",b);
 
-//Shows the resulting level in a flipbook window.
+	
+	//Shows the resulting level in a flipbook window
 
-``view(b);``
+	view(b);
 
 
 .. |toonz_script_console| image:: /_static/toonz_script/toonz_script_console.png
