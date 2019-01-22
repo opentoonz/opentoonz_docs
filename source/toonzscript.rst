@@ -672,7 +672,7 @@ This brief script is an example of using the OutlineVectorizer on a single image
 
 Rotating an image
 '''''''''''''''''
-This example explains how to load an image and then create an animation in a level, rotating the loaded frame.::
+This example explains how to load an image and then create an animation in a level, rotating the loaded frame::
 
 	\\Define the input and output folders
 
