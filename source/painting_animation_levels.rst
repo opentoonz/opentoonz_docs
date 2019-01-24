@@ -58,7 +58,7 @@ Areas can be filled when their outline is well-defined, with no gaps occurring a
 
 Options available for the painting tools can help you to speed up the painting job. You can decide which options are the most suitable for your task by following the guidelines below.
 
-.. note:: In Toonz raster levels, the areas that can be painted are limited either by the image border or by the image savebox, according to the Use TLV Savebox to Limit Filling Operations option available in Preferences > Drawing.
+.. note:: In Toonz raster levels, the areas that can be painted are limited either by the image border or by the image Savebox, according to the Use TLV Savebox to Limit Filling Operations option available in Preferences > Tools.
 
 .. note:: Some styles may not be suitable for filling areas, such as the custom styles or some of the special styles. If you select one of these styles in the palette, and you use it to fill an area, no operation will be performed.
 
