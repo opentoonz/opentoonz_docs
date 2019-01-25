@@ -2,13 +2,13 @@
 
 Working in Xsheet
 =================
-The xsheet, the digital version of the traditional exposure sheet, allows you to control the timing of all of the elements of a scene. It is organized in columns and rows: each column contains a layer of the animation and each row represents a frame contents. Columns are divided into cells, representing the content of that column in a particular frame. 
+The Xsheet, the digital version of the traditional exposure sheet, allows you to control the timing of all of the elements of a scene. It is organized in columns and rows: each column contains a layer of the animation and each row represents a frame contents. Columns are divided into cells, representing the content of that column in a particular frame. 
 
 Different items, generically called here as levels, can be loaded into the scene: animation levels, images for the background and overlays, and clips.
 
-Other OpenToonz scenes can be loaded as well: they will be nested inside a column and considered a sub-xsheet of the current scene.
+Other OpenToonz scenes can be loaded as well: they will be nested inside a column and considered a Sub-Xsheet of the current scene.
 
-All of the xsheet contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
+All of the Xsheet contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
 
 
 .. _using_the_viewer:
@@ -38,7 +38,7 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 
     - The Camera View button (|camera_view|) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
 
-.. note:: When a frame of the level strip is selected, the view mode is set in order to display the level only, and consequently the buttons on the viewer title bar are disabled. To enable them again, select a cell in the xsheet. 
+.. note:: When a frame of the level strip is selected, the view mode is set in order to display the level only, and consequently the buttons on the viewer title bar are disabled. To enable them again, select a cell in the Xsheet. 
 
 .. tip:: **To freeze/un-freeze the viewer:**
 
@@ -57,7 +57,7 @@ Using the File Browser
 ----------------------
 All the elements you need for a scene can be retrieved by using a file browser. 
 
-You can either use the standard OpenToonz file browser to drag and drop levels or folders to the xsheet or the scene cast window, or use the Load Level and Load Folder browser you can open from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time that will be exposed each in a separate column; if you use the Load Level browser, when loading an animation level you can also specify the frame range to load. When you use the Load Folder command all the files contained in the folder (if supported) are loaded into the xsheet.
+You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet or the scene cast window, or use the Load Level and Load Folder browser you can open from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time that will be exposed each in a separate column; if you use the Load Level browser, when loading an animation level you can also specify the frame range to load. When you use the Load Folder command all the files contained in the folder (if supported) are loaded into the Xsheet.
 
 .. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by Format. In this case the Level Settings specified will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
@@ -102,9 +102,9 @@ Sequences of full color images can be recognized by OpenToonz file browsers as a
 
 From the browser you can view levels, images and clips you are going to load by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related ed information by opening an info box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
-OpenToonz scenes (TNZ files) can be loaded as part of another scene as well: in this instance they are loaded as sub-xsheet (see  :ref:`Loading a Scene as a Sub-xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
+OpenToonz scenes (TNZ files) can be loaded as part of another scene as well: in this instance they are loaded as Sub-Xsheet (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
 
-When you s from the standard OpenToonz file browser, you can set whether automatically to expose them in the xsheet or not, by setting the Expose Loaded Levels in Xsheet option in the Preferences > Loading dialog. If activated, each level will be placed in a different column, starting from the first empty one. If deactivated, the loaded levels will be stored in the scene cast, from where they can be selectively exposed in xsheet columns (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When you s from the standard OpenToonz file browser, you can set whether automatically to expose them in the Xsheet or not, by setting the Expose Loaded Levels in Xsheet option in the Preferences > Loading dialog. If activated, each level will be placed in a different column, starting from the first empty one. If deactivated, the loaded levels will be stored in the scene cast, from where they can be selectively exposed in Xsheet columns (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
 If you are loading one or several files located outside the default folders of the current project, you are prompted whether to import them to the project database or to load them from where they are. In the former case files will be copied to the related default folder (PLI, TLV levels and palettes in the +drawings folder; full-color images, clips and audio files in the +extras folder; palettes in the +palettes folder) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter they will be loaded by creating an absolute loading path to their original location.
 
@@ -150,13 +150,13 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To load levels from the Load Level browser:**
 
-    1. Select the xsheet cell where you want to start exposing the level; if any level is already exposed in that cell, a new column will be inserted to expose the new level.
+    1. Select the Xsheet cell where you want to start exposing the level; if any level is already exposed in that cell, a new column will be inserted to expose the new level.
 
     2. Do one of the following:
 
     - Choose File > Load Level.
 
-    - Right-click in the xsheet cell and choose Load Level from the menu that opens.
+    - Right-click in the Xsheet cell and choose Load Level from the menu that opens.
 
     3. In the browser that opens select the level you want to load; if you select an animation level, select the frame range you want to load.
 
@@ -164,7 +164,7 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To load levels from the OpenToonz standard browser:**
 
-    1. Select the xsheet cell where you want to start exposing the level; if any level is already exposed in that cell, a new column will be inserted to expose the new level.
+    1. Select the Xsheet cell where you want to start exposing the level; if any level is already exposed in that cell, a new column will be inserted to expose the new level.
 
     2. In the OpenToonz browser select the level you want to load.
 
@@ -172,15 +172,15 @@ If any of the files you want to import has the same name of a file already exist
 
     - Drag and drop the selection to the scene cast pane or to the work area. 
 
-    - Drag and drop the selection to the xsheet cell where you want to start exposing it. 
+    - Drag and drop the selection to the Xsheet cell where you want to start exposing it. 
 
     - Right-click the selection and choose Load from the menu that opens.
 
-.. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, xsheet, or work area.
+.. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
 
 .. tip:: **To load folders:**
 
-    1. Select the xsheet cell where you want to start exposing the levels; if any level is already exposed in that cell, a new column will be inserted to expose the new levels.
+    1. Select the Xsheet cell where you want to start exposing the levels; if any level is already exposed in that cell, a new column will be inserted to expose the new levels.
 
     2. In the OpenToonz File menu select the Load folder command.
 
@@ -188,7 +188,7 @@ If any of the files you want to import has the same name of a file already exist
 
     4. Press the OK button.
 
-.. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, xsheet, or work area.
+.. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
 
 .. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences>Loading>Level Settings by Format.In this case the Level Settings specified when the corresponding Edit pop up is opened will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
@@ -212,7 +212,7 @@ If any of the files you want to import has the same name of a file already exist
 
     Do one of the following:
 
-    - In the OpenToonz browser or in the xsheet right-click the level you want to view and choose View from the menu that opens.
+    - In the OpenToonz browser or in the Xsheet right-click the level you want to view and choose View from the menu that opens.
 
     - Choose Windows > Flipbook and drag and drop in the window the file you want to view.
 
@@ -226,7 +226,7 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To view a level file information:**
 
-    In the OpenToonz browser or in the xsheet right-click the level whose info you want to view and choose Info from the menu that opens; if the file is an animation level or a sequence of images, use the slider at the bottom of the box to change frame and see the related information.
+    In the OpenToonz browser or in the Xsheet right-click the level whose info you want to view and choose Info from the menu that opens; if the file is an animation level or a sequence of images, use the slider at the bottom of the box to change frame and see the related information.
 
 .. tip:: **To view the entire contents of the current folder:**
 
@@ -241,23 +241,23 @@ Photoshop documents (PSD files) can be loaded as a scene element in OpenToonz ta
 
 Supported formats are RGB or grayscale images, with 8 bits or 16 bits per channel. 
 
-When a Photoshop document is loaded, a dialog opens to set the way the document has to be exposed in the xsheet. Options are the following:
+When a Photoshop document is loaded, a dialog opens to set the way the document has to be exposed in the Xsheet. Options are the following:
 
 - Single Image, flattens all the document layers into a single image. Only layers that were visible when the Photoshop document was saved are considered. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
 .. note:: Photoshop documents can be loaded as a single image only if the Maximize Compatibility option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
 
-- Frames, loads each document layer as a frame, and exposes them as a sequence in an xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+- Frames, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
  |Toonz71_233| 
 
-    - Columns, loads each document layer as a column, and it is possible to automatically create a sub-xsheet containing the columns by activating the Expose in a Sub-xsheet option.
+    - Columns, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the Expose in a Sub-Xsheet option.
 
 When a Photoshop document is loaded as columns, it is also possible to set the way groups of layers have to be considered. Options are the following:
 
     - Ignore groups, overlooks any group of layers defined in the document, and each layer is exposed in a different column. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerName suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-    - Expose layers in a group as columns in a sub-xsheet, creates for each group a sub-xsheet containing each layer of the group as a column. If a group contains other groups, the sub-xsheet will contain other sub-xsheets that will contain the related layers as columns. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerID suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+    - Expose layers in a group as columns in a Sub-Xsheet, creates for each group a Sub-Xsheet containing each layer of the group as a column. If a group contains other groups, the Sub-Xsheet will contain other Sub-Xsheets that will contain the related layers as columns. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerID suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
     - Expose layers in a group as frames in a column, creates for each group a column containing each layer of the group as a cell. If a group contains other groups, they will be ignored. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #groupID#group suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
@@ -410,13 +410,13 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
 Exposing Levels
 ---------------
-Animation levels, images for backgrounds and overlays, audio files, clips and other OpenToonz scenes, have to be exposed in the xsheet columns in order to be part of the scene.
+Animation levels, images for backgrounds and overlays, audio files, clips and other OpenToonz scenes, have to be exposed in the Xsheet columns in order to be part of the scene.
 
 If the level you want to use has already been loaded but not exposed, or it was removed from the scene, it can be retrieved from the Scene Cast window. 
 
 In case you need to retrieve some specific drawings from an animation level, you can display it in the Level Strip, in order to select the drawings to expose.
 
-.. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in OpenToonz, are automatically exposed in the xsheet.
+.. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in OpenToonz, are automatically exposed in the Xsheet.
 
 
 .. _using_the_scene_cast:
@@ -506,7 +506,7 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     - Right-click the selection in the scene cast and choose Expose in Xsheet from the menu that opens. In case of a multiple level selection, each level will be placed in a different column, starting from the first empty one.
 
-    - Drag and drop the selection to the xsheet cell where you want to start exposing it. In case of a multiple level selection, each level will be placed in a different column. 
+    - Drag and drop the selection to the Xsheet cell where you want to start exposing it. In case of a multiple level selection, each level will be placed in a different column. 
 
 .. tip:: **To display an animation level in the level strip:**
 
@@ -535,13 +535,13 @@ You can create new folders and sub-folders where animation levels can be arrange
 
 Using the Level Strip
 '''''''''''''''''''''
-When an animation level is displayed in the level strip, you can select the specific drawings you want to expose in the xsheet. This feature may prove useful especially when you need to retrieve some drawings that belongs to the level, but that are not available in the xsheet cells.
+When an animation level is displayed in the level strip, you can select the specific drawings you want to expose in the Xsheet. This feature may prove useful especially when you need to retrieve some drawings that belongs to the level, but that are not available in the Xsheet cells.
 
 .. tip:: **To display an animation level in the level strip:**
 
     Do one of the following:
 
-    - Select any level drawing exposed in the xsheet.
+    - Select any level drawing exposed in the Xsheet.
 
     - Select it in the scene cast and choose Level > Display in Level Strip.
 
@@ -561,15 +561,15 @@ When an animation level is displayed in the level strip, you can select the spec
 
     Do one of the following:
 
-    - Copy and paste the selection in the xsheet into the cell you want.
+    - Copy and paste the selection in the Xsheet into the cell you want.
 
     - Right-click in the level strip selection and choose Expose in Xsheet from the menu that opens. Drawings will be exposed at the beginning of the first empty column.
 
-    - Drag and drop the selection to the xsheet cell where you want to start exposing it.
+    - Drag and drop the selection to the Xsheet cell where you want to start exposing it.
 
-    - Drag and drop the selection to the xsheet cell where you want to start exposing it and keep the Shift key pressed, to insert them if other content is already exposed in the destination cells.
+    - Drag and drop the selection to the Xsheet cell where you want to start exposing it and keep the Shift key pressed, to insert them if other content is already exposed in the destination cells.
 
-    - Drag and drop the selection to the xsheet cell where you want to start exposing it and keep the Alt key pressed, to overwrite any other content previously exposed in the destination cells.
+    - Drag and drop the selection to the Xsheet cell where you want to start exposing it and keep the Alt key pressed, to overwrite any other content previously exposed in the destination cells.
 
 .. note:: When it is not possible to release the selection, a red outline is displayed instead of the selection.
 
@@ -578,15 +578,15 @@ When an animation level is displayed in the level strip, you can select the spec
 
 Replacing Levels
 ''''''''''''''''
-An animation level exposed in the xsheet can be easily replaced by another animation level, preserving any editing performed in the sequence of drawings exposed in the column cells. In this way it is possible to reuse the same edited sequence for different levels. For example you can reuse the edited sequence of a character level for the related shadow level by copying and pasting the character sequence, then replacing the character level with the shadow one.
+An animation level exposed in the Xsheet can be easily replaced by another animation level, preserving any editing performed in the sequence of drawings exposed in the column cells. In this way it is possible to reuse the same edited sequence for different levels. For example you can reuse the edited sequence of a character level for the related shadow level by copying and pasting the character sequence, then replacing the character level with the shadow one.
 
-It is possible to replace the level as a whole, or limited only to selected cells. In both cases only the content of the selected cells will be replaced: if any drawing of the replaced level is exposed somewhere else in the xsheet, it will not be affected by the replacing operation.
+It is possible to replace the level as a whole, or limited only to selected cells. In both cases only the content of the selected cells will be replaced: if any drawing of the replaced level is exposed somewhere else in the Xsheet, it will not be affected by the replacing operation.
 
 In case the new level does not contain some of the frames you are going to replace, the level name and number in the cell turn red to warn you that there is no drawing available for that cell.
 
 The original level is preserved in the scene cast from where it can be retrieved, or removed (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ). 
 
-.. tip:: **To replace a level in the xsheet:**
+.. tip:: **To replace a level in the Xsheet:**
 
     1. Select the cells where the level you want to replace is exposed.
 
@@ -639,9 +639,9 @@ Once a level is exposed, its properties, like path, DPI and subsampling, can be 
 
     Do one of the following:
 
-    - Select a level in the xsheet and choose Level > Level Settings.
+    - Select a level in the Xsheet and choose Level > Level Settings.
 
-    - Right-click a level in the xsheet and choose Level Setting from the menu that opens.
+    - Right-click a level in the Xsheet and choose Level Setting from the menu that opens.
 
     - Right-click a level in the cast and choose Level Setting from the menu that opens.
 
@@ -650,11 +650,11 @@ Once a level is exposed, its properties, like path, DPI and subsampling, can be 
 
 Working with Xsheet Columns
 ---------------------------
-When levels are exposed in the xsheet, they are placed in columns. The column stacking order sets which drawings and images are placed on top, or behind, other images. Its direction is from left to right, so what is on the left is behind what is on the right. Use the shortcuts > and < to move between the columns.
+When levels are exposed in the Xsheet, they are placed in columns. The column stacking order sets which drawings and images are placed on top, or behind, other images. Its direction is from left to right, so what is on the left is behind what is on the right. Use the shortcuts > and < to move between the columns.
 
-The xsheet is divided into sections by horizontal markers, whose interval can be customized; at each marker the name of the level exposed in the xsheet is displayed.
+The Xsheet is divided into sections by horizontal markers, whose interval can be customized; at each marker the name of the level exposed in the Xsheet is displayed.
 
-Column cells may have different colors according to the type of level they contain. Toonz animation levels are displayed in light green; raster drawings, full color images, sequences and clips are displayed in light blue; sub-xsheet in light red (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  ); FX that create computer generated images in light orange (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); audio files in yellow (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+Column cells may have different colors according to the type of level they contain. Toonz animation levels are displayed in light green; raster drawings, full color images, sequences and clips are displayed in light blue; Sub-Xsheet in light red (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); FX that create computer generated images in light orange (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); audio files in yellow (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 The column header contains information about the column content.
 
@@ -676,21 +676,21 @@ From the top you can see :
 
     - A preview icon of the first drawing or image exposed in the column.
 
-.. note:: The icons on the xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the Column Icons option available in Xsheet > Scene Settings.
+.. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the Column Icons option available in Xsheet > Scene Settings.
 
     - An area where the object and center to which the column is linked is displayed, that by default is Pegbar 2, center B (see  :ref:`Linking Objects <linking_objects>`  ).
 
 The column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). 
 
-.. note:: When the animation is played back, the xsheet scrolls according to the current frame cursor position in order to display the current frame. To disable the scrolling deactivate the Xsheet Autopan during Playback option available in the Preferences > Interface dialog.
+.. note:: When the animation is played back, the Xsheet scrolls according to the current frame cursor position in order to display the current frame. To disable the scrolling deactivate the Xsheet Autopan during Playback option available in the Preferences > Interface dialog.
 
-At the top of the frame number column there are buttons for creating and navigating memos that can be posted in the xsheet (see  :ref:`Using Memos <using_memos>`  ).
+At the top of the frame number column there are buttons for creating and navigating memos that can be posted in the Xsheet (see  :ref:`Using Memos <using_memos>`  ).
 
-The xsheet content can be scrolled to examine its content, while the header area and the frame column are always visible; in this way it's easier to understand how the scene is built.
+The Xsheet content can be scrolled to examine its content, while the header area and the frame column are always visible; in this way it's easier to understand how the scene is built.
 
-Columns you want to hide in the xsheet can be also folded in order to save space in the interface. Once folded they can be unfold at any moment and be visible in their original position.
+Columns you want to hide in the Xsheet can be also folded in order to save space in the interface. Once folded they can be unfold at any moment and be visible in their original position.
 
-.. tip:: **To scroll the xsheet:**
+.. tip:: **To scroll the Xsheet:**
 
     Do one of the following:
 
@@ -698,7 +698,7 @@ Columns you want to hide in the xsheet can be also folded in order to save space
 
     - Use the mouse wheel to scroll up or down.
 
-    - Use the scrolling bars to scroll only within the exposed section of the xsheet.
+    - Use the scrolling bars to scroll only within the exposed section of the Xsheet.
 
     - Use the Up Arrow and Down Arrow keys to move one frame up or down.
 
@@ -706,7 +706,7 @@ Columns you want to hide in the xsheet can be also folded in order to save space
 
     - Use the Page Up and Page Down keys to scroll the visible frames up or down.
 
-    - Use the Home and End keys to scroll up to the beginning or the end of the xsheet content.
+    - Use the Home and End keys to scroll up to the beginning or the end of the Xsheet content.
 
 .. tip:: **To set the marker interval:**
 
@@ -801,19 +801,19 @@ Columns you want to hide in the xsheet can be also folded in order to save space
 
 Working with Xsheet Cells
 -------------------------
-When a level is exposed in a column, each cell contains a reference to a particular image. You may empty some cells, repeat some of them or change their order without affecting the real drawings sequence, because you are operating on references. This means that when a scene contains several cells referring to a drawing of an animation level, they all refer to the same drawing. This implies that when you modify a drawing of an animation level, all the cells in the xsheet referring to that drawing will consequently change their content.
+When a level is exposed in a column, each cell contains a reference to a particular image. You may empty some cells, repeat some of them or change their order without affecting the real drawings sequence, because you are operating on references. This means that when a scene contains several cells referring to a drawing of an animation level, they all refer to the same drawing. This implies that when you modify a drawing of an animation level, all the cells in the Xsheet referring to that drawing will consequently change their content.
 
 .. note:: When the scene contains a reference to a drawing that is eliminated from the level, the drawing name and number in the cell turn red, to warn you that there is no drawing available for that cell anymore.
 
 When you select a cell, you can work on the drawing it contains by using tools in the work area. 
 
-When one or more cells are selected you can perform standard cut, copy, paste, delete and insert operations in the xsheet. In this case you are not modifying the animation level frames but simply changing the way it is exposed in the xsheet.
+When one or more cells are selected you can perform standard cut, copy, paste, delete and insert operations in the Xsheet. In this case you are not modifying the animation level frames but simply changing the way it is exposed in the Xsheet.
 
-Selected cells can also be dragged to a new position in the xsheet, in duplicating, inserting or overwriting mode as well. When they are dragged to an empty column, it is possible to move along the data of the column, i.e. the movement and special FX, where they were originally exposed.
+Selected cells can also be dragged to a new position in the Xsheet, in duplicating, inserting or overwriting mode as well. When they are dragged to an empty column, it is possible to move along the data of the column, i.e. the movement and special FX, where they were originally exposed.
 
 .. tip:: **To modify a drawing exposed in a cell:**
 
-    1. Select the cell in the xsheet where the drawing is exposed.
+    1. Select the cell in the Xsheet where the drawing is exposed.
 
     2. Use the tools to edit it in the work area. 
 
@@ -835,15 +835,15 @@ Selected cells can also be dragged to a new position in the xsheet, in duplicati
 
     - Use the Copy command to keep in memory the selection for further operations.
 
-    - Use the Cut command to eliminate the selection from the xsheet and keep it in memory for further operations. The cell elimination causes the following cells to shift up.
+    - Use the Cut command to eliminate the selection from the Xsheet and keep it in memory for further operations. The cell elimination causes the following cells to shift up.
 
-    - Use the Paste command to paste the selection kept in memory into the xsheet starting from the selected insertion cell. The command causes the following cells to shift down. 
+    - Use the Paste command to paste the selection kept in memory into the Xsheet starting from the selected insertion cell. The command causes the following cells to shift down. 
 
     - Use the Delete command to empty the selected cells from any reference. 
 
     - Use the Insert command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the xsheet cells.
+.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet cells.
 
 .. tip:: **To edit cells with the Cells menu commands:**
 
@@ -875,7 +875,7 @@ Selected cells can also be dragged to a new position in the xsheet, in duplicati
 
 - Use the Roll Down to shift the content of selected cells down, with the bottom cell content replacing the top cell one.
 
-.. note:: All the Cells menu commands are also available in the menu that opens when right-clicking the xsheet cells.
+.. note:: All the Cells menu commands are also available in the menu that opens when right-clicking the Xsheet cells.
 
 .. tip:: **To drag a cell selection:**
 
@@ -906,7 +906,7 @@ Selected cells can also be dragged to a new position in the xsheet, in duplicati
 
 Using the Smart Fill Handle
 '''''''''''''''''''''''''''
-The Fill Handle allows you to edit cells directly from within the xsheet. 
+The Fill Handle allows you to edit cells directly from within the Xsheet. 
 
 It is the small tab appearing at the bottom of the cell selection. By dragging this handle you can repeat a cell or a group of cells, you can add cells, or you can delete the last cells of a sequence. The behavior of the handle is smart: this means that the way cells are repeated, added, or deleted depends on the selection content.
 
@@ -931,7 +931,7 @@ It is the small tab appearing at the bottom of the cell selection. By dragging t
 
 Stretching the Xsheet Timing
 ''''''''''''''''''''''''''''
-If you need to change the timing of a selection of cells, a selected frame range, or the whole xsheet, you can use the Time Stretch dialog. 
+If you need to change the timing of a selection of cells, a selected frame range, or the whole Xsheet, you can use the Time Stretch dialog. 
 
  |Toonz71_252| 
 
@@ -943,7 +943,7 @@ Options are the following.
 
 - New Range defines the new frame duration of the selection.
 
-.. tip:: **To stretch the xsheet timing:**
+.. tip:: **To stretch the Xsheet timing:**
 
     1. Select the cells, or define the frame range you want to stretch.
 
@@ -960,7 +960,7 @@ Options are the following.
 
 Working Globally with Frames
 ----------------------------
-It is possible to insert or delete frames affecting the xsheet as a whole, or a selection of xsheet columns. 
+It is possible to insert or delete frames affecting the Xsheet as a whole, or a selection of Xsheet columns. 
 
 Inserting or deleting frames can be useful if you want to change the timing of the animation, for instance if you want to slow down or speed up an animation. 
 
@@ -983,84 +983,84 @@ When a frame is removed, the current frame cells are deleted, and the following 
 
 .. _using_sub-xsheets:
 
-Using Sub-xsheets
+Using Sub-Xsheets
 -----------------
-A sub-xsheet is a scene exposed in a single xsheet column. It can contain as many columns as you want, and other sub-xsheets as well. 
+A Sub-Xsheet is a scene exposed in a single Xsheet column. It can contain as many columns as you want, and other Sub-Xsheets as well. 
 
-When it is opened, the sub-xsheet contents are displayed in the xsheet pane. When it is closed, it is displayed in the xsheet as a light red column, with the column icon displaying a render of its content. The column cells displays the name of the sub-xsheet, and the cell number is a reference to the frame of the sub-xsheet content, i.e. cell 4 is a reference to frame 4 of the sub-xsheet. 
+When it is opened, the Sub-Xsheet contents are displayed in the Xsheet pane. When it is closed, it is displayed in the Xsheet as a light red column, with the column icon displaying a render of its content. The column cells displays the name of the Sub-Xsheet, and the cell number is a reference to the frame of the Sub-Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet. 
 
-The closed sub-xsheet column length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the sub-xsheet content.
+The closed Sub-Xsheet column length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the Sub-Xsheet content.
 
-Sub-xsheet columns can be animated like any other animation column, and FX can be assigned to it, affecting all the sub-xsheet content as a whole. 
+Sub-Xsheet columns can be animated like any other animation column, and FX can be assigned to it, affecting all the Sub-Xsheet content as a whole. 
 
-Sub-xsheet column cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main xsheet referring to that sub-xsheet frame will consequently change their content. In case you want to create a copy of a sub-xsheet that refers to the same animation level database but whose content can be edited independently, you can choose to clone it. 
+Sub-Xsheet column cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet referring to that Sub-Xsheet frame will consequently change their content. In case you want to create a copy of a Sub-Xsheet that refers to the same animation level database but whose content can be edited independently, you can choose to clone it. 
 
-If you want to reset the editing of a closed sub-xsheet, you can resequence it, by resetting it to the original length and order of its contents.
+If you want to reset the editing of a closed Sub-Xsheet, you can resequence it, by resetting it to the original length and order of its contents.
 
-You can start a new sub-xsheet from a blank column, or you can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns to form a new sub-xsheet to better manage the scene, for example you can collapse into a sub-xsheet all the columns used to define a character, or to explode the sub-xsheet to automatically bring all of its contents into the xsheet where it is exposed.
+You can start a new Sub-Xsheet from a blank column, or you can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns used to define a character, or to explode the Sub-Xsheet to automatically bring all of its contents into the Xsheet where it is exposed.
 
-As sub-xsheets can be loaded and saved, they can also be used for importing or exporting sections of an xsheet from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it as an xsheet, and import it later in a different scene as a sub-xsheet.
+As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it as an Xsheet, and import it later in a different scene as a Sub-Xsheet.
 
-When working in a sub-xsheet, by default only its contents are displayed in the work area. If you need to edit the sub-xsheet contents while looking at the whole scene contents, you can activate the Edit in Place mode. 
+When working in a Sub-Xsheet, by default only its contents are displayed in the work area. If you need to edit the Sub-Xsheet contents while looking at the whole scene contents, you can activate the Edit in Place mode. 
 
-Like standard xsheets, sub-xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded in sub-xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the sub-xsheet columns frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+Like standard Xsheets, Sub-Xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded in Sub-Xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the Sub-Xsheet columns frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 
 .. _creating_sub-xsheets:
 
-Creating Sub-xsheets
+Creating Sub-Xsheets
 ''''''''''''''''''''
-Sub-xsheets are managed by Xsheet menu commands, and by icons located on the right of the menu bar. 
+Sub-Xsheets are managed by Xsheet menu commands, and by icons located on the right of the menu bar. 
 
-When a sub-xsheet has not been created yet, only a single xsheet icon is displayed, representing the main xsheet. As soon as you create a sub-xsheet, a new icon is added on the right of the first one. 
+When a Sub-Xsheet has not been created yet, only a single Xsheet icon is displayed, representing the main Xsheet. As soon as you create a Sub-Xsheet, a new icon is added on the right of the first one. 
 
  |Toonz71_253| 
 
-If you create a new sub-xsheet inside a sub-xsheet, another icon will be added, and so on. The icons are a reference that lets you understand in which level of the sub-xsheet hierarchy you are currently working: the icon on the far right is the current scene you are editing; icons on its left represent the different levels of the hierarchy.
+If you create a new Sub-Xsheet inside a Sub-Xsheet, another icon will be added, and so on. The icons are a reference that lets you understand in which level of the Sub-Xsheet hierarchy you are currently working: the icon on the far right is the current scene you are editing; icons on its left represent the different levels of the hierarchy.
 
-You can also create a sub-xsheet by collapsing one or several columns where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns and drawings outside of the sub-xsheet, then paste them inside it. 
+You can also create a Sub-Xsheet by collapsing one or several columns where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns and drawings outside of the Sub-Xsheet, then paste them inside it. 
 
-.. note:: The main xsheet will share with its sub-xsheets the animation level database, so if the same level is loaded in the main xsheet and in one of its sub-xsheets, the level and its properties are shared.
+.. note:: The main Xsheet will share with its Sub-Xsheets the animation level database, so if the same level is loaded in the main Xsheet and in one of its Sub-Xsheets, the level and its properties are shared.
 
-When copying sub-xsheet columns and cells, their copies refer always to the same sub-xsheet contents: if changes are made in the sub-xsheet, all the cells in the main xsheet referring to that sub-xsheet will consequently change their content. If you want to create a copy of a sub-xsheet whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to clone it.
+When copying Sub-Xsheet columns and cells, their copies refer always to the same Sub-Xsheet contents: if changes are made in the Sub-Xsheet, all the cells in the main Xsheet referring to that Sub-Xsheet will consequently change their content. If you want to create a copy of a Sub-Xsheet whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to clone it.
 
-.. tip:: **To create a sub-xsheet from a blank column:**
+.. tip:: **To create a Sub-Xsheet from a blank column:**
 
     1. Select a blank column.
 
-    2. Do one of the following to create the sub-xsheet:
+    2. Do one of the following to create the Sub-Xsheet:
 
-    - Choose Xsheet > Open Sub-xsheet.
+    - Choose Xsheet > Open Sub-Xsheet.
 
-    - Click the arrow button on the right of the xsheet icon. 
+    - Click the arrow button on the right of the Xsheet icon. 
 
-    - Right-click the column header and choose Open Sub-xsheet from the menu that opens.
+    - Right-click the column header and choose Open Sub-Xsheet from the menu that opens.
 
-    3. Start editing the sub-xsheet: you can perform every operation you can do in a standard scene, such as load or create animation levels, or edit the camera, table, pegbars and the column position. You can see that you are working in a sub-xsheet because on the right of the menu bar a new xsheet icon is displayed: the one on the right represents the current sub-xsheet, the one on the left the main scene.
+    3. Start editing the Sub-Xsheet: you can perform every operation you can do in a standard scene, such as load or create animation levels, or edit the camera, table, pegbars and the column position. You can see that you are working in a Sub-Xsheet because on the right of the menu bar a new Xsheet icon is displayed: the one on the right represents the current Sub-Xsheet, the one on the left the main scene.
 
-.. tip:: **To exit a sub-xsheet:**
+.. tip:: **To exit a Sub-Xsheet:**
 
     Do one of the following
 
-    - Choose Xsheet > Close Sub-xsheet.
+    - Choose Xsheet > Close Sub-Xsheet.
 
-    - On the right of the menu bar, click the xsheet icon on the left of the icon representing the current xsheet. 
+    - On the right of the menu bar, click the Xsheet icon on the left of the icon representing the current Xsheet. 
 
-.. tip:: **To open a closed sub-xsheet:**
+.. tip:: **To open a closed Sub-Xsheet:**
 
-    1. Select the sub-xsheet column in the xsheet, or the sub-xsheet node in the schematic.
+    1. Select the Sub-Xsheet column in the Xsheet, or the Sub-Xsheet node in the schematic.
 
     2. Do one of the following:
 
-    - Choose Xsheet > Open Sub-xsheet.
+    - Choose Xsheet > Open Sub-Xsheet.
 
-    - Click the arrow button on the right of the xsheet icons.
+    - Click the arrow button on the right of the Xsheet icons.
 
-    - Right-click the column header and choose Open Sub-xsheet from the menu that opens.
+    - Right-click the column header and choose Open Sub-Xsheet from the menu that opens.
 
-.. tip:: **To create a sub-xsheet by collapsing one or several columns:**
+.. tip:: **To create a Sub-Xsheet by collapsing one or several columns:**
 
-    1. Select the columns you want to be part of the sub-xsheet in the xsheet or in the schematic.
+    1. Select the columns you want to be part of the Sub-Xsheet in the Xsheet or in the schematic.
 
     2. Do one of the following:
 
@@ -1068,29 +1068,29 @@ When copying sub-xsheet columns and cells, their copies refer always to the same
 
     - Right-click any column header and choose Collapse from the menu that opens.
 
-    3. Choose whether to include relevant pegbars in the sub-xsheet or collapse selected columns only, then click the OK button.
+    3. Choose whether to include relevant pegbars in the Sub-Xsheet or collapse selected columns only, then click the OK button.
 
-.. tip:: **To clone a sub-xsheet:**
+.. tip:: **To clone a Sub-Xsheet:**
 
-    1. Select the sub-xsheet column where the sub-xsheet you want to clone is exposed.
+    1. Select the Sub-Xsheet column where the Sub-Xsheet you want to clone is exposed.
 
     2. Do one of the following:
 
-    - Choose Xsheet > Clone Sub-xsheet.
+    - Choose Xsheet > Clone Sub-Xsheet.
 
-    - Right-click the column header and choose Clone Sub-xsheet from the menu that opens.
+    - Right-click the column header and choose Clone Sub-Xsheet from the menu that opens.
 
-.. tip:: **To edit a sub-xsheet in its context:**
+.. tip:: **To edit a Sub-Xsheet in its context:**
 
-    Right-click the related xsheet icon on the right of the menu bar, and choose Enable Edit in Place from the menu that opens.
+    Right-click the related Xsheet icon on the right of the menu bar, and choose Enable Edit in Place from the menu that opens.
 
-.. tip:: **To exit editing a sub-xsheet in its context:**
+.. tip:: **To exit editing a Sub-Xsheet in its context:**
 
-    Right-click the related xsheet icon on the right of the menu bar, and choose Disable Edit in Place from the menu that opens.
+    Right-click the related Xsheet icon on the right of the menu bar, and choose Disable Edit in Place from the menu that opens.
 
-.. tip:: **To resequence a sub-xsheet:**
+.. tip:: **To resequence a Sub-Xsheet:**
 
-    1. Select the column containing the sub-xsheet.
+    1. Select the column containing the Sub-Xsheet.
 
     2. Do one of the following:
 
@@ -1101,73 +1101,73 @@ When copying sub-xsheet columns and cells, their copies refer always to the same
 
 .. _loading_a_scene_as_a_sub-xsheet:
 
-Loading a Scene as a Sub-xsheet
+Loading a Scene as a Sub-Xsheet
 '''''''''''''''''''''''''''''''
-Previously saved OpenToonz scenes can be loaded in a xsheet as sub-xsheets. 
+Previously saved OpenToonz scenes can be loaded in a Xsheet as Sub-Xsheets. 
 
-Every time a scene is loaded as a sub-xsheet, its contents are imported into the current project database according to the project default folders, in the same way as it would be if every single level was imported (see  :ref:`Using the File Browser <using_the_file_browser>`  ). 
+Every time a scene is loaded as a Sub-Xsheet, its contents are imported into the current project database according to the project default folders, in the same way as it would be if every single level was imported (see  :ref:`Using the File Browser <using_the_file_browser>`  ). 
 
-This allows you to create a library of basic animations that can be loaded and edited in other xsheets to create more complex animations without affecting the original files or drawings. Even when the same sub-xsheet is loaded twice, it is handled as if two different sub-xsheets were loaded, whose contents and levels can be edited separately.
+This allows you to create a library of basic animations that can be loaded and edited in other Xsheets to create more complex animations without affecting the original files or drawings. Even when the same Sub-Xsheet is loaded twice, it is handled as if two different Sub-Xsheets were loaded, whose contents and levels can be edited separately.
 
-To keep the database well-ordered you can also activate the Create Sub-folder when Importing Sub-xsheet option in the Preferences > Loading dialog, that will automatically create, in the project default folder, a folder named as the sub-xsheet you are importing where the levels from the sub-xsheet will be copied. 
+To keep the database well-ordered you can also activate the Create Sub-folder when Importing Sub-Xsheet option in the Preferences > Loading dialog, that will automatically create, in the project default folder, a folder named as the Sub-Xsheet you are importing where the levels from the Sub-Xsheet will be copied. 
 
-Once a sub-xsheet is loaded, its levels are available in the scene cast in a sub-folder named as the scene you loaded.
+Once a Sub-Xsheet is loaded, its levels are available in the scene cast in a sub-folder named as the scene you loaded.
 
-On the occasion the camera settings of the scene you are loading as a sub-xsheet are different from those of your current scene, you will be prompted whether to keep the sub-xsheet original camera settings, or to apply the camera settings of the current scene to the sub-xsheet as well.
+On the occasion the camera settings of the scene you are loading as a Sub-Xsheet are different from those of your current scene, you will be prompted whether to keep the Sub-Xsheet original camera settings, or to apply the camera settings of the current scene to the Sub-Xsheet as well.
 
 .. note:: If the scene you import contains a file whose name is the same of a file already existing in the destination default folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it adding a suffix you can decide. In this way you can control if files you are importing were already imported previously, or manage files that share the same name. 
 
-.. tip:: **To load a previously saved scene as a sub-xsheet:**
+.. tip:: **To load a previously saved scene as a Sub-Xsheet:**
 
     Do one of the following:
 
     - Choose File > Load Level and use the browser to load a TNZ file.
 
-    - Choose File > Load As Sub-xsheet and use the browser to load a TNZ file.
+    - Choose File > Load As Sub-Xsheet and use the browser to load a TNZ file.
 
-    - Use the OpenToonz standard browser to drag the scene icon to the scene cast pane, the xsheet or the work area.
+    - Use the OpenToonz standard browser to drag the scene icon to the scene cast pane, the Xsheet or the work area.
 
-    - In the file browser right-click the scene icon and select Load As Sub-xsheet in the menu that opens.
+    - In the file browser right-click the scene icon and select Load As Sub-Xsheet in the menu that opens.
 
-.. note:: OpenToonz scene files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, xsheet, or work area.
+.. note:: OpenToonz scene files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
 
 
 .. _exploding_sub-xsheets:
 
-Exploding Sub-xsheets
+Exploding Sub-Xsheets
 '''''''''''''''''''''
-Sub-xsheets can be exploded to automatically bring their content into the xsheet where they are exposed. When exploding a sub-xsheet it is possible to choose to bring to the main xsheet when needed the pegbars to which columns are linked. 
+Sub-Xsheets can be exploded to automatically bring their content into the Xsheet where they are exposed. When exploding a Sub-Xsheet it is possible to choose to bring to the main Xsheet when needed the pegbars to which columns are linked. 
 
-.. note:: When a sub-xsheet is exploded, its columns and the related FX nodes are displayed as a group in the FX schematic in order to better retrieve them (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
+.. note:: When a Sub-Xsheet is exploded, its columns and the related FX nodes are displayed as a group in the FX schematic in order to better retrieve them (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
 
-.. note:: If special FX are applied to the sub-xsheet column, they will not be applied to the exploded columns, but the disconnected FX nodes will remain as reference in the FX schematic.
+.. note:: If special FX are applied to the Sub-Xsheet column, they will not be applied to the exploded columns, but the disconnected FX nodes will remain as reference in the FX schematic.
 
-.. tip:: **To explode a sub-xsheet:**
+.. tip:: **To explode a Sub-Xsheet:**
 
-    1. Select the sub-xsheet column in the xsheet or in the schematic.
+    1. Select the Sub-Xsheet column in the Xsheet or in the schematic.
 
     2. Do one of the following:
 
     - Choose Xsheet > Explode.
 
-    - Right-click the sub-xsheet column header and choose Explode from the menu that opens.
+    - Right-click the Sub-Xsheet column header and choose Explode from the menu that opens.
 
-    3. Choose whether to bring relevant pegbars to the main xsheet, or to bring columns only, then click the OK button.
+    3. Choose whether to bring relevant pegbars to the main Xsheet, or to bring columns only, then click the OK button.
 
 
 .. _saving_a_sub-xsheet_as_a_scene:
 
-Saving a Sub-xsheet as a Scene
+Saving a Sub-Xsheet as a Scene
 ''''''''''''''''''''''''''''''
-The content of a sub-xsheet can be saved as a standard scene, i.e. a TNZ file, in order to be loaded as a stand-alone scene or to be available for reuse in other scenes.
+The content of a Sub-Xsheet can be saved as a standard scene, i.e. a TNZ file, in order to be loaded as a stand-alone scene or to be available for reuse in other scenes.
 
-The sub-xsheet content will be saved according to the current project settings for default folders, as if you were saving a scene file (see  :ref:`Project Default Folders <project_default_folders>`  ).
+The Sub-Xsheet content will be saved according to the current project settings for default folders, as if you were saving a scene file (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-.. tip:: **To save a sub-xsheet as a scene:**
+.. tip:: **To save a Sub-Xsheet as a scene:**
 
-    1. Open the sub-xsheet you want to save, so that its contents are displayed in the xsheet.
+    1. Open the Sub-Xsheet you want to save, so that its contents are displayed in the Xsheet.
 
-    2. Choose Xsheet > Save Sub-xsheet As and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
+    2. Choose Xsheet > Save Sub-Xsheet As and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
 
 
 .. _creating_a_soundtrack:
@@ -1178,7 +1178,7 @@ Audio clips can be loaded and edited in order to create a soundtrack for the sce
 
 To load an audio clip you can use the browser room; if an audio clip is imported, it is saved in the +extras folder (see  :ref:`Using the File Browser <using_the_file_browser>`  ). Loaded audio clips are also stored in the Audio folder of the scene cast.
 
-Each loaded audio clip is exposed in a different xsheet column as a series of visible sound waves to make the editing job easier; the number of frames it occupies depends on the length of the audio file and the frame rate set for the current scene. For example an audio clip 3 seconds long, imported into a scene whose frame rate is 12, will occupy 36 frames; if imported in a scene whose frame rate is 24 will occupy 72 frames (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ). 
+Each loaded audio clip is exposed in a different Xsheet column as a series of visible sound waves to make the editing job easier; the number of frames it occupies depends on the length of the audio file and the frame rate set for the current scene. For example an audio clip 3 seconds long, imported into a scene whose frame rate is 12, will occupy 36 frames; if imported in a scene whose frame rate is 24 will occupy 72 frames (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ). 
 
  |Toonz71_254| 
 
@@ -1200,11 +1200,11 @@ Audio columns can be edited the way you edit any other column. The column header
 
 The Level Settings dialog is available for audio clips as well, allowing you to check the location of the related file, or to update the loading path to a different location, or to a different file (see  :ref:`Editing Level Settings <editing_level_settings>`  ).
 
-The soundtrack you define with audio clips will be created by merging all of the contents of audio columns according to the volume you set for each of them. While it cannot be played back when using the playback controls in the viewer, it can be scrubbed with the current frame cursor in the xsheet frame column or in the viewer framebar, and played back when a scene is previewed (see  :ref:`Editing Audio Clips <editing_audio_clips>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  ). 
+The soundtrack you define with audio clips will be created by merging all of the contents of audio columns according to the volume you set for each of them. While it cannot be played back when using the playback controls in the viewer, it can be scrubbed with the current frame cursor in the Xsheet frame column or in the viewer framebar, and played back when a scene is previewed (see  :ref:`Editing Audio Clips <editing_audio_clips>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  ). 
 
 When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or AVI), the soundtrack will be included in the file (see  :ref:`Rendering the Animation <rendering_the_animation>`  ). 
 
-.. note:: Audio clips loaded in sub-xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  ).
+.. note:: Audio clips loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
 .. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the Use Default Viewer for Movie Formats option in the Preferences > General dialog in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
@@ -1248,7 +1248,7 @@ When a clip is split into sections by deleting, cutting or moving operations, it
 
 .. note:: All the editing does not affect the file on disk, as it refers only to the way the clip is used in the scene.
 
-To find a particular section in an audio file, you can examine it by scrubbing it with the current frame cursor, either in the xsheet frame column or in the viewer framebar, or by selecting any section and automatically playing it back together with the animation. This allows you to easily spot and excerpt the sections you need from an audio file. 
+To find a particular section in an audio file, you can examine it by scrubbing it with the current frame cursor, either in the Xsheet frame column or in the viewer framebar, or by selecting any section and automatically playing it back together with the animation. This allows you to easily spot and excerpt the sections you need from an audio file. 
 
 .. tip:: **To select audio clips:**
 
@@ -1266,15 +1266,15 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     - Use the Copy command to keep in memory the selection for further operations.
 
-    - Use the Cut command to eliminate the selection from the xsheet and keep it in memory for further operations. The cell elimination causes the following cells to shift up.
+    - Use the Cut command to eliminate the selection from the Xsheet and keep it in memory for further operations. The cell elimination causes the following cells to shift up.
 
-    - Use the Paste command to paste the selection kept in memory in the xsheet starting from the selected insertion cell. The command causes the following cells to shift down. 
+    - Use the Paste command to paste the selection kept in memory in the Xsheet starting from the selected insertion cell. The command causes the following cells to shift down. 
 
     - Use the Delete command to empty the selected cells from any reference. 
 
     - Use the Insert command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the xsheet cells.
+.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet cells.
 
 .. tip:: **To move a clip selection:**
 
@@ -1304,7 +1304,7 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     Do one of the following:
 
-    - Drag the xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
+    - Drag the Xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
 
     - Drag the frame cursor in the viewer framebar to scrub all the audio columns whose Camera Stand toggle is active.
 
@@ -1321,7 +1321,7 @@ Once you have created different mouth images, you can analyze the audio files to
 
 
 
-The breakdown of audio files can be done by looking at the sound wave in the scene column, for example to spot where each word starts; by scrubbing the loaded audio clips with the current frame cursor either in the xsheet frame column or in the viewer framebar; and by listening to specific sections of the audio files.
+The breakdown of audio files can be done by looking at the sound wave in the scene column, for example to spot where each word starts; by scrubbing the loaded audio clips with the current frame cursor either in the Xsheet frame column or in the viewer framebar; and by listening to specific sections of the audio files.
 
 When mouth images are placed in the proper place, you can check the sync by scrubbing or selecting again the audio file section you are interested in, because while listening to the selected audio section, the viewer will display the related animation frames.
 
@@ -1331,7 +1331,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
     Do one of the following:
 
-    - Drag the xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
+    - Drag the Xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
 
     - Drag the frame cursor in the viewer framebar to scrub all the audio columns whose Camera Stand toggle is active.
 
@@ -1341,7 +1341,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
     1. Do one of the following:
 
-    - Select in the xsheet the animation level containing the mouth drawings.
+    - Select in the Xsheet the animation level containing the mouth drawings.
 
     - Right-click in the work area on the mouth drawing you want to flip through, and choose the Select command related to the column containing the drawing you clicked.
 
@@ -1360,9 +1360,9 @@ Importing Magpie Files
 ''''''''''''''''''''''
  |Toonz71_263| 
 
-For lip synching it is possible to import into the xsheet TLS (i.e. Toonz Lip Sync) files exported from Magpie, a professional lip-sync and animation timing tool. 
+For lip synching it is possible to import into the Xsheet TLS (i.e. Toonz Lip Sync) files exported from Magpie, a professional lip-sync and animation timing tool. 
 
-While Magpie takes care of the audio file analysis and phoneme recognition, the import into OpenToonz allows you to assign a frame from an animation level to each phoneme, and automatically expose the result in an xsheet column; another column displaying the speech text as recognized in Magpie is created for reference.
+While Magpie takes care of the audio file analysis and phoneme recognition, the import into OpenToonz allows you to assign a frame from an animation level to each phoneme, and automatically expose the result in an Xsheet column; another column displaying the speech text as recognized in Magpie is created for reference.
 
 .. tip:: **To export the OpenToonz lip sync file in Magpie:**
 
@@ -1378,9 +1378,9 @@ While Magpie takes care of the audio file analysis and phoneme recognition, the 
 
     3. In the dialog that opens choose the following:
 
-    - Use Frame Range to define which section of the Magpie file you want to use to create the lip sync column in the xsheet.
+    - Use Frame Range to define which section of the Magpie file you want to use to create the lip sync column in the Xsheet.
 
-    - Use the Animation Level section to retrieve the animation level you want to expose in the xsheet, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frame of the selected animation level.
+    - Use the Animation Level section to retrieve the animation level you want to expose in the Xsheet, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frame of the selected animation level.
 
     4. Click the Import button.
 
@@ -1389,9 +1389,9 @@ While Magpie takes care of the audio file analysis and phoneme recognition, the 
 
 Using Memos
 -----------
-Memos can be posted in the xsheet at specific positions in order to add notes and comments to the scene. 
+Memos can be posted in the Xsheet at specific positions in order to add notes and comments to the scene. 
 
-When editing a memo its color can be set, and the text you write can be formatted. Once posted, memos display the first letters of their content in order to be identified, and can be retrieved in the xsheet by navigating them.
+When editing a memo its color can be set, and the text you write can be formatted. Once posted, memos display the first letters of their content in order to be identified, and can be retrieved in the Xsheet by navigating them.
 
 
 
@@ -1416,9 +1416,9 @@ When editing a memo its color can be set, and the text you write can be formatte
 
     Choose a color in the palette available at the bottom of the open memo; palette colors can also be selected and edited by using the style editor.
 
-.. tip:: **To navigate the memos posted in the xsheet:**
+.. tip:: **To navigate the memos posted in the Xsheet:**
 
-    Click the arrow buttons under the new memo button to check the previous or next memo: the xsheet automatically pans to show where the memo is posted.
+    Click the arrow buttons under the new memo button to check the previous or next memo: the Xsheet automatically pans to show where the memo is posted.
 
 .. tip:: **To open a memo:**
 
@@ -1451,7 +1451,7 @@ When you use the Save As command, if the $scenepath is used in the default folde
 
 An option to automatically save the scene every given number of minutes is available in the Preferences > General dialog. If the option is activated, during the saving operation a message is displayed to notify the process.
 
-.. note:: An asterisk after the scene name in the viewer and xsheet title bars denotes that there are unsaved changes for the current scene.
+.. note:: An asterisk after the scene name in the viewer and Xsheet title bars denotes that there are unsaved changes for the current scene.
 
 .. tip:: **To work on a new scene:**
 
@@ -1613,30 +1613,30 @@ If you want to recover a scene backup version of a scene, you have to remove the
 
 Printing Xsheets
 ----------------
-An xsheet can be saved as HTML file in order to view it on any computer by using an Internet browser, and to print it on paper.
+An Xsheet can be saved as HTML file in order to view it on any computer by using an Internet browser, and to print it on paper.
 
-The HTML file contains a header with general information, several tables, whose length and width you can decide, representing the xsheet with exposed levels and objects movements, and a list of the levels exposed in the xsheet with the related location on disk. 
+The HTML file contains a header with general information, several tables, whose length and width you can decide, representing the Xsheet with exposed levels and objects movements, and a list of the levels exposed in the Xsheet with the related location on disk. 
 
-If any sub-xsheets are used in the scene, they are displayed after the main xsheet where they are exposed.
+If any Sub-Xsheets are used in the scene, they are displayed after the main Xsheet where they are exposed.
 
 The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` :
 
-- ``xsheet_html.xml``  contains the information used for the HTML xsheet header, and the size for the tables used to represent the xsheet content.
+- ``xsheet_html.xml``  contains the information used for the HTML Xsheet header, and the size for the tables used to represent the Xsheet content.
 
-- ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML xsheet file (see below ).
+- ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML Xsheet file (see below ).
 
 When using the Print Xsheet command, a dialog with information about the location and name of the generated HTML file is displayed; then the generated HTML file is displayed in your default browser.
 
-The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML xsheet file is saved, it will be used instead of generating a new one.
+The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
 
-.. note:: If you want to move the HTML xsheet file, you should move the CSS file as well, in order to preserve the HTML file appearance as defined by the CSS file.
+.. note:: If you want to move the HTML Xsheet file, you should move the CSS file as well, in order to preserve the HTML file appearance as defined by the CSS file.
 
 
 .. _editing_the_html_xsheet_header_and_table_size:
 
 Editing the HTML Xsheet Header and Table Size
 '''''''''''''''''''''''''''''''''''''''''''''
-The HTML xsheet header and the size for the tables used to represent the xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
+The HTML Xsheet header and the size for the tables used to represent the Xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
 
 The whole text is included in the tag ``xsheet_html`` , that contains the elements ``page``  and ``info`` , where the different users and roles are defined. The basic structure of the file is the following:
 
@@ -1646,7 +1646,7 @@ The whole text is included in the tag ``xsheet_html`` , that contains the elemen
 
     <xsheet_html>	<page rows="50">	<page columns="10">	<info name="Company" value="Company name"/>	<info name="Name" value="Value"/></xsheet_html>
 
-By editing the ``page row``  and ``page columns``  values you can set the size of the table used for splitting the xsheet in sections. The size of the table allows you to fit each xsheet section to the paper size you want to use to print the xsheet on paper.
+By editing the ``page row``  and ``page columns``  values you can set the size of the table used for splitting the Xsheet in sections. The size of the table allows you to fit each Xsheet section to the paper size you want to use to print the Xsheet on paper.
 
 The ``info``  lines allows you to set information to be displayed in the header, for example the production name.
 
@@ -1658,7 +1658,7 @@ In the example file you can find the following lines:
 
     <info name="Company" value="Company name"/><info name="Name" value="Value"/>
 
-These lines can be edited, and new lines, with the same syntax, can be appended, to provide all the information you want to appear in the header of the HTML xsheet file.
+These lines can be edited, and new lines, with the same syntax, can be appended, to provide all the information you want to appear in the header of the HTML Xsheet file.
 
 .. note:: By default the header contains the Project and Scene names and the number of frames the scene consists of; this information cannot be edited, as they are retrieved automatically from the scene file.
 
@@ -1668,7 +1668,7 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
     Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
 
-.. tip:: **To change the size of the table used for splitting the xsheet in sections:**
+.. tip:: **To change the size of the table used for splitting the Xsheet in sections:**
 
     Change the ``page row``  and ``page columns``  values in the ``xsheet_html.xml``  file.
 
@@ -1685,25 +1685,25 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
 Editing HTML Xsheet Appearance
 ''''''''''''''''''''''''''''''
-The HTML xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . 
+The HTML Xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . 
 
-The ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML xsheet file. It can be edited with any text editor software, e.g. Notepad or TextEdit. 
+The ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML Xsheet file. It can be edited with any text editor software, e.g. Notepad or TextEdit. 
 
 Editing the CSS file requires some skill in the CSS language, but some changes like table ruling thickness, or cell colors, can be easily done by expressing the thickness in pixels and colors as an RGB triplet in hexadecimal format.
 
 Elements defined in the CSS are the following:
 
-- ``header``  refers to the table used as header in the HTML xsheet file.
+- ``header``  refers to the table used as header in the HTML Xsheet file.
 
-- ``table``  refers to the table used for displaying the xsheet sections.
+- ``table``  refers to the table used for displaying the Xsheet sections.
 
 - ``TH``  refers to the header cells of the tables. 
 
-- ``first_numeric``  refers to the first numerical column of the xsheet tables.
+- ``first_numeric``  refers to the first numerical column of the Xsheet tables.
 
 - ``fxcell``  refers to the table cells belonging to special FX columns.
 
-- ``subxsheetcell``  refers to the table cells belonging to sub-xsheet columns.
+- ``subxsheetcell``  refers to the table cells belonging to Sub-Xsheet columns.
 
 - ``TD``  refers to the generic table cells.
 
