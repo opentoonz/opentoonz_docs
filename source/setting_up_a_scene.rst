@@ -135,13 +135,13 @@ As soon as the limit is reached, the oldest undo operations will be discarded to
 
 Optimizing the Memory Usage
 ---------------------------
-When working with Raster images, predominantly being animation levels scanned with OpenToonz, an extensive usage of computer memory may be required during the cleanup, painting and rendering processes.
+When working with Raster images, predominantly being animation levels scanned with OpenToonz or GTS, an extensive usage of computer memory may be required during the cleanup, painting and rendering processes.
 
 After a certain amount of time the computer performance may worsen, as the memory gets fragmented because of the several writing and reading accesses. To prevent this behavior, the Minimize Raster Memory Fragmentation* option can be activated in the Files > Preferences > General dialog. When activated, a section of computer memory is reserved and used only for operations concerning Raster images.
 
 If you are working mainly with vector images, that have been drawn inside OpenToonz, this option should be deactivated, as the reserved memory section would be otherwise unused by the computer.
 
-.. note:: The changes set for this option is valid only after OpenToonz is restarted.
+.. note:: The change set for this option is valid only after OpenToonz is restarted.
 
 
 .. |scene_settings| image:: /_static/setting_up_a_scene/scene_settings.png
