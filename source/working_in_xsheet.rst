@@ -249,7 +249,7 @@ When a Photoshop document is loaded, a dialog opens to set the way the document 
 
 - Frames, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
- |Toonz71_233| 
+ |load_psd| 
 
     - Columns, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the Expose in a Sub-Xsheet option.
 
@@ -1718,7 +1718,7 @@ Elements defined in the CSS are the following:
     Open the ``xsheet.css``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
 
 
-.. |Toonz71_233| image:: /_static/Toonz71/Toonz71_233.gif
+.. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |Toonz71_243| image:: /_static/Toonz71/Toonz71_243.gif
 .. |Toonz71_252| image:: /_static/Toonz71/Toonz71_252.gif
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
