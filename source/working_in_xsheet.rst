@@ -241,21 +241,27 @@ Photoshop documents (PSD files) can be loaded as a scene element in OpenToonz ta
 
 Supported formats are RGB or grayscale images, with 8 bits or 16 bits per channel. 
 
-When a Photoshop document is loaded, a dialog opens to set the way the document has to be exposed in the Xsheet. Options are the following:
-
  |load_psd| 
 
-- **Single Image**, flattens all the document layers into a single image. Only layers that were visible when the Photoshop document was saved are considered. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When a Photoshop document is loaded, a dialog opens to set the way the document has to be exposed in the Xsheet. Options are the following:
 
-.. note:: Photoshop documents can be loaded as a single image only if the *Maximize Compatibility* option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
+    - **Single Image**, flattens all the document layers into a single image. Only layers that were visible when the Photoshop document was saved are considered. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-- **Frames**, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the Scene Cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+    .. note:: Photoshop documents can be loaded as a single image only if the *Maximize Compatibility* option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
 
-- **Columns**, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the **Expose in a Sub-Xsheet** option.
+    - **Frames**, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the Scene Cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+
+    - **Columns**, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the **Expose in a Sub-Xsheet** option.
 
 
-When a Photoshop document is loaded as columns, it is also possible to set the way groups of layers have to be considered.
-Options are the following:
+When a Photoshop document is loaded as columns, it is also possible to set how new Level Names asre assigned. Options are the following:
+
+    - **FileName#LayerName**, uses the PSD file name and layer names as the names of newly created levels.
+
+    - **LayerName**, uses the PSD layer names as the names of newly created levels.
+
+
+When a Photoshop document is loaded as columns, it is also possible to set the way groups of layers have to be considered. Options are the following:
 
     - **Ignore groups**, overlooks any group of layers defined in the document, and each layer is exposed in a different column. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerName suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
