@@ -632,17 +632,17 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     - **Use Camera DPI** button applies to the level automatically the camera DPI. It is useful when the level has the same size of the camera but different DPI, and you want it to match perfectly the camera.
 
-    - Information about Camera DPI, Image DPI and Image Resolution are displayed for reference.
+    - Information about **Camera DPI**, **Image DPI** and image **Resolution** are displayed for reference purposes.
 
     - **Premultiply** premultiplies the alpha channel of the level. Images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply operation it is possible to transform the image alpha-channel so that it is correctly displayed in OpenToonz camera stand, preview and rendering.
 
     - **White As Transparent** sets the pure white color (i.e. with red, green and blue values to 255) as transparent and automatically adds some antialiasing to the level images. This option is meant for animation levels generated from third-party software (such as Retas) that do not have a transparent background but a solid white one, and whose lines do not have antialiasing.
 
-    - **Add Antialiasing** give to the user, if activated, the possibility to add antialiasing to levels. The antialias value have to be specified in the Antialias Softness field and range from 0 to 100. This option is available on Toonz Raster Levels and Raster Levels.
+    - **Add Antialiasing** gives the user the possibility to add antialiasing to the level. The antialiasing value has to be specified in the **Antialias Softness** field, which can range from 0 to 100. This option is available on Toonz Raster and Raster levels.
 
-    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default value is defined in Xsheet > Scene Settings where a value for Toonz raster levels and another for clips and full-color images can be defined.
+    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Xsheet > Scene Settings dialog, where values for raster (Image) and toonz raster (TLV) level subsampling can be defined.
 
-      .. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing the related Subsampling command from the menu that opens.
+      .. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing one of the **Subsampling** commands from the menu that opens.
 
 .. tip:: **To open the Level Settings dialog:**
 
