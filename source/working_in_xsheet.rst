@@ -247,7 +247,7 @@ When a Photoshop document is loaded, a dialog opens to set the way the document 
 
     - **Single Image**, flattens all the document layers into a single image. Only layers that were visible when the Photoshop document was saved are considered. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-    .. note:: Photoshop documents can be loaded as a single image only if the *Maximize Compatibility* option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
+        .. note:: Photoshop documents can be loaded as a single image only if the *Maximize Compatibility* option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
 
     - **Frames**, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the Scene Cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
