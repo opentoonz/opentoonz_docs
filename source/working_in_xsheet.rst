@@ -940,15 +940,15 @@ Stretching the Xsheet Timing
 ''''''''''''''''''''''''''''
 If you need to change the timing of a selection of cells, a selected frame range, or the whole Xsheet, you can use the Time Stretch dialog. 
 
- |Toonz71_252| 
+ |time_stretch| 
 
-Options are the following.
+Options are the following:
 
-- Stretch defines if the new timing has to be applied to the Selected Cells, the Selected Frame Range, or to the Whole Xsheet.
+    - **Stretch** defines if the new timing has to be applied to the **Selected Cells**, the **Selected Frame Range**, or to the **Whole Xsheet**.
 
-- Old Range displays the frame duration of the selection.
+    - **Old Range** displays the frame duration of the selection.
 
-- New Range defines the new frame duration of the selection.
+    - **New Range** defines the new frame duration of the selection.
 
 .. tip:: **To stretch the Xsheet timing:**
 
@@ -1727,7 +1727,7 @@ Elements defined in the CSS are the following:
 
 .. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
-.. |Toonz71_252| image:: /_static/Toonz71/Toonz71_252.gif
+.. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
