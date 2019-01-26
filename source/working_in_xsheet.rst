@@ -269,7 +269,7 @@ When a Photoshop document is loaded as Columns, it is also possible to set the w
 
     - **Expose layers in a group as frames in a column**, creates for each group a column containing each layer of the group as a cell. If a group contains other groups, they will be ignored. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #groupID#group suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-.. note:: In order to be properly displayed in the final rendering, images based on Photoshop document layers have to be premultiplied either using the Premultiply option in the level settings, or the Premultiply effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Premultiply <premultiply>`  ).
+.. note:: In order to be properly displayed in the final rendering, images based on Photoshop document layers have to be premultiplied either using the **Premultiply** option in the Level Settings window, or the Premultiply effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Premultiply <premultiply>`  ).
 
 
 .. _executing_tasks_in_the_file_browser:
