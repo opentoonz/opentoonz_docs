@@ -243,23 +243,25 @@ Supported formats are RGB or grayscale images, with 8 bits or 16 bits per channe
 
 When a Photoshop document is loaded, a dialog opens to set the way the document has to be exposed in the Xsheet. Options are the following:
 
-- Single Image, flattens all the document layers into a single image. Only layers that were visible when the Photoshop document was saved are considered. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
-
-.. note:: Photoshop documents can be loaded as a single image only if the Maximize Compatibility option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
-
-- Frames, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
-
  |load_psd| 
 
-    - Columns, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the Expose in a Sub-Xsheet option.
+- **Single Image**, flattens all the document layers into a single image. Only layers that were visible when the Photoshop document was saved are considered. The level name and path in Level Settings, and the scene cast, refer to the original name of the Photoshop document (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-When a Photoshop document is loaded as columns, it is also possible to set the way groups of layers have to be considered. Options are the following:
+.. note:: Photoshop documents can be loaded as a single image only if the *Maximize Compatibility* option was checked when saving the original file from Photoshop. If the option was deactivated, a dummy image is displayed instead; loading and saving again the document with the option activated fixes the problem.
 
-    - Ignore groups, overlooks any group of layers defined in the document, and each layer is exposed in a different column. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerName suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+- **Frames**, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the Scene Cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-    - Expose layers in a group as columns in a Sub-Xsheet, creates for each group a Sub-Xsheet containing each layer of the group as a column. If a group contains other groups, the Sub-Xsheet will contain other Sub-Xsheets that will contain the related layers as columns. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerID suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+- **Columns**, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the **Expose in a Sub-Xsheet** option.
 
-    - Expose layers in a group as frames in a column, creates for each group a column containing each layer of the group as a cell. If a group contains other groups, they will be ignored. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #groupID#group suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+
+When a Photoshop document is loaded as columns, it is also possible to set the way groups of layers have to be considered.
+Options are the following:
+
+    - **Ignore groups**, overlooks any group of layers defined in the document, and each layer is exposed in a different column. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerName suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+
+    - **Expose layers in a group as columns in a Sub-Xsheet**, creates for each group a Sub-Xsheet containing each layer of the group as a column. If a group contains other groups, the Sub-Xsheet will contain other Sub-Xsheets that will contain the related layers as columns. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerID suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+
+    - **Expose layers in a group as frames in a column**, creates for each group a column containing each layer of the group as a cell. If a group contains other groups, they will be ignored. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #groupID#group suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
 .. note:: In order to be properly displayed in the final rendering, images based on Photoshop document layers have to be premultiplied either using the Premultiply option in the level settings, or the Premultiply effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Premultiply <premultiply>`  ).
 
