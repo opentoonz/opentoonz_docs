@@ -254,14 +254,14 @@ When a Photoshop document is loaded, a dialog opens to set the way the document 
     - **Columns**, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the **Expose in a Sub-Xsheet** option.
 
 
-When a Photoshop document is loaded as columns, it is also possible to set how new Level Names asre assigned. Options are the following:
+When a Photoshop document is loaded as Columns, it is also possible to set how new Level Names asre assigned. Options are the following:
 
     - **FileName#LayerName**, uses the PSD file name and layer names as the names of newly created levels.
 
     - **LayerName**, uses the PSD layer names as the names of newly created levels.
 
 
-When a Photoshop document is loaded as columns, it is also possible to set the way groups of layers have to be considered. Options are the following:
+When a Photoshop document is loaded as Columns, it is also possible to set the way groups of layers have to be considered. Options are the following:
 
     - **Ignore groups**, overlooks any group of layers defined in the document, and each layer is exposed in a different column. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerName suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
