@@ -269,7 +269,7 @@ When a Photoshop document is loaded as Columns, it is also possible to set the w
 
     - **Expose layers in a group as frames in a column**, creates for each group a column containing each layer of the group as a cell. If a group contains other groups, they will be ignored. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #groupID#group suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-.. note:: In order to be properly displayed in the final rendering, images based on Photoshop document layers have to be premultiplied either using the **Premultiply** option in the Level Settings window, or the Premultiply effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Premultiply <premultiply>`  ).
+.. note:: In order to be properly displayed in the final rendering, images based on Photoshop document layers have to be premultiplied either using the **Premultiply** option in the Level Settings dialog, or the Premultiply effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Premultiply <premultiply>`  ).
 
 
 .. _executing_tasks_in_the_file_browser:
@@ -611,37 +611,38 @@ The original level is preserved in the scene cast from where it can be retrieved
 
 Editing Level Settings
 ----------------------
-Once a level is exposed, its properties, like path, DPI and subsampling, can be controlled in the Level Settings dialog. Settings are the following:
 
-- Name is the name used to identify the level, by default it is the same name of the file.
+|level_settings|
 
-- Path displays the location of the file, using default folder aliases if needed. By typing in this field, or using the browser button, you can update the path to a different location, or to different file.
+Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be controlled in the Level Settings dialog. Settings are the following:
 
-.. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
+    - **Name** is the name used to identify the level, by default it is the same name of the file.
 
-- Scan Path displays the location of the scanned images that were cleaned up to obtain the actual level (see  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ). This is available only for Toonz raster levels.
+    - **Path** displays the location of the file, using default folder aliases if needed. By typing in this field, or using the browser button, you can update the path to a different location, or to different file.
 
-- DPI lets you change the level DPI, thus changing its size. To return to the original image DPI set the option menu above to Image DPI. 
+      .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-- Forced Squared Pixel forces a level that has a different horizontal and vertical DPI, and therefore is displayed stretched, to have the pixel shape squared, and thus to be displayed properly. 
+    - **Scan Path** displays the location of the scanned images that were cleaned up to obtain the actual level (see  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ). This is available only for Toonz raster levels.
 
- |Toonz71_243| 
+    - **DPI** lets you change the level DPI, thus changing its size. To return to the original image DPI set the option menu above to Image DPI. 
 
-    - Width and Height let you set a different size for the level, thus changing its DPI. The level maintains its A/R.
+    - **Forced Squared Pixel** forces a level that has a different horizontal and vertical DPI, and therefore is displayed stretched, to have the pixel shape squared, and thus to be displayed properly. 
 
-    - Use Camera DPI button applies to the level automatically the camera DPI. It is useful when the level has the same size of the camera but different DPI, and you want it to match perfectly the camera.
+    - **Width** and **Height** let you set a different size for the level, thus changing its DPI. The level maintains its A/R.
+
+    - **Use Camera DPI** button applies to the level automatically the camera DPI. It is useful when the level has the same size of the camera but different DPI, and you want it to match perfectly the camera.
 
     - Information about Camera DPI, Image DPI and Image Resolution are displayed for reference.
 
-    - Premultiply premultiplies the alpha channel of the level. Images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply operation it is possible to transform the image alpha-channel so that it is correctly displayed in OpenToonz camera stand, preview and rendering.
+    - **Premultiply** premultiplies the alpha channel of the level. Images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply operation it is possible to transform the image alpha-channel so that it is correctly displayed in OpenToonz camera stand, preview and rendering.
 
-    - White As Transparent sets the pure white color (i.e. with red, green and blue values to 255) as transparent and automatically adds some antialiasing to the level images. This option is meant for animation levels generated from third-party software (such as Retas) that do not have a transparent background but a solid white one, and whose lines do not have antialiasing.
+    - **White As Transparent** sets the pure white color (i.e. with red, green and blue values to 255) as transparent and automatically adds some antialiasing to the level images. This option is meant for animation levels generated from third-party software (such as Retas) that do not have a transparent background but a solid white one, and whose lines do not have antialiasing.
 
-    - Add Antialiasing give to the user, if activated, the possibility to add antialiasing to levels. The antialias value have to be specified in the Antialias Softness field and range from 0 to 100. This option is available on Toonz Raster Levels and Raster Levels.
+    - **Add Antialiasing** give to the user, if activated, the possibility to add antialiasing to levels. The antialias value have to be specified in the Antialias Softness field and range from 0 to 100. This option is available on Toonz Raster Levels and Raster Levels.
 
-    - Subsampling sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default value is defined in Xsheet > Scene Settings where a value for Toonz raster levels and another for clips and full-color images can be defined.
+    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default value is defined in Xsheet > Scene Settings where a value for Toonz raster levels and another for clips and full-color images can be defined.
 
-.. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing the related Subsampling command from the menu that opens.
+      .. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing the related Subsampling command from the menu that opens.
 
 .. tip:: **To open the Level Settings dialog:**
 
@@ -668,23 +669,21 @@ The column header contains information about the column content.
 
 From the top you can see :
 
-- A number representing the stacking order.
+    - A number representing the stacking order.
 
-- A camera stand toggle (|camera_stand|) allowing you to hide, display, or display with a limited opacity the column content in the work area. When activated an animation table icon is visible in the toggle; the icon is greyed out in case a limited opacity is set.
+    - A camera stand toggle (|camera_stand|) allowing you to hide, display, or display with a limited opacity the column content in the work area. When activated an animation table icon is visible in the toggle; the icon is greyed out in case a limited opacity is set.
 
-- A render toggle (|preview|) allowing you to include or not the column content in the rendering; when activated an eye icon is visible in the toggle.
+    - A render toggle (|preview|) allowing you to include or not the column content in the rendering; when activated an eye icon is visible in the toggle.
 
-.. note:: The camera stand and the render toggles are linked to similar toggles available in the schematic column nodes (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
+      .. note:: The camera stand and the render toggles are linked to similar toggles available in the schematic column nodes (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
 
-- A lock toggle (|lock|) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
-
-
+    - A lock toggle (|lock|) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
 
     - An area where the name of the column is displayed, that by default is the name of the first exposed level. The area color indicates the type of level exposed in the column.
 
     - A preview icon of the first drawing or image exposed in the column.
 
-.. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the Column Icons option available in Xsheet > Scene Settings.
+      .. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the Column Icons option available in Xsheet > Scene Settings.
 
     - An area where the object and center to which the column is linked is displayed, that by default is Pegbar 2, center B (see  :ref:`Linking Objects <linking_objects>`  ).
 
@@ -1727,7 +1726,7 @@ Elements defined in the CSS are the following:
 
 
 .. |load_psd| image:: /_static/xsheet/load_psd.png
-.. |Toonz71_243| image:: /_static/Toonz71/Toonz71_243.gif
+.. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |Toonz71_252| image:: /_static/Toonz71/Toonz71_252.gif
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
