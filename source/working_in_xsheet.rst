@@ -39,7 +39,7 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 
     - The Camera View button (|camera_view|) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
 
-.. note:: When a frame of the level strip is selected, the view mode is set in order to display the level only, and consequently the buttons on the viewer title bar are disabled. To enable them again, select a cell in the Xsheet. 
+    .. note:: When a frame of the level strip is selected, the view mode is set in order to display the level only, and consequently the buttons on the viewer title bar are disabled. To enable them again, select a cell in the Xsheet. 
 
 .. tip:: **To freeze/un-freeze the viewer:**
 
