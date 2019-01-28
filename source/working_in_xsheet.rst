@@ -15,7 +15,7 @@ All of the Xsheet contents can be checked in the viewer, where the animation can
 
 Using the Viewer
 ----------------
-The viewer, or work area, has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the work area. When the preview mode is activated, it can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
+The viewer has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the work area. When the preview mode is activated, it can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 .. figure:: /_static/xsheet/viewer_modes.png
 
@@ -27,13 +27,13 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 
 .. tip:: **To switch the view mode in the viewer:**
 
-    Use the buttons available in the work area title bar to do the following:
+    Use the buttons available in the viewer title bar to do the following:
 
-    - The Camera Stand View button (|camera_stand|) is for standard view, where any part of the work area can be displayed. When playing back the scene, the work area stands still, while all of the other elements, including the camera, move in relation to its position.
+    - The **Camera Stand View** button (|camera_stand|) is for standard view, where any part of the work area can be displayed. When playing back the scene, the work area stands still, while all of the other elements, including the camera, move in relation to its position.
 
-    - The 3D View button (|3d|) is for activating or deactivating the 3D view of the elements composing the scene (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ).
+    - The **3D View** button (|3d|) is for activating or deactivating the 3D view of the elements composing the scene (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ).
 
-    - The Camera View button (|camera_view|) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
+    - The **Camera View** button (|camera_view|) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
 
     .. note:: When a frame of the level strip is selected, the view mode is set in order to display the level only, and consequently the buttons on the viewer title bar are disabled. To enable them again, select a cell in the Xsheet. 
 
