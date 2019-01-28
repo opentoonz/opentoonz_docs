@@ -235,7 +235,7 @@ It is possible to add colors to the list, or remove them if they are not needed 
 
     - Use the style editor (see  :ref:`Editing Styles <editing_styles>`  ).
 
-    - Use the RGB Picker tool (|RGB_picker|) to pick the value of the line color from the drawings visible in the work area (see  :ref:`Plain Colors <plain_colors>`  ).
+    - Use the RGB Picker tool (|RGB_picker|) to pick the value of the line color from the drawings visible in the viewer (see  :ref:`Plain Colors <plain_colors>`  ).
 
 
 .. tip:: **To define colors to be assigned to lines after cleanup processing:**
