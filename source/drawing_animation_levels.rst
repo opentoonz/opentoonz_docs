@@ -2,23 +2,23 @@
 
 Drawing Animation Levels
 ========================
-In OpenToonz it is possible to draw Toonz vector levels (PLI format), Toonz raster levels (TLV format) and standard raster levels (TIF format) directly in the work area. Drawing tools can also be used for touch-up in cleaned up drawings, and any loaded raster images.
+In OpenToonz it is possible to draw Toonz Vector levels (PLI format), Toonz Raster levels (TLV format) and standard Raster levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and any loaded raster images.
 
 .. _drawing_in_toonz:
 
 Drawing In OpenToonz
 --------------------
-To draw an animation level, first you have to define its type, Toonz vector, Toonz raster or raster, and its settings like its name, the number of frames it is made of and the way its drawings are numbered.
+To draw an animation level, first you have to define its type, Toonz Vector, Toonz Raster or Raster, and its settings like its name, the number of frames it is made of and the way its drawings are numbered.
 
-Toonz vector levels are defined by drawing vector strokes; vectors and areas defined by vectors can be painted by using the styles available in the level palette. Toonz vector levels have unlimited size and resolution, as they are vector-based. They are saved as PLI files.
+Toonz Vector levels are defined by drawing vector strokes; strokes and areas defined by strokes can be painted by using the styles available in the level palette. Toonz Vector levels have unlimited size and resolution, as they are vector-based. They are saved as PLI files.
 
-Toonz raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz raster levels have a limited size and resolution, defined when they are created. They are saved as TLV files.
+Toonz Raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz Raster levels have a limited size and resolution, defined when they are created. They are saved as TLV files.
 
-Raster levels are defined by drawing bitmap lines using the styles available in the raster drawing palette that is shared by all of the raster levels belonging to a specific project (see  :ref:`Project Default Folders <project_default_folders>`  ). Raster levels have a limited size and resolution, defined when they are created. They are saved as sequences of TIF files.
+Raster levels are defined by drawing bitmap lines using the styles available in the raster drawing palette that is shared by all of the raster levels of the same project (see  :ref:`Project Default Folders <project_default_folders>`  ). Raster levels have a limited size and resolution, defined when they are created. They are saved as sequences of TIF files.
 
-When an animation level is defined, you can select any of its frame in the xsheet or in the level strip, and start drawing in the work area. You can do this both when you want to create a drawing from scratch, and when you want to edit a previously made drawing.
+When an animation level is defined, you can select any of its frames in the Xsheet/Timeline or in the Level Strip, and start drawing in the viewer. You can do this both, when you want to create a drawing from scratch, and when you want to edit a previously made drawing.
 
-When selected in the xsheet, the work area displays the whole scene content at the current frame; when selected in the level strip, the work area displays the selected frame of the current animation level only, to let you work more easily on it.
+When selected in the Xsheet/Timeline, the viewer displays the whole scene content at the current frame; when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you work more easily on it.
 
 
 .. _setting_the_default_type_of_level_to_draw:
@@ -27,15 +27,16 @@ Setting the Default Type of Level to Draw
 '''''''''''''''''''''''''''''''''''''''''
 It is possible to define the level type that will be created by default when you draw inside OpenToonz.
 
-By default Toonz raster and Toonz vector levels are saved in the +drawing folder of the current project when the scene is saved, while raster levels are saved in the +extras folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
+By default Toonz Raster and Toonz Vector levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 .. tip:: **To define the Default Type of Level to Draw:**
 
-    1. Open File> Preferences > Drawing.
+    1. Open File > Preferences.
 
-    2. Choose the level type you want to use as default from the Default Level Type option menu. Width, Height and DPI fields are available for Toonz Raster Level, Raster Level and Scan level.
+    2. In the Drawing section, choose the level type you want to use as default from the Default Level Type option menu. Width, Height and DPI fields are available for Toonz Raster Level and Raster Level.
 
-.. note:: The Width, Height and DPI value set in the File> Preferences > Drawing page will be used as default by the New Level dialog.
+.. note:: The Width, Height and DPI values set in the File > Preferences > Drawing section will be used as default for the New Level dialog.
+
 
 Drawing Animation Levels
 ''''''''''''''''''''''''
@@ -43,63 +44,63 @@ Animation levels can be created in the following ways:
 
 - Using the New Level dialog.
 
-- Enabling the Autocreation option.
+- Setting the Autocreation option to **Enabled**.
 
-- Setting the Animation option to Use Xsheet as Animation Sheet.
+- Setting the Autocreation option to **Use Xsheet as Animation Sheet**.
 
 
 .. _using_the_new_level_dialog:
 
 Using the New Level Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the xsheet, and the increment, that sets the way the level drawings are numbered. For example, step 2 repeats each drawing twice in the xsheet column or timeline layer, while increment 2 numbers the drawings 1, 3, 5, etc. The dialog also allows you to choose a destination folder different from the default one by using the Save In field.
+New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the Xsheet/Timeline, and the increment, that sets the way the level drawings are numbered. For example, step 2 repeats each drawing twice in the Xsheet column or Timeline layer, while increment 2 numbers the drawings 1, 3, 5, etc. The dialog also allows you to choose a destination folder, different from the default one, by using the Save In field.
 
-In case you define a Toonz raster or a raster level, you can set its Width, Height and DPI values, according to the way you want to use it in the scene.
+In case you define a Toonz Raster or a Raster level, you can set its Width, Height and DPI values, according to the way you want to use it in the scene.
 
 Settings like the length of the level and the numbering order can be edited later, as you are free to arrange the images composing an animation level the way you prefer (see  :ref:`Editing Animation Levels <editing_animation_levels>`  ).
 
-When a new level is created in an empty column, the color of the column header and cells where the new level gets exposed are colored denoting the type of level in that column: light yellow for Toonz vector levels, light green for Toonz raster levels, and light blue for standard raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
+When a new level is created in an empty column, the color of the column header and cells where the new level gets exposed are colored denoting the type of level in that column: light yellow for Toonz Vector levels, light green for Toonz Raster levels, and light blue for standard Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
-.. note:: The New Level dialog inherits the Level Type settings defined in Preferences > Drawing.
+.. note:: The New Level dialog inherits the Default Level Type settings defined in Preferences > Drawing.
 
 .. tip:: **To create a new animation level to draw:**
 
     1. Do one of the following:
 
-    - Select a cell in the xsheet/timeline where you want to place your animation level and choose File > New Level.
+    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose File > New Level.
 
-    - Right-click the cell in the xsheet/timeline where you want to place your animation level and choose New Level from the menu that opens.
+    - Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose New Level from the menu that opens.
 
-    - (If the xsheet/timeline toolbar is visible) Click any of the three New Level buttons at the leftmost part of it.
+    - (If the Xsheet/Timeline toolbar is visible) Click any of the three New Level buttons at the leftmost part of it.
 
-    2. Choose the type of level, Toonz Vector, Toonz Raster or Raster, from the Type option menu, and define its settings, then click the OK button.
+    2. Choose the type of level, Toonz Vector, Toonz Raster or Raster, from the Type option menu and define its settings, then click the OK button.
 
 
-.. note:: When using the xsheet's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
+    .. note:: When using the Xsheet/Timeline's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
 
-.. note:: If a level is already exposed in the cell column, the new level will be created in an empty column.
+    .. note:: If a level is already exposed in the cell column, the new level will be created in an empty column.
 
 .. tip:: **To define the saving location for the level you want to draw:**
 
     In the New Level dialog type in the Save In field, or use the browser button, to set the path for the saving location.
 
-.. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
+.. note:: If in the browser you choose any project folder, in the path field the full path will be replaced by the correspondent folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 
 .. _using_the_autocreation_option:
 
 Using the Autocreation Option
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences > Drawing the Autocreation option is set to Enabled, it is possible to create new drawings automatically by using drawing tools in the work area. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is right below one containing a level drawing, either in the xsheet or in the level strip, a new drawing will be added to the level.
+When in Preferences > Drawing the Autocreation option is set to Enabled, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is right below one containing a level drawing, either in the Xsheet/Timeline or in the Level Strip, a new drawing will be added to the level.
 
-.. note:: The level type is the one defined in Preferences > Drawing as Default Level Type.
+.. note:: The level type will be the one defined in Preferences > Drawing as Default Level Type.
 
 
 .. _using_the_xsheet_as_animation_sheet:
 
 Using the Xsheet as Animation Sheet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences > Drawing the Autocreation option is set to Use the Xsheet as Animation Sheet, it is possible to create new drawings automatically by using drawing tools in the work area. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is below a cell containing a level drawing, a new drawing will be added to the level. In both cases the drawings will take its number from the scene current frame ; if the drawing already exists a letter will be added to its number (e.g. a.0001a.ext). 
+When in Preferences > Drawing the Autocreation option is set to Use the Xsheet as Animation Sheet, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is below a cell containing a level drawing, a new drawing will be added to the level. In both cases the drawings will take its number from the scene current frame ; if the drawing already exists a letter will be added to its number (e.g. A.0001a.ext). 
 
 This working method allows you to work as a traditional animator: you can start creating the key drawings and then add breakdown and inbetween drawings.You can quickly check your animation flipping it in the viewer.
 
@@ -107,17 +108,17 @@ When you add a new drawing it will be repeated as a hold along the column up to 
 
 It is also possible to create a new drawing in a cell that contains a hold: the new drawing will replace the hold up to the following drawing. Drawings can also be duplicated creating a copy with a different number.
 
-Once the animation is completed you can renumber the whole sequence according to the xsheet frame numbering.
+Once the animation is completed you can renumber the whole sequence according to the Xsheet/Timeline frame numbering.
 
-.. note:: The level type is the one defined in Preferences > Drawing as Default Level Type.
+.. note:: The level type will be the one defined in Preferences > Drawing as Default Level Type.
 
 .. tip:: **To create a new animation level**
 
-    Click an xsheet empty cell and start drawing using a drawing tool in the work area.
+    Click an empty cell in the Xsheet/Timeline and start drawing using a drawing tool in the viewer.
 
 .. tip:: **To add a drawing to an existing level**
 
-    Click an empty cell in the column containing the level and start drawing using a drawing tool in the work area.
+    Click an empty cell in the column containing the level and start drawing using a drawing tool in the viewer.
 
 .. tip:: **To automatically renumber the drawings**
 
@@ -130,23 +131,21 @@ Once the animation is completed you can renumber the whole sequence according to
 
 .. _using_the_work_area:
 
-Using the Work Area
-'''''''''''''''''''
-In the work area, or viewer, it is possible to use the tools available in the toolbar to draw, paint, edit and model drawings. The work area is endless and you can scroll, zoom in, zoom out and rotate it. 
+Using the Viewer
+''''''''''''''''
+In the viewer, it's possible to use the tools available in the toolbar to draw, paint, edit and model drawings. The work area of the viewer is endless and you can scroll, zoom in, zoom out and rotate it. 
 
 In the title bar you can find information about what is currently displayed and selected, the zoom percentage, and a set of buttons that lets you set the view mode (see  :ref:`Using the Viewer <using_the_viewer>`  ).
 
-At the bottom of the work area another customizable set of buttons is available. 
+At the bottom of the viewer another customizable set of buttons is available. 
 
 The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and in case the playback is activated, the actual frame rate is displayed on its left. 
 
 The other buttons are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
-
-
 .. note:: If the bottom bar is too short to display all the options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: In case a frame range is defined by playback markers, the playback buttons refer to the defined range only (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ).
+.. note:: In case a frame range is defined by playback markers, the playback buttons operate on the defined range only (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ).
 
 .. tip:: **To navigate the work area:**
 
@@ -154,15 +153,13 @@ The other buttons are relevant only using the Animate tool (|animate|) to animat
 
     - Use the Zoom tool (|zoom|): to zoom in, click and drag up; to zoom out, click and drag down. The point where you click is the center of the zooming action.
 
-
-
     - Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at specific steps (e.g. 50%, 100%, 200%, etc.).
 
     - Use the mouse wheel to zoom in and zoom out.
 
     - Middle-click and drag or use the Hand tool (|hand|) to scroll in any direction.
 
-    - Use the Rotate tool (|rotate|) to rotate the work area: an horizon line is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area.
+    - Use the Rotate tool (|rotate|) to rotate the viewer: an horizon line is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area.
 
     - Use the reset view shortcut (by default the 0 key) or right-click in the viewer and select Reset View from the menu that opens, to display the viewer at its actual size, centered on the absolute center with no rotation applied.
 
@@ -197,15 +194,15 @@ The other buttons are relevant only using the Animate tool (|animate|) to animat
 
 .. _adjusting_the_work_area_visualization:
 
-Adjusting the Work Area Visualization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The way the work area visualizes the scene content can be adjusted according to the task to perform.
+Adjusting the Viewer Visualization
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The way the viewer visualizes the scene content can be adjusted according to the task to perform.
 
-The full screen mode can be entered to maximize the work area to the monitor screen, hiding any interface window border. This is available only on Windows platform.
+Full screen mode can be entered to maximize the viewer to the monitor screen, hiding any interface window border. This is available only on the Windows platform.
 
 Vector drawings, that can slow down the visualization performance when used in large amounts in a scene, can be visualized as raster drawings, faster to visualize, still preserving their vector nature.
 
-.. note:: If the current level is vector-based, it is displayed as it is, to allow any drawing and editing operation you may perform.
+.. note:: If the current level is vector-based, it's displayed as vector, to allow any drawing and editing operation you may perform.
 
 Raster drawings and images that usually are displayed in the work area according to their DPI value, can be displayed at their actual pixel size, that is to say that one pixel from the image is displayed as one pixel of the screen monitor, to better examine them.
 
@@ -221,22 +218,22 @@ Raster drawings and images that usually are displayed in the work area according
 
 .. tip:: **To display raster drawings and images at their actual pixel size:**
 
-    1. In the xsheet select the level to which the drawing or image belongs so that it becomes the current level.
+    1. In the Xsheet/Timeline select the level to which the drawing or image belongs so that it becomes the current level.
 
-    2. Select the drawing or image in the level strip in order to display it alone.
+    2. Select the drawing or image in the Level Strip in order to display it alone.
 
-    3. Use the Actual Pixel Size shortcut (by default the N key) or right-click the work area and choose Actual Pixel Size from the menu that opens.
+    3. Use the Actual Pixel Size shortcut (by default the N key) or right-click in the viewer and choose Actual Pixel Size from the menu that opens.
 
 
 .. _customizing_the_work_area:
 
-Customizing the Work Area
-~~~~~~~~~~~~~~~~~~~~~~~~~
-The work area can be customized according to your needs: the background colors visible in the work area and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you aligning objects or composing the elements of the scene for a particular frame. The View>Inks Only check allows to hide the painted areas of the levels facilitating the drawing process.
+Customizing the Viewer
+~~~~~~~~~~~~~~~~~~~~~~
+The viewer can be customized according to your needs: the background colors visible in the viewer and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View > Inks Only check allows to hide the painted areas of the levels facilitating the drawing process.
 
-The set of buttons and information available in the bottom bar of the work area can be customized as well, so that only the elements you requires are visible.
+The set of buttons and information available in the bottom bar of the viewer can be customized as well, so that only the elements you require are visible.
 
-.. tip:: **To change the work area background color:**
+.. tip:: **To change the viewer background color:**
 
     1. Open the Xsheet > Scene Settings dialog.
 
@@ -264,7 +261,7 @@ The set of buttons and information available in the bottom bar of the work area 
 
     Choose View > Camera Box to show or hide the camera box.
 
-.. note:: The camera box visualization also triggers the safe area visualization (see below).
+    .. note:: The camera box visualization also triggers the safe area visualization (see below).
 
 .. tip:: **To show or hide the camera background color:**
 
@@ -278,19 +275,13 @@ The set of buttons and information available in the bottom bar of the work area 
 
     1. Open the Xsheet > Scene Settings dialog.
 
-    2. Define the Field Guide Size and A/R. The Size is the number of fields the field guide is wide (1 field is equal to 1 inch), and the A/R is the ratio between the field guide width and height.
+    2. Define the Field Guide Size and A/R. Size is the number of width fields of the field guide (1 field is equal to 1 inch), and the A/R is the ratio between the field guide width and height.
 
 .. tip:: **To show or hide the safe area:**
 
     Choose View > Safe Area to show or hide the safe area.
 
-.. note:: The safe area is not visible if the camera box is hidden (see above).
-
-.. tip:: **To define the displayed safe area:**
-
-    1. Open the Xsheet > Scene Settings dialog.
-
-    2. Define the Safe Area Box 1 and Box 2 by using values that represent percentages of the current camera size. 
+    .. note:: The safe area is not visible if the camera box is hidden (see above).
 
 .. tip:: **To add a custom guide:**
 
@@ -312,7 +303,7 @@ The set of buttons and information available in the bottom bar of the work area 
 
     Choose View > Rulers to show or hide the rulers.
 
-.. note:: When the work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
+.. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
 
 .. tip:: **To customize the set of buttons in the bottom bar of the work area:**
 
@@ -502,7 +493,7 @@ The current palette style is applied to the text you type. The palette style can
 
 .. tip:: **To add text:**
 
-    1. Select the Type tool (|type|) and click in the work area where you want to start writing. 
+    1. Select the Type tool (|type|) and click in the viewer where you want to start writing. 
 
     2. Choose options for the size, font and orientation. These options can be changed as long as you are in text editing mode.
 
@@ -610,15 +601,15 @@ In the Centerline mode the following settings are available:
 
 - Enhanced Ink recognition, when activated, allows to vectorize Full color images (such as TGA, TIF, PNG etc...) without antialiasing along the lines. An Heuristic is used to recognize lines and painted areas creating a PLI level where the lines are seen as ink and the painted areas as paint.
 
-- It is possible to select the images or the level frames that have to be converted directly in the xsheet.
+- It's possible to select the images or the level frames that have to be converted directly in the Xsheet/Timeline.
 
-When a conversion is performed a new level is created according to the selection you made, and exposed in the xsheet in the column next to that containing the source level: the new file has the same name of the starting one but has a PLI extension, and a “v” suffix, and is saved in the +drawings default folder. 
+When a conversion is performed a new level is created according to the selection you made, and exposed in the Xsheet/Timeline in the column next to that containing the source level: the new file has the same name of the starting one but has a PLI extension, and a “v” suffix, and is saved in the +drawings default folder. 
 
 .. note:: In case a PLI level with the same name already exists, the name of the new file will be followed by a progressive number.
 
 .. tip:: **To convert raster drawings into vectors:**
 
-    1. Select the images or the level frames to convert in the xsheet.
+    1. Select the images or the level frames to convert in the Xsheet/Timeline.
 
     2. Choose Level > Convert to Vectors.
 
@@ -631,7 +622,7 @@ When a conversion is performed a new level is created according to the selection
 
 Checking the Convert to Vectors Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-At the bottom of the Convert-to-Vectors settings window a preview area is available to display the drawing selected in the xsheet as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original raster drawing that is displayed on the left side, and to highlight the vector structure by clicking the Centerlines Check button (|check|).
+At the bottom of the Convert-to-Vectors settings window a preview area is available to display the drawing selected in the Xsheet/Timeline as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original raster drawing that is displayed on the left side, and to highlight the vector structure by clicking the Centerlines Check button (|check|).
 
 
 
@@ -641,7 +632,7 @@ If you change any parameter in the Convert-to-Vector settings, the previewed dra
 
 .. tip:: **To activate the preview area:**
 
-    1. In the xsheet select the drawing you want to preview. 
+    1. In the Xsheet/Timeline select the drawing you want to preview. 
 
     2. Click the Preview button (|preview|) in the bottom bar of the Convert-to-Vector settings window.
 
@@ -715,7 +706,7 @@ The new size can be set in any unit supported by OpenToonz, by using absolute or
 
 .. tip:: **To change the canvas size:**
 
-    1. Select the Toonz or the standard raster level you want to modify in the xsheet.
+    1. Select the Toonz or the standard raster level you want to modify in the Xsheet/Timeline.
 
     2. Choose Level > Canvas Size: the Canvas Size dialog opens.
 
@@ -731,23 +722,24 @@ The new size can be set in any unit supported by OpenToonz, by using absolute or
 
 Editing Drawings
 ----------------
-Toonz raster and vector drawings, and raster images, can be manipulated in OpenToonz.
+Toonz Raster and Vector drawings, and Raster images, can be manipulated in OpenToonz.
 
-To edit a drawing, for example to copy a part of it, you have first to select it in the xsheet or in the level strip. When selected in the xsheet, the work area displays the whole scene contents at the current frame, when selected in the level strip, the work area displays the selected frame of the current animation level only, to let you work more easily on it.
+To edit a drawing, for example to copy a part of it, you have first to select it in the Xsheet/Timeline or in the Level Strip. When selected in the Xsheet/Timeline, the viewer displays the whole scene contents at the current frame, when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you work more easily on it.
 
-Drawings can be also selected directly in the work area: this allows you to work on the different drawings visible at a certain frame with no need to retrieve them in the xsheet or in the level strip.
+Drawings can be also selected directly in the viewer: this allows you to work on the different drawings visible at a certain frame with no need to retrieve them in the Xsheet/Timeline or Level Strip.
 
-.. note:: All the editing performed on drawings is not saved until you save the related level, or scene (see  :ref:`Saving Levels <saving_levels>`  ).
+.. note:: All the editing performed on drawings is not saved until you save the related level, or use the Save All command (see  :ref:`Saving Levels <saving_levels>`  ).
 
 .. tip:: **To select the drawing to edit:**
 
     Do one of the following:
 
-    - Select it in the xsheet or level strip.
+    - Select it in the Xsheet/Timeline or Level Strip.
 
-    - Right-click in the work area the drawing you want to edit and in the menu that opens choose the Select command related to the column containing the drawing you want to edit.
+    - Right-click in the viewer the drawing you want to edit and in the menu that opens choose the Select command related to the column containing the drawing you want to edit.
 
-.. note:: The right-click menu first lists all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
+    .. note:: The right-click menu first lists all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
+
 
 .. _using_the_selection_tool:
 
@@ -1096,7 +1088,7 @@ Control points have handles whose length and direction define the bend of the ve
 
 Control point handles may be linked, that is to say they share the same direction, or not, creating a cusp in the vector; they can also be collapsed in the control point in order to turn it in a corner point. In case only one handle is collapsed, the point will be corner on one side and smooth on the other. When a section of the vector is defined by two corner points, it will be a straight line.
 
-The option Auto Select Drawing is available to automatically select any vector of any drawing visible in the work area.
+The option Auto Select Drawing is available to automatically select any vector of any drawing visible in the viewer.
 
 
 
@@ -1438,10 +1430,7 @@ Rotoscoping
 '''''''''''
 Rotoscoping consists of tracing drawings taking a live clip as reference. 
 
-
-
-
-As you can import clips and frame sequences in a scene, you can simply load them, and create an animation level by drawing in the work area, while the frames of the clips are visible underneath. See  :ref:`Using the File Browser <using_the_file_browser>`  . 
+As you can import clips and frame sequences in a scene, you can simply load them, and create an animation level by drawing in the viewer, while the frames of the clips are visible underneath. See  :ref:`Using the File Browser <using_the_file_browser>`  . 
 
 The way to obtain best results is not trying to reproduce with fidelity the clip, but to use its frames just as a reference to better understand the movement or the transformation of the clip’s subject. In this way you can take advantage, for example, of a natural movement represented in the clip, without renouncing an expressive drawing style.
 
@@ -1449,11 +1438,12 @@ The way to obtain best results is not trying to reproduce with fidelity the clip
 
     1. Load a QuickTime or Avi clip, or a sequence of frames, in the . The clip will be placed in a column of the .
 
-    2. In the  select a cell in a column on the right of the column containing the clip you loaded. The image of the clip placed at the same frame of the cell you selected will be visible in the work area while you are drawing.
+    2. In the  select a cell in a column on the right of the column containing the clip you loaded. The image of the clip placed at the same frame of the cell you selected will be visible in the viewer while you are drawing.
 
-    3. Create a new animation level and use tools to trace the first drawing in the work area.
+    3. Create a new animation level and use tools to trace the first drawing in the viewer.
 
     4. Move to next frames, and trace the next drawings.
+
 
 .. _cloning_levels:
 
