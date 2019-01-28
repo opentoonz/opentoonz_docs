@@ -17,7 +17,9 @@ Using the Viewer
 ----------------
 The viewer, or work area, has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the work area. When the preview mode is activated, it can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
-|viewer_modes|
+.. figure:: /_static/xsheet/viewer_modes.png
+
+Camera stand view, camera view and 3D view modes.
 
 At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Work Area <using_the_work_area>`  ), some others are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
@@ -1723,8 +1725,6 @@ Elements defined in the CSS are the following:
 
     Open the ``xsheet.css``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
 
-
-.. |viewer_modes| figure:: /_static/xsheet/viewer_modes.png
 
 .. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
