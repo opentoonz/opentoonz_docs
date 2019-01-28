@@ -204,13 +204,13 @@ Vector drawings, that can slow down the visualization performance when used in l
 
 .. note:: If the current level is vector-based, it's displayed as vector, to allow any drawing and editing operation you may perform.
 
-Raster drawings and images that usually are displayed in the work area according to their DPI value, can be displayed at their actual pixel size, that is to say that one pixel from the image is displayed as one pixel of the screen monitor, to better examine them.
+Raster drawings and images that usually are displayed in the viewer according to their DPI value, can be displayed at their actual pixel size, that is to say that one pixel from the image is displayed as one pixel of the screen monitor, to better examine them.
 
 .. note:: Visualizing an image at its actual pixel size is different from zooming in because zooming always takes into account the image DPI information.
 
-.. tip:: **Windows only - to enter/exit the work area full screen mode:**
+.. tip:: **Windows only - to enter/exit the viewer full screen mode:**
 
-    Right-click the work area and choose Full Screen Mode/Exit Full Screen Mode from the menu that opens.
+    Right-click the viewer and choose Full Screen Mode/Exit Full Screen Mode from the menu that opens.
 
 .. tip:: **To activate or deactivate the raster visualization for vector drawings:**
 
@@ -305,7 +305,7 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 .. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
 
-.. tip:: **To customize the set of buttons in the bottom bar of the work area:**
+.. tip:: **To customize the set of buttons in the bottom bar of the viewer:**
 
     Click the option button (|option|) on the far left of the bottom area, and select the elements to show, or deselect those to hide, in the menu that opens. 
 
