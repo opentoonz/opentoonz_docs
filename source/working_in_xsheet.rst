@@ -1724,7 +1724,7 @@ Elements defined in the CSS are the following:
     Open the ``xsheet.css``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
 
 
-.. |viewer_modes| image:: /_static/xsheet/viewer_modes.png
+.. |viewer_modes| image:: /_static/xsheet/viewer_modes_hires.png
 .. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
