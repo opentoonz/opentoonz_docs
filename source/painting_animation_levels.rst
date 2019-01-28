@@ -138,6 +138,7 @@ Options available for the painting tools can help you to speed up the painting j
 
     2. Click in the area whose style you want to pick. The picked style becomes the current one.
 
+
 .. _closing_gaps_in_drawing_outline:
 
 Closing Gaps in Drawing Outline
@@ -200,13 +201,14 @@ For Toonz raster drawings the Tape tool (|tape|) automatically joins the open en
 
     1. Select the Tape tool (|tape|).
 
-    2. Click in the work area to close all the gaps detected according to the set distance and angle.
+    2. Click in the viewer to close all the gaps detected according to the set distance and angle.
 
 .. tip:: **To close a specific gap in a raster drawing outline:**
 
     1. Select the Tape tool (|tape|) and activate the Rectangular option.
 
     2. Click and drag to define an area: all the gaps detected in the area according to the set distance and angle will be closed.
+
 
 .. _checking_gaps_in_the_drawing_outline:
 
@@ -242,7 +244,7 @@ To control if all the drawings areas are properly painted, and to see if the fil
 
 - The Paint Check displays the areas painted with the current color in red.
 
-- The Black BG Check displays the background colors defined in the scene settings for the viewer and the camera in black (see  :ref:`Customizing the Work Area <customizing_the_work_area>`  ).
+- The Black BG Check displays the background colors defined in the scene settings for the viewer and the camera in black (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
 .. note:: All the checks can also be combined in order to achieve specific display modes (see also  :ref:`Checking Gaps in the Drawing Outline <checking_gaps_in_the_drawing_outline>` ).
 
@@ -404,13 +406,14 @@ For Toonz raster drawings the Tape tool (|tape|) automatically joins the open en
 
     1. Select the Tape tool (|tape|).
 
-    2. Click in the work area to close all the gaps detected according to the set distance and angle.
+    2. Click in the viewer to close all the gaps detected according to the set distance and angle.
 
 .. tip:: **To close a specific gap in a raster drawing outline:**
 
     1. Select the Tape tool (|tape|) and activate the Rectangular option.
 
     2. Click and drag to define an area: all the gaps detected in the area according to the set distance and angle will be closed.
+
 
 Checking Gaps in the Drawing Outline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -432,6 +435,7 @@ To control the drawing outline and see if areas are well-defined in order to be 
 
     Activate or deactivate the Fill Check from the View menu.
 
+
 Checking Painted Drawings
 '''''''''''''''''''''''''
 To control if all the drawings areas are properly painted, and to see if the filling left small gaps along the line antialiasing, or where a certain style is used to paint lines or areas, it is possible to activate a series of checks:
@@ -442,7 +446,7 @@ To control if all the drawings areas are properly painted, and to see if the fil
 
 - The Paint Check displays the areas painted with the current color in red.
 
-- The Black BG Check displays the background colors defined in the scene settings for the viewer and the camera in black (see  :ref:`Customizing the Work Area <customizing_the_work_area>`  for details).
+- The Black BG Check displays the background colors defined in the scene settings for the viewer and the camera in black (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  for details).
 
 .. note:: All the checks can also be combined in order to achieve specific display modes (see also  :ref:`Checking Gaps in the Drawing Outline <checking_gaps_in_the_drawing_outline>` ).
 
