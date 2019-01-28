@@ -197,6 +197,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     Double-click the node name and type a new name.
 
+
 .. _editing_the_fx_schematic:
 
 Editing the FX Schematic
@@ -299,6 +300,7 @@ When pasting a copied/cut selection, several options are available:
 
     2. Right-click any of the selected nodes and choose Unlink from the menu that opens.
 
+
 .. _using_multiple_output_nodes:
 
 Using Multiple Output Nodes
@@ -347,6 +349,7 @@ When more than one output node is defined, you can set which is the active one, 
 
 .. note:: The last Output node remaining cannot be removed from the stage.
 
+
 .. _editing_fx_settings:
 
 Editing FX Settings
@@ -355,11 +358,7 @@ FX parameters and their animation can be controlled in the FX Settings window. A
 
 Parameters can be animated by setting key values at specific frames. A Set Key button (|key|) is available in the bottom bar of the window to set key values for all of the parameters. For all of the parameters that can be animated there is also a specific set key button, a small square located on the far right of each parameter, in order to set key values for each parameter independently. 
 
-
-
 The Set Key button (|key|) may have the following colors:
-
-
 
     - It is grey when no key values for any parameter is defined at the current frame.
 
@@ -401,7 +400,7 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     - Move the current frame cursor in the xsheet or in the function editor.
 
-    - Use the frame bar or the playback buttons in the bottom bar of the work area.
+    - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
 .. tip:: **To set key values for all the effect parameters at the current frame:**
 
@@ -475,26 +474,25 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     - Use the reset view shortcut (by default the 0 key) to display preview at its actual size.
 
+
 .. _using_fx_gadgets:
 
 Using FX Gadgets
 ''''''''''''''''
-Some FX parameters related to positions or dimensions have some gadgets available in the work area in order to be set by using the camera box and the scene elements as a reference. For example the radial gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient.
-
-
-
+Some FX parameters related to positions or dimensions have some gadgets available in the viewer in order to be set by using the camera box and the scene elements as a reference. For example the radial gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient.
 
 As soon as an effect node is selected in the schematic, the Animate tool becomes the current tool and the related effect gadgets, if available, are visualized. The Animate tool settings will refer to the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:`Animating Objects <animating_objects>`  ).
 
-.. tip:: **To visualize FX gadgets in the work area:**
+.. tip:: **To visualize FX gadgets in the viewer:**
 
     Select the effect node in the FX schematic.
 
 .. tip:: **To edit FX gadgets:**
 
-    Click and drag the FX gadgets visible in the work area. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing FX gadgets. 
+    Click and drag the FX gadgets visible in the viewer. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing FX gadgets. 
 
 .. note:: Some gadgets have a handle for reference; however any point along the gadget shape can be clicked and dragged.
+
 
 .. _defining_colors_and_color_spectrums:
 
@@ -532,6 +530,7 @@ Color spectrums, i.e. a series of colors defining a continuous gradient, can be 
 
     Click and drag down the arrow identifying the color.
 
+
 .. _creating_presets:
 
 Creating Presets
@@ -565,6 +564,7 @@ Once a preset is applied there is no link between the saved preset and the appli
 .. tip:: **To remove a preset from the FX browser:**
 
     Right-click the preset in the FX browser and choose Remove Preset from the menu that opens. 
+
 
 .. _creating_macro_fx:
 
@@ -616,14 +616,21 @@ When saved, the macro effect will be available in the FX browser and in the drop
 
     Right-click the macro effect in the FX browser and choose Remove Macro FX from the menu that opens. 
 
+
+
+
+
 .. _special_fx_list:
 
 Special FX List
 ---------------
+
+
 .. _background:
 
 Background
 ''''''''''
+
 .. _checkerboard:
 
 Checkerboard
@@ -632,7 +639,7 @@ Checkerboard
 
 Creates in the selected column a layer with a checkerboard defined by two Colors, and a grid Size. 
 
-.. note:: The grid size can also be set by using a square gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The grid size can also be set by using a square gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _color_card:
 
@@ -666,10 +673,12 @@ The Mirror Horizontally and Mirror Vertically options repeat the tiles by flippi
 
 The Margin value sets the size of a margin around each tile, with positive values adding some space around the tiles, and negative values collapsing them.
 
+
 .. _blur:
 
 Blur
 ''''
+
 Blur
 ~~~~
  |Toonz71_421| 
@@ -686,7 +695,7 @@ Blurs the Source content according to a specific Intensity along a specific dire
 
 The Bidirectional option applies the blur also on the other side of the direction.
 
-.. note:: The intensity and the angle can also be set by using an arrow gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The intensity and the angle can also be set by using an arrow gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. note:: The directional blur does not depend on the movement and the speed of the column to which it is applied. 
 
@@ -716,7 +725,7 @@ Radial Blur
 
 Blurs along radial lines whose origin is the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius. 
 
-.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
 
 .. _spin_blur:
 
@@ -726,12 +735,14 @@ Spin Blur
 
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius.
 
-.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+
 
 .. _distort:
 
 Distort
 '''''''
+
 .. _free_distort:
 
 Free Distort
@@ -744,7 +755,7 @@ The Mode option menu lets you set the way the distortion is applied: Bilinear di
 
 To better set the origin position for each point, you can use the Deactivate option that lets you see the image without distortion.
 
-.. note:: The position of the four points and their origins can be also set by using arrow gadgets with handles at the ends in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
+.. note:: The position of the four points and their origins can be also set by using arrow gadgets with handles at the ends in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
 
 .. _linear_wave:
 
@@ -772,7 +783,7 @@ The amount of distortion is controlled by the Intensity value; the , by the Size
 
 The Alpha option adds also a transparency displacement to fully-opaque images.
 
-.. note:: The horizontal and vertical offset can also be set by using a point gadget in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The horizontal and vertical offset can also be set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _random_wave:
 
@@ -788,7 +799,7 @@ The position of the displacement map image can be shifted along the Horizontal a
 
 The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
 
-.. note:: The position along the horizontal and vertical axis can also be set by using a point gadget in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The position along the horizontal and vertical axis can also be set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _ripple:
 
@@ -802,7 +813,7 @@ The Center of the circular waves can be set with a Horizontal and Vertical value
 
 The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
 
-.. note:: The center and the period can be also set by using a point and a circle gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+.. note:: The center and the period can be also set by using a point and a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
 
 .. _warp:
 
@@ -814,10 +825,12 @@ Distorts the Source content according to the brightness variation of the node co
 
 The amount of distortion is controlled by the Intensity value; the  of the warp, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
 
+
 .. _gradients:
 
 Gradients
 '''''''''
+
 .. _diamond_gradient:
 
 Diamond Gradient
@@ -826,7 +839,7 @@ Diamond Gradient
 
 Creates in the selected column a gradient, that goes hyperbolically from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
-.. note:: The size can also be set by using a circle gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The size can also be set by using a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _four_points_gradient:
 
@@ -836,7 +849,7 @@ Four Points Gradient
 
 Creates in the selected column a gradient defined by four Colors, defined by Red, Green, Blue and Alpha values, whose source Points can be placed where needed defining horizontal (X) and vertical (Y) coordinates.
 
-.. note:: The source points can also be set by using point gadgets in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
+.. note:: The source points can also be set by using point gadgets in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
 
 .. _linear_gradient:
 
@@ -848,7 +861,7 @@ Creates in the selected column a gradual blend between two Colors defined by Red
 
 You can also add a Distortion Wave on the linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
 
-.. note:: The size can also be set by using a gadget with two handles at the ends in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The size can also be set by using a gadget with two handles at the ends in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _multi_linear_gradient:
 
@@ -860,7 +873,7 @@ Creates in the selected column a multi linear gradient defined by a color spectr
 
 You can also add a Wave distortion on the multi linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
 
-.. note:: The period can also be set by using a gadget with two handles at the ends in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )
+.. note:: The period can also be set by using a gadget with two handles at the ends in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )
 
 .. _multi_radial_gradient:
 
@@ -870,7 +883,7 @@ Multi Radial Gradient
 
 Creates in the selected column a multi radial gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
 
-.. note:: The period can be also set by using a circle gadget with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The period can be also set by using a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _radial_gradient:
 
@@ -880,7 +893,7 @@ Radial Gradient
 
 Creates in the selected column a gradual blend between two colors, defined by Red, Green, Blue and Alpha values, shading them in a circular pattern. The Inner Size controls the area where the gradient between the two colors begins; the Outer Size where it ends.
 
-.. note:: The inner and outer sizes can be also set by using circle gadgets with a handle in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The inner and outer sizes can be also set by using circle gadgets with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _spiral:
 
@@ -898,12 +911,14 @@ Square Gradient
 
 Creates in the selected column a square gradient, that goes linearly from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
-.. note:: The size can also be set by using a rotated square gadget with handles in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The size can also be set by using a rotated square gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+
 
 .. _image_adjust:
 
 Image Adjust
 ''''''''''''
+
 Adjust Levels
 ~~~~~~~~~~~~~
  |Toonz71_440| 
@@ -1164,10 +1179,12 @@ Sets the transparency of the Source content. The Intensity, expressed as a perce
 
 .. note:: In the FXs that accept multiple input nodes it is possible to change the stacking order of the input nodes by clicking and dragging in ports area.
 
+
 .. _light:
 
 Light
 '''''
+
 .. _backlit:
 
 Backlit
@@ -1218,7 +1235,7 @@ Light Spot
 
 Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Reg, Green, Blue and Alpha values. The Softness sets the light diffusion in the area outside the spot.
 
-.. note:: The width and height can be also set by using a box gadget with handles in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The width and height can be also set by using a box gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _raylit:
 
@@ -1234,7 +1251,7 @@ Properties of the light can be set by defining the Intensity, the Color, that is
 
 The Invert option switches the casting of rays of light from the outside of the image to the inside.
 
-.. note:: The center can be also set by using a point gadget in the work area (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview.
+.. note:: The center can be also set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview.
 
 .. note:: The Source node content needs to have a significant alpha channel in order to have an effective result.
 
@@ -1262,10 +1279,12 @@ Target Spot
 
 Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Red, Green, Blue and Alpha values. The direction of the spot can be set by defining the Distance of the light from the table and the Angle between the light spot direction and the table. The Decay, that is the decrease of the light intensity according to the distance from table, can be controlled as well.
 
+
 .. _matte:
 
 Matte
 '''''
+
 .. _erode/dilate:
 
 Erode/Dilate
@@ -1316,10 +1335,12 @@ Visible Matte In
 
 Makes the Up node content visible only inside the opaque areas of the node content connected to the Down input port, keeping the Down node still visible.
 
+
 .. _noise:
 
 Noise
 '''''
+
 Noise
 ~~~~~
  |Toonz71_480| 
@@ -1334,8 +1355,10 @@ Salt & Pepper Noise
 
 Adds a black and white noise effect to the Source content according to the set Intensity. 
 
+
 Render
 ''''''
+
 .. _clouds:
 
 Clouds
@@ -1354,10 +1377,12 @@ Particles
 ~~~~~~~~~
 See  :ref:`Using the Particles Effect <using_the_particles_effect>` .
 
+
 .. _stylize:
 
 Stylize
 '''''''
+
 .. _color_emboss:
 
 Color Emboss
@@ -1401,6 +1426,7 @@ Solarize
  |Toonz71_487| 
 
 Blends a negative and a positive version of the Source content, as if exposing a photographic print briefly to light during development. You can set the Intensity of the effect and control the Peak Edge, that is the amount of positive and negative image that is used in the blend.
+
 
 .. _toonz_level:
 
@@ -1512,6 +1538,7 @@ The Mode option menu lets you set how the texture node content will be applied: 
 
 .. note:: To repeat the texture image and tile it to create a larger texture, you can apply the Tile effect to the texture column before linking it to the Texture node (see  :ref:`Tile <tile>`  ).
 
+
 .. _shaders:
 
 Shaders
@@ -1528,10 +1555,6 @@ Create in the selected column a simulation of the reflection of light on a water
 
 The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
 
-
-
-
-
 .. _fireball:
 
 Fireball
@@ -1541,8 +1564,6 @@ Fireball
 Create in the selected column a ball of flames erupting from a point.
 
 A range of colors can be defined setting the RGBA values of color 1 and color 2. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
-
-
 
 .. _glitter:
 
@@ -1566,8 +1587,6 @@ The stage of the stars displacement can be controlled by using the Evolution val
 
 Use the Brightness parameters to define the brightness of the stars.
 
-
-
 .. _sun_flare:
 
 Sun Flare
@@ -1576,10 +1595,6 @@ Sun Flare
 
 Creates, in the selected column, rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Cloud Color parameter. The number of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use the Sharpness parameter to make the rays sharper or smoother.
 
-
-
-
-
 .. _wavy:
 
 Wavy
@@ -1587,10 +1602,6 @@ Wavy
  |Toonz71_501| 
 
 Creates a simple gradient with a colored 'wavy' pattern in the selected column.The waves colors are definied by setting the RGBA value of the Color and Color 2 parameters. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
-
-
-
-
 
 .. _gpu_radial_blur:
 
@@ -1607,6 +1618,8 @@ GPU Spin Blur
  |Toonz71_503| 
 
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Safe Radius. The Blur parameter sets the amount of blur.
+
+
 
 
 .. |Toonz71_390| image:: /_static/sfx/Inserting_Special_FX/FX_Browser.png
