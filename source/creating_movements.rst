@@ -185,7 +185,7 @@ Columns and pegbars are always linked, at least to the table: this means that th
 
     - Select it in the Stage Schematic. 
 
-    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area and select the first pegbar in the hierarchy the column containing the drawing is linked to.
+    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the viewer and select the first pegbar in the hierarchy the column containing the drawing is linked to.
 
     - Right-click a drawing in the Viewer to choose from the menu that opens the Select command related to the object hierarchically linked that you want to edit, from the first one up to the table.
 
@@ -503,11 +503,11 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - If the object is a column/layer, select it in the xsheet/timeline.
 
-    - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the work area to select the related column.
+    - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the viewer to select the related column.
 
-    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the work area to select the pegbar that the column containing the drawing is linked to.
+    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the viewer to select the pegbar that the column containing the drawing is linked to.
 
-    - Right-click in the work area a drawing to select an object from the list of the objects hierarchically linked to the column containing the drawing, from the first one up to the table and current camera (see  :ref:`Linking Objects <linking_objects>`  ). 
+    - Right-click in the viewer a drawing to select an object from the list of the objects hierarchically linked to the column containing the drawing, from the first one up to the table and current camera (see  :ref:`Linking Objects <linking_objects>`  ). 
 
 .. tip:: **To animate an object with the Animate tool:**
 
@@ -519,7 +519,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Move the current frame cursor in the xsheet/timeline or in the function editor.
 
-    - Use the frame bar or the playback buttons in the bottom bar of the work area.
+    - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
     - When animating columns only, select the related cell in the column/layer.
 
@@ -653,7 +653,7 @@ It's also possible to link the key positions of the objects to the positions of 
 
     Select the motion path node in the stage and do any of the following:
 
-    - Use the drawing tools to define it in the work area.
+    - Use the drawing tools to define it in the viewer.
 
     - Use the modifier tools to edit it. 
 
@@ -711,7 +711,7 @@ It's also possible to link the key positions of the objects to the positions of 
 
     1. Select the motion path in the stage.
 
-    2. Select the motion path with the Selection tool (|selection|) in the work area.
+    2. Select the motion path with the Selection tool (|selection|) in the viewer.
 
     3. Copy/cut it.
 
