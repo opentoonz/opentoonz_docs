@@ -15,13 +15,13 @@ All of the Xsheet contents can be checked in the viewer, where the animation can
 
 Using the Viewer
 ----------------
-The viewer has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the work area. When the preview mode is activated, it can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
+The viewer has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the viewer. When the preview mode is activated, it can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 .. figure:: /_static/xsheet/viewer_modes.png
 
    Camera Stand view, 3D view and Camera view modes.
 
-At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Viewer <using_the_work_area>`  ), some others are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
+At the bottom of the viewer another customizable set of buttons is available. Some are used for playback (see  :ref:`Using the Viewer <using_the_work_area>`  ), some others are relevant only when using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 Additional elements like a field guide, or the table, can be displayed or hidden, and the background color can be set (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
@@ -35,15 +35,15 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 
     - The **Camera View** button (|camera_view|) is for keeping the box representing the camera still, while all of the other elements move in relation to its position. It can help you to better understand the shot when there are camera trucks, or rotations.
 
-    .. note:: When a frame is selected in the Level Strip pane, the view mode is set accordingly to display that level only. Pressing one of these buttons will revert the viewer back to show the whole scene content. 
+    .. note:: When a frame is selected in the Level Strip, the view mode is set accordingly to display that level only. Pressing one of these buttons will revert the viewer back to showing the whole scene content. 
 
 .. tip:: **To freeze/un-freeze the viewer:**
 
-    Click the Freeze button (|freeze|) in the work area title bar to freeze/unfreeze the displayed content; when activated the word frozen is displayed at the center of the work area.
+    Click the Freeze button (|freeze|) in the viewer title bar to freeze/unfreeze the displayed content; when activated the word frozen is displayed at the center of the work area.
 
 .. tip:: **To update the viewer content when it is frozen:**
 
-    Move the pointer to the viewer area.
+    Move the pointer over the viewer.
 
 
 .. _using_the_file_browser:
