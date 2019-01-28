@@ -23,17 +23,13 @@ The viewer, or work area, has different modes of visualizing the scene contents.
 
 At the bottom of the work area another customizable set of buttons is available. Some are used for the playback (see  :ref:`Using the Work Area <using_the_work_area>`  ), some others are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>`  and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
-
-
 Additional elements like a field guide, or the table, can be displayed or hidden, and the background color can be set (see  :ref:`Customizing the Work Area <customizing_the_work_area>`  ).
 
-.. tip:: **To switch the view mode in the work area:**
+.. tip:: **To switch the view mode in the viewer:**
 
     Use the buttons available in the work area title bar to do the following:
 
     - The Camera Stand View button (|camera_stand|) is for standard view, where any part of the work area can be displayed. When playing back the scene, the work area stands still, while all of the other elements, including the camera, move in relation to its position.
-
-
 
     - The 3D View button (|3d|) is for activating or deactivating the 3D view of the elements composing the scene (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ).
 
@@ -44,8 +40,6 @@ Additional elements like a field guide, or the table, can be displayed or hidden
 .. tip:: **To freeze/un-freeze the viewer:**
 
     Click the Freeze button (|freeze|) in the work area title bar to freeze/unfreeze the displayed content; when activated the word frozen is displayed at the center of the work area.
-
-
 
 .. tip:: **To update the viewer content when it is frozen:**
 
