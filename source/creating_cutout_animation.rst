@@ -40,7 +40,7 @@ In the tool options bar you can set the following:
 
 Building a Skeleton
 -------------------
-When the Skeleton tool (|skeleton|) mode is set to Build Skeleton, it is possible to set pivot points and links between sections by using the handle available in the work area.
+When the Skeleton tool (|skeleton|) mode is set to Build Skeleton, it is possible to set pivot points and links between sections by using the handle available in the viewer.
 
 |handle|
 
@@ -64,9 +64,9 @@ A basic model is made of sections linked to each other by their centers. It is s
 
 |basic_model|
 
-By default each section has a center that is placed at the center of the work area. When creating a model, this center has to be moved to where the pivot point for that specific section has to be.
+By default each section has a center that is placed at the center of the viewer. When creating a model, this center has to be moved to where the pivot point for that specific section has to be.
 
-The Skeleton tool (|skeleton|) allows you, both, to change the center position of the currently selected model section, and to link it to the center of another section visible in the work area.
+The Skeleton tool (|skeleton|) allows you, both, to change the center position of the currently selected model section, and to link it to the center of another section visible in the viewer.
 
 Usually it is simpler to start working from the parent section, then link the other sections one by one, following one limb at a time. For example first set the center of the model trunk, then set the arm pivot point and link the arm to the trunk, then set the forearm pivot point and link the forearm to the arm, then set the hand pivot point and link the hand to the forearm, and so on.
 
@@ -75,7 +75,7 @@ In case the sections of your model are drawn in the right place, setting the piv
 
 .. tip:: **To select a model section:**
 
-    Select the Skeleton tool (|skeleton|), set the mode to Build Skeleton, and click the section in the work area.
+    Select the Skeleton tool (|skeleton|), set the mode to Build Skeleton, and click the section in the viewer.
 
 .. tip:: **To set the pivot point of the selected section:**
 
@@ -112,11 +112,11 @@ By using hooks you can specify, drawing by drawing, where the pivot points have 
 
 For example, by placing hooks on the drawings of the trunk and on the limbs, where they have to be connected, and defining the links by using hooks instead of centers, the limbs will follow the trunk even if it is bending.
 
-The Skeleton tool (|skeleton|) allows you, both, to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the work area.
+The Skeleton tool (|skeleton|) allows you, both, to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the viewer.
 
 Hooks have to be placed for each character model section where you want the joints to be. For example, a trunk may have five hooks, one for the head, two for the arms and two for the legs; a forearm may have two hooks, one for the elbow and one for the wrist. 
 
-When using the Hook tool (|hook|) for defining hooks for the model sections, the Snap option can be activated (see :ref:`Using Hooks <using_hooks>`  ). In this way it is possible to place hooks exactly in the same position of hooks already defined for other animation levels visible in the work area, or, in case the level is a Toonz vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the Tape tool). 
+When using the Hook tool (|hook|) for defining hooks for the model sections, the Snap option can be activated (see :ref:`Using Hooks <using_hooks>`  ). In this way it is possible to place hooks exactly in the same position of hooks already defined for other animation levels visible in the viewer, or, in case the level is a Toonz vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the Tape tool). 
 
 This means that, in case the model sections are drawn in the right place, you can define perfectly overlapping hooks, so that limbs preserve their position when hooks are linked; or you can use regular shapes in Toonz vector drawings, such as circles, to define the overlapping areas of the model limbs, and consequently place hooks exactly at their center to achieve a perfect match when hooks are linked.
 
@@ -137,7 +137,7 @@ In the latter case a hook of the selected section and a hook of another section 
 
 .. tip:: **To select a model section:**
 
-    Select the Skeleton tool (|skeleton|), set the mode to Build Skeleton, and click the section in the work area.
+    Select the Skeleton tool (|skeleton|), set the mode to Build Skeleton, and click the section in the viewer.
 
 .. tip:: **To set a hook as the pivot point of the selected section:**
 
@@ -170,7 +170,7 @@ Animating Models
 ----------------
 When the Skeleton tool (|skeleton|) mode is set to Animate, it is possible to set positions for the model sections at different frames, thus defining an animation.
 
-In the work area it is possible to select a model section and perform the following tasks:
+In the viewer it's possible to select a model section and perform the following tasks:
 
 - Click anywhere to rotate the current section.
 
@@ -195,11 +195,11 @@ In case a model section is an animation level consisting of several drawing inst
 
 .. tip:: **To select a model section:**
 
-    Choose the Skeleton tool (|skeleton|), set the mode to Animate, and click the section in the work area.
+    Choose the Skeleton tool (|skeleton|), set the mode to Animate, and click the section in the viewer.
 
 .. tip:: **To rotate the selected section:**
 
-    Click and drag anywhere in the work area.
+    Click and drag anywhere in the viewer.
 
 .. tip:: **To move the selected section:**
 
