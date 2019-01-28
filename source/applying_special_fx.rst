@@ -113,7 +113,7 @@ Inserting Special FX
 ''''''''''''''''''''
 Special FX can be inserted or added in the schematic, or replace previously added FX nodes, either from and FX browser window, or from drop-down menus that open when right-clicking nodes or in the schematic area. Both are organized in folders/submenus containing sets of FX; if some presets are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
 
- |Toonz71_390| 
+ |FX_Browser| 
 
 When inserting FX, they will be placed along the link that starts from the selected node output port; when adding FX, they will be placed at the end of a new link that will start from the selected node output port.
 
@@ -125,7 +125,7 @@ Three different types of special FX can be used in the schematic, each with a di
 
 - Basic FX, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled Source, and an output port on the right. 
 
- |Toonz71_391| 
+ |Basic_FX_Example| 
 
 To affect a column, they have to be inserted in the link from the column to the xsheet, so that the column node is connected to the FX input port, and the FX node output port is connected to the xsheet node. 
 
@@ -135,13 +135,13 @@ If several FX are applied in a chain, they will be applied one after the other, 
 
 To affect a column, they have to be inserted into the link from the column to the xsheet, so that the column node is connected to the first FX input port labelled Source, while the other columns are connected to the other input ports, whose labels depend on the effect; the FX node output port has to be connected to the xsheet node. 
 
- |Toonz71_392| 
+ |Combined_FX_Example| 
 
 For example in case of a Matte In effect, the column to be matted has to be linked to the Source input port, the matte column has to be linked to the Matte input port, and the output port has to be connected to the xsheet node.
 
 - FX that create computer generated images, such as the Radial Gradient, that are exposed in xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These FX nodes have to be connected to the xsheet node to be rendered, or can be connected to other FX nodes.
 
- |Toonz71_393| 
+ |Generated_FX_Example| 
 
 .. tip:: **To open the FX browser:**
 
@@ -376,7 +376,8 @@ The parameter specific set key button may have the following colors:
 
     - It is outlined in red if you change the parameter value and the current frame does not have a key for the parameter.
 
-Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined.  |Toonz71_401| 
+Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined.  
+|FX_Settings_Example| 
 
 If no key values are defined, parameters you set will be used throughout the scene.
 
@@ -502,7 +503,7 @@ Some special FX may require the definition of a color, or a color spectrum.
 
 Colors can be defined by editing the related Red, Green, Blue and Alpha values, or by using the Style Editor. 
 
- |Toonz71_414| 
+ |Defining_Colors_Example| 
 
 Color spectrums, i.e. a series of colors defining a continuous gradient, can be defined by adding any color you need, and editing each color separately. The color in the spectrum can be moved to set the distance between two colors and the related gradient.
 
@@ -539,7 +540,7 @@ A particular configuration and animation of FX parameters can be saved as a pres
 
 When a preset for a particular effect is saved, in the FX Browser the effect icon turns into a folder containing the saved preset, with the folder icon still selectable to insert the effect with its default values; in the drop-down menus the effect has an additional drop down menu where the first item can be selected to insert the effect with its default values.
 
- |Toonz71_415| 
+ |Creating_Presets_Example| 
 
 Presets are saved in the projectroot, in the ``fxs\preset`` folder. This allows the presets to be available on all the computers sharing the same Projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
@@ -635,7 +636,7 @@ Background
 
 Checkerboard
 ~~~~~~~~~~~~
- |Toonz71_417| 
+ |Checkerboard| 
 
 Creates in the selected column a layer with a checkerboard defined by two Colors, and a grid Size. 
 
@@ -645,7 +646,7 @@ Creates in the selected column a layer with a checkerboard defined by two Colors
 
 Color Card
 ~~~~~~~~~~
- |Toonz71_418| 
+ |Color_Card| 
 
 Creates in the selected column a layer of the set Color. It can be used, for example, as a background color or to create a colorize effect by applying it combined with a multiply effect.
 
@@ -653,7 +654,7 @@ Creates in the selected column a layer of the set Color. It can be used, for exa
 
 Kaleido
 ~~~~~~~
- |Toonz71_419| 
+ |Kaleido| 
 
 Repeats the Source generating a kaleidoscopic effect.
 
@@ -665,7 +666,7 @@ The angle of reflection, and the number of iterations can be set in the appropri
 
 Tile
 ~~~~
- |Toonz71_420| 
+ |Tile| 
 
 Repeats the Source content in order to define a larger image: the Tile mode forms a pattern that completely fills the camera shot, the Tile Horizontally repeats the source content horizontally; the Tile Vertically repeats the source content vertically.
 
@@ -681,7 +682,7 @@ Blur
 
 Blur
 ~~~~
- |Toonz71_421| 
+ |Blur| 
 
 Softens the Source content, creating an out of focus effect, according to a specific Intensity.
 
@@ -689,7 +690,7 @@ Softens the Source content, creating an out of focus effect, according to a spec
 
 Directional Blur
 ~~~~~~~~~~~~~~~~
- |Toonz71_422| 
+ |Directional_Blur| 
 
 Blurs the Source content according to a specific Intensity along a specific direction defined by the Angle. 
 
@@ -703,7 +704,7 @@ The Bidirectional option applies the blur also on the other side of the directio
 
 Local Blur
 ~~~~~~~~~~
- |Toonz71_423| 
+ |Local_Blur| 
 
 Blurs the Source content according to the brightness value of the node content connected to the Reference input handle. The Intensity value amplifies uniformly the blur given by the Reference node content.
 
@@ -721,7 +722,7 @@ If the movement is constant between consecutive frames, you can increase or decr
 
 Radial Blur
 ~~~~~~~~~~~
- |Toonz71_424| 
+ |Radial_Blur| 
 
 Blurs along radial lines whose origin is the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius. 
 
@@ -731,7 +732,7 @@ Blurs along radial lines whose origin is the set Center, defined by horizontal (
 
 Spin Blur
 ~~~~~~~~~
- |Toonz71_425| 
+ |Spin_Blur| 
 
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius.
 
@@ -747,7 +748,7 @@ Distort
 
 Free Distort
 ~~~~~~~~~~~~
- |Toonz71_426| 
+ |Free_Distort| 
 
 Distorts the Source content according to the position of four points, defined by horizontal (X) and vertical (Y) coordinates. For each point you can set the actual position and its origin, to determine which feature of the image will be distorted to the new position. 
 
@@ -761,7 +762,7 @@ To better set the origin position for each point, you can use the Deactivate opt
 
 Linear Wave
 ~~~~~~~~~~~
- |Toonz71_427| 
+ |Linear_Wave| 
 
 Distorts the Source content creating a wave effect that uses an automatically generated displacement map image. The Quantity value sets the number of waves; the Period sets the distance between waves; the Cycle shifts distortion in the wave direction.
 
@@ -775,7 +776,7 @@ The amount of distortion is controlled by the Intensity value; the  of the disto
 
 Perlin Noise
 ~~~~~~~~~~~~
- |Toonz71_428| 
+ |Perlin_Noise| 
 
 Distorts the Source content by using a computer-generated displacement map image whose type can be chosen between Clouds and Marble/Wood.
 
@@ -789,7 +790,7 @@ The Alpha option adds also a transparency displacement to fully-opaque images.
 
 Random Wave
 ~~~~~~~~~~~
- |Toonz71_429| 
+ |Random_Wave| 
 
 Distorts the Source content creating a random wave effect that uses an automatically generated displacement map image. It can be used, for instance, to create a reflection on a water surface, or an underwater view. 
 
@@ -805,7 +806,7 @@ The amount of distortion is controlled by the Intensity value; the  of the disto
 
 Ripple
 ~~~~~~
- |Toonz71_430| 
+ |Ripple| 
 
 Distorts the Source content creating a circular wave effect that uses an automatically generated displacement map image. The Quantity value sets the number of ripples; the Period value sets the distance between ripples; the Cycle shifts the ripple distortion, with increasing values expanding the ripples, and decreasing values collapsing them.
 
@@ -819,7 +820,7 @@ The amount of distortion is controlled by the Intensity value; the  of the disto
 
 Warp
 ~~~~
- |Toonz71_431| 
+ |Warp| 
 
 Distorts the Source content according to the brightness variation of the node content connected to the Warper input handle, that is used as a displacement map image affecting the Source content.
 
@@ -835,7 +836,7 @@ Gradients
 
 Diamond Gradient
 ~~~~~~~~~~~~~~~~
- |Toonz71_432| 
+ |Diamond_Gradient| 
 
 Creates in the selected column a gradient, that goes hyperbolically from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
@@ -845,7 +846,7 @@ Creates in the selected column a gradient, that goes hyperbolically from the cen
 
 Four Points Gradient
 ~~~~~~~~~~~~~~~~~~~~
- |Toonz71_433| 
+ |Four_Points_Gradient| 
 
 Creates in the selected column a gradient defined by four Colors, defined by Red, Green, Blue and Alpha values, whose source Points can be placed where needed defining horizontal (X) and vertical (Y) coordinates.
 
@@ -855,7 +856,7 @@ Creates in the selected column a gradient defined by four Colors, defined by Red
 
 Linear Gradient
 ~~~~~~~~~~~~~~~
- |Toonz71_434| 
+ |Linear_Gradient| 
 
 Creates in the selected column a gradual blend between two Colors defined by Red, Green, Blue and Alpha values. The Size controls the area of the gradient between the two colors.
 
@@ -867,7 +868,7 @@ You can also add a Distortion Wave on the linear gradient: the Amplitude sets th
 
 Multi Linear Gradient
 ~~~~~~~~~~~~~~~~~~~~~
- |Toonz71_435| 
+ |Multi_Linear_Gradient| 
 
 Creates in the selected column a multi linear gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
 
@@ -879,7 +880,7 @@ You can also add a Wave distortion on the multi linear gradient: the Amplitude s
 
 Multi Radial Gradient
 ~~~~~~~~~~~~~~~~~~~~~
- |Toonz71_436| 
+ |Multi_Radial_Gradient| 
 
 Creates in the selected column a multi radial gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
 
@@ -889,7 +890,7 @@ Creates in the selected column a multi radial gradient defined by a color spectr
 
 Radial Gradient
 ~~~~~~~~~~~~~~~
- |Toonz71_437| 
+ |Radial_Gradient| 
 
 Creates in the selected column a gradual blend between two colors, defined by Red, Green, Blue and Alpha values, shading them in a circular pattern. The Inner Size controls the area where the gradient between the two colors begins; the Outer Size where it ends.
 
@@ -899,7 +900,7 @@ Creates in the selected column a gradual blend between two colors, defined by Re
 
 Spiral
 ~~~~~~
- |Toonz71_438| 
+ |Spiral| 
 
 Creates in the selected column a spiral pattern gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Frequency sets the size and number of the spires; the Phase shifts the gradient colors.
 
@@ -907,7 +908,7 @@ Creates in the selected column a spiral pattern gradient defined by a color spec
 
 Square Gradient
 ~~~~~~~~~~~~~~~
- |Toonz71_439| 
+ |Square_Gradient| 
 
 Creates in the selected column a square gradient, that goes linearly from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
@@ -921,7 +922,7 @@ Image Adjust
 
 Adjust Levels
 ~~~~~~~~~~~~~
- |Toonz71_440| 
+ |Adjust_Levels| 
 
 Adjusts the highlights and shadows of the Source content by remapping pixels intensity according to the Input and Output levels values for the RGB, Red, Green, Blue and Alpha channels; it also controls the Gamma value for each channel separately.
 
@@ -933,7 +934,7 @@ For each channel the Output values remaps pixel intensity whose value is lower t
 
 Brightness & Contrast
 ~~~~~~~~~~~~~~~~~~~~~
- |Toonz71_441| 
+ |Brightness_&_Contrast| 
 
 Increases or decreases the brightness and contrast of the Source content. 
 
@@ -941,7 +942,7 @@ Increases or decreases the brightness and contrast of the Source content.
 
 Despeckle
 ~~~~~~~~~
- |Toonz71_442| 
+ |Despeckle| 
 
 Elimantes small imperfections (dirt, scratches, stains and similar) of the drawing. The size in pixels of the s that will be retouched can be defined in the Size input text field. The background of the images can be Transparent or White, the choise is available in the Detect On menu.
 
@@ -951,7 +952,7 @@ In the preview area is possible to check the results to avoid erasing s relevant
 
 Channel Mixer
 ~~~~~~~~~~~~~
- |Toonz71_443| 
+ |Channel_Mixer| 
 
 Swaps the channels of the Source content. For each channel you can set if it remains as it is, or if you want it to have another channel mixed. For example to leave the red channel as it is, Red to Red is 1, the other channels to Red are 0; by setting Green to Red to 0.5 adds half intensity of the green channel to the red one.
 
@@ -961,7 +962,7 @@ It can be used for example to create a black and white key for an image with the
 
 Curves
 ~~~~~~
- |Toonz71_444| 
+ |Curves| 
 
 Adjusts the tonal range of the Source content by remapping pixels intensity according to a tonal curve for the RGB, Red, Green, Blue and Alpha channels.
 
@@ -977,7 +978,7 @@ The Linear option constrains the curve to a series of straight segments.
 
 Gamma
 ~~~~~
- |Toonz71_445| 
+ |Gamma| 
 
 Changes the gamma value of the Source content.
 
@@ -985,7 +986,7 @@ Changes the gamma value of the Source content.
 
 Invert
 ~~~~~~
- |Toonz71_446| 
+ |Invert| 
 
 Inverts the color values of the Source content, e.g. makes a positive black and white image negative, or a positive one from a scanned black and white negative. 
 
@@ -993,7 +994,7 @@ Inverts the color values of the Source content, e.g. makes a positive black and 
 
 Multitone
 ~~~~~~~~~
- |Toonz71_447| 
+ |Multitone| 
 
 Applies to the Source content the colors defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) according to the image brightness. The original image is turned into black and white and the color on the far left of the spectrum will be use for black pixels, the color on the far right for white pixels, and in-between colors for in-between grey pixels. 
 
@@ -1001,7 +1002,7 @@ Applies to the Source content the colors defined by a color spectrum (see  :ref:
 
 RGBA Cut
 ~~~~~~~~
- |Toonz71_448| 
+ |RGBA_Cut| 
 
 Delimits the Minimum and the Maximum values of the Red, Green, Blue and Alpha components of the Source content. The maximum can be decreased from 255, the original value, to 0, when no red, green, blue or alpha component will be visible. The minimum can be increased from 0, the original value, to 255, when the red, green, blue components will be saturated, and alpha will be fully opaque.
 
@@ -1009,7 +1010,7 @@ Delimits the Minimum and the Maximum values of the Red, Green, Blue and Alpha co
 
 RGB Fade
 ~~~~~~~~
- |Toonz71_449| 
+ |RGB_Fade| 
 
 Fades the Source content toward a color defined by Red, Green and Blue values. The Intensity, expressed as a percentage, ranges from 0 (no fade) to 100 (fade to full color).
 
@@ -1017,7 +1018,7 @@ Fades the Source content toward a color defined by Red, Green and Blue values. T
 
 RGBA Scale
 ~~~~~~~~~~
- |Toonz71_450| 
+ |RGBA_Scale| 
 
 Changes the percentage of the Red, Green, Blue and Alpha components of the Source content. At 0 there is no red, green, blue or alpha component; at 100 the components have their original value.
 
@@ -1025,7 +1026,7 @@ Changes the percentage of the Red, Green, Blue and Alpha components of the Sourc
 
 HSV Scale
 ~~~~~~~~~
- |Toonz71_451| 
+ |HSV_Scale| 
 
 Shifts the Hue, Saturation and Value values of the Source content. Hue ranges from -180 to 180; Saturation and Value from -100 to 100. All the three settings preserve their original value at 0.
 
@@ -1033,7 +1034,7 @@ Shifts the Hue, Saturation and Value values of the Source content. Hue ranges fr
 
 Sharpen
 ~~~~~~~
- |Toonz71_452| 
+ |Sharpen| 
 
 Increases the sharpness of the Source content according to a specific Intensity.
 
@@ -1045,7 +1046,7 @@ Layer Blending
 
 Add
 ~~~
- |Toonz71_453| 
+ |Add| 
 
 Adds the red, green and blue values of the Up node content to the Down one, pixel by pixel. 
 
@@ -1057,7 +1058,7 @@ The Intensity value expresses the percentage of values used in the addition; a n
 
 Color Burn
 ~~~~~~~~~~
- |Toonz71_454| 
+ |Color_Burn| 
 
 Darkens the pixel colors of the Down node content in order to reflect the color of the Up node content. The white in the Up node content does not affect the result.
 
@@ -1067,7 +1068,7 @@ If no Down node is defined, the color burning operation is applied to all the im
 
 Color Dodge
 ~~~~~~~~~~~
- |Toonz71_455| 
+ |Color_Dodge| 
 
 Brightens the pixel colors of the Down node content in order to reflect the color of the Up node content. The black in the up node content does not affect the result.
 
@@ -1077,7 +1078,7 @@ If no Down node is defined, the color dodging operation is applied to all the im
 
 Cross Dissolve
 ~~~~~~~~~~~~~~
- |Toonz71_456| 
+ |Cross_Dissolve| 
 
 Creates a cross-dissolve between the Up and Down node content. When the Intensity value is 0, only the Down node content is visible; when it is 100, only the Up one.
 
@@ -1085,7 +1086,7 @@ Creates a cross-dissolve between the Up and Down node content. When the Intensit
 
 Darken
 ~~~~~~
- |Toonz71_457| 
+ |Darken| 
 
 Compares the pixels color of the Up and Down node content and selects the darker one as the result color. The white in the Up node content does not affect the result; the black gives a black result.
 
@@ -1095,7 +1096,7 @@ If only one node is defined, the darkening operation is applied to all the image
 
 Dissolve
 ~~~~~~~~
- |Toonz71_458| 
+ |Dissolve| 
 
 Eliminates randomly pixels from the Source content according to the set Intensity. 
 
@@ -1103,7 +1104,7 @@ Eliminates randomly pixels from the Source content according to the set Intensit
 
 Lighten
 ~~~~~~~
- |Toonz71_459| 
+ |Lighten| 
 
 Compares the pixels color of the Up and Down node content and selects the lighter one as the result color. The black in the Up node content does not affect the result; the white gives a white result.
 
@@ -1113,7 +1114,7 @@ If only one node is defined, the lightening operation is applied to all the imag
 
 Local Transparency
 ~~~~~~~~~~~~~~~~~~
- |Toonz71_460| 
+ |Local_Transparency| 
 
 Applies a transparency to the Source content according to the brightness value of the node content connected to the Reference input port.
 
@@ -1123,7 +1124,7 @@ The Intensity value amplifies uniformly the transparency given by the Reference 
 
 Multiply
 ~~~~~~~~
- |Toonz71_461| 
+ |Multiply| 
 
 Multiplies the red, green, blue and alpha values of the connected noded content. 
 
@@ -1135,7 +1136,7 @@ If only one node is defined, the multiplying operation is applied to all the ima
 
 Over
 ~~~~
- |Toonz71_462| 
+ |Over| 
 
 Puts the connected nodes one over the other. Each time a node is connected a new port will be added, this way the overlap of columns can be defined regardless from the xsheet columns order.The columns order is up to bottom, where the column connected on the upper port is over the other ones.This can be used when you need to combine several nodes in a single one, for example to mask several columns with the same mask.
 
@@ -1153,7 +1154,7 @@ Full-color images which have a meaningful alpha channel come in two types: premu
 
 Screen
 ~~~~~~
- |Toonz71_463| 
+ |Screen| 
 
 Combines by multiplying the inverse of the pixels color of the Up and Down node content, giving a result color that is lighter than both Up and Down node pixels, except when one of them equals 0. The black in the Up node content does not affect the result; the white gives a white result.
 
@@ -1163,7 +1164,7 @@ If no Down node is defined, the screening operation is applied to all the images
 
 Subtract
 ~~~~~~~~
- |Toonz71_464| 
+ |Subtract| 
 
 Subtracts the red, green and blue values of the Up node content from the Down one, pixel by pixel. By activating the Alpha option, also the alpha information is considered. 
 
@@ -1173,7 +1174,7 @@ If only one node is defined, the screening operation is applied to all the image
 
 Transparency
 ~~~~~~~~~~~~
- |Toonz71_465| 
+ |Transparency| 
 
 Sets the transparency of the Source content. The Intensity, expressed as a percentage, ranges from 0, fully opaque, to 100, fully transparent.
 
@@ -1189,7 +1190,7 @@ Light
 
 Backlit
 ~~~~~~~
- |Toonz71_466| 
+ |Backlit| 
 
 Creates a backlit effect, using the Light node content as a light source affecting the Source node content. The light node content can be also faded to a Color defined by Red, Green and Blue values, according to the set Intensity.
 
@@ -1197,7 +1198,7 @@ Creates a backlit effect, using the Light node content as a light source affecti
 
 Body Highlight
 ~~~~~~~~~~~~~~
- |Toonz71_467| 
+ |Body_Highlight| 
 
 Creates a highlighted area for the Source node content, according to its alpha channel. You can set the Color of the highlight, as well as a Transparency and a Blur value to be applied.
 
@@ -1211,7 +1212,7 @@ The effect can be used to create a body shadow as well, by defining a black colo
 
 Cast Shadow
 ~~~~~~~~~~~
- |Toonz71_468| 
+ |Cast_Shadow| 
 
 Turns the Source content into a shadow that can be distorted and faded to a color with a variable transparency and blur.
 
@@ -1221,7 +1222,7 @@ The distortion can be done like in the Free Distort effect (see  :ref:`Free Dist
 
 Glow
 ~~~~
- |Toonz71_469| 
+ |Glow| 
 
 Creates a glowing effect, using the Light node content as a light glowing on the node content connected to the Source input port. The Blur and Brightness of the glowing can be set; the Light node content can be also faded to a color defined by Red, Green and Blue values, according to the set Intensity.
 
@@ -1231,7 +1232,7 @@ If no Source node is defined, the glowing is applied to all the images underlayi
 
 Light Spot
 ~~~~~~~~~~
- |Toonz71_470| 
+ |Light_Spot| 
 
 Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Reg, Green, Blue and Alpha values. The Softness sets the light diffusion in the area outside the spot.
 
@@ -1241,7 +1242,7 @@ Creates in the selected column a light spot whose size and color can be set resp
 
 Raylit
 ~~~~~~
- |Toonz71_471| 
+ |Raylit| 
 
 Places a source of light behind the Source node content, casting rays of light outside or inside the image outline.
 
@@ -1259,7 +1260,7 @@ The Invert option switches the casting of rays of light from the outside of the 
 
 Color Raylit
 ~~~~~~~~~~~~
- |Toonz71_472| 
+ |Color_Raylit| 
 
 Places a source of light behind the Source node content, casting rays of light outside the image outline.
 
@@ -1275,7 +1276,7 @@ The Keep image check-box determines if the original drawing is rendered in the o
 
 Target Spot
 ~~~~~~~~~~~
- |Toonz71_473| 
+ |Target_Spot| 
 
 Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Red, Green, Blue and Alpha values. The direction of the spot can be set by defining the Distance of the light from the table and the Angle between the light spot direction and the table. The Decay, that is the decrease of the light intensity according to the distance from table, can be controlled as well.
 
@@ -1289,7 +1290,7 @@ Matte
 
 Erode/Dilate
 ~~~~~~~~~~~~
- |Toonz71_474| 
+ |Erode_Dilate| 
 
 Morphologically erodes or dilates the alpha channel of the connected node by the specified value, where positive values correspond to dilations and negative ones to erosion.
 
@@ -1297,7 +1298,7 @@ Morphologically erodes or dilates the alpha channel of the connected node by the
 
 HSV Key
 ~~~~~~~
- |Toonz71_475| 
+ |HSV_Key| 
 
 The Type parameter specifies the filter shape to be applied, the square filter being faster than the circular. Key
 
@@ -1307,7 +1308,7 @@ Defines a chroma key for the Source content using the set Hue, Saturation and Va
 
 Matte In
 ~~~~~~~~
- |Toonz71_476| 
+ |Matte_In| 
 
 Makes the Source content visible only inside the opaque areas of the node content connected to the Matte input port.
 
@@ -1315,7 +1316,7 @@ Makes the Source content visible only inside the opaque areas of the node conten
 
 Matte Out
 ~~~~~~~~~
- |Toonz71_477| 
+ |Matte_Out| 
 
 Makes the source content visible only outside the opaque areas of the node content connected to the Matte input port.
 
@@ -1323,7 +1324,7 @@ Makes the source content visible only outside the opaque areas of the node conte
 
 RGB Key
 ~~~~~~~
- |Toonz71_478| 
+ |RGB_Key| 
 
 Defines a chroma key for the Source content using the set Red, Green and Blue values. You can set the range for each value by using the related Range slider. The selection can be inverted using the Invert button.
 
@@ -1331,7 +1332,7 @@ Defines a chroma key for the Source content using the set Red, Green and Blue va
 
 Visible Matte In
 ~~~~~~~~~~~~~~~~
- |Toonz71_479| 
+ |Visible_Matte_In| 
 
 Makes the Up node content visible only inside the opaque areas of the node content connected to the Down input port, keeping the Down node still visible.
 
@@ -1343,7 +1344,7 @@ Noise
 
 Noise
 ~~~~~
- |Toonz71_480| 
+ |Noise| 
 
 Adds a noise effect to the Source content according to the set Intensity. You can decide which noise component among Red, Green and Blue you want to activate, and if the result has to be in Black and White.
 
@@ -1351,7 +1352,7 @@ Adds a noise effect to the Source content according to the set Intensity. You ca
 
 Salt & Pepper Noise
 ~~~~~~~~~~~~~~~~~~~
- |Toonz71_481| 
+ |Salt_&_Pepper_Noise| 
 
 Adds a black and white noise effect to the Source content according to the set Intensity. 
 
@@ -1363,7 +1364,7 @@ Render
 
 Clouds
 ~~~~~~
- |Toonz71_482| 
+ |Clouds| 
 
 Creates in the selected column a fractal image whose type can be chosen between Clouds and Marble/Wood. The Size affect the grid used for generating the fractal image; a color spectrum defines the used colors (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ).
 
@@ -1387,7 +1388,7 @@ Stylize
 
 Color Emboss
 ~~~~~~~~~~~~
- |Toonz71_483| 
+ |Color_Emboss| 
 
 Traces the edges of the Source content with a combination of highlights and shadows. You can set the Intensity of the effect, and the Distance and Direction of the light that create the emboss effect. The Radius sets the depth of the embossing.
 
@@ -1397,7 +1398,7 @@ By connecting a node to the Controller port, the Source content will be embossed
 
 Emboss
 ~~~~~~
- |Toonz71_484| 
+ |Emboss| 
 
 Turns the Source content to grey areas and traces its edges with a combination of highlights and shadows. You can set the Intensity of the effect, and the Distance and Direction of the light that create the emboss effect. The Radius sets the depth of the embossing.
 
@@ -1405,7 +1406,7 @@ Turns the Source content to grey areas and traces its edges with a combination o
 
 Mosaic
 ~~~~~~
- |Toonz71_485| 
+ |Mosaic| 
 
 Turns the Source content in a series of tiles according to the specified Size and Distance. The color and transparency of the tiles are sampled from the source content. 
 
@@ -1415,7 +1416,7 @@ A Background Color can be set, and will be visible around the tiles. The tile sh
 
 Posterize
 ~~~~~~~~~
- |Toonz71_486| 
+ |Posterize| 
 
 Converts the Source content into a number of shades according to the set number of Levels. The shades depends on the brightness values of the source content and the levels are intended for each channel; for example, two levels produces six colors: two for the red, two for the green, and two for the blue.
 
@@ -1423,7 +1424,7 @@ Converts the Source content into a number of shades according to the set number 
 
 Solarize
 ~~~~~~~~
- |Toonz71_487| 
+ |Solarize| 
 
 Blends a negative and a positive version of the Source content, as if exposing a photographic print briefly to light during development. You can set the Intensity of the effect and control the Peak Edge, that is the amount of positive and negative image that is used in the blend.
 
@@ -1442,7 +1443,7 @@ Toonz Level special FX have to be always applied first when a series of special 
 
 Art Contour
 ~~~~~~~~~~~
- |Toonz71_488| 
+ |Art_Contour| 
 
 Creates in the Source content a pattern, by repeating the Controller node content, along lines painted with styles whose indexes are specified in the Color Indexes text field. It can be used for example to create scattered brush, or hair and fur effects along drawing lines.
 
@@ -1460,7 +1461,7 @@ The Orientation sets the Minimum and Maximum rotation angle for the images used 
 
 Calligraphic Line
 ~~~~~~~~~~~~~~~~~
- |Toonz71_489| 
+ |Calligraphic_Line| 
 
 Changes in the Source content the thickness of the drawing lines painted with styles whose indexes are specified in the Color Indexes text field. 
 
@@ -1472,7 +1473,7 @@ The Smoothness sets the smoothness of the passage between sections of the lines 
 
 Color Blending
 ~~~~~~~~~~~~~~
- |Toonz71_490| 
+ |Color_Blending| 
 
 Blends in the Source content lines and areas painted with styles whose indexes are specified in the Color Indexes text field. It can be used for example to blend shadow and highlight areas with the plain colored area, or to create gradients of colors.
 
@@ -1484,7 +1485,7 @@ The No Blending over Other Colors option stops the blending as soon as a line, o
 
 External Palette
 ~~~~~~~~~~~~~~~~
- |Toonz71_491| 
+ |External_Palette| 
 
 Applies to the Source content the palette node connected to the Palette input port; if a column node is connected to the Palette input port, the palette related to its content will be considered. 
 
@@ -1494,7 +1495,7 @@ The original styles of the Toonz levels contained in the source node are replace
 
 Outline
 ~~~~~~~
- |Toonz71_492| 
+ |Outline| 
 
 Changes in the Source content the thickness of the drawing external outline. 
 
@@ -1506,7 +1507,7 @@ The Smoothness sets the smoothness of the passage between sections of the lines 
 
 Palette Filter
 ~~~~~~~~~~~~~~
- |Toonz71_493| 
+ |Palette_Filter| 
 
 Filters the styles of the Source content palette according to the indexes specified in the Color Indexes text field.
 
@@ -1516,7 +1517,7 @@ The Apply To option menu lets you choose if you want to affect Lines & Area, onl
 
 Pinned Texture
 ~~~~~~~~~~~~~~
- |Toonz71_494| |Toonz71_494_2| 
+ |Pinned_Texture| |Pinned_Texture_2| 
 
 Distorts the Texture node content and applies it to the Source content areas that are painted with styles whose indexes are specified in the Color Indexes text field.
 
@@ -1526,7 +1527,7 @@ The distortion can be done like in the Free Distort effect (see  :ref:`Free Dist
 
 Texture
 ~~~~~~~
- |Toonz71_495| 
+ |Texture| 
 
 Applies the Texture node content to the Source content lines and areas that are painted with styles whose indexes are specified in the Color Indexes text field.
 
@@ -1549,7 +1550,7 @@ OpenToonz enables support for special fxs rendered through hardware-accelereted 
 
 Caustic
 ~~~~~~~
- |Toonz71_496| 
+ |Caustic| 
 
 Create in the selected column a simulation of the reflection of light on a water surface. Sets the color of the water defining the RGBA values of the Water Color parameter. 
 
@@ -1559,7 +1560,7 @@ The stage of the displacement map image can be controlled by using the Evolution
 
 Fireball
 ~~~~~~~~
- |Toonz71_497| 
+ |Fireball| 
 
 Create in the selected column a ball of flames erupting from a point.
 
@@ -1569,7 +1570,7 @@ A range of colors can be defined setting the RGBA values of color 1 and color 2.
 
 Glitter
 ~~~~~~~
- |Toonz71_498| 
+ |Glitter| 
 
 Adds cross-shaped light rays extending from the brightest part of an image.
 
@@ -1579,7 +1580,7 @@ Use Threshold to specify the cut-out on the input image's brightest part. Higher
 
 Star Sky
 ~~~~~~~~
- |Toonz71_499| 
+ |Star_Sky| 
 
 Creates, in the selected column, a simple star field with variable brightness with overlayed clouds. Sets the color of the overlayed clouds defining the RGBA values of the Cloud Color parameter. 
 
@@ -1591,7 +1592,7 @@ Use the Brightness parameters to define the brightness of the stars.
 
 Sun Flare
 ~~~~~~~~~
- |Toonz71_500| 
+ |Sun_Flare| 
 
 Creates, in the selected column, rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Cloud Color parameter. The number of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use the Sharpness parameter to make the rays sharper or smoother.
 
@@ -1599,7 +1600,7 @@ Creates, in the selected column, rays of colored light extending from a radial g
 
 Wavy
 ~~~~
- |Toonz71_501| 
+ |Wavy| 
 
 Creates a simple gradient with a colored 'wavy' pattern in the selected column.The waves colors are definied by setting the RGBA value of the Color and Color 2 parameters. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
 
@@ -1607,7 +1608,7 @@ Creates a simple gradient with a colored 'wavy' pattern in the selected column.T
 
 GPU Radial Blur
 ~~~~~~~~~~~~~~~
- |Toonz71_502| 
+ |GPU_Radial_Blur| 
 
 Blurs along radial lines whose origin is the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Safe Radius. The Blur Factor parameter sets the amount of blur.
 
@@ -1615,111 +1616,111 @@ Blurs along radial lines whose origin is the set Center, defined by horizontal (
 
 GPU Spin Blur
 ~~~~~~~~~~~~~
- |Toonz71_503| 
+ |GPU_Spin_Blur| 
 
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Safe Radius. The Blur parameter sets the amount of blur.
 
 
 
 
-.. |Toonz71_390| image:: /_static/sfx/Inserting_Special_FX/FX_Browser.png
-.. |Toonz71_391| image:: /_static/sfx/Inserting_Special_FX/Basic_FX_Example.png
-.. |Toonz71_392| image:: /_static/sfx/Inserting_Special_FX/Combined_FX_Example.png
-.. |Toonz71_393| image:: /_static/sfx/Inserting_Special_FX/Generated_FX_Example.png
-.. |Toonz71_401| image:: /_static/sfx/Editing_FX_Settings/FX_Settings_Example.png
+.. |FX_Browser| image:: /_static/sfx/Inserting_Special_FX/FX_Browser.png
+.. |Basic_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Basic_FX_Example.png
+.. |Combined_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Combined_FX_Example.png
+.. |Generated_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Generated_FX_Example.png
+.. |FX_Settings_Example| image:: /_static/sfx/Editing_FX_Settings/FX_Settings_Example.png
 .. |Toonz71_408| image:: /_static/Toonz71/Toonz71_408.gif
-.. |Toonz71_414| image:: /_static/sfx/Defining_Colors_and_Color_Spectrums/Defining_Colors_Example.png
-.. |Toonz71_415| image:: /_static/sfx/Creating_Presets/Creating_Presets_Example.png
-.. |Toonz71_417| image:: /_static/sfx/Special_FX_List/Background/Checkerboard.png
-.. |Toonz71_418| image:: /_static/sfx/Special_FX_List/Background/Color_Card.png
-.. |Toonz71_419| image:: /_static/sfx/Special_FX_List/Background/Kaleido.png
-.. |Toonz71_420| image:: /_static/sfx/Special_FX_List/Background/Tile.png
-.. |Toonz71_421| image:: /_static/sfx/Special_FX_List/Blur/Blur.png
-.. |Toonz71_422| image:: /_static/sfx/Special_FX_List/Blur/Directional_Blur.png
-.. |Toonz71_423| image:: /_static/sfx/Special_FX_List/Blur/Local_Blur.png
-.. |Toonz71_424| image:: /_static/sfx/Special_FX_List/Blur/Radial_Blur.png
-.. |Toonz71_425| image:: /_static/sfx/Special_FX_List/Blur/Spin_Blur.png
-.. |Toonz71_426| image:: /_static/sfx/Special_FX_List/Distort/Free_Distort.png
-.. |Toonz71_427| image:: /_static/sfx/Special_FX_List/Distort/Linear_Wave.png
-.. |Toonz71_428| image:: /_static/sfx/Special_FX_List/Distort/Perlin_Noise.png
-.. |Toonz71_429| image:: /_static/sfx/Special_FX_List/Distort/Random_Wave.png
-.. |Toonz71_430| image:: /_static/sfx/Special_FX_List/Distort/Ripple.png
-.. |Toonz71_431| image:: /_static/sfx/Special_FX_List/Distort/Warp.png
-.. |Toonz71_432| image:: /_static/sfx/Special_FX_List/Gradients/Diamond_Gradient.png
-.. |Toonz71_433| image:: /_static/sfx/Special_FX_List/Gradients/Four_Points_Gradient.png
-.. |Toonz71_434| image:: /_static/sfx/Special_FX_List/Gradients/Linear_Gradient.png
-.. |Toonz71_435| image:: /_static/sfx/Special_FX_List/Gradients/Multi_Linear_Gradient.png
-.. |Toonz71_436| image:: /_static/sfx/Special_FX_List/Gradients/Multi_Radial_Gradient.png
-.. |Toonz71_437| image:: /_static/sfx/Special_FX_List/Gradients/Radial_Gradient.png
-.. |Toonz71_438| image:: /_static/sfx/Special_FX_List/Gradients/Spiral.png
-.. |Toonz71_439| image:: /_static/sfx/Special_FX_List/Gradients/Square_Gradient.png
-.. |Toonz71_440| image:: /_static/sfx/Special_FX_List/Image_Adjust/Adjust_Levels.png
-.. |Toonz71_441| image:: /_static/sfx/Special_FX_List/Image_Adjust/Brightness_&_Contrast.png
-.. |Toonz71_442| image:: /_static/sfx/Special_FX_List/Image_Adjust/Despeckle.png
-.. |Toonz71_443| image:: /_static/sfx/Special_FX_List/Image_Adjust/Channel_Mixer.png
-.. |Toonz71_444| image:: /_static/sfx/Special_FX_List/Image_Adjust/Curves.png
-.. |Toonz71_445| image:: /_static/sfx/Special_FX_List/Image_Adjust/Gamma.png
-.. |Toonz71_446| image:: /_static/sfx/Special_FX_List/Image_Adjust/Invert.png
-.. |Toonz71_447| image:: /_static/sfx/Special_FX_List/Image_Adjust/Multitone.png
-.. |Toonz71_448| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Cut.png
-.. |Toonz71_449| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Fade.png
-.. |Toonz71_450| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Scale.png
-.. |Toonz71_451| image:: /_static/sfx/Special_FX_List/Image_Adjust/HSV_Scale.png
-.. |Toonz71_452| image:: /_static/sfx/Special_FX_List/Image_Adjust/Sharpen.png
-.. |Toonz71_453| image:: /_static/sfx/Special_FX_List/Layer_Blending/Add.png
-.. |Toonz71_454| image:: /_static/sfx/Special_FX_List/Layer_Blending/Color_Burn.png
-.. |Toonz71_455| image:: /_static/sfx/Special_FX_List/Layer_Blending/Color_Dodge.png
-.. |Toonz71_456| image:: /_static/sfx/Special_FX_List/Layer_Blending/Cross_Dissolve.png
-.. |Toonz71_457| image:: /_static/sfx/Special_FX_List/Layer_Blending/Darken.png
-.. |Toonz71_458| image:: /_static/sfx/Special_FX_List/Layer_Blending/Dissolve.png
-.. |Toonz71_459| image:: /_static/sfx/Special_FX_List/Layer_Blending/Lighten.png
-.. |Toonz71_460| image:: /_static/sfx/Special_FX_List/Layer_Blending/Local_Transparency.png
-.. |Toonz71_461| image:: /_static/sfx/Special_FX_List/Layer_Blending/Multiply.png
-.. |Toonz71_462| image:: /_static/sfx/Special_FX_List/Layer_Blending/Over.png
-.. |Toonz71_463| image:: /_static/sfx/Special_FX_List/Layer_Blending/Screen.png
-.. |Toonz71_464| image:: /_static/sfx/Special_FX_List/Layer_Blending/Subtract.png
-.. |Toonz71_465| image:: /_static/sfx/Special_FX_List/Layer_Blending/Transparency.png
-.. |Toonz71_466| image:: /_static/sfx/Special_FX_List/Light/Backlit.png
-.. |Toonz71_467| image:: /_static/sfx/Special_FX_List/Light/Body_Highlight.png
-.. |Toonz71_468| image:: /_static/sfx/Special_FX_List/Light/Cast_Shadow.png
-.. |Toonz71_469| image:: /_static/sfx/Special_FX_List/Light/Glow.png
-.. |Toonz71_470| image:: /_static/sfx/Special_FX_List/Light/Light_Spot.png
-.. |Toonz71_471| image:: /_static/sfx/Special_FX_List/Light/Raylit.png
-.. |Toonz71_472| image:: /_static/sfx/Special_FX_List/Light/Color_Raylit.png
-.. |Toonz71_473| image:: /_static/sfx/Special_FX_List/Light/Target_Spot.png
-.. |Toonz71_474| image:: /_static/sfx/Special_FX_List/Matte/Erode_Dilate.png
-.. |Toonz71_475| image:: /_static/sfx/Special_FX_List/Matte/HSV_Key.png
-.. |Toonz71_476| image:: /_static/sfx/Special_FX_List/Matte/Matte_In.png
-.. |Toonz71_477| image:: /_static/sfx/Special_FX_List/Matte/Matte_Out.png
-.. |Toonz71_478| image:: /_static/sfx/Special_FX_List/Matte/RGB_Key.png
-.. |Toonz71_479| image:: /_static/sfx/Special_FX_List/Matte/Visible_Matte_In.png
-.. |Toonz71_480| image:: /_static/sfx/Special_FX_List/Noise/Noise.png
-.. |Toonz71_481| image:: /_static/sfx/Special_FX_List/Noise/Salt_&_Pepper_Noise.png
-.. |Toonz71_482| image:: /_static/sfx/Special_FX_List/Render/Clouds.png
-.. |Toonz71_483| image:: /_static/sfx/Special_FX_List/Stylize/Color_Emboss.png
-.. |Toonz71_484| image:: /_static/sfx/Special_FX_List/Stylize/Emboss.png
-.. |Toonz71_485| image:: /_static/sfx/Special_FX_List/Stylize/Mosaic.png
-.. |Toonz71_486| image:: /_static/sfx/Special_FX_List/Stylize/Posterize.png
-.. |Toonz71_487| image:: /_static/sfx/Special_FX_List/Stylize/Solarize.png
-.. |Toonz71_488| image:: /_static/sfx/Special_FX_List/Toonz_Level/Art_Contour.png
-.. |Toonz71_489| image:: /_static/sfx/Special_FX_List/Toonz_Level/Calligraphic_Line.png
-.. |Toonz71_490| image:: /_static/sfx/Special_FX_List/Toonz_Level/Color_Blending.png
-.. |Toonz71_491| image:: /_static/sfx/Special_FX_List/Toonz_Level/External_Palette.png
-.. |Toonz71_492| image:: /_static/sfx/Special_FX_List/Toonz_Level/Outline.png
-.. |Toonz71_493| image:: /_static/sfx/Special_FX_List/Toonz_Level/Palette_Filter.png
-.. |Toonz71_494| image:: /_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture.png
+.. |Defining_Colors_Example| image:: /_static/sfx/Defining_Colors_and_Color_Spectrums/Defining_Colors_Example.png
+.. |Creating_Presets_Example| image:: /_static/sfx/Creating_Presets/Creating_Presets_Example.png
+.. |Checkerboard| image:: /_static/sfx/Special_FX_List/Background/Checkerboard.png
+.. |Color_Card| image:: /_static/sfx/Special_FX_List/Background/Color_Card.png
+.. |Kaleido| image:: /_static/sfx/Special_FX_List/Background/Kaleido.png
+.. |Tile| image:: /_static/sfx/Special_FX_List/Background/Tile.png
+.. |Blur| image:: /_static/sfx/Special_FX_List/Blur/Blur.png
+.. |Directional_Blur| image:: /_static/sfx/Special_FX_List/Blur/Directional_Blur.png
+.. |Local_Blur| image:: /_static/sfx/Special_FX_List/Blur/Local_Blur.png
+.. |Radial_Blur| image:: /_static/sfx/Special_FX_List/Blur/Radial_Blur.png
+.. |Spin_Blur| image:: /_static/sfx/Special_FX_List/Blur/Spin_Blur.png
+.. |Free_Distort| image:: /_static/sfx/Special_FX_List/Distort/Free_Distort.png
+.. |Linear_Wave| image:: /_static/sfx/Special_FX_List/Distort/Linear_Wave.png
+.. |Perlin_Noise| image:: /_static/sfx/Special_FX_List/Distort/Perlin_Noise.png
+.. |Random_Wave| image:: /_static/sfx/Special_FX_List/Distort/Random_Wave.png
+.. |Ripple| image:: /_static/sfx/Special_FX_List/Distort/Ripple.png
+.. |Warp| image:: /_static/sfx/Special_FX_List/Distort/Warp.png
+.. |Diamond_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Diamond_Gradient.png
+.. |Four_Points_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Four_Points_Gradient.png
+.. |Linear_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Linear_Gradient.png
+.. |Multi_Linear_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Multi_Linear_Gradient.png
+.. |Multi_Radial_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Multi_Radial_Gradient.png
+.. |Radial_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Radial_Gradient.png
+.. |Spiral| image:: /_static/sfx/Special_FX_List/Gradients/Spiral.png
+.. |Square_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Square_Gradient.png
+.. |Adjust_Levels| image:: /_static/sfx/Special_FX_List/Image_Adjust/Adjust_Levels.png
+.. |Brightness_&_Contrast| image:: /_static/sfx/Special_FX_List/Image_Adjust/Brightness_&_Contrast.png
+.. |Despeckle| image:: /_static/sfx/Special_FX_List/Image_Adjust/Despeckle.png
+.. |Channel_Mixer| image:: /_static/sfx/Special_FX_List/Image_Adjust/Channel_Mixer.png
+.. |Curves| image:: /_static/sfx/Special_FX_List/Image_Adjust/Curves.png
+.. |Gamma| image:: /_static/sfx/Special_FX_List/Image_Adjust/Gamma.png
+.. |Invert| image:: /_static/sfx/Special_FX_List/Image_Adjust/Invert.png
+.. |Multitone| image:: /_static/sfx/Special_FX_List/Image_Adjust/Multitone.png
+.. |RGBA_Cut| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Cut.png
+.. |RGB_Fade| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Fade.png
+.. |RGBA_Scale| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Scale.png
+.. |HSV_Scale| image:: /_static/sfx/Special_FX_List/Image_Adjust/HSV_Scale.png
+.. |Sharpen| image:: /_static/sfx/Special_FX_List/Image_Adjust/Sharpen.png
+.. |Add| image:: /_static/sfx/Special_FX_List/Layer_Blending/Add.png
+.. |Color_Burn| image:: /_static/sfx/Special_FX_List/Layer_Blending/Color_Burn.png
+.. |Color_Dodge| image:: /_static/sfx/Special_FX_List/Layer_Blending/Color_Dodge.png
+.. |Cross_Dissolve| image:: /_static/sfx/Special_FX_List/Layer_Blending/Cross_Dissolve.png
+.. |Darken| image:: /_static/sfx/Special_FX_List/Layer_Blending/Darken.png
+.. |Dissolve| image:: /_static/sfx/Special_FX_List/Layer_Blending/Dissolve.png
+.. |Lighten| image:: /_static/sfx/Special_FX_List/Layer_Blending/Lighten.png
+.. |Local_Transparency| image:: /_static/sfx/Special_FX_List/Layer_Blending/Local_Transparency.png
+.. |Multiply| image:: /_static/sfx/Special_FX_List/Layer_Blending/Multiply.png
+.. |Over| image:: /_static/sfx/Special_FX_List/Layer_Blending/Over.png
+.. |Screen| image:: /_static/sfx/Special_FX_List/Layer_Blending/Screen.png
+.. |Subtract| image:: /_static/sfx/Special_FX_List/Layer_Blending/Subtract.png
+.. |Transparency| image:: /_static/sfx/Special_FX_List/Layer_Blending/Transparency.png
+.. |Backlit| image:: /_static/sfx/Special_FX_List/Light/Backlit.png
+.. |Body_Highlight| image:: /_static/sfx/Special_FX_List/Light/Body_Highlight.png
+.. |Cast_Shadow| image:: /_static/sfx/Special_FX_List/Light/Cast_Shadow.png
+.. |Glow| image:: /_static/sfx/Special_FX_List/Light/Glow.png
+.. |Light_Spot| image:: /_static/sfx/Special_FX_List/Light/Light_Spot.png
+.. |Raylit| image:: /_static/sfx/Special_FX_List/Light/Raylit.png
+.. |Color_Raylit| image:: /_static/sfx/Special_FX_List/Light/Color_Raylit.png
+.. |Target_Spot| image:: /_static/sfx/Special_FX_List/Light/Target_Spot.png
+.. |Erode_Dilate| image:: /_static/sfx/Special_FX_List/Matte/Erode_Dilate.png
+.. |HSV_Key| image:: /_static/sfx/Special_FX_List/Matte/HSV_Key.png
+.. |Matte_In| image:: /_static/sfx/Special_FX_List/Matte/Matte_In.png
+.. |Matte_Out| image:: /_static/sfx/Special_FX_List/Matte/Matte_Out.png
+.. |RGB_Key| image:: /_static/sfx/Special_FX_List/Matte/RGB_Key.png
+.. |Visible_Matte_In| image:: /_static/sfx/Special_FX_List/Matte/Visible_Matte_In.png
+.. |Noise| image:: /_static/sfx/Special_FX_List/Noise/Noise.png
+.. |Salt_&_Pepper_Noise| image:: /_static/sfx/Special_FX_List/Noise/Salt_&_Pepper_Noise.png
+.. |Clouds| image:: /_static/sfx/Special_FX_List/Render/Clouds.png
+.. |Color_Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Color_Emboss.png
+.. |Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Emboss.png
+.. |Mosaic| image:: /_static/sfx/Special_FX_List/Stylize/Mosaic.png
+.. |Posterize| image:: /_static/sfx/Special_FX_List/Stylize/Posterize.png
+.. |Solarize| image:: /_static/sfx/Special_FX_List/Stylize/Solarize.png
+.. |Art_Contour| image:: /_static/sfx/Special_FX_List/Toonz_Level/Art_Contour.png
+.. |Calligraphic_Line| image:: /_static/sfx/Special_FX_List/Toonz_Level/Calligraphic_Line.png
+.. |Color_Blending| image:: /_static/sfx/Special_FX_List/Toonz_Level/Color_Blending.png
+.. |External_Palette| image:: /_static/sfx/Special_FX_List/Toonz_Level/External_Palette.png
+.. |Outline| image:: /_static/sfx/Special_FX_List/Toonz_Level/Outline.png
+.. |Palette_Filter| image:: /_static/sfx/Special_FX_List/Toonz_Level/Palette_Filter.png
+.. |Pinned_Texture| image:: /_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture.png
 	:width: 45%
-.. |Toonz71_494_2| image:: /_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture_2.png
+.. |Pinned_Texture_2| image:: /_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture_2.png
 	:width: 45%
-.. |Toonz71_495| image:: /_static/sfx/Special_FX_List/Toonz_Level/Texture.png
-.. |Toonz71_496| image:: /_static/sfx/Special_FX_List/Shaders/Caustic.png
-.. |Toonz71_497| image:: /_static/sfx/Special_FX_List/Shaders/Fireball.png
-.. |Toonz71_498| image:: /_static/sfx/Special_FX_List/Shaders/Glitter.png
-.. |Toonz71_499| image:: /_static/sfx/Special_FX_List/Shaders/Star_Sky.png
-.. |Toonz71_500| image:: /_static/sfx/Special_FX_List/Shaders/Sun_Flare.png
-.. |Toonz71_501| image:: /_static/sfx/Special_FX_List/Shaders/Wavy.png
-.. |Toonz71_502| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Radial_Blur.png
-.. |Toonz71_503| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Spin_Blur.png
+.. |Texture| image:: /_static/sfx/Special_FX_List/Toonz_Level/Texture.png
+.. |Caustic| image:: /_static/sfx/Special_FX_List/Shaders/Caustic.png
+.. |Fireball| image:: /_static/sfx/Special_FX_List/Shaders/Fireball.png
+.. |Glitter| image:: /_static/sfx/Special_FX_List/Shaders/Glitter.png
+.. |Star_Sky| image:: /_static/sfx/Special_FX_List/Shaders/Star_Sky.png
+.. |Sun_Flare| image:: /_static/sfx/Special_FX_List/Shaders/Sun_Flare.png
+.. |Wavy| image:: /_static/sfx/Special_FX_List/Shaders/Wavy.png
+.. |GPU_Radial_Blur| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Radial_Blur.png
+.. |GPU_Spin_Blur| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Spin_Blur.png
 .. |camera_stand| image:: /_static/sfx/camera_stand.png
 .. |fit_to_window| image:: /_static/sfx/fit_to_window.png
 .. |focus_on_current| image:: /_static/sfx/focus_on_current.png
