@@ -403,7 +403,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
     2. Choose the Tracker tool (|tracker|) and define the regions to be tracked.
 
-    3. Select the frame range in the Xsheet/timeline or in the level strip.
+    3. Select the frame range in the Xsheet/Timeline or in the level strip.
 
     4. Choose Level > Tracking, set the tracking options and click the Track button.
 
@@ -501,7 +501,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Select it in the stage schematic. 
 
-    - If the object is a column/layer, select it in the Xsheet/timeline.
+    - If the object is a column/layer, select it in the Xsheet/Timeline.
 
     - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the viewer to select the related column.
 
@@ -517,7 +517,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     3. Set the frame where you want to define the key by doing one of the following:
 
-    - Move the current frame cursor in the Xsheet/timeline or in the function editor.
+    - Move the current frame cursor in the Xsheet/Timeline or in the function editor.
 
     - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
@@ -596,15 +596,15 @@ If you want to set a key for an object transformation leaving its value as it is
 
 Changing Columns Stacking Order
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the Xsheet/timeline: Xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
+The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the Xsheet/Timeline: Xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
 
 This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element.
 
-By editing the position SO (i.e. stacking order) value it is possible to change and animate the element compositing order without editing the columns/layers position in the Xsheet/timeline.
+By editing the position SO (i.e. stacking order) value it is possible to change and animate the element compositing order without editing the columns/layers position in the Xsheet/Timeline.
 
-The SO default value for all the columns is 0, meaning that the Xsheet column (or timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the Xsheet/timeline; conversely if the SO value is lower it will be placed behind.
+The SO default value for all the columns is 0, meaning that the Xsheet column (or timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the Xsheet/Timeline; conversely if the SO value is lower it will be placed behind.
 
-.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of the others, ignoring both its Xsheet/timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
+.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of the others, ignoring both its Xsheet/Timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
 
 .. tip:: **To edit and animate a column/layer SO value:**
 
@@ -870,7 +870,7 @@ As soon as objects are moved, projections on an imaginary floor and side wall le
 
 The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it's possible to define an additional Z position value in the tool options bar that sets the position at which the object has to keep its original size. 
 
-.. note:: Columns closer to the camera are displayed on top of the others, ignoring the Xsheet/timeline order and the SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the Xsheet/timeline order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+.. note:: Columns closer to the camera are displayed on top of the others, ignoring the Xsheet/Timeline order and the SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the Xsheet/Timeline order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
 .. tip:: **To enter the 3D environment:**
 

@@ -52,7 +52,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
     6. Adjust the Mesh Margin value. This parameter is expressed in pixels because it is used when the texture is projected on the mesh, the right amount of margin is needed to preserve the aliasing of the picture.
 
-    7. If you are creating a mesh from a sub-Xsheet, you can choose which elements of the sub-Xsheet will be used by the Plastic tools for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
+    7. If you are creating a mesh from a Sub-Xsheet, you can choose which elements of the Sub-Xsheet will be used by the Plastic tools for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
 
     8. Click the Apply button to create the mesh. Now you can see the mesh drawn in green colour in the main viewer, and a new purple column in the Xsheet next to the TC.
 
@@ -549,9 +549,9 @@ For more information about the mathematical Expression usage refer to (See  :ref
 
 .. _plastic_and_subxsheets:
 
-Plastic and sub-Xsheets
+Plastic and Sub-Xsheets
 ----------------------
-A sub-Xsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a sub-Xsheet is selected as starting element, all the columns in the sub-Xsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected sub-Xsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested sub-Xsheet with its own mesh and skeleton).
+A Sub-Xsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a Sub-Xsheet is selected as starting element, all the columns in the Sub-Xsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected Sub-Xsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested Sub-Xsheet with its own mesh and skeleton).
 
 
 

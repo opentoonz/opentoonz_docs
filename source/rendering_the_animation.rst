@@ -547,7 +547,7 @@ The names of the different output files are automatically generated in order to 
 
 .. note:: No output is displayed after the rendering, regardless of the Open Flipbook After Rendering option in the Preferences dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using sub-Xsheets and the Over FX (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a sub-Xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the Over FX (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
 
 
 .. _rendering_animations_with_alpha_channel_information:
@@ -577,7 +577,7 @@ By choosing the appropriate range in the output settings it is possible to rende
 
 If the scene contains some audio files and is rendered in a file format supporting audio, for example QuickTime MOV, all the audio files will be merged to form the soundtrack of the movie (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ). 
 
-.. note:: Audio files loaded in sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
+.. note:: Audio files loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
 As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz flipbook by activating the Open Flipbook after Rendering option in the Preferences > Interface dialog; it is also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it is also possible to listen to it.
 
