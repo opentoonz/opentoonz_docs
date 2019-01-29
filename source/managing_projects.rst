@@ -304,7 +304,7 @@ If the option Append $scenepath is activated, and you save the scene scene01 in 
 
 Projects
    Project01
-      +drawings
+      *+drawings*
          seq01
             **scene01**
 
@@ -312,7 +312,7 @@ If the $scenepath is used in the folder definition, with **+drawings** that is `
 
 Projects
    Project01
-      +scenes
+      *+scenes*
          scene01.tnz
             **+drawings**
 
