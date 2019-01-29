@@ -255,7 +255,10 @@ When default folders are defined by using a relative path, in the project browse
 
 For example, for the project Project01, with **+drawings** that is ``section01\prod drawings`` , the project browser will display the following:
 
-ProjectsProject01section01 *prod drawings* 
+Projects
+   Project01
+      section01
+         *prod drawings* 
 
 If the option Append $scenepath is activated, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
@@ -278,7 +281,8 @@ When default folders are defined by using an absolute path, in the project brows
 
 For example, for the project Project01, with **+drawings** that is ``C:\production\prod drawings`` on Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on Macintosh, the project browser will display the following:
 
-ProjectsProject01 *+drawings* 
+Projects
+   Project01 *+drawings* 
 
 where **+drawings** is an alias for ``C:\production\prod drawings`` on Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on Macintosh.
 
