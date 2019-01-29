@@ -258,14 +258,14 @@ For example, for the project Project01, with **+drawings** that is ``section01\p
 Projects
    Project01
       section01
-         *prod drawings* 
+         prod drawings
 
 If the option Append $scenepath is activated, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
 Projects
    Project01
       section01
-         *prod drawings*
+         prod drawings
             seq01
                scene01
 
@@ -275,7 +275,7 @@ Projects
    Project01
       seq01
          scene01
-            *prod drawings* 
+            prod drawings
 
 If the $scenepath is used in the folder definition, with +drawings that is ``mydrawings\$scenepath,`` and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
@@ -283,7 +283,7 @@ Projects
    Project01
       prod drawings
          seq01
-            *scene01* 
+            scene01
 
 
 .. _default_folders_with_absolute_paths:
@@ -296,7 +296,7 @@ For example, for the project Project01, with **+drawings** that is ``C:\producti
 
 Projects
    Project01
-      *+drawings* 
+      +drawings
 
 where **+drawings** is an alias for ``C:\production\prod drawings`` on Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on Macintosh.
 
@@ -304,7 +304,7 @@ If the option Append $scenepath is activated, and you save the scene scene01 in 
 
 Projects
    Project01
-      *+drawings*
+      +drawings
          seq01
             scene01
 
@@ -314,7 +314,7 @@ Projects
    Project01
       *+scenes*
          scene01.tnz
-            *+drawings* 
+            +drawings
 
 with **+drawings** that is ``C:\seq01\scene01\prod drawings`` on Windows, or ``/Volume/Macintosh HD/seq01/scene01/prod drawings`` on Macintosh, and is located under the related scene file (TNZ format).
 
