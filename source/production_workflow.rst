@@ -17,7 +17,7 @@ The following is an example of how OpenToonz allows the management of a traditio
 
 Scanning
 ~~~~~~~~
-Hand-drawn elements are first defined in an OpenToonz xsheet, and then acquired by using a scanner. These elements can consist of animation levels, i.e. sequences of drawings belonging to the same animation, or background images and overlays.
+Hand-drawn elements are first defined in an OpenToonz Xsheet, and then acquired by using a scanner. These elements can consist of animation levels, i.e. sequences of drawings belonging to the same animation, or background images and overlays.
 
 The scanned images then pass through a cleanup process, and are auto centered when necessary, using their pegbar holes as a guide and their related field guide setting. In the case of lineart drawings, these are further prepared for the painting process.
 
@@ -59,11 +59,11 @@ See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :r
 
 Compositing
 ~~~~~~~~~~~
-All OpenToonz painted levels and images are exposed in the xsheet where the timing of all the elements of a scene can be controlled. Images, animations and clips from 3rd party software can be loaded as well.
+All OpenToonz painted levels and images are exposed in the Xsheet where the timing of all the elements of a scene can be controlled. Images, animations and clips from 3rd party software can be loaded as well.
 
-After adding and arranging the required elements to the xsheet as layered columns, they are then animated by using interpolated keys placed on necessary parameters. Elements that can be animated in this way include the camera, columns, pegbars and the table.
+After adding and arranging the required elements to the Xsheet as layered columns, they are then animated by using interpolated keys placed on necessary parameters. Elements that can be animated in this way include the camera, columns, pegbars and the table.
 
-Special FX, such as blurs, lights, keys, masks, warps, gradients, etc. can be applied to the content of xsheet columns, and can also be animated by setting key value to the parameters.
+Special FX, such as blurs, lights, keys, masks, warps, gradients, etc. can be applied to the content of Xsheet columns, and can also be animated by setting key value to the parameters.
 
 Object and special FX transformations are mapped in the function editor window, where set key values and related interpolations can be controlled and modified by using function curves or numerical columns.
 
@@ -140,11 +140,11 @@ See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  and  :ref:`Crea
 
 Layout
 ~~~~~~
-In the layout phase, all of the elements that are necessary for the scene (backgrounds, props, characters, reference animations) are loaded from the library in xsheet, usually as sub-xsheets. They are put in place according to the animatic. Basic animation is achieved by setting key positions for animated characters or importing reference animations.
+In the layout phase, all of the elements that are necessary for the scene (backgrounds, props, characters, reference animations) are loaded from the library in Xsheet, usually as sub-Xsheets. They are put in place according to the animatic. Basic animation is achieved by setting key positions for animated characters or importing reference animations.
 
 Camera movements and animation timing previously set in the animatic are refined. 
 
-See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Sub-xsheets <using_sub-xsheets>`  .
+See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  .
 
 
 .. _animation:
