@@ -562,7 +562,7 @@ Color models, usually created for accurate color-referencing during a production
 
 Any image or animation level can be used as a reference by loading it in the color model viewer. In case an animation level is loaded, you can select any frame as a reference at any moment; in this way you can also create color models made of several drawings, for example one drawing for the front view of the character, and one for the back view.
 
- |Toonz71_220| 
+ |color_model| 
 
 When a color model is loaded for the current level, you can decide to load its palette, thus overwriting the current level palette, or to keep the current animation level palette. 
 
@@ -662,7 +662,7 @@ When the image is displayed in the color model viewer, you can use it not only a
 
     Right-click in the color model viewer and choose Remove Color Model from the menu that opens.
 
-.. |Toonz71_220| image:: /_static/Toonz71/Toonz71_220.gif
+.. |color_model| image:: /_static/painting_animation_levels/color_model.png
 .. |brush| image:: /_static/painting_animation_levels/brush.png
 .. |fill| image:: /_static/painting_animation_levels/fill.png
 .. |geometric| image:: /_static/painting_animation_levels/geometric.png
