@@ -45,7 +45,7 @@ To apply the control image to a parameter, use the related field available in th
 
 Setting the Particles Source
 ----------------------------
- |Toonz71_504| 
+ |setting_the_particles_source| 
 
 The particles source is the area where the particles are generated. It can be defined in the Source page, by specifying its size and position, or a control image. The way particles are generated, for example their birth rate, can be controlled as well. 
 
@@ -171,7 +171,7 @@ The particle animation follows the source node content, but you can decide how t
 
 Defining Particles Birth Parameters
 -----------------------------------
- |Toonz71_507| 
+ |defining_particles_birth_parameters| 
 
 Each particle, when generated at the current frame, has some parameters that are assigned and retained throughout its life. Those attributes can be set in the Birth Params page.
 
@@ -328,7 +328,7 @@ Defines the layering order of the generated particles. Options are the following
 
 Defining Environment Settings
 -----------------------------
- |Toonz71_511| 
+ |defining_environment_settings| 
 
 Particles behavior defined by their birth parameters can be affected by external events, such as gravity and wind, that can be defined in the Environment page. 
 
@@ -464,7 +464,7 @@ For example with a horizontal scattering between 1 and 8, and a Swing value with
 
 Defining Particles Animation
 ----------------------------
- |Toonz71_515| 
+ |defining_particles_animation| 
 
 Particles birth properties can be transformed during their lifetime, for example particles can rotate, or change size, by using additional settings available in the Animation page.
 
@@ -565,7 +565,7 @@ If used, the size increase value range defined above will be distributed accordi
 
 Defining Particles Color
 ------------------------
- |Toonz71_518| 
+ |defining_particles_color| 
 
 Particles can fade to specific colors at their birth, during their life and just before their death, by specifying settings in the Color page. The color parameters are birth attributes, i.e. they are assigned to the particles when they are generated.
 
@@ -677,8 +677,8 @@ Fade-out Intensity
 Sets the intensity of the fade-out process.
 
 
-.. |Toonz71_504| image:: /_static/Toonz71/Toonz71_504.gif
-.. |Toonz71_507| image:: /_static/Toonz71/Toonz71_507.gif
-.. |Toonz71_511| image:: /_static/Toonz71/Toonz71_511.gif
-.. |Toonz71_515| image:: /_static/Toonz71/Toonz71_515.gif
-.. |Toonz71_518| image:: /_static/Toonz71/Toonz71_518.gif
+.. |setting_the_particles_source| image:: /_static/using_the_particles_effect/setting_the_particles_source.png
+.. |defining_particles_birth_parameters| image:: /_static/using_the_particles_effect/defining_particles_birth_parameters.png
+.. |defining_environment_settings| image:: /_static/using_the_particles_effect/defining_environment_settings.png
+.. |defining_particles_animation| image:: /_static/using_the_particles_effect/defining_particles_animation.png
+.. |defining_particles_color| image:: /_static/using_the_particles_effect/defining_particles_color.png
