@@ -522,6 +522,9 @@ OpenToonz allows users to choose a specific language for the software interface,
 
 There are also several included themes to choose from: Default, Blue, Dark and Light.
 
+.. figure:: /_static/UI/themes.png
+   The OpenToonz interface theme set to Default and to Light.
+
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
 These files are stored in a folder named as the QSS file, and located in the ``C:\OpenToonz_stuff\config\qss``  folder on Windows and ``OpenToonz_stuff\config\qss``  folder on Macintosh. 
