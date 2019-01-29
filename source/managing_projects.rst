@@ -304,7 +304,7 @@ If the option Append $scenepath is activated, and you save the scene scene01 in 
 
 Projects
    Project01
-      *+drawings*
+      \+drawings \
          seq01
             **scene01**
 
