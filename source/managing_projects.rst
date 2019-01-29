@@ -262,15 +262,28 @@ Projects
 
 If the option Append $scenepath is activated, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
-ProjectsProject01section01 *prod drawings* seq01scene01
+Projects
+   Project01
+      section01
+         *prod drawings*
+            seq01
+               scene01
 
 If the $scenepath is used in the folder definition, with +drawings that is ``$scenepath\prod drawings,`` and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
-ProjectsProject01seq01scene01 *prod drawings* 
+Projects
+   Project01
+      seq01
+         scene01
+            *prod drawings* 
 
 If the $scenepath is used in the folder definition, with +drawings that is ``mydrawings\$scenepath,`` and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
-ProjectsProject01prod drawingsseq01 *scene01* 
+Projects
+   Project01
+      prod drawings
+         seq01
+            *scene01* 
 
 
 .. _default_folders_with_absolute_paths:
@@ -282,21 +295,32 @@ When default folders are defined by using an absolute path, in the project brows
 For example, for the project Project01, with **+drawings** that is ``C:\production\prod drawings`` on Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on Macintosh, the project browser will display the following:
 
 Projects
-   Project01 *+drawings* 
+   Project01
+      *+drawings* 
 
 where **+drawings** is an alias for ``C:\production\prod drawings`` on Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on Macintosh.
 
 If the option Append $scenepath is activated, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
-ProjectsProject01 *+drawings* seq01scene01
+Projects
+   Project01
+      *+drawings*
+         seq01
+            scene01
 
 If the $scenepath is used in the folder definition, with **+drawings** that is ``C:\$scenepath\prod drawings`` on Windows, or ``/Volume/Macintosh HD/$scenepath/prod drawings`` on Macintosh``,`` and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
-ProjectsProject01 *+scenes* scene01.tnz *+drawings* 
+Projects
+   Project01
+      *+scenes*
+         scene01.tnz
+            *+drawings* 
 
 with **+drawings** that is ``C:\seq01\scene01\prod drawings`` on Windows, or ``/Volume/Macintosh HD/seq01/scene01/prod drawings`` on Macintosh, and is located under the related scene file (TNZ format).
 
 If the $scenepath is used in the folder definition, with **+drawings** that is ``C:\prod drawings\$scenepath`` on Windows, or ``/Volume/Macintosh HD/prod drawings/$scenepath`` on Macintosh, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the same as above, but this time **+drawings** is ``C:\prod drawings\seq01\scene01`` on Windows, or ``/Volume/Macintosh HD/prod drawings/seq01/scene01`` on Macintosh.
+
+
 
 .. |new_project| image:: /_static/managing_projects/new_project_dialog.png
 .. |additional_project_locations| image:: /_static/managing_projects/additional_project_locations.png
