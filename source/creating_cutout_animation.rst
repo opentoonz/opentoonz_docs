@@ -23,7 +23,7 @@ In OpenToonz it is possible to create links between a model's different sections
 
 Using the Skeleton Tool
 -----------------------
-The Skeleton tool (|skeleton|) allows you to define a model by setting hierarchical links between its different sections exposed in different xsheet columns, and animate it.
+The Skeleton tool (|skeleton|) allows you to define a model by setting hierarchical links between its different sections exposed in different Xsheet columns, and animate it.
 
 It basically makes possible, by using a single and more immediate tool, the same tasks that could be achieved by using the Stage Schematic and the Animate tool (|animate|), when used to create links and animate the transformations of columns (see :ref:`Linking Objects <linking_objects>`  ). Indeed, any editing performed with the Skeleton tool (|skeleton|) can also be seen happening in the Stage Schematic and the column transformation values, and vice versa.
 
@@ -178,13 +178,13 @@ In the viewer it's possible to select a model section and perform the following 
 
 .. note:: As you roll over the handle, the cursor changes shape to indicate to you the operations you may perform. 
 
-Every time a position for a section is set, a key position is automatically generated for the xsheet column where that section is exposed, at the current frame. Keys are created only for the transformation you modify: rotation, displacement, or both.
+Every time a position for a section is set, a key position is automatically generated for the Xsheet column where that section is exposed, at the current frame. Keys are created only for the transformation you modify: rotation, displacement, or both.
 
 It is also possible to activate the Global Key option in order to set a key for all the section transformations, including scaling and shearing, as soon as a key for one transformation is set. This may result useful if you want to animate the model first, and then refine the animation by adding stretching and squashing transformations.
 
-If you want to create a key without operating the handle, in order to leave the section position and rotation as they are, you can use the Set Key button (|key|) available in the bottom bar of the viewer. In this case keys are created for all the object transformations (see :ref:`Animating Objects <animating_objects>`  ). It is also possible to manage keys for several model sections at once by inserting or deleting keys affecting the xsheet as a whole, or a selection of xsheet columns (see :ref:`Working with Multiple Column Keys <working_with_multiple_column_keys>`  ).
+If you want to create a key without operating the handle, in order to leave the section position and rotation as they are, you can use the Set Key button (|key|) available in the bottom bar of the viewer. In this case keys are created for all the object transformations (see :ref:`Animating Objects <animating_objects>`  ). It is also possible to manage keys for several model sections at once by inserting or deleting keys affecting the Xsheet as a whole, or a selection of Xsheet columns (see :ref:`Working with Multiple Column Keys <working_with_multiple_column_keys>`  ).
 
-Keys and interpolations you define in this way are displayed in xsheet columns, where they can be directly managed (see  :ref:`Using Column Keys <using_column_keys>`  ).
+Keys and interpolations you define in this way are displayed in Xsheet columns, where they can be directly managed (see  :ref:`Using Column Keys <using_column_keys>`  ).
 
 As key positions can be defined at specific frames for specific sections only, you may calibrate the animation and the movement speed of your model the way you prefer.
 

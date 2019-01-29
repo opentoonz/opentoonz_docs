@@ -83,7 +83,7 @@ Using the Preview Window
 ''''''''''''''''''''''''
 The animation can be previewed in a separate window according to specific settings that can be different from the output one. In this way the preview can be configured so that it is faster to compute then the final output, for example because it uses a camera with a smaller resolution.
 
-It is possible to define the range of previewed frames both in the preview settings and by using the playback markers in the xsheet: any change made in one mode is reflected in the other one as well (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ). It is also possible to display blank frames after each preview playback when looping.
+It is possible to define the range of previewed frames both in the preview settings and by using the playback markers in the Xsheet: any change made in one mode is reflected in the other one as well (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ). It is also possible to display blank frames after each preview playback when looping.
 
 It is possible to activate the Preferences > Preview > Fit to Flipbook option to ensure that the previewed images fit the size of the preview window regardless their resolution.
 
@@ -192,7 +192,7 @@ Of course if something changes in the flow up to the cached node, for example an
 
 Using the Flipbook
 ''''''''''''''''''
-The flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the viewer, including the preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the xsheet, and to display the loaded color model.
+The flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the viewer, including the preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the Xsheet, and to display the loaded color model.
 
 .. note:: The safe area is the only element that can be shown or hidden in the flipbook when previewing the animation (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
@@ -406,7 +406,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 Using the Playback Markers
 ''''''''''''''''''''''''''
-Two markers are available in the frame column of the xsheet to define the range of the playback. 
+Two markers are available in the frame column of the Xsheet to define the range of the playback. 
 
 When activated, they will define the starting and ending frame to be considered when playing back the animation in the viewer using the playback controls available in the bottom bar. 
 
@@ -508,7 +508,7 @@ Field rendering is only relevant for scenes to be rendered for video output. Opt
 
 - **Stretch from FPS:  To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
-For example, if you are working at 25 fps, a 150 frames xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
+For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same Xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
 
 When passing from a higher frame rate to a lower one, some level drawings will not be used because the number of output frames decreases. When doing the contrary, some level drawings will be repeated because the number of output frames is higher. Interpolations for object movements and special effects variations will be re-computed according to the final frame rate, in order to keep all the interpolations as smooth as possible.
 
@@ -537,7 +537,7 @@ The **Camera Shift** parameter sets the distance between the two camera views.
 
 Creating Multiple Renderings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the xsheet columns content, and according to the FX schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes.
+With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns content, and according to the FX schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes.
 
 FX Schematic Flows creates as many outputs as the flows connecting the column nodes to the Xsheet one; any FX node with multiple input ports met along the flow, such as the Matte FX, are ignored.
 
@@ -547,7 +547,7 @@ The names of the different output files are automatically generated in order to 
 
 .. note:: No output is displayed after the rendering, regardless of the Open Flipbook After Rendering option in the Preferences dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using sub-xsheets and the Over FX (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a sub-xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the Over FX (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
 
 
 .. _rendering_animations_with_alpha_channel_information:
@@ -577,7 +577,7 @@ By choosing the appropriate range in the output settings it is possible to rende
 
 If the scene contains some audio files and is rendered in a file format supporting audio, for example QuickTime MOV, all the audio files will be merged to form the soundtrack of the movie (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ). 
 
-.. note:: Audio files loaded in sub-xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-xsheets <using_sub-xsheets>`  ).
+.. note:: Audio files loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
 As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz flipbook by activating the Open Flipbook after Rendering option in the Preferences > Interface dialog; it is also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it is also possible to listen to it.
 

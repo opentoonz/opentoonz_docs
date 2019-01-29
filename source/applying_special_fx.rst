@@ -2,7 +2,7 @@
 
 Applying Special FX
 ===================
-Special FX can be applied to animation levels, images and clips exposed in xsheet columns in the FX Schematic, where each element is represented as a node. 
+Special FX can be applied to animation levels, images and clips exposed in Xsheet columns in the FX Schematic, where each element is represented as a node. 
 
 The relationship between the contents of columns and FX can be managed by connecting or disconnecting links between nodes.
 
@@ -10,14 +10,14 @@ The relationship between the contents of columns and FX can be managed by connec
 
 Using the FX Schematic
 ----------------------
-In the FX schematic all columns are displayed as nodes having an output port connected to the xsheet final node: this means that their content is part of the scene and is rendered as it is.
+In the FX schematic all columns are displayed as nodes having an output port connected to the Xsheet final node: this means that their content is part of the scene and is rendered as it is.
 
 
 
 
 When FX are added, they are displayed as nodes as well, with ports to create links that let you set the way FX affect the scene contents. 
 
-Column nodes have the camera stand (|camera_stand|) and the render (|preview|) toggles on the top right: these toggles are the same as the toggles available in the xsheet column headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the render toggle (|preview|) allowing you to include or exclude temporally the effect in the rendering.
+Column nodes have the camera stand (|camera_stand|) and the render (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the render toggle (|preview|) allowing you to include or exclude temporally the effect in the rendering.
 
 
 
@@ -127,19 +127,19 @@ Three different types of special FX can be used in the schematic, each with a di
 
  |Basic_FX_Example| 
 
-To affect a column, they have to be inserted in the link from the column to the xsheet, so that the column node is connected to the FX input port, and the FX node output port is connected to the xsheet node. 
+To affect a column, they have to be inserted in the link from the column to the Xsheet, so that the column node is connected to the FX input port, and the FX node output port is connected to the Xsheet node. 
 
-If several FX are applied in a chain, they will be applied one after the other, following the order from the column to the xsheet node.
+If several FX are applied in a chain, they will be applied one after the other, following the order from the column to the Xsheet node.
 
 - Combined FX, such as the Matte In effect, that modify the column contents according to the contents other columns; they are displayed with a yellow node with two or more input ports on the left, and an output port on the right. 
 
-To affect a column, they have to be inserted into the link from the column to the xsheet, so that the column node is connected to the first FX input port labelled Source, while the other columns are connected to the other input ports, whose labels depend on the effect; the FX node output port has to be connected to the xsheet node. 
+To affect a column, they have to be inserted into the link from the column to the Xsheet, so that the column node is connected to the first FX input port labelled Source, while the other columns are connected to the other input ports, whose labels depend on the effect; the FX node output port has to be connected to the Xsheet node. 
 
  |Combined_FX_Example| 
 
-For example in case of a Matte In effect, the column to be matted has to be linked to the Source input port, the matte column has to be linked to the Matte input port, and the output port has to be connected to the xsheet node.
+For example in case of a Matte In effect, the column to be matted has to be linked to the Source input port, the matte column has to be linked to the Matte input port, and the output port has to be connected to the Xsheet node.
 
-- FX that create computer generated images, such as the Radial Gradient, that are exposed in xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These FX nodes have to be connected to the xsheet node to be rendered, or can be connected to other FX nodes.
+- FX that create computer generated images, such as the Radial Gradient, that are exposed in Xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These FX nodes have to be connected to the Xsheet node to be rendered, or can be connected to other FX nodes.
 
  |Generated_FX_Example| 
 
@@ -399,7 +399,7 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     - Type the frame number or use the Next and Previous Frame buttons available in the bottom bar of the window.
 
-    - Move the current frame cursor in the xsheet or in the function editor.
+    - Move the current frame cursor in the Xsheet or in the function editor.
 
     - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
@@ -1050,7 +1050,7 @@ Add
 
 Adds the red, green and blue values of the Up node content to the Down one, pixel by pixel. 
 
-If no Down node is defined, the adding operation is applied to all the images underlaying the Up node content according to the xsheet layering order.
+If no Down node is defined, the adding operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
 
 The Intensity value expresses the percentage of values used in the addition; a negative value defines a subtraction instead of an addition. 
 
@@ -1062,7 +1062,7 @@ Color Burn
 
 Darkens the pixel colors of the Down node content in order to reflect the color of the Up node content. The white in the Up node content does not affect the result.
 
-If no Down node is defined, the color burning operation is applied to all the images underlaying the Up node content according to the xsheet layering order.
+If no Down node is defined, the color burning operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
 
 .. _color_dodge:
 
@@ -1072,7 +1072,7 @@ Color Dodge
 
 Brightens the pixel colors of the Down node content in order to reflect the color of the Up node content. The black in the up node content does not affect the result.
 
-If no Down node is defined, the color dodging operation is applied to all the images underlaying the Up node content according to the xsheet layering order.
+If no Down node is defined, the color dodging operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
 
 .. _cross_dissolve:
 
@@ -1090,7 +1090,7 @@ Darken
 
 Compares the pixels color of the Up and Down node content and selects the darker one as the result color. The white in the Up node content does not affect the result; the black gives a black result.
 
-If only one node is defined, the darkening operation is applied to all the images underlaying its content according to the xsheet layering order.
+If only one node is defined, the darkening operation is applied to all the images underlaying its content according to the Xsheet layering order.
 
 .. _dissolve:
 
@@ -1108,7 +1108,7 @@ Lighten
 
 Compares the pixels color of the Up and Down node content and selects the lighter one as the result color. The black in the Up node content does not affect the result; the white gives a white result.
 
-If only one node is defined, the lightening operation is applied to all the images underlaying the connected node according to the xsheet layering order.
+If only one node is defined, the lightening operation is applied to all the images underlaying the connected node according to the Xsheet layering order.
 
 .. _local_transparency:
 
@@ -1130,7 +1130,7 @@ Multiplies the red, green, blue and alpha values of the connected noded content.
 
 The Intensity value expresses the percentage of values used in the multiplication. By activating the Alpha option, also the alpha information is considered.
 
-If only one node is defined, the multiplying operation is applied to all the images underlaying theupper node content according to the xsheet layering order.
+If only one node is defined, the multiplying operation is applied to all the images underlaying theupper node content according to the Xsheet layering order.
 
 .. _over:
 
@@ -1138,7 +1138,7 @@ Over
 ~~~~
  |Over| 
 
-Puts the connected nodes one over the other. Each time a node is connected a new port will be added, this way the overlap of columns can be defined regardless from the xsheet columns order.The columns order is up to bottom, where the column connected on the upper port is over the other ones.This can be used when you need to combine several nodes in a single one, for example to mask several columns with the same mask.
+Puts the connected nodes one over the other. Each time a node is connected a new port will be added, this way the overlap of columns can be defined regardless from the Xsheet columns order.The columns order is up to bottom, where the column connected on the upper port is over the other ones.This can be used when you need to combine several nodes in a single one, for example to mask several columns with the same mask.
 
 .. _premultiply:
 
@@ -1158,7 +1158,7 @@ Screen
 
 Combines by multiplying the inverse of the pixels color of the Up and Down node content, giving a result color that is lighter than both Up and Down node pixels, except when one of them equals 0. The black in the Up node content does not affect the result; the white gives a white result.
 
-If no Down node is defined, the screening operation is applied to all the images underlaying the Up node content according to the xsheet layering order.
+If no Down node is defined, the screening operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
 
 .. _subtract:
 
@@ -1168,7 +1168,7 @@ Subtract
 
 Subtracts the red, green and blue values of the Up node content from the Down one, pixel by pixel. By activating the Alpha option, also the alpha information is considered. 
 
-If only one node is defined, the screening operation is applied to all the images underlaying connected node content according to the xsheet layering order.
+If only one node is defined, the screening operation is applied to all the images underlaying connected node content according to the Xsheet layering order.
 
 .. _transparency:
 
@@ -1226,7 +1226,7 @@ Glow
 
 Creates a glowing effect, using the Light node content as a light glowing on the node content connected to the Source input port. The Blur and Brightness of the glowing can be set; the Light node content can be also faded to a color defined by Red, Green and Blue values, according to the set Intensity.
 
-If no Source node is defined, the glowing is applied to all the images underlaying the Light node content according to the xsheet layering order.
+If no Source node is defined, the glowing is applied to all the images underlaying the Light node content according to the Xsheet layering order.
 
 .. _light_spot:
 

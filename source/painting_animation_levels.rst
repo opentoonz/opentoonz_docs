@@ -481,7 +481,7 @@ When the match lines are applied, any geometrical transformation achieved by edi
 
 Match lines are associated to the animation level drawings according to the following guidelines:
 
-- The xsheet frame numbering order is followed. This means that the match line drawing exposed at frame 1 will be applied to the animation drawing exposed at frame 1. 
+- The Xsheet frame numbering order is followed. This means that the match line drawing exposed at frame 1 will be applied to the animation drawing exposed at frame 1. 
 
 - If two different match line drawings are associated to the same animation level drawing at different frames, only the first one according to the frame numbering order will be applied.
 

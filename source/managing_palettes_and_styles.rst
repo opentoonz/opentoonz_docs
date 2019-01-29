@@ -328,15 +328,15 @@ Animating Palettes
 ------------------
 For Toonz raster and vector levels, colors in a palette can be animated and changed according to the frames of the animation.
 
-The animation is defined by keys that refer to timing of the xsheet: this means that there is no relation between the level length and the length of the animation of the palette colors. For example you can create a palette animated from frame 1 to 100 even if its level is only five frames long.
+The animation is defined by keys that refer to timing of the Xsheet: this means that there is no relation between the level length and the length of the animation of the palette colors. For example you can create a palette animated from frame 1 to 100 even if its level is only five frames long.
 
-The color animation will always refer to the xsheet timing, even if you move the related level to a different frame range. For example if you animate a palette from frame 1 to frame 20, and the level is exposed after frame 20, no color animation will be visible and the color used for the level will refer to the last key of the colors animation.
+The color animation will always refer to the Xsheet timing, even if you move the related level to a different frame range. For example if you animate a palette from frame 1 to frame 20, and the level is exposed after frame 20, no color animation will be visible and the color used for the level will refer to the last key of the colors animation.
 
 Keys are set for all the palette colors and settings (in the case of Special Styles and Textures) at once and can be navigated directly in the palette (with the expected update of the viewer content) to check the color animation.
 
 .. tip:: **To define a palette key:**
 
-    1. Select in the xsheet the frame where you want to define the key.
+    1. Select in the Xsheet the frame where you want to define the key.
 
     2. Click the key button (|key|) in the top bar of the palette editor.
 
@@ -352,7 +352,7 @@ Keys are set for all the palette colors and settings (in the case of Special Sty
 
     1. Do one of the following to select the frame you want to remove the key from:
 
-    - Select it in the xsheet frame column.
+    - Select it in the Xsheet frame column.
 
     - Navigate the palette keys.
 

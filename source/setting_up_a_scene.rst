@@ -59,7 +59,7 @@ The frame rate is the number of frames per second of animation, and has to be se
 
 The current scene frame rate can be set in the Scene Settings... dialog, and it is displayed in the bottom bar of any Viewer pane. In case the play back is activated, the actual frame rate is displayed on its left.
 
-Apart from affecting the playback speed when previewing or rendering a scene, the frame rate also determines the frame count of an audio file when it is imported into the xsheet (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+Apart from affecting the playback speed when previewing or rendering a scene, the frame rate also determines the frame count of an audio file when it is imported into the Xsheet (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 Even if a scene has been composited with a specific frame rate for a certain output, it is possible to render it out at a different frame rate by using the Stretch from FPS: To: option in the Output Settings > Other Settings dialog (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 

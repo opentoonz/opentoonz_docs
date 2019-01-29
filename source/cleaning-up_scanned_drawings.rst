@@ -295,7 +295,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
 .. tip:: **To save the cleanup settings:**
 
-    1. Select an empty cell in the xsheet.
+    1. Select an empty cell in the Xsheet.
 
     2. Click the Save Settings button (|save|) in the bottom bar of the cleanup settings window.
 
@@ -303,7 +303,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
 .. tip:: **To load saved cleanup settings:**
 
-    1. Select an empty cell in the xsheet.
+    1. Select an empty cell in the Xsheet.
 
     2. Click the Load Settings button (|load|) in the bottom bar of the cleanup settings window.
 
@@ -311,7 +311,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
 .. tip:: **To save the current cleanup settings for a specific level:**
 
-    1. Select any cell where the level is exposed in the xsheet.
+    1. Select any cell where the level is exposed in the Xsheet.
 
     2. Click the Save Settings button (|save|) in the bottom bar of the cleanup settings window.
 
@@ -319,7 +319,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
 .. tip:: **To load cleanup settings for a specific level:**
 
-    1. Select any cell where the level is exposed in the xsheet.
+    1. Select any cell where the level is exposed in the Xsheet.
 
     2. Click the Load Settings button (|load|) in the bottom bar of the cleanup settings window.
 
@@ -349,7 +349,7 @@ The full cleanup process can be checked in the main viewer.
 
 Previewing the Cleanup Process in the Main Viewer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A cleanup preview can be activated in the main viewer to display the drawing selected in the xsheet as it will be after the real cleanup process according to the defined cleanup settings, displaying at the same time all the other drawings and images exposed in the xsheet at that frame.
+A cleanup preview can be activated in the main viewer to display the drawing selected in the Xsheet as it will be after the real cleanup process according to the defined cleanup settings, displaying at the same time all the other drawings and images exposed in the Xsheet at that frame.
 
 If you change any parameter in the cleanup settings, the preview automatically updates to display how the changes affect the process.
 
@@ -359,7 +359,7 @@ If you change any parameter in the cleanup settings, the preview automatically u
 
 .. tip:: **To activate the cleanup preview in the main viewer:**
 
-    In the xsheet select the scanned drawing you want to preview, and choose Scan & Cleanup > Preview Cleanup. 
+    In the Xsheet select the scanned drawing you want to preview, and choose Scan & Cleanup > Preview Cleanup. 
 
 .. tip:: **To deactivate the cleanup preview in the main viewer:**
 
@@ -367,7 +367,7 @@ If you change any parameter in the cleanup settings, the preview automatically u
 
 .. tip:: **To preview a different drawing:**
 
-    Select it in the xsheet.
+    Select it in the Xsheet.
 
 .. tip:: **To exit the preview cleanup mode:**
 
@@ -394,7 +394,7 @@ The check is visible both in the preview area of the cleanup settings and in the
 
 Using the Camera Test
 '''''''''''''''''''''
-The camera test can be used to check the cleanup process as concerning the Cleanup and the Camera parameters. It displays the drawing selected in the xsheet directly in the viewer without line processing but with the position modified according to the Cleanup parameters (Autocenter, Rotate and Flip), and the size modified according to the Camera parameters. In particular a red box displays how the cleanup camera will crop the drawing, and a blue box displays the camera closest field. 
+The camera test can be used to check the cleanup process as concerning the Cleanup and the Camera parameters. It displays the drawing selected in the Xsheet directly in the viewer without line processing but with the position modified according to the Cleanup parameters (Autocenter, Rotate and Flip), and the size modified according to the Camera parameters. In particular a red box displays how the cleanup camera will crop the drawing, and a blue box displays the camera closest field. 
 
 It is possible to modify the camera box directly in the viewer thus updating the cleanup camera information visible in the cleanup settings dialog (see  :ref:`Defining Camera <defining_camera>`  ).
 
@@ -406,7 +406,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
 .. tip:: **To activate the camera test:**
 
-    In the xsheet select the drawing you want to preview, and choose Scan & Cleanup > Camera Test. 
+    In the Xsheet select the drawing you want to preview, and choose Scan & Cleanup > Camera Test. 
 
 .. tip:: **To deactivate the camera test:**
 
@@ -426,7 +426,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
 .. tip:: **To perform the camera test on a different drawing:**
 
-    Select it in the xsheet.
+    Select it in the Xsheet.
 
 .. tip:: **To exit the camera test mode:**
 
@@ -486,7 +486,7 @@ If you want you can also revert to the scanned version of the level you cleaned 
 
 .. tip:: **To process the selection according to the chosen settings:**
 
-    1. In the xsheet select the drawings you want to process.
+    1. In the Xsheet select the drawings you want to process.
 
     2. Choose Scan & Cleanup > Cleanup.
 
