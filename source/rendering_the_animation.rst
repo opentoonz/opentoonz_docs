@@ -10,7 +10,7 @@ It is also possible to preview the animation for the final checks and tune ups b
 
 Previewing the Animation
 ------------------------
-Animations can be previewed directly in the OpenToonz work area, including in the preview mode all the flipbook features, or by rendering a preview and visualizing it in a separate flipbook window.
+Animations can be previewed directly in the OpenToonz viewer, including in the preview mode all the flipbook features, or by rendering a preview and visualizing it in a separate flipbook window.
 
 In both cases the flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
@@ -22,17 +22,11 @@ Previewing Frames in the Viewer
 '''''''''''''''''''''''''''''''
 In the viewer it is possible to activate the preview mode to render the current frame according to the current camera (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  for s). 
 
-
-
-
 When changing the current frame, for example by using the playback buttons, it is possible to render other frames from the scene as well. The framebar displays rendered frames in grey, frames that have to be rendered yet in red, and the current frame that is being rendered in light red.
-
-
-
 
 For the current camera it is also possible to define a sub-camera, having an area smaller than the camera, inside which the preview will be rendered, and outside which the scene elements will be displayed as they are.
 
-.. note:: To optimize the preview time only the area visible in the viewer will be rendered: if you zoom out the work area the preview will resume to render the new visualized area.
+.. note:: To optimize the preview time only the area visible in the viewer will be rendered: if you zoom out the viewer the preview will resume to render the new visualized area.
 
 When the preview mode is activated, every change made in the scene will cause the preview of frames affected by the changes to be recomputed. If for some reason the preview fails the update process, you can regenerate the preview, which will automatically delete previously previewed frames, and compute them again.
 
@@ -42,7 +36,7 @@ The background colors of the preview window, including the colors of the camera 
 
 .. note:: When previewing frames in the viewer it is possible to display blank frames after each preview playback when looping (see  :ref:`Using the Flipbook <using_the_flipbook>`  ) and to limit the range of frames to be considered when playing back the animation by using the playback markers (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ).
 
-.. note:: The camera box, the field guide, the safe area and the guides can be shown or hidden in the viewer preview as well (see  :ref:`Customizing the Work Area <customizing_the_work_area>`  ).
+.. note:: The camera box, the field guide, the safe area and the guides can be shown or hidden in the viewer preview as well (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
 .. note:: If the Apply Shrink to Main Viewer option is activated in the Preview Settings, the previewed frames may have a reduced resolution (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
 
@@ -50,25 +44,19 @@ The background colors of the preview window, including the colors of the camera 
 
     Click the Preview button (|preview|) in the viewer title bar to activate or deactivate the preview mode.
 
-
-
 .. tip:: **To define a preview sub-camera for the current camera:**
 
     1. Activate the Define Preview Sub-camera button () in the viewer bottom bar.
 
-    2. Click and drag in the work area to define the box for the sub-camera area; once the box is define you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside it.
+    2. Click and drag in the viewer to define the box for the sub-camera area; once the box is defined you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside it.
 
 .. tip:: **To hide the sub-camera box:**
 
     Deactivate the Define Preview Sub-camera button (|define_preview_subcamera|) in the viewer bottom bar.
 
-
-
 .. tip:: **To activate and deactivate the sub-camera preview:**
 
     Click the Sub-camera Preview button (|subcamera_preview|) in the viewer title bar to activate or deactivate the sub-camera preview mode.
-
-
 
 .. tip:: **To regenerate the preview:**
 
@@ -88,6 +76,7 @@ The background colors of the preview window, including the colors of the camera 
 
     2. Use the browser to choose a name, a format and a location for the file to be saved.
 
+
 .. _using_the_preview_window:
 
 Using the Preview Window
@@ -106,7 +95,7 @@ It is possible to clone the preview window, or to automatically open as many pre
 
 The preview window framebar displays rendered frames in grey, frames that have to be rendered yet in red, and the current frame that is being rendered in light red.
 
-.. note:: To optimize the preview time only the area visible in the preview window will be rendered: if you zoom out the work area the preview will resume to render the new visualized area.
+.. note:: To optimize the preview time only the area visible in the preview window will be rendered: if you zoom out the viewer the preview will resume to render the new visualized area.
 
 The Preview Settings dialog lets you define the resolution, range, step and shrink of the preview frames. Settings are the following:
 
@@ -131,7 +120,6 @@ There are several options to choose from. Originally Toonz provided three option
 - **Render Tile:** allows the preview of very complex scenes whose frames will be computed in tiles that are automatically stitched to create the final preview: the smaller the size of the tile, the longer the preview process. Setting the value to Medium or Small will allow the preview of very high resolution outputs of very complex scenes, that otherwise may fail to be previewed; setting the value to None may prevent some artifacts that the tile stitching may generate. In most of the cases the Large value will do the work, because it is not slower than the None option, and yet is able to preview complex scenes.
 
 - **Use Sub-camera**, when activated, uses the sub-camera defined for the selected camera in the preview frames (see  :ref:`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  ).
-
 
 
 .. tip:: **To set the scene preview settings:**
@@ -206,7 +194,7 @@ Using the Flipbook
 ''''''''''''''''''
 The flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the viewer, including the preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the xsheet, and to display the loaded color model.
 
-.. note:: The safe area is the only element that can be shown or hidden in the flipbook when previewing the animation (see  :ref:`Customizing the Work Area <customizing_the_work_area>`  ).
+.. note:: The safe area is the only element that can be shown or hidden in the flipbook when previewing the animation (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
 The flipbook title bar displays the information about the content on the left, and the zoom percentage on the right.
 
