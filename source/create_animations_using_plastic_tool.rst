@@ -11,18 +11,18 @@ Plastic is a powerful tool (|plastic|) that can be used as complement in a cutou
 
 Using Plastic tool
 ------------------
-The Plastic tool needs as starting input at least one column of the xsheet where one or more drawings are exposed; from now on this will be referred as the texture-column (TC). Using the outlines of the exposed drawing/s as references, the Plastic tool generates a triangular mesh contained in a new kind of column: the Mesh column. Each newly created Mesh columns is automatically connected to the proper TC. This link is a core point in the way Plastic works: every column linked to a mesh will be deformed by the mesh and displayed within the mesh boundaries while rendering.
+The Plastic tool needs as starting input at least one column of the Xsheet where one or more drawings are exposed; from now on this will be referred as the texture-column (TC). Using the outlines of the exposed drawing/s as references, the Plastic tool generates a triangular mesh contained in a new kind of column: the Mesh column. Each newly created Mesh columns is automatically connected to the proper TC. This link is a core point in the way Plastic works: every column linked to a mesh will be deformed by the mesh and displayed within the mesh boundaries while rendering.
 
 For animating/deforming a mesh level, Plastic allows the building of a specific skeleton structure active on the mesh. The skeleton is a set of connected vertices, and, for each vertex, different parameters can be specified as: its position, Angle Bounds, Rigidity and Staking Order. Thus a great range of animations and effects can easily be created.
 
-.. note:: The Plastic tool is applied to a column of the xsheet, and the content of the column can be an animated level.
+.. note:: The Plastic tool is applied to a column of the Xsheet, and the content of the column can be an animated level.
 
 
 .. _building_a_plastic_mesh:
 
 Building a Plastic mesh
 -----------------------
-The first step for using Plastic is creating a mesh for the xsheet column that we are going to animate using the Plastic tool. The mesh is a new kind of Toonz level, and can be saved as any other kind of levels. 
+The first step for using Plastic is creating a mesh for the Xsheet column that we are going to animate using the Plastic tool. The mesh is a new kind of Toonz level, and can be saved as any other kind of levels. 
 
 The mesh level can be seen as purple column created when the button Create Mesh of the Plastic tool is pressed.
 
@@ -52,7 +52,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
     6. Adjust the Mesh Margin value. This parameter is expressed in pixels because it is used when the texture is projected on the mesh, the right amount of margin is needed to preserve the aliasing of the picture.
 
-    7. If you are creating a mesh from a sub-xsheet, you can choose which elements of the subxsheet will be used by the Plastic tools for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
+    7. If you are creating a mesh from a sub-Xsheet, you can choose which elements of the sub-Xsheet will be used by the Plastic tools for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
 
     8. Click the Apply button to create the mesh. Now you can see the mesh drawn in green colour in the main viewer, and a new purple column in the Xsheet next to the TC.
 
@@ -167,7 +167,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
 Building a Plastic skeleton
 ---------------------------
-The Plastic skeleton is a control structure linked to a mesh level that gives us the handles for deforming/animating the chosen element/s of the xsheet.
+The Plastic skeleton is a control structure linked to a mesh level that gives us the handles for deforming/animating the chosen element/s of the Xsheet.
 
  |build_skeleton_mode|
 
@@ -289,7 +289,7 @@ While drawing the skeleton, or when finished to drawing it, some adjustments to 
 
 .. tip:: **To paste a skeleton:**
 
-    1. Select a mesh column in the xsheet.
+    1. Select a mesh column in the Xsheet.
 
     2. If needed press the + button to create a new empty skeleton.
 
@@ -313,7 +313,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     2. Select Plastic tool and set Mode to Animate. Now, in the main viewer, you can see the skeleton and the mesh of the selected column.
 
-    3. Select the first frame of the animation in the xsheet.
+    3. Select the first frame of the animation in the Xsheet.
 
     4. Select the vertices of the skeleton and move them to the desired position to set the relative key frames, or write the desired values into the text fields of the tool options bar.
 
@@ -399,7 +399,7 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 
 .. tip:: **To paint rigidity on a mesh:**
 
-    1. Select the mesh column in the xsheet.
+    1. Select the mesh column in the Xsheet.
 
     2. Choose the Plastic tool (|plastic|)
 
@@ -415,7 +415,7 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 
 .. tip:: **To modify, correct, erase rigidity on a mesh:**
 
-    1. Select the mesh column in the xsheet.
+    1. Select the mesh column in the Xsheet.
 
     2. Choose the Plastic tool (|plastic|)
 
@@ -502,7 +502,7 @@ For building interesting and complex animations it could be useful and time savi
 
 Function Editor representation of Plastic data
 ----------------------------------------------
-While animating Plastic elements, key frames are created for the vertices of the skeleton. You can see them as standard key in the xsheet, or you can operate on the values of each vertex into the Function Editor.
+While animating Plastic elements, key frames are created for the vertices of the skeleton. You can see them as standard key in the Xsheet, or you can operate on the values of each vertex into the Function Editor.
 
 The keys of the Xsheet mark a key frame for the Plastic skeleton at the specified frame but don’t give any information about the number of vertices involved; they can be indifferently, one, some or all. Moving this key you can easily change the timing of the whole animation.
 
@@ -549,9 +549,9 @@ For more information about the mathematical Expression usage refer to (See  :ref
 
 .. _plastic_and_subxsheets:
 
-Plastic and subxsheets
+Plastic and sub-Xsheets
 ----------------------
-A subxsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a subxsheet is selected as starting element, all the columns in the subxsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected subxsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested subxsheet with its own mesh and skeleton).
+A sub-Xsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a sub-Xsheet is selected as starting element, all the columns in the sub-Xsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected sub-Xsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested sub-Xsheet with its own mesh and skeleton).
 
 
 

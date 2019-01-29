@@ -4,7 +4,7 @@ Editing Using Spreadsheet and Curves
 ====================================
 Object and FX transformations are mapped in the function editor window, where set key values and related interpolations can be controlled and modified by using a spreadsheet of numerical columns or a graph editor.
 
-The spreadsheet display transformations in columns, like the ones available in xsheet, where for each frame the related transformation values are displayed.
+The spreadsheet display transformations in columns, like the ones available in Xsheet, where for each frame the related transformation values are displayed.
 
 The graph editor display transformations as curves in a graph, where frames are laid horizontally and values are laid vertically. 
 
@@ -94,7 +94,7 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Use the Page Up and Page Down keys to scroll the visible frames up or down.
 
-    - Use the Home and End keys to scroll up to the beginning or the end of the xsheet content.
+    - Use the Home and End keys to scroll up to the beginning or the end of the Xsheet content.
 
 
 .. tip:: **To navigate the graph editor:**
@@ -145,7 +145,7 @@ Using the Spreadsheet
 
 |function_editor_spreadsheet|
 
-The spreadsheet displays transformations in columns like the ones available in xsheet, having one for each parameter. For each frame the column cells display the related transformation values, that can be edited as in a spreadsheet.
+The spreadsheet displays transformations in columns like the ones available in Xsheet, having one for each parameter. For each frame the column cells display the related transformation values, that can be edited as in a spreadsheet.
 
 Key values are displayed in different-colored cells, and can be moved along the column to different frame positions. In-between values are automatically generated according to the key values and to the set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ).
 
@@ -222,7 +222,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
     - Type the frame number in the Frame text box, or use the Next and Previous Frame buttons available in the top bar of the editor.
 
-    - Move the current frame cursor in the xsheet.
+    - Move the current frame cursor in the Xsheet.
 
     - Use the frame bar or the playback buttons in the bottom bar of the main viewer.
 
@@ -291,7 +291,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
 .. note:: Only key values included in the selection are considered when performing copy, cut and paste operations.
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking in the xsheet cells.
+.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking in the Xsheet cells.
 
 
 .. _setting_segment_interpolations:

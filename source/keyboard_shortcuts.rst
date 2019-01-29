@@ -92,8 +92,8 @@ Fit to Window                    **Alt**    **+**  **9**
 Reset View                       **Alt**    **+**  **0**
 Zoom in                          **+**
 Zoom out                         **-**
-Move to next xsheet column       **->**
-Move to previous xsheet column   **<-**
+Move to next Xsheet column       **->**
+Move to previous Xsheet column   **<-**
 Onion Skin Toggle                **/**
 Maximize Panel                   **`**
 Main Window Full Screen Mode     **Ctrl**   **+**  **`**

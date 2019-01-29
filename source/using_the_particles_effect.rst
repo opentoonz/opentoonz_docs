@@ -117,7 +117,7 @@ Sets the frame at which the particles generation starts.
 
 When you need a particles event to start before frame 1, you can set a negative Starting Frame value. For example if you need at frame 1 a snowfall, you cannot make the event start at frame 1, otherwise you will see only the first generated snowflakes; in this case you can set a negative value, for example -20, so that the snowfall has already evolved for 20 frames before being displayed at frame 1.
 
-As the Starting Frame is an effect parameter, moving the particles effect column up or down in the xsheet will not change the starting frame: the parameter itself has to be edited.
+As the Starting Frame is an effect parameter, moving the particles effect column up or down in the Xsheet will not change the starting frame: the parameter itself has to be edited.
 
 .. note:: If the Starting Frame is higher than the first frame where a Birth Rate is set, the former value is used as the starting point of the event. For example if the Starting Frame is 20 and first frame with a positive Birth Rate is frame 15, from frame 15 to 20 no particles will be generated.
 

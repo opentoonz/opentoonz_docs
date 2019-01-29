@@ -185,9 +185,9 @@ Level Strip
 
 |UI_levelstrip|
 
-The level strip displays the sequence of drawings belonging to the level currently selected in the xsheet. 
+The level strip displays the sequence of drawings belonging to the level currently selected in the Xsheet. 
 
-It helps you to edit the sequence of drawings and to see all the drawings of the current level, even if those drawings are not exposed in a xsheet. 
+It helps you to edit the sequence of drawings and to see all the drawings of the current level, even if those drawings are not exposed in a Xsheet. 
 
 See  :ref:`Editing Animation Levels <editing_animation_levels>`  .
 
@@ -227,7 +227,7 @@ The schematic can alternatively display stage information or special FX usage.
 
 The stage schematic displays as nodes all the objects defined in a scene, i.e. columns, pegbars, cameras, the table and motion paths, and allows you to manage the way they are linked to each other.
 
-The FX schematic allows you to apply FX to the content of xsheet columns, and to manage the way they are applied. All the columns and FX are displayed as nodes that can be connected in order to set the way FX affect the scene content. 
+The FX schematic allows you to apply FX to the content of Xsheet columns, and to manage the way they are applied. All the columns and FX are displayed as nodes that can be connected in order to set the way FX affect the scene content. 
 
 See  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  .
 
@@ -462,9 +462,9 @@ Xsheet
 
 |UI_xsheet|
 
-The xsheet allows you to manage the scene content, in the same manner as the timeline. It is organized in columns, and columns are divided into cells, representing the content of that column in that particular frame. In the columns you can load animation levels, clips, images, audio files or other xsheets. 
+The Xsheet allows you to manage the scene content, in the same manner as the timeline. It is organized in columns, and columns are divided into cells, representing the content of that column in that particular frame. In the columns you can load animation levels, clips, images, audio files or other Xsheets. 
 
-Each column has its own header containing information about its content. The column on the far left displays the frame number, with a cursor placed on the current frame. The headers area and the frame column are always visible, even when scrolling the xsheet area; in this way it's easier to understand how the scene is built.
+Each column has its own header containing information about its content. The column on the far left displays the frame number, with a cursor placed on the current frame. The headers area and the frame column are always visible, even when scrolling the Xsheet area; in this way it's easier to understand how the scene is built.
 
 Frames are rendered reading images from left to right in each cell row.
 
@@ -478,7 +478,7 @@ Timeline
 
 |UI_timeline|
 
-The timeline allows you to manage the scene content, in the same manner as the xsheet. It is organized in horizontal layers, and layers are divided into cells, representing the content of that layer in that particular frame. In the layers you can load animation levels, clips, images, audio files or other timelines. 
+The timeline allows you to manage the scene content, in the same manner as the Xsheet. It is organized in horizontal layers, and layers are divided into cells, representing the content of that layer in that particular frame. In the layers you can load animation levels, clips, images, audio files or other timelines. 
 
 At the leftmost part each layer has its own header containing information about its content. At the top part of the timeline there is a time ruler that displays the frame number, with a cursor placed on the current frame. The headers area and the time ruler are always visible, even when scrolling the timeline area; in this way it's easier to understand how the scene is built.
 
@@ -506,7 +506,7 @@ Record Audio
 
 |UI_recordaudio|
 
-The record audio window, lets you record a live audio source, listen to it, and insert it into a new audio column of the xsheet.
+The record audio window, lets you record a live audio source, listen to it, and insert it into a new audio column of the Xsheet.
 The insertion point will be located at the right of the selected cell column, and starting at the selected cell frame.
 
 .. note:: Currently, this window cannot be docked to form part of a room, like the other ones in the Windows menu. Instead it must be opened as a floating window, when needed.

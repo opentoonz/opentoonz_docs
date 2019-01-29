@@ -2,7 +2,7 @@
 
 Creating Movements
 ==================
-Each scene has a series of objects that can be moved and transformed: they can be xsheet columns (or timeline layers), pegbars, cameras, and the table.
+Each scene has a series of objects that can be moved and transformed: they can be Xsheet columns (or timeline layers), pegbars, cameras, and the table.
 
 Every transformation you set for an object at a specific frame automatically defines a keyframe. When keyframes are defined at several frames, in-between positions are automatically interpolated.
 
@@ -27,7 +27,7 @@ Objects nodes can be easily added and arranged and they can be selected in order
 
 It's also possible to group several nodes into one single node, in order to better manage a complex Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations or new groups.
 
-.. note:: Column nodes have buttons defining their visibility in camera stand (|camera_stand|) and render (|preview|) views, these buttons are located at the top right of the nodes: the toggles are linked to the ones available in the xsheet columns (timeline layers) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>` ).
+.. note:: Column nodes have buttons defining their visibility in camera stand (|camera_stand|) and render (|preview|) views, these buttons are located at the top right of the nodes: the toggles are linked to the ones available in the Xsheet columns (timeline layers) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>` ).
 
 .. tip:: **To access the stage schematic:**
 
@@ -54,7 +54,7 @@ It's also possible to group several nodes into one single node, in order to bett
 
 .. tip:: **To add a column:**
 
-    Load or create some content for the xsheet column (timeline layer): it will be automatically displayed in the Stage.
+    Load or create some content for the Xsheet column (timeline layer): it will be automatically displayed in the Stage.
 
 .. tip:: **To add a pegbar:**
 
@@ -403,7 +403,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
     2. Choose the Tracker tool (|tracker|) and define the regions to be tracked.
 
-    3. Select the frame range in the xsheet/timeline or in the level strip.
+    3. Select the frame range in the Xsheet/timeline or in the level strip.
 
     4. Choose Level > Tracking, set the tracking options and click the Track button.
 
@@ -424,7 +424,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
     
     - **Tool Mode** lets you choose which transformation category to display in the tool options bar. Options are: Position, Rotation, Scale, Shear, Center and All.
 
-    - **Position** **N/S** and **E/W** sets the vertical and horizontal positions of the selected object, position **Z** sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position **SO** sets the column stacking order that can be different from the one defined in the xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+    - **Position** **N/S** and **E/W** sets the vertical and horizontal positions of the selected object, position **Z** sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position **SO** sets the column stacking order that can be different from the one defined in the Xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
 |animate_tool_position|
 
@@ -501,7 +501,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - Select it in the stage schematic. 
 
-    - If the object is a column/layer, select it in the xsheet/timeline.
+    - If the object is a column/layer, select it in the Xsheet/timeline.
 
     - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the viewer to select the related column.
 
@@ -517,7 +517,7 @@ If you want to set a key for an object transformation leaving its value as it is
 
     3. Set the frame where you want to define the key by doing one of the following:
 
-    - Move the current frame cursor in the xsheet/timeline or in the function editor.
+    - Move the current frame cursor in the Xsheet/timeline or in the function editor.
 
     - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
@@ -596,15 +596,15 @@ If you want to set a key for an object transformation leaving its value as it is
 
 Changing Columns Stacking Order
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the xsheet/timeline: xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
+The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the Xsheet/timeline: Xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
 
 This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element.
 
-By editing the position SO (i.e. stacking order) value it is possible to change and animate the element compositing order without editing the columns/layers position in the xsheet/timeline.
+By editing the position SO (i.e. stacking order) value it is possible to change and animate the element compositing order without editing the columns/layers position in the Xsheet/timeline.
 
-The SO default value for all the columns is 0, meaning that the xsheet column (or timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the xsheet/timeline; conversely if the SO value is lower it will be placed behind.
+The SO default value for all the columns is 0, meaning that the Xsheet column (or timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the Xsheet/timeline; conversely if the SO value is lower it will be placed behind.
 
-.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of the others, ignoring both its xsheet/timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
+.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of the others, ignoring both its Xsheet/timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
 
 .. tip:: **To edit and animate a column/layer SO value:**
 
@@ -732,7 +732,7 @@ It's also possible to link the key positions of the objects to the positions of 
 
 Using Column Keys
 -----------------
-When columns are animated, their animation can be controlled in a quick way by managing key positions and interpolations directly in the xsheet, with no need to use the function editor.
+When columns are animated, their animation can be controlled in a quick way by managing key positions and interpolations directly in the Xsheet, with no need to use the function editor.
 
 As soon as a key position is defined for a column, a related icon is displayed on the right of the column cell to which it refers; the key is displayed regardless of how many parameters are animated. Keys can be moved within the column they refer to, and selected in order to be copied/cut and pasted from one cell to another. 
 
@@ -817,15 +817,15 @@ All animations and interpolations set for the column can be visible and edited w
 
 Working with Multiple Column Keys
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-It is possible to insert or delete keys affecting the xsheet as a whole, or a selection of xsheet columns. 
+It is possible to insert or delete keys affecting the Xsheet as a whole, or a selection of Xsheet columns. 
 
 Inserting or deleting multiple keys allows you to manage keys for several columns at the same time, for instance when you are working on a cutout animation where keys may be required for all the columns where model sections are exposed (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ). 
 
 .. note:: Inserted keys are created for all the column transformations.
 
-When a multiple key is inserted at the current frame, a key is created for each xsheet column where an animation level is exposed; if a column selection is defined, keys are created in selected columns only (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
+When a multiple key is inserted at the current frame, a key is created for each Xsheet column where an animation level is exposed; if a column selection is defined, keys are created in selected columns only (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
 
-When a multiple key is deleted at the current frame, any key available in any xsheet column at the current frame, is deleted; if a column selection is defined, keys are deleted in selected columns only.
+When a multiple key is deleted at the current frame, any key available in any Xsheet column at the current frame, is deleted; if a column selection is defined, keys are deleted in selected columns only.
 
 .. tip:: **To create several keys at once:**
 
@@ -833,7 +833,7 @@ When a multiple key is deleted at the current frame, any key available in any xs
 
     - Select the columns for which you want to create keys.
 
-    - Select no column by clicking anywhere in the xsheet, to create keys for all the xsheet columns.
+    - Select no column by clicking anywhere in the Xsheet, to create keys for all the Xsheet columns.
 
     2. Select the frame where you want to insert keys.
 
@@ -845,7 +845,7 @@ When a multiple key is deleted at the current frame, any key available in any xs
 
     - Select the columns from which you want to delete keys.
 
-    - Select no column by clicking anywhere in the xsheet, to delete keys from all the xsheet columns.
+    - Select no column by clicking anywhere in the Xsheet, to delete keys from all the Xsheet columns.
 
     2. Select the frame where you want to delete keys.
 
@@ -870,7 +870,7 @@ As soon as objects are moved, projections on an imaginary floor and side wall le
 
 The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it's possible to define an additional Z position value in the tool options bar that sets the position at which the object has to keep its original size. 
 
-.. note:: Columns closer to the camera are displayed on top of the others, ignoring the xsheet/timeline order and the SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the xsheet/timeline order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+.. note:: Columns closer to the camera are displayed on top of the others, ignoring the Xsheet/timeline order and the SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the Xsheet/timeline order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
 .. tip:: **To enter the 3D environment:**
 

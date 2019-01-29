@@ -116,21 +116,21 @@ Defining Animation Levels to Scan
 ---------------------------------
 To scan an animation level, first you have to define its name, the number of frames it is made of, and the way its drawings are numbered. Its size and resolution will be set during the scanning session.
 
-The definition can be made drawing by drawing directly in the xsheet, or at once by using the New Level dialog. You can assign it the name and the numbering order you prefer. 
+The definition can be made drawing by drawing directly in the Xsheet, or at once by using the New Level dialog. You can assign it the name and the numbering order you prefer. 
 
-In case you use the New Level dialog you can set the number of drawings the level is made of, the animation step to expose the level repeating its frames, and the increment, that sets the way the level drawings are numbered. For example a step value 2 repeats each drawing twice in the xsheet column, while an increment value 2 numbers the drawings 1, 3, 5, etc.
+In case you use the New Level dialog you can set the number of drawings the level is made of, the animation step to expose the level repeating its frames, and the increment, that sets the way the level drawings are numbered. For example a step value 2 repeats each drawing twice in the Xsheet column, while an increment value 2 numbers the drawings 1, 3, 5, etc.
 
  |new_scan_level|
 
 By default scanned drawings are saved in the **+inputs** directory of the current project; if the +inputs definition uses the $scenepath variable, they are saved only if the scene is saved (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
-You can change the location by using either the Path field in the New Level dialog, or the Level Settings window in case you define a level directly in xsheet. 
+You can change the location by using either the Path field in the New Level dialog, or the Level Settings window in case you define a level directly in Xsheet. 
 
 Settings such as the length of the level and the numbering order can be edited later, as you are free to arrange the images composing your animation level the way you prefer (see  :ref:`Editing Animation Levels <editing_animation_levels>`  ).
 
 When an animation level is defined, the name and numbers for the drawings of the level are displayed in red as no level actually exists yet; the column cells where the level is exposed are colored in light blue, the color denoting full-color images (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
-.. tip:: **To define an animation level directly in xsheet:**
+.. tip:: **To define an animation level directly in Xsheet:**
 
     1. Double-click a cell, then type a name and a number; the name and the number must be separated by a space.
 
@@ -144,9 +144,9 @@ When an animation level is defined, the name and numbers for the drawings of the
 
     1. Do one of the following:
 
-    - Select a cell in the xsheet where you want to place your animation level to scan and choose File > New Level.
+    - Select a cell in the Xsheet where you want to place your animation level to scan and choose File > New Level.
 
-    - Right-click the cell in the xsheet where you want to place your animation level to scan and choose File > New Level from the menu that opens.
+    - Right-click the cell in the Xsheet where you want to place your animation level to scan and choose File > New Level from the menu that opens.
 
 .. note:: If any level is already exposed in the cell column, it will shift down from the cell you selected on.
 
@@ -158,7 +158,7 @@ When an animation level is defined, the name and numbers for the drawings of the
 
     - If you are using the New Level dialog, type in the Path field, or use the browser button, to set the path for the saving location.
 
-    - If you are defining the level directly in xsheet, right-click the level cells and select Level Settings from the menu that opens. In the Level Settings window, type in the Path field, or use the browser button, to set the path for the saving location.
+    - If you are defining the level directly in Xsheet, right-click the level cells and select Level Settings from the menu that opens. In the Level Settings window, type in the Path field, or use the browser button, to set the path for the saving location.
 
 .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
@@ -185,11 +185,11 @@ The TWAIN interface is related to the scanner you are using and is available onl
 
 .. note:: The Scan Settings dialog can be used in combination with the TWAIN interface settings to set the Reverse Order option.
 
-The settings, either defined in the Scan Settings dialog or in the TWAIN interface, will be used to scan the drawings selected in the xsheet. In case you select several drawings, and you are using the scanner paper feeder, all the drawings to be scanned will be taken from the feeder; if you are not using the paper feeder, you will be prompted to replace the drawing on the scanner bed, before scanning the following drawing.
+The settings, either defined in the Scan Settings dialog or in the TWAIN interface, will be used to scan the drawings selected in the Xsheet. In case you select several drawings, and you are using the scanner paper feeder, all the drawings to be scanned will be taken from the feeder; if you are not using the paper feeder, you will be prompted to replace the drawing on the scanner bed, before scanning the following drawing.
 
-You can also select non-consecutive drawings and drawings from different animation levels. Levels will be scanned starting from the first selected column. Only exposed drawings will be scanned according the level numbering order, regardless of the way the animation level is exposed in one or several xsheet columns. The opposite order will be followed if the Reverse Order option is on.
+You can also select non-consecutive drawings and drawings from different animation levels. Levels will be scanned starting from the first selected column. Only exposed drawings will be scanned according the level numbering order, regardless of the way the animation level is exposed in one or several Xsheet columns. The opposite order will be followed if the Reverse Order option is on.
 
-As soon as a drawing is scanned, it is saved and its name and number displayed in the xsheet turn black, as the level now has physical drawings saved on disk. 
+As soon as a drawing is scanned, it is saved and its name and number displayed in the Xsheet turn black, as the level now has physical drawings saved on disk. 
 
 Images are saved as compressed TIF files with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. They are displayed in the OpenToonz browser with a double dot before the file extension, e.g. ``animation..tif`` .
 
@@ -197,7 +197,7 @@ If you need to scan again an animation level, or a part of it, select the releva
 
 .. tip:: **To scan an animation level:**
 
-    1. In the xsheet, select the drawings you want to scan. 
+    1. In the Xsheet, select the drawings you want to scan. 
 
     2. Choose Scan & Cleanup > Scan Settings and use the dialog to control scan options. 
 
