@@ -312,7 +312,7 @@ If the $scenepath is used in the folder definition, with **+drawings** that is `
 
 Projects
    Project01
-      *+scenes*
+      \+scenes \
          scene01.tnz
             **+drawings**
 
