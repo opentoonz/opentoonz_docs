@@ -43,8 +43,7 @@ Predefined Keyboard Shortcuts
 The following are **some** of the predefined shortcuts available in OpenToonz. 
 
 
-.. Note from Wolf_In_A_Bowl: '⌘' and '⌥' are not counted as characters so an additional space must be added
-  This is why they look like they are offset by 1 to the right
+.. Note from Wolf_In_A_Bowl: '⌘' and '⌥' may appear larger than 1 space, this is why some rows look offset to the right
 
 ==============================   ===============  =====  =========  =====  =====
 **Tools**
