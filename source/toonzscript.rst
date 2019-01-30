@@ -80,7 +80,8 @@ Example::
 
 	print(“result=”,12*3);
 
-- ``run(filename)`` : runs the script saved in filename. The relative path are referred to the folder "<opentoonz library>/scripts/"
+- | **run(filename)**: runs the script saved in filename.
+  | The relative path are referred to the folder "<opentoonz library>/scripts/"
 
 **Examples**::
 
@@ -88,8 +89,9 @@ Example::
 
 	run(“C:\\Users\\Username\\Tests\\another_test.js”)
 
-- ``view(image)`` : allows to view an image. The view command can be legally used in the following context: ``view(new Image(filename))`` 
-- ``view(level)`` : allows to view a level.
+- | **view(image)**: allows to view an image.
+  | The view command can be legally used in the following context: ``view(new Image(filename))`` 
+- | **view(level)**: allows to view a level.
 
 **Examples**::
 
