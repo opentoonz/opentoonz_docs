@@ -32,7 +32,7 @@ Execute the OpenToonzSetup.exe file and follow these steps:
  |win_setup_2| 
  
 
-3. Decide where to install the OpenToonz_stuff folder and if you wish to overwrite any settings in a preexisting OpenToonz_stuff folder in the chosen location (except for user's personal settings, which will always be preserved). 
+3. Decide where to install the **OpenToonz stuff** folder and if you wish to overwrite any settings in a preexisting OpenToonz stuff folder in the chosen location (except for user's personal settings, which will always be preserved). 
 
  |win_setup_3| 
  
