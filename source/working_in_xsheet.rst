@@ -1654,8 +1654,9 @@ The ``info``  lines allows you to set information to be displayed in the header,
 In the example file you can find the following lines:
 
 ::
-    <info name="Company" value="Company name"/>
-    <info name="Name" value="Value"/>
+
+<info name="Company" value="Company name"/>
+<info name="Name" value="Value"/>
 
 These lines can be edited, and new lines, with the same syntax, can be appended, to provide all the information you want to appear in the header of the HTML Xsheet file.
 
