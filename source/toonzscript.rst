@@ -296,7 +296,8 @@ contains a Toonz scene.
 
    - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))``
    - To delete a cell: ``scene.setCell(row, col, undefined)``
-   - ``cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , the following use is allowed ``scene.setCell(row, col, {level:a, fid:1})``
+   - ``cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , 
+     the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})`` 
    -``level`` can be a Level or a level name. The level has to be already in the scene.
    - ``fid``  supports numeric values or string values as “2” or “2a”.
 
@@ -375,19 +376,19 @@ represents a geometric tansformation (composed by rotation, translation and scal
 
 **Constructor:** 
 
-- ``new Transform()`` 
+- new **Transform**\ () 
 
 **Methods:** 
 
-- ``transform.translate(dx, dy)`` 
+- ``transform.\ **translate**\ (dx, dy) 
 
-- ``transform.rotate(degrees)``
+- ``transform.\ **rotate**\ (degrees)
 
 .. note:: Positive values correspond to a counterclockwise rotation.
 
-- ``transform.scale(s)``
+- ``transform.\ **scale**\ (s)
 
-- ``transform.scale(sx, sy)``
+- ``transform.\ **scale**\ (sx, sy)
 
 **Examples**::
 
@@ -404,21 +405,21 @@ allows to modify an image (rotate, scale, crop), or to make an over between two 
 
 **Constructor:** 
 
-- ``new ImageBuilder()``  or ``new ImageBuilder(xres, yres)`` 
+- new **ImageBuilder**\ ()  or new **ImageBuilder**\ (xres, yres) 
 
 **Methods:** 
 
-- ``builder.add(img)`` 
+- builder.\ **add**\ (img) 
 
-- ``builder.add(img, transform)``
+- ``builder.\ **add**\ (img, transform)
 
 .. note:: The component of translation of the transform means expressed in pixels for Raster and Toonz Raster levels, and in Camera Stand units for Vector levels.
 
-- ``builder.fill(color)``
+- ``builder.\ **fill**\ (color)
 
 **Attributes:** 
 
-- ``builder.image``  - returns the actual result.
+- builder.\ **image**  - returns the actual result.
 
 **Examples**::
 
