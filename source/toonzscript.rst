@@ -411,11 +411,11 @@ allows to modify an image (rotate, scale, crop), or to make an over between two 
 
 - builder.\ **add**\ (img) 
 
-- ``builder.\ **add**\ (img, transform)
+- builder.\ **add**\ (img, transform)
 
 .. note:: The component of translation of the transform means expressed in pixels for Raster and Toonz Raster levels, and in Camera Stand units for Vector levels.
 
-- ``builder.\ **fill**\ (color)
+- builder.\ **fill**\ (color)
 
 **Attributes:** 
 
@@ -453,31 +453,31 @@ vectorize raster images using an outline algorithm.
 
 **Constructor:** 
 
-- ``new OutlineVectorizer()`` 
+- new **OutlineVectorizer**\ () 
 
 **Methods:** 
 
-- ``v.vectorize(level or image)`` - returns the new vectorized level (or image), supports as input: Raster or Toonz Raster images and levels.
+- v.\ **vectorize**\ (level or image) - returns the new vectorized level (or image), supports as input: Raster or Toonz Raster images and levels.
 
 **Attributes:** 
 
-- ``v.accuracy`` 
+- v.\ **accuracy**
 
-- ``v.despeckling`` 
+- v.\ **despeckling**
 
-- ``v.preservePaintedAreas``
+- v.\ **preservePaintedAreas**
 
-- ``v.cornerAdherence``
+- v.\ **cornerAdherence**
 
-- ``v.cornerAngle``
+- v.\ **cornerAngle**
 
-- ``v.cornerCurveRadius``
+- v.\ **cornerCurveRadius**
 
-- ``v.maxColors``
+- v.\ **maxColors**
 
-- ``v.transparentColor``
+- v.\ **transparentColor**
 
-- ``v.toneThreshold``
+- v.\ **toneThreshold**
 
 **Examples**::
 
@@ -500,27 +500,27 @@ vectorize raster images using a centerline algorithm.
 
 **Constructor:** 
 
-- ``new CenterlineVectorizer()`` 
+- new **CenterlineVectorizer**\ ()
 
 **Methods:** 
 
-- ``v.vectorize(level or image)`` - returns the new vectorized level (or image), supports as input: Raster or Toonz Raster images and levels.
+- v.\ **vectorize**\ (level or image) - returns the new vectorized level (or image), supports as input: Raster or Toonz Raster images and levels.
 
 **Attributes:** 
 
-- ``v.threshold`` 
+- v.\ **threshold**
 
-- ``v.accuracy`` 
+- v.\ **accuracy**
 
-- ``v.despeckling`` 
+- v.\ **despeckling** 
 
-- ``v.maxThickness``
+- v.\ **maxThickness**
 
-- ``v.thicknessCalibration``
+- v.\ **thicknessCalibration**
 
-- ``v.preservePaintedAreas``
+- v.\ **preservePaintedAreas**
 
-- ``v.addBorder``
+- v.\ **addBorder**
 
 **Examples**::
 
