@@ -296,8 +296,7 @@ contains a Toonz scene.
 
    - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))``
    - To delete a cell: ``scene.setCell(row, col, undefined)``
-   - ``cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , 
-     the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})`` 
+   - ``cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})`` 
    - ``level`` can be a Level or a level name. The level has to be already in the scene.
    - ``fid``  supports numeric values or string values as “2” or “2a”.
 
