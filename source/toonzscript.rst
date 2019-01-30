@@ -73,8 +73,8 @@ Built on the foundaments of ECMAScript, ToonzScript retains a degree of similari
 
 Commands
 ''''''''
-- |**print(arg1, arg2, ...)**: writes a message on console.
-  |The print command doesn’t return the ``undefined``  value.
+- | **print(arg1, arg2, ...)**: writes a message on console.
+  | The print command doesn’t return the ``undefined``  value.
 
 Example:: 
 
