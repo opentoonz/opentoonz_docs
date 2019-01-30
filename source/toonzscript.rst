@@ -300,7 +300,7 @@ contains a Toonz scene.
    - ``level`` can be a Level or a level name. The level has to be already in the scene.
    - ``fid``  supports numeric values or string values as “2” or “2a”.
 
-- cell. = scene.\ **getCell**\ (row, col) - returns a JavaScript object with level and fid attributes
+- cell = scene.\ **getCell**\ (row, col) - returns a JavaScript object with level and fid attributes
 
 - scene.\ **insertColumn**\ (col)
 
@@ -379,15 +379,15 @@ represents a geometric tansformation (composed by rotation, translation and scal
 
 **Methods:** 
 
-- ``transform.\ **translate**\ (dx, dy) 
+- transform.\ **translate**\ (dx, dy) 
 
-- ``transform.\ **rotate**\ (degrees)
+- transform.\ **rotate**\ (degrees)
 
 .. note:: Positive values correspond to a counterclockwise rotation.
 
-- ``transform.\ **scale**\ (s)
+- transform.\ **scale**\ (s)
 
-- ``transform.\ **scale**\ (sx, sy)
+- transform.\ **scale**\ (sx, sy)
 
 **Examples**::
 
