@@ -118,7 +118,7 @@ contains the path of an object.
 
 **Methods:** 
 
-- path2 = path.\**withExtension**\(e)
+- path2 = path.**withExtension**\(e)
 
 - path2 = path. **withName** (name)
 
