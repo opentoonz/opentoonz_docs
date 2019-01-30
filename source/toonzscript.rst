@@ -24,7 +24,7 @@ File management
 
 |toonz_script_runscript|
 
-The ToonzScript file extension is .js, scripts need to be in the ``OpenToonz_stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
+The ToonzScript file extension is .js, scripts need to be in the ``OpenToonz stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
 
 
 .. _using_the_script_console:
@@ -73,7 +73,8 @@ Built on the foundaments of ECMAScript, ToonzScript retains a degree of similari
 
 Commands
 ''''''''
-- ``print(arg1, arg2, ...)`` : writes a message on console. The print command doesn’t return the ``undefined``  value.
+- ``print(arg1, arg2, ...)`` : writes a message on console.
+The print command doesn’t return the ``undefined``  value.
 
 Example:: 
 
@@ -92,7 +93,7 @@ Example::
 
 **Examples**::
 
-	view(new Level(“C:\\OpenToonz_stuff\\sandbox\\drawings\\A.pli”))
+	view(new Level(“C:\\OpenToonz stuff\\sandbox\\drawings\\A.pli”))
 
 - The variable ``ToonzVersion`` can be used to check the current version of OpenToonz.
 
@@ -633,9 +634,9 @@ This brief script is an example of using the OutlineVectorizer on a single image
 
 //Define the input and output folders::
 
-	dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\"; 
+	dir = "C:\\OpenToonz stuff\\SCRIPT IMAGES IN\\"; 
 
-	dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\"; 
+	dir2 = "C:\\OpenToonz stuff\\SCRIPT IMAGES OUT\\"; 
 
 
 
@@ -676,9 +677,9 @@ This example explains how to load an image and then create an animation in a lev
 
 	\\Define the input and output folders
 
-	dir = "C:\\OpenToonz_stuff\\SCRIPT IMAGES IN\\";
+	dir = "C:\\OpenToonz stuff\\SCRIPT IMAGES IN\\";
 
-	dir2 = "C:\\OpenToonz_stuff\\SCRIPT IMAGES OUT\\";
+	dir2 = "C:\\OpenToonz stuff\\SCRIPT IMAGES OUT\\";
 
 
 	//Load the toad3.tif image
