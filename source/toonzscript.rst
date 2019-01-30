@@ -83,17 +83,16 @@ Example::
 - | **run(filename)**: runs the script saved in filename.
   | The relative path are referred to the folder "<opentoonz library>/scripts/"
 
-**Examples**::
+Examples::
 
 	run(“test.js”)
-
 	run(“C:\\Users\\Username\\Tests\\another_test.js”)
 
 - | **view(image)**: allows to view an image.
   | The view command can be legally used in the following context: ``view(new Image(filename))`` 
 - | **view(level)**: allows to view a level.
 
-**Examples**::
+Example::
 
 	view(new Level(“C:\\OpenToonz stuff\\sandbox\\drawings\\A.pli”))
 
@@ -115,33 +114,33 @@ contains the path of an object.
 
 **Constructor:** 
 
-- ``new FilePath(path)`` 
+- new **FilePath**(path) 
 
 **Methods:** 
 
-- ``path2 = path.withExtension(e)``
+- path2 = path.**withExtension**(e)
 
-- ``path2 = path.withName(name)``
+- path2 = path.**withName**(name)
 
-- ``path2 = path.withParentDirectory(d)``
+- path2 = path.**withParentDirectory**(d)
 
-- ``path2 = path.concat(f)`` - where f can be a FilePath or a string
+- path2 = path.**concat**(f) - where f can be a FilePath or a string
 
-- ``files = path.files()`` - if path is a folder then this method returns the files inside the folder.
+- files = path.**files**() - if path is a folder then this method returns the files inside the folder.
 
 **Attributes:** 
 
-- ``path.extension``  - read and write attribute
+- path.**extension**  - read and write attribute
 
-- ``path.name`` - read and write attribute
+- path.**name** - read and write attribute
 
-- ``path.parentDirectory`` - read and write attribute
+- path.**parentDirectory** - read and write attribute
 
-- ``path.lastModified`` - read only attribute
+- path.**lastModified** - read only attribute
 
-- ``path.exists`` - read only attribute
+- path.**exists** - read only attribute
 
-- ``path.isDirectory`` - read only attribute
+- path.**isDirectory** - read only attribute
 
 **Examples**::
 
