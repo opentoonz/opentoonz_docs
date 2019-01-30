@@ -65,8 +65,20 @@ Configuring the Version Control in OpenToonz
 Once the version control server is configured and the version control client is installed it is possible to configure OpenToonz in order to use the version control.
 
 In OpenToonz the version control information is stored in the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder. By default the file has the following content:
+    .. code-block:: xml
 
-``<?xml version="1.0" encoding="UTF-8"?><Repositories><!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN<repository><name>PutYourRepositoryName</name><localPath>putYourWorkingCopyPath</localPath><repoPath>putYourRepositoryPath</repoPath></repository>REMOVE ENTIRELY THIS LINE TO ENABLE SVN --> <svnPath></svnPath></Repositories>`` 
+        <?xml version="1.0" encoding="UTF-8"?>
+        <Repositories>
+            <!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN
+        <repository>
+            <name>PutYourRepositoryName</name>
+            <localPath>putYourWorkingCopyPath</localPath>
+            <repoPath>putYourRepositoryPath</repoPath>
+        </repository>
+        REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->
+            <svnPath></svnPath>
+        </Repositories>
+
 
 By editing the file with a text editor (e.g. Notepad) it is possible to set the information for the central repository and the working copy location.
 
@@ -107,7 +119,12 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
-    ``<user name="JohnDoe">	<roles>	toonzer	</roles>	<svn name="johnd" password="johndpassword" /></user>``
+        .. code-block:: xml
+
+            <user name="JohnDoe">
+                <roles>toonzer</roles>
+                <svn name="johnd" password="johndpassword" />
+            </user>
 
     3. Save the ``permissions.xml``  file.
 
@@ -116,8 +133,15 @@ Save the ``versioncontrol.xml``  file.
 
     1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
-    2. Add after the lines defining a repository the following lines 
-    ``<repository>	<name>PutYourRepositoryName</name>	<localPath>putYourWorkingCopyPath</localPath>	<repoPath>putYourRepositoryPath</repoPath></repository>``
+    2. Add after the lines defining a repository the following lines:
+        .. code-block:: xml
+
+            <repository>
+                <name>PutYourRepositoryName</name>
+                <localPath>putYourWorkingCopyPath</localPath>
+                <repoPath>putYourRepositoryPath</repoPath>
+            </repository>
+    
 
     and set the related information.
 
@@ -129,7 +153,13 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
-    ``<user name="JohnDoe">	<roles>	toonzer	</roles>	<svn name="johnd" password="johndpassword" />	<svn name="johnd2" password="johndpassword2" /></user>``
+        .. code-block:: xml
+
+            <user name="JohnDoe">
+                <roles>toonzer</roles>
+                <svn name="johnd" password="johndpassword" />
+                <svn name="johnd2" password="johndpassword2" />
+            </user>
 
     3. Save the ``permissions.xml``  file.
 
