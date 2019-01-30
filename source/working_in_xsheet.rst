@@ -1638,7 +1638,7 @@ The HTML Xsheet header and the size for the tables used to represent the Xsheet 
 The whole text is included in the tag ``xsheet_html`` , that contains the elements ``page``  and ``info`` , where the different users and roles are defined.
 The basic structure of the file is the following:
 
-::
+.. code-block:: xml
 
     <xsheet_html>
        <page rows="50">
@@ -1653,7 +1653,7 @@ The ``info``  lines allows you to set information to be displayed in the header,
 
 In the example file you can find the following lines:
 
-::
+.. code-block:: xml
 
     <info name="Company" value="Company name"/>
     <info name="Name" value="Value"/>
