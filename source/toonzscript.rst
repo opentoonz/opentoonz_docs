@@ -175,23 +175,23 @@ contains an image, supported types are: tlv, pli or fullcolor.
 
 **Constructor:** 
 
-- ``new Image()``  or ``new Image(filename)`` 
+- new **Image**\ ()  or new **Image**\ (filename) 
 
 **Methods:** 
 
-- ``img.save(filename)`` - the file extension has to be compatible with the kind of used level 
+- img.\ **save**\ (filename) - the file extension has to be compatible with the kind of used level 
 
-- ``img.load(filename)``
+- img.\ **load**\ (filename)
 
 **Attributes:** 
 
-- ``img.width``  - has value 0 if the image is a pli
+- img.\ **width**  - has value 0 if the image is a pli
 
-- ``img.height`` - has value 0 if the image is a pli
+- img.\ **height** - has value 0 if the image is a pli
 
-- ``img.dpi`` - has value 0 if the image is a pli
+- img.\ **dpi** - has value 0 if the image is a pli
 
-- ``img.type``  - accepted values (“Empty”, “Raster”, “ToonzRaster”, “Vector”)
+- img.\ **type**  - accepted values (“Empty”, “Raster”, “ToonzRaster”, “Vector”)
 
 **Examples**::
 
@@ -216,31 +216,31 @@ contains a level, the supported types are: tlv, pli or fullcolor.
 
 **Constructor:** 
 
-- ``new Level()``  or ``new Level(filename)`` 
+- new **Level**\ ()  or new **Level**\ (filename) 
 
 **Methods:** 
 
-- ``level.load(filename)``
+- level.\ **load**\ (filename)
 
-- ``level.save(filename)`` - the file extension has to be compatible with the kind of usedlevel 
+- level.\ **save**\ (filename) - the file extension has to be compatible with the kind of usedlevel 
 
-- ``level.getFrameIds()`` - lists the names of all the frames
+- level.\ **getFrameIds**\ () - lists the names of all the frames
 
-- ``level.getFrame(frameId)`` - retrive the image of the specified frame
+- level.\ **getFrame**\ (frameId) - retrive the image of the specified frame
 
-- ``level.getFrameByIndex(index)`` - gets the frame specified by the index value (first value of index is 0)
+- level.\ **getFrameByIndex**\ (index) - gets the frame specified by the index value (first value of index is 0)
 
-- ``level.setFrame(frameId, image)`` - sets a frame (if the level is not empty its content and the type of image has to be compatible)
+- level.\ **setFrame**\ (frameId, image) - sets a frame (if the level is not empty its content and the type of image has to be compatible)
 
 **Attributes:** 
 
-- ``level.name`` - is a read and write attribute
+- level.\ **name** - is a read and write attribute
 
-- ``level.path`` - is a read and write attribute
+- level.\ **path** - is a read and write attribute
 
-- ``level.frameCount`` - is a read only value
+- level.\ **frameCount** - is a read only value
 
-- ``level.type``  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read only value
+- level.\ **type**  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read only value
 
 **Examples**:: 
 
@@ -280,39 +280,44 @@ contains a Toonz scene.
 
 **Constructor:** 
 
-- ``new Scene()``  or ``new Scene(filename)`` 
+- new **Scene**\ ()  or **new Scene**\ (filename) 
 
 **Methods:** 
 
-- ``scene.load(filename)``
+- scene.\ **load**\ (filename)
 
 .. note:: If the path is relative scenes of the current project are used.
 
-- ``scene.save(filename)`` 
+- scene.\ **save**\ (filename) 
 
-- ``scene.setCel(row, col, cell)`` , ``scene.setCell(row, col, level, frameId)`` 
+- scene.\ **setCel**\ (row, col, cell) , scene.\ **setCell**\ (row, col, level, frameId) 
 
-.. note:: ``cell``  is the kind of object returned by ``getCell()`` . - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))`` - To delete a cell: ``scene.setCell(row, col, undefined)- cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})-`` ``level`` can be a Level or a level name. The level has to be already in the scene.``- fid``  supports numeric values or string values as “2” or “2a”
+.. note:: ``cell``  is the kind of object returned by ``getCell()`` .
+   - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))``
+   - To delete a cell: ``scene.setCell(row, col, undefined)``
+   - ``cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})``
+   -``level`` can be a Level or a level name. The level has to be already in the scene.
+   - ``fid``  supports numeric values or string values as “2” or “2a”
 
-- ``cell. = scene.getCell(row, col)`` - returns a JavaScript object with level and fid attributes
+- cell. = scene.\ **getCell**\ (row, col) - returns a JavaScript object with level and fid attributes
 
-- ``scene.insertColumn(col)``
+- scene.\ **insertColumn**\ (col)
 
-- ``scene.deleteColumn(col)``
+- scene.\ **deleteColumn**\ (col)
 
-- ``scene.getLevels()`` - returns an arrray that contains all the levels belonging to the scene
+- scene.\ **getLevels**\ () - returns an arrray that contains all the levels belonging to the scene
 
-- ``scene.getLevel(name)`` - returns the level basing on its name. If a level using the name specified does not exists the value ``undefined``  is returned.
+- scene.\ **getLevel**\ (name) - returns the level basing on its name. If a level using the name specified does not exists the value ``undefined``  is returned.
 
-- ``level = scene.newLevel(type, name)`` -  Adds a layer to the scene. Type can be "Raster", "ToonzRaster" or "Vector". Name must not be already 'used in the scene.
+- level = scene.\ **newLevel**\ (type, name) -  Adds a layer to the scene. Type can be "Raster", "ToonzRaster" or "Vector". Name must not be already 'used in the scene.
 
-- ``level = scene.loadLevel(name, path)`` - Load a level (mode '"links") in the scene. The path must exist and be an absolute path.The name must not have been already used for another level of the scene.
+- level = scene.\ **loadLevel**\ (name, path) - Load a level (mode '"links") in the scene. The path must exist and be an absolute path.The name must not have been already used for another level of the scene.
 
 **Attributes:** 
 
-- ``scene.frameCount``  - is a read only value
+- scene.\ **frameCount**  - is a read only value
 
-- ``scene.columnCount``  - is a read only value
+- scene.\ **columnCount**  - is a read only value
 
 
 
