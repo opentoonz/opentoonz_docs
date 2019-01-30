@@ -293,6 +293,7 @@ contains a Toonz scene.
 - scene.\ **setCel**\ (row, col, cell) , scene.\ **setCell**\ (row, col, level, frameId) 
 
 .. note:: ``cell``  is the kind of object returned by ``getCell()`` .
+
    - The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))``
    - To delete a cell: ``scene.setCell(row, col, undefined)``
    - ``cell``  is a standard JavaScript object that includes the attributes:``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, col, {level:a, fid:1})``
