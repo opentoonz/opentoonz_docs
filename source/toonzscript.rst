@@ -705,7 +705,8 @@ This example explains how to load an image and then create an animation in a lev
 	ll=a.getFrameIds();
 
 	
-	//For loop that builds the new level. At each step a new frame is added to the level b using the setFrame method that adds the myimage frame rotated of a step degrees value using the ib ImageBuilder
+	//For loop that builds the new level. At each step a new frame is added to the level b using the
+	setFrame method that adds the myimage frame rotated of a step degrees value using the ib ImageBuilder
 
 	for(i=0; i<a.frameCount;i++)
 	{
@@ -731,6 +732,7 @@ This example explains how to load an image and then create an animation in a lev
 	//Shows the resulting level in a flipbook window
 
 	view(b);
+
 
 
 .. |toonz_script_console| image:: /_static/toonz_script/toonz_script_console.png
