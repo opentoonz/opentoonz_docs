@@ -48,24 +48,24 @@ The following are **some** of the predefined shortcuts available in OpenToonz.
 =============================   ===============  =====  =========
 **Tools**
 =============================   ===============  =====  =========
-|animate| Animate               **A**
-|selection| Selection           **S**
-|brush| Brush                   **B**
-|geometric| Geometric           **G**
-|type| Type                     **Y**
-|fill| Fill                     **F**
-|eraser| Eraser                 **E**
-|tape| Tape                     **T**
-|style_picker| Style Picker     **K**
-|RGB_picker| RGB Picker         **R**
-|cpe| Control Point Editor      **C**
-|pinch| Pinch                   **M**
-|skeleton| Skeleton             **V**
-|hook| Hook                     **O**
-|plastic| Plastic               **X**
-|zoom| Zoom                     **Shift**        **+**  **Space**
-|rotate| Rotate                 **Ctrl/⌘ Cmd**   **+**  **Space**
-|hand| Hand                     **Space**
+|animate|  Animate              **A**
+|selection|  Selection          **S**
+|brush|  Brush                  **B**
+|geometric|  Geometric          **G**
+|type|  Type                    **Y**
+|fill|  Fill                    **F**
+|eraser|  Eraser                **E**
+|tape|  Tape                    **T**
+|style_picker|  Style Picker    **K**
+|RGB_picker|  RGB Picker        **R**
+|cpe|  Control Point Editor     **C**
+|pinch|  Pinch                  **M**
+|skeleton|  Skeleton            **V**
+|hook|  Hook                    **O**
+|plastic|  Plastic              **X**
+|zoom|  Zoom                    **Shift**        **+**  **Space**
+|rotate|  Rotate                **Ctrl/⌘ Cmd**   **+**  **Space**
+|hand|  Hand                    **Space**
 =============================   ===============  =====  =========
 
 .. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
