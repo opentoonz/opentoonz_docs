@@ -1640,12 +1640,12 @@ The basic structure of the file is the following:
 
 ::
 
-<xsheet_html>
-   <page rows="50">
-   <page columns="10">
-   <info name="Company" value="Company name"/>
-   <info name="Name" value="Value"/>
-</xsheet_html>
+    <xsheet_html>
+       <page rows="50">
+       <page columns="10">
+       <info name="Company" value="Company name"/>
+       <info name="Name" value="Value"/>
+    </xsheet_html>
 
 By editing the ``page row``  and ``page columns``  values you can set the size of the table used for splitting the Xsheet in sections. The size of the table allows you to fit each Xsheet section to the paper size you want to use to print the Xsheet on paper.
 
@@ -1655,8 +1655,8 @@ In the example file you can find the following lines:
 
 ::
 
-<info name="Company" value="Company name"/>
-<info name="Name" value="Value"/>
+    <info name="Company" value="Company name"/>
+    <info name="Name" value="Value"/>
 
 These lines can be edited, and new lines, with the same syntax, can be appended, to provide all the information you want to appear in the header of the HTML Xsheet file.
 
