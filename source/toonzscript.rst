@@ -120,7 +120,7 @@ contains the path of an object.
 
 - path2 = path.\**withExtension**\(e)
 
-- path2 = path.**withName**(name)
+- path2 = path. **withName** (name)
 
 - path2 = path.**withParentDirectory**(d)
 
