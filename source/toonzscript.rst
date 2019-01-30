@@ -542,21 +542,21 @@ converts vector images into Raster or ToonzRaster images.
 
 **Constructor:** 
 
-- ``new Rasterizer()`` 
+- new **Rasterizer**\ ()
 
 **Methods:** 
 
-- ``out = r.rasterize(vimg)`` - converts to raster an image or a level
+- out = r.\ **rasterize**\ (vimg) - converts to raster an image or a level
 
 **Attributes:** 
 
-- ``r.colorMapped`` - if its value is set to True the generated image is of ToonzRaster type
+- r.\ **colorMapped** - if its value is set to True the generated image is of ToonzRaster type
 
-- ``r.xres``
+- r.\ **xres**
 
-- ``r.yres``
+- r.\ **yres**
 
-- ``r.dpi``
+- r.\ **dpi**
 
 **Examples**:: 
 
@@ -585,21 +585,21 @@ renders a whole scene or part of a scene, creating levels or images.
 
 **Constructor:** 
 
-- ``new Renderer()`` 
+- new **Renderer**\ ()
 
 **Methods:** 
 
-- ``level = c.renderScene(scene)`` 
+- level = c.\ **renderScene**\ (scene)
 
-- ``image = c.renderFrame(scene, frameIndex)`` 
+- image = c.\ **renderFrame**\ (scene, frameIndex)
 
 .. note:: frameIndex starts from 0
 
 **Attributes:** 
 
-- ``r.columns`` (list of indices of columns to render.  e.g. r.columns = [0,3])
+- r.\ **colum** (list of indices of columns to render.  e.g. r.columns = [0,3])
 
-- ``r.frames`` (list of indices of frames to render.  e.g. r.frames = [0,1,2,3])
+- r.\ **frames** (list of indices of frames to render.  e.g. r.frames = [0,1,2,3])
 
 **Examples**:: 
 
