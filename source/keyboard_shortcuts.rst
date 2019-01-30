@@ -43,12 +43,12 @@ Predefined Keyboard Shortcuts
 The following are **some** of the predefined shortcuts available in OpenToonz. 
 
 
-.. note:: In Mac systems, the modifier key shown in the following tables as **Ctrl**, must be substituted by **Cmd** (⌘).
+.. Note from Wolf_In_A_Bowl: '⌘' and '⌥' are not counted as characters so an additional space must be added
+  This is why they look like they are offset by 1 to the right
 
-
-==============================   =========  =====  =========  =====  =====
+==============================   ===============  =====  =========  =====  =====
 **Tools**
-==============================   =========  =====  =========  =====  =====
+==============================   ===============  =====  =========  =====  =====
 Animate (|animate|)              **A**
 Selection (|selection|)          **S**
 Brush (|brush|)                  **B**
@@ -64,10 +64,10 @@ Pinch (|pinch|)                  **M**
 Skeleton (|skeleton|)            **V**
 Hook (|hook|)                    **O**
 Plastic (|plastic|)              **X**
-Zoom (|zoom|)                    **Shift**  **+**  **Space**
-Rotate (|rotate|)                **Ctrl**   **+**  **Space**
+Zoom (|zoom|)                    **Shift**        **+**  **Space**
+Rotate (|rotate|)                **Ctrl/⌘ Cmd**   **+**  **Space**
 Hand (|hand|)                    **Space**
-==============================   =========  =====  =========  =====  =====
+==============================   ===============  =====  =========  =====  =====
 
 .. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
 
@@ -84,20 +84,20 @@ Segment                          **F8**
 ==============================   =========  =====  =========  =====  =====
 
 
-==============================   =========  =====  =========  =====  =====
+==============================   ===================  =====  =========  =====  =====
 **Visualization**    
-==============================   =========  =====  =========  =====  =====
+==============================   ===================  =====  =========  =====  =====
 Actual Pixel Size                **N**
-Fit to Window                    **Alt**    **+**  **9**
-Reset View                       **Alt**    **+**  **0**
+Fit to Window                    **Alt/⌥ Option**     **+**  **9**
+Reset View                       **Alt/⌥ Option**     **+**  **0**
 Zoom in                          **+**
 Zoom out                         **-**
 Move to next Xsheet column       **->**
 Move to previous Xsheet column   **<-**
 Onion Skin Toggle                **/**
 Maximize Panel                   **`**
-Main Window Full Screen Mode     **Ctrl**   **+**  **`**
-==============================   =========  =====  =========  =====  =====
+Main Window Full Screen Mode     **Ctrl/⌘ Cmd**       **+**  **`**
+==============================   ===================  =====  =========  =====  =====
 
 
 ==============================   =========  =====  =========  =====  =====
@@ -112,51 +112,51 @@ Next Frame                       **Shift**  **+**  **.**
 ==============================   =========  =====  =========  =====  =====
 
 
-==============================   =========  =====  =========  =====  =====
+==============================   ===================  =====  =========  =====  =====
 **Menu File**    
-==============================   =========  =====  =========  =====  =====
-New Scene                        **Ctrl**   **+**  **N**
-Load Scene                       **Ctrl**   **+**  **L**
-Save Scene                       **Ctrl**   **+**  **S**
-Save Scene As                    **Ctrl**   **+**  **Shift**  **+**  **S**
-New Level                        **Alt**    **+**  **N**
-Preview                          **Ctrl**   **+**  **R**
-Output Settings                  **Ctrl**   **+**  **O**
-Render                           **Ctrl**   **+**  **Shift**  **+**  **R**
-Fast Render to MP4               **Alt**    **+**  **R**
-Preferences                      **Ctrl**   **+**  **U**
-Quit                             **Ctrl**   **+**  **Q**
-==============================   =========  =====  =========  =====  =====
+==============================   ===================  =====  =========  =====  =====
+New Scene                        **Ctrl/⌘ Cmd**       **+**  **N**
+Load Scene                       **Ctrl/⌘ Cmd**       **+**  **L**
+Save Scene                       **Ctrl/⌘ Cmd**       **+**  **S**
+Save Scene As                    **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **S**
+New Level                        **Alt/⌥ Option**     **+**  **N**
+Preview                          **Ctrl/⌘ Cmd**       **+**  **R**
+Output Settings                  **Ctrl/⌘ Cmd**       **+**  **O**
+Render                           **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **R**
+Fast Render to MP4               **Alt/⌥ Option**     **+**  **R**
+Preferences                      **Ctrl/⌘ Cmd**       **+**  **U**
+Quit                             **Ctrl/⌘ Cmd**       **+**  **Q**
+==============================   ===================  =====  =========  =====  =====
 
 
-==============================   =========  =====  =========  =====  =====
+==============================   ===============  =====  =========  =====  =====
 **Menu Edit**    
-==============================   =========  =====  =========  =====  =====
-Undo                             **Ctrl**   **+**  **Z**
-Redo                             **Ctrl**   **+**  **Y**
-Cut                              **Ctrl**   **+**  **X**
-Copy                             **Ctrl**   **+**  **C**
-Paste Insert                     **Ctrl**   **+**  **V**
+==============================   ===============  =====  =========  =====  =====
+Undo                             **Ctrl/⌘ Cmd**   **+**  **Z**
+Redo                             **Ctrl/⌘ Cmd**   **+**  **Y**
+Cut                              **Ctrl/⌘ Cmd**   **+**  **X**
+Copy                             **Ctrl/⌘ Cmd**   **+**  **C**
+Paste Insert                     **Ctrl/⌘ Cmd**   **+**  **V**
 Delete                           **Del**
 Insert                           **Ins**
-Select All                       **Ctrl**   **+**  **A**
-Group                            **Ctrl**   **+**  **G**
-Ungroup                          **Ctrl**   **+**  **Shift**  **+**  **G**
-Bring to Front                   **Ctrl**   **+**  **]**
+Select All                       **Ctrl/⌘ Cmd**   **+**  **A**
+Group                            **Ctrl/⌘ Cmd**   **+**  **G**
+Ungroup                          **Ctrl/⌘ Cmd**   **+**  **Shift**  **+**  **G**
+Bring to Front                   **Ctrl/⌘ Cmd**   **+**  **]**
 Bring Forward                    **]**
 Send Backward                    **[**
-Send to Back                     **Ctrl**   **+**  **[**
-==============================   =========  =====  =========  =====  =====
+Send to Back                     **Ctrl/⌘ Cmd**   **+**  **[**
+==============================   ===============  =====  =========  =====  =====
 
 
-==============================   =========  =====  =========  =====  =====
+==============================   =================  =====  =========  =====  =====
 **Menu Xsheet**    
-==============================   =========  =====  =========  =====  =====
+==============================   =================  =====  =========  =====  =====
 Set Key                          **Z**
-New FX                           **Ctrl**   **+**  **F**
-Edit FX                          **Ctrl**   **+**  **K**
-Apply Lip Sync Data to Column    **Alt**    **+**  **L**
-==============================   =========  =====  =========  =====  =====
+New FX                           **Ctrl/⌘ Cmd**     **+**  **F**
+Edit FX                          **Ctrl/⌘ Cmd**     **+**  **K**
+Apply Lip Sync Data to Column    **Alt/⌥ Option**   **+**  **L**
+==============================   =================  =====  =========  =====  =====
 
 
 ==============================   =========  =====  =========  =====  =====
@@ -170,12 +170,12 @@ Increase Step                    **'**
 ==============================   =========  =====  =========  =====  =====
 
 
-==============================   =========  =====  =========  =====  =====
+==============================   ===================  =====  =========  =====  =====
 **Menu Windows**    
-==============================   =========  =====  =========  =====  =====
-History                          **Ctrl**   **+**  **H**
-Record Audio                     **Alt**    **+**  **A**
-==============================   =========  =====  =========  =====  =====
+==============================   ===================  =====  =========  =====  =====
+History                          **Ctrl/⌘ Cmd**       **+**  **H**
+Record Audio                     **Alt/⌥ Option**     **+**  **A**
+==============================   ===================  =====  =========  =====  =====
 
 
 
