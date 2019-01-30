@@ -1321,8 +1321,6 @@ When you need to synchronize the movement of a character’s lips with the sound
 
 Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the Skeleton tool (|skeleton|) features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
 
-
-
 The breakdown of audio files can be done by looking at the sound wave in the scene column, for example to spot where each word starts; by scrubbing the loaded audio clips with the current frame cursor either in the Xsheet frame column or in the viewer framebar; and by listening to specific sections of the audio files.
 
 When mouth images are placed in the proper place, you can check the sync by scrubbing or selecting again the audio file section you are interested in, because while listening to the selected audio section, the viewer will display the related animation frames.
@@ -1368,7 +1366,7 @@ While Magpie takes care of the audio file analysis and phoneme recognition, the 
 
 .. tip:: **To export the OpenToonz lip sync file in Magpie:**
 
-    1. Copy the file ``export-toonz.lua``  available in ``OpenToonz_stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
+    1. Copy the file ``export-toonz.lua``  available in ``OpenToonz stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
 
     2. In Magpie choose File > Export and choose Toonz among the 2D software list to export the TLS file.
 
@@ -1394,9 +1392,6 @@ Using Memos
 Memos can be posted in the Xsheet at specific positions in order to add notes and comments to the scene. 
 
 When editing a memo its color can be set, and the text you write can be formatted. Once posted, memos display the first letters of their content in order to be identified, and can be retrieved in the Xsheet by navigating them.
-
-
-
 
 .. tip:: **To post a memo:**
 
@@ -1445,7 +1440,7 @@ Saving and Loading Scenes
 -------------------------
 When working on a new scene the default name (untitled) followed by a progressive number is assigned to the scene until you save it with a different name. This name is also used in case the $scenepath variable is used in the project settings to store temporarily the material used in the scene.
 
-.. note:: Untitled scenes and related material are stored in the ``OpenToonz_stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
+.. note:: Untitled scenes and related material are stored in the ``OpenToonz stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
 
 Scene files can be saved and loaded as TNZ files using the related menu commands. Scenes have to be saved in the current project +scenes folder, or any of its sub-folders, in order to retrieve all the material when they are loaded back.
 
@@ -1621,7 +1616,7 @@ The HTML file contains a header with general information, several tables, whose 
 
 If any Sub-Xsheets are used in the scene, they are displayed after the main Xsheet where they are exposed.
 
-The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` :
+The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``OpenToonz stuff\profiles\layouts\settings`` :
 
 - ``xsheet_html.xml``  contains the information used for the HTML Xsheet header, and the size for the tables used to represent the Xsheet content.
 
@@ -1629,7 +1624,7 @@ The information displayed in the header and the appearance of the HTML table can
 
 When using the Print Xsheet command, a dialog with information about the location and name of the generated HTML file is displayed; then the generated HTML file is displayed in your default browser.
 
-The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
+The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
 
 .. note:: If you want to move the HTML Xsheet file, you should move the CSS file as well, in order to preserve the HTML file appearance as defined by the CSS file.
 
@@ -1638,15 +1633,19 @@ The HTML file is saved in the same location of the TNZ file; the CSS file used f
 
 Editing the HTML Xsheet Header and Table Size
 '''''''''''''''''''''''''''''''''''''''''''''
-The HTML Xsheet header and the size for the tables used to represent the Xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
+The HTML Xsheet header and the size for the tables used to represent the Xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
 
-The whole text is included in the tag ``xsheet_html`` , that contains the elements ``page``  and ``info`` , where the different users and roles are defined. The basic structure of the file is the following:
-
-
+The whole text is included in the tag ``xsheet_html`` , that contains the elements ``page``  and ``info`` , where the different users and roles are defined.
+The basic structure of the file is the following:
 
 ::
 
-    <xsheet_html>	<page rows="50">	<page columns="10">	<info name="Company" value="Company name"/>	<info name="Name" value="Value"/></xsheet_html>
+    <xsheet_html>
+       <page rows="50">
+       <page columns="10">
+       <info name="Company" value="Company name"/>
+       <info name="Name" value="Value"/>
+    </xsheet_html>
 
 By editing the ``page row``  and ``page columns``  values you can set the size of the table used for splitting the Xsheet in sections. The size of the table allows you to fit each Xsheet section to the paper size you want to use to print the Xsheet on paper.
 
@@ -1654,11 +1653,9 @@ The ``info``  lines allows you to set information to be displayed in the header,
 
 In the example file you can find the following lines:
 
-
-
 ::
-
-    <info name="Company" value="Company name"/><info name="Name" value="Value"/>
+    <info name="Company" value="Company name"/>
+    <info name="Name" value="Value"/>
 
 These lines can be edited, and new lines, with the same syntax, can be appended, to provide all the information you want to appear in the header of the HTML Xsheet file.
 
@@ -1668,7 +1665,7 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
 .. tip:: **To edit the xsheet_html.xml file:**
 
-    Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
+    Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
 
 .. tip:: **To change the size of the table used for splitting the Xsheet in sections:**
 
@@ -1687,7 +1684,7 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
 Editing HTML Xsheet Appearance
 ''''''''''''''''''''''''''''''
-The HTML Xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz_stuff\profiles\layouts\settings`` . 
+The HTML Xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz stuff\profiles\layouts\settings`` . 
 
 The ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML Xsheet file. It can be edited with any text editor software, e.g. Notepad or TextEdit. 
 
@@ -1717,7 +1714,8 @@ Elements defined in the CSS are the following:
 
 .. tip:: **To edit the xsheet.css file:**
 
-    Open the ``xsheet.css``  file available in the folder ``OpenToonz_stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
+    Open the ``xsheet.css``  file available in the folder ``OpenToonz stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
+
 
 
 .. |load_psd| image:: /_static/xsheet/load_psd.png
