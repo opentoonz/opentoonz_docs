@@ -9,6 +9,10 @@ This document describes contribution process for OpenToonz User Manual.
   Git Bash will be installed accordingly.
 
 - Install Python
+
+  Command Prompt will work if Python is added to PATH.
+
+- (Optional) Install Anaconda
   
   Confirmed working with [Anaconda](https://www.anaconda.com/download/) distribution Python 2.7 version. Python 3.6 version should work, I guess.
   
@@ -42,10 +46,8 @@ This document describes contribution process for OpenToonz User Manual.
    
      `$ git remote add upstream https://github.com/opentoonz/opentoonz_docs.git`
 
-1. Prepare Python and Sphinx (w/ Anaconda Prompt)
+1. Prepare Python and Sphinx (w/ Command Prompt)
 
-   - Launch Anaconda Prompt.
-   
    - Install Sphinx
    
      `$ pip install sphinx sphinx-autobuild`
@@ -58,9 +60,9 @@ This document describes contribution process for OpenToonz User Manual.
    
      `$ pip install sphinx-intl`
      
-1. Try building the HTML (w/ Anaconda Prompt)
+1. Try building the HTML (w/ Command Prompt)
 
-   - On Anaconda Prompt, move to `opentoonz_docs` folder using `cd` command
+   - Move to `opentoonz_docs` folder using `cd` command
 
    - Make HTML
    
