@@ -2,15 +2,13 @@
 
 Editing Using Spreadsheet and Curves
 ====================================
-A **transformation** is a change in a parameter's value over a number of frames, these transformations are shown in the **Function Editor**.
 
-| The Function Editor displays transformations, and the keyframes that define them, in either a spreadsheet view or a curve editor view. Both of the aforementioned views allow the user to move, delete, modify, or set new keyframes.
-| Additionally, the user is able to choose how the values between a pair of keyframes, known as a **transformation segment**, are interpolated.
+| Changes in Object transformations and FX parameters are shown in the function editor window, where keyframes and their related interpolations can be controlled and modified by using a spreadsheet of numerical columns or a graph editor.
 
-| The spreadsheet displays transformations in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame.
-| Blank cells represent the absence of a transformation where the value of a parameter is unchanging due to no keyframes being defined.
+| The spreadsheet displays changes in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame.
+| Blank cells represent the absence of a change in a parameters value due to no keyframes being defined.
 
-| The Function Curve Editor displays transformations as curves in a graph, where frames are laid horizontally and values are laid vertically.
+| The Function Curve Editor displays changes as curves in a graph, where frames are laid horizontally and values are laid vertically.
 | Keyframes are represented as points and the interpolated values between them are visualized as red lines.
 
 The spreadsheet's columns and the Function Curve Editor's curves are different representations of the same data, so any changes made in one view are also reflected in the other.
