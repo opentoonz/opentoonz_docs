@@ -2,23 +2,28 @@
 
 Editing Using Spreadsheet and Curves
 ====================================
-Object and FX transformations are mapped in the function editor window, where set key values and related interpolations can be controlled and modified by using a spreadsheet of numerical columns or a graph editor.
+A **transformation** is a change in a parameter's value over a number of frames, these transformations are shown in the **Function Editor**.
 
-The spreadsheet display transformations in columns, like the ones available in Xsheet, where for each frame the related transformation values are displayed.
+| The Function Editor displays transformations, and the keyframes that define them, in either a spreadsheet view or a curve editor view. Both of the aforementioned views allow the user to move, delete, modify, or set new keyframes.
+| Additionally, the user is able to choose how the values between a pair of keyframes, known as a **transformation segment**, are interpolated.
 
-The graph editor display transformations as curves in a graph, where frames are laid horizontally and values are laid vertically. 
+| The spreadsheet displays transformations in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame.
+| Blank cells represent the absence of a transformation where the value of a parameter is unchanging due to no keyframes being defined.
 
-The spreadsheet columns and the graph editor curves are different representations of the same transformation, so any change made in one mode is reflected in the other one as well.
+| The Function Curve Editor displays transformations as curves in a graph, where frames are laid horizontally and values are laid vertically.
+| Keyframes are represented as points and the interpolated values between them are visualized as red lines.
+
+The spreadsheet's columns and the Function Curve Editor's curves are different representations of the same data, so any changes made in one view are also reflected in the other.
 
 
 .. _using_the_function_editor:
 
 Using the Function Editor
 -------------------------
-
+ 
 |function_editor_1|
 
-The function editor window is divided into three sections. On the left there is an area where the spreadsheet or graph editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/FX tree.
+The function editor window is divided into three sections. On the left there is an area where the spreadsheet or Function Curve Editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/FX tree.
 
 The tree has two main item folders, Stage and FX: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each used effect. Each folder contains the related transformation parameters.
 
@@ -62,9 +67,9 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Right-click the folder and choose Show All from the menu that opens to display or hide all columns or curves related to its parameters.
 
-.. tip:: **To open the graph editor in a separate window:**
+.. tip:: **To open the Function Curve Editor in a separate window:**
 
-    1. Make sure the option Graph Editor Opens in Popup is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
+    1. Make sure the option Function Curve Editor Opens in Popup is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
     
     2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
 
@@ -74,9 +79,9 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
     
     2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
 
-.. tip:: **To switch between spreadsheet and graph editor in the Function Editor:**
+.. tip:: **To switch between spreadsheet and Function Curve Editor in the Function Editor:**
 
-    1. Make sure the option Toggle Between Graph Editor and Spreadsheet is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
+    1. Make sure the option Toggle Between Function Curve Editor and Spreadsheet is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
     
     2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
 
@@ -97,7 +102,7 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
     - Use the Home and End keys to scroll up to the beginning or the end of the Xsheet content.
 
 
-.. tip:: **To navigate the graph editor:**
+.. tip:: **To navigate the Function Curve Editor:**
 
     Do one of the following:
 
@@ -107,7 +112,7 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Middle-click and drag the graph area to scroll in any direction, the horizontal ruler to scroll horizontally, and the vertical ruler to scroll vertically.
 
-    - Use the reset view shortcut (by default the 0 key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current graph editor window.
+    - Use the reset view shortcut (by default the 0 key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current Function Curve Editor window.
 
 .. tip:: **To save transformation data:**
 
@@ -130,12 +135,12 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
 .. _defining_key_values:
 
-Defining Key Values
+Defining keyframes
 -------------------
-Key values, including those defined for object transformations done by using the Animate tool (|animate|) and those defined for FX parameters in the FX Settings window, can be controlled and edited both using spreadsheet numerical columns and graph editor curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
+keyframes, including those belonging for object transformations done by using the Animate tool (|animate|) and those defined for FX parameters in the FX Settings window, can be controlled and edited both using the spreadsheet's numerical columns and the Function Curve Editor's curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
 
 
-In spreadsheet numerical columns they are displayed in specific cells; in graph editor curves, key values are represented as control points along the curve. In both cases they can be added, edited, moved and deleted.
+In the spreadsheet, keyframes are displayed as orange cells; in the Function Curve Editor, keyframes are represented as control points along the curve. In both cases they can be added, edited, moved and deleted.
 
 
 .. _using_numerical_columns:
@@ -145,9 +150,9 @@ Using the Spreadsheet
 
 |function_editor_spreadsheet|
 
-The spreadsheet displays transformations in columns like the ones available in Xsheet, having one for each parameter. For each frame the column cells display the related transformation values, that can be edited as in a spreadsheet.
+The spreadsheet displays transformations in columns like the ones available in the Xsheet, having one for each parameter. For each frame, the column's cells display the related transformation values.
 
-Key values are displayed in different-colored cells, and can be moved along the column to different frame positions. In-between values are automatically generated according to the key values and to the set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ).
+keyframes are displayed in different-colored cells, and can be moved along the column to different frame positions. In-between values are automatically generated according to the keyframes and to the set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ).
 
 All the columns referring to the same object or FX are grouped under one single header. For example under a pegbar header you can find all the columns referring to its transformations. 
 
@@ -156,15 +161,15 @@ Columns cells can be used to type in directly values for keys, edit or move them
 
 
 
-.. tip:: **To define key values directly in spreadsheet columns:**
+.. tip:: **To define keyframes directly in spreadsheet columns:**
 
-    1. Double click in the column cell where you want to define a key value: the cell becomes editable.
+    1. Double click in the column cell where you want to define a keyframe: the cell becomes editable.
 
     2. Type in the value for the key, and press Enter to confirm.
 
-.. tip:: **To move a key value:**
+.. tip:: **To move a keyframe:**
 
-    Click the vertical strip at the left of a key value cell, and drag it up or down to the new position; the in-between values change accordingly.
+    Click the vertical strip at the left of a keyframe cell, and drag it up or down to the new position; the in-between values change accordingly.
 
 .. tip:: **To displace the channel along the column:**
 
@@ -187,20 +192,20 @@ Columns cells can be used to type in directly values for keys, edit or move them
 
 .. _using_function_curves:
 
-Using the Graph Editor
-''''''''''''''''''''''
+Using the Function Curve Editor
+'''''''''''''''''''''''''''''''
 
 |function_editor_grapheditor|
 
-The Graph Editor display transformations as curves in a graph where frames are laid horizontally, and values are laid vertically. 
+The Function Curve Editor displays transformations as curves in a graph where frames are laid horizontally, and values are laid vertically. 
 
-Curves are defined by control points representing key values. Points can be easily added by working directly in the graph or using the Set Key button (|key|) in the top bar of the editor. 
+Curves are defined by control points representing keyframes. Points can be easily added by working directly in the graph or using the Set Key button (|key|) in the top bar of the editor. 
 
 Control points can also be selected in order to be edited, moved or deleted. 
 
-The Set Key button (|key|) is either grey when no key value is defined for the current curve at the current frame, or blue when a key value is defined for the current curve at the current frame.
+The Set Key button (|key|) is either grey when no keyframe is defined for the current curve at the current frame, or blue when a keyframe is defined for the current curve at the current frame.
 
-Frames and key values can be navigated by using the related buttons in the top bar of the editor. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined. 
+Frames and keyframes can be navigated by using the related buttons in the top bar of the editor. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one keyframe is defined. 
 
 
 
@@ -210,7 +215,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
     - Click the related parameter name in the objects/FX tree.
 
-    - Display the curve in the graph editor, then click to select it.
+    - Display the curve in the Function Curve Editor, then click to select it.
 
 .. tip:: **To set the current frame:**
 
@@ -289,7 +294,7 @@ Frames and key values can be navigated by using the related buttons in the top b
     Right-click the curve and choose Deactivate Cycle from the menu that opens.
 
 
-.. note:: Only key values included in the selection are considered when performing copy, cut and paste operations.
+.. note:: Only keyframes included in the selection are considered when performing copy, cut and paste operations.
 
 .. note:: All the Edit menu commands are also available in the menu that opens when right-clicking in the Xsheet cells.
 
@@ -298,7 +303,7 @@ Frames and key values can be navigated by using the related buttons in the top b
 
 Setting Segment Interpolations
 ------------------------------
-A transformation segment, that is to say the section between two key values, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the graph editor, and as a series of values, one for each frame, in the spreadsheet.
+A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the Function Curve Editor, and as a series of values, one for each frame, in the spreadsheet.
 
 Available interpolations are the following: linear, speed in / speed out, ease in / ease out, ease in / ease out %, exponential, expression-based, file-based, constant and similar-shape-based. The default interpolation can be set in the Preferences > Animation window by choosing among linear, speed in / speed out, ease in / ease and out, ease in / ease out %, but the interpolation can be changed at any time in the interpolation area of the function editor, on the top right of the window.
 
@@ -320,7 +325,7 @@ In the same area it is also possible to define an interpolation step, that is to
     2. Click the Apply button to apply the desired change.
 
 
-.. tip:: **To set the type of interpolation for a segment in the graph editor:**
+.. tip:: **To set the type of interpolation for a segment in the Function Curve Editor:**
 
     1. Set the segment by doing one of the following:
 
@@ -486,7 +491,7 @@ Using Interpolations Based on Expressions
 
 |function_editor_iExpres|
 
-When the interpolation is defined by an expression, the segment values come from a mathematical formula that can be typed by using algebra notations. In this case the key values at both ends of the segment may change as well, according to the typed expression.
+When the interpolation is defined by an expression, the segment values come from a mathematical formula that can be typed by using algebra notations. In this case the keyframes at both ends of the segment may change as well, according to the typed expression.
 
 While typing the expression, if the syntax is recognized, a menu automatically opens suggesting you the possible terms: from the menu you can select the term both to display in a tooltip box its correct syntax, and to insert it in the expression.
 
@@ -589,7 +594,7 @@ numeric constant   E.g. 1, 2, 4.3.
 ``random(min,max)``                                                                              Generates a random number between ``min``  and ``max`` .                                                                                                                    
 ``random_s(seed)``                                                                               Works like random, but allows the user to specify the ``seed``  to modify the value of the ``random``  function.                                                            
 ``random_s(seed,max)``                                                                           Like above, with ``max``  as the maximum value of the transition.                                                                                                           
-``random_s(seeed,min,max)``                                                                      Like above, with ``min``  and ``max``  as the minimum and maximum values of the transition.                                                                                 
+``random_s(seed,min,max)``                                                                       Like above, with ``min``  and ``max``  as the minimum and maximum values of the transition.                                                                                 
 ``saw(length)`` , ``saw(length,height)`` , ``sawtooth(length)`` , ``sawtooth(length,height)``    Generates a periodic sawtooth shaped curve according to the ``length``  and ``height``  values; if ``height``  is not expressed it is assumed to be equal to ``length`` .   
 ``wave(length)``                                                                                 The same as ``sin(f*2*pi/length)`` .                                                                                                                                        
 ===============================================================================================  ==========================================================================================================================================================================  
@@ -699,7 +704,7 @@ Using Interpolations Based on File Data
 
 |function_editor_iFile|
 
-When an interpolation is based on file data, the segment values are retrieved from the file content. In this case the key values at both ends of the segment may change as well, according to the file data.
+When an interpolation is based on file data, the segment values are retrieved from the file content. In this case the keyframes at both ends of the segment may change as well, according to the file data.
 
 The file can be created by an external device or other applications, such as motion-control camera or 3D software; supported file formats are BAT, DAT, RTF and TXT.
 
@@ -788,11 +793,11 @@ It is also possible to set a frame offset value so that the interpolation will r
 
 Controlling Several Function Curves at the Same Time
 ----------------------------------------------------
-It is possible to control the keys and the interpolations of all the function curves visualized in the Function Editor by using widgets available in a horizontal strip at the top of the Graph Editor area, below the frame ruler.
+It is possible to control the keys and the interpolations of all the function curves visualized in the Function Editor by using widgets available in a horizontal strip at the top of the Function Curve Editor area, below the frame ruler.
 
 This allows you to define keys and control the interpolation speed for different curves at the same time, such as a camera truck and pan, or a special FX transformation and a pegbar movement.
 
-With respect to keys, a key point is visible in the strip for each key point defined for any curve visible in the graph editor; a line connects the key points for all the frames where there is a transformation going on. The key point can be moved, automatically moving the key points it refers to; in case the key point refers to key points at the same frame in several curves, all the key points will move along. 
+With respect to keys, a key point is visible in the strip for each key point defined for any curve visible in the Function Curve Editor; a line connects the key points for all the frames where there is a transformation going on. The key point can be moved, automatically moving the key points it refers to; in case the key point refers to key points at the same frame in several curves, all the key points will move along. 
 
 With respect to interpolation, if all the visible curves have a key at the same specific frame, and the segment on the side of the key has the same ease in / ease out value or the same speed in / speed out horizontal component, a marker will be visible in the strip on the side of the key points. The marker shaped as an opening square bracket is for the segment on the right of the key point, the one shaped like a closing square bracket is for the segment on the left of the key point. The markers can be moved, automatically changing the ease in / ease out value or the speed in / speed out of all the segments they refer to. 
 
