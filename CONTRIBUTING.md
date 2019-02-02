@@ -38,7 +38,7 @@ This document describes contribution process for OpenToonz User Manual.
      
      The folder `opentoonz_docs` will be created under the current folder.
      
-   - Move into opentoonz local repositry
+   - Move into opentoonz local repository
    
      `$ cd opentoonz_docs`
      
@@ -100,7 +100,7 @@ First , launch Git Bash and move to `opentoonz_docs` folder using `cd` command
     
     - `$ gitk` can show details of modification
 
-    - `$ make html` on Anaconda Prompt to check the generated HTML locally
+    - `$ make html` to check the generated HTML locally
 
 1. Commit (w/ Git Bash)
 
