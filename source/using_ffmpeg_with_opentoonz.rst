@@ -30,7 +30,7 @@ Downloading FFmpeg for Windows
 |ffmpeg_builds_windows|
 
 | In the majority of cases, the default choices are fine.
-| Hit the blue **Download Build** build button, this will begin downloading a zip archive containing FFmpeg.
+| Hit the blue **Download Build** button, this will begin downloading a zip archive containing FFmpeg.
 
 | You can now proceed to the next section: `Installing FFmpeg for Windows`_.
 
@@ -67,7 +67,7 @@ Installing FFmpeg for Windows
 
 |ffmpeg_path_windows|
 
-| Finally, restart OpenToonz, start a new project or open an existing one and open the **Output Settings** window with ``File > Output Settings...``.
+| Finally, restart OpenToonz, start a new project or open an existing one and open the **Output Settings** window with ``File > Output Settings...``
 | In the **File Settings** subsection, you should see mp4 and webm as file formats.
 
 |output_settings_windows|
