@@ -307,7 +307,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convertwindow change depending on the format of the selected files.
 
-|convert|
+    |convert|
 
     2. Choose the frame range to convert, the saving location, a name, the new format, and the background color of the converted file.
 
@@ -341,14 +341,14 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     3. Select unpainted tlv from the File format drop down menu.
 
-|convert_tlv_unpainted|
+    |convert_tlv_unpainted|
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
     5. Activate the Skip Existing Files to to prevent overwriting already existing files.
 
     6. Activate the Apply Autoclose.
-
+    
     7. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
 
     8. Choose how to manage the palette of the tlv file/s you are going to create. By default a new palette is created. If you prefer to use an existing palette press the button next the palette field and use the browser to locate the palette file you desire to use.
@@ -363,7 +363,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     3. Select painted tlv from the File format drop down menu.
 
-|convert_tlv_painted|
+    |convert_tlv_painted|
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
@@ -385,7 +385,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     1. Select the Raster Full color file you want to convert. 
 
-|convert_tlv_painted_noaa|
+    |convert_tlv_painted_noaa|
 
     2. Choose the saving location and, if you have selected one sequence, the frame range.
 
