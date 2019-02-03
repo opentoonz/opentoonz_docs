@@ -80,9 +80,6 @@ In the file tree available on the left there are the following main items:
 
 .. note:: In case several repositories are defined, each will be displayed with the related label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
 
-
-
-
 You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed with related icons, or in a list displaying additional s that can be also used to sort files.
 
 .. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the size set for the level strip frames in the Preferences > Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
@@ -137,13 +134,9 @@ If any of the files you want to import has the same name of a file already exist
 
     Click the new folder button (|new_folder|) in the bottom bar of the browser.
 
-
-
 .. tip:: **To move one folder up in the file tree:**
 
     Click the folder up button (|folder_up|) in the bottom bar of the browser.
-
-
 
 .. tip:: **To load levels from the Load Level browser:**
 
@@ -665,6 +658,8 @@ The Xsheet is divided into sections by horizontal markers, whose interval can be
 Column cells may have different colors according to the type of level they contain. Toonz animation levels are displayed in light green; raster drawings, full color images, sequences and clips are displayed in light blue; Sub-Xsheet in light red (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); FX that create computer generated images in light orange (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); audio files in yellow (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 The column header contains information about the column content.
+
+|xsheet|
 
 From the top you can see :
 
@@ -1733,6 +1728,7 @@ Elements defined in the CSS are the following:
 .. |scene_cast| image:: /_static/xsheet/scene_cast.png
 .. |level_strip| image:: /_static/xsheet/level_strip.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
+.. |xsheet| image:: /_static/xsheet/xsheet.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
