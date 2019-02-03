@@ -341,8 +341,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     3. Select unpainted tlv from the File format drop down menu.
 
-
-
+|convert_tlv_unpainted|
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
@@ -364,6 +363,8 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     3. Select painted tlv from the File format drop down menu.
 
+|convert_tlv_painted|
+
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
     5. Activate the Skip Existing Files to to prevent overwriting already existing files.
@@ -383,6 +384,8 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 .. tip:: **To convert files to the painted TLV format from non AA source:**
 
     1. Select the Raster Full color file you want to convert. 
+
+|convert_tlv_painted_noaa|
 
     2. Choose the saving location and, if you have selected one sequence, the frame range.
 
@@ -1726,6 +1729,9 @@ Elements defined in the CSS are the following:
 .. |file_browser| image:: /_static/xsheet/file_browser.png
 .. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |convert| image:: /_static/xsheet/convert.png
+.. |convert_tlv_unpainted| image:: /_static/xsheet/convert_tlv_unpainted.png
+.. |convert_tlv_painted| image:: /_static/xsheet/convert_tlv_painted.png
+.. |convert_tlv_painted_noaa| image:: /_static/xsheet/convert_tlv_painted_noaa.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
