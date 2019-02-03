@@ -104,7 +104,7 @@ If you are loading one or several files located outside the default current proj
 
 If any of the files you want to import has the same name of a file already existing in the destination project folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it by adding a suffix you can choose. In this way you can control if files you are importing have already been imported previously, or manage files that just share the same name. 
 
-.. note:: It is **heavily recomended** to **Import** assets to the current project folders, as OpenToonz can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
+.. note:: **WARNING:** It is heavily recomended to **Import** assets to the current project folders, as OpenToonz can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
 
 .. note:: Files loaded in a scene without importing can be imported later all at once by using the **Collect Assets** command (see  :ref:`Collecting Assets <collecting_assets>`  ).
 
