@@ -54,67 +54,69 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 |file_browser|
 
-You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet or the scene cast window, or use the Load Level and Load Folder browser you can open from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time that will be exposed each in a separate column; if you use the Load Level browser, when loading an animation level you can also specify the frame range to load. When you use the Load Folder command all the files contained in the folder (if supported) are loaded into the Xsheet.
+You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by Format. In this case the Level Settings specified will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by File Format. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
-.. note:: It is possible to Ignore the Alpha Channel of levels loaded on the column 1 by activating the option in Preferences > Xsheet.
+.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences > Xsheet.
 
 In the file tree available on the left there are the following main items:
 
-- My Computer contains files and folders located in your computer.
+- **My Computer** contains files and folders located in your computer.
 
-- Network allows the access to network computers.
+- **Network** allows the access to network computers.
 
-- My Documents contains files and folders located in the OS My Documents folder.
+- **My Documents** contains files and folders located in the OS My Documents folder.
 
-- History contains recently saved scenes, organized in folders, one for each of the last seven days OpenToonz was used.
+- **Library** displays files and folder located in the ``Projectroot\library``  folder (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
-- Library displays files and folder located in the ``Projectroot\library``  folder (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+- **History** contains recently saved scenes, organized in folders, one for each of the last seven days OpenToonz was used.
 
-- Projectroot lists all the projects that have been created as folders containing the project information and material; the actual value of the projectroot is displayed in brackets (see  :ref:`Using the Project Browser <using_the_project_browser>`  ).
+- **Projectroot** lists all the projects that have been created as folders containing the project information and material; the actual path of the projectroot is displayed in brackets (see  :ref:`Using the Project Browser <using_the_project_browser>`  ).
 
-   .. note:: In case more than one projectroot is defined, each will be displayed with the related projectroot value in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+   .. note:: In case more than one projectroot is defined, each will be displayed with the related projectroot path in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
-- Version control repository folder, labeled according to the version control configuration, contains the folders and files under version control (see  :ref:`Using the Version Control <using_the_version_control>`  ).
+- **Version control** repository folder, labeled according to the version control configuration, contains the folders and files under the version control system (see  :ref:`Using the Version Control <using_the_version_control>`  ).
 
-   .. note:: In case several repositories are defined, each will be displayed with the related label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
+   .. note:: In case several repositories are defined, each will be displayed with its appropriate label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
 
-You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed with related icons, or in a list displaying additional s that can be also used to sort files.
+You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed as icons or as a list, displaying additional informations that can be also used to sort them.
 
-.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the size set for the level strip frames in the Preferences > Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
+.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences > Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
 
-As part of the scene you can load Toonz raster and vector animation levels (TLV and PLI), Toonz palettes (TPL), full-color images or sequences of full-color images (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information once imported will retain their transparency information.
+As part of the scene you can load Toonz Raster and Toonz Vector animation levels (TLV and PLI), Toonz palettes (TPL), Raster full-color images or sequences (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), video clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information will retain their transparency information, once imported.
 
-.. note:: It is also possible to load TZU and TZP files created with Toonz version 4.x: in this case the files will be automatically converted and loaded in the TLV format.
+.. note:: It is also possible to load legacy TZU and TZP files created with Toonz version 4.x: in this case the files will be automatically converted and loaded in the TLV format.
 
 .. note:: Photoshop files can be loaded taking into account the layers the document is made of (see  :ref:`Loading Photoshop Documents <loading_photoshop_documents>`  ).
 
-.. note:: SVG files are automatically converted and loaded in the PLI format.
+.. note:: SVG files are automatically converted and loaded in PLI format.
 
-Sequences of full color images can be recognized by OpenToonz file browsers as a single animation level if they are named with a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. They are displayed in the file browser with a double dot before the file extension, e.g. ``animation..tif`` .
+Sequences of full color images are recognized by OpenToonz file browser as a single animation level, if they are named with a progressive four-digits number written between the base file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. or ``animation_0001.tif`` , ``animation_0002.tif`` , etc. They are displayed in the file browser with a double dot before the file extension: e.g. ``animation..tif`` .
 
-From the browser you can view levels, images and clips you are going to load by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related ed information by opening an info box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
+From the browser, you can **View** images and clips you are going to load as levels by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related file information by opening an **Info** box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
-OpenToonz scenes (TNZ files) can be loaded as part of another scene as well: in this instance they are loaded as Sub-Xsheet (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
+OpenToonz scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
 
-When you s from the standard OpenToonz file browser, you can set whether automatically to expose them in the Xsheet or not, by setting the Expose Loaded Levels in Xsheet option in the Preferences > Loading dialog. If activated, each level will be placed in a different column, starting from the first empty one. If deactivated, the loaded levels will be stored in the scene cast, from where they can be selectively exposed in Xsheet columns (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences > Loading dialog. If activated, each level will be placed in a different column, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-If you are loading one or several files located outside the default folders of the current project, you are prompted whether to import them to the project database or to load them from where they are. In the former case files will be copied to the related default folder (PLI, TLV levels and palettes in the +drawings folder; full-color images, clips and audio files in the +extras folder; palettes in the +palettes folder) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter they will be loaded by creating an absolute loading path to their original location.
+If you are loading one or several files located outside the default current project folders, you are prompted whether to Import them to the project database or to Load them from where they are. In the former case files will be copied to the appropriate project folder (PLI, TLV levels and palettes in the +drawings folder; raster images, clips and audio files in the +extras folder; palettes in the +palettes folder, etc.) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter case they will be loaded using an absolute path to their original location.
 
-If any of the files you want to import has the same name of a file already existing in the destination default folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it adding a suffix you can decide. In this way you can control if files you are importing were already imported previously, or manage files that share the same name. 
+If any of the files you want to import has the same name of a file already existing in the destination project folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it by adding a suffix you can choose. In this way you can control if files you are importing have already been imported previously, or manage files that just share the same name. 
 
-.. note:: Files loaded in a scene without importing can be imported later all at once by using the Collect Assets feature (see  :ref:`Collecting Assets <collecting_assets>`  ).
+.. note:: It is heavily recomended to Import assets to the current project folders, as OpenToonz can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the Save Level, Save All Levels, or Save All commands are invoked.
 
-.. note:: The OpenToonz file browser displays only the relevant files that can be loaded in OpenToonz. To check the full content of the current folder you can use the Show Folder Content command (see below).
+.. note:: Files loaded in a scene without importing can be imported later all at once by using the **Collect Assets** feature (see  :ref:`Collecting Assets <collecting_assets>`  ).
+
+.. note:: The OpenToonz file browser displays only the relevant files that can be loaded in OpenToonz. To check the full content of a folder you can use the **Show Folder Contents** option (see below).
 
 .. tip:: **To choose the browser display mode:**
 
     Do one of the following:
 
-    - Click the thumbnails button (|thumbnails|) in the bottom bar of the browser to display files with the related icons.
+    - Click the Icon button (|thumbnails|) in the bottom bar of the browser to display files with the related icons.
 
-    - Click the list button (|list|) in the bottom bar of the browser to display files in a list with related s; click the labels at the top of the  columns to sort files accordingly; right-click the label at the top of the  columns to open the menu that allows to toggle the visualization of the  columns.
+    - Click the List button (|list|) in the bottom bar of the browser to display files in a list with related s; click the labels at the top of the  columns to sort files accordingly; right-click the label at the top of the  columns to open the menu that allows to toggle the visualization of the  columns.
 
 .. tip:: **To resize the browser sections:**
 
@@ -166,7 +168,7 @@ If any of the files you want to import has the same name of a file already exist
 
     - Right-click the selection and choose Load from the menu that opens.
 
-.. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
+.. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet or viewer.
 
 .. tip:: **To load folders:**
 
@@ -178,9 +180,9 @@ If any of the files you want to import has the same name of a file already exist
 
     4. Press the OK button.
 
-.. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
+    .. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences>Loading>Level Settings by Format.In this case the Level Settings specified when the corresponding Edit pop up is opened will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified in Preferences > Loading > Level Settings by File Format. In this case the Level Settings specified when the corresponding Edit button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. tip:: **To load back a recently loaded level:**
 
