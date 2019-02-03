@@ -56,7 +56,7 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by File Format. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences > Xsheet.
 
@@ -78,7 +78,7 @@ In the file tree available on the left there are the following main items:
 
 - **Version control** repository folder, labeled according to the version control configuration, contains the folders and files under the version control system (see  :ref:`Using the Version Control <using_the_version_control>`  ).
 
-   .. note:: In case several repositories are defined, each will be displayed with its appropriate label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
+  .. note:: In case several repositories are defined, each will be displayed with its appropriate label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
 
 You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed as icons or as a list, displaying additional informations that can be also used to sort them.
 
@@ -98,15 +98,15 @@ From the browser, you can **View** images and clips you are going to load as lev
 
 OpenToonz scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
 
-When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences > Loading dialog. If activated, each level will be placed in a different column, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences > Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-If you are loading one or several files located outside the default current project folders, you are prompted whether to Import them to the project database or to Load them from where they are. In the former case files will be copied to the appropriate project folder (PLI, TLV levels and palettes in the +drawings folder; raster images, clips and audio files in the +extras folder; palettes in the +palettes folder, etc.) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter case they will be loaded using an absolute path to their original location.
+If you are loading one or several files located outside the default current project folders, you are prompted whether to **Import** them to the project database or to **Load** them from where they are. In the former case files will be copied to the appropriate project folder (PLI, TLV levels and palettes in the +drawings folder; raster images, video clips and audio files in the +extras folder; palettes in the +palettes folder, etc.) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter case they will be loaded using an absolute path to their original location.
 
 If any of the files you want to import has the same name of a file already existing in the destination project folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it by adding a suffix you can choose. In this way you can control if files you are importing have already been imported previously, or manage files that just share the same name. 
 
-.. note:: It is heavily recomended to Import assets to the current project folders, as OpenToonz can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the Save Level, Save All Levels, or Save All commands are invoked.
+.. note:: It is **heavily recomended** to **Import** assets to the current project folders, as OpenToonz can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
 
-.. note:: Files loaded in a scene without importing can be imported later all at once by using the **Collect Assets** feature (see  :ref:`Collecting Assets <collecting_assets>`  ).
+.. note:: Files loaded in a scene without importing can be imported later all at once by using the **Collect Assets** command (see  :ref:`Collecting Assets <collecting_assets>`  ).
 
 .. note:: The OpenToonz file browser displays only the relevant files that can be loaded in OpenToonz. To check the full content of a folder you can use the **Show Folder Contents** option (see below).
 
