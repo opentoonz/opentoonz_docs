@@ -417,20 +417,20 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
 Exposing Levels
 ---------------
-Animation levels, images for backgrounds and overlays, audio files, clips and other OpenToonz scenes, have to be exposed in the Xsheet columns in order to be part of the scene.
+Toonz level files, images for backgrounds and overlays, audio files, video clips, and other OpenToonz scenes, have to be exposed in the Xsheet/Timeline columns in order to be part of the scene.
 
-If the level you want to use has already been loaded but not exposed, or it was removed from the scene, it can be retrieved from the Scene Cast window. 
+If the asset you want to use has already been loaded but not exposed, or it was removed from the scene, it can be retrieved from the Scene Cast window. 
 
 In case you need to retrieve some specific drawings from an animation level, you can display it in the Level Strip, in order to select the drawings to expose.
 
-.. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in OpenToonz, are automatically exposed in the Xsheet.
+.. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in OpenToonz, are automatically exposed in the Xsheet/Timeline.
 
 
 .. _using_the_scene_cast:
 
 Using the Scene Cast
 ''''''''''''''''''''
-All the animation levels you create or load in the scene are stored in the scene cast pane. Levels remain available in the scene cast even if they are not used in the scene anymore. From the scene cast, they can be exposed, edited, saved and removed. 
+All the animation levels you create or load in the scene are stored in the Scene Cast pane. Levels remain available in the Scene Cast even if they are not used in the scene anymore. From the Scene Cast, they can be exposed, edited, saved and removed. 
 
 |scene_cast|
 
@@ -438,13 +438,13 @@ In the tree available on the left you can find the following:
 
 - A clapboard icon referring to the current scene.
 
-- The Cast folder containing all the animation levels you create or load.
+- The **Cast** folder containing all the animation levels you create or load.
 
-- The Audio folder containing all the audio files you load or create (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+- The **Audio** folder containing all the audio files you load or create (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
-You can create new folders and sub-folders where animation levels can be arranged. The current location path in the cast tree is displayed in the cast top bar; folders can be renamed and new folders can be created. Levels can be displayed with related icons, or in a list displaying additional s that can be also used to sort files.
+You can create new folders and sub-folders where animation levels can be arranged. The current location path in the cast tree is displayed in the cast top bar; folders can be renamed and new folders can be created. Levels can be displayed with related icons, or in a list displaying additional informations that can be also used to sort files.
 
-.. note:: Animation levels that are no longer available at the defined path can be identified by the red label.
+.. note:: Animation levels that are no longer available at the defined path are identified by a red color.
 
 .. tip:: **To display all the cast elements of a specific folder:**
 
@@ -458,11 +458,11 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Do one of the following:
 
-    - Click the icon button (|thumbnails|) in the bottom bar of the cast to display levels with the related icons.
+    - Click the **Icon** button (|thumbnails|) in the bottom bar of the cast to display levels with the related icons.
 
-    - Click the list button (|list|) in the bottom bar of the cast to display levels in a list; click the labels at the top of the  columns to sort files accordingly.
+    - Click the **List** button (|list|) in the bottom bar of the cast to display levels in a list; click the labels at the top of the  columns to sort files accordingly.
 
-.. tip:: **To resize the scene cast sections:**
+.. tip:: **To resize the Scene Cast sections:**
 
     Do any of the following:
 
@@ -478,7 +478,7 @@ You can create new folders and sub-folders where animation levels can be arrange
 
 .. tip:: **To create a new folder:**
 
-    Click the new folder button (|new_folder|) in the bottom bar of the cast.
+    Click the **New** button (|new_folder|) in the bottom bar of the cast.
 
 .. tip:: **To move one folder up in the cast tree:**
 
@@ -502,40 +502,40 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Do one of the following:
 
-    - Choose Level > Expose in Xsheet.
+    - Choose Level > **Expose in Xsheet**.
 
-    - Right-click the selection in the scene cast and choose Expose in Xsheet from the menu that opens. In case of a multiple level selection, each level will be placed in a different column, starting from the first empty one.
+    - Right-click the selection in the Scene Cast and choose **Expose in Xsheet** from the menu that opens. In case of a multiple level selection, each level will be placed in a different column/layer, starting from the first empty one.
 
-    - Drag and drop the selection to the Xsheet cell where you want to start exposing it. In case of a multiple level selection, each level will be placed in a different column. 
+    - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it. In case of a multiple level selection, each level will be placed in a different column/layer. 
 
-.. tip:: **To display an animation level in the level strip:**
+.. tip:: **To display an animation level in the Level Strip:**
 
     Do one of the following:
 
-    - Select it in the scene cast and choose Level > Display in Level Strip.
+    - Select it in the Scene Cast and choose Level > **Display in Level Strip**.
 
-    - Right-click it in the scene cast and choose Display in Level Strip from the menu that opens.
+    - Right-click it in the Scene Cast and choose **Display in Level Strip** from the menu that opens.
 
 .. tip:: **To remove the selected elements:**
 
-    Right-click the selection in the scene cast and choose Remove Level from the menu that opens.
+    Right-click the selection in the Scene Cast and choose **Remove Level** from the menu that opens.
 
-.. note:: Levels can be removed only if they are not used in the scene.
+  .. note:: Levels can be removed only if they are not used in the scene.
 
 .. tip:: **To remove all the unused elements:**
 
     Do one of the following:
 
-    - Choose Level > Remove All Unused Levels.
+    - Choose Level > **Remove All Unused Levels**.
 
-    - Right-click in the scene cast and choose Remove All Unused from the menu that opens.
+    - Right-click in the Scene Cast and choose **Remove All Unused Levels** from the menu that opens.
 
 
 .. _using_the_level_strip:
 
 Using the Level Strip
 '''''''''''''''''''''
-When an animation level is displayed in the level strip, you can select the specific drawings you want to expose in the Xsheet. This feature may prove useful especially when you need to retrieve some drawings that belongs to the level, but that are not available in the Xsheet cells.
+When an animation level is displayed in the Level Strip, you can select the specific drawings you want to expose in the Xsheet/Timeline. This feature may prove useful especially when you need to retrieve some drawings that belong to the level, but that are not available in the Xsheet/Timeline cells.
 
 |level_strip|
 
@@ -543,13 +543,13 @@ When an animation level is displayed in the level strip, you can select the spec
 
     Do one of the following:
 
-    - Select any level drawing exposed in the Xsheet.
+    - Select any level drawing exposed in the Xsheet/Timeline.
 
-    - Select it in the scene cast and choose Level > Display in Level Strip.
+    - Select it in the Scene Cast and choose Level > **Display in Level Strip**.
 
-    - Right-click it the scene cast and choose Display in Level Strip from the menu that opens.
+    - Right-click it the Scene Cast and choose **Display in Level Strip** from the menu that opens.
 
-.. tip:: **To select drawings in the level strip:**
+.. tip:: **To select drawings in the Level Strip:**
 
     Do one of the following:
 
@@ -563,40 +563,40 @@ When an animation level is displayed in the level strip, you can select the spec
 
     Do one of the following:
 
-    - Copy and paste the selection in the Xsheet into the cell you want.
+    - Copy and paste the selection in the Xsheet/Timeline, into the cell you want.
 
-    - Right-click in the level strip selection and choose Expose in Xsheet from the menu that opens. Drawings will be exposed at the beginning of the first empty column.
+    - Right-click in the Level Strip selection and choose **Expose in Xsheet** from the menu that opens. Drawings will be exposed at the beginning of the first empty column.
 
-    - Drag and drop the selection to the Xsheet cell where you want to start exposing it.
+    - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it.
 
-    - Drag and drop the selection to the Xsheet cell where you want to start exposing it and keep the Shift key pressed, to insert them if other content is already exposed in the destination cells.
+    - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it and keep the **Shift** key pressed, to insert them if other content is already exposed in the destination cells.
 
-    - Drag and drop the selection to the Xsheet cell where you want to start exposing it and keep the Alt key pressed, to overwrite any other content previously exposed in the destination cells.
+    - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it and keep the **Alt** key pressed, to overwrite any other content previously exposed in the destination cells.
 
-.. note:: When it is not possible to release the selection, a red outline is displayed instead of the selection.
+  .. note:: When it is not possible to expose the selection, a red outline is displayed instead of the selection.
 
 
 .. _replacing_levels:
 
 Replacing Levels
 ''''''''''''''''
-An animation level exposed in the Xsheet can be easily replaced by another animation level, preserving any editing performed in the sequence of drawings exposed in the column cells. In this way it is possible to reuse the same edited sequence for different levels. For example you can reuse the edited sequence of a character level for the related shadow level by copying and pasting the character sequence, then replacing the character level with the shadow one.
+An animation level exposed in the Xsheet/Timeline can be easily replaced by another animation level, preserving any editing performed in the sequence of drawings exposed in the column/layer cells. In this way it is possible to reuse the same edited sequence for different levels. For example you can reuse the edited sequence of a character level for the related shadow level by copying and pasting the character sequence, then replacing the character level with the shadow one.
 
-It is possible to replace the level as a whole, or limited only to selected cells. In both cases only the content of the selected cells will be replaced: if any drawing of the replaced level is exposed somewhere else in the Xsheet, it will not be affected by the replacing operation.
+It is possible to replace the level as a whole, or limited only to selected cells. In both cases only the content of the selected cells will be replaced: if any drawing of the replaced level is exposed somewhere else in the Xsheet/Timeline, it will not be affected by the replacing operation.
 
 In case the new level does not contain some of the frames you are going to replace, the level name and number in the cell turn red to warn you that there is no drawing available for that cell.
 
-The original level is preserved in the scene cast from where it can be retrieved, or removed (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ). 
+The original level is preserved in the Scene Cast from where it can be retrieved, or removed (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ). 
 
-.. tip:: **To replace a level in the Xsheet:**
+.. tip:: **To replace a level in the Xsheet/Timeline:**
 
     1. Select the cells where the level you want to replace is exposed.
 
     2. Do one of the following:
 
-    - Choose Level > Replace Level.
+    - Choose Level > **Replace Level...**.
 
-    - Right-click the selection and choose Replace Level from the menu that opens.
+    - Right-click the selection and choose one of the options in the **Replace Level** submenu, from the menu that opens.
 
     3. In the browser select the new level, and click the OK button (see  :ref:`Using the File Browser <using_the_file_browser>`  ).
 
@@ -642,11 +642,11 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     Do one of the following:
 
-    - Select a level in the Xsheet and choose Level > Level Settings.
+    - Select a level in the Xsheet/Timeline and choose Level > **Level Settings...**.
 
-    - Right-click a level in the Xsheet and choose Level Setting from the menu that opens.
+    - Right-click a level in the Xsheet/Timeline and choose **Level Setting...** from the menu that opens.
 
-    - Right-click a level in the cast and choose Level Setting from the menu that opens.
+    - Right-click a level in the Scene Cast and choose **Level Setting...** from the menu that opens.
 
 
 .. _working_with_xsheet_columns:
