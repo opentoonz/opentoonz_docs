@@ -1721,8 +1721,8 @@ Elements defined in the CSS are the following:
 
 
 
-.. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |file_browser| image:: /_static/xsheet/file_browser.png
+.. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
