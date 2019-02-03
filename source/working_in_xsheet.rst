@@ -465,8 +465,6 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     - Click the icon button (|thumbnails|) in the bottom bar of the cast to display levels with the related icons.
 
-
-
     - Click the list button (|list|) in the bottom bar of the cast to display levels in a list; click the labels at the top of the  columns to sort files accordingly.
 
 .. tip:: **To resize the scene cast sections:**
@@ -487,13 +485,9 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Click the new folder button (|new_folder|) in the bottom bar of the cast.
 
-
-
 .. tip:: **To move one folder up in the cast tree:**
 
     Click the folder up button (|folder_up|) in the bottom bar of the cast.
-
-
 
 .. tip:: **To perform a selection:**
 
@@ -547,6 +541,8 @@ You can create new folders and sub-folders where animation levels can be arrange
 Using the Level Strip
 '''''''''''''''''''''
 When an animation level is displayed in the level strip, you can select the specific drawings you want to expose in the Xsheet. This feature may prove useful especially when you need to retrieve some drawings that belongs to the level, but that are not available in the Xsheet cells.
+
+|level_strip|
 
 .. tip:: **To display an animation level in the level strip:**
 
@@ -1735,6 +1731,7 @@ Elements defined in the CSS are the following:
 .. |convert_tlv_painted| image:: /_static/xsheet/convert_tlv_painted.png
 .. |convert_tlv_painted_noaa| image:: /_static/xsheet/convert_tlv_painted_noaa.png
 .. |scene_cast| image:: /_static/xsheet/scene_cast.png
+.. |level_strip| image:: /_static/xsheet/level_strip.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
