@@ -1009,53 +1009,13 @@ Like standard Xsheets, Sub-Xsheets can also contain audio files to be used for s
 
 Creating Sub-Xsheets
 ''''''''''''''''''''
-Sub-Xsheets are managed by Xsheet menu commands, and by icons located on the right of the menu bar. 
+Sub-Xsheets are managed by Xsheet menu commands, and by buttons in the Xsheet Toolbar. 
 
-When a Sub-Xsheet has not been created yet, only a single Xsheet icon is displayed, representing the main Xsheet. As soon as you create a Sub-Xsheet, a new icon is added on the right of the first one. 
+You can create a Sub-Xsheet by collapsing one or several columns where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns and drawings outside of the Sub-Xsheet, then paste them inside it. 
 
- |Toonz71_253| 
-
-If you create a new Sub-Xsheet inside a Sub-Xsheet, another icon will be added, and so on. The icons are a reference that lets you understand in which level of the Sub-Xsheet hierarchy you are currently working: the icon on the far right is the current scene you are editing; icons on its left represent the different levels of the hierarchy.
-
-You can also create a Sub-Xsheet by collapsing one or several columns where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns and drawings outside of the Sub-Xsheet, then paste them inside it. 
-
-.. note:: The main Xsheet will share with its Sub-Xsheets the animation level database, so if the same level is loaded in the main Xsheet and in one of its Sub-Xsheets, the level and its properties are shared.
+.. note:: The main Xsheet will share with its Sub-Xsheets the animation level database, so if the same level is loaded in the main Xsheet and in one of its Sub-Xsheets, the level and its properties will be shared.
 
 When copying Sub-Xsheet columns and cells, their copies refer always to the same Sub-Xsheet contents: if changes are made in the Sub-Xsheet, all the cells in the main Xsheet referring to that Sub-Xsheet will consequently change their content. If you want to create a copy of a Sub-Xsheet whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to clone it.
-
-.. tip:: **To create a Sub-Xsheet from a blank column:**
-
-    1. Select a blank column.
-
-    2. Do one of the following to create the Sub-Xsheet:
-
-    - Choose Xsheet > Open Sub-Xsheet.
-
-    - Click the arrow button on the right of the Xsheet icon. 
-
-    - Right-click the column header and choose Open Sub-Xsheet from the menu that opens.
-
-    3. Start editing the Sub-Xsheet: you can perform every operation you can do in a standard scene, such as load or create animation levels, or edit the camera, table, pegbars and the column position. You can see that you are working in a Sub-Xsheet because on the right of the menu bar a new Xsheet icon is displayed: the one on the right represents the current Sub-Xsheet, the one on the left the main scene.
-
-.. tip:: **To exit a Sub-Xsheet:**
-
-    Do one of the following
-
-    - Choose Xsheet > Close Sub-Xsheet.
-
-    - On the right of the menu bar, click the Xsheet icon on the left of the icon representing the current Xsheet. 
-
-.. tip:: **To open a closed Sub-Xsheet:**
-
-    1. Select the Sub-Xsheet column in the Xsheet, or the Sub-Xsheet node in the schematic.
-
-    2. Do one of the following:
-
-    - Choose Xsheet > Open Sub-Xsheet.
-
-    - Click the arrow button on the right of the Xsheet icons.
-
-    - Right-click the column header and choose Open Sub-Xsheet from the menu that opens.
 
 .. tip:: **To create a Sub-Xsheet by collapsing one or several columns:**
 
@@ -1065,9 +1025,31 @@ When copying Sub-Xsheet columns and cells, their copies refer always to the same
 
     - Choose Xsheet > Collapse.
 
+    - Click the Collapse button in the Xsheet Toolbar. 
+    
     - Right-click any column header and choose Collapse from the menu that opens.
 
     3. Choose whether to include relevant pegbars in the Sub-Xsheet or collapse selected columns only, then click the OK button.
+
+.. tip:: **To exit a Sub-Xsheet:**
+
+    Do one of the following
+
+    - Choose Xsheet > Close Sub-Xsheet.
+
+    - Click the Close Sub-Xsheet button in the Xsheet Toolbar. 
+
+.. tip:: **To open a closed Sub-Xsheet:**
+
+    1. Select the Sub-Xsheet column in the Xsheet, or the Sub-Xsheet node in the schematic.
+
+    2. Do one of the following:
+
+    - Choose Xsheet > Open Sub-Xsheet.
+
+    - Click the Open Sub-Xsheet button in the Xsheet Toolbar. 
+
+    - Right-click the column header and choose Open Sub-Xsheet from the menu that opens.
 
 .. tip:: **To clone a Sub-Xsheet:**
 
@@ -1079,13 +1061,13 @@ When copying Sub-Xsheet columns and cells, their copies refer always to the same
 
     - Right-click the column header and choose Clone Sub-Xsheet from the menu that opens.
 
-.. tip:: **To edit a Sub-Xsheet in its context:**
+.. tip:: **To toggle edit a Sub-Xsheet in its context:**
 
-    Right-click the related Xsheet icon on the right of the menu bar, and choose Enable Edit in Place from the menu that opens.
+    Do one of the following
 
-.. tip:: **To exit editing a Sub-Xsheet in its context:**
-
-    Right-click the related Xsheet icon on the right of the menu bar, and choose Disable Edit in Place from the menu that opens.
+    - Choose Xsheet > Toggle Edit in Place.
+    
+    - Click the Toggle Edit in Place button in the Xsheet Toolbar. 
 
 .. tip:: **To resequence a Sub-Xsheet:**
 
