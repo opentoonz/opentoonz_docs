@@ -142,47 +142,47 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To load levels from the Load Level browser:**
 
-    1. Select the Xsheet cell where you want to start exposing the level; if any level is already exposed in that cell, a new column will be inserted to expose the new level.
+    1. Select the Xsheet/Timeline cell where you want to start exposing the level; if any level is already exposed in that cell, a new column/layer will be inserted to expose the new level.
 
     2. Do one of the following:
 
     - Choose File > Load Level.
 
-    - Right-click in the Xsheet cell and choose Load Level from the menu that opens.
+    - Right-click in the Xsheet/Timeline cell and choose Load Level from the menu that opens.
 
-    3. In the browser that opens select the level you want to load; if you select an animation level, select the frame range you want to load.
+    3. In the browser that opens select the file you want to load as a level; if you select a video or image sequence file, you can select the frame range you want to load by using the **Load Subsequence Level** options.
 
     4. Click the Load button.
 
 .. tip:: **To load levels from the OpenToonz standard browser:**
 
-    1. Select the Xsheet cell where you want to start exposing the level; if any level is already exposed in that cell, a new column will be inserted to expose the new level.
+    1. Select the Xsheet/Timeline cell where you want to start exposing the level; if any level is already exposed in that cell, a new column/layer will be inserted to expose the new level.
 
-    2. In the OpenToonz browser select the level you want to load.
+    2. In the OpenToonz browser select the file you want to load as a level.
 
     3. Do one of the following:
 
-    - Drag and drop the selection to the scene cast pane or to the work area. 
+    - Drag and drop the selection to the Scene Cast pane or to the Viewer. 
 
-    - Drag and drop the selection to the Xsheet cell where you want to start exposing it. 
+    - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it. 
 
     - Right-click the selection and choose Load from the menu that opens.
 
-.. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet or viewer.
+.. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline or Viewer.
 
 .. tip:: **To load folders:**
 
-    1. Select the Xsheet cell where you want to start exposing the levels; if any level is already exposed in that cell, a new column will be inserted to expose the new levels.
+    1. Select the Xsheet/Timeline cell where you want to start exposing the levels; if any level is already exposed in that cell, a new column/layer will be inserted to expose the new levels.
 
-    2. In the OpenToonz File menu select the Load folder command.
+    2. In the OpenToonz File menu select the Load Folder... command.
 
     3. In the File Browser that opens select the folder you want to load.
 
     4. Press the OK button.
 
-    .. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
+    .. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the scene cast, Xsheet/Timeline, or Viewer.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified in Preferences > Loading > Level Settings by File Format. In this case the Level Settings specified when the corresponding Edit button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified in Preferences > Loading > **Level Settings by File Format**. In this case the Level Settings specified when the corresponding **Edit** button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. tip:: **To load back a recently loaded level:**
 
@@ -208,21 +208,21 @@ If any of the files you want to import has the same name of a file already exist
 
     - Choose Windows > Flipbook and drag and drop in the window the file you want to view.
 
-.. note:: By opening several Flipbook windows you can view several levels at the same time.
+  .. note:: By opening several Flipbook windows you can view several levels at the same time.
 
 .. tip:: **To set the default shrink factor and step for the file viewer:**
 
     1. Choose File > Preferences > Interface.
 
-    2. Set the default Viewer Shrink and Step values.
+    2. Set the default **Viewer Shrink** and **Step** values.
 
 .. tip:: **To view a level file information:**
 
-    In the OpenToonz browser or in the Xsheet right-click the level whose info you want to view and choose Info from the menu that opens; if the file is an animation level or a sequence of images, use the slider at the bottom of the box to change frame and see the related information.
+    In the OpenToonz browser or in the Xsheet/Timeline right-click the level whose info you want to view and choose **Info** from the menu that opens; if the file is a video or a sequence of images, use the slider at the bottom of the box to change the current frame and see the related information.
 
 .. tip:: **To view the entire contents of the current folder:**
 
-    Right-click in the right area of the browser and choose Show Folder Contents from the menu that opens: the entire folder contents are displayed in a default OS window.
+    Right-click in the right area of the browser and choose **Show Folder Contents** from the menu that opens: the entire folder contents are displayed in a default OS window.
 
 
 .. _loading_photoshop_documents:
