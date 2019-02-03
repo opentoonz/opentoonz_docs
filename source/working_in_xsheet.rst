@@ -437,8 +437,7 @@ Using the Scene Cast
 ''''''''''''''''''''
 All the animation levels you create or load in the scene are stored in the scene cast pane. Levels remain available in the scene cast even if they are not used in the scene anymore. From the scene cast, they can be exposed, edited, saved and removed. 
 
-
-
+|scene_cast|
 
 In the tree available on the left you can find the following:
 
@@ -1735,6 +1734,7 @@ Elements defined in the CSS are the following:
 .. |convert_tlv_unpainted| image:: /_static/xsheet/convert_tlv_unpainted.png
 .. |convert_tlv_painted| image:: /_static/xsheet/convert_tlv_painted.png
 .. |convert_tlv_painted_noaa| image:: /_static/xsheet/convert_tlv_painted_noaa.png
+.. |scene_cast| image:: /_static/xsheet/scene_cast.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
