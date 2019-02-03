@@ -74,7 +74,7 @@ In the file tree available on the left there are the following main items:
 
 - **Projectroot** lists all the projects that have been created as folders containing the project information and material; the actual path of the projectroot is displayed in brackets (see  :ref:`Using the Project Browser <using_the_project_browser>`  ).
 
-   .. note:: In case more than one projectroot is defined, each will be displayed with the related projectroot path in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+  .. note:: In case more than one projectroot is defined, each will be displayed with the related projectroot path in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
 - **Version control** repository folder, labeled according to the version control configuration, contains the folders and files under the version control system (see  :ref:`Using the Version Control <using_the_version_control>`  ).
 
