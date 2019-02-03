@@ -323,6 +323,8 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     2. Right-click any of the selected files and choose Convert from the menu that opens.
 
+    |convert_several|
+
     3. Check the number of files you are going to convert reading the value from the header of the Convert window.
 
     4. Choose the saving location, the new format, and the background color of the converted files.
@@ -1729,6 +1731,7 @@ Elements defined in the CSS are the following:
 .. |file_browser| image:: /_static/xsheet/file_browser.png
 .. |load_psd| image:: /_static/xsheet/load_psd.png
 .. |convert| image:: /_static/xsheet/convert.png
+.. |convert_several| image:: /_static/xsheet/convert_several.png
 .. |convert_tlv_unpainted| image:: /_static/xsheet/convert_tlv_unpainted.png
 .. |convert_tlv_painted| image:: /_static/xsheet/convert_tlv_painted.png
 .. |convert_tlv_painted_noaa| image:: /_static/xsheet/convert_tlv_painted_noaa.png
