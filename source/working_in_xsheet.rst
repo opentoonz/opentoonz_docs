@@ -74,11 +74,11 @@ In the file tree available on the left there are the following main items:
 
 - Projectroot lists all the projects that have been created as folders containing the project information and material; the actual value of the projectroot is displayed in brackets (see  :ref:`Using the Project Browser <using_the_project_browser>`  ).
 
-.. note:: In case more than one projectroot is defined, each will be displayed with the related projectroot value in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+   .. note:: In case more than one projectroot is defined, each will be displayed with the related projectroot value in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
 - Version control repository folder, labeled according to the version control configuration, contains the folders and files under version control (see  :ref:`Using the Version Control <using_the_version_control>`  ).
 
-.. note:: In case several repositories are defined, each will be displayed with the related label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
+   .. note:: In case several repositories are defined, each will be displayed with the related label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
 
 You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed with related icons, or in a list displaying additional s that can be also used to sort files.
 
