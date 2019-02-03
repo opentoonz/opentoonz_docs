@@ -307,6 +307,8 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convertwindow change depending on the format of the selected files.
 
+|convert|
+
     2. Choose the frame range to convert, the saving location, a name, the new format, and the background color of the converted file.
 
     3. Activate the Skip Existing Files to to prevent overwriting already exixting files.
@@ -1723,6 +1725,7 @@ Elements defined in the CSS are the following:
 
 .. |file_browser| image:: /_static/xsheet/file_browser.png
 .. |load_psd| image:: /_static/xsheet/load_psd.png
+.. |convert| image:: /_static/xsheet/convert.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
