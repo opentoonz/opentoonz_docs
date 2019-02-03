@@ -52,6 +52,8 @@ Using the File Browser
 ----------------------
 All the elements you need for a scene can be retrieved by using a file browser. 
 
+|file_browser|
+
 You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet or the scene cast window, or use the Load Level and Load Folder browser you can open from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time that will be exposed each in a separate column; if you use the Load Level browser, when loading an animation level you can also specify the frame range to load. When you use the Load Folder command all the files contained in the folder (if supported) are loaded into the Xsheet.
 
 .. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > Level Settings by Format. In this case the Level Settings specified will be applied. It is possible to add as many format as you want defining them by a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
@@ -1720,6 +1722,7 @@ Elements defined in the CSS are the following:
 
 
 .. |load_psd| image:: /_static/xsheet/load_psd.png
+.. |file_browser| image:: /_static/xsheet/file_browser.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
