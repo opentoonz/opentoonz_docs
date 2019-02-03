@@ -305,7 +305,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
 .. tip:: **To convert a file to a different format:**
 
-    1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convertwindow change depending on the format of the selected files.
+    1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convert window change depending on the format of the selected files.
 
     |convert|
 
@@ -341,9 +341,9 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     2. Right-click any of the selected files and choose Convert from the menu that opens.
 
-    3. Select unpainted tlv from the File format drop down menu.
-
     |convert_tlv_unpainted|
+
+    3. Select unpainted tlv from the File format drop down menu.
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
@@ -363,9 +363,9 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     2. Right-click any of the selected files and choose Convert from the menu that opens.
 
-    3. Select painted tlv from the File format drop down menu.
-
     |convert_tlv_painted|
+
+    3. Select painted tlv from the File format drop down menu.
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
