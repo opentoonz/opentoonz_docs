@@ -763,27 +763,19 @@ Columns you want to hide in the Xsheet can be folded in order to save space in t
 
     - Click the camera stand toggle (|camera_stand|) on the upper right corner of the column header. The icon is greyed out in case a limited opacity is set (see below). If you right-click the toggle you can select commands from a menu that opens that lets you affect several columns at the same time.
 
-
-
     - Right-click the column content in the work area and choose the Hide or Show command related to the column you want to hide or show.
 
 .. tip:: **To set a limited opacity for a column content:**
 
     Click and hold the camera stand toggle (|camera_stand|) on the upper right corner of the column header, and use the slider that is displayed to set the column opacity.
 
-
-
 .. tip:: **To include or exclude a column contents from the rendering:**
 
     Click the render toggle (|preview|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
 
-
-
 .. tip:: **To lock or unlock a column contents:**
 
     Click the lock toggle (|lock|) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
-
-
 
 .. tip:: **To fold columns:**
 
@@ -986,23 +978,23 @@ Using Sub-Xsheets
 -----------------
 A Sub-Xsheet is a scene exposed in a single Xsheet column. It can contain as many columns as you want, and other Sub-Xsheets as well. 
 
-When it is opened, the Sub-Xsheet contents are displayed in the Xsheet pane. When it is closed, it is displayed in the Xsheet as a light red column, with the column icon displaying a render of its content. The column cells displays the name of the Sub-Xsheet, and the cell number is a reference to the frame of the Sub-Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet. 
+When it is opened, the Sub-Xsheet contents are displayed in the Xsheet pane. When it is closed, it is displayed in the Xsheet as a violet column, with the column icon displaying a render of its content. The column cells displays the name of the Sub-Xsheet, and the cell number is a reference to the frame of the Sub-Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet. 
 
 The closed Sub-Xsheet column length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the Sub-Xsheet content.
 
 Sub-Xsheet columns can be animated like any other animation column, and FX can be assigned to it, affecting all the Sub-Xsheet content as a whole. 
 
-Sub-Xsheet column cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet referring to that Sub-Xsheet frame will consequently change their content. In case you want to create a copy of a Sub-Xsheet that refers to the same animation level database but whose content can be edited independently, you can choose to clone it. 
+Sub-Xsheet column cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet referring to that Sub-Xsheet frame will consequently change their content. In case you want to create a copy of a Sub-Xsheet that refers to the same animation level database but whose content can be edited independently, you can choose to Clone it. 
 
-If you want to reset the editing of a closed Sub-Xsheet, you can resequence it, by resetting it to the original length and order of its contents.
+If you want to reset the editing of a closed Sub-Xsheet, you can Resequence it, by resetting it to the original length and order of its contents.
 
-You can start a new Sub-Xsheet from a blank column, or you can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns used to define a character, or to explode the Sub-Xsheet to automatically bring all of its contents into the Xsheet where it is exposed.
+You can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet where it is exposed.
 
 As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it as an Xsheet, and import it later in a different scene as a Sub-Xsheet.
 
-When working in a Sub-Xsheet, by default only its contents are displayed in the work area. If you need to edit the Sub-Xsheet contents while looking at the whole scene contents, you can activate the Edit in Place mode. 
+When working inside a Sub-Xsheet, by default only its own contents are displayed in the viewer. If you need to edit the Sub-Xsheet contents while looking at the whole scene contents, you can activate the **Edit in Place** mode. 
 
-Like standard Xsheets, Sub-Xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded in Sub-Xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the Sub-Xsheet columns frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+Like standard Xsheets, Sub-Xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded inside Sub-Xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the Sub-Xsheet columns frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 
 .. _creating_sub-xsheets:
@@ -1169,8 +1161,6 @@ Audio columns can be edited the way you edit any other column. The column header
 
 - A camera stand toggle (|camera_stand|) allowing you to include or not the column content when scrubbing the audio with the current frame cursor (see below); when activated an animation table icon is visible in the toggle.
 
-
-
 - A render toggle (|preview|) allowing you to include or not the audio column content in the rendering; when activated an eye icon is visible in the toggle.
 
 - A lock toggle (|lock|) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
@@ -1201,18 +1191,13 @@ When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or A
 
     Click the camera stand toggle (|camera_stand|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
 
-
-
 .. tip:: **To include or exclude the audio column contents from the rendering:**
 
     Click the render toggle (|preview|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
 
-
-
 .. tip:: **To lock or unlock a column contents:**
 
     Click the lock toggle (|lock|) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
-
 
 
 .. _editing_audio_clips:
