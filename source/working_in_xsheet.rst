@@ -775,7 +775,11 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
 .. tip:: **To set Opacity for a column/layer content:**
 
-    Click the triangle icon (|additional_settings|) on the column/layer header, and use the slider that's displayed to set the column/layer opacity.
+    Click the triangle icon (|additional_settings|) on the column/layer header, and do one of the following:
+    
+    - Use the **Opacity** slider to set the column/layer opacity.
+    
+    - Input the desired **Opacity** value in the numeric field, to set the column/layer opacity.
 
 .. tip:: **To set a Color Filter for a column/layer content:**
 
