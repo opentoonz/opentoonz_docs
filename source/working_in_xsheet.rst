@@ -800,23 +800,23 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
 .. _working_with_xsheet_cells:
 
-Working with Xsheet Cells
--------------------------
-When a level is exposed in a column, each cell contains a reference to a particular image. You may empty some cells, repeat some of them or change their order without affecting the real drawings sequence, because you are operating on references. This means that when a scene contains several cells referring to a drawing of an animation level, they all refer to the same drawing. This implies that when you modify a drawing of an animation level, all the cells in the Xsheet referring to that drawing will consequently change their content.
+Working with Xsheet/Timeline Cells
+----------------------------------
+When a level is exposed in a column, each cell contains a reference to a particular image. You may empty some cells, repeat some of them or change their order without affecting the real drawings sequence, because you are operating on references. This means that when a scene contains several cells referring to a drawing of an animation level, they all refer to the same drawing. This implies that when you modify a drawing of an animation level, all the cells in the Xsheet/Timeline referring to that drawing will consequently change their content.
 
 .. note:: When the scene contains a reference to a drawing that is eliminated from the level, the drawing name and number in the cell turn red, to warn you that there is no drawing available for that cell anymore.
 
-When you select a cell, you can work on the drawing it contains by using tools in the work area. 
+When you select a cell, you can work on the drawing it contains by using tools in the viewer. 
 
-When one or more cells are selected you can perform standard cut, copy, paste, delete and insert operations in the Xsheet. In this case you are not modifying the animation level frames but simply changing the way it is exposed in the Xsheet.
+When one or more cells are selected you can perform standard cut, copy, paste, delete and insert operations in the Xsheet/Timeline. In this case you are not modifying the animation level frames but simply changing the way it is exposed in the Xsheet/Timeline.
 
-Selected cells can also be dragged to a new position in the Xsheet, in duplicating, inserting or overwriting mode as well. When they are dragged to an empty column, it is possible to move along the data of the column, i.e. the movement and special FX, where they were originally exposed.
+Selected cells can also be dragged to a new position in the Xsheet/Timeline, in duplicating, inserting or overwriting mode as well. When they are dragged to an empty column, it is possible to move along the data of the column/layer, i.e. the movement and special FX, where they were originally exposed.
 
 .. tip:: **To modify a drawing exposed in a cell:**
 
-    1. Select the cell in the Xsheet where the drawing is exposed.
+    1. Select the cell in the Xsheet/Timeline where the drawing is exposed.
 
-    2. Use the tools to edit it in the work area. 
+    2. Use the tools to edit it in the viewer. 
 
 .. tip:: **To select several cells:**
 
@@ -826,81 +826,81 @@ Selected cells can also be dragged to a new position in the Xsheet, in duplicati
 
     - Shift-click a cell to extend the selection up to that cell.
 
-    - Click the dark vertical strip available on the left of the cells, to select the continuous sequence of drawings belonging to the same animation level.
-
     - Press Ctrl and drag to include keys in the selection. A red frame will be shown around the selection.
+
+    - Click the vertical strip available on the left of the cells, to select the continuous sequence of drawings belonging to the same animation level.
 
 .. tip:: **To edit cells with the Edit menu commands:**
 
     You can do the following:
 
-    - Use the Copy command to keep in memory the selection for further operations.
+    - Use the **Copy** command to keep in memory the selection for further operations.
 
-    - Use the Cut command to eliminate the selection from the Xsheet and keep it in memory for further operations. The cell elimination causes the following cells to shift up.
+    - Use the **Cut** command to eliminate the selection from the Xsheet/Timeline and keep it in memory for further operations. The cell elimination causes the following cells in the Xsheet to shift up, or in the Timeline, to shift to the left.
 
-    - Use the Paste command to paste the selection kept in memory into the Xsheet starting from the selected insertion cell. The command causes the following cells to shift down. 
+    - Use the **Paste** command to paste the selection kept in memory into the Xsheet/Timeline, starting from the selected insertion cell. The command causes the following cells in the Xsheet to shift down, or in the Timeline, to shift to the right. 
 
-    - Use the Delete command to empty the selected cells from any reference. 
+    - Use the **Delete** command to empty the selected cells from any reference. 
 
-    - Use the Insert command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
+    - Use the **Insert** command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet cells.
+.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet/Timeline cells.
 
 .. tip:: **To edit cells with the Cells menu commands:**
 
     You can do the following:
 
-    - Use the Reverse command to invert the order of the selected cells.
+    - Use the **Reverse** command to invert the order of the selected cells.
 
-    - Use the Swing command to append the selected cells at the end of the selection in a reversed order. The last cell of the selection will not be repeated.
+    - Use the **Swing** command to append the selected cells, at the end of the selection, in a reversed order. The last cell of the selection will not be repeated.
 
-    - Use the Random command to rearrange the selected cells in a random order. The order changes every time you use the command.
+    - Use the **Random** command to rearrange the selected cells in a random order. The order changes every time you use the command.
 
-    - Use the Autoexpose command to repeat the selected cells as if filling the numbering gap between two subsequent drawings. For example if the command is applied to two cells where drawing 2 and 5 are exposed, the result will be four cells with drawings 2, 2, 2 and 5. The command works only if the selection is increasingly numbered.
+    - Use the **Autoexpose** command to repeat the selected cells, as if filling the numbering gap between two subsequent drawings. For example if the command is applied to two cells where drawing 2 and 5 are exposed, the result will be four cells with drawings 2, 2, 2 and 5. The command works only if the selection is increasingly numbered.
 
-.. note:: If the Autoexpose command is used on an level numbered 1, 3, 5, 7, etc., the level will be automatically exposed step 2.
+    .. note:: If the Autoexpose command is used on an level numbered 1, 3, 5, 7, etc., the level will be automatically exposed step 2.
 
-- Use the Repeat command to open a dialog that allows you to repeat cyclically the selected cells by specifying a number of times, or the frame number up to which the selection has to be repeated.
+    - Use the **Repeat** command to open a dialog that allows you to repeat cyclically the selected cells by specifying a number of times, or the frame number up to which the selection has to be repeated.
 
-- Use the Reset Step command to remove any animation step in the selected cells, preserving the order of the exposed drawings.
+    - Use the **Reset Step** command to remove any animation step in the selected cells, preserving the order of the exposed drawings.
 
-- Use the Increase Step command to increase the animation step of the selected cells by one unit. 
+    - Use the **Increase Step** command to increase the animation step of the selected cells by one unit. 
 
-- Use the Decrease Step command to decrease the animation step of the selected cells by one unit; if a drawing is exposed in one cell only, it will be preserved.
+    - Use the **Decrease Step** command to decrease the animation step of the selected cells by one unit; if a drawing is exposed in one cell only, it will be preserved.
 
-- Use the Step 2, Step 3 or Step 4 command to repeat the selected cells in order to have a step 2, step 3, or step 4 animation.
+    - Use the **Step 2**, **Step 3** or **Step 4** command to repeat the selected cells in order to have a step 2, step 3, or step 4 animation.
 
-- Use the Each 2, Each 3 or Each 4 command to preserve only one cell each 2, each 3, or each 4 of the selection, and delete the others.
+    - Use the **Each 2**, **Each 3** or **Each 4** command to preserve only one cell each 2, each 3, or each 4 of the selection, and delete the others.
 
-- Use the Roll Up command to shift the content of selected cells up, with the top cell content replacing the bottom cell one.
+    - Use the **Roll Up** command to shift the content of selected cells up, with the top cell content replacing the bottom cell one.
 
-- Use the Roll Down to shift the content of selected cells down, with the bottom cell content replacing the top cell one.
+    - Use the **Roll Down** to shift the content of selected cells down, with the bottom cell content replacing the top cell one.
 
-.. note:: All the Cells menu commands are also available in the menu that opens when right-clicking the Xsheet cells.
+.. note:: All the Cells menu commands are also available in the menu that opens when right-clicking the Xsheet/Timeline cells.
 
 .. tip:: **To drag a cell selection:**
 
     Do one of the following:
 
-    - Click the dark vertical strip available on the left of the cells, and drag them to move them to a new position. 
+    - Click the vertical strip available on the left of the cells, and drag them to move them to a new position. 
 
-    - Ctrl-click (PC) or Cmd-click (Mac) the dark vertical strip available on the left of the cells, and drag them to the new position duplicating them.
+    - Ctrl-click (PC) or Cmd-click (Mac) the vertical strip available on the left of the cells, and drag them to the new position, duplicating them.
 
-    - Shift-click the dark vertical strip available on the left of the cells, and drag them to the new position inserting them if other content is exposed in the destination cells.
+    - Shift-click the vertical strip available on the left of the cells, and drag them to the new position, inserting them if other content is exposed in the destination cells.
 
-    - Alt-click the dark vertical strip available on the left of the cells, and drag them to the new position overwriting any other content previously exposed in the destination cells.
+    - Alt-click the vertical strip available on the left of the cells, and drag them to the new position, overwriting any other content previously exposed in the destination cells.
 
-.. note:: When it is not possible to release the selection, a red outline is displayed instead of the selection.
+.. note:: When it's not possible to paste the selection, a red outline is displayed instead of the selection.
 
 .. tip:: **To drag a cell selection moving along the column data:**
 
-    1. Choose File > Preferences > General.
+    1. Choose File > Preferences > Xsheet.
 
-    2. Set the Cell-dragging Behaviour option to Cells and Column Data.
+    2. Set the Cell-dragging Behaviour option to **Cells and Column Data**.
 
-.. note:: Column data are moved along only when dragging the selected cells to an empty column.
+    .. note:: Column data are moved along only when dragging the selected cells to an empty column.
 
-.. note:: The column data are moved along except for the linked columns, because linked columns can only have one parent column.
+    .. note:: The column data are moved along except for the linked columns, because linked columns can only have one parent column.
 
 
 .. _using_the_smart_fill_handle:
