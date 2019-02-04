@@ -892,15 +892,15 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
 .. note:: When it's not possible to paste the selection, a red outline is displayed instead of the selection.
 
-.. tip:: **To drag a cell selection moving along the column data:**
+.. tip:: **To drag a cell selection moving along the column/layer data:**
 
     1. Choose File > Preferences > Xsheet.
 
     2. Set the Cell-dragging Behaviour option to **Cells and Column Data**.
 
-    .. note:: Column data are moved along only when dragging the selected cells to an empty column.
+    .. note:: Column/layer data are moved along only when dragging the selected cells to an empty column/layer.
 
-    .. note:: The column data are moved along except for the linked columns, because linked columns can only have one parent column.
+    .. note:: The column/layer data are moved along except for the linked columns/layers, because linked columns/layers can only have one parent column/layer.
 
 
 .. _using_the_smart_fill_handle:
