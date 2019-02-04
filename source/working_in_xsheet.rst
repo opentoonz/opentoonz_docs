@@ -907,13 +907,13 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
 Using the Smart Fill Handle
 '''''''''''''''''''''''''''
-The Fill Handle allows you to edit cells directly from within the Xsheet. 
+The Fill Handle allows you to edit cells directly from within the Xsheet/Timeline. 
 
-It is the small tab appearing at the bottom of the cell selection. By dragging this handle you can repeat a cell or a group of cells, you can add cells, or you can delete the last cells of a sequence. The behavior of the handle is smart: this means that the way cells are repeated, added, or deleted depends on the selection content.
+It's the small tab appearing at the bottom of the cell selection in the Xsheet, or at the right of the cell selection in the Timeline. By dragging this handle you can repeat a cell or a group of cells, you can add cells, or you can delete the last cells of a sequence. The behavior of the handle is smart: this means that the way cells are repeated, added, or deleted depends on the selection content.
 
-.. note:: Editing cells with the Fill Handle makes the cells placed below the selection shift up or down.
+.. note:: Editing cells with the Fill Handle makes the cells placed below the selection to shift up/down in the Xsheet (or the cells placed to the right of the selection to shift left/right in the Timeline).
 
-.. tip:: **To edit cell content with the Fill Handle:**
+.. tip:: **To edit cell content with the Fill Handle in the Xsheet:**
 
     Do one of the following:
 
@@ -927,12 +927,26 @@ It is the small tab appearing at the bottom of the cell selection. By dragging t
 
     - If you want to delete some cells, select a region so that the cells you want to delete are in the last rows, and drag the fill handle up.
 
+.. tip:: **To edit cell content with the Fill Handle in the Timeline:**
+
+    Do one of the following:
+
+    - If you want to repeat a cell content for some frames, select the cell and drag the fill handle to the right.
+
+    - If you want to lengthen a progressive sequence, select the cells where the sequence is exposed, and drag the fill handle to the right: sequence will be lengthen according to the progressive numbering. For example if the sequence is 1, 3, 5, the added images will be 7, 9, 11, etc. This works for any step the sequence may have.
+
+    - If you want a random sequence to be repeated, select the sequence and drag the fill handle to the right: the sequence will be lengthened according to the sequence numbering. For example if the sequence is 3, 6, 4, 1, the added images will be 3, 6, 4, 1, 3, 6, etc.
+
+    - If you want a progressive sequence to be repeated, first copy the sequence first drawing at the end of the sequence, then select all and drag the fill handle to the right. For example if the sequence is 1, 2, 3, 4, copy the drawing 1 at the end of the sequence (the result will be 1, 2, 3, 4, 1), and the added drawings will be 2, 3, 4, 1, 2, etc.
+
+    - If you want to delete some cells, select a region so that the cells you want to delete are in the last rows, and drag the fill handle to the left.
+
 
 .. _stretching_the_xsheet_timing:
 
 Stretching the Xsheet Timing
 ''''''''''''''''''''''''''''
-If you need to change the timing of a selection of cells, a selected frame range, or the whole Xsheet, you can use the Time Stretch dialog. 
+If you need to change the timing of a selection of cells, a selected frame range, or the whole Xsheet/Timeline, you can use the Time Stretch dialog. 
 
  |time_stretch| 
 
@@ -944,15 +958,15 @@ Options are the following:
 
     - **New Range** defines the new frame duration of the selection.
 
-.. tip:: **To stretch the Xsheet timing:**
+.. tip:: **To stretch the Xsheet/Timeline timing:**
 
     1. Select the cells, or define the frame range you want to stretch.
 
     2. Do one of the following:
 
-    - Choose Cells > Time Stretch.
+    - Choose Cells > **Time Stretch...**.
 
-    - Right-click the selection and choose Time Stretch from the menu that opens.
+    - Right-click the selection and choose **Time Stretch...** from the menu that opens.
 
     3. Define the time stretching options, then click the Stretch button.
 
@@ -961,25 +975,25 @@ Options are the following:
 
 Working Globally with Frames
 ----------------------------
-It is possible to insert or delete frames affecting the Xsheet as a whole, or a selection of Xsheet columns. 
+It is possible to insert or delete frames affecting the Xsheet/Timeline as a whole, or a selection of Xsheet columns or Timeline layers. 
 
 Inserting or deleting frames can be useful if you want to change the timing of the animation, for instance if you want to slow down or speed up an animation. 
 
-When a frame is inserted, the current frame cells are duplicated, and all the following cells are shifted down. If some animation keys are defined for object transformations and FX parameters, they will be shifted down as well to keep the animation consistency (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Editing FX Settings <editing_fx_settings>`  ).
+When a frame is inserted, the current frame cells are duplicated, and all the following cells are shifted down (right in the Timeline). If animation keys are defined for object transformations and FX parameters, they will be shifted down (or right in the Timeline) as well, to keep the animation consistency (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Editing FX Settings <editing_fx_settings>`  ).
 
-When a frame is removed, the current frame cells are deleted, and the following cells are shifted up. If some animation keys for object transformations and FX parameters are defined in the removed frame, they will be deleted and following keys will be shifted up (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Editing FX Settings <editing_fx_settings>`  ).
+When a frame is removed, the current frame cells are deleted, and the following cells are shifted up (or left in the Timeline). If animation keys for object transformations and FX parameters are defined in the removed frame, they will be deleted and following keys will be shifted up (or left in the Timeline) (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Editing FX Settings <editing_fx_settings>`  ).
 
 .. tip:: **To insert a frame:**
 
     1. Select the frame before which you want to insert a new frame.
 
-    2. Choose Xsheet > Insert Frame.
+    2. Choose Xsheet > **Insert Frame**.
 
 .. tip:: **To remove a frame:**
 
     1. Select the frame you want to delete.
 
-    2. Choose Xsheet > Remove Frame.
+    2. Choose Xsheet > **Remove Frame**.
 
 
 .. _using_sub-xsheets:
