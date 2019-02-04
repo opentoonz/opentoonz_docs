@@ -651,8 +651,8 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
 .. _working_with_xsheet_columns:
 
-Working with Xsheet Columns / Timeline Layers
----------------------------------------------
+Working with Columns/Layers
+---------------------------
 When levels are exposed in the Xsheet, they are placed in columns (layers, in the case of the Timeline). The column/layer stacking order sets which drawings and images are placed on top, or behind, other images. Its direction is from left to right in the Xsheet, and from bottom to top in the Timeline, so what is on the left/bottom is behind what is on the right/top. You can use the keyboard arrow keys to move between the columns/layers and time.
 
 |xsheet|
@@ -800,8 +800,8 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
 .. _working_with_xsheet_cells:
 
-Working with Xsheet/Timeline Cells
-----------------------------------
+Working with Cells
+------------------
 When a level is exposed in a column, each cell contains a reference to a particular image. You may empty some cells, repeat some of them or change their order without affecting the real drawings sequence, because you are operating on references. This means that when a scene contains several cells referring to a drawing of an animation level, they all refer to the same drawing. This implies that when you modify a drawing of an animation level, all the cells in the Xsheet/Timeline referring to that drawing will consequently change their content.
 
 .. note:: When the scene contains a reference to a drawing that is eliminated from the level, the drawing name and number in the cell turn red, to warn you that there is no drawing available for that cell anymore.
@@ -960,8 +960,8 @@ It's the small tab appearing at the bottom of the cell selection in the Xsheet, 
 
 .. _stretching_the_xsheet_timing:
 
-Stretching the Xsheet Timing
-''''''''''''''''''''''''''''
+Stretching the Timing
+'''''''''''''''''''''
 If you need to change the timing of a selection of cells, a selected frame range, or the whole Xsheet/Timeline, you can use the Time Stretch dialog. 
 
  |time_stretch| 
