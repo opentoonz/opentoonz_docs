@@ -673,7 +673,7 @@ Each column header contains information about the column content. From the top y
 
     - **Lock toggle** (|lock|) allowing you to prevent any editing in the column/layer.
 
-    - **Additional column settings** button (|additional_settings|) allowing you to set an **Opacity** value or a **Color Filter** to the column/layer content, when displayed in the viewer. When a column/layer has a partial opacity, its **Camera stand toggle** changes to a faded icon to indicate it.
+    - **Additional settings** button (|additional_settings|) allowing you to set an **Opacity** value or a **Color Filter** to the column/layer content, when displayed in the viewer. When a column/layer has a partial opacity, its **Camera stand toggle** changes to a faded icon to indicate it.
 
       .. note:: Optionally you can make these additional properties also take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet > Scene Settings... dialog.
 
