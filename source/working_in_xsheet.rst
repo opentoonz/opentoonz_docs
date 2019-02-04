@@ -663,27 +663,27 @@ Column cells may have different colors according to the type of level they conta
 
 Each column header contains information about the column content. From the top you can see :
 
-    - **Column name**, by default is the name of the first exposed level. The area color indicates the type of level exposed in the column.
+    - **Column name**, by default is the name of the first exposed level. The area color indicates the type of level exposed in the column/layer.
 
-    - **Render toggle** (|preview|) allowing you to include or not the column contents in the rendering.
+    - **Render toggle** (|preview|) allowing you to include or not the column/layer contents in the rendering.
 
-    - **Camera stand toggle** (|camera_stand|) allowing you to hide or display the column content in the viewer.
+    - **Camera stand toggle** (|camera_stand|) allowing you to hide or display the column/layer content in the viewer.
 
-      .. note:: The render and camera stand toggles work linked to similar toggles available in Schematic column nodes (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
+      .. note:: The render and camera stand toggles work linked to similar toggles available in Schematic column/layer nodes (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
 
-    - **Lock toggle** (|lock|) allowing you to prevent any editing in the column.
+    - **Lock toggle** (|lock|) allowing you to prevent any editing in the column/layer.
 
     - **Additional column settings** button (|additional_settings|) allowing you to set an **Opacity** value or a **Color Filter** to the column/layer content, when displayed in the viewer. When a column/layer has a partial opacity, its **Camera stand toggle** changes to a faded icon to indicate it.
 
       .. note:: Optionally you can make these additional properties also take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet > Scene Settings... dialog.
 
-    - **Preview icon** of the first drawing or image exposed in the column.
+    - **Preview icon** of the first drawing or image exposed in the column/layer.
 
       .. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the **Column Icon** option available in Preferences > Xsheet.
 
-    - **Parent** information, is an area where the object (by default the Table) and center (by default center B) to which each column is parented is displayed (see  :ref:`Linking Objects <linking_objects>`  ).
+    - **Parent** information, is an area where the object (by default the Table) and center (by default center B) to which each column/layer is parented is displayed (see  :ref:`Linking Objects <linking_objects>`  ).
 
-The column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). 
+In the Xsheet, the column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). In the Timeline, the same controls are placed at the top row of the Timeline, having an equivalent functionality.
 
 .. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences > Xsheet dialog.
 
