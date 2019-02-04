@@ -1709,12 +1709,12 @@ Elements defined in the CSS are the following:
 .. |skeleton| image:: /_static/xsheet/skeleton.png
 .. |3d| image:: /_static/xsheet/3d.png
 .. |camera_view| image:: /_static/xsheet/camera_view.png
+.. |freeze| image:: /_static/xsheet/freeze.png
+.. |preview| image:: /_static/xsheet/preview.png
 .. |camera_stand| image:: /_static/xsheet/camera_stand.png
 .. |lock| image:: /_static/xsheet/lock.png
 .. |additional_settings| image:: /_static/xsheet/additional_settings.png
 .. |folder_up| image:: /_static/xsheet/folder_up.png
-.. |freeze| image:: /_static/xsheet/freeze.png
 .. |thumbnails| image:: /_static/xsheet/thumbnails.png
 .. |list| image:: /_static/xsheet/list.png
 .. |new_folder| image:: /_static/xsheet/new_folder.png
-.. |preview| image:: /_static/xsheet/preview.png
