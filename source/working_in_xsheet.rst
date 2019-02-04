@@ -844,7 +844,7 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
     - Use the **Insert** command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet/Timeline cells.
+    .. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet/Timeline cells.
 
 .. tip:: **To edit cells with the Cells menu commands:**
 
@@ -858,7 +858,7 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
     - Use the **Autoexpose** command to repeat the selected cells, as if filling the numbering gap between two subsequent drawings. For example if the command is applied to two cells where drawing 2 and 5 are exposed, the result will be four cells with drawings 2, 2, 2 and 5. The command works only if the selection is increasingly numbered.
 
-    .. note:: If the Autoexpose command is used on an level numbered 1, 3, 5, 7, etc., the level will be automatically exposed step 2.
+     .. note:: If the Autoexpose command is used on an level numbered 1, 3, 5, 7, etc., the level will be automatically exposed step 2.
 
     - Use the **Repeat** command to open a dialog that allows you to repeat cyclically the selected cells by specifying a number of times, or the frame number up to which the selection has to be repeated.
 
