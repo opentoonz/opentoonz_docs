@@ -1018,50 +1018,50 @@ When a frame is removed, the current frame cells are deleted, and the following 
 
 Using Sub-Xsheets
 -----------------
-A Sub-Xsheet is a scene exposed in a single Xsheet column. It can contain as many columns as you want, and other Sub-Xsheets as well. 
+A Sub-Xsheet is a scene exposed in a single Xsheet column or Timeline layer. It can contain as many columns/layers as you want, and other Sub-Xsheets as well. 
 
-When it is opened, the Sub-Xsheet contents are displayed in the Xsheet pane. When it is closed, it is displayed in the Xsheet as a violet column, with the column icon displaying a render of its content. The column cells displays the name of the Sub-Xsheet, and the cell number is a reference to the frame of the Sub-Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet. 
+When it's opened, the Sub-Xsheet contents are displayed in the Xsheet/Timeline pane. When it is closed, it's displayed in the Xsheet/Timeline as a violet column/layer, with its icon displaying a render of its content. The column/layer cells display the name of the Sub-Xsheet, and the cell number is a reference to the frame of the Sub-Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet. 
 
-The closed Sub-Xsheet column length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the Sub-Xsheet content.
+The closed Sub-Xsheet level length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the Sub-Xsheet content.
 
-Sub-Xsheet columns can be animated like any other animation column, and FX can be assigned to it, affecting all the Sub-Xsheet content as a whole. 
+Sub-Xsheet levels can be animated like any other animation level, and FX can be assigned to it, affecting all the Sub-Xsheet content as a whole. 
 
-Sub-Xsheet column cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet referring to that Sub-Xsheet frame will consequently change their content. In case you want to create a copy of a Sub-Xsheet that refers to the same animation level database but whose content can be edited independently, you can choose to Clone it. 
+Sub-Xsheet level cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet/Timeline referring to that Sub-Xsheet frame will consequently change their content. In case you want to create a copy of a Sub-Xsheet that refers to the same animation level database, but whose content can be edited independently, you can choose to **Clone** it. 
 
-If you want to reset the editing of a closed Sub-Xsheet, you can Resequence it, by resetting it to the original length and order of its contents.
+If you want to reset the editing of a Sub-Xsheet level, you can **Resequence** it, by resetting it to the original length and order of its contents.
 
-You can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet where it is exposed.
+You can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns/layers to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns/layers used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet/Timeline where it is exposed.
 
-As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it as an Xsheet, and import it later in a different scene as a Sub-Xsheet.
+As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet/Timeline from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it as an Xsheet, and import it later in a different scene as a Sub-Xsheet.
 
 When working inside a Sub-Xsheet, by default only its own contents are displayed in the viewer. If you need to edit the Sub-Xsheet contents while looking at the whole scene contents, you can activate the **Edit in Place** mode. 
 
-Like standard Xsheets, Sub-Xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded inside Sub-Xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the Sub-Xsheet columns frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+Like standard Xsheets/Timelines, Sub-Xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded inside Sub-Xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the Sub-Xsheet columns/layers frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 
 .. _creating_sub-xsheets:
 
 Creating Sub-Xsheets
 ''''''''''''''''''''
-Sub-Xsheets are managed by Xsheet menu commands, and by buttons in the Xsheet Toolbar. 
+Sub-Xsheets are managed by the Xsheet menu commands, and by buttons in the Xsheet Toolbar. 
 
-You can create a Sub-Xsheet by collapsing one or several columns where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns and drawings outside of the Sub-Xsheet, then paste them inside it. 
+You can create a Sub-Xsheet by collapsing one or several columns/layers where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns/layers and drawings outside of the Sub-Xsheet, then paste them inside of it. 
 
-.. note:: The main Xsheet will share with its Sub-Xsheets the animation level database, so if the same level is loaded in the main Xsheet and in one of its Sub-Xsheets, the level and its properties will be shared.
+.. note:: The main Xsheet/Timeline will share with its Sub-Xsheets the animation level database, so if the same level is exposed in the main Xsheet/Timeline and in one of its Sub-Xsheets, the level and its properties will be shared.
 
-When copying Sub-Xsheet columns and cells, their copies refer always to the same Sub-Xsheet contents: if changes are made in the Sub-Xsheet, all the cells in the main Xsheet referring to that Sub-Xsheet will consequently change their content. If you want to create a copy of a Sub-Xsheet whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to clone it.
+When copying Sub-Xsheet columns/layers and cells, their copies refer always to the same Sub-Xsheet contents: if changes are made in the Sub-Xsheet, all the cells in the main Xsheet/Timeline referring to that Sub-Xsheet will consequently change their content. If you want to create a copy of a Sub-Xsheet whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to **Clone** it.
 
 .. tip:: **To create a Sub-Xsheet by collapsing one or several columns:**
 
-    1. Select the columns you want to be part of the Sub-Xsheet in the Xsheet or in the schematic.
+    1. Select the columns you want to be part of the Sub-Xsheet in the Xsheet/Timeline or in the Schematic.
 
     2. Do one of the following:
 
-    - Choose Xsheet > Collapse.
+    - Choose Xsheet > **Collapse**.
 
-    - Click the Collapse button in the Xsheet Toolbar. 
+    - Click the **Collapse** button in the Xsheet Toolbar. 
     
-    - Right-click any column header and choose Collapse from the menu that opens.
+    - Right-click any column header and choose **Collapse** from the menu that opens.
 
     3. Choose whether to include relevant pegbars in the Sub-Xsheet or collapse selected columns only, then click the OK button.
 
@@ -1069,21 +1069,21 @@ When copying Sub-Xsheet columns and cells, their copies refer always to the same
 
     Do one of the following
 
-    - Choose Xsheet > Close Sub-Xsheet.
+    - Choose Xsheet > **Close Sub-Xsheet**.
 
-    - Click the Close Sub-Xsheet button in the Xsheet Toolbar. 
+    - Click the **Close Sub-Xsheet** button in the Xsheet Toolbar. 
 
 .. tip:: **To open a closed Sub-Xsheet:**
 
-    1. Select the Sub-Xsheet column in the Xsheet, or the Sub-Xsheet node in the schematic.
+    1. Select the Sub-Xsheet column in the Xsheet/Timeline, or the Sub-Xsheet node in the Schematic.
 
     2. Do one of the following:
 
-    - Choose Xsheet > Open Sub-Xsheet.
+    - Choose Xsheet > **Open Sub-Xsheet**.
 
-    - Click the Open Sub-Xsheet button in the Xsheet Toolbar. 
+    - Click the **Open Sub-Xsheet** button in the Xsheet/Timeline Toolbar. 
 
-    - Right-click the column header and choose Open Sub-Xsheet from the menu that opens.
+    - Right-click the column header and choose **Open Sub-Xsheet** from the menu that opens.
 
 .. tip:: **To clone a Sub-Xsheet:**
 
@@ -1091,44 +1091,44 @@ When copying Sub-Xsheet columns and cells, their copies refer always to the same
 
     2. Do one of the following:
 
-    - Choose Xsheet > Clone Sub-Xsheet.
+    - Choose Xsheet > **Clone Sub-Xsheet**.
 
-    - Right-click the column header and choose Clone Sub-Xsheet from the menu that opens.
+    - Right-click the column header and choose **Clone Sub-Xsheet** from the menu that opens.
 
 .. tip:: **To toggle edit a Sub-Xsheet in its context:**
 
     Do one of the following
 
-    - Choose Xsheet > Toggle Edit in Place.
+    - Choose Xsheet > **Toggle Edit in Place**.
     
-    - Click the Toggle Edit in Place button in the Xsheet Toolbar. 
+    - Click the **Toggle Edit in Place** button in the Xsheet/Timeline Toolbar. 
 
 .. tip:: **To resequence a Sub-Xsheet:**
 
-    1. Select the column containing the Sub-Xsheet.
+    1. Select the column/layer containing the Sub-Xsheet.
 
     2. Do one of the following:
 
-    - Choose Xsheet > Resequence.
+    - Choose Xsheet > **Resequence**.
 
-    - Right-click the column header and choose Resequence from the menu that opens.
+    - Right-click the column header and choose **Resequence** from the menu that opens.
 
 
 .. _loading_a_scene_as_a_sub-xsheet:
 
 Loading a Scene as a Sub-Xsheet
 '''''''''''''''''''''''''''''''
-Previously saved OpenToonz scenes can be loaded in a Xsheet as Sub-Xsheets. 
+Previously saved OpenToonz scenes can be loaded in a Xsheet/Timeline as Sub-Xsheets. 
 
 Every time a scene is loaded as a Sub-Xsheet, its contents are imported into the current project database according to the project default folders, in the same way as it would be if every single level was imported (see  :ref:`Using the File Browser <using_the_file_browser>`  ). 
 
-This allows you to create a library of basic animations that can be loaded and edited in other Xsheets to create more complex animations without affecting the original files or drawings. Even when the same Sub-Xsheet is loaded twice, it is handled as if two different Sub-Xsheets were loaded, whose contents and levels can be edited separately.
+This allows you to create a library of basic animations that can be loaded and edited in other Xsheets/Timelines to create more complex animations without affecting the original files or drawings. Even when the same Sub-Xsheet is loaded twice, it is handled as if two different Sub-Xsheets were loaded, whose contents and levels can be edited separately.
 
-To keep the database well-ordered you can also activate the Create Sub-folder when Importing Sub-Xsheet option in the Preferences > Loading dialog, that will automatically create, in the project default folder, a folder named as the Sub-Xsheet you are importing where the levels from the Sub-Xsheet will be copied. 
+To keep the database well-ordered you can also activate the **Create Sub-folder when Importing Sub-Xsheet** option in the Preferences > Loading dialog, that will automatically create, in the project default folder, a folder named as the Sub-Xsheet you are importing where the levels from the Sub-Xsheet will be copied. 
 
-Once a Sub-Xsheet is loaded, its levels are available in the scene cast in a sub-folder named as the scene you loaded.
+Once a Sub-Xsheet is loaded, its levels are available in the Scene Cast in a sub-folder named as the scene you loaded.
 
-On the occasion the camera settings of the scene you are loading as a Sub-Xsheet are different from those of your current scene, you will be prompted whether to keep the Sub-Xsheet original camera settings, or to apply the camera settings of the current scene to the Sub-Xsheet as well.
+If the camera settings of the scene you are loading as a Sub-Xsheet are different from those of your current scene, you will be prompted whether to keep the Sub-Xsheet original camera settings, or to apply the camera settings of the current scene to the Sub-Xsheet as well.
 
 .. note:: If the scene you import contains a file whose name is the same of a file already existing in the destination default folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it adding a suffix you can decide. In this way you can control if files you are importing were already imported previously, or manage files that share the same name. 
 
@@ -1136,38 +1136,38 @@ On the occasion the camera settings of the scene you are loading as a Sub-Xsheet
 
     Do one of the following:
 
-    - Choose File > Load Level and use the browser to load a TNZ file.
+    - Choose File > **Load Level** and use the browser to load a TNZ file.
 
-    - Choose File > Load As Sub-Xsheet and use the browser to load a TNZ file.
+    - Choose File > **Load As Sub-Xsheet** and use the browser to load a TNZ file.
 
-    - Use the OpenToonz standard browser to drag the scene icon to the scene cast pane, the Xsheet or the work area.
+    - Use the OpenToonz standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the viewer.
 
-    - In the file browser right-click the scene icon and select Load As Sub-Xsheet in the menu that opens.
+    - In the file browser right-click the scene icon and select **Load As Sub-Xsheet** in the menu that opens.
 
-.. note:: OpenToonz scene files can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the scene cast, Xsheet, or work area.
+    .. note:: OpenToonz scene files can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline, or the viewer.
 
 
 .. _exploding_sub-xsheets:
 
 Exploding Sub-Xsheets
 '''''''''''''''''''''
-Sub-Xsheets can be exploded to automatically bring their content into the Xsheet where they are exposed. When exploding a Sub-Xsheet it is possible to choose to bring to the main Xsheet when needed the pegbars to which columns are linked. 
+Sub-Xsheets can be exploded to automatically bring their content into the Xsheet/Timeline where they are exposed. When exploding a Sub-Xsheet it's possible to choose to bring to the main Xsheet/Timeline, when needed, the pegbars to which columns are linked. 
 
-.. note:: When a Sub-Xsheet is exploded, its columns and the related FX nodes are displayed as a group in the FX schematic in order to better retrieve them (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
+.. note:: When a Sub-Xsheet is exploded, its columns/layers and the related FX nodes are displayed as a group in the FX Schematic, in order to better retrieve them (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
 
-.. note:: If special FX are applied to the Sub-Xsheet column, they will not be applied to the exploded columns, but the disconnected FX nodes will remain as reference in the FX schematic.
+.. note:: If FXs are applied to the Sub-Xsheet column/layer, they will not be applied to the exploded columns, but the disconnected FX nodes will remain as reference in the FX Schematic.
 
 .. tip:: **To explode a Sub-Xsheet:**
 
-    1. Select the Sub-Xsheet column in the Xsheet or in the schematic.
+    1. Select the Sub-Xsheet column/layer in the Xsheet/Timeline or in the Schematic.
 
     2. Do one of the following:
 
-    - Choose Xsheet > Explode.
+    - Choose Xsheet > **Explode**.
 
-    - Right-click the Sub-Xsheet column header and choose Explode from the menu that opens.
+    - Right-click the Sub-Xsheet column header and choose **Explode** from the menu that opens.
 
-    3. Choose whether to bring relevant pegbars to the main Xsheet, or to bring columns only, then click the OK button.
+    3. Choose whether to bring relevant pegbars to the main Xsheet/Timeline, or to bring columns/layers only, then click the OK button.
 
 
 .. _saving_a_sub-xsheet_as_a_scene:
@@ -1180,83 +1180,83 @@ The Sub-Xsheet content will be saved according to the current project settings f
 
 .. tip:: **To save a Sub-Xsheet as a scene:**
 
-    1. Open the Sub-Xsheet you want to save, so that its contents are displayed in the Xsheet.
+    1. Open the Sub-Xsheet you want to save, so that its contents are displayed in the Xsheet/Timeline.
 
-    2. Choose Xsheet > Save Sub-Xsheet As and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
+    2. Choose Xsheet > **Save Sub-Xsheet As...** and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
 
 
 .. _creating_a_soundtrack:
 
 Creating a Soundtrack
 ---------------------
-Audio clips can be loaded and edited in order to create a soundtrack for the scene; supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. There is no limit to the number of audio clips that can be loaded in a scene.
+Audio clips can be loaded and edited in order to create a soundtrack for the scene; supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences > Import/Export dialog, mp3 audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
 
-To load an audio clip you can use the browser room; if an audio clip is imported, it is saved in the +extras folder (see  :ref:`Using the File Browser <using_the_file_browser>`  ). Loaded audio clips are also stored in the Audio folder of the scene cast.
+To load an audio clip you can use the Browser room; if an audio clip is imported, it is saved in the *+extras* folder (see  :ref:`Using the File Browser <using_the_file_browser>`  ). Loaded audio clips are also stored in the Audio folder of the Scene Cast.
 
-Each loaded audio clip is exposed in a different Xsheet column as a series of visible sound waves to make the editing job easier; the number of frames it occupies depends on the length of the audio file and the frame rate set for the current scene. For example an audio clip 3 seconds long, imported into a scene whose frame rate is 12, will occupy 36 frames; if imported in a scene whose frame rate is 24 will occupy 72 frames (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ). 
+Each loaded audio clip is exposed in a different Xsheet column or Timeline layer as a series of visible sound waves to make the editing job easier; the number of frames it spans depends on the length of the audio file and the frame rate set for the current scene. For example an audio clip 3 seconds long, imported into a scene whose frame rate is 12, will occupy 36 frames; if imported in a scene whose frame rate is 24 will occupy 72 frames (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ). 
 
  |Toonz71_254| 
 
-Audio columns can be edited the way you edit any other column. The column header contains information about the column content. From the top you can see:
+Audio columns/layers can be edited the way you edit any other column/layer. Its header contains information about the column/layer content. From the top you can see:
 
-- A number representing the stacking order, that is not relevant for audio columns.
+- **Name**, by default is the number of the column/layer the audio is exposed in. e.g. Col5.
 
-- A camera stand toggle (|camera_stand|) allowing you to include or not the column content when scrubbing the audio with the current frame cursor (see below); when activated an animation table icon is visible in the toggle.
+- **Render toggle** (|preview|) allowing you to include or not the audio column/layer content in the rendering.
 
-- A render toggle (|preview|) allowing you to include or not the audio column content in the rendering; when activated an eye icon is visible in the toggle.
+- **Camera stand toggle** (|camera_stand|) allowing you to include or not the column/layer content when scrubbing the audio with the current frame cursor (see below).
 
-- A lock toggle (|lock|) allowing you to prevent any editing in the column; when activated a padlock icon is visible in the toggle.
+- **Lock toggle** (|lock|) allowing you to prevent any editing in the column/layer.
 
-- A vertical slider allowing you to set the volume.
+- **Additional settings** button (|additional_settings|) allowing you to set the volume.
 
-- A loudspeaker icon that lets you play the contents back.
+- **Loudspeaker** icon that lets you play the contents back.
 
-The Level Settings dialog is available for audio clips as well, allowing you to check the location of the related file, or to update the loading path to a different location, or to a different file (see  :ref:`Editing Level Settings <editing_level_settings>`  ).
+The **Level Settings** dialog is available for audio clips as well, allowing you to check the location of the related file, or to update the loading path to a different location, or to a different file (see  :ref:`Editing Level Settings <editing_level_settings>`  ).
 
-The soundtrack you define with audio clips will be created by merging all of the contents of audio columns according to the volume you set for each of them. While it cannot be played back when using the playback controls in the viewer, it can be scrubbed with the current frame cursor in the Xsheet frame column or in the viewer framebar, and played back when a scene is previewed (see  :ref:`Editing Audio Clips <editing_audio_clips>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  ). 
+The soundtrack you define with audio clips will be created by merging all of the contents of audio columns/layers according to the volume you set for each of them. While it cannot be played back when using the playback controls in the viewer, it can be scrubbed with the current frame cursor in the Xsheet frame column, the Timeline frame ruler or in the viewer framebar, and played back when a scene is previewed (see  :ref:`Editing Audio Clips <editing_audio_clips>`  and  :ref:`Previewing the Animation <previewing_the_animation>`  ). 
 
 When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or AVI), the soundtrack will be included in the file (see  :ref:`Rendering the Animation <rendering_the_animation>`  ). 
 
 .. note:: Audio clips loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the Use Default Viewer for Movie Formats option in the Preferences > General dialog in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
+.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences > General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
-.. tip:: **To play the contents of an audio column back:**
+.. tip:: **To play the contents of an audio column/layer back:**
 
-    Click the loudspeaker icon available in the header of the column. Click it again to interrupt the playback.
+    Click the loudspeaker icon available in the header of the column/layer. Click it again to stop the playback.
 
-.. tip:: **To set the volume of an audio column:**
+.. tip:: **To set the volume of an audio column/layer:**
 
-    Use the vertical slider available in the column header.
+    Click the Additional settings button (|additional_settings|) and use the Volume slider in there.
 
 .. tip:: **To include or exclude an audio when scrubbing the audio with the current frame cursor**
 
-    Click the camera stand toggle (|camera_stand|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
+    Click the Camera stand toggle (|camera_stand|) on the column/layer header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns/layers at the same time.
 
-.. tip:: **To include or exclude the audio column contents from the rendering:**
+.. tip:: **To include or exclude the audio column/layer contents from the rendering:**
 
-    Click the render toggle (|preview|) on the upper right corner of the column header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns at the same time.
+    Click the Render toggle (|preview|) on the column/layer header. If you right-click the toggle you can select commands from a menu that opens that let you affect several columns/layers at the same time.
 
-.. tip:: **To lock or unlock a column contents:**
+.. tip:: **To lock or unlock a column/layer contents:**
 
-    Click the lock toggle (|lock|) on the upper right corner of the column header (button on the right). If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns at the same time.
+    Click the Lock toggle (|lock|) on the column/layer header. If you right-click the toggle you can select commands from a menu that opens that let you lock or unlock several columns/layers at the same time.
 
 
 .. _editing_audio_clips:
 
 Editing Audio Clips
 '''''''''''''''''''
-Once loaded, audio clips can be moved up and down in the column, or to a different column, in order to be played starting from a certain frame of the animation. They can be trimmed to select a part of the whole clip and edited, by deleting or copying some sections, using standard edit commands the same way you use them on standard columns.
+Once loaded, audio clips can be moved up and down in a Xsheet column, left and right in a Timeline layer, or to a different column/layer, in order to be played starting from a certain frame of the animation. They can be trimmed to select a part of the whole clip and edited, by deleting or copying some sections, using standard edit commands the same way you use them on standard levels.
 
 When a clip is trimmed, the trimmed part is not eliminated, but hidden, and it has a colored horizontal marker at its starting or ending, according to where it was trimmed: it is possible to retrieve the trimmed part by moving back the markers.
 
 When a clip is split into sections by deleting, cutting or moving operations, it is automatically duplicated and trimmed to create the right result.
 
-.. note:: Audio clips can be moved and pasted only to empty columns, or to other audio columns.
+.. note:: Audio clips can be moved and pasted only to empty columns/layers, or to other audio columns/layers.
 
 .. note:: All the editing does not affect the file on disk, as it refers only to the way the clip is used in the scene.
 
-To find a particular section in an audio file, you can examine it by scrubbing it with the current frame cursor, either in the Xsheet frame column or in the viewer framebar, or by selecting any section and automatically playing it back together with the animation. This allows you to easily spot and excerpt the sections you need from an audio file. 
+To find a particular section in an audio file, you can examine it by scrubbing it with the current frame cursor, either in the Xsheet frame column, the Timeline frame ruler, in the viewer framebar, or by selecting any section and automatically playing it back together with the animation. This allows you to easily spot and excerpt the sections you need from an audio file. 
 
 .. tip:: **To select audio clips:**
 
@@ -1266,35 +1266,49 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     - Shift-click a clip cell to extend the selection up to that cell.
 
-    - Click the dark vertical strip available on the left of the clip, to select the whole clip.
+    - In the Xsheet, click the vertical strip available on the left of the clip, to select the whole clip.
+
+    - In the Timeline, click the horizontal strip available on the top of the clip, to select the whole clip.
 
 .. tip:: **To edit audio clips with the Edit menu commands:**
 
     You can do the following:
 
-    - Use the Copy command to keep in memory the selection for further operations.
+    - Use the **Copy** command to keep in memory the selection for further operations.
 
-    - Use the Cut command to eliminate the selection from the Xsheet and keep it in memory for further operations. The cell elimination causes the following cells to shift up.
+    - Use the **Cut** command to eliminate the selection from the Xsheet/Timeline and keep it in memory for further operations. The cell elimination causes the following cells to shift up in the Xsheet or left in the Timeline.
 
-    - Use the Paste command to paste the selection kept in memory in the Xsheet starting from the selected insertion cell. The command causes the following cells to shift down. 
+    - Use the **Paste** command to paste the selection kept in memory in the Xsheet/Timeline, starting from the selected insertion cell. The command causes the following cells to shift down in the Xsheet or right in the Timeline. 
 
-    - Use the Delete command to empty the selected cells from any reference. 
+    - Use the **Delete** command to empty the selected cells from any reference. 
 
-    - Use the Insert command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
+    - Use the **Insert** command to insert blank cells before the selection; inserted cells will be as many as the selected ones. 
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet cells.
+    .. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the Xsheet/Timeline cells.
 
-.. tip:: **To move a clip selection:**
+.. tip:: **To move a clip selection in the Xsheet:**
 
     Do one of the following:
 
-    - Click the dark vertical strip available on the left of the clip cells, and drag them to move them to a new position. 
+    - Click the vertical strip available on the left of the clip cells, and drag them to move them to a new position. 
 
-    - Ctrl-click (PC) or Cmd-click (Mac) the dark vertical strip available on the left of the clip cells, and drag them to the new position duplicating them.
+    - Ctrl-click (PC) or Cmd-click (Mac) the vertical strip available on the left of the clip cells, and drag them to the new position duplicating them.
 
-    - Shift-click the dark vertical strip available on the left of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
+    - Shift-click the vertical strip available on the left of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
 
-    - Alt-click the dark vertical strip available on the left of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
+    - Alt-click the vertical strip available on the left of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
+
+.. tip:: **To move a clip selection in the Timeline:**
+
+    Do one of the following:
+
+    - Click the horizontal strip available on the top of the clip cells, and drag them to move them to a new position. 
+
+    - Ctrl-click (PC) or Cmd-click (Mac) the horizontal strip available on the top of the clip cells, and drag them to the new position duplicating them.
+
+    - Shift-click the horizontal strip available on the top of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
+
+    - Alt-click the horizontal strip available on the top of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
 
 .. note:: When it is not possible to release the selection, a red outline is displayed instead of the selection.
 
@@ -1314,9 +1328,13 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     - Drag the Xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
 
+    - Drag the Timeline frame ruler left or right to scrub all the audio layers whose Camera Stand toggle is active.
+
     - Drag the frame cursor in the viewer framebar to scrub all the audio columns whose Camera Stand toggle is active.
 
-    - Windows only: click and drag on the dashed vertical strip available on the right of the audio column cells: the selected section will be automatically played back.
+    - Windows only: In the Xsheet, click and drag on the dashed vertical strip available on the right of the audio column cells, the selected section will be automatically played back.
+
+    - Windows only: In the Timeline, click and drag on the dashed horizontal strip available on the bottom of the audio layer cells, the selected section will be automatically played back.
 
 
 .. _lip_synching:
