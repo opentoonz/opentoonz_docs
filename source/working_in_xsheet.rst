@@ -4,18 +4,20 @@ Working in Xsheet/Timeline
 ==========================
 The Xsheet, the digital version of the traditional exposure sheet, allows you to control the timing of all of the elements of a scene. It is organized in columns and rows: each column contains a layer of the animation and each row represents a frame contents. Columns are divided into cells, representing the content of that column in a particular frame. 
 
-Different items, generically called here as levels, can be loaded into the scene: animation levels, images for the background and overlays, and clips.
+The Timeline is the horizontal counterpart of the Xsheet, it serves the same purpose, and has the same functionality. The main differences with the Xsheet are that in the Timeline the different levels are laid out in horizontal layers, while each frame content is represented by the columns of the Timeline.
 
-Other OpenToonz scenes can be loaded as well: they will be nested inside a column and considered a Sub-Xsheet of the current scene.
+In both of them, different items, generically called here as levels, can be loaded into the scene: animation levels, images for the background and overlays, and video clips.
 
-All of the Xsheet contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
+Other OpenToonz scenes can be loaded there as well: they will be nested inside a column/layer, and considered as a Sub-Xsheet of the current Xsheet/Timeline.
+
+All of the Xsheet/Timeline contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
 
 
 .. _using_the_viewer:
 
 Using the Viewer
 ----------------
-The viewer has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the viewer. When the preview mode is activated, it can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
+The viewer has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the viewer. When the preview mode is activated, the viewer can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
 .. figure:: /_static/xsheet/viewer_modes.png
 
