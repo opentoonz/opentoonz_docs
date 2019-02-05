@@ -1189,7 +1189,7 @@ The Sub-Xsheet content will be saved according to the current project settings f
 
 Creating a Soundtrack
 ---------------------
-Audio clips can be loaded and edited in order to create a soundtrack for the scene; supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences > Import/Export dialog, mp3 audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
+Audio clips can be loaded and edited in order to create a soundtrack for the scene; natively supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences > Import/Export dialog, ``MP3`` audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
 
 To load an audio clip you can use the Browser room; if an audio clip is imported, it is saved in the *+extras* folder (see  :ref:`Using the File Browser <using_the_file_browser>`  ). Loaded audio clips are also stored in the Audio folder of the Scene Cast.
 
