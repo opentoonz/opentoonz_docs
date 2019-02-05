@@ -1382,11 +1382,11 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
 Importing Magpie Files
 ''''''''''''''''''''''
- |Toonz71_263| 
+For lip synching it is possible to import into the Xsheet/Timeline .TLS files (i.e. Toonz Lip Sync) exported from Magpie, a professional lip-sync and animation timing tool. 
 
-For lip synching it is possible to import into the Xsheet TLS (i.e. Toonz Lip Sync) files exported from Magpie, a professional lip-sync and animation timing tool. 
+|magpie_import| 
 
-While Magpie takes care of the audio file analysis and phoneme recognition, the import into OpenToonz allows you to assign a frame from an animation level to each phoneme, and automatically expose the result in an Xsheet column; another column displaying the speech text as recognized in Magpie is created for reference.
+While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; another column/layer displaying the speech text (as recognized in Magpie) is created for reference.
 
 .. tip:: **To export the OpenToonz lip sync file in Magpie:**
 
@@ -1396,17 +1396,17 @@ While Magpie takes care of the audio file analysis and phoneme recognition, the 
 
 .. tip:: **To import a Magpie file:**
 
-    1. Choose File > Import Magpie File.
+    1. Choose File > **Import Magpie File...**.
 
-    2. In the browser that opens retrieve the TLS file you exported from Magpie and click the Load button.
+    2. In the browser that opens retrieve the TLS file you exported from Magpie and click the **Load** button.
 
     3. In the dialog that opens choose the following:
 
-    - Use Frame Range to define which section of the Magpie file you want to use to create the lip sync column in the Xsheet.
+    - Use **Frame Range** to define which section of the Magpie file you want to use to create the lip sync column in the Xsheet/Timeline.
 
-    - Use the Animation Level section to retrieve the animation level you want to expose in the Xsheet, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frame of the selected animation level.
+    - Use the **Animation Level** section to retrieve the animation level you want to expose in the Xsheet/Timeline, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frames of the selected animation level.
 
-    4. Click the Import button.
+    4. Click the **Import** button.
 
 
 .. _using_memos:
@@ -1757,6 +1757,7 @@ Elements defined in the CSS are the following:
 .. |timeline| image:: /_static/xsheet/timeline.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |audio| image:: /_static/xsheet/audio.png
+.. |magpie_import| image:: /_static/xsheet/magpie_import.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
