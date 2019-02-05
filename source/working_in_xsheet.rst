@@ -1431,7 +1431,7 @@ When editing a memo its color can be set, and the text you write can be formatte
 
     1. Select the text you want to format.
 
-    2. Click the arrow (|additional_options|) displayed on the right of the selection to open the Text Toolbar.
+    2. Click the arrow (|additional_settings|) displayed on the right of the selection to open the Text Toolbar.
 
     |memo_text_format|
 
@@ -1466,63 +1466,69 @@ When editing a memo its color can be set, and the text you write can be formatte
 
 Saving and Loading Scenes
 -------------------------
-When working on a new scene the default name (untitled) followed by a progressive number is assigned to the scene until you save it with a different name. This name is also used in case the $scenepath variable is used in the project settings to store temporarily the material used in the scene.
+When working on a new scene the default name (untitled) followed by a progressive number is assigned to the scene until you save it with a different name. This name is also used in case the *$scenepath* variable is used in the project settings to store temporarily the material used in the scene.
 
 .. note:: Untitled scenes and related material are stored in the ``OpenToonz stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
 
-Scene files can be saved and loaded as TNZ files using the related menu commands. Scenes have to be saved in the current project +scenes folder, or any of its sub-folders, in order to retrieve all the material when they are loaded back.
+Scene files can be saved and loaded as TNZ files using the related menu commands. Scenes have to be saved in the current project *+scenes* folder, or any of its sub-folders, in order to retrieve all the material when they are loaded back.
 
-When you use the Save As command, if the $scenepath is used in the default folders definition, all the material used in the scenes and located in project default folders will be duplicated in folders related to the new scene (see  :ref:`Using the $scenepath Variable in Folder Definition <using_the_$scenepath_variable_in_folder_definition>`  ).
+When you use the **Save As...** command, if the *$scenepath* is used in the default folders definition, all the material used in the scenes and located in project default folders will be duplicated in folders related to the new scene (see  :ref:`Using the $scenepath Variable in Folder Definition <using_the_$scenepath_variable_in_folder_definition>`  ).
 
-An option to automatically save the scene every given number of minutes is available in the Preferences > General dialog. If the option is activated, during the saving operation a message is displayed to notify the process.
+An option **Save Automatically** allows to save the scene every given number of minutes, and is available in the Preferences > General dialog. If the option is activated, during the saving operation a message is displayed to notify the process.
 
-.. note:: An asterisk after the scene name in the viewer and Xsheet title bars denotes that there are unsaved changes for the current scene.
+.. note:: An asterisk to the right of the scene name in the Viewer and Xsheet/Timeline title bars, denotes that there are unsaved changes for the current scene.
 
 .. tip:: **To work on a new scene:**
 
-    Choose File > New Scene.
+    Choose File > **New Scene**.
+
+.. tip:: **To save a scene and all its related levels:**
+
+    Choose File > **Save All**.
 
 .. tip:: **To save a scene:**
 
-    Choose File > Save Scene.
+    Choose File > **Save Scene**.
 
 .. tip:: **To save the current scene with a different name:**
 
-    1. Choose File > Save Scene As.
+    1. Choose File > **Save Scene As...**
 
-    2. In the browser that opens select the current project +scenes folder, or any of its sub-folders, where you want to save the scene.
+    2. In the browser that opens select the current project *+scenes* folder, or any of its sub-folders, where you want to save the scene.
 
-    3. Assign a name to the scene and click the Save button.
+    3. Assign a name to the scene and click the **Save** button.
 
 .. tip:: **To load a scene from the Load Scene browser:**
 
-    1. Choose File > Load Scene.
+    1. Choose File > **Load Scene...**
 
-    2. In the browser that opens retrieve in the +scenes folder of the current project, or any of its sub-folders, the scene you want to load and click the Load button.
+    2. In the browser that opens retrieve, in the *+scenes* folder of the current project or any of its sub-folders, the scene you want to load and click the **Load** button.
 
 .. tip:: **To load a scene from the OpenToonz standard browser:**
 
     Do one of the following:
 
-    - Right-click the scene icon and choose Load Scene from the menu that opens.
+    - Right-click the scene icon and choose **Load Scene...** from the menu that opens.
 
     - Drag and drop the scene icon to the clapboard icon in the scene cast pane. 
 
-.. note:: Scenes can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the clapboard icon in the scene cast.
+     .. note:: Scenes can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the clapboard icon in the scene cast.
 
 .. tip:: **To load back a recently loaded scene:**
 
-    Choose File > Open Recent Scene File, then select the scene you want to load from the available submenu.
+    Choose File > **Open Recent Scene File**, then select the scene you want to load from the available submenu.
 
 .. tip:: **To revert the current scene to the last saved version:**
 
-    Choose File > Revert Scene.
+    Choose File > **Revert Scene**.
 
 .. tip:: **To automatically save a scene every given number of minutes:**
 
     1. Choose File > Preferences > General.
 
-    2. Activate the Save Automatically Every Minutes option and enter the number of minutes that have to pass between each saving operation.
+    2. Activate the **Save Automatically** option and enter the number of minutes that have to pass between each saving operation.
+   
+    3. Choose to activate which file will be saved by this function, either or both of the Scene File and Non-Scene Files.
 
 
 .. _importing_and_exporting_scenes:
