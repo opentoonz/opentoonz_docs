@@ -1623,7 +1623,7 @@ For this reason it's possible to collect all the files used in a scene, thus imp
 
 Scene Backup Files
 ''''''''''''''''''
-When scenes are saved, backup files of previous versions are automatically stored in a folder named as the scene, that is located in *+scenes\backups*  of the current project. 
+When scenes are saved, backup files of previous versions are automatically stored in a folder named as the scene, that is located in ``+scenes\backups``  of the current project. 
 
 The four previous scene versions are retained, and they are named as the scene, with a progressive backup number: the highest the number, the more recent the backup.
 
