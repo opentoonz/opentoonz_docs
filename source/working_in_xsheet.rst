@@ -1512,7 +1512,7 @@ An option **Save Automatically** allows to save the scene every given number of 
 
     - Drag and drop the scene icon to the clapboard icon in the scene cast pane. 
 
-     .. note:: Scenes can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the clapboard icon in the scene cast.
+    .. note:: Scenes can also be loaded by dragging and dropping them from the Windows Explorer or Mac OS Finder to the clapboard icon in the scene cast.
 
 .. tip:: **To load back a recently loaded scene:**
 
@@ -1658,7 +1658,7 @@ The information displayed in the header and the appearance of the HTML table can
 
 When using the Print Xsheet command, a dialog with information about the location and name of the generated HTML file is displayed; then the generated HTML file is displayed in your default browser.
 
-The HTML file is saved in the same location of the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
+The HTML file is saved in the same location as the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
 
 .. note:: If you want to move the HTML Xsheet file, you should move the CSS file as well, in order to preserve the HTML file appearance as defined by the CSS file.
 
@@ -1771,10 +1771,6 @@ Elements defined in the CSS are the following:
 .. |memo| image:: /_static/xsheet/memo.png
 .. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
 .. |export_scene| image:: /_static/xsheet/export_scene.png
-.. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
-.. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
-.. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
-.. |Toonz71_265| image:: /_static/Toonz71/Toonz71_265.gif
 .. |animate| image:: /_static/xsheet/animate.png
 .. |skeleton| image:: /_static/xsheet/skeleton.png
 .. |3d| image:: /_static/xsheet/3d.png
