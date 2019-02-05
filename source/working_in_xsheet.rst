@@ -1386,7 +1386,7 @@ For lip synching it is possible to import into the Xsheet/Timeline .TLS files (i
 
 |magpie_import| 
 
-While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; another column/layer displaying the speech text (as recognized in Magpie) is created for reference.
+While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; an additional column/layer displaying the speech text (as recognized in Magpie) is created for reference.
 
 .. tip:: **To export the OpenToonz lip sync file in Magpie:**
 
