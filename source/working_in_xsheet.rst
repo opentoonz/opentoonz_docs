@@ -1413,15 +1413,17 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
 
 Using Memos
 -----------
-Memos can be posted in the Xsheet at specific positions in order to add notes and comments to the scene. 
+Memos can be posted in the Xsheet/Timeline at specific positions in order to add notes and comments to the scene. 
 
-When editing a memo its color can be set, and the text you write can be formatted. Once posted, memos display the first letters of their content in order to be identified, and can be retrieved in the Xsheet by navigating them.
+|memo|
+
+When editing a memo its color can be set, and the text you write can be formatted. Once posted, memos display the first letters of their content in order to be identified, and can be retrieved in the Xsheet/Timeline by navigating them.
 
 .. tip:: **To post a memo:**
 
-    1. Click the new memo button at the top of the frame number column.
+    1. Click the **Add New Memo** button at the top of the frame number column in the Xsheet (or at the top of the layers headers, in the Timeline).
 
-    2. Type the text in the window that opens, format it and choose the memo color (see below) then click the Post button: the memo is posted at the current frame in the current column.
+    2. Type the memo text in the window that opens, format it and choose the memo color (see below) then click the **Post** button: the memo is posted at the current frame in the current column.
 
     3. Click and drag the posted memo to change its position.
 
@@ -1429,17 +1431,19 @@ When editing a memo its color can be set, and the text you write can be formatte
 
     1. Select the text you want to format.
 
-    2. Click the arrow that is displayed on the right of the selection to open the text toolbar.
+    2. Click the arrow (|additional_options|) displayed on the right of the selection to open the Text Toolbar.
 
-    3. Choose the font family, size, color, style and paragraph alignment by clicking on the relevant menu and buttons in the toolbar.
+    |memo_text_format|
+
+    3. Choose the font family, size, color, style and paragraph alignment by clicking on the relevant menu and buttons in the Text Toolbar.
 
 .. tip:: **To change the memo color:**
 
-    Choose a color in the palette available at the bottom of the open memo; palette colors can also be selected and edited by using the style editor.
+    Choose a color in the palette available at the bottom of the open memo; palette colors can also be selected and edited by using the Style Editor.
 
 .. tip:: **To navigate the memos posted in the Xsheet:**
 
-    Click the arrow buttons under the new memo button to check the previous or next memo: the Xsheet automatically pans to show where the memo is posted.
+    Click the arrow buttons next to the Add New Memo button to check the previous or next memo: the Xsheet/Timeline automatically pans to show where the selected memo is posted.
 
 .. tip:: **To open a memo:**
 
@@ -1447,15 +1451,15 @@ When editing a memo its color can be set, and the text you write can be formatte
 
     - Double-click it.
 
-    - Right-click it and choose Open Memo from the menu that opens.
+    - Right-click it and choose **Open Memo** from the menu that opens.
 
 .. tip:: **To delete a memo:**
 
     Do one of the following:
 
-    - Open it and click the Discard button.
+    - Open it and click the **Discard** button.
 
-    - Right-click it and choose Delete Memo from the menu that opens.
+    - Right-click it and choose **Delete Memo** from the menu that opens.
 
 
 .. _saving_and_loading_scenes:
@@ -1758,6 +1762,8 @@ Elements defined in the CSS are the following:
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |audio| image:: /_static/xsheet/audio.png
 .. |magpie_import| image:: /_static/xsheet/magpie_import.png
+.. |memo| image:: /_static/xsheet/memo.png
+.. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
