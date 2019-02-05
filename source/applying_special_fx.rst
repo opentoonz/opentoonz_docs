@@ -6,6 +6,8 @@ Special FX can be applied to animation levels, images and clips exposed in Xshee
 
 The relationship between the contents of columns and FX can be managed by connecting or disconnecting links between nodes.
 
+|dwanko_before_fx| |dwanko_after_fx| 
+
 .. _using_the_fx_schematic:
 
 Using the FX Schematic
@@ -377,6 +379,7 @@ The parameter specific set key button may have the following colors:
     - It is outlined in red if you change the parameter value and the current frame does not have a key for the parameter.
 
 Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined.  
+
 |FX_Settings_Example| 
 
 If no key values are defined, parameters you set will be used throughout the scene.
@@ -1738,3 +1741,7 @@ Blurs along concentric circular lines as if the Source content turns around the 
 .. |reorder_nodes| image:: /_static/sfx/reorder_nodes.png
 .. |reset| image:: /_static/sfx/reset.png
 .. |schematic| image:: /_static/sfx/schematic.png
+.. |dwanko_before_fx| image:: /_static/sfx/dwanko_before_fx.png
+	:width: 45%
+.. |dwanko_after_fx| image:: /_static/sfx/dwanko_after_fx.png
+	:width: 45%
