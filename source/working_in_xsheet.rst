@@ -653,7 +653,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
 Working with Columns/Layers
 ---------------------------
-When levels are exposed in the Xsheet, they are placed in columns (layers, in the case of the Timeline). The column/layer stacking order sets which drawings and images are placed on top, or behind, other images. Its direction is from left to right in the Xsheet, and from bottom to top in the Timeline, so what is on the left/bottom is behind what is on the right/top. You can use the keyboard arrow keys to move between the columns/layers and time.
+When levels are exposed in the Xsheet they are placed in columns (layers, in the case of the Timeline). The column/layer stacking order sets which drawings and images are placed on top, or behind, other images. Its direction is from left to right in the Xsheet, and from bottom to top in the Timeline, so what is on the left/bottom is behind what is on the right/top. You can use the keyboard arrow keys to move between the columns/layers and time.
 
 |xsheet|
 
@@ -685,7 +685,7 @@ Each column/layer header contains information about its content. These are:
 
     - **Parent** information, is an area where the object (by default the Table) and center (by default center B) to which each column/layer is parented is displayed (see  :ref:`Linking Objects <linking_objects>`  ). Currently this is not shown in the Timeline header.
 
-In the Xsheet, the column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). In the Timeline, the same controls are placed at the top row of the Timeline, having an equivalent functionality.
+In the Xsheet, the column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). In the Timeline, the same controls are placed in the time ruler at the top of the Timeline, having an equivalent functionality.
 
 .. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences > Xsheet dialog.
 
@@ -1195,9 +1195,9 @@ To load an audio clip you can use the Browser room; if an audio clip is imported
 
 Each loaded audio clip is exposed in a different Xsheet column or Timeline layer as a series of visible sound waves to make the editing job easier; the number of frames it spans depends on the length of the audio file and the frame rate set for the current scene. For example an audio clip 3 seconds long, imported into a scene whose frame rate is 12, will occupy 36 frames; if imported in a scene whose frame rate is 24 will occupy 72 frames (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ). 
 
- |Toonz71_254| 
+|audio| 
 
-Audio columns/layers can be edited the way you edit any other column/layer. Its header contains information about the column/layer content. From the top you can see:
+Audio columns/layers can be edited the way you edit any other column/layer. Its header contains the following information about the content:
 
 - **Name**, by default is the number of the column/layer the audio is exposed in. e.g. Col5.
 
@@ -1290,25 +1290,25 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     Do one of the following:
 
-    - Click the vertical strip available on the left of the clip cells, and drag them to move them to a new position. 
+    - **Click** the vertical strip available on the left of the clip cells, and drag them to move them to a new position. 
 
-    - Ctrl-click (PC) or Cmd-click (Mac) the vertical strip available on the left of the clip cells, and drag them to the new position duplicating them.
+    - **Ctrl-click** (PC) or **Cmd-click** (Mac) the vertical strip available on the left of the clip cells, and drag them to the new position duplicating them.
 
-    - Shift-click the vertical strip available on the left of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
+    - **Shift-click** the vertical strip available on the left of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
 
-    - Alt-click the vertical strip available on the left of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
+    - **Alt-click** the vertical strip available on the left of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
 
 .. tip:: **To move a clip selection in the Timeline:**
 
     Do one of the following:
 
-    - Click the horizontal strip available on the top of the clip cells, and drag them to move them to a new position. 
+    - **Click** the horizontal strip available on the top of the clip cells, and drag them to move them to a new position. 
 
-    - Ctrl-click (PC) or Cmd-click (Mac) the horizontal strip available on the top of the clip cells, and drag them to the new position duplicating them.
+    - **Ctrl-click** (PC) or **Cmd-click** (Mac) the horizontal strip available on the top of the clip cells, and drag them to the new position duplicating them.
 
-    - Shift-click the horizontal strip available on the top of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
+    - **Shift-click** the horizontal strip available on the top of the clip cells, and drag them to the new position inserting them if other audio clips are loaded in the destination cells.
 
-    - Alt-click the horizontal strip available on the top of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
+    - **Alt-click** the horizontal strip available on the top of the clip cells, and drag them to the new position overwriting any other audio clips previously loaded in the destination cells.
 
 .. note:: When it is not possible to release the selection, a red outline is displayed instead of the selection.
 
@@ -1328,7 +1328,7 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 
     - Drag the Xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
 
-    - Drag the Timeline frame ruler left or right to scrub all the audio layers whose Camera Stand toggle is active.
+    - Drag the Timeline frame cursor left or right to scrub all the audio layers whose Camera Stand toggle is active.
 
     - Drag the frame cursor in the viewer framebar to scrub all the audio columns whose Camera Stand toggle is active.
 
@@ -1756,6 +1756,7 @@ Elements defined in the CSS are the following:
 .. |xsheet| image:: /_static/xsheet/xsheet.png
 .. |timeline| image:: /_static/xsheet/timeline.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
+.. |audio| image:: /_static/xsheet/audio.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
