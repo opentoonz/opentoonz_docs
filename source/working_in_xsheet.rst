@@ -1544,7 +1544,7 @@ If you need to copy the scene and the related material to a different project, i
 
 Importing Scenes from a Different Project
 '''''''''''''''''''''''''''''''''''''''''
-When trying to load a scene created in a different project, or not located in the current project +scenes folder or any of its sub-folders, you are prompted to decide whether you want to import the scene or change the current project (see  :ref:`Setting up Projects <setting_up_projects>`  ).
+When trying to load a scene created in a different project, or not located in the current project *+scenes* folder or any of its sub-folders, you are prompted to decide whether you want to import the scene (**Import Scene**) or change the current project (**Change Project**) (see  :ref:`Setting up Projects <setting_up_projects>`  ).
 
 If you decide to import the scene, the scene will be loaded, and all the scene material will be imported in the following way:
 
@@ -1552,7 +1552,7 @@ If you decide to import the scene, the scene will be loaded, and all the scene m
 
 - All the files that were located in external folders (i.e. the ones loaded in the scene by using absolute paths), will remain where they are.
 
-While the material is automatically imported and saved in the current project, the scene file will not be saved until you will save it by using the Save Scene or Save Scene As commands.
+While the material is automatically imported and saved in the current project, the scene file will not be saved until you will save it by using the Save Scene... or Save Scene As... commands.
 
 It is also possible to import one or several scenes into the current project with no need to load and save them by using the Import Scene command.
 
@@ -1562,17 +1562,17 @@ In this case both the material files located in the original project default fol
 
 .. tip:: **To load and import a scene from a different project:**
 
-    1. Load the scene you want to import by using the Load Scene browser or the OpenToonz standard browser.
+    1. Load the scene you want to import by using the **Load Scene...** browser or the OpenToonz standard browser.
 
-    2. Choose Import Scene in the dialog that opens: the scene is loaded and the related files will be copied into the default folders of the current project.
+    2. Choose **Import Scene** in the dialog that opens: the scene is loaded and the related files will be copied into the default folders of the current project.
 
-    3. Save the scene file in the current project +scenes folder
+    3. Save the scene file in the current project *+scenes* folder
 
-.. tip:: **To import one or several scenes from a different project without loading them:**
+.. tip:: **To import one or several scenes from a different project, without loading them:**
 
     1. Select the scenes you want to import in the OpenToonz standard browser.
 
-    2. Right-click the selection and choose Import Scene from the menu that opens: the scene and the related material files copied in the default folders of the current project.
+    2. Right-click the selection and choose **Import Scene** from the menu that opens: the scene and the related material files copied in the default folders of the current project.
 
 
 .. _exporting_scenes_to_a_different_project:
@@ -1583,7 +1583,7 @@ Scenes can be exported if you need either to copy them from a project to any oth
 
 In both cases the scenes files and the related assets will be automatically collected and copied in the related default folders of the destination project (see  :ref:`Collecting Assets <collecting_assets>`  ). 
 
- |Toonz71_265| 
+ |export_scene| 
 
 .. note:: If the scene you export contains any file whose name is the same of a file already existing in the destination default folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it adding a suffix you can decide. In this way you can control if files you are exporting were already exported previously, or manage files that share the same name. 
 
@@ -1591,15 +1591,15 @@ In both cases the scenes files and the related assets will be automatically coll
 
     1. Select the scenes you want to export in the OpenToonz standard browser.
 
-    2. Right-click the selection and choose Export Scene from the menu that opens: the Export Scene dialog opens.
+    2. Right-click the selection and choose **Export Scene...** from the menu that opens: the Export Scene dialog opens.
 
     3. In the dialog do one of the following:
 
-    - Choose the Choose Existing Project option if you want to export the selected scenes to an existing project, and navigate the folder tree to choose the destination project. 
+    - Select the **Choose Existing Project** option if you want to export the selected scenes to an existing project, then navigate the folder tree to choose the destination project. 
 
-    - Choose the Create New Project option if you want to export the selected scenes to a new project based on the current one, and assign a name to the new project.
+    - Choose the **Create New Project** option if you want to export the selected scenes to a new project based on the current one, then assign a name for the new project.
 
-    4. Click the Export button.
+    4. Click the **Export** button.
 
 
 .. _collecting_assets:
@@ -1610,34 +1610,34 @@ Files used in a scene can be located in the default folders of the current proje
 
 This means that when a project has to change location for any reason (e.g. for a backup), moving all the default folders does not grant that all the files required for the project scenes are moved along, because files loaded from external folders will remain where they are.
 
-For this reason it is possible to collect all the files used in a scene, thus importing automatically in the project default folders all the files that were not imported at loading time. At the same time the scene file for which you are collecting assets will be automatically updated in order to correct all the loading paths of the newly imported files and keep consistency.
+For this reason it's possible to collect all the files used in a scene, thus importing automatically to the project default folders all the files that were not imported at loading time. At the same time the scene file for which you are collecting assets will be automatically updated in order to correct all the loading paths of the newly imported files to keep consistency.
 
 .. tip:: **To collect the assets of one or several scenes:**
 
     1. Select the scenes for which you want to collect assets.
 
-    2. Right-click the selection and choose Collect Assets from the menu that opens: all the scene files that were located in external folders are copied into the default folders of the project, and the related paths used in the scene files are updated.
+    2. Right-click the selection and choose **Collect Assets** from the menu that opens: all the scene files that were located in external folders are copied into the default folders of the project, and the related paths used in the scene files are updated.
 
 
 .. _scene_backup_files:
 
 Scene Backup Files
 ''''''''''''''''''
-When scenes are saved, backup files of previous versions are automatically stored in a folder named as the scene, that is located in ``+scenes\backups``  of the current project. 
+When scenes are saved, backup files of previous versions are automatically stored in a folder named as the scene, that is located in *+scenes\backups*  of the current project. 
 
-The four previous scene versions are retained, and they are named as the scene with a progressive backup number: the highest the number, the more recent the backup.
+The four previous scene versions are retained, and they are named as the scene, with a progressive backup number: the highest the number, the more recent the backup.
 
-For example if you have saved seven times the scene named my_scene, four backup versions of the scene named ``my_scene_3`` , ``my_scene_4`` , ``my_scene_5``  and ``my_scene_6``  are available in the ``+scenes\backups\my_scene`` folder.
+For example if you have saved seven times the scene named my_scene, 4 backup versions of the scene named ``my_scene_3`` , ``my_scene_4`` , ``my_scene_5``  and ``my_scene_6``  are available in the ``+scenes\backups\my_scene`` folder.
 
-If you want to recover a scene backup version of a scene, you have to remove the backup number so to have the correct scene name, and move the file into the +scenes folder.
+If you want to recover a scene backup version of a scene, you have to remove the backup number so to have the correct scene name, and move the file into the *+scenes* folder.
 
 .. tip:: **To recover a backup version of a scene:**
 
-    1. Retrieve in ``+scenes\backups``  the folder named as the scene whose backup you want to recover.
+    1. Retrieve in *+scenes\backups* the folder named as the scene whose backup you want to recover.
 
-    2. In the folder, retrieve the TNZ file related to the latest backup you want to recover, and rename it removing the backup number so to have the correct scene name.
+    2. In the folder, retrieve the TNZ file related to the latest backup you want to recover, and rename it, removing the backup number so to have the correct scene name.
 
-    3. Copy and paste it into the +scenes folder, to replace the version you want to scratch.
+    3. Copy and paste it into the *+scenes* folder to replace the version you want to scratch.
 
 
 .. _printing_xsheets:
@@ -1770,6 +1770,7 @@ Elements defined in the CSS are the following:
 .. |magpie_import| image:: /_static/xsheet/magpie_import.png
 .. |memo| image:: /_static/xsheet/memo.png
 .. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
+.. |export_scene| image:: /_static/xsheet/export_scene.png
 .. |Toonz71_253| image:: /_static/Toonz71/Toonz71_253.gif
 .. |Toonz71_254| image:: /_static/Toonz71/Toonz71_254.gif
 .. |Toonz71_263| image:: /_static/Toonz71/Toonz71_263.gif
