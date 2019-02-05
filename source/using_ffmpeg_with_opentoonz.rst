@@ -58,17 +58,21 @@ Installing FFmpeg for Windows
 |ffmpeg_archive_windows|
 
 | Within the **bin** folder are the executable files that you will need.
-| Create a new folder on your computer, the recommended location is **C:\\**, name the new folder **FFmpeg**.
-| Then, drag the **bin** folder from the archive into the newly created folder.
 
-| Next, start OpenToonz and open the **User Preferences** window with ``File > Preferences...``
-| Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
-| Insert the path to your FFmpeg's bin folder that you extracted earlier, if you have used the recommended path, this will be **C:\\FFmpeg\\bin**:
+- Create a new folder on your computer, the recommended location is **C:\\**.
+- Name the new folder **FFmpeg**.
+- Drag the **bin** folder from the archive into the newly created folder.
+
+- Next, start OpenToonz and open the **User Preferences** window with ``File > Preferences...``
+- Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
+- Insert the path to your FFmpeg's bin folder that you extracted earlier, if you have used the recommended path, this will be **C:\\FFmpeg\\bin**:
 
 |ffmpeg_path_windows|
 
-| Finally, restart OpenToonz, start a new project or open an existing one and open the **Output Settings** window with ``File > Output Settings...``
-| In the **File Settings** subsection, you should see mp4 and webm as file formats.
+- Restart OpenToonz.
+- Open the **Output Settings** window with ``File > Output Settings...``
+
+| In the **File Settings** subsection, you should now see **mp4** and **webm**.
 
 |output_settings_windows|
 
