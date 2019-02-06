@@ -2,47 +2,48 @@
 
 Painting Animation Levels
 =========================
-Toonz animation levels, both those cleaned up, and those made directly in OpenToonz, can be painted by using the styles stored in the palette and a set of tools.
+Toonz animation levels, both those cleaned up, and those made directly in OpenToonz, can be painted by using the styles, stored in the palette, and a set of tools.
 
-All Toonz level drawings are made of outlines, determined by the lines of scanned drawings or vectors of vector drawings, and areas defined by outlines. Lines and vectors can be painted or erased, partially or for their full extent; areas can be filled with styles, or remain empty, with complete transparency.
+All Toonz level drawings are made of **lines** (determined by the strokes of scanned or vector drawings), and **areas** defined by *closed lines*. Raster and vector lines can be painted or erased, partially or for their full extent; areas can be filled with styles, or remain empty, with complete transparency.
 
-.. note:: All the painting work is not saved until you save the related level, or the scene (see  :ref:`Saving Levels <saving_levels>`  ).
+.. note:: All the painting work is not saved until you save the related level, or use the **Save All** command (see  :ref:`Saving Levels <saving_levels>`  ).
 
-.. note:: If the computer performance worsens during the painting process of Toonz raster animation levels, try activating the Minimize Raster Image Fragmentation option in the Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance worsens during the painting process of Toonz Raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+
 
 .. _painting_tools:
 
 Painting Tools
 --------------
-Painting operations can be performed by using the Fill tool (|fill|) and the Paint Brush tool (|paint_brush|). 
+Painting operations can be performed by using the **Fill** tool (|fill|) and the **Paint Brush** tool (|paint_brush|). 
 
-In case you want to retrieve a style already used in the drawing, you can pick it with the Style Picker tool (|style_picker|).
+In case you want to retrieve a style already used in the drawing, you can pick it with the **Style Picker** tool (|style_picker|).
 
 The filling operation can be performed by activating different options, that can be combined together to perform particular tasks, for example to fill several areas at the same time with the same style, or several frames, with a single operation.
 
-The Fill tool (|fill|) allows you to paint a drawing area, or a drawing outline by clicking it. Options available are the following:
+The **Fill** tool (|fill|) allows you to paint a drawing area or line by clicking it. Options available are the following:
 
-    - Type has the options Normal, to fill an area by clicking in it; Rectangular, to fill all the areas included in the box you define; Freehand, to fill all the areas included in the area you outline by clicking and dragging; and Polyline, to fill all the areas included in the area you outline by defining a series of lines.
+    - **Type:** has the options **Normal**, to fill an area by clicking in it; **Rectangular**, to fill all the areas included in the box you define; **Freehand**, to fill all the areas included in the area you outline by clicking and dragging; and **Polyline**, to fill all the areas included in the area you outline by defining a series of lines.
 
-    - Mode has the options Areas, to fill only areas, Lines, to paint only the drawing outline, and Lines and Areas, to perform both the operations. 
+    - **Mode:** has the options **Areas**, to fill only areas, **Lines**, to paint only the strokes, and **Lines and Areas**, to perform both operations. 
 
-    - Selective prevents the fill operation to be performed on already filled areas. 
+    - **Selective** prevents the fill operation to be performed on *already filled* areas. 
 
-    - Fill Depth sets how much the fill style passes through the antialiasing of the area outline. With low values, even a very thin outline made of semitransparent pixels will be effective; with high values, only the more opaque pixels will stop color from flooding outside. This option applies to raster drawings only. It is possible to set two values: the minimum value is used when using the tool with the standard mouse click, the maximum value when using the tool with the shift-click.
+    - **Fill Depth** sets how much the fill style passes through the antialiasing of the area lines. With low values, even a very thin line made of semitransparent pixels will be effective to stop de filling operation; with high values, only the more opaque pixels will stop color from flooding outside. This option applies to Toonz Raster drawings only. It is possible to set two values: the minimum value is used when using the tool with the standard mouse **click**, the maximum value when using the tool with the **Shift-click**.
 
-    - Segment lets you apply the fill only to a segment of the raster outline. A segment is determined by an abrupt change of thickness or direction in the outline. This is available for Toonz raster drawings only.
+    - **Segment** lets you apply the fill only to a segment of raster lines. A segment is determined by an abrupt change of *thickness* or *direction* in the stroke. This is available for Toonz Raster drawings only.
 
-    - Onion Skin lets you pick the style from other drawings visible in the onion skin mode, and apply it to the current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
+    - **Onion Skin** lets you pick the style to use for the filling operation from other drawings, visible in onion skin mode, and apply it to the current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
-    - Frame Range allows you to perform the filling on a range of frames by clicking in the first and then in the last frame of the range. You can also shift-click to define the filling position for intermediate frames.
+    - **Frame Range** allows you to perform the filling on a range of frames, by clicking in the first and then in the last frame of the range. You can also Shift-click to define the filling position for intermediate frames.
 
-The Paint Brush tool (|paint_brush|) allows you to paint a drawing area, or an outline, as if you were using a brush. It is available for raster drawings only. Options are the following:
+The **Paint Brush** tool (|paint_brush|) allows you to paint a drawing area or a line, as if you were using a brush. It is available for Toonz Raster drawings only. Options are the following:
 
-    - Size sets the brush size.
+    - **Size** sets the brush size.
 
-    - Mode has the options Areas, to paint only inside areas, Lines, to paint manually only the drawing outline, and Lines and Areas, to perform both the operations. 
+    - **Mode:** has the options **Areas**, to paint only inside areas, **Lines**, to paint manually only the drawing lines, and **Lines and Areas**, to perform both operations. 
 
-    - Selective prevents the painting operation to be performed on already painted areas. 
+    - **Selective** prevents the painting operation to be performed on *already painted* areas. 
 
 
 .. _filling_areas:
@@ -53,23 +54,23 @@ Areas can be filled when their outline is well-defined, with no gaps occurring a
 
 Options available for the painting tools can help you to speed up the painting job. You can decide which options are the most suitable for your task by following the guidelines below.
 
-.. note:: In Toonz raster levels, the areas that can be painted are limited either by the image border or by the image Savebox, according to the Use TLV Savebox to Limit Filling Operations option available in Preferences > Tools.
+.. note:: In Toonz Raster levels, the areas that can be painted are limited either by the image border or by the image Savebox, according to the **Use the TLV Savebox to Limit Filling Operations** option available in Preferences > Tools.
 
-.. note:: Some styles may not be suitable for filling areas, such as the custom styles or some of the special styles. If you select one of these styles in the palette, and you use it to fill an area, no operation will be performed.
+.. note:: Some styles may not be suitable for filling areas, such as the **Trail** or **Vector** styles or some of the **Generated** styles. If you select one of these styles in the Palette, and you use it to fill an area, no operation will be performed.
 
 .. tip:: **To fill an area:**
 
-    1. Select the Fill tool (|fill|), set the fill type to Normal and the mode to Areas, and select a style in the palette.
+    1. Select the **Fill** tool (|fill|), set the fill type to **Normal** and the mode to **Areas**, and select a style in the Palette.
 
     2. Click in the area you want to fill. 
 
-    .. note:: If the filling color doesn’t flood the narrowest areas in raster drawings because of semitransparent pixels, try to increase the minimum Fill Depth value, or shift-click to use the maximum value (see  :ref:`Painting Tools <painting_tools>`  ).
+    .. note:: If the filling color doesn’t flood the narrowest areas in raster drawings because of semitransparent pixels, try to increase the minimum **Fill Depth** value, or **Shift-click** to use the maximum value (see  :ref:`Painting Tools <painting_tools>`  ).
 
 .. tip:: **To fill several frames with a single command:**
 
     1. Select the **Fill** tool (|fill|), set the fill type to **Normal** and the mode to **Areas**, and activate the **Frame Range** option. 
 
-    2. Select the first frame of the range and click in the area you want to fill, for example the character’s face.
+    2. Select the first frame of the range and **click** in the area you want to fill, for example the character’s face.
 
     3. Do one of the following:
 
@@ -77,7 +78,7 @@ Options available for the painting tools can help you to speed up the painting j
 
     - Select an intermediate frame of the range you want to apply the Fill to, and **Shift-click** in the same area, in the example the character’s face: the areas in all of the frames in the range will be automatically filled according to the first and second clicking positions. Select another intermediate frame and **Shift-click** again: the areas in all of the frames in the new range will be automatically filled according to the second and third clicking positions. Do the same as many times as you like, then **click** in the same area on the last frame of the range to complete the multi frame filling mode.
 
-    .. note:: Since the Fill with the Frame Range option is applied making a linear interpolation from the first clicking point to the following one, some painting mistakes may occur. The more the area you want to fill moves along the frame range, the more mistakes may be made.
+    .. note:: Since the **Fill** with the **Frame Range** option is applied making a linear interpolation from the first clicking point to the following one, some painting mistakes may occur. The more the area you want to fill moves along the frame range, the more mistakes may be made.
 
 .. tip:: **To fill several areas at once with the same style:**
 
@@ -140,33 +141,33 @@ Closing Gaps in Drawing Outline
 '''''''''''''''''''''''''''''''
 If the area outline is not perfectly defined, you will not be able to fill it. The gap can be closed by adding a line with the **Brush** (|brush|) or **Geometric** (|geometric|) tools (see :ref:`Drawing Tools <drawing_tools>`  ), or by using the **Tape** tool (|tape|).
 
-For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vectors manually or automatically, both considering their endpoints and any point along the vectors themselves, according to the tool settings. Options available are the following:
+For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vector strokes manually or automatically, both considering their endpoints and any point along the strokes themselves, according to the tool settings. Options available are the following:
 
     - **Type:** has the options **Normal**, to manually define joining vectors, or **Rectangular**, to automatically close all the gaps detected in the box you define. 
 
-     .. note:: When the type is set to Rectangular only gaps between endpoints, and between an endpoint and a line, are considered.
+     .. note:: When the type is set to **Rectangular** only gaps between endpoints, and between an endpoint and a line, are considered.
 
     - **Mode:** has the option **Endpoint to Endpoint**, to join two lines endpoints; **Endpoint to Line**, to join an endpoint to any point along a line; and **Line to Line**, to join any point along a line to any other point along another line. 
 
     - **Distance** sets the maximum distance between endpoints, and between an endpoint and a line, that are automatically joined when using the Rectangular option.
 
-    - **Join Vectors**, when activated, connects the join line to the endpoint thus creating a single line; if deactivated the join line will be a new independent line (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
+    - **Join Vectors**, when activated, connects the join stroke to the endpoint thus creating a single stroke; if deactivated the join stroke will be a new independent stroke (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
 
-     .. note:: If the lines you are going to join have different styles, the style of the first line you click will be assigned to the second one, after the joining.
+     .. note:: If the strokes you are going to join have different styles, the style of the first stroke you click on will be assigned to the second one, after the joining.
 
-    - **Smooth**, when activated, creates a smooth joined line with no corners.
+    - **Smooth**, when activated, creates a smooth joined stroke with no corners.
 
 For Toonz Raster drawings the **Tape** tool (|tape|) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
 
-    - **Type:** has the options **Normal**, to close all the gaps detected in the drawing by clicking in it; **Rectangular**, to close all the gaps detected in the box you define; **Freehand**, to close on all the gaps detected in the area you outline by clicking and dragging; and **Polyline**, to close on all the gaps detected in the area you outline by defining a series of lines.
+    - **Type:** has the options **Normal**, to close all the gaps detected in the drawing by clicking in it; **Rectangular**, to close all the gaps detected in the box you define; **Freehand**, to close on all the gaps detected in the area you define by clicking and dragging; and **Polyline**, to close on all the gaps detected in the area you define by drawing a series of straight lines.
 
-    - **Frame Range** allows you to perform the joining on a range of frames by clicking in the first and then in the last frame of the range.
+    - **Frame Range** allows you to perform the joining on a range of frames, by clicking in the first and then in the last frame of the range.
 
-    - **Distance** sets the maximum distance between two open ends to be detected in order to join them.
+    - **Distance** sets the maximum distance between two open ends to be detected, in order to join them.
 
-    - **Angle** sets the maximum angle between two open ends to be detected in order to join them.
+    - **Angle** sets the maximum angle between two open ends to be detected, in order to join them.
 
-    - **Style Index** sets the style to be used for the line joining the open ends. If instead of a style index you type ``current`` , the current style will be used.
+    - **Style Index** sets the style to be used for the line joining the open ends. If instead of a style index you type ``current`` , the currentntly selected style will be used.
 
     - **Opacity** sets the opacity of the style used for the line joining the open ends.
 
@@ -176,11 +177,11 @@ For Toonz Raster drawings the **Tape** tool (|tape|) automatically joins the ope
 
     2. Do one of the following: 
 
-    - Set the mode to **Endpoint to Endpoint**, then click a vector endpoint and drag to a different endpoint; the pointer snaps to the closest detected vector endpoint as start and as end.
+    - Set the mode to **Endpoint to Endpoint**, then click a stroke endpoint and drag to a different endpoint; the pointer snaps to the closest detected stroke endpoint, as start and end.
 
-    - Set the mode to **Endpoint to Line**, then click a vector endpoint and drag to any point along a vector; the pointer snaps to the closest detected vector endpoint as start, and to any closest point along a vector as end.
+    - Set the mode to **Endpoint to Line**, then click a stroke endpoint and drag to any point along a stroke; the pointer snaps to the closest detected stroke endpoint as start, and to any closest point along a stroke as end.
 
-    - Set the mode to **Line to Line**, then click any point along a vector and drag to any other point along a vector; the pointer snaps to the closest point along a vector as start, and to the any other closest point along a vector as end.
+    - Set the mode to **Line to Line**, then click any point along a stroke and drag to any other point along a stroke; the pointer snaps to the closest point along a stroke as start, and to the any other closest point along a stroke as end.
 
 .. tip:: **To close all gaps in a vector drawing outline in a specific area:**
 
@@ -207,9 +208,9 @@ Checking Gaps in the Drawing Outline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To control the drawing outline and see if areas are well-defined in order to be filled with colors, it is possible to activate a series of checks:
 
-- The **Gap Check** highlights with magenta lines the gaps that can be automatically closed by using the Tape tool (|tape|) with its current settings; if you change the **Distance** and **Angle** value of the Tape tool while the check is activated, you can check interactively the gaps that are detected. 
+- The **Gap Check** highlights with *magenta lines* the gaps that can be automatically closed by using the **Tape** tool (|tape|) with its current settings; if you change the **Distance** and **Angle** values of the Tape tool, while the check is activated, you can check interactively if the gaps that are detected. 
 
-- The **Fill Check** displays all the well-defined areas that can be filled with colors in grey, all the lines or vectors in black, and the not well-defined areas and background in white; if the **Black BG Check** is activated, all the lines or vectors are displayed in white (see  :ref:`Checking Painted Drawings <checking_painted_drawings>`  ). 
+- The **Fill Check** displays all the well-defined areas that can be filled with colors in grey, all the lines or vector strokes in black, and the not well-defined areas and the background in white; if the **Black BG Check** is activated, all the lines or vector strokes are displayed in white (see  :ref:`Checking Painted Drawings <checking_painted_drawings>`  ). 
 
 .. note:: All the checks can also be combined in order to achieve specific display modes (see also  :ref:`Checking Painted Drawings <checking_painted_drawings>` ).
 
@@ -226,15 +227,15 @@ To control the drawing outline and see if areas are well-defined in order to be 
 
 Checking Painted Drawings
 '''''''''''''''''''''''''
-To control if all the drawings areas are properly painted, and to see if the filling left small gaps along the line antialiasing, or where a certain style is used to paint lines or areas, it is possible to activate a series of checks:
+To control if all the drawings areas are properly painted, and to see if the filling left small gaps along the lines antialiasing, or where a certain style is being used to paint lines or areas, it is possible to activate a series of checks:
 
-- The **Transparency Check** displays all the painted areas in the color defined in Preferences > Colors > Paint Color, all the lines or vectors in the color defined in Preferences > Colors > Ink Color on White Bg or Preferences > Colors > Ink Color on Black Bg, depending on the chosen background color.
+- The **Transparency Check** displays all the painted areas in the color defined in Preferences > Colors > Paint Color, all the lines or vector strokes in the color defined in Preferences > Colors > Ink Color on White Bg (or Preferences > Colors > Ink Color on Black Bg, depending on the chosen background color).
 
-- The **Ink Check** displays the *lines or vectors*, colored with the current style in red.
+- The **Ink Check** displays the *lines or vector strokes*, colored with the current style in red.
 
 - The **Paint Check** displays the *areas* painted with the current color in red.
 
-- The **Black BG Check** displays the background color defined in the scene settings for the viewer and the camera in black (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
+- The **Black BG Check** displays the background color, defined in the Scene Settings, in black (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
 .. note:: All the checks can also be combined in order to achieve specific display modes (see also  :ref:`Checking Gaps in the Drawing Outline <checking_gaps_in_the_drawing_outline>` ).
 
@@ -245,86 +246,86 @@ To control if all the drawings areas are properly painted, and to see if the fil
 
 .. _painting_outlines:
 
-Painting Outlines
------------------
-A drawing outline can be painted with the **Fill** tool (|fill|).
-For Toonz Raster drawings, the Fill tool (|fill|) affects the continuous outline sharing the same style; for Toonz Vector drawings, only a single vector at a time. 
+Painting Lines
+--------------
+Drawing lines can be painted with the **Fill** tool (|fill|).
+For Toonz Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the same style; for Toonz Vector drawings, only a single vector stroke at a time. 
 
-For Toonz Raster drawings, the outline can be also painted with the **Paint Brush** tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of the tool, you can paint any section of the outline as if you were using a brush.
+For Toonz Raster drawings, lines can be also painted with the **Paint Brush** tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of the tool, you can paint any section of the lines as if you were using a brush.
 
-For Toonz Vector drawings, a vector can be also painted by selecting it first, then selecting the style you want in the animation level Palette.
+For Toonz Vector drawings, a vector stroke can be also painted by selecting it first, then selecting the style you want in the level Palette.
 
-.. tip:: **To paint a raster outline:**
+.. tip:: **To paint a Toonz Raster line:**
 
     1. Select the **Fill** tool (|fill|), set the fill mode to **Lines** and select a style in the palette.
 
-    2. Click the outline you want to paint. 
+    2. Click the line you want to paint. 
 
-.. tip:: **To paint a vector outline:**
-
-    Do one of the following:
-
-    - Select the **Fill** tool (|fill|), set the fill mode to **Lines**, select a style in the palette and click the vector you want to paint.
-
-    - With the Selection tool (|selection|) select the vectors you want to paint, then select a style in the Palette (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
-
-.. tip:: **To paint a raster outline partially:**
+.. tip:: **To paint a Toonz Vector stroke:**
 
     Do one of the following:
 
-    - Select the **Fill** tool (|fill|), set the fill mode to **Lines**, activate the **Segment** option, and click the outline section you want to paint.
+    - Select the **Fill** tool (|fill|), set the fill mode to **Lines**, select a style in the Palette and click the stroke you want to paint.
 
-    - Select the **Paint Brush** tool (|paint_brush|), set the mode to **Lines** and use it on the outline section you want to paint.
+    - With the **Selection** tool (|selection|) select the strokes you want to paint, then select a style in the Palette (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
-    - Use the **Paint Brush** tool (|paint_brush|) with the proper style to split a continuous outline into sections, then use the **Fill** tool (|fill|) to paint the separated sections.
+.. tip:: **To partially paint a Toonz Raster line:**
 
-.. tip:: **To paint several separated outlines, or vectors, at once:**
+    Do one of the following:
+
+    - Select the **Fill** tool (|fill|), set the fill mode to **Lines**, activate the **Segment** option, and click the line section you want to paint.
+
+    - Select the **Paint Brush** tool (|paint_brush|), set the mode to **Lines** and use it on the line section you want to paint.
+
+    - Use the **Paint Brush** tool (|paint_brush|) with the proper style to split a continuous line into sections, then use the **Fill** tool (|fill|) to paint the previously separated sections.
+
+.. tip:: **To paint several separated lines or vector strokes, at once:**
 
     1. Select the **Fill** tool (|fill|), set the fill mode to **Lines**.
 
     2. Do one of the following:
 
-    - Set the type to **Rectangular** and click and drag to define a box: all the outlines included in the box will be painted with the current style.
+    - Set the type to **Rectangular** and click and drag to define a box: all the lines included in the box will be painted with the current style.
 
-    - Set the type to **Freehand** and click and drag to outline an area: all the outlines included in the area you outline will be painted with the current style. If the ends of the outline you draw are open, the area will be defined as if joining the two open ends.
+    - Set the type to **Freehand** and click and drag to define an area: all the lines included in the area you defined will be painted with the current style. If the ends of the area you draw are open, it will be defined as if joining the two open ends.
 
-    - Set the type to **Polyline** and click to outline an area by defining a series of lines: all the outlines *completely included* in the area you outline will be painted with the current style. If the ends of the outline you draw are open, the area will be defined as if joining the two open ends.
+    - Set the type to **Polyline** and click to define an area by drawing a series of straight lines: all the lines *completely included* in the area you defined will be painted with the current style. If the ends of the area you draw are open, the area will be defined as if joining the two open ends.
 
-    .. note:: A vector is painted only if it is *fully included* in the area you define.
+    .. note:: A vector stroke will be painted only if it's *fully included* in the area you define.
 
-.. tip:: **To paint outlines, or vectors, in several frames with a single command:**
+.. tip:: **To paint lines or vector strokes, in several frames with a single command:**
 
-    1. Select the **Fill** tool (|fill|), set the fill mode to Lines and activate the **Frame Range** option.
+    1. Select the **Fill** tool (|fill|), set the fill mode to **Lines** and activate the **Frame Range** option.
 
-    2. Select the first frame of the range and **click** the outline you want to paint.
+    2. Select the first frame of the range and **click** the line you want to paint.
 
     3. Do one of the following:
 
-    - Select the last frame of the range you want to apply the paint to, and **click** the same outline: the outline in all the frames in the range will be automatically painted according to the first and second clicking positions.
+    - Select the last frame of the range you want to apply the paint to, and **click** on the same line: the line in all the frames in the range will be automatically painted according to the first and second clicking positions.
 
-    - Select an intermediate frame of the range you want to apply the paint to, and **Shift-click** in the same outline: the outline in all of the frames in the range will be automatically painted according to the first and second clicking positions. Select another intermediate frame and **Shift-click** again: the outline in all of the frames in the new range will be automatically painted according to the second and third clicking positions. Do the same as many times as you like, then **click** in the same outline on the last frame of the range to complete the multi frame painting mode.
+    - Select an intermediate frame of the range you want to apply the paint to, and **Shift-click** in the same line: the line in all of the frames in the range will be automatically painted, according to the first and second clicking positions. Select another intermediate frame and **Shift-click** again: the line in all of the frames in the new range will be automatically painted, according to the second and third clicking positions. Do the same as many times as you like, then **click** in the same line on the last frame of the range, to complete the multi frame painting mode.
 
-    .. note:: Since the Fill tool (|fill|) with the Frame Range option is applied making a linear interpolation from the first to the second clicking point, some painting mistakes may occur. The more the outline you want to fill moves along the frame range, the more mistakes may be made.
+    .. note:: Since the Fill tool (|fill|) with the Frame Range option is applied making a linear interpolation from the first to the second clicking point, some painting mistakes may occur. The more the line you want to fill moves along the frame range, the more mistakes may be made.
 
-.. tip:: **To paint an outline using as reference a previously painted drawing:**
+.. tip:: **To paint a line using as reference a previously painted drawing:**
 
     1. **Activate the onion skin** mode to display the painted drawing behind your current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
     2. Select the **Fill** tool (|fill|), set the fill mode to Lines and activate the **Onion Skin** option. 
 
-    3. Click to pick the style to use from the drawing displayed in onion skin mode.
+    3. Click to pick the style to use, from the drawing displayed in onion skin mode.
 
     4. Do one of the following:
 
-    - Release to paint the outline where the cursor is.
+    - Release to paint the line where the cursor is.
 
-    - Drag to the outline you want to paint and release the mouse button.
+    - Drag to the line you want to paint and release the mouse button.
 
 .. tip:: **To retrieve a style from a drawing:**
 
     1. Select the **Style Picker** tool (|style_picker|).
 
-    2. Click the outline whose style you want to pick. The picked style becomes the current one.
+    2. Click the line whose style you want to pick. The picked style becomes the current one.
 
 
 Closing Gaps in Drawing Outline
