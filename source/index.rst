@@ -17,6 +17,7 @@ OpenToonz User Manual
    :caption: Getting Started:
 
    installing_opentoonz
+   using_ffmpeg_with_opentoonz
    
 .. toctree::
    :maxdepth: 2
@@ -44,7 +45,6 @@ OpenToonz User Manual
    toonzscript
    using_the_version_control
    keyboard_shortcuts
-   using_ffmpeg_with_opentoonz
 
 Special Thanks
 --------------
