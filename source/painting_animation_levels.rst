@@ -290,7 +290,7 @@ For Toonz Vector drawings, a vector can be also painted by selecting it first, t
 
     - Set the type to **Polyline** and click to outline an area by defining a series of lines: all the outlines *completely included* in the area you outline will be painted with the current style. If the ends of the outline you draw are open, the area will be defined as if joining the two open ends.
 
-.. note:: A vector is painted only if it is *fully included* in the area you define.
+    .. note:: A vector is painted only if it is *fully included* in the area you define.
 
 .. tip:: **To paint outlines, or vectors, in several frames with a single command:**
 
