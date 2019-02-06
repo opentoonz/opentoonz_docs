@@ -16,17 +16,11 @@ Painting Tools
 --------------
 Painting operations can be performed by using the Fill tool (|fill|) and the Paint Brush tool (|paint_brush|). 
 
-
-
 In case you want to retrieve a style already used in the drawing, you can pick it with the Style Picker tool (|style_picker|).
-
-
 
 The filling operation can be performed by activating different options, that can be combined together to perform particular tasks, for example to fill several areas at the same time with the same style, or several frames, with a single operation.
 
 The Fill tool (|fill|) allows you to paint a drawing area, or a drawing outline by clicking it. Options available are the following:
-
-
 
     - Type has the options Normal, to fill an area by clicking in it; Rectangular, to fill all the areas included in the box you define; Freehand, to fill all the areas included in the area you outline by clicking and dragging; and Polyline, to fill all the areas included in the area you outline by defining a series of lines.
 
@@ -50,6 +44,7 @@ The Paint Brush tool (|paint_brush|) allows you to paint a drawing area, or an o
 
     - Selective prevents the painting operation to be performed on already painted areas. 
 
+
 .. _filling_areas:
 
 Filling Areas
@@ -68,7 +63,7 @@ Options available for the painting tools can help you to speed up the painting j
 
     2. Click in the area you want to fill. 
 
-.. note:: If the filling color doesn’t flood the narrowest areas in raster drawings because of semitransparent pixels, try to increase the minimum Fill Depth value, or shift-click to use the maximum value (see  :ref:`Painting Tools <painting_tools>`  ).
+    .. note:: If the filling color doesn’t flood the narrowest areas in raster drawings because of semitransparent pixels, try to increase the minimum Fill Depth value, or shift-click to use the maximum value (see  :ref:`Painting Tools <painting_tools>`  ).
 
 .. tip:: **To fill several frames with a single command:**
 
@@ -149,7 +144,7 @@ For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vectors 
 
     - **Type:** has the options **Normal**, to manually define joining vectors, or **Rectangular**, to automatically close all the gaps detected in the box you define. 
 
-    .. note:: When the type is set to Rectangular only gaps between endpoints, and between an endpoint and a line, are considered.
+     .. note:: When the type is set to Rectangular only gaps between endpoints, and between an endpoint and a line, are considered.
 
     - **Mode:** has the option **Endpoint to Endpoint**, to join two lines endpoints; **Endpoint to Line**, to join an endpoint to any point along a line; and **Line to Line**, to join any point along a line to any other point along another line. 
 
@@ -157,7 +152,7 @@ For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vectors 
 
     - **Join Vectors**, when activated, connects the join line to the endpoint thus creating a single line; if deactivated the join line will be a new independent line (see  :ref:`Joining and Splitting <joining_and_splitting>`  ).
 
-    .. note:: If the lines you are going to join have different styles, the style of the first line you click will be assigned to the second one, after the joining.
+     .. note:: If the lines you are going to join have different styles, the style of the first line you click will be assigned to the second one, after the joining.
 
     - **Smooth**, when activated, creates a smooth joined line with no corners.
 
