@@ -340,7 +340,8 @@ In both cases you can use the match lines feature to achieve your tasks, as it a
 
 Match lines can only be applied to Toonz Raster (TLV) animation levels.
 
-In the Xsheet, when two columns are merged, the column drawings on the right are considered as match lines applied to the drawings on the left. In the Timeline, when two layers are merged, the layer drawings on top are considered as match lines applied to the drawings on the bottom.
+In the Xsheet, when two columns are merged, the column drawings on the right are considered as match lines applied to the drawings on the left.
+In the Timeline, when two layers are merged, the layer drawings on top are considered as match lines applied to the drawings on the bottom.
 
 |apply_match_lines|
 
