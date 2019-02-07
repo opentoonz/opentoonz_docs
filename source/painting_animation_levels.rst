@@ -356,21 +356,21 @@ In both cases it's possible to define the following:
 
 - **Line Prevalence** sets whether the match lines have to be placed behind the lines of the destination level (value set to 0), or on top of them (value set to 100).
 
-.. note:: When the **Line Prevalence** value is set to 0, the match lines are applied without modifying the lines in the destination level at all.
+   .. note:: When the **Line Prevalence** value is set to 0, the match lines are applied without modifying the lines in the destination level at all.
 
 When the match lines are applied, any geometrical transformation achieved by editing and moving the related column/layer or pegbar, will be retained.
 
 Match lines are associated to the animation level drawings according to the following guidelines:
 
-- The Xsheet frame numbering order is followed. This means that the match line drawing exposed at frame 1 will be applied to the animation drawing exposed at frame 1. 
+- The Xsheet/Timeline frame numbering order is followed. This means that the match line drawing exposed at frame 1 will be applied to the animation drawing exposed at frame 1. 
 
-- If two different match line drawings are associated to the same animation level drawing at different frames, only the first one according to the frame numbering order will be applied.
+- If two different match line drawings are associated to the same drawing of the animation level at different frames, only the first one (according to the frame numbering order) will be applied.
 
 - For all the drawings not corresponding to any match line drawing, no match lines will be applied. 
 
 - Match lines not corresponding to any drawing will be ignored.
 
-- If several animation levels are exposed in the column to which match lines have to be applied, only the first one according to the frame numbering order will be considered.
+- If several animation levels are exposed in the column/layer to which match lines have to be applied, only the first one (according to the frame numbering order) will be considered.
 
 - If several animation levels are exposed in the column used as match line, all of them will be applied.
 
