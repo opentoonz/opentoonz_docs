@@ -41,7 +41,7 @@ Downloading FFmpeg for Mac
 
 |packages_mac|
 
-| Then, make sure **macOS 64-bit** is selected under the **Architecture column**.
+| Then, make sure **macOS 64-bit** is selected under the **Architecture** column.
 
 |ffmpeg_builds_mac|
 
