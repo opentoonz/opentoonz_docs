@@ -37,11 +37,13 @@ Downloading FFmpeg for Windows
 Downloading FFmpeg for Mac
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| For Mac users, select the Apple icon and select the **Static and Shared builds** links.
+| For Mac users, select the Apple icon and select the **Static and Shared builds** link.
 
 |packages_mac|
 
-| Then, make sure **macOS 64-bit** is selected under the **Architecture** column.
+| You will be taken to an **FFmpeg Builds** page with some options for the version of FFmpeg that you want to download:
+
+| Make sure **macOS 64-bit** is selected under the **Architecture** column.
 
 |ffmpeg_builds_mac|
 
