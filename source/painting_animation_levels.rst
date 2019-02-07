@@ -380,29 +380,29 @@ Applied match lines can be deleted as a whole from the destination level, or it 
 
 .. tip:: **To apply match lines to an animation level:**
 
-    1. Expose in a column the level you want to apply the match lines to.
+    1. Expose in a column/layer the level you want to apply the match lines to.
 
-    2. Expose the match line animation levels or drawings in another column, to the right of the previous one.
+    2. Expose the match line animation level(s) in another column of the Xsheet, to the right of the previous one (or if using the Timeline, expose the match line animation level(s) in another layer, above the previous one).
 
     3. Move, scale, rotate the match line drawings if needed.
 
-    4. Select the two columns by shift-clicking their headers.
+    4. Select the two columns by shift-clicking or click-draging their headers.
 
-    5. Choose Xsheet > Apply Match Lines.
+    5. Choose Xsheet > **Apply Match Lines...**
 
-    6. In the dialog that opens choose the styles to be used for the match lines and the lines prevalence, and click the Apply button.
+    6. In the dialog that opens choose the styles to be used for the match lines and the line prevalence, and click the Apply button.
 
 .. tip:: **To delete all applied match lines:**
 
-    1. Select the columns, the cells, or the level strip frames where the animation level with the applied match lines is.
+    1. Select the columns/layers, the cells, or the Level Strip frames where the animation level with the applied match lines is.
 
-    2. Choose Xsheet > Delete Match Lines.
+    2. Choose Xsheet > **Delete Match Lines**.
 
 .. tip:: **To delete lines by selecting the style index:**
 
-    1. Select the columns, the cells, or the level strip frames where the animation level whose lines you want to delete is.
+    1. Select the columns/layers, the cells, or the Level Strip frames where the animation level whose lines you want to delete is.
 
-    2. Choose Xsheet > Delete Lines.
+    2. Choose Xsheet > **Delete Lines...**
 
     3. In the dialog that opens choose the indexes of the styles used for lines you want to delete, and the frames where you want to apply the deletion.
 
@@ -415,12 +415,9 @@ Applied match lines can be deleted as a whole from the destination level, or it 
 
 Using the Autopaint for Lines Option
 ''''''''''''''''''''''''''''''''''''
-Toonz raster levels may include colored lines coming from a color cleanup session, or from some applied match line levels (see  :ref:`Processing Colored Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match Lines <using_match_lines>`  for details).
+Toonz Raster levels may include colored lines coming from a color cleanup session, or from some applied match line levels (see  :ref:`Processing Colored Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match Lines <using_match_lines>`  for details).
 
-
-
-
-In most of the cases these colored lines are meant to set the outline of the body shadow, or of the body highlight, and for this reason usually they have to be painted the same color of the shadow or highlight areas they define.
+In most of the cases these colored lines are meant to set the outline of the body shadow, or body highlight, and for this reason usually they have to be painted with the same color of the shadow or highlight areas they help define.
 
 This task can be performed automatically by setting a special property for the color, so that when you paint an area defined totally or partially by a line whose color has this property, the line is automatically painted with the same color you use for the area.
 
@@ -428,52 +425,52 @@ This task can be performed automatically by setting a special property for the c
 
     1. Select the color in the palette.
 
-    2. In the style editor select the Settings page and activate the Autopaint for Lines option.
+    2. In the Style Editor select the Settings page and activate the **Autopaint for Lines** option.
 
 .. tip:: **To automatically paint lines when painting areas:**
 
-    Paint an area defined totally or partially by a line whose color has the Autopaint for Lines option activated: the line is automatically painted with the same color you use for the area.
+    Paint an area defined totally or partially by a line whose color has the **Autopaint for Lines** option activated: the line is automatically painted with the same color you use for the area.
 
 
 .. _using_a_color_model:
 
 Using a Color Model
 -------------------
-Color models, usually created for accurate color-referencing during a production in the form of images or animation levels, can be used for painting animation levels. 
+Color models, usually created for accurate color-referencing during a production, in the form of images or animation levels, can be used while painting animation levels. 
 
-Any image or animation level can be used as a reference by loading it in the color model viewer. In case an animation level is loaded, you can select any frame as a reference at any moment; in this way you can also create color models made of several drawings, for example one drawing for the front view of the character, and one for the back view.
+Any image or animation level can be used as a reference by loading it in the Color Model viewer. In case an animation level is loaded, you can select any frame as a reference at any moment; in this way you can also create color models made of several drawings, for example one drawing for the Front view of the character, and one for the Back view.
 
  |color_model| 
 
 When a color model is loaded for the current level, you can decide to load its palette, thus overwriting the current level palette, or to keep the current animation level palette. 
 
-If the color model is a Toonz raster or vector level (TLV or PLI file), it already comes with a palette, whose style names and page configuration will be preserved.
+If the color model is a Toonz Raster or Vector level (TLV or PLI file), it already comes with a palette, whose style names and page configuration will be preserved.
 
-If the color model is a full-color image or animation level, the palette is automatically generated by extracting colors from the image, or the first image of the level. If the full-color image contains many shaded colors, the palette will be optimized to reduce the number of colors; best results can be achieved by preparing models painted with flat colors and whose outline has no antialiasing.
+If the color model is a full-color Raster image or animation level, the palette is automatically generated by extracting colors from the image, or the first image of the level. If the full-color image contains many shaded colors, the palette will be optimized to reduce the number of colors.
 
-When a color model is loaded for a certain animation level, it is associated to that level and the related palette, and it is displayed in the color model viewer every time that level is selected.
+   .. note:: Best results can be achieved by preparing models painted with flat colors and whose outline has no antialiasing.
 
-A color model can be associated to palettes stored in the studio palette. In this way every time you assign a palette to an animation level retrieving it from the studio palette, its related color model will be automatically associated to the level (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
+When a color model is loaded for a certain animation level, it is associated to that level and the related palette, and it's displayed in the Color Model viewer every time that level is selected.
 
-You can also use any drawing belonging to the animation level as a color model to be used on the fly, but in this case it will neither be associated to the level, nor to the palette saved in the studio palette.
+A color model can be associated to palettes stored in the Studio Palette. In this way every time you assign a palette to an animation level retrieving it from the Studio Palette, its related color model will be automatically associated to the level (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
 
-When the image is displayed in the color model viewer, you can use it not only as visual reference, but also for picking styles with no need to use the palette or the Style Picker tool (|style_picker|). The color model can also be panned and zoomed in or out by using standard shortcuts.
+You can also use any drawing belonging to the animation level as a color model to be used on the fly, but in this case it will neither be associated to the level, nor to the palette saved in the Studio Palette.
 
-
+When the image is displayed in the Color Model viewer, you can use it not only as visual reference, but also for picking styles with no need to use the Palette or the Style Picker tool (|style_picker|). The color model can also be panned and zoomed in or out, by using standard shortcuts.
 
 .. tip:: **To load a color model:**
 
     1. Do one of the following:
 
-    - Choose File > Load Color Model, and load the Toonz level or the full color image you want to use as a reference.
+    - Choose File > **Load Color Model...**, and load the Toonz level or the full color raster image you want to use as a reference.
 
-    - Right-Click in the color model viewer and choose Load Color Model from the menu that opens.
+    - **Right-click** in the Color Model viewer and choose **Load Color Model** from the menu that opens.
 
-    - Drag and drop the Toonz level or the full color image you want to use as reference to the color model viewer.
+    - Drag and drop the Toonz level or the full color raster image you want to use as reference to the Color Model viewer.
 
-    2. Choose whether to overwrite current palette with the color model palette or to keep the current animation level palette.
+    2. Choose whether to overwrite current palette with the Color Model palette, or to keep the current animation level palette.
 
-.. note:: If you decide to keep the current animation level palette, the current level palette will be applied to the color model as well.
+     .. note:: If you decide to keep the current animation level palette, the current level palette will be applied to the Color Model as well.
 
 .. tip:: **To select a frame from the loaded color model level:**
 
@@ -487,9 +484,9 @@ When the image is displayed in the color model viewer, you can use it not only a
 
 .. tip:: **To pick styles from a color model:**
 
-    Click the area or outline whose style you want to pick, whatever your current tool is.
+    Click the area or line whose style you want to pick, whatever your current tool is.
 
-.. note:: If you are using a full-color image as reference and you decided to keep the current animation level palette, when you click an area or an outline, the closest style available in the palette will be picked.
+.. note:: If you are using a Raster image as reference and you decided to keep the current animation level palette, when you click an area or a line, the closest style available in the palette will be picked.
 
 .. tip:: **To navigate the color model viewer:**
 
@@ -499,7 +496,7 @@ When the image is displayed in the color model viewer, you can use it not only a
 
     - Use the mouse wheel to zoom in and zoom out.
 
-    - Use the reset view shortcut (by default the 0 key), or right-click in the viewer and choose Reset View from the menu that opens, to display the flipbook content at its actual size, centered on the image center.
+    - Use the Reset View shortcut (by default the 0 key), or right-click in the viewer and choose **Reset View** from the menu that opens, to display the flipbook content at its actual size, centered on the image center.
 
     - Middle-click and drag to scroll in any direction.
 
@@ -515,33 +512,35 @@ When the image is displayed in the color model viewer, you can use it not only a
 
     1. Select the drawing you want to use as a reference for the current animation level.
 
-    2. Right-click in the color model viewer and choose Use Current Frame from the menu that opens.
+    2. Right-click in the Color Model viewer and choose **Use Current Frame** from the menu that opens.
 
 .. tip:: **To store a color model together with a palette in the studio palette:**
 
     1. Load the color model to associate it to the current level palette.
 
-    2. Store the level palette in the studio palette (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
+    2. Store the level palette in the Studio Palette (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
 
 .. tip:: **To associate a color model to a palette already saved in the studio palette:**
 
-    1. In the studio palette select the palette to which you want to associate a color model, and do one of the following:
+    1. In the Studio Palette select the palette to which you want to associate a color model, and do one of the following:
 
-    - Choose File > Load Color Model.
+    - Choose File > **Load Color Model...**.
 
-    - Right-click the palette in the studio palette tree and choose Load Color Model from the menu that opens (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
+    - Right-click the palette in the studio palette tree and choose **Load Color Model...** from the menu that opens (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
 
     2. Retrieve the color model from the browser that opens.
 
-.. note:: If the color model uses a palette different from the one stored in the studio palette, you will be prompted whether to keep or to overwrite it.
+.. note:: If the color model uses a palette different from the one stored in the Studio Palette, you will be prompted whether to keep it or to overwrite it.
 
 .. tip:: **To retrieve a color model stored in the studio palette:**
 
-    Load the palette it is associated to from the studio palette as the current level palette (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
+    Load the palette it's associated to from the Studio Palette as the current level palette (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  for details).
 
 .. tip:: **To remove the association of a palette to a color model:**
 
-    Right-click in the color model viewer and choose Remove Color Model from the menu that opens.
+    Right-click in the Color Model viewer and choose **Remove Color Model** from the menu that opens.
+
+
 
 
 .. |apply_match_lines| image:: /_static/painting_animation_levels/apply_match_lines.png
