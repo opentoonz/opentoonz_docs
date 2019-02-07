@@ -248,7 +248,7 @@ To control if all the drawings areas are properly painted, and to see if the fil
 
 Painting Lines
 --------------
-Drawing lines can be painted with the **Fill** tool (|fill|).
+Lines of a drawing can be painted with the **Fill** tool (|fill|).
 For Toonz Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the same style; for Toonz Vector drawings, only a single vector stroke at a time. 
 
 For Toonz Raster drawings, lines can be also painted with the **Paint Brush** tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of the tool, you can paint any section of the lines as if you were using a brush.
@@ -332,25 +332,33 @@ For Toonz Vector drawings, a vector stroke can be also painted by selecting it f
 
 Using Match Lines
 '''''''''''''''''
-Sometimes it may be useful to split a hand-drawn animation level into several animation levels that can be scanned separately and later re-assembled before the painting process. For example you can draw an animation level with some shadow lines that match perfectly a character animation, then apply them with a color different from the character outline in order to paint them more easily.
+Sometimes it may be useful to split a hand-drawn animation level into several animation levels that can be scanned separately, and later re-assembled before the painting process. For example you can draw an animation level with some shadow lines that match perfectly a character animation, then apply them with a color different from the character lines in order to paint them more easily.
 
-Some other times you may need to merge two or several animation levels into a single one, or automatically add the same drawing on all the drawings of an animation level, for example a line closing the drawing areas that fall outside the shot and that the animator left open.
+Some other times you may need to merge two or several animation levels into a single one, or automatically add the same drawing on all of the drawings of an animation level, for example a line closing the drawing areas that fall outside the shot and that the animator left open.
 
-In both cases you can use the match lines feature to achieve your tasks as it allows you to merge the levels exposed in two columns, and if needed to delete the merged match lines. 
+In both cases you can use the match lines feature to achieve your tasks, as it allows you to merge the levels exposed in two columns/layers, and if needed to delete the merged match lines. 
 
-Match lines can be applied to Toonz raster animation levels only (TLV).
+Match lines can only be applied to Toonz Raster (TLV) animation levels.
 
-When two columns are merged, the column drawings on the right are considered as match lines applied to the drawings on the left, and it is possible to define the following:
+In the Xsheet, when two columns are merged, the column drawings on the right are considered as match lines applied to the drawings on the left. In the Timeline, when two layers are merged, the layer drawings on top are considered as match lines applied to the drawings on the bottom.
 
-- Add Match Line Styles preserves the original match line styles and adds them to the destination level palette in a separate page named match line.
+|apply_match_lines|
 
-- Use Style allows you to define which style among those in the destination level palette has to be used for the applied match lines, replacing any original styles the match lines may be painted with.
+In both cases it's possible to define the following:
 
-- Line Prevalence sets whether the match lines have to be placed behind the lines of the destination level (value set to 0), or on top of them (value set to 100).
+- **Add Match Line Inks** preserves the original match line styles and adds them to the destination level palette in a separate page named **match lines**.
 
-.. note:: When the Line Prevalence value is set to 0, the match lines are applied without modifying the lines in the destination level at all.
+- **Use Ink:** allows you to define which style, among those in the destination level palette, has to be used for the applied match lines, replacing any original styles the match lines may be painted with.
 
-When the match lines are applied, any geometrical transformation achieved by editing and moving the related column or pegbar, will be retained.
+- **Merge Inks** if the target level has the same styles (i.e. with the same index and color) as the match lines inks, the existing styles will be used. Otherwise, the original match line styles will be preserved and added to the destination level palette in a separate page named **match lines**.
+
+- **Line Stacking Order** let you graphically select which of the two columns (left or right) will be drawn on top, and also how to merge them: **Keep Halftones** or **Fill Gaps**
+
+- **Line Prevalence** sets whether the match lines have to be placed behind the lines of the destination level (value set to 0), or on top of them (value set to 100).
+
+.. note:: When the **Line Prevalence** value is set to 0, the match lines are applied without modifying the lines in the destination level at all.
+
+When the match lines are applied, any geometrical transformation achieved by editing and moving the related column/layer or pegbar, will be retained.
 
 Match lines are associated to the animation level drawings according to the following guidelines:
 
@@ -535,6 +543,8 @@ When the image is displayed in the color model viewer, you can use it not only a
 
     Right-click in the color model viewer and choose Remove Color Model from the menu that opens.
 
+
+.. |apply_match_lines| image:: /_static/painting_animation_levels/apply_match_lines.png
 .. |color_model| image:: /_static/painting_animation_levels/color_model.png
 .. |brush| image:: /_static/painting_animation_levels/brush.png
 .. |fill| image:: /_static/painting_animation_levels/fill.png
