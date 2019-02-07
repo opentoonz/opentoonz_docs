@@ -126,7 +126,7 @@ Installing FFmpeg for Linux
 .. Windows images
 .. |packages_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_packages.png
 .. |ffmpeg_builds_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_builds.png
-.. |ffmpeg_extracted_windows| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_extracted.png
+.. |ffmpeg_extracted_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_extracted.png
 .. |ffmpeg_path_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_path.png
 
 
