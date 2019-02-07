@@ -356,7 +356,7 @@ In both cases it's possible to define the following:
 
 - **Line Prevalence** sets whether the match lines have to be placed behind the lines of the destination level (value set to 0), or on top of them (value set to 100).
 
-   .. note:: When the **Line Prevalence** value is set to 0, the match lines are applied without modifying the lines in the destination level at all.
+ .. note:: When the **Line Prevalence** value is set to 0, the match lines are applied without modifying the lines in the destination level at all.
 
 When the match lines are applied, any geometrical transformation achieved by editing and moving the related column/layer or pegbar, will be retained.
 
