@@ -5,7 +5,7 @@ Using FFmpeg with OpenToonz
 
 What is FFmpeg?
 ---------------
-| To render your animation as an **mp4** or **webm**, OpenToonz requires the FFmpeg multimedia framework to be installed on your machine.
+| To render your animation as an **mp4** or **webm** (on Windows), or as a **gif** (on Mac), OpenToonz requires the FFmpeg multimedia framework to be installed on your machine.
 | For more information, please visit this page: `About FFmpeg <https://www.ffmpeg.org/about.html>`_
 
 Downloading FFmpeg
@@ -102,18 +102,16 @@ Installing FFmpeg for Mac
 
 |ffmpeg_extracted_mac|
 
-- Next, start OpenToonz and open the **User Preferences** window with ``OpenToonz > Preferences...``
+- Next, start OpenToonz and open the **User Preferences** window with ``File > Preferences...``
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **/Applications/OpenToonz/FFmpeg**:
 
 |ffmpeg_path_mac|
 
 - Restart OpenToonz.
-- Open the **Output Settings** window with ``OpenToonz > Output Settings...``
+- Open the **Output Settings** window with ``File > Output Settings...``
 
-| In the **File Settings** subsection, you should now see **mp4** and **webm**.
-
-|output_settings|
+| In the **File Settings** subsection, you should now see **gif**.
 
 Installing FFmpeg for Linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -145,6 +143,8 @@ Installing FFmpeg for Linux
 .. Note from Wolf_In_A_Bowl
 .. This is a work-in-progress page, please contribute to its development by adding the guide section for and Linux.
 .. Once the remaining section has been added, please remove this note.
+
+.. Need new output_settings_mac image
 
 .. Credits:
 .. Windows section contributed by Wolf_In_A_Bowl
