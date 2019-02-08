@@ -5,7 +5,7 @@ Using FFmpeg with OpenToonz
 
 What is FFmpeg?
 ---------------
-| To render your animation as an **mp4** or **webm** (on Windows), or as a **gif** (on Mac), OpenToonz requires the FFmpeg multimedia framework to be installed on your machine.
+| To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, OpenToonz requires the FFmpeg multimedia framework to be installed on your machine.
 | For more information, please visit this page: `About FFmpeg <https://www.ffmpeg.org/about.html>`_
 
 Downloading FFmpeg
@@ -84,7 +84,7 @@ Installing FFmpeg for Windows
 
 | In the **File Settings** subsection, you should now see **mp4** and **webm**.
 
-|output_settings|
+|output_settings_windows|
 
 
 Installing FFmpeg for Mac
@@ -111,7 +111,9 @@ Installing FFmpeg for Mac
 - Restart OpenToonz.
 - Open the **Output Settings** window with ``File > Output Settings...``
 
-| In the **File Settings** subsection, you should now see **gif**.
+| In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
+
+|output_settings_mac|
 
 Installing FFmpeg for Linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -121,13 +123,14 @@ Installing FFmpeg for Linux
 .. Images
 
 .. |get_the_packages| image:: /_static/using_ffmpeg_with_opentoonz/get_the_packages.png
-.. |output_settings| image:: /_static/using_ffmpeg_with_opentoonz/output_settings.png
+
 
 .. Windows images
 .. |packages_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_packages.png
 .. |ffmpeg_builds_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_builds.png
 .. |ffmpeg_extracted_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_extracted.png
 .. |ffmpeg_path_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_path.png
+.. |output_settings_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/output_settings.png
 
 
 .. Mac images
@@ -136,6 +139,7 @@ Installing FFmpeg for Linux
 .. |ffmpeg_finder| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_finder.png
 .. |ffmpeg_extracted_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_extracted.png
 .. |ffmpeg_path_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_path.png
+.. |output_settings_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/output_settings.png
 
 .. Linux images
 
