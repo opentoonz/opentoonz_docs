@@ -272,7 +272,7 @@ Hooks can also be split and passed from one drawing feature to another, automati
 
 .. figure:: /_static/movements/hooks.png
 
-   Camera Stand view, 3D view and Camera view modes.
+   The hook set 2 follows the lamp, while the hook set 1 follows the character’s feet, passing from one feet to another when both are on the ground.
 
 
 A hook can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved.
