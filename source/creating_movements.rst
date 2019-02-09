@@ -358,13 +358,13 @@ Hook information is saved along with each level, as a file in XML format, named 
 
 Tracking Points
 ~~~~~~~~~~~~~~~
-It is possible to automatically track specific regions in a sequence of images by using the Tracker tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above).
+It is possible to automatically track specific regions in a sequence of images by using the **Tracker** tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above).
 
 |tracking_regions|
 
-When selected the Tracker tool (|tracker|) allows you to define one or several regions in an image by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool sets both the pattern that the tracking system will try to recognize in the following images, and the size of the search area where it will look for it (that will be of approximately twice that region).
+When selected, the Tracker tool (|tracker|) allows you to define one or several regions in an image, by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical relationship. The region defined with the tool sets both, the *pattern* that the tracking system will try to recognize in the following images, and the *size* of the search area where it will look for it (that will be of approximately twice that region).
 
-Once areas to be tracked are defined in the first frame of a range, it is possible to automatically track the regions in a selected range, by specifying the following options:
+Once areas to be tracked are defined in the first frame of a range, it's possible to automatically track the regions in a selected range, by specifying the following options:
 
 |tracking_options|
 
@@ -378,7 +378,7 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
 .. tip:: **To define a region to be tracked:**
 
-    1. Choose the Tracker tool (|tracker|) and click and drag in the image.
+    1. Choose the **Tracker** tool (|tracker|) and click and drag in the image.
 
     2. Use the handles along the defined region bounding box to resize it.
 
@@ -386,25 +386,25 @@ Once areas to be tracked are defined in the first frame of a range, it is possib
 
 .. tip:: **To define a region connected to another one:**
 
-    1. Choose the Tracker tool (|tracker|) and select the region to which you want to connect another region.
+    1. Choose the **Tracker** tool (|tracker|) and **select the region** to which you want to connect another region.
 
     2. Click and drag elsewhere to define a connected region: the center of the region will be labelled with the same letter of the first one.
 
 .. tip:: **To delete a defined region:**
 
-    1. Choose the Tracker tool (|tracker|) and select the region you want to delete.
+    1. Choose the **Tracker** tool (|tracker|) and select the region you want to delete.
 
-    2. Choose Edit > Delete.
+    2. Choose Edit > **Delete**.
 
 .. tip:: **To track a defined region in a series of images:**
 
     1. Select the first image of the range you want to track.
 
-    2. Choose the Tracker tool (|tracker|) and define the regions to be tracked.
+    2. Choose the **Tracker** tool (|tracker|) and define the regions to be tracked.
 
-    3. Select the frame range in the Xsheet/Timeline or in the level strip.
+    3. Select the frame range in the Xsheet/Timeline or in the Level Strip.
 
-    4. Choose Level > Tracking, set the tracking options and click the Track button.
+    4. Choose Level > **Tracking**, set the tracking options and click the **Track** button.
 
 .. tip:: **To link an object to the tracked region:**
 
@@ -462,37 +462,36 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 Animate Tool Handle
 ~~~~~~~~~~~~~~~~~~~
-When the Animation tool is in **All** mode, you can also interactively control transformation values by using the handle available in the Viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
+When the Animation tool is in **All** mode, you can also interactively control transformation values by using the handle available in the viewer. The handle is made of an inner double circle with three arms that allow you to change any of the following transformations:
 
 |animate_tool_handle|
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
-- **Position:** Click and drag anywhere to move the object; if the Shift key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
-
+- **Position:** Click and drag anywhere to move the object; if the **Shift** key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
 - **Rotate:** Click and drag the circle end to rotate the object;
 |animate_tool_handle_rotate|
 
-- **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the Shift key is pressed while dragging, the scaling will be uniform.
+- **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the **Shift** key is pressed while dragging, the scaling will be uniform.
 |animate_tool_handle_scale|
 |animate_tool_handle_scaleHV|
 
-- **Shear:** Click and drag the parallelogram end to shear the object; if the Shift key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
+- **Shear:** Click and drag the parallelogram end to shear the object; if the **Shift** key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
 |animate_tool_handle_shear|
 
 - **Center:** Click and drag the double circle at the center to change the center of the object.
 |animate_tool_handle_center|
 
-.. note:: The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the center is changed many times, and you want to set it back to its original position, right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens.
+.. note:: The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the Center is changed many times, and you want to set it back to its original position, right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens.
 
 When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations.
 
-If you want to set a key for an object transformation leaving its value as it is at the current frame, you can just hit Enter on the displayed value; if the Global Key option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations leaving their values as they are at the current frame, you can use the Set Key button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations regardless of the Global Key option.
+If you want to set a key for an object transformation, maintaining its value as it is at the current frame, you can just press **Enter** on the displayed value; if the **Global Key** option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations maintaining their values as they are at the current frame, you can use the **Set Key** button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations, regardless of the **Global Key** option.
 
 .. note:: Objects can also be animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
-.. note:: The movement of the column contents can be checked by activating the onion skin mode, as it will display the position of drawings contained in the current column at different frames (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
+.. note:: The movement of the column contents can be checked by activating the Onion Skin mode, as it will display the position of drawings contained in the current column at different frames (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
 .. tip:: **To select the object to edit:**
 
@@ -502,9 +501,9 @@ If you want to set a key for an object transformation leaving its value as it is
 
     - If the object is a column/layer, select it in the Xsheet/Timeline.
 
-    - Use the Animate tool (|animate|) with the Pick option set to Column to click a drawing in the viewer to select the related column.
+    - Use the **Animate** tool (|animate|) with the **Pick:** option set to **Column** to click a drawing in the viewer to select the related column.
 
-    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the viewer to select the pegbar that the column containing the drawing is linked to.
+    - Use the **Animate** tool (|animate|) with the **Pick:** option set to **Pegbar** to click a drawing in the viewer to select the pegbar that the column containing the drawing is linked to.
 
     - Right-click in the viewer a drawing to select an object from the list of the objects hierarchically linked to the column containing the drawing, from the first one up to the table and current camera (see  :ref:`Linking Objects <linking_objects>`  ). 
 
@@ -512,73 +511,73 @@ If you want to set a key for an object transformation leaving its value as it is
 
     1. Select the object you want to edit.
 
-    2. Choose the Animate tool (|animate|). 
+    2. Choose the **Animate** tool (|animate|). 
 
     3. Set the frame where you want to define the key by doing one of the following:
 
-    - Move the current frame cursor in the Xsheet/Timeline or in the function editor.
+    - Move the current frame cursor in the Xsheet/Timeline or in the Function Editor.
 
-    - Use the frame bar or the playback buttons in the bottom bar of the viewer.
+    - Use the Frame bar or the Playback buttons in the bottom bar of the viewer.
 
     - When animating columns only, select the related cell in the column/layer.
 
-    4. Define a key position.
+    4. Define a keyframe.
 
-    5. Select a different frame, and go on defining key positions.
+    5. Select a different frame, and go on defining keyframes.
 
-.. tip:: **To define a key position only for some object transformations:**
+.. tip:: **To define a keyframe only for some object transformations:**
 
-    1. Deactivate the Global Key option in the tool options bar.
+    1. Deactivate the **Global Key** option in the tool options bar.
 
     2. Do one of the following:
 
-    - Enter values in the Animate tool options bar for the object transformations you want to set a key for. 
+    - Enter values in the **Animate** tool options bar for the object transformations you want to set a key for. 
 
     - If in **All** mode, operate the handle to move, scale, rotate or shear the object, automatically generating a key only for the modified transformation. 
 
-.. note:: As this key position is partial and refers only to some transformations, the Set Key button turns striped-blue.
+    .. note:: As this keyframe is partial and refers only to some transformations, the **Set Key** button turns striped-blue.
 
-.. tip:: **To define a key position for all the object transformations:**
+.. tip:: **To define a keyframe for all the object transformations:**
 
-    1. Activate the Global Key option in the tool options bar.
+    1. Activate the **Global Key** option in the tool options bar.
 
-    2. Interactively move, rotate, scale or shear the object in the Viewer. 
+    2. Interactively move, rotate, scale or shear the object in the viewer. 
 
-.. note:: As this key position is global and refers to all the transformations, the Set Key button turns blue.
+    .. note:: As this keyframe is global and refers to all the transformations, the **Set Key** button turns blue.
 
 .. tip:: **To define a key for an object transformation leaving its value as it is at the current frame:**
 
-    1. Deactivate the Global Key option in the tool options bar.
+    1. Deactivate the **Global Key** option in the tool options bar.
 
-    2. In the Animate tool options bar click in the field of the object transformations you want to set a key for, and press the Enter key. 
+    2. In the **Animate** tool options bar click in the field of the object transformations you want to set a key for, and press the **Enter** key. 
 
-.. note:: As this key position is partial and refers only to some transformations, the Set Key button turns striped-blue.
+    .. note:: As this keyframe is partial and refers only to some transformations, the **Set Key** button turns striped-blue.
 
 .. tip:: **To define keys for all of the object transformations leaving their values as they are at the current frame:**
 
     Do one of the following:
 
-    - Click the Set Key button (|key|).
+    - Click the **Set Key** button (|key|).
 
-    - When animating columns only, right-click in the column cell and choose Set Key from the menu that opens. 
+    - When animating columns/layers only, right-click in the column/layer cell and choose **Set Key** from the menu that opens. 
 
-.. note:: As this key position is global and refers to all the transformations, the Set Key button turns blue.
+    .. note:: As this keyframe is global and refers to all the transformations, the **Set Key** button turns blue.
 
-.. tip:: **To turn a partial key position to a global key:**
+.. tip:: **To turn a partial keyframe to a global key:**
 
-    Click the Set Key button (|key|): it turns from blue-striped to blue.
+    Click the **Set Key** button (|key|): it turns from blue-striped to blue.
 
-.. tip:: **To remove a set key position from the viewer bottom bar:**
+.. tip:: **To remove a set keyframe from the viewer bottom bar:**
 
     Do one of the following:
 
-    - If the key position is global, click the Set Key button (|key|): it turns from blue to grey.
+    - If the keyframe is global, click the **Set Key** button (|key|): it turns from blue to grey.
 
-    - If the key position is partial, click twice the Set Key button (|key|): with the first click it turns from striped-blue to blue, with the second from blue to grey.
+    - If the keyframe is partial, click twice the **Set Key** button (|key|): with the first click it turns from striped-blue to blue, with the second from blue to grey.
 
-.. tip:: **To navigate frames where key positions are defined in the viewer bottom bar:**
+.. tip:: **To navigate frames where keyframes are defined in the viewer bottom bar:**
 
-    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the Set Key button.
+    Use the **Previous Key** (|prevkey|) and **Next Key** (|next_key|) buttons available at the side of the Set Key button.
 
 .. note:: Keys can also be removed or navigated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
@@ -586,9 +585,9 @@ If you want to set a key for an object transformation leaving its value as it is
 
     Do any of the following:
 
-    - Use the **Tool Mode** dropdown menu to choose from one of its modes: Position, Rotate, Scale, Shear, Center or All: only the options for the selected transformation category will be displayed.
+    - Use the **Tool Mode:** dropdown menu to choose from one of its modes: Position, Rotate, Scale, Shear, Center or All: only the options for the selected transformation category will be displayed.
 
-    - Use the lock button (|lock|) to choose which transformations have to be locked while transforming the object: only selected items will be locked.
+    - Use the **Lock** button (|lock|) to choose which transformations have to be locked while transforming the object: only selected items will be locked.
 
 
 .. _changing_columns_stacking_order:
