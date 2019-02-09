@@ -858,7 +858,7 @@ You can place and move cameras, the table, pegbars and columns/layers in a 3D en
 
 This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
 
-The 3D environment can be activated, or deactivated, with the **3D** button (|3d|) available in the Viewer title bar. When activated, the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top viewpoint can be set. 
+The 3D environment can be activated, or deactivated, with the **3D View** button (|3d|) available in the Viewer title bar. When activated, the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top viewpoint can be set. 
 
 By default all the pegbars and columns are on the table: their Z position is equal to the number of horizontal fields defined for the default camera (as the value represents the size of the area that is shot by the camera) (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). By increasing the field value, objects are placed farther from the camera; by decreasing it, objects are placed closer to the camera; at zero they are at the same Z position as the camera, and for negative values they are behind the camera.
 
