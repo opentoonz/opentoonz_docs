@@ -337,7 +337,12 @@ Hook information is saved along with each level, as a file in XML format, named 
 
     3. **Click and drag up** the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook number to be used.
 
-    |link_to_hooks|
+
+    .. figure:: /_static/movements/link_to_hooks.png
+
+       Column 3 is linked to the hook set 2 of column 2, while column 2
+is moving according to its hook set 1.
+
 
 .. tip:: **To make the level move according to one of its hooks:**
 
