@@ -269,7 +269,11 @@ In the second case, the hook is used as the center of the column/layer where the
 
 Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example, the hook following the character’s foot feature can pass from one foot to another, in order to make the character move continuously onward.
 
-|hooks|
+
+.. figure:: /_static/movements/hooks.png
+
+   Camera Stand view, 3D view and Camera view modes.
+
 
 A hook can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved.
 
