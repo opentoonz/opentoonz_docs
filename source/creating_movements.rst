@@ -633,7 +633,11 @@ Objects can be moved along a motion path according to two different type of move
 
 A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers indicating the control points defining the vector stroke.
 
-|motion_path|
+
+.. figure:: /_static/movements/motion_path.png
+
+   A motion path assigned to pegbar 2.
+
 
 As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard E/W and N/S directions anymore).
 
@@ -926,7 +930,6 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |stage_schematic| image:: /_static/movements/stage_schematic.png
 .. |adv_linking_1| image:: /_static/movements/adv_linking_1.png
 .. |adv_linking_2| image:: /_static/movements/adv_linking_2.png
-.. |link_to_hooks| image:: /_static/movements/link_to_hooks.png
 .. |tracking_regions| image:: /_static/movements/tracking_regions.png
 .. |tracking_options| image:: /_static/movements/tracking_options.png
 .. |animate_tool_position| image:: /_static/movements/animate_tool_position.png
@@ -941,7 +944,6 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |animate_tool_handle_scaleHV| image:: /_static/movements/animate_tool_handle_scaleHV.png
 .. |animate_tool_handle_shear| image:: /_static/movements/animate_tool_handle_shear.png
 .. |animate_tool_handle_center| image:: /_static/movements/animate_tool_handle_center.png
-.. |motion_path| image:: /_static/movements/motion_path.png
 .. |using_column_keys| image:: /_static/movements/using_column_keys.png
 
 .. |animate| image:: /_static/movements/animate.png
