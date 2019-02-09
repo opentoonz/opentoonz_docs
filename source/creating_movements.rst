@@ -2,7 +2,7 @@
 
 Creating Movements
 ==================
-Each scene has a series of objects that can be moved and transformed: they can be Xsheet columns (or timeline layers), pegbars, cameras, and the table.
+Each scene has a series of *objects* that can be transformed; they can be Xsheet columns (or Timeline layers), pegbars, cameras, or the table.
 
 Every transformation you set for an object at a specific frame automatically defines a keyframe. When keyframes are defined at several frames, in-between positions are automatically interpolated.
 
@@ -13,21 +13,21 @@ To create more complex animations, you can also work in a 3D environment, where 
 
 Using the Stage Schematic
 -------------------------
-The Stage Schematic contains nodes for all of the objects used in a scene, making it possible to manage the way they are linked to each other. It's organized in a hierarchy starting from the animation table, where all the columns and pegbars are placed. A camera is available as well, and additional cameras can be defined.
+The Stage Schematic contains *nodes* for all of the objects used in a scene, making it possible to manage the way they are linked to each other. It's organized in a hierarchy starting from the animation table, where all the columns/layers and pegbars are placed. A camera is available as well, and additional cameras can be defined.
 
 |stage_schematic|
 
 By default the Stage Schematic contains the table node and one camera node.
 
-Column nodes are added as soon as you load or create some content; pegbars and cameras can be added at any time (pegbars will be automatically linked to the table).
+Column/layer nodes are added as soon as you load or create some content; pegbars and cameras can be added at any time (pegbars will be automatically linked to the table).
 
 When more than one camera is created, you can set which is the active one, used in the Viewer; the active camera node is displayed in blue while the others are left idle in grey. Each camera can have a different size and resolution, and each of them can be animated independently (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
-Objects nodes can be easily added and arranged and they can be selected in order to be cut, copied, pasted or deleted. When selected, nodes edges are highlighted in white; the current object has its label displayed in yellow; when at least one node is selected, its related links are displayed in cyan.
+Objects nodes can be easily added and arranged and they can be selected in order to be cut, copied, pasted or deleted. When selected, nodes' edges are highlighted in white; the current node has its label displayed in yellow; when at least one node is selected, its related links are displayed in cyan.
 
-It's also possible to group several nodes into one single node, in order to better manage a complex Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations or new groups.
+It's also possible to *group* several nodes into one single node, in order to better manage a complex Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations or new groups.
 
-.. note:: Column nodes have buttons defining their visibility in camera stand (|camera_stand|) and render (|preview|) views, these buttons are located at the top right of the nodes: the toggles are linked to the ones available in the Xsheet columns (timeline layers) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>` ).
+.. note:: Column/layer nodes have buttons defining their visibility in Camera stand (|camera_stand|) and Render (|preview|) views, these buttons are located at the top right of the nodes: the toggles are linked to the ones available in the Xsheet columns (Timeline layers) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>` ).
 
 .. tip:: **To access the stage schematic:**
 
@@ -51,42 +51,41 @@ It's also possible to group several nodes into one single node, in order to bett
 
     - Use the **Reset Size** button (|reset|) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
 
+.. tip:: **To add a column/layer:**
 
-.. tip:: **To add a column:**
-
-    Load or create some content for the Xsheet column (timeline layer): it will be automatically displayed in the Stage.
+    Load or create some content for the Xsheet column (Timeline layer): it will be automatically displayed in the Stage Schematic.
 
 .. tip:: **To add a pegbar:**
 
     Do one of the following:
 
-    - Click the New Pegbar button (|pegbar|) in the bottom bar of the Stage window.
+    - Click the **New Pegbar** button (|pegbar|) in the bottom bar of the Stage Schematic window.
 
-    - Right-click in the Stage and choose **New Pegbar** from the menu that opens.
+    - Right-click in the Stage Schematic and choose **New Pegbar** from the menu that opens.
 
 .. tip:: **To add a camera:**
 
     Do one of the following:
 
-    - Click the New Camera button (|camera|) in the bottom bar of the stage window.
+    - Click the **New Camera** button (|camera|) in the bottom bar of the Stage Schematic window.
 
-    - Right-click in the stage and choose **New Camera** from the menu that opens.
+    - Right-click in the Stage Schematic and choose **New Camera** from the menu that opens.
 
 .. tip:: **To set the active camera:**
 
-    In the Stage right-click the camera node you want to set as active and choose **Activate** from the menu that opens.
+    In the Stage Schematic right-click the camera node you want to set as active and choose **Activate** from the menu that opens.
 
 .. tip:: **To rename an object:**
 
     Ctrl + double-click the node name and type a new one.
 
-.. tip:: **To minimize/maximize the column nodes:**
+.. tip:: **To minimize or maximize column/layer nodes:**
 
     Do one of the following: 
 
     - Click the arrowhead button to the left of the node name to minimize/maximize it selectively.
 
-    - Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage pane to minimize/maximize all of the nodes.
+    - Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage Schematic pane to minimize/maximize all of the nodes.
 
 .. tip:: **To select objects and links:**
 
@@ -98,7 +97,7 @@ It's also possible to group several nodes into one single node, in order to bett
 
     - Ctrl-click (PC) or Cmd-click (Mac) to add an object to, or remove it from the selection.
 
-.. note:: Links can be selected together with objects (see  :ref:`Linking Objects <linking_objects>`  ).
+    .. note:: Links can be selected together with objects (see  :ref:`Linking Objects <linking_objects>`  ).
 
 .. tip:: **To move the selection:**
 
@@ -116,25 +115,25 @@ It's also possible to group several nodes into one single node, in order to bett
 
     - Use the **Delete** command to delete the selection.
 
-.. note:: All of these commands are available in the menu that opens when right-clicking nodes and links. 
+    .. note:: All of these commands are available in the menu that opens when right-clicking nodes and links. 
 
-.. note:: The table and the default camera cannot be removed from the Stage Schematic.
+    .. note:: The table and the default camera cannot be removed from the Stage Schematic.
 
 .. tip:: **To Group selected objects:**
 
     Right-click any selected nodes and choose **Group** from the menu that opens.
 
-.. note:: Nodes can only be grouped if they share the parent node, and parent node is included in the selection.
+    .. note:: Nodes can only be grouped if they share the parent node, and the parent node is included in the selection.
 
 .. tip:: **To open a Group:**
 
     Right-click the group and choose **Open Group** from the menu that opens: the group objects are displayed in a box, showing links between group nodes, and links with nodes outside of the group. 
 
-.. note:: In the Stage Schematic, when the content of a group is displayed it's not possible to edit the links between group nodes, and links with nodes outside of the group.
+    .. note:: In the Stage Schematic, when the content of a group is displayed it's not possible to edit the links between group nodes, and links with nodes outside of the group.
 
 .. tip:: **To close a Group:**
 
-    Click the close button on the right of the group box bar. 
+    Click the **Close button** on the right of the group box bar. 
 
 .. tip:: **To release a Group:**
 
