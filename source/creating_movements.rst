@@ -259,27 +259,27 @@ Apart from letters, columns have also numbered centers as well; these serve for 
 
 Using Hooks
 ~~~~~~~~~~~
-Hooks are reference points that can be defined for any animation level directly in the Viewer, by using the Hook tool (|hook|).
+Hooks are reference points that can be defined for any animation level directly in the viewer, by using the **Hook** tool (|hook|).
 
-Once defined for a column, they can be used in the Stage Schematic to link another object to this column, in relation to a specific hook, or to move the column according to any of its hook sets.
+Once defined for a column/layer, they can be used in the Stage Schematic to link another object to it in relation to a specific hook, or to move it, according to any of its hook sets.
 
-In the first case the hook is used as a tracking point to link another object to it, for example a column or camera, to a specific feature of the animation level. For example, if you have a character carrying a lamp, you can track the lamp position with a hook, and link a radial gradient to it to create a glow, placed over the lamp for every frame of the animation.
+In the first case the hook is used as a tracking point to link another object (a column/layer or camera) to a specific feature of the animation level. For example, if you have a character carrying a lamp, you can track the lamp position with a hook, and link a radial gradient to it (placed over the lamp for every frame of the animation) to create a glow.
 
-In the second case the hook is used as the center of the column where the hooked level is exposed, thus creating a different center and offset for each level frame. For example, if you have a walking animation cycle, you can set a new center following the character’s feet with a hook, and make the level move accordingly to prevent a moon-walking effect on the background. 
+In the second case, the hook is used as the center of the column/layer where the hooked level will be exposed, thus creating a different center and offset for each level frame. For example, if you have a walking animation cycle, you can set a new center following the character’s feet with a hook, and make the level move accordingly to prevent a moon-walking effect on the background. 
 
-Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example the hook following the character’s foot feature can pass from one foot to another, in order to make the character move continuously onward.
+Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example, the hook following the character’s foot feature can pass from one foot to another, in order to make the character move continuously onward.
 
 |hooks|
 
 A hook can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved.
 
-You can use up to 20 hooks for each level; each hook is labeled with a number, to retrieve it in each level frame. 
+You can use up to 20 hooks for each level; each hook is labeled with a number, to reference it in each level frame. 
 
-By activating the Snap option, hooks for the current level can be accurately placed by snapping them exactly to the same position of hooks defined for the other animation levels visible in the Viewer. In case the current level is a Toonz vector level, hooks will snap also to the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+By activating the **Snap** option, hooks for the current level can be accurately placed by snapping them exactly to the same position of hooks defined for the other animation levels visible in the viewer. In case the current level is a Toonz Vector level, hooks will snap also to the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
-Hook information is saved along with the level as a file in XML format, named as the file but with the _hooks suffix. For example, hooks defined for the level ``mouse``  will be saved in the file ``mouse_hooks.xml`` .
+Hook information is saved along with each level, as a file in XML format, named as the file but with the *_hooks* suffix. For example, hooks defined for the level ``mouse``  will be saved in the file ``mouse_hooks.xml`` .
 
-.. note:: Hooks are also visible in onion skin mode (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
+.. note:: Hooks are also visible in Onion Skin mode (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
 .. note:: Hooks can be also used to create a cutout animation model, as they allow you to link the model sections according to specific pivot points (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
@@ -287,7 +287,7 @@ Hook information is saved along with the level as a file in XML format, named as
 
     1. Select a frame from the level you want to set hooks for.
 
-    2. Choose the Hook tool (|hook|).
+    2. Choose the **Hook** tool (|hook|).
 
     3. Do one of the following:
 
@@ -309,13 +309,13 @@ Hook information is saved along with the level as a file in XML format, named as
 
     - Drag them to a new position.
 
-    - Shift-drag to constrain an horizontal or vertical movement.
+    - **Shift-drag** to constrain an horizontal or vertical movement.
 
-    - Activate the Snap option to place the hook exactly at the same position of hooks defined for other animation levels visible in the Viewer, or in case the level is a Toonz vector level, at the center of closed shapes.
+    - Activate the **Snap** option to place the hook exactly at the same position of hooks defined for other animation levels visible in the viewer, or in case the level is a Toonz Vector level, also at the center of closed shapes.
 
 .. tip:: **To pass a hook from one position to another:**
 
-    1. Alt-click and drag the hook to split it into two.
+    1. **Alt-click and drag** the hook to split it into two.
 
     2. Place the **double circle** where the hook has to be for the current frame.
 
@@ -323,31 +323,31 @@ Hook information is saved along with the level as a file in XML format, named as
 
 .. tip:: **To delete a hook:**
 
-    Select the related hook in any frame and choose Edit > Delete.
+    Select the related hook in any frame and choose Edit > **Delete**.
 
 .. tip:: **To link an object to a level hook:**
 
     1. Link the object to the column containing the hook.
 
-    2. Place the pointer over the column right port and wait for the double-arrow button to appear.
+    2. Place the mouse pointer over the column right port and wait for the double-arrow button to appear.
 
-    3. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook number to be used.
+    3. **Click and drag up** the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook number to be used.
 
-|link_to_hooks|
+    |link_to_hooks|
 
 .. tip:: **To make the level move according to one of its hooks:**
 
-    1. Place the pointer over the left port of the column containing the hook, and wait for the double-arrow button to appear.
+    1. Place the mouse pointer over the left port of the column containing the hook, and wait for the double-arrow button to appear.
 
-    2. Click and drag up the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook to be used.
+    2. **Click and drag up** the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook to be used.
 
 .. tip:: **To prevent an animation walking cycle from moon-walking:**
 
     Define a hook by following these guidelines:
 
-    - Place the hook on the same foot feature along the whole sequence, for example the tip of the foot.
+    - Place the hook on the *same foot feature* along the whole sequence, for example the tip of the foot.
 
-    - If the character is supposed to be moving horizontally on the ground, the hook should always lie on the ground line (without changing its vertical position along the sequence). If the feature you are following leaves the ground, still place the hook on the ground line, under the feature you were following.
+    - If the character is supposed to be moving horizontally on the ground, *the hook should always lie on the ground line* (without changing its vertical position along the sequence). If the feature you are following leaves the ground, still place the hook on the ground line, under the feature you were following.
 
     - When both feet are on the ground line you can split the hook to pass it form one foot to the other.
 
