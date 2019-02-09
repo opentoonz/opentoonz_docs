@@ -148,35 +148,35 @@ It's also possible to *group* several nodes into one single node, in order to be
 
 Linking Objects
 ---------------
-Objects can be linked in order to create shared movements, that is to say a movement that all the linked objects share with the parent object, and relative movements, that is to say a movement that is the sum of the object's own movement and the movement of its parent object. 
+Objects can be linked in order to create shared movements (movements that all the linked objects share with the parent object) and relative movements (movements that are the sum of the object's own movement and the movement of its parent object). 
 
-As parent objects can be linked in their turn to other moving objects, it is possible to define a complex hierarchy of transformations.
+As parent objects can be linked, in their turn, to other moving objects, it is possible to define a complex hierarchy of transformations.
 
-The hierarchy between objects can be edited by setting links that allow you to set parent and linked objects: columns can be linked to other columns, pegbars, the table or cameras; pegbars can be linked to other pegbars, the table or cameras; cameras can be linked to any object in order to create complex shots, for example with a camera following the movement of a character in the scene.
+The hierarchy between objects can be edited by setting links that allow you to set parent and linked objects: columns/layers can be linked to other columns/layers, pegbars, the table or cameras; pegbars can be linked to other pegbars, the table or cameras; cameras can be linked to any object in order to create complex shots, for example with a camera following the movement of a character in the scene.
 
 Links can be set by using the ports located at each side of the object node: 
 
-- The port on the left is for linking the object to a parent object.
+- The **port on the left** is for linking the object to a **parent** object.
 
-- The port on the right is for linking the object to a child object.
+- The **port on the right** is for linking the object to a **child** object.
 
-- The port at the bottom is for assigning the object a motion path to follow (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` ).
+- The **port at the bottom** is for assigning the object a **motion path** to follow (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` ).
 
 Links can also be selected in order to be deleted: when selected, links are highlighted; when at least one object is selected, the related links are displayed in blue.
 
-Columns and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default, i.e. to the table.
+Columns/layers and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default: the table.
 
 .. tip:: **To link a node to another:**
 
     In the Stage Schematic, click and drag from a node's left port to the parent node's right port, or viceversa.
 
-.. tip:: **To link a column to another object:**
+.. tip:: **To link a column/layer to another object:**
 
     Do any of the following:
 
-    - To link a column to any other object, define the link in the Stage Schematic.
+    - Define the link in the Stage Schematic.
 
-    - To link a column to another column, select the Animate tool (|animate|) with the Pick option set to Column, and in the Viewer shift-click the column contents to which you want to link the current column.
+    - Select the **Animate** tool (|animate|) with the **Pick:** option set to **Column**, and in the viewer **Shift-click** the column contents to which you want to link the current column.
 
 .. tip:: **To select the linked object to edit in the hierarchy:**
 
@@ -184,11 +184,11 @@ Columns and pegbars are always linked, at least to the table: this means that th
 
     - Select it in the Stage Schematic. 
 
-    - Use the Animate tool (|animate|) with the Pick option set to Pegbar to click a drawing in the viewer and select the first pegbar in the hierarchy the column containing the drawing is linked to.
+    - Use the **Animate** tool (|animate|) with the **Pick:** option set to **Pegbar** to click a drawing in the viewer and select the first pegbar in the hierarchy the column containing the drawing is linked to.
 
-    - Right-click a drawing in the Viewer to choose from the menu that opens the Select command related to the object hierarchically linked that you want to edit, from the first one up to the table.
+    - Right-click a drawing in the viewer to choose from the menu that opens the **Select** command related to the object hierarchically linked that you want to edit, from the first one up to the table.
 
-.. note:: The right-click menu lists in first place all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
+    .. note:: The right-click menu lists in first place all the columns/layers containing overlapping drawings, then the columns/layers and objects that are hierarchically linked to the clicked one.
 
 .. tip:: **To select links:**
 
@@ -200,11 +200,11 @@ Columns and pegbars are always linked, at least to the table: this means that th
 
     - Ctrl-click (PC) or Cmd-click (Mac) to add a link to, or remove it from the selection.
 
-.. note:: Objects can be selected together with links (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  ).
+    .. note:: Objects can be selected together with links (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  ).
 
 .. tip:: **To remove selected links:**
 
-    Choose Edit > Delete: links will be replaced by default ones (i.e to the table).
+    Choose Edit > **Delete**, links will be replaced by default ones (i.e to the table).
 
 
 .. _advanced_linking:
@@ -232,27 +232,27 @@ Apart from letters, columns have also numbered centers as well; these serve for 
 
 .. note:: While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same center or a different one.
 
+.. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+
 .. tip:: **To switch the connector ports display mode:**
 
-    - Click the Switch Output Port Display Mode button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
-
-.. note:: By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+    - Click the **Switch Output Port Display Mode** button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
 
 .. tip:: **To set the center of an object:**
 
-    1. Place the pointer on the object left port and wait for the double-arrow button to appear.
+    1. Place the mouse pointer over the object left port and wait for the double-arrow button to appear.
 
-    2. Click and drag up or down the double-arrow button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects.
+    2. Click and **drag up or down the double-arrow** button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects.
 
 .. tip:: **To set the way a linked object overlaps the parent object:**
 
     Do any of the following:
 
-    - Set the same letter for the two ports at the end of a link to overlap the objects without an offset.
+    - Set the **same letter** for the two ports at the end of a link to overlap the objects without an offset.
 
-    - Set the following letter in the alphabetical order on the left port of the linked object to offset it to the right: for each letter there is an offset of 8 inches to the right.
+    - Set the **following letter in alphabetical order** on the left port of the linked object to offset it to the right: for each successive letter there is an offset of 8 inches to the right.
 
-    - Set the previous letter in the alphabetical order on the linked object left port to offset it to the left: for each letter there is an offset of 8 inches to the left.
+    - Set the **previous letter in alphabetical order** on the left port of the linked object to offset it to the left: for each successive letter there is an offset of 8 inches to the left.
 
 
 .. _using_hooks:
