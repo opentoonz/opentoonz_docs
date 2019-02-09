@@ -340,8 +340,7 @@ Hook information is saved along with each level, as a file in XML format, named 
 
     .. figure:: /_static/movements/link_to_hooks.png
 
-       Column 3 is linked to the hook set 2 of column 2, while column 2
-is moving according to its hook set 1.
+       Column 3 is linked to the hook set 2 of column 2, while column 2 is moving according to its hook set 1.
 
 
 .. tip:: **To make the level move according to one of its hooks:**
