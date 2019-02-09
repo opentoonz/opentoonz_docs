@@ -592,50 +592,50 @@ If you want to set a key for an object transformation, maintaining its value as 
 
 .. _changing_columns_stacking_order:
 
-Changing Columns Stacking Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The column stacking order, which sets which drawings and images are placed on top, or behind, other images, by default depends on how columns are placed in the Xsheet/Timeline: Xsheet direction is from left to right, while timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
+Changing Columns/Layers Stacking Order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The column/layer stacking order, which sets which drawings and images are placed on top or behind, other images, by default depends on how columns/layers are placed in the Xsheet/Timeline: Xsheet direction is from left to right, while Timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
 
 This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element.
 
-By editing the position SO (i.e. stacking order) value it is possible to change and animate the element compositing order without editing the columns/layers position in the Xsheet/Timeline.
+By editing the **SO** (i.e. stacking order) value it's possible to change and animate the element compositing order without editing the columns/layers position in the Xsheet/Timeline.
 
-The SO default value for all the columns is 0, meaning that the Xsheet column (or timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the Xsheet/Timeline; conversely if the SO value is lower it will be placed behind.
+The **SO** default value for all the columns is 0, meaning that the Xsheet column (or Timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it will be placed on top, regardless of the position of the column/layer in the Xsheet/Timeline; conversely if the SO value is lower it will be placed behind.
 
-.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of the others, ignoring both its Xsheet/Timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
+.. note:: In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of others, ignoring both its Xsheet/Timeline order and its SO value (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>` ).
 
 .. tip:: **To edit and animate a column/layer SO value:**
 
     1. Select the column/layer to which you want to edit the SO value.
 
-    2. Choose the Animate tool (|animate|). 
+    2. Choose the **Animate** tool (|animate|). 
 
     3. Set the frame where you want to define the key.
 
-    4. In the tool options bar enter the value in the SO field.
+    4. In the tool options bar enter the value in the **SO** field.
 
-.. note:: Columns/layers SO values can also be edited and animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
+    .. note:: Columns/layers **SO** values can also be edited and animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
 
 .. _creating_a_movement_along_a_motion_path:
 
 Creating a Movement along a Motion Path
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Objects can be moved along a motion path according to two different type of movements: one without changing the object orientation, and the other with an automatic orientation set according to the direction of the motion path.
+Objects can be moved along a motion path according to two different type of movements: one without changing the object orientation, and the other with an automatic orientation, set according to the direction of the motion path.
 
-A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the Viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers indicating the control points defining the vector shape.
+A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers indicating the control points defining the vector stroke.
 
 |motion_path|
 
-As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it, and not in the E/W and N/S directions anymore.
+As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard E/W and N/S directions anymore).
 
-The key positions of the object on the motion path can be defined by dragging the object along it, and they are expressed as a percentage where 0% is the starting point and 100% is the ending point of the path. 
+The keyframes of the object on the motion path can be defined by dragging the object along it, and they are *expressed as a percentage* where 0% is the starting point and 100% is the ending point of the path. 
 
 It's also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
 
-.. note:: If you want to change the center of the object, you can move it using the Animate tool (|animate|), and then use the **Reset Center** command in the Stage Schematic.
+.. note:: If you want to change the center of the object, you can move it using the **Animate** tool (|animate|), and then use the **Reset Center** command in the Stage Schematic.
 
-.. note:: A motion path can also be created by copying and pasting a drawing vector, and a drawing vector can be created by copying and pasting a motion path.
+.. note:: A motion path can also be created by copying and pasting a drawing vector stroke, and conversely a drawing vector stroke can be created by copying and pasting a motion path.
 
 .. tip:: **To create a motion path:**
 
@@ -665,19 +665,19 @@ It's also possible to link the key positions of the objects to the positions of 
 
     1. Select the link between the object and the motion path. 
 
-    2. Choose Edit > Delete.
+    2. Choose Edit > **Delete**.
 
 .. tip:: **To set the type of movement along a motion path:**
 
-    Click the button at the far left of the object bottom port to switch between two options: the square (|square|) will preserve the object original orientation, and the rotated square (|rhomb|) will automatically rotate the object according to the motion path direction.
+    Click the button at *the far left* of the object bottom port to switch between two options: the **Square** button (|square|) will preserve the object's original orientation, and the **Rotated Square** button (|rhomb|) will automatically rotate the object according to the motion path's direction.
 
 .. tip:: **To link the object key positions to the control points defining the motion path:**
 
-    Click the button at the left of the object bottom port to activate or deactivate the **Link to Control Points** option (|link_to_control_points|).
+    Click the button *next to* the object bottom port to activate or deactivate the **Link to Control Points** option (|link_to_control_points|).
 
 .. tip:: **To change the center of the object:**
 
-    1. Choose the Animate tool (|animate|).
+    1. Choose the **Animate** tool (|animate|).
 
     2. Move the center of the object to the new position.
 
@@ -695,52 +695,52 @@ It's also possible to link the key positions of the objects to the positions of 
 
     2. In the browser retrieve the MPATH file you want to load and click the Load button.
 
-.. tip:: **To use a drawing vector as a motion path:**
+.. tip:: **To use a drawing vector stroke as a motion path:**
 
-    1. Select the vector you want to use as a motion path with the Selection tool (|selection|).
+    1. Select the vector stroke you want to use as a motion path with the **Selection** tool (|selection|).
 
     2. Copy/cut it.
 
-    3. Select the motion path you want to paste to in the stage.
+    3. Select the motion path you want to paste to, in the Stage Schematic.
 
-    4. Click in the Viewer and paste the copied/cut vector that will automatically become the motion path.
+    4. Click in the viewer and paste the copied/cut vector that will automatically become the motion path.
 
-.. tip:: **To use a motion path as a vector:**
+.. tip:: **To use a motion path as a vector stroke in a drawing:**
 
-    1. Select the motion path in the stage.
+    1. Select the motion path in the Stage Schematic.
 
-    2. Select the motion path with the Selection tool (|selection|) in the viewer.
+    2. Select the motion path with the **Selection** tool (|selection|) in the viewer.
 
     3. Copy/cut it.
 
-    4. Select the drawing where you want to paste the new vector.
+    4. Select the drawing where you want to paste the new stroke.
 
-    5. Paste the copied/cut motion path that will automatically become a vector.
+    5. Paste the copied/cut motion path that will automatically become a stroke.
 
-.. tip:: **To remove a motion path from the stage:**
+.. tip:: **To remove a motion path from the Stage Schematic:**
 
     Do one of the following:
 
-    - Select the motion path node and choose Edit > Delete.
+    - Select the motion path node and choose Edit > **Delete**.
 
-    - Right-click the motion path node and choose Delete from the menu that opens.
+    - Right-click the motion path node and choose **Delete** from the menu that opens.
 
 
 .. _using_column_keys:
 
 Using Column Keys
 -----------------
-When columns are animated, their animation can be controlled in a quick way by managing key positions and interpolations directly in the Xsheet, with no need to use the function editor.
+When columns/layers are animated, their animation can be controlled in a quick way by managing keyframes and interpolations directly in the Xsheet or Timeline, with no need to use the Function Editor.
 
-As soon as a key position is defined for a column, a related icon is displayed on the right of the column cell to which it refers; the key is displayed regardless of how many parameters are animated. Keys can be moved within the column they refer to, and selected in order to be copied/cut and pasted from one cell to another. 
+As soon as a keyframe is defined for a column/layer, a **Key icon** is displayed on the right of the column/layer cell to which it refers; the key is displayed regardless of how many parameters are animated. Keys can be moved within the column/layer they refer to, and selected in order to be cut/copied and pasted from one cell to another. 
 
 |using_column_keys|
 
-When the Global Key option is activated for the Animate tool, and the default interpolation is not set to Linear, as soon as at least two key positions are created for a column a vertical line connecting them with two arrowheads is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed and speed out phases of all the transformations defined for the movement. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
+When the **Global Key** option is activated for the **Animate** tool, and the default interpolation is not set to **Linear**, as soon as at least two keyframes are created for a column, **a vertical line connecting them with two arrowheads** is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed, and speed out phases *of all the transformations defined*. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
 
 You can also cycle previously created keys, in order to repeat automatically all the previously defined keys for the whole length of the scene, with no need to copy and paste keys from cells to cells.
 
-All animations and interpolations set for the column can be visible and edited with the function editor. When you edit any column transformation in the function editor, the arrowheads will not be displayed anymore between keys, to stress the fact that a specific interpolation has been modified with the function editor. If needed you can reset the whole column transformation to the default interpolation values, and make the arrowheads available again (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ). 
+All animations and interpolations set for the column/layer can be visible and edited with the Function Editor. When you edit any column/layer transformation in the Function Editor, the arrowheads will not be displayed anymore between keys, to stress the fact that a specific interpolation has been modified with the Function Editor. If needed, you can **Reset** the whole column/layer transformation to the default interpolation values, and make the arrowheads available again (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ). 
 
 .. tip:: **To modify a key:**
 
@@ -748,7 +748,7 @@ All animations and interpolations set for the column can be visible and edited w
 
     2. Do one of the following:
 
-    - Use the Animate tool (|animate|) to modify position and size.
+    - Use the **Animate** tool (|animate|) to modify position and size.
 
     - Enter values you want to modify in the Animate tool (|animate|) options bar. 
 
@@ -756,15 +756,15 @@ All animations and interpolations set for the column can be visible and edited w
 
     Do one of the following:
 
-    - Click a key icon to select it.
+    - **Click a key icon** to select it.
 
-    - Click a key icon and drag to select a range of keys on different columns and at different frames.
+    - **Click a key icon and drag** to select a range of keys on different columns and at different frames.
 
-    - Shift-click to extend the selection to a specific key. 
+    - **Shift-click** to extend the selection to a specific key. 
 
-    - Ctrl-click (PC) or Cmd-click (Mac) to add to, or remove a key to the selection.
+    - **Ctrl-click** (PC) or **Cmd-click** (Mac) to add to, or remove a key to the selection.
 
-    - Right-click a key icon and choose the related command from the menu that opens to perform specific selections, such as all keys in the row, all previous ones, all following ones, etc.
+    - **Right-click** a key icon and choose the related command from the menu that opens to perform specific selections, such as all keys in the row, all previous ones, all following ones, etc.
 
 .. tip:: **To move a key selection:**
 
@@ -774,143 +774,144 @@ All animations and interpolations set for the column can be visible and edited w
 
     Do one of the following:
 
-    - Use the Copy command to keep the selection in memory for further operations.
+    - Use the **Cut** command to eliminate the selection from the scene and keep it in memory for further operations.
 
-    - Use the Cut command to eliminate the selection from the scene and keep it in memory for further operations.
+    - Use the **Copy** command to keep the selection in memory for further operations.
 
-    - Use the Paste command to paste the selection kept in memory starting from the selected cell. 
+    - Use the **Paste** command to paste the selection kept in memory starting from the selected cell. 
 
-    - Use the Delete command to delete the selection.
+    - Use the **Delete** command to delete the selection.
 
-.. note:: All these commands are also available in the menu that opens when right-clicking the key icon.
+    .. note:: All these commands are also available in the menu that opens when right-clicking the key icon.
 
 .. tip:: **To set the speed of the movement or transformation:**
 
-    Click the arrowheads available on the vertical line connecting two subsequent keys, and drag them up or down to the new position. In particular:
+    **Click the arrowheads** available on the vertical line connecting two subsequent keys, **and drag them up or down** to the new position. In particular:
 
-    - To set a constant speed, drag the top arrowhead close to the first key icon to eliminate the ease in section, and the bottom arrowhead close to the second key icon to eliminate the ease out section.
+    - To set a **constant speed**, drag the top arrowhead close to the first key icon to eliminate the ease in section, and the bottom arrowhead close to the second key icon to eliminate the ease out section.
 
-    - To set a continuous acceleration, drag both arrowheads close to the second key icon in order to increase the speed in section.
+    - To set a **continuous acceleration**, drag both arrowheads close to the second key icon in order to increase the speed in section.
 
-    - To set a continuous deceleration, drag both arrowheads close to the first key icon in order to increase the speed out section.
+    - To set a **continuous deceleration**, drag both arrowheads close to the first key icon in order to increase the speed out section.
 
 .. tip:: **To make the arrowheads available when they are not:**
 
-    Right-click the vertical line connecting two subsequent keys and choose Reset Interpolation from the menu that opens.
+    Right-click the vertical line connecting two subsequent keys and choose **Reset Interpolation** from the menu that opens.
 
 .. tip:: **To activate/deactivate the cycling of previously created keys:**
 
-    Click the tab with a circular arrow (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled movement are marked on the right by a vertical zigzagged line. 
+    Click the **Circular arrow** icon (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled movement are marked on the right by *a vertical zigzagged line*. 
 
-.. tip:: **To open the function editor:**
+.. tip:: **To open the Function Editor:**
 
     Do one of the following:
 
     - Double-click a key. 
 
-    - Right-click a key and choose Function Editor from the menu that opens.
+    - Right-click a key and choose **Function Editor** from the menu that opens.
 
 
 .. _working_with_multiple_column_keys:
 
 Working with Multiple Column Keys
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-It is possible to insert or delete keys affecting the Xsheet as a whole, or a selection of Xsheet columns. 
+It is possible to insert or delete keys affecting the Xsheet/Timeline as a whole, or a selection of Xsheet columns (or Timeline layers). 
 
-Inserting or deleting multiple keys allows you to manage keys for several columns at the same time, for instance when you are working on a cutout animation where keys may be required for all the columns where model sections are exposed (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ). 
+Inserting or deleting multiple keys allows you to manage keys for several columns/layers at the same time, for instance when you are working on a cutout animation where keys may be required for all the columns/layers where model sections are exposed (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ). 
 
 .. note:: Inserted keys are created for all the column transformations.
 
-When a multiple key is inserted at the current frame, a key is created for each Xsheet column where an animation level is exposed; if a column selection is defined, keys are created in selected columns only (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
+When a multiple key is inserted at the current frame, a key is created for each Xsheet column (or Timeline layer) where an animation level is exposed; if a column/layer selection is defined, keys are created in selected columns/layers only (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
 
-When a multiple key is deleted at the current frame, any key available in any Xsheet column at the current frame, is deleted; if a column selection is defined, keys are deleted in selected columns only.
+When a multiple key is deleted at the current frame, any key available in any Xsheet column (or Timeline layer) at the current frame is deleted; if a column/layer selection is defined, keys are deleted in selected columns/layers only.
 
 .. tip:: **To create several keys at once:**
 
     1. Do one of the following:
 
-    - Select the columns for which you want to create keys.
+    - Select the columns/layers for which you want to create keys.
 
-    - Select no column by clicking anywhere in the Xsheet, to create keys for all the Xsheet columns.
+    - Select no column by clicking anywhere in the Xsheet/Timeline, to create keys for all the columns/layers.
 
     2. Select the frame where you want to insert keys.
 
-    3. Choose Xsheet > Insert Multiple Keys.
+    3. Choose Xsheet > **Insert Multiple Keys**.
 
 .. tip:: **To remove several keys at once:**
 
     1. Do one of the following:
 
-    - Select the columns from which you want to delete keys.
+    - Select the columns/layers from which you want to delete keys.
 
-    - Select no column by clicking anywhere in the Xsheet, to delete keys from all the Xsheet columns.
+    - Select no column by clicking anywhere in the Xsheet/Timeline, to delete keys from all the columns/layers.
 
     2. Select the frame where you want to delete keys.
 
-    3. Choose Xsheet > Remove Multiple Keys.
+    3. Choose Xsheet > **Remove Multiple Keys**.
 
 
 .. _working_in_a_3d_environment:
 
 Working in a 3D Environment
 ---------------------------
-You can place and move cameras, the table, pegbars and columns in a 3D environment, as if they were elements on a real 3D stage. 
+You can place and move cameras, the table, pegbars and columns/layers in a 3D environment, as if they were elements on a real 3D stage. 
 
-This means that it is possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
+This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
 
-The 3D environment can be activated, or deactivated, with the 3D button (|3d|) available in the viewer title bar. When activated the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top view can be set. 
+The 3D environment can be activated, or deactivated, with the **3D** button (|3d|) available in the Viewer title bar. When activated, the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top viewpoint can be set. 
 
-By default all the pegbars and columns are on the table: their Z position is equal to the number of horizontal fields defined for the default camera, as the value represents the size of the area that is shot by the camera (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). By increasing the field value, objects are placed farther from the camera; by decreasing it, objects are placed closer to the camera; at zero they are at the same Z position as the camera and for negative value they are behind the camera.
+By default all the pegbars and columns are on the table: their Z position is equal to the number of horizontal fields defined for the default camera (as the value represents the size of the area that is shot by the camera) (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). By increasing the field value, objects are placed farther from the camera; by decreasing it, objects are placed closer to the camera; at zero they are at the same Z position as the camera, and for negative values they are behind the camera.
 
-As concerning the camera, by default its Z position is equal to the number of horizontal fields defined for the default camera. By increasing the field value, the camera moves farther from the table; by decreasing it, it moves closer; at zero it is at the same Z position of the table and for negative value it is behind the table.
+As concerning the camera, by default its Z position is equal to the number of horizontal fields defined for the default camera. By increasing the field value, the camera moves farther from the table; by decreasing it, it moves closer; at zero it is at the same Z position of the table and for negative values it is behind the table.
 
-As soon as objects are moved, projections on an imaginary floor and side wall let you understand the position of the drawings in relation to each other and to the camera. If the current object is a column, a dotted bounding box displays the way the column content will be shot by the camera.
+As soon as objects are moved, *projections on an imaginary floor and side wall* let you understand the position of the drawings in relation to each other and to the camera. If the current object is a column/layer, a dotted bounding box displays the area of it currently being shot by the camera.
 
-The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it's possible to define an additional Z position value in the tool options bar that sets the position at which the object has to keep its original size. 
+The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it's possible to define an additional Z position value in the tool options bar, that sets the position at which the object has to keep its original size. 
 
-.. note:: Columns closer to the camera are displayed on top of the others, ignoring the Xsheet/Timeline order and the SO value. In case two or several columns have exactly the same distance, the SO value prevails; if two or several columns have exactly the same distance and SO value, the Xsheet/Timeline order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+.. note:: Columns closer to the camera are displayed on top of others, ignoring the Xsheet/Timeline order and the **SO** value. In case two or several columns have exactly the same distance, the **SO** value prevails; if two or several columns have exactly the same distance and SO value, the Xsheet column (or Timeline layer) order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
 .. tip:: **To enter the 3D environment:**
 
-    Click the 3D view button (|3d|) available on the right of the viewer title bar.
+    Click the **3D View** button (|3d|) available on the right of the viewer title bar.
 
 .. tip:: **To set an object position in the 3D environment:**
 
-    1. Activate the 3D view.
+    1. Activate the **3D View**.
 
     2. Select the object you want to move.
 
-    3. Select the Animate tool (|animate|).
+    3. Select the **Animate** tool (|animate|).
 
     4. Do one of the following:
 
-    - Enter a value for the Z position in the tool options bar.
+    - Enter a value for the **Z** position in the tool options bar.
 
-    - Use the double-arrow handle parallel to the floor of the 3D environment to move the selected object and set its Z position.
+    - Use the **double-arrow handle** parallel to the floor of the 3D environment, to move the selected object and set its Z position.
 
 .. tip:: **To set at which position the object has to keep its original size:**
 
-    Enter a value for the additional Z position field displayed in brackets in the tool options bar. For example if you want a column content to keep its original size when placed at the Z position 8, also enter 8 as the value in brackets.
+    Enter a value for the **additional Z position** field *displayed in brackets* in the tool options bar. For example if you want a column content to keep its original size when placed at the Z position 8, also enter 8 as the value in brackets.
 
 .. tip:: **To move the work area displayed in 3D:**
 
-    Select the Hand tool(|hand|) and drag in the viewer.
+    Select the **Hand** tool(|hand|) and drag in the viewer.
 
 .. tip:: **To rotate the work area displayed in 3D:**
 
-    Select the Rotate tool(|rotate|) and drag in the viewer.
+    Select the **Rotate** tool(|rotate|) and drag in the viewer.
 
 .. tip:: **To set a side or a top view:**
 
     Do one of the following:
 
-    - To set a Side view use the button (|side_view|) available on the side wall or the 3D environment.
+    - To set a **Side view** use the button (|side_view|) available on the side wall or the 3D environment.
 
-    - To set a Top view use the button (|top_view|) available on the floor or the 3D environment.
+    - To set a **Top view** use the button (|top_view|) available on the floor or the 3D environment.
 
 .. tip:: **To exit the 3D environment:**
 
-    Click the camera stand (|camera_stand|) or camera view (|camera_view|) buttons available on the right of the viewer title bar.
+    Click the **Camera Stand** (|camera_stand|) or **Camera View** (|camera_view|) buttons available on the right of the viewer title bar.
+
 
 
 
