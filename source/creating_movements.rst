@@ -600,8 +600,8 @@ If you want to set a key for an object transformation, maintaining its value as 
 
 .. _changing_columns_stacking_order:
 
-Changing Columns/Layers Stacking Order
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Changing Stacking Order of Columns/Layers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The column/layer stacking order, which sets which drawings and images are placed on top or behind, other images, by default depends on how columns/layers are placed in the Xsheet/Timeline: Xsheet direction is from left to right, while Timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top. 
 
 This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element.
@@ -825,8 +825,8 @@ All animations and interpolations set for the column/layer can be visible and ed
 
 .. _working_with_multiple_column_keys:
 
-Working with Multiple Column Keys
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Working with Multiple Column/Layer Keys
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 It is possible to insert or delete keys affecting the Xsheet/Timeline as a whole, or a selection of Xsheet columns (or Timeline layers). 
 
 Inserting or deleting multiple keys allows you to manage keys for several columns/layers at the same time, for instance when you are working on a cutout animation where keys may be required for all the columns/layers where model sections are exposed (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ). 
