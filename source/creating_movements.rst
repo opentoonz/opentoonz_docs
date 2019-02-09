@@ -420,39 +420,39 @@ You can animate the position, rotation, scale and shear (plus edit the center) o
 
 In the **Animate tool** (|animate|) options bar you can set the following:
 
-    - **Select** lets you select which scene element is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself.
+    - **Select:** lets you select which scene element is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself.
     
-    - **Tool Mode** lets you choose which transformation category to display in the tool options bar. Options are: Position, Rotation, Scale, Shear, Center and All.
+    - **Tool Mode:** lets you choose which transformation options to display in the tool options bar. Options are: **Position**, **Rotation**, **Scale**, **Shear**, **Center** and **All**.
 
-    - **Position** **N/S** and **E/W** sets the vertical and horizontal positions of the selected object, position **Z** sets the position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and position **SO** sets the column stacking order that can be different from the one defined in the Xsheet (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+    - **Position** **N/S** and **E/W** set the vertical and horizontal positions of the selected object, position **Z** sets its position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO** sets the column/layer stacking order, that can be different from the one defined in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
-|animate_tool_position|
+    |animate_tool_position|
 
     - **Rotation** sets the rotation of the selected object.
 
-|animate_tool_rotation|
+    |animate_tool_rotation|
 
-    - **Scale Global**, **H** and **V** sets the global, horizontal and vertical scaling of the selected object. Maintain sets the constraint for scaling operations performed by using the Animate tool handle: if it is set to A/R the object will maintain its proportions, if it is set to Mass the object will maintain its overall size even when changing proportions.
+    - **Scale Global**, **H** and **V** set the global, horizontal and vertical scaling of the selected object. **Maintain:** sets a constraint for scaling operations performed by using the Animate tool handle: if it is set to **A/R** the object will maintain its proportions, if it is set to **Mass** the object will maintain its overall volume.
 
-|animate_tool_scale|
+    |animate_tool_scale|
 
-    - **Shear** **H** and **V** sets the horizontal and vertical shearing of the selected object.
+    - **Shear** **H** and **V** set the horizontal and vertical shearing of the selected object.
 
-|animate_tool_shear|
+    |animate_tool_shear|
 
-    - **Center** **N/S** and **E/W** sets the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
+    - **Center** **N/S** and **E/W** set the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
 
-|animate_tool_center|
+    |animate_tool_center|
 
-    - **All** displays all transformation types at the same time. In the Viewer a handle will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center. In case there is not enough room available in the toolbar to show all of the options, arrow buttons will be shown at the right/left extremes to access the hidden options by scrolling.
+    - **All** displays all transformation types at the same time. In the viewer a handle will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center.
 
-|animate_tool_all|
+    |animate_tool_all|
 
-    - **Pick** (only available in **All** mode) lets the user choose to automatically select columns or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column containing the drawing is linked (if there is one).
+    - **Pick:** (only available in All mode) lets the user choose to automatically select columns/layers or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column/layer; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column/layer containing the drawing is linked (if there is one); qhen set to **None** the selection of drawings in the viewer is disabled.
 
     - **Lock buttons** (|lock|) define which values remain locked while transforming the object.
 
-    - **Global Key** when activated, sets a key for all of the object transformations as soon as a key is set for any of its transformations interactively in the Viewer. For example if you change the position of an object, thus defining a keyframe for it, keys will also be automatically defined for the rotation, scaling and shearing transformations as well. This option will not take any effect if the values for the property are instead input directly in the toolbar.
+    - **Global Key** when activated, sets a key for all of the object transformations as soon as a key is set for any of its transformations interactively in the viewer. For example if you change the position of an object, thus defining a keyframe for it, keys will also be automatically defined for the rotation, scaling and shearing transformations as well. This option will not take any effect if the values for the property are input directly in the toolbar, and not interactively.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
