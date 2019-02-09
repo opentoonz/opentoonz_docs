@@ -740,8 +740,8 @@ It's also possible to link the key positions of the objects to the positions of 
 
 .. _using_column_keys:
 
-Using Column/Layer Keys
------------------------
+Using Keys in Columns/Layers
+----------------------------
 When columns/layers are animated, their animation can be controlled in a quick way by managing keyframes and interpolations directly in the Xsheet or Timeline, with no need to use the Function Editor.
 
 As soon as a keyframe is defined for a column/layer, a **Key icon** is displayed on the right of the column/layer cell to which it refers; the key is displayed regardless of how many parameters are animated. Keys can be moved within the column/layer they refer to, and selected in order to be cut/copied and pasted from one cell to another. 
