@@ -1342,7 +1342,7 @@ To find a particular section in an audio file, you can examine it by scrubbing i
 .. _lip_synching:
 
 Lip Synching
-''''''''''''
+------------
 When you need to synchronize the movement of a character’s lips with the sound of the speech, you can take advantage of the possibility to examine the audio files loaded in the scene.
 
 Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the **Skeleton** tool (|skeleton|) features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
@@ -1432,15 +1432,15 @@ While Papagayo-NG takes care of the audio file analysis and phoneme recognition,
     
     2. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option.
     
-    2. A dialog opens letting you choose which level drawings to assign to each phoneme. 
+    3. A dialog opens letting you choose which level drawings to assign to each phoneme. 
 
-    3. Use the **Lip Sync Data File:** browser to retrieve the DAT file you exported from Papagayo-NG, and click the **Choose** button.
+    4. Use the **Lip Sync Data File:** browser to retrieve the DAT file you exported from Papagayo-NG, and click the **Choose** button.
 
-    4. The **Insert at Frame:** parameter should already be showing the frame number of the cell you previously selected. Still, you can change it to make the lip sync start at another frame.
+    5. The **Insert at Frame:** parameter should already be showing the frame number of the cell you previously selected. Still, you can change it to make the lip sync start at another frame.
     
-    5. Activate the **Extend Rest Drawing to End Marker** if you want to copy the *Rest Drawing* to all the remaining frames between the loaded lip sync ending, and the frame where the *End Marker* of the Xsheet/Timeline is set.
+    6. Activate the **Extend Rest Drawing to End Marker** if you want to copy the *Rest Drawing* to all the remaining frames between the loaded lip sync ending, and the frame where the *End Marker* of the Xsheet/Timeline is set.
 
-    6. Click the **Apply** button.
+    7. Click the **Apply** button.
 
 
 .. _using_memos:
