@@ -1414,7 +1414,7 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
 
 Importing Papagayo-NG Files
 '''''''''''''''''''''''''''
-It is possible to import into the Xsheet/Timeline DAT files (i.e. Toonz Lip Sync) exported from Papagayo-NG, a lip-sync and animation timing tool. 
+It is possible to import into the Xsheet/Timeline DAT files exported from Papagayo-NG, a lip-sync and animation timing tool. 
 
 |apply_lip_sync_data| 
 
