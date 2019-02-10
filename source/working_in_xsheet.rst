@@ -1345,9 +1345,9 @@ Lip Synching
 ''''''''''''
 When you need to synchronize the movement of a character’s lips with the sound of the speech, you can take advantage of the possibility to examine the audio files loaded in the scene.
 
-Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the Skeleton tool (|skeleton|) features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
+Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the **Skeleton** tool (|skeleton|) features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
 
-The breakdown of audio files can be done by looking at the sound wave in the scene column, for example to spot where each word starts; by scrubbing the loaded audio clips with the current frame cursor either in the Xsheet frame column or in the viewer framebar; and by listening to specific sections of the audio files.
+The breakdown of audio files can be done by looking at the sound wave in the scene column, for example to spot where each word starts; by scrubbing the loaded audio clips with the current frame cursor either in the Xsheet/Timeline frame ruler or in the Viewer framebar; and by listening to specific sections of the audio files.
 
 When mouth images are placed in the proper place, you can check the sync by scrubbing or selecting again the audio file section you are interested in, because while listening to the selected audio section, the viewer will display the related animation frames.
 
@@ -1357,23 +1357,23 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
     Do one of the following:
 
-    - Drag the Xsheet frame cursor up or down to scrub all the audio columns whose Camera Stand toggle is active.
+    - Drag the Xsheet/Timeline frame cursor forward or backwards to scrub all the audio levels whose Camera Stand toggle is active.
 
-    - Drag the frame cursor in the viewer framebar to scrub all the audio columns whose Camera Stand toggle is active.
+    - Drag the frame cursor in the Viewer framebar to scrub all the audio columns whose Camera Stand toggle is active.
 
-    - Windows only: click and drag on the dashed vertical strip available on the right of the audio column cells: the selected section will be automatically played back.
+    - Windows only: click and drag on the dashed strip available on the audio level cells: the selected section will be automatically played back.
 
 .. tip:: **To flip through the mouth drawings:**
 
     1. Do one of the following:
 
-    - Select in the Xsheet the animation level containing the mouth drawings.
+    - Select in the Xsheet or Timeline the animation level containing the mouth drawings.
 
-    - Right-click in the work area on the mouth drawing you want to flip through, and choose the Select command related to the column containing the drawing you clicked.
+    - Right-click in the viewer over the mouth drawing you want to flip through, and choose the **Select** command related to the column/layer containing the drawing you clicked.
 
-    2. Choose the Skeleton tool (|skeleton|) and set the tool mode to Animate.
+    2. Choose the **Skeleton** tool (|skeleton|) and set the tool mode to **Animate**.
 
-    3. In the work area click the label with the level name on the right of the current section pivot point and flip through following and previous frames by doing one of the following:
+    3. In the viewer click the label with the level name on the right of the current section pivot point and flip through following and previous frames by doing one of the following:
 
     - Drag up or down.
 
@@ -1384,7 +1384,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
 Importing Magpie Files
 ''''''''''''''''''''''
-For lip synching it is possible to import into the Xsheet/Timeline .TLS files (i.e. Toonz Lip Sync) exported from Magpie, a professional lip-sync and animation timing tool. 
+It is possible to import into the Xsheet/Timeline .TLS files (i.e. Toonz Lip Sync) exported from Magpie, a lip-sync and animation timing tool. 
 
 |magpie_import| 
 
@@ -1409,6 +1409,38 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
     - Use the **Animation Level** section to retrieve the animation level you want to expose in the Xsheet/Timeline, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frames of the selected animation level.
 
     4. Click the **Import** button.
+
+.. _importing_papagayo_files:
+
+Importing Papagayo-NG Files
+'''''''''''''''''''''''''''
+It is possible to import into the Xsheet/Timeline DAT files (i.e. Toonz Lip Sync) exported from Papagayo-NG, a lip-sync and animation timing tool. 
+
+|apply_lip_sync_data| 
+
+While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synched sound, the correspondent sound level should be manually loaded too.
+
+.. tip:: **To export the OpenToonz lip sync file in Papagayo-NG:**
+
+    1. In Papagayo-NG, from the **Export:** dropdown menu, select **MOHO**.
+
+    2. Press the **Export** button, to export a .DAT file.
+
+.. tip:: **To import a Papagayo-NG file:**
+
+    1. Expose in the Xsheet/Timeline at least one drawing of the level containing the mouth shapes set.
+    
+    2. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option.
+    
+    2. A dialog opens letting you choose which level drawings to assign to each phoneme. 
+
+    3. Use the **Lip Sync Data File:** browser to retrieve the DAT file you exported from Papagayo-NG, and click the **Choose** button.
+
+    4. The **Insert at Frame:** parameter should already be showing the frame number of the cell you previously selected. Still, you can change it to make the lip sync start at another frame.
+    
+    5. Activate the **Extend Rest Drawing to End Marker** if you want to copy the *Rest Drawing* to all the remaining frames between the loaded lip sync ending, and the frame where the *End Marker* of the Xsheet/Timeline is set.
+
+    6. Click the **Apply** button.
 
 
 .. _using_memos:
@@ -1770,6 +1802,7 @@ Elements defined in the CSS are the following:
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |audio| image:: /_static/xsheet/audio.png
 .. |magpie_import| image:: /_static/xsheet/magpie_import.png
+.. |apply_lip_sync_data| image:: /_static/xsheet/apply_lip_sync_data.png
 .. |memo| image:: /_static/xsheet/memo.png
 .. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
 .. |export_scene| image:: /_static/xsheet/export_scene.png
