@@ -779,27 +779,29 @@ In the tool options bar you can set the following:
 
 When a selection is made, it is displayed with a bounding box with handles that allow you to perform the following transformations:
 
-    - Click and drag any corner handle to scale the selection freely; by pressing the Shift key while dragging the scaling will be uniform; by pressing the Alt key the scaling will be applied from the center.
+    - **Scale**, click and drag any corner handle to scale the selection freely; by pressing the Shift key while dragging the scaling will be uniform; by pressing the Alt key the scaling will be applied from the center.
 
-    - Click and drag any side handle to scale the selection in one direction; by pressing the Alt key the scaling will be applied symmetrically from the center.
+    - **Scale in one direction**, click and drag any side handle to scale the selection in one direction; by pressing the Alt key the scaling will be applied symmetrically from the center.
 
-    - Click and drag outside any corner handle to rotate the selection.
+    - **Rotate**, click and drag outside any corner handle to rotate the selection.
 
-    - Click and drag the center handle to change the center of rotation, and the center used when Alt-scaling.
+    - **Center**, click and drag the center handle to change the center of rotation, and the center used when Alt-scaling.
 
-    - Ctrl-click (PC) or Cmd-click (Mac) any corner handle to distort the selection, or any side handle to shear it.
+    - **Distort**, Ctrl-click (PC) or Cmd-click (Mac) any corner handle to distort the selection, or any side handle to shear it.
 
-     .. note:: Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in Whole Level mode (see above).
+     .. note:: Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in **Whole Level** modes (see above).
 
-    - Click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This is available for Toonz vector drawings only.
+    - **Thickness**, click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This is available for Toonz vector drawings only.
 
-    - Click and drag the inside of the raster selection, or any selected vector of a vector selection, to move it; by pressing the Shift key while dragging, the movement will be constrained on the horizontal or vertical direction. The Arrow keys can be used as well to move the selection one pixel right, left, up or down; if they are used while pressing the Shift key, the movement size will be ten pixels.
+    - **Move**, click and drag the inside of the raster selection, or any selected vector of a vector selection, to move it; by pressing the Shift key while dragging, the movement will be constrained on the horizontal or vertical direction.
+    
+     .. note:: The Arrow keys can be used as well to move the selection one pixel right, left, up or down; if they are used while pressing the Shift key, the movement size will be ten pixels.
 
-    - Click outside the selection to apply the transformation.
+    - **Apply transformation**, click outside the selection to apply the transformation.
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate the operations you may perform. 
 
-Selections can also be cut, copied, pasted and deleted by using the relevant command in the Edit menu. Cut or copy and paste also works from one drawing to another, or to a new one. This allows you to copy or move a section of a drawing to another drawing, or split a drawing into several ones.
+Selections can also be Cut, Copied, Pasted and Deleted by using the relevant command in the Edit menu. Cut or copy and paste also works from one drawing to another, or to a new one. This allows you to copy or move a section of a drawing to another drawing, or split a drawing into several ones.
 
 When a drawing in a Toonz level, or a section of it, is pasted to another one, the colors of the pasted drawing are added to the palette of the target level, unless the same colors are already available in the palette.
 
