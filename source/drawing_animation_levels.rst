@@ -745,47 +745,39 @@ Drawings can be also selected directly in the viewer: this allows you to work on
 
 Using the Selection Tool
 ''''''''''''''''''''''''
-The Selection tool (|selection|) allows you to edit, move, rotate, scale and distort a selection in a drawing. 
-
-
+The **Selection** tool (|selection|) allows you to edit, move, rotate, scale and distort a selection in a drawing. 
 
 In the tool options bar you can set the following:
 
-- Type has the options Rectangular, to select the area of the box you define by clicking and dragging; Freehand, to select the area you outline by clicking and dragging; and Polyline, to select the area you outline by defining a series of lines. In vector drawings, a vector is selected only if it is fully included in the area you define.
+- **Type:** has the options **Rectangular**, to select the area of the box you define by clicking and dragging; **Freehand**, to select the area you outline by clicking and dragging; and **Polyline**, to select the area you outline by defining a series of lines. In vector drawings, a vector stroke is selected only if it is fully included in the area you define.
 
-- Mode has the options Standard, to select vectors; Selected Frames, to edit all the lines of Selected Frames at once; Whole Level, to transform all of the drawings of the current animation level; Same Style, to select at once all of the vectors painted with the same style in the current drawing; Same Style on Selected Frames, to select at once all of the vectors painted with the same style in the Selected Frames of the current animation level; Same Style on Whole Level, to select at once all of the vectors painted with the same style in all the drawings of the current animation level; Boundary Strokes, to select all the bounderies stroke of the current drawing; Boundary Strokes on Selected Frames, to select all the bounderies stroke of the Selected Frame; Boundary Strokes on Whole Level, to select all the bounderies stroke of the Whole Level.This is available for Toonz vector drawings only.
+- **Mode:** has the options **Standard**, to select vectors; **Selected Frames**, to edit all the lines of selected frames at once; **Whole Level**, to transform all of the drawings of the current animation level; **Same Style**, to select at once all of the vectors painted with the same style in the current drawing; **Same Style on Selected Frames**, to select at once all of the vector strokes painted with the same style in the selected frames of the current animation level; **Same Style on Whole Level**, to select at once all of the vector strokes painted with the same style in all the drawings of the current animation level; **Boundary Strokes**, to select all the boundary strokes of the current drawing; **Boundary Strokes on Selected Frames**, to select all the boundary strokes of the selected frames; **Boundary Strokes on Whole Level**, to select all the boundary strokes of the whole level.This is available for Toonz Vector drawings only.
 
-- Preserve Thickness will preserve the original thickness of the drawing vectors while performing resizing operations. This is available for Toonz vector drawings only.
+- **Preserve Thickness** will preserve the original thickness of the drawing vectors while performing resizing operations. This is available for Toonz Vector drawings only.
 
-- Scale H and V set the horizontal and vertical scaling of the current selection; activating the Link options will maintain the proportions of the selection.
+- **Scale H** and **V** set the horizontal and vertical scaling of the current selection; activating the **Link** options will maintain the proportions of the selection.
 
-- Rotation sets the rotation of the current selection.
+- **Rotation** sets the rotation of the current selection.
 
-- Position N/S and E/W set a vertical and horizontal offset for the selection.
+- **Position N/S** and **E/W** set a vertical and horizontal offset for the selection.
 
-- Thickness sets the thickness of the selected vectors. In case the selected vectors have a variable thickness, or different thickness values, the highest value is displayed, and any change will affect the other values accordingly. This is available for Toonz vector drawings only.
+- **Thickness** sets the thickness of the selected vector strokes. In case the selected strokes have variable thickness, or different thickness values, the highest value is displayed, and any change will affect the other values accordingly. This is available for Toonz Vector drawings only.
 
-- The cap option sets the shape of the ends of the selected vectors. Options are butt for squared ends, round for semicircular ends, and projecting for squared ends extending beyond the end of the line according to the vector thickness. This is available for vector drawings only.
+- **Cap:** sets the shape of the ends of the selected vector strokes. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the stroke thickness. This is available for Toonz Vector drawings only.
 
+- **Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
 
+- **Miter:** sets the maximum length of a *Miter* join, that is computed multiplying the Miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector drawings only, and only if the **Join:** option is set to **Miter**.
 
+- **Modify Savebox** check box allows you to resize the *Savebox* of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Toonz Raster drawings only.
 
-    - The join option sets the shape of the straight corners along the selected vectors. Options are miter for pointed corners, round for rounded corners, bevel for squared corner. This is available for vector drawings only.
+  .. note:: The *Savebox* size can be set automatically to the minimum size by activating the Preferences > Drawing > **Minimize Savebox after Editing** option.
 
+- **No Antialias** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Toonz Raster and Raster drawings only.
 
+.. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using the arrow buttons available at its ends.
 
-
-    - Miter sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the miter join is turned into a bevel join. This is available for vector drawings only, and only if the join option is set to miter.
-
-    - The Modify Savebox check box allows you to resize the Savebox of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Toonz raster drawings only.
-
-.. note:: The Savebox size can be set automatically to the minimum size activating the Preferences> Drawing> Minimize Savebox after Editing Option.
-
-    - When the No Antialias option is activated the antialiasing is not applied when the selection is deformed or rotated. This is available on Raster and Toonz raster drawings only.
-
-.. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
-
-When a selection is made, it is displayed with a bounding box with handles that allows you to perform the following transformations:
+When a selection is made, it is displayed with a bounding box with handles that allow you to perform the following transformations:
 
     - Click and drag any corner handle to scale the selection freely; by pressing the Shift key while dragging the scaling will be uniform; by pressing the Alt key the scaling will be applied from the center.
 
@@ -797,7 +789,7 @@ When a selection is made, it is displayed with a bounding box with handles that 
 
     - Ctrl-click (PC) or Cmd-click (Mac) any corner handle to distort the selection, or any side handle to shear it.
 
-.. note:: Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in Whole Level mode (see above).
+     .. note:: Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in Whole Level mode (see above).
 
     - Click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This is available for Toonz vector drawings only.
 
@@ -805,23 +797,23 @@ When a selection is made, it is displayed with a bounding box with handles that 
 
     - Click outside the selection to apply the transformation.
 
-.. note:: As you roll over the handles, the cursor changes shape to indicate you the operations you may perform. 
+.. note:: As you roll over the handles, the cursor changes shape to indicate the operations you may perform. 
 
-Selections can also be cut, copied, pasted and deleted by using the relevant command in the Edit menu. Cut, or copy, and paste also works from one drawing to another, or to a new one. This allows you to copy or move a section of a drawing to another drawing, or split a drawing into several drawings.
+Selections can also be cut, copied, pasted and deleted by using the relevant command in the Edit menu. Cut or copy and paste also works from one drawing to another, or to a new one. This allows you to copy or move a section of a drawing to another drawing, or split a drawing into several ones.
 
-When a Toonz drawing, or a section of a drawing, is pasted to another one, the colors of the pasted drawing are added to the palette of the target one, unless the same colors are already available in the palette.
+When a drawing in a Toonz level, or a section of it, is pasted to another one, the colors of the pasted drawing are added to the palette of the target level, unless the same colors are already available in the palette.
 
 .. note:: The vector selection can also be used to change the style of selected vectors by choosing it in the palette, or by creating a new style. See  :ref:`Editing Styles <editing_styles>`  . 
 
 .. tip:: **To edit the drawing savebox:**
 
-    1. Activate the Modify Savebox option to visualize the savebox around the drawing. 
+    1. Activate the **Modify Savebox** option to visualize the savebox around the drawing. 
 
     2. Use the handles to resize it.
 
-    3. Switch Off the Modify Savebox check box to confirm the changes.
+    3. Deactivate the **Modify Savebox** option to confirm the changes.
 
-.. tip:: **To select and transform an area in a Toonz raster drawing or in a raster image:**
+.. tip:: **To select and transform an area in a Toonz Raster drawing or in a Raster image:**
 
     1. Select the area by doing one of the following:
 
@@ -837,35 +829,29 @@ When a Toonz drawing, or a section of a drawing, is pasted to another one, the c
 
     - Edit the scale, rotation and position values available in the tool options bar.
 
-
-
-
-.. tip:: **To select and transform vectors in a Toonz vector drawing:**
+.. tip:: **To select and transform vectors in a Toonz Vector drawing:**
 
     1. Select the vectors by doing one of the following:
 
-    - Click a vector to select it.
+    - Click a stroke to select it.
 
-    - Shift-click to add a vector to or remove it from the current selection.
+    - Shift-click to add a stroke to or remove it from the current selection.
 
-    - Set the type to Rectangular and click and drag right to define a box and select all the vectors that are completely included in the box; click and drag left to select all the vectors that are partially included in the box.
+    - Set the type to **Rectangular** and **click and drag to the right** to define a box and select all the strokes that are *completely* included in the box; **click and drag to the left** to select all the strokes that are *partially* included in the box.
 
-    - Set the type to Freehand and click and drag to outline an area and select all the vectors that are completely included in the area.
+    - Set the type to **Freehand** and click and drag to outline an area and select all the strokes that are completely included in the area.
 
-    - Set the type to Polyline and click to outline an area by defining a series of lines and select all the vectors that are completely included in the area.
+    - Set the type to **Polyline** and click to outline an area by defining a series of lines and select all the strokes that are completely included in the area.
 
-    - Set the mode to Same Style and click to select automatically all the vectors painted with the same style used for the vector you select in the current drawing, or Shift-click to add them to or remove them from the selection.
+    - Set the mode to **Same Style** and click to select automatically all the vectors painted with the same style used for the vector you select in the current drawing, or Shift-click to add them to or remove them from the selection.
 
-.. note:: When clicking a vector belonging to a group, the whole group is selected (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). 
+     .. note:: When clicking a stroke belonging to a group, the whole group is selected (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). 
 
-    2. Do one of the following to make geometric transformations:
+    2. Do one of the following to make a geometric transformations:
 
     - Operate the handles available along the bounding box.
 
     - Edit the scale, rotation, position and thickness values available in the tool options bar.
-
-
-
 
 .. tip:: **To select and transform all the drawings of a Toonz vector level:**
 
