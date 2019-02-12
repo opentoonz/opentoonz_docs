@@ -2,7 +2,7 @@
 
 Drawing Animation Levels
 ========================
-In OpenToonz it is possible to create and draw Toonz Vector levels (PLI format), Toonz Raster levels (TLV format) and standard Raster levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
+In OpenToonz it is possible to create and draw **Toonz Vector** levels (PLI format), **Toonz Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
 
 .. _drawing_in_toonz:
 
