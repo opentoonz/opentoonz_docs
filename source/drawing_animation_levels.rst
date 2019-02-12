@@ -2,19 +2,19 @@
 
 Drawing Animation Levels
 ========================
-In OpenToonz it is possible to draw Toonz Vector levels (PLI format), Toonz Raster levels (TLV format) and standard Raster levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and any loaded raster images.
+In OpenToonz it is possible to create and draw Toonz Vector levels (PLI format), Toonz Raster levels (TLV format) and standard Raster levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
 
 .. _drawing_in_toonz:
 
 Drawing In OpenToonz
 --------------------
-To draw an animation level, first you have to define its type, Toonz Vector, Toonz Raster or Raster, and its settings like its name, the number of frames it is made of and the way its drawings are numbered.
+To draw an animation level, first you have to define its type: Toonz Vector, Toonz Raster or Raster; and its settings like its name, the number of frames it's made of and the way its drawings are numbered.
 
-Toonz Vector levels are defined by drawing vector strokes; strokes and areas defined by strokes can be painted by using the styles available in the level palette. Toonz Vector levels have unlimited size and resolution, as they are vector-based. They are saved as PLI files.
+Toonz Vector levels are defined by drawing of vector strokes; strokes and areas defined by strokes can be painted by using the styles available in the level palette. Toonz Vector levels have an unlimited size and resolution, as they are vector-based. They are saved as PLI files.
 
-Toonz Raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz Raster levels have a limited size and resolution, defined when they are created. They are saved as TLV files.
+Toonz Raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz Raster levels have a specified size and resolution, defined when they are created. They are saved as TLV files.
 
-Raster levels are defined by drawing bitmap lines using the styles available in the raster drawing palette that is shared by all of the raster levels of the same project (see  :ref:`Project Default Folders <project_default_folders>`  ). Raster levels have a limited size and resolution, defined when they are created. They are saved as sequences of TIF files.
+Raster levels are defined by drawing bitmap lines using the styles available in the **Raster Drawing Palette**, that is shared by all of the Raster levels of the same project (see  :ref:`Project Default Folders <project_default_folders>`  ). Raster levels have a specified size and resolution, defined when they are created. They are saved as sequences of individual TIF files, one per level frame.
 
 When an animation level is defined, you can select any of its frames in the Xsheet/Timeline or in the Level Strip, and start drawing in the viewer. You can do this both, when you want to create a drawing from scratch, and when you want to edit a previously made drawing.
 
@@ -25,24 +25,24 @@ When selected in the Xsheet/Timeline, the viewer displays the whole scene conten
 
 Setting the Default Type of Level to Draw
 '''''''''''''''''''''''''''''''''''''''''
-It is possible to define the level type that will be created by default when you draw inside OpenToonz.
+It's possible to define the default level type that will be created when you draw inside OpenToonz.
 
-By default Toonz Raster and Toonz Vector levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
+By default Toonz Vector and Toonz Raster levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 .. tip:: **To define the Default Type of Level to Draw:**
 
-    1. Open File > Preferences.
+    1. Open File > Preferences > Drawing.
 
-    2. In the Drawing section, choose the level type you want to use as default from the Default Level Type option menu. Width, Height and DPI fields are available for Toonz Raster Level and Raster Level.
+    2. Choose the level type you want to use as default from the **Default Level Type:** option menu. **Width**, **Height** and **DPI** fields are available for **Toonz Raster Level** and **Raster Level** options.
 
-.. note:: The Width, Height and DPI values set in the File > Preferences > Drawing section will be used as default for the New Level dialog.
+.. note:: The Width, Height and DPI values set in the File > Preferences > Drawing section will also be used as default for the **New Level** dialog.
 
 
 Drawing Animation Levels
 ''''''''''''''''''''''''
 Animation levels can be created in the following ways:
 
-- Using the New Level dialog.
+- Using the **New Level** dialog.
 
 - Setting the Autocreation option to **Enabled**.
 
@@ -55,26 +55,25 @@ Using the New Level Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the Xsheet/Timeline, and the increment, that sets the way the level drawings are numbered. For example, step 2 repeats each drawing twice in the Xsheet column or Timeline layer, while increment 2 numbers the drawings 1, 3, 5, etc. The dialog also allows you to choose a destination folder, different from the default one, by using the Save In field.
 
-In case you define a Toonz Raster or a Raster level, you can set its Width, Height and DPI values, according to the way you want to use it in the scene.
+In case you define a Toonz Raster or a Raster level, you can set its **Width**, **Height** and **DPI** values, according to the way you want to use it in the scene.
 
 Settings like the length of the level and the numbering order can be edited later, as you are free to arrange the images composing an animation level the way you prefer (see  :ref:`Editing Animation Levels <editing_animation_levels>`  ).
 
-When a new level is created in an empty column, the color of the column header and cells where the new level gets exposed are colored denoting the type of level in that column: light yellow for Toonz Vector levels, light green for Toonz Raster levels, and light blue for standard Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
+When a new level is created in an empty column, the color of that column header and the cells where the new level gets exposed are colored denoting the type of level: **light yellow** for Toonz Vector levels, **light green** for Toonz Raster levels, and **light blue** for Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
-.. note:: The New Level dialog inherits the Default Level Type settings defined in Preferences > Drawing.
+.. note:: The New Level dialog inherits the **Default Level Type** settings defined in Preferences > Drawing.
 
 .. tip:: **To create a new animation level to draw:**
 
     1. Do one of the following:
 
-    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose File > New Level.
+    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose File > **New Level...**
 
-    - Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose New Level from the menu that opens.
+    - Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose **New Level...** from the menu that opens.
 
-    - (If the Xsheet/Timeline toolbar is visible) Click any of the three New Level buttons at the leftmost part of it.
+    - (If the Xsheet/Timeline toolbar is visible) Click any of the three **New Level buttons** at the leftmost part of it.
 
-    2. Choose the type of level, Toonz Vector, Toonz Raster or Raster, from the Type option menu and define its settings, then click the OK button.
-
+    2. Choose the type of level: Toonz Vector, Toonz Raster or Raster, from the **Type:** option menu and define its settings, then click the OK button.
 
     .. note:: When using the Xsheet/Timeline's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
 
@@ -82,35 +81,35 @@ When a new level is created in an empty column, the color of the column header a
 
 .. tip:: **To define the saving location for the level you want to draw:**
 
-    In the New Level dialog type in the Save In field, or use the browser button, to set the path for the saving location.
+    In the **New Level** dialog type in the **Save In:** field, or use the **Browser button**, to set the path for the saving location.
 
-.. note:: If in the browser you choose any project folder, in the path field the full path will be replaced by the correspondent folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
+    .. note:: If in the browser you choose any project folder, in the path field the full path will be replaced by the correspondent *folder alias* (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 
 .. _using_the_autocreation_option:
 
 Using the Autocreation Option
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences > Drawing the Autocreation option is set to Enabled, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is right below one containing a level drawing, either in the Xsheet/Timeline or in the Level Strip, a new drawing will be added to the level.
+When in Preferences > Drawing the **Autocreation:** option is set to **Enabled**, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is the one **right after** one containing a level drawing (either in the Xsheet/Timeline or the Level Strip) a new drawing will be added to that level.
 
-.. note:: The level type will be the one defined in Preferences > Drawing as Default Level Type.
+.. note:: The level type will be the one defined in Preferences > Drawing as **Default Level Type**.
 
 
 .. _using_the_xsheet_as_animation_sheet:
 
 Using the Xsheet as Animation Sheet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences > Drawing the Autocreation option is set to Use the Xsheet as Animation Sheet, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is below a cell containing a level drawing, a new drawing will be added to the level. In both cases the drawings will take its number from the scene current frame ; if the drawing already exists a letter will be added to its number (e.g. A.0001a.ext). 
+When in Preferences > Drawing the **Autocreation:** option is set to **Use the Xsheet as Animation Sheet**, it's possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is **anywhere after** one containing a level drawing, a new drawing will be added to that level. In both cases the drawings will take its number from the scene current frame ; if that drawing number already existed in the level, a letter will be added to its number (e.g. A.0001a.ext). 
 
-This working method allows you to work as a traditional animator: you can start creating the key drawings and then add breakdown and inbetween drawings.You can quickly check your animation flipping it in the viewer.
+This working method allows you to work as a traditional animator: you can start creating the *key drawings*, and then add *breakdown drawings*, and then *inbetween drawings*. You can quickly check your animation flipping it in the viewer.
 
-When you add a new drawing it will be repeated as a hold along the column up to the following one.
+When you add a new drawing it will be repeated as a *hold* along the column/layer up to the following one.
 
-It is also possible to create a new drawing in a cell that contains a hold: the new drawing will replace the hold up to the following drawing. Drawings can also be duplicated creating a copy with a different number.
+It's also possible to create a new drawing in a cell that contains a *hold*: the new drawing will replace the hold up to the following drawing. Drawings can also be duplicated creating a copy with a different number.
 
 Once the animation is completed you can renumber the whole sequence according to the Xsheet/Timeline frame numbering.
 
-.. note:: The level type will be the one defined in Preferences > Drawing as Default Level Type.
+.. note:: The level type will be the one defined in Preferences > Drawing as **Default Level Type**.
 
 .. tip:: **To create a new animation level**
 
@@ -118,15 +117,15 @@ Once the animation is completed you can renumber the whole sequence according to
 
 .. tip:: **To add a drawing to an existing level**
 
-    Click an empty cell in the column containing the level and start drawing using a drawing tool in the viewer.
+    Click an empty cell in the column/layer containing the existing level and start drawing using a drawing tool in the viewer.
 
 .. tip:: **To automatically renumber the drawings**
 
-    1. Select the drawings you want to renumber.
+    1. Select the cells with the drawings you want to renumber.
 
-    2. Choose the Cells > Autorenumber command.
+    2. Choose the Cells > **Autorenumber** command.
 
-.. note:: The Autorenumber command is also available in the menu that opens when right-clicking in a cell.
+     .. note:: The **Autorenumber** command is also available in the menu that opens when right-clicking in a cell.
 
 
 .. _using_the_work_area:
@@ -139,7 +138,7 @@ In the title bar you can find information about what is currently displayed and 
 
 At the bottom of the viewer another customizable set of buttons is available. 
 
-The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and in case the playback is activated, the actual frame rate is displayed on its left. 
+The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and, in case the playback is activated, the actual frame rate is displayed on its left. 
 
 The other buttons are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
@@ -151,25 +150,25 @@ The other buttons are relevant only using the Animate tool (|animate|) to animat
 
     Do one of the following:
 
-    - Use the Zoom tool (|zoom|): to zoom in, click and drag up; to zoom out, click and drag down. The point where you click is the center of the zooming action.
+    - Use the **Zoom** tool (|zoom|): to zoom in, click and drag up; to zoom out, click and drag down. The point where you click is the center of the zooming action.
 
     - Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at specific steps (e.g. 50%, 100%, 200%, etc.).
 
     - Use the mouse wheel to zoom in and zoom out.
 
-    - Middle-click and drag or use the Hand tool (|hand|) to scroll in any direction.
+    - Middle-click and drag or use the **Hand** tool (|hand|) to scroll in any direction.
 
-    - Use the Rotate tool (|rotate|) to rotate the viewer: an horizon line is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area.
+    - Use the **Rotate** tool (|rotate|) to rotate the viewer: an *horizon line* is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area.
 
-    - Use the reset view shortcut (by default the 0 key) or right-click in the viewer and select Reset View from the menu that opens, to display the viewer at its actual size, centered on the absolute center with no rotation applied.
+    - Use the reset view shortcut (by default the **Alt + 0** key) or right-click in the viewer and select **Reset View** from the menu that opens, to display the viewer at its actual size, centered on the absolute center with no rotation applied.
 
-    - Right-click and choose Fit to Window to automatically zoom the viewer so that it fits the camera box.
+    - Right-click and choose **Fit to Window** to automatically zoom the viewer so that it fits the camera box.
 
 .. tip:: **To play the scene contents back:**
 
     Do one of the following:
 
-    - Use the play button.
+    - Use the **Play** button.
 
     - Drag the frame bar cursor.
 
@@ -181,13 +180,13 @@ The other buttons are relevant only using the Animate tool (|animate|) to animat
 
     - Drag the frame bar cursor.
 
-    - Type in the frame bar field the number of the frame you want to view.
+    - Type in the **Current Frame** field the number of the frame you want to view.
 
 .. tip:: **To set the playback frame rate:**
 
     Do one of the following:
 
-    - Enter a value in the FPS field.
+    - Enter a value in the **FPS** field.
 
     - Use the frame rate slider.
 
@@ -198,23 +197,27 @@ Adjusting the Viewer Visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The way the viewer visualizes the scene content can be adjusted according to the task to perform.
 
-Full screen mode can be entered to maximize the viewer to the monitor screen, hiding any interface window border. This is available only on the Windows platform.
+**Full Screen** mode can be entered to maximize the viewer to the monitor screen, hiding any interface window border. This is available only on the Windows platform.
 
-Vector drawings, that can slow down the visualization performance when used in large amounts in a scene, can be visualized as raster drawings, faster to visualize, still preserving their vector nature.
+Vector drawings, that can slow down the visualization performance when used in large amounts in a scene, can be visualized as raster drawings, faster to visualize, still preserving their vector nature, by using the **Visualize Vector As Raster** option.
 
-.. note:: If the current level is vector-based, it's displayed as vector, to allow any drawing and editing operation you may perform.
+.. note:: If the current level is vector-based, it will still be displayed as vector to allow any drawing/editing operation you may perform.
 
 Raster drawings and images that usually are displayed in the viewer according to their DPI value, can be displayed at their actual pixel size, that is to say that one pixel from the image is displayed as one pixel of the screen monitor, to better examine them.
 
 .. note:: Visualizing an image at its actual pixel size is different from zooming in because zooming always takes into account the image DPI information.
 
-.. tip:: **Windows only - to enter/exit the viewer full screen mode:**
+.. tip:: **Windows only - To enter the viewer full screen mode:**
 
-    Right-click the viewer and choose Full Screen Mode/Exit Full Screen Mode from the menu that opens.
+    Right-click the viewer and choose **Full Screen Mode** from the menu that opens.
+
+.. tip:: **Windows only - To exit the viewer full screen mode:**
+
+    Right-click the viewer and choose **Exit Full Screen Mode** from the menu that opens.
 
 .. tip:: **To activate or deactivate the raster visualization for vector drawings:**
 
-    Activate or deactivate the View > Visualize Vector As Raster check.
+    Activate or deactivate the View > **Visualize Vector As Raster** option.
 
 .. tip:: **To display raster drawings and images at their actual pixel size:**
 
@@ -222,64 +225,64 @@ Raster drawings and images that usually are displayed in the viewer according to
 
     2. Select the drawing or image in the Level Strip in order to display it alone.
 
-    3. Use the Actual Pixel Size shortcut (by default the N key) or right-click in the viewer and choose Actual Pixel Size from the menu that opens.
+    3. Use the Actual Pixel Size shortcut (by default the **N** key) or right-click in the viewer and choose **Actual Pixel Size** from the menu that opens.
 
 
 .. _customizing_the_work_area:
 
 Customizing the Viewer
 ~~~~~~~~~~~~~~~~~~~~~~
-The viewer can be customized according to your needs: the background colors visible in the viewer and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View > Inks Only check allows to hide the painted areas of the levels facilitating the drawing process.
+The viewer can be customized according to your needs: the background colors visible in the viewer and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View > **Inks Only** check allows to hide the painted areas of the levels facilitating the drawing process.
 
 The set of buttons and information available in the bottom bar of the viewer can be customized as well, so that only the elements you require are visible.
 
 .. tip:: **To change the viewer background color:**
 
-    1. Open the Xsheet > Scene Settings dialog.
+    1. Open the File > Preferences > **Colors** dialog.
 
-    2. Define the Viewer BG Color by doing one of the following:
+    2. Define the **Viewer BG Color** by doing one of the following:
 
     - Set the Red, Green and Blue values.
 
-    - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
+    - Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
 .. tip:: **To change the camera box background color:**
 
-    1. Open the Xsheet > Scene Settings dialog.
+    1. Open the Xsheet > **Scene Settings...** dialog.
 
-    2. Define the Camera BG Color by doing one of the following:
+    2. Define the **Camera BG Color** by doing one of the following:
 
     - Set the Red, Green, Blue and Alpha values.
 
-    - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
+    - Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
 .. tip:: **To show or hide the table:**
 
-    Choose View > Table to show or hide the table.
+    Choose View > **Table** to show or hide the table.
 
 .. tip:: **To show or hide the camera box:**
 
-    Choose View > Camera Box to show or hide the camera box.
+    Choose View > **Camera Box** to show or hide the camera box.
 
     .. note:: The camera box visualization also triggers the safe area visualization (see below).
 
 .. tip:: **To show or hide the camera background color:**
 
-    Choose View > Camera BG Color to show or hide the camera box background color.
+    Choose View > **Camera BG Color** to show or hide the camera box background color.
 
 .. tip:: **To show or hide the field guide:**
 
-    Choose View > Field Guide to show or hide the field guide.
+    Choose View > **Field Guide** to show or hide the field guide.
 
 .. tip:: **To define the displayed field guide:**
 
-    1. Open the Xsheet > Scene Settings dialog.
+    1. Open the Xsheet > **Scene Settings...** dialog.
 
-    2. Define the Field Guide Size and A/R. Size is the number of width fields of the field guide (1 field is equal to 1 inch), and the A/R is the ratio between the field guide width and height.
+    2. Define the **Field Guide Size:** and **A/R:**. **Size** is the number of width fields of the field guide (1 field is equal to 1 inch), and the **A/R** is the ratio between the field guide width and height.
 
 .. tip:: **To show or hide the safe area:**
 
-    Choose View > Safe Area to show or hide the safe area.
+    Choose View > **Safe Area** to show or hide the safe area.
 
     .. note:: The safe area is not visible if the camera box is hidden (see above).
 
@@ -289,7 +292,7 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 .. tip:: **To move a custom guide:**
 
-    Drag its marker in the ruler.
+    Drag the custom guide marker in the ruler.
 
 .. tip:: **To delete a custom guide:**
 
@@ -297,13 +300,13 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 .. tip:: **To show or hide guides:**
 
-    Choose View > Guides to show or hide the guides.
+    Choose View > **Guides** to show or hide the guides.
 
 .. tip:: **To show or hide rulers where guide markers are located:**
 
-    Choose View > Rulers to show or hide the rulers.
+    Choose View > **Rulers** to show or hide the rulers.
 
-.. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
+     .. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
 
 .. tip:: **To customize the set of buttons in the bottom bar of the viewer:**
 
@@ -315,114 +318,101 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 Drawing Tools
 '''''''''''''
-You can draw by using the Brush (|brush|) and Geometric (|geometric|) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz vector levels, and from 1 to 100 for Toonz and standard raster levels.
+You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz Vector levels, and from 1 to 100 for Toonz Raster and Raster levels.
 
+.. note:: For Toonz Raster and Raster levels it's possible to set a Brush tool size higher than 100 by typing it in the Size value fields.
 
+.. note:: **Min** and **Max Size/Thickness** can be modified by either of these methods:
 
-.. note:: For Toonz and standard raster levels it is possible to set a the Brush tool size higher than 100 by typing the value in the Size text boxes.
-
-.. note:: The Min and Max Thickness can be modified by either of these methods:
-
-    1. Pressing Ctrl + Alt and moving the mouse. Moving horizontally changes the Max value, while moving vertically changes the Min value.
+    1. Pressing Ctrl + Alt and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value.
     
-    2. Using the predefined keyboard shortcuts. U and I for respectively decreasing and increasing the Max value, or H and J for respectively decreasing and increasing the Min value.
+    2. Using the predefined keyboard shortcuts. **U** and **I** for respectively decreasing and increasing the **Max** value, or **H** and **J** for respectively decreasing and increasing the **Min** value.
 
+With the **Brush** tool (|brush|), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
 
-With the Brush tool (|brush|), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
+With the **Geometric** tool (|geometric|), the thickness value is constantly applied to the whole shape you draw. 
 
+When creating vector drawings the size/thickness can also be set to 0 (zero): in this case vector strokes will only exist as a wireframe even if you zoom in or zoom out, and they will be not visible when the animation is rendered.
 
-
-With the Geometric tool (|geometric|), the thickness value is constantly applied to the whole shape you draw. 
-
-
-
-When creating vector drawings the thickness can also be set to 0 (zero): in this case vector lines will only exist as a wireframe even if you zoom in or zoom out, and they will be not visible when the animation is rendered.
-
-.. note:: For vector drawings, line thickness can be changed and calibrated afterwards by using other tools (see  :ref:`Editing Drawings <editing_drawings>`  ).
+.. note:: For vector drawings, line thickness can be changed and tweaked afterwards by using other tools (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
 
 .. _drawing_with_the_brush_tool:
 
 Drawing with the Brush Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Brush tool (|brush|) allows you to draw freehand lines with the current style. 
+The **Brush** tool (|brush|) allows you to draw freehand lines with the current style. 
 
+When using a pressure sensitive tablet, and the **Pressure** option is activated, varying the pressure of the pen on the tablet will allow you to create variable-thickness lines that will make your drawings more expressive. 
 
-
-When using a pressure sensitive tablet, and the Pressure Sensitivity option is activated, varying the pressure of the pen on the tablet will allow you to create variable-thickness lines that will make your drawings more expressive. 
-
-When using the Brush tool (|brush|) on Toonz and standard raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the minimum brush thickness, and the outer one, the maximum.
-
-
+When using the **Brush** tool (|brush|) on Toonz Raster and Raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the **Minimum Size**, and the outer one the **Maximum Size** of the brush.
 
 In the tool options bar you can set the following:
 
-- Thickness Min and Max sets the size of the brush; the size will vary between the two values if you're using a pressure sensitive tablet. If the two values are the same, your lines will have a constant thickness. When using a mouse to draw, the maximum thickness value will be used.
+- **Size Min** and **Max** sets the size of the brush; the size will vary between the two values if you're using a pressure sensitive tablet. If the two values are the same, your lines will have a constant thickness. When using a mouse to draw, the **Maximum** thickness value will be used.
 
-- Accuracy sets how ed the generated line is compared to what you draw with the mouse or on the tablet: a high value will generate lines that completely preserves the movement you perform (even a trembling hand); a low value will simplify the line. This is available for vector drawings only.
+- **Accuracy** sets how accurate the generated line is compared to what you draw with the mouse or tablet pen: a high value will generate lines that completely preserves the movement you perform (even a trembling hand); a low value will simplify the line. This is available for Toonz Vector drawings only.
 
-- Hardness sets the amount of antialiasing along the line border. This is available for Toonz and standard raster drawings only.
+- **Hardness** sets the amount of antialiasing along the line border. This is available for Toonz Raster and Raster drawings only.
 
-- Opacity Min and Max sets the opacity of the brush; the opacity will vary between the two values if you're using a pressure sensitive tablet. Overlapping areas are not considered while drawing a single line, but only when different lines are overlapping. This is available for raster drawings only.
+- **Opacity Min** and **Max** sets the opacity of the brush; the opacity will vary between the two values if you're using a pressure sensitive tablet. Overlapping areas are not considered while drawing a single line, but only when different lines are overlapping. This is available for Raster drawings only.
 
-- Break Sharp Angles automatically breaks the drawn vector into sections if very sharp angles are drawn: in this way drawn shapes may result simpler and easier to fill. This is available for vector drawings only.
+- **Break** automatically breaks the drawn stroke into sections, if very sharp angles are drawn: in this way, drawn shapes may result simpler and easier to fill. This is available for Toonz Vector drawings only.
 
-- Selective allows the drawing operation without affecting already drawn lines. This is available for Toonz raster drawings only.
+- **Selective** allows the drawing operation without affecting already drawn lines. This is available for Toonz Raster drawings only.
 
-- Pencil Mode draws lines without antialiasing, that is with jagged edges. This is available for Toonz raster drawings only.
+- **Pencil** mode draws lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
 
-- Pressure Sensitivity detects, in case you are using a graphic tablet, the pressure of the pen on the tablet allowing the creation of variable-thickness lines.
+- **Pressure** detects, in case you are using a graphic tablet, the pressure of the pen on the tablet, allowing the creation of variable-thickness lines.
 
-- A brush preset can be chosen in the option menu on the right. You can add or remove a preset clicking the + and - buttons. A presets list is created for each level type and each added preset will be available for next use.
+- **Preset:** let you choose a brush preset in the option menu on the right. You can add or remove a preset clicking the **+** and **-** buttons. A presets list is created *for each level type* and each added preset will be available for next use.
 
-- The cap option sets the shape of the ends of the vector you are going to draw. Options are butt for squared ends, round for semicircular ends, and projecting for squared ends extending beyond the end of the line according to the vector thickness. This is available for vector drawings only.
+- **Cap** option sets the shape of the ends of the stroke you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the vector thickness. This is available for Toonz Vector drawings only.
 
-- The join option sets the shape of the straight corners along the vector you are going to draw. Options are miter for pointed corners, round for rounded corners, bevel for squared corner. This is available for vector drawings only.
+- **Join** option sets the shape of the straight corners along the stroke you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
 
-- Miter sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the miter join is turned into a bevel join. This is available for vector drawings only, and only if the join option is set to miter.
+- **Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector drawings only, and only if the **Join** option is set to miter.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
 .. tip:: **To add a new brush preset:**
 
-    1. Click the + button on the right of the presets list.
+    1. Click the **+** button on the right of the presets list.
 
 .. tip:: **To remove a new brush preset:**
 
-    1. Click the - button on the right of the presets list.
+    1. Click the **-** button on the right of the presets list.
 
 
 .. _drawing_with_the_geometric_tool:
 
 Drawing with the Geometric Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Geometric tool (|geometric|) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs. 
-
-
+The **Geometric** tool (|geometric|) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs. 
 
 In the tool options bar you can set the following:
 
-- Thickness sets the size of the brush used to draw the geometric shapes.
+- **Thickness** sets the size of the brush used to draw the geometric shapes.
 
-- Hardness sets the amount of antialiasing along the shape border. This is available for Toonz and standard raster drawings only.
+- **Hardness** sets the amount of antialiasing along the shape border. This is available for Toonz Raster and Raster drawings only.
 
-- The shape can be chosen in the option menu. In case you want to draw a polygon, the Polygon Sides lets you set the number of sides.
+- **Shape:** can be chosen in the option menu. In case you want to draw a polygon, the **Polygon Sides:** lets you set the number of sides.
 
-- Auto Group automatically defines any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) as a group, thus creating a new layer that is placed in front of the other drawing vectors, without intersecting them (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). This is available for Toonz vector drawings only.
+- **Auto Group** automatically defines any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) as a group, *thus creating a new layer that is placed in front of the other drawing vectors*, without intersecting them (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). This is available for Toonz Vector drawings only.
 
-- Auto Fill automatically paints the area defined by any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) with the same style used for drawing. This is available for Toonz vector drawings only.
+- **Auto Fill** automatically paints the area defined by any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) with the same style used for drawing. This is available for Toonz Vector drawings only.
 
-- Selective allows the drawing operation without affecting already drawn lines. This is available for Toonz raster drawings only.
+- **Selective** allows the drawing operations not to affect already drawn lines. This is available for Toonz Raster drawings only.
 
-- Pencil Mode draws geometric shapes without antialiasing, that is with jagged edges. This is available for Toonz raster drawings only.
+- **Pencil** mode draws geometric shapes without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-While rectangles and ellipses are defined by a (bounding) box, circles and polygons are defined by a center and radius; polylines can be used to create open or closed shapes by defining a series of lines; arcs let you set the end points of a curve, and then the bend.
+While **Rectangles** and **Ellipses** are defined by a (bounding) box, **Circles** and **Polygons** are defined by a center and radius; **Polylines** can be used to create open or closed shapes by defining a series of lines; **Arcs** let you set the end points of a curve, and then the bend.
 
 .. tip:: **To draw a rectangle or an ellipse:**
 
-    Click to define the upper left corner, drag, and release to define the bottom right corner. If you press the Shift key while dragging, the shape will be regular, i.e. a square or a circle; if you press the Alt key, shapes will be drawn starting from their center.
+    Click to define the upper left corner, drag, and release to define the bottom right corner. If you press the **Shift** key while dragging, the shape will be regular, i.e. a square or a circle; if you press the **Alt** key, shapes will be drawn starting from their center.
 
 .. tip:: **To draw a circle:**
 
@@ -430,7 +420,7 @@ While rectangles and ellipses are defined by a (bounding) box, circles and polyg
 
 .. tip:: **To draw a polygon:**
 
-    1. Set the number of sides in the Polygon Sides field.
+    1. Set the number of sides in the **Polygon Sides:** field.
 
     2. Click to define the center, drag and release to define the radius of a circle bounding the polygon.
 
@@ -438,27 +428,27 @@ While rectangles and ellipses are defined by a (bounding) box, circles and polyg
 
     1. Do one of the following:
 
-    - Click to define the first point as a corner point.
+    - **Click** to define the first point as a corner point.
 
-    - Click and drag to define the first point as a control point; while dragging you can set the control point handles.
+    - **Click and drag** to define the first point as a control point; while dragging you can set the control point handles.
 
     2. Do one of the following:
 
-    - Click to define the end point of the line as a corner point. If you press the Shift key, you will draw a vertical, horizontal or 45° line.
+    - **Click** to define the end point of the line as a corner point. If you press the **Shift** key, you will draw a vertical, horizontal or 45° line.
 
-    - Click and drag to define the end point of the line as a control point; while dragging you can set the control point handles.
+    - **Click and drag** to define the end point of the line as a control point; while dragging you can set the control point handles.
 
     3. Do one of the following:
 
-    - Click or click and drag again to define the end point of another line connected to the end point of the previous line.
+    - **Click** or **click and drag** again to define the end point of another line connected to the end point of the previous line.
 
-    - Double click to define the last point of an open shape. 
+    - **Double click** to define the last point of an open shape. 
 
-    - Click or click and drag again on the first point you defined to draw a closed shape.
+    - **Click** or **click and drag** again on the first point you defined to draw a closed shape.
 
-.. note:: Press the Ctrl key to add a linear point after a Nonlinear one.
+     .. note:: Press the **Ctrl** key to add a linear point after a Nonlinear one.
 
-.. note:: Press the ESC key to to cancel the creation of the polyline.
+     .. note:: Press the **ESC** key to cancel the creation of the polyline.
 
 .. tip:: **To draw an arc:**
 
@@ -473,27 +463,25 @@ While rectangles and ellipses are defined by a (bounding) box, circles and polyg
 
 Adding Text
 ~~~~~~~~~~~
-Text can be added by using the Type tool (|type|). In the tool options bar you can set the following:
+Text can be added by using the **Type** tool (|type|). In the tool options bar you can set the following:
 
+    - The **Font:** to be used, taken from a list based on the Operating System default fonts folder. 
 
+    - The **Style:** for the chosen font. 
 
-    - The Font to be used, taken from a list based on the Operating System default fonts folder. 
+    - Font **Size:** can be chosen among a set of options. 
 
-    - The Style for the chosen font. 
+     .. note:: Written text can be resized by using the **Selection** tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
-    - The font Size, that can be chosen among a set of options. 
+    - The **Vertical Orientation** option lets you place the text vertically, one letter under another, instead of horizontally.
 
-.. note:: Written text can be resized by using the Selection tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
-
-    - The Vertical Orientation option lets you place the text vertically, one letter under another, instead of horizontally.
-
-The current palette style is applied to the text you type. The palette style can be changed while typing text, thus you can have characters having different styles in the same text editing session (see  :ref:`Editing Styles <editing_styles>`  ).
+The current palette style is applied to the text you type. *The palette style can be changed while typing text*, thus you can have characters having different styles in the same text editing session (see  :ref:`Editing Styles <editing_styles>`  ).
 
 .. note:: For vector drawings, as soon as the text is committed, it is converted into vector outlines, and can no longer be edited as text.
 
 .. tip:: **To add text:**
 
-    1. Select the Type tool (|type|) and click in the viewer where you want to start writing. 
+    1. Select the **Type** tool (|type|) and click in the viewer where you want to start writing. 
 
     2. Choose options for the size, font and orientation. These options can be changed as long as you are in text editing mode.
 
@@ -503,38 +491,36 @@ The current palette style is applied to the text you type. The palette style can
 
     5. Click outside the text editing area, or select a different tool, to commit the text.
 
+
 .. _using_the_eraser:
 
 Using the Eraser
 ~~~~~~~~~~~~~~~~
-The Eraser tool (|eraser|) allows you to partially erase lines, both in vector and raster drawings. 
-
-
+The **Eraser** tool (|eraser|) allows you to partially erase lines, both in vector and raster drawings. 
 
 In the tool options bar you can set the following:
 
-- Size sets the eraser size.
+- **Size** sets the eraser size.
 
-- Hardness sets the amount of antialiasing along the eraser border. This is available for Toonz and standard raster drawings only.
+- **Hardness** sets the amount of antialiasing along the eraser border. This is available for Toonz Raster and Raster drawings only.
 
-- Opacity set the opacity of the eraser; passing twice on an area is not considered while performing a single erasing operation, but only when performing different erasing operations. This is available for raster drawings only.
+- **Opacity** set the opacity of the eraser; passing twice on an area is not considered while performing a single erasing operation, but only when performing different erasing operations. This is available for Raster drawings only.
 
-- Type has the options Normal, to use the standard eraser; Rectangular, to perform the erasing inside the box you define; Freehand, to perform the erasing inside the area you outline by clicking and dragging; and Polyline, to perform the erasing inside the area you outline by defining a series of lines. In vector drawings, a vector is erased only if it is fully included in the area you define.
+- **Type:** has the options **Normal**, to use the standard eraser; **Rectangular**, to perform the erasing inside the box you define; **Freehand**, to perform the erasing inside the area you outline by clicking and dragging; and **Polyline**, to perform the erasing inside the area you outline by defining a series of lines. In vector drawings, a stroke is erased only if it is fully included in the area you define.
 
-- Mode has the options Areas, to erase only areas, Lines, to erase only the drawing outline, and Lines & Areas, to perform both the operations. This is available only for raster drawings.
+- **Mode:** has the options **Areas**, to erase only areas, **Lines**, to erase only the drawing outline, and **Lines & Areas**, to perform both the operations. This is available only for Raster drawings.
 
-- Selective allows you to erase only lines or areas made with the current style. This is available only for Toonz raster and vector drawings.
+- **Selective** allows you to erase only lines or areas made with the current style. This is available only for Toonz Vector and Toonz Raster drawings.
 
-- Invert performs the erasing on the outside of the area defined with the Rectangular, Freehand or Polyline options. In vector drawings, a vector is erased only if it is fully outside of the area you define.
+- **Invert** performs the erasing on the outside of the area defined with the Rectangular, Freehand or Polyline options. In vector drawings, a stroke is erased only if it is fully outside of the area you define.
 
-- Frame Range allows you to perform Rectangular, Freehand and Polyline erasing on a range of frames, by defining an area in the first and then in the last frame of the range.
+- **Frame Range** allows you to perform Rectangular, Freehand and Polyline erasing on a range of frames, by defining an area in the first and then in the last frame of the range.
 
-- Pencil Mode erases lines without antialiasing, that is with jagged edges. This is available for Toonz raster drawings only.
+- **Pencil** mode erases lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: The Eraser tool (|eraser|) can be automatically selected by using the eraser of the tablet pen.
-
+.. note:: The **Eraser** tool (|eraser|) can be automatically selected by *using the eraser of the tablet pen*.
 
 
 .. _converting_raster_drawings_to_vectors:
@@ -545,23 +531,11 @@ Scanned drawings and raster ones, i.e. drawings not based on vectors, can be con
 
 Two main conversion modes are available: centerline and outline. The choice between the two modes depends on which conversion best fits your needs.
 
-
-
-
 In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool (|pinch|) or with the Control Point Editor tool and the thickness with the Pump tool (|pump|).
-
-
-
-
-
-
-
 
 In the outline mode two vectors are generated to define each line in the drawing, and areas filled with different colors are separated by a vector. This means that, for example, to change the bend of a line you have to change the bend of the two vectors defining it, and to change the thickness you have to model one or both vectors defining it. The thickness of all the vectors is set to 0, so that they won’t be visible in the final render.
 
 .. note:: Parameters that are not considered necessary by the user can be hidden using the option button (|option|) at the bottom right of the Convert To vector Pop Up.
-
-
 
 In the Outline mode the following settings are available:
 
@@ -624,8 +598,6 @@ Checking the Convert to Vectors Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 At the bottom of the Convert-to-Vectors settings window a preview area is available to display the drawing selected in the Xsheet/Timeline as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original raster drawing that is displayed on the left side, and to highlight the vector structure by clicking the Centerlines Check button (|check|).
 
-
-
 You can activate or deactivate it, resize it or navigate its content.
 
 If you change any parameter in the Convert-to-Vector settings, the previewed drawing automatically updates to display how the changes affect the result.
@@ -639,8 +611,6 @@ If you change any parameter in the Convert-to-Vector settings, the previewed dra
 .. tip:: **To deactivate the preview area:**
 
     Click the Preview button (|preview|) in the bottom bar of the Convert-to-Vector settings window.
-
-
 
 .. tip:: **To resize the preview area:**
 
@@ -665,7 +635,6 @@ If you change any parameter in the Convert-to-Vector settings, the previewed dra
 .. tip:: **To activate and deactivate the Centerlines Check:**
 
     Click the Centerlines Check button (|check|) in the bottom bar of the Convert-to-Vector window.
-
 
 
 .. _saving_and_loading_convert_to_vector_settings:
@@ -693,9 +662,6 @@ Loaded Convert To Vector settings can also become the default settings for the s
     Click the Reset Settings button (|reset|) in the bottom bar of the Convert To Vector settings window.
 
 
-
-
-
 .. _changing_the_canvas_size:
 
 Changing the Canvas Size
@@ -717,6 +683,7 @@ The new size can be set in any unit supported by OpenToonz, by using absolute or
     5. Click the OK button.
 
 .. note:: In case the new canvas size is smaller than the current one, a confirmation dialog will open, asking you whether you want to crop the canvas.
+
 
 .. _editing_drawings:
 
@@ -918,21 +885,13 @@ Grouping and Ungrouping Vectors
 '''''''''''''''''''''''''''''''
 All the vectors of a drawing lie on the same layer, therefore drawing areas are outlined by segments defined by vector intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
 
-
-
-
 To organize vectors in layers you can use the grouping features, that creates a new layer containing only the vectors you select.
 
 In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the vectors of the first square, and another those of the second square, thus defining two layers whose order can be arranged.
 
 It is possible to create as many group as you want in any drawing; groups can be made of one vector only as well, for instance a circle, or a line.
 
-
-
-
 When drawing with the Geometric tool (|geometric|) closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the Auto Group option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
-
-
 
 When your vector selection includes one or several groups, the new group will include them as well, preserving them and their original layering position in case the group is released. 
 
@@ -944,11 +903,7 @@ It is possible to enter groups to isolate them visually from the rest of the dra
 
 As the Selection tool (|selection|) considers the group as a whole, if you want to select a vector belonging to a group, first you have to enter the group, and then select the vector.
 
-
-
 .. note:: As groups define layers, when using the Fill tool (|fill|), only areas defined by vectors within the same group can be filled.
-
-
 
 .. tip:: **To define a group:**
 
@@ -994,8 +949,6 @@ As the Selection tool (|selection|) considers the group as a whole, if you want 
 
     Choose the Selection tool (|selection|) and do any of the following:
 
-
-
     - Click any vector belonging to the group.
 
     - Click and drag to select at least one vector belonging to the group.
@@ -1018,9 +971,6 @@ As the Selection tool (|selection|) considers the group as a whole, if you want 
 Setting Stroke and Group Layering Order
 '''''''''''''''''''''''''''''''''''''''
 For each drawing, vectors and groups layering order can be changed by setting what has to lie in front of, and what behind.
-
-
-
 
 .. tip:: **To bring the selection to front:**
 
@@ -1070,16 +1020,11 @@ Editing Vector Control Points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To modify a vector by editing its control points you can use the Control Point Editor tool (|cpe|). 
 
-
-
 Control points have handles whose length and direction define the bend of the vector. With this tool you can select a vector and modify the control point handles, or the bend of a curve defined by control points, and move, add or delete control points.
 
 Control point handles may be linked, that is to say they share the same direction, or not, creating a cusp in the vector; they can also be collapsed in the control point in order to turn it in a corner point. In case only one handle is collapsed, the point will be corner on one side and smooth on the other. When a section of the vector is defined by two corner points, it will be a straight line.
 
 The option Auto Select Drawing is available to automatically select any vector of any drawing visible in the viewer.
-
-
-
 
 .. tip:: **To select a vector:**
 
@@ -1154,8 +1099,6 @@ Changing the Bend of Vectors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To modify a bend of a vector in a more intuitive way you can use the Pinch tool (|pinch|). You can use it anywhere you want on the vector in order to modify the bend in any direction. 
 
-
-
 When the tool is selected, a segment of the center line of the closest vector is highlighted: the segment shows the length of the vector that will be affected by the pinching. 
 
 The length of the segment depends on the corner points that the tool automatically detects along the vector according to the Corner value. It can also be manually set by activating the Manual option thus using the Size value to set the affected length.
@@ -1179,9 +1122,6 @@ In both automatic and manual modes different types of editing can be performed w
     1. Change the length of the segment affected by the tool by setting the Corner value in the tool options bar.
 
     2. Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment.
-
-
-
 
 .. tip:: **To modify the bend of a vector in manual mode:**
 
@@ -1208,25 +1148,15 @@ Using Other Modifier Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 To modify the thickness of a vector you can use the Pump tool (|pump|). You can use it anywhere you want on the vector to increase or decrease the thickness locally. When the tool is selected, a segment of the closest vector is highlighted: the segment shows the length of the vector that will be affected by the tool. To modify this length you can change the Size value in the tool options bar.
 
-
-
 .. note:: It is possible to modify the thickness of a vector, a vector selection, or vectors in all of the level drawings, by using the Selection tool (|selection|) and its related options (see :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
-
-
 
 To distort more than one vector at once, you can use the Magnet tool (|magnet|). The tool affects all vectors included in a circular area and allows you to distort them in the direction of your dragging. Highlighted segments will show the vectors that will be affected. To modify the action range of the tool, represented by a circle, you can change the tool size in the tool options bar.
 
-
-
 To bend a part of a drawing, for example a character’s arm, you can use the Bender tool (|bender|). The tool allows you to define a line and then bend all the vectors intersected by the segment. While bending you can see the affected vectors assuming their position after the transformation. The bending can be performed in both clockwise and counterclockwise direction; once you start dragging you cannot change the bend direction.
-
-
 
 .. note:: If you move the cursor far from the bending center, you will be able to set with more precision the amount of bend you want to apply to the vectors.
 
 To smooth a vector, you can use the Iron tool (|iron|). When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
-
-
 
 .. tip:: **To modify the thickness of a vector:**
 
@@ -1235,9 +1165,6 @@ To smooth a vector, you can use the Iron tool (|iron|). When used again and agai
     2. Set the Size value in the tool options bar.
 
     3. Click the point of the vector where you want to modify the thickness and drag up to increase the thickness, or down to decrease the thickness. 
-
-
-
 
 .. tip:: **To distort several vectors at once:**
 
@@ -1270,17 +1197,11 @@ Joining and Splitting
 ~~~~~~~~~~~~~~~~~~~~~
 To join the ends of two different vectors, you can use the Tape tool (|tape|). This way it will be possible to handle them as a single vector, for instance for modifying their bend, or thickness, as a whole. 
 
-
-
 When the tool is used, the pointer snaps to the closest detected vector endpoint in order to make the operation easier.
 
 .. note:: The Tape tool (|tape|) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
 
-
-
 To do the contrary, that is to say splitting a vector in two sections, you can use the Cutter tool (|cutter|). 
-
-
 
 .. tip:: **To join two open ends of one or two vectors:**
 
@@ -1300,6 +1221,7 @@ To do the contrary, that is to say splitting a vector in two sections, you can u
 
     2. Click to split the vector in the highlighted point.
 
+
 .. _cleaning_up_vector_intersections:
 
 Cleaning up Vector Intersections
@@ -1318,6 +1240,7 @@ The best solution for this kind of issue is to overlap the final section of vect
 
     - Right-click the selection and choose Remove Vector Overflow from the menu that opens.
 
+
 .. _animation_techniques:
 
 Animation Techniques
@@ -1325,6 +1248,7 @@ Animation Techniques
 Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to OpenToonz features.
 
 Whatever the technique is, you can control your work and how smooth the animation is by using the onion skin, that allows you to view more than one image in the viewer at the same time as reference.
+
 
 .. _modelling_a_vector_drawing:
 
@@ -1359,6 +1283,7 @@ Once finished, you can make a copy of the modified drawing, and modify it in its
     5. Use modifier tools to modify the drawing.
 
     6. Go on duplicating and modifying drawings until you complete the animation level.
+
 
 .. _using_the_in-betweener_with_vector_drawings:
 
@@ -1412,6 +1337,7 @@ If you want the interpolation to last more or less frames, you can insert frames
 
     5. Click the vertical strip displayed on the right of the frame range selection.
 
+
 .. _rotoscoping:
 
 Rotoscoping
@@ -1459,6 +1385,7 @@ The cell selection can also spread over several columns: in this case the same n
 
     3. Enter a name for the Cone Level and press OK to confirm.
 
+
 .. _using_onion_skin:
 
 Using Onion Skin
@@ -1466,9 +1393,6 @@ Using Onion Skin
 If you want to view more than one level drawing at the same time in the viewer as reference when you create drawings, or you want to check the animation, you can activate the onion skin mode. 
 
 The onion skin is available both in the  and in the level strip according to where the cursor showing the current frame is displayed, as the onion skin can be activated starting from the cursor and managed in the frame number column. 
-
-
-
 
 When a frame of the level strip is selected, the onion skin refers to the current level only, referring to the sequence of the full animation level as it was created.
 
@@ -1527,6 +1451,7 @@ The way images are displayed in onion skin mode can be customized in the Prefere
     - Use the Following Frames Correction to set a color for displaying following frames.
 
     - Activate the Display Lines Only option to display Toonz levels with lines only.
+
 
 .. _using_the_shift_and_trace:
 
@@ -1599,6 +1524,10 @@ To better check the new drawing and the animation you can toggle the shift and t
     6. Activate View > Edit Shift and edit the position of the reference drawings.
 
     7. Create the inbetween drawing.
+
+
+
+
 
 .. |Toonz71_123| image:: /_static/Toonz71/Toonz71_123.gif
 .. |animate| image:: /_static/drawing_animation_levels/animate.png
