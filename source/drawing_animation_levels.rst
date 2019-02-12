@@ -1455,8 +1455,8 @@ The way images are displayed in onion skin mode can be customized in the Prefere
 
 .. _using_the_shift_and_trace:
 
-Using the Shift and Trace
--------------------------
+Using Shift and Trace
+---------------------
 The shift and trace function can help you in the creation of animated levels as you were drawing on paper with the light table; in fact it allows you to use the previous and the next drawing as reference when you insert an inbetween or a break down. 
 
 It possible to temporary move and rotate the drawings you want to use as reference to fit the position where you want to draw the inbetween one. It is also possible to automatically set the position of the reference drawings creating and editing a path of action line.
