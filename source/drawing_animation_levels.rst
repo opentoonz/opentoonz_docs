@@ -803,7 +803,7 @@ Selections can also be cut, copied, pasted and deleted by using the relevant com
 
 When a drawing in a Toonz level, or a section of it, is pasted to another one, the colors of the pasted drawing are added to the palette of the target level, unless the same colors are already available in the palette.
 
-.. note:: The vector selection can also be used to change the style of selected vectors by choosing it in the palette, or by creating a new style. See  :ref:`Editing Styles <editing_styles>`  . 
+.. note:: The vector strokes selection can also be used to change the style of the selected strokes by choosing it in the palette, or by creating a new style. See  :ref:`Editing Styles <editing_styles>`  . 
 
 .. tip:: **To edit the drawing savebox:**
 
@@ -817,11 +817,11 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
 
     1. Select the area by doing one of the following:
 
-    - Set the type to Rectangular and click and drag to define the box whose area you want to select.
+    - Set the type to **Rectangular** and click and drag to define the box whose area you want to select.
 
-    - Set the type to Freehand and click and drag to outline the area you want to select.
+    - Set the type to **Freehand** and click and drag to outline the area you want to select.
 
-    - Set the type to Polyline and click to outline the area you want to select by defining a series of lines.
+    - Set the type to **Polyline** and click to outline the area you want to select by defining a series of lines.
 
     2. Do one of the following to make geometric transformations:
 
@@ -853,13 +853,13 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
 
     - Edit the scale, rotation, position and thickness values available in the tool options bar.
 
-.. tip:: **To select and transform all the drawings of a Toonz vector level:**
+.. tip:: **To select and transform all the drawings of a Toonz Vector level:**
 
     1. Do one of the following:
 
-    - Set the mode to Whole Level to automatically select all the vectors in all of the drawings of the current animation level. 
+    - Set the mode to **Whole Level** to automatically select all the strokes in all of the drawings of the current animation level. 
 
-    - Set the mode to Same Style on Whole Level and click to select at once all of the vectors painted with the same style used for the vector you select in all of the drawings of the current animation level, or Shift-click to add them to or remove them from the selection.
+    - Set the mode to **Same Style on Whole Level** and click to select at once all of the strokes painted with the same style used for the stroke you selected in all of the drawings of the current animation level, or Shift-click to add them to or remove them from the selection.
 
     2. Do one of the following to make geometric transformations affecting all of the level drawings:
 
@@ -875,11 +875,11 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
 
     2. Copy/cut it.
 
-    3. Select the other drawing in the level strip or in the .
+    3. Select the other drawing in the Level Strip or in the Xsheet/Timeline.
 
     4. Paste the copied/cut selection.
 
-.. note:: Selections from Toonz raster and vector levels can be pasted in any other type of drawing, automatically converting to raster or vector the pasted selection; selections from standard raster levels can be pasted in other standard raster drawings only.
+.. note:: Selections from Toonz Raster and Toonz Vector levels can be pasted in any other type of drawing, automatically converting the pasted selection to the appropriate type; selections from standard Raster levels can only be pasted in other Raster drawings.
 
 .. tip:: **To paste a selection in a new drawing:**
 
