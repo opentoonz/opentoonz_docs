@@ -324,9 +324,9 @@ You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) to
 
 .. note:: **Min** and **Max Size/Thickness** can be modified by either of these methods:
 
-    1. Pressing Ctrl + Alt and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value.
+    - Pressing Ctrl + Alt and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value.
     
-    2. Using the predefined keyboard shortcuts. **U** and **I** for respectively decreasing and increasing the **Max** value, or **H** and **J** for respectively decreasing and increasing the **Min** value.
+    - Using the predefined keyboard shortcuts. **U** and **I** for respectively decreasing and increasing the **Max** value, or **H** and **J** for respectively decreasing and increasing the **Min** value.
 
 With the **Brush** tool (|brush|), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
 
