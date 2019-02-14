@@ -885,11 +885,11 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
 
 Grouping and Ungrouping Vectors
 '''''''''''''''''''''''''''''''
-All the vector strokes of a drawing lie on the same level, therefore drawing *areas* are outlined by segments defined by strokes intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
+All the vector strokes of a drawing lie on the same plane, therefore drawing *areas* are outlined by segments defined by strokes intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
 
-To organize strokes you can use the grouping features, that creates a new entity containing only the strokes you select.
+To organize strokes you can use the grouping features, that creates a new group entity containing only the strokes you select.
 
-In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the strokes of the first square, and another those of the second square, thus defining two entities whose order can be arranged.
+In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the strokes of the first square, and another those of the second square, thus defining two groups whose order can be arranged.
 
 It's possible to create as many groups as you want in any drawing; groups can be made of one stroke only as well, for instance a circle, or a line.
 
@@ -899,13 +899,13 @@ When your strokes selection includes one or several groups, the new group will i
 
 .. note:: It's not possible to define a group if the selection includes only some strokes belonging to a group.
 
-When a group is released, if no other group is defined in the same drawing, all the strokes will lie at the same level; if other groups are defined, the strokes of the released group will lie on a level behind, in front of, or between the other groups, according to the original group sorting order position.
+When a group is released, if no other group is defined in the same drawing, all the strokes will lie at the same plane; if other groups are defined, the strokes of the released group will lie on a plane behind, in front of, or between the other groups, according to the original group sorting order position.
 
 It's possible to enter groups to isolate them visually from the rest of the drawing and better understand which strokes are inside and which outside the group. In this way it's also easier to work on the drawing, for instance to fill an area or to change the color of some strokes. 
 
 As the **Selection** tool (|selection|) considers the group as a whole, if you want to select a stroke belonging to a group, first you have to enter the group, and then select the stroke.
 
-.. note:: As groups define wich strokes belong to a certain level, when using the **Fill** tool (|fill|), only areas defined by strokes within the same group can be filled.
+.. note:: As groups define which strokes belong to a certain plane, when using the **Fill** tool (|fill|), only areas defined by strokes within the same group can be filled.
 
 .. tip:: **To define a group:**
 
