@@ -527,69 +527,71 @@ In the tool options bar you can set the following:
 
 Converting Raster Drawings to Vectors
 '''''''''''''''''''''''''''''''''''''
-Scanned drawings and raster ones, i.e. drawings not based on vectors, can be converted into Toonz vector-based drawings.
+Scanned drawings and raster ones, i.e. drawings not based on vectors, can be converted into Toonz Vector-based drawings.
 
-Two main conversion modes are available: centerline and outline. The choice between the two modes depends on which conversion best fits your needs.
+Two main conversion modes are available: **Centerline** and **Outline**. The choice between the two modes depends on which conversion best fits your needs.
 
-In centerline mode a single vector with a variable thickness is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the Pinch tool (|pinch|) or with the Control Point Editor tool and the thickness with the Pump tool (|pump|).
+In **Centerline** mode a *single vector with a variable thickness* is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a vector with the **Pinch** tool (|pinch|) or with the **Control Point Editor** tool and the thickness with the **Pump** tool (|pump|).
 
-In the outline mode two vectors are generated to define each line in the drawing, and areas filled with different colors are separated by a vector. This means that, for example, to change the bend of a line you have to change the bend of the two vectors defining it, and to change the thickness you have to model one or both vectors defining it. The thickness of all the vectors is set to 0, so that they won’t be visible in the final render.
+In **Outline** mode *two vectors* are generated to define each line in the drawing, and areas filled with different colors are separated by a vector. This means that, for example, to change the bend of a line you have to change the bend of the two vectors defining it, and to change the thickness you have to model one or both vectors defining it. *The thickness of all the vectors is set to 0, so that they won’t be visible in the final render*.
 
-.. note:: Parameters that are not considered necessary by the user can be hidden using the option button (|option|) at the bottom right of the Convert To vector Pop Up.
+.. note:: Parameters that are not considered necessary by the user can be hidden using the **Options** button (|option|) at the bottom right of the **Convert To vector Pop Up**.
 
-In the Outline mode the following settings are available:
 
-- Accuracy sets how much the vector will follow the shape of the original drawing lines. High values create more precise vectors but makes them more complex.
+In **Outline** mode the following settings are available:
 
-- Despeckling removes small spots or marks from the converted images. Its value expresses the size in pixels of the side of the maximum area that has to be removed. 
+- **Accuracy** sets how much the vector will follow the shape of the original drawing lines. High values create more precise vectors but makes them more complex.
 
-- Preserve Painted Areas, when activated, includes all the colors in the converted level. 
+- **Despeckling** removes small spots or marks from the converted images. Its value expresses the size in pixels of the side of the maximum area that has to be removed. 
 
-- Adherence sets how much smooth curves bend toward full corners.
+- **Preserve Painted Areas**, when activated, includes all the colors in the converted level. 
 
-- Angle sets the angular threshold below which full corners are inserted in the image
+- **Adherence** sets how much smooth curves bend toward full corners.
 
-- Curve Radius sets the measure of a curve's radius below which it is replaced by a smooth corner
+- **Angle** sets the angular threshold below which full corners are inserted in the image
 
-- Max Colors defines the maximum number of colors that are considered in the raster image and used in the vector one. The value has to be set taking care of the real number of colors used in the raster image. High values increase the time needed for the conversion. This is relevant for raster levels only.
+- **Curve Radius** sets the measure of a curve's radius below which it is replaced by a smooth corner
 
-- Transparent Color defines the color that has to be set as the transparent background of the resulting vector level. This is relevant for raster levels only.
+- **Max Colors** defines the maximum number of colors that are considered in the Raster image and used in the vector one. The value has to be set taking care of the real number of colors used in the Raster image. High values increase the time needed for the conversion. This is relevant for Raster levels only.
 
-- Tone Threshold sets the value of the darkest pixels to be taken into account to detect lines to be converted to vectors; for low values only the darkest pixels are considered thus resulting in thinner lines; for high values lighter pixels are considered too, thus resulting in thicker lines. This is relevant for Toonz raster levels only.
+- **Transparent Color** defines the color that has to be set as the transparent background of the resulting vector level. This is relevant for Raster levels only.
 
-In the Centerline mode the following settings are available:
+- **Tone Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vectors; for low values only the darkest pixels are considered thus resulting in thinner lines; for high values lighter pixels are considered too, thus resulting in thicker lines. This is relevant for Toonz Raster levels only.
 
-- Threshold sets the value of the darkest pixels to be taken into account to detect lines to be converted to vectors; for low values only the darkest pixels are considered thus resulting in thinner vectors; for high values lighter pixels are considered too, thus resulting in thicker lines. For Toonz raster levels (TLV files) the process examines only pixels belonging to the lines; for full-color images, pixels of the whole image.
 
-- Accuracy sets how much the vector will follow the shape of the original drawing lines. High values create more precise vectors but makes them more complex.
+In **Centerline** mode the following settings are available:
 
-- Despeckling ignores during the conversion small areas generated by the image noise; the higher the value, the larger the areas ignored.
+- **Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vectors; for low values only the darkest pixels are considered thus resulting in thinner vectors; for high values lighter pixels are considered too, thus resulting in thicker lines. For Toonz Raster levels (TLV files) the process examines only pixels belonging to the lines; for Raster levels it examines pixels of the whole image.
 
-- Max Thickness sets the maximum vector thickness; if this value is low very thick lines will be converted in two centerline vectors defining the line outline; if this value is high, they will be converted in a single centerline vector.
+- **Accuracy** sets how much the vector stroke will follow the shape of the original drawing lines. High values create more precise strokes but makes them more complex.
 
-- Thickness Calibration start and end calibrates the vector thickness defined according to the Threshold value; a low value will reduce the vector thickness preserving its integrity. A different value inserted in the Start / End field determines an animation of the thickness along the length of the level.
+- **Despeckling** ignores during the conversion small areas generated by the image noise; the higher the value, the larger the areas ignored.
 
-- Preserve Painted Areas, when activated, preserves all painted areas in Toonz raster levels (TLV files) and all the areas painted with colors different from the line color in full-color images.
+- **Max Thickness** sets the maximum vector stroke thickness; if this value is low very thick lines will be converted in two centerline strokes defining the line outline; if this value is high, they will be converted in a single centerline stroke.
 
-- Add Border adds a vector along the image border in order to detect also areas bleeding off the image edge.
+- **Thickness Calibration Start:** and **End:** calibrates the vector stroke thickness defined according to the **Threshold** value; a low value will reduce the stroke thickness preserving its integrity. A different value inserted in the **Start** / **End** field determines an animation of the thickness along the length of the level.
 
-- Enhanced Ink recognition, when activated, allows to vectorize Full color images (such as TGA, TIF, PNG etc...) without antialiasing along the lines. An Heuristic is used to recognize lines and painted areas creating a PLI level where the lines are seen as ink and the painted areas as paint.
+- **Preserve Painted Areas**, when activated, preserves all painted areas in Toonz Raster levels (TLV files) and all the areas painted with colors different from the line color in Raster levels.
 
-- It's possible to select the images or the level frames that have to be converted directly in the Xsheet/Timeline.
+- **Add Border** adds a vector stroke along the image border in order to detect also areas bleeding off the image edge.
 
-When a conversion is performed a new level is created according to the selection you made, and exposed in the Xsheet/Timeline in the column next to that containing the source level: the new file has the same name of the starting one but has a PLI extension, and a “v” suffix, and is saved in the +drawings default folder. 
+- **Enhanced ink recognition**, when activated, allows to vectorize Raster images (such as TGA, TIF, PNG etc...) without antialiasing along the lines. An Heuristic is used to recognize lines and painted areas creating a PLI level, where the lines are seen as ink and the painted areas as paint.
+
+It's possible to select the images or the level frames that have to be converted directly in the Xsheet/Timeline.
+
+When a conversion is performed, a new level is created according to the selection you made, and exposed in the Xsheet/Timeline in the column next to that containing the source level. The new file will have the same name of the starting one, but with a PLI extension, and a “\**v**\” suffix, and is saved in the **+drawings** default folder. 
 
 .. note:: In case a PLI level with the same name already exists, the name of the new file will be followed by a progressive number.
 
 .. tip:: **To convert raster drawings into vectors:**
 
-    1. Select the images or the level frames to convert in the Xsheet/Timeline.
+    1. Select the level frames to convert in the Xsheet/Timeline.
 
-    2. Choose Level > Convert to Vectors.
+    2. Choose Level > **Convert to Vectors...**
 
     3. In the dialog set parameters for the conversion.
 
-    4. Click the Convert button.
+    4. Click the **Convert** button.
 
 
 .. _checking_the_convert_to_vectors_process:
