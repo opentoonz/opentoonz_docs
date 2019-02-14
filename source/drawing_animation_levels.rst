@@ -324,7 +324,7 @@ You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) to
 
 .. note:: **Min** and **Max Size/Thickness** can be modified by either of these methods:
 
-    - Pressing Ctrl + Alt and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value.
+    - Pressing **Ctrl + Alt** and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value.
     
     - Using the predefined keyboard shortcuts. **U** and **I** for respectively decreasing and increasing the **Max** value, or **H** and **J** for respectively decreasing and increasing the **Min** value.
 
