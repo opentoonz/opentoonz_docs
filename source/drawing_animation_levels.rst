@@ -306,7 +306,7 @@ The set of buttons and information available in the bottom bar of the viewer can
 
     Choose View > **Rulers** to show or hide the rulers.
 
-     .. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
+  .. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
 
 .. tip:: **To customize the set of buttons in the bottom bar of the viewer:**
 
