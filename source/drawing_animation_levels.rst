@@ -465,15 +465,15 @@ Adding Text
 ~~~~~~~~~~~
 Text can be added by using the **Type** tool (|type|). In the tool options bar you can set the following:
 
-    - The **Font:** to be used, taken from a list based on the Operating System default fonts folder. 
+ - The **Font:** to be used, taken from a list based on the Operating System default fonts folder. 
 
-    - The **Style:** for the chosen font. 
+ - The **Style:** for the chosen font. 
 
-    - Font **Size:** can be chosen among a set of options. 
+ - Font **Size:** can be chosen among a set of options. 
 
-     .. note:: Written text can be resized by using the **Selection** tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
+  .. note:: Written text can be resized by using the **Selection** tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
-    - The **Vertical Orientation** option lets you place the text vertically, one letter under another, instead of horizontally.
+ - The **Vertical Orientation** option lets you place the text vertically, one letter under another, instead of horizontally.
 
 The current palette style is applied to the text you type. *The palette style can be changed while typing text*, thus you can have characters having different styles in the same text editing session (see  :ref:`Editing Styles <editing_styles>`  ).
 
