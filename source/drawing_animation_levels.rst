@@ -579,7 +579,7 @@ In **Centerline** mode the following settings are available:
 
 It's possible to select the images or the level frames that have to be converted directly in the Xsheet/Timeline.
 
-When a conversion is performed, a new level is created according to the selection you made, and exposed in the Xsheet/Timeline in the next column/layer to that containing the source level. The new file will have the same name of the starting one, but with a PLI extension, and a “ \**v** \” suffix, and is saved in the **+drawings** default folder. 
+When a conversion is performed, a new level is created according to the selection you made, and exposed in the Xsheet/Timeline in the next column/layer to that containing the source level. The new file will have the same name of the starting one, but with a PLI extension, and a “v” suffix, and is saved in the **+drawings** default folder. 
 
 .. note:: In case a PLI level with the same name already exists, the name of the new file will be followed by a progressive number.
 
