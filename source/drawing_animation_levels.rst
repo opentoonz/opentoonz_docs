@@ -598,21 +598,21 @@ When a conversion is performed, a new level is created according to the selectio
 
 Checking the Convert to Vectors Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-At the bottom of the Convert-to-Vectors settings window a preview area is available to display the drawing selected in the Xsheet/Timeline as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original raster drawing that is displayed on the left side, and to highlight the vector structure by clicking the Centerlines Check button (|check|).
+At the bottom of the **Convert-to-Vectors Settings** window a preview area is available to display the drawing selected in the Xsheet/Timeline, as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original Raster drawing that is displayed on the left side, and to highlight the vector strokes structure by clicking the **Centerlines Check** button (|check|).
 
 You can activate or deactivate it, resize it or navigate its content.
 
-If you change any parameter in the Convert-to-Vector settings, the previewed drawing automatically updates to display how the changes affect the result.
+If you change any parameter in the **Convert-to-Vector Settings**, the previewed drawing automatically updates to display how the changes affect the result.
 
 .. tip:: **To activate the preview area:**
 
     1. In the Xsheet/Timeline select the drawing you want to preview. 
 
-    2. Click the Preview button (|preview|) in the bottom bar of the Convert-to-Vector settings window.
+    2. Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings window.
 
 .. tip:: **To deactivate the preview area:**
 
-    Click the Preview button (|preview|) in the bottom bar of the Convert-to-Vector settings window.
+    Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings window.
 
 .. tip:: **To resize the preview area:**
 
@@ -636,53 +636,53 @@ If you change any parameter in the Convert-to-Vector settings, the previewed dra
 
 .. tip:: **To activate and deactivate the Centerlines Check:**
 
-    Click the Centerlines Check button (|check|) in the bottom bar of the Convert-to-Vector window.
+    Click the **Centerlines Check** button (|check|) in the bottom bar of the Convert-to-Vector Settings window.
 
 
 .. _saving_and_loading_convert_to_vector_settings:
 
 Saving and Loading Convert To Vector Settings
 '''''''''''''''''''''''''''''''''''''''''''''
-Convert To Vector setting can be saved as tnzsettings files in order to have different settings for each level and to be loaded back and used in a different scene. 
+Convert To Vector settings can be saved as *tnzsettings* files in order to have different settings for each level and to be loaded back and used in a different scene. 
 
 Loaded Convert To Vector settings can also become the default settings for the scene or for the project (see  :ref:`Scene Settings and Project Default Settings <scene_settings_and_project_default_settings>`  ). 
 
 .. tip:: **To save the Convert To Vector settings:**
 
-    1. Click the Save Settings button (|save|) in the bottom bar of the Convert To Vector window.
+    1. Click the **Save Settings** button (|save|) in the bottom bar of the Convert-to-Vector Settings window.
 
-    2. In the browser that opens choose for the tnzsettings file a location and a name, and click the Save button.
+    2. In the browser that opens choose for the *tnzsettings* file a location and a name, and click the **Save** button.
 
 .. tip:: **To load saved Convert To Vector settings:**
 
-    1. Click the Load Settings button (|load|) in the bottom bar of the Convert To Vector window.
+    1. Click the **Load Settings** button (|load|) in the bottom bar of the Convert-to-Vector Settings window.
 
-    2. In the browser that opens retrieve the tnzsettings file you want to load, and click the Load button.
+    2. In the browser that opens retrieve the *tnzsettings* file you want to load, and click the **Load** button.
 
 .. tip:: **To reset the Convert To Vector settings to the scene default:**
 
-    Click the Reset Settings button (|reset|) in the bottom bar of the Convert To Vector settings window.
+    Click the **Reset Settings** button (|reset|) in the bottom bar of the Convert-to-Vector Settings window.
 
 
 .. _changing_the_canvas_size:
 
 Changing the Canvas Size
 ------------------------
-It is possible to change the size of Toonz and standard raster levels, in order to increase or decrease the area around the images of a level.
+It is possible to change the size of Toonz Raster and Raster levels, in order to increase or decrease the area around the images of a level.
 
 The new size can be set in any unit supported by OpenToonz, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level images.
 
 .. tip:: **To change the canvas size:**
 
-    1. Select the Toonz or the standard raster level you want to modify in the Xsheet/Timeline.
+    1. Select the Toonz Raster or Raster level you want to modify in the Xsheet/Timeline.
 
-    2. Choose Level > Canvas Size: the Canvas Size dialog opens.
+    2. Choose Level > **Canvas Size...**, the Canvas Size dialog opens.
 
-    3. In the dialog set the unit to express the new size of the canvas, and set the Width and Height of the new canvas; activate the Relative option to define the new size by specifying only the size the canvas has to increase or decrease.
+    3. In the dialog set the **Unit** to express the new size of the canvas, and set the **Width** and **Height** of the new canvas; activate the **Relative** option to define the new size by specifying only the size the canvas has to increase or decrease.
 
-    4. Use the Anchor diagram to decide the position of the current canvas in the new one: the arrows are a reference to see how the new size will increase or decrease the current canvas size.
+    4. Use the **Anchor** diagram to decide the position of the current canvas in the new one: the arrows are a reference to see how the new size will increase or decrease the current canvas size.
 
-    5. Click the OK button.
+    5. Click the **Resize** button.
 
 .. note:: In case the new canvas size is smaller than the current one, a confirmation dialog will open, asking you whether you want to crop the canvas.
 
@@ -691,13 +691,13 @@ The new size can be set in any unit supported by OpenToonz, by using absolute or
 
 Editing Drawings
 ----------------
-Toonz Raster and Vector drawings, and Raster images, can be manipulated in OpenToonz.
+Toonz Vector, Toonz Raster and Raster levels, can be manipulated in OpenToonz.
 
 To edit a drawing, for example to copy a part of it, you have first to select it in the Xsheet/Timeline or in the Level Strip. When selected in the Xsheet/Timeline, the viewer displays the whole scene contents at the current frame, when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you work more easily on it.
 
 Drawings can be also selected directly in the viewer: this allows you to work on the different drawings visible at a certain frame with no need to retrieve them in the Xsheet/Timeline or Level Strip.
 
-.. note:: All the editing performed on drawings is not saved until you save the related level, or use the Save All command (see  :ref:`Saving Levels <saving_levels>`  ).
+.. note:: All the editing performed on drawings is not saved until you save the related level, or use the **Save All** command (see  :ref:`Saving Levels <saving_levels>`  ).
 
 .. tip:: **To select the drawing to edit:**
 
@@ -705,7 +705,7 @@ Drawings can be also selected directly in the viewer: this allows you to work on
 
     - Select it in the Xsheet/Timeline or Level Strip.
 
-    - Right-click in the viewer the drawing you want to edit and in the menu that opens choose the Select command related to the column containing the drawing you want to edit.
+    - Right-click in the viewer the drawing you want to edit and in the menu that opens choose the **Select** command related to the column containing the drawing you want to edit.
 
     .. note:: The right-click menu first lists all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one.
 
@@ -885,37 +885,37 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
 
 Grouping and Ungrouping Vectors
 '''''''''''''''''''''''''''''''
-All the vectors of a drawing lie on the same layer, therefore drawing areas are outlined by segments defined by vector intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
+All the vector strokes of a drawing lie on the same level, therefore drawing *areas* are outlined by segments defined by strokes intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
 
-To organize vectors in layers you can use the grouping features, that creates a new layer containing only the vectors you select.
+To organize strokes you can use the grouping features, that creates a new entity containing only the strokes you select.
 
-In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the vectors of the first square, and another those of the second square, thus defining two layers whose order can be arranged.
+In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the strokes of the first square, and another those of the second square, thus defining two entities whose order can be arranged.
 
-It is possible to create as many group as you want in any drawing; groups can be made of one vector only as well, for instance a circle, or a line.
+It's possible to create as many groups as you want in any drawing; groups can be made of one stroke only as well, for instance a circle, or a line.
 
-When drawing with the Geometric tool (|geometric|) closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the Auto Group option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
+When drawing with the **Geometric** tool (|geometric|), closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the **Auto Group** option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
 
-When your vector selection includes one or several groups, the new group will include them as well, preserving them and their original layering position in case the group is released. 
+When your strokes selection includes one or several groups, the new group will include them as well, preserving them and their original sorting order position in case the group is released. 
 
-.. note:: It is not possible to define a group if the selection includes only some strokes belonging to a group.
+.. note:: It's not possible to define a group if the selection includes only some strokes belonging to a group.
 
-When a group is released, if no other group is defined in the same drawing, all the vectors will lie on the same layer; if other groups are defined, the vectors of the released group will lie on a layer placed behind, in front of, or between the other groups, according to the original group layering position.
+When a group is released, if no other group is defined in the same drawing, all the strokes will lie at the same level; if other groups are defined, the strokes of the released group will lie on a level behind, in front of, or between the other groups, according to the original group sorting order position.
 
-It is possible to enter groups to isolate them visually from the rest of the drawing and better understand which vectors are inside and which outside the group. In this way it is also easier to work on the drawing, for instance to fill an area or to change the color of some vectors. 
+It's possible to enter groups to isolate them visually from the rest of the drawing and better understand which strokes are inside and which outside the group. In this way it's also easier to work on the drawing, for instance to fill an area or to change the color of some strokes. 
 
-As the Selection tool (|selection|) considers the group as a whole, if you want to select a vector belonging to a group, first you have to enter the group, and then select the vector.
+As the **Selection** tool (|selection|) considers the group as a whole, if you want to select a stroke belonging to a group, first you have to enter the group, and then select the stroke.
 
-.. note:: As groups define layers, when using the Fill tool (|fill|), only areas defined by vectors within the same group can be filled.
+.. note:: As groups define wich strokes belong to a certain level, when using the **Fill** tool (|fill|), only areas defined by strokes within the same group can be filled.
 
 .. tip:: **To define a group:**
 
-    1. Use the Selection tool (|selection|) to select the vectors you want to be in a group.
+    1. Use the **Selection** tool (|selection|) to select the strokes you want to be in a group.
 
     2. Do one of the following:
 
-    - Choose Edit > Group.
+    - Choose Edit > **Group**.
 
-    - Right-click on the selection and choose Group from the menu that opens.
+    - Right-click on the selection and choose **Group** from the menu that opens.
 
 .. tip:: **To release a group:**
 
@@ -923,17 +923,17 @@ As the Selection tool (|selection|) considers the group as a whole, if you want 
 
     2. Do one of the following:
 
-    - Choose Edit > Ungroup.
+    - Choose Edit > **Ungroup**.
 
-    - Right-click on the selection and choose Ungroup from the menu that opens.
+    - Right-click on the selection and choose **Ungroup** from the menu that opens.
 
 .. tip:: **To enter a group:**
 
     Do one of the following:
 
-    - Select the group, then choose Edit > Enter Group.
+    - Select the group, then choose Edit > **Enter Group**.
 
-    - Right-click the group and choose Enter Group from the menu that opens.
+    - Right-click the group and choose **Enter Group** from the menu that opens.
 
     - Double-click the group.
 
@@ -941,70 +941,70 @@ As the Selection tool (|selection|) considers the group as a whole, if you want 
 
     Do one of the following:
 
-    - Choose Edit > Exit Group.
+    - Choose Edit > **Exit Group**.
 
-    - Right-click the group and choose Exit Group from the menu that opens.
+    - Right-click the group and choose **Exit Group** from the menu that opens.
 
     - Double-click outside the group.
 
 .. tip:: **To select a group:**
 
-    Choose the Selection tool (|selection|) and do any of the following:
+    Choose the **Selection** tool (|selection|) and do any of the following:
 
-    - Click any vector belonging to the group.
+    - Click any stroke belonging to the group.
 
-    - Click and drag to select at least one vector belonging to the group.
+    - Click and drag to select at least one stroke belonging to the group.
 
-    - Set the type to Rectangular and click and drag to define a box and select at least one vector belonging to the group.
+    - Set the type to **Rectangular** and click and drag to define a box and select at least one stroke belonging to the group.
 
-    - Set the type to Freehand and click and drag to outline an area and select at least one vector belonging to the group.
+    - Set the type to **Freehand** and click and drag to outline an area and select at least one stroke belonging to the group.
 
-    - Set the type to Polyline and click to outline an area by defining a series of lines and select at least one vector belonging to the group.
+    - Set the type to **Polyline** and click to outline an area by defining a series of lines and select at least one stroke belonging to the group.
 
-.. tip:: **To select a vector in a group:**
+.. tip:: **To select a stroke in a group:**
 
     1. Enter the group.
 
-    2. Click the vector to select it.
+    2. Click the stroke to select it.
 
 
 .. _setting_stroke_and_group_layering_order:
 
-Setting Stroke and Group Layering Order
-'''''''''''''''''''''''''''''''''''''''
-For each drawing, vectors and groups layering order can be changed by setting what has to lie in front of, and what behind.
+Setting Stroke and Group Sorting Order
+''''''''''''''''''''''''''''''''''''''
+For each vector drawing, strokes and groups sorting order can be changed by setting what has to lie in front of, and what behind.
 
 .. tip:: **To bring the selection to front:**
 
     Do one of the following:
 
-    - Choose Edit > Bring to Front.
+    - Choose Edit > **Bring to Front**.
 
-    - Right-click on the selection and choose Bring to Front from the menu that opens.
+    - Right-click on the selection and choose **Bring to Front** from the menu that opens.
 
-.. tip:: **To bring the selection one layer forward:**
+.. tip:: **To bring the selection one level forward:**
 
     Do one of the following:
 
-    - Choose Edit > Bring Forward.
+    - Choose Edit > **Bring Forward**.
 
-    - Right-click on the selection and choose Bring Forward from the menu that opens.
+    - Right-click on the selection and choose **Bring Forward** from the menu that opens.
 
 .. tip:: **To send the selection back:**
 
     Do one of the following:
 
-    - Choose Edit > Send Back.
+    - Choose Edit > **Send Back**.
 
-    - Right-click on the selection and choose Send Back from the menu that opens.
+    - Right-click on the selection and choose **Send Back** from the menu that opens.
 
-.. tip:: **To send the selection one layer backward:**
+.. tip:: **To send the selection one level backward:**
 
     Do one of the following:
 
-    - Choose Edit > Send Backward.
+    - Choose Edit > **Send Backward**.
 
-    - Right-click on the selection and choose Send Backward from the menu that opens.
+    - Right-click on the selection and choose **Send Backward** from the menu that opens.
 
 
 .. _editing_vector_drawings:
@@ -1013,14 +1013,14 @@ Editing Vector Drawings
 '''''''''''''''''''''''
 Vector drawings can be edited in some additional ways by using the set of tools. This allows you for example to better calibrate the bend of a vector, or to change its thickness.
 
-All these transformations can be also achieved on already painted drawings, because the fill styles used to paint will automatically follow the shape of the areas you modify, working like “liquid” color flooding an area defined by an outline.
+All these transformations can be also achieved on already painted drawings, because the fill styles used to paint will automatically follow the shape of the areas you modify, working like “liquid” color, flooding an area defined by an outline.
 
 
 .. _editing_vector_control_points:
 
 Editing Vector Control Points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To modify a vector by editing its control points you can use the Control Point Editor tool (|cpe|). 
+To modify a vector by editing its control points you can use the **Control Point Editor** tool (|cpe|). 
 
 Control points have handles whose length and direction define the bend of the vector. With this tool you can select a vector and modify the control point handles, or the bend of a curve defined by control points, and move, add or delete control points.
 
