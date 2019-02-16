@@ -2,7 +2,7 @@
 
 Managing Palettes and Styles
 ============================
-In OpenToonz, each Toonz Vector and Toonz Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
+In OpenToonz, Toonz Vector and Toonz Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
 
 In Toonz Vector and Toonz Raster levels, palette styles are interactively “linked” to drawn *lines* and filled *areas* by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors, even after the painting process has been done, without having to correct the style line by line, or area by area in the image.
 
