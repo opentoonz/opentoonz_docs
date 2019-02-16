@@ -545,13 +545,13 @@ The first item available in the list allows you to remove the Vector Brush in or
 
     2. Save it in the folder ``Projectroot\library\vector brushes`` (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
-.. tip:: **To change colors used by a vector brush style:**
+.. tip:: **To change colors used by a Vector Brush style:**
 
-    1. Move to the Color tab in the Style Editor.
+    1. Move to the **Color** tab in the Style Editor.
 
     2. Edit the color using the wheel and sliders.
 
-    3. If the vector brush uses more than one color, select the color to edit in the row of swatches available below the Auto and Apply buttons. 
+    3. If the Vector Brush uses more than one color, select the color to edit in the row of swatches available below the Auto and Apply buttons. 
 
 
 .. _raster_brushes:
@@ -563,13 +563,13 @@ Raster Brushes
 
 Raster brushes are available to paint in Raster levels and, with some limitations, in Toonz Raster levels. They are essentially brushes compatible with the `MyPaint <http://mypaint.org/about/>`_ open source painting software.
 
-The Raster brushes use the color from the current style as a base, and all its remaining options can be found in the **Settings** tab of the Style Editor pane (see  :ref:`Settings <settings>`  ).
+The Raster brushes use the **Color** from the current style as a base, and all its remaining options can be found in the **Settings** tab of the Style Editor pane (see  :ref:`Settings for Raster Brushes <settings_for_raster_brushes>`  ).
 
-.. note:: In Toonz Raster levels, currently only additive Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
+.. note:: In Toonz Raster levels, currently only *additive* Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
 
-.. note:: In Toonz Raster levels, Raster brushes use only the alpha channel (opacity) values of the selected brush to paint with the current style Color, and cannot use any of the other *color related* settings of that brush.
+.. note:: In Toonz Raster levels, Raster brushes use only the **Opacity** values of the selected brush to paint with the current style color, and cannot use any of the other *Color related* settings of that brush.
 
-.. note:: In Toonz Raster levels, Raster brushes paint only *Lines* (not *Areas*).
+.. note:: In Toonz Raster levels, Raster brushes can only paint *lines* (they cannot be used to fill *areas*).
 
 
 
@@ -720,25 +720,25 @@ Custom
 
 Changing the Type of Style
 ''''''''''''''''''''''''''
-When you select color, texture, generated, trail or vector brush in the style editor, you automatically assign it to the current style, thus changing the type of style.
+When you select a Color, Texture, Generated, Trail, Vector Brush or Raster brush style in the Style Editor, you automatically assign it to the current style, thus changing its style type.
 
-The only exception is when you want to change from a generated or a vector brush style to a color one, because when the current style is a generated or a vector brush one, the Color tab is used for setting its colors. In this case you have first to remove the generated or vector brush style by using the first swatch available in the swatch list, and then move to the Color tab.
+A different case is when you want to *change back* from a **Generated**, **Vector Brush** or **Raster** brush style to a **Color** one, because when the current style is one of those types, the Color tab is used for setting their colors. So, in this case you first have to remove the Generated, Vector Brush or Raster brush styles by using the first swatch available in the swatch list, and then move to the **Color** tab.
 
-Note that when you change from a style suitable for both lines and areas to a style suitable only for lines, areas painted with that style will become invisible, and vice versa. For example if you change a style from color to trail, all areas painted with that color will become invisible. If you modify the style so that it is suitable again for lines and areas, the invisible parts will become visible again. 
+Also note that when you change from a style suitable for both *lines* and *areas* to a style suitable only for *lines*, the *areas* painted with that style will become invisible, and vice versa. For example if you change a style from Color to Trail, all areas painted with that style will become invisible. If you modify the style so that it's suitable again for *lines* and *areas*, the invisible parts will become visible again. 
 
-.. tip:: **To change the type of style from color to any other:**
+.. tip:: **To change the type of style from Color to any other:**
 
-    Choose an item in the texture or vector tabs.
+    Choose an item in the **Texture**, **Vector** or **Raster** tabs.
 
-.. tip:: **To change the type of style back to color:**
+.. tip:: **To change the type of style back to Color:**
 
-    Choose the Color tab and start moving a slider or the selector in the color wheel.
+    Choose the *Color* tab and start moving a slider or the selector in the color wheel.
 
-.. tip:: **To change the type of style from generated or vector brush back to color:**
+.. tip:: **To change the type of style from Generated, Vector Brush or Raster brush back to color:**
 
-    1. In the Generated or Vector Brush sections of the Vector tab select the first style in the list (the top-left most style) to assign no special style to the current color.
+    1. In the **Generated**, **Vector Brush** or **Raster** brush sections of the Style Editor select the first style in the list (the top-left most one) to remove any special type from the current style.
 
-    2. Choose the Color tab and start moving a slider or the selector in the color wheel.
+    2. Choose the **Color** tab and start moving a slider or the selector in the color wheel.
 
 
 .. _editing_several_styles_at_the_same_time:
@@ -746,15 +746,15 @@ Note that when you change from a style suitable for both lines and areas to a st
 Editing Several Styles at the Same Time
 '''''''''''''''''''''''''''''''''''''''
 
-You can modify several styles at the same time by using the Palette Gizmo. It allows you to scale or shift the value, saturation, hue and alpha of the selected styles, blend them, or fade them to a specific color.
+You can modify several styles at the same time by using the **Palette Gizmo**. It allows you to scale or shift the value, saturation, hue and alpha of the selected styles, blend them, or fade them to a specific color.
 
 |palette_gizmo|
 
-.. note:: Only the color styles are affected by the Palette Gizmo editing and the blending. e.g. generated and trail styles will not be affected.
+.. note:: Only the **Color** styles are affected by the **Palette Gizmo** editing and the blending. e.g. Generated and Trail styles will not be affected.
 
 .. tip:: **To open the Palette Gizmo:**
 
-    Right-click the selected styles and choose Palette Gizmo from the menu that opens.
+    Right-click the selected styles and choose **Palette Gizmo** from the menu that opens.
 
 .. tip:: **To change the value of the selected styles:**
 
@@ -762,9 +762,9 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 
     2. Do one of the following:
 
-    - Click the + button to increase the value on the set percentage or shift magnitude.
+    - Click the **+** button to increase the value on the set percentage or shift magnitude.
 
-    - Click the - button to decrease the value on the set percentage or shift magnitude.
+    - Click the **-** button to decrease the value on the set percentage or shift magnitude.
 
 .. tip:: **To change the saturation of the selected styles:**
 
@@ -772,9 +772,9 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 
     2. Do one of the following:
 
-    - Click the + button to increase the saturation on the set percentage or shift magnitude.
+    - Click the **+** button to increase the saturation on the set percentage or shift magnitude.
 
-    - Click the - button to decrease the saturation on the set percentage or shift magnitude.
+    - Click the **-** button to decrease the saturation on the set percentage or shift magnitude.
 
 .. tip:: **To change the hue of the selected styles:**
 
@@ -782,9 +782,9 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 
     2. Do one of the following:
 
-    - Click the + button to increase the hue on the set shift magnitude.
+    - Click the **+** button to increase the hue on the set shift magnitude.
 
-    - Click the - button to decrease the hue on the set shift magnitude.
+    - Click the **-** button to decrease the hue on the set shift magnitude.
     
 .. tip:: **To change the alpha of the selected styles:**
 
@@ -792,27 +792,27 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 
     2. Do one of the following:
 
-    - Click the + button to increase the alpha on the set percentage or shift magnitude.
+    - Click the **+** button to increase the alpha on the set percentage or shift magnitude.
 
-    - Click the - button to decrease the alpha on the set percentage or shift magnitude.
+    - Click the **-** button to decrease the alpha on the set percentage or shift magnitude.
 
 .. tip:: **To blend selected styles:**
 
-    1. Select a set of styles in the palette editor.
+    1. Select a set of styles in the **Palette Editor**.
     
-    2. Click the Blend button: style colors will be blended from the first to the last color of the selected styles.
+    2. Click the **Blend** button: style colors will be blended from the first to the last color of the selected styles.
 
 .. tip:: **To fade the selected styles to a specific color:**
 
     1. Choose the color you want to fade the selection to by doing one of the following:
 
-    - Set the Red, Green and Blue values.
+    - Set the **Red**, **Green** and **Blue** values.
 
     - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
     2. Set the percentage of the fading you want to apply to the styles.
 
-    3. Click the Fade button to fade styles to the set color, according to the set percentage.
+    3. Click the **Fade** button to fade styles to the set color, according to the set percentage.
 
 
 .. _using_the_name_editor:
@@ -820,7 +820,7 @@ You can modify several styles at the same time by using the Palette Gizmo. It al
 Using the Name Editor
 '''''''''''''''''''''
 
-The Name Editor allows to systematize the naming of styles used in a production, by defining preset names for Character, Part and Suffix. In that way, styles in a palette can easily be given significant names that will ease its use later on the production.  
+The **Name Editor** allows to systematize the naming of styles used in a production, by defining preset names for **Character**, **Part** and **Suffix**. In that way, styles in a palette can easily be given significant names that will ease its use later on the production.  
 
 |name_editor|
 
@@ -828,11 +828,12 @@ The Name Editor allows to systematize the naming of styles used in a production,
 
 .. tip:: **To open the Name Editor:**
 
-    Right-click in the Palette Editor and choose Name Editor from the menu that opens.
+    Right-click in the **Palette Editor** and choose **Name Editor** from the menu that opens.
 
 .. tip:: **To delete a preset name:**
 
-    Right-click over the desired preset name and choose Remove from the menu that opens.
+    Right-click over the desired *preset name* and choose **Remove** from the menu that opens.
+
 
 
 
