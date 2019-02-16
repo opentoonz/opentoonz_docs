@@ -591,14 +591,15 @@ When the style is a **Generated** one, the Settings tab contains one or more sli
 You can add the same **Generated** or **Trail** style as many times as you want, each time defining different settings for it.
 
 
-.. _settings_of_raster_brushes:
+.. _settings_for_raster_brushes:
 
-Settings of Raster Brushes
-''''''''''''''''''''''''''
+Settings for Raster Brushes
+'''''''''''''''''''''''''''
 
 Raster brushes have an extensive set of parameters to finetune their behaviour. These parameters can be changed in the Settings tab of the Style Editor pane. These include:
 
-#### Basic
+Basic
+.....
 
 - **Radius** basic brush radius (logarithmic). 0.7 means 2 pixels. 3.0 means 20 pixels.
 
@@ -618,7 +619,8 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Direction filter** a low value will make the direction input adapt more quickly, a high value will make it smoother.
 
-#### Opacity
+Opacity
+.......
 
 - **Opacity** 0 means brush is transparent, 1 fully visible. (also known as alpha or opacity).
 
@@ -628,7 +630,8 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Lock alpha** (info needed).
 
-#### Dabs
+Dabs
+....
 
 - **Dabs per basic radius** how many dabs to draw while the pointer moves a distance of one brush radius (more precise: the base value of the radius).
 
@@ -636,7 +639,8 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Dabs per second** dabs to draw each second, no matter how far the pointer moves.
 
-#### Smudge
+Smudge
+......
 
 - **Smudge** paint with the smudge color instead of the brush color. The smudge color is slowly changed to the color you are painting on.. 0.0 do not use the smudge color. 0.5 mix the smudge color with the brush color. 1.0 use only the smudge color.
 
@@ -644,7 +648,8 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Smudge radius** (info needed).
 
-#### Speed
+Speed
+.....
 
 - **Fine speed filter** how slow the input fine speed is following the real speed. 0.0 change immediately as your speed changes (not recommended, but try it).
 
@@ -658,15 +663,17 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Offset by speed filter** how slow the offset goes back to zero when the cursor stops moving.
 
-#### Tracking
+Tracking
+........
 
 - **Slow position tracking** slowdown pointer tracking speed. 0 disables it, higher values remove more jitter in cursor movements. Useful for drawing smooth, comic-like outlines.
 
 - **Slow tracking per dab** similar as above but at brushdab level (ignoring how much time has past, if brushdabs do not depend on time).
-
+.
 - **Tracking noise** add randomness to the mouse pointer; this usually generates many small lines in random directions; maybe try this together with 'slow tracking'.
 
-#### Stroke
+Stroke
+......
 
 - **Stroke threshold** how much pressure is needed to start a stroke. This affects the stroke input only. Mypaint does not need a minimal pressure to start drawing.
 
@@ -674,7 +681,8 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Stroke hold time** this defines how long the stroke input stays at 1.0. After that it will reset to 0.0 and start growing again, even if the stroke is not yet finished.. 2.0 means twice as long as it takes to go from 0.0 to 1.0. 9.9 and bigger stands for infinite.
 
-#### Color
+Color
+.....
 
 - **Color hue** (info needed).
 
@@ -696,7 +704,8 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 
 - **Colorize** (info needed).
 
-#### Custom
+Custom
+......
 
 - **Custom input** set the custom input to this value. If it is slowed down, move it towards this value (see below). The idea is that you make this input depend on a mixture of pressure/speed/whatever, and then make other settings depend on this 'custom input' instead of repeating this combination everywhere you need it.. If you make it change 'by random' you can generate a slow (smooth) random input.
 
