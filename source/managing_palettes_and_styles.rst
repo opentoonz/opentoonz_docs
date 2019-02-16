@@ -669,7 +669,7 @@ Tracking
 - **Slow position tracking** slowdown pointer tracking speed. 0 disables it, higher values remove more jitter in cursor movements. Useful for drawing smooth, comic-like outlines.
 
 - **Slow tracking per dab** similar as above but at brushdab level (ignoring how much time has past, if brushdabs do not depend on time).
-.
+
 - **Tracking noise** add randomness to the mouse pointer; this usually generates many small lines in random directions; maybe try this together with 'slow tracking'.
 
 Stroke
@@ -710,6 +710,7 @@ Custom
 - **Custom input** set the custom input to this value. If it is slowed down, move it towards this value (see below). The idea is that you make this input depend on a mixture of pressure/speed/whatever, and then make other settings depend on this 'custom input' instead of repeating this combination everywhere you need it.. If you make it change 'by random' you can generate a slow (smooth) random input.
 
 - **Custom input filter** how slow the custom input actually follows the desired value (the one above). This happens at brushdab level (ignoring how much time has past, if brushdabs do not depend on time).. 0.0 no slowdown (changes apply instantly).
+
 
 - **Snap to pixel** (info needed).
 
