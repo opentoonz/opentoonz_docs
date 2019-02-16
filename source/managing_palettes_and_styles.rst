@@ -712,6 +712,7 @@ Custom
 - **Custom input filter** how slow the custom input actually follows the desired value (the one above). This happens at brushdab level (ignoring how much time has past, if brushdabs do not depend on time).. 0.0 no slowdown (changes apply instantly).
 
 
+
 - **Snap to pixel** (info needed).
 
 - **Pressure gain** - Change the base value for the Pressure Gain of the brush.
