@@ -596,7 +596,7 @@ You can add the same **Generated** or **Trail** style as many times as you want,
 Settings for Raster Brushes
 '''''''''''''''''''''''''''
 
-Raster brushes have an extensive set of parameters to finetune their behaviour. These parameters can be changed in the Settings tab of the Style Editor pane. These include:
+Raster brushes have an extensive set of parameters to finetune their behaviour. These parameters can be changed in the Settings tab of the Style Editor pane. They include:
 
 Basic
 .....
