@@ -2,86 +2,85 @@
 
 Managing Palettes and Styles
 ============================
-In OpenToonz, each Toonz raster and vector animation level comes with its own palette containing styles that can be used to draw lines and paint lines and areas. Raster levels, on the contrary, can be edited by using styles available in the raster drawing palette, that is shared by all of the raster levels.
+In OpenToonz, each Toonz Vector and Toonz Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
 
-In Toonz levels, palette styles are interactively “linked” to drawn lines and filled areas by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors, even after the painting process has been done, without correcting the style line by line, or area by area.
+In Toonz Vector and Toonz Raster levels, palette styles are interactively “linked” to drawn *lines* and filled *areas* by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors, even after the painting process has been done, without having to correct the style line by line, or area by area in the image.
 
-In raster levels, palette styles are simply used to draw or touch up images, and no link exists between the styles and the drawn lines. This palette, named Raster Drawing Palette, is shared by all the raster levels belonging to a specific project and is stored in the ``+palettes``  project default folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
+In Raster levels, palette styles are simply used to draw or touch up the image, and no link exists between the styles and the already drawn lines. This palette, named **Raster Drawing Palette**, is shared by all the Raster levels belonging to a specific project and is stored in the **+palettes**  project default folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-.. note:: All the editing performed in palettes and styles is not saved until you save the related Toonz level, the palette itself, or the Save All command is used (see  :ref:`Saving Levels <saving_levels>`  ).
+.. note:: All the editing performed in palettes and styles is not saved until you save the related Toonz level, the palette itself, or the **Save All** command is used (see  :ref:`Saving Levels <saving_levels>`  ).
+
 
 .. _the_palette_window:
 
 The Palette Editor
 ------------------
 
-The palette editor displays the styles of the current animation level that are used, or can be used, to draw and paint the level itself. 
+The Palette Editor displays the styles of the current animation level that are (or can be) used, to draw and paint the level. 
 
 |palette| 
 
-The default palette of any new Toonz vector level contains only the plain black color; the default palette of a Toonz raster level contains the colors recognized during the cleanup process. Any palette always contains the Color 0 item, that allows you to remove any style from lines and filled areas. 
+The default palette of any new **Toonz Vector** level contains only the plain black color; the default palette of a **Toonz Raster** level contains either the plain black color, for new levels, or the colors recognized during the cleanup process, for cleaned up levels from scans. Any palette always contains the **Color_0** item, that allows you to remove any style from *lines* and filled *areas*. 
 
 .. note:: Each palette can contain up to 4096 styles.
 
-Styles in the palette can be displayed in different modes:
+Styles in the Palette Editor can be displayed in different modes:
 
-- Small Thumbnails View displays styles as small squares. The style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip.
+- **Small Thumbnails View** displays styles as small squares. The style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip.
 
-- Medium Thumbnails View displays styles as medium squares. You can read the first letters of the name of the style directly inside the chips; the style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip. 
+- **Medium Thumbnails View** displays styles as medium squares. You can read the first letters of the name of the style directly inside the chips; the style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip. 
 
-- Large Thumbnails View displays styles as large squares. You can read the first letters of the name of the style directly inside the chips; the style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip. 
+- **Large Thumbnails View** displays styles as large squares. You can read the first letters of the name of the style directly inside the chips; the style index is displayed at the bottom right corner. Full name of the style can be displayed as a tooltip. 
 
-- List View displays style thumbnails next to their names in a list; the index of the style is displayed as a tooltip. If the palette styles refer to a studio palette, its path will be displayed along with the style name (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  ).
+- **List View** displays style thumbnails next to their names in a list; the index of the style is displayed as a tooltip. If the palette styles refer to a studio palette, its path will be displayed along with the style name (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  ).
 
-By default each palette is active, that means that it automatically displays the styles of the current animation level, but it can be turned off in order not to be updated when you select a different level. In this way, by opening more than one palette it is possible to compare and edit palettes referring to different animation levels at the same time.
+By default any palette is active, that means that it automatically displays the styles of the current animation level, but it can be turned off in order not to be updated when you select a different level. In this way, by opening more than one palette it's possible to compare and edit palettes referring to different animation levels at the same time.
 
-Palettes also can be saved as independent files in TPL format, to be loaded back into the scene to retrieve colors, or to be used with the External Palette FX (see  :ref:`Using the File Browser <using_the_file_browser>`  and  :ref:`External Palette <external_palette>`  ).
+Palettes also can be saved as independent files in TPL format to be loaded back into the scene to retrieve colors, or to be used with the **External Palette** effect (see  :ref:`Using the File Browser <using_the_file_browser>`  and  :ref:`External Palette <external_palette>`  ).
 
-.. note:: Most of the palette editing described below can be applied to the palette viewer available in the studio palette as well (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  ).
+.. note:: Most of the palette editing described below can be applied to the **Palette** viewer available in the **Studio Palette** as well (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  ).
 
 .. tip:: **To change the palette display mode:**
 
     Do one of the following:
     
-    - Click the option button (|option|) on the right of the top bar of the palette editor, and choose a display mode from the menu that opens.
+    - Click the option button (|option|) on the right of the top bar of the **Palette Editor**, and choose a display mode from the menu that opens.
     
-    - Use the standard zoom ``+`` or ``-`` shortcut keys in the palette editor to increase or decrease the styles chips size.
+    - Use the standard zoom **+** or **-** shortcut keys in the **Palette Editor** to increase or decrease the styles chips size.
 
 
 .. tip:: **To make the palette inactive or active:**
 
-    Click the switch button (|switch|) on the right of the palette editor title bar.
-
-
+    Click the **Switch** button (|switch|) on the right of the **Palette Editor** title bar.
 
 .. tip:: **To save a palette with a different name in a different location:**
 
-    1. Click the Save Palette As button (|save_as|) in the top bar of the palette editor.
+    1. Click the **Save Palette As** button (|save_as|) in the top bar of the **Palette Editor**.
 
-    2. In the browser that opens choose a location and name for the palette you want to save, and click the Save button.
+    2. In the browser that opens choose a location and name for the palette you want to save, and click the **Save** button.
 
-.. note:: The Save Palette As command creates a copy of the palette with a different file name and location, but does not change the name and location of the palette used in the scene.
+.. note:: The **Save Palette As** command creates a copy of the palette with a different file name and location, but does not change the name and location of the palette used in the scene.
 
 
 .. _arranging_palette_styles_and_pages:
 
 Arranging Palette Styles and Pages
 ''''''''''''''''''''''''''''''''''
-Palette styles can be added, named, reordered and arranged in pages. They can be copied and pasted from one position to another, or from a palette to another.
+Palette styles can be added, named, reordered and arranged in pages. They can be copied and pasted from one position to another, or from one palette to another.
 
-.. note:: When styles used for painting drawings are cut, lines and areas painted with them will be displayed in red; if they are deleted, you will be prompted whether to delete the styles only and show the lines and areas painted with them in red, or to delete the lines and areas painted with them as well.
+.. note:: When styles used for painting drawings are **Cut**, lines and areas painted with them will be displayed in **red**; if they are **Deleted**, you will be prompted whether to delete the styles only and show the lines and areas painted with them in red, or to delete the lines and areas painted with them as well.
 
 .. tip:: **To select a style:**
 
     Do one of the following:
 
-    - Click it in the palette editor.
+    - Click it in the **Palette Editor**.
     
     - Use the number keys on the main or numerical keyboards to select the corresponding style. 
     
-.. note:: When in Medium/Large Thumbnails View a visual cue of which key shortcut corresponds to which style is shown on the upper center of each style chip.
+.. note:: When in **Medium/Large Thumbnails View** a visual cue of which key shortcut corresponds to which style is shown on the upper center of each style chip.
 
-.. note:: In case of having more than 10 styles in the current palette, you can use the Tab key on the keyboard to switch to the next bank of 10 styles. 
+.. note:: In case of having more than 10 styles in the current palette, you can use the **Tab key** on the keyboard to switch to the next bank of 10 styles. 
 
 .. tip:: **To select multiple styles:**
 
@@ -93,11 +92,11 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 .. tip:: **To add a new style:**
 
-    Click the New Style button (|new_style|) in the top bar of the palette editor. 
+    Click the **New Style** button (|new_style|) in the top bar of the palette editor. 
 
 .. tip:: **To name a style:**
 
-    When styles are displayed in Medium/Large Thumbnails View or List View modes, double-click the style name to edit it.
+    When styles are displayed in **Medium/Large Thumbnails View** or **List View** modes, double-click the style name to edit it.
 
 .. tip:: **To edit palette styles with the Edit menu commands:**
 
@@ -105,21 +104,21 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
     2. Do any of the following:
 
-    - Use the Copy command to keep in memory selected styles for further operations.
+    - Use the **Cut** command to eliminate selected styles from the palette and keep them in memory for further operations.
 
-    - Use the Cut command to eliminate selected styles from the palette and keep them in memory for further operations.
+    - Use the **Copy** command to keep in memory selected styles for further operations.
 
-    - Use the Paste Insert command to paste styles kept in memory in the palette, after the currently selected style. Cut styles will be added preserving their indexes; copied styles will be added using new indexes.
+    - Use the **Paste Insert** command to paste styles kept in memory in the palette, after the currently selected style. **Cut** styles will be added preserving their indexes; **Copied** styles will be added using new indexes.
 
-    - Use the Paste Color & Name command to paste styles kept in memory, over the styles selected in the palette, overwriting their content. If the selection contains less styles than those kept in memory, styles in excess will be ignored; if the selection contains more styles than those kept in memory, styles in excess will be left as they are.
+    - Use the **Paste Color & Name** command to paste styles kept in memory, over the styles selected in the palette, overwriting their content. If the selection contains less styles than those kept in memory, styles in excess will be ignored; if the selection contains more styles than those kept in memory, styles in excess will be left as they are.
 
-    - Use the Paste Color command to paste the red, green, blue and alpha values of the styles kept in memory in the styles selected in the palette, preserving their name. If the selection contains less styles than those kept in memory, styles in excess will be ignored; if the selection contains more styles than those kept in memory, styles in excess will be left as they are. 
+    - Use the **Paste Color** command to paste the red, green, blue and alpha values of the styles kept in memory in the styles selected in the palette, preserving their name. If the selection contains less styles than those kept in memory, styles in excess will be ignored; if the selection contains more styles than those kept in memory, styles in excess will be left as they are. 
     
-    - Use the Paste Name command to paste the names of the styles kept in memory in the styles selected in the palette, preserving their colors. If the selection contains less styles than those kept in memory, styles in excess will be ignored; if the selection contains more styles than those kept in memory, styles in excess will be left as they are. 
+    - Use the **Paste Name** command to paste the names of the styles kept in memory in the styles selected in the palette, preserving their colors. If the selection contains less styles than those kept in memory, styles in excess will be ignored; if the selection contains more styles than those kept in memory, styles in excess will be left as they are. 
 
-    - Use the Delete command to delete selected styles.
+    - Use the **Delete** command to delete selected styles.
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking the selection.
+.. note:: All the **Edit** menu commands are also available in the menu that opens when right-clicking the selection.
 
 .. tip:: **To move selected styles:**
 
@@ -135,15 +134,15 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 .. tip:: **To remove all the unused styles:**
 
-    Right-click in the palette and choose Remove Unused Styles from the menu that opens.
+    Right-click in the palette and choose **Remove Unused Styles** from the menu that opens.
 
 .. tip:: **To add a new page:**
 
     Do one of the following:
 
-    - Click the New Page button (|new_page|) in the top bar of the palette editor.
+    - Click the **New Page** button (|new_page|) in the top bar of the Palette Editor.
 
-    - Right-click in the palette area where page tabs are displayed and choose New Page from the menu that opens.
+    - Right-click in the palette area where page tabs are displayed and choose **New Page** from the menu that opens.
 
 .. tip:: **To name a page:**
 
@@ -155,81 +154,82 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 .. tip:: **To delete a page:**
 
-    Right-click the page tab and choose Delete Page from the menu that opens. The current page cannot be deleted.
+    Right-click the page tab and choose **Delete Page** from the menu that opens. The current page cannot be deleted.
 
 
 .. _using_the_studio_palette:
 
 Using the Studio Palette
 ------------------------
- |studio_palette| 
 
-The studio palette allows you to store and manage an unlimited number of palettes. It is intended as a library of character and prop palettes related to one or more specific productions. From here palettes, or styles contained in them, can be retrieved, assigned, or merged to the current level palette, with no need to define the same styles again and again. 
+|studio_palette| 
 
-It consists of a palette tree and a palette viewer: the palette tree lists two main folders, Global Palettes and Project Palettes, and all the folders and palettes you add; the palette viewer displays the currently selected palette and allows you to edit it as a standard palette (see  :ref:`The Palette Window <the_palette_window>`  ).
+The Studio Palette allows you to store and manage an unlimited number of palettes. It is intended as a library of character and prop palettes related to one or more specific productions. From here Palettes, or Styles contained in them, can be *retrieved*, *assigned*, or *merged* to the current level palette, with no need to define the same styles again and again. 
 
-Any level palette can be added to the studio palette; if a color model is defined for that level, it will be saved along with the palette and retrieved any time that palette will be assigned to a level (see  :ref:`Using a Color Model <using_a_color_model>`  ).
+It consists of a Palette Tree and a Palette Viewer: the **Palette Tree** lists two main folders: **Global Palettes** and **Project Palettes**, and all the folders and palettes you add; the **Palette Viewer** displays the currently selected palette and allows you to edit it as a standard palette (see  :ref:`The Palette Window <the_palette_window>`  ).
 
-Palettes added to the Global Palettes folder will be available in the studio palette in any OpenToonz session, regardless of the current project. 
+Any level palette can be added to the Studio Palette; if a **Color Model** is defined for that level, it will be saved along with the palette and retrieved any time that palette will be assigned to a level (see  :ref:`Using a Color Model <using_a_color_model>`  ).
 
-Palettes added to the Project Palettes folder will be available only when the current project is the relevant one. For example if your current project is Production One, and you add some palettes to the Project Palettes folder, those palettes will be available only when the current project is Production One. 
+Palettes added to the **Global Palettes** folder will be available in the Studio Palette in any OpenToonz session, regardless of the current project. 
 
-If you want to add to the studio palette a series of palettes you have previously created and stored in a folder, you can also automatically retrieve them by searching that specific folder.
+Palettes added to the **Project Palettes** folder will be available only when the current project is the relevant one. For example if your current project is *Production One*, and you add some palettes to the **Project Palettes** folder, those palettes will be available only when the current project is *Production One*. 
 
-Styles that are imported from the studio palette to the palette of the current level are marked with a small white square. This reference can be used to link styles to the original studio palette styles: the link can be activated or deactivated anytime for any selection of styles. 
+If you want to add to the **Studio Palette** a series of palettes you have previously created and stored in a folder, you can also automatically retrieve them by searching that specific folder.
+
+Styles that are imported from the **Studio Palette** to the palette of the current level are marked with a *small white square*. This reference can be used to link styles to the original Studio Palette styles: the link can be activated or deactivated anytime for any selection of styles. 
 
 |regular-imported-linked_style| 
  
-When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original studio palette style. When the link is deactivated, the style can be modified regardless of the original studio palette style. 
+When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original Studio Palette style. When the link is deactivated, the style can be modified regardless of the original Studio Palette style. 
 
-Linking animation level palettes to the studio palette can assure color consistency for the whole production, because as soon as a change is needed, it can be done in the studio palette automatically updating all the linked animation levels palettes and, consequently, drawings. 
+Linking animation level palettes to the Studio Palette can assure color consistency for the whole production, because as soon as a change is needed, it can be done in the Studio Palette, automatically updating all the linked animation levels palettes and, consequently, drawings. 
 
-In the level palette, the information about which studio palette the palette styles refers to can be retrieved in the List view mode, where, next to the style thumbnails and names, the path to the source studio palette is displayed. 
+In the level palette, the information about which Studio Palette the palette styles refers to can be retrieved in the **List View** mode, where, next to the style thumbnails and names, the path to the source studio palette is displayed. 
 
-When palettes are added to the global studio palette, they are copied to the ``studiopalette``  folder located where OpenToonz projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
+When palettes are added to **Global Palettes**, they are copied to the `**studiopalette**  folder located where OpenToonz projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
-When palettes are added to the project studio palette, they are copied to the ``+palettes`` folder you specified for the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
+When palettes are added to **Project Palettes**, they are copied to the **+palettes** folder you specified for the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
-These folders can be used, for example, to move your studio palette, or the project studio palette, to a different network, or to make a backup copy of it.
+These folders can be used, for example, to move your Studio Palette, or the Project Palette, to a different network, or to make a backup copy of it.
 
 
 .. tip:: **To add an empty palette:**
 
     1. Select the folder where you want to create the new palette.
 
-    2. Right-click the folder where you want to locate the palette and choose New Palette from the menu that opens.
+    2. Right-click the folder where you want to locate the palette and choose **New Palette** from the menu that opens.
 
 .. tip:: **To name a palette:**
 
     Double click its name and type a new name.
 
-.. tip:: **To view a palette in the studio palette:**
+.. tip:: **To view a palette in the Studio Palette:**
 
-    Select it in the palette tree.
+    Select it in the **Palette Tree**.
 
-.. tip:: **To add a level palette to the studio palette:**
+.. tip:: **To add a level palette to the Studio Palette:**
 
     1. Select the level to display its palette.
 
     2. Do one of the following:
 
-    - Click the Palette button (|drag_palette|) in the top bar of the palette editor and drag the current palette to the studio palette folder where you want to locate it. The palette will retain its name.
+    - Click the **Palette** button (|drag_palette|) in the top bar of the palette editor and drag the current palette to the **Studio Palette** folder where you want to locate it. The palette will retain its name.
 
-    - Add an empty palette in the studio palette browser, right-click it and select Replace with Current Palette from the menu that opens.
+    - Add an empty palette in the Studio Palette editor, right-click it and select **Replace with Current Palette** from the menu that opens.
 
 .. tip:: **To add palettes by searching in a computer folder:**
 
     1. Select the folder where you want to place palettes retrieved during the search.
     
-    2. Right-click the folder and select Search for Palettes from the menu that opens.
+    2. Right-click the folder and select **Search for Palettes** from the menu that opens.
 
-    3. Type the full path to the computer folder you want to scan.
+    3. Browse to the computer folder you want to scan.
 
 .. tip:: **To add a new folder:**
 
     1. Select the folder where you want to create the new folder.
 
-    2. Right-click the folder where you want to locate your new folder and choose New Folder from the menu that opens.
+    2. Right-click the folder where you want to locate your new folder and choose **New Folder** from the menu that opens.
 
 .. tip:: **To name a folder:**
 
@@ -237,126 +237,126 @@ These folders can be used, for example, to move your studio palette, or the proj
 
 .. tip:: **To delete a palette or a folder:**
 
-    1. Select it in the palette tree.
+    1. Select it in the **Palette Tree**.
 
-    2. Right-click the palette or the folder you want to delete and choose Delete Palette from the menu that opens.
+    2. Right-click the palette or the folder you want to delete and choose **Delete Palette** from the menu that opens.
 
-.. tip:: **To rearrange palettes in the studio palette folders:**
+.. tip:: **To rearrange palettes in the Studio Palette folders:**
 
     Click and drag the palette from the current location to the new one.
 
-.. tip:: **To load a palette from the studio palette to the current level palette:**
+.. tip:: **To load a palette from the Studio Palette to the current level palette:**
 
     Do one of the following:
 
-    - Click and drag the palette, from the studio palette tree to the Palette button (|drag_palette|) in the top bar of the palette editor.
+    - Click and drag the palette, from the **Studio Palette Tree** to the **Palette** button (|drag_palette|) in the top bar of the **Palette Editor**.
 
-    - Right-click the palette you want to use and select Load into Current Palette from the menu that opens.
+    - Right-click the palette you want to use and select **Load into Current Palette** from the menu that opens.
 
 .. note:: In case the palette misses some styles used to paint the level drawings, you will be prompted whether to delete the styles only and show the lines and areas painted with them in red, or to delete the lines and areas painted with them as well.
 
-.. tip:: **To reorder the current palette using a specific studio palette as reference:**
+.. tip:: **To reorder the current palette using a specific Studio Palette as reference:**
 
     1. Select the level that uses the palette that has to be modified.
 
-    2. Select into the Studio Palette window the palette you want to use as reference.
+    2. Select into the **Studio Palette** pane the palette you want to use as reference.
 
-    3. Right-click the palette and select Adjust Current Level to This Palette. 
+    3. Right-click the palette and select **Adjust Current Level to This Palette**. 
 
-    4. Insert a Tolerance value in the window that opens. 
+    4. Insert a **Tolerance** value in the window that opens. 
 
-.. note:: The Tolerance parameter defines the range of RGB values that will be used for matching colors from the curret palette to those of the studio palette. Default value of 0 means no range use, just colors with the same RGB values will be reordered and all the others will be added as new colors.
+    .. note:: The **Tolerance** parameter defines the range of RGB values that will be used for matching colors from the curret palette to those of the Studio Palette. Default value of 0 means no range use, so just colors with the same RGB values will be reordered and all the others will be added as new colors.
 
-.. note:: All the colors of the studio palette will be transferred into the current palette, all of this colors will show the Reference to Studio Palette box. The colors that are used in both palettes will be ordered, for positon and color index, as in the reference studio palette. All the colors that are new into the curent palette will be moved after the last transferred color. Pages will be added when required.
+    .. note:: All the colors of the Studio Palette will be transferred into the current palette, all of this colors will show the **Reference to Studio Palette** box. The colors that are used in both palettes will be ordered, for positon and color index, as in the reference Studio Palette. All the colors that are new into the curent palette will be moved after the last transferred color. Pages will be added when required.
 
-.. tip:: **To merge a palette from the studio palette to the current level palette:**
+.. tip:: **To merge a palette from the Studio Palette to the current level palette:**
 
     Do one of the following:
 
-    - Click and drag the palette from the studio palette tree to the level palette.
+    - Click and drag the palette from the Studio Palette tree to the level palette.
 
-    - Right-click the palette you want to use and select Merge to Current Palette from the menu that opens.
+    - Right-click the palette you want to use and select **Merge to Current Palette** from the menu that opens.
 
-.. tip:: **To replace a palette from the studio palette with the current palette:**
+.. tip:: **To replace a palette from the Studio Palette with the current palette:**
 
-    1. Select the palette you want modify in the studio palette, or project palette.
+    1. Select the palette you want modify in the Global Palette, or Project Palette.
 
-    2. Right-click the palette and select Replace with Current Palette.
+    2. Right-click the palette and select **Replace with Current Palette**.
 
-.. tip:: **To copy styles from the studio palette to the current level palette, and vice versa:**
+.. tip:: **To copy styles from the Studio Palette to the current level palette, and vice versa:**
 
-    1. Select the palette in the studio palette to display it in the palette viewer.
+    1. Select the palette in the Studio Palette to display it in the palette viewer.
 
     2. Select the styles you want to copy in one palette.
 
     3. Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the other palette.
 
-.. note:: If you drag the selection to the right of the last page tab, a new page will be created containing the dragged styles.
+    .. note:: If you drag the selection to the right of the last page tab, a new page will be created containing the dragged styles.
 
-.. tip:: **To activate a style link to the studio palette:**
+.. tip:: **To activate a Style Link to the studio palette:**
 
-    1. Select the styles that have been imported from the studio palette.
+    1. Select the styles that have been imported from the Studio Palette.
 
-    2. Right-click the selection and select Toggle Link to Studio Palette from the menu that opens.
+    2. Right-click the selection and select **Toggle Link to Studio Palette** from the menu that opens.
 
-.. tip:: **To deactivate a style link to the studio palette:**
+.. tip:: **To deactivate a style link to the Studio Palette:**
 
-    1. Select the styles that have been linked to the studio palette.
+    1. Select the styles that have been linked to the Studio Palette.
 
-    2. Right-click the selection and select Toggle Link to Studio Palette from the menu that opens.
+    2. Right-click the selection and select **Toggle Link to Studio Palette** from the menu that opens.
 
-.. tip:: **To remove style reference to the studio palette:**
+.. tip:: **To remove style reference to the Studio Palette:**
 
-    1. Select the styles that have a reference to the studio palette.
+    1. Select the styles that have a reference to the Studio Palette.
 
-    2. Right-click the selection and select Remove Reference to Studio Palette from the menu that opens.
+    2. Right-click the selection and select **Remove Reference to Studio Palette** from the menu that opens.
 
-.. tip:: **To resize the studio palette sections:**
+.. tip:: **To resize the Studio Palette sections:**
 
     Do any of the following:
 
     - Click and drag the separator to resize sections. 
 
-    - Click and drag the separator towards the window border to hide a section.
+    - Click and drag the separator towards the pane border to hide a section.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+    - Click and drag the separator collapsed to the pane border towards the pane center to display again the hidden section.
 
 
 .. _animating_palettes:
 
 Animating Palettes
 ------------------
-For Toonz raster and vector levels, colors in a palette can be animated and changed according to the frames of the animation.
+For Toonz Vector and Toonz Raster levels, colors in a palette can be animated and changed according to the frames of the Xsheet/Timeline.
 
-The animation is defined by keys that refer to timing of the Xsheet: this means that there is no relation between the level length and the length of the animation of the palette colors. For example you can create a palette animated from frame 1 to 100 even if its level is only five frames long.
+The animation is defined by keys that refer to the absolute timing of the Xsheet/Timeline: this means that there is no relation between the level length and the length of the animation of the palette colors. For example you can create a palette animated from frame 1 to 100 even if its level is only five frames long.
 
-The color animation will always refer to the Xsheet timing, even if you move the related level to a different frame range. For example if you animate a palette from frame 1 to frame 20, and the level is exposed after frame 20, no color animation will be visible and the color used for the level will refer to the last key of the colors animation.
+The color animation will always refer to the Xsheet/Timeline timing, even if you move the related level to a different frame range. For example, if you animate a palette from frame 1 to frame 20, and the level is exposed after frame 20, no color animation will be visible and the color used for the level will refer to the last key of the colors animation.
 
-Keys are set for all the palette colors and settings (in the case of Special Styles and Textures) at once and can be navigated directly in the palette (with the expected update of the viewer content) to check the color animation.
+Keys are set for *all* the palette Colors and Settings (in the case of **Generated** styles and **Textures**) at once, and can be navigated directly in the **Palette Editor** (with the expected update of the viewer content) to check the color animation.
 
 .. tip:: **To define a palette key:**
 
-    1. Select in the Xsheet the frame where you want to define the key.
+    1. Select in the Xsheet/Timeline the frame where you want to define the key.
 
-    2. Click the key button (|key|) in the top bar of the palette editor.
+    2. Click the **Key** button (|key|) in the top bar of the Palette Editor.
 
 .. tip:: **To check if the palette has a key at a specific frame:**
 
-    Select the frame you want to check: if the key button (|key|) in the top bar of the palette editor is blue, the colors have a key at the current frame.
+    Select the frame you want to check: if the **Key** button (|key|) in the top bar of the Palette Editor is blue, the colors have a key at the current frame.
 
 .. tip:: **To navigate the palette keys:**
 
-    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the key button in the top bar of the palette editor.
+    Use the **Previous Key** (|next_key|) and **Next Key** buttons (|prevkey|) available at the side of the key button in the top bar of the palette editor.
 
 .. tip:: **To remove a palette key:**
 
     1. Do one of the following to select the frame you want to remove the key from:
 
-    - Select it in the Xsheet frame column.
+    - Select it in the Xsheet frame column or the Timeline frame ruler.
 
     - Navigate the palette keys.
 
-    2. Click the key button (|key|) in the top bar of the palette editor.
+    2. Click the **Key** button (|key|) in the top bar of the **Palette Editor** to remove it.
 
 
 .. _editing_styles:
@@ -364,33 +364,33 @@ Keys are set for all the palette colors and settings (in the case of Special Sty
 Editing Styles
 --------------
 
-Palette styles can be modified with the Style Editor. There are four types of styles to choose from: Color, Texture, Vector and Raster. Generated, Trail and Vector Brushes are available for vector animation levels only. For several types of styles, there is also control over various Settings.
+Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. **Generated**, **Trail** and **Vector Brushes** are available for vector animation levels only, under the **Vector** tab. For several types of styles, there is also control over various options in the **Settings** tab.
 
-An Auto button lets you decide whether the edits have to be assigned automatically to the style, or only after you click on the Apply button. In the bottom right corner you can see swatches for the previous and new style status; if you want to go back to the previous style, simply click on it. 
+An **Auto** button lets you decide whether the edits have to be assigned automatically to the style, or only after you click on the **Apply** button. In the bottom right corner you can see swatches for the previous and new style status; if you want to go back to the previous style, simply click on it. 
 
-Only the first style in the palette, labeled Color 0, cannot be edited: instead, it allows you to remove any style from lines and filled areas.
+Only the first style in the palette, labeled **Color_0**, cannot be edited: instead, it allows you to remove any style from lines and filled areas.
 
-.. tip:: **To open the style editor as a floating window:**
+.. tip:: **To open the Style Editor as a floating window:**
 
     Do one of the following:
 
-    - Choose Windows > Style Editor.
+    - Choose Windows > **Style Editor**.
 
-    - Double-click the style you want to edit in the palette editor.
+    - Double-click the style you want to edit in the Palette Editor.
 
 .. tip:: **To automatically apply the editing to the style:**
 
-    Activate the Auto button in the style editor.
+    Activate the **Auto** button in the Style Editor.
 
 .. tip:: **To apply manually the editing to the style:**
 
-    1. Deactivate the Auto button in the style editor.
+    1. Deactivate the **Auto** button in the Style Editor.
 
-    2. Click the Apply button every time you want to apply the editing to the style.
+    2. Click the **Apply** button every time you want to apply the editing to the style.
 
 .. tip:: **To return to the old style cancelling the editing:**
 
-    Click the style swatch in the very bottom right corner of the style editor.
+    Click the style swatch in the very bottom right corner of the Style Editor.
 
 
 .. _plain_colors:
@@ -406,23 +406,23 @@ You can also set the color opacity with the Alpha slider: the lower the value, t
 
 To edit a color you can use either the sliders or the color wheel. To pick a color from the sliders or from the wheel, click it; to adjust values you can use the arrowhead buttons available at each slider ends. 
 
-Colors can also be picked from the viewer content by using the RGB Picker tool (|RGB_picker|), whose Type option lets you choose the following: Normal, to pick values of a color; Rectangular, to pick the average values of the colors included in the box you define; Freehand, to pick the average values of the colors included in the area you outline by clicking and dragging; and Polyline, to pick the average values of the colors included in the area you outline by defining a series of lines. 
+Colors can also be picked from the Viewer content by using the **RGB Picker** tool (|RGB_picker|), whose **Type:** option lets you choose the following: **Normal**, to pick values of a color; **Rectangular**, to pick the average values of the colors included in the box you define; **Freehand**, to pick the average values of the colors included in the area you outline by clicking and dragging; and **Polyline**, to pick the average values of the colors included in the area you outline by defining a series of lines. 
 
-If the current style is a special one, the color you edit is the color used by the special style. If the special style uses more than one color, you can select the color to edit in the row of thumbnails available below the Auto and Apply buttons. (see  :ref:`Special Styles <special_styles>`  ).
+If the current style is a special one, the color you edit is the color used by the special style. If the special style uses more than one color, you can select the color to edit in the row of thumbnails available below the **Auto** and **Apply** buttons. (see  :ref:`Special Styles <special_styles>`  ).
 
 .. tip:: **To pick the color from the viewer content:**
 
-    1. Select the RGB Picker tool (|RGB_picker|).
+    1. Select the **RGB Picker** tool (|RGB_picker|).
 
     2. Do one of the following:
 
     - Click in the viewer to pick the needed color values.
 
-    - Set the type to Rectangular, then click and drag in the viewer to define a box which picks the average values of the colors included in the box.
+    - Set the type to **Rectangular**, then click and drag in the viewer to define a box which picks the average values of the colors included in the box.
 
-    - Set the type to Freehand, then click and drag in the viewer to outline an area which picks the average values of the colors included in the area.
+    - Set the type to **Freehand**, then click and drag in the viewer to outline an area which picks the average values of the colors included in the area.
 
-    - Set the type to Polyline, then click in the viewer to outline an area by defining a series of lines and this will pick the average values of the colors included in the area.
+    - Set the type to **Polyline**, then click in the viewer to outline an area by defining a series of lines and this will pick the average values of the colors included in the area.
 
 
 .. _textures:
