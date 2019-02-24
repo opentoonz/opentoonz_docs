@@ -100,7 +100,7 @@ As part of the scene you can load Toonz Raster and Toonz Vector animation levels
     
     - Invalid name types: ``1.tga``, ``112.tga``, ``1a.tga``
 
-Image sequences are recognized and loaded by OpenToonz file browser as a single animation level, if they are named with a progressive four-digits number written between the *base* file name and the *file extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. or ``animation_0001.tif`` , ``animation_0002.tif`` , etc. They are displayed in the file browser with a double dot or an underscore and a dot before the file extension: e.g. ``animation..tif`` or ``animation\_.tif``
+Image sequences are recognized and loaded by OpenToonz file browser as a single animation level, if they are named with a progressive four-digits number written between the *base* file name and the *file extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. or ``animation_0001.tif`` , ``animation_0002.tif`` , etc. They are displayed in the file browser with a double dot or an underscore and a dot before the file extension: e.g. ``animation..tif`` or ``animation_.tif``
 
 From the browser, you can **View** images and clips you are going to load as levels by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related file information by opening an **Info** box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
