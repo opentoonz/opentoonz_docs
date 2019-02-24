@@ -94,7 +94,7 @@ As part of the scene you can load Toonz Raster and Toonz Vector animation levels
 
 .. note:: Photoshop files can be loaded taking into account the layers the document is made of (see  :ref:`Loading Photoshop Documents <loading_photoshop_documents>`  ).
 
-.. note:: Single image files can have numbers and letters as part of their names, but they must comply with certain restrictions to be considered valid ones. Following are several descriptive examples of valid and invalid image file names:
+.. note:: Single image files can have numbers and letters as part of their names, but they must comply with certain rules to be considered valid ones. Following are several descriptive examples of valid and invalid image file names:
 
     - Valid name types: ``a1.tga``, ``1aa.tga``, ``1a2.tga``
     
