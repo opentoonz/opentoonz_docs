@@ -86,7 +86,13 @@ You can open folders and sub-folders in order to retrieve files that are display
 
 .. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences > Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
 
-As part of the scene you can load Toonz Raster and Toonz Vector animation levels (TLV and PLI), Toonz palettes (TPL), Raster full-color images or sequences (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), video clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information will retain their transparency information, once imported.
+
+.. _loading_levels:
+
+Loading Levels
+''''''''''''''
+
+As part of the scene you can load Toonz Vector and Toonz Raster animation levels (PLI and TLV), Toonz palettes (TPL), Raster full-color images or image sequences (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), video clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information will retain their transparency information, once imported.
 
 .. note:: It is also possible to load legacy TZU and TZP files created with Toonz version 4.x: in this case the files will be automatically converted and loaded in the TLV format.
 
