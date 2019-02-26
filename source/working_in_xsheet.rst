@@ -100,13 +100,13 @@ As part of the scene you can load Toonz Vector and Toonz Raster animation levels
 
 .. note:: Photoshop files can be loaded taking into account the layers the document is made of (see  :ref:`Loading Photoshop Documents <loading_photoshop_documents>`  ).
 
-Single image files can have numbers and letters as part of their names, but they must comply with certain rules to be considered valid ones. Following are several descriptive examples of valid and invalid image file names:
+*Single image* files can have numbers and letters as part of their names, but they must comply with certain rules to be considered valid ones. Following are several descriptive examples of valid and invalid image file names:
 
- - Valid name types: ``a1.tga``, ``1aa.tga``, ``1a2.tga``
+ - Valid name types: ``a1.tga``, ``1a1.tga``, ``1aa.tga``, ``1aaa.tga``
     
- - Invalid name types: ``1.tga``, ``112.tga``, ``1a.tga``
+ - Invalid name types: ``1.tga``, ``111.tga``, ``1a.tga``, ``111a.tga``
 
-Image sequences are recognized and loaded by OpenToonz file browser as a single animation level, if they are named with a progressive four-digits number written between the *base* file name and the file *extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. or ``animation_0001.tif`` , ``animation_0002.tif`` , etc. They are displayed in the file browser with a double dot or an underscore and a dot before the file extension: e.g. ``animation..tif`` or ``animation_.tif``
+*Image sequences* are recognized and loaded by OpenToonz file browser as a single animation level, if they are named with a progressive four-digits number written between the *base* file name and the file *extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , ``etc.`` or ``animation_0001.tif`` , ``animation_0002.tif`` , ``etc.``. They are displayed in the file browser with a *double dot* or *an underscore and a dot* before the file extension: e.g. ``animation..tif`` or ``animation_.tif``
 
 From the browser, you can **View** images and clips you are going to load as levels by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related file information by opening an **Info** box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
