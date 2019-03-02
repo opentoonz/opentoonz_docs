@@ -8,20 +8,17 @@ What is FFmpeg?
 | To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, OpenToonz requires the FFmpeg multimedia framework to be installed on your machine.
 | For more information, please visit this page: `About FFmpeg <https://www.ffmpeg.org/about.html>`_
 
-Downloading FFmpeg
-------------------
+Installing FFmpeg for Windows
+-----------------------------
+
+Downloading
+~~~~~~~~~~~
+
 | To download FFmpeg, first visit this page: `Download FFmpeg <https://www.ffmpeg.org/download.html>`_
 
 |get_the_packages|
 
-| Next, choose your operating system to be taken to the appropriate section:
-| `Windows <Downloading FFmpeg for Windows_>`_
-| `Mac <Downloading FFmpeg for Mac_>`_
-| `Linux <Downloading FFmpeg for Linux_>`_
-
-Downloading FFmpeg for Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-| For Windows users, select the Windows icon and then select the **Windows builds** link:
+| Select the Windows icon and then select the **Windows builds** link:
 
 |packages_windows|
 
@@ -32,37 +29,9 @@ Downloading FFmpeg for Windows
 | In the majority of cases, the default choices are fine.
 | Click on the blue **Download Build** button, this will begin downloading a zip archive containing FFmpeg.
 
-| You can now proceed to the next section: `Installing FFmpeg for Windows`_.
+Installing
+~~~~~~~~~~
 
-Downloading FFmpeg for Mac
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-| For Mac users, select the Apple icon and select the **Static and Shared builds** link.
-
-|packages_mac|
-
-| You will be taken to an **FFmpeg Builds** page with some options for the version of FFmpeg that you want to download:
-
-| Make sure **macOS 64-bit** is selected under the **Architecture** column.
-
-|ffmpeg_builds_mac|
-
-| Click on the blue **Download Build** button, this will begin downloading a zip archive containing FFmpeg.
-
-| You can now proceed to the next section: `Installing FFmpeg for Mac`_.
-
-Downloading FFmpeg for Linux
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-| Yet to be added, please contribute if you are able
-
-| You can now proceed to the next section: `Installing FFmpeg for Linux`_.
-
-Installing FFmpeg
------------------
-
-Installing FFmpeg for Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 | Once you have downloaded the FFmpeg zip archive, open it and double-click on the first folder.
 
 | Within the **bin** folder are the executable files that you will need.
@@ -86,9 +55,30 @@ Installing FFmpeg for Windows
 
 |output_settings_windows|
 
-
 Installing FFmpeg for Mac
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
+
+Downloading
+~~~~~~~~~~~
+
+| To download FFmpeg, first visit this page: `Download FFmpeg <https://www.ffmpeg.org/download.html>`_
+
+|get_the_packages|
+
+| Select the Apple icon and select the **Static and Shared builds** link.
+
+|packages_mac|
+
+| You will be taken to an **FFmpeg Builds** page with some options for the version of FFmpeg that you want to download:
+
+| Make sure **macOS 64-bit** is selected under the **Architecture** column.
+
+|ffmpeg_builds_mac|
+
+| Click on the blue **Download Build** button, this will begin downloading a zip archive containing FFmpeg.
+
+Installing
+~~~~~~~~~~
 | Once you have downloaded the FFmpeg zip archive, open it and double-click on the first folder.
 
 | Within the **bin** folder are the executable files that you will need.
@@ -116,9 +106,7 @@ Installing FFmpeg for Mac
 |output_settings_mac|
 
 Installing FFmpeg for Linux
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-| Yet to be added, please contribute if you are able
+---------------------------
 
 .. Images
 
