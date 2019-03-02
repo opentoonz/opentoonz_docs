@@ -79,6 +79,7 @@ Downloading
 
 Installing
 ~~~~~~~~~~
+
 | Once you have downloaded the FFmpeg zip archive, open it and double-click on the first folder.
 
 | Within the **bin** folder are the executable files that you will need.
@@ -108,6 +109,34 @@ Installing
 Installing FFmpeg for Linux
 ---------------------------
 
+| To install FFmpeg, enter the following command in the terminal window depending on your distribution.
+
+Arch Linux: ``# pacman -S extra/ffmpeg``.
+
+Debian GNU/Linux: ``# apt install ffmpeg``.
+
+Gentoo Linux: ``# emerge media-video/ffmpeg``.
+
+Solus: ``# eopkg install ffmpeg``.
+
+| If you are using a other Linux distribution please refer to its documentation or visit the `FFmpeg website <https://www.ffmpeg.org/download.html>`_.
+
+| To make it possible to export files in mp4, webm or gif formats, you need to specify the path to FFmpeg installed on your system, usually it is ``/usr/bin/opentoonz``.
+
+- Enter in the terminal window command ``$ which opentoonz``.
+- Next, start OpenToonz and open the **User Preferences** window with ``File > Preferences...``
+- Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
+- Insert the path **/usr/bin**.
+
+|ffmpeg_path_linux|
+
+- Restart OpenToonz.
+- Open the **Output Settings** window with ``File > Output Settings...``
+
+| In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
+
+|output_settings_linux|
+
 .. Images
 
 .. |get_the_packages| image:: /_static/using_ffmpeg_with_opentoonz/get_the_packages.png
@@ -131,6 +160,8 @@ Installing FFmpeg for Linux
 
 .. Linux images
 
+.. |ffmpeg_path_linux| image:: /_static/using_ffmpeg_with_opentoonz/linux/ffmpeg_path.png
+.. |output_settings_linux| image:: /_static/using_ffmpeg_with_opentoonz/linux/output_settings.png
 
 .. Note from Wolf_In_A_Bowl
 .. This is a work-in-progress page, please contribute to its development by adding the guide section for and Linux.
