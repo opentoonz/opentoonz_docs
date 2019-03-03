@@ -196,7 +196,7 @@ Arch Linux
 Gentoo Linux
 ''''''''''''
 
-``# emerge opentoonz``
+``# emerge media-gfx/opentoonz``
 
 Solus
 '''''
