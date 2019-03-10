@@ -438,7 +438,7 @@ Texture styles can be used both in Toonz Vector and Toonz Raster levels, but onl
 
 Image sequences can also be loaded as textures, provided they follow the OpenToonz rules for being detected as such. In the case an image sequence is loaded as a texture their frames will change with each new frame of the Xsheet/Timeline, and will cycle when it reaches its last frame.
 
-.. tip:: **To add a new Texture:**
+.. tip:: **To add a new texture to the Texture library:**
 
     1. Create the image you want to use as a texture with the following characteristics:
 
