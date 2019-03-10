@@ -447,20 +447,6 @@ Texture styles can be used both in Toonz Vector and Toonz Raster levels, but onl
     2. Save the texture file in the folder ``<projectroot>\library\textures``  (see  :ref:`Setting up Projects <setting_up_projects>`  ).
 
 
-.. _texture_mapping:
-
-Texture Mapping
-~~~~~~~~~~~~~~~
-Texture mapping is the way the texture is applied to the *lines* or *areas* using the style. It's applied differently either if the level is a Toonz Vector or Toonz Raster one:
-
-  - **Toonz Vector**: Texture mapping is performed using the vector stroke parametric coordinates; this means that for *lines* the texture automatically “follows” the stroke's shape and thickness, whether for *areas* the texture image is tiled to cover the area painted with the style. 
-
-  - **Toonz Raster**: Texture mapping is performed using standard mapping coordinates; this means that the texture image is tiled to cover the lines or areas painted with the style.
-
-
-.. note:: A more powerful texture mapping can be performed by using the **Texture** and **Pinned Texture** special FX (see  :ref:`Toonz Level <toonz_level>`  ).
-
-
 .. _custom_textures:
 
 Custom Textures
@@ -477,6 +463,20 @@ The custom texture will be saved into the Palette and its icon will be replaced 
     3. Go in the **Settings** tab, use the **Load From File** field and choose the image (or image sequence) you want to use as texture.
 
     4. In Toonz Raster levels, press the **Preview** button to visualize the texture.
+
+
+.. _texture_mapping:
+
+Texture Mapping
+~~~~~~~~~~~~~~~
+Texture mapping is the way the texture is applied to the *lines* or *areas* using the style. It's applied differently either if the level is a Toonz Vector or Toonz Raster one:
+
+  - **Toonz Vector**: Texture mapping is performed using the vector stroke parametric coordinates; this means that for *lines* the texture automatically “follows” the stroke's shape and thickness, whether for *areas* the texture image is tiled to cover the area painted with the style. 
+
+  - **Toonz Raster**: Texture mapping is performed using standard mapping coordinates; this means that the texture image is tiled to cover the lines or areas painted with the style.
+
+
+.. note:: A more powerful texture mapping can be performed by using the **Texture** and **Pinned Texture** special FX (see  :ref:`Toonz Level <toonz_level>`  ).
 
 
 .. _texture_settings:
