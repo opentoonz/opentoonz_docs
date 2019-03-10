@@ -364,7 +364,7 @@ Keys are set for *all* the palette Colors and Settings (in the case of **Generat
 Editing Styles
 --------------
 
-Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. **Generated**, **Trail** and **Vector Brushes** are available for vector animation levels only, under the **Vector** tab. For several types of styles, there is also control over various options in the **Settings** tab.
+Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. Under the **Vector** tab, there are the **Generated**, **Trail** and **Vector Brushes** categories, available for Toonz Vector levels only. For several types of styles, there is also control over various styles options in the **Settings** tab.
 
 An **Auto** button lets you decide whether the edits have to be assigned automatically to the style, or only after you click on the **Apply** button. In the bottom right corner you can see swatches for the previous and new style status; if you want to go back to the previous style, simply click on it. 
 
@@ -400,15 +400,15 @@ Colors
 
 |style_editor_color|
 
-Colors can be defined either by Hue, Saturation and Value or by Red, Green and Blue values. They can be used for both drawing lines and filling areas.
+Colors can be defined either by Hue / Saturation / Value or the Red / Green / Blue values. They can be used for both drawing *lines* and filling *areas*.
 
-You can also set the color opacity with the Alpha slider: the lower the value, the more transparent the color. You can check the opacity of the color with the checkerboard pattern visible beneath the color, whose visibility is proportional to the color transparency.
+You can also set the opacity with the Alpha slider: the lower the value, the more transparent the color. You can check the opacity of the color with the checkerboard pattern visible beneath the color, whose visibility is proportional to the color transparency.
 
 To edit a color you can use either the sliders or the color wheel. To pick a color from the sliders or from the wheel, click it; to adjust values you can use the arrowhead buttons available at each slider ends. 
 
 Colors can also be picked from the Viewer content by using the **RGB Picker** tool (|RGB_picker|), whose **Type:** option lets you choose the following: **Normal**, to pick values of a color; **Rectangular**, to pick the average values of the colors included in the box you define; **Freehand**, to pick the average values of the colors included in the area you outline by clicking and dragging; and **Polyline**, to pick the average values of the colors included in the area you outline by defining a series of lines. 
 
-If the current style is a special one, the color you edit is the color used by the special style. If the special style uses more than one color, you can select the color to edit in the row of thumbnails available below the **Auto** and **Apply** buttons. (see  :ref:`Special Styles <special_styles>`  ).
+If the current style is not a plain color, the color you edit in the **Color** tab is the color used by the special style. If the special style uses more than one color, you can select the color to edit in the row of thumbnails available below the **Auto** and **Apply** buttons. (see  :ref:`Special Styles <special_styles>`  ).
 
 .. tip:: **To pick the color from the viewer content:**
 
@@ -432,15 +432,9 @@ Textures
 
 |style_editor_texture|
 
-Textures can be used both for drawing lines and filling areas. They can be selected from a list available in the Texture page, where your own textures can be added as well, or added as Custom Texture clicking the Custom Texture button.
+Textures can be used both for drawing *lines* and filling *areas*. They can be selected from a list available in the **Texture** tab, where your own textures can be added as well, or custom textures can be added by clicking the **Custom Texture** button.
 
-Vector texture mapping, that is the way the texture is applied to vectors, is performed using vector parametric coordinates: this means that the texture “follows” the vector’s shape and thickness. 
-
-Custom Textures can be loaded both on PLI and TLV levels, but their parameters can be used only on TLV levels.
-
-Lines and areas texture mapping, applied for raster drawing, use the standard mapping: this means that the texture image is tiled to cover the lines or areas painted with the style.
-
-.. note:: A more powerful texture mapping can be performed by using the Texture and Pinned Texture special FX (see  :ref:`Toonz Level <toonz_level>`  ).
+Texture styles can be used both in Toonz Vector and Toonz Raster levels, but only when applied to Toonz Raster levels they react to the settings values in the **Settings** tab (see  :ref:`Texture Settings <texture_settings>`  ).
 
 .. tip:: **To add a new Texture:**
 
@@ -450,25 +444,59 @@ Lines and areas texture mapping, applied for raster drawing, use the standard ma
 
     - The file has to be saved in any of the following formats: TIF, TGA, PNG, BMP, JPG, NOL, RGB and SGI.
 
-    2. Save the texture file in the folder ``Projectroot\library\textures``  (see  :ref:`Setting up Projects <setting_up_projects>`  ).
+    2. Save the texture file in the folder ``<projectroot>\library\textures``  (see  :ref:`Setting up Projects <setting_up_projects>`  ).
+
+
+.. _texture_mapping:
+
+Texture Mapping
+~~~~~~~~~~~~~~~
+Texture mapping is the way the texture is applied to the *lines* or *areas* using the style. It's applied differently either if the level is a Toonz Vector or Toonz Raster one:
+
+  - **Toonz Vector**: Texture mapping is performed using the vector stroke parametric coordinates; this means that for *lines* the texture automatically “follows” the stroke's shape and thickness, whether for *areas* the texture image is tiled to cover the area painted with the style. 
+
+  - **Toonz Raster**: Texture mapping is performed using standard mapping coordinates; this means that the texture image is tiled to cover the lines or areas painted with the style.
+
+
+.. note:: A more powerful texture mapping can be performed by using the **Texture** and **Pinned Texture** special FX (see  :ref:`Toonz Level <toonz_level>`  ).
 
 
 .. _custom_textures:
 
 Custom Textures
-'''''''''''''''
-Custom Textures can be used both for drawing lines and filling areas. Using Custom Textures allows to set many parameters such as: Use As Pattern, using the brightness of the loaded image to modulate the brightness of the Color index to which it is applied; choose the position between Fixed (the texture will be fixed and slide into the character), Automatic (the texture will follow the character position during the animation) and Random (the texture position change at each frame in a random way); Scale, Rotation, apply an Horizontal or Vertical offset and change the Contrast. The Custom Texture will be saved into the Palette and its icon will be replaced with an icon of the loaded texture.
+~~~~~~~~~~~~~~~
+Custom textures can be loaded for drawing both *lines* and filling *areas*. 
+The custom texture will be saved into the Palette and its icon will be replaced with an icon of the loaded texture.
 
 .. tip:: **To add a Custom Texture:**
 
-    1. Select a style in the palette editor.
+    1. Select a style in the Palette editor.
 
-    2. Go in the Texture tab of the Style Editor and press the Custom Texture button.
+    2. Go in the **Texture** tab of the Style Editor and press the **Custom Texture** button.
 
-    3. Go in the Settings tab, use the Load From File field and choose the image (or the image sequence) you want to use as texture.
+    3. Go in the **Settings** tab, use the **Load From File** field and choose the image (or image sequence) you want to use as texture.
 
-    4. Press the Preview button to visualize the texture.
+    4. In Toonz Raster levels, press the **Preview** button to visualize the texture.
 
+
+.. _texture_settings:
+
+Texture Settings
+~~~~~~~~~~~~~~~~
+Textures applied to styles used in Toonz Raster levels allow to set various parameters such as: 
+
+  - **Use As Pattern**, allows to use the brightness of the image to modulate the brightness of the plain Color of the style to which it is applied.
+
+  - **Position**, allows to control how the texture is applied to the drawing. Options include: **Fixed** (the texture will be fixed and slide when the character moves), **Automatic** (the texture will follow the character's position during the animation) and **Random** (the texture position will change at each frame in a random way); 
+
+  - **Scale**, allows to set the scale of the texture pattern.
+
+  - **Rotation**, allows to set a rotation angle to the texture pattern.
+
+  - **X displ** and **Y displ**, allow to offset the texture pattern horizontally or vertically.
+
+  - **Contrast**, allows to change the contrast of the image applied as texture.
+  
 
 .. _special_styles:
 
