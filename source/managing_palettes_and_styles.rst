@@ -436,6 +436,8 @@ Textures can be used both for drawing *lines* and filling *areas*. They can be s
 
 Texture styles can be used both in Toonz Vector and Toonz Raster levels, but only when applied to Toonz Raster levels they react to the settings values in the **Settings** tab (see  :ref:`Texture Settings <texture_settings>`  ).
 
+Image sequences can also be loaded as textures, provided they follow the OpenToonz rules for being detected as such. In the case an image sequence is loaded as a texture their frames will change with each new frame of the Xsheet/Timeline, and will cycle when it reaches its last frame.
+
 .. tip:: **To add a new Texture:**
 
     1. Create the image you want to use as a texture with the following characteristics:
@@ -444,7 +446,7 @@ Texture styles can be used both in Toonz Vector and Toonz Raster levels, but onl
 
     - The file has to be saved in any of the following formats: TIF, TGA, PNG, BMP, JPG, NOL, RGB and SGI.
 
-    2. Save the texture file in the folder ``<projectroot>\library\textures``  (see  :ref:`Setting up Projects <setting_up_projects>`  ).
+    2. Save the texture file in one of the following folders: ``<projectroot>\library\textures`` or ``Opentoonz stuff\library\textures`` (see  :ref:`Setting up Projects <setting_up_projects>`  ).
 
 
 .. _custom_textures:
