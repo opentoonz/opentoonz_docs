@@ -1,67 +1,57 @@
 .. _applying_special_fx:
 
-Applying Special FX
-===================
-Special FX can be applied to animation levels, images and clips exposed in Xsheet columns in the FX Schematic, where each element is represented as a node. 
+Applying FX
+===========
+FX can be applied to animation levels, images and clips exposed in Xsheet columns (or Timeline layers) in the FX Schematic, where each element is represented as a node.
 
-The relationship between the contents of columns and FX can be managed by connecting or disconnecting links between nodes.
+The relationship between the contents of columns/layers and FX can be managed by connecting or disconnecting links between nodes.
 
 |dwanko_before_fx| |dwanko_after_fx| 
+
 
 .. _using_the_fx_schematic:
 
 Using the FX Schematic
 ----------------------
-In the FX schematic all columns are displayed as nodes having an output port connected to the Xsheet final node: this means that their content is part of the scene and is rendered as it is.
+In the FX schematic all columns/layers are displayed as nodes having an output port connected to the Xsheet node: this means that their content is part of the scene and is rendered as it is.
 
+When FX are added, they are displayed as nodes as well, with ports to create links that let you set the way the FX affect the scene contents. 
 
+Column/layer nodes have the **Camera Stand** (|camera_stand|) and the **Render** (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column (or Timeline layer) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the **Render** toggle (|preview|) allowing you to include or exclude temporarily the effect in the rendering.
 
+Nodes can be easily selected and arranged. When selected, nodes are highlighted in white; the current node has its label in yellow.
 
-When FX are added, they are displayed as nodes as well, with ports to create links that let you set the way FX affect the scene contents. 
+.. tip:: **To access the FX Schematic:**
 
-Column nodes have the camera stand (|camera_stand|) and the render (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the render toggle (|preview|) allowing you to include or exclude temporally the effect in the rendering.
+    Click the Schematic toggle button (|schematic|) at the right of the bottom bar of the Schematic window until the title bar displays **FX Schematic**.
 
-
-
-Nodes can be easily selected and arranged. When selected, nodes are highlighted in white; the current node has its label in red.
-
-It is also possible to group several nodes in one single node, in order to better manage the whole FX schematic. Groups can be opened to be examined and edited, and its components can be selected for further operations, like editing FX settings, or creating new groups.
-
-.. tip:: **To access the FX schematic:**
-
-    Click the schematic toggle button (|schematic|) in the bottom bar of the schematic window until the title bar displays FX Schematic.
-
-
-
-.. tip:: **To navigate the FX schematic:**
+.. tip:: **To navigate the FX Schematic:**
 
     Do one of the following:
 
-    - Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to zoom in and zoom out.
+    - Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** keys) to zoom in and zoom out.
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the Fit to Window button (|fit_to_window|) in the bottom bar of the schematic window to display all of the objects in the current window.
+    - Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the Schematic window to display all of the nodes in the current window.
 
+    - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the Schematic window to center the Schematic on the current node.
 
+    - Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the Schematic window to reorder all the nodes.
 
-    - Use the Focus on Current button (|focus_on_current|) in the bottom bar of the schematic window to center the stage on the current object.
+    - Use the **Reset Size** button (|reset|) in the bottom bar of the Schematic window, or use the **Reset View** shortcut (by default the **Alt + 0** key) to display all of the nodes at the default size.
 
-    - Use the Reset Size button (|reset|) in the bottom bar of the schematic window, or use the reset view shortcut (by default the 0 key) to display all of the objects at the default size.
-
-.. tip:: **To name a node:**
+.. tip:: **To rename a node:**
 
     Ctrl + double-click the node name and type a new name.
 
-.. tip:: **To minimize/maximize the column and FX nodes:**
+.. tip:: **To minimize or maximize the column/layer and FX nodes:**
 
     Do one of the following: 
 
-    - Click the arrowhead next to the node name to minimize/maximize columns selectively.
+    - Click the arrowhead to the left of the node name to minimize/maximize columns selectively.
 
-    - Click the Minimize/Maximize (|minimize|/|maximize|) button in the bottom bar of the schematic window to minimize/maximize all the column nodes.
-
-
+    - Click the **Minimize/Maximize** (|minimize|/|maximize|) button in the bottom bar of the Schematic window to minimize/maximize all the column nodes.
 
 .. tip:: **To select nodes:**
 
@@ -73,75 +63,79 @@ It is also possible to group several nodes in one single node, in order to bette
 
     - Ctrl-click (PC) or Cmd-click (Mac) to add a node to, or remove it from the selection.
 
-.. note:: Links can be selected together with nodes (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  ).
+    .. note:: *Links* can be selected together with nodes (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  ).
 
 .. tip:: **To move the selection:**
 
-    Click and drag any object of the selection.
-
-.. tip:: **To group selected nodes:**
-
-    Right-click any selected node and choose Group from the menu that opens.
-
-.. tip:: **To open a group:**
-
-    Right-click the group and choose Open Group from the menu that opens: the group nodes are displayed in a box, showing links between group nodes, and links with nodes outside of the group. 
-
-.. note:: In the FX schematic, when the content of a group is displayed, it is possible to edit the links between group nodes, and links with nodes outside of the group.
-
-.. tip:: **To close a group:**
-
-    Click the close button on the right of the group box bar. 
-
-.. tip:: **To release a group:**
-
-    Right-click the group and choose Ungroup from the menu that opens.
+    Click and drag any node of the selection.
 
 .. tip:: **To include or exclude temporally an effect from the rendering:**
 
-    Click the render toggle (|preview|) on the upper right corner of the effect node.
+    Click the **Render** toggle (|preview|) on the upper right corner of the effect node.
 
 
+.. _grouping_nodes:
 
-.. tip:: **To reorder nodes in the FX schematic:**
+Grouping Nodes
+''''''''''''''
+It's possible to group several nodes into one single node, in order to better manage the whole FX Schematic. Groups can be opened to be examined and edited, and its components can be selected for further operations, like editing FX Settings, or creating new groups.
 
-    Click the Reorder Nodes button (|reorder_nodes|) in the bottom bar of the schematic window.
+.. tip:: **To Group selected nodes:**
 
+    Do one of the following:
+
+    - Right-click any selected node and choose **Group** from the menu that opens.
+    
+    - Press the **Ctrl + G** (PC) or **Cmd + G** (Mac) shortcut.
+
+.. tip:: **To open a Group:**
+
+    Right-click the group and choose **Open Group** from the menu that opens: the group nodes are displayed in a box, showing links between group nodes, and links with nodes outside of the group. 
+
+    .. note:: In the FX Schematic, when the content of a group is displayed, it's possible to edit the links between Group nodes and links with nodes outside of the group.
+
+.. tip:: **To close a Group:**
+
+    Click the **Close** button on the right of the group box title bar. 
+
+.. tip:: **To release a Group:**
+
+    Right-click the Group and choose **Ungroup** from the menu that opens, or press the shortcut **Ctrl + Shift + G** (PC) or **Cmd + Shift + G** (Mac).
 
 
 .. _inserting_special_fx:
 
-Inserting Special FX
-''''''''''''''''''''
-Special FX can be inserted or added in the schematic, or replace previously added FX nodes, either from and FX browser window, or from drop-down menus that open when right-clicking nodes or in the schematic area. Both are organized in folders/submenus containing sets of FX; if some presets are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
+Inserting FX
+''''''''''''
+You can **Insert** FX to selected nodes, **Add** FX to the Schematic, or **Replace** previously added FX nodes. This can be done from the **FX Browser** window or by using the drop-down menu that opens when right-clicking nodes or an empty area of the FX Schematic. Both are organized in folders/submenus containing sets of FX; if some *Presets* are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
 
  |FX_Browser| 
 
-When inserting FX, they will be placed along the link that starts from the selected node output port; when adding FX, they will be placed at the end of a new link that will start from the selected node output port.
+When *inserting* FX, they will be placed along the link that starts from the selected node output port; when *adding* FX, they will be placed at the end of a new link that will start from the selected node output port.
 
-In case several nodes are selected, the effect will be added/inserted for each selected node, but all the added/inserted FX will be linked, and connected visually by a dashed line. This means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately.
+In case several nodes are selected, the effect will be added/inserted for *each* selected node, but all the added/inserted FX will be *Linked*, and connected visually by a dashed line. This means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately.
 
-To apply FX globally it is possible to use the Xsheet node as a standard column node, representing the whole content of the scene.
+To globally apply FX it's possible to use the **Xsheet** node as if it were a standard column node (but representing the whole content of the scene) and inserting FX from there.
 
-Three different types of special FX can be used in the schematic, each with a different type of node:
+Three different types of FX can be used in the Schematic, each with a different type of node:
 
-- Basic FX, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled Source, and an output port on the right. 
+- **Basic FX**, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled *Source*, and an output port on the right. 
 
  |Basic_FX_Example| 
 
-To affect a column, they have to be inserted in the link from the column to the Xsheet, so that the column node is connected to the FX input port, and the FX node output port is connected to the Xsheet node. 
+To affect a column/layer, they have to be inserted in the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the FX input port, and the FX node output port is connected to the Xsheet node. 
 
-If several FX are applied in a chain, they will be applied one after the other, following the order from the column to the Xsheet node.
+If several FX are applied in a chain, they will be applied one after the other, following the order from the column/layer node to the Xsheet node.
 
-- Combined FX, such as the Matte In effect, that modify the column contents according to the contents other columns; they are displayed with a yellow node with two or more input ports on the left, and an output port on the right. 
+- **Combined FX**, such as the Matte In effect, that modify the column/layer contents according to the contents other columns/layers; they are displayed with a yellow node with two or more input ports on the left, and one output port on the right. 
 
-To affect a column, they have to be inserted into the link from the column to the Xsheet, so that the column node is connected to the first FX input port labelled Source, while the other columns are connected to the other input ports, whose labels depend on the effect; the FX node output port has to be connected to the Xsheet node. 
+To affect a column/layer, they have to be inserted into the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the first FX input port labelled *Source*, while the other columns/layers are connected to the other input ports, whose labels depend on the effect; the FX node output port has to be connected to the Xsheet node. 
 
  |Combined_FX_Example| 
 
-For example in case of a Matte In effect, the column to be matted has to be linked to the Source input port, the matte column has to be linked to the Matte input port, and the output port has to be connected to the Xsheet node.
+For example in case of a Matte In effect, the column to be matted has to be linked to the *Source* input port, the matte column has to be linked to the *Matte* input port, and the output port has to be connected to the Xsheet node.
 
-- FX that create computer generated images, such as the Radial Gradient, that are exposed in Xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These FX nodes have to be connected to the Xsheet node to be rendered, or can be connected to other FX nodes.
+- **FX that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These FX nodes have to be connected to the Xsheet node to be rendered, or can be connected to other FX nodes.
 
  |Generated_FX_Example| 
 
@@ -149,78 +143,76 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     Do one of the following:
 
-    - Choose Xsheet > New FX.
+    - Choose Xsheet > **New FX**.
 
-    - Click the New FX button (|fx|) in the bottom bar of the schematic window.
+    - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window.
 
-
-
-.. tip:: **To insert an effect:**
+.. tip:: **To Insert an effect:**
 
     Do one of the following:
 
-    - Select the nodes for which you want to insert a new effect, select the effect you want to insert in the FX browser and click the Insert button.
+    - Select the nodes for which you want to insert a new effect, select the effect you want to insert in the **FX Browser** and click the **Insert** button.
 
-    - Select the nodes for which you want to insert a new effect, right-click any of them and choose Insert FX from the menu that opens, then select the effect you want to insert from the available submenus. 
+    - Select the nodes for which you want to insert a new effect, right-click any of them and choose **Insert FX** from the menu that opens, then select the effect you want to insert from the available submenus. 
 
-    - Select the links where you want to insert a new effect, right-click any of them and choose Insert FX from the menu that opens, then select the effect you want to insert from the available submenus (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  ). 
+    - Select the *links* where you want to insert a new effect, right-click any of them and choose **Insert FX** from the menu that opens, then select the effect you want to insert from the available submenus (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  ). 
 
-.. tip:: **To add an effect:**
+.. tip:: **To Add an effect:**
 
     1. Select the nodes for which you want to add a new effect at the end of a new link.
 
     2. Do one of the following:
 
-    - Select the effect you want to add in the FX browser and click the Add button.
+    - Select the effect you want to add in the **FX Browser** and click the **Add** button.
 
-    - Right-click any of the selected nodes and choose Add FX from the menu that opens, then select the effect you want to add from the available submenus. 
+    - Right-click any of the selected nodes and choose **Add FX** from the menu that opens, then select the effect you want to add from the available submenus. 
 
-.. tip:: **To replace an effect:**
+.. tip:: **To Replace an effect:**
 
     1. Select the FX nodes you want to replace with a new effect.
 
     2. Do one of the following:
 
-    - Select the effect you want to add in the FX browser and click the Replace button.
+    - Select the effect you want to add in the **FX Browser** and click the **Replace** button.
 
-    - Right-click any of the selected nodes and choose Replace FX from the menu that opens, then select the new effect from the available submenus. 
+    - Right-click any of the selected nodes and choose **Replace FX** from the menu that opens, then select the new effect from the available submenus. 
 
-.. tip:: **To insert/add a global effect:**
+.. tip:: **To Insert/Add effects globally:**
 
-    1. Select the Xsheet node.
+    1. Select the **Xsheet** node.
 
     2. Do one of the following:
 
-    - Select the effect you want to insert/add in the FX browser and click the Insert/Add button.
+    - Select the effect you want to insert/add in the **FX Browser** and click the **Insert** or **Add** buttons.
 
-    - Right-click any of the selected nodes and choose Insert FX/Add FX from the menu that opens, then select the effect you want to a insert/add from the available submenus. 
+    - Right-click any of the selected nodes and choose **Insert FX** or **Add FX** from the menu that opens, then select the effect you want to a insert/add from the available submenus. 
 
-.. tip:: **To name a node:**
+.. tip:: **To rename a node:**
 
-    Double-click the node name and type a new name.
+    **Ctrl + double-click** (PC) or **Cmd + double-click** (Mac) the node name and type a new name.
 
 
 .. _editing_the_fx_schematic:
 
 Editing the FX Schematic
 ''''''''''''''''''''''''
-Links between nodes have to be considered like flows going from the column nodes to the Output node, via the Xsheet node. If along the way there is one or several effects, the column content will be consequently processed before becoming part of the output. 
+Links between nodes have to be considered like flows going to the right, from the column/layer nodes to the Output node, via the Xsheet node. If along the way there is one or several effects, the column content will be consequently processed before becoming part of the output. 
 
-From the nodes output port several links can start at the same time, thus allowing, for example, a column to be rendered as it is, and to be also used as a mask for another column. It is also possible to determine permanently whether columns will be rendered or not, by leaving or deleting the link to the Xsheet node.
+From the nodes output port several links can start at the same time, thus allowing, for example, a column/layer to be rendered as it is, and to be also used as a mask for another column/layer. It is also possible to determine permanently whether columns/layers will be rendered or not, by leaving or deleting the link to the Xsheet node.
 
-By editing the links between nodes, or by creating new ones, you can control how column nodes will interact with each other and with special FX before being rendered. 
+By editing the links between nodes, or by creating new ones, you can control how column/layer nodes will interact with each other and with FX before being rendered. 
 
-FX nodes and links can be selected in order to be cut, copied, pasted or deleted. When selected, nodes and links are highlighted in white; the current node has its label in red; when at least one object is selected, the related links are displayed in blue.
+FX nodes and links can be selected in order to be cut, copied, pasted or deleted. When selected, nodes and links are highlighted in white; the current node has its label in yellow; when at least one object is selected, the related links are displayed in blue.
 
 When pasting a copied/cut selection, several options are available:
 
-- Use Paste to paste the copied/cut selection into the schematic
+- Use **Paste** to paste the copied/cut selection into the FX Schematic
 
-- Use Paste Insert to insert the pasted selection into the selected links.
+- Use **Paste Insert** to insert the pasted selection into the *selected links*.
 
-- Use Paste Add to add the pasted selection from the selected nodes at the end of new links. 
+- Use **Paste Add** to add the pasted selection from the *selected nodes* at the end of new links. 
 
-- Use Paste Replace to replace selected FX nodes with the pasted selection.
+- Use **Paste Replace** to replace *selected FX* nodes with the pasted selection.
 
 .. note:: Links have to be selected together with nodes when copying/cutting a selection if you want to preserve the links among them when pasting.
 
@@ -242,17 +234,17 @@ When pasting a copied/cut selection, several options are available:
 
     Select the links you want to delete and do one of the following:
 
-    - Choose Edit > Delete.
+    - Choose Edit > **Delete**.
 
-    - Right-click any selected link and choose Delete from the menu that opens.
+    - Right-click any selected link and choose **Delete** from the menu that opens.
 
 .. tip:: **To connect a node to the Xsheet node:**
 
     Do one of the following:
 
-    - Click and drag the output port of the node to the input port of the Xsheet node. 
+    - Click and drag the output port of the node to the input port of the **Xsheet** node. 
 
-    - Right-click the node you want to connect to the Xsheet node, and choose Connect to Xsheet from the menu that opens.
+    - Right-click the node you want to connect to the Xsheet node, and choose **Connect to Xsheet** from the menu that opens.
 
 .. tip:: **To disconnect a flow from the Xsheet node:**
 
@@ -260,47 +252,47 @@ When pasting a copied/cut selection, several options are available:
 
     - Delete the link from the node to the Xsheet node.
 
-    - Right-click the node you want to disconnect from the Xsheet node, and choose Disconnect from Xsheet from the menu that opens.
+    - Right-click the node you want to disconnect from the Xsheet node, and choose **Disconnect from Xsheet** from the menu that opens.
 
 .. tip:: **To insert an FX node into a link:**
 
-    Alt-click and drag it onto the link.
+    **Alt-click and drag** it onto the link.
 
 .. tip:: **To extract an FX node from a link:**
 
-    Alt-click and drag it away from the link.
+    **Alt-click and drag** it away from the link.
 
 .. tip:: **To edit an FX nodes selection:**
 
     Do one of the following:
 
-    - Use the Copy command to keep the selection in memory for further operations.
+    - Use the **Copy** command to keep the selection in memory for further operations.
 
-    - Use the Cut command to eliminate the selection from the schematic and keep it in memory for further operations.
+    - Use the **Cut** command to eliminate the selection from the schematic and keep it in memory for further operations.
 
-    - Use the Paste command to paste the selection kept in memory in the FX schematic. 
+    - Use the **Paste** command to paste the selection kept in memory in the FX Schematic. 
 
-    - Right-click a link and use the Paste Insert command to insert the selection kept in memory into the selected link. 
+    - Right-click a link and use the **Paste Insert** command to insert the selection kept in memory into the *selected link*. 
 
-    - Right-click any node and use the Paste Add command to add the selection kept in memory from the selected nodes at the end of the new links. 
+    - Right-click any node and use the **Paste Add** command to add the selection kept in memory from the *selected nodes* at the end of the new links. 
 
-    - Right-click an FX node and use the Paste Replace command to replace the selected FX nodes with the selection kept in memory. 
+    - Right-click an FX node and use the **Paste Replace** command to replace the *selected FX* nodes with the selection kept in memory. 
 
-    - Use the Delete command to delete the selection.
+    - Use the **Delete** command to delete the selection.
 
-.. note:: All these commands are available in the menu that opens when right-clicking nodes and links. 
+    .. note:: All these commands are available in the menu that opens when right-clicking nodes and links. 
 
 .. tip:: **To create a linked effect:**
 
     1. Select the FX nodes you want to duplicate.
 
-    2. Right-click any of the selected nodes and choose Create Linked FX from the menu that opens.
+    2. Right-click any of the selected nodes and choose **Create Linked FX** from the menu that opens.
 
 .. tip:: **To break linked effects:**
 
     1. Select the FX nodes you want to unlink.
 
-    2. Right-click any of the selected nodes and choose Unlink from the menu that opens.
+    2. Right-click any of the selected nodes and choose **Unlink** from the menu that opens.
 
 
 .. _using_multiple_output_nodes:
@@ -309,9 +301,9 @@ Using Multiple Output Nodes
 '''''''''''''''''''''''''''
 In the FX schematic by default the Xsheet node is connected to an Output node: this means that all the nodes connected to the Xsheet node will be rendered both in the preview and in the final rendering.
 
-The scene rendering can be limited to a specific node of the schematic by creating additional output nodes, connected to the node where you want to limit the rendering. 
+The scene rendering can be limited to a specific node of the schematic by creating additional Output nodes, connected to the node where you want to limit the rendering. 
 
-When more than one output node is defined, you can set which is the active one, that will be considered for previewing or rendering the scene; the active output node is displayed in blue, while the others in grey. 
+When more than one Output node is defined, you can set which is the active one (the one that will be considered for previewing or rendering the scene); the active output node is displayed in *blue*, while the others in *grey*. 
 
 .. tip:: **To limit the output to a specific node:**
 
@@ -319,19 +311,17 @@ When more than one output node is defined, you can set which is the active one, 
 
     2. Do one of the following:
 
-    - Click the New Output button (|output|) in the bottom bar of the schematic window.
+    - Click the **New Output** button (|output|) in the bottom bar of the schematic window.
 
-    - Right-click the node and choose New Output from the menu that opens.
+    - Right-click the node and choose **New Output** from the menu that opens.
 
 .. tip:: **To add an Output node:**
 
     Do one of the following:
 
-    - Click the New Output button (|output|) in the bottom bar of the schematic window.
+    - Click the **New Output** button (|output|) in the bottom bar of the schematic window.
 
-
-
-    - Right-click in the stage and choose New Output from the menu that opens.
+    - Right-click in the stage and choose **New Output** from the menu that opens.
 
 .. tip:: **To connect a node to an Output node:**
 
@@ -339,46 +329,46 @@ When more than one output node is defined, you can set which is the active one, 
 
 .. tip:: **To set the current Output node:**
 
-    Right-click the output you want to set as current and choose Activate from the menu that opens.
+    Right-click the Output you want to set as current and choose **Activate** from the menu that opens.
 
 .. tip:: **To remove an Output node:**
 
-    1. Do one of the following:
+    Do one of the following:
 
-    - Select it and choose Edit > Delete.
+    - Select it and choose Edit > **Delete**.
 
-    - Right-click it and choose Delete from the menu that opens.
+    - Right-click it and choose **Delete** from the menu that opens.
 
-.. note:: The last Output node remaining cannot be removed from the stage.
+    .. note:: The last Output node remaining cannot be removed from the Schematic.
 
 
 .. _editing_fx_settings:
 
 Editing FX Settings
 -------------------
-FX parameters and their animation can be controlled in the FX Settings window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc. At the bottom of the window a preview area is available to check the result of the applied effect: you can activate or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
+FX parameters and their animation can be controlled in the FX Settings window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc. At the bottom of the window a preview area is available to check the result of the applied effect: you can activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
 
-Parameters can be animated by setting key values at specific frames. A Set Key button (|key|) is available in the bottom bar of the window to set key values for all of the parameters. For all of the parameters that can be animated there is also a specific set key button, a small square located on the far right of each parameter, in order to set key values for each parameter independently. 
+Parameters can be animated by setting key values at specific frames. A **Set Key** button (|key|) is available in the bottom bar of the window to set key values for *all* of the parameters. For all of the parameters that can be animated there is also a specific set key button (a small square located on the far right of each parameter), in order to set key values for each parameter independently. 
 
-The Set Key button (|key|) may have the following colors:
+The **Set Key** button (|key|) may have the following colors:
 
-    - It is grey when no key values for any parameter is defined at the current frame.
+    - It is **grey** when no key values for any parameter is defined at the current frame.
 
-    - It is blue-striped when key values are defined at least for one parameter.
+    - It is **blue-striped** when key values are defined at least for one parameter.
 
-    - It is blue when key values are defined for all the parameters.
+    - It is **blue** when key values are defined for all the parameters.
 
 The parameter specific set key button may have the following colors:
 
-    - It is grey if no key value is defined for the parameter at the current frame.
+    - It is **grey** if no key value is defined for the parameter at the current frame.
 
-    - It is black when a key value is defined for the parameter at the current frame.
+    - It is **black** when a key value is defined for the parameter at the current frame.
 
-    - It is outlined in black if the parameter is animated but no key value is defined at the current frame.
+    - It is **outlined in black** if the parameter is animated but no key value is defined at the current frame.
 
-    - It is outlined in red if you change the parameter value and the current frame does not have a key for the parameter.
+    - It is **outlined in red** if you changed the parameter value and the current frame does not have a key for the parameter.
 
-Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one key value is defined.  
+Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one key value is defined.  
 
 |FX_Settings_Example| 
 
