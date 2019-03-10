@@ -202,6 +202,8 @@ From the nodes output port several links can start at the same time, thus allowi
 
 By editing the links between nodes, or by creating new ones, you can control how column/layer nodes will interact with each other and with FX before being rendered. 
 
+.. note:: In the FXs that accept multiple input nodes it is possible to change the stacking order of the input nodes by clicking and dragging in the ports area.
+
 FX nodes and links can be selected in order to be cut, copied, pasted or deleted. When selected, nodes and links are highlighted in white; the current node has its label in yellow; when at least one object is selected, the related links are displayed in blue.
 
 When pasting a copied/cut selection, several options are available:
@@ -1170,8 +1172,6 @@ Transparency
  |Transparency| 
 
 Sets the transparency of the Source content. The Intensity, expressed as a percentage, ranges from 0, fully opaque, to 100, fully transparent.
-
-.. note:: In the FXs that accept multiple input nodes it is possible to change the stacking order of the input nodes by clicking and dragging in ports area.
 
 
 .. _light:
