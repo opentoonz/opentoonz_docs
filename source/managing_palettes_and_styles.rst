@@ -454,7 +454,7 @@ Custom Textures
 Custom textures can be loaded for drawing both *lines* and filling *areas*. 
 The custom texture will be saved into the Palette and its icon will be replaced with an icon of the loaded texture.
 
-.. tip:: **To add a Custom Texture:**
+.. tip:: **To add a custom texture:**
 
     1. Select a style in the Palette editor.
 
