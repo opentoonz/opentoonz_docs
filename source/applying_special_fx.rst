@@ -1,10 +1,10 @@
 .. _applying_special_fx:
 
-Applying FX
-===========
-FX can be applied to animation levels, images and clips exposed in Xsheet columns (or Timeline layers) in the FX Schematic, where each element is represented as a node.
+Applying Effects
+================
+Effects can be applied to animation levels, images and clips exposed in Xsheet columns (or Timeline layers) in the **FX Schematic**, where each element is represented as a node.
 
-The relationship between the contents of columns/layers and FX can be managed by connecting or disconnecting links between nodes.
+The relationship between the contents of columns/layers and effects can be managed by connecting or disconnecting links between nodes.
 
 |dwanko_before_fx| |dwanko_after_fx| 
 
@@ -15,9 +15,9 @@ Using the FX Schematic
 ----------------------
 In the FX schematic all columns/layers are displayed as nodes having an output port connected to the Xsheet node: this means that their content is part of the scene and is rendered as it is.
 
-When FX are added, they are displayed as nodes as well, with ports to create links that let you set the way the FX affect the scene contents. 
+When effects are added, they are displayed as nodes as well, with ports to create links that let you set the way the FX affect the scene contents. 
 
-Column/layer nodes have the **Camera Stand** (|camera_stand|) and the **Render** (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column (or Timeline layer) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). FX nodes have only the **Render** toggle (|preview|) allowing you to include or exclude temporarily the effect in the rendering.
+Column/layer nodes have the **Camera Stand** (|camera_stand|) and the **Render** (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column (or Timeline layer) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). Effects nodes only have the **Render** toggle (|preview|) allowing you to include or exclude temporarily the effect in the rendering.
 
 Nodes can be easily selected and arranged. When selected, nodes are highlighted in white; the current node has its label in yellow.
 
@@ -45,7 +45,7 @@ Nodes can be easily selected and arranged. When selected, nodes are highlighted 
 
     Ctrl + double-click the node name and type a new name.
 
-.. tip:: **To minimize or maximize the column/layer and FX nodes:**
+.. tip:: **To minimize or maximize the column/layer and effect nodes:**
 
     Do one of the following: 
 
@@ -78,7 +78,7 @@ Nodes can be easily selected and arranged. When selected, nodes are highlighted 
 
 Grouping Nodes
 ''''''''''''''
-It's possible to group several nodes into one single node, in order to better manage the whole FX Schematic. Groups can be opened to be examined and edited, and its components can be selected for further operations, like editing FX Settings, or creating new groups.
+It's possible to group several nodes into one single node, in order to better manage the whole FX Schematic. Groups can be opened to be examined and edited, and its components can be selected for further operations, like editing effect settings, or creating new groups.
 
 .. tip:: **To Group selected nodes:**
 
@@ -105,41 +105,41 @@ It's possible to group several nodes into one single node, in order to better ma
 
 .. _inserting_special_fx:
 
-Inserting FX
-''''''''''''
-You can **Insert** FX to selected nodes, **Add** FX to the Schematic, or **Replace** previously added FX nodes. This can be done from the **FX Browser** window or by using the drop-down menu that opens when right-clicking nodes or an empty area of the FX Schematic. Both are organized in folders/submenus containing sets of FX; if some *Presets* are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
+Inserting Effects
+'''''''''''''''''
+You can **Insert** effects to selected nodes, **Add** effects to the Schematic, or **Replace** previously added effect nodes. This can be done from the **FX Browser** window or by using the drop-down menu that opens when right-clicking nodes or an empty area of the FX Schematic. Both are organized in folders/submenus containing sets of effects; if some *Presets* are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
 
  |FX_Browser| 
 
-When *inserting* FX, they will be placed along the link that starts from the selected node output port; when *adding* FX, they will be placed at the end of a new link that will start from the selected node output port.
+When *inserting* effects, they will be placed along the link that starts from the selected node output port; when *adding* effects, they will be placed at the end of a new link that will start from the selected node output port.
 
-In case several nodes are selected, the effect will be added/inserted for *each* selected node, but all the added/inserted FX will be *Linked*, and connected visually by a dashed line. This means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately.
+In case several nodes are selected, the effect will be added/inserted for *each* selected node, but all the added/inserted effects will be *Linked*, and connected visually by a dashed line. This means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately.
 
-To globally apply FX it's possible to use the **Xsheet** node as if it were a standard column node (but representing the whole content of the scene) and inserting FX from there.
+To globally apply effects it's possible to use the **Xsheet** node as if it were a standard column node (representing the whole content of the scene) and inserting effects from there.
 
-Three different types of FX can be used in the Schematic, each with a different type of node:
+Three different types of effects can be used in the Schematic, each with a different type of node:
 
-- **Basic FX**, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled *Source*, and an output port on the right. 
+- **Basic effects**, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled *Source*, and an output port on the right. 
 
  |Basic_FX_Example| 
 
-To affect a column/layer, they have to be inserted in the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the FX input port, and the FX node output port is connected to the Xsheet node. 
+To affect a column/layer, they have to be inserted in the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the effect input port, and the effect node output port is connected to the Xsheet node. 
 
-If several FX are applied in a chain, they will be applied one after the other, following the order from the column/layer node to the Xsheet node.
+If several effects are applied in a chain, they will be applied one after the other, following the order from the column/layer node to the Xsheet node.
 
-- **Combined FX**, such as the Matte In effect, that modify the column/layer contents according to the contents other columns/layers; they are displayed with a yellow node with two or more input ports on the left, and one output port on the right. 
+- **Combined effects**, such as the Matte In effect, that modify the column/layer contents according to the contents other columns/layers; they are displayed with a yellow node with two or more input ports on the left, and one output port on the right. 
 
-To affect a column/layer, they have to be inserted into the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the first FX input port labelled *Source*, while the other columns/layers are connected to the other input ports, whose labels depend on the effect; the FX node output port has to be connected to the Xsheet node. 
+To affect a column/layer, they have to be inserted into the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the first effect input port labelled *Source*, while the other columns/layers are connected to the other input ports, whose labels depend on the effect; the effect node output port has to be connected to the Xsheet node. 
 
  |Combined_FX_Example| 
 
 For example in case of a Matte In effect, the column to be matted has to be linked to the *Source* input port, the matte column has to be linked to the *Matte* input port, and the output port has to be connected to the Xsheet node.
 
-- **FX that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These FX nodes have to be connected to the Xsheet node to be rendered, or can be connected to other FX nodes.
+- **Effects that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These effect nodes have to be connected to the Xsheet node to be rendered, or can be connected to other effect nodes.
 
  |Generated_FX_Example| 
 
-.. tip:: **To open the FX browser:**
+.. tip:: **To open the FX Browser:**
 
     Do one of the following:
 
@@ -169,7 +169,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
 .. tip:: **To Replace an effect:**
 
-    1. Select the FX nodes you want to replace with a new effect.
+    1. Select the effect nodes you want to replace with a new effect.
 
     2. Do one of the following:
 
@@ -196,15 +196,15 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
 Editing the FX Schematic
 ''''''''''''''''''''''''
-Links between nodes have to be considered like flows going to the right, from the column/layer nodes to the Output node, via the Xsheet node. If along the way there is one or several effects, the column content will be consequently processed before becoming part of the output. 
+Links between nodes have to be considered like flows going to the right, from the column/layer nodes to the *Output* node, via the Xsheet node. If along the way there is one or several effects, the column content will be consequently processed before becoming part of the output. 
 
 From the nodes output port several links can start at the same time, thus allowing, for example, a column/layer to be rendered as it is, and to be also used as a mask for another column/layer. It is also possible to determine permanently whether columns/layers will be rendered or not, by leaving or deleting the link to the Xsheet node.
 
-By editing the links between nodes, or by creating new ones, you can control how column/layer nodes will interact with each other and with FX before being rendered. 
+By editing the links between nodes, or by creating new ones, you can control how column/layer nodes will interact with each other and with effects before being rendered. 
 
-.. note:: In the FX that accept multiple input nodes it is possible to change the stacking order of the input nodes by clicking and dragging in the ports area.
+.. note:: In the effects that accept multiple input nodes it is possible to change the stacking order of the input nodes by clicking and dragging in the *ports* area.
 
-FX nodes and links can be selected in order to be cut, copied, pasted or deleted. When selected, nodes and links are highlighted in white; the current node has its label in yellow; when at least one object is selected, the related links are displayed in blue.
+Effect nodes and links can be selected in order to be cut, copied, pasted or deleted. When selected, nodes and links are highlighted in white; the current node has its label in yellow; when at least one object is selected, the related links are displayed in blue.
 
 When pasting a copied/cut selection, several options are available:
 
@@ -214,13 +214,13 @@ When pasting a copied/cut selection, several options are available:
 
 - Use **Paste Add** to add the pasted selection from the *selected nodes* at the end of new links. 
 
-- Use **Paste Replace** to replace *selected FX* nodes with the pasted selection.
+- Use **Paste Replace** to replace *selected effects nodes* with the pasted selection.
 
 .. note:: Links have to be selected together with nodes when copying/cutting a selection if you want to preserve the links among them when pasting.
 
 .. tip:: **To create links between nodes:**
 
-    Click and drag the output port of the node to the input port of the FX node.
+    Click and drag the output port of the node to the input port of the effect node.
 
 .. tip:: **To select nodes and links:**
 
@@ -256,15 +256,15 @@ When pasting a copied/cut selection, several options are available:
 
     - Right-click the node you want to disconnect from the Xsheet node, and choose **Disconnect from Xsheet** from the menu that opens.
 
-.. tip:: **To insert an FX node into a link:**
+.. tip:: **To insert an effect node into a link:**
 
     **Alt-click and drag** it onto the link.
 
-.. tip:: **To extract an FX node from a link:**
+.. tip:: **To extract an effect node from a link:**
 
     **Alt-click and drag** it away from the link.
 
-.. tip:: **To edit an FX nodes selection:**
+.. tip:: **To edit an effect nodes selection:**
 
     Do one of the following:
 
@@ -278,7 +278,7 @@ When pasting a copied/cut selection, several options are available:
 
     - Right-click any node and use the **Paste Add** command to add the selection kept in memory from the *selected nodes* at the end of the new links. 
 
-    - Right-click an FX node and use the **Paste Replace** command to replace the *selected FX* nodes with the selection kept in memory. 
+    - Right-click an effect node and use the **Paste Replace** command to replace the *selected effect nodes* with the selection kept in memory. 
 
     - Use the **Delete** command to delete the selection.
 
@@ -286,13 +286,13 @@ When pasting a copied/cut selection, several options are available:
 
 .. tip:: **To create a linked effect:**
 
-    1. Select the FX nodes you want to duplicate.
+    1. Select the effect nodes you want to duplicate.
 
     2. Right-click any of the selected nodes and choose **Create Linked FX** from the menu that opens.
 
 .. tip:: **To break linked effects:**
 
-    1. Select the FX nodes you want to unlink.
+    1. Select the effect nodes you want to unlink.
 
     2. Right-click any of the selected nodes and choose **Unlink** from the menu that opens.
 
@@ -301,7 +301,7 @@ When pasting a copied/cut selection, several options are available:
 
 Using Multiple Output Nodes
 '''''''''''''''''''''''''''
-In the FX schematic by default the Xsheet node is connected to an Output node: this means that all the nodes connected to the Xsheet node will be rendered both in the preview and in the final rendering.
+In the FX Schematic by default the Xsheet node is connected to an Output node: this means that all the nodes connected to the Xsheet node will be rendered both in the preview and in the final rendering.
 
 The scene rendering can be limited to a specific node of the schematic by creating additional Output nodes, connected to the node where you want to limit the rendering. 
 
@@ -348,7 +348,7 @@ When more than one Output node is defined, you can set which is the active one (
 
 Editing FX Settings
 -------------------
-FX parameters and their animation can be controlled in the FX Settings window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc. At the bottom of the window a preview area is available to check the result of the applied effect: you can activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
+Effects parameters and their animation can be controlled in the FX Settings window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc. At the bottom of the window a preview area is available to check the result of the applied effect: you can activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
 
 Parameters can be animated by setting key values at specific frames. A **Set Key** button (|key|) is available in the bottom bar of the window to set key values for *all* of the parameters. For all of the parameters that can be animated there is also a specific set key button (a small square located on the far right of each parameter), in order to set key values for each parameter independently. 
 
@@ -380,7 +380,7 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     Do one of the following:
 
-    - Right-click the effect node, and choose Edit FX from the menu that opens.
+    - Right-click the effect node, and choose **Edit FX** from the menu that opens.
 
     - Double-click the effect node.
 
@@ -392,9 +392,9 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     Do one of the following:
 
-    - Type the frame number or use the Next and Previous Frame buttons available in the bottom bar of the window.
+    - Type the frame number or use the **Next Frame** and **Previous Frame** buttons available in the bottom bar of the window.
 
-    - Move the current frame cursor in the Xsheet or in the function editor.
+    - Move the current frame cursor in the Xsheet or in the Function Editor.
 
     - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
@@ -402,9 +402,9 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     1. Do one of the following:
 
-    - If the current frame is not a key, click the Set Key button (|key|) in the bottom bar of the window: it turns from grey to blue and current values become key values for all the parameters at the current frame. 
+    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from grey to blue and current values become key values for all the parameters at the current frame. 
 
-    - If the current frame is a key for some parameters only, click the Set Key button (|key|): it turns from blue striped to blue and current values become key values for all the parameters at the current frame. 
+    - If the current frame is a key for some parameters only, click the **Set Key** button (|key|): it turns from blue striped to blue and current values become key values for all the parameters at the current frame. 
 
     2. Define the values for the parameters.
 
@@ -420,9 +420,9 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     Do one of the following:
 
-    - If the key values are set for all the parameters, click the Set Key button (|key|) in the bottom bar of the window: it turns from blue to grey.
+    - If the key values are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from blue to grey.
 
-    - If the key values are set for some parameters only, click twice the Set Key button (|key|) in the bottom bar of the window: with the first click it turns from blue-striped to blue as you set keys for all the parameters; with the second click, it turns from blue to grey.
+    - If the key values are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from blue-striped to blue as you set keys for all the parameters; with the second click, it turns from blue to grey.
 
 .. tip:: **To remove a key value for a specific parameter at the current frame:**
 
@@ -430,17 +430,15 @@ If no key values are defined, parameters you set will be used throughout the sce
 
 .. tip:: **To navigate frames where key values are defined:**
 
-    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the side of the Set Key button.
+    Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the side of the Set Key button.
 
 .. tip:: **To activate/deactivate the preview area:**
 
     Do any of the following:
 
-    - Click the Camera Preview button ( |Toonz71_408|) in the bottom bar of the FX settings window to limit the preview to the camera shot.
+    - Click the **Camera Preview** button ( |Toonz71_408|) in the bottom bar of the FX Settings window to limit the preview to the camera shot.
 
-
-
-    - Click the Preview button (|preview|) in the bottom bar of the FX settings window to preview the results regardless of the camera shot.
+    - Click the **Preview** button (|preview|) in the bottom bar of the FX Settings window to preview the results regardless of the camera shot.
 
 .. tip:: **To resize the preview area:**
 
@@ -452,13 +450,11 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     - Click and drag the separator collapsed to the window border toward the window center to display again the preview area.
 
-.. note:: The A/R of the preview area depends on the A/R of the current camera
+    .. note:: The A/R of the preview area depends on the A/R of the current camera
 
 .. tip:: **To change the background color of the preview area:**
 
-    Use the buttons in the bottom bar of the FX settings window to choose a white (|preview_white|), black (|preview_black|) or transparent (|preview_checkbox|) background.
-
-
+    Use the buttons in the bottom bar of the FX Settings window to choose a white (|preview_white|), black (|preview_black|) or transparent (|preview_checkbox|) background.
 
 .. tip:: **To navigate the preview area:**
 
@@ -468,24 +464,24 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the reset view shortcut (by default the 0 key) to display preview at its actual size.
+    - Use the Reset View shortcut (by default the **Alt + 0** key) to display preview at its actual size.
 
 
 .. _using_fx_gadgets:
 
-Using FX Gadgets
-''''''''''''''''
-Some FX parameters related to positions or dimensions have some gadgets available in the viewer in order to be set by using the camera box and the scene elements as a reference. For example the radial gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient.
+Using Effects Gadgets
+'''''''''''''''''''''
+Some effects parameters related to positions or dimensions have some gadgets available in the viewer in order to be set by using the camera box and the scene elements as a reference. For example the Radial Gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient.
 
-As soon as an effect node is selected in the schematic, the Animate tool becomes the current tool and the related effect gadgets, if available, are visualized. The Animate tool settings will refer to the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:`Animating Objects <animating_objects>`  ).
+As soon as an effect node is selected in the schematic, the **Animate** tool becomes the current tool and the related effect gadgets, if available, are shown. The Animate tool settings will refer to the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:`Animating Objects <animating_objects>`  ).
 
-.. tip:: **To visualize FX gadgets in the viewer:**
+.. tip:: **To visualize effects gadgets in the viewer:**
 
-    Select the effect node in the FX schematic.
+    Select the effect node in the FX Schematic.
 
-.. tip:: **To edit FX gadgets:**
+.. tip:: **To edit effects gadgets:**
 
-    Click and drag the FX gadgets visible in the viewer. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing FX gadgets. 
+    Click and drag the effects gadgets visible in the viewer. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing an effect gadget. 
 
 .. note:: Some gadgets have a handle for reference; however any point along the gadget shape can be clicked and dragged.
 
@@ -494,7 +490,7 @@ As soon as an effect node is selected in the schematic, the Animate tool becomes
 
 Defining Colors and Color Spectrums
 '''''''''''''''''''''''''''''''''''
-Some special FX may require the definition of a color, or a color spectrum.
+Some effects may require the definition of a color, or a color spectrum.
 
 Colors can be defined by editing the related Red, Green, Blue and Alpha values, or by using the Style Editor. 
 
@@ -510,7 +506,7 @@ Color spectrums, i.e. a series of colors defining a continuous gradient, can be 
 
     - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
-.. tip:: **To define a color of the spectrum:**
+.. tip:: **To set a color of the spectrum:**
 
     Select the arrow below the spectrum identifying the color, and edit the related color.
 
@@ -524,93 +520,93 @@ Color spectrums, i.e. a series of colors defining a continuous gradient, can be 
 
 .. tip:: **To remove a color from the spectrum:**
 
-    Click and drag down the arrow identifying the color.
+    Click and drag the arrow identifying the color *down*.
 
 
 .. _creating_presets:
 
 Creating Presets
 ----------------
-A particular configuration and animation of FX parameters can be saved as a preset to be available later on both in the FX Browser and drop-down menus that open when right-clicking nodes or in the schematic area.
+A particular configuration and animation of an effect parameters can be saved as a **Preset** to be available later on, both in the FX Browser and the drop-down menus that open when right-clicking nodes or in the Schematic area.
 
 When a preset for a particular effect is saved, in the FX Browser the effect icon turns into a folder containing the saved preset, with the folder icon still selectable to insert the effect with its default values; in the drop-down menus the effect has an additional drop down menu where the first item can be selected to insert the effect with its default values.
 
  |Creating_Presets_Example| 
 
-Presets are saved in the projectroot, in the ``fxs\preset`` folder. This allows the presets to be available on all the computers sharing the same Projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+Presets are saved in the ``<projectroot>\fxs\preset`` folder. This allow the presets to be available on all the computers sharing the same *Projectroot* (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
-Once a preset is applied there is no link between the saved preset and the applied preset: the applied preset can be edited without affecting the saved one.
+Once a preset is applied there is no link between the *saved preset* and the *applied preset*: the applied preset can be edited without affecting the saved one.
 
 .. note:: When you save a preset with a name already used, a confirmation dialog will open, asking you whether you want to overwrite the previously saved preset.
 
 .. tip:: **To save a preset:**
 
-    1. Right-click the effect node you want to save as a preset and choose Save As Preset from the menu that opens.
+    1. Right-click the effect node you want to save as a preset and choose **Save As Preset** from the menu that opens.
 
-    2. Assign a name to the preset and click the Save button.
+    2. Assign a name to the preset and click the **Save** button.
 
 .. tip:: **To retrieve a saved preset:**
 
     Do any of the following:
 
-    - Open the FX Browser and open the folder related to the effect for which you saved the preset.
+    - Open the **FX Browser** and open the folder related to the effect for which you saved the preset.
 
-    - In the right-click menus Insert FX, Add FX and Replace FX, choose the sub-menu related to the effect for which you saved the preset.
+    - In the right-click menus **Insert FX**, **Add FX** or **Replace FX**, choose the sub-menu related to the effect for which you saved the preset.
 
-.. tip:: **To remove a preset from the FX browser:**
+.. tip:: **To remove a preset from the FX Browser:**
 
-    Right-click the preset in the FX browser and choose Remove Preset from the menu that opens. 
+    Right-click the preset in the FX Browser and choose **Remove Preset** from the menu that opens. 
 
 
 .. _creating_macro_fx:
 
 Creating Macro FX
 -----------------
-Special FX can be combined to create a macro effect that can be saved and retrieved when needed.
+Effects can be combined to create a *macro effect* that can be saved and retrieved when needed.
 
-When a macro effect is defined, you can edit its settings either in the standard way with the FX settings window that contains a page for each effect combined to define the macro, or by opening it and editing one effect at a time.
+When a macro effect is defined, you can edit its settings either in the standard way with the FX Settings window that contains a tab for each effect combined to define the macro, or by opening it and editing one effect at a time.
 
-A macro effect can be opened also to check how the FX nodes are connected, and can be exploded to dissolve it and put its FX nodes back in the schematic.
+A macro effect can be opened also to check how the effect nodes are connected, and can be exploded to dissolve it and put its effect nodes back in the Schematic.
 
-When saved, the macro effect will be available in the FX browser and in the drop-down menus that open when right-clicking nodes or in the schematic area, inside the Macro folder, at the bottom of the list.
+When saved, the macro effect will be available in the FX Browser and in the drop-down menus that open when right-clicking nodes or in the Schematic area, inside the **Macro** folder, at the bottom of the list.
 
 .. tip:: **To create a macro effect:**
 
-    1. Select the FX nodes you want to combine to create the macro effect.
+    1. Select the effect nodes you want to combine to create the macro effect.
 
-    2. Right-click the selection and select Make Macro FX from the menu that opens.
+    2. Right-click the selection and select **Make Macro FX** from the menu that opens.
 
 .. tip:: **To open a macro effect:**
 
-    Right-click the macro node and choose Open Macro FX from the menu that opens: the macro nodes are displayed in a box, with the right links to the rest of the schematic. 
+    Right-click the macro node and choose **Open Macro FX** from the menu that opens: the macro nodes are displayed in a box, with the right links to the rest of the schematic. 
 
-.. note:: When the content of a macro is displayed it is not possible to edit the links between macro nodes, and links with nodes outside the macro.
+.. note:: When the content of a macro is displayed *it is not* possible to edit the links between macro nodes and links with nodes outside the macro.
 
 .. tip:: **To close a macro effect:**
 
-    Click the close button on the right of the macro box bar. 
+    Click the **Close** button on the right of the macro box bar. 
 
 .. tip:: **To release a macro effect:**
 
-    Right-click the macro node and choose Explode Macro FX from the menu that opens.
+    Right-click the macro node and choose **Explode Macro FX** from the menu that opens.
 
 .. tip:: **To edit a macro effect:**
 
     Do one of the following:
 
-    - Right-click the macro node and choose Edit FX from the menu that opens.
+    - Right-click the macro node and choose **Edit FX** from the menu that opens.
 
-    - Right-click the macro node and choose Open Macro FX from the menu that opens, then edit the macro FX nodes.
+    - Right-click the macro node and choose **Open Macro FX** from the menu that opens, then edit the macro effect nodes.
 
 .. tip:: **To save a macro effect:**
 
-    1. Right click the macro effect node you want to save and choose Save As Preset from the menu that opens.
+    1. Right click the macro effect node you want to save and choose **Save As Preset** from the menu that opens.
 
-    2. Assign a name to the macro effect and click the Save button.
+    2. Assign a name to the macro effect and click the **Save** button.
 
-.. tip:: **To remove a macro effect from the FX browser:**
+.. tip:: **To remove a macro effect from the FX Browser:**
 
-    Right-click the macro effect in the FX browser and choose Remove Macro FX from the menu that opens. 
+    Right-click the macro effect in the FX Browser and choose **Remove Macro FX** from the menu that opens. 
 
 
 
@@ -618,8 +614,8 @@ When saved, the macro effect will be available in the FX browser and in the drop
 
 .. _special_fx_list:
 
-Special FX List
----------------
+Effects List
+------------
 
 
 .. _background:
@@ -1426,11 +1422,11 @@ Blends a negative and a positive version of the Source content, as if exposing a
 
 Toonz Level
 '''''''''''
-The Toonz Level special FX can be applied only to Toonz raster and vector levels (TLV and PLI files). They usually affect the drawings they are applied to according to style indexes. Style indexes can be retrieved in the palette after the # symbol in the style tooltip, or in the bottom right corner of the style in large thumbnails mode. 
+Toonz Level type of effects can be applied only to Toonz Vector and Toonz Raster (PLI and TLV files). They usually affect the drawings they are applied to according to Style indexes. Style indexes can be retrieved in the Palette after the # symbol in the Style tooltip, or in the *bottom right corner* of the style in any of the **Thumbnails View** modes. 
 
-Index numbers can be specified in the related text field. They have to be separated by a comma; to define a range of indexes, you can type the first and the last separated by a dash (e.g. 4-7 will refer to indexes 4, 5, 6 and 7). To select all indexes, type ``all`` ; to select no index, type ``none`` .
+Index numbers can be specified in the related text field, separated by a comma. To define a range of indexes, you should type the first and last separated by a dash (e.g. 4-7 will refer to indexes 4, 5, 6 and 7). To select all indexes, type ``all`` ; to select no index, type ``none`` .
 
-Toonz Level special FX have to be always applied first when a series of special FX are applied to an animation level, as they work only on Toonz raster or vector levels that have not been transformed by other effects. However two or more Toonz Level special FX can be applied to the same animation level.
+Toonz Level type of effects have to be always applied first when a series of effects are applied to an animation level, as they work only on Toonz Vector or Toonz Raster levels that have not been transformed by other type of effects. However two or more Toonz Level type of effects can be applied to the same animation level.
 
 .. _art_contour:
 
@@ -1528,7 +1524,7 @@ As the texture node content can be animated as you like, this effect allows you 
 
 The Action option menu lets you choose if you want to apply the texture to the specified styles (Keep) or to apply it to all styles except for the specified ones (Delete). 
 
-The Mode option menu lets you set how the texture node content will be applied: Texture uses the texture to replace selected styles; Pattern preserves the original colors but varies them according to the texture brightness; Add, Subtract, Multiply, Lighten and Darken defines the way the texture is applied to the original colors (see  :ref:`Layer Blending <layer_blending>`  ). In case the Add, subtract or Multiply mode are selected, you can also set the Value of the effect.
+The Mode option menu lets you set how the texture node content will be applied: Texture uses the texture to replace selected styles; Pattern preserves the original colors but varies them according to the texture brightness; Add, Subtract, Multiply, Lighten and Darken defines the way the texture is applied to the original colors (see  :ref:`Layer Blending <layer_blending>`  ). In case the Add, Subtract or Multiply mode are selected, you can also set the Value of the effect.
 
 .. note:: To repeat the texture image and tile it to create a larger texture, you can apply the Tile effect to the texture column before linking it to the Texture node (see  :ref:`Tile <tile>`  ).
 
