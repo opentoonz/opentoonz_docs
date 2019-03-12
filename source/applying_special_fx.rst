@@ -346,11 +346,14 @@ When more than one Output node is defined, you can set which is the active one (
 
 .. _editing_fx_settings:
 
-Editing FX Settings
--------------------
-Effects parameters and their animation can be controlled in the FX Settings window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc. At the bottom of the window a preview area is available to check the result of the applied effect: you can activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
+Editing Effects Settings
+------------------------
+Effects parameters and their animation can be controlled in the **FX Settings** window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc.
 
-Parameters can be animated by setting key values at specific frames. A **Set Key** button (|key|) is available in the bottom bar of the window to set key values for *all* of the parameters. For all of the parameters that can be animated there is also a specific set key button (a small square located on the far right of each parameter), in order to set key values for each parameter independently. 
+At the bottom of the window a *preview area* is available to check the result of the applied effect: you can expand it or contract it, activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
+The preview area can be expanded or contracted by clicking on the **+**/**-** symbol to the left of the **Swatch Viewer** text, at the bottom left of the FX Settings window.
+
+Parameters can be animated by setting key values at specific frames. A **Set Key** button (|key|) is available in the preview area, at the bottom bar of the window, to set key values for *all* of the parameters. For each of the parameters that can be animated there is also a specific **Set Key** button (|key|) to the right of the parameter name, in order to set keyframes for each parameter independently. 
 
 The **Set Key** button (|key|) may have the following colors:
 
@@ -360,21 +363,21 @@ The **Set Key** button (|key|) may have the following colors:
 
     - It is **blue** when key values are defined for all the parameters.
 
-The parameter specific set key button may have the following colors:
+The parameter specific **Set Key** button (|key|) may have the following colors:
 
     - It is **grey** if no key value is defined for the parameter at the current frame.
 
-    - It is **black** when a key value is defined for the parameter at the current frame.
+    - It is **orange** when a key value is defined for the parameter at the current frame.
 
-    - It is **outlined in black** if the parameter is animated but no key value is defined at the current frame.
+    - It is **pale yellow** if the parameter is animated but no key value is defined at the current frame.
 
-    - It is **outlined in red** if you changed the parameter value and the current frame does not have a key for the parameter.
+    - It is **yellow** if you changed the parameter value and the current frame does not have a key for the parameter.
 
-Frames and key values can be navigated by using the related buttons in the bottom bar of the window. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one key value is defined.  
+Frames and keyframes can be navigated by using the related buttons in the bottom bar of the window. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one keyframe is defined.  
 
 |FX_Settings_Example| 
 
-If no key values are defined, parameters you set will be used throughout the scene.
+If no keyframes are defined, parameters you set will be used throughout the scene.
 
 .. tip:: **To open the FX Settings window:**
 
@@ -398,39 +401,39 @@ If no key values are defined, parameters you set will be used throughout the sce
 
     - Use the frame bar or the playback buttons in the bottom bar of the viewer.
 
-.. tip:: **To set key values for all the effect parameters at the current frame:**
+.. tip:: **To set keyframes for all the effect parameters at the current frame:**
 
     1. Do one of the following:
 
-    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from grey to blue and current values become key values for all the parameters at the current frame. 
+    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from grey to blue and current values become keyframes for all the parameters at the current frame. 
 
-    - If the current frame is a key for some parameters only, click the **Set Key** button (|key|): it turns from blue striped to blue and current values become key values for all the parameters at the current frame. 
+    - If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from blue striped to blue and current values become keyframes for all the parameters at the current frame. 
 
     2. Define the values for the parameters.
 
-.. tip:: **To set key values for a specific parameter at the current frame:**
+.. tip:: **To set keyframes for a specific parameter at the current frame:**
 
-    1. If the current frame does not have a key for the parameter, click the squared set key button on the far right of the parameter: it turns from grey to black, and the current value becomes a key value for the parameter at the current frame.
+    1. If the current frame does not have a keyframe for the parameter, click the squared **Set Key** button (|key|) to the right of the parameter: it turns from grey to orange, and the current value becomes a keyframe for the parameter at the current frame.
 
     2. Define the value for the parameter.
 
-.. note:: If the current frame is not a key for the parameter, the squared set key button on the far right of the parameter turns red. Click it to set the key.
+.. note:: If the current frame is not a keyframe for the parameter, and you changed it, the **Set Key** button (|key|) to the right of the parameter turns yellow. Click it to set the key.
 
-.. tip:: **To remove all key values for the effect parameters at the current frame:**
+.. tip:: **To remove all keyframes for the effect parameters at the current frame:**
 
     Do one of the following:
 
-    - If the key values are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from blue to grey.
+    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from blue to grey.
 
-    - If the key values are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from blue-striped to blue as you set keys for all the parameters; with the second click, it turns from blue to grey.
+    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from blue-striped to blue (as you set keys for all the parameters); with the second click, it turns from blue to grey.
 
-.. tip:: **To remove a key value for a specific parameter at the current frame:**
+.. tip:: **To remove a keyframe for a specific parameter at the current frame:**
 
-    Click the squared set key button on the far right of the parameter: it turns from black to grey.
+    Click the **Set Key** button (|key|) to the right of the parameter: it turns from grey to orange.
 
-.. tip:: **To navigate frames where key values are defined:**
+.. tip:: **To navigate frames where keyframes are defined:**
 
-    Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the side of the Set Key button.
+    Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the side of the **Set Key** button.
 
 .. tip:: **To activate/deactivate the preview area:**
 
@@ -454,13 +457,13 @@ If no key values are defined, parameters you set will be used throughout the sce
 
 .. tip:: **To change the background color of the preview area:**
 
-    Use the buttons in the bottom bar of the FX Settings window to choose a white (|preview_white|), black (|preview_black|) or transparent (|preview_checkbox|) background.
+    Use the buttons in the bottom bar of the FX Settings window to choose a **White** (|preview_white|), **Black** (|preview_black|) or **Transparent** (|preview_checkbox|) background.
 
 .. tip:: **To navigate the preview area:**
 
     Do one of the following:
 
-    - Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to zoom in and zoom out.
+    - Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** keys) to zoom in and zoom out.
 
     - Middle-click and drag to scroll in any direction.
 
