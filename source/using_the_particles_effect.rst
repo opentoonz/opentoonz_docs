@@ -2,28 +2,28 @@
 
 Using the Particles Effect
 ==========================
-The Particles effect creates in the selected column a layer of particles by using the contents of the source column as images for the particles. 
+The Particles effect creates a new level in the selected column/layer containing particles. 
 
-It allows you to simulate a wide range of phenomena, such as rain, snow, sparkles and smoke, and random configuration of elements, for example a field of shining stars starting from one shining star or the waving grass in a meadow starting from one animated blade of grass.
+It allows you to simulate a wide range of phenomena, such as rain, snow, sparkles, smoke, and a random configuration of elements, for example a field of shining stars starting from one shining star or the waving grass in a meadow starting from one animated blade of grass.
 
-Using a wide variety of parameters available, the particles effect can be completely customized. A series of presets, simulating some basic events, are also available. You can look at the examples to better understand how to set parameters; or you can use them as the starting point to create your own effects. 
+Using a wide variety of parameters available, the Particles effect can be completely customized. A series of *Presets*, simulating some basic events, are also available. You can look at these Presets to better understand how to set the parameters; or you can use them as the starting point to create your own effects. 
 
-Particles are defined by parameters organized in different folders: Source, Birth Params, Environment, Animation and Color.
+Particles are defined by parameters organized in different folders: *Source*, *Birth Params*, *Environment*, *Animation* and *Colors*.
 
-.. note:: Particles FX may have unexpected results when the Stretch option in Output Settings is used to set a higher FPS value, as the effect requires the original timing information (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+.. note:: Particles effect may have unexpected results when the **Stretch** option in Output Settings is used to set a higher FPS value, as this effect requires the original timing information (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
 
 .. _defining_particle_images:
 
 Defining Particle Images
 ------------------------
-Any column content can be used as a particle: its animated content and its animation will be reflected by the particle animation, using the transformations and the drawings exposed in the column cells at the related frame in each particle life. 
+Any column content can be used as a particle: its animated content and its animation will be reflected by the particle animation, using the transformations and the drawings exposed in the column cells at the related frame in each point of the particle life. 
 
-For example if a level is exposed in the column at step two, the particle image will be animated step two as well; or if you have a drawing spinning because the column is animated, the particle will be spinning as well.
+For example if a level is exposed in the column at step two, the particle Texture will be animated at step two as well; or if you have a drawing that's spinning because the column is animated, the particle will be spinning as well.
 
-To use a column content as a particle, the column node has to be linked to the source port of the particles effect node. As soon as a column is linked to the source input port, a new source port is available: in this way it is possible to use the content of several columns as particles.
+To use a column content as a particle, the column node has to be linked to the **Texture** port of the particles effect node. As soon as a column is linked to the texture input port, a new texture port is available: in this way it is possible to use the content of several columns as particles.
 
-.. note:: Image formats containing DPI information are loaded using the image DPI; in this case the particles level will be camera resolution independent.
+.. note:: Image formats containing DPI information are loaded using that image DPI; in this case the particles level will be camera resolution independent.
 
 
 .. _defining_control_images:
@@ -32,11 +32,11 @@ Defining Control Images
 -----------------------
 A column contents can also be used to control some parameters of the particles effect: its animated content and its animation will affect the particles parameter according to specific image properties, such as brightness or transparency.
 
-For example if the level exposed in the column is animated, and the column is used to control the particles source, the particles source will follow the animation of the level; or if the column is moving and it is used to control the gravity field, the gravity field will move as well.
+For example if the level exposed in the column is animated, and the column is used to control the particles **Source**, the particles Source will follow the animation of the level; or if the column is moving and it's used to control the **Gravity** field, the Gravity field will move as well.
 
-To use a column contents as a control image, connect the column node to the Control input port of the particles effect node. As soon as the column is linked to the Control input port, a new Control port is available: in this way it is possible to use the contents of several columns to control the particles effect.
+To use a column contents as a Control Image, connect the column node to a **Control** input port of the Particles effect node. As soon as the column is linked to the Control input port, a new Control port is available: in this way it's possible to use the contents of several columns to control the Particles effect.
 
-To apply the control image to a parameter, use the related field available in the FX Settings dialog: to specify a control image, type the number related to the control image port; to use no control image, type the number 0.
+To apply the control image to a parameter, use the related field available in the *FX Settings* pane: to specify a **Control Image**, type the number related to the control image port; to use no control image, type the number **0**.
 
 .. note:: When the control images brightness is used to affect a particles parameter, transparent areas are considered as being completely black.
 
@@ -47,7 +47,7 @@ Setting the Particles Source
 ----------------------------
  |setting_the_particles_source| 
 
-The particles source is the area where the particles are generated. It can be defined in the Source page, by specifying its size and position, or a control image. The way particles are generated, for example their birth rate, can be controlled as well. 
+The particles Source is the area where the particles are generated. It can be defined in the **Source** page, by specifying its size and position, or a control image. The way particles are generated, for example their birth rate, can be controlled as well. 
 
 
 .. _source:
@@ -62,45 +62,45 @@ Control Image
 ~~~~~~~~~~~~~
 Sets if and which control image has to be used for the particles source (see  :ref:`Defining Control Images <defining_control_images>`  ).
 
-If used, particles are generated only inside the opaque areas of the control image.
+If used, particles are generated only inside the *opaque areas* of the **Control Image**.
 
 
 .. _threshold:
 
 Threshold
 ~~~~~~~~~
-This value defines which pixels of the control image are to be used for placing the paricles defining a range based on the opacity value of the same pixels. Lower the value and more opaque the pixels have to be for being used as particles generators. The default value of 25 determies the same behavior as the precedent releases.
+This value defines which pixels of the Control Image are to be used for placing the paricles, defining a range based on the opacity value of its pixels. Lower the value and more opaque the pixels have to be for being used as particles generators.
 
 
 .. _multiple_generators_in_control_image:
 
 Multiple Generators in Control Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When activated, each defined opaque area of the control image will have the same number of generated particles, totalling the birth rate. For example if the birth rate is 20, and the control image has 4 defined opaque areas, 5 particles will be generated in each area.
+When activated, *each* defined opaque area of the Control Image will have the same number of generated particles, totalling the **Birth Rate**. For example if the Birth Rate is 20, and the Control Image has 4 defined opaque areas, 5 particles will be generated in each area.
 
 
 .. _center:
 
 Center
 ~~~~~~
-Sets the source center position, defined by horizontal (X) and vertical (Y) coordinates; it can also be interactively set in the preview of the FX Settings window, where the center point is displayed with a cross. 
+Sets the source Center position, defined by horizontal (X) and vertical (Y) coordinates; it can also be interactively set in the preview of the FX Settings pane, where the Center point is displayed as a cross. 
 
-If you want to animate the source to create a trail of particles, you can do it either by animating the center coordinates, or by animating a column, containing the source area, that has to be used as the control image for the source (see above).
+If you want to animate the Source to create a trail of particles, you can do it either by animating the Center coordinates, or by animating a column, containing the source area, that has to be used as the Control Image for the Source (see above).
 
-.. note:: The center can be also set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The Center can be also set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
-.. note:: The center is not considered in case a control image is used.
+.. note:: The Center *is not* considered in case a Control Image is used.
 
 
 .. _width_and_height:
 
 Width and Height
 ~~~~~~~~~~~~~~~~
-Sets the size of the source area. 
+Sets the size of the Source area. 
 
-.. note:: The width and height can be also set by using a box gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The **Width** and **Height** can be also set by using a box gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
-.. note:: These values are not considered in case a control image is used.
+.. note:: These values *are not* considered in case a Control Image is used.
 
 
 .. _particle_generation:
@@ -108,43 +108,42 @@ Sets the size of the source area.
 Particle Generation
 '''''''''''''''''''
 
-
 .. _starting_frame:
 
 Starting Frame
 ~~~~~~~~~~~~~~
 Sets the frame at which the particles generation starts. 
 
-When you need a particles event to start before frame 1, you can set a negative Starting Frame value. For example if you need at frame 1 a snowfall, you cannot make the event start at frame 1, otherwise you will see only the first generated snowflakes; in this case you can set a negative value, for example -20, so that the snowfall has already evolved for 20 frames before being displayed at frame 1.
+When you need a particles event to start before frame 1, you can set a *negative* **Starting Frame** value. For example if you need at frame 1 a snowfall, you cannot make the event start at frame 1, otherwise you will see only the first generated snowflakes; in this case you can set a negative value, for example -20, so that the snowfall has already evolved for 20 frames before being displayed at frame 1.
 
-As the Starting Frame is an effect parameter, moving the particles effect column up or down in the Xsheet will not change the starting frame: the parameter itself has to be edited.
+As the Starting Frame is an effect parameter, moving the Particles effect *level* up or down in the Xsheet (or left or right in the Timeline) will not change the actual starting frame: the parameter itself has to be edited.
 
-.. note:: If the Starting Frame is higher than the first frame where a Birth Rate is set, the former value is used as the starting point of the event. For example if the Starting Frame is 20 and first frame with a positive Birth Rate is frame 15, from frame 15 to 20 no particles will be generated.
+.. note:: If the **Starting Frame** is higher than the first frame where a **Birth Rate** is set, the former value is used as the starting point of the event. For example if the Starting Frame is 20 and first frame with a positive Birth Rate is frame 15, from frame 15 to 20 no particles will be generated.
 
 
 .. _birth_rate:
 
 Birth Rate
 ~~~~~~~~~~
-Sets the number of particles to be generated in each frame. When the value is constant, in each frame the same number of particles will be generated. For example if the birth rate at frame 1 is 20, the first frame will contain 20 particles, the second 40, the third 60, and so on.
+Sets the number of particles to be generated in each frame. When the value is constant, in each frame the same number of particles will be generated. For example if the Birth Rate at frame 1 is 20, the first frame will contain 20 particles, the second 40, the third 60, and so on.
 
-The birth rate value considers also decimal fractions. For example, if you set the birth rate to 0.2, a particle each five frames will be generated (0.2 multiplied by 5 is equal to 1 particle).
+The Birth Rate value considers also decimal numbers. For example, if you set the birth rate to 0.2, a particle each five frames will be generated (0.2 multiplied by 5 is equal to 1 particle).
 
-By animating the birth rate, you can control the quantity of particles in the effect. For example if you want only 20 particles starting from frame 1, you need to set a key at frame 1 with the birth rate set to 20, and another key at frame 2 with the birth rate set to 0.
+By animating the Birth Rate, you can control the quantity of particles in the effect. For example if you want only 20 particles starting from frame 1, you need to set a key at frame 1 with the Birth Rate set to 20, and another key at frame 2 with the Birth Rate set to 0.
 
 
 .. _animation_step:
 
 Animation Step
 ~~~~~~~~~~~~~~
-Sets the step of the whole particles animation. This allows you to match the animation of the particle effect with the animation in the scene, in case the scene uses an animation step different from one. 
+Sets the step of the whole particles animation. This allows you to match the animation of the particle effect with the animation in the scene, in case the scene uses an animation step different from 1. 
 
 
 .. _random_seed:
 
 Random Seed
 ~~~~~~~~~~~
-Creates a different particles configuration. With the same parameters and the same random seed the particles configuration is always the same; changing the random seed allows you to retain all the set parameters but to change the particles configuration. Decimals fractions are not considered.
+Creates a different particles configuration. With the same parameters values and the same Random Seed the particles configuration is always the same; changing the Random Seed allows you to retain all the set parameters but to change the particles configuration. Only integer numbers are considered.
 
 
 .. _particle:
@@ -154,17 +153,17 @@ Particle
 
 Animation
 ~~~~~~~~~
-The particle animation follows the source node content, but you can decide how that content is used, especially in case the particles effect is longer than the column content. The following options are available. 
+The particle animation follows the source node content, but you can decide how that content is used, especially in case the Particles effect is longer than the Texture columns content. The following options are available:
 
-- Hold Frame assigns randomly a frame from the source node content to the generated particle; that frame is kept throughout the life of the particle. 
+- **Hold Frame** randomly assigns a frame from the Texture node content to each generated particle; that frame is kept throughout the life of the particle. 
 
-- Random Frame assigns randomly a frame from the source node content to the generated particle, changing it randomly at each frame of the particle lifetime.
+- **Random Frame** randomly assigns a frame from the Texture node content to each generated particle, changing it randomly at each frame of the particle lifetime.
 
-- Column assigns the first frame from the source node content to the particle when it is generated; the animation cycles following the source node content order throughout the life of the particle. 
+- **Column** assigns *the first frame* from the Texture node content to each particle when it is generated; the animation cycles following the Texture node content order throughout the life of the particle. 
 
-- Column - Random Start assigns randomly a frame from the source node content to the particle when it is generated; the animation cycles following the source content order throughout the life of the particle starting from the assigned frame.
+- **Column - Random Start** randomly assigns a frame from the Texture node content to each particle when it is generated; the animation cycles following the Texture content order throughout the life of the particle starting from the assigned frame.
 
-- Column Swing - Random Start assigns randomly a frame from the source node content to the particle when it is generated; the animation moves from the assigned frame to the last or to the first, then keeps on swinging back and forth along the frames sequence, throughout the life of the particle.
+- **Column Swing - Random Start** randomly assigns a frame from the Texture node content to each particle when it is generated; the animation moves from the assigned frame to the last or to the first, then keeps on swinging back and forth along the frames sequence, throughout the life of the particle.
 
 
 .. _defining_particles_birth_parameters:
@@ -173,7 +172,7 @@ Defining Particles Birth Parameters
 -----------------------------------
  |defining_particles_birth_parameters| 
 
-Each particle, when generated at the current frame, has some parameters that are assigned and retained throughout its life. Those attributes can be set in the Birth Params page.
+Each particle, when generated at the current frame, has some parameters that are assigned and retained throughout its life. Those attributes can be set in the **Birth Params** page.
 
 
 .. _speed:
