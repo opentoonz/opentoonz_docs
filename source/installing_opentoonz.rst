@@ -111,7 +111,7 @@ AppImage by Morevna Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Download AppImage.
-``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux64-b8b54.appimage`` for 64-bit OS or ``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux32-b8b54.appimage`` for 32-bit OS.
+``wget https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage`` for 64-bit OS or ``wget github.com/morevnaproject/opentoonz/releases/download/v1.2.0.3-morevna/OpenToonz-1.2.0.3-morevna-18.06.17-linux32-b8b54.appimage`` for 32-bit OS.
 
 2. Make AppImage executable.
 
