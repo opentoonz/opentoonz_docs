@@ -60,7 +60,7 @@ Source
 
 Control Image
 ~~~~~~~~~~~~~
-Sets if and which control image has to be used for the particles source (see  :ref:`Defining Control Images <defining_control_images>`  ).
+Sets if and which control image has to be used for the particles source (see  :ref:`Defining Control Images <defining_control_images>`).
 
 If used, particles are generated only inside the *opaque areas* of the **Control Image**.
 
