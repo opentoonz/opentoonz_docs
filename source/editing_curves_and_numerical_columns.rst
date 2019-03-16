@@ -792,7 +792,7 @@ With respect to interpolation, if all the visible curves have a key at the same 
 
 .. tip:: **To set which curves have to be controlled:**
 
-    Display the curves in the Graph Editor (see  :ref:`Using the Function Editor <using_the_function_editor>`  ). 
+    Display the curves in the Graph Editor (see  :ref:`Using the Graph Editor <using_function_curves>`  ). 
 
 .. tip:: **To add a keyframe:**
 
