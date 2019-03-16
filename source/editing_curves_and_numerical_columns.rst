@@ -3,15 +3,15 @@
 Editing Using Spreadsheet and Curves
 ====================================
 
-| Changes in Object transformations and FX parameters are shown in the function editor window, where keyframes and their related interpolations can be controlled and modified by using a spreadsheet of numerical columns or a graph editor.
+| Changes in Object transformations and effects parameters are shown in the **Function Editor** window, where keyframes and their related interpolations can be controlled and modified by using a *Spreadsheet* of numerical columns or a *Graph Editor*.
 
-| The spreadsheet displays changes in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame.
+| The **Spreadsheet** displays changes in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame.
 | Blank cells represent the absence of a change in a parameters value due to no keyframes being defined.
 
-| The Function Curve Editor displays changes as curves in a graph, where frames are laid horizontally and values are laid vertically.
+| The **Graph Editor** displays changes as curves in a graph, where frames are laid horizontally and values are laid vertically.
 | Keyframes are represented as points and the interpolated values between them are visualized as red lines.
 
-The spreadsheet's columns and the Function Curve Editor's curves are different representations of the same data, so any changes made in one view are also reflected in the other.
+The spreadsheet's columns and the graph editor's curves are different representations of the same data, so any changes made in one view are also reflected in the other.
 
 
 .. _using_the_function_editor:
@@ -21,15 +21,15 @@ Using the Function Editor
  
 |function_editor_1|
 
-The function editor window is divided into three sections. On the left there is an area where the spreadsheet or Function Curve Editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/FX tree.
+The function editor window is divided into three sections. On the left there is an area where the Spreadsheet or Graph Editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/effects tree.
 
-The tree has two main item folders, Stage and FX: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each used effect. Each folder contains the related transformation parameters.
+The tree has two main item folders, *Stage* and *FX*: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each used effect. Each folder contains the related transformation parameters.
 
-The objects/FX tree tells if the object/effect is animated and which parameter is animated, by using the following icons:
+The objects/effects tree tells if the object/effect is animated and which parameter is animated, by using the following icons:
 
-- A plain folder is for non-animated objects/FX.
+- A plain folder is for non-animated objects/effects.
 
-- A folder with an arrow is for animated objects/FX.
+- A folder with an arrow is for animated objects/effects.
 
 - An icon with a dotted straight line is for non-animated parameters.
 
@@ -39,7 +39,7 @@ Clicking these icons allows you to select which object/effect and which paramete
 
 Transformation data can be saved and loaded as a CURVE file, to allow the exporting and importing from one scene to another, and they can be exported as well as a DAT file in order to be used in other software.
 
-.. tip:: **To resize the function editor sections:**
+.. tip:: **To resize the Function Editor sections:**
 
     Do any of the following:
 
@@ -49,9 +49,9 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
 
-.. tip:: **To display or hide a numerical column or function curve:**
+.. tip:: **To display or hide column parameters:**
 
-    1. Retrieve the object or the effect in the objects/FX tree.
+    1. Retrieve the object or the effect in the objects/effect tree.
 
     2. Do one of the following:
 
@@ -61,29 +61,29 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Click a parameter icon and drag to display or hide all the columns or curves you pass upon.
 
-    - Right-click the folder and choose Show Animated Only from the menu that opens to display or hide only the animated columns or curves related to its parameters.
+    - Right-click the folder and choose **Show Animated Only** from the menu that opens to display or hide only the animated columns or curves related to its parameters.
 
-    - Right-click the folder and choose Show All from the menu that opens to display or hide all columns or curves related to its parameters.
+    - Right-click the folder and choose **Show All** from the menu that opens to display or hide all columns or curves related to its parameters.
 
-.. tip:: **To open the Function Curve Editor in a separate window:**
+.. tip:: **To open the Graph Editor in a separate window:**
 
-    1. Make sure the option Function Curve Editor Opens in Popup is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
+    1. Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences > Interface window. (Restart OpenToonz).
     
-    2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
+    2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
-.. tip:: **To open the spreadsheet in a separate window:**
+.. tip:: **To open the Spreadsheet in a separate window:**
 
-    1. Make sure the option Spreadsheet Opens in Popup is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
+    1. Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences > Interface window. (Restart OpenToonz).
     
-    2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
+    2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
-.. tip:: **To switch between spreadsheet and Function Curve Editor in the Function Editor:**
+.. tip:: **To switch between Spreadsheet and Graph Editor in the Function Editor:**
 
-    1. Make sure the option Toggle Between Function Curve Editor and Spreadsheet is selected from the Function Editor dropdown menu, in the Preferences > Interface window. 
+    1. Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected from the **Function Editor:** dropdown menu, in the Preferences > Interface window. (Restart OpenToonz).
     
-    2. Click the Function Editor Toggle button (|schematic|) in the top bar of the Function Editor.
+    2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
-.. tip:: **To scroll the spreadsheet:**
+.. tip:: **To scroll the Spreadsheet:**
 
     Do one of the following:
 
@@ -97,48 +97,47 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Use the Page Up and Page Down keys to scroll the visible frames up or down.
 
-    - Use the Home and End keys to scroll up to the beginning or the end of the Xsheet content.
+    - Use the Home and End keys to scroll up to the beginning or the end of the Xsheet/Timeline content.
 
 
-.. tip:: **To navigate the Function Curve Editor:**
+.. tip:: **To navigate the Graph Editor:**
 
     Do one of the following:
 
-    - Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to zoom in and zoom out.
+    - Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** keys) to zoom in and zoom out.
 
     - Click in the horizontal ruler and drag up to zoom in horizontally, down to zoom out; click in the value vertical ruler and drag up to zoom in vertically, down to zoom out.
 
     - Middle-click and drag the graph area to scroll in any direction, the horizontal ruler to scroll horizontally, and the vertical ruler to scroll vertically.
 
-    - Use the reset view shortcut (by default the 0 key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current Function Curve Editor window.
+    - Use the reset view shortcut (by default the **Alt + 0** key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current Function Curve Editor window.
 
 .. tip:: **To save transformation data:**
 
-    1. Right-click the relevant parameter in the objects/FX tree, and choose Save Curve from the menu that opens.
+    1. Right-click the relevant parameter in the objects/effects tree, and choose **Save Curve** from the menu that opens.
 
-    2. Use the browser to choose a name and location for the file to be saved: the data will be saved as a CURVE file.
+    2. Use the Browser to choose a name and location for the file to be saved: the data will be saved as a CURVE file.
 
 .. tip:: **To load transformation data:**
 
-    1. Right-click the relevant parameter in the objects/FX tree, and choose Load Curve from the menu that opens.
+    1. Right-click the relevant parameter in the objects/effects tree, and choose **Load Curve** from the menu that opens.
 
-    2. Use the browser to retrieve the curve to load; valid files are in CURVE format.
+    2. Use the Browser to retrieve the curve to load; valid files are in CURVE format.
 
 .. tip:: **To export transformation data:**
 
-    1. Right-click the relevant parameter in the objects and FX tree, and choose Export Data from the menu that opens. 
+    1. Right-click the relevant parameter in the objects and effects tree, and choose **Export Data** from the menu that opens. 
 
-    2. Use the browser to choose a name and location for the file to be saved: the data will be saved as a DAT file that can be used in other software supporting this type of information.
+    2. Use the Browser to choose a name and location for the file to be saved: the data will be saved as a DAT file that can be used in other software supporting this type of information.
 
 
 .. _defining_key_values:
 
 Defining keyframes
 -------------------
-keyframes, including those belonging for object transformations done by using the Animate tool (|animate|) and those defined for FX parameters in the FX Settings window, can be controlled and edited both using the spreadsheet's numerical columns and the Function Curve Editor's curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
+Keyframes, including those belonging to object transformations done by using the **Animate** tool (|animate|) and those defined for effects parameters in the **FX Settings** window, can be controlled and edited both using the Spreadsheet's numerical columns and the Graph Editor's curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
 
-
-In the spreadsheet, keyframes are displayed as orange cells; in the Function Curve Editor, keyframes are represented as control points along the curve. In both cases they can be added, edited, moved and deleted.
+In the Spreadsheet, keyframes are displayed as orange cells; in the Graph Editor, keyframes are represented as control points along the curve. In both cases they can be added, edited, moved and deleted.
 
 
 .. _using_numerical_columns:
@@ -148,30 +147,27 @@ Using the Spreadsheet
 
 |function_editor_spreadsheet|
 
-The spreadsheet displays transformations in columns like the ones available in the Xsheet, having one for each parameter. For each frame, the column's cells display the related transformation values.
+The Spreadsheet displays transformations in columns like the ones available in the Xsheet/Timeline, having one for each parameter. For each frame, the column's cells display the related transformation values.
 
-keyframes are displayed in different-colored cells, and can be moved along the column to different frame positions. In-between values are automatically generated according to the keyframes and to the set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ).
+Keyframes are displayed in different-colored cells, and can be moved along the column to different frames positions. In-between values are automatically generated according to the keyframes and to the set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ).
 
-All the columns referring to the same object or FX are grouped under one single header. For example under a pegbar header you can find all the columns referring to its transformations. 
+All the columns referring to the same object or effects are grouped under one single header. For example under a pegbar header you can find all the columns referring to its transformations. 
 
 Columns cells can be used to type in directly values for keys, edit or move them. Values contained in cells can be cut, copied and pasted, so that transformations can be displaced, repeated and deleted. 
 
-
-
-
-.. tip:: **To define keyframes directly in spreadsheet columns:**
+.. tip:: **To define keyframes directly in Spreadsheet columns:**
 
     1. Double click in the column cell where you want to define a keyframe: the cell becomes editable.
 
-    2. Type in the value for the key, and press Enter to confirm.
+    2. Type in the value for the key, and press **Enter** to confirm.
 
 .. tip:: **To move a keyframe:**
 
-    Click the vertical strip at the left of a keyframe cell, and drag it up or down to the new position; the in-between values change accordingly.
+    Click the *vertical strip* at the left of a keyframe cell, and drag it up or down to the new position; the in-between values change accordingly.
 
 .. tip:: **To displace the channel along the column:**
 
-    Click the vertical strip at the left of column cells, and drag it up or down to the new position: the whole content moves along the column.
+    Click the *vertical strip* at the left of column cells, and drag it up or down to the new position: the whole content moves along the column.
 
 .. tip:: **To copy/cut and paste column values:**
 
@@ -179,41 +175,39 @@ Columns cells can be used to type in directly values for keys, edit or move them
 
     - Click and drag to perform a selection; the selection can be extended to several columns.
 
-    - Use the Copy command: the selection will be kept in memory for further operations.
+    - Use the **Copy** command: the selection will be kept in memory for further operations.
 
-    - Use the Cut command: the selection will be removed from the columns and will be kept in memory for further operations. The cells removal causes the following cells to shift up.
+    - Use the **Cut** command: the selection will be removed from the columns and will be kept in memory for further operations. The cells removal causes the following cells to shift up.
 
-    - Use the Paste command: the selection kept in memory will be pasted starting from the selected insertion cell. The command causes the following cells to shift down.
+    - Use the **Paste** command: the selection kept in memory will be pasted starting from the selected insertion cell. The command causes the following cells to shift down.
 
-    - Use the Delete command: selected cells will be deleted, causing the following cells to shift up.
+    - Use the **Delete** command: selected cells will be deleted, causing the following cells to shift up.
 
 
 .. _using_function_curves:
 
-Using the Function Curve Editor
-'''''''''''''''''''''''''''''''
+Using the Graph Editor
+''''''''''''''''''''''
 
 |function_editor_grapheditor|
 
-The Function Curve Editor displays transformations as curves in a graph where frames are laid horizontally, and values are laid vertically. 
+The Graph Editor displays transformations as curves in a graph where *time* is laid horizontally, and parameter *values* are laid vertically. 
 
-Curves are defined by control points representing keyframes. Points can be easily added by working directly in the graph or using the Set Key button (|key|) in the top bar of the editor. 
+Curves are defined by control points representing keyframes. Points can be easily added by working directly in the graph or using the **Set Key** button (|key|) in the top bar of the **Function Editor**. 
 
 Control points can also be selected in order to be edited, moved or deleted. 
 
-The Set Key button (|key|) is either grey when no keyframe is defined for the current curve at the current frame, or blue when a keyframe is defined for the current curve at the current frame.
+The **Set Key** button (|key|) is either *grey* when no keyframe is defined for the current curve at the current frame, or *blue* when a keyframe is defined for the current curve at the current frame.
 
-Frames and keyframes can be navigated by using the related buttons in the top bar of the editor. The Next (|next_key|) and Previous Key buttons (|prevkey|) are available only if more than one keyframe is defined. 
-
-
+Frames and keyframes can be navigated by using the related buttons in the top bar of the editor. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one keyframe is defined. 
 
 .. tip:: **To set the current curve:**
 
     Do one of the following:
 
-    - Click the related parameter name in the objects/FX tree.
+    - Click the related parameter name in the objects/effects tree.
 
-    - Display the curve in the Function Curve Editor, then click to select it.
+    - Display the curve in the Graph Editor, then click to select it.
 
 .. tip:: **To set the current frame:**
 
@@ -223,45 +217,45 @@ Frames and keyframes can be navigated by using the related buttons in the top ba
 
     - Click and drag the current frame marker in a horizontal direction.
 
-    - Type the frame number in the Frame text box, or use the Next and Previous Frame buttons available in the top bar of the editor.
+    - Type the frame number in the **Frame** text box, or use the **Next Frame** and **Previous Frame** buttons available in the top bar of the editor.
 
-    - Move the current frame cursor in the Xsheet.
+    - Move the current frame cursor in the Xsheet/Timeline.
 
     - Use the frame bar or the playback buttons in the bottom bar of the main viewer.
 
-.. tip:: **To add a key point:**
+.. tip:: **To add a keyframe:**
 
     Do one of the following:
 
-    - Click the Set Key button (|key|) to add a key point at the current frame.
+    - Click the **Set Key** button (|key|) to add a keyframe at the current frame.
 
-    - Type a value in the Value text box to add a key point at the current frame.
+    - Type a value in the **Value** text box to add a key point at the current frame.
 
-    - Right-click and choose Set Key from the menu that opens.
+    - Right-click and choose **Set Key** from the menu that opens.
 
-    - Ctrl-click (PC) or Cmd-click (Mac) the curve where you want to add the key point.
+    - **Ctrl-click** (PC) or **Cmd-click** (Mac) the curve where you want to add the keyframe point to it.
 
-.. tip:: **To remove a key point:**
-
-    Do one of the following:
-
-    - Select the key point to remove and choose Edit > Delete.
-
-    - Set the current frame where a key point is and click the Set Key button (|key|).
-
-.. tip:: **To select key points:**
+.. tip:: **To remove a keyframe:**
 
     Do one of the following:
 
-    - Click to select a key point.
+    - Select the keyframe to remove and choose Edit > **Delete**.
 
-    - Shift-click to add a key point to or remove it from the selection.
+    - Set the current frame where a keyframe is and click the **Set Key** button (|key|).
 
-    - Click and drag to select all of the key points that are in the area you define.
+.. tip:: **To select keyframes:**
+
+    Do one of the following:
+
+    - Click to select a keyframe.
+
+    - Shift-click to add a keyframe to or remove it from the selection.
+
+    - Click and drag to select all of the keyframes that are in the area you define.
 
 .. tip:: **To select curve segments:**
 
-    Select the control points at the ends of the segment.
+    Select the segment or the control points at the ends of the segment.
 
 .. tip:: **To move the selection:**
 
@@ -271,71 +265,68 @@ Frames and keyframes can be navigated by using the related buttons in the top ba
 
     Do one of the following:
 
-    - Use the Copy command: the selected segments will be kept in memory for further operations.
+    - Use the **Copy** command: the selected segments will be kept in memory for further operations.
 
-    - Use the Cut command: the selected segments will be removed from the curve and will be kept in memory for further operations.
+    - Use the **Cut** command: the selected segments will be removed from the curve and will be kept in memory for further operations.
 
-    - Use the Paste command: the segments kept in memory will be pasted starting from the selected key point, preserving any other previously defined key point not replaced by the new ones.
+    - Use the **Paste** command: the segments kept in memory will be pasted starting from the selected keyframe, preserving any other previously defined keyframes not replaced by the new ones.
 
-    - Use the Delete command: the selection will be deleted.
+    - Use the **Delete** command: the selection will be deleted.
 
-.. tip:: **To navigate key points for the current curve:**
+.. tip:: **To navigate keyframes for the current curve:**
 
-    Use the Next (|next_key|) and Previous Key buttons (|prevkey|) available at the sides of the Set Key button.
+    Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the sides of the **Set Key** button.
 
-.. tip:: **To cycle previously created key points:**
+.. tip:: **To cycle previously created keyframes:**
 
-    Right-click the curve and choose Activate Cycle from the menu that opens.
+    Right-click the curve and choose **Activate Cycle** from the menu that opens.
 
 .. tip:: **To disable the cycle:**
 
-    Right-click the curve and choose Deactivate Cycle from the menu that opens.
-
+    Right-click the curve and choose **Deactivate Cycle** from the menu that opens.
 
 .. note:: Only keyframes included in the selection are considered when performing copy, cut and paste operations.
 
-.. note:: All the Edit menu commands are also available in the menu that opens when right-clicking in the Xsheet cells.
+.. note:: All the **Edit** menu commands are also available in the menu that opens when right-clicking in the Xsheet/Timeline cells.
 
 
 .. _setting_segment_interpolations:
 
 Setting Segment Interpolations
 ------------------------------
-A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the Function Curve Editor, and as a series of values, one for each frame, in the spreadsheet.
+A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the Graph Editor, and as a series of values, one for each frame, in the Spreadsheet.
 
-Available interpolations are the following: linear, speed in / speed out, ease in / ease out, ease in / ease out %, exponential, expression-based, file-based, constant and similar-shape-based. The default interpolation can be set in the Preferences > Animation window by choosing among linear, speed in / speed out, ease in / ease and out, ease in / ease out %, but the interpolation can be changed at any time in the interpolation area of the function editor, on the top right of the window.
+Available interpolations are the following: **Linear**, **Speed in / Speed out**, **Ease in / Ease out**, **Ease in / Ease out %**, **Exponential**, **Expression**-based, **File**-based, **Constant** and **Similar-shape**-based. The default interpolation can be set in the Preferences > Animation window, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the window.
 
-In the same area it is also possible to define an interpolation step, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement with an animation level exposed at a specific step. The default animation step can be set in the Preferences > Animation window.
+In the same area it is also possible to define an interpolation **Step**, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement with an animation level exposed at a specific step. The default animation step can be set in the Preferences > Animation window.
 
-.. tip:: **To set the type of interpolation for a segment in the spreadsheet:**
+.. tip:: **To set the type of interpolation for a segment in the Spreadsheet:**
 
     1. Move the current frame cursor to a frame belonging to a segment.
 
-    2. Choose the interpolation from the option menu available in the interpolation area of the function editor.
+    2. Choose the interpolation from the option menu available in the **Interpolation:** area of the Function Editor.
     
-    3. Click the Apply button to apply the desired change.
+    3. Click the **Apply** button to apply the desired change.
+
+.. tip:: **To set the Step of the interpolation:**
+
+    1. Specify the **Step** value in the interpolation area of the Function Editor.
     
+    2. Click the **Apply** button to apply the desired change.
 
-.. tip:: **To set the step of the interpolation:**
-
-    1. Specify the Step value in the interpolation area of the function editor.
-    
-    2. Click the Apply button to apply the desired change.
-
-
-.. tip:: **To set the type of interpolation for a segment in the Function Curve Editor:**
+.. tip:: **To set the type of interpolation for a segment in the Graph Editor:**
 
     1. Set the segment by doing one of the following:
 
     - Click a segment to select it.
 
-    - Move the current frame marker to a frame belonging to a segment.
+    - Move the **Current Frame Marker** to a frame belonging to a segment.
 
-    2. Choose the interpolation from the dropdown menu available in the interpolation area of the function editor.
+    2. Choose the interpolation from the dropdown menu available in the **Interpolation:** area of the Function Editor.
     
-    3. Click the Apply button to apply the desired change.
+    3. Click the **Apply** button to apply the desired change.
 
-.. note:: The interpolation options are also available when right-clicking a segment.
+    .. note:: The interpolation options are also available when right-clicking a segment.
 
 
 .. _using_linear_interpolations:
