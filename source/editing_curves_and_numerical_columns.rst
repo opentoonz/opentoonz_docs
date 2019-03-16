@@ -296,7 +296,7 @@ Setting Segment Interpolations
 ------------------------------
 A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the Graph Editor, and as a series of values, one for each frame, in the Spreadsheet.
 
-Available interpolations are the following: **Linear**, **Speed in / Speed out**, **Ease in / Ease out**, **Ease in / Ease out %**, **Exponential**, **Expression**-based, **File**-based, **Constant** and **Similar-shape**-based. The default interpolation can be set in the Preferences > Animation window, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the window.
+Available interpolations are the following: **Linear**, **Speed In / Speed Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, **Expression**, **File**, **Constant** and **Similar Shape**. The *default interpolation* can be set in the Preferences > Animation window, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the window.
 
 In the same area it is also possible to define an interpolation **Step**, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement with an animation level exposed at a specific step. The default animation step can be set in the Preferences > Animation window.
 
@@ -782,29 +782,34 @@ It is also possible to set a frame offset value so that the interpolation will r
 
 Controlling Several Function Curves at the Same Time
 ----------------------------------------------------
-It is possible to control the keys and the interpolations of all the function curves visualized in the Function Editor by using widgets available in a horizontal strip at the top of the Function Curve Editor area, below the frame ruler.
+It's possible to control the keys and the interpolations of all the function curves visualized in the Function Editor by using widgets available in a horizontal strip at the top of the **Graph Editor** area, below the frame ruler.
 
-This allows you to define keys and control the interpolation speed for different curves at the same time, such as a camera truck and pan, or a special FX transformation and a pegbar movement.
+This allows you to define keys and control the interpolation speed for different curves at the same time, such as a camera truck and pan, or an effect animation and a pegbar movement.
 
-With respect to keys, a key point is visible in the strip for each key point defined for any curve visible in the Function Curve Editor; a line connects the key points for all the frames where there is a transformation going on. The key point can be moved, automatically moving the key points it refers to; in case the key point refers to key points at the same frame in several curves, all the key points will move along. 
+With respect to keys, a keyframe is visible in the strip for each keyframe defined for any curve visible in the Graph Editor; a line connects the keyframes for all the frames where there is an animation going on. The strip keyframe can be moved, automatically moving the keyframes it refers to; in case the strip keyframe refers to keyframes at the same frame in several curves, all the keyframes will move along. 
 
-With respect to interpolation, if all the visible curves have a key at the same specific frame, and the segment on the side of the key has the same ease in / ease out value or the same speed in / speed out horizontal component, a marker will be visible in the strip on the side of the key points. The marker shaped as an opening square bracket is for the segment on the right of the key point, the one shaped like a closing square bracket is for the segment on the left of the key point. The markers can be moved, automatically changing the ease in / ease out value or the speed in / speed out of all the segments they refer to. 
+With respect to interpolation, if all the visible curves have a key at the same specific frame, and the segment on the side of the key has the same **Ease In / Ease Out** value or the same **Speed In / Speed Out** horizontal component, a marker will be visible in the strip on the side of the strip keyframes. The marker shaped as an *opening square bracket* is for the segment to the right of the keyframe, the one shaped like a *closing square bracket* is for the segment on the left of the keyframe. The markers can be moved, automatically changing the **Ease In / Ease Out** or the **Speed In / Speed Out** values of all the segments they refer to. 
 
 .. tip:: **To set which curves have to be controlled:**
 
-    Display the function curves in the function editor (see  :ref:`Using the Function Editor <using_the_function_editor>`  ). 
+    Display the curves in the Graph Editor (see  :ref:`Using the Function Editor <using_the_function_editor>`  ). 
 
-.. tip:: **To add a key point:**
+.. tip:: **To add a keyframe:**
 
-    Ctrl-click (PC) or Cmd-click (Mac) the frame ruler where you want to add the key point: a key point will be added to all the visible curves.
+    Ctrl-click (PC) or Cmd-click (Mac) the frame ruler where you want to add the keyframe: a keyframe will be added to all the visible curves.
 
-.. tip:: **To move a key point:**
+.. tip:: **To move a keyframe:**
 
-    Click and drag it: all the key points it refers to will move along.
+    Click and drag the strip keyframe: all the keyframes it refers to will move along.
 
 .. tip:: **To control the speed of the interpolation:**
 
-    Move the markers visible on the sides of the key points.
+    Move the markers visible on the sides of the strip keyframes.
+
+
+
+
+
 
 .. |function_editor_1| image:: /_static/function_editor/function_editor_1.png
 .. |function_editor_spreadsheet| image:: /_static/function_editor/function_editor_spreadsheet.png
