@@ -336,15 +336,15 @@ Using Linear Interpolations
 
 |function_editor_iLinear|
 
-When the interpolation is linear the curve segment turns to a straight line and the speed of the transformation is constant.
+When the interpolation is *Linear* the curve segment turns to a straight line and the speed of the transformation is constant.
 
-.. tip:: **To set a linear interpolation:**
+.. tip:: **To set a Linear interpolation:**
 
     Do one of the following:
 
-    - Choose Linear from the option menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Linear** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the interpolation for, and choose Linear Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the interpolation for, and choose **Linear Interpolation** from the menu that opens.
 
 
 .. _using_speed_in_/_speed_out_interpolations:
@@ -354,39 +354,39 @@ Using Speed In / Speed Out Interpolations
 
 |function_editor_iSpeed|
 
-When the interpolation is speed in / speed out, both control points at the ends of the segment have handles whose direction and length define the slope of the curve, therefore the speed of the transformation. The handles direction and length can be set by entering values in the interpolation area of the function editor, or by dragging the handles themselves.
+When the interpolation is Speed In / Speed Out, both control points at the ends of the segment have handles whose direction and length define the slope of the curve, therefore the speed of the transformation. The handles direction and length can be set by entering values in the Interpolation area of the Function Editor, or by dragging the handles themselves.
 
-By default the handles are linked, making their degree of movement dependent on adjacent segments in order to define a smooth curve, but the link can be broken in order to move the handle freely. For example if subsequent segments have the speed in / speed out interpolation, the handles of the shared points share the same direction, but breaking the link each handle can have a different direction. 
+By default the handles are linked, making their degree of movement dependent on adjacent segments in order to define a smooth curve, but the link can be broken in order to move the handle freely. For example if subsequent segments have the Speed In / Speed Out interpolation, the handles of the shared points share the same direction, but breaking the link each handle can have a different direction. 
 
 Handles can also be collapsed in control points in order to turn them into corner points; in this case to retrieve the handles it is possible to reset their length and direction.
 
-.. tip:: **To set a speed in / speed out interpolation:**
+.. tip:: **To set a Speed In / Speed Out interpolation:**
 
     Do one of the following:
 
-    - Choose Speed In / Speed Out from the dropdown menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Speed In / Speed Out** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the interpolation for, and choose Speed In / Speed Out Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the interpolation for, and choose **Speed In / Speed Out Interpolation** from the menu that opens.
 
 .. tip:: **To set the speed of the interpolation:**
 
-    1. Select the key point at the beginning or at the end of the curve segment you want to edit, or the curve segment itself.
+    1. Select the keyframe at the beginning or at the end of the curve segment you want to edit, or the curve segment itself.
 
-    2. Set the slope of the curve after or before the key point by doing one of the following:
+    2. Set the slope of the curve after or before the keyframe by doing one of the following:
 
-    - Enter the Speed In and Speed Out direction and length values in the interpolation area of the function editor and click the Apply button.
+    - Enter the **Speed In** and **Speed Out** direction and length values in the Interpolation area of the Function Editor and click the **Apply** button.
 
     - Click and drag the end of the handles to move them freely.
 
-    - Shift-click and drag the end of the handles to move them with a constraint in the horizontal or vertical direction.
+    - **Shift-click** and drag the end of the handles to move them with a constraint in the horizontal or vertical direction.
 
 .. tip:: **To move a control point handle free from the adjacent segments:**
 
-    Right-click the control point and choose Unlink Handles from the menu that opens.
+    Right-click the control point and choose **Unlink Handles** from the menu that opens.
 
 .. tip:: **To link back handles to adjacent segments:**
 
-    Right-click the control point and choose Link Handles from the menu that opens.
+    Right-click the control point and choose **Link Handles** from the menu that opens.
 
 .. tip:: **To turn a control point into a corner point:**
 
@@ -396,7 +396,7 @@ Handles can also be collapsed in control points in order to turn them into corne
 
 .. tip:: **To retrieve handles from a corner point:**
 
-    Right-click the control point and choose Reset Handles from the menu that opens.
+    Right-click the control point and choose **Reset Handles** from the menu that opens.
 
 
 .. _using_ease_in_/_ease_out_interpolations:
@@ -406,25 +406,25 @@ Using Ease In / Ease Out Interpolations
 
 |function_editor_iEase|
 
-When the interpolation is ease in / ease out, the segment is divided into three sections by two vertical lines: the first section is an acceleration, the second is at constant speed, the third is a deceleration. The duration in frames of each section can be set by entering values in the interpolation area of the function editor, or by dragging the vertical lines available on the segment.
+When the interpolation is Ease In / Ease Out, the segment is divided into three sections by two vertical lines: the first section is an acceleration, the second is at constant speed, the third is a deceleration. The duration in frames of each section can be set by entering values in the Interpolation area of the Function Editor, or by dragging the vertical lines available on the segment.
 
-.. tip:: **To set an ease in / ease out interpolation:**
+.. tip:: **To set an Ease In / Ease Out interpolation:**
 
     Do one of the following:
 
-    - Choose Ease In / Ease Out from the dropdown menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Ease In / Ease Out** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the transformation for, and choose Ease In / Ease Out Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the transformation for, and choose **Ease In / Ease Out Interpolation** from the menu that opens.
 
-.. tip:: **To set the ease in / ease out of the interpolation:**
+.. tip:: **To set the Ease In / Ease Out of the interpolation:**
 
-    1. Select the key point before or after the ease in / ease out curve segment you want to edit, or the curve segment itself.
+    1. Select the keyframe before or after the Ease In / Ease Out curve segment you want to edit, or the curve segment itself.
 
     2. Do one of the following:
 
-    - Enter the Ease In and Ease Out values in the interpolation area of the function editor and click the Apply button.
+    - Enter the **Ease In** and **Ease Out** values in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Move the vertical line setting the ease in or ease out section of the segment, to change the curve after or before the key point.
+    - Move the vertical line setting the Ease In or Ease Out section of the segment, to change the curve after or before the key point.
 
 
 .. _using_ease_in_/_ease_out_%_interpolations:
@@ -434,25 +434,25 @@ Using Ease In / Ease Out % Interpolations
 
 |function_editor_iEasePer|
 
-The ease in / ease out % interpolation is similar to the ease in / ease out one, but the ease in and ease out sections of the segments are expressed as a percentage of the segment frame duration.
+The Ease In / Ease Out % interpolation is similar to the Ease In / Ease Out one, but the Ease In and Ease Out sections of the segments are expressed as a percentage of the segment frame duration.
 
-.. tip:: **To set an ease in / ease out % interpolation:**
+.. tip:: **To set an Ease In / Ease Out % interpolation:**
 
     Do one of the following:
 
-    - Choose Ease In / Ease Out % from the dropdown menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Ease In / Ease Out %** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the transformation for, and choose Ease In / Ease Out % Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the transformation for, and choose **Ease In / Ease Out % Interpolation** from the menu that opens.
 
-.. tip:: **To set the ease in / ease out % of the interpolation:**
+.. tip:: **To set the Ease In / Ease Out % of the interpolation:**
 
-    1. Select the key point before or after the ease in / ease out curve segment you want to edit, or the curve segment itself.
+    1. Select the keyframe before or after the Ease In / Ease Out curve segment you want to edit, or the curve segment itself.
 
     2. Do one of the following:
 
-    - Enter the Ease In and Ease Out values in the interpolation area of the function editor and click the Apply button.
+    - Enter the **Ease In** and **Ease Out** values in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Move the vertical line setting the ease in or ease out section of the curve segment, to change the curve after or before the key point.
+    - Move the vertical line setting the Ease In or Ease Out section of the curve segment, to change the curve after or before the key point.
 
 
 .. _using_exponential_interpolations:
@@ -462,15 +462,15 @@ Using Exponential Interpolations
 
 |function_editor_iExpon|
 
-When the interpolation is exponential the curve segment turns to a curve that continually becomes steeper, because of that, the higher the frame, the faster the related value grows. Only positive values are significant for this interpolation.
+When the interpolation is **Exponential** the curve segment turns to a curve that continually becomes steeper, because of that, the higher the frame, the faster the related value grows. Only positive values are significant for this interpolation.
 
-.. tip:: **To set an exponential interpolation:**
+.. tip:: **To set an Exponential interpolation:**
 
     Do one of the following:
 
-    - Choose Exponential from the dropdown menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Exponential** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the transformation for, and choose Exponential Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the transformation for, and choose **Exponential Interpolation** from the menu that opens.
 
 
 .. _using_interpolations_based_on_expressions:
@@ -480,13 +480,13 @@ Using Interpolations Based on Expressions
 
 |function_editor_iExpres|
 
-When the interpolation is defined by an expression, the segment values come from a mathematical formula that can be typed by using algebra notations. In this case the keyframes at both ends of the segment may change as well, according to the typed expression.
+When the interpolation is defined by an Expression, the segment values come from a *mathematical formula* that can be typed by using algebra notations. In this case the keyframes at both ends of the segment may change as well, according to the typed expression.
 
 While typing the expression, if the syntax is recognized, a menu automatically opens suggesting you the possible terms: from the menu you can select the term both to display in a tooltip box its correct syntax, and to insert it in the expression.
 
-As soon as terms are recognized, different colors are used to highlight them: operators and functions are displayed in dark blue, variables in light blue, constants in green. When the expression is entered any syntax error will be displayed in red.
+As soon as terms are recognized, different colors are used to highlight them: **operators and functions** are displayed in *dark blue*, **variables** in *light blue*, **constants** in *green*. When the expression is entered, any **syntax error** will be displayed in *red*.
 
-The unit used for the function is displayed in a box next to the expression; in case the unit refers to a movement, the default unit can be changed, and the values will be automatically converted to the default one.
+The **Unit** used for the function is displayed in a box next to the expression; in case the unit refers to a movement, the default unit can be changed, and the values will be automatically converted to the default one.
 
 Apart from the standard operators and functions, some variables and predefined functions can also be used in expressions. 
 
@@ -592,46 +592,46 @@ numeric constant   E.g. 1, 2, 4.3.
 
 .. note:: The predefined function ``saw`` , ``wave``  and ``pulse``  use implicitly a variable independent from the frame number. You can provide explicitly a variable using the form: fun (var; argument...).
 
-.. tip:: **To set an interpolation based on an expression:**
+.. tip:: **To set an interpolation based on an Expression:**
 
     Do one of the following:
 
-    - Choose Expression from the dropdown menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Expression** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the transformation for, and choose Expression Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the transformation for, and choose **Expression Interpolation** from the menu that opens.
 
 .. tip:: **To set the expression:**
 
-    1. Type the expression in the interpolation area of the function editor. As you type, if the syntax is recognized, a menu automatically opens suggesting you the possible terms.
+    1. Type the expression in the Interpolation area of the Function Editor. As you type, if the syntax is recognized, a menu automatically opens suggesting you the possible terms.
 
-    2. Press Enter to submit the expression and check its syntax.
+    2. Press **Enter** to submit the expression and check its syntax.
 
     3. If the expression refers to a movement, change the unit if needed.
     
-    4. Press the Apply button to apply the desired change.
+    4. Press the **Apply** button to apply the desired change.
 
 .. tip:: **To select a suggested term:**
 
     Do one of the following:
 
-    - Use the Up Arrow and Down Arrow keys to select the term in the menu that opens, then press Enter.
+    - Use the **Up Arrow** and **Down Arrow** keys to select the term in the menu that opens, then press **Enter**.
 
     - Click the term in the menu that opens.
 
-.. note:: When selecting a term with the Arrow keys a tooltip box displays the term correct syntax.
+    .. note:: When selecting a term with the Arrow keys a tooltip box displays the term correct syntax.
 
 
 .. _using_transformation_references:
 
 Using Transformation References
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-It is possible to use in expressions references to any object, effect or Plastic vertex transformation. In this way, expressions can be used to create relationships between different transformations belonging to different items that can be of any of the aforementioned types.
+It is possible to use in expressions references to any *object*, *effect* or *Plastic vertex* transformation. In this way, expressions can be used to create relationships between different transformations belonging to different items that can be of any of the aforementioned types.
 
 The syntax to create a reference to an object transformation is the following:
 
 ``object.transformation`` 
 
-where ``object``  is the ID name of a camera, column, pegbar or the table, as can be read in the stage and FX schematic nodes tooltips, and ``transformation`` can be any of its available transformations.
+where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the *table*, as can be read in the Stage and FX Schematic nodes' tooltips; and ``transformation`` can be any of its available transformations.
 
 For example ``camera1.ns``  refers to the N/S position of the Camera1.
 
@@ -662,26 +662,26 @@ Supported terms are the following:
 
 The syntax to create a reference to an effect transformation is the following:
 
-``fx.name.setting`` 
+``fx.name.parameter`` 
 
-where ``name``  is the ID name of a special effect, as can be read in the FX schematic nodes tooltips, and ``setting``  any of the available effect settings. 
+where ``name``  is the ID name of an *effect*, as can be read in the FX Schematic nodes' tooltips, and ``parameter`` is any of the available effect parameters. 
 
-When an effect setting has multiple sub-settings, for example the center settings has X and Y sub-settings, the syntax has to be the following:
+When an effect parameter has multiple sub-parameters, for example the Center parameter has X and Y sub-parameters, the syntax has to be the following:
 
-``fx.name.setting.subsetting`` 
+``fx.name.parameter.subparameter`` 
 
-where ``name``  can be any used effect, ``setting``  the main effect setting, and ``subsetting``  is the effect sub-setting.
+where ``name``  can be any used effect, ``parameter``  the main effect parameter, and ``subparameter``  is the effect sub-parameter.
 
-For example ``fx.blur2.value``  refers to the Value setting of the effect Blur2; ``fx.raylit1.center.x``  refers to the X setting of the Center of the effect Raylit1.
+For example ``fx.blur2.value``  refers to the Value parameter of the effect Blur2; ``fx.raylit1.center.x``  refers to the X sub-parameter of the Center parameter of the effect Raylit1.
 
-.. note:: If the effect setting name consists of several words, they have to be typed in expressions without blank spaces.
+.. note:: If the effect parameter name consists of several words, they have to be typed in expressions without blank spaces.
 
 
 The syntax to create a reference to a Plastic vertex transformation is the following:
 
 ``vertex(column_number, "vertex_name").parameter`` 
 
-where ``column_number``  is the ID number of the column in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, and ``parameter``  is any of the available vertex parameters: ``angle``, ``distance`` or ``so``. 
+where ``column_number``  is the ID number of the *column* in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, and ``parameter``  is any of the available vertex parameters: ``angle``, ``distance`` or ``so``. 
 
 See :ref:`Use Mathematical Expression in Plastic Animation <use_mathematical_expression_in_plastic_animation>` for further details on animating a Plastic mesh using expressions.
 
@@ -693,9 +693,9 @@ Using Interpolations Based on File Data
 
 |function_editor_iFile|
 
-When an interpolation is based on file data, the segment values are retrieved from the file content. In this case the keyframes at both ends of the segment may change as well, according to the file data.
+When an interpolation is based on File data, the segment values are retrieved from the contents of a file. In this case the keyframes at both ends of the segment may change as well, according to the file data.
 
-The file can be created by an external device or other applications, such as motion-control camera or 3D software; supported file formats are BAT, DAT, RTF and TXT.
+The file can be created by an external device or other applications, such as motion-control cameras or 3D software; supported file formats are BAT, DAT, RTF and TXT.
 
 The value for each frame is taken from the file content, that must consist of a series of numbers listed in several lines. 
 
@@ -711,23 +711,23 @@ the value 2 will cause 200, 201, 202 to be loaded.
 
 The unit used for the data is displayed in a box next to the file path; in case the unit refers to a movement, the default unit can be changed, and the values will be automatically converted to the default one.
 
-.. tip:: **To set an interpolation based on file data:**
+.. tip:: **To set an interpolation based on File data:**
 
     Do one of the following:
 
-    - Choose File from the option menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **File** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the transformation for, and choose File Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the transformation for, and choose **File Interpolation** from the menu that opens.
 
-.. tip:: **To set the file information:**
+.. tip:: **To set the File information:**
 
-    1. Type in the File Path field, or use the browser button, to set the path to the data file.
+    1. Type in the **File Path** field, or use the browser button, to set the path to the data file.
 
-    2. Specify which value in each line has to be used by specifying the Column number.
+    2. Specify which value in each line has to be used by specifying the **Column** number.
 
-    3. If the expression refers to a movement, change the unit if needed.
+    3. If the File data refers to a movement, change the unit if needed.
 
-.. note:: If in the browser you choose any project default folder, in the path field the full path will be replaced by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
+.. note:: If in the Browser you choose any project default folder, in the path field the full path will be replaced by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 
 .. _using_constant_interpolations:
@@ -737,15 +737,15 @@ Using Constant Interpolations
 
 |function_editor_iConst|
 
-When an interpolation is constant, the segment values are always equal to the value of the first key defining the segment.
+When an interpolation is **Constant**, the segment values are always equal to the value of the first key defining the segment.
 
-.. tip:: **To set a constant interpolation:**
+.. tip:: **To set a Constant interpolation:**
 
     Do one of the following:
 
-    - Choose Constant from the option menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Constant** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the interpolation for, and choose Constant Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the interpolation for, and choose **Constant Interpolation** from the menu that opens.
 
 
 .. _using_interpolations_based_on_similar_shapes:
@@ -755,27 +755,27 @@ Using Interpolations Based on Similar Shapes
 
 |function_editor_iSimilar|
 
-When the interpolation is based on a similar shape, the segment values changes according to the shape of the curve you specify as reference (see  :ref:`Using Transformation References <using_transformation_references>`  ). As soon as the interpolation is set, whenever the reference curve is edited, the segment will change accordingly.
+When the interpolation is based on a Similar Shape, the segment values changes according to the shape of the curve you specify as reference (see  :ref:`Using Transformation References <using_transformation_references>`  ). As soon as the interpolation is set, whenever the reference curve is edited, the segment will change accordingly.
 
 This interpolation proves useful when you want to control at once several curves: if all of them share the same reference curve, by modifying the reference curve you will modify automatically all the curves referring to it.
 
-It is also possible to set a frame offset value so that the interpolation will refer not to the same frame range of the reference curve, but to a different one.
+It is also possible to set a **Frame Offset** value so that the interpolation will refer not to the same frame range of the reference curve, but to a different one.
 
-.. tip:: **To set an interpolation based on a similar shape:**
+.. tip:: **To set an interpolation based on a Similar Shape:**
 
     Do one of the following:
 
-    - Choose Similar Shape from the option menu available in the interpolation area of the function editor and click the Apply button.
+    - Choose **Similar Shape** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Right-click the curve you want to set the transformation for, and choose Similar Shape Interpolation from the menu that opens.
+    - Right-click the curve segment you want to set the transformation for, and choose **Similar Shape Interpolation** from the menu that opens.
 
 .. tip:: **To set the reference curve:**
 
-    1. Set the Reference Curve in the interpolation area of the function editor by typing the reference to an object or an effect transformation by using the appropriate syntax (see  :ref:`Using Transformation References <using_transformation_references>`  ). 
+    1. Set the **Reference Curve:** in the Interpolation area of the Function Editor by typing the reference to an object or an effect transformation by using the appropriate syntax (see  :ref:`Using Transformation References <using_transformation_references>`  ). 
 
-    2. Set a Frame Offset in the interpolation area of the function editor if you want the interpolation to refer not to the same frame range of the reference curve, but to a different one.
+    2. Set a **Frame Offset** in the Interpolation area of the Function Editor if you want the interpolation to refer not to the same frame range of the reference curve, but to a different one.
     
-    3. Click the Apply button to apply the desired change.
+    3. Click the **Apply** button to apply the desired change.
 
 
 .. _controlling_several_function_curves_at_the_same_time:
