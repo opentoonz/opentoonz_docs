@@ -437,7 +437,7 @@ The Command Bar is a place where the user can display favorite OpenToonz tools a
 
 The Command Bar pane can be docked in any part of the OpenToonz UI.
 
-.. note:: If the Command Bar is too short to display all the command buttons, an arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
+.. note:: If the Command Bar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
 .. tip:: **To display the Command Bar:**
 
