@@ -435,7 +435,7 @@ Command Bar
 
 The Command Bar is a place where the user can display favorite OpenToonz tools and commands to have them readily available.
 
-For example it lets you set the thickness and other properties of the Brush tool.
+The Command Bar pane can be docked in any part of the OpenToonz UI.
 
 .. note:: If the Command Bar is too short to display all the command buttons, an arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
@@ -445,11 +445,11 @@ For example it lets you set the thickness and other properties of the Brush tool
 
 .. tip:: **To customize the Command Bar buttons:**
 
-|UI_commandbar_window|
-
     1. Choose Windows > Command Bar to open the Command Bar.
 
     2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar window will open.
+
+    |UI_commandbar_window|
 
     3. To add a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Command Bar** list (left).
     
