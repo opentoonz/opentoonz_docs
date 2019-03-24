@@ -628,6 +628,8 @@ Settings for Raster Brushes
 
 Raster brushes have an extensive set of parameters to finetune their behaviour. These parameters can be changed in the Settings tab of the Style Editor pane. They include:
 
+|style_editor_settings-raster|
+
 Basic
 .....
 
@@ -877,6 +879,7 @@ The **Name Editor** allows to systematize the naming of styles used in a product
 .. |style_editor_vectorbrush| image:: /_static/palettes_styles/style_editor_vectorbrush.png
 .. |style_editor_raster| image:: /_static/palettes_styles/style_editor_raster.png
 .. |style_editor_settings| image:: /_static/palettes_styles/style_editor_settings.png
+.. |style_editor_settings-raster| image:: /_static/palettes_styles/style_editor_settings-raster.png
 .. |palette_gizmo| image:: /_static/palettes_styles/palette_gizmo.png
 .. |name_editor| image:: /_static/palettes_styles/name_editor.png
 .. |Toonz71_132| image:: /_static/Toonz71/Toonz71_132.gif
