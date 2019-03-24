@@ -670,7 +670,7 @@ Xsheet Toolbar
 
 |xsheet_toolbar|
 
-The Xsheet Toolbar, at the top of the Xsheet/Timeline pane, is a place where the user can display favorite OpenToonz tools and commands to have them readily available.
+The Xsheet Toolbar, at the top of the Xsheet and Timeline panes, is a place where the user can display favorite OpenToonz tools and commands to have them readily available.
 
 The Xsheet Toolbar pane can be toggled depending on user preferences.
 
