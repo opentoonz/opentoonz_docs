@@ -666,7 +666,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 .. _xsheet_toolbar:
 
 Xsheet Toolbar
-''''''''''''''
+--------------
 
 |xsheet_toolbar|
 
