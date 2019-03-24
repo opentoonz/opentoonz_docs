@@ -684,7 +684,7 @@ The Xsheet Toolbar pane can be toggled depending on user preferences.
 
     - Activate the File > Preferences > Xsheet > **Show Toolbar in the Xsheet** option.
 
-    .. note:: When the Xsheet Toolbar is shown, it's possible to also activate the **Expand Function Editor Header to Match Xsheet Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
+    .. note:: When the Xsheet Toolbar is shown, it's also possible to activate the **Expand Function Editor Header to Match Xsheet Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
 
 .. tip:: **To customize the Xsheet Toolbar buttons:**
 
