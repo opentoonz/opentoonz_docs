@@ -451,11 +451,11 @@ The Command Bar pane can be docked in any part of the OpenToonz UI.
 
     |UI_commandbar_window|
 
-    3. To add a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Command Bar** list (left).
+    3. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Command Bar** list (left).
     
-    4. To add a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Command Bar** list (left).
+    4. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Command Bar** list (left).
     
-    5. To delete a command: Locate the command in the **Command Bar** list (left), right click on it and select **Remove** from the menu that opens.
+    5. To *delete* a command: Locate the command in the **Command Bar** list (left), right click on it and select **Remove** from the menu that opens.
     
     6. Click **OK** to accept the changes or **Cancel** to discard them.
     
