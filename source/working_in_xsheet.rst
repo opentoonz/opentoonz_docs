@@ -672,9 +672,9 @@ Xsheet Toolbar
 
 The Xsheet Toolbar, at the top of the Xsheet/Timeline pane, is a place where the user can display favorite OpenToonz tools and commands to have them readily available.
 
-The Xsheet Toolbar pane can be toggled dependng on users preferences.
+The Xsheet Toolbar pane can be toggled depending on user preferences.
 
-.. note:: If the Xsheet Toolbar is too short to display all the command buttons, an arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
+.. note:: If the Xsheet Toolbar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
 .. tip:: **To toggle the Xsheet Toolbar:**
 
