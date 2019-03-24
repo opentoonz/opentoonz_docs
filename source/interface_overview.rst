@@ -445,6 +445,8 @@ For example it lets you set the thickness and other properties of the Brush tool
 
 .. tip:: **To customize the Command Bar buttons:**
 
+|UI_commandbar_window|
+
     1. Choose Windows > Command Bar to open the Command Bar.
 
     2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar window will open.
@@ -624,6 +626,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 .. |UI_commandbar| image:: /_static/UI/UI_commandbar.png
 .. |UI_tooloptionsbar| image:: /_static/UI/UI_tooloptionsbar.png
 .. |UI_commandbar| image:: /_static/UI/UI_commandbar.png
+.. |UI_commandbar_window| image:: /_static/UI/UI_commandbar_window.png
 .. |UI_viewer| image:: /_static/UI/UI_viewer.png
 .. |UI_comboviewer| image:: /_static/UI/UI_comboviewer.png
 .. |UI_xsheet| image:: /_static/UI/UI_xsheet.png
