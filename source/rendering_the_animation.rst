@@ -406,29 +406,46 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 Using the Playback Markers
 ''''''''''''''''''''''''''
-Two markers are available in the frame column of the Xsheet to define the range of the playback. 
+Two markers, **Start Marker** and **Stop Marker**, are available in the frame column of the Xsheet (and the frame row of the Timeline) to define the playback range.
 
-When activated, they will define the starting and ending frame to be considered when playing back the animation in the viewer using the playback controls available in the bottom bar. 
+The user can manually set the playback markers to define the *starting* and *ending* frames to be considered when playing back the animation, or leave them unset, so OpenToonz automatically defines a playback range that includes all of the Xsheet/Timeline contents. 
 
-.. note:: When the playback markers are activated, the frame range in the Preview Settings dialog changes accordingly (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+.. note:: When the playback markers are activated, the frame range in the **Preview Settings...** dialog changes accordingly (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
 
-.. tip:: **To set a playback frame range:**
+.. tip:: **To set a playback range:**
 
-    1. Set the starting frame doing one of the following:
+    1. Set the starting frame by doing one of the following:
 
-    - Drag the start marker to the relevant frame.
+    - Drag the **Start Marker** to the desired frame.
 
-    - Right-click on the relevant frame in the frame column and select Set Start Marker.
+    - Right-click on the desired frame in the frame column and select **Set Start Marker** from the menu that shows.
 
-    2. Set the ending frame doing one of the following:
+    2. Set the ending frame by doing one of the following:
 
-    - Drag the end marker to the relevant frame.
+    - Drag the **End marker** to the desired frame.
 
-    - Right-click on the relevant frame in the frame column and select Set Stop Marker.
+    - Right-click on the desired frame in the frame column and select **Set Stop Marker** from the menu that shows.
 
-.. tip:: **To activate or deactivate the playback markers:**
+.. tip:: **To set the playback range to match the duration of a block of contiguous exposed cells:**
 
-    Click any of the markers: when activated, the markers turn grey. 
+    1. In the Xsheet/Timeline, select an exposed cell from the desired column.
+
+    2. Right-click on the desired frame in the frame column and select **Set Auto Markers** from the menu that shows. 
+    
+    .. note:: There must be an exposed cell in that column at that frame for the **Set Auto Markers** option to be available.
+
+    .. note:: No matter to what block of contiguous exposed cells the selected cell belongs to, this function will take into account the frame in which the user performed the right click operation to set the markers.
+
+.. tip:: **To set a single-frame playback range:**
+
+    Right-click on the desired frame in the frame column and select **Preview This** from the menu that shows. 
+
+.. tip:: **To unset the playback markers:**
+
+    Right click on the frame column and select **Remove Markers** from the menu that shows. 
+    
+    .. note:: When deactivated, playback markers turn *grey*.
+
 
 
 Rendering the Animation
