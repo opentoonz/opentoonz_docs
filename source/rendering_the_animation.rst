@@ -406,7 +406,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 Using the Playback Markers
 ''''''''''''''''''''''''''
-Two markers, **Start Marker** and **Stop Marker**, are available in the frame column of the Xsheet (and the frame row of the Timeline) to define the playback range.
+Two markers, **Playback Start Marker** and **Playback End Marker**, are available in the frame column of the Xsheet (and the frame row of the Timeline) to define the playback range.
 
 The user can manually set the playback markers to define the *starting* and *ending* frames to be considered when playing back the animation, or leave them unset, so OpenToonz automatically defines a playback range that includes all of the Xsheet/Timeline contents. 
 
