@@ -416,13 +416,13 @@ The user can manually set the playback markers to define the *starting* and *end
 
     1. Set the starting frame by doing one of the following:
 
-    - Drag the **Start Marker** to the desired frame.
+    - Drag the **Playback Start Marker** to the desired frame.
 
     - Right-click on the desired frame in the frame column and select **Set Start Marker** from the menu that shows.
 
     2. Set the ending frame by doing one of the following:
 
-    - Drag the **End marker** to the desired frame.
+    - Drag the **Playback End marker** to the desired frame.
 
     - Right-click on the desired frame in the frame column and select **Set Stop Marker** from the menu that shows.
 
