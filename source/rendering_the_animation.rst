@@ -1,101 +1,103 @@
 .. _rendering_the_animation:
 
-Rendering the Animation
-=======================
-In order to generate the final animation including all the transformations and special FX applied to the scene elements, the scene has to be rendered.
+Previewing and Rendering
+========================
+In order to generate the final animation, including all the transformations and special effects applied to the scene elements, the scene has to be *rendered*.
 
-It is also possible to preview the animation for the final checks and tune ups before the full rendering process.
+It is also possible to *preview* the animation for performing checks and tune-ups before the full rendering process.
+
 
 .. _previewing_the_animation:
 
 Previewing the Animation
 ------------------------
-Animations can be previewed directly in the OpenToonz viewer, including in the preview mode all the flipbook features, or by rendering a preview and visualizing it in a separate flipbook window.
+Animations can be previewed directly in the OpenToonz Viewer, including in the **Preview** mode all the Flipbook features, or by rendering a preview and visualizing it in a separate Flipbook window.
 
-In both cases the flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
+In both cases the Flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
-.. note:: If the computer performance worsens during the preview process of raster animation levels, try activating the Minimize Raster Image Fragmentation option in the Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance worsens during the preview process of raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+
 
 .. _previewing_frames_in_the_viewer:
 
 Previewing Frames in the Viewer
 '''''''''''''''''''''''''''''''
-In the viewer it is possible to activate the preview mode to render the current frame according to the current camera (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  for s). 
+In the Viewer it is possible to activate the Preview mode to render the current frame according to the current camera (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  for s). 
 
-When changing the current frame, for example by using the playback buttons, it is possible to render other frames from the scene as well. The framebar displays rendered frames in grey, frames that have to be rendered yet in red, and the current frame that is being rendered in light red.
+When changing the current frame, for example by using the playback buttons, it is possible to render other frames of the scene as well. The framebar displays already rendered frames in *dark grey*, frames that have yet to be rendered in *light red*, and the current frame, while being rendered in *light green* and when already rendered in *light grey**.
 
-For the current camera it is also possible to define a sub-camera, having an area smaller than the camera, inside which the preview will be rendered, and outside which the scene elements will be displayed as they are.
+For the current camera it is also possible to define a **Sub-camera**, having an area smaller than the camera frame, inside which the preview will be rendered, and outside which the scene elements will be displayed as they are.
 
-.. note:: To optimize the preview time only the area visible in the viewer will be rendered: if you zoom out the viewer the preview will resume to render the new visualized area.
+.. note:: To optimize the preview time, only the area visible in the Viewer will be rendered: if you zoom out the viewer the preview will resume to render the new visualized area.
 
-When the preview mode is activated, every change made in the scene will cause the preview of frames affected by the changes to be recomputed. If for some reason the preview fails the update process, you can regenerate the preview, which will automatically delete previously previewed frames, and compute them again.
+When the **Preview mode** is activated, every change made in the scene will cause the preview of frames affected by the changes to be recomputed. If, for some reason, the preview fails during the update process, you can regenerate the preview, which will automatically delete previously previewed frames, and compute them again.
 
 Once the frames are previewed, the results can be saved to disk.
 
-The background colors of the preview window, including the colors of the camera background, the window background and the chessboard visible when transparent images are rendered, are those defined for the flipbook (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
+The background colors of the preview window, including the colors of the camera background, the window background and the checkerboard visible when transparent images are rendered, are those defined for the Flipbook (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
-.. note:: When previewing frames in the viewer it is possible to display blank frames after each preview playback when looping (see  :ref:`Using the Flipbook <using_the_flipbook>`  ) and to limit the range of frames to be considered when playing back the animation by using the playback markers (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ).
+.. note:: When previewing frames in the Viewer it is possible to display blank frames after each preview playback, when looping (see  :ref:`Using the Flipbook <using_the_flipbook>`  ), and to limit the range of frames to be considered when playing back the animation by using the **Playback Markers** (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ).
 
-.. note:: The camera box, the field guide, the safe area and the guides can be shown or hidden in the viewer preview as well (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
+.. note:: The Camera Box, the Field Guide, the Safe Area and the Guides can be shown or hidden in the Viewer during Preview as well (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
-.. note:: If the Apply Shrink to Main Viewer option is activated in the Preview Settings, the previewed frames may have a reduced resolution (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+.. note:: If the **Apply Shrink to Main Viewer** option is activated in the Preview Settings dialog, the previewed frames may have a reduced resolution (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
 
 .. tip:: **To activate and deactivate the preview:**
 
-    Click the Preview button (|preview|) in the viewer title bar to activate or deactivate the preview mode.
+    Click the **Preview** button (|preview|) in the viewer title bar to activate or deactivate the *Preview mode*.
 
-.. tip:: **To define a preview sub-camera for the current camera:**
+.. tip:: **To define a preview Sub-camera for the current camera:**
 
-    1. Activate the Define Preview Sub-camera button () in the viewer bottom bar.
+    1. Activate the **Define Sub-camera** button () in the viewer bottom bar.
 
-    2. Click and drag in the viewer to define the box for the sub-camera area; once the box is defined you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside it.
+    2. Click and drag in the Viewer to define the box for the *Sub-camera area*; once the box is defined you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside of it.
 
-.. tip:: **To hide the sub-camera box:**
+.. tip:: **To hide the Sub-camera box:**
 
-    Deactivate the Define Preview Sub-camera button (|define_preview_subcamera|) in the viewer bottom bar.
+    Deactivate the **Define Sub-camera** button (|define_preview_subcamera|) in the Viewer bottom bar.
 
-.. tip:: **To activate and deactivate the sub-camera preview:**
+.. tip:: **To activate and deactivate the Sub-camera preview:**
 
-    Click the Sub-camera Preview button (|subcamera_preview|) in the viewer title bar to activate or deactivate the sub-camera preview mode.
+    Click the **Sub-camera Preview** button (|subcamera_preview|) in the Viewer title bar to activate or deactivate the *Sub-camera Preview mode*.
 
 .. tip:: **To regenerate the preview:**
 
-    Right-click in the viewer in preview mode and choose from the menu that opens one of the following:
+    Right-click in the viewer in *Preview mode* and choose from the menu that opens one of the following:
 
-    - Regenerate Frame Preview to delete and recompute the current frame only.
+    - **Regenerate Frame Preview** to delete and recompute the current frame only.
 
-    - Regenerate Preview to delete and recompute the previewed frame range.
+    - **Regenerate Preview** to delete and recompute the whole previewed frame range.
 
 .. tip:: **To save previewed frames:**
 
     1. Do one of the following:
 
-    - Click the Save button (|save|) in the viewer bottom bar.
+    - Click the **Save Images** button (|save|) in the Viewer bottom bar.
 
-    - Right-click in the viewer, and choose Save Previewed Frames from the menu that opens.
+    - Right-click in the Viewer, and choose **Save Previewed Frames** from the menu that opens.
 
-    2. Use the browser to choose a name, a format and a location for the file to be saved.
+    2. Use the Browser to choose a name, a format and a location for the file to be saved.
 
 
 .. _using_the_preview_window:
 
 Using the Preview Window
 ''''''''''''''''''''''''
-The animation can be previewed in a separate window according to specific settings that can be different from the output one. In this way the preview can be configured so that it is faster to compute then the final output, for example because it uses a camera with a smaller resolution.
+The animation can be previewed in a separate window according to specific *Preview Settings*, that can be different from the *Output Settings*. In this way the preview can be configured so that it is faster to compute then the final output, for example because it uses a camera with a smaller resolution.
 
-It is possible to define the range of previewed frames both in the preview settings and by using the playback markers in the Xsheet: any change made in one mode is reflected in the other one as well (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ). It is also possible to display blank frames after each preview playback when looping.
+It is possible to define the range of previewed frames both in the Preview Settings and by using the Playback Markers in the Xsheet/Timeline: any change made in one mode is reflected in the other one as well (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ). It is also possible to display blank frames after each preview playback, when looping.
 
-It is possible to activate the Preferences > Preview > Fit to Flipbook option to ensure that the previewed images fit the size of the preview window regardless their resolution.
+It is possible to activate the Preferences > Preview > **Fit to Flipbook** option to ensure that the previewed images fit the size of the preview window, regardless their resolution.
 
-It is possible to clone the preview window, or to automatically open as many preview windows as needed by activating the Preferences > Preview > Display in a New Flipbook Window option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
+It is possible to clone the Preview window, or to automatically open as many Preview windows as needed by activating the Preferences > Preview > **Display in a New Flipbook Window** option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
 
  |preview_settings_dialog| 
 
-.. note:: As when changes are made in the scene all the preview windows automatically update, it is possible to check the animation before and after some editing by freezing any of the preview. 
+.. note:: As when changes are made in the scene all the preview windows automatically update, it is possible to check the animation before and after some editing by freezing any of the Previews. 
 
-The preview window framebar displays rendered frames in grey, frames that have to be rendered yet in red, and the current frame that is being rendered in light red.
+The Preview window framebar displays rendered frames in *grey*, frames that have yet to be rendered in *light red*, and the current frame that is being rendered in *light green*.
 
-.. note:: To optimize the preview time only the area visible in the preview window will be rendered: if you zoom out the viewer the preview will resume to render the new visualized area.
+.. note:: To optimize the preview time, only the area visible in the Preview window will be rendered: if you zoom out the Viewer the preview will resume to render the new visualized area.
 
 The Preview Settings dialog lets you define the resolution, range, step and shrink of the preview frames. Settings are the following:
 
@@ -111,7 +113,8 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
 
-There are several options to choose from. Originally Toonz provided three options: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output. Now OpenToonz also provides several other standard resampling filters that could help improve the final results in a wider range of situations.
+There are several options to choose from. Originally *Toonz* provided three options: **Standard**, **Improved**, **High**. The higher the balance chosen, the longer the time needed for rendering the output. 
+Additionally, *OpenToonz* provides several other standard resampling filters that could help improve the final results in a wider range of situations.
 
 - **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. 
 
@@ -124,168 +127,164 @@ There are several options to choose from. Originally Toonz provided three option
 
 .. tip:: **To set the scene preview settings:**
 
-    1. Choose File > Preview Settings.
+    1. Choose File > **Preview Settings**.
 
     2. Set the options you want to use for the preview.
 
 .. tip:: **To open the preview window:**
 
-    Choose File > Preview.
+    Choose File > **Preview**.
 
 .. tip:: **To clone the preview window:**
 
-    Right-click in the flipbook window and choose Clone Preview from the menu that opens.
+    Right-click in the Flipbook window and choose **Clone Preview** from the menu that opens.
 
 .. tip:: **To freeze the preview rendering:**
 
-    Right-click in the flipbook window and choose Freeze Preview from the menu that opens.
+    Right-click in the Flipbook window and choose **Freeze Preview** from the menu that opens.
 
-.. tip:: **To open a new flipbook window every time you run a preview:**
+.. tip:: **To open a new Flipbook window every time you run a preview:**
 
-    1. Choose File > Preferences > Preview.
+    1. In File > Preferences > Preview.
 
-    2. Activate the Display in a New Flipbook Window option.
+    2. Activate the **Display in a New Flipbook Window** option.
 
 .. tip:: **To rewind the preview content automatically after playback:**
 
-    1. Choose File > Preferences > Preview.
+    1. In File > Preferences > Preview.
 
-    2. Activate the Rewind After Playback option.
+    2. Activate the **Rewind After Playback** option.
 
 .. tip:: **To display blank frames after each preview playback when looping:**
 
-    1. Choose File > Preferences > Preview.
+    1. In File > Preferences > Preview.
 
     2. Do any of the following:
 
-    - Use Blank Frames to set how many blank frames you want to be displayed after each preview playback when looping.
+    - Use **Blank Frames** option to set how many blank frames you want to be displayed after each preview playback, when looping.
 
-    - Use Blank Frames Color to set the color for the blank frames.
+    - Use **Blank Frames Color** option to set the color for the blank frames.
 
 
 .. _previewing_and_caching_fx_nodes_in_the_schematic:
 
-Previewing and Caching FX nodes in the Schematic
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The preview window can also be opened from the FX schematic, to check the compositing result up to a specific node. The behaviour of the FX schematic preview window is the same as the standard one (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+Previewing and Caching Effect Nodes in the Schematic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Preview window can also be opened from the FX Schematic, to check the compositing result up to a specific node. The behaviour of the FX Schematic Preview window is the same as the standard one (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
 
-.. note:: In case the sub-camera is used, the preview window will fit the sub-camera area (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+.. note:: In case the Sub-camera is used, the Preview window will fit the Sub-camera area (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
 
 It is also possible to cache the preview up to a specific node, so that the result of the compositing up to that node is stored in the computer memory and will be reused with no need to recompute it the next time the preview is run.
 
-Of course if something changes in the flow up to the cached node, for example an object transformation or an effect parameter is changed, the cached preview will be discarded and will be stored again the next time the preview is run.
+Of course if something changes in the flow up to the cached node (for example if an object transformation or an effect parameter is changed), the cached preview will be discarded and will be stored again the next time the Preview is run.
 
-.. tip:: **To open a preview window referring to an FX schematic node:**
+.. tip:: **To open a Preview window referring to an FX Schematic node:**
 
-    Right-click the node and choose Preview from the menu that opens.
+    Right-click the node and choose **Preview** from the menu that opens.
 
-.. tip:: **To cache an FX node:**
+.. tip:: **To cache an effect node:**
 
-    Right-click the node and choose Cache FX from the menu that opens: the effect node will be displayed with a fold at the bottom right corner to highlight that it has been cached.
+    Right-click the node and choose **Cache FX** from the menu that opens: the effect node will be displayed with a fold at the bottom right corner to highlight that it has been cached.
 
-.. tip:: **To uncache an FX node:**
+.. tip:: **To uncache an effect node:**
 
-    Right-click the node and choose Cache FX from the menu that opens: the cached preview images will be discarded.
+    Right-click the node and choose **Cache FX** from the menu that opens: the cached preview images will be discarded.
 
 
 .. _using_the_flipbook:
 
 Using the Flipbook
 ''''''''''''''''''
-The flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the viewer, including the preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the Xsheet, and to display the loaded color model.
+The Flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the Viewer, including the Preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the Xsheet/Timeline, and to display the loaded Color Model.
 
-.. note:: The safe area is the only element that can be shown or hidden in the flipbook when previewing the animation (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
+.. note:: The Safe Area is the only element that can be shown or hidden in the Flipbook when previewing the animation (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
-The flipbook title bar displays the information about the content on the left, and the zoom percentage on the right.
+The Flipbook title bar displays the information about the content on the left, and the zoom percentage on the right.
 
 At the bottom a customizable set of buttons is available:
 
-- The Option button (|option|) sets which buttons and elements have to be displayed in the bottom bar.
+- The **Option** button (|option|) sets which buttons and elements have to be displayed in the bottom bar.
 
-- The Save button (|save|) opens a browser to save the flipbook content.
+- The **Save Images** button (|save|) opens a browser to save the flipbook content.
 
-- The Snapshot (|snapshot|) and Compare to Snapshot (|compare|) buttons allow the comparison between different frames of the flipbook content.
+- The **Snapshot** (|snapshot|) and **Compare to Snapshot** (|compare|) buttons allow the comparison between different frames of the flipbook content.
 
-- The Define Sub-camera button (|define_preview_subcamera|) allows the definition of a region, smaller than the size of the loaded image sequence, that will limit the portion of the images that will be displayed in the flipbook. It may prove useful to speed up the loading time and increase the playback speed, when you are only interested in a certain region of the full camera image.
+- The **Define Sub-camera** button (|define_preview_subcamera|) allows the definition of a region, smaller than the size of the loaded image sequence, that will limit the portion of the images that will be displayed in the Flipbook. It may prove useful to speed up the loading time and increase the playback speed, when you are only interested in a certain region of the full camera image.
 
-- The Sub-camera Preview button (|subcamera_preview|) lets you activate or deactivate the defined sub-camera region (see above).
+- The **Sub-camera Preview** button (|subcamera_preview|) lets you activate or deactivate the defined sub-camera region (see above).
 
-- The Background colors buttons sets a white (|preview_white|), black (|preview_black|) or checkered (|preview_checkboard|) background for transparent images.
+- The **Background** color buttons sets a **White** (|preview_white|), **Black** (|preview_black|) or **Checkered** (|preview_checkboard|) background for transparent images.
 
 - The framerate slider sets the number of frames per second to be displayed during playback.
 
-- The playback buttons can be used to play the flipbook content back and set the current frame.
+- The playback buttons can be used to play the Flipbook content back and set the current frame.
 
-- The Channel buttons display the red, green, blue and alpha channels of the flipbook content, both in colors and grey-scale.
+- The **Channel** buttons display the Red, Green, Blue and Alpha channels of the Flipbook content, both in *colors* and *grey-scale*.
 
-- The Histogram button (|histogram|) opens a window displaying histograms mapping the amount of the darkest and lightest pixels in each channel.
+- The **Histogram** button (|histogram|) opens a window displaying histograms mapping the amount of the darkest and lightest pixels in each channel.
 
 .. note:: If the bottom bar is too short to display all the options, it can be scrolled by using arrow buttons available at its ends.
 
 
-
-
-In an opened flipbook it is possible to load new contents both replacing the previous animation, or appending the new contents to it. When several flipbooks are opened, their playback can be linked, so that moving the current frame or playing the contents back in one of them, automatically moves the current frames and plays the contents back in the other flipbooks as well.
+In an opened Flipbook it is possible to load new contents both replacing the previous animation, or appending the new contents to it. When several Flipbooks are opened, their playback can be *linked*, so that moving the current frame or playing the contents back in one of them, automatically moves the current frames and plays the contents back in *all* the other Flipbooks as well.
 
 The colors displayed as background in the flipbook can also be customized so that they can better fit the color scheme of the production.
 
-.. tip:: **To open a flipbook:**
+.. tip:: **To open a Flipbook:**
 
-    Choose Window > Flipbook.
+    Choose Window > **Flipbook**.
 
-.. tip:: **To load some contents into a flipbook:**
-
-    Do one of the following:
-
-    - Right-click in the flipbook and choose Load Images from the menu that opens, then use the browser to retrieve the file you want to load.
-
-    - Drag and drop the file you want to load from the OpenToonz file browser to the flipbook.
-
-.. tip:: **To append some content to the flipbook content:**
-
-    Right-click in the flipbook and choose Append Images from the menu that opens, then use the browser to retrieve the file you want to append to the current content.
-
-.. tip:: **To navigate the flipbook content:**
+.. tip:: **To load some contents into a Flipbook:**
 
     Do one of the following:
 
-    - Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at specific steps (e.g. 50%, 100%, 200%, etc.).
+    - Right-click in the Flipbook and choose **Load Images** from the menu that opens, then use the Browser to retrieve the file you want to load.
+
+    - Drag and drop the file you want to load from the OpenToonz file browser to the Flipbook.
+
+.. tip:: **To append some content to the Flipbook content:**
+
+    Right-click in the Flipbook and choose **Append Images** from the menu that opens, then use the Browser to retrieve the file you want to append to the current content.
+
+.. tip:: **To navigate the Flipbook content:**
+
+    Do one of the following:
+
+    - Use the zoom shortcut keys (by default **+** and **-** keys) to zoom in and zoom out at specific steps (e.g. 50%, 100%, 200%, etc.).
 
     - Use the mouse wheel to zoom in and zoom out.
 
     - Click and drag to define an area you want to zoom to.
 
-    - Use the reset view shortcut (by default the 0 key), or right-click in the viewer and choose Reset View from the menu that opens, to display the flipbook content at its actual size, centered on the image center.
+    - Use the Reset View shortcut (by default the **Alt + 0** key), or right-click in the Viewer and choose **Reset View** from the menu that opens, to display the Flipbook content at its actual size, and centered on the image center.
 
     - Middle-click and drag to scroll in any direction.
 
-.. tip:: **To fit the size of the flipbook window to its content:**
+.. tip:: **To fit the size of the Flipbook window to its content:**
 
-    Double-click the flipbook title bar.
+    Double-click the Flipbook title bar.
 
-.. tip:: **Windows only - to enter/exit the flipbook full screen mode:**
+.. tip:: **Windows only - to enter/exit the Flipbook full screen mode:**
 
-    Right-click the flipbook and choose Full Screen Mode/Exit Full Screen Mode from the menu that opens.
+    Right-click the Flipbook and choose **Full Screen Mode** / **Exit Full Screen Mode** from the menu that opens.
 
-.. tip:: **To customize the flipbook bottom bar:**
+.. tip:: **To customize the Flipbook bottom bar:**
 
-    Use the Option button (|option|) to choose which buttons and elements have to be displayed: only selected items will be displayed.
+    Use the **Option** button (|option|) to choose which buttons and elements have to be displayed: only selected items will be displayed.
 
-
-
-.. tip:: **To play the flipbook content back:**
+.. tip:: **To play the Flipbook content back:**
 
     Do one of the following:
 
-    - Use the play button.
+    - Use the **Play** button.
 
     - Drag the frame bar cursor.
 
-.. tip:: **To rewind the flipbook content automatically after playback:**
+.. tip:: **To rewind the Flipbook content automatically after playback:**
 
-    1. Choose File > Preferences > Preview.
+    1. In File > Preferences > Preview.
 
-    2. Activate the Rewind After Playback option.
+    2. Activate the **Rewind after Playback** option.
 
 .. tip:: **To set the current frame:**
 
@@ -297,105 +296,91 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Type in the frame bar field the number of the frame you want to view.
 
-.. tip:: **To link the playback of all the open flipbook windows:**
+.. tip:: **To link the playback of all the open Flipbook windows:**
 
-    Choose View > Link Flipbooks to activate or deactivate the linked playback mode.
+    Choose View > **Link Flipbooks** to activate or deactivate the linked playback mode.
 
 .. tip:: **To set the playback frame rate:**
 
-    Use the frame rate slider; by default the framerate is the one set in the Scene Settings dialog (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ).
+    Use the frame rate slider; by default the framerate is the one set in the **Scene Settings** dialog (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ).
 
-.. tip:: **To save the flipbook content:**
+.. tip:: **To save the Flipbook content:**
 
     1. Do one of the following:
 
-    - Right-click in the flipbook and choose Save Images from the menu that opens.
+    - Right-click in the Flipbook and choose **Save Images** from the menu that opens.
 
-    - Click the Save button (|save|) in the flipbook bottom bar,
+    - Click the **Save Images** button (|save|) in the Flipbook bottom bar.
 
-    2. Use the browser to choose a name, a format and a location for the file to be saved.
+    2. Use the Browser to choose a name, a format and a location for the file to be saved.
 
 .. tip:: **To take a snapshot of a frame and compare it to another frame:**
 
-    1. Select the frame you want to store and click the Snapshot button () in the flipbook bottom bar.
+    1. Select the frame you want to store and click the **Snapshot** button () in the Flipbook bottom bar.
 
-    2. Move to a different frame, or load some different content, and click the Compare to Snapshot button (|snapshot|).
+    2. Move to a different frame, or load some different content, and click the **Compare to Snapshot** button (|snapshot|).
 
     3. Click and drag the vertical or horizontal marker to display the taken snapshot under the current frame.
 
-    4. Click again the Compare to Snapshot button (|compare|) to exit the compare mode.
+    4. Click again the **Compare to Snapshot** button (|compare|) to exit the compare mode.
 
-.. tip:: **To define the loading box:**
+.. tip:: **To Define the Loading Box:**
 
-    1. Load in the flipbook the sequence of images you want to visualize.
+    1. Load in the Flipbook the sequence of images you want to visualize.
 
-    2. Activate the Define Loading Box button (|define_preview_subcamera|) in the flipbook bottom bar.
+    2. Activate the **Define Loading Box** button (|define_preview_subcamera|) in the Flipbook bottom bar.
 
-    3. Click and drag in the image to define the loading box; once the box is define you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside it.
+    3. Click and drag in the image to Define the Loading Box; once the box is defined you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside it.
 
-.. tip:: **To activate and deactivate the loading box:**
+.. tip:: **To activate and deactivate the Loading Box:**
 
-    Click the Use Loading Box button (|subcamera_preview|) in the flipbook bottombar to activate or deactivate the loading box.
+    Click the **Use Loading Box** button (|subcamera_preview|) in the Flipbook bottombar to activate or deactivate the loading box.
 
+.. tip:: **To set the Flipbook background color for transparent images:**
 
+    Click the **White Background** (|preview_white|), **Black Background** (|preview_black|) or **Checkered Background** (|preview_checkboard|) buttons in the Flipbook bottom bar to activate/deactivate the desired background color.
 
-.. tip:: **To set the flipbook background color for transparent images:**
-
-    Click the White (|preview_white|), Black (|preview_black|) or Checkered Background (|preview_checkboard|) buttons in the flipbook bottom bar to activate/deactivate the related background color.
-
-
-
-.. note:: In the preview window and when the viewer is in preview mode the background color will be visible behind the Camera BG Color (see below ).
+.. note:: In the Preview window and when the Viewer is in *Preview mode* the background color will be visible behind the *Camera BG Color* (see below ).
 
 .. tip:: **To set the image channels to be displayed:**
 
     Do one of the following:
 
-    - Click the top section of the red, green and blue buttons in the flipbook bottom bar to display, or hide, the related image channel in colors.
+    - Click the top section of the **Red**, **Green** and **Blue** buttons in the Flipbook bottom bar to display, or hide, the related *image channel* in colors.
 
-    - Click the bottom section of the red, green and blue buttons in the flipbook bottom bar to display, or hide, the related image channel in grey-scale.
+    - Click *the bottom* section of the **Red**, **Green** and **Blue** buttons in the Flipbook bottom bar to display, or hide, the related *image channel* in grey-scale.
 
-    - Click the alpha channel button in the flipbook bottom bar to display, or hide, the image alpha channel.
+    - Click the **Alpha Channel** button in the Flipbook bottom bar to display, or hide, the image alpha channel.
 
 .. note:: When no channel button is activated the full image is displayed.
 
-.. tip:: **To display the histograms of the flipbook content:**
+.. tip:: **To display the Histograms of the Flipbook content:**
 
     1. Do one of the following:
 
-    - Click the Histogram button (|histogram|) in the flipbook bottom bar.
+    - Click the **Histogram** button (|histogram|) in the Flipbook bottom bar.
 
-    - Right-click the flipbook content and choose Show Histogram from the menu that opens.
+    - Right-click the Flipbook content and choose **Show Histogram** from the menu that opens.
 
     2. Choose the channel for which you want to see the histogram.
 
-.. tip:: **To define the flipbook background color:**
-
-    1. Choose Xsheet > Scene Settings.
-
-    2. Define the Preview BG Color by doing one of the following:
-
-    - Set the Red, Green and Blue values.
-
-    - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
-
 .. tip:: **To define the previewed images background color:**
 
-    1. Choose Xsheet > Scene Settings.
+    1. Choose Xsheet > **Scene Settings...*
 
-    2. Set the Camera BG Color by doing one of the following:
+    2. Set the **Camera BG Color** by doing one of the following:
 
-    - Set the Red, Green and Blue values.
+    - Set the **Red**, **Green** and **Blue** values.
 
-    - Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
+    - Click the *color thumbnail* and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
-.. note:: This color is relevant only in the preview window and when the viewer is in preview mode.
+.. note:: This color is relevant only in the Preview window and when the Viewer is in *Preview mode*.
 
-.. tip:: **To define the flipbook checkerboard colors:**
+.. tip:: **To define the Flipbook checkerboard colors:**
 
-    1. Choose Xsheet > Scene Settings.
+    1. Choose Xsheet > **Scene Settings...**
 
-    2. Set the Checkerboard Color 1 and color 2 by doing one of the following:
+    2. Set the **Checkerboard Color 1** and **Color 2** by doing one of the following:
 
     - Set the Red, Green and Blue values.
 
