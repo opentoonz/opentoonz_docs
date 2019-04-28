@@ -260,7 +260,7 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 .. tip:: **To set the skeleton Pinned Center:**
 
-    Click the center: it turns from a *yellow round* to a *blue square* to indicate it's **pinned**.
+    **Click the center**: it turns from a *yellow round* to a *blue square* to indicate it's **pinned**.
 
 .. tip:: **To change the skeleton Pinned Center:**
 
