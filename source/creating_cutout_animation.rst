@@ -227,6 +227,13 @@ For example, if you want the hand of a character to reach a particular point, yo
 
 When the **Inverse Kinematics** mode is activated, the full skeleton with pivot points and links is displayed. 
 
+When moving the model, a rotation keyframe is automatically defined for all the sections involved in the movement, unless the **Global Key** option is activated thus generating a keyframe for all the section transformations.
+
+.. note:: When using inverse kinematics the movements of the parent section of the skeleton are automatically computed to allow the right configuration of the skeleton; this means that they *cannot* be edited anymore by using standard movement editing tools like the **Animate** tool or the **Function Editor**. To return to the standard movement editing mode, you have to reset the pinned centers information.
+
+
+Pinned Center
+'''''''''''''
 One single center (by default located on the section that is the parent of the skeleton), is displayed as a **blue square**: indicating that it's **pinned** and its position won't change throughout the animation when the character sections are animated.
 
 The **pinned center** can be moved from a joint to another along the animation in order to have a center pinned only for a specific frame range. When the pinned center is changed at a specific frame, all the previous frames will retain the **previously pinned center**; all the following frames will have the **new pinned center** up to the frame where another pinned center position, if any, is defined in advance.
@@ -235,17 +242,15 @@ Changing the pinned center allows for a more complex animation where fixed point
 
 .. note:: Once the *pinned center* is defined, it will remain active when animating skeleton sections both with the **Skeleton** tool (|skeleton|), and with the **Animate** tool (|animate|). To freely animate any skeleton section again, reset the pinned center information (see below).
 
+Temporarily Pinned Centers
+''''''''''''''''''''''''''
 Multiple additional centers can be *temporarily pinned* at any frame in order to constrain additional joints to a specific position. Unlike the pinned center, **temporarily pinned centers** are *not* preserved when the current frame changes, as they are used only to define the position of the sections at a certain frame.
 
 Using **temporarily pinned centers** allows for the definition of specific poses at specific frames, for example the rising of an arm by pinning the shoulder joint. 
 
 According to the *pinned center*, and the *temporarily pinned centers*, it's possible to click any point of any section and drag to move the model: all the parent sections up to the *first pinned center* along the skeleton will move consequently, while all the linked sections *down to the free end of the limb* will move rigidly with the picked section. The sections affected by the movement are highlighted by displaying the link wires in *red*.
 
-When moving the model, a rotation keyframe is automatically defined for all the sections involved in the movement, unless the **Global Key** option is activated thus generating a keyframe for all the section transformations.
-
 The pinned centers information and coordinates are saved along with the scene; in case you want to delete it or start the animation by using the inverse kinematics from scratch, this information can be reset to the default, where only the center of the parent section of the skeleton is pinned.
-
-.. note:: When using inverse kinematics the movements of the parent section of the skeleton are automatically computed to allow the right configuration of the skeleton; this means that they *cannot* be edited anymore by using standard movement editing tools like the **Animate** tool or the **Function Editor**. To return to the standard movement editing mode, you have to reset the pinned centers information.
 
 .. tip:: **To animate the model with Inverse Kinematics:**
 
