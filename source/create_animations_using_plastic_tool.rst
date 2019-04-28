@@ -2,7 +2,7 @@
 
 Create animations using Plastic tool
 ====================================
-Plastic is a powerful tool (|plastic|) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it is applied to creating smooth animations.
+Plastic is a powerful tool (|plastic|) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it's applied to, creating smooth animations.
 
  |plastic_tool_example|
 
@@ -11,20 +11,20 @@ Plastic is a powerful tool (|plastic|) that can be used as complement in a cutou
 
 Using Plastic tool
 ------------------
-The Plastic tool needs as starting input at least one column of the Xsheet where one or more drawings are exposed; from now on this will be referred as the texture-column (TC). Using the outlines of the exposed drawing/s as references, the Plastic tool generates a triangular mesh contained in a new kind of column: the Mesh column. Each newly created Mesh columns is automatically connected to the proper TC. This link is a core point in the way Plastic works: every column linked to a mesh will be deformed by the mesh and displayed within the mesh boundaries while rendering.
+The **Plastic** tool needs as starting input at least one column of the Xsheet (or layer of the Timeline) where one or more drawings are exposed; from now on this will be referred to as the *texture-column* (or **TC**). Using the outlines of the exposed drawing/s as references, the Plastic tool generates a triangular mesh contained in a new kind of column/layer: the *Mesh* column/layer. Each newly created Mesh column/layer is automatically connected to the proper TC. This link is a core point in the way Plastic works: every column/layer linked to a mesh will be deformed by it, and displayed within the mesh boundaries while rendering.
 
-For animating/deforming a mesh level, Plastic allows the building of a specific skeleton structure active on the mesh. The skeleton is a set of connected vertices, and, for each vertex, different parameters can be specified as: its position, Angle Bounds, Rigidity and Staking Order. Thus a great range of animations and effects can easily be created.
+For animating/deforming a Mesh level, Plastic allows the building of a specific skeleton structure active on the mesh. The skeleton is a set of connected vertices, and, for each vertex, different parameters can be specified as: **Position**, **Angle Bounds**, **Rigidity** and **Staking Order**. Thus a great range of animations and effects can easily be created.
 
-.. note:: The Plastic tool is applied to a column of the Xsheet, and the content of the column can be an animated level.
+.. note:: The Plastic tool is applied to a column of the Xsheet (or layer of the Timeline), and the content of it can be an animated level.
 
 
 .. _building_a_plastic_mesh:
 
 Building a Plastic mesh
 -----------------------
-The first step for using Plastic is creating a mesh for the Xsheet column that we are going to animate using the Plastic tool. The mesh is a new kind of Toonz level, and can be saved as any other kind of levels. 
+The first step for using Plastic is creating a mesh for the Xsheet column (or Timeline layer) that we are going to animate using the **Plastic** tool. The Mesh is a special kind of level, and can be saved as any other kind of levels. 
 
-The mesh level can be seen as purple column created when the button Create Mesh of the Plastic tool is pressed.
+The Mesh level can be seen as *purple* column/layer created when the button **Create Mesh** of the **Plastic** tool is pressed.
 
  |create_mesh|
 
@@ -32,33 +32,33 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
 .. tip:: **To create a Plastic mesh:**
 
-    1. Select the column that is going to be animated using the Plastic tool. This will be the texture-column (TC) of the mesh that is going to be created.
+    1. Select the column/layer that is going to be animated using the Plastic tool. This will be the *texture-column* (TC) of the mesh that is going to be created.
 
-    2. Choose the Plastic tool (|plastic|)
+    2. Choose the **Plastic** tool (|plastic|)
 
-    3. Press the Create Mesh button in the tool options bar.
+    3. Press the **Create Mesh** button in the tool options bar.
   
-    4. Check, in the dialog that opens, the Mesh density in the preview area. Adjust as needed the density using the Mesh Edges Length slider.
+    4. Check, in the dialog that opens, the Mesh density in the preview area. Adjust as needed the density using the **Mesh Edges Length** slider.
 
   |create_mesh_options|
 
-.. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the Mesh Edges Length value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but even more computing resources will be required.
+    .. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the **Mesh Edges Length** value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but more computing resources will be required.
 
-.. note:: The preview will show you just one level at time, even if you have selected multiple columns, to check the preview of each column you have to select them one by one while the Plastic tool is active. Each time you change column selection the preview will update for the new content.
+    .. note:: The preview will show you just one level at time, even if you have selected multiple columns/layers, to check the preview of each column/layer you have to select them one by one *while* the **Plastic** tool is active. Each time you change the column/layer selection the preview will update for the new content.
 
-    5. If needed change the value of the Rasterization DPI parameter. This value represents the DPI used when the TC will be rendered as a texture for the mesh. It is recommend using a value consistent with the Camera resolution. A DPI too high compared to the Camera resolution might cause that the contours may not be very soft
+    5. If needed, change the value of the **Rasterization DPI** parameter. This value represents the DPI used when the TC is rendered as a texture for the mesh. It's recommend using a value consistent with the Camera resolution. A DPI too high compared to the Camera resolution might cause the contours of the TC not to be very soft.
 
-.. note:: The Rasterization DPI parameter is available only when you are creating mesh starting from Toonz Vector Levels.
+    .. note:: The **Rasterization DPI** parameter is available only when you are creating the mesh from Toonz Vector levels.
 
-    6. Adjust the Mesh Margin value. This parameter is expressed in pixels because it is used when the texture is projected on the mesh, the right amount of margin is needed to preserve the aliasing of the picture.
+    6. Adjust the **Mesh Margin** value. This parameter is expressed in *pixels* because it's used when the texture is projected on the mesh, an appropriate amount of margin will be needed to preserve the aliasing of the picture.
 
-    7. If you are creating a mesh from a Sub-Xsheet, you can choose which elements of the Sub-Xsheet will be used by the Plastic tools for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
+    7. If you are creating a mesh from a **Sub-Xsheet**, you can choose which elements of the Sub-Xsheet will be used by the Plastic tool for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
 
-    8. Click the Apply button to create the mesh. Now you can see the mesh drawn in green colour in the main viewer, and a new purple column in the Xsheet next to the TC.
+    8. Click the **Apply** button to create the mesh. Now you can see the mesh drawn in *green* colour in the Viewer, and a new *purple* column in the Xsheet (or layer in the Timeline) next to the TC.
 
-.. note:: Into the Stage Schematic you can see that the TC column is now connected to the mesh column just created, its node has a purple header for easing recognition.
+    .. note:: In the **Stage Schematic** you can see that the *TC* node is now connected to the *Mesh* node just created, its node has a *purple* header for easing recognition.
 
-If the Create Mesh is applied to a column that is already modified by the Plastic tool (then already linked to a mesh) a dialog will prompt asking how to manage the new and the old mesh files, and the user can choose from one of three options: 
+If the **Create Mesh** is applied to a column/layer that is already modified by the Plastic tool (then already linked to a Mesh level) a dialog will prompt asking how to manage the new and the old Mesh files, and the user can choose from one of three options: 
 
 |create_mesh_warning|
 
@@ -68,63 +68,63 @@ If the Create Mesh is applied to a column that is already modified by the Plasti
 
     - **Choose a different path** (same name as the original level plus _X where X is the ordinal number of the copy): an entirely new mesh file is generated and a new column exposes the new contents while the old column exposes the old ones.
 
-.. note:: All the above options cause the creation of a new mesh column and the building of a chain, linking the texture column and the meshes columns, into the Stage Schematic. In this chain the older mesh is linked to the younger and the youngest mesh is linked to the texture-column. Rearranging the links into the Stage Schematic can be needed for avoiding undesired results while animating. 
+    .. note:: All the above options cause the creation of a new Mesh column and the building of a chain, linking the *texture-column* and the *meshes columns* in the Stage Schematic. In this chain, the older mesh is linked to the younger and the youngest mesh is linked to the *texture-column*. Rearranging the links in the Stage Schematic can be needed for avoiding undesired results while animating. 
 
 
 .. _modifying_a_plastic_mesh:
 
 Modifying a Plastic mesh
 ------------------------
-Not always it is easy to estimate the right density for a mesh. Sometimes a higher density could be needed to avoid straight lines on bending elements, or a lower density could be used for saving computing resources in a complex scene, or, simply, the drawings of an element are changed. In all this occurrences modifying the mesh can solve the problem.
+It's not always easy to estimate the right density for a mesh. Sometimes a higher density could be needed to avoid *straight lines* on bending elements, or a lower density could be used for saving computing resources in a complex scene, or, simply, the drawings of an element are changed. In all this occurrences, modifying the mesh can solve the problem.
 
 .. tip:: **To update a Plastic mesh to reflect changing in the Level Strip:**
 
-    1. Select the mesh column that needs to be modified.
+    1. Select the Mesh column/layer that needs to be modified.
 
-    2. Press the Create Mesh button.
+    2. Press the **Create Mesh** button.
 
-    3. In the dialog that opens change the Mesh Edges Length slider value as needed, checking the result in the preview area.
+    3. In the dialog that opens change the **Mesh Edges Length** slider value as needed, checking the result in the preview area.
 
-    4. Click the Apply button to create the mesh. The new mesh replaces the old one, and now is visible drawn in green colour in the main viewer.
+    4. Click the **Apply** button to create the mesh. The new mesh replaces the old one, and now is visible drawn in *green* colour in the main viewer.
 
 .. tip:: **To add new mesh frames to an existing mesh level:**
 
-    1. Select the mesh column that needs to be modified.
+    1. Select the Mesh column/layer that needs to be modified.
 
-    2. Create the new frames (inserting them, or appending them) as for a standard Toonz level, corresponding to the new frames created for the Texture Column.
+    2. Create the new frames (inserting or appending them) as it's usually done for any standard Toonz level, corresponding to the new frames created for the *Texture Column*.
 
-    3. Activate the Plastic tool.
+    3. Activate the **Plastic** tool.
 
-    4. Press the Create Mesh button and adjust the Mesh Edges Length slider.
+    4. Press the **Create Mesh** button and adjust the **Mesh Edges Length** slider.
 
-    5. Press the Apply button.
+    5. Press the **Apply** button.
 
 
 .. _edit_a_plastic_mesh:
 
 Edit a Plastic mesh
 -------------------
-The mesh created using the Create Mesh button can be edited in several ways. It is possible to: move a mesh point, swap, collapse, split and cut the mesh by its edges. 
+The mesh created using the **Create Mesh** button can be edited in several ways. It's possible to: Move a mesh point, Swap, Collapse, Split and Cut the mesh by its edges. 
 
  |edit_mesh_mode|
 
-Swap an edge if you want to change the shape of a mesh triangle; collapse an edge if you want to join the ends of the edge; split an edge if you want to increase the density of the mesh at any given point; cut the mesh if you want to duplicate an edge to have the possibility, for example, to create a hole in the mesh and be able to animate it.
+**Swap** an edge if you want to change the shape of a mesh triangle; **Collapse** an edge if you want to join the ends of the edge; **Split** an edge if you want to increase the density of the mesh at any given point; **Cut** the mesh if you want to duplicate an edge to have the possibility, for example, to create a hole in the mesh and be able to animate it.
 
-.. note:: The Cut Mesh command is visible only if the selected edges can be cut.
+.. note:: The **Cut Mesh** command is visible only if the selected edges can be cut.
 
 .. tip:: **To edit a Plastic mesh:**
 
-    1. Select in the Xsheet the mesh column you want to modify. 
+    1. Select the mesh column/layer you want to modify. 
 
-    2. If not already active, choose the Plastic tool (|plastic|)
+    2. If not already active, choose the **Plastic** tool (|plastic|)
 
-    3. In the Tool Option bar set the Mode to Edit Mesh.
+    3. In the Tool Options bar set the **Mode:** to **Edit Mesh**.
 
 .. tip:: **To move a mesh point:**
 
-    1. Select the mesh point you want to modify. It became red.
+    1. Select the mesh point you want to modify. It becomes *red*.
 
-    2. Drag to move the point in the new position.
+    2. Drag to move the point to its new position.
 
 .. tip:: **To swap an edge of the mesh:**
 
@@ -132,7 +132,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     2. Click the right mouse button to open the context menu.
 
-    3. Choose the Swap Edge command.
+    3. Choose the **Swap Edge** command.
 
  |swap-collapse-split_edge|
 
@@ -142,7 +142,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     2. Click the right mouse button to open the context menu.
 
-    3. Choose the Collapse Edge command.
+    3. Choose the **Collapse Edge** command.
 
 .. tip:: **To split an edge of the mesh:**
 
@@ -150,7 +150,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     2. Click the right mouse button to open the context menu.
 
-    3. Choose the Split Edge command.
+    3. Choose the **Split Edge** command.
  
 .. tip:: **To cut edges of the mesh:**
 
@@ -158,7 +158,7 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
     2. Click the right mouse button to open the context menu.
 
-    3. Choose the Cut Mesh command.
+    3. Choose the **Cut Mesh** command.
 
 |cut_mesh|
 
@@ -167,30 +167,30 @@ Swap an edge if you want to change the shape of a mesh triangle; collapse an edg
 
 Building a Plastic skeleton
 ---------------------------
-The Plastic skeleton is a control structure linked to a mesh level that gives us the handles for deforming/animating the chosen element/s of the Xsheet.
+The Plastic skeleton is a control structure linked to a mesh level that provides handles for deforming/animating the chosen elements of the Xsheet/Timeline.
 
  |build_skeleton_mode|
 
 
 .. tip:: **To create a Plastic skeleton:**
 
-    1. Select in the Xsheet the mesh column for which you want to build the skeleton.
+    1. Select in the mesh column/layer for which you want to build the skeleton.
 
-    2. If not already active, choose the Plastic tool (|plastic|)
+    2. If not already active, choose the **Plastic** tool (|plastic|)
 
-    3. In the Tool Option bar set the Mode to Build Skeleton.
+    3. In the Tool Options bar set the **Mode:** to **Build Skeleton**.
  
-    4. Move the mouse pointer on the main viewer. A small red square is now visible near the tip of the cursor. 
+    4. Move the mouse pointer on the Viewer. A small red square is now visible near the tip of the cursor. 
 
  |build_skeleton|
 
-    5. In the main viewer click (to set in place) or click and drag (to adjust positioning) to place the first vertex. A purple square is now visible in the main viewer.
+    5. In the Viewer click (to set in place) or click and drag (to adjust its positioning) to place the first vertex. A *purple* square is now visible in the Viewer.
 
-.. note:: The first time you release the mouse button, you are setting the position of the parent of all the hierarchy, the Root vertex. This vertex differs visually from the others vertices: its square is solid while the others are hollow in the middle, giving a visual hint for determining the right hierarchical order in the skeleton chains. The Root vertex will be static in Animate mode, but it can still be moved while in Build Skeleton mode by selecting it and dragging.
+.. note:: The first time you release the mouse button, you are setting the position of the parent of all the hierarchy, *the Root vertex*. This vertex differs visually from the others vertices: its square is solid while the others are hollow in the middle, giving a visual hint for determining the right hierarchical order in the skeleton chains. The **Root vertex** will be *static* in **Animate** mode, but it can still be moved while in **Build Skeleton** mode by selecting it and dragging.
 
-    6. Move to the position where you want to add the second vertex and click or click and drag to place it. An orange line with a black border will connect the two vertices.
+    6. Move to the position where you want to add the second vertex and click or click and drag to place it. An *orange* line with a black border will connect the two vertices.
 
-    7. Continue clicking or clicking and dragging until all the vertices are in the right place and the skeleton is completed.
+    7. Continue clicking or clicking and dragging until all the vertices are in the right places and the skeleton is completed.
 
 
 .. _using_multiple_skeletons_on_a_mesh_level:
