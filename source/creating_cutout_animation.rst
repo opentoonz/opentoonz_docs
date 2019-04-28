@@ -260,7 +260,7 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 .. tip:: **To set the skeleton Pinned Center:**
 
-    **Click the center**: it turns from a *yellow round* to a *blue square* to indicate it's **pinned**.
+    **Click the center**: it turns from an *orange circle* to a *blue square* to indicate it is **pinned**.
 
 .. tip:: **To change the skeleton Pinned Center:**
 
@@ -270,7 +270,11 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 .. tip:: **To set a Temporarily Pinned Center:**
 
-    **Shift-click the center**: it turns from a *yellow round* to a *light blue square* to indicate it is **temporarily pinned**.
+    **Shift-click the center**: it turns from an *orange circle* to a *light blue square* to indicate it is **temporarily pinned**.
+
+.. tip:: **To unset a Temporarily Pinned Center:**
+
+    **Shift-click the temporarily pinned center**: it turns from a *light blue square* to an *orange circle* to indicate it's no longer temporarily pinned.
 
 .. tip:: **To Reset the Pinned Centers information:**
 
