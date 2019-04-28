@@ -263,7 +263,7 @@ While drawing the skeleton or after finishing its creation, some adjustments to 
 
     2. Uncheck the **Allow Stretching** option in the Tool Options bar.
 
-     .. note:: The square marking the vertex position becomes *yellow*, and from now on the vertex *will not stretch* the Mesh while you are moving it.
+    .. note:: The square marking the vertex position becomes *yellow*, and from now on the vertex *will not stretch* the Mesh while you are moving it.
 
 .. tip:: **To Snap a vertex to the mesh**
 
@@ -297,7 +297,7 @@ While drawing the skeleton or after finishing its creation, some adjustments to 
 
     3. Click the right mouse button and select the **Paste Skeleton** option.
 
-     .. note:: Pasting the skeleton on *an already existing one* will cause the deletion of the old structure and all its animation. This can be reverted to the previous state by using the **Undo** command.
+    .. note:: Pasting the skeleton on *an already existing one* will cause the deletion of the old structure and all its animation. This can be reverted to the previous state by using the **Undo** command.
 
 
 .. _animating_plastic_elements:
@@ -378,7 +378,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     2. Input the **Stacking Order** value you wish to assign to the vertex into the **SO** text field in the Tool Options bar.
 
-     .. note:: Plastic stacking order is a *per vertex* characteristic, you have to define the value you wish for each vertex required. The default value is 0 for all vertices, and can be modified freely using positive or negative values as needed.
+    .. note:: Plastic stacking order is a *per vertex* characteristic, you have to define the value you wish for each vertex required. The default value is 0 for all vertices, and can be modified freely using positive or negative values as needed.
 
 .. tip:: **To define an Angle Bounds for a vertex:**
 
