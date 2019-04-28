@@ -235,7 +235,7 @@ Changing the pinned center allows for a more complex animation where fixed point
 
 .. note:: Once the *pinned center* is defined, it will remain active when animating skeleton sections both with the **Skeleton** tool (|skeleton|), and with the **Animate** tool (|animate|). To freely animate any skeleton section again, reset the pinned center information (see below).
 
-Multiple additional centers can be *temporarily pinned* at any frame in order to constrain additional joints to a specific position. *Unlike the pinned center*, **temporarily pinned centers** are *not* preserved when the current frame changes, as they are used only to define the position of the sections at a certain frame.
+Multiple additional centers can be *temporarily pinned* at any frame in order to constrain additional joints to a specific position. Unlike the pinned center, **temporarily pinned centers** are *not* preserved when the current frame changes, as they are used only to define the position of the sections at a certain frame.
 
 Using **temporarily pinned centers** allows for the definition of specific poses at specific frames, for example the rising of an arm by pinning the shoulder joint. 
 
@@ -243,7 +243,7 @@ According to the *pinned center*, and the *temporarily pinned centers*, it's pos
 
 When moving the model, a rotation keyframe is automatically defined for all the sections involved in the movement, unless the **Global Key** option is activated thus generating a keyframe for all the section transformations.
 
-The *pinned centers* information and coordinates are saved along with the scene; in case you want to delete it or start the animation by using the inverse kinematics from scratch, this information can be reset to the default, where only the center of the parent section of the skeleton is pinned.
+The pinned centers information and coordinates are saved along with the scene; in case you want to delete it or start the animation by using the inverse kinematics from scratch, this information can be reset to the default, where only the center of the parent section of the skeleton is pinned.
 
 .. note:: When using inverse kinematics the movements of the parent section of the skeleton are automatically computed to allow the right configuration of the skeleton; this means that they *cannot* be edited anymore by using standard movement editing tools like the **Animate** tool or the **Function Editor**. To return to the standard movement editing mode, you have to reset the pinned centers information.
 
