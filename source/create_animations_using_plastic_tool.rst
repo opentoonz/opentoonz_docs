@@ -40,15 +40,15 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
   
     4. Check, in the dialog that opens, the Mesh density in the preview area. Adjust as needed the density using the **Mesh Edges Length** slider.
 
-  |create_mesh_options|
+     |create_mesh_options|
 
-    .. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the **Mesh Edges Length** value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but more computing resources will be required.
+     .. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the **Mesh Edges Length** value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but more computing resources will be required.
 
-    .. note:: The preview will show you just one level at time, even if you have selected multiple columns/layers, to check the preview of each column/layer you have to select them one by one *while* the **Plastic** tool is active. Each time you change the column/layer selection the preview will update for the new content.
+     .. note:: The preview will show you just one level at time, even if you have selected multiple columns/layers, to check the preview of each column/layer you have to select them one by one *while* the **Plastic** tool is active. Each time you change the column/layer selection the preview will update for the new content.
 
     5. If needed, change the value of the **Rasterization DPI** parameter. This value represents the DPI used when the TC is rendered as a texture for the mesh. It's recommend using a value consistent with the Camera resolution. A DPI too high compared to the Camera resolution might cause the contours of the TC not to be very soft.
 
-    .. note:: The **Rasterization DPI** parameter is available only when you are creating the mesh from Toonz Vector levels.
+     .. note:: The **Rasterization DPI** parameter is available only when you are creating the mesh from Toonz Vector levels.
 
     6. Adjust the **Mesh Margin** value. This parameter is expressed in *pixels* because it's used when the texture is projected on the mesh, an appropriate amount of margin will be needed to preserve the aliasing of the picture.
 
@@ -56,7 +56,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
     8. Click the **Apply** button to create the mesh. Now you can see the mesh drawn in *green* colour in the Viewer, and a new *purple* column in the Xsheet (or layer in the Timeline) next to the TC.
 
-    .. note:: In the **Stage Schematic** you can see that the *TC* node is now connected to the *Mesh* node just created, its node has a *purple* header for easing recognition.
+     .. note:: In the **Stage Schematic** you can see that the *TC* node is now connected to the *Mesh* node just created, its node has a *purple* header for easing recognition.
 
 If the **Create Mesh** is applied to a column/layer that is already modified by the Plastic tool (then already linked to a Mesh level) a dialog will prompt asking how to manage the new and the old Mesh files, and the user can choose from one of three options: 
 
