@@ -527,7 +527,7 @@ To use OpenToonz mathematical expressions in the Plastic Animation, you can link
 
 This allows to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder automatically moves the other.
 
-Suppose that the main vertices of the shoulders are named *Shoulder_left* and *Shoulder_right*, and the Mesh is in column 2 of the Xsheet (or layer 2 of the Timeline), you can link the rotation of the *Shoulder_left* vertex to the one of the *Shoulder_right* by setting the following expression in the expression field of the **Angle** parameter of the *Shoulder_left* vertex in the Function Editor:
+Suppose that the main vertices of the shoulders are named *Shoulder_left* and *Shoulder_right*, and the Mesh is in column 2 of the Xsheet (or layer 2 of the Timeline). You can link the rotation of the *Shoulder_left* vertex to the same amount of that of the *Shoulder_right*, by setting in the Function Editor, the following expression in the expression field of the **Angle** parameter of *Shoulder_left* vertex:
 
 ``vertex(2, "Shoulder_right").angle``
 
