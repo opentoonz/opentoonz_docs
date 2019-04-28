@@ -77,7 +77,7 @@ Modifying a Plastic mesh
 ------------------------
 It's not always easy to estimate the right density for a mesh. Sometimes a higher density could be needed to avoid *straight lines* on bending elements, or a lower density could be used for saving computing resources in a complex scene, or, simply, the drawings of an element are changed. In all this occurrences, modifying the mesh can solve the problem.
 
-.. tip:: **To update a Plastic mesh to reflect changing in the Level Strip:**
+.. tip:: **To update a Plastic mesh to reflect changes in the Level Strip:**
 
     1. Select the Mesh column/layer that needs to be modified.
 
@@ -112,7 +112,7 @@ The mesh created using the **Create Mesh** button can be edited in several ways.
 
 .. note:: The **Cut Mesh** command is visible only if the selected edges can be cut.
 
-.. tip:: **To edit a Plastic mesh:**
+.. tip:: **To enter Plastic mesh editing mode:**
 
     1. Select the mesh column/layer you want to modify. 
 
@@ -120,9 +120,9 @@ The mesh created using the **Create Mesh** button can be edited in several ways.
 
     3. In the Tool Options bar set the **Mode:** to **Edit Mesh**.
 
-.. tip:: **To move a mesh point:**
+.. tip:: **To move selected mesh points:**
 
-    1. Select the mesh point you want to modify. It becomes *red*.
+    1. Select the mesh points you want to modify. Use the **Ctrl** key to select multiple points. Selected mesh points become *red*.
 
     2. Drag to move the point to its new position.
 
@@ -197,177 +197,178 @@ The Plastic skeleton is a control structure linked to a mesh level that provides
 
 Using multiple skeletons on a mesh level
 ----------------------------------------
-Every mesh level uses at least one skeleton for animating, but this is just the easier configuration for working: a mesh level can have multiple skeletons active at different frames for building more complex animations: like a character turn-around, or for animating a level with multiple drawings of different shapes. Every time the drawings change in shape, there a new ad-hoc skeleton structure can be built with the number of vertices needed and placed in the right positions.
+Every mesh level uses at least one skeleton for animating, but this is just the easier configuration for working: a mesh level can have multiple skeletons active at different frames for building more complex animations: like a character turn-around, or for animating a level with multiple drawings of different shapes. Every time the drawings change in shape, a new *ad-hoc* skeleton structure can be built with the number of vertices needed and placed in the right positions.
 
 |multiple_skeletons|
 
 
 .. tip:: **To add a new skeleton on a mesh level**
 
-    1. In the Xsheet select the mesh level and the frame where the new skeleton is needed.
+    1. In the Xsheet/Timeline select the Mesh level and the frame where the new skeleton is needed.
 
-    2. In the Tool Options Bar press the + button next the option menu labeled Skeleton. A new numeric entry is added to the list and a key is created at the selected frame.
+    2. In the Tool Options bar press the **+** button to the right of the options menu labeled **Skeleton:**. A new numeric entry is added to the list and a keyframe is created at the selected frame.
 
     3. Start building the new skeleton as usual.
 
 .. tip:: **To link an available skeleton to a chosen frame of a mesh level**
 
-    1. In the Xsheet select the frame of the mesh level where the skeleton has to change.
+    1. In the Xsheet/Timeline select the frame of the Mesh level where the skeleton has to change.
 
-    2. In the Tool Options Bar open the option menu labeled Skeleton: a list of the ID numbers of the already built skeletons opens.
+    2. In the Tool Options bar open the option menu labeled **Skeleton:**, a list of the ID numbers of the already built skeletons opens.
 
-    3. Select the ID number matching the skeleton you need.
+    3. Select the **ID number** matching the skeleton you need.
 
-    4. The selected skeleton is now visible in the main viewer area, and a key is created at the chosen frame.
+    4. The selected skeleton is now visible in the main Viewer, and a keyframe is created at the chosen frame.
 
-.. tip:: **To delete a skeleton from Skeleton list**
+.. tip:: **To delete a skeleton from the Skeleton list**
 
-    1. In the Xsheet select the mesh level owning the skeleton that has to be deleted.
+    1. In the Xsheet/Timeline select the Mesh level owning the skeleton that has to be deleted.
 
-    2. Select from the Skeleton drop down the ID matching the skeleton to delete.
+    2. Select from the **Skeleton:** drop down the **ID** matching the skeleton to delete.
 
-    3. Press the - button.
+    3. Press the **-** button.
 
 
 .. _modifying_a_plastic_skeleton:
 
 Modifying a Plastic skeleton
 ----------------------------
-While drawing the skeleton, or when finished to drawing it, some adjustments to the vertices positions, or to the number of vertices, may be needed:
+While drawing the skeleton or after finishing its creation, some adjustments to the positions or the number of vertices may be required:
 
-.. tip:: **To select a vertex:**
+.. tip:: **To Select a vertex:**
 
-    1. While in Build Skeleton mode, move the mouse pointer on an already placed vertex.
+    1. While in **Build Skeleton** mode, move the mouse pointer on an already placed vertex.
 
-    2. Click when the name of the vertex appears and a dashed square encloses the solid one marking the vertex position.
+    2. Click, when the name of the vertex appears and a dashed square encloses the vertex position.
 
-.. tip:: **To delete a vertex:**
+.. tip:: **To Delete a vertex:**
 
-    1. While in Build Skeleton mode select the vertex that has to be deleted.
+    1. While in **Build Skeleton** mode, select the vertex that has to be deleted.
 
-    2. Press the Canc key on your keyboard.
+    2. Press the **Del** key.
 
-.. tip:: **To insert a vertex:**
+.. tip:: **To Insert a vertex:**
 
-    1. While in Build Skeleton mode move the mouse pointer on the line connecting the two vertices that need a joint between them.
+    1. While in **Build Skeleton** mode, move the mouse pointer over the line connecting the two vertices that need a vertex between them.
 
-    2. Click to set the new vertex in place or click and drag to adjust the position of the new vertex.
+    2. Click to set the new vertex in place, or click and drag to adjust the position of the new vertex.
 
-.. tip:: **To change a vertex position:**
+.. tip:: **To Move a vertex:**
 
-    1. Click on the vertex to select it and drag for adjusting its position.
+    Click on the vertex to select it, and drag for adjusting its position.
 
-.. tip:: **To prevent a vertex to stretch the mesh:**
+.. tip:: **To Prevent a vertex from Stretching the mesh:**
 
     1. Select the vertex that you wish to modify.
 
-    2. Uncheck the Allow Stretching option in the tool options bar.
+    2. Uncheck the **Allow Stretching** option in the Tool Options bar.
 
-.. tip:: **The square marking the vertex position become yellow and from now the vertex will not stretch the mesh while you are moving it**
+     .. note:: The square marking the vertex position becomes *yellow*, and from now on the vertex *will not stretch* the Mesh while you are moving it.
 
-.. tip:: **To snap a vertex to the mesh**
+.. tip:: **To Snap a vertex to the mesh**
 
-    1. Select the vertex that you wish to snap.
+    1. While in **Build Skeleton** mode, activate the **Snap To Mesh** option.
 
-    2. Drag it near the mesh point at which you want to snap. 
+    2. Select the vertex you wish to snap.
 
-.. tip:: **To branch the skeleton:**
+    3. Drag it near the *mesh point* at which you want to snap it. 
 
-    1. While in Build Skeleton mode, select the vertex from which the new branch will start.
+.. tip:: **To Branch the skeleton:**
+
+    1. While in **Build Skeleton** mode, **select the vertex** from which the new branch will start.
 
     2. Move to the position where the first vertex of the new branch will be positioned.
 
     3. Click to create it.
 
-.. tip:: **To copy a skeleton:**
+.. tip:: **To Copy a skeleton:**
 
-    1. While in Build Skeleton mode, select the root vertex and click the rigth mouse button.
+    1. While in **Build Skeleton** mode, **select the Root vertex** and click the right mouse button.
 
-    2. From the context menu that appears select the Copy Skeleton option.
+    2. From the context menu that opens, select the **Copy Skeleton** option.
 
      |copy_skeleton|
 
-.. tip:: **To paste a skeleton:**
+.. tip:: **To Paste a skeleton:**
 
-    1. Select a mesh column in the Xsheet.
+    1. Select a mesh column in the Xsheet/Timeline.
 
-    2. If needed press the + button to create a new empty skeleton.
+    2. If needed press the **+** button to create a new empty skeleton.
 
-    3. Click the rigth mouse button and select the Paste Skeleton option.
+    3. Click the right mouse button and select the **Paste Skeleton** option.
 
-     .. note:: Pasting the skeleton on an already existing one will end up in losing the old structure and all its animations. This outcome can be reverted to the previous state using the Undo command.
+     .. note:: Pasting the skeleton on *an already existing one* will cause the deletion of the old structure and all its animation. This can be reverted to the previous state by using the **Undo** command.
 
 
 .. _animating_plastic_elements:
 
 Animating Plastic elements
 --------------------------
-Creating an animation in Plastic is quite an easy task: just select the vertices and move them to the desired position at a specific frame and an animation key frame will be created. Playback the sequence to check the results.
+Creating an animation in Plastic is quite an easy task: just select the vertices and move them to the desired positions at a specific frames and animation keyframes will be automatically created. Play back the sequence to check the results.
 
 |animate_mode|
 
-
 .. tip:: **To animate Plastic elements:**
 
-    1. Select the mesh column you like to animate.
+    1. Select the mesh column/layer you like to animate.
 
-    2. Select Plastic tool and set Mode to Animate. Now, in the main viewer, you can see the skeleton and the mesh of the selected column.
+    2. Select **Plastic** tool and set **Mode:** to **Animate**. Now, in the Viewer, you can see the skeleton and the mesh of the selected column/layer.
 
-    3. Select the first frame of the animation in the Xsheet.
+    3. Select the first frame of the animation in the Xsheet/Timeline.
 
-    4. Select the vertices of the skeleton and move them to the desired position to set the relative key frames, or write the desired values into the text fields of the tool options bar.
+    4. Select the *vertices* of the skeleton and move them to the desired positions to set the relative keyframes, or write the desired values into the text fields of the Tool Options bar.
 
-    5. Move to the next key frame of the animation and modify the vertices positions to define a new pose.
+    5. Move to the next keyframe of the animation and modify the vertices positions to define a new pose.
 
-    6. Repeat the step 5 until the end of the animation.
+    6. Repeat the step 5 until the end the animation is finished.
 
-.. tip:: **To set a rest position key for one vertex:**
+.. tip:: **To Set a Rest Position key for one vertex:**
 
-    The first time you draw a skeleton you are even creating the rest position of this structure. This pose is automatically stored and you can recall it on the vertex.
+    The first time you draw a skeleton you are also creating the *rest position* of this structure. This pose is automatically stored and you can recall it on any vertex.
 
     1. Select a vertex and click the right mouse button.
 
-    2. From the context menu select Set Rest Key. 
+    2. From the context menu that opens, select **Set Rest Key**. 
 
-    3. A new key at the current frame is created using the rest values for the selected vertex.
+    3. A new keyframe at the current frame is created for the vertex, using its *rest values*.
 
      |set_keys|
  
-.. tip:: **To set a Global rest position key for the whole skeleton:**
+.. tip:: **To Set a Global Rest Position key for the whole skeleton:**
 
-    The first time you draw a skeleton you are even creating the rest position of this structure. This pose is automatically stored and you can recall it on a the vertices.
+    The first time you draw a skeleton you are also creating the *rest position* of this structure. This pose is automatically stored and you can recall it on all the vertices.
 
     1. Select a vertex and click the right mouse button.
 
-    2. From the context menu select Set Global Rest Key.
+    2. From the context menu that opens, select **Set Global Rest Key**.
 
-    3. A new key at the current frame is created using the rest values for all the vertices.
+    3. A new keyframe at the current frame is created for all the vertices, using their *rest values*.
 
 .. tip:: **To preserve the distance between vertices while animating:**
 
-    If it is needed that the distance between two joints doesn’t change during the animation, check the Keep Distance checkbox in the tool option bar.
+    If it's required that the distance between two joints stays constant during the animation, check the **Keep Distance** checkbox in the Tool Options bar.
 
      |keep_distance|
 
-.. tip:: **To set keys on all vertices at the same time:**
+.. tip:: **To Set Keyframes on all vertices at the same time:**
 
-    By default when you move a vertex in Animate mode, you set a key frame just for this selected vertex. For setting a key frame, simultaneously for all the vertices of the skeleton, just moving one of them, check the Global Key checkbox.
+    By default when you move a vertex in **Animate** mode, you set a keyframe just for this selected vertex. For setting a keyframe simultaneously for all the vertices of the skeleton, when just moving one of them, check the **Global Key** checkbox.
 
-.. tip:: **To set a key for a vertex which hasn’t changed position:**
+.. tip:: **To Set a Keyframe for a vertex which hasn’t changed position:**
 
-    1. Select the vertex for which you want to create a key.
+    1. Select the vertex for which you want to create a keyframe.
 
     2. Click the right mouse button.
 
-    3. Select the Set Key option from the context menu that opens.
+    3. Select the **Set Key** option from the context menu that opens.
 
-.. tip:: **To set a key for all the skeleton vertices which hasn’t changed position:**
+.. tip:: **To Set a Keyframe for all the skeleton vertices which hasn’t changed position:**
 
     1. Select a skeleton vertex.
 
     2. Click the right mouse button.
 
-    3. Select the Set Global Key option from the context menu that opens.
+    3. Select the **Set Global Key** option from the context menu that opens.
 
 .. tip:: **To animate the Stacking Order of a vertex:**
 
@@ -375,15 +376,15 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     1. Select the vertex you wish to animate.
 
-    2. Write the value of the Stacking Order you wish to assign to the vertex, into the SO text field of the tool options bar.
+    2. Input the **Stacking Order** value you wish to assign to the vertex into the **SO** text field in the Tool Options bar.
 
-     .. note:: Plastic stacking order is a per vertex characteristic, you have to define the value you need for each vertex you are interested in. The default value is 0 for all the vertices and can be modified freely using positive or negative values as needed.
+     .. note:: Plastic stacking order is a *per vertex* characteristic, you have to define the value you wish for each vertex required. The default value is 0 for all vertices, and can be modified freely using positive or negative values as needed.
 
 .. tip:: **To define an Angle Bounds for a vertex:**
 
-    1. Select the vertex you want assign an Angle Bound.
+    1. Select the desired vertex.
 
-    2. Set a bound for the vertex rotation,setting a minimum and a maximum rotation value inserting the values in the relevant fields.
+    2. Set the minimum and maximum **Angle Bounds** values for the vertex rotation.
 
 
 .. _defining_rigidity_for_a_plastic_mesh:
