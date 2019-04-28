@@ -4,7 +4,7 @@ Create animations using Plastic tool
 ====================================
 Plastic is a powerful tool (|plastic|) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it's applied to, creating smooth animations.
 
- |plastic_tool_example|
+|plastic_tool_example|
 
 
 .. _using_plastic_tool:
@@ -26,7 +26,7 @@ The first step for using Plastic is creating a mesh for the Xsheet column (or Ti
 
 The Mesh level can be seen as *purple* column/layer created when the button **Create Mesh** of the **Plastic** tool is pressed.
 
- |create_mesh|
+|create_mesh|
 
 The mesh is the real object that the Plastic tool modifies when a plastic skeleton is animated. For this reason all the elements, that are going to be animated by the Plastic tool, need a mesh. 
 
@@ -106,7 +106,7 @@ Edit a Plastic mesh
 -------------------
 The mesh created using the **Create Mesh** button can be edited in several ways. It's possible to: Move a mesh point, Swap, Collapse, Split and Cut the mesh by its edges. 
 
- |edit_mesh_mode|
+|edit_mesh_mode|
 
 **Swap** an edge if you want to change the shape of a mesh triangle; **Collapse** an edge if you want to join the ends of the edge; **Split** an edge if you want to increase the density of the mesh at any given point; **Cut** the mesh if you want to duplicate an edge to have the possibility, for example, to create a hole in the mesh and be able to animate it.
 
@@ -134,7 +134,7 @@ The mesh created using the **Create Mesh** button can be edited in several ways.
 
     3. Choose the **Swap Edge** command.
 
- |swap-collapse-split_edge|
+    |swap-collapse-split_edge|
 
 .. tip:: **To collapse an edge of the mesh:**
 
@@ -160,7 +160,7 @@ The mesh created using the **Create Mesh** button can be edited in several ways.
 
     3. Choose the **Cut Mesh** command.
 
-|cut_mesh|
+    |cut_mesh|
 
 
 .. _building_a_plastic_skeleton:
@@ -169,7 +169,7 @@ Building a Plastic skeleton
 ---------------------------
 The Plastic skeleton is a control structure linked to a mesh level that provides handles for deforming/animating the chosen elements of the Xsheet/Timeline.
 
- |build_skeleton_mode|
+|build_skeleton_mode|
 
 
 .. tip:: **To create a Plastic skeleton:**
@@ -182,11 +182,11 @@ The Plastic skeleton is a control structure linked to a mesh level that provides
  
     4. Move the mouse pointer on the Viewer. A small red square is now visible near the tip of the cursor. 
 
- |build_skeleton|
+     |build_skeleton|
 
     5. In the Viewer click (to set in place) or click and drag (to adjust its positioning) to place the first vertex. A *purple* square is now visible in the Viewer.
 
-.. note:: The first time you release the mouse button, you are setting the position of the parent of all the hierarchy, *the Root vertex*. This vertex differs visually from the others vertices: its square is solid while the others are hollow in the middle, giving a visual hint for determining the right hierarchical order in the skeleton chains. The **Root vertex** will be *static* in **Animate** mode, but it can still be moved while in **Build Skeleton** mode by selecting it and dragging.
+     .. note:: The first time you release the mouse button, you are setting the position of the parent of all the hierarchy, *the Root vertex*. This vertex differs visually from the others vertices: its square is solid while the others are hollow in the middle, giving a visual hint for determining the right hierarchical order in the skeleton chains. The **Root vertex** will be *static* in **Animate** mode, but it can still be moved while in **Build Skeleton** mode by selecting it and dragging.
 
     6. Move to the position where you want to add the second vertex and click or click and drag to place it. An *orange* line with a black border will connect the two vertices.
 
@@ -199,7 +199,7 @@ Using multiple skeletons on a mesh level
 ----------------------------------------
 Every mesh level uses at least one skeleton for animating, but this is just the easier configuration for working: a mesh level can have multiple skeletons active at different frames for building more complex animations: like a character turn-around, or for animating a level with multiple drawings of different shapes. Every time the drawings change in shape, there a new ad-hoc skeleton structure can be built with the number of vertices needed and placed in the right positions.
 
- |multiple_skeletons|
+|multiple_skeletons|
 
 
 .. tip:: **To add a new skeleton on a mesh level**
@@ -285,7 +285,7 @@ While drawing the skeleton, or when finished to drawing it, some adjustments to 
 
     2. From the context menu that appears select the Copy Skeleton option.
 
- |copy_skeleton|
+     |copy_skeleton|
 
 .. tip:: **To paste a skeleton:**
 
@@ -295,7 +295,7 @@ While drawing the skeleton, or when finished to drawing it, some adjustments to 
 
     3. Click the rigth mouse button and select the Paste Skeleton option.
 
-.. note:: Pasting the skeleton on an already existing one will end up in losing the old structure and all its animations. This outcome can be reverted to the previous state using the Undo command.
+     .. note:: Pasting the skeleton on an already existing one will end up in losing the old structure and all its animations. This outcome can be reverted to the previous state using the Undo command.
 
 
 .. _animating_plastic_elements:
@@ -304,7 +304,7 @@ Animating Plastic elements
 --------------------------
 Creating an animation in Plastic is quite an easy task: just select the vertices and move them to the desired position at a specific frame and an animation key frame will be created. Playback the sequence to check the results.
 
- |animate_mode|
+|animate_mode|
 
 
 .. tip:: **To animate Plastic elements:**
@@ -331,7 +331,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     3. A new key at the current frame is created using the rest values for the selected vertex.
 
- |set_keys|
+     |set_keys|
  
 .. tip:: **To set a Global rest position key for the whole skeleton:**
 
@@ -347,8 +347,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     If it is needed that the distance between two joints doesn’t change during the animation, check the Keep Distance checkbox in the tool option bar.
 
- |keep_distance|
-
+     |keep_distance|
 
 .. tip:: **To set keys on all vertices at the same time:**
 
@@ -378,7 +377,7 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
     2. Write the value of the Stacking Order you wish to assign to the vertex, into the SO text field of the tool options bar.
 
-.. note:: Plastic stacking order is a per vertex characteristic, you have to define the value you need for each vertex you are interested in. The default value is 0 for all the vertices and can be modified freely using positive or negative values as needed.
+     .. note:: Plastic stacking order is a per vertex characteristic, you have to define the value you need for each vertex you are interested in. The default value is 0 for all the vertices and can be modified freely using positive or negative values as needed.
 
 .. tip:: **To define an Angle Bounds for a vertex:**
 
@@ -393,7 +392,7 @@ Defining Rigidity for a Plastic mesh
 ------------------------------------
 In many occasions it may be required that certain portions of a mesh that's being animated using the Plastic tool, preserve their shape even if following the overall transformations of the whole element, simulating a more rigid structure, or part of it. To achieve this kind of effect a Rigidity value can be painted directly on the mesh.
 
- |paint_rigid_mode|
+|paint_rigid_mode|
 
 When activating the Paint Rigid mode in the tool Plastic options bar, a specific drawing tool become available. In the main viewer a red circle is visible near the tip of the mouse pointer, the size of the circle is the size of the brush you are going to use for painting the rigidity on the mesh.
 
@@ -411,7 +410,7 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 
     6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to red where painted. Now the red areas behave as rigid portions of the mesh.
 
- |paint_rigid_options_rigid|
+     |paint_rigid_options_rigid|
 
 .. tip:: **To modify, correct, erase rigidity on a mesh:**
 
@@ -427,7 +426,7 @@ When activating the Paint Rigid mode in the tool Plastic options bar, a specific
 
     6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to green where painted. Now the green areas behave as flexible portions of the mesh.
 
- |paint_rigid_options_flex|
+     |paint_rigid_options_flex|
 
 .. note:: The default colour of a mesh is green; it means that the whole mesh is flexible. The red colour is used to point out the rigid areas of the mesh (if any was defined). But if a mesh is all painted in red colour it behaves as a flexible one.
 
@@ -438,26 +437,26 @@ Displaying Plastic elements and properties
 ------------------------------------------
 While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the main viewer. Clicking the right mouse button on the main viewer while the Plastic tool is active brings up a context menu. There are four checkboxes that sets the display property for the Mesh, the Rigidity, the SO (Stacking Order) and the Skeleton Onion Skin.
 
- |display_options|
+|display_options|
  
 If the Show Mesh is enabled the mesh will be visible as a wire frame triangulated shape.
 
- |display_options_mesh|
+|display_options_mesh|
 
 
 If the Show Rigidity is enabled, a continuous green shape will show the flexible areas while red areas showing the rigid portions.
 
- |display_options_rigidity|
+|display_options_rigidity|
 
 
 If the Show SO is enabled a grey shading shows the Stacking Order values of the vertices, lighter areas are on top, while darker ones are behind.
 
- |display_options_so|
+|display_options_so|
 
 
 If the Show Skeleton Onion Skin is enabled, then the ghost of the skeleton at the selected frames is displayed at incremental levels of transparency.
 
- |display_options_onion_skin|
+|display_options_onion_skin|
 
 
 All this information can be displayed at once (checking all the options) giving an overall description of the vertices state.
@@ -483,7 +482,7 @@ For building interesting and complex animations it could be useful and time savi
 
     6. Do the same procedure of point 5 on the small square on the right of the Plastic modified level that was used as target for the link. Select the number of the skeleton vertex that has to be used as target reference point for the link. Into the main viewer the standard level moves to overlap the position of the hook point selected as reference to the position of the skeleton vertex selected on the Plastic modified level.
 
-.. note:: A mirror procedure can be used for linking a Plastic modified level to a standard Toonz level.
+     .. note:: A mirror procedure can be used for linking a Plastic modified level to a standard Toonz level.
 
 .. tip:: **To link Plastic modified levels**
 
@@ -510,7 +509,7 @@ The keys into the Function Editor are more ed, giving you the chance for fine-tu
 
 When, in the Function Editor Browser, you open the folder of a column that has the Plastic tool applied, you can see a Plastic skeleton folder. This Plastic skeleton folder contains the Skeleton Id channel and a number of subfolders: the Root subfolder and one subfolder for each vertex of the Plastic skeleton, labeled with the name of the related vertex.
 
- |plastic_data_in_function_editor|
+|plastic_data_in_function_editor|
 
 The **Skeleton Id**  channel contains the data related to which skeleton is active at a determined frame. If the level is using multiple skeletons here are visible the switches from one skeleton to the other both as numeric values as in graphical format.
 
@@ -546,12 +545,12 @@ The general syntax is:
 For more information about the mathematical Expression usage refer to (See  :ref:`Using Interpolations Based on Expressions <using_interpolations_based_on_expressions>`  ).
 
 
-
 .. _plastic_and_subxsheets:
 
 Plastic and Sub-Xsheets
 ----------------------
 A Sub-Xsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a Sub-Xsheet is selected as starting element, all the columns in the Sub-Xsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected Sub-Xsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested Sub-Xsheet with its own mesh and skeleton).
+
 
 
 
