@@ -391,166 +391,162 @@ Creating an animation in Plastic is quite an easy task: just select the vertices
 
 Defining Rigidity for a Plastic mesh
 ------------------------------------
-In many occasions it may be required that certain portions of a mesh that's being animated using the Plastic tool, preserve their shape even if following the overall transformations of the whole element, simulating a more rigid structure, or part of it. To achieve this kind of effect a Rigidity value can be painted directly on the mesh.
+In many occasions it may be required that certain portions of a Mesh that's being animated using the Plastic tool, preserve their shape even if following the overall transformations of the whole element, simulating a more *rigid structure* or a part of it. To achieve this kind of effect a **Rigidity** value can be painted directly on the Mesh.
 
 |paint_rigid_mode|
 
-When activating the Paint Rigid mode in the tool Plastic options bar, a specific drawing tool become available. In the main viewer a red circle is visible near the tip of the mouse pointer, the size of the circle is the size of the brush you are going to use for painting the rigidity on the mesh.
+When activating the **Paint Rigid** mode in the **Plastic** Tool Options bar, a specific drawing tool becomes available. In the Viewer a *red circle* is visible near the tip of the mouse pointer, the size of the circle is the size of the brush you are going to use for painting the rigidity on the mesh.
 
-.. tip:: **To paint rigidity on a mesh:**
+.. tip:: **To paint Rigidity on a mesh:**
 
-    1. Select the mesh column in the Xsheet.
+    1. Select the mesh column/layer in the Xsheet/Timeline.
 
-    2. Choose the Plastic tool (|plastic|)
+    2. Choose the **Plastic** tool (|plastic|)
 
-    3. Set the Mode to Paint Rigid.
+    3. Set the **Mode:** to **Paint Rigid**.
 
-    4. Set the size of the brush moving the Thickness slider or writing a value into the appropriate text field.
+    4. Set the size of the brush moving the **Thickness** slider or entering a value into the text field.
 
-    5. Select Rigid from the option menu next to the Thickness slider (Rigid is the default value).
+    5. Select **Rigid** from the option menu to the right of the Thickness slider (**Rigid** is the default value).
 
-    6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to red where painted. Now the red areas behave as rigid portions of the mesh.
+    6. Move the cursor on the Viewer and start painting on the selected Mesh. The colour of the mesh will change to *red* where painted. Now the *red* areas behave as *rigid* portions of the Mesh.
 
      |paint_rigid_options_rigid|
 
-.. tip:: **To modify, correct, erase rigidity on a mesh:**
+.. tip:: **To modify, correct, erase Rigidity on a mesh:**
 
-    1. Select the mesh column in the Xsheet.
+    1. Select the mesh column/layer in the Xsheet/Timeline.
 
-    2. Choose the Plastic tool (|plastic|)
+    2. Choose the **Plastic** tool (|plastic|)
 
-    3. Set the Mode to Paint Rigid.
+    3. Set the **Mode:** to **Paint Rigid**.
 
-    4. Set the size of the brush moving the Thickness slider or writing a value into the appropriate text field.
+    4. Set the size of the brush moving the **Thickness** slider or entering a value into the text field.
 
-    5. Select Flex from the option menu next to the Thickness slider (Rigid is the default value).
+    5. Select **Flex** from the option menu to the right of the Thickness slider.
 
-    6. Move the cursor on the main viewer and start painting on the selected mesh. The colour of the mesh will change to green where painted. Now the green areas behave as flexible portions of the mesh.
+    6. Move the cursor on the Viewer and start painting on the selected Mesh. The colour of the mesh will change to *green* where painted. Now the *green* areas behave as *flexible* portions of the Mesh.
 
      |paint_rigid_options_flex|
 
-.. note:: The default colour of a mesh is green; it means that the whole mesh is flexible. The red colour is used to point out the rigid areas of the mesh (if any was defined). But if a mesh is all painted in red colour it behaves as a flexible one.
+.. note:: The default colour of a mesh is *green*; it means that the whole mesh is *flexible*. The *red* colour is used to point out the *rigid* areas of the mesh (if there are any defined). But if a mesh is all painted in red colour it behaves as a flexible one too.
 
 
 .. _displaying_plastic_elements_and_properties:
 
 Displaying Plastic elements and properties
 ------------------------------------------
-While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the main viewer. Clicking the right mouse button on the main viewer while the Plastic tool is active brings up a context menu. There are four checkboxes that sets the display property for the Mesh, the Rigidity, the SO (Stacking Order) and the Skeleton Onion Skin.
+While working with the Plastic tool there is an easy way for customizing which information have to be displayed in the Viewer. Clicking the right mouse button on the Viewer *while* the **Plastic** tool is active brings up a context menu. There are four checkboxes that set the display properties for the Mesh, the **Rigidity**, the **SO** (Stacking Order) and the **Skeleton Onion Skin**.
 
 |display_options|
  
-If the Show Mesh is enabled the mesh will be visible as a wire frame triangulated shape.
+If **Show Mesh** is enabled, the mesh will be visible as a triangulated wire frame shape.
 
 |display_options_mesh|
 
-
-If the Show Rigidity is enabled, a continuous green shape will show the flexible areas while red areas showing the rigid portions.
+If **Show Rigidity** is enabled, continuous *green* areas will show the flexibility, while *red* areas will show rigidity.
 
 |display_options_rigidity|
 
-
-If the Show SO is enabled a grey shading shows the Stacking Order values of the vertices, lighter areas are on top, while darker ones are behind.
+If **Show SO** is enabled *a grey shading* shows the Stacking Order values of the vertices, where lighter areas will be on top, and darker ones behind.
 
 |display_options_so|
 
-
-If the Show Skeleton Onion Skin is enabled, then the ghost of the skeleton at the selected frames is displayed at incremental levels of transparency.
+If **Show Skeleton Onion Skin** is enabled, ghosts of the skeleton at the selected frames will be displayed with incremental levels of transparency.
 
 |display_options_onion_skin|
 
-
-All this information can be displayed at once (checking all the options) giving an overall description of the vertices state.
+All of this information can be displayed at once (by checking all the options), giving an overall description of the vertices state.
 
 
 .. _parenting_plastic_levels_using_vertices_and_hooks:
 
 Parenting Plastic levels using vertices and hooks
 -------------------------------------------------
-For building interesting and complex animations it could be useful and time saving to create a Parent -> Children relation between standard Toonz levels and Plastic modified levels, or between Plastic modified levels, so that the children levels inherit the transformations of the parent automatically. It is always possible to link the levels using the Pegbar as target but what if something more subtler is needed as using hooks? We have already described similar techniques for OpenToonz standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool is not active on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
+For building interesting and complex animations it could be useful and time saving to create a hierarchical relationship between standard levels and Plastic modified levels, or between Plastic modified levels themselves, so that the children levels inherit the transformations of the parent automatically. It's always possible to link the levels using the column/layer center as target, but what if something more subtler is needed as using *Hooks*? We have already described similar techniques for OpenToonz standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool *is not* enabled on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
 
 .. tip:: **To link a standard level to a Plastic modified level**
 
-    1. Select in the Xsheet the level that has to be linked.
+    1. Select in the Xsheet/Timeline the level that has to be linked.
 
-    2. Use the Hook tool in the main viewer to create a hook point on the spot that will be used as pivot for the level.
+    2. Use the **Hook** tool in the Viewer to create a hook on the spot that will be used as pivot for the level.
 
-    3. Go to the Stage Schematic and select the node of the level that has to be linked. Click on the small square on its left side, and drag to one of the small squares on the right side of the Plastic modified level target of the link. Now the two levels are linked but the reference points for the link are probably wrong (by default the Pegbar centers are used).
+    3. Go to the Stage Schematic and select the node of the column/layer that has to be linked. Click on the small square on its left side, and drag to one of the small squares on the right side of the Plastic modified node target of the link. Now the two levels are linked but the reference points for the link are probably wrong (by default the column/layer centers are used).
 
     4. Hover on the small square on the left side of the node of the standard level until two small arrows (pointing up and down) appear.
 
-    5. Click on the arrows and drag to change the value in the small square. Stop when the number of the hook point that has to be used as pivot point is reached. In the main viewer the level moves using the point selected as new center.
+    5. Click on the arrows and drag to change the value in the small square. Stop when **the number of the hook point** that has to be used as pivot point is reached. In the Viewer the level moves using the chosen point as new center.
 
-    6. Do the same procedure of point 5 on the small square on the right of the Plastic modified level that was used as target for the link. Select the number of the skeleton vertex that has to be used as target reference point for the link. Into the main viewer the standard level moves to overlap the position of the hook point selected as reference to the position of the skeleton vertex selected on the Plastic modified level.
+    6. Do the same procedure of point 5 on the small square on the right of the Plastic modified node that was used as target for the link. Select **the number of the skeleton vertex** that has to be used as target reference point for the link. Into the Viewer the standard level moves to overlap the position of the hook point selected as reference to the position of the skeleton vertex selected on the Plastic modified level.
 
-     .. note:: A mirror procedure can be used for linking a Plastic modified level to a standard Toonz level.
+    .. note:: A mirror procedure can be used for linking a Plastic modified level to a standard level.
 
 .. tip:: **To link Plastic modified levels**
 
-    The procedure requires that all the levels involved and that need to be linked using determined positions, have at least one skeleton built and one of its vertices has to be positioned at the desired spot for the linking. As said the Hook tool doesn’t work on the Plastic modified levels so, for exact positioning, skeleton vertices are needed as reference points both on the source and on the target of the link.
+    The procedure requires that all the levels involved and that need to be linked using determined positions, have at least one skeleton built and one of its vertices has to be positioned at the desired spot for the linking. As said, the Hook tool doesn’t work on the Plastic modified levels so, for exact positioning, skeleton vertices are needed as reference points both on the source and on the target of the link.
 
-    1. Go to the Stage Schematic and select the node of the level that has to be linked. Click on the small square on its left side, and drag to one of the small squares on the right side of the target of the link. Now the two levels are linked but the reference points for the link are probably wrong (by default the Pegbar centers are used).
+    1. Go to the Stage Schematic and select the node of the column/layer that has to be linked. Click on the small square on its left side, and drag to one of the small squares on the right side of the target of the link. Now the two levels are linked but the reference points for the link are probably wrong (by default the column/layer centers are used).
 
-    2. Hover on the small square on the left of the node of the first level until two small arrows appear.
+    2. Hover on the small square on the left of the node of the first node until two small arrows appear.
 
-    3. Click on the arrows and drag to change the value in the small square. Stop when the number of the skeleton vertex point that has to be used as pivot point is reached. In the main viewer the level adjusts its position in respect of the new selected center.
+    3. Click on the arrows and drag to change the value in the small square. Stop when **the number of the skeleton vertex** point that has to be used as pivot point is reached. In the Viewer the level adjusts its position in respect of the new selected center.
 
-    4. Do the same procedure of point 3 on the small square on the right of the Plastic modified level that was used as target for the link. Select the number of the skeleton vertex that has to be used as target reference point for the link. Into the main viewer the first level moves to overlap the position of its selected skeleton vertex to that of the target skeleton vertex just selected.
+    4. Do the same procedure of point 3 on the small square on the right of the Plastic modified node that was used as target for the link. Select **the number of the skeleton vertex** that has to be used as target reference point for the link. Into the Viewer the first level moves to overlap the position of its selected skeleton vertex to that of the target skeleton vertex just selected.
 
 
 .. _function_editor_representation_of_plastic_data:
 
 Function Editor representation of Plastic data
 ----------------------------------------------
-While animating Plastic elements, key frames are created for the vertices of the skeleton. You can see them as standard key in the Xsheet, or you can operate on the values of each vertex into the Function Editor.
+While animating Plastic elements, keyframes are created for the vertices of the skeleton. You can see them as standard keyframes in the Xsheet/Timeline, or you can operate on the values of each vertex into the Function Editor.
 
-The keys of the Xsheet mark a key frame for the Plastic skeleton at the specified frame but don’t give any information about the number of vertices involved; they can be indifferently, one, some or all. Moving this key you can easily change the timing of the whole animation.
+The keyframess of the Xsheet/Timeline mark a keyframe for the Plastic skeleton at the specified frame, but don’t give any information about the number of vertices involved or their actual keyframed properties; they can be indifferently, one, some or all. Moving these keyframes you can easily change the timing of the whole animation.
 
-The keys into the Function Editor are more ed, giving you the chance for fine-tuning and modify each vertex animation.
+The keyframes into the Function Editor are more detailed, giving you the chance for fine-tuning and modify each vertex parameter animation.
 
-When, in the Function Editor Browser, you open the folder of a column that has the Plastic tool applied, you can see a Plastic skeleton folder. This Plastic skeleton folder contains the Skeleton Id channel and a number of subfolders: the Root subfolder and one subfolder for each vertex of the Plastic skeleton, labeled with the name of the related vertex.
+When in the Function Editor Tree, you open the folder of a column/layer that has the Plastic tool applied, you can see a **Plastic Skeleton** folder. This folder contains the **Skeleton Id** channel, the **Root** subfolder, and one subfolder *for each vertex* of the Plastic skeleton, labeled with the name of the related vertex.
 
 |plastic_data_in_function_editor|
 
-The **Skeleton Id**  channel contains the data related to which skeleton is active at a determined frame. If the level is using multiple skeletons here are visible the switches from one skeleton to the other both as numeric values as in graphical format.
+The **Skeleton Id** channel contains the data related to which skeleton is active at a certain frame. If the level is using multiple skeletons here you can see the switches from one skeleton to the other, both as numeric values and in a graphical format.
 
-The **Root**  subfolder shows all the parameters channels but only the SO (Staking Order) can be animated when this vertex is actually used as root of the skeleton 
+The **Root** subfolder shows all the parameter channels, but only the **SO** (Staking Order) parameter can be animated when this vertex is actually used as root of the skeleton 
 
-The **Vertex**  subfolders (one for each vertex of the skeleton\s), if opened, shows three parameters: Angle, Distance and SO that are used to determine the position of the vertex at every frame during the animation.
+The **Vertex** subfolders (one for each vertex of the skeletons), contain three parameters: **Angle**, **Distance** and **SO**, that are used to determine the position of the vertex at every frame during the animation.
 
-The values of these parameters can be visualized into the Function Editor as numeric values or as curves, and modified as required.
+The values of these parameters can be visualized in the Function Editor as a spreadsheet or as curves, and modified as required.
 
-.. note:: The vertices of multiple skeletons are shown as a single list and not grouped for each skeleton. In this way the animation curve of the Vertex1 is built using the animation values of the vertices named Vertex1 of all the skeletons of the mesh, so just one curve can be modified to adjust the animation of related vertices on different skeletons.
+.. note:: The vertices of multiple skeletons are shown as a single list, and *not grouped* for each skeleton. In this way the animation curve of *Vertex_1* is built using the animation values of the vertices named *Vertex_1* of all the skeletons of the mesh, so just one curve can be modified to adjust the animation of related vertices on different skeletons.
 
 
 .. _use_mathematical_expression_in_plastic_animation:
 
 Use Mathematical Expressions in Plastic Animation
 -------------------------------------------------
-To use OpenToonz mathematical expressions in the Plastic Animation, link the vertices of the skeleton to each other or to a column, pegbar or camera.
+To use OpenToonz mathematical expressions in the Plastic Animation, you can link the vertices of the skeleton to each other or to a column/layer, pegbar or camera.
 
-This allow you to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder the other moves automatically.
+This allows to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder automatically moves the other.
 
-Suppose that the main vertices of the shoulders are named shoulder_left and shoulder_right, you can link the rotation of the shoulder_left vertex to the one of the shoulder_right one setting the following expression in the expression field of the angle parameter of the shoulder_left in the Function Editor:
+Suppose that the main vertices of the shoulders are named *Shoulder_left* and *Shoulder_right*, and the Mesh is in column 2 of the Xsheet (or layer 2 of the Timeline), you can link the rotation of the *Shoulder_left* vertex to the one of the *Shoulder_right* by setting the following expression in the expression field of the **Angle** parameter of the *Shoulder_left* vertex in the Function Editor:
 
-``vertex(column_number, "Shoulder_right").angle``
+``vertex(2, "Shoulder_right").angle``
 
-If you prefer that the rotation of the left shoulder acting contrary to the one of the right one add a multiplication as following:
+If you prefer the rotation of the left shoulder to react opposite to the one of the right shoulder, you could add a multiplication as following:
 
 ``vertex(2, "Shoulder_right").angle*-1``
 
 The general syntax is:
 
-**vertex(column_number, "Vertex_name").parameter**
+**vertex(column_number, "vertex_name").parameter**
 
-For more information about the mathematical Expression usage refer to (See  :ref:`Using Interpolations Based on Expressions <using_interpolations_based_on_expressions>`  ).
+For more information about the *mathematical expressions* usage refer to (See  :ref:`Using Interpolations Based on Expressions <using_interpolations_based_on_expressions>`  ).
 
 
 .. _plastic_and_subxsheets:
 
 Plastic and Sub-Xsheets
 ----------------------
-A Sub-Xsheet is a valid object for the Plastic tool and all or some of its columns can have a mesh for animating. When a Sub-Xsheet is selected as starting element, all the columns in the Sub-Xsheet that are visible when the Create Mesh button is pressed, are taken in count for the creation of the mesh for the selected Sub-Xsheet. These levels will be visible in render and will be deformed by the mesh transformations. If, after creating the mesh, the hidden level/s are set to visible, they will behave in slightly different way: they will be deformed by the mesh transformations, but they will be shown in render only for the portions that fall into the mesh boundaries, (their visibility is restricted to the mesh area, even if they are placed into a nested Sub-Xsheet with its own mesh and skeleton).
+A Sub-Xsheet is a valid object for the Plastic tool, and all or some of its columns can have a mesh for animating. When a Sub-Xsheet is selected as a starting element, all of the columns in the Sub-Xsheet visible when the **Create Mesh** button is pressed, are taken into count for the creation of the Mesh. These levels will be visible in render and will be deformed by Mesh transformations. If, after creating the Mesh, hidden levels are set to visible, they will behave in a slightly different way: they will be deformed by Mesh transformations, but they will be shown in render *only inside the mesh boundaries* (i.e. the Mesh acts as a *mask* that determines what is visible in the rendered image, even if the newly-shown levels are placed into a nested Sub-Xsheet with its own mesh and skeleton).
 
 
 
