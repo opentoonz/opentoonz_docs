@@ -114,7 +114,7 @@ The **Skeleton** tool (|skeleton|) allows you, both, to set a hook as the pivot 
 
 Hooks have to be placed for each character model section where you want the joints to be. For example, a trunk may have five hooks, one for the head, two for the arms and two for the legs; a forearm may have two hooks, one for the elbow and one for the wrist. 
 
-When using the Hook tool (|hook|) for defining hooks for the model sections, the **Snap** option can be activated (see :ref:`Using Hooks <using_hooks>`  ). In this way it's possible to place hooks exactly in the same position of hooks already defined for other animation levels visible in the Viewer, or, in case the level is a Toonz Vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the **Tape** tool). 
+When using the **Hook** tool (|hook|) for defining hooks for the model sections, the **Snap** option can be activated (see :ref:`Using Hooks <using_hooks>`  ). In this way it's possible to place hooks exactly in the same position of hooks already defined for other animation levels visible in the Viewer, or, in case the level is a Toonz Vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the **Tape** tool). 
 
 This means that, in case the model sections are drawn in the right place, you can define perfectly overlapping hooks, so that limbs preserve their position when hooks are linked; or you can use regular shapes in Toonz Vector drawings (such as circles), to define the overlapping areas of the model limbs, and consequently place hooks exactly at their center to achieve a perfect match when hooks are linked.
 
@@ -235,7 +235,7 @@ Changing the pinned center allows for a more complex animation where fixed point
 
 .. note:: Once the *pinned center* is defined, it will remain active when animating skeleton sections both with the **Skeleton** tool (|skeleton|), and with the **Animate** tool (|animate|). To freely animate any skeleton section again, reset the pinned center information (see below).
 
-Multiple additional centers can be *temporarily pinned* at any frame in order to constrain additional joints to a specific position. Unlike the **pinned center**, **temporarily pinned** centers are *not* preserved when the current frame changes, as they are used only to define the position of the sections at a certain frame.
+Multiple additional centers can be *temporarily pinned* at any frame in order to constrain additional joints to a specific position. *Unlike the pinned center*, **temporarily pinned centers** are *not* preserved when the current frame changes, as they are used only to define the position of the sections at a certain frame.
 
 Using **temporarily pinned centers** allows for the definition of specific poses at specific frames, for example the rising of an arm by pinning the shoulder joint. 
 
