@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-16 00:23+0800\n"
+"POT-Creation-Date: 2019-02-03 10:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:5
 msgid ""
-"ToonzScript is the scripting language used in OpenToonz. The scripting "
-"usage allows to create sequences of commands avoiding to commit manpower "
-"to perform some repetitive tasks. ToonzScript is based on QtScript and is"
-" built on the stadard ECMAScript. a reference guide for the ECMAScript "
-"can be found to the following URL:"
+"ToonzScript is the scripting language used in OpenToonz. Using "
+"ToonzScript allows users to create sequences of commands, thus avoiding "
+"the need to perform repetitive tasks manually. ToonzScript is based on "
+"QtScript and is built on the ECMAScript standard. A reference guide for "
+"the ECMAScript standard can be found at the following URL:"
 msgstr ""
 
 #: ../../source/toonzscript.rst:7
@@ -37,16 +37,16 @@ msgstr ""
 #: ../../source/toonzscript.rst:9
 msgid ""
 "Several well known scripting languages are based on the ECMAScript "
-"standard like JavaScript, JScript and ActionScript. The ToonzScript "
-"syntax is similar to that of JavaScript, for this reason a good "
-"introduction to JavaScript can be very useful to understand better the "
-"ToonzScript basics."
+"standard such as JavaScript, JScript, and ActionScript. The ToonzScript "
+"syntax is similar to that of JavaScript, for this reason, a good "
+"introduction to JavaScript can be very useful to better understand "
+"ToonzScript's basics."
 msgstr ""
 
 #: ../../source/toonzscript.rst:11
 msgid ""
-"The ToonzScript page with some (rather old) examples are available at the"
-" following URL:"
+"The original ToonzScript page with some (rather old) examples is "
+"available at the following URL:"
 msgstr ""
 
 #: ../../source/toonzscript.rst:13
@@ -55,19 +55,20 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:15
 msgid ""
-"The scripts can be started using the File > Run Script command or the "
-"commands can be directly inserted in the Script Console that can be "
-"opened using the File > Open Script Console command."
+"Scripts can be run using the ``File > Run Script...`` command. "
+"Alternatively, commands can be typed and executed directly in the Script "
+"Console, which can be opened using the ``File > Open Script Console...`` "
+"command."
 msgstr ""
 
 #: ../../source/toonzscript.rst:17
 msgid ""
-"When a script is running the Script Console opens automatically and shows"
-" the scripting commands."
+"When a script is running, the Script Console will open automatically to "
+"show the commands contained within the script."
 msgstr ""
 
 #: ../../source/toonzscript.rst:23
-msgid "Files managing"
+msgid "File management"
 msgstr ""
 
 #: ../../source/toonzscript.rst:25
@@ -76,13 +77,13 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:27
 msgid ""
-"The ToonzScript file extension is .js, the scripts have to be into the "
-"``OpenToonz 1.2 stuff/library/script`` folder, to be automatically "
-"retrieved by opening the Run Script command browser."
+"The ToonzScript file extension is .js, scripts need to be in the "
+"``OpenToonz stuff/library/script`` folder, to be automatically retrieved "
+"by opening the Run Script command browser."
 msgstr ""
 
 #: ../../source/toonzscript.rst:33
-msgid "Use the Script Console"
+msgid "Using the Script Console"
 msgstr ""
 
 #: ../../source/toonzscript.rst:35
@@ -91,9 +92,9 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:37
 msgid ""
-"The Script Console allows entering directly the language commands or the "
-"drag & drop of external text files, in the latter case the drop generates"
-" a string containing the file path."
+"The Script Console allows the user to directly enter commands, "
+"additionally, dragging & dropping external text files into the console "
+"will automatically insert the path of the file(s)."
 msgstr ""
 
 #: ../../source/toonzscript.rst:39
@@ -134,8 +135,8 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:56
 msgid ""
-"When entering a path in a string all the backslashes must be doubled. "
-"Following this rule the path ``C:\\tmp\\test.jpg``  becomes "
+"When entering a path in a string, any and all backslashes must be "
+"doubled. Following this rule the path: ``C:\\tmp\\test.jpg``  becomes "
 "``C:\\\\tmp\\\\test.jpg`` ."
 msgstr ""
 
@@ -175,1084 +176,1448 @@ msgstr ""
 msgid "Commands"
 msgstr ""
 
-#: ../../source/toonzscript.rst:76
+#: ../../source/toonzscript.rst
+msgid "**print(arg1, arg2, ...)**: writes a message on console."
+msgstr ""
+
+#: ../../source/toonzscript.rst
+msgid "The print command doesn’t return the ``undefined``  value."
+msgstr ""
+
+#: ../../source/toonzscript.rst:79 ../../source/toonzscript.rst:95
+msgid "Example::"
+msgstr ""
+
+#: ../../source/toonzscript.rst
+msgid "**run(filename)**: runs the script saved in filename."
+msgstr ""
+
+#: ../../source/toonzscript.rst
 msgid ""
-"``print(arg1, arg2, ...)`` : writes a message on console. The print "
-"command doesn’t return the ``undefined``  value."
-msgstr ""
-
-#: ../../source/toonzscript.rst:78
-msgid "**Example:**"
-msgstr ""
-
-#: ../../source/toonzscript.rst:80
-msgid "print(“result=”,12*3);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:82
-msgid ""
-"``run(filename)`` : runs the script saved in filename. The relative path "
-"are referred to the folder \"<opentoonz library>/scripts/\""
-msgstr ""
-
-#: ../../source/toonzscript.rst:84 ../../source/toonzscript.rst:94
-#: ../../source/toonzscript.rst:144 ../../source/toonzscript.rst:195
-#: ../../source/toonzscript.rst:244 ../../source/toonzscript.rst:321
-#: ../../source/toonzscript.rst:390 ../../source/toonzscript.rst:421
-#: ../../source/toonzscript.rst:480 ../../source/toonzscript.rst:523
-#: ../../source/toonzscript.rst:560 ../../source/toonzscript.rst:603
-msgid "**Examples:**"
+"The relative path are referred to the folder \"<opentoonz "
+"library>/scripts/\""
 msgstr ""
 
 #: ../../source/toonzscript.rst:86
-msgid "run(“test.js”)"
+msgid "Examples::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:88
-msgid "run(“C:\\\\Users\\\\Username\\\\Tests\\\\another_test.js”)"
+#: ../../source/toonzscript.rst
+msgid "**view(image)**: allows to view an image."
 msgstr ""
 
-#: ../../source/toonzscript.rst:90
+#: ../../source/toonzscript.rst
 msgid ""
-"``view(image)`` : allows to view an image. The view command can be "
-"legally used in the following context: ``view(new Image(filename))``"
+"The view command can be legally used in the following context: ``view(new"
+" Image(filename))``"
 msgstr ""
 
-#: ../../source/toonzscript.rst:92
-msgid "``view(level)`` : allows to view a level."
+#: ../../source/toonzscript.rst
+msgid "**view(level)**: allows to view a level."
 msgstr ""
 
-#: ../../source/toonzscript.rst:96
-msgid ""
-"view(new Level(“C:\\\\OpenToonz 1.2 "
-"stuff\\\\sandbox\\\\drawings\\\\A.pli”))"
-msgstr ""
-
-#: ../../source/toonzscript.rst:98
+#: ../../source/toonzscript.rst:99
 msgid ""
 "The variable ``ToonzVersion`` can be used to check the current version of"
 " OpenToonz."
 msgstr ""
 
-#: ../../source/toonzscript.rst:104
+#: ../../source/toonzscript.rst:105
 msgid "Classes"
 msgstr ""
 
-#: ../../source/toonzscript.rst:105
+#: ../../source/toonzscript.rst:106
 msgid "For each class, the related constructor, methods and attibutes are listed."
 msgstr ""
 
-#: ../../source/toonzscript.rst:111
+#: ../../source/toonzscript.rst:112
 msgid "File path"
 msgstr ""
 
-#: ../../source/toonzscript.rst:112
+#: ../../source/toonzscript.rst:113
 msgid "contains the path of an object."
 msgstr ""
 
-#: ../../source/toonzscript.rst:114 ../../source/toonzscript.rst:175
-#: ../../source/toonzscript.rst:216 ../../source/toonzscript.rst:283
-#: ../../source/toonzscript.rst:374 ../../source/toonzscript.rst:403
-#: ../../source/toonzscript.rst:452 ../../source/toonzscript.rst:499
-#: ../../source/toonzscript.rst:542 ../../source/toonzscript.rst:585
+#: ../../source/toonzscript.rst:115 ../../source/toonzscript.rst:176
+#: ../../source/toonzscript.rst:217 ../../source/toonzscript.rst:281
+#: ../../source/toonzscript.rst:376 ../../source/toonzscript.rst:405
+#: ../../source/toonzscript.rst:453 ../../source/toonzscript.rst:500
+#: ../../source/toonzscript.rst:543 ../../source/toonzscript.rst:586
 msgid "**Constructor:**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:116
-msgid "``new FilePath(path)``"
+#: ../../source/toonzscript.rst:117
+msgid "new **FilePath**\\ (path)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:118 ../../source/toonzscript.rst:179
-#: ../../source/toonzscript.rst:220 ../../source/toonzscript.rst:287
-#: ../../source/toonzscript.rst:378 ../../source/toonzscript.rst:407
-#: ../../source/toonzscript.rst:456 ../../source/toonzscript.rst:503
-#: ../../source/toonzscript.rst:546 ../../source/toonzscript.rst:589
+#: ../../source/toonzscript.rst:119 ../../source/toonzscript.rst:180
+#: ../../source/toonzscript.rst:221 ../../source/toonzscript.rst:285
+#: ../../source/toonzscript.rst:380 ../../source/toonzscript.rst:409
+#: ../../source/toonzscript.rst:457 ../../source/toonzscript.rst:504
+#: ../../source/toonzscript.rst:547 ../../source/toonzscript.rst:590
 msgid "**Methods:**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:120
-msgid "``path2 = path.withExtension(e)``"
+#: ../../source/toonzscript.rst:121
+msgid "path2 = path.\\ **withExtension**\\ (e)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:122
-msgid "``path2 = path.withName(name)``"
+#: ../../source/toonzscript.rst:123
+msgid "path2 = path.\\ **withName**\\ (name)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:124
-msgid "``path2 = path.withParentDirectory(d)``"
+#: ../../source/toonzscript.rst:125
+msgid "path2 = path.\\ **withParentDirectory**\\ (d)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:126
-msgid "``path2 = path.concat(f)`` - where f can be a FilePath or a string"
+#: ../../source/toonzscript.rst:127
+msgid "path2 = path.\\ **concat**\\ (f) - where f can be a FilePath or a string"
 msgstr ""
 
-#: ../../source/toonzscript.rst:128
+#: ../../source/toonzscript.rst:129
 msgid ""
-"``files = path.files()`` - if path is a folder then this method returns "
-"the files inside the folder."
+"files = path.\\ **files**\\ () - if path is a folder then this method "
+"returns the files inside the folder."
 msgstr ""
 
-#: ../../source/toonzscript.rst:130 ../../source/toonzscript.rst:185
-#: ../../source/toonzscript.rst:234 ../../source/toonzscript.rst:313
-#: ../../source/toonzscript.rst:417 ../../source/toonzscript.rst:460
-#: ../../source/toonzscript.rst:507 ../../source/toonzscript.rst:550
-#: ../../source/toonzscript.rst:597
+#: ../../source/toonzscript.rst:131 ../../source/toonzscript.rst:186
+#: ../../source/toonzscript.rst:235 ../../source/toonzscript.rst:317
+#: ../../source/toonzscript.rst:419 ../../source/toonzscript.rst:461
+#: ../../source/toonzscript.rst:508 ../../source/toonzscript.rst:551
+#: ../../source/toonzscript.rst:598
 msgid "**Attributes:**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:132
-msgid "``path.extension``  - read and write attribute"
+#: ../../source/toonzscript.rst:133
+msgid "path.\\ **extension**  - read and write attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:134
-msgid "``path.name`` - read and write attribute"
+#: ../../source/toonzscript.rst:135
+msgid "path.\\ **name** - read and write attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:136
-msgid "``path.parentDirectory`` - read and write attribute"
+#: ../../source/toonzscript.rst:137
+msgid "path.\\ **parentDirectory** - read and write attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:138
-msgid "``path.lastModified`` - read only attribute"
+#: ../../source/toonzscript.rst:139
+msgid "path.\\ **lastModified** - read only attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:140
-msgid "``path.exists`` - read only attribute"
+#: ../../source/toonzscript.rst:141
+msgid "path.\\ **exists** - read only attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:142
-msgid "``path.isDirectory`` - read only attribute"
+#: ../../source/toonzscript.rst:143
+msgid "path.\\ **isDirectory** - read only attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:146
-msgid "myRoot = new FilePath(“C:\\\\Users\\\\username\\\\”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:148
-msgid "f = myRoot.concat(“tests”).concat(“name.0001.tif”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:150
-msgid "print(f.extension); // => “tif”"
-msgstr ""
-
-#: ../../source/toonzscript.rst:152
-msgid "print(f.name); // => “name”"
-msgstr ""
-
-#: ../../source/toonzscript.rst:154
-msgid "print(f.parentDirectory); // => “C:\\Users\\username\\tests”"
-msgstr ""
-
-#: ../../source/toonzscript.rst:156
-msgid ""
-"if(f.exists) print(“the file “,f,”exists”); else print(“the file "
-"“,f,”does not exist”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:158
-msgid "d = new Date().getTime() - f.lastModified.getTime();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:160
-msgid "d.setDate(d.getDate()-1);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:162
-msgid "if(f.lastModified>=d) print(“file modified in the last 24 hours);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:164
-msgid "files = myRoot.files();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:166
-msgid "for(k in files) print(files[k]); // print all files in myRoot"
-msgstr ""
-
-#: ../../source/toonzscript.rst:172
-msgid "Image"
+#: ../../source/toonzscript.rst:145 ../../source/toonzscript.rst:196
+#: ../../source/toonzscript.rst:245 ../../source/toonzscript.rst:325
+#: ../../source/toonzscript.rst:392 ../../source/toonzscript.rst:423
+#: ../../source/toonzscript.rst:481 ../../source/toonzscript.rst:524
+#: ../../source/toonzscript.rst:561 ../../source/toonzscript.rst:604
+msgid "**Examples**::"
 msgstr ""
 
 #: ../../source/toonzscript.rst:173
+msgid "Image"
+msgstr ""
+
+#: ../../source/toonzscript.rst:174
 msgid "contains an image, supported types are: tlv, pli or fullcolor."
 msgstr ""
 
-#: ../../source/toonzscript.rst:177
-msgid "``new Image()``  or ``new Image(filename)``"
+#: ../../source/toonzscript.rst:178
+msgid "new **Image**\\ ()  or new **Image**\\ (filename)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:181
+#: ../../source/toonzscript.rst:182
 msgid ""
-"``img.save(filename)`` - the file extension has to be compatible with the"
-" kind of used level"
+"img.\\ **save**\\ (filename) - the file extension has to be compatible "
+"with the kind of used level"
 msgstr ""
 
-#: ../../source/toonzscript.rst:183
-msgid "``img.load(filename)``"
+#: ../../source/toonzscript.rst:184
+msgid "img.\\ **load**\\ (filename)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:187
-msgid "``img.width``  - has value 0 if the image is a pli"
+#: ../../source/toonzscript.rst:188
+msgid "img.\\ **width**  - has value 0 if the image is a pli"
 msgstr ""
 
-#: ../../source/toonzscript.rst:189
-msgid "``img.height`` - has value 0 if the image is a pli"
+#: ../../source/toonzscript.rst:190
+msgid "img.\\ **height** - has value 0 if the image is a pli"
 msgstr ""
 
-#: ../../source/toonzscript.rst:191
-msgid "``img.dpi`` - has value 0 if the image is a pli"
+#: ../../source/toonzscript.rst:192
+msgid "img.\\ **dpi** - has value 0 if the image is a pli"
 msgstr ""
 
-#: ../../source/toonzscript.rst:193
+#: ../../source/toonzscript.rst:194
 msgid ""
-"``img.type``  - accepted values (“Empty”, “Raster”, “ToonzRaster”, "
+"img.\\ **type**  - accepted values (“Empty”, “Raster”, “ToonzRaster”, "
 "“Vector”)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:197
-msgid "img = new Image(“C:/images/basename.0003.tif”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:199 ../../source/toonzscript.rst:205
-msgid "view(img);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:201
-msgid "print(img.width,img.height,img.dpi);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:203
-msgid "img = new Image(“C:/images/name.pli”); // reads only the first frame."
-msgstr ""
-
-#: ../../source/toonzscript.rst:207
-msgid "img.save(“C:/images/name.pli”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:213
+#: ../../source/toonzscript.rst:214
 msgid "Level"
 msgstr ""
 
-#: ../../source/toonzscript.rst:214
+#: ../../source/toonzscript.rst:215
 msgid "contains a level, the supported types are: tlv, pli or fullcolor."
 msgstr ""
 
-#: ../../source/toonzscript.rst:218
-msgid "``new Level()``  or ``new Level(filename)``"
+#: ../../source/toonzscript.rst:219
+msgid "new **Level**\\ ()  or new **Level**\\ (filename)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:222
-msgid "``level.load(filename)``"
+#: ../../source/toonzscript.rst:223
+msgid "level.\\ **load**\\ (filename)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:224
+#: ../../source/toonzscript.rst:225
 msgid ""
-"``level.save(filename)`` - the file extension has to be compatible with "
-"the kind of usedlevel"
+"level.\\ **save**\\ (filename) - the file extension has to be compatible "
+"with the kind of usedlevel"
 msgstr ""
 
-#: ../../source/toonzscript.rst:226
-msgid "``level.getFrameIds()`` - lists the names of all the frames"
+#: ../../source/toonzscript.rst:227
+msgid "level.\\ **getFrameIds**\\ () - lists the names of all the frames"
 msgstr ""
 
-#: ../../source/toonzscript.rst:228
-msgid "``level.getFrame(frameId)`` - retrive the image of the specified frame"
-msgstr ""
-
-#: ../../source/toonzscript.rst:230
+#: ../../source/toonzscript.rst:229
 msgid ""
-"``level.getFrameByIndex(index)`` - gets the frame specified by the index "
-"value (first value of index is 0)"
+"level.\\ **getFrame**\\ (frameId) - retrive the image of the specified "
+"frame"
 msgstr ""
 
-#: ../../source/toonzscript.rst:232
+#: ../../source/toonzscript.rst:231
 msgid ""
-"``level.setFrame(frameId, image)`` - sets a frame (if the level is not "
-"empty its content and the type of image has to be compatible)"
+"level.\\ **getFrameByIndex**\\ (index) - gets the frame specified by the "
+"index value (first value of index is 0)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:236
-msgid "``level.name`` - is a read and write attribute"
-msgstr ""
-
-#: ../../source/toonzscript.rst:238
-msgid "``level.path`` - is a read and write attribute"
-msgstr ""
-
-#: ../../source/toonzscript.rst:240
-msgid "``level.frameCount`` - is a read only value"
-msgstr ""
-
-#: ../../source/toonzscript.rst:242
+#: ../../source/toonzscript.rst:233
 msgid ""
-"``level.type``  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read "
-"only value"
+"level.\\ **setFrame**\\ (frameId, image) - sets a frame (if the level is "
+"not empty its content and the type of image has to be compatible)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:246
-msgid "// This example produces a \"renumber\""
+#: ../../source/toonzscript.rst:237
+msgid "level.\\ **name** - is a read and write attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:248
-msgid "inputLevel= new Image(“C:/images/name.pli”);"
+#: ../../source/toonzscript.rst:239
+msgid "level.\\ **path** - is a read and write attribute"
 msgstr ""
 
-#: ../../source/toonzscript.rst:250 ../../source/toonzscript.rst:260
-msgid "outputLevel = new Level();"
+#: ../../source/toonzscript.rst:241
+msgid "level.\\ **frameCount** - is a read only value"
 msgstr ""
 
-#: ../../source/toonzscript.rst:252
-msgid "for(i=0;i<inputLevel.frameCount;i++)"
+#: ../../source/toonzscript.rst:243
+msgid ""
+"level.\\ **type**  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a "
+"read only value"
 msgstr ""
 
-#: ../../source/toonzscript.rst:254
-msgid "outputLevel .setFrame(i+1, inputLevel.getFrameByIndex(i));"
-msgstr ""
-
-#: ../../source/toonzscript.rst:256
-msgid "outputLevel .save(“C:/images/name.pli”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:258
-msgid "// instead this keeps the sequence of frames, but reverses the order"
-msgstr ""
-
-#: ../../source/toonzscript.rst:262
-msgid "fids = inputLevel.getFrameIds();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:264
-msgid "for(i=0;i<fids.length;i++)"
-msgstr ""
-
-#: ../../source/toonzscript.rst:266
-msgid "{"
-msgstr ""
-
-#: ../../source/toonzscript.rst:268
-msgid "img = inputLevel.getFrame(fids[fids.length-1-i]);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:270
-msgid "outputLevel.setFrame(fids[i], img);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:272 ../../source/toonzscript.rst:337
-#: ../../source/toonzscript.rst:365 ../../source/toonzscript.rst:441
-msgid "}"
-msgstr ""
-
-#: ../../source/toonzscript.rst:274
-msgid "view(outputLevel);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:280
+#: ../../source/toonzscript.rst:278
 msgid "Scene"
 msgstr ""
 
-#: ../../source/toonzscript.rst:281
+#: ../../source/toonzscript.rst:279
 msgid "contains a Toonz scene."
 msgstr ""
 
-#: ../../source/toonzscript.rst:285
-msgid "``new Scene()``  or ``new Scene(filename)``"
+#: ../../source/toonzscript.rst:283
+msgid "new **Scene**\\ ()  or **new Scene**\\ (filename)"
+msgstr ""
+
+#: ../../source/toonzscript.rst:287
+msgid "scene.\\ **load**\\ (filename)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:289
-msgid "``scene.load(filename)``"
+msgid "If the path is relative, scenes of the current project are used."
 msgstr ""
 
 #: ../../source/toonzscript.rst:291
-msgid "If the path is relative scenes of the current project are used."
+msgid "scene.\\ **save**\\ (filename)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:293
-msgid "``scene.save(filename)``"
+msgid ""
+"scene.\\ **setCel**\\ (row, col, cell) , scene.\\ **setCell**\\ (row, "
+"col, level, frameId)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:295
-msgid ""
-"``scene.setCel(row, col, cell)`` , ``scene.setCell(row, col, level, "
-"frameId)``"
+msgid "``cell``  is the kind of object returned by ``getCell()`` ."
 msgstr ""
 
 #: ../../source/toonzscript.rst:297
 msgid ""
-"``cell``  is the kind of object returned by ``getCell()`` . - The "
-"following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))`` -"
-" To delete a cell: ``scene.setCell(row, col, undefined)- cell``  is a "
-"standard JavaScript object that includes the attributes:``level``  and "
-"``fid`` , the following use is allowed: ``scene.setCell(row, col, "
-"{level:a, fid:1})-`` ``level`` can be a Level or a level name. The level "
-"has to be already in the scene.``- fid``  supports numeric values or "
-"string values as “2” or “2a”"
+"The following syntax is allowed ``scene.setCell(1, 0, "
+"scene.getCell(0,0))``"
+msgstr ""
+
+#: ../../source/toonzscript.rst:298
+msgid "To delete a cell: ``scene.setCell(row, col, undefined)``"
 msgstr ""
 
 #: ../../source/toonzscript.rst:299
 msgid ""
-"``cell. = scene.getCell(row, col)`` - returns a JavaScript object with "
-"level and fid attributes"
+"``cell``  is a standard JavaScript object that includes the "
+"attributes:``level``  and ``fid`` , the following use is allowed: "
+"``scene.setCell(row, col, {level:a, fid:1})``"
+msgstr ""
+
+#: ../../source/toonzscript.rst:300
+msgid ""
+"``level`` can be a Level or a level name. The level has to be already in "
+"the scene."
 msgstr ""
 
 #: ../../source/toonzscript.rst:301
-msgid "``scene.insertColumn(col)``"
+msgid "``fid``  supports numeric values or string values as “2” or “2a”."
 msgstr ""
 
 #: ../../source/toonzscript.rst:303
-msgid "``scene.deleteColumn(col)``"
+msgid ""
+"cell = scene.\\ **getCell**\\ (row, col) - returns a JavaScript object "
+"with level and fid attributes"
 msgstr ""
 
 #: ../../source/toonzscript.rst:305
-msgid ""
-"``scene.getLevels()`` - returns an arrray that contains all the levels "
-"belonging to the scene"
+msgid "scene.\\ **insertColumn**\\ (col)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:307
-msgid ""
-"``scene.getLevel(name)`` - returns the level basing on its name. If a "
-"level using the name specified does not exists the value ``undefined``  "
-"is returned."
+msgid "scene.\\ **deleteColumn**\\ (col)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:309
 msgid ""
-"``level = scene.newLevel(type, name)`` -  Adds a layer to the scene. Type"
-" can be \"Raster\", \"ToonzRaster\" or \"Vector\". Name must not be "
-"already 'used in the scene."
+"scene.\\ **getLevels**\\ () - returns an arrray that contains all the "
+"levels belonging to the scene"
 msgstr ""
 
 #: ../../source/toonzscript.rst:311
 msgid ""
-"``level = scene.loadLevel(name, path)`` - Load a level (mode '\"links\") "
-"in the scene. The path must exist and be an absolute path.The name must "
-"not have been already used for another level of the scene."
+"scene.\\ **getLevel**\\ (name) - returns the level basing on its name. If"
+" a level using the name specified does not exists the value ``undefined``"
+"  is returned."
+msgstr ""
+
+#: ../../source/toonzscript.rst:313
+msgid ""
+"level = scene.\\ **newLevel**\\ (type, name) -  Adds a layer to the "
+"scene. Type can be \"Raster\", \"ToonzRaster\" or \"Vector\". Name must "
+"not be already 'used in the scene."
 msgstr ""
 
 #: ../../source/toonzscript.rst:315
-msgid "``scene.frameCount``  - is a read only value"
-msgstr ""
-
-#: ../../source/toonzscript.rst:317
-msgid "``scene.columnCount``  - is a read only value"
-msgstr ""
-
-#: ../../source/toonzscript.rst:323
-msgid "filename = “test.tnz”; // relative to “+scenes”"
-msgstr ""
-
-#: ../../source/toonzscript.rst:325
-msgid "scene = new Scene(filename);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:327
-msgid "print(scene.frameCount, scene.columnCount);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:329
 msgid ""
-"// Move the cells of the first column on the first frame of the other "
-"columns."
+"level = scene.\\ **loadLevel**\\ (name, path) - Load a level (mode "
+"'\"links\") in the scene. The path must exist and be an absolute path.The"
+" name must not have been already used for another level of the scene."
 msgstr ""
 
-#: ../../source/toonzscript.rst:331
-msgid "for(r=1;r<scene.frameCount;r++) {"
+#: ../../source/toonzscript.rst:319
+msgid "scene.\\ **frameCount**  - is a read only value"
 msgstr ""
 
-#: ../../source/toonzscript.rst:333
-msgid "scene.setCell(0,r, scene.getCell(r,0));"
+#: ../../source/toonzscript.rst:321
+msgid "scene.\\ **columnCount**  - is a read only value"
 msgstr ""
 
-#: ../../source/toonzscript.rst:335
-msgid "scene.setCell(r,0,undefined); // delete the old cell."
-msgstr ""
-
-#: ../../source/toonzscript.rst:339 ../../source/toonzscript.rst:351
-msgid "scene.save(“name.tnz”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:341
-msgid "//Create a new scene."
-msgstr ""
-
-#: ../../source/toonzscript.rst:343
-msgid "scene = new Scene();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:345
-msgid "level = scene.load(“A”,”C:/levels/name.pli”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:347
-msgid "fids = level.getFrameIds();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:349
-msgid "for(i=0;i<fids.length;i++) scene.setCell(i,0,level,fids[i]);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:353
-msgid "// writes name, path and number of frames of each level in the scene."
-msgstr ""
-
-#: ../../source/toonzscript.rst:355
-msgid "scene = new Scene(“name.tnz”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:357
-msgid "levels = scene.getLevels();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:359
-msgid "for(i=0;i<levels.length;i++) {"
-msgstr ""
-
-#: ../../source/toonzscript.rst:361
-msgid "level = levels[i];"
-msgstr ""
-
-#: ../../source/toonzscript.rst:363
-msgid "print(level.name, level.path, level.frameCount);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:371
+#: ../../source/toonzscript.rst:373
 msgid "Transform"
 msgstr ""
 
-#: ../../source/toonzscript.rst:372
+#: ../../source/toonzscript.rst:374
 msgid ""
 "represents a geometric tansformation (composed by rotation, translation "
 "and scale). Used by ImageBuilder."
 msgstr ""
 
-#: ../../source/toonzscript.rst:376
-msgid "``new Transform()``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:380
-msgid "``transform.translate(dx, dy)``"
+#: ../../source/toonzscript.rst:378
+msgid "new **Transform**\\ ()"
 msgstr ""
 
 #: ../../source/toonzscript.rst:382
-msgid "``transform.rotate(degrees)``"
+msgid "transform.\\ **translate**\\ (dx, dy)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:384
-msgid "Positive values correspond to a counterclockwise rotation."
+msgid "transform.\\ **rotate**\\ (degrees)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:386
-msgid "``transform.scale(s)``"
+msgid "Positive values correspond to a counterclockwise rotation."
 msgstr ""
 
 #: ../../source/toonzscript.rst:388
-msgid "``transform.scale(sx, sy)``"
+msgid "transform.\\ **scale**\\ (s)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:392
-msgid "transform = new Transform().rotate(45).translate(10,2);"
+#: ../../source/toonzscript.rst:390
+msgid "transform.\\ **scale**\\ (sx, sy)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:394
-msgid "print(transform);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:400
+#: ../../source/toonzscript.rst:402
 msgid "ImageBuilder"
 msgstr ""
 
-#: ../../source/toonzscript.rst:401
+#: ../../source/toonzscript.rst:403
 msgid ""
 "allows to modify an image (rotate, scale, crop), or to make an over "
 "between two or more images."
 msgstr ""
 
-#: ../../source/toonzscript.rst:405
-msgid "``new ImageBuilder()``  or ``new ImageBuilder(xres, yres)``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:409
-msgid "``builder.add(img)``"
+#: ../../source/toonzscript.rst:407
+msgid "new **ImageBuilder**\\ ()  or new **ImageBuilder**\\ (xres, yres)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:411
-msgid "``builder.add(img, transform)``"
+msgid "builder.\\ **add**\\ (img)"
 msgstr ""
 
 #: ../../source/toonzscript.rst:413
+msgid "builder.\\ **add**\\ (img, transform)"
+msgstr ""
+
+#: ../../source/toonzscript.rst:415
 msgid ""
 "The component of translation of the transform means expressed in pixels "
 "for Raster and Toonz Raster levels, and in Camera Stand units for Vector "
 "levels."
 msgstr ""
 
-#: ../../source/toonzscript.rst:415
-msgid "``builder.fill(color)``"
+#: ../../source/toonzscript.rst:417
+msgid "builder.\\ **fill**\\ (color)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:419
-msgid "``builder.image``  - returns the actual result."
-msgstr ""
-
-#: ../../source/toonzscript.rst:423
-msgid "ib = new ImageBuilder(800,800);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:425
-msgid "img = new Image(“C:/levels/name.0001.tif”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:427
-msgid "scale = 1;"
-msgstr ""
-
-#: ../../source/toonzscript.rst:429
-msgid "phi = 0;"
-msgstr ""
-
-#: ../../source/toonzscript.rst:431
-msgid "for(i=0;i<20;i++) {"
-msgstr ""
-
-#: ../../source/toonzscript.rst:433
-msgid "tr = new Transform().scale(scale).translate(0,-200).rotate(phi);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:435
-msgid "ib.add(img, tr);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:437
-msgid "phi -= scale*30;"
-msgstr ""
-
-#: ../../source/toonzscript.rst:439
-msgid "scale *= 0.9;"
-msgstr ""
-
-#: ../../source/toonzscript.rst:443
-msgid "view(ib.image);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:449
-msgid "OutlineVectorizer"
+#: ../../source/toonzscript.rst:421
+msgid "builder.\\ **image**  - returns the actual result."
 msgstr ""
 
 #: ../../source/toonzscript.rst:450
+msgid "OutlineVectorizer"
+msgstr ""
+
+#: ../../source/toonzscript.rst:451
 msgid "vectorize raster images using an outline algorithm."
 msgstr ""
 
-#: ../../source/toonzscript.rst:454
-msgid "``new OutlineVectorizer()``"
+#: ../../source/toonzscript.rst:455
+msgid "new **OutlineVectorizer**\\ ()"
 msgstr ""
 
-#: ../../source/toonzscript.rst:458 ../../source/toonzscript.rst:505
+#: ../../source/toonzscript.rst:459 ../../source/toonzscript.rst:506
 msgid ""
-"``v.vectorize(level or image)`` - returns the new vectorized level (or "
-"image), supports as input: Raster or Toonz Raster images and levels."
+"v.\\ **vectorize**\\ (level or image) - returns the new vectorized level "
+"(or image), supports as input: Raster or Toonz Raster images and levels."
 msgstr ""
 
-#: ../../source/toonzscript.rst:462 ../../source/toonzscript.rst:511
-msgid "``v.accuracy``"
+#: ../../source/toonzscript.rst:463 ../../source/toonzscript.rst:512
+msgid "v.\\ **accuracy**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:464 ../../source/toonzscript.rst:513
-msgid "``v.despeckling``"
+#: ../../source/toonzscript.rst:465 ../../source/toonzscript.rst:514
+msgid "v.\\ **despeckling**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:466 ../../source/toonzscript.rst:519
-msgid "``v.preservePaintedAreas``"
+#: ../../source/toonzscript.rst:467 ../../source/toonzscript.rst:520
+msgid "v.\\ **preservePaintedAreas**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:468
-msgid "``v.cornerAdherence``"
+#: ../../source/toonzscript.rst:469
+msgid "v.\\ **cornerAdherence**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:470
-msgid "``v.cornerAngle``"
+#: ../../source/toonzscript.rst:471
+msgid "v.\\ **cornerAngle**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:472
-msgid "``v.cornerCurveRadius``"
+#: ../../source/toonzscript.rst:473
+msgid "v.\\ **cornerCurveRadius**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:474
-msgid "``v.maxColors``"
+#: ../../source/toonzscript.rst:475
+msgid "v.\\ **maxColors**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:476
-msgid "``v.transparentColor``"
+#: ../../source/toonzscript.rst:477
+msgid "v.\\ **transparentColor**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:478
-msgid "``v.toneThreshold``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:482 ../../source/toonzscript.rst:525
-msgid "v = new OutlineVectorizer();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:484 ../../source/toonzscript.rst:527
-msgid "v.preservePaintedAreas = true;"
-msgstr ""
-
-#: ../../source/toonzscript.rst:486 ../../source/toonzscript.rst:529
-msgid "a = new Image(\"C:/Users/username/name.tif\");"
-msgstr ""
-
-#: ../../source/toonzscript.rst:488 ../../source/toonzscript.rst:531
-msgid "b = v.vectorize(a);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:490 ../../source/toonzscript.rst:533
-msgid "view(b);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:496
-msgid "CenterlineVectorizer"
+#: ../../source/toonzscript.rst:479
+msgid "v.\\ **toneThreshold**"
 msgstr ""
 
 #: ../../source/toonzscript.rst:497
+msgid "CenterlineVectorizer"
+msgstr ""
+
+#: ../../source/toonzscript.rst:498
 msgid "vectorize raster images using a centerline algorithm."
 msgstr ""
 
-#: ../../source/toonzscript.rst:501
-msgid "``new CenterlineVectorizer()``"
+#: ../../source/toonzscript.rst:502
+msgid "new **CenterlineVectorizer**\\ ()"
 msgstr ""
 
-#: ../../source/toonzscript.rst:509
-msgid "``v.threshold``"
+#: ../../source/toonzscript.rst:510
+msgid "v.\\ **threshold**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:515
-msgid "``v.maxThickness``"
+#: ../../source/toonzscript.rst:516
+msgid "v.\\ **maxThickness**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:517
-msgid "``v.thicknessCalibration``"
+#: ../../source/toonzscript.rst:518
+msgid "v.\\ **thicknessCalibration**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:521
-msgid "``v.addBorder``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:539
-msgid "Rasterizer"
+#: ../../source/toonzscript.rst:522
+msgid "v.\\ **addBorder**"
 msgstr ""
 
 #: ../../source/toonzscript.rst:540
+msgid "Rasterizer"
+msgstr ""
+
+#: ../../source/toonzscript.rst:541
 msgid "converts vector images into Raster or ToonzRaster images."
 msgstr ""
 
-#: ../../source/toonzscript.rst:544
-msgid "``new Rasterizer()``"
+#: ../../source/toonzscript.rst:545
+msgid "new **Rasterizer**\\ ()"
 msgstr ""
 
-#: ../../source/toonzscript.rst:548
-msgid "``out = r.rasterize(vimg)`` - converts to raster an image or a level"
+#: ../../source/toonzscript.rst:549
+msgid "out = r.\\ **rasterize**\\ (vimg) - converts to raster an image or a level"
 msgstr ""
 
-#: ../../source/toonzscript.rst:552
+#: ../../source/toonzscript.rst:553
 msgid ""
-"``r.colorMapped`` - if its value is set to True the generated image is of"
-" ToonzRaster type"
+"r.\\ **colorMapped** - if its value is set to True the generated image is"
+" of ToonzRaster type"
 msgstr ""
 
-#: ../../source/toonzscript.rst:554
-msgid "``r.xres``"
+#: ../../source/toonzscript.rst:555
+msgid "r.\\ **xres**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:556
-msgid "``r.yres``"
+#: ../../source/toonzscript.rst:557
+msgid "r.\\ **yres**"
 msgstr ""
 
-#: ../../source/toonzscript.rst:558
-msgid "``r.dpi``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:562
-msgid "a = new Level(\"C:\\\\Users\\\\username\\\\PLI\\\\name.pli\");"
-msgstr ""
-
-#: ../../source/toonzscript.rst:564 ../../source/toonzscript.rst:607
-msgid "r= new Rasterizer();"
-msgstr ""
-
-#: ../../source/toonzscript.rst:566
-msgid "r.xres=768; r.yres=576; r.dpi=40;"
-msgstr ""
-
-#: ../../source/toonzscript.rst:568
-msgid "b = r.rasterize(a);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:570
-msgid "b.save(“C:\\\\Users\\\\username\\\\PLI\\\\name.tif”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:572
-msgid "r.colorMapped = true"
-msgstr ""
-
-#: ../../source/toonzscript.rst:574
-msgid "c = r.rasterize(new Level(\"C:\\\\Users\\\\username\\\\PLI\\\\name.pli\"))"
-msgstr ""
-
-#: ../../source/toonzscript.rst:576
-msgid "c.save(“C:\\\\Users\\\\username\\\\PLI\\\\bimba.tlv”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:582
-msgid "Renderer"
+#: ../../source/toonzscript.rst:559
+msgid "r.\\ **dpi**"
 msgstr ""
 
 #: ../../source/toonzscript.rst:583
+msgid "Renderer"
+msgstr ""
+
+#: ../../source/toonzscript.rst:584
 msgid "renders a whole scene or part of a scene, creating levels or images."
 msgstr ""
 
-#: ../../source/toonzscript.rst:587
-msgid "``new Renderer()``"
+#: ../../source/toonzscript.rst:588
+msgid "new **Renderer**\\ ()"
 msgstr ""
 
-#: ../../source/toonzscript.rst:591
-msgid "``level = c.renderScene(scene)``"
+#: ../../source/toonzscript.rst:592
+msgid "level = c.\\ **renderScene**\\ (scene)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:593
-msgid "``image = c.renderFrame(scene, frameIndex)``"
+#: ../../source/toonzscript.rst:594
+msgid "image = c.\\ **renderFrame**\\ (scene, frameIndex)"
 msgstr ""
 
-#: ../../source/toonzscript.rst:595
+#: ../../source/toonzscript.rst:596
 msgid "frameIndex starts from 0"
 msgstr ""
 
-#: ../../source/toonzscript.rst:599
+#: ../../source/toonzscript.rst:600
 msgid ""
-"``r.columns`` (list of indices of columns to render.  e.g. r.columns = "
+"r.\\ **colum** (list of indices of columns to render.  e.g. r.columns = "
 "[0,3])"
 msgstr ""
 
-#: ../../source/toonzscript.rst:601
+#: ../../source/toonzscript.rst:602
 msgid ""
-"``r.frames`` (list of indices of frames to render.  e.g. r.frames = "
+"r.\\ **frames** (list of indices of frames to render.  e.g. r.frames = "
 "[0,1,2,3])"
 msgstr ""
 
-#: ../../source/toonzscript.rst:605
-msgid "scene = new Scene(\"testscene.tnz”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:609
-msgid "view(r.renderScene(scene ,0));"
-msgstr ""
-
-#: ../../source/toonzscript.rst:611
-msgid "r.columns = [0,2];"
-msgstr ""
-
-#: ../../source/toonzscript.rst:613
-msgid "view(r.renderScene(a,0)); // frame 1; columns 1 and 3"
-msgstr ""
-
-#: ../../source/toonzscript.rst:615
-msgid "r.frames = [0,2,4,6];"
-msgstr ""
-
-#: ../../source/toonzscript.rst:617
-msgid "output = r.renderScene(scene ); // frames 1,3,5,7; columns 1 and 3"
-msgstr ""
-
-#: ../../source/toonzscript.rst:619
-msgid "output.save(“C:\\\\Users\\\\username\\\\output\\\\name..tif”);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:621
-msgid "r.columns = [];"
-msgstr ""
-
-#: ../../source/toonzscript.rst:623
-msgid "output = r.renderScene(scene ); // frames 1,3,5,7; all columns"
-msgstr ""
-
-#: ../../source/toonzscript.rst:625
-msgid "output.save(““C:\\\\Users\\\\username\\\\output\\\\name..tif””);"
-msgstr ""
-
-#: ../../source/toonzscript.rst:631
+#: ../../source/toonzscript.rst:632
 msgid "Code examples"
 msgstr ""
 
-#: ../../source/toonzscript.rst:632
+#: ../../source/toonzscript.rst:633
 msgid "Following there are some examples of scripting code:"
 msgstr ""
 
-#: ../../source/toonzscript.rst:638
+#: ../../source/toonzscript.rst:639
 msgid "Outline vectorization"
 msgstr ""
 
-#: ../../source/toonzscript.rst:639
+#: ../../source/toonzscript.rst:640
 msgid ""
 "This brief script is an example of using the OutlineVectorizer on a "
 "single image. The script is commented, explaining what each section does:"
 msgstr ""
 
-#: ../../source/toonzscript.rst:641 ../../source/toonzscript.rst:692
-msgid "//Define the input and output folders"
+#: ../../source/toonzscript.rst:642
+msgid "//Define the input and output folders::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:645 ../../source/toonzscript.rst:694
-msgid "``dir = \"C:\\\\OpenToonz 1.2 stuff\\\\SCRIPT IMAGES IN\\\\\";``"
+#: ../../source/toonzscript.rst:650
+msgid "//Load image toad3.0001.tif from disk::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:647 ../../source/toonzscript.rst:696
-msgid "``dir2 = \"C:\\\\OpenToonz 1.2 stuff\\\\SCRIPT IMAGES OUT\\\\\";``"
+#: ../../source/toonzscript.rst:658
+msgid "//Initialize a vectorizer and specify any relevant options::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:651
-msgid "//Load image toad3.0001.tif from disk"
+#: ../../source/toonzscript.rst:672
+msgid "//Run the vectorization process and save the result::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:655
-msgid "``a = new Image(dir+\"toad3.0001.tif\");``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:657
-msgid "``print(\"loaded\",a);``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:661
-msgid "//Initialize a vectorizer and specify any relevant options"
-msgstr ""
-
-#: ../../source/toonzscript.rst:665
-msgid "``v = new OutlineVectorizer();``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:667
-msgid "``v.maxThickness = 1;``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:669
-msgid "``v.preservePaintedAreas = false;``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:671
-msgid "``v.accuracy = 10;``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:673
-msgid "``v.maxColors = 10;``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:677
-msgid "//Run the vectorization process and save the result"
-msgstr ""
-
-#: ../../source/toonzscript.rst:681
-msgid "``v.vectorize(a).save(dir2 + \"vec.pli\");``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:683
-msgid "``print(\"vectorized\");``"
-msgstr ""
-
-#: ../../source/toonzscript.rst:689
+#: ../../source/toonzscript.rst:682
 msgid "Rotating an image"
 msgstr ""
 
-#: ../../source/toonzscript.rst:690
+#: ../../source/toonzscript.rst:683
 msgid ""
 "This example explains how to load an image and then create an animation "
-"in a level, rotating the loaded frame."
+"in a level, rotating the loaded frame::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:700
-msgid "//Load the toad3.tif image"
-msgstr ""
+#~ msgid ""
+#~ "ToonzScript is the scripting language "
+#~ "used in OpenToonz. The scripting usage"
+#~ " allows to create sequences of "
+#~ "commands avoiding to commit manpower to"
+#~ " perform some repetitive tasks. ToonzScript"
+#~ " is based on QtScript and is "
+#~ "built on the stadard ECMAScript. a "
+#~ "reference guide for the ECMAScript can"
+#~ " be found to the following URL:"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:702
-msgid "``a = new Level(dir+\"toad3..tif\");``"
-msgstr ""
+#~ msgid ""
+#~ "Several well known scripting languages "
+#~ "are based on the ECMAScript standard "
+#~ "like JavaScript, JScript and ActionScript. "
+#~ "The ToonzScript syntax is similar to "
+#~ "that of JavaScript, for this reason "
+#~ "a good introduction to JavaScript can"
+#~ " be very useful to understand better"
+#~ " the ToonzScript basics."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:704
-msgid "``print(\"loaded\\n\",a);``"
-msgstr ""
+#~ msgid ""
+#~ "The ToonzScript page with some (rather"
+#~ " old) examples are available at the"
+#~ " following URL:"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:708
-msgid ""
-"//Initialization of the new objects and creation of a list containing the"
-" IDs of all the frames"
-msgstr ""
+#~ msgid ""
+#~ "The scripts can be started using "
+#~ "the File > Run Script command or"
+#~ " the commands can be directly "
+#~ "inserted in the Script Console that "
+#~ "can be opened using the File > "
+#~ "Open Script Console command."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:710
-msgid "``t = new Transform();``"
-msgstr ""
+#~ msgid ""
+#~ "When a script is running the "
+#~ "Script Console opens automatically and "
+#~ "shows the scripting commands."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:712
-msgid "``b=new Level();``"
-msgstr ""
+#~ msgid "Files managing"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:714
-msgid "``ll=a.getFrameIds();``"
-msgstr ""
+#~ msgid ""
+#~ "The ToonzScript file extension is .js,"
+#~ " the scripts have to be into "
+#~ "the ``OpenToonz 1.2 stuff/library/script`` "
+#~ "folder, to be automatically retrieved by"
+#~ " opening the Run Script command "
+#~ "browser."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:718
-msgid ""
-"//For cycle that builds the new level. At each step a new frame is added "
-"to the level b using the setFrame method that adds the myimage frame "
-"rotated of a step degrees value using the ib ImageBuilder"
-msgstr ""
+#~ msgid "Use the Script Console"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:720
-msgid "``for(i=0; i<a.frameCount;i++)``"
-msgstr ""
+#~ msgid ""
+#~ "The Script Console allows entering "
+#~ "directly the language commands or the"
+#~ " drag & drop of external text "
+#~ "files, in the latter case the drop"
+#~ " generates a string containing the "
+#~ "file path."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:722
-msgid "``{``"
-msgstr ""
+#~ msgid ""
+#~ "When entering a path in a string"
+#~ " all the backslashes must be doubled."
+#~ " Following this rule the path "
+#~ "``C:\\tmp\\test.jpg``  becomes ``C:\\\\tmp\\\\test.jpg``"
+#~ " ."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:724
-msgid "``ib = new ImageBuilder();``"
-msgstr ""
+#~ msgid ""
+#~ "``print(arg1, arg2, ...)`` : writes a"
+#~ " message on console. The print "
+#~ "command doesn’t return the ``undefined``  "
+#~ "value."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:726
-msgid "``step=360/a.frameCount;``"
-msgstr ""
+#~ msgid "**Example:**"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:728
-msgid "``myimage=a.getFrame(ll[i]);``"
-msgstr ""
+#~ msgid "print(“result=”,12*3);"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:730
-msgid "``b.setFrame(ll[i], ib.add(myimage, t.rotate(step)).image);``"
-msgstr ""
+#~ msgid ""
+#~ "``run(filename)`` : runs the script "
+#~ "saved in filename. The relative path "
+#~ "are referred to the folder \"<opentoonz"
+#~ " library>/scripts/\""
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:732
-msgid "``print(\"building frame \" + ll[i] + \"\\n\");``"
-msgstr ""
+#~ msgid "**Examples:**"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:734
-msgid "``}``"
-msgstr ""
+#~ msgid "run(“test.js”)"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:736
-msgid "//Save the result prompting a status message"
-msgstr ""
+#~ msgid "run(“C:\\\\Users\\\\Username\\\\Tests\\\\another_test.js”)"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:738
-msgid "``b.save(dir2+\"rottoad3..tif\")``"
-msgstr ""
+#~ msgid ""
+#~ "``view(image)`` : allows to view an "
+#~ "image. The view command can be "
+#~ "legally used in the following context:"
+#~ " ``view(new Image(filename))``"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:740
-msgid "``print(\"saved\\n\",b);``"
-msgstr ""
+#~ msgid "``view(level)`` : allows to view a level."
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:742
-msgid "//Shows the resulting level in a flipbook window."
-msgstr ""
+#~ msgid ""
+#~ "view(new Level(“C:\\\\OpenToonz 1.2 "
+#~ "stuff\\\\sandbox\\\\drawings\\\\A.pli”))"
+#~ msgstr ""
 
-#: ../../source/toonzscript.rst:744
-msgid "``view(b);``"
-msgstr ""
+#~ msgid "``new FilePath(path)``"
+#~ msgstr ""
+
+#~ msgid "``path2 = path.withExtension(e)``"
+#~ msgstr ""
+
+#~ msgid "``path2 = path.withName(name)``"
+#~ msgstr ""
+
+#~ msgid "``path2 = path.withParentDirectory(d)``"
+#~ msgstr ""
+
+#~ msgid "``path2 = path.concat(f)`` - where f can be a FilePath or a string"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``files = path.files()`` - if path "
+#~ "is a folder then this method "
+#~ "returns the files inside the folder."
+#~ msgstr ""
+
+#~ msgid "``path.extension``  - read and write attribute"
+#~ msgstr ""
+
+#~ msgid "``path.name`` - read and write attribute"
+#~ msgstr ""
+
+#~ msgid "``path.parentDirectory`` - read and write attribute"
+#~ msgstr ""
+
+#~ msgid "``path.lastModified`` - read only attribute"
+#~ msgstr ""
+
+#~ msgid "``path.exists`` - read only attribute"
+#~ msgstr ""
+
+#~ msgid "``path.isDirectory`` - read only attribute"
+#~ msgstr ""
+
+#~ msgid "myRoot = new FilePath(“C:\\\\Users\\\\username\\\\”);"
+#~ msgstr ""
+
+#~ msgid "f = myRoot.concat(“tests”).concat(“name.0001.tif”);"
+#~ msgstr ""
+
+#~ msgid "print(f.extension); // => “tif”"
+#~ msgstr ""
+
+#~ msgid "print(f.name); // => “name”"
+#~ msgstr ""
+
+#~ msgid "print(f.parentDirectory); // => “C:\\Users\\username\\tests”"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "if(f.exists) print(“the file “,f,”exists”); "
+#~ "else print(“the file “,f,”does not "
+#~ "exist”);"
+#~ msgstr ""
+
+#~ msgid "d = new Date().getTime() - f.lastModified.getTime();"
+#~ msgstr ""
+
+#~ msgid "d.setDate(d.getDate()-1);"
+#~ msgstr ""
+
+#~ msgid "if(f.lastModified>=d) print(“file modified in the last 24 hours);"
+#~ msgstr ""
+
+#~ msgid "files = myRoot.files();"
+#~ msgstr ""
+
+#~ msgid "for(k in files) print(files[k]); // print all files in myRoot"
+#~ msgstr ""
+
+#~ msgid "``new Image()``  or ``new Image(filename)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``img.save(filename)`` - the file extension"
+#~ " has to be compatible with the "
+#~ "kind of used level"
+#~ msgstr ""
+
+#~ msgid "``img.load(filename)``"
+#~ msgstr ""
+
+#~ msgid "``img.width``  - has value 0 if the image is a pli"
+#~ msgstr ""
+
+#~ msgid "``img.height`` - has value 0 if the image is a pli"
+#~ msgstr ""
+
+#~ msgid "``img.dpi`` - has value 0 if the image is a pli"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``img.type``  - accepted values (“Empty”, "
+#~ "“Raster”, “ToonzRaster”, “Vector”)"
+#~ msgstr ""
+
+#~ msgid "img = new Image(“C:/images/basename.0003.tif”);"
+#~ msgstr ""
+
+#~ msgid "view(img);"
+#~ msgstr ""
+
+#~ msgid "print(img.width,img.height,img.dpi);"
+#~ msgstr ""
+
+#~ msgid "img = new Image(“C:/images/name.pli”); // reads only the first frame."
+#~ msgstr ""
+
+#~ msgid "img.save(“C:/images/name.pli”);"
+#~ msgstr ""
+
+#~ msgid "``new Level()``  or ``new Level(filename)``"
+#~ msgstr ""
+
+#~ msgid "``level.load(filename)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``level.save(filename)`` - the file extension"
+#~ " has to be compatible with the "
+#~ "kind of usedlevel"
+#~ msgstr ""
+
+#~ msgid "``level.getFrameIds()`` - lists the names of all the frames"
+#~ msgstr ""
+
+#~ msgid "``level.getFrame(frameId)`` - retrive the image of the specified frame"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``level.getFrameByIndex(index)`` - gets the "
+#~ "frame specified by the index value "
+#~ "(first value of index is 0)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``level.setFrame(frameId, image)`` - sets a"
+#~ " frame (if the level is not "
+#~ "empty its content and the type of"
+#~ " image has to be compatible)"
+#~ msgstr ""
+
+#~ msgid "``level.name`` - is a read and write attribute"
+#~ msgstr ""
+
+#~ msgid "``level.path`` - is a read and write attribute"
+#~ msgstr ""
+
+#~ msgid "``level.frameCount`` - is a read only value"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``level.type``  (“Empty”, ”Raster”, ”ToonzRaster”,"
+#~ " ”Vector”) - is a read only "
+#~ "value"
+#~ msgstr ""
+
+#~ msgid "// This example produces a \"renumber\""
+#~ msgstr ""
+
+#~ msgid "inputLevel= new Image(“C:/images/name.pli”);"
+#~ msgstr ""
+
+#~ msgid "outputLevel = new Level();"
+#~ msgstr ""
+
+#~ msgid "for(i=0;i<inputLevel.frameCount;i++)"
+#~ msgstr ""
+
+#~ msgid "outputLevel .setFrame(i+1, inputLevel.getFrameByIndex(i));"
+#~ msgstr ""
+
+#~ msgid "outputLevel .save(“C:/images/name.pli”);"
+#~ msgstr ""
+
+#~ msgid "// instead this keeps the sequence of frames, but reverses the order"
+#~ msgstr ""
+
+#~ msgid "fids = inputLevel.getFrameIds();"
+#~ msgstr ""
+
+#~ msgid "for(i=0;i<fids.length;i++)"
+#~ msgstr ""
+
+#~ msgid "{"
+#~ msgstr ""
+
+#~ msgid "img = inputLevel.getFrame(fids[fids.length-1-i]);"
+#~ msgstr ""
+
+#~ msgid "outputLevel.setFrame(fids[i], img);"
+#~ msgstr ""
+
+#~ msgid "}"
+#~ msgstr ""
+
+#~ msgid "view(outputLevel);"
+#~ msgstr ""
+
+#~ msgid "``new Scene()``  or ``new Scene(filename)``"
+#~ msgstr ""
+
+#~ msgid "``scene.load(filename)``"
+#~ msgstr ""
+
+#~ msgid "If the path is relative scenes of the current project are used."
+#~ msgstr ""
+
+#~ msgid "``scene.save(filename)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``scene.setCel(row, col, cell)`` , "
+#~ "``scene.setCell(row, col, level, frameId)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``cell``  is the kind of object "
+#~ "returned by ``getCell()`` . - The "
+#~ "following syntax is allowed ``scene.setCell(1,"
+#~ " 0, scene.getCell(0,0))`` - To delete "
+#~ "a cell: ``scene.setCell(row, col, undefined)-"
+#~ " cell``  is a standard JavaScript "
+#~ "object that includes the attributes:``level``"
+#~ "  and ``fid`` , the following use "
+#~ "is allowed: ``scene.setCell(row, col, "
+#~ "{level:a, fid:1})-`` ``level`` can be a"
+#~ " Level or a level name. The "
+#~ "level has to be already in the "
+#~ "scene.``- fid``  supports numeric values "
+#~ "or string values as “2” or “2a”"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``cell. = scene.getCell(row, col)`` - "
+#~ "returns a JavaScript object with level"
+#~ " and fid attributes"
+#~ msgstr ""
+
+#~ msgid "``scene.insertColumn(col)``"
+#~ msgstr ""
+
+#~ msgid "``scene.deleteColumn(col)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``scene.getLevels()`` - returns an arrray "
+#~ "that contains all the levels belonging"
+#~ " to the scene"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``scene.getLevel(name)`` - returns the level"
+#~ " basing on its name. If a level"
+#~ " using the name specified does not"
+#~ " exists the value ``undefined``  is "
+#~ "returned."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``level = scene.newLevel(type, name)`` -  "
+#~ "Adds a layer to the scene. Type"
+#~ " can be \"Raster\", \"ToonzRaster\" or "
+#~ "\"Vector\". Name must not be already "
+#~ "'used in the scene."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``level = scene.loadLevel(name, path)`` - "
+#~ "Load a level (mode '\"links\") in "
+#~ "the scene. The path must exist and"
+#~ " be an absolute path.The name must"
+#~ " not have been already used for "
+#~ "another level of the scene."
+#~ msgstr ""
+
+#~ msgid "``scene.frameCount``  - is a read only value"
+#~ msgstr ""
+
+#~ msgid "``scene.columnCount``  - is a read only value"
+#~ msgstr ""
+
+#~ msgid "filename = “test.tnz”; // relative to “+scenes”"
+#~ msgstr ""
+
+#~ msgid "scene = new Scene(filename);"
+#~ msgstr ""
+
+#~ msgid "print(scene.frameCount, scene.columnCount);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "// Move the cells of the first "
+#~ "column on the first frame of the"
+#~ " other columns."
+#~ msgstr ""
+
+#~ msgid "for(r=1;r<scene.frameCount;r++) {"
+#~ msgstr ""
+
+#~ msgid "scene.setCell(0,r, scene.getCell(r,0));"
+#~ msgstr ""
+
+#~ msgid "scene.setCell(r,0,undefined); // delete the old cell."
+#~ msgstr ""
+
+#~ msgid "scene.save(“name.tnz”);"
+#~ msgstr ""
+
+#~ msgid "//Create a new scene."
+#~ msgstr ""
+
+#~ msgid "scene = new Scene();"
+#~ msgstr ""
+
+#~ msgid "level = scene.load(“A”,”C:/levels/name.pli”);"
+#~ msgstr ""
+
+#~ msgid "fids = level.getFrameIds();"
+#~ msgstr ""
+
+#~ msgid "for(i=0;i<fids.length;i++) scene.setCell(i,0,level,fids[i]);"
+#~ msgstr ""
+
+#~ msgid "// writes name, path and number of frames of each level in the scene."
+#~ msgstr ""
+
+#~ msgid "scene = new Scene(“name.tnz”);"
+#~ msgstr ""
+
+#~ msgid "levels = scene.getLevels();"
+#~ msgstr ""
+
+#~ msgid "for(i=0;i<levels.length;i++) {"
+#~ msgstr ""
+
+#~ msgid "level = levels[i];"
+#~ msgstr ""
+
+#~ msgid "print(level.name, level.path, level.frameCount);"
+#~ msgstr ""
+
+#~ msgid "``new Transform()``"
+#~ msgstr ""
+
+#~ msgid "``transform.translate(dx, dy)``"
+#~ msgstr ""
+
+#~ msgid "``transform.rotate(degrees)``"
+#~ msgstr ""
+
+#~ msgid "``transform.scale(s)``"
+#~ msgstr ""
+
+#~ msgid "``transform.scale(sx, sy)``"
+#~ msgstr ""
+
+#~ msgid "transform = new Transform().rotate(45).translate(10,2);"
+#~ msgstr ""
+
+#~ msgid "print(transform);"
+#~ msgstr ""
+
+#~ msgid "``new ImageBuilder()``  or ``new ImageBuilder(xres, yres)``"
+#~ msgstr ""
+
+#~ msgid "``builder.add(img)``"
+#~ msgstr ""
+
+#~ msgid "``builder.add(img, transform)``"
+#~ msgstr ""
+
+#~ msgid "``builder.fill(color)``"
+#~ msgstr ""
+
+#~ msgid "``builder.image``  - returns the actual result."
+#~ msgstr ""
+
+#~ msgid "ib = new ImageBuilder(800,800);"
+#~ msgstr ""
+
+#~ msgid "img = new Image(“C:/levels/name.0001.tif”);"
+#~ msgstr ""
+
+#~ msgid "scale = 1;"
+#~ msgstr ""
+
+#~ msgid "phi = 0;"
+#~ msgstr ""
+
+#~ msgid "for(i=0;i<20;i++) {"
+#~ msgstr ""
+
+#~ msgid "tr = new Transform().scale(scale).translate(0,-200).rotate(phi);"
+#~ msgstr ""
+
+#~ msgid "ib.add(img, tr);"
+#~ msgstr ""
+
+#~ msgid "phi -= scale*30;"
+#~ msgstr ""
+
+#~ msgid "scale *= 0.9;"
+#~ msgstr ""
+
+#~ msgid "view(ib.image);"
+#~ msgstr ""
+
+#~ msgid "``new OutlineVectorizer()``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``v.vectorize(level or image)`` - returns "
+#~ "the new vectorized level (or image), "
+#~ "supports as input: Raster or Toonz "
+#~ "Raster images and levels."
+#~ msgstr ""
+
+#~ msgid "``v.accuracy``"
+#~ msgstr ""
+
+#~ msgid "``v.despeckling``"
+#~ msgstr ""
+
+#~ msgid "``v.preservePaintedAreas``"
+#~ msgstr ""
+
+#~ msgid "``v.cornerAdherence``"
+#~ msgstr ""
+
+#~ msgid "``v.cornerAngle``"
+#~ msgstr ""
+
+#~ msgid "``v.cornerCurveRadius``"
+#~ msgstr ""
+
+#~ msgid "``v.maxColors``"
+#~ msgstr ""
+
+#~ msgid "``v.transparentColor``"
+#~ msgstr ""
+
+#~ msgid "``v.toneThreshold``"
+#~ msgstr ""
+
+#~ msgid "v = new OutlineVectorizer();"
+#~ msgstr ""
+
+#~ msgid "v.preservePaintedAreas = true;"
+#~ msgstr ""
+
+#~ msgid "a = new Image(\"C:/Users/username/name.tif\");"
+#~ msgstr ""
+
+#~ msgid "b = v.vectorize(a);"
+#~ msgstr ""
+
+#~ msgid "view(b);"
+#~ msgstr ""
+
+#~ msgid "``new CenterlineVectorizer()``"
+#~ msgstr ""
+
+#~ msgid "``v.threshold``"
+#~ msgstr ""
+
+#~ msgid "``v.maxThickness``"
+#~ msgstr ""
+
+#~ msgid "``v.thicknessCalibration``"
+#~ msgstr ""
+
+#~ msgid "``v.addBorder``"
+#~ msgstr ""
+
+#~ msgid "``new Rasterizer()``"
+#~ msgstr ""
+
+#~ msgid "``out = r.rasterize(vimg)`` - converts to raster an image or a level"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``r.colorMapped`` - if its value is "
+#~ "set to True the generated image is"
+#~ " of ToonzRaster type"
+#~ msgstr ""
+
+#~ msgid "``r.xres``"
+#~ msgstr ""
+
+#~ msgid "``r.yres``"
+#~ msgstr ""
+
+#~ msgid "``r.dpi``"
+#~ msgstr ""
+
+#~ msgid "a = new Level(\"C:\\\\Users\\\\username\\\\PLI\\\\name.pli\");"
+#~ msgstr ""
+
+#~ msgid "r= new Rasterizer();"
+#~ msgstr ""
+
+#~ msgid "r.xres=768; r.yres=576; r.dpi=40;"
+#~ msgstr ""
+
+#~ msgid "b = r.rasterize(a);"
+#~ msgstr ""
+
+#~ msgid "b.save(“C:\\\\Users\\\\username\\\\PLI\\\\name.tif”);"
+#~ msgstr ""
+
+#~ msgid "r.colorMapped = true"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "c = r.rasterize(new "
+#~ "Level(\"C:\\\\Users\\\\username\\\\PLI\\\\name.pli\"))"
+#~ msgstr ""
+
+#~ msgid "c.save(“C:\\\\Users\\\\username\\\\PLI\\\\bimba.tlv”);"
+#~ msgstr ""
+
+#~ msgid "``new Renderer()``"
+#~ msgstr ""
+
+#~ msgid "``level = c.renderScene(scene)``"
+#~ msgstr ""
+
+#~ msgid "``image = c.renderFrame(scene, frameIndex)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``r.columns`` (list of indices of "
+#~ "columns to render.  e.g. r.columns = "
+#~ "[0,3])"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``r.frames`` (list of indices of frames"
+#~ " to render.  e.g. r.frames = "
+#~ "[0,1,2,3])"
+#~ msgstr ""
+
+#~ msgid "scene = new Scene(\"testscene.tnz”);"
+#~ msgstr ""
+
+#~ msgid "view(r.renderScene(scene ,0));"
+#~ msgstr ""
+
+#~ msgid "r.columns = [0,2];"
+#~ msgstr ""
+
+#~ msgid "view(r.renderScene(a,0)); // frame 1; columns 1 and 3"
+#~ msgstr ""
+
+#~ msgid "r.frames = [0,2,4,6];"
+#~ msgstr ""
+
+#~ msgid "output = r.renderScene(scene ); // frames 1,3,5,7; columns 1 and 3"
+#~ msgstr ""
+
+#~ msgid "output.save(“C:\\\\Users\\\\username\\\\output\\\\name..tif”);"
+#~ msgstr ""
+
+#~ msgid "r.columns = [];"
+#~ msgstr ""
+
+#~ msgid "output = r.renderScene(scene ); // frames 1,3,5,7; all columns"
+#~ msgstr ""
+
+#~ msgid "output.save(““C:\\\\Users\\\\username\\\\output\\\\name..tif””);"
+#~ msgstr ""
+
+#~ msgid "//Define the input and output folders"
+#~ msgstr ""
+
+#~ msgid "``dir = \"C:\\\\OpenToonz 1.2 stuff\\\\SCRIPT IMAGES IN\\\\\";``"
+#~ msgstr ""
+
+#~ msgid "``dir2 = \"C:\\\\OpenToonz 1.2 stuff\\\\SCRIPT IMAGES OUT\\\\\";``"
+#~ msgstr ""
+
+#~ msgid "//Load image toad3.0001.tif from disk"
+#~ msgstr ""
+
+#~ msgid "``a = new Image(dir+\"toad3.0001.tif\");``"
+#~ msgstr ""
+
+#~ msgid "``print(\"loaded\",a);``"
+#~ msgstr ""
+
+#~ msgid "//Initialize a vectorizer and specify any relevant options"
+#~ msgstr ""
+
+#~ msgid "``v = new OutlineVectorizer();``"
+#~ msgstr ""
+
+#~ msgid "``v.maxThickness = 1;``"
+#~ msgstr ""
+
+#~ msgid "``v.preservePaintedAreas = false;``"
+#~ msgstr ""
+
+#~ msgid "``v.accuracy = 10;``"
+#~ msgstr ""
+
+#~ msgid "``v.maxColors = 10;``"
+#~ msgstr ""
+
+#~ msgid "//Run the vectorization process and save the result"
+#~ msgstr ""
+
+#~ msgid "``v.vectorize(a).save(dir2 + \"vec.pli\");``"
+#~ msgstr ""
+
+#~ msgid "``print(\"vectorized\");``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example explains how to load "
+#~ "an image and then create an "
+#~ "animation in a level, rotating the "
+#~ "loaded frame."
+#~ msgstr ""
+
+#~ msgid "//Load the toad3.tif image"
+#~ msgstr ""
+
+#~ msgid "``a = new Level(dir+\"toad3..tif\");``"
+#~ msgstr ""
+
+#~ msgid "``print(\"loaded\\n\",a);``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "//Initialization of the new objects and"
+#~ " creation of a list containing the"
+#~ " IDs of all the frames"
+#~ msgstr ""
+
+#~ msgid "``t = new Transform();``"
+#~ msgstr ""
+
+#~ msgid "``b=new Level();``"
+#~ msgstr ""
+
+#~ msgid "``ll=a.getFrameIds();``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "//For cycle that builds the new "
+#~ "level. At each step a new frame"
+#~ " is added to the level b using"
+#~ " the setFrame method that adds the"
+#~ " myimage frame rotated of a step "
+#~ "degrees value using the ib ImageBuilder"
+#~ msgstr ""
+
+#~ msgid "``for(i=0; i<a.frameCount;i++)``"
+#~ msgstr ""
+
+#~ msgid "``{``"
+#~ msgstr ""
+
+#~ msgid "``ib = new ImageBuilder();``"
+#~ msgstr ""
+
+#~ msgid "``step=360/a.frameCount;``"
+#~ msgstr ""
+
+#~ msgid "``myimage=a.getFrame(ll[i]);``"
+#~ msgstr ""
+
+#~ msgid "``b.setFrame(ll[i], ib.add(myimage, t.rotate(step)).image);``"
+#~ msgstr ""
+
+#~ msgid "``print(\"building frame \" + ll[i] + \"\\n\");``"
+#~ msgstr ""
+
+#~ msgid "``}``"
+#~ msgstr ""
+
+#~ msgid "//Save the result prompting a status message"
+#~ msgstr ""
+
+#~ msgid "``b.save(dir2+\"rottoad3..tif\")``"
+#~ msgstr ""
+
+#~ msgid "``print(\"saved\\n\",b);``"
+#~ msgstr ""
+
+#~ msgid "//Shows the resulting level in a flipbook window."
+#~ msgstr ""
+
+#~ msgid "``view(b);``"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-16 00:23+0800\n"
+"POT-Creation-Date: 2019-02-03 10:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,49 +68,49 @@ msgid ""
 "Projects <managing_projects>`  )."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:20
+#: ../../source/using_the_version_control.rst:21
 msgid "Installing the Version Control System"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:21
+#: ../../source/using_the_version_control.rst:22
 msgid ""
 "The version control system works as a client/server tool: the server "
 "stores all of your files in a central repository and a client is used to "
 "get files to your working copy and put file changes to the server."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:23
+#: ../../source/using_the_version_control.rst:24
 msgid "Installing the Version Control Server"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:25
+#: ../../source/using_the_version_control.rst:26
 msgid ""
 "It is possible to configure a computer in your local network as the "
 "version control server by installing Subversion 1.5 or later, or it is "
 "possible to use an on-line service (e.g. Assembla)."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:27
+#: ../../source/using_the_version_control.rst:28
 msgid ""
 "The starting page for downloading Subversion is "
 "``http://subversion.apache.org/`` ."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:29
+#: ../../source/using_the_version_control.rst:30
 msgid "Contact your system administrator to configure a version control server."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:34
+#: ../../source/using_the_version_control.rst:36
 msgid "Installing the Version Control Client on Windows"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:35
+#: ../../source/using_the_version_control.rst:37
 msgid ""
 "On Windows the setup of a version control client requires the download "
 "and installation of the Subversion client 1.5 or later."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:37
+#: ../../source/using_the_version_control.rst:39
 msgid ""
 "The starting page for downloading Subversion is "
 "``http://subversion.apache.org/``  where you should look for the "
@@ -118,37 +118,37 @@ msgid ""
 "Windows. We suggest the use of CollabNet Subversion Command-Line Client."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:39
-#: ../../source/using_the_version_control.rst:55
+#: ../../source/using_the_version_control.rst:41
+#: ../../source/using_the_version_control.rst:58
 msgid ""
 "If an older Subversion release is used some version control features "
 "might not work."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:44
+#: ../../source/using_the_version_control.rst:47
 msgid "Installing the Version Control Client on Macintosh"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:45
+#: ../../source/using_the_version_control.rst:48
 msgid ""
 "On Macintosh the setup of a version control client depends on the OS "
 "version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:47
+#: ../../source/using_the_version_control.rst:50
 msgid ""
 "If the OS is Snow Leopard (version 10.6) or later the setup requires no "
 "installation as the version control client is included in the operating "
 "system."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:49
+#: ../../source/using_the_version_control.rst:52
 msgid ""
 "If the OS is older than Snow Leopard the setup requires the download and "
 "installation of the Subversion client 1.5 or later."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:51
+#: ../../source/using_the_version_control.rst:54
 msgid ""
 "The starting page for downloading Subversion is "
 "``http://subversion.apache.org/``  where you should look for the "
@@ -157,7 +157,7 @@ msgid ""
 "Binaries related to your Mac OS X version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:53
+#: ../../source/using_the_version_control.rst:56
 msgid ""
 "After the installation is very important to check where Subversion is "
 "installed, as this information is needed to configure the version control"
@@ -165,48 +165,39 @@ msgid ""
 "installation process and by default is usually ``/opt/subversion/bin`` ."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:61
+#: ../../source/using_the_version_control.rst:64
 msgid "Configuring the Version Control in OpenToonz"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:62
+#: ../../source/using_the_version_control.rst:65
 msgid ""
 "Once the version control server is configured and the version control "
 "client is installed it is possible to configure OpenToonz in order to use"
 " the version control."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:64
+#: ../../source/using_the_version_control.rst:81
 msgid ""
 "In OpenToonz the version control information is stored in the "
-"``versioncontrol.xml``  file located in the ``OpenToonz 1.x "
-"stuff\\config`` folder. By default the file has the following content:"
+"``versioncontrol.xml``  file located in the ``OpenToonz stuff\\config`` "
+"folder. By default the file has the following content:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:66
-msgid ""
-"``<?xml version=\"1.0\" encoding=\"UTF-8\"?><Repositories><!-- REMOVE "
-"ENTIRELY THIS LINE TO ENABLE "
-"SVN<repository><name>PutYourRepositoryName</name><localPath>putYourWorkingCopyPath</localPath><repoPath>putYourRepositoryPath</repoPath></repository>REMOVE"
-" ENTIRELY THIS LINE TO ENABLE SVN --> "
-"<svnPath></svnPath></Repositories>``"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:68
+#: ../../source/using_the_version_control.rst:83
 msgid ""
 "By editing the file with a text editor (e.g. Notepad) it is possible to "
 "set the information for the central repository and the working copy "
 "location."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:70
+#: ../../source/using_the_version_control.rst:85
 msgid ""
 "Together with the configuration file, version control users must be "
 "defined by editing the ``permissions.xml``  file located in the "
-"``OpenToonz 1.x stuff\\config`` folder."
+"``OpenToonz stuff\\config`` folder."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:72
+#: ../../source/using_the_version_control.rst:87
 msgid ""
 "The ``versioncontrol.xml``  and ``permissions.xml``  file have to be "
 "well-formed, and so cannot contain an opening tag without its related "
@@ -215,51 +206,42 @@ msgid ""
 "the original version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:74
+#: ../../source/using_the_version_control.rst:89
 msgid "**To configure the version control in OpenToonz:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:76
-#: ../../source/using_the_version_control.rst:150
+#: ../../source/using_the_version_control.rst:91
+#: ../../source/using_the_version_control.rst:134
 msgid ""
-"Open the ``versioncontrol.xml``  file located in the ``OpenToonz 1.x "
+"Open the ``versioncontrol.xml``  file located in the ``OpenToonz "
 "stuff\\config`` folder with a text editor (e.g. Notepad)."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:78
-msgid "Delete the line"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:86
-msgid "and the line"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:96
-msgid "<name>PutYourRepositoryName</name>"
+#: ../../source/using_the_version_control.rst:93
+msgid ""
+"2. Delete the line ``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN`` and "
+"the line ``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``"
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:98
 msgid ""
-"type between the tags the name you want the repository to have in the "
-"OpenToonz browser."
+"3. In the line ``<name>PutYourRepositoryName</name>`` type between the "
+"tags the name you want the repository to have in the OpenToonz browser."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:100
-#: ../../source/using_the_version_control.rst:110
-msgid "In the line"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:108
+#: ../../source/using_the_version_control.rst:102
 msgid ""
-"type between the tags the path to where you want the working copy to be "
+"4. In the line ``<localPath>putYourWorkingCopyPath</localPath>`` type "
+"between the tags the path to where you want the working copy to be "
 "located on the local computer (e.g. ``C:\\myworkingcopy\\``  for Windows "
 "or ``/myworkingcopy``  for Macintosh)."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:118
+#: ../../source/using_the_version_control.rst:106
 msgid ""
-"type between the tags the URL of the central repository according to how "
-"it was defined on the version control server (e.g. "
+"5. In the line ``<repoPath>putYourRepositoryPath</repoPath>`` type "
+"between the tags the URL of the central repository according to how it "
+"was defined on the version control server (e.g. "
 "``http://10.0.0.1/mySVNrepository/``  for a repository located in the "
 "local network; ``file:///C:/mySVNrepository``  for a repository located "
 "in the local Windows computer or ``file:///mySVNrepository``  for a "
@@ -268,36 +250,40 @@ msgid ""
 "based repository)."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:120
+#: ../../source/using_the_version_control.rst:110
 msgid ""
 "For Macintosh only, if the OS is older than Snow Leopard and you "
 "installed the Subversion client 1.5 or later, in the line"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:128
+#: ../../source/using_the_version_control.rst:111
+msgid "``<svnPath></svnPath>``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:112
 msgid ""
 "type between the tags the path to the folder where Subversion is "
 "installed (this information is displayed in the last page of the "
 "installation process and by default is ``/opt/subversion/bin`` )."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:130
-#: ../../source/using_the_version_control.rst:162
+#: ../../source/using_the_version_control.rst:114
+#: ../../source/using_the_version_control.rst:148
 msgid "Save the ``versioncontrol.xml``  file."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:133
+#: ../../source/using_the_version_control.rst:117
 msgid "**To define the version control users:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:135
-#: ../../source/using_the_version_control.rst:167
+#: ../../source/using_the_version_control.rst:119
+#: ../../source/using_the_version_control.rst:153
 msgid ""
-"Open the ``permissions.xml``  file located in the ``OpenToonz 1.x "
+"Open the ``permissions.xml``  file located in the ``OpenToonz "
 "stuff\\config`` folder with a text editor (e.g. Notepad)."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:137
+#: ../../source/using_the_version_control.rst:127
 msgid ""
 "In the user section define a user and assign him the version control user"
 " name and password as configured on the server. For example to assign to "
@@ -305,23 +291,28 @@ msgid ""
 "following user:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:148
+#: ../../source/using_the_version_control.rst:129
+#: ../../source/using_the_version_control.rst:164
+msgid "Save the ``permissions.xml``  file."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:132
 msgid "**To define several version control repositories:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:152
-msgid "Add after the lines defining a repository the following lines"
+#: ../../source/using_the_version_control.rst:144
+msgid "Add after the lines defining a repository the following lines:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:160
+#: ../../source/using_the_version_control.rst:146
 msgid "and set the related information."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:165
+#: ../../source/using_the_version_control.rst:151
 msgid "**To define users for different repositories:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:169
+#: ../../source/using_the_version_control.rst:162
 msgid ""
 "In the user section assign to a user the version control user name and "
 "password as configured on the server of the second repository. For "
@@ -331,45 +322,45 @@ msgid ""
 "will look like the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:183
+#: ../../source/using_the_version_control.rst:170
 msgid "Initializing the Version Control in OpenToonz"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:184
+#: ../../source/using_the_version_control.rst:171
 msgid ""
 "Before starting to use the version control system, it has to be "
 "initialized by setting an option in the Preferences dialog and restarting"
 " OpenToonz."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:186
+#: ../../source/using_the_version_control.rst:173
 msgid ""
 "At this point the repository will be displayed in the Toonz browser, and "
 "you will be able to start using it."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:188
+#: ../../source/using_the_version_control.rst:175
 msgid "**To initialize the version control system:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:190
+#: ../../source/using_the_version_control.rst:177
 msgid ""
 "In OpenToonz open the Preferences > Version Control dialog and activate "
 "the Enable Version Control option."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:192
+#: ../../source/using_the_version_control.rst:179
 msgid ""
 "If the version control is not correctly installed or the configuration "
 "file is not correctly defined, activating the option will prompt a "
 "warning message."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:194
+#: ../../source/using_the_version_control.rst:181
 msgid "Quit and restart OpenToonz."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:196
+#: ../../source/using_the_version_control.rst:183
 msgid ""
 "In the OpenToonz browser look for the repository at the end of the folder"
 " tree, named as you defined in the configuration file; right-click it and"
@@ -377,15 +368,15 @@ msgid ""
 "the central repository and the local working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:202
+#: ../../source/using_the_version_control.rst:189
 msgid "Using the Version Control System"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:203
+#: ../../source/using_the_version_control.rst:190
 msgid "|Toonz71_573|"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:205
+#: ../../source/using_the_version_control.rst:192
 msgid ""
 "The central repository and the local working copy are displayed in the "
 "OpenToonz browser at the end of the folder tree as one single folder. By "
@@ -393,7 +384,7 @@ msgid ""
 "folders and files."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:207
+#: ../../source/using_the_version_control.rst:194
 msgid ""
 "When a folder is selected in the folder tree a refresh operation occurs "
 "automatically to check the status of the folder and its content. As this "
@@ -402,46 +393,46 @@ msgid ""
 " disabled."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:209
+#: ../../source/using_the_version_control.rst:196
 msgid ""
 "If several repositories are defined, each of them will be displayed with "
 "the name you assigned to each."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:211
+#: ../../source/using_the_version_control.rst:198
 msgid "**To disable the automatic refresh for folder content:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:213
+#: ../../source/using_the_version_control.rst:200
 msgid "Choose File > Preferences > Version Control."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:215
+#: ../../source/using_the_version_control.rst:202
 msgid "Deactivate the Automatically Refresh Folder Contents option."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:217
+#: ../../source/using_the_version_control.rst:204
 msgid "**To manually refresh a folder content visualization:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:219
+#: ../../source/using_the_version_control.rst:206
 msgid ""
 "Right-click the folder icon in the folder tree and choose Refresh from "
 "the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:225
+#: ../../source/using_the_version_control.rst:212
 msgid "Getting and Putting Folders and Files"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:226
+#: ../../source/using_the_version_control.rst:213
 msgid ""
 "The basic operations in the version control system involves getting files"
 " from the central repository to the local working copy; and putting files"
 " you modified from the local working copy to the central repository."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:228
+#: ../../source/using_the_version_control.rst:215
 msgid ""
 "In case you are putting folders, in the dialog that opens you can check "
 "which files and folders contained by the selected folder have to be put "
@@ -450,7 +441,7 @@ msgid ""
 "the performed modifications."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:230
+#: ../../source/using_the_version_control.rst:217
 msgid ""
 "In case you are getting or putting scene files (TNZ format), in the "
 "dialog that opens it is possible to check the Get Scene Contents or the "
@@ -458,11 +449,11 @@ msgid ""
 "materials used in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:232
+#: ../../source/using_the_version_control.rst:219
 msgid "|Toonz71_574|"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:234
+#: ../../source/using_the_version_control.rst:221
 msgid ""
 "The first time you get a folder not available in the working copy (folder"
 " with grey icon), you get the files contained in the folder, but not the "
@@ -471,74 +462,74 @@ msgid ""
 "and the related contents."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:236
+#: ../../source/using_the_version_control.rst:223
 msgid ""
 "**To get the latest version of a folder or a file from the central "
 "repository to the local working copy:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:238
+#: ../../source/using_the_version_control.rst:225
 msgid ""
 "Right-click the folder icon in the folder tree, or the file icon in the "
 "browser, and choose Get from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:240
+#: ../../source/using_the_version_control.rst:227
 msgid ""
 "In the dialog that opens if you are getting a scene file (TNZ format) "
 "activate the Get Scene Contents if you want to get the files used in the "
 "scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:242
-#: ../../source/using_the_version_control.rst:347
+#: ../../source/using_the_version_control.rst:229
+#: ../../source/using_the_version_control.rst:335
 msgid "Click the Update button."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:244
+#: ../../source/using_the_version_control.rst:231
 msgid ""
 "**To put your modified version of a folder or a file from the local "
 "working copy to the central repository:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:246
+#: ../../source/using_the_version_control.rst:233
 msgid ""
 "Right-click the folder icon in the folder tree, or the file icon in the "
 "browser, and choose Put from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:248
+#: ../../source/using_the_version_control.rst:235
 msgid "In the dialog that opens do any of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:250
+#: ../../source/using_the_version_control.rst:237
 msgid ""
 "If you are putting a folder, check which files and folders contained by "
 "the selected folder have to be put in the central repository."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:252
+#: ../../source/using_the_version_control.rst:239
 msgid ""
 "If you are putting a scene file (TNZ format) activate the Put Scene "
 "Contents if you want to put the files used in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:254
+#: ../../source/using_the_version_control.rst:241
 msgid "Type a comment if required and click the Put button."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:260
+#: ../../source/using_the_version_control.rst:247
 msgid "Editing Files"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:261
+#: ../../source/using_the_version_control.rst:248
 msgid ""
 "When using a version control system in order to modify files you have to "
 "Edit them before loading them into OpenToonz; if files are not in edit "
 "mode, they can only be loaded as read-only."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:263
+#: ../../source/using_the_version_control.rst:250
 msgid ""
 "The Edit operation unlocks the file for the user running the command, "
 "preventing other users sharing the same central repository from unlocking"
@@ -547,7 +538,7 @@ msgid ""
 "operation."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:265
+#: ../../source/using_the_version_control.rst:252
 msgid ""
 "When editing a scene file (TNZ format), in the dialog that opens it is "
 "possible to check the Edit Scene Contents option in order to edit the "
@@ -557,18 +548,18 @@ msgid ""
 "the level will be displayed with a forbidden icon in the level strip."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:267
+#: ../../source/using_the_version_control.rst:254
 msgid ""
 "The Edit Frame Range command is available as well to edit only the needed"
 " frames of a Toonz animation level. This way different users can work at "
 "the same time on different frame ranges of the same animation level."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:269
+#: ../../source/using_the_version_control.rst:256
 msgid "If you want to release files from the editing mode, you can unlock them."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:271
+#: ../../source/using_the_version_control.rst:258
 msgid ""
 "Files are in read-only mode, or in locked mode in case a user is editing "
 "them, by setting the file system read-only attribute. Using the OS "
@@ -576,83 +567,83 @@ msgid ""
 " may cause serious inconsistencies in the version control system."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:273
+#: ../../source/using_the_version_control.rst:260
 msgid "**To edit an updated file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:275
-#: ../../source/using_the_version_control.rst:283
+#: ../../source/using_the_version_control.rst:262
+#: ../../source/using_the_version_control.rst:270
 msgid "Right-click the file and choose Edit from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:277
-#: ../../source/using_the_version_control.rst:285
+#: ../../source/using_the_version_control.rst:264
+#: ../../source/using_the_version_control.rst:272
 msgid ""
 "In the dialog that opens if you are editing a scene file (TNZ format) "
 "activate the Edit Scene Contents if you want to edit the files used in "
 "the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:279
-#: ../../source/using_the_version_control.rst:299
+#: ../../source/using_the_version_control.rst:266
+#: ../../source/using_the_version_control.rst:286
 msgid "Type a comment if required and click the Edit button."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:281
+#: ../../source/using_the_version_control.rst:268
 msgid ""
 "**To edit a file that is older than the version available in the central "
 "repository:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:287
+#: ../../source/using_the_version_control.rst:274
 msgid "Type a comment if required and do one of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:289
+#: ../../source/using_the_version_control.rst:276
 msgid ""
 "Click the Get and Edit button to get the latest version of the files and "
 "edit them."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:291
+#: ../../source/using_the_version_control.rst:278
 msgid ""
 "Click the Edit button to edit the version of the files that is currently "
 "in your local working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:293
+#: ../../source/using_the_version_control.rst:280
 msgid "**To edit only the needed frames of a Toonz level file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:295
+#: ../../source/using_the_version_control.rst:282
 msgid "Right-click the file and choose Edit Frame Range from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:297
+#: ../../source/using_the_version_control.rst:284
 msgid "In the dialog that opens set the frame range you want to edit."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:301
+#: ../../source/using_the_version_control.rst:288
 msgid "**To release a file from the editing mode:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:303
+#: ../../source/using_the_version_control.rst:290
 msgid "Right-click the file and choose Unlock from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:305
+#: ../../source/using_the_version_control.rst:292
 msgid "**To check the editing state of a locked file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:307
+#: ../../source/using_the_version_control.rst:294
 msgid "Right-click the file and choose Edit Info from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:312
+#: ../../source/using_the_version_control.rst:300
 msgid "Retrieving File Revisions"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:313
+#: ../../source/using_the_version_control.rst:301
 msgid ""
 "The main advantage of using a version control system is that the history "
 "of the revisions for every file in the production database is "
@@ -660,7 +651,7 @@ msgid ""
 "easily previous versions of any file."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:315
+#: ../../source/using_the_version_control.rst:303
 msgid ""
 "To retrieve older file versions it is possible to use the Get Revision "
 "command. When used on a single file it displays a timeline with all the "
@@ -671,26 +662,26 @@ msgid ""
 "files version you want to retrieve."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:317
+#: ../../source/using_the_version_control.rst:305
 msgid "|Toonz71_575|"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:319
+#: ../../source/using_the_version_control.rst:307
 msgid ""
 "When getting a revision of a scene file (TNZ format), in the dialog that "
 "opens it is possible to check the Get Scene Contents option in order to "
 "get the revisions of the materials used in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:321
+#: ../../source/using_the_version_control.rst:309
 msgid "**To retrieve an older revision of a file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:323
+#: ../../source/using_the_version_control.rst:311
 msgid "Right-click the file and choose Get Revision from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:325
+#: ../../source/using_the_version_control.rst:313
 msgid ""
 "In the dialog that opens look for the file version you are interested in "
 "and select it; if you are editing a scene file (TNZ format) activate the "
@@ -698,56 +689,56 @@ msgid ""
 "the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:327
+#: ../../source/using_the_version_control.rst:315
 msgid "Do one of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:329
+#: ../../source/using_the_version_control.rst:317
 msgid "Click the Get Selected Revision button to get the selected file version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:331
+#: ../../source/using_the_version_control.rst:319
 msgid "Click the Get Last Revision button to get the latest file version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:333
+#: ../../source/using_the_version_control.rst:321
 msgid "**To retrieve an older revision of a selection of multiple files:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:335
+#: ../../source/using_the_version_control.rst:323
 msgid ""
 "Right-click any of the selected file and choose Get Revision from the "
 "menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:337
+#: ../../source/using_the_version_control.rst:325
 msgid ""
 "In the dialog that opens specify how much older the version of the files "
 "you want to retrieve has to be by doing one of the following: "
 "|Toonz71_576|"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:339
+#: ../../source/using_the_version_control.rst:327
 msgid "Specify a time in hours and minutes."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:341
+#: ../../source/using_the_version_control.rst:329
 msgid "Specify a number of days."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:343
+#: ../../source/using_the_version_control.rst:331
 msgid "Specify a number of weeks."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:345
+#: ../../source/using_the_version_control.rst:333
 msgid "Specify and exact date and time."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:352
+#: ../../source/using_the_version_control.rst:341
 msgid "Understanding the Folder and File Icons"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:353
+#: ../../source/using_the_version_control.rst:342
 msgid ""
 "According to the folder and file icons you can tell if the folder or the "
 "file in the working copy is updated or not to the latest version "
@@ -755,122 +746,339 @@ msgid ""
 "users and locked."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:355
+#: ../../source/using_the_version_control.rst:344
 msgid ""
 "If the file browser displays files in a list, the information about the "
 "version control status is displayed in the  column labeled Version "
 "Control."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:357
+#: ../../source/using_the_version_control.rst:346
 msgid "For the folders the following icons are used:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:359
+#: ../../source/using_the_version_control.rst:348
 msgid ""
-"A grey folder icon ( |Toonz71_577| ) is used for folders available only "
-"in the repository. You can use the Get command to copy them to the local "
+"A grey folder icon (|grey_folder|) is used for folders available only in "
+"the repository. You can use the Get command to copy them to the local "
 "working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:363
+#: ../../source/using_the_version_control.rst:352
 msgid ""
-"A colored folder icon with a yellow mark ( |Toonz71_578| ) is used when "
-"the folder contents in the working copy is not up to date and does not "
-"match to the folder contents in the repository: this is the case when "
-"there are modified or new files in the working copy or there are modified"
-" or new files in the repository. You can use the Get command to copy them"
-" to the local working copy."
+"A colored folder icon with a yellow mark "
+"(|colored_folder_with_yellow_mark|) is used when the folder contents in "
+"the working copy is not up to date and does not match to the folder "
+"contents in the repository: this is the case when there are modified or "
+"new files in the working copy or there are modified or new files in the "
+"repository. You can use the Get command to copy them to the local working"
+" copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:365
+#: ../../source/using_the_version_control.rst:354
 msgid ""
-"A colored folder icon with a green mark ( |Toonz71_579| ) is used when "
-"the folder contents in the working copy is up to date and matches to the "
-"folder contents in the repository."
+"A colored folder icon with a green mark "
+"(|colored_folder_with_green_mark|) is used when the folder contents in "
+"the working copy is up to date and matches to the folder contents in the "
+"repository."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:367
+#: ../../source/using_the_version_control.rst:356
 msgid ""
-"A colored folder with a plus mark ( |Toonz71_580| ) is used for folders "
-"available only in the working copy. You can use the Put command to copy "
-"them to the local working copy."
+"A colored folder with a plus mark (|colored_folder_with_plus_mark|) is "
+"used for folders available only in the working copy. You can use the Put "
+"command to copy them to the local working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:369
+#: ../../source/using_the_version_control.rst:358
 msgid "For the files the following icons are used:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:371
+#: ../../source/using_the_version_control.rst:360
 msgid ""
 "A generic grey icon is used for files available only in the repository. "
 "You can use the Get command to copy them to the local working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:373
+#: ../../source/using_the_version_control.rst:362
 msgid ""
-"The file icon with a grey check mark ( |Toonz71_581| ) is used when files"
-" in the working copy are up to date and match to the latest version "
+"The file icon with a grey check mark (|grey_mark_check|) is used when "
+"files in the working copy are up to date and match to the latest version "
 "available in the repository. The files are in read-only mode, and they "
 "have to be in edit mode in order to be modified."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:377
+#: ../../source/using_the_version_control.rst:364
 msgid ""
-"The file icon with a green check mark ( |Toonz71_582| ) is used when "
+"The file icon with a green check mark (|green_mark_check|) is used when "
 "files in the working copy are in edit mode."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:379
+#: ../../source/using_the_version_control.rst:366
 msgid ""
-"The file icon with a green check mark on a grey and white background ( "
-"|Toonz71_583| ) is used when files in the working copy are partially in "
-"edit mode."
+"The file icon with a green check mark on a grey and white background "
+"(|half_grey_mark_check|) is used when files in the working copy are "
+"partially in edit mode."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:381
+#: ../../source/using_the_version_control.rst:368
 msgid ""
-"The file icon with a red exclamation mark ( |Toonz71_584| ) is used when "
-"files in the working copy are newer than the latest version available in "
+"The file icon with a red exclamation mark (|red_exclamation_mark_check|) "
+"is used when files in the working copy are newer than the latest version "
+"available in the repository, because you modified them. You can use the "
+"Put command to copy them to the central repository."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:370
+msgid ""
+"The file icon with a red exclamation mark on a grey and white background "
+"(|half_grey_red_exclamation_mark_check|) is used when files in the "
+"working copy are partially newer than to the latest version available in "
 "the repository, because you modified them. You can use the Put command to"
 " copy them to the central repository."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:383
+#: ../../source/using_the_version_control.rst:372
 msgid ""
-"The file icon with a red exclamation mark on a grey and white background "
-"( |Toonz71_585| ) is used when files in the working copy are partially "
-"newer than to the latest version available in the repository, because you"
-" modified them. You can use the Put command to copy them to the central "
-"repository."
+"The file icon with an orange exclamation mark "
+"(|orange_exclamation_mark_check|) is used when files in the working copy "
+"are older than the latest version available in the repository, because "
+"someone modified them. You can use the Get command to copy them to the "
+"local working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:385
+#: ../../source/using_the_version_control.rst:374
 msgid ""
-"The file icon with an orange exclamation mark ( |Toonz71_586| ) is used "
-"when files in the working copy are older than the latest version "
-"available in the repository, because someone modified them. You can use "
-"the Get command to copy them to the local working copy."
+"The file icon with an lock mark (|lock_mark|) is used when files are in "
+"edit mode by other users. For these files it is only possible to check "
+"the information about the user editing the file."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:387
+#: ../../source/using_the_version_control.rst:376
 msgid ""
-"The file icon with an lock mark ( |Toonz71_587| ) is used when files are "
-"in edit mode by other users. For these files it is only possible to check"
-" the information about the user editing the file."
+"The file icon with a lock mark on a grey and white background "
+"(|half_grey_lock_mark|) is used when files are partially in edit mode by "
+"other users."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:389
+#: ../../source/using_the_version_control.rst:378
 msgid ""
-"The file icon with a lock mark on a grey and white background ( "
-"|Toonz71_588| ) is used when files are partially in edit mode by other "
-"users."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:391
-msgid ""
-"The file icon with the + mark ( |Toonz71_589| ) is used for files "
+"The file icon with the + mark (|blue_plus_mark|) is used for files "
 "available only in the working copy. You can use the Put command to copy "
 "them to the local working copy."
 msgstr ""
+
+#~ msgid ""
+#~ "In OpenToonz the version control "
+#~ "information is stored in the "
+#~ "``versioncontrol.xml``  file located in the"
+#~ " ``OpenToonz 1.x stuff\\config`` folder. By"
+#~ " default the file has the following"
+#~ " content:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``<?xml version=\"1.0\" "
+#~ "encoding=\"UTF-8\"?><Repositories><!-- REMOVE ENTIRELY "
+#~ "THIS LINE TO ENABLE "
+#~ "SVN<repository><name>PutYourRepositoryName</name><localPath>putYourWorkingCopyPath</localPath><repoPath>putYourRepositoryPath</repoPath></repository>REMOVE"
+#~ " ENTIRELY THIS LINE TO ENABLE SVN "
+#~ "--> <svnPath></svnPath></Repositories>``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Together with the configuration file, "
+#~ "version control users must be defined"
+#~ " by editing the ``permissions.xml``  file"
+#~ " located in the ``OpenToonz 1.x "
+#~ "stuff\\config`` folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the ``versioncontrol.xml``  file located"
+#~ " in the ``OpenToonz 1.x stuff\\config`` "
+#~ "folder with a text editor (e.g. "
+#~ "Notepad)."
+#~ msgstr ""
+
+#~ msgid "Delete the line"
+#~ msgstr ""
+
+#~ msgid "and the line"
+#~ msgstr ""
+
+#~ msgid "<name>PutYourRepositoryName</name>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "type between the tags the name you"
+#~ " want the repository to have in "
+#~ "the OpenToonz browser."
+#~ msgstr ""
+
+#~ msgid "In the line"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "type between the tags the path to"
+#~ " where you want the working copy "
+#~ "to be located on the local "
+#~ "computer (e.g. ``C:\\myworkingcopy\\``  for "
+#~ "Windows or ``/myworkingcopy``  for Macintosh)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "type between the tags the URL of"
+#~ " the central repository according to "
+#~ "how it was defined on the version"
+#~ " control server (e.g. "
+#~ "``http://10.0.0.1/mySVNrepository/``  for a "
+#~ "repository located in the local network;"
+#~ " ``file:///C:/mySVNrepository``  for a repository"
+#~ " located in the local Windows "
+#~ "computer or ``file:///mySVNrepository``  for a"
+#~ " repository located in the local "
+#~ "Macintosh computer; and "
+#~ "``https://subversion.assembla.com/svn/mySVNrepository``  for "
+#~ "an internet-based repository)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the ``permissions.xml``  file located "
+#~ "in the ``OpenToonz 1.x stuff\\config`` "
+#~ "folder with a text editor (e.g. "
+#~ "Notepad)."
+#~ msgstr ""
+
+#~ msgid "Add after the lines defining a repository the following lines"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A grey folder icon ( |Toonz71_577| "
+#~ ") is used for folders available "
+#~ "only in the repository. You can "
+#~ "use the Get command to copy them"
+#~ " to the local working copy."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A colored folder icon with a "
+#~ "yellow mark ( |Toonz71_578| ) is "
+#~ "used when the folder contents in "
+#~ "the working copy is not up to "
+#~ "date and does not match to the "
+#~ "folder contents in the repository: this"
+#~ " is the case when there are "
+#~ "modified or new files in the "
+#~ "working copy or there are modified "
+#~ "or new files in the repository. "
+#~ "You can use the Get command to "
+#~ "copy them to the local working "
+#~ "copy."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A colored folder icon with a green"
+#~ " mark ( |Toonz71_579| ) is used "
+#~ "when the folder contents in the "
+#~ "working copy is up to date and "
+#~ "matches to the folder contents in "
+#~ "the repository."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A colored folder with a plus mark"
+#~ " ( |Toonz71_580| ) is used for "
+#~ "folders available only in the working"
+#~ " copy. You can use the Put "
+#~ "command to copy them to the local"
+#~ " working copy."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a grey check"
+#~ " mark ( |Toonz71_581| ) is used "
+#~ "when files in the working copy are"
+#~ " up to date and match to the"
+#~ " latest version available in the "
+#~ "repository. The files are in read-"
+#~ "only mode, and they have to be "
+#~ "in edit mode in order to be "
+#~ "modified."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a green check"
+#~ " mark ( |Toonz71_582| ) is used "
+#~ "when files in the working copy are"
+#~ " in edit mode."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a green check"
+#~ " mark on a grey and white "
+#~ "background ( |Toonz71_583| ) is used "
+#~ "when files in the working copy are"
+#~ " partially in edit mode."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a red "
+#~ "exclamation mark ( |Toonz71_584| ) is"
+#~ " used when files in the working "
+#~ "copy are newer than the latest "
+#~ "version available in the repository, "
+#~ "because you modified them. You can "
+#~ "use the Put command to copy them"
+#~ " to the central repository."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a red "
+#~ "exclamation mark on a grey and "
+#~ "white background ( |Toonz71_585| ) is"
+#~ " used when files in the working "
+#~ "copy are partially newer than to "
+#~ "the latest version available in the "
+#~ "repository, because you modified them. "
+#~ "You can use the Put command to "
+#~ "copy them to the central repository."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with an orange "
+#~ "exclamation mark ( |Toonz71_586| ) is"
+#~ " used when files in the working "
+#~ "copy are older than the latest "
+#~ "version available in the repository, "
+#~ "because someone modified them. You can"
+#~ " use the Get command to copy "
+#~ "them to the local working copy."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with an lock mark"
+#~ " ( |Toonz71_587| ) is used when "
+#~ "files are in edit mode by other"
+#~ " users. For these files it is "
+#~ "only possible to check the information"
+#~ " about the user editing the file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a lock mark "
+#~ "on a grey and white background ("
+#~ " |Toonz71_588| ) is used when files"
+#~ " are partially in edit mode by "
+#~ "other users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with the + mark "
+#~ "( |Toonz71_589| ) is used for "
+#~ "files available only in the working "
+#~ "copy. You can use the Put command"
+#~ " to copy them to the local "
+#~ "working copy."
+#~ msgstr ""
 

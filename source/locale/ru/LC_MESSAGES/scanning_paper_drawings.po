@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-16 00:23+0800\n"
+"POT-Creation-Date: 2019-02-03 10:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,31 +55,35 @@ msgid ""
 " defined set of parameters."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:20
+#: ../../source/scanning_paper_drawings.rst:21
 msgid "Supported Scanners"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:21
+#: ../../source/scanning_paper_drawings.rst:22
 msgid ""
 "OpenToonz supports directly, by using internal drivers, some specific "
 "scanners via a USB connection; all the other scanners are supported via "
 "any type of connection by using TWAIN drivers."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:23
+#: ../../source/scanning_paper_drawings.rst:24
+msgid "|define_scanner|"
+msgstr ""
+
+#: ../../source/scanning_paper_drawings.rst:26
 msgid ""
 "For an updated list of directly supported scanners, please visit the "
 "`OpenToonz Web site <https://opentoonz.github.io/e/>`_ ."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:25
+#: ../../source/scanning_paper_drawings.rst:28
 msgid ""
 "If your scanner is supported via internal drivers, the scanning process "
 "is managed completely by OpenToonz and the Scan Settings dialog; if it is"
 " not, the scanning process is managed by the TWAIN interface."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:27
+#: ../../source/scanning_paper_drawings.rst:30
 msgid ""
 "On Windows, the TWAIN drivers provided with the scanner need to be "
 "installed. Note that if you decide to use internal drivers, you have to "
@@ -87,14 +91,14 @@ msgid ""
 "you want to use TWAIN drivers, you have to enable it."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:29
+#: ../../source/scanning_paper_drawings.rst:32
 msgid ""
 "On Macintosh, you need to install the TWAIN drivers only if you are going"
 " to use them. Note that if you decide to use internal drivers, any TWAIN "
 "driver referring to that scanner has to be removed."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:31
+#: ../../source/scanning_paper_drawings.rst:34
 msgid ""
 "The driver you want to use must be selected according to your scanner "
 "before starting the scanning process. You can choose whether to use the "
@@ -103,80 +107,80 @@ msgid ""
 "computer."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:33
+#: ../../source/scanning_paper_drawings.rst:36
 msgid ""
 "When using TWAIN drivers you need to specify the driver every time you "
 "restart OpenToonz: the dialog box is automatically displayed when you "
 "select any Scan related command."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:35
+#: ../../source/scanning_paper_drawings.rst:38
 msgid "**To install TWAIN drivers:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:37
-#: ../../source/scanning_paper_drawings.rst:55
+#: ../../source/scanning_paper_drawings.rst:40
+#: ../../source/scanning_paper_drawings.rst:58
 msgid "Refer to the scanner documentation for more s."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:39
+#: ../../source/scanning_paper_drawings.rst:42
 msgid ""
 "**Windows only - to disable or enable the Windows Image Acquisition (WIA)"
 " service:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:41
+#: ../../source/scanning_paper_drawings.rst:44
 msgid "Open the Control Panel > Administrative Tools > Services dialog."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:43
+#: ../../source/scanning_paper_drawings.rst:46
 msgid ""
 "Right-click the Windows Image Acquisition (WIA) service and choose "
 "Properties from the menu that opens."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:45
+#: ../../source/scanning_paper_drawings.rst:48
 msgid "In the Properties dialog do one of the following:"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:47
+#: ../../source/scanning_paper_drawings.rst:50
 msgid "Set the Startup Type option to Disabled to use internal drivers."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:49
+#: ../../source/scanning_paper_drawings.rst:52
 msgid "Set the Startup Type option to Automatic to use TWAIN drivers."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:51
+#: ../../source/scanning_paper_drawings.rst:54
 msgid "Restart the computer."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:53
+#: ../../source/scanning_paper_drawings.rst:56
 msgid "**Macintosh only - to remove the scanner TWAIN drivers:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:57
+#: ../../source/scanning_paper_drawings.rst:60
 msgid "**To define the scanner:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:59
+#: ../../source/scanning_paper_drawings.rst:62
 msgid "Choose Scan & Cleanup > Define Scanner."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:61
-#: ../../source/scanning_paper_drawings.rst:137
-#: ../../source/scanning_paper_drawings.rst:149
-#: ../../source/scanning_paper_drawings.rst:193
+#: ../../source/scanning_paper_drawings.rst:64
+#: ../../source/scanning_paper_drawings.rst:145
+#: ../../source/scanning_paper_drawings.rst:157
+#: ../../source/scanning_paper_drawings.rst:204
 msgid "Do one of the following:"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:63
+#: ../../source/scanning_paper_drawings.rst:66
 msgid ""
 "If your scanner is directly supported, choose Scanner Driver > Internal, "
 "and click the OK button."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:65
+#: ../../source/scanning_paper_drawings.rst:68
 msgid ""
 "If your scanner is not directly supported, be sure that TWAIN drivers are"
 " installed, and choose Scanner Driver > TWAIN, and click the OK button: "
@@ -184,17 +188,17 @@ msgid ""
 "scanner."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:70
+#: ../../source/scanning_paper_drawings.rst:74
 msgid "Scanning Modes"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:71
+#: ../../source/scanning_paper_drawings.rst:75
 msgid ""
 "Drawings can be scanned mainly in three different modes: black and white,"
 " greyscale and colors."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:73
+#: ../../source/scanning_paper_drawings.rst:77
 msgid ""
 "The first two modes can be used to acquire standard lineart drawings "
 "whose outline is usually made in a single color, that during the scanning"
@@ -203,7 +207,7 @@ msgid ""
 "during the painting process."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:75
+#: ../../source/scanning_paper_drawings.rst:79
 msgid ""
 "Black and white scanning gives you the most immediate results, and fewer "
 "parameters need to be set. Once a threshold value is set, pixels of the "
@@ -213,7 +217,7 @@ msgid ""
 "proper antialiasing will be added during the cleanup process."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:77
+#: ../../source/scanning_paper_drawings.rst:81
 msgid ""
 "Greyscale scanning, being based on a range of grey values, requires a "
 "longer scanning time. Determining brightness and contrast parameters "
@@ -225,7 +229,7 @@ msgid ""
 "<autoadjusting_greyscale_lineart_drawings>`  ."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:79
+#: ../../source/scanning_paper_drawings.rst:83
 msgid ""
 "Color scanning is for scanning colored lineart and other colored images "
 "as backgrounds and overlays. Using colors in lineart allows you to draw "
@@ -237,11 +241,11 @@ msgid ""
 "<processing_colored_lineart_drawings>`  ."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:84
+#: ../../source/scanning_paper_drawings.rst:89
 msgid "Scanning Guidelines for Autocentering"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:85
+#: ../../source/scanning_paper_drawings.rst:90
 msgid ""
 "To autocenter scanned drawings during the cleanup process, the pegbar "
 "holes need to be detected on the images (see  :ref:`Autocentering "
@@ -250,11 +254,11 @@ msgid ""
 "according to the following guidelines."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:90
+#: ../../source/scanning_paper_drawings.rst:96
 msgid "Preparing Scanners"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:91
+#: ../../source/scanning_paper_drawings.rst:97
 msgid ""
 "If you use the scanner automatic paper feeder, you should stick a piece "
 "of thin black tape in the feeder on the opposite side of the scanner "
@@ -262,7 +266,7 @@ msgid ""
 " when the paper is fed into the scanner."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:93
+#: ../../source/scanning_paper_drawings.rst:99
 msgid ""
 "If you use the scanner bed, you should place a black sheet of paper under"
 " the scanner cover, so that when a drawing is scanned facing down the "
@@ -271,11 +275,11 @@ msgid ""
 "cover the entire scanner bed."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:98
+#: ../../source/scanning_paper_drawings.rst:105
 msgid "Scanning Artwork"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:99
+#: ../../source/scanning_paper_drawings.rst:106
 msgid ""
 "It is better to use quite thick animation paper for your artwork: very "
 "thin paper may jam the scanner, and the scanner light may pass through "
@@ -284,7 +288,7 @@ msgid ""
 "poor quality result."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:101
+#: ../../source/scanning_paper_drawings.rst:108
 msgid ""
 "Avoid using black or colored paper reinforcements around the pegbar holes"
 " in your drawing sheets. The scanner has to read the exact shape of the "
@@ -294,7 +298,7 @@ msgid ""
 "slightly covered by the reinforcement, the registration may fail."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:103
+#: ../../source/scanning_paper_drawings.rst:110
 msgid ""
 "Do not draw too close to the pegbar holes. Avoid drawing anything with "
 "the same shape or area of the pegbar hole in the pegbar holes area; leave"
@@ -303,54 +307,54 @@ msgid ""
 "registration to fail."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:108
+#: ../../source/scanning_paper_drawings.rst:116
 msgid "Defining Animation Levels to Scan"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:109
+#: ../../source/scanning_paper_drawings.rst:117
 msgid ""
 "To scan an animation level, first you have to define its name, the number"
 " of frames it is made of, and the way its drawings are numbered. Its size"
 " and resolution will be set during the scanning session."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:111
+#: ../../source/scanning_paper_drawings.rst:119
 msgid ""
-"The definition can be made drawing by drawing directly in the xsheet, or "
+"The definition can be made drawing by drawing directly in the Xsheet, or "
 "at once by using the New Level dialog. You can assign it the name and the"
 " numbering order you prefer."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:113
+#: ../../source/scanning_paper_drawings.rst:121
 msgid ""
 "In case you use the New Level dialog you can set the number of drawings "
 "the level is made of, the animation step to expose the level repeating "
 "its frames, and the increment, that sets the way the level drawings are "
 "numbered. For example a step value 2 repeats each drawing twice in the "
-"xsheet column, while an increment value 2 numbers the drawings 1, 3, 5, "
+"Xsheet column, while an increment value 2 numbers the drawings 1, 3, 5, "
 "etc."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:115
-msgid "|Toonz71_034|"
+#: ../../source/scanning_paper_drawings.rst:123
+msgid "|new_scan_level|"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:117
+#: ../../source/scanning_paper_drawings.rst:125
 msgid ""
-"By default scanned drawings are saved in the +inputs directory of the "
-"current project; if the +inputs definition uses the $scenepath variable, "
-"they are saved only if the scene is saved (see  :ref:`Project Default "
+"By default scanned drawings are saved in the **+inputs** directory of the"
+" current project; if the +inputs definition uses the $scenepath variable,"
+" they are saved only if the scene is saved (see  :ref:`Project Default "
 "Folders <project_default_folders>`  )."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:119
+#: ../../source/scanning_paper_drawings.rst:127
 msgid ""
 "You can change the location by using either the Path field in the New "
 "Level dialog, or the Level Settings window in case you define a level "
-"directly in xsheet."
+"directly in Xsheet."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:121
+#: ../../source/scanning_paper_drawings.rst:129
 msgid ""
 "Settings such as the length of the level and the numbering order can be "
 "edited later, as you are free to arrange the images composing your "
@@ -358,7 +362,7 @@ msgid ""
 "<editing_animation_levels>`  )."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:123
+#: ../../source/scanning_paper_drawings.rst:131
 msgid ""
 "When an animation level is defined, the name and numbers for the drawings"
 " of the level are displayed in red as no level actually exists yet; the "
@@ -367,124 +371,128 @@ msgid ""
 "<working_with_xsheet_columns>`  )."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:125
-msgid "**To define an animation level directly in xsheet:**"
+#: ../../source/scanning_paper_drawings.rst:133
+msgid "**To define an animation level directly in Xsheet:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:127
+#: ../../source/scanning_paper_drawings.rst:135
 msgid ""
 "Double-click a cell, then type a name and a number; the name and the "
 "number must be separated by a space."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:129
+#: ../../source/scanning_paper_drawings.rst:137
 msgid ""
 "Press enter to add a new drawing, and type a different number that will "
 "be assigned to the new drawing."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:131
+#: ../../source/scanning_paper_drawings.rst:139
 msgid "Go on adding all the drawings you need."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:133
+#: ../../source/scanning_paper_drawings.rst:141
 msgid "Click a different cell to end the process."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:135
+#: ../../source/scanning_paper_drawings.rst:143
 msgid "**To define an animation level with the New Level dialog:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:139
+#: ../../source/scanning_paper_drawings.rst:147
 msgid ""
-"Select a cell in the xsheet where you want to place your animation level "
+"Select a cell in the Xsheet where you want to place your animation level "
 "to scan and choose File > New Level."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:141
+#: ../../source/scanning_paper_drawings.rst:149
 msgid ""
-"Right-click the cell in the xsheet where you want to place your animation"
+"Right-click the cell in the Xsheet where you want to place your animation"
 " level to scan and choose File > New Level from the menu that opens."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:143
+#: ../../source/scanning_paper_drawings.rst:151
 msgid ""
 "If any level is already exposed in the cell column, it will shift down "
 "from the cell you selected on."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:145
+#: ../../source/scanning_paper_drawings.rst:153
 msgid ""
 "In the New Level dialog choose Scan Level from the Type option menu and "
 "define its settings, then click the OK button."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:147
+#: ../../source/scanning_paper_drawings.rst:155
 msgid "**To define the saving location for the level to be scanned:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:151
+#: ../../source/scanning_paper_drawings.rst:159
 msgid ""
 "If you are using the New Level dialog, type in the Path field, or use the"
 " browser button, to set the path for the saving location."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:153
+#: ../../source/scanning_paper_drawings.rst:161
 msgid ""
-"If you are defining the level directly in xsheet, right-click the level "
+"If you are defining the level directly in Xsheet, right-click the level "
 "cells and select Level Settings from the menu that opens. In the Level "
 "Settings window, type in the Path field, or use the browser button, to "
 "set the path for the saving location."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:155
+#: ../../source/scanning_paper_drawings.rst:163
 msgid ""
 "If in the browser you choose any project default folder, in the path "
 "field the full path will be replace by the related default folder alias "
 "(see  :ref:`Project Default Folders <project_default_folders>`  )."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:160
+#: ../../source/scanning_paper_drawings.rst:169
 msgid "Scanning Drawings"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:161
+#: ../../source/scanning_paper_drawings.rst:170
 msgid ""
 "According to the driver you are using, internal or TWAIN, the scanning "
 "process will be controlled either by the Scan Settings dialog or the "
 "TWAIN interface."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:163
+#: ../../source/scanning_paper_drawings.rst:172
+msgid "|scan_settings|"
+msgstr ""
+
+#: ../../source/scanning_paper_drawings.rst:174
 msgid "The Scan Settings dialog allows you to define the following:"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:165
+#: ../../source/scanning_paper_drawings.rst:176
 msgid ""
-"Paper Format sets the size for the drawings to be scanned. The option "
-"menu contains a list of already defined formats."
+"**Paper Format** sets the size for the drawings to be scanned. The option"
+" menu contains a list of already defined formats."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:167
+#: ../../source/scanning_paper_drawings.rst:178
 msgid ""
-"Reverse Order makes the scanning process in a reverse order, starting "
-"from the last selected frame to the first one."
+"**Reverse Order** makes the scanning process in a reverse order, starting"
+" from the last selected frame to the first one."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:169
+#: ../../source/scanning_paper_drawings.rst:180
 msgid ""
-"Paper Feeder lets the scanner use the automatic document feeder, in case "
-"the scanner has one, to scan all the selected drawings without having to "
-"insert one image at a time into the scanner."
+"**Paper Feeder** lets the scanner use the automatic document feeder, in "
+"case the scanner has one, to scan all the selected drawings without "
+"having to insert one image at a time into the scanner."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:171
+#: ../../source/scanning_paper_drawings.rst:182
 msgid ""
-"Mode is for setting the scanning mode among black and white, greyscale "
-"and colors."
+"**Mode** is for setting the scanning mode among black and white, "
+"greyscale and colors."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:173
+#: ../../source/scanning_paper_drawings.rst:184
 msgid ""
 "The TWAIN interface is related to the scanner you are using and is "
 "available only when the TWAIN drivers, provided with the scanner, are "
@@ -492,40 +500,40 @@ msgid ""
 "s."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:175
+#: ../../source/scanning_paper_drawings.rst:186
 msgid ""
 "The Scan Settings dialog can be used in combination with the TWAIN "
 "interface settings to set the Reverse Order option."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:177
+#: ../../source/scanning_paper_drawings.rst:188
 msgid ""
 "The settings, either defined in the Scan Settings dialog or in the TWAIN "
-"interface, will be used to scan the drawings selected in the xsheet. In "
+"interface, will be used to scan the drawings selected in the Xsheet. In "
 "case you select several drawings, and you are using the scanner paper "
 "feeder, all the drawings to be scanned will be taken from the feeder; if "
 "you are not using the paper feeder, you will be prompted to replace the "
 "drawing on the scanner bed, before scanning the following drawing."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:179
+#: ../../source/scanning_paper_drawings.rst:190
 msgid ""
 "You can also select non-consecutive drawings and drawings from different "
 "animation levels. Levels will be scanned starting from the first selected"
 " column. Only exposed drawings will be scanned according the level "
 "numbering order, regardless of the way the animation level is exposed in "
-"one or several xsheet columns. The opposite order will be followed if the"
+"one or several Xsheet columns. The opposite order will be followed if the"
 " Reverse Order option is on."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:181
+#: ../../source/scanning_paper_drawings.rst:192
 msgid ""
 "As soon as a drawing is scanned, it is saved and its name and number "
-"displayed in the xsheet turn black, as the level now has physical "
+"displayed in the Xsheet turn black, as the level now has physical "
 "drawings saved on disk."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:183
+#: ../../source/scanning_paper_drawings.rst:194
 msgid ""
 "Images are saved as compressed TIF files with a progressive four-digits "
 "number written between the file name and the file extension, e.g. "
@@ -534,7 +542,7 @@ msgid ""
 "e.g. ``animation..tif`` ."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:185
+#: ../../source/scanning_paper_drawings.rst:196
 msgid ""
 "If you need to scan again an animation level, or a part of it, select the"
 " relevant drawings and scan them again. Drawings can be also inserted by "
@@ -542,50 +550,50 @@ msgid ""
 " Level <renumbering_and_adding_frames_in_a_level>`  )."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:187
+#: ../../source/scanning_paper_drawings.rst:198
 msgid "**To scan an animation level:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:189
-msgid "In the xsheet, select the drawings you want to scan."
+#: ../../source/scanning_paper_drawings.rst:200
+msgid "In the Xsheet, select the drawings you want to scan."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:191
+#: ../../source/scanning_paper_drawings.rst:202
 msgid ""
 "Choose Scan & Cleanup > Scan Settings and use the dialog to control scan "
 "options."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:195
+#: ../../source/scanning_paper_drawings.rst:206
 msgid ""
 "If you are using the internal drivers, choose Scan & Cleanup > Scan: the "
 "selected drawings will be scanned and automatically saved."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:197
+#: ../../source/scanning_paper_drawings.rst:208
 msgid ""
 "If you are using the TWAIN drivers, choose Scan & Cleanup > Scan, and "
 "guide the scanning process by using the TWAIN interface that opens: the "
 "selected drawings will be scanned and automatically saved."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:199
+#: ../../source/scanning_paper_drawings.rst:210
 msgid "In case you selected several drawings, do one of the following:"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:201
+#: ../../source/scanning_paper_drawings.rst:212
 msgid ""
 "If you are using the scanner paper feeder, wait for all of the drawings "
 "to be scanned"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:203
+#: ../../source/scanning_paper_drawings.rst:214
 msgid ""
 "If you are not using the paper feeder, you will be prompted to replace "
 "the drawing on the scanner bed, before scanning the following drawing."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:205
+#: ../../source/scanning_paper_drawings.rst:216
 msgid ""
 "After a drawing is scanned, or several drawings are scanned at once by "
 "using the paper feeder, in some TWAIN interfaces you may need to use a "
@@ -594,11 +602,11 @@ msgid ""
 "documentation for more s."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:210
+#: ../../source/scanning_paper_drawings.rst:222
 msgid "Setting the Cropbox"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:211
+#: ../../source/scanning_paper_drawings.rst:223
 msgid ""
 "When using directly supported scanners it is possible to define a cropbox"
 " smaller than the paper format to optimize the scanning process. When the"
@@ -607,63 +615,206 @@ msgid ""
 "scanned, thus speeding up the scanning operations."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:213
+#: ../../source/scanning_paper_drawings.rst:225
 msgid ""
 "Once defined the cropbox will be used for any scanning performed for the "
 "scene."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:215
+#: ../../source/scanning_paper_drawings.rst:227
 msgid ""
 "The cropbox size information is not saved along with the scene file; it "
 "is also automatically reset when working on a new scene."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:217
+#: ../../source/scanning_paper_drawings.rst:229
 msgid "**To define the scanning cropbox:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:219
+#: ../../source/scanning_paper_drawings.rst:231
 msgid ""
 "Choose Scan & Cleanup > Set Cropbox: the drawing currently placed in the "
 "scanner is scanned and the cropbox is displayed in red."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:221
+#: ../../source/scanning_paper_drawings.rst:233
 msgid ""
 "Use the handles along the cropbox to set its size, and click and drag "
 "anywhere to change its position."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:223
+#: ../../source/scanning_paper_drawings.rst:235
 msgid "The cropbox default size is the same as the size of the scanned image."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:225
+#: ../../source/scanning_paper_drawings.rst:237
 msgid "The cropbox cannot be moved outside the area of the scanned image."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:227
+#: ../../source/scanning_paper_drawings.rst:239
 msgid "**To use the defined cropbox when scanning:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:229
+#: ../../source/scanning_paper_drawings.rst:241
 msgid "Scan drawings after defining the cropbox size (see above )."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:231
+#: ../../source/scanning_paper_drawings.rst:243
 msgid "**To dismiss the scanning cropbox visualization:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:233
+#: ../../source/scanning_paper_drawings.rst:245
 msgid "Choose Scan & Cleanup > Set Cropbox."
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:235
+#: ../../source/scanning_paper_drawings.rst:247
 msgid "**To reset the scanning cropbox:**"
 msgstr ""
 
-#: ../../source/scanning_paper_drawings.rst:237
+#: ../../source/scanning_paper_drawings.rst:249
 msgid "Choose Scan & Cleanup > Reset Cropbox."
 msgstr ""
+
+#~ msgid ""
+#~ "The definition can be made drawing "
+#~ "by drawing directly in the xsheet, "
+#~ "or at once by using the New "
+#~ "Level dialog. You can assign it "
+#~ "the name and the numbering order "
+#~ "you prefer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case you use the New Level "
+#~ "dialog you can set the number of"
+#~ " drawings the level is made of, "
+#~ "the animation step to expose the "
+#~ "level repeating its frames, and the "
+#~ "increment, that sets the way the "
+#~ "level drawings are numbered. For example"
+#~ " a step value 2 repeats each "
+#~ "drawing twice in the xsheet column, "
+#~ "while an increment value 2 numbers "
+#~ "the drawings 1, 3, 5, etc."
+#~ msgstr ""
+
+#~ msgid "|Toonz71_034|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default scanned drawings are saved"
+#~ " in the +inputs directory of the "
+#~ "current project; if the +inputs "
+#~ "definition uses the $scenepath variable, "
+#~ "they are saved only if the scene"
+#~ " is saved (see  :ref:`Project Default "
+#~ "Folders <project_default_folders>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can change the location by "
+#~ "using either the Path field in the"
+#~ " New Level dialog, or the Level "
+#~ "Settings window in case you define "
+#~ "a level directly in xsheet."
+#~ msgstr ""
+
+#~ msgid "**To define an animation level directly in xsheet:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select a cell in the xsheet where"
+#~ " you want to place your animation "
+#~ "level to scan and choose File >"
+#~ " New Level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the cell in the xsheet"
+#~ " where you want to place your "
+#~ "animation level to scan and choose "
+#~ "File > New Level from the menu "
+#~ "that opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are defining the level "
+#~ "directly in xsheet, right-click the "
+#~ "level cells and select Level Settings"
+#~ " from the menu that opens. In "
+#~ "the Level Settings window, type in "
+#~ "the Path field, or use the browser"
+#~ " button, to set the path for "
+#~ "the saving location."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Paper Format sets the size for the"
+#~ " drawings to be scanned. The option"
+#~ " menu contains a list of already "
+#~ "defined formats."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Reverse Order makes the scanning process"
+#~ " in a reverse order, starting from"
+#~ " the last selected frame to the "
+#~ "first one."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Paper Feeder lets the scanner use "
+#~ "the automatic document feeder, in case"
+#~ " the scanner has one, to scan "
+#~ "all the selected drawings without having"
+#~ " to insert one image at a time"
+#~ " into the scanner."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mode is for setting the scanning "
+#~ "mode among black and white, greyscale"
+#~ " and colors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The settings, either defined in the "
+#~ "Scan Settings dialog or in the "
+#~ "TWAIN interface, will be used to "
+#~ "scan the drawings selected in the "
+#~ "xsheet. In case you select several "
+#~ "drawings, and you are using the "
+#~ "scanner paper feeder, all the drawings"
+#~ " to be scanned will be taken "
+#~ "from the feeder; if you are not"
+#~ " using the paper feeder, you will "
+#~ "be prompted to replace the drawing "
+#~ "on the scanner bed, before scanning "
+#~ "the following drawing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also select non-consecutive "
+#~ "drawings and drawings from different "
+#~ "animation levels. Levels will be scanned"
+#~ " starting from the first selected "
+#~ "column. Only exposed drawings will be"
+#~ " scanned according the level numbering "
+#~ "order, regardless of the way the "
+#~ "animation level is exposed in one "
+#~ "or several xsheet columns. The opposite"
+#~ " order will be followed if the "
+#~ "Reverse Order option is on."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As soon as a drawing is scanned,"
+#~ " it is saved and its name and"
+#~ " number displayed in the xsheet turn"
+#~ " black, as the level now has "
+#~ "physical drawings saved on disk."
+#~ msgstr ""
+
+#~ msgid "In the xsheet, select the drawings you want to scan."
+#~ msgstr ""
 

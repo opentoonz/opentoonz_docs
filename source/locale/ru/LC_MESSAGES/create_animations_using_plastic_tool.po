@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-16 00:23+0800\n"
+"POT-Creation-Date: 2019-05-06 16:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,1245 +23,2572 @@ msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:5
 msgid ""
-"Plastic is a powerful tool ( |Toonz71_357| ) that can be used as "
-"complement in a cutout animation context, as well as a stand-alone "
-"animation tool capable of bringing to life a character starting from a "
-"single drawing. Using a reference skeleton and a deformable mesh, Plastic"
-" allows to curving and deforming each element it is applied to creating "
-"smooth animations."
+"Plastic is a powerful tool (|plastic|) that can be used as complement in "
+"a cutout animation context, as well as a stand-alone animation tool "
+"capable of bringing to life a character starting from a single drawing. "
+"Using a reference skeleton and a deformable mesh, Plastic allows to "
+"curving and deforming each element it's applied to, creating smooth "
+"animations."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:15
+#: ../../source/create_animations_using_plastic_tool.rst:7
+msgid "|plastic_tool_example|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:13
 msgid "Using Plastic tool"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:14
+msgid ""
+"The **Plastic** tool needs as starting input at least one column of the "
+"Xsheet (or layer of the Timeline) where one or more drawings are exposed;"
+" from now on this will be referred to as the *texture-column* (or "
+"**TC**). Using the outlines of the exposed drawing/s as references, the "
+"Plastic tool generates a triangular mesh contained in a new kind of "
+"column/layer: the *Mesh* column/layer. Each newly created Mesh "
+"column/layer is automatically connected to the proper TC. This link is a "
+"core point in the way Plastic works: every column/layer linked to a mesh "
+"will be deformed by it, and displayed within the mesh boundaries while "
+"rendering."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:16
 msgid ""
-"The Plastic tool needs as starting input at least one column of the "
-"xsheet where one or more drawings are exposed; from now on this will be "
-"referred as the texture-column (TC). Using the outlines of the exposed "
-"drawing/s as references, the Plastic tool generates a triangular mesh "
-"contained in a new kind of column: the Mesh column. Each newly created "
-"Mesh columns is automatically connected to the proper TC. This link is a "
-"core point in the way Plastic works: every column linked to a mesh will "
-"be deformed by the mesh and displayed within the mesh boundaries while "
-"rendering."
+"For animating/deforming a Mesh level, Plastic allows the building of a "
+"specific skeleton structure active on the mesh. The skeleton is a set of "
+"connected vertices, and, for each vertex, different parameters can be "
+"specified as: **Position**, **Angle Bounds**, **Rigidity** and **Staking "
+"Order**. Thus a great range of animations and effects can easily be "
+"created."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:18
 msgid ""
-"For animating/deforming a mesh level, Plastic allows the building of a "
-"specific skeleton structure active on the mesh. The skeleton is a set of "
-"connected vertices, and, for each vertex, different parameters can be "
-"specified as: its position, Angle Bounds, Rigidity and Staking Order. "
-"Thus a great range of animations and effects can easily be created."
+"The Plastic tool is applied to a column of the Xsheet (or layer of the "
+"Timeline), and the content of it can be an animated level."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:20
-msgid ""
-"The Plastic tool is applied to a column of the xsheet, and the content of"
-" the column can be an animated level."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:25
+#: ../../source/create_animations_using_plastic_tool.rst:24
 msgid "Building a Plastic mesh"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:26
+#: ../../source/create_animations_using_plastic_tool.rst:25
 msgid ""
-"The first step for using Plastic is creating a mesh for the xsheet column"
-" that we are going to animate using the Plastic tool. The mesh is a new "
-"kind of Toonz level, and can be saved as any other kind of levels."
+"The first step for using Plastic is creating a mesh for the Xsheet column"
+" (or Timeline layer) that we are going to animate using the **Plastic** "
+"tool. The Mesh is a special kind of level, and can be saved as any other "
+"kind of levels."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:28
+#: ../../source/create_animations_using_plastic_tool.rst:27
 msgid ""
-"The mesh level can be seen as purple column created when the button "
-"Create Mesh of the Plastic tool is pressed."
+"The Mesh level can be seen as *purple* column/layer created when the "
+"button **Create Mesh** of the **Plastic** tool is pressed."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:30
+#: ../../source/create_animations_using_plastic_tool.rst:29
+msgid "|create_mesh|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:31
 msgid ""
 "The mesh is the real object that the Plastic tool modifies when a plastic"
 " skeleton is animated. For this reason all the elements, that are going "
 "to be animated by the Plastic tool, need a mesh."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:32
+#: ../../source/create_animations_using_plastic_tool.rst:33
 msgid "**To create a Plastic mesh:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:34
+#: ../../source/create_animations_using_plastic_tool.rst:35
 msgid ""
-"Select the column that is going to be animated using the Plastic tool. "
-"This will be the texture-column (TC) of the mesh that is going to be "
-"created."
+"Select the column/layer that is going to be animated using the Plastic "
+"tool. This will be the *texture-column* (TC) of the mesh that is going to"
+" be created."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:36
-msgid "Choose the Plastic tool ( |Toonz71_359| )"
+#: ../../source/create_animations_using_plastic_tool.rst:37
+#: ../../source/create_animations_using_plastic_tool.rst:404
+#: ../../source/create_animations_using_plastic_tool.rst:420
+msgid "Choose the **Plastic** tool (|plastic|)"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:38
-msgid "Press the Create Mesh button in the tool options bar."
+#: ../../source/create_animations_using_plastic_tool.rst:39
+msgid "Press the **Create Mesh** button in the tool options bar."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:41
+msgid ""
+"Check, in the dialog that opens, the Mesh density in the preview area. "
+"Adjust as needed the density using the **Mesh Edges Length** slider."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:43
-msgid ""
-"Check, in the dialog that opens, the Mesh density in the preview area. "
-"Adjust as needed the density using the Mesh Edges Length slider."
+msgid "|create_mesh_options|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:45
 msgid ""
 "The density of the mesh is crucial for having smooth curves when rotating"
-" the skeleton vertex. Lower the Mesh Edges Length value and higher the "
-"density of the mesh will be, thus a better quality of the animation will "
-"be assured, but even more computing resources will be required."
+" the skeleton vertex. Lower the **Mesh Edges Length** value and higher "
+"the density of the mesh will be, thus a better quality of the animation "
+"will be assured, but more computing resources will be required."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:47
 msgid ""
 "The preview will show you just one level at time, even if you have "
-"selected multiple columns, to check the preview of each column you have "
-"to select them one by one while the Plastic tool is active. Each time you"
-" change column selection the preview will update for the new content."
+"selected multiple columns/layers, to check the preview of each "
+"column/layer you have to select them one by one *while* the **Plastic** "
+"tool is active. Each time you change the column/layer selection the "
+"preview will update for the new content."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:49
 msgid ""
-"If needed change the value of the Rasterization DPI parameter. This value"
-" represents the DPI used when the TC will be rendered as a texture for "
-"the mesh. It is recommend using a value consistent with the Camera "
+"If needed, change the value of the **Rasterization DPI** parameter. This "
+"value represents the DPI used when the TC is rendered as a texture for "
+"the mesh. It's recommend using a value consistent with the Camera "
 "resolution. A DPI too high compared to the Camera resolution might cause "
-"that the contours may not be very soft"
+"the contours of the TC not to be very soft."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:51
 msgid ""
-"The Rasterization DPI parameter is available only when you are creating "
-"mesh starting from Toonz Vector Levels."
+"The **Rasterization DPI** parameter is available only when you are "
+"creating the mesh from Toonz Vector levels."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:53
 msgid ""
-"Adjust the Mesh Margin value. This parameter is expressed in pixels "
-"because it is used when the texture is projected on the mesh, the right "
-"amount of margin is needed to preserve the aliasing of the picture."
+"Adjust the **Mesh Margin** value. This parameter is expressed in *pixels*"
+" because it's used when the texture is projected on the mesh, an "
+"appropriate amount of margin will be needed to preserve the aliasing of "
+"the picture."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:55
 msgid ""
-"If you are creating a mesh from a sub-xsheet, you can choose which "
-"elements of the subxsheet will be used by the Plastic tools for computing"
+"If you are creating a mesh from a **Sub-Xsheet**, you can choose which "
+"elements of the Sub-Xsheet will be used by the Plastic tool for computing"
 " the mesh: simply turn off visibility for the elements that will not "
 "contribute to the mesh outline."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:57
 msgid ""
-"Click the Apply button to create the mesh. Now you can see the mesh drawn"
-" in green colour in the main viewer, and a new purple column in the "
-"Xsheet next to the TC."
+"Click the **Apply** button to create the mesh. Now you can see the mesh "
+"drawn in *green* colour in the Viewer, and a new *purple* column in the "
+"Xsheet (or layer in the Timeline) next to the TC."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:59
 msgid ""
-"Into the Stage Schematic you can see that the TC column is now connected "
-"to the mesh column just created, its node has a purple header for easing "
-"recognition."
+"In the **Stage Schematic** you can see that the *TC* node is now "
+"connected to the *Mesh* node just created, its node has a *purple* header"
+" for easing recognition."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:61
 msgid ""
-"If the Create Mesh is applied to a column that is already modified by the"
-" Plastic tool (then already linked to a mesh) a dialog will prompt asking"
-" how to manage the new and the old mesh files, and the user can choose "
-"one from the different listed oprions: |Toonz71_361|"
+"If the **Create Mesh** is applied to a column/layer that is already "
+"modified by the Plastic tool (then already linked to a Mesh level) a "
+"dialog will prompt asking how to manage the new and the old Mesh files, "
+"and the user can choose from one of three options:"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:63
+msgid "|create_mesh_warning|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:65
 msgid ""
-"``delete the old level entirely`` : the original mesh file is replaced by"
+"**Delete the old level entirely** : the original mesh file is replaced by"
 " a new one with the data of the last mesh generated; a new column for the"
 " new mesh is created as the old column retains the old structure but "
 "exposes only the new created mesh."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:65
+#: ../../source/create_animations_using_plastic_tool.rst:67
 msgid ""
-"``keep the old level and overwrite processed frames`` : the original mesh"
+"**Keep the old level and overwrite processed frames** : the original mesh"
 " file is updated and the old mesh column exposes the new content for the "
 "selected frames, a new column is created exposing just the contents of "
 "the selected frames."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:67
+#: ../../source/create_animations_using_plastic_tool.rst:69
 msgid ""
-"``chose a different path`` (same name as the original level plus _X where"
-" X is the ordinal number of the copy): an entirely new mesh file is "
+"**Choose a different path** (same name as the original level plus _X "
+"where X is the ordinal number of the copy): an entirely new mesh file is "
 "generated and a new column exposes the new contents while the old column "
 "exposes the old ones."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:69
+#: ../../source/create_animations_using_plastic_tool.rst:71
 msgid ""
-"All the above options cause the creation of a new mesh column and the "
-"building of a chain, linking the texture column and the meshes columns, "
-"into the Stage Schematic. In this chain the older mesh is linked to the "
-"younger and the youngest mesh is linked to the texture-column. "
-"Rearranging the links into the Stage Schematic can be needed for avoiding"
-" undesired results while animating."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:74
-msgid "Modifying a Plastic mesh"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:75
-msgid ""
-"Not always it is easy to estimate the right density for a mesh. Sometimes"
-" a higher density could be needed to avoid straight lines on bending "
-"elements, or a lower density could be used for saving computing resources"
-" in a complex scene, or, simply, the drawings of an element are changed. "
-"In all this occurrences modifying the mesh can solve the problem."
+"All the above options cause the creation of a new Mesh column and the "
+"building of a chain, linking the *texture-column* and the *meshes "
+"columns* in the Stage Schematic. In this chain, the older mesh is linked "
+"to the younger and the youngest mesh is linked to the *texture-column*. "
+"Rearranging the links in the Stage Schematic can be needed for avoiding "
+"undesired results while animating."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:77
-msgid "**To update a Plastic mesh to reflect changing in the Level Strip:**"
+msgid "Modifying a Plastic mesh"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:79
-#: ../../source/create_animations_using_plastic_tool.rst:89
-msgid "Select the mesh column that needs to be modified."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:81
-msgid "Press the Create Mesh button."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:83
+#: ../../source/create_animations_using_plastic_tool.rst:78
 msgid ""
-"In the dialog that opens change the Mesh Edges Length slider value as "
-"needed, checking the result in the preview area."
+"It's not always easy to estimate the right density for a mesh. Sometimes "
+"a higher density could be needed to avoid *straight lines* on bending "
+"elements, or a lower density could be used for saving computing resources"
+" in a complex scene, or, simply, the drawings of an element are changed. "
+"In all this occurrences, modifying the mesh can solve the problem."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:85
+#: ../../source/create_animations_using_plastic_tool.rst:80
+msgid "**To update a Plastic mesh to reflect changes in the Level Strip:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:82
+#: ../../source/create_animations_using_plastic_tool.rst:92
+msgid "Select the Mesh column/layer that needs to be modified."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:84
+msgid "Press the **Create Mesh** button."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:86
 msgid ""
-"Click the Apply button to create the mesh. The new mesh replaces the old "
-"one, and now is visible drawn in green colour in the main viewer."
+"In the dialog that opens change the **Mesh Edges Length** slider value as"
+" needed, checking the result in the preview area."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:87
+#: ../../source/create_animations_using_plastic_tool.rst:88
+msgid ""
+"Click the **Apply** button to create the mesh. The new mesh replaces the "
+"old one, and now is visible drawn in *green* colour in the main viewer."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:90
 msgid "**To add new mesh frames to an existing mesh level:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:91
+#: ../../source/create_animations_using_plastic_tool.rst:94
 msgid ""
-"Create the new frames (inserting them, or appending them) as for a "
-"standard Toonz level, corresponding to the new frames created for the "
-"Texture Column."
+"Create the new frames (inserting or appending them) as it's usually done "
+"for any standard Toonz level, corresponding to the new frames created for"
+" the *Texture Column*."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:93
-msgid "Activate the Plastic tool."
+#: ../../source/create_animations_using_plastic_tool.rst:96
+msgid "Activate the **Plastic** tool."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:95
-msgid "Press the Create Mesh button and adjust the Mesh Edges Length slider."
+#: ../../source/create_animations_using_plastic_tool.rst:98
+msgid ""
+"Press the **Create Mesh** button and adjust the **Mesh Edges Length** "
+"slider."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:97
-msgid "Press the Apply button."
+#: ../../source/create_animations_using_plastic_tool.rst:100
+msgid "Press the **Apply** button."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:102
+#: ../../source/create_animations_using_plastic_tool.rst:106
 msgid "Edit a Plastic mesh"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:103
-msgid ""
-"The mesh created using the Create Mesh button can be edited in several "
-"way. It is possible to: move a mesh point, swap, collapse, split and cut "
-"a mesh edge."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:105
-msgid ""
-"Swap an edge if you want to change the shape of a mesh triangle; collapse"
-" an edge if you want to join the ends of the edge; split an edge if you "
-"want to increase the density of the mesh at a given point; cut the mesh "
-"if you want to duplicate an edge to have the possibility, for example, to"
-" move the triangle points and create a hole."
-msgstr ""
-
 #: ../../source/create_animations_using_plastic_tool.rst:107
-msgid "The command is visible only if the selected edge can be cut."
+msgid ""
+"The mesh created using the **Create Mesh** button can be edited in "
+"several ways. It's possible to: Move a mesh point, Swap, Collapse, Split "
+"and Cut the mesh by its edges."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:109
-msgid "**To edit a Plastic mesh:**"
+msgid "|edit_mesh_mode|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:111
-msgid "Select in the Xsheet the mesh column you want to modify."
+msgid ""
+"**Swap** an edge if you want to change the shape of a mesh triangle; "
+"**Collapse** an edge if you want to join the ends of the edge; **Split** "
+"an edge if you want to increase the density of the mesh at any given "
+"point; **Cut** the mesh if you want to duplicate an edge to have the "
+"possibility, for example, to create a hole in the mesh and be able to "
+"animate it."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:113
-msgid "If not already active, choose the Plastic tool ( |Toonz71_362| )"
+msgid "The **Cut Mesh** command is visible only if the selected edges can be cut."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:115
-msgid "In the Tool Option bar set the Mode to Edit Mesh."
+msgid "**To enter Plastic mesh editing mode:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:120
-msgid "**To move a mesh point:**"
+#: ../../source/create_animations_using_plastic_tool.rst:117
+msgid "Select the mesh column/layer you want to modify."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:122
-msgid "Select the mesh point you want to modify. It became red."
+#: ../../source/create_animations_using_plastic_tool.rst:119
+#: ../../source/create_animations_using_plastic_tool.rst:179
+msgid "If not already active, choose the **Plastic** tool (|plastic|)"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:124
-msgid "Drag to move the point in the new position."
+#: ../../source/create_animations_using_plastic_tool.rst:121
+msgid "In the Tool Options bar set the **Mode:** to **Edit Mesh**."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:126
+#: ../../source/create_animations_using_plastic_tool.rst:123
+msgid "**To move selected mesh points:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:125
+msgid ""
+"Select the mesh points you want to modify. Use the **Ctrl** key to select"
+" multiple points. Selected mesh points become *red*."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:127
+msgid "Drag to move the point to its new position."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:129
 msgid "**To swap an edge of the mesh:**"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:131
-#: ../../source/create_animations_using_plastic_tool.rst:139
-#: ../../source/create_animations_using_plastic_tool.rst:147
-#: ../../source/create_animations_using_plastic_tool.rst:155
+#: ../../source/create_animations_using_plastic_tool.rst:141
+#: ../../source/create_animations_using_plastic_tool.rst:149
 msgid "Select a mesh edge."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:133
-#: ../../source/create_animations_using_plastic_tool.rst:141
-#: ../../source/create_animations_using_plastic_tool.rst:149
-#: ../../source/create_animations_using_plastic_tool.rst:157
+#: ../../source/create_animations_using_plastic_tool.rst:143
+#: ../../source/create_animations_using_plastic_tool.rst:151
+#: ../../source/create_animations_using_plastic_tool.rst:159
 msgid "Click the right mouse button to open the context menu."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:135
-msgid "Choose the Swap Edge command."
+msgid "Choose the **Swap Edge** command."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:137
+msgid "|swap-collapse-split_edge|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:139
 msgid "**To collapse an edge of the mesh:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:143
-msgid "Choose the Collapse Edge command."
+#: ../../source/create_animations_using_plastic_tool.rst:145
+msgid "Choose the **Collapse Edge** command."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:145
+#: ../../source/create_animations_using_plastic_tool.rst:147
 msgid "**To split an edge of the mesh:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:151
-msgid "Choose the Split Edge command."
-msgstr ""
-
 #: ../../source/create_animations_using_plastic_tool.rst:153
-msgid "**To cut an edge of the mesh:**"
+msgid "Choose the **Split Edge** command."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:159
-msgid "Choose the Cut Edge command."
+#: ../../source/create_animations_using_plastic_tool.rst:155
+msgid "**To cut edges of the mesh:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:164
-msgid "Building a Plastic skeleton"
+#: ../../source/create_animations_using_plastic_tool.rst:157
+msgid "Select several mesh edges."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:165
-msgid ""
-"The Plastic skeleton is a control structure linked to a mesh level that "
-"gives us the handles for deforming/animating the chosen element/s of the "
-"xsheet."
+#: ../../source/create_animations_using_plastic_tool.rst:161
+msgid "Choose the **Cut Mesh** command."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:167
-msgid "**To create a Plastic skeleton:**"
+#: ../../source/create_animations_using_plastic_tool.rst:163
+msgid "|cut_mesh|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:169
+msgid "Building a Plastic skeleton"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:170
 msgid ""
-"Select in the Xsheet the mesh column for which you want to build the "
-"skeleton."
+"The Plastic skeleton is a control structure linked to a mesh level that "
+"provides handles for deforming/animating the chosen elements of the "
+"Xsheet/Timeline."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:171
-msgid "If not already active, choose the Plastic tool ( |Toonz71_365| )"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:173
-msgid "In the Tool Option bar set the Mode to Build Skeleton."
+#: ../../source/create_animations_using_plastic_tool.rst:172
+msgid "|build_skeleton_mode|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:175
-msgid ""
-"Move the mouse pointer on the main viewer. A small red square is now "
-"visible near the tip of the cursor."
+msgid "**To create a Plastic skeleton:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:180
-msgid ""
-"In the main viewer click (to set in place) or click and drag (to adjust "
-"positioning) to place the first vertex. A purple square is now visible in"
-" the main viewer."
+#: ../../source/create_animations_using_plastic_tool.rst:177
+msgid "Select in the mesh column/layer for which you want to build the skeleton."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:182
+#: ../../source/create_animations_using_plastic_tool.rst:181
+msgid "In the Tool Options bar set the **Mode:** to **Build Skeleton**."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:183
+msgid ""
+"Move the mouse pointer on the Viewer. A small red square is now visible "
+"near the tip of the cursor."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:185
+msgid "|build_skeleton|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:187
+msgid ""
+"In the Viewer click (to set in place) or click and drag (to adjust its "
+"positioning) to place the first vertex. A *purple* square is now visible "
+"in the Viewer."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:189
 msgid ""
 "The first time you release the mouse button, you are setting the position"
-" of the parent of all the hierarchy, the Root vertex. This vertex differs"
-" visually from the others vertices: its square is solid while the others "
-"are hollow in the middle, giving a visual hint for determining the right "
-"hierarchical order in the skeleton chains. The Root vertex will be static"
-" in Animate mode, but it can still be moved while in Build Skeleton mode "
-"by selecting it and dragging."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:184
-msgid ""
-"Move to the position where you want to add the second vertex and click or"
-" click and drag to place it. An orange line with a black border will "
-"connect the two vertices."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:186
-msgid ""
-"Continue clicking or clicking and dragging until all the vertices are in "
-"the right place and the skeleton is completed."
+" of the parent of all the hierarchy, *the Root vertex*. This vertex "
+"differs visually from the others vertices: its square is solid while the "
+"others are hollow in the middle, giving a visual hint for determining the"
+" right hierarchical order in the skeleton chains. The **Root vertex** "
+"will be *static* in **Animate** mode, but it can still be moved while in "
+"**Build Skeleton** mode by selecting it and dragging."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:191
+msgid ""
+"Move to the position where you want to add the second vertex and click or"
+" click and drag to place it. An *orange* line with a black border will "
+"connect the two vertices."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:193
+msgid ""
+"Continue clicking or clicking and dragging until all the vertices are in "
+"the right places and the skeleton is completed."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:199
 msgid "Using multiple skeletons on a mesh level"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:192
+#: ../../source/create_animations_using_plastic_tool.rst:200
 msgid ""
 "Every mesh level uses at least one skeleton for animating, but this is "
 "just the easier configuration for working: a mesh level can have multiple"
 " skeletons active at different frames for building more complex "
 "animations: like a character turn-around, or for animating a level with "
 "multiple drawings of different shapes. Every time the drawings change in "
-"shape, there a new ad-hoc skeleton structure can be built with the number"
-" of vertices needed and placed in the right positions."
+"shape, a new *ad-hoc* skeleton structure can be built with the number of "
+"vertices needed and placed in the right positions."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:194
-msgid "**To add a new skeleton on a mesh level**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:196
-msgid ""
-"In the Xsheet select the mesh level and the frame where the new skeleton "
-"is needed."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:198
-msgid ""
-"In the Tool Options Bar press the + button next the option menu labeled "
-"Skeleton. A new numeric entry is added to the list and a key is created "
-"at the selected frame."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:203
-msgid "Start building the new skeleton as usual."
+#: ../../source/create_animations_using_plastic_tool.rst:202
+msgid "|multiple_skeletons|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:205
-msgid "**To link an available skeleton to a chosen frame of a mesh level**"
+msgid "**To add a new skeleton on a mesh level**"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:207
 msgid ""
-"In the Xsheet select the frame of the mesh level where the skeleton has "
-"to change."
+"In the Xsheet/Timeline select the Mesh level and the frame where the new "
+"skeleton is needed."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:209
 msgid ""
-"In the Tool Options Bar open the option menu labeled Skeleton: a list of "
-"the ID numbers of the already built skeletons opens."
+"In the Tool Options bar press the **+** button to the right of the "
+"options menu labeled **Skeleton:**. A new numeric entry is added to the "
+"list and a keyframe is created at the selected frame."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:211
-msgid "Select the ID number matching the skeleton you need."
+msgid "Start building the new skeleton as usual."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:213
-msgid ""
-"The selected skeleton is now visible in the main viewer area, and a key "
-"is created at the chosen frame."
+msgid "**To link an available skeleton to a chosen frame of a mesh level**"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:215
-msgid "**To delete a skeleton from Skeleton list**"
+msgid ""
+"In the Xsheet/Timeline select the frame of the Mesh level where the "
+"skeleton has to change."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:217
 msgid ""
-"In the Xsheet select the mesh level owning the skeleton that has to be "
-"deleted."
+"In the Tool Options bar open the option menu labeled **Skeleton:**, a "
+"list of the ID numbers of the already built skeletons opens."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:219
-msgid "Select from the Skeleton drop down the ID matching the skeleton to delete."
+msgid "Select the **ID number** matching the skeleton you need."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:221
-msgid "Press the - button."
+msgid ""
+"The selected skeleton is now visible in the main Viewer, and a keyframe "
+"is created at the chosen frame."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:226
-msgid "Modifying a Plastic skeleton:"
+#: ../../source/create_animations_using_plastic_tool.rst:223
+msgid "**To delete a skeleton from the Skeleton list**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:225
+msgid ""
+"In the Xsheet/Timeline select the Mesh level owning the skeleton that has"
+" to be deleted."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:227
 msgid ""
-"While drawing the skeleton, or when finished to drawing it, some "
-"adjustments to the vertices positions, or to the number of vertices, may "
-"be needed:"
+"Select from the **Skeleton:** drop down the **ID** matching the skeleton "
+"to delete."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:229
-msgid "**To select a vertex:**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:231
-msgid ""
-"While in Build Skeleton mode, move the mouse pointer on an already placed"
-" vertex."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:233
-msgid ""
-"Click when the name of the vertex appears and a dashed square encloses "
-"the solid one marking the vertex position."
+msgid "Press the **-** button."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:235
-msgid "**To delete a vertex:**"
+msgid "Modifying a Plastic skeleton"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:237
-msgid "While in Build Skeleton mode select the vertex that has to be deleted."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:239
-msgid "Press the Canc key on your keyboard."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:241
-msgid "**To insert a vertex:**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:243
+#: ../../source/create_animations_using_plastic_tool.rst:236
 msgid ""
-"While in Build Skeleton mode move the mouse pointer on the line "
-"connecting the two vertices that need a joint between them."
+"While drawing the skeleton or after finishing its creation, some "
+"adjustments to the positions or the number of vertices may be required:"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:245
+#: ../../source/create_animations_using_plastic_tool.rst:238
+msgid "**To Select a vertex:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:240
 msgid ""
-"Click to set the new vertex in place or click and drag to adjust the "
+"While in **Build Skeleton** mode, move the mouse pointer on an already "
+"placed vertex."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:242
+msgid ""
+"Click, when the name of the vertex appears and a dashed square encloses "
+"the vertex position."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:244
+msgid "**To Delete a vertex:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:246
+msgid ""
+"While in **Build Skeleton** mode, select the vertex that has to be "
+"deleted."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:248
+msgid "Press the **Del** key."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:250
+msgid "**To Insert a vertex:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:252
+msgid ""
+"While in **Build Skeleton** mode, move the mouse pointer over the line "
+"connecting the two vertices that need a vertex between them."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:254
+msgid ""
+"Click to set the new vertex in place, or click and drag to adjust the "
 "position of the new vertex."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:247
-msgid "**To change a vertex position:**"
+#: ../../source/create_animations_using_plastic_tool.rst:256
+msgid "**To Move a vertex:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:249
-msgid "Click on the vertex to select it and drag for adjusting its position."
+#: ../../source/create_animations_using_plastic_tool.rst:258
+msgid "Click on the vertex to select it, and drag for adjusting its position."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:251
-msgid "**To prevent a vertex to stretch the mesh:**"
+#: ../../source/create_animations_using_plastic_tool.rst:260
+msgid "**To Prevent a vertex from Stretching the mesh:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:253
+#: ../../source/create_animations_using_plastic_tool.rst:262
 msgid "Select the vertex that you wish to modify."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:255
-msgid "Uncheck the Allow Stretching option in the tool options bar."
+#: ../../source/create_animations_using_plastic_tool.rst:264
+msgid "Uncheck the **Allow Stretching** option in the Tool Options bar."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:257
+#: ../../source/create_animations_using_plastic_tool.rst:266
 msgid ""
-"**The square marking the vertex position become yellow and from now the "
-"vertex will not stretch the mesh while you are moving it**"
+"The square marking the vertex position becomes *yellow*, and from now on "
+"the vertex *will not stretch* the Mesh while you are moving it."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:259
-msgid "**To snap a vertex to the mesh**"
+#: ../../source/create_animations_using_plastic_tool.rst:268
+msgid "**To Snap a vertex to the mesh**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:261
-msgid "Select the vertex that you wish to snap."
+#: ../../source/create_animations_using_plastic_tool.rst:270
+msgid "While in **Build Skeleton** mode, activate the **Snap To Mesh** option."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:263
-msgid "Drag it near the mesh point at which you want to snap."
+#: ../../source/create_animations_using_plastic_tool.rst:272
+msgid "Select the vertex you wish to snap."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:265
-msgid "**To branch the skeleton:**"
+#: ../../source/create_animations_using_plastic_tool.rst:274
+msgid "Drag it near the *mesh point* at which you want to snap it."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:267
+#: ../../source/create_animations_using_plastic_tool.rst:276
+msgid "**To Branch the skeleton:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:278
 msgid ""
-"While in Build Skeleton mode, select the vertex from which the new branch"
-" will start."
+"While in **Build Skeleton** mode, **select the vertex** from which the "
+"new branch will start."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:269
+#: ../../source/create_animations_using_plastic_tool.rst:280
 msgid ""
 "Move to the position where the first vertex of the new branch will be "
 "positioned."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:271
+#: ../../source/create_animations_using_plastic_tool.rst:282
 msgid "Click to create it."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:273
-msgid "**To copy a skeleton:**"
+#: ../../source/create_animations_using_plastic_tool.rst:284
+msgid "**To Copy a skeleton:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:275
+#: ../../source/create_animations_using_plastic_tool.rst:286
 msgid ""
-"While in Build Skeleton mode, select the root vertex and click the rigth "
-"mouse button."
+"While in **Build Skeleton** mode, **select the Root vertex** and click "
+"the right mouse button."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:277
-msgid "From the context menu that appears select the Copy Skeleton option."
+#: ../../source/create_animations_using_plastic_tool.rst:288
+msgid "From the context menu that opens, select the **Copy Skeleton** option."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:279
-msgid "**To paste a skeleton:**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:281
-msgid "Select a mesh column in the xsheet."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:283
-msgid "If needed press the + button to create a new empty skeleton."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:285
-msgid "Click the rigth mouse button and select the Paste Skeleton option."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:287
-msgid ""
-"Pasting the skeleton on an already existing one will end up in losing the"
-" old structure and all its animations. This outcome can be reverted to "
-"the previous state using the Undo command."
+#: ../../source/create_animations_using_plastic_tool.rst:290
+msgid "|copy_skeleton|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:292
+msgid "**To Paste a skeleton:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:294
+msgid "Select a mesh column in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:296
+msgid "If needed press the **+** button to create a new empty skeleton."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:298
+msgid "Click the right mouse button and select the **Paste Skeleton** option."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:300
+msgid ""
+"Pasting the skeleton on *an already existing one* will cause the deletion"
+" of the old structure and all its animation. This can be reverted to the "
+"previous state by using the **Undo** command."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:306
 msgid "Animating Plastic elements"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:293
+#: ../../source/create_animations_using_plastic_tool.rst:307
 msgid ""
 "Creating an animation in Plastic is quite an easy task: just select the "
-"vertices and move them to the desired position at a specific frame and an"
-" animation key frame will be created. Playback the sequence to check the "
-"results."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:295
-msgid "**To animate Plastic elements:**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:297
-msgid "Select the mesh column you like to animate."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:299
-msgid ""
-"Select Plastic tool and set Mode to Animate. Now, in the main viewer, you"
-" can see the skeleton and the mesh of the selected column."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:301
-msgid "Select the first frame of the animation in the xsheet."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:303
-msgid ""
-"Select the vertices of the skeleton and move them to the desired position"
-" to set the relative key frames, or write the desired values into the "
-"text fields of the tool options bar."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:305
-msgid ""
-"Move to the next key frame of the animation and modify the vertices "
-"positions to define a new pose."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:307
-msgid "Repeat the step 5 until the end of the animation."
+"vertices and move them to the desired positions at a specific frames and "
+"animation keyframes will be automatically created. Play back the sequence"
+" to check the results."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:309
-msgid "**To set a rest position key for one vertex:**"
+msgid "|animate_mode|"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:311
-msgid ""
-"The first time you draw a skeleton you are even creating the rest "
-"position of this structure. This pose is automatically stored and you can"
-" recall it on the vertex."
+msgid "**To animate Plastic elements:**"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:313
-#: ../../source/create_animations_using_plastic_tool.rst:323
-msgid "Select a vertex and click the right mouse button."
+msgid "Select the mesh column/layer you like to animate."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:315
-msgid "From the context menu select Set Rest Key. |Toonz71_368|"
+msgid ""
+"Select **Plastic** tool and set **Mode:** to **Animate**. Now, in the "
+"Viewer, you can see the skeleton and the mesh of the selected "
+"column/layer."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:317
-msgid ""
-"A new key at the current frame is created using the rest values for the "
-"selected vertex."
+msgid "Select the first frame of the animation in the Xsheet/Timeline."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:319
-msgid "**To set a Global rest position key for the whole skeleton:**"
+msgid ""
+"Select the *vertices* of the skeleton and move them to the desired "
+"positions to set the relative keyframes, or write the desired values into"
+" the text fields of the Tool Options bar."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:321
 msgid ""
-"The first time you draw a skeleton you are even creating the rest "
-"position of this structure. This pose is automatically stored and you can"
-" recall it on a the vertices."
+"Move to the next keyframe of the animation and modify the vertices "
+"positions to define a new pose."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:323
+msgid "Repeat the step 5 until the end the animation is finished."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:325
-msgid "From the context menu select Set Global Rest Key."
+msgid "**To Set a Rest Position key for one vertex:**"
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:327
 msgid ""
-"A new key at the current frame is created using the rest values for all "
-"the vertices."
+"The first time you draw a skeleton you are also creating the *rest "
+"position* of this structure. This pose is automatically stored and you "
+"can recall it on any vertex."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:329
-msgid "**To preserve the distance between vertices while animating:**"
+#: ../../source/create_animations_using_plastic_tool.rst:341
+msgid "Select a vertex and click the right mouse button."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:331
+msgid "From the context menu that opens, select **Set Rest Key**."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:333
 msgid ""
-"If it is needed that the distance between two joints doesn’t change "
-"during the animation, check the Keep Distance checkbox in the tool option"
-" bar."
+"A new keyframe at the current frame is created for the vertex, using its "
+"*rest values*."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:336
-msgid "**To set keys on all vertices at the same time:**"
+#: ../../source/create_animations_using_plastic_tool.rst:335
+msgid "|set_keys|"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:338
+#: ../../source/create_animations_using_plastic_tool.rst:337
+msgid "**To Set a Global Rest Position key for the whole skeleton:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:339
 msgid ""
-"By default when you move a vertex in Animate mode, you set a key frame "
-"just for this selected vertex. For setting a key frame, simultaneously "
-"for all the vertices of the skeleton, just moving one of them, check the "
-"Global Key checkbox."
+"The first time you draw a skeleton you are also creating the *rest "
+"position* of this structure. This pose is automatically stored and you "
+"can recall it on all the vertices."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:340
-msgid "**To set a key for a vertex which hasn’t changed position:**"
+#: ../../source/create_animations_using_plastic_tool.rst:343
+msgid "From the context menu that opens, select **Set Global Rest Key**."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:342
-msgid "Select the vertex for which you want to create a key."
+#: ../../source/create_animations_using_plastic_tool.rst:345
+msgid ""
+"A new keyframe at the current frame is created for all the vertices, "
+"using their *rest values*."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:344
-#: ../../source/create_animations_using_plastic_tool.rst:352
+#: ../../source/create_animations_using_plastic_tool.rst:347
+msgid "**To preserve the distance between vertices while animating:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:349
+msgid ""
+"If it's required that the distance between two joints stays constant "
+"during the animation, check the **Keep Distance** checkbox in the Tool "
+"Options bar."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:351
+msgid "|keep_distance|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:353
+msgid "**To Set Keyframes on all vertices at the same time:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:355
+msgid ""
+"By default when you move a vertex in **Animate** mode, you set a keyframe"
+" just for this selected vertex. For setting a keyframe simultaneously for"
+" all the vertices of the skeleton, when just moving one of them, check "
+"the **Global Key** checkbox."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:357
+msgid "**To Set a Keyframe for a vertex which hasn’t changed position:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:359
+msgid "Select the vertex for which you want to create a keyframe."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:361
+#: ../../source/create_animations_using_plastic_tool.rst:369
 msgid "Click the right mouse button."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:346
-msgid "Select the Set Key option from the context menu that opens."
+#: ../../source/create_animations_using_plastic_tool.rst:363
+msgid "Select the **Set Key** option from the context menu that opens."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:348
+#: ../../source/create_animations_using_plastic_tool.rst:365
 msgid ""
-"**To set a key for all the skeleton vertices which hasn’t changed "
+"**To Set a Keyframe for all the skeleton vertices which hasn’t changed "
 "position:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:350
+#: ../../source/create_animations_using_plastic_tool.rst:367
 msgid "Select a skeleton vertex."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:354
-msgid "Select the Set Global Key option from the context menu that opens."
+#: ../../source/create_animations_using_plastic_tool.rst:371
+msgid "Select the **Set Global Key** option from the context menu that opens."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:356
+#: ../../source/create_animations_using_plastic_tool.rst:373
 msgid "**To animate the Stacking Order of a vertex:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:358
+#: ../../source/create_animations_using_plastic_tool.rst:375
 msgid ""
 "Using Plastic you can simulate the effect of overlapping limbs defining a"
 " stacking order for the vertices involved in the animation."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:360
+#: ../../source/create_animations_using_plastic_tool.rst:377
 msgid "Select the vertex you wish to animate."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:362
+#: ../../source/create_animations_using_plastic_tool.rst:379
 msgid ""
-"Write the value of the Stacking Order you wish to assign to the vertex, "
-"into the SO text field of the tool options bar."
+"Input the **Stacking Order** value you wish to assign to the vertex into "
+"the **SO** text field in the Tool Options bar."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:364
+#: ../../source/create_animations_using_plastic_tool.rst:381
 msgid ""
-"Plastic stacking order is a per vertex characteristic, you have to define"
-" the value you need for each vertex you are interested in. The default "
-"value is 0 for all the vertices and can be modified freely using positive"
-" or negative values as needed."
+"Plastic stacking order is a *per vertex* characteristic, you have to "
+"define the value you wish for each vertex required. The default value is "
+"0 for all vertices, and can be modified freely using positive or negative"
+" values as needed."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:366
+#: ../../source/create_animations_using_plastic_tool.rst:383
 msgid "**To define an Angle Bounds for a vertex:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:368
-msgid "Select the vertex you want assign an Angle Bound."
+#: ../../source/create_animations_using_plastic_tool.rst:385
+msgid "Select the desired vertex."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:370
+#: ../../source/create_animations_using_plastic_tool.rst:387
 msgid ""
-"Set a bound for the vertex rotation,setting a minimum and a maximum "
-"rotation value inserting the values in the relevant fields."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:372
-msgid "**Defining Rigidity for a Plastic mesh**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:374
-msgid ""
-"In many occasions it may be required that one or more portions of the "
-"mesh that is been animated using the Plastic tool, have to preserve their"
-" shape even if following the overall transformations of the whole "
-"element, simulating a rigid structure, or part of it. To achieve this "
-"kind of effect a Rigidity value can be painted directly on the mesh."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:376
-msgid ""
-"Activating the Paint Rigid mode in the tool Plastic options bar, a "
-"specific drawing tool become available. In the main viewer a red circle "
-"is visible near the tip of the mouse pointer, the size of the circle is "
-"the size of the brush you are going to use for painting the rigidity on "
-"the mesh."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:378
-msgid "**To paint rigidity on a mesh:**"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:380
-#: ../../source/create_animations_using_plastic_tool.rst:397
-msgid "Select the mesh column in the xsheet."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:382
-msgid "Choose the Plastic tool ( |Toonz71_370| )"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:384
-#: ../../source/create_animations_using_plastic_tool.rst:401
-msgid "Set the Mode to Paint Rigid."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:389
-#: ../../source/create_animations_using_plastic_tool.rst:403
-msgid ""
-"Set the size of the brush moving the Thickness slider or writing a value "
-"into the appropriate text field."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:391
-msgid ""
-"Select Rigid from the option menu next to the Thickness slider (Rigid is "
-"the default value)."
+"Set the minimum and maximum **Angle Bounds** values for the vertex "
+"rotation."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:393
+msgid "Defining Rigidity for a Plastic mesh"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:394
 msgid ""
-"Move the cursor on the main viewer and start painting on the selected "
-"mesh. The colour of the mesh will change to red where painted. Now the "
-"red areas behave as rigid portions of the mesh."
+"In many occasions it may be required that certain portions of a Mesh "
+"that's being animated using the Plastic tool, preserve their shape even "
+"if following the overall transformations of the whole element, simulating"
+" a more *rigid structure* or a part of it. To achieve this kind of effect"
+" a **Rigidity** value can be painted directly on the Mesh."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:395
-msgid "**To modify, correct, erase rigidity on a mesh:**"
+#: ../../source/create_animations_using_plastic_tool.rst:396
+msgid "|paint_rigid_mode|"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:399
-msgid "Choose the Plastic tool ( |Toonz71_372| )"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:405
+#: ../../source/create_animations_using_plastic_tool.rst:398
 msgid ""
-"Select Flex from the option menu next to the Thickness slider (Rigid is "
-"the default value)."
+"When activating the **Paint Rigid** mode in the **Plastic** Tool Options "
+"bar, a specific drawing tool becomes available. In the Viewer a *red "
+"circle* is visible near the tip of the mouse pointer, the size of the "
+"circle is the size of the brush you are going to use for painting the "
+"rigidity on the mesh."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:407
-msgid ""
-"Move the cursor on the main viewer and start painting on the selected "
-"mesh. The colour of the mesh will change to green where painted. Now the "
-"green areas behave as flexible portions of the mesh."
+#: ../../source/create_animations_using_plastic_tool.rst:400
+msgid "**To paint Rigidity on a mesh:**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:409
+#: ../../source/create_animations_using_plastic_tool.rst:402
+#: ../../source/create_animations_using_plastic_tool.rst:418
+msgid "Select the mesh column/layer in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:406
+#: ../../source/create_animations_using_plastic_tool.rst:422
+msgid "Set the **Mode:** to **Paint Rigid**."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:408
+#: ../../source/create_animations_using_plastic_tool.rst:424
 msgid ""
-"The default colour of a mesh is green; it means that the whole mesh is "
-"flexible. The red colour is used to point out the rigid areas of the mesh"
-" (if any was defined). But if a mesh is all painted in red colour it "
-"behaves as a flexible one."
+"Set the size of the brush moving the **Thickness** slider or entering a "
+"value into the text field."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:410
+msgid ""
+"Select **Rigid** from the option menu to the right of the Thickness "
+"slider (**Rigid** is the default value)."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:412
+msgid ""
+"Move the cursor on the Viewer and start painting on the selected Mesh. "
+"The colour of the mesh will change to *red* where painted. Now the *red* "
+"areas behave as *rigid* portions of the Mesh."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:414
+msgid "|paint_rigid_options_rigid|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:416
+msgid "**To modify, correct, erase Rigidity on a mesh:**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:426
+msgid "Select **Flex** from the option menu to the right of the Thickness slider."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:428
+msgid ""
+"Move the cursor on the Viewer and start painting on the selected Mesh. "
+"The colour of the mesh will change to *green* where painted. Now the "
+"*green* areas behave as *flexible* portions of the Mesh."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:430
+msgid "|paint_rigid_options_flex|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:432
+msgid ""
+"The default colour of a mesh is *green*; it means that the whole mesh is "
+"*flexible*. The *red* colour is used to point out the *rigid* areas of "
+"the mesh (if there are any defined). But if a mesh is all painted in red "
+"colour it behaves as a flexible one too."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:438
+msgid "Displaying Plastic elements and properties"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:439
+msgid ""
+"While working with the Plastic tool there is an easy way for customizing "
+"which information have to be displayed in the Viewer. Clicking the right "
+"mouse button on the Viewer *while* the **Plastic** tool is active brings "
+"up a context menu. There are four checkboxes that set the display "
+"properties for the Mesh, the **Rigidity**, the **SO** (Stacking Order) "
+"and the **Skeleton Onion Skin**."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:441
+msgid "|display_options|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:443
+msgid ""
+"If **Show Mesh** is enabled, the mesh will be visible as a triangulated "
+"wire frame shape."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:445
+msgid "|display_options_mesh|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:447
+msgid ""
+"If **Show Rigidity** is enabled, continuous *green* areas will show the "
+"flexibility, while *red* areas will show rigidity."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:449
+msgid "|display_options_rigidity|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:451
+msgid ""
+"If **Show SO** is enabled *a grey shading* shows the Stacking Order "
+"values of the vertices, where lighter areas will be on top, and darker "
+"ones behind."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:453
+msgid "|display_options_so|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:455
+msgid ""
+"If **Show Skeleton Onion Skin** is enabled, ghosts of the skeleton at the"
+" selected frames will be displayed with incremental levels of "
+"transparency."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:457
+msgid "|display_options_onion_skin|"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:459
+msgid ""
+"All of this information can be displayed at once (by checking all the "
+"options), giving an overall description of the vertices state."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:465
 msgid "Parenting Plastic levels using vertices and hooks"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:415
+#: ../../source/create_animations_using_plastic_tool.rst:466
 msgid ""
 "For building interesting and complex animations it could be useful and "
-"time saving to create a Parent -> Children relation between standard "
-"Toonz levels and Plastic modified levels, or between Plastic modified "
-"levels, so that the children levels inherit the transformations of the "
-"parent automatically. It is always possible to link the levels using the "
-"Pegbar as target but what if something more subtler is needed as using "
-"hooks? We have already described similar techniques for OpenToonz "
-"standard elements (see  :ref:`Linking Objects <linking_objects>`  or  "
-":ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in "
-"a slightly different way because the Hook tool is not active on this kind"
-" of levels. Plastic modified levels use their skeleton vertices instead "
-"of the hook points."
+"time saving to create a hierarchical relationship between standard levels"
+" and Plastic modified levels, or between Plastic modified levels "
+"themselves, so that the children levels inherit the transformations of "
+"the parent automatically. It's always possible to link the levels using "
+"the column/layer center as target, but what if something more subtler is "
+"needed as using *Hooks*? We have already described similar techniques for"
+" OpenToonz standard elements (see  :ref:`Linking Objects "
+"<linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic "
+"modified levels works in a slightly different way because the Hook tool "
+"*is not* enabled on this kind of levels. Plastic modified levels use "
+"their skeleton vertices instead of the hook points."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:417
+#: ../../source/create_animations_using_plastic_tool.rst:468
 msgid "**To link a standard level to a Plastic modified level**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:419
-msgid "Select in the Xsheet the level that has to be linked."
+#: ../../source/create_animations_using_plastic_tool.rst:470
+msgid "Select in the Xsheet/Timeline the level that has to be linked."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:421
+#: ../../source/create_animations_using_plastic_tool.rst:472
 msgid ""
-"Use the Hook tool in the main viewer to create a hook point on the spot "
-"that will be used as pivot for the level."
+"Use the **Hook** tool in the Viewer to create a hook on the spot that "
+"will be used as pivot for the level."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:423
+#: ../../source/create_animations_using_plastic_tool.rst:474
 msgid ""
-"Go to the Stage Schematic and select the node of the level that has to be"
-" linked. Click on the small square on its left side, and drag to one of "
-"the small squares on the right side of the Plastic modified level target "
-"of the link. Now the two levels are linked but the reference points for "
-"the link are probably wrong (by default the Pegbar centers are used)."
+"Go to the Stage Schematic and select the node of the column/layer that "
+"has to be linked. Click on the small square on its left side, and drag to"
+" one of the small squares on the right side of the Plastic modified node "
+"target of the link. Now the two levels are linked but the reference "
+"points for the link are probably wrong (by default the column/layer "
+"centers are used)."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:425
+#: ../../source/create_animations_using_plastic_tool.rst:476
 msgid ""
 "Hover on the small square on the left side of the node of the standard "
 "level until two small arrows (pointing up and down) appear."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:427
+#: ../../source/create_animations_using_plastic_tool.rst:478
 msgid ""
 "Click on the arrows and drag to change the value in the small square. "
-"Stop when the number of the hook point that has to be used as pivot point"
-" is reached. In the main viewer the level moves using the point selected "
-"as new center."
+"Stop when **the number of the hook point** that has to be used as pivot "
+"point is reached. In the Viewer the level moves using the chosen point as"
+" new center."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:429
+#: ../../source/create_animations_using_plastic_tool.rst:480
 msgid ""
 "Do the same procedure of point 5 on the small square on the right of the "
-"Plastic modified level that was used as target for the link. Select the "
-"number of the skeleton vertex that has to be used as target reference "
-"point for the link. Into the main viewer the standard level moves to "
-"overlap the position of the hook point selected as reference to the "
-"position of the skeleton vertex selected on the Plastic modified level."
+"Plastic modified node that was used as target for the link. Select **the "
+"number of the skeleton vertex** that has to be used as target reference "
+"point for the link. Into the Viewer the standard level moves to overlap "
+"the position of the hook point selected as reference to the position of "
+"the skeleton vertex selected on the Plastic modified level."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:431
+#: ../../source/create_animations_using_plastic_tool.rst:482
 msgid ""
 "A mirror procedure can be used for linking a Plastic modified level to a "
-"standard Toonz level."
+"standard level."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:433
+#: ../../source/create_animations_using_plastic_tool.rst:484
 msgid "**To link Plastic modified levels**"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:435
+#: ../../source/create_animations_using_plastic_tool.rst:486
 msgid ""
 "The procedure requires that all the levels involved and that need to be "
 "linked using determined positions, have at least one skeleton built and "
 "one of its vertices has to be positioned at the desired spot for the "
-"linking. As said the Hook tool doesn’t work on the Plastic modified "
+"linking. As said, the Hook tool doesn’t work on the Plastic modified "
 "levels so, for exact positioning, skeleton vertices are needed as "
 "reference points both on the source and on the target of the link."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:437
+#: ../../source/create_animations_using_plastic_tool.rst:488
 msgid ""
-"Go to the Stage Schematic and select the node of the level that has to be"
-" linked. Click on the small square on its left side, and drag to one of "
-"the small squares on the right side of the target of the link. Now the "
-"two levels are linked but the reference points for the link are probably "
-"wrong (by default the Pegbar centers are used)."
+"Go to the Stage Schematic and select the node of the column/layer that "
+"has to be linked. Click on the small square on its left side, and drag to"
+" one of the small squares on the right side of the target of the link. "
+"Now the two levels are linked but the reference points for the link are "
+"probably wrong (by default the column/layer centers are used)."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:439
+#: ../../source/create_animations_using_plastic_tool.rst:490
 msgid ""
-"Hover on the small square on the left of the node of the first level "
-"until two small arrows appear."
+"Hover on the small square on the left of the node of the first node until"
+" two small arrows appear."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:441
+#: ../../source/create_animations_using_plastic_tool.rst:492
 msgid ""
 "Click on the arrows and drag to change the value in the small square. "
-"Stop when the number of the skeleton vertex point that has to be used as "
-"pivot point is reached. In the main viewer the level adjusts its position"
-" in respect of the new selected center."
+"Stop when **the number of the skeleton vertex** point that has to be used"
+" as pivot point is reached. In the Viewer the level adjusts its position "
+"in respect of the new selected center."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:443
+#: ../../source/create_animations_using_plastic_tool.rst:494
 msgid ""
 "Do the same procedure of point 3 on the small square on the right of the "
-"Plastic modified level that was used as target for the link. Select the "
-"number of the skeleton vertex that has to be used as target reference "
-"point for the link. Into the main viewer the first level moves to overlap"
-" the position of its selected skeleton vertex to that of the target "
-"skeleton vertex just selected."
+"Plastic modified node that was used as target for the link. Select **the "
+"number of the skeleton vertex** that has to be used as target reference "
+"point for the link. Into the Viewer the first level moves to overlap the "
+"position of its selected skeleton vertex to that of the target skeleton "
+"vertex just selected."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:448
+#: ../../source/create_animations_using_plastic_tool.rst:500
 msgid "Function Editor representation of Plastic data"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:449
+#: ../../source/create_animations_using_plastic_tool.rst:501
 msgid ""
-"While animating Plastic elements, key frames are created for the vertices"
-" of the skeleton. You can see them as standard key in the xsheet, or you "
-"can operate on the values of each vertex into the Function Editor."
+"While animating Plastic elements, keyframes are created for the vertices "
+"of the skeleton. You can see them as standard keyframes in the "
+"Xsheet/Timeline, or you can operate on the values of each vertex into the"
+" Function Editor."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:451
+#: ../../source/create_animations_using_plastic_tool.rst:503
 msgid ""
-"The keys of the Xsheet mark a key frame for the Plastic skeleton at the "
-"specified frame but don’t give any information about the number of "
-"vertices involved; they can be indifferently, one, some or all. Moving "
-"this key you can easily change the timing of the whole animation."
+"The keyframess of the Xsheet/Timeline mark a keyframe for the Plastic "
+"skeleton at the specified frame, but don’t give any information about the"
+" number of vertices involved or their actual keyframed properties; they "
+"can be indifferently, one, some or all. Moving these keyframes you can "
+"easily change the timing of the whole animation."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:453
+#: ../../source/create_animations_using_plastic_tool.rst:505
 msgid ""
-"The keys into the Function Editor are more ed, giving you the chance for "
-"fine-tuning and modify each vertex animation."
+"The keyframes into the Function Editor are more detailed, giving you the "
+"chance for fine-tuning and modify each vertex parameter animation."
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:455
+#: ../../source/create_animations_using_plastic_tool.rst:507
 msgid ""
-"When, in the Function Editor Browser, you open the folder of a column "
-"that has the Plastic tool applied, you can see a Plastic skeleton folder."
-" This Plastic skeleton folder contains the Skeleton Id channel and a "
-"number of subfolders: the Root subfolder and one subfolder for each "
-"vertex of the Plastic skeleton, labeled with the name of the related "
-"vertex."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:457
-msgid "|Toonz71_373|"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:459
-msgid ""
-"``The Skeleton Id``  channel contains the data related to which skeleton "
-"is active at a determined frame. If the level is using multiple skeletons"
-" here are visible the switches from one skeleton to the other both as "
-"numeric values as in graphical format."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:461
-msgid ""
-"``The Root``  subfolder shows all the parameters channels but only the SO"
-" (Staking Order) can be animated when this vertex is actually used as "
-"root of the skeleton"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:463
-msgid ""
-"``The vertices``  subfolders (one for each vertex of the skeleton\\s), if"
-" opened, shows three parameters: Angle, Distance and SO that are used to "
-"determine the position of the vertex at every frame during the animation."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:465
-msgid ""
-"The values of these parameters can be visualized into the Function Editor"
-" as numeric values or as curves, and modified as required."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:467
-msgid ""
-"The vertices of multiple skeletons are shown as a single list and not "
-"grouped for each skeleton. In this way the animation curve of the Vertex1"
-" is built using the animation values of the vertices named Vertex1 of all"
-" the skeletons of the mesh, so just one curve can be modified to adjust "
-"the animation of related vertices on different skeletons."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:472
-msgid "Use Mathematical Expression in Plastic Animation"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:473
-msgid ""
-"To use OpenToonz mathematical expressions in the Plastic Animation, link "
-"the vertices of the skeleton to each other or to a column, pegbar or "
-"camera."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:475
-msgid ""
-"This allow you to set some automatic actions of the skeleton, for example"
-" you can link the main vertices of the shoulders, so that moving just one"
-" shoulder the other moves automatically."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:477
-msgid ""
-"Suppose that the main vertices of the shoulders are named shoulder_left "
-"and shoulder_right, you can link the rotation of the shoulder_left vertex"
-" to the one of the shoulder_right one setting the following expression in"
-" the expression field of the angle parameter of the shoulder_left in the "
-"Function Editor:"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:479
-msgid "vertex(column_number, \"Shoulder_right\").angle"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:481
-msgid ""
-"If you prefer that the rotation of the left shoulder acting contrary to "
-"the one of the right one add a multiplication as following:"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:483
-msgid "vertex(2, \"Shoulder_right\").angle*-1"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:485
-msgid "The general syntax is:"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:487
-msgid "vertex(column_number, \"Vertex_name\").parameter"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:489
-msgid ""
-"For more information about the mathematical Expression usage refer to "
-"(See  :ref:`Using Interpolations Based on Expressions "
-"<using_interpolations_based_on_expressions>`  )."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:496
-msgid "Displaying Plastic elements and properties"
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:497
-msgid ""
-"While working with the Plastic tool there is an easy way for customizing "
-"which information have to be displayed in the main viewer. Clicking the "
-"right mouse button on the main viewer while the Plastic tool is active "
-"brings up a context menu. There are four checkboxes that sets the display"
-" property for the Mesh, the Rigidity, the SO (Stacking Order) and the "
-"Skeleton Onion Skin."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:499
-msgid ""
-"If the Show Mesh is enabled the mesh will be visible as a wire frame "
-"triangulated shape."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:504
-msgid ""
-"If the Show Rigidity is enabled, a continuous green shape will show the "
-"flexible areas while red areas showing the rigid portions."
+"When in the Function Editor Tree, you open the folder of a column/layer "
+"that has the Plastic tool applied, you can see a **Plastic Skeleton** "
+"folder. This folder contains the **Skeleton Id** channel, the **Root** "
+"subfolder, and one subfolder *for each vertex* of the Plastic skeleton, "
+"labeled with the name of the related vertex."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:509
-msgid ""
-"If the Show SO is enabled a grey shading shows the Stacking Order values "
-"of the vertices, lighter areas are on top, while darker ones are behind."
+msgid "|plastic_data_in_function_editor|"
 msgstr ""
 
-#: ../../source/create_animations_using_plastic_tool.rst:514
+#: ../../source/create_animations_using_plastic_tool.rst:511
 msgid ""
-"If the Show Skeleton Onion Skin is enabled, then the ghost of the "
-"skeleton at the selected frames is displayed at incremental levels of "
-"transparency."
+"The **Skeleton Id** channel contains the data related to which skeleton "
+"is active at a certain frame. If the level is using multiple skeletons "
+"here you can see the switches from one skeleton to the other, both as "
+"numeric values and in a graphical format."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:513
+msgid ""
+"The **Root** subfolder shows all the parameter channels, but only the "
+"**SO** (Staking Order) parameter can be animated when this vertex is "
+"actually used as root of the skeleton"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:515
+msgid ""
+"The **Vertex** subfolders (one for each vertex of the skeletons), contain"
+" three parameters: **Angle**, **Distance** and **SO**, that are used to "
+"determine the position of the vertex at every frame during the animation."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:517
+msgid ""
+"The values of these parameters can be visualized in the Function Editor "
+"as a spreadsheet or as curves, and modified as required."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:519
 msgid ""
-"All this information can be displayed at once (checking all the options) "
-"giving an overall description of the vertices state."
-msgstr ""
-
-#: ../../source/create_animations_using_plastic_tool.rst:524
-msgid "Plastic and subxsheets"
+"The vertices of multiple skeletons are shown as a single list, and *not "
+"grouped* for each skeleton. In this way the animation curve of *Vertex_1*"
+" is built using the animation values of the vertices named *Vertex_1* of "
+"all the skeletons of the mesh, so just one curve can be modified to "
+"adjust the animation of related vertices on different skeletons."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:525
-msgid ""
-"A subxsheet is a valid object for the Plastic tool and all or some of its"
-" columns can have a mesh for animating. When a subxsheet is selected as "
-"starting element, all the columns in the subxsheet that are visible when "
-"the Create Mesh button is pressed, are taken in count for the creation of"
-" the mesh for the selected subxsheet. These levels will be visible in "
-"render and will be deformed by the mesh transformations. If, after "
-"creating the mesh, the hidden level/s are set to visible, they will "
-"behave in slightly different way: they will be deformed by the mesh "
-"transformations, but they will be shown in render only for the portions "
-"that fall into the mesh boundaries, (their visibility is restricted to "
-"the mesh area, even if they are placed into a nested subxsheet with its "
-"own mesh and skeleton)."
+msgid "Use Mathematical Expressions in Plastic Animation"
 msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:526
+msgid ""
+"To use OpenToonz mathematical expressions in the Plastic Animation, you "
+"can link the vertices of the skeleton to each other or to a column/layer,"
+" pegbar or camera."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:528
+msgid ""
+"This allows to set some automatic actions of the skeleton, for example "
+"you can link the main vertices of the shoulders, so that moving just one "
+"shoulder automatically moves the other."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:530
+msgid ""
+"Suppose that the main vertices of the shoulders are named *Shoulder_left*"
+" and *Shoulder_right*, and the Mesh is in column 2 of the Xsheet (or "
+"layer 2 of the Timeline). You can set the rotation of *Shoulder_left* "
+"vertex to be the same amount of that of *Shoulder_right*, by setting in "
+"the Function Editor the following expression in the **Angle** parameter "
+"of *Shoulder_left*:"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:532
+msgid "``vertex(2, \"Shoulder_right\").angle``"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:534
+msgid ""
+"If you prefer the rotation of the left shoulder to react opposite to the "
+"one of the right shoulder, you could add a multiplication as following:"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:536
+msgid "``vertex(2, \"Shoulder_right\").angle*-1``"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:538
+msgid "The general syntax is:"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:540
+msgid "**vertex(column_number, \"vertex_name\").parameter**"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:542
+msgid ""
+"For more information about the *mathematical expressions* usage refer to "
+"(See  :ref:`Using Interpolations Based on Expressions "
+"<using_interpolations_based_on_expressions>`  )."
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:548
+msgid "Plastic and Sub-Xsheets"
+msgstr ""
+
+#: ../../source/create_animations_using_plastic_tool.rst:549
+msgid ""
+"A Sub-Xsheet is a valid object for the Plastic tool, and all or some of "
+"its columns can have a mesh for animating. When a Sub-Xsheet is selected "
+"as a starting element, all of the columns in the Sub-Xsheet visible when "
+"the **Create Mesh** button is pressed, are taken into count for the "
+"creation of the Mesh. These levels will be visible in render and will be "
+"deformed by Mesh transformations. If, after creating the Mesh, hidden "
+"levels are set to visible, they will behave in a slightly different way: "
+"they will be deformed by Mesh transformations, but they will be shown in "
+"render *only inside the mesh boundaries* (i.e. the Mesh acts as a *mask* "
+"that determines what is visible in the rendered image, even if the newly-"
+"shown levels are placed into a nested Sub-Xsheet with its own mesh and "
+"skeleton)."
+msgstr ""
+
+#~ msgid ""
+#~ "Plastic is a powerful tool ( "
+#~ "|Toonz71_357| ) that can be used "
+#~ "as complement in a cutout animation "
+#~ "context, as well as a stand-alone"
+#~ " animation tool capable of bringing "
+#~ "to life a character starting from "
+#~ "a single drawing. Using a reference "
+#~ "skeleton and a deformable mesh, Plastic"
+#~ " allows to curving and deforming each"
+#~ " element it is applied to creating"
+#~ " smooth animations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Plastic tool needs as starting "
+#~ "input at least one column of the"
+#~ " xsheet where one or more drawings"
+#~ " are exposed; from now on this "
+#~ "will be referred as the texture-"
+#~ "column (TC). Using the outlines of "
+#~ "the exposed drawing/s as references, the"
+#~ " Plastic tool generates a triangular "
+#~ "mesh contained in a new kind of"
+#~ " column: the Mesh column. Each newly"
+#~ " created Mesh columns is automatically "
+#~ "connected to the proper TC. This "
+#~ "link is a core point in the "
+#~ "way Plastic works: every column linked"
+#~ " to a mesh will be deformed by"
+#~ " the mesh and displayed within the"
+#~ " mesh boundaries while rendering."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For animating/deforming a mesh level, "
+#~ "Plastic allows the building of a "
+#~ "specific skeleton structure active on "
+#~ "the mesh. The skeleton is a set"
+#~ " of connected vertices, and, for each"
+#~ " vertex, different parameters can be "
+#~ "specified as: its position, Angle "
+#~ "Bounds, Rigidity and Staking Order. Thus"
+#~ " a great range of animations and "
+#~ "effects can easily be created."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Plastic tool is applied to a"
+#~ " column of the xsheet, and the "
+#~ "content of the column can be an"
+#~ " animated level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The first step for using Plastic "
+#~ "is creating a mesh for the xsheet"
+#~ " column that we are going to "
+#~ "animate using the Plastic tool. The "
+#~ "mesh is a new kind of Toonz "
+#~ "level, and can be saved as any "
+#~ "other kind of levels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The mesh level can be seen as "
+#~ "purple column created when the button"
+#~ " Create Mesh of the Plastic tool "
+#~ "is pressed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the column that is going to"
+#~ " be animated using the Plastic tool."
+#~ " This will be the texture-column "
+#~ "(TC) of the mesh that is going "
+#~ "to be created."
+#~ msgstr ""
+
+#~ msgid "Choose the Plastic tool ( |Toonz71_359| )"
+#~ msgstr ""
+
+#~ msgid "Press the Create Mesh button in the tool options bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check, in the dialog that opens, "
+#~ "the Mesh density in the preview "
+#~ "area. Adjust as needed the density "
+#~ "using the Mesh Edges Length slider."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The density of the mesh is crucial"
+#~ " for having smooth curves when "
+#~ "rotating the skeleton vertex. Lower the"
+#~ " Mesh Edges Length value and higher"
+#~ " the density of the mesh will "
+#~ "be, thus a better quality of the"
+#~ " animation will be assured, but even"
+#~ " more computing resources will be "
+#~ "required."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The preview will show you just one"
+#~ " level at time, even if you "
+#~ "have selected multiple columns, to check"
+#~ " the preview of each column you "
+#~ "have to select them one by one "
+#~ "while the Plastic tool is active. "
+#~ "Each time you change column selection"
+#~ " the preview will update for the "
+#~ "new content."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If needed change the value of the"
+#~ " Rasterization DPI parameter. This value"
+#~ " represents the DPI used when the "
+#~ "TC will be rendered as a texture"
+#~ " for the mesh. It is recommend "
+#~ "using a value consistent with the "
+#~ "Camera resolution. A DPI too high "
+#~ "compared to the Camera resolution might"
+#~ " cause that the contours may not "
+#~ "be very soft"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Rasterization DPI parameter is "
+#~ "available only when you are creating "
+#~ "mesh starting from Toonz Vector Levels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adjust the Mesh Margin value. This "
+#~ "parameter is expressed in pixels because"
+#~ " it is used when the texture is"
+#~ " projected on the mesh, the right "
+#~ "amount of margin is needed to "
+#~ "preserve the aliasing of the picture."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are creating a mesh from"
+#~ " a sub-xsheet, you can choose "
+#~ "which elements of the subxsheet will "
+#~ "be used by the Plastic tools for"
+#~ " computing the mesh: simply turn off"
+#~ " visibility for the elements that "
+#~ "will not contribute to the mesh "
+#~ "outline."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the Apply button to create "
+#~ "the mesh. Now you can see the "
+#~ "mesh drawn in green colour in the"
+#~ " main viewer, and a new purple "
+#~ "column in the Xsheet next to the"
+#~ " TC."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Into the Stage Schematic you can "
+#~ "see that the TC column is now "
+#~ "connected to the mesh column just "
+#~ "created, its node has a purple "
+#~ "header for easing recognition."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the Create Mesh is applied to"
+#~ " a column that is already modified"
+#~ " by the Plastic tool (then already"
+#~ " linked to a mesh) a dialog "
+#~ "will prompt asking how to manage "
+#~ "the new and the old mesh files,"
+#~ " and the user can choose one "
+#~ "from the different listed oprions: "
+#~ "|Toonz71_361|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``delete the old level entirely`` : "
+#~ "the original mesh file is replaced "
+#~ "by a new one with the data "
+#~ "of the last mesh generated; a new"
+#~ " column for the new mesh is "
+#~ "created as the old column retains "
+#~ "the old structure but exposes only "
+#~ "the new created mesh."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``keep the old level and overwrite "
+#~ "processed frames`` : the original mesh"
+#~ " file is updated and the old "
+#~ "mesh column exposes the new content "
+#~ "for the selected frames, a new "
+#~ "column is created exposing just the "
+#~ "contents of the selected frames."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``chose a different path`` (same name"
+#~ " as the original level plus _X "
+#~ "where X is the ordinal number of"
+#~ " the copy): an entirely new mesh "
+#~ "file is generated and a new column"
+#~ " exposes the new contents while the"
+#~ " old column exposes the old ones."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All the above options cause the "
+#~ "creation of a new mesh column and"
+#~ " the building of a chain, linking "
+#~ "the texture column and the meshes "
+#~ "columns, into the Stage Schematic. In"
+#~ " this chain the older mesh is "
+#~ "linked to the younger and the "
+#~ "youngest mesh is linked to the "
+#~ "texture-column. Rearranging the links into"
+#~ " the Stage Schematic can be needed"
+#~ " for avoiding undesired results while "
+#~ "animating."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Not always it is easy to estimate"
+#~ " the right density for a mesh. "
+#~ "Sometimes a higher density could be "
+#~ "needed to avoid straight lines on "
+#~ "bending elements, or a lower density "
+#~ "could be used for saving computing "
+#~ "resources in a complex scene, or, "
+#~ "simply, the drawings of an element "
+#~ "are changed. In all this occurrences "
+#~ "modifying the mesh can solve the "
+#~ "problem."
+#~ msgstr ""
+
+#~ msgid "**To update a Plastic mesh to reflect changing in the Level Strip:**"
+#~ msgstr ""
+
+#~ msgid "Select the mesh column that needs to be modified."
+#~ msgstr ""
+
+#~ msgid "Press the Create Mesh button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the dialog that opens change "
+#~ "the Mesh Edges Length slider value "
+#~ "as needed, checking the result in "
+#~ "the preview area."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the Apply button to create "
+#~ "the mesh. The new mesh replaces "
+#~ "the old one, and now is visible"
+#~ " drawn in green colour in the "
+#~ "main viewer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create the new frames (inserting them,"
+#~ " or appending them) as for a "
+#~ "standard Toonz level, corresponding to "
+#~ "the new frames created for the "
+#~ "Texture Column."
+#~ msgstr ""
+
+#~ msgid "Activate the Plastic tool."
+#~ msgstr ""
+
+#~ msgid "Press the Create Mesh button and adjust the Mesh Edges Length slider."
+#~ msgstr ""
+
+#~ msgid "Press the Apply button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The mesh created using the Create "
+#~ "Mesh button can be edited in "
+#~ "several way. It is possible to: "
+#~ "move a mesh point, swap, collapse, "
+#~ "split and cut a mesh edge."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Swap an edge if you want to "
+#~ "change the shape of a mesh "
+#~ "triangle; collapse an edge if you "
+#~ "want to join the ends of the "
+#~ "edge; split an edge if you want"
+#~ " to increase the density of the "
+#~ "mesh at a given point; cut the "
+#~ "mesh if you want to duplicate an"
+#~ " edge to have the possibility, for"
+#~ " example, to move the triangle points"
+#~ " and create a hole."
+#~ msgstr ""
+
+#~ msgid "The command is visible only if the selected edge can be cut."
+#~ msgstr ""
+
+#~ msgid "**To edit a Plastic mesh:**"
+#~ msgstr ""
+
+#~ msgid "Select in the Xsheet the mesh column you want to modify."
+#~ msgstr ""
+
+#~ msgid "If not already active, choose the Plastic tool ( |Toonz71_362| )"
+#~ msgstr ""
+
+#~ msgid "In the Tool Option bar set the Mode to Edit Mesh."
+#~ msgstr ""
+
+#~ msgid "**To move a mesh point:**"
+#~ msgstr ""
+
+#~ msgid "Select the mesh point you want to modify. It became red."
+#~ msgstr ""
+
+#~ msgid "Drag to move the point in the new position."
+#~ msgstr ""
+
+#~ msgid "Choose the Swap Edge command."
+#~ msgstr ""
+
+#~ msgid "Choose the Collapse Edge command."
+#~ msgstr ""
+
+#~ msgid "Choose the Split Edge command."
+#~ msgstr ""
+
+#~ msgid "**To cut an edge of the mesh:**"
+#~ msgstr ""
+
+#~ msgid "Choose the Cut Edge command."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Plastic skeleton is a control "
+#~ "structure linked to a mesh level "
+#~ "that gives us the handles for "
+#~ "deforming/animating the chosen element/s of"
+#~ " the xsheet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select in the Xsheet the mesh "
+#~ "column for which you want to build"
+#~ " the skeleton."
+#~ msgstr ""
+
+#~ msgid "If not already active, choose the Plastic tool ( |Toonz71_365| )"
+#~ msgstr ""
+
+#~ msgid "In the Tool Option bar set the Mode to Build Skeleton."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move the mouse pointer on the main"
+#~ " viewer. A small red square is "
+#~ "now visible near the tip of the"
+#~ " cursor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the main viewer click (to set"
+#~ " in place) or click and drag "
+#~ "(to adjust positioning) to place the "
+#~ "first vertex. A purple square is "
+#~ "now visible in the main viewer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The first time you release the "
+#~ "mouse button, you are setting the "
+#~ "position of the parent of all the"
+#~ " hierarchy, the Root vertex. This "
+#~ "vertex differs visually from the others"
+#~ " vertices: its square is solid while"
+#~ " the others are hollow in the "
+#~ "middle, giving a visual hint for "
+#~ "determining the right hierarchical order "
+#~ "in the skeleton chains. The Root "
+#~ "vertex will be static in Animate "
+#~ "mode, but it can still be moved"
+#~ " while in Build Skeleton mode by "
+#~ "selecting it and dragging."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move to the position where you "
+#~ "want to add the second vertex and"
+#~ " click or click and drag to "
+#~ "place it. An orange line with a"
+#~ " black border will connect the two"
+#~ " vertices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Continue clicking or clicking and "
+#~ "dragging until all the vertices are "
+#~ "in the right place and the "
+#~ "skeleton is completed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Every mesh level uses at least one"
+#~ " skeleton for animating, but this is"
+#~ " just the easier configuration for "
+#~ "working: a mesh level can have "
+#~ "multiple skeletons active at different "
+#~ "frames for building more complex "
+#~ "animations: like a character turn-"
+#~ "around, or for animating a level "
+#~ "with multiple drawings of different "
+#~ "shapes. Every time the drawings change"
+#~ " in shape, there a new ad-hoc"
+#~ " skeleton structure can be built with"
+#~ " the number of vertices needed and"
+#~ " placed in the right positions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Xsheet select the mesh "
+#~ "level and the frame where the new"
+#~ " skeleton is needed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Tool Options Bar press the"
+#~ " + button next the option menu "
+#~ "labeled Skeleton. A new numeric entry"
+#~ " is added to the list and a "
+#~ "key is created at the selected "
+#~ "frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Xsheet select the frame of"
+#~ " the mesh level where the skeleton"
+#~ " has to change."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Tool Options Bar open the"
+#~ " option menu labeled Skeleton: a list"
+#~ " of the ID numbers of the "
+#~ "already built skeletons opens."
+#~ msgstr ""
+
+#~ msgid "Select the ID number matching the skeleton you need."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The selected skeleton is now visible "
+#~ "in the main viewer area, and a "
+#~ "key is created at the chosen "
+#~ "frame."
+#~ msgstr ""
+
+#~ msgid "**To delete a skeleton from Skeleton list**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Xsheet select the mesh "
+#~ "level owning the skeleton that has "
+#~ "to be deleted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select from the Skeleton drop down "
+#~ "the ID matching the skeleton to "
+#~ "delete."
+#~ msgstr ""
+
+#~ msgid "Press the - button."
+#~ msgstr ""
+
+#~ msgid "Modifying a Plastic skeleton:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While drawing the skeleton, or when "
+#~ "finished to drawing it, some adjustments"
+#~ " to the vertices positions, or to "
+#~ "the number of vertices, may be "
+#~ "needed:"
+#~ msgstr ""
+
+#~ msgid "**To select a vertex:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While in Build Skeleton mode, move "
+#~ "the mouse pointer on an already "
+#~ "placed vertex."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click when the name of the vertex"
+#~ " appears and a dashed square encloses"
+#~ " the solid one marking the vertex "
+#~ "position."
+#~ msgstr ""
+
+#~ msgid "**To delete a vertex:**"
+#~ msgstr ""
+
+#~ msgid "While in Build Skeleton mode select the vertex that has to be deleted."
+#~ msgstr ""
+
+#~ msgid "Press the Canc key on your keyboard."
+#~ msgstr ""
+
+#~ msgid "**To insert a vertex:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While in Build Skeleton mode move "
+#~ "the mouse pointer on the line "
+#~ "connecting the two vertices that need"
+#~ " a joint between them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click to set the new vertex in "
+#~ "place or click and drag to adjust"
+#~ " the position of the new vertex."
+#~ msgstr ""
+
+#~ msgid "**To change a vertex position:**"
+#~ msgstr ""
+
+#~ msgid "Click on the vertex to select it and drag for adjusting its position."
+#~ msgstr ""
+
+#~ msgid "**To prevent a vertex to stretch the mesh:**"
+#~ msgstr ""
+
+#~ msgid "Uncheck the Allow Stretching option in the tool options bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**The square marking the vertex position"
+#~ " become yellow and from now the "
+#~ "vertex will not stretch the mesh "
+#~ "while you are moving it**"
+#~ msgstr ""
+
+#~ msgid "**To snap a vertex to the mesh**"
+#~ msgstr ""
+
+#~ msgid "Select the vertex that you wish to snap."
+#~ msgstr ""
+
+#~ msgid "Drag it near the mesh point at which you want to snap."
+#~ msgstr ""
+
+#~ msgid "**To branch the skeleton:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While in Build Skeleton mode, select "
+#~ "the vertex from which the new "
+#~ "branch will start."
+#~ msgstr ""
+
+#~ msgid "**To copy a skeleton:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While in Build Skeleton mode, select "
+#~ "the root vertex and click the "
+#~ "rigth mouse button."
+#~ msgstr ""
+
+#~ msgid "From the context menu that appears select the Copy Skeleton option."
+#~ msgstr ""
+
+#~ msgid "**To paste a skeleton:**"
+#~ msgstr ""
+
+#~ msgid "Select a mesh column in the xsheet."
+#~ msgstr ""
+
+#~ msgid "If needed press the + button to create a new empty skeleton."
+#~ msgstr ""
+
+#~ msgid "Click the rigth mouse button and select the Paste Skeleton option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Pasting the skeleton on an already "
+#~ "existing one will end up in losing"
+#~ " the old structure and all its "
+#~ "animations. This outcome can be reverted"
+#~ " to the previous state using the "
+#~ "Undo command."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creating an animation in Plastic is "
+#~ "quite an easy task: just select "
+#~ "the vertices and move them to the"
+#~ " desired position at a specific frame"
+#~ " and an animation key frame will "
+#~ "be created. Playback the sequence to "
+#~ "check the results."
+#~ msgstr ""
+
+#~ msgid "Select the mesh column you like to animate."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select Plastic tool and set Mode "
+#~ "to Animate. Now, in the main "
+#~ "viewer, you can see the skeleton "
+#~ "and the mesh of the selected "
+#~ "column."
+#~ msgstr ""
+
+#~ msgid "Select the first frame of the animation in the xsheet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the vertices of the skeleton "
+#~ "and move them to the desired "
+#~ "position to set the relative key "
+#~ "frames, or write the desired values "
+#~ "into the text fields of the tool"
+#~ " options bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move to the next key frame of "
+#~ "the animation and modify the vertices"
+#~ " positions to define a new pose."
+#~ msgstr ""
+
+#~ msgid "Repeat the step 5 until the end of the animation."
+#~ msgstr ""
+
+#~ msgid "**To set a rest position key for one vertex:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The first time you draw a skeleton"
+#~ " you are even creating the rest "
+#~ "position of this structure. This pose"
+#~ " is automatically stored and you can"
+#~ " recall it on the vertex."
+#~ msgstr ""
+
+#~ msgid "From the context menu select Set Rest Key. |Toonz71_368|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A new key at the current frame "
+#~ "is created using the rest values "
+#~ "for the selected vertex."
+#~ msgstr ""
+
+#~ msgid "**To set a Global rest position key for the whole skeleton:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The first time you draw a skeleton"
+#~ " you are even creating the rest "
+#~ "position of this structure. This pose"
+#~ " is automatically stored and you can"
+#~ " recall it on a the vertices."
+#~ msgstr ""
+
+#~ msgid "From the context menu select Set Global Rest Key."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A new key at the current frame "
+#~ "is created using the rest values "
+#~ "for all the vertices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If it is needed that the distance"
+#~ " between two joints doesn’t change "
+#~ "during the animation, check the Keep "
+#~ "Distance checkbox in the tool option "
+#~ "bar."
+#~ msgstr ""
+
+#~ msgid "**To set keys on all vertices at the same time:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default when you move a vertex"
+#~ " in Animate mode, you set a key"
+#~ " frame just for this selected vertex."
+#~ " For setting a key frame, "
+#~ "simultaneously for all the vertices of"
+#~ " the skeleton, just moving one of "
+#~ "them, check the Global Key checkbox."
+#~ msgstr ""
+
+#~ msgid "**To set a key for a vertex which hasn’t changed position:**"
+#~ msgstr ""
+
+#~ msgid "Select the vertex for which you want to create a key."
+#~ msgstr ""
+
+#~ msgid "Select the Set Key option from the context menu that opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**To set a key for all the "
+#~ "skeleton vertices which hasn’t changed "
+#~ "position:**"
+#~ msgstr ""
+
+#~ msgid "Select the Set Global Key option from the context menu that opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Write the value of the Stacking "
+#~ "Order you wish to assign to the"
+#~ " vertex, into the SO text field "
+#~ "of the tool options bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Plastic stacking order is a per "
+#~ "vertex characteristic, you have to "
+#~ "define the value you need for each"
+#~ " vertex you are interested in. The"
+#~ " default value is 0 for all the"
+#~ " vertices and can be modified freely"
+#~ " using positive or negative values as"
+#~ " needed."
+#~ msgstr ""
+
+#~ msgid "Select the vertex you want assign an Angle Bound."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set a bound for the vertex "
+#~ "rotation,setting a minimum and a maximum"
+#~ " rotation value inserting the values "
+#~ "in the relevant fields."
+#~ msgstr ""
+
+#~ msgid "**Defining Rigidity for a Plastic mesh**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In many occasions it may be "
+#~ "required that one or more portions "
+#~ "of the mesh that is been animated"
+#~ " using the Plastic tool, have to "
+#~ "preserve their shape even if following"
+#~ " the overall transformations of the "
+#~ "whole element, simulating a rigid "
+#~ "structure, or part of it. To "
+#~ "achieve this kind of effect a "
+#~ "Rigidity value can be painted directly"
+#~ " on the mesh."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Activating the Paint Rigid mode in "
+#~ "the tool Plastic options bar, a "
+#~ "specific drawing tool become available. "
+#~ "In the main viewer a red circle"
+#~ " is visible near the tip of the"
+#~ " mouse pointer, the size of the "
+#~ "circle is the size of the brush"
+#~ " you are going to use for "
+#~ "painting the rigidity on the mesh."
+#~ msgstr ""
+
+#~ msgid "**To paint rigidity on a mesh:**"
+#~ msgstr ""
+
+#~ msgid "Select the mesh column in the xsheet."
+#~ msgstr ""
+
+#~ msgid "Choose the Plastic tool ( |Toonz71_370| )"
+#~ msgstr ""
+
+#~ msgid "Set the Mode to Paint Rigid."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set the size of the brush moving"
+#~ " the Thickness slider or writing a"
+#~ " value into the appropriate text "
+#~ "field."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select Rigid from the option menu "
+#~ "next to the Thickness slider (Rigid "
+#~ "is the default value)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move the cursor on the main viewer"
+#~ " and start painting on the selected"
+#~ " mesh. The colour of the mesh "
+#~ "will change to red where painted. "
+#~ "Now the red areas behave as rigid"
+#~ " portions of the mesh."
+#~ msgstr ""
+
+#~ msgid "**To modify, correct, erase rigidity on a mesh:**"
+#~ msgstr ""
+
+#~ msgid "Choose the Plastic tool ( |Toonz71_372| )"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select Flex from the option menu "
+#~ "next to the Thickness slider (Rigid "
+#~ "is the default value)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move the cursor on the main viewer"
+#~ " and start painting on the selected"
+#~ " mesh. The colour of the mesh "
+#~ "will change to green where painted. "
+#~ "Now the green areas behave as "
+#~ "flexible portions of the mesh."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The default colour of a mesh is"
+#~ " green; it means that the whole "
+#~ "mesh is flexible. The red colour "
+#~ "is used to point out the rigid "
+#~ "areas of the mesh (if any was "
+#~ "defined). But if a mesh is all "
+#~ "painted in red colour it behaves "
+#~ "as a flexible one."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For building interesting and complex "
+#~ "animations it could be useful and "
+#~ "time saving to create a Parent ->"
+#~ " Children relation between standard Toonz"
+#~ " levels and Plastic modified levels, "
+#~ "or between Plastic modified levels, so"
+#~ " that the children levels inherit the"
+#~ " transformations of the parent "
+#~ "automatically. It is always possible to"
+#~ " link the levels using the Pegbar "
+#~ "as target but what if something "
+#~ "more subtler is needed as using "
+#~ "hooks? We have already described similar"
+#~ " techniques for OpenToonz standard elements"
+#~ " (see  :ref:`Linking Objects <linking_objects>`"
+#~ "  or  :ref:`Using Hooks <using_hooks>` ),"
+#~ " but Plastic modified levels works in"
+#~ " a slightly different way because the"
+#~ " Hook tool is not active on "
+#~ "this kind of levels. Plastic modified"
+#~ " levels use their skeleton vertices "
+#~ "instead of the hook points."
+#~ msgstr ""
+
+#~ msgid "Select in the Xsheet the level that has to be linked."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the Hook tool in the main "
+#~ "viewer to create a hook point on"
+#~ " the spot that will be used as"
+#~ " pivot for the level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to the Stage Schematic and "
+#~ "select the node of the level that"
+#~ " has to be linked. Click on the"
+#~ " small square on its left side, "
+#~ "and drag to one of the small "
+#~ "squares on the right side of the"
+#~ " Plastic modified level target of the"
+#~ " link. Now the two levels are "
+#~ "linked but the reference points for "
+#~ "the link are probably wrong (by "
+#~ "default the Pegbar centers are used)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on the arrows and drag to"
+#~ " change the value in the small "
+#~ "square. Stop when the number of "
+#~ "the hook point that has to be "
+#~ "used as pivot point is reached. In"
+#~ " the main viewer the level moves "
+#~ "using the point selected as new "
+#~ "center."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do the same procedure of point 5"
+#~ " on the small square on the "
+#~ "right of the Plastic modified level "
+#~ "that was used as target for the"
+#~ " link. Select the number of the "
+#~ "skeleton vertex that has to be "
+#~ "used as target reference point for "
+#~ "the link. Into the main viewer the"
+#~ " standard level moves to overlap the"
+#~ " position of the hook point selected"
+#~ " as reference to the position of "
+#~ "the skeleton vertex selected on the "
+#~ "Plastic modified level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A mirror procedure can be used for"
+#~ " linking a Plastic modified level to"
+#~ " a standard Toonz level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The procedure requires that all the "
+#~ "levels involved and that need to "
+#~ "be linked using determined positions, "
+#~ "have at least one skeleton built "
+#~ "and one of its vertices has to "
+#~ "be positioned at the desired spot "
+#~ "for the linking. As said the Hook"
+#~ " tool doesn’t work on the Plastic "
+#~ "modified levels so, for exact "
+#~ "positioning, skeleton vertices are needed "
+#~ "as reference points both on the "
+#~ "source and on the target of the"
+#~ " link."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to the Stage Schematic and "
+#~ "select the node of the level that"
+#~ " has to be linked. Click on the"
+#~ " small square on its left side, "
+#~ "and drag to one of the small "
+#~ "squares on the right side of the"
+#~ " target of the link. Now the "
+#~ "two levels are linked but the "
+#~ "reference points for the link are "
+#~ "probably wrong (by default the Pegbar"
+#~ " centers are used)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hover on the small square on the"
+#~ " left of the node of the first"
+#~ " level until two small arrows appear."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on the arrows and drag to"
+#~ " change the value in the small "
+#~ "square. Stop when the number of "
+#~ "the skeleton vertex point that has "
+#~ "to be used as pivot point is "
+#~ "reached. In the main viewer the "
+#~ "level adjusts its position in respect"
+#~ " of the new selected center."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do the same procedure of point 3"
+#~ " on the small square on the "
+#~ "right of the Plastic modified level "
+#~ "that was used as target for the"
+#~ " link. Select the number of the "
+#~ "skeleton vertex that has to be "
+#~ "used as target reference point for "
+#~ "the link. Into the main viewer the"
+#~ " first level moves to overlap the "
+#~ "position of its selected skeleton vertex"
+#~ " to that of the target skeleton "
+#~ "vertex just selected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While animating Plastic elements, key "
+#~ "frames are created for the vertices "
+#~ "of the skeleton. You can see them"
+#~ " as standard key in the xsheet, "
+#~ "or you can operate on the values"
+#~ " of each vertex into the Function "
+#~ "Editor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The keys of the Xsheet mark a "
+#~ "key frame for the Plastic skeleton "
+#~ "at the specified frame but don’t "
+#~ "give any information about the number"
+#~ " of vertices involved; they can be"
+#~ " indifferently, one, some or all. "
+#~ "Moving this key you can easily "
+#~ "change the timing of the whole "
+#~ "animation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The keys into the Function Editor "
+#~ "are more ed, giving you the chance"
+#~ " for fine-tuning and modify each "
+#~ "vertex animation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When, in the Function Editor Browser,"
+#~ " you open the folder of a "
+#~ "column that has the Plastic tool "
+#~ "applied, you can see a Plastic "
+#~ "skeleton folder. This Plastic skeleton "
+#~ "folder contains the Skeleton Id channel"
+#~ " and a number of subfolders: the "
+#~ "Root subfolder and one subfolder for "
+#~ "each vertex of the Plastic skeleton, "
+#~ "labeled with the name of the "
+#~ "related vertex."
+#~ msgstr ""
+
+#~ msgid "|Toonz71_373|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``The Skeleton Id``  channel contains "
+#~ "the data related to which skeleton "
+#~ "is active at a determined frame. "
+#~ "If the level is using multiple "
+#~ "skeletons here are visible the switches"
+#~ " from one skeleton to the other "
+#~ "both as numeric values as in "
+#~ "graphical format."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``The Root``  subfolder shows all the"
+#~ " parameters channels but only the SO"
+#~ " (Staking Order) can be animated when"
+#~ " this vertex is actually used as "
+#~ "root of the skeleton"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``The vertices``  subfolders (one for "
+#~ "each vertex of the skeleton\\s), if "
+#~ "opened, shows three parameters: Angle, "
+#~ "Distance and SO that are used to"
+#~ " determine the position of the vertex"
+#~ " at every frame during the animation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The values of these parameters can "
+#~ "be visualized into the Function Editor"
+#~ " as numeric values or as curves, "
+#~ "and modified as required."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The vertices of multiple skeletons are"
+#~ " shown as a single list and not"
+#~ " grouped for each skeleton. In this"
+#~ " way the animation curve of the "
+#~ "Vertex1 is built using the animation "
+#~ "values of the vertices named Vertex1 "
+#~ "of all the skeletons of the mesh,"
+#~ " so just one curve can be "
+#~ "modified to adjust the animation of "
+#~ "related vertices on different skeletons."
+#~ msgstr ""
+
+#~ msgid "Use Mathematical Expression in Plastic Animation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To use OpenToonz mathematical expressions "
+#~ "in the Plastic Animation, link the "
+#~ "vertices of the skeleton to each "
+#~ "other or to a column, pegbar or"
+#~ " camera."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This allow you to set some "
+#~ "automatic actions of the skeleton, for"
+#~ " example you can link the main "
+#~ "vertices of the shoulders, so that "
+#~ "moving just one shoulder the other "
+#~ "moves automatically."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Suppose that the main vertices of "
+#~ "the shoulders are named shoulder_left "
+#~ "and shoulder_right, you can link the "
+#~ "rotation of the shoulder_left vertex to"
+#~ " the one of the shoulder_right one"
+#~ " setting the following expression in "
+#~ "the expression field of the angle "
+#~ "parameter of the shoulder_left in the"
+#~ " Function Editor:"
+#~ msgstr ""
+
+#~ msgid "vertex(column_number, \"Shoulder_right\").angle"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you prefer that the rotation of"
+#~ " the left shoulder acting contrary to"
+#~ " the one of the right one add"
+#~ " a multiplication as following:"
+#~ msgstr ""
+
+#~ msgid "vertex(2, \"Shoulder_right\").angle*-1"
+#~ msgstr ""
+
+#~ msgid "vertex(column_number, \"Vertex_name\").parameter"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For more information about the "
+#~ "mathematical Expression usage refer to "
+#~ "(See  :ref:`Using Interpolations Based on "
+#~ "Expressions <using_interpolations_based_on_expressions>`  "
+#~ ")."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While working with the Plastic tool "
+#~ "there is an easy way for "
+#~ "customizing which information have to be"
+#~ " displayed in the main viewer. "
+#~ "Clicking the right mouse button on "
+#~ "the main viewer while the Plastic "
+#~ "tool is active brings up a context"
+#~ " menu. There are four checkboxes that"
+#~ " sets the display property for the"
+#~ " Mesh, the Rigidity, the SO (Stacking"
+#~ " Order) and the Skeleton Onion Skin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the Show Mesh is enabled the"
+#~ " mesh will be visible as a wire"
+#~ " frame triangulated shape."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the Show Rigidity is enabled, a"
+#~ " continuous green shape will show the"
+#~ " flexible areas while red areas "
+#~ "showing the rigid portions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the Show SO is enabled a "
+#~ "grey shading shows the Stacking Order"
+#~ " values of the vertices, lighter "
+#~ "areas are on top, while darker "
+#~ "ones are behind."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the Show Skeleton Onion Skin is"
+#~ " enabled, then the ghost of the "
+#~ "skeleton at the selected frames is "
+#~ "displayed at incremental levels of "
+#~ "transparency."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All this information can be displayed"
+#~ " at once (checking all the options)"
+#~ " giving an overall description of the"
+#~ " vertices state."
+#~ msgstr ""
+
+#~ msgid "Plastic and subxsheets"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A subxsheet is a valid object for"
+#~ " the Plastic tool and all or "
+#~ "some of its columns can have a "
+#~ "mesh for animating. When a subxsheet "
+#~ "is selected as starting element, all "
+#~ "the columns in the subxsheet that "
+#~ "are visible when the Create Mesh "
+#~ "button is pressed, are taken in "
+#~ "count for the creation of the mesh"
+#~ " for the selected subxsheet. These "
+#~ "levels will be visible in render "
+#~ "and will be deformed by the mesh"
+#~ " transformations. If, after creating the"
+#~ " mesh, the hidden level/s are set "
+#~ "to visible, they will behave in "
+#~ "slightly different way: they will be "
+#~ "deformed by the mesh transformations, "
+#~ "but they will be shown in render"
+#~ " only for the portions that fall "
+#~ "into the mesh boundaries, (their "
+#~ "visibility is restricted to the mesh "
+#~ "area, even if they are placed into"
+#~ " a nested subxsheet with its own "
+#~ "mesh and skeleton)."
+#~ msgstr ""
 
