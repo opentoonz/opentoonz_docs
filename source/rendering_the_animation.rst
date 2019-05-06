@@ -366,7 +366,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To define the previewed images background color:**
 
-    1. Choose Xsheet > **Scene Settings...*
+    1. Choose Xsheet > **Scene Settings...**
 
     2. Set the **Camera BG Color** by doing one of the following:
 
