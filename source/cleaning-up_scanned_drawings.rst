@@ -14,6 +14,7 @@ The process generates a Toonz raster level (TLV format) and the related default 
 The Cleanup Settings
 --------------------
  |cleanup_settings|
+ 
 The cleanup process can be controlled by using the Cleanup Settings that include Cleanup, Processing and Camera parameters.
 
 Usually settings are defined and checked for one of the level drawings, then applied to the whole animation level. If all of the drawings in the scene have the same characteristics, it is very likely that the same settings can be used for every drawing throughout all of the animation levels.
@@ -34,6 +35,7 @@ The Cleanup parameters set the autocentering information and some geometric tran
 Autocentering
 ~~~~~~~~~~~~~
  |autocentering|
+ 
 The Autocenter option aligns lineart drawings and full-color images according to the shape and position of the pegbar holes, in order to set the correct registration for them, once they are used in an animation scene.
 
 Pegbar holes have to be included properly during the scanning process in order to be recognized during the process (see  :ref:`Scanning Guidelines for Autocentering <scanning_guidelines_for_autocentering>`  ). 
@@ -65,11 +67,13 @@ Other Cleanup Parameters
 The Cleanup pane contains also other parameters that can be activated regardless of the autocenter, as they will affect processed images even if the Autocenter option is not activated. Parameters are the following:
 
  |rotate|
+ 
 - Rotate, rotates the image by 90° steps clockwise. It can be used to set the right orientation for images scanned with a different direction in order to fit the scanner bed.
 
 - Flip, mirrors the image horizontally, vertically or both, according to the activated options. It can be used, for example, when processing a shadow level drawn on the other side of the paper where the character level is drawn, in order to match the two animation levels later.
 
  |savein|
+ 
 - Save In, lets you define the folder where the cleaned up drawings are saved. By default it is set to the +drawings default folder of the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
 
