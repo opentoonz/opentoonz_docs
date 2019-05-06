@@ -545,7 +545,7 @@ For more information about the *mathematical expressions* usage refer to (See  :
 .. _plastic_and_subxsheets:
 
 Plastic and Sub-Xsheets
-----------------------
+-----------------------
 A Sub-Xsheet is a valid object for the Plastic tool, and all or some of its columns can have a mesh for animating. When a Sub-Xsheet is selected as a starting element, all of the columns in the Sub-Xsheet visible when the **Create Mesh** button is pressed, are taken into count for the creation of the Mesh. These levels will be visible in render and will be deformed by Mesh transformations. If, after creating the Mesh, hidden levels are set to visible, they will behave in a slightly different way: they will be deformed by Mesh transformations, but they will be shown in render *only inside the mesh boundaries* (i.e. the Mesh acts as a *mask* that determines what is visible in the rendered image, even if the newly-shown levels are placed into a nested Sub-Xsheet with its own mesh and skeleton).
 
 
