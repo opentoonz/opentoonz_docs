@@ -479,16 +479,20 @@ When the Animation tool is in **All** mode, you can also interactively control t
 - **Position:** Click and drag anywhere to move the object; if the **Shift** key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
 - **Rotate:** Click and drag the circle end to rotate the object;
+
 |animate_tool_handle_rotate|
 
 - **Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in the options bar; if no constraint is set and the **Shift** key is pressed while dragging, the scaling will be uniform.
+
 |animate_tool_handle_scale|
 |animate_tool_handle_scaleHV|
 
 - **Shear:** Click and drag the parallelogram end to shear the object; if the **Shift** key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction.
+
 |animate_tool_handle_shear|
 
 - **Center:** Click and drag the double circle at the center to change the center of the object.
+
 |animate_tool_handle_center|
 
 .. note:: The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the Center is changed many times, and you want to set it back to its original position, right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens.
