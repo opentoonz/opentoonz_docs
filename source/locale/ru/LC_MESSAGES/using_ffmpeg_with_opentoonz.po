@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 12:15+0800\n"
+"POT-Creation-Date: 2019-05-09 19:25+0800\n"
 "PO-Revision-Date: 2019-05-09 13:28+0800\n"
 "Last-Translator: user <surkow.aleksandr@gmail.com>\n"
+"Language: ru_RU\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:4
 msgid "Using FFmpeg with OpenToonz"
@@ -34,17 +33,17 @@ msgid ""
 "on Mac, OpenToonz requires the FFmpeg multimedia framework to be "
 "installed on your machine."
 msgstr ""
-"Чтобы визуализировать анимацию в виде **mp4** или **webm**, а также в виде"
-" **gif** на Mac, OpenToonz требует, чтобы на вашем компьютере была"
-" установлена ​​мультимедийная инфраструктура FFmpeg."
+"Чтобы визуализировать анимацию в виде **mp4** или **webm**, а также в "
+"виде **gif** на Mac, OpenToonz требует, чтобы на вашем компьютере была "
+"установлена ​​мультимедийная инфраструктура FFmpeg."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:9
 msgid ""
 "For more information, please visit this page: `About FFmpeg "
 "<https://www.ffmpeg.org/about.html>`_"
 msgstr ""
-"Для получения дополнительной информации, пожалуйста, посетите эту страницу:"
-" `О FFmpeg <https://www.ffmpeg.org/about.html>`_"
+"Для получения дополнительной информации, пожалуйста, посетите эту "
+"страницу: `О FFmpeg <https://www.ffmpeg.org/about.html>`_"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:12
 msgid "Installing FFmpeg for Windows"
@@ -61,8 +60,8 @@ msgid ""
 "To download FFmpeg, first visit this page: `Download FFmpeg "
 "<https://www.ffmpeg.org/download.html>`_"
 msgstr ""
-"Чтобы загрузить FFmpeg, сначала посетите эту страницу: `Загрузить FFmpeg <"
-"https://www.ffmpeg.org/download.html>`_"
+"Чтобы загрузить FFmpeg, сначала посетите эту страницу: `Загрузить FFmpeg "
+"<https://www.ffmpeg.org/download.html>`_"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:19
 #: ../../source/using_ffmpeg_with_opentoonz.rst:66
@@ -114,8 +113,8 @@ msgid ""
 "Once you have downloaded the FFmpeg zip archive, open it and double-click"
 " on the first folder."
 msgstr ""
-"Как только вы загрузите zip-архив FFmpeg, откройте его и дважды щелкните"
-" первую папку."
+"Как только вы загрузите zip-архив FFmpeg, откройте его и дважды щелкните "
+"первую папку."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:37
 #: ../../source/using_ffmpeg_with_opentoonz.rst:85
@@ -127,8 +126,8 @@ msgid ""
 "Create a new folder on your computer, the recommended location is "
 "**C:\\\\**."
 msgstr ""
-"Создайте новую папку на вашем компьютере, рекомендуемое расположение -"
-" **C:\\\\**."
+"Создайте новую папку на вашем компьютере, рекомендуемое расположение - "
+"**C:\\\\**."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:40
 msgid "Name the new folder **FFmpeg**."
@@ -139,8 +138,7 @@ msgstr "Назовите новую папку **FFmpeg**."
 msgid ""
 "Drag the contents of the **bin** folder from the archive into the newly "
 "created folder."
-msgstr ""
-"Перетащите содержимое папки **bin** из архива во вновь созданную папку."
+msgstr "Перетащите содержимое папки **bin** из архива во вновь созданную папку."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:43
 msgid "|ffmpeg_extracted_windows|"
@@ -148,12 +146,13 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:45
 #: ../../source/using_ffmpeg_with_opentoonz.rst:96
+#, fuzzy
 msgid ""
-"Next, start OpenToonz and open the **User Preferences** window with "
-"``File > Preferences...``"
+"Next, start OpenToonz and open the **Preferences** window with ``File > "
+"Preferences...``"
 msgstr ""
-"Затем запустите OpenToonz и откройте окно **Настройки программы...** с ``Файл"
-" > Настройки программы...``"
+"Затем запустите OpenToonz и откройте окно **Настройки программы...** с "
+"``Файл > Настройки программы...``"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:46
 #: ../../source/using_ffmpeg_with_opentoonz.rst:97
@@ -162,16 +161,16 @@ msgid ""
 "Navigate to the **Import/Export** category; at the top you will see a box"
 " with the text **FFmpeg path**."
 msgstr ""
-"Перейдите в категорию **Импорт/Экспорт**; вверху вы увидите поле с текстом"
-" **Путь к FFmpeg**."
+"Перейдите в категорию **Импорт/Экспорт**; вверху вы увидите поле с "
+"текстом **Путь к FFmpeg**."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:47
 msgid ""
 "Insert the path to your FFmpeg folder that you created earlier, if you "
 "have used the recommended path, this will be **C:\\\\FFmpeg\\\\**:"
 msgstr ""
-"Вставьте путь к папке FFmpeg, которую вы создали ранее, если вы использовали"
-" рекомендуемый путь, это будет **C:\\\\FFmpeg\\\\**:"
+"Вставьте путь к папке FFmpeg, которую вы создали ранее, если вы "
+"использовали рекомендуемый путь, это будет **C:\\\\FFmpeg\\\\**:"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:49
 msgid "|ffmpeg_path_windows|"
@@ -188,7 +187,8 @@ msgstr "Перезапустите OpenToonz. "
 #: ../../source/using_ffmpeg_with_opentoonz.rst:133
 msgid "Open the **Output Settings** window with ``File > Output Settings...``"
 msgstr ""
-"Откройте окно **Настройки вывода** с помощью ``Файл >  Настройки вывода ...``"
+"Откройте окно **Настройки вывода** с помощью ``Файл >  Настройки вывода "
+"...``"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:54
 msgid ""
@@ -213,8 +213,7 @@ msgid "|packages_mac|"
 msgstr ""
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:74
-msgid ""
-"Make sure **macOS 64-bit** is selected under the **Architecture** column."
+msgid "Make sure **macOS 64-bit** is selected under the **Architecture** column."
 msgstr "Убедитесь, что в столбце **Architecture** выбрано **macOS 64-bit**."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:76
@@ -226,8 +225,8 @@ msgid ""
 "Open Finder and create a new folder, the **Applications/OpenToonz** "
 "folder is the recommended location."
 msgstr ""
-"Откройте Finder и создайте новую папку, папка **Applications/OpenToonz**"
-" является рекомендуемым местом."
+"Откройте Finder и создайте новую папку, папка **Applications/OpenToonz** "
+"является рекомендуемым местом."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:89
 msgid "|ffmpeg_finder|"
@@ -247,8 +246,9 @@ msgid ""
 "have used the recommended path, this will be "
 "**/Applications/OpenToonz/FFmpeg**:"
 msgstr ""
-"Вставьте путь к папке FFmpeg, которую вы создали ранее, если вы использовали"
-" рекомендуемый путь, это будет **/Applications/OpenToonz/FFmpeg**:"
+"Вставьте путь к папке FFmpeg, которую вы создали ранее, если вы "
+"использовали рекомендуемый путь, это будет "
+"**/Applications/OpenToonz/FFmpeg**:"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:100
 msgid "|ffmpeg_path_mac|"
@@ -260,8 +260,8 @@ msgid ""
 "In the **File Settings** subsection, you should now see **mp4**, **webm**"
 " and **gif**."
 msgstr ""
-"В подразделе **Настройки файла** вы должны увидеть **mp4**, **webm** и"
-" **gif**."
+"В подразделе **Настройки файла** вы должны увидеть **mp4**, **webm** и "
+"**gif**."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:107
 msgid "|output_settings_mac|"
@@ -276,8 +276,8 @@ msgid ""
 "To install FFmpeg, enter the following command in the terminal window "
 "depending on your distribution."
 msgstr ""
-"Чтобы установить FFmpeg, введите следующую команду в окне терминала в"
-" зависимости от вашего дистрибутива. "
+"Чтобы установить FFmpeg, введите следующую команду в окне терминала в "
+"зависимости от вашего дистрибутива. "
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:114
 msgid "Arch Linux: ``# pacman -S extra/ffmpeg``"
@@ -301,8 +301,9 @@ msgid ""
 "documentation or visit the `FFmpeg website "
 "<https://www.ffmpeg.org/download.html>`_."
 msgstr ""
-"Если вы используете другой дистрибутив Linux, обратитесь к его документации"
-" или посетите `сайт FFmpeg <https://www.ffmpeg.org/download.html>`_."
+"Если вы используете другой дистрибутив Linux, обратитесь к его "
+"документации или посетите `сайт FFmpeg "
+"<https://www.ffmpeg.org/download.html>`_."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:124
 msgid ""
@@ -311,14 +312,15 @@ msgid ""
 " usually it is **/usr/bin/ffmpeg**. Enter in the terminal window command "
 "``which ffmpeg`` to find out."
 msgstr ""
-"Чтобы можно было экспортировать файлы в форматах **mp4**, **webm** или"
-" **gif**, вам необходимо указать путь к FFmpeg, установленному в вашей"
-" системе, обычно это **/usr/bin/ffmpeg**. Введите в окне терминала команду"
+"Чтобы можно было экспортировать файлы в форматах **mp4**, **webm** или "
+"**gif**, вам необходимо указать путь к FFmpeg, установленному в вашей "
+"системе, обычно это **/usr/bin/ffmpeg**. Введите в окне терминала команду"
 " ``which ffmpeg`` чтобы знать наверняка."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:126
+#, fuzzy
 msgid ""
-"Start OpenToonz and open the **User Preferences** window with ``File > "
+"Start OpenToonz and open the **Preferences** window with ``File > "
 "Preferences...``"
 msgstr ""
 "Запустите OpenToonz и откройте окно **Настройки пользователя** с ``Файл >"
@@ -335,5 +337,4 @@ msgstr ""
 #: ../../source/using_ffmpeg_with_opentoonz.rst:137
 msgid "|output_settings_linux|"
 msgstr ""
-
 
