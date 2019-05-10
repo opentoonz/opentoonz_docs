@@ -40,7 +40,7 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     5. Click OK and exit from the Registry Editor application.
 
-    6. Restart Toonz Harlequin to make the change effective.
+    6. Restart OpenToonz to make the change effective.
 
 .. tip:: **To add a projectroot on Windows:**
 
