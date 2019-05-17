@@ -66,6 +66,7 @@ Configuring the Version Control in OpenToonz
 Once the version control server is configured and the version control client is installed it's possible to configure OpenToonz in order to use the version control.
 
 In OpenToonz the version control information is stored in the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder. By default the file has the following content:
+
     .. code-block:: xml
 
         <?xml version="1.0" encoding="UTF-8"?>
@@ -108,11 +109,13 @@ Together with the configuration file, version control *users* must be defined by
     ``<repoPath>putYourRepositoryPath</repoPath>``
     type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
 
-For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
-    ``<svnPath></svnPath>``
-type between the tags the path to the folder where Subversion is installed (this information is displayed in the last page of the installation process and by default is ``/opt/subversion/bin`` ). 
+    For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
 
-Save the ``versioncontrol.xml``  file.
+    ``<svnPath></svnPath>``
+
+    type between the tags the path to the folder where Subversion is installed (this information is displayed in the last page of the installation process and by default is ``/opt/subversion/bin`` ). 
+
+    Save the ``versioncontrol.xml``  file.
 
 
 .. tip:: **To define the version control users:**
@@ -120,6 +123,7 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
+    
         .. code-block:: xml
 
             <user name="JohnDoe">
@@ -135,6 +139,7 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. Add after the lines defining a repository the following lines:
+    
         .. code-block:: xml
 
             <repository>
@@ -154,6 +159,7 @@ Save the ``versioncontrol.xml``  file.
     1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
+    
         .. code-block:: xml
 
             <user name="JohnDoe">
@@ -235,9 +241,9 @@ In case you are *getting* or *putting* scene files (TNZ format), in the dialog t
 
     2. In the dialog that opens do any of the following:
 
-    - If you are putting a folder, check which files and folders contained by the selected folder have to be put in the central repository.
+     - If you are putting a folder, check which files and folders contained by the selected folder have to be put in the central repository.
 
-    - If you are putting a scene file (TNZ format) activate the **Put Scene Contents** if you want to put the files used in the scene as well.
+     - If you are putting a scene file (TNZ format) activate the **Put Scene Contents** if you want to put the files used in the scene as well.
 
     3. Type a comment if required and click the **Put** button.
 
@@ -274,9 +280,9 @@ If you want to release files from the *editing mode*, you can **Unlock** them.
 
     3. Type a comment if required and do one of the following:
 
-    - Click the **Get and Edit** button to get the latest version of the files and edit them.
+     - Click the **Get and Edit** button to get the latest version of the files and edit them.
 
-    - Click the **Edit** button to edit the version of the files that is currently in your local working copy.
+     - Click the **Edit** button to edit the version of the files that is currently in your local working copy.
 
 .. tip:: **To edit only the needed frames of a Toonz level file:**
 
@@ -315,9 +321,9 @@ When getting a revision of a scene file (TNZ format), in the dialog that opens i
 
     3. Do one of the following:
 
-    - Click the **Get Selected Revision** button to get the selected file version.
+     - Click the **Get Selected Revision** button to get the selected file version.
 
-    - Click the **Get Last Revision** button to get the latest file version.
+     - Click the **Get Last Revision** button to get the latest file version.
 
 .. tip:: **To retrieve an older revision of a selection of multiple files:**
 
@@ -325,13 +331,13 @@ When getting a revision of a scene file (TNZ format), in the dialog that opens i
 
     2. In the dialog that opens specify how much older the version of the files you want to retrieve has to be by doing one of the following: |Toonz71_576| 
 
-    - Specify a *time* in hours and minutes.
+     - Specify a *time* in hours and minutes.
 
-    - Specify a number of *days*.
+     - Specify a number of *days*.
 
-    - Specify a number of *weeks*.
+     - Specify a number of *weeks*.
 
-    - Specify and exact *date and time*.
+     - Specify and exact *date and time*.
 
     3. Click the **Update** button.
 
