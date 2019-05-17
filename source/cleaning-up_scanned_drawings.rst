@@ -519,7 +519,7 @@ Cleaning up Drawings in Batch Mode
 ''''''''''''''''''''''''''''''''''
 The cleanup of drawings exposed in a scene can be added to a task list and performed in batch mode in order to run it in the background while you perform other work on your computer.
 
-Cleanup tasks can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with render tasks (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`  s).
+Cleanup tasks can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with render tasks (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`).
 
 The Tasks pane is divided into two sections: on the left there is the task tree where all of the cleanup tasks are displayed with a brush icon and all of the render tasks with a clapboard icon; on the right there is information about the task selected in the tree.
 
@@ -593,15 +593,11 @@ When a cleanup task is selected in the tree, in the section on the right of the 
 
 - Priority sets the importance or urgency of the task: tasks with a higher priority will be executed first. This can be edited to change the priority of a task.
 
-- Visible Only, when activated, limits the cleanup process only to columns whose camera stand toggle (|camera_stand|) is on, that is to say whose content is visible (see 
+- Visible Only, when activated, limits the cleanup process only to columns whose camera stand toggle (|camera_stand|) is on, that is to say whose content is visible (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`).
 
-:ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ).
+- Overwrite, when activated, processes levels even if they are already available in the destination folder, overwriting them.
 
-
-
-    - Overwrite, when activated, processes levels even if they are already available in the destination folder, overwriting them.
-
-    - Dependencies lets you set which of the other submitted tasks have to be successfully completed before starting the current task execution: these tasks can be added from the box on the right where all submitted tasks are displayed.
+- Dependencies lets you set which of the other submitted tasks have to be successfully completed before starting the current task execution: these tasks can be added from the box on the right where all submitted tasks are displayed.
 
 Task execution can be started and stopped from the task list. If you are using the OpenToonz render farm, render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the OpenToonz Farm <using_the_toonz_farm>`  ). 
 
