@@ -109,13 +109,13 @@ Together with the configuration file, version control *users* must be defined by
     ``<repoPath>putYourRepositoryPath</repoPath>``
     type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
 
-    For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
+     For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
 
     ``<svnPath></svnPath>``
 
-    type between the tags the path to the folder where Subversion is installed (this information is displayed in the last page of the installation process and by default is ``/opt/subversion/bin`` ). 
+     type between the tags the path to the folder where Subversion is installed (this information is displayed in the last page of the installation process and by default is ``/opt/subversion/bin`` ). 
 
-    Save the ``versioncontrol.xml``  file.
+    6. Save the ``versioncontrol.xml``  file.
 
 
 .. tip:: **To define the version control users:**
@@ -147,9 +147,8 @@ Together with the configuration file, version control *users* must be defined by
                 <localPath>putYourWorkingCopyPath</localPath>
                 <repoPath>putYourRepositoryPath</repoPath>
             </repository>
-    
-
-    and set the related information.
+ 
+      and set the related information.
 
     3. Save the ``versioncontrol.xml``  file.
 
