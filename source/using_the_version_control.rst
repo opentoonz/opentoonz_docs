@@ -111,7 +111,7 @@ Together with the configuration file, version control *users* must be defined by
 
      For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
 
-    ``<svnPath></svnPath>``
+      ``<svnPath></svnPath>``
 
      type between the tags the path to the folder where Subversion is installed (this information is displayed in the last page of the installation process and by default is ``/opt/subversion/bin`` ). 
 
