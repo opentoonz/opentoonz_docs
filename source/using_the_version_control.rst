@@ -93,21 +93,30 @@ Together with the configuration file, version control *users* must be defined by
     1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
 
     2. Delete the line
-    ``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN``
-    and the line
-    ``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``
+    
+     ``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN``
+     
+     and the line
+     
+     ``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``
 
     3. In the line 
-    ``<name>PutYourRepositoryName</name>``
-    type between the tags the name you want the repository to have in the OpenToonz browser.
+    
+     ``<name>PutYourRepositoryName</name>``
+     
+     type between the tags the name you want the repository to have in the OpenToonz browser.
 
     4. In the line 
-    ``<localPath>putYourWorkingCopyPath</localPath>``
-    type between the tags the path to where you want the working copy to be located on the local computer (e.g. ``C:\myworkingcopy\``  for Windows or ``/myworkingcopy``  for Macintosh).
+    
+     ``<localPath>putYourWorkingCopyPath</localPath>``
+     
+     type between the tags the path to where you want the working copy to be located on the local computer (e.g. ``C:\myworkingcopy\``  for Windows or ``/myworkingcopy``  for Macintosh).
 
-    5. In the line 
-    ``<repoPath>putYourRepositoryPath</repoPath>``
-    type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
+    5. In the line
+    
+     ``<repoPath>putYourRepositoryPath</repoPath>``
+     
+     type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
 
      For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
 
