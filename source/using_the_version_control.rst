@@ -1,7 +1,7 @@
 .. _using_the_version_control:
 
-Using the Version Control
-=========================
+Using the Version Control System
+================================
 The version control system keeps in a central repository a constant history of revisions for every file in the production database.
 
 The **central repository** must be located in a shared resource (that can be a computer in your local network or an internet-based repository), while the local copy of files, called **working copy**, at a specific time or revision, should be located on the computer you use.
@@ -26,7 +26,7 @@ Installing the Version Control Server
 
 It's possible to configure a computer in your local network as the version control server by installing **Subversion 1.5** or later, or it's possible to use an on-line service (e.g. Assembla).
 
-The starting page for downloading **Subversion** is ``http://subversion.apache.org/`` .
+You can go to the `Subversion starting page <http://subversion.apache.org/>`_ for downloading it.
 
 Contact your system administrator to configure a version control server.
 
@@ -37,7 +37,7 @@ Installing the Version Control Client on Windows
 ''''''''''''''''''''''''''''''''''''''''''''''''
 On Windows the setup of a version control client requires the download and installation of the **Subversion client 1.5** or later. 
 
-The starting page for downloading Subversion is ``http://subversion.apache.org/``  where you should look for the available binary packages and download a version control client for Windows. We suggest the use of **CollabNet Subversion Command-Line Client**.
+You can go to the `Subversion download page <http://subversion.apache.org/packages.html#windows>`_ for downloading it. There you should look for the available binary packages and download a version control client for Windows. We suggest the use of **CollabNet Subversion Command-Line Client**.
 
 .. note:: If an older Subversion release is used some version control features might not work.
 
@@ -48,15 +48,15 @@ Installing the Version Control Client on Macintosh
 ''''''''''''''''''''''''''''''''''''''''''''''''''
 On Macintosh the setup of a version control client depends on the OS version.
 
-If the OS is Snow Leopard (version 10.6) or later the setup requires no installation as the version control client is included in the operating system.
+If the OS is Snow Leopard (version 10.6) or later, the setup requires no installation as the version control client is included in the operating system.
 
 If the OS is *older* than Snow Leopard, the setup requires the download and installation of the **Subversion client 1.5** or later. 
 
-The starting page for downloading Subversion is ``http://subversion.apache.org/``  where you should look for the available binary packages and download a version control client for Macintosh. We suggest the use of open **CollabNet Universal Subversion Binaries** related to your Mac OS X version.
+You can go to the `Subversion download page <http://subversion.apache.org/packages.html#osx>`_ for downloading it. There you should look for the available binary packages and download a version control client for Macintosh.
 
 After the installation is very important to check where Subversion is installed, as this information is needed to configure the version control in OpenToonz: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
 
-.. note:: If an older Subversion release is used some version control features might not work.
+.. note:: If a Subversion release older than v1.5 is used, some version control features might not work.
 
 
 .. _configuring_the_version_control_in_toonz:
@@ -82,7 +82,7 @@ In OpenToonz the version control information is stored in the ``versioncontrol.x
         </Repositories>
 
 
-By editing the file with a text editor (e.g. Notepad) it is possible to set the information for the *central repository* and the *working copy* location.
+By editing the file with a text editor it's possible to set the information for the *central repository* and the *working copy* location.
 
 Together with the configuration file, version control *users* must be defined by editing the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder.
 
@@ -90,7 +90,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To configure the version control in OpenToonz:**
 
-    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
 
     2. Delete the line
     
@@ -129,7 +129,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To define the version control users:**
 
-    1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
 
     2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
     
@@ -145,7 +145,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To define several version control repositories:**
 
-    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
 
     2. Add after the lines defining a repository the following lines:
     
@@ -164,7 +164,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To define users for different repositories:**
 
-    1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor (e.g. Notepad).
+    1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
 
     2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
     
@@ -195,7 +195,7 @@ At this point the repository will be displayed in the OpenToonz browser, and you
 
     2. Quit and restart OpenToonz.
 
-In the OpenToonz browser look for the repository at the end of the folder tree, named as you defined it in the configuration file; right-click it and choose **Get** from the menu that opens to establish the connection between the *central repository* and the *local working copy*.
+In the OpenToonz browser look for the repository at the end of the folder tree, named as you defined it in the configuration file; right-click it and choose **Get** from the menu that opens to establish the connection between the *central repository* and the local *working copy*.
 
 
 .. _using_the_version_control_system:
@@ -206,7 +206,7 @@ Using the Version Control System
 
 The *central repository* and the local *working copy* are displayed in the OpenToonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
 
-When a folder is selected in the folder tree a refresh operation occurs automatically, to check the status of the folder and its content. As this operations may require some time according to the connection speed on the local network or in the Internet, the automatic refresh operation can be disabled.
+When a folder is selected in the folder tree *a refresh operation occurs automatically*, to check the status of the folder and its content. As this operations may require some time according to the connection speed on the local network or in the Internet, the automatic refresh operation can be disabled.
 
 .. note:: If several repositories are defined, each of them will be displayed with the name previously assigned.
 
