@@ -882,15 +882,6 @@ The **Name Editor** allows to systematize the naming of styles used in a product
 .. |style_editor_settings-raster| image:: /_static/palettes_styles/style_editor_settings-raster.png
 .. |palette_gizmo| image:: /_static/palettes_styles/palette_gizmo.png
 .. |name_editor| image:: /_static/palettes_styles/name_editor.png
-.. |Toonz71_132| image:: /_static/Toonz71/Toonz71_132.gif
-.. |Toonz71_133| image:: /_static/Toonz71/Toonz71_133.gif
-.. |Toonz71_145| image:: /_static/Toonz71/Toonz71_145.gif
-.. |Toonz71_148| image:: /_static/Toonz71/Toonz71_148.gif
-.. |Toonz71_149| image:: /_static/Toonz71/Toonz71_149.gif
-.. |Toonz71_150| image:: /_static/Toonz71/Toonz71_150.gif
-.. |Toonz71_151| image:: /_static/Toonz71/Toonz71_151.gif
-.. |Toonz71_152| image:: /_static/Toonz71/Toonz71_152.gif
-.. |Toonz71_154| image:: /_static/Toonz71/Toonz71_154.gif
 .. |RGB_picker| image:: /_static/palettes_styles/RGB_picker.png
 .. |drag_palette| image:: /_static/palettes_styles/drag_palette.png
 .. |key| image:: /_static/palettes_styles/key.png
