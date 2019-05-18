@@ -439,7 +439,7 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     Do any of the following:
 
-    - Click the **Camera Preview** button ( |Toonz71_408|) in the bottom bar of the FX Settings window to limit the preview to the camera shot.
+    - Click the **Camera Preview** button (|camera|) in the bottom bar of the FX Settings window to limit the preview to the camera shot.
 
     - Click the **Preview** button (|preview|) in the bottom bar of the FX Settings window to preview the results regardless of the camera shot.
 
@@ -1620,7 +1620,6 @@ Blurs along concentric circular lines as if the Source content turns around the 
 .. |Combined_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Combined_FX_Example.png
 .. |Generated_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Generated_FX_Example.png
 .. |FX_Settings_Example| image:: /_static/sfx/Editing_FX_Settings/FX_Settings_Example.png
-.. |Toonz71_408| image:: /_static/Toonz71/Toonz71_408.gif
 .. |Defining_Colors_Example| image:: /_static/sfx/Defining_Colors_and_Color_Spectrums/Defining_Colors_Example.png
 .. |Creating_Presets_Example| image:: /_static/sfx/Creating_Presets/Creating_Presets_Example.png
 .. |Checkerboard| image:: /_static/sfx/Special_FX_List/Background/Checkerboard.png
@@ -1713,6 +1712,7 @@ Blurs along concentric circular lines as if the Source content turns around the 
 .. |Wavy| image:: /_static/sfx/Special_FX_List/Shaders/Wavy.png
 .. |GPU_Radial_Blur| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Radial_Blur.png
 .. |GPU_Spin_Blur| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Spin_Blur.png
+.. |camera| image:: /_static/sfx/camera.png
 .. |camera_stand| image:: /_static/sfx/camera_stand.png
 .. |fit_to_window| image:: /_static/sfx/fit_to_window.png
 .. |focus_on_current| image:: /_static/sfx/focus_on_current.png
