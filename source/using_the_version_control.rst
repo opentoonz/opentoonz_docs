@@ -24,7 +24,7 @@ The version control system works as a client/server tool: the server stores all 
 Installing the Version Control Server 
 '''''''''''''''''''''''''''''''''''''
 
-It's possible to configure a computer in your local network as the version control server by installing **Subversion 1.5** or later, or it's possible to use an on-line service (e.g. Assembla).
+It's possible to configure a computer in your local network as the version control server by installing **Subversion 1.6** or later, or it's possible to use an on-line service (e.g. Assembla).
 
 You can go to the `Subversion starting page <http://subversion.apache.org/>`_ for downloading it.
 
@@ -35,7 +35,7 @@ Contact your system administrator to configure a version control server.
 
 Installing the Version Control Client on Windows
 ''''''''''''''''''''''''''''''''''''''''''''''''
-On Windows the setup of a version control client requires the download and installation of the **Subversion client 1.5** or later. 
+On Windows the setup of a version control client requires the download and installation of the **Subversion client 1.6** or later. 
 
 You can go to the `Subversion download page <http://subversion.apache.org/packages.html#windows>`_ for downloading it. There you should look for the available binary packages and download a version control client for Windows. We suggest the use of **CollabNet Subversion Command-Line Client**.
 
@@ -50,13 +50,13 @@ On Macintosh the setup of a version control client depends on the OS version.
 
 If the OS is Snow Leopard (version 10.6) or later, the setup requires no installation as the version control client is included in the operating system.
 
-If the OS is *older* than Snow Leopard, the setup requires the download and installation of the **Subversion client 1.5** or later. 
+If the OS is *older* than Snow Leopard, the setup requires the download and installation of the **Subversion client 1.6** or later. 
 
 You can go to the `Subversion download page <http://subversion.apache.org/packages.html#osx>`_ for downloading it. There you should look for the available binary packages and download a version control client for Macintosh.
 
 After the installation is very important to check where Subversion is installed, as this information is needed to configure the version control in OpenToonz: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
 
-.. note:: If a Subversion release older than v1.5 is used, some version control features might not work.
+.. note:: If a Subversion release older than v1.6 is used, some version control features might not work.
 
 
 .. _configuring_the_version_control_in_toonz:
@@ -118,7 +118,7 @@ Together with the configuration file, version control *users* must be defined by
      
      type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
 
-     For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.5** or later, in the line 
+     For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.6** or later, in the line 
 
       ``<svnPath></svnPath>``
 
