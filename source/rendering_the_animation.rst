@@ -561,7 +561,7 @@ Other types, such as **Text** or **Image** allow you to input user defined data 
 The settings can be saved as a *Preset* in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
 They can also be stored in the project's default settings by using the File > **Save Default Settings** command.
 
-.. note:: Warning: Adding the Clapperboard will make the scene file to lose compatibility with older versions of OpenToonz. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
+.. note:: WARNING: Adding the Clapperboard will make the scene file to lose compatibility with older versions of OpenToonz. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
 
 .. tip:: **To Add a Clapperboard:**
 
