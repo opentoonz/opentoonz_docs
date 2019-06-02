@@ -524,15 +524,15 @@ Creating Multiple Renderings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns content and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes**.
 
-**FX Schematic Flows** creates as many outputs as the flows connecting the column nodes to the Xsheet node. Any effect nodes with multiple input ports met along the flow (such as Matte effects), are ignored.
+**FX Schematic Flows** creates as many outputs as the **flows connecting the column nodes to the Xsheet node**. Any effect nodes with multiple input ports met along the flow (such as Matte effects), will be ignored.
 
-**FX Schematic Terminal Nodes** creates as many outputs as the number of nodes linked to the Xsheet node; all the columns and effects linked to each of these nodes will be taken into account for the rendering.
+**FX Schematic Terminal Nodes** creates as many outputs as the **number of nodes linked to the Xsheet node**; all the columns and effects linked to each of these nodes will be taken into account for the rendering.
 
 The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) in case the effect node was renamed. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from column B (whose ID is Col3) to the effect node My Blur (whose ID is Blur1).
 
 .. note:: No output is displayed after the rendering, regardless of the **Open Flipbook after Rendering** option state in the Preferences dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over FX** (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **FX Schematic Flows** type multiple rendering, or connect them to several Over nodes in case of **FX Schematic Terminal Nodes** multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **FX Schematic Flows** type multiple rendering, or connect them to several Over nodes in case of **FX Schematic Terminal Nodes** multiple rendering.
 
 
 .. _rendering_animations_with_alpha_channel_information:
