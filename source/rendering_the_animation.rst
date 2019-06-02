@@ -462,7 +462,7 @@ The Output Settings dialog lets you define the file format, location and propert
   
   To save in other popular video formats, like MP4 and WebM, OpenToonz uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with OpenToonz, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
 
-  Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output image sequences.
+  .. note:: Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output image sequences.
 
 - **Options** button, opens a dialog to set specific properties related to the chosen file format, such as codecs for video files, color depth for TIF images, etc.
 
@@ -484,11 +484,11 @@ The Output Settings dialog lets you define the file format, location and propert
 
 - **Gamma:** performs a gamma correction on rendered images before writing them to disk; the value you specify can include decimal fractions.
 
-- **Dominant Field:** allows you to render two images per frame, then taking only odd lines from one image, and even lines from the other, to compose the final frame. This process is also called interlacing.
+- **Dominant Field:** allows you to render two images per frame, then taking only *odd* lines from one image, and *even* lines from the other, to compose the final frame. This process is also called *interlacing*.
 
-  Interlacing is useful when experiencing a strobe effect due to a fast camera or pegbar movement, because all object movements are interpolated on a double number of images (one odd-lines image and one even-lines image instead of just one frame), thus becoming smoother.
+  *Interlaced* images are useful when experiencing a strobe effect due to a fast camera or object movement, as all movement interpolation will be effectively doubled (having one *odd-lines image* and one *even-lines image*, instead of just one full *progresive* frame), thus becoming smoother.
 
-  Field rendering is only relevant for scenes to be rendered for video output. Options are Even (PAL) and Odd (NTSC), and you should choose it according to the video standard you are outputting to. 
+  Field rendering is only relevant for scenes that are intended for video output. Options are **None** (for rendering *progresive* frames), **Even (PAL)** and **Odd (NTSC)** (for chosing which of the rendered *interlaced* fields is to be shown in first place). Usually you should choose it according to the video standard you are outputting to. 
 
 - **Stretch from FPS:  To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
@@ -496,11 +496,11 @@ The Output Settings dialog lets you define the file format, location and propert
 
   When passing from a higher frame rate to a lower one, some level drawings will not be used because the number of output frames decreases. When doing the contrary, some level drawings will be repeated because the number of output frames is higher. Interpolations for object movements and special effects variations will be re-computed according to the final frame rate, in order to keep all the interpolations as smooth as possible.
 
-  .. note:: When the Field rendering is used and the Stretch feature is set for passing from a lower frame rate to a higher one, drawings and images will be interlaced as well to create newly added frames.
+  .. note:: When the field rendering is used (by using the **Dominant Field** option) and the **Stretch** feature is set for passing from a lower frame rate to a higher one, drawings and images *will be interlaced* as well, to create newly added frames.
 
-  .. note:: Particles FX may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
+  .. note:: The **Particles** effect may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
 
-- **Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.
+- **Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes **_l** (left) and **_r** (right) will be used to identify sequences.
 
 - **Camera Shift:** sets the distance between the two camera views.
 
@@ -522,32 +522,32 @@ The Output Settings dialog lets you define the file format, location and propert
 
 Creating Multiple Renderings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns content, and according to the FX schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes.
+With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns content and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes**.
 
-FX Schematic Flows creates as many outputs as the flows connecting the column nodes to the Xsheet one; any FX node with multiple input ports met along the flow, such as the Matte FX, are ignored.
+**FX Schematic Flows** creates as many outputs as the flows connecting the column nodes to the Xsheet node. Any effect nodes with multiple input ports met along the flow (such as Matte effects), are ignored.
 
-FX Schematic Terminal Nodes creates as many outputs as the number of nodes that in the FX Schematic are linked to the Xsheet node; all the columns and FX linked to each of these nodes will be taken into account for the rendering.
+**FX Schematic Terminal Nodes** creates as many outputs as the number of nodes linked to the Xsheet node; all the columns and effects linked to each of these nodes will be taken into account for the rendering.
 
-The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the output file name the name of the column, then the column ID as can be read in the FX Schematic nodes tooltips, then the FX node name, then the node ID (as can be read in the FX Schematic nodes tooltips) if the FX node was renamed. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from the column B (whose ID is Col3) to the FX node My Blur (whose ID is Blur1).
+The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) in case the effect node was renamed. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from column B (whose ID is Col3) to the effect node My Blur (whose ID is Blur1).
 
-.. note:: No output is displayed after the rendering, regardless of the Open Flipbook After Rendering option in the Preferences dialog.
+.. note:: No output is displayed after the rendering, regardless of the **Open Flipbook after Rendering** option state in the Preferences dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the Over FX (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of Flows multiple rendering, or connect them to several Over nodes in case of Terminal Nodes multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over FX** (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **FX Schematic Flows** type multiple rendering, or connect them to several Over nodes in case of **FX Schematic Terminal Nodes** multiple rendering.
 
 
 .. _rendering_animations_with_alpha_channel_information:
 
 Rendering Animations with Alpha Channel Information
 '''''''''''''''''''''''''''''''''''''''''''''''''''
-It is possible to render a scene with a transparent background color in order to export it to editing systems supporting the alpha channel information. 
+It's possible to render a scene with a transparent background color in order to export it to editing systems supporting alpha channel information. 
 
-In this case no image has to be used as background, and the output file format has to support the alpha channel information, e.g. TIF at 32 or 64 bits, TGA at 32 bits, or MOV with codecs supporting alpha.
+In this case no image has to be used as background, and the output file format has to support alpha channel information, e.g. TIF at 32 or 64 bits per pixel, TGA at 32 bits per pixel, or MOV with codecs supporting alpha (i.e. Animation).
 
 .. tip:: **To render animation with alpha channel information:**
 
-    1. Choose Xsheet > Scene Settings.
+    1. Choose Xsheet > **Scene Settings...**.
 
-    2. Set the alpha channel of the Camera BG Color to transparent.
+    2. Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent).
 
     3. Choose an output file format supporting alpha channel information.
 
@@ -572,17 +572,17 @@ You can also activate the Use Default Viewer for Movie Format option in the Pref
 
 .. tip:: **To render the currently loaded scene:**
 
-    Choose File > Render.
+    Choose File > **Render**.
 
 .. tip:: **To display blank frames after each rendering playback when looping:**
 
-    1. Choose File > Preferences > Preview.
+    1. Choose File > Preferences > **Preview**.
 
     2. Do any of the following:
 
-    - In the Preview Blank Images Count set how many blank frames you want to be displayed after each preview playback when looping.
+    - In **Blank Frames:** set how many blank frames you want to be displayed after each preview playback, when looping.
 
-    - In the Preview Blank Color set the color for the blank frames.
+    - In **Blank Frames Color:** set the color for the blank frames.
 
 
 .. _rendering_scenes_in_batch_mode:
