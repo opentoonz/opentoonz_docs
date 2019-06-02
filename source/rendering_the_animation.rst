@@ -511,6 +511,8 @@ Other Settings
 
   Field rendering is only relevant for scenes that are intended for video output. Options are **None** (for rendering *progresive* frames), **Even (PAL)** and **Odd (NTSC)** (for chosing which of the rendered *interlaced* fields is to be shown in first place). Usually you should choose it according to the video standard you are outputting to. 
 
+- **Frame Rate**: is the frame rate of the scene, also available in the Xsheet > **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ).
+
 - **Stretch from FPS:  To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
   For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same Xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
@@ -528,6 +530,8 @@ Other Settings
 - **Camera Shift:** sets the distance between the two camera views.
 
   .. note:: For working properly at least some elements of the scene must have **Z-Depth** values other than 0 in their positioning. OpenToonz uses these values and the **Camera Shift** parameter for rendering the stereoscopic effect.
+
+- **Render** button, starts rendering the scene using the current render settings.
 
 .. tip:: **To set the scene output settings:**
 
