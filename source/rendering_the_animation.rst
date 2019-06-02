@@ -462,27 +462,14 @@ The Output Settings dialog lets you define the file format, location and propert
   .. _rendering_in_mpeg4_and_webm_formats:
 
   Rendering in MP4 and WebM Formats
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  FFmpeg is a free software project that produces libraries and programs for handling multimedia data and can allow OpenToonz to load and render MP4 and WebM video formats. MP4 and WebM will be listed along the other standard output formats. To enable this feature it is necessary to install FFmpeg on the computer, indicate its installation path to OpenToonz by going to Preferences > Import/Export page, and restart OpenToonz for the change to take effect.
-
-  .. tip:: **To enable the rendering in MP4 and WebM:**
-
-    1. Go to https://www.ffmpeg.org/download.html and install FFmpeg.
-
-    2. Go to the File > Preferences > Import/Export page.
-
-    3. Write the FFmpeg installation path in the text field (e.g. C:\\ffmpeg\\bin) .
-    
-    4. Restart OpenToonz.
-
-    5. Go to File > Output Settings and choose mp4 or webm from the File Format list.
-
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  FFmpeg is a free software project that produces libraries and programs for handling multimedia data, and can allow OpenToonz to load and save MP4 and WebM video formats. MP4 and WebM will be listed along the other standard output formats. To enable this feature it's necessary to install FFmpeg on the computer, for detailed instructions on how to do it please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
 
   Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other formats will output sequences of full-color images.
 
   .. note:: OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of QuickTime.
 
-The **Options** button opens a dialog to set specific properties related to the chosen file format, such as codecs for MOV files, color depth for TIF images, etc.
+- **Options** button, opens a dialog to set specific properties related to the chosen file format, such as codecs for video files, color depth for TIF images, etc.
 
 - **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
 
@@ -492,7 +479,7 @@ The **Options** button opens a dialog to set specific properties related to the 
 
 - **Shrink:** sets a reduction value for the defined render resolution; for example if it is 2, one pixel each two will be rendered, thus resulting in frames having half of the original output camera resolution.
 
-- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns content, and according to the FX Schematic. Options are None, FX Schematic Flows and FX Schematic Terminal Nodes (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
+- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns content, and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
 
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
 
