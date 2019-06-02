@@ -577,7 +577,7 @@ They can also be stored in the project's default settings by using the File > **
     
     6. Set the **Duration (frames):** option to any value greater than 0.
     
-    .. note:: Setting the duration to 0 frames will remove the clapperboard data from the scene when it's saved.
+   .. note:: Setting the duration to 0 frames will remove the clapperboard data from the scene when it's saved.
 
 .. tip:: **To temporarily deactivate the Clapperboard:**
 
