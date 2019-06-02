@@ -556,7 +556,7 @@ Items can also be created or deleted by using the **Add** or **Remove** buttons.
 
 Settings for the *currently selected* item are displayed above the items list, at the top-right of the Clapperboard Settings dialog.
 Each item has an information **Type:**. Most of them will automatically retrieve the correspondent data from the current scene or the system, such as: scene **Duration**, **Scene location**, **Current date**, etc.
-Other types, such as **Text** or **Image** allow you to input user defined data to be displayed in the Clapperboard.
+Other types, such as **Text** or **Image** allow to input user defined data to be displayed in the Clapperboard.
 
 The settings can be saved as a *Preset* in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
 They can also be stored in the project's default settings by using the File > **Save Default Settings** command.
