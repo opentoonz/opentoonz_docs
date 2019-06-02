@@ -455,6 +455,8 @@ Camera Settings
 
 - **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
 
+- **Frame Size** sets the frame size of the current camera, also available in the Xsheet > **Camera Settings...** dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
+
 - **Frame Start:** and **End:** set the frame range of the scene to render; by default these values refer to the whole scene length.
 
 - **Step:** sets the step for the rendered sequence; for example if it is 2, one frame each two will be rendered.
