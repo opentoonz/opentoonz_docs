@@ -450,11 +450,11 @@ The Output Settings dialog lets you define the file format, location and propert
 
 - **Save in:** is for setting the location where the output is saved; the location can be set by typing or by using the browser button.
 
-.. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
+  .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 - **Name:** is the name you want to assign to the output file; by default it is the same name of the scene. 
 
-In case the format is an image format, the name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will be displayed in the OpenToonz file browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level.
+  In case the format is an image format, the name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will be displayed in the OpenToonz file browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level.
 
 - **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
@@ -496,7 +496,7 @@ The **Options** button opens a dialog to set specific properties related to the 
 
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
 
-There are several options to choose from. Originally Toonz provided three options: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output. Now OpenToonz also provides several other standard resampling filters that could help improve the final results in a wider range of situations.
+  There are several options to choose from. Originally Toonz provided three options: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output. Now OpenToonz also provides several other standard resampling filters that could help improve the final results in a wider range of situations.
 
 - **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the TIF format with the 64 Bits Per Pixel option activated.
 
@@ -504,24 +504,24 @@ There are several options to choose from. Originally Toonz provided three option
 
 - **Dominant Field:** allows you to render two images per frame, then taking only odd lines from one image, and even lines from the other, to compose the final frame. This process is also called interlacing.
 
-Interlacing is useful when experiencing a strobe effect due to a fast camera or pegbar movement, because all object movements are interpolated on a double number of images (one odd-lines image and one even-lines image instead of just one frame), thus becoming smoother.
+  Interlacing is useful when experiencing a strobe effect due to a fast camera or pegbar movement, because all object movements are interpolated on a double number of images (one odd-lines image and one even-lines image instead of just one frame), thus becoming smoother.
 
-Field rendering is only relevant for scenes to be rendered for video output. Options are Even (PAL) and Odd (NTSC), and you should choose it according to the video standard you are outputting to. 
+  Field rendering is only relevant for scenes to be rendered for video output. Options are Even (PAL) and Odd (NTSC), and you should choose it according to the video standard you are outputting to. 
 
 - **Stretch from FPS:  To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
-For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same Xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
+  For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same Xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
 
-When passing from a higher frame rate to a lower one, some level drawings will not be used because the number of output frames decreases. When doing the contrary, some level drawings will be repeated because the number of output frames is higher. Interpolations for object movements and special effects variations will be re-computed according to the final frame rate, in order to keep all the interpolations as smooth as possible.
+  When passing from a higher frame rate to a lower one, some level drawings will not be used because the number of output frames decreases. When doing the contrary, some level drawings will be repeated because the number of output frames is higher. Interpolations for object movements and special effects variations will be re-computed according to the final frame rate, in order to keep all the interpolations as smooth as possible.
 
-.. note:: When the Field rendering is used and the Stretch feature is set for passing from a lower frame rate to a higher one, drawings and images will be interlaced as well to create newly added frames.
+  .. note:: When the Field rendering is used and the Stretch feature is set for passing from a lower frame rate to a higher one, drawings and images will be interlaced as well to create newly added frames.
 
-.. note:: Particles FX may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
+  .. note:: Particles FX may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
 
-**Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.
+- **Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.
 The **Camera Shift** parameter sets the distance between the two camera views.
 
-.. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. OpenToonz uses these values as the Camera Shift parameter for rendering the stereoscopic effect.
+  .. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. OpenToonz uses these values as the Camera Shift parameter for rendering the stereoscopic effect.
 
 - **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processors will be assigned to the rendering process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However it is suggested to use the Half or Single values if the scene to render is very complex, because the higher the dedicated CPUs, the more memory will be required to perform the rendering. 
 
