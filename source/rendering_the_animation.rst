@@ -448,21 +448,21 @@ The Output Settings dialog lets you define the file format, location and propert
 
  |output_settings_dialog| 
 
-- **Save in:** is for setting the location where the output is saved; the location can be set by typing or by using the browser button.
+- **Save in:** is for setting the location where the output is saved; the location can be set by typing or by using the Browser button.
 
-  .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
+  .. note:: If in the Browser you choose any default folder of the active project, in the path field the full path will be replaced by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-- **Name:** is the name you want to assign to the output file; by default it is the same name of the scene. 
+- **Name:** is the name you want to assign to the output file; by default it's the name of the scene. 
 
-  In case the format is an image format, the name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the file name and the file extension, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will be displayed in the OpenToonz file browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level.
+  In case the chosen file format produces image sequences, the base name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the *base name* and the *file extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These file sequences will be displayed in the OpenToonz File Browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level when loaded back into OpenToonz.
 
 - **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
-  To save in other popular video formats, like MP4 and WebM, OpenToonz uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system and configured to work with OpenToonz, MP4 and WebM will be listed along the other standard output formats. For detailed instructions on how to install and configure it, please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
-
-  Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other formats will output sequences of full-color images.
-
   .. note:: OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of QuickTime.
+  
+  To save in other popular video formats, like MP4 and WebM, OpenToonz uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with OpenToonz, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
+
+  Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output image sequences.
 
 - **Options** button, opens a dialog to set specific properties related to the chosen file format, such as codecs for video files, color depth for TIF images, etc.
 
