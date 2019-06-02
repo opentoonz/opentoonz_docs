@@ -458,12 +458,7 @@ The Output Settings dialog lets you define the file format, location and propert
 
 - **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
-
-  .. _rendering_in_mpeg4_and_webm_formats:
-
-  Rendering in MP4 and WebM Formats
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  FFmpeg is a free software project that produces libraries and programs for handling multimedia data, and can allow OpenToonz to load and save MP4 and WebM video formats. MP4 and WebM will be listed along the other standard output formats. To enable this feature it's necessary to install FFmpeg on the computer, for detailed instructions on how to do it please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
+  To save in other popular video formats, like MP4 and WebM, OpenToonz uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system and configured to work with OpenToonz, MP4 and WebM will be listed along the other standard output formats. For detailed instructions on how to install and configure it, please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
 
   Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other formats will output sequences of full-color images.
 
