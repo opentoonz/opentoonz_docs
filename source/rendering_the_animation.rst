@@ -459,13 +459,13 @@ The Output Settings dialog lets you define the file format, location and propert
 - **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
 
-.. _rendering_in_mpeg4_and_webm_formats:
+  .. _rendering_in_mpeg4_and_webm_formats:
 
-Rendering in MP4 and WebM Formats
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-FFmpeg is a free software project that produces libraries and programs for handling multimedia data and can allow OpenToonz to load and render MP4 and WebM video formats. MP4 and WebM will be listed along the other standard output formats. To enable this feature it is necessary to install FFmpeg on the computer, indicate its installation path to OpenToonz by going to Preferences > Import/Export page, and restart OpenToonz for the change to take effect.
+  Rendering in MP4 and WebM Formats
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  FFmpeg is a free software project that produces libraries and programs for handling multimedia data and can allow OpenToonz to load and render MP4 and WebM video formats. MP4 and WebM will be listed along the other standard output formats. To enable this feature it is necessary to install FFmpeg on the computer, indicate its installation path to OpenToonz by going to Preferences > Import/Export page, and restart OpenToonz for the change to take effect.
 
-.. tip:: **To enable the rendering in MP4 and WebM:**
+  .. tip:: **To enable the rendering in MP4 and WebM:**
 
     1. Go to https://www.ffmpeg.org/download.html and install FFmpeg.
 
@@ -478,9 +478,9 @@ FFmpeg is a free software project that produces libraries and programs for handl
     5. Go to File > Output Settings and choose mp4 or webm from the File Format list.
 
 
-Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other formats will output sequences of full-color images.
+  Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other formats will output sequences of full-color images.
 
-.. note:: OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of QuickTime.
+  .. note:: OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of QuickTime.
 
 The **Options** button opens a dialog to set specific properties related to the chosen file format, such as codecs for MOV files, color depth for TIF images, etc.
 
@@ -519,9 +519,10 @@ The **Options** button opens a dialog to set specific properties related to the 
   .. note:: Particles FX may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
 
 - **Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes _l (left) and _r (right) will be used to identify sequences.
-The **Camera Shift** parameter sets the distance between the two camera views.
 
-  .. note:: For working properly at least some elements of the scene must have Z-Depth values other than 0 for their positioning. OpenToonz uses these values as the Camera Shift parameter for rendering the stereoscopic effect.
+- **Camera Shift:** sets the distance between the two camera views.
+
+  .. note:: For working properly at least some elements of the scene must have **Z-Depth** values other than 0 in their positioning. OpenToonz uses these values and the **Camera Shift** parameter for rendering the stereoscopic effect.
 
 - **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processors will be assigned to the rendering process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However it is suggested to use the Half or Single values if the scene to render is very complex, because the higher the dedicated CPUs, the more memory will be required to perform the rendering. 
 
