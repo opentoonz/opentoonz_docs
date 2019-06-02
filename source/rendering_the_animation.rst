@@ -546,18 +546,20 @@ Other Settings
 
 Using The Clapperboard
 ~~~~~~~~~~~~~~~~~~~~~~
+A clapperboard is a static image intended to display information of the scene. It will be added before the rendered frames, in order to record and convey information to subsequent phases of the pipeline.
+
 |clapperboard|
 
 The clapperboard consists of board *items*.
-At the bottom-right of the Clapperboard Settings dialog there is a list of all the clapperboard items, which can be layered by moving them **Up** or **Down** in the list, using the appropriate buttons.
+At the bottom-right of the Clapperboard Settings dialog there is a list of all the clapperboard items, which can be layered by moving them **Up** or **Down** in the list by using the appropriate buttons.
 Items can also be created or deleted by using the **Add** or **Remove** buttons.  
 
 Settings for the *currently selected* item are displayed above the items list, at the top-right of the Clapperboard Settings dialog.
 Each item has an information **Type:**. Most of them will automatically retrieve the correspondent data from the current scene or the system, such as: scene **Duration**, **Scene location**, **Current date**, etc.
 Other types, such as **Text** or **Image** allow you to input user defined data to be displayed in the Clapperboard.
 
-The settings can be saved as a Preset in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
-They can also be stored in the project's default settings, by using the File > **Save Default Settings** command.
+The settings can be saved as a *Preset* in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
+They can also be stored in the project's default settings by using the File > **Save Default Settings** command.
 
 .. note:: Warning: Adding the Clapperboard will make the scene file to lose compatibility with older versions of OpenToonz. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
 
