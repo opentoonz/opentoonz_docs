@@ -79,25 +79,25 @@ Defining Camera Settings
 ------------------------
 |camera_settings|
 
-The Camera Settings... dialog, that can be opened from the Xsheet menu, contains parameters for defining the current camera size and resolution. 
+The Current Camera Settings dialog, that can be opened from the Xsheet menu, contains parameters for defining the current camera frame size and resolution. 
 
 More than one camera can be defined for each scene, in order to have different output resolutions, or to shot only a particular area of the scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  ).
 
-The camera size can be expressed in any unit, but will be visualized in the default one chosen in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ). 
+The camera frame size can be expressed in any unit, but will be visualized in the default one chosen in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ). 
 
 In OpenToonz the Camera is defined by different parameters:
 
-    - X (Width) and Y (Height) size of the camera, expressed in the default Camera Unit (usually inches).
+    - X (Width) and Y (Height) frame size of the camera, expressed in the default Camera Unit (usually inches).
 
     - A/R is the aspect ratio value resulting by dividing Width/Height.
 
-    - X and Y resolution Pixels of the resulting image seen by the camera.
+    - X and Y resolution Pixels of the resulting image frame seen by the camera.
 
     - X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal-sign button between them.
 
 When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by OpenToonz. The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by OpenToonz, while changing the others as needed.
 
-The Use Current Level Settings button let you set the camera for framing exactly the content of the selected level. Just press this button and OpenToonz will calculate the appropriate values for the camera.
+The **Use Current Level Settings** button let you set the camera for framing exactly the content of the selected level. Just press this button and OpenToonz will calculate the appropriate values for the camera.
 
 Camera resolutions can also be selected from a list of predefined camera settings. You can add any camera preset you define to the list, as well as remove any predefined camera from it.
 
@@ -107,15 +107,15 @@ Camera resolutions can also be selected from a list of predefined camera setting
 
     1. Set the resolution and A/R for the camera you want to save.
 
-    2. Click the Add button on the right of the preset cameras list.
+    2. Click the **Add** button on the right of the preset cameras list.
 
-    3. Assign a name to the camera resolution and click the OK button.
+    3. Assign a name to the camera resolution and click the **OK** button.
 
 .. tip:: **To remove a preset camera resolution:**
 
     1. Select the camera resolution you want to remove in the preset cameras list.
 
-    2. Click the Remove button on the right of the preset cameras list.
+    2. Click the **Remove** button on the right of the preset cameras list.
 
 
 .. _assigning_memory_for_the_undo_operations:
