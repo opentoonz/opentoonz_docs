@@ -499,9 +499,11 @@ File Settings
 Other Settings
 ~~~~~~~~~~~~~~
 
-- **Add Clapperboard** allows to add...
+- **Add Clapperboard** allows to add a Clapperboard. A clapperboard is a static image intended to display information of the scene. It will be added before the rendered frames, in order to record and convey information to subsequent phases of the pipeline.
 
-- **Edit Clapperboard...** button opens a dialog for editing the clapperboard properties.
+  .. note:: For this option to be enabled you must first choose any video file format from the **File Format** dropdown menu (i.e. 3GP, AVI, MOV, MP4 or WebM).
+
+- **Edit Clapperboard...** button, opens a dialog for designing the clapperboard and setting its properties. For detailed information on using the Clapperboard feature, please see the  :ref:`Using The Clapperboard <using_the_clapperboard>`  section.
 
 - **Gamma:** performs a gamma correction on rendered images before writing them to a file; the value you specify can include decimal fractions.
 
@@ -538,6 +540,60 @@ Other Settings
     1. Choose File > Output Settings.
 
     2. Set the options you want to use for the final rendering.
+
+
+.. _using_the_clapperboard:
+
+Using The Clapperboard
+~~~~~~~~~~~~~~~~~~~~~~
+|clapperboard|
+
+The clapperboard consists of board *items*.
+At the bottom-right of the Clapperboard Settings dialog there is a list of all the clapperboard items, which can be layered by moving them **Up** or **Down** in the list, using the appropriate buttons.
+Items can also be created or deleted by using the **Add** or **Remove** buttons.  
+
+Settings for the *currently selected* item are displayed above the items list, at the top-right of the Clapperboard Settings dialog.
+Each item has an information **Type:**. Most of them will automatically retrieve the correspondent data from the current scene or the system, such as: scene **Duration**, **Scene location**, **Current date**, etc.
+Other types, such as **Text** or **Image** allow you to input user defined data to be displayed in the Clapperboard.
+
+The settings can be saved as a Preset in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
+They can also be stored in the project's default settings, by using the File > **Save Default Settings** command.
+
+.. note:: Warning: Adding the Clapperboard will make the scene file to lose compatibility with older versions of OpenToonz. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
+
+.. tip:: **To Add a Clapperboard:**
+
+    1. Open the File > Output Settings... dialog.
+    
+    2. Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM).
+    
+    3. Open **Other Settings** group box.
+    
+    4. Enable the **Add Clapperboard** option.
+    
+    5. Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog opens.
+    
+    6. Set the **Duration (frames):** option to any value greater than 0.
+    
+     .. note:: Setting the duration to 0 frames will remove the clapperboard data from the scene when it's saved.
+
+.. tip:: **To temporarily deactivate the Clapperboard:**
+
+    1. Open the File > Output Settings... dialog.
+    
+    2. Disable the **Add Clapperboard** option.
+    
+.. tip:: **To Delete the Clapperboard:**
+
+    1. Open the File > Output Settings... dialog.
+    
+    2. Open **Other Settings** group box.
+    
+    3. Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog opens.
+    
+    4. Set the **Duration (frames):** option value to 0.
+   
+    5. Save the scene.
 
 
 .. _creating_multiple_renderings:
@@ -800,6 +856,7 @@ render tasks and sub-tasks will be distributed on the farm, one for each compute
 
 .. |preview_settings_dialog| image:: /_static/rendering/preview_settings_dialog.png
 .. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
+.. |clapperboard| image:: /_static/rendering/clapperboard.png
 .. |add_render| image:: /_static/rendering/add_render.png
 .. |compare| image:: /_static/rendering/compare.png
 .. |define_preview_subcamera| image:: /_static/rendering/define_preview_subcamera.png
