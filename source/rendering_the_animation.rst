@@ -448,6 +448,24 @@ The Output Settings dialog lets you define the file format, location and propert
 
  |output_settings_dialog| 
 
+.. _render_camera_settings:
+
+Camera Settings
+~~~~~~~~~~~~~~~
+
+- **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
+
+- **Frame Start:** and **End:** set the frame range of the scene to render; by default these values refer to the whole scene length.
+
+- **Step:** sets the step for the rendered sequence; for example if it is 2, one frame each two will be rendered.
+
+- **Shrink:** sets a reduction value for the defined render resolution; for example if it is 2, one pixel each two will be rendered, thus resulting in frames having half of the original output camera resolution.
+
+.. _render_file_settings:
+
+File Settings
+~~~~~~~~~~~~~
+
 - **Save in:** is for setting the location where the output is saved; the location can be set by typing or by using the Browser button.
 
   .. note:: If in the Browser you choose any default folder of the active project, in the path field the full path will be replaced by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
@@ -466,25 +484,28 @@ The Output Settings dialog lets you define the file format, location and propert
 
 - **Options** button, opens a dialog to set specific properties related to the chosen file format, such as codecs for video files, color depth for TIF images, etc.
 
-- **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
+- **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By chosing a different resampling algorithm you can give some sharpness back to the rendered frames. 
 
-- **Frame Start:** and **End:** set the frame range of the scene to render; by default these values refer to the whole scene length.
+  There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently OpenToonz also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming window**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
 
-- **Step:** sets the step for the rendered sequence; for example if it is 2, one frame each two will be rendered.
+- **Channel Width:** sets the color depth for rendered images; choices are **8 bit** and **16 bit** per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the **TIF** format with the **64 Bits Per Pixel** option activated.
 
-- **Shrink:** sets a reduction value for the defined render resolution; for example if it is 2, one pixel each two will be rendered, thus resulting in frames having half of the original output camera resolution.
+- **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processor threads will be assigned to the rendering process. Setting the value to **All** will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However in systems with limited RAM resources, it's suggested to use the **Half** or **Single** options if the scene to render is very complex, because the higher the dedicated CPUs, the more RAM will be required to perform the rendering, leading to potentially longer rendering times or system instability.
 
-- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns content, and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
+- **Render Tile:** allows the rendering of complex scenes, by dividing each frame in a certain number of *tiles*, which are individually rendered and finally stitched together to create the final output frame: the smaller the size of the tiles, the longer the rendering will take but the less RAM will require. Setting the value to **Medium** or **Small** will allow the rendering of very high resolution outputs of very complex scenes, that otherwise may fail to be rendered; setting the value to **None** may prevent some artifacts that the tile stitching may generate. In most cases the **Large** value will do the work, because it's not slower than the **None** option, and yet is able to render complex scenes.
 
-- **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
+.. _render_other_settings:
 
-  There are several options to choose from. Originally Toonz provided three options: Standard, Improved, High. The higher the balance chosen, the longer the time needed for rendering the output. Now OpenToonz also provides several other standard resampling filters that could help improve the final results in a wider range of situations.
+Other Settings
+~~~~~~~~~~~~~~
 
-- **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the TIF format with the 64 Bits Per Pixel option activated.
+- **Add Clapperboard** allows to add...
 
-- **Gamma:** performs a gamma correction on rendered images before writing them to disk; the value you specify can include decimal fractions.
+- **Edit Clapperboard...** button opens a dialog for editing the clapperboard properties.
 
-- **Dominant Field:** allows you to render two images per frame, then taking only *odd* lines from one image, and *even* lines from the other, to compose the final frame. This process is also called *interlacing*.
+- **Gamma:** performs a gamma correction on rendered images before writing them to a file; the value you specify can include decimal fractions.
+
+- **Dominant Field:** allows you to render two images per frame, then keeping only *odd* lines from one image, and *even* lines from the other to compose a final frame. This process is called *interlacing*.
 
   *Interlaced* images are useful when experiencing a strobe effect due to a fast camera or object movement, as all movement interpolation will be effectively doubled (having one *odd-lines image* and one *even-lines image*, instead of just one full *progresive* frame), thus becoming smoother.
 
@@ -494,22 +515,19 @@ The Output Settings dialog lets you define the file format, location and propert
 
   For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 seconds of animation. If you need to transfer the frame rate to 30 fps using the same Xsheet, the animation will last 5 seconds (150 frames divided by 30 fps is equal to 5 seconds), and consequently it will be a little bit faster. Stretching from 25 to 30 fps, the output will include an increased number of frames to retain the original time length, and the rendered frames will be 180 (6 seconds multiplied by 30 fps is equal to 180 frames).
 
-  When passing from a higher frame rate to a lower one, some level drawings will not be used because the number of output frames decreases. When doing the contrary, some level drawings will be repeated because the number of output frames is higher. Interpolations for object movements and special effects variations will be re-computed according to the final frame rate, in order to keep all the interpolations as smooth as possible.
+  When going from a higher frame rate to a lower one, some level drawings will not be used because the number of output frames decreases. When doing the contrary, some level drawings will be repeated because the number of output frames is higher. Interpolations for object movements and special effects variations will be re-computed according to the final frame rate, in order to keep all the interpolations as smooth as possible.
 
   .. note:: When the field rendering is used (by using the **Dominant Field** option) and the **Stretch** feature is set for passing from a lower frame rate to a higher one, drawings and images *will be interlaced* as well, to create newly added frames.
 
   .. note:: The **Particles** effect may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
+
+- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns content, and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
 
 - **Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes **_l** (left) and **_r** (right) will be used to identify sequences.
 
 - **Camera Shift:** sets the distance between the two camera views.
 
   .. note:: For working properly at least some elements of the scene must have **Z-Depth** values other than 0 in their positioning. OpenToonz uses these values and the **Camera Shift** parameter for rendering the stereoscopic effect.
-
-- **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processors will be assigned to the rendering process. Setting the value to All will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However it is suggested to use the Half or Single values if the scene to render is very complex, because the higher the dedicated CPUs, the more memory will be required to perform the rendering. 
-
-- **Render Tile:** allows the rendering of very complex scenes whose frames will be computed in tiles that are automatically stitched to create the final output: the smaller the size of the tile, the longer the rendering. Setting the value to Medium or Small will allow the rendering of very high resolution outputs of very complex scenes, that otherwise may fail to be rendered; setting the value to None may prevent some artifacts that the tile stitching may generate. In most cases the Large value will do the work, because it is not slower than the None option, and yet is able to render complex scenes.
-
 
 .. tip:: **To set the scene output settings:**
 
@@ -524,15 +542,15 @@ Creating Multiple Renderings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns content and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes**.
 
-**FX Schematic Flows** creates as many outputs as the **flows connecting the column nodes to the Xsheet node**. Any effect nodes with multiple input ports met along the flow (such as Matte effects), will be ignored.
+**Flows**: creates as many outputs as the **flows connecting the column nodes to the Xsheet node**. Any effect nodes with multiple input ports met along the flow (such as Matte effects) will be ignored.
 
-**FX Schematic Terminal Nodes** creates as many outputs as the **number of nodes linked to the Xsheet node**; all the columns and effects linked to each of these nodes will be taken into account for the rendering.
+**Terminal Nodes**: creates as many outputs as the **number of nodes linked to the Xsheet node**; all the columns and effects linked to each of these nodes will be taken into account for the rendering.
 
-The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) in case the effect node was renamed. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from column B (whose ID is Col3) to the effect node My Blur (whose ID is Blur1).
+The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) *in case the effect node was renamed*. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from column B (whose ID is Col3) to the effect node My Blur (whose ID is Blur1).
 
-.. note:: No output is displayed after the rendering, regardless of the **Open Flipbook after Rendering** option state in the Preferences dialog.
+.. note:: No output will be displayed after the rendering, regardless of **Open Flipbook after Rendering** being activated in Preferences > Preview dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **FX Schematic Flows** type multiple rendering, or connect them to several Over nodes in case of **FX Schematic Terminal Nodes** multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **Flows** type multiple rendering, or connect them to several Over nodes in case of **Terminal Nodes**`type multiple rendering.
 
 
 .. _rendering_animations_with_alpha_channel_information:
