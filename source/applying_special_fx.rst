@@ -1370,6 +1370,42 @@ Particles
 ~~~~~~~~~
 See  :ref:`Using the Particles Effect <using_the_particles_effect>` .
 
+.. _text:
+
+Text Iwa
+~~~~~~~~
+ |text_1| 
+
+This effect allow for the creation of editable and animatable text, using the following parameters:
+
+- **Source**, specifies the text source. You can choose one from:
+
+    - **Nearby Note Column**: Get the text from note level column put on the directly left side of the Text Iwa Fx Column in the Xsheet (For Timeline view, the Note Level layer just under the Fx Column is used). If the column does not contain Note Level or the cell is empty, text will not be rendered.
+
+    |text_2| 
+    
+    - **Specified Note Column**: It's similar to the "Nearby Note Column" option, but the Note Level Column can be specified with the Column Index field below.
+    
+    - **Input Text**: The text typed in the "Text" field below will be used (as shown in the image on top of this post).
+
+- **Column Index**, specifies the source *Note Level* column index. Only used in **Specified Note Column** Source mode.
+
+- **Text**, specifies the source text. Only used in **Input Text** Source mode.
+
+- **Horizontal Align**, specifies the text align (Left / Right / Center / Justify).
+
+- **Center, Width and Height**, specifies the text box. Just like the "Text" item of the clapperboard feature, the font size will be automatically adjusted in order to fit the box.
+
+- **Font**, specifies the font family, style and maximum size. Note that the size will take effect only if the automatically-calculated font size (in order to fit the text box) is bigger than the size value. (Therefore, it specifies the maximum font size.)
+
+- **Text Color**, specifies the text color. This will also be used for the border line.
+
+- **Box Color**, specifies the box background color.
+
+- **Show Border**, when activated, the border line will be rendered around the text bounding box. Please note that the text box (specified by the user) and the text bounding box (computed from the rendered text) may become different, especially when the maximum font size is set to small value.
+
+.. note:: Known Issue: When you are using a Note Level column for the source text, the change of the note text will not trigger the preview regeneration. You need to regenerate preview manually from the context menu of the viewer.
+
 
 .. _stylize:
 
@@ -1688,6 +1724,8 @@ Blurs along concentric circular lines as if the Source content turns around the 
 .. |Noise| image:: /_static/sfx/Special_FX_List/Noise/Noise.png
 .. |Salt_&_Pepper_Noise| image:: /_static/sfx/Special_FX_List/Noise/Salt_&_Pepper_Noise.png
 .. |Clouds| image:: /_static/sfx/Special_FX_List/Render/Clouds.png
+.. |text_1| image:: /_static/sfx/Special_FX_List/Render/text_1.png
+.. |text_2| image:: /_static/sfx/Special_FX_List/Render/text_2.png
 .. |Color_Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Color_Emboss.png
 .. |Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Emboss.png
 .. |Mosaic| image:: /_static/sfx/Special_FX_List/Stylize/Mosaic.png
