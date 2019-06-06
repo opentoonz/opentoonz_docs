@@ -1370,7 +1370,7 @@ Particles
 ~~~~~~~~~
 See  :ref:`Using the Particles Effect <using_the_particles_effect>` .
 
-.. _text:
+.. _text_iwa:
 
 Text Iwa
 ~~~~~~~~
