@@ -1404,7 +1404,7 @@ This effect allow for the creation of editable and animatable text, using the fo
 
 - **Size:**, specifies the *maximum* font size to use.
 
- .. note:: The **Size** value will only take effect if the *automatically-calculated font size* (in order to fit the specified text box) is bigger than the **Size** value.
+ .. note:: The **Size** value will only take effect if the *automatically-calculated font size* (in order to fit the specified text box) is bigger than the value specified for this parameter.
 
 - **Text Color**, specifies the color of the text. This color will also be used for the border line.
 
