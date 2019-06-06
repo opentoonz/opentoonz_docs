@@ -1396,7 +1396,7 @@ This effect allow for the creation of editable and animatable text, using the fo
 
 - **Center X:**, **Y:** specify the position of the text.
 
-- **Width**, **Height**, define the dimension of the text box. Just like in the **Text** items of the Clapperboard feature, the Font size will be automatically adjusted in order to fit the box. (See the  :ref:`Using The Clapperboard <using_the_clapperboard>` ).
+- **Width**, **Height**, define the dimension of the text box. Just like in the Text items of the Clapperboard feature, the font size will be automatically adjusted in order to fit the box. (See the  :ref:`Using The Clapperboard <using_the_clapperboard>` ).
 
 - **Font**, specifies the font family to use.
 
