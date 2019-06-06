@@ -1386,7 +1386,7 @@ This effect allow for the creation of editable and animatable text, using the fo
     
   - **Specified Note Column**: It's similar to the **Nearby Note Column** option, but the Note Level column number to use can be specified using the **Column Index** field below.
     
-    - **Input Text**: The text typed in the **Text** field below will be used (as shown in the image on top).
+  - **Input Text**: The text typed in the **Text** field below will be used (as shown in the image on top).
 
 - **Column Index**, specifies the source Note Level column number to use. Only used in **Specified Note Column** Source mode.
 
