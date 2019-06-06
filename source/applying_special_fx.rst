@@ -1412,7 +1412,7 @@ This effect allow for the creation of editable and animatable text, using the fo
 
 - **Show Border**, when activated, a border line will be rendered around the *text bounding box*. Please note that the *text box* (specified by the user) and the *text bounding box* (automatically computed from the rendered text) may become different, especially when the maximum font **Size** parameter is set to a small value.
 
-.. note:: Known Issue: When you are using a Note Level column for the source text, a change in the note text will not automatically trigger the preview regeneration. You will need to regenerate the preview manually from the context menu of the Viewer.
+.. note:: Known Issue: When you are using a Note Level column for the source text, a change in the note text will not automatically trigger the preview regeneration. You will need to manually regenerate the preview using the context menu of the Viewer.
 
 
 .. _stylize:
