@@ -1384,27 +1384,35 @@ This effect allow for the creation of editable and animatable text, using the fo
 
     |text_2| 
     
-    - **Specified Note Column**: It's similar to the "Nearby Note Column" option, but the Note Level Column can be specified with the Column Index field below.
+    - **Specified Note Column**: It's similar to the **Nearby Note Column** option, but the Note Level column number to use can be specified using the **Column Index** field below.
     
-    - **Input Text**: The text typed in the "Text" field below will be used (as shown in the image on top of this post).
+    - **Input Text**: The text typed in the **Text** field below will be used (as shown in the image on top).
 
-- **Column Index**, specifies the source *Note Level* column index. Only used in **Specified Note Column** Source mode.
+- **Column Index**, specifies the source Note Level column number to use. Only used in **Specified Note Column** Source mode.
 
 - **Text**, specifies the source text. Only used in **Input Text** Source mode.
 
-- **Horizontal Align**, specifies the text align (Left / Right / Center / Justify).
+- **Horizontal Align**, specifies the text align. Options are: **Left**, **Right**, **Center**, and **Justify**.
 
-- **Center, Width and Height**, specifies the text box. Just like the "Text" item of the clapperboard feature, the font size will be automatically adjusted in order to fit the box.
+- **Center X:**, **Y:** specify the position of the text.
 
-- **Font**, specifies the font family, style and maximum size. Note that the size will take effect only if the automatically-calculated font size (in order to fit the text box) is bigger than the size value. (Therefore, it specifies the maximum font size.)
+- **Width**, **Height**, define the dimension of the text box. Just like in the **Text** items of the Clapperboard feature, the Font size will be automatically adjusted in order to fit the box. (See the  :ref:`Using The Clapperboard <using_the_clapperboard>` ).
 
-- **Text Color**, specifies the text color. This will also be used for the border line.
+- **Font**, specifies the font family to use.
 
-- **Box Color**, specifies the box background color.
+- **Style:**, specifies the font style to use.
 
-- **Show Border**, when activated, the border line will be rendered around the text bounding box. Please note that the text box (specified by the user) and the text bounding box (computed from the rendered text) may become different, especially when the maximum font size is set to small value.
+- **Size:**, specifies the *maximum* font size to use.
 
-.. note:: Known Issue: When you are using a Note Level column for the source text, the change of the note text will not trigger the preview regeneration. You need to regenerate preview manually from the context menu of the viewer.
+ .. note:: The **Size** value will only take effect if the *automatically-calculated font size* (in order to fit the specified text box) is bigger than the **Size** value.
+
+- **Text Color**, specifies the color of the text. This color will also be used for the border line.
+
+- **Box Color**, specifies the background color of the text box.
+
+- **Show Border**, when activated, a border line will be rendered around the *text bounding box*. Please note that the *text box* (specified by the user) and the *text bounding box* (automatically computed from the rendered text) may become different, especially when the maximum font **Size** parameter is set to a small value.
+
+.. note:: Known Issue: When you are using a Note Level column for the source text, a change in the note text will not automatically trigger the preview regeneration. You will need to regenerate the preview manually from the context menu of the Viewer.
 
 
 .. _stylize:
