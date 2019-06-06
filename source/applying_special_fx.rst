@@ -1380,11 +1380,11 @@ This effect allow for the creation of editable and animatable text, using the fo
 
 - **Source**, specifies the text source. You can choose one from:
 
-    - **Nearby Note Column**: Get the text from note level column put on the directly left side of the Text Iwa Fx Column in the Xsheet (For Timeline view, the Note Level layer just under the Fx Column is used). If the column does not contain Note Level or the cell is empty, text will not be rendered.
+  - **Nearby Note Column**: Get the text from note level column put on the directly left side of the Text Iwa Fx Column in the Xsheet (For Timeline view, the Note Level layer just under the Fx Column is used). If the column does not contain Note Level or the cell is empty, text will not be rendered.
 
-    |text_2| 
+   |text_2| 
     
-    - **Specified Note Column**: It's similar to the **Nearby Note Column** option, but the Note Level column number to use can be specified using the **Column Index** field below.
+  - **Specified Note Column**: It's similar to the **Nearby Note Column** option, but the Note Level column number to use can be specified using the **Column Index** field below.
     
     - **Input Text**: The text typed in the **Text** field below will be used (as shown in the image on top).
 
