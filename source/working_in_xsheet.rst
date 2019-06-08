@@ -306,6 +306,9 @@ When renaming, files will be renamed according to the name you specify; an optio
 
 When premultiplied, the file alpha channel is modified to be properly displayed in OpenToonz. Images which have a meaningful alpha channel come in two types: premultiplied or straight. A non-premultiplied (straight) image can be recognized when it's loaded in OpenToonz because its edges, where there is a complete transparence on one side and opacity on the other, are not smooth, but displays show a solid halo; by premultiplying the image it's possible to fix this problem. This is available only for full-color images.
 
+You can also separate the color of an image or image sequence by using the **Separate Colors...** command. For more details on its options, please see the  :ref:`Separate Colors <separate_colors>`  section.
+
+
 .. tip:: **To Duplicate files:**
 
     1. Select the files you want to duplicate. 
@@ -318,7 +321,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     2. Right-click any of the selected files and choose **Rename** from the menu that opens.
 
-    |rename|
+     |rename|
 
     3. In the dialog that opens assign a new name to the file and choose whether to **Delete Original Files** by activating the related option.
 
@@ -428,11 +431,76 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     7. Click the Convert button.
 
-.. tip:: **To Separate Colors of a file into separate image files:**
+.. _separate_colors:
+
+Separate Colors
+~~~~~~~~~~~~~~~
+
+The **Separate Colors...** feature, allows for separating single drawing by colors of pencils, generating independent image files to make it easier to use them in a subsequent workflow of compositing.
+
+|separate_colors|
+
+Unlike conventional *threshold-based* algorithms, this feature can produce more natural results, since it separates pixels in a more flexible way, by using the HLS color space.
+
+.. note:: Currently this is a "utility" feature, which means that it's independent from the current loaded scene or active project. It just works on selected raster image files in the File Browser.
+
+The produced output images contain an alpha channel equal to the line intensity.
+
+.. note:: You can compose the line by loading the separated images as levels, or you can also connect the levels to a **MatteIn** effect with some color card if you would like to alter the line color.
+
+The available parameters are:
+
+- **Preview Frame:**, defines the frame to be shown in the preview area.
+
+- **Show Mask**, shows the **Alpha Matting** parameters results in the preview area.
+
+- **Show Alpha**, shows the generated alpha channel in the preview area. This is the alpha channel that will be present in the new generated image files, product of the separation work.
+
+- **Pick Color**, lets the user pick a color from the left preview area. The picked color will be assigned to the currently selected color swatch.
+
+ .. note:: You can click and drag over any of the preview area images to pick an average color for the defined rectangle. 
+
+- **Paper Color:**, allows to define the paper color, used to calculate transparency of the separated images. 
+
+- **Main Color:**, allows to define the color for the main ink in the drawings. For better results, it's advised to pick the darkest color possible.
+
+- **Sub Color1:**, **Sub Color2:** and **Sub Color3:**, allows to define the color for the other respective color inks in the drawings you whish to separate. For better results, it's advised to pick the deepest (darkest, more saturated) color possible.
+
+ .. note:: The **Sub Color3:** parameters will only show when **Sub3** suffix is enabled, in the **File Suffix:** parameters area.
+
+- **Sub Adjust:**, allows to adjust the prevalence of sub-colors with respect to the black ink.
+
+- **Border Smooth**, allows to make the intersection of lines having different colors smoother.
+
+- **Alpha Matting**, allows to better remove noisy backgrounds, while preserving subtle faint parts of the pencil's stroke at the sme time.
+
+ .. note:: To be able to preview the Alpha Matting, the **Show Mask** option at the top of the preview area should be activated.
+
+ - **Mask Threshold**, allows to make the noisy background pixels transparent. 
+
+  .. note:: The regions to become transparent background in the output image are shown in red or blue colors in the preview area.
+
+ - **Mask Radius**, can create a solid *border area* around the detected colored strokes, to preserve subtle faint parts of them.
+
+- **Start:** and **End:**, when separating image sequences it allows to set a frame range for the color separation work to be done.
+
+- **Format:**, defines the file format to use for the new generated files. Available options are: **PNG** and **TIF**.
+
+- **Save in:**, defines where the new generated files will be saved.
+
+- **File Suffix:**, allows the definition of file suffixes for the **Main**, **Sub1**, **Sub2** and **Sub3** color generated image files.
+
+ .. note:: If **Sub3** is enabled the left preview area will change to accomodate the new separation color. Also, and additional **Sub Color3:** option will show in the right parameters area.
+
+- **Auto**, toggles the automatic preview of the separation in the left preview area.
+
+- **Preview**, allows to manually preview the separation in the left preview area. Only active when the **Auto** option is disabled.
+
+- **Separate**, executes the color separation operation on the selected files.
+
+.. tip:: **To Separate Colors of an image into separate image files:**
 
     - Right-click the file you want and choose **Separate Colors...** from the menu that opens. The Separate Colors window shows, where you can select several options for the operation.
-
-    |separate_colors|
 
 
 .. _exposing_levels:
