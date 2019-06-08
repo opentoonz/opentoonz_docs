@@ -282,37 +282,55 @@ When a Photoshop document is loaded as Columns, it is also possible to set the w
 
 Executing Tasks in the File Browser
 '''''''''''''''''''''''''''''''''''
-Some tasks concerning files can be executed directly in the file browser.
+Some tasks concerning files can be executed directly in the File Browser.
 
-Files can be duplicated, converted to a different format, converted to TLV (Toonz raster image) format, renamed, and premultiplied. 
+Files can be duplicated, converted to a different format, converted to TLV (Toonz raster image) format, renamed, premultiplied, and you can choose to separate their colors. 
 
 When duplicating files, the new files will be renamed by appending an underscore followed by progressive numbering.
 
-When converting files, a dialog prompts the frame range to convert, a saving location, a name, the new format with related options and a color for the background of the converted file. It is also possible to select more files at once but, in this case, the frame range and the file name fields won’t be available. All levels, images and clips supported by OpenToonz can be converted. The PLI files can be converted to the SVG format.
+When converting files, a dialog prompts the frame range to convert, a saving location, a name, the new format with related options and a color for the background of the converted file. It is also possible to select more files at once but, in this case, the frame range and the file name fields won’t be available. All levels, images and clips supported by OpenToonz can be converted. The PLI vector files can also be converted to the SVG format.
 
-When converting files to TLV format, it is possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by OpenToonz can be converted, except PSD files.
+When converting files to TLV format, it's possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by OpenToonz can be converted, except for PSD files.
 
-The conversion to the unpainted TLV format is available when one or several files are selected and it is meant for lineart images: the images and levels are converted into black lineart images with a transparent background, so that they can be painted with the same techniques and tools you can use for Toonz raster levels (see  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In particular if images have some transparency, transparent pixels remain transparent, while solid pixels are transformed into black ones; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black ones. 
+The conversion to the unpainted TLV format is available when one or several files are selected and it's meant for lineart images: the images and levels are converted into black lineart images with a transparent background, so that they can be painted with the same techniques and tools you can use for other Toonz Raster levels (see  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In particular if images have some transparency, transparent pixels remain transparent, while solid pixels are transformed into black ones; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black ones. 
 
-The conversion to the painted TLV format is available when two files are selected or when the selected files are Raster Full color without antialiasing. In the case of the two files, one is meant to be the lineart and the other a painted version of the same image: the images and levels are converted into painted lineart images with a palette, so that they can be edited with the same techniques and tools you can use for Toonz raster levels (see  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In the case of conversion from Raster Full color without antialiasing an Heuristic is used to recognize lines and painted areas creating a TLV level where the lines are seen as ink and the painted areas as paint.
+The conversion to the painted TLV format is available when two files are selected or when the selected files are Raster Full color without antialiasing. In the case of the two files, one is meant to be the lineart and the other a painted version of the same image: the images and levels are converted into painted lineart images with a palette, so that they can be edited with the same techniques and tools you can use for other Toonz Raster levels (see  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In the case of conversion from Raster Full color without antialiasing, an Heuristic is used to recognize lines and painted areas creating a TLV level where the lines are seen as ink and the painted areas as paint.
 
 In particular if images have some transparency, transparent pixels remains transparent, while solid pixels are transformed into lines according to their color; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black lines. 
 
 .. note:: When converting to the TLV format, sequence numbering modes different from the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) are supported, so that only the first file of a sequence is required to be selected to include the whole sequence in the conversion.
 
-.. note:: The Convert command is also available in the File menu.
+.. note:: The **Convert...** command is also available in the File menu as **Convert File...**.
 
 When renaming, files will be renamed according to the name you specify; an option allows you also to delete the original files. This can be used both for renaming sequences of image files in one shot, and for converting sequence numbering modes to the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) by selecting only the first file of a sequence.
 
-When premultiplied, the file alpha channel is modified to be properly displayed in OpenToonz. Images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo; by premultiplying the image it is possible to fix this problem. This is available only for full-color images.
+When premultiplied, the file alpha channel is modified to be properly displayed in OpenToonz. Images which have a meaningful alpha channel come in two types: premultiplied or straight. A non-premultiplied (straight) image can be recognized when it's loaded in OpenToonz because its edges, where there is a complete transparence on one side and opacity on the other, are not smooth, but displays show a solid halo; by premultiplying the image it's possible to fix this problem. This is available only for full-color images.
 
-.. tip:: **To duplicate files:**
+.. tip:: **To Duplicate files:**
 
     1. Select the files you want to duplicate. 
 
-    2. Right-click any of the selected files and choose Duplicate from the menu that opens.
+    2. Right-click any of the selected files and choose **Duplicate** from the menu that opens.
 
-.. tip:: **To convert a file to a different format:**
+.. tip:: **To Rename files:**
+
+    1. Select the files you want to rename. 
+
+    2. Right-click any of the selected files and choose **Rename** from the menu that opens.
+
+    |rename|
+
+    3. In the dialog that opens assign a new name to the file and choose whether to **Delete Original Files** by activating the related option.
+
+    4. Click the **Rename** button.
+
+.. tip:: **To Premultiply full-color images:**
+
+    1. Select the files you want to premultiply. 
+
+    2. Right-click any of the selected files and choose Premultiply from the menu that opens.
+
+.. tip:: **To Convert a file to a different format:**
 
     1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convert window change depending on the format of the selected files.
 
@@ -326,7 +344,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     5. Click the Convert button.
 
-.. tip:: **To convert several files at once to a different format:**
+.. tip:: **To Convert several files at once to a different format:**
 
     1. Select the files you want to convert.
 
@@ -344,7 +362,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     7. Click the Convert button.
 
-.. tip:: **To convert files to the unpainted TLV format:**
+.. tip:: **To Convert files to the unpainted TLV format:**
 
     1. Select the lineart files you want to convert. 
 
@@ -366,7 +384,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     9. Click the Convert button.
 
-.. tip:: **To convert files to the painted TLV format from two images:**
+.. tip:: **To Convert files to the painted TLV format from two images:**
 
     1. Select the lineart file and the painted version of the same file you want to convert. 
 
@@ -392,7 +410,7 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     11. Click the Convert button.
 
-.. tip:: **To convert files to the painted TLV format from non AA source:**
+.. tip:: **To Convert files to the painted TLV format from non AA source:**
 
     1. Select the Raster Full color file you want to convert. 
 
@@ -410,21 +428,11 @@ When premultiplied, the file alpha channel is modified to be properly displayed 
 
     7. Click the Convert button.
 
-.. tip:: **To rename files:**
+.. tip:: **To Separate Colors of a file into separate image files:**
 
-    1. Select the files you want to rename. 
+    - Right-click the file you want and choose **Separate Colors...** from the menu that opens. The Separate Colors window shows, where you can select several options for the operation.
 
-    2. Right-click any of the selected files and choose Rename from the menu that opens.
-
-    3. In the dialog that opens assign a new name to the file and choose whether to delete the original files by activating the related option.
-
-    4. Click the Rename button.
-
-.. tip:: **To premultiply full-color images:**
-
-    1. Select the files you want to premultiply. 
-
-    2. Right-click any of the selected files and choose Premultiply from the menu that opens.
+    |separate_colors|
 
 
 .. _exposing_levels:
@@ -1841,12 +1849,14 @@ Elements defined in the CSS are the following:
 
 .. |file_browser| image:: /_static/xsheet/file_browser.png
 .. |load_psd| image:: /_static/xsheet/load_psd.png
+.. |rename| image:: /_static/xsheet/rename.png
 .. |convert| image:: /_static/xsheet/convert.png
 .. |convert_several| image:: /_static/xsheet/convert_several.png
 .. |convert_tlv_unpainted| image:: /_static/xsheet/convert_tlv_unpainted.png
 .. |convert_tlv_painted| image:: /_static/xsheet/convert_tlv_painted.png
 .. |convert_tlv_painted_noaa| image:: /_static/xsheet/convert_tlv_painted_noaa.png
 .. |scene_cast| image:: /_static/xsheet/scene_cast.png
+.. |separate_colors| image:: /_static/xsheet/separate_colors.png
 .. |level_strip| image:: /_static/xsheet/level_strip.png
 .. |level_settings| image:: /_static/xsheet/level_settings.png
 .. |xsheet_toolbar| image:: /_static/xsheet/xsheet_toolbar.png
