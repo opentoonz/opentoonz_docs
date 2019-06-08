@@ -435,7 +435,7 @@ In particular if images have some transparency, transparent pixels remains trans
 Separate Colors
 ~~~~~~~~~~~~~~~
 
-The **Separate Colors** feature, allows for separating single drawing by colors of pencils, generating independent image files to make it easier to use them in a subsequent workflow of compositing.
+The **Separate Colors** feature, allows for separating single drawing by colors of pencils, generating independent image files to make it easier to use them in a subsequent compositing workflow.
 
 |separate_colors|
 
