@@ -288,7 +288,15 @@ Files can be duplicated, converted to a different format, converted to TLV (Toon
 
 When duplicating files, the new files will be renamed by appending an underscore followed by progressive numbering.
 
+You can also separate the colors of an image or image sequence by using the **Separate Colors...** command. For more details on its options, please see the  :ref:`Separate Colors <separate_colors>`  section.
+
+When renaming, files will be renamed according to the name you specify; an option allows you also to delete the original files. This can be used both for renaming sequences of image files in one shot, and for converting sequence numbering modes to the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) by selecting only the first file of a sequence.
+
+When premultiplied, the file alpha channel is modified to be properly displayed in OpenToonz. Images which have a meaningful alpha channel come in two types: premultiplied or straight. A non-premultiplied (straight) image can be recognized when it's loaded in OpenToonz because its edges, where there is a complete transparence on one side and opacity on the other, are not smooth, but displays show a solid halo; by premultiplying the image it's possible to fix this problem. This is available only for full-color images.
+
 When converting files, a dialog prompts the frame range to convert, a saving location, a name, the new format with related options and a color for the background of the converted file. It is also possible to select more files at once but, in this case, the frame range and the file name fields won’t be available. All levels, images and clips supported by OpenToonz can be converted. The PLI vector files can also be converted to the SVG format.
+
+.. note:: The **Convert...** command is also available in the File menu as **Convert File...**.
 
 When converting files to TLV format, it's possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by OpenToonz can be converted, except for PSD files.
 
@@ -299,15 +307,6 @@ The conversion to the painted TLV format is available when two files are selecte
 In particular if images have some transparency, transparent pixels remains transparent, while solid pixels are transformed into lines according to their color; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black lines. 
 
 .. note:: When converting to the TLV format, sequence numbering modes different from the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) are supported, so that only the first file of a sequence is required to be selected to include the whole sequence in the conversion.
-
-.. note:: The **Convert...** command is also available in the File menu as **Convert File...**.
-
-When renaming, files will be renamed according to the name you specify; an option allows you also to delete the original files. This can be used both for renaming sequences of image files in one shot, and for converting sequence numbering modes to the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) by selecting only the first file of a sequence.
-
-When premultiplied, the file alpha channel is modified to be properly displayed in OpenToonz. Images which have a meaningful alpha channel come in two types: premultiplied or straight. A non-premultiplied (straight) image can be recognized when it's loaded in OpenToonz because its edges, where there is a complete transparence on one side and opacity on the other, are not smooth, but displays show a solid halo; by premultiplying the image it's possible to fix this problem. This is available only for full-color images.
-
-You can also separate the color of an image or image sequence by using the **Separate Colors...** command. For more details on its options, please see the  :ref:`Separate Colors <separate_colors>`  section.
-
 
 .. tip:: **To Duplicate files:**
 
