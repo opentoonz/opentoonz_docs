@@ -473,7 +473,7 @@ The available parameters are:
 
 - **Alpha Matting**, allows to better remove noisy backgrounds, while preserving subtle faint parts of the pencil's stroke at the sme time.
 
- .. note:: To be able to preview the Alpha Matting, the **Show Mask** option at the top of the preview area should be activated.
+  .. note:: To be able to preview the Alpha Matting, the **Show Mask** option at the top of the preview area should be activated.
 
  - **Mask Threshold**, allows to make the noisy background pixels transparent. 
 
@@ -499,7 +499,13 @@ The available parameters are:
 
 .. tip:: **To Separate Colors of an image into separate image files:**
 
-    - Right-click the file you want and choose **Separate Colors...** from the menu that opens. The Separate Colors window shows, where you can select several options for the operation.
+    1. Right-click the file you want and choose **Separate Colors...** from the menu that opens. The Separate Colors window shows, where you can select several options for the operation.
+    
+    2. Choose the appropriate preview and separation options for the desired result.
+    
+    3. Press the **Separate** button to execute the color separation job.
+    
+    4. Close the window by pressing the **Close** button.
 
 
 .. _exposing_levels:
