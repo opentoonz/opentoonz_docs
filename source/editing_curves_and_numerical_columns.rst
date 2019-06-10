@@ -636,7 +636,7 @@ where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the *table
 
 For example ``camera1.ns``  refers to the N/S position of the Camera1.
 
-Supported terms are the following:
+Supported terms are the followingg:
 
 ===========================  =============================  
 **Objects**                                               
