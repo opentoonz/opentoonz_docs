@@ -516,7 +516,8 @@ Supported terms are the following:
 ``sqrt(value)``                             Returns square root of ``value`` .                                                                                                                                                          
 ``min(a,b,c,...)``                          Returns argument with minimum value.                                                                                                                                                        
 ``max(a,b,c,...)``                          Returns argument with maximum value.                                                                                                                                                        
-``clamp(value,min,max)``, ``crop(value,min,max)``                                                                                                                                                                     Returns ``min``  if ``value``  is less than ``min`` ; ``max``  if ``value``  is greater than ``max`` ; otherwise it returns ``value`` .   
+``clamp(value,min,max)``                    Returns ``min``  if ``value``  is less than ``min`` ; ``max``  if ``value``  is greater than ``max`` ; otherwise it returns ``value`` .  
+``crop(value,min,max)``                     Returns ``min``  if ``value``  is less than ``min`` ; ``max``  if ``value``  is greater than ``max`` ; otherwise it returns ``value`` .   
 ``step(value,min)``                         Returns 0 if ``value``  is less than ``min`` , otherwise it returns 1.                                                                                                                      
 ``smoothstep(value,min,max)``               Returns 0 if ``value``  is less than ``min`` , 1 if ``value``  is greater than or equal to ``max`` , and perform a smooth interpolation between 0 and 1 in interval ``min``  to ``max`` .   
 ==========================================  ==========================================================================================================================================================================================  ========================================================================================================================================  
@@ -640,9 +641,9 @@ Supported terms are the following:
 =========================  =============================  
 **Objects**                                               
 =========================  =============================  
-``camn`` , ``cameran``     Refer to the camera ``n`` .    
-``coln``                   Refers to the column ``n`` .   
-``pegn`` , ``pegbarn`` ,   Refer to the pegbar ``n`` .        
+``cam<n>`` , ``camera<n>``     Refer to the camera ``n`` .    
+``col<n>``                   Refers to the column ``n`` .   
+``peg<n>`` , ``pegbar<n>`` ,   Refer to the pegbar ``n`` .        
 ``tab`` , ``table``        Refer to the table.            
 =========================  =============================  
 
