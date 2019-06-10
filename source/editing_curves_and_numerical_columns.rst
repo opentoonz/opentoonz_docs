@@ -638,14 +638,14 @@ For example ``camera1.ns``  refers to the N/S position of the Camera1.
 
 Supported terms are the following:
 
-=========================  =============================  
+==========================  =============================  
 **Objects**                                               
-=========================  =============================  
-``cam/<n/>`` , ``camera/<n/>``     Refer to the camera ``n`` .    
+==========================  =============================  
+``cam<n>`` , ``camera<n>``     Refer to the camera ``n`` .    
 ``col/<n/>``                   Refers to the column ``n`` .   
-``peg/<n/>`` , ``pegbar/<n/>`` ,   Refer to the pegbar ``n`` .        
+``peg<n>`` , ``pegbar<n>`` ,   Refer to the pegbar ``n`` .        
 ``tab`` , ``table``        Refer to the table.            
-=========================  =============================  
+==========================  =============================  
 
 
 
