@@ -641,9 +641,9 @@ Supported terms are the following:
 =========================  =============================  
 **Objects**                                               
 =========================  =============================  
-``cam<n>`` , ``camera<n>``     Refer to the camera ``n`` .    
-``col<n>``                   Refers to the column ``n`` .   
-``peg<n>`` , ``pegbar<n>`` ,   Refer to the pegbar ``n`` .        
+``cam/<n/>`` , ``camera/<n/>``     Refer to the camera ``n`` .    
+``col/<n/>``                   Refers to the column ``n`` .   
+``peg/<n/>`` , ``pegbar/<n/>`` ,   Refer to the pegbar ``n`` .        
 ``tab`` , ``table``        Refer to the table.            
 =========================  =============================  
 
