@@ -730,7 +730,9 @@ In the tool options bar you can set the following:
 
 - **Preserve Thickness** will preserve the original thickness of the drawing vectors while performing resizing operations. This is available for Toonz Vector drawings only.
 
-- **Scale H** and **V** set the horizontal and vertical scaling of the current selection; activating the **Link** options will maintain the proportions of the selection.
+- **Scale H** and **V** set the horizontal and vertical scaling of the current selection.
+
+- **Link** will maintain the proportion of the selection while draging over any of the Scale **H** or **V** letters in the tool options bar.
 
 - **Rotation** sets the rotation of the current selection.
 
@@ -756,17 +758,21 @@ In the tool options bar you can set the following:
 
   .. note:: The *Savebox* size can be set automatically to the minimum size by activating the Preferences > Drawing > **Minimize Savebox after Editing** option.
 
-- **No Antialias** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Toonz Raster and Raster drawings only.
+- **No Antialiasing** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Toonz Raster and Raster drawings only.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using the arrow buttons available at its ends.
 
 When a selection is made, it is displayed with a bounding box with handles that allow you to perform the following transformations:
 
-    - **Scale**, click and drag any corner handle to scale the selection freely; by pressing the Shift key while dragging the scaling will be uniform; by pressing the Alt key the scaling will be applied from the center.
-
-    - **Scale in one direction**, click and drag any side handle to scale the selection in one direction; by pressing the Alt key the scaling will be applied symmetrically from the center.
+    - **Move**, click and drag the inside of the raster selection, or any selected vector of a vector selection, to move it; by pressing the **Shift** key while dragging, the movement will be constrained on the horizontal or vertical direction.
+    
+     .. note:: The keyboard arrow keys can be used as well to move the selection one pixel in any direction; if they are used while pressing the **Shift** key, the movement will be in 10 pixels steps.
 
     - **Rotate**, click and drag outside any corner handle to rotate the selection.
+
+    - **Scale**, click and drag any corner handle to scale the selection freely; by pressing the **Shift** key while dragging the scaling will be uniform; by pressing the **Alt** key the scaling will be applied from the center.
+
+    - **Scale in one direction**, click and drag any side handle to scale the selection in one direction; by pressing the **Alt** key the scaling will be applied symmetrically from the center.
 
     - **Center**, click and drag the center handle to change the center of rotation, and the center used when Alt-scaling.
 
@@ -774,21 +780,17 @@ When a selection is made, it is displayed with a bounding box with handles that 
 
      .. note:: Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in **Whole Level** modes (see above).
 
-    - **Thickness**, click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This is available for Toonz vector drawings only.
+    - **Thickness**, click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This option is available for Toonz Vector drawings only.
 
-    - **Move**, click and drag the inside of the raster selection, or any selected vector of a vector selection, to move it; by pressing the Shift key while dragging, the movement will be constrained on the horizontal or vertical direction.
-    
-     .. note:: The Arrow keys can be used as well to move the selection one pixel right, left, up or down; if they are used while pressing the Shift key, the movement size will be ten pixels.
-
-    - **Apply transformation**, click outside the selection to apply the transformation.
+To apply the transformations you can click outside the selection.
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate the operations you may perform. 
 
-Selections can also be Cut, Copied, Pasted and Deleted by using the relevant command in the Edit menu. Cut or copy and paste also works from one drawing to another, or to a new one. This allows you to copy or move a section of a drawing to another drawing, or split a drawing into several ones.
+Selections can also be Cut, Copied, Pasted and Deleted by using the relevant command in the Edit menu. Cut or Copy and Paste also work from one drawing to another, or onto a new one. This allows you to copy or move a section of a drawing to another drawing, or split a drawing into several ones.
 
-When a drawing in a Toonz level, or a section of it, is pasted to another one, the colors of the pasted drawing are added to the palette of the target level, unless the same colors are already available in the palette.
+When a drawing in a Toonz level, or a section of it is pasted to another one, the Styles of the pasted drawing are added to the palette of the target level, unless the same Styles are already available in the palette.
 
-.. note:: The vector strokes selection can also be used to change the style of the selected strokes by choosing it in the palette, or by creating a new style. See  :ref:`Editing Styles <editing_styles>`  . 
+.. note:: The selection can also be used to change the Style of vector strokes by choosing it in the palette, or by creating a new Style while selected. See  :ref:`Editing Styles <editing_styles>`  . 
 
 .. tip:: **To edit the drawing savebox:**
 
@@ -798,7 +800,7 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
 
     3. Deactivate the **Modify Savebox** option to confirm the changes.
 
-.. tip:: **To select and transform an area in a Toonz Raster drawing or in a Raster image:**
+.. tip:: **To select and transform an area in a Toonz Raster or Raster level:**
 
     1. Select the area by doing one of the following:
 
@@ -813,8 +815,13 @@ When a drawing in a Toonz level, or a section of it, is pasted to another one, t
     - Operate the handles available along the bounding box.
 
     - Edit the scale, rotation and position values available in the tool options bar.
+    
+     .. figure:: /_static/drawing_animation_levels/select_transform.png
 
-.. tip:: **To select and transform vectors in a Toonz Vector drawing:**
+     First define the area you want to select, then use the bounding box to make
+geometric transformations.
+
+.. tip:: **To select and transform vectors in a Toonz Vector level:**
 
     1. Select the vectors by doing one of the following:
 
