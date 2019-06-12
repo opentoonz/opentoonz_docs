@@ -912,11 +912,19 @@ Grouping and Ungrouping Vectors
 '''''''''''''''''''''''''''''''
 All the vector strokes of a drawing lie on the same plane, therefore drawing *areas* are outlined by segments defined by strokes intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
 
+.. figure:: /_static/drawing_animation_levels/grouping_problem.png
+
+   Painting a drawing that contains intersecting vector strokes and shapes may be an issue, because all of them lie on the same layer.
+
 To organize strokes you can use the grouping features, that creates a new group entity containing only the strokes you select.
 
 In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the strokes of the first square, and another those of the second square, thus defining two groups whose order can be arranged.
 
 It's possible to create as many groups as you want in any drawing; groups can be made of one stroke only as well, for instance a circle, or a line.
+
+.. figure:: /_static/drawing_animation_levels/grouping_solution.png
+
+   First define groups, then set a proper layering order to solve the intersection problems.
 
 When drawing with the **Geometric** tool (|geometric|), closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the **Auto Group** option (see :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ). 
 
