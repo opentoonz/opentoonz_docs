@@ -740,6 +740,8 @@ In the tool options bar you can set the following:
 
 - **Cap:** sets the shape of the ends of the selected vector strokes. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the stroke thickness. This is available for Toonz Vector drawings only.
 
+  |caps|
+
 - **Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
 
 - **Miter:** sets the maximum length of a *Miter* join, that is computed multiplying the Miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector drawings only, and only if the **Join:** option is set to **Miter**.
@@ -1538,6 +1540,7 @@ To better check the new drawing and the animation you can toggle the shift and t
 
 
 .. |canvas_size| image:: /_static/drawing_animation_levels/canvas_size.png
+.. |caps| image:: /_static/drawing_animation_levels/caps.png
 .. |Toonz71_123| image:: /_static/Toonz71/Toonz71_123.gif
 .. |animate| image:: /_static/drawing_animation_levels/animate.png
 .. |bender| image:: /_static/drawing_animation_levels/bender.png
