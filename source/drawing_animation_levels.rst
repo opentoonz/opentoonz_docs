@@ -816,10 +816,9 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
 
     - Edit the scale, rotation and position values available in the tool options bar.
     
-    .. figure:: /_static/drawing_animation_levels/select_transform.png
+    .. figure:: /_static/drawing_animation_levels/select_transform_raster.png
 
-       First define the area you want to select, then use the bounding box to make
-geometric transformations.
+       First define the area you want to select, then use the bounding box to make geometric transformations.
 
 .. tip:: **To select and transform vectors in a Toonz Vector level:**
 
@@ -844,6 +843,11 @@ geometric transformations.
     - Operate the handles available along the bounding box.
 
     - Edit the scale, rotation, position and thickness values available in the tool options bar.
+    
+    .. figure:: /_static/drawing_animation_levels/select_transform_vector.png
+
+       First select the vector strokes you want to transform, then use the bounding box to make geometric transformations.
+
 
 .. tip:: **To select and transform all the drawings of a Toonz Vector level:**
 
