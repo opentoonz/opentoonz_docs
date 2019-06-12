@@ -746,6 +746,10 @@ In the tool options bar you can set the following:
 
 - **Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
 
+  .. figure:: /_static/drawing_animation_levels/joins.png
+
+     Miter joins, round joins and bevel joins.
+
 - **Miter:** sets the maximum length of a *Miter* join, that is computed multiplying the Miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector drawings only, and only if the **Join:** option is set to **Miter**.
 
 - **Modify Savebox** check box allows you to resize the *Savebox* of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Toonz Raster drawings only.
