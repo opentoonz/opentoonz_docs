@@ -614,7 +614,7 @@ The names of the different output files are automatically generated in order to 
 
 .. note:: No output will be displayed after the rendering, regardless of **Open Flipbook after Rendering** being activated in Preferences > Preview dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **Flows** type multiple rendering, or connect them to several Over nodes in case of **Terminal Nodes**`type multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **Flows** type multiple rendering, or connect them to several Over nodes in case of **Terminal Nodes** type multiple rendering.
 
 
 .. _rendering_animations_with_alpha_channel_information:
