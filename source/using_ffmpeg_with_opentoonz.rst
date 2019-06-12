@@ -109,7 +109,7 @@ Installing
 Installing FFmpeg for Linux
 ---------------------------
 
-| To install FFmpeg, enter the following command in the terminal window depending on your distribution.
+| To install FFmpeg, enter the following command in the shell depending on your distribution.
 
 Arch Linux: ``# pacman -S extra/ffmpeg``
 
@@ -121,7 +121,7 @@ Solus: ``# eopkg install ffmpeg``
 
 | If you are using a other Linux distribution please refer to its documentation or visit the `FFmpeg website <https://www.ffmpeg.org/download.html>`_.
 
-.. tip:: To make it possible to export files in **mp4**, **webm** or **gif** formats, you need to specify the path to FFmpeg installed on your system, usually it is **/usr/bin/ffmpeg**. Enter in the terminal window command ``which ffmpeg`` to find out.
+.. tip:: To make it possible to export files in **mp4**, **webm** or **gif** formats, you need to specify the path to FFmpeg installed on your system, usually it is **/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the shell to find out.
 
 - Start OpenToonz and open the **Preferences** window with ``File > Preferences...``
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
