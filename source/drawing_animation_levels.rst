@@ -465,27 +465,30 @@ Adding Text
 ~~~~~~~~~~~
 Text can be added by using the **Type** tool (|type|). In the tool options bar you can set the following:
 
- - The **Font:** to be used, taken from a list based on the Operating System default fonts folder. 
+ - **Font:** to be used, taken from a list based on the Operating System default fonts folder. 
 
- - The **Style:** for the chosen font. 
+ - **Style:**, for the chosen font. 
 
- - Font **Size:** can be chosen among a set of options. 
+ - **Size:**, for the chosen font. 
 
-  .. note:: Written text can be resized by using the **Selection** tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
+  .. note:: Already written text can be resized by using the **Selection** tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
- - The **Vertical Orientation** option lets you place the text vertically, one letter under another, instead of horizontally.
+ - **Vertical Orientation**, lets you place the text vertically, one letter under another, instead of horizontally.
 
-The current palette style is applied to the text you type. *The palette style can be changed while typing text*, thus you can have characters having different styles in the same text editing session (see  :ref:`Editing Styles <editing_styles>`  ).
+The *current* palette Style is applied to the text you type. The palette style can be changed while typing text, thus you can have characters with different styles in the same text editing session (see  :ref:`Editing Styles <editing_styles>`  ).
 
-.. note:: For vector drawings, as soon as the text is committed, it is converted into vector outlines, and can no longer be edited as text.
+.. note:: For vector levels, as soon as the text is committed, it's converted into vector outlines, and can no longer be edited as text.
+
+.. note:: It is also possible to work with editable and animatable text in OpenToonz through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
+
 
 .. tip:: **To add text:**
 
     1. Select the **Type** tool (|type|) and click in the viewer where you want to start writing. 
 
-    2. Choose options for the size, font and orientation. These options can be changed as long as you are in text editing mode.
+    2. Choose options for the Size, Font and orientation. These options can be changed as long as you are in text editing mode.
 
-    3. Change the current style in the palette if you want to use more than one style in the same text editing session.
+    3. Change the current Style in the palette, if you want to use more than one style in the same text editing session.
 
     4. Click inside the text editing area to change the text insertion point.
 
