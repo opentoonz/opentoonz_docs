@@ -483,14 +483,13 @@ The *current* palette Style is applied to the text you type. The palette style c
 
 .. note:: For vector levels, as soon as the text is committed, it's converted into vector outlines, and can no longer be edited as text.
 
-
 .. tip:: **To add text:**
 
     1. Select the **Type** tool (|type|) and click in the viewer where you want to start writing. 
 
-    2. Choose options for the Size, Font and orientation. These options can be changed as long as you are in text editing mode.
+    2. Choose options **Font**, **Style**, **Size** and **Vertical Orientation**. These options can be changed as long as you are in text editing mode.
 
-    3. Change the current Style in the palette, if you want to use more than one style in the same text editing session.
+    3. Change the current color Style in the palette, if you want to use more than one style in the same text editing session.
 
     4. Click inside the text editing area to change the text insertion point.
 
