@@ -308,7 +308,7 @@ Projects
          seq01
             **scene01**
 
-If the $scenepath is used in the folder definition, with **+drawings** that is ``C:\$scenepath\prod drawings`` on Windows, or ``/Volume/Macintosh HD/$scenepath/prod drawings`` on Macintosh``,`` and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
+If the $scenepath is used in the folder definition, with **+drawings** that is ``C:\$scenepath\prod drawings`` on Windows, or ``/Volume/Macintosh HD/$scenepath/prod drawings`` on Macintosh, and you save the scene scene01 in ``+scenes\seq01`` , the project browser will display the following:
 
 Projects
    Project01
