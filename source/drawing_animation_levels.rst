@@ -818,7 +818,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
     
     .. figure:: /_static/drawing_animation_levels/select_transform.png
 
-    First define the area you want to select, then use the bounding box to make
+       First define the area you want to select, then use the bounding box to make
 geometric transformations.
 
 .. tip:: **To select and transform vectors in a Toonz Vector level:**
