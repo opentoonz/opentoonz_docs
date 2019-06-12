@@ -646,7 +646,7 @@ If you change any parameter in the **Convert-to-Vector Settings**, the previewed
 .. _saving_and_loading_convert_to_vector_settings:
 
 Saving and Loading Convert To Vector Settings
-'''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Convert To Vector settings can be saved as *tnzsettings* files in order to have different settings for each level and to be loaded back and used in a different scene. 
 
 Loaded Convert To Vector settings can also become the default settings for the scene or for the project (see  :ref:`Scene Settings and Project Default Settings <scene_settings_and_project_default_settings>`  ). 
@@ -672,7 +672,9 @@ Loaded Convert To Vector settings can also become the default settings for the s
 
 Changing the Canvas Size
 ------------------------
-It is possible to change the size of Toonz Raster and Raster levels, in order to increase or decrease the area around the images of a level.
+It's possible to change the size of Toonz Raster and Raster levels, in order to increase or decrease the area around the images of a level.
+
+|canvas_size|
 
 The new size can be set in any unit supported by OpenToonz, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level images.
 
@@ -1535,6 +1537,7 @@ To better check the new drawing and the animation you can toggle the shift and t
 
 
 
+.. |canvas_size| image:: /_static/drawing_animation_levels/canvas_size.png
 .. |Toonz71_123| image:: /_static/Toonz71/Toonz71_123.gif
 .. |animate| image:: /_static/drawing_animation_levels/animate.png
 .. |bender| image:: /_static/drawing_animation_levels/bender.png
