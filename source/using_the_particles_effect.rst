@@ -43,8 +43,8 @@ To apply the control image to a parameter, use the related field available in th
 
 .. _setting_the_particles_source:
 
-Setting the Particles Source
-----------------------------
+Source
+------
  |setting_the_particles_source| 
 
 The particles Source is the area where the particles are generated. It can be defined in the **Source** page, by specifying its size and position, or a control image. The way particles are generated, for example their birth rate, can be controlled as well. 
@@ -168,8 +168,8 @@ The particle animation follows the source node content, but you can decide how t
 
 .. _defining_particles_birth_parameters:
 
-Defining Particles Birth Parameters
------------------------------------
+Birth Parameters
+----------------
  |defining_particles_birth_parameters| 
 
 Each particle, when generated at the current frame, has some parameters that are assigned and retained throughout its life. Those attributes can be set in the **Birth Params** page.
@@ -310,23 +310,23 @@ Top Layer
 
 Top Layer
 ~~~~~~~~~
-Defines the layering order of the generated particles. Options are the following.
+Defines the layering order of the generated particles. Options are the following:
 
-- Younger places the latest generated particles on top of all the others.
+- **Younger** places the latest generated particles on top of all the others.
 
-- Older places the latest generated particles behind the previously generated ones.
+- **Older** places the latest generated particles behind the previously generated ones.
 
-- Smaller places smaller particles on top of the bigger ones.
+- **Smaller** places smaller particles on top of the bigger ones.
 
-- Bigger places bigger particles on top of the smaller ones.
+- **Bigger** places bigger particles on top of the smaller ones.
 
-- Random places each particle randomly in-between the previously generated particles.
+- **Random** places each particle randomly in-between the previously generated particles.
 
 
 .. _defining_environment_settings:
 
-Defining Environment Settings
------------------------------
+Environment
+-----------
  |defining_environment_settings| 
 
 Particles behavior defined by their birth parameters can be affected by external events, such as gravity and wind, that can be defined in the Environment page. 
@@ -445,9 +445,9 @@ Swing Mode
 ~~~~~~~~~~
 Sets the way the scattering values are used; options are the following:
 
-- Random adds the horizontal and vertical scattering values to the particle movement at each frame. 
+- **Random** adds the horizontal and vertical scattering values to the particle movement at each frame. 
 
-- Smooth reaches the horizontal and vertical scattering values by interpolating values, in order to create a smooth movement. The interpolation lasts as many frames as set by the swing value set below; when the scattering values are reached, new values for each parameter are generated.
+- **Smooth** reaches the horizontal and vertical scattering values by interpolating values, in order to create a smooth movement. The interpolation lasts as many frames as set by the swing value set below; when the scattering values are reached, new values for each parameter are generated.
 
 
 .. _swing:
@@ -461,8 +461,8 @@ For example with a horizontal scattering between 1 and 8, and a Swing value with
 
 .. _defining_particles_animation:
 
-Defining Particles Animation
-----------------------------
+Animation
+---------
  |defining_particles_animation| 
 
 Particles birth properties can be transformed during their lifetime, for example particles can rotate, or change size, by using additional settings available in the Animation page.
@@ -481,7 +481,7 @@ Rotation Speed
 ~~~~~~~~~~~~~~
 Makes the particles rotate constantly as frames increase, and is expressed in degree per frame. Positive values makes the particle spin clockwise. 
 
-Unlike the directional Speed parameter, this parameter is not a birth attribute. This means that if in a 20 frames animation you animate the Spin Speed value from -30 to 30, during the animation all the particles will rotate together, counterclockwise for the first 10 frames, then clockwise for the next 10 frames.
+Unlike the directional **Speed** parameter, this parameter is not a birth attribute. This means that if in a 20 frames animation you animate the **Rotation Speed** value from -30 to 30, during the animation all the particles will rotate together, counterclockwise for the first 10 frames, then clockwise for the next 10 frames.
 
 
 .. _extra_speed:
@@ -494,15 +494,17 @@ Swing Mode
 ~~~~~~~~~~
 Sets the way the spinning is performed; options are the following:
 
-- Random adds the extra speed values to the rotation of the particles at each frame. 
+- **Random**, adds the extra speed values to the rotation of the particles at each frame. 
 
-- Smooth reaches the rotational extra speed value by interpolating values, in order to create a smooth movement. The interpolation lasts as many frames as set by the swing value; when the extra speed value is reached, new values for each parameter are generated.
+- **Smooth**, reaches the rotational extra speed value by interpolating values, in order to create a smooth movement. The interpolation lasts as many frames as set by the swing value; when the extra speed value is reached, new values for each parameter are generated.
+
 
 .. _rotation_swing:
 
 Rotation Swing
 ~~~~~~~~~~~~~~
 Sets the minimum and maximum number of frames throughout which the extra speed values will vary, while remaining either positive or negative. This allows you to set a swinging movement where each swing (having a random rotation in each frame) lasts a random number of frames, still having a random extra speed at each frame.
+
 
 .. _follow_particles_movement:
 
@@ -562,8 +564,8 @@ If used, the size increase value range defined above will be distributed accordi
 
 .. _defining_particles_color:
 
-Defining Particles Color
-------------------------
+Colors
+------
  |defining_particles_color| 
 
 Particles can fade to specific colors at their birth, during their life and just before their death, by specifying settings in the Color page. The color parameters are birth attributes, i.e. they are assigned to the particles when they are generated.
@@ -674,6 +676,8 @@ Sets the number of frames the fade-out process lasts, starting from the last fra
 Fade-out Intensity
 ~~~~~~~~~~~~~~~~~~
 Sets the intensity of the fade-out process.
+
+
 
 
 .. |setting_the_particles_source| image:: /_static/using_the_particles_effect/setting_the_particles_source.png
