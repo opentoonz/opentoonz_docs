@@ -837,19 +837,20 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 Using Chunks when Rendering Tasks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you are using the OpenToonz render farm, it is possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
+If you are using the OpenToonz render farm, it's possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
 
-The default value for the chunk size, expressed in number of frames, can be set using the Render Task Chunk Size in the Preferences > General page. If the default value is higher than the duration in frames of the submitted scene, automatically the value will be equal to the duration in frames of the scene.
+The default value for the chunk size (expressed in number of frames) can be set using the **Render Task Chunk Size** in the Preferences > General pane. If the default value is higher than the duration (in frames) of the submitted scene, the value will be automatically adjusted to be equal to the duration of the scene.
 
-Once a task is submitted, it is possible to change the chuck size by editing the related value in the task properties.
+Once a task is submitted, it's possible to change the chunk size by editing the related value in the task properties.
 
 When a task is divided into chunks, each task is represented in the task tree as sub-tasks.
 
-If you are not using the OpenToonz render farm, dividing the task in chunks not only is useless, but it slows down the rendering process as well. For this reason it is suggested to use a very high Render Task Chunk Size value in the Preferences (e.g. 1000).
+Render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
-.. note:: The chunk size is relevant only when animation are rendered as sequences of full-color images, for example in TIF or TGA format.
+If you are not using the OpenToonz render farm, dividing the task into chunks is not only useless, but it slows down the rendering process as well. For this reason it's suggested to use a high **Render Task Chunk Size** value (e.g. 1000) in the Preferences > General pane.
 
-render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
+.. note:: Chunk size is relevant only when animations are rendered as image sequences (for example in TIF or TGA formats).
+
 
 .. |preview_settings_dialog| image:: /_static/rendering/preview_settings_dialog.png
 .. |compare| image:: /_static/rendering/compare.png
