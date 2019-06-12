@@ -463,7 +463,11 @@ While **Rectangles** and **Ellipses** are defined by a (bounding) box, **Circles
 
 Adding Text
 ~~~~~~~~~~~
-Text can be added by using the **Type** tool (|type|). In the tool options bar you can set the following:
+Text can be added by using the **Type** tool (|type|). 
+
+.. note:: It is also possible to work with editable and animatable text in OpenToonz through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
+
+In the tool options bar you can set the following:
 
  - **Font:** to be used, taken from a list based on the Operating System default fonts folder. 
 
@@ -478,8 +482,6 @@ Text can be added by using the **Type** tool (|type|). In the tool options bar y
 The *current* palette Style is applied to the text you type. The palette style can be changed while typing text, thus you can have characters with different styles in the same text editing session (see  :ref:`Editing Styles <editing_styles>`  ).
 
 .. note:: For vector levels, as soon as the text is committed, it's converted into vector outlines, and can no longer be edited as text.
-
-.. note:: It is also possible to work with editable and animatable text in OpenToonz through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
 
 
 .. tip:: **To add text:**
