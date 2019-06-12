@@ -638,19 +638,19 @@ In this case no image has to be used as background, and the output file format h
 
 Rendering A Loaded Scene
 ''''''''''''''''''''''''
-The current scene can be rendered directly while being loaded in OpenToonz according to the defined output settings.
+The current scene can be rendered directly while being loaded in OpenToonz according to the defined Output Settings.
 
-By choosing the appropriate range in the output settings it is possible to render the scene in chunks, for example by rendering a section first, and then another one. In this case the animation available in the output location will always include all frames rendered up to that point both if the format is a multiple-files output, e.g. TIF or TGA, and a single-file one, e.g. QuickTime MOV. The same applies if a section of the scene has to be rendered again because some corrections were needed.
+By choosing the appropriate range in the Output Settings it's possible to render the scene in chunks, for example by rendering a section first, and then another one. In this case the animation available in the Output location will always include all frames rendered up to that point, both if the format is a multiple-files output (e.g. TIF or TGA), and a single-file one (e.g. MP4 or MOV). The same applies if a section of the scene has to be rendered again because some corrections were needed.
 
-If the scene contains some audio files and is rendered in a file format supporting audio, for example QuickTime MOV, all the audio files will be merged to form the soundtrack of the movie (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ). 
+If the scene contains some audio files and is rendered in a file format supporting audio (for example MP4), all the audio files will be merged to form the soundtrack of the movie (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ). 
 
 .. note:: Audio files loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz flipbook by activating the Open Flipbook after Rendering option in the Preferences > Interface dialog; it is also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it is also possible to listen to it.
+As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz Flipbook by activating the **Open Flipbook after Rendering** option in the Preferences > Preview dialog; it's also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it's also possible to listen to it.
 
-When displayed in the flipbook, the rendering can be checked by using the flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
+When displayed in the Flipbook, the rendering can be checked by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
-You can also activate the Use Default Viewer for Movie Format option in the Preferences > General dialog in order to play back the output with its own default viewer, e.g. QuickTime for the MOV format.
+You can also activate the **Use Default Viewer for Movie Format** option in the Preferences > General dialog, in order to play back the output with its own default viewer, e.g. QuickTime Player for the MOV format.
 
 .. tip:: **To render the currently loaded scene:**
 
@@ -671,36 +671,37 @@ You can also activate the Use Default Viewer for Movie Format option in the Pref
 
 Rendering Scenes in Batch Mode
 ''''''''''''''''''''''''''''''
-The rendering of a scene can be added to a task list and performed in batch mode in order to run it in the background while you perform other work on your computer. 
+The rendering of a scene can be added to a task list and performed in batch mode, in order to run it in the background while you perform other work on your computer. 
 
-Render tasks can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with cleanup tasks (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
+*Render tasks* can be submitted from the OpenToonz Browser and can be managed and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
 
+|tasks|
 
-The Tasks pane is divided into two sections: on the left there is the task tree where all of the render tasks are displayed with a clapboard icon and all the cleanup tasks with a brush icon; on the right there is information about the task selected in the tree.
+The Tasks pane is divided into two sections: on the left there is the Task tree where all of the *Render tasks* are displayed with a clapboard icon and all the *Cleanup tasks* with a brush icon; on the right there is Information about the task selected in the Task tree.
 
-The task list can be saved as TNZBAT files and loaded back later in case you want to manage it through different working sessions.
+The Task list can be saved as TNZBAT files and loaded back later, in case you want to manage it through different working sessions.
 
-.. tip:: **To save a task list:**
-
-    1. Do one of the following:
-
-    - Click the Save Task List (|save|) or the Save Task List As button (|save_as|) in the bottom bar of the Tasks pane.
-
-    - Right-click the Tasks item at the top of the list and choose Save Task List or the Save Task List As from the menu that opens.
-
-    2. Use the browser that opens to save the list.
-
-.. tip:: **To load a task list:**
+.. tip:: **To Save a Task list:**
 
     1. Do one of the following:
 
-    - Click the Load Task List button (|load|) in the bottom bar of the Tasks pane.
+    - Click the **Save** (|save|) or the **Save As** (|save_as|) buttons in the top bar of the Tasks pane.
 
-    - Right-click the Tasks item at the top of the list and choose Load Task List from the menu that opens.
+    - Right-click the **Tasks** item at the top of the list and choose **Save Task List** or the **Save Task List As** from the menu that opens.
 
-    2. Use the browser that opens to retrieve and load a previously saved list.
+    2. Use the Browser that opens to save the list.
 
-.. tip:: **To resize the tasks pane sections:**
+.. tip:: **To Load a Task list:**
+
+    1. Do one of the following:
+
+    - Click the **Load** (|load|) button in the top bar of the Tasks pane.
+
+    - Right-click the **Tasks** item at the top of the list and choose **Load Task List** from the menu that opens.
+
+    2. Use the Browser that opens to retrieve and load a previously saved list.
+
+.. tip:: **To resize the Tasks pane sections:**
 
     Do any of the following:
 
@@ -715,79 +716,77 @@ The task list can be saved as TNZBAT files and loaded back later in case you wan
 
 Managing and Executing Render Tasks
 '''''''''''''''''''''''''''''''''''
-When a render task is selected in the tree, in the section on the right of the Tasks pane task-related properties are displayed, some of which can be edited to configure the task. Properties are the following:
+When a *Render task* is selected in the tree, in the section on the right of the Tasks pane task-related properties are displayed, some of which can be edited to configure the task. Properties are the following:
 
-- Name displays the tasks name; it can be edited to better identify the task. 
+- **Name** displays the task name; it can be edited to better identify the task. 
 
-- Status displays if the task is waiting, running, completed or failed.
+- **Status** shows if the task is: Waiting, Running, Completed or Failed.
 
-- Command Line displays the command line related to the task execution with arguments and qualifiers.
+- **Command Line** displays the command line related to the task execution with arguments and qualifiers.
 
-- Server displays the computer that is running, or will run, the task.
+- **Server** displays the computer that is running, or will run, the task.
 
-- Submitted By displays the user that submitted the task.
+- **Submitted By** displays the *user* that submitted the task.
 
-- Submitted On displays the computer from where the task was submitted.
+- **Submitted On** displays the *computer* from where the task was submitted.
 
-- Submission Date displays when the task was submitted.
+- **Submission Date** displays *when* the task was submitted.
 
-- Start Date displays when the task execution started.
+- **Start Date** displays when the task execution started.
 
-- Completion Date displays when the task execution was completed.
+- **Completion Date** displays when the task execution was completed.
 
-- Duration displays how long the execution lasted.
+- **Duration** displays how long the execution lasted.
 
-- Step Count displays the number of frames rendered.
+- **Step Count** displays the number of frames rendered.
 
-- Failed Steps displays the number of frames that failed to be rendered.
+- **Failed Steps** displays the number of frames that failed to be rendered.
 
-- Successful Steps displays the number of frames successfully rendered.
+- **Successful Steps** displays the number of frames successfully rendered.
 
-- Priority sets the importance or urgency of the task: tasks with a higher priority will be executed first. It can be edited to change the task priority.
+- **Priority** sets the importance or urgency of the task: tasks with a higher priority will be executed first. It can be edited to change the task priority.
 
-- Output displays the location, name and extension of the rendered output; this information comes from the scene output settings but can be edited here before the rendering.
+- **Output** displays the location, name and extension of the rendered output; this information comes from the scene output settings but can be edited here before the rendering.
 
-- Frames Per Chunk sets how the task is divided into sub-tasks in order to distribute the rendering job in the render farm, one sub-task for each computer. It can be edited to change the chunk size (see  :ref:`Using Chunks when Rendering Tasks <using_chunks_when_rendering_tasks>`  ).
+- **Frames Per Chunk** sets how the task is divided into sub-tasks in order to distribute the rendering job in the render farm, one sub-task for each computer. It can be edited to change the chunk size (see  :ref:`Using Chunks when Rendering Tasks <using_chunks_when_rendering_tasks>`  ).
 
-- From Frame and To Frame set the scene frame range to render; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+- **From** and **To** set the scene frame range to render; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
-- Step sets the step for the rendered sequence; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+- **Step** sets the step for the rendered sequence; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
-- Shrink sets the reduction value of the rendered sequence resolution; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+- **Shrink** sets the reduction value of the rendered sequence resolution; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
-- Dedicated CPUs sets how many processors are assigned to the rendering process; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+- **Dedicated CPUs** sets how many processors are assigned to the rendering process; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
-- Render Tile sets if the rendering has to be computed in tiles; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+- **Render Tile** sets if the rendering has to be computed in tiles; this information comes from the scene output settings but can be edited here before the rendering (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
-- Dependencies lets you set which of the other submitted tasks have to be successfully completed before starting the current task execution: these tasks can be added from the box on the right where all submitted tasks are displayed.
+- **Dependencies** lets you set which of the other submitted tasks *have to be successfully completed* before starting the current task execution: these tasks can be added from the box on the right where all submitted tasks are displayed.
 
 Task execution can be started and stopped from the task list.
 
 When the tasks are executed, the icon color tells the status of the task according to the following color code:
 
-- Grey, when the task is waiting or is not executed yet.
+- **Grey**, when the task is *waiting* or is not executed yet.
 
-- Yellow, when the task is being executed.
+- **Yellow**, when the task is *being executed*.
 
-- Green, when the task is successfully executed.
+- **Green**, when the task is *successfully executed*.
 
-- Orange, when the task is executed with some errors.
+- **Orange**, when the task is *executed with some errors*.
 
-- Red, when the task execution has failed.
+- **Red**, when the task *execution has failed*.
 
-.. tip:: **To add scenes to render in the task list:**
+.. tip:: **To Add scenes to render in the task list:**
 
     Do one of the following:
 
-    - Click the Add Render Task button (|add_render|) in the bottom bar of the Tasks pane and use the browser to select a scene file.
+    - Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane and use the Browser to select a scene file.
 
+    - Select the scenes in the OpenToonz Browser, then right-click any of them and choose **Add As Render Task** from the menu that opens.
 
+.. tip:: **To Configure the render task in the task list:**
 
-    - Select the scenes in the OpenToonz Browser, then right-click any of them and choose Add As Render Task from the menu that opens.
-
-.. tip:: **To configure the render task in the task list:**
-
-    1. Select the render task in the task list.
+    1. Select a render task in the task list.
 
     2. Configure it by using the options available on the right of the list.
 
@@ -801,43 +800,37 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     - Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from the selection.
 
-.. tip:: **To execute selected tasks:**
+.. tip:: **To Execute selected tasks:**
 
     Do one of the following:
 
-    - Click the Start button (|start|) in the bottom bar of the pane.
+    - Click the **Start** (|start|) button in the bottom bar of the pane.
 
+    - Right-click any selected task icon and choose **Start** from the menu that opens.
 
-
-    - Right-click any selected task icon and choose Start from the menu that opens.
-
-.. tip:: **To stop the execution of selected tasks:**
+.. tip:: **To Stop the execution of selected tasks:**
 
     Do one of the following:
 
-    - Click the Stop button (|stop|) in the bottom bar of the pane.
+    - Click the **Stop** (|stop|) button in the bottom bar of the pane.
 
+    - Right-click any selected task icon and choose **Stop** from the menu that opens.
 
-
-    - Right-click any selected task icon and choose Stop from the menu that opens.
-
-.. tip:: **To remove selected tasks from the list:**
+.. tip:: **To Remove selected tasks from the list:**
 
     Do one of the following:
 
-    - Click the Remove button (|remove|) in the bottom bar of the Tasks pane.
-
-
+    - Click the **Remove** (|remove|) button in the bottom bar of the Tasks pane.
 
     - Right-click any selected task in the list and choose Remove from the menu that opens.
 
-.. tip:: **To add or remove tasks from the Dependencies list:**
+.. tip:: **To Add or Remove tasks from the Dependencies list:**
 
     Do one of the following:
 
-    - To add a task to the dependencies list, select a task in the task list on the right and click the Add button.
+    - To Add a task to the dependencies list, select a task in the task list on the right and click the **Add** button.
 
-    - To remove a task from the dependencies list, select a task in the dependencies list on the left, and click the Remove button.
+    - To Remove a task from the dependencies list, select a task in the dependencies list on the left, and click the **Remove** button.
 
 
 .. _using_chunks_when_rendering_tasks:
@@ -859,22 +852,23 @@ If you are not using the OpenToonz render farm, dividing the task in chunks not 
 render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
 .. |preview_settings_dialog| image:: /_static/rendering/preview_settings_dialog.png
-.. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
-.. |clapperboard| image:: /_static/rendering/clapperboard.png
-.. |add_render| image:: /_static/rendering/add_render.png
 .. |compare| image:: /_static/rendering/compare.png
 .. |define_preview_subcamera| image:: /_static/rendering/define_preview_subcamera.png
 .. |histogram| image:: /_static/rendering/histogram.png
-.. |load| image:: /_static/rendering/load.png
 .. |option| image:: /_static/rendering/option.png
 .. |preview_black| image:: /_static/rendering/preview_black.png
 .. |preview_checkboard| image:: /_static/rendering/preview_checkboard.png
 .. |preview_white| image:: /_static/rendering/preview_white.png
 .. |preview| image:: /_static/rendering/preview.png
-.. |remove| image:: /_static/rendering/remove.png
+.. |snapshot| image:: /_static/rendering/snapshot.png
+.. |subcamera_preview| image:: /_static/rendering/subcamera_preview.png
+.. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
+.. |clapperboard| image:: /_static/rendering/clapperboard.png
+.. |tasks| image:: /_static/rendering/tasks.png
 .. |save| image:: /_static/rendering/save.png
 .. |save_as| image:: /_static/rendering/save_as.png
-.. |snapshot| image:: /_static/rendering/snapshot.png
+.. |load| image:: /_static/rendering/load.png
+.. |add_render| image:: /_static/rendering/add_render.png
 .. |start| image:: /_static/rendering/start.png
 .. |stop| image:: /_static/rendering/stop.png
-.. |subcamera_preview| image:: /_static/rendering/subcamera_preview.png
+.. |remove| image:: /_static/rendering/remove.png
