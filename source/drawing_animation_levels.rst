@@ -940,7 +940,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
 .. note:: As groups define which strokes belong to a certain plane, when using the **Fill** tool (|fill|), only areas defined by strokes within the same group can be filled.
 
-.. tip:: **To define a group:**
+.. tip:: **To Define a group:**
 
     1. Use the **Selection** tool (|selection|) to select the strokes you want to be in a group.
 
@@ -950,7 +950,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     - Right-click on the selection and choose **Group** from the menu that opens.
 
-.. tip:: **To release a group:**
+.. tip:: **To Release a group:**
 
     1. Select the group you want to release.
 
@@ -960,7 +960,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     - Right-click on the selection and choose **Ungroup** from the menu that opens.
 
-.. tip:: **To enter a group:**
+.. tip:: **To Enter a group:**
 
     Do one of the following:
 
@@ -970,7 +970,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     - Double-click the group.
 
-.. tip:: **To exit a group:**
+.. tip:: **To Exit a group:**
 
     Do one of the following:
 
@@ -980,7 +980,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     - Double-click outside the group.
 
-.. tip:: **To select a group:**
+.. tip:: **To Select a group:**
 
     Choose the **Selection** tool (|selection|) and do any of the following:
 
@@ -994,7 +994,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     - Set the type to **Polyline** and click to outline an area by defining a series of lines and select at least one stroke belonging to the group.
 
-.. tip:: **To select a stroke in a group:**
+.. tip:: **To Select a stroke in a group:**
 
     1. Enter the group.
 
@@ -1006,6 +1006,10 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 Setting Stroke and Group Sorting Order
 ''''''''''''''''''''''''''''''''''''''
 For each vector drawing, strokes and groups sorting order can be changed by setting what has to lie in front of, and what behind.
+
+.. figure:: /_static/drawing_animation_levels/layering_order.png
+
+   Select vector strokes, create groups and set their layering order to better manage the drawing.
 
 .. tip:: **To bring the selection to front:**
 
@@ -1060,6 +1064,10 @@ Control points have handles whose length and direction define the bend of the ve
 Control point handles may be linked, that is to say they share the same direction, or not, creating a cusp in the vector; they can also be collapsed in the control point in order to turn it in a corner point. In case only one handle is collapsed, the point will be corner on one side and smooth on the other. When a section of the vector is defined by two corner points, it will be a straight line.
 
 The option Auto Select Drawing is available to automatically select any vector of any drawing visible in the viewer.
+
+.. figure:: /_static/drawing_animation_levels/edit_control_points.png
+
+   Click to select a vector stroke and edit its control points; Alt-click to unlink control point handles; Ctrl-click (PC) or Cmd-click (Mac) the selected stroke to add a control point.
 
 .. tip:: **To select a vector:**
 
