@@ -1593,7 +1593,6 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
 
 .. |canvas_size| image:: /_static/drawing_animation_levels/canvas_size.png
-.. |Toonz71_123| image:: /_static/Toonz71/Toonz71_123.gif
 .. |animate| image:: /_static/drawing_animation_levels/animate.png
 .. |bender| image:: /_static/drawing_animation_levels/bender.png
 .. |brush| image:: /_static/drawing_animation_levels/brush.png
