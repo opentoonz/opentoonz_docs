@@ -1342,15 +1342,17 @@ Using the In-betweener with Vector Drawings
 '''''''''''''''''''''''''''''''''''''''''''
 An animation technique reserved to vector animation levels is the use of the in-betweener in the level strip. The in-betweener creates in-between drawings once you have selected a starting drawing and an ending one.
 
-When more than two frames are selected in the Level Strip, a vertical strip is displayed on the right of the pane. By clicking on it all frames between the first and the last selected frame will be overwritten by images interpolating the first and the last image. 
+When more than two frames are selected in the Level Strip, a vertical strip labeled **INBETWEEN** is displayed on the right of the pane. By clicking on it, all frames between the first and the last selected frame will be overwritten by images interpolating the first and the last drawings. 
+
+.. figure:: /_static/drawing_animation_levels/inbetween.png
+
+   Duplicate a drawing; modify it; insert blank frames; select the frame range, then click the INBETWEEN vertical bar.
 
 The interpolated drawings are created by taking into account the number of the strokes, and the strokes' direction. This means that the result will depend on the way drawings were made. For example if the first image is a single shape drawn clockwise, and the last is another shape, you will get different results depending on the way it was drawn, clockwise or counterclockwise.
 
- |Toonz71_123| 
-
 To obtain the best results with complex drawings, copy the drawing you want to interpolate from, and paste it in another frame of the level strip. Modify the pasted drawing without adding and deleting strokes, but only distorting and moving existing strokes (see  :ref:`Editing Drawings <editing_drawings>`  ). Select the whole range and then perform the interpolation.
 
-The interpolation speed can be controlled in the dialog opening when performing in-betweening. Options are the following:
+The interpolation acceleration can be controlled in the dialog that opens prior to performing in-betweening. Options are the following:
 
 - **Linear**, for a constant interpolation. 
 
@@ -1360,7 +1362,7 @@ The interpolation speed can be controlled in the dialog opening when performing 
 
 - **Ease In / Ease Out**, for an interpolation starting slowly, getting faster, then getting slower again.
 
-If you want the interpolation to last more or less frames, you can insert frames, or cut them, and use the in-betweener again.
+If you want the interpolation to happen slower or faster, you can insert frames, or cut them, and use the in-betweener again.
 
 .. tip:: **To create in-between drawings:**
 
@@ -1394,6 +1396,10 @@ If you want the interpolation to last more or less frames, you can insert frames
 Rotoscoping
 '''''''''''
 Rotoscoping consists of tracing drawings taking a live clip as reference. 
+
+.. figure:: /_static/drawing_animation_levels/rotoscoping.png
+
+   Using the rotoscoping technique to trace the movement of a hand.
 
 As you can import clips and image sequences in a scene, you can simply load them, and create an animation level by drawing in the Viewer, while the frames of the clips are visible underneath. See  :ref:`Using the File Browser <using_the_file_browser>`  . 
 
@@ -1444,6 +1450,10 @@ Using Onion Skin
 If you want to view more than one level drawing at the same time in the Viewer as reference when you create drawings, or you want to check the animation, you can activate the Onion Skin mode. 
 
 The Onion Skin is available both in the Xsheet/Timeline and in the Level Strip, according to where the cursor showing the current frame is displayed, as the onion skin can be activated starting from the cursor and managed in the frame number column/bar. 
+
+.. figure:: /_static/drawing_animation_levels/onion_skin.png
+
+   A column animation displayed with the relative Onion Skin set for 6 previous frames, step two, and an absolute Onion Skin set at frame 35.
 
 When a frame of the Level Strip is selected, the onion skin applies to the *current level* only, referring to the sequence of the full animation level as it was created.
 
