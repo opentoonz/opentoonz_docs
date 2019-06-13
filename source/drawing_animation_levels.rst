@@ -1166,7 +1166,7 @@ In both Automatic and Manual modes, different types of editing can be performed 
 
     2. Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment.
 
-.. figure:: /_static/drawing_animation_levels/pinch.png
+.. figure:: /_static/drawing_animation_levels/pinch_example.png
 
    Click and drag to change the bend; Shift-click to add a cusp; Ctrl-click (PC) or Cmd-click (Mac) to add a corner.
 
