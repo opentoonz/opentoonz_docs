@@ -1138,33 +1138,37 @@ The option Auto Select Drawing is available to automatically select any vector o
 
 .. _changing_the_bend_of_vectors:
 
-Changing the Bend of Vectors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To modify a bend of a vector in a more intuitive way you can use the Pinch tool (|pinch|). You can use it anywhere you want on the vector in order to modify the bend in any direction. 
+Changing the Bend of Vector Strokes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To modify a bend of a vector stroke in a more intuitive way you can use the **Pinch** tool (|pinch|). You can use it anywhere you want on the stroke, in order to modify the bend in any direction. 
 
-When the tool is selected, a segment of the center line of the closest vector is highlighted: the segment shows the length of the vector that will be affected by the pinching. 
+When the tool is selected, a segment of the center line of the closest stroke is highlighted: the segment shows the length of the stroke that will be affected by the pinching. 
 
-The length of the segment depends on the corner points that the tool automatically detects along the vector according to the Corner value. It can also be manually set by activating the Manual option thus using the Size value to set the affected length.
+The length of the segment depends on the corner points, that the tool automatically detects along the stroke, according to the **Corner** value. It can also be manually set by activating the **Manual** option, and thus using the **Size** value to set the affected length.
 
-When the manual mode is activated a handle is displayed along the highlighted vector to control interactively the length of the segment that will be affected by the tool. The handle has a double circle and a square at its ends, that allows you to do the following:
+When the **Manual** mode is activated, a handle is displayed along the highlighted stroke to control interactively the length of the segment that will be affected by the tool. The handle has a double circle and a square at its ends, that allows you to do the following:
 
-- The double circle lets you move the handle along the segment;
+- **Double circle** lets you move the handle along the segment.
 
-- The square lets you increase the length of the segment affected by the tool by clicking and dragging right, or decrease it by clicking and dragging left.
+- **Square** lets you increase the length of the segment affected by the tool by *clicking and dragging right*, or decrease it by *clicking and dragging left*.
 
-In both automatic and manual modes different types of editing can be performed when clicking and moving the cursor:
+In both Automatic and Manual modes, different types of editing can be performed when clicking and moving the cursor:
 
-- Click and drag to change the bend of the highlighted segment.
+- **Click** and drag to change the bend of the highlighted segment.
 
-- Shift-click and drag to edit the highlighted segment by adding a cusp.
+- **Shift-click** and drag to edit the highlighted segment by adding a *cusp*.
 
-- Ctrl-click (Pc) or Cmd-click (Mac) and drag to edit the highlighted segment by adding a corner.
+- **Ctrl-click** (Pc) or **Cmd-click** (Mac) and drag to edit the highlighted segment by adding a *corner*.
 
 .. tip:: **To modify the bend of a vector:**
 
     1. Change the length of the segment affected by the tool by setting the Corner value in the tool options bar.
 
     2. Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment.
+
+.. figure:: /_static/drawing_animation_levels/pinch.png
+
+   Click and drag to change the bend; Shift-click to add a cusp; Ctrl-click (PC) or Cmd-click (Mac) to add a corner.
 
 .. tip:: **To modify the bend of a vector in manual mode:**
 
