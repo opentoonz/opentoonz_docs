@@ -1205,37 +1205,41 @@ To bend a part of a drawing, for example a character’s arm, you can use the Be
 
 To smooth a vector, you can use the Iron tool (|iron|). When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
 
-.. tip:: **To modify the thickness of a vector:**
+.. tip:: **To modify the thickness of a stroke:**
 
-    1. Select the Pump tool (|pump|).
+    1. Select the **Pump** tool (|pump|).
 
-    2. Set the Size value in the tool options bar.
+    2. Set the **Size:** value in the tool options bar.
 
-    3. Click the point of the vector where you want to modify the thickness and drag up to increase the thickness, or down to decrease the thickness. 
+    3. Click the point of the stroke where you want to modify the thickness and drag up to increase it, or down to decrease it. 
+    
+    .. figure:: /_static/drawing_animation_levels/pump_example.png
 
-.. tip:: **To distort several vectors at once:**
+       Using the Pump tool to change the thickness of drawn strokes.
 
-    1. Select the Magnet tool (|magnet|).
+.. tip:: **To distort several strokes at once:**
 
-    2. Click in the viewer: all the vectors included in the circle will be affected by the tool. 
+    1. Select the **Magnet** tool (|magnet|).
 
-    3. Drag to distort the vectors in the direction of your dragging. 
+    2. Click in the Viewer: all the strokes included in the circle will be affected by the tool. 
 
-.. tip:: **To bend one or several vectors:**
+    3. Drag to distort the strokes in the direction of your dragging. 
 
-    1. Select the Bender tool (|bender|).
+.. tip:: **To bend one or several strokes:**
 
-    2. Click on one side of the vectors you want to bend to set the center of the bend.
+    1. Select the **Bender** tool (|bender|).
 
-    3. Click on the opposite side of the vectors: all vectors intersected by the defined line will be affected by the bending. 
+    2. Click on one side of the strokes you want to bend to set the center of the bend.
 
-    4. Drag in the direction you want to bend vectors. 
+    3. Click on the opposite side of the strokes: all strokes intersected by the defined line will be affected by the bending. 
 
-.. tip:: **To smooth a vector:**
+    4. Drag in the direction you want to bend strokes. 
 
-    1. Select the Iron tool (|iron|).
+.. tip:: **To smooth a stroke:**
 
-    2. Click and drag along the vector you want to smooth. By dragging over and over you increasingly flatten the vector.
+    1. Select the **Iron** tool (|iron|).
+
+    2. Click and drag along the stroke you want to smooth. By dragging over and over the stroke will increasingly flatten.
 
 
 .. _joining_and_splitting:
