@@ -1160,9 +1160,9 @@ In both Automatic and Manual modes, different types of editing can be performed 
 
 - **Ctrl-click** (Pc) or **Cmd-click** (Mac) and drag to edit the highlighted segment by adding a *corner*.
 
-.. tip:: **To modify the bend of a vector:**
+.. tip:: **To modify the bend of a stroke:**
 
-    1. Change the length of the segment affected by the tool by setting the Corner value in the tool options bar.
+    1. Change the length of the segment affected by the tool by setting the **Corner** value in the tool options bar.
 
     2. Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment.
 
@@ -1170,15 +1170,15 @@ In both Automatic and Manual modes, different types of editing can be performed 
 
    Click and drag to change the bend; Shift-click to add a cusp; Ctrl-click (PC) or Cmd-click (Mac) to add a corner.
 
-.. tip:: **To modify the bend of a vector in manual mode:**
+.. tip:: **To modify the bend of a stroke in manual mode:**
 
-    1. Activate the Manual option in the tool options bar.
+    1. Activate the **Manual** option in the tool options bar.
 
     2. Change the length of the segment affected by the tool by doing one of the following:
 
-    - Set the Size value in the tool options bar.
+    - Set the **Size** value in the tool options bar.
 
-    - Click and drag the small square at one end of the handle displayed along the highlighted vector.
+    - Click and drag the small square at one end of the handle displayed along the highlighted stroke.
 
     3. Click, Shift-click, or Ctrl-click (PC) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment.
 
@@ -1193,17 +1193,17 @@ In both Automatic and Manual modes, different types of editing can be performed 
 
 Using Other Modifier Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-To modify the thickness of a vector you can use the Pump tool (|pump|). You can use it anywhere you want on the vector to increase or decrease the thickness locally. When the tool is selected, a segment of the closest vector is highlighted: the segment shows the length of the vector that will be affected by the tool. To modify this length you can change the Size value in the tool options bar.
+To modify the thickness of a stroke you can use the **Pump** tool (|pump|). You can use it anywhere you want on the stroke to increase or decrease the thickness locally. When the tool is selected, a segment of the closest stroke is highlighted: the segment shows the length of the stroke that will be affected by the tool. To modify this length you can change the **Size** value in the tool options bar.
 
-.. note:: It is possible to modify the thickness of a vector, a vector selection, or vectors in all of the level drawings, by using the Selection tool (|selection|) and its related options (see :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
+.. note:: It's possible to modify the thickness of a stroke, a stroke selection, or strokes in all of the level drawings, by using the **Selection** tool (|selection|) and its related options (see :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
-To distort more than one vector at once, you can use the Magnet tool (|magnet|). The tool affects all vectors included in a circular area and allows you to distort them in the direction of your dragging. Highlighted segments will show the vectors that will be affected. To modify the action range of the tool, represented by a circle, you can change the tool size in the tool options bar.
+To distort more than one stroke at once, you can use the **Magnet** tool (|magnet|). The tool affects all stroke included in a circular area and allows you to distort them in the direction of your dragging. Highlighted segments will show the strokes that will be affected. To modify the action range of the tool, represented by a circle, you can change the tool size in the tool options bar.
 
-To bend a part of a drawing, for example a character’s arm, you can use the Bender tool (|bender|). The tool allows you to define a line and then bend all the vectors intersected by the segment. While bending you can see the affected vectors assuming their position after the transformation. The bending can be performed in both clockwise and counterclockwise direction; once you start dragging you cannot change the bend direction.
+To bend a part of a drawing, for example a character’s arm, you can use the **Bender** tool (|bender|). The tool allows you to define a line and then bend all the strokes intersected by the segment. While bending you can see the affected strokes assuming their position after the transformation. The bending can be performed in both clockwise and counterclockwise direction; once you start dragging you cannot change the bend direction.
 
-.. note:: If you move the cursor far from the bending center, you will be able to set with more precision the amount of bend you want to apply to the vectors.
+.. note:: If you move the cursor far from the bending center, you will be able to set with more precision the amount of bend you want to apply to the strokes.
 
-To smooth a vector, you can use the Iron tool (|iron|). When used again and again on a vector, it increasingly flatten the bends of the vector. When the tool is selected, the cursor snaps to the closest vector to indicate where you are going to operate. 
+To smooth a stroke, you can use the **Iron** tool (|iron|). When used again and again on the same stroke, it increasingly flatten the bends of the stroke. When the tool is selected, the cursor snaps to the closest stroke to indicate where you are going to operate. 
 
 .. tip:: **To modify the thickness of a stroke:**
 
@@ -1246,50 +1246,50 @@ To smooth a vector, you can use the Iron tool (|iron|). When used again and agai
 
 Joining and Splitting
 ~~~~~~~~~~~~~~~~~~~~~
-To join the ends of two different vectors, you can use the Tape tool (|tape|). This way it will be possible to handle them as a single vector, for instance for modifying their bend, or thickness, as a whole. 
+To join the ends of two different vector strokes, you can use the **Tape** tool (|tape|). This way it will be possible to handle them as a single stroke, for instance for modifying their bend, or thickness, as a whole. 
 
-When the tool is used, the pointer snaps to the closest detected vector endpoint in order to make the operation easier.
+When the tool is used, the pointer snaps to the closest detected stroke endpoint in order to make the operation easier.
 
-.. note:: The Tape tool (|tape|) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
+.. note:: The **Tape** tool (|tape|) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  ).
 
-To do the contrary, that is to say splitting a vector in two sections, you can use the Cutter tool (|cutter|). 
+To do the contrary, that is to say splitting a stroke in two sections, you can use the **Cutter** tool (|cutter|). 
 
-.. tip:: **To join two open ends of one or two vectors:**
+.. tip:: **To join two open ends of one or two strokes:**
 
-    1. Select the Tape tool (|tape|), and activate the Join Vectors option; activate also the Smooth option if you want a joining with no corners.
+    1. Select the **Tape** tool (|tape|), and activate the **Join Vectors** option; activate also the **Smooth** option if you want a smooth joining with no corners.
 
     2. Do one of the following: 
 
-    - Set the type to Normal and the mode to Endpoint to Endpoint, click a vector endpoint and drag to a different endpoint; the pointer snaps to the closest detected vector endpoint.
+    - Set the type to **Normal** and the mode to **Endpoint to Endpoint**, click a stroke endpoint and drag to a different endpoint; the pointer snaps to the closest detected stroke endpoint.
 
-    - Set the type to Rectangular, and click and drag to define a box including the endpoints you want to connect; the endpoints will be automatically joined according to the set distance value. 
+    - Set the type to **Rectangular**, and click and drag to define a box including the endpoints you want to connect; the endpoints will be automatically joined according to the set **Distance** value. 
 
-.. note:: If the vectors you are going to join have different styles, the style of this first vector you click will be assigned to the second one after joining.
+.. note:: If the strokes you are going to join have different Styles, the Style of the first vector where you click on will be assigned to the second one after joining.
 
-.. tip:: **To split a vector:**
+.. tip:: **To split a stroke:**
 
-    1. Select the Cutter tool (|cutter|): the pointer snaps to the closest vector indicating, with a small highlighted segment, the point where you are going to split the vector.
+    1. Select the **Cutter** tool (|cutter|): the pointer snaps to the closest stroke indicating, with a small highlighted segment, the point where you are going to split the stroke.
 
-    2. Click to split the vector in the highlighted point.
+    2. Click to split the stroke at the highlighted point.
 
 
 .. _cleaning_up_vector_intersections:
 
-Cleaning up Vector Intersections
+Cleaning up Strokes Intersections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Vector intersections may be a weak point in drawings to be painted, because if a gap occurs, drawing areas cannot be painted properly.
+Vector strokes intersections may be a weak point in drawings to be painted, because if a gap occurs, drawing areas cannot be painted properly.
 
-The best solution for this kind of issue is to overlap the final section of vectors, in order to define clear intersections, then automatically remove the sections that overflow. 
+The best solution for this kind of issue is to overlap the final section of strokes, in order to define clear intersections, then automatically remove the sections that overflow. 
 
 .. tip:: **To cleanup vector intersections:**
 
-    1. Use the Selection tool (|selection|) to select the vectors whose intersections you want to cleanup.
+    1. Use the **Selection** tool (|selection|) to select the strokes whose intersections you want to cleanup.
 
     2. Do one of the following:
 
-    - Choose Edit > Remove Vector Overflow.
+    - Choose Edit > **Remove Vector Overflow**.
 
-    - Right-click the selection and choose Remove Vector Overflow from the menu that opens.
+    - Right-click the selection and choose **Remove Vector Overflow** from the menu that opens.
 
 
 .. _animation_techniques:
@@ -1307,29 +1307,29 @@ Modelling a Vector Drawing
 ''''''''''''''''''''''''''
 Instead of animating a level by starting every time from a blank frame, you can duplicate a vector drawing and make subsequent modifications. You can do it even if the drawings are painted, because the styles used to paint will automatically follow the shape of the areas you modify (see  :ref:`Editing Drawings <editing_drawings>`  ).
 
-The sequence of the animation level drawings can be easily controlled in the level strip.
+The sequence of the animation level drawings can be easily controlled in the Level Strip.
 
-You can use both the Edit > Duplicate Drawing command and the standard Copy and Paste commands to make a copy of a drawing that you can later modify to create slight movements.
+You can use both the Edit > **Duplicate Drawing** command and the standard **Copy** and **Paste** commands to make a copy of a drawing that you can later modify to create slight movements.
 
-When you use the Duplicate Drawing command, the selected drawing is duplicated in the following frame. If the following frame already contains a drawing, it is shifted down in order to insert the duplicated drawing in the sequence.
+When you use the **Duplicate Drawing** command, the selected drawing is duplicated in the following frame. If the following frame already contains a drawing, it's shifted down in order to insert the duplicated drawing in the sequence.
 
-When you use the Copy and Paste commands, you can also decide the frame of the level strip where you want to paste the drawing.
+When you use the **Copy** and **Paste** commands, you can also decide the frame of the Level Strip where you want to paste the drawing.
 
 Once finished, you can make a copy of the modified drawing, and modify it in its turn. You can go on duplicating and modifying drawings until you complete the animation level.
 
 .. tip:: **To create an animation level by modelling vector drawings:**
 
-    1. In the , select a drawing of the vector animation level you want to edit.
+    1. In the Viewer, select a drawing of the vector animation level you want to edit.
 
-    2. In the level strip, select the drawing you want to duplicate.
+    2. In the Level Strip, select the drawing you want to duplicate.
 
     3. Copy the selected drawing in the following frame by doing one of the following:
 
-    - Choose Cells > Duplicate Drawing.
+    - Choose Cells > **Duplicate Drawing**.
 
-    - Choose Edit > Copy, then select the following frame and choose Paste.
+    - Choose Edit > **Copy**, then select the following frame and choose **Paste**.
 
-    4. Select the new drawing in the level strip.
+    4. Select the new drawing in the Level Strip.
 
     5. Use modifier tools to modify the drawing.
 
@@ -1342,23 +1342,23 @@ Using the In-betweener with Vector Drawings
 '''''''''''''''''''''''''''''''''''''''''''
 An animation technique reserved to vector animation levels is the use of the in-betweener in the level strip. The in-betweener creates in-between drawings once you have selected a starting drawing and an ending one.
 
-When more than two frames are selected in the level strip, a vertical strip is displayed on the right of the pane. By clicking on it all frames between the first and the last selected frame will be overwritten by images interpolating the first and the last image. 
+When more than two frames are selected in the Level Strip, a vertical strip is displayed on the right of the pane. By clicking on it all frames between the first and the last selected frame will be overwritten by images interpolating the first and the last image. 
 
-The interpolated drawings are created by taking into account the number of the vectors, and the vectors direction. This means that the result will depend on the way drawings were made. For example if the first image is a single shape drawn clockwise, and the last is another shape, you will get different results depending on the way it was drawn, clockwise or counterclockwise.
+The interpolated drawings are created by taking into account the number of the strokes, and the strokes' direction. This means that the result will depend on the way drawings were made. For example if the first image is a single shape drawn clockwise, and the last is another shape, you will get different results depending on the way it was drawn, clockwise or counterclockwise.
 
  |Toonz71_123| 
 
-To obtain the best results with complex drawings, copy the drawing you want to interpolate from, and paste it in another frame of the level strip. Modify the pasted drawing without adding and deleting vectors, but only distorting and moving existing vectors (see  :ref:`Editing Drawings <editing_drawings>`  ). Select the whole range and then perform the interpolation.
+To obtain the best results with complex drawings, copy the drawing you want to interpolate from, and paste it in another frame of the level strip. Modify the pasted drawing without adding and deleting strokes, but only distorting and moving existing strokes (see  :ref:`Editing Drawings <editing_drawings>`  ). Select the whole range and then perform the interpolation.
 
 The interpolation speed can be controlled in the dialog opening when performing in-betweening. Options are the following:
 
-- Linear, for a constant interpolation. 
+- **Linear**, for a constant interpolation. 
 
-- Ease In, for an interpolation starting slowly, then getting faster. 
+- **Ease In**, for an interpolation starting slowly, then getting faster. 
 
-- Ease Out, for an interpolation starting quickly, then getting slower. 
+- **Ease Out**, for an interpolation starting quickly, then getting slower. 
 
-- Ease In Out, for an interpolation starting slowly, getting faster, then getting slower again.
+- **Ease In / Ease Out**, for an interpolation starting slowly, getting faster, then getting slower again.
 
 If you want the interpolation to last more or less frames, you can insert frames, or cut them, and use the in-betweener again.
 
@@ -1366,11 +1366,11 @@ If you want the interpolation to last more or less frames, you can insert frames
 
     1. Select the level where you want to perform interpolation.
 
-    2. In the level strip select the frame range from the drawing you want to interpolate from, to the one you want to interpolate to. If you want the interpolation to last more frames, make room for more drawings with the Edit > Insert command.
+    2. In the Level Strip select the frame range, from the drawing you want to interpolate from, to the one you want to interpolate to. If you want the interpolation to last more frames, make room for more drawings with the Edit > **Insert** command.
 
-    3. Click the vertical strip displayed on the right of the frame range selection.
+    3. Click the vertical strip labeled **INBETWEEN** displayed on the right of the frame range selection.
 
-    4. Select the in-between mode among Linear, Ease In, Ease Out, Ease In Out, and click the In-between button.
+    4. Select the **Interpolation:** mode among **Linear**, **Ease In**, **Ease Out**, **Ease In / Esase Out**, and click the **Inbetween** button.
 
 .. tip:: **To optimize the in-betweening process:**
 
@@ -1378,15 +1378,15 @@ If you want the interpolation to last more or less frames, you can insert frames
 
     2. Do one of the following:
 
-    - Copy and paste it in another frame of the level strip, considering the number of in-between drawings you want to achieve.
+    - **Copy** and **Paste** it in another frame of the Level Strip, considering the number of in-between drawings you want to achieve.
 
-    - Duplicate it and insert as many empty frames as the number of in-between drawings you want to achieve.
+    - **Duplicate** it and insert as many empty frames as the number of in-between drawings you want to achieve.
 
-    3. Modify the pasted, or duplicated, drawing using the modifier tools, to create the final drawing of the interpolation.
+    3. Modify the pasted or duplicated drawing using the modifier tools, to create the final drawing of the interpolation.
 
     4. Select the frame range from the drawing you want to interpolate from, to the one you want to interpolate to.
 
-    5. Click the vertical strip displayed on the right of the frame range selection.
+    5. Click the vertical **INBETWEEN** strip displayed on the right of the frame range selection.
 
 
 .. _rotoscoping:
@@ -1395,19 +1395,19 @@ Rotoscoping
 '''''''''''
 Rotoscoping consists of tracing drawings taking a live clip as reference. 
 
-As you can import clips and frame sequences in a scene, you can simply load them, and create an animation level by drawing in the viewer, while the frames of the clips are visible underneath. See  :ref:`Using the File Browser <using_the_file_browser>`  . 
+As you can import clips and image sequences in a scene, you can simply load them, and create an animation level by drawing in the Viewer, while the frames of the clips are visible underneath. See  :ref:`Using the File Browser <using_the_file_browser>`  . 
 
 The way to obtain best results is not trying to reproduce with fidelity the clip, but to use its frames just as a reference to better understand the movement or the transformation of the clip’s subject. In this way you can take advantage, for example, of a natural movement represented in the clip, without renouncing an expressive drawing style.
 
 .. tip:: **To perform rotoscoping:**
 
-    1. Load a QuickTime or Avi clip, or a sequence of frames, in the . The clip will be placed in a column of the .
+    1. Load a video clip or image sequence in an Xsheet column (or Timeline layer).
 
-    2. In the  select a cell in a column on the right of the column containing the clip you loaded. The image of the clip placed at the same frame of the cell you selected will be visible in the viewer while you are drawing.
+    2. In the Xsheet/Timeline select a cell in a column on the right of the column (or in a layer on top of the layer) containing the clip you loaded. The image of the clip placed at the same frame of the cell you selected will be visible in the Viewer while you're drawing.
 
-    3. Create a new animation level and use tools to trace the first drawing in the viewer.
+    3. Create a new animation level and use tools to trace the first drawing in the Viewer.
 
-    4. Move to next frames, and trace the next drawings.
+    4. Move to subsequent frames, and trace the next drawings.
 
 
 .. _cloning_levels:
@@ -1416,13 +1416,13 @@ Cloning Levels
 ''''''''''''''
 Sometimes it may be useful to create a clone of a level in order to edit it without affecting the original one. For example you may want to create a new animation level starting from the drawings of another level, in order to have two sequences similar but not identical.
 
-The Clone command allows you to create a copy of the selected cells, preserving the numbering order and assigning a name to the clone. The _clone suffix appended to the name of the level is the default.
+The **Clone** command allows you to create a copy of the selected cells, preserving the numbering order and assigning a new name to it. The **_clone** suffix appended to the name of the level is the default.
 
-The cloned level will contain only drawings exposed in selected cells, even if the original level is made of more drawings; they will be automatically exposed in the column on the right of the selection, shifting the following columns.
+The cloned level will contain only drawings exposed in the selected cells, even if the original level is composed of more drawings; they will be automatically exposed in the column on the right (or layer on top) of the selection, shifting the following columns/layers.
 
-The new level will be available in the scene cast as a new element; it will be saved in the +drawings or +extras default folder according to the format of the original file as soon as you save it with the save command, or you save the scene.
+The new level will be available in the Scene Cast as a new element; it will be saved in the **+drawings** or **+extras** default folder, according to the format of the original file, as soon as you save it with the **Save** command, or you save the scene.
 
-The cell selection can also spread over several columns: in this case the same number of new columns will be inserted to make room for the cloning result. If more than one level is selected, the same number of new levels will be created and it is not possible to assign a name to the cloned levels.
+The cell selection can also spread over several columns: in this case the same number of new columns will be inserted to make room for the cloning result. If more than one level is selected, the same number of new levels will be created and it's not possible to assign a name to the cloned levels.
 
 .. tip:: **To clone levels:**
 
@@ -1430,149 +1430,151 @@ The cell selection can also spread over several columns: in this case the same n
 
     2. Do one of the following:
 
-    - Choose Cells > Clone.
+    - Choose Cells > **Clone**.
 
-    - Right-click in the selection and choose Clone from the menu that opens.
+    - Right-click in the selection and choose **Clone** from the menu that opens.
 
-    3. Enter a name for the Cone Level and press OK to confirm.
+    3. Enter a **Level Name:** and press **OK** to confirm.
 
 
 .. _using_onion_skin:
 
 Using Onion Skin
 ----------------
-If you want to view more than one level drawing at the same time in the viewer as reference when you create drawings, or you want to check the animation, you can activate the onion skin mode. 
+If you want to view more than one level drawing at the same time in the Viewer as reference when you create drawings, or you want to check the animation, you can activate the Onion Skin mode. 
 
-The onion skin is available both in the  and in the level strip according to where the cursor showing the current frame is displayed, as the onion skin can be activated starting from the cursor and managed in the frame number column. 
+The Onion Skin is available both in the Xsheet/Timeline and in the Level Strip, according to where the cursor showing the current frame is displayed, as the onion skin can be activated starting from the cursor and managed in the frame number column/bar. 
 
-When a frame of the level strip is selected, the onion skin refers to the current level only, referring to the sequence of the full animation level as it was created.
+When a frame of the Level Strip is selected, the onion skin applies to the *current level* only, referring to the sequence of the full animation level as it was created.
 
-When a cell of the  is selected, the onion skin refers to the current level according to how the drawing sequence is edited in the scene, including movements and transformations performed thanks to the object animation (see  :ref:`Animating Objects <animating_objects>`  ), while the rest of the scene related to the current frame will be visible as is. If you want you can also extend the onion skin to the whole content of the , to allow references to all the animated or moving elements in the scene as well.
+When a cell of the Xsheet/Timeline is selected, the onion skin applies to the current level, according to how the drawing sequence is exposed in the scene, including movements and transformations performed thanks to the object animation (see  :ref:`Animating Objects <animating_objects>`  ), while the rest of the scene in the current frame will be visible as usual. If you want, you can also extend the onion skin to the whole content of the Xsheet/Timeline, to allow references to all of the animated or moving elements in the scene as well.
 
-The relative onion skin mode displays frames in relation to the position of the current frame. For instance you can activate the frame previous to the current one, and every time you change the current frame, the previous frame will be displayed in onion skin mode. 
+The *relative* Onion Skin mode displays frames in relation to the position of the current frame. For instance you can activate the frame previous to the current one, and every time you change the current frame, the previous frame will be displayed. 
 
-The fixed onion skin mode displays the selected frame independently from the current frame. For instance you can activate frame 5, and every time you change the current frame, frame 5 will be displayed in onion skin mode.
+The *fixed* Onion Skin mode displays the selected frame independently from the current frame. For instance you can activate frame 5, and every time you change the current frame, frame 5 will be displayed in Onion Skin mode.
 
-The way images are displayed in onion skin mode can be customized in the Preferences dialog: it is possible to define the Paper Thickness, to set a color correction for previous frames and one for following frames, and to display Toonz levels with lines only.
+The way images are displayed in Onion Skin mode can be customized in the Preferences pane. It's possible to define the **Paper Thickness**, to set an independent color correction for previous and following frames, and to **Display Lines Only** for Toonz Vector and Toonz Raster.
 
-.. tip:: **To activate frames in relative onion skin mode:**
-
-    1. Click and drag the small squared markers available on the left of the current frame cursor. If you drag up you will display previous images, if you drag down you will display following images. 
-
-    2. Once you have activated the relative onion skin, clicking the marker related to each frame lets you decide which frame to hide or show. Click and drag automatically hides or shows a series of frame.
-
-.. tip:: **To activate or deactivate frames in fixed onion skin mode:**
+.. tip:: **To activate or deactivate frames in Relative Onion Skin mode:**
 
     Do one of the following:
 
-    - In the , click the squared markers appearing in ghost mode on the left of the frame column. Click and drag automatically activates or deactivates a series of frames. 
+    - In the Xsheet, click the small romboid markers available to the left of the frames column (or above the frame bar in the Timeline). Click and drag automatically activates or deactivates a series of frames. 
 
-    - In the level strip, click in the white area on the top left of the strip frames. Click and drag automatically activates or deactivates a series of frames. 
+    - In the Level Strip, click the small circular markers available to the left of the strip frames. Click and drag automatically activates or deactivates a series of frames. 
 
-.. tip:: **To deactivate or activate again the onion skin mode:**
+.. tip:: **To activate or deactivate frames in Fixed Onion Skin mode:**
 
     Do one of the following:
 
-    - Click in the area on the left of the current frame cursor, where two squares are visible. Click again in the same area to display again the previous onion skin configuration.
+    - In the Xsheet, click the small ghosted romboid markers available to the very left of the frames column (or above the frame bar in the Timeline). Click and drag automatically activates or deactivates a series of frames. 
 
-    - Right-click in the viewer, or in the frame column of the  and level strip, and choose Deactivate Onion Skin or Activate Onion Skin in the menu that opens.
+    - In the Level Strip, click the small ghosted circular markers available to the very left of the strip frames. Click and drag automatically activates or deactivates a series of frames. 
 
-.. note:: The first time you click in the area on the left of the current frame cursor you will activate a default onion skin mode, showing the previous three frames in relative onion skin mode.
+.. tip:: **To Deactivate (or Activate again) the Onion Skin mode:**
 
-.. tip:: **To extend the onion skin to the whole  content:**
+    Do one of the following:
 
-    1. Activate the onion skin in .
+    - Double-click over the big circle to the left of the current frame cursor. Double-click again to activate it back.
 
-    2. Right-click in the viewer, or in the frame column of the , and choose Extend Onion Skin to Scene from the menu that opens.
+    - Right-click in the Viewer or in the frames column/bar of the Xsheet/Timeline, and choose **Deactivate Onion Skin** or **Activate Onion Skin** in the menu that opens.
 
-.. tip:: **To limit the onion skin to the current level:**
+     .. note:: The first time you activate Onion Skin mode by Right-clicking in the Viewer or the Xsheet/Timeline frames column/bar, a default relative onion skin mode activates, showing the previous three frames.
 
-    Right-click in the viewer, or in the frame column of the , and choose Limit Onion Skin to Level from the menu that opens.
+.. tip:: **To Extend the onion skin to the Whole Scene Content:**
+
+    1. Activate the onion skin in the Xsheet/Timeline.
+
+    2. Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and choose **Extend Onion Skin to Scene** from the menu that opens.
+
+.. tip:: **To Limit the onion skin to the Current Level:**
+
+    Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and choose **Limit Onion Skin to Level** from the menu that opens.
 
 .. tip:: **To customize the way images are displayed in onion skin mode:**
 
-    1. Choose File > Preferences > Onion Skin.
+    1. Choose File > Preferences > **Onion Skin**.
 
     2. Do any of the following:
 
-    - Set a value for the Paper Thickness; the lower the value, the more transparent the drawings displayed in onion skin mode.
+    - Set a value for the **Paper Thickness** parameter; the lower the value, the more transparent the drawings displayed in Onion Skin mode will be.
 
-    - Use the Previous Frames Correction to set a color for displaying previous frames.
+    - Use the **Previous Frames Correction** to set a color for displaying previous frames.
 
-    - Use the Following Frames Correction to set a color for displaying following frames.
+    - Use the **Following Frames Correction** to set a color for displaying following frames.
 
-    - Activate the Display Lines Only option to display Toonz levels with lines only.
+    - Activate the **Display Lines Only** option to display Toonz Vector or Toonz Raster levels with lines only.
 
 
 .. _using_the_shift_and_trace:
 
 Using Shift and Trace
 ---------------------
-The shift and trace function can help you in the creation of animated levels as you were drawing on paper with the light table; in fact it allows you to use the previous and the next drawing as reference when you insert an inbetween or a break down. 
+The **Shift and Trace** function can help you in the creation of animated levels as if you were drawing on paper using a light table; in fact it allows you to use the previous and next key drawings as references, while you insert an inbetween or a break down. 
 
-It possible to temporary move and rotate the drawings you want to use as reference to fit the position where you want to draw the inbetween one. It is also possible to automatically set the position of the reference drawings creating and editing a path of action line.
+It's possible to temporary move and rotate the drawings you want to use as reference, to fit the position where you want to draw the inbetween. It's also possible to automatically set the position of the reference drawings creating and editing a path of action line.
 
-To better check the new drawing and the animation you can toggle the shift and trace visualization on the viewer.
+To better check the new drawing and the animation, you can toggle the Shift and Trace visualization on or off the Viewer.
 
-.. tip:: **To enter the shift and trace view:**
+.. tip:: **To enter the Shift and Trace view:**
 
-    1. Position the frame cursor on the frame where you want to draw the inbetweening drawing.
+    1. Position the frame cursor on the frame where you want to draw the inbetween drawing.
 
-    2. Enable View > Shift and Trace: the previous and next drawing will be visualized.
+    2. Enable View > **Shift and Trace**; the previous and next drawings will be visualized.
 
-.. tip:: **To edit the position of the reference drawings:**
+.. tip:: **To Edit the Position of the reference drawings:**
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
 
-    2. Activate View > Edit Shift.
+    2. Activate View > **Edit Shift**.
 
-    3. Click on the drawing you want to reposition: the related bounding box will be displayed.
+    3. Click on the drawing you want to reposition; the related bounding box will be displayed.
 
     4. Do any of the following:
 
-    - Click and drag anywhere to move the reference drawing.
+    - Click and drag *anywhere* to **move** the reference drawing.
 
-    - Click and drag any corner handle to rotate the reference drawing.
+    - Click and drag *any corner handle* to **rotate** the reference drawing.
 
-    - Click and drag the center handle to change the center of rotation.
+    - Click and drag *the center handle* to change the **center of rotation**.
 
     5. Repeat the same steps on the second reference drawing.
 
-.. tip:: **To automatically edit the position of the reference drawings:**
+.. tip:: **To automatically Edit the Position of the reference drawings:**
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
 
-    2. Activate View > Edit Shift.
+    2. Activate View > **Edit Shift**.
 
-    3. Ctrl-click and drag to create a path from the reference point in the first drawing to the reference point in the second one. The starting and the ending points will be overlapped at the center of the path.
+    3. Ctrl-click and drag to create a path, from the reference point in the first drawing, to the reference point in the second one. The starting and the ending points will be overlapped at the center of the path.
 
-    4. Click and drag the handle along the path to change the shape of the path: the reference drawings will move according to the handle position and rotate according to the path shape modification.
+    4. Click and drag the handle along the path to change its shape; the reference drawings will move according to the handle position and rotate according to the path shape modification.
 
-    5. If needed use the bounding box handles to fix the rotation of the reference drawing. 
+    5. If needed, use the bounding box handles to fix the rotation of the reference drawing. 
 
 .. note:: Clicking and dragging one of the reference drawings will remove the path of action line.
 
-.. tip:: **To toggle the shift:**
+.. tip:: **To Toggle the Shift and Trace visualization:**
 
-    Activate View > No Shift to toggle the visualization of the reference drawings in their original position.
+    Activate View > **No Shift** to toggle the visualization of the reference drawings back to their original position.
 
-.. tip:: **To reset the position of the reference drawings:**
+.. tip:: **To Reset the position of the reference drawings:**
 
-    Choose the View > Reset Shift command.
+    Choose the View > **Reset Shift** command.
 
-.. tip:: **To create an inbetween drawing using the shift and trace:**
+.. tip:: **To Create an inbetween drawing using the Shift and Trace feature:**
 
     1. Create the first key drawing.
 
-    2. Create the second key drawings.
+    2. Create the second key drawing.
 
     3. Select the cell where you want to create the inbetween drawing.
 
-    4. Activate View > Shift and Trace.
+    4. Activate View > **Shift and Trace**.
 
     5. Sketch the path of action line beteween your reference points.
 
-    6. Activate View > Edit Shift and edit the position of the reference drawings.
+    6. Activate View > **Edit Shift** and edit the position of the reference drawings.
 
     7. Create the inbetween drawing.
 
