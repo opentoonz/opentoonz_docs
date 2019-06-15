@@ -202,7 +202,9 @@ In the OpenToonz browser look for the repository at the end of the folder tree, 
 
 Using the Version Control System
 --------------------------------
- |Toonz71_573| 
+.. figure:: /_static/drawing_animation_levels/browser_tree_svn.png
+
+   One online repository defined (**svn_test**) hosting the active project (**mySVNproject**). 
 
 The *central repository* and the local *working copy* are displayed in the OpenToonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
 
@@ -231,7 +233,7 @@ In case you are *putting* folders, in the dialog that opens you can check which 
 
 In case you are *getting* or *putting* scene files (TNZ format), in the dialog that opens it's possible to check the **Get Scene Contents** or the **Put Scene Contents** option to include with the request, or return back, the materials used in the scene as well.
 
- |Toonz71_574| 
+|put|
 
 .. note:: The first time you *get* a folder not previously available in the *working copy* (folder with grey icon), you get the files contained in the folder, but not the sub-folders. The next time you *get* the folder (folder with a colored icon), you get the entire contents of the folder, including sub-folders and the related contents.
 
@@ -317,7 +319,7 @@ The main advantage of using a version control system is that the *history* of th
 
 To retrieve older file versions it's possible to use the **Get Revision** command. When used on a single file it displays a timeline with all the file versions; in the timeline you can check the different file versions with the related icons and information, and select which version to get in order to edit it. When used on a multiple files selection it opens a dialog that allows you to specify the time, day, week or date of the files version you want to retrieve.
 
- |Toonz71_575| 
+|get_revision|
 
 When getting a revision of a scene file (TNZ format), in the dialog that opens it's possible to check the **Get Scene Contents** option in order to get the revisions of the materials used in the scene as well.
 
@@ -335,9 +337,11 @@ When getting a revision of a scene file (TNZ format), in the dialog that opens i
 
 .. tip:: **To retrieve an older revision of a selection of multiple files:**
 
-    1. Right-click any of the selected file and choose **Get Revision** from the menu that opens.
+    1. Right-click any of the selected files and choose **Get Revision** from the menu that opens.
+    
+     |get_revision_multiple_files|
 
-    2. In the dialog that opens specify how much older the version of the files you want to retrieve has to be by doing one of the following: |Toonz71_576| 
+    2. In the dialog that opens specify how much older the version of the files you want to retrieve has to be, by doing one of the following:
 
      - Specify a *time* in hours and minutes.
 
@@ -400,6 +404,10 @@ For **files** the following icons are used:
 .. |Toonz71_574| image:: /_static/Toonz71/Toonz71_574.gif
 .. |Toonz71_575| image:: /_static/Toonz71/Toonz71_575.gif
 .. |Toonz71_576| image:: /_static/Toonz71/Toonz71_576.gif
+
+.. |put| image:: /_static/version_control/put.png
+.. |get_revision| image:: /_static/version_control/get_revision.png
+.. |get_revision_multiple_files| image:: /_static/version_control/get_revision_multiple_files.png
 .. |grey_folder| image:: /_static/version_control/grey_folder.png
 .. |blue_plus_mark| image:: /_static/version_control/blue_plus_mark.png
 .. |colored_folder_with_green_mark| image:: /_static/version_control/colored_folder_with_green_mark.png
