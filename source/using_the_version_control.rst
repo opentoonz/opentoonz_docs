@@ -364,36 +364,36 @@ According to the folder and file icons you can tell if the folder or the file in
 
 For **folders** the following icons are used:
 
-- A *grey* folder icon (|grey_folder|) is used for folders available only in the *repository*. You can use the **Get** command to copy them to the local *working copy*.
+- |grey_folder| A *grey* folder icon is used for folders available only in the *repository*. You can use the **Get** command to copy them to the local *working copy*.
 
-- A colored folder icon with a *yellow mark* (|colored_folder_with_yellow_mark|) is used when the folder contents in the *working copy* is not up to date and does not match to the folder contents in the *repository*: this is the case when there are modified or new files in the *working copy* or there are modified or new files in the *repository*. You can use the **Get** command to copy them to the local *working copy*.
+- |colored_folder_with_yellow_mark| A colored folder icon with a *yellow mark* is used when the folder contents in the *working copy* is not up to date and does not match to the folder contents in the *repository*: this is the case when there are modified or new files in the *working copy* or there are modified or new files in the *repository*. You can use the **Get** command to copy them to the local *working copy*.
 
-- A colored folder icon with a *green mark* (|colored_folder_with_green_mark|) is used when the folder contents in the *working copy* is up to date and matches to the folder contents in the *repository*.
+- |colored_folder_with_green_mark| A colored folder icon with a *green mark* is used when the folder contents in the *working copy* is up to date and matches to the folder contents in the *repository*.
 
-- A colored folder with a *plus mark* (|colored_folder_with_plus_mark|) is used for folders available only in the *working copy*. You can use the **Put** command to copy them to the *central repository*.
+- |colored_folder_with_plus_mark| A colored folder with a *plus mark* is used for folders available only in the *working copy*. You can use the **Put** command to copy them to the *central repository*.
 
 
 For **files** the following icons are used:
 
 - A generic *grey* icon is used for files available only in the *repository*. You can use the **Get** command to copy them to the local *working copy*.
 
-- The file icon with a *grey check mark* (|grey_mark_check|) is used when files in the *working copy* are up to date and match to the latest version available in the *repository*. The files are in *read-only mode*, and they have to be in *edit mode* in order to be modified.
+- |grey_mark_check| The file icon with a *grey check mark* is used when files in the *working copy* are up to date and match to the latest version available in the *repository*. The files are in *read-only mode*, and they have to be in *edit mode* in order to be modified.
 
-- The file icon with a *green check mark* (|green_mark_check|) is used when files in the *working copy* are in *edit mode*.
+- |green_mark_check| The file icon with a *green check mark* is used when files in the *working copy* are in *edit mode*.
 
-- The file icon with a *green check mark on a grey and white background* (|half_grey_mark_check|) is used when files in the *working copy* are partially in *edit mode*.
+- |half_grey_mark_check| The file icon with a *green check mark on a grey and white background* is used when files in the *working copy* are partially in *edit mode*.
 
-- The file icon with a *red exclamation mark* (|red_exclamation_mark_check|) is used when files in the *working copy* are newer than the latest version available in the *repository*, because you modified them. You can use the **Put** command to copy them to the *central repository*.
+- |red_exclamation_mark_check| The file icon with a *red exclamation mark* is used when files in the *working copy* are newer than the latest version available in the *repository*, because you modified them. You can use the **Put** command to copy them to the *central repository*.
 
-- The file icon with a *red exclamation mark on a grey and white background* (|half_grey_red_exclamation_mark_check|) is used when files in the *working copy* are partially newer than to the latest version available in the *repository*, because you modified them. You can use the **Put** command to copy them to the *central repository*.
+- |half_grey_red_exclamation_mark_check| The file icon with a *red exclamation mark on a grey and white background* is used when files in the *working copy* are partially newer than to the latest version available in the *repository*, because you modified them. You can use the **Put** command to copy them to the *central repository*.
 
-- The file icon with an *orange exclamation mark* (|orange_exclamation_mark_check|) is used when files in the *working copy* are older than the latest version available in the *repository*, because someone modified them. You can use the **Get** command to copy them to the *local working copy*.
+- |orange_exclamation_mark_check| The file icon with an *orange exclamation mark* is used when files in the *working copy* are older than the latest version available in the *repository*, because someone modified them. You can use the **Get** command to copy them to the *local working copy*.
 
-- The file icon with an *lock mark* (|lock_mark|) is used when files are in *edit mode* by other users. For these files it is only possible to check the information about the user editing the file. 
+- |lock_mark| The file icon with an *lock mark* is used when files are in *edit mode* by other users. For these files it is only possible to check the information about the user editing the file. 
 
-- The file icon with a *lock mark on a grey and white background* (|half_grey_lock_mark|) is used when files are *partially in edit mode* by other users. 
+- |half_grey_lock_mark| The file icon with a *lock mark on a grey and white background* is used when files are *partially in edit mode* by other users. 
 
-- The file icon with the *plus mark* (|blue_plus_mark|) is used for files available only in the *working copy*. You can use the **Put** command to copy them to the *central repository*.
+- |blue_plus_mark| The file icon with the *plus mark* is used for files available only in the *working copy*. You can use the **Put** command to copy them to the *central repository*.
 
 
 
