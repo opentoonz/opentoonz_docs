@@ -35,15 +35,15 @@ OpenToonz User Manual
    painting_animation_levels
    working_in_xsheet
    creating_movements
+   editing_curves_and_numerical_columns
    creating_cutout_animation
    create_animations_using_plastic_tool
    applying_special_fx
    using_the_particles_effect
-   editing_curves_and_numerical_columns
    rendering_the_animation
    using_the_toonz_farm
-   toonzscript
    using_the_version_control
+   toonzscript
    keyboard_shortcuts
 
 Special Thanks
