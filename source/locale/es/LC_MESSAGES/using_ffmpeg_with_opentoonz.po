@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-15 12:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:4
+msgid "Using FFmpeg with OpenToonz"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:7
+msgid "What is FFmpeg?"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:8
+msgid ""
+"To render your animation as an **mp4** or **webm**, or also as a **gif** "
+"on Mac, OpenToonz requires the FFmpeg multimedia framework to be "
+"installed on your machine."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:9
+msgid ""
+"For more information, please visit this page: `About FFmpeg "
+"<https://www.ffmpeg.org/about.html>`_"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:12
+msgid "Installing FFmpeg for Windows"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:15
+#: ../../source/using_ffmpeg_with_opentoonz.rst:62
+msgid "Downloading"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:17
+#: ../../source/using_ffmpeg_with_opentoonz.rst:64
+msgid ""
+"To download FFmpeg, first visit this page: `Download FFmpeg "
+"<https://www.ffmpeg.org/download.html>`_"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:19
+#: ../../source/using_ffmpeg_with_opentoonz.rst:66
+msgid "|get_the_packages|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:21
+msgid "Select the Windows icon and then select the **Windows builds** link:"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:23
+msgid "|packages_windows|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:25
+#: ../../source/using_ffmpeg_with_opentoonz.rst:72
+msgid ""
+"You will be taken to an **FFmpeg Builds** page with some options for the "
+"version of FFmpeg that you want to download:"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:27
+msgid "|ffmpeg_builds_windows|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:29
+msgid "In the majority of cases, the default choices are fine."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:30
+#: ../../source/using_ffmpeg_with_opentoonz.rst:78
+msgid ""
+"Click on the blue **Download Build** button, this will begin downloading "
+"a zip archive containing FFmpeg."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:33
+#: ../../source/using_ffmpeg_with_opentoonz.rst:81
+msgid "Installing"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:35
+#: ../../source/using_ffmpeg_with_opentoonz.rst:83
+msgid ""
+"Once you have downloaded the FFmpeg zip archive, open it and double-click"
+" on the first folder."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:37
+#: ../../source/using_ffmpeg_with_opentoonz.rst:85
+msgid "Within the **bin** folder are the executable files that you will need."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:39
+msgid ""
+"Create a new folder on your computer, the recommended location is "
+"**C:\\\\**."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:40
+msgid "Name the new folder **FFmpeg**."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:41
+#: ../../source/using_ffmpeg_with_opentoonz.rst:92
+msgid ""
+"Drag the contents of the **bin** folder from the archive into the newly "
+"created folder."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:43
+msgid "|ffmpeg_extracted_windows|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:45
+#: ../../source/using_ffmpeg_with_opentoonz.rst:96
+msgid ""
+"Next, start OpenToonz and open the **Preferences** window with ``File > "
+"Preferences...``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:46
+#: ../../source/using_ffmpeg_with_opentoonz.rst:97
+#: ../../source/using_ffmpeg_with_opentoonz.rst:127
+msgid ""
+"Navigate to the **Import/Export** category; at the top you will see a box"
+" with the text **FFmpeg path**."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:47
+msgid ""
+"Insert the path to your FFmpeg folder that you created earlier, if you "
+"have used the recommended path, this will be **C:\\\\FFmpeg\\\\**:"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:49
+msgid "|ffmpeg_path_windows|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:51
+#: ../../source/using_ffmpeg_with_opentoonz.rst:102
+#: ../../source/using_ffmpeg_with_opentoonz.rst:132
+msgid "Restart OpenToonz."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:52
+#: ../../source/using_ffmpeg_with_opentoonz.rst:103
+#: ../../source/using_ffmpeg_with_opentoonz.rst:133
+msgid "Open the **Output Settings** window with ``File > Output Settings...``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:54
+msgid ""
+"In the **File Settings** subsection, you should now see **mp4** and "
+"**webm**."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:56
+msgid "|output_settings_windows|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:59
+msgid "Installing FFmpeg for Mac"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:68
+msgid "Select the Apple icon and select the **Static and Shared builds** link."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:70
+msgid "|packages_mac|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:74
+msgid "Make sure **macOS 64-bit** is selected under the **Architecture** column."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:76
+msgid "|ffmpeg_builds_mac|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:87
+msgid ""
+"Open Finder and create a new folder, the **Applications/OpenToonz** "
+"folder is the recommended location."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:89
+msgid "|ffmpeg_finder|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:91
+msgid "Name the new folder **FFmpeg**"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:94
+msgid "|ffmpeg_extracted_mac|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:98
+msgid ""
+"Insert the path to your FFmpeg folder that you created earlier, if you "
+"have used the recommended path, this will be "
+"**/Applications/OpenToonz/FFmpeg**:"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:100
+msgid "|ffmpeg_path_mac|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:105
+#: ../../source/using_ffmpeg_with_opentoonz.rst:135
+msgid ""
+"In the **File Settings** subsection, you should now see **mp4**, **webm**"
+" and **gif**."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:107
+msgid "|output_settings_mac|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:110
+msgid "Installing FFmpeg for Linux"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:112
+msgid ""
+"To install FFmpeg, enter the following command in the shell depending on "
+"your distribution."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:114
+msgid "Arch Linux: ``# pacman -S extra/ffmpeg``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:116
+msgid "Debian GNU/Linux: ``# apt install ffmpeg``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:118
+msgid "Gentoo Linux: ``# emerge media-video/ffmpeg``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:120
+msgid "Solus: ``# eopkg install ffmpeg``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:122
+msgid ""
+"If you are using a other Linux distribution please refer to its "
+"documentation or visit the `FFmpeg website "
+"<https://www.ffmpeg.org/download.html>`_."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:124
+msgid ""
+"To make it possible to export files in **mp4**, **webm** or **gif** "
+"formats, you need to specify the path to FFmpeg installed on your system,"
+" usually it is **/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the"
+" shell to find out."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:126
+msgid ""
+"Start OpenToonz and open the **Preferences** window with ``File > "
+"Preferences...``"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:128
+msgid "Insert the path **/usr/bin**."
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:130
+msgid "|ffmpeg_path_linux|"
+msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:137
+msgid "|output_settings_linux|"
+msgstr ""
+
