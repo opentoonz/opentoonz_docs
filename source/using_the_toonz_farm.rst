@@ -256,7 +256,7 @@ When a server is selected in the list, the following related information are dis
 
 - **State:** displays if the server is **Ready**, **Busy** or **Down**. 
 
-   .. note:: A server node state may be down if the server port you set is blocked by a firewall system, and is not open for all the computers belonging to the Toonz Farm (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ).
+  .. note:: A server node state may be down if the server port you set is blocked by a firewall system, and is not open for all the computers belonging to the Toonz Farm (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ).
 
 - **Number of CPU:** displays the number of CPUs available on the server.
 
