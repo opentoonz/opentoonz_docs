@@ -202,7 +202,7 @@ In the OpenToonz browser look for the repository at the end of the folder tree, 
 
 Using the Version Control System
 --------------------------------
-.. figure:: /_static/drawing_animation_levels/browser_tree_svn.png
+.. figure:: /_static/version_control/browser_tree_svn.png
 
    One online repository defined (**svn_test**) hosting the active project (**mySVNproject**). 
 
@@ -398,12 +398,6 @@ For **files** the following icons are used:
 
 
 
-
-
-.. |Toonz71_573| image:: /_static/Toonz71/Toonz71_573.gif
-.. |Toonz71_574| image:: /_static/Toonz71/Toonz71_574.gif
-.. |Toonz71_575| image:: /_static/Toonz71/Toonz71_575.gif
-.. |Toonz71_576| image:: /_static/Toonz71/Toonz71_576.gif
 
 .. |put| image:: /_static/version_control/put.png
 .. |get_revision| image:: /_static/version_control/get_revision.png
