@@ -169,7 +169,7 @@ For each sever (rendering) node you must specify the following:
 
 - The port number you intend to use for the server service.
 
-.. note:: Be sure that the port you set is not blocked by any firewall system, and is open for all the computers belonging to the Toonz farm.
+.. note:: Be sure that the port you set is not blocked by any firewall system, and is open for all the computers belonging to the Toonz Farm.
 
 The above information must be separated by a single space. Here is an example of a ``servers.txt``  file:
 
@@ -214,62 +214,61 @@ If the computer is neither a controller nor a server (rendering) node for the To
 
 .. tip:: **To define the FARMROOT in Toonz:**
 
-    1. Run OpenToonz and go to the Render Farm room.
+    1. Run OpenToonz and go to the Farm room.
 
-    2. In the Batch Servers window, set the Process With option menu to Render Farm.
+    2. In the Batch Servers pane, set the **Process with:** option menu to **Render Farm**.
 
-    3. In the dialog that opens specify the full path to the FARMROOT folder.
+    3. In the dialog that opens specify the full path to the **FARMROOT** folder.
 
-    4. Click the OK button.
+    4. Click the **OK** button.
 
 
 Using the Toonz Farm
 --------------------
 In OpenToonz you can find the Farm room that allows you to monitor the farm processes. This room contains two main windows: the Tasks window and the Batch Servers window.
 
-The render farm can be monitored by using the Tasks pane, where the list of tasks can be managed and executed, and the Servers pane, where the computers executing the tasks can be managed.
+The render farm can be monitored by using both the Tasks pane, where the list of tasks can be managed and executed, and the Servers pane, where the computers executing the tasks can be managed.
 
-.. note:: All shared disks involved in the task processing, i.e. disks where files resulting from the task execution have to be written, must be shared granting full permissions to any user, otherwise tasks execution will not succeed. For Windows, disks must have a Share Permission set to Full Control for Everyone; for Macintosh, the sharing settings must allow any user to read from and write to disks.
+.. note:: All shared disks involved in the task processing, i.e. disks where files resulting from the task execution have to be written, must be shared granting *full permissions* to any user, otherwise tasks execution will not succeed. For Windows, disks must have a Share Permission set to Full Control for Everyone; for Macintosh, the sharing settings must allow any user to read from and write to disks.
 
 
 .. _monitoring_the_server_nodes:
 
 Monitoring the Server Nodes
 '''''''''''''''''''''''''''
-The Batch Servers window is divided in three areas: at the top there’s an option menu to set whether the tasks execution has to be performed with the local computer or with the render farm; then there is the list of server (rendering) nodes in the farm; at the bottom you can see information about the server currently selected in the list. 
+The Batch Servers pane is divided in three areas: at the top there’s an option menu to set whether the tasks execution has to be performed with the Local computer or with the Render Farm; then there is the list of server (rendering) nodes in the farm; at the bottom you can see information about the server currently selected in the list. 
 
-The server (rendering) nodes included in the list are those defined in the ``server.txt``  configuration file (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ). If a server node is down at the controller startup, it will not be available in the farm: this means that all the server nodes must be up before starting up the controller node. For the same reason if you want to restart or shut down a server (rendering) node, you have to restart the controller node in order to make the changes effective.
+The server (rendering) nodes included in the list are those defined in the ``server.txt``  configuration file (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ). If a server node is down at the controller startup, it will not be available in the farm: this means that all the server nodes *must be up before* starting up the controller node. For the same reason if you want to restart or shut down a server (rendering) node, you have to restart the controller node in order to make the changes effective.
 
-If the Process With option menu is set to Local, all the tasks you run will be executed by the local computer; if it is set to Render Farm, the tasks will be executed by the Toonz farm.
+If the **Process with:** option menu is set to **Local**, all the tasks you run will be executed by the local computer; if it's set to **Render Farm**, the tasks will be executed by the Toonz Farm.
 
-.. note:: When you select Render Farm you could be prompted to define the FARMROOT (see  :ref:`Defining the Toonz Farm in Toonz <defining_the_toonz_farm_in_toonz>`  ). 
+.. note:: When you select **Render Farm** you could be prompted to define the **FARMROOT** (see  :ref:`Defining the Toonz Farm in Toonz <defining_the_toonz_farm_in_toonz>`  ). 
 
 When a server is selected in the list, the following related information are displayed in the area at the bottom of the window:
 
-- Name: displays the name of the server (rendering) node. 
+- **Name:** displays the name of the server (rendering) node. 
 
-- IP Address: displays its IP address.
+- **IP Address:** displays its IP address.
 
-- Port Number: displays the port number used to exchange data with the farm.
+- **Port Number:** displays the port number used to exchange data with the farm.
 
-- Tasks: displays the task being executed.
+- **Tasks:** displays the task being executed.
 
-- State: displays if the server is Ready, Busy or Down. 
+- **State:** displays if the server is **Ready**, **Busy** or **Down**. 
 
+   .. note:: A server node state may be down if the server port you set is blocked by a firewall system, and is not open for all the computers belonging to the Toonz Farm (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ).
 
-.. note:: A server node state may be down if the server port you set is blocked by a firewall system, and is not open for all the computers belonging to the Toonz farm (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ).
+- **Number of CPU:** displays the number of CPUs available on the server.
 
-- Number of CPU: displays the number of CPUs available on the server.
+- **Physical Memory:** displays the amount of physical memory available on the server.
 
-- Physical Memory: displays the amount of physical memory available on the server.
+.. tip:: **To use the Local computer to execute tasks:**
 
-.. tip:: **To use the local computer to execute tasks:**
+    Set the **Process with:** option menu to **Local**.
 
-    Set the Process With option menu to Local.
+.. tip:: **To use the Toonz Farm to execute tasks:**
 
-.. tip:: **To use the Toonz farm to execute tasks:**
-
-    Set the Process With option menu to Render Farm.
+    Set the **Process with:** option menu to **Render Farm**.
 
 
 .. _checking_the_toonz_farm_processing:
