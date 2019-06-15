@@ -186,7 +186,7 @@ Linking animation level palettes to the Studio Palette can assure color consiste
 
 In the level palette, the information about which Studio Palette the palette styles refers to can be retrieved in the **List View** mode, where, next to the style thumbnails and names, the path to the source studio palette is displayed. 
 
-When palettes are added to **Global Palettes**, they are copied to the `**studiopalette**  folder located where OpenToonz projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
+When palettes are added to **Global Palettes**, they are copied to the **studiopalette**  folder located where OpenToonz projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
 When palettes are added to **Project Palettes**, they are copied to the **+palettes** folder you specified for the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
