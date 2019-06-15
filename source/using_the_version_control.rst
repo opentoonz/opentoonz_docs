@@ -195,18 +195,18 @@ At this point the repository will be displayed in the OpenToonz browser, and you
 
     2. Quit and restart OpenToonz.
 
-In the OpenToonz browser look for the repository at the end of the folder tree, named as you defined it in the configuration file; right-click it and choose **Get** from the menu that opens to establish the connection between the *central repository* and the local *working copy*.
+    3. In the OpenToonz browser look for the repository at the end of the folder tree, named as you defined it in the configuration file; right-click it and choose **Get** from the menu that opens to establish the connection between the *central repository* and the local *working copy*.
 
 
 .. _using_the_version_control_system:
 
 Using the Version Control System
 --------------------------------
+The *central repository* and the local *working copy* are displayed in the OpenToonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
+
 .. figure:: /_static/version_control/browser_tree_svn.png
 
    One online repository defined (**svn_test**) hosting the active project (**mySVNproject**). 
-
-The *central repository* and the local *working copy* are displayed in the OpenToonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
 
 When a folder is selected in the folder tree *a refresh operation occurs automatically*, to check the status of the folder and its content. As this operations may require some time according to the connection speed on the local network or in the Internet, the automatic refresh operation can be disabled.
 
