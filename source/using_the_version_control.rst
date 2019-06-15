@@ -229,11 +229,13 @@ Getting and Putting Folders and Files
 '''''''''''''''''''''''''''''''''''''
 The basic operations in the version control system involves *getting* files from the central repository to the local working copy; and then *putting* the modified files back from the local *working copy* to the *central repository*.
 
+|put|
+
 In case you are *putting* folders, in the dialog that opens you can check which files and folders contained in the selected folder have to be put in the central repository. Every time files and folders are put, it is also possible to type a *comment* to let the other users know about s of the performed modifications.
 
-In case you are *getting* or *putting* scene files (TNZ format), in the dialog that opens it's possible to check the **Get Scene Contents** or the **Put Scene Contents** option to include with the request, or return back, the materials used in the scene as well.
+|put_scene|
 
-|put|
+In case you are *getting* or *putting* scene files (TNZ format), in the dialog that opens it's possible to check the **Get Scene Contents** or the **Put Scene Contents** option to include with the request, or return back, the materials used in the scene as well.
 
 .. note:: The first time you *get* a folder not previously available in the *working copy* (folder with grey icon), you get the files contained in the folder, but not the sub-folders. The next time you *get* the folder (folder with a colored icon), you get the entire contents of the folder, including sub-folders and the related contents.
 
@@ -248,7 +250,7 @@ In case you are *getting* or *putting* scene files (TNZ format), in the dialog t
 .. tip:: **To put your modified version of a folder or a file from the local working copy to the central repository:**
 
     1. Right-click the folder icon in the folder tree, or the file icon in the browser, and choose **Put** from the menu that opens.
-
+    
     2. In the dialog that opens do any of the following:
 
      - If you are putting a folder, check which files and folders contained by the selected folder have to be put in the central repository.
@@ -264,11 +266,19 @@ Editing Files
 '''''''''''''
 When using a version control system in order to modify files you have to **Edit** them before loading them into OpenToonz; if files are not in *edit mode*, they can only be loaded as *read-only*.
 
+|edit|
+
 The **Edit** operation unlocks the file for the user running the command (preventing other users using the same *central repository* from unlocking it and being able to modify it). When a file is edited, it's possible to type a comment to let the other users know about your editing operation.
+
+|edit_scene|
 
 When editing a scene file (TNZ format), in the dialog that opens it's possible to check the **Edit Scene Contents** option in order to edit the materials used in the scene as well. If you choose to edit only the scene file, or if some material used in the scene is currently being edited by other users sharing the same central repository, the locked frames of the level will be displayed with a forbidden icon in the level strip.
 
+|edit_frame_range|
+
 The **Edit Frame Range** command is available as well to edit only the *needed frames* of any Toonz animation level. This way, different users can work at the same time on *different frame ranges* of the same animation level.
+
+|unlock|
 
 If you want to release files from the *editing mode*, you can **Unlock** them.
 
@@ -398,8 +408,12 @@ For **files** the following icons are used:
 
 
 
-
 .. |put| image:: /_static/version_control/put.png
+.. |put_scene| image:: /_static/version_control/put_scene.png
+.. |edit| image:: /_static/version_control/edit.png
+.. |edit_scene| image:: /_static/version_control/edit_scene.png
+.. |edit_frame_range| image:: /_static/version_control/edit_frame_range.png
+.. |unlock| image:: /_static/version_control/unlock.png
 .. |get_revision| image:: /_static/version_control/get_revision.png
 .. |get_revision_multiple_files| image:: /_static/version_control/get_revision_multiple_files.png
 .. |grey_folder| image:: /_static/version_control/grey_folder.png
