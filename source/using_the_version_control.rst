@@ -264,25 +264,25 @@ In case you are *getting* or *putting* scene files (TNZ format), in the dialog t
 
 Editing Files
 '''''''''''''
-When using a version control system in order to modify files you have to **Edit** them before loading them into OpenToonz; if files are not in *edit mode*, they can only be loaded as *read-only*.
+When using the version control system, in order to modify files you have to put them in **Edit** mode *before loading them* into OpenToonz; if not, they will be loaded as *read-only*.
 
 |edit|
 
-The **Edit** operation unlocks the file for the user running the command (preventing other users using the same *central repository* from unlocking it and being able to modify it). When a file is edited, it's possible to type a comment to let the other users know about your editing operation.
+The **Edit** operation "locks" the file, so only the user running the command will be able to modify it (preventing other users using the same *central repository* from unlocking it and being able to modify it). At the moment a file is about to be edited, it's possible to type in a *Comment*, to let the other users know about your editing operation.
 
 |edit_scene|
 
-When editing a scene file (TNZ format), in the dialog that opens it's possible to check the **Edit Scene Contents** option in order to edit the materials used in the scene as well. If you choose to edit only the scene file, or if some material used in the scene is currently being edited by other users sharing the same central repository, the locked frames of the level will be displayed with a forbidden icon in the level strip.
+When editing a scene file (TNZ format), in the dialog that opens it's possible to check the **Edit Scene Contents** option, in order to be able to edit the materials used in the scene as well. If you choose to edit only the scene file, or if some material used in the scene is currently being edited by other users sharing the same central repository, the locked frames of that levels will be displayed with a forbidden icon in the Level Strip.
 
 |edit_frame_range|
 
-The **Edit Frame Range** command is available as well to edit only the *needed frames* of any Toonz animation level. This way, different users can work at the same time on *different frame ranges* of the same animation level.
+The **Edit Frame Range** command is available as well, to let a user edit only the *needed frames* of any Toonz Vector or Toonz Raster animation level. This way, different users can work at the same time *on different frame ranges* of the same animation level.
 
 |unlock|
 
-If you want to release files from the *editing mode*, you can **Unlock** them.
+When you want to release files from the *editing mode*, so that others can work on them, you can use the **Unlock** command.
 
-.. note:: Files are in read-only mode (or in locked mode) in case a user is *editing* them, by setting the file system read-only attribute. For this reason, manually using the OS (instead of the appropriate version control commands), to change this status may cause serious inconsistencies in the version control system.
+.. note:: Files are in read-only mode (or in locked mode) in case a user is *editing* them, by setting the file system read-only attribute. For this reason, manually using the OS (instead of the appropriate version control commands) to change this status, may cause serious inconsistencies in the version control system.
 
 .. tip:: **To edit an updated file:**
 
@@ -325,13 +325,17 @@ If you want to release files from the *editing mode*, you can **Unlock** them.
 
 Retrieving File Revisions
 '''''''''''''''''''''''''
-The main advantage of using a version control system is that the *history* of the revisions for every file in the production database is automatically available. This means that it's possible to retrieve very easily previous versions of any file.
+One of the main advantages of using a version control system is that the *history* of the revisions for every file in the production database is always available. This means that it's possible to very easily retrieve previous versions of any file.
 
-To retrieve older file versions it's possible to use the **Get Revision** command. When used on a single file it displays a timeline with all the file versions; in the timeline you can check the different file versions with the related icons and information, and select which version to get in order to edit it. When used on a multiple files selection it opens a dialog that allows you to specify the time, day, week or date of the files version you want to retrieve.
+To retrieve older file versions it's possible to use the **Get Revision** command. When used on a single file it displays a timeline with all the file versions; in the timeline you can check the different file versions with the related icons and information, and select which version to get in order to edit it.
 
 |get_revision|
 
 When getting a revision of a scene file (TNZ format), in the dialog that opens it's possible to check the **Get Scene Contents** option in order to get the revisions of the materials used in the scene as well.
+
+|get_revision_multiple_files|
+
+When used on a multiple files selection it opens a dialog that allows you to specify the time, day, week or date of the files version you want to retrieve.
 
 .. tip:: **To retrieve an older revision of a file:**
 
@@ -349,8 +353,6 @@ When getting a revision of a scene file (TNZ format), in the dialog that opens i
 
     1. Right-click any of the selected files and choose **Get Revision** from the menu that opens.
     
-     |get_revision_multiple_files|
-
     2. In the dialog that opens specify how much older the version of the files you want to retrieve has to be, by doing one of the following:
 
      - Specify a *time* in hours and minutes.
@@ -370,7 +372,7 @@ Understanding the Folder and File Icons
 '''''''''''''''''''''''''''''''''''''''
 According to the folder and file icons you can tell if the folder or the file in the working copy is updated or not to the latest version available in the central repository, and if files are edited by other users and locked.
 
-.. note:: If the file browser displays files in a list, the information about the version control status is displayed in the column labeled *Version Control*.
+.. note:: If the File Browser displays files as a List, the information about the version control status is displayed in the column labeled *Version Control*.
 
 For **folders** the following icons are used:
 
