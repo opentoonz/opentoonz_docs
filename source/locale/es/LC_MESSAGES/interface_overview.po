@@ -3,23 +3,25 @@
 # This file is distributed under the same license as the OpenToonz package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 12:06+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-16 12:47-0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: ../../source/interface_overview.rst:4
 msgid "Interface Overview"
-msgstr ""
+msgstr "Interfaz de Usuario"
 
 #: ../../source/interface_overview.rst:6
 msgid "|UI_1|"
@@ -27,14 +29,17 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:8
 msgid ""
-"OpenToonz interface is organized into rooms, also known as workspaces: "
-"each room is a different collection of windows which are laid out at "
-"specific positions on the screen."
+"OpenToonz interface is organized into rooms, also known as workspaces: each "
+"room is a different collection of windows which are laid out at specific "
+"positions on the screen."
 msgstr ""
+"La interfaz de OpenToonz está organizada en espacios de trabajo: cada espacio "
+"de trabajo es una colección de diferentes paneles que están dispuestos en "
+"posiciones específicas en la pantalla."
 
 #: ../../source/interface_overview.rst:14
 msgid "Using Rooms"
-msgstr ""
+msgstr "Usando los Paneles"
 
 #: ../../source/interface_overview.rst:16
 msgid "|UI_rooms|"
@@ -42,198 +47,236 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:18
 msgid ""
-"Available rooms are listed on the far right of the menu bar. Each of them"
-" always displays the content of the current scene."
+"Available rooms are listed on the far right of the menu bar. Each of them "
+"always displays the content of the current scene."
 msgstr ""
+"Los espacios de trabajo disponibles aparecen hacia la derecha de la barra de "
+"menúes. Cada uno de ellos mostrará siempre el contenido de la escena actual."
 
 #: ../../source/interface_overview.rst:20
 msgid ""
-"Rooms can be named and their order can be rearranged. New rooms can be "
-"added and existing rooms can be deleted. When a room is added it is "
-"empty; to configure it, panes can be added one by one (see below)."
+"Rooms can be named and their order can be rearranged. New rooms can be added "
+"and existing rooms can be deleted. When a room is added it is empty; to "
+"configure it, panes can be added one by one (see below)."
 msgstr ""
+"Es posible cambiar el nombre y la posición de los espacios de trabajo. También "
+"es posible agregar nuevos espacios de trabajo o borrar los existentes. Cuando "
+"se crea un nuevo espacio de trabajo, éste se encontrará vacío, siendo posible "
+"agregar paneles al mismo (ver más abajo)."
 
 #: ../../source/interface_overview.rst:23
 msgid "**To enter a room:**"
-msgstr ""
+msgstr "**Para entrar a un espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:25
 msgid "Click the related tab on the far right of the menu bar."
 msgstr ""
+"Hacer clic en la solapa apropiada, hacia la derecha de la barra de menúes."
 
 #: ../../source/interface_overview.rst:27
 msgid "**To name a room:**"
-msgstr ""
+msgstr "**Para renombrar un espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:29
 msgid "Double-click the tab and type the name you want to assign to the room."
 msgstr ""
+"Hacer doble clic sobre la solapa correspondiente e ingresar el nombre que se "
+"desea asignar al espacio de trabajo."
 
 #: ../../source/interface_overview.rst:31
 msgid "**To order room tabs:**"
-msgstr ""
+msgstr "**Para cambiar el orden de las solapas:**"
 
 #: ../../source/interface_overview.rst:33
 msgid "Click and drag the tab to the new position."
-msgstr ""
+msgstr "Hacer clic y arrastrar la solapa hasta la nueva posición."
 
 #: ../../source/interface_overview.rst:35
 msgid "**To add a new room:**"
-msgstr ""
+msgstr "**Para agregar un nuevo espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:37
 msgid ""
-"Right-click in the room tab area and choose New Room from the menu that "
-"opens."
+"Right-click in the room tab area and choose New Room from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre una de las solapas y escoger la opción Nuevo espacio "
+"de trabajo desde el menú."
 
 #: ../../source/interface_overview.rst:39
 msgid "**To delete a room:**"
-msgstr ""
+msgstr "**Para borrar un espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:41
 msgid ""
-"Right-click the room tab and choose Delete Room \"<Name>\" from the menu "
-"that opens. The current room cannot be deleted."
+"Right-click the room tab and choose Delete Room \"<Name>\" from the menu that "
+"opens. The current room cannot be deleted."
 msgstr ""
+"Hacer clic derecho sobre la solapa del espacio de trabajo y escoger la opción "
+"Borrar espacio de trabajo \"<nombre>\" desde el menú. No es posible borrar el "
+"espacio de trabajo activo."
 
 #: ../../source/interface_overview.rst:43
 msgid "**To return to the set of rooms provided with Toonz:**"
-msgstr ""
+msgstr "**Para restablecer los espacios de trabajo predefinidos de OpenToonz:**"
 
 #: ../../source/interface_overview.rst:45
 msgid "Choose Windows > Reset to Default Rooms."
-msgstr ""
+msgstr "Elegir la opción Ventanas > Restablecer espacios de trabajo."
 
 #: ../../source/interface_overview.rst:51
 msgid "Customizing Rooms"
-msgstr ""
+msgstr "Personalizando los Espacios de Trabajo"
 
 #: ../../source/interface_overview.rst:52
 msgid ""
-"Rooms can be modified by setting different sizes to different panes, and "
-"adding or removing panes. To prevent the accidental addition or removal "
-"of panes, rooms configuration can be locked."
+"Rooms can be modified by setting different sizes to different panes, and adding "
+"or removing panes. To prevent the accidental addition or removal of panes, "
+"rooms configuration can be locked."
 msgstr ""
+"Es posible modificar los espacios de trabajo redimensionando los distintos "
+"paneles que lo componen, quitando o agregando nuevos. Para prevenir cambios no "
+"deseados a los espacios de trabajo, es posible bloquearlos."
 
 #: ../../source/interface_overview.rst:54
 msgid ""
-"Most of the panes can be maximized to fill the full interface, and can be"
-" added as floating windows by using the Windows menu."
+"Most of the panes can be maximized to fill the full interface, and can be added "
+"as floating windows by using the Windows menu."
 msgstr ""
+"Casi todos los paneles pueden ser maximizados para abarcar la interfaz por "
+"completo, así como es posible agregarlos como ventanas flotantes, usando el "
+"menú Ventanas."
 
 #: ../../source/interface_overview.rst:57
 msgid "**To resize a pane in the room:**"
-msgstr ""
+msgstr "**Para redimensionar un panel del espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:59
 msgid ""
-"Click any vertical or horizontal separator and drag it to the new "
-"position."
+"Click any vertical or horizontal separator and drag it to the new position."
 msgstr ""
+"Hacer clic sobre un separador vertical u horizontal y arrastrarlo hacia la "
+"nueva posición."
 
 #: ../../source/interface_overview.rst:61
 msgid ""
-"Some panes like the toolbar and the level strip have some fixed size, "
-"therefore they cannot be resized."
+"Some panes like the toolbar and the level strip have some fixed size, therefore "
+"they cannot be resized."
 msgstr ""
+"Algunos paneles, como la Barra de herramientas y la Cinta de nivel tienen un "
+"tamaño fijo, por lo tanto no es posible modificarlos."
 
 #: ../../source/interface_overview.rst:63
 msgid "**To open a pane as a floating window:**"
-msgstr ""
+msgstr "**Para abrir un panel como una ventana flotante:**"
 
 #: ../../source/interface_overview.rst:65
 msgid "Select in the Windows menu the pane you want to open."
-msgstr ""
+msgstr "Seleccionar en el menú Ventanas el panel que se desea abrir."
 
 #: ../../source/interface_overview.rst:67
 msgid "**To resize a floating window:**"
-msgstr ""
+msgstr "**Para redimensionar una ventana flotante:**"
 
 #: ../../source/interface_overview.rst:69
 msgid "Click and drag the border or corner of a window."
-msgstr ""
+msgstr "Hacer clic y arrastrar el borde o la esquina de la ventana."
 
 #: ../../source/interface_overview.rst:71
 msgid "**To close a floating window or a dialog:**"
-msgstr ""
+msgstr "**Para cerrar una ventana flotante o un diálogo:**"
 
 #: ../../source/interface_overview.rst:73
 msgid "Click the close button at the right of the title bar."
-msgstr ""
+msgstr "Hacer clic en el botón de cerrar, a la derecha de la barra de título."
 
 #: ../../source/interface_overview.rst:75
 msgid "**To add a pane to a room:**"
-msgstr ""
+msgstr "**Para agregar un panel a un espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:77
 msgid "Use the Windows menu to open the pane as a floating window."
-msgstr ""
+msgstr "Usar el menú Ventanas para abrir el panel como una ventana flotante."
 
 #: ../../source/interface_overview.rst:79
 msgid ""
-"Click and drag its title bar to move it around and release to dock it "
-"according to the highlighted insertion point."
+"Click and drag its title bar to move it around and release to dock it according "
+"to the highlighted insertion point."
 msgstr ""
+"Hacer clic y arrastrar su barra de título para moverlo y soltarlo de forma que "
+"quede encastrado de acuerdo al punto de inserción resaltado."
 
 #: ../../source/interface_overview.rst:81
 msgid ""
-"Trying to dock a pane to the leftmost/rightmost part of the interface may"
-" fail if the main OpenToonz window is maximized at that moment. To "
-"overcome this, you can restore the main window size, dock the desired "
-"pane, and then maximize it back."
+"Trying to dock a pane to the leftmost/rightmost part of the interface may fail "
+"if the main OpenToonz window is maximized at that moment. To overcome this, you "
+"can restore the main window size, dock the desired pane, and then maximize it "
+"back."
 msgstr ""
+"Es posible encontrar dificultades al intentar encastrar un panel en los "
+"extremos laterales de la interfaz, si la ventana principal de OpenToonz se "
+"encuentra maximizada en ese momento. Para solucionar esto, quitar la "
+"maximización de dicha ventana, encastrar el panel deseado y luego restaurar la "
+"maximización."
 
 #: ../../source/interface_overview.rst:83
 msgid "**To remove a pane from a room:**"
-msgstr ""
+msgstr "**Para remover un panel de un espacio de trabajo:**"
 
 #: ../../source/interface_overview.rst:85
 msgid ""
-"Click and drag the title bar of the pane you want to remove to undock it "
-"from the room."
+"Click and drag the title bar of the pane you want to remove to undock it from "
+"the room."
 msgstr ""
+"Hacer clic y arrastrar la barra de título del panel que se desea remover para "
+"dejarlo flotando como una ventana."
 
 #: ../../source/interface_overview.rst:87
 msgid "Close the floating window."
-msgstr ""
+msgstr "Cerrar la ventana."
 
 #: ../../source/interface_overview.rst:89
 msgid "**To maximize, or minimize a maximized pane:**"
-msgstr ""
+msgstr "**Para maximizar o minimizar un panel:**"
 
 #: ../../source/interface_overview.rst:91
 msgid "Double-click its title bar."
-msgstr ""
+msgstr "Hacer doble clic en su barra de título."
 
 #: ../../source/interface_overview.rst:93
 msgid ""
-"Some panes like the toolbar and the level strip have some fixed size, "
-"therefore they cannot be maximized."
+"Some panes like the toolbar and the level strip have some fixed size, therefore "
+"they cannot be maximized."
 msgstr ""
+"Algunos paneles, como la Barra de herramientas y la Cinta de nivel tienen un "
+"tamaño fijo, por lo tanto no pueden ser maximizados."
 
 #: ../../source/interface_overview.rst:95
 msgid "**To lock/unlock the rooms configuration:**"
 msgstr ""
+"**Para bloquear/desbloquear la configuración de los espacios de trabajo:**"
 
 #: ../../source/interface_overview.rst:97
 msgid "Activate/deactivate the Windows > Lock Room Panes option."
 msgstr ""
+"Activar/desactivar la opción Ventanas > Bloquear paneles del espacio de trabajo."
 
 #: ../../source/interface_overview.rst:103
 msgid "Room Panes"
-msgstr ""
+msgstr "Paneles de los Espacios de Trabajo"
 
 #: ../../source/interface_overview.rst:104
 msgid ""
-"Below there is a list of the panes (in the same order in which they "
-"appear in the Windows menu) that can be used to build rooms and that can "
-"be opened as floating windows."
+"Below there is a list of the panes (in the same order in which they appear in "
+"the Windows menu) that can be used to build rooms and that can be opened as "
+"floating windows."
 msgstr ""
+"Debajo hay una lista de los paneles (en el mismo orden en el que aparecen en el "
+"menú Ventanas) que pueden ser usados en la creación de espacios de trabajo y "
+"que pueden ser abiertos como ventanas flotantes."
 
 #: ../../source/interface_overview.rst:110
 msgid "Batch Servers"
-msgstr ""
+msgstr "Servidores de tareas"
 
 #: ../../source/interface_overview.rst:112
 msgid "|UI_batch|"
@@ -241,18 +284,22 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:114
 msgid ""
-"The Batch Servers window allows you to process the batch list by using "
-"the render farm, and contains information about the list of server "
-"(rendering) nodes defined for the farm."
+"The Batch Servers window allows you to process the batch list by using the "
+"render farm, and contains information about the list of server (rendering) "
+"nodes defined for the farm."
 msgstr ""
+"El panel Servidores de tareas permite procesar una lista de tareas usando la "
+"granja de procesamiento, también contiene información acerca de la lista de los "
+"nodos servidores (de procesamiento) definidos para la granja."
 
 #: ../../source/interface_overview.rst:116
 msgid "See  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  ."
 msgstr ""
+"Ver  :ref:`Monitoreo de nodos servidores <monitoring_the_server_nodes>`  ."
 
 #: ../../source/interface_overview.rst:122
 msgid "Cleanup Settings"
-msgstr ""
+msgstr "Opciones de limpieza"
 
 #: ../../source/interface_overview.rst:124
 msgid "|UI_cleanup|"
@@ -260,18 +307,22 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:126
 msgid ""
-"The Cleanup Settings pane allows you to define the parameters for the "
-"clean-up process of scanned raster images, in order to convert them into "
-"Toonz Raster images, ready to be painted in OpenToonz."
+"The Cleanup Settings pane allows you to define the parameters for the clean-up "
+"process of scanned raster images, in order to convert them into Toonz Raster "
+"images, ready to be painted in OpenToonz."
 msgstr ""
+"El panel Opciones de limpieza permite definir los parámetros para el proceso de "
+"limpieza de imágenes escaneadas, de manera de convertirlas en niveles de Imagen "
+"de Toonz, listos para ser pintados en OpenToonz."
 
 #: ../../source/interface_overview.rst:128
 msgid "See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ."
 msgstr ""
+"Ver  :ref:`Limpieza de dibujos escaneados <cleaning-up_scanned_drawings>`  ."
 
 #: ../../source/interface_overview.rst:134
 msgid "Color Model"
-msgstr ""
+msgstr "Modelo de color"
 
 #: ../../source/interface_overview.rst:136
 msgid "|UI_colormodel|"
@@ -279,17 +330,20 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:138
 msgid ""
-"The color model viewer displays the image, or animation level, you loaded"
-" as reference to paint the current animation level."
+"The color model viewer displays the image, or animation level, you loaded as "
+"reference to paint the current animation level."
 msgstr ""
+"El visor de modelo de color muestra la imagen o nivel de animación que ha sido "
+"cargado como una referenca para ayudar en el proceso de pintado del nivel de "
+"animación actual."
 
 #: ../../source/interface_overview.rst:140
 msgid "See  :ref:`Using a Color Model <using_a_color_model>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Uso del Modelo de color <using_a_color_model>`  ."
 
 #: ../../source/interface_overview.rst:146
 msgid "File Browser"
-msgstr ""
+msgstr "Explorador de archivos"
 
 #: ../../source/interface_overview.rst:148
 msgid "|UI_filebrowser|"
@@ -297,27 +351,36 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:150
 msgid ""
-"The file browser allows you to load and save files, and to access "
-"projects."
+"The file browser allows you to load and save files, and to access projects."
 msgstr ""
+"El explorador de archivos permite cargar y guardar archivos, así como acceder a "
+"los diferentes proyectos existentes."
 
 #: ../../source/interface_overview.rst:152
 msgid ""
-"On the left there is a file tree with some main folders containing "
-"material stored on your computer: My Computer, Network, My Documents, "
-"History, Library and Projects. You can open folders and sub-folders in "
-"order to retrieve files that are displayed in the area on the right."
+"On the left there is a file tree with some main folders containing material "
+"stored on your computer: My Computer, Network, My Documents, History, Library "
+"and Projects. You can open folders and sub-folders in order to retrieve files "
+"that are displayed in the area on the right."
 msgstr ""
+"Sobre la izquierda hay un árbol de carpetas mostrando las carpetas principales "
+"que contienen el material almacenado en el equipo: My Computer (Este equipo), "
+"Network (Red), My Documents (Documentos), History (Historial), Library "
+"(Biblioteca) y Project root (Carpeta de proyectos). Es posible abrir carpetas y "
+"subcarpetas para tener acceso a archivos, que serán mostrados en el área de la "
+"derecha."
 
 #: ../../source/interface_overview.rst:154
 msgid ""
-"See  :ref:`Managing Projects <managing_projects>`  and  :ref:`Using the "
-"File Browser <using_the_file_browser>`  ."
+"See  :ref:`Managing Projects <managing_projects>`  and  :ref:`Using the File "
+"Browser <using_the_file_browser>`  ."
 msgstr ""
+"Ver  :ref:`Administración de proyectos <managing_projects>`  y  :ref:`Uso del "
+"Explorador de archivos <using_the_file_browser>`  ."
 
 #: ../../source/interface_overview.rst:160
 msgid "Flipbook"
-msgstr ""
+msgstr "Reproductor"
 
 #: ../../source/interface_overview.rst:162
 msgid "|UI_flipbook|"
@@ -325,18 +388,22 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:164
 msgid ""
-"The flipbook can display animation levels, clips or sequences of images. "
-"It can be used to check levels for instance before loading them, or to "
-"control a rendered sequence."
+"The flipbook can display animation levels, clips or sequences of images. It can "
+"be used to check levels for instance before loading them, or to control a "
+"rendered sequence."
 msgstr ""
+"El reproductor es capaz de mostrar los niveles de animación, clips de video o "
+"secuencias de imágenes. Puede ser usado, por ejemplo, para comprobar los "
+"niveles antes de cargarlos o para revisar una secuencia que acaba de ser "
+"procesada."
 
 #: ../../source/interface_overview.rst:166
 msgid "See  :ref:`Using the Flipbook <using_the_flipbook>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Uso del Reproductor <using_the_flipbook>`  ."
 
 #: ../../source/interface_overview.rst:172
 msgid "Function Editor"
-msgstr ""
+msgstr "Editor de funciones"
 
 #: ../../source/interface_overview.rst:174
 msgid "|UI_functioneditor|"
@@ -344,21 +411,29 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:176
 msgid ""
-"The function editor maps objects and FX transformations with key values "
-"and related interpolations by using a spreadsheet or a graph editor. It "
-"is divided into two sections: on the left there is an area where the "
-"spreadsheet or graph editor is displayed, on the right top is an area "
-"where the interpolation of the current transformation segment is "
-"displayed, and on the right bottom is the objects/FX tree."
+"The function editor maps objects and FX transformations with key values and "
+"related interpolations by using a spreadsheet or a graph editor. It is divided "
+"into two sections: on the left there is an area where the spreadsheet or graph "
+"editor is displayed, on the right top is an area where the interpolation of the "
+"current transformation segment is displayed, and on the right bottom is the "
+"objects/FX tree."
 msgstr ""
+"El Editor de funciones muestra la variación de las transformaciones de los "
+"objetos y de los efectos, permitiendo controlar sus fotogramas clave e "
+"interpolaciones por medio de una Planilla de tiempos o un Editor de gráficas. "
+"Se encuentra dividido en dos secciones: a la izquierda hay un área donde se "
+"muestra la Planilla de tiempos o el Editor de gráficas, en la sección superior-"
+"derecha un área donde se puede controlar la interpolación del segmento actual "
+"de animación, y en la sección inferior-derecha se encuentra el árbol de objetos/"
+"efectos."
 
 #: ../../source/interface_overview.rst:178
 msgid "See  :ref:`Using the Function Editor <using_the_function_editor>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Uso del Editor de funciones <using_the_function_editor>`  ."
 
 #: ../../source/interface_overview.rst:184
 msgid "Level Strip"
-msgstr ""
+msgstr "Cinta de nivel"
 
 #: ../../source/interface_overview.rst:186
 msgid "|UI_levelstrip|"
@@ -369,21 +444,24 @@ msgid ""
 "The level strip displays the sequence of drawings belonging to the level "
 "currently selected in the Xsheet."
 msgstr ""
+"La Cinta de nivel muestra la secuencia de dibujos pertenecientes al nivel "
+"actualmente seleccionado en la Planilla o la Línea de tiempo."
 
 #: ../../source/interface_overview.rst:190
 msgid ""
-"It helps you to edit the sequence of drawings and to see all the drawings"
-" of the current level, even if those drawings are not exposed in a "
-"Xsheet."
+"It helps you to edit the sequence of drawings and to see all the drawings of "
+"the current level, even if those drawings are not exposed in a Xsheet."
 msgstr ""
+"Ayuda a editar la secuencia de dibujos y permite ver todos los dibujos del "
+"nivel actual, aunque no se encuentren expuestos en una Planilla/Línea de tiempo."
 
 #: ../../source/interface_overview.rst:192
 msgid "See  :ref:`Editing Animation Levels <editing_animation_levels>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Edición de niveles de animación <editing_animation_levels>`  ."
 
 #: ../../source/interface_overview.rst:198
 msgid "Palette"
-msgstr ""
+msgstr "Paleta"
 
 #: ../../source/interface_overview.rst:200
 msgid "|UI_palette|"
@@ -391,17 +469,19 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:202
 msgid ""
-"It displays the styles defined for the current level, or in case it is "
-"inactive the styles defined for a previously selected level."
+"It displays the styles defined for the current level, or in case it is inactive "
+"the styles defined for a previously selected level."
 msgstr ""
+"Muestra los estilos definidos en el nivel actual o, en caso de encontrarse "
+"inactiva, los estilos de un nivel seleccionado con anterioridad."
 
 #: ../../source/interface_overview.rst:204
 msgid "See  :ref:`The Palette Window <the_palette_window>`  ."
-msgstr ""
+msgstr "Ver  :ref:`La ventana de paleta <the_palette_window>`  ."
 
 #: ../../source/interface_overview.rst:210
 msgid "Scene Cast"
-msgstr ""
+msgstr "Componentes de la escena"
 
 #: ../../source/interface_overview.rst:212
 msgid "|UI_scenecast|"
@@ -409,17 +489,20 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:214
 msgid ""
-"The scene cast pane lets you control the files loaded in the scene, save "
-"them and load new ones. It can be organized in folders and sub-folders."
+"The scene cast pane lets you control the files loaded in the scene, save them "
+"and load new ones. It can be organized in folders and sub-folders."
 msgstr ""
+"El panel Componentes de la escena permite controlar los archivos cargados en la "
+"escena, guardarlos y cargar nuevos. Puede ser organizado en carpetas y "
+"subcarpetas."
 
 #: ../../source/interface_overview.rst:216
 msgid "See  :ref:`Using the Scene Cast <using_the_scene_cast>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Uso de Componentes de la escena <using_the_scene_cast>`  ."
 
 #: ../../source/interface_overview.rst:222
 msgid "Schematic"
-msgstr ""
+msgstr "Diagrama"
 
 #: ../../source/interface_overview.rst:224
 msgid "|UI_schematic|"
@@ -427,34 +510,45 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:226
 msgid ""
-"The schematic can alternatively display stage information or special FX "
-"usage."
+"The schematic can alternatively display stage information or special FX usage."
 msgstr ""
+"El Diagrama puede mostrar de forma alternativa información de la escena o del "
+"uso de efectos especiales."
 
 #: ../../source/interface_overview.rst:228
 msgid ""
-"The stage schematic displays as nodes all the objects defined in a scene,"
-" i.e. columns, pegbars, cameras, the table and motion paths, and allows "
-"you to manage the way they are linked to each other."
+"The stage schematic displays as nodes all the objects defined in a scene, i.e. "
+"columns, pegbars, cameras, the table and motion paths, and allows you to manage "
+"the way they are linked to each other."
 msgstr ""
+"El Diagrama de escenario muestra, en forma de nodos, todos los objetos "
+"definidos en la escena, p.ej: columnas, barras de sujeción, cámaras, la mesa, "
+"trayectorias de movimiento, y también permite administrar la forma en que éstos "
+"se vinculan entre sí."
 
 #: ../../source/interface_overview.rst:230
 msgid ""
-"The FX schematic allows you to apply FX to the content of Xsheet columns,"
-" and to manage the way they are applied. All the columns and FX are "
-"displayed as nodes that can be connected in order to set the way FX "
-"affect the scene content."
+"The FX schematic allows you to apply FX to the content of Xsheet columns, and "
+"to manage the way they are applied. All the columns and FX are displayed as "
+"nodes that can be connected in order to set the way FX affect the scene content."
 msgstr ""
+"El Diagrama de efectos permite aplicar efectos al contenido de las columnas/"
+"capas de la Planilla/Línea de tiempo, y administrar la forma en que éstos se "
+"aplican. Todas las columnas/capas y los efectos se muestran como nodos que "
+"pueden ser conectados entre sí, de manera de definir la forma en la que los "
+"efectos afectarán al contenido de la escena."
 
 #: ../../source/interface_overview.rst:232
 msgid ""
-"See  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  "
-":ref:`Using the FX Schematic <using_the_fx_schematic>`  ."
+"See  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  :ref:"
+"`Using the FX Schematic <using_the_fx_schematic>`  ."
 msgstr ""
+"Ver  :ref:`Uso del Diagrama de escenario <using_the_stage_schematic>`  y  :ref:"
+"`Uso del Diagrama de efectos <using_the_fx_schematic>`  ."
 
 #: ../../source/interface_overview.rst:238
 msgid "Studio Palette"
-msgstr ""
+msgstr "Paleta de estudio"
 
 #: ../../source/interface_overview.rst:240
 msgid "|UI_studiopalette|"
@@ -462,20 +556,24 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:242
 msgid ""
-"The studio palette allows you to store an unlimited number of level "
-"palettes. From here any palette can be retrieved and assigned to the "
-"current level in order to paint it, with no need to define the same "
-"styles again and again. It also includes a viewer displaying the styles "
-"of the currently selected palette."
+"The studio palette allows you to store an unlimited number of level palettes. "
+"From here any palette can be retrieved and assigned to the current level in "
+"order to paint it, with no need to define the same styles again and again. It "
+"also includes a viewer displaying the styles of the currently selected palette."
 msgstr ""
+"La Paleta de estudio permite almacenar una cantidad ilimitada de paletas de "
+"nivel. Desde aquí es posible recuperar cualquier paleta y asignarla al nivel "
+"actual para pintarlo con sus colores, sin necesidad de volver a definir los "
+"mismos estilos una y otra vez. También incluye un visor para mostrar los "
+"estilos de la paleta seleccionada."
 
 #: ../../source/interface_overview.rst:244
 msgid "See  :ref:`Using the Studio Palette <using_the_studio_palette>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Uso de la Paleta de estudio <using_the_studio_palette>`  ."
 
 #: ../../source/interface_overview.rst:250
 msgid "Style Editor"
-msgstr ""
+msgstr "Editor de estilos"
 
 #: ../../source/interface_overview.rst:252
 msgid "|UI_styleeditor|"
@@ -483,18 +581,22 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:254
 msgid ""
-"The style editor allows you to modify the palette styles. You can choose "
-"the type of style among color, texture, vector and raster. There also is "
-"a settings tab where you can decide some parameters for the style."
+"The style editor allows you to modify the palette styles. You can choose the "
+"type of style among color, texture, vector and raster. There also is a settings "
+"tab where you can decide some parameters for the style."
 msgstr ""
+"El Editor de estilos permite modificar los estilos de una paleta. Es posible "
+"escoger los tipos de estilos entre: color, texturas, vectoriales o pinceles. "
+"También contiene una solapa de opciones donde es posible cambiar algunos "
+"parámetros para el estilo escogido."
 
 #: ../../source/interface_overview.rst:256
 msgid "See  :ref:`Editing Styles <editing_styles>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Edición de estilos <editing_styles>`  ."
 
 #: ../../source/interface_overview.rst:262
 msgid "Tasks"
-msgstr ""
+msgstr "Tareas"
 
 #: ../../source/interface_overview.rst:264
 msgid "|UI_tasks|"
@@ -502,21 +604,26 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:266
 msgid ""
-"The Tasks window contains the task tree with all the tasks submitted to "
-"the batch processing, and information about the task currently selected "
-"in the tree. From the task tree you can start or stop a task execution, "
-"or remove it."
+"The Tasks window contains the task tree with all the tasks submitted to the "
+"batch processing, and information about the task currently selected in the "
+"tree. From the task tree you can start or stop a task execution, or remove it."
 msgstr ""
+"La ventana de Tareas contiene el árbol de tareas con todas las tareas enviadas "
+"para ser procesadas, así como información acerca de la tarea actualmente "
+"seleccionada en el árbol. Desde el árbol de tareas es posible iniciar o detener "
+"la ejecución las mismas, así como eliminarlas."
 
 #: ../../source/interface_overview.rst:268
 msgid ""
 "See  :ref:`Managing and Executing Render Tasks "
 "<managing_and_executing_render_tasks>`  ."
 msgstr ""
+"Ver  :ref:`Administración y ejecución de tareas "
+"<managing_and_executing_render_tasks>`  ."
 
 #: ../../source/interface_overview.rst:274
 msgid "Message Center"
-msgstr ""
+msgstr "Centro de mensajes"
 
 #: ../../source/interface_overview.rst:276
 msgid "|UI_messagecenter|"
@@ -524,15 +631,19 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:278
 msgid ""
-"The message center displays in a list the messages OpenToonz is sending "
-"to the user. You can set filters on the messages showed in the window "
-"using the appropriate radio buttons, or you can clear completely the list"
-" pressing the Clear button."
+"The message center displays in a list the messages OpenToonz is sending to the "
+"user. You can set filters on the messages showed in the window using the "
+"appropriate radio buttons, or you can clear completely the list pressing the "
+"Clear button."
 msgstr ""
+"El Centro de mensajes muestra una lista con los mensajes que OpenToonz va "
+"enviando al usuario. Es posible establecer filtrar los mensajes mostrados, "
+"usando las opciones para ese fin, también es posible limpiar la lista "
+"completamente usando el botón Limpiar."
 
 #: ../../source/interface_overview.rst:284
 msgid "Toolbar"
-msgstr ""
+msgstr "Barra de herramientas"
 
 #: ../../source/interface_overview.rst:286
 msgid "|UI_toolbar|"
@@ -540,181 +651,251 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:288
 msgid ""
-"The toolbar contains tools to draw, select and edit drawings, and to "
-"animate objects like the camera, columns and pegbars. The tools in the "
-"toolbar can only be used in the main viewer."
+"The toolbar contains tools to draw, select and edit drawings, and to animate "
+"objects like the camera, columns and pegbars. The tools in the toolbar can only "
+"be used in the main viewer."
 msgstr ""
+"La Barra de herramientas contiene herramientas para dibujar, seleccionar y "
+"editar dibujos, así como para animar objetos como cámaras, columnas/capas y "
+"barras de sujeción. Las herramientas presentes en la barra sólo pueden ser "
+"usadas en el visor principal."
 
 #: ../../source/interface_overview.rst:290
 msgid ""
-"If the toolbar is too short to display all the tools, it can be scrolled "
-"by using arrow buttons available at its ends."
+"If the toolbar is too short to display all the tools, it can be scrolled by "
+"using arrow buttons available at its ends."
 msgstr ""
+"Si la barra fuera muy corta como para mostrar todas las herramientas, es "
+"posible desplazarla usando los botones con flechas en sus extremos."
 
 #: ../../source/interface_overview.rst:292
 msgid ""
-"|animate| **Animate** modifies the position, rotation and size of the "
-"current objects (see  :ref:`Animating Objects <animating_objects>`  )."
+"|animate| **Animate** modifies the position, rotation and size of the current "
+"objects (see  :ref:`Animating Objects <animating_objects>`  )."
 msgstr ""
+"|animate| **Animar** permite modificar la posición, rotación y escala del "
+"objeto actual (ver  :ref:`Animación de objetos <animating_objects>`  )."
 
 #: ../../source/interface_overview.rst:297
 msgid ""
-"|selection| **Selection** performs a selection and transforms it (see  "
-":ref:`Using the Selection Tool <using_the_selection_tool>`  )."
+"|selection| **Selection** performs a selection and transforms it (see  :ref:"
+"`Using the Selection Tool <using_the_selection_tool>`  )."
 msgstr ""
+"|selection| **Seleccionar** permite seleccionar y transformar elementos de la "
+"escena (ver  :ref:`Uso de herramienta Seleccionar "
+"<using_the_selection_tool>`  )."
 
 #: ../../source/interface_overview.rst:302
 msgid ""
-"|brush| **Brush** draws in the work area in freehand mode (see  "
-":ref:`Drawing with the Brush Tool <drawing_with_the_brush_tool>`  )."
+"|brush| **Brush** draws in the work area in freehand mode (see  :ref:`Drawing "
+"with the Brush Tool <drawing_with_the_brush_tool>`  )."
 msgstr ""
+"|brush| **Pincel** permite dibujar a mano alzada (ver  :ref:`Dibujo con la "
+"herramienta Pincel <drawing_with_the_brush_tool>`  )."
 
 #: ../../source/interface_overview.rst:307
 msgid ""
-"|geometric| **Geometric** draws geometric shapes (see  :ref:`Drawing with"
-" the Geometric Tool <drawing_with_the_geometric_tool>`  )."
+"|geometric| **Geometric** draws geometric shapes (see  :ref:`Drawing with the "
+"Geometric Tool <drawing_with_the_geometric_tool>`  )."
 msgstr ""
+"|geometric| **Geometría** permite dibujar figuras geométricas y crear curvas "
+"manualmente (ver  :ref:`Dibujo con la herramienta Geometría "
+"<drawing_with_the_geometric_tool>`  )."
 
 #: ../../source/interface_overview.rst:312
 msgid ""
-"|type| **Type** adds text by setting the font and size (see  :ref:`Adding"
-" Text <adding_text>`  )."
+"|type| **Type** adds text by setting the font and size (see  :ref:`Adding Text "
+"<adding_text>`  )."
 msgstr ""
+"|type| **Texto** permite agregar texto, estableciendo el tipo de letra y tamaño "
+"(ver  :ref:`Uso de Texto <adding_text>`  )."
 
 #: ../../source/interface_overview.rst:317
 msgid ""
-"|fill| **Fill** fills drawing areas with the current style (see  "
-":ref:`Filling Areas <filling_areas>`  )."
+"|fill| **Fill** fills drawing areas with the current style (see  :ref:`Filling "
+"Areas <filling_areas>`  )."
 msgstr ""
+"|fill| **Rellenar** permite rellenar áreas de un dibujo con el estilo actual "
+"(ver  :ref:`Relleno de áreas <filling_areas>`  )."
 
 #: ../../source/interface_overview.rst:322
 msgid ""
-"|paint_brush| **Paint Brush** paints lines and areas in Toonz raster "
-"drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  )."
+"|paint_brush| **Paint Brush** paints lines and areas in Toonz raster drawings "
+"in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  )."
 msgstr ""
+"|paint_brush| **Brocha** permite pintar líneas y áreas a mano alzada en niveles "
+"Toonz Raster. (ver  :ref:`Relleno de áreas <filling_areas>`  )."
 
 #: ../../source/interface_overview.rst:327
 msgid ""
-"|eraser| **Eraser** deletes vectors in vector drawings, and painted areas"
-" and lines in raster drawings (see  :ref:`Drawing Tools <drawing_tools>`"
-"  )."
+"|eraser| **Eraser** deletes vectors in vector drawings, and painted areas and "
+"lines in raster drawings (see  :ref:`Drawing Tools <drawing_tools>`  )."
 msgstr ""
+"|eraser| **Borrador** permite borrar trazos vectoriales, así como líneas y "
+"áreas pintadas en todo tipo de niveles (ver  :ref:`Herramientas de dibujo "
+"<drawing_tools>`  )."
 
 #: ../../source/interface_overview.rst:332
 msgid ""
-"|tape| **Tape** joins two open ends of one or two vectors in vector "
-"drawings, or closes gaps in raster drawings (see  :ref:`Joining and "
-"Splitting <joining_and_splitting>`  )."
+"|tape| **Tape** joins two open ends of one or two vectors in vector drawings, "
+"or closes gaps in raster drawings (see  :ref:`Joining and Splitting "
+"<joining_and_splitting>`  )."
 msgstr ""
+"|tape| **Cinta** permite unir dos extremos abiertos de uno o dos trazos "
+"vectoriales, o cerrar huecos en niveles de imagen (ver  :ref:`Unión y división "
+"<joining_and_splitting>`  )."
 
 #: ../../source/interface_overview.rst:337
 msgid ""
-"|style_picker| **Style Picker** picks a style from the current drawing, "
-"that becomes the current style in the palette and in the style editor."
+"|style_picker| **Style Picker** picks a style from the current drawing, that "
+"becomes the current style in the palette and in the style editor."
 msgstr ""
+"|style_picker| **Selector de estilos** permite escoger un estilo desde el nivel "
+"actual, que se convertirá en el estilo actual en la Paleta y en el Editor de "
+"estilos."
 
 #: ../../source/interface_overview.rst:342
 msgid ""
-"|RGB_picker| **RGB Picker** picks red, green and blue values from the "
-"viewer content, and applies them to the current style (see  :ref:`Plain "
-"Colors <plain_colors>`  )."
+"|RGB_picker| **RGB Picker** picks red, green and blue values from the viewer "
+"content, and applies them to the current style (see  :ref:`Plain Colors "
+"<plain_colors>`  )."
 msgstr ""
+"|RGB_picker| **Selector de color** permite escoger valores de color desde el "
+"visor y lo aplica al estilo actual (ver  :ref:`Colores plenos "
+"<plain_colors>`  )."
 
 #: ../../source/interface_overview.rst:347
 msgid ""
-"|cpe| **Control Point Editor** modifies the vector shape by editing its "
-"control points (see  :ref:`Editing Vector Control Points "
+"|cpe| **Control Point Editor** modifies the vector shape by editing its control "
+"points (see  :ref:`Editing Vector Control Points "
 "<editing_vector_control_points>`  )."
 msgstr ""
+"|cpe| **Editar puntos de control** permite modificar trazos vectoriales, "
+"editando sus puntos de control (ver  :ref:`Edición de puntos de control "
+"<editing_vector_control_points>`  )."
 
 #: ../../source/interface_overview.rst:352
 msgid ""
-"|pinch| **Pinch** modifies the vector shape by clicking and dragging "
-"anywhere on the vector (see  :ref:`Changing the Bend of Vectors "
+"|pinch| **Pinch** modifies the vector shape by clicking and dragging anywhere "
+"on the vector (see  :ref:`Changing the Bend of Vectors "
 "<changing_the_bend_of_vectors>`  )."
 msgstr ""
+"|pinch| **Pellizcar** permite modificar la forma de un trazo vectorial, "
+"haciendo clic y arrastrando sobre el mismo (ver  :ref:`Cambio de curvatura de "
+"trazos vectoriales <changing_the_bend_of_vectors>`  )."
 
 #: ../../source/interface_overview.rst:357
 msgid ""
 "|pump| **Pump** locally modifies the vector thickness by clicking on the "
-"section you want to affect and then dragging up or down (see  :ref:`Using"
-" Other Modifier Tools <using_other_modifier_tools>`  )."
+"section you want to affect and then dragging up or down (see  :ref:`Using Other "
+"Modifier Tools <using_other_modifier_tools>`  )."
 msgstr ""
+"|pump| **Inflar** permite modificar localmente el grosor en trazos vectoriales, "
+"haciendo clic en la sección que se desea afectar y arrastrando hacia arriba o "
+"abajo (ver  :ref:`Uso de otras herramientas de modificación "
+"<using_other_modifier_tools>`  )."
 
 #: ../../source/interface_overview.rst:362
 msgid ""
-"|magnet| **Magnet** deforms several vectors at once by clicking the area "
-"you want to affect and dragging (see  :ref:`Using Other Modifier Tools "
+"|magnet| **Magnet** deforms several vectors at once by clicking the area you "
+"want to affect and dragging (see  :ref:`Using Other Modifier Tools "
 "<using_other_modifier_tools>`  )."
 msgstr ""
+"|magnet| **Imantar** permite deformar varios trazos vectoriales al mismo "
+"tiempo, haciendo clic en el área que se desea afectar y arrastrando (ver  :ref:"
+"`Uso de otras herramientas de modificación <using_other_modifier_tools>`  )."
 
 #: ../../source/interface_overview.rst:367
 msgid ""
-"|bender| **Bender** bends vectors in vector drawings (see  :ref:`Using "
-"Other Modifier Tools <using_other_modifier_tools>`  )."
+"|bender| **Bender** bends vectors in vector drawings (see  :ref:`Using Other "
+"Modifier Tools <using_other_modifier_tools>`  )."
 msgstr ""
+"|bender| **Doblar** permite doblar trazos vectoriales (ver  :ref:`Uso de otras "
+"herramientas de modificación <using_other_modifier_tools>`  )."
 
 #: ../../source/interface_overview.rst:372
 msgid ""
-"|iron| **Iron** removes creases from vectors by moving the cursor on the "
-"vector you want to flatten (see  :ref:`Using Other Modifier Tools "
+"|iron| **Iron** removes creases from vectors by moving the cursor on the vector "
+"you want to flatten (see  :ref:`Using Other Modifier Tools "
 "<using_other_modifier_tools>`  )."
 msgstr ""
+"|iron| **Planchar** elimina pliegues en trazos vectoriales, arrastrando el "
+"cursor sobre el trazo que se desea aplanar (ver  :ref:`Uso de otras "
+"herramientas de modificación <using_other_modifier_tools>`  )."
 
 #: ../../source/interface_overview.rst:377
 msgid ""
-"|cutter| **Cutter** splits a vector in two sections when clicking on it "
-"(see  :ref:`Joining and Splitting <joining_and_splitting>`  )."
+"|cutter| **Cutter** splits a vector in two sections when clicking on it (see  :"
+"ref:`Joining and Splitting <joining_and_splitting>`  )."
 msgstr ""
+"|cutter| **Cortar** permite dividir un trazo vectorial en dos secciones, al "
+"hacer clic sobre el mismo (ver  :ref:`Unión y división "
+"<joining_and_splitting>`  )."
 
 #: ../../source/interface_overview.rst:382
 msgid ""
-"|skeleton| **Skeleton** defines character models, and animates them as in"
-" cutout animation (see  :ref:`Using the Skeleton Tool "
+"|skeleton| **Skeleton** defines character models, and animates them as in "
+"cutout animation (see  :ref:`Using the Skeleton Tool "
 "<using_the_skeleton_tool>`  )"
 msgstr ""
+"|skeleton| **Esqueleto** permite definir modelos de personajes y animarlos como "
+"si fuera una animación de recortes (ver  :ref:`Uso de la herramienta Esqueleto "
+"<using_the_skeleton_tool>`  )"
 
 #: ../../source/interface_overview.rst:387
 msgid ""
-"|hook| **Hook** defines reference points to be used in the stage "
-"schematic to move an object, or link one object to another (see  "
-":ref:`Using Hooks <using_hooks>`  )."
+"|hook| **Hook** defines reference points to be used in the stage schematic to "
+"move an object, or link one object to another (see  :ref:`Using Hooks "
+"<using_hooks>`  )."
 msgstr ""
+"|hook| **Enganche** permite definir puntos de referencia para ser usados en el "
+"Diagrama de escenario para mover objetos o vincular objetos entre sí (ver  :ref:"
+"`Uso de Enganches <using_hooks>`  )."
 
 #: ../../source/interface_overview.rst:392
 msgid ""
-"|tracker| **Tracker** tracks specific regions in a sequence of images "
-"(see  :ref:`Tracking Points <tracking_points>`  )."
+"|tracker| **Tracker** tracks specific regions in a sequence of images (see  :"
+"ref:`Tracking Points <tracking_points>`  )."
 msgstr ""
+"|tracker| **Punto de rastreo** permite rastrear regiones específicas en una "
+"secuencia de imágenes (ver  :ref:`Rastreo de puntos <tracking_points>`  )."
 
 #: ../../source/interface_overview.rst:397
 msgid ""
 "|plastic| **Plastic** builds a mesh that allows to deform and animate a "
-"character or part of it (see  :ref:`Using Plastic tool "
-"<using_plastic_tool>`  )."
+"character or part of it (see  :ref:`Using Plastic tool <using_plastic_tool>`  )."
 msgstr ""
+"|plastic| **Plástico** permite construir una malla poligonal para deformar y "
+"animar un personaje completo o una parte de él (ver  :ref:`Uso de la "
+"herramienta Plastico <using_plastic_tool>`  )."
 
 #: ../../source/interface_overview.rst:402
 msgid ""
-"|zoom| **Zoom** zooms in and out the viewer content; after you click you "
-"can drag up to zoom in the work area, or drag down to zoom out."
+"|zoom| **Zoom** zooms in and out the viewer content; after you click you can "
+"drag up to zoom in the work area, or drag down to zoom out."
 msgstr ""
+"|zoom| **Zoom** permite acercar o alejar el contenido del visor arrastrando "
+"hacia arriba para acercar o hacia abajo para alejar."
 
 #: ../../source/interface_overview.rst:407
 msgid ""
-"|hand| **Hand** pans over the viewer content; if the 3D view is "
-"activated, the Hand tool lets you pan over the 3D view as well."
+"|hand| **Hand** pans over the viewer content; if the 3D view is activated, the "
+"Hand tool lets you pan over the 3D view as well."
 msgstr ""
+"|hand| **Desplazar** permite desplazar el contenido del visor; cuando se "
+"encuentra activa la vista 3D, también permite desplazamientos en 3D."
 
 #: ../../source/interface_overview.rst:412
 msgid ""
-"|rotate| **Rotate** rotates the viewer content; if the 3D view is "
-"activated, the Rotate tool lets you change the point of view."
+"|rotate| **Rotate** rotates the viewer content; if the 3D view is activated, "
+"the Rotate tool lets you change the point of view."
 msgstr ""
+"|rotate| **Rotar** permite rotar el contenido del visor; cuando se encuentra "
+"activa la vista 3D, permite cambiar el punto de vista."
 
 #: ../../source/interface_overview.rst:418
 msgid "Tool Options Bar"
-msgstr ""
+msgstr "Barra de opciones de herramientas"
 
 #: ../../source/interface_overview.rst:420
 msgid "|UI_tooloptionsbar|"
@@ -722,25 +903,31 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:422
 msgid ""
-"The tool options bar displays settings for the current tool, if it has "
-"any."
+"The tool options bar displays settings for the current tool, if it has any."
 msgstr ""
+"La barra de opciones de herramientas muestra las opciones de la herramienta "
+"actual, si es que hubiera una activa."
 
 #: ../../source/interface_overview.rst:424
 msgid ""
-"For example it lets you set the thickness and other properties of the "
-"Brush tool."
+"For example it lets you set the thickness and other properties of the Brush "
+"tool."
 msgstr ""
+"Por ejemplo, permite definir el Tamaño y otras propiedades en la herramienta "
+"Pincel."
 
 #: ../../source/interface_overview.rst:426
 msgid ""
-"If the tool options bar is too short to display all the tool options, it "
-"can be scrolled by using arrow buttons available at its ends."
+"If the tool options bar is too short to display all the tool options, it can be "
+"scrolled by using arrow buttons available at its ends."
 msgstr ""
+"Si la barra de opciones de herramientas fuera muy corta como para mostrar todas "
+"las opciones, es posible desplazarla usando los botones con flechas en los "
+"extremos de la misma."
 
 #: ../../source/interface_overview.rst:432
 msgid "Command Bar"
-msgstr ""
+msgstr "Barra de comandos"
 
 #: ../../source/interface_overview.rst:434
 msgid "|UI_commandbar|"
@@ -748,42 +935,53 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:436
 msgid ""
-"The Command Bar is a place where the user can display favorite OpenToonz "
-"tools and commands to have them readily available."
+"The Command Bar is a place where the user can display favorite OpenToonz tools "
+"and commands to have them readily available."
 msgstr ""
+"La Barra de comandos es un lugar en donde el usuario puede colocar sus "
+"herramientas y comandos favoritos de OpenToonz, para tenerlos rápidamente a su "
+"disposición en la interfaz."
 
 #: ../../source/interface_overview.rst:438
 msgid "The Command Bar pane can be docked in any part of the OpenToonz UI."
 msgstr ""
+"El panel de la Barra de comandos puede ser encastrado en cualquier parte de la "
+"interfaz de OpenToonz."
 
 #: ../../source/interface_overview.rst:440
 msgid ""
-"If the Command Bar is too short to display all the command buttons, a "
-"double-arrow symbol will appear at the right end of it, allowing to "
-"display a drop down menu with the rest of them."
+"If the Command Bar is too short to display all the command buttons, a double-"
+"arrow symbol will appear at the right end of it, allowing to display a drop "
+"down menu with the rest of them."
 msgstr ""
+"Si la Barra de comandos fuera muy corta como para mostrar todos los botones "
+"allí presentes, aparecerá un símbolo con una doble flecha en su extremo "
+"derecho, para permitir mostrar las opciones restantes en forma de menú "
+"desplegable."
 
 #: ../../source/interface_overview.rst:442
 msgid "**To display the Command Bar:**"
-msgstr ""
+msgstr "**Para mostrar la Barra de comandos:**"
 
 #: ../../source/interface_overview.rst:444
 msgid "Choose Windows > Command Bar."
-msgstr ""
+msgstr "Elegir Ventanas > Barra de comandos."
 
 #: ../../source/interface_overview.rst:446
 msgid "**To customize the Command Bar buttons:**"
-msgstr ""
+msgstr "**Para personalizar los botones de la Barra de comandos:**"
 
 #: ../../source/interface_overview.rst:448
 msgid "Choose Windows > Command Bar to open the Command Bar."
-msgstr ""
+msgstr "Elegir Ventanas > Barra de comandos para abrir la Barra de comandos."
 
 #: ../../source/interface_overview.rst:450
 msgid ""
-"Right click on it and select **Customize Command Bar** from the menu that"
-" opens. The Customize Command Bar window will open."
+"Right click on it and select **Customize Command Bar** from the menu that "
+"opens. The Customize Command Bar window will open."
 msgstr ""
+"Hacer clic derecho sobre ella y seleccionar **Personalizar barra de comandos** "
+"del menú. Se abrirá la ventana Personalizar barra de comandos."
 
 #: ../../source/interface_overview.rst:452
 msgid "|UI_commandbar_window|"
@@ -791,29 +989,39 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:454
 msgid ""
-"To *add* a command: Search for a command in the **Toolbar Items** list "
-"(right) and drag it to the **Command Bar** list (left)."
+"To *add* a command: Search for a command in the **Toolbar Items** list (right) "
+"and drag it to the **Command Bar** list (left)."
 msgstr ""
+"Para *agregar* un comando: Buscar un comando en la lista **Elementos de la "
+"barra de herramientas** (derecha) y arrastrarlo a la lista **Barra de "
+"comandos** (izquierda)."
 
 #: ../../source/interface_overview.rst:456
 msgid ""
-"To *add* a separator: At the end of the **Toolbar Items** list (right), "
-"drag the **----Separator----** item to the **Command Bar** list (left)."
+"To *add* a separator: At the end of the **Toolbar Items** list (right), drag "
+"the **----Separator----** item to the **Command Bar** list (left)."
 msgstr ""
+"Para *agregar* un separador: Al final de la lista **Elementos de la barra de "
+"herramientas** (Derecha), arrastrar el elemento **----Separador----** hacia la "
+"lista **Barra de comandos** (izquierda)."
 
 #: ../../source/interface_overview.rst:458
 msgid ""
-"To *delete* a command: Locate the command in the **Command Bar** list "
-"(left), right click on it and select **Remove** from the menu that opens."
+"To *delete* a command: Locate the command in the **Command Bar** list (left), "
+"right click on it and select **Remove** from the menu that opens."
 msgstr ""
+"Para *borrar* un comando: Ubicar el comando en la lista **Barra de comandos** "
+"(izquierda), hacer clic derecho sobre él y seleccionar **Remover** del menú."
 
 #: ../../source/interface_overview.rst:460
 msgid "Click **OK** to accept the changes or **Cancel** to discard them."
 msgstr ""
+"Hacer clic en **Aceptar** para aceptar los cambios o en **Cancelar** para "
+"descartarlos."
 
 #: ../../source/interface_overview.rst:466
 msgid "Viewer"
-msgstr ""
+msgstr "Visor"
 
 #: ../../source/interface_overview.rst:468
 msgid "|UI_viewer|"
@@ -821,28 +1029,33 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:470
 msgid ""
-"The viewer is the work area where you can draw images and see at the same"
-" time the result of your compositing. It is endless and you can scroll, "
-"zoom in, zoom out and rotate it the way you prefer."
+"The viewer is the work area where you can draw images and see at the same time "
+"the result of your compositing. It is endless and you can scroll, zoom in, zoom "
+"out and rotate it the way you prefer."
 msgstr ""
+"El Visor es el área de trabajo donde es posible dibujar imágenes y ver, al "
+"mismo tiempo, el resultado de la composición. Es infinito y es posible "
+"desplazarlo, acercarlo, alejarlo y rotarlo en la manera más conveniente."
 
-#: ../../source/interface_overview.rst:472
-#: ../../source/interface_overview.rst:487
+#: ../../source/interface_overview.rst:472 ../../source/interface_overview.rst:487
 msgid ""
-"It has different modes of visualization among which you can choose the "
-"more suitable to the operation you are performing."
+"It has different modes of visualization among which you can choose the more "
+"suitable to the operation you are performing."
 msgstr ""
+"Presenta varios modos distintos de visualización entre los que es posible "
+"elegir el más adecuado para las distintas operaciones que se estén realizando."
 
-#: ../../source/interface_overview.rst:474
-#: ../../source/interface_overview.rst:489
+#: ../../source/interface_overview.rst:474 ../../source/interface_overview.rst:489
 msgid ""
-"See  :ref:`Using the Viewer <using_the_work_area>`  and  :ref:`Previewing"
-" the Animation <previewing_the_animation>`  ."
+"See  :ref:`Using the Viewer <using_the_work_area>`  and  :ref:`Previewing the "
+"Animation <previewing_the_animation>`  ."
 msgstr ""
+"Ver  :ref:`Uso del visor <using_the_work_area>`  y  :ref:`Previsualización de "
+"animaciones <previewing_the_animation>`  ."
 
 #: ../../source/interface_overview.rst:480
 msgid "ComboViewer"
-msgstr ""
+msgstr "Visor compuesto"
 
 #: ../../source/interface_overview.rst:482
 msgid "|UI_comboviewer|"
@@ -850,16 +1063,20 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:484
 msgid ""
-"The comboviewer integrates in a single pane a viewer, horizontal toolbar "
-"and a tool options bar. It's and alternative work area where you can draw"
-" images and see at the same time the result of your compositing. It is "
-"endless and you can scroll, zoom in, zoom out and rotate it the way you "
-"prefer."
+"The comboviewer integrates in a single pane a viewer, horizontal toolbar and a "
+"tool options bar. It's and alternative work area where you can draw images and "
+"see at the same time the result of your compositing. It is endless and you can "
+"scroll, zoom in, zoom out and rotate it the way you prefer."
 msgstr ""
+"El Visor compuesto integra en un sólo panel un visor, una barra de herramientas "
+"horizontal y una barra de opciones de herramientas. Es un área alternativa de "
+"trabajo, donde es posible dibujar imágenes y ver, al mismo tiempo, el resultado "
+"de la composición. Es infinito y es posible desplazarlo, acercarlo, alejarlo y "
+"rotarlo en la manera más conveniente."
 
 #: ../../source/interface_overview.rst:495
 msgid "Xsheet"
-msgstr ""
+msgstr "Planilla"
 
 #: ../../source/interface_overview.rst:497
 msgid "|UI_xsheet|"
@@ -867,34 +1084,47 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:499
 msgid ""
-"The Xsheet allows you to manage the scene content, in the same manner as "
-"the timeline. It is organized in columns, and columns are divided into "
-"cells, representing the content of that column in that particular frame. "
-"In the columns you can load animation levels, clips, images, audio files "
-"or other Xsheets."
+"The Xsheet allows you to manage the scene content, in the same manner as the "
+"timeline. It is organized in columns, and columns are divided into cells, "
+"representing the content of that column in that particular frame. In the "
+"columns you can load animation levels, clips, images, audio files or other "
+"Xsheets."
 msgstr ""
+"La Planilla permite administrar el contenido de la escena, del mismo modos que "
+"la Línea de tiempo. Se encuentra organizada en columnas, y éstas a su vez están "
+"divididas en acetatos que representan al contenido de dicha columna en un "
+"fotograma determinado. En las columnas es posible cargar niveles de animación, "
+"clips de video, imágenes, archivos de sonido y otras Planillas."
 
 #: ../../source/interface_overview.rst:501
 msgid ""
-"Each column has its own header containing information about its content. "
-"The column on the far left displays the frame number, with a cursor "
-"placed on the current frame. The headers area and the frame column are "
-"always visible, even when scrolling the Xsheet area; in this way it's "
-"easier to understand how the scene is built."
+"Each column has its own header containing information about its content. The "
+"column on the far left displays the frame number, with a cursor placed on the "
+"current frame. The headers area and the frame column are always visible, even "
+"when scrolling the Xsheet area; in this way it's easier to understand how the "
+"scene is built."
 msgstr ""
+"Cada columna tiene su propio encabezado que contiene información acerca de su "
+"contenido. La columna del extremo izquierdo muestra los números de fotograma, "
+"con un cursor indicando el fotograma actual. El área del encabezado y la "
+"columna de fotogramas siempre se encuentran visibles, aún cuando se desplaza el "
+"área de la Planilla; de esta forma resulta sencillo entender cómo está creada "
+"la escena."
 
 #: ../../source/interface_overview.rst:503
 msgid "Frames are rendered reading images from left to right in each cell row."
 msgstr ""
+"Los fotogramas son procesados leyendo las imágenes desde la izquierda hacia la "
+"derecha de cada fila de acetatos, encontrándose los de la izquierda por detrás "
+"de los de la derecha."
 
-#: ../../source/interface_overview.rst:505
-#: ../../source/interface_overview.rst:521
+#: ../../source/interface_overview.rst:505 ../../source/interface_overview.rst:521
 msgid "See  :ref:`Working in Xsheet <working_in_xsheet>`  ."
-msgstr ""
+msgstr "Ver  :ref:`Trabajo en la Planilla <working_in_xsheet>`  ."
 
 #: ../../source/interface_overview.rst:511
 msgid "Timeline"
-msgstr ""
+msgstr "Línea de tiempo"
 
 #: ../../source/interface_overview.rst:513
 msgid "|UI_timeline|"
@@ -902,30 +1132,43 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:515
 msgid ""
-"The timeline allows you to manage the scene content, in the same manner "
-"as the Xsheet. It is organized in horizontal layers, and layers are "
-"divided into cells, representing the content of that layer in that "
-"particular frame. In the layers you can load animation levels, clips, "
-"images, audio files or other timelines."
+"The timeline allows you to manage the scene content, in the same manner as the "
+"Xsheet. It is organized in horizontal layers, and layers are divided into "
+"cells, representing the content of that layer in that particular frame. In the "
+"layers you can load animation levels, clips, images, audio files or other "
+"timelines."
 msgstr ""
+"La Línea de tiempo permite administrar el contenido de la escena, del mismo "
+"modos que la Planilla. Se encuentra organizada en capas, y éstas a su vez están "
+"divididas en acetatos que representan al contenido de dicha capa en un "
+"fotograma determinado. En las capas es posible cargar niveles de animación, "
+"clips de video, imágenes, archivos de sonido y otras Líneas de tiempo."
 
 #: ../../source/interface_overview.rst:517
 msgid ""
-"At the leftmost part each layer has its own header containing information"
-" about its content. At the top part of the timeline there is a time ruler"
-" that displays the frame number, with a cursor placed on the current "
-"frame. The headers area and the time ruler are always visible, even when "
-"scrolling the timeline area; in this way it's easier to understand how "
-"the scene is built."
+"At the leftmost part each layer has its own header containing information about "
+"its content. At the top part of the timeline there is a time ruler that "
+"displays the frame number, with a cursor placed on the current frame. The "
+"headers area and the time ruler are always visible, even when scrolling the "
+"timeline area; in this way it's easier to understand how the scene is built."
 msgstr ""
+"En el extremo izquierdo, cada capa tiene su propio encabezado que contiene "
+"información acerca de su contenido. La barra superior muestra los números de "
+"fotograma, con un cursor indicando el fotograma actual. El área del encabezado "
+"y la barra de fotogramas siempre se encuentran visibles, aún cuando se desplaza "
+"el área de la Línea de tiempo; de esta forma resulta sencillo entender cómo "
+"está creada la escena."
 
 #: ../../source/interface_overview.rst:519
 msgid "Frames are rendered reading images from bottom to top in each cell column."
 msgstr ""
+"Los fotogramas son procesados leyendo las imágenes desde abajo hacia arriba de "
+"cada columna de acetatos, encontrándose los de más abajo por detrás de los de "
+"arriba."
 
 #: ../../source/interface_overview.rst:527
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #: ../../source/interface_overview.rst:529
 msgid "|UI_history|"
@@ -936,16 +1179,20 @@ msgid ""
 "The history pane, lets you check and undo/redo the history of the latest "
 "actions performed in the current OpenToonz scene."
 msgstr ""
+"El panel Historia permite comprobar la historia y deshacer/rehacer las acciones "
+"más recientes realizadas en la escena actual de OpenToonz."
 
 #: ../../source/interface_overview.rst:533
 msgid ""
 "See  :ref:`Assigning Memory for the Undo Operation "
 "<assigning_memory_for_the_undo_operations>`  ."
 msgstr ""
+"Ver  :ref:`Asignación de memoria para la función Deshacer "
+"<assigning_memory_for_the_undo_operations>`  ."
 
 #: ../../source/interface_overview.rst:539
 msgid "Record Audio"
-msgstr ""
+msgstr "Grabación de sonido"
 
 #: ../../source/interface_overview.rst:541
 msgid "|UI_recordaudio|"
@@ -953,158 +1200,200 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:543
 msgid ""
-"The record audio window, lets you record a live audio source, listen to "
-"it, and insert it into a new audio column of the Xsheet. The insertion "
-"point will be located at the right of the selected cell column, and "
-"starting at the selected cell frame."
+"The record audio window, lets you record a live audio source, listen to it, and "
+"insert it into a new audio column of the Xsheet. The insertion point will be "
+"located at the right of the selected cell column, and starting at the selected "
+"cell frame."
 msgstr ""
+"La ventana Grabación de sonido permite grabar una fuente de audio en vivo, "
+"escucharla e insertarla en una nueva columna/capa de sonido en la Planilla/"
+"Línea de tiempo. El punto de inserción estará ubicado a la derecha de la "
+"columna (o arriba de la capa) correspondiente al acetato seleccionado, "
+"comenzando en el fotograma actual."
 
 #: ../../source/interface_overview.rst:546
 msgid ""
-"Currently, this window cannot be docked to form part of a room, like the "
-"other ones in the Windows menu. Instead it must be opened as a floating "
-"window, when needed."
+"Currently, this window cannot be docked to form part of a room, like the other "
+"ones in the Windows menu. Instead it must be opened as a floating window, when "
+"needed."
 msgstr ""
+"Actualmente esta no es posible encastrar esta ventana para formar parte de un "
+"espacio de trabajo, tal como sucede con las otras en el menú Ventanas. Deberá "
+"ser abierta como una ventana flotante, cuando sea necesario su uso."
 
 #: ../../source/interface_overview.rst:552
 msgid "Customizing the Interface Appearance"
-msgstr ""
+msgstr "Personalizando la apariencia de la interfaz"
 
 #: ../../source/interface_overview.rst:553
 msgid ""
 "The appearance of the OpenToonz interface can be customized to suit any "
 "production need by choosing a specific language and interface theme."
 msgstr ""
+"La apariencia de la interfaz de OpenToonz puede ser personalizada para "
+"adecuarse a cualquier necesidad de una producción, escogiendo un idioma y tema "
+"de interfaz."
 
 #: ../../source/interface_overview.rst:555
 msgid ""
 "OpenToonz allows users to choose a specific language for the software "
 "interface, including menus, commands, tooltips, and on-screen messages. "
-"Currently available languages are: English, German, Spanish, French, "
-"Italian, Russian, Japanese and Chinese."
+"Currently available languages are: English, German, Spanish, French, Italian, "
+"Russian, Japanese and Chinese."
 msgstr ""
+"OpenToonz permite al usuario escoger un idioma específico para su interfaz de "
+"usuario, incluyendo menúes, comandos, descripciones y mensajes en pantalla. Los "
+"idiomas disponibles actualmente son: Español, Inglés, Alemán, Francés, "
+"Italiano, Ruso, Japonés y Chino."
 
 #: ../../source/interface_overview.rst:557
 msgid ""
-"There are also several included themes to choose from: Default, Blue, "
-"Dark and Light."
+"There are also several included themes to choose from: Default, Blue, Dark and "
+"Light."
 msgstr ""
+"También existen varios temas incluidos entre los cuales elegir: Predefinido, "
+"Azul, Oscuro y Claro."
 
 #: ../../source/interface_overview.rst:561
 msgid "The OpenToonz interface theme set to Default and to Light."
-msgstr ""
+msgstr "El tema de la interfaz de OpenToonz establecido en Predefinido y Claro."
 
 #: ../../source/interface_overview.rst:563
 msgid ""
 "The interface themes are defined by means of a QSS file, whose concepts, "
 "terminology, and syntax are inspired by CSS files (HTML Cascading Style "
-"Sheets). The QSS files also refers to a set of PNG images that are used "
-"to create interface widgets."
+"Sheets). The QSS files also refers to a set of PNG images that are used to "
+"create interface widgets."
 msgstr ""
+"Los temas de la interfaz se encuentran definidos a través de un archivo QSS, "
+"cuyos conceptos, terminología y sintaxis están inspirados en los archivos CSS "
+"(hojas de estilo en cascada de HTML). Los archivos QSS también hacen referencia "
+"a imágenes PNG que son usadas para crear los controles de la interfaz."
 
 #: ../../source/interface_overview.rst:565
 msgid ""
-"These files are stored in a folder named as the QSS file, and located in "
-"the ``C:\\OpenToonz stuff\\config\\qss``  folder on Windows and "
-"``OpenToonz stuff\\config\\qss``  folder on Macintosh."
+"These files are stored in a folder named as the QSS file, and located in the "
+"``C:\\OpenToonz stuff\\config\\qss``  folder on Windows and ``OpenToonz stuff"
+"\\config\\qss``  folder on Macintosh."
 msgstr ""
+"Estos archivos son almacenados en una carpeta nombrada de igual forma que el "
+"archivo QSS y ubicados en la carpeta ``C:\\OpenToonz stuff\\config\\qss``  en "
+"Windows y en la carpeta ``OpenToonz stuff\\config\\qss``  en macOS."
 
 #: ../../source/interface_overview.rst:567
 msgid "The QSS file for Macintosh is named with the _mac suffix."
-msgstr ""
+msgstr "El nombre del archivo QSS en macOS contiene el sufijo _mac."
 
 #: ../../source/interface_overview.rst:569
 msgid ""
-"The QSS file can be edited with any text editor software, e.g. Notepad or"
-" TextEdit; the PNG images with any image editor software. Editing the QSS"
-" file requires some skill in CSS language, but some changes like colors "
-"of pane elements, can be easily done by expressing them with red, green "
-"and blue values."
+"The QSS file can be edited with any text editor software, e.g. Notepad or "
+"TextEdit; the PNG images with any image editor software. Editing the QSS file "
+"requires some skill in CSS language, but some changes like colors of pane "
+"elements, can be easily done by expressing them with red, green and blue values."
 msgstr ""
+"El archivo QSS puede ser editado con cualquier editor de texto, p.ej: Bloc de "
+"notas o TextEdit; las imágenes PNG con cualquier editor de imágenes. Editar el "
+"archivo QSS requiere, sin embargo, de algunas destrezas en el lenguaje CSS; "
+"igualmente algunos cambios como colores de los elementos de los paneles, pueden "
+"ser realizados de forma sencilla, expresándolos como valores de rojo, verde y "
+"azul."
 
 #: ../../source/interface_overview.rst:571
 msgid ""
 "The QSS files defining the colors and the images used in the OpenToonz "
 "interface have to be written according to a specific syntax, otherwise "
-"OpenToonz interface will not be displayed properly. If you decide to edit"
-" a QSS file, make a backup copy first in case you need to revert the file"
-" to the original version."
+"OpenToonz interface will not be displayed properly. If you decide to edit a QSS "
+"file, make a backup copy first in case you need to revert the file to the "
+"original version."
 msgstr ""
+"Los archivos QSS que definen los colores e imágenes usadas en la interfaz de "
+"OpenToonz tienen que ser escritos de acuerdo a una sintaxis específica, de otro "
+"modo la interfaz de OpenToonz no será mostrada adecuadamente. Si se va a editar "
+"uno de estos archivos, hacer ante un respaldo, en caso de que sea necesario "
+"volver a la versión original."
 
 #: ../../source/interface_overview.rst:573
 msgid "**To choose the interface language:**"
-msgstr ""
+msgstr "**Para elegir el idioma de la interfaz:**"
 
-#: ../../source/interface_overview.rst:575
-#: ../../source/interface_overview.rst:583
+#: ../../source/interface_overview.rst:575 ../../source/interface_overview.rst:583
 msgid "Choose File > Preferences > Interface."
-msgstr ""
+msgstr "Elegir Archivo > Preferencias > Interfaz."
 
 #: ../../source/interface_overview.rst:577
 msgid ""
 "In the Language* option menu choose the language you want to use in the "
 "interface."
-msgstr ""
+msgstr "En el menú **Idioma:** elegir el idioma deseado."
 
 #: ../../source/interface_overview.rst:579
 msgid "Restart OpenToonz to have the interface in the selected language."
-msgstr ""
+msgstr "Reiniciar OpenToonz para ver la interfaz en el idioma seleccionado."
 
 #: ../../source/interface_overview.rst:581
 msgid "**To choose the interface theme:**"
-msgstr ""
+msgstr "**Para elegir el tema de la interfaz:**"
 
 #: ../../source/interface_overview.rst:585
 msgid "In the Theme option menu choose the style to be applied to the interface."
-msgstr ""
+msgstr "En el menú **Tema:** elegir el tema a aplicar a la interfaz."
 
 #: ../../source/interface_overview.rst:587
 msgid "**To create a new theme:**"
-msgstr ""
+msgstr "**Para crear un nuevo tema:**"
 
 #: ../../source/interface_overview.rst:589
 msgid ""
 "Navigate to ``C:\\OpenToonz stuff\\config\\qss``  folder on Windows and "
 "``OpenToonz stuff\\config\\qss``  folder on Macintosh."
 msgstr ""
+"Navegar hasta la carpeta ``C:\\OpenToonz stuff\\config\\qss``  en Windows o la "
+"carpeta ``OpenToonz stuff\\config\\qss``  en Macintosh."
 
 #: ../../source/interface_overview.rst:591
 msgid "Duplicate one of the already existing style folder."
-msgstr ""
+msgstr "Duplicar una de las carpetas de tema ya existentes."
 
 #: ../../source/interface_overview.rst:593
 msgid ""
-"Rename the folder and the QSS files inside it with the name you want to "
-"assign to the style."
+"Rename the folder and the QSS files inside it with the name you want to assign "
+"to the style."
 msgstr ""
+"Renombrar la carpeta y los archivos QSS dentro de ésta con el nombre que se "
+"desea asignar al nuevo tema."
 
 #: ../../source/interface_overview.rst:595
 msgid "Edit the QSS file and the PNG images contained in the new folder."
-msgstr ""
+msgstr "Editar el archivo QSS y las imágenes PNG contenidos en la nueva carpeta."
 
 #: ../../source/interface_overview.rst:597
 msgid ""
-"The new style will be available in the Preferences dialog the next time "
-"you run OpenToonz."
+"The new style will be available in the Preferences dialog the next time you run "
+"OpenToonz."
 msgstr ""
+"El nuevo tema estará disponible en el diálogo de **Preferencias** la próxima "
+"vez que se ejecute OpenToonz."
 
 #: ../../source/interface_overview.rst:599
 msgid "**To edit style QSS file:**"
-msgstr ""
+msgstr "**Para editar un archivo de estilo QSS:**"
 
 #: ../../source/interface_overview.rst:601
 msgid ""
-"Open and edit with a text editor software (e.g. Notepad or TextEdit) the "
-"QSS files available in the style folder."
+"Open and edit with a text editor software (e.g. Notepad or TextEdit) the QSS "
+"files available in the style folder."
 msgstr ""
+"Abrir y editar con un editor de texto (p.ej: Bloc de notas o TextEdit) los "
+"archivos QSS disponibles en la carpeta del tema."
 
 #: ../../source/interface_overview.rst:603
 msgid "**To edit style images:**"
-msgstr ""
+msgstr "**Para editar las imágenes del tema:**"
 
 #: ../../source/interface_overview.rst:605
 msgid ""
-"Open and edit with an image editor software the PNG files available in "
-"the style folder."
+"Open and edit with an image editor software the PNG files available in the "
+"style folder."
 msgstr ""
-
+"Abrir y editar con un editor de imágenes los archivos PNG disponibles en la "
+"carpeta del tema."
