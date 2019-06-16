@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 00:47+0800\n"
+"POT-Creation-Date: 2019-06-15 12:06+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,7 +138,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:47
-msgid "Setting the Particles Source"
+#: ../../source/using_the_particles_effect.rst:56
+msgid "Source"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:48
@@ -153,10 +154,6 @@ msgid ""
 "example their birth rate, can be controlled as well."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:56
-msgid "Source"
-msgstr ""
-
 #: ../../source/using_the_particles_effect.rst:62
 #: ../../source/using_the_particles_effect.rst:191
 #: ../../source/using_the_particles_effect.rst:225
@@ -164,10 +161,10 @@ msgstr ""
 #: ../../source/using_the_particles_effect.rst:291
 #: ../../source/using_the_particles_effect.rst:354
 #: ../../source/using_the_particles_effect.rst:372
-#: ../../source/using_the_particles_effect.rst:557
-#: ../../source/using_the_particles_effect.rst:582
-#: ../../source/using_the_particles_effect.rst:614
-#: ../../source/using_the_particles_effect.rst:653
+#: ../../source/using_the_particles_effect.rst:559
+#: ../../source/using_the_particles_effect.rst:584
+#: ../../source/using_the_particles_effect.rst:616
+#: ../../source/using_the_particles_effect.rst:655
 msgid "Control Image"
 msgstr ""
 
@@ -350,6 +347,7 @@ msgid "Particle"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:155
+#: ../../source/using_the_particles_effect.rst:465
 msgid "Animation"
 msgstr ""
 
@@ -400,7 +398,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:172
-msgid "Defining Particles Birth Parameters"
+msgid "Birth Parameters"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:173
@@ -567,7 +565,7 @@ msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:265
 #: ../../source/using_the_particles_effect.rst:268
-#: ../../source/using_the_particles_effect.rst:541
+#: ../../source/using_the_particles_effect.rst:543
 msgid "Trail"
 msgstr ""
 
@@ -648,35 +646,37 @@ msgstr ""
 #: ../../source/using_the_particles_effect.rst:313
 msgid ""
 "Defines the layering order of the generated particles. Options are the "
-"following."
+"following:"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:315
-msgid "Younger places the latest generated particles on top of all the others."
+msgid ""
+"**Younger** places the latest generated particles on top of all the "
+"others."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:317
 msgid ""
-"Older places the latest generated particles behind the previously "
+"**Older** places the latest generated particles behind the previously "
 "generated ones."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:319
-msgid "Smaller places smaller particles on top of the bigger ones."
+msgid "**Smaller** places smaller particles on top of the bigger ones."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:321
-msgid "Bigger places bigger particles on top of the smaller ones."
+msgid "**Bigger** places bigger particles on top of the smaller ones."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:323
 msgid ""
-"Random places each particle randomly in-between the previously generated "
-"particles."
+"**Random** places each particle randomly in-between the previously "
+"generated particles."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:329
-msgid "Defining Environment Settings"
+msgid "Environment"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:330
@@ -897,13 +897,13 @@ msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:448
 msgid ""
-"Random adds the horizontal and vertical scattering values to the particle"
-" movement at each frame."
+"**Random** adds the horizontal and vertical scattering values to the "
+"particle movement at each frame."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:450
 msgid ""
-"Smooth reaches the horizontal and vertical scattering values by "
+"**Smooth** reaches the horizontal and vertical scattering values by "
 "interpolating values, in order to create a smooth movement. The "
 "interpolation lasts as many frames as set by the swing value set below; "
 "when the scattering values are reached, new values for each parameter are"
@@ -931,10 +931,6 @@ msgid ""
 "frames; then at frame 11 the scattering changes, so that the random value"
 " between 1 and 8 will shift the particle to the left for the following 10"
 " frames."
-msgstr ""
-
-#: ../../source/using_the_particles_effect.rst:465
-msgid "Defining Particles Animation"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:466
@@ -971,11 +967,11 @@ msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:484
 msgid ""
-"Unlike the directional Speed parameter, this parameter is not a birth "
-"attribute. This means that if in a 20 frames animation you animate the "
-"Spin Speed value from -30 to 30, during the animation all the particles "
-"will rotate together, counterclockwise for the first 10 frames, then "
-"clockwise for the next 10 frames."
+"Unlike the directional **Speed** parameter, this parameter is not a birth"
+" attribute. This means that if in a 20 frames animation you animate the "
+"**Rotation Speed** value from -30 to 30, during the animation all the "
+"particles will rotate together, counterclockwise for the first 10 frames,"
+" then clockwise for the next 10 frames."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:490
@@ -994,23 +990,23 @@ msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:497
 msgid ""
-"Random adds the extra speed values to the rotation of the particles at "
-"each frame."
+"**Random**, adds the extra speed values to the rotation of the particles "
+"at each frame."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:499
 msgid ""
-"Smooth reaches the rotational extra speed value by interpolating values, "
-"in order to create a smooth movement. The interpolation lasts as many "
-"frames as set by the swing value; when the extra speed value is reached, "
-"new values for each parameter are generated."
-msgstr ""
-
-#: ../../source/using_the_particles_effect.rst:504
-msgid "Rotation Swing"
+"**Smooth**, reaches the rotational extra speed value by interpolating "
+"values, in order to create a smooth movement. The interpolation lasts as "
+"many frames as set by the swing value; when the extra speed value is "
+"reached, new values for each parameter are generated."
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:505
+msgid "Rotation Swing"
+msgstr ""
+
+#: ../../source/using_the_particles_effect.rst:506
 msgid ""
 "Sets the minimum and maximum number of frames throughout which the extra "
 "speed values will vary, while remaining either positive or negative. This"
@@ -1019,81 +1015,81 @@ msgid ""
 "random extra speed at each frame."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:510
+#: ../../source/using_the_particles_effect.rst:512
 msgid "Follow Particles Movement"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:511
+#: ../../source/using_the_particles_effect.rst:513
 msgid ""
 "Rotates the particles according to their movement direction. The particle"
 " preserves its original orientation when the movement is horizontal to "
 "the right."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:517
-#: ../../source/using_the_particles_effect.rst:521
+#: ../../source/using_the_particles_effect.rst:519
+#: ../../source/using_the_particles_effect.rst:523
 msgid "Opacity"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:518
+#: ../../source/using_the_particles_effect.rst:520
 msgid ""
 "Sets a fade-in process at the beginning of particles life, and a fade-out"
 " process at the end, according to the set minimum and maximum opacity "
 "values."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:522
+#: ../../source/using_the_particles_effect.rst:524
 msgid ""
 "Sets the minimum and maximum opacity values for the fade-in and fade-out "
 "processes. Values are expressed as a percentage, where 100 is the "
 "original opacity."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:524
+#: ../../source/using_the_particles_effect.rst:526
 msgid ""
 "The fade-in process begins from the minimum value and reaches the maximum"
 " value at the end; the fade-out process begins from the maximum value and"
 " reaches the minimum value at the end."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:530
+#: ../../source/using_the_particles_effect.rst:532
 msgid "Fade-in Frames"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:531
-#: ../../source/using_the_particles_effect.rst:633
+#: ../../source/using_the_particles_effect.rst:533
+#: ../../source/using_the_particles_effect.rst:635
 msgid ""
 "Sets the number of frames the fade-in process lasts, starting from the "
 "first frame of the particle life."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:537
+#: ../../source/using_the_particles_effect.rst:539
 msgid "Fade-out Frames"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:538
-#: ../../source/using_the_particles_effect.rst:669
+#: ../../source/using_the_particles_effect.rst:540
+#: ../../source/using_the_particles_effect.rst:671
 msgid ""
 "Sets the number of frames the fade-out process lasts, starting from the "
 "last frame of the particle life and counting backward."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:542
+#: ../../source/using_the_particles_effect.rst:544
 msgid ""
 "Sets the opacity of the images used for the trail: the minimum value is "
 "the opacity of the oldest particle in the trail; the maximum value is the"
 " opacity of the youngest one (see  :ref:`Trail <trail>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:548
+#: ../../source/using_the_particles_effect.rst:550
 msgid "Size Increase"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:553
+#: ../../source/using_the_particles_effect.rst:555
 msgid "Size Intensity"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:554
+#: ../../source/using_the_particles_effect.rst:556
 msgid ""
 "Sets the minimum and maximum scaling factor to be applied to the particle"
 " in each frame. Positive values are for increasing the size of the "
@@ -1101,29 +1097,29 @@ msgid ""
 "percentage."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:558
+#: ../../source/using_the_particles_effect.rst:560
 msgid ""
 "Sets if and which control image has to be used to control particles size "
 "increase (see  :ref:`Defining Control Images <defining_control_images>`  "
 ")."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:560
+#: ../../source/using_the_particles_effect.rst:562
 msgid ""
 "If used, the size increase value range defined above will be distributed "
 "according to the brightness value of the control image: particles will "
 "increase in size faster where the image is brighter."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:566
-msgid "Defining Particles Color"
-msgstr ""
-
-#: ../../source/using_the_particles_effect.rst:567
-msgid "|defining_particles_color|"
+#: ../../source/using_the_particles_effect.rst:568
+msgid "Colors"
 msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:569
+msgid "|defining_particles_color|"
+msgstr ""
+
+#: ../../source/using_the_particles_effect.rst:571
 msgid ""
 "Particles can fade to specific colors at their birth, during their life "
 "and just before their death, by specifying settings in the Color page. "
@@ -1131,63 +1127,63 @@ msgid ""
 "particles when they are generated."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:575
-#: ../../source/using_the_particles_effect.rst:578
+#: ../../source/using_the_particles_effect.rst:577
+#: ../../source/using_the_particles_effect.rst:580
 msgid "Birth Color"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:579
+#: ../../source/using_the_particles_effect.rst:581
 msgid ""
 "Sets the range of colors to which particles fade at their birth, by "
 "defining a color spectrum (see  :ref:`Defining Colors and Color Spectrums"
 " <defining_colors_and_color_spectrums>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:583
+#: ../../source/using_the_particles_effect.rst:585
 msgid ""
 "Sets if and which control image has to be used to define the particles "
 "birth colors (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:585
+#: ../../source/using_the_particles_effect.rst:587
 msgid ""
 "If used, particles will pick their birth color from the control image "
 "pixels according to their birth position."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:591
+#: ../../source/using_the_particles_effect.rst:593
 msgid "Birth Spread"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:592
+#: ../../source/using_the_particles_effect.rst:594
 msgid ""
 "Sets a spread value that will be added to the red, green and blue values "
 "of the color to which particles fade at their birth."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:594
-#: ../../source/using_the_particles_effect.rst:626
-#: ../../source/using_the_particles_effect.rst:665
+#: ../../source/using_the_particles_effect.rst:596
+#: ../../source/using_the_particles_effect.rst:628
+#: ../../source/using_the_particles_effect.rst:667
 msgid ""
 "In this way particles will fade to a range of colors spreading from the "
 "colors defined in the spectrum or in the control image."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:600
+#: ../../source/using_the_particles_effect.rst:602
 msgid "Birth Intensity"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:601
+#: ../../source/using_the_particles_effect.rst:603
 msgid "Sets the intensity of the birth color-fading."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:607
-#: ../../source/using_the_particles_effect.rst:610
+#: ../../source/using_the_particles_effect.rst:609
+#: ../../source/using_the_particles_effect.rst:612
 msgid "Fade-in Color"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:611
+#: ../../source/using_the_particles_effect.rst:613
 msgid ""
 "Sets the range of colors to which particles fade at a certain number of "
 "frames after their birth, by defining a color spectrum (see  "
@@ -1195,48 +1191,48 @@ msgid ""
 "<defining_colors_and_color_spectrums>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:615
+#: ../../source/using_the_particles_effect.rst:617
 msgid ""
 "Sets if and which control image has to be used to define the particles "
 "fade-in colors (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:617
+#: ../../source/using_the_particles_effect.rst:619
 msgid ""
 "If used, particles will pick their fade-in color from the control image "
 "pixels according to their position."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:623
+#: ../../source/using_the_particles_effect.rst:625
 msgid "Fade-in Spread"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:624
+#: ../../source/using_the_particles_effect.rst:626
 msgid ""
 "Sets a spread value that will be added to the red, green and blue values "
 "of the color to which particles fade in."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:632
-#: ../../source/using_the_particles_effect.rst:668
+#: ../../source/using_the_particles_effect.rst:634
+#: ../../source/using_the_particles_effect.rst:670
 msgid "Frame Range"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:639
+#: ../../source/using_the_particles_effect.rst:641
 msgid "Fade-in Intensity"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:640
+#: ../../source/using_the_particles_effect.rst:642
 msgid "Sets the intensity of the fade-in process."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:646
-#: ../../source/using_the_particles_effect.rst:649
+#: ../../source/using_the_particles_effect.rst:648
+#: ../../source/using_the_particles_effect.rst:651
 msgid "Fade-out Color"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:650
+#: ../../source/using_the_particles_effect.rst:652
 msgid ""
 "Sets the range of colors to which particles fade starting from a certain "
 "number of frames before their death, by defining a color spectrum (see  "
@@ -1244,34 +1240,34 @@ msgid ""
 "<defining_colors_and_color_spectrums>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:654
+#: ../../source/using_the_particles_effect.rst:656
 msgid ""
 "Sets if and which control image has to be used to define the particles "
 "fade-out colors (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:656
+#: ../../source/using_the_particles_effect.rst:658
 msgid ""
 "If used, particles will pick their fade-out color from the control image "
 "pixels according to their position."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:662
+#: ../../source/using_the_particles_effect.rst:664
 msgid "Fade-out Spread"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:663
+#: ../../source/using_the_particles_effect.rst:665
 msgid ""
 "Sets a spread value that will be added to the red, green and blue values "
 "of the color to which particles fade out."
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:675
+#: ../../source/using_the_particles_effect.rst:677
 msgid "Fade-out Intensity"
 msgstr ""
 
-#: ../../source/using_the_particles_effect.rst:676
+#: ../../source/using_the_particles_effect.rst:678
 msgid "Sets the intensity of the fade-out process."
 msgstr ""
 
@@ -1657,5 +1653,94 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "|Toonz71_518|"
+#~ msgstr ""
+
+#~ msgid "Setting the Particles Source"
+#~ msgstr ""
+
+#~ msgid "Defining Particles Birth Parameters"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Defines the layering order of the "
+#~ "generated particles. Options are the "
+#~ "following."
+#~ msgstr ""
+
+#~ msgid "Younger places the latest generated particles on top of all the others."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Older places the latest generated "
+#~ "particles behind the previously generated "
+#~ "ones."
+#~ msgstr ""
+
+#~ msgid "Smaller places smaller particles on top of the bigger ones."
+#~ msgstr ""
+
+#~ msgid "Bigger places bigger particles on top of the smaller ones."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Random places each particle randomly "
+#~ "in-between the previously generated "
+#~ "particles."
+#~ msgstr ""
+
+#~ msgid "Defining Environment Settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Random adds the horizontal and vertical"
+#~ " scattering values to the particle "
+#~ "movement at each frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Smooth reaches the horizontal and "
+#~ "vertical scattering values by interpolating"
+#~ " values, in order to create a "
+#~ "smooth movement. The interpolation lasts "
+#~ "as many frames as set by the "
+#~ "swing value set below; when the "
+#~ "scattering values are reached, new "
+#~ "values for each parameter are generated."
+#~ msgstr ""
+
+#~ msgid "Defining Particles Animation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Unlike the directional Speed parameter, "
+#~ "this parameter is not a birth "
+#~ "attribute. This means that if in a"
+#~ " 20 frames animation you animate the"
+#~ " Spin Speed value from -30 to "
+#~ "30, during the animation all the "
+#~ "particles will rotate together, "
+#~ "counterclockwise for the first 10 "
+#~ "frames, then clockwise for the next "
+#~ "10 frames."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Random adds the extra speed values "
+#~ "to the rotation of the particles "
+#~ "at each frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Smooth reaches the rotational extra "
+#~ "speed value by interpolating values, in"
+#~ " order to create a smooth movement."
+#~ " The interpolation lasts as many "
+#~ "frames as set by the swing value;"
+#~ " when the extra speed value is "
+#~ "reached, new values for each parameter"
+#~ " are generated."
+#~ msgstr ""
+
+#~ msgid "Defining Particles Color"
 #~ msgstr ""
 
