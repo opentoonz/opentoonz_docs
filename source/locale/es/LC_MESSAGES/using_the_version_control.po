@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 12:06+0800\n"
+"POT-Creation-Date: 2019-06-16 16:50+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -399,18 +399,18 @@ msgid ""
 "between the *central repository* and the local *working copy*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:207
-msgid ""
-"One online repository defined (**svn_test**) hosting the active project "
-"(**mySVNproject**)."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:209
+#: ../../source/using_the_version_control.rst:205
 msgid ""
 "The *central repository* and the local *working copy* are displayed in "
 "the OpenToonz browser at the end of the folder tree as one single folder."
 " By navigating the contents of this folder it's possible to retrieve the "
 "folders and files."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:209
+msgid ""
+"One online repository defined (**svn_test**) hosting the active project "
+"(**mySVNproject**)."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:211
@@ -463,6 +463,10 @@ msgid ""
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:232
+msgid "|put|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:234
 msgid ""
 "In case you are *putting* folders, in the dialog that opens you can check"
 " which files and folders contained in the selected folder have to be put "
@@ -471,7 +475,11 @@ msgid ""
 "the performed modifications."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:234
+#: ../../source/using_the_version_control.rst:236
+msgid "|put_scene|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:238
 msgid ""
 "In case you are *getting* or *putting* scene files (TNZ format), in the "
 "dialog that opens it's possible to check the **Get Scene Contents** or "
@@ -479,11 +487,7 @@ msgid ""
 "back, the materials used in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:236
-msgid "|put|"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:238
+#: ../../source/using_the_version_control.rst:240
 msgid ""
 "The first time you *get* a folder not previously available in the "
 "*working copy* (folder with grey icon), you get the files contained in "
@@ -492,233 +496,258 @@ msgid ""
 "including sub-folders and the related contents."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:240
+#: ../../source/using_the_version_control.rst:242
 msgid ""
 "**To get the latest version of a folder or a file from the central "
 "repository to the local working copy:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:242
+#: ../../source/using_the_version_control.rst:244
 msgid ""
 "Right-click the folder icon in the folder tree, or the file icon in the "
 "browser, and choose **Get** from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:244
+#: ../../source/using_the_version_control.rst:246
 msgid ""
 "In the dialog that opens if you are getting a scene file (TNZ format) "
 "activate the **Get Scene Contents** if you want to get the files used in "
 "the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:246
-#: ../../source/using_the_version_control.rst:354
+#: ../../source/using_the_version_control.rst:248
+#: ../../source/using_the_version_control.rst:366
 msgid "Click the **Update** button."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:248
+#: ../../source/using_the_version_control.rst:250
 msgid ""
 "**To put your modified version of a folder or a file from the local "
 "working copy to the central repository:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:250
+#: ../../source/using_the_version_control.rst:252
 msgid ""
 "Right-click the folder icon in the folder tree, or the file icon in the "
 "browser, and choose **Put** from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:252
+#: ../../source/using_the_version_control.rst:254
 msgid "In the dialog that opens do any of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:254
+#: ../../source/using_the_version_control.rst:256
 msgid ""
 "If you are putting a folder, check which files and folders contained by "
 "the selected folder have to be put in the central repository."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:256
+#: ../../source/using_the_version_control.rst:258
 msgid ""
 "If you are putting a scene file (TNZ format) activate the **Put Scene "
 "Contents** if you want to put the files used in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:258
+#: ../../source/using_the_version_control.rst:260
 msgid "Type a comment if required and click the **Put** button."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:264
+#: ../../source/using_the_version_control.rst:266
 msgid "Editing Files"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:265
-msgid ""
-"When using a version control system in order to modify files you have to "
-"**Edit** them before loading them into OpenToonz; if files are not in "
-"*edit mode*, they can only be loaded as *read-only*."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:267
 msgid ""
-"The **Edit** operation unlocks the file for the user running the command "
-"(preventing other users using the same *central repository* from "
-"unlocking it and being able to modify it). When a file is edited, it's "
-"possible to type a comment to let the other users know about your editing"
-" operation."
+"When using the version control system, in order to modify files you have "
+"to put them in **Edit** mode *before loading them* into OpenToonz; if "
+"not, they will be loaded as *read-only*."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:269
-msgid ""
-"When editing a scene file (TNZ format), in the dialog that opens it's "
-"possible to check the **Edit Scene Contents** option in order to edit the"
-" materials used in the scene as well. If you choose to edit only the "
-"scene file, or if some material used in the scene is currently being "
-"edited by other users sharing the same central repository, the locked "
-"frames of the level will be displayed with a forbidden icon in the level "
-"strip."
+msgid "|edit|"
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:271
 msgid ""
-"The **Edit Frame Range** command is available as well to edit only the "
-"*needed frames* of any Toonz animation level. This way, different users "
-"can work at the same time on *different frame ranges* of the same "
-"animation level."
+"The **Edit** operation \"locks\" the file, so only the user running the "
+"command will be able to modify it (preventing other users using the same "
+"*central repository* from unlocking it and being able to modify it). At "
+"the moment a file is about to be edited, it's possible to type in a "
+"*Comment*, to let the other users know about your editing operation."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:273
-msgid ""
-"If you want to release files from the *editing mode*, you can **Unlock** "
-"them."
+msgid "|edit_scene|"
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:275
 msgid ""
-"Files are in read-only mode (or in locked mode) in case a user is "
-"*editing* them, by setting the file system read-only attribute. For this "
-"reason, manually using the OS (instead of the appropriate version control"
-" commands), to change this status may cause serious inconsistencies in "
-"the version control system."
+"When editing a scene file (TNZ format), in the dialog that opens it's "
+"possible to check the **Edit Scene Contents** option, in order to be able"
+" to edit the materials used in the scene as well. If you choose to edit "
+"only the scene file, or if some material used in the scene is currently "
+"being edited by other users sharing the same central repository, the "
+"locked frames of that levels will be displayed with a forbidden icon in "
+"the Level Strip."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:277
-msgid "**To edit an updated file:**"
+msgid "|edit_frame_range|"
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:279
-#: ../../source/using_the_version_control.rst:287
-msgid "Right-click the file and choose **Edit** from the menu that opens."
+msgid ""
+"The **Edit Frame Range** command is available as well, to let a user edit"
+" only the *needed frames* of any Toonz Vector or Toonz Raster animation "
+"level. This way, different users can work at the same time *on different "
+"frame ranges* of the same animation level."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:281
+msgid "|unlock|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:283
+msgid ""
+"When you want to release files from the *editing mode*, so that others "
+"can work on them, you can use the **Unlock** command."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:285
+msgid ""
+"Files are in read-only mode (or in locked mode) in case a user is "
+"*editing* them, by setting the file system read-only attribute. For this "
+"reason, manually using the OS (instead of the appropriate version control"
+" commands) to change this status, may cause serious inconsistencies in "
+"the version control system."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:287
+msgid "**To edit an updated file:**"
+msgstr ""
+
 #: ../../source/using_the_version_control.rst:289
+#: ../../source/using_the_version_control.rst:297
+msgid "Right-click the file and choose **Edit** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:291
+#: ../../source/using_the_version_control.rst:299
 msgid ""
 "In the dialog that opens if you are editing a scene file (TNZ format) "
 "activate the **Edit Scene Contents** if you want to edit the files used "
 "in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:283
-#: ../../source/using_the_version_control.rst:303
+#: ../../source/using_the_version_control.rst:293
+#: ../../source/using_the_version_control.rst:313
 msgid "Type a comment if required and click the **Edit** button."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:285
+#: ../../source/using_the_version_control.rst:295
 msgid ""
 "**To edit a file that is older than the version available in the central "
 "repository:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:291
+#: ../../source/using_the_version_control.rst:301
 msgid "Type a comment if required and do one of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:293
+#: ../../source/using_the_version_control.rst:303
 msgid ""
 "Click the **Get and Edit** button to get the latest version of the files "
 "and edit them."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:295
+#: ../../source/using_the_version_control.rst:305
 msgid ""
 "Click the **Edit** button to edit the version of the files that is "
 "currently in your local working copy."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:297
+#: ../../source/using_the_version_control.rst:307
 msgid "**To edit only the needed frames of a Toonz level file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:299
+#: ../../source/using_the_version_control.rst:309
 msgid ""
 "Right-click the file and choose **Edit Frame Range** from the menu that "
 "opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:301
+#: ../../source/using_the_version_control.rst:311
 msgid "In the dialog that opens set the frame range you want to edit."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:305
+#: ../../source/using_the_version_control.rst:315
 msgid "**To release a file from the editing mode:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:307
+#: ../../source/using_the_version_control.rst:317
 msgid "Right-click the file and choose **Unlock** from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:309
+#: ../../source/using_the_version_control.rst:319
 msgid "**To check the editing state of a locked file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:311
+#: ../../source/using_the_version_control.rst:321
 msgid "Right-click the file and choose **Edit Info** from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:317
+#: ../../source/using_the_version_control.rst:327
 msgid "Retrieving File Revisions"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:318
+#: ../../source/using_the_version_control.rst:328
 msgid ""
-"The main advantage of using a version control system is that the "
+"One of the main advantages of using a version control system is that the "
 "*history* of the revisions for every file in the production database is "
-"automatically available. This means that it's possible to retrieve very "
-"easily previous versions of any file."
+"always available. This means that it's possible to very easily retrieve "
+"previous versions of any file."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:320
+#: ../../source/using_the_version_control.rst:330
 msgid ""
 "To retrieve older file versions it's possible to use the **Get Revision**"
 " command. When used on a single file it displays a timeline with all the "
 "file versions; in the timeline you can check the different file versions "
 "with the related icons and information, and select which version to get "
-"in order to edit it. When used on a multiple files selection it opens a "
-"dialog that allows you to specify the time, day, week or date of the "
-"files version you want to retrieve."
+"in order to edit it."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:322
+#: ../../source/using_the_version_control.rst:332
 msgid "|get_revision|"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:324
+#: ../../source/using_the_version_control.rst:334
 msgid ""
 "When getting a revision of a scene file (TNZ format), in the dialog that "
 "opens it's possible to check the **Get Scene Contents** option in order "
 "to get the revisions of the materials used in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:326
+#: ../../source/using_the_version_control.rst:336
+msgid "|get_revision_multiple_files|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:338
+msgid ""
+"When used on a multiple files selection it opens a dialog that allows you"
+" to specify the time, day, week or date of the files version you want to "
+"retrieve."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:340
 msgid "**To retrieve an older revision of a file:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:328
+#: ../../source/using_the_version_control.rst:342
 msgid "Right-click the file and choose **Get Revision** from the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:330
+#: ../../source/using_the_version_control.rst:344
 msgid ""
 "In the dialog that opens look for the file version you are interested in "
 "and select it; if you are editing a scene file (TNZ format) activate the "
@@ -726,61 +755,57 @@ msgid ""
 " in the scene as well."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:332
+#: ../../source/using_the_version_control.rst:346
 msgid "Do one of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:334
+#: ../../source/using_the_version_control.rst:348
 msgid ""
 "Click the **Get Selected Revision** button to get the selected file "
 "version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:336
+#: ../../source/using_the_version_control.rst:350
 msgid "Click the **Get Last Revision** button to get the latest file version."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:338
+#: ../../source/using_the_version_control.rst:352
 msgid "**To retrieve an older revision of a selection of multiple files:**"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:340
+#: ../../source/using_the_version_control.rst:354
 msgid ""
 "Right-click any of the selected files and choose **Get Revision** from "
 "the menu that opens."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:342
-msgid "|get_revision_multiple_files|"
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:344
+#: ../../source/using_the_version_control.rst:356
 msgid ""
 "In the dialog that opens specify how much older the version of the files "
 "you want to retrieve has to be, by doing one of the following:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:346
+#: ../../source/using_the_version_control.rst:358
 msgid "Specify a *time* in hours and minutes."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:348
+#: ../../source/using_the_version_control.rst:360
 msgid "Specify a number of *days*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:350
+#: ../../source/using_the_version_control.rst:362
 msgid "Specify a number of *weeks*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:352
+#: ../../source/using_the_version_control.rst:364
 msgid "Specify and exact *date and time*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:360
+#: ../../source/using_the_version_control.rst:372
 msgid "Understanding the Folder and File Icons"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:361
+#: ../../source/using_the_version_control.rst:373
 msgid ""
 "According to the folder and file icons you can tell if the folder or the "
 "file in the working copy is updated or not to the latest version "
@@ -788,127 +813,353 @@ msgid ""
 "users and locked."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:363
+#: ../../source/using_the_version_control.rst:375
 msgid ""
-"If the file browser displays files in a list, the information about the "
+"If the File Browser displays files as a List, the information about the "
 "version control status is displayed in the column labeled *Version "
 "Control*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:365
+#: ../../source/using_the_version_control.rst:377
 msgid "For **folders** the following icons are used:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:367
+#: ../../source/using_the_version_control.rst:379
 msgid ""
-"A *grey* folder icon (|grey_folder|) is used for folders available only "
-"in the *repository*. You can use the **Get** command to copy them to the "
-"local *working copy*."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:369
-msgid ""
-"A colored folder icon with a *yellow mark* "
-"(|colored_folder_with_yellow_mark|) is used when the folder contents in "
-"the *working copy* is not up to date and does not match to the folder "
-"contents in the *repository*: this is the case when there are modified or"
-" new files in the *working copy* or there are modified or new files in "
+"|grey_folder| A *grey* folder icon is used for folders available only in "
 "the *repository*. You can use the **Get** command to copy them to the "
 "local *working copy*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:371
+#: ../../source/using_the_version_control.rst:381
 msgid ""
-"A colored folder icon with a *green mark* "
-"(|colored_folder_with_green_mark|) is used when the folder contents in "
-"the *working copy* is up to date and matches to the folder contents in "
-"the *repository*."
+"|colored_folder_with_yellow_mark| A colored folder icon with a *yellow "
+"mark* is used when the folder contents in the *working copy* is not up to"
+" date and does not match to the folder contents in the *repository*: this"
+" is the case when there are modified or new files in the *working copy* "
+"or there are modified or new files in the *repository*. You can use the "
+"**Get** command to copy them to the local *working copy*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:373
+#: ../../source/using_the_version_control.rst:383
 msgid ""
-"A colored folder with a *plus mark* (|colored_folder_with_plus_mark|) is "
+"|colored_folder_with_green_mark| A colored folder icon with a *green "
+"mark* is used when the folder contents in the *working copy* is up to "
+"date and matches to the folder contents in the *repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:385
+msgid ""
+"|colored_folder_with_plus_mark| A colored folder with a *plus mark* is "
 "used for folders available only in the *working copy*. You can use the "
 "**Put** command to copy them to the *central repository*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:376
+#: ../../source/using_the_version_control.rst:388
 msgid "For **files** the following icons are used:"
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:378
+#: ../../source/using_the_version_control.rst:390
 msgid ""
 "A generic *grey* icon is used for files available only in the "
 "*repository*. You can use the **Get** command to copy them to the local "
 "*working copy*."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:380
+#: ../../source/using_the_version_control.rst:392
 msgid ""
-"The file icon with a *grey check mark* (|grey_mark_check|) is used when "
+"|grey_mark_check| The file icon with a *grey check mark* is used when "
 "files in the *working copy* are up to date and match to the latest "
 "version available in the *repository*. The files are in *read-only mode*,"
 " and they have to be in *edit mode* in order to be modified."
 msgstr ""
 
-#: ../../source/using_the_version_control.rst:382
-msgid ""
-"The file icon with a *green check mark* (|green_mark_check|) is used when"
-" files in the *working copy* are in *edit mode*."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:384
-msgid ""
-"The file icon with a *green check mark on a grey and white background* "
-"(|half_grey_mark_check|) is used when files in the *working copy* are "
-"partially in *edit mode*."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:386
-msgid ""
-"The file icon with a *red exclamation mark* "
-"(|red_exclamation_mark_check|) is used when files in the *working copy* "
-"are newer than the latest version available in the *repository*, because "
-"you modified them. You can use the **Put** command to copy them to the "
-"*central repository*."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:388
-msgid ""
-"The file icon with a *red exclamation mark on a grey and white "
-"background* (|half_grey_red_exclamation_mark_check|) is used when files "
-"in the *working copy* are partially newer than to the latest version "
-"available in the *repository*, because you modified them. You can use the"
-" **Put** command to copy them to the *central repository*."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:390
-msgid ""
-"The file icon with an *orange exclamation mark* "
-"(|orange_exclamation_mark_check|) is used when files in the *working "
-"copy* are older than the latest version available in the *repository*, "
-"because someone modified them. You can use the **Get** command to copy "
-"them to the *local working copy*."
-msgstr ""
-
-#: ../../source/using_the_version_control.rst:392
-msgid ""
-"The file icon with an *lock mark* (|lock_mark|) is used when files are in"
-" *edit mode* by other users. For these files it is only possible to check"
-" the information about the user editing the file."
-msgstr ""
-
 #: ../../source/using_the_version_control.rst:394
 msgid ""
-"The file icon with a *lock mark on a grey and white background* "
-"(|half_grey_lock_mark|) is used when files are *partially in edit mode* "
-"by other users."
+"|green_mark_check| The file icon with a *green check mark* is used when "
+"files in the *working copy* are in *edit mode*."
 msgstr ""
 
 #: ../../source/using_the_version_control.rst:396
 msgid ""
-"The file icon with the *plus mark* (|blue_plus_mark|) is used for files "
+"|half_grey_mark_check| The file icon with a *green check mark on a grey "
+"and white background* is used when files in the *working copy* are "
+"partially in *edit mode*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:398
+msgid ""
+"|red_exclamation_mark_check| The file icon with a *red exclamation mark* "
+"is used when files in the *working copy* are newer than the latest "
+"version available in the *repository*, because you modified them. You can"
+" use the **Put** command to copy them to the *central repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:400
+msgid ""
+"|half_grey_red_exclamation_mark_check| The file icon with a *red "
+"exclamation mark on a grey and white background* is used when files in "
+"the *working copy* are partially newer than to the latest version "
+"available in the *repository*, because you modified them. You can use the"
+" **Put** command to copy them to the *central repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:402
+msgid ""
+"|orange_exclamation_mark_check| The file icon with an *orange exclamation"
+" mark* is used when files in the *working copy* are older than the latest"
+" version available in the *repository*, because someone modified them. "
+"You can use the **Get** command to copy them to the *local working copy*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:404
+msgid ""
+"|lock_mark| The file icon with an *lock mark* is used when files are in "
+"*edit mode* by other users. For these files it is only possible to check "
+"the information about the user editing the file."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:406
+msgid ""
+"|half_grey_lock_mark| The file icon with a *lock mark on a grey and white"
+" background* is used when files are *partially in edit mode* by other "
+"users."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:408
+msgid ""
+"|blue_plus_mark| The file icon with the *plus mark* is used for files "
 "available only in the *working copy*. You can use the **Put** command to "
 "copy them to the *central repository*."
 msgstr ""
+
+#~ msgid ""
+#~ "When using a version control system "
+#~ "in order to modify files you have"
+#~ " to **Edit** them before loading them"
+#~ " into OpenToonz; if files are not "
+#~ "in *edit mode*, they can only be"
+#~ " loaded as *read-only*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Edit** operation unlocks the file"
+#~ " for the user running the command "
+#~ "(preventing other users using the same"
+#~ " *central repository* from unlocking it "
+#~ "and being able to modify it). When"
+#~ " a file is edited, it's possible "
+#~ "to type a comment to let the "
+#~ "other users know about your editing "
+#~ "operation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When editing a scene file (TNZ "
+#~ "format), in the dialog that opens "
+#~ "it's possible to check the **Edit "
+#~ "Scene Contents** option in order to "
+#~ "edit the materials used in the "
+#~ "scene as well. If you choose to"
+#~ " edit only the scene file, or "
+#~ "if some material used in the scene"
+#~ " is currently being edited by other"
+#~ " users sharing the same central "
+#~ "repository, the locked frames of the "
+#~ "level will be displayed with a "
+#~ "forbidden icon in the level strip."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Edit Frame Range** command is "
+#~ "available as well to edit only the"
+#~ " *needed frames* of any Toonz "
+#~ "animation level. This way, different "
+#~ "users can work at the same time"
+#~ " on *different frame ranges* of the"
+#~ " same animation level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to release files from"
+#~ " the *editing mode*, you can "
+#~ "**Unlock** them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Files are in read-only mode (or"
+#~ " in locked mode) in case a user"
+#~ " is *editing* them, by setting the"
+#~ " file system read-only attribute. For"
+#~ " this reason, manually using the OS"
+#~ " (instead of the appropriate version "
+#~ "control commands), to change this status"
+#~ " may cause serious inconsistencies in "
+#~ "the version control system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The main advantage of using a "
+#~ "version control system is that the "
+#~ "*history* of the revisions for every "
+#~ "file in the production database is "
+#~ "automatically available. This means that "
+#~ "it's possible to retrieve very easily"
+#~ " previous versions of any file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To retrieve older file versions it's "
+#~ "possible to use the **Get Revision** "
+#~ "command. When used on a single "
+#~ "file it displays a timeline with "
+#~ "all the file versions; in the "
+#~ "timeline you can check the different "
+#~ "file versions with the related icons "
+#~ "and information, and select which "
+#~ "version to get in order to edit"
+#~ " it. When used on a multiple "
+#~ "files selection it opens a dialog "
+#~ "that allows you to specify the "
+#~ "time, day, week or date of the "
+#~ "files version you want to retrieve."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the file browser displays files "
+#~ "in a list, the information about "
+#~ "the version control status is displayed"
+#~ " in the column labeled *Version "
+#~ "Control*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A *grey* folder icon (|grey_folder|) is"
+#~ " used for folders available only in"
+#~ " the *repository*. You can use the"
+#~ " **Get** command to copy them to "
+#~ "the local *working copy*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A colored folder icon with a "
+#~ "*yellow mark* (|colored_folder_with_yellow_mark|) is"
+#~ " used when the folder contents in "
+#~ "the *working copy* is not up to"
+#~ " date and does not match to the"
+#~ " folder contents in the *repository*: "
+#~ "this is the case when there are"
+#~ " modified or new files in the "
+#~ "*working copy* or there are modified "
+#~ "or new files in the *repository*. "
+#~ "You can use the **Get** command to"
+#~ " copy them to the local *working "
+#~ "copy*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A colored folder icon with a "
+#~ "*green mark* (|colored_folder_with_green_mark|) is"
+#~ " used when the folder contents in "
+#~ "the *working copy* is up to date"
+#~ " and matches to the folder contents"
+#~ " in the *repository*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A colored folder with a *plus "
+#~ "mark* (|colored_folder_with_plus_mark|) is used "
+#~ "for folders available only in the "
+#~ "*working copy*. You can use the "
+#~ "**Put** command to copy them to "
+#~ "the *central repository*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a *grey check"
+#~ " mark* (|grey_mark_check|) is used when "
+#~ "files in the *working copy* are up"
+#~ " to date and match to the "
+#~ "latest version available in the "
+#~ "*repository*. The files are in *read-"
+#~ "only mode*, and they have to be"
+#~ " in *edit mode* in order to be"
+#~ " modified."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a *green check"
+#~ " mark* (|green_mark_check|) is used when"
+#~ " files in the *working copy* are "
+#~ "in *edit mode*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a *green check"
+#~ " mark on a grey and white "
+#~ "background* (|half_grey_mark_check|) is used "
+#~ "when files in the *working copy* "
+#~ "are partially in *edit mode*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a *red "
+#~ "exclamation mark* (|red_exclamation_mark_check|) is"
+#~ " used when files in the *working "
+#~ "copy* are newer than the latest "
+#~ "version available in the *repository*, "
+#~ "because you modified them. You can "
+#~ "use the **Put** command to copy "
+#~ "them to the *central repository*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a *red "
+#~ "exclamation mark on a grey and "
+#~ "white background* (|half_grey_red_exclamation_mark_check|)"
+#~ " is used when files in the "
+#~ "*working copy* are partially newer than"
+#~ " to the latest version available in"
+#~ " the *repository*, because you modified "
+#~ "them. You can use the **Put** "
+#~ "command to copy them to the "
+#~ "*central repository*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with an *orange "
+#~ "exclamation mark* (|orange_exclamation_mark_check|) "
+#~ "is used when files in the *working"
+#~ " copy* are older than the latest "
+#~ "version available in the *repository*, "
+#~ "because someone modified them. You can"
+#~ " use the **Get** command to copy "
+#~ "them to the *local working copy*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with an *lock mark*"
+#~ " (|lock_mark|) is used when files are"
+#~ " in *edit mode* by other users. "
+#~ "For these files it is only "
+#~ "possible to check the information about"
+#~ " the user editing the file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with a *lock mark"
+#~ " on a grey and white background* "
+#~ "(|half_grey_lock_mark|) is used when files "
+#~ "are *partially in edit mode* by "
+#~ "other users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The file icon with the *plus mark*"
+#~ " (|blue_plus_mark|) is used for files "
+#~ "available only in the *working copy*."
+#~ " You can use the **Put** command "
+#~ "to copy them to the *central "
+#~ "repository*."
+#~ msgstr ""
 

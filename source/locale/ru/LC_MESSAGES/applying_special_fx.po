@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 00:47+0800\n"
+"POT-Creation-Date: 2019-06-15 12:06+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1087,8 +1087,8 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:442
 msgid ""
-"Click the **Camera Preview** button ( |Toonz71_408|) in the bottom bar of"
-" the FX Settings window to limit the preview to the camera shot."
+"Click the **Camera Preview** button (|camera|) in the bottom bar of the "
+"FX Settings window to limit the preview to the camera shot."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:444
@@ -1835,7 +1835,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:791
-#: ../../source/applying_special_fx.rst:1549
+#: ../../source/applying_special_fx.rst:1593
 msgid ""
 "The stage of the displacement map image can be controlled by using the "
 "Evolution value; by setting the variation of this value between two keys,"
@@ -3057,19 +3057,139 @@ msgstr ""
 msgid "See  :ref:`Using the Particles Effect <using_the_particles_effect>` ."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1377
-msgid "Stylize"
+#: ../../source/applying_special_fx.rst:1376
+msgid "Text Iwa"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1382
-msgid "Color Emboss"
+#: ../../source/applying_special_fx.rst:1377
+msgid "|text_1|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1379
+msgid ""
+"This effect allow for the creation of editable and animatable text, using"
+" the following parameters:"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1381
+msgid "**Source**, specifies the text source. You can choose one from:"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1383
-msgid "|Color_Emboss|"
+msgid ""
+"**Nearby Note Column**: Get the text from note level column put on the "
+"directly left side of the Text Iwa Fx Column in the Xsheet (For Timeline "
+"view, the Note Level layer just under the Fx Column is used). If the "
+"column does not contain Note Level or the cell is empty, text will not be"
+" rendered."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1385
+msgid "|text_2|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1387
+msgid ""
+"**Specified Note Column**: It's similar to the **Nearby Note Column** "
+"option, but the Note Level column number to use can be specified using "
+"the **Column Index** field below."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1389
+msgid ""
+"**Input Text**: The text typed in the **Text** field below will be used "
+"(as shown in the image on top)."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1391
+msgid ""
+"**Column Index**, specifies the source Note Level column number to use. "
+"Only used in **Specified Note Column** Source mode."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1393
+msgid ""
+"**Text**, specifies the source text. Only used in **Input Text** Source "
+"mode."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1395
+msgid ""
+"**Horizontal Align**, specifies the text align. Options are: **Left**, "
+"**Right**, **Center**, and **Justify**."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1397
+msgid "**Center X:**, **Y:** specify the position of the text."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1399
+msgid ""
+"**Width**, **Height**, define the dimension of the text box. Just like in"
+" the Text items of the Clapperboard feature, the font size will be "
+"automatically adjusted in order to fit the box. (See the  :ref:`Using The"
+" Clapperboard <using_the_clapperboard>` )."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1401
+msgid "**Font**, specifies the font family to use."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1403
+msgid "**Style:**, specifies the font style to use."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1405
+msgid "**Size:**, specifies the *maximum* font size to use."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1407
+msgid ""
+"The **Size** value will only take effect if the *automatically-calculated"
+" font size* (in order to fit the specified text box) is bigger than the "
+"value specified for this parameter."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1409
+msgid ""
+"**Text Color**, specifies the color of the text. This color will also be "
+"used for the border line."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1411
+msgid "**Box Color**, specifies the background color of the text box."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1413
+msgid ""
+"**Show Border**, when activated, a border line will be rendered around "
+"the *text bounding box*. Please note that the *text box* (specified by "
+"the user) and the *text bounding box* (automatically computed from the "
+"rendered text) may become different, especially when the maximum font "
+"**Size** parameter is set to a small value."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1415
+msgid ""
+"Known Issue: When you are using a Note Level column for the source text, "
+"a change in the note text will not automatically trigger the preview "
+"regeneration. You will need to manually regenerate the preview using the "
+"context menu of the Viewer."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1421
+msgid "Stylize"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1426
+msgid "Color Emboss"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1427
+msgid "|Color_Emboss|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1429
 msgid ""
 "Traces the edges of the Source content with a combination of highlights "
 "and shadows. You can set the Intensity of the effect, and the Distance "
@@ -3077,21 +3197,21 @@ msgid ""
 " the depth of the embossing."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1387
+#: ../../source/applying_special_fx.rst:1431
 msgid ""
 "By connecting a node to the Controller port, the Source content will be "
 "embossed according to the Controller node content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1392
+#: ../../source/applying_special_fx.rst:1436
 msgid "Emboss"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1393
+#: ../../source/applying_special_fx.rst:1437
 msgid "|Emboss|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1395
+#: ../../source/applying_special_fx.rst:1439
 msgid ""
 "Turns the Source content to grey areas and traces its edges with a "
 "combination of highlights and shadows. You can set the Intensity of the "
@@ -3099,36 +3219,36 @@ msgid ""
 "emboss effect. The Radius sets the depth of the embossing."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1400
+#: ../../source/applying_special_fx.rst:1444
 msgid "Mosaic"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1401
+#: ../../source/applying_special_fx.rst:1445
 msgid "|Mosaic|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1403
+#: ../../source/applying_special_fx.rst:1447
 msgid ""
 "Turns the Source content in a series of tiles according to the specified "
 "Size and Distance. The color and transparency of the tiles are sampled "
 "from the source content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1405
+#: ../../source/applying_special_fx.rst:1449
 msgid ""
 "A Background Color can be set, and will be visible around the tiles. The "
 "tile shape can be chosen between Square and Round."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1410
+#: ../../source/applying_special_fx.rst:1454
 msgid "Posterize"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1411
+#: ../../source/applying_special_fx.rst:1455
 msgid "|Posterize|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1413
+#: ../../source/applying_special_fx.rst:1457
 msgid ""
 "Converts the Source content into a number of shades according to the set "
 "number of Levels. The shades depends on the brightness values of the "
@@ -3137,15 +3257,15 @@ msgid ""
 "two for the blue."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1418
+#: ../../source/applying_special_fx.rst:1462
 msgid "Solarize"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1419
+#: ../../source/applying_special_fx.rst:1463
 msgid "|Solarize|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1421
+#: ../../source/applying_special_fx.rst:1465
 msgid ""
 "Blends a negative and a positive version of the Source content, as if "
 "exposing a photographic print briefly to light during development. You "
@@ -3153,11 +3273,11 @@ msgid ""
 "the amount of positive and negative image that is used in the blend."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1427
+#: ../../source/applying_special_fx.rst:1471
 msgid "Toonz Level"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1428
+#: ../../source/applying_special_fx.rst:1472
 msgid ""
 "Toonz Level type of effects can be applied only to Toonz Vector and Toonz"
 " Raster (PLI and TLV files). They usually affect the drawings they are "
@@ -3166,7 +3286,7 @@ msgid ""
 "right corner* of the style in any of the **Thumbnails View** modes."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1430
+#: ../../source/applying_special_fx.rst:1474
 msgid ""
 "Index numbers can be specified in the related text field, separated by a "
 "comma. To define a range of indexes, you should type the first and last "
@@ -3174,7 +3294,7 @@ msgid ""
 "select all indexes, type ``all`` ; to select no index, type ``none`` ."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1432
+#: ../../source/applying_special_fx.rst:1476
 msgid ""
 "Toonz Level type of effects have to be always applied first when a series"
 " of effects are applied to an animation level, as they work only on Toonz"
@@ -3183,15 +3303,15 @@ msgid ""
 "applied to the same animation level."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1437
+#: ../../source/applying_special_fx.rst:1481
 msgid "Art Contour"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1438
+#: ../../source/applying_special_fx.rst:1482
 msgid "|Art_Contour|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1440
+#: ../../source/applying_special_fx.rst:1484
 msgid ""
 "Creates in the Source content a pattern, by repeating the Controller node"
 " content, along lines painted with styles whose indexes are specified in "
@@ -3199,34 +3319,34 @@ msgid ""
 "scattered brush, or hair and fur effects along drawing lines."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1442
+#: ../../source/applying_special_fx.rst:1486
 msgid ""
 "The Keep Color option assigns the color of the line to the applied "
 "pattern; while the Keep Contour option retains the drawing line that will"
 " be visible beneath the pattern."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1444
+#: ../../source/applying_special_fx.rst:1488
 msgid ""
 "The way the contents of the Controller node create the pattern depends on"
 " the Pattern settings."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1446
+#: ../../source/applying_special_fx.rst:1490
 msgid ""
 "The Density sets the amount of pattern to be applied along the line. By "
 "setting the Density to 0, you can specify a Minimum and Maximum Distance "
 "between two subsequent images applied as pattern on the line."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1448
+#: ../../source/applying_special_fx.rst:1492
 msgid ""
 "The Size sets the Minimum and Maximum resizing percentage applied to the "
 "images used as the pattern; the value 100 is the original size of the "
 "images."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1450
+#: ../../source/applying_special_fx.rst:1494
 msgid ""
 "The Orientation sets the Minimum and Maximum rotation angle for the "
 "images used as the pattern, according to the line direction; the value 0 "
@@ -3235,44 +3355,44 @@ msgid ""
 "direction of the lines: the value 0 is the original images orientation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1455
+#: ../../source/applying_special_fx.rst:1499
 msgid "Calligraphic Line"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1456
+#: ../../source/applying_special_fx.rst:1500
 msgid "|Calligraphic_Line|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1458
+#: ../../source/applying_special_fx.rst:1502
 msgid ""
 "Changes in the Source content the thickness of the drawing lines painted "
 "with styles whose indexes are specified in the Color Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1460
-#: ../../source/applying_special_fx.rst:1494
+#: ../../source/applying_special_fx.rst:1504
+#: ../../source/applying_special_fx.rst:1538
 msgid ""
 "You can specify the Thickness increase and how it is applied, as a "
 "percentage, to the different line directions Horizontal, Vertical, Up "
 "Diagonal, Down Diagonal."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1462
+#: ../../source/applying_special_fx.rst:1506
 msgid ""
 "The Smoothness sets the smoothness of the passage between sections of the"
 " lines affected by the effect, and those not affected; while the Noise "
 "sets the regularity of the edge of the line."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1467
+#: ../../source/applying_special_fx.rst:1511
 msgid "Color Blending"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1468
+#: ../../source/applying_special_fx.rst:1512
 msgid "|Color_Blending|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1470
+#: ../../source/applying_special_fx.rst:1514
 msgid ""
 "Blends in the Source content lines and areas painted with styles whose "
 "indexes are specified in the Color Indexes text field. It can be used for"
@@ -3280,14 +3400,14 @@ msgid ""
 " or to create gradients of colors."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1472
+#: ../../source/applying_special_fx.rst:1516
 msgid ""
 "The Intensity sets how wide the blended area between the selected colors "
 "will be; while the Smoothness sets how smooth the dithering between "
 "blended colors is."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1474
+#: ../../source/applying_special_fx.rst:1518
 msgid ""
 "The No Blending over Other Colors option stops the blending as soon as a "
 "line, or an area, whose index is not included in the selection, is "
@@ -3295,64 +3415,64 @@ msgid ""
 "under excluded lines and areas."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1479
+#: ../../source/applying_special_fx.rst:1523
 msgid "External Palette"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1480
+#: ../../source/applying_special_fx.rst:1524
 msgid "|External_Palette|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1482
+#: ../../source/applying_special_fx.rst:1526
 msgid ""
 "Applies to the Source content the palette node connected to the Palette "
 "input port; if a column node is connected to the Palette input port, the "
 "palette related to its content will be considered."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1484
+#: ../../source/applying_special_fx.rst:1528
 msgid ""
 "The original styles of the Toonz levels contained in the source node are "
 "replaced with those of the levels contained in the palette node according"
 " to their style indexes."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1489
+#: ../../source/applying_special_fx.rst:1533
 msgid "Outline"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1490
+#: ../../source/applying_special_fx.rst:1534
 msgid "|Outline|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1492
+#: ../../source/applying_special_fx.rst:1536
 msgid ""
 "Changes in the Source content the thickness of the drawing external "
 "outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1496
+#: ../../source/applying_special_fx.rst:1540
 msgid ""
 "The Smoothness sets the smoothness of the passage between sections of the"
 " lines affected by the effect, and those not affected; while the Noise "
 "sets the regularity of the edge of the outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1501
+#: ../../source/applying_special_fx.rst:1545
 msgid "Palette Filter"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1502
+#: ../../source/applying_special_fx.rst:1546
 msgid "|Palette_Filter|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1504
+#: ../../source/applying_special_fx.rst:1548
 msgid ""
 "Filters the styles of the Source content palette according to the indexes"
 " specified in the Color Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1506
+#: ../../source/applying_special_fx.rst:1550
 msgid ""
 "The Apply To option menu lets you choose if you want to affect Lines & "
 "Area, only Lines or only Areas, even if painted with the same styles; the"
@@ -3360,57 +3480,57 @@ msgid ""
 "specified styles."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1511
+#: ../../source/applying_special_fx.rst:1555
 msgid "Pinned Texture"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1512
+#: ../../source/applying_special_fx.rst:1556
 msgid "|Pinned_Texture| |Pinned_Texture_2|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1514
+#: ../../source/applying_special_fx.rst:1558
 msgid ""
 "Distorts the Texture node content and applies it to the Source content "
 "areas that are painted with styles whose indexes are specified in the "
 "Color Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1516
+#: ../../source/applying_special_fx.rst:1560
 msgid ""
 "The distortion can be done like in the Free Distort effect (see  "
 ":ref:`Free Distort <free_distort>`  ) and the texture can be applied like"
 " in the Texture effect (see below)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1521
+#: ../../source/applying_special_fx.rst:1565
 msgid "Texture"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1522
+#: ../../source/applying_special_fx.rst:1566
 msgid "|Texture|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1524
+#: ../../source/applying_special_fx.rst:1568
 msgid ""
 "Applies the Texture node content to the Source content lines and areas "
 "that are painted with styles whose indexes are specified in the Color "
 "Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1526
+#: ../../source/applying_special_fx.rst:1570
 msgid ""
 "As the texture node content can be animated as you like, this effect "
 "allows you to generate animated texture as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1528
+#: ../../source/applying_special_fx.rst:1572
 msgid ""
 "The Action option menu lets you choose if you want to apply the texture "
 "to the specified styles (Keep) or to apply it to all styles except for "
 "the specified ones (Delete)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1530
+#: ../../source/applying_special_fx.rst:1574
 msgid ""
 "The Mode option menu lets you set how the texture node content will be "
 "applied: Texture uses the texture to replace selected styles; Pattern "
@@ -3421,18 +3541,18 @@ msgid ""
 "selected, you can also set the Value of the effect."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1532
+#: ../../source/applying_special_fx.rst:1576
 msgid ""
 "To repeat the texture image and tile it to create a larger texture, you "
 "can apply the Tile effect to the texture column before linking it to the "
 "Texture node (see  :ref:`Tile <tile>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1538
+#: ../../source/applying_special_fx.rst:1582
 msgid "Shaders"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1539
+#: ../../source/applying_special_fx.rst:1583
 msgid ""
 "OpenToonz enables support for special fxs rendered through hardware-"
 "accelereted pixelshaders. Shaders are simple programs compiled by a "
@@ -3443,34 +3563,34 @@ msgid ""
 "there for further s on editing or creating new shader fxs."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1544
+#: ../../source/applying_special_fx.rst:1588
 msgid "Caustic"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1545
+#: ../../source/applying_special_fx.rst:1589
 msgid "|Caustic|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1547
+#: ../../source/applying_special_fx.rst:1591
 msgid ""
 "Create in the selected column a simulation of the reflection of light on "
 "a water surface. Sets the color of the water defining the RGBA values of "
 "the Water Color parameter."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1554
+#: ../../source/applying_special_fx.rst:1598
 msgid "Fireball"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1555
+#: ../../source/applying_special_fx.rst:1599
 msgid "|Fireball|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1557
+#: ../../source/applying_special_fx.rst:1601
 msgid "Create in the selected column a ball of flames erupting from a point."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1559
+#: ../../source/applying_special_fx.rst:1603
 msgid ""
 "A range of colors can be defined setting the RGBA values of color 1 and "
 "color 2. The stage of the displacement map image can be controlled by "
@@ -3479,21 +3599,21 @@ msgid ""
 " animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1564
+#: ../../source/applying_special_fx.rst:1608
 msgid "Glitter"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1565
+#: ../../source/applying_special_fx.rst:1609
 msgid "|Glitter|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1567
+#: ../../source/applying_special_fx.rst:1611
 msgid ""
 "Adds cross-shaped light rays extending from the brightest part of an "
 "image."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1569
+#: ../../source/applying_special_fx.rst:1613
 msgid ""
 "Use Threshold to specify the cut-out on the input image's brightest part."
 " Higher values will make the fx add lights also to darker image parts, "
@@ -3505,22 +3625,22 @@ msgid ""
 "Higher values will produce broader rays."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1574
+#: ../../source/applying_special_fx.rst:1618
 msgid "Star Sky"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1575
+#: ../../source/applying_special_fx.rst:1619
 msgid "|Star_Sky|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1577
+#: ../../source/applying_special_fx.rst:1621
 msgid ""
 "Creates, in the selected column, a simple star field with variable "
 "brightness with overlayed clouds. Sets the color of the overlayed clouds "
 "defining the RGBA values of the Cloud Color parameter."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1579
+#: ../../source/applying_special_fx.rst:1623
 msgid ""
 "The stage of the stars displacement can be controlled by using the "
 "Evolution value; by setting the variation of this value between two keys,"
@@ -3528,19 +3648,19 @@ msgid ""
 "animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1581
+#: ../../source/applying_special_fx.rst:1625
 msgid "Use the Brightness parameters to define the brightness of the stars."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1586
+#: ../../source/applying_special_fx.rst:1630
 msgid "Sun Flare"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1587
+#: ../../source/applying_special_fx.rst:1631
 msgid "|Sun_Flare|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1589
+#: ../../source/applying_special_fx.rst:1633
 msgid ""
 "Creates, in the selected column, rays of colored light extending from a "
 "radial gradient at the center. Sets the color of the sun rays defining "
@@ -3551,15 +3671,15 @@ msgid ""
 "to make the rays sharper or smoother."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1594
+#: ../../source/applying_special_fx.rst:1638
 msgid "Wavy"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1595
+#: ../../source/applying_special_fx.rst:1639
 msgid "|Wavy|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1597
+#: ../../source/applying_special_fx.rst:1641
 msgid ""
 "Creates a simple gradient with a colored 'wavy' pattern in the selected "
 "column.The waves colors are definied by setting the RGBA value of the "
@@ -3569,15 +3689,15 @@ msgid ""
 "changes during the animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1602
+#: ../../source/applying_special_fx.rst:1646
 msgid "GPU Radial Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1603
+#: ../../source/applying_special_fx.rst:1647
 msgid "|GPU_Radial_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1605
+#: ../../source/applying_special_fx.rst:1649
 msgid ""
 "Blurs along radial lines whose origin is the set Center, defined by "
 "horizontal (X) and vertical (Y) coordinates, starting from an unaffected "
@@ -3585,15 +3705,15 @@ msgid ""
 " amount of blur."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1610
+#: ../../source/applying_special_fx.rst:1654
 msgid "GPU Spin Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1611
+#: ../../source/applying_special_fx.rst:1655
 msgid "|GPU_Spin_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1613
+#: ../../source/applying_special_fx.rst:1657
 msgid ""
 "Blurs along concentric circular lines as if the Source content turns "
 "around the set Center, defined by horizontal (X) and vertical (Y) "
@@ -5302,5 +5422,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "|Toonz71_503|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the **Camera Preview** button ("
+#~ " |Toonz71_408|) in the bottom bar of"
+#~ " the FX Settings window to limit "
+#~ "the preview to the camera shot."
 #~ msgstr ""
 

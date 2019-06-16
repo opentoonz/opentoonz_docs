@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 17:09+0800\n"
+"POT-Creation-Date: 2019-06-15 12:06+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,13 +220,13 @@ msgstr ""
 #: ../../source/rendering_the_animation.rst:309
 #: ../../source/rendering_the_animation.rst:347
 #: ../../source/rendering_the_animation.rst:359
-#: ../../source/rendering_the_animation.rst:620
-#: ../../source/rendering_the_animation.rst:630
-#: ../../source/rendering_the_animation.rst:715
-#: ../../source/rendering_the_animation.rst:741
-#: ../../source/rendering_the_animation.rst:751
-#: ../../source/rendering_the_animation.rst:761
-#: ../../source/rendering_the_animation.rst:771
+#: ../../source/rendering_the_animation.rst:686
+#: ../../source/rendering_the_animation.rst:696
+#: ../../source/rendering_the_animation.rst:781
+#: ../../source/rendering_the_animation.rst:805
+#: ../../source/rendering_the_animation.rst:813
+#: ../../source/rendering_the_animation.rst:821
+#: ../../source/rendering_the_animation.rst:829
 msgid "Do one of the following:"
 msgstr ""
 
@@ -352,7 +352,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:114
-#: ../../source/rendering_the_animation.rst:497
 msgid ""
 "**Resample Balance:** controls the resample that is used when images are "
 "scaled or rotated. In scenes where images are strongly resampled, for "
@@ -476,9 +475,9 @@ msgid "**To display blank frames after each preview playback when looping:**"
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:162
-#: ../../source/rendering_the_animation.rst:598
-#: ../../source/rendering_the_animation.rst:640
-#: ../../source/rendering_the_animation.rst:731
+#: ../../source/rendering_the_animation.rst:663
+#: ../../source/rendering_the_animation.rst:706
+#: ../../source/rendering_the_animation.rst:795
 msgid "Do any of the following:"
 msgstr ""
 
@@ -1153,192 +1152,245 @@ msgstr ""
 msgid "|output_settings_dialog|"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:451
-msgid ""
-"**Save in:** is for setting the location where the output is saved; the "
-"location can be set by typing or by using the browser button."
+#: ../../source/rendering_the_animation.rst:454
+msgid "Camera Settings"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:453
-msgid ""
-"If in the browser you choose any project default folder, in the path "
-"field the full path will be replace by the related default folder alias "
-"(see  :ref:`Project Default Folders <project_default_folders>`  )."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:455
-msgid ""
-"**Name:** is the name you want to assign to the output file; by default "
-"it is the same name of the scene."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:457
-msgid ""
-"In case the format is an image format, the name will be assigned to all "
-"rendered frames, that will be identified by a progressive four-digits "
-"number written between the file name and the file extension, e.g. "
-"``animation.0001.tif`` , ``animation.0002.tif`` , etc. These files will "
-"be displayed in the OpenToonz file browser with a double dot before the "
-"file extension, e.g. ``animation..tif`` , and treated as a single "
-"animation level."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:459
-msgid ""
-"**File Format** is the format for the output; natively supported formats "
-"are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, "
-"Spritesheet, TGA, TIF and TIFF."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:465
-msgid "Rendering in MP4 and WebM Formats"
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:466
-msgid ""
-"FFmpeg is a free software project that produces libraries and programs "
-"for handling multimedia data and can allow OpenToonz to load and render "
-"MP4 and WebM video formats. MP4 and WebM will be listed along the other "
-"standard output formats. To enable this feature it is necessary to "
-"install FFmpeg on the computer, indicate its installation path to "
-"OpenToonz by going to Preferences > Import/Export page, and restart "
-"OpenToonz for the change to take effect."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:468
-msgid "**To enable the rendering in MP4 and WebM:**"
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:470
-msgid "Go to https://www.ffmpeg.org/download.html and install FFmpeg."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:472
-msgid "Go to the File > Preferences > Import/Export page."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:474
-msgid ""
-"Write the FFmpeg installation path in the text field (e.g. "
-"C:\\\\ffmpeg\\\\bin) ."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:476
-msgid "Restart OpenToonz."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:478
-msgid ""
-"Go to File > Output Settings and choose mp4 or webm from the File Format "
-"list."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:481
-msgid ""
-"Apart from 3GP, Microsoft AVI, QuickTime, MP4 and WebM, all the other "
-"formats will output sequences of full-color images."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:483
-msgid ""
-"OpenToonz supports the 3GP and MOV, formats by using the 32-bit version "
-"of QuickTime."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:485
-msgid ""
-"The **Options** button opens a dialog to set specific properties related "
-"to the chosen file format, such as codecs for MOV files, color depth for "
-"TIF images, etc."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:487
+#: ../../source/rendering_the_animation.rst:456
 msgid ""
 "**Output Camera:** sets which camera, among the ones defined in the "
 "scene, has to be used to render the animation."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:489
+#: ../../source/rendering_the_animation.rst:458
+msgid ""
+"**Frame Size** sets the frame size of the current camera, also available "
+"in the Xsheet > **Camera Settings...** dialog (see  :ref:`Defining Camera"
+" Settings <defining_camera_settings>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:460
 msgid ""
 "**Frame Start:** and **End:** set the frame range of the scene to render;"
 " by default these values refer to the whole scene length."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:491
+#: ../../source/rendering_the_animation.rst:462
 msgid ""
 "**Step:** sets the step for the rendered sequence; for example if it is "
 "2, one frame each two will be rendered."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:493
+#: ../../source/rendering_the_animation.rst:464
 msgid ""
 "**Shrink:** sets a reduction value for the defined render resolution; for"
 " example if it is 2, one pixel each two will be rendered, thus resulting "
 "in frames having half of the original output camera resolution."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:495
-msgid ""
-"**Multiple Rendering:** creates automatically for a single scene several "
-"output files based on the Xsheet columns content, and according to the FX"
-" Schematic. Options are None, FX Schematic Flows and FX Schematic "
-"Terminal Nodes (see  :ref:`Creating Multiple Renderings "
-"<creating_multiple_renderings>`  )."
+#: ../../source/rendering_the_animation.rst:469
+msgid "File Settings"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:499
+#: ../../source/rendering_the_animation.rst:471
 msgid ""
-"There are several options to choose from. Originally Toonz provided three"
-" options: Standard, Improved, High. The higher the balance chosen, the "
-"longer the time needed for rendering the output. Now OpenToonz also "
-"provides several other standard resampling filters that could help "
-"improve the final results in a wider range of situations."
+"**Save in:** is for setting the location where the output is saved; the "
+"location can be set by typing or by using the Browser button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:501
+#: ../../source/rendering_the_animation.rst:473
+msgid ""
+"If in the Browser you choose any default folder of the active project, in"
+" the path field the full path will be replaced by the related default "
+"folder alias (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:475
+msgid ""
+"**Name:** is the name you want to assign to the output file; by default "
+"it's the name of the scene."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:477
+msgid ""
+"In case the chosen file format produces image sequences, the base name "
+"will be assigned to all rendered frames, that will be identified by a "
+"progressive four-digits number written between the *base name* and the "
+"*file extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , "
+"etc. These file sequences will be displayed in the OpenToonz File Browser"
+" with a double dot before the file extension, e.g. ``animation..tif`` , "
+"and treated as a single animation level when loaded back into OpenToonz."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:479
+msgid ""
+"**File Format** is the format for the output; natively supported formats "
+"are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, "
+"Spritesheet, TGA, TIF and TIFF."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:481
+msgid ""
+"OpenToonz supports the 3GP and MOV, formats by using the 32-bit version "
+"of QuickTime."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:483
+msgid ""
+"To save in other popular video formats, like MP4 and WebM, OpenToonz uses"
+" FFmpeg (a free software project that produces libraries and programs for"
+" handling multimedia data). Once FFmpeg is installed in the system, and "
+"configured to work with OpenToonz, MP4 and WebM will be listed along the "
+"other standard output file formats. For detailed instructions on how to "
+"install and configure FFmpeg, please see  :ref:`Using FFmpeg with "
+"OpenToonz <using_ffmpeg_with_opentoonz>`  ."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:485
+msgid ""
+"Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will "
+"output image sequences."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:487
+msgid ""
+"**Options** button, opens a dialog to set specific properties related to "
+"the chosen file format, such as codecs for video files, color depth for "
+"TIF images, etc."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:489
+msgid ""
+"**Resample Balance:** controls the resample that is used when images are "
+"scaled or rotated. In scenes where images are strongly resampled, for "
+"instance when their size changes dramatically, the final rendering may "
+"appear slightly out of focus. By chosing a different resampling algorithm"
+" you can give some sharpness back to the rendered frames."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:491
+msgid ""
+"There are several options to choose from. Originally Toonz provided only "
+"three options: **Standard**, **Improved**, and **High**. The higher the "
+"balance chosen, the longer the time needed for rendering the output. "
+"Currently OpenToonz also provides several other standard resampling "
+"options that could help improve the final results in a wider range of "
+"situations. These include: **Triange filter**, **Mitchell-Netravali "
+"filter**, **Cubic convolution**, **Hann window**, **Hamming window**, "
+"**Lanczos window**, **Gaussian convolution**, **Closest Pixel** and "
+"**Bilinear**."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:493
 msgid ""
 "**Channel Width:** sets the color depth for rendered images; choices are "
-"8 bit or 16 bit per color channel. If using the 16 bit channel width, be "
-"sure to select an output file format supporting it, for example the TIF "
-"format with the 64 Bits Per Pixel option activated."
+"**8 bit** and **16 bit** per color channel. If using the 16 bit channel "
+"width, be sure to select an output file format supporting it, for example"
+" the **TIF** format with the **64 Bits Per Pixel** option activated."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:503
+#: ../../source/rendering_the_animation.rst:495
+msgid ""
+"**Dedicated CPUs:** sets, in case your computer has multiple CPUs, how "
+"many processor threads will be assigned to the rendering process. Setting"
+" the value to **All** will generate a number of rendering threads equal "
+"to the number of processors, thus speeding up the rendering process. "
+"However in systems with limited RAM resources, it's suggested to use the "
+"**Half** or **Single** options if the scene to render is very complex, "
+"because the higher the dedicated CPUs, the more RAM will be required to "
+"perform the rendering, leading to potentially longer rendering times or "
+"system instability."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:497
+msgid ""
+"**Render Tile:** allows the rendering of complex scenes, by dividing each"
+" frame in a certain number of *tiles*, which are individually rendered "
+"and finally stitched together to create the final output frame: the "
+"smaller the size of the tiles, the longer the rendering will take but the"
+" less RAM will require. Setting the value to **Medium** or **Small** will"
+" allow the rendering of very high resolution outputs of very complex "
+"scenes, that otherwise may fail to be rendered; setting the value to "
+"**None** may prevent some artifacts that the tile stitching may generate."
+" In most cases the **Large** value will do the work, because it's not "
+"slower than the **None** option, and yet is able to render complex "
+"scenes."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:502
+msgid "Other Settings"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:504
+msgid ""
+"**Add Clapperboard** allows to add a Clapperboard. A clapperboard is a "
+"static image intended to display information of the scene. It will be "
+"added before the rendered frames, in order to record and convey "
+"information to subsequent phases of the pipeline."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:506
+msgid ""
+"For this option to be enabled you must first choose any video file format"
+" from the **File Format** dropdown menu (i.e. 3GP, AVI, MOV, MP4 or "
+"WebM)."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:508
+msgid ""
+"**Edit Clapperboard...** button, opens a dialog for designing the "
+"clapperboard and setting its properties. For detailed information on "
+"using the Clapperboard feature, please see the  :ref:`Using The "
+"Clapperboard <using_the_clapperboard>`  section."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:510
 msgid ""
 "**Gamma:** performs a gamma correction on rendered images before writing "
-"them to disk; the value you specify can include decimal fractions."
+"them to a file; the value you specify can include decimal fractions."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:505
+#: ../../source/rendering_the_animation.rst:512
 msgid ""
 "**Dominant Field:** allows you to render two images per frame, then "
-"taking only odd lines from one image, and even lines from the other, to "
-"compose the final frame. This process is also called interlacing."
+"keeping only *odd* lines from one image, and *even* lines from the other "
+"to compose a final frame. This process is called *interlacing*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:507
+#: ../../source/rendering_the_animation.rst:514
 msgid ""
-"Interlacing is useful when experiencing a strobe effect due to a fast "
-"camera or pegbar movement, because all object movements are interpolated "
-"on a double number of images (one odd-lines image and one even-lines "
-"image instead of just one frame), thus becoming smoother."
+"*Interlaced* images are useful when experiencing a strobe effect due to a"
+" fast camera or object movement, as all movement interpolation will be "
+"effectively doubled (having one *odd-lines image* and one *even-lines "
+"image*, instead of just one full *progresive* frame), thus becoming "
+"smoother."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:509
+#: ../../source/rendering_the_animation.rst:516
 msgid ""
-"Field rendering is only relevant for scenes to be rendered for video "
-"output. Options are Even (PAL) and Odd (NTSC), and you should choose it "
-"according to the video standard you are outputting to."
+"Field rendering is only relevant for scenes that are intended for video "
+"output. Options are **None** (for rendering *progresive* frames), **Even "
+"(PAL)** and **Odd (NTSC)** (for chosing which of the rendered "
+"*interlaced* fields is to be shown in first place). Usually you should "
+"choose it according to the video standard you are outputting to."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:511
+#: ../../source/rendering_the_animation.rst:518
+msgid ""
+"**Frame Rate**: is the frame rate of the scene, also available in the "
+"Xsheet > **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate "
+"<setting_the_frame_rate>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:520
 msgid ""
 "**Stretch from FPS:  To:** changes the timing of the Xsheet when "
 "outputting files; in this way you can output a number of frames that is "
 "independent from the frame rate set in the scene settings."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:513
+#: ../../source/rendering_the_animation.rst:522
 msgid ""
 "For example, if you are working at 25 fps, a 150 frames Xsheet will "
 "produce 6 seconds of animation. If you need to transfer the frame rate to"
@@ -1350,10 +1402,10 @@ msgid ""
 "equal to 180 frames)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:515
+#: ../../source/rendering_the_animation.rst:524
 msgid ""
-"When passing from a higher frame rate to a lower one, some level drawings"
-" will not be used because the number of output frames decreases. When "
+"When going from a higher frame rate to a lower one, some level drawings "
+"will not be used because the number of output frames decreases. When "
 "doing the contrary, some level drawings will be repeated because the "
 "number of output frames is higher. Interpolations for object movements "
 "and special effects variations will be re-computed according to the final"
@@ -1361,661 +1413,778 @@ msgid ""
 "possible."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:517
-msgid ""
-"When the Field rendering is used and the Stretch feature is set for "
-"passing from a lower frame rate to a higher one, drawings and images will"
-" be interlaced as well to create newly added frames."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:519
-msgid ""
-"Particles FX may have unexpected results when the scene is stretched to a"
-" higher FPS value, as the effect requires the original timing "
-"information."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:521
-msgid ""
-"**Do stereoscopy** activates the stereoscopic 3D output of the scenes. "
-"Each frame will be rendered from two different camera view creating two "
-"sequences of files, one for each view. The suffixes _l (left) and _r "
-"(right) will be used to identify sequences. The **Camera Shift** "
-"parameter sets the distance between the two camera views."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:524
-msgid ""
-"For working properly at least some elements of the scene must have "
-"Z-Depth values other than 0 for their positioning. OpenToonz uses these "
-"values as the Camera Shift parameter for rendering the stereoscopic "
-"effect."
-msgstr ""
-
 #: ../../source/rendering_the_animation.rst:526
 msgid ""
-"**Dedicated CPUs:** sets, in case your computer has multiple CPUs, how "
-"many processors will be assigned to the rendering process. Setting the "
-"value to All will generate a number of rendering threads equal to the "
-"number of processors, thus speeding up the rendering process. However it "
-"is suggested to use the Half or Single values if the scene to render is "
-"very complex, because the higher the dedicated CPUs, the more memory will"
-" be required to perform the rendering."
+"When the field rendering is used (by using the **Dominant Field** option)"
+" and the **Stretch** feature is set for passing from a lower frame rate "
+"to a higher one, drawings and images *will be interlaced* as well, to "
+"create newly added frames."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:528
 msgid ""
-"**Render Tile:** allows the rendering of very complex scenes whose frames"
-" will be computed in tiles that are automatically stitched to create the "
-"final output: the smaller the size of the tile, the longer the rendering."
-" Setting the value to Medium or Small will allow the rendering of very "
-"high resolution outputs of very complex scenes, that otherwise may fail "
-"to be rendered; setting the value to None may prevent some artifacts that"
-" the tile stitching may generate. In most cases the Large value will do "
-"the work, because it is not slower than the None option, and yet is able "
-"to render complex scenes."
+"The **Particles** effect may have unexpected results when the scene is "
+"stretched to a higher FPS value, as the effect requires the original "
+"timing information."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:531
+#: ../../source/rendering_the_animation.rst:530
+msgid ""
+"**Multiple Rendering:** creates automatically for a single scene several "
+"output files based on the Xsheet columns content, and according to the FX"
+" Schematic. Options are **None**, **FX Schematic Flows** and **FX "
+"Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings "
+"<creating_multiple_renderings>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:532
+msgid ""
+"**Do stereoscopy** activates the stereoscopic 3D output of the scenes. "
+"Each frame will be rendered from two different camera view creating two "
+"sequences of files, one for each view. The suffixes **_l** (left) and "
+"**_r** (right) will be used to identify sequences."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:534
+msgid "**Camera Shift:** sets the distance between the two camera views."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:536
+msgid ""
+"For working properly at least some elements of the scene must have "
+"**Z-Depth** values other than 0 in their positioning. OpenToonz uses "
+"these values and the **Camera Shift** parameter for rendering the "
+"stereoscopic effect."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:538
+msgid ""
+"**Render** button, starts rendering the scene using the current render "
+"settings."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:540
 msgid "**To set the scene output settings:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:533
+#: ../../source/rendering_the_animation.rst:542
 msgid "Choose File > Output Settings."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:535
+#: ../../source/rendering_the_animation.rst:544
 msgid "Set the options you want to use for the final rendering."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:541
-msgid "Creating Multiple Renderings"
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:542
-msgid ""
-"With **Multiple Rendering:** it's possible to render automatically, from "
-"a single scene, several output files based on the Xsheet columns content,"
-" and according to the FX schematic. Options are None, FX Schematic Flows "
-"and FX Schematic Terminal Nodes."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:544
-msgid ""
-"FX Schematic Flows creates as many outputs as the flows connecting the "
-"column nodes to the Xsheet one; any FX node with multiple input ports met"
-" along the flow, such as the Matte FX, are ignored."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:546
-msgid ""
-"FX Schematic Terminal Nodes creates as many outputs as the number of "
-"nodes that in the FX Schematic are linked to the Xsheet node; all the "
-"columns and FX linked to each of these nodes will be taken into account "
-"for the rendering."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:548
-msgid ""
-"The names of the different output files are automatically generated in "
-"order to avoid any name conflict between file names. In particular they "
-"are built by appending to the output file name the name of the column, "
-"then the column ID as can be read in the FX Schematic nodes tooltips, "
-"then the FX node name, then the node ID (as can be read in the FX "
-"Schematic nodes tooltips) if the FX node was renamed. For example "
-"``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of "
-"the scene ``scene01`` , related to the flow going from the column B "
-"(whose ID is Col3) to the FX node My Blur (whose ID is Blur1)."
-msgstr ""
-
 #: ../../source/rendering_the_animation.rst:550
-msgid ""
-"No output is displayed after the rendering, regardless of the Open "
-"Flipbook After Rendering option in the Preferences dialog."
+msgid "Using The Clapperboard"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:552
+#: ../../source/rendering_the_animation.rst:551
 msgid ""
-"If you need more control on the way scene elements are rendered, you may "
-"consider using Sub-Xsheets and the Over FX (see  :ref:`Using Sub-Xsheets "
-"<using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want"
-" a single output for a set of columns, you may collapse them in a Sub-"
-"Xsheet in case of Flows multiple rendering, or connect them to several "
-"Over nodes in case of Terminal Nodes multiple rendering."
+"A clapperboard is a static image intended to display information of the "
+"scene. It will be added before the rendered frames, in order to record "
+"and convey information to subsequent phases of the pipeline."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:558
-msgid "Rendering Animations with Alpha Channel Information"
+#: ../../source/rendering_the_animation.rst:553
+msgid "|clapperboard|"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:555
+msgid ""
+"The clapperboard consists of board *items*. At the bottom-right of the "
+"Clapperboard Settings dialog there is a list of all the clapperboard "
+"items, which can be layered by moving them **Up** or **Down** in the list"
+" by using the appropriate buttons. Items can also be created or deleted "
+"by using the **Add** or **Remove** buttons."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:559
 msgid ""
-"It is possible to render a scene with a transparent background color in "
-"order to export it to editing systems supporting the alpha channel "
-"information."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:561
-msgid ""
-"In this case no image has to be used as background, and the output file "
-"format has to support the alpha channel information, e.g. TIF at 32 or 64"
-" bits, TGA at 32 bits, or MOV with codecs supporting alpha."
+"Settings for the *currently selected* item are displayed above the items "
+"list, at the top-right of the Clapperboard Settings dialog. Each item has"
+" an information **Type:**. Most of them will automatically retrieve the "
+"correspondent data from the current scene or the system, such as: scene "
+"**Duration**, **Scene location**, **Current date**, etc. Other types, "
+"such as **Text** or **Image** allow to input user defined data to be "
+"displayed in the Clapperboard."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:563
-msgid "**To render animation with alpha channel information:**"
+msgid ""
+"The settings can be saved as a *Preset* in order to be reused later, "
+"using the **Save as Preset** and **Load Preset** buttons. They can also "
+"be stored in the project's default settings by using the File > **Save "
+"Default Settings** command."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:565
-msgid "Choose Xsheet > Scene Settings."
+#: ../../source/rendering_the_animation.rst:566
+msgid ""
+"WARNING: Adding the Clapperboard will make the scene file to lose "
+"compatibility with older versions of OpenToonz. Setting the **Duration:**"
+" back to 0 will remove the clapperboard data from the scene, so that "
+"compatibility can be restored."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:567
-msgid "Set the alpha channel of the Camera BG Color to transparent."
+#: ../../source/rendering_the_animation.rst:568
+msgid "**To Add a Clapperboard:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:569
-msgid "Choose an output file format supporting alpha channel information."
+#: ../../source/rendering_the_animation.rst:570
+#: ../../source/rendering_the_animation.rst:586
+#: ../../source/rendering_the_animation.rst:592
+msgid "Open the File > Output Settings... dialog."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:575
-msgid "Rendering A Loaded Scene"
+#: ../../source/rendering_the_animation.rst:572
+msgid ""
+"Select the output file format to any movie type (3GP, AVI, MOV, MP4 or "
+"WebM)."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:574
+#: ../../source/rendering_the_animation.rst:594
+msgid "Open **Other Settings** group box."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:576
-msgid ""
-"The current scene can be rendered directly while being loaded in "
-"OpenToonz according to the defined output settings."
+msgid "Enable the **Add Clapperboard** option."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:578
+#: ../../source/rendering_the_animation.rst:596
 msgid ""
-"By choosing the appropriate range in the output settings it is possible "
-"to render the scene in chunks, for example by rendering a section first, "
-"and then another one. In this case the animation available in the output "
-"location will always include all frames rendered up to that point both if"
-" the format is a multiple-files output, e.g. TIF or TGA, and a single-"
-"file one, e.g. QuickTime MOV. The same applies if a section of the scene "
-"has to be rendered again because some corrections were needed."
+"Click **Edit Clapperboard...** button. The **Clapperboard Settings** "
+"dialog opens."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:580
-msgid ""
-"If the scene contains some audio files and is rendered in a file format "
-"supporting audio, for example QuickTime MOV, all the audio files will be "
-"merged to form the soundtrack of the movie (see  :ref:`Creating a "
-"Soundtrack <creating_a_soundtrack>`  )."
+msgid "Set the **Duration (frames):** option to any value greater than 0."
 msgstr ""
 
 #: ../../source/rendering_the_animation.rst:582
+msgid ""
+"Setting the duration to 0 frames will remove the clapperboard data from "
+"the scene when it's saved."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:584
+msgid "**To temporarily deactivate the Clapperboard:**"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:588
+msgid "Disable the **Add Clapperboard** option."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:590
+msgid "**To Delete the Clapperboard:**"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:598
+msgid "Set the **Duration (frames):** option value to 0."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:600
+msgid "Save the scene."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:606
+msgid "Creating Multiple Renderings"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:607
+msgid ""
+"With **Multiple Rendering:** it's possible to render automatically, from "
+"a single scene, several output files based on the Xsheet columns content "
+"and according to the FX Schematic. Options are **None**, **FX Schematic "
+"Flows** and **FX Schematic Terminal Nodes**."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:609
+msgid ""
+"**Flows**: creates as many outputs as the **flows connecting the column "
+"nodes to the Xsheet node**. Any effect nodes with multiple input ports "
+"met along the flow (such as Matte effects) will be ignored."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:611
+msgid ""
+"**Terminal Nodes**: creates as many outputs as the **number of nodes "
+"linked to the Xsheet node**; all the columns and effects linked to each "
+"of these nodes will be taken into account for the rendering."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:613
+msgid ""
+"The names of the different output files are automatically generated in "
+"order to avoid any name conflict between file names. In particular they "
+"are built by appending to the *output file name*: the **column name**, "
+"then the **column ID** (as can be read in the node tooltip), then the "
+"**effect name**, then the **effect ID** (as can be read in the node "
+"tooltip) *in case the effect node was renamed*. For example "
+"``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of "
+"the scene ``scene01`` , related to the flow going from column B (whose ID"
+" is Col3) to the effect node My Blur (whose ID is Blur1)."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:615
+msgid ""
+"No output will be displayed after the rendering, regardless of **Open "
+"Flipbook after Rendering** being activated in Preferences > Preview "
+"dialog."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:617
+msgid ""
+"If you need more control on the way scene elements are rendered, you may "
+"consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-"
+"Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if "
+"you want a single output for a set of columns, you may collapse them in a"
+" Sub-Xsheet in case of **Flows** type multiple rendering, or connect them"
+" to several Over nodes in case of **Terminal Nodes** type multiple "
+"rendering."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:623
+msgid "Rendering Animations with Alpha Channel Information"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:624
+msgid ""
+"It's possible to render a scene with a transparent background color in "
+"order to export it to editing systems supporting alpha channel "
+"information."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:626
+msgid ""
+"In this case no image has to be used as background, and the output file "
+"format has to support alpha channel information, e.g. TIF at 32 or 64 "
+"bits per pixel, TGA at 32 bits per pixel, or MOV with codecs supporting "
+"alpha (i.e. Animation)."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:628
+msgid "**To render animation with alpha channel information:**"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:630
+msgid "Choose Xsheet > **Scene Settings...**."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:632
+msgid "Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent)."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:634
+msgid "Choose an output file format supporting alpha channel information."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:640
+msgid "Rendering A Loaded Scene"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:641
+msgid ""
+"The current scene can be rendered directly while being loaded in "
+"OpenToonz according to the defined Output Settings."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:643
+msgid ""
+"By choosing the appropriate range in the Output Settings it's possible to"
+" render the scene in chunks, for example by rendering a section first, "
+"and then another one. In this case the animation available in the Output "
+"location will always include all frames rendered up to that point, both "
+"if the format is a multiple-files output (e.g. TIF or TGA), and a single-"
+"file one (e.g. MP4 or MOV). The same applies if a section of the scene "
+"has to be rendered again because some corrections were needed."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:645
+msgid ""
+"If the scene contains some audio files and is rendered in a file format "
+"supporting audio (for example MP4), all the audio files will be merged to"
+" form the soundtrack of the movie (see  :ref:`Creating a Soundtrack "
+"<creating_a_soundtrack>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:647
 msgid ""
 "Audio files loaded in Sub-Xsheets will not be included in the output "
 "soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:584
+#: ../../source/rendering_the_animation.rst:649
 msgid ""
 "As soon as the rendering is over, the rendered animation can be "
-"automatically displayed in a OpenToonz flipbook by activating the Open "
-"Flipbook after Rendering option in the Preferences > Interface dialog; it"
-" is also possible to display blank frames after each rendering playback "
-"when looping. If a soundtrack is available for the rendered scene, it is "
+"automatically displayed in a OpenToonz Flipbook by activating the **Open "
+"Flipbook after Rendering** option in the Preferences > Preview dialog; "
+"it's also possible to display blank frames after each rendering playback "
+"when looping. If a soundtrack is available for the rendered scene, it's "
 "also possible to listen to it."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:586
+#: ../../source/rendering_the_animation.rst:651
 msgid ""
-"When displayed in the flipbook, the rendering can be checked by using the"
-" flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
+"When displayed in the Flipbook, the rendering can be checked by using the"
+" Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:588
+#: ../../source/rendering_the_animation.rst:653
 msgid ""
-"You can also activate the Use Default Viewer for Movie Format option in "
-"the Preferences > General dialog in order to play back the output with "
-"its own default viewer, e.g. QuickTime for the MOV format."
+"You can also activate the **Use Default Viewer for Movie Format** option "
+"in the Preferences > General dialog, in order to play back the output "
+"with its own default viewer, e.g. QuickTime Player for the MOV format."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:590
+#: ../../source/rendering_the_animation.rst:655
 msgid "**To render the currently loaded scene:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:592
-msgid "Choose File > Render."
+#: ../../source/rendering_the_animation.rst:657
+msgid "Choose File > **Render**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:594
+#: ../../source/rendering_the_animation.rst:659
 msgid "**To display blank frames after each rendering playback when looping:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:596
-msgid "Choose File > Preferences > Preview."
+#: ../../source/rendering_the_animation.rst:661
+msgid "Choose File > Preferences > **Preview**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:600
+#: ../../source/rendering_the_animation.rst:665
 msgid ""
-"In the Preview Blank Images Count set how many blank frames you want to "
-"be displayed after each preview playback when looping."
+"In **Blank Frames:** set how many blank frames you want to be displayed "
+"after each preview playback, when looping."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:602
-msgid "In the Preview Blank Color set the color for the blank frames."
+#: ../../source/rendering_the_animation.rst:667
+msgid "In **Blank Frames Color:** set the color for the blank frames."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:608
+#: ../../source/rendering_the_animation.rst:673
 msgid "Rendering Scenes in Batch Mode"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:609
+#: ../../source/rendering_the_animation.rst:674
 msgid ""
 "The rendering of a scene can be added to a task list and performed in "
-"batch mode in order to run it in the background while you perform other "
+"batch mode, in order to run it in the background while you perform other "
 "work on your computer."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:611
+#: ../../source/rendering_the_animation.rst:676
 msgid ""
-"Render tasks can be submitted from the OpenToonz browser and can be "
-"managed and executed in the Tasks pane, together with cleanup tasks (see"
-"  :ref:`Cleaning up Drawings in Batch Mode "
+"*Render tasks* can be submitted from the OpenToonz Browser and can be "
+"managed and executed in the Tasks pane, together with *Cleanup tasks* "
+"(see  :ref:`Cleaning up Drawings in Batch Mode "
 "<cleaning_up_drawings_in_batch_mode>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:614
+#: ../../source/rendering_the_animation.rst:678
+msgid "|tasks|"
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:680
 msgid ""
 "The Tasks pane is divided into two sections: on the left there is the "
-"task tree where all of the render tasks are displayed with a clapboard "
-"icon and all the cleanup tasks with a brush icon; on the right there is "
-"information about the task selected in the tree."
+"Task tree where all of the *Render tasks* are displayed with a clapboard "
+"icon and all the *Cleanup tasks* with a brush icon; on the right there is"
+" Information about the task selected in the Task tree."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:616
+#: ../../source/rendering_the_animation.rst:682
 msgid ""
-"The task list can be saved as TNZBAT files and loaded back later in case "
-"you want to manage it through different working sessions."
+"The Task list can be saved as TNZBAT files and loaded back later, in case"
+" you want to manage it through different working sessions."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:618
-msgid "**To save a task list:**"
+#: ../../source/rendering_the_animation.rst:684
+msgid "**To Save a Task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:622
+#: ../../source/rendering_the_animation.rst:688
 msgid ""
-"Click the Save Task List (|save|) or the Save Task List As button "
-"(|save_as|) in the bottom bar of the Tasks pane."
+"Click the **Save** (|save|) or the **Save As** (|save_as|) buttons in the"
+" top bar of the Tasks pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:624
+#: ../../source/rendering_the_animation.rst:690
 msgid ""
-"Right-click the Tasks item at the top of the list and choose Save Task "
-"List or the Save Task List As from the menu that opens."
+"Right-click the **Tasks** item at the top of the list and choose **Save "
+"Task List** or the **Save Task List As** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:626
-msgid "Use the browser that opens to save the list."
+#: ../../source/rendering_the_animation.rst:692
+msgid "Use the Browser that opens to save the list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:628
-msgid "**To load a task list:**"
+#: ../../source/rendering_the_animation.rst:694
+msgid "**To Load a Task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:632
+#: ../../source/rendering_the_animation.rst:698
+msgid "Click the **Load** (|load|) button in the top bar of the Tasks pane."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:700
 msgid ""
-"Click the Load Task List button (|load|) in the bottom bar of the Tasks "
-"pane."
+"Right-click the **Tasks** item at the top of the list and choose **Load "
+"Task List** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:634
-msgid ""
-"Right-click the Tasks item at the top of the list and choose Load Task "
-"List from the menu that opens."
+#: ../../source/rendering_the_animation.rst:702
+msgid "Use the Browser that opens to retrieve and load a previously saved list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:636
-msgid "Use the browser that opens to retrieve and load a previously saved list."
+#: ../../source/rendering_the_animation.rst:704
+msgid "**To resize the Tasks pane sections:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:638
-msgid "**To resize the tasks pane sections:**"
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:642
+#: ../../source/rendering_the_animation.rst:708
 msgid "Click and drag the separator to resize sections."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:644
+#: ../../source/rendering_the_animation.rst:710
 msgid "Click and drag the separator toward the window border to hide a section."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:646
+#: ../../source/rendering_the_animation.rst:712
 msgid ""
 "Click and drag the separator collapsed to the window border toward the "
 "window center to display again the hidden section."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:652
+#: ../../source/rendering_the_animation.rst:718
 msgid "Managing and Executing Render Tasks"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:653
+#: ../../source/rendering_the_animation.rst:719
 msgid ""
-"When a render task is selected in the tree, in the section on the right "
-"of the Tasks pane task-related properties are displayed, some of which "
+"When a *Render task* is selected in the tree, in the section on the right"
+" of the Tasks pane task-related properties are displayed, some of which "
 "can be edited to configure the task. Properties are the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:655
+#: ../../source/rendering_the_animation.rst:721
 msgid ""
-"Name displays the tasks name; it can be edited to better identify the "
+"**Name** displays the task name; it can be edited to better identify the "
 "task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:657
-msgid "Status displays if the task is waiting, running, completed or failed."
+#: ../../source/rendering_the_animation.rst:723
+msgid "**Status** shows if the task is: Waiting, Running, Completed or Failed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:659
+#: ../../source/rendering_the_animation.rst:725
 msgid ""
-"Command Line displays the command line related to the task execution with"
-" arguments and qualifiers."
+"**Command Line** displays the command line related to the task execution "
+"with arguments and qualifiers."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:661
-msgid "Server displays the computer that is running, or will run, the task."
+#: ../../source/rendering_the_animation.rst:727
+msgid "**Server** displays the computer that is running, or will run, the task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:663
-msgid "Submitted By displays the user that submitted the task."
+#: ../../source/rendering_the_animation.rst:729
+msgid "**Submitted By** displays the *user* that submitted the task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:665
-msgid "Submitted On displays the computer from where the task was submitted."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:667
-msgid "Submission Date displays when the task was submitted."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:669
-msgid "Start Date displays when the task execution started."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:671
-msgid "Completion Date displays when the task execution was completed."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:673
-msgid "Duration displays how long the execution lasted."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:675
-msgid "Step Count displays the number of frames rendered."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:677
-msgid "Failed Steps displays the number of frames that failed to be rendered."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:679
-msgid "Successful Steps displays the number of frames successfully rendered."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:681
+#: ../../source/rendering_the_animation.rst:731
 msgid ""
-"Priority sets the importance or urgency of the task: tasks with a higher "
-"priority will be executed first. It can be edited to change the task "
-"priority."
+"**Submitted On** displays the *computer* from where the task was "
+"submitted."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:683
+#: ../../source/rendering_the_animation.rst:733
+msgid "**Submission Date** displays *when* the task was submitted."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:735
+msgid "**Start Date** displays when the task execution started."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:737
+msgid "**Completion Date** displays when the task execution was completed."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:739
+msgid "**Duration** displays how long the execution lasted."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:741
+msgid "**Step Count** displays the number of frames rendered."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:743
+msgid "**Failed Steps** displays the number of frames that failed to be rendered."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:745
+msgid "**Successful Steps** displays the number of frames successfully rendered."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:747
 msgid ""
-"Output displays the location, name and extension of the rendered output; "
+"**Priority** sets the importance or urgency of the task: tasks with a "
+"higher priority will be executed first. It can be edited to change the "
+"task priority."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:749
+msgid ""
+"**Output** displays the location, name and extension of the rendered "
+"output; this information comes from the scene output settings but can be "
+"edited here before the rendering."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:751
+msgid ""
+"**Frames Per Chunk** sets how the task is divided into sub-tasks in order"
+" to distribute the rendering job in the render farm, one sub-task for "
+"each computer. It can be edited to change the chunk size (see  "
+":ref:`Using Chunks when Rendering Tasks "
+"<using_chunks_when_rendering_tasks>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:753
+msgid ""
+"**From** and **To** set the scene frame range to render; this information"
+" comes from the scene output settings but can be edited here before the "
+"rendering (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:755
+msgid ""
+"**Step** sets the step for the rendered sequence; this information comes "
+"from the scene output settings but can be edited here before the "
+"rendering (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:757
+msgid ""
+"**Shrink** sets the reduction value of the rendered sequence resolution; "
 "this information comes from the scene output settings but can be edited "
-"here before the rendering."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:685
-msgid ""
-"Frames Per Chunk sets how the task is divided into sub-tasks in order to "
-"distribute the rendering job in the render farm, one sub-task for each "
-"computer. It can be edited to change the chunk size (see  :ref:`Using "
-"Chunks when Rendering Tasks <using_chunks_when_rendering_tasks>`  )."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:687
-msgid ""
-"From Frame and To Frame set the scene frame range to render; this "
-"information comes from the scene output settings but can be edited here "
-"before the rendering (see  :ref:`Choosing the Output Settings "
+"here before the rendering (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:689
+#: ../../source/rendering_the_animation.rst:759
 msgid ""
-"Step sets the step for the rendered sequence; this information comes from"
-" the scene output settings but can be edited here before the rendering "
-"(see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`"
-"  )."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:691
-msgid ""
-"Shrink sets the reduction value of the rendered sequence resolution; this"
-" information comes from the scene output settings but can be edited here "
-"before the rendering (see  :ref:`Choosing the Output Settings "
-"<choosing_the_output_settings>`  )."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:693
-msgid ""
-"Dedicated CPUs sets how many processors are assigned to the rendering "
-"process; this information comes from the scene output settings but can be"
-" edited here before the rendering (see  :ref:`Choosing the Output "
+"**Dedicated CPUs** sets how many processors are assigned to the rendering"
+" process; this information comes from the scene output settings but can "
+"be edited here before the rendering (see  :ref:`Choosing the Output "
 "Settings <choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:695
+#: ../../source/rendering_the_animation.rst:761
 msgid ""
-"Render Tile sets if the rendering has to be computed in tiles; this "
+"**Render Tile** sets if the rendering has to be computed in tiles; this "
 "information comes from the scene output settings but can be edited here "
 "before the rendering (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:697
+#: ../../source/rendering_the_animation.rst:763
 msgid ""
-"Dependencies lets you set which of the other submitted tasks have to be "
-"successfully completed before starting the current task execution: these "
-"tasks can be added from the box on the right where all submitted tasks "
-"are displayed."
+"**Dependencies** lets you set which of the other submitted tasks *have to"
+" be successfully completed* before starting the current task execution: "
+"these tasks can be added from the box on the right where all submitted "
+"tasks are displayed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:699
+#: ../../source/rendering_the_animation.rst:765
 msgid "Task execution can be started and stopped from the task list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:701
+#: ../../source/rendering_the_animation.rst:767
 msgid ""
 "When the tasks are executed, the icon color tells the status of the task "
 "according to the following color code:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:703
-msgid "Grey, when the task is waiting or is not executed yet."
+#: ../../source/rendering_the_animation.rst:769
+msgid "**Grey**, when the task is *waiting* or is not executed yet."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:705
-msgid "Yellow, when the task is being executed."
+#: ../../source/rendering_the_animation.rst:771
+msgid "**Yellow**, when the task is *being executed*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:707
-msgid "Green, when the task is successfully executed."
+#: ../../source/rendering_the_animation.rst:773
+msgid "**Green**, when the task is *successfully executed*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:709
-msgid "Orange, when the task is executed with some errors."
+#: ../../source/rendering_the_animation.rst:775
+msgid "**Orange**, when the task is *executed with some errors*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:711
-msgid "Red, when the task execution has failed."
+#: ../../source/rendering_the_animation.rst:777
+msgid "**Red**, when the task *execution has failed*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:713
-msgid "**To add scenes to render in the task list:**"
+#: ../../source/rendering_the_animation.rst:779
+msgid "**To Add scenes to render in the task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:717
+#: ../../source/rendering_the_animation.rst:783
 msgid ""
-"Click the Add Render Task button (|add_render|) in the bottom bar of the "
-"Tasks pane and use the browser to select a scene file."
+"Click the **Add Render** button (|add_render|) in the top bar of the "
+"Tasks pane and use the Browser to select a scene file."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:721
+#: ../../source/rendering_the_animation.rst:785
 msgid ""
 "Select the scenes in the OpenToonz Browser, then right-click any of them "
-"and choose Add As Render Task from the menu that opens."
+"and choose **Add As Render Task** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:723
-msgid "**To configure the render task in the task list:**"
+#: ../../source/rendering_the_animation.rst:787
+msgid "**To Configure the render task in the task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:725
-msgid "Select the render task in the task list."
+#: ../../source/rendering_the_animation.rst:789
+msgid "Select a render task in the task list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:727
+#: ../../source/rendering_the_animation.rst:791
 msgid "Configure it by using the options available on the right of the list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:729
+#: ../../source/rendering_the_animation.rst:793
 msgid "**To select tasks in the task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:733
+#: ../../source/rendering_the_animation.rst:797
 msgid "Click a task to select it."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:735
+#: ../../source/rendering_the_animation.rst:799
 msgid "Shift-click a task to extend the selection up to that task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:737
+#: ../../source/rendering_the_animation.rst:801
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from"
 " the selection."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:739
-msgid "**To execute selected tasks:**"
+#: ../../source/rendering_the_animation.rst:803
+msgid "**To Execute selected tasks:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:743
-msgid "Click the Start button (|start|) in the bottom bar of the pane."
+#: ../../source/rendering_the_animation.rst:807
+msgid "Click the **Start** (|start|) button in the bottom bar of the pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:747
+#: ../../source/rendering_the_animation.rst:809
 msgid ""
-"Right-click any selected task icon and choose Start from the menu that "
-"opens."
+"Right-click any selected task icon and choose **Start** from the menu "
+"that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:749
-msgid "**To stop the execution of selected tasks:**"
+#: ../../source/rendering_the_animation.rst:811
+msgid "**To Stop the execution of selected tasks:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:753
-msgid "Click the Stop button (|stop|) in the bottom bar of the pane."
+#: ../../source/rendering_the_animation.rst:815
+msgid "Click the **Stop** (|stop|) button in the bottom bar of the pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:757
+#: ../../source/rendering_the_animation.rst:817
 msgid ""
-"Right-click any selected task icon and choose Stop from the menu that "
-"opens."
+"Right-click any selected task icon and choose **Stop** from the menu that"
+" opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:759
-msgid "**To remove selected tasks from the list:**"
+#: ../../source/rendering_the_animation.rst:819
+msgid "**To Remove selected tasks from the list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:763
-msgid "Click the Remove button (|remove|) in the bottom bar of the Tasks pane."
+#: ../../source/rendering_the_animation.rst:823
+msgid ""
+"Click the **Remove** (|remove|) button in the bottom bar of the Tasks "
+"pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:767
+#: ../../source/rendering_the_animation.rst:825
 msgid ""
 "Right-click any selected task in the list and choose Remove from the menu"
 " that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:769
-msgid "**To add or remove tasks from the Dependencies list:**"
+#: ../../source/rendering_the_animation.rst:827
+msgid "**To Add or Remove tasks from the Dependencies list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:773
+#: ../../source/rendering_the_animation.rst:831
 msgid ""
-"To add a task to the dependencies list, select a task in the task list on"
-" the right and click the Add button."
+"To Add a task to the dependencies list, select a task in the task list on"
+" the right and click the **Add** button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:775
+#: ../../source/rendering_the_animation.rst:833
 msgid ""
-"To remove a task from the dependencies list, select a task in the "
-"dependencies list on the left, and click the Remove button."
+"To Remove a task from the dependencies list, select a task in the "
+"dependencies list on the left, and click the **Remove** button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:781
+#: ../../source/rendering_the_animation.rst:839
 msgid "Using Chunks when Rendering Tasks"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:782
+#: ../../source/rendering_the_animation.rst:840
 msgid ""
-"If you are using the OpenToonz render farm, it is possible to divide a "
+"If you are using the OpenToonz render farm, it's possible to divide a "
 "task into chunks so that each computer of the farm will render a section "
 "of the same render task (see  :ref:`Using the Toonz Farm "
 "<using_the_toonz_farm>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:784
+#: ../../source/rendering_the_animation.rst:842
 msgid ""
-"The default value for the chunk size, expressed in number of frames, can "
-"be set using the Render Task Chunk Size in the Preferences > General "
-"page. If the default value is higher than the duration in frames of the "
-"submitted scene, automatically the value will be equal to the duration in"
-" frames of the scene."
+"The default value for the chunk size (expressed in number of frames) can "
+"be set using the **Render Task Chunk Size** in the Preferences > General "
+"pane. If the default value is higher than the duration (in frames) of the"
+" submitted scene, the value will be automatically adjusted to be equal to"
+" the duration of the scene."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:786
+#: ../../source/rendering_the_animation.rst:844
 msgid ""
-"Once a task is submitted, it is possible to change the chuck size by "
+"Once a task is submitted, it's possible to change the chunk size by "
 "editing the related value in the task properties."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:788
+#: ../../source/rendering_the_animation.rst:846
 msgid ""
 "When a task is divided into chunks, each task is represented in the task "
 "tree as sub-tasks."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:790
+#: ../../source/rendering_the_animation.rst:848
 msgid ""
-"If you are not using the OpenToonz render farm, dividing the task in "
-"chunks not only is useless, but it slows down the rendering process as "
-"well. For this reason it is suggested to use a very high Render Task "
-"Chunk Size value in the Preferences (e.g. 1000)."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:792
-msgid ""
-"The chunk size is relevant only when animation are rendered as sequences "
-"of full-color images, for example in TIF or TGA format."
-msgstr ""
-
-#: ../../source/rendering_the_animation.rst:794
-msgid ""
-"render tasks and sub-tasks will be distributed on the farm, one for each "
+"Render tasks and sub-tasks will be distributed on the farm, one for each "
 "computer, so that several tasks can be executed at the same time (see  "
 ":ref:`Using the Toonz Farm <using_the_toonz_farm>`  )."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:850
+msgid ""
+"If you are not using the OpenToonz render farm, dividing the task into "
+"chunks is not only useless, but it slows down the rendering process as "
+"well. For this reason it's suggested to use a high **Render Task Chunk "
+"Size** value (e.g. 1000) in the Preferences > General pane."
+msgstr ""
+
+#: ../../source/rendering_the_animation.rst:852
+msgid ""
+"Chunk size is relevant only when animations are rendered as image "
+"sequences (for example in TIF or TGA formats)."
 msgstr ""
 
 #~ msgid ""
@@ -3266,5 +3435,811 @@ msgstr ""
 #~ "Click the Remove button ( |Toonz71_572|"
 #~ " ) in the bottom bar of the "
 #~ "Tasks pane."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Save in:** is for setting the "
+#~ "location where the output is saved; "
+#~ "the location can be set by typing"
+#~ " or by using the browser button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If in the browser you choose any"
+#~ " project default folder, in the path"
+#~ " field the full path will be "
+#~ "replace by the related default folder"
+#~ " alias (see  :ref:`Project Default Folders"
+#~ " <project_default_folders>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Name:** is the name you want to"
+#~ " assign to the output file; by "
+#~ "default it is the same name of "
+#~ "the scene."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case the format is an image "
+#~ "format, the name will be assigned "
+#~ "to all rendered frames, that will "
+#~ "be identified by a progressive four-"
+#~ "digits number written between the file"
+#~ " name and the file extension, e.g."
+#~ " ``animation.0001.tif`` , ``animation.0002.tif`` "
+#~ ", etc. These files will be "
+#~ "displayed in the OpenToonz file browser"
+#~ " with a double dot before the "
+#~ "file extension, e.g. ``animation..tif`` , "
+#~ "and treated as a single animation "
+#~ "level."
+#~ msgstr ""
+
+#~ msgid "Rendering in MP4 and WebM Formats"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FFmpeg is a free software project "
+#~ "that produces libraries and programs for"
+#~ " handling multimedia data and can "
+#~ "allow OpenToonz to load and render "
+#~ "MP4 and WebM video formats. MP4 "
+#~ "and WebM will be listed along the"
+#~ " other standard output formats. To "
+#~ "enable this feature it is necessary "
+#~ "to install FFmpeg on the computer, "
+#~ "indicate its installation path to "
+#~ "OpenToonz by going to Preferences > "
+#~ "Import/Export page, and restart OpenToonz "
+#~ "for the change to take effect."
+#~ msgstr ""
+
+#~ msgid "**To enable the rendering in MP4 and WebM:**"
+#~ msgstr ""
+
+#~ msgid "Go to https://www.ffmpeg.org/download.html and install FFmpeg."
+#~ msgstr ""
+
+#~ msgid "Go to the File > Preferences > Import/Export page."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Write the FFmpeg installation path in"
+#~ " the text field (e.g. C:\\\\ffmpeg\\\\bin)"
+#~ " ."
+#~ msgstr ""
+
+#~ msgid "Restart OpenToonz."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to File > Output Settings and"
+#~ " choose mp4 or webm from the "
+#~ "File Format list."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Apart from 3GP, Microsoft AVI, "
+#~ "QuickTime, MP4 and WebM, all the "
+#~ "other formats will output sequences of"
+#~ " full-color images."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Options** button opens a dialog"
+#~ " to set specific properties related "
+#~ "to the chosen file format, such as"
+#~ " codecs for MOV files, color depth"
+#~ " for TIF images, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Multiple Rendering:** creates automatically "
+#~ "for a single scene several output "
+#~ "files based on the Xsheet columns "
+#~ "content, and according to the FX "
+#~ "Schematic. Options are None, FX "
+#~ "Schematic Flows and FX Schematic "
+#~ "Terminal Nodes (see  :ref:`Creating Multiple"
+#~ " Renderings <creating_multiple_renderings>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are several options to choose "
+#~ "from. Originally Toonz provided three "
+#~ "options: Standard, Improved, High. The "
+#~ "higher the balance chosen, the longer"
+#~ " the time needed for rendering the"
+#~ " output. Now OpenToonz also provides "
+#~ "several other standard resampling filters "
+#~ "that could help improve the final "
+#~ "results in a wider range of "
+#~ "situations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Channel Width:** sets the color depth"
+#~ " for rendered images; choices are 8"
+#~ " bit or 16 bit per color "
+#~ "channel. If using the 16 bit "
+#~ "channel width, be sure to select "
+#~ "an output file format supporting it, "
+#~ "for example the TIF format with "
+#~ "the 64 Bits Per Pixel option "
+#~ "activated."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Gamma:** performs a gamma correction "
+#~ "on rendered images before writing them"
+#~ " to disk; the value you specify "
+#~ "can include decimal fractions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Dominant Field:** allows you to render"
+#~ " two images per frame, then taking"
+#~ " only odd lines from one image, "
+#~ "and even lines from the other, to"
+#~ " compose the final frame. This "
+#~ "process is also called interlacing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Interlacing is useful when experiencing "
+#~ "a strobe effect due to a fast "
+#~ "camera or pegbar movement, because all"
+#~ " object movements are interpolated on "
+#~ "a double number of images (one "
+#~ "odd-lines image and one even-lines"
+#~ " image instead of just one frame),"
+#~ " thus becoming smoother."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Field rendering is only relevant for "
+#~ "scenes to be rendered for video "
+#~ "output. Options are Even (PAL) and "
+#~ "Odd (NTSC), and you should choose "
+#~ "it according to the video standard "
+#~ "you are outputting to."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When passing from a higher frame "
+#~ "rate to a lower one, some level"
+#~ " drawings will not be used because"
+#~ " the number of output frames "
+#~ "decreases. When doing the contrary, some"
+#~ " level drawings will be repeated "
+#~ "because the number of output frames "
+#~ "is higher. Interpolations for object "
+#~ "movements and special effects variations "
+#~ "will be re-computed according to "
+#~ "the final frame rate, in order to"
+#~ " keep all the interpolations as "
+#~ "smooth as possible."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the Field rendering is used "
+#~ "and the Stretch feature is set for"
+#~ " passing from a lower frame rate "
+#~ "to a higher one, drawings and "
+#~ "images will be interlaced as well "
+#~ "to create newly added frames."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Particles FX may have unexpected results"
+#~ " when the scene is stretched to "
+#~ "a higher FPS value, as the effect"
+#~ " requires the original timing information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Do stereoscopy** activates the stereoscopic"
+#~ " 3D output of the scenes. Each "
+#~ "frame will be rendered from two "
+#~ "different camera view creating two "
+#~ "sequences of files, one for each "
+#~ "view. The suffixes _l (left) and "
+#~ "_r (right) will be used to "
+#~ "identify sequences. The **Camera Shift** "
+#~ "parameter sets the distance between the"
+#~ " two camera views."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For working properly at least some "
+#~ "elements of the scene must have "
+#~ "Z-Depth values other than 0 for "
+#~ "their positioning. OpenToonz uses these "
+#~ "values as the Camera Shift parameter "
+#~ "for rendering the stereoscopic effect."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Dedicated CPUs:** sets, in case your"
+#~ " computer has multiple CPUs, how many"
+#~ " processors will be assigned to the"
+#~ " rendering process. Setting the value "
+#~ "to All will generate a number of"
+#~ " rendering threads equal to the "
+#~ "number of processors, thus speeding up"
+#~ " the rendering process. However it is"
+#~ " suggested to use the Half or "
+#~ "Single values if the scene to "
+#~ "render is very complex, because the "
+#~ "higher the dedicated CPUs, the more "
+#~ "memory will be required to perform "
+#~ "the rendering."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Render Tile:** allows the rendering of"
+#~ " very complex scenes whose frames "
+#~ "will be computed in tiles that are"
+#~ " automatically stitched to create the "
+#~ "final output: the smaller the size "
+#~ "of the tile, the longer the "
+#~ "rendering. Setting the value to Medium"
+#~ " or Small will allow the rendering"
+#~ " of very high resolution outputs of"
+#~ " very complex scenes, that otherwise "
+#~ "may fail to be rendered; setting "
+#~ "the value to None may prevent some"
+#~ " artifacts that the tile stitching "
+#~ "may generate. In most cases the "
+#~ "Large value will do the work, "
+#~ "because it is not slower than the"
+#~ " None option, and yet is able "
+#~ "to render complex scenes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With **Multiple Rendering:** it's possible "
+#~ "to render automatically, from a single"
+#~ " scene, several output files based on"
+#~ " the Xsheet columns content, and "
+#~ "according to the FX schematic. Options"
+#~ " are None, FX Schematic Flows and "
+#~ "FX Schematic Terminal Nodes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FX Schematic Flows creates as many "
+#~ "outputs as the flows connecting the "
+#~ "column nodes to the Xsheet one; "
+#~ "any FX node with multiple input "
+#~ "ports met along the flow, such as"
+#~ " the Matte FX, are ignored."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FX Schematic Terminal Nodes creates as"
+#~ " many outputs as the number of "
+#~ "nodes that in the FX Schematic are"
+#~ " linked to the Xsheet node; all "
+#~ "the columns and FX linked to each"
+#~ " of these nodes will be taken "
+#~ "into account for the rendering."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The names of the different output "
+#~ "files are automatically generated in "
+#~ "order to avoid any name conflict "
+#~ "between file names. In particular they"
+#~ " are built by appending to the "
+#~ "output file name the name of the"
+#~ " column, then the column ID as "
+#~ "can be read in the FX Schematic"
+#~ " nodes tooltips, then the FX node "
+#~ "name, then the node ID (as can "
+#~ "be read in the FX Schematic nodes"
+#~ " tooltips) if the FX node was "
+#~ "renamed. For example ``scene01_B(Col3)_My "
+#~ "Blur(Blur1)..tif``  is one of the output"
+#~ " files of the scene ``scene01`` , "
+#~ "related to the flow going from the"
+#~ " column B (whose ID is Col3) to"
+#~ " the FX node My Blur (whose ID"
+#~ " is Blur1)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "No output is displayed after the "
+#~ "rendering, regardless of the Open "
+#~ "Flipbook After Rendering option in the"
+#~ " Preferences dialog."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you need more control on the"
+#~ " way scene elements are rendered, you"
+#~ " may consider using Sub-Xsheets and"
+#~ " the Over FX (see  :ref:`Using "
+#~ "Sub-Xsheets <using_sub-xsheets>`  and  "
+#~ ":ref:`Over <over>`  ). For example if"
+#~ " you want a single output for a"
+#~ " set of columns, you may collapse "
+#~ "them in a Sub-Xsheet in case "
+#~ "of Flows multiple rendering, or connect"
+#~ " them to several Over nodes in "
+#~ "case of Terminal Nodes multiple "
+#~ "rendering."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is possible to render a scene"
+#~ " with a transparent background color "
+#~ "in order to export it to editing"
+#~ " systems supporting the alpha channel "
+#~ "information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this case no image has to "
+#~ "be used as background, and the "
+#~ "output file format has to support "
+#~ "the alpha channel information, e.g. TIF"
+#~ " at 32 or 64 bits, TGA at "
+#~ "32 bits, or MOV with codecs "
+#~ "supporting alpha."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > Scene Settings."
+#~ msgstr ""
+
+#~ msgid "Set the alpha channel of the Camera BG Color to transparent."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The current scene can be rendered "
+#~ "directly while being loaded in OpenToonz"
+#~ " according to the defined output "
+#~ "settings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By choosing the appropriate range in "
+#~ "the output settings it is possible "
+#~ "to render the scene in chunks, for"
+#~ " example by rendering a section "
+#~ "first, and then another one. In "
+#~ "this case the animation available in "
+#~ "the output location will always include"
+#~ " all frames rendered up to that "
+#~ "point both if the format is a "
+#~ "multiple-files output, e.g. TIF or "
+#~ "TGA, and a single-file one, e.g."
+#~ " QuickTime MOV. The same applies if"
+#~ " a section of the scene has to"
+#~ " be rendered again because some "
+#~ "corrections were needed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the scene contains some audio "
+#~ "files and is rendered in a file"
+#~ " format supporting audio, for example "
+#~ "QuickTime MOV, all the audio files "
+#~ "will be merged to form the "
+#~ "soundtrack of the movie (see  "
+#~ ":ref:`Creating a Soundtrack <creating_a_soundtrack>`"
+#~ "  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As soon as the rendering is over,"
+#~ " the rendered animation can be "
+#~ "automatically displayed in a OpenToonz "
+#~ "flipbook by activating the Open Flipbook"
+#~ " after Rendering option in the "
+#~ "Preferences > Interface dialog; it is"
+#~ " also possible to display blank "
+#~ "frames after each rendering playback "
+#~ "when looping. If a soundtrack is "
+#~ "available for the rendered scene, it "
+#~ "is also possible to listen to it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When displayed in the flipbook, the "
+#~ "rendering can be checked by using "
+#~ "the flipbook tools (see  :ref:`Using the"
+#~ " Flipbook <using_the_flipbook>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also activate the Use "
+#~ "Default Viewer for Movie Format option"
+#~ " in the Preferences > General dialog"
+#~ " in order to play back the "
+#~ "output with its own default viewer, "
+#~ "e.g. QuickTime for the MOV format."
+#~ msgstr ""
+
+#~ msgid "Choose File > Render."
+#~ msgstr ""
+
+#~ msgid "Choose File > Preferences > Preview."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Preview Blank Images Count "
+#~ "set how many blank frames you want"
+#~ " to be displayed after each preview"
+#~ " playback when looping."
+#~ msgstr ""
+
+#~ msgid "In the Preview Blank Color set the color for the blank frames."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The rendering of a scene can be"
+#~ " added to a task list and "
+#~ "performed in batch mode in order "
+#~ "to run it in the background while"
+#~ " you perform other work on your "
+#~ "computer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Render tasks can be submitted from "
+#~ "the OpenToonz browser and can be "
+#~ "managed and executed in the Tasks "
+#~ "pane, together with cleanup tasks (see"
+#~ "  :ref:`Cleaning up Drawings in Batch "
+#~ "Mode <cleaning_up_drawings_in_batch_mode>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Tasks pane is divided into two"
+#~ " sections: on the left there is "
+#~ "the task tree where all of the "
+#~ "render tasks are displayed with a "
+#~ "clapboard icon and all the cleanup "
+#~ "tasks with a brush icon; on the"
+#~ " right there is information about the"
+#~ " task selected in the tree."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The task list can be saved as "
+#~ "TNZBAT files and loaded back later "
+#~ "in case you want to manage it "
+#~ "through different working sessions."
+#~ msgstr ""
+
+#~ msgid "**To save a task list:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the Save Task List (|save|) "
+#~ "or the Save Task List As button"
+#~ " (|save_as|) in the bottom bar of "
+#~ "the Tasks pane."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the Tasks item at the"
+#~ " top of the list and choose "
+#~ "Save Task List or the Save Task"
+#~ " List As from the menu that "
+#~ "opens."
+#~ msgstr ""
+
+#~ msgid "Use the browser that opens to save the list."
+#~ msgstr ""
+
+#~ msgid "**To load a task list:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the Load Task List button "
+#~ "(|load|) in the bottom bar of the"
+#~ " Tasks pane."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the Tasks item at the"
+#~ " top of the list and choose "
+#~ "Load Task List from the menu that"
+#~ " opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the browser that opens to "
+#~ "retrieve and load a previously saved "
+#~ "list."
+#~ msgstr ""
+
+#~ msgid "**To resize the tasks pane sections:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a render task is selected in"
+#~ " the tree, in the section on "
+#~ "the right of the Tasks pane "
+#~ "task-related properties are displayed, some"
+#~ " of which can be edited to "
+#~ "configure the task. Properties are the"
+#~ " following:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Name displays the tasks name; it "
+#~ "can be edited to better identify "
+#~ "the task."
+#~ msgstr ""
+
+#~ msgid "Status displays if the task is waiting, running, completed or failed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Command Line displays the command line"
+#~ " related to the task execution with"
+#~ " arguments and qualifiers."
+#~ msgstr ""
+
+#~ msgid "Server displays the computer that is running, or will run, the task."
+#~ msgstr ""
+
+#~ msgid "Submitted By displays the user that submitted the task."
+#~ msgstr ""
+
+#~ msgid "Submitted On displays the computer from where the task was submitted."
+#~ msgstr ""
+
+#~ msgid "Submission Date displays when the task was submitted."
+#~ msgstr ""
+
+#~ msgid "Start Date displays when the task execution started."
+#~ msgstr ""
+
+#~ msgid "Completion Date displays when the task execution was completed."
+#~ msgstr ""
+
+#~ msgid "Duration displays how long the execution lasted."
+#~ msgstr ""
+
+#~ msgid "Step Count displays the number of frames rendered."
+#~ msgstr ""
+
+#~ msgid "Failed Steps displays the number of frames that failed to be rendered."
+#~ msgstr ""
+
+#~ msgid "Successful Steps displays the number of frames successfully rendered."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Priority sets the importance or urgency"
+#~ " of the task: tasks with a "
+#~ "higher priority will be executed first."
+#~ " It can be edited to change the"
+#~ " task priority."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Output displays the location, name and"
+#~ " extension of the rendered output; "
+#~ "this information comes from the scene"
+#~ " output settings but can be edited"
+#~ " here before the rendering."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Frames Per Chunk sets how the task"
+#~ " is divided into sub-tasks in "
+#~ "order to distribute the rendering job"
+#~ " in the render farm, one sub-"
+#~ "task for each computer. It can be"
+#~ " edited to change the chunk size "
+#~ "(see  :ref:`Using Chunks when Rendering "
+#~ "Tasks <using_chunks_when_rendering_tasks>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From Frame and To Frame set the"
+#~ " scene frame range to render; this"
+#~ " information comes from the scene "
+#~ "output settings but can be edited "
+#~ "here before the rendering (see  "
+#~ ":ref:`Choosing the Output Settings "
+#~ "<choosing_the_output_settings>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Step sets the step for the "
+#~ "rendered sequence; this information comes "
+#~ "from the scene output settings but "
+#~ "can be edited here before the "
+#~ "rendering (see  :ref:`Choosing the Output "
+#~ "Settings <choosing_the_output_settings>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Shrink sets the reduction value of "
+#~ "the rendered sequence resolution; this "
+#~ "information comes from the scene output"
+#~ " settings but can be edited here "
+#~ "before the rendering (see  :ref:`Choosing "
+#~ "the Output Settings <choosing_the_output_settings>`"
+#~ "  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dedicated CPUs sets how many processors"
+#~ " are assigned to the rendering "
+#~ "process; this information comes from the"
+#~ " scene output settings but can be "
+#~ "edited here before the rendering (see"
+#~ "  :ref:`Choosing the Output Settings "
+#~ "<choosing_the_output_settings>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Render Tile sets if the rendering "
+#~ "has to be computed in tiles; this"
+#~ " information comes from the scene "
+#~ "output settings but can be edited "
+#~ "here before the rendering (see  "
+#~ ":ref:`Choosing the Output Settings "
+#~ "<choosing_the_output_settings>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dependencies lets you set which of "
+#~ "the other submitted tasks have to "
+#~ "be successfully completed before starting "
+#~ "the current task execution: these tasks"
+#~ " can be added from the box on"
+#~ " the right where all submitted tasks"
+#~ " are displayed."
+#~ msgstr ""
+
+#~ msgid "Grey, when the task is waiting or is not executed yet."
+#~ msgstr ""
+
+#~ msgid "Yellow, when the task is being executed."
+#~ msgstr ""
+
+#~ msgid "Green, when the task is successfully executed."
+#~ msgstr ""
+
+#~ msgid "Orange, when the task is executed with some errors."
+#~ msgstr ""
+
+#~ msgid "Red, when the task execution has failed."
+#~ msgstr ""
+
+#~ msgid "**To add scenes to render in the task list:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the Add Render Task button "
+#~ "(|add_render|) in the bottom bar of "
+#~ "the Tasks pane and use the browser"
+#~ " to select a scene file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the scenes in the OpenToonz "
+#~ "Browser, then right-click any of "
+#~ "them and choose Add As Render Task"
+#~ " from the menu that opens."
+#~ msgstr ""
+
+#~ msgid "**To configure the render task in the task list:**"
+#~ msgstr ""
+
+#~ msgid "Select the render task in the task list."
+#~ msgstr ""
+
+#~ msgid "**To execute selected tasks:**"
+#~ msgstr ""
+
+#~ msgid "Click the Start button (|start|) in the bottom bar of the pane."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click any selected task icon "
+#~ "and choose Start from the menu "
+#~ "that opens."
+#~ msgstr ""
+
+#~ msgid "**To stop the execution of selected tasks:**"
+#~ msgstr ""
+
+#~ msgid "Click the Stop button (|stop|) in the bottom bar of the pane."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click any selected task icon "
+#~ "and choose Stop from the menu that"
+#~ " opens."
+#~ msgstr ""
+
+#~ msgid "**To remove selected tasks from the list:**"
+#~ msgstr ""
+
+#~ msgid "Click the Remove button (|remove|) in the bottom bar of the Tasks pane."
+#~ msgstr ""
+
+#~ msgid "**To add or remove tasks from the Dependencies list:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a task to the dependencies"
+#~ " list, select a task in the "
+#~ "task list on the right and click"
+#~ " the Add button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To remove a task from the "
+#~ "dependencies list, select a task in "
+#~ "the dependencies list on the left, "
+#~ "and click the Remove button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using the OpenToonz "
+#~ "render farm, it is possible to "
+#~ "divide a task into chunks so that"
+#~ " each computer of the farm will "
+#~ "render a section of the same "
+#~ "render task (see  :ref:`Using the Toonz"
+#~ " Farm <using_the_toonz_farm>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The default value for the chunk "
+#~ "size, expressed in number of frames, "
+#~ "can be set using the Render Task"
+#~ " Chunk Size in the Preferences > "
+#~ "General page. If the default value "
+#~ "is higher than the duration in "
+#~ "frames of the submitted scene, "
+#~ "automatically the value will be equal"
+#~ " to the duration in frames of "
+#~ "the scene."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once a task is submitted, it is"
+#~ " possible to change the chuck size"
+#~ " by editing the related value in "
+#~ "the task properties."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are not using the OpenToonz"
+#~ " render farm, dividing the task in"
+#~ " chunks not only is useless, but "
+#~ "it slows down the rendering process "
+#~ "as well. For this reason it is "
+#~ "suggested to use a very high "
+#~ "Render Task Chunk Size value in "
+#~ "the Preferences (e.g. 1000)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The chunk size is relevant only "
+#~ "when animation are rendered as sequences"
+#~ " of full-color images, for example"
+#~ " in TIF or TGA format."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "render tasks and sub-tasks will be"
+#~ " distributed on the farm, one for "
+#~ "each computer, so that several tasks "
+#~ "can be executed at the same time"
+#~ " (see  :ref:`Using the Toonz Farm "
+#~ "<using_the_toonz_farm>`  )."
 #~ msgstr ""
 
