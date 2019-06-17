@@ -3,149 +3,194 @@
 # This file is distributed under the same license as the OpenToonz package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 12:06+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-16 21:30-0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: ../../source/setting_up_a_scene.rst:4
 msgid "Setting Up a Scene"
-msgstr ""
+msgstr "Configuración de una escena"
 
 #: ../../source/setting_up_a_scene.rst:9
 msgid "Scene Settings and Project Default Settings"
-msgstr ""
+msgstr "Opciones de escena y opciones predefinidas de proyecto"
 
 #: ../../source/setting_up_a_scene.rst:10
 msgid ""
-"When you start working on a scene, automatically it will belong to the "
-"current project, inheriting its settings and default folders. In this way"
-" all the scenes belonging to a project are created with the same "
-"settings, assuring the consistency of the production (see  :ref:`Managing"
-" Projects <managing_projects>`  )."
+"When you start working on a scene, automatically it will belong to the current "
+"project, inheriting its settings and default folders. In this way all the "
+"scenes belonging to a project are created with the same settings, assuring the "
+"consistency of the production (see  :ref:`Managing Projects "
+"<managing_projects>`  )."
 msgstr ""
+"Al comenzar a trabajar en una nueva escena, ésta será parte del proyecto "
+"activo, heredando sus opciones y carpetas predefinidas. De esta manera todas "
+"las escenas pertenecientes a un mismo proyecto son creadas con las mismas "
+"opciones, asegurando la consistencia de la producción (ver  :ref:"
+"`Administración de proyectos <managing_projects>`  )."
 
 #: ../../source/setting_up_a_scene.rst:12
 msgid ""
-"Settings concern different tasks you may perform in OpenToonz, such as "
-"the scanning, or cleanup process, the camera size and resolution, the "
-"frame rate, the output options, etc. They can be accessed in dialogs you "
-"can open with commands available in the related menu; for example the "
-"scan and cleanup settings commands are available in the Scan & Cleanup "
-"menu."
+"Settings concern different tasks you may perform in OpenToonz, such as the "
+"scanning, or cleanup process, the camera size and resolution, the frame rate, "
+"the output options, etc. They can be accessed in dialogs you can open with "
+"commands available in the related menu; for example the scan and cleanup "
+"settings commands are available in the Scan & Cleanup menu."
 msgstr ""
+"Las opciones se refieren a diferentes tareas que es posible desarrollar en "
+"OpenToonz, tales como escaneo, limpieza de imágenes escaneadas, el tamaño y la "
+"resolución de la cámara, la velocidad de fotogramas, las opciones de salida, "
+"etc. Las mismas pueden ser accedidas a través de diálogos que es posible abrir "
+"con comandos disponibles en los menúes apropiados; por ejemplo las opciones de "
+"escaneo y limpieza se encuentran disponibles en el menú Escaneo y limpieza."
 
 #: ../../source/setting_up_a_scene.rst:14
 msgid ""
-"Settings for a particular scene can always be changed independently from "
-"the other ones, and will be automatically saved when the scene is saved."
+"Settings for a particular scene can always be changed independently from the "
+"other ones, and will be automatically saved when the scene is saved."
 msgstr ""
+"Las opciones de una escena particular siempre pueden ser cambiadas de forma "
+"independiente a las de otras y se guardarán automáticamente al guardar la "
+"escena."
 
 #: ../../source/setting_up_a_scene.rst:16
 msgid ""
-"If you want to change the default values you can save current scene "
-"settings as default, so that all new scenes created for that project will"
-" have those values."
+"If you want to change the default values you can save current scene settings as "
+"default, so that all new scenes created for that project will have those values."
 msgstr ""
+"Si se desea cambiar los valores predefinidos, es posible guardar las opciones "
+"de la escena actual como valores predefinidos, de forma que todas las nuevas "
+"escenas creadas para ese proyecto contengan esos valores."
 
 #: ../../source/setting_up_a_scene.rst:18
 msgid "**To save current scene settings as project default settings:**"
 msgstr ""
+"** Para guardar las opciones de la escena actual como predefinidos del proyecto:"
+"**"
 
 #: ../../source/setting_up_a_scene.rst:20
 msgid ""
-"Select File > Save Default Settings: all the settings from the current "
-"scene will become the project default."
+"Select File > Save Default Settings: all the settings from the current scene "
+"will become the project default."
 msgstr ""
+"Seleccionar Archivo > **Guardar opciones predefinidas**: todas las opciones de "
+"la escena actual se transformarán en predefinidas para el proyecto."
 
 #: ../../source/setting_up_a_scene.rst:26
 msgid "Choosing the Working Unit"
-msgstr ""
+msgstr "Elección de unidades de trabajo"
 
 #: ../../source/setting_up_a_scene.rst:27
 msgid ""
-"Positions, distances and sizes can be expressed in several units of "
-"measure: inches, millimeters, centimeters, fields and pixels."
+"Positions, distances and sizes can be expressed in several units of measure: "
+"inches, millimeters, centimeters, fields and pixels."
 msgstr ""
+"Las posiciones, distancias y tamaños pueden ser expresados en varias unidades "
+"de medida: pulgadas, milímetros, centímetros, campos y píxeles."
 
 #: ../../source/setting_up_a_scene.rst:29
 msgid ""
-"The field unit is equal to 1/2 inch on the horizontal dimension, and it "
-"depends on the A/R set in the field guide information of the Scene "
-"Settings... dialog on the vertical dimension (see  :ref:`Using the Viewer"
-" <using_the_work_area>`  ). For example if the A/R value is 1.77778, two "
-"horizontal fields are equal to an inch, while one vertical field equals "
-"to an inch divided by 1.77778."
+"The field unit is equal to 1/2 inch on the horizontal dimension, and it depends "
+"on the A/R set in the field guide information of the Scene Settings... dialog "
+"on the vertical dimension (see  :ref:`Using the Viewer "
+"<using_the_work_area>`  ). For example if the A/R value is 1.77778, two "
+"horizontal fields are equal to an inch, while one vertical field equals to an "
+"inch divided by 1.77778."
 msgstr ""
+"La unidad *campo* equivale a 1/2 pulgada en la dimensión horizontal y para su "
+"dimensión vertical depende del valor **Proporción:** definido en la información "
+"de guía de campos del diálogo Opciones de la escena (ver  :ref:`Uso del Visor "
+"<using_the_work_area>`  ). Por ejemplo: si el valor Proporción es 1.77778, dos "
+"campos equivaldrán horizontalmente a una pulgada, mientras que en el sentido "
+"vertical equivaldrán a una pulgada dividida entre 1.77778."
 
 #: ../../source/setting_up_a_scene.rst:31
 msgid ""
-"In the Files > Preferences > Interface dialog you can set the following "
-"default units:"
+"In the Files > Preferences > Interface dialog you can set the following default "
+"units:"
 msgstr ""
+"En el diálogo Archivo > Preferencias > Interfaz es posible definir las "
+"siguientes unidades predefinidas:"
 
 #: ../../source/setting_up_a_scene.rst:33
 msgid ""
-"The Unit is used to display all measures in text fields, and applied when"
-" moving or changing the size of stage objects."
+"The Unit is used to display all measures in text fields, and applied when "
+"moving or changing the size of stage objects."
 msgstr ""
+"La **Unidades** se usan para mostrar todas las medidas en los campos de ingreso "
+"de valores y son aplicadas al mover o cambiar el tamaño de los objetos de la "
+"escena."
 
 #: ../../source/setting_up_a_scene.rst:35
 msgid ""
-"The Camera Unit is used to display and define the camera size in the "
-"Xsheet > Camera Settings... dialog (see  :ref:`Defining Camera Settings "
+"The Camera Unit is used to display and define the camera size in the Xsheet > "
+"Camera Settings... dialog (see  :ref:`Defining Camera Settings "
 "<defining_camera_settings>`  )."
 msgstr ""
+"Las **Unidades de cámara** se usan para mostrar y definir el tamaño de las "
+"cámaras en el diálogo Planilla > Opciones de cámara... (ver  :ref:`Definición "
+"de Opciones de cámara<defining_camera_settings>`  )."
 
 #: ../../source/setting_up_a_scene.rst:37
 msgid ""
 "You can also express values in an unit different from the default one by "
-"entering any of the following units and abbreviations: in, inch, \" , ' '"
-" (two apostrophes), cm, mm, fld, field and px, after the input value "
-"itself. As soon as the value is entered it's converted in the default "
-"unit."
+"entering any of the following units and abbreviations: in, inch, \" , ' ' (two "
+"apostrophes), cm, mm, fld, field and px, after the input value itself. As soon "
+"as the value is entered it's converted in the default unit."
 msgstr ""
+"También es posible expresar los valores en una unidad distinta a la "
+"predefinida, ingresando cualquiera de las unidades y abreviaturas siguientes: "
+"in, inch, \" , ' ' (dos comillas simples), cm, mm, fld, field y px, luego del "
+"valor numérico. En cuanto el valor es ingresado es convertido a las unidades "
+"predefinidas."
 
 #: ../../source/setting_up_a_scene.rst:39
 msgid ""
-"If a value without a specific unit is used, it is supposed to be "
-"expressed in the default unit."
+"If a value without a specific unit is used, it is supposed to be expressed in "
+"the default unit."
 msgstr ""
+"Si se usa un valor sin una unidad específica, se asume que se encuentra "
+"expresado en las unidades predefinidas."
 
 #: ../../source/setting_up_a_scene.rst:41
 msgid "**To set the default working units:**"
-msgstr ""
+msgstr "**Para definir las unidades predefinidas:**"
 
 #: ../../source/setting_up_a_scene.rst:43
 msgid "Choose File > Preferences > Interface."
-msgstr ""
+msgstr "Elegir Archivo > Preferencias > Interfaz."
 
 #: ../../source/setting_up_a_scene.rst:45
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Hacer uno de lo siguiente:"
 
 #: ../../source/setting_up_a_scene.rst:47
 msgid "In the Unit option menu choose the unit you want to use as default."
-msgstr ""
+msgstr "En la opción **Unidades:** elegir la unidad deseada como predefinida."
 
 #: ../../source/setting_up_a_scene.rst:49
 msgid ""
-"In the Camera Unit option menu choose the unit you want to use to express"
-" the camera size."
+"In the Camera Unit option menu choose the unit you want to use to express the "
+"camera size."
 msgstr ""
+"En la opción **Unidades de cámara:** elegir la unidad a usar para expresar el "
+"tamaño de la cámara."
 
 #: ../../source/setting_up_a_scene.rst:55
 msgid "Setting the Frame Rate"
-msgstr ""
+msgstr "Definición de la velocidad"
 
 #: ../../source/setting_up_a_scene.rst:56
 msgid "|scene_settings|"
@@ -153,35 +198,50 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:58
 msgid ""
-"The frame rate is the number of frames per second of animation, and has "
-"to be set according to the type of output you have to render, for "
-"instance it should usually be 24 for cinematic production, 25 for PAL "
-"output, or 30 for NTSC."
+"The frame rate is the number of frames per second of animation, and has to be "
+"set according to the type of output you have to render, for instance it should "
+"usually be 24 for cinematic production, 25 for PAL output, or 30 for NTSC."
 msgstr ""
+"La **Velocidad (fps)** es la cantidad de fotogramas que transcurren durante un "
+"segundo de animación, y debe ser determinado de acuerdo al tipo de formato de "
+"salida que se deberá procesar, por ejemplo usualmente deberá ser 24 para una "
+"producción cinematográfica, 25 para PAL o 30 para NTSC."
 
 #: ../../source/setting_up_a_scene.rst:60
 msgid ""
-"The current scene frame rate can be set in the Scene Settings... dialog, "
-"and it is displayed in the bottom bar of any Viewer pane. In case the "
-"play back is activated, the actual frame rate is displayed on its left."
+"The current scene frame rate can be set in the Scene Settings... dialog, and it "
+"is displayed in the bottom bar of any Viewer pane. In case the play back is "
+"activated, the actual frame rate is displayed on its left."
 msgstr ""
+"La velocidad de fotogramas de la escena actual puede ser definida en el diálogo "
+"Opciones de escena..., y es mostrada en la barra inferior del panel del Visor. "
+"Al activar la reproducción, la velocidad real también es mostrada a su "
+"izquierda."
 
 #: ../../source/setting_up_a_scene.rst:62
 msgid ""
-"Apart from affecting the playback speed when previewing or rendering a "
-"scene, the frame rate also determines the frame count of an audio file "
-"when it is imported into the Xsheet (see  :ref:`Creating a Soundtrack "
+"Apart from affecting the playback speed when previewing or rendering a scene, "
+"the frame rate also determines the frame count of an audio file when it is "
+"imported into the Xsheet (see  :ref:`Creating a Soundtrack "
 "<creating_a_soundtrack>`  )."
 msgstr ""
+"Además de afectar la velocidad de reproducción al previsualizar o procesar una "
+"escena, la velocidad también determina la cantidad de fotogramas de un archivo "
+"de audio, al ser importado a la Planilla (ver  :ref:`Creación de una banda de "
+"sonido <creating_a_soundtrack>`  )."
 
 #: ../../source/setting_up_a_scene.rst:64
 msgid ""
-"Even if a scene has been composited with a specific frame rate for a "
-"certain output, it is possible to render it out at a different frame rate"
-" by using the Stretch from FPS: To: option in the Output Settings > Other"
-" Settings dialog (see  :ref:`Choosing the Output Settings "
-"<choosing_the_output_settings>`  )."
+"Even if a scene has been composited with a specific frame rate for a certain "
+"output, it is possible to render it out at a different frame rate by using the "
+"Stretch from FPS: To: option in the Output Settings > Other Settings dialog "
+"(see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
 msgstr ""
+"Aunque una escena haya sido creada usando una determinada velocidad para un "
+"cierto tipo de formato de salida, es posible procesarla a una velocidad "
+"distinta, usando la opción **Estirar (fps)  Desde:  Hasta:** en el diálogo "
+"Opciones de salida > Otras opciones. (ver  :ref:`Elección de Opciones de salida "
+"<choosing_the_output_settings>`  )."
 
 #: ../../source/setting_up_a_scene.rst:66
 msgid "|stretch_fps_to|"
@@ -189,19 +249,20 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:69
 msgid "**To set the frame rate:**"
-msgstr ""
+msgstr "**Para definir la velocidad:**"
 
 #: ../../source/setting_up_a_scene.rst:71
 msgid "Choose Xsheet > Scene Settings..."
-msgstr ""
+msgstr "Elegir Planilla > Opciones de escena..."
 
 #: ../../source/setting_up_a_scene.rst:73
 msgid "In the Frame Rate text field set the frame rate value."
 msgstr ""
+"En el campo **Velocidad (fps):** ingresar el valor de fotogramas por segundo."
 
 #: ../../source/setting_up_a_scene.rst:79
 msgid "Defining Camera Settings"
-msgstr ""
+msgstr "Definición de opciones de cámara"
 
 #: ../../source/setting_up_a_scene.rst:80
 msgid "|camera_settings|"
@@ -209,173 +270,229 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:82
 msgid ""
-"The Current Camera Settings dialog, that can be opened from the Xsheet "
-"menu, contains parameters for defining the current camera frame size and "
-"resolution."
+"The Current Camera Settings dialog, that can be opened from the Xsheet menu, "
+"contains parameters for defining the current camera frame size and resolution."
 msgstr ""
+"El diálogo Opciones de cámara actual, que puede ser abierto desde el menú "
+"Planilla, contiene parámetros para definir el tamaño y resolución de la cámara "
+"actual."
 
 #: ../../source/setting_up_a_scene.rst:84
 msgid ""
-"More than one camera can be defined for each scene, in order to have "
-"different output resolutions, or to shot only a particular area of the "
-"scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`"
-"  )."
+"More than one camera can be defined for each scene, in order to have different "
+"output resolutions, or to shot only a particular area of the scene (see  :ref:"
+"`Using the Stage Schematic <using_the_stage_schematic>`  )."
 msgstr ""
+"Es posible definir más de una cámara en una escena, para poder tener varias "
+"resoluciones de salida o para enfocar sólo un área en particular de la escena "
+"(ver  :ref:`Uso del Diagrama de escenario <using_the_stage_schematic>`  )."
 
 #: ../../source/setting_up_a_scene.rst:86
 msgid ""
-"The camera frame size can be expressed in any unit, but will be "
-"visualized in the default one chosen in the Preferences > Interface "
-"dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`"
-"  )."
+"The camera frame size can be expressed in any unit, but will be visualized in "
+"the default one chosen in the Preferences > Interface dialog (see  :ref:"
+"`Choosing the Working Unit <choosing_the_working_unit>`  )."
 msgstr ""
+"El tamaño de la cámara puede ser expresado en cualquier unidad, sin embargo "
+"será mostrado en la unidad predefinida elegida en el diálogo Preferencias > "
+"Interfaz (ver  :ref:`Elección de unidades de trabajo "
+"<choosing_the_working_unit>`  )."
 
 #: ../../source/setting_up_a_scene.rst:88
 msgid "In OpenToonz the Camera is defined by different parameters:"
-msgstr ""
+msgstr "En OpenToonz una Cámara es definida por medio de distintos parámetros:"
 
 #: ../../source/setting_up_a_scene.rst:90
 msgid ""
-"X (Width) and Y (Height) frame size of the camera, expressed in the "
-"default Camera Unit (usually inches)."
+"X (Width) and Y (Height) frame size of the camera, expressed in the default "
+"Camera Unit (usually inches)."
 msgstr ""
+"**Tamaño X (ancho)** e **Y (altura)** de la cámara, expresados en las Unidades "
+"de cámara (usualmente pulgadas)."
 
 #: ../../source/setting_up_a_scene.rst:92
 msgid "A/R is the aspect ratio value resulting by dividing Width/Height."
-msgstr ""
+msgstr "**Proporción:** es el resultado de dividir ancho/altura."
 
 #: ../../source/setting_up_a_scene.rst:94
 msgid "X and Y resolution Pixels of the resulting image frame seen by the camera."
 msgstr ""
+"**Resolución X (ancho)** e **Y (altura)** de la imagen vista por la cámara, "
+"expresados en píxeles."
 
 #: ../../source/setting_up_a_scene.rst:96
 msgid ""
-"X and Y DPI values, calculated using the standard formulas: "
-"XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to "
-"have the same value, by activating the equal-sign button between them."
+"X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and "
+"YDpi=YPx/Height. This two fields can be forced to have the same value, by "
+"activating the equal-sign button between them."
 msgstr ""
+"**PPP X (ancho)** e **Y (altura)**, calculados usando las fórmulas estándar: "
+"Xppp=Xpx/ancho y Yppp=Ypx/altura. Es posible forzar a que estos dos parámetros "
+"tengan el mismo valor, activando el botón con el símbolo de igual entre ellos."
 
 #: ../../source/setting_up_a_scene.rst:98
 msgid ""
-"When inserting a value in one field, the others change accordingly as "
-"needed for having a consistent camera. You can decide which set of values"
-" has to be considered fixed by OpenToonz. The lock-shaped buttons and the"
-" radio buttons at the leftmost column of the camera parameters, let you "
-"select which column and row of values has to be preserved by OpenToonz, "
-"while changing the others as needed."
+"When inserting a value in one field, the others change accordingly as needed "
+"for having a consistent camera. You can decide which set of values has to be "
+"considered fixed by OpenToonz. The lock-shaped buttons and the radio buttons at "
+"the leftmost column of the camera parameters, let you select which column and "
+"row of values has to be preserved by OpenToonz, while changing the others as "
+"needed."
 msgstr ""
+"Al ingresar un valor en uno de los campos, los otros cambiarán de la forma "
+"apropiada como sea necesario para mantener valores consistentes de cámara. Es "
+"posible decidir cuál conjunto de valores OpenToonz debe mantener fijo. Los "
+"botones con forma de candado y los botones alternativos a la izquierda del "
+"diálogo permiten seleccionar qué fila y columna de valores deberá ser "
+"preservada por OpenToonz, al cambiar los otros como sea necesario."
 
 #: ../../source/setting_up_a_scene.rst:100
 msgid ""
-"The **Use Current Level Settings** button let you set the camera for "
-"framing exactly the content of the selected level. Just press this button"
-" and OpenToonz will calculate the appropriate values for the camera."
+"The **Use Current Level Settings** button let you set the camera for framing "
+"exactly the content of the selected level. Just press this button and OpenToonz "
+"will calculate the appropriate values for the camera."
 msgstr ""
+"El botón **Usar opciones del nivel actual** permite definir una cámara que se "
+"ajuste exactamente al contenido del nivel seleccionado. Basta con presionarlo "
+"para que OpenToonz calcule los valores apropiados para la cámara."
 
 #: ../../source/setting_up_a_scene.rst:102
 msgid ""
 "Camera resolutions can also be selected from a list of predefined camera "
-"settings. You can add any camera preset you define to the list, as well "
-"as remove any predefined camera from it."
+"settings. You can add any camera preset you define to the list, as well as "
+"remove any predefined camera from it."
 msgstr ""
+"La resolución de la cámara también puede ser seleccionada de una lista de "
+"opciones predefinidas de cámara. Es posible agregar nuevos ajustes "
+"prestablecidos, así como eliminarlos."
 
 #: ../../source/setting_up_a_scene.rst:104
 msgid ""
-"The predefined cameras list is saved in the file ``reslist.txt``  stored "
-"in the projectroot (see  :ref:`Setting the Projectroot "
-"<setting_the_projectroot>`  )."
+"The predefined cameras list is saved in the file ``reslist.txt``  stored in the "
+"projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  )."
 msgstr ""
+"La lista de ajustes predefinidos de cámara es almacenada en el archivo` "
+"`reslist.txt``  en el directorio principal de proyectos (ver  :ref:`Definición "
+"del directorio principal de proyectos <setting_the_projectroot>`  )."
 
 #: ../../source/setting_up_a_scene.rst:106
 msgid "**To add a preset camera resolution:**"
-msgstr ""
+msgstr "**Para agregar un ajuste predefinido de cámara:**"
 
 #: ../../source/setting_up_a_scene.rst:108
 msgid "Set the resolution and A/R for the camera you want to save."
 msgstr ""
+"Definir la **Resolución** y **Proporción** de la cámara que se desea guardar."
 
 #: ../../source/setting_up_a_scene.rst:110
 msgid "Click the **Add** button on the right of the preset cameras list."
 msgstr ""
+"Hacer clic en el botón **Agregar** a la derecha de la lista de ajustes "
+"predefinidos."
 
 #: ../../source/setting_up_a_scene.rst:112
 msgid "Assign a name to the camera resolution and click the **OK** button."
-msgstr ""
+msgstr "Asignar un nombre al ajuste de cámara y presionar el botón **Aceptar**."
 
 #: ../../source/setting_up_a_scene.rst:114
 msgid "**To remove a preset camera resolution:**"
-msgstr ""
+msgstr "**Para eliminar un ajuste predefinido de cámara:**"
 
 #: ../../source/setting_up_a_scene.rst:116
 msgid ""
-"Select the camera resolution you want to remove in the preset cameras "
-"list."
-msgstr ""
+"Select the camera resolution you want to remove in the preset cameras list."
+msgstr "Seleccionar el ajuste de cámara que se desea eliminar de la lista."
 
 #: ../../source/setting_up_a_scene.rst:118
 msgid "Click the **Remove** button on the right of the preset cameras list."
 msgstr ""
+"Hacer clic en el botón **Eliminar** a la derecha de la lista de ajustes "
+"predefinidos."
 
 #: ../../source/setting_up_a_scene.rst:124
 msgid "Assigning Memory for the Undo Operations"
-msgstr ""
+msgstr "Asignación de memoria para las operaciones Deshacer."
 
 #: ../../source/setting_up_a_scene.rst:125
 msgid ""
-"All the operations performed in the software can be undone by using the "
-"Edit > Undo command, even to go back for several steps."
+"All the operations performed in the software can be undone by using the Edit > "
+"Undo command, even to go back for several steps."
 msgstr ""
+"Todas las operaciones realizadas pueden ser deshechas, usando el comando Editar "
+"> Deshacer."
 
 #: ../../source/setting_up_a_scene.rst:127
 msgid ""
-"Undo operations require computer memory in order to be performed, and "
-"some of them may require more memory than some others, according to their"
-" complexity."
+"Undo operations require computer memory in order to be performed, and some of "
+"them may require more memory than some others, according to their complexity."
 msgstr ""
+"Deshacer operaciones requiere de memoria para almacenarlas previamente y es "
+"posible que algunas de ellas requieran más que otras, de acuerdo a su "
+"complejidad."
 
 #: ../../source/setting_up_a_scene.rst:129
 msgid ""
-"To prevent most of the computer memory to be used by undo operations "
-"while you work, a situation that slows down the software performance, it "
-"is possible to set a limit for it by specifying the Undo Memory Size (MB)"
-" in the Files > Preferences > General dialog."
+"To prevent most of the computer memory to be used by undo operations while you "
+"work, a situation that slows down the software performance, it is possible to "
+"set a limit for it by specifying the Undo Memory Size (MB) in the Files > "
+"Preferences > General dialog."
 msgstr ""
+"Para prevenir que esto llegue a usar una cantidad significativa de memoria del "
+"sistema y enlentecer el rendimiento del programa, es posible establecer un "
+"límite, usando la opción **Deshacer - Tamaño de memoria (MB)** en el diálogo "
+"Archivo > Preferencias > General."
 
 #: ../../source/setting_up_a_scene.rst:131
 msgid ""
-"As soon as the limit is reached, the oldest undo operations will be "
-"discarded to make room for the new ones."
+"As soon as the limit is reached, the oldest undo operations will be discarded "
+"to make room for the new ones."
 msgstr ""
+"Tan pronto como el limite es alcanzado, las operaciones más antiguas "
+"almacenadas serán descartadas para hacer espacio para las nuevas."
 
 #: ../../source/setting_up_a_scene.rst:137
 msgid "Optimizing the Memory Usage"
-msgstr ""
+msgstr "Optimización del uso de memoria"
 
 #: ../../source/setting_up_a_scene.rst:138
 msgid ""
-"When working with Raster images, predominantly being animation levels "
-"scanned with OpenToonz or GTS, an extensive usage of computer memory may "
-"be required during the cleanup, painting and rendering processes."
+"When working with Raster images, predominantly being animation levels scanned "
+"with OpenToonz or GTS, an extensive usage of computer memory may be required "
+"during the cleanup, painting and rendering processes."
 msgstr ""
+"Al trabajar con imágenes de mapa de bits (en general niveles de animación "
+"escaneados con OpenToonz o GTS), es posible que se requiera un uso intensivo de "
+"memoria durante los procesos de limpieza, pintado y procesamiento de los mismos."
 
 #: ../../source/setting_up_a_scene.rst:140
 msgid ""
-"After a certain amount of time the computer performance may worsen, as "
-"the memory gets fragmented because of the several writing and reading "
-"accesses. To prevent this behavior, the Minimize Raster Memory "
-"Fragmentation* option can be activated in the Files > Preferences > "
-"General dialog. When activated, a section of computer memory is reserved "
-"and used only for operations concerning Raster images."
+"After a certain amount of time the computer performance may worsen, as the "
+"memory gets fragmented because of the several writing and reading accesses. To "
+"prevent this behavior, the Minimize Raster Memory Fragmentation* option can be "
+"activated in the Files > Preferences > General dialog. When activated, a "
+"section of computer memory is reserved and used only for operations concerning "
+"Raster images."
 msgstr ""
+"Luego de cierto tiempo, es posible que el rendimiento del sistema decrezca a "
+"medida que la memoria comienza a quedar fragmentada por el uso de sucesivos "
+"procesos de escritura, lectura y borrado. Para prevenir esta situación, es "
+"posible activar la opción **Minimizar fragmentación de imágenes en memoria** en "
+"el diálogo Archivo > Preferencias > General. Al estar activada, una porción de "
+"la memoria del sistema será reservada solamente para su uso en operaciones "
+"relativas a imágenes de mapa de bits."
 
 #: ../../source/setting_up_a_scene.rst:142
 msgid ""
-"If you are working mainly with vector images, that have been drawn inside"
-" OpenToonz, this option should be deactivated, as the reserved memory "
-"section would be otherwise unused by the computer."
+"If you are working mainly with vector images, that have been drawn inside "
+"OpenToonz, this option should be deactivated, as the reserved memory section "
+"would be otherwise unused by the computer."
 msgstr ""
+"Si se trabaja principalmente con imágenes vectoriales creadas en OpenToonz, "
+"esta opción debería permanecer desactivada, ya que de otro modo esa sección "
+"reservada de memoria quedaría prácticamente inutilizada."
 
 #: ../../source/setting_up_a_scene.rst:144
 msgid "The change set for this option is valid only after OpenToonz is restarted."
 msgstr ""
-
+"Los cambios definidos para esta opción será válidos recién luego de que "
+"OpenToonz sea reiniciado."
