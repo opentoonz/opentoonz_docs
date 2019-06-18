@@ -175,14 +175,14 @@ Besides the basic default folders you can also add your own default folders, and
 
 The following is an example of a ``projectfolders.txt``  file:
 
-inputs/n
-drawings\n
-background
-scenes
-extras
-outputs
-palettes
-3D
+| inputs
+| drawings
+| background
+| scenes
+| extras
+| outputs
+| palettes
+| 3D
 
 where the **+backgrounds** and **+3D** aliases were added to the default ones.
 
