@@ -175,8 +175,8 @@ Besides the basic default folders you can also add your own default folders, and
 
 The following is an example of a ``projectfolders.txt``  file:
 
-inputs
-drawings
+inputs/n
+drawings\n
 background
 scenes
 extras
