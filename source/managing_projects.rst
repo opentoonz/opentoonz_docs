@@ -177,7 +177,7 @@ The following is an example of a ``projectfolders.txt``  file:
 
 | inputs
 | drawings
-| background
+| backgrounds
 | scenes
 | extras
 | outputs
