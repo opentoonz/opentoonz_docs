@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 21:06+0800\n"
+"POT-Creation-Date: 2019-06-15 12:06+0800\n"
 "PO-Revision-Date: 2019-05-11 00:15+0800\n"
 "Last-Translator: user <surkow.aleksandr@gmail.com>\n"
 "Language: ru_RU\n"
@@ -632,13 +632,13 @@ msgid "Adding Custom Default Folders"
 msgstr "Добавление пользовательских папок по умолчанию"
 
 #: ../../source/managing_projects.rst:174
-#, fuzzy
 msgid ""
 "Besides the basic default folders you can also add your own default "
 "folders, and use the related aliases, by defining a TXT file named "
 "``project_folders.txt``  in the ``OpenToonz stuff\\profiles``  folder. In"
 " this file you can also change the order of the folders already available"
-" to change the way they are listed in the project settings dialog."
+" to change the way they are listed in the project settings dialog. The "
+"following is an example of a ``projectfolders.txt``  file:"
 msgstr ""
 "Помимо основных папок по умолчанию вы также можете добавить свои "
 "собственные папки по умолчанию и использовать связанные псевдонимы, "
@@ -648,42 +648,38 @@ msgstr ""
 "настроек проекта. Ниже приведен пример файла ``projectfolders.txt``:"
 
 #: ../../source/managing_projects.rst:176
-msgid "The following is an example of a ``projectfolders.txt``  file:"
-msgstr ""
-
-#: ../../source/managing_projects.rst:178
 msgid "inputs"
 msgstr ""
 
-#: ../../source/managing_projects.rst:179
+#: ../../source/managing_projects.rst:178
 msgid "drawings"
 msgstr ""
 
 #: ../../source/managing_projects.rst:180
-msgid "backgrounds"
-msgstr ""
-
-#: ../../source/managing_projects.rst:181
-msgid "scenes"
+msgid "background"
 msgstr ""
 
 #: ../../source/managing_projects.rst:182
-msgid "extras"
-msgstr ""
-
-#: ../../source/managing_projects.rst:183
-msgid "outputs"
+msgid "scenes"
 msgstr ""
 
 #: ../../source/managing_projects.rst:184
+msgid "extras"
+msgstr ""
+
+#: ../../source/managing_projects.rst:186
+msgid "outputs"
+msgstr ""
+
+#: ../../source/managing_projects.rst:188
 msgid "palettes"
 msgstr ""
 
-#: ../../source/managing_projects.rst:185
+#: ../../source/managing_projects.rst:190
 msgid "3D"
 msgstr ""
 
-#: ../../source/managing_projects.rst:187
+#: ../../source/managing_projects.rst:192
 msgid ""
 "where the **+backgrounds** and **+3D** aliases were added to the default "
 "ones."
@@ -691,15 +687,15 @@ msgstr ""
 "где псевдонимы **+backgrounds** и **+3D** были добавлены к псевдонимам по"
 " умолчанию."
 
-#: ../../source/managing_projects.rst:190
+#: ../../source/managing_projects.rst:195
 msgid "**To add more default folders to projects:**"
 msgstr "**Чтобы добавить больше папок по умолчанию в проекты:**"
 
-#: ../../source/managing_projects.rst:192
+#: ../../source/managing_projects.rst:197
 msgid "Open the ``OpenToonz stuff\\profiles\\project_folders.txt``  file."
 msgstr "Откройте файл ``OpenToonz stuff\\profile\\project_folders.txt``."
 
-#: ../../source/managing_projects.rst:194
+#: ../../source/managing_projects.rst:199
 msgid ""
 "List the default folders you want to define, one per line, and save the "
 "file."
@@ -707,11 +703,11 @@ msgstr ""
 "Перечислите папки по умолчанию, которые вы хотите определить, по одной на"
 " строку, и сохраните файл."
 
-#: ../../source/managing_projects.rst:200
+#: ../../source/managing_projects.rst:205
 msgid "Using the $scenepath Variable in Folder Definition"
 msgstr "Использование переменной $scenepath в определении папки"
 
-#: ../../source/managing_projects.rst:201
+#: ../../source/managing_projects.rst:206
 msgid ""
 "The $scenepath variable can also be used in the definition of the "
 "**+inputs**, **+drawings**, and **+extras** aliases when typing the "
@@ -725,7 +721,7 @@ msgstr ""
 "сцену, заменит переменную $scenepath в определении пути, при этом "
 "необходимые папки автоматически создаются в процессе сохранения."
 
-#: ../../source/managing_projects.rst:203
+#: ../../source/managing_projects.rst:208
 msgid ""
 "For example if **+drawings** is ``$scenepath\\mydrawings,`` and you save "
 "the scene scene01 in ``+scenes\\seq01`` , OpenToonz drawn or cleaned up "
@@ -739,7 +735,7 @@ msgstr ""
 "``seq01\\scene01\\mydrawings``; когда вы сохраняете сцену scene02, в "
 "``seq01\\scene02\\mydrawings``; и так далее."
 
-#: ../../source/managing_projects.rst:205
+#: ../../source/managing_projects.rst:210
 msgid ""
 "In this way the needed default folders are automatically created with the"
 " same given name (mydrawings), one for each scene, according to the path "
@@ -753,11 +749,11 @@ msgstr ""
 "переменная используется таким образом для всех псевдонимов, все файлы, "
 "относящиеся к сцене, будут храниться в папке с именем сцены."
 
-#: ../../source/managing_projects.rst:207
+#: ../../source/managing_projects.rst:212
 msgid "|scenepath_variable|"
 msgstr ""
 
-#: ../../source/managing_projects.rst:209
+#: ../../source/managing_projects.rst:214
 msgid ""
 "A second example: if **+drawings** is ``mydrawings\\$scenepath,`` when "
 "you save the scene scene01 in ``+scenes\\seq01`` , OpenToonz drawn or "
@@ -771,7 +767,7 @@ msgstr ""
 "``mydrawings\\seq01\\scene01``; когда вы сохраняете сцену scene02, в "
 "``mydrawings\\seq01\\scene02``; и так далее."
 
-#: ../../source/managing_projects.rst:211
+#: ../../source/managing_projects.rst:216
 msgid ""
 "In this case the needed default folders are automatically created with "
 "the name and path of folders used when saving the scene, inside the path "
@@ -787,7 +783,7 @@ msgstr ""
 "будут храниться в главной папке для каждого псевдонима, содержимое "
 "которого разделено на папки, называемые сценами."
 
-#: ../../source/managing_projects.rst:213
+#: ../../source/managing_projects.rst:218
 msgid ""
 "The definition of the **+palettes** alias cannot include $scenepath, as "
 "the palettes refer to the whole project, not to specific scenes."
@@ -795,7 +791,7 @@ msgstr ""
 "Определение псевдонима **+palettes** не может включать $scenepath, "
 "поскольку палитры относятся ко всему проекту, а не к конкретным сценам."
 
-#: ../../source/managing_projects.rst:215
+#: ../../source/managing_projects.rst:220
 msgid ""
 "It is not possible to use at the same time for an alias the $scenepath "
 "variable in folder definition and the Append $scenepath option."
@@ -803,11 +799,11 @@ msgstr ""
 "Невозможно одновременно использовать для псевдонима переменную $scenepath"
 " в определении папки и параметр Append $scenepath."
 
-#: ../../source/managing_projects.rst:221
+#: ../../source/managing_projects.rst:226
 msgid "Using the Append $scenepath Option"
 msgstr "Использование опции Append $scenepath"
 
-#: ../../source/managing_projects.rst:222
+#: ../../source/managing_projects.rst:227
 msgid ""
 "The Append $scenepath option is available for the **+inputs**, "
 "**+drawings** and **+extras** aliases. If you activate the Append "
@@ -821,7 +817,7 @@ msgstr ""
 "добавлен к пути псевдонима, при этом необходимые папки автоматически "
 "создаются в процессе сохранения."
 
-#: ../../source/managing_projects.rst:224
+#: ../../source/managing_projects.rst:229
 msgid ""
 "For example if **+drawings** is ``mydrawings`` , and you save the scene "
 "scene01 in ``+scenes\\seq01`` , OpenToonz drawn or cleaned up levels for "
@@ -837,11 +833,11 @@ msgstr ""
 "уровни OpenToonz для этой сцены будут сохранены в "
 "``mydrawings\\seq01\\scene02`` ; и так далее."
 
-#: ../../source/managing_projects.rst:226
+#: ../../source/managing_projects.rst:231
 msgid "|append_scenepath|"
 msgstr ""
 
-#: ../../source/managing_projects.rst:228
+#: ../../source/managing_projects.rst:233
 msgid ""
 "This allows OpenToonz to create scene-related folders automatically when "
 "saving OpenToonz files or importing external files, while allowing the "
@@ -854,7 +850,7 @@ msgstr ""
 "и **+extras**, независимо от того, где уровни загружаются из текущего "
 "проекта."
 
-#: ../../source/managing_projects.rst:230
+#: ../../source/managing_projects.rst:235
 msgid ""
 "When a scene is saved in the **+scenes** folder, the value for $scenepath"
 " is the scene name; for example if you save the scene scene02 in "
@@ -864,7 +860,7 @@ msgstr ""
 "является именем сцены; например, если вы сохраните сцену scene02 в "
 "**+scenes**, $scenepath будет scene02."
 
-#: ../../source/managing_projects.rst:232
+#: ../../source/managing_projects.rst:237
 msgid ""
 "It is not possible to use for an alias the Append $scenepath option and "
 "at the same time the $scenepath variable in defining the related folder."
@@ -872,11 +868,11 @@ msgstr ""
 "Невозможно использовать для псевдонима опцию Append $scenepath и в то же "
 "время переменную $scenepath при определении связанной папки."
 
-#: ../../source/managing_projects.rst:238
+#: ../../source/managing_projects.rst:243
 msgid "Using the Project Browser"
 msgstr "Использование браузера проекта"
 
-#: ../../source/managing_projects.rst:239
+#: ../../source/managing_projects.rst:244
 msgid ""
 "The project browser is available at the end of the file browser tree. It "
 "lists all of the projects that have been created, whose actual location "
@@ -888,13 +884,13 @@ msgstr ""
 "находится в корне проекта, который был определен при первоначальной "
 "установке OpenToonz. Значение Projectroot отображается в скобках."
 
-#: ../../source/managing_projects.rst:241
+#: ../../source/managing_projects.rst:246
 msgid "The name of the folders which the aliases point to are displayed in blue."
 msgstr ""
 "Название папок, на которые указывают псевдонимы, отображается синим "
 "цветом."
 
-#: ../../source/managing_projects.rst:243
+#: ../../source/managing_projects.rst:248
 msgid ""
 "In case more than one projectroot is defined, each will be listed with "
 "the related projectroot value in brackets (see  :ref:`Setting the "
@@ -904,11 +900,11 @@ msgstr ""
 "указан со связанным значением projectroot в скобках (см. :ref:`Настройка "
 "Projectroot <setting_the_projectroot>`)."
 
-#: ../../source/managing_projects.rst:248
+#: ../../source/managing_projects.rst:253
 msgid "Default Folders with Relative Paths"
 msgstr "Папки по умолчанию с относительными путями"
 
-#: ../../source/managing_projects.rst:249
+#: ../../source/managing_projects.rst:254
 msgid ""
 "When default folders are defined by using a relative path, in the project"
 " browser you will see all the folders specified in the path under the "
@@ -922,7 +918,7 @@ msgstr ""
 "файловой системы. Папки, являющиеся целью путей, отображаются синим "
 "цветом."
 
-#: ../../source/managing_projects.rst:251
+#: ../../source/managing_projects.rst:256
 msgid ""
 "For example, for the project Project01, with **+drawings** that is "
 "``section01\\prod drawings`` , the project browser will display the "
@@ -931,38 +927,38 @@ msgstr ""
 "Например, для проекта Project01 с **+drawings**, то есть ``section01\\ "
 "prod drawing``, браузер проекта отобразит следующее:"
 
-#: ../../source/managing_projects.rst:256
-#: ../../source/managing_projects.rst:265
-#: ../../source/managing_projects.rst:273
-#: ../../source/managing_projects.rst:282
-#: ../../source/managing_projects.rst:294
-#: ../../source/managing_projects.rst:304
-#: ../../source/managing_projects.rst:312
+#: ../../source/managing_projects.rst:261
+#: ../../source/managing_projects.rst:270
+#: ../../source/managing_projects.rst:278
+#: ../../source/managing_projects.rst:287
+#: ../../source/managing_projects.rst:299
+#: ../../source/managing_projects.rst:309
+#: ../../source/managing_projects.rst:317
 msgid "Projects"
 msgstr ""
 
-#: ../../source/managing_projects.rst:256
-#: ../../source/managing_projects.rst:265
-#: ../../source/managing_projects.rst:273
-#: ../../source/managing_projects.rst:282
-#: ../../source/managing_projects.rst:294
-#: ../../source/managing_projects.rst:304
-#: ../../source/managing_projects.rst:312
+#: ../../source/managing_projects.rst:261
+#: ../../source/managing_projects.rst:270
+#: ../../source/managing_projects.rst:278
+#: ../../source/managing_projects.rst:287
+#: ../../source/managing_projects.rst:299
+#: ../../source/managing_projects.rst:309
+#: ../../source/managing_projects.rst:317
 msgid "Project01"
 msgstr ""
 
-#: ../../source/managing_projects.rst:256
-#: ../../source/managing_projects.rst:265
+#: ../../source/managing_projects.rst:261
+#: ../../source/managing_projects.rst:270
 msgid "section01"
 msgstr ""
 
-#: ../../source/managing_projects.rst:256
-#: ../../source/managing_projects.rst:273
+#: ../../source/managing_projects.rst:261
+#: ../../source/managing_projects.rst:278
 msgid "**prod drawings**"
 msgstr ""
 
-#: ../../source/managing_projects.rst:258
-#: ../../source/managing_projects.rst:298
+#: ../../source/managing_projects.rst:263
+#: ../../source/managing_projects.rst:303
 msgid ""
 "If the option Append $scenepath is activated, and you save the scene "
 "scene01 in ``+scenes\\seq01`` , the project browser will display the "
@@ -971,25 +967,25 @@ msgstr ""
 "Если включена опция Append $scenepath, и вы сохраняете сцену scene01 в "
 "``+scenes\\seq01``, браузер проекта отобразит следующее:"
 
-#: ../../source/managing_projects.rst:265
-#: ../../source/managing_projects.rst:282
+#: ../../source/managing_projects.rst:270
+#: ../../source/managing_projects.rst:287
 msgid "prod drawings"
 msgstr ""
 
-#: ../../source/managing_projects.rst:265
-#: ../../source/managing_projects.rst:273
-#: ../../source/managing_projects.rst:282
-#: ../../source/managing_projects.rst:304
+#: ../../source/managing_projects.rst:270
+#: ../../source/managing_projects.rst:278
+#: ../../source/managing_projects.rst:287
+#: ../../source/managing_projects.rst:309
 msgid "seq01"
 msgstr ""
 
-#: ../../source/managing_projects.rst:265
-#: ../../source/managing_projects.rst:281
-#: ../../source/managing_projects.rst:304
+#: ../../source/managing_projects.rst:270
+#: ../../source/managing_projects.rst:286
+#: ../../source/managing_projects.rst:309
 msgid "**scene01**"
 msgstr ""
 
-#: ../../source/managing_projects.rst:267
+#: ../../source/managing_projects.rst:272
 msgid ""
 "If the $scenepath is used in the folder definition, with +drawings that "
 "is ``$scenepath\\prod drawings,`` and you save the scene scene01 in "
@@ -999,11 +995,11 @@ msgstr ""
 "являются ``$scenepath\\prod drawing``, и вы сохраняете сцену scene01 в "
 "``+scenes\\seq01``, браузер проекта отобразит следующее:"
 
-#: ../../source/managing_projects.rst:273
+#: ../../source/managing_projects.rst:278
 msgid "scene01"
 msgstr ""
 
-#: ../../source/managing_projects.rst:275
+#: ../../source/managing_projects.rst:280
 msgid ""
 "If the $scenepath is used in the folder definition, with +drawings that "
 "is ``mydrawings\\$scenepath,`` and you save the scene scene01 in "
@@ -1013,11 +1009,11 @@ msgstr ""
 "являются ``mydrawings\\$ scenepath``, и вы сохраняете сцену scene01 в ``+"
 " scenes\\seq01``, браузер проекта отобразит следующее:"
 
-#: ../../source/managing_projects.rst:287
+#: ../../source/managing_projects.rst:292
 msgid "Default Folders with Absolute Paths"
 msgstr "Папки по умолчанию с абсолютными путями"
 
-#: ../../source/managing_projects.rst:288
+#: ../../source/managing_projects.rst:293
 msgid ""
 "When default folders are defined by using an absolute path, in the "
 "project browser you will see only the related aliases, whatever their "
@@ -1033,7 +1029,7 @@ msgstr ""
 "Псевдонимы отображаются синим цветом, поскольку они являются "
 "местоположением, на которое указывают пути к папкам по умолчанию."
 
-#: ../../source/managing_projects.rst:290
+#: ../../source/managing_projects.rst:295
 msgid ""
 "For example, for the project Project01, with **+drawings** that is "
 "``C:\\production\\prod drawings`` on Windows, or ``/Volume/Macintosh "
@@ -1045,12 +1041,12 @@ msgstr ""
 "HD/production/prod drawing`` в Macintosh, браузер проекта будет "
 "отображать следующее:"
 
-#: ../../source/managing_projects.rst:294
-#: ../../source/managing_projects.rst:312
+#: ../../source/managing_projects.rst:299
+#: ../../source/managing_projects.rst:317
 msgid "**+drawings**"
 msgstr ""
 
-#: ../../source/managing_projects.rst:296
+#: ../../source/managing_projects.rst:301
 msgid ""
 "where **+drawings** is an alias for ``C:\\production\\prod drawings`` on "
 "Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on "
@@ -1059,11 +1055,11 @@ msgstr ""
 "где **+drawing** - это псевдоним ``C:\\production\\prod drawing`` в "
 "Windows или ``/Volume/Macintosh HD/production/prod drawing`` в Macintosh."
 
-#: ../../source/managing_projects.rst:304
+#: ../../source/managing_projects.rst:309
 msgid "\\+drawings \\"
 msgstr ""
 
-#: ../../source/managing_projects.rst:306
+#: ../../source/managing_projects.rst:311
 #, fuzzy
 msgid ""
 "If the $scenepath is used in the folder definition, with **+drawings** "
@@ -1077,15 +1073,15 @@ msgstr ""
 " HD/$ scenepath/prod drawing`` на Macintosh, и вы сохраните сцену scene01"
 " в ``+scenes\\seq01``, браузер проекта отобразит следующее:"
 
-#: ../../source/managing_projects.rst:312
+#: ../../source/managing_projects.rst:317
 msgid "\\+scenes \\"
 msgstr ""
 
-#: ../../source/managing_projects.rst:312
+#: ../../source/managing_projects.rst:317
 msgid "scene01.tnz"
 msgstr ""
 
-#: ../../source/managing_projects.rst:314
+#: ../../source/managing_projects.rst:319
 msgid ""
 "with **+drawings** that is ``C:\\seq01\\scene01\\prod drawings`` on "
 "Windows, or ``/Volume/Macintosh HD/seq01/scene01/prod drawings`` on "
@@ -1095,7 +1091,7 @@ msgstr ""
 "или ``/Volume/Macintosh HD/seq01/scene01/prod drawings`` в Macintosh и "
 "находится под связанный файл сцены (формат TNZ)."
 
-#: ../../source/managing_projects.rst:316
+#: ../../source/managing_projects.rst:321
 msgid ""
 "If the $scenepath is used in the folder definition, with **+drawings** "
 "that is ``C:\\prod drawings\\$scenepath`` on Windows, or "
@@ -1459,7 +1455,4 @@ msgstr ""
 
 #~ msgid "Restart Toonz Harlequin to make the change effective."
 #~ msgstr "Перезапустите Toonz Harlequin, чтобы изменения вступили в силу."
-
-#~ msgid "background"
-#~ msgstr ""
 
