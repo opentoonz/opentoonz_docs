@@ -1276,7 +1276,7 @@ To do the contrary, that is to say splitting a stroke in two sections, you can u
 .. _cleaning_up_vector_intersections:
 
 Cleaning up Strokes Intersections
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Vector strokes intersections may be a weak point in drawings to be painted, because if a gap occurs, drawing areas cannot be painted properly.
 
 The best solution for this kind of issue is to overlap the final section of strokes, in order to define clear intersections, then automatically remove the sections that overflow. 
