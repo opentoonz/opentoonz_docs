@@ -2,28 +2,31 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
 # This file is distributed under the same license as the OpenToonz package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
+# user <surkow.aleksandr@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 12:06+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-02-03 10:52+0800\n"
+"PO-Revision-Date: 2019-05-11 10:02+0800\n"
+"Last-Translator: user <surkow.aleksandr@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/setting_up_a_scene.rst:4
 msgid "Setting Up a Scene"
-msgstr ""
+msgstr "Настройка сцены"
 
 #: ../../source/setting_up_a_scene.rst:9
 msgid "Scene Settings and Project Default Settings"
-msgstr ""
+msgstr "Настройки сцены и настройки проекта по умолчанию"
 
 #: ../../source/setting_up_a_scene.rst:10
 msgid ""
@@ -33,6 +36,11 @@ msgid ""
 "settings, assuring the consistency of the production (see  :ref:`Managing"
 " Projects <managing_projects>`  )."
 msgstr ""
+"Когда вы начинаете работать над сценой, она автоматически будет принадлежать"
+" текущему проекту, наследуя ее настройки и папки по умолчанию. Таким образом,"
+" все сцены, принадлежащие проекту, создаются с одинаковыми настройками, что"
+" обеспечивает согласованность производства (см. :ref:`Управление проектами <"
+"managing_projects>`)."
 
 #: ../../source/setting_up_a_scene.rst:12
 msgid ""
@@ -43,12 +51,20 @@ msgid ""
 "scan and cleanup settings commands are available in the Scan & Cleanup "
 "menu."
 msgstr ""
+"Настройки касаются различных задач, которые вы можете выполнять в OpenToonz,"
+" таких как сканирование или очистка, размер и разрешение камеры, частота"
+" кадров, параметры вывода и т.д. Доступ к ним можно получить в диалоговых"
+" окнах, которые можно открыть с помощью команд, доступных в соответствующей"
+" меню; например, команды настроек сканирования и очистки доступны в меню"
+" «Сканирование и очистка»."
 
 #: ../../source/setting_up_a_scene.rst:14
 msgid ""
 "Settings for a particular scene can always be changed independently from "
 "the other ones, and will be automatically saved when the scene is saved."
 msgstr ""
+"Настройки для определенной сцены всегда можно изменить независимо от других,"
+" и они будут автоматически сохранены при сохранении сцены."
 
 #: ../../source/setting_up_a_scene.rst:16
 msgid ""
@@ -56,26 +72,35 @@ msgid ""
 "settings as default, so that all new scenes created for that project will"
 " have those values."
 msgstr ""
+"Если вы хотите изменить значения по умолчанию, вы можете сохранить текущие"
+" настройки сцены по умолчанию, чтобы все новые сцены, созданные для этого"
+" проекта, имели эти значения."
 
 #: ../../source/setting_up_a_scene.rst:18
 msgid "**To save current scene settings as project default settings:**"
 msgstr ""
+"**Чтобы сохранить текущие настройки сцены как настройки проекта по"
+" умолчанию:**"
 
 #: ../../source/setting_up_a_scene.rst:20
 msgid ""
 "Select File > Save Default Settings: all the settings from the current "
 "scene will become the project default."
 msgstr ""
+"Выберите Файл > Сохранить настройки по умолчанию: все настройки текущей сцены"
+" станут настройками проекта по умолчанию."
 
 #: ../../source/setting_up_a_scene.rst:26
 msgid "Choosing the Working Unit"
-msgstr ""
+msgstr "Выбор рабочей единицы"
 
 #: ../../source/setting_up_a_scene.rst:27
 msgid ""
 "Positions, distances and sizes can be expressed in several units of "
 "measure: inches, millimeters, centimeters, fields and pixels."
 msgstr ""
+"Позиции, расстояния и размеры могут быть выражены в нескольких единицах"
+" измерения: дюймах, миллиметрах, сантиметрах, полях и пикселах."
 
 #: ../../source/setting_up_a_scene.rst:29
 msgid ""
@@ -86,18 +111,28 @@ msgid ""
 "horizontal fields are equal to an inch, while one vertical field equals "
 "to an inch divided by 1.77778."
 msgstr ""
+"Единица поля равна половине дюйма по горизонтальном измерении, и это зависит"
+" от A/R, установленного в справочной информации о полях в диалоговом окне"
+" «Настройки сцены ...» для вертикального размера (см. :ref:`Использование"
+" просмотрщика <using_the_work_area>`). Например, если значение A/R равно"
+" 1,77778, два горизонтальных поля равны дюйму, а одно вертикальное поле равно"
+" дюйму, деленному на 1,77778."
 
 #: ../../source/setting_up_a_scene.rst:31
 msgid ""
 "In the Files > Preferences > Interface dialog you can set the following "
 "default units:"
 msgstr ""
+"В диалоговом окне «Файлы» > «Настройки программы» > «Интерфейс» вы можете"
+" установить следующие единицы измерения по умолчанию:"
 
 #: ../../source/setting_up_a_scene.rst:33
 msgid ""
 "The Unit is used to display all measures in text fields, and applied when"
 " moving or changing the size of stage objects."
 msgstr ""
+"Единица используется для отображения всех мер в текстовых полях и применяется"
+" при перемещении или изменении размера объектов сцены."
 
 #: ../../source/setting_up_a_scene.rst:35
 msgid ""
@@ -105,6 +140,9 @@ msgid ""
 "Xsheet > Camera Settings... dialog (see  :ref:`Defining Camera Settings "
 "<defining_camera_settings>`  )."
 msgstr ""
+"Блок камеры используется для отображения и определения размера камеры в"
+" диалоговом окне Xsheet > Настройки камеры (см. :ref:`Определение настроек"
+" камеры <defining_camera_settings>`)."
 
 #: ../../source/setting_up_a_scene.rst:37
 msgid ""
@@ -114,38 +152,48 @@ msgid ""
 "itself. As soon as the value is entered it's converted in the default "
 "unit."
 msgstr ""
+"Вы также можете выразить значения в единицах, отличных от единицы по"
+" умолчанию, введя любую из следующих единиц и сокращений: in, inch, \", ''"
+" (два апострофа), cm, mm, fld, field и px после входного значения сама. Как"
+" только значение введено, оно преобразуется в единицу измерения по умолчанию."
 
 #: ../../source/setting_up_a_scene.rst:39
 msgid ""
 "If a value without a specific unit is used, it is supposed to be "
 "expressed in the default unit."
 msgstr ""
+"Если используется значение без определенной единицы, оно должно быть выражено"
+" в единице по умолчанию."
 
 #: ../../source/setting_up_a_scene.rst:41
 msgid "**To set the default working units:**"
-msgstr ""
+msgstr "**Чтобы установить рабочие единицы по умолчанию:**"
 
 #: ../../source/setting_up_a_scene.rst:43
 msgid "Choose File > Preferences > Interface."
-msgstr ""
+msgstr "Выберите «Файл» > «Настройки программы»> «Интерфейс»."
 
 #: ../../source/setting_up_a_scene.rst:45
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Выполните одно из следующих действий:"
 
 #: ../../source/setting_up_a_scene.rst:47
 msgid "In the Unit option menu choose the unit you want to use as default."
 msgstr ""
+"В меню параметров еденицы выберите еденицу, которую вы хотите использовать по"
+" умолчанию."
 
 #: ../../source/setting_up_a_scene.rst:49
 msgid ""
 "In the Camera Unit option menu choose the unit you want to use to express"
 " the camera size."
 msgstr ""
+"В меню параметров Еденицы камеры выберите единицу измерения, которую вы"
+" хотите использовать для выражения размера камеры."
 
 #: ../../source/setting_up_a_scene.rst:55
 msgid "Setting the Frame Rate"
-msgstr ""
+msgstr "Установка частоты кадров"
 
 #: ../../source/setting_up_a_scene.rst:56
 msgid "|scene_settings|"
@@ -158,6 +206,10 @@ msgid ""
 "instance it should usually be 24 for cinematic production, 25 for PAL "
 "output, or 30 for NTSC."
 msgstr ""
+"Частота кадров - это количество кадров в секунду анимации, которое должно"
+" быть установлено в соответствии с типом вывода, который вы хотите"
+" воспроизвести, например, оно обычно должно быть 24 для кинематографического"
+" производства, 25 для вывода PAL или 30 для NTSC."
 
 #: ../../source/setting_up_a_scene.rst:60
 msgid ""
@@ -165,6 +217,10 @@ msgid ""
 "and it is displayed in the bottom bar of any Viewer pane. In case the "
 "play back is activated, the actual frame rate is displayed on its left."
 msgstr ""
+"Текущую частоту кадров сцены можно установить в диалоговом окне «Настройки"
+" сцены ...», и она отображается в нижней панели любой панели просмотра. В"
+" случае, если воспроизведение активировано, фактическая частота кадров"
+" отображается слева."
 
 #: ../../source/setting_up_a_scene.rst:62
 msgid ""
@@ -173,6 +229,10 @@ msgid ""
 "when it is imported into the Xsheet (see  :ref:`Creating a Soundtrack "
 "<creating_a_soundtrack>`  )."
 msgstr ""
+"Помимо влияния на скорость воспроизведения при предварительном просмотре или"
+" рендере сцены, частота кадров также определяет количество кадров аудиофайла"
+" при его импорте в Xsheet (см. :ref:`Создание звуковой дорожки <"
+"creating_a_soundtrack>`)."
 
 #: ../../source/setting_up_a_scene.rst:64
 msgid ""
@@ -182,6 +242,11 @@ msgid ""
 " Settings dialog (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
+"Даже если сцена была составлена ​​с определенной частотой кадров для"
+" определенного выхода, ее можно отобразить с другой частотой кадров,"
+" используя параметр «Растяжка по FPS:» в диалоговом окне «Настройки вывода» >"
+" «Другие настройки» (см. :ref:`Выбор настроек вывода <"
+"choosing_the_output_settings>`)."
 
 #: ../../source/setting_up_a_scene.rst:66
 msgid "|stretch_fps_to|"
@@ -189,19 +254,19 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:69
 msgid "**To set the frame rate:**"
-msgstr ""
+msgstr "**Чтобы установить частоту кадров:**"
 
 #: ../../source/setting_up_a_scene.rst:71
 msgid "Choose Xsheet > Scene Settings..."
-msgstr ""
+msgstr "Выберите Xsheet > Настройки сцены..."
 
 #: ../../source/setting_up_a_scene.rst:73
 msgid "In the Frame Rate text field set the frame rate value."
-msgstr ""
+msgstr "В текстовом поле Частота кадров установите значение частоты кадров."
 
 #: ../../source/setting_up_a_scene.rst:79
 msgid "Defining Camera Settings"
-msgstr ""
+msgstr "Определение настроек камеры"
 
 #: ../../source/setting_up_a_scene.rst:80
 msgid "|camera_settings|"
@@ -209,10 +274,11 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:82
 msgid ""
-"The Current Camera Settings dialog, that can be opened from the Xsheet "
-"menu, contains parameters for defining the current camera frame size and "
-"resolution."
+"The Camera Settings... dialog, that can be opened from the Xsheet menu, "
+"contains parameters for defining the current camera size and resolution."
 msgstr ""
+"Диалоговое окно Настройка камеры... , которое можно открыть из меню Xsheet,"
+" содержит параметры для определения текущего размера и разрешения камеры."
 
 #: ../../source/setting_up_a_scene.rst:84
 msgid ""
@@ -221,32 +287,40 @@ msgid ""
 "scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`"
 "  )."
 msgstr ""
+"Для каждой сцены можно определить более одной камеры, чтобы иметь разные"
+" выходные разрешения или для съемки только определенной области сцены (см."
+" :ref:`Использование схемы сцены <using_the_stage_schematic>`)."
 
 #: ../../source/setting_up_a_scene.rst:86
 msgid ""
-"The camera frame size can be expressed in any unit, but will be "
-"visualized in the default one chosen in the Preferences > Interface "
-"dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`"
-"  )."
+"The camera size can be expressed in any unit, but will be visualized in "
+"the default one chosen in the Preferences > Interface dialog (see  "
+":ref:`Choosing the Working Unit <choosing_the_working_unit>`  )."
 msgstr ""
+"Размер камеры может быть выражен в любой единице, но будет отображаться в"
+" стандартной по умолчанию, выбранной в диалоговом окне Настройки программы >"
+" Интерфейс (см. :ref:`Выбор рабочей единицы <choosing_the_working_unit>`)."
 
 #: ../../source/setting_up_a_scene.rst:88
 msgid "In OpenToonz the Camera is defined by different parameters:"
-msgstr ""
+msgstr "В OpenToonz Камера определяется различными параметрами:"
 
 #: ../../source/setting_up_a_scene.rst:90
 msgid ""
-"X (Width) and Y (Height) frame size of the camera, expressed in the "
-"default Camera Unit (usually inches)."
+"X (Width) and Y (Height) size of the camera, expressed in the default "
+"Camera Unit (usually inches)."
 msgstr ""
+"Размер камеры X (ширина) и Y (высота), выраженный в Единицах камеры по"
+" умолчанию (обычно в дюймах)."
 
 #: ../../source/setting_up_a_scene.rst:92
 msgid "A/R is the aspect ratio value resulting by dividing Width/Height."
 msgstr ""
+"A/R - это соотношение сторон, полученное в результате деления ширины/высоты."
 
 #: ../../source/setting_up_a_scene.rst:94
-msgid "X and Y resolution Pixels of the resulting image frame seen by the camera."
-msgstr ""
+msgid "X and Y resolution Pixels of the resulting image seen by the camera."
+msgstr "Разрешение X и Y Пиксели полученного изображения, видимого камерой."
 
 #: ../../source/setting_up_a_scene.rst:96
 msgid ""
@@ -254,6 +328,9 @@ msgid ""
 "XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to "
 "have the same value, by activating the equal-sign button between them."
 msgstr ""
+"Значения X и Y DPI, рассчитанные по стандартным формулам: XDpi = XPx / Ширина"
+" и YDpi = YPx / Высота. Эти два поля могут иметь одно и то же значение,"
+" активируя кнопку знака равенства между ними."
 
 #: ../../source/setting_up_a_scene.rst:98
 msgid ""
@@ -264,13 +341,22 @@ msgid ""
 "select which column and row of values has to be preserved by OpenToonz, "
 "while changing the others as needed."
 msgstr ""
+"При вставке значения в одно поле остальные изменяются соответственно по мере"
+" необходимости для согласованной камеры. Вы можете решить, какой набор"
+" значений должен считаться фиксированным OpenToonz. Кнопки в форме замка и"
+" переключатели в крайнем левом столбце параметров камеры позволяют выбрать,"
+" какой столбец и ряд значений должны быть сохранены OpenToonz, при этом"
+" изменяя другие при необходимости."
 
 #: ../../source/setting_up_a_scene.rst:100
 msgid ""
-"The **Use Current Level Settings** button let you set the camera for "
-"framing exactly the content of the selected level. Just press this button"
-" and OpenToonz will calculate the appropriate values for the camera."
+"The Use Current Level Settings button let you set the camera for framing "
+"exactly the content of the selected level. Just press this button and "
+"OpenToonz will calculate the appropriate values for the camera."
 msgstr ""
+"Кнопка «Использовать настройки текущего уровня» позволяет настроить камеру"
+" для точного кадрирования содержимого выбранного уровня. Просто нажмите эту"
+" кнопку, и OpenToonz рассчитает соответствующие значения для камеры."
 
 #: ../../source/setting_up_a_scene.rst:102
 msgid ""
@@ -278,6 +364,9 @@ msgid ""
 "settings. You can add any camera preset you define to the list, as well "
 "as remove any predefined camera from it."
 msgstr ""
+"Разрешения камеры также могут быть выбраны из списка предустановленных"
+" настроек камеры. Вы можете добавить любую предустановку камеры, которую вы"
+" определили, в список, а также удалить любую предопределенную камеру из него."
 
 #: ../../source/setting_up_a_scene.rst:104
 msgid ""
@@ -285,46 +374,52 @@ msgid ""
 "in the projectroot (see  :ref:`Setting the Projectroot "
 "<setting_the_projectroot>`  )."
 msgstr ""
+"Предопределенный список камер сохраняется в файле ``reslist.txt``, хранящемся"
+" в projectroot (см. :ref:`Настройка Projectroot <setting_the_projectroot>`)."
 
 #: ../../source/setting_up_a_scene.rst:106
 msgid "**To add a preset camera resolution:**"
-msgstr ""
+msgstr "**Чтобы добавить предустановку разрешения камеры:**"
 
 #: ../../source/setting_up_a_scene.rst:108
 msgid "Set the resolution and A/R for the camera you want to save."
-msgstr ""
+msgstr "Установите разрешение и A/R для камеры, которую вы хотите сохранить."
 
 #: ../../source/setting_up_a_scene.rst:110
-msgid "Click the **Add** button on the right of the preset cameras list."
-msgstr ""
+msgid "Click the Add button on the right of the preset cameras list."
+msgstr "Нажмите кнопку «Добавить» справа от списка предустановленных камер."
 
 #: ../../source/setting_up_a_scene.rst:112
-msgid "Assign a name to the camera resolution and click the **OK** button."
-msgstr ""
+msgid "Assign a name to the camera resolution and click the OK button."
+msgstr "Присвойте имя разрешению камеры и нажмите кнопку ОК."
 
 #: ../../source/setting_up_a_scene.rst:114
 msgid "**To remove a preset camera resolution:**"
-msgstr ""
+msgstr "**Чтобы удалить предустановленное разрешение камеры:**"
 
 #: ../../source/setting_up_a_scene.rst:116
 msgid ""
 "Select the camera resolution you want to remove in the preset cameras "
 "list."
 msgstr ""
+"Выберите разрешение камеры, которое вы хотите удалить, в списке"
+" предустановленных камер."
 
 #: ../../source/setting_up_a_scene.rst:118
-msgid "Click the **Remove** button on the right of the preset cameras list."
-msgstr ""
+msgid "Click the Remove button on the right of the preset cameras list."
+msgstr "Нажмите кнопку «Удалить» справа от списка предустановленных камер."
 
 #: ../../source/setting_up_a_scene.rst:124
 msgid "Assigning Memory for the Undo Operations"
-msgstr ""
+msgstr "Назначение памяти для операций отмены"
 
 #: ../../source/setting_up_a_scene.rst:125
 msgid ""
 "All the operations performed in the software can be undone by using the "
 "Edit > Undo command, even to go back for several steps."
 msgstr ""
+"Все операции, выполняемые в программном обеспечении, можно отменить с помощью"
+" команды «Правка»> «Отменить», даже чтобы вернуться на несколько шагов назад."
 
 #: ../../source/setting_up_a_scene.rst:127
 msgid ""
@@ -332,6 +427,8 @@ msgid ""
 "some of them may require more memory than some others, according to their"
 " complexity."
 msgstr ""
+"Операции отмены требуют компьютерной памяти для выполнения, и некоторые из"
+" них могут требовать больше памяти, чем другие, в зависимости от их сложности."
 
 #: ../../source/setting_up_a_scene.rst:129
 msgid ""
@@ -340,16 +437,22 @@ msgid ""
 "is possible to set a limit for it by specifying the Undo Memory Size (MB)"
 " in the Files > Preferences > General dialog."
 msgstr ""
+"Чтобы предотвратить использование большей части памяти компьютера операциями"
+" отмены во время работы, что может привести к снижению производительности"
+" программного обеспечения, можно установить для нее ограничение, указав"
+" размер памяти для отмены (МБ) в меню «Файл» > «Настройки программы» > Общие."
 
 #: ../../source/setting_up_a_scene.rst:131
 msgid ""
 "As soon as the limit is reached, the oldest undo operations will be "
 "discarded to make room for the new ones."
 msgstr ""
+"Как только предел достигнут, самые старые операции отмены будут отброшены,"
+" чтобы освободить место для новых."
 
 #: ../../source/setting_up_a_scene.rst:137
 msgid "Optimizing the Memory Usage"
-msgstr ""
+msgstr "Оптимизация использования памяти"
 
 #: ../../source/setting_up_a_scene.rst:138
 msgid ""
@@ -357,6 +460,10 @@ msgid ""
 "scanned with OpenToonz or GTS, an extensive usage of computer memory may "
 "be required during the cleanup, painting and rendering processes."
 msgstr ""
+"При работе с растровыми изображениями, которые в основном представляют собой"
+" уровни анимации, сканируемые с помощью OpenToonz или GTS, может"
+" потребоваться интенсивное использование компьютерной памяти во время"
+" процессов очистки, рисования и рендера."
 
 #: ../../source/setting_up_a_scene.rst:140
 msgid ""
@@ -367,6 +474,12 @@ msgid ""
 "General dialog. When activated, a section of computer memory is reserved "
 "and used only for operations concerning Raster images."
 msgstr ""
+"Через некоторое время производительность компьютера может ухудшиться, так как"
+" память фрагментируется из-за нескольких обращений к записи и чтению. Чтобы"
+" избежать этого, можно включить параметр «Свернуть фрагментацию растровой"
+" памяти» в диалоговом окне «Файл» > «Настройка программы» > «Общие». При"
+" активации часть памяти компьютера резервируется и используется только для"
+" операций с растровыми изображениями."
 
 #: ../../source/setting_up_a_scene.rst:142
 msgid ""
@@ -374,10 +487,17 @@ msgid ""
 " OpenToonz, this option should be deactivated, as the reserved memory "
 "section would be otherwise unused by the computer."
 msgstr ""
+"Если вы работаете в основном с векторными изображениями, которые были"
+" нарисованы внутри OpenToonz, этот параметр должен быть деактивирован, так"
+" как в противном случае раздел зарезервированной памяти не будет"
+" использоваться компьютером."
 
 #: ../../source/setting_up_a_scene.rst:144
-msgid "The change set for this option is valid only after OpenToonz is restarted."
+msgid ""
+"The change set for this option is valid only after OpenToonz is restarted."
 msgstr ""
+"Набор изменений для этой опции действителен только после перезапуска"
+" OpenToonz."
 
 #~ msgid ""
 #~ "The field unit is equal to 1/2 "
