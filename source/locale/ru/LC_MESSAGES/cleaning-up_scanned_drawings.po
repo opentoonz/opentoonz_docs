@@ -2,24 +2,27 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
 # This file is distributed under the same license as the OpenToonz package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
+# user <surkow.aleksandr@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 12:06+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-05-17 22:56+0800\n"
+"PO-Revision-Date: 2019-05-17 23:14+0800\n"
+"Last-Translator: user <surkow.aleksandr@gmail.com>\n"
+"Language: ru_RU\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:4
 msgid "Cleaning-up Scanned Drawings"
-msgstr ""
+msgstr "Очистка отсканированных рисунков"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:5
 msgid ""
@@ -29,6 +32,12 @@ msgid ""
 "recognize the drawing outline; image cropping and re-sizing, to make the "
 "drawings fit properly the camera."
 msgstr ""
+"Чтобы быть нарисованными и отредактированными с помощью OpenToonz, "
+"отсканированные рисунки должны пройти процесс очистки. Процесс включает в"
+" себя автоматическое выравнивание, чтобы выровнять каждый рисунок в "
+"соответствии с отверстиями pegbar; обработка строк, распознавание контура"
+" рисунка; обрезка и изменение размера изображения, чтобы рисунки "
+"подходили камере."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:7
 msgid ""
@@ -36,6 +45,9 @@ msgid ""
 "default palette (TPL format), where the styles used to paint the level "
 "will be stored."
 msgstr ""
+"В процессе создается уровень растра Toonz (формат TLV) и соответствующая "
+"палитра по умолчанию (формат TPL), где будут храниться стили, "
+"используемые для рисования уровня."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:10
 msgid ""
@@ -44,10 +56,15 @@ msgid ""
 "Fragmentation* option in the Files > Preferences > General dialog (see  "
 ":ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  )."
 msgstr ""
+"Если производительность компьютера снижается во время процесса очистки "
+"изображений с очень высоким разрешением, попробуйте активировать параметр"
+" «Свернуть фрагментацию растровой памяти» в диалоговом окне Файлы > "
+"Настройки программы > Общие (см. :ref:`Оптимизация использования памяти "
+"<optimizing_the_memory_usage>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:15
 msgid "The Cleanup Settings"
-msgstr ""
+msgstr "Настройки очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:16
 msgid "|cleanup_settings|"
@@ -58,6 +75,8 @@ msgid ""
 "The cleanup process can be controlled by using the Cleanup Settings that "
 "include Cleanup, Processing and Camera parameters."
 msgstr ""
+"Процесс очистки можно контролировать с помощью параметров очистки, "
+"которые включают настройки очистки, обработки и камеры."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:20
 msgid ""
@@ -67,30 +86,40 @@ msgid ""
 "settings can be used for every drawing throughout all of the animation "
 "levels."
 msgstr ""
+"Обычно настройки определяются и проверяются для одного из рисунков "
+"уровня, а затем применяются ко всему уровню анимации. Если все рисунки в "
+"сцене имеют одинаковые характеристики, весьма вероятно, что для каждого "
+"рисунка могут использоваться одни и те же настройки на всех уровнях "
+"анимации."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:22
 msgid "**To define cleanup settings:**"
-msgstr ""
+msgstr "**Чтобы определить настройки очистки:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:24
 msgid ""
 "Choose Scan & Cleanup > Cleanup Settings and use the dialog to control "
 "the cleanup process parameters and options."
 msgstr ""
+"Выберите «Сканирование и очистка» > «Настройки очистки» и используйте "
+"диалоговое окно для управления параметрами и параметрами процесса "
+"очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:29
 msgid "Defining Cleanup Parameters"
-msgstr ""
+msgstr "Определение настроек очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:31
 msgid ""
 "The Cleanup parameters set the autocentering information and some "
 "geometric transformations."
 msgstr ""
+"Настройки очистки устанавливают информацию автоматическое выравнивание и "
+"некоторые геометрические преобразования."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:36
 msgid "Autocentering"
-msgstr ""
+msgstr "Автоматическое выравнивание"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:37
 msgid "|autocentering|"
@@ -103,6 +132,10 @@ msgid ""
 "the correct registration for them, once they are used in an animation "
 "scene."
 msgstr ""
+"Параметр «Автоматическое выравнивание» выравнивает линейные рисунки и "
+"полноцветные изображения в соответствии с формой и положением отверстий "
+"перетаскивания, чтобы установить правильную регистрацию для них после их "
+"использования в анимационной сцене."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:41
 msgid ""
@@ -110,6 +143,10 @@ msgid ""
 "order to be recognized during the process (see  :ref:`Scanning Guidelines"
 " for Autocentering <scanning_guidelines_for_autocentering>`  )."
 msgstr ""
+"Отверстия штифтов должны быть правильно включены во время процесса "
+"сканирования, чтобы их можно было распознать во время процесса (см. "
+":ref:`Руководство по сканированию для автоматического выравнивания "
+"<scanning_guidelines_for_autocentering>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:43
 msgid ""
@@ -117,20 +154,28 @@ msgid ""
 "properly the pegbar holes, an error message is displayed; yet the "
 "drawings and images are processed according to the other set parameters."
 msgstr ""
+"В случае сбоя автоматического выравнивания из-за невозможности правильно "
+"распознать отверстия штифтов отображается сообщение об ошибке; все же "
+"рисунки и изображения обрабатываются в соответствии с другими заданными "
+"параметрами."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:45
 msgid "Autocenter parameters are the following:"
-msgstr ""
+msgstr "Настройки автоматического выравнивания следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:47
 msgid "Autocenter, when activated, triggers the autocenter process."
 msgstr ""
+"Автоматическое выравнивание, когда активировано, запускает процесс "
+"автоматическое выравнивание."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:49
 msgid ""
 "Pegbar Holes, sets the side of the drawing along which holes should be "
 "detected."
 msgstr ""
+"Отверстия штифтов, устанавливают сторону чертежа, вдоль которой должны "
+"быть обнаружены отверстия."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:51
 msgid ""
@@ -138,34 +183,43 @@ msgid ""
 "be used to set the center of the processed drawings and images, and the "
 "type of pegbar holes that have to be detected (such as Acme or Oxbry)."
 msgstr ""
+"Направляющая сетка указывает размер эталонных полевых указателей, которые"
+" должны использоваться для установки центра обработанных чертежей и "
+"изображений, а также тип отверстий в виде штифта, которые необходимо "
+"обнаружить (например, Acme или Oxbry)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:53
 msgid "**To check the autocenter on a selected drawing:**"
-msgstr ""
+msgstr "**Чтобы проверить автоматическое выравнивание на выбранном рисунке:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:55
 msgid "Activate the Autocenter option."
-msgstr ""
+msgstr "Активируйте опцию Автоматическое выравнивание."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:57
 msgid "Set the side where Pegbar Holes have to be detected."
-msgstr ""
+msgstr "Установите сторону, где должны быть обнаружены отверстия штифтов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:59
 msgid ""
 "Set the Field Guide to be used as reference to set the center in the "
 "correct place, and to match the shape of the pegbar holes."
 msgstr ""
+"Активируйте Направляющую сетку, которая будет использоваться в качестве "
+"ориентира, чтобы установить центр в правильном месте и соответствовать "
+"форме отверстий штифтов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:61
 msgid ""
 "Choose Scan & Cleanup > Preview Cleanup to preview the process in the "
 "Viewer."
 msgstr ""
+"Выберите «Сканирование и очистка» > «Просмотр очистки», чтобы просмотреть"
+" процесс в средстве просмотра."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:66
 msgid "Other Cleanup Parameters"
-msgstr ""
+msgstr "Другие параметры очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:67
 msgid ""
@@ -173,6 +227,10 @@ msgid ""
 "regardless of the autocenter, as they will affect processed images even "
 "if the Autocenter option is not activated. Parameters are the following:"
 msgstr ""
+"Панель «Очистка» содержит также другие параметры, которые можно "
+"активировать независимо от автоцентра, поскольку они влияют на "
+"обработанные изображения, даже если параметр Автоцентр не активирован. "
+"Параметры следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:69
 msgid "|rotate|"
@@ -184,6 +242,9 @@ msgid ""
 "the right orientation for images scanned with a different direction in "
 "order to fit the scanner bed."
 msgstr ""
+"Поворот, повернуть изображение на 90 ° по часовой стрелке. С его помощью "
+"можно установить правильную ориентацию для изображений, отсканированных в"
+" другом направлении, чтобы соответствовать ложе сканера."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:73
 msgid ""
@@ -192,6 +253,11 @@ msgid ""
 "shadow level drawn on the other side of the paper where the character "
 "level is drawn, in order to match the two animation levels later."
 msgstr ""
+"Перевернуть, зеркально отображает изображение по горизонтали, вертикали "
+"или обоим, в соответствии с активированными параметрами. Это может быть "
+"использовано, например, при обработке уровня тени, нарисованного на "
+"другой стороне листа, где нарисован уровень персонажа, чтобы позже "
+"согласовать два уровня анимации."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:75
 msgid "|savein|"
@@ -204,10 +270,14 @@ msgid ""
 "current project (see  :ref:`Project Default Folders "
 "<project_default_folders>`  )."
 msgstr ""
+"Сохранить в, позволяет определить папку, в которой сохраняются очищенные "
+"чертежи. По умолчанию он установлен в папку +drawings по умолчанию для "
+"текущего проекта (см. :ref:`Папки проекта по умолчанию "
+"<project_default_folders>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:83
 msgid "Defining Line Processing Parameters"
-msgstr ""
+msgstr "Определение настроек линий обработки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:84
 msgid ""
@@ -216,6 +286,10 @@ msgid ""
 "black and white, or grayscale lineart drawings, or colored lines in "
 "colored lineart drawings."
 msgstr ""
+"Настройки обработки определяют настройки обработки линий, чтобы "
+"подготовить рисунки к процессу покраски, распознавая черные линии на "
+"черно-белых рисунках, или штриховые рисунки в оттенках серого , или "
+"цветные линии на цветных линейных рисунках."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:86
 msgid ""
@@ -224,10 +298,14 @@ msgid ""
 "images, such as backgrounds, that were scanned including pegbar holes. "
 "This option is not currently present in OpenToonz."
 msgstr ""
+"Первоначально в Toonz процесс распознавания линий также можно было "
+"пропустить, если вы выполняли очистку только для регистрации полноцветных"
+" изображений, таких как фоны, которые были отсканированы, включая "
+"отверстия штифтов. Эта опция в настоящее время отсутствует в OpenToonz."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:88
 msgid "**To set the type of line processing:**"
-msgstr ""
+msgstr "**Чтобы установить тип обработки линий:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:90
 msgid ""
@@ -235,10 +313,13 @@ msgid ""
 "recognized as black, or Color, if lines have to be recognized as colored "
 "ones."
 msgstr ""
+"Установите для параметра «Линия обработки» значение «Оттенки серого», "
+"если линии должны распознаваться как черные, или «Цвет», если линии "
+"должны распознаваться как цветные."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:96
 msgid "Processing Black and White or Greyscale Lineart Drawings"
-msgstr ""
+msgstr "Обработка черно-белых или рисунков в оттенках серого"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:97
 msgid "|greyscale|"
@@ -253,6 +334,8 @@ msgid ""
 "For black and white or greyscale lineart drawings, a set of parameters "
 "are available to calibrate the black line recognition process."
 msgstr ""
+"Для черно-белых или в оттенках серого линейных рисунков доступен набор "
+"настроек для калибровки процесса распознавания черной линии."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:103
 #: ../../source/cleaning-up_scanned_drawings.rst:174
@@ -261,10 +344,13 @@ msgid ""
 "(see  :ref:`Previewing the Cleanup Process "
 "<previewing_the_cleanup_process>`  )."
 msgstr ""
+"Результат процесса можно предварительно просмотреть в главном "
+"просмотрщике OpenToonz (см. :ref:`Предварительный просмотр процесса "
+"очистки <previewing_the_cleanup_process>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:105
 msgid "Parameters are the following:"
-msgstr ""
+msgstr "Параметры следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:107
 msgid ""
@@ -275,6 +361,14 @@ msgid ""
 "that smooths its edges. Use Morphological to replace the standard "
 "antialias with one obtained by analyzing the image edges."
 msgstr ""
+"Сглаживание может быть установлено на Простое, Отсутствует или "
+"Морфологическое. Используйте Простое, чтобы сохранить сглаживание в "
+"результате текущей камеры и определенных настроек. Используйте "
+"Отсутствует, чтобы исключить сглаживание из обработанной линии, чтобы "
+"результирующая линия была полностью сплошной без полупрозрачных пикселов,"
+" сглаживающих ее края. Используйте Морфологическое, чтобы заменить "
+"стандартные сглаживания на те, которые получаются путем анализа краев "
+"изображения."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:109
 msgid ""
@@ -283,6 +377,11 @@ msgid ""
 "Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  "
 "). (NOTE: This feature is currently not available in OpenToonz)."
 msgstr ""
+"Автокорректировка корректирует уровни серого на чертежах, чтобы избежать "
+"более темных и светлых рисунков в последовательности (см. "
+":ref:`Автоматическая настройка рисунков в оттенках серого "
+"<autoadjusting_greyscale_lineart_drawings>`). (ПРИМЕЧАНИЕ. Эта функция в "
+"настоящее время недоступна в OpenToonz)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:111
 #: ../../source/cleaning-up_scanned_drawings.rst:183
@@ -290,6 +389,9 @@ msgid ""
 "Sharpness defines how sharp the processed lines will be. Higher values "
 "produce sharper, harder lines, and lower values create smoother lines."
 msgstr ""
+"Резкость определяет, насколько резкими будут обработанные линии. Более "
+"высокие значения дают более четкие, жесткие линии, а более низкие "
+"значения создают более плавные линии."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:113
 #: ../../source/cleaning-up_scanned_drawings.rst:185
@@ -300,6 +402,11 @@ msgid ""
 " checked by activating the Opacity Check (see  :ref:`Using the Opacity "
 "Check <using_the_opacity_check>`  )."
 msgstr ""
+"Удаление соринок удаляет небольшие пятна или следы с обработанных "
+"изображений. Его значение выражает размер в пикселах стороны максимальной"
+" области, которая должна быть удалена. Пятна и метки, удаленные этой "
+"опцией, также можно проверить, активировав проверку непрозрачности (см. "
+":ref:`Использование проверки непрозрачности <using_the_opacity_check>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:115
 #: ../../source/cleaning-up_scanned_drawings.rst:187
@@ -308,6 +415,9 @@ msgid ""
 "higher the value the more blurred the line. (It is available only when "
 "Morphological is selected)."
 msgstr ""
+"Интенсивность устанавливает интенсивность морфологических слияний. Чем "
+"выше значение, тем больше размыта линия. (Доступно только при выборе "
+"Морфологического сглаживания)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:117
 #: ../../source/cleaning-up_scanned_drawings.rst:191
@@ -315,6 +425,8 @@ msgid ""
 "Brightness controls the thickness of the recognized line: the lower the "
 "value, the thicker the line."
 msgstr ""
+"Яркость контролирует толщину распознанной линии: чем меньше значение, тем"
+" толще линия."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:119
 #: ../../source/cleaning-up_scanned_drawings.rst:193
@@ -325,26 +437,35 @@ msgid ""
 "Opacity Check (see  :ref:`Using the Opacity Check "
 "<using_the_opacity_check>`  )."
 msgstr ""
+"Контраст контролирует сглаживание распознанной строки: чем выше значение,"
+" тем больше сплошных пикселов, чем меньше значение, тем больше сглаженных"
+" пикселов. Степень сглаживания также можно проверить, активировав "
+"проверку непрозрачности (см. :ref:`Использование проверки непрозрачности "
+"<using_the_opacity_check>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:122
 msgid ""
 "If the Antialias is set on None or Morphological, the Contrast parameter "
 "will become deactivated."
 msgstr ""
+"Если для Сглаживания установлено значение Отсутствует или "
+"Морфологическое, параметр Контраст станет недоступным."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:125
 msgid ""
 "**To set the line processing for black and white or greyscale lineart "
 "drawings:**"
 msgstr ""
+"**Чтобы настроить линии обработки для черно-белых или в оттенках серого "
+"рисунков:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:127
 msgid "Activate the Line Processing > Greyscale option."
-msgstr ""
+msgstr "Активируйте параметр «Линия обработки» > «Оттенки серого»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:129
 msgid "Define the parameters according to your needs."
-msgstr ""
+msgstr "Задайте параметры в соответствии с вашими потребностями."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:131
 #: ../../source/cleaning-up_scanned_drawings.rst:219
@@ -352,10 +473,13 @@ msgid ""
 "Preview the result of the cleanup process (see  :ref:`Previewing the "
 "Cleanup Process <previewing_the_cleanup_process>`  )."
 msgstr ""
+"Предварительный просмотр результатов процесса очистки (см. "
+":ref:`Предварительный просмотр процесса очистки "
+"<previewing_the_cleanup_process>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:137
 msgid "Autoadjusting Greyscale Lineart Drawings"
-msgstr ""
+msgstr "Автоматическая настройка рисунков в оттенках серого"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:138
 msgid ""
@@ -365,6 +489,11 @@ msgid ""
 "could file an issue about that in the OpenToonz' GitHub repository or in "
 "the various OpenToonz forums."
 msgstr ""
+"Описанные здесь параметры автоматической корректировки недоступны в "
+"OpenToonz. Нет уверенности, будут они возвращены в более поздние версии "
+"или нет. Если вы считаете, что они полезны для вашего рабочего процесса, "
+"вы можете сообщить об этом в репозитории OpenToonz GitHub или на "
+"различных форумах OpenToonz."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:140
 msgid ""
@@ -373,16 +502,23 @@ msgid ""
 "made by in-betweeners by adjusting the line darkness of all of the level "
 "drawings."
 msgstr ""
+"Параметр «Автоматическая настройка», доступный среди параметров "
+"«Очистка», позволяет выравнивать различия между рисунками, выполненными "
+"ключевыми аниматорами, и изображениями, выполненными промежуточными "
+"элементами, путем регулировки темноты линий всех чертежей уровней."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:142
 msgid ""
 "The Autoadjust option has effect only on drawings scanned in greyscale "
 "mode, while it has no effect on drawings scanned in black and white."
 msgstr ""
+"Параметр «Автоматическая настройка» влияет только на рисунки, "
+"отсканированные в режиме оттенков серого, но не влияет на чертежи, "
+"отсканированные в черно-белом режиме."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:144
 msgid "Three different autoadjust algorithms are available:"
-msgstr ""
+msgstr "Доступны три различных алгоритма автоматической настройки:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:146
 msgid ""
@@ -391,6 +527,10 @@ msgid ""
 "black level, so that grey levels of each image are automatically "
 "adjusted."
 msgstr ""
+"Black Eq вычисляет среднее значение самого темного серого тона, "
+"обнаруженного на линиях рисования ниже определенного порога, и "
+"устанавливает для этого значения обычный уровень черного, чтобы уровни "
+"серого каждого изображения автоматически настраивались."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:148
 msgid ""
@@ -399,6 +539,10 @@ msgid ""
 "works well when the content of the images (apart from line darkness) does"
 " not vary too much across the level."
 msgstr ""
+"Гистограмма составляет гистограмму уровней серого первого изображения и "
+"выравнивает гистограммы следующих изображений в соответствии с ней. Это "
+"хорошо работает, когда содержание изображений (кроме темноты линий) не "
+"слишком сильно различается по уровню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:150
 msgid ""
@@ -408,6 +552,11 @@ msgid ""
 "smaller in an animated level, or when parts of the character are animated"
 " independently in some frames."
 msgstr ""
+"Histo-L учитывает количество линий в каждом изображении для нормализации "
+"гистограммы уровней серого перед выравниванием гистограммы. Это полезно, "
+"например, когда персонаж становится больше или меньше на анимированном "
+"уровне, или когда части персонажа анимируются независимо в некоторых "
+"кадрах."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:152
 msgid ""
@@ -415,6 +564,10 @@ msgid ""
 "grey levels of each image independently, while the other algorithms "
 "equalize each image to make it look like the first one of the level."
 msgstr ""
+"Преимущество режима Histo-L перед другими заключается в том, что он "
+"регулирует уровни серого каждого изображения независимо, в то время как "
+"другие алгоритмы выравнивают каждое изображение, чтобы оно выглядело как "
+"первый уровень."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:154
 msgid ""
@@ -425,6 +578,14 @@ msgid ""
 "using the Scan & Cleanup > Cleanup command. You may need to make a few "
 "trials using different algorithms before obtaining the desired results."
 msgstr ""
+"Только эффекты процесса Black Eq можно проверить с помощью команды "
+"Сканирование и очистка > Просмотр очистки; эффекты гистограммы и гисто-L "
+"видны только выбрать последовательность по меньшей мере два кадров (то "
+"есть один в качестве опорного кадра и других быть автоматически "
+"регулируется) и обработки их с помощью пункта меню Сканирование и очистка"
+" > Очистка.  Возможно, вам придется сделать несколько испытаний с "
+"использованием различных алгоритмов, прежде чем получить желаемые "
+"результаты."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:156
 msgid ""
@@ -433,10 +594,14 @@ msgid ""
 " drawn to delimit the camera shot on paper, and the pegbar holes, do not "
 "affect the result."
 msgstr ""
+"Эти алгоритмы работают с областью рисунка, указанной в текстовых полях "
+"поля, за исключением края границы 5 мм. Таким образом, можно провести "
+"любую линию, чтобы ограничить камеру, снятую на бумаге, и отверстия "
+"штифтов не влияют на результат."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:162
 msgid "Processing Colored Lineart Drawings"
-msgstr ""
+msgstr "Обработка цветных линейных чертежей"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:163
 msgid "|color|"
@@ -454,6 +619,11 @@ msgid ""
 "Color Line Processing <defining_colors_for_the_color_line_processing>`  "
 ")."
 msgstr ""
+"Для цветных линейных рисунков доступен набор параметров для калибровки "
+"процесса распознавания линий и для определения того, какие и как цвета "
+"должны обнаруживаться на чертежах (см. :ref:`Определение цветов для "
+"обработки цветных линий "
+"<defining_colors_for_the_color_line_processing>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:170
 msgid ""
@@ -463,6 +633,11 @@ msgid ""
 "assigned to the recognized lines, are available at the bottom area of the"
 " Style Editor pane."
 msgstr ""
+"Для всех очищаемых цветов вы можете определить цвет, который будет "
+"автоматически назначаться линиям после обработки, без необходимости "
+"рисовать их. Два цвета, один из которых используется для распознавания, а"
+" другой назначается распознанным линиям, доступны в нижней части панели "
+"Редактора стилей."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:172
 msgid ""
@@ -471,10 +646,14 @@ msgid ""
 "colors, that usually defines special outlines for areas such as shadows "
 "and highlights."
 msgstr ""
+"Различные параметры доступны для черного цвета, который обычно определяет"
+" основной контур на линейных чертежах, и для дополнительных цветов, "
+"которые обычно определяют специальные контуры для таких областей, как "
+"тени и блики."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:176
 msgid "General parameters are the following:"
-msgstr ""
+msgstr "Общие параметры следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:178
 msgid ""
@@ -485,16 +664,26 @@ msgid ""
 "smoothing its edges. Use Morphological to replace the standard antialias "
 "with the one obtained by analyzing the image edges."
 msgstr ""
+"Сглаживание может быть установлено на Простое, Отсутствует или "
+"Морфологическое. Используйте Простое, чтобы сохранить сглаживание в "
+"результате текущей камеры и определенных настроек. Используйте "
+"Отсутствует, чтобы исключить сглаживание из обработанной линии, чтобы "
+"результирующая линия была полностью сплошной без полупрозрачных пикселов,"
+" сглаживающих ее края. Используйте Морфологическое, чтобы заменить "
+"стандартные сглаживания на те, которые получаются путем анализа краев "
+"изображения."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:181
 msgid ""
 "If the Antialias is set to None or Morphological, the Contrast parameter "
 "will become desactivated."
 msgstr ""
+"Если для Сглаживания установлено значение Отсутствует или "
+"Морфологическое, параметр Контраст станет недоступным."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:189
 msgid "In the color list, parameters for the black color are the following:"
-msgstr ""
+msgstr "В списке цветов параметры для черного цвета следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:195
 msgid ""
@@ -502,6 +691,10 @@ msgid ""
 " that have to be considered as colors: the higher the value, the higher "
 "the number of pixels that will be considered as colored."
 msgstr ""
+"Порог цвета устанавливает пиксели, которые должны рассматриваться как "
+"черные, и те, которые должны рассматриваться как цвета: чем выше "
+"значение, тем больше будет количество пикселей, которые будут считаться "
+"цветными."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:197
 msgid ""
@@ -509,16 +702,21 @@ msgid ""
 "example to eliminate the paper color: the higher the value, the higher "
 "the number of pixels that will be considered as white."
 msgstr ""
+"Порог белого задает пиксели, которые должны рассматриваться как белые, "
+"например, чтобы исключить цвет бумаги: чем выше значение, тем больше "
+"будет количество пикселей, которые будут рассматриваться как белые."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:199
 msgid "In the color list, parameters for the other colors are the following:"
-msgstr ""
+msgstr "В списке цветов параметры для других цветов следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:201
 msgid ""
 "Brightness controls the thickness of the recognized colored line: the "
 "lower the value, the thicker the line."
 msgstr ""
+"Яркость контролирует толщину распознанной цветной линии: чем меньше "
+"значение, тем толще линия."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:203
 msgid ""
@@ -528,6 +726,11 @@ msgid ""
 "activating the Opacity Check (see  :ref:`Using the Opacity Check "
 "<using_the_opacity_check>`  )."
 msgstr ""
+"Контраст контролирует сглаживание распознанной цветной линии: чем выше "
+"значение, тем больше сплошных пикселов, чем меньше значение, тем больше "
+"сглаженных пикселов. Степень сглаживания также можно проверить, "
+"активировав проверку непрозрачности (см. :ref:`Использование проверки "
+"непрозрачности <using_the_opacity_check>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:205
 msgid ""
@@ -535,6 +738,9 @@ msgid ""
 "value, the higher the number of differently colored pixels that will be "
 "associated to the defined color."
 msgstr ""
+"Диапазон тона устанавливает диапазон оттенка для распознавания цвета: чем"
+" выше значение, тем больше количество пикселов разного цвета, которые "
+"будут связаны с определенным цветом."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:207
 msgid ""
@@ -542,18 +748,21 @@ msgid ""
 "value, the higher the number of desaturated pixels that will be "
 "associated to the defined color, thus increasing the line thickness."
 msgstr ""
+"Ширина линии задает ширину распознанной цветной линии: чем больше "
+"значение, тем больше количество ненасыщенных пикселов, которые будут "
+"связаны с определенным цветом, тем самым увеличивая толщину линии."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:209
 msgid "**To set the line processing for colored lineart drawings:**"
-msgstr ""
+msgstr "**Чтобы настроить обработку линий для цветных чертежей:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:211
 msgid "Activate the Line Processing > Color option."
-msgstr ""
+msgstr "Активируйте опцию Линия обработки > Цвет."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:213
 msgid "Define the general parameters according to your needs."
-msgstr ""
+msgstr "Определите общие параметры в соответствии с вашими потребностями."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:215
 msgid ""
@@ -561,14 +770,17 @@ msgid ""
 ":ref:`Defining Colors for the Color Line Processing "
 "<defining_colors_for_the_color_line_processing>`  )."
 msgstr ""
+"Определите цвета, которые вы хотите обнаружить на рисунках (см. "
+":ref:`Определение цветов для цветовой линии обработки "
+"<defining_colors_for_the_color_line_processing>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:217
 msgid "Define the color parameters according to your needs."
-msgstr ""
+msgstr "Определите параметры цвета в соответствии с вашими потребностями."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:225
 msgid "Defining Colors for the Color Line Processing"
-msgstr ""
+msgstr "Определение цветов для цветной обработки линии"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:226
 msgid ""
@@ -576,6 +788,10 @@ msgid ""
 "line processing can be defined by using the style editor or picking color"
 " values directly from the drawing you want to process"
 msgstr ""
+"Цвета, используемые для распознавания и обработки линий чертежа при "
+"обработке цветовой линии, можно определить с помощью редактора стилей или"
+" выбора значений цвета непосредственно из рисунка, который вы хотите "
+"обработать."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:228
 msgid ""
@@ -583,30 +799,39 @@ msgid ""
 "needed anymore. The maximum number of color you can define is seven "
 "(black included)."
 msgstr ""
+"Можно добавить цвета в список или удалить их, если они больше не нужны. "
+"Максимальное количество цветов, которое вы можете определить, - семь "
+"(включая черный)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:231
 msgid ""
 "The first color of the list, i.e. the black color, cannot be edited or "
 "removed."
 msgstr ""
+"Первый цвет списка, то есть черный цвет, не может быть отредактирован или"
+" удален."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:234
 msgid "**To define colors:**"
-msgstr ""
+msgstr "**Чтобы определить цвета:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:236
 msgid ""
 "Select the color you want to define in the list available in the "
 "Processing parameters."
 msgstr ""
+"Выберите цвет, который вы хотите определить, в списке, доступном в "
+"параметрах обработки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:238
 msgid "Define the color by doing one of the following:"
-msgstr ""
+msgstr "Определите цвет, выполнив одно из следующих действий:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:240
 msgid "Use the style editor (see  :ref:`Editing Styles <editing_styles>`  )."
 msgstr ""
+"Используйте редактор стилей (см. :ref:`Редактирование стилей "
+"<editing_styles>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:242
 msgid ""
@@ -614,14 +839,17 @@ msgid ""
 "color from the drawings visible in the viewer (see  :ref:`Plain Colors "
 "<plain_colors>`  )."
 msgstr ""
+"Используйте RGB пипетку (|RGB_picker|), чтобы выбрать значение цвета "
+"линии из рисунков, видимых в просмотрщике (см. :ref:`Plain Colors "
+"<plain_colors>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:245
 msgid "**To define colors to be assigned to lines after cleanup processing:**"
-msgstr ""
+msgstr "Чтобы определить цвета, которые будут назначены линиям после очистки:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:247
 msgid "Select the color for which you want to define the post-process color."
-msgstr ""
+msgstr "Выберите цвет, для которого вы хотите определить цвет постобработки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:249
 msgid ""
@@ -629,34 +857,36 @@ msgid ""
 "current color: this is the color to be assigned after the processing is "
 "done."
 msgstr ""
+"В нижней части редактора стилей выберите квадрат справа от текущего "
+"цвета: это цвет, который будет назначен после завершения обработки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:251
 msgid "Edit the color in the Style Editor."
-msgstr ""
+msgstr "Отредактируйте цвет в редакторе стилей."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:254
 msgid "**To add a color in the color list:**"
-msgstr ""
+msgstr "**Чтобы добавить цвет в список цветов:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:256
 msgid "Click the + button available under the color list."
-msgstr ""
+msgstr "Нажмите кнопку + под списком цветов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:259
 msgid "**To remove a color from the color list:**"
-msgstr ""
+msgstr "**Чтобы удалить цвет из списка цветов:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:261
 msgid "Select the color you want to remove from the list."
-msgstr ""
+msgstr "Выберите цвет, который вы хотите удалить из списка."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:263
 msgid "Click the - button available under the color list."
-msgstr ""
+msgstr "Нажмите кнопку - , доступную под списком цветов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:269
 msgid "Defining Camera"
-msgstr ""
+msgstr "Определение камеры"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:270
 msgid "|camera|"
@@ -668,6 +898,9 @@ msgid ""
 "is used to crop and resize drawings during the cleanup process, in order "
 "to prepare and optimize them for the scene."
 msgstr ""
+"Настройки камеры определяют размер и разрешение камеры, которая "
+"используется для обрезки и изменения размера рисунков в процессе очистки,"
+" чтобы подготовить и оптимизировать их для сцены."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:274
 msgid ""
@@ -675,6 +908,9 @@ msgid ""
 "16\" field size, the cleaned up drawings will be cropped according to the"
 " 16\" field size and will have the resolution of 1920x1080 pixels."
 msgstr ""
+"Например, если камера очистки имеет размер 1920x1080 пикселов (HD 1080) с"
+" размером поля 16 дюймов, очищенные рисунки будут обрезаны в соответствии"
+" с размером поля 16 дюймов и будут иметь разрешение 1920x1080 пикселов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:276
 msgid ""
@@ -684,10 +920,16 @@ msgid ""
 "may need to define a cleanup camera that is larger than the stage camera "
 "especially if you want drawings border area to overflow the shot."
 msgstr ""
+"Определение камеры очистки аналогично определению камеры сцены (см. "
+":ref:`Определение настроек камеры <defining_camera_settings>`). Обычно "
+"две камеры имеют одинаковые настройки, но иногда вам может потребоваться "
+"определить камеру очистки, которая больше, чем сценическая камера, "
+"особенно если вы хотите, чтобы область границы рисунков выходила за "
+"пределы кадра."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:278
 msgid "You can also set other parameters and options:"
-msgstr ""
+msgstr "Вы также можете установить другие параметры и опции:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:280
 msgid ""
@@ -701,6 +943,16 @@ msgid ""
 "of twice the camera resolution, that is 3840 by 2160 pixels, so that when"
 " the camera closes up, the original image pixel resolution is preserved."
 msgstr ""
+"Параметр «Ближайшее поле» (НЕДОСТУПЕН в OpenToonz) определяет наименьший "
+"размер поля, которое вы будете увеличивать в чертеже с камерой при "
+"компоновке сцены. Это значение имеет смысл, если оно меньше, чем размер "
+"поля камеры, так как оно увеличивает окончательное разрешение "
+"изображения, предотвращая появление увеличенных изображений с зубчатыми "
+"краями. Например, если чистящая камера имеет размер 1920x1080 пикселов "
+"(HD 1080) с размером поля 16 дюймов, а значение «Ближайшее поле» "
+"установлено на 8 дюймов, очищенные чертежи должны иметь разрешение камеры"
+" в два раза больше, то есть 3840 на 2160 пикселов, так что, когда камера "
+"закрывается, исходное разрешение пиксела изображения сохраняется."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:282
 msgid ""
@@ -711,6 +963,11 @@ msgid ""
 "off; after the cleanup, the camera center will be the new center for the "
 "processed drawings."
 msgstr ""
+"Параметры смещения X и Y смещают положение камеры, в случае, если вы "
+"хотите определить для рисунков центр, отличный от центра, автоматически "
+"устанавливаемого направляющей справочного поля при включенном автоцентре,"
+" или отличающийся от фактического центра изображения, если автоцентр "
+"выключен; после очистки центр камеры станет новым центром для обработан"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:284
 msgid ""
@@ -719,10 +976,14 @@ msgid ""
 "with the Camera Test mode (see  :ref:`Using the Camera Test "
 "<using_the_camera_test>`  )."
 msgstr ""
+"Размер камеры очистки, разрешение и смещение также можно графически "
+"контролировать в главном средстве просмотра OpenToonz при проверке "
+"процесса очистки в режиме «Тестирование камеры» (см. :ref:`Использование "
+"теста камеры <using_the_camera_test>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:290
 msgid "Saving and Loading Cleanup Settings"
-msgstr ""
+msgstr "Сохранение и загрузка настроек очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:291
 msgid "|saveloadreset|"
@@ -733,6 +994,8 @@ msgid ""
 "Cleanup settings can be saved as .CLN files in order to be loaded back "
 "and used in a different scene."
 msgstr ""
+"Настройки очистки могут быть сохранены в виде файлов .CLN для последующей"
+" загрузки и использования в другой сцене."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:295
 msgid ""
@@ -741,6 +1004,10 @@ msgid ""
 "way the settings will be automatically displayed when the level is "
 "selected, and used every time the level is cleaned up."
 msgstr ""
+"Они также могут быть связаны конкретно с уровнем анимации, сохраняя их в "
+"том же месте и с тем же именем уровня: таким образом, настройки будут "
+"автоматически отображаться при выборе уровня и использоваться каждый раз "
+"при очистке уровня."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:297
 msgid ""
@@ -748,15 +1015,18 @@ msgid ""
 "scene or for the project (see  :ref:`Scene Settings and Project Default "
 "Settings <scene_settings_and_project_default_settings>`  )."
 msgstr ""
+"Загруженные параметры очистки также могут стать настройками по умолчанию "
+"для сцены или проекта (см. :ref:`Настройки сцены и Настройки проекта по "
+"умолчанию <scene_settings_and_project_default_settings>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:300
 msgid "**To save the cleanup settings:**"
-msgstr ""
+msgstr "**Чтобы сохранить настройки очистки:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:302
 #: ../../source/cleaning-up_scanned_drawings.rst:310
 msgid "Select an empty cell in the Xsheet."
-msgstr ""
+msgstr "Выберите пустую ячейку в таблице Xsheet."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:304
 #: ../../source/cleaning-up_scanned_drawings.rst:320
@@ -764,16 +1034,19 @@ msgid ""
 "Click the Save Settings button (|save|) in the bottom bar of the cleanup "
 "settings window."
 msgstr ""
+"Нажмите кнопку «Сохранить» (|save|) в нижней части окна настроек очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:306
 msgid ""
 "In the browser that opens choose for the CLN file a location and name, "
 "and click the Save button."
 msgstr ""
+"В открывшемся браузере выберите для файла CLN местоположение и имя и "
+"нажмите кнопку Сохранить."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:308
 msgid "**To load saved cleanup settings:**"
-msgstr ""
+msgstr "**Чтобы загрузить сохраненные настройки очистки:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:312
 #: ../../source/cleaning-up_scanned_drawings.rst:328
@@ -781,6 +1054,7 @@ msgid ""
 "Click the Load Settings button (|load|) in the bottom bar of the cleanup "
 "settings window."
 msgstr ""
+"Нажмите кнопку «Загрузить» (|load|) в нижней панели окна настроек очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:314
 #: ../../source/cleaning-up_scanned_drawings.rst:330
@@ -788,25 +1062,31 @@ msgid ""
 "In the browser that opens retrieve the CLN file you want to load, and "
 "click the Load button."
 msgstr ""
+"В открывшемся браузере найдите файл CLN, который вы хотите загрузить, и "
+"нажмите кнопку «Загрузить»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:316
 msgid "**To save the current cleanup settings for a specific level:**"
 msgstr ""
+"**Чтобы сохранить текущие настройки очистки для определенного уровня:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:318
 #: ../../source/cleaning-up_scanned_drawings.rst:326
 msgid "Select any cell where the level is exposed in the Xsheet."
 msgstr ""
+"Выберите любую ячейку, в которой уровень отображается в таблице Xsheet."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:322
 msgid ""
 "In the browser that opens save the CLN file in the same location and with"
 " the same name as the level, and click the Save button."
 msgstr ""
+"В открывшемся браузере сохраните файл CLN в том же месте и с тем же "
+"именем, что и уровень, и нажмите кнопку Сохранить."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:324
 msgid "**To load cleanup settings for a specific level:**"
-msgstr ""
+msgstr "**Чтобы загрузить настройки очистки для определенного уровня:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:332
 msgid ""
@@ -814,20 +1094,24 @@ msgid ""
 "save the CLN file in the same location and with the same name as the "
 "level, and click the Save button."
 msgstr ""
+"Нажмите кнопку Сохранить (|save|) и в открывшемся браузере сохраните файл"
+" CLN в том же месте и с тем же именем, что и уровень, и нажмите кнопку "
+"Сохранить."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:334
 msgid "**To reset cleanup settings to the scene default:**"
-msgstr ""
+msgstr "**Чтобы восстановить настройки очистки по умолчанию для сцены:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:336
 msgid ""
 "Click the Reset Settings button (|reset|) in the bottom bar of the "
 "cleanup settings window."
 msgstr ""
+"Нажмите кнопку «Сбросить» (|reset|) в нижней панели окна настроек очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:343
 msgid "Checking the Cleanup Process"
-msgstr ""
+msgstr "Проверка процесса очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:344
 msgid ""
@@ -835,18 +1119,21 @@ msgid ""
 "cleanup process, or perform the camera test only, in order to check the "
 "result before performing the final cleanup."
 msgstr ""
+"При определении параметров очистки можно предварительно просмотреть "
+"процесс полной очистки или выполнить только тест камеры, чтобы проверить "
+"результат перед выполнением окончательной очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:349
 msgid "Previewing the Cleanup Process"
-msgstr ""
+msgstr "Предварительный просмотр процесса очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:350
 msgid "The full cleanup process can be checked in the main viewer."
-msgstr ""
+msgstr "Полный процесс очистки можно проверить в главном окне просмотрщика."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:355
 msgid "Previewing the Cleanup Process in the Main Viewer"
-msgstr ""
+msgstr "Предварительный просмотр процесса очистки в главном окне просмотра"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:356
 msgid ""
@@ -856,18 +1143,28 @@ msgid ""
 " time all the other drawings and images exposed in the Xsheet at that "
 "frame."
 msgstr ""
+"Предварительный просмотр очистки можно активировать в главном окне "
+"просмотрщике, чтобы отобразить рисунок, выбранный в Xsheet, как это будет"
+" после реального процесса очистки в соответствии с определенными "
+"параметрами очистки, отображая одновременно все другие рисунки и "
+"изображения, представленные в Xsheet, в этот кадр."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:358
 msgid ""
 "If you change any parameter in the cleanup settings, the preview "
 "automatically updates to display how the changes affect the process."
 msgstr ""
+"Если вы измените какой-либо параметр в настройках очистки, "
+"предварительный просмотр автоматически обновится, чтобы показать, как "
+"изменения влияют на процесс"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:360
 msgid ""
 "The Opacity Check when activated, affects also the cleanup preview in the"
 " main viewer (see below )."
 msgstr ""
+"Opacity check при активации также влияет на предварительный просмотр "
+"очистки в главном окне просмотра (см. нижe)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:362
 #: ../../source/cleaning-up_scanned_drawings.rst:408
@@ -876,45 +1173,55 @@ msgid ""
 " same time: when one is activated the other one is automatically "
 "deactivated."
 msgstr ""
+"Проверки предварительного просмотра и проверки камеры не могут быть "
+"активированы одновременно: когда один активирован, другой автоматически "
+"деактивируется."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:364
 msgid "**To activate the cleanup preview in the main viewer:**"
 msgstr ""
+"**Чтобы активировать предварительный просмотр очистки в основном "
+"просмотрщике**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:366
 msgid ""
 "In the Xsheet select the scanned drawing you want to preview, and choose "
 "Scan & Cleanup > Preview Cleanup."
 msgstr ""
+"В Xsheet выберите отсканированный рисунок, который вы хотите "
+"предварительно просмотреть, и выберите Сканирование и очистка > Просмотр "
+"очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:368
 msgid "**To deactivate the cleanup preview in the main viewer:**"
-msgstr ""
+msgstr "**Чтобы отключить предварительный просмотр очистки в просмотрщике:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:370
 msgid "Choose Scan & Cleanup > Preview Cleanup."
-msgstr ""
+msgstr "Выберите Сканирование и очистка > Просмотр очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:372
 msgid "**To preview a different drawing:**"
-msgstr ""
+msgstr "**Для предварительного просмотра другого рисунка:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:374
 #: ../../source/cleaning-up_scanned_drawings.rst:433
 msgid "Select it in the Xsheet."
-msgstr ""
+msgstr "Выберите его в Xsheet."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:376
 msgid "**To exit the preview cleanup mode:**"
-msgstr ""
+msgstr "**Чтобы выйти из режима очистки предварительного просмотра:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:378
 msgid "Choose Scan & Cleanup > Preview Cleanup to deactivate it."
 msgstr ""
+"Выберите «Сканирование и очистка»> «Просмотр очистки», чтобы отключить "
+"его."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:384
 msgid "Using the Opacity Check"
-msgstr ""
+msgstr "Использование Opacity Check"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:385
 msgid ""
@@ -924,6 +1231,11 @@ msgid ""
 "from the drawing because of the despeckling function (see  :ref:`Defining"
 " Line Processing Parameters <defining_line_processing_parameters>`  )."
 msgstr ""
+"При калибровке обработки линии важно проверить степень сглаживания вдоль "
+"контура рисунка, чтобы понять, насколько гладким будет результат, а также"
+" проверить небольшие пятна и отметки, которые удалены с рисунка из-за "
+"функции удаления соринок (см. :ref:`Определение параметров обработки "
+"строки <defining_line_processing_parameters>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:387
 msgid ""
@@ -932,26 +1244,35 @@ msgid ""
 "moreover pixels that will be removed because of the despeckling function "
 "are displayed in green."
 msgstr ""
+"При включенном Opacity check отображаются полностью сплошные пиксели "
+"черного цвета и полупрозрачные пиксели, принадлежащие линии сглаживания "
+"красным цветом; Более того, пиксели, которые будут удалены из-за функции "
+"удаления пятен, отображаются зеленым цветом."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:389
 msgid ""
 "The check is visible both in the preview area of the cleanup settings and"
 " in the cleanup preview performed in the main viewer."
 msgstr ""
+"Проверка видна как в области предварительного просмотра параметров "
+"очистки, так и в предварительном просмотре очистки, выполняемом в главном"
+" просмотрщике."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:392
 msgid "**To activate and deactivate the opacity check:**"
-msgstr ""
+msgstr "**Чтобы активировать и деактивировать Opacity check:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:394
 msgid ""
 "Click the Opacity Check button (|check|) in the bottom bar of the cleanup"
 " settings window."
 msgstr ""
+"Нажмите кнопку Opacity check (|check|) в нижней панели окна настроек "
+"очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:400
 msgid "Using the Camera Test"
-msgstr ""
+msgstr "Использование тестирования камеры"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:401
 msgid ""
@@ -963,6 +1284,13 @@ msgid ""
 "parameters. In particular a red box displays how the cleanup camera will "
 "crop the drawing, and a blue box displays the camera closest field."
 msgstr ""
+"Тестирование камеры может использоваться для проверки процесса очистки в "
+"отношении настроек очистки и камеры. Оно отображает рисунок, выбранный в "
+"Xsheet, непосредственно в просмотрщике без обработки линий, но с "
+"положением, измененным в соответствии с параметрами очистки (Автоцентр, "
+"Поворот и отражение), и размером, измененным в соответствии с настройками"
+" камеры. В частности, красное поле отображает, как камера очистки "
+"обрезает рисунок, а синее поле отображает ближайшее поле камеры."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:403
 msgid ""
@@ -970,78 +1298,94 @@ msgid ""
 "updating the cleanup camera information visible in the cleanup settings "
 "dialog (see  :ref:`Defining Camera <defining_camera>`  )."
 msgstr ""
+"Можно изменить окно камеры непосредственно в средстве просмотра, обновляя"
+" информацию о камере очистки, отображаемую в диалоговом окне настроек "
+"очистки (см. :ref:`Определение камеры <defining_camera>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:405
 msgid ""
 "If you change any of the Cleanup or Camera parameters, the camera test "
 "automatically updates to display how the changes affect the process."
 msgstr ""
+"Если вы измените какой-либо из настроек очистки или камеры, тест камеры "
+"автоматически обновится, чтобы показать, как изменения влияют на процесс."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:411
 msgid "**To activate the camera test:**"
-msgstr ""
+msgstr "**Чтобы активировать тестирование камеры:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:413
 msgid ""
 "In the Xsheet select the drawing you want to preview, and choose Scan & "
 "Cleanup > Camera Test."
 msgstr ""
+"В Xsheet выберите рисунок, который вы хотите просмотреть, и выберите "
+"«Сканирование и очистка» > «Тестирование камеры\"."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:415
 msgid "**To deactivate the camera test:**"
-msgstr ""
+msgstr "**Чтобы отключить тестирование камеры:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:417
 msgid "Choose Scan & Cleanup > Camera Test."
-msgstr ""
+msgstr "Выберите Сканирование и очистка > Тестирование камеры."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:419
 msgid "**To modify the cleanup camera directly in the viewer:**"
-msgstr ""
+msgstr "**Чтобы изменить очистку камеры прямо в просмотрщике:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:421
 #: ../../source/cleaning-up_scanned_drawings.rst:553
 #: ../../source/cleaning-up_scanned_drawings.rst:634
 msgid "Do any of the following:"
-msgstr ""
+msgstr "Выполните любое из следующих действий:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:423
 msgid ""
 "Operate the handles on the top and right edges to scale the camera size "
 "horizontally or vertically, thus changing the camera A/R as well."
 msgstr ""
+"Используйте ручки на верхнем и правом краях, чтобы масштабировать размер "
+"камеры по горизонтали или вертикали, тем самым изменяя A/R камеры."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:425
 msgid ""
 "Operate the handle on the top right corner to scale the camera size while"
 " keeping the A/R."
 msgstr ""
+"Используйте ручку в верхнем правом углу, чтобы масштабировать размер "
+"камеры, сохраняя при этом A/R."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:427
 msgid ""
 "Activate the DPI Lock in the cleanup camera parameters, and operate the "
 "handles to scale also the camera resolution."
 msgstr ""
+"Активируйте блокировку DPI в параметрах очистки камеры и используйте "
+"ручки для масштабирования и разрешения камеры."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:429
 msgid "Move the camera box to modify the cleanup camera E/W and N/S offset."
 msgstr ""
+"Переместите блок камеры, чтобы изменить смещение камеры очистки E/W и N/S."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:431
 msgid "**To perform the camera test on a different drawing:**"
-msgstr ""
+msgstr "**Чтобы выполнить тест камеры на другом рисунке:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:435
 msgid "**To exit the camera test mode:**"
-msgstr ""
+msgstr "**Чтобы выйти из режима тестирования камеры:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:437
 msgid "Choose Scan & Cleanup > Camera Test to deactivate it."
 msgstr ""
+"Выберите Сканирование и очистка > Тестирование камеры, чтобы отключить "
+"его."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:443
 msgid "Cleaning up Drawings"
-msgstr ""
+msgstr "Очистка рисунков"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:444
 msgid ""
@@ -1049,12 +1393,17 @@ msgid ""
 "possible to cleanup all of the drawings of the scene, or a selection of "
 "them."
 msgstr ""
+"Как только настройки очистки определены и процесс проверен, можно "
+"очистить все чертежи сцены или их выбор."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:446
 msgid ""
 "Drawings can be processed directly inside the scene after performing a "
 "selection, or they can be processed automatically in batch mode."
 msgstr ""
+"Рисунки могут быть обработаны непосредственно внутри сцены после "
+"выполнения выбора, или они могут быть обработаны автоматически в пакетном"
+" режиме."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:448
 msgid ""
@@ -1062,6 +1411,9 @@ msgid ""
 "defined for the scene, unless a specific CLN file was saved for any of "
 "the animation levels in the scene."
 msgstr ""
+"В обоих случаях они будут очищены в соответствии с настройками очистки, "
+"определенными для сцены, если только не был сохранен конкретный файл CLN "
+"для любого из уровней анимации в сцене."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:450
 msgid ""
@@ -1070,6 +1422,10 @@ msgid ""
 "<project_default_folders>`  ), but you can change the location by using "
 "the Save In option available in the cleanup settings dialog."
 msgstr ""
+"По умолчанию очищенные чертежи сохраняются в каталоге +drawing текущего "
+"проекта (см. :ref:`Папки проекта по умолчанию "
+"<project_default_folders>`), но вы можете изменить местоположение, "
+"используя настройку Сохранить в, доступную в диалоге настроек очистки."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:452
 msgid ""
@@ -1077,6 +1433,9 @@ msgid ""
 "are saved in the same location and with the same name of the animation "
 "levels as TPL files."
 msgstr ""
+"Очищенные уровни анимации сохраняются в виде файлов TLV; соответствующие "
+"палитры сохраняются в том же месте и с тем же именем уровней анимации, "
+"что и файлы TPL."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:454
 msgid ""
@@ -1086,28 +1445,36 @@ msgid ""
 " some mistakes, e.g. a deletion of a drawing section, are made during the"
 " painting process."
 msgstr ""
+"Также возможно автоматически создать резервную копию очищенных  рисунков "
+"в том же месте, где сохранены очищенные рисунки. Таким образом, будет "
+"возможно восстановить исходный рисунок в случае некоторых ошибок, "
+"например, удаление рисунка раздела, сделаны в процессе рисования."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:456
 msgid "**To automatically create a backup copy of the cleaned up drawings:**"
-msgstr ""
+msgstr "**Для автоматического создания резервной копии очищенных рисунков:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:458
 msgid "Choose File > Preferences > Drawing."
-msgstr ""
+msgstr "Выберите «Файл» > «Настройки программы» > «Рисунок»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:460
 msgid "Activate the Keep Original Cleaned Up Drawings As Backup option."
 msgstr ""
+"Активируйте в настройках \"Сохранять оригинальные очищенные рисунки в "
+"качестве резервной копии\"."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:462
 msgid "**To revert to the original cleaned up drawings:**"
-msgstr ""
+msgstr "**Чтобы вернуться к исходным вычищенным рисункам:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:464
 msgid ""
 "In the level strip select the drawings you want to revert (see  "
 ":ref:`Using the Level Strip <using_the_level_strip>`  )."
 msgstr ""
+"В level strip выберите рисунки, которые вы хотите вернуть (см. "
+":ref:`Использование level strip <using_the_level_strip>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:466
 #: ../../source/cleaning-up_scanned_drawings.rst:533
@@ -1117,21 +1484,23 @@ msgstr ""
 #: ../../source/cleaning-up_scanned_drawings.rst:654
 #: ../../source/cleaning-up_scanned_drawings.rst:664
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Выполните одно из следующих действий:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:468
 msgid "Choose Level > Revert to Cleaned Up."
-msgstr ""
+msgstr "Выберите «Уровень» > «Возврат к очистке»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:470
 msgid ""
 "Right click the selection and choose Revert to Cleaned Up from the menu "
 "that opens."
 msgstr ""
+"Щелкните правой кнопкой мыши выделенную область и выберите «Возврат к "
+"очистке» в открывшемся меню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:476
 msgid "Cleaning up Drawings Directly in the Scene"
-msgstr ""
+msgstr "Очистка рисунков непосредственно в сцене"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:477
 msgid "|progress|"
@@ -1144,6 +1513,10 @@ msgid ""
 "settings. In this case you can also manage the process frame by frame, as"
 " you are prompted to choose an action for each drawing of the selection."
 msgstr ""
+"При очистке рисунков непосредственно в сцене можно выполнить выборку "
+"рисунков и обработать их с текущими настройками очистки. В этом случае вы"
+" также можете управлять процессом покадрово, так как вам предлагается "
+"выбрать действие для каждого чертежа выбора."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:481
 msgid ""
@@ -1152,6 +1525,10 @@ msgid ""
 "selected column, considering only exposed drawings according to their "
 "numbering order."
 msgstr ""
+"Вы также можете выбрать непоследовательные рисунки и рисунки с разных "
+"уровней анимации. Уровни будут обрабатываться, начиная с первого "
+"выбранного столбца, учитывая только открытые рисунки в соответствии с "
+"порядком их нумерации."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:483
 msgid ""
@@ -1162,6 +1539,12 @@ msgid ""
 "exposed will have a double color (green and blue), to stress the fact "
 "that the level is partially processed."
 msgstr ""
+"Когда рисунок очищен, цвет его ячейки меняется с светло-голубого на "
+"светло-зеленый, цвет, обозначающий уровни растра Toonz (см. :ref:`Работа "
+"с столбцами Xsheet <working_with_xsheet_columns>`). Если вы частично "
+"очистите уровень анимации, оставшиеся ячейки, где выставлен уровень, "
+"будут иметь двойной цвет (зеленый и синий), чтобы подчеркнуть тот факт, "
+"что уровень частично обработан."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:485
 msgid ""
@@ -1171,6 +1554,11 @@ msgid ""
 "frames to the existing level, or to delete the existing level and create "
 "a new level with the selected drawings only."
 msgstr ""
+"Когда рисунки, принадлежащие к частично обработанным уровням, выбраны для"
+" очистки, вам будет предложено очистить выбранные рисунки, перезаписав "
+"предыдущую очищенную версию, или добавить неочищенные кадры к "
+"существующему уровню, или удалить существующий уровень и создать новый "
+"уровень только с выбранными рисунками."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:487
 msgid ""
@@ -1178,6 +1566,9 @@ msgid ""
 "cleaned up by using the Level Settings dialog (see  :ref:`Editing Level "
 "Settings <editing_level_settings>`  )."
 msgstr ""
+"При желании вы также можете вернуться к отсканированной версии очищенного"
+" вами уровня с помощью диалогового окна «Настройки уровня» (см. "
+":ref:`Редактирование настроек уровня <editing_level_settings>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:489
 msgid ""
@@ -1186,62 +1577,72 @@ msgid ""
 "appear and giving you the possibility to set a different name for the new"
 " TLV level by adding a suffix."
 msgstr ""
+"Если вы хотите создать новый уровень TLV из уже очищенного уровня, вы "
+"можете выбрать его и снова запустить очистку. Появится всплывающее окно с"
+" вопросами, в котором вы сможете задать другое имя для нового уровня TLV,"
+" добавив суффикс."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:491
 msgid "**To process the selection according to the chosen settings:**"
-msgstr ""
+msgstr "**Для обработки выбора в соответствии с выбранными настройками:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:493
 msgid "In the Xsheet select the drawings you want to process."
-msgstr ""
+msgstr "**В Xsheet выберите рисунки, которые вы хотите обработать.**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:495
 msgid "Choose Scan & Cleanup > Cleanup."
-msgstr ""
+msgstr "Выберите Сканирование и очистка > Очистка."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:497
 msgid "In the Cleanup dialog for each drawing choose one of the following:"
 msgstr ""
+"В диалоговом окне «Очистка» для каждого чертежа выберите один из "
+"следующих вариантов:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:499
 msgid "Cleanup: the current drawing will be cleaned up."
-msgstr ""
+msgstr "Очистка: текущий рисунок будет очищен."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:501
 msgid ""
 "Skip: the current drawing will not be cleanup up and the dialog displays "
 "the next drawing."
 msgstr ""
+"Пропустить: текущий рисунок не будет очищен, и в диалоговом окне "
+"отобразится следующий рисунок."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:503
 msgid ""
 "Cleanup All: all the selected drawings will be cleaned up without further"
 " prompts."
 msgstr ""
+"Очистить все: все выбранные чертежи будут очищены без дополнительных "
+"запросов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:505
 msgid "Cancel: the cleanup process will be interrupted."
-msgstr ""
+msgstr "Отмена: процесс очистки будет прерван."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:507
 msgid "**To revert to the scanned version of a cleaned up level:**"
-msgstr ""
+msgstr "**Чтобы вернуться к отсканированной версии очищенного уровня:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:509
 msgid "Select any drawing of the cleaned up level."
-msgstr ""
+msgstr "Выберите любой рисунок очищенного уровня."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:511
 msgid "Choose Level > Level Setting."
-msgstr ""
+msgstr "Выберите «Уровень»> «Настройки уровня»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:513
 msgid "Copy the Scan Path information in the Path text field."
-msgstr ""
+msgstr "Скопируйте информацию о пути сканирования в текстовое поле «Путь»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:519
 msgid "Cleaning up Drawings in Batch Mode"
-msgstr ""
+msgstr "Очистка рисунков в пакетном режиме"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:520
 msgid ""
@@ -1249,6 +1650,9 @@ msgid ""
 "and performed in batch mode in order to run it in the background while "
 "you perform other work on your computer."
 msgstr ""
+"Очистка рисунков, представленных в сцене, может быть добавлена ​​в список"
+" задач и выполнена в пакетном режиме, чтобы запускать ее в фоновом "
+"режиме, пока вы выполняете другую работу на своем компьютере."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:522
 msgid ""
@@ -1257,6 +1661,10 @@ msgid ""
 "for  :ref:`Rendering Scenes in Batch Mode "
 "<rendering_scenes_in_batch_mode>`)."
 msgstr ""
+"Задачи очистки могут быть отправлены из браузера файлов OpenToonz, а "
+"также могут управляться и выполняться на панели задач вместе с задачами "
+"рендера (см. :ref:`Рендер сцен в пакетном режиме "
+"<rendering_scenes_in_batch_mode>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:524
 msgid ""
@@ -1265,74 +1673,95 @@ msgid ""
 "and all of the render tasks with a clapboard icon; on the right there is "
 "information about the task selected in the tree."
 msgstr ""
+"Панель заданий разделена на две части: слева находится дерево задач, в "
+"котором все задачи очистки отображаются значком кисти, а все задачи "
+"рендера - значком вагонки; справа - информация о задаче, выбранной в "
+"дереве."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:529
 msgid ""
 "The task list can be saved as TNZBAT files and loaded back later in case "
 "you want to manage it through different working sessions."
 msgstr ""
+"Список задач может быть сохранен в виде файлов TNZBAT и загружен позже в "
+"случае, если вы хотите управлять им через различные рабочие сеансы."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:531
 msgid "**To save a task list:**"
-msgstr ""
+msgstr "**Чтобы сохранить список задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:535
 msgid ""
 "Click the Save Task List (|save|) or the Save Task List As button "
 "(|save_as|) in the bottom bar of the Tasks pane."
 msgstr ""
+"Нажмите кнопку «Сохранить список задач» (|save|) или кнопку «Сохранить "
+"список задач как» (|save_as|) в нижней панели панели «Задачи»."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:537
 msgid ""
 "Right-click the Tasks item at the top of the list and choose Save Task "
 "List or the Save Task List As from the menu that opens."
 msgstr ""
+"Щелкните правой кнопкой мыши элемент «Задачи» в верхней части списка и "
+"выберите «Сохранить список задач» или «Сохранить список задач как» в "
+"открывшемся меню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:539
 msgid "Use the browser that opens to save the list."
-msgstr ""
+msgstr "Используйте браузер, который открывается, чтобы сохранить список."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:541
 msgid "**To load a task list:**"
-msgstr ""
+msgstr "**Чтобы загрузить список задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:545
 msgid ""
 "Click the Load Task List button (|load|) in the bottom bar of the Tasks "
 "pane."
 msgstr ""
+"Нажмите кнопку «Загрузить список задач» (|load|) в нижней панели панели "
+"задач."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:547
 msgid ""
 "Right-click the Tasks item at the top of the list and choose Load Task "
 "List from the menu that opens."
 msgstr ""
+"Щелкните правой кнопкой мыши элемент «Задачи» в верхней части списка и "
+"выберите «Загрузить список задач» в открывшемся меню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:549
-msgid "Use the browser that opens to retrieve and load a previously saved list."
+msgid ""
+"Use the browser that opens to retrieve and load a previously saved list."
 msgstr ""
+"Используйте браузер, который открывается, чтобы получить и загрузить "
+"ранее сохраненный список."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:551
 msgid "**To resize the tasks pane sections:**"
-msgstr ""
+msgstr "**Чтобы изменить размеры разделов панели задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:555
 msgid "Click and drag the separator to resize sections."
-msgstr ""
+msgstr "Нажмите и перетащите разделитель, чтобы изменить размеры разделов."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:557
-msgid "Click and drag the separator toward the window border to hide a section."
-msgstr ""
+msgid ""
+"Click and drag the separator toward the window border to hide a section."
+msgstr "Щелкните и перетащите разделитель к границе окна, чтобы скрыть раздел."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:559
 msgid ""
 "Click and drag the separator collapsed to the window border toward the "
 "window center to display again the hidden section."
 msgstr ""
+"Щелкните и перетащите разделитель, свернутый к границе окна, к центру "
+"окна, чтобы снова отобразить скрытый раздел."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:565
 msgid "Managing and Executing Cleanup Tasks"
-msgstr ""
+msgstr "Управление и выполнение задач очистки"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:566
 msgid ""
@@ -1340,62 +1769,76 @@ msgid ""
 "of the Tasks pane task-related properties are displayed, some of which "
 "can be edited to configure the task. Properties are the following:"
 msgstr ""
+"Когда задача очистки выбрана в дереве, в разделе справа от панели задач "
+"отображаются свойства, связанные с задачей, некоторые из которых можно "
+"редактировать для настройки задачи. Свойства следующие:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:568
 msgid ""
 "Name displays the tasks name; it can be edited to better identify the "
 "task."
 msgstr ""
+"Имя отображает название задачи; это может быть отредактировано, чтобы "
+"лучше идентифицировать задачу."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:570
 msgid "Status displays if the task is waiting, running, completed or failed."
 msgstr ""
+"Статус отображается, если задача находится в состоянии ожидания, "
+"выполняется, завершена или не выполнена."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:572
 msgid ""
 "Command Line displays the command line related to the task execution with"
 " arguments and qualifiers."
 msgstr ""
+"Командная строка отображает командную строку, связанную с выполнением "
+"задачи, с аргументами и квалификаторами."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:574
 msgid "Server displays the computer that is running, or will run, the task."
 msgstr ""
+"Сервер отображает компьютер, на котором выполняется или будет выполняться"
+" задача."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:576
 msgid "Submitted By displays the user that submitted the task."
-msgstr ""
+msgstr "Представленный отображает пользователя, отправившего задачу."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:578
 msgid "Submitted On displays the computer from where the task was submitted."
 msgstr ""
+"Представлены на отображает компьютер, с которого было отправлено задание."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:580
 msgid "Submission Date displays when the task was submitted."
-msgstr ""
+msgstr "Дата представления отображается, когда задача была отправлена."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:582
 msgid "Start Date displays when the execution of the task started."
-msgstr ""
+msgstr "Дата начала отображается, когда началось выполнение задачи."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:584
 msgid "Completion Date displays when the execution of the task was completed."
-msgstr ""
+msgstr "Дата завершения отображается, когда выполнение задачи было завершено."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:586
 msgid "Duration displays how long the execution lasted."
-msgstr ""
+msgstr "Продолжительность показывает, как долго длилось исполнение."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:588
 msgid "Step Count displays the number of frames rendered."
-msgstr ""
+msgstr "Количество шагов отображает количество отображаемых кадров."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:590
 msgid "Failed Steps displays the number of frames that failed to be rendered."
 msgstr ""
+"Неудачные шаги отображает количество кадров, которые не удалось "
+"отрендерить."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:592
 msgid "Successful Steps displays the number of frames successfully rendered."
-msgstr ""
+msgstr "Успешные шаги отображает количество успешно обработанных кадров."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:594
 msgid ""
@@ -1403,6 +1846,9 @@ msgid ""
 "priority will be executed first. This can be edited to change the "
 "priority of a task."
 msgstr ""
+"Приоритет устанавливает важность или срочность задачи: задачи с более "
+"высоким приоритетом будут выполняться первыми. Это может быть "
+"отредактировано, чтобы изменить приоритет задачи."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:596
 msgid ""
@@ -1411,12 +1857,18 @@ msgid ""
 "content is visible (see :ref:`Working with Xsheet Columns "
 "<working_with_xsheet_columns>`)."
 msgstr ""
+"Только видимые когда он активирован, процесс очистки ограничивается "
+"только столбцами, для которых включено переключение стойки камеры "
+"(|camera_stand|), то есть содержимое которого является видимым (см."
+" :ref:`Работа со столбцами Xsheet <working_with_xsheet_columns>`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:598
 msgid ""
 "Overwrite, when activated, processes levels even if they are already "
 "available in the destination folder, overwriting them."
 msgstr ""
+"При активации перезаписывает уровни, даже если они уже доступны в папке "
+"назначения, и перезаписывает их."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:600
 msgid ""
@@ -1425,6 +1877,10 @@ msgid ""
 "tasks can be added from the box on the right where all submitted tasks "
 "are displayed."
 msgstr ""
+"Зависимости позволяют указать, какие из других отправленных задач должны "
+"быть успешно выполнены перед началом выполнения текущей задачи: эти "
+"задачи можно добавить из поля справа, где отображаются все представленные"
+" задачи."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:602
 msgid ""
@@ -1434,136 +1890,157 @@ msgid ""
 " be executed at the same time (see  :ref:`Using the OpenToonz Farm "
 "<using_the_toonz_farm>`  )."
 msgstr ""
+"Выполнение задачи можно запустить и остановить из списка задач. Если вы "
+"используете ферму рендера OpenToonz, задачи и подзадачи рендера будут "
+"распределены в ферме, по одной для каждого компьютера, чтобы одновременно"
+" можно было выполнить несколько задач (см. :ref:`Использование фермы "
+"OpenToonz <using_the_toonz_farm >`)."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:604
 msgid ""
 "When the tasks are executed, the icon color tells the status of the task "
 "according to the following color code:"
 msgstr ""
+"Когда задачи выполняются, цвет значка сообщает о состоянии задачи в "
+"соответствии со следующим цветовым кодом:"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:606
 msgid "Grey, when the task is waiting or is not executed yet."
-msgstr ""
+msgstr "Серый, когда задание находится в ожидании или еще не выполнено."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:608
 msgid "Yellow, when the task is being executed."
-msgstr ""
+msgstr "Желтый, когда задание выполняется."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:610
 msgid "Green, when the task is successfully executed."
-msgstr ""
+msgstr "Зеленый, когда задание успешно выполнено."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:612
 msgid "Orange, when the task is executed with some errors."
-msgstr ""
+msgstr "Оранжевый, когда задание выполнено с некоторыми ошибками."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:614
 msgid "Red, when the task execution has failed."
-msgstr ""
+msgstr "Красный, когда не удалось выполнить задачу."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:616
 msgid "**To add scenes to cleanup in the task list:**"
-msgstr ""
+msgstr "**Чтобы добавить сцены для очистки в список задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:620
 msgid ""
 "Click the Add Cleanup Task button (|add_cleanup|) in the bottom bar of "
 "the Tasks pane and use the browser to select a scene file."
 msgstr ""
+"Нажмите кнопку «Добавить задачу очистки» (|add_cleanup|) в нижней панели "
+"панели «Задачи» и используйте браузер для выбора файла сцены."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:624
 msgid ""
 "Select the scenes in the OpenToonz Browser, then right-click any of them "
 "and choose Add As Cleanup Task from the menu that opens."
 msgstr ""
+"Выберите сцены в браузере OpenToonz, затем щелкните правой кнопкой мыши "
+"любую из них и выберите «Добавить задачу очистки» в открывшемся меню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:626
 msgid "**To configure the cleanup task in the task list:**"
-msgstr ""
+msgstr "**Чтобы настроить задачу очистки в списке задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:628
 msgid "Select the cleanup task in the task list."
-msgstr ""
+msgstr "Выберите задачу очистки в списке задач."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:630
 msgid "Configure it by using the options available on the right of the list."
-msgstr ""
+msgstr "Настройте его с помощью параметров, доступных в правой части списка."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:632
 msgid "**To select tasks in the task list:**"
-msgstr ""
+msgstr "**Чтобы выбрать задачи в списке задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:636
 msgid "Click a task to select it."
-msgstr ""
+msgstr "Нажмите на задачу, чтобы выбрать ее."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:638
 msgid "Shift-click a task to extend the selection up to that task."
 msgstr ""
+"Удерживая клавишу Shift, щелкните задачу, чтобы расширить выбор до этой "
+"задачи."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:640
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from"
 " the selection."
 msgstr ""
+"Ctrl-клик (ПК) или Cmd-клик (Mac) задача, чтобы добавить ее или удалить "
+"из выбора."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:642
 msgid "**To execute selected tasks:**"
-msgstr ""
+msgstr "**Для выполнения выбранных задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:646
 msgid "Click the Start button (|start|) in the bottom bar of the pane."
-msgstr ""
+msgstr "Нажмите кнопку «Старт» (|start|) в нижней панели панели."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:650
 msgid ""
 "Right-click any selected task icons and choose Start from the menu that "
 "opens."
 msgstr ""
+"Щелкните правой кнопкой мыши любые выбранные значки задач и выберите "
+"«Пуск» в открывшемся меню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:652
 msgid "**To stop the execution of selected tasks:**"
-msgstr ""
+msgstr "**Чтобы остановить выполнение выбранных задач:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:656
 msgid "Click the Stop button (|stop|) in the bottom bar of the pane."
-msgstr ""
+msgstr "Нажмите кнопку «Стоп» (|stop|) в нижней панели панели."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:660
 msgid ""
 "Right-click any selected task icon and choose Stop from the menu that "
 "opens."
 msgstr ""
+"Щелкните правой кнопкой мыши любой выбранный значок задачи и выберите "
+"«Стоп» в открывшемся меню."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:662
 msgid "**To remove selected tasks from the list:**"
-msgstr ""
+msgstr "**Чтобы удалить выбранные задачи из списка:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:666
 msgid "Click the Remove button (|remove|) in the bottom bar of the Tasks pane."
-msgstr ""
+msgstr "Нажмите кнопку «Удалить» (|remove|) в нижней панели панели задач."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:670
 msgid ""
 "**Right-click any selected task in the list and choose Remove from the "
 "menu that opens.**"
 msgstr ""
+"**Щелкните правой кнопкой мыши любую выбранную задачу в списке и выберите"
+" «Удалить» в открывшемся меню.**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:672
 msgid "**To add tasks to the Dependencies list:**"
-msgstr ""
+msgstr "**Чтобы добавить задачи в список зависимостей:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:674
 msgid "Select a task in the list on the right and click the Add button."
-msgstr ""
+msgstr "Выберите задачу в списке справа и нажмите кнопку Добавить."
 
 #: ../../source/cleaning-up_scanned_drawings.rst:676
 msgid "**To remove tasks from the Dependencies list:**"
-msgstr ""
+msgstr "**Чтобы удалить задачи из списка зависимостей:**"
 
 #: ../../source/cleaning-up_scanned_drawings.rst:678
 msgid "Select a task in the list on the left and click the Remove button."
-msgstr ""
+msgstr "Выберите задачу в списке слева и нажмите кнопку «Удалить»"
 
 #~ msgid ""
 #~ "If the computer performance slows down"
@@ -2146,5 +2623,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  )."
-#~ msgstr ""
+#~ msgstr ":ref:`Работа в Xsheet <working_in_xsheet>`.)"
 
