@@ -53,7 +53,7 @@ Animation levels can be created in the following ways:
 
 Using the New Level Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the Xsheet/Timeline, and the increment, that sets the way the level drawings are numbered. For example, step 2 repeats each drawing twice in the Xsheet column or Timeline layer, while increment 2 numbers the drawings 1, 3, 5, etc. The dialog also allows you to choose a destination folder, different from the default one, by using the Save In field.
+New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the Xsheet/Timeline, and the increment, that sets the way the level drawings are numbered. For example, a **Step** 2 repeats each drawing twice in the Xsheet column or Timeline layer, while an **Increment** 2 will number its drawings as 1, 3, 5, etc. The dialog also allows you to choose a destination folder, different from the default one, by using the **Save In** field.
 
 In case you define a Toonz Raster or a Raster level, you can set its **Width**, **Height** and **DPI** values, according to the way you want to use it in the scene.
 
