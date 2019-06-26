@@ -301,7 +301,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select an empty cell in the Xsheet.
 
-    2. Click the Save Settings button (|save|) in the bottom bar of the cleanup settings window.
+    2. Click the Save Settings button in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens choose for the CLN file a location and name, and click the Save button.
 
@@ -309,7 +309,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select an empty cell in the Xsheet.
 
-    2. Click the Load Settings button (|load|) in the bottom bar of the cleanup settings window.
+    2. Click the Load Settings button in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens retrieve the CLN file you want to load, and click the Load button.
 
@@ -317,7 +317,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select any cell where the level is exposed in the Xsheet.
 
-    2. Click the Save Settings button (|save|) in the bottom bar of the cleanup settings window.
+    2. Click the Save Settings button in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens save the CLN file in the same location and with the same name as the level, and click the Save button.
 
@@ -325,15 +325,15 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select any cell where the level is exposed in the Xsheet.
 
-    2. Click the Load Settings button (|load|) in the bottom bar of the cleanup settings window.
+    2. Click the Load Settings button in the bottom bar of the cleanup settings window.
 
     3. In the browser that opens retrieve the CLN file you want to load, and click the Load button.
 
-    4. Click the Save Settings button (|save|) and in the browser that opens save the CLN file in the same location and with the same name as the level, and click the Save button.
+    4. Click the Save Settings button and in the browser that opens save the CLN file in the same location and with the same name as the level, and click the Save button.
 
 .. tip:: **To reset cleanup settings to the scene default:**
 
-    Click the Reset Settings button (|reset|) in the bottom bar of the cleanup settings window.
+    Click the Reset Settings button in the bottom bar of the cleanup settings window.
 
 
 
@@ -695,7 +695,6 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |check| image:: /_static/cleanup/check.png
 .. |preview| image:: /_static/cleanup/preview.png
 .. |remove| image:: /_static/cleanup/remove.png
-.. |reset| image:: /_static/cleanup/reset.png
 .. |save| image:: /_static/cleanup/save.png
 .. |save_as| image:: /_static/cleanup/save_as.png
 .. |start| image:: /_static/cleanup/start.png
