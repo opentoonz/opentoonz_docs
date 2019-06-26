@@ -204,7 +204,7 @@ Columns/layers and pegbars are always linked, at least to the table: this means 
 
 .. tip:: **To remove selected links:**
 
-    Choose Edit > **Delete**, links will be replaced by default ones (i.e to the table).
+    Choose Edit  →  **Delete**, links will be replaced by default ones (i.e to the table).
 
 
 .. _advanced_linking:
@@ -327,7 +327,7 @@ Hook information is saved along with each level, as a file in XML format, named 
 
 .. tip:: **To delete a hook:**
 
-    Select the related hook in any frame and choose Edit > **Delete**.
+    Select the related hook in any frame and choose Edit  →  **Delete**.
 
 .. tip:: **To link an object to a level hook:**
 
@@ -402,7 +402,7 @@ Once areas to be tracked are defined in the first frame of a range, it's possibl
 
     1. Choose the **Tracker** tool (|tracker|) and select the region you want to delete.
 
-    2. Choose Edit > **Delete**.
+    2. Choose Edit  →  **Delete**.
 
 .. tip:: **To track a defined region in a series of images:**
 
@@ -412,7 +412,7 @@ Once areas to be tracked are defined in the first frame of a range, it's possibl
 
     3. Select the frame range in the Xsheet/Timeline or in the Level Strip.
 
-    4. Choose Level > **Tracking**, set the tracking options and click the **Track** button.
+    4. Choose Level  →  **Tracking**, set the tracking options and click the **Track** button.
 
 .. tip:: **To link an object to the tracked region:**
 
@@ -463,7 +463,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: Position values are expressed in the default unit of measure set in the Preferences > Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
+.. note:: Position values are expressed in the default unit of measure set in the Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
 
 .. _animate_tool_handle:
@@ -681,7 +681,7 @@ It's also possible to link the key positions of the objects to the positions of 
 
     1. Select the link between the object and the motion path. 
 
-    2. Choose Edit > **Delete**.
+    2. Choose Edit  →  **Delete**.
 
 .. tip:: **To set the type of movement along a motion path:**
 
@@ -737,7 +737,7 @@ It's also possible to link the key positions of the objects to the positions of 
 
     Do one of the following:
 
-    - Select the motion path node and choose Edit > **Delete**.
+    - Select the motion path node and choose Edit  →  **Delete**.
 
     - Right-click the motion path node and choose **Delete** from the menu that opens.
 
@@ -851,7 +851,7 @@ When a multiple key is deleted at the current frame, any key available in any Xs
 
     2. Select the frame where you want to insert keys.
 
-    3. Choose Xsheet > **Insert Multiple Keys**.
+    3. Choose Xsheet  →  **Insert Multiple Keys**.
 
 .. tip:: **To remove several keys at once:**
 
@@ -863,7 +863,7 @@ When a multiple key is deleted at the current frame, any key available in any Xs
 
     2. Select the frame where you want to delete keys.
 
-    3. Choose Xsheet > **Remove Multiple Keys**.
+    3. Choose Xsheet  →  **Remove Multiple Keys**.
 
 
 .. _working_in_a_3d_environment:

@@ -374,7 +374,7 @@ Only the first style in the palette, labeled **Color_0**, cannot be edited: inst
 
     Do one of the following:
 
-    - Choose Windows > **Style Editor**.
+    - Choose Windows  →  **Style Editor**.
 
     - Double-click the style you want to edit in the Palette Editor.
 

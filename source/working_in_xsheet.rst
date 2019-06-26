@@ -58,9 +58,9 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences > Loading > **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
-.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences > Xsheet.
+.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences  →  Xsheet.
 
 In the file tree available on the left there are the following main items:
 
@@ -84,7 +84,7 @@ In the file tree available on the left there are the following main items:
 
 You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed as icons or as a list, displaying additional informations that can be also used to sort them.
 
-.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences > Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
+.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences  →  Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
 
 
 .. _loading_levels:
@@ -112,7 +112,7 @@ From the browser, you can **View** images and clips you are going to load as lev
 
 OpenToonz scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
 
-When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences > Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences  →  Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
 If you are loading one or several files located outside the default current project folders, you are prompted whether to **Import** them to the project database or to **Load** them from where they are. In the former case files will be copied to the appropriate project folder (PLI, TLV levels and their palettes in the *+drawings* folder; raster images, video clips and audio files in the *+extras* folder; standalone palettes in the *+palettes* folder, etc.) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter case they will be loaded using an absolute path to their original location.
 
@@ -160,7 +160,7 @@ If any of the files you want to import has the same name of a file already exist
 
     2. Do one of the following:
 
-    - Choose File > Load Level.
+    - Choose File  →  Load Level.
 
     - Right-click in the Xsheet/Timeline cell and choose Load Level from the menu that opens.
 
@@ -196,11 +196,11 @@ If any of the files you want to import has the same name of a file already exist
 
     .. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the scene cast, Xsheet/Timeline, or Viewer.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified in Preferences > Loading > **Level Settings by File Format**. In this case the Level Settings specified when the corresponding **Edit** button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified in Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified when the corresponding **Edit** button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. tip:: **To load back a recently loaded level:**
 
-    Choose File > Open Recent Level File, then select the level you want to load from the available submenu.
+    Choose File  →  Open Recent Level File, then select the level you want to load from the available submenu.
 
 .. tip:: **To make a multiple selection in the file browser:**
 
@@ -220,13 +220,13 @@ If any of the files you want to import has the same name of a file already exist
 
     - In the OpenToonz browser or in the Xsheet right-click the level you want to view and choose View from the menu that opens.
 
-    - Choose Windows > Flipbook and drag and drop in the window the file you want to view.
+    - Choose Windows  →  Flipbook and drag and drop in the window the file you want to view.
 
   .. note:: By opening several Flipbook windows you can view several levels at the same time.
 
 .. tip:: **To set the default shrink factor and step for the file viewer:**
 
-    1. Choose File > Preferences > Interface.
+    1. Choose File  →  Preferences  →  Interface.
 
     2. Set the default **Viewer Shrink** and **Step** values.
 
@@ -597,7 +597,7 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Do one of the following:
 
-    - Choose Level > **Expose in Xsheet**.
+    - Choose Level  →  **Expose in Xsheet**.
 
     - Right-click the selection in the Scene Cast and choose **Expose in Xsheet** from the menu that opens. In case of a multiple level selection, each level will be placed in a different column/layer, starting from the first empty one.
 
@@ -607,7 +607,7 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Do one of the following:
 
-    - Select it in the Scene Cast and choose Level > **Display in Level Strip**.
+    - Select it in the Scene Cast and choose Level  →  **Display in Level Strip**.
 
     - Right-click it in the Scene Cast and choose **Display in Level Strip** from the menu that opens.
 
@@ -621,7 +621,7 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     Do one of the following:
 
-    - Choose Level > **Remove All Unused Levels**.
+    - Choose Level  →  **Remove All Unused Levels**.
 
     - Right-click in the Scene Cast and choose **Remove All Unused Levels** from the menu that opens.
 
@@ -640,7 +640,7 @@ When an animation level is displayed in the Level Strip, you can select the spec
 
     - Select any level drawing exposed in the Xsheet/Timeline.
 
-    - Select it in the Scene Cast and choose Level > **Display in Level Strip**.
+    - Select it in the Scene Cast and choose Level  →  **Display in Level Strip**.
 
     - Right-click it the Scene Cast and choose **Display in Level Strip** from the menu that opens.
 
@@ -689,7 +689,7 @@ The original level is preserved in the Scene Cast from where it can be retrieved
 
     2. Do one of the following:
 
-    - Choose Level > **Replace Level...**.
+    - Choose Level  →  **Replace Level...**.
 
     - Right-click the selection and choose one of the options in the **Replace Level** submenu, from the menu that opens.
 
@@ -729,7 +729,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     - **Add Antialiasing** gives the user the possibility to add antialiasing to the level. The antialiasing value has to be specified in the **Antialias Softness** field, which can range from 0 to 100. This option is available on Toonz Raster and Raster levels.
 
-    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Xsheet > Scene Settings dialog, where values for raster (Image) and toonz raster (TLV) level subsampling can be defined.
+    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Xsheet  →  Scene Settings dialog, where values for raster (Image) and toonz raster (TLV) level subsampling can be defined.
 
       .. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing one of the **Subsampling** commands from the menu that opens.
 
@@ -737,7 +737,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     Do one of the following:
 
-    - Select a level in the Xsheet/Timeline and choose Level > **Level Settings...**.
+    - Select a level in the Xsheet/Timeline and choose Level  →  **Level Settings...**.
 
     - Right-click a level in the Xsheet/Timeline and choose **Level Setting...** from the menu that opens.
 
@@ -763,13 +763,13 @@ The Xsheet Toolbar pane can be toggled depending on user preferences.
 
     - Right click on any column/layer header and choose **Toggle Xsheet Toolbar** from the menu that opens.
 
-    - Activate the File > Preferences > Xsheet > **Show Toolbar in the Xsheet** option.
+    - Activate the File  →  Preferences  →  Xsheet  →  **Show Toolbar in the Xsheet** option.
 
     .. note:: When the Xsheet Toolbar is shown, it's also possible to activate the **Expand Function Editor Header to Match Xsheet Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
 
 .. tip:: **To customize the Xsheet Toolbar buttons:**
 
-    1. Choose Windows > Command Bar to open the Command Bar.
+    1. Choose Windows  →  Command Bar to open the Command Bar.
 
     2. Right click on it and select **Customize Xsheet Toolbar** from the menu that opens. The Customize Xsheet Toolbar window will open.
 
@@ -794,7 +794,7 @@ When levels are exposed in the Xsheet they are placed in columns (layers, in the
 
 |timeline|
 
-The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences > Interface dialog.
+The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences  →  Interface dialog.
 
 Column/layer cells may have different colors according to the type of level they contain. Toonz Vector levels are displayed in dark yellow; Toonz Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by OpenToonz in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
 
@@ -812,17 +812,17 @@ Each column/layer header contains information about its content. These are:
 
     - **Additional settings** button (|additional_settings|) allowing you to set an **Opacity** value or a **Color Filter** to the column/layer content, when displayed in the viewer. When a column/layer has a partial opacity, its **Camera stand toggle** changes to a faded icon to indicate it.
 
-      .. note:: Optionally you can make these additional properties also take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet > Scene Settings... dialog.
+      .. note:: Optionally you can make these additional properties also take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet  →  Scene Settings... dialog.
 
     - **Preview icon** of the first drawing or image exposed in the column/layer.
 
-      .. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the **Column Icon** option available in Preferences > Xsheet.
+      .. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the **Column Icon** option available in Preferences  →  Xsheet.
 
     - **Parent** information, is an area where the object (by default the Table) and center (by default center B) to which each column/layer is parented is displayed (see  :ref:`Linking Objects <linking_objects>`  ). Currently this is not shown in the Timeline header.
 
 In the Xsheet, the column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). In the Timeline, the same controls are placed in the time ruler at the top of the Timeline, having an equivalent functionality.
 
-.. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences > Xsheet dialog.
+.. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences  →  Xsheet dialog.
 
 Above the frame number column, there are buttons for creating and navigating Memos that can be posted in the Xsheet/Timeline (see  :ref:`Using Memos <using_memos>`  ).
 
@@ -852,7 +852,7 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
 .. tip:: **To set the marker interval:**
 
-    1. Choose Xsheet > Scene Settings...
+    1. Choose Xsheet  →  Scene Settings...
 
     2. In the dialog that opens use the **Marker Interval** to set the frame interval between two markers, and the **Start Frame** to set at which frame the first marker has to be displayed. 
 
@@ -922,7 +922,7 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
     Click the triangle icon (|additional_settings|) on the column/layer header, and set the **Filter** parameter to one of its predefined colors.
 
-.. note:: You can make Opacity and Color Filter take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet > Scene Settings... dialog.
+.. note:: You can make Opacity and Color Filter take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet  →  Scene Settings... dialog.
 
 .. tip:: **To fold columns/layers:**
 
@@ -1047,7 +1047,7 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
 .. tip:: **To drag a cell selection moving along the column/layer data:**
 
-    1. Choose File > Preferences > Xsheet.
+    1. Choose File  →  Preferences  →  Xsheet.
 
     2. Set the Cell-dragging Behaviour option to **Cells and Column Data**.
 
@@ -1117,7 +1117,7 @@ Options are the following:
 
     2. Do one of the following:
 
-    - Choose Cells > **Time Stretch...**.
+    - Choose Cells  →  **Time Stretch...**.
 
     - Right-click the selection and choose **Time Stretch...** from the menu that opens.
 
@@ -1140,13 +1140,13 @@ When a frame is removed, the current frame cells are deleted, and the following 
 
     1. Select the frame before which you want to insert a new frame.
 
-    2. Choose Xsheet > **Insert Frame**.
+    2. Choose Xsheet  →  **Insert Frame**.
 
 .. tip:: **To remove a frame:**
 
     1. Select the frame you want to delete.
 
-    2. Choose Xsheet > **Remove Frame**.
+    2. Choose Xsheet  →  **Remove Frame**.
 
 
 .. _using_sub-xsheets:
@@ -1192,7 +1192,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
     2. Do one of the following:
 
-    - Choose Xsheet > **Collapse**.
+    - Choose Xsheet  →  **Collapse**.
 
     - Click the **Collapse** button in the Xsheet Toolbar. 
     
@@ -1204,7 +1204,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
     Do one of the following
 
-    - Choose Xsheet > **Close Sub-Xsheet**.
+    - Choose Xsheet  →  **Close Sub-Xsheet**.
 
     - Click the **Close Sub-Xsheet** button in the Xsheet Toolbar. 
 
@@ -1214,7 +1214,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
     2. Do one of the following:
 
-    - Choose Xsheet > **Open Sub-Xsheet**.
+    - Choose Xsheet  →  **Open Sub-Xsheet**.
 
     - Click the **Open Sub-Xsheet** button in the Xsheet/Timeline Toolbar. 
 
@@ -1226,7 +1226,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
     2. Do one of the following:
 
-    - Choose Xsheet > **Clone Sub-Xsheet**.
+    - Choose Xsheet  →  **Clone Sub-Xsheet**.
 
     - Right-click the column header and choose **Clone Sub-Xsheet** from the menu that opens.
 
@@ -1234,7 +1234,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
     Do one of the following
 
-    - Choose Xsheet > **Toggle Edit in Place**.
+    - Choose Xsheet  →  **Toggle Edit in Place**.
     
     - Click the **Toggle Edit in Place** button in the Xsheet/Timeline Toolbar. 
 
@@ -1244,7 +1244,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
     2. Do one of the following:
 
-    - Choose Xsheet > **Resequence**.
+    - Choose Xsheet  →  **Resequence**.
 
     - Right-click the column header and choose **Resequence** from the menu that opens.
 
@@ -1259,7 +1259,7 @@ Every time a scene is loaded as a Sub-Xsheet, its contents are imported into the
 
 This allows you to create a library of basic animations that can be loaded and edited in other Xsheets/Timelines to create more complex animations without affecting the original files or drawings. Even when the same Sub-Xsheet is loaded twice, it is handled as if two different Sub-Xsheets were loaded, whose contents and levels can be edited separately.
 
-To keep the database well-ordered you can also activate the **Create Sub-folder when Importing Sub-Xsheet** option in the Preferences > Loading dialog, that will automatically create, in the project default folder, a folder named as the Sub-Xsheet you are importing where the levels from the Sub-Xsheet will be copied. 
+To keep the database well-ordered you can also activate the **Create Sub-folder when Importing Sub-Xsheet** option in the Preferences  →  Loading dialog, that will automatically create, in the project default folder, a folder named as the Sub-Xsheet you are importing where the levels from the Sub-Xsheet will be copied. 
 
 Once a Sub-Xsheet is loaded, its levels are available in the Scene Cast in a sub-folder named as the scene you loaded.
 
@@ -1271,9 +1271,9 @@ If the camera settings of the scene you are loading as a Sub-Xsheet are differen
 
     Do one of the following:
 
-    - Choose File > **Load Level** and use the browser to load a TNZ file.
+    - Choose File  →  **Load Level** and use the browser to load a TNZ file.
 
-    - Choose File > **Load As Sub-Xsheet** and use the browser to load a TNZ file.
+    - Choose File  →  **Load As Sub-Xsheet** and use the browser to load a TNZ file.
 
     - Use the OpenToonz standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the viewer.
 
@@ -1298,7 +1298,7 @@ Sub-Xsheets can be exploded to automatically bring their content into the Xsheet
 
     2. Do one of the following:
 
-    - Choose Xsheet > **Explode**.
+    - Choose Xsheet  →  **Explode**.
 
     - Right-click the Sub-Xsheet column header and choose **Explode** from the menu that opens.
 
@@ -1317,14 +1317,14 @@ The Sub-Xsheet content will be saved according to the current project settings f
 
     1. Open the Sub-Xsheet you want to save, so that its contents are displayed in the Xsheet/Timeline.
 
-    2. Choose Xsheet > **Save Sub-Xsheet As...** and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
+    2. Choose Xsheet  →  **Save Sub-Xsheet As...** and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
 
 
 .. _creating_a_soundtrack:
 
 Creating a Soundtrack
 ---------------------
-Audio clips can be loaded and edited in order to create a soundtrack for the scene; natively supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences > Import/Export dialog, ``MP3`` audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
+Audio clips can be loaded and edited in order to create a soundtrack for the scene; natively supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences  →  Import/Export dialog, ``MP3`` audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
 
 To load an audio clip you can use the Browser room; if an audio clip is imported, it is saved in the *+extras* folder (see  :ref:`Using the File Browser <using_the_file_browser>`  ). Loaded audio clips are also stored in the Audio folder of the Scene Cast.
 
@@ -1354,7 +1354,7 @@ When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or A
 
 .. note:: Audio clips loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences > General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
+.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
 .. tip:: **To play the contents of an audio column/layer back:**
 
@@ -1527,11 +1527,11 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
 
     1. Copy the file ``export-toonz.lua``  available in ``OpenToonz stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
 
-    2. In Magpie choose File > Export and choose Toonz among the 2D software list to export the TLS file.
+    2. In Magpie choose File  →  Export and choose Toonz among the 2D software list to export the TLS file.
 
 .. tip:: **To import a Magpie file:**
 
-    1. Choose File > **Import Magpie File...**.
+    1. Choose File  →  **Import Magpie File...**.
 
     2. In the browser that opens retrieve the TLS file you exported from Magpie and click the **Load** button.
 
@@ -1641,25 +1641,25 @@ Scene files can be saved and loaded as TNZ files using the related menu commands
 
 When you use the **Save As...** command, if the *$scenepath* is used in the default folders definition, all the material used in the scenes and located in project default folders will be duplicated in folders related to the new scene (see  :ref:`Using the $scenepath Variable in Folder Definition <using_the_$scenepath_variable_in_folder_definition>`  ).
 
-An option **Save Automatically** allows to save the scene every given number of minutes, and is available in the Preferences > General dialog. If the option is activated, during the saving operation a message is displayed to notify the process.
+An option **Save Automatically** allows to save the scene every given number of minutes, and is available in the Preferences  →  General dialog. If the option is activated, during the saving operation a message is displayed to notify the process.
 
 .. note:: An asterisk to the right of the scene name in the Viewer and Xsheet/Timeline title bars, denotes that there are unsaved changes for the current scene.
 
 .. tip:: **To work on a new scene:**
 
-    Choose File > **New Scene**.
+    Choose File  →  **New Scene**.
 
 .. tip:: **To save a scene and all its related levels:**
 
-    Choose File > **Save All**.
+    Choose File  →  **Save All**.
 
 .. tip:: **To save a scene:**
 
-    Choose File > **Save Scene**.
+    Choose File  →  **Save Scene**.
 
 .. tip:: **To save the current scene with a different name:**
 
-    1. Choose File > **Save Scene As...**
+    1. Choose File  →  **Save Scene As...**
 
     2. In the browser that opens select the current project *+scenes* folder, or any of its sub-folders, where you want to save the scene.
 
@@ -1667,7 +1667,7 @@ An option **Save Automatically** allows to save the scene every given number of 
 
 .. tip:: **To load a scene from the Load Scene browser:**
 
-    1. Choose File > **Load Scene...**
+    1. Choose File  →  **Load Scene...**
 
     2. In the browser that opens retrieve, in the *+scenes* folder of the current project or any of its sub-folders, the scene you want to load and click the **Load** button.
 
@@ -1683,15 +1683,15 @@ An option **Save Automatically** allows to save the scene every given number of 
 
 .. tip:: **To load back a recently loaded scene:**
 
-    Choose File > **Open Recent Scene File**, then select the scene you want to load from the available submenu.
+    Choose File  →  **Open Recent Scene File**, then select the scene you want to load from the available submenu.
 
 .. tip:: **To revert the current scene to the last saved version:**
 
-    Choose File > **Revert Scene**.
+    Choose File  →  **Revert Scene**.
 
 .. tip:: **To automatically save a scene every given number of minutes:**
 
-    1. Choose File > Preferences > General.
+    1. Choose File  →  Preferences  →  General.
 
     2. Activate the **Save Automatically** option and enter the number of minutes that have to pass between each saving operation.
    

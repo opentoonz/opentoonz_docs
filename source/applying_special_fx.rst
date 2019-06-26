@@ -143,7 +143,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     Do one of the following:
 
-    - Choose Xsheet > **New FX**.
+    - Choose Xsheet  →  **New FX**.
 
     - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window.
 
@@ -236,7 +236,7 @@ When pasting a copied/cut selection, several options are available:
 
     Select the links you want to delete and do one of the following:
 
-    - Choose Edit > **Delete**.
+    - Choose Edit  →  **Delete**.
 
     - Right-click any selected link and choose **Delete** from the menu that opens.
 
@@ -337,7 +337,7 @@ When more than one Output node is defined, you can set which is the active one (
 
     Do one of the following:
 
-    - Select it and choose Edit > **Delete**.
+    - Select it and choose Edit  →  **Delete**.
 
     - Right-click it and choose **Delete** from the menu that opens.
 

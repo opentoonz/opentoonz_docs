@@ -67,19 +67,19 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
 .. tip:: **To open the Graph Editor in a separate window:**
 
-    1. Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences > Interface window. (Restart OpenToonz).
+    1. Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart OpenToonz).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To open the Spreadsheet in a separate window:**
 
-    1. Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences > Interface window. (Restart OpenToonz).
+    1. Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart OpenToonz).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To switch between Spreadsheet and Graph Editor in the Function Editor:**
 
-    1. Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected from the **Function Editor:** dropdown menu, in the Preferences > Interface window. (Restart OpenToonz).
+    1. Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart OpenToonz).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
@@ -239,7 +239,7 @@ Frames and keyframes can be navigated by using the related buttons in the top ba
 
     Do one of the following:
 
-    - Select the keyframe to remove and choose Edit > **Delete**.
+    - Select the keyframe to remove and choose Edit  →  **Delete**.
 
     - Set the current frame where a keyframe is and click the **Set Key** button (|key|).
 
@@ -296,9 +296,9 @@ Setting Segment Interpolations
 ------------------------------
 A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the Graph Editor, and as a series of values, one for each frame, in the Spreadsheet.
 
-Available interpolations are the following: **Linear**, **Speed In / Speed Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, **Expression**, **File**, **Constant** and **Similar Shape**. The *default interpolation* can be set in the Preferences > Animation window, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the window.
+Available interpolations are the following: **Linear**, **Speed In / Speed Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, **Expression**, **File**, **Constant** and **Similar Shape**. The *default interpolation* can be set in the Preferences  →  Animation window, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the window.
 
-In the same area it is also possible to define an interpolation **Step**, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement with an animation level exposed at a specific step. The default animation step can be set in the Preferences > Animation window.
+In the same area it is also possible to define an interpolation **Step**, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement with an animation level exposed at a specific step. The default animation step can be set in the Preferences  →  Animation window.
 
 .. tip:: **To set the type of interpolation for a segment in the Spreadsheet:**
 
