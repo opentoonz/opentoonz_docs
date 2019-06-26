@@ -42,14 +42,14 @@ Installing
 
 |ffmpeg_extracted_windows|
 
-- Next, start OpenToonz and open the **Preferences** window with ``File > Preferences...``
+- Next, start OpenToonz and open the **Preferences** window with ``File  →  Preferences...``
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **C:\\FFmpeg\\**:
 
 |ffmpeg_path_windows|
 
 - Restart OpenToonz.
-- Open the **Output Settings** window with ``File > Output Settings...``
+- Open the **Output Settings** window with ``File  →  Output Settings...``
 
 | In the **File Settings** subsection, you should now see **mp4** and **webm**.
 
@@ -93,14 +93,14 @@ Installing
 
 |ffmpeg_extracted_mac|
 
-- Next, start OpenToonz and open the **Preferences** window with ``File > Preferences...``
+- Next, start OpenToonz and open the **Preferences** window with ``File  →  Preferences...``
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **/Applications/OpenToonz/FFmpeg**:
 
 |ffmpeg_path_mac|
 
 - Restart OpenToonz.
-- Open the **Output Settings** window with ``File > Output Settings...``
+- Open the **Output Settings** window with ``File  →  Output Settings...``
 
 | In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
 
@@ -123,14 +123,14 @@ Solus: ``# eopkg install ffmpeg``
 
 .. tip:: To make it possible to export files in **mp4**, **webm** or **gif** formats, you need to specify the path to FFmpeg installed on your system, usually it is **/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the shell to find out.
 
-- Start OpenToonz and open the **Preferences** window with ``File > Preferences...``
+- Start OpenToonz and open the **Preferences** window with ``File  →  Preferences...``
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path **/usr/bin**.
 
 |ffmpeg_path_linux|
 
 - Restart OpenToonz.
-- Open the **Output Settings** window with ``File > Output Settings...``
+- Open the **Output Settings** window with ``File  →  Output Settings...``
 
 | In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
 

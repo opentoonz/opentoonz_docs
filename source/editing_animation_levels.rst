@@ -21,7 +21,7 @@ When one or more frames are selected you can perform standard cut, copy, paste, 
 
 When you change the order of the drawings in the Level Strip, or when a drawing is cut, deleted or inserted, and drawings are exposed in the scene, the Xsheet/Timeline will continue to contain a reference to that particular frame of the animation level, whatever its content is. When the Xsheet/Timeline contains a reference to a drawing that is eliminated in the Level Strip, the level name and number turn red, to warn you that there is no drawing available for that cell anymore.
 
-The width of the level strip pane cannot be resized freely, because it depends on the size of the animation level preview icons, but it can be customized in the Preferences > Interface dialog.
+The width of the level strip pane cannot be resized freely, because it depends on the size of the animation level preview icons, but it can be customized in the Preferences  →  Interface dialog.
 
 .. tip:: **To edit an animation level in the Level Strip:**
 
@@ -59,9 +59,9 @@ The width of the level strip pane cannot be resized freely, because it depends o
 
     - Ctrl-click (PC) or Cmd-click (Mac) the frames to add them to, or remove them from the selection.
 
-    - Use the Edit > Select All command to select all of the level drawings.
+    - Use the Edit  →  Select All command to select all of the level drawings.
 
-    - Use the Edit > Invert Selection command to invert the current selection of drawings.
+    - Use the Edit  →  Invert Selection command to invert the current selection of drawings.
 
 .. note:: The Select All and Invert Selection commands are also available in the menu that opens when right-clicking in the Level Strip.
 
@@ -71,7 +71,7 @@ The width of the level strip pane cannot be resized freely, because it depends o
 
 .. tip:: **To customize the level strip width:**
 
-    1. Choose File > Preferences > Interface.
+    1. Choose File  →  Preferences  →  Interface.
 
     2. Set the Width and Height values of the level strip Icon Size*.
 
@@ -145,19 +145,19 @@ If you need to add a range of frames to a level, for instance for scanning them 
 
 Both the renumbering and the adding frames operation fails if the numbering assigned to the frames is used by already existing frames.
 
-.. note:: If the Automatically Create Drawings option is activated in the Preferences > Drawing dialog, when you want to add a drawing at the end of the sequence simply select the first grey frame available, and draw in the Viewer. 
+.. note:: If the Automatically Create Drawings option is activated in the Preferences  →  Drawing dialog, when you want to add a drawing at the end of the sequence simply select the first grey frame available, and draw in the Viewer. 
 
 .. tip:: **To renumber drawings of an animation level:**
 
     1. Select the drawings you want to renumber; also a non-continuous selection is allowed.
 
-    2. Select Level > Renumber.
+    2. Select Level  →  Renumber.
 
     3. In the dialog that opens set the Start Frame number that will be assigned to the first drawing of the selection, and the Step used to number all following frames in the selection.
 
 .. tip:: **To add drawings to an animation level:**
 
-    1. Select Level > Add Frames.
+    1. Select Level  →  Add Frames.
 
     2. In the dialog that opens sets the frame range you want to add, and the Step used to number the frames in the range.
 
@@ -172,7 +172,7 @@ In case some mistakes are made during the editing of a level, or during the pain
 
 For Toonz raster levels generated from a cleanup process, it is also possible to retrieve the original cleaned up drawings.
 
-.. note:: In order to revert to the original cleaned up drawings the Preferences > Drawing > Keep Original Cleaned Up Drawings As Backup option has to be activated when the cleanup is performed (see  :ref:`Cleaning up Drawings <cleaning_up_drawings>`  ).
+.. note:: In order to revert to the original cleaned up drawings the Preferences  →  Drawing  →  Keep Original Cleaned Up Drawings As Backup option has to be activated when the cleanup is performed (see  :ref:`Cleaning up Drawings <cleaning_up_drawings>`  ).
 
 .. tip:: **To revert the level drawings to the last saved version:**
 
@@ -180,7 +180,7 @@ For Toonz raster levels generated from a cleanup process, it is also possible to
 
     2. Do one of the following:
 
-    - Choose Level > Revert to Last Saved Version.
+    - Choose Level  →  Revert to Last Saved Version.
 
     - Right click the selection and choose Revert to Last Saved Version from the menu that opens.
 
@@ -190,7 +190,7 @@ For Toonz raster levels generated from a cleanup process, it is also possible to
 
     2. Do one of the following:
 
-    - Choose Level > Revert to Cleaned Up.
+    - Choose Level  →  Revert to Cleaned Up.
 
     - Right click the selection and choose Revert to Cleaned Up from the menu that opens.
 
@@ -199,7 +199,7 @@ For Toonz raster levels generated from a cleanup process, it is also possible to
 
 Merging Animation Levels
 ------------------------
-Toonz vector levels and standard raster levels can be easily merged into a single animation level generated by flattening them according to their stacking order, using the  > Merge Levels command. TLV levels can be merged, using the  > Merge TLV Levels command.
+Toonz vector levels and standard raster levels can be easily merged into a single animation level generated by flattening them according to their stacking order, using the   →  Merge Levels command. TLV levels can be merged, using the   →  Merge TLV Levels command.
 
 This can be useful for instance if you are sketching an animation with drawings repeated in several cells and exposed in several columns, and you want to generate a single sequence of drawings.
 
@@ -210,7 +210,7 @@ In both cases there is no limit to the number of columns you can merge.
 
 Merging Toonz Vector Levels or Raster Levels
 ''''''''''''''''''''''''''''''''''''''''''''
-Using the  > Merge Levels command the number of resulting drawings will depend on the number of drawings exposed in the first column on the left of the selection. When merging raster levels, the resolution of the resulting drawings will depend on the resolution of the drawings exposed in the first column on the left of the selection.
+Using the   →  Merge Levels command the number of resulting drawings will depend on the number of drawings exposed in the first column on the left of the selection. When merging raster levels, the resolution of the resulting drawings will depend on the resolution of the drawings exposed in the first column on the left of the selection.
 
 Animation levels are merged according to the following guidelines:
 
@@ -230,15 +230,15 @@ For Toonz vector levels each drawing of the merged levels will be retained as a 
 
     1. Select the columns where the animation levels you want to merge are exposed.
 
-    2. Choose  > Merge Levels.
+    2. Choose   →  Merge Levels.
 
 .. _merging_toonz_raster_levels:
 
 Merging Toonz Raster Levels
 '''''''''''''''''''''''''''
-The  > Merge tlv Levels allows to combine several columns containing Toonz Raster Levels creating a new TLV level. The merged columns will be eliminated from the  and replaced with a new TLV level.
+The   →  Merge tlv Levels allows to combine several columns containing Toonz Raster Levels creating a new TLV level. The merged columns will be eliminated from the  and replaced with a new TLV level.
 
-Using the  > Merge tlv Levels command the number of resulting drawings will depend on the frames combination of the involved levels. When merging Toonz Raster levels, the resolution of the resulting level will depend on the resolution of the drawings exposed in the first column on the left of the selection.
+Using the   →  Merge tlv Levels command the number of resulting drawings will depend on the frames combination of the involved levels. When merging Toonz Raster levels, the resolution of the resulting level will depend on the resolution of the drawings exposed in the first column on the left of the selection.
 
 Animation levels are merged according to the following guidelines:
 
@@ -256,7 +256,7 @@ When levels are merged, any geometrical transformation achieved by editing and m
 
     1. Select two ore more columns filled with the tlv you want to merge.
 
-    2. Choose  > Merge tlv Levels
+    2. Choose   →  Merge tlv Levels
 
     3. Define File name and location in the pop up that opens and press Apply.
 
@@ -300,7 +300,7 @@ In case it is needed to adjust drawings in order to increase the darkness and th
 
     1. Select the images or the level frames to process in the .
 
-    2. Choose Level > Brightness and Contrast.
+    2. Choose Level  →  Brightness and Contrast.
 
     3. In the dialog that opens set the brightness and contrast variation.
 
@@ -316,7 +316,7 @@ Allows to add antialias or to make it smoother or harder on raster and Toonz ras
 
     1. Select the images or the level frames to process in the .
 
-    2. Choose Level > Add Antialias...
+    2. Choose Level  →  Add Antialias...
 
     3. In the dialog that opens set the threshold and the smoothness values.
 
@@ -332,7 +332,7 @@ Adjusts the highlights and shadows of the Source content by remapping pixels int
 
     1. Select the images or the level frames to adjust in the .
 
-    2. Choose Level > Adjust Levels.
+    2. Choose Level  →  Adjust Levels.
 
     3. Adjust the image levels
 
@@ -348,7 +348,7 @@ The Adjust Thickness command allows to modify the thickness of all the lines of 
 
     1. Select the images or the level frames to adjust in the .
 
-    2. Choose Level > Adjust Thickness.
+    2. Choose Level  →  Adjust Thickness.
 
     3. Choose a mode. The modes are: Scale Thickness that scale lines up or down using a percentage value, Add Thickness that add an amount of thickness to the lines using the current unit, Costant Thickness that apply a thickness value, ignoring its variations, using the current unit.
 
@@ -366,7 +366,7 @@ In case it is needed to adjust the drawing colors it is possible to fade the dra
 
     1. Select the images or the level frames to fade in the .
 
-    2. Choose Level > Color Fade.
+    2. Choose Level  →  Color Fade.
 
     3. In the dialog that opens set the color you want to fade the selection to by doing one of the following:
 
@@ -394,7 +394,7 @@ The preview is available to check the result. The alpha toggle allows to produce
 
     1. Select the images or the level frames to process in the .
 
-    2. Choose Level > Binarize.
+    2. Choose Level  →  Binarize.
 
     3. Activate the Preview toggle to check the result.
 
@@ -408,7 +408,7 @@ Saving Levels
 -------------
 All the editing performed in the level strip is not saved until you save the level. You can also automatically save all of the editing done on any level of the  by saving the scene (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ). 
 
-When saving an animation level it is possible to automatically create a backup file of the previous version by setting the Backup Animation Levels when Saving option in the Preferences > General dialog. The backup version is created in the same location where the level is saved, and has an _backup suffix.
+When saving an animation level it is possible to automatically create a backup file of the previous version by setting the Backup Animation Levels when Saving option in the Preferences  →  General dialog. The backup version is created in the same location where the level is saved, and has an _backup suffix.
 
 .. note:: An asterisk after the level name in the level strip title bar denotes that there are unsaved changes for the current level.
 
@@ -416,13 +416,13 @@ When saving an animation level it is possible to automatically create a backup f
 
     Do one of the following:
 
-    - Choose File > Save Level.
+    - Choose File  →  Save Level.
 
     - Right-click in the scene cast and choose Save Level from the menu that opens.
 
 .. tip:: **To save the current level with a different name in a different location:**
 
-    1. Choose File > Save Level As.
+    1. Choose File  →  Save Level As.
 
     2. In the browser that opens select for the level you want to save a location and name, and click the Save button.
 
@@ -446,7 +446,7 @@ The No Antialias option allow to remove the antialias from the exported sequence
 
 .. tip:: **To export the current level:**
 
-    1. Choose File > Export Level.
+    1. Choose File  →  Export Level.
 
     2. In the File Browser page select the level you want to save, a location and a name.
 
@@ -472,7 +472,7 @@ The No Antialias option allow to remove the antialias from the exported sequence
 
 .. tip:: **To set the file format options:**
 
-    1. Choose File > Output Settings.
+    1. Choose File  →  Output Settings.
 
     2. Set the options for the format you want to use for exporting levels.
 

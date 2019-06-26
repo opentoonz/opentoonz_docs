@@ -7,7 +7,7 @@ In order to be painted and edited with OpenToonz, scanned drawings have to under
 The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
 
-.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the Minimize Raster Memory Fragmentation* option in the Files > Preferences > General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the Minimize Raster Memory Fragmentation* option in the Files  →  Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 .. _the_cleanup_settings:
 
@@ -21,7 +21,7 @@ Usually settings are defined and checked for one of the level drawings, then app
 
 .. tip:: **To define cleanup settings:**
 
-    Choose Scan & Cleanup > Cleanup Settings and use the dialog to control the cleanup process parameters and options. 
+    Choose Scan & Cleanup  →  Cleanup Settings and use the dialog to control the cleanup process parameters and options. 
 
 .. _defining_cleanup_parameters:
 
@@ -58,7 +58,7 @@ Autocenter parameters are the following:
 
     3. Set the Field Guide to be used as reference to set the center in the correct place, and to match the shape of the pegbar holes.
 
-    4. Choose Scan & Cleanup > Preview Cleanup to preview the process in the Viewer.
+    4. Choose Scan & Cleanup  →  Preview Cleanup to preview the process in the Viewer.
 
 .. _other_cleanup_parameters:
 
@@ -124,7 +124,7 @@ Parameters are the following:
 
 .. tip:: **To set the line processing for black and white or greyscale lineart drawings:**
 
-    1. Activate the Line Processing > Greyscale option.
+    1. Activate the Line Processing  →  Greyscale option.
 
     2. Define the parameters according to your needs.
 
@@ -151,7 +151,7 @@ Three different autoadjust algorithms are available:
 
 .. note:: The advantage of the Histo-L mode over the others is that it adjusts the grey levels of each image independently, while the other algorithms equalize each image to make it look like the first one of the level.
 
-Only the effects of the Black Eq process can be checked using the Scan & Cleanup > Cleanup Preview command; the effects of Histogram and Histo-L are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup > Cleanup command. You may need to make a few trials using different algorithms before obtaining the desired results. 
+Only the effects of the Black Eq process can be checked using the Scan & Cleanup  →  Cleanup Preview command; the effects of Histogram and Histo-L are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup  →  Cleanup command. You may need to make a few trials using different algorithms before obtaining the desired results. 
 
 .. note:: These algorithms work on the area of the drawing specified in the Field text boxes, excluding a 5 mm boundary edge. In this way any line might be drawn to delimit the camera shot on paper, and the pegbar holes, do not affect the result.
 
@@ -208,7 +208,7 @@ In the color list, parameters for the other colors are the following:
 
 .. tip:: **To set the line processing for colored lineart drawings:**
 
-    1. Activate the Line Processing > Color option.
+    1. Activate the Line Processing  →  Color option.
 
     2. Define the general parameters according to your needs.
 
@@ -363,11 +363,11 @@ If you change any parameter in the cleanup settings, the preview automatically u
 
 .. tip:: **To activate the cleanup preview in the main viewer:**
 
-    In the Xsheet select the scanned drawing you want to preview, and choose Scan & Cleanup > Preview Cleanup. 
+    In the Xsheet select the scanned drawing you want to preview, and choose Scan & Cleanup  →  Preview Cleanup. 
 
 .. tip:: **To deactivate the cleanup preview in the main viewer:**
 
-    Choose Scan & Cleanup > Preview Cleanup. 
+    Choose Scan & Cleanup  →  Preview Cleanup. 
 
 .. tip:: **To preview a different drawing:**
 
@@ -375,7 +375,7 @@ If you change any parameter in the cleanup settings, the preview automatically u
 
 .. tip:: **To exit the preview cleanup mode:**
 
-    Choose Scan & Cleanup > Preview Cleanup to deactivate it. 
+    Choose Scan & Cleanup  →  Preview Cleanup to deactivate it. 
 
 
 .. _using_the_opacity_check:
@@ -410,11 +410,11 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
 .. tip:: **To activate the camera test:**
 
-    In the Xsheet select the drawing you want to preview, and choose Scan & Cleanup > Camera Test. 
+    In the Xsheet select the drawing you want to preview, and choose Scan & Cleanup  →  Camera Test. 
 
 .. tip:: **To deactivate the camera test:**
 
-    Choose Scan & Cleanup > Camera Test. 
+    Choose Scan & Cleanup  →  Camera Test. 
 
 .. tip:: **To modify the cleanup camera directly in the viewer:**
 
@@ -434,7 +434,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
 .. tip:: **To exit the camera test mode:**
 
-    Choose Scan & Cleanup > Camera Test to deactivate it. 
+    Choose Scan & Cleanup  →  Camera Test to deactivate it. 
 
 
 .. _cleaning_up_drawings:
@@ -455,7 +455,7 @@ It is also possible to automatically create a backup copy of the cleaned up draw
 
 .. tip:: **To automatically create a backup copy of the cleaned up drawings:**
 
-    1. Choose File > Preferences > Drawing.
+    1. Choose File  →  Preferences  →  Drawing.
 
     2. Activate the Keep Original Cleaned Up Drawings As Backup option.
 
@@ -465,7 +465,7 @@ It is also possible to automatically create a backup copy of the cleaned up draw
 
     2. Do one of the following:
 
-    - Choose Level > Revert to Cleaned Up.
+    - Choose Level  →  Revert to Cleaned Up.
 
     - Right click the selection and choose Revert to Cleaned Up from the menu that opens.
 
@@ -492,7 +492,7 @@ If you want you can also revert to the scanned version of the level you cleaned 
 
     1. In the Xsheet select the drawings you want to process.
 
-    2. Choose Scan & Cleanup > Cleanup.
+    2. Choose Scan & Cleanup  →  Cleanup.
 
     3. In the Cleanup dialog for each drawing choose one of the following:
 
@@ -508,7 +508,7 @@ If you want you can also revert to the scanned version of the level you cleaned 
 
     1. Select any drawing of the cleaned up level.
 
-    2. Choose Level > Level Setting.
+    2. Choose Level  →  Level Setting.
 
     3. Copy the Scan Path information in the Path text field.
 

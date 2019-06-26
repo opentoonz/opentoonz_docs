@@ -31,11 +31,11 @@ By default Toonz Vector and Toonz Raster levels are saved in the **+drawing** fo
 
 .. tip:: **To define the Default Type of Level to Draw:**
 
-    1. Open File > Preferences > Drawing.
+    1. Open File  →  Preferences  →  Drawing.
 
     2. Choose the level type you want to use as default from the **Default Level Type:** option menu. **Width**, **Height** and **DPI** fields are available for **Toonz Raster Level** and **Raster Level** options.
 
-.. note:: The Width, Height and DPI values set in the File > Preferences > Drawing section will also be used as default for the **New Level** dialog.
+.. note:: The Width, Height and DPI values set in the File  →  Preferences  →  Drawing section will also be used as default for the **New Level** dialog.
 
 
 Drawing Animation Levels
@@ -61,13 +61,13 @@ Settings like the length of the level and the numbering order can be edited late
 
 When a new level is created in an empty column, the color of that column header and the cells where the new level gets exposed are colored denoting the type of level: **light yellow** for Toonz Vector levels, **light green** for Toonz Raster levels, and **light blue** for Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
-.. note:: The New Level dialog inherits the **Default Level Type** settings defined in Preferences > Drawing.
+.. note:: The New Level dialog inherits the **Default Level Type** settings defined in Preferences  →  Drawing.
 
 .. tip:: **To create a new animation level to draw:**
 
     1. Do one of the following:
 
-    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose File > **New Level...**
+    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose File  →  **New Level...**
 
     - Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose **New Level...** from the menu that opens.
 
@@ -90,16 +90,16 @@ When a new level is created in an empty column, the color of that column header 
 
 Using the Autocreation Option
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences > Drawing the **Autocreation:** option is set to **Enabled**, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is the one **right after** one containing a level drawing (either in the Xsheet/Timeline or the Level Strip) a new drawing will be added to that level.
+When in Preferences  →  Drawing the **Autocreation:** option is set to **Enabled**, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is the one **right after** one containing a level drawing (either in the Xsheet/Timeline or the Level Strip) a new drawing will be added to that level.
 
-.. note:: The level type will be the one defined in Preferences > Drawing as **Default Level Type**.
+.. note:: The level type will be the one defined in Preferences  →  Drawing as **Default Level Type**.
 
 
 .. _using_the_xsheet_as_animation_sheet:
 
 Using the Xsheet as Animation Sheet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences > Drawing the **Autocreation:** option is set to **Use the Xsheet as Animation Sheet**, it's possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is **anywhere after** one containing a level drawing, a new drawing will be added to that level. In both cases the drawings will take its number from the scene current frame ; if that drawing number already existed in the level, a letter will be added to its number (e.g. A.0001a.ext). 
+When in Preferences  →  Drawing the **Autocreation:** option is set to **Use the Xsheet as Animation Sheet**, it's possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is **anywhere after** one containing a level drawing, a new drawing will be added to that level. In both cases the drawings will take its number from the scene current frame ; if that drawing number already existed in the level, a letter will be added to its number (e.g. A.0001a.ext). 
 
 This working method allows you to work as a traditional animator: you can start creating the *key drawings*, and then add *breakdown drawings*, and then *inbetween drawings*. You can quickly check your animation flipping it in the viewer.
 
@@ -109,7 +109,7 @@ It's also possible to create a new drawing in a cell that contains a *hold*: the
 
 Once the animation is completed you can renumber the whole sequence according to the Xsheet/Timeline frame numbering.
 
-.. note:: The level type will be the one defined in Preferences > Drawing as **Default Level Type**.
+.. note:: The level type will be the one defined in Preferences  →  Drawing as **Default Level Type**.
 
 .. tip:: **To create a new animation level**
 
@@ -123,7 +123,7 @@ Once the animation is completed you can renumber the whole sequence according to
 
     1. Select the cells with the drawings you want to renumber.
 
-    2. Choose the Cells > **Autorenumber** command.
+    2. Choose the Cells  →  **Autorenumber** command.
 
      .. note:: The **Autorenumber** command is also available in the menu that opens when right-clicking in a cell.
 
@@ -217,7 +217,7 @@ Raster drawings and images that usually are displayed in the viewer according to
 
 .. tip:: **To activate or deactivate the raster visualization for vector drawings:**
 
-    Activate or deactivate the View > **Visualize Vector As Raster** option.
+    Activate or deactivate the View  →  **Visualize Vector As Raster** option.
 
 .. tip:: **To display raster drawings and images at their actual pixel size:**
 
@@ -232,13 +232,13 @@ Raster drawings and images that usually are displayed in the viewer according to
 
 Customizing the Viewer
 ~~~~~~~~~~~~~~~~~~~~~~
-The viewer can be customized according to your needs: the background colors visible in the viewer and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View > **Inks Only** check allows to hide the painted areas of the levels facilitating the drawing process.
+The viewer can be customized according to your needs: the background colors visible in the viewer and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View  →  **Inks Only** check allows to hide the painted areas of the levels facilitating the drawing process.
 
 The set of buttons and information available in the bottom bar of the viewer can be customized as well, so that only the elements you require are visible.
 
 .. tip:: **To change the viewer background color:**
 
-    1. Open the File > Preferences > **Colors** dialog.
+    1. Open the File  →  Preferences  →  **Colors** dialog.
 
     2. Define the **Viewer BG Color** by doing one of the following:
 
@@ -248,7 +248,7 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 .. tip:: **To change the camera box background color:**
 
-    1. Open the Xsheet > **Scene Settings...** dialog.
+    1. Open the Xsheet  →  **Scene Settings...** dialog.
 
     2. Define the **Camera BG Color** by doing one of the following:
 
@@ -258,31 +258,31 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 .. tip:: **To show or hide the table:**
 
-    Choose View > **Table** to show or hide the table.
+    Choose View  →  **Table** to show or hide the table.
 
 .. tip:: **To show or hide the camera box:**
 
-    Choose View > **Camera Box** to show or hide the camera box.
+    Choose View  →  **Camera Box** to show or hide the camera box.
 
     .. note:: The camera box visualization also triggers the safe area visualization (see below).
 
 .. tip:: **To show or hide the camera background color:**
 
-    Choose View > **Camera BG Color** to show or hide the camera box background color.
+    Choose View  →  **Camera BG Color** to show or hide the camera box background color.
 
 .. tip:: **To show or hide the field guide:**
 
-    Choose View > **Field Guide** to show or hide the field guide.
+    Choose View  →  **Field Guide** to show or hide the field guide.
 
 .. tip:: **To define the displayed field guide:**
 
-    1. Open the Xsheet > **Scene Settings...** dialog.
+    1. Open the Xsheet  →  **Scene Settings...** dialog.
 
     2. Define the **Field Guide Size:** and **A/R:**. **Size** is the number of width fields of the field guide (1 field is equal to 1 inch), and the **A/R** is the ratio between the field guide width and height.
 
 .. tip:: **To show or hide the safe area:**
 
-    Choose View > **Safe Area** to show or hide the safe area.
+    Choose View  →  **Safe Area** to show or hide the safe area.
 
     .. note:: The safe area is not visible if the camera box is hidden (see above).
 
@@ -300,11 +300,11 @@ The set of buttons and information available in the bottom bar of the viewer can
 
 .. tip:: **To show or hide guides:**
 
-    Choose View > **Guides** to show or hide the guides.
+    Choose View  →  **Guides** to show or hide the guides.
 
 .. tip:: **To show or hide rulers where guide markers are located:**
 
-    Choose View > **Rulers** to show or hide the rulers.
+    Choose View  →  **Rulers** to show or hide the rulers.
 
   .. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
 
@@ -591,7 +591,7 @@ When a conversion is performed, a new level is created according to the selectio
 
     1. Select the level frames to convert in the Xsheet/Timeline.
 
-    2. Choose Level > **Convert to Vectors...**
+    2. Choose Level  →  **Convert to Vectors...**
 
     3. In the dialog set parameters for the conversion.
 
@@ -682,7 +682,7 @@ The new size can be set in any unit supported by OpenToonz, by using absolute or
 
     1. Select the Toonz Raster or Raster level you want to modify in the Xsheet/Timeline.
 
-    2. Choose Level > **Canvas Size...**, the Canvas Size dialog opens.
+    2. Choose Level  →  **Canvas Size...**, the Canvas Size dialog opens.
 
     3. In the dialog set the **Unit** to express the new size of the canvas, and set the **Width** and **Height** of the new canvas; activate the **Relative** option to define the new size by specifying only the size the canvas has to increase or decrease.
 
@@ -756,7 +756,7 @@ In the tool options bar you can set the following:
 
 - **Modify Savebox** check box allows you to resize the *Savebox* of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Toonz Raster drawings only.
 
-  .. note:: The *Savebox* size can be set automatically to the minimum size by activating the Preferences > Drawing > **Minimize Savebox after Editing** option.
+  .. note:: The *Savebox* size can be set automatically to the minimum size by activating the Preferences  →  Drawing  →  **Minimize Savebox after Editing** option.
 
 - **No Antialiasing** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Toonz Raster and Raster drawings only.
 
@@ -946,7 +946,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     2. Do one of the following:
 
-    - Choose Edit > **Group**.
+    - Choose Edit  →  **Group**.
 
     - Right-click on the selection and choose **Group** from the menu that opens.
 
@@ -956,7 +956,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     2. Do one of the following:
 
-    - Choose Edit > **Ungroup**.
+    - Choose Edit  →  **Ungroup**.
 
     - Right-click on the selection and choose **Ungroup** from the menu that opens.
 
@@ -964,7 +964,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     Do one of the following:
 
-    - Select the group, then choose Edit > **Enter Group**.
+    - Select the group, then choose Edit  →  **Enter Group**.
 
     - Right-click the group and choose **Enter Group** from the menu that opens.
 
@@ -974,7 +974,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     Do one of the following:
 
-    - Choose Edit > **Exit Group**.
+    - Choose Edit  →  **Exit Group**.
 
     - Right-click the group and choose **Exit Group** from the menu that opens.
 
@@ -1015,7 +1015,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit > **Bring to Front**.
+    - Choose Edit  →  **Bring to Front**.
 
     - Right-click on the selection and choose **Bring to Front** from the menu that opens.
 
@@ -1023,7 +1023,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit > **Bring Forward**.
+    - Choose Edit  →  **Bring Forward**.
 
     - Right-click on the selection and choose **Bring Forward** from the menu that opens.
 
@@ -1031,7 +1031,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit > **Send Back**.
+    - Choose Edit  →  **Send Back**.
 
     - Right-click on the selection and choose **Send Back** from the menu that opens.
 
@@ -1039,7 +1039,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit > **Send Backward**.
+    - Choose Edit  →  **Send Backward**.
 
     - Right-click on the selection and choose **Send Backward** from the menu that opens.
 
@@ -1115,7 +1115,7 @@ The option Auto Select Drawing is available to automatically select any vector o
 
 .. tip:: **To delete the selection:**
 
-    Choose Edit > Delete.
+    Choose Edit  →  Delete.
 
 .. tip:: **To turn a control point into a corner point:**
 
@@ -1287,7 +1287,7 @@ The best solution for this kind of issue is to overlap the final section of stro
 
     2. Do one of the following:
 
-    - Choose Edit > **Remove Vector Overflow**.
+    - Choose Edit  →  **Remove Vector Overflow**.
 
     - Right-click the selection and choose **Remove Vector Overflow** from the menu that opens.
 
@@ -1309,7 +1309,7 @@ Instead of animating a level by starting every time from a blank frame, you can 
 
 The sequence of the animation level drawings can be easily controlled in the Level Strip.
 
-You can use both the Edit > **Duplicate Drawing** command and the standard **Copy** and **Paste** commands to make a copy of a drawing that you can later modify to create slight movements.
+You can use both the Edit  →  **Duplicate Drawing** command and the standard **Copy** and **Paste** commands to make a copy of a drawing that you can later modify to create slight movements.
 
 When you use the **Duplicate Drawing** command, the selected drawing is duplicated in the following frame. If the following frame already contains a drawing, it's shifted down in order to insert the duplicated drawing in the sequence.
 
@@ -1325,9 +1325,9 @@ Once finished, you can make a copy of the modified drawing, and modify it in its
 
     3. Copy the selected drawing in the following frame by doing one of the following:
 
-    - Choose Cells > **Duplicate Drawing**.
+    - Choose Cells  →  **Duplicate Drawing**.
 
-    - Choose Edit > **Copy**, then select the following frame and choose **Paste**.
+    - Choose Edit  →  **Copy**, then select the following frame and choose **Paste**.
 
     4. Select the new drawing in the Level Strip.
 
@@ -1368,7 +1368,7 @@ If you want the interpolation to happen slower or faster, you can insert frames,
 
     1. Select the level where you want to perform interpolation.
 
-    2. In the Level Strip select the frame range, from the drawing you want to interpolate from, to the one you want to interpolate to. If you want the interpolation to last more frames, make room for more drawings with the Edit > **Insert** command.
+    2. In the Level Strip select the frame range, from the drawing you want to interpolate from, to the one you want to interpolate to. If you want the interpolation to last more frames, make room for more drawings with the Edit  →  **Insert** command.
 
     3. Click the vertical strip labeled **INBETWEEN** displayed on the right of the frame range selection.
 
@@ -1436,7 +1436,7 @@ The cell selection can also spread over several columns: in this case the same n
 
     2. Do one of the following:
 
-    - Choose Cells > **Clone**.
+    - Choose Cells  →  **Clone**.
 
     - Right-click in the selection and choose **Clone** from the menu that opens.
 
@@ -1503,7 +1503,7 @@ The way images are displayed in Onion Skin mode can be customized in the Prefere
 
 .. tip:: **To customize the way images are displayed in onion skin mode:**
 
-    1. Choose File > Preferences > **Onion Skin**.
+    1. Choose File  →  Preferences  →  **Onion Skin**.
 
     2. Do any of the following:
 
@@ -1530,13 +1530,13 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
     1. Position the frame cursor on the frame where you want to draw the inbetween drawing.
 
-    2. Enable View > **Shift and Trace**; the previous and next drawings will be visualized.
+    2. Enable View  →  **Shift and Trace**; the previous and next drawings will be visualized.
 
 .. tip:: **To Edit the Position of the reference drawings:**
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
 
-    2. Activate View > **Edit Shift**.
+    2. Activate View  →  **Edit Shift**.
 
     3. Click on the drawing you want to reposition; the related bounding box will be displayed.
 
@@ -1554,7 +1554,7 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
 
-    2. Activate View > **Edit Shift**.
+    2. Activate View  →  **Edit Shift**.
 
     3. Ctrl-click and drag to create a path, from the reference point in the first drawing, to the reference point in the second one. The starting and the ending points will be overlapped at the center of the path.
 
@@ -1566,11 +1566,11 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
 .. tip:: **To Toggle the Shift and Trace visualization:**
 
-    Activate View > **No Shift** to toggle the visualization of the reference drawings back to their original position.
+    Activate View  →  **No Shift** to toggle the visualization of the reference drawings back to their original position.
 
 .. tip:: **To Reset the position of the reference drawings:**
 
-    Choose the View > **Reset Shift** command.
+    Choose the View  →  **Reset Shift** command.
 
 .. tip:: **To Create an inbetween drawing using the Shift and Trace feature:**
 
@@ -1580,11 +1580,11 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
     3. Select the cell where you want to create the inbetween drawing.
 
-    4. Activate View > **Shift and Trace**.
+    4. Activate View  →  **Shift and Trace**.
 
     5. Sketch the path of action line beteween your reference points.
 
-    6. Activate View > **Edit Shift** and edit the position of the reference drawings.
+    6. Activate View  →  **Edit Shift** and edit the position of the reference drawings.
 
     7. Create the inbetween drawing.
 

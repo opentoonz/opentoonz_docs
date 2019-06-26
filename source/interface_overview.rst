@@ -42,7 +42,7 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 .. tip:: **To return to the set of rooms provided with Toonz:**
 
-    Choose Windows > Reset to Default Rooms.
+    Choose Windows  →  Reset to Default Rooms.
 
 
 .. _customizing_rooms:
@@ -94,7 +94,7 @@ Most of the panes can be maximized to fill the full interface, and can be added 
 
 .. tip:: **To lock/unlock the rooms configuration:**
 
-    Activate/deactivate the Windows > Lock Room Panes option.
+    Activate/deactivate the Windows  →  Lock Room Panes option.
 
 
 .. _room_panes:
@@ -441,11 +441,11 @@ The Command Bar pane can be docked in any part of the OpenToonz UI.
 
 .. tip:: **To display the Command Bar:**
 
-    - Choose Windows > Command Bar.
+    - Choose Windows  →  Command Bar.
 
 .. tip:: **To customize the Command Bar buttons:**
 
-    1. Choose Windows > Command Bar to open the Command Bar.
+    1. Choose Windows  →  Command Bar to open the Command Bar.
 
     2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar window will open.
 
@@ -572,7 +572,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To choose the interface language:**
 
-    1. Choose File > Preferences > Interface.
+    1. Choose File  →  Preferences  →  Interface.
 
     2. In the Language* option menu choose the language you want to use in the interface.
 
@@ -580,7 +580,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To choose the interface theme:**
 
-    1. Choose File > Preferences > Interface.
+    1. Choose File  →  Preferences  →  Interface.
 
     2. In the Theme option menu choose the style to be applied to the interface.
 

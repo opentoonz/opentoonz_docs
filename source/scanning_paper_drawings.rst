@@ -41,7 +41,7 @@ The driver you want to use must be selected according to your scanner before sta
 
 .. tip:: **Windows only - to disable or enable the Windows Image Acquisition (WIA) service:**
 
-    1. Open the Control Panel > Administrative Tools > Services dialog.
+    1. Open the Control Panel  →  Administrative Tools  →  Services dialog.
 
     2. Right-click the Windows Image Acquisition (WIA) service and choose Properties from the menu that opens.
 
@@ -59,13 +59,13 @@ The driver you want to use must be selected according to your scanner before sta
 
 .. tip:: **To define the scanner:**
 
-    1. Choose Scan & Cleanup > Define Scanner.
+    1. Choose Scan & Cleanup  →  Define Scanner.
 
     2. Do one of the following:
 
-    - If your scanner is directly supported, choose Scanner Driver > Internal, and click the OK button.
+    - If your scanner is directly supported, choose Scanner Driver  →  Internal, and click the OK button.
 
-    - If your scanner is not directly supported, be sure that TWAIN drivers are installed, and choose Scanner Driver > TWAIN, and click the OK button: in the dialog that opens, select the TWAIN driver related to your scanner.
+    - If your scanner is not directly supported, be sure that TWAIN drivers are installed, and choose Scanner Driver  →  TWAIN, and click the OK button: in the dialog that opens, select the TWAIN driver related to your scanner.
 
 
 .. _scanning_modes:
@@ -144,9 +144,9 @@ When an animation level is defined, the name and numbers for the drawings of the
 
     1. Do one of the following:
 
-    - Select a cell in the Xsheet where you want to place your animation level to scan and choose File > New Level.
+    - Select a cell in the Xsheet where you want to place your animation level to scan and choose File  →  New Level.
 
-    - Right-click the cell in the Xsheet where you want to place your animation level to scan and choose File > New Level from the menu that opens.
+    - Right-click the cell in the Xsheet where you want to place your animation level to scan and choose File  →  New Level from the menu that opens.
 
 .. note:: If any level is already exposed in the cell column, it will shift down from the cell you selected on.
 
@@ -199,13 +199,13 @@ If you need to scan again an animation level, or a part of it, select the releva
 
     1. In the Xsheet, select the drawings you want to scan. 
 
-    2. Choose Scan & Cleanup > Scan Settings and use the dialog to control scan options. 
+    2. Choose Scan & Cleanup  →  Scan Settings and use the dialog to control scan options. 
 
     3. Do one of the following:
 
-    - If you are using the internal drivers, choose Scan & Cleanup > Scan: the selected drawings will be scanned and automatically saved.
+    - If you are using the internal drivers, choose Scan & Cleanup  →  Scan: the selected drawings will be scanned and automatically saved.
 
-    - If you are using the TWAIN drivers, choose Scan & Cleanup > Scan, and guide the scanning process by using the TWAIN interface that opens: the selected drawings will be scanned and automatically saved.
+    - If you are using the TWAIN drivers, choose Scan & Cleanup  →  Scan, and guide the scanning process by using the TWAIN interface that opens: the selected drawings will be scanned and automatically saved.
 
     4. In case you selected several drawings, do one of the following:
 
@@ -228,7 +228,7 @@ Once defined the cropbox will be used for any scanning performed for the scene.
 
 .. tip:: **To define the scanning cropbox:**
 
-    1. Choose Scan & Cleanup > Set Cropbox: the drawing currently placed in the scanner is scanned and the cropbox is displayed in red. 
+    1. Choose Scan & Cleanup  →  Set Cropbox: the drawing currently placed in the scanner is scanned and the cropbox is displayed in red. 
 
     2. Use the handles along the cropbox to set its size, and click and drag anywhere to change its position.
 
@@ -242,11 +242,11 @@ Once defined the cropbox will be used for any scanning performed for the scene.
 
 .. tip:: **To dismiss the scanning cropbox visualization:**
 
-    Choose Scan & Cleanup > Set Cropbox.
+    Choose Scan & Cleanup  →  Set Cropbox.
 
 .. tip:: **To reset the scanning cropbox:**
 
-    Choose Scan & Cleanup > Reset Cropbox.
+    Choose Scan & Cleanup  →  Reset Cropbox.
 
 
 

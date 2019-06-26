@@ -56,7 +56,7 @@ Since the Toonz Farm Controller needs to access the FARMROOT folder, typically s
 
 .. tip:: **To run the Toonz Farm Controller as a user with the proper rights:**
 
-    1. Choose Control Panel > Administrative Tools > Services, and right-click the Toonz Farm Controller service to open the Properties panel.
+    1. Choose Control Panel  →  Administrative Tools  →  Services, and right-click the Toonz Farm Controller service to open the Properties panel.
 
     2. Select the Log On page, check the This Account option.
 
@@ -77,7 +77,7 @@ Since the Toonz Farm Server, for rendering purposes, needs to access one or more
 
 .. tip:: **To run the Toonz Farm Controller as an user with the proper rights:**
 
-    1. Choose Control Panel > Administrative Tools > Services, and right-click the Toonz Farm Server service to open the Properties panel.
+    1. Choose Control Panel  →  Administrative Tools  →  Services, and right-click the Toonz Farm Server service to open the Properties panel.
 
     2. Select the Log On page, check the This Account option.
 

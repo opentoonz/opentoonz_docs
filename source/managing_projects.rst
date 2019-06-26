@@ -95,7 +95,7 @@ If you want a new scene to be part of a new project, first you have to define a 
 
 .. tip:: **To create a new project:**
 
-    1. Choose File > New Project. 
+    1. Choose File  →  New Project. 
 
     2. Select the projectroot or repository (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ), and the project or folder where you want to create the new project.
 
@@ -111,11 +111,11 @@ If you want a new scene to be part of a new project, first you have to define a 
 
     1. Set the project as the current one.
 
-    2. Choose File > New Scene.
+    2. Choose File  →  New Scene.
 
 .. tip:: **To change project default folders:**
 
-    Select File > Project Settings and change default folders paths.
+    Select File  →  Project Settings and change default folders paths.
 
 .. note:: When changing default folders, scenes previously created in the same project may fail retrieving used files.
 
