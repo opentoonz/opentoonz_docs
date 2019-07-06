@@ -6,18 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 22:21+0800\n"
+"POT-Creation-Date: 2019-06-26 11:54+0800\n"
 "PO-Revision-Date: 2019-06-21 11:21+0800\n"
 "Last-Translator: user <surkow.aleksandr@gmail.com>\n"
 "Language: ru_RU\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/setting_up_a_scene.rst:4
 msgid "Setting Up a Scene"
@@ -82,8 +81,9 @@ msgstr ""
 "умолчанию:**"
 
 #: ../../source/setting_up_a_scene.rst:20
+#, fuzzy
 msgid ""
-"Select File > Save Default Settings: all the settings from the current "
+"Select File  →  Save Default Settings: all the settings from the current "
 "scene will become the project default."
 msgstr ""
 "Выберите Файл > Сохранить настройки по умолчанию: все настройки текущей "
@@ -118,9 +118,10 @@ msgstr ""
 "вертикальное поле равно дюйму, деленному на 1,77778."
 
 #: ../../source/setting_up_a_scene.rst:31
+#, fuzzy
 msgid ""
-"In the Files > Preferences > Interface dialog you can set the following "
-"default units:"
+"In the Files  →  Preferences  →  Interface dialog you can set the "
+"following default units:"
 msgstr ""
 "В диалоговом окне «Файлы» > «Настройки программы» > «Интерфейс» вы можете"
 " установить следующие единицы измерения по умолчанию:"
@@ -134,10 +135,11 @@ msgstr ""
 "применяется при перемещении или изменении размера объектов сцены."
 
 #: ../../source/setting_up_a_scene.rst:35
+#, fuzzy
 msgid ""
 "The Camera Unit is used to display and define the camera size in the "
-"Xsheet > Camera Settings... dialog (see  :ref:`Defining Camera Settings "
-"<defining_camera_settings>`  )."
+"Xsheet  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings"
+" <defining_camera_settings>`  )."
 msgstr ""
 "Блок камеры используется для отображения и определения размера камеры в "
 "диалоговом окне Xsheet > Настройки камеры (см. :ref:`Определение настроек"
@@ -170,7 +172,8 @@ msgid "**To set the default working units:**"
 msgstr "**Чтобы установить рабочие единицы по умолчанию:**"
 
 #: ../../source/setting_up_a_scene.rst:43
-msgid "Choose File > Preferences > Interface."
+#, fuzzy
+msgid "Choose File  →  Preferences  →  Interface."
 msgstr "Выберите «Файл» > «Настройки программы»> «Интерфейс»."
 
 #: ../../source/setting_up_a_scene.rst:45
@@ -235,11 +238,12 @@ msgstr ""
 "<creating_a_soundtrack>`)."
 
 #: ../../source/setting_up_a_scene.rst:64
+#, fuzzy
 msgid ""
 "Even if a scene has been composited with a specific frame rate for a "
 "certain output, it is possible to render it out at a different frame rate"
-" by using the Stretch from FPS: To: option in the Output Settings > Other"
-" Settings dialog (see  :ref:`Choosing the Output Settings "
+" by using the Stretch from FPS: To: option in the Output Settings  →  "
+"Other Settings dialog (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
 "Даже если сцена была составлена ​​с определенной частотой кадров для "
@@ -257,7 +261,8 @@ msgid "**To set the frame rate:**"
 msgstr "**Чтобы установить частоту кадров:**"
 
 #: ../../source/setting_up_a_scene.rst:71
-msgid "Choose Xsheet > Scene Settings..."
+#, fuzzy
+msgid "Choose Xsheet  →  Scene Settings..."
 msgstr "Выберите Xsheet > Настройки сцены..."
 
 #: ../../source/setting_up_a_scene.rst:73
@@ -294,13 +299,13 @@ msgstr ""
 " :ref:`Использование схемы сцены <using_the_stage_schematic>`)."
 
 #: ../../source/setting_up_a_scene.rst:86
+#, fuzzy
 msgid ""
 "The camera frame size can be expressed in any unit, but will be "
-"visualized in the default one chosen in the Preferences > Interface "
+"visualized in the default one chosen in the Preferences  →  Interface "
 "dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`"
 "  )."
 msgstr ""
-""
 "Размер камеры может быть выражен в любой единице, но будет отображаться в"
 " стандартной по умолчанию, выбранной в диалоговом окне Настройки "
 "программы > Интерфейс (см. :ref:`Выбор рабочей единицы "
@@ -315,7 +320,6 @@ msgid ""
 "X (Width) and Y (Height) frame size of the camera, expressed in the "
 "default Camera Unit (usually inches)."
 msgstr ""
-""
 "Размер камеры X (ширина) и Y (высота), выраженный в Единицах камеры по "
 "умолчанию (обычно в дюймах)."
 
@@ -326,11 +330,8 @@ msgstr ""
 "ширины/высоты."
 
 #: ../../source/setting_up_a_scene.rst:94
-msgid ""
-"X and Y resolution Pixels of the resulting image frame seen by the camera."
-msgstr ""
-""
-"Разрешение X и Y Пиксели полученного изображения, видимого камерой."
+msgid "X and Y resolution Pixels of the resulting image frame seen by the camera."
+msgstr "Разрешение X и Y Пиксели полученного изображения, видимого камерой."
 
 #: ../../source/setting_up_a_scene.rst:96
 msgid ""
@@ -400,15 +401,11 @@ msgstr "Установите разрешение и A/R для камеры, к
 
 #: ../../source/setting_up_a_scene.rst:110
 msgid "Click the **Add** button on the right of the preset cameras list."
-msgstr ""
-""
-"Нажмите кнопку «Добавить» справа от списка предустановленных камер."
+msgstr "Нажмите кнопку «Добавить» справа от списка предустановленных камер."
 
 #: ../../source/setting_up_a_scene.rst:112
 msgid "Assign a name to the camera resolution and click the **OK** button."
-msgstr ""
-""
-"Присвойте имя разрешению камеры и нажмите кнопку ОК."
+msgstr "Присвойте имя разрешению камеры и нажмите кнопку ОК."
 
 #: ../../source/setting_up_a_scene.rst:114
 msgid "**To remove a preset camera resolution:**"
@@ -424,18 +421,17 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:118
 msgid "Click the **Remove** button on the right of the preset cameras list."
-msgstr ""
-""
-"Нажмите кнопку «Удалить» справа от списка предустановленных камер."
+msgstr "Нажмите кнопку «Удалить» справа от списка предустановленных камер."
 
 #: ../../source/setting_up_a_scene.rst:124
 msgid "Assigning Memory for the Undo Operations"
 msgstr "Назначение памяти для операций отмены"
 
 #: ../../source/setting_up_a_scene.rst:125
+#, fuzzy
 msgid ""
 "All the operations performed in the software can be undone by using the "
-"Edit > Undo command, even to go back for several steps."
+"Edit  →  Undo command, even to go back for several steps."
 msgstr ""
 "Все операции, выполняемые в программном обеспечении, можно отменить с "
 "помощью команды «Правка»> «Отменить», даже чтобы вернуться на несколько "
@@ -452,11 +448,12 @@ msgstr ""
 "сложности."
 
 #: ../../source/setting_up_a_scene.rst:129
+#, fuzzy
 msgid ""
 "To prevent most of the computer memory to be used by undo operations "
 "while you work, a situation that slows down the software performance, it "
 "is possible to set a limit for it by specifying the Undo Memory Size (MB)"
-" in the Files > Preferences > General dialog."
+" in the Files  →  Preferences  →  General dialog."
 msgstr ""
 "Чтобы предотвратить использование большей части памяти компьютера "
 "операциями отмены во время работы, что может привести к снижению "
@@ -488,11 +485,12 @@ msgstr ""
 "процессов очистки, рисования и рендера."
 
 #: ../../source/setting_up_a_scene.rst:140
+#, fuzzy
 msgid ""
 "After a certain amount of time the computer performance may worsen, as "
 "the memory gets fragmented because of the several writing and reading "
 "accesses. To prevent this behavior, the Minimize Raster Memory "
-"Fragmentation* option can be activated in the Files > Preferences > "
+"Fragmentation* option can be activated in the Files  →  Preferences  →  "
 "General dialog. When activated, a section of computer memory is reserved "
 "and used only for operations concerning Raster images."
 msgstr ""
@@ -515,8 +513,7 @@ msgstr ""
 "использоваться компьютером."
 
 #: ../../source/setting_up_a_scene.rst:144
-msgid ""
-"The change set for this option is valid only after OpenToonz is restarted."
+msgid "The change set for this option is valid only after OpenToonz is restarted."
 msgstr ""
 "Набор изменений для этой опции действителен только после перезапуска "
 "OpenToonz."
