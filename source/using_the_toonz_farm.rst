@@ -10,15 +10,15 @@ When tasks are executed, they are automatically assigned to the computers belong
 
 The Toonz Farm is composed by the following:
 
-- Controller node: is the computer that dispatches the tasks to server (rendering) nodes. This computer runs the controller program, named ``tfarmcontroller.exe``  on Windows and ``tfarmcontrollerd``  on Macintosh. One controller node is needed for defining a farm. 
+- **Controller node**: is the computer that dispatches the tasks to server (rendering) nodes. This computer runs the controller program, named ``tfarmcontroller.exe``  on Windows and ``tfarmcontrollerd``  on Macintosh. One controller node is needed for defining a farm. 
 
-.. note:: The controller node can also be used as a server (rendering) node.
+ .. note:: The controller node can also be used as a server (rendering) node.
 
-- Server (rendering) nodes: are the computers that execute tasks dispatched by the controller. Each of these computers runs a server program, named ``tfarmserver.exe``  on Windows and ``tfarmserverd``  on Macintosh, that is in charge of running tasks, notifying the controller when a task has been completed, etc. 
+- **Server (rendering) nodes**: are the computers that execute tasks dispatched by the controller. Each of these computers runs a server program, named ``tfarmserver.exe``  on Windows and ``tfarmserverd``  on Macintosh, that is in charge of running tasks, notifying the controller when a task has been completed, etc. 
 
-- Root folder named FARMROOT: is a shared folder where a number of configuration files are stored. The controller node and all the rendering nodes must be able to access this shared folder (see  :ref:`Configuring the Toonz Farm <configuring_the_toonz_farm>`  ).
+- **Root folder** named FARMROOT: is a shared folder where a number of configuration files are stored. The controller node and all the rendering nodes must be able to access this shared folder (see  :ref:`Configuring the Toonz Farm <configuring_the_toonz_farm>`  ).
 
-- Client program: is the program run by the user to queue new tasks and to monitor the Toonz Farm. OpenToonz itself is the client program of the Toonz Farm, and can be run on any computer on the network, not necessarily on a controller node or a sever (rendering) node. 
+- **Client program**: is the program run by the user to queue new tasks and to monitor the Toonz Farm. OpenToonz itself is the client program of the Toonz Farm, and can be run on any computer on the network, not necessarily on a controller node or a sever (rendering) node. 
 
 .. note:: In order to render the scenes successfully all the computers involved in the Toonz Farm, controller, servers and clients have to share the same projectroot folders (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
@@ -37,9 +37,9 @@ During the installation of any of the components you must specify the full-path 
 
 The drive where the FARMROOT folder is located has to be shared on the network, giving full control to any user by setting the right permissions.
 
-When you choose to install the Farm Controller component, the installation program will create for the controller program a Windows Service, named Toonz Farm Controller.
+When you choose to install the Farm Controller component, the installation program will create for the controller program a Windows Service, named **Toonz Farm Controller**.
 
-When you choose to install the Farm Server component, the installation program will create for the server program a Windows Service, named Toonz Farm Server.
+When you choose to install the Farm Server component, the installation program will create for the server program a Windows Service, named **Toonz Farm Server**.
 
 .. note:: As the Toonz Farm requires exchanges of data between computers in the network by using TCP/IP protocol, any firewall system that may block access on computer ports has to be disabled.
 
@@ -48,42 +48,42 @@ When you choose to install the Farm Server component, the installation program w
 
 Setting the Controller Node
 '''''''''''''''''''''''''''
-On the controller node the controller component is installed as a Windows service, named Toonz Farm Controller. By default a Windows Service runs under the security credentials of the Local System account. By default this account is not granted the right to access folders shared by remote hosts.
+On the controller node the controller component is installed as a Windows service, named **Toonz Farm Controller**. By default a Windows Service runs under the security credentials of the Local System account. By default this account is not granted the right to access folders shared by remote hosts.
 
-Since the Toonz Farm Controller needs to access the FARMROOT folder, typically shared by a remote host, please run this service as a user with the proper rights. 
+Since the **Toonz Farm Controller** needs to access the FARMROOT folder, typically shared by a remote host, please run this service as a user with the proper rights. 
 
 .. note:: It is possible to start the service from a DOS shell by navigating to the folder where the binaries of OpenToonz are installed, and then using the following command line:``tfarmcontroller -console`` 
 
 .. tip:: **To run the Toonz Farm Controller as a user with the proper rights:**
 
-    1. Choose Control Panel  →  Administrative Tools  →  Services, and right-click the Toonz Farm Controller service to open the Properties panel.
+    1. Choose Control Panel  →  Administrative Tools  →  Services, and right-click the **Toonz Farm Controller** service to open the Properties panel.
 
-    2. Select the Log On page, check the This Account option.
+    2. Select the Log On page, check the **This Account:** option.
 
     3. Choose the network where the Toonz Farm is going to work and set an account that has administrator rights on that network. Insert and confirm the related password.
 
-    4. Click the OK button.
+    4. Click the **OK** button.
 
 
 .. _setting_the_server_nodes:
 
 Setting the Server Nodes
 ''''''''''''''''''''''''
-On the server (rendering) nodes, the server component is installed as a Windows service, named Toonz Farm Server. By default a Windows Service runs under the security credentials of the Local System account. By default this account is not granted the right to access folders shared by remote hosts.
+On the server (rendering) nodes, the server component is installed as a Windows service, named **Toonz Farm Server**. By default a Windows Service runs under the security credentials of the Local System account. By default this account is not granted the right to access folders shared by remote hosts.
 
-Since the Toonz Farm Server, for rendering purposes, needs to access one or more folders shared by remote hosts, please run this service as an user with the proper rights. 
+Since the **Toonz Farm Server**, for rendering purposes, needs to access one or more folders shared by remote hosts, please run this service as an user with the proper rights. 
 
 .. note:: It is possible to start the service from a DOS shell by navigating to the folder where the binaries of OpenToonz are installed, and then using the following command line:``tfarmserver -console`` 
 
 .. tip:: **To run the Toonz Farm Controller as an user with the proper rights:**
 
-    1. Choose Control Panel  →  Administrative Tools  →  Services, and right-click the Toonz Farm Server service to open the Properties panel.
+    1. Choose Control Panel  →  Administrative Tools  →  Services, and right-click the **Toonz Farm Server** service to open the Properties panel.
 
-    2. Select the Log On page, check the This Account option.
+    2. Select the Log On page, check the **This Account:** option.
 
     3. Choose the network where the Toonz Farm is going to work and set an account that has administrator rights on that network. Insert and confirm the related password.
 
-    4. Click the OK button.
+    4. Click the **OK** button.
 
 
 .. _installing_the_toonz_farm_on_macintosh:
@@ -173,28 +173,10 @@ For each sever (rendering) node you must specify the following:
 
 The above information must be separated by a single space. Here is an example of a ``servers.txt``  file:
 
-
-
 ::
-
     render1 10.10.0.166 8002
-
-
-
-::
-
     render2 10.10.0.195 8002
-
-
-
-::
-
     render3 10.10.0.111 8002
-
-
-
-::
-
     render4 10.10.0.180 8002
 
 In the above example, ``render1``  is a server node whose IP address is ``10.10.0.166``  and the server program runs on the ``8002``  port; ``render2``  is a server node whose IP address is ``10.10.0.195``  and the server program runs on the ``8002``  port; etc.
@@ -212,9 +194,9 @@ If the computer where you run OpenToonz is a controller or a server (rendering) 
 
 If the computer is neither a controller nor a server (rendering) node for the Toonz Farm, the FARMROOT has to be defined.
 
-.. tip:: **To define the FARMROOT in Toonz:**
+.. tip:: **To define the FARMROOT in OpenToonz:**
 
-    1. Run OpenToonz and go to the Farm room.
+    1. Run OpenToonz and go to the **Farm** room.
 
     2. In the Batch Servers pane, set the **Process with:** option menu to **Render Farm**.
 
@@ -225,7 +207,7 @@ If the computer is neither a controller nor a server (rendering) node for the To
 
 Using the Toonz Farm
 --------------------
-In OpenToonz you can find the Farm room that allows you to monitor the farm processes. This room contains two main windows: the Tasks window and the Batch Servers window.
+In OpenToonz you can find the **Farm** room that allows you to monitor the farm processes. This room contains two main windows: the Tasks window and the Batch Servers window.
 
 The render farm can be monitored by using both the Tasks pane, where the list of tasks can be managed and executed, and the Servers pane, where the computers executing the tasks can be managed.
 
@@ -281,11 +263,11 @@ The LOG files are saved in the ``OpenToonz stuff\toonzfarm``  folder of the comp
 
 The LOG files that may be generated by the Toonz Farm processing are the following:
 
-- server.log logs all the operations concerning the server computer activity. 
+- **server.log** logs all the operations concerning the server computer activity. 
 
-- controller.log logs all the operations concerning the controller computer activity. 
+- **controller.log** logs all the operations concerning the controller computer activity. 
 
-- tcomposer.log logs all the operations concerning the render activity performed by the server computers. 
+- **tcomposer.log** logs all the operations concerning the render activity performed by the server computers. 
 
-- tcleanup.log logs all the operations concerning the cleanup activity performed by the server computers. 
+- **tcleanup.log** logs all the operations concerning the cleanup activity performed by the server computers. 
 
