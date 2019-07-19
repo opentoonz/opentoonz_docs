@@ -637,7 +637,7 @@ Following there are some examples of scripting code:
 
 Outline vectorization
 '''''''''''''''''''''
-This brief script is an example of using the OutlineVectorizer on a single image. The script is commented, explaining what each section does:
+This brief script is an example of using the OutlineVectorizer on a single image. The script is commented, explaining what each section does::
 
 	//Define the input and output folders::
 
