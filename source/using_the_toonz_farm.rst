@@ -6,7 +6,7 @@ The Toonz Farm allows you to process OpenToonz scenes submitted as cleanup tasks
 
 When tasks are executed, they are automatically assigned to the computers belonging to the farm in order to balance the workload. When all computers are busy, remaining tasks are not assigned until a machine is ready to process them. 
 
-.. note:: If you have divided a render task into chunks, each chunk will be assigned to a different computer of the farm, thus speeding up the rendering of a single render task (see  :ref:`Using Chunks when Rendering Tasks <using_chunks_when_rendering_tasks>`  ).
+.. note:: If you have divided a render task into *chunks*, each chunk will be assigned to a different computer of the farm, thus speeding up the rendering of a single render task (see  :ref:`Using Chunks when Rendering Tasks <using_chunks_when_rendering_tasks>`  ).
 
 The Toonz Farm is composed by the following:
 
