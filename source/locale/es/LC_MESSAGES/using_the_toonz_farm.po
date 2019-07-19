@@ -7,19 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-07-18 19:24-0300\n"
+"POT-Creation-Date: 2019-07-19 01:09-0300\n"
+"PO-Revision-Date: 2019-07-19 01:14-0300\n"
+"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"Language: es\n"
+"Language-Team: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language-Team: Español\n"
-"Language: es\n"
 "X-Generator: Poedit 2.2.3\n"
 
 #: ../../source/using_the_toonz_farm.rst:4
-#: ../../source/using_the_toonz_farm.rst:227
+#: ../../source/using_the_toonz_farm.rst:209
 msgid "Using the Toonz Farm"
 msgstr "Uso de Toonz Farm"
 
@@ -51,14 +52,14 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:9
 msgid ""
-"If you have divided a render task into chunks, each chunk will be assigned to a "
-"different computer of the farm, thus speeding up the rendering of a single "
+"If you have divided a render task into *chunks*, each chunk will be assigned to "
+"a different computer of the farm, thus speeding up the rendering of a single "
 "render task (see  :ref:`Using Chunks when Rendering Tasks "
 "<using_chunks_when_rendering_tasks>`  )."
 msgstr ""
-"Si se hubiera dividido una tarea de procesamiento en bloques, cada bloque será "
-"asignado a una computadora distinta de la red, agilizando así el procesamiento "
-"de la misma (ver  :ref:`Uso de bloques en tareas de procesamiento "
+"Si se hubiera dividido una tarea de procesamiento en *bloques*, cada bloque "
+"será asignado a una computadora distinta de la red, agilizando así el "
+"procesamiento de la misma (ver  :ref:`Uso de bloques en tareas de procesamiento "
 "<using_chunks_when_rendering_tasks>`  )."
 
 #: ../../source/using_the_toonz_farm.rst:11
@@ -67,12 +68,12 @@ msgstr "Toonz Farm está compuesto por lo siguiente:"
 
 #: ../../source/using_the_toonz_farm.rst:13
 msgid ""
-"Controller node: is the computer that dispatches the tasks to server "
+"**Controller node**: is the computer that dispatches the tasks to server "
 "(rendering) nodes. This computer runs the controller program, named "
 "``tfarmcontroller.exe``  on Windows and ``tfarmcontrollerd``  on Macintosh. One "
 "controller node is needed for defining a farm."
 msgstr ""
-"Nodo **controlador**: es la computadora que envía las tareas a los nodos "
+"**Nodo controlador**: es la computadora que envía las tareas a los nodos "
 "servidores (procesadores). Esta computadora debe tener corriendo el programa "
 "controlador, llamado ``tfarmcontroller.exe``  en Windows o "
 "``tfarmcontrollerd``  en macOS. Es necesario contar con un nodo controlador "
@@ -85,13 +86,13 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:17
 msgid ""
-"Server (rendering) nodes: are the computers that execute tasks dispatched by "
-"the controller. Each of these computers runs a server program, named "
+"**Server (rendering) nodes**: are the computers that execute tasks dispatched "
+"by the controller. Each of these computers runs a server program, named "
 "``tfarmserver.exe``  on Windows and ``tfarmserverd``  on Macintosh, that is in "
 "charge of running tasks, notifying the controller when a task has been "
 "completed, etc."
 msgstr ""
-"Nodos **servidores** (procesadores): son computadoras que procesan las tareas "
+"**Nodos servidores (procesadores)**: son computadoras que procesan las tareas "
 "enviadas por el nodo controlador. Cada una de estas computadoras debe tener "
 "corriendo un programa servidor, llamado ``tfarmserver.exe``  en Windows o "
 "``tfarmserverd``  en macOS, que se encarga de ejecutar las tareas, notificando "
@@ -99,24 +100,24 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:19
 msgid ""
-"Root folder named FARMROOT: is a shared folder where a number of configuration "
-"files are stored. The controller node and all the rendering nodes must be able "
-"to access this shared folder (see  :ref:`Configuring the Toonz Farm "
-"<configuring_the_toonz_farm>`  )."
+"**Root folder** named FARMROOT: is a shared folder where a number of "
+"configuration files are stored. The controller node and all the rendering nodes "
+"must be able to access this shared folder (see  :ref:`Configuring the Toonz "
+"Farm <configuring_the_toonz_farm>`  )."
 msgstr ""
-"Carpeta principal, llamada FARMROOT: es una carpeta compartida donde se "
+"**Carpeta principal** llamada FARMROOT: es una carpeta compartida donde se "
 "almacena una serie de archivos de configuración. El nodo controlador y todos "
 "los nodos procesadores deben poder acceder a esta carpeta compartida (ver  :ref:"
 "`Configuración de Toonz Farm <configuring_the_toonz_farm>`  )."
 
 #: ../../source/using_the_toonz_farm.rst:21
 msgid ""
-"Client program: is the program run by the user to queue new tasks and to "
+"**Client program**: is the program run by the user to queue new tasks and to "
 "monitor the Toonz Farm. OpenToonz itself is the client program of the Toonz "
 "Farm, and can be run on any computer on the network, not necessarily on a "
 "controller node or a sever (rendering) node."
 msgstr ""
-"Programa **cliente**: es el programa ejecutado por el usuario para agregar "
+"**Programa cliente**: es el programa ejecutado por el usuario para agregar "
 "nuevas tareas a la lista, así como para monitorear la granja de Toonz Farm. El "
 "propio OpenToonz es el programa cliente de Toonz Farm, y puede ser ejecutado en "
 "cualquier computadora de la red (que no tiene por qué necesariamente ser un "
@@ -184,8 +185,8 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:40
 msgid ""
 "When you choose to install the Farm Controller component, the installation "
-"program will create for the controller program a Windows Service, named Toonz "
-"Farm Controller."
+"program will create for the controller program a Windows Service, named **Toonz "
+"Farm Controller**."
 msgstr ""
 "Cuando se elige instalar el componente del Controlador, la instalación creará "
 "un Servicio de Windows para el programa controlador, llamado **Toonz Farm "
@@ -194,7 +195,8 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:42
 msgid ""
 "When you choose to install the Farm Server component, the installation program "
-"will create for the server program a Windows Service, named Toonz Farm Server."
+"will create for the server program a Windows Service, named **Toonz Farm "
+"Server**."
 msgstr ""
 "Al elegir instalar el componente del Servidor, el programa de instalación "
 "creará un programa Servicio de Windows, llamado **Toonz Farm Server**."
@@ -217,9 +219,9 @@ msgstr "Configuración del nodo Controlador"
 #: ../../source/using_the_toonz_farm.rst:51
 msgid ""
 "On the controller node the controller component is installed as a Windows "
-"service, named Toonz Farm Controller. By default a Windows Service runs under "
-"the security credentials of the Local System account. By default this account "
-"is not granted the right to access folders shared by remote hosts."
+"service, named **Toonz Farm Controller**. By default a Windows Service runs "
+"under the security credentials of the Local System account. By default this "
+"account is not granted the right to access folders shared by remote hosts."
 msgstr ""
 "En el nodo controlador el componente controlador es instalado como un servicio "
 "de Windows, llamado **Toonz Farm Controller**. De forma predefinida un Servicio "
@@ -229,9 +231,9 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:53
 msgid ""
-"Since the Toonz Farm Controller needs to access the FARMROOT folder, typically "
-"shared by a remote host, please run this service as a user with the proper "
-"rights."
+"Since the **Toonz Farm Controller** needs to access the FARMROOT folder, "
+"typically shared by a remote host, please run this service as a user with the "
+"proper rights."
 msgstr ""
 "Como el servicio **Toonz Farm Controller** necesita acceder a la carpeta "
 "principal FARMROOT, usualmente compartida desde un servidor remoto, es "
@@ -256,7 +258,7 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:59
 msgid ""
 "Choose Control Panel  →  Administrative Tools  →  Services, and right-click the "
-"Toonz Farm Controller service to open the Properties panel."
+"**Toonz Farm Controller** service to open the Properties panel."
 msgstr ""
 "Elegir Panel de control → Sistema y seguridad → Herramientas administrativas → "
 "Servicios, y hacer clic derecho sobre el servicio **Toonz Farm Controller** "
@@ -264,7 +266,7 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:61
 #: ../../source/using_the_toonz_farm.rst:82
-msgid "Select the Log On page, check the This Account option."
+msgid "Select the Log On page, check the **This Account:** option."
 msgstr "Seleccionar la solapa Iniciar sesión, marcar la opción **Esta cuenta:**."
 
 #: ../../source/using_the_toonz_farm.rst:63
@@ -280,7 +282,8 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:65
 #: ../../source/using_the_toonz_farm.rst:86
-msgid "Click the OK button."
+#: ../../source/using_the_toonz_farm.rst:205
+msgid "Click the **OK** button."
 msgstr "Hacer clic en el botón **Aceptar**."
 
 #: ../../source/using_the_toonz_farm.rst:71
@@ -290,9 +293,9 @@ msgstr "Configuración de los nodos Servidores"
 #: ../../source/using_the_toonz_farm.rst:72
 msgid ""
 "On the server (rendering) nodes, the server component is installed as a Windows "
-"service, named Toonz Farm Server. By default a Windows Service runs under the "
-"security credentials of the Local System account. By default this account is "
-"not granted the right to access folders shared by remote hosts."
+"service, named **Toonz Farm Server**. By default a Windows Service runs under "
+"the security credentials of the Local System account. By default this account "
+"is not granted the right to access folders shared by remote hosts."
 msgstr ""
 "En los nodos servidores el componente servidor es instalado como un servicio de "
 "Windows, llamado **Toonz Farm Server**. De forma predefinida un Servicio de "
@@ -302,7 +305,7 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:74
 msgid ""
-"Since the Toonz Farm Server, for rendering purposes, needs to access one or "
+"Since the **Toonz Farm Server**, for rendering purposes, needs to access one or "
 "more folders shared by remote hosts, please run this service as an user with "
 "the proper rights."
 msgstr ""
@@ -329,7 +332,7 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:80
 msgid ""
 "Choose Control Panel  →  Administrative Tools  →  Services, and right-click the "
-"Toonz Farm Server service to open the Properties panel."
+"**Toonz Farm Server** service to open the Properties panel."
 msgstr ""
 "Elegir Panel de control → Sistema y seguridad → Herramientas administrativas → "
 "Servicios, y hacer clic derecho sobre el servicio **Toonz Farm Server** para "
@@ -564,12 +567,12 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:174
 msgid ""
 "The above information must be separated by a single space. Here is an example "
-"of a ``servers.txt``  file:"
+"of a ``servers.txt``  file::"
 msgstr ""
 "Los datos arriba mencionados deben estar separados entre ellos por un único "
-"espacio. Debajo se muestra un ejemplo de archivo ``servers.txt`` :"
+"espacio. Debajo se muestra un ejemplo de archivo ``servers.txt`` ::"
 
-#: ../../source/using_the_toonz_farm.rst:200
+#: ../../source/using_the_toonz_farm.rst:182
 msgid ""
 "In the above example, ``render1``  is a server node whose IP address is "
 "``10.10.0.166``  and the server program runs on the ``8002``  port; "
@@ -581,7 +584,7 @@ msgstr ""
 "``render2``  es un nodo servidor, su dirección IP es ``10.10.0.195``  y el "
 "programa servidor usará el puerto ``8002``  ; etc."
 
-#: ../../source/using_the_toonz_farm.rst:202
+#: ../../source/using_the_toonz_farm.rst:184
 msgid ""
 "If you want to add or remove a server (rendering) node from the ``servers."
 "txt``  file, you have to restart the controller node in order to make the "
@@ -591,11 +594,11 @@ msgstr ""
 "``servers.txt``  , será necesario reiniciar el nodo controlador para hacer "
 "efectivos los cambios."
 
-#: ../../source/using_the_toonz_farm.rst:208
+#: ../../source/using_the_toonz_farm.rst:190
 msgid "Defining the Toonz Farm in OpenToonz"
 msgstr "Definición de la granja de Toonz Farm en OpenToonz"
 
-#: ../../source/using_the_toonz_farm.rst:209
+#: ../../source/using_the_toonz_farm.rst:191
 msgid ""
 "OpenToonz is the Toonz Farm client program: it allows you to submit new tasks "
 "and monitor the status of the farm."
@@ -603,7 +606,7 @@ msgstr ""
 "OpenToonz es el programa cliente de Toonz Farm: permite enviar nuevas tareas y "
 "monitorear el estado de la granja."
 
-#: ../../source/using_the_toonz_farm.rst:211
+#: ../../source/using_the_toonz_farm.rst:193
 msgid ""
 "If the computer where you run OpenToonz is a controller or a server (rendering) "
 "node for the Toonz Farm, no further settings are required."
@@ -612,7 +615,7 @@ msgstr ""
 "servidor (procesador) de Toonz Farm, no será necesario realizar ninguna tarea "
 "adicional de configuración."
 
-#: ../../source/using_the_toonz_farm.rst:213
+#: ../../source/using_the_toonz_farm.rst:195
 msgid ""
 "If the computer is neither a controller nor a server (rendering) node for the "
 "Toonz Farm, the FARMROOT has to be defined."
@@ -621,15 +624,15 @@ msgstr ""
 "servidor (procesador) de Toonz Farm, será necesario definir la carpeta "
 "principal FARMROOT."
 
-#: ../../source/using_the_toonz_farm.rst:215
-msgid "**To define the FARMROOT in Toonz:**"
+#: ../../source/using_the_toonz_farm.rst:197
+msgid "**To define the FARMROOT in OpenToonz:**"
 msgstr "**Para definir la carpeta FARMROOT en OpenToonz:**"
 
-#: ../../source/using_the_toonz_farm.rst:217
-msgid "Run OpenToonz and go to the Farm room."
+#: ../../source/using_the_toonz_farm.rst:199
+msgid "Run OpenToonz and go to the **Farm** room."
 msgstr "Ejecutar OpenToonz e ir al espacio de trabajo **Farm**."
 
-#: ../../source/using_the_toonz_farm.rst:219
+#: ../../source/using_the_toonz_farm.rst:201
 msgid ""
 "In the Batch Servers pane, set the **Process with:** option menu to **Render "
 "Farm**."
@@ -637,19 +640,15 @@ msgstr ""
 "En el panel Servidores de tareas, en el menú de opciones **Procesar con:** "
 "elegir **Granja de procesamiento**."
 
-#: ../../source/using_the_toonz_farm.rst:221
+#: ../../source/using_the_toonz_farm.rst:203
 msgid "In the dialog that opens specify the full path to the **FARMROOT** folder."
 msgstr ""
 "En el diálogo que se abre especificar la ruta completa a la carpeta principal "
 "**FARMROOT**."
 
-#: ../../source/using_the_toonz_farm.rst:223
-msgid "Click the **OK** button."
-msgstr "Hacer clic en el botón **Aceptar**."
-
-#: ../../source/using_the_toonz_farm.rst:228
+#: ../../source/using_the_toonz_farm.rst:210
 msgid ""
-"In OpenToonz you can find the Farm room that allows you to monitor the farm "
+"In OpenToonz you can find the **Farm** room that allows you to monitor the farm "
 "processes. This room contains two main windows: the Tasks window and the Batch "
 "Servers window."
 msgstr ""
@@ -657,7 +656,7 @@ msgstr ""
 "monitorear los procesos de la granja. Este espacio de trabajo contiene dos "
 "paneles principales: Tareas y Servidores de tareas."
 
-#: ../../source/using_the_toonz_farm.rst:230
+#: ../../source/using_the_toonz_farm.rst:212
 msgid ""
 "The render farm can be monitored by using both the Tasks pane, where the list "
 "of tasks can be managed and executed, and the Servers pane, where the computers "
@@ -668,7 +667,7 @@ msgstr ""
 "Servidores, donde es posible administrar las computadoras que procesan las "
 "tareas."
 
-#: ../../source/using_the_toonz_farm.rst:232
+#: ../../source/using_the_toonz_farm.rst:214
 msgid ""
 "All shared disks involved in the task processing, i.e. disks where files "
 "resulting from the task execution have to be written, must be shared granting "
@@ -685,11 +684,11 @@ msgstr ""
 "de compartición deben permitir que cualquier usuario sea capaz de leer y "
 "escribir en los discos."
 
-#: ../../source/using_the_toonz_farm.rst:238
+#: ../../source/using_the_toonz_farm.rst:220
 msgid "Monitoring the Server Nodes"
 msgstr "Monitoreo de nodos Servidores"
 
-#: ../../source/using_the_toonz_farm.rst:239
+#: ../../source/using_the_toonz_farm.rst:221
 msgid ""
 "The Batch Servers pane is divided in three areas: at the top there’s an option "
 "menu to set whether the tasks execution has to be performed with the Local "
@@ -704,7 +703,7 @@ msgstr ""
 "la granja; en el área inferior es posible ver información acerca del servidor "
 "seleccionado en la lista."
 
-#: ../../source/using_the_toonz_farm.rst:241
+#: ../../source/using_the_toonz_farm.rst:223
 msgid ""
 "The server (rendering) nodes included in the list are those defined in the "
 "``server.txt``  configuration file (see  :ref:`Defining the Server Nodes "
@@ -724,7 +723,7 @@ msgstr ""
 "servidores (procesadores), será también necesario reiniciar el nodo controlador "
 "para que dichos cambios sean efectivos."
 
-#: ../../source/using_the_toonz_farm.rst:243
+#: ../../source/using_the_toonz_farm.rst:225
 msgid ""
 "If the **Process with:** option menu is set to **Local**, all the tasks you run "
 "will be executed by the local computer; if it's set to **Render Farm**, the "
@@ -735,7 +734,7 @@ msgstr ""
 "se encontrara en **Granja de procesamiento**, las tareas serán ejecutadas por "
 "la granja de Toonz Farm."
 
-#: ../../source/using_the_toonz_farm.rst:245
+#: ../../source/using_the_toonz_farm.rst:227
 msgid ""
 "When you select **Render Farm** you could be prompted to define the "
 "**FARMROOT** (see  :ref:`Defining the Toonz Farm in Toonz "
@@ -745,7 +744,7 @@ msgstr ""
 "la carpeta principal **FARMROOT** (ver  :ref:`Definición de la granja de Toonz "
 "Farm en OpenToonz <defining_the_toonz_farm_in_toonz>`  )."
 
-#: ../../source/using_the_toonz_farm.rst:247
+#: ../../source/using_the_toonz_farm.rst:229
 msgid ""
 "When a server is selected in the list, the following related information are "
 "displayed in the area at the bottom of the window:"
@@ -753,32 +752,32 @@ msgstr ""
 "Cuando se selecciona un servidor en la lista, se muestra la siguiente "
 "información relacionada con el mismo en el área inferior del panel:"
 
-#: ../../source/using_the_toonz_farm.rst:249
+#: ../../source/using_the_toonz_farm.rst:231
 msgid "**Name:** displays the name of the server (rendering) node."
 msgstr "**Nombre:** muestra el nombre de ese nodo servidor (procesador)."
 
-#: ../../source/using_the_toonz_farm.rst:251
+#: ../../source/using_the_toonz_farm.rst:233
 msgid "**IP Address:** displays its IP address."
 msgstr "**Dirección IP:** muestra su dirección IP."
 
-#: ../../source/using_the_toonz_farm.rst:253
+#: ../../source/using_the_toonz_farm.rst:235
 msgid ""
 "**Port Number:** displays the port number used to exchange data with the farm."
 msgstr ""
 "**№ de puerto:** muestra el número del puerto usado para intercambiar datos con "
 "la granja."
 
-#: ../../source/using_the_toonz_farm.rst:255
+#: ../../source/using_the_toonz_farm.rst:237
 msgid "**Tasks:** displays the task being executed."
 msgstr "**Tareas:** muestra la tarea que está siendo ejecutada."
 
-#: ../../source/using_the_toonz_farm.rst:257
+#: ../../source/using_the_toonz_farm.rst:239
 msgid "**State:** displays if the server is **Ready**, **Busy** or **Down**."
 msgstr ""
 "**Estado:** muestra si el servidor se encuentra **Listo**, **Ocupado** o "
 "**Fuera de línea**."
 
-#: ../../source/using_the_toonz_farm.rst:259
+#: ../../source/using_the_toonz_farm.rst:241
 msgid ""
 "A server node state may be down if the server port you set is blocked by a "
 "firewall system, and is not open for all the computers belonging to the Toonz "
@@ -790,13 +789,13 @@ msgstr ""
 "computadoras de la granja de Toonz Farm (ver  :ref:`Definición de nodos "
 "Servidores <defining_the_server_nodes>`  )."
 
-#: ../../source/using_the_toonz_farm.rst:261
+#: ../../source/using_the_toonz_farm.rst:243
 msgid "**Number of CPU:** displays the number of CPUs available on the server."
 msgstr ""
 "**Cantidad de CPU:** muestra la cantidad de núcleos de procesador disponibles "
 "en ese servidor."
 
-#: ../../source/using_the_toonz_farm.rst:263
+#: ../../source/using_the_toonz_farm.rst:245
 msgid ""
 "**Physical Memory:** displays the amount of physical memory available on the "
 "server."
@@ -804,28 +803,28 @@ msgstr ""
 "**Memoria física:** muestra la cantidad de memoria física disponible en ese "
 "servidor."
 
-#: ../../source/using_the_toonz_farm.rst:265
+#: ../../source/using_the_toonz_farm.rst:247
 msgid "**To use the Local computer to execute tasks:**"
 msgstr "**Para usar la computadora Local para ejecutar tareas:**"
 
-#: ../../source/using_the_toonz_farm.rst:267
+#: ../../source/using_the_toonz_farm.rst:249
 msgid "Set the **Process with:** option menu to **Local**."
 msgstr "Definir el menú de opciones **Procesar con:** en **Local**."
 
-#: ../../source/using_the_toonz_farm.rst:269
+#: ../../source/using_the_toonz_farm.rst:251
 msgid "**To use the Toonz Farm to execute tasks:**"
 msgstr "**Para usar Toonz Farm para ejecutar tareas:**"
 
-#: ../../source/using_the_toonz_farm.rst:271
+#: ../../source/using_the_toonz_farm.rst:253
 msgid "Set the **Process with:** option menu to **Render Farm**."
 msgstr ""
 "Definir el menú de opciones **Procesar con:** en **Granja de procesamiento**."
 
-#: ../../source/using_the_toonz_farm.rst:277
+#: ../../source/using_the_toonz_farm.rst:259
 msgid "Checking the Toonz Farm Processing"
 msgstr "Comprobación del procesamiento con Toonz Farm"
 
-#: ../../source/using_the_toonz_farm.rst:278
+#: ../../source/using_the_toonz_farm.rst:260
 msgid ""
 "When the Toonz Farm is used, any problem that may be experienced during the "
 "processing is recorded in LOG files, that can be opened and used to diagnose "
@@ -835,7 +834,7 @@ msgstr ""
 "durante el procesamiento será registrado en archivos LOG; los mismos pueden ser "
 "abiertos y utilizados para diagnosticar un problema."
 
-#: ../../source/using_the_toonz_farm.rst:280
+#: ../../source/using_the_toonz_farm.rst:262
 msgid ""
 "The LOG files are saved in the ``OpenToonz stuff\\toonzfarm``  folder of the "
 "computer experiencing the problem; each LOG refers to the processing performed "
@@ -845,40 +844,43 @@ msgstr ""
 "la computadora que experimentó el problema; cada archivo LOG se refiere "
 "únicamente al procesamiento realizado por esa computadora."
 
-#: ../../source/using_the_toonz_farm.rst:282
+#: ../../source/using_the_toonz_farm.rst:264
 msgid ""
 "The LOG files that may be generated by the Toonz Farm processing are the "
 "following:"
 msgstr ""
 "Los archivos LOG que pueden ser generados por Toonz Farm son los siguientes:"
 
-#: ../../source/using_the_toonz_farm.rst:284
+#: ../../source/using_the_toonz_farm.rst:266
 msgid ""
-"server.log logs all the operations concerning the server computer activity."
+"**server.log** logs all the operations concerning the server computer activity."
 msgstr ""
 "**server.log** registra todas las operaciones relativas a la actividad de la "
-"computadora que actúa como servidor."
+"computadora actuando como servidor."
 
-#: ../../source/using_the_toonz_farm.rst:286
+#: ../../source/using_the_toonz_farm.rst:268
 msgid ""
-"controller.log logs all the operations concerning the controller computer "
+"**controller.log** logs all the operations concerning the controller computer "
 "activity."
 msgstr ""
 "**controller.log** registra todas las operaciones relativas a la actividad de "
-"la computadora que actúa como controlador."
+"la computadora actuando como controlador."
 
-#: ../../source/using_the_toonz_farm.rst:288
+#: ../../source/using_the_toonz_farm.rst:270
 msgid ""
-"tcomposer.log logs all the operations concerning the render activity performed "
-"by the server computers."
+"**tcomposer.log** logs all the operations concerning the render activity "
+"performed by the server computers."
 msgstr ""
 "**tcomposer.log** registra todas las operaciones relativas a procesamiento de "
 "las computadoras que actúan como servidores."
 
-#: ../../source/using_the_toonz_farm.rst:290
+#: ../../source/using_the_toonz_farm.rst:272
 msgid ""
-"tcleanup.log logs all the operations concerning the cleanup activity performed "
-"by the server computers."
+"**tcleanup.log** logs all the operations concerning the cleanup activity "
+"performed by the server computers."
 msgstr ""
 "**tcleanup.log** registra todas las operaciones relativas a limpieza de las "
 "computadoras que actúan como servidores."
+
+#~ msgid "Click the OK button."
+#~ msgstr "Hacer clic en el botón **Aceptar**."
