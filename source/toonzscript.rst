@@ -597,7 +597,7 @@ renders a whole scene or part of a scene, creating levels or images.
 
 **Attributes:** 
 
-- r.\ **colums** (list of indices of columns to render.  e.g. r.columns = [0,3])
+- r.\ **columns** (list of indices of columns to render.  e.g. r.columns = [0,3])
 
 - r.\ **frames** (list of indices of frames to render.  e.g. r.frames = [0,1,2,3])
 
