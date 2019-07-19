@@ -639,23 +639,21 @@ Outline vectorization
 '''''''''''''''''''''
 This brief script is an example of using the OutlineVectorizer on a single image. The script is commented, explaining what each section does::
 
-	//Define the input and output folders::
+	//Define the input and output folders
 
 	dir = "C:\\OpenToonz stuff\\SCRIPT IMAGES IN\\"; 
 
 	dir2 = "C:\\OpenToonz stuff\\SCRIPT IMAGES OUT\\"; 
 
 
-
-	//Load image toad3.0001.tif from disk::
+	//Load image toad3.0001.tif from disk
 
 	a = new Image(dir+"toad3.0001.tif"); 
 
 	print("loaded",a);
 
 
-
-	//Initialize a vectorizer and specify any relevant options::
+	//Initialize a vectorizer and specify any relevant options
 
 	v = new OutlineVectorizer(); 
 
@@ -668,8 +666,7 @@ This brief script is an example of using the OutlineVectorizer on a single image
 	v.maxColors = 10;
 
 
-
-	//Run the vectorization process and save the result::
+	//Run the vectorization process and save the result
 
 	v.vectorize(a).save(dir2 + "vec.pli");
 
