@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-07-18 22:21-0300\n"
+"POT-Creation-Date: 2019-07-18 22:42-0300\n"
+"PO-Revision-Date: 2019-07-18 22:44-0300\n"
+"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"Language: es\n"
+"Language-Team: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language-Team: Español\n"
-"Language: es\n"
 "X-Generator: Poedit 2.2.3\n"
 
 #: ../../source/toonzscript.rst:4
@@ -848,9 +849,9 @@ msgstr "IDfotograma comienza desde 0"
 
 #: ../../source/toonzscript.rst:600
 msgid ""
-"r.\\ **colum** (list of indices of columns to render.  e.g. r.columns = [0,3])"
+"r.\\ **columns** (list of indices of columns to render.  e.g. r.columns = [0,3])"
 msgstr ""
-"r.\\ **colums** (lista de índices de las columnas a procesar.  p.ej: r.columns "
+"r.\\ **columns** (lista de índices de las columnas a procesar.  p.ej: r.columns "
 "= [0,3])"
 
 #: ../../source/toonzscript.rst:602
@@ -871,37 +872,21 @@ msgstr "A continuación se presentan algunos ejemplos de código de scripts:"
 
 #: ../../source/toonzscript.rst:639
 msgid "Outline vectorization"
-msgstr "Vectorización de contronos"
+msgstr "Vectorización de contornos"
 
 #: ../../source/toonzscript.rst:640
 msgid ""
 "This brief script is an example of using the OutlineVectorizer on a single "
-"image. The script is commented, explaining what each section does:"
+"image. The script is commented, explaining what each section does::"
 msgstr ""
 "Este breve script es un ejemplo de cómo usar OutlineVectorizer en una única "
-"imagen. El script se encuentra comentado, explicando lo que hace cada sección:"
+"imagen. El script se encuentra comentado, explicando lo que hace cada sección::"
 
-#: ../../source/toonzscript.rst:642
-msgid "//Define the input and output folders::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:650
-msgid "//Load image toad3.0001.tif from disk::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:658
-msgid "//Initialize a vectorizer and specify any relevant options::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:672
-msgid "//Run the vectorization process and save the result::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:682
+#: ../../source/toonzscript.rst:679
 msgid "Rotating an image"
 msgstr "Rotación de una imagen"
 
-#: ../../source/toonzscript.rst:683
+#: ../../source/toonzscript.rst:680
 msgid ""
 "This example explains how to load an image and then create an animation in a "
 "level, rotating the loaded frame::"
