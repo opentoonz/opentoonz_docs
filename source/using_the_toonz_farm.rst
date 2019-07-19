@@ -171,13 +171,13 @@ For each sever (rendering) node you must specify the following:
 
 .. note:: Be sure that the port you set is not blocked by any firewall system, and is open for all the computers belonging to the Toonz Farm.
 
-The above information must be separated by a single space. Here is an example of a ``servers.txt``  file:
+The above information must be separated by a single space. Here is an example of a ``servers.txt``  file::
 
-::
-    render1 10.10.0.166 8002
-    render2 10.10.0.195 8002
-    render3 10.10.0.111 8002
-    render4 10.10.0.180 8002
+ render1 10.10.0.166 8002
+ render2 10.10.0.195 8002
+ render3 10.10.0.111 8002
+ render4 10.10.0.180 8002
+
 
 In the above example, ``render1``  is a server node whose IP address is ``10.10.0.166``  and the server program runs on the ``8002``  port; ``render2``  is a server node whose IP address is ``10.10.0.195``  and the server program runs on the ``8002``  port; etc.
 
