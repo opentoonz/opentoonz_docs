@@ -1,35 +1,40 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
 # This file is distributed under the same license as the OpenToonz package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# user <surkow.aleksandr@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-06 13:01+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-08-07 22:47+0800\n"
+"Last-Translator: user <surkow.aleksandr@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/production_workflow.rst:4
 msgid "Production Workflow"
-msgstr ""
+msgstr "Рабочий процесс производства"
 
 #: ../../source/production_workflow.rst:10
 msgid "Traditional Workflow"
-msgstr ""
+msgstr "Традиционный рабочий процесс"
 
 #: ../../source/production_workflow.rst:11
 msgid ""
 "The following is an example of how OpenToonz allows the management of a "
 "traditional animation production."
 msgstr ""
+"Ниже приведен пример того, как OpenToonz позволяет управлять традиционным"
+" производством анимации."
 
 #: ../../source/production_workflow.rst:13
 msgid "|traditional_workflow|"
@@ -37,7 +42,7 @@ msgstr ""
 
 #: ../../source/production_workflow.rst:19
 msgid "Scanning"
-msgstr ""
+msgstr "Сканирование"
 
 #: ../../source/production_workflow.rst:20
 msgid ""
@@ -46,6 +51,10 @@ msgid ""
 "levels, i.e. sequences of drawings belonging to the same animation, or "
 "background images and overlays."
 msgstr ""
+"Элементы, нарисованные от руки, сначала определяются в Xsheet OpenToonz, а"
+" затем регистрируются с помощью сканера. Эти элементы могут состоять из"
+" уровней анимации, то есть последовательностей рисунков, принадлежащих одной"
+" и той же анимации, или фоновых изображений и наложений."
 
 #: ../../source/production_workflow.rst:22
 msgid ""
@@ -54,14 +63,19 @@ msgid ""
 "related field guide setting. In the case of lineart drawings, these are "
 "further prepared for the painting process."
 msgstr ""
+"Отсканированные изображения затем проходят процесс очистки и при"
+" необходимости автоматически центрируются, используя их отверстия в виде"
+" штифта в качестве ориентира и соответствующие настройки полевого ориентира."
+" В случае линейных чертежей они дополнительно подготавливаются к процессу"
+" окраски."
 
 #: ../../source/production_workflow.rst:24
 msgid "See  :ref:`Scanning Paper Drawings <scanning_paper_drawings>`  ."
-msgstr ""
+msgstr "См.  :ref:`Сканирование бумажных рисунков <scanning_paper_drawings>`."
 
 #: ../../source/production_workflow.rst:30
 msgid "Paperless Drawing"
-msgstr ""
+msgstr "Безбумажный рисунок"
 
 #: ../../source/production_workflow.rst:31
 msgid ""
@@ -71,14 +85,18 @@ msgid ""
 "achieve a particular result, for example a mask image to create a matte "
 "effect."
 msgstr ""
+"Дополнительные рисунки и уровни анимации можно нарисовать прямо в OpenToonz."
+" Рисунки могут быть важной частью сцены, такой как фон или опора персонажа,"
+" или случайные элементы, необходимые для достижения конкретного результата,"
+" например, изображение маски для создания матового эффекта."
 
 #: ../../source/production_workflow.rst:33
 msgid "See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  ."
-msgstr ""
+msgstr "См. :ref:`Рисование уровней анимации <drawing_animation_levels>`."
 
 #: ../../source/production_workflow.rst:39
 msgid "Color Model"
-msgstr ""
+msgstr "Цветовая модель"
 
 #: ../../source/production_workflow.rst:40
 msgid ""
@@ -87,22 +105,31 @@ msgid ""
 " in OpenToonz, scanned images processed in OpenToonz, or images coming "
 "from a 3rd party software."
 msgstr ""
+"Цветовые модели создаются для точной цветовой привязки во время производства,"
+" при рисовании персонажей и реквизита. Это могут быть рисунки, сделанные в"
+" OpenToonz, отсканированные изображения, обработанные в OpenToonz, или"
+" изображения, полученные из стороннего программного обеспечения."
 
 #: ../../source/production_workflow.rst:42
 msgid ""
 "In case of OpenToonz drawings, the color model palette can be defined by "
 "creating styles and colors to be used for painting animation levels."
 msgstr ""
+"В случае рисунков OpenToonz палитра цветовой модели может быть определена"
+" путем создания стилей и цветов, которые будут использоваться для рисования"
+" уровней анимации."
 
 #: ../../source/production_workflow.rst:44
 msgid ""
 "See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  "
 "and  :ref:`Using a Color Model <using_a_color_model>`  ."
 msgstr ""
+"См. :ref:`Управление палитрами и стилями <managing_palettes_and_styles>` и"
+" :ref:`Использование цветовой модели <using_a_color_model>`."
 
 #: ../../source/production_workflow.rst:50
 msgid "Ink & Painting"
-msgstr ""
+msgstr "Чернила и живопись"
 
 #: ../../source/production_workflow.rst:51
 msgid ""
@@ -110,6 +137,9 @@ msgid ""
 "directly in OpenToonz, are painted by using the styles stored in the "
 "palette and a set of tools."
 msgstr ""
+"Уровни анимации, отсканированные и очищенные в OpenToonz, и уровни, созданные"
+" непосредственно в OpenToonz, окрашиваются с использованием стилей,"
+" хранящихся в палитре, и набора инструментов."
 
 #: ../../source/production_workflow.rst:53
 msgid ""
@@ -120,16 +150,24 @@ msgid ""
 "colors also after the painting process has been done, without correcting "
 "the style line by line, or area by area."
 msgstr ""
+"Стили палитры интерактивно «связаны» с нарисованными линиями и заполненными"
+" областями с помощью индексов. Основным преимуществом этого метода является"
+" то, что если вы редактируете стиль палитры, все линии и заполненные области,"
+" использующие этот стиль, будут автоматически обновляться. Это позволяет"
+" изменять или калибровать цвета также после завершения процесса рисования, не"
+" корректируя стиль строка за строкой или область за областью."
 
 #: ../../source/production_workflow.rst:55
 msgid ""
 "See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  "
 "and  :ref:`Painting Animation Levels <painting_animation_levels>`  ."
 msgstr ""
+"См. :ref:`Управление палитрами и стилями <managing_palettes_and_styles>` и"
+" :ref:`Уровни рисования анимации <painting_animation_levels>`."
 
 #: ../../source/production_workflow.rst:61
 msgid "Compositing"
-msgstr ""
+msgstr "Композитинг "
 
 #: ../../source/production_workflow.rst:62
 msgid ""
@@ -137,6 +175,10 @@ msgid ""
 "the timing of all the elements of a scene can be controlled. Images, "
 "animations and clips from 3rd party software can be loaded as well."
 msgstr ""
+"Все нарисованные уровни OpenToonz и изображения отображаются в таблице"
+" Xsheet, где можно контролировать синхронизацию всех элементов сцены. Также"
+" можно загружать изображения, анимацию и клипы из стороннего программного"
+" обеспечения."
 
 #: ../../source/production_workflow.rst:64
 msgid ""
@@ -145,6 +187,11 @@ msgid ""
 "necessary parameters. Elements that can be animated in this way include "
 "the camera, columns, pegbars and the table."
 msgstr ""
+"После добавления и упорядочения необходимых элементов в Xsheet в виде"
+" многослойных столбцов они затем анимируются с использованием"
+" интерполированных ключей, помещенных в необходимые параметры. Элементы,"
+" которые можно анимировать таким образом, включают камеру, столбцы, pegbars и"
+" таблицу."
 
 #: ../../source/production_workflow.rst:66
 msgid ""
@@ -152,6 +199,10 @@ msgid ""
 "can be applied to the content of Xsheet columns, and can also be animated"
 " by setting key value to the parameters."
 msgstr ""
+"Специальные эффекты, такие как размытие, освещение, ключи, маски, деформации,"
+" градиенты и т.д. , могут быть применены к содержимому столбцов таблицы"
+" Xsheet, а также могут быть анимированы путем установки значения ключа для"
+" параметров."
 
 #: ../../source/production_workflow.rst:68
 msgid ""
@@ -159,6 +210,10 @@ msgid ""
 "window, where set key values and related interpolations can be controlled"
 " and modified by using function curves or numerical columns."
 msgstr ""
+"Объектные и специальные преобразования эффектов отображаются в окне редактора"
+" функций, где заданные значения ключей и соответствующие интерполяции можно"
+" контролировать и изменять с помощью функциональных кривых или числовых"
+" столбцов."
 
 #: ../../source/production_workflow.rst:70
 msgid ""
@@ -167,10 +222,14 @@ msgid ""
 "<applying_special_fx>`  and  :ref:`Editing Using Spreadsheet and Curves "
 "<editing_curves_and_numerical_columns>`  ."
 msgstr ""
+"См. :ref:`Работа в Xsheet <working_in_xsheet>`, :ref:`Создание движений <"
+"creating_movements>`, :ref:`Использование спецэффектов <applying_special_fx>`"
+" и :ref:`Редактирование с использованием электронной таблицы и кривых <"
+"editing_curves_and_numerical_columns>`."
 
 #: ../../source/production_workflow.rst:76
 msgid "Render Farm"
-msgstr ""
+msgstr "Рендер Ферма"
 
 #: ../../source/production_workflow.rst:77
 msgid ""
@@ -178,6 +237,9 @@ msgid ""
 "applied special FX in a sequence of frames in the format and resolution "
 "you prefer."
 msgstr ""
+"Сцена визуализируется для того, чтобы составить все преобразования и"
+" применить специальные эффекты в последовательности кадров в формате и"
+" разрешении, которые вы предпочитаете."
 
 #: ../../source/production_workflow.rst:79
 #: ../../source/production_workflow.rst:178
@@ -185,6 +247,9 @@ msgid ""
 "The OpenToonz render farm allows you to batch-render OpenToonz scenes by "
 "using a series of computers connected on the same network using TCP/IP."
 msgstr ""
+"Ферма рендеринга OpenToonz позволяет выполнять пакетную рендеринг сцен"
+" OpenToonz с использованием нескольких компьютеров, подключенных к одной сети"
+" с использованием TCP/IP."
 
 #: ../../source/production_workflow.rst:81
 #: ../../source/production_workflow.rst:180
@@ -192,16 +257,20 @@ msgid ""
 "See  :ref:`Rendering the Animation <rendering_the_animation>`  and  "
 ":ref:`Using the Toonz Farm <using_the_toonz_farm>`  ."
 msgstr ""
+"Смотрите :ref:`Рендеринг анимации <rendering_the_animation>` и"
+" :ref:`Использование фермы Toonz <using_the_toonz_farm>`."
 
 #: ../../source/production_workflow.rst:87
 msgid "Paperless Workflow"
-msgstr ""
+msgstr "Безбумажный рабочий процесс"
 
 #: ../../source/production_workflow.rst:88
 msgid ""
 "The following is an example of how OpenToonz allows the management of a "
 "paperless animation production."
 msgstr ""
+"Ниже приведен пример того, как OpenToonz позволяет управлять производством"
+" безбумажной анимации."
 
 #: ../../source/production_workflow.rst:90
 msgid "|paperless_workflow|"
@@ -209,7 +278,7 @@ msgstr ""
 
 #: ../../source/production_workflow.rst:95
 msgid "Preproduction: Concept"
-msgstr ""
+msgstr "Подготовка производства: концепция"
 
 #: ../../source/production_workflow.rst:96
 msgid ""
@@ -218,10 +287,14 @@ msgid ""
 "will ease the arrangement of libraries to be prepared before the actual "
 "episode production."
 msgstr ""
+"Даже если безбумажный проект может быть запущен независимо от сценария,"
+" концепция формата с несколькими настройками и стабильным набором символов"
+" облегчит организацию библиотек, которые должны быть подготовлены до"
+" фактического производства эпизода."
 
 #: ../../source/production_workflow.rst:102
 msgid "Preproduction: Graphic Design"
-msgstr ""
+msgstr "Подготовка производства: графический дизайн"
 
 #: ../../source/production_workflow.rst:103
 msgid ""
@@ -230,6 +303,9 @@ msgid ""
 "drawing capabilities of the software and with the cutout animation "
 "technique."
 msgstr ""
+"Графический дизайн персонажей, реквизита и локаций одинаково важен, чтобы"
+" найти стиль, который будет хорошо сочетаться как с возможностями рисования"
+" программного обеспечения, так и с техникой анимации вырезов."
 
 #: ../../source/production_workflow.rst:105
 msgid ""
@@ -240,10 +316,16 @@ msgid ""
 "features (for example the pivot point of a ponytail linked to the "
 "character’s head can be disguised under a ribbon)."
 msgstr ""
+"В частности, при проектировании моделей персонажей и реквизита, для которых"
+" вы могли бы разработать определенный стиль линий для применения к векторам"
+" или использовать очень аккуратные линии, типичные для векторной анимации, вы"
+" должны рассмотреть проект, в котором точки поворота анимации модели можно"
+" легко замаскировать под чертежами. особенности (например, точка поворота"
+" хвоста, связанная с головой персонажа, может быть замаскирована под ленту)"
 
 #: ../../source/production_workflow.rst:111
 msgid "Preproduction: Storyboard"
-msgstr ""
+msgstr "Подготовка производства: раскадровка"
 
 #: ../../source/production_workflow.rst:112
 msgid ""
@@ -253,10 +335,15 @@ msgid ""
 "listing all of the character animations and poses, and identifying all of"
 " the props and backgrounds that are needed to implement the story."
 msgstr ""
+"В то время как обычно раскадровка используется режиссером для управления"
+" ритмом действия, в случае безбумажного производства она также идентифицирует"
+" все элементы, необходимые для производства каждой сцены, перечисляя все"
+" анимации и позы персонажей, и идентифицируя все реквизита и фона, которые"
+" необходимы для реализации истории."
 
 #: ../../source/production_workflow.rst:118
 msgid "Animatic"
-msgstr ""
+msgstr "Аниматик"
 
 #: ../../source/production_workflow.rst:119
 msgid ""
@@ -265,6 +352,10 @@ msgid ""
 "imported, timing is adjusted and camera movements are set. Audio files "
 "too can be imported for reference."
 msgstr ""
+"Анимация создается, начиная с отсканированных рисунков раскадровки. В"
+" OpenToonz или в стороннем программном обеспечении импортируются рисунки"
+" раскадровки, настраивается время и задаются движения камеры. Аудио файлы"
+" тоже могут быть импортированы для справки."
 
 #: ../../source/production_workflow.rst:121
 msgid ""
@@ -272,16 +363,21 @@ msgid ""
 "that each cut can be used as a starting point for the final compositing "
 "of each scene."
 msgstr ""
+"В случае, если анимация создается в OpenToonz, ее также можно разделить,"
+" чтобы каждый фрагмент можно было использовать в качестве отправной точки для"
+" окончательной композиции каждой сцены."
 
 #: ../../source/production_workflow.rst:127
 msgid "Libraries"
-msgstr ""
+msgstr "Библиотеки"
 
 #: ../../source/production_workflow.rst:128
 msgid ""
 "Libraries are prepared by drawing directly in OpenToonz all of the "
 "elements composing the scenes, such as locations, characters, props, etc."
 msgstr ""
+"Библиотеки готовятся путем рисования непосредственно в OpenToonz всех"
+" элементов, составляющих сцены, таких как локации, персонажи, реквизиты и т.д."
 
 #: ../../source/production_workflow.rst:130
 msgid ""
@@ -290,6 +386,10 @@ msgid ""
 " rejoined through a hierarchy which at the end will make models available"
 " to the animators."
 msgstr ""
+"Что касается персонажей, они будут разложены на несколько уровней (то есть"
+" голова, туловище, руки и т.д.), используемые в качестве компонентов скелета,"
+" объединенных в иерархию, которая в конце концов сделает модели доступными"
+" для аниматоров."
 
 #: ../../source/production_workflow.rst:132
 msgid ""
@@ -300,22 +400,33 @@ msgid ""
 "animations, such as running or walking cycles, jumping, may be stored as "
 "well in order to be re-used in the scene production."
 msgstr ""
+"В соответствии с анализом раскадровки подготовлены чертежи, необходимые как"
+" для канонической модели разворота (то есть коллекции моделей с разных точек"
+" зрения: вид спереди, сзади, сбоку и три четверти), так и для дополнительных"
+" движений. Начиная с этих эталонных анимаций, таких как циклы бега или"
+" ходьбы, прыжки, также могут быть сохранены для повторного использования в"
+" производстве сцены."
 
 #: ../../source/production_workflow.rst:134
 msgid ""
 "Props and backgrounds can be also created with third-party software, "
 "including rendered images from 3D software."
 msgstr ""
+"Реквизит и фон также могут быть созданы с помощью стороннего программного"
+" обеспечения, в том числе визуализированных изображений из программного"
+" обеспечения 3D."
 
 #: ../../source/production_workflow.rst:136
 msgid ""
 "See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  and  "
 ":ref:`Creating Cutout Animation <creating_cutout_animation>`  ."
 msgstr ""
+"См. :ref:`Уровни рисования анимации <drawing_animation_levels>` и"
+" :ref:`Создание перекладной анимации <creating_cutout_animation>`."
 
 #: ../../source/production_workflow.rst:142
 msgid "Layout"
-msgstr ""
+msgstr "Раскадровка"
 
 #: ../../source/production_workflow.rst:143
 msgid ""
@@ -325,22 +436,31 @@ msgid ""
 "according to the animatic. Basic animation is achieved by setting key "
 "positions for animated characters or importing reference animations."
 msgstr ""
+"На этапе раскадровки все элементы, необходимые для сцены (фоны, реквизиты,"
+" персонажи, ссылочные анимации) загружаются из библиотеки в Xsheet, обычно в"
+" виде вспомогательных Xsheet. Они ставятся на место согласно аниматику."
+" Базовая анимация достигается путем установки ключевых позиций для"
+" анимированных персонажей или импорта эталонных анимаций."
 
 #: ../../source/production_workflow.rst:145
 msgid ""
 "Camera movements and animation timing previously set in the animatic are "
 "refined."
 msgstr ""
+"Движения камеры и время анимации, ранее установленные в анимации,"
+" корректируются."
 
 #: ../../source/production_workflow.rst:147
 msgid ""
 "See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Sub-"
 "Xsheets <using_sub-xsheets>`  ."
 msgstr ""
+"См. :ref:`Работа в Xsheet <working_in_xsheet>` и :ref:`Использование"
+" Sub-Xsheets <using_sub-xsheets>`."
 
 #: ../../source/production_workflow.rst:153
 msgid "Animation"
-msgstr ""
+msgstr "Анимирование"
 
 #: ../../source/production_workflow.rst:154
 msgid ""
@@ -348,28 +468,37 @@ msgid ""
 "key position to the character movements. Character poses are added by "
 "tweaking the model to achieve a more fluid animation."
 msgstr ""
+"Анимация для сцены, определенной в макете, улучшается путем добавления"
+" ключевой позиции к движениям персонажа. Позы персонажей добавляются путем"
+" настройки модели для достижения более плавной анимации."
 
 #: ../../source/production_workflow.rst:156
 msgid ""
 "The right speed for all the movements is set by controlling interpolation"
 " mode in the function editor."
 msgstr ""
+"Правильная скорость для всех движений устанавливается путем управления"
+" режимом интерполяции в редакторе функций."
 
 #: ../../source/production_workflow.rst:158
 msgid ""
 "See  :ref:`Animating Objects <animating_objects>`  and  :ref:`Using the "
 "Function Editor <using_the_function_editor>`  ."
 msgstr ""
+"См. :ref:`Анимация объектов <animating_objects>` и :ref:`Использование"
+" редактора функций <using_the_function_editor>`."
 
 #: ../../source/production_workflow.rst:164
 msgid "Special FX"
-msgstr ""
+msgstr "Эффекты"
 
 #: ../../source/production_workflow.rst:165
 msgid ""
 "Special FX, such as blur, glow, color corrections, particles, are applied"
 " to the scene elements."
 msgstr ""
+"Специальные эффекты, такие как размытие, свечение, коррекция цвета, частицы,"
+" применяются к элементам сцены."
 
 #: ../../source/production_workflow.rst:167
 msgid ""
@@ -377,14 +506,17 @@ msgid ""
 " images for the particles effect, are drawn directly in the scene, or "
 "imported from external files."
 msgstr ""
+"Дополнительные элементы анимации, связанные со специальными эффектами,"
+" например маски или изображения для эффекта частиц, рисуются непосредственно"
+" в сцене или импортируются из внешних файлов."
 
 #: ../../source/production_workflow.rst:169
 msgid "See  :ref:`Applying Special FX <applying_special_fx>`  ."
-msgstr ""
+msgstr "См. :ref:`Применение спецэффектов <applying_special_fx>`."
 
 #: ../../source/production_workflow.rst:175
 msgid "Render"
-msgstr ""
+msgstr "Рендер"
 
 #: ../../source/production_workflow.rst:176
 msgid ""
@@ -392,6 +524,9 @@ msgid ""
 "and applied special FX in a sequence of frames in the format and "
 "resolution you prefer."
 msgstr ""
+"Сцена должна быть отрисована, чтобы составить все преобразования и применить"
+" специальные эффекты в последовательности кадров в формате и разрешении,"
+" которые вы предпочитаете."
 
 #~ msgid ""
 #~ "Hand-drawn elements are first defined"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 12:06+0800\n"
+"POT-Creation-Date: 2019-06-26 11:54+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,17 +184,17 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:61
 msgid ""
 "When a level is loaded, OpenToonz checks if its syntax matches one of the"
-" level formats specified into Preferences > Loading > **Level Settings by"
-" File Format**. In this case the Level Settings specified will be "
-"applied. It is possible to add as many formats as you want, defining them"
-" by using a Regular Expression. This way, different settings can be "
+" level formats specified into Preferences  →  Loading  →  **Level "
+"Settings by File Format**. In this case the Level Settings specified will"
+" be applied. It is possible to add as many formats as you want, defining "
+"them by using a Regular Expression. This way, different settings can be "
 "automatically applied to different kind of levels."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:63
 msgid ""
 "It is possible to **Ignore Alpha Channel on Levels in Column 1** by "
-"activating the option in Preferences > Xsheet."
+"activating the option in Preferences  →  Xsheet."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:65
@@ -271,8 +271,8 @@ msgstr ""
 msgid ""
 "The way file icons are generated in the OpenToonz browser depends on the "
 "images resolution and on the **Icon Size** option set for the Level Strip"
-" frames in the Preferences > Interface dialog (see  :ref:`Using the Level"
-" Strip <using_the_level_strip>`  )."
+" frames in the Preferences  →  Interface dialog (see  :ref:`Using the "
+"Level Strip <using_the_level_strip>`  )."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:93
@@ -358,8 +358,8 @@ msgid ""
 "When you load levels using the standard OpenToonz file browser, you can "
 "set whether to automatically expose them in the Xsheet/Timeline or not, "
 "by setting the **Expose Loaded Levels in Xsheet** option in the "
-"Preferences > Loading dialog. If activated, each level will be placed in "
-"a different column/layer, starting from the first empty one. If "
+"Preferences  →  Loading dialog. If activated, each level will be placed "
+"in a different column/layer, starting from the first empty one. If "
 "deactivated, the loaded levels will be stored in the Scene Cast, from "
 "where they can be selectively exposed in Xsheet columns or Timeline "
 "layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  )."
@@ -542,7 +542,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:163
-msgid "Choose File > Load Level."
+msgid "Choose File  →  Load Level."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:165
@@ -623,8 +623,8 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:199
 msgid ""
 "When a level is loaded, OpenToonz checks if its syntax matches one of the"
-" level formats specified in Preferences > Loading > **Level Settings by "
-"File Format**. In this case the Level Settings specified when the "
+" level formats specified in Preferences  →  Loading  →  **Level Settings "
+"by File Format**. In this case the Level Settings specified when the "
 "corresponding **Edit** button is opened will be applied. It is possible "
 "to add as many file formats as you want, defining them by using a Regular"
 " Expression. This way, different settings can be automatically applied to"
@@ -637,8 +637,8 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:203
 msgid ""
-"Choose File > Open Recent Level File, then select the level you want to "
-"load from the available submenu."
+"Choose File  →  Open Recent Level File, then select the level you want to"
+" load from the available submenu."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:205
@@ -681,7 +681,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:223
 msgid ""
-"Choose Windows > Flipbook and drag and drop in the window the file you "
+"Choose Windows  →  Flipbook and drag and drop in the window the file you "
 "want to view."
 msgstr ""
 
@@ -696,7 +696,7 @@ msgid "**To set the default shrink factor and step for the file viewer:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:229
-msgid "Choose File > Preferences > Interface."
+msgid "Choose File  →  Preferences  →  Interface."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:231
@@ -1612,7 +1612,7 @@ msgid "**To expose the selection:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:600
-msgid "Choose Level > **Expose in Xsheet**."
+msgid "Choose Level  →  **Expose in Xsheet**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:602
@@ -1636,7 +1636,9 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:610
 #: ../../source/working_in_xsheet.rst:643
-msgid "Select it in the Scene Cast and choose Level > **Display in Level Strip**."
+msgid ""
+"Select it in the Scene Cast and choose Level  →  **Display in Level "
+"Strip**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:612
@@ -1664,7 +1666,7 @@ msgid "**To remove all the unused elements:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:624
-msgid "Choose Level > **Remove All Unused Levels**."
+msgid "Choose Level  →  **Remove All Unused Levels**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:626
@@ -1798,7 +1800,7 @@ msgid "Select the cells where the level you want to replace is exposed."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:692
-msgid "Choose Level > **Replace Level...**."
+msgid "Choose Level  →  **Replace Level...**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:694
@@ -1923,9 +1925,9 @@ msgid ""
 "**Subsampling** sets the simplifying factor to be applied to animation "
 "levels, clips and images when displayed in the work area in order to have"
 " a faster visualization and playback; for example if it is 2, one pixel "
-"every two pixels is displayed. The default values are defined in Xsheet >"
-" Scene Settings dialog, where values for raster (Image) and toonz raster "
-"(TLV) level subsampling can be defined."
+"every two pixels is displayed. The default values are defined in Xsheet  "
+"→  Scene Settings dialog, where values for raster (Image) and toonz "
+"raster (TLV) level subsampling can be defined."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:734
@@ -1942,7 +1944,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:740
 msgid ""
-"Select a level in the Xsheet/Timeline and choose Level > **Level "
+"Select a level in the Xsheet/Timeline and choose Level  →  **Level "
 "Settings...**."
 msgstr ""
 
@@ -1996,8 +1998,8 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:766
 msgid ""
-"Activate the File > Preferences > Xsheet > **Show Toolbar in the Xsheet**"
-" option."
+"Activate the File  →  Preferences  →  Xsheet  →  **Show Toolbar in the "
+"Xsheet** option."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:768
@@ -2013,7 +2015,7 @@ msgid "**To customize the Xsheet Toolbar buttons:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:772
-msgid "Choose Windows > Command Bar to open the Command Bar."
+msgid "Choose Windows  →  Command Bar to open the Command Bar."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:774
@@ -2078,7 +2080,7 @@ msgid ""
 "(vertical, in case of the Timeline), whose interval can be customized; at"
 " each marker the name of the levels exposed can be displayed, when the "
 "option **Display Level Name on Each Marker** is active in the Preferences"
-" > Interface dialog."
+"  →  Interface dialog."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:799
@@ -2145,7 +2147,7 @@ msgstr ""
 msgid ""
 "Optionally you can make these additional properties also take effect at "
 "render time by activating the **Enable Column Color Filter and "
-"Transparency for Rendering** option in the Xsheet > Scene Settings... "
+"Transparency for Rendering** option in the Xsheet  →  Scene Settings... "
 "dialog."
 msgstr ""
 
@@ -2159,7 +2161,7 @@ msgstr ""
 msgid ""
 "The icons on the Xsheet column headers can either be displayed at once "
 "when the scene is opened, or on demand by clicking on the column header, "
-"according to the **Column Icon** option available in Preferences > "
+"according to the **Column Icon** option available in Preferences  →  "
 "Xsheet."
 msgstr ""
 
@@ -2187,7 +2189,7 @@ msgid ""
 "When the animation is played back, the Xsheet/Timeline scrolls according "
 "to the current frame cursor position, in order to display the current "
 "frame. To disable the scrolling deactivate the **Xsheet Autopan during "
-"Playback** option available in the Preferences > Xsheet dialog."
+"Playback** option available in the Preferences  →  Xsheet dialog."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:827
@@ -2266,7 +2268,7 @@ msgid "**To set the marker interval:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:855
-msgid "Choose Xsheet > Scene Settings..."
+msgid "Choose Xsheet  →  Scene Settings..."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:857
@@ -2432,7 +2434,7 @@ msgstr ""
 msgid ""
 "You can make Opacity and Color Filter take effect at render time by "
 "activating the **Enable Column Color Filter and Transparency for "
-"Rendering** option in the Xsheet > Scene Settings... dialog."
+"Rendering** option in the Xsheet  →  Scene Settings... dialog."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:927
@@ -2765,7 +2767,7 @@ msgid "**To drag a cell selection moving along the column/layer data:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1050
-msgid "Choose File > Preferences > Xsheet."
+msgid "Choose File  →  Preferences  →  Xsheet."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1052
@@ -2939,7 +2941,7 @@ msgid "Select the cells, or define the frame range you want to stretch."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1120
-msgid "Choose Cells > **Time Stretch...**."
+msgid "Choose Cells  →  **Time Stretch...**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1122
@@ -2999,7 +3001,7 @@ msgid "Select the frame before which you want to insert a new frame."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1143
-msgid "Choose Xsheet > **Insert Frame**."
+msgid "Choose Xsheet  →  **Insert Frame**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1145
@@ -3011,7 +3013,7 @@ msgid "Select the frame you want to delete."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1149
-msgid "Choose Xsheet > **Remove Frame**."
+msgid "Choose Xsheet  →  **Remove Frame**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1155
@@ -3153,7 +3155,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1195
-msgid "Choose Xsheet > **Collapse**."
+msgid "Choose Xsheet  →  **Collapse**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1197
@@ -3182,7 +3184,7 @@ msgid "Do one of the following"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1207
-msgid "Choose Xsheet > **Close Sub-Xsheet**."
+msgid "Choose Xsheet  →  **Close Sub-Xsheet**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1209
@@ -3200,7 +3202,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1217
-msgid "Choose Xsheet > **Open Sub-Xsheet**."
+msgid "Choose Xsheet  →  **Open Sub-Xsheet**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1219
@@ -3224,7 +3226,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1229
-msgid "Choose Xsheet > **Clone Sub-Xsheet**."
+msgid "Choose Xsheet  →  **Clone Sub-Xsheet**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1231
@@ -3238,7 +3240,7 @@ msgid "**To toggle edit a Sub-Xsheet in its context:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1237
-msgid "Choose Xsheet > **Toggle Edit in Place**."
+msgid "Choose Xsheet  →  **Toggle Edit in Place**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1239
@@ -3254,7 +3256,7 @@ msgid "Select the column/layer containing the Sub-Xsheet."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1247
-msgid "Choose Xsheet > **Resequence**."
+msgid "Choose Xsheet  →  **Resequence**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1249
@@ -3294,7 +3296,7 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:1262
 msgid ""
 "To keep the database well-ordered you can also activate the **Create Sub-"
-"folder when Importing Sub-Xsheet** option in the Preferences > Loading "
+"folder when Importing Sub-Xsheet** option in the Preferences  →  Loading "
 "dialog, that will automatically create, in the project default folder, a "
 "folder named as the Sub-Xsheet you are importing where the levels from "
 "the Sub-Xsheet will be copied."
@@ -3329,12 +3331,12 @@ msgid "**To load a previously saved scene as a Sub-Xsheet:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1274
-msgid "Choose File > **Load Level** and use the browser to load a TNZ file."
+msgid "Choose File  →  **Load Level** and use the browser to load a TNZ file."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1276
 msgid ""
-"Choose File > **Load As Sub-Xsheet** and use the browser to load a TNZ "
+"Choose File  →  **Load As Sub-Xsheet** and use the browser to load a TNZ "
 "file."
 msgstr ""
 
@@ -3395,7 +3397,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1301
-msgid "Choose Xsheet > **Explode**."
+msgid "Choose Xsheet  →  **Explode**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1303
@@ -3440,8 +3442,8 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1320
 msgid ""
-"Choose Xsheet > **Save Sub-Xsheet As...** and use the browser to save the"
-" scene file (see  :ref:`Saving and Loading Scenes "
+"Choose Xsheet  →  **Save Sub-Xsheet As...** and use the browser to save "
+"the scene file (see  :ref:`Saving and Loading Scenes "
 "<saving_and_loading_scenes>`  )."
 msgstr ""
 
@@ -3454,9 +3456,9 @@ msgid ""
 "Audio clips can be loaded and edited in order to create a soundtrack for "
 "the scene; natively supported file formats are non-compressed ``WAV`` and"
 " ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured "
-"in Preferences > Import/Export dialog, ``MP3`` audio files can be loaded "
-"too. There is no limit to the number of audio clips that can be loaded in"
-" a scene."
+"in Preferences  →  Import/Export dialog, ``MP3`` audio files can be "
+"loaded too. There is no limit to the number of audio clips that can be "
+"loaded in a scene."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1329
@@ -3556,7 +3558,7 @@ msgstr ""
 msgid ""
 "As the soundtrack cannot be played back when viewing files in the "
 "OpenToonz flipbook, you can activate the **Use Default Viewer for Movie "
-"Formats** option in the Preferences > General dialog, in order to view "
+"Formats** option in the Preferences  →  General dialog, in order to view "
 "files with their own default viewer, e.g. QuickTime for the MOV format, "
 "thus playing back the soundtrack as well."
 msgstr ""
@@ -3970,7 +3972,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1530
 msgid ""
-"In Magpie choose File > Export and choose Toonz among the 2D software "
+"In Magpie choose File  →  Export and choose Toonz among the 2D software "
 "list to export the TLS file."
 msgstr ""
 
@@ -3979,7 +3981,7 @@ msgid "**To import a Magpie file:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1534
-msgid "Choose File > **Import Magpie File...**."
+msgid "Choose File  →  **Import Magpie File...**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1536
@@ -4248,9 +4250,9 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:1644
 msgid ""
 "An option **Save Automatically** allows to save the scene every given "
-"number of minutes, and is available in the Preferences > General dialog. "
-"If the option is activated, during the saving operation a message is "
-"displayed to notify the process."
+"number of minutes, and is available in the Preferences  →  General "
+"dialog. If the option is activated, during the saving operation a message"
+" is displayed to notify the process."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1646
@@ -4265,7 +4267,7 @@ msgid "**To work on a new scene:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1650
-msgid "Choose File > **New Scene**."
+msgid "Choose File  →  **New Scene**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1652
@@ -4273,7 +4275,7 @@ msgid "**To save a scene and all its related levels:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1654
-msgid "Choose File > **Save All**."
+msgid "Choose File  →  **Save All**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1656
@@ -4281,7 +4283,7 @@ msgid "**To save a scene:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1658
-msgid "Choose File > **Save Scene**."
+msgid "Choose File  →  **Save Scene**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1660
@@ -4289,7 +4291,7 @@ msgid "**To save the current scene with a different name:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1662
-msgid "Choose File > **Save Scene As...**"
+msgid "Choose File  →  **Save Scene As...**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1664
@@ -4307,7 +4309,7 @@ msgid "**To load a scene from the Load Scene browser:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1670
-msgid "Choose File > **Load Scene...**"
+msgid "Choose File  →  **Load Scene...**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1672
@@ -4343,8 +4345,8 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1686
 msgid ""
-"Choose File > **Open Recent Scene File**, then select the scene you want "
-"to load from the available submenu."
+"Choose File  →  **Open Recent Scene File**, then select the scene you "
+"want to load from the available submenu."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1688
@@ -4352,7 +4354,7 @@ msgid "**To revert the current scene to the last saved version:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1690
-msgid "Choose File > **Revert Scene**."
+msgid "Choose File  →  **Revert Scene**."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1692
@@ -4360,7 +4362,7 @@ msgid "**To automatically save a scene every given number of minutes:**"
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1694
-msgid "Choose File > Preferences > General."
+msgid "Choose File  →  Preferences  →  General."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1696
@@ -8348,5 +8350,327 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**To premultiply full-color images:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a level is loaded, OpenToonz "
+#~ "checks if its syntax matches one "
+#~ "of the level formats specified into "
+#~ "Preferences > Loading > **Level Settings"
+#~ " by File Format**. In this case "
+#~ "the Level Settings specified will be "
+#~ "applied. It is possible to add as"
+#~ " many formats as you want, defining"
+#~ " them by using a Regular Expression."
+#~ " This way, different settings can be"
+#~ " automatically applied to different kind"
+#~ " of levels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is possible to **Ignore Alpha "
+#~ "Channel on Levels in Column 1** by"
+#~ " activating the option in Preferences "
+#~ "> Xsheet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The way file icons are generated "
+#~ "in the OpenToonz browser depends on "
+#~ "the images resolution and on the "
+#~ "**Icon Size** option set for the "
+#~ "Level Strip frames in the Preferences"
+#~ " > Interface dialog (see  :ref:`Using "
+#~ "the Level Strip <using_the_level_strip>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you load levels using the "
+#~ "standard OpenToonz file browser, you can"
+#~ " set whether to automatically expose "
+#~ "them in the Xsheet/Timeline or not, "
+#~ "by setting the **Expose Loaded Levels"
+#~ " in Xsheet** option in the "
+#~ "Preferences > Loading dialog. If "
+#~ "activated, each level will be placed "
+#~ "in a different column/layer, starting "
+#~ "from the first empty one. If "
+#~ "deactivated, the loaded levels will be"
+#~ " stored in the Scene Cast, from "
+#~ "where they can be selectively exposed"
+#~ " in Xsheet columns or Timeline layers"
+#~ " (see  :ref:`Using the Scene Cast "
+#~ "<using_the_scene_cast>`  )."
+#~ msgstr ""
+
+#~ msgid "Choose File > Load Level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a level is loaded, OpenToonz "
+#~ "checks if its syntax matches one "
+#~ "of the level formats specified in "
+#~ "Preferences > Loading > **Level Settings"
+#~ " by File Format**. In this case "
+#~ "the Level Settings specified when the"
+#~ " corresponding **Edit** button is opened"
+#~ " will be applied. It is possible "
+#~ "to add as many file formats as "
+#~ "you want, defining them by using a"
+#~ " Regular Expression. This way, different"
+#~ " settings can be automatically applied "
+#~ "to different kind of levels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose File > Open Recent Level "
+#~ "File, then select the level you "
+#~ "want to load from the available "
+#~ "submenu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose Windows > Flipbook and drag "
+#~ "and drop in the window the file"
+#~ " you want to view."
+#~ msgstr ""
+
+#~ msgid "Choose File > Preferences > Interface."
+#~ msgstr ""
+
+#~ msgid "Choose Level > **Expose in Xsheet**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select it in the Scene Cast and"
+#~ " choose Level > **Display in Level"
+#~ " Strip**."
+#~ msgstr ""
+
+#~ msgid "Choose Level > **Remove All Unused Levels**."
+#~ msgstr ""
+
+#~ msgid "Choose Level > **Replace Level...**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Subsampling** sets the simplifying factor"
+#~ " to be applied to animation levels,"
+#~ " clips and images when displayed in"
+#~ " the work area in order to have"
+#~ " a faster visualization and playback; "
+#~ "for example if it is 2, one "
+#~ "pixel every two pixels is displayed. "
+#~ "The default values are defined in "
+#~ "Xsheet > Scene Settings dialog, where"
+#~ " values for raster (Image) and toonz"
+#~ " raster (TLV) level subsampling can "
+#~ "be defined."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select a level in the Xsheet/Timeline"
+#~ " and choose Level > **Level "
+#~ "Settings...**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Activate the File > Preferences > "
+#~ "Xsheet > **Show Toolbar in the "
+#~ "Xsheet** option."
+#~ msgstr ""
+
+#~ msgid "Choose Windows > Command Bar to open the Command Bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Xsheet is divided into sections "
+#~ "divided by horizontal markers (vertical, "
+#~ "in case of the Timeline), whose "
+#~ "interval can be customized; at each "
+#~ "marker the name of the levels "
+#~ "exposed can be displayed, when the "
+#~ "option **Display Level Name on Each "
+#~ "Marker** is active in the Preferences"
+#~ " > Interface dialog."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Optionally you can make these additional"
+#~ " properties also take effect at "
+#~ "render time by activating the **Enable"
+#~ " Column Color Filter and Transparency "
+#~ "for Rendering** option in the Xsheet "
+#~ "> Scene Settings... dialog."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The icons on the Xsheet column "
+#~ "headers can either be displayed at "
+#~ "once when the scene is opened, or"
+#~ " on demand by clicking on the "
+#~ "column header, according to the **Column"
+#~ " Icon** option available in Preferences "
+#~ "> Xsheet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the animation is played back, "
+#~ "the Xsheet/Timeline scrolls according to "
+#~ "the current frame cursor position, in"
+#~ " order to display the current frame."
+#~ " To disable the scrolling deactivate "
+#~ "the **Xsheet Autopan during Playback** "
+#~ "option available in the Preferences >"
+#~ " Xsheet dialog."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > Scene Settings..."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can make Opacity and Color "
+#~ "Filter take effect at render time "
+#~ "by activating the **Enable Column Color"
+#~ " Filter and Transparency for Rendering**"
+#~ " option in the Xsheet > Scene "
+#~ "Settings... dialog."
+#~ msgstr ""
+
+#~ msgid "Choose File > Preferences > Xsheet."
+#~ msgstr ""
+
+#~ msgid "Choose Cells > **Time Stretch...**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Insert Frame**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Remove Frame**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Collapse**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Close Sub-Xsheet**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Open Sub-Xsheet**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Clone Sub-Xsheet**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Toggle Edit in Place**."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Resequence**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To keep the database well-ordered "
+#~ "you can also activate the **Create "
+#~ "Sub-folder when Importing Sub-Xsheet**"
+#~ " option in the Preferences > Loading"
+#~ " dialog, that will automatically create,"
+#~ " in the project default folder, a "
+#~ "folder named as the Sub-Xsheet you"
+#~ " are importing where the levels from"
+#~ " the Sub-Xsheet will be copied."
+#~ msgstr ""
+
+#~ msgid "Choose File > **Load Level** and use the browser to load a TNZ file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose File > **Load As Sub-"
+#~ "Xsheet** and use the browser to "
+#~ "load a TNZ file."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet > **Explode**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose Xsheet > **Save Sub-Xsheet "
+#~ "As...** and use the browser to "
+#~ "save the scene file (see  :ref:`Saving"
+#~ " and Loading Scenes <saving_and_loading_scenes>`"
+#~ "  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Audio clips can be loaded and "
+#~ "edited in order to create a "
+#~ "soundtrack for the scene; natively "
+#~ "supported file formats are non-"
+#~ "compressed ``WAV`` and ``AIFF``  files "
+#~ "at 8 and 16 bit. If FFmpeg "
+#~ "is installed and configured in "
+#~ "Preferences > Import/Export dialog, ``MP3``"
+#~ " audio files can be loaded too. "
+#~ "There is no limit to the number"
+#~ " of audio clips that can be "
+#~ "loaded in a scene."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As the soundtrack cannot be played "
+#~ "back when viewing files in the "
+#~ "OpenToonz flipbook, you can activate the"
+#~ " **Use Default Viewer for Movie "
+#~ "Formats** option in the Preferences >"
+#~ " General dialog, in order to view "
+#~ "files with their own default viewer, "
+#~ "e.g. QuickTime for the MOV format, "
+#~ "thus playing back the soundtrack as "
+#~ "well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Magpie choose File > Export and"
+#~ " choose Toonz among the 2D software"
+#~ " list to export the TLS file."
+#~ msgstr ""
+
+#~ msgid "Choose File > **Import Magpie File...**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An option **Save Automatically** allows "
+#~ "to save the scene every given "
+#~ "number of minutes, and is available "
+#~ "in the Preferences > General dialog. "
+#~ "If the option is activated, during "
+#~ "the saving operation a message is "
+#~ "displayed to notify the process."
+#~ msgstr ""
+
+#~ msgid "Choose File > **New Scene**."
+#~ msgstr ""
+
+#~ msgid "Choose File > **Save All**."
+#~ msgstr ""
+
+#~ msgid "Choose File > **Save Scene**."
+#~ msgstr ""
+
+#~ msgid "Choose File > **Save Scene As...**"
+#~ msgstr ""
+
+#~ msgid "Choose File > **Load Scene...**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose File > **Open Recent Scene "
+#~ "File**, then select the scene you "
+#~ "want to load from the available "
+#~ "submenu."
+#~ msgstr ""
+
+#~ msgid "Choose File > **Revert Scene**."
+#~ msgstr ""
+
+#~ msgid "Choose File > Preferences > General."
 #~ msgstr ""
 
