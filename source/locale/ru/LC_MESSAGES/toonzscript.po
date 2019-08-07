@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 11:54+0800\n"
+"POT-Creation-Date: 2019-08-07 23:01+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -745,8 +745,8 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:600
 msgid ""
-"r.\\ **colum** (list of indices of columns to render.  e.g. r.columns = "
-"[0,3])"
+"r.\\ **columns** (list of indices of columns to render.  e.g. r.columns ="
+" [0,3])"
 msgstr ""
 
 #: ../../source/toonzscript.rst:602
@@ -770,30 +770,15 @@ msgstr ""
 #: ../../source/toonzscript.rst:640
 msgid ""
 "This brief script is an example of using the OutlineVectorizer on a "
-"single image. The script is commented, explaining what each section does:"
+"single image. The script is commented, explaining what each section "
+"does::"
 msgstr ""
 
-#: ../../source/toonzscript.rst:642
-msgid "//Define the input and output folders::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:650
-msgid "//Load image toad3.0001.tif from disk::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:658
-msgid "//Initialize a vectorizer and specify any relevant options::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:672
-msgid "//Run the vectorization process and save the result::"
-msgstr ""
-
-#: ../../source/toonzscript.rst:682
+#: ../../source/toonzscript.rst:679
 msgid "Rotating an image"
 msgstr ""
 
-#: ../../source/toonzscript.rst:683
+#: ../../source/toonzscript.rst:680
 msgid ""
 "This example explains how to load an image and then create an animation "
 "in a level, rotating the loaded frame::"
@@ -1629,5 +1614,30 @@ msgstr ""
 #~ "Console, which can be opened using "
 #~ "the ``File > Open Script Console...``"
 #~ " command."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "r.\\ **colum** (list of indices of "
+#~ "columns to render.  e.g. r.columns = "
+#~ "[0,3])"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This brief script is an example of"
+#~ " using the OutlineVectorizer on a "
+#~ "single image. The script is commented,"
+#~ " explaining what each section does:"
+#~ msgstr ""
+
+#~ msgid "//Define the input and output folders::"
+#~ msgstr ""
+
+#~ msgid "//Load image toad3.0001.tif from disk::"
+#~ msgstr ""
+
+#~ msgid "//Initialize a vectorizer and specify any relevant options::"
+#~ msgstr ""
+
+#~ msgid "//Run the vectorization process and save the result::"
 #~ msgstr ""
 
