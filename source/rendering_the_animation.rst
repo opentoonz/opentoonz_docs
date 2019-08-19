@@ -2,7 +2,7 @@
 
 Previewing and Rendering
 ========================
-In order to generate the final animation, including all the transformations and special effects applied to the scene elements, the scene has to be *rendered*.
+In order to generate the final animation, including all the transformations and effects applied to the scene elements, the scene has to be *rendered*.
 
 It is also possible to *preview* the animation for performing checks and tune-ups before the full rendering process.
 
@@ -24,7 +24,7 @@ Previewing Frames in the Viewer
 '''''''''''''''''''''''''''''''
 In the Viewer it is possible to activate the Preview mode to render the current frame according to the current camera (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  for s). 
 
-When changing the current frame, for example by using the playback buttons, it is possible to render other frames of the scene as well. The framebar displays already rendered frames in *dark grey*, frames that have yet to be rendered in *light red*, and the current frame, while being rendered in *light green* and when already rendered in *light grey**.
+When changing the current frame, for example by using the playback buttons, it is possible to render other frames of the scene as well. The framebar displays already rendered frames in *dark grey*, frames that have yet to be rendered in *light red*, and the current frame, while being rendered in *light green* and when already rendered in *light grey*.
 
 For the current camera it is also possible to define a **Sub-camera**, having an area smaller than the camera frame, inside which the preview will be rendered, and outside which the scene elements will be displayed as they are.
 
@@ -48,7 +48,7 @@ The background colors of the preview window, including the colors of the camera 
 
 .. tip:: **To define a preview Sub-camera for the current camera:**
 
-    1. Activate the **Define Sub-camera** button () in the viewer bottom bar.
+    1. Activate the **Define Sub-camera** button (|define_preview_subcamera|) in the viewer bottom bar.
 
     2. Click and drag in the Viewer to define the box for the *Sub-camera area*; once the box is defined you can resize it by clicking and dragging its sides and corners, and move it by clicking and dragging inside of it.
 
@@ -76,7 +76,11 @@ The background colors of the preview window, including the colors of the camera 
 
     - Right-click in the Viewer, and choose **Save Previewed Frames** from the menu that opens.
 
-    2. Use the Browser to choose a name, a format and a location for the file to be saved.
+    2. Use the Browser to choose a name and location for the file to be saved.
+
+    .. note:: The saved files format will be the one currently defined in the **Output Settings** dialog, and the format options used at save time will also be the ones defined by using the **Options** button there. (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+
+    .. note:: The saved files *color depth* will always be 8 bit, regardless of the options chosen in the Output Settings or Preview Settings dialogs.
 
 
 .. _using_the_preview_window:
