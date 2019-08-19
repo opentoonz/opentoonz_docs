@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-08-19 09:22-0300\n"
+"POT-Creation-Date: 2019-08-19 09:52-0300\n"
+"PO-Revision-Date: 2019-08-19 09:58-0300\n"
+"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"Language: es\n"
+"Language-Team: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language-Team: Español\n"
-"Language: es\n"
 "X-Generator: Poedit 2.2.3\n"
 
 #: ../../source/rendering_the_animation.rst:4
@@ -25,7 +26,7 @@ msgstr "Previsualización y procesamiento"
 #: ../../source/rendering_the_animation.rst:5
 msgid ""
 "In order to generate the final animation, including all the transformations and "
-"special effects applied to the scene elements, the scene has to be *rendered*."
+"effects applied to the scene elements, the scene has to be *rendered*."
 msgstr ""
 "Para que sea posible generar la animación final, incluyendo todas las "
 "transformaciones y efectos aplicados a los elementos de la escena, será "
@@ -96,7 +97,7 @@ msgid ""
 "is possible to render other frames of the scene as well. The framebar displays "
 "already rendered frames in *dark grey*, frames that have yet to be rendered in "
 "*light red*, and the current frame, while being rendered in *light green* and "
-"when already rendered in *light grey**."
+"when already rendered in *light grey*."
 msgstr ""
 "Al cambiar el fotograma actual, por ejemplo al usar los botones de "
 "reproducción, también será posible procesar otros fotogramas de la escena. La "
@@ -210,10 +211,12 @@ msgid "**To define a preview Sub-camera for the current camera:**"
 msgstr "**Para definir una región para la cámara activa:**"
 
 #: ../../source/rendering_the_animation.rst:51
-msgid "Activate the **Define Sub-camera** button () in the viewer bottom bar."
+msgid ""
+"Activate the **Define Sub-camera** button (|define_preview_subcamera|) in the "
+"viewer bottom bar."
 msgstr ""
-"Activar el botón **Definir región** (|define_preview_subcamera|) a la izquierda "
-"de la barra inferior del Visor."
+"Desactivar el botón **Definir región** (|define_preview_subcamera|) a la "
+"izquierda de la barra inferior del Visor."
 
 #: ../../source/rendering_the_animation.rst:53
 msgid ""
@@ -281,20 +284,20 @@ msgid "**To save previewed frames:**"
 msgstr "**Para guardar fotogramas previsualizados:**"
 
 #: ../../source/rendering_the_animation.rst:73
-#: ../../source/rendering_the_animation.rst:239
-#: ../../source/rendering_the_animation.rst:251
-#: ../../source/rendering_the_animation.rst:277
-#: ../../source/rendering_the_animation.rst:291
-#: ../../source/rendering_the_animation.rst:309
-#: ../../source/rendering_the_animation.rst:347
-#: ../../source/rendering_the_animation.rst:359
-#: ../../source/rendering_the_animation.rst:686
-#: ../../source/rendering_the_animation.rst:696
-#: ../../source/rendering_the_animation.rst:781
-#: ../../source/rendering_the_animation.rst:805
-#: ../../source/rendering_the_animation.rst:813
-#: ../../source/rendering_the_animation.rst:821
-#: ../../source/rendering_the_animation.rst:829
+#: ../../source/rendering_the_animation.rst:243
+#: ../../source/rendering_the_animation.rst:255
+#: ../../source/rendering_the_animation.rst:281
+#: ../../source/rendering_the_animation.rst:295
+#: ../../source/rendering_the_animation.rst:313
+#: ../../source/rendering_the_animation.rst:351
+#: ../../source/rendering_the_animation.rst:363
+#: ../../source/rendering_the_animation.rst:690
+#: ../../source/rendering_the_animation.rst:700
+#: ../../source/rendering_the_animation.rst:785
+#: ../../source/rendering_the_animation.rst:809
+#: ../../source/rendering_the_animation.rst:817
+#: ../../source/rendering_the_animation.rst:825
+#: ../../source/rendering_the_animation.rst:833
 msgid "Do one of the following:"
 msgstr "Realizar una de las siguientes acciones:"
 
@@ -313,19 +316,38 @@ msgstr ""
 "en el menú."
 
 #: ../../source/rendering_the_animation.rst:79
-#: ../../source/rendering_the_animation.rst:315
-msgid ""
-"Use the Browser to choose a name, a format and a location for the file to be "
-"saved."
+msgid "Use the Browser to choose a name and location for the file to be saved."
 msgstr ""
 "Usar el Explorador de archivos para elegir una ubicación y nombre para los "
 "archivos a ser guardados."
 
-#: ../../source/rendering_the_animation.rst:85
+#: ../../source/rendering_the_animation.rst:81
+msgid ""
+"The saved files format will be the one currently defined in the **Output "
+"Settings** dialog, and the format options used at save time will also be the "
+"ones defined by using the **Options** button there (see  :ref:`Choosing the "
+"Output Settings <choosing_the_output_settings>`  )."
+msgstr ""
+"El formato de los archivos a ser guardados será el actualmente definido en el "
+"diálogo **Opciones de salida**, y las opciones de dicho formato usadas al "
+"guardar los archivos serán las que se definan al presionar el botón "
+"**Opciones** en el mismo diálogo (ver  :ref:`Elección de Opciones de salida "
+"<choosing_the_output_settings>`  )."
+
+#: ../../source/rendering_the_animation.rst:83
+msgid ""
+"The saved files *color depth* will always be 8 bit, regardless of the options "
+"chosen in the Output Settings or Preview Settings dialogs."
+msgstr ""
+"La *profundidad de color* de los archivos guardados será siempre de 8 bits, sin "
+"importar qué opciones hayan sido elegidas en los diálogos Opciones de salida y "
+"Opciones de previsualización."
+
+#: ../../source/rendering_the_animation.rst:89
 msgid "Using the Preview Window"
 msgstr "Uso de la ventana de previsualización"
 
-#: ../../source/rendering_the_animation.rst:86
+#: ../../source/rendering_the_animation.rst:90
 msgid ""
 "The animation can be previewed in a separate window according to specific "
 "*Preview Settings*, that can be different from the *Output Settings*. In this "
@@ -338,7 +360,7 @@ msgstr ""
 "para que sea calculada de manera más rápida que el procesamiento final, por "
 "ejemplo al usar una cámara de menor resolución."
 
-#: ../../source/rendering_the_animation.rst:88
+#: ../../source/rendering_the_animation.rst:92
 msgid ""
 "It is possible to define the range of previewed frames both in the Preview "
 "Settings and by using the Playback Markers in the Xsheet/Timeline: any change "
@@ -354,7 +376,7 @@ msgstr ""
 "fotogramas en blanco al final de cada previsualización, cuando se está en modo "
 "de repetición."
 
-#: ../../source/rendering_the_animation.rst:90
+#: ../../source/rendering_the_animation.rst:94
 msgid ""
 "It is possible to activate the Preferences  →  Preview  →  **Fit to Flipbook** "
 "option to ensure that the previewed images fit the size of the preview window, "
@@ -365,7 +387,7 @@ msgstr ""
 "previsualizados se ajusten a la ventana del Reproductor, independientemente de "
 "su resolución."
 
-#: ../../source/rendering_the_animation.rst:92
+#: ../../source/rendering_the_animation.rst:96
 msgid ""
 "It is possible to clone the Preview window, or to automatically open as many "
 "Preview windows as needed by activating the Preferences  →  Preview  →  "
@@ -380,11 +402,11 @@ msgstr ""
 "usando las funciones del Reproductor (ver  :ref:`Uso del Reproductor "
 "<using_the_flipbook>` )."
 
-#: ../../source/rendering_the_animation.rst:94
+#: ../../source/rendering_the_animation.rst:98
 msgid "|preview_settings_dialog|"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:96
+#: ../../source/rendering_the_animation.rst:100
 msgid ""
 "As when changes are made in the scene all the preview windows automatically "
 "update, it is possible to check the animation before and after some editing by "
@@ -395,7 +417,7 @@ msgstr ""
 "animación antes y después de cualquier edición, *congelando* cualquiera de las "
 "ventanas de previsualización."
 
-#: ../../source/rendering_the_animation.rst:98
+#: ../../source/rendering_the_animation.rst:102
 msgid ""
 "The Preview window framebar displays rendered frames in *grey*, frames that "
 "have yet to be rendered in *light red*, and the current frame that is being "
@@ -406,7 +428,7 @@ msgstr ""
 "claro* y el fotograma actual, mientras se encuentra siendo calculado, en *verde "
 "claro*."
 
-#: ../../source/rendering_the_animation.rst:100
+#: ../../source/rendering_the_animation.rst:104
 msgid ""
 "To optimize the preview time, only the area visible in the Preview window will "
 "be rendered: if you zoom out the Viewer the preview will resume to render the "
@@ -416,7 +438,7 @@ msgstr ""
 "ventana de Previsualización será procesada: si se alejara el Visor, la "
 "previsualización retomará el cálculo para procesar la nueva área visualizada."
 
-#: ../../source/rendering_the_animation.rst:102
+#: ../../source/rendering_the_animation.rst:106
 msgid ""
 "The Preview Settings dialog lets you define the resolution, range, step and "
 "shrink of the preview frames. Settings are the following:"
@@ -425,39 +447,39 @@ msgstr ""
 "rango, intervalo y factor de reducción de los fotogramas a ser previsualizados. "
 "Las opciones son las siguientes:"
 
-#: ../../source/rendering_the_animation.rst:104
+#: ../../source/rendering_the_animation.rst:108
 msgid ""
 "**Output Camera:** sets which camera, among the ones defined in the scene, has "
 "to be used to set the resolution and preview the animation."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:106
+#: ../../source/rendering_the_animation.rst:110
 msgid ""
 "**Frame Start:** and **End:** set the frame range of the scene to preview; by "
 "default these values refer to the whole scene length."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:108
+#: ../../source/rendering_the_animation.rst:112
 msgid ""
 "**Step:** sets the step for the rendered sequence; for example if it is two, "
 "one frame each two will be rendered."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:110
+#: ../../source/rendering_the_animation.rst:114
 msgid ""
 "**Shrink:** sets the reduction value for the previewed sequence resolution; for "
 "example if it is 2, one pixel each two will be rendered, thus resulting in "
 "previewed frames having half of the original output camera resolution."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:112
+#: ../../source/rendering_the_animation.rst:116
 msgid ""
 "**Apply Shrink to Main Viewer** if activated uses the shrink value set in the "
 "preview settings to the preview mode of the viewer as well (see  :ref:"
 "`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:114
+#: ../../source/rendering_the_animation.rst:118
 msgid ""
 "**Resample Balance:** controls the resample that is used when images are scaled "
 "or rotated. In scenes where images are strongly resampled, for instance when "
@@ -466,7 +488,7 @@ msgid ""
 "rendered frames."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:116
+#: ../../source/rendering_the_animation.rst:120
 msgid ""
 "There are several options to choose from. Originally *Toonz* provided three "
 "options: **Standard**, **Improved**, **High**. The higher the balance chosen, "
@@ -475,13 +497,13 @@ msgid ""
 "final results in a wider range of situations."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:119
+#: ../../source/rendering_the_animation.rst:123
 msgid ""
 "**Channel Width:** sets the color depth for rendered images; choices are 8 bit "
 "or 16 bit per color channel."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:121
+#: ../../source/rendering_the_animation.rst:125
 msgid ""
 "**Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many "
 "processors will be assigned to the previewing process. Setting the value to All "
@@ -491,7 +513,7 @@ msgid ""
 "higher the dedicated CPUs, the more the memory required to perform the preview."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:123
+#: ../../source/rendering_the_animation.rst:127
 msgid ""
 "**Render Tile:** allows the preview of very complex scenes whose frames will be "
 "computed in tiles that are automatically stitched to create the final preview: "
@@ -503,102 +525,102 @@ msgid ""
 "than the None option, and yet is able to preview complex scenes."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:125
+#: ../../source/rendering_the_animation.rst:129
 msgid ""
 "**Use Sub-camera**, when activated, uses the sub-camera defined for the "
 "selected camera in the preview frames (see  :ref:`Previewing Frames in the "
 "Viewer <previewing_frames_in_the_viewer>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:128
+#: ../../source/rendering_the_animation.rst:132
 msgid "**To set the scene preview settings:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:130
+#: ../../source/rendering_the_animation.rst:134
 msgid "Choose File  →  **Preview Settings**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:132
+#: ../../source/rendering_the_animation.rst:136
 msgid "Set the options you want to use for the preview."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:134
+#: ../../source/rendering_the_animation.rst:138
 msgid "**To open the preview window:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:136
+#: ../../source/rendering_the_animation.rst:140
 msgid "Choose File  →  **Preview**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:138
+#: ../../source/rendering_the_animation.rst:142
 msgid "**To clone the preview window:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:140
+#: ../../source/rendering_the_animation.rst:144
 msgid ""
 "Right-click in the Flipbook window and choose **Clone Preview** from the menu "
 "that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:142
+#: ../../source/rendering_the_animation.rst:146
 msgid "**To freeze the preview rendering:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:144
+#: ../../source/rendering_the_animation.rst:148
 msgid ""
 "Right-click in the Flipbook window and choose **Freeze Preview** from the menu "
 "that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:146
+#: ../../source/rendering_the_animation.rst:150
 msgid "**To open a new Flipbook window every time you run a preview:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:148
-#: ../../source/rendering_the_animation.rst:154
-#: ../../source/rendering_the_animation.rst:160
-#: ../../source/rendering_the_animation.rst:285
+#: ../../source/rendering_the_animation.rst:152
+#: ../../source/rendering_the_animation.rst:158
+#: ../../source/rendering_the_animation.rst:164
+#: ../../source/rendering_the_animation.rst:289
 msgid "In File  →  Preferences  →  Preview."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:150
+#: ../../source/rendering_the_animation.rst:154
 msgid "Activate the **Display in a New Flipbook Window** option."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:152
+#: ../../source/rendering_the_animation.rst:156
 msgid "**To rewind the preview content automatically after playback:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:156
+#: ../../source/rendering_the_animation.rst:160
 msgid "Activate the **Rewind After Playback** option."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:158
+#: ../../source/rendering_the_animation.rst:162
 msgid "**To display blank frames after each preview playback when looping:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:162
-#: ../../source/rendering_the_animation.rst:663
-#: ../../source/rendering_the_animation.rst:706
-#: ../../source/rendering_the_animation.rst:795
+#: ../../source/rendering_the_animation.rst:166
+#: ../../source/rendering_the_animation.rst:667
+#: ../../source/rendering_the_animation.rst:710
+#: ../../source/rendering_the_animation.rst:799
 msgid "Do any of the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:164
+#: ../../source/rendering_the_animation.rst:168
 msgid ""
 "Use **Blank Frames** option to set how many blank frames you want to be "
 "displayed after each preview playback, when looping."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:166
+#: ../../source/rendering_the_animation.rst:170
 msgid "Use **Blank Frames Color** option to set the color for the blank frames."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:172
+#: ../../source/rendering_the_animation.rst:176
 msgid "Previewing and Caching Effect Nodes in the Schematic"
 msgstr "Previsualización y caché de nodos de efectos en el Diagrama"
 
-#: ../../source/rendering_the_animation.rst:173
+#: ../../source/rendering_the_animation.rst:177
 msgid ""
 "The Preview window can also be opened from the FX Schematic, to check the "
 "compositing result up to a specific node. The behaviour of the FX Schematic "
@@ -606,20 +628,20 @@ msgid ""
 "Window <using_the_preview_window>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:175
+#: ../../source/rendering_the_animation.rst:179
 msgid ""
 "In case the Sub-camera is used, the Preview window will fit the Sub-camera area "
 "(see  :ref:`Using the Preview Window <using_the_preview_window>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:177
+#: ../../source/rendering_the_animation.rst:181
 msgid ""
 "It is also possible to cache the preview up to a specific node, so that the "
 "result of the compositing up to that node is stored in the computer memory and "
 "will be reused with no need to recompute it the next time the preview is run."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:179
+#: ../../source/rendering_the_animation.rst:183
 msgid ""
 "Of course if something changes in the flow up to the cached node (for example "
 "if an object transformation or an effect parameter is changed), the cached "
@@ -627,40 +649,40 @@ msgid ""
 "run."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:181
+#: ../../source/rendering_the_animation.rst:185
 msgid "**To open a Preview window referring to an FX Schematic node:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:183
+#: ../../source/rendering_the_animation.rst:187
 msgid "Right-click the node and choose **Preview** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:185
+#: ../../source/rendering_the_animation.rst:189
 msgid "**To cache an effect node:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:187
+#: ../../source/rendering_the_animation.rst:191
 msgid ""
 "Right-click the node and choose **Cache FX** from the menu that opens: the "
 "effect node will be displayed with a fold at the bottom right corner to "
 "highlight that it has been cached."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:189
+#: ../../source/rendering_the_animation.rst:193
 msgid "**To uncache an effect node:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:191
+#: ../../source/rendering_the_animation.rst:195
 msgid ""
 "Right-click the node and choose **Cache FX** from the menu that opens: the "
 "cached preview images will be discarded."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:197
+#: ../../source/rendering_the_animation.rst:201
 msgid "Using the Flipbook"
 msgstr "Uso del Reproductor"
 
-#: ../../source/rendering_the_animation.rst:198
+#: ../../source/rendering_the_animation.rst:202
 msgid ""
 "The Flipbook is an image viewer where animation levels, images, clips and "
 "rendered frames can be displayed. In OpenToonz it is used to display the scene "
@@ -669,42 +691,42 @@ msgid ""
 "the browser or the Xsheet/Timeline, and to display the loaded Color Model."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:200
+#: ../../source/rendering_the_animation.rst:204
 msgid ""
 "The Safe Area is the only element that can be shown or hidden in the Flipbook "
 "when previewing the animation (see  :ref:`Customizing the Viewer "
 "<customizing_the_work_area>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:202
+#: ../../source/rendering_the_animation.rst:206
 msgid ""
 "The Flipbook title bar displays the information about the content on the left, "
 "and the zoom percentage on the right."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:204
+#: ../../source/rendering_the_animation.rst:208
 msgid "At the bottom a customizable set of buttons is available:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:206
+#: ../../source/rendering_the_animation.rst:210
 msgid ""
 "The **Option** button (|option|) sets which buttons and elements have to be "
 "displayed in the bottom bar."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:208
+#: ../../source/rendering_the_animation.rst:212
 msgid ""
 "The **Save Images** button (|save|) opens a browser to save the flipbook "
 "content."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:210
+#: ../../source/rendering_the_animation.rst:214
 msgid ""
 "The **Snapshot** (|snapshot|) and **Compare to Snapshot** (|compare|) buttons "
 "allow the comparison between different frames of the flipbook content."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:212
+#: ../../source/rendering_the_animation.rst:216
 msgid ""
 "The **Define Sub-camera** button (|define_preview_subcamera|) allows the "
 "definition of a region, smaller than the size of the loaded image sequence, "
@@ -714,50 +736,50 @@ msgid ""
 "camera image."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:214
+#: ../../source/rendering_the_animation.rst:218
 msgid ""
 "The **Sub-camera Preview** button (|subcamera_preview|) lets you activate or "
 "deactivate the defined sub-camera region (see above)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:216
+#: ../../source/rendering_the_animation.rst:220
 msgid ""
 "The **Background** color buttons sets a **White** (|preview_white|), **Black** "
 "(|preview_black|) or **Checkered** (|preview_checkboard|) background for "
 "transparent images."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:218
+#: ../../source/rendering_the_animation.rst:222
 msgid ""
 "The framerate slider sets the number of frames per second to be displayed "
 "during playback."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:220
+#: ../../source/rendering_the_animation.rst:224
 msgid ""
 "The playback buttons can be used to play the Flipbook content back and set the "
 "current frame."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:222
+#: ../../source/rendering_the_animation.rst:226
 msgid ""
 "The **Channel** buttons display the Red, Green, Blue and Alpha channels of the "
 "Flipbook content, both in *colors* and *grey-scale*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:224
+#: ../../source/rendering_the_animation.rst:228
 msgid ""
 "The **Histogram** button (|histogram|) opens a window displaying histograms "
 "mapping the amount of the darkest and lightest pixels in each channel."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:226
+#: ../../source/rendering_the_animation.rst:230
 msgid ""
 "If the bottom bar is too short to display all the options, it can be scrolled "
 "by using arrow buttons available at its ends."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:229
+#: ../../source/rendering_the_animation.rst:233
 msgid ""
 "In an opened Flipbook it is possible to load new contents both replacing the "
 "previous animation, or appending the new contents to it. When several Flipbooks "
@@ -766,352 +788,360 @@ msgid ""
 "frames and plays the contents back in *all* the other Flipbooks as well."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:231
+#: ../../source/rendering_the_animation.rst:235
 msgid ""
 "The colors displayed as background in the flipbook can also be customized so "
 "that they can better fit the color scheme of the production."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:233
+#: ../../source/rendering_the_animation.rst:237
 msgid "**To open a Flipbook:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:235
+#: ../../source/rendering_the_animation.rst:239
 msgid "Choose Window  →  **Flipbook**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:237
+#: ../../source/rendering_the_animation.rst:241
 msgid "**To load some contents into a Flipbook:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:241
+#: ../../source/rendering_the_animation.rst:245
 msgid ""
 "Right-click in the Flipbook and choose **Load Images** from the menu that "
 "opens, then use the Browser to retrieve the file you want to load."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:243
+#: ../../source/rendering_the_animation.rst:247
 msgid ""
 "Drag and drop the file you want to load from the OpenToonz file browser to the "
 "Flipbook."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:245
+#: ../../source/rendering_the_animation.rst:249
 msgid "**To append some content to the Flipbook content:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:247
+#: ../../source/rendering_the_animation.rst:251
 msgid ""
 "Right-click in the Flipbook and choose **Append Images** from the menu that "
 "opens, then use the Browser to retrieve the file you want to append to the "
 "current content."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:249
+#: ../../source/rendering_the_animation.rst:253
 msgid "**To navigate the Flipbook content:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:253
+#: ../../source/rendering_the_animation.rst:257
 msgid ""
 "Use the zoom shortcut keys (by default **+** and **-** keys) to zoom in and "
 "zoom out at specific steps (e.g. 50%, 100%, 200%, etc.)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:255
+#: ../../source/rendering_the_animation.rst:259
 msgid "Use the mouse wheel to zoom in and zoom out."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:257
+#: ../../source/rendering_the_animation.rst:261
 msgid "Click and drag to define an area you want to zoom to."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:259
+#: ../../source/rendering_the_animation.rst:263
 msgid ""
 "Use the Reset View shortcut (by default the **Alt + 0** key), or right-click in "
 "the Viewer and choose **Reset View** from the menu that opens, to display the "
 "Flipbook content at its actual size, and centered on the image center."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:261
+#: ../../source/rendering_the_animation.rst:265
 msgid "Middle-click and drag to scroll in any direction."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:263
+#: ../../source/rendering_the_animation.rst:267
 msgid "**To fit the size of the Flipbook window to its content:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:265
+#: ../../source/rendering_the_animation.rst:269
 msgid "Double-click the Flipbook title bar."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:267
+#: ../../source/rendering_the_animation.rst:271
 msgid "**Windows only - to enter/exit the Flipbook full screen mode:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:269
+#: ../../source/rendering_the_animation.rst:273
 msgid ""
 "Right-click the Flipbook and choose **Full Screen Mode** / **Exit Full Screen "
 "Mode** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:271
+#: ../../source/rendering_the_animation.rst:275
 msgid "**To customize the Flipbook bottom bar:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:273
+#: ../../source/rendering_the_animation.rst:277
 msgid ""
 "Use the **Option** button (|option|) to choose which buttons and elements have "
 "to be displayed: only selected items will be displayed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:275
+#: ../../source/rendering_the_animation.rst:279
 msgid "**To play the Flipbook content back:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:279
+#: ../../source/rendering_the_animation.rst:283
 msgid "Use the **Play** button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:281
-#: ../../source/rendering_the_animation.rst:295
+#: ../../source/rendering_the_animation.rst:285
+#: ../../source/rendering_the_animation.rst:299
 msgid "Drag the frame bar cursor."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:283
+#: ../../source/rendering_the_animation.rst:287
 msgid "**To rewind the Flipbook content automatically after playback:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:287
+#: ../../source/rendering_the_animation.rst:291
 msgid "Activate the **Rewind after Playback** option."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:289
+#: ../../source/rendering_the_animation.rst:293
 msgid "**To set the current frame:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:293
+#: ../../source/rendering_the_animation.rst:297
 msgid "Use the playback buttons."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:297
+#: ../../source/rendering_the_animation.rst:301
 msgid "Type in the frame bar field the number of the frame you want to view."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:299
+#: ../../source/rendering_the_animation.rst:303
 msgid "**To link the playback of all the open Flipbook windows:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:301
+#: ../../source/rendering_the_animation.rst:305
 msgid ""
 "Choose View  →  **Link Flipbooks** to activate or deactivate the linked "
 "playback mode."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:303
+#: ../../source/rendering_the_animation.rst:307
 msgid "**To set the playback frame rate:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:305
+#: ../../source/rendering_the_animation.rst:309
 msgid ""
 "Use the frame rate slider; by default the framerate is the one set in the "
 "**Scene Settings** dialog (see  :ref:`Setting the Frame Rate "
 "<setting_the_frame_rate>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:307
+#: ../../source/rendering_the_animation.rst:311
 msgid "**To save the Flipbook content:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:311
+#: ../../source/rendering_the_animation.rst:315
 msgid ""
 "Right-click in the Flipbook and choose **Save Images** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:313
+#: ../../source/rendering_the_animation.rst:317
 msgid "Click the **Save Images** button (|save|) in the Flipbook bottom bar."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:317
+#: ../../source/rendering_the_animation.rst:319
+msgid ""
+"Use the Browser to choose a name, a format and a location for the file to be "
+"saved."
+msgstr ""
+"Usar el Explorador de archivos para elegir una ubicación y nombre para los "
+"archivos a ser guardados."
+
+#: ../../source/rendering_the_animation.rst:321
 msgid "**To take a snapshot of a frame and compare it to another frame:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:319
+#: ../../source/rendering_the_animation.rst:323
 msgid ""
 "Select the frame you want to store and click the **Snapshot** button () in the "
 "Flipbook bottom bar."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:321
+#: ../../source/rendering_the_animation.rst:325
 msgid ""
 "Move to a different frame, or load some different content, and click the "
 "**Compare to Snapshot** button (|snapshot|)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:323
+#: ../../source/rendering_the_animation.rst:327
 msgid ""
 "Click and drag the vertical or horizontal marker to display the taken snapshot "
 "under the current frame."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:325
+#: ../../source/rendering_the_animation.rst:329
 msgid ""
 "Click again the **Compare to Snapshot** button (|compare|) to exit the compare "
 "mode."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:327
+#: ../../source/rendering_the_animation.rst:331
 msgid "**To Define the Loading Box:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:329
+#: ../../source/rendering_the_animation.rst:333
 msgid "Load in the Flipbook the sequence of images you want to visualize."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:331
+#: ../../source/rendering_the_animation.rst:335
 msgid ""
 "Activate the **Define Loading Box** button (|define_preview_subcamera|) in the "
 "Flipbook bottom bar."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:333
+#: ../../source/rendering_the_animation.rst:337
 msgid ""
 "Click and drag in the image to Define the Loading Box; once the box is defined "
 "you can resize it by clicking and dragging its sides and corners, and move it "
 "by clicking and dragging inside it."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:335
+#: ../../source/rendering_the_animation.rst:339
 msgid "**To activate and deactivate the Loading Box:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:337
+#: ../../source/rendering_the_animation.rst:341
 msgid ""
 "Click the **Use Loading Box** button (|subcamera_preview|) in the Flipbook "
 "bottombar to activate or deactivate the loading box."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:339
+#: ../../source/rendering_the_animation.rst:343
 msgid "**To set the Flipbook background color for transparent images:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:341
+#: ../../source/rendering_the_animation.rst:345
 msgid ""
 "Click the **White Background** (|preview_white|), **Black Background** (|"
 "preview_black|) or **Checkered Background** (|preview_checkboard|) buttons in "
 "the Flipbook bottom bar to activate/deactivate the desired background color."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:343
+#: ../../source/rendering_the_animation.rst:347
 msgid ""
 "In the Preview window and when the Viewer is in *Preview mode* the background "
 "color will be visible behind the *Camera BG Color* (see below )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:345
+#: ../../source/rendering_the_animation.rst:349
 msgid "**To set the image channels to be displayed:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:349
+#: ../../source/rendering_the_animation.rst:353
 msgid ""
 "Click the top section of the **Red**, **Green** and **Blue** buttons in the "
 "Flipbook bottom bar to display, or hide, the related *image channel* in colors."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:351
+#: ../../source/rendering_the_animation.rst:355
 msgid ""
 "Click *the bottom* section of the **Red**, **Green** and **Blue** buttons in "
 "the Flipbook bottom bar to display, or hide, the related *image channel* in "
 "grey-scale."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:353
+#: ../../source/rendering_the_animation.rst:357
 msgid ""
 "Click the **Alpha Channel** button in the Flipbook bottom bar to display, or "
 "hide, the image alpha channel."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:355
+#: ../../source/rendering_the_animation.rst:359
 msgid "When no channel button is activated the full image is displayed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:357
+#: ../../source/rendering_the_animation.rst:361
 msgid "**To display the Histograms of the Flipbook content:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:361
+#: ../../source/rendering_the_animation.rst:365
 msgid "Click the **Histogram** button (|histogram|) in the Flipbook bottom bar."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:363
+#: ../../source/rendering_the_animation.rst:367
 msgid ""
 "Right-click the Flipbook content and choose **Show Histogram** from the menu "
 "that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:365
+#: ../../source/rendering_the_animation.rst:369
 msgid "Choose the channel for which you want to see the histogram."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:367
+#: ../../source/rendering_the_animation.rst:371
 msgid "**To define the previewed images background color:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:369
-#: ../../source/rendering_the_animation.rst:381
+#: ../../source/rendering_the_animation.rst:373
+#: ../../source/rendering_the_animation.rst:385
 msgid "Choose Xsheet  →  **Scene Settings...**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:371
+#: ../../source/rendering_the_animation.rst:375
 msgid "Set the **Camera BG Color** by doing one of the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:373
+#: ../../source/rendering_the_animation.rst:377
 msgid "Set the **Red**, **Green** and **Blue** values."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:375
+#: ../../source/rendering_the_animation.rst:379
 msgid ""
 "Click the *color thumbnail* and use the Style Editor to edit it (see  :ref:"
 "`Plain Colors <plain_colors>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:377
+#: ../../source/rendering_the_animation.rst:381
 msgid ""
 "This color is relevant only in the Preview window and when the Viewer is in "
 "*Preview mode*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:379
+#: ../../source/rendering_the_animation.rst:383
 msgid "**To define the Flipbook checkerboard colors:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:383
+#: ../../source/rendering_the_animation.rst:387
 msgid ""
 "Set the **Checkerboard Color 1** and **Color 2** by doing one of the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:385
+#: ../../source/rendering_the_animation.rst:389
 msgid "Set the Red, Green and Blue values."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:387
+#: ../../source/rendering_the_animation.rst:391
 msgid ""
 "Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain "
 "Colors <plain_colors>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:393
+#: ../../source/rendering_the_animation.rst:397
 msgid "Using the Playback Markers"
 msgstr "Uso de Marcadores de reproducción"
 
-#: ../../source/rendering_the_animation.rst:394
+#: ../../source/rendering_the_animation.rst:398
 msgid ""
 "Two markers, **Playback Start Marker** and **Playback End Marker**, are "
 "available in the frame column of the Xsheet (and the frame row of the Timeline) "
 "to define the playback range."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:396
+#: ../../source/rendering_the_animation.rst:400
 msgid ""
 "The user can manually set the playback markers to define the *starting* and "
 "*ending* frames to be considered when playing back the animation, or leave them "
@@ -1119,190 +1149,190 @@ msgid ""
 "the Xsheet/Timeline contents."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:398
+#: ../../source/rendering_the_animation.rst:402
 msgid ""
 "When the playback markers are activated, the frame range in the **Preview "
 "Settings...** dialog changes accordingly (see  :ref:`Using the Preview Window "
 "<using_the_preview_window>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:400
+#: ../../source/rendering_the_animation.rst:404
 msgid "**To set a playback range:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:402
+#: ../../source/rendering_the_animation.rst:406
 msgid "Set the starting frame by doing one of the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:404
+#: ../../source/rendering_the_animation.rst:408
 msgid "Drag the **Playback Start Marker** to the desired frame."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:406
+#: ../../source/rendering_the_animation.rst:410
 msgid ""
 "Right-click on the desired frame in the frame column and select **Set Start "
 "Marker** from the menu that shows."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:408
+#: ../../source/rendering_the_animation.rst:412
 msgid "Set the ending frame by doing one of the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:410
+#: ../../source/rendering_the_animation.rst:414
 msgid "Drag the **Playback End Marker** to the desired frame."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:412
+#: ../../source/rendering_the_animation.rst:416
 msgid ""
 "Right-click on the desired frame in the frame column and select **Set Stop "
 "Marker** from the menu that shows."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:414
+#: ../../source/rendering_the_animation.rst:418
 msgid ""
 "**To set the playback range to match the duration of a block of contiguous "
 "exposed cells:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:416
+#: ../../source/rendering_the_animation.rst:420
 msgid "In the Xsheet/Timeline, select an exposed cell from the desired column."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:418
+#: ../../source/rendering_the_animation.rst:422
 msgid ""
 "Right-click on the desired frame in the frame column and select **Set Auto "
 "Markers** from the menu that shows."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:420
+#: ../../source/rendering_the_animation.rst:424
 msgid ""
 "There must be an exposed cell in that column at that frame for the **Set Auto "
 "Markers** option to be available."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:422
+#: ../../source/rendering_the_animation.rst:426
 msgid ""
 "No matter to what block of contiguous exposed cells the selected cell belongs "
 "to, this function will take into account the frame in which the user performed "
 "the right click operation to set the markers."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:424
+#: ../../source/rendering_the_animation.rst:428
 msgid "**To set a single-frame playback range:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:426
+#: ../../source/rendering_the_animation.rst:430
 msgid ""
 "Right-click on the desired frame in the frame column and select **Preview "
 "This** from the menu that shows."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:428
+#: ../../source/rendering_the_animation.rst:432
 msgid "**To unset the playback markers:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:430
+#: ../../source/rendering_the_animation.rst:434
 msgid ""
 "Right click on the frame column and select **Remove Markers** from the menu "
 "that shows."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:432
+#: ../../source/rendering_the_animation.rst:436
 msgid "When deactivated, playback markers turn *grey*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:437
+#: ../../source/rendering_the_animation.rst:441
 msgid "Rendering the Animation"
 msgstr "Procesamiento de una animación"
 
-#: ../../source/rendering_the_animation.rst:438
+#: ../../source/rendering_the_animation.rst:442
 msgid ""
 "Final animations can be rendered directly by loading the related scene, or in "
 "batch mode. In both cases the rendering properties are defined in the Output "
 "Settings dialog."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:440
+#: ../../source/rendering_the_animation.rst:444
 msgid ""
 "Information about the scene name and frame number can be included when needed "
 "in rendered frames by activating the Show Info in Rendered Frames option in the "
 "Preferences  →  General dialog."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:446
+#: ../../source/rendering_the_animation.rst:450
 msgid "Choosing the Output Settings"
 msgstr "Elección de Opciones de salida"
 
-#: ../../source/rendering_the_animation.rst:447
+#: ../../source/rendering_the_animation.rst:451
 msgid ""
 "The Output Settings dialog lets you define the file format, location and "
 "properties for the final rendering. Settings are the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:449
+#: ../../source/rendering_the_animation.rst:453
 msgid "|output_settings_dialog|"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:454
+#: ../../source/rendering_the_animation.rst:458
 msgid "Camera Settings"
 msgstr "Opciones de cámara"
 
-#: ../../source/rendering_the_animation.rst:456
+#: ../../source/rendering_the_animation.rst:460
 msgid ""
 "**Output Camera:** sets which camera, among the ones defined in the scene, has "
 "to be used to render the animation."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:458
+#: ../../source/rendering_the_animation.rst:462
 msgid ""
 "**Frame Size** sets the frame size of the current camera, also available in the "
 "Xsheet  →  **Camera Settings...** dialog (see  :ref:`Defining Camera Settings "
 "<defining_camera_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:460
+#: ../../source/rendering_the_animation.rst:464
 msgid ""
 "**Frame Start:** and **End:** set the frame range of the scene to render; by "
 "default these values refer to the whole scene length."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:462
+#: ../../source/rendering_the_animation.rst:466
 msgid ""
 "**Step:** sets the step for the rendered sequence; for example if it is 2, one "
 "frame each two will be rendered."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:464
+#: ../../source/rendering_the_animation.rst:468
 msgid ""
 "**Shrink:** sets a reduction value for the defined render resolution; for "
 "example if it is 2, one pixel each two will be rendered, thus resulting in "
 "frames having half of the original output camera resolution."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:469
+#: ../../source/rendering_the_animation.rst:473
 msgid "File Settings"
 msgstr "Opciones de archivo"
 
-#: ../../source/rendering_the_animation.rst:471
+#: ../../source/rendering_the_animation.rst:475
 msgid ""
 "**Save in:** is for setting the location where the output is saved; the "
 "location can be set by typing or by using the Browser button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:473
+#: ../../source/rendering_the_animation.rst:477
 msgid ""
 "If in the Browser you choose any default folder of the active project, in the "
 "path field the full path will be replaced by the related default folder alias "
 "(see  :ref:`Project Default Folders <project_default_folders>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:475
+#: ../../source/rendering_the_animation.rst:479
 msgid ""
 "**Name:** is the name you want to assign to the output file; by default it's "
 "the name of the scene."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:477
+#: ../../source/rendering_the_animation.rst:481
 msgid ""
 "In case the chosen file format produces image sequences, the base name will be "
 "assigned to all rendered frames, that will be identified by a progressive four-"
@@ -1313,20 +1343,20 @@ msgid ""
 "level when loaded back into OpenToonz."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:479
+#: ../../source/rendering_the_animation.rst:483
 msgid ""
 "**File Format** is the format for the output; natively supported formats are "
 "the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, "
 "TGA, TIF and TIFF."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:481
+#: ../../source/rendering_the_animation.rst:485
 msgid ""
 "OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of "
 "QuickTime."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:483
+#: ../../source/rendering_the_animation.rst:487
 msgid ""
 "To save in other popular video formats, like MP4 and WebM, OpenToonz uses "
 "FFmpeg (a free software project that produces libraries and programs for "
@@ -1337,20 +1367,20 @@ msgid ""
 "<using_ffmpeg_with_opentoonz>`  ."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:485
+#: ../../source/rendering_the_animation.rst:489
 msgid ""
 "Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output "
 "image sequences."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:487
+#: ../../source/rendering_the_animation.rst:491
 msgid ""
 "**Options** button, opens a dialog to set specific properties related to the "
 "chosen file format, such as codecs for video files, color depth for TIF images, "
 "etc."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:489
+#: ../../source/rendering_the_animation.rst:493
 msgid ""
 "**Resample Balance:** controls the resample that is used when images are scaled "
 "or rotated. In scenes where images are strongly resampled, for instance when "
@@ -1359,7 +1389,7 @@ msgid ""
 "back to the rendered frames."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:491
+#: ../../source/rendering_the_animation.rst:495
 msgid ""
 "There are several options to choose from. Originally Toonz provided only three "
 "options: **Standard**, **Improved**, and **High**. The higher the balance "
@@ -1371,7 +1401,7 @@ msgid ""
 "convolution**, **Closest Pixel** and **Bilinear**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:493
+#: ../../source/rendering_the_animation.rst:497
 msgid ""
 "**Channel Width:** sets the color depth for rendered images; choices are **8 "
 "bit** and **16 bit** per color channel. If using the 16 bit channel width, be "
@@ -1379,7 +1409,7 @@ msgid ""
 "format with the **64 Bits Per Pixel** option activated."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:495
+#: ../../source/rendering_the_animation.rst:499
 msgid ""
 "**Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many "
 "processor threads will be assigned to the rendering process. Setting the value "
@@ -1391,7 +1421,7 @@ msgid ""
 "longer rendering times or system instability."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:497
+#: ../../source/rendering_the_animation.rst:501
 msgid ""
 "**Render Tile:** allows the rendering of complex scenes, by dividing each frame "
 "in a certain number of *tiles*, which are individually rendered and finally "
@@ -1405,11 +1435,11 @@ msgid ""
 "render complex scenes."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:502
+#: ../../source/rendering_the_animation.rst:506
 msgid "Other Settings"
 msgstr "Otras opciones"
 
-#: ../../source/rendering_the_animation.rst:504
+#: ../../source/rendering_the_animation.rst:508
 msgid ""
 "**Add Clapperboard** allows to add a Clapperboard. A clapperboard is a static "
 "image intended to display information of the scene. It will be added before the "
@@ -1417,13 +1447,13 @@ msgid ""
 "of the pipeline."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:506
+#: ../../source/rendering_the_animation.rst:510
 msgid ""
 "For this option to be enabled you must first choose any video file format from "
 "the **File Format** dropdown menu (i.e. 3GP, AVI, MOV, MP4 or WebM)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:508
+#: ../../source/rendering_the_animation.rst:512
 msgid ""
 "**Edit Clapperboard...** button, opens a dialog for designing the clapperboard "
 "and setting its properties. For detailed information on using the Clapperboard "
@@ -1431,20 +1461,20 @@ msgid ""
 "<using_the_clapperboard>`  section."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:510
+#: ../../source/rendering_the_animation.rst:514
 msgid ""
 "**Gamma:** performs a gamma correction on rendered images before writing them "
 "to a file; the value you specify can include decimal fractions."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:512
+#: ../../source/rendering_the_animation.rst:516
 msgid ""
 "**Dominant Field:** allows you to render two images per frame, then keeping "
 "only *odd* lines from one image, and *even* lines from the other to compose a "
 "final frame. This process is called *interlacing*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:514
+#: ../../source/rendering_the_animation.rst:518
 msgid ""
 "*Interlaced* images are useful when experiencing a strobe effect due to a fast "
 "camera or object movement, as all movement interpolation will be effectively "
@@ -1452,7 +1482,7 @@ msgid ""
 "just one full *progresive* frame), thus becoming smoother."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:516
+#: ../../source/rendering_the_animation.rst:520
 msgid ""
 "Field rendering is only relevant for scenes that are intended for video output. "
 "Options are **None** (for rendering *progresive* frames), **Even (PAL)** and "
@@ -1461,21 +1491,21 @@ msgid ""
 "standard you are outputting to."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:518
+#: ../../source/rendering_the_animation.rst:522
 msgid ""
 "**Frame Rate**: is the frame rate of the scene, also available in the Xsheet  "
 "→  **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate "
 "<setting_the_frame_rate>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:520
+#: ../../source/rendering_the_animation.rst:524
 msgid ""
 "**Stretch from FPS:  To:** changes the timing of the Xsheet when outputting "
 "files; in this way you can output a number of frames that is independent from "
 "the frame rate set in the scene settings."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:522
+#: ../../source/rendering_the_animation.rst:526
 msgid ""
 "For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 "
 "seconds of animation. If you need to transfer the frame rate to 30 fps using "
@@ -1486,7 +1516,7 @@ msgid ""
 "(6 seconds multiplied by 30 fps is equal to 180 frames)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:524
+#: ../../source/rendering_the_animation.rst:528
 msgid ""
 "When going from a higher frame rate to a lower one, some level drawings will "
 "not be used because the number of output frames decreases. When doing the "
@@ -1496,7 +1526,7 @@ msgid ""
 "keep all the interpolations as smooth as possible."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:526
+#: ../../source/rendering_the_animation.rst:530
 msgid ""
 "When the field rendering is used (by using the **Dominant Field** option) and "
 "the **Stretch** feature is set for passing from a lower frame rate to a higher "
@@ -1504,14 +1534,14 @@ msgid ""
 "frames."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:528
+#: ../../source/rendering_the_animation.rst:532
 msgid ""
 "The **Particles** effect may have unexpected results when the scene is "
 "stretched to a higher FPS value, as the effect requires the original timing "
 "information."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:530
+#: ../../source/rendering_the_animation.rst:534
 msgid ""
 "**Multiple Rendering:** creates automatically for a single scene several output "
 "files based on the Xsheet columns content, and according to the FX Schematic. "
@@ -1520,7 +1550,7 @@ msgid ""
 "<creating_multiple_renderings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:532
+#: ../../source/rendering_the_animation.rst:536
 msgid ""
 "**Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each "
 "frame will be rendered from two different camera view creating two sequences of "
@@ -1528,50 +1558,50 @@ msgid ""
 "used to identify sequences."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:534
+#: ../../source/rendering_the_animation.rst:538
 msgid "**Camera Shift:** sets the distance between the two camera views."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:536
+#: ../../source/rendering_the_animation.rst:540
 msgid ""
 "For working properly at least some elements of the scene must have **Z-Depth** "
 "values other than 0 in their positioning. OpenToonz uses these values and the "
 "**Camera Shift** parameter for rendering the stereoscopic effect."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:538
+#: ../../source/rendering_the_animation.rst:542
 msgid ""
 "**Render** button, starts rendering the scene using the current render settings."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:540
+#: ../../source/rendering_the_animation.rst:544
 msgid "**To set the scene output settings:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:542
+#: ../../source/rendering_the_animation.rst:546
 msgid "Choose File  →  Output Settings."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:544
+#: ../../source/rendering_the_animation.rst:548
 msgid "Set the options you want to use for the final rendering."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:550
+#: ../../source/rendering_the_animation.rst:554
 msgid "Using The Clapperboard"
 msgstr "Uso de la Claqueta"
 
-#: ../../source/rendering_the_animation.rst:551
+#: ../../source/rendering_the_animation.rst:555
 msgid ""
 "A clapperboard is a static image intended to display information of the scene. "
 "It will be added before the rendered frames, in order to record and convey "
 "information to subsequent phases of the pipeline."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:553
+#: ../../source/rendering_the_animation.rst:557
 msgid "|clapperboard|"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:555
+#: ../../source/rendering_the_animation.rst:559
 msgid ""
 "The clapperboard consists of board *items*. At the bottom-right of the "
 "Clapperboard Settings dialog there is a list of all the clapperboard items, "
@@ -1580,7 +1610,7 @@ msgid ""
 "or **Remove** buttons."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:559
+#: ../../source/rendering_the_animation.rst:563
 msgid ""
 "Settings for the *currently selected* item are displayed above the items list, "
 "at the top-right of the Clapperboard Settings dialog. Each item has an "
@@ -1591,7 +1621,7 @@ msgid ""
 "Clapperboard."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:563
+#: ../../source/rendering_the_animation.rst:567
 msgid ""
 "The settings can be saved as a *Preset* in order to be reused later, using the "
 "**Save as Preset** and **Load Preset** buttons. They can also be stored in the "
@@ -1599,7 +1629,7 @@ msgid ""
 "command."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:566
+#: ../../source/rendering_the_animation.rst:570
 msgid ""
 "WARNING: Adding the Clapperboard will make the scene file to lose compatibility "
 "with older versions of OpenToonz. Setting the **Duration:** back to 0 will "
@@ -1607,72 +1637,72 @@ msgid ""
 "restored."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:568
+#: ../../source/rendering_the_animation.rst:572
 msgid "**To Add a Clapperboard:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:570
-#: ../../source/rendering_the_animation.rst:586
-#: ../../source/rendering_the_animation.rst:592
+#: ../../source/rendering_the_animation.rst:574
+#: ../../source/rendering_the_animation.rst:590
+#: ../../source/rendering_the_animation.rst:596
 msgid "Open the File  →  Output Settings... dialog."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:572
+#: ../../source/rendering_the_animation.rst:576
 msgid ""
 "Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:574
-#: ../../source/rendering_the_animation.rst:594
+#: ../../source/rendering_the_animation.rst:578
+#: ../../source/rendering_the_animation.rst:598
 msgid "Open **Other Settings** group box."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:576
+#: ../../source/rendering_the_animation.rst:580
 msgid "Enable the **Add Clapperboard** option."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:578
-#: ../../source/rendering_the_animation.rst:596
+#: ../../source/rendering_the_animation.rst:582
+#: ../../source/rendering_the_animation.rst:600
 msgid ""
 "Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog "
 "opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:580
+#: ../../source/rendering_the_animation.rst:584
 msgid "Set the **Duration (frames):** option to any value greater than 0."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:582
+#: ../../source/rendering_the_animation.rst:586
 msgid ""
 "Setting the duration to 0 frames will remove the clapperboard data from the "
 "scene when it's saved."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:584
+#: ../../source/rendering_the_animation.rst:588
 msgid "**To temporarily deactivate the Clapperboard:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:588
+#: ../../source/rendering_the_animation.rst:592
 msgid "Disable the **Add Clapperboard** option."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:590
+#: ../../source/rendering_the_animation.rst:594
 msgid "**To Delete the Clapperboard:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:598
+#: ../../source/rendering_the_animation.rst:602
 msgid "Set the **Duration (frames):** option value to 0."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:600
+#: ../../source/rendering_the_animation.rst:604
 msgid "Save the scene."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:606
+#: ../../source/rendering_the_animation.rst:610
 msgid "Creating Multiple Renderings"
 msgstr "Procesamiento múltiple"
 
-#: ../../source/rendering_the_animation.rst:607
+#: ../../source/rendering_the_animation.rst:611
 msgid ""
 "With **Multiple Rendering:** it's possible to render automatically, from a "
 "single scene, several output files based on the Xsheet columns content and "
@@ -1680,21 +1710,21 @@ msgid ""
 "**FX Schematic Terminal Nodes**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:609
+#: ../../source/rendering_the_animation.rst:613
 msgid ""
 "**Flows**: creates as many outputs as the **flows connecting the column nodes "
 "to the Xsheet node**. Any effect nodes with multiple input ports met along the "
 "flow (such as Matte effects) will be ignored."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:611
+#: ../../source/rendering_the_animation.rst:615
 msgid ""
 "**Terminal Nodes**: creates as many outputs as the **number of nodes linked to "
 "the Xsheet node**; all the columns and effects linked to each of these nodes "
 "will be taken into account for the rendering."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:613
+#: ../../source/rendering_the_animation.rst:617
 msgid ""
 "The names of the different output files are automatically generated in order to "
 "avoid any name conflict between file names. In particular they are built by "
@@ -1706,13 +1736,13 @@ msgid ""
 "(whose ID is Col3) to the effect node My Blur (whose ID is Blur1)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:615
+#: ../../source/rendering_the_animation.rst:619
 msgid ""
 "No output will be displayed after the rendering, regardless of **Open Flipbook "
 "after Rendering** being activated in Preferences  →  Preview dialog."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:617
+#: ../../source/rendering_the_animation.rst:621
 msgid ""
 "If you need more control on the way scene elements are rendered, you may "
 "consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-"
@@ -1722,50 +1752,50 @@ msgid ""
 "Over nodes in case of **Terminal Nodes** type multiple rendering."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:623
+#: ../../source/rendering_the_animation.rst:627
 msgid "Rendering Animations with Alpha Channel Information"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:624
+#: ../../source/rendering_the_animation.rst:628
 msgid ""
 "It's possible to render a scene with a transparent background color in order to "
 "export it to editing systems supporting alpha channel information."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:626
+#: ../../source/rendering_the_animation.rst:630
 msgid ""
 "In this case no image has to be used as background, and the output file format "
 "has to support alpha channel information, e.g. TIF at 32 or 64 bits per pixel, "
 "TGA at 32 bits per pixel, or MOV with codecs supporting alpha (i.e. Animation)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:628
+#: ../../source/rendering_the_animation.rst:632
 msgid "**To render animation with alpha channel information:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:630
+#: ../../source/rendering_the_animation.rst:634
 msgid "Choose Xsheet  →  **Scene Settings...**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:632
+#: ../../source/rendering_the_animation.rst:636
 msgid "Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent)."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:634
+#: ../../source/rendering_the_animation.rst:638
 msgid "Choose an output file format supporting alpha channel information."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:640
+#: ../../source/rendering_the_animation.rst:644
 msgid "Rendering A Loaded Scene"
 msgstr "Procesamiento de una escena cargada"
 
-#: ../../source/rendering_the_animation.rst:641
+#: ../../source/rendering_the_animation.rst:645
 msgid ""
 "The current scene can be rendered directly while being loaded in OpenToonz "
 "according to the defined Output Settings."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:643
+#: ../../source/rendering_the_animation.rst:647
 msgid ""
 "By choosing the appropriate range in the Output Settings it's possible to "
 "render the scene in chunks, for example by rendering a section first, and then "
@@ -1776,7 +1806,7 @@ msgid ""
 "because some corrections were needed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:645
+#: ../../source/rendering_the_animation.rst:649
 msgid ""
 "If the scene contains some audio files and is rendered in a file format "
 "supporting audio (for example MP4), all the audio files will be merged to form "
@@ -1784,13 +1814,13 @@ msgid ""
 "<creating_a_soundtrack>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:647
+#: ../../source/rendering_the_animation.rst:651
 msgid ""
 "Audio files loaded in Sub-Xsheets will not be included in the output soundtrack "
 "(see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:649
+#: ../../source/rendering_the_animation.rst:653
 msgid ""
 "As soon as the rendering is over, the rendered animation can be automatically "
 "displayed in a OpenToonz Flipbook by activating the **Open Flipbook after "
@@ -1800,68 +1830,68 @@ msgid ""
 "it."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:651
+#: ../../source/rendering_the_animation.rst:655
 msgid ""
 "When displayed in the Flipbook, the rendering can be checked by using the "
 "Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:653
+#: ../../source/rendering_the_animation.rst:657
 msgid ""
 "You can also activate the **Use Default Viewer for Movie Format** option in the "
 "Preferences  →  General dialog, in order to play back the output with its own "
 "default viewer, e.g. QuickTime Player for the MOV format."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:655
+#: ../../source/rendering_the_animation.rst:659
 msgid "**To render the currently loaded scene:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:657
+#: ../../source/rendering_the_animation.rst:661
 msgid "Choose File  →  **Render**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:659
+#: ../../source/rendering_the_animation.rst:663
 msgid "**To display blank frames after each rendering playback when looping:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:661
+#: ../../source/rendering_the_animation.rst:665
 msgid "Choose File  →  Preferences  →  **Preview**."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:665
+#: ../../source/rendering_the_animation.rst:669
 msgid ""
 "In **Blank Frames:** set how many blank frames you want to be displayed after "
 "each preview playback, when looping."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:667
+#: ../../source/rendering_the_animation.rst:671
 msgid "In **Blank Frames Color:** set the color for the blank frames."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:673
+#: ../../source/rendering_the_animation.rst:677
 msgid "Rendering Scenes in Batch Mode"
 msgstr "Procesamiento de escenas por lotes"
 
-#: ../../source/rendering_the_animation.rst:674
+#: ../../source/rendering_the_animation.rst:678
 msgid ""
 "The rendering of a scene can be added to a task list and performed in batch "
 "mode, in order to run it in the background while you perform other work on your "
 "computer."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:676
+#: ../../source/rendering_the_animation.rst:680
 msgid ""
 "*Render tasks* can be submitted from the OpenToonz Browser and can be managed "
 "and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:"
 "`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:678
+#: ../../source/rendering_the_animation.rst:682
 msgid "|tasks|"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:680
+#: ../../source/rendering_the_animation.rst:684
 msgid ""
 "The Tasks pane is divided into two sections: on the left there is the Task tree "
 "where all of the *Render tasks* are displayed with a clapboard icon and all the "
@@ -1869,149 +1899,149 @@ msgid ""
 "task selected in the Task tree."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:682
+#: ../../source/rendering_the_animation.rst:686
 msgid ""
 "The Task list can be saved as TNZBAT files and loaded back later, in case you "
 "want to manage it through different working sessions."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:684
+#: ../../source/rendering_the_animation.rst:688
 msgid "**To Save a Task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:688
+#: ../../source/rendering_the_animation.rst:692
 msgid ""
 "Click the **Save** (|save|) or the **Save As** (|save_as|) buttons in the top "
 "bar of the Tasks pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:690
+#: ../../source/rendering_the_animation.rst:694
 msgid ""
 "Right-click the **Tasks** item at the top of the list and choose **Save Task "
 "List** or the **Save Task List As** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:692
+#: ../../source/rendering_the_animation.rst:696
 msgid "Use the Browser that opens to save the list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:694
+#: ../../source/rendering_the_animation.rst:698
 msgid "**To Load a Task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:698
+#: ../../source/rendering_the_animation.rst:702
 msgid "Click the **Load** (|load|) button in the top bar of the Tasks pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:700
+#: ../../source/rendering_the_animation.rst:704
 msgid ""
 "Right-click the **Tasks** item at the top of the list and choose **Load Task "
 "List** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:702
+#: ../../source/rendering_the_animation.rst:706
 msgid "Use the Browser that opens to retrieve and load a previously saved list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:704
+#: ../../source/rendering_the_animation.rst:708
 msgid "**To resize the Tasks pane sections:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:708
+#: ../../source/rendering_the_animation.rst:712
 msgid "Click and drag the separator to resize sections."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:710
+#: ../../source/rendering_the_animation.rst:714
 msgid "Click and drag the separator toward the window border to hide a section."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:712
+#: ../../source/rendering_the_animation.rst:716
 msgid ""
 "Click and drag the separator collapsed to the window border toward the window "
 "center to display again the hidden section."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:718
+#: ../../source/rendering_the_animation.rst:722
 msgid "Managing and Executing Render Tasks"
 msgstr "Administración y ejecución de tareas de procesamiento"
 
-#: ../../source/rendering_the_animation.rst:719
+#: ../../source/rendering_the_animation.rst:723
 msgid ""
 "When a *Render task* is selected in the tree, in the section on the right of "
 "the Tasks pane task-related properties are displayed, some of which can be "
 "edited to configure the task. Properties are the following:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:721
+#: ../../source/rendering_the_animation.rst:725
 msgid ""
 "**Name** displays the task name; it can be edited to better identify the task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:723
+#: ../../source/rendering_the_animation.rst:727
 msgid "**Status** shows if the task is: Waiting, Running, Completed or Failed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:725
+#: ../../source/rendering_the_animation.rst:729
 msgid ""
 "**Command Line** displays the command line related to the task execution with "
 "arguments and qualifiers."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:727
+#: ../../source/rendering_the_animation.rst:731
 msgid "**Server** displays the computer that is running, or will run, the task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:729
+#: ../../source/rendering_the_animation.rst:733
 msgid "**Submitted By** displays the *user* that submitted the task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:731
+#: ../../source/rendering_the_animation.rst:735
 msgid ""
 "**Submitted On** displays the *computer* from where the task was submitted."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:733
+#: ../../source/rendering_the_animation.rst:737
 msgid "**Submission Date** displays *when* the task was submitted."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:735
+#: ../../source/rendering_the_animation.rst:739
 msgid "**Start Date** displays when the task execution started."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:737
+#: ../../source/rendering_the_animation.rst:741
 msgid "**Completion Date** displays when the task execution was completed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:739
+#: ../../source/rendering_the_animation.rst:743
 msgid "**Duration** displays how long the execution lasted."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:741
+#: ../../source/rendering_the_animation.rst:745
 msgid "**Step Count** displays the number of frames rendered."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:743
+#: ../../source/rendering_the_animation.rst:747
 msgid "**Failed Steps** displays the number of frames that failed to be rendered."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:745
+#: ../../source/rendering_the_animation.rst:749
 msgid "**Successful Steps** displays the number of frames successfully rendered."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:747
+#: ../../source/rendering_the_animation.rst:751
 msgid ""
 "**Priority** sets the importance or urgency of the task: tasks with a higher "
 "priority will be executed first. It can be edited to change the task priority."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:749
+#: ../../source/rendering_the_animation.rst:753
 msgid ""
 "**Output** displays the location, name and extension of the rendered output; "
 "this information comes from the scene output settings but can be edited here "
 "before the rendering."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:751
+#: ../../source/rendering_the_animation.rst:755
 msgid ""
 "**Frames Per Chunk** sets how the task is divided into sub-tasks in order to "
 "distribute the rendering job in the render farm, one sub-task for each "
@@ -2019,21 +2049,21 @@ msgid ""
 "when Rendering Tasks <using_chunks_when_rendering_tasks>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:753
+#: ../../source/rendering_the_animation.rst:757
 msgid ""
 "**From** and **To** set the scene frame range to render; this information comes "
 "from the scene output settings but can be edited here before the rendering "
 "(see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:755
+#: ../../source/rendering_the_animation.rst:759
 msgid ""
 "**Step** sets the step for the rendered sequence; this information comes from "
 "the scene output settings but can be edited here before the rendering (see  :"
 "ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:757
+#: ../../source/rendering_the_animation.rst:761
 msgid ""
 "**Shrink** sets the reduction value of the rendered sequence resolution; this "
 "information comes from the scene output settings but can be edited here before "
@@ -2041,7 +2071,7 @@ msgid ""
 "<choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:759
+#: ../../source/rendering_the_animation.rst:763
 msgid ""
 "**Dedicated CPUs** sets how many processors are assigned to the rendering "
 "process; this information comes from the scene output settings but can be "
@@ -2049,7 +2079,7 @@ msgid ""
 "<choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:761
+#: ../../source/rendering_the_animation.rst:765
 msgid ""
 "**Render Tile** sets if the rendering has to be computed in tiles; this "
 "information comes from the scene output settings but can be edited here before "
@@ -2057,159 +2087,159 @@ msgid ""
 "<choosing_the_output_settings>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:763
+#: ../../source/rendering_the_animation.rst:767
 msgid ""
 "**Dependencies** lets you set which of the other submitted tasks *have to be "
 "successfully completed* before starting the current task execution: these tasks "
 "can be added from the box on the right where all submitted tasks are displayed."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:765
+#: ../../source/rendering_the_animation.rst:769
 msgid "Task execution can be started and stopped from the task list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:767
+#: ../../source/rendering_the_animation.rst:771
 msgid ""
 "When the tasks are executed, the icon color tells the status of the task "
 "according to the following color code:"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:769
+#: ../../source/rendering_the_animation.rst:773
 msgid "**Grey**, when the task is *waiting* or is not executed yet."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:771
+#: ../../source/rendering_the_animation.rst:775
 msgid "**Yellow**, when the task is *being executed*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:773
+#: ../../source/rendering_the_animation.rst:777
 msgid "**Green**, when the task is *successfully executed*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:775
+#: ../../source/rendering_the_animation.rst:779
 msgid "**Orange**, when the task is *executed with some errors*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:777
+#: ../../source/rendering_the_animation.rst:781
 msgid "**Red**, when the task *execution has failed*."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:779
+#: ../../source/rendering_the_animation.rst:783
 msgid "**To Add scenes to render in the task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:783
+#: ../../source/rendering_the_animation.rst:787
 msgid ""
 "Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane "
 "and use the Browser to select a scene file."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:785
+#: ../../source/rendering_the_animation.rst:789
 msgid ""
 "Select the scenes in the OpenToonz Browser, then right-click any of them and "
 "choose **Add As Render Task** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:787
+#: ../../source/rendering_the_animation.rst:791
 msgid "**To Configure the render task in the task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:789
+#: ../../source/rendering_the_animation.rst:793
 msgid "Select a render task in the task list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:791
+#: ../../source/rendering_the_animation.rst:795
 msgid "Configure it by using the options available on the right of the list."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:793
+#: ../../source/rendering_the_animation.rst:797
 msgid "**To select tasks in the task list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:797
+#: ../../source/rendering_the_animation.rst:801
 msgid "Click a task to select it."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:799
+#: ../../source/rendering_the_animation.rst:803
 msgid "Shift-click a task to extend the selection up to that task."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:801
+#: ../../source/rendering_the_animation.rst:805
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from the "
 "selection."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:803
+#: ../../source/rendering_the_animation.rst:807
 msgid "**To Execute selected tasks:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:807
+#: ../../source/rendering_the_animation.rst:811
 msgid "Click the **Start** (|start|) button in the bottom bar of the pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:809
+#: ../../source/rendering_the_animation.rst:813
 msgid ""
 "Right-click any selected task icon and choose **Start** from the menu that "
 "opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:811
+#: ../../source/rendering_the_animation.rst:815
 msgid "**To Stop the execution of selected tasks:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:815
+#: ../../source/rendering_the_animation.rst:819
 msgid "Click the **Stop** (|stop|) button in the bottom bar of the pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:817
+#: ../../source/rendering_the_animation.rst:821
 msgid ""
 "Right-click any selected task icon and choose **Stop** from the menu that opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:819
+#: ../../source/rendering_the_animation.rst:823
 msgid "**To Remove selected tasks from the list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:823
+#: ../../source/rendering_the_animation.rst:827
 msgid ""
 "Click the **Remove** (|remove|) button in the bottom bar of the Tasks pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:825
+#: ../../source/rendering_the_animation.rst:829
 msgid ""
 "Right-click any selected task in the list and choose Remove from the menu that "
 "opens."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:827
+#: ../../source/rendering_the_animation.rst:831
 msgid "**To Add or Remove tasks from the Dependencies list:**"
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:831
+#: ../../source/rendering_the_animation.rst:835
 msgid ""
 "To Add a task to the dependencies list, select a task in the task list on the "
 "right and click the **Add** button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:833
+#: ../../source/rendering_the_animation.rst:837
 msgid ""
 "To Remove a task from the dependencies list, select a task in the dependencies "
 "list on the left, and click the **Remove** button."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:839
+#: ../../source/rendering_the_animation.rst:843
 msgid "Using Chunks when Rendering Tasks"
 msgstr "Uso de bloques al ejecutar tareas de procesamiento"
 
-#: ../../source/rendering_the_animation.rst:840
+#: ../../source/rendering_the_animation.rst:844
 msgid ""
 "If you are using the OpenToonz render farm, it's possible to divide a task into "
 "chunks so that each computer of the farm will render a section of the same "
 "render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:842
+#: ../../source/rendering_the_animation.rst:846
 msgid ""
 "The default value for the chunk size (expressed in number of frames) can be set "
 "using the **Render Task Chunk Size** in the Preferences  →  General pane. If "
@@ -2218,26 +2248,26 @@ msgid ""
 "the scene."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:844
+#: ../../source/rendering_the_animation.rst:848
 msgid ""
 "Once a task is submitted, it's possible to change the chunk size by editing the "
 "related value in the task properties."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:846
+#: ../../source/rendering_the_animation.rst:850
 msgid ""
 "When a task is divided into chunks, each task is represented in the task tree "
 "as sub-tasks."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:848
+#: ../../source/rendering_the_animation.rst:852
 msgid ""
 "Render tasks and sub-tasks will be distributed on the farm, one for each "
 "computer, so that several tasks can be executed at the same time (see  :ref:"
 "`Using the Toonz Farm <using_the_toonz_farm>`  )."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:850
+#: ../../source/rendering_the_animation.rst:854
 msgid ""
 "If you are not using the OpenToonz render farm, dividing the task into chunks "
 "is not only useless, but it slows down the rendering process as well. For this "
@@ -2245,8 +2275,13 @@ msgid ""
 "1000) in the Preferences  →  General pane."
 msgstr ""
 
-#: ../../source/rendering_the_animation.rst:852
+#: ../../source/rendering_the_animation.rst:856
 msgid ""
 "Chunk size is relevant only when animations are rendered as image sequences "
 "(for example in TIF or TGA formats)."
 msgstr ""
+
+#~ msgid "Activate the **Define Sub-camera** button () in the viewer bottom bar."
+#~ msgstr ""
+#~ "Activar el botón **Definir región** (|define_preview_subcamera|) a la "
+#~ "izquierda de la barra inferior del Visor."
