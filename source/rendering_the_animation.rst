@@ -78,7 +78,7 @@ The background colors of the preview window, including the colors of the camera 
 
     2. Use the Browser to choose a name and location for the file to be saved.
 
-    .. note:: The saved files format will be the one currently defined in the **Output Settings** dialog, and the format options used at save time will also be the ones defined by using the **Options** button there. (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
+    .. note:: The saved files format will be the one currently defined in the **Output Settings** dialog, and the format options used at save time will also be the ones defined by using the **Options** button there (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
     .. note:: The saved files *color depth* will always be 8 bit, regardless of the options chosen in the Output Settings or Preview Settings dialogs.
 
