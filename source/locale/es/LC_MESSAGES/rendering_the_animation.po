@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-19 09:52-0300\n"
-"PO-Revision-Date: 2019-08-19 09:58-0300\n"
+"PO-Revision-Date: 2019-08-20 13:33-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -452,18 +452,26 @@ msgid ""
 "**Output Camera:** sets which camera, among the ones defined in the scene, has "
 "to be used to set the resolution and preview the animation."
 msgstr ""
+"**Cámara de salida:**, permite definir cuál cámara, de entre las creadas en la "
+"escena, deberá ser usada para definir la resolución y previsualizar la "
+"animación."
 
 #: ../../source/rendering_the_animation.rst:110
 msgid ""
 "**Frame Start:** and **End:** set the frame range of the scene to preview; by "
 "default these values refer to the whole scene length."
 msgstr ""
+"**Fotogramas:**  **Inicial:** y **Final:**, permiten definir el rango de "
+"fotogramas de la escena a ser previsualizado; de forma predefinida estos "
+"valores abarcarán la longitud completa de la escena."
 
 #: ../../source/rendering_the_animation.rst:112
 msgid ""
 "**Step:** sets the step for the rendered sequence; for example if it is two, "
 "one frame each two will be rendered."
 msgstr ""
+"**Intervalo:**, permite definir el intervalo de la secuencia previsualizada; "
+"por ejemplo si fuera 2, se procesará un fotograma de cada dos."
 
 #: ../../source/rendering_the_animation.rst:114
 msgid ""
@@ -471,6 +479,10 @@ msgid ""
 "example if it is 2, one pixel each two will be rendered, thus resulting in "
 "previewed frames having half of the original output camera resolution."
 msgstr ""
+"**Reducción:**, permite definir el valor de reducción de la resolución de la "
+"secuencia previsualizada; por ejemplo si fuera 2, se procesará un píxel de cada "
+"dos, resultando así en fotogramas con la mitad de la resolución de la cámara de "
+"salida seleccionada."
 
 #: ../../source/rendering_the_animation.rst:116
 msgid ""
@@ -478,6 +490,10 @@ msgid ""
 "preview settings to the preview mode of the viewer as well (see  :ref:"
 "`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  )."
 msgstr ""
+"**Aplicar reducción a visor principal**, cuando se encuentra activada permite "
+"usar el valor de Reducción, cuando el Visor se encuentre en modo "
+"**Previsualizar** (ver  :ref:`Previsualización de fotogramas en el Visor "
+"<previewing_frames_in_the_viewer>`  )."
 
 #: ../../source/rendering_the_animation.rst:118
 msgid ""
@@ -487,6 +503,12 @@ msgid ""
 "focus. By balancing the resample you can give some sharpness back to the "
 "rendered frames."
 msgstr ""
+"**Filtro:**, permite controlar el proceso de remuestreo que será usado cuando "
+"las imágenes sean redimensionadas o rotadas. En escenas donde las imágenes sean "
+"fuertemente remuestreadas, por ejemplo cuando sus tamaños cambien "
+"drásticamente, la imagen final podría llegar a aparecer ligeramente fuera de "
+"foco. Controlando el tipo de filtro aplicado al remuestrear la imagen, será "
+"posible restaurar en alguna medida su definición."
 
 #: ../../source/rendering_the_animation.rst:120
 msgid ""
@@ -496,12 +518,20 @@ msgid ""
 "provides several other standard resampling filters that could help improve the "
 "final results in a wider range of situations."
 msgstr ""
+"Existen varias opciones de entre las cuales escoger. Originalmente en *Toonz* "
+"existían sólo tres opciones: **Estándar**, **Mejorado** y **Alto**. Cuanto "
+"mayor fuera la intensidad del filtro usado, más tiempo sería necesario para "
+"procesar la imagen final. En *OpenToonz* existen otros filtros adicionales de "
+"remuestreo, que podrán ayudar a mejorar el resultado final, ante diferentes "
+"situaciones."
 
 #: ../../source/rendering_the_animation.rst:123
 msgid ""
 "**Channel Width:** sets the color depth for rendered images; choices are 8 bit "
 "or 16 bit per color channel."
 msgstr ""
+"**Profundidad de color:**, permite definir la profundidad de color de las "
+"imágenes procesadas; las opciones son 8 y 16 bits por canal de color."
 
 #: ../../source/rendering_the_animation.rst:125
 msgid ""
@@ -512,6 +542,14 @@ msgid ""
 "Half or Single values if the scene to preview is very complex, because the "
 "higher the dedicated CPUs, the more the memory required to perform the preview."
 msgstr ""
+"**Procesadores dedicados:**, permite cuántos núcleos de procesador deberán ser "
+"usados durante el proceso de previsualización. Cuando la opción está en "
+"**Todos** se generará una cantidad de hilos de procesamiento igual a la "
+"cantidad de núcleos procesador disponibles en el sistema, acelerando el cálculo "
+"de la previsualización. Sin embargo, si la escena a previsualizar fuera de una "
+"complejidad alta, se sugiere usar **La mitad** o **Uno solo**, debido a que "
+"cuantos más núcleos sean usados se requerirá una mayor cantidad de memoria para "
+"llevar a cabo el cálculo."
 
 #: ../../source/rendering_the_animation.rst:127
 msgid ""
@@ -524,6 +562,18 @@ msgid ""
 "In most of the cases the Large value will do the work, because it is not slower "
 "than the None option, and yet is able to preview complex scenes."
 msgstr ""
+"**Celdas de procesamiento:**, permite previsualizar escenas muy complejas, "
+"cuyos fotogramas serán calculados en celdas individuales, que luego serán "
+"compuestas una junto a la otra para crear la imagen completa: cuanto más "
+"pequeño sea el tamaño de las celdas, más tiempo insumirá el proceso de "
+"previsualización. Definir el tamaño de las celdas en **Medianas** o "
+"**Pequeñas** permitirá previsualizar imágenes de una gran resolución y de "
+"escenas muy complejas que, de otro modo, podrían fallar al intentar ser "
+"calculadas; al definir este valor en **No** será posible prevenir la aparición "
+"de algunos defectos de imagen, generados al componer las celdas entre ellas. En "
+"la mayoría de los casos el valor **Grandes** debería funcionar correctamente, "
+"debido a que no es más lento que la opción **No** y aún así será posible "
+"previsualizar escenas complejas."
 
 #: ../../source/rendering_the_animation.rst:129
 msgid ""
@@ -531,90 +581,107 @@ msgid ""
 "selected camera in the preview frames (see  :ref:`Previewing Frames in the "
 "Viewer <previewing_frames_in_the_viewer>`  )."
 msgstr ""
+"**Usar región**, al estar activada permitirá usar, al previsualizar, la región "
+"definida para la cámara activa en el Visor (ver  :ref:`Previsualización de "
+"fotogramas en el Visor <previewing_frames_in_the_viewer>`  )."
 
 #: ../../source/rendering_the_animation.rst:132
 msgid "**To set the scene preview settings:**"
-msgstr ""
+msgstr "**Para definir las opciones de previsualización de la escena:**"
 
 #: ../../source/rendering_the_animation.rst:134
 msgid "Choose File  →  **Preview Settings**."
-msgstr ""
+msgstr "Elegir Archivo → **Opciones de previsualización...**."
 
 #: ../../source/rendering_the_animation.rst:136
 msgid "Set the options you want to use for the preview."
-msgstr ""
+msgstr "Definir las opciones que se deseen usar para la previsualización."
 
 #: ../../source/rendering_the_animation.rst:138
 msgid "**To open the preview window:**"
-msgstr ""
+msgstr "**Para abrir una ventana de previsualización:**"
 
 #: ../../source/rendering_the_animation.rst:140
 msgid "Choose File  →  **Preview**."
-msgstr ""
+msgstr "Elegir Archivo → **Previsualizar**."
 
 #: ../../source/rendering_the_animation.rst:142
 msgid "**To clone the preview window:**"
-msgstr ""
+msgstr "**Para clonar la ventana de previsualización:**"
 
 #: ../../source/rendering_the_animation.rst:144
 msgid ""
 "Right-click in the Flipbook window and choose **Clone Preview** from the menu "
 "that opens."
 msgstr ""
+"Hacer clic derecho en la ventana del Reproductor y elegir **Clonar "
+"previsualización** en el menú."
 
 #: ../../source/rendering_the_animation.rst:146
 msgid "**To freeze the preview rendering:**"
-msgstr ""
+msgstr "**Para congelar el cálculo de una previsualización:**"
 
 #: ../../source/rendering_the_animation.rst:148
 msgid ""
 "Right-click in the Flipbook window and choose **Freeze Preview** from the menu "
 "that opens."
 msgstr ""
+"Hacer clic derecho sobre el Reproductor y elegir **Congelar previsualización**."
 
 #: ../../source/rendering_the_animation.rst:150
 msgid "**To open a new Flipbook window every time you run a preview:**"
 msgstr ""
+"**Para abrir una ventana nueva del Reproductor cada vez que se previsualiza "
+"algo:**"
 
 #: ../../source/rendering_the_animation.rst:152
 #: ../../source/rendering_the_animation.rst:158
 #: ../../source/rendering_the_animation.rst:164
 #: ../../source/rendering_the_animation.rst:289
 msgid "In File  →  Preferences  →  Preview."
-msgstr ""
+msgstr "En Archivo → Preferencias → Previsualización."
 
 #: ../../source/rendering_the_animation.rst:154
 msgid "Activate the **Display in a New Flipbook Window** option."
-msgstr ""
+msgstr "Activar la opción **Mostrar en una nueva ventana de reproductor**."
 
 #: ../../source/rendering_the_animation.rst:156
 msgid "**To rewind the preview content automatically after playback:**"
 msgstr ""
+"**Para retroceder el contenido de la previsualización automáticamente luego de "
+"la reproducción:**"
 
 #: ../../source/rendering_the_animation.rst:160
 msgid "Activate the **Rewind After Playback** option."
-msgstr ""
+msgstr "Activar la opción **Retroceder al comienzo después de reproducir**."
 
 #: ../../source/rendering_the_animation.rst:162
 msgid "**To display blank frames after each preview playback when looping:**"
 msgstr ""
+"**Para mostrar fotogramas en blanco luego de cada reproducción, al estar en "
+"modo repetición:**"
 
 #: ../../source/rendering_the_animation.rst:166
 #: ../../source/rendering_the_animation.rst:667
 #: ../../source/rendering_the_animation.rst:710
 #: ../../source/rendering_the_animation.rst:799
 msgid "Do any of the following:"
-msgstr ""
+msgstr "Realizar cualquiera de las siguientes acciones:"
 
 #: ../../source/rendering_the_animation.rst:168
 msgid ""
 "Use **Blank Frames** option to set how many blank frames you want to be "
 "displayed after each preview playback, when looping."
 msgstr ""
+"Usar la opción **Fotogramas en blanco:** para definir cuántos fotogramas en "
+"blanco deberán ser mostrados luego de cada reproducción, al estar en modo "
+"repetición."
 
 #: ../../source/rendering_the_animation.rst:170
 msgid "Use **Blank Frames Color** option to set the color for the blank frames."
 msgstr ""
+"Usar la opción **Color de fotogramas en blanco:** para definir el color de los "
+"fotogramas en blanco."
 
 #: ../../source/rendering_the_animation.rst:176
 msgid "Previewing and Caching Effect Nodes in the Schematic"
@@ -627,12 +694,20 @@ msgid ""
 "Preview window is the same as the standard one (see  :ref:`Using the Preview "
 "Window <using_the_preview_window>`  )."
 msgstr ""
+"También es posible abrir la ventana de previsualización desde el Diagrama de "
+"efectos, para comprobar el resultado de la composición, hasta un cierto nodo. "
+"El comportamiento de la ventana de previsualización del Diagrama de efectos es "
+"el mismo que el de la ventana normal (ver  :ref:`Uso de la ventana de "
+"previsualización <using_the_preview_window>`  )."
 
 #: ../../source/rendering_the_animation.rst:179
 msgid ""
 "In case the Sub-camera is used, the Preview window will fit the Sub-camera area "
 "(see  :ref:`Using the Preview Window <using_the_preview_window>`  )."
 msgstr ""
+"En caso de que se utilice la Región, la ventana de previsualización se ajustará "
+"a la misma (ver  :ref:`Uso de la ventana de previsualización "
+"<using_the_preview_window>`  )."
 
 #: ../../source/rendering_the_animation.rst:181
 msgid ""
@@ -640,6 +715,10 @@ msgid ""
 "result of the compositing up to that node is stored in the computer memory and "
 "will be reused with no need to recompute it the next time the preview is run."
 msgstr ""
+"También será posible guardar en un caché la previsualización hasta un cierto "
+"nodo, para que el resultado de la composición hasta ese nodo sea guardada en la "
+"memoria del sistema para ser reusado sin necesidad de recalcularla la próxima "
+"vez que la previsualización sea ejecutada."
 
 #: ../../source/rendering_the_animation.rst:183
 msgid ""
@@ -648,18 +727,26 @@ msgid ""
 "preview will be discarded and will be stored again the next time the Preview is "
 "run."
 msgstr ""
+"Por supuesto, si algo cambiara en el flujo de nodos hasta ese punto (por "
+"ejemplo, si cambiara la transformación de un objeto o el parámetro de un "
+"efecto), la previsualización guardada en el caché será descartada y se "
+"calculará nuevamente la próxima vez que el comando **Previsualizar** sea "
+"ejecutado."
 
 #: ../../source/rendering_the_animation.rst:185
 msgid "**To open a Preview window referring to an FX Schematic node:**"
 msgstr ""
+"**Para abrir una ventana de previsualización de un nodo del Diagrama de efectos:"
+"**"
 
 #: ../../source/rendering_the_animation.rst:187
 msgid "Right-click the node and choose **Preview** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo deseado y elegir **Previsualizar** en el menú."
 
 #: ../../source/rendering_the_animation.rst:189
 msgid "**To cache an effect node:**"
-msgstr ""
+msgstr "**Para guardar en caché un nodo de efecto:**"
 
 #: ../../source/rendering_the_animation.rst:191
 msgid ""
@@ -667,16 +754,22 @@ msgid ""
 "effect node will be displayed with a fold at the bottom right corner to "
 "highlight that it has been cached."
 msgstr ""
+"Hacer clic derecho sobre el nodo y elegir **Guardar efecto en caché** en el "
+"menú: el nodo de efecto será mostrado con un *alfiler* en su esquina inferior "
+"derecha, indicando que ha sido almacenado en caché."
 
 #: ../../source/rendering_the_animation.rst:193
 msgid "**To uncache an effect node:**"
-msgstr ""
+msgstr "**Para borrar el caché de un nodo de efecto:**"
 
 #: ../../source/rendering_the_animation.rst:195
 msgid ""
 "Right-click the node and choose **Cache FX** from the menu that opens: the "
 "cached preview images will be discarded."
 msgstr ""
+"Hacer clic derecho sobre el nodo y elegir **Eliminar caché del efecto** en el "
+"menú: las imágenes de previsualización almacenadas en el caché serán "
+"descartadas."
 
 #: ../../source/rendering_the_animation.rst:201
 msgid "Using the Flipbook"
@@ -690,6 +783,13 @@ msgid ""
 "previewed or rendered animations. It is also used to view files and levels from "
 "the browser or the Xsheet/Timeline, and to display the loaded Color Model."
 msgstr ""
+"El Reproductor es un visor de imágenes donde es posible visualizar niveles de "
+"animación, imágenes, clips de video y fotogramas procesados. En OpenToonz es "
+"usado para mostrar el contenido de la escena en el Visor, incluyendo su modo "
+"Previsualizar, así como para mostrar las animaciones previsualizadas o ya "
+"procesadas. También es usado para ver archivos y niveles de animación desde el "
+"Explorador de archivos o la Planilla/Línea de tiempo, así como para mostrar el "
+"Modelo de color cargado."
 
 #: ../../source/rendering_the_animation.rst:204
 msgid ""
@@ -697,34 +797,48 @@ msgid ""
 "when previewing the animation (see  :ref:`Customizing the Viewer "
 "<customizing_the_work_area>`  )."
 msgstr ""
+"Las áreas de seguridad son los únicos elementos que podrán ser mostrados sobre "
+"el Reproductor, al previsualizar una animación (ver  :ref:`Personalización del "
+"Visor <customizing_the_work_area>`  )."
 
 #: ../../source/rendering_the_animation.rst:206
 msgid ""
 "The Flipbook title bar displays the information about the content on the left, "
 "and the zoom percentage on the right."
 msgstr ""
+"En la barra de título del Reproductor, se muestra información acerca del "
+"contenido a la izquierda y a la derecha el porcentaje de zoom."
 
 #: ../../source/rendering_the_animation.rst:208
 msgid "At the bottom a customizable set of buttons is available:"
 msgstr ""
+"En la parte inferior se encuentra disponible un conjunto de botones "
+"personalizable:"
 
 #: ../../source/rendering_the_animation.rst:210
 msgid ""
 "The **Option** button (|option|) sets which buttons and elements have to be "
 "displayed in the bottom bar."
 msgstr ""
+"El botón de **Opciones** (|option|) permite definir qué botones y elementos "
+"deberán ser mostrados en la barra inferior."
 
 #: ../../source/rendering_the_animation.rst:212
 msgid ""
 "The **Save Images** button (|save|) opens a browser to save the flipbook "
 "content."
 msgstr ""
+"El botón **Guardar imágenes** (|save|) abre un Explorador de archivos para "
+"guardar el contenido del Reproductor."
 
 #: ../../source/rendering_the_animation.rst:214
 msgid ""
 "The **Snapshot** (|snapshot|) and **Compare to Snapshot** (|compare|) buttons "
 "allow the comparison between different frames of the flipbook content."
 msgstr ""
+"Los botones **Capturar** (|snapshot|) y **Comparar con captura** (|compare|) "
+"permiten realizar comparaciones entre distintos fotogramas del contenido del "
+"Reproductor."
 
 #: ../../source/rendering_the_animation.rst:216
 msgid ""
@@ -735,12 +849,20 @@ msgid ""
 "playback speed, when you are only interested in a certain region of the full "
 "camera image."
 msgstr ""
+"El botón **Definir región** (|define_preview_subcamera|) permite la definición "
+"de una región, más pequeña que el tamaño de las imágenes cargadas, que limitará "
+"la porción de las imágenes que serán mostradas en el Reproductor. Puede "
+"resultar útil para hacer más rápido el tiempo de carga e incrementar la "
+"velocidad de reproducción, cuando sólo haya interés en una cierta región de la "
+"imagen mostrada por la cámara."
 
 #: ../../source/rendering_the_animation.rst:218
 msgid ""
 "The **Sub-camera Preview** button (|subcamera_preview|) lets you activate or "
 "deactivate the defined sub-camera region (see above)."
 msgstr ""
+"El botón **Previsualizar región** (|subcamera_preview|) permite activar o "
+"desactivar la región de previsualización definida (ver arriba)."
 
 #: ../../source/rendering_the_animation.rst:220
 msgid ""
@@ -748,36 +870,51 @@ msgid ""
 "(|preview_black|) or **Checkered** (|preview_checkboard|) background for "
 "transparent images."
 msgstr ""
+"Los botones de color de fondo permiten elegir entre un **Fondo blanco** (|"
+"preview_white|), **Fondo negro** (|preview_black|) o un **Fondo con damero** (|"
+"preview_checkboard|) para ver imágenes con transparencias."
 
 #: ../../source/rendering_the_animation.rst:222
 msgid ""
 "The framerate slider sets the number of frames per second to be displayed "
 "during playback."
 msgstr ""
+"El deslizador de velocidad de fotogramas permite definir la cantidad de "
+"fotogramas por segundo a la que deberá reproducirse la animación."
 
 #: ../../source/rendering_the_animation.rst:224
 msgid ""
 "The playback buttons can be used to play the Flipbook content back and set the "
 "current frame."
 msgstr ""
+"Los botones de reproducción podrán ser usados para reproducir el contenido del "
+"Reproductor y establecer el fotograma actual."
 
 #: ../../source/rendering_the_animation.rst:226
 msgid ""
 "The **Channel** buttons display the Red, Green, Blue and Alpha channels of the "
 "Flipbook content, both in *colors* and *grey-scale*."
 msgstr ""
+"Los botones de **Canales de color** permiten visualizar los canales Rojo, "
+"Verde, Azul y Alfa del contenido del Reproductor, tanto en *color* como en "
+"*escala de grises*."
 
 #: ../../source/rendering_the_animation.rst:228
 msgid ""
 "The **Histogram** button (|histogram|) opens a window displaying histograms "
 "mapping the amount of the darkest and lightest pixels in each channel."
 msgstr ""
+"El botón de **Histograma** (|histogram|) abre una ventana que permite "
+"visualizar histogramas, donde se podrá apreciar la cantidad de píxeles de cada "
+"tonalidad (desde la más clara hasta la más oscura) para cada canal."
 
 #: ../../source/rendering_the_animation.rst:230
 msgid ""
 "If the bottom bar is too short to display all the options, it can be scrolled "
 "by using arrow buttons available at its ends."
 msgstr ""
+"Si la barra inferior fuera muy corta para mostrar todas las opciones, podrá ser "
+"desplazada, usando los botones de flechas disponibles en sus extremos."
 
 #: ../../source/rendering_the_animation.rst:233
 msgid ""
@@ -787,40 +924,52 @@ msgid ""
 "playing the contents back in one of them, automatically moves the current "
 "frames and plays the contents back in *all* the other Flipbooks as well."
 msgstr ""
+"En un Reproductor ya abierto, será posible cargar un nuevo contenido, tanto "
+"reemplazando el anterior, como anexándolo al mismo. Cuando hubiera varios "
+"Reproductores abiertos, será posible *vincular* su reproducción, para que al "
+"mover el fotograma actual o reproducir en uno de ellos, automáticamente lo haga "
+"en *todos* los demás Reproductores abiertos."
 
 #: ../../source/rendering_the_animation.rst:235
 msgid ""
 "The colors displayed as background in the flipbook can also be customized so "
 "that they can better fit the color scheme of the production."
 msgstr ""
+"Los colores mostrados como fondo en el reproductor podrán ser personalizados, "
+"para que se ajusten al esquema de colores de una determinada producción."
 
 #: ../../source/rendering_the_animation.rst:237
 msgid "**To open a Flipbook:**"
-msgstr ""
+msgstr "**Para abrir un Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:239
 msgid "Choose Window  →  **Flipbook**."
-msgstr ""
+msgstr "Elegir Ventana → **Reproductor**."
 
 #: ../../source/rendering_the_animation.rst:241
 msgid "**To load some contents into a Flipbook:**"
-msgstr ""
+msgstr "**Para cargar contenido en un Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:245
 msgid ""
 "Right-click in the Flipbook and choose **Load Images** from the menu that "
 "opens, then use the Browser to retrieve the file you want to load."
 msgstr ""
+"Hacer clic derecho en el Reproductor y elegir **Cargar / Anexar imágenes** en "
+"el menú, luego usar el Explorador de archivos para elegir el archivo que se "
+"desee cargar y presionar el botón **Cargar**."
 
 #: ../../source/rendering_the_animation.rst:247
 msgid ""
 "Drag and drop the file you want to load from the OpenToonz file browser to the "
 "Flipbook."
 msgstr ""
+"Arrastrar y soltar el archivo que se desee cargar desde el Explorador de "
+"archivos de OpenToonz hacia el Reproductor."
 
 #: ../../source/rendering_the_animation.rst:249
 msgid "**To append some content to the Flipbook content:**"
-msgstr ""
+msgstr "**Para anexar contenido al contenido del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:251
 msgid ""
@@ -828,24 +977,29 @@ msgid ""
 "opens, then use the Browser to retrieve the file you want to append to the "
 "current content."
 msgstr ""
+"Hacer clic derecho en el Reproductor y elegir **Cargar / Anexar imágenes** en "
+"el menú, luego usar el Explorador de archivos para elegir el archivo que se "
+"desee anexar y presionar el botón **Anexar**."
 
 #: ../../source/rendering_the_animation.rst:253
 msgid "**To navigate the Flipbook content:**"
-msgstr ""
+msgstr "**Para ajustar la vista del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:257
 msgid ""
 "Use the zoom shortcut keys (by default **+** and **-** keys) to zoom in and "
 "zoom out at specific steps (e.g. 50%, 100%, 200%, etc.)."
 msgstr ""
+"Usar los atajos de zoom (de forma predefinida **+** y **-**) para acercar y "
+"alejar de a saltos predefinidos (50%, 100%, 200%, etc.)."
 
 #: ../../source/rendering_the_animation.rst:259
 msgid "Use the mouse wheel to zoom in and zoom out."
-msgstr ""
+msgstr "Usar la rueda del ratón para acercar y alejar la vista."
 
 #: ../../source/rendering_the_animation.rst:261
 msgid "Click and drag to define an area you want to zoom to."
-msgstr ""
+msgstr "Hacer clic y arrastrar para definir un área que se desee acercar."
 
 #: ../../source/rendering_the_animation.rst:263
 msgid ""
@@ -853,85 +1007,104 @@ msgid ""
 "the Viewer and choose **Reset View** from the menu that opens, to display the "
 "Flipbook content at its actual size, and centered on the image center."
 msgstr ""
+"Usar el atajo de la función Restablecer vista (de forma predefinida **Alt + "
+"0**) o hacer clic derecho sobre la vista y elegir **Restablecer vista** en el "
+"menú, para visualizar el contenido del Reproductor a su tamaño real y centrado "
+"en el visor."
 
 #: ../../source/rendering_the_animation.rst:265
 msgid "Middle-click and drag to scroll in any direction."
-msgstr ""
+msgstr "Hacer clic central y arrastrar para desplazar en cualquier dirección."
 
 #: ../../source/rendering_the_animation.rst:267
 msgid "**To fit the size of the Flipbook window to its content:**"
-msgstr ""
+msgstr "**Para ajustar el tamaño de la ventana del Reproductor a su contenido:**"
 
 #: ../../source/rendering_the_animation.rst:269
 msgid "Double-click the Flipbook title bar."
-msgstr ""
+msgstr "Hacer doble clic sobre la barra de título del Reproductor."
 
 #: ../../source/rendering_the_animation.rst:271
 msgid "**Windows only - to enter/exit the Flipbook full screen mode:**"
 msgstr ""
+"**Sólo Windows - Para ingresar/salir del modo a pantalla completa del "
+"Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:273
 msgid ""
 "Right-click the Flipbook and choose **Full Screen Mode** / **Exit Full Screen "
 "Mode** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el Reproductor y elegir **Modo a pantalla completa** / "
+"**Salir del modo a pantalla completa** en el menú."
 
 #: ../../source/rendering_the_animation.rst:275
 msgid "**To customize the Flipbook bottom bar:**"
-msgstr ""
+msgstr "**Para personalizar la barra inferior del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:277
 msgid ""
 "Use the **Option** button (|option|) to choose which buttons and elements have "
 "to be displayed: only selected items will be displayed."
 msgstr ""
+"Usar el botón de **Opciones** (|option|) para elegir qué botones y elementos "
+"deberán ser mostrados: sólo se mostrarán los elementos seleccionados."
 
 #: ../../source/rendering_the_animation.rst:279
 msgid "**To play the Flipbook content back:**"
-msgstr ""
+msgstr "**Para reproducir el contenido del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:283
 msgid "Use the **Play** button."
-msgstr ""
+msgstr "Usar el botón **Reproducir**."
 
 #: ../../source/rendering_the_animation.rst:285
 #: ../../source/rendering_the_animation.rst:299
 msgid "Drag the frame bar cursor."
-msgstr ""
+msgstr "Arrastrar la barra de fotogramas."
 
 #: ../../source/rendering_the_animation.rst:287
 msgid "**To rewind the Flipbook content automatically after playback:**"
 msgstr ""
+"**Para retroceder el contenido del Reproductor automáticamente luego de la "
+"reproducción:**"
 
 #: ../../source/rendering_the_animation.rst:291
 msgid "Activate the **Rewind after Playback** option."
 msgstr ""
+"Activar la opción **Retroceder al comienzo después de reproducir** en el "
+"diálogo Archivo → Preferencias → Previsualización."
 
 #: ../../source/rendering_the_animation.rst:293
 msgid "**To set the current frame:**"
-msgstr ""
+msgstr "**Para definir el fotograma actual:**"
 
 #: ../../source/rendering_the_animation.rst:297
 msgid "Use the playback buttons."
-msgstr ""
+msgstr "Usar los botones de reproducción."
 
 #: ../../source/rendering_the_animation.rst:301
 msgid "Type in the frame bar field the number of the frame you want to view."
 msgstr ""
+"Ingresar en el campo de fotograma, en la esquina inferior izquierda, el número "
+"del fotograma que se desee visualizar."
 
 #: ../../source/rendering_the_animation.rst:303
 msgid "**To link the playback of all the open Flipbook windows:**"
 msgstr ""
+"**Para vincular la reproducción de todas las ventanas de Reproductor abiertas:**"
 
 #: ../../source/rendering_the_animation.rst:305
 msgid ""
 "Choose View  →  **Link Flipbooks** to activate or deactivate the linked "
 "playback mode."
 msgstr ""
+"Elegir Ver → **Vincular reproductores** para activar o desactivar el modo de "
+"reproducción vinculada."
 
 #: ../../source/rendering_the_animation.rst:307
 msgid "**To set the playback frame rate:**"
-msgstr ""
+msgstr "**Para definir la velocidad de reproducción:**"
 
 #: ../../source/rendering_the_animation.rst:309
 msgid ""
@@ -939,19 +1112,25 @@ msgid ""
 "**Scene Settings** dialog (see  :ref:`Setting the Frame Rate "
 "<setting_the_frame_rate>`  )."
 msgstr ""
+"Usar el deslizador de velocidad de fotogramas; de forma predefinida la "
+"velocidad será la definida en el diálogo de **Opciones de escena** (ver  :ref:"
+"`Definición de la velocidad <setting_the_frame_rate>`  )."
 
 #: ../../source/rendering_the_animation.rst:311
 msgid "**To save the Flipbook content:**"
-msgstr ""
+msgstr "**Para guardar el contenido del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:315
 msgid ""
 "Right-click in the Flipbook and choose **Save Images** from the menu that opens."
 msgstr ""
+"Hacer clic derecho en el Reproductor y elegir **Guardar imágenes** en el menú."
 
 #: ../../source/rendering_the_animation.rst:317
 msgid "Click the **Save Images** button (|save|) in the Flipbook bottom bar."
 msgstr ""
+"Hacer clic en el botón **Guardar imágenes** (|save|) en la barra inferior del "
+"Reproductor."
 
 #: ../../source/rendering_the_animation.rst:319
 msgid ""
@@ -963,45 +1142,56 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:321
 msgid "**To take a snapshot of a frame and compare it to another frame:**"
-msgstr ""
+msgstr "**Para tomar una captura de un fotograma y compararlo con otro:**"
 
 #: ../../source/rendering_the_animation.rst:323
 msgid ""
 "Select the frame you want to store and click the **Snapshot** button () in the "
 "Flipbook bottom bar."
 msgstr ""
+"Seleccionar el fotograma que se desee guardar y hacer clic en el botón "
+"**Capturar** (|snapshot|) en la barra inferior del Reproductor."
 
 #: ../../source/rendering_the_animation.rst:325
 msgid ""
 "Move to a different frame, or load some different content, and click the "
 "**Compare to Snapshot** button (|snapshot|)."
 msgstr ""
+"Moverse a otro fotograma o cargar un contenido distinto y hacer clic en el "
+"botón **Comparar con captura** (|snapshot|)."
 
 #: ../../source/rendering_the_animation.rst:327
 msgid ""
 "Click and drag the vertical or horizontal marker to display the taken snapshot "
 "under the current frame."
 msgstr ""
+"Hacer clic y arrastrar el separador vertical u horizontal para mostrar la "
+"captura tomada junto al fotograma actual."
 
 #: ../../source/rendering_the_animation.rst:329
 msgid ""
 "Click again the **Compare to Snapshot** button (|compare|) to exit the compare "
 "mode."
 msgstr ""
+"Hacer clic nuevamente en el botón **Comparar con captura** (|compare|) para "
+"salir del modo de comparación."
 
 #: ../../source/rendering_the_animation.rst:331
 msgid "**To Define the Loading Box:**"
-msgstr ""
+msgstr "**Para Definir una región:**"
 
 #: ../../source/rendering_the_animation.rst:333
 msgid "Load in the Flipbook the sequence of images you want to visualize."
 msgstr ""
+"Cargar en el Reproductor la secuencia de imágenes que se desee visualizar."
 
 #: ../../source/rendering_the_animation.rst:335
 msgid ""
 "Activate the **Define Loading Box** button (|define_preview_subcamera|) in the "
 "Flipbook bottom bar."
 msgstr ""
+"Activar el botón **Definir región** (|define_preview_subcamera|) en la barra "
+"inferior del Reproductor."
 
 #: ../../source/rendering_the_animation.rst:337
 msgid ""
@@ -1009,20 +1199,27 @@ msgid ""
 "you can resize it by clicking and dragging its sides and corners, and move it "
 "by clicking and dragging inside it."
 msgstr ""
+"Hacer clic y arrastrar sobre la imagen para definir la región; una vez "
+"definida, será posible redimensionarla arrastrando sus lados y esquinas, así "
+"como moverla arrastrando en su interior."
 
 #: ../../source/rendering_the_animation.rst:339
 msgid "**To activate and deactivate the Loading Box:**"
-msgstr ""
+msgstr "**Para activar y desactivar la región:**"
 
 #: ../../source/rendering_the_animation.rst:341
 msgid ""
 "Click the **Use Loading Box** button (|subcamera_preview|) in the Flipbook "
 "bottombar to activate or deactivate the loading box."
 msgstr ""
+"Hacer clic en el botón **Usar región** (|subcamera_preview|) en la barra "
+"inferior del Reproductor para activar o desactivar la región."
 
 #: ../../source/rendering_the_animation.rst:343
 msgid "**To set the Flipbook background color for transparent images:**"
 msgstr ""
+"**Para definir el color del fondo del Reproductor al cargar imágenes "
+"transparentes:**"
 
 #: ../../source/rendering_the_animation.rst:345
 msgid ""
@@ -1030,22 +1227,32 @@ msgid ""
 "preview_black|) or **Checkered Background** (|preview_checkboard|) buttons in "
 "the Flipbook bottom bar to activate/deactivate the desired background color."
 msgstr ""
+"Hacer clic sobre los botones **Fondo blanco** (|preview_white|), **Fondo "
+"negro** (|preview_black|) o **Fondo con damero** (|preview_checkboard|) en la "
+"barra inferior del Reproductor para activar/desactivar el color de fondo "
+"deseado."
 
 #: ../../source/rendering_the_animation.rst:347
 msgid ""
 "In the Preview window and when the Viewer is in *Preview mode* the background "
 "color will be visible behind the *Camera BG Color* (see below )."
 msgstr ""
+"En la ventana del Reproductor o cuando el Visor se encuentra en *modo "
+"Previsualizar*, el color de fondo será visible detrás del *Color de fondo de "
+"cámara* (ver abajo)."
 
 #: ../../source/rendering_the_animation.rst:349
 msgid "**To set the image channels to be displayed:**"
-msgstr ""
+msgstr "**Para definir los canales de color a ser mostrados:**"
 
 #: ../../source/rendering_the_animation.rst:353
 msgid ""
 "Click the top section of the **Red**, **Green** and **Blue** buttons in the "
 "Flipbook bottom bar to display, or hide, the related *image channel* in colors."
 msgstr ""
+"Hacer clic sobre la parte superior de los botones de los canales **Rojo**, "
+"**Verde** y **Azul** en la barra inferior del Reproductor para mostrar/ocultar "
+"los respectivos *canales de la imagen* en color."
 
 #: ../../source/rendering_the_animation.rst:355
 msgid ""
@@ -1053,82 +1260,103 @@ msgid ""
 "the Flipbook bottom bar to display, or hide, the related *image channel* in "
 "grey-scale."
 msgstr ""
+"Hacer clic sobre la parte inferior de los botones de los canales **Rojo**, "
+"**Verde** y **Azul** en la barra inferior del Reproductor para mostrar/ocultar "
+"los respectivos *canales de la imagen* en escala de grises."
 
 #: ../../source/rendering_the_animation.rst:357
 msgid ""
 "Click the **Alpha Channel** button in the Flipbook bottom bar to display, or "
 "hide, the image alpha channel."
 msgstr ""
+"Hacer clic sobre el botón de **Canal alfa** en la barra inferior del "
+"Reproductor para mostrar/ocultar el *canal alfa* de la imagen."
 
 #: ../../source/rendering_the_animation.rst:359
 msgid "When no channel button is activated the full image is displayed."
 msgstr ""
+"Cuando ninguno de los botones se encontrara activado, se mostrará la imagen de "
+"forma normal."
 
 #: ../../source/rendering_the_animation.rst:361
 msgid "**To display the Histograms of the Flipbook content:**"
-msgstr ""
+msgstr "**Para mostrar los Histogramas del contenido del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:365
 msgid "Click the **Histogram** button (|histogram|) in the Flipbook bottom bar."
 msgstr ""
+"Hacer clic en el botón **Histograma** (|histogram|) en la barra inferior del "
+"Reproductor."
 
 #: ../../source/rendering_the_animation.rst:367
 msgid ""
 "Right-click the Flipbook content and choose **Show Histogram** from the menu "
 "that opens."
 msgstr ""
+"Hacer clic derecho sobre el contenido del Reproductor y elegir **Mostrar "
+"histograma** en el menú."
 
 #: ../../source/rendering_the_animation.rst:369
 msgid "Choose the channel for which you want to see the histogram."
-msgstr ""
+msgstr "Elegir el canal para el cual se desee ver el histograma."
 
 #: ../../source/rendering_the_animation.rst:371
 msgid "**To define the previewed images background color:**"
-msgstr ""
+msgstr "**Para definir el color de fondo de las imágenes previsualizadas:**"
 
 #: ../../source/rendering_the_animation.rst:373
 #: ../../source/rendering_the_animation.rst:385
 msgid "Choose Xsheet  →  **Scene Settings...**"
-msgstr ""
+msgstr "Elegir Planilla → **Opciones de escena...**"
 
 #: ../../source/rendering_the_animation.rst:375
 msgid "Set the **Camera BG Color** by doing one of the following:"
 msgstr ""
+"Definir el **Color de fondo de cámara:** realizando una de las siguientes "
+"acciones:"
 
 #: ../../source/rendering_the_animation.rst:377
 msgid "Set the **Red**, **Green** and **Blue** values."
-msgstr ""
+msgstr "Definir los valores de **Rojo**, **Verde**, **Azul** y **Alfa**."
 
 #: ../../source/rendering_the_animation.rst:379
 msgid ""
 "Click the *color thumbnail* and use the Style Editor to edit it (see  :ref:"
 "`Plain Colors <plain_colors>`  )."
 msgstr ""
+"Hacer clic sobre la *miniatura de color* y usar el Editor de estilos para "
+"editarlo (ver  :ref:`Colores <plain_colors>`  )."
 
 #: ../../source/rendering_the_animation.rst:381
 msgid ""
 "This color is relevant only in the Preview window and when the Viewer is in "
 "*Preview mode*."
 msgstr ""
+"Este color solo será relevante en la ventana del Reproductor y cuando el Visor "
+"se encuentre en modo **Previsualizar**."
 
 #: ../../source/rendering_the_animation.rst:383
 msgid "**To define the Flipbook checkerboard colors:**"
-msgstr ""
+msgstr "**Para definir los colores del damero del Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:387
 msgid ""
 "Set the **Checkerboard Color 1** and **Color 2** by doing one of the following:"
 msgstr ""
+"Definir los colores **Damero - Color 1** y **Damero - Color 2** realizando una "
+"de las siguientes acciones:"
 
 #: ../../source/rendering_the_animation.rst:389
 msgid "Set the Red, Green and Blue values."
-msgstr ""
+msgstr "Definir los valores de Rojo, Verde y Azul."
 
 #: ../../source/rendering_the_animation.rst:391
 msgid ""
 "Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain "
 "Colors <plain_colors>`  )."
 msgstr ""
+"Hacer clic sobre la miniatura de color y usar el Editor de estilos para "
+"editarlo (ver  :ref:`Colores <plain_colors>`  )."
 
 #: ../../source/rendering_the_animation.rst:397
 msgid "Using the Playback Markers"
@@ -1140,6 +1368,10 @@ msgid ""
 "available in the frame column of the Xsheet (and the frame row of the Timeline) "
 "to define the playback range."
 msgstr ""
+"Existen dos marcadores, **Marcador de Inicio de reproducción** y **Marcador de "
+"Fin de reproducción**, disponibles en la columna de fotogramas de la Planilla "
+"(y la barra de tiempo de la Línea de tiempo) que permiten definir el rango de "
+"fotogramas a ser reproducidos."
 
 #: ../../source/rendering_the_animation.rst:400
 msgid ""
@@ -1148,6 +1380,10 @@ msgid ""
 "unset, so OpenToonz automatically defines a playback range that includes all of "
 "the Xsheet/Timeline contents."
 msgstr ""
+"Será posible definirlos de forma manual para demarcar los fotogramas de "
+"*inicio* y *fin*, a ser considerados al reproducir una animación, o dejarlos "
+"sin definir para que OpenToonz automáticamente los ajuste al contenido expuesto "
+"en la Planilla/Línea de tiempo."
 
 #: ../../source/rendering_the_animation.rst:402
 msgid ""
@@ -1155,60 +1391,78 @@ msgid ""
 "Settings...** dialog changes accordingly (see  :ref:`Using the Preview Window "
 "<using_the_preview_window>`  )."
 msgstr ""
+"Cuando los marcadores de reproducción se encuentren activados, el rango de "
+"fotogramas en el diálogo **Opciones de previsualización** cambiará "
+"correspondientemente (ver  :ref:`Uso de la ventana de previsualización "
+"<using_the_preview_window>`  )."
 
 #: ../../source/rendering_the_animation.rst:404
 msgid "**To set a playback range:**"
-msgstr ""
+msgstr "**Para definir el rango de reproducción:**"
 
 #: ../../source/rendering_the_animation.rst:406
 msgid "Set the starting frame by doing one of the following:"
-msgstr ""
+msgstr "Definir el fotograma de inicio realizando una de las siguientes acciones:"
 
 #: ../../source/rendering_the_animation.rst:408
 msgid "Drag the **Playback Start Marker** to the desired frame."
-msgstr ""
+msgstr "Arrastrar el **Marcador de Inicio** hasta el fotograma deseado."
 
 #: ../../source/rendering_the_animation.rst:410
 msgid ""
 "Right-click on the desired frame in the frame column and select **Set Start "
 "Marker** from the menu that shows."
 msgstr ""
+"Hacer clic derecho sobre el fotograma deseado en la columna de fotogramas y "
+"seleccionar **Definir marcador de Inicio** en el menú."
 
 #: ../../source/rendering_the_animation.rst:412
 msgid "Set the ending frame by doing one of the following:"
 msgstr ""
+"Definir el fotograma de finalización realizando una de las siguientes acciones:"
 
 #: ../../source/rendering_the_animation.rst:414
 msgid "Drag the **Playback End Marker** to the desired frame."
-msgstr ""
+msgstr "Arrastrar el **Marcador de Fin** hasta el fotograma deseado."
 
 #: ../../source/rendering_the_animation.rst:416
 msgid ""
 "Right-click on the desired frame in the frame column and select **Set Stop "
 "Marker** from the menu that shows."
 msgstr ""
+"Hacer clic derecho sobre el fotograma deseado en la columna de fotogramas y "
+"seleccionar **Definir marcador de Fin** en el menú."
 
 #: ../../source/rendering_the_animation.rst:418
 msgid ""
 "**To set the playback range to match the duration of a block of contiguous "
 "exposed cells:**"
 msgstr ""
+"**Para hacer que el rango de reproducción coincida con la duración de un bloque "
+"de acetatos contiguos expuestos:**"
 
 #: ../../source/rendering_the_animation.rst:420
 msgid "In the Xsheet/Timeline, select an exposed cell from the desired column."
 msgstr ""
+"En la Planilla/Línea de tiempo, seleccionar un acetato expuesto de la columna/"
+"capa deseada."
 
 #: ../../source/rendering_the_animation.rst:422
 msgid ""
 "Right-click on the desired frame in the frame column and select **Set Auto "
 "Markers** from the menu that shows."
 msgstr ""
+"Hacer clic derecho sobre el fotograma deseado en la columna/barra de fotogramas "
+"y seleccionar **Definir marcadores automáticamente** en el menú."
 
 #: ../../source/rendering_the_animation.rst:424
 msgid ""
 "There must be an exposed cell in that column at that frame for the **Set Auto "
 "Markers** option to be available."
 msgstr ""
+"Deberá existir un acetato expuesto en la columna/capa seleccionada en ese "
+"fotograma, para que la opción **Definir marcadores automáticamente** esté "
+"disponible."
 
 #: ../../source/rendering_the_animation.rst:426
 msgid ""
@@ -1216,30 +1470,39 @@ msgid ""
 "to, this function will take into account the frame in which the user performed "
 "the right click operation to set the markers."
 msgstr ""
+"No importa a qué bloque de acetatos contiguos pertenezca el acetato "
+"seleccionado, esta función tomará en cuenta el fotograma en el que el usuario "
+"realizó la operación de clic derecho para definir los marcadores."
 
 #: ../../source/rendering_the_animation.rst:428
 msgid "**To set a single-frame playback range:**"
-msgstr ""
+msgstr "**Para definir un rango de reproducción de un solo fotograma:**"
 
 #: ../../source/rendering_the_animation.rst:430
 msgid ""
 "Right-click on the desired frame in the frame column and select **Preview "
 "This** from the menu that shows."
 msgstr ""
+"Hacer clic derecho sobre el fotograma deseado, en la columna/barra de "
+"fotogramas, y seleccionar **Previsualizar esto** en el menú."
 
 #: ../../source/rendering_the_animation.rst:432
 msgid "**To unset the playback markers:**"
-msgstr ""
+msgstr "**Para eliminar los marcadores de reproducción definidos anteriormente:**"
 
 #: ../../source/rendering_the_animation.rst:434
 msgid ""
 "Right click on the frame column and select **Remove Markers** from the menu "
 "that shows."
 msgstr ""
+"Hacer clic derecho sobre la columna/barra de fotogramas y seleccionar "
+"**Eliminar marcadores** en el menú."
 
 #: ../../source/rendering_the_animation.rst:436
 msgid "When deactivated, playback markers turn *grey*."
 msgstr ""
+"Cuando se encuentren desactivados, los marcadores de reproducción se mostrarán "
+"en color *gris*."
 
 #: ../../source/rendering_the_animation.rst:441
 msgid "Rendering the Animation"
