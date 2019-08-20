@@ -9,8 +9,11 @@ OpenToonz User Manual
 | This is the manual for OpenToonz, an open-source full-featured 2D animation creation software.
 | `http://opentoonz.github.io <http://opentoonz.github.io>`_
 
+.. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for OpenToonz features, and as such there will always be room for improvements and updates. Collaboration is welcome!
+
 | To contribute to OpenToonz's documentation, please visit the OpenToonz docs repository.
 | `https://github.com/opentoonz/opentoonz_docs <https://github.com/opentoonz/opentoonz_docs>`_
+
 
 .. toctree::
    :maxdepth: 2
