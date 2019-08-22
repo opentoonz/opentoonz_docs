@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-19 09:52-0300\n"
-"PO-Revision-Date: 2019-08-22 01:44-0300\n"
+"PO-Revision-Date: 2019-08-22 14:42-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -2034,6 +2034,9 @@ msgid ""
 "It will be added before the rendered frames, in order to record and convey "
 "information to subsequent phases of the pipeline."
 msgstr ""
+"Una claqueta es una imagen estática, cuyo propósito es mostrar información "
+"acerca de la escena. Se agregará antes de los fotogramas procesados para "
+"transmitir información a etapas posteriores en el flujo de trabajo."
 
 #: ../../source/rendering_the_animation.rst:557
 msgid "|clapperboard|"
@@ -2047,6 +2050,12 @@ msgid ""
 "appropriate buttons. Items can also be created or deleted by using the **Add** "
 "or **Remove** buttons."
 msgstr ""
+"La claqueta es una placa que está compuesta de *elementos*. En la sección "
+"inferior derecha del diálogo Opciones de claqueta hay una lista con todos los "
+"elementos de la claqueta, éstos se encuentran dispuestos en capas y su orden "
+"puede ser controlado mediante los botones **Mover arriba** y **Mover abajo**, a "
+"la izquierda de la lista. También será posible crear y borrar elementos usando "
+"los botones **Agregar** y **Eliminar**."
 
 #: ../../source/rendering_the_animation.rst:563
 msgid ""
@@ -2058,6 +2067,14 @@ msgid ""
 "**Text** or **Image** allow to input user defined data to be displayed in the "
 "Clapperboard."
 msgstr ""
+"Las opciones para el *elemento seleccionado* serán mostradas arriba de la lista "
+"de elementos, en la sección superior derecha del diálogo Opciones de claqueta. "
+"Cada elemento contendrá un **Tipo:** de información. La mayor parte de los "
+"tipos de elementos obtendrán los datos necesarios desde la escena o el sistema, "
+"tales como la **Duración** de la escena, la **Ubicación de la escena*, la "
+"**Fecha actual**, etc. Otros tipos, tales como **Texto** o **Imagen** "
+"permitirán ingresar información definida por el usuario para ser mostrada en la "
+"Claqueta."
 
 #: ../../source/rendering_the_animation.rst:567
 msgid ""
@@ -2066,6 +2083,10 @@ msgid ""
 "project's default settings by using the File  →  **Save Default Settings** "
 "command."
 msgstr ""
+"Las opciones podrán ser guardadas como un *Ajuste* para poder ser reusadas más "
+"adelante, mediante los botones **Guardar como ajuste** y **Cargar ajuste**. "
+"También podrán ser almacenadas como parte de las opciones predefinidas del "
+"proyecto activo, al usar el comando Archivo → **Guardar opciones predefinidas**."
 
 #: ../../source/rendering_the_animation.rst:570
 msgid ""
@@ -2074,30 +2095,36 @@ msgid ""
 "remove the clapperboard data from the scene, so that compatibility can be "
 "restored."
 msgstr ""
+"ADVERTENCIA: Al agregar la Claqueta la escena perderá compatibilidad con "
+"versiones anteriores de OpenToonz. Sin embargo, siempre será posible volver a "
+"definir la **Duración:** de la claqueta en 0, eliminando los datos de la "
+"claqueta de la escena para recuperar así la compatibilidad."
 
 #: ../../source/rendering_the_animation.rst:572
 msgid "**To Add a Clapperboard:**"
-msgstr ""
+msgstr "**Para agregar una claqueta:**"
 
 #: ../../source/rendering_the_animation.rst:574
 #: ../../source/rendering_the_animation.rst:590
 #: ../../source/rendering_the_animation.rst:596
 msgid "Open the File  →  Output Settings... dialog."
-msgstr ""
+msgstr "Abrir el diálogo Archivo → Opciones de salida..."
 
 #: ../../source/rendering_the_animation.rst:576
 msgid ""
 "Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM)."
 msgstr ""
+"Seleccionar cualquiera de los formatos de archivo de salida que produzcan video "
+"(3GP, AVI, MOV, MP4 o WebM)."
 
 #: ../../source/rendering_the_animation.rst:578
 #: ../../source/rendering_the_animation.rst:598
 msgid "Open **Other Settings** group box."
-msgstr ""
+msgstr "Abrir el grupo de parámetros llamado **Otras opciones**."
 
 #: ../../source/rendering_the_animation.rst:580
 msgid "Enable the **Add Clapperboard** option."
-msgstr ""
+msgstr "Activar la opción **Agregar claqueta**."
 
 #: ../../source/rendering_the_animation.rst:582
 #: ../../source/rendering_the_animation.rst:600
@@ -2105,36 +2132,40 @@ msgid ""
 "Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog "
 "opens."
 msgstr ""
+"Hacer clic en el botón **Editar claqueta...**. Se abrirá el diálogo **Opciones "
+"de claqueta**."
 
 #: ../../source/rendering_the_animation.rst:584
 msgid "Set the **Duration (frames):** option to any value greater than 0."
-msgstr ""
+msgstr "Definir la opción **Duración (fotogramas):** en algún valor mayor que 0."
 
 #: ../../source/rendering_the_animation.rst:586
 msgid ""
 "Setting the duration to 0 frames will remove the clapperboard data from the "
 "scene when it's saved."
 msgstr ""
+"Volver a definir la duración en 0 fotogramas, eliminará los datos de la "
+"claqueta dela escena, cuando ésta sea guardada."
 
 #: ../../source/rendering_the_animation.rst:588
 msgid "**To temporarily deactivate the Clapperboard:**"
-msgstr ""
+msgstr "**Para desactivar temporalmente la Claqueta:**"
 
 #: ../../source/rendering_the_animation.rst:592
 msgid "Disable the **Add Clapperboard** option."
-msgstr ""
+msgstr "Desactivar la opción **Agregar claqueta**."
 
 #: ../../source/rendering_the_animation.rst:594
 msgid "**To Delete the Clapperboard:**"
-msgstr ""
+msgstr "**Para borrar la Claqueta:**"
 
 #: ../../source/rendering_the_animation.rst:602
 msgid "Set the **Duration (frames):** option value to 0."
-msgstr ""
+msgstr "Definir la opción **Duración (fotogramas):** en 0."
 
 #: ../../source/rendering_the_animation.rst:604
 msgid "Save the scene."
-msgstr ""
+msgstr "Guardar la escena."
 
 #: ../../source/rendering_the_animation.rst:610
 msgid "Creating Multiple Renderings"
@@ -2147,6 +2178,11 @@ msgid ""
 "according to the FX Schematic. Options are **None**, **FX Schematic Flows** and "
 "**FX Schematic Terminal Nodes**."
 msgstr ""
+"Usando **Procesamiento múltiple:** será posible crear automáticamente, para la "
+"misma escena, varios archivos de salida, basados en el contenido de las "
+"columnas de la Planilla (o capas de la Línea de tiempo) y de acuerdo con el "
+"Diagrama de efectos. Las opciones son **No**, **Flujos del diagrama de "
+"efectos** y **Nodos terminales del diagrama de efectos**."
 
 #: ../../source/rendering_the_animation.rst:613
 msgid ""
@@ -2154,6 +2190,10 @@ msgid ""
 "to the Xsheet node**. Any effect nodes with multiple input ports met along the "
 "flow (such as Matte effects) will be ignored."
 msgstr ""
+"**Flujos**: permite crear tantas salidas como **flujos haya conectando los "
+"nodos de las columnas al nodo de la Planilla**. Cualquier nodo de efectos con "
+"entradas múltiples que se encuentre a lo largo del flujo (tales como los "
+"efectos Matte) será ignorado."
 
 #: ../../source/rendering_the_animation.rst:615
 msgid ""
@@ -2161,6 +2201,10 @@ msgid ""
 "the Xsheet node**; all the columns and effects linked to each of these nodes "
 "will be taken into account for the rendering."
 msgstr ""
+"**Nodos terminales**: permite crear tantas salidas como **la cantidad de nodos "
+"vinculados al nodo de la Planilla**; todas las columnas/capas y efectos "
+"vinculados a cada uno de estos nodos serán tomados en cuenta durante el "
+"procesamiento."
 
 #: ../../source/rendering_the_animation.rst:617
 msgid ""
@@ -2173,12 +2217,26 @@ msgid ""
 "output files of the scene ``scene01`` , related to the flow going from column B "
 "(whose ID is Col3) to the effect node My Blur (whose ID is Blur1)."
 msgstr ""
+"Los nombres de los distintos archivos de salida serán generados automáticamente "
+"para evitar cualquier conflicto de nombres entre ellos. Concretamente éstos se "
+"generarán anexando al *nombre del archivo de salida*: el **nombre de la "
+"columna**, luego el **identificador de la columna** (tal como puede ser leído "
+"en la descripción del nodo), luego el **nombre del efecto**, luego el "
+"**identificador del efecto** (tal como puede ser leído en la descripción del "
+"nodo) *en caso de que el efecto hubiera sido renombrado*. Por ejemplo, la "
+"secuencia de archivos``escena01_B(Col3)_Mi Desenfoque(Blur1)..tif``  será una "
+"de las secuencias generadas a partir de la escena *escena01* , relativa al "
+"flujo que va desde la columna/capa *B* (cuyo identificador es *Col3*) hasta el "
+"nodo de efecto *Mi Desenfoque* (cuyo identificador es *Blur1*)."
 
 #: ../../source/rendering_the_animation.rst:619
 msgid ""
 "No output will be displayed after the rendering, regardless of **Open Flipbook "
 "after Rendering** being activated in Preferences  →  Preview dialog."
 msgstr ""
+"En este caso, al finalizar el procesamiento, no se mostrará el resultado en el "
+"Reproductor, sin importar el estado de la opción **Abrir el reproductor luego "
+"del procesamiento**, en el diálogo Archivo → Preferencias → Previsualización."
 
 #: ../../source/rendering_the_animation.rst:621
 msgid ""
@@ -2189,16 +2247,25 @@ msgid ""
 "Xsheet in case of **Flows** type multiple rendering, or connect them to several "
 "Over nodes in case of **Terminal Nodes** type multiple rendering."
 msgstr ""
+"Si fuera necesario tener más control sobre la forma en cómo se procesarán los "
+"elementos de la escena, se recomienda considerar el uso de sub-planillas y el "
+"efecto **Over** (ver  :ref:`Uso de sub-planillas <using_sub-xsheets>`  y  :ref:"
+"`Over <over>`  ). Por ejemplo, en caso de necesitar obtener una única salida "
+"para un cierto número de columnas/capas, será posible colapsarlas a una sub-"
+"planilla (para un procesamiento múltiple de tipo **Flujos**) o conectarlas a "
+"varios nodos Over (para un procesamiento múltiple de tipo **Nodos terminales**)."
 
 #: ../../source/rendering_the_animation.rst:627
 msgid "Rendering Animations with Alpha Channel Information"
-msgstr ""
+msgstr "Procesamiento de animaciones con canal alfa"
 
 #: ../../source/rendering_the_animation.rst:628
 msgid ""
 "It's possible to render a scene with a transparent background color in order to "
 "export it to editing systems supporting alpha channel information."
 msgstr ""
+"Es posible procesar una escena con un fondo transparente, para exportarla a "
+"sistemas de edición que soporten el uso de canal alfa."
 
 #: ../../source/rendering_the_animation.rst:630
 msgid ""
@@ -2206,22 +2273,28 @@ msgid ""
 "has to support alpha channel information, e.g. TIF at 32 or 64 bits per pixel, "
 "TGA at 32 bits per pixel, or MOV with codecs supporting alpha (i.e. Animation)."
 msgstr ""
+"En este caso no será necesario usar una imagen de fondo, y el formato de "
+"archivo de salida deberá soportar información de canal alfa: TIF de 32 o 64 "
+"bits por píxel, TGA de 32 bits por píxel o MOV al usar compresores que soporten "
+"canal alfa (p.ej: Animación)."
 
 #: ../../source/rendering_the_animation.rst:632
 msgid "**To render animation with alpha channel information:**"
-msgstr ""
+msgstr "**Para procesar una animación con canal alfa:**"
 
 #: ../../source/rendering_the_animation.rst:634
 msgid "Choose Xsheet  →  **Scene Settings...**."
-msgstr ""
+msgstr "Elegir Planilla → **Opciones de escena...**"
 
 #: ../../source/rendering_the_animation.rst:636
 msgid "Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent)."
 msgstr ""
+"Definir el *canal alfa* del **Color de fondo de cámara:** en 0 (transparente)."
 
 #: ../../source/rendering_the_animation.rst:638
 msgid "Choose an output file format supporting alpha channel information."
 msgstr ""
+"Elegir un formato de archivo de salida que soporte información de canal alfa."
 
 #: ../../source/rendering_the_animation.rst:644
 msgid "Rendering A Loaded Scene"
@@ -2232,6 +2305,8 @@ msgid ""
 "The current scene can be rendered directly while being loaded in OpenToonz "
 "according to the defined Output Settings."
 msgstr ""
+"Es posible procesar directamente la escena actual en OpenToonz, usando las "
+"opciones definidas en el diálogo Opciones de salida."
 
 #: ../../source/rendering_the_animation.rst:647
 msgid ""
@@ -2243,6 +2318,14 @@ msgid ""
 "MOV). The same applies if a section of the scene has to be rendered again "
 "because some corrections were needed."
 msgstr ""
+"Mediante la elección de un rango de fotogramas apropiado en las Opciones de "
+"salida, será posible procesar la escena en bloques, por ejemplo realizando el "
+"procesamiento de una sección primero y luego el de otra. En este caso, la "
+"animación que quedará disponible en la ubicación de salida siempre incluirá "
+"todos los fotogramas procesados hasta ese punto, tanto si el formato de salida "
+"fuera uno que generara múltiples archivos (p.ej: TIF o TGA), como un único "
+"archivo (p.ej: MP4 o MOV). Lo mismo aplicará si una sección de la escena "
+"tuviera que ser procesada nuevamente, para corregir algunos errores detectados."
 
 #: ../../source/rendering_the_animation.rst:649
 msgid ""
@@ -2251,12 +2334,19 @@ msgid ""
 "the soundtrack of the movie (see  :ref:`Creating a Soundtrack "
 "<creating_a_soundtrack>`  )."
 msgstr ""
+"Si la escena contuviera algunos archivos de sonido y fuera procesada a un "
+"archivo con soporte para sonido (p.ej: MP4), todas las columnas/capas de sonido "
+"serán mezcladas para conformar la banda de sonido de la animación (ver  :ref:"
+"`Creación de una banda de sonido <creating_a_soundtrack>`  )."
 
 #: ../../source/rendering_the_animation.rst:651
 msgid ""
 "Audio files loaded in Sub-Xsheets will not be included in the output soundtrack "
 "(see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  )."
 msgstr ""
+"Los archivos de sonido cargados en sub-planillas no serán incluidos en la banda "
+"de sonido de la Planilla/Línea de tiempo principal (ver  :ref:`Uso de sub-"
+"planillas <using_sub-xsheets>`  )."
 
 #: ../../source/rendering_the_animation.rst:653
 msgid ""
@@ -2267,12 +2357,22 @@ msgid ""
 "soundtrack is available for the rendered scene, it's also possible to listen to "
 "it."
 msgstr ""
+"Tan pronto el procesamiento haya terminado, será posible visualizar "
+"automáticamente la animación resultante en una ventana de Reproductor de "
+"OpenToonz, activando la opción **Abrir el reproductor luego del procesamiento** "
+"en el diálogo Archivo → Preferencias → Previsualización; también será posible "
+"mostrar fotogramas en blanco luego de finalizada cada reproducción, al estar "
+"activada la repetición. Si hubiera una banda de sonido disponible para la "
+"escena procesada, será posible escucharla."
 
 #: ../../source/rendering_the_animation.rst:655
 msgid ""
 "When displayed in the Flipbook, the rendering can be checked by using the "
 "Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
 msgstr ""
+"Al ser visualizada en el Reproductor, la animación procesada podrá ser revisada "
+"usando las funciones del mismo (ver  :ref:`Uso del Reproductor "
+"<using_the_flipbook>`  )."
 
 #: ../../source/rendering_the_animation.rst:657
 msgid ""
@@ -2280,32 +2380,42 @@ msgid ""
 "Preferences  →  General dialog, in order to play back the output with its own "
 "default viewer, e.g. QuickTime Player for the MOV format."
 msgstr ""
+"También será posible activar la opción **Usar visor predefinido para formatos "
+"de película** en el diálogo Archivo → Preferencias → General, para poder "
+"reproducir el archivo generado, en su propio reproductor nativo, p.ej: el "
+"reproductor de QuickTime, en el caso del formato MOV."
 
 #: ../../source/rendering_the_animation.rst:659
 msgid "**To render the currently loaded scene:**"
-msgstr ""
+msgstr "**Para procesar la escena actualmente cargada:**"
 
 #: ../../source/rendering_the_animation.rst:661
 msgid "Choose File  →  **Render**."
-msgstr ""
+msgstr "Elegir Archivo → **Procesar**."
 
 #: ../../source/rendering_the_animation.rst:663
 msgid "**To display blank frames after each rendering playback when looping:**"
 msgstr ""
+"**Para mostrar fotogramas el blanco luego de cada reproducción, en modo "
+"repetición:**"
 
 #: ../../source/rendering_the_animation.rst:665
 msgid "Choose File  →  Preferences  →  **Preview**."
-msgstr ""
+msgstr "Elegir Archivo → Preferencias → **Previsualizar**."
 
 #: ../../source/rendering_the_animation.rst:669
 msgid ""
 "In **Blank Frames:** set how many blank frames you want to be displayed after "
 "each preview playback, when looping."
 msgstr ""
+"En la opción **Fotogramas en blanco:** definir cuántos fotogramas en blanco se "
+"desea que se muestren luego de finalizar cada ciclo de reproducción."
 
 #: ../../source/rendering_the_animation.rst:671
 msgid "In **Blank Frames Color:** set the color for the blank frames."
 msgstr ""
+"En la opción **Color de fotogramas en blanco:** definir el color de los "
+"fotogramas en blanco."
 
 #: ../../source/rendering_the_animation.rst:677
 msgid "Rendering Scenes in Batch Mode"
