@@ -407,7 +407,7 @@ The user can manually set the playback markers to define the *starting* and *end
 
     - Drag the **Playback Start Marker** to the desired frame.
 
-    - Right-click on the desired frame in the frame column and select **Set Start Marker** from the menu that shows.
+    - Right-click on the desired frame in the frame column/bar and select **Set Start Marker** from the menu that shows.
 
     2. Set the ending frame by doing one of the following:
 
@@ -417,17 +417,17 @@ The user can manually set the playback markers to define the *starting* and *end
 
 .. tip:: **To set the playback range to match the duration of a block of contiguous exposed cells:**
 
-    1. In the Xsheet/Timeline, select an exposed cell from the desired column.
+    1. In the Xsheet/Timeline, select an exposed cell from the desired column/layer.
 
     2. Right-click on the desired frame in the frame column and select **Set Auto Markers** from the menu that shows. 
     
-    .. note:: There must be an exposed cell in that column at that frame for the **Set Auto Markers** option to be available.
+    .. note:: There must be an exposed cell in that column/layer at that frame for the **Set Auto Markers** option to be available.
 
     .. note:: No matter to what block of contiguous exposed cells the selected cell belongs to, this function will take into account the frame in which the user performed the right click operation to set the markers.
 
 .. tip:: **To set a single-frame playback range:**
 
-    Right-click on the desired frame in the frame column and select **Preview This** from the menu that shows. 
+    Right-click on the desired frame in the frame column/bar and select **Preview This** from the menu that shows. 
 
 .. tip:: **To unset the playback markers:**
 
@@ -441,7 +441,7 @@ Rendering the Animation
 -----------------------
 Final animations can be rendered directly by loading the related scene, or in batch mode. In both cases the rendering properties are defined in the Output Settings dialog.
 
-.. note:: Information about the scene name and frame number can be included when needed in rendered frames by activating the Show Info in Rendered Frames option in the Preferences  →  General dialog.
+.. note:: Information about the scene name and frame number can be included when needed in rendered frames by activating the **Show Info in Rendered Frames** option in the Preferences  →  General dialog.
 
 
 .. _choosing_the_output_settings:
@@ -482,7 +482,7 @@ File Settings
 
 - **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
-  .. note:: OpenToonz supports the 3GP and MOV, formats by using the 32-bit version of QuickTime.
+  .. note:: OpenToonz supports the 3GP and MOV formats by using the 32-bit version of QuickTime.
   
   To save in other popular video formats, like MP4 and WebM, OpenToonz uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with OpenToonz, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
 
@@ -494,7 +494,7 @@ File Settings
 
   There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently OpenToonz also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming window**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
 
-- **Channel Width:** sets the color depth for rendered images; choices are **8 bit** and **16 bit** per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the **TIF** format with the **64 Bits Per Pixel** option activated.
+- **Channel Width:** sets the color depth for rendered images; choices are **8 bit** and **16 bit** per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the **TIF** format with the **64(RGBA)** option activated.
 
 - **Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many processor threads will be assigned to the rendering process. Setting the value to **All** will generate a number of rendering threads equal to the number of processors, thus speeding up the rendering process. However in systems with limited RAM resources, it's suggested to use the **Half** or **Single** options if the scene to render is very complex, because the higher the dedicated CPUs, the more RAM will be required to perform the rendering, leading to potentially longer rendering times or system instability.
 
@@ -531,7 +531,7 @@ Other Settings
 
   .. note:: The **Particles** effect may have unexpected results when the scene is stretched to a higher FPS value, as the effect requires the original timing information.
 
-- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns content, and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
+- **Multiple Rendering:** creates automatically for a single scene several output files based on the Xsheet columns (or Timeline layers) content, and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings <creating_multiple_renderings>`  ). 
 
 - **Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each frame will be rendered from two different camera view creating two sequences of files, one for each view. The suffixes **_l** (left) and **_r** (right) will be used to identify sequences.
 
@@ -608,17 +608,17 @@ They can also be stored in the project's default settings by using the File  →
 
 Creating Multiple Renderings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns content and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes**.
+With **Multiple Rendering:** it's possible to render automatically, from a single scene, several output files based on the Xsheet columns (or Timeline layers) content and according to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX Schematic Terminal Nodes**.
 
 **Flows**: creates as many outputs as the **flows connecting the column nodes to the Xsheet node**. Any effect nodes with multiple input ports met along the flow (such as Matte effects) will be ignored.
 
 **Terminal Nodes**: creates as many outputs as the **number of nodes linked to the Xsheet node**; all the columns and effects linked to each of these nodes will be taken into account for the rendering.
 
-The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) *in case the effect node was renamed*. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene ``scene01`` , related to the flow going from column B (whose ID is Col3) to the effect node My Blur (whose ID is Blur1).
+The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) *in case the effect node was renamed*. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene *scene01* , related to the flow going from column *B* (whose ID is *Col3*) to the effect node *My Blur* (whose ID is *Blur1*).
 
 .. note:: No output will be displayed after the rendering, regardless of **Open Flipbook after Rendering** being activated in Preferences  →  Preview dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns, you may collapse them in a Sub-Xsheet in case of **Flows** type multiple rendering, or connect them to several Over nodes in case of **Terminal Nodes** type multiple rendering.
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns/layers, you may collapse them in a Sub-Xsheet (in case of **Flows** type multiple rendering) or connect them to several Over nodes (in case of **Terminal Nodes** type multiple rendering).
 
 
 .. _rendering_animations_with_alpha_channel_information:
@@ -770,15 +770,15 @@ Task execution can be started and stopped from the task list.
 
 When the tasks are executed, the icon color tells the status of the task according to the following color code:
 
-- **Grey**, when the task is *waiting* or is not executed yet.
+- *Grey*, when the task is *waiting* or is not executed yet.
 
-- **Yellow**, when the task is *being executed*.
+- *Yellow*, when the task is *being executed*.
 
-- **Green**, when the task is *successfully executed*.
+- *Green*, when the task is *successfully executed*.
 
-- **Orange**, when the task is *executed with some errors*.
+- *Orange*, when the task is *executed with some errors*.
 
-- **Red**, when the task *execution has failed*.
+- *Red*, when the task *execution has failed*.
 
 .. tip:: **To Add scenes to render in the task list:**
 
@@ -808,7 +808,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the **Start** (|start|) button in the bottom bar of the pane.
+    - Click the **Start** (|start|) button in the top bar of the Tasks pane.
 
     - Right-click any selected task icon and choose **Start** from the menu that opens.
 
@@ -816,7 +816,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the **Stop** (|stop|) button in the bottom bar of the pane.
+    - Click the **Stop** (|stop|) button in the top bar of the Tasks pane.
 
     - Right-click any selected task icon and choose **Stop** from the menu that opens.
 
@@ -824,17 +824,17 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the **Remove** (|remove|) button in the bottom bar of the Tasks pane.
+    - Click the **Remove** (|remove|) button in the top bar of the Tasks pane.
 
-    - Right-click any selected task in the list and choose Remove from the menu that opens.
+    - Right-click any selected task in the list and choose **Remove** from the menu that opens.
 
 .. tip:: **To Add or Remove tasks from the Dependencies list:**
 
     Do one of the following:
 
-    - To Add a task to the dependencies list, select a task in the task list on the right and click the **Add** button.
+    - To Add a task to the dependencies list, select a task in the task list on the right and click the **<< Add** button.
 
-    - To Remove a task from the dependencies list, select a task in the dependencies list on the left, and click the **Remove** button.
+    - To Remove a task from the dependencies list, select a task in the dependencies list on the left, and click the **Remove >>** button.
 
 
 .. _using_chunks_when_rendering_tasks:
@@ -847,7 +847,7 @@ The default value for the chunk size (expressed in number of frames) can be set 
 
 Once a task is submitted, it's possible to change the chunk size by editing the related value in the task properties.
 
-When a task is divided into chunks, each task is represented in the task tree as sub-tasks.
+When a task is divided into chunks, each chunk of the task is represented in the task tree as a sub-task.
 
 Render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
