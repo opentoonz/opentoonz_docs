@@ -118,7 +118,7 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
 
   There are several options to choose from. Originally *Toonz* provided three options: **Standard**, **Improved**, **High**. The higher the balance chosen, the longer the time needed for rendering the output. 
-Additionally, *OpenToonz* provides several other standard resampling filters that could help improve the final results in a wider range of situations.
+  Additionally, *OpenToonz* provides several other standard resampling filters that could help improve the final results in a wider range of situations.
 
 - **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. 
 
