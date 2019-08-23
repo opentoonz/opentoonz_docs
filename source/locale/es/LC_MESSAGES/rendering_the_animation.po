@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-19 09:52-0300\n"
-"PO-Revision-Date: 2019-08-22 14:42-0300\n"
+"PO-Revision-Date: 2019-08-23 12:30-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -2427,6 +2427,9 @@ msgid ""
 "mode, in order to run it in the background while you perform other work on your "
 "computer."
 msgstr ""
+"Es posible agregar el procesamiento de una escena a una lista de tareas a ser "
+"realizadas por lotes, para poder ser ejecutadas en segundo plano, mientras se "
+"sigue trabajando en la computadora."
 
 #: ../../source/rendering_the_animation.rst:680
 msgid ""
@@ -2434,6 +2437,10 @@ msgid ""
 "and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:"
 "`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  )."
 msgstr ""
+"Es posible enviar *tareas de procesamiento* desde el Explorador de archivos de "
+"OpenToonz, y podrán ser administradas y ejecutadas desde el panel de Tareas, "
+"conjuntamente con *tareas de limpieza* (ver  :ref:`Limpieza de dibujos por "
+"lotes <cleaning_up_drawings_in_batch_mode>`  )."
 
 #: ../../source/rendering_the_animation.rst:682
 msgid "|tasks|"
@@ -2446,68 +2453,89 @@ msgid ""
 "*Cleanup tasks* with a brush icon; on the right there is Information about the "
 "task selected in the Task tree."
 msgstr ""
+"El panel **Tareas** se encuentra dividido en dos secciones: a la izquierda hay "
+"un árbol de Tareas, donde se mostrarán todas las *tareas de procesamiento*, "
+"identificadas con el ícono de una claqueta, así como todas las *tareas de "
+"limpieza*, identificadas con un ícono de pincel; a la derecha se mostrará "
+"información acerca de la tarea seleccionada en el árbol de Tareas."
 
 #: ../../source/rendering_the_animation.rst:686
 msgid ""
 "The Task list can be saved as TNZBAT files and loaded back later, in case you "
 "want to manage it through different working sessions."
 msgstr ""
+"Es posible guardar la lista de Tareas como un archivo TNZBAT, que podrá ser "
+"cargado más adelante, en caso de ser necesario acceder a ella a lo largo de "
+"varias sesiones de trabajo."
 
 #: ../../source/rendering_the_animation.rst:688
 msgid "**To Save a Task list:**"
-msgstr ""
+msgstr "**Para guardar una lista de tareas:**"
 
 #: ../../source/rendering_the_animation.rst:692
 msgid ""
 "Click the **Save** (|save|) or the **Save As** (|save_as|) buttons in the top "
 "bar of the Tasks pane."
 msgstr ""
+"Hacer clic en el botón **Guardar** (|save|) o **Guardar como** (|save_as|) en "
+"la barra superior del panel Tareas."
 
 #: ../../source/rendering_the_animation.rst:694
 msgid ""
 "Right-click the **Tasks** item at the top of the list and choose **Save Task "
 "List** or the **Save Task List As** from the menu that opens."
 msgstr ""
+"Hacer clic derecho en el elemento **Tareas** en la parte superior de la lista y "
+"elegir **Guardar lista de tareas** o **Guardar lista de tareas como** en el "
+"menú."
 
 #: ../../source/rendering_the_animation.rst:696
 msgid "Use the Browser that opens to save the list."
-msgstr ""
+msgstr "Usar el Explorador de archivos emergente para guardar la lista."
 
 #: ../../source/rendering_the_animation.rst:698
 msgid "**To Load a Task list:**"
-msgstr ""
+msgstr "**Para cargar una lista de tareas:**"
 
 #: ../../source/rendering_the_animation.rst:702
 msgid "Click the **Load** (|load|) button in the top bar of the Tasks pane."
 msgstr ""
+"Hacer clic en el botón **Cargar** (|load|) en la barra superior del panel "
+"Tareas."
 
 #: ../../source/rendering_the_animation.rst:704
 msgid ""
 "Right-click the **Tasks** item at the top of the list and choose **Load Task "
 "List** from the menu that opens."
 msgstr ""
+"Hacer clic derecho en el elemento **Tareas** en la parte superior de la lista y "
+"elegir **Cargar lista de tareas** en el menú."
 
 #: ../../source/rendering_the_animation.rst:706
 msgid "Use the Browser that opens to retrieve and load a previously saved list."
 msgstr ""
+"Usar el Explorador de archivos emergente para buscar y cargar una lista "
+"guardada con anterioridad."
 
 #: ../../source/rendering_the_animation.rst:708
 msgid "**To resize the Tasks pane sections:**"
-msgstr ""
+msgstr "**Para redimensionar las secciones del panel Tareas:**"
 
 #: ../../source/rendering_the_animation.rst:712
 msgid "Click and drag the separator to resize sections."
-msgstr ""
+msgstr "Arrastrar el separador para redimensionar sus secciones."
 
 #: ../../source/rendering_the_animation.rst:714
 msgid "Click and drag the separator toward the window border to hide a section."
-msgstr ""
+msgstr "Arrastrar el separador hacia el borde del panel para ocultar una sección."
 
 #: ../../source/rendering_the_animation.rst:716
 msgid ""
 "Click and drag the separator collapsed to the window border toward the window "
 "center to display again the hidden section."
 msgstr ""
+"Arrastrar el separador colapsado hacia el centro del panel para volver a "
+"mostrar la sección oculta."
 
 #: ../../source/rendering_the_animation.rst:722
 msgid "Managing and Executing Render Tasks"
@@ -2519,68 +2547,88 @@ msgid ""
 "the Tasks pane task-related properties are displayed, some of which can be "
 "edited to configure the task. Properties are the following:"
 msgstr ""
+"Cuando una *tarea de procesamiento* es seleccionada en el árbol de Tareas, en "
+"la sección de la derecha se mostrarán las propiedades correspondientes a la "
+"misma, algunas de las cuales podrán ser editadas para configurar la tarea. Las "
+"propiedades son las siguientes:"
 
 #: ../../source/rendering_the_animation.rst:725
 msgid ""
 "**Name** displays the task name; it can be edited to better identify the task."
 msgstr ""
+"**Nombre:**, muestra el nombre de la tarea; puede ser editado para identificar "
+"mejor a la misma."
 
 #: ../../source/rendering_the_animation.rst:727
 msgid "**Status** shows if the task is: Waiting, Running, Completed or Failed."
 msgstr ""
+"**Estado:**, muestra en qué estado se encuentra la tarea, los estados posibles "
+"son: En espera, En ejecución, Completada o Fallida."
 
 #: ../../source/rendering_the_animation.rst:729
 msgid ""
 "**Command Line** displays the command line related to the task execution with "
 "arguments and qualifiers."
 msgstr ""
+"**Línea de comandos:**, muestra la línea de comandos correspondiente a la "
+"ejecución de dicha tarea, con argumentos y calificadores."
 
 #: ../../source/rendering_the_animation.rst:731
 msgid "**Server** displays the computer that is running, or will run, the task."
 msgstr ""
+"**Servidor:**, muestra la computadora que está ejecutando o ejecutará la tarea."
 
 #: ../../source/rendering_the_animation.rst:733
 msgid "**Submitted By** displays the *user* that submitted the task."
-msgstr ""
+msgstr "**Enviada por:**, muestra el *usuario* que envió la tarea."
 
 #: ../../source/rendering_the_animation.rst:735
 msgid ""
 "**Submitted On** displays the *computer* from where the task was submitted."
 msgstr ""
+"**Enviada desde:**, muestra la *computadora* desde donde fue enviada la tarea."
 
 #: ../../source/rendering_the_animation.rst:737
 msgid "**Submission Date** displays *when* the task was submitted."
-msgstr ""
+msgstr "**Fecha de envío:**, muestra *cuando* fue enviada la tarea."
 
 #: ../../source/rendering_the_animation.rst:739
 msgid "**Start Date** displays when the task execution started."
-msgstr ""
+msgstr "**Fecha de inicio:**, muestra cuándo comenzó la ejecución de la tarea."
 
 #: ../../source/rendering_the_animation.rst:741
 msgid "**Completion Date** displays when the task execution was completed."
 msgstr ""
+"**Fecha de finalización:**, muestra cuándo finalizó la ejecución de la tarea."
 
 #: ../../source/rendering_the_animation.rst:743
 msgid "**Duration** displays how long the execution lasted."
-msgstr ""
+msgstr "**Duración:**, muestra cuánto duró ejecución de la tarea."
 
 #: ../../source/rendering_the_animation.rst:745
 msgid "**Step Count** displays the number of frames rendered."
-msgstr ""
+msgstr "**Cantidad de pasos:**, muestra la cantidad de fotogramas procesados."
 
 #: ../../source/rendering_the_animation.rst:747
 msgid "**Failed Steps** displays the number of frames that failed to be rendered."
 msgstr ""
+"**Pasos fallidos:**, muestra la cantidad de fotogramas que no pudieron ser "
+"procesados."
 
 #: ../../source/rendering_the_animation.rst:749
 msgid "**Successful Steps** displays the number of frames successfully rendered."
 msgstr ""
+"**Pasos exitosos:**, muestra la cantidad de fotogramas que fueron procesados de "
+"forma exitosa."
 
 #: ../../source/rendering_the_animation.rst:751
 msgid ""
 "**Priority** sets the importance or urgency of the task: tasks with a higher "
 "priority will be executed first. It can be edited to change the task priority."
 msgstr ""
+"**Prioridad:**, permite definir la importancia o urgencia de la tarea: las "
+"tareas con una prioridad más alta serán ejecutadas primero. Es posible editar "
+"este parámetro para cambiar la prioridad de una tarea."
 
 #: ../../source/rendering_the_animation.rst:753
 msgid ""
@@ -2588,6 +2636,10 @@ msgid ""
 "this information comes from the scene output settings but can be edited here "
 "before the rendering."
 msgstr ""
+"**Salida:**, muestra la ubicación, nombre y extensión de los archivos "
+"producidos; esta información proviene de las Opciones de salida de la escena, "
+"sin embargo será posible editar este parámetro aquí, antes del procesar la "
+"tarea."
 
 #: ../../source/rendering_the_animation.rst:755
 msgid ""
@@ -2596,6 +2648,11 @@ msgid ""
 "computer. It can be edited to change the chunk size (see  :ref:`Using Chunks "
 "when Rendering Tasks <using_chunks_when_rendering_tasks>`  )."
 msgstr ""
+"**Fotogramas por bloque:** permite definir cómo se dividirá la tarea en sub-"
+"tareas para posibilitar su distribución a lo largo de la granja de "
+"procesamiento, una sub-tarea por cada computadora. Será posible editar este "
+"parámetro para cambiar el tamaño de los bloques (ver  :ref:`Uso de bloques al "
+"ejecutar tareas de procesamiento <using_chunks_when_rendering_tasks>`  )."
 
 #: ../../source/rendering_the_animation.rst:757
 msgid ""
@@ -2603,6 +2660,11 @@ msgid ""
 "from the scene output settings but can be edited here before the rendering "
 "(see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
 msgstr ""
+"**Desde:** y **Hasta:** permite definir el rango de fotogramas a ser "
+"procesados; esta información proviene de las Opciones de salida de la escena, "
+"sin embargo será posible editar este parámetro aquí, antes del procesar la "
+"tarea (ver  :ref:`Elección de Opciones de salida "
+"<choosing_the_output_settings>`  )."
 
 #: ../../source/rendering_the_animation.rst:759
 msgid ""
@@ -2610,6 +2672,10 @@ msgid ""
 "the scene output settings but can be edited here before the rendering (see  :"
 "ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
 msgstr ""
+"**Intervalo:**, permite definir el intervalo de la secuencia a ser procesada; "
+"esta información proviene de las Opciones de salida de la escena, sin embargo "
+"será posible editar este parámetro aquí, antes del procesar la tarea (ver  :ref:"
+"`Elección de Opciones de salida <choosing_the_output_settings>`  )."
 
 #: ../../source/rendering_the_animation.rst:761
 msgid ""
@@ -2618,6 +2684,11 @@ msgid ""
 "the rendering (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
+"**Reducción:**, permite definir el valor de reducción de la resolución de la "
+"secuencia a ser procesada; esta información proviene de las Opciones de salida "
+"de la escena, sin embargo será posible editar este parámetro aquí, antes del "
+"procesar la tarea (ver  :ref:`Elección de Opciones de salida "
+"<choosing_the_output_settings>`  )."
 
 #: ../../source/rendering_the_animation.rst:763
 msgid ""
@@ -2626,6 +2697,11 @@ msgid ""
 "edited here before the rendering (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
+"**Procesadores dedicados:**, permite definir cuántos procesadores serán "
+"asignados al procesamiento; esta información proviene de las Opciones de salida "
+"de la escena, sin embargo será posible editar este parámetro aquí, antes del "
+"procesar la tarea (ver  :ref:`Elección de Opciones de salida "
+"<choosing_the_output_settings>`  )."
 
 #: ../../source/rendering_the_animation.rst:765
 msgid ""
@@ -2634,6 +2710,11 @@ msgid ""
 "the rendering (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
+"**Celdas de procesamiento:**, permite definir si el procesamiento deberá ser "
+"dividido en celdas durante su cálculo; esta información proviene de las "
+"Opciones de salida de la escena, sin embargo será posible editar este parámetro "
+"aquí, antes del procesar la tarea (ver  :ref:`Elección de Opciones de salida "
+"<choosing_the_output_settings>`  )."
 
 #: ../../source/rendering_the_animation.rst:767
 msgid ""
@@ -2641,140 +2722,170 @@ msgid ""
 "successfully completed* before starting the current task execution: these tasks "
 "can be added from the box on the right where all submitted tasks are displayed."
 msgstr ""
+"**Dependencias:**, permite definir cuál de las otras tareas enviadas *deberá "
+"ser completada exitosamente* antes de que comience la ejecución de la tarea: "
+"estas tareas podrán ser agregadas desde el cuadro de la derecha, donde "
+"aparecerán todas las tareas enviadas."
 
 #: ../../source/rendering_the_animation.rst:769
 msgid "Task execution can be started and stopped from the task list."
 msgstr ""
+"La ejecución de tareas podrá ser comenzada o detenida desde la lista de tareas."
 
 #: ../../source/rendering_the_animation.rst:771
 msgid ""
 "When the tasks are executed, the icon color tells the status of the task "
 "according to the following color code:"
 msgstr ""
+"Cuando las tareas son ejecutadas, el color de su ícono indicará el estado de "
+"las mismas, de acuerdo al siguiente código de colores:"
 
 #: ../../source/rendering_the_animation.rst:773
 msgid "**Grey**, when the task is *waiting* or is not executed yet."
 msgstr ""
+"**Gris**, cuando la tarea se encuentra *en espera* o aún no ha sido ejecutada."
 
 #: ../../source/rendering_the_animation.rst:775
 msgid "**Yellow**, when the task is *being executed*."
-msgstr ""
+msgstr "**Amarillo**, cuando la tarea se encuentra *en ejecución*."
 
 #: ../../source/rendering_the_animation.rst:777
 msgid "**Green**, when the task is *successfully executed*."
-msgstr ""
+msgstr "**Verde**, cuando la tarea ha sido *ejecutada exitosamente*."
 
 #: ../../source/rendering_the_animation.rst:779
 msgid "**Orange**, when the task is *executed with some errors*."
-msgstr ""
+msgstr "**Naranja**, cuando la tarea ha sido *ejecutada con algunos errores*."
 
 #: ../../source/rendering_the_animation.rst:781
 msgid "**Red**, when the task *execution has failed*."
-msgstr ""
+msgstr "**Rojo**, cuando la ejecución de la tarea *ha fallado*."
 
 #: ../../source/rendering_the_animation.rst:783
 msgid "**To Add scenes to render in the task list:**"
-msgstr ""
+msgstr "**Para agregar escenas a ser procesadas a la lista de tareas:**"
 
 #: ../../source/rendering_the_animation.rst:787
 msgid ""
 "Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane "
 "and use the Browser to select a scene file."
 msgstr ""
+"Hacer clic en el botón **Procesamiento** (|add_render|) en la barra superior "
+"del panel Tareas y usar el Explorador de archivos para seleccionar un archivo "
+"de escena."
 
 #: ../../source/rendering_the_animation.rst:789
 msgid ""
 "Select the scenes in the OpenToonz Browser, then right-click any of them and "
 "choose **Add As Render Task** from the menu that opens."
 msgstr ""
+"Seleccionar las escenas en el Explorador de archivos de OpenToonz, luego hacer "
+"clic derecho sobre alguna de ellas y elegir **Agregar como tarea de "
+"procesamiento** en el menú."
 
 #: ../../source/rendering_the_animation.rst:791
 msgid "**To Configure the render task in the task list:**"
-msgstr ""
+msgstr "**Para configurar una tarea de procesamiento en la lista de tareas:**"
 
 #: ../../source/rendering_the_animation.rst:793
 msgid "Select a render task in the task list."
-msgstr ""
+msgstr "Seleccionar una tarea de procesamiento en la lista de tareas."
 
 #: ../../source/rendering_the_animation.rst:795
 msgid "Configure it by using the options available on the right of the list."
-msgstr ""
+msgstr "Configurarla usando las opciones disponibles a la derecha de la lista."
 
 #: ../../source/rendering_the_animation.rst:797
 msgid "**To select tasks in the task list:**"
-msgstr ""
+msgstr "**Para seleccionar tareas en la lista de tareas.**"
 
 #: ../../source/rendering_the_animation.rst:801
 msgid "Click a task to select it."
-msgstr ""
+msgstr "Hacer clic sobre una tarea para seleccionarla."
 
 #: ../../source/rendering_the_animation.rst:803
 msgid "Shift-click a task to extend the selection up to that task."
-msgstr ""
+msgstr "Hacer Mayúsculas-clic para extender la selección hasta esa tarea."
 
 #: ../../source/rendering_the_animation.rst:805
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from the "
 "selection."
 msgstr ""
+"Hacer Ctrl-clic (PC) o Cmd-clic (macOS) sobre una tarea para agregar o quitarla "
+"de la selección."
 
 #: ../../source/rendering_the_animation.rst:807
 msgid "**To Execute selected tasks:**"
-msgstr ""
+msgstr "**Para ejecutar las tareas seleccionadas:**"
 
 #: ../../source/rendering_the_animation.rst:811
 msgid "Click the **Start** (|start|) button in the bottom bar of the pane."
 msgstr ""
+"Hacer clic en el botón **Iniciar** (|start|) en la barra superior del panel."
 
 #: ../../source/rendering_the_animation.rst:813
 msgid ""
 "Right-click any selected task icon and choose **Start** from the menu that "
 "opens."
 msgstr ""
+"Hacer clic derecho sobre alguna se las tareas seleccionadas y elegir "
+"**Iniciar** en el menú."
 
 #: ../../source/rendering_the_animation.rst:815
 msgid "**To Stop the execution of selected tasks:**"
-msgstr ""
+msgstr "**Para detener la ejecución de las tareas seleccionadas:**"
 
 #: ../../source/rendering_the_animation.rst:819
 msgid "Click the **Stop** (|stop|) button in the bottom bar of the pane."
 msgstr ""
+"Hacer clic en el botón **Detener** (|stop|) en la barra superior del panel."
 
 #: ../../source/rendering_the_animation.rst:821
 msgid ""
 "Right-click any selected task icon and choose **Stop** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre alguna se las tareas seleccionadas y elegir "
+"**Detener** en el menú."
 
 #: ../../source/rendering_the_animation.rst:823
 msgid "**To Remove selected tasks from the list:**"
-msgstr ""
+msgstr "**Para eliminar las tareas seleccionadas de la lista:**"
 
 #: ../../source/rendering_the_animation.rst:827
 msgid ""
 "Click the **Remove** (|remove|) button in the bottom bar of the Tasks pane."
 msgstr ""
+"Hacer clic en el botón **Eliminar** (|remove|) en la barra superior del panel."
 
 #: ../../source/rendering_the_animation.rst:829
 msgid ""
 "Right-click any selected task in the list and choose Remove from the menu that "
 "opens."
 msgstr ""
+"Hacer clic derecho sobre alguna se las tareas seleccionadas y elegir "
+"**Eliminar** en el menú."
 
 #: ../../source/rendering_the_animation.rst:831
 msgid "**To Add or Remove tasks from the Dependencies list:**"
-msgstr ""
+msgstr "**Para agregar o eliminar tareas de la lista de Dependencias:**"
 
 #: ../../source/rendering_the_animation.rst:835
 msgid ""
 "To Add a task to the dependencies list, select a task in the task list on the "
 "right and click the **Add** button."
 msgstr ""
+"Para agregar una tarea a la lista de dependencias, seleccionar una tarea en la "
+"lista de la derecha y hacer clic en el botón **<< Agregar**."
 
 #: ../../source/rendering_the_animation.rst:837
 msgid ""
 "To Remove a task from the dependencies list, select a task in the dependencies "
 "list on the left, and click the **Remove** button."
 msgstr ""
+"Para eliminar una tarea de la lista de dependencias, seleccionar una tarea en "
+"la lista de dependencias de la izquierda y hacer clic en el botón **Eliminar "
+">>**."
 
 #: ../../source/rendering_the_animation.rst:843
 msgid "Using Chunks when Rendering Tasks"
@@ -2786,6 +2897,10 @@ msgid ""
 "chunks so that each computer of the farm will render a section of the same "
 "render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  )."
 msgstr ""
+"Cuando se esté utilizando la granja de procesamiento de OpenToonz, será posible "
+"dividir una tarea en *bloques*, para que cada computadora de la granja pueda "
+"procesar una sección de la misma tarea de procesamiento (ver  :ref:`Uso de "
+"Toonz Farm <using_the_toonz_farm>`  )."
 
 #: ../../source/rendering_the_animation.rst:846
 msgid ""
@@ -2795,18 +2910,29 @@ msgid ""
 "scene, the value will be automatically adjusted to be equal to the duration of "
 "the scene."
 msgstr ""
+"Es posible establecer el valor predefinido para el tamaño de los bloques "
+"(expresado en cantidad de fotogramas) mediante la opción **Tamaño del bloque de "
+"procesamiento** en el diálogo Archivo → Preferencias → General. Si el valor "
+"predefinido fuera mayor que la duración (en fotogramas) de la escena enviada a "
+"ser procesada, el valor será ajustado automáticamente para coincidir con la "
+"duración de dicha escena."
 
 #: ../../source/rendering_the_animation.rst:848
 msgid ""
 "Once a task is submitted, it's possible to change the chunk size by editing the "
 "related value in the task properties."
 msgstr ""
+"Una vez que una tarea haya sido enviada, será posible cambiar el valor de "
+"tamaño del bloque editando el valor correspondiente en las propiedades de la "
+"tarea."
 
 #: ../../source/rendering_the_animation.rst:850
 msgid ""
 "When a task is divided into chunks, each task is represented in the task tree "
 "as sub-tasks."
 msgstr ""
+"Cuando una tarea haya sido dividida en bloques, cada bloque de la misma será "
+"representado en el árbol de tareas como una sub-tarea."
 
 #: ../../source/rendering_the_animation.rst:852
 msgid ""
@@ -2814,6 +2940,9 @@ msgid ""
 "computer, so that several tasks can be executed at the same time (see  :ref:"
 "`Using the Toonz Farm <using_the_toonz_farm>`  )."
 msgstr ""
+"Las tareas y sub-tareas de procesamiento serán distribuidas en la granja, una "
+"en cada computadora, para que varias tareas puedan ser ejecutadas al mismo "
+"tiempo (ver  :ref:`Uso de Toonz Farm <using_the_toonz_farm>`  )."
 
 #: ../../source/rendering_the_animation.rst:854
 msgid ""
@@ -2822,12 +2951,20 @@ msgid ""
 "reason it's suggested to use a high **Render Task Chunk Size** value (e.g. "
 "1000) in the Preferences  →  General pane."
 msgstr ""
+"Si no se estuviera utilizando la granja de procesamiento de OpenToonz, dividir "
+"las tareas en bloques no sólo será inútil, sino que probablemente también "
+"enlentecerá el procesamiento de las mismas. Por esta razón se sugiere usar un "
+"valor alto en la opción **Tamaño del bloque de procesamiento** (p.ej: 1000) del "
+"diálogo Archivo → Preferencias → General."
 
 #: ../../source/rendering_the_animation.rst:856
 msgid ""
 "Chunk size is relevant only when animations are rendered as image sequences "
 "(for example in TIF or TGA formats)."
 msgstr ""
+"El tamaño del bloque de procesamiento sólo será relevante cuando las "
+"animaciones sean procesadas a un formato de secuencias de imágenes (por "
+"ejemplo: los formatos TIF o TGA)."
 
 #~ msgid "Activate the **Define Sub-camera** button () in the viewer bottom bar."
 #~ msgstr ""
