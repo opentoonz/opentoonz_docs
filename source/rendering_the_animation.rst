@@ -320,9 +320,9 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To take a snapshot of a frame and compare it to another frame:**
 
-    1. Select the frame you want to store and click the **Snapshot** button () in the Flipbook bottom bar.
+    1. Select the frame you want to store and click the **Snapshot** button (|snapshot|) in the Flipbook bottom bar.
 
-    2. Move to a different frame, or load some different content, and click the **Compare to Snapshot** button (|snapshot|).
+    2. Move to a different frame, or load some different content, and click the **Compare to Snapshot** button (|compare|).
 
     3. Click and drag the vertical or horizontal marker to display the taken snapshot under the current frame.
 
