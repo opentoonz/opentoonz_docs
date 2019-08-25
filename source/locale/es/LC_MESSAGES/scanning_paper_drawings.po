@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 12:06+0800\n"
-"PO-Revision-Date: 2019-06-19 17:44-0300\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2019-06-28 21:03-0300\n"
+"PO-Revision-Date: 2019-08-25 18:47-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language-Team: Español\n"
 "Language: es\n"
+"Language-Team: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
 "X-Generator: Poedit 2.2.3\n"
 
 #: ../../source/scanning_paper_drawings.rst:4
@@ -52,18 +52,28 @@ msgid ""
 "large number of sequenced drawings, and other elements such as backgrounds "
 "and overlays."
 msgstr ""
+"Para poder ser usados en OpenToonz, los dibujos en papel deberán ser "
+"escaneados. Los dibujos en papel podrán contener tanto niveles de "
+"animación, compuestos de una gran cantidad de secuencias de dibujos, como "
+"también otros elementos tales como fondos y sobreimpresos."
 
 #: ../../source/scanning_paper_drawings.rst:13
 msgid ""
 "The scan process can be done in different modes, and in case autocenter is "
 "needed it has to follow specific guidelines."
 msgstr ""
+"Es posible realizar el proceso de escaneo en distintos modos y, en caso de "
+"que fuera necesario utilizar el centrado automático, se deberá seguir una "
+"guía específica al respecto."
 
 #: ../../source/scanning_paper_drawings.rst:15
 msgid ""
 "Animation levels have to be defined first and then scanned according to a "
 "defined set of parameters."
 msgstr ""
+"Primero deberán ser definidos los niveles de animación a ser escaneados, "
+"para luego poder ser escaneados de acuerdo al conjunto de parámetros "
+"establecido."
 
 #: ../../source/scanning_paper_drawings.rst:21
 msgid "Supported Scanners"
@@ -75,6 +85,9 @@ msgid ""
 "scanners via a USB connection; all the other scanners are supported via any "
 "type of connection by using TWAIN drivers."
 msgstr ""
+"OpenToonz soporta directamente (mediante el uso de controladores internos), "
+"algunos escaners específicos vía conexión USB; todos los demás escaners son "
+"soportados mediante el uso de controladores TWAIN."
 
 #: ../../source/scanning_paper_drawings.rst:24
 msgid "|define_scanner|"
@@ -85,6 +98,8 @@ msgid ""
 "For an updated list of directly supported scanners, please visit the "
 "`OpenToonz Web site <https://opentoonz.github.io/e/>`_ ."
 msgstr ""
+"Para obtener una lista de los escaners soportados directamente, por favor "
+"visitar el `sitio web de OpenToonz <https://opentoonz.github.io/es/>`_ ."
 
 #: ../../source/scanning_paper_drawings.rst:28
 msgid ""
@@ -92,6 +107,11 @@ msgid ""
 "managed completely by OpenToonz and the Scan Settings dialog; if it is not, "
 "the scanning process is managed by the TWAIN interface."
 msgstr ""
+"Si el escaner que se desea usar es uno de los soportados mediante "
+"controladores internos, el proceso de escaneo será administrado "
+"completamente por OpenToonz, a través del diálogo Opciones de escaneo; si "
+"no lo fuera, el proceso de escaneo será administrado por la interfaz de "
+"TWAIN."
 
 #: ../../source/scanning_paper_drawings.rst:30
 msgid ""
@@ -100,6 +120,11 @@ msgid ""
 "disable the Windows Image Acquisition (WIA) service on your computer; if "
 "you want to use TWAIN drivers, you have to enable it."
 msgstr ""
+"En Windows, se deberán instalar los controladores TWAIN provistos con el "
+"escaner. Nótese que si se decidiera el uso de los controladores internos, "
+"deberá deshabilitarse el servicio Adquisición de imágenes de Windows (WIA) "
+"en el sistema; si en cambio se decidiera usar los controladores TWAIN, "
+"dicho servicio deberá estar habilitado."
 
 #: ../../source/scanning_paper_drawings.rst:32
 msgid ""
@@ -107,6 +132,9 @@ msgid ""
 "to use them. Note that if you decide to use internal drivers, any TWAIN "
 "driver referring to that scanner has to be removed."
 msgstr ""
+"En macOS, se deberán instalar los controladores TWAIN sólo si se decidiera "
+"usarlos. Nótese que si se decidiera el uso de los controladores internos, "
+"deberá quitarse cualquier controlador TWAIN que se refiera a ese escaner."
 
 #: ../../source/scanning_paper_drawings.rst:34
 msgid ""
@@ -116,6 +144,11 @@ msgid ""
 "driver to use from a list based on the TWAIN drivers installed on your "
 "computer."
 msgstr ""
+"El controlador deberá ser elegido de acuerdo al escaner a usar, antes de "
+"comenzar el proceso de escaneo. Se podrá escoger si se usarán los "
+"controladores internos o los TWAIN; en este último caso deberá "
+"seleccionarse cuál controlador se usará desde una lista basada en los "
+"controladores TWAIN instalados en el sistema."
 
 #: ../../source/scanning_paper_drawings.rst:36
 msgid ""
@@ -123,79 +156,101 @@ msgid ""
 "restart OpenToonz: the dialog box is automatically displayed when you "
 "select any Scan related command."
 msgstr ""
+"Al usar controladores TWAIN, se deberá especificar el controlador cada vez "
+"que se reinicie OpenToonz: el diálogo se mostrará automáticamente al "
+"seleccionar cualquier comando relacionado con las funciones de escaneo."
 
 #: ../../source/scanning_paper_drawings.rst:38
 msgid "**To install TWAIN drivers:**"
-msgstr ""
+msgstr "**Para instalar los controladores TWAIN:**"
 
 #: ../../source/scanning_paper_drawings.rst:40
 #: ../../source/scanning_paper_drawings.rst:58
 msgid "Refer to the scanner documentation for more s."
 msgstr ""
+"Recurrir a la documentación del escaner para obtener instrucciones "
+"detalladas."
 
 #: ../../source/scanning_paper_drawings.rst:42
 msgid ""
 "**Windows only - to disable or enable the Windows Image Acquisition (WIA) "
 "service:**"
 msgstr ""
+"**Sólo Windows - Para deshabilitar el servicio Adquisición de imágenes de "
+"Windows (WIA):**"
 
 #: ../../source/scanning_paper_drawings.rst:44
-msgid "Open the Control Panel > Administrative Tools > Services dialog."
+msgid "Open the Control Panel  →  Administrative Tools  →  Services dialog."
 msgstr ""
+"Abrir el diálogo Panel de control → Sistema y seguridad → Herramientas "
+"administrativas → Servicios, o también Menú Inicio → Herramientas "
+"administrativas de Windows → Servicios."
 
 #: ../../source/scanning_paper_drawings.rst:46
 msgid ""
 "Right-click the Windows Image Acquisition (WIA) service and choose "
 "Properties from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el servicio Adquisición de imágenes de Windows y "
+"elegir Propiedades en el menú."
 
 #: ../../source/scanning_paper_drawings.rst:48
 msgid "In the Properties dialog do one of the following:"
-msgstr ""
+msgstr "En el diálogo Propiedades realizar una de las siguientes acciones:"
 
 #: ../../source/scanning_paper_drawings.rst:50
 msgid "Set the Startup Type option to Disabled to use internal drivers."
 msgstr ""
+"Definir el **Tipo de inicio:** en **Deshabilitado**, para usar los "
+"controladores internos de OpenToonz."
 
 #: ../../source/scanning_paper_drawings.rst:52
 msgid "Set the Startup Type option to Automatic to use TWAIN drivers."
 msgstr ""
+"Definir el **Tipo de inicio:** en **Automático**, para usar los "
+"controladores TWAIN."
 
 #: ../../source/scanning_paper_drawings.rst:54
 msgid "Restart the computer."
-msgstr ""
+msgstr "Reiniciar el sistema."
 
 #: ../../source/scanning_paper_drawings.rst:56
 msgid "**Macintosh only - to remove the scanner TWAIN drivers:**"
-msgstr ""
+msgstr "**Sólo macOS - Para eliminar los controladores TWAIN del escaner:**"
 
 #: ../../source/scanning_paper_drawings.rst:60
 msgid "**To define the scanner:**"
-msgstr ""
+msgstr "**Para definir el escaner:**"
 
 #: ../../source/scanning_paper_drawings.rst:62
-msgid "Choose Scan & Cleanup > Define Scanner."
-msgstr ""
+msgid "Choose Scan & Cleanup  →  Define Scanner."
+msgstr "Elegir Escaneo y limpieza → **Definir escaner**."
 
 #: ../../source/scanning_paper_drawings.rst:64
 #: ../../source/scanning_paper_drawings.rst:145
 #: ../../source/scanning_paper_drawings.rst:157
 #: ../../source/scanning_paper_drawings.rst:204
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Realizar una de las siguientes acciones:"
 
 #: ../../source/scanning_paper_drawings.rst:66
 msgid ""
-"If your scanner is directly supported, choose Scanner Driver > Internal, "
+"If your scanner is directly supported, choose Scanner Driver  →  Internal, "
 "and click the OK button."
 msgstr ""
+"Si el escaner fuera uno de los soportados directamente, elegir Controlador "
+"→ Internal, y hacer clic en el botón **Aceptar**."
 
 #: ../../source/scanning_paper_drawings.rst:68
 msgid ""
 "If your scanner is not directly supported, be sure that TWAIN drivers are "
-"installed, and choose Scanner Driver > TWAIN, and click the OK button: in "
+"installed, and choose Scanner Driver  →  TWAIN, and click the OK button: in "
 "the dialog that opens, select the TWAIN driver related to your scanner."
 msgstr ""
+"Si el escaner no fuera uno de los soportados directamente, asegurarse de "
+"que los controladores TWAIN se encuentren instalados, y elegir Controlador "
+"→ TWAIN, luego hacer clic en el botón **Aceptar**: en el diálogo emergente "
+"seleccionar el controlador TWAIN correspondiente al escaner que se usará."
 
 #: ../../source/scanning_paper_drawings.rst:74
 msgid "Scanning Modes"
@@ -206,6 +261,8 @@ msgid ""
 "Drawings can be scanned mainly in three different modes: black and white, "
 "greyscale and colors."
 msgstr ""
+"Es posible escanear dibujos en tres modos principales: *blanco y negro*, "
+"*escala de grises* y *color*."
 
 #: ../../source/scanning_paper_drawings.rst:77
 msgid ""
@@ -215,6 +272,11 @@ msgid ""
 "the scanning, later on you can assign one or more colors to it during the "
 "painting process."
 msgstr ""
+"Los dos primeros modos podrán ser usados para escanear dibujos normales, "
+"cuyos contornos estén compuestos de un único color que, durante el escaneo "
+"será procesado como negro o gris oscuro. Aún si el color de los contornos "
+"se viera modificado durante el escaneo, más adelante será posible asignarle "
+"un nuevo color, durante el proceso de pintura."
 
 #: ../../source/scanning_paper_drawings.rst:79
 msgid ""
@@ -225,6 +287,14 @@ msgid ""
 "scanned files are lighter to manage. Even if images show hard edges, the "
 "proper antialiasing will be added during the cleanup process."
 msgstr ""
+"**Blanco y negro**, es el modo de escaneo que produce el resultado más "
+"inmediato y para el que se necesita regular menos parámetros. Una vez que "
+"se haya definido el valor de **Umbral:**, los píxeles de la imagen "
+"escaneada serán considerados como blancos o negros. Debido a la simplicidad "
+"de este concepto, se requerirá menos tiempo para escanear las imágenes y "
+"los archivos generados serán de menor tamaño. Aunque las imágenes "
+"resultantes presenten bordes duros, se podrá agregar un grado de suavizado "
+"de bordes apropiado, durante el proceso de limpieza."
 
 #: ../../source/scanning_paper_drawings.rst:81
 msgid ""
@@ -236,6 +306,16 @@ msgid ""
 "by key animators and those made by in-betweeners. See  :ref:`Autoadjusting "
 "Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ."
 msgstr ""
+"**Escala de grises**, este modo de escaneo se basa en un rango de valores "
+"de gris y requiere un tiempo de escaneo mayor. La determinación de los "
+"niveles de los parámetros de **Brillo:** y **Contraste:** dependerá "
+"considerablemente de cada secuencia animada y de lo que se desee lograr. El "
+"modo Escala de grises también posibilita el uso de las opciones de **Ajuste "
+"automático** durante el proceso de limpieza, que puede resultar útil para "
+"compensar las diferencias en los niveles de gris de los dibujos hechos por "
+"los animadores principales y los intermediadores. Ver  :ref:`Ajuste "
+"automático de dibujos en escala de grises "
+"<autoadjusting_greyscale_lineart_drawings>`  ."
 
 #: ../../source/scanning_paper_drawings.rst:83
 msgid ""
@@ -248,10 +328,18 @@ msgid ""
 "intensive painting work. See  :ref:`Processing Colored Lineart Drawings "
 "<processing_colored_lineart_drawings>`  ."
 msgstr ""
+"**Color**, este modo es usado para escanear dibujos y otras imágenes en "
+"color, como fondos y sobreimpresos. El uso de color en los contornos de "
+"dibujos permite dibujar distintas líneas con diferentes colores, por "
+"ejemplo el contorno de un personaje en negro y la sombra sobre su cuerpo en "
+"rojo. Como las líneas de color podrán ser identificadas durante el proceso "
+"de limpieza, escanear los dibujos en color permitirá preservar dichos "
+"tonos, ahorrando luego en el proceso de pintura. Ver  :ref:`Procesamiento "
+"de dibujos en color <processing_colored_lineart_drawings>`  ."
 
 #: ../../source/scanning_paper_drawings.rst:89
 msgid "Scanning Guidelines for Autocentering"
-msgstr "Guías de escaneo para usar el centrado automático"
+msgstr "Guía de escaneo para usar el Centrado automático"
 
 #: ../../source/scanning_paper_drawings.rst:90
 msgid ""
@@ -261,6 +349,12 @@ msgid ""
 "properly preparing the scanner and performing the scanning process "
 "according to the following guidelines."
 msgstr ""
+"Para poder centrar automáticamente dibujos durante el proceso de escaneo, "
+"los huecos de registro necesitan poder ser detectados en las imágenes "
+"(ver  :ref:`Centrado automático <autocentering>`  ). Por esta razón deberán "
+"ser escaneadas sobre un fondo negro, mediante una preparación apropiada del "
+"escaner, y la realización del proceso de escaneo estar de acuerdo a la "
+"siguiente guía."
 
 #: ../../source/scanning_paper_drawings.rst:96
 msgid "Preparing Scanners"
@@ -273,6 +367,11 @@ msgid ""
 "sure to stick the black tape in a position to face the peg holes when the "
 "paper is fed into the scanner."
 msgstr ""
+"Si se utilizara el alimentador automático de papel del escaner, se deberá "
+"adherir un trozo de cinta negra en el alimentador, del lado opuesto a la "
+"lámpara del escaner. Asegurándose de adherir la cinta negra en una posición "
+"enfrentada a los huecos de registro, cuando el papel sea transportado "
+"dentro del escaner."
 
 #: ../../source/scanning_paper_drawings.rst:99
 msgid ""
@@ -282,6 +381,11 @@ msgid ""
 "be larger than your animation paper, but it does not have to cover the "
 "entire scanner bed."
 msgstr ""
+"Si se utilizara el escaner de forma horizontal, se deberá adherir una hoja "
+"de papel negra a la tapa del escaner, para que cuando se escanee una hoja "
+"enfrentada al vidrio del escaner, el papel negro quede detrás de la misma. "
+"La hoja negra deberá ser más grande que el papel de animación, pero no "
+"tendrá por qué cubrir la totalidad del área del escaner."
 
 #: ../../source/scanning_paper_drawings.rst:105
 msgid "Scanning Artwork"
@@ -295,6 +399,12 @@ msgid ""
 "happens, the process will take longer to perform and will produce a poor "
 "quality result."
 msgstr ""
+"Será mejor usar un papel de grosor alto para dibujar sobre él: es probable "
+"que un papel muy fino se atasque en el mecanismo del escaner con mayor "
+"facilidad, y que la luz del escaner traspase el papel, captando el color "
+"negro de la hoja o cinta colocada detrás. En caso de que esto suceda, el "
+"proceso de limpieza tomará más tiempo y producirá resultados de una menor "
+"calidad."
 
 #: ../../source/scanning_paper_drawings.rst:108
 msgid ""
@@ -305,6 +415,14 @@ msgid ""
 "are aligned directly over the peg holes: if the holes are slightly covered "
 "by the reinforcement, the registration may fail."
 msgstr ""
+"Evitar el uso de refuerzos *negros* o de *color* alrededor de los huecos de "
+"registro en las hojas de dibujo. El escaner deberá ser capaz de leer la "
+"forma exacta de los huecos de registro, y es posible que dichos refuerzos "
+"hagan que los huecos sean escaneados con un tamaño mayor que el real. Si se "
+"usaran refuerzos de color *blanco*, asegurarse de que éstos se encuentren "
+"alineados directamente sobre los huecos de registro: si los huecos se "
+"encontraran parcialmente bloqueados por el refuerzo, es posible que el "
+"**Centrado automático** falle."
 
 #: ../../source/scanning_paper_drawings.rst:110
 msgid ""
@@ -314,6 +432,12 @@ msgid ""
 "your drawings. Lines drawn near the pegbar holes may cause the registration "
 "to fail."
 msgstr ""
+"Evitar dibujar muy cerca de los huecos de registro. También evitar dibujar "
+"cualquier forma similar a un hueco cerca del área de los huecos de "
+"registro; dejar al menos 1 cm (~1/2”) de espacio en blanco entre los huecos "
+"de registro y el resto de los dibujos. Las líneas dibujadas cerca del área "
+"de los huecos de registro podrán causar que el **Centrado automático** "
+"falle."
 
 #: ../../source/scanning_paper_drawings.rst:116
 msgid "Defining Animation Levels to Scan"
@@ -325,6 +449,10 @@ msgid ""
 "of frames it is made of, and the way its drawings are numbered. Its size "
 "and resolution will be set during the scanning session."
 msgstr ""
+"Para escanear un nivel de animación, primero será necesario definir su "
+"nombre, la cantidad de fotogramas del que esté compuesto, así como la forma "
+"en que sus dibujos deberán estar numerados. Su tamaño y resolución serán "
+"definidos durante la propia sesión de escaneo."
 
 #: ../../source/scanning_paper_drawings.rst:119
 msgid ""
@@ -332,6 +460,10 @@ msgid ""
 "once by using the New Level dialog. You can assign it the name and the "
 "numbering order you prefer."
 msgstr ""
+"Su definición puede ser hecha dibujo a dibujo en la Planilla/Línea de "
+"tiempo, o todo de una vez mediante el uso del dialogo **Nuevo nivel**, "
+"donde será posible asignarle un nombre y el orden de numeración que se "
+"desee."
 
 #: ../../source/scanning_paper_drawings.rst:121
 msgid ""
@@ -341,6 +473,12 @@ msgid ""
 "numbered. For example a step value 2 repeats each drawing twice in the "
 "Xsheet column, while an increment value 2 numbers the drawings 1, 3, 5, etc."
 msgstr ""
+"En caso de que usarse el diálogo **Nuevo nivel**, será posible definir la "
+"cantidad de dibujos que comprenderá el nivel, el intervalo de exposición "
+"del mismo, así como el patrón de incremento de su numeración. Por ejemplo, "
+"un valor de **Exposición:** de 2 repetirá cada dibujo dos veces en la "
+"columna de la Planilla (o capa de la Línea de tiempo), mientras que con un "
+"**Incremento:** de 2 sus dibujos serán numerados: 1, 3, 5, etc."
 
 #: ../../source/scanning_paper_drawings.rst:123
 msgid "|new_scan_level|"
@@ -353,6 +491,11 @@ msgid ""
 "they are saved only if the scene is saved (see  :ref:`Project Default "
 "Folders <project_default_folders>`  )."
 msgstr ""
+"De forma predefinida los dibujos escaneados serán guardados en la carpeta **"
+"+inputs** del proyecto activo; si en la definición de la carpeta *+inputs* "
+"se hubiera utilizado la variable $scenepath, serán guardados únicamente si "
+"la escena hubiera sido guardada con anterioridad (ver  :ref:`Carpetas "
+"predefinidas de un proyecto <project_default_folders>`  )."
 
 #: ../../source/scanning_paper_drawings.rst:127
 msgid ""
@@ -360,6 +503,10 @@ msgid ""
 "dialog, or the Level Settings window in case you define a level directly in "
 "Xsheet."
 msgstr ""
+"Es posible cambiar la ubicación, tanto usando el campo **Ruta:** del "
+"diálogo **Nuevo nivel**, como la ventana **Opciones de nivel** en caso de "
+"que el nivel hubiera sido definido directamente en la Planilla/Línea de "
+"tiempo."
 
 #: ../../source/scanning_paper_drawings.rst:129
 msgid ""
@@ -368,6 +515,10 @@ msgid ""
 "animation level the way you prefer (see  :ref:`Editing Animation Levels "
 "<editing_animation_levels>`  )."
 msgstr ""
+"Las opciones, tales como la longitud del nivel y el orden de numeración "
+"podrán ser modificadas más adelante, ya que se dispone de total libertad de "
+"ordenar las imágenes que componen un nivel de animación como se desee "
+"(ver  :ref:`Edición de niveles de animación <editing_animation_levels>`  )."
 
 #: ../../source/scanning_paper_drawings.rst:131
 msgid ""
@@ -377,68 +528,93 @@ msgid ""
 "color denoting full-color images (see  :ref:`Working with Xsheet Columns "
 "<working_with_xsheet_columns>`  )."
 msgstr ""
+"Cuando se define un nivel de animación, el nombre y los números de cada "
+"dibujo del mismo serán mostrados en color *rojo*, ya que el nivel aún no "
+"existe realmente; los acetatos de la columna/capa donde se encuentra "
+"expuesto el nivel aparecerán en color *azul claro*, denotando un nivel de "
+"Imagen (ver  :ref:`Trabajo con columnas/capas "
+"<working_with_xsheet_columns>`  )."
 
 #: ../../source/scanning_paper_drawings.rst:133
 msgid "**To define an animation level directly in Xsheet:**"
 msgstr ""
+"**Para definir un nivel de animación, directamente en la Planilla/Línea de "
+"tiempo:**"
 
 #: ../../source/scanning_paper_drawings.rst:135
 msgid ""
 "Double-click a cell, then type a name and a number; the name and the number "
 "must be separated by a space."
 msgstr ""
+"Hacer doble clic sobre un acetato, luego ingresar un nombre y un número "
+"(éstos deberán estar separados por un espacio)."
 
 #: ../../source/scanning_paper_drawings.rst:137
 msgid ""
 "Press enter to add a new drawing, and type a different number that will be "
 "assigned to the new drawing."
 msgstr ""
+"Presionar **Intro** para agregar un nuevo dibujo e ingresar otro número, "
+"que será asignado al nuevo dibujo."
 
 #: ../../source/scanning_paper_drawings.rst:139
 msgid "Go on adding all the drawings you need."
-msgstr ""
+msgstr "Continuar agregando todos los dibujos necesarios."
 
 #: ../../source/scanning_paper_drawings.rst:141
 msgid "Click a different cell to end the process."
-msgstr ""
+msgstr "Hacer clic sobre otro acetato para finalizar el proceso."
 
 #: ../../source/scanning_paper_drawings.rst:143
 msgid "**To define an animation level with the New Level dialog:**"
 msgstr ""
+"**Para definir un nivel de animación, usando el diálogo Nuevo nivel:**"
 
 #: ../../source/scanning_paper_drawings.rst:147
 msgid ""
 "Select a cell in the Xsheet where you want to place your animation level to "
-"scan and choose File > New Level."
+"scan and choose File  →  New Level."
 msgstr ""
+"Seleccionar un acetato en la Planilla/Línea de tiempo donde se desee ubicar "
+"el nivel de animación a escanear, y elegir Archivo → **Nuevo nivel**."
 
 #: ../../source/scanning_paper_drawings.rst:149
 msgid ""
 "Right-click the cell in the Xsheet where you want to place your animation "
-"level to scan and choose File > New Level from the menu that opens."
+"level to scan and choose File  →  New Level from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre un acetato en la Planilla/Línea de tiempo donde se "
+"desee ubicar el nivel a ser escaneado, y elegir **Nuevo nivel** en el menú."
 
 #: ../../source/scanning_paper_drawings.rst:151
 msgid ""
 "If any level is already exposed in the cell column, it will shift down from "
 "the cell you selected on."
 msgstr ""
+"Si ya hubiera un nivel expuesto en el acetato de esa columna/capa, será "
+"desplazado desde el acetato seleccionado hacia abajo/derecha."
 
 #: ../../source/scanning_paper_drawings.rst:153
 msgid ""
 "In the New Level dialog choose Scan Level from the Type option menu and "
 "define its settings, then click the OK button."
 msgstr ""
+"En el diálogo Nuevo nivel elegir **Nivel de escaneo** en la opción **Tipo:"
+"** y definir sus opciones, luego hacer clic en **Aceptar**."
 
 #: ../../source/scanning_paper_drawings.rst:155
 msgid "**To define the saving location for the level to be scanned:**"
 msgstr ""
+"**Para definir la ubicación de guardado para el nivel a ser escaneado:**"
 
 #: ../../source/scanning_paper_drawings.rst:159
 msgid ""
 "If you are using the New Level dialog, type in the Path field, or use the "
 "browser button, to set the path for the saving location."
 msgstr ""
+"Si se estuviera usando el diálogo **Nuevo nivel**, ingresar en el campo "
+"**Ruta:** o usar el botón de Explorar para definir la ruta para la "
+"ubicación de guardado."
 
 #: ../../source/scanning_paper_drawings.rst:161
 msgid ""
@@ -447,6 +623,11 @@ msgid ""
 "Settings window, type in the Path field, or use the browser button, to set "
 "the path for the saving location."
 msgstr ""
+"Si se estuviera definiendo el nivel directamente en la Planilla/Línea de "
+"tiempo, hacer clic derecho sobre los acetatos del nivel y elegir **Opciones "
+"de nivel...** en el menú. En la ventana de Opciones de nivel, ingresar en "
+"el campo **Ruta:** o usar el botón de Explorar para definir la ruta a usar "
+"para la ubicación de guardado."
 
 #: ../../source/scanning_paper_drawings.rst:163
 msgid ""
@@ -454,6 +635,10 @@ msgid ""
 "the full path will be replace by the related default folder alias (see  :"
 "ref:`Project Default Folders <project_default_folders>`  )."
 msgstr ""
+"Si en el Explorador de archivos se escogiera alguna de las carpetas "
+"predefinidas del proyecto activo, en el campo **Ruta:** la ruta completa "
+"será reemplazada por una referencia relativa a la misma (ver  :ref:"
+"`Carpetas predefinidas de un proyecto <project_default_folders>`  )."
 
 #: ../../source/scanning_paper_drawings.rst:169
 msgid "Scanning Drawings"
@@ -465,6 +650,9 @@ msgid ""
 "process will be controlled either by the Scan Settings dialog or the TWAIN "
 "interface."
 msgstr ""
+"De acuerdo al controlador que se estuviera utilizando (interno o TWAIN) el "
+"proceso de escaneo será controlado por el diálogo de Opciones de escaneo o "
+"por la propia interfaz TWAIN."
 
 #: ../../source/scanning_paper_drawings.rst:172
 msgid "|scan_settings|"
@@ -472,19 +660,25 @@ msgstr ""
 
 #: ../../source/scanning_paper_drawings.rst:174
 msgid "The Scan Settings dialog allows you to define the following:"
-msgstr ""
+msgstr "El diálogo Opciones de escaneo permitirá definir lo siguiente:"
 
 #: ../../source/scanning_paper_drawings.rst:176
 msgid ""
 "**Paper Format** sets the size for the drawings to be scanned. The option "
 "menu contains a list of already defined formats."
 msgstr ""
+"**Formato de papel:**, permite definir el tamaño de los dibujos a ser "
+"escaneados. El menú de opciones contendrá una lista de los formatos "
+"disponibles."
 
 #: ../../source/scanning_paper_drawings.rst:178
 msgid ""
 "**Reverse Order** makes the scanning process in a reverse order, starting "
 "from the last selected frame to the first one."
 msgstr ""
+"**Orden inverso**, permite realizar el proceso de escaneo en orden inverso, "
+"comenzando desde el último fotograma seleccionado, y llegando hasta el "
+"primero."
 
 #: ../../source/scanning_paper_drawings.rst:180
 msgid ""
@@ -492,12 +686,18 @@ msgid ""
 "case the scanner has one, to scan all the selected drawings without having "
 "to insert one image at a time into the scanner."
 msgstr ""
+"**Alimentador de papel**, permite que el escaner utilice el alimentador "
+"automático de documentos, en caso de que posea uno, para escanear todos los "
+"dibujos seleccionados sin necesidad de insertarlos uno por uno en el "
+"escaner."
 
 #: ../../source/scanning_paper_drawings.rst:182
 msgid ""
 "**Mode** is for setting the scanning mode among black and white, greyscale "
 "and colors."
 msgstr ""
+"**Modo:** permite establecer el modo de escaneo, entre: **Blanco y negro**, "
+"**Escala de grises** y **Color**."
 
 #: ../../source/scanning_paper_drawings.rst:184
 msgid ""
@@ -505,12 +705,19 @@ msgid ""
 "available only when the TWAIN drivers, provided with the scanner, are "
 "installed on your computer. Refer to the scanner documentation for more s."
 msgstr ""
+"La interfaz TWAIN correspondiente al escaner usado estará disponible sólo "
+"cuando los controladores TWAIN, provistos con el escaner, se encontraran "
+"instalados en el sistema. Recurrir a la documentación del escaner para más "
+"detalles."
 
 #: ../../source/scanning_paper_drawings.rst:186
 msgid ""
 "The Scan Settings dialog can be used in combination with the TWAIN "
 "interface settings to set the Reverse Order option."
 msgstr ""
+"El diálogo Opciones de escaneo podrá ser usado en combinación con las "
+"opciones de la interfaz TWAIN, para lograr realizar un escaneo en orden "
+"inverso."
 
 #: ../../source/scanning_paper_drawings.rst:188
 msgid ""
@@ -521,6 +728,13 @@ msgid ""
 "you are not using the paper feeder, you will be prompted to replace the "
 "drawing on the scanner bed, before scanning the following drawing."
 msgstr ""
+"Las opciones, definidas a través del diálogo de Opciones de escaneo o de la "
+"interfaz TWAIN, serán usadas para escanear los dibujos seleccionados en la "
+"Planilla/Línea de tiempo. En caso de haber seleccionados varios acetatos y "
+"de que se estuviera utilizando un alimentador de papel, todos los dibujos a "
+"ser escaneados serán tomados automáticamente desde el alimentador; en caso "
+"de no estar usando un alimentador de papel, se solicitará reemplazar el "
+"dibujo en el escaner, antes de escanear el próximo."
 
 #: ../../source/scanning_paper_drawings.rst:190
 msgid ""
@@ -531,6 +745,14 @@ msgid ""
 "several Xsheet columns. The opposite order will be followed if the Reverse "
 "Order option is on."
 msgstr ""
+"También será posible seleccionar dibujos no consecutivos, así como dibujos "
+"de distintos niveles de animación. Los niveles serán escaneados comenzando "
+"desde la primera columna/capa seleccionada. Sólo los dibujos expuestos "
+"serán escaneados, de acuerdo al orden numérico del nivel, sin importar la "
+"forma en que el nivel se encontrara expuesto en las columnas de la Planilla "
+"(o capas de la Línea de tiempo). Sin embargo, si la opción **Orden "
+"inverso** se encontrara activada, se seguirá un orden inverso durante el "
+"escaneo."
 
 #: ../../source/scanning_paper_drawings.rst:192
 msgid ""
@@ -538,6 +760,10 @@ msgid ""
 "displayed in the Xsheet turn black, as the level now has physical drawings "
 "saved on disk."
 msgstr ""
+"Tan pronto como un dibujo haya sido escaneado será guardado, y su nombre y "
+"número en la Planilla/Línea de tiempo se tornarán negros, indicando que "
+"ahora ese acetato se refiere a un nivel cuyo contenido está presente en el "
+"programa."
 
 #: ../../source/scanning_paper_drawings.rst:194
 msgid ""
@@ -547,6 +773,11 @@ msgid ""
 "in the OpenToonz browser with a double dot before the file extension, e.g. "
 "``animation..tif`` ."
 msgstr ""
+"Las imágenes serán guardadas como archivos comprimidos en forma TIF, usando "
+"una numeración progresiva de cuatro dígitos, escrita entre el nombre base y "
+"la extensión del archivo, p.ej: ``animación.0001.tif`` , ``animación.0002."
+"tif`` , etc. Se mostrarán en el Explorador de archivos de OpenToonz con un "
+"doble punto antes de la extensión del archivo, p.ej: ``animación..tif`` ."
 
 #: ../../source/scanning_paper_drawings.rst:196
 msgid ""
@@ -555,49 +786,72 @@ msgid ""
 "editing the level sequence (see  :ref:`Renumbering and Adding Frames in a "
 "Level <renumbering_and_adding_frames_in_a_level>`  )."
 msgstr ""
+"Si se necesitara escanear nuevamente un nivel de animación o una parte del "
+"mismo, seleccionar los dibujos relevantes y escanearlos nuevamente. También "
+"podrán insertarse dibujos, editando la secuencia del nivel (ver  :ref:"
+"`Renumeración y adición de fotogramas a un nivel "
+"<renumbering_and_adding_frames_in_a_level>`  )."
 
 #: ../../source/scanning_paper_drawings.rst:198
 msgid "**To scan an animation level:**"
-msgstr ""
+msgstr "**Para escanear un nivel de animación:**"
 
 #: ../../source/scanning_paper_drawings.rst:200
 msgid "In the Xsheet, select the drawings you want to scan."
 msgstr ""
+"En la Planilla/Línea de tiempo, seleccionar los dibujos que se desee "
+"escanear."
 
 #: ../../source/scanning_paper_drawings.rst:202
 msgid ""
-"Choose Scan & Cleanup > Scan Settings and use the dialog to control scan "
+"Choose Scan & Cleanup  →  Scan Settings and use the dialog to control scan "
 "options."
 msgstr ""
+"Elegir Escaneo y limpieza → **Opciones de escaneo...** y usar las opciones "
+"en el diálogo para controlar el proceso de escaneo."
 
 #: ../../source/scanning_paper_drawings.rst:206
 msgid ""
-"If you are using the internal drivers, choose Scan & Cleanup > Scan: the "
+"If you are using the internal drivers, choose Scan & Cleanup  →  Scan: the "
 "selected drawings will be scanned and automatically saved."
 msgstr ""
+"Si se estuvieran usando los controladores internos, escoger Escaneo y "
+"limpieza → **Escanear**: los dibujos seleccionados serán escaneados y "
+"guardados automáticamente."
 
 #: ../../source/scanning_paper_drawings.rst:208
 msgid ""
-"If you are using the TWAIN drivers, choose Scan & Cleanup > Scan, and guide "
-"the scanning process by using the TWAIN interface that opens: the selected "
-"drawings will be scanned and automatically saved."
+"If you are using the TWAIN drivers, choose Scan & Cleanup  →  Scan, and "
+"guide the scanning process by using the TWAIN interface that opens: the "
+"selected drawings will be scanned and automatically saved."
 msgstr ""
+"Si se estuvieran usando los controladores TWAIN, elegir Escaneo y limpieza "
+"→ **Escanear**, realizar el proceso de escaneado usando la interfaz TWAIN "
+"emergente: los dibujos seleccionados serán escaneados y guardados "
+"automáticamente."
 
 #: ../../source/scanning_paper_drawings.rst:210
 msgid "In case you selected several drawings, do one of the following:"
 msgstr ""
+"En caso de haber seleccionado varios dibujos, realizar alguna de las "
+"siguientes acciones:"
 
 #: ../../source/scanning_paper_drawings.rst:212
 msgid ""
 "If you are using the scanner paper feeder, wait for all of the drawings to "
 "be scanned"
 msgstr ""
+"Si se estuviera utilizando el alimentador de papel del escaner, esperar a "
+"que todos los dibujos hayan sido escaneados."
 
 #: ../../source/scanning_paper_drawings.rst:214
 msgid ""
 "If you are not using the paper feeder, you will be prompted to replace the "
 "drawing on the scanner bed, before scanning the following drawing."
 msgstr ""
+"Si no se estuviera utilizando un alimentador de papel, se solicitará "
+"reemplazar el dibujo en el escaner, antes de proceder a escanear el "
+"siguiente dibujo."
 
 #: ../../source/scanning_paper_drawings.rst:216
 msgid ""
@@ -607,6 +861,11 @@ msgid ""
 "before proceeding with the next scanning session. Refer to the scanner "
 "documentation for more s."
 msgstr ""
+"Luego de que un dibujo ha sido escaneado, o varios si es estuviera usando "
+"un alimentador de papel, en algunas interfaces TWAIN es posible que fuera "
+"necesario usar un comando específico (como **Regresar a la aplicación**) "
+"para regresar a OpenToonz, antes de poder proceder con la siguiente sesión "
+"de escaneo. Consultar la documentación del escaner por más detalles."
 
 #: ../../source/scanning_paper_drawings.rst:222
 msgid "Setting the Cropbox"
@@ -620,63 +879,85 @@ msgid ""
 "paper format, but only the area defined by the cropbox is actually scanned, "
 "thus speeding up the scanning operations."
 msgstr ""
+"Al usar escaners soportados en forma directa, será posible definir un "
+"*marco de recorte* más pequeño que el formato de papel escogido, para "
+"optimizar el proceso de escaneo. Cuando se hubiera definido un *marco de "
+"recorte*, la imagen producida seguirá siendo del tamaño del formato de "
+"papel escogido, sin embargo sólo el área definida por el *marco de recorte* "
+"será escaneada, acelerando así las operaciones de escaneo."
 
 #: ../../source/scanning_paper_drawings.rst:225
 msgid ""
 "Once defined the cropbox will be used for any scanning performed for the "
 "scene."
 msgstr ""
+"Una vez definido, el marco de recorte será usado para cualquier escaneo "
+"realizado en la escena."
 
 #: ../../source/scanning_paper_drawings.rst:227
 msgid ""
 "The cropbox size information is not saved along with the scene file; it is "
 "also automatically reset when working on a new scene."
 msgstr ""
+"La información de tamaño del marco de recorte no será guardada con la "
+"escena; también será restablecida automáticamente al comenzar a trabajar en "
+"una nueva escena."
 
 #: ../../source/scanning_paper_drawings.rst:229
 msgid "**To define the scanning cropbox:**"
-msgstr ""
+msgstr "**Para definir el marco de recorte de escaneo:**"
 
 #: ../../source/scanning_paper_drawings.rst:231
 msgid ""
-"Choose Scan & Cleanup > Set Cropbox: the drawing currently placed in the "
+"Choose Scan & Cleanup  →  Set Cropbox: the drawing currently placed in the "
 "scanner is scanned and the cropbox is displayed in red."
 msgstr ""
+"Elegir Escaneo y limpieza → **Definir marco de recorte**: el dibujo "
+"colocado en el escaner será leído y se mostrará el marco de recorte en "
+"color *rojo*."
 
 #: ../../source/scanning_paper_drawings.rst:233
 msgid ""
 "Use the handles along the cropbox to set its size, and click and drag "
 "anywhere to change its position."
 msgstr ""
+"Usar las asas en los lados del marco de recorte para definir su tamaño, "
+"arrastrar en otra parte para desplazarlo."
 
 #: ../../source/scanning_paper_drawings.rst:235
 msgid "The cropbox default size is the same as the size of the scanned image."
 msgstr ""
+"El tamaño predefinido del marco de recorte será igual al tamaño de la "
+"imagen a ser escaneada."
 
 #: ../../source/scanning_paper_drawings.rst:237
 msgid "The cropbox cannot be moved outside the area of the scanned image."
 msgstr ""
+"El marco de recorte no podrá ser desplazado fuera del área de la imagen a "
+"ser escaneada."
 
 #: ../../source/scanning_paper_drawings.rst:239
 msgid "**To use the defined cropbox when scanning:**"
-msgstr ""
+msgstr "**Para usar el marco de recorte al escanear:**"
 
 #: ../../source/scanning_paper_drawings.rst:241
 msgid "Scan drawings after defining the cropbox size (see above )."
 msgstr ""
+"Escanear dibujos luego de haber definido el marco de recorte (ver más "
+"arriba)."
 
 #: ../../source/scanning_paper_drawings.rst:243
 msgid "**To dismiss the scanning cropbox visualization:**"
-msgstr ""
+msgstr "**Para dejar de ver el marco de recorte:**"
 
 #: ../../source/scanning_paper_drawings.rst:245
-msgid "Choose Scan & Cleanup > Set Cropbox."
-msgstr ""
+msgid "Choose Scan & Cleanup  →  Set Cropbox."
+msgstr "Elegir Escaneo y limpieza → **Definir marco de recorte**."
 
 #: ../../source/scanning_paper_drawings.rst:247
 msgid "**To reset the scanning cropbox:**"
-msgstr ""
+msgstr "**Para restablecer el marco de recorte de escaneo:**"
 
 #: ../../source/scanning_paper_drawings.rst:249
-msgid "Choose Scan & Cleanup > Reset Cropbox."
-msgstr ""
+msgid "Choose Scan & Cleanup  →  Reset Cropbox."
+msgstr "Elegir Escaneo y limpieza → **Restablecer marco de recorte**."
