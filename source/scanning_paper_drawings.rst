@@ -209,7 +209,7 @@ If you need to scan again an animation level, or a part of it, select the releva
 
     4. In case you selected several drawings, do one of the following:
 
-    - If you are using the scanner paper feeder, wait for all of the drawings to be scanned
+    - If you are using the scanner paper feeder, wait for all of the drawings to be scanned.
 
     - If you are not using the paper feeder, you will be prompted to replace the drawing on the scanner bed, before scanning the following drawing.
 
