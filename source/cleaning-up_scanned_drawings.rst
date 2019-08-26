@@ -505,7 +505,7 @@ If you want you can also revert to the scanned version of the level you cleaned 
 
     1. Select any drawing of the cleaned up level.
 
-    2. Choose Level  →  **Level Settings**.
+    2. Choose Level  →  **Level Settings...**
 
     3. Copy the **Scan Path:** information, and paste it in the **Path:** text field.
 
