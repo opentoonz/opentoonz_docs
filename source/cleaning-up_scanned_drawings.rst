@@ -222,7 +222,7 @@ In the color list, parameters for the other colors are the following:
 
 Defining Colors for the Color Line Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The colors used to recognize and process drawing lines when doing color line processing can be defined by using the style editor or picking color values directly from the drawing you want to process
+The colors used to recognize and process drawing lines when doing color line processing can be defined by using the style editor or picking color values directly from the drawing you want to process.
 
 It is possible to add colors to the list, or remove them if they are not needed anymore. The maximum number of color you can define is 7 (black included). 
 
@@ -505,7 +505,7 @@ If you want you can also revert to the scanned version of the level you cleaned 
 
     1. Select any drawing of the cleaned up level.
 
-    2. Choose Level  →  **Level Setting**.
+    2. Choose Level  →  **Level Settings**.
 
     3. Copy the **Scan Path:** information, and paste it in the **Path:** text field.
 
