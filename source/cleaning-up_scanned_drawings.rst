@@ -177,7 +177,7 @@ General parameters are the following:
 
 - **Antialias:**, can be set to **Standard**, **None** or **Morphological**. Use **Standard** to keep the antialias resulting from current camera and defined settings. Use **None** to remove the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels smoothing its edges. Use **Morphological** to replace the standard antialias with the one obtained by analyzing the image edges.
 
-.. note:: If the Antialias is set to **None** or **Morphological**, the **Contrast** parameter will become desactivated.
+  .. note:: If the Antialias is set to **None** or **Morphological**, the **Contrast** parameter will become desactivated.
 
 - **Sharpness:**, defines how sharp the processed lines will be. Higher values produce sharper, harder lines, and lower values create smoother lines. 
 
