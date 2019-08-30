@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-08-29 17:46-0300\n"
+"PO-Revision-Date: 2019-08-30 19:05-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,12 +28,18 @@ msgid ""
 "columns (or Timeline layers) in the **FX Schematic**, where each element is "
 "represented as a node."
 msgstr ""
+"Es posible aplicar efectos a los niveles de animación, imágenes y clips de "
+"video expuestos en las columnas de la Planilla (o capas de la Línea de tiempo), "
+"mediante el uso del **Diagrama de efectos**, donde cada elemento será "
+"representado como un nodo."
 
 #: ../../source/applying_special_fx.rst:7
 msgid ""
 "The relationship between the contents of columns/layers and effects can be "
 "managed by connecting or disconnecting links between nodes."
 msgstr ""
+"La relación entre el contenido de las columnas/capas y los efectos podrá ser "
+"administrado mediante la conexión o desconexión entre los respectivos nodos."
 
 #: ../../source/applying_special_fx.rst:9
 msgid "|dwanko_before_fx| |dwanko_after_fx|"
@@ -49,12 +55,19 @@ msgid ""
 "port connected to the Xsheet node: this means that their content is part of the "
 "scene and is rendered as it is."
 msgstr ""
+"En el Diagrama de efectos todas las columnas/capas serán mostradas como nodos "
+"conectados a un nodo de **Salida**, conectado a su vez al nodo de la "
+"**Planilla**: esto significa que su contenido será parte de la escena y será "
+"parte del procesamiento final, según este diagrama."
 
 #: ../../source/applying_special_fx.rst:18
 msgid ""
 "When effects are added, they are displayed as nodes as well, with ports to "
 "create links that let you set the way the FX affect the scene contents."
 msgstr ""
+"Cuando se agreguen efectos, éstos se mostrarán como nodos, con conectores para "
+"crear vínculos que ayuden a definir la manera en que el efecto afectará al "
+"contenido de la escena."
 
 #: ../../source/applying_special_fx.rst:20
 msgid ""
@@ -65,26 +78,40 @@ msgid ""
 "nodes only have the **Render** toggle (|preview|) allowing you to include or "
 "exclude temporarily the effect in the rendering."
 msgstr ""
+"Los nodos de columnas/capas contendrán los interruptores **Visibilidad en mesa "
+"de trabajo** (|camera_stand|) y **Visibilidad durante el procesamiento** (|"
+"preview|) en su esquina superior derecha: estos interruptores estarán "
+"vinculados a los presentes en los encabezados de las columnas de la Planilla (o "
+"capas de la Línea de tiempo) (ver :ref:`Trabajo con columnas/capas "
+"<working_with_xsheet_columns>`  ). Los nodos de los efectos sólo contendrán el "
+"interruptor de **Visibilidad durante el procesamiento** (|preview|), que "
+"permitirá excluir temporalmente sus efectos del procesamiento de la escena."
 
 #: ../../source/applying_special_fx.rst:22
 msgid ""
 "Nodes can be easily selected and arranged. When selected, nodes are highlighted "
 "in white; the current node has its label in yellow."
 msgstr ""
+"Los nodos podrán ser fácilmente seleccionados o deseleccionados. Los nodos "
+"seleccionados, serán resaltados en *blanco*; el nodo *activo* mostrará su "
+"nombre en *amarillo*."
 
 #: ../../source/applying_special_fx.rst:24
 msgid "**To access the FX Schematic:**"
-msgstr ""
+msgstr "**Para acceder al Diagrama de efectos:**"
 
 #: ../../source/applying_special_fx.rst:26
 msgid ""
 "Click the Schematic toggle button (|schematic|) at the right of the bottom bar "
 "of the Schematic window until the title bar displays **FX Schematic**."
 msgstr ""
+"Hacer clic en el botón **Diagrama de efectos/escenario** (|schematic|) en la "
+"esquina inferior derecha del panel Diagrama, hasta que en la barra de título "
+"del panel se lea **Diagrama de efectos**."
 
 #: ../../source/applying_special_fx.rst:28
 msgid "**To navigate the FX Schematic:**"
-msgstr ""
+msgstr "**Para navegar en el Diagrama de efectos:**"
 
 #: ../../source/applying_special_fx.rst:30 ../../source/applying_special_fx.rst:50
 #: ../../source/applying_special_fx.rst:58 ../../source/applying_special_fx.rst:85
@@ -108,7 +135,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:506
 #: ../../source/applying_special_fx.rst:598
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Realizar una de las siguientes acciones:"
 
 #: ../../source/applying_special_fx.rst:32
 #: ../../source/applying_special_fx.rst:466
@@ -116,29 +143,39 @@ msgid ""
 "Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** "
 "keys) to zoom in and zoom out."
 msgstr ""
+"Usar la rueda del ratón o los atajos (de forma predefinida las teclas **+** y "
+"**-**) para usar el zoom."
 
 #: ../../source/applying_special_fx.rst:34
 #: ../../source/applying_special_fx.rst:468
 msgid "Middle-click and drag to scroll in any direction."
 msgstr ""
+"Hacer clic central y arrastrar para desplazar la vista en cualquier dirección."
 
 #: ../../source/applying_special_fx.rst:36
 msgid ""
 "Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the "
 "Schematic window to display all of the nodes in the current window."
 msgstr ""
+"Usar el botón **Ajustar a ventana** (|fit_to_window|) en la esquina inferior "
+"izquierda del Diagrama, para mostrar todos los objetos en la ventana."
 
 #: ../../source/applying_special_fx.rst:38
 msgid ""
 "Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of "
 "the Schematic window to center the Schematic on the current node."
 msgstr ""
+"Usar el botón **Enfocar en nodo actual** (|focus_on_current|) en la esquina "
+"inferior izquierda del Diagrama, para centrar la vista en el nodo actual."
 
 #: ../../source/applying_special_fx.rst:40
 msgid ""
 "Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the "
 "Schematic window to reorder all the nodes."
 msgstr ""
+"Usar el botón **Reordenar nodos** (|reorder_nodes|) en la esquina inferior "
+"izquierda del Diagrama, para reorganizar automáticamente los nodos en el "
+"Diagrama."
 
 #: ../../source/applying_special_fx.rst:42
 msgid ""
@@ -146,73 +183,87 @@ msgid ""
 "window, or use the **Reset View** shortcut (by default the **Alt + 0** key) to "
 "display all of the nodes at the default size."
 msgstr ""
+"Usar el botón **Restablecer tamaño** (|reset|) en la esquina inferior izquierda "
+"del Diagrama (o su atajo predefinido **Alt + 0**), para visualizar todos los "
+"nodos a su tamaño predefinido."
 
 #: ../../source/applying_special_fx.rst:44
 #: ../../source/applying_special_fx.rst:190
 msgid "**To rename a node:**"
-msgstr ""
+msgstr "**Para renombrar un nodo:**"
 
 #: ../../source/applying_special_fx.rst:46
 msgid "Ctrl + double-click the node name and type a new name."
-msgstr ""
+msgstr "Hacer Ctrl + doble clic sobre el nombre del nodo que se desee renombrar."
 
 #: ../../source/applying_special_fx.rst:48
 msgid "**To minimize or maximize the column/layer and effect nodes:**"
-msgstr ""
+msgstr "**Para minimizar o maximizar los nodos de una columna/capa o un efecto:**"
 
 #: ../../source/applying_special_fx.rst:52
 msgid ""
 "Click the arrowhead to the left of the node name to minimize/maximize columns "
 "selectively."
 msgstr ""
+"Hacer clic sobre el botón con forma de flecha, en la esquina superior izquierda "
+"del nodo, para minimizarlo o maximizarlo selectivamente."
 
 #: ../../source/applying_special_fx.rst:54
 msgid ""
 "Click the **Minimize/Maximize** (|minimize|/|maximize|) button in the bottom "
 "bar of the Schematic window to minimize/maximize all the column nodes."
 msgstr ""
+"Hacer clic en el botón **Maximizar nodos** (|maximize|) en la esquina inferior "
+"izquierda del Diagrama, para maximizar/minimizar todos los nodos."
 
 #: ../../source/applying_special_fx.rst:56
 msgid "**To select nodes:**"
-msgstr ""
+msgstr "**Para seleccionar nodos:**"
 
 #: ../../source/applying_special_fx.rst:60
 msgid "Click to select a node."
-msgstr ""
+msgstr "Hacer clic en un nodo para seleccionarlo."
 
 #: ../../source/applying_special_fx.rst:62
 msgid "Click and drag to select a group of nodes."
-msgstr ""
+msgstr "Hacer clic y arrastrar para seleccionar un grupo de nodos."
 
 #: ../../source/applying_special_fx.rst:64
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) to add a node to, or remove it from the "
 "selection."
 msgstr ""
+"Hacer Ctrl-clic (PC) o Cmd-clic (macOS) para agregar o quitar un nodo de la "
+"selección."
 
 #: ../../source/applying_special_fx.rst:66
 msgid ""
 "*Links* can be selected together with nodes (see  :ref:`Editing the FX "
 "Schematic <editing_the_fx_schematic>`  )."
 msgstr ""
+"Es posible seleccionar líneas de vínculo conjuntamente con nodos (ver  :ref:"
+"`Edición del diagrama de efectos <editing_the_fx_schematic>`  )."
 
 #: ../../source/applying_special_fx.rst:68
 msgid "**To move the selection:**"
-msgstr ""
+msgstr "**Para mover los nodos de una selección:**"
 
 #: ../../source/applying_special_fx.rst:70
 msgid "Click and drag any node of the selection."
-msgstr ""
+msgstr "Hacer clic y arrastrar cualquier nodo de la selección."
 
 #: ../../source/applying_special_fx.rst:72
 msgid "**To include or exclude temporally an effect from the rendering:**"
 msgstr ""
+"**Para excluir (o volver a incluir) un nodo temporalmente del procesamiento:**"
 
 #: ../../source/applying_special_fx.rst:74
 msgid ""
 "Click the **Render** toggle (|preview|) on the upper right corner of the effect "
 "node."
 msgstr ""
+"Hacer clic en el botón **Visibilidad durante el procesamiento** (|preview|) en "
+"la esquina superior derecha del nodo de efecto."
 
 #: ../../source/applying_special_fx.rst:80
 msgid "Grouping Nodes"
@@ -225,23 +276,30 @@ msgid ""
 "and its components can be selected for further operations, like editing effect "
 "settings, or creating new groups."
 msgstr ""
+"Es posible agrupar varios nodos para conformar un único nodo, con el propósito "
+"de administrar más eficientemente el Diagrama de efectos. Los grupos podrán ser "
+"abiertos para ser examinados y editados, y sus componentes podrán ser "
+"seleccionados para posteriores operaciones, como la edición de las opciones de "
+"los efectos o la creación de nuevos grupos."
 
 #: ../../source/applying_special_fx.rst:83
 msgid "**To Group selected nodes:**"
-msgstr ""
+msgstr "**Para Agrupar los nodos seleccionados:**"
 
 #: ../../source/applying_special_fx.rst:87
 msgid ""
 "Right-click any selected node and choose **Group** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre uno de los nodos seleccionados y elegir **Agrupar** en "
+"el menú."
 
 #: ../../source/applying_special_fx.rst:89
 msgid "Press the **Ctrl + G** (PC) or **Cmd + G** (Mac) shortcut."
-msgstr ""
+msgstr "Presionar los atajos **Ctrl-G** (PC) o **Cmd-G** (macOS)."
 
 #: ../../source/applying_special_fx.rst:91
 msgid "**To open a Group:**"
-msgstr ""
+msgstr "**Para abrir un Grupo:**"
 
 #: ../../source/applying_special_fx.rst:93
 msgid ""
@@ -249,30 +307,41 @@ msgid ""
 "group nodes are displayed in a box, showing links between group nodes, and "
 "links with nodes outside of the group."
 msgstr ""
+"Hacer clic derecho sobre el grupo y elegir la opción **Abrir grupo** en el "
+"menú: el grupo de nodos será mostrará dentro de un marco, pudiendo verse tanto "
+"los vínculos entre los nodos del grupo, como los vínculos con nodos externos al "
+"mismo."
 
 #: ../../source/applying_special_fx.rst:95
 msgid ""
 "In the FX Schematic, when the content of a group is displayed, it's possible to "
 "edit the links between Group nodes and links with nodes outside of the group."
 msgstr ""
+"En el Diagrama, mientras se esté visualizando el contenido de un grupo, no será "
+"posible editar los vínculos entre los nodos del grupo, ni los vínculos con "
+"otros nodos, externos al mismo."
 
 #: ../../source/applying_special_fx.rst:97
 msgid "**To close a Group:**"
-msgstr ""
+msgstr "**Para cerrar un Grupo:**"
 
 #: ../../source/applying_special_fx.rst:99
 msgid "Click the **Close** button on the right of the group box title bar."
 msgstr ""
+"Hacer clic sobre el botón de **Cerrar grupo** en la esquina superior derecha "
+"del marco del grupo."
 
 #: ../../source/applying_special_fx.rst:101
 msgid "**To release a Group:**"
-msgstr ""
+msgstr "**Para disolver un Grupo:**"
 
 #: ../../source/applying_special_fx.rst:103
 msgid ""
 "Right-click the Group and choose **Ungroup** from the menu that opens, or press "
 "the shortcut **Ctrl + Shift + G** (PC) or **Cmd + Shift + G** (Mac)."
 msgstr ""
+"Hacer clic derecho sobre el nodo del grupo y elegir **Desagrupar** en el menú o "
+"presionar el atajo **Ctrl-Shift-G** (PC) o **Cmd-Shift-G** (macOS)."
 
 #: ../../source/applying_special_fx.rst:109
 msgid "Inserting Effects"
@@ -3208,11 +3277,11 @@ msgid ""
 msgstr ""
 "Los efectos de tipo **Toonz Level (Nivel de Toonz)** podrán ser aplicados "
 "únicamente a niveles de tipo Vectorial de Toonz (PLI) y de Imagen de Toonz "
-"(TLV). Usualmente afectan a los dibujos a los cuales son aplicados de acuerdo "
+"(TLV). Usualmente afectan a los dibujos a los cuales son aplicados, de acuerdo "
 "al índice de sus Estilos. Los índices de sus estilos podrán ser consultados en "
-"el editor de Paleta, luego del símbolo # en la descripción del Estilo o en la "
-"*esquina inferior derecha* del estilo, en cualquiera de los modos de **Vistas "
-"de miniaturas**."
+"el editor de Paleta, a la derecha del símbolo # en la descripción del Estilo, o "
+"en la *esquina inferior derecha* del estilo, en cualquiera de los modos de "
+"**Vistas de miniaturas**."
 
 #: ../../source/applying_special_fx.rst:1474
 msgid ""
@@ -3235,12 +3304,12 @@ msgid ""
 "However two or more Toonz Level type of effects can be applied to the same "
 "animation level."
 msgstr ""
-"Los efectos de tipo *Toonz Level* siempre deberán ser aplicados en primer "
-"lugar, cuando además haya aplicados otros efectos en un nivel de animación, "
-"debido a que funcionarán únicamente con niveles Vectorial de Toonz o Imagen de "
-"Toonz que no hayan sido transformados antes por otros tipos de efectos. Sin "
-"embargo, sí será posible aplicar dos o más efectos de tipo *Toonz Level* al "
-"mismo nivel de animación."
+"Los efectos de tipo Toonz Level siempre deberán ser aplicados en primer lugar, "
+"cuando además haya aplicados otros efectos en un nivel de animación, debido a "
+"que funcionarán únicamente con niveles Vectorial de Toonz o Imagen de Toonz que "
+"no hayan sido transformados previamente por otros tipos de efectos. Sin "
+"embargo, sí será posible aplicar dos o más efectos de tipo Toonz Level al mismo "
+"nivel de animación."
 
 #: ../../source/applying_special_fx.rst:1481
 msgid "Art Contour"
@@ -3257,11 +3326,11 @@ msgid ""
 "Color Indexes text field. It can be used for example to create scattered brush, "
 "or hair and fur effects along drawing lines."
 msgstr ""
-"Creará, en el contenido del nodo conectado al conector *Source*, un patrón "
-"repitiendo el contenido del nodo conectado al conector *Controller*, a lo largo "
-"de las líneas pintadas con los índices de estilo especificados en el campo "
-"**Color Indexes**. Podrá ser usado, por ejemplo, para crear un pincel disperso "
-"o efectos de pelos a lo largo de las líneas de un dibujo."
+"Creará, en el contenido del nodo conectado a *Source*, un patrón repitiendo el "
+"contenido del nodo conectado a *Controller*, a lo largo de las líneas pintadas "
+"con los índices de los estilos especificados en el campo **Color Indexes**. "
+"Podrá ser usado, por ejemplo, para crear un pincel disperso o efectos de pelos "
+"a lo largo de las líneas de un dibujo."
 
 #: ../../source/applying_special_fx.rst:1486
 msgid ""
@@ -3269,17 +3338,17 @@ msgid ""
 "while the Keep Contour option retains the drawing line that will be visible "
 "beneath the pattern."
 msgstr ""
-"**Keep Color** permite asignar el color original de la línea al patrón "
-"aplicado; mientras que **Keep Contour** permitirá mantener la línea original "
-"del dibujo por debajo del patrón."
+"**Keep Color** (Mantener color) permite asignar el color original de la línea "
+"al patrón aplicado; mientras que **Keep Contour** (Mantener contornos) "
+"permitirá mantener la línea original del dibujo por debajo del patrón."
 
 #: ../../source/applying_special_fx.rst:1488
 msgid ""
 "The way the contents of the Controller node create the pattern depends on the "
 "Pattern settings."
 msgstr ""
-"La forma en que el contenido del nodo conectado al conector *Controller* cree "
-"el patrón dependerá de las opciones de la sección **Pattern**."
+"La forma en que el contenido del nodo conectado a *Controller* creará el "
+"patrón, dependerá de las opciones de la sección **Pattern** (Patrón)."
 
 #: ../../source/applying_special_fx.rst:1490
 msgid ""
@@ -3287,17 +3356,19 @@ msgid ""
 "the Density to 0, you can specify a Minimum and Maximum Distance between two "
 "subsequent images applied as pattern on the line."
 msgstr ""
-"**Density** permite definir la densidad del patrón a ser aplicado a lo largo de "
-"la línea. Cuando la densidad sea 0, será posible especificar con la opción "
-"**Distance** una distancia mínima y máxima entre dos imágenes del patrón."
+"**Density** (Densidad) permite definir la densidad del patrón a ser aplicado a "
+"lo largo de la línea. Cuando la densidad sea 0, será posible especificar con la "
+"opción **Distance** (Distancia) una distancia mínima y máxima entre las "
+"imágenes del patrón."
 
 #: ../../source/applying_special_fx.rst:1492
 msgid ""
 "The Size sets the Minimum and Maximum resizing percentage applied to the images "
 "used as the pattern; the value 100 is the original size of the images."
 msgstr ""
-"**Size** permite definir los valores mínimo y máximo de tamaño aplicado a las "
-"imágenes usadas como patrón; 100 representará al valor original de las imágenes."
+"**Size** (Tamaño) permite definir los valores mínimo y máximo de tamaño "
+"aplicado a las imágenes usadas como patrón; 100 representará al valor original "
+"de las imágenes."
 
 #: ../../source/applying_special_fx.rst:1494
 msgid ""
@@ -3307,12 +3378,12 @@ msgid ""
 "used, the orientation values do not depend on the direction of the lines: the "
 "value 0 is the original images orientation."
 msgstr ""
-"**Orientation** permite definir el ángulo de rotación mínimo y máximo para las "
-"imágenes usadas como patrón, de acuerdo a la dirección de la línea; el valor 0 "
-"mostrará las imágenes de forma perpendicular a la dirección de la línea. Si la "
-"opción **Absolute Orientation** fuera activada, los valores de orientación no "
-"dependerán de la dirección de la línea: en ese caso el valor 0 representará a "
-"la orientación original de las imágenes."
+"**Orientation** (Orientación) permite definir el ángulo de rotación mínimo y "
+"máximo para las imágenes usadas como patrón, de acuerdo a la dirección de la "
+"línea; el valor 0 mostrará las imágenes de forma perpendicular a la dirección "
+"de la línea. Si la opción **Absolute Orientation** (Orientación absoluta) fuera "
+"activada, los valores de orientación no dependerán de la dirección de la línea: "
+"en ese caso el valor 0 representará la orientación original de las imágenes."
 
 #: ../../source/applying_special_fx.rst:1499
 msgid "Calligraphic Line"
@@ -3327,9 +3398,9 @@ msgid ""
 "Changes in the Source content the thickness of the drawing lines painted with "
 "styles whose indexes are specified in the Color Indexes text field."
 msgstr ""
-"Permite cambiar en el contenido del nodo conectado al conector *Source* el "
-"grosor de las líneas que usen los estilos cuyos índices se especifiquen en el "
-"campo **Color Indexes**."
+"Permite cambiar, en el contenido del nodo conectado a *Source*, el grosor de "
+"las líneas que usen los estilos cuyos índices se especifiquen en el campo "
+"**Color Indexes**."
 
 #: ../../source/applying_special_fx.rst:1504
 #: ../../source/applying_special_fx.rst:1538
@@ -3339,8 +3410,8 @@ msgid ""
 "Diagonal."
 msgstr ""
 "Será posible especificar un aumento del grosor mediante el parámetro "
-"**Thickness**, y cómo éste será aplicado, en forma de porcentaje, a las "
-"distintas direcciones de las líneas: **Horizontal**, **Vertical**, **Up "
+"**Thickness** (Grosor), y cómo éste será aplicado, en forma de porcentaje, a "
+"las distintas direcciones de las líneas: **Horizontal**, **Vertical**, **Up "
 "Diagonal** (Diagonal ascendente), **Down Diagonal** (Diagonal descendente)."
 
 #: ../../source/applying_special_fx.rst:1506
@@ -3349,9 +3420,10 @@ msgid ""
 "affected by the effect, and those not affected; while the Noise sets the "
 "regularity of the edge of the line."
 msgstr ""
-"**Smoothness** permite definir la suavidad de la transición entre las distintas "
-"secciones de línea modificadas por el efecto y aquellas que no lo sean; "
-"mientras que **Noise** permite definir la regularidad del borde de la línea."
+"**Smoothness** (Suavidad) permite definir la suavidad de la transición entre "
+"las distintas secciones de línea modificadas por el efecto y aquellas que no lo "
+"sean; mientras que **Noise** (Ruido) permite definir la regularidad del borde "
+"de la línea."
 
 #: ../../source/applying_special_fx.rst:1511
 msgid "Color Blending"
@@ -3368,11 +3440,11 @@ msgid ""
 "blend shadow and highlight areas with the plain colored area, or to create "
 "gradients of colors."
 msgstr ""
-"Permite fundir las líneas y áreas, del contenido del nodo conectado al conector "
-"*Source*, pintadas con estilos cuyos índices se hayan especificado en el campo "
-"**Color Indexes**. Podrá ser usado, por ejemplo, para fundir las áreas de "
-"sombras e iluminaciones con el área color normal de un dibujo, o para crear "
-"gradientes de colores."
+"Permite fundir las líneas y áreas, del contenido del nodo conectado a *Source*, "
+"pintadas con estilos cuyos índices se hayan especificado en el campo **Color "
+"Indexes**. Podrá ser usado, por ejemplo, para fundir las áreas de sombras e "
+"iluminaciones con el área de color normal de un dibujo, o simplemente para "
+"crear gradientes de colores."
 
 #: ../../source/applying_special_fx.rst:1516
 msgid ""
@@ -3380,9 +3452,9 @@ msgid ""
 "be; while the Smoothness sets how smooth the dithering between blended colors "
 "is."
 msgstr ""
-"**Intensity** permite definir qué tan ancha será el área entre los colores "
-"seleccionados; mientras que **Smoothness* permite definir qué tan suave será el "
-"difuminado entre los colores fundidos."
+"**Intensity** (Intensidad) permite definir qué tan ancha será el área entre los "
+"colores seleccionados; mientras que **Smoothness* (Suavizado) permite definir "
+"qué tan suave será el difuminado entre los colores fundidos."
 
 #: ../../source/applying_special_fx.rst:1518
 msgid ""
@@ -3391,10 +3463,11 @@ msgid ""
 "deactivated, the blending between selected colors continues under excluded "
 "lines and areas."
 msgstr ""
-"Cuando la opción **No Blending over Other Colors** se encuentre activa se "
-"detendrá el fundido cuando se detecte una línea o área cuyo índice no esté "
-"incluido en la selección; en caso contrario, la fusión continuará por debajo de "
-"líneas y áreas excluidas."
+"Cuando la opción **No Blending over Other Colors** (No fundir a través de otros "
+"colores) se encuentre activa se detendrá el fundido cuando se detecte una línea "
+"o área cuyo índice no esté incluido en la selección; en caso contrario, la "
+"fusión continuará a través de líneas y áreas cuyos índices no estén incluidos "
+"en la selección realizada en el campo **Color Indexes**."
 
 #: ../../source/applying_special_fx.rst:1523
 msgid "External Palette"
@@ -3410,9 +3483,9 @@ msgid ""
 "port; if a column node is connected to the Palette input port, the palette "
 "related to its content will be considered."
 msgstr ""
-"Permite aplicar, al contenido del nodo conectado al conector *Source*, el nodo "
-"de paleta conectado al conector *Palette*; si se conectara el nodo de una "
-"columna al conector *Palette*, la paleta de su contenido será usada."
+"Permite aplicar al contenido del nodo conectado a *Source*, la paleta del nodo "
+"conectado a *Palette*; si se conectara el nodo de una columna, la paleta de su "
+"contenido será usada."
 
 #: ../../source/applying_special_fx.rst:1528
 msgid ""
@@ -3420,9 +3493,9 @@ msgid ""
 "replaced with those of the levels contained in the palette node according to "
 "their style indexes."
 msgstr ""
-"Los estilos originales de los niveles Toonz, contenidos en el nodo conectado al "
-"conector *Source*, serán reemplazados con aquellos de los niveles contenidos en "
-"el nodo de la paleta, de acuerdo a sus números de índice respectivos."
+"Los estilos originales de los niveles Toonz contenidos en el nodo conectado a "
+"*Source*, serán reemplazados con aquellos de los niveles contenidos en el nodo "
+"de paleta, de acuerdo a sus números de índice respectivos."
 
 #: ../../source/applying_special_fx.rst:1533
 msgid "Outline"
@@ -3437,7 +3510,7 @@ msgid ""
 "Changes in the Source content the thickness of the drawing external outline."
 msgstr ""
 "Permite cambiar el grosor del contorno exterior del contenido del nodo "
-"conectado al conector *Source*."
+"conectado a *Source*."
 
 #: ../../source/applying_special_fx.rst:1540
 msgid ""
@@ -3445,9 +3518,10 @@ msgid ""
 "affected by the effect, and those not affected; while the Noise sets the "
 "regularity of the edge of the outline."
 msgstr ""
-"**Smoothness** permite definir la suavidad del pasaje entre las secciones de "
-"las líneas afectadas por el efecto y aquellas que no se encuentren afectadas; "
-"mientras que **Noise** permite definir la regularidad del borde del contorno."
+"**Smoothness** (Suavidad) permite definir la suavidad del pasaje entre las "
+"secciones de las líneas afectadas por el efecto y aquellas que no se encuentren "
+"afectadas; mientras que **Noise** (Ruido) permite definir la regularidad del "
+"borde del contorno."
 
 #: ../../source/applying_special_fx.rst:1545
 msgid "Palette Filter"
@@ -3462,9 +3536,8 @@ msgid ""
 "Filters the styles of the Source content palette according to the indexes "
 "specified in the Color Indexes text field."
 msgstr ""
-"Permite filtrar el contenido de la paleta del nodo conectado al conector "
-"*Source*, de acuerdo a los números de índice especificados en el campo **Color "
-"Indexes**."
+"Permite filtrar el contenido de la paleta del nodo conectado a *Source*, de "
+"acuerdo a los números de índice especificados en el campo **Color Indexes**."
 
 #: ../../source/applying_special_fx.rst:1550
 msgid ""
@@ -3472,11 +3545,11 @@ msgid ""
 "only Lines or only Areas, even if painted with the same styles; the Action "
 "option menu lets you choose if you want to keep or remove the specified styles."
 msgstr ""
-"**Apply To** permite escoger si se desea afectar **Lines and Areas** (líneas y "
-"áreas), **Lines** (sólo líneas) o **Areas** (sólo áreas), aunque estuvieran "
-"pintadas con los mismos estilos; **Action** permite escoger si se desea "
-"mantener (**Keep**) o eliminar (**Delete**) los estilos especificados en el "
-"campo **Color Indexes**."
+"**Apply To** (Aplicar a) permite escoger si se desea afectar **Lines and "
+"Areas** (líneas y áreas), **Lines** (sólo líneas) o **Areas** (sólo áreas), "
+"aunque estuvieran pintadas con los mismos estilos; **Action** (Acción) permite "
+"escoger si se desea mantener (**Keep**) o eliminar (**Delete**) los estilos "
+"especificados en el campo **Color Indexes**."
 
 #: ../../source/applying_special_fx.rst:1555
 msgid "Pinned Texture"
@@ -3492,6 +3565,9 @@ msgid ""
 "that are painted with styles whose indexes are specified in the Color Indexes "
 "text field."
 msgstr ""
+"Permite distorsionar el contenido del nodo conectado a *Texture* y aplicarlo a "
+"las áreas del contenido del nodo conectado a *Source*, pintadas con los estilos "
+"cuyos índices se especifiquen en el campo **Color Indexes**."
 
 #: ../../source/applying_special_fx.rst:1560
 msgid ""
@@ -3499,6 +3575,10 @@ msgid ""
 "Distort <free_distort>`  ) and the texture can be applied like in the Texture "
 "effect (see below)."
 msgstr ""
+"La distorsión puede ser producida de igual modo que en el efecto **Free "
+"Distort** (ver  :ref:`Free Distort (Distorsión libre) <free_distort>`  ) y la "
+"textura se aplicará de igual modo que al usar el efecto **Texture** (ver más "
+"abajo)."
 
 #: ../../source/applying_special_fx.rst:1565
 msgid "Texture"
@@ -3513,12 +3593,17 @@ msgid ""
 "Applies the Texture node content to the Source content lines and areas that are "
 "painted with styles whose indexes are specified in the Color Indexes text field."
 msgstr ""
+"Permite aplicar el contenido del nodo conectado a *Texture* a las líneas y "
+"áreas del contenido del nodo conectado a *Source*, pintadas con los estilos "
+"especificados en el campo **Color Indexes**."
 
 #: ../../source/applying_special_fx.rst:1570
 msgid ""
 "As the texture node content can be animated as you like, this effect allows you "
 "to generate animated texture as well."
 msgstr ""
+"Dado que el contenido del nodo conectado a *Texture* podrá ser animado como se "
+"desee, este efecto también permitirá generar texturas animadas."
 
 #: ../../source/applying_special_fx.rst:1572
 msgid ""
@@ -3526,6 +3611,9 @@ msgid ""
 "specified styles (Keep) or to apply it to all styles except for the specified "
 "ones (Delete)."
 msgstr ""
+"La opción **Action** (Acción) permite elegir lo siguiente: (**Keep**) aplicar "
+"la textura a los estilos especificados; (**Delete**) aplicar la textura a todos "
+"los estilos, salvo los especificados."
 
 #: ../../source/applying_special_fx.rst:1574
 msgid ""
@@ -3537,6 +3625,16 @@ msgid ""
 "the Add, Subtract or Multiply mode are selected, you can also set the Value of "
 "the effect."
 msgstr ""
+"**Mode** (Modo) permite definir cómo será aplicado el contenido del nodo de la "
+"textura: **Texture** (Textura) usará la textura para reemplazar a los estilos "
+"seleccionados; **Pattern** (Patrón) conservará los colores originales, pero "
+"variará su luminosidad de acuerdo a la luminosidad de la textura; **Add** "
+"(Sumar), **Subtract** (Sustraer), **Multiply** (Multiplicar), **Lighten** "
+"(Aclarar) y **Darken** (Oscurecer) definirán cómo se aplicará la textura sobre "
+"los colores originales (ver  :ref:`Layer Blending (Mezcla de "
+"capas)<layer_blending>`  ). En caso de que los modos Add, Subtract o Multiply "
+"estuvieran seleccionados, también será posible definir el parámetro **Value** "
+"(Valor) de dichos efectos."
 
 #: ../../source/applying_special_fx.rst:1576
 msgid ""
@@ -3544,6 +3642,10 @@ msgid ""
 "apply the Tile effect to the texture column before linking it to the Texture "
 "node (see  :ref:`Tile <tile>`  )."
 msgstr ""
+"Para repetir la imagen de textura y hacer un mosaico con ella (para crear así "
+"una textura más grande), será posible aplicar el efecto **Tile** a la columna "
+"de la textura, *antes de conectarla* al nodo del efecto Texture (ver  :ref:"
+"`Tile (Mosaico) <tile>`  )."
 
 #: ../../source/applying_special_fx.rst:1582
 msgid "Shaders"
@@ -3559,6 +3661,15 @@ msgid ""
 "shaders. Refer to the readme.txt file there for further s on editing or "
 "creating new shader fxs."
 msgstr ""
+"OpenToonz tiene soporte para el procesamiento de efectos acelerados por "
+"hardware. Estos sombreadores son pequeños programas compilados para una unidad "
+"de procesamiento gráfico (GPU) que permiten sacar provecho de arquitecturas de "
+"un muy alto nivel de paralelismo como las de las placas gráficas modernas, para "
+"ejecutarlos con extrema rapidez. Los efectos de sombreado de OpenToonz se "
+"encuentran escritos en el lenguaje OpenGL Shading Language (GLSL), y se "
+"encuentran ubicados en la carpeta OpenToonz stuff/library/shaders. Consultar el "
+"archivo ``readme.txt`` ubicado allí para obtener más detalles (en inglés) "
+"acerca de cómo editar o crear nuevos efectos de sombreado."
 
 #: ../../source/applying_special_fx.rst:1588
 msgid "Caustic"
@@ -3574,6 +3685,9 @@ msgid ""
 "water surface. Sets the color of the water defining the RGBA values of the "
 "Water Color parameter."
 msgstr ""
+"Crea en la columna/capa seleccionada una simulación de reflexión de luz sobre "
+"la superficie del agua. Permite definir el color del agua, mediante los valores "
+"RVAα del parámetro **Water Color** (Color del agua)."
 
 #: ../../source/applying_special_fx.rst:1598
 msgid "Fireball"
@@ -3586,6 +3700,8 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:1601
 msgid "Create in the selected column a ball of flames erupting from a point."
 msgstr ""
+"Permite crear en la columna/capa seleccionada una bola de fuego, haciendo "
+"erupción desde un punto."
 
 #: ../../source/applying_special_fx.rst:1603
 msgid ""
@@ -3594,6 +3710,12 @@ msgid ""
 "Evolution value; by setting the variation of this value between two keys, you "
 "set how much the displacement map image changes during the animation."
 msgstr ""
+"Es posible definir un rango de colores mediante los valores RVAα de los "
+"parámetros **Color 1** y **Color 2**. Se podrá controlar el estado de evolución "
+"de la imagen del mapa de desplazamiento mediante el parámetro **Evolution** "
+"(Evolución); definiendo la variación de este valor entre dos fotogramas clave, "
+"será posible definir qué tanto cambiará la imagen del mapa de desplazamiento "
+"durante el transcurso de la animación."
 
 #: ../../source/applying_special_fx.rst:1608
 msgid "Glitter"
@@ -3607,6 +3729,8 @@ msgstr ""
 msgid ""
 "Adds cross-shaped light rays extending from the brightest part of an image."
 msgstr ""
+"Permite incorporar rayos de luz en forma de cruz, a partir de las áreas más "
+"brillantes de la imagen."
 
 #: ../../source/applying_special_fx.rst:1613
 msgid ""
@@ -3619,6 +3743,16 @@ msgid ""
 "orthogonal to the direction of light rays. Higher values will produce broader "
 "rays."
 msgstr ""
+"**Threshold** (Umbral) permite especificar el valor de corte superior en el "
+"brillo de la imagen original. Valores más altos harán que se agregue brillo a "
+"las partes más oscuras de la imagen. **Britness** (Brillo) permite especificar "
+"el brillo de los rayos de luz superpuestos; **Radius** (Radio) permite "
+"especificar qué tanto se extenderán los rayos de luz a partir de los píxeles "
+"brillantes originales; **Angle** (Ángulo) permite especificar el ángulo de las "
+"cruces de luz. Un valor de 0 significará que las cruces de luz generadas "
+"estarán alineadas a los ejes principales. **Halo** es la cantidad de dispersión "
+"de luz perpendicular a los rayos de luz. Valores mayores producirán rayos más "
+"anchos."
 
 #: ../../source/applying_special_fx.rst:1618
 msgid "Star Sky"
@@ -3634,6 +3768,9 @@ msgid ""
 "with overlayed clouds. Sets the color of the overlayed clouds defining the RGBA "
 "values of the Cloud Color parameter."
 msgstr ""
+"Permite crear una nueva columna/capa con un cielo estrellado sencillo, con "
+"brillo variable y nubes superpuestas. **Cloud Color** (Color de las nubes) "
+"permite definir el color de las nubes a través de sus valores RVAα."
 
 #: ../../source/applying_special_fx.rst:1623
 msgid ""
@@ -3641,10 +3778,16 @@ msgid ""
 "value; by setting the variation of this value between two keys, you set how "
 "much the displacement map image changes during the animation."
 msgstr ""
+"Es posible controlar el estado del desplazamiento de las nubes mediante el "
+"parámetro **Evolution** (Evolución); definiendo la variación de este valor "
+"entre dos fotogramas clave, se podrá controlar el cambio del mapa de "
+"desplazamiento durante el transcurso de la animación."
 
 #: ../../source/applying_special_fx.rst:1625
 msgid "Use the Brightness parameters to define the brightness of the stars."
 msgstr ""
+"Usar el parámetro **Brightness** (Brillo) para definir el brillo de las "
+"estrellas."
 
 #: ../../source/applying_special_fx.rst:1630
 msgid "Sun Flare"
@@ -3663,6 +3806,14 @@ msgid ""
 "parameter sets the direction of the rays and the Bias parameter define the size "
 "of the rays. Use the Sharpness parameter to make the rays sharper or smoother."
 msgstr ""
+"Permite crear una nueva columna/capa con rayos de luz de color, emanando desde "
+"el centro en un gradiente radial. Es posible definir el color de los rayos "
+"solares usando los valores RVAα del parámetro **Color**. La cantidad de rayos "
+"estará definida por el parámetro **Rays** (Rayos), mientras que su brillo "
+"estará definido por el parámetro **Intensity** (Intensidad). **Angle** (Ángulo) "
+"permite definir la dirección de los rayos y **Bias** (Desviación) definir el "
+"tamaño de los rayos. USar el parámetro **Sharpness** (Definición) para "
+"controlar la apariencia de los rayos."
 
 #: ../../source/applying_special_fx.rst:1638
 msgid "Wavy"
@@ -3680,6 +3831,12 @@ msgid ""
 "using the Evolution value; by setting the variation of this value between two "
 "keys, you set how much the displacement map image changes during the animation."
 msgstr ""
+"Permite crear una nueva columna/capa con un patrón 'ondulado' de color. Los "
+"colores serán definidos mediante los valores RVAα de los parámetros Color 1 y "
+"Color 2. El estado del mapa de desplazamiento puede ser controlado mediante el "
+"uso del parámetro **Evolution** (Evolución); controlando la variación de este "
+"valor entre dos fotogramas clave, se podrá definir qué tanto cambiará la imagen "
+"durante el transcurso de la animación."
 
 #: ../../source/applying_special_fx.rst:1646
 msgid "GPU Radial Blur"
@@ -3695,6 +3852,11 @@ msgid ""
 "(X) and vertical (Y) coordinates, starting from an unaffected inner area "
 "defined by the Safe Radius. The Blur Factor parameter sets the amount of blur."
 msgstr ""
+"Permite crear un efecto de desenfoque radial cuyo origen es definido por los "
+"valores X (horizontal) e Y (vertical) del parámetro **Center** (Centro), "
+"partiendo de un área interior no afectada definida por el parámetro **Safe "
+"Radius** (Radio seguro). El parámetro **Blur** (Desenfoque) permite definir el "
+"nivel de desenfoque."
 
 #: ../../source/applying_special_fx.rst:1654
 msgid "GPU Spin Blur"
@@ -3711,3 +3873,9 @@ msgid ""
 "from an unaffected inner area defined by the Safe Radius. The Blur parameter "
 "sets the amount of blur."
 msgstr ""
+"Permite crear un efecto de desenfoque de giro, como si el contenido del nodo "
+"conectado a *Source* estuviera girando alrededor del centro definido por los "
+"valores X (horizontal) e Y (vertical) del parámetro **Center** (Centro), "
+"partiendo de un área interior no afectada definida por el parámetro **Safe "
+"Radius** (Radio seguro). El parámetro **Blur** (Desenfoque) permite definir el "
+"nivel de desenfoque."
