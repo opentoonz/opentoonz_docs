@@ -15,11 +15,11 @@ Using the FX Schematic
 ----------------------
 In the FX schematic all columns/layers are displayed as nodes having an output port connected to the Xsheet node: this means that their content is part of the scene and is rendered as it is.
 
-When effects are added, they are displayed as nodes as well, with ports to create links that let you set the way the FX affect the scene contents. 
+When effects are added, they are displayed as nodes as well, with ports to create links that let you set the way the effect modify the scene contents. 
 
 Column/layer nodes have the **Camera Stand** (|camera_stand|) and the **Render** (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column (or Timeline layer) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). Effects nodes only have the **Render** toggle (|preview|) allowing you to include or exclude temporarily the effect in the rendering.
 
-Nodes can be easily selected and arranged. When selected, nodes are highlighted in white; the current node has its label in yellow.
+Nodes can be easily selected and arranged. When selected, nodes are highlighted in *white*; the *current* node has its label in *yellow*.
 
 .. tip:: **To access the FX Schematic:**
 
@@ -61,7 +61,7 @@ Nodes can be easily selected and arranged. When selected, nodes are highlighted 
 
     - Click and drag to select a group of nodes.
 
-    - Ctrl-click (PC) or Cmd-click (Mac) to add a node to, or remove it from the selection.
+    - Ctrl-click (PC) or Cmd-click (macOS) to add a node to, or remove it from the selection.
 
     .. note:: *Links* can be selected together with nodes (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  ).
 
@@ -86,7 +86,7 @@ It's possible to group several nodes into one single node, in order to better ma
 
     - Right-click any selected node and choose **Group** from the menu that opens.
     
-    - Press the **Ctrl + G** (PC) or **Cmd + G** (Mac) shortcut.
+    - Press the **Ctrl-G** (PC) or **Cmd-G** (macOS) shortcut.
 
 .. tip:: **To open a Group:**
 
@@ -100,7 +100,7 @@ It's possible to group several nodes into one single node, in order to better ma
 
 .. tip:: **To release a Group:**
 
-    Right-click the Group and choose **Ungroup** from the menu that opens, or press the shortcut **Ctrl + Shift + G** (PC) or **Cmd + Shift + G** (Mac).
+    Right-click the Group and choose **Ungroup** from the menu that opens, or press the shortcut **Ctrl-Shift-G** (PC) or **Cmd-Shift-G** (macOS).
 
 
 .. _inserting_special_fx:
@@ -113,7 +113,7 @@ You can **Insert** effects to selected nodes, **Add** effects to the Schematic, 
 
 When *inserting* effects, they will be placed along the link that starts from the selected node output port; when *adding* effects, they will be placed at the end of a new link that will start from the selected node output port.
 
-In case several nodes are selected, the effect will be added/inserted for *each* selected node, but all the added/inserted effects will be *Linked*, and connected visually by a dashed line. This means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately.
+In case several nodes are selected, the effect will be added/inserted for *each* selected node, but all the added/inserted effects will be *Linked*, and connected visually by a *green* line. This means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately.
 
 To globally apply effects it's possible to use the **Xsheet** node as if it were a standard column node (representing the whole content of the scene) and inserting effects from there.
 
@@ -135,7 +135,7 @@ To affect a column/layer, they have to be inserted into the link from the column
 
 For example in case of a Matte In effect, the column to be matted has to be linked to the *Source* input port, the matte column has to be linked to the *Matte* input port, and the output port has to be connected to the Xsheet node.
 
-- **Effects that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These effect nodes have to be connected to the Xsheet node to be rendered, or can be connected to other effect nodes.
+- **Effects that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns (and Timeline layers) and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These effect nodes have to be connected to the Xsheet node to be rendered, or can be connected to other effect nodes.
 
  |Generated_FX_Example| 
 
@@ -143,7 +143,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     Do one of the following:
 
-    - Choose Xsheet  →  **New FX**.
+    - Choose Xsheet  →  **New FX...**.
 
     - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window.
 
@@ -189,7 +189,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
 .. tip:: **To rename a node:**
 
-    **Ctrl + double-click** (PC) or **Cmd + double-click** (Mac) the node name and type a new name.
+    **Ctrl + double-click** (PC) or **Cmd + double-click** (macOS) the node name and type a new name.
 
 
 .. _editing_the_fx_schematic:
@@ -230,7 +230,7 @@ When pasting a copied/cut selection, several options are available:
 
     - Click and drag to select a group of nodes and links.
 
-    - Ctrl-click (PC) or Cmd-click (Mac) to add a node or a link to, or remove it from the selection.
+    - Ctrl-click (PC) or Cmd-click (macOS) to add a node or a link to, or remove it from the selection.
 
 .. tip:: **To delete links between nodes:**
 
@@ -305,7 +305,7 @@ In the FX Schematic by default the Xsheet node is connected to an Output node: t
 
 The scene rendering can be limited to a specific node of the schematic by creating additional Output nodes, connected to the node where you want to limit the rendering. 
 
-When more than one Output node is defined, you can set which is the active one (the one that will be considered for previewing or rendering the scene); the active output node is displayed in *blue*, while the others in *grey*. 
+When more than one Output node is defined, you can set which is the *active* one (the one that will be considered for previewing or rendering the scene); the active output node is displayed in *blue*, while the others in *grey*. 
 
 .. tip:: **To limit the output to a specific node:**
 
@@ -323,7 +323,7 @@ When more than one Output node is defined, you can set which is the active one (
 
     - Click the **New Output** button (|output|) in the bottom bar of the schematic window.
 
-    - Right-click in the stage and choose **New Output** from the menu that opens.
+    - Right-click in the schematic and choose **New Output** from the menu that opens.
 
 .. tip:: **To connect a node to an Output node:**
 
@@ -353,15 +353,15 @@ Effects parameters and their animation can be controlled in the **FX Settings** 
 At the bottom of the window a *preview area* is available to check the result of the applied effect: you can expand it or contract it, activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
 The preview area can be expanded or contracted by clicking on the **+**/**-** symbol to the left of the **Swatch Viewer** text, at the bottom left of the FX Settings window.
 
-Parameters can be animated by setting key values at specific frames. A **Set Key** button (|key|) is available in the preview area, at the bottom bar of the window, to set key values for *all* of the parameters. For each of the parameters that can be animated there is also a specific **Set Key** button (|key|) to the right of the parameter name, in order to set keyframes for each parameter independently. 
+Parameters can be animated by setting keyframes at specific frames. A **Set Key** button (|key|) is available in the preview area, at the bottom bar of the window, to set keyframes for *all* of the parameters. For each of the parameters that can be animated there is also a specific **Set Key** button (|key|) to the right of the parameter name, in order to set keyframes for each parameter independently. 
 
 The **Set Key** button (|key|) may have the following colors:
 
-    - It is **grey** when no key values for any parameter is defined at the current frame.
+    - It is **grey** when no keyframes for any parameter is defined at the current frame.
 
-    - It is **blue-striped** when key values are defined at least for one parameter.
+    - It is **blue-striped** when keyframes are defined at least for one parameter.
 
-    - It is **blue** when key values are defined for all the parameters.
+    - It is **blue** when keyframes are defined for all the parameters.
 
 The parameter specific **Set Key** button (|key|) may have the following colors:
 
@@ -383,7 +383,7 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     Do one of the following:
 
-    - Right-click the effect node, and choose **Edit FX** from the menu that opens.
+    - Right-click the effect node, and choose **Edit FX...** from the menu that opens.
 
     - Double-click the effect node.
 
@@ -397,45 +397,45 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     - Type the frame number or use the **Next Frame** and **Previous Frame** buttons available in the bottom bar of the window.
 
-    - Move the current frame cursor in the Xsheet or in the Function Editor.
+    - Move the current frame cursor in the Xsheet/Timeline or in the Function Editor.
 
-    - Use the frame bar or the playback buttons in the bottom bar of the viewer.
+    - Use the frame bar or the playback buttons in the bottom bar of the Viewer.
 
 .. tip:: **To set keyframes for all the effect parameters at the current frame:**
 
     1. Do one of the following:
 
-    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from grey to blue and current values become keyframes for all the parameters at the current frame. 
+    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from *grey* to *blue* and current values become keyframes for all the parameters at the current frame. 
 
-    - If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from blue striped to blue and current values become keyframes for all the parameters at the current frame. 
+    - If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from *blue-striped* to *blue* and current values become keyframes for all the parameters at the current frame. 
 
     2. Define the values for the parameters.
 
 .. tip:: **To set keyframes for a specific parameter at the current frame:**
 
-    1. If the current frame does not have a keyframe for the parameter, click the squared **Set Key** button (|key|) to the right of the parameter: it turns from grey to orange, and the current value becomes a keyframe for the parameter at the current frame.
+    1. If the current frame does not have a keyframe for the parameter, click the squared **Set Key** button (|key|) to the right of the parameter: it turns from *grey* to *orange*, and the current value becomes a keyframe for the parameter at the current frame.
 
     2. Define the value for the parameter.
 
-.. note:: If the current frame is not a keyframe for the parameter, and you changed it, the **Set Key** button (|key|) to the right of the parameter turns yellow. Click it to set the key.
+.. note:: If the current frame is not a keyframe for the parameter, and you changed it, the **Set Key** button (|key|) to the right of the parameter turns *yellow*. Click it to set the key.
 
 .. tip:: **To remove all keyframes for the effect parameters at the current frame:**
 
     Do one of the following:
 
-    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from blue to grey.
+    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from *blue* to *grey*.
 
-    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from blue-striped to blue (as you set keys for all the parameters); with the second click, it turns from blue to grey.
+    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from *blue-striped* to *blue* (as you set keys for all the parameters); with the second click, it turns from *blue* to *grey*.
 
 .. tip:: **To remove a keyframe for a specific parameter at the current frame:**
 
-    Click the **Set Key** button (|key|) to the right of the parameter: it turns from grey to orange.
+    Click the **Set Key** button (|key|) to the right of the parameter: it turns from *grey* to *orange*.
 
 .. tip:: **To navigate frames where keyframes are defined:**
 
     Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the side of the **Set Key** button.
 
-.. tip:: **To activate/deactivate the preview area:**
+.. tip:: **To activate/deactivate the preview:**
 
     Do any of the following:
 
@@ -453,7 +453,7 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     - Click and drag the separator collapsed to the window border toward the window center to display again the preview area.
 
-    .. note:: The A/R of the preview area depends on the A/R of the current camera
+    .. note:: The A/R of the preview area depends on the A/R of the current camera.
 
 .. tip:: **To change the background color of the preview area:**
 
@@ -474,17 +474,17 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
 Using Effects Gadgets
 '''''''''''''''''''''
-Some effects parameters related to positions or dimensions have some gadgets available in the viewer in order to be set by using the camera box and the scene elements as a reference. For example the Radial Gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient.
+Some effects parameters related to positions or dimensions have some gadgets available in the Viewer in order to be set by using the camera box and the scene elements as a reference. For example the Radial Gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient.
 
 As soon as an effect node is selected in the schematic, the **Animate** tool becomes the current tool and the related effect gadgets, if available, are shown. The Animate tool settings will refer to the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:`Animating Objects <animating_objects>`  ).
 
-.. tip:: **To visualize effects gadgets in the viewer:**
+.. tip:: **To visualize effects gadgets in the Viewer:**
 
     Select the effect node in the FX Schematic.
 
 .. tip:: **To edit effects gadgets:**
 
-    Click and drag the effects gadgets visible in the viewer. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing an effect gadget. 
+    Click and drag the effects gadgets visible in the Viewer. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing an effect gadget. 
 
 .. note:: Some gadgets have a handle for reference; however any point along the gadget shape can be clicked and dragged.
 
@@ -597,7 +597,7 @@ When saved, the macro effect will be available in the FX Browser and in the drop
 
     Do one of the following:
 
-    - Right-click the macro node and choose **Edit FX** from the menu that opens.
+    - Right-click the macro node and choose **Edit FX...** from the menu that opens.
 
     - Right-click the macro node and choose **Open Macro FX** from the menu that opens, then edit the macro effect nodes.
 
@@ -634,7 +634,7 @@ Checkerboard
 
 Creates in the selected column a layer with a checkerboard defined by two Colors, and a grid Size. 
 
-.. note:: The grid size can also be set by using a square gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The grid size can also be set by using a square gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _color_card:
 
@@ -690,7 +690,7 @@ Blurs the Source content according to a specific Intensity along a specific dire
 
 The Bidirectional option applies the blur also on the other side of the direction.
 
-.. note:: The intensity and the angle can also be set by using an arrow gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The intensity and the angle can also be set by using an arrow gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. note:: The directional blur does not depend on the movement and the speed of the column to which it is applied. 
 
@@ -720,7 +720,7 @@ Radial Blur
 
 Blurs along radial lines whose origin is the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius. 
 
-.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
 
 .. _spin_blur:
 
@@ -730,7 +730,7 @@ Spin Blur
 
 Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius.
 
-.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+.. note:: The center and the radius can be also set by using a point and a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
 
 
 .. _distort:
@@ -750,7 +750,7 @@ The Mode option menu lets you set the way the distortion is applied: Bilinear di
 
 To better set the origin position for each point, you can use the Deactivate option that lets you see the image without distortion.
 
-.. note:: The position of the four points and their origins can be also set by using arrow gadgets with handles at the ends in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
+.. note:: The position of the four points and their origins can be also set by using arrow gadgets with handles at the ends in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
 
 .. _linear_wave:
 
@@ -778,7 +778,7 @@ The amount of distortion is controlled by the Intensity value; the , by the Size
 
 The Alpha option adds also a transparency displacement to fully-opaque images.
 
-.. note:: The horizontal and vertical offset can also be set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The horizontal and vertical offset can also be set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _random_wave:
 
@@ -794,7 +794,7 @@ The position of the displacement map image can be shifted along the Horizontal a
 
 The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
 
-.. note:: The position along the horizontal and vertical axis can also be set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The position along the horizontal and vertical axis can also be set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _ripple:
 
@@ -808,7 +808,7 @@ The Center of the circular waves can be set with a Horizontal and Vertical value
 
 The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
 
-.. note:: The center and the period can be also set by using a point and a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
+.. note:: The center and the period can be also set by using a point and a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
 
 .. _warp:
 
@@ -834,7 +834,7 @@ Diamond Gradient
 
 Creates in the selected column a gradient, that goes hyperbolically from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
-.. note:: The size can also be set by using a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The size can also be set by using a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _four_points_gradient:
 
@@ -844,7 +844,7 @@ Four Points Gradient
 
 Creates in the selected column a gradient defined by four Colors, defined by Red, Green, Blue and Alpha values, whose source Points can be placed where needed defining horizontal (X) and vertical (Y) coordinates.
 
-.. note:: The source points can also be set by using point gadgets in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
+.. note:: The source points can also be set by using point gadgets in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
 
 .. _linear_gradient:
 
@@ -856,7 +856,7 @@ Creates in the selected column a gradual blend between two Colors defined by Red
 
 You can also add a Distortion Wave on the linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
 
-.. note:: The size can also be set by using a gadget with two handles at the ends in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The size can also be set by using a gadget with two handles at the ends in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _multi_linear_gradient:
 
@@ -868,7 +868,7 @@ Creates in the selected column a multi linear gradient defined by a color spectr
 
 You can also add a Wave distortion on the multi linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
 
-.. note:: The period can also be set by using a gadget with two handles at the ends in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )
+.. note:: The period can also be set by using a gadget with two handles at the ends in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )
 
 .. _multi_radial_gradient:
 
@@ -878,7 +878,7 @@ Multi Radial Gradient
 
 Creates in the selected column a multi radial gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
 
-.. note:: The period can be also set by using a circle gadget with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The period can be also set by using a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _radial_gradient:
 
@@ -888,7 +888,7 @@ Radial Gradient
 
 Creates in the selected column a gradual blend between two colors, defined by Red, Green, Blue and Alpha values, shading them in a circular pattern. The Inner Size controls the area where the gradient between the two colors begins; the Outer Size where it ends.
 
-.. note:: The inner and outer sizes can be also set by using circle gadgets with a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The inner and outer sizes can be also set by using circle gadgets with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _spiral:
 
@@ -906,7 +906,7 @@ Square Gradient
 
 Creates in the selected column a square gradient, that goes linearly from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
-.. note:: The size can also be set by using a rotated square gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The size can also be set by using a rotated square gadget with handles in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 
 .. _image_adjust:
@@ -1044,7 +1044,7 @@ Add
 
 Adds the red, green and blue values of the Up node content to the Down one, pixel by pixel. 
 
-If no Down node is defined, the adding operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
+If no Down node is defined, the adding operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order.
 
 The Intensity value expresses the percentage of values used in the addition; a negative value defines a subtraction instead of an addition. 
 
@@ -1056,7 +1056,7 @@ Color Burn
 
 Darkens the pixel colors of the Down node content in order to reflect the color of the Up node content. The white in the Up node content does not affect the result.
 
-If no Down node is defined, the color burning operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
+If no Down node is defined, the color burning operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order.
 
 .. _color_dodge:
 
@@ -1066,7 +1066,7 @@ Color Dodge
 
 Brightens the pixel colors of the Down node content in order to reflect the color of the Up node content. The black in the up node content does not affect the result.
 
-If no Down node is defined, the color dodging operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
+If no Down node is defined, the color dodging operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order.
 
 .. _cross_dissolve:
 
@@ -1084,7 +1084,7 @@ Darken
 
 Compares the pixels color of the Up and Down node content and selects the darker one as the result color. The white in the Up node content does not affect the result; the black gives a black result.
 
-If only one node is defined, the darkening operation is applied to all the images underlaying its content according to the Xsheet layering order.
+If only one node is defined, the darkening operation is applied to all the images underlaying its content according to the Xsheet/Timeline layering order.
 
 .. _dissolve:
 
@@ -1102,7 +1102,7 @@ Lighten
 
 Compares the pixels color of the Up and Down node content and selects the lighter one as the result color. The black in the Up node content does not affect the result; the white gives a white result.
 
-If only one node is defined, the lightening operation is applied to all the images underlaying the connected node according to the Xsheet layering order.
+If only one node is defined, the lightening operation is applied to all the images underlaying the connected node according to the Xsheet/Timeline layering order.
 
 .. _local_transparency:
 
@@ -1124,7 +1124,7 @@ Multiplies the red, green, blue and alpha values of the connected noded content.
 
 The Intensity value expresses the percentage of values used in the multiplication. By activating the Alpha option, also the alpha information is considered.
 
-If only one node is defined, the multiplying operation is applied to all the images underlaying theupper node content according to the Xsheet layering order.
+If only one node is defined, the multiplying operation is applied to all the images underlaying theupper node content according to the Xsheet/Timeline layering order.
 
 .. _over:
 
@@ -1132,7 +1132,7 @@ Over
 ~~~~
  |Over| 
 
-Puts the connected nodes one over the other. Each time a node is connected a new port will be added, this way the overlap of columns can be defined regardless from the Xsheet columns order.The columns order is up to bottom, where the column connected on the upper port is over the other ones.This can be used when you need to combine several nodes in a single one, for example to mask several columns with the same mask.
+Puts the connected nodes one over the other. Each time a node is connected a new port will be added, this way the overlap of columns can be defined regardless from the Xsheet columns (or Timeline layers) order. The contents order is up to bottom, where the node connected on the upper port will be over the other ones. This can be used when you need to combine several nodes in a single one, for example to mask several columns with the same mask.
 
 .. _premultiply:
 
@@ -1152,7 +1152,7 @@ Screen
 
 Combines by multiplying the inverse of the pixels color of the Up and Down node content, giving a result color that is lighter than both Up and Down node pixels, except when one of them equals 0. The black in the Up node content does not affect the result; the white gives a white result.
 
-If no Down node is defined, the screening operation is applied to all the images underlaying the Up node content according to the Xsheet layering order.
+If no Down node is defined, the screening operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order.
 
 .. _subtract:
 
@@ -1162,7 +1162,7 @@ Subtract
 
 Subtracts the red, green and blue values of the Up node content from the Down one, pixel by pixel. By activating the Alpha option, also the alpha information is considered. 
 
-If only one node is defined, the screening operation is applied to all the images underlaying connected node content according to the Xsheet layering order.
+If only one node is defined, the screening operation is applied to all the images underlaying connected node content according to the Xsheet/Timeline layering order.
 
 .. _transparency:
 
@@ -1218,7 +1218,7 @@ Glow
 
 Creates a glowing effect, using the Light node content as a light glowing on the node content connected to the Source input port. The Blur and Brightness of the glowing can be set; the Light node content can be also faded to a color defined by Red, Green and Blue values, according to the set Intensity.
 
-If no Source node is defined, the glowing is applied to all the images underlaying the Light node content according to the Xsheet layering order.
+If no Source node is defined, the glowing is applied to all the images underlaying the Light node content according to the Xsheet/Timeline layering order.
 
 .. _light_spot:
 
@@ -1228,7 +1228,7 @@ Light Spot
 
 Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Reg, Green, Blue and Alpha values. The Softness sets the light diffusion in the area outside the spot.
 
-.. note:: The width and height can be also set by using a box gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
+.. note:: The width and height can be also set by using a box gadget with handles in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. _raylit:
 
@@ -1244,7 +1244,7 @@ Properties of the light can be set by defining the Intensity, the Color, that is
 
 The Invert option switches the casting of rays of light from the outside of the image to the inside.
 
-.. note:: The center can be also set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview.
+.. note:: The center can be also set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview.
 
 .. note:: The Source node content needs to have a significant alpha channel in order to have an effective result.
 
@@ -1380,7 +1380,7 @@ This effect allow for the creation of editable and animatable text, using the fo
 
 - **Source**, specifies the text source. You can choose one from:
 
-  - **Nearby Note Column**: Get the text from note level column put on the directly left side of the Text Iwa Fx Column in the Xsheet (For Timeline view, the Note Level layer just under the Fx Column is used). If the column does not contain Note Level or the cell is empty, text will not be rendered.
+  - **Nearby Note Column**: Get the text from Note Level column put on the directly left side of the Text Iwa effect column, in the Xsheet (for Timeline view, the Note Level layer just under the effect layer is used). If the respective column/layer does not contain a Note Level or the cell is empty, text will not be rendered.
 
    |text_2| 
     
@@ -1580,7 +1580,7 @@ The Mode option menu lets you set how the texture node content will be applied: 
 
 Shaders
 '''''''
-OpenToonz enables support for special fxs rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices to execute with extreme speed. OpenToonz's shader fxs are written in the OpenGL Shading Language (GLSL), and are located in PROJECTROOT/library/shaders. Refer to the readme.txt file there for further s on editing or creating new shader fxs.
+OpenToonz enables support for special fxs rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices to execute with extreme speed. OpenToonz's shader fxs are written in the OpenGL Shading Language (GLSL), and are located in ``OpenToonz stuff/library/shaders``. Refer to the readme.txt file there for further s on editing or creating new shader fxs.
 
 .. _caustic:
 
@@ -1588,7 +1588,7 @@ Caustic
 ~~~~~~~
  |Caustic| 
 
-Create in the selected column a simulation of the reflection of light on a water surface. Sets the color of the water defining the RGBA values of the Water Color parameter. 
+Creates a new column/layer containing a simulation of the reflection of light on a water surface. Sets the color of the water defining the RGBA values of the Water Color parameter. 
 
 The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
 
@@ -1598,7 +1598,7 @@ Fireball
 ~~~~~~~~
  |Fireball| 
 
-Create in the selected column a ball of flames erupting from a point.
+Creates a new column/layer containing a ball of flames erupting from a point.
 
 A range of colors can be defined setting the RGBA values of color 1 and color 2. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
 
@@ -1618,7 +1618,7 @@ Star Sky
 ~~~~~~~~
  |Star_Sky| 
 
-Creates, in the selected column, a simple star field with variable brightness with overlayed clouds. Sets the color of the overlayed clouds defining the RGBA values of the Cloud Color parameter. 
+Creates a new column/layer containing a simple star field with variable brightness with overlayed clouds. Sets the color of the overlayed clouds defining the RGBA values of the Cloud Color parameter. 
 
 The stage of the stars displacement can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
 
@@ -1630,7 +1630,7 @@ Sun Flare
 ~~~~~~~~~
  |Sun_Flare| 
 
-Creates, in the selected column, rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Cloud Color parameter. The number of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use the Sharpness parameter to make the rays sharper or smoother.
+Creates a new column/layer containing rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Cloud Color parameter. The number of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use the Sharpness parameter to make the rays sharper or smoother.
 
 .. _wavy:
 
@@ -1638,7 +1638,7 @@ Wavy
 ~~~~
  |Wavy| 
 
-Creates a simple gradient with a colored 'wavy' pattern in the selected column.The waves colors are definied by setting the RGBA value of the Color and Color 2 parameters. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
+Creates a new column/layer containing a simple gradient with a colored 'wavy' pattern. The waves colors are definied by setting the RGBA values of the Color 1 and Color 2 parameters. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the animation.
 
 .. _gpu_radial_blur:
 
