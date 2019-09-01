@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-08-30 19:05-0300\n"
+"PO-Revision-Date: 2019-09-01 14:54-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -357,6 +357,15 @@ msgid ""
 "effect, an additional folder/submenu is available (see  :ref:`Creating Presets "
 "<creating_presets>`  )."
 msgstr ""
+"Es posible **Insertar** nodos de efectos, **Agregar** efectos al Diagrama de "
+"efectos, o **Reemplazar** nodos de efectos previamente agregados. Esto podrá "
+"ser realizado desde la ventana del **Explorador de efectos** o usando el menú "
+"contextual emergente al hacer clic derecho sobre los nodos o un área vacía del "
+"Diagrama de efectos. En ambos casos se desplegará una lista organizada en "
+"carpetas/submenúes conteniendo conjuntos de efectos relacionados; en caso de "
+"haber sido definidos *Ajustes prestablecidos* para un efecto, se desplegará una "
+"carpeta/sebmenú adicional con el mismo nombre de dicho efecto, conteniéndolos "
+"(ver  :ref:`Creación de ajustes prestablecidos <creating_presets>`  )."
 
 #: ../../source/applying_special_fx.rst:112
 msgid "|FX_Browser|"
@@ -368,6 +377,10 @@ msgid ""
 "the selected node output port; when *adding* effects, they will be placed at "
 "the end of a new link that will start from the selected node output port."
 msgstr ""
+"Al *insertar* efectos, éstos serán ubicados a lo largo del vínculo que comienza "
+"en el conector de salida del nodo seleccionado; al *agregar* efectos, éstos "
+"serán ubicados al final de un nuevo vínculo que comenzará en el conector de "
+"salida del nodo seleccionado."
 
 #: ../../source/applying_special_fx.rst:116
 msgid ""
@@ -377,6 +390,12 @@ msgid ""
 "edited, all the linked nodes will be edited as well, unless you break the link "
 "to start editing them separately."
 msgstr ""
+"En caso de que hubiera varios nodos seleccionados, el efecto será agregado/"
+"insertado en *cada uno* de los nodos seleccionados, y todos los efectos "
+"agregados/insertados estarán *Vinculados* y conectados entre sí por medio de "
+"una línea de color *verde*. Esto significará que cada vez que un efecto sea "
+"editado, todos los nodos vinculados al mismo cambiarán también, a menos que se "
+"decida deshacer el vínculo para comenzar a editarlos de forma independiente."
 
 #: ../../source/applying_special_fx.rst:118
 msgid ""
@@ -384,12 +403,17 @@ msgid ""
 "were a standard column node (representing the whole content of the scene) and "
 "inserting effects from there."
 msgstr ""
+"Para aplicar efectos de forma global también será posible usar el nodo "
+"**Planilla* como si se tratara del nodo de una columna/capa (pero representando "
+"a todo el contenido de la escena) e insertar efectos a partir de allí."
 
 #: ../../source/applying_special_fx.rst:120
 msgid ""
 "Three different types of effects can be used in the Schematic, each with a "
 "different type of node:"
 msgstr ""
+"Es posible usar tres tipos distintos de efectos en el Diagrama, cada uno de "
+"ellos utilizará una variedad distinta de nodo:"
 
 #: ../../source/applying_special_fx.rst:122
 msgid ""
@@ -397,6 +421,10 @@ msgid ""
 "a column; they are displayed as a yellow node with an input port on the left, "
 "labelled *Source*, and an output port on the right."
 msgstr ""
+"**Efectos básicos**, como el efecto Blur, que permiten modificar el contenido "
+"de una columna/capa; se presentarán como nodos de color *amarillo* con un "
+"conector de entrada a la izquierda, etiquetado como *Source*, y un conector de "
+"salida del lado izquierdo."
 
 #: ../../source/applying_special_fx.rst:124
 msgid "|Basic_FX_Example|"
@@ -409,12 +437,19 @@ msgid ""
 "the effect input port, and the effect node output port is connected to the "
 "Xsheet node."
 msgstr ""
+"Para afectar a una columna/capa, deberán ser insertados en el vínculo que une a "
+"dicho nodo con el nodo de la Planilla, de manera que el nodo de la columna/capa "
+"quede conectado al conector de entrada del efecto y el conector de salida del "
+"efecto quede conectado al nodo de la Planilla."
 
 #: ../../source/applying_special_fx.rst:128
 msgid ""
 "If several effects are applied in a chain, they will be applied one after the "
 "other, following the order from the column/layer node to the Xsheet node."
 msgstr ""
+"En caso de que se hubieran aplicado varios efectos encadena, serán aplicados "
+"uno después del otro, siguiendo el orden desde el nodo de la columna/capa hacia "
+"el de la Planilla."
 
 #: ../../source/applying_special_fx.rst:130
 msgid ""
@@ -423,6 +458,10 @@ msgid ""
 "with a yellow node with two or more input ports on the left, and one output "
 "port on the right."
 msgstr ""
+"**Efectos combinados**, como el efecto Matte In, que permiten modificar el "
+"contenido de una columna/capa de acuerdo al contenido de otras columnas/capas; "
+"se presentarán como nodos de color *amarillo* con dos o más conectores de "
+"entrada a la izquierda y un conector de salida del lado izquierdo."
 
 #: ../../source/applying_special_fx.rst:132
 msgid ""
@@ -432,6 +471,12 @@ msgid ""
 "columns/layers are connected to the other input ports, whose labels depend on "
 "the effect; the effect node output port has to be connected to the Xsheet node."
 msgstr ""
+"Para afectar a una columna/capa, deberán ser insertados en el vínculo que une a "
+"dicho nodo con el nodo de la Planilla, de manera que el nodo de la columna/capa "
+"quede conectado al conector de entrada *Source* del efecto, a la vez que otras "
+"columnas/capas estarán conectadas a los otros conectores de entrada, cuyos "
+"nombres dependerán de cada efecto; el conector de salida del efecto deberá "
+"estar conectado al nodo de la Planilla."
 
 #: ../../source/applying_special_fx.rst:134
 msgid "|Combined_FX_Example|"
@@ -443,6 +488,11 @@ msgid ""
 "linked to the *Source* input port, the matte column has to be linked to the "
 "*Matte* input port, and the output port has to be connected to the Xsheet node."
 msgstr ""
+"Por ejemplo, en el caso del efecto Matte In, la columna/capa a la que se le "
+"controlará su opacidad deberá estar conectada al conector de entrada *Source*, "
+"la columna que contenga la información de opacidad deberá estar conectada al "
+"puerto de entrada llamado *Matte*, y el conector de salida del efecto deberá "
+"estar conectado al nodo de la Planilla."
 
 #: ../../source/applying_special_fx.rst:138
 msgid ""
@@ -452,6 +502,13 @@ msgid ""
 "effect nodes have to be connected to the Xsheet node to be rendered, or can be "
 "connected to other effect nodes."
 msgstr ""
+"**Efectos que crean nuevas imágenes**, como el efecto Radial Gradient, que "
+"serán expuestos en columnas de la Planilla (capas de la Línea de tiempo) y por "
+"lo tanto se comportarán de manera similar a éstas; se presentarán como nodos de "
+"color *naranja* conteniendo únicamente un conector de salida del lado "
+"izquierdo. Estos nodos de efectos deberán ser conectados al nodo de la Planilla "
+"para ser incluidos en el procesamiento de la escena, o estar conectados a "
+"alguno de los conectores de entrada de otros nodos de efectos."
 
 #: ../../source/applying_special_fx.rst:140
 msgid "|Generated_FX_Example|"
@@ -459,26 +516,31 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:142
 msgid "**To open the FX Browser:**"
-msgstr ""
+msgstr "**Para abrir el Explorador de efectos:**"
 
 #: ../../source/applying_special_fx.rst:146
 msgid "Choose Xsheet  →  **New FX**."
-msgstr ""
+msgstr "Elegir Planilla → **Nuevo efecto...**"
 
 #: ../../source/applying_special_fx.rst:148
 msgid ""
 "Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window."
 msgstr ""
+"Hacer clic en el botón **Nuevo efecto** (|fx|) en la barra inferior del panel "
+"Diagrama de efectos."
 
 #: ../../source/applying_special_fx.rst:150
 msgid "**To Insert an effect:**"
-msgstr ""
+msgstr "**Para insertar un efecto:**"
 
 #: ../../source/applying_special_fx.rst:154
 msgid ""
 "Select the nodes for which you want to insert a new effect, select the effect "
 "you want to insert in the **FX Browser** and click the **Insert** button."
 msgstr ""
+"Seleccionar los nodos a partir de los cuales se desee insertar un nuevo efecto, "
+"seleccionar el efecto que se desee insertar en el **Explorador de efectos** y "
+"hacer clic en el botón **Insertar**."
 
 #: ../../source/applying_special_fx.rst:156
 msgid ""
@@ -486,6 +548,9 @@ msgid ""
 "them and choose **Insert FX** from the menu that opens, then select the effect "
 "you want to insert from the available submenus."
 msgstr ""
+"Seleccionar los nodos a partir de los cuales se desee insertar un nuevo efecto, "
+"hacer clic derecho sobre cualquiera de ellos y elegir **Insertar efecto** en el "
+"menú, luego seleccionar el efecto deseado en los submenúes disponibles."
 
 #: ../../source/applying_special_fx.rst:158
 msgid ""
@@ -494,62 +559,80 @@ msgid ""
 "you want to insert from the available submenus (see  :ref:`Editing the FX "
 "Schematic <editing_the_fx_schematic>`  )."
 msgstr ""
+"Seleccionar las *líneas de vínculo* donde se desee insertar un nuevo efecto, "
+"hacer clic derecho sobre cualquiera de ellas y elegir **Insertar efecto** en el "
+"menú, luego seleccionar el efecto deseado en los submenúes disponibles (ver  :"
+"ref:`Edición del Diagrama de efectos <editing_the_fx_schematic>`  )."
 
 #: ../../source/applying_special_fx.rst:160
 msgid "**To Add an effect:**"
-msgstr ""
+msgstr "**Para agregar un efecto:**"
 
 #: ../../source/applying_special_fx.rst:162
 msgid ""
 "Select the nodes for which you want to add a new effect at the end of a new "
 "link."
 msgstr ""
+"Seleccionar los nodos a partir de los cuales se desee agregar un nuevo efecto."
 
 #: ../../source/applying_special_fx.rst:166
 msgid ""
 "Select the effect you want to add in the **FX Browser** and click the **Add** "
 "button."
 msgstr ""
+"Seleccionar el efecto que se desee agregar en el **Explorador de efectos** y "
+"hacer clic en el botón **Agregar**."
 
 #: ../../source/applying_special_fx.rst:168
 msgid ""
 "Right-click any of the selected nodes and choose **Add FX** from the menu that "
 "opens, then select the effect you want to add from the available submenus."
 msgstr ""
+"Hacer clic derecho sobre cualquiera de los nodos seleccionados y elegir "
+"**Agregar efecto** en el menú, luego seleccionar el efecto deseado en los "
+"submenúes disponibles."
 
 #: ../../source/applying_special_fx.rst:170
 msgid "**To Replace an effect:**"
-msgstr ""
+msgstr "**Para reemplazar un efecto:**"
 
 #: ../../source/applying_special_fx.rst:172
 msgid "Select the effect nodes you want to replace with a new effect."
 msgstr ""
+"Seleccionar los nodos de efectos que se desee reemplazar con un nuevo efecto."
 
 #: ../../source/applying_special_fx.rst:176
 msgid ""
 "Select the effect you want to add in the **FX Browser** and click the "
 "**Replace** button."
 msgstr ""
+"Seleccionar el efecto que se desee agregar en el **Explorador de efectos** y "
+"hacer clic en el botón **Reemplazar**."
 
 #: ../../source/applying_special_fx.rst:178
 msgid ""
 "Right-click any of the selected nodes and choose **Replace FX** from the menu "
 "that opens, then select the new effect from the available submenus."
 msgstr ""
+"Hacer clic derecho sobre cualquiera de los nodos seleccionados y elegir "
+"**Reemplazar efecto** en el menú, luego seleccionar el efecto deseado en los "
+"submenúes disponibles."
 
 #: ../../source/applying_special_fx.rst:180
 msgid "**To Insert/Add effects globally:**"
-msgstr ""
+msgstr "**Para insertar/agregar efectos a toda la escena:**"
 
 #: ../../source/applying_special_fx.rst:182
 msgid "Select the **Xsheet** node."
-msgstr ""
+msgstr "Seleccionar el nodo **Planilla**."
 
 #: ../../source/applying_special_fx.rst:186
 msgid ""
 "Select the effect you want to insert/add in the **FX Browser** and click the "
 "**Insert** or **Add** buttons."
 msgstr ""
+"Seleccionar el efecto que se desee insertar/agregar en el **Explorador de "
+"efectos** y hacer clic en el botón **Insertar** o **Agregar**."
 
 #: ../../source/applying_special_fx.rst:188
 msgid ""
@@ -557,12 +640,17 @@ msgid ""
 "from the menu that opens, then select the effect you want to a insert/add from "
 "the available submenus."
 msgstr ""
+"Hacer clic derecho sobre el nodo **Planilla** y elegir **Insertar efecto** o "
+"**Agregar efecto** en el menú, luego seleccionar el efecto deseado en los "
+"submenúes disponibles."
 
 #: ../../source/applying_special_fx.rst:192
 msgid ""
 "**Ctrl + double-click** (PC) or **Cmd + double-click** (Mac) the node name and "
 "type a new name."
 msgstr ""
+"**Ctrl + doble clic** (PC) o **Cmd + doble clic** (macOS) sobre el nombre del "
+"nodo e ingresar un nuevo nombre."
 
 #: ../../source/applying_special_fx.rst:198
 msgid "Editing the FX Schematic"
@@ -575,6 +663,11 @@ msgid ""
 "way there is one or several effects, the column content will be consequently "
 "processed before becoming part of the output."
 msgstr ""
+"El flujo de los vínculos entre nodos tiene que ser considerado de izquierda a "
+"derecha, desde los nodos de columnas/nodos hasta el nodo de **Salida**, "
+"atravesando en nodo **Planilla**. Si a lo largo del trayecto hubiera uno o "
+"varios efectos, el contenido de las columnas/capas será consecuentemente "
+"procesado antes de llegar a la salida."
 
 #: ../../source/applying_special_fx.rst:201
 msgid ""
@@ -584,6 +677,12 @@ msgid ""
 "permanently whether columns/layers will be rendered or not, by leaving or "
 "deleting the link to the Xsheet node."
 msgstr ""
+"Desde los conectores de salida de los nodos, podrán partir varias líneas de "
+"conexión al mismo tiempo permitiendo, por ejemplo, que una columna/capa sea "
+"procesada sin modificaciones, así como ser usada para enmascarar otra columna/"
+"capa. También será posible definir permanentemente si ciertas columnas/capas "
+"serán procesadas o no, preservando o borrando su vínculo con el nodo "
+"**Planilla**."
 
 #: ../../source/applying_special_fx.rst:203
 msgid ""
@@ -591,12 +690,17 @@ msgid ""
 "how column/layer nodes will interact with each other and with effects before "
 "being rendered."
 msgstr ""
+"Será posible controlar la forma en que los nodos de las columnas/capas y de "
+"efectos interactuarán entre ellos, editando los vínculos entre ellos o creando "
+"nuevos vínculos, antes de ser procesados."
 
 #: ../../source/applying_special_fx.rst:205
 msgid ""
 "In the effects that accept multiple input nodes it is possible to change the "
 "stacking order of the input nodes by clicking and dragging in the *ports* area."
 msgstr ""
+"En los efectos que acepten varias conexiones de entrada, será posible cambiar "
+"el orden de las mismas haciendo clic y arrastrando sobre dichas conexiones."
 
 #: ../../source/applying_special_fx.rst:207
 msgid ""
@@ -605,204 +709,255 @@ msgid ""
 "node has its label in yellow; when at least one object is selected, the related "
 "links are displayed in blue."
 msgstr ""
+"Es posible seleccionar nodos de efectos y sus vínculos para poder cortarlos, "
+"copiarlos, pegarlos o borrarlos. Al estar seleccionados, los nodos y vínculos "
+"aparecerán resaltados en color *blanco*; el nodo actual tendrá su etiqueta en "
+"color *amarillo*; cuando al menos un objeto se encuentre seleccionado, sus "
+"vínculos correspondientes se mostrarán en color *azul*."
 
 #: ../../source/applying_special_fx.rst:209
 msgid "When pasting a copied/cut selection, several options are available:"
 msgstr ""
+"Al pegar una selección copiada/cortada, varias opciones se encontrarán "
+"disponibles:"
 
 #: ../../source/applying_special_fx.rst:211
 msgid "Use **Paste** to paste the copied/cut selection into the FX Schematic"
 msgstr ""
+"Usar **Pegar** para pegar la selección copiada/cortada en el Diagrama de "
+"efectos."
 
 #: ../../source/applying_special_fx.rst:213
 msgid ""
 "Use **Paste Insert** to insert the pasted selection into the *selected links*."
 msgstr ""
+"Usar **Pegar (insertar)** para insertar la selección copiada/cortada en los "
+"*vínculos seleccionados*."
 
 #: ../../source/applying_special_fx.rst:215
 msgid ""
 "Use **Paste Add** to add the pasted selection from the *selected nodes* at the "
 "end of new links."
 msgstr ""
+"Usar **Pegar (agregar)** para agregar la selección copiada/cortada al final de "
+"nuevos vínculos que partirán de los nodos seleccionados."
 
 #: ../../source/applying_special_fx.rst:217
 msgid ""
 "Use **Paste Replace** to replace *selected effects nodes* with the pasted "
 "selection."
 msgstr ""
+"Usar **Pegar (reemplazar)** para reemplazar los nodos de efecto seleccionados "
+"con los almacenados en memoria."
 
 #: ../../source/applying_special_fx.rst:219
 msgid ""
 "Links have to be selected together with nodes when copying/cutting a selection "
 "if you want to preserve the links among them when pasting."
 msgstr ""
+"Los vínculos también deberán estar seleccionados, conjuntamente con los nodos, "
+"al copiar/cortar una selección, si se desea preservar sus vínculos al pegar "
+"luego."
 
 #: ../../source/applying_special_fx.rst:221
 msgid "**To create links between nodes:**"
-msgstr ""
+msgstr "**Para crear vínculos entre nodos:**"
 
 #: ../../source/applying_special_fx.rst:223
 msgid ""
 "Click and drag the output port of the node to the input port of the effect node."
 msgstr ""
+"Hacer clic y arrastrar desde el conector de salida de un nodo al conector de "
+"entrada de un nodo de efecto."
 
 #: ../../source/applying_special_fx.rst:225
 msgid "**To select nodes and links:**"
-msgstr ""
+msgstr "**Para seleccionar nodos y vínculos:**"
 
 #: ../../source/applying_special_fx.rst:229
 msgid "Click to select a node or a link."
-msgstr ""
+msgstr "Hacer clic para seleccionar un nodo o un vínculo."
 
 #: ../../source/applying_special_fx.rst:231
 msgid "Click and drag to select a group of nodes and links."
 msgstr ""
+"Hacer clic y arrastrar para seleccionar un conjunto de nodos y sus vínculos."
 
 #: ../../source/applying_special_fx.rst:233
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) to add a node or a link to, or remove it "
 "from the selection."
 msgstr ""
+"Hacer Ctrl-clic (PC) o Cmd-clic (macOS) para agregar o quitar un nodo o vínculo "
+"a la selección."
 
 #: ../../source/applying_special_fx.rst:235
 msgid "**To delete links between nodes:**"
-msgstr ""
+msgstr "**Para borrar vínculos entre nodos:**"
 
 #: ../../source/applying_special_fx.rst:237
 msgid "Select the links you want to delete and do one of the following:"
 msgstr ""
+"Seleccionar los vínculos que se desee borrar y realizar una de las siguientes "
+"acciones:"
 
 #: ../../source/applying_special_fx.rst:239
 msgid "Choose Edit  →  **Delete**."
-msgstr ""
+msgstr "Elegir Editar → **Borrar**."
 
 #: ../../source/applying_special_fx.rst:241
 msgid ""
 "Right-click any selected link and choose **Delete** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre cualquier vínculo seleccionado y elegir **Borrar** "
+"desde el menú."
 
 #: ../../source/applying_special_fx.rst:243
 msgid "**To connect a node to the Xsheet node:**"
-msgstr ""
+msgstr "**Para conectar un nodo al nodo de la Planilla:**"
 
 #: ../../source/applying_special_fx.rst:247
 msgid ""
 "Click and drag the output port of the node to the input port of the **Xsheet** "
 "node."
 msgstr ""
+"Arrastrar desde el conector de salida del nodo hasta el conector de entrada del "
+"nodo **Planilla**."
 
 #: ../../source/applying_special_fx.rst:249
 msgid ""
 "Right-click the node you want to connect to the Xsheet node, and choose "
 "**Connect to Xsheet** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo que se desee conectar al nodo de la Planilla y "
+"elegir **Conectar a la planilla** en el menú."
 
 #: ../../source/applying_special_fx.rst:251
 msgid "**To disconnect a flow from the Xsheet node:**"
-msgstr ""
+msgstr "**Para desconectar un flujo del nodo de Planilla:**"
 
 #: ../../source/applying_special_fx.rst:255
 msgid "Delete the link from the node to the Xsheet node."
-msgstr ""
+msgstr "Borrar el vínculo desde el nodo al nodo de Planilla."
 
 #: ../../source/applying_special_fx.rst:257
 msgid ""
 "Right-click the node you want to disconnect from the Xsheet node, and choose "
 "**Disconnect from Xsheet** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo de se desee desconectar del nodo de la "
+"Planilla y elegir **Desconectar de la planilla** en el menú."
 
 #: ../../source/applying_special_fx.rst:259
 msgid "**To insert an effect node into a link:**"
-msgstr ""
+msgstr "**Para insertar un nodo de efecto en una línea de vínculo:**"
 
 #: ../../source/applying_special_fx.rst:261
 msgid "**Alt-click and drag** it onto the link."
-msgstr ""
+msgstr "Hacer **Alt-clic y arrastrar** sobre la línea de vínculo."
 
 #: ../../source/applying_special_fx.rst:263
 msgid "**To extract an effect node from a link:**"
-msgstr ""
+msgstr "**Para extraer un nodo de efecto de un flujo:**"
 
 #: ../../source/applying_special_fx.rst:265
 msgid "**Alt-click and drag** it away from the link."
-msgstr ""
+msgstr "Hacer **Alt-clic y arrastrar** fuera del flujo."
 
 #: ../../source/applying_special_fx.rst:267
 msgid "**To edit an effect nodes selection:**"
-msgstr ""
+msgstr "**Para editar una selección de nodos de efecto:**"
 
 #: ../../source/applying_special_fx.rst:271
 msgid ""
 "Use the **Copy** command to keep the selection in memory for further operations."
 msgstr ""
+"Usar el comando **Copiar** para mantener en memoria la selección para "
+"operaciones futuras."
 
 #: ../../source/applying_special_fx.rst:273
 msgid ""
 "Use the **Cut** command to eliminate the selection from the schematic and keep "
 "it in memory for further operations."
 msgstr ""
+"Usar el comando **Cortar** para eliminar la selección de nodos del Diagrama de "
+"efectos y mantenerla en memoria para operaciones futuras."
 
 #: ../../source/applying_special_fx.rst:275
 msgid ""
 "Use the **Paste** command to paste the selection kept in memory in the FX "
 "Schematic."
 msgstr ""
+"Usar el comando **Pegar** para pegar la selección en memoria, en el Diagrama de "
+"efectos."
 
 #: ../../source/applying_special_fx.rst:277
 msgid ""
 "Right-click a link and use the **Paste Insert** command to insert the selection "
 "kept in memory into the *selected link*."
 msgstr ""
+"Hacer clic derecho sobre una línea de vínculo y usar **Pegar (insertar)** para "
+"insertar la selección guardada en memoria en el *vínculo seleccionado*."
 
 #: ../../source/applying_special_fx.rst:279
 msgid ""
 "Right-click any node and use the **Paste Add** command to add the selection "
 "kept in memory from the *selected nodes* at the end of the new links."
 msgstr ""
+"Hacer clic derecho sobre un nodo y usar **Pegar (agregar)** para agregar la "
+"selección guardada en memoria al final de los nuevos vínculos creados."
 
 #: ../../source/applying_special_fx.rst:281
 msgid ""
 "Right-click an effect node and use the **Paste Replace** command to replace the "
 "*selected effect nodes* with the selection kept in memory."
 msgstr ""
+"Hacer clic derecho sobre un nodo de efecto y usar **Pegar (reemplazar)** para "
+"reemplazar los *nodos de efecto seleccionados* con los guardados en memoria."
 
 #: ../../source/applying_special_fx.rst:283
 msgid "Use the **Delete** command to delete the selection."
-msgstr ""
+msgstr "Usar el comando **Borrar** para borrar los nodos seleccionados."
 
 #: ../../source/applying_special_fx.rst:285
 msgid ""
 "All these commands are available in the menu that opens when right-clicking "
 "nodes and links."
 msgstr ""
+"Todos estos comandos también se encuentran disponibles en el menú emergente al "
+"hacer clic derecho sobre los nodos y líneas de vínculo."
 
 #: ../../source/applying_special_fx.rst:287
 msgid "**To create a linked effect:**"
-msgstr ""
+msgstr "**Para Crear un efecto vinculado:**"
 
 #: ../../source/applying_special_fx.rst:289
 msgid "Select the effect nodes you want to duplicate."
-msgstr ""
+msgstr "Seleccionar los nodos de efecto que se desee vincular."
 
 #: ../../source/applying_special_fx.rst:291
 msgid ""
 "Right-click any of the selected nodes and choose **Create Linked FX** from the "
 "menu that opens."
 msgstr ""
+"Hacer clic derecho sobre alguno de los nodos seleccionados y elegir **Crear "
+"efecto vinculado** en el menú."
 
 #: ../../source/applying_special_fx.rst:293
 msgid "**To break linked effects:**"
-msgstr ""
+msgstr "**Para Desvincular efectos vinculados:**"
 
 #: ../../source/applying_special_fx.rst:295
 msgid "Select the effect nodes you want to unlink."
-msgstr ""
+msgstr "Seleccionar los nodos de efecto que se desee desvincular."
 
 #: ../../source/applying_special_fx.rst:297
 msgid ""
 "Right-click any of the selected nodes and choose **Unlink** from the menu that "
 "opens."
 msgstr ""
+"Hacer clic derecho sobre uno de los nodos seleccionados y elegir "
+"**Desvincular** en el menú."
 
 #: ../../source/applying_special_fx.rst:303
 msgid "Using Multiple Output Nodes"
@@ -814,6 +969,10 @@ msgid ""
 "this means that all the nodes connected to the Xsheet node will be rendered "
 "both in the preview and in the final rendering."
 msgstr ""
+"En el Diagrama de efectos de forma predefinida el nodo **Planilla** se "
+"encuentra conectado a un nodo **Salida**: esto significa que todos los nodos "
+"conectados al nodo **Planilla** serán procesados, tanto en las "
+"previsualizaciones como en el procesamiento final."
 
 #: ../../source/applying_special_fx.rst:306
 msgid ""
@@ -821,6 +980,9 @@ msgid ""
 "creating additional Output nodes, connected to the node where you want to limit "
 "the rendering."
 msgstr ""
+"Será posible limitar el procesamiento a algún nodo específico del Diagrama "
+"mediante la creación de nodos de **Salida** adicionales, conectados al nodo al "
+"que se desee limitar el procesamiento."
 
 #: ../../source/applying_special_fx.rst:308
 msgid ""
@@ -828,14 +990,19 @@ msgid ""
 "(the one that will be considered for previewing or rendering the scene); the "
 "active output node is displayed in *blue*, while the others in *grey*."
 msgstr ""
+"Cuando se hubiera creado más de un nodo de salida, será posible definir cual "
+"deberá ser considerado el nodo *activo* (el que será tomado en cuenta para las "
+"previsualizaciones y el procesamiento final de la escena); el nodo de salida "
+"activo será mostrado en color *azul*, mientras que los demás aparecerán en "
+"color *gris*."
 
 #: ../../source/applying_special_fx.rst:310
 msgid "**To limit the output to a specific node:**"
-msgstr ""
+msgstr "**Para limitar la salida a un nodo específico:**"
 
 #: ../../source/applying_special_fx.rst:312
 msgid "Select the node to which you want to limit the output."
-msgstr ""
+msgstr "Seleccionar el nodo hasta el cual se desee limitar la salida."
 
 #: ../../source/applying_special_fx.rst:316
 #: ../../source/applying_special_fx.rst:324
@@ -843,54 +1010,65 @@ msgid ""
 "Click the **New Output** button (|output|) in the bottom bar of the schematic "
 "window."
 msgstr ""
+"Hacer clic en el botón **Nuevo nodo de salida** (|output|) en la esquina "
+"inferior derecha del Diagrama de efectos."
 
 #: ../../source/applying_special_fx.rst:318
 msgid "Right-click the node and choose **New Output** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo y elegir **Nuevo nodo de salida** en el menú."
 
 #: ../../source/applying_special_fx.rst:320
 msgid "**To add an Output node:**"
-msgstr ""
+msgstr "**Para agregar un nodo de Salida:**"
 
 #: ../../source/applying_special_fx.rst:326
 msgid ""
 "Right-click in the stage and choose **New Output** from the menu that opens."
 msgstr ""
+"Hacer clic derecho en el Diagrama y elegir **Nuevo nodo de salida** en el menú."
 
 #: ../../source/applying_special_fx.rst:328
 msgid "**To connect a node to an Output node:**"
-msgstr ""
+msgstr "**Para conectar un nodo a un nodo de Salida:**"
 
 #: ../../source/applying_special_fx.rst:330
 msgid ""
 "Click and drag the output port of the node to the input port of the Output node."
 msgstr ""
+"Hacer clic y arrastrar desde el conector de salida del nodo deseado hasta el "
+"conector de entrada del nodo **Salida**."
 
 #: ../../source/applying_special_fx.rst:332
 msgid "**To set the current Output node:**"
-msgstr ""
+msgstr "**Para definir el nodo de Salida activo:**"
 
 #: ../../source/applying_special_fx.rst:334
 msgid ""
 "Right-click the Output you want to set as current and choose **Activate** from "
 "the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo **Salida** que se desee activar y elegir "
+"**Activar** en el menú."
 
 #: ../../source/applying_special_fx.rst:336
 msgid "**To remove an Output node:**"
-msgstr ""
+msgstr "**Para eliminar un nodo de Salida:**"
 
 #: ../../source/applying_special_fx.rst:340
 msgid "Select it and choose Edit  →  **Delete**."
-msgstr ""
+msgstr "Seleccionarlo y elegir Editar → **Borrar**."
 
 #: ../../source/applying_special_fx.rst:342
 msgid "Right-click it and choose **Delete** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo de **Salida** que se desee eliminar y elegir "
+"**Borrar** en el menú."
 
 #: ../../source/applying_special_fx.rst:344
 msgid "The last Output node remaining cannot be removed from the Schematic."
 msgstr ""
+"No será posible eliminar el último nodo de **Salida** del Diagrama de efectos."
 
 #: ../../source/applying_special_fx.rst:350
 msgid "Editing Effects Settings"
@@ -902,6 +1080,10 @@ msgid ""
 "window. According to the selected effect, it displays a different layout of "
 "sliders, check boxes, text fields, etc."
 msgstr ""
+"Es posible controlar los parámetros de los efectos y sus animaciones mediante "
+"el uso del panel **Opciones de efecto**. De acuerdo al efecto que se encuentre "
+"seleccionado, el panel mostrará una distribución de deslizadores, casillas de "
+"verificación, campos numéricos, campos de texto, etc."
 
 #: ../../source/applying_special_fx.rst:353
 msgid ""
@@ -912,6 +1094,13 @@ msgid ""
 "clicking on the **+**/**-** symbol to the left of the **Swatch Viewer** text, "
 "at the bottom left of the FX Settings window."
 msgstr ""
+"Enla sección inferior del panel, existe un *área de previsualización* que "
+"permite revisar el resultado del efecto aplicado: será posible expandirla o "
+"contraerla, activarla o desactivarla, navegar su contenido, definir su color de "
+"fondo o limitarla a mostrar el encuadre de la cámara activa. El área de "
+"previsualización podrá ser expandida o contraída haciendo clic en los símbolos "
+"**+**/**-** a la izquierda del texto **Ver muestra**, en la esquina inferior "
+"izquierda del panel de Opciones de efecto."
 
 #: ../../source/applying_special_fx.rst:356
 msgid ""
@@ -922,54 +1111,76 @@ msgid ""
 "key|) to the right of the parameter name, in order to set keyframes for each "
 "parameter independently."
 msgstr ""
+"Los parámetros podrán ser animados marcando claves en fotogramas específicos. "
+"Existe un botón **Marcar fotograma clave** (|key|) en la barra inferior del "
+"área de previsualización, que permitirá marcar fotogramas clave para *todos* "
+"los parámetros de un efecto. Para cada uno de los parámetros que puedan ser "
+"animados existirá también un botón **Marcar fotograma clave** (|key|) "
+"específico, a la derecha del nombre del parámetro, que permitirá marcar claves "
+"para cada parámetro de forma independiente."
 
 #: ../../source/applying_special_fx.rst:358
 msgid "The **Set Key** button (|key|) may have the following colors:"
 msgstr ""
+"El botón **Marcar fotograma clave** (|key|) del área de previsualización, podrá "
+"presentar los siguientes colores:"
 
 #: ../../source/applying_special_fx.rst:360
 msgid ""
 "It is **grey** when no key values for any parameter is defined at the current "
 "frame."
 msgstr ""
+"**Gris**, cuando no existan claves para ningún parámetro en el fotograma actual."
 
 #: ../../source/applying_special_fx.rst:362
 msgid ""
 "It is **blue-striped** when key values are defined at least for one parameter."
 msgstr ""
+"**A bandas azules**, cuando existan claves para al menos un parámetro en el "
+"fotograma actual."
 
 #: ../../source/applying_special_fx.rst:364
 msgid "It is **blue** when key values are defined for all the parameters."
 msgstr ""
+"**Azul**, cuando existan claves para todos los parámetros en el fotograma "
+"actual."
 
 #: ../../source/applying_special_fx.rst:366
 msgid ""
 "The parameter specific **Set Key** button (|key|) may have the following colors:"
 msgstr ""
+"El botón **Marcar fotograma clave** (|key|) de cada parámetro, podrá presentar "
+"los siguientes colores:"
 
 #: ../../source/applying_special_fx.rst:368
 msgid ""
 "It is **grey** if no key value is defined for the parameter at the current "
 "frame."
 msgstr ""
+"**Gris**, cuando no exista un clave para el parámetro en el fotograma actual."
 
 #: ../../source/applying_special_fx.rst:370
 msgid ""
 "It is **orange** when a key value is defined for the parameter at the current "
 "frame."
 msgstr ""
+"**Naranja**, cuando exista un clave para el parámetro en el fotograma actual."
 
 #: ../../source/applying_special_fx.rst:372
 msgid ""
 "It is **pale yellow** if the parameter is animated but no key value is defined "
 "at the current frame."
 msgstr ""
+"**Amarillo claro**, cuando el parámetro esté animado, pero no exista un clave "
+"en el fotograma actual."
 
 #: ../../source/applying_special_fx.rst:374
 msgid ""
 "It is **yellow** if you changed the parameter value and the current frame does "
 "not have a key for the parameter."
 msgstr ""
+"**Amarillo**, cuando se hubiera modificado el valor de un parámetro animado y "
+"no existiera un clave en el fotograma actual."
 
 #: ../../source/applying_special_fx.rst:376
 msgid ""
@@ -977,6 +1188,10 @@ msgid ""
 "bottom bar of the window. The **Next Key** (|next_key|) and **Previous Key** "
 "buttons (|prevkey|) are available only if more than one keyframe is defined."
 msgstr ""
+"Será posible navegar por los fotogramas y claves mediante el uso de los botones "
+"correspondientes en la barra inferior del panel. Los botones **Clave anterior** "
+"(|prevkey|) y **Clave siguiente** (|next_key|) estarán disponibles si hubiera "
+"más de un clave definido."
 
 #: ../../source/applying_special_fx.rst:378
 msgid "|FX_Settings_Example|"
@@ -987,51 +1202,66 @@ msgid ""
 "If no keyframes are defined, parameters you set will be used throughout the "
 "scene."
 msgstr ""
+"Cuando no hubiera fotogramas clave definidos, el valor especificado para los "
+"parámetros será usado a lo largo de todas la escena."
 
 #: ../../source/applying_special_fx.rst:382
 msgid "**To open the FX Settings window:**"
-msgstr ""
+msgstr "**Para abrir el panel de Opciones de efecto:**"
 
 #: ../../source/applying_special_fx.rst:386
 msgid ""
 "Right-click the effect node, and choose **Edit FX** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre un nodo de efecto y elegir **Editar efecto...* en el "
+"menú."
 
 #: ../../source/applying_special_fx.rst:388
 msgid "Double-click the effect node."
-msgstr ""
+msgstr "Hacer doble clic sobre el nodo de efecto."
 
 #: ../../source/applying_special_fx.rst:390
 msgid "**To define values for the effect:**"
-msgstr ""
+msgstr "**Para definir valores para un efecto:**"
 
 #: ../../source/applying_special_fx.rst:392
 msgid ""
 "Use the available sliders, check boxes, text fields, etc., to configure the "
 "effect the way you prefer."
 msgstr ""
+"Utilizar los deslizadores, casillas de verificación, campos numéricos y de "
+"texto, etc. disponibles, para configurar el efecto de la manera deseada."
 
 #: ../../source/applying_special_fx.rst:394
 msgid "**To set the current frame:**"
-msgstr ""
+msgstr "**Para definir el fotograma actual:**"
 
 #: ../../source/applying_special_fx.rst:398
 msgid ""
 "Type the frame number or use the **Next Frame** and **Previous Frame** buttons "
 "available in the bottom bar of the window."
 msgstr ""
+"Ingresar el número de fotograma o usar los botones **Fotograma anterior** y "
+"**Fotograma siguiente** disponibles en la esquina inferior derecha del área de "
+"previsualización del panel."
 
 #: ../../source/applying_special_fx.rst:400
 msgid "Move the current frame cursor in the Xsheet or in the Function Editor."
 msgstr ""
+"Mover el cursor de tiempo en la Planilla/Línea de tiempo o en el Editor de "
+"funciones."
 
 #: ../../source/applying_special_fx.rst:402
 msgid "Use the frame bar or the playback buttons in the bottom bar of the viewer."
 msgstr ""
+"Usar la barra de fotogramas o los botones de reproducción en la barra inferior "
+"del Visor."
 
 #: ../../source/applying_special_fx.rst:404
 msgid "**To set keyframes for all the effect parameters at the current frame:**"
 msgstr ""
+"**Para marcar un clave para todos los parámetros de un efecto en el fotograma "
+"actual:**"
 
 #: ../../source/applying_special_fx.rst:408
 msgid ""
@@ -1039,6 +1269,10 @@ msgid ""
 "bottom bar of the window: it turns from grey to blue and current values become "
 "keyframes for all the parameters at the current frame."
 msgstr ""
+"Si en el fotograma actual no hubiera un clave, hacer clic en el botón **Marcar "
+"fotograma clave** (|key|) en la barra inferior del área de previsualización: el "
+"color del botón cambiará de *gris* a *azul* y los valores actuales de todos los "
+"parámetros se transformarán en claves."
 
 #: ../../source/applying_special_fx.rst:410
 msgid ""
@@ -1046,14 +1280,20 @@ msgid ""
 "Key** button (|key|): it turns from blue striped to blue and current values "
 "become keyframes for all the parameters at the current frame."
 msgstr ""
+"Si en el fotograma actual hubiera claves sólo para algunos parámetros, hacer "
+"clic en el botón **Marcar fotograma clave** (|key|) en la barra inferior del "
+"área de previsualización: el color del botón cambiará de mostrar *bandas "
+"azules* a *azul* y los valores actuales de todos los parámetros se "
+"transformarán en claves."
 
 #: ../../source/applying_special_fx.rst:412
 msgid "Define the values for the parameters."
-msgstr ""
+msgstr "Definir los valores de los parámetros."
 
 #: ../../source/applying_special_fx.rst:414
 msgid "**To set keyframes for a specific parameter at the current frame:**"
 msgstr ""
+"**Para marcar claves para parámetros específicos en el fotograma actual:**"
 
 #: ../../source/applying_special_fx.rst:416
 msgid ""
@@ -1062,10 +1302,14 @@ msgid ""
 "grey to orange, and the current value becomes a keyframe for the parameter at "
 "the current frame."
 msgstr ""
+"Si en el fotograma actual no hubiera un clave para el parámetro deseado, hacer "
+"clic en el botón **Marcar fotograma clave** (|key|) a la derecha del nombre del "
+"mismo: el color del botón cambiará de *gris* a *naranja* y el valor actual del "
+"parámetro se transformará en clave."
 
 #: ../../source/applying_special_fx.rst:418
 msgid "Define the value for the parameter."
-msgstr ""
+msgstr "Definir el valor del parámetro."
 
 #: ../../source/applying_special_fx.rst:420
 msgid ""
@@ -1073,17 +1317,25 @@ msgid ""
 "the **Set Key** button (|key|) to the right of the parameter turns yellow. "
 "Click it to set the key."
 msgstr ""
+"Si en el fotograma actual no hubiera un clave para el parámetro deseado y se "
+"hubiera modificado su valor, el botón **Marcar fotograma clave** (|key|) a la "
+"derecha del nombre del mismo, cambiará su color a *amarillo*."
 
 #: ../../source/applying_special_fx.rst:422
 msgid ""
 "**To remove all keyframes for the effect parameters at the current frame:**"
 msgstr ""
+"**Para eliminar todos los claves de los parámetros de un efecto en el fotograma "
+"actual:**"
 
 #: ../../source/applying_special_fx.rst:426
 msgid ""
 "If the keyframes are set for all the parameters, click the **Set Key** button (|"
 "key|) in the bottom bar of the window: it turns from blue to grey."
 msgstr ""
+"Si hubiera claves marcados para todos los parámetros, hacer clic en el botón "
+"**Marcar fotograma clave** (|key|) en la barra inferior del área de "
+"previsualización: su color cambiará de *azul* a *gris*."
 
 #: ../../source/applying_special_fx.rst:428
 msgid ""
@@ -1092,75 +1344,96 @@ msgid ""
 "from blue-striped to blue (as you set keys for all the parameters); with the "
 "second click, it turns from blue to grey."
 msgstr ""
+"Si hubiera claves marcados sólo para algunos de los parámetros, hacer clic dos "
+"veces en el botón **Marcar fotograma clave** (|key|) en la barra inferior del "
+"área de previsualización: con el primer clic su color cambiará de *azul a "
+"bandas* a *azul* y con el segundo clic cambiará a *gris*."
 
 #: ../../source/applying_special_fx.rst:430
 msgid "**To remove a keyframe for a specific parameter at the current frame:**"
 msgstr ""
+"**Para eliminar un clave de un parámetro específico en el fotograma actual:**"
 
 #: ../../source/applying_special_fx.rst:432
 msgid ""
 "Click the **Set Key** button (|key|) to the right of the parameter: it turns "
 "from grey to orange."
 msgstr ""
+"Hacer clic en el botón **Marcar fotograma clave** (|key|) a la derecha del "
+"nombre del parámetro: su color cambiará de *gris a *naranja*."
 
 #: ../../source/applying_special_fx.rst:434
 msgid "**To navigate frames where keyframes are defined:**"
-msgstr ""
+msgstr "**Para recorrer los fotogramas donde existan claves marcados:**"
 
 #: ../../source/applying_special_fx.rst:436
 msgid ""
 "Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) "
 "available at the side of the **Set Key** button."
 msgstr ""
+"Usar los botones **Clave anterior** (|prevkey|) y **Clave siguiente** (|"
+"next_key|) disponibles a los lados del botón **Marcar fotograma clave** (|key|)."
 
 #: ../../source/applying_special_fx.rst:438
 msgid "**To activate/deactivate the preview area:**"
-msgstr ""
+msgstr "**Para activar/desactivar la previsualización:**"
 
 #: ../../source/applying_special_fx.rst:440
 #: ../../source/applying_special_fx.rst:448
 #: ../../source/applying_special_fx.rst:553
 msgid "Do any of the following:"
-msgstr ""
+msgstr "Realizar una de las siguientes acciones:"
 
 #: ../../source/applying_special_fx.rst:442
 msgid ""
 "Click the **Camera Preview** button (|camera|) in the bottom bar of the FX "
 "Settings window to limit the preview to the camera shot."
 msgstr ""
+"Hacer clic en el botón **Previsualizar cámara** (|camera|) en la barra inferior "
+"del área de previsualización, para limitar la previsualización al encuadre de "
+"la cámara activa."
 
 #: ../../source/applying_special_fx.rst:444
 msgid ""
 "Click the **Preview** button (|preview|) in the bottom bar of the FX Settings "
 "window to preview the results regardless of the camera shot."
 msgstr ""
+"Hacer clic en el botón **Previsualizar** (|preview|) en la barra inferior del "
+"área de previsualización, para previsualizar el resultado en un área que será "
+"posible ajustar libremente."
 
 #: ../../source/applying_special_fx.rst:446
 msgid "**To resize the preview area:**"
-msgstr ""
+msgstr "**Para redimensionar el área de previsualización:**"
 
 #: ../../source/applying_special_fx.rst:450
 msgid "Click and drag the horizontal separator."
-msgstr ""
+msgstr "Arrastrar el separador horizontal."
 
 #: ../../source/applying_special_fx.rst:452
 msgid ""
 "Click and drag the separator toward the window border to hide the preview area."
 msgstr ""
+"Arrastrar el separador hacia el borde inferior del panel para ocultar el área "
+"de previsualización."
 
 #: ../../source/applying_special_fx.rst:454
 msgid ""
 "Click and drag the separator collapsed to the window border toward the window "
 "center to display again the preview area."
 msgstr ""
+"Arrastrar el separador colapsado hacia el centro del panel para volver a "
+"mostrar el área de previsualización."
 
 #: ../../source/applying_special_fx.rst:456
 msgid "The A/R of the preview area depends on the A/R of the current camera"
 msgstr ""
+"La proporción del área de previsualización de cámara, dependerá de la "
+"Proporción de la cámara activa."
 
 #: ../../source/applying_special_fx.rst:458
 msgid "**To change the background color of the preview area:**"
-msgstr ""
+msgstr "**Para cambiar el color de fondo del área de previsualización:**"
 
 #: ../../source/applying_special_fx.rst:460
 msgid ""
@@ -1168,20 +1441,25 @@ msgid ""
 "**White** (|preview_white|), **Black** (|preview_black|) or **Transparent** (|"
 "preview_checkbox|) background."
 msgstr ""
+"Usar los botones disponibles en la barra inferior del área de previsualización "
+"para elegir un fondo **Blanco** (|preview_white|), **Negro** (|preview_black|) "
+"o **Transparente** (|preview_checkbox|)."
 
 #: ../../source/applying_special_fx.rst:462
 msgid "**To navigate the preview area:**"
-msgstr ""
+msgstr "**Para navegar el área de previsualización:**"
 
 #: ../../source/applying_special_fx.rst:470
 msgid ""
 "Use the Reset View shortcut (by default the **Alt + 0** key) to display preview "
 "at its actual size."
 msgstr ""
+"Usar el atajo del comando Restablecer vista (de forma predefinida **Alt + 0**) "
+"para mostrar la previsualización a su tamaño real."
 
 #: ../../source/applying_special_fx.rst:476
 msgid "Using Effects Gadgets"
-msgstr "Usando los Manipuladores de efectos"
+msgstr "Uso de los Manipuladores de efectos"
 
 #: ../../source/applying_special_fx.rst:477
 msgid ""
@@ -1191,6 +1469,12 @@ msgid ""
 "circular gadgets that can be edited to set the inner size and the outer size of "
 "the gradient."
 msgstr ""
+"Algunos parámetros de efectos, relativos a posiciones o dimensiones, presentan "
+"algunos controles para poder ser manipulados directamente en el Visor, usando "
+"en el cuadre de la cámara activa y los otros elementos de la escena como "
+"referencia. Por ejemplo, el efecto Radial Gradient presenta dos manipuladores "
+"circulares que pueden ser editados para permitir definir los tamaños mínimo y "
+"máximo del gradiente."
 
 #: ../../source/applying_special_fx.rst:479
 msgid ""
@@ -1201,18 +1485,25 @@ msgid ""
 "gradient or a light spot) the settings will refer to the effect column itself "
 "(see  :ref:`Animating Objects <animating_objects>`  )."
 msgstr ""
+"Tan pronto como se seleccione el nodo de un efecto en el Diagrama, se activará "
+"la herramienta **Animar** y se mostrarán los manipuladores correspondientes a "
+"dicho efecto, si los hubiera. Las opciones de la herramienta Animar harán "
+"referencia a la columna a la que se encuentre aplicado el mismo, pero en caso "
+"de que el efecto creara su propia imagen desde cero (p.ej: los efectos Radial "
+"Gradient o Light Spot) las opciones se referirán a la columna del efecto en sí "
+"misma (ver  :ref:`Animación de efectos <animating_objects>`  )."
 
 #: ../../source/applying_special_fx.rst:481
 msgid "**To visualize effects gadgets in the viewer:**"
-msgstr ""
+msgstr "**Para visualizar los manipuladores de los efectos en el Visor:**"
 
 #: ../../source/applying_special_fx.rst:483
 msgid "Select the effect node in the FX Schematic."
-msgstr ""
+msgstr "Seleccionar el nodo del efecto en el Diagrama de efectos."
 
 #: ../../source/applying_special_fx.rst:485
 msgid "**To edit effects gadgets:**"
-msgstr ""
+msgstr "**Para usar los manipuladores de los efectos:**"
 
 #: ../../source/applying_special_fx.rst:487
 msgid ""
@@ -1220,12 +1511,17 @@ msgid ""
 "gadget and the related handles, the cursor changes shape to indicate you are "
 "editing an effect gadget."
 msgstr ""
+"Arrastrar los manipuladores mostrados en el Visor. A medida que se posa el "
+"puntero del ratón sobre un manipulador, su forma cambiará para indicar el "
+"parámetro que podrá ser modificado."
 
 #: ../../source/applying_special_fx.rst:489
 msgid ""
 "Some gadgets have a handle for reference; however any point along the gadget "
 "shape can be clicked and dragged."
 msgstr ""
+"Algunos manipuladores contienen un asa de control como referencia; sin embargo "
+"cualquier punto a lo largo del manipulador podrá ser usado para arrastrar."
 
 #: ../../source/applying_special_fx.rst:495
 msgid "Defining Colors and Color Spectrums"
@@ -1234,12 +1530,16 @@ msgstr "Definición de colores y espectros de colores"
 #: ../../source/applying_special_fx.rst:496
 msgid "Some effects may require the definition of a color, or a color spectrum."
 msgstr ""
+"Es posible que algunos efectos requieran de la definición de un color o un "
+"espectro de colores."
 
 #: ../../source/applying_special_fx.rst:498
 msgid ""
 "Colors can be defined by editing the related Red, Green, Blue and Alpha values, "
 "or by using the Style Editor."
 msgstr ""
+"Los colores podrán ser definidos mediante la edición de sus valores Rojo, "
+"Verde, Azul y Alfa correspondientes, o mediante el Editor de estilos."
 
 #: ../../source/applying_special_fx.rst:500
 msgid "|Defining_Colors_Example|"
@@ -1252,54 +1552,67 @@ msgid ""
 "color in the spectrum can be moved to set the distance between two colors and "
 "the related gradient."
 msgstr ""
+"Será posible definir espectros de color (una serie de colores que definan un "
+"gradiente continuo) agregando cualquier color que sea necesario, así como "
+"editando cada uno de los colores existentes de forma independiente. Un color "
+"del espectro podrá ser movido para definir la distancia entre dos colores, así "
+"como el gradiente intermedio generado por ese color y los adyacentes."
 
 #: ../../source/applying_special_fx.rst:504
 msgid "**To define a color:**"
-msgstr ""
+msgstr "**Para definir un color:**"
 
 #: ../../source/applying_special_fx.rst:508
 msgid "Set the Red, Green, Blue and Alpha values."
-msgstr ""
+msgstr "Definir los valores de Rojo, Verde, Azul y Alfa."
 
 #: ../../source/applying_special_fx.rst:510
 msgid ""
 "Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain "
 "Colors <plain_colors>`  )."
 msgstr ""
+"Hacer clic en la miniatura de color y usar el Editor de estilos para editarlo "
+"(ver  :ref:`Colores <plain_colors>`  )."
 
 #: ../../source/applying_special_fx.rst:512
 msgid "**To set a color of the spectrum:**"
-msgstr ""
+msgstr "**Para definir un color del espectro:**"
 
 #: ../../source/applying_special_fx.rst:514
 msgid ""
 "Select the arrow below the spectrum identifying the color, and edit the related "
 "color."
 msgstr ""
+"Seleccionar la flecha debajo del espectro que identifica a cada color y editar "
+"el color deseado."
 
 #: ../../source/applying_special_fx.rst:516
 msgid "**To add a color to the spectrum:**"
-msgstr ""
+msgstr "**Para agregar un color al espectro:**"
 
 #: ../../source/applying_special_fx.rst:518
 msgid "Click the spectrum where you want to add the new color."
-msgstr ""
+msgstr "Hacer clic en el espectro, donde se desee agregar el nuevo color."
 
 #: ../../source/applying_special_fx.rst:520
 msgid "**To move a color in the spectrum:**"
-msgstr ""
+msgstr "**Para mover un color en el espectro:**"
 
 #: ../../source/applying_special_fx.rst:522
 msgid "Click and drag the arrow identifying the color to a new position."
 msgstr ""
+"Hacer clic y arrastrar la flecha que identifica al color deseado a una nueva "
+"posición."
 
 #: ../../source/applying_special_fx.rst:524
 msgid "**To remove a color from the spectrum:**"
-msgstr ""
+msgstr "**Para eliminar un color del espectro:**"
 
 #: ../../source/applying_special_fx.rst:526
 msgid "Click and drag the arrow identifying the color *down*."
 msgstr ""
+"Hacer clic y arrastrar la flecha que identifica al color que se desee eliminar "
+"hacia *abajo*."
 
 #: ../../source/applying_special_fx.rst:532
 msgid "Creating Presets"
@@ -1311,6 +1624,10 @@ msgid ""
 "as a **Preset** to be available later on, both in the FX Browser and the drop-"
 "down menus that open when right-clicking nodes or in the Schematic area."
 msgstr ""
+"Es posible guardar la configuración y animación de los parámetros de un efecto "
+"como un **Ajuste** prestablecido, para poder volver a cargarlo en otra ocasión, "
+"tanto mediante el Explorador de efectos, como del menú contextual del Diagrama "
+"de efectos."
 
 #: ../../source/applying_special_fx.rst:535
 msgid ""
@@ -1320,6 +1637,14 @@ msgid ""
 "menus the effect has an additional drop down menu where the first item can be "
 "selected to insert the effect with its default values."
 msgstr ""
+"Cuando se guarda un ajuste prestablecido para un efecto en particular, en el "
+"Explorador de efectos el ícono del efecto se transformará en un ícono de "
+"carpeta, la carpeta contendrá el ajuste guardado, permaneciendo aún disponible "
+"el ícono de carpeta como forma de insertar el efecto en la escena, con sus "
+"parámetros predefinidos (no usando ningún ajuste guardado por el usuario); en "
+"el menú contextual del Diagrama de efectos el efecto contendrá un menú extra "
+"desde donde será posible elegir, tanto el efecto usando sus valores "
+"predefinidos, como el ajuste guardado por el usuario."
 
 #: ../../source/applying_special_fx.rst:537
 msgid "|Creating_Presets_Example|"
@@ -1331,6 +1656,11 @@ msgid ""
 "presets to be available on all the computers sharing the same *Projectroot* "
 "(see  :ref:`Setting the Projectroot <setting_the_projectroot>`  )."
 msgstr ""
+"Los ajustes prestablecidos serán guardados en la carpeta "
+"``<principal_de_proyectos>\\fxs\\preset``. Esto permite eque los ajustes se "
+"encuentren disponibles en todas las computadoras que compartan la misma "
+"*carpeta principal de proyectos* (ver  :ref:`Definición de la carpeta principal "
+"de proyectos <setting_the_projectroot>`  )."
 
 #: ../../source/applying_special_fx.rst:541
 msgid ""
@@ -1338,52 +1668,67 @@ msgid ""
 "*applied preset*: the applied preset can be edited without affecting the saved "
 "one."
 msgstr ""
+"Una vez que un ajuste haya sido aplicado no existirá ningún vínculo entre el "
+"*ajuste guardado* y el *ajuste aplicado*: el ajuste aplicado podrá ser editado "
+"sin afectar al guardado."
 
 #: ../../source/applying_special_fx.rst:543
 msgid ""
 "When you save a preset with a name already used, a confirmation dialog will "
 "open, asking you whether you want to overwrite the previously saved preset."
 msgstr ""
+"Cuando se intente guardar un ajuste prestablecido con un nombre ya utilizado, "
+"emergerá un diálogo de confirmación consultando si se deberá sobrescribir el ya "
+"existente o no."
 
 #: ../../source/applying_special_fx.rst:545
 msgid "**To save a preset:**"
-msgstr ""
+msgstr "**Para guardar un ajuste prestablecido:**"
 
 #: ../../source/applying_special_fx.rst:547
 msgid ""
 "Right-click the effect node you want to save as a preset and choose **Save As "
 "Preset** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo del efecto que contenga los parámetros que se "
+"desee guardar como un ajuste y elegir **Guardar como ajuste...** en el menú."
 
 #: ../../source/applying_special_fx.rst:549
 msgid "Assign a name to the preset and click the **Save** button."
-msgstr ""
+msgstr "Asignar un nombre al ajuste y hacer clic en el botón **Guardar**."
 
 #: ../../source/applying_special_fx.rst:551
 msgid "**To retrieve a saved preset:**"
-msgstr ""
+msgstr "**Para cargar un ajuste guardado:**"
 
 #: ../../source/applying_special_fx.rst:555
 msgid ""
 "Open the **FX Browser** and open the folder related to the effect for which you "
 "saved the preset."
 msgstr ""
+"Abrir el **Explorador de efectos** y abrir la carpeta relativa al efecto para "
+"el cual se hubiera guardado un ajuste."
 
 #: ../../source/applying_special_fx.rst:557
 msgid ""
 "In the right-click menus **Insert FX**, **Add FX** or **Replace FX**, choose "
 "the sub-menu related to the effect for which you saved the preset."
 msgstr ""
+"Hacer clic derecho y en los submenúes **Insertar efecto**, **Agregar efecto** o "
+"**Reemplazar efecto**, elegir el submenú correspondiente al efecto para el cual "
+"se hubiera guardado un ajuste."
 
 #: ../../source/applying_special_fx.rst:559
 msgid "**To remove a preset from the FX Browser:**"
-msgstr ""
+msgstr "**Para eliminar un ajuste del Explorador de efectos:**"
 
 #: ../../source/applying_special_fx.rst:561
 msgid ""
 "Right-click the preset in the FX Browser and choose **Remove Preset** from the "
 "menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el ajuste prestablecido en el Explorador de efectos y "
+"elegir **Eliminar ajuste**."
 
 #: ../../source/applying_special_fx.rst:567
 msgid "Creating Macro FX"
@@ -1394,6 +1739,8 @@ msgid ""
 "Effects can be combined to create a *macro effect* that can be saved and "
 "retrieved when needed."
 msgstr ""
+"Será posible combinar varios efectos para crear un *macro efecto*, que podrá "
+"ser guardado y cargado cuando fuera necesario."
 
 #: ../../source/applying_special_fx.rst:570
 msgid ""
@@ -1401,6 +1748,11 @@ msgid ""
 "standard way with the FX Settings window that contains a tab for each effect "
 "combined to define the macro, or by opening it and editing one effect at a time."
 msgstr ""
+"Cuando se define un macro efecto, será posible editar sus opciones, tanto en la "
+"manera tradicional mediante el panel Opciones de efecto, que en ese caso "
+"contendrá una solapa por cada uno de los efectos que compongan al macro efecto, "
+"o abriendo el macro efecto para poder editar cada uno de los efectos de forma "
+"separada."
 
 #: ../../source/applying_special_fx.rst:572
 msgid ""
@@ -1408,6 +1760,9 @@ msgid ""
 "and can be exploded to dissolve it and put its effect nodes back in the "
 "Schematic."
 msgstr ""
+"Un macro efecto también podrá ser abierto para revisar cómo se encuentran "
+"conectados los nodos de efecto entre sí, así como también podrá ser disuelto "
+"para colocar los efectos que lo componen de vuelva en la escena."
 
 #: ../../source/applying_special_fx.rst:574
 msgid ""
@@ -1415,23 +1770,31 @@ msgid ""
 "drop-down menus that open when right-clicking nodes or in the Schematic area, "
 "inside the **Macro** folder, at the bottom of the list."
 msgstr ""
+"Al ser guardado, un macro efecto quedará disponible en el Explorador de efectos "
+"y en el menú contextual emergente al hacer clic derecho sobre un nodo o en el "
+"Diagrama de efectos, dentro de la carpeta **Macro**, al final de la lista de "
+"efectos."
 
 #: ../../source/applying_special_fx.rst:576
 msgid "**To create a macro effect:**"
-msgstr ""
+msgstr "**Para crear un macro efecto:**"
 
 #: ../../source/applying_special_fx.rst:578
 msgid "Select the effect nodes you want to combine to create the macro effect."
 msgstr ""
+"Seleccionar los nodos de efecto que se desee combinar para crear el macro "
+"efecto."
 
 #: ../../source/applying_special_fx.rst:580
 msgid ""
 "Right-click the selection and select **Make Macro FX** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre la selección y elegir **Crear un macro efecto** en el "
+"menú."
 
 #: ../../source/applying_special_fx.rst:582
 msgid "**To open a macro effect:**"
-msgstr ""
+msgstr "**Para abrir un macro efecto:**"
 
 #: ../../source/applying_special_fx.rst:584
 msgid ""
@@ -1439,69 +1802,88 @@ msgid ""
 "opens: the macro nodes are displayed in a box, with the right links to the rest "
 "of the schematic."
 msgstr ""
+"Hacer clic derecho sobre el nodo de un macro efecto y elegir **Abrir macro "
+"efecto** en el menú: los nodos del macro efecto serán mostrados dentro de un "
+"marco rectangular, incluyendo los vínculos correspondientes con el resto de los "
+"nodos del Diagrama."
 
 #: ../../source/applying_special_fx.rst:586
 msgid ""
 "When the content of a macro is displayed *it is not* possible to edit the links "
 "between macro nodes and links with nodes outside the macro."
 msgstr ""
+"Cuando el contenido de un macro efecto sea mostrado *no será* posible editar "
+"los vínculos entre los propios nodos del macro efecto o de éstos con el "
+"exterior."
 
 #: ../../source/applying_special_fx.rst:588
 msgid "**To close a macro effect:**"
-msgstr ""
+msgstr "**Para cerrar un macro efecto:**"
 
 #: ../../source/applying_special_fx.rst:590
 msgid "Click the **Close** button on the right of the macro box bar."
 msgstr ""
+"Hacer clic en el botón **Cerrar** en la esquina superior derecha del marco del "
+"macro efecto."
 
 #: ../../source/applying_special_fx.rst:592
 msgid "**To release a macro effect:**"
-msgstr ""
+msgstr "**Para disolver un macro efecto:**"
 
 #: ../../source/applying_special_fx.rst:594
 msgid ""
 "Right-click the macro node and choose **Explode Macro FX** from the menu that "
 "opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo de un macro efecto y elegir **Disolver macro "
+"efecto** en el menú."
 
 #: ../../source/applying_special_fx.rst:596
 msgid "**To edit a macro effect:**"
-msgstr ""
+msgstr "**Para editar un macro efecto:**"
 
 #: ../../source/applying_special_fx.rst:600
 msgid ""
 "Right-click the macro node and choose **Edit FX** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo de un macro efecto y elegir **Editar efecto..."
+"** en el menú."
 
 #: ../../source/applying_special_fx.rst:602
 msgid ""
 "Right-click the macro node and choose **Open Macro FX** from the menu that "
 "opens, then edit the macro effect nodes."
 msgstr ""
+"Hacer clic derecho sobre el nodo de un macro efecto y elegir **Abrir macro "
+"efecto** en el menú, luego editar los nodos que compongan el macro efecto."
 
 #: ../../source/applying_special_fx.rst:604
 msgid "**To save a macro effect:**"
-msgstr ""
+msgstr "**Para guardar un macro efecto:**"
 
 #: ../../source/applying_special_fx.rst:606
 msgid ""
 "Right click the macro effect node you want to save and choose **Save As "
 "Preset** from the menu that opens."
 msgstr ""
+"Hacer clic derecho sobre el nodo del macro efecto que se desee guardar y elegir "
+"**Guardar como ajuste...** en el menú."
 
 #: ../../source/applying_special_fx.rst:608
 msgid "Assign a name to the macro effect and click the **Save** button."
-msgstr ""
+msgstr "Asignar un nombre al macro efecto y hacer clic en el botón **Guardar**."
 
 #: ../../source/applying_special_fx.rst:610
 msgid "**To remove a macro effect from the FX Browser:**"
-msgstr ""
+msgstr "**Para eliminar un macro efecto del Explorador de efectos:**"
 
 #: ../../source/applying_special_fx.rst:612
 msgid ""
 "Right-click the macro effect in the FX Browser and choose **Remove Macro FX** "
 "from the menu that opens."
 msgstr ""
+"En el Explorador de efectos, hacer clic derecho sobre el macro efecto que se "
+"desee eliminar y elegir **Eliminar macro efecto** en el menú."
 
 #: ../../source/applying_special_fx.rst:621
 msgid "Effects List"
@@ -1524,12 +1906,17 @@ msgid ""
 "Creates in the selected column a layer with a checkerboard defined by two "
 "Colors, and a grid Size."
 msgstr ""
+"Crea una nueva columna/capa con un damero, definido por dos colores y el tamaño "
+"de la cuadrícula."
 
 #: ../../source/applying_special_fx.rst:637
 msgid ""
 "The grid size can also be set by using a square gadget with a handle in the "
 "viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
+"El tamaño de la cuadrícula también podrá ser definido usando el manipulador del "
+"efecto en el Visor (ver  :ref:`Usando los Manipuladores de efectos "
+"<using_fx_gadgets>`  )."
 
 #: ../../source/applying_special_fx.rst:642
 msgid "Color Card"
@@ -1545,6 +1932,10 @@ msgid ""
 "example, as a background color or to create a colorize effect by applying it "
 "combined with a multiply effect."
 msgstr ""
+"Crea una nueva columna/capa con una placa sólida del Color elegido. Podrá ser "
+"usada, por ejemplo, como color de fondo o para crear un efecto de colorización "
+"aplicándola en combinación con un efecto de **Multiply** (Multiplicar) sobre "
+"otra columna/capa."
 
 #: ../../source/applying_special_fx.rst:650
 msgid "Kaleido"
@@ -1557,6 +1948,8 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:653
 msgid "Repeats the Source generating a kaleidoscopic effect."
 msgstr ""
+"Repite el contenido del nodo conectado a *Source*, generando un efecto "
+"caleidoscópico."
 
 #: ../../source/applying_special_fx.rst:655
 msgid ""
@@ -1564,12 +1957,19 @@ msgid ""
 "cross widget in the preview area, or writing the desired values in the X and Y "
 "text fields."
 msgstr ""
+"Será posible posicionar interactivamente el centro del efecto, moviendo la "
+"pequeña cruz *roja* que aparece en el área de previsualización del panel "
+"Opciones de efecto, o también ingresando manualmente los valores X e Y en los "
+"campos del parámetro **Center** (Centro)."
 
 #: ../../source/applying_special_fx.rst:657
 msgid ""
 "The angle of reflection, and the number of iterations can be set in the "
 "appropriate input text fields (Angle and Count)."
 msgstr ""
+"El ángulo de reflexión y la cantidad de repeticiones podrán ser definidas "
+"controlando los parámetros **Angle** (Ángulo) y **Count** (Cantidad) "
+"respectivamente."
 
 #: ../../source/applying_special_fx.rst:662
 msgid "Tile"
@@ -1586,6 +1986,12 @@ msgid ""
 "repeats the source content horizontally; the Tile Vertically repeats the source "
 "content vertically."
 msgstr ""
+"Repite el contenido del nodo conectado a *Source* para crear una imagen de "
+"mayor tamaño: cuando el parámetro **Mode** (Modo) se encuentra en **Tile** "
+"(Mosaico) se formará un patrón de repeticiones que llenará completamente el "
+"encuadre de la cámara; **Tile Horizontally** (Mosaico horizontal) y **Tile "
+"Vertically** (Mosaico vertical) repetirán el contenido sólo horizontal o "
+"verticalmente."
 
 #: ../../source/applying_special_fx.rst:667
 msgid ""
@@ -1593,12 +1999,19 @@ msgid ""
 "flipping them respectively in the horizontal and vertical directions; If both "
 "the options are activated, tiles will be mirrored in both directions."
 msgstr ""
+"Las opciones **Mirror Horizontally** (Simetrizar horizontalmente) y **Mirror "
+"Vertically** (Simetrizar verticalmente) permiten que las repeticiones vayan "
+"simetrizando en el sentido horizontal o vertical. Si ambas estuvieran "
+"activadas, la simetrización ocurrirá en ambos sentidos."
 
 #: ../../source/applying_special_fx.rst:669
 msgid ""
 "The Margin value sets the size of a margin around each tile, with positive "
 "values adding some space around the tiles, and negative values collapsing them."
 msgstr ""
+"El parámetro **Margin** (Margen) permite definir un margen alrededor de cada "
+"repetición del mosaico, con valores positivos insertando espacio entre ellas y "
+"negativos permitiendo juntarlas."
 
 #: ../../source/applying_special_fx.rst:675
 #: ../../source/applying_special_fx.rst:678
@@ -1614,6 +2027,9 @@ msgid ""
 "Softens the Source content, creating an out of focus effect, according to a "
 "specific Intensity."
 msgstr ""
+"Permite desenfocar el contenido conectado a *Source*, creando un efecto de "
+"fuera de foco, de acuerdo a una intensidad elegida mediante el parámetro "
+"**Intensity**."
 
 #: ../../source/applying_special_fx.rst:686
 msgid "Directional Blur"
@@ -2683,7 +3099,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:1192
 msgid "Body Highlight"
-msgstr "Body Highlight (Resaltar cuerpo)"
+msgstr "Body Highlight (Iluminar cuerpo)"
 
 #: ../../source/applying_special_fx.rst:1193
 msgid "|Body_Highlight|"
@@ -3499,7 +3915,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:1533
 msgid "Outline"
-msgstr "Outline (Contorno)"
+msgstr "Outline (Contorno exterior)"
 
 #: ../../source/applying_special_fx.rst:1534
 msgid "|Outline|"
