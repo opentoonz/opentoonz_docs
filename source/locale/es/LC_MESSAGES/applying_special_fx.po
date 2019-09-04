@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 18:59-0300\n"
-"PO-Revision-Date: 2019-09-04 12:25-0300\n"
+"PO-Revision-Date: 2019-09-04 17:30-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -3322,7 +3322,7 @@ msgstr "Premultiply (Premultiplicar)"
 
 #: ../../source/applying_special_fx.rst:1141
 msgid "Premultiplies the alpha channel of the Source node content."
-msgstr ""
+msgstr "Permite premultiplicar el canal alfa del contenido conectado a *Source*."
 
 #: ../../source/applying_special_fx.rst:1143
 msgid ""
@@ -3754,6 +3754,10 @@ msgid ""
 "specified value, where positive values correspond to dilations and negative ones "
 "to erosion."
 msgstr ""
+"Permite erosionar o dilatar el canal alfa del nodo conectado a *Source* en la "
+"medida especificada mediante el parámetro **Radius** (Radio), donde valores "
+"positivos corresponderán a una expansión del contenido y negativos a una erosión "
+"del mismo."
 
 #: ../../source/applying_special_fx.rst:1292
 msgid "HSV Key"
@@ -3768,6 +3772,9 @@ msgid ""
 "The Type parameter specifies the filter shape to be applied, the square filter "
 "being faster than the circular. Key"
 msgstr ""
+"El parámetro **Type** (Tipo) permitirá definir la forma de las esquinas del "
+"marco, aplicado alrededor de los nuevos límites de la imagen cuando el valor del "
+"radio es positivo."
 
 #: ../../source/applying_special_fx.rst:1297
 msgid ""
@@ -3775,10 +3782,15 @@ msgid ""
 "Value values. You can set the range for each value by using the related Range "
 "slider. The selection can be inverted using the Invert button."
 msgstr ""
+"Permite definir un recorte por croma para el contenido conectado a *Source*, "
+"usando los valores **Tone** (Tono), **Saturation** (Saturación) y **Value** "
+"(Valor). Será posible definir el rango para cada valor, por medio del deslizador "
+"de rango correspondiente (**H/S/V Range**). Será posible invertir la selección "
+"usando la opción **Invert**."
 
 #: ../../source/applying_special_fx.rst:1302
 msgid "Matte In"
-msgstr "Matte In (Opacidad dentro)"
+msgstr "Matte In (Opacidad interior)"
 
 #: ../../source/applying_special_fx.rst:1303
 msgid "|Matte_In|"
@@ -3789,10 +3801,12 @@ msgid ""
 "Makes the Source content visible only inside the opaque areas of the node "
 "content connected to the Matte input port."
 msgstr ""
+"Permite hacer que el contenido conectado a *Source* sea visible sólo en el "
+"interior de las áreas opacas del contenido conectado a *Matte*."
 
 #: ../../source/applying_special_fx.rst:1310
 msgid "Matte Out"
-msgstr "Matte Out (Opacidad fuera)"
+msgstr "Matte Out (Opacidad exterior)"
 
 #: ../../source/applying_special_fx.rst:1311
 msgid "|Matte_Out|"
@@ -3803,6 +3817,8 @@ msgid ""
 "Makes the source content visible only outside the opaque areas of the node "
 "content connected to the Matte input port."
 msgstr ""
+"Permite hacer que el contenido conectado a *Source* sea visible sólo en el "
+"exterior de las áreas opacas del contenido conectado a *Matte*."
 
 #: ../../source/applying_special_fx.rst:1318
 msgid "RGB Key"
@@ -3818,10 +3834,15 @@ msgid ""
 "values. You can set the range for each value by using the related Range slider. "
 "The selection can be inverted using the Invert button."
 msgstr ""
+"Permite definir un recorte por croma para el contenido conectado a *Source*, "
+"usando los valores **Red** (Rojo), **Green** (Verde) y **Azul** (Azul). Será "
+"posible definir el rango para cada valor, por medio del deslizador de rango "
+"correspondiente (**Red/Green/Blue Range**). Será posible invertir la selección "
+"usando la opción **Invert**."
 
 #: ../../source/applying_special_fx.rst:1326
 msgid "Visible Matte In"
-msgstr "Visible Matte In (Opacidad dentro visible)"
+msgstr "Visible Matte In (Opacidad interior visible)"
 
 #: ../../source/applying_special_fx.rst:1327
 msgid "|Visible_Matte_In|"
@@ -3832,6 +3853,10 @@ msgid ""
 "Makes the Up node content visible only inside the opaque areas of the node "
 "content connected to the Down input port, keeping the Down node still visible."
 msgstr ""
+"Permite hacer que el contenido conectado a *Up* sea visible sólo en el interior "
+"de las áreas opacas del contenido conectado a *Down* (al igual que sucede con el "
+"efecto Matte In), pero manteniendo la visibilidad del contenido del nodo "
+"conectado a *Down*."
 
 #: ../../source/applying_special_fx.rst:1335
 #: ../../source/applying_special_fx.rst:1338
@@ -3848,6 +3873,11 @@ msgid ""
 "can decide which noise component among Red, Green and Blue you want to activate, "
 "and if the result has to be in Black and White."
 msgstr ""
+"Permite agregar un efecto de ruido al contenido conectado a *Source*, de acuerdo "
+"al valor de **Intensity** (Intensidad) especificado. Será posible decidir cuál "
+"componente de color afectar activando las opciones **Red** (Rojo), **Green** "
+"(Verde) y **Blue** (Azul), así como si el resultado deberá ser en tonos de gris, "
+"mediante la opción **Black & White** (Blanco y negro)."
 
 #: ../../source/applying_special_fx.rst:1346
 msgid "Salt & Pepper Noise"
@@ -3862,10 +3892,12 @@ msgid ""
 "Adds a black and white noise effect to the Source content according to the set "
 "Intensity."
 msgstr ""
+"Permite agregar un ruido en blanco y negro al contenido conectado a *Source*, de "
+"acuerdo a la intensidad definida mediante el parámetro **Intensity**."
 
 #: ../../source/applying_special_fx.rst:1353
 msgid "Render"
-msgstr "Render (Generadas)"
+msgstr "Render (Generados)"
 
 #: ../../source/applying_special_fx.rst:1358
 msgid "Clouds"
@@ -3882,6 +3914,11 @@ msgid ""
 "image; a color spectrum defines the used colors (see  :ref:`Defining Colors and "
 "Color Spectrums <defining_colors_and_color_spectrums>`  )."
 msgstr ""
+"Permite crear una nueva columna/capa con una imagen fractal cuyo tipo podrá ser "
+"elegido entre **Clouds** (Nubes) y **Marble/Wood** (Mármol/Madera). **Size** "
+"(Tamaño) permitirá afectar el tamaño del patrón fractal; un espectro permitirá "
+"definir los colores a ser usados (ver  :ref:`Definición de colores y espectros "
+"de colores <defining_colors_and_color_spectrums>`  )."
 
 #: ../../source/applying_special_fx.rst:1363
 msgid ""
@@ -3891,6 +3928,11 @@ msgid ""
 "left, and consequently more pixels will be colored as the color defined at the "
 "far right of the spectrum."
 msgstr ""
+"Aumentar el valor **Min** (Mínimo) permitirá desplazar el espectro de colores "
+"hacia la derecha, lo que producirá que más píxeles utilicen el color de la "
+"izquierda del gradiente. Disminuir el valor **Max** (Máximo) permitirá desplazar "
+"el espectro de colores hacia la izquierda, lo que producirá que más píxeles "
+"utilicen el color de la derecha del gradiente."
 
 #: ../../source/applying_special_fx.rst:1365
 msgid ""
@@ -3898,6 +3940,9 @@ msgid ""
 "the variation of this value between two keys, you set how much the fractal image "
 "changes during the animation."
 msgstr ""
+"**Evolution** (Evolución) permitirá controlar el estado de evolución del patrón "
+"fractal; si se define una variación de este valor a lo largo de la animación, se "
+"podrá controlar cómo cambiará el patrón fractal con el tiempo."
 
 #: ../../source/applying_special_fx.rst:1370
 msgid "Particles"
@@ -3905,7 +3950,7 @@ msgstr "Particles (Partículas)"
 
 #: ../../source/applying_special_fx.rst:1371
 msgid "See  :ref:`Using the Particles Effect <using_the_particles_effect>` ."
-msgstr ""
+msgstr "Ver  :ref:`Uso del efecto Particles <using_the_particles_effect>` ."
 
 #: ../../source/applying_special_fx.rst:1376
 msgid "Text Iwa"
@@ -3920,10 +3965,14 @@ msgid ""
 "This effect allow for the creation of editable and animatable text, using the "
 "following parameters:"
 msgstr ""
+"Permite crear una nueva columna/capa con texto editable y animable, por medio de "
+"los siguientes parámetros:"
 
 #: ../../source/applying_special_fx.rst:1381
 msgid "**Source**, specifies the text source. You can choose one from:"
 msgstr ""
+"**Source** (Origen), permite especificar el origen del texto. Es posible elegir "
+"entre:"
 
 #: ../../source/applying_special_fx.rst:1383
 msgid ""
@@ -3933,6 +3982,11 @@ msgid ""
 "layer does not contain a Note Level or the cell is empty, text will not be "
 "rendered."
 msgstr ""
+"**Nearby Note Column** (Columna de notas cercana): Permitirá obtener el texto a "
+"partir de una columna/capa de Notas que se encuentre directamente a la izquierda "
+"de la columna del efecto en la Planilla (o debajo, en la Línea de tiempo). Si la "
+"columna/capa respectiva no fuera una de Notas o el acetato se encontrara vacío, "
+"no aparecerá ningún texto."
 
 #: ../../source/applying_special_fx.rst:1385
 msgid "|text_2|"
@@ -3944,33 +3998,49 @@ msgid ""
 "but the Note Level column number to use can be specified using the **Column "
 "Index** field below."
 msgstr ""
+"**Specified Note Column** (Columna de notas específica): Es similar a la opción "
+"**Nearby Note Column** (Columna de notas cercana), pero en este caso se podrá "
+"indicar la columna que se desee usar como origen, mediante el parámetro **Column "
+"Index** (Índice de columna) que se encuentra inmediatamente debajo."
 
 #: ../../source/applying_special_fx.rst:1389
 msgid ""
 "**Input Text**: The text typed in the **Text** field below will be used (as "
 "shown in the image on top)."
 msgstr ""
+"**Input Text** (Texto ingresado): Permitirá utilizar el texto ingresado en el "
+"campo **Text** (Texto) (tal como se muestra en la imagen de más arriba)."
 
 #: ../../source/applying_special_fx.rst:1391
 msgid ""
 "**Column Index**, specifies the source Note Level column number to use. Only "
 "used in **Specified Note Column** Source mode."
 msgstr ""
+"**Column Index** (Índice de columna), permite especificar el número de la "
+"columna/capa de Notas que deberá ser usado cuando la opción **Source** (Origen) "
+"se encuentra en el modo **Specified Note Column** (Columna de notas específica)."
 
 #: ../../source/applying_special_fx.rst:1393
 msgid ""
 "**Text**, specifies the source text. Only used in **Input Text** Source mode."
 msgstr ""
+"**Text** (Texto), permite especificar el texto de origen que deberá ser usado "
+"cuando la opción **Source** (Origen) se encuentra en el modo **Input Text** "
+"(Texto ingresado)."
 
 #: ../../source/applying_special_fx.rst:1395
 msgid ""
 "**Horizontal Align**, specifies the text align. Options are: **Left**, "
 "**Right**, **Center**, and **Justify**."
 msgstr ""
+"**Horizontal Align** (Alineación horizontal), permite especificar la alineación "
+"del texto. Las opciones son: **Left** (Izquierda), **Right** (Derecha), "
+"**Center** (Centro) y **Justify** (Justificar)."
 
 #: ../../source/applying_special_fx.rst:1397
 msgid "**Center X:**, **Y:** specify the position of the text."
 msgstr ""
+"**Center** (Centro) **X:**, **Y:** permiten especificar la posición del texto."
 
 #: ../../source/applying_special_fx.rst:1399
 msgid ""
@@ -3979,18 +4049,26 @@ msgid ""
 "adjusted in order to fit the box. (See the  :ref:`Using The Clapperboard "
 "<using_the_clapperboard>` )."
 msgstr ""
+"**Width** (Ancho), **Height** (Altura), permite definir la dimensión del marco "
+"de texto. De igual forma que en los elementos de texto de la función Claqueta, "
+"el tamaño de la tipografía se ajustará automáticamente para ajustarse al marco. "
+"(Ver  :ref:`Uso de la Claqueta <using_the_clapperboard>` )."
 
 #: ../../source/applying_special_fx.rst:1401
 msgid "**Font**, specifies the font family to use."
 msgstr ""
+"**Font** (Tipografía), permite especificar la familia tipográfica a ser usada."
 
 #: ../../source/applying_special_fx.rst:1403
 msgid "**Style:**, specifies the font style to use."
 msgstr ""
+"**Style:** (Estilo), permite especificar el estilo de la tipografía a ser usada."
 
 #: ../../source/applying_special_fx.rst:1405
 msgid "**Size:**, specifies the *maximum* font size to use."
 msgstr ""
+"**Size:** (Tamaño máximo), permite especificar el tamaño *máximo* de la "
+"tipografía a ser usado."
 
 #: ../../source/applying_special_fx.rst:1407
 msgid ""
@@ -3998,16 +4076,23 @@ msgid ""
 "size* (in order to fit the specified text box) is bigger than the value "
 "specified for this parameter."
 msgstr ""
+"El valor **Size** (Tamaño) sólo entrará en efecto cuando el *tamaño de la "
+"tipografía calculado automáticamente* (para que se ajuste al marco de texto "
+"especificado) fuera mayor que el valor especificado en este parámetro."
 
 #: ../../source/applying_special_fx.rst:1409
 msgid ""
 "**Text Color**, specifies the color of the text. This color will also be used "
 "for the border line."
 msgstr ""
+"**Text Color** (Color del texto), permite especificar el color del texto. Este "
+"color también será usado para la línea del contorno, si estuviera activada."
 
 #: ../../source/applying_special_fx.rst:1411
 msgid "**Box Color**, specifies the background color of the text box."
 msgstr ""
+"**Box Color** (Color de fondo), permite especificar el color de fondo del *marco "
+"delimitador del texto*."
 
 #: ../../source/applying_special_fx.rst:1413
 msgid ""
@@ -4017,6 +4102,12 @@ msgid ""
 "different, especially when the maximum font **Size** parameter is set to a small "
 "value."
 msgstr ""
+"**Show Border** (Mostrar contorno), al estar activado mostrará una línea en el "
+"contorno del *marco delimitador del texto*. Nótese que el *marco de texto* "
+"(especificado por el usuario) y el *marco delimitador del texto* (calculado "
+"automáticamente a partir del texto generado) podrían llegar a ser distintos, "
+"especialmente cuando el parámetro **Size** (Tamaño máximo) estuviera usando un "
+"valor bajo."
 
 #: ../../source/applying_special_fx.rst:1415
 msgid ""
@@ -4025,6 +4116,10 @@ msgid ""
 "You will need to manually regenerate the preview using the context menu of the "
 "Viewer."
 msgstr ""
+"Problema conocido: Cuando se esté usando una columna de Notas como origen del "
+"texto, al cambiar el texto de una nota, esto no disparará automáticamente una "
+"regeneración de la previsualización del texto. Se necesitará regenerar "
+"manualmente la previsualización, usando el menú contextual del Visor."
 
 #: ../../source/applying_special_fx.rst:1421
 msgid "Stylize"
@@ -4045,12 +4140,21 @@ msgid ""
 "of the light that create the emboss effect. The Radius sets the depth of the "
 "embossing."
 msgstr ""
+"Permite trazar los bordes del contenido conectado a *Source* usando una "
+"combinación de iluminaciones y sombras. **Intensity** (Intensidad) permitirá "
+"controlar la intensidad del efecto, **Distance** (Distancia) y **Direction** "
+"(Dirección) permitirán controlar respectivamente la distancia y dirección de la "
+"luz que crea el efecto de relieve. **Radius** (Radio) permite definir la "
+"profundidad del relieve."
 
 #: ../../source/applying_special_fx.rst:1431
 msgid ""
 "By connecting a node to the Controller port, the Source content will be embossed "
 "according to the Controller node content."
 msgstr ""
+"Cuando hubiera un nodo conectado a *Controller*, el relieve aplicado al "
+"contenido conectado a *Source* se generará en base a la información del nodo "
+"conectado a *Controller*."
 
 #: ../../source/applying_special_fx.rst:1436
 msgid "Emboss"
@@ -4067,6 +4171,12 @@ msgid ""
 "Distance and Direction of the light that create the emboss effect. The Radius "
 "sets the depth of the embossing."
 msgstr ""
+"Permite convertir el contenido conectado a *Source* en una imagen gris y trazar "
+"sobre la misma sus bordes usando una combinación de iluminaciones y sombras. "
+"**Intensity** (Intensidad) permitirá controlar la intensidad del efecto, "
+"**Distance** (Distancia) y **Direction** (Dirección) permitirán controlar "
+"respectivamente la distancia y dirección de la luz que crea el efecto de "
+"relieve. **Radius** (Radio) permite definir la profundidad del relieve."
 
 #: ../../source/applying_special_fx.rst:1444
 msgid "Mosaic"
@@ -4082,12 +4192,19 @@ msgid ""
 "and Distance. The color and transparency of the tiles are sampled from the "
 "source content."
 msgstr ""
+"Permite convertir el contenido conectado a *Source* en un mosaico dividido de "
+"acuerdo a los parámetros **Size** (Tamaño) y **Distance** (Distancia). El color "
+"y transparencia de las celdas del mosaico será tomado directamente del contenido "
+"original."
 
 #: ../../source/applying_special_fx.rst:1449
 msgid ""
 "A Background Color can be set, and will be visible around the tiles. The tile "
 "shape can be chosen between Square and Round."
 msgstr ""
+"Será posible definir un color de fondo, mediante el parámetro **BG Color**, que "
+"podrá ser visible entre las celdas del mosaico. El parámetro **Shape** (Forma) "
+"permitirá definir la forma de las celdas del mosaico."
 
 #: ../../source/applying_special_fx.rst:1454
 msgid "Posterize"
@@ -4104,6 +4221,12 @@ msgid ""
 "the levels are intended for each channel; for example, two levels produces six "
 "colors: two for the red, two for the green, and two for the blue."
 msgstr ""
+"Permite convertir el contenido conectado a *Source* en una cierta cantidad de "
+"tonos, de acuerdo a lo especificado en el parámetro **Levels** (Niveles). Los "
+"niveles dependerán de los valores de luminosidad del contenido original y su "
+"número se especifica como un número entero para cada uno de los canales de "
+"color; por ejemplo, dos niveles producirá seis colores: dos para el rojo, dos "
+"para el verde y dos para el azul."
 
 #: ../../source/applying_special_fx.rst:1462
 msgid "Solarize"
@@ -4120,6 +4243,11 @@ msgid ""
 "Intensity of the effect and control the Peak Edge, that is the amount of "
 "positive and negative image that is used in the blend."
 msgstr ""
+"Permite fundir una versión positiva y una negativa del contenido conectado a "
+"*Source*, como si se expusiera un negativo fotográfico brevemente a la luz, "
+"durante el proceso de revelado. Será posible definir la intensidad mediante el "
+"parámetro **Intensity**, así como controlar con el parámetro **Peak Edge** "
+"(Borde tope) la cantidad de imagen positiva y negativa usada en la mezcla."
 
 #: ../../source/applying_special_fx.rst:1471
 msgid "Toonz Level"
@@ -4661,6 +4789,14 @@ msgid ""
 "parameter sets the direction of the rays and the Bias parameter define the size "
 "of the rays. Use the Sharpness parameter to make the rays sharper or smoother."
 msgstr ""
+"Permite crear una nueva columna/capa con rayos de luz de color que se extenderán "
+"desde un gradiente radial en su centro. Será posible definir el color de los "
+"rayos solares por medio de los valores RVAα del parámetro **Color**. La cantidad "
+"de rayos estará definida por el parámetro **Rays** (Rayos), mientras que su "
+"brillo estará definido por el parámetro **Intensity** (Intensidad). **Angle** "
+"(Ángulo) permitirá definir la dirección de los rayos y **Bias** (Desviación) el "
+"tamaño de los mismos. El parámetro **Sharpness** (Nitidez) podrá ser usado para "
+"hacer que los rayos luzcan más definidos o suaves."
 
 #: ../../source/applying_special_fx.rst:1638
 msgid "Wavy"
