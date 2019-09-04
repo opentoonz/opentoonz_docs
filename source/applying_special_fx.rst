@@ -143,7 +143,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     Do one of the following:
 
-    - Choose Xsheet  →  **New FX...**.
+    - Choose Xsheet  →  **New FX...**
 
     - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window.
 
@@ -208,7 +208,7 @@ Effect nodes and links can be selected in order to be cut, copied, pasted or del
 
 When pasting a copied/cut selection, several options are available:
 
-- Use **Paste** to paste the copied/cut selection into the FX Schematic
+- Use **Paste** to paste the copied/cut selection into the FX Schematic.
 
 - Use **Paste Insert** to insert the pasted selection into the *selected links*.
 
@@ -538,6 +538,8 @@ When a preset for a particular effect is saved, in the FX Browser the effect ico
 
 Presets are saved in the ``<projectroot>\fxs\preset`` folder. This allow the presets to be available on all the computers sharing the same *Projectroot* (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
+.. note:: Currently the statement above if not true, as by default presets are being saved in ``OpenToonz stuff\fxs\presets``. On Windows it can be changed to any other path by going to the registry and changing the ``System\HKEY_LOCAL_MACHINE\SOFTWARE\OpenToonz\OpenToonz\TOONZFXPRESETS`` key to the desired location.
+
 Once a preset is applied there is no link between the *saved preset* and the *applied preset*: the applied preset can be edited without affecting the saved one.
 
 .. note:: When you save a preset with a name already used, a confirmation dialog will open, asking you whether you want to overwrite the previously saved preset.
@@ -632,7 +634,7 @@ Checkerboard
 ~~~~~~~~~~~~
  |Checkerboard| 
 
-Creates in the selected column a layer with a checkerboard defined by two Colors, and a grid Size. 
+Creates a new column/layer containing a checkerboard defined by two Colors, and a grid Size. 
 
 .. note:: The grid size can also be set by using a square gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -642,7 +644,7 @@ Color Card
 ~~~~~~~~~~
  |Color_Card| 
 
-Creates in the selected column a layer of the set Color. It can be used, for example, as a background color or to create a colorize effect by applying it combined with a multiply effect.
+Creates a new column/layer containing the set Color. It can be used, for example, as a background color or to create a colorize effect by applying it combined with a multiply effect.
 
 .. _kaleido:
 
@@ -758,13 +760,13 @@ Linear Wave
 ~~~~~~~~~~~
  |Linear_Wave| 
 
-Distorts the Source content creating a wave effect that uses an automatically generated displacement map image. The Quantity value sets the number of waves; the Period sets the distance between waves; the Cycle shifts distortion in the wave direction.
+Distorts the Source content creating a wave effect that uses an automatically generated displacement map image. The Quantity value sets the number of waves; the Period sets the distance between waves; the Phase shifts distortion in the wave direction.
 
-You can also add a Distortion Wave on the main linear waves: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
+You can also add a Transverse Wave on the main linear waves: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Cycle shifts the distorting waves.
 
 A rotation for the whole wave effect can be set by using the Angle value.
 
-The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
+The amount of distortion is controlled by the Intensity value; the detail of the distortion, by the Sensitivity parameter; the Sharpen option allows you to decrease the blur on the final result.
 
 .. _perlin_noise:
 
@@ -792,7 +794,7 @@ The stage of the displacement map image can be controlled by using the Evolution
 
 The position of the displacement map image can be shifted along the Horizontal and the Vertical axis. By setting the variation of this value between two keys, the distortion effect can be animated in any direction.
 
-The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
+The amount of distortion is controlled by the Intensity value; the detail of the distortion, by the Sensitivity parameter; the Sharpen option allows you to decrease the blur on the final result.
 
 .. note:: The position along the horizontal and vertical axis can also be set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -806,7 +808,7 @@ Distorts the Source content creating a circular wave effect that uses an automat
 
 The Center of the circular waves can be set with a Horizontal and Vertical value; circular waves can be scaled in the Horizontal and Vertical directions, and rotated according to a set Angle. 
 
-The amount of distortion is controlled by the Intensity value; the  of the distortion, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
+The amount of distortion is controlled by the Intensity value; the detail of the distortion, by the Sensitivity parameter; the Sharpen option allows you to decrease the blur on the final result.
 
 .. note:: The center and the period can be also set by using a point and a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX Settings preview as well.
 
@@ -818,7 +820,7 @@ Warp
 
 Distorts the Source content according to the brightness variation of the node content connected to the Warper input handle, that is used as a displacement map image affecting the Source content.
 
-The amount of distortion is controlled by the Intensity value; the  of the warp, by the Size of the displacement map grid; the sharpen option allows you to decrease the blur on the final result.
+The amount of distortion is controlled by the Intensity value; the detail of the warp, by the Size of the displacement map grid; the Sharpen option allows you to decrease the blur on the final result.
 
 
 .. _gradients:
@@ -832,7 +834,7 @@ Diamond Gradient
 ~~~~~~~~~~~~~~~~
  |Diamond_Gradient| 
 
-Creates in the selected column a gradient, that goes hyperbolically from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
+Creates a new column/layer containing a gradient, that goes hyperbolically from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
 .. note:: The size can also be set by using a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -842,7 +844,7 @@ Four Points Gradient
 ~~~~~~~~~~~~~~~~~~~~
  |Four_Points_Gradient| 
 
-Creates in the selected column a gradient defined by four Colors, defined by Red, Green, Blue and Alpha values, whose source Points can be placed where needed defining horizontal (X) and vertical (Y) coordinates.
+Creates a new column/layer containing a gradient defined by four Colors, defined by Red, Green, Blue and Alpha values, whose source Points can be placed where needed defining horizontal (X) and vertical (Y) coordinates.
 
 .. note:: The source points can also be set by using point gadgets in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well.
 
@@ -852,7 +854,7 @@ Linear Gradient
 ~~~~~~~~~~~~~~~
  |Linear_Gradient| 
 
-Creates in the selected column a gradual blend between two Colors defined by Red, Green, Blue and Alpha values. The Size controls the area of the gradient between the two colors.
+Creates a new column/layer containing a gradual blend between two Colors defined by Red, Green, Blue and Alpha values. The Size controls the area of the gradient between the two colors.
 
 You can also add a Distortion Wave on the linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
 
@@ -864,7 +866,7 @@ Multi Linear Gradient
 ~~~~~~~~~~~~~~~~~~~~~
  |Multi_Linear_Gradient| 
 
-Creates in the selected column a multi linear gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
+Creates a new column/layer containing a multi linear gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
 
 You can also add a Wave distortion on the multi linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the distorting waves.
 
@@ -876,7 +878,7 @@ Multi Radial Gradient
 ~~~~~~~~~~~~~~~~~~~~~
  |Multi_Radial_Gradient| 
 
-Creates in the selected column a multi radial gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
+Creates a new column/layer containing a multi radial gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors.
 
 .. note:: The period can be also set by using a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -886,7 +888,7 @@ Radial Gradient
 ~~~~~~~~~~~~~~~
  |Radial_Gradient| 
 
-Creates in the selected column a gradual blend between two colors, defined by Red, Green, Blue and Alpha values, shading them in a circular pattern. The Inner Size controls the area where the gradient between the two colors begins; the Outer Size where it ends.
+Creates a new column/layer containing a gradual blend between two colors, defined by Red, Green, Blue and Alpha values, shading them in a circular pattern. The Inner Size controls the area where the gradient between the two colors begins; the Outer Size where it ends.
 
 .. note:: The inner and outer sizes can be also set by using circle gadgets with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -896,7 +898,7 @@ Spiral
 ~~~~~~
  |Spiral| 
 
-Creates in the selected column a spiral pattern gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Frequency sets the size and number of the spires; the Phase shifts the gradient colors.
+Creates a new column/layer containing a spiral pattern gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Frequency sets the size and number of the spires; the Phase shifts the gradient colors.
 
 .. _square_gradient:
 
@@ -904,7 +906,7 @@ Square Gradient
 ~~~~~~~~~~~~~~~
  |Square_Gradient| 
 
-Creates in the selected column a square gradient, that goes linearly from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
+Creates a new column/layer containing a square gradient, that goes linearly from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) and a Size value.
 
 .. note:: The size can also be set by using a rotated square gadget with handles in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -932,16 +934,6 @@ Brightness & Contrast
 
 Increases or decreases the brightness and contrast of the Source content. 
 
-.. _despeckle:
-
-Despeckle
-~~~~~~~~~
- |Despeckle| 
-
-Elimantes small imperfections (dirt, scratches, stains and similar) of the drawing. The size in pixels of the s that will be retouched can be defined in the Size input text field. The background of the images can be Transparent or White, the choise is available in the Detect On menu.
-
-In the preview area is possible to check the results to avoid erasing s relevant for the drawing.
-
 .. _channel_mixer:
 
 Channel Mixer
@@ -968,6 +960,16 @@ It is possible to use many adjustment points to correct the curve: to add a poin
 
 The Linear option constrains the curve to a series of straight segments.
 
+.. _despeckle:
+
+Despeckle
+~~~~~~~~~
+ |Despeckle| 
+
+Elimantes small imperfections (dirt, scratches, stains and similar) of the drawing. The size in pixels of the details that will be retouched can be defined in the Size input text field. The background of the images can be Transparent or White, the choice is available in the Detect On menu.
+
+In the preview area is possible to check the results to avoid erasing details relevant for the drawing.
+
 .. _gamma:
 
 Gamma
@@ -975,6 +977,14 @@ Gamma
  |Gamma| 
 
 Changes the gamma value of the Source content.
+
+.. _hsv_scale:
+
+HSV Scale
+~~~~~~~~~
+ |HSV_Scale| 
+
+Shifts the Hue, Saturation and Value values of the Source content. Hue ranges from -180 to 180; Saturation and Value from -100 to 100. All the three settings preserve their original value at 0.
 
 .. _invert:
 
@@ -1015,14 +1025,6 @@ RGBA Scale
  |RGBA_Scale| 
 
 Changes the percentage of the Red, Green, Blue and Alpha components of the Source content. At 0 there is no red, green, blue or alpha component; at 100 the components have their original value.
-
-.. _hsv_scale:
-
-HSV Scale
-~~~~~~~~~
- |HSV_Scale| 
-
-Shifts the Hue, Saturation and Value values of the Source content. Hue ranges from -180 to 180; Saturation and Value from -100 to 100. All the three settings preserve their original value at 0.
 
 .. _sharpen:
 
@@ -1085,14 +1087,6 @@ Darken
 Compares the pixels color of the Up and Down node content and selects the darker one as the result color. The white in the Up node content does not affect the result; the black gives a black result.
 
 If only one node is defined, the darkening operation is applied to all the images underlaying its content according to the Xsheet/Timeline layering order.
-
-.. _dissolve:
-
-Dissolve
-~~~~~~~~
- |Dissolve| 
-
-Eliminates randomly pixels from the Source content according to the set Intensity. 
 
 .. _lighten:
 
@@ -1162,7 +1156,7 @@ Subtract
 
 Subtracts the red, green and blue values of the Up node content from the Down one, pixel by pixel. By activating the Alpha option, also the alpha information is considered. 
 
-If only one node is defined, the screening operation is applied to all the images underlaying connected node content according to the Xsheet/Timeline layering order.
+If only one node is defined, the subtraction operation is applied to all the images underlaying connected node content according to the Xsheet/Timeline layering order.
 
 .. _transparency:
 
@@ -1184,7 +1178,7 @@ Backlit
 ~~~~~~~
  |Backlit| 
 
-Creates a backlit effect, using the Light node content as a light source affecting the Source node content. The light node content can be also faded to a Color defined by Red, Green and Blue values, according to the set Intensity.
+Creates a backlit effect, using the Light node content as a light source affecting the Source node content by the set Intensity. The light node content can be also faded to a Color defined by Red, Green and Blue values, according to the set Fade.
 
 .. _body_highlight:
 
@@ -1208,7 +1202,7 @@ Cast Shadow
 
 Turns the Source content into a shadow that can be distorted and faded to a color with a variable transparency and blur.
 
-The distortion can be done like in the Free Distort effect (see  :ref:`Free Distort <free_distort>`  ). The fade Color can be defined by Red, Green and Blue values and an Intensity can be set. A different Blur and Transparency value can be set for the top and the bottom part of the Source content, in order to have a more realistic shadow.
+The distortion can be done like in the Free Distort effect (see  :ref:`Free Distort <free_distort>`  ). The fade Color can be defined by Red, Green and Blue values and a Fade intensity can be set. A different Blur and Transparency value can be set for the top and the bottom part of the Source content, in order to have a more realistic shadow.
 
 .. _glow:
 
@@ -1226,7 +1220,7 @@ Light Spot
 ~~~~~~~~~~
  |Light_Spot| 
 
-Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Reg, Green, Blue and Alpha values. The Softness sets the light diffusion in the area outside the spot.
+Creates a new column/layer containing a light spot whose size and color can be set respectively with the Width and Height values, and the Reg, Green, Blue and Alpha values. The Softness sets the light diffusion in the area outside the spot.
 
 .. note:: The width and height can be also set by using a box gadget with handles in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -1243,6 +1237,8 @@ The light source position is defined by horizontal (X) and vertical (Y) coordina
 Properties of the light can be set by defining the Intensity, the Color, that is set by Red, Green, Blue and Alpha values, the Decay, that is the decrease of the light intensity according to its distance from the image, and the Smoothness, that determines how sharp the rays are along the image outline.
 
 The Invert option switches the casting of rays of light from the outside of the image to the inside.
+
+The Keep Image check-box determines if the original drawing is rendered in the output or not.
 
 .. note:: The center can be also set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview.
 
@@ -1262,7 +1258,7 @@ The colours of the rays are calculated from the original drawing colours.
 
 Properties of the light can be set by defining the Intensity, the Decay, that is the decrease of the light intensity according to its distance from the image, and the Smoothness, that determines how sharp the rays are along the image outline.
 
-The Keep image check-box determines if the original drawing is rendered in the output or not.
+The Keep Image check-box determines if the original drawing is rendered in the output or not.
 
 .. _target_spot:
 
@@ -1270,7 +1266,7 @@ Target Spot
 ~~~~~~~~~~~
  |Target_Spot| 
 
-Creates in the selected column a light spot whose size and color can be set respectively with the Width and Height values, and the Red, Green, Blue and Alpha values. The direction of the spot can be set by defining the Distance of the light from the table and the Angle between the light spot direction and the table. The Decay, that is the decrease of the light intensity according to the distance from table, can be controlled as well.
+Creates a new column/layer containing a light spot whose size and color can be set respectively with the Width and Height values, and the Red, Green, Blue and Alpha values. The direction of the spot can be set by defining the Distance of the light from the table and the Angle between the light spot direction and the table. The Decay, that is the decrease of the light intensity according to the distance from table, can be controlled as well.
 
 
 .. _matte:
@@ -1286,13 +1282,13 @@ Erode/Dilate
 
 Morphologically erodes or dilates the alpha channel of the connected node by the specified value, where positive values correspond to dilations and negative ones to erosion.
 
+The Type parameter defines the shape of the corners of the frame, applied around the image, when the Radius value is positive.
+
 .. _hsv_key:
 
 HSV Key
 ~~~~~~~
  |HSV_Key| 
-
-The Type parameter specifies the filter shape to be applied, the square filter being faster than the circular. Key
 
 Defines a chroma key for the Source content using the set Hue, Saturation and Value values. You can set the range for each value by using the related Range slider. The selection can be inverted using the Invert button.
 
@@ -1329,10 +1325,18 @@ Visible Matte In
 Makes the Up node content visible only inside the opaque areas of the node content connected to the Down input port, keeping the Down node still visible.
 
 
-.. _noise:
-
 Noise
 '''''
+
+.. _dissolve:
+
+Dissolve
+~~~~~~~~
+ |Dissolve| 
+
+Eliminates randomly pixels from the Source content according to the set Intensity. 
+
+.. _noise:
 
 Noise
 ~~~~~
@@ -1358,7 +1362,7 @@ Clouds
 ~~~~~~
  |Clouds| 
 
-Creates in the selected column a fractal image whose type can be chosen between Clouds and Marble/Wood. The Size affect the grid used for generating the fractal image; a color spectrum defines the used colors (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ).
+Creates a new column/layer containing a fractal image whose type can be chosen between Clouds and Marble/Wood. The Size affect the grid used for generating the fractal image; a color spectrum defines the used colors (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ).
 
 Increasing the Minimum value shifts the color spectrum to the right, and consequently more pixels will be colored as the color defined at the far left of the spectrum. Decreasing the Maximum value shifts the color spectrum to the left, and consequently more pixels will be colored as the color defined at the far right of the spectrum.
 
@@ -1376,7 +1380,7 @@ Text Iwa
 ~~~~~~~~
  |text_1| 
 
-This effect allow for the creation of editable and animatable text, using the following parameters:
+Creates a new column/layer containing editable and animatable text, using the following parameters:
 
 - **Source**, specifies the text source. You can choose one from:
 
@@ -1396,7 +1400,7 @@ This effect allow for the creation of editable and animatable text, using the fo
 
 - **Center X:**, **Y:** specify the position of the text.
 
-- **Width**, **Height**, define the dimension of the text box. Just like in the Text items of the Clapperboard feature, the font size will be automatically adjusted in order to fit the box. (See the  :ref:`Using The Clapperboard <using_the_clapperboard>` ).
+- **Width**, **Height**, define the dimension of the text box. Just like in the Text items of the Clapperboard feature, the font size will be automatically adjusted in order to fit the box (see  :ref:`Using The Clapperboard <using_the_clapperboard>` ).
 
 - **Font**, specifies the font family to use.
 
@@ -1580,7 +1584,7 @@ The Mode option menu lets you set how the texture node content will be applied: 
 
 Shaders
 '''''''
-OpenToonz enables support for special fxs rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices to execute with extreme speed. OpenToonz's shader fxs are written in the OpenGL Shading Language (GLSL), and are located in ``OpenToonz stuff/library/shaders``. Refer to the readme.txt file there for further s on editing or creating new shader fxs.
+OpenToonz enables support for effects rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices, to execute with extreme speed. OpenToonz's shader effects are written in the OpenGL Shading Language (GLSL), and are located in ``OpenToonz stuff/library/shaders``. Refer to the readme.txt file there for further details on editing or creating new shader effects.
 
 .. _caustic:
 
@@ -1630,7 +1634,7 @@ Sun Flare
 ~~~~~~~~~
  |Sun_Flare| 
 
-Creates a new column/layer containing rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Cloud Color parameter. The number of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use the Sharpness parameter to make the rays sharper or smoother.
+Creates a new column/layer containing rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Color parameter. The number of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use the Sharpness parameter to make the rays sharper or smoother.
 
 .. _wavy:
 
