@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-01 18:59-0300\n"
-"PO-Revision-Date: 2019-09-03 09:53-0300\n"
+"PO-Revision-Date: 2019-09-04 12:25-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -3439,7 +3439,7 @@ msgstr "Light (Iluminación)"
 
 #: ../../source/applying_special_fx.rst:1184
 msgid "Backlit"
-msgstr "Backlit (Retroiluminar)"
+msgstr "Backlit (Resplandor trasero)"
 
 #: ../../source/applying_special_fx.rst:1185
 msgid "|Backlit|"
@@ -3451,6 +3451,12 @@ msgid ""
 "affecting the Source node content. The light node content can be also faded to a "
 "Color defined by Red, Green and Blue values, according to the set Intensity."
 msgstr ""
+"Permite crear un efecto de resplandor que aparecerá por detrás del contenido "
+"conectado a *Source*, utilizando el contenido conectado a *Light* como fuente de "
+"luz. La intensidad del efecto estará definida por el parámetro **Intensity**. El "
+"contenido del nodo conectado a *Light* podrá ser fundido a un **Color**, "
+"definido por sus valores Rojo, Verde, Azul y Alfa, y de acuerdo a la intensidad "
+"definida en el parámetro **Fade** (Fundir)."
 
 #: ../../source/applying_special_fx.rst:1192
 msgid "Body Highlight"
@@ -3466,6 +3472,11 @@ msgid ""
 "channel. You can set the Color of the highlight, as well as a Transparency and a "
 "Blur value to be applied."
 msgstr ""
+"Permite crear un área de iluminación en el contenido conectado a *Source*, de "
+"acuerdo a los bordes definidos por su propio canal alfa. Será posible definir el "
+"**Color** para las áreas iluminadas, el parámetro **Transparency** "
+"(Transparencia) define la transparencia del efecto y **Blur** (Desenfoque) un "
+"desenfoque para los bordes de la misma."
 
 #: ../../source/applying_special_fx.rst:1197
 msgid ""
@@ -3473,16 +3484,24 @@ msgid ""
 "(Y) Offset values, that can also be interactively set in the preview of the FX "
 "Settings window, where the offset center is displayed with a cross."
 msgstr ""
+"**Offset** (Desplazamiento) permite definir un desplazamiento para el área "
+"iluminada, mediante sus valores horizontal (X) y vertical (Y), los cuales "
+"también podrán ser definidos de forma interactiva usando la pequeña cruz roja "
+"presente en el área de previsualización del panel Opciones de efecto."
 
 #: ../../source/applying_special_fx.rst:1199
 msgid "Enabling the Invert option the effected areas will be toggled."
 msgstr ""
+"La opción **Invert** (Invertir) permite intercambiar las áreas consideradas "
+"normales e iluminadas."
 
 #: ../../source/applying_special_fx.rst:1201
 msgid ""
 "The effect can be used to create a body shadow as well, by defining a black "
 "color for the highlight."
 msgstr ""
+"El efecto también podrá ser usado para crear sombras, definiendo un **Color** "
+"negro o cambiando el parámetro **Mode** (Modo) a **Subtract** (Sustracción)."
 
 #: ../../source/applying_special_fx.rst:1206
 msgid "Cast Shadow"
@@ -3497,6 +3516,9 @@ msgid ""
 "Turns the Source content into a shadow that can be distorted and faded to a "
 "color with a variable transparency and blur."
 msgstr ""
+"Permite transformar el contenido conectado a *Source* en una sombra, que podrá "
+"ser distorsionada y fundida a un color, con un grado variable de transparencia y "
+"desenfoque."
 
 #: ../../source/applying_special_fx.rst:1211
 msgid ""
@@ -3506,6 +3528,13 @@ msgid ""
 "be set for the top and the bottom part of the Source content, in order to have a "
 "more realistic shadow."
 msgstr ""
+"La distorsión podrá ser realizada de manera análoga al efecto Free Distort "
+"(Distorsión libre) (ver  :ref:`Free Distort <free_distort>`  ). El color "
+"**Color** podrá ser definido por sus valores Rojo, Verde y Azul y podrá "
+"especificarse una intensidad mediante el parámetro **Fade** (Fundido). Será "
+"posible definir distintos valores de **Blur** (Desenfoque) y **Transparency** "
+"(Transparencia) para las partes **Top** (Superior) y **Bottom** (Inferior) de la "
+"sombra generada, para alcanzar un resultado más realista."
 
 #: ../../source/applying_special_fx.rst:1216
 msgid "Glow"
@@ -3522,6 +3551,12 @@ msgid ""
 "glowing can be set; the Light node content can be also faded to a color defined "
 "by Red, Green and Blue values, according to the set Intensity."
 msgstr ""
+"Permite crear un efecto de resplandor, utilizando el contenido conectado a "
+"*Light* como una luz que resplandecerá sobre el contenido conectado a *Source*. "
+"Será posible definir el **Blur** (Desenfoque) y **Brightness** (Brillo) del "
+"resplandor; el contenido del nodo conectado a *Light* también podrá ser fundido "
+"a un **Color**, definido mediante sus valores Rojo, Verde, Azul y Alfa, que será "
+"aplicado de acuerdo al parámetro **Fade** (Fundir)."
 
 #: ../../source/applying_special_fx.rst:1221
 msgid ""
@@ -3529,6 +3564,10 @@ msgid ""
 "underlaying the Light node content according to the Xsheet/Timeline layering "
 "order."
 msgstr ""
+"Si no hubiera un nodo conectado a *Source*, la operación de resplandor se "
+"aplicará con respecto a todas las imágenes que quedaran por debajo de su "
+"contenido, de acuerdo al orden natural de composición de las columnas en la "
+"Planilla (o capas en la Línea de tiempo)."
 
 #: ../../source/applying_special_fx.rst:1226
 msgid "Light Spot"
@@ -3544,15 +3583,18 @@ msgid ""
 "respectively with the Width and Height values, and the Reg, Green, Blue and "
 "Alpha values. The Softness sets the light diffusion in the area outside the spot."
 msgstr ""
+"Permite crear una nueva columna/capa con un foco de luz, cuyo tamaño podrá ser "
+"definido por los parámetros **Width** (Ancho) y **Height** (Altura), y su "
+"**Color** por los valores Rojo, Verde, Azul y Alfa. **Softness** (Suavidad) "
+"permitirá definir la difusión de la luz en el área exterior al foco."
 
 #: ../../source/applying_special_fx.rst:1231
-#, fuzzy
 msgid ""
 "The width and height can be also set by using a box gadget with handles in the "
 "Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
-"El tamaño de la cuadrícula también podrá ser definido usando el manipulador del "
-"efecto en el Visor (ver  :ref:`Usando los Manipuladores de efectos "
+"El ancho y altura también podrán ser definidos usando el manipulador del efecto "
+"en el Visor (ver  :ref:`Usando los Manipuladores de efectos "
 "<using_fx_gadgets>`  )."
 
 #: ../../source/applying_special_fx.rst:1236
@@ -3568,6 +3610,8 @@ msgid ""
 "Places a source of light behind the Source node content, casting rays of light "
 "outside or inside the image outline."
 msgstr ""
+"Permite ubicar una fuente de luz detrás del contenido conectado a *Source*, "
+"proyectando rayos de luz hacia afuera o adentro del contorno de la imagen."
 
 #: ../../source/applying_special_fx.rst:1241
 #: ../../source/applying_special_fx.rst:1259
@@ -3577,6 +3621,12 @@ msgid ""
 "cast along the image outline; by changing the Distance value you can make the "
 "light source approach to or go away from the image."
 msgstr ""
+"La posición de la fuente de luz estará definida por las coordenadas horizontal "
+"(X) y vertical (Y) del parámetro **Center** (Centro). Al cambiar la posición de "
+"la fuente de luz será posible cambiar la forma en la que los rayos son "
+"proyectados por el contorno de la imagen; al cambiar el parámetro **Distance** "
+"(Distancia) será posible hacer que la fuente de luz se acerque o aleje de la "
+"imagen."
 
 #: ../../source/applying_special_fx.rst:1243
 msgid ""
@@ -3585,28 +3635,37 @@ msgid ""
 "light intensity according to its distance from the image, and the Smoothness, "
 "that determines how sharp the rays are along the image outline."
 msgstr ""
+"Las propiedades de la luz podrán ser definidas mediante los siguientes "
+"parámetros: **Intensity** (Intensidad) permitirá definir la intensidad de la "
+"luz, **Color** su color mediante los valores de Rojo, Verde, Azul y Alfa; "
+"**Decay** (Decaimiento) la disminución de la intensidad de la luz, de acuerdo a "
+"su distancia de la imagen, y **Smoothness** (Suavidad) determinará qué tan "
+"definidos serán los haces de luz proyectados en el contorno de la imagen."
 
 #: ../../source/applying_special_fx.rst:1245
 msgid ""
 "The Invert option switches the casting of rays of light from the outside of the "
 "image to the inside."
 msgstr ""
+"La opción **Invert** (Invertir) permite lograr que la proyección de rayos se "
+"produzca en el interior de la imagen, en vez de en su exterior."
 
 #: ../../source/applying_special_fx.rst:1247
-#, fuzzy
 msgid ""
 "The center can be also set by using a point gadget in the Viewer (see  :ref:"
 "`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview."
 msgstr ""
-"El tamaño de la cuadrícula también podrá ser definido usando el manipulador del "
-"efecto en el Visor (ver  :ref:`Usando los Manipuladores de efectos "
-"<using_fx_gadgets>`  )."
+"El centro también podrá ser definido usando el manipulador del efecto en el "
+"Visor (ver  :ref:`Usando los Manipuladores de efectos <using_fx_gadgets>`  ), "
+"así como en el área de previsualización del panel Opciones de efecto."
 
 #: ../../source/applying_special_fx.rst:1249
 msgid ""
 "The Source node content needs to have a significant alpha channel in order to "
 "have an effective result."
 msgstr ""
+"El contenido del nodo conectado a *Source* deberá tener presente información de "
+"canal alfa, para poder ser usado de forma exitosa con este efecto."
 
 #: ../../source/applying_special_fx.rst:1254
 msgid "Color Raylit"
@@ -3621,10 +3680,14 @@ msgid ""
 "Places a source of light behind the Source node content, casting rays of light "
 "outside the image outline."
 msgstr ""
+"Permite ubicar una fuente de luz detrás del contenido conectado a *Source*, "
+"proyectando rayos de luz hacia afuera del contorno de la imagen."
 
 #: ../../source/applying_special_fx.rst:1261
 msgid "The colours of the rays are calculated from the original drawing colours."
 msgstr ""
+"Los colores de los rayos serán calculados a partir de los colores originales del "
+"dibujo."
 
 #: ../../source/applying_special_fx.rst:1263
 msgid ""
@@ -3633,12 +3696,19 @@ msgid ""
 "and the Smoothness, that determines how sharp the rays are along the image "
 "outline."
 msgstr ""
+"Las propiedades de la luz podrán ser definidas mediante los siguientes "
+"parámetros: **Intensity** (Intensidad) permitirá definir la intensidad de la "
+"luz, **Decay** (Decaimiento) la disminución de la intensidad, de acuerdo a su "
+"distancia de la imagen, y **Smoothness** (Suavidad) determinará qué tan "
+"definidos serán los haces de luz proyectados en el contorno de la imagen."
 
 #: ../../source/applying_special_fx.rst:1265
 msgid ""
 "The Keep image check-box determines if the original drawing is rendered in the "
 "output or not."
 msgstr ""
+"La opción **Keep Image** (Mantener imagen) permitirá decidir si la imagen "
+"original deberá ser mostrada en el resultado final o no."
 
 #: ../../source/applying_special_fx.rst:1270
 msgid "Target Spot"
@@ -3657,6 +3727,14 @@ msgid ""
 "table. The Decay, that is the decrease of the light intensity according to the "
 "distance from table, can be controlled as well."
 msgstr ""
+"Permite crear una nueva columna/capa con un foco de luz, cuyo tamaño podrá ser "
+"definido por los parámetros **Width** (Ancho) y **Height** (Altura), y su "
+"**Color** por los valores Rojo, Verde, Azul y Alfa. La dirección del foco podrá "
+"ser definida controlando los parámetros **Distance** (Distancia), que permite "
+"establecer la distancia del foco a la mesa, y **Angle** (Ángulo) que permite "
+"definir el ángulo entre la dirección del foco y la mesa. Mediante el parámetro "
+"**Decay** (Decaimiento) también podrá ser controlado el decaimiento de la "
+"intensidad del foco con la distancia."
 
 #: ../../source/applying_special_fx.rst:1279
 msgid "Matte"
@@ -3787,7 +3865,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:1353
 msgid "Render"
-msgstr "Render (Procesamiento)"
+msgstr "Render (Generadas)"
 
 #: ../../source/applying_special_fx.rst:1358
 msgid "Clouds"
