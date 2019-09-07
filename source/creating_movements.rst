@@ -186,9 +186,7 @@ Columns/layers and pegbars are always linked, at least to the table: this means 
 
     - Use the **Animate** tool (|animate|) with the **Pick:** option set to **Pegbar** to click a drawing in the viewer and select the first pegbar in the hierarchy the column containing the drawing is linked to.
 
-    - Right-click a drawing in the viewer to choose from the menu that opens the **Select** command related to the object hierarchically linked that you want to edit, from the first one up to the table.
-
-    .. note:: The right-click menu lists in first place all the columns/layers containing overlapping drawings, then the columns/layers and objects that are hierarchically linked to the clicked one.
+    - Right-click a drawing in the viewer to choose from the menu that opens the **Select** command related to the object that you want to edit.
 
 .. tip:: **To select links:**
 
@@ -244,15 +242,15 @@ Apart from letters, columns have also numbered centers as well; these serve for 
 
     2. Click and **drag up or down the double-arrow** button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects.
 
-.. tip:: **To set the way a linked object overlaps the parent object:**
+.. tip:: **To set the way a child object overlaps its parent object:**
 
     Do any of the following:
 
-    - Set the **same letter** for the two ports at the end of a link to overlap the objects without an offset.
+    - Set the *same letter* for the two ports at the end of a link to overlap the objects without an offset.
 
-    - Set the **following letter in alphabetical order** on the left port of the linked object to offset it to the right: for each successive letter there is an offset of 8 inches to the right.
+    - Set the *following letter* in alphabetical order on the **left port** of the **child object** to offset it to the left: for each successive letter there is an offset of 8 inches to the left.
 
-    - Set the **previous letter in alphabetical order** on the left port of the linked object to offset it to the left: for each successive letter there is an offset of 8 inches to the left.
+    - Set the *following letter* in alphabetical order on the **right port** of the **parent object** to offset it to the right: for each successive letter there is an offset of 8 inches to the right.
 
 
 .. _using_hooks:
@@ -359,7 +357,7 @@ Hook information is saved along with each level, as a file in XML format, named 
 
     - When both feet are on the ground line you can split the hook to pass it form one foot to the other.
 
-    - If the animation is a cycle and you want the character to keep on walking, the last hook position has to be connected to the first, and the hook has to pass from one foot to the other by splitting it, and then to the first one again by splitting it again. 
+    - If the animation is a cycle and you want the character to keep on walking, the last hook position has to be connected to the first one, and the hook has to pass from one foot to the other by splitting it, and then to the first one again by splitting it again. 
 
 
 .. _tracking_points:
@@ -427,27 +425,27 @@ You can animate the position, rotation, scale and shear (plus edit the center) o
 
 In the **Animate tool** (|animate|) options bar you can set the following:
 
-    - **Select:** lets you select which scene element is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself.
+    - **Object:**, lets you select which scene object is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself.
     
-    - **Tool Mode:** lets you choose which transformation options to display in the tool options bar. Options are: **Position**, **Rotation**, **Scale**, **Shear**, **Center** and **All**.
+    - **Mode:**, lets you choose which transformation options to display in the tool options bar. Options are: **Position**, **Rotation**, **Scale**, **Shear**, **Center** and **All**.
 
-    - **Position** **N/S** and **E/W** set the vertical and horizontal positions of the selected object, position **Z** sets its position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO** sets the column/layer stacking order, that can be different from the one defined in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+    - **Position**, **N/S:** and **E/W:** set the vertical and horizontal positions of the selected object, position **Z:** sets its position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO:** sets the column/layer stacking order, that can be different from the one defined in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
     |animate_tool_position|
 
-    - **Rotation** sets the rotation of the selected object.
+    - **Rotation:**, sets the rotation of the selected object.
 
     |animate_tool_rotation|
 
-    - **Scale Global**, **H** and **V** set the global, horizontal and vertical scaling of the selected object. **Maintain:** sets a constraint for scaling operations performed by using the Animate tool handle: if it is set to **A/R** the object will maintain its proportions, if it is set to **Mass** the object will maintain its overall volume.
+    - **Scale**, **Global:**, **H:** and **V:** set the global, horizontal and vertical scaling of the selected object. **Maintain:** sets a constraint for scaling operations performed by using the Animate tool handle: if it is set to **A/R** the object will maintain its proportions, if it is set to **Mass** the object will maintain its overall volume.
 
     |animate_tool_scale|
 
-    - **Shear** **H** and **V** set the horizontal and vertical shearing of the selected object.
+    - **Shear**, **H:** and **V:** set the horizontal and vertical shearing of the selected object.
 
     |animate_tool_shear|
 
-    - **Center** **N/S** and **E/W** set the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
+    - **Center**, **N/S:** and **E/W:** set the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
 
     |animate_tool_center|
 
@@ -455,7 +453,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
     |animate_tool_all|
 
-    - **Pick:** (only available in All mode) lets the user choose to automatically select columns/layers or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column/layer; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column/layer containing the drawing is linked (if there is one); qhen set to **None** the selection of drawings in the viewer is disabled.
+    - **Pick:** (only available in All mode) lets the user choose to automatically select columns/layers or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically selects the related column/layer; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column/layer containing the drawing is linked (if there is one); when set to **None** the selection of drawings in the Viewer is disabled.
 
     - **Lock buttons** (|lock|) define which values remain locked while transforming the object.
 
@@ -497,9 +495,9 @@ When the Animation tool is in **All** mode, you can also interactively control t
 
 .. note:: The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the Center is changed many times, and you want to set it back to its original position, right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens.
 
-When entering a value or operating the handle, a key position will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations.
+When entering a value or operating the handle, a keyframe will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations.
 
-If you want to set a key for an object transformation, maintaining its value as it is at the current frame, you can just press **Enter** on the displayed value; if the **Global Key** option is activated, keys will be generated for all of the transformations. If you want to set keys for all of the object transformations maintaining their values as they are at the current frame, you can use the **Set Key** button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations, regardless of the **Global Key** option.
+If you want to set a key for an object transformation, maintaining its value as it is at the current frame, you can just press **Enter** on the displayed value. If you want to set keys for all of the object transformations maintaining their values as they are at the current frame, you can use the **Set Key** button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations, regardless of the **Global Key** option.
 
 .. note:: Objects can also be animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  ).
 
@@ -517,11 +515,11 @@ If you want to set a key for an object transformation, maintaining its value as 
 
     - Use the **Animate** tool (|animate|) with the **Pick:** option set to **Pegbar** to click a drawing in the viewer to select the pegbar that the column containing the drawing is linked to.
 
-    - Right-click in the viewer a drawing to select an object from the list of the objects hierarchically linked to the column containing the drawing, from the first one up to the table and current camera (see  :ref:`Linking Objects <linking_objects>`  ). 
+    - Right-click in the Viewer a drawing to select an object from the list of scene objects. 
 
 .. tip:: **To animate an object with the Animate tool:**
 
-    1. Select the object you want to edit.
+    1. Select the object you want to animate.
 
     2. Choose the **Animate** tool (|animate|). 
 
@@ -647,7 +645,7 @@ As soon as a path is assigned to an object's node, the object will be automatica
 
 The keyframes of the object on the motion path can be defined by dragging the object along it, and they are *expressed as a percentage* where 0% is the starting point and 100% is the ending point of the path. 
 
-It's also possible to link the key positions of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
+It's also possible to link the keyframes of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points are, the object snaps to them when it is dragged along the motion path.
 
 .. note:: If you want to change the center of the object, you can move it using the **Animate** tool (|animate|), and then use the **Reset Center** command in the Stage Schematic.
 
@@ -687,7 +685,7 @@ It's also possible to link the key positions of the objects to the positions of 
 
     Click the button at *the far left* of the object bottom port to switch between two options: the **Square** button (|square|) will preserve the object's original orientation, and the **Rotated Square** button (|rhomb|) will automatically rotate the object according to the motion path's direction.
 
-.. tip:: **To link the object key positions to the control points defining the motion path:**
+.. tip:: **To link the object keyframes to the control points defining the motion path:**
 
     Click the button *next to* the object bottom port to activate or deactivate the **Link to Control Points** option (|link_to_control_points|).
 
@@ -752,7 +750,7 @@ As soon as a keyframe is defined for a column/layer, a **Key icon** is displayed
 
 |using_column_keys|
 
-When the **Global Key** option is activated for the **Animate** tool, and the default interpolation is not set to **Linear**, as soon as at least two keyframes are created for a column, **a vertical line connecting them with two arrowheads** is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed, and speed out phases *of all the transformations defined*. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
+When the **Global Key** option is activated for the **Animate** tool, and the default interpolation is not set to **Linear**, as soon as at least two keyframes are created for a column, **a line connecting them with two arrowheads** is displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed, and speed out phases *of all the transformations defined*. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement.
 
 You can also cycle previously created keys, in order to repeat automatically all the previously defined keys for the whole length of the scene, with no need to copy and paste keys from cells to cells.
 
@@ -784,7 +782,7 @@ All animations and interpolations set for the column/layer can be visible and ed
 
 .. tip:: **To move a key selection:**
 
-    Click any of the selected keys and drag the selection to the new position. Dragging is allowed only vertically.
+    Click any of the selected keys and drag the selection to the new position. Dragging is allowed only inside its own column/layer.
 
 .. tip:: **To edit a key selection:**
 
@@ -802,7 +800,7 @@ All animations and interpolations set for the column/layer can be visible and ed
 
 .. tip:: **To set the speed of the movement or transformation:**
 
-    **Click the arrowheads** available on the vertical line connecting two subsequent keys, **and drag them up or down** to the new position. In particular:
+    **Click the arrowheads** available on the line connecting two subsequent keys, **and drag them up or down** to the new position. In particular:
 
     - To set a **constant speed**, drag the top arrowhead close to the first key icon to eliminate the ease in section, and the bottom arrowhead close to the second key icon to eliminate the ease out section.
 
@@ -812,11 +810,11 @@ All animations and interpolations set for the column/layer can be visible and ed
 
 .. tip:: **To make the arrowheads available when they are not:**
 
-    Right-click the vertical line connecting two subsequent keys and choose **Reset Interpolation** from the menu that opens.
+    Right-click the line connecting two subsequent keys and choose **Reset Interpolation** from the menu that opens.
 
 .. tip:: **To activate/deactivate the cycling of previously created keys:**
 
-    Click the **Circular arrow** icon (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled movement are marked on the right by *a vertical zigzagged line*. 
+    Click the **Circular arrow** icon (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled movement are marked on the right by *a zigzagged line*. 
 
 .. tip:: **To open the Function Editor:**
 
@@ -910,19 +908,19 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
 .. tip:: **To move the work area displayed in 3D:**
 
-    Select the **Hand** tool(|hand|) and drag in the viewer.
+    Select the **Hand** tool (|hand|) and drag in the viewer.
 
 .. tip:: **To rotate the work area displayed in 3D:**
 
-    Select the **Rotate** tool(|rotate|) and drag in the viewer.
+    Select the **Rotate** tool (|rotate|) and drag in the viewer.
 
 .. tip:: **To set a side or a top view:**
 
     Do one of the following:
 
-    - To set a **Side view** use the button (|side_view|) available on the side wall or the 3D environment.
+    - To set a **Side view** use the button (|side_view|) available on the side wall of the 3D environment.
 
-    - To set a **Top view** use the button (|top_view|) available on the floor or the 3D environment.
+    - To set a **Top view** use the button (|top_view|) available on the floor of the 3D environment.
 
 .. tip:: **To exit the 3D environment:**
 
