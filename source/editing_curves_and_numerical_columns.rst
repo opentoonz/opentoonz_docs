@@ -167,7 +167,7 @@ Columns cells can be used to type in directly values for keys, edit or move them
 
 .. tip:: **To displace the channel along the column:**
 
-    Click the *vertical strip* at the left of column cells, and drag it up or down to the new position: the whole content moves along the column.
+    Click the *vertical strip* at the left of the selected column cells, and drag it up or down to the new position: the content of the segments completely included in the selection will move along the column.
 
 .. tip:: **To copy/cut and paste column values:**
 
@@ -229,7 +229,7 @@ Frames and keyframes can be navigated by using the related buttons in the top ba
 
     - Click the **Set Key** button (|key|) to add a keyframe at the current frame.
 
-    - Type a value in the **Value** text box to add a key point at the current frame.
+    - Type a value in the **Value** text box to add a keyframe at the current frame.
 
     - Right-click and choose **Set Key** from the menu that opens.
 
@@ -279,7 +279,7 @@ Frames and keyframes can be navigated by using the related buttons in the top ba
 
 .. tip:: **To cycle previously created keyframes:**
 
-    Right-click the curve and choose **Activate Cycle** from the menu that opens.
+    Right-click the dashed line after the end of the curve and choose **Activate Cycle** from the menu that opens.
 
 .. tip:: **To disable the cycle:**
 
@@ -308,11 +308,11 @@ In the same area it is also possible to define an interpolation **Step**, that i
     
     3. Click the **Apply** button to apply the desired change.
 
-.. tip:: **To set the Step of the interpolation:**
+.. tip:: **To set the type of interpolation for multiple segments in the Spreadsheet:**
 
-    1. Specify the **Step** value in the interpolation area of the Function Editor.
-    
-    2. Click the **Apply** button to apply the desired change.
+    1. Make a cell selection that encompases multiple keyframe segments.
+
+    2. Right click on one of the selected cells and choose the desired interpolation type in the menu that opens.
 
 .. tip:: **To set the type of interpolation for a segment in the Graph Editor:**
 
@@ -327,6 +327,12 @@ In the same area it is also possible to define an interpolation **Step**, that i
     3. Click the **Apply** button to apply the desired change.
 
     .. note:: The interpolation options are also available when right-clicking a segment.
+
+.. tip:: **To set the Step of the interpolation:**
+
+    1. Specify the **Step** value in the interpolation area of the Function Editor.
+    
+    2. Click the **Apply** button to apply the desired change.
 
 
 .. _using_linear_interpolations:
@@ -424,7 +430,7 @@ When the interpolation is Ease In / Ease Out, the segment is divided into three 
 
     - Enter the **Ease In** and **Ease Out** values in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Move the vertical line setting the Ease In or Ease Out section of the segment, to change the curve after or before the key point.
+    - Move the vertical line setting the Ease In or Ease Out section of the segment, to change the curve after or before the keyframe.
 
 
 .. _using_ease_in_/_ease_out_%_interpolations:
@@ -452,7 +458,7 @@ The Ease In / Ease Out % interpolation is similar to the Ease In / Ease Out one,
 
     - Enter the **Ease In** and **Ease Out** values in the Interpolation area of the Function Editor and click the **Apply** button.
 
-    - Move the vertical line setting the Ease In or Ease Out section of the curve segment, to change the curve after or before the key point.
+    - Move the vertical line setting the Ease In or Ease Out section of the curve segment, to change the curve after or before the keyframe.
 
 
 .. _using_exponential_interpolations:
