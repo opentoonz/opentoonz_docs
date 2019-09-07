@@ -64,6 +64,10 @@ Sets if and which control image has to be used for the particles source (see  :r
 
 If used, particles are generated only inside the *opaque areas* of the **Control Image**.
 
+.. figure:: /_static/using_the_particles_effect/01_source_control-image.png
+
+   Particles generated according to an image-controlled source.
+
 
 .. _threshold:
 
@@ -101,6 +105,10 @@ Sets the size of the Source area.
 .. note:: The **Width** and **Height** can be also set by using a box gadget with handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
 .. note:: These values *are not* considered in case a Control Image is used.
+
+.. figure:: /_static/using_the_particles_effect/02_source_areas.png
+
+   Particles generated according to a small square source at the center of the camera, and according to a wide box placed at the top of the camera.
 
 
 .. _particle_generation:
@@ -202,6 +210,10 @@ Assigns randomly to each particle an angle value defining the speed direction, a
 
 The value 0 is for an upward direction; higher values turn the direction clockwise.
 
+.. figure:: /_static/using_the_particles_effect/03_birth_speed-angle.png
+
+   A particle animation with different random speed, and with different random speed and direction angle.
+
 
 .. _linked_to_scale:
 
@@ -220,6 +232,10 @@ Size, Mass and Orientation
 Size
 ~~~~
 Assigns randomly a size to each particle, according to the minimum and maximum values. The size is expressed as a percentage, where 100 is the original size.
+
+.. figure:: /_static/using_the_particles_effect/04_birth_size.png
+
+   Particles generated with a fixed size and with a random one.
 
 Control Image
 ~~~~~~~~~~~~~
@@ -257,6 +273,10 @@ Control Image
 Sets if and which control image has to be used to control particles orientation (see  :ref:`Defining Control Images <defining_control_images>`  ).
 
 If used, the orientation value range defined above will be distributed according to the brightness value of the control image pixel where the particle is generated. 
+
+.. figure:: /_static/using_the_particles_effect/05_birth_random-orientation.png
+
+   Different random orientation assigned to same-size and to different-sized particles.
 
 
 .. _trail:
@@ -350,11 +370,20 @@ Gravity Angle
 ~~~~~~~~~~~~~
 Defines the gravity direction. The value 0 is for an upward direction; higher values turn the direction clockwise.
 
+.. figure:: /_static/using_the_particles_effect/06_environment_gravity.png
+
+   A particle animation without and with gravity.
+
+
 Control Image
 ~~~~~~~~~~~~~
 Sets if and which control image has to be used to define a gravity field affecting the particles motion (see  :ref:`Defining Control Images <defining_control_images>`  ).
 
 If used, the particles will be attracted by the brighter areas of the image, ignoring the set Gravity Angle value: the brightest areas of the image will have the Gravity value you set. For best results, the dark and light areas should be smoothly blended.
+
+.. figure:: /_static/using_the_particles_effect/07_environment_gravity_control-image.png
+
+   A single particle movement without and with an image-controlled gravity.
 
 
 .. _friction:
@@ -375,6 +404,10 @@ Sets if and which control image has to be used to define a friction field affect
 If used, the particles will be attracted by the brighter areas of the image, ignoring the set Gravity Angle value: the brightest areas of the image will have the Gravity value you set.
 
 If used, the particles motion will be affected by the brighter areas of the image: the brightest areas of the image will have the Friction value you set. For best results, the dark and light areas should be smoothly blended. If you want the particles to stop suddenly, use a high intensity value.
+
+.. figure:: /_static/using_the_particles_effect/08_environment_friction_control-image.png
+
+   A particle animation with an image-controlled friction.
 
 
 .. _wind:
@@ -490,6 +523,10 @@ Extra Speed
 ~~~~~~~~~~~
 Sets the minimum and maximum value that is randomly added to the rotational speed, thus creating a more chaotic rotation.
 
+.. figure:: /_static/using_the_particles_effect/09_animation_rotation_extra.png
+
+   A particle animation with a fixed rotation speed, and with extra speed including smooth swing.
+
 Swing Mode
 ~~~~~~~~~~
 Sets the way the spinning is performed; options are the following:
@@ -511,6 +548,10 @@ Sets the minimum and maximum number of frames throughout which the extra speed v
 Follow Particles Movement
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Rotates the particles according to their movement direction. The particle preserves its original orientation when the movement is horizontal to the right.
+
+.. figure:: /_static/using_the_particles_effect/10_animation_follow.png
+
+   A particle animation without and with the Follow Particles Movement option.
 
 
 .. _opacity:
@@ -585,6 +626,10 @@ Control Image
 Sets if and which control image has to be used to define the particles birth colors (see  :ref:`Defining Control Images <defining_control_images>`  ).
 
 If used, particles will pick their birth color from the control image pixels according to their birth position.
+
+.. figure:: /_static/using_the_particles_effect/11_colors_birth_control-image.png
+
+   A control image used to assign color to the generated particles.
 
 
 .. _birth_spread:
