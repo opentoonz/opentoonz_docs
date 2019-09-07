@@ -17,11 +17,11 @@ Particles are defined by parameters organized in different folders: *Source*, *B
 
 Defining Particle Images
 ------------------------
-Any column content can be used as a particle: its animated content and its animation will be reflected by the particle animation, using the transformations and the drawings exposed in the column cells at the related frame in each point of the particle life. 
+Any column/layer content can be used as a particle: its animated content and its animation will be reflected by the particle animation, using the transformations and the drawings exposed in the column/layer cells at the related frame in each point of the particle life. 
 
-For example if a level is exposed in the column at step two, the particle Texture will be animated at step two as well; or if you have a drawing that's spinning because the column is animated, the particle will be spinning as well.
+For example if a level is exposed in the column/layer at step two, the particle Texture will be animated at step two as well; or if you have a drawing that's spinning because the column/layer is animated, the particle will be spinning as well.
 
-To use a column content as a particle, the column node has to be linked to the **Texture** port of the particles effect node. As soon as a column is linked to the texture input port, a new texture port is available: in this way it is possible to use the content of several columns as particles.
+To use a column/layer content as a particle, the column/layer node has to be linked to the **Texture** port of the particles effect node. As soon as a column/layer is linked to the texture input port, a new texture port is available: in this way it is possible to use the content of several columns/layers as particles.
 
 .. note:: Image formats containing DPI information are loaded using that image DPI; in this case the particles level will be camera resolution independent.
 
@@ -30,11 +30,11 @@ To use a column content as a particle, the column node has to be linked to the *
 
 Defining Control Images
 -----------------------
-A column contents can also be used to control some parameters of the particles effect: its animated content and its animation will affect the particles parameter according to specific image properties, such as brightness or transparency.
+A column/layer contents can also be used to control some parameters of the particles effect: its animated content and its animation will affect the particles parameter according to specific image properties, such as brightness or transparency.
 
-For example if the level exposed in the column is animated, and the column is used to control the particles **Source**, the particles Source will follow the animation of the level; or if the column is moving and it's used to control the **Gravity** field, the Gravity field will move as well.
+For example if the level exposed in the column/layer is animated, and the column/layer is used to control the particles **Source**, the particles Source will follow the animation of the level; or if the column/layer is moving and it's used to control the **Gravity** field, the Gravity field will move as well.
 
-To use a column contents as a Control Image, connect the column node to a **Control** input port of the Particles effect node. As soon as the column is linked to the Control input port, a new Control port is available: in this way it's possible to use the contents of several columns to control the Particles effect.
+To use a column/layer contents as a Control Image, connect the column/layer node to a **Control** input port of the Particles effect node. As soon as the column/layer is linked to the Control input port, a new Control port is available: in this way it's possible to use the contents of several columns/layers to control the Particles effect.
 
 To apply the control image to a parameter, use the related field available in the *FX Settings* pane: to specify a **Control Image**, type the number related to the control image port; to use no control image, type the number **0**.
 
@@ -83,13 +83,20 @@ Multiple Generators in Control Image
 When activated, *each* defined opaque area of the Control Image will have the same number of generated particles, totalling the **Birth Rate**. For example if the Birth Rate is 20, and the Control Image has 4 defined opaque areas, 5 particles will be generated in each area.
 
 
+.. _use_control_image_gradation:
+
+Use Control Image Gradation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When activated, the intensity of the opacity in the Control Image defines the generation density of the particles. This option cannot be used at the same time as **Multiple Generators in Control Image**.
+
+
 .. _center:
 
 Center
 ~~~~~~
 Sets the source Center position, defined by horizontal (X) and vertical (Y) coordinates; it can also be interactively set in the preview of the FX Settings pane, where the Center point is displayed as a cross. 
 
-If you want to animate the Source to create a trail of particles, you can do it either by animating the Center coordinates, or by animating a column, containing the source area, that has to be used as the Control Image for the Source (see above).
+If you want to animate the Source to create a trail of particles, you can do it either by animating the Center coordinates, or by animating a column/layer, containing the source area, that has to be used as the Control Image for the Source (see above).
 
 .. note:: The Center can be also set by using a point gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ).
 
@@ -161,7 +168,7 @@ Particle
 
 Animation
 ~~~~~~~~~
-The particle animation follows the source node content, but you can decide how that content is used, especially in case the Particles effect is longer than the Texture columns content. The following options are available:
+The particle animation follows the source node content, but you can decide how that content is used, especially in case the Particles effect is longer than the Texture columns/layers content. The following options are available:
 
 - **Hold Frame** randomly assigns a frame from the Texture node content to each generated particle; that frame is kept throughout the life of the particle. 
 
@@ -202,6 +209,13 @@ Sets if and which control image has to be used to control the particles speed (s
 If used, the speed value range defined above will be distributed according to the brightness value of the control image pixel where the particle is generated: particles will be faster where the image is brighter.
 
 
+.. _linked_to_scale:
+
+Linked to Scale
+~~~~~~~~~~~~~~~
+Assigns to each particle a speed value, taken between the minimum and maximum speed, according to the Size value applied to the particle. This causes the largest particles to be the fastest, emphasizing a depth of field effect.
+
+
 .. _speed_angle:
 
 Speed Angle
@@ -215,11 +229,11 @@ The value 0 is for an upward direction; higher values turn the direction clockwi
    A particle animation with different random speed, and with different random speed and direction angle.
 
 
-.. _linked_to_scale:
+.. _use_gradient_angle:
 
-Linked to Scale
-~~~~~~~~~~~~~~~
-Assigns to each particle a speed value, taken between the minimum and maximum speed, according to the Size value applied to the particle. This causes the largest particles to be the fastest, emphasizing a depth of field effect.
+Use Gradient Angle
+~~~~~~~~~~~~~~~~~~
+When activated, adjusts the initial velocity to the gradient vector of the Control Image **Speed Angle**.
 
 
 .. _size,_mass_and_orientation:
@@ -236,6 +250,14 @@ Assigns randomly a size to each particle, according to the minimum and maximum v
 .. figure:: /_static/using_the_particles_effect/04_birth_size.png
 
    Particles generated with a fixed size and with a random one.
+
+
+.. _perspective_distribution:
+
+Perspective Distribution
+~~~~~~~~~~~~~~~~~~~~~~~~
+When activated, and if a Control Image for **Size** is conected, particles size will be inversely proportional to their density. It can be used for placement of depth particles, as in a sea waves level. When this option is active, the **Use Control Image Gradation** option will be ignored.
+
 
 Control Image
 ~~~~~~~~~~~~~
@@ -318,9 +340,9 @@ If used, the lifetime value range defined above will be distributed according to
 
 Use Column Duration for Lifetime
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Limits the particles lifetime to the number of frames the column content used as particles source lasts.
+Limits the particles lifetime to the number of frames the column/layer content used as particles source lasts.
 
-The particle animation remains the one defined in the Animation parameters (see  :ref:`Animation <animation>`  ).
+The particle animation remains the one defined in the Animation parameters (see  :ref:`Animation <particle>`  ).
 
 
 .. _top_layer:
@@ -368,7 +390,7 @@ A negative value makes the particle accelerate in the opposite direction of the 
 
 Gravity Angle
 ~~~~~~~~~~~~~
-Defines the gravity direction. The value 0 is for an upward direction; higher values turn the direction clockwise.
+Defines the gravity direction. The value 0 is for a downward direction; higher values turn the direction clockwise.
 
 .. figure:: /_static/using_the_particles_effect/06_environment_gravity.png
 
@@ -400,8 +422,6 @@ A negative value makes the particles accelerate in the direction of their own mo
 Control Image
 ~~~~~~~~~~~~~
 Sets if and which control image has to be used to define a friction field affecting the particles speed (see  :ref:`Defining Control Images <defining_control_images>`  ).
-
-If used, the particles will be attracted by the brighter areas of the image, ignoring the set Gravity Angle value: the brightest areas of the image will have the Gravity value you set.
 
 If used, the particles motion will be affected by the brighter areas of the image: the brightest areas of the image will have the Friction value you set. For best results, the dark and light areas should be smoothly blended. If you want the particles to stop suddenly, use a high intensity value.
 
@@ -540,7 +560,7 @@ Sets the way the spinning is performed; options are the following:
 
 Rotation Swing
 ~~~~~~~~~~~~~~
-Sets the minimum and maximum number of frames throughout which the extra speed values will vary, while remaining either positive or negative. This allows you to set a swinging movement where each swing (having a random rotation in each frame) lasts a random number of frames, still having a random extra speed at each frame.
+Sets the minimum and maximum number of frames throughout which the extra speed values will vary, while remaining either positive or negative. This allows you to set a swinging movement where each swing lasts a random number of frames, having a random extra speed at each frame.
 
 
 .. _follow_particles_movement:
@@ -646,6 +666,13 @@ In this way particles will fade to a range of colors spreading from the colors d
 Birth Intensity
 ~~~~~~~~~~~~~~~
 Sets the intensity of the birth color-fading.
+
+
+.. _pick_control_image_color_for_every_frame:
+
+Pick Control Image's Color for Every Frame
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When activated, at every frame the Control Image pixels will be sampled in the current position of the particles, changing their color.
 
 
 .. _fade-in_color:
