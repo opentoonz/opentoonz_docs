@@ -1372,6 +1372,12 @@ The Evolution stage of the fractal image can be controlled as well; by setting t
 
 Particles
 ~~~~~~~~~
+ |particles| 
+
+The Particles effect creates a new level in the selected column/layer containing particles.
+
+It allows you to simulate a wide range of phenomena, such as rain, snow, sparkles, smoke, and a random configuration of elements, for example a field of shining stars starting from one shining star or the waving grass in a meadow starting from one animated blade of grass.
+
 See  :ref:`Using the Particles Effect <using_the_particles_effect>` .
 
 .. _text_iwa:
@@ -1736,6 +1742,7 @@ Blurs along concentric circular lines as if the Source content turns around the 
 .. |Noise| image:: /_static/sfx/Special_FX_List/Noise/Noise.png
 .. |Salt_&_Pepper_Noise| image:: /_static/sfx/Special_FX_List/Noise/Salt_&_Pepper_Noise.png
 .. |Clouds| image:: /_static/sfx/Special_FX_List/Render/Clouds.png
+.. |particles| image:: /_static/sfx/Special_FX_List/Render/particles.png
 .. |text_1| image:: /_static/sfx/Special_FX_List/Render/text_1.png
 .. |text_2| image:: /_static/sfx/Special_FX_List/Render/text_2.png
 .. |Color_Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Color_Emboss.png
