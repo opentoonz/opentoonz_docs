@@ -680,8 +680,8 @@ Sets the intensity of the fade-out process.
 
 
 
-.. |setting_the_particles_source| image:: /_static/using_the_particles_effect/setting_the_particles_source.png
-.. |defining_particles_birth_parameters| image:: /_static/using_the_particles_effect/defining_particles_birth_parameters.png
-.. |defining_environment_settings| image:: /_static/using_the_particles_effect/defining_environment_settings.png
-.. |defining_particles_animation| image:: /_static/using_the_particles_effect/defining_particles_animation.png
-.. |defining_particles_color| image:: /_static/using_the_particles_effect/defining_particles_color.png
+.. |setting_the_particles_source| image:: /_static/using_the_particles_effect/particles_source.png
+.. |defining_particles_birth_parameters| image:: /_static/using_the_particles_effect/particles_birth.png
+.. |defining_environment_settings| image:: /_static/using_the_particles_effect/particles_environment.png
+.. |defining_particles_animation| image:: /_static/using_the_particles_effect/particles_animation.png
+.. |defining_particles_color| image:: /_static/using_the_particles_effect/particles_colors.png
