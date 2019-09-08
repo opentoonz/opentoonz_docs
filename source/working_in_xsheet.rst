@@ -1076,7 +1076,7 @@ It's the small tab appearing at the bottom of the cell selection in the Xsheet, 
 
     - If you want a progressive sequence to be repeated, first copy the sequence first drawing at the end of the sequence, then select all and drag down the fill handle. For example if the sequence is 1, 2, 3, 4, copy the drawing 1 at the end of the sequence (the result will be 1, 2, 3, 4, 1), and the added drawings will be 2, 3, 4, 1, 2, etc.
 
-    - If you want to delete some cells, select a region so that the cells you want to delete are in the last columns, and drag the fill handle to the left.
+    - If you want to delete some cells, select a region so that the cells you want to delete are in the last columns, and drag the fill handle up.
 
 .. tip:: **To edit cell content with the Fill Handle in the Timeline:**
 
@@ -1220,7 +1220,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
 .. tip:: **To clone a Sub-Xsheet:**
 
-    1. Select the Xsheet column where the Sub-Xsheet you want to clone is exposed.
+    1. Select the Xsheet column (or Timeline layer) where the Sub-Xsheet you want to clone is exposed.
 
     2. Do one of the following:
 
