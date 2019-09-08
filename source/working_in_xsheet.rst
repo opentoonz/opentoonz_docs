@@ -769,19 +769,17 @@ The Xsheet Toolbar pane can be toggled depending on user preferences.
 
 .. tip:: **To customize the Xsheet Toolbar buttons:**
 
-    1. Choose Windows  →  Command Bar to open the Command Bar.
-
-    2. Right click on it and select **Customize Xsheet Toolbar** from the menu that opens. The Customize Xsheet Toolbar window will open.
+    1. Right click on it and select **Customize Xsheet Toolbar** from the menu that opens. The Customize Xsheet Toolbar window will open.
 
     |xsheet_toolbar_window|
 
-    3. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Xsheet Toolbar** list (left).
+    2. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Xsheet Toolbar** list (left).
     
-    4. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Xsheet Toolbar** list (left).
+    3. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Xsheet Toolbar** list (left).
     
-    5. To *delete* a command: Locate the command in the **Xsheet Toolbar** list (left), right click on it and select **Remove** from the menu that opens.
+    4. To *delete* a command: Locate the command in the **Xsheet Toolbar** list (left), right click on it and select **Remove** from the menu that opens.
     
-    6. Click **OK** to accept the changes or **Cancel** to discard them.
+    5. Click **OK** to accept the changes or **Cancel** to discard them.
     
 
 .. _working_with_xsheet_columns:
@@ -1078,7 +1076,7 @@ It's the small tab appearing at the bottom of the cell selection in the Xsheet, 
 
     - If you want a progressive sequence to be repeated, first copy the sequence first drawing at the end of the sequence, then select all and drag down the fill handle. For example if the sequence is 1, 2, 3, 4, copy the drawing 1 at the end of the sequence (the result will be 1, 2, 3, 4, 1), and the added drawings will be 2, 3, 4, 1, 2, etc.
 
-    - If you want to delete some cells, select a region so that the cells you want to delete are in the last rows, and drag the fill handle up.
+    - If you want to delete some cells, select a region so that the cells you want to delete are in the last columns, and drag the fill handle to the left.
 
 .. tip:: **To edit cell content with the Fill Handle in the Timeline:**
 
@@ -1167,7 +1165,7 @@ If you want to reset the editing of a Sub-Xsheet level, you can **Resequence** i
 
 You can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns/layers to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns/layers used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet/Timeline where it is exposed.
 
-As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet/Timeline from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it as an Xsheet, and import it later in a different scene as a Sub-Xsheet.
+As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet/Timeline from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it and import it later in a different scene as a Sub-Xsheet.
 
 When working inside a Sub-Xsheet, by default only its own contents are displayed in the viewer. If you need to edit the Sub-Xsheet contents while looking at the whole scene contents, you can activate the **Edit in Place** mode. 
 
@@ -1222,7 +1220,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
 .. tip:: **To clone a Sub-Xsheet:**
 
-    1. Select the Sub-Xsheet column where the Sub-Xsheet you want to clone is exposed.
+    1. Select the Xsheet column where the Sub-Xsheet you want to clone is exposed.
 
     2. Do one of the following:
 
