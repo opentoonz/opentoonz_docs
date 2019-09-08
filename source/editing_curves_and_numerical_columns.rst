@@ -501,7 +501,7 @@ Supported terms are the following:
 ===============================  ==============================================================================  
 **Operators**                                                                                                    
 ===============================  ==============================================================================  
-``+`` , ``-`` , ``*`` , ``/``                                                                                    
+``+`` , ``-`` , ``*`` , ``/``    Addition, Subtraction, Multiplication, Division                                 
 ``%``                            Modulus: ``10%6=4`` .                                                           
 ``^``                            Exponentiation: ``a^2``  means ``a*a`` ; ``a^0.5``  is square root of ``a`` .   
 ===============================  ==============================================================================  
@@ -599,7 +599,7 @@ numeric constant   E.g. 1, 2, 4.3.
 
 
 
-.. note:: The predefined function ``saw`` , ``wave``  and ``pulse``  use implicitly a variable independent from the frame number. You can provide explicitly a variable using the form: fun (var; argument...).
+.. note:: The predefined function ``saw`` , ``wave``  and ``pulse``  use implicitly a variable independent from the frame number. You can provide explicitly a variable using the form: ``fun (var; argument...)`` .
 
 .. tip:: **To set an interpolation based on an Expression:**
 
@@ -638,11 +638,12 @@ It is possible to use in expressions references to any *object*, *effect* or *Pl
 
 The syntax to create a reference to an object transformation is the following:
 
-``object.transformation`` 
+``object.transformation`` or ``object.transformation(delta)`` 
 
-where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the *table*, as can be read in the Stage and FX Schematic nodes' tooltips; and ``transformation`` can be any of its available transformations.
+where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the *table*, as can be read in the Stage and FX Schematic nodes' tooltips; ``transformation`` can be any of its available transformations; and ``delta`` is the difference between the target frame and the current one.
 
 For example ``camera1.ns``  refers to the N/S position of the Camera1.
+Whereas ``camera1.ns(f-5)``  refers to the N/S position of the Camera1, 5 frames before the current frame.
 
 Supported terms are the following:
 
@@ -669,28 +670,36 @@ Supported terms are the following:
 =====================================  ======================================================  
 
 
-The syntax to create a reference to an effect transformation is the following:
+The syntax to create a reference to an effect parameter is the following:
 
-``fx.name.parameter`` 
+``fx.name.parameter`` or ``fx.name.parameter(delta)`` 
 
-where ``name``  is the ID name of an *effect*, as can be read in the FX Schematic nodes' tooltips, and ``parameter`` is any of the available effect parameters. 
+where ``name``  is the ID name of an *effect*, as can be read in the FX Schematic nodes' tooltips, ``parameter`` is any of the available effect parameters, and ``delta`` is the difference between the target frame and the current one. 
 
 When an effect parameter has multiple sub-parameters, for example the Center parameter has X and Y sub-parameters, the syntax has to be the following:
 
-``fx.name.parameter.subparameter`` 
+``fx.name.parameter.subparameter`` or ``fx.name.parameter.subparameter(delta)`` 
 
-where ``name``  can be any used effect, ``parameter``  the main effect parameter, and ``subparameter``  is the effect sub-parameter.
+where ``name``  can be any used effect, ``parameter``  the main effect parameter, ``subparameter``  is the effect sub-parameter, and ``delta`` is the difference between the target frame and the current one.
 
-For example ``fx.blur2.value``  refers to the Value parameter of the effect Blur2; ``fx.raylit1.center.x``  refers to the X sub-parameter of the Center parameter of the effect Raylit1.
+For example ``fx.blur2.value``  refers to the Value parameter of the effect Blur2; ``fx.blur2.value(f-5)``  refers to the Value parameter of the effect Blur2, 5 frames before the current frame; and ``fx.raylit1.center.x``  refers to the X sub-parameter of the Center parameter of the effect Raylit1.
 
-.. note:: If the effect parameter name consists of several words, they have to be typed in expressions without blank spaces.
+.. note:: If the effect parameter name consists of several words, they have to be typed in expressions *without* blank spaces.
 
 
 The syntax to create a reference to a Plastic vertex transformation is the following:
 
-``vertex(column_number, "vertex_name").parameter`` 
+``vertex(column_number, "vertex_name").transformation`` or ``vertex(column_number, "vertex_name").transformation(delta)`` 
 
-where ``column_number``  is the ID number of the *column* in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, and ``parameter``  is any of the available vertex parameters: ``angle``, ``distance`` or ``so``. 
+where ``column_number``  is the ID number of the *column* in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, ``transformation``  is any of the available vertex transformations (see below), and ``delta`` is the difference between the target frame and the current one. 
+
+=====================================  ==========================================================  
+**Plastic Vertex Transformations**                                                                            
+=====================================  ==========================================================  
+``angle``                              Refers to the angle between the vertex and its parent.    
+``distance``                           Refers to the distance between the vertex and its parent. 
+``so``                                 Refers to the vertex sorting order.                       
+=====================================  ==========================================================  
 
 See :ref:`Use Mathematical Expression in Plastic Animation <use_mathematical_expression_in_plastic_animation>` for further details on animating a Plastic mesh using expressions.
 
