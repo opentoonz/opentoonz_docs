@@ -264,8 +264,6 @@ The set of buttons and information available in the bottom bar of the viewer can
 
     Choose View  →  **Camera Box** to show or hide the camera box.
 
-    .. note:: The camera box visualization also triggers the safe area visualization (see below).
-
 .. tip:: **To show or hide the camera background color:**
 
     Choose View  →  **Camera BG Color** to show or hide the camera box background color.
@@ -283,8 +281,6 @@ The set of buttons and information available in the bottom bar of the viewer can
 .. tip:: **To show or hide the safe area:**
 
     Choose View  →  **Safe Area** to show or hide the safe area.
-
-    .. note:: The safe area is not visible if the camera box is hidden (see above).
 
 .. tip:: **To add a custom guide:**
 
@@ -353,17 +349,23 @@ In the tool options bar you can set the following:
 
 - **Accuracy** sets how accurate the generated line is compared to what you draw with the mouse or tablet pen: a high value will generate lines that completely preserves the movement you perform (even a trembling hand); a low value will simplify the line. This is available for Toonz Vector drawings only.
 
+- **Smooth** allows for stroke stabilization while drawing. This is available for Toonz Vector and Toonz Raster drawings only.
+
 - **Hardness** sets the amount of antialiasing along the line border. This is available for Toonz Raster and Raster drawings only.
 
 - **Opacity Min** and **Max** sets the opacity of the brush; the opacity will vary between the two values if you're using a pressure sensitive tablet. Overlapping areas are not considered while drawing a single line, but only when different lines are overlapping. This is available for Raster drawings only.
 
 - **Break** automatically breaks the drawn stroke into sections, if very sharp angles are drawn: in this way, drawn shapes may result simpler and easier to fill. This is available for Toonz Vector drawings only.
 
-- **Selective** allows the drawing operation without affecting already drawn lines. This is available for Toonz Raster drawings only.
+- **Draw Order** allows to choose how new drawings will be ordered with respect to already drawn lines. The options are: **Over All**, **Under All** and **Palette Order**. When using **Palette Order** new lines will be drawn above or below already existing ones, using the relative indexes of the palette Styles as the sorting factor. This is available for Toonz Raster drawings only.
 
 - **Pencil** mode draws lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
 
 - **Pressure** detects, in case you are using a graphic tablet, the pressure of the pen on the tablet, allowing the creation of variable-thickness lines.
+
+- **Range** allows for the automatic creation of a series of in-between strokes, by drawing just the extremes of the animation on subsequent frames of a level, in the Level Strip, or subsequent exposed cells of a level in the Xsheet/Timeline. By pressing **Ctrl** key, you can draw intermediate strokes to form a more complex animation sequence. This method is similar to the one used by the **Inbetween** command (see  :ref:`Using the In-betweener with Vector Drawings <using_the_in-betweener_with_vector_drawings>`  ). This is available for Toonz Vector drawings only.
+
+- **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing a new stroke. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Toonz Vector drawings only.
 
 - **Preset:** let you choose a brush preset in the option menu on the right. You can add or remove a preset clicking the **+** and **-** buttons. A presets list is created *for each level type* and each added preset will be available for next use.
 
@@ -396,15 +398,25 @@ In the tool options bar you can set the following:
 
 - **Hardness** sets the amount of antialiasing along the shape border. This is available for Toonz Raster and Raster drawings only.
 
-- **Shape:** can be chosen in the option menu. In case you want to draw a polygon, the **Polygon Sides:** lets you set the number of sides.
+- **Opacity** sets the opacity of the shape border. Overlapping areas are not considered while drawing over the same shape, but only when different shapes are overlapping. This is available for Raster drawings only.
+
+- **Shape:** sets the type of shape you want to draw. Available options are: Rectangle, Circle, Ellipse, Line, Polyline, Arc and Polygon. In case you want to draw a **Polygon**, the **Polygon Sides:** lets you set the number of sides.
 
 - **Auto Group** automatically defines any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) as a group, *thus creating a new layer that is placed in front of the other drawing vectors*, without intersecting them (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). This is available for Toonz Vector drawings only.
 
 - **Auto Fill** automatically paints the area defined by any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) with the same style used for drawing. This is available for Toonz Vector drawings only.
 
+- **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing the shape. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Toonz Vector drawings only.
+
 - **Selective** allows the drawing operations not to affect already drawn lines. This is available for Toonz Raster drawings only.
 
 - **Pencil** mode draws geometric shapes without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
+
+- **Cap** option sets the shape of the ends of open shapes you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the vector thickness. This is available for Toonz Vector drawings only.
+
+- **Join** option sets the shape of the straight corners along the shapes you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
+
+- **Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector levels only, and only if the **Join** option is set to **Miter**.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
@@ -412,7 +424,7 @@ While **Rectangles** and **Ellipses** are defined by a (bounding) box, **Circles
 
 .. tip:: **To draw a rectangle or an ellipse:**
 
-    Click to define the upper left corner, drag, and release to define the bottom right corner. If you press the **Shift** key while dragging, the shape will be regular, i.e. a square or a circle; if you press the **Alt** key, shapes will be drawn starting from their center.
+    Click to define the upper left corner, drag, and release to define the bottom right corner. If you press the **Shift** key while dragging, the shape will be regular, i.e. a square or a circle; if you press the **Alt** key, shapes will be drawn starting from their center. It's possible to press both keys at the same time.
 
 .. tip:: **To draw a circle:**
 
@@ -512,7 +524,7 @@ In the tool options bar you can set the following:
 
 - **Type:** has the options **Normal**, to use the standard eraser; **Rectangular**, to perform the erasing inside the box you define; **Freehand**, to perform the erasing inside the area you outline by clicking and dragging; and **Polyline**, to perform the erasing inside the area you outline by defining a series of lines. In vector drawings, a stroke is erased only if it is fully included in the area you define.
 
-- **Mode:** has the options **Areas**, to erase only areas, **Lines**, to erase only the drawing outline, and **Lines & Areas**, to perform both the operations. This is available only for Raster drawings.
+- **Mode:** has the options **Areas**, to erase only areas, **Lines**, to erase only the drawing outline, and **Lines & Areas**, to perform both the operations. This is available only for Toonz Raster drawings.
 
 - **Selective** allows you to erase only lines or areas made with the current style. This is available only for Toonz Vector and Toonz Raster drawings.
 
@@ -1309,7 +1321,7 @@ Instead of animating a level by starting every time from a blank frame, you can 
 
 The sequence of the animation level drawings can be easily controlled in the Level Strip.
 
-You can use both the Edit  →  **Duplicate Drawing** command and the standard **Copy** and **Paste** commands to make a copy of a drawing that you can later modify to create slight movements.
+You can use both the Cells  →  **Duplicate Drawing** command and the standard **Copy** and **Paste** commands to make a copy of a drawing that you can later modify to create slight movements.
 
 When you use the **Duplicate Drawing** command, the selected drawing is duplicated in the following frame. If the following frame already contains a drawing, it's shifted down in order to insert the duplicated drawing in the sequence.
 
@@ -1340,9 +1352,9 @@ Once finished, you can make a copy of the modified drawing, and modify it in its
 
 Using the In-betweener with Vector Drawings
 '''''''''''''''''''''''''''''''''''''''''''
-An animation technique reserved to vector animation levels is the use of the in-betweener in the level strip. The in-betweener creates in-between drawings once you have selected a starting drawing and an ending one.
+An animation technique reserved to vector animation levels is the use of the **Inbetween** command. Inbetween creates in-between drawings from the two extremes of a range of selected frames in the Level Strip.
 
-When more than two frames are selected in the Level Strip, a vertical strip labeled **INBETWEEN** is displayed on the right of the pane. By clicking on it, all frames between the first and the last selected frame will be overwritten by images interpolating the first and the last drawings. 
+When more than two frames are selected in the Level Strip, a vertical strip labeled **INBETWEEN** is displayed on the right of each frame. By clicking on it, all frames between the first and the last selected, will be overwritten by images interpolating from the first to the last drawings. 
 
 .. figure:: /_static/drawing_animation_levels/inbetween.png
 
@@ -1420,15 +1432,15 @@ The way to obtain best results is not trying to reproduce with fidelity the clip
 
 Cloning Levels
 ''''''''''''''
-Sometimes it may be useful to create a clone of a level in order to edit it without affecting the original one. For example you may want to create a new animation level starting from the drawings of another level, in order to have two sequences similar but not identical.
+Sometimes it may be useful to create a clone of a level, or a part of it, in order to edit it without affecting the original one. For example you may want to create a new animation level starting from the drawings of another level, in order to have two sequences similar but not identical.
 
 The **Clone** command allows you to create a copy of the selected cells, preserving the numbering order and assigning a new name to it. The **_clone** suffix appended to the name of the level is the default.
 
-The cloned level will contain only drawings exposed in the selected cells, even if the original level is composed of more drawings; they will be automatically exposed in the column on the right (or layer on top) of the selection, shifting the following columns/layers.
+The cloned level will contain *only drawings exposed in the selected cells*, even if the original level is composed of more drawings; they will be automatically exposed in the column on the right (or layer on top) of the selection, shifting the following columns/layers.
 
-The new level will be available in the Scene Cast as a new element; it will be saved in the **+drawings** or **+extras** default folder, according to the format of the original file, as soon as you save it with the **Save** command, or you save the scene.
+The new level will be available in the Scene Cast as a new element; it will be saved in the **+drawings** or **+extras** default folder, according to the format of the original file, as soon as you save it with the **Save Level** command, or you save the scene.
 
-The cell selection can also spread over several columns: in this case the same number of new columns will be inserted to make room for the cloning result. If more than one level is selected, the same number of new levels will be created and it's not possible to assign a name to the cloned levels.
+The cell selection can also spread over several columns/layers: in this case the same number of new columns/layers will be inserted to make room for the cloning result. If more than one level is selected, the same number of new levels will be created and it's not possible to assign a name to the cloned levels.
 
 .. tip:: **To clone levels:**
 
@@ -1538,15 +1550,17 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
     2. Activate View  →  **Edit Shift**.
 
-    3. Click on the drawing you want to reposition; the related bounding box will be displayed.
+    3. Click on the drawing you want to reposition in the Viewer, or use the **Previous Drawing** / **Following Drawing** options in the tool options bar; the related reference drawing bounding box will be displayed.
 
     4. Do any of the following:
 
-    - Click and drag *anywhere* to **move** the reference drawing.
+    - Click and drag *inside the bounding box* to **move** the reference drawing.
 
-    - Click and drag *any corner handle* to **rotate** the reference drawing.
+    - Click and drag *outside the bounding box* to **rotate** the reference drawing.
 
     - Click and drag *the center handle* to change the **center of rotation**.
+
+    - Click and drag *any corner handle of the bounding box* to **scale** the reference drawing from its center.
 
     5. Repeat the same steps on the second reference drawing.
 
@@ -1571,6 +1585,10 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 .. tip:: **To Reset the position of the reference drawings:**
 
     Choose the View  →  **Reset Shift** command.
+
+.. tip:: **To Reset the transformations of one of the reference drawings:**
+
+    In the tool options bar click on either **Reset Previous** or **Reset Following** buttons.
 
 .. tip:: **To Create an inbetween drawing using the Shift and Trace feature:**
 
