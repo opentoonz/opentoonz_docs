@@ -33,7 +33,7 @@ Additional drawings and animation levels can be drawn directly in OpenToonz. Dra
 See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  .
 
 
-.. _color_model:
+.. _color_model_prod:
 
 Color Model
 ~~~~~~~~~~~
