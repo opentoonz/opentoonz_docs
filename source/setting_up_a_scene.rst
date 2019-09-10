@@ -118,6 +118,32 @@ Camera resolutions can also be selected from a list of predefined camera setting
     2. Click the **Remove** button on the right of the preset cameras list.
 
 
+.. _color_calibration_using_lookup_tables:
+
+Color Calibration using Look-up Tables
+--------------------------------------
+OpenToonz can manage the previsualization of color through the use of 3D Look-up Tables. By applying a 3D LUT file, properly configured for the current display monitor, it will be possible to work on different color spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`, `DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>` or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec._2020>`.
+
+Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, Color Model, Palette, and Style Editor will be corrected.
+
+.. note:: Currently, only the .3dl file format is supported. It must follow specification written `here <http://download.autodesk.com/us/systemdocs/help/2009/lustre_ext1/index.html?url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,topicNumber=d0e8061>`_.
+
+.. note:: Currently, only the Windows version of OpenToonz can detect the currently connected monitor. For other platforms only one 3D LUT file can be applied for any type of monitors.
+Even on Windows, connecting multiple different monitors at the same time is not supported for now. It will only identify the first registered monitor.
+
+.. note:: PLEASE NOTE: At the moment, using Plastic deformation together with this feature causes a display issue such that the deformed image is not shown in *Camera Stand* mode of the Viewer.
+
+.. tip:: **To apply a 3DLUT file for previsualizing color:**
+
+    1. Choose File  →  Preferences...  →  Interface.
+
+    2. Activate the **Color Calibration using 3D Look-up Table** option.
+
+    3. In the **3DLUT File for [monitor]:** option, press the file browser button to navigate and select the desired .3DL file.
+
+    4. Restart OpenToonz for the changes to take effect.
+
+
 .. _assigning_memory_for_the_undo_operations:
 
 Assigning Memory for the Undo Operations
