@@ -125,7 +125,7 @@ Color Calibration using Look-up Tables
 
 |3dlut|
 
-OpenToonz can manage the previsualization of color through the use of 3D Look-up Tables. By applying a 3D LUT file, properly configured for the current display monitor, it will be possible to work on different color spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`, `DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>` or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec._2020>`.
+OpenToonz can manage the previsualization of color through the use of 3D Look-up Tables. By applying a 3D LUT file, properly configured for the current display monitor, it will be possible to work on different color spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, `DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec._2020>`_.
 
 Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, Color Model, Palette, and Style Editor will be corrected.
 
