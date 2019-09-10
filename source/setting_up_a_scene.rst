@@ -131,8 +131,7 @@ Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, 
 
 .. note:: Currently, only the .3dl file format is supported. It must follow specification written `here <http://download.autodesk.com/us/systemdocs/help/2009/lustre_ext1/index.html?url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,topicNumber=d0e8061>`_.
 
-.. note:: Currently, only the Windows version of OpenToonz can detect the currently connected monitor. For other platforms only one 3D LUT file can be applied for any type of monitors.
-Even on Windows, connecting multiple different monitors at the same time is not supported for now. It will only identify the first registered monitor.
+.. note:: Currently, only the Windows version of OpenToonz can detect the currently connected monitor. For other platforms only one 3D LUT file can be applied for any type of monitors. (Even on Windows, connecting multiple different monitors at the same time is not supported for now. It will only identify the first registered monitor).
 
 .. note:: PLEASE NOTE: At the moment, using Plastic deformation together with this feature causes a display issue such that the deformed image is not shown in *Camera Stand* mode of the Viewer.
 
