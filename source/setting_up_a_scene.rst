@@ -122,6 +122,9 @@ Camera resolutions can also be selected from a list of predefined camera setting
 
 Color Calibration using Look-up Tables
 --------------------------------------
+
+|3dlut|
+
 OpenToonz can manage the previsualization of color through the use of 3D Look-up Tables. By applying a 3D LUT file, properly configured for the current display monitor, it will be possible to work on different color spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`, `DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>` or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec._2020>`.
 
 Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, Color Model, Palette, and Style Editor will be corrected.
@@ -173,4 +176,5 @@ If you are working mainly with vector images, that have been drawn inside OpenTo
 .. |scene_settings| image:: /_static/setting_up_a_scene/scene_settings.png
 .. |camera_settings| image:: /_static/setting_up_a_scene/camera_settings.png
 .. |stretch_fps_to| image:: /_static/setting_up_a_scene/stretch_fps_to.png
+.. |3dlut| image:: /_static/setting_up_a_scene/3dlut.png
 
