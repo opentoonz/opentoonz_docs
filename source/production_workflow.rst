@@ -182,3 +182,4 @@ See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:`Using 
 
 .. |traditional_workflow| image:: /_static/production_workflow/traditional_workflow.png
 .. |paperless_workflow| image:: /_static/production_workflow/paperless_workflow.png
+.. |traditional_workflow_es| image:: /_static/production_workflow/es/traditional_workflow.png
