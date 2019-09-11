@@ -232,82 +232,85 @@ Raster drawings and images that usually are displayed in the viewer according to
 
 Customizing the Viewer
 ~~~~~~~~~~~~~~~~~~~~~~
-The viewer can be customized according to your needs: the background colors visible in the viewer and inside the camera box can be changed; a field guide and a safe area can be displayed for reference; the table and camera box can be hidden; custom guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View  →  **Inks Only** check allows to hide the painted areas of the levels facilitating the drawing process.
+The Viewer can be customized according to your needs: the background colors visible in the Viewer and inside the camera box can be changed; a Field Guide and a Safe Area can be displayed for reference; the Table and Camera Box can be hidden; Custom Guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View  →  **Inks Only** check allows to hide the painted areas of the levels, facilitating the drawing process.
 
-The set of buttons and information available in the bottom bar of the viewer can be customized as well, so that only the elements you require are visible.
+The set of buttons and information available in the bottom bar of the Viewer can be customized as well, so that only the elements you require are visible.
 
-.. tip:: **To change the viewer background color:**
+.. tip:: **To change the Viewer Background color:**
 
     1. Open the File  →  Preferences  →  **Colors** dialog.
 
     2. Define the **Viewer BG Color** by doing one of the following:
 
-    - Set the Red, Green and Blue values.
+       - Set the Red, Green and Blue values.
 
-    - Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
+       - Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
-.. tip:: **To change the camera box background color:**
+.. tip:: **To change the Camera Box Background color:**
 
     1. Open the Xsheet  →  **Scene Settings...** dialog.
 
     2. Define the **Camera BG Color** by doing one of the following:
 
-    - Set the Red, Green, Blue and Alpha values.
+       - Set the Red, Green, Blue and Alpha values.
 
-    - Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
+       - Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  ).
 
-.. tip:: **To show or hide the table:**
+.. tip:: **To show or hide the Table:**
 
     Choose View  →  **Table** to show or hide the table.
 
-.. tip:: **To show or hide the camera box:**
+.. tip:: **To show or hide the Camera Box:**
 
     Choose View  →  **Camera Box** to show or hide the camera box.
 
-.. tip:: **To show or hide the camera background color:**
+.. tip:: **To show or hide the Camera Background color:**
 
     Choose View  →  **Camera BG Color** to show or hide the camera box background color.
 
-.. tip:: **To show or hide the field guide:**
+.. tip:: **To show or hide the Field Guide:**
 
     Choose View  →  **Field Guide** to show or hide the field guide.
 
-.. tip:: **To define the displayed field guide:**
+.. tip:: **To define the displayed Field Guide:**
 
     1. Open the Xsheet  →  **Scene Settings...** dialog.
 
     2. Define the **Field Guide Size:** and **A/R:**. **Size** is the number of width fields of the field guide (1 field is equal to 1 inch), and the **A/R** is the ratio between the field guide width and height.
 
-.. tip:: **To show or hide the safe area:**
+.. tip:: **To show or hide the Safe Area:**
 
     Choose View  →  **Safe Area** to show or hide the safe area.
 
-.. tip:: **To add a custom guide:**
+.. tip:: **To add a Custom Guide:**
 
     Click in the ruler: a click in the horizontal ruler will create a vertical guide, a click in the vertical ruler will create an horizontal guide. 
 
-.. tip:: **To move a custom guide:**
+.. tip:: **To move a Custom Guide:**
 
     Drag the custom guide marker in the ruler.
 
-.. tip:: **To delete a custom guide:**
+.. tip:: **To delete a Custom Guide:**
 
-    Drag its marker outside of the viewer, in the opposite direction of the guide itself.
+    Do one of the following:
 
-.. tip:: **To show or hide guides:**
+    - Right-click on the guide marker in the ruler.
+
+    - Drag its marker outside of the Viewer, in the opposite direction of the guide itself.
+
+.. tip:: **To show or hide Custom Guides:**
 
     Choose View  →  **Guides** to show or hide the guides.
 
-.. tip:: **To show or hide rulers where guide markers are located:**
+.. tip:: **To show or hide the Rulers where Custom Guide markers are located:**
 
     Choose View  →  **Rulers** to show or hide the rulers.
 
-  .. note:: When the viewer work area is rotated, guides are rotated as well, but rulers and guide markers preserve their position and orientation. However the position of a guide can still be controlled by markers, even if visually they don’t match anymore.
+  .. note:: When the Viewer work area is rotated, guides are rotated as well, but rulers and guide markers will preserve their position and orientation. However the position of a guide will still be controlled by markers, even if they visually don’t match anymore.
 
 .. tip:: **To customize the set of buttons in the bottom bar of the viewer:**
 
     Click the option button (|option|) on the far left of the bottom area, and select the elements to show, or deselect those to hide, in the menu that opens. 
-
 
 
 .. _drawing_tools:
