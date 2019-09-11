@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-06-30 14:17-0300\n"
+"POT-Creation-Date: 2019-09-11 11:06-0300\n"
+"PO-Revision-Date: 2019-09-11 11:26-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -410,10 +410,107 @@ msgstr ""
 "predefinidos."
 
 #: ../../source/setting_up_a_scene.rst:124
+msgid "Color Calibration using Look-up Tables"
+msgstr "Calibración de color usando Tablas de consulta"
+
+#: ../../source/setting_up_a_scene.rst:126
+msgid "|3dlut|"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:128
+msgid ""
+"OpenToonz can manage the previsualization of color through the use of 3D Look-"
+"up Tables. By applying a 3D LUT file, properly configured for the current "
+"display monitor, it will be possible to work on different color spaces, such as "
+"`Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, `DCI-P3 <https://en."
+"wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec."
+"_2020>`_."
+msgstr ""
+"OpenToonz es capaz de administrar la previsualización del color a través del "
+"uso de Tablas de consulta 3D (más conocidas como 3D Look-up Tables). Mediante "
+"la aplicación de un archivo 3D LUT, apropiadamente configurado para el monitor "
+"que se esté usando, será posible trabajar en distintos espacios de color, tales "
+"como `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, `DCI-P3 <https://en."
+"wikipedia.org/wiki/DCI-P3>`_ o `Rec. 2020 <https://en.wikipedia.org/wiki/Rec."
+"_2020>`_."
+
+#: ../../source/setting_up_a_scene.rst:130
+msgid ""
+"Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, "
+"Color Model, Palette, and Style Editor will be corrected."
+msgstr ""
+"Una vez que se haya configurado un 3DLUT, todos los colores visualizados en el "
+"Visor, el Visor compuesto, el Reproductor, el Modelo de color, la Paleta y el "
+"Editor de estilos se mostrarán con la correspondiente corrección de color."
+
+#: ../../source/setting_up_a_scene.rst:132
+msgid ""
+"Currently, only the .3dl file format is supported. It must follow specification "
+"written `here <http://download.autodesk.com/us/systemdocs/help/2009/lustre_ext1/"
+"index.html?url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,"
+"topicNumber=d0e8061>`_."
+msgstr ""
+"Actualmente, sólo se soporta el formato de archivo .3dl. El mismo deberá seguir "
+"las especificaciones descriptas en el siguiente `enlace <http://download."
+"autodesk.com/us/systemdocs/help/2009/lustre_ext1/index.html?"
+"url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,topicNumber=d0e8061>`_."
+
+#: ../../source/setting_up_a_scene.rst:134
+msgid ""
+"Currently, only the Windows version of OpenToonz can detect the currently "
+"connected monitor. For other platforms only one 3D LUT file can be applied for "
+"any type of monitors. (Even on Windows, connecting multiple different monitors "
+"at the same time is not supported for now. It will only identify the first "
+"registered monitor)."
+msgstr ""
+"Actualmente, sólo la versión de Windows de OpenToonz será capaz de detectar el "
+"monitor actual conectado. Para otras plataformas simplemente aplicar un archivo "
+"3D LUT para cualquier tipo de monitor. (Inclusive en Windows, no será posible "
+"detectar varios monitores de distintos tipos conectados al mismo tiempo. Se "
+"detectará únicamente el monitor registrado en primer lugar)."
+
+#: ../../source/setting_up_a_scene.rst:136
+msgid ""
+"PLEASE NOTE: At the moment, using Plastic deformation together with this "
+"feature causes a display issue such that the deformed image is not shown in "
+"*Camera Stand* mode of the Viewer."
+msgstr ""
+"POR FAVOR NOTAR: Actualmente, al usar deformaciones hechas mediante la "
+"herramienta Plástico, mientras esta opción se encuentre activa, se producirá un "
+"problema que impedirá la correcta visualización de la imagen deformada en el "
+"modo **Vista de mesa de trabajo** del Visor."
+
+#: ../../source/setting_up_a_scene.rst:138
+msgid "**To apply a 3DLUT file for previsualizing color:**"
+msgstr ""
+"**Para aplicar un archivo 3DLUT para calibrar la previsualización del color:**"
+
+#: ../../source/setting_up_a_scene.rst:140
+msgid "Choose File  →  Preferences...  →  Interface."
+msgstr "Elegir Archivo → Preferencias... → Interfaz."
+
+#: ../../source/setting_up_a_scene.rst:142
+msgid "Activate the **Color Calibration using 3D Look-up Table** option."
+msgstr ""
+"Activar la opción **Calibración de color usando una tabla de consulta 3D**."
+
+#: ../../source/setting_up_a_scene.rst:144
+msgid ""
+"In the **3DLUT File for [monitor]:** option, press the file browser button to "
+"navigate and select the desired .3DL file."
+msgstr ""
+"En la opción **Archivo 3DLUT para [monitor]:**, presionar el botón del "
+"Explorador de archivos para navegar y seleccionar el archivo .3DL deseado."
+
+#: ../../source/setting_up_a_scene.rst:146
+msgid "Restart OpenToonz for the changes to take effect."
+msgstr "Reiniciar OpenToonz para que los cambios entren en vigor."
+
+#: ../../source/setting_up_a_scene.rst:152
 msgid "Assigning Memory for the Undo Operations"
 msgstr "Asignación de memoria para las operaciones Deshacer."
 
-#: ../../source/setting_up_a_scene.rst:125
+#: ../../source/setting_up_a_scene.rst:153
 msgid ""
 "All the operations performed in the software can be undone by using the Edit  "
 "→  Undo command, even to go back for several steps."
@@ -421,7 +518,7 @@ msgstr ""
 "Todas las operaciones realizadas pueden ser deshechas, usando el comando Editar "
 "→ Deshacer."
 
-#: ../../source/setting_up_a_scene.rst:127
+#: ../../source/setting_up_a_scene.rst:155
 msgid ""
 "Undo operations require computer memory in order to be performed, and some of "
 "them may require more memory than some others, according to their complexity."
@@ -430,7 +527,7 @@ msgstr ""
 "posible que algunas de ellas requieran más que otras, de acuerdo a su "
 "complejidad."
 
-#: ../../source/setting_up_a_scene.rst:129
+#: ../../source/setting_up_a_scene.rst:157
 msgid ""
 "To prevent most of the computer memory to be used by undo operations while you "
 "work, a situation that slows down the software performance, it is possible to "
@@ -442,7 +539,7 @@ msgstr ""
 "límite, usando la opción **Deshacer - Tamaño de memoria (MB)** en el diálogo "
 "Archivo → Preferencias → General."
 
-#: ../../source/setting_up_a_scene.rst:131
+#: ../../source/setting_up_a_scene.rst:159
 msgid ""
 "As soon as the limit is reached, the oldest undo operations will be discarded "
 "to make room for the new ones."
@@ -450,11 +547,11 @@ msgstr ""
 "Tan pronto como el limite es alcanzado, las operaciones más antiguas "
 "almacenadas serán descartadas para hacer espacio para las nuevas."
 
-#: ../../source/setting_up_a_scene.rst:137
+#: ../../source/setting_up_a_scene.rst:165
 msgid "Optimizing the Memory Usage"
 msgstr "Optimización del uso de memoria"
 
-#: ../../source/setting_up_a_scene.rst:138
+#: ../../source/setting_up_a_scene.rst:166
 msgid ""
 "When working with Raster images, predominantly being animation levels scanned "
 "with OpenToonz or GTS, an extensive usage of computer memory may be required "
@@ -464,7 +561,7 @@ msgstr ""
 "escaneados con OpenToonz o GTS), es posible que se requiera un uso intensivo de "
 "memoria durante los procesos de limpieza, pintado y procesamiento de los mismos."
 
-#: ../../source/setting_up_a_scene.rst:140
+#: ../../source/setting_up_a_scene.rst:168
 msgid ""
 "After a certain amount of time the computer performance may worsen, as the "
 "memory gets fragmented because of the several writing and reading accesses. To "
@@ -481,7 +578,7 @@ msgstr ""
 "la memoria del sistema será reservada solamente para su uso en operaciones "
 "relativas a imágenes de mapa de bits."
 
-#: ../../source/setting_up_a_scene.rst:142
+#: ../../source/setting_up_a_scene.rst:170
 msgid ""
 "If you are working mainly with vector images, that have been drawn inside "
 "OpenToonz, this option should be deactivated, as the reserved memory section "
@@ -491,7 +588,7 @@ msgstr ""
 "esta opción debería permanecer desactivada, ya que de otro modo esa sección "
 "reservada de memoria quedaría prácticamente inutilizada."
 
-#: ../../source/setting_up_a_scene.rst:144
+#: ../../source/setting_up_a_scene.rst:172
 msgid "The change set for this option is valid only after OpenToonz is restarted."
 msgstr ""
 "Los cambios definidos para esta opción será válidos recién luego de que "
