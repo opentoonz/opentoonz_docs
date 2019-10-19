@@ -17,7 +17,7 @@ Shortcuts are specific to each user, meaning that each user in the system can ha
 
 .. tip:: **To configure a shortcut:**
 
-    1. Choose ``File  →  Configure Shortcuts...``
+    1. Choose File  →  **Configure Shortcuts...**
 
     2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the window.
 
@@ -27,7 +27,7 @@ Shortcuts are specific to each user, meaning that each user in the system can ha
 
 .. tip:: **To remove a configured shortcut:**
 
-    1. Choose ``File  →  Configure Shortcuts...``
+    1. Choose File  →  **Configure Shortcuts...**
 
     2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the window.
 
