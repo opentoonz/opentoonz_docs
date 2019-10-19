@@ -137,7 +137,7 @@ Paste Insert                   **Ctrl/⌘ Cmd**   **+**  **V**
 Paste Insert Above/After       **Ctrl/⌘ Cmd**   **+**  **Shift**  **+**  **V**
 Delete                         **Del**
 Insert                         **Ins**
-Insert Above/After             **Shift**  **+**  **Ins**
+Insert Above/After             **Shift**        **+**  **Ins**
 Select All                     **Ctrl/⌘ Cmd**   **+**  **A**
 Group                          **Ctrl/⌘ Cmd**   **+**  **G**
 Ungroup                        **Ctrl/⌘ Cmd**   **+**  **Shift**  **+**  **G**
