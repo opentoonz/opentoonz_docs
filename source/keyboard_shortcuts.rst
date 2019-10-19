@@ -134,7 +134,7 @@ Redo                           **Ctrl/⌘ Cmd**   **+**  **Y**
 Cut                            **Ctrl/⌘ Cmd**   **+**  **X**
 Copy                           **Ctrl/⌘ Cmd**   **+**  **C**
 Paste Insert                   **Ctrl/⌘ Cmd**   **+**  **V**
-Paste Insert Above/After       **Ctrl/⌘ Cmd**   **+**  **Shift**   **+**  **V**
+Paste Insert Above/After       **Ctrl/⌘ Cmd**   **+**  **Shift**  **+**  **V**
 Delete                         **Del**
 Insert                         **Ins**
 Insert Above/After             **Shift**  **+**  **Ins**
@@ -151,7 +151,7 @@ Send to Back                   **Ctrl/⌘ Cmd**   **+**  **[**
 ===============================   =================  =====  ======
 **Level Menu**    
 ===============================   =================  =====  ======
-New Level...                     **Alt/⌥ Option**     **+**  **N**
+New Level...                      **Alt/⌥ Option**   **+**  **N**
 ===============================   =================  =====  ======
 
 
