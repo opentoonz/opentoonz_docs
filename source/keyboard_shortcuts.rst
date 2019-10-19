@@ -68,7 +68,7 @@ The following are **some** of the predefined shortcuts available in OpenToonz.
 |hand|  Hand                    **Space**
 =============================   ===============  =====  =========
 
-.. note:: If you press a tool keyboard shortcut and you keep it pressed, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
+.. note:: If you *press and hold* a tool keyboard shortcut, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
 
 
 ==============================   ======
@@ -76,7 +76,9 @@ The following are **some** of the predefined shortcuts available in OpenToonz.
 ==============================   ======
 Brush Size - Decrease max        **U**
 Brush Size - Increase max        **I**
-Rectangular                      **F5**
+Brush Size - Decrease min        **H**
+Brush Size - Increase min        **J**
+Rectangular/Normal type          **F5**
 Frame Range                      **F6**
 Selective                        **F7**
 Segment                          **F8**
@@ -95,51 +97,49 @@ Move to next Xsheet column       **->**
 Move to previous Xsheet column   **<-**
 Onion Skin Toggle                **/**
 Maximize Panel                   **`**
+Full Screen Mode                 **Alt/⌥ Option**   **+**  **F**
 Main Window Full Screen Mode     **Ctrl/⌘ Cmd**     **+**  **`**
 ==============================   =================  =====  ======
 
 
-=============================   =========  =====  =====
+=============================   ================  =====  =====
 **Playback Controls**    
-=============================   =========  =====  =====
+=============================   ================  =====  =====
 Play                            **P**
 Loop                            **L**
 Previous Drawing                **,**
 Next Drawing                    **.**
-Previous Frame                  **Shift**  **+**  **,**
-Next Frame                      **Shift**  **+**  **.**
-Previous Keyframe               **Ctrl**   **+**  **,**
-Next Keyframe                   **Ctrl**   **+**  **.**
-=============================   =========  =====  =====
+Previous Frame                  **Shift**         **+**  **,**
+Next Frame                      **Shift**         **+**  **.**
+Previous Keyframe               **Ctrl/⌘ Cmd**    **+**  **,**
+Next Keyframe                   **Ctrl/⌘ Cmd**    **+**  **.**
+=============================   ================  =====  =====
 
 
 ==============================   ===================  =====  =========  =====  =====
-**Menu File**    
+**File Menu**    
 ==============================   ===================  =====  =========  =====  =====
 New Scene                        **Ctrl/⌘ Cmd**       **+**  **N**
-Load Scene                       **Ctrl/⌘ Cmd**       **+**  **L**
-Save Scene                       **Ctrl/⌘ Cmd**       **+**  **S**
-Save Scene As                    **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **S**
-New Level                        **Alt/⌥ Option**     **+**  **N**
-Preview                          **Ctrl/⌘ Cmd**       **+**  **R**
-Output Settings                  **Ctrl/⌘ Cmd**       **+**  **O**
-Render                           **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **R**
-Fast Render to MP4               **Alt/⌥ Option**     **+**  **R**
-Preferences                      **Ctrl/⌘ Cmd**       **+**  **U**
+Load Scene...                    **Ctrl/⌘ Cmd**       **+**  **L**
+Save All                         **Ctrl/⌘ Cmd**       **+**  **S**
+Save Scene                       **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **S**
+Preferences...                   **Ctrl/⌘ Cmd**       **+**  **U**
 Quit                             **Ctrl/⌘ Cmd**       **+**  **Q**
 ==============================   ===================  =====  =========  =====  =====
 
 
 ============================   ===============  =====  =========  =====  =====
-**Menu Edit**   
+**Edit Menu**   
 ============================   ===============  =====  =========  =====  =====
 Undo                           **Ctrl/⌘ Cmd**   **+**  **Z**
 Redo                           **Ctrl/⌘ Cmd**   **+**  **Y**
 Cut                            **Ctrl/⌘ Cmd**   **+**  **X**
 Copy                           **Ctrl/⌘ Cmd**   **+**  **C**
 Paste Insert                   **Ctrl/⌘ Cmd**   **+**  **V**
+Paste Insert Above/After       **Ctrl/⌘ Cmd**   **+**  **Shift**   **+**  **V**
 Delete                         **Del**
 Insert                         **Ins**
+Insert Above/After             **Shift**  **+**  **Ins**
 Select All                     **Ctrl/⌘ Cmd**   **+**  **A**
 Group                          **Ctrl/⌘ Cmd**   **+**  **G**
 Ungroup                        **Ctrl/⌘ Cmd**   **+**  **Shift**  **+**  **G**
@@ -151,32 +151,61 @@ Send to Back                   **Ctrl/⌘ Cmd**   **+**  **[**
 
 
 ===============================   =================  =====  ======
-**Menu Xsheet**    
+**Level Menu**    
+===============================   =================  =====  ======
+New Level...                     **Alt/⌥ Option**     **+**  **N**
+===============================   =================  =====  ======
+
+
+===============================   =================  =====  ======
+**Xsheet Menu**    
 ===============================   =================  =====  ======
 Set Key                           **Z**
-New FX                            **Ctrl/⌘ Cmd**     **+**  **F**
-Edit FX                           **Ctrl/⌘ Cmd**     **+**  **K**
+New FX...                         **Ctrl/⌘ Cmd**     **+**  **F**
+Edit FX...                        **Ctrl/⌘ Cmd**     **+**  **K**
 Apply Lip Sync Data to Column     **Alt/⌥ Option**   **+**  **L**
 ===============================   =================  =====  ======
 
 
-=============================   =====
-**Menu Cells**    
-=============================   =====
-Duplicate Drawing               **D**
-Drawing Substitution Backward   **Q**
-Drawing Substitution Forward    **W**
-Decrease Step                   **;**
-Increase Step                   **'**
-=============================   =====
+=====================================   =================   =====  =====
+**Cells Menu**    
+=====================================   =================   =====  =====
+Duplicate Drawing                       **D**
+Increase Step                           **'**
+Decrease Step                           **;**
+Drawing Substitution Backward           **Q**
+Drawing Substitution Forward            **W**
+Similar Drawing Substitution Backward   **Alt/⌥ Option**   **+**  **Q**
+Similar Drawing Substitution Forward    **Alt/⌥ Option**   **+**  **W**
+=====================================   =================   =====  =====
+
+
+==============================   ===================  =====  =========  =====  =====
+**Render Menu**    
+==============================   ===================  =====  =========  =====  =====
+Preview                          **Ctrl/⌘ Cmd**       **+**  **R**
+Output Settings...               **Ctrl/⌘ Cmd**       **+**  **O**
+Render                           **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **R**
+Fast Render to MP4               **Alt/⌥ Option**     **+**  **R**
+==============================   ===================  =====  =========  =====  =====
 
 
 ===============================   =================  =====  ======
-**Menu Windows**    
+**Windows Menu**    
 ===============================   =================  =====  ======
 History                           **Ctrl/⌘ Cmd**     **+**  **H**
 Record Audio                      **Alt/⌥ Option**   **+**  **A**
+Startup Popup...                  **Alt/⌥ Option**   **+**  **S**
+Maximize Panel                    **`**
+Main Window Full Screen Mode      **Ctrl/⌘ Cmd**     **+**  **`**
 ===============================   =================  =====  ======
+
+
+===============================   =======
+**Help Menu**    
+===============================   =======
+Online Manual...                  **F1**
+===============================   =======
 
 
 
