@@ -93,8 +93,6 @@ Fit to Window                    **Alt/⌥ Option**   **+**  **9**
 Reset View                       **Alt/⌥ Option**   **+**  **0**
 Zoom in                          **+**
 Zoom out                         **-**
-Move to next Xsheet column       **->**
-Move to previous Xsheet column   **<-**
 Onion Skin Toggle                **/**
 Maximize Panel                   **`**
 Full Screen Mode                 **Alt/⌥ Option**   **+**  **F**
@@ -180,14 +178,29 @@ Similar Drawing Substitution Forward    **Alt/⌥ Option**   **+**  **W**
 =====================================   =================   =====  =====
 
 
-==============================   ===================  =====  =========  =====  =====
+===============================   =================  =====  ======
+**Play Menu**    
+===============================   =================  =====  ======
+Play                              **P**
+Loop                              **L**
+First Frame                       **Alt/⌥ Option**   **+**  **,**
+Last Frame                        **Alt/⌥ Option**   **+**  **.**
+Previous Frame                    **Shift**          **+**  **,**
+Next Frame                        **Shift**          **+**  **.**
+Previous Keyframe                 **Ctrl/⌘ Cmd**     **+**  **,**
+Next Keyframe                     **Ctrl/⌘ Cmd**     **+**  **.**
+Previous Drawing                  **,**
+Next Drawing                      **.**
+===============================   =================  =====  ======
+
+===============================   ===================  =====  =========  =====  =====
 **Render Menu**    
-==============================   ===================  =====  =========  =====  =====
-Preview                          **Ctrl/⌘ Cmd**       **+**  **R**
-Output Settings...               **Ctrl/⌘ Cmd**       **+**  **O**
-Render                           **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **R**
-Fast Render to MP4               **Alt/⌥ Option**     **+**  **R**
-==============================   ===================  =====  =========  =====  =====
+===============================   ===================  =====  =========  =====  =====
+Preview                           **Ctrl/⌘ Cmd**       **+**  **R**
+Output Settings...                **Ctrl/⌘ Cmd**       **+**  **O**
+Render                            **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **R**
+Fast Render to MP4                **Alt/⌥ Option**     **+**  **R**
+===============================   ===================  =====  =========  =====  =====
 
 
 ===============================   =================  =====  ======
