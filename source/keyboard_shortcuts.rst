@@ -108,6 +108,8 @@ Previous Drawing                **,**
 Next Drawing                    **.**
 Previous Frame                  **Shift**  **+**  **,**
 Next Frame                      **Shift**  **+**  **.**
+Previous Keyframe               **Ctrl**   **+**  **,**
+Next Keyframe                   **Ctrl**   **+**  **.**
 =============================   =========  =====  =====
 
 
