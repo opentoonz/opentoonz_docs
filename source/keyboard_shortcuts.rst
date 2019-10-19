@@ -68,7 +68,7 @@ The following are **some** of the predefined shortcuts available in OpenToonz.
 |hand|  Hand                    **Space**
 =============================   ===============  =====  =========
 
-.. note:: If you *press and hold* a tool keyboard shortcut, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
+.. note:: If you **press and hold** a tool keyboard shortcut, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
 
 
 ==============================   ======
