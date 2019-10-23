@@ -317,8 +317,10 @@ If the $scenepath is used in the folder definition, with **+drawings** that is `
 
 
 
-.. |new_project| image:: /_static/managing_projects/new_project_dialog.png
 .. |additional_project_locations| image:: /_static/managing_projects/additional_project_locations.png
+.. |new_project| image:: /_static/managing_projects/new_project_dialog.png
 .. |scenepath_variable| image:: /_static/managing_projects/scenepath_variable.png
 .. |append_scenepath| image:: /_static/managing_projects/append_scenepath.png
 
+.. |additional_project_locations_es| image:: /_static/managing_projects/es/additional_project_locations.png
+.. |new_project_es| image:: /_static/managing_projects/es/new_project_dialog.png
