@@ -1638,3 +1638,5 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 .. |preview| image:: /_static/drawing_animation_levels/preview.png
 .. |reset| image:: /_static/drawing_animation_levels/reset.png
 .. |save| image:: /_static/drawing_animation_levels/save.png
+
+.. |canvas_size_es| image:: /_static/drawing_animation_levels/es/canvas_size.png
