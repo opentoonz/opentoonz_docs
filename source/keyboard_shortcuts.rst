@@ -244,3 +244,5 @@ Online Manual...                  **F1**
 .. |tracker| image:: /_static/configure_shortcuts/tracker.png
 .. |type| image:: /_static/configure_shortcuts/type.png
 .. |zoom| image:: /_static/configure_shortcuts/zoom.png
+
+.. |configure_shortcuts_window_es| image:: /_static/configure_shortcuts/es/configure_shortcuts_window.png
