@@ -177,3 +177,6 @@ If you are working mainly with vector images, that have been drawn inside OpenTo
 .. |stretch_fps_to| image:: /_static/setting_up_a_scene/stretch_fps_to.png
 .. |3dlut| image:: /_static/setting_up_a_scene/3dlut.png
 
+.. |scene_settings_es| image:: /_static/setting_up_a_scene/es/scene_settings.png
+.. |camera_settings_es| image:: /_static/setting_up_a_scene/es/camera_settings.png
+.. |stretch_fps_to_es| image:: /_static/setting_up_a_scene/es/stretch_fps_to.png
