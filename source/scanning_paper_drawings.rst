@@ -254,3 +254,8 @@ Once defined the cropbox will be used for any scanning performed for the scene.
 .. |new_scan_level| image:: /_static/scanning_paper_drawings/new_scan_level.png
 .. |scan_settings| image:: /_static/scanning_paper_drawings/scan_settings.png
 
+
+.. |define_scanner_es| image:: /_static/scanning_paper_drawings/es/define_scanner.png
+.. |new_scan_level_es| image:: /_static/scanning_paper_drawings/es/new_scan_level.png
+.. |scan_settings_es| image:: /_static/scanning_paper_drawings/es/scan_settings.png
+
