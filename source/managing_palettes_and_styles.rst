@@ -892,3 +892,18 @@ The **Name Editor** allows to systematize the naming of styles used in a product
 .. |prevkey| image:: /_static/palettes_styles/prevkey.png
 .. |save_as| image:: /_static/palettes_styles/save_as.png
 .. |switch| image:: /_static/palettes_styles/switch.png
+
+
+.. |palette_es| image:: /_static/palettes_styles/es/palette.png
+.. |studio_palette_es| image:: /_static/palettes_styles/es/studio_palette.png
+.. |regular-imported-linked_style_es| image:: /_static/palettes_styles/es/regular-imported-linked_style.png
+.. |style_editor_color_es| image:: /_static/palettes_styles/es/style_editor_color.png
+.. |style_editor_texture_es| image:: /_static/palettes_styles/es/style_editor_texture.png
+.. |style_editor_generated_es| image:: /_static/palettes_styles/es/style_editor_generated.png
+.. |style_editor_trail_es| image:: /_static/palettes_styles/es/style_editor_trail.png
+.. |style_editor_vectorbrush_es| image:: /_static/palettes_styles/es/style_editor_vectorbrush.png
+.. |style_editor_raster_es| image:: /_static/palettes_styles/es/style_editor_raster.png
+.. |style_editor_settings_es| image:: /_static/palettes_styles/es/style_editor_settings.png
+.. |style_editor_settings-raster_es| image:: /_static/palettes_styles/es/style_editor_settings-raster.png
+.. |palette_gizmo_es| image:: /_static/palettes_styles/es/palette_gizmo.png
+.. |name_editor_es| image:: /_static/palettes_styles/es/name_editor.png
