@@ -1669,13 +1669,13 @@ Blurs along concentric circular lines as if the Source content turns around the 
 
 
 
-.. |FX_Browser| image:: /_static/sfx/Inserting_Special_FX/FX_Browser.png
-.. |Basic_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Basic_FX_Example.png
-.. |Combined_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Combined_FX_Example.png
-.. |Generated_FX_Example| image:: /_static/sfx/Inserting_Special_FX/Generated_FX_Example.png
-.. |FX_Settings_Example| image:: /_static/sfx/Editing_FX_Settings/FX_Settings_Example.png
-.. |Defining_Colors_Example| image:: /_static/sfx/Defining_Colors_and_Color_Spectrums/Defining_Colors_Example.png
-.. |Creating_Presets_Example| image:: /_static/sfx/Creating_Presets/Creating_Presets_Example.png
+.. |FX_Browser| image:: /_static/sfx/fx_browser.png
+.. |Basic_FX_Example| image:: /_static/sfx/fx_example_basic.png
+.. |Combined_FX_Example| image:: /_static/sfx/fx_example_combined.png
+.. |Generated_FX_Example| image:: /_static/sfx/fx_example_generated.png
+.. |FX_Settings_Example| image:: /_static/sfx/fx_example_settings.png
+.. |Defining_Colors_Example| image:: /_static/sfx/fx_example_defining_colors.png
+.. |Creating_Presets_Example| image:: /_static/sfx/fx_example_creating_presets.png
 .. |Checkerboard| image:: /_static/sfx/Special_FX_List/Background/Checkerboard.png
 .. |Color_Card| image:: /_static/sfx/Special_FX_List/Background/Color_Card.png
 .. |Kaleido| image:: /_static/sfx/Special_FX_List/Background/Kaleido.png
@@ -1791,3 +1791,12 @@ Blurs along concentric circular lines as if the Source content turns around the 
 	:width: 45%
 .. |dwanko_after_fx| image:: /_static/sfx/dwanko_after_fx.png
 	:width: 45%
+
+
+.. |FX_Browser_es| image:: /_static/sfx/es/fx_browser.png
+.. |Basic_FX_Example_es| image:: /_static/sfx/es/fx_example_basic.png
+.. |Combined_FX_Example_es| image:: /_static/sfx/es/fx_example_combined.png
+.. |Generated_FX_Example_es| image:: /_static/sfx/es/fx_example_generated.png
+.. |FX_Settings_Example_es| image:: /_static/sfx/es/fx_example_settings.png
+.. |Defining_Colors_Example_es| image:: /_static/sfx/es/fx_example_defining_colors.png
+.. |Creating_Presets_Example_es| image:: /_static/sfx/es/fx_example_creating_presets.png
