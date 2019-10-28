@@ -689,3 +689,13 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |save_as| image:: /_static/cleanup/save_as.png
 .. |start| image:: /_static/cleanup/start.png
 .. |stop| image:: /_static/cleanup/stop.png
+
+.. |cleanup_settings_es| image:: /_static/cleanup/es/cleanup_settings_pane.png
+.. |autocentering_es| image:: /_static/cleanup/es/cleanup_autocentering.png
+.. |rotate_es| image:: /_static/cleanup/es/cleanup_rotate.png
+.. |savein_es| image:: /_static/cleanup/es/cleanup_savein.png
+.. |greyscale_es| image:: /_static/cleanup/es/cleanup_greyscale.png
+.. |color_es| image:: /_static/cleanup/es/cleanup_color.png
+.. |camera_es| image:: /_static/cleanup/es/cleanup_camera.png
+.. |saveloadreset_es| image:: /_static/cleanup/es/cleanup_saveloadreset.png
+.. |progress_es| image:: /_static/cleanup/es/cleanup_progress.png
