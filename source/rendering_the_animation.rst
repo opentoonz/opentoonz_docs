@@ -679,7 +679,7 @@ The rendering of a scene can be added to a task list and performed in batch mode
 
 *Render tasks* can be submitted from the OpenToonz Browser and can be managed and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
 
-|tasks|
+|tasks_render|
 
 The Tasks pane is divided into two sections: on the left there is the Task tree where all of the *Render tasks* are displayed with a clapboard icon and all the *Cleanup tasks* with a brush icon; on the right there is Information about the task selected in the Task tree.
 
@@ -857,6 +857,9 @@ If you are not using the OpenToonz render farm, dividing the task into chunks is
 
 
 .. |preview_settings_dialog| image:: /_static/rendering/preview_settings_dialog.png
+.. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
+.. |clapperboard| image:: /_static/rendering/clapperboard.png
+.. |tasks_render| image:: /_static/rendering/tasks_render.png
 .. |compare| image:: /_static/rendering/compare.png
 .. |define_preview_subcamera| image:: /_static/rendering/define_preview_subcamera.png
 .. |histogram| image:: /_static/rendering/histogram.png
@@ -867,9 +870,6 @@ If you are not using the OpenToonz render farm, dividing the task into chunks is
 .. |preview| image:: /_static/rendering/preview.png
 .. |snapshot| image:: /_static/rendering/snapshot.png
 .. |subcamera_preview| image:: /_static/rendering/subcamera_preview.png
-.. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
-.. |clapperboard| image:: /_static/rendering/clapperboard.png
-.. |tasks| image:: /_static/rendering/tasks.png
 .. |save| image:: /_static/rendering/save.png
 .. |save_as| image:: /_static/rendering/save_as.png
 .. |load| image:: /_static/rendering/load.png
@@ -877,3 +877,9 @@ If you are not using the OpenToonz render farm, dividing the task into chunks is
 .. |start| image:: /_static/rendering/start.png
 .. |stop| image:: /_static/rendering/stop.png
 .. |remove| image:: /_static/rendering/remove.png
+
+
+.. |preview_settings_dialog_es| image:: /_static/rendering/es/preview_settings_dialog.png
+.. |output_settings_dialog_es| image:: /_static/rendering/es/output_settings_dialog.png
+.. |clapperboard_es| image:: /_static/rendering/es/clapperboard.png
+.. |tasks_render_es| image:: /_static/rendering/es/tasks_render.png
