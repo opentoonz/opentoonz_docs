@@ -518,6 +518,8 @@ The cleanup of drawings exposed in a scene can be added to a task list and perfo
 
 *Cleanup tasks* can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with *render tasks* (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`).
 
+|tasks_cleanup|
+
 The **Tasks** pane is divided into two sections: on the left there is the task tree where all of the *cleanup tasks* are displayed with a brush icon and all of the *render tasks* with a clapboard icon; on the right there is information about the task selected in the tree.
 
 The Task list can be saved as TNZBAT files and loaded back later in case you want to manage it through different working sessions.
@@ -678,6 +680,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |camera| image:: /_static/cleanup/cleanup_camera.png
 .. |saveloadreset| image:: /_static/cleanup/cleanup_saveloadreset.png
 .. |progress| image:: /_static/cleanup/cleanup_progress.png
+.. |tasks_cleanup| image:: /_static/cleanup/tasks_cleanup.png
 .. |RGB_picker| image:: /_static/cleanup/RGB_picker.png
 .. |add_cleanup| image:: /_static/cleanup/add_cleanup.png
 .. |camera_stand| image:: /_static/cleanup/camera_stand.png
@@ -699,3 +702,4 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |camera_es| image:: /_static/cleanup/es/cleanup_camera.png
 .. |saveloadreset_es| image:: /_static/cleanup/es/cleanup_saveloadreset.png
 .. |progress_es| image:: /_static/cleanup/es/cleanup_progress.png
+.. |tasks_cleanup_es| image:: /_static/cleanup/es/tasks_cleanup.png
