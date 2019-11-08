@@ -950,15 +950,15 @@ Curves
 ~~~~~~
  |Curves| 
 
-Adjusts the tonal range of the Source content by remapping pixels intensity according to a tonal curve for the RGB, Red, Green, Blue and Alpha channels.
+Adjusts the tonal range of the *Source* content by remapping pixels intensity according to a tonal curve for the RGB, Red, Green, Blue and Alpha channels.
 
-The horizontal axis of the graph represents the original brightness levels of the pixels (Input levels); the vertical axis represents the new brightness levels (Output levels).
+The horizontal axis of the graph represents the original brightness levels of the pixels (*Input* levels); the vertical axis represents the new brightness levels (*Output* levels).
 
 The default diagonal line indicates that no pixels are mapped to new values, so all pixels have the same Input and Output values. 
 
-It is possible to use many adjustment points to correct the curve: to add a point, click the curve; to change the curve, use the point direction handles; to delete a point, select it and use the delete shortcut (by default the Delete button).
+It is possible to use many adjustment points to correct the curve: to *add* a point, click the curve; to change the curvature, use the point tangent handles; to *delete* a point, select it and use the delete shortcut (by default the Delete key).
 
-The Linear option constrains the curve to a series of straight segments.
+The **Linear** option constrains the curve to a series of straight segments.
 
 .. _despeckle:
 
