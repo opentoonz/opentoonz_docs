@@ -1,26 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
 # This file is distributed under the same license as the OpenToonz package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# user <surkow.aleksandr@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 11:54+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-22 06:46+0800\n"
+"Last-Translator: Savraska2 <surkow.aleksandr@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/drawing_animation_levels.rst:4
 #: ../../source/drawing_animation_levels.rst:42
 msgid "Drawing Animation Levels"
-msgstr ""
+msgstr "Рисование уровней анимации"
 
 #: ../../source/drawing_animation_levels.rst:5
 msgid ""
@@ -30,10 +33,15 @@ msgid ""
 "also be used for touch-up in cleaned up drawings, and loaded raster "
 "images."
 msgstr ""
+"В OpenToonz можно создавать и рисовать **векторные уровни Toonz** (формат"
+" PLI), **растровые уровни Toonz** (формат TLV) и стандартные **растровые**"
+" уровни (формат TIF) непосредственно в средстве просмотра. Инструменты"
+" рисования также можно использовать для подправки очищенных чертежей и"
+" загруженных растровых изображений."
 
 #: ../../source/drawing_animation_levels.rst:10
 msgid "Drawing In OpenToonz"
-msgstr ""
+msgstr "Рисование в OpenToonz"
 
 #: ../../source/drawing_animation_levels.rst:11
 msgid ""
@@ -41,6 +49,9 @@ msgid ""
 "Vector, Toonz Raster or Raster; and its settings like its name, the "
 "number of frames it's made of and the way its drawings are numbered."
 msgstr ""
+"Чтобы нарисовать уровень анимации, сначала вы должны определиться с его"
+" типом: Toonz векторный, Toonz растровый или обыкновенный растровый; и его"
+" настройки, такие как имя, количество кадров и способ нумерации рисунков."
 
 #: ../../source/drawing_animation_levels.rst:13
 msgid ""
@@ -49,6 +60,11 @@ msgid ""
 " the level palette. Toonz Vector levels have an unlimited size and "
 "resolution, as they are vector-based. They are saved as PLI files."
 msgstr ""
+"Векторные уровни Toonz определяются рисованием векторных штрихов; штрихи и"
+" области, определенные штрихами, могут быть нарисованы с использованием"
+" стилей, доступных в палитре уровней. Векторные уровни Toonz имеют"
+" неограниченный размер и разрешение, поскольку они основаны на векторах. Они"
+" сохраняются в виде файлов PLI."
 
 #: ../../source/drawing_animation_levels.rst:15
 msgid ""
@@ -57,6 +73,11 @@ msgid ""
 "level palette. Toonz Raster levels have a specified size and resolution, "
 "defined when they are created. They are saved as TLV files."
 msgstr ""
+"Уровни Toonz Raster определяются путем рисования растровых линий; линии и"
+" области, определенные линиями, могут быть нарисованы с использованием"
+" стилей, доступных в палитре уровней. Уровни Toonz Raster имеют определенный"
+" размер и разрешение, определяемые при их создании. Они сохраняются в виде"
+" файлов TLV."
 
 #: ../../source/drawing_animation_levels.rst:17
 msgid ""
@@ -67,6 +88,13 @@ msgid ""
 "resolution, defined when they are created. They are saved as sequences of"
 " individual TIF files, one per level frame."
 msgstr ""
+"Растровые уровни определяются путем рисования растровых линий с"
+" использованием стилей, доступных в ** Палитре растровых рисунков**, которая"
+" используется всеми растровыми уровнями одного и того же проекта (см."
+" :ref:`Папки проекта по умолчанию <project_default_folders>`). Растровые"
+" уровни имеют определенный размер и разрешение, определяемые при их создании."
+" Они сохраняются как последовательности отдельных файлов TIF, по одному на"
+" каждый уровень кадра."
 
 #: ../../source/drawing_animation_levels.rst:19
 msgid ""
@@ -75,6 +103,10 @@ msgid ""
 "viewer. You can do this both, when you want to create a drawing from "
 "scratch, and when you want to edit a previously made drawing."
 msgstr ""
+"Когда уровень анимации определен, вы можете выбрать любой из его кадров на"
+" Xsheet/Timeline или в Level Strip и начать рисование в средстве просмотра."
+" Вы можете сделать это и тогда, когда вы хотите создать рисунок с нуля, и"
+" когда вы хотите редактировать ранее сделанный рисунок."
 
 #: ../../source/drawing_animation_levels.rst:21
 msgid ""
@@ -83,16 +115,21 @@ msgid ""
 "viewer displays the selected frame of the current animation level only, "
 "to let you work more easily on it."
 msgstr ""
+"При выборе на Xsheet / Timeline программа просмотра отображает всё содержание"
+" сцены в текущем кадре; при выборе в полосе уровня зритель отображает только"
+" выбранный кадр текущего уровня анимации, чтобы вам было легче работать с ним."
 
 #: ../../source/drawing_animation_levels.rst:27
 msgid "Setting the Default Type of Level to Draw"
-msgstr ""
+msgstr "Установка типа уровня по умолчанию для рисования"
 
 #: ../../source/drawing_animation_levels.rst:28
 msgid ""
 "It's possible to define the default level type that will be created when "
 "you draw inside OpenToonz."
 msgstr ""
+"Можно определить тип уровня по умолчанию, который будет создан, когда Вы"
+" рисуете внутри OpenToonz."
 
 #: ../../source/drawing_animation_levels.rst:30
 msgid ""
@@ -101,14 +138,18 @@ msgid ""
 " Raster levels are saved in the **+extras** folder (see  :ref:`Project "
 "Default Folders <project_default_folders>`  )."
 msgstr ""
+"По умолчанию уровни Toonz Vector и Toonz Raster сохраняются в "
+"папке **+drawing** текущего проекта при сохранении сцены, в то время как"
+" Уровни Raster сохраняются в папке **+extras**  (см. :ref:`Папки проекта по"
+" умолчанию <project_default_folders>`)."
 
 #: ../../source/drawing_animation_levels.rst:32
 msgid "**To define the Default Type of Level to Draw:**"
-msgstr ""
+msgstr "**Задать тип уровня по умолчанию для рисования:**"
 
 #: ../../source/drawing_animation_levels.rst:34
 msgid "Open File  →  Preferences  →  Drawing."
-msgstr ""
+msgstr "Откройте пункт меню Файл  →  Настройки программы  →  Рисунок."
 
 #: ../../source/drawing_animation_levels.rst:36
 msgid ""
@@ -116,6 +157,10 @@ msgid ""
 " Type:** option menu. **Width**, **Height** and **DPI** fields are "
 "available for **Toonz Raster Level** and **Raster Level** options."
 msgstr ""
+"Выберите тип уровня, который вы хотите использовать по умолчанию, в меню"
+" параметров **Тип уровня по умолчанию:**. Поля **Ширина**, **Высота** и"
+" **DPI** доступны для параметров **Растровый уровень Toonz** и ** Растровый"
+" уровень**."
 
 #: ../../source/drawing_animation_levels.rst:38
 msgid ""
@@ -123,26 +168,31 @@ msgid ""
 "Drawing section will also be used as default for the **New Level** "
 "dialog."
 msgstr ""
+"Значения ширины, высоты и DPI, заданные в разделе «Файл» → «Настройки"
+" программы» → «Рисунок», также будут использоваться по умолчанию в диалоговом"
+" окне **Новый уровень**."
 
 #: ../../source/drawing_animation_levels.rst:43
 msgid "Animation levels can be created in the following ways:"
-msgstr ""
+msgstr "Уровни анимации могут быть созданы следующими способами:"
 
 #: ../../source/drawing_animation_levels.rst:45
 msgid "Using the **New Level** dialog."
-msgstr ""
+msgstr "Использование диалогового окна **Новый уровень**."
 
 #: ../../source/drawing_animation_levels.rst:47
 msgid "Setting the Autocreation option to **Enabled**."
-msgstr ""
+msgstr "Для параметра «Автосоздание» установлено значение «**Включено»**."
 
 #: ../../source/drawing_animation_levels.rst:49
 msgid "Setting the Autocreation option to **Use Xsheet as Animation Sheet**."
 msgstr ""
+"Установка параметра «Автосоздание» на **Использовать Xsheet как лист"
+" анимации**."
 
 #: ../../source/drawing_animation_levels.rst:55
 msgid "Using the New Level Dialog"
-msgstr ""
+msgstr "Использование диалога нового уровня"
 
 #: ../../source/drawing_animation_levels.rst:56
 msgid ""
@@ -155,6 +205,14 @@ msgid ""
 "also allows you to choose a destination folder, different from the "
 "default one, by using the **Save In** field."
 msgstr ""
+"Новые уровни анимации можно определить с помощью диалогового окна, в котором"
+" можно указать количество рисунков, из которых сделан уровень, шаг анимации,"
+" используемый для отображения кадров в Xsheet/Timeline, и приращение, которое"
+" задает способ отображения чертежей уровней. пронумерованы. Например, **Шаг**"
+" 2 повторяет каждый рисунок дважды в столбце Xsheet или на временной шкале, в"
+" то время как **Прирост** 2 будет нумеровать его рисунки как 1, 3, 5 и т. Д."
+" В этом диалоговом окне также можно выбрать папка назначения, отличная от"
+" папки по умолчанию, с помощью поля **Сохранить в**."
 
 #: ../../source/drawing_animation_levels.rst:58
 msgid ""
@@ -162,6 +220,9 @@ msgid ""
 "**Width**, **Height** and **DPI** values, according to the way you want "
 "to use it in the scene."
 msgstr ""
+"Если вы определяете Растровый уровень Toonz или Растровый уровень , вы можете"
+" установить его значения **Ширина**, **Высота** и **DPI** в соответствии с"
+" тем, как вы хотите использовать его в сцене."
 
 #: ../../source/drawing_animation_levels.rst:60
 msgid ""
@@ -170,6 +231,10 @@ msgid ""
 "animation level the way you prefer (see  :ref:`Editing Animation Levels "
 "<editing_animation_levels>`  )."
 msgstr ""
+"Такие настройки, как длина уровня и порядок нумерации, могут быть"
+" отредактированы позже, так как вы можете упорядочивать изображения,"
+" составляющие уровень анимации, так, как вы предпочитаете (см."
+" :ref:`Редактирование уровней анимации <editing_animation_levels>`)."
 
 #: ../../source/drawing_animation_levels.rst:62
 msgid ""
@@ -180,16 +245,23 @@ msgid ""
 "levels (see  :ref:`Working with Xsheet Columns "
 "<working_with_xsheet_columns>`  )."
 msgstr ""
+"Когда новый уровень создается в пустом столбце, цвет заголовка этого столбца"
+" и ячеек, в которых отображается новый уровень, окрашиваются, обозначая тип"
+" уровня: **светло-желтый** для векторных уровней Toonz, **светло-зеленый**"
+" для растровых уровней Toonz и **светло-синий** для  растровых уровней (см."
+" :ref:`Работа со столбцами Xsheet <working_with_xsheet_columns>`)."
 
 #: ../../source/drawing_animation_levels.rst:64
 msgid ""
 "The New Level dialog inherits the **Default Level Type** settings defined"
 " in Preferences  →  Drawing."
 msgstr ""
+"Диалоговое окно \"Новый уровень\" наследует настройки **Тип уровня по"
+" умолчанию**, определенные в \"Настройки программы\" → \"Рисунок\"."
 
 #: ../../source/drawing_animation_levels.rst:66
 msgid "**To create a new animation level to draw:**"
-msgstr ""
+msgstr "**Чтобы создать новый уровень анимации для рисования:**"
 
 #: ../../source/drawing_animation_levels.rst:68
 #: ../../source/drawing_animation_levels.rst:151
@@ -222,31 +294,41 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:1478
 #: ../../source/drawing_animation_levels.rst:1486
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Выполните одно из следующих действий:"
 
 #: ../../source/drawing_animation_levels.rst:70
 msgid ""
 "Select a cell in the Xsheet/Timeline where you want to place your "
 "animation level and choose File  →  **New Level...**"
 msgstr ""
+"Выберите ячейку на Xsheet/Timeline, где вы хотите разместить уровень"
+" анимации, и выберите «Файл» → **«Новый уровень...»**"
 
 #: ../../source/drawing_animation_levels.rst:72
 msgid ""
 "Right-click the cell in the Xsheet/Timeline where you want to place your "
 "animation level and choose **New Level...** from the menu that opens."
 msgstr ""
+"Щелкните правой кнопкой мыши ячейку на Xsheet/Timeline, где вы хотите"
+" разместить уровень анимации, и выберите **Новый уровень...** в открывшемся"
+" меню."
 
 #: ../../source/drawing_animation_levels.rst:74
 msgid ""
 "(If the Xsheet/Timeline toolbar is visible) Click any of the three **New "
 "Level buttons** at the leftmost part of it."
 msgstr ""
+"(Если видна панель инструментов Xsheet/Timeline) Нажмите любую из трех кнопок"
+" **Новый уровень** в самой левой части."
 
 #: ../../source/drawing_animation_levels.rst:76
 msgid ""
 "Choose the type of level: Toonz Vector, Toonz Raster or Raster, from the "
 "**Type:** option menu and define its settings, then click the OK button."
 msgstr ""
+"Выберите тип уровня: Векторный уровень Toonz, Растровый уровень Toonz или"
+" Растровый уровень, в меню параметров **Тип:** и определите его настройки,"
+" затем нажмите кнопку OK."
 
 #: ../../source/drawing_animation_levels.rst:78
 msgid ""
@@ -254,22 +336,32 @@ msgid ""
 "the corresponding level type is already preselected in the dialog's "
 "dropdown menu."
 msgstr ""
+"При использовании кнопок панели инструментов Xsheet/Timeline для создания"
+" нового уровня соответствующий тип уровня уже предварительно выбран в"
+" раскрывающемся меню диалога."
 
 #: ../../source/drawing_animation_levels.rst:80
 msgid ""
 "If a level is already exposed in the cell column, the new level will be "
 "created in an empty column."
 msgstr ""
+"Если уровень уже представлен в столбце ячейки, новый уровень будет создан в"
+" пустом столбце."
 
 #: ../../source/drawing_animation_levels.rst:82
 msgid "**To define the saving location for the level you want to draw:**"
 msgstr ""
+"**Чтобы определить место сохранения для уровня, который вы хотите"
+" нарисовать:**"
 
 #: ../../source/drawing_animation_levels.rst:84
 msgid ""
 "In the **New Level** dialog type in the **Save In:** field, or use the "
 "**Browser button**, to set the path for the saving location."
 msgstr ""
+"В диалоговом окне **Новый уровень** введите в поле **Сохранить в:** или"
+" используйте кнопку **Browser button**, чтобы указать путь для места"
+" сохранения."
 
 #: ../../source/drawing_animation_levels.rst:86
 msgid ""
@@ -277,10 +369,13 @@ msgid ""
 "full path will be replaced by the correspondent *folder alias* (see  "
 ":ref:`Project Default Folders <project_default_folders>`  )."
 msgstr ""
+"Если в браузере вы выбираете какую-либо папку проекта, в поле пути полный"
+" путь будет заменен соответствующим *псевдонимом папки* (см. :ref:`Project"
+" Default Folders <project_default_folders>`)."
 
 #: ../../source/drawing_animation_levels.rst:92
 msgid "Using the Autocreation Option"
-msgstr ""
+msgstr "Использование опции автосоздания"
 
 #: ../../source/drawing_animation_levels.rst:93
 msgid ""
@@ -293,6 +388,14 @@ msgid ""
 "Xsheet/Timeline or the Level Strip) a new drawing will be added to that "
 "level."
 msgstr ""
+"Если в меню «Настройки программы» → «Рисунок» для параметра"
+" **«Автосоздание:**» установлено значение «**Включено»**, можно автоматически"
+" создавать новые рисунки с помощью инструментов рисования в средстве"
+" просмотра. Если текущая выбранная ячейка пуста, новый уровень будет"
+" автоматически создан и назван с первой доступной буквой алфавита; если"
+" текущая выбранная ячейка - это ячейка **сразу после**, содержащая рисунок"
+" уровня (либо на Xsheet/Timeline, либо на полосе уровня), к этому рисунку"
+" будет добавлен новый рисунок."
 
 #: ../../source/drawing_animation_levels.rst:95
 #: ../../source/drawing_animation_levels.rst:112
@@ -300,10 +403,12 @@ msgid ""
 "The level type will be the one defined in Preferences  →  Drawing as "
 "**Default Level Type**."
 msgstr ""
+"Тип уровня будет определен в Настройки программы → Рисунок как **Тип уровня"
+" по умолчанию**."
 
 #: ../../source/drawing_animation_levels.rst:101
 msgid "Using the Xsheet as Animation Sheet"
-msgstr ""
+msgstr "Использование Xsheet в качестве анимационного листа"
 
 #: ../../source/drawing_animation_levels.rst:102
 msgid ""
@@ -318,6 +423,16 @@ msgid ""
 "scene current frame ; if that drawing number already existed in the "
 "level, a letter will be added to its number (e.g. A.0001a.ext)."
 msgstr ""
+"Когда в меню «Настройки программы» → «Рисунок» параметр **«Автосоздание:**»"
+" установлен на **«Использовать Xsheet в качестве анимационного листа**»,"
+" можно автоматически создавать новые рисунки с помощью инструментов рисования"
+" в средстве просмотра. Если текущая выбранная ячейка пуста и принадлежит"
+" пустому столбцу, новый уровень будет автоматически создан и назван с первой"
+" доступной буквой алфавита; если текущая выбранная ячейка **где-то после**"
+" ячейки, содержащей рисунок уровня, к этому уровню будет добавлен новый"
+" рисунок. В обоих случаях рисунки будут брать свой номер из текущего кадра"
+" сцены; если этот номер рисунка уже существовал на уровне, к его номеру будет"
+" добавлена ​​буква (например, A.0001a.ext)."
 
 #: ../../source/drawing_animation_levels.rst:104
 msgid ""
@@ -326,12 +441,18 @@ msgid ""
 "and then *inbetween drawings*. You can quickly check your animation "
 "flipping it in the viewer."
 msgstr ""
+"Этот метод работы позволяет вам работать как традиционный аниматор: вы можете"
+" начать создавать *ключевые рисунки*, а затем добавлять *разбивочные"
+" рисунки*, а затем *между рисунками*. Вы можете быстро проверить свою"
+" анимацию, пролистывая ее в средстве просмотра."
 
 #: ../../source/drawing_animation_levels.rst:106
 msgid ""
 "When you add a new drawing it will be repeated as a *hold* along the "
 "column/layer up to the following one."
 msgstr ""
+"Когда вы добавляете новый рисунок, он будет повторяться как *удержанный*"
+" вдоль столбца / слоя до следующего."
 
 #: ../../source/drawing_animation_levels.rst:108
 msgid ""
@@ -340,54 +461,65 @@ msgid ""
 "drawing. Drawings can also be duplicated creating a copy with a different"
 " number."
 msgstr ""
+"Также возможно создать новый рисунок в ячейке, которая содержит *hold*: новый"
+" рисунок заменит удержание до следующего рисунка. Рисунки также можно"
+" дублировать, создав копию с другим номером."
 
 #: ../../source/drawing_animation_levels.rst:110
 msgid ""
 "Once the animation is completed you can renumber the whole sequence "
 "according to the Xsheet/Timeline frame numbering."
 msgstr ""
+"После завершения анимации вы можете изменить нумерацию всей"
+" последовательности в соответствии с нумерацией кадров Xsheet / Timeline."
 
 #: ../../source/drawing_animation_levels.rst:114
 msgid "**To create a new animation level**"
-msgstr ""
+msgstr "**Для создания нового уровня анимации**"
 
 #: ../../source/drawing_animation_levels.rst:116
 msgid ""
 "Click an empty cell in the Xsheet/Timeline and start drawing using a "
 "drawing tool in the viewer."
 msgstr ""
+"Щелкните пустую ячейку на Xsheet/Timeline и начните рисовать, используя"
+" инструмент рисования в окне просмотра."
 
 #: ../../source/drawing_animation_levels.rst:118
 msgid "**To add a drawing to an existing level**"
-msgstr ""
+msgstr "**Чтобы добавить рисунок существующему уровню**"
 
 #: ../../source/drawing_animation_levels.rst:120
 msgid ""
 "Click an empty cell in the column/layer containing the existing level and"
 " start drawing using a drawing tool in the viewer."
 msgstr ""
+"Щелкните пустую ячейку в столбце/слое, содержащем существующий уровень, и"
+" начните рисовать, используя инструмент рисования в средстве просмотра."
 
 #: ../../source/drawing_animation_levels.rst:122
 msgid "**To automatically renumber the drawings**"
-msgstr ""
+msgstr "**Для автоматической нумерации рисунков**"
 
 #: ../../source/drawing_animation_levels.rst:124
 msgid "Select the cells with the drawings you want to renumber."
-msgstr ""
+msgstr "Выберите ячейки с рисунками, которые вы хотите перенумеровать."
 
 #: ../../source/drawing_animation_levels.rst:126
 msgid "Choose the Cells  →  **Autorenumber** command."
-msgstr ""
+msgstr "Выберите команду Ячейки → **Автопересчет**."
 
 #: ../../source/drawing_animation_levels.rst:128
 msgid ""
 "The **Autorenumber** command is also available in the menu that opens "
 "when right-clicking in a cell."
 msgstr ""
+"Команда **Автопересчет** также доступна в меню, которое открывается при"
+" щелчке правой кнопкой мыши в ячейке."
 
 #: ../../source/drawing_animation_levels.rst:134
 msgid "Using the Viewer"
-msgstr ""
+msgstr "Использование окна просмотра"
 
 #: ../../source/drawing_animation_levels.rst:135
 msgid ""
@@ -395,6 +527,10 @@ msgid ""
 " draw, paint, edit and model drawings. The work area of the viewer is "
 "endless and you can scroll, zoom in, zoom out and rotate it."
 msgstr ""
+"В средстве просмотра можно использовать инструменты, доступные на панели"
+" инструментов, для рисования, рисования, редактирования и моделирования"
+" чертежей. Рабочая область зрителя бесконечна, и вы можете прокручивать,"
+" увеличивать, уменьшать и поворачивать ее."
 
 #: ../../source/drawing_animation_levels.rst:137
 msgid ""
@@ -403,12 +539,17 @@ msgid ""
 "lets you set the view mode (see  :ref:`Using the Viewer "
 "<using_the_viewer>`  )."
 msgstr ""
+"В строке заголовка вы можете найти информацию о том, что в данный момент"
+" отображается и выбирается, процент увеличения и набор кнопок, которые"
+" позволяют вам установить режим просмотра (см. :ref:`Использование окна"
+" просмотра <using_the_viewer>`)."
 
 #: ../../source/drawing_animation_levels.rst:139
 msgid ""
 "At the bottom of the viewer another customizable set of buttons is "
 "available."
 msgstr ""
+"В нижней части окна просмотра доступен другой настраиваемый набор кнопок."
 
 #: ../../source/drawing_animation_levels.rst:141
 msgid ""
@@ -417,6 +558,10 @@ msgid ""
 "case the playback is activated, the actual frame rate is displayed on its"
 " left."
 msgstr ""
+"Панель кадров и кнопки воспроизведения позволяют установить текущий кадр и"
+" перемещаться по кадрам анимации. Заданная частота кадров визуализируется, и,"
+" если воспроизведение активировано, фактическая частота кадров отображается"
+" слева."
 
 #: ../../source/drawing_animation_levels.rst:143
 msgid ""
@@ -425,12 +570,18 @@ msgid ""
 ":ref:`Animating Objects <animating_objects>` and :ref:`Previewing the "
 "Animation <previewing_the_animation>`  )."
 msgstr ""
+"Другие кнопки актуальны только при использовании Инструмента анимирования"
+" (|animate|) для анимации объектов и при предварительном просмотре анимации в"
+" окне просмотра (см. :ref:`Анимация объектов <animating_objects>` и"
+" :ref:`Предварительный просмотр анимации <previewing_the_animation>`)."
 
 #: ../../source/drawing_animation_levels.rst:145
 msgid ""
 "If the bottom bar is too short to display all the options, it can be "
 "scrolled by using arrow buttons available at its ends."
 msgstr ""
+"Если нижняя панель слишком короткая, чтобы отобразить все параметры, ее можно"
+" прокрутить с помощью кнопок со стрелками на ее концах."
 
 #: ../../source/drawing_animation_levels.rst:147
 msgid ""
@@ -438,10 +589,13 @@ msgid ""
 "buttons operate on the defined range only (see  :ref:`Using the Playback "
 "Markers <using_the_playback_markers>`  )."
 msgstr ""
+"Если диапазон кадров определяется маркерами воспроизведения, кнопки"
+" воспроизведения работают только с определенным диапазоном (см."
+" :ref:`Использование маркеров воспроизведения <using_the_playback_markers>`)."
 
 #: ../../source/drawing_animation_levels.rst:149
 msgid "**To navigate the work area:**"
-msgstr ""
+msgstr "**Для навигации по рабочей области:**"
 
 #: ../../source/drawing_animation_levels.rst:153
 msgid ""
@@ -449,22 +603,30 @@ msgid ""
 "out, click and drag down. The point where you click is the center of the "
 "zooming action."
 msgstr ""
+"Используйте инструмент **Лупа** (|zoom|): для увеличения нажмите и перетащите"
+" вверх; чтобы уменьшить масштаб, нажмите и перетащите вниз. Точка, в которой"
+" вы щелкаете, является центром действия масштабирования."
 
 #: ../../source/drawing_animation_levels.rst:155
 msgid ""
 "Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom "
 "out at specific steps (e.g. 50%, 100%, 200%, etc.)."
 msgstr ""
+"Используйте горячие клавиши масштабирования (по умолчанию клавиши + и -),"
+" чтобы увеличивать и уменьшать масштаб при определенных шагах (например, 50%,"
+" 100%, 200% и т.д.)."
 
 #: ../../source/drawing_animation_levels.rst:157
 msgid "Use the mouse wheel to zoom in and zoom out."
-msgstr ""
+msgstr "Используйте колесико мыши для увеличения и уменьшения масштаба."
 
 #: ../../source/drawing_animation_levels.rst:159
 msgid ""
 "Middle-click and drag or use the **Hand** tool (|hand|) to scroll in any "
 "direction."
 msgstr ""
+"Нажмите среднюю кнопку мыши и перетащите или используйте инструмент **Рука**"
+" (|hand|) для прокрутки в любом направлении."
 
 #: ../../source/drawing_animation_levels.rst:161
 msgid ""
@@ -472,6 +634,9 @@ msgid ""
 "line* is displayed to let you understand the amount of rotation; the "
 "center of rotation is the absolute center of the work area."
 msgstr ""
+"Используйте инструмент **Поворот** (|rotate|), чтобы вращать в окне"
+" просмотра: отображается *линия горизонта*, чтобы вы могли понять величину"
+" вращения; центр вращения является абсолютным центром рабочей зоны."
 
 #: ../../source/drawing_animation_levels.rst:163
 msgid ""
@@ -480,61 +645,70 @@ msgid ""
 "to display the viewer at its actual size, centered on the absolute center"
 " with no rotation applied."
 msgstr ""
+"Используйте горячую клавишу сброса просмотра (по умолчанию клавиша **Alt +"
+" 0**) или щелкните правой кнопкой мыши в окне просмотра и выберите **Вид по"
+" умолчанию** в открывшемся меню, чтобы отобразить окно просмотра в его"
+" реальном размере с центром в абсолютном центре без вращения."
 
 #: ../../source/drawing_animation_levels.rst:165
 msgid ""
 "Right-click and choose **Fit to Window** to automatically zoom the viewer"
 " so that it fits the camera box."
 msgstr ""
+"Щелкните правой кнопкой мыши и выберите **По размеру окна**, чтобы"
+" автоматически увеличить масштаб просмотра, чтобы он уместился в поле камеры."
 
 #: ../../source/drawing_animation_levels.rst:167
 msgid "**To play the scene contents back:**"
-msgstr ""
+msgstr "**Для воспроизведения содержимого сцены назад:**"
 
 #: ../../source/drawing_animation_levels.rst:171
 msgid "Use the **Play** button."
-msgstr ""
+msgstr "Нажмите кнопку **Воспроизведение**."
 
 #: ../../source/drawing_animation_levels.rst:173
 #: ../../source/drawing_animation_levels.rst:181
 msgid "Drag the frame bar cursor."
-msgstr ""
+msgstr "Перетащите курсор рамки кадра."
 
 #: ../../source/drawing_animation_levels.rst:175
 msgid "**To set the current frame:**"
-msgstr ""
+msgstr "**Чтобы установить текущий кадр:**"
 
 #: ../../source/drawing_animation_levels.rst:179
 msgid "Use the playback buttons."
-msgstr ""
+msgstr "Используйте кнопки воспроизведения."
 
 #: ../../source/drawing_animation_levels.rst:183
 msgid ""
 "Type in the **Current Frame** field the number of the frame you want to "
 "view."
 msgstr ""
+"Введите в поле **Текущий кадр** номер кадра, который вы хотите просмотреть."
 
 #: ../../source/drawing_animation_levels.rst:185
 msgid "**To set the playback frame rate:**"
-msgstr ""
+msgstr "**Чтобы установить частоту кадров воспроизведения:**"
 
 #: ../../source/drawing_animation_levels.rst:189
 msgid "Enter a value in the **FPS** field."
-msgstr ""
+msgstr "Введите значение в поле **FPS**."
 
 #: ../../source/drawing_animation_levels.rst:191
 msgid "Use the frame rate slider."
-msgstr ""
+msgstr "Используйте ползунок частоты кадров."
 
 #: ../../source/drawing_animation_levels.rst:197
 msgid "Adjusting the Viewer Visualization"
-msgstr ""
+msgstr "Настройка визуализации окна просмотра"
 
 #: ../../source/drawing_animation_levels.rst:198
 msgid ""
 "The way the viewer visualizes the scene content can be adjusted according"
 " to the task to perform."
 msgstr ""
+"Способ, которым окно просмотра визуализирует содержание сцены, может быть"
+" скорректирован в соответствии с задачей, которую необходимо выполнить."
 
 #: ../../source/drawing_animation_levels.rst:200
 msgid ""
@@ -542,6 +716,9 @@ msgid ""
 " screen, hiding any interface window border. This is available only on "
 "the Windows platform."
 msgstr ""
+"**Полноэкранный режим** можно ввести, чтобы максимально развернуть зрителя до"
+" экрана монитора, скрывая любую границу окна интерфейса. Это доступно только"
+" на платформе Windows."
 
 #: ../../source/drawing_animation_levels.rst:202
 msgid ""
@@ -550,12 +727,19 @@ msgid ""
 "faster to visualize, still preserving their vector nature, by using the "
 "**Visualize Vector As Raster** option."
 msgstr ""
+"Векторные рисунки, которые могут замедлить производительность визуализации"
+" при использовании в большом количестве в сцене, можно визуализировать как"
+" растровые рисунки, быстрее визуализировать, сохраняя при этом их векторную"
+" природу, используя параметр **Отображать вектор как растр**."
 
 #: ../../source/drawing_animation_levels.rst:204
 msgid ""
 "If the current level is vector-based, it will still be displayed as "
 "vector to allow any drawing/editing operation you may perform."
 msgstr ""
+"Если текущий уровень основан на векторах, он все равно будет отображаться как"
+" вектор, чтобы разрешить любую операцию рисования/редактирования, которую вы"
+" можете выполнить."
 
 #: ../../source/drawing_animation_levels.rst:206
 msgid ""
@@ -564,58 +748,80 @@ msgid ""
 "size, that is to say that one pixel from the image is displayed as one "
 "pixel of the screen monitor, to better examine them."
 msgstr ""
+"Растровые рисунки и изображения, которые обычно отображаются в средстве"
+" просмотра в соответствии с их значением DPI, могут отображаться с их"
+" фактическим размером в пикселях, то есть один пиксель изображения"
+" отображается как один пиксель экрана монитора, чтобы лучше их изучить."
 
 #: ../../source/drawing_animation_levels.rst:208
 msgid ""
 "Visualizing an image at its actual pixel size is different from zooming "
 "in because zooming always takes into account the image DPI information."
 msgstr ""
+"Визуализация изображения с его фактическим размером в пикселях отличается от"
+" увеличения, поскольку при масштабировании всегда учитывается информация о"
+" DPI изображения."
 
 #: ../../source/drawing_animation_levels.rst:210
 msgid "**Windows only - To enter the viewer full screen mode:**"
-msgstr ""
+msgstr "**Только для Windows - Для входа в полноэкранный режим просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:212
 msgid ""
 "Right-click the viewer and choose **Full Screen Mode** from the menu that"
 " opens."
 msgstr ""
+"Щелкните правой кнопкой мыши в окне просмотра и выберите **Полноэкранный"
+" режим** в открывшемся меню."
 
 #: ../../source/drawing_animation_levels.rst:214
 msgid "**Windows only - To exit the viewer full screen mode:**"
 msgstr ""
+"**Только для Windows - Для выхода из полноэкранного режима просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:216
 msgid ""
 "Right-click the viewer and choose **Exit Full Screen Mode** from the menu"
 " that opens."
 msgstr ""
+"Щелкните правой кнопкой мыши на средстве просмотра и выберите **Выход из"
+" полноэкранного режима** в открывшемся меню."
 
 #: ../../source/drawing_animation_levels.rst:218
 msgid ""
 "**To activate or deactivate the raster visualization for vector "
 "drawings:**"
 msgstr ""
+"**Чтобы активировать или деактивировать растровую визуализацию для векторных"
+" рисунков:**"
 
 #: ../../source/drawing_animation_levels.rst:220
-msgid "Activate or deactivate the View  →  **Visualize Vector As Raster** option."
+msgid ""
+"Activate or deactivate the View  →  **Visualize Vector As Raster** option."
 msgstr ""
+"Активируйте или деактивируйте опцию Вид → **Отображать вектор как растр **."
 
 #: ../../source/drawing_animation_levels.rst:222
 msgid "**To display raster drawings and images at their actual pixel size:**"
 msgstr ""
+"**Для отображения растровых рисунков и изображений с их фактическим размером"
+" пиксела:**"
 
 #: ../../source/drawing_animation_levels.rst:224
 msgid ""
 "In the Xsheet/Timeline select the level to which the drawing or image "
 "belongs so that it becomes the current level."
 msgstr ""
+"В Xsheet/Timeline выберите уровень, к которому относится чертеж или"
+" изображение, чтобы он стал текущим уровнем."
 
 #: ../../source/drawing_animation_levels.rst:226
 msgid ""
 "Select the drawing or image in the Level Strip in order to display it "
 "alone."
 msgstr ""
+"Выберите рисунок или изображение на полосе уровня, чтобы отобразить его"
+" отдельно."
 
 #: ../../source/drawing_animation_levels.rst:228
 msgid ""
@@ -623,10 +829,13 @@ msgid ""
 "click in the viewer and choose **Actual Pixel Size** from the menu that "
 "opens."
 msgstr ""
+"Используйте горячую клавишу \"Фактический пиксельный размер\" (по умолчанию"
+" клавиша **N**) или щелкните правой кнопкой мыши в средстве просмотра и"
+" выберите **Фактический пиксельный размер** в открывшемся меню."
 
 #: ../../source/drawing_animation_levels.rst:234
 msgid "Customizing the Viewer"
-msgstr ""
+msgstr "Настройка окна просмотра"
 
 #: ../../source/drawing_animation_levels.rst:235
 msgid ""
@@ -638,6 +847,13 @@ msgid ""
 "frame. The View  →  **Inks Only** check allows to hide the painted areas "
 "of the levels facilitating the drawing process."
 msgstr ""
+"Окно просмотра может быть настроено в соответствии с вашими потребностями:"
+" цвета фона, видимые в просмотрщике и внутри камеры, могут быть изменены;"
+" направляющая сетка и безопасная зона могут быть отображены для справки; стол"
+" и камера могут быть скрыты; пользовательские направляющие могут быть"
+" добавлены, чтобы помочь вам выровнять объекты или составить элементы сцены"
+" для определенного кадра. Проверка \"Вид\" → **Только линии** позволяет"
+" скрыть окрашенные области уровней, облегчая процесс рисования."
 
 #: ../../source/drawing_animation_levels.rst:237
 msgid ""
@@ -645,22 +861,26 @@ msgid ""
 "viewer can be customized as well, so that only the elements you require "
 "are visible."
 msgstr ""
+"Набор кнопок и информации, доступных в нижней панели средства просмотра,"
+" также можно настроить так, чтобы были видны только те элементы, которые вам"
+" нужны."
 
 #: ../../source/drawing_animation_levels.rst:239
 msgid "**To change the viewer background color:**"
-msgstr ""
+msgstr "** Чтобы изменить цвет фона просмотрщика:**"
 
 #: ../../source/drawing_animation_levels.rst:241
 msgid "Open the File  →  Preferences  →  **Colors** dialog."
-msgstr ""
+msgstr "Откройте диалоговое окно Файл → Настройки программы → **Цвета**."
 
 #: ../../source/drawing_animation_levels.rst:243
 msgid "Define the **Viewer BG Color** by doing one of the following:"
 msgstr ""
+"Определите **Цвет фона просмотра**, выполнив одно из следующих действий:"
 
 #: ../../source/drawing_animation_levels.rst:245
 msgid "Set the Red, Green and Blue values."
-msgstr ""
+msgstr "Установите значения красного, зеленого и синего."
 
 #: ../../source/drawing_animation_levels.rst:247
 #: ../../source/drawing_animation_levels.rst:257
@@ -668,67 +888,76 @@ msgid ""
 "Click the color thumbnail and use the **Style Editor** to edit it (see  "
 ":ref:`Plain Colors <plain_colors>`  )."
 msgstr ""
+"Нажмите на миниатюру цвета и используйте **Редактор стилей**, чтобы"
+" отредактировать его (см. :ref:`Plain Colors <plain_colors>`)."
 
 #: ../../source/drawing_animation_levels.rst:249
 msgid "**To change the camera box background color:**"
-msgstr ""
+msgstr "**Чтобы изменить цвет фона камеры:**"
 
 #: ../../source/drawing_animation_levels.rst:251
 #: ../../source/drawing_animation_levels.rst:279
 msgid "Open the Xsheet  →  **Scene Settings...** dialog."
-msgstr ""
+msgstr "Откройте диалоговое окно Xsheet → **Настройки сцены...**."
 
 #: ../../source/drawing_animation_levels.rst:253
 msgid "Define the **Camera BG Color** by doing one of the following:"
-msgstr ""
+msgstr "Определите **Цвет фона камеры:**, выполнив одно из следующих действий:"
 
 #: ../../source/drawing_animation_levels.rst:255
 msgid "Set the Red, Green, Blue and Alpha values."
-msgstr ""
+msgstr "Установите значения красного, зеленого, синего и альфа."
 
 #: ../../source/drawing_animation_levels.rst:259
 msgid "**To show or hide the table:**"
-msgstr ""
+msgstr "**Чтобы показать или скрыть таблицу:**"
 
 #: ../../source/drawing_animation_levels.rst:261
 msgid "Choose View  →  **Table** to show or hide the table."
-msgstr ""
+msgstr "Выберите Вид → **Таблица**, чтобы показать или скрыть таблицу."
 
 #: ../../source/drawing_animation_levels.rst:263
 msgid "**To show or hide the camera box:**"
-msgstr ""
+msgstr "**Чтобы показать или скрыть границу камеры:**"
 
 #: ../../source/drawing_animation_levels.rst:265
 msgid "Choose View  →  **Camera Box** to show or hide the camera box."
 msgstr ""
+"Выберите Вид → **Граница камеры**, чтобы показать или скрыть границу камеры."
 
 #: ../../source/drawing_animation_levels.rst:267
 msgid ""
 "The camera box visualization also triggers the safe area visualization "
 "(see below)."
 msgstr ""
+"Визуализация границы камеры также запускает визуализацию безопасной области"
+" (см. ниже)."
 
 #: ../../source/drawing_animation_levels.rst:269
 msgid "**To show or hide the camera background color:**"
-msgstr ""
+msgstr "**Чтобы показать или скрыть цвет фона камеры:**"
 
 #: ../../source/drawing_animation_levels.rst:271
 msgid ""
 "Choose View  →  **Camera BG Color** to show or hide the camera box "
 "background color."
 msgstr ""
+"Выберите Вид → **Цвет фона камеры**, чтобы показать или скрыть цвет фона"
+" камеры."
 
 #: ../../source/drawing_animation_levels.rst:273
 msgid "**To show or hide the field guide:**"
-msgstr ""
+msgstr "**Чтобы определить отображаемую направляющую сетку:**"
 
 #: ../../source/drawing_animation_levels.rst:275
 msgid "Choose View  →  **Field Guide** to show or hide the field guide."
 msgstr ""
+"Выберите Вид → **Направляющая сетка**, чтобы показать или скрыть направляющую"
+" сетку."
 
 #: ../../source/drawing_animation_levels.rst:277
 msgid "**To define the displayed field guide:**"
-msgstr ""
+msgstr "**Чтобы определить отображаемую направляющую сетку:**"
 
 #: ../../source/drawing_animation_levels.rst:281
 msgid ""
@@ -736,22 +965,26 @@ msgid ""
 "width fields of the field guide (1 field is equal to 1 inch), and the "
 "**A/R** is the ratio between the field guide width and height."
 msgstr ""
+"Определите **Размер направляющей сетки:** и **A/R:**. **Размер** - это число"
+" полей ширины направляющей поля (1 поле равно 1 дюйму), а **A/R** - это"
+" соотношение между шириной направляющей поля и высотой."
 
 #: ../../source/drawing_animation_levels.rst:283
 msgid "**To show or hide the safe area:**"
-msgstr ""
+msgstr "**Чтобы показать или скрыть безопасную зону:**"
 
 #: ../../source/drawing_animation_levels.rst:285
 msgid "Choose View  →  **Safe Area** to show or hide the safe area."
 msgstr ""
+"Выберите Вид → **Безопасная зона**, чтобы показать или скрыть безопасную зону."
 
 #: ../../source/drawing_animation_levels.rst:287
 msgid "The safe area is not visible if the camera box is hidden (see above)."
-msgstr ""
+msgstr "Безопасная зона не видна, если граница камеры скрыта (см. выше)."
 
 #: ../../source/drawing_animation_levels.rst:289
 msgid "**To add a custom guide:**"
-msgstr ""
+msgstr "**Чтобы добавить пользовательскую сетку:**"
 
 #: ../../source/drawing_animation_levels.rst:291
 msgid ""
@@ -759,40 +992,46 @@ msgid ""
 "vertical guide, a click in the vertical ruler will create an horizontal "
 "guide."
 msgstr ""
+"Нажмите на линейку: щелчок в горизонтальной линейке создаст вертикальную"
+" направляющую, щелчок в вертикальной линейке создаст горизонтальную"
+" направляющую."
 
 #: ../../source/drawing_animation_levels.rst:293
 msgid "**To move a custom guide:**"
-msgstr ""
+msgstr "**Чтобы переместить пользовательскую сетку:**"
 
 #: ../../source/drawing_animation_levels.rst:295
 msgid "Drag the custom guide marker in the ruler."
-msgstr ""
+msgstr "Перетащите маркер пользовательской направляющей сетки по линейке."
 
 #: ../../source/drawing_animation_levels.rst:297
 msgid "**To delete a custom guide:**"
-msgstr ""
+msgstr "**Чтобы удалить пользовательскую сетку:**"
 
 #: ../../source/drawing_animation_levels.rst:299
 msgid ""
 "Drag its marker outside of the viewer, in the opposite direction of the "
 "guide itself."
 msgstr ""
+"Перетащите маркер за пределы зрителя, в направлении, противоположном самой"
+" направляющей."
 
 #: ../../source/drawing_animation_levels.rst:301
 msgid "**To show or hide guides:**"
-msgstr ""
+msgstr "**Чтобы показать или скрыть направляющие:**"
 
 #: ../../source/drawing_animation_levels.rst:303
 msgid "Choose View  →  **Guides** to show or hide the guides."
 msgstr ""
+"Выберите Вид → **Руководства**, чтобы показать или скрыть направляющие."
 
 #: ../../source/drawing_animation_levels.rst:305
 msgid "**To show or hide rulers where guide markers are located:**"
-msgstr ""
+msgstr "**Чтобы показать или скрыть линейки, на которых расположены маркеры:**"
 
 #: ../../source/drawing_animation_levels.rst:307
 msgid "Choose View  →  **Rulers** to show or hide the rulers."
-msgstr ""
+msgstr "Выберите Вид → **Линейка**, чтобы показать или скрыть линейки."
 
 #: ../../source/drawing_animation_levels.rst:309
 msgid ""
@@ -801,10 +1040,14 @@ msgid ""
 " the position of a guide can still be controlled by markers, even if "
 "visually they don’t match anymore."
 msgstr ""
+"Когда рабочая область окна просмотра поворачивается, направляющие также"
+" поворачиваются, но линейки и направляющие маркеры сохраняют свое положение и"
+" ориентацию. Однако положение сетки все еще может контролироваться маркерами,"
+" даже если визуально они больше не совпадают."
 
 #: ../../source/drawing_animation_levels.rst:311
 msgid "**To customize the set of buttons in the bottom bar of the viewer:**"
-msgstr ""
+msgstr "**Чтобы настроить набор кнопок в нижней панели окна просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:313
 msgid ""
@@ -812,10 +1055,13 @@ msgid ""
 "and select the elements to show, or deselect those to hide, in the menu "
 "that opens."
 msgstr ""
+"Нажмите кнопку опции (|option|) в крайнем левом углу нижней области и"
+" выберите отображаемые элементы или отмените выбор элементов, которые нужно"
+" скрыть, в открывшемся меню."
 
 #: ../../source/drawing_animation_levels.rst:320
 msgid "Drawing Tools"
-msgstr ""
+msgstr "Инструменты рисования"
 
 #: ../../source/drawing_animation_levels.rst:321
 msgid ""
@@ -824,18 +1070,27 @@ msgid ""
 " you are going to draw: values range from 0 to 100 for Toonz Vector "
 "levels, and from 1 to 100 for Toonz Raster and Raster levels."
 msgstr ""
+"Вы можете рисовать с помощью инструментов **Кисть** (|brush|) и"
+" **Геометрический** (|geometric|). Для обоих инструментов вы можете"
+" установить толщину линии, которую вы собираетесь нарисовать: значения"
+" варьируются от 0 до 100 для уровней векторного Toonz и от 1 до 100 для"
+" уровней растрового и растрового Toonz ."
 
 #: ../../source/drawing_animation_levels.rst:323
 msgid ""
 "For Toonz Raster and Raster levels it's possible to set a Brush tool size"
 " higher than 100 by typing it in the Size value fields."
 msgstr ""
+"Для уровней растрового Toonz и растрового можно установить размер инструмента"
+" Кисть больше 100, введя его в поле Размер."
 
 #: ../../source/drawing_animation_levels.rst:325
 msgid ""
 "**Min** and **Max Size/Thickness** can be modified by either of these "
 "methods:"
 msgstr ""
+"**Минимальный** и **Максимальный Размер/Толщина ** можно изменить одним из"
+" следующих способов:"
 
 #: ../../source/drawing_animation_levels.rst:327
 msgid ""
@@ -843,6 +1098,9 @@ msgid ""
 "changes the **Max** value, while *moving vertically* changes the **Min** "
 "value."
 msgstr ""
+"Нажатие **Ctrl + Alt** и перемещение мыши. *Перемещение по горизонтали*"
+" изменяет значение **Максимальный**, тогда как *перемещение по вертикали*"
+" изменяет значение **Минимальный**."
 
 #: ../../source/drawing_animation_levels.rst:329
 msgid ""
@@ -850,6 +1108,9 @@ msgid ""
 " decreasing and increasing the **Max** value, or **H** and **J** for "
 "respectively decreasing and increasing the **Min** value."
 msgstr ""
+"Использование определенных сочетаний клавиш. **U** и **I** для соответственно"
+" уменьшения и увеличения значения **Максимальный** или **H** и **J** для"
+" соответственно уменьшения и увеличения значения **Минимальный**."
 
 #: ../../source/drawing_animation_levels.rst:331
 msgid ""
@@ -857,12 +1118,18 @@ msgid ""
 "pressure sensitivity if you are using a pressure sensitive tablet. The "
 "more you press on the tablet, the thicker the line you draw."
 msgstr ""
+"С помощью инструмента **Кисть** (|brush|) вы можете в полной мере"
+" воспользоваться чувствительностью к давлению, если вы используете"
+" чувствительный к давлению планшет. Чем больше вы нажимаете на планшет, тем"
+" толще линия, которую вы рисуете."
 
 #: ../../source/drawing_animation_levels.rst:333
 msgid ""
 "With the **Geometric** tool (|geometric|), the thickness value is "
 "constantly applied to the whole shape you draw."
 msgstr ""
+"С помощью инструмента **Геометрический** (|geometric|) значение толщины"
+" постоянно применяется ко всей нарисованной фигуре."
 
 #: ../../source/drawing_animation_levels.rst:335
 msgid ""
@@ -871,6 +1138,10 @@ msgid ""
 "if you zoom in or zoom out, and they will be not visible when the "
 "animation is rendered."
 msgstr ""
+"При создании векторных рисунков размер/толщину также можно установить на 0"
+" (ноль): в этом случае векторные штрихи будут существовать только в виде"
+" каркаса, даже если вы увеличиваете или уменьшаете масштаб, и они не будут"
+" видны при визуализации анимации."
 
 #: ../../source/drawing_animation_levels.rst:337
 msgid ""
@@ -878,16 +1149,21 @@ msgid ""
 " by using other tools (see  :ref:`Editing Drawings <editing_drawings>`  "
 ")."
 msgstr ""
+"Для векторных рисунков толщину линий можно изменить и настроить позже,"
+" используя другие инструменты (см. :ref:`Редактирование рисунков <"
+"editing_drawings>`)."
 
 #: ../../source/drawing_animation_levels.rst:343
 msgid "Drawing with the Brush Tool"
-msgstr ""
+msgstr "Рисование с помощью инструмента Кисть"
 
 #: ../../source/drawing_animation_levels.rst:344
 msgid ""
 "The **Brush** tool (|brush|) allows you to draw freehand lines with the "
 "current style."
 msgstr ""
+"Инструмент **Кисть** (|brush|) позволяет рисовать линии от руки с текущим"
+" стилем."
 
 #: ../../source/drawing_animation_levels.rst:346
 msgid ""
@@ -896,6 +1172,9 @@ msgid ""
 "to create variable-thickness lines that will make your drawings more "
 "expressive."
 msgstr ""
+"При использовании планшета, чувствительного к давлению, и при включенной"
+" опции **Нажим** изменение давления пера на планшете позволит вам создавать"
+" линии переменной толщины, которые сделают ваши рисунки более выразительными."
 
 #: ../../source/drawing_animation_levels.rst:348
 msgid ""
@@ -904,6 +1183,10 @@ msgid ""
 "by the brush: the inner jagged circle representing the **Minimum Size**, "
 "and the outer one the **Maximum Size** of the brush."
 msgstr ""
+"При использовании инструмента **Кисть** (|brush|) на рисунках Toonz растровый"
+" и растровый курсор отображает точную область пикселов, на которую будет"
+" воздействовать кисть: внутренний зубчатый круг, представляющий **минимальный"
+" размер**, и внешний **максимальный размер** кисти."
 
 #: ../../source/drawing_animation_levels.rst:350
 #: ../../source/drawing_animation_levels.rst:393
@@ -911,7 +1194,7 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:505
 #: ../../source/drawing_animation_levels.rst:725
 msgid "In the tool options bar you can set the following:"
-msgstr ""
+msgstr "На панели параметров инструмента вы можете установить следующее:"
 
 #: ../../source/drawing_animation_levels.rst:352
 msgid ""
@@ -920,6 +1203,11 @@ msgid ""
 "the two values are the same, your lines will have a constant thickness. "
 "When using a mouse to draw, the **Maximum** thickness value will be used."
 msgstr ""
+"**Размер Мин** и **Макс** устанавливает размер кисти; размер будет"
+" варьироваться между двумя значениями, если вы используете чувствительный к"
+" давлению планшет. Если два значения одинаковы, ваши линии будут иметь"
+" постоянную толщину. При использовании мыши для рисования будет"
+" использоваться значение толщины **Макс**."
 
 #: ../../source/drawing_animation_levels.rst:354
 msgid ""
@@ -929,12 +1217,19 @@ msgid ""
 " low value will simplify the line. This is available for Toonz Vector "
 "drawings only."
 msgstr ""
+"**Точность** устанавливает, насколько точно сгенерированная линия"
+" сравнивается с тем, что вы рисуете с помощью мыши или планшета: высокое"
+" значение будет генерировать линии, которые полностью сохраняют выполняемое"
+" вами движение (даже дрожащую руку); низкое значение упростит линию. Это"
+" доступно только для векторных рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:356
 msgid ""
 "**Hardness** sets the amount of antialiasing along the line border. This "
 "is available for Toonz Raster and Raster drawings only."
 msgstr ""
+"**Жесткость** устанавливает количество сглаживания вдоль границы линии. Это"
+" доступно только для растровых рисунков и растровых рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:358
 msgid ""
@@ -944,6 +1239,11 @@ msgid ""
 " but only when different lines are overlapping. This is available for "
 "Raster drawings only."
 msgstr ""
+"**Непрозрачность Мин** и **Maкс** устанавливает непрозрачность кисти;"
+" Непрозрачность будет варьироваться между двумя значениями, если вы"
+" используете чувствительный к давлению планшет. Перекрывающиеся области не"
+" учитываются при рисовании одной линии, но только когда перекрываются разные"
+" линии. Это доступно только для растровых рисунков."
 
 #: ../../source/drawing_animation_levels.rst:360
 msgid ""
@@ -951,18 +1251,26 @@ msgid ""
 "sharp angles are drawn: in this way, drawn shapes may result simpler and "
 "easier to fill. This is available for Toonz Vector drawings only."
 msgstr ""
+"**Разрыв** автоматически разбивает нарисованный штрих на сечения, если"
+" нарисованы очень острые углы: таким образом, нарисованные фигуры могут быть"
+" проще и проще для заполнения. Это доступно только для векторных рисунков"
+" Toonz."
 
 #: ../../source/drawing_animation_levels.rst:362
 msgid ""
 "**Selective** allows the drawing operation without affecting already "
 "drawn lines. This is available for Toonz Raster drawings only."
 msgstr ""
+"**Избирательно** позволяет операцию рисования без воздействия на уже"
+" нарисованные линии. Это доступно только для растровых рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:364
 msgid ""
 "**Pencil** mode draws lines without antialiasing, that is with jagged "
 "edges. This is available for Toonz Raster drawings only."
 msgstr ""
+"Режим **Карандаш** рисует линии без сглаживания, то есть с неровными краями."
+" Это доступно только для растровых рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:366
 msgid ""
@@ -970,6 +1278,8 @@ msgid ""
 "pressure of the pen on the tablet, allowing the creation of variable-"
 "thickness lines."
 msgstr ""
+"**Нажим** определяет, если вы используете графический планшет, давление пера"
+" на планшет, что позволяет создавать линии переменной толщины."
 
 #: ../../source/drawing_animation_levels.rst:368
 msgid ""
@@ -978,6 +1288,10 @@ msgid ""
 "buttons. A presets list is created *for each level type* and each added "
 "preset will be available for next use."
 msgstr ""
+"**Предустановка:** позволяет выбрать предустановку кисти в меню параметров"
+" справа. Вы можете добавить или удалить предустановку, нажимая кнопки **+** и"
+" **-**. Список предустановок создается *для каждого типа уровня*, и каждая"
+" добавленная предустановка будет доступна для следующего использования."
 
 #: ../../source/drawing_animation_levels.rst:370
 msgid ""
@@ -987,6 +1301,11 @@ msgid ""
 " line, according to the vector thickness. This is available for Toonz "
 "Vector drawings only."
 msgstr ""
+"**Конец** опция устанавливает форму концов штриха, который вы собираетесь"
+" нарисовать. Варианты: **Обрубок** для квадратов, **Закругленный** для"
+" полукруглых концов и **Плоский колпачок** для квадратов, выходящих за конец"
+" линии, в соответствии с толщиной вектора. Это доступно только для векторных"
+" рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:372
 msgid ""
@@ -995,6 +1314,10 @@ msgid ""
 "**Round** for rounded corners, **Bevel** for squared corner. This is "
 "available for Toonz Vector drawings only."
 msgstr ""
+"Параметр **Изгиб** устанавливает форму прямых углов вдоль обводки, которую вы"
+" собираетесь нарисовать. Варианты: **Острый изгиб** для острых углов,"
+" **Закругленный изгиб** для закругленных углов, **Скошенный изгиб** для"
+" квадрата. Это доступно только для векторных рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:374
 msgid ""
@@ -1004,6 +1327,11 @@ msgid ""
 "join. This is available for Toonz Vector drawings only, and only if the "
 "**Join** option is set to miter."
 msgstr ""
+"**Скос:** устанавливает максимальную длину соединения под углом, которое"
+" вычисляется умножением значения угла под углом на толщину хода. Если длина"
+" превышает максимальное значение, соединение *Скос* превращается в соединение"
+" *Скошенный*. Это доступно только для векторных рисунков Toonz, и только если"
+" для параметра **Изгиб** установлено значение Скос."
 
 #: ../../source/drawing_animation_levels.rst:376
 #: ../../source/drawing_animation_levels.rst:409
@@ -1012,50 +1340,62 @@ msgid ""
 "If the tool options bar is too short to display all the tool options, it "
 "can be scrolled by using arrow buttons available at its ends."
 msgstr ""
+"Если панель параметров инструмента слишком короткая для отображения всех"
+" параметров инструмента, ее можно прокручивать с помощью кнопок со стрелками,"
+" имеющихся на ее концах."
 
 #: ../../source/drawing_animation_levels.rst:378
 msgid "**To add a new brush preset:**"
-msgstr ""
+msgstr "**Чтобы добавить новую предустановку кисти:**"
 
 #: ../../source/drawing_animation_levels.rst:380
 msgid "Click the **+** button on the right of the presets list."
-msgstr ""
+msgstr "Нажмите кнопку **+** справа от списка предустановок."
 
 #: ../../source/drawing_animation_levels.rst:382
 msgid "**To remove a new brush preset:**"
-msgstr ""
+msgstr "**Чтобы удалить новую предустановку кисти:**"
 
 #: ../../source/drawing_animation_levels.rst:384
 msgid "Click the **-** button on the right of the presets list."
-msgstr ""
+msgstr "Нажмите кнопку **-** справа от списка предустановок."
 
 #: ../../source/drawing_animation_levels.rst:390
 msgid "Drawing with the Geometric Tool"
-msgstr ""
+msgstr "Рисование с помощью геометрического инструмента"
 
 #: ../../source/drawing_animation_levels.rst:391
 msgid ""
 "The **Geometric** tool (|geometric|) allows you to draw rectangles, "
 "circles, ellipses, regular polygons, polylines and arcs."
 msgstr ""
+"**Геометрический** (|geometric|) инструмент позволяет рисовать"
+" прямоугольники, круги, эллипсы, правильные многоугольники, полилинии и дуги."
 
 #: ../../source/drawing_animation_levels.rst:395
 msgid ""
 "**Thickness** sets the size of the brush used to draw the geometric "
 "shapes."
 msgstr ""
+"**Толщина** определяет размер кисти, используемой для рисования"
+" геометрических фигур."
 
 #: ../../source/drawing_animation_levels.rst:397
 msgid ""
 "**Hardness** sets the amount of antialiasing along the shape border. This"
 " is available for Toonz Raster and Raster drawings only."
 msgstr ""
+"**Жесткость** устанавливает количество сглаживания вдоль границы фигуры. Это"
+" доступно только для растровых рисунков и растровых рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:399
 msgid ""
 "**Shape:** can be chosen in the option menu. In case you want to draw a "
 "polygon, the **Polygon Sides:** lets you set the number of sides."
 msgstr ""
+"**Фигура:** можно выбрать в меню параметров. Если вы хотите нарисовать"
+" многоугольник, **Сторон многоугольника:** позволяет вам установить"
+" количество сторон."
 
 #: ../../source/drawing_animation_levels.rst:401
 msgid ""
@@ -1066,6 +1406,12 @@ msgid ""
 "Vectors <grouping_and_ungrouping_vectors>`  ). This is available for "
 "Toonz Vector drawings only."
 msgstr ""
+"**Автогруппировать** автоматически определяет любую нарисованную замкнутую"
+" форму (т.е. прямоугольники, круги, эллипсы, многоугольники и замкнутые"
+" полилинии) как группу, *создавая тем самым новый слой, который помещается"
+" перед остальными векторами рисования*, не пересекая их (см."
+" :ref:`Группировка и разгруппировка векторов <grouping_and_ungrouping_vectors"
+">`). Это доступно только для векторных рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:403
 msgid ""
@@ -1074,18 +1420,27 @@ msgid ""
 " with the same style used for drawing. This is available for Toonz Vector"
 " drawings only."
 msgstr ""
+"**Автозаливка** автоматически окрашивает область, определяемую любой"
+" нарисованной замкнутой формой (то есть прямоугольниками, кругами, эллипсами,"
+" многоугольниками и замкнутыми полилиниями) в том же стиле, который"
+" использовался для рисования. Это доступно только для векторных рисунков"
+" Toonz."
 
 #: ../../source/drawing_animation_levels.rst:405
 msgid ""
 "**Selective** allows the drawing operations not to affect already drawn "
 "lines. This is available for Toonz Raster drawings only."
 msgstr ""
+"**Избирательно** позволяет операциям рисования не влиять на уже нарисованные"
+" линии. Это доступно только для растровых рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:407
 msgid ""
 "**Pencil** mode draws geometric shapes without antialiasing, that is with"
 " jagged edges. This is available for Toonz Raster drawings only."
 msgstr ""
+"Режим **Карандаш** рисует геометрические фигуры без сглаживания, то есть с"
+" неровными краями. Это доступно только для растровых рисунков Toonz."
 
 #: ../../source/drawing_animation_levels.rst:411
 msgid ""
@@ -1095,10 +1450,15 @@ msgid ""
 "series of lines; **Arcs** let you set the end points of a curve, and then"
 " the bend."
 msgstr ""
+"В то время как **Прямоугольник** и **Эллипс** определяется (ограничивающим)"
+" полем, **Круг** и **Многоугольник ** определяется центром и радиусом;"
+" **Полилиния** можно использовать для создания открытых или закрытых фигур"
+" путем определения ряда линий; **Дуга** позволяет установить конечные точки"
+" кривой, а затем изгиб."
 
 #: ../../source/drawing_animation_levels.rst:413
 msgid "**To draw a rectangle or an ellipse:**"
-msgstr ""
+msgstr "**Чтобы нарисовать прямоугольник или эллипс:**"
 
 #: ../../source/drawing_animation_levels.rst:415
 msgid ""
@@ -1107,42 +1467,53 @@ msgid ""
 "shape will be regular, i.e. a square or a circle; if you press the "
 "**Alt** key, shapes will be drawn starting from their center."
 msgstr ""
+"Нажмите, чтобы определить верхний левый угол, перетащите и отпустите, чтобы"
+" определить нижний правый угол. Если вы зажмете клавишу **Shift** во время"
+" перетаскивания, форма будет правильной, то есть квадрат или круг; Если вы"
+" нажмете клавишу **Alt**, фигуры начнут рисоваться, начиная с их центра."
 
 #: ../../source/drawing_animation_levels.rst:417
 msgid "**To draw a circle:**"
-msgstr ""
+msgstr "**Чтобы нарисовать круг:**"
 
 #: ../../source/drawing_animation_levels.rst:419
 msgid "Click to define the center, drag and release to define the radius."
 msgstr ""
+"Нажмите, чтобы определить центр, перетащите и отпустите, чтобы определить"
+" радиус."
 
 #: ../../source/drawing_animation_levels.rst:421
 msgid "**To draw a polygon:**"
-msgstr ""
+msgstr "**Чтобы нарисовать многоугольник:**"
 
 #: ../../source/drawing_animation_levels.rst:423
 msgid "Set the number of sides in the **Polygon Sides:** field."
-msgstr ""
+msgstr "Установите количество сторон в поле **Сторон многоугольника:**."
 
 #: ../../source/drawing_animation_levels.rst:425
 msgid ""
 "Click to define the center, drag and release to define the radius of a "
 "circle bounding the polygon."
 msgstr ""
+"Нажмите, чтобы определить центр, перетащите и отпустите, чтобы определить"
+" радиус окружности, ограничивающей многоугольник."
 
 #: ../../source/drawing_animation_levels.rst:427
 msgid "**To draw a polyline:**"
-msgstr ""
+msgstr "**Чтобы нарисовать полилинию:**"
 
 #: ../../source/drawing_animation_levels.rst:431
 msgid "**Click** to define the first point as a corner point."
-msgstr ""
+msgstr "**Нажмите**, чтобы определить первую точку в качестве угловой точки."
 
 #: ../../source/drawing_animation_levels.rst:433
 msgid ""
 "**Click and drag** to define the first point as a control point; while "
 "dragging you can set the control point handles."
 msgstr ""
+"**Нажмите и перетащите**, чтобы определить первую точку в качестве"
+" контрольной точки; во время перетаскивания вы можете установить маркеры"
+" контрольной точки."
 
 #: ../../source/drawing_animation_levels.rst:437
 msgid ""
@@ -1150,60 +1521,71 @@ msgid ""
 "press the **Shift** key, you will draw a vertical, horizontal or 45° "
 "line."
 msgstr ""
+"**Нажмите**, чтобы определить конечную точку линии как угловую точку. Если вы"
+" зажмете клавишу **Shift**, вы нарисуете вертикальную, горизонтальную или 45°"
+" линию."
 
 #: ../../source/drawing_animation_levels.rst:439
 msgid ""
 "**Click and drag** to define the end point of the line as a control "
 "point; while dragging you can set the control point handles."
 msgstr ""
+"**Нажмите и перетащите**, чтобы определить конечную точку линии в качестве"
+" контрольной точки; во время перетаскивания вы можете установить маркеры"
+" контрольной точки."
 
 #: ../../source/drawing_animation_levels.rst:443
 msgid ""
 "**Click** or **click and drag** again to define the end point of another "
 "line connected to the end point of the previous line."
 msgstr ""
+"**Нажмите** или **нажмите и перетащите** еще раз, чтобы определить конечную"
+" точку другой линии, соединенной с конечной точкой предыдущей линии."
 
 #: ../../source/drawing_animation_levels.rst:445
 msgid "**Double click** to define the last point of an open shape."
-msgstr ""
+msgstr "**Дважды щелкните**, чтобы определить последнюю точку открытой фигуры."
 
 #: ../../source/drawing_animation_levels.rst:447
 msgid ""
 "**Click** or **click and drag** again on the first point you defined to "
 "draw a closed shape."
 msgstr ""
+"**Нажмите** или **щелкните и снова перетащите** на первую заданную вами"
+" точку, чтобы нарисовать замкнутую фигуру."
 
 #: ../../source/drawing_animation_levels.rst:449
 msgid "Press the **Ctrl** key to add a linear point after a Nonlinear one."
 msgstr ""
+"Нажмите клавишу **Ctrl**, чтобы добавить линейную точку после нелинейной."
 
 #: ../../source/drawing_animation_levels.rst:451
 msgid "Press the **ESC** key to cancel the creation of the polyline."
-msgstr ""
+msgstr "Нажмите клавишу **Esc**, чтобы отменить создание полилинии."
 
 #: ../../source/drawing_animation_levels.rst:453
 msgid "**To draw an arc:**"
-msgstr ""
+msgstr "**Чтобы нарисовать дугу:**"
 
 #: ../../source/drawing_animation_levels.rst:455
 msgid "Click to define the first end point."
-msgstr ""
+msgstr "Нажмите, чтобы определить первую конечную точку."
 
 #: ../../source/drawing_animation_levels.rst:457
 msgid "Click to define the second endpoint."
-msgstr ""
+msgstr "Нажмите, чтобы определить вторую конечную точку."
 
 #: ../../source/drawing_animation_levels.rst:459
 msgid "Drag to set the bend, and click to draw the arc."
-msgstr ""
+msgstr "Перетащите, чтобы установить изгиб, и нажмите, чтобы нарисовать дугу."
 
 #: ../../source/drawing_animation_levels.rst:465
 msgid "Adding Text"
-msgstr ""
+msgstr "Добавление текста"
 
 #: ../../source/drawing_animation_levels.rst:466
 msgid "Text can be added by using the **Type** tool (|type|)."
-msgstr ""
+msgstr "Текст может быть добавлен с помощью инструмента **Шрифта** (|type|)."
 
 #: ../../source/drawing_animation_levels.rst:468
 msgid ""
@@ -1211,32 +1593,42 @@ msgid ""
 "OpenToonz through the use of the **Text Iwa** effect. For more "
 "information, please see  :ref:`Text Iwa <text_iwa>`  ."
 msgstr ""
+"В OpenToonz также можно работать с редактируемым и анимируемым текстом с"
+" помощью эффекта **Text Iwa**. Для получения дополнительной информации, см."
+" :ref:`Text Iwa <text_iwa>`."
 
 #: ../../source/drawing_animation_levels.rst:472
 msgid ""
 "**Font:** to be used, taken from a list based on the Operating System "
 "default fonts folder."
 msgstr ""
+"**Шрифт:** для использования, взятый из списка, основанного на папке шрифтов"
+" операционной системы по умолчанию."
 
 #: ../../source/drawing_animation_levels.rst:474
 msgid "**Style:**, for the chosen font."
-msgstr ""
+msgstr "**Начертание:** выбранного шрифта."
 
 #: ../../source/drawing_animation_levels.rst:476
 msgid "**Size:**, for the chosen font."
-msgstr ""
+msgstr "**Размер:**, для выбранного шрифта."
 
 #: ../../source/drawing_animation_levels.rst:478
 msgid ""
 "Already written text can be resized by using the **Selection** tool "
 "(|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  )."
 msgstr ""
+"Размер уже написанного текста можно изменить с помощью инструмента"
+" **Выделения** (|selection|) (см. :ref:`Редактирование рисунков <"
+"editing_drawings>`)."
 
 #: ../../source/drawing_animation_levels.rst:480
 msgid ""
 "**Vertical Orientation**, lets you place the text vertically, one letter "
 "under another, instead of horizontally."
 msgstr ""
+"**Вертикальная ориентация**, позволяет размещать текст вертикально, одну"
+" букву под другой, а не по горизонтали."
 
 #: ../../source/drawing_animation_levels.rst:482
 msgid ""
@@ -1245,22 +1637,30 @@ msgid ""
 " different styles in the same text editing session (see  :ref:`Editing "
 "Styles <editing_styles>`  )."
 msgstr ""
+"Стиль *текущей* палитры применяется к вводимому вами тексту. Стиль палитры"
+" может быть изменен при наборе текста, поэтому вы можете иметь символы с"
+" разными стилями в одном сеансе редактирования текста (см."
+" :ref:`Редактирование стилей <editing_styles>`)."
 
 #: ../../source/drawing_animation_levels.rst:484
 msgid ""
 "For vector levels, as soon as the text is committed, it's converted into "
 "vector outlines, and can no longer be edited as text."
 msgstr ""
+"Для векторных уровней, как только текст фиксируется, он преобразуется в"
+" векторные контуры и больше не может редактироваться как текст."
 
 #: ../../source/drawing_animation_levels.rst:486
 msgid "**To add text:**"
-msgstr ""
+msgstr "**Добавить текст:**"
 
 #: ../../source/drawing_animation_levels.rst:488
 msgid ""
 "Select the **Type** tool (|type|) and click in the viewer where you want "
 "to start writing."
 msgstr ""
+"Выберите инструмент **Шрифта** (|type|) и щелкните по месту в окне просмотра,"
+" с которого вы хотите начать печатать."
 
 #: ../../source/drawing_animation_levels.rst:490
 msgid ""
@@ -1268,42 +1668,55 @@ msgid ""
 "Orientation**. These options can be changed as long as you are in text "
 "editing mode."
 msgstr ""
+"Выберите параметры **Шрифт**, **Начертание**, **Размер** и **Вертикальная"
+" ориентация**. Эти параметры могут быть изменены, пока вы находитесь в режиме"
+" редактирования текста."
 
 #: ../../source/drawing_animation_levels.rst:492
 msgid ""
 "Change the current color Style in the palette, if you want to use more "
 "than one style in the same text editing session."
 msgstr ""
+"Измените текущий цветовой стиль в палитре, если вы хотите использовать более"
+" одного стиля в одном сеансе редактирования текста."
 
 #: ../../source/drawing_animation_levels.rst:494
 msgid "Click inside the text editing area to change the text insertion point."
 msgstr ""
+"Щелкните внутри области редактирования текста, чтобы изменить точку вставки"
+" текста."
 
 #: ../../source/drawing_animation_levels.rst:496
 msgid ""
 "Click outside the text editing area, or select a different tool, to "
 "commit the text."
 msgstr ""
+"Щелкните за пределами области редактирования текста или выберите другой"
+" инструмент для фиксации текста."
 
 #: ../../source/drawing_animation_levels.rst:502
 msgid "Using the Eraser"
-msgstr ""
+msgstr "Использование Ластика"
 
 #: ../../source/drawing_animation_levels.rst:503
 msgid ""
 "The **Eraser** tool (|eraser|) allows you to partially erase lines, both "
 "in vector and raster drawings."
 msgstr ""
+"Инструмент **Ластик** (|eraser|) позволяет частично удалять линии, как на"
+" векторных, так и на растровых рисунках."
 
 #: ../../source/drawing_animation_levels.rst:507
 msgid "**Size** sets the eraser size."
-msgstr ""
+msgstr "**Размер** устанавливает размер ластика."
 
 #: ../../source/drawing_animation_levels.rst:509
 msgid ""
 "**Hardness** sets the amount of antialiasing along the eraser border. "
 "This is available for Toonz Raster and Raster drawings only."
 msgstr ""
+"**Жесткость** устанавливает величину сглаживания вдоль границы ластика. Это"
+" доступно только для рисунков Toonz Raster и Raster."
 
 #: ../../source/drawing_animation_levels.rst:511
 msgid ""
@@ -1312,6 +1725,10 @@ msgid ""
 " performing different erasing operations. This is available for Raster "
 "drawings only."
 msgstr ""
+"**Непрозрачность** установить непрозрачность ластика; Двойное прохождение по"
+" области не учитывается при выполнении одной операции стирания, а только при"
+" выполнении различных операций стирания. Это доступно только для растровых"
+" рисунков."
 
 #: ../../source/drawing_animation_levels.rst:513
 msgid ""
@@ -1322,6 +1739,12 @@ msgid ""
 "the area you outline by defining a series of lines. In vector drawings, a"
 " stroke is erased only if it is fully included in the area you define."
 msgstr ""
+"**Тип:** имеет параметры **Обычный**, чтобы использовать стандартный ластик;"
+" **Прямоугольный**, чтобы выполнить удаление внутри поля, которое вы"
+" определяете; **От руки**, чтобы стереть внутри области, которую вы наметили,"
+" нажав и перетащив; и **Полилиния**, чтобы выполнить стирание внутри области,"
+" которую вы наметили, определив серию линий. На векторных рисунках обводка"
+" удаляется, только если она полностью включена в определяемую вами область."
 
 #: ../../source/drawing_animation_levels.rst:515
 msgid ""
@@ -1329,6 +1752,9 @@ msgid ""
 "erase only the drawing outline, and **Lines & Areas**, to perform both "
 "the operations. This is available only for Raster drawings."
 msgstr ""
+"**Режим:** имеет опции **Области**, чтобы удалить только области, **Линии**,"
+" чтобы удалить только контур чертежа, и **Линии и области**, чтобы выполнить"
+" обе операции. Это доступно только для растровых рисунков."
 
 #: ../../source/drawing_animation_levels.rst:517
 msgid ""
@@ -1336,6 +1762,8 @@ msgid ""
 "current style. This is available only for Toonz Vector and Toonz Raster "
 "drawings."
 msgstr ""
+"**Избирательно** позволяет стирать только линии или области, созданные в"
+" текущем стиле. Это доступно только для рисунков Toonz Vector и Toonz Raster."
 
 #: ../../source/drawing_animation_levels.rst:519
 msgid ""
@@ -1343,6 +1771,10 @@ msgid ""
 "the Rectangular, Freehand or Polyline options. In vector drawings, a "
 "stroke is erased only if it is fully outside of the area you define."
 msgstr ""
+"**Инвертировать** выполняет удаление за пределами области, определенной с"
+" помощью режимов Прямоугольный, От руки или Полилинии. На векторных рисунках"
+" обводка удаляется только в том случае, если она полностью находится за"
+" пределами определяемой вами области."
 
 #: ../../source/drawing_animation_levels.rst:521
 msgid ""
@@ -1350,28 +1782,37 @@ msgid ""
 "erasing on a range of frames, by defining an area in the first and then "
 "in the last frame of the range."
 msgstr ""
+"**Диапазон кадров** позволяет вам выполнять стирание Прямоугольника, От руки"
+" и Полилинии для диапазона кадров, определяя область в первом, а затем в"
+" последнем кадре диапазона."
 
 #: ../../source/drawing_animation_levels.rst:523
 msgid ""
 "**Pencil** mode erases lines without antialiasing, that is with jagged "
 "edges. This is available for Toonz Raster drawings only."
 msgstr ""
+"Режим **Карандаш** стирает линии без сглаживания, то есть с неровными краями."
+" Это доступно только для рисунков Toonz Raster."
 
 #: ../../source/drawing_animation_levels.rst:527
 msgid ""
 "The **Eraser** tool (|eraser|) can be automatically selected by *using "
 "the eraser of the tablet pen*."
 msgstr ""
+"Инструмент **Ластик** (|eraser|) можно автоматически выбрать с помощью"
+" ластика пера планшета*."
 
 #: ../../source/drawing_animation_levels.rst:533
 msgid "Converting Raster Drawings to Vectors"
-msgstr ""
+msgstr "Преобразование растровых рисунков в векторы"
 
 #: ../../source/drawing_animation_levels.rst:534
 msgid ""
 "Scanned drawings and raster ones, i.e. drawings not based on vectors, can"
 " be converted into Toonz Vector levels."
 msgstr ""
+"Отсканированные и растровые рисунки, то есть рисунки, не основанные на"
+" векторах, могут быть преобразованы в векторные уровни Toonz."
 
 #: ../../source/drawing_animation_levels.rst:536
 msgid ""
@@ -1379,6 +1820,9 @@ msgid ""
 "The choice between the two modes depends on which conversion best fits "
 "your needs."
 msgstr ""
+"Доступны два основных режима преобразования: **Сплошная линия** и **Контурная"
+" обводка**. Выбор между двумя режимами зависит от того, какое преобразование"
+" наилучшим образом соответствует вашим потребностям."
 
 #: ../../source/drawing_animation_levels.rst:538
 msgid ""
@@ -1389,6 +1833,12 @@ msgid ""
 "**Pinch** (|pinch|) or **Control Point Editor** tools, and the thickness "
 "with the **Pump** tool (|pump|)."
 msgstr ""
+"В режиме **Сплошная линия** для каждой линии на чертеже создается *одиночный"
+" векторный штрих с переменной толщиной*. Это означает, что преобразованный"
+" чертеж можно редактировать как векторные рисунки, сделанные непосредственно"
+" в OpenToonz, например, вы можете изменить изгиб штриха с помощью"
+" инструментов **Щипок** (|pinch|) или **Редактор контрольных точек** и"
+" толщину с помощью инструмента **Насос** (|pump|)."
 
 #: ../../source/drawing_animation_levels.rst:540
 msgid ""
@@ -1400,6 +1850,13 @@ msgid ""
 "thickness of all the strokes is set to 0, so that they won’t be visible "
 "in the final render*."
 msgstr ""
+"В режиме **Контурная обводка** *два векторных штриха* создаются для"
+" определения каждой линии на чертеже, а области, заполненные разными цветами,"
+" разделяются штрихом. Это означает, что, например, чтобы изменить изгиб"
+" линии, вы должны изменить изгиб двух штрихов, определяющих ее, и изменить"
+" толщину, которую вы должны смоделировать одним или обоими штрихами,"
+" определяющими его. * Толщина всех штрихов установлена ​​на 0, чтобы они не"
+" были видны в финальном рендере*."
 
 #: ../../source/drawing_animation_levels.rst:542
 msgid ""
@@ -1407,10 +1864,13 @@ msgid ""
 "using the **Options** button (|option|) at the bottom right of the "
 "**Convert To vector Pop Up**."
 msgstr ""
+"Параметры, которые пользователь не считает необходимыми, можно скрыть с"
+" помощью кнопки **Опции** (|option|) в правом нижнем углу всплывающего окна"
+" **Конвертировать в вектор**."
 
 #: ../../source/drawing_animation_levels.rst:545
 msgid "In **Outline** mode the following settings are available:"
-msgstr ""
+msgstr "В режиме **Контурная обводка** доступны следующие настройки:"
 
 #: ../../source/drawing_animation_levels.rst:547
 msgid ""
@@ -1418,6 +1878,9 @@ msgid ""
 "the original drawing lines. High values create more precise strokes, but "
 "makes them more complex."
 msgstr ""
+"**Точность** устанавливает, насколько векторные штрихи будут повторять форму"
+" исходных линий рисования. Высокие значения создают более точные штрихи, но"
+" делают их более сложными."
 
 #: ../../source/drawing_animation_levels.rst:549
 msgid ""
@@ -1425,28 +1888,39 @@ msgid ""
 "Its value expresses the size in pixels of the maximum area that has to be"
 " removed."
 msgstr ""
+"**Удаление соринок** удаляет небольшие пятна или отметки на преобразованных"
+" изображениях. Его значение выражает размер в пикселах максимальной области,"
+" которая должна быть удалена."
 
 #: ../../source/drawing_animation_levels.rst:551
 msgid ""
 "**Preserve Painted Areas**, when activated, includes all the colors in "
 "the converted level."
 msgstr ""
+"**Сохранять окрашенные области**, когда активировано, включает в себя все"
+" цвета в преобразованном уровне."
 
 #: ../../source/drawing_animation_levels.rst:553
 msgid "**Adherence** sets how much smooth curves bend toward full corners."
 msgstr ""
+"**Смачивание** устанавливает, насколько гладкие изгибы изгибаются к полным"
+" углам."
 
 #: ../../source/drawing_animation_levels.rst:555
 msgid ""
 "**Angle** sets the angular threshold below which full corners are "
 "inserted in the image"
 msgstr ""
+"**Угол** устанавливает угловой порог, ниже которого в изображение вставляются"
+" полные углы"
 
 #: ../../source/drawing_animation_levels.rst:557
 msgid ""
 "**Curve Radius** sets the measure of a curve's radius below which it is "
 "replaced by a smooth corner"
 msgstr ""
+"**Радиус кривой** устанавливает меру радиуса кривой, ниже которой он"
+" заменяется гладким углом"
 
 #: ../../source/drawing_animation_levels.rst:559
 msgid ""
@@ -1456,6 +1930,11 @@ msgid ""
 "values increase the time needed for the conversion. This is relevant for "
 "Raster levels only."
 msgstr ""
+"**Макс. цвета** определяет максимальное количество цветов, которые"
+" рассматриваются в растровом изображении и используются в векторном. Значение"
+" должно быть установлено с учетом реального количества цветов, используемых в"
+" растровом изображении. Высокие значения увеличивают время, необходимое для"
+" преобразования. Это относится только к растровым уровням."
 
 #: ../../source/drawing_animation_levels.rst:561
 msgid ""
@@ -1463,6 +1942,9 @@ msgid ""
 "transparent background of the resulting vector level. This is relevant "
 "for Raster levels only."
 msgstr ""
+"**Прозрачный цвет** определяет цвет, который должен быть установлен как"
+" прозрачный фон результирующего векторного уровня. Это относится только к"
+" растровым уровням."
 
 #: ../../source/drawing_animation_levels.rst:563
 msgid ""
@@ -1472,10 +1954,16 @@ msgid ""
 "high values lighter pixels are considered too, thus resulting in thicker "
 "lines. This is relevant for Toonz Raster levels only."
 msgstr ""
+"**Порог тона** устанавливает значение самых темных пикселов, которые"
+" необходимо учитывать для обнаружения линий, которые необходимо преобразовать"
+" в вектор; для низких значений учитываются только самые темные пикселы, что"
+" приводит к получению более тонких линий; для высоких значений также"
+" учитываются более светлые пикселы, что приводит к более толстым линиям. Это"
+" применимо только к уровням Toonz Raster."
 
 #: ../../source/drawing_animation_levels.rst:566
 msgid "In **Centerline** mode the following settings are available:"
-msgstr ""
+msgstr "В режиме **Сплошная линия** доступны следующие настройки:"
 
 #: ../../source/drawing_animation_levels.rst:568
 msgid ""
@@ -1487,6 +1975,14 @@ msgid ""
 "process examines only pixels belonging to the lines; for Raster levels it"
 " examines pixels of the whole image."
 msgstr ""
+"**Предел** устанавливает значение самых темных пикселов, которые необходимо"
+" учитывать при обнаружении линий, которые необходимо преобразовать в"
+" векторные штрихи; для низких значений учитываются только самые темные"
+" пикселы, что приводит к более тонким штрихам; для высоких значений также"
+" учитываются более светлые пикселы, что приводит к более толстым штрихам. Для"
+" уровней Toonz Raster (файлы TLV) процесс проверяет только пикселы,"
+" принадлежащие линиям; для растровых уровней он проверяет пикселы всего"
+" изображения."
 
 #: ../../source/drawing_animation_levels.rst:570
 msgid ""
@@ -1494,12 +1990,18 @@ msgid ""
 " original drawing lines. High values create more precise strokes but "
 "makes them more complex."
 msgstr ""
+"**Точность** устанавливает, насколько векторная черта будет повторять форму"
+" исходных линий рисования. Высокие значения создают более точные штрихи, но"
+" делают их более сложными."
 
 #: ../../source/drawing_animation_levels.rst:572
 msgid ""
 "**Despeckling** ignores during the conversion small areas generated by "
 "the image noise; the higher the value, the larger the areas ignored."
 msgstr ""
+"**Удаление соринок** игнорирует при преобразовании небольшие участки,"
+" создаваемые шумом изображения; чем выше значение, тем больше игнорируемых"
+" областей."
 
 #: ../../source/drawing_animation_levels.rst:574
 msgid ""
@@ -1508,6 +2010,10 @@ msgid ""
 "defining the line outline; if this value is high, they will be converted "
 "in a single centerline stroke."
 msgstr ""
+"**Максимальная толщина ** устанавливает максимальную толщину векторного хода;"
+" если это значение низкое, очень толстые линии будут преобразованы в два"
+" штриха по центральной линии, определяющих контур линии; если это значение"
+" высокое, они будут преобразованы в один штрих по центральной линии."
 
 #: ../../source/drawing_animation_levels.rst:576
 msgid ""
@@ -1517,6 +2023,11 @@ msgid ""
 "different value inserted in the **Start** / **End** field determines an "
 "animation of the thickness along the length of the level."
 msgstr ""
+"**Калибровка толщины: Начало** и **Конец:** калибрует толщину векторного"
+" хода, определенную в соответствии со значением **Предел**; низкое значение"
+" уменьшит толщину хода, сохраняя его целостность. Другое значение,"
+" вставленное в поле **Начало** / **Конец*, определяет анимацию толщины по"
+" длине уровня."
 
 #: ../../source/drawing_animation_levels.rst:578
 msgid ""
@@ -1524,12 +2035,17 @@ msgid ""
 "in Toonz Raster levels (TLV files) and all the areas painted with colors "
 "different from the line color in Raster levels."
 msgstr ""
+"**Сохранять окрашенные области**, при активации сохраняет все закрашенные"
+" области на уровнях Toonz Raster (файлы TLV) и все области, закрашенные"
+" цветами, отличными от цвета линий на уровнях растра."
 
 #: ../../source/drawing_animation_levels.rst:580
 msgid ""
 "**Add Border** adds a vector stroke along the image border in order to "
 "detect also areas bleeding off the image edge."
 msgstr ""
+"**Добавить кайму** добавляет векторную обводку вдоль границы изображения,"
+" чтобы обнаружить также области, кровоточащие у края изображения."
 
 #: ../../source/drawing_animation_levels.rst:582
 msgid ""
@@ -1539,12 +2055,19 @@ msgid ""
 " a PLI level, where the lines are seen as ink and the painted areas as "
 "paint."
 msgstr ""
+"**Улучшенное распознавание контура**, когда активировано, позволяет"
+" векторизовать растровые изображения (такие как TGA, TIF, PNG и т.д.) Без"
+" сглаживания вдоль линий. Эвристика используется для распознавания линий и"
+" окрашенных областей, создающих уровень PLI, где линии видны как чернила, а"
+" окрашенные области - как краска."
 
 #: ../../source/drawing_animation_levels.rst:584
 msgid ""
 "It's possible to select the images or the level frames that have to be "
 "converted directly in the Xsheet/Timeline."
 msgstr ""
+"Можно выбрать изображения или рамки уровня, которые необходимо преобразовать"
+" непосредственно в Xsheet / Timeline."
 
 #: ../../source/drawing_animation_levels.rst:586
 msgid ""
@@ -1554,36 +2077,45 @@ msgid ""
 "the same name of the starting one, but with a PLI extension, and a “v” "
 "suffix, and is saved in the **+drawings** default folder."
 msgstr ""
+"Когда преобразование выполнено, новый уровень создается в соответствии с"
+" выбранным вами выбором и отображается в Xsheet / Timeline в следующем"
+" столбце / слое для уровня, содержащего исходный уровень. Новый файл будет"
+" иметь то же имя, что и начальный, но с расширением PLI и суффиксом «v», и"
+" будет сохранен в папке по умолчанию **+drawings**."
 
 #: ../../source/drawing_animation_levels.rst:588
 msgid ""
 "In case a PLI level with the same name already exists, the name of the "
 "new file will be followed by a progressive number."
 msgstr ""
+"Если уровень PLI с таким именем уже существует, за именем нового файла будет"
+" следовать прогрессивный номер."
 
 #: ../../source/drawing_animation_levels.rst:590
 msgid "**To convert raster drawings into vectors:**"
 msgstr ""
+"**Если уровень PLI с таким именем уже существует, за именем нового файла"
+" будет следовать прогрессивный номер:**"
 
 #: ../../source/drawing_animation_levels.rst:592
 msgid "Select the level frames to convert in the Xsheet/Timeline."
-msgstr ""
+msgstr "Выберите кадры уровня для преобразования в Xsheet/Timeline."
 
 #: ../../source/drawing_animation_levels.rst:594
 msgid "Choose Level  →  **Convert to Vectors...**"
-msgstr ""
+msgstr "Выберите Уровень → **Конвектировать в вектор...**"
 
 #: ../../source/drawing_animation_levels.rst:596
 msgid "In the dialog set parameters for the conversion."
-msgstr ""
+msgstr "В диалоговом окне задайте параметры для конвертации."
 
 #: ../../source/drawing_animation_levels.rst:598
 msgid "Click the **Convert** button."
-msgstr ""
+msgstr "Нажмите кнопку **Конвертировать**."
 
 #: ../../source/drawing_animation_levels.rst:604
 msgid "Checking the Convert to Vectors Process"
-msgstr ""
+msgstr "Проверка процесса преобразования в вектор"
 
 #: ../../source/drawing_animation_levels.rst:605
 msgid ""
@@ -1595,10 +2127,19 @@ msgid ""
 "highlight the vector strokes structure by clicking the **Centerlines "
 "Check** button (|check|)."
 msgstr ""
+"В нижней части окна **Параметры преобразования в вектор** доступна область"
+" предварительного просмотра для отображения рисунка, выбранного на"
+" Xsheet/Timeline, как это будет после преобразования в соответствии с"
+" заданными настройками. В то же время он позволяет сравнивать конечный"
+" результат с исходным растровым рисунком, отображаемым слева, и выделять"
+" структуру векторных штрихов, нажав кнопку **Проверка сплошной линии**"
+" (|check|)."
 
 #: ../../source/drawing_animation_levels.rst:607
 msgid "You can activate or deactivate it, resize it or navigate its content."
 msgstr ""
+"Вы можете активировать или деактивировать его, изменить его размер или"
+" перемещаться по его содержимому."
 
 #: ../../source/drawing_animation_levels.rst:609
 msgid ""
@@ -1606,14 +2147,17 @@ msgid ""
 "previewed drawing automatically updates to display how the changes affect"
 " the result."
 msgstr ""
+"Если вы измените какой-либо параметр в **Настройках конвертации в вектор**,"
+" предварительно просматриваемый рисунок автоматически обновится, чтобы"
+" показать, как изменения влияют на результат."
 
 #: ../../source/drawing_animation_levels.rst:611
 msgid "**To activate the preview area:**"
-msgstr ""
+msgstr "**Чтобы активировать область предварительного просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:613
 msgid "In the Xsheet/Timeline select the drawing you want to preview."
-msgstr ""
+msgstr "В Xsheet/Timeline выберите рисунок, который вы хотите просмотреть."
 
 #: ../../source/drawing_animation_levels.rst:615
 #: ../../source/drawing_animation_levels.rst:619
@@ -1621,71 +2165,85 @@ msgid ""
 "Click the **Preview** button (|preview|) in the bottom bar of the "
 "Convert-to-Vector Settings window."
 msgstr ""
+"Нажмите кнопку **Переключить просмотр образцов** (|preview|) в нижней панели"
+" окна «Настройки конвертации в вектор»."
 
 #: ../../source/drawing_animation_levels.rst:617
 msgid "**To deactivate the preview area:**"
-msgstr ""
+msgstr "**Чтобы отключить область предварительного просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:621
 msgid "**To resize the preview area:**"
-msgstr ""
+msgstr "**Чтобы изменить размер области предварительного просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:623
 #: ../../source/drawing_animation_levels.rst:1078
 #: ../../source/drawing_animation_levels.rst:1508
 #: ../../source/drawing_animation_levels.rst:1543
 msgid "Do any of the following:"
-msgstr ""
+msgstr "Выполните любое из следующих действий:"
 
 #: ../../source/drawing_animation_levels.rst:625
 msgid "Click and drag the horizontal separator."
-msgstr ""
+msgstr "Нажмите и перетащите горизонтальный разделитель."
 
 #: ../../source/drawing_animation_levels.rst:627
 msgid ""
 "Click and drag the separator toward the window border to hide the preview"
 " area."
 msgstr ""
+"Нажмите и перетащите разделитель к границе окна, чтобы скрыть область"
+" предварительного просмотра."
 
 #: ../../source/drawing_animation_levels.rst:629
 msgid ""
 "Click and drag the separator collapsed to the window border toward the "
 "window center to display again the preview area."
 msgstr ""
+"Нажмите и перетащите разделитель, свернутый к границе окна, к центру окна,"
+" чтобы снова отобразить область предварительного просмотра."
 
 #: ../../source/drawing_animation_levels.rst:631
 msgid "**To navigate the preview area:**"
-msgstr ""
+msgstr "**Для навигации по области предварительного просмотра:**"
 
 #: ../../source/drawing_animation_levels.rst:635
 msgid ""
 "Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) "
 "to zoom in and zoom out."
 msgstr ""
+"Используйте колесико мыши или сочетания клавиш увеличения (по умолчанию"
+" клавиши + и -) для увеличения или уменьшения масштаба."
 
 #: ../../source/drawing_animation_levels.rst:637
 msgid "Middle-click and drag to scroll in any direction."
 msgstr ""
+"Нажмите среднюю кнопку мыши и перетащите, чтобы прокрутить в любом"
+" направлении."
 
 #: ../../source/drawing_animation_levels.rst:639
 msgid ""
 "Use the reset view shortcut (by default the 0 key) to display preview at "
 "its actual size"
 msgstr ""
+"Используйте горячую клавишу сброса (по умолчанию клавиша 0), чтобы отобразить"
+" предварительный просмотр в его реальном размере."
 
 #: ../../source/drawing_animation_levels.rst:641
 msgid "**To activate and deactivate the Centerlines Check:**"
-msgstr ""
+msgstr "**Чтобы активировать и деактивировать Проверку сплошной линии:**"
 
 #: ../../source/drawing_animation_levels.rst:643
 msgid ""
 "Click the **Centerlines Check** button (|check|) in the bottom bar of the"
 " Convert-to-Vector Settings window."
 msgstr ""
+"Нажмите кнопку **Переключить проверку сплошной линии** (|check|) в нижней"
+" части окна «Настройки конвертации в вектор»."
 
 #: ../../source/drawing_animation_levels.rst:649
 msgid "Saving and Loading Convert To Vector Settings"
-msgstr ""
+msgstr "Сохранение и загрузка настроек конвертации в вектор"
 
 #: ../../source/drawing_animation_levels.rst:650
 msgid ""
@@ -1693,6 +2251,9 @@ msgid ""
 "to have different settings for each level and to be loaded back and used "
 "in a different scene."
 msgstr ""
+"Настройки конвертации в вектор могут быть сохранены в виде *tnzsettings*"
+" файлов, чтобы иметь разные настройки для каждого уровня и быть загруженными"
+" обратно и использоваться в другой сцене."
 
 #: ../../source/drawing_animation_levels.rst:652
 msgid ""
@@ -1700,48 +2261,61 @@ msgid ""
 "for the scene or for the project (see  :ref:`Scene Settings and Project "
 "Default Settings <scene_settings_and_project_default_settings>`  )."
 msgstr ""
+"Загруженные настройки конвертации в вектор также можно назначить настройками"
+" по умолчанию для сцены или проекта (см. :ref:`Настройки сцены и Настройки"
+" проекта по умолчанию <scene_settings_and_project_default_settings>`)."
 
 #: ../../source/drawing_animation_levels.rst:654
 msgid "**To save the Convert To Vector settings:**"
-msgstr ""
+msgstr "**Чтобы сохранить настройки конвертации в вектор:**"
 
 #: ../../source/drawing_animation_levels.rst:656
 msgid ""
 "Click the **Save Settings** button (|save|) in the bottom bar of the "
 "Convert-to-Vector Settings window."
 msgstr ""
+"Нажмите кнопку **Сохранить настройки** (|save|) в нижней части окна"
+" «Настройки конвертации в вектор»."
 
 #: ../../source/drawing_animation_levels.rst:658
 msgid ""
 "In the browser that opens choose for the *tnzsettings* file a location "
 "and a name, and click the **Save** button."
 msgstr ""
+"В открывшемся браузере выберите для файла *tnzsettings* местоположение и имя"
+" и нажмите кнопку **Сохранить**."
 
 #: ../../source/drawing_animation_levels.rst:660
 msgid "**To load saved Convert To Vector settings:**"
-msgstr ""
+msgstr "**Для загрузки сохраненных настроек конвертации в вектор:**"
 
 #: ../../source/drawing_animation_levels.rst:662
 msgid ""
 "Click the **Load Settings** button (|load|) in the bottom bar of the "
 "Convert-to-Vector Settings window."
 msgstr ""
+"Нажмите кнопку **Загрузить изменения** (|load|) в нижней панели окна"
+" «Настройки конвертации в вектор»."
 
 #: ../../source/drawing_animation_levels.rst:664
 msgid ""
 "In the browser that opens retrieve the *tnzsettings* file you want to "
 "load, and click the **Load** button."
 msgstr ""
+"В открывшемся браузере найдите файл *tnzsettings*, который вы хотите"
+" загрузить, и нажмите кнопку **Загрузить**."
 
 #: ../../source/drawing_animation_levels.rst:666
 msgid "**To reset the Convert To Vector settings to the scene default:**"
-msgstr ""
+msgstr "**Для сброса настроек конвертации в вектор по умолчанию в сцене:**"
 
 #: ../../source/drawing_animation_levels.rst:668
 msgid ""
 "Click the **Reset Settings** button (|reset|) in the bottom bar of the "
 "Convert-to-Vector Settings window."
 msgstr ""
+"Нажмите кнопку **Сбросить настройки** (|reset|) в нижней части окна"
+" Конвертации в вектор."
 
 #: ../../source/drawing_animation_levels.rst:674
 msgid "Changing the Canvas Size"
@@ -2488,7 +3062,8 @@ msgid "Select the group, then choose Edit  →  **Enter Group**."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:969
-msgid "Right-click the group and choose **Enter Group** from the menu that opens."
+msgid ""
+"Right-click the group and choose **Enter Group** from the menu that opens."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:971
@@ -2504,7 +3079,8 @@ msgid "Choose Edit  →  **Exit Group**."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:979
-msgid "Right-click the group and choose **Exit Group** from the menu that opens."
+msgid ""
+"Right-click the group and choose **Exit Group** from the menu that opens."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:981
@@ -2516,7 +3092,8 @@ msgid "**To Select a group:**"
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:985
-msgid "Choose the **Selection** tool (|selection|) and do any of the following:"
+msgid ""
+"Choose the **Selection** tool (|selection|) and do any of the following:"
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:987
@@ -3370,7 +3947,8 @@ msgid "**Ease In**, for an interpolation starting slowly, then getting faster."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1361
-msgid "**Ease Out**, for an interpolation starting quickly, then getting slower."
+msgid ""
+"**Ease Out**, for an interpolation starting quickly, then getting slower."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1363
@@ -3456,7 +4034,8 @@ msgid "Rotoscoping"
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1398
-msgid "Rotoscoping consists of tracing drawings taking a live clip as reference."
+msgid ""
+"Rotoscoping consists of tracing drawings taking a live clip as reference."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1402
@@ -3833,7 +4412,8 @@ msgid "Click and drag *any corner handle* to **rotate** the reference drawing."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1549
-msgid "Click and drag *the center handle* to change the **center of rotation**."
+msgid ""
+"Click and drag *the center handle* to change the **center of rotation**."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1551
