@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 11:54+0800\n"
-"PO-Revision-Date: 2019-11-22 06:46+0800\n"
+"PO-Revision-Date: 2019-11-24 00:08+0800\n"
 "Last-Translator: Savraska2 <surkow.aleksandr@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
@@ -2319,17 +2319,19 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:674
 msgid "Changing the Canvas Size"
-msgstr ""
+msgstr "Изменение размера холста"
 
 #: ../../source/drawing_animation_levels.rst:675
 msgid ""
 "It's possible to change the size of Toonz Raster and Raster levels, in "
 "order to increase or decrease the area around the images of a level."
 msgstr ""
+"Можно изменить размер уровней Toonz Raster и Raster, чтобы увеличить или"
+" уменьшить область вокруг изображений уровня."
 
 #: ../../source/drawing_animation_levels.rst:677
 msgid "|canvas_size|"
-msgstr ""
+msgstr "|canvas_size|"
 
 #: ../../source/drawing_animation_levels.rst:679
 msgid ""
@@ -2338,20 +2340,28 @@ msgid ""
 "transparent area is added; if the canvas is reduced, some cropping is "
 "applied to the level images."
 msgstr ""
+"Новый размер может быть установлен в любой единице, поддерживаемой OpenToonz,"
+" используя абсолютные или относительные значения. Если холст увеличивается,"
+" добавляется некоторая белая прозрачная область; если холст уменьшен,"
+" некоторая обрезка применяется к изображениям уровня."
 
 #: ../../source/drawing_animation_levels.rst:681
 msgid "**To change the canvas size:**"
-msgstr ""
+msgstr "**Чтобы изменить размер холста: **"
 
 #: ../../source/drawing_animation_levels.rst:683
 msgid ""
 "Select the Toonz Raster or Raster level you want to modify in the "
 "Xsheet/Timeline."
 msgstr ""
+"Выберите уровень Toonz Raster или Raster, который вы хотите изменить, в"
+" Xsheet / Timeline."
 
 #: ../../source/drawing_animation_levels.rst:685
 msgid "Choose Level  →  **Canvas Size...**, the Canvas Size dialog opens."
 msgstr ""
+"Выберите Уровень → **Размер холста...**, откроется диалоговое окно Размер"
+" холста."
 
 #: ../../source/drawing_animation_levels.rst:687
 msgid ""
@@ -2360,6 +2370,10 @@ msgid ""
 "**Relative** option to define the new size by specifying only the size "
 "the canvas has to increase or decrease."
 msgstr ""
+"В диалоговом окне установите **Ед. изм**, чтобы выразить новый размер холста,"
+" и установите **Ширина** и **Высота** нового холста; активируйте параметр"
+" **Относительный**, чтобы определить новый размер, указав только размер,"
+" который холст должен увеличивать или уменьшать."
 
 #: ../../source/drawing_animation_levels.rst:689
 msgid ""
@@ -2367,10 +2381,13 @@ msgid ""
 "in the new one: the arrows are a reference to see how the new size will "
 "increase or decrease the current canvas size."
 msgstr ""
+"Используйте диаграмму **Анкер**, чтобы определить положение текущего холста"
+" на новом: стрелки представляют собой ссылку, чтобы увидеть, как новый размер"
+" увеличит или уменьшит текущий размер холста."
 
 #: ../../source/drawing_animation_levels.rst:691
 msgid "Click the **Resize** button."
-msgstr ""
+msgstr "Нажмите кнопку **Изменить размер**."
 
 #: ../../source/drawing_animation_levels.rst:693
 msgid ""
@@ -2378,6 +2395,8 @@ msgid ""
 "confirmation dialog will open, asking you whether you want to crop the "
 "canvas."
 msgstr ""
+"Если новый размер холста меньше текущего, откроется диалоговое окно"
+" подтверждения с вопросом, хотите ли вы обрезать холст."
 
 #: ../../source/drawing_animation_levels.rst:699
 msgid "Editing Drawings"
