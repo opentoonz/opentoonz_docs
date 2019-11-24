@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 11:54+0800\n"
+"POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: 2019-06-21 11:21+0800\n"
 "Last-Translator: user <surkow.aleksandr@gmail.com>\n"
 "Language: ru_RU\n"
@@ -424,10 +424,80 @@ msgid "Click the **Remove** button on the right of the preset cameras list."
 msgstr "Нажмите кнопку «Удалить» справа от списка предустановленных камер."
 
 #: ../../source/setting_up_a_scene.rst:124
+msgid "Color Calibration using Look-up Tables"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:126
+msgid "|3dlut|"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:128
+msgid ""
+"OpenToonz can manage the previsualization of color through the use of 3D "
+"Look-up Tables. By applying a 3D LUT file, properly configured for the "
+"current display monitor, it will be possible to work on different color "
+"spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, "
+"`DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 "
+"<https://en.wikipedia.org/wiki/Rec._2020>`_."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:130
+msgid ""
+"Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, "
+"Flipbook, Color Model, Palette, and Style Editor will be corrected."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:132
+msgid ""
+"Currently, only the .3dl file format is supported. It must follow "
+"specification written `here "
+"<http://download.autodesk.com/us/systemdocs/help/2009/lustre_ext1/index.html?url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,topicNumber=d0e8061>`_."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:134
+msgid ""
+"Currently, only the Windows version of OpenToonz can detect the currently"
+" connected monitor. For other platforms only one 3D LUT file can be "
+"applied for any type of monitors. (Even on Windows, connecting multiple "
+"different monitors at the same time is not supported for now. It will "
+"only identify the first registered monitor)."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:136
+msgid ""
+"PLEASE NOTE: At the moment, using Plastic deformation together with this "
+"feature causes a display issue such that the deformed image is not shown "
+"in *Camera Stand* mode of the Viewer."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:138
+msgid "**To apply a 3DLUT file for previsualizing color:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:140
+#, fuzzy
+msgid "Choose File  →  Preferences...  →  Interface."
+msgstr "Выберите «Файл» > «Настройки программы»> «Интерфейс»."
+
+#: ../../source/setting_up_a_scene.rst:142
+msgid "Activate the **Color Calibration using 3D Look-up Table** option."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:144
+msgid ""
+"In the **3DLUT File for [monitor]:** option, press the file browser "
+"button to navigate and select the desired .3DL file."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:146
+msgid "Restart OpenToonz for the changes to take effect."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:152
 msgid "Assigning Memory for the Undo Operations"
 msgstr "Назначение памяти для операций отмены"
 
-#: ../../source/setting_up_a_scene.rst:125
+#: ../../source/setting_up_a_scene.rst:153
 #, fuzzy
 msgid ""
 "All the operations performed in the software can be undone by using the "
@@ -437,7 +507,7 @@ msgstr ""
 "помощью команды «Правка»> «Отменить», даже чтобы вернуться на несколько "
 "шагов назад."
 
-#: ../../source/setting_up_a_scene.rst:127
+#: ../../source/setting_up_a_scene.rst:155
 msgid ""
 "Undo operations require computer memory in order to be performed, and "
 "some of them may require more memory than some others, according to their"
@@ -447,7 +517,7 @@ msgstr ""
 "из них могут требовать больше памяти, чем другие, в зависимости от их "
 "сложности."
 
-#: ../../source/setting_up_a_scene.rst:129
+#: ../../source/setting_up_a_scene.rst:157
 #, fuzzy
 msgid ""
 "To prevent most of the computer memory to be used by undo operations "
@@ -461,7 +531,7 @@ msgstr ""
 "ограничение, указав размер памяти для отмены (МБ) в меню «Файл» > "
 "«Настройки программы» > Общие."
 
-#: ../../source/setting_up_a_scene.rst:131
+#: ../../source/setting_up_a_scene.rst:159
 msgid ""
 "As soon as the limit is reached, the oldest undo operations will be "
 "discarded to make room for the new ones."
@@ -469,11 +539,11 @@ msgstr ""
 "Как только предел достигнут, самые старые операции отмены будут "
 "отброшены, чтобы освободить место для новых."
 
-#: ../../source/setting_up_a_scene.rst:137
+#: ../../source/setting_up_a_scene.rst:165
 msgid "Optimizing the Memory Usage"
 msgstr "Оптимизация использования памяти"
 
-#: ../../source/setting_up_a_scene.rst:138
+#: ../../source/setting_up_a_scene.rst:166
 msgid ""
 "When working with Raster images, predominantly being animation levels "
 "scanned with OpenToonz or GTS, an extensive usage of computer memory may "
@@ -484,7 +554,7 @@ msgstr ""
 "потребоваться интенсивное использование компьютерной памяти во время "
 "процессов очистки, рисования и рендера."
 
-#: ../../source/setting_up_a_scene.rst:140
+#: ../../source/setting_up_a_scene.rst:168
 #, fuzzy
 msgid ""
 "After a certain amount of time the computer performance may worsen, as "
@@ -501,7 +571,7 @@ msgstr ""
 "«Общие». При активации часть памяти компьютера резервируется и "
 "используется только для операций с растровыми изображениями."
 
-#: ../../source/setting_up_a_scene.rst:142
+#: ../../source/setting_up_a_scene.rst:170
 msgid ""
 "If you are working mainly with vector images, that have been drawn inside"
 " OpenToonz, this option should be deactivated, as the reserved memory "
@@ -512,7 +582,7 @@ msgstr ""
 " как в противном случае раздел зарезервированной памяти не будет "
 "использоваться компьютером."
 
-#: ../../source/setting_up_a_scene.rst:144
+#: ../../source/setting_up_a_scene.rst:172
 msgid "The change set for this option is valid only after OpenToonz is restarted."
 msgstr ""
 "Набор изменений для этой опции действителен только после перезапуска "

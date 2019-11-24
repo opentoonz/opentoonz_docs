@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 11:54+0800\n"
+"POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,18 +162,18 @@ msgstr ""
 #: ../../source/editing_curves_and_numerical_columns.rst:240
 #: ../../source/editing_curves_and_numerical_columns.rst:248
 #: ../../source/editing_curves_and_numerical_columns.rst:266
-#: ../../source/editing_curves_and_numerical_columns.rst:343
-#: ../../source/editing_curves_and_numerical_columns.rst:365
-#: ../../source/editing_curves_and_numerical_columns.rst:413
-#: ../../source/editing_curves_and_numerical_columns.rst:423
-#: ../../source/editing_curves_and_numerical_columns.rst:441
-#: ../../source/editing_curves_and_numerical_columns.rst:451
-#: ../../source/editing_curves_and_numerical_columns.rst:469
-#: ../../source/editing_curves_and_numerical_columns.rst:600
-#: ../../source/editing_curves_and_numerical_columns.rst:618
-#: ../../source/editing_curves_and_numerical_columns.rst:719
-#: ../../source/editing_curves_and_numerical_columns.rst:747
-#: ../../source/editing_curves_and_numerical_columns.rst:769
+#: ../../source/editing_curves_and_numerical_columns.rst:349
+#: ../../source/editing_curves_and_numerical_columns.rst:371
+#: ../../source/editing_curves_and_numerical_columns.rst:419
+#: ../../source/editing_curves_and_numerical_columns.rst:429
+#: ../../source/editing_curves_and_numerical_columns.rst:447
+#: ../../source/editing_curves_and_numerical_columns.rst:457
+#: ../../source/editing_curves_and_numerical_columns.rst:475
+#: ../../source/editing_curves_and_numerical_columns.rst:606
+#: ../../source/editing_curves_and_numerical_columns.rst:624
+#: ../../source/editing_curves_and_numerical_columns.rst:734
+#: ../../source/editing_curves_and_numerical_columns.rst:762
+#: ../../source/editing_curves_and_numerical_columns.rst:784
 msgid "Do one of the following:"
 msgstr ""
 
@@ -435,7 +435,7 @@ msgid "Type in the value for the key, and press **Enter** to confirm."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:164
-#: ../../source/editing_curves_and_numerical_columns.rst:804
+#: ../../source/editing_curves_and_numerical_columns.rst:819
 msgid "**To move a keyframe:**"
 msgstr ""
 
@@ -451,8 +451,9 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:170
 msgid ""
-"Click the *vertical strip* at the left of column cells, and drag it up or"
-" down to the new position: the whole content moves along the column."
+"Click the *vertical strip* at the left of the selected column cells, and "
+"drag it up or down to the new position: the content of the segments "
+"completely included in the selection will move along the column."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:172
@@ -577,7 +578,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:226
-#: ../../source/editing_curves_and_numerical_columns.rst:800
+#: ../../source/editing_curves_and_numerical_columns.rst:815
 msgid "**To add a keyframe:**"
 msgstr ""
 
@@ -589,7 +590,7 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:232
 msgid ""
-"Type a value in the **Value** text box to add a key point at the current "
+"Type a value in the **Value** text box to add a keyframe at the current "
 "frame."
 msgstr ""
 
@@ -694,8 +695,8 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:282
 msgid ""
-"Right-click the curve and choose **Activate Cycle** from the menu that "
-"opens."
+"Right-click the dashed line after the end of the curve and choose "
+"**Activate Cycle** from the menu that opens."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:284
@@ -768,20 +769,26 @@ msgid ""
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:309
-#: ../../source/editing_curves_and_numerical_columns.rst:315
 #: ../../source/editing_curves_and_numerical_columns.rst:327
-#: ../../source/editing_curves_and_numerical_columns.rst:781
+#: ../../source/editing_curves_and_numerical_columns.rst:335
+#: ../../source/editing_curves_and_numerical_columns.rst:796
 msgid "Click the **Apply** button to apply the desired change."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:311
-msgid "**To set the Step of the interpolation:**"
+msgid ""
+"**To set the type of interpolation for multiple segments in the "
+"Spreadsheet:**"
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:313
+msgid "Make a cell selection that encompases multiple keyframe segments."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:315
 msgid ""
-"Specify the **Step** value in the interpolation area of the Function "
-"Editor."
+"Right click on one of the selected cells and choose the desired "
+"interpolation type in the menu that opens."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:317
@@ -812,45 +819,55 @@ msgid ""
 "segment."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:335
+#: ../../source/editing_curves_and_numerical_columns.rst:331
+msgid "**To set the Step of the interpolation:**"
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:333
+msgid ""
+"Specify the **Step** value in the interpolation area of the Function "
+"Editor."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:341
 msgid "Using Linear Interpolations"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:337
+#: ../../source/editing_curves_and_numerical_columns.rst:343
 msgid "|function_editor_iLinear|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:339
+#: ../../source/editing_curves_and_numerical_columns.rst:345
 msgid ""
 "When the interpolation is *Linear* the curve segment turns to a straight "
 "line and the speed of the transformation is constant."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:341
+#: ../../source/editing_curves_and_numerical_columns.rst:347
 msgid "**To set a Linear interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:345
+#: ../../source/editing_curves_and_numerical_columns.rst:351
 msgid ""
 "Choose **Linear** from the option menu available in the Interpolation "
 "area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:347
+#: ../../source/editing_curves_and_numerical_columns.rst:353
 msgid ""
 "Right-click the curve segment you want to set the interpolation for, and "
 "choose **Linear Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:353
+#: ../../source/editing_curves_and_numerical_columns.rst:359
 msgid "Using Speed In / Speed Out Interpolations"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:355
+#: ../../source/editing_curves_and_numerical_columns.rst:361
 msgid "|function_editor_iSpeed|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:357
+#: ../../source/editing_curves_and_numerical_columns.rst:363
 msgid ""
 "When the interpolation is Speed In / Speed Out, both control points at "
 "the ends of the segment have handles whose direction and length define "
@@ -860,7 +877,7 @@ msgid ""
 "themselves."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:359
+#: ../../source/editing_curves_and_numerical_columns.rst:365
 msgid ""
 "By default the handles are linked, making their degree of movement "
 "dependent on adjacent segments in order to define a smooth curve, but the"
@@ -870,113 +887,113 @@ msgid ""
 "link each handle can have a different direction."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:361
+#: ../../source/editing_curves_and_numerical_columns.rst:367
 msgid ""
 "Handles can also be collapsed in control points in order to turn them "
 "into corner points; in this case to retrieve the handles it is possible "
 "to reset their length and direction."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:363
+#: ../../source/editing_curves_and_numerical_columns.rst:369
 msgid "**To set a Speed In / Speed Out interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:367
+#: ../../source/editing_curves_and_numerical_columns.rst:373
 msgid ""
 "Choose **Speed In / Speed Out** from the dropdown menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:369
+#: ../../source/editing_curves_and_numerical_columns.rst:375
 msgid ""
 "Right-click the curve segment you want to set the interpolation for, and "
 "choose **Speed In / Speed Out Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:371
+#: ../../source/editing_curves_and_numerical_columns.rst:377
 msgid "**To set the speed of the interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:373
+#: ../../source/editing_curves_and_numerical_columns.rst:379
 msgid ""
 "Select the keyframe at the beginning or at the end of the curve segment "
 "you want to edit, or the curve segment itself."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:375
+#: ../../source/editing_curves_and_numerical_columns.rst:381
 msgid ""
 "Set the slope of the curve after or before the keyframe by doing one of "
 "the following:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:377
+#: ../../source/editing_curves_and_numerical_columns.rst:383
 msgid ""
 "Enter the **Speed In** and **Speed Out** direction and length values in "
 "the Interpolation area of the Function Editor and click the **Apply** "
 "button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:379
+#: ../../source/editing_curves_and_numerical_columns.rst:385
 msgid "Click and drag the end of the handles to move them freely."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:381
+#: ../../source/editing_curves_and_numerical_columns.rst:387
 msgid ""
 "**Shift-click** and drag the end of the handles to move them with a "
 "constraint in the horizontal or vertical direction."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:383
+#: ../../source/editing_curves_and_numerical_columns.rst:389
 msgid "**To move a control point handle free from the adjacent segments:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:385
+#: ../../source/editing_curves_and_numerical_columns.rst:391
 msgid ""
 "Right-click the control point and choose **Unlink Handles** from the menu"
 " that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:387
+#: ../../source/editing_curves_and_numerical_columns.rst:393
 msgid "**To link back handles to adjacent segments:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:389
+#: ../../source/editing_curves_and_numerical_columns.rst:395
 msgid ""
 "Right-click the control point and choose **Link Handles** from the menu "
 "that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:391
+#: ../../source/editing_curves_and_numerical_columns.rst:397
 msgid "**To turn a control point into a corner point:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:393
+#: ../../source/editing_curves_and_numerical_columns.rst:399
 msgid "Select the control point."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:395
+#: ../../source/editing_curves_and_numerical_columns.rst:401
 msgid "Move the handle ends to the control point, in order to collapse them."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:397
+#: ../../source/editing_curves_and_numerical_columns.rst:403
 msgid "**To retrieve handles from a corner point:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:399
+#: ../../source/editing_curves_and_numerical_columns.rst:405
 msgid ""
 "Right-click the control point and choose **Reset Handles** from the menu "
 "that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:405
+#: ../../source/editing_curves_and_numerical_columns.rst:411
 msgid "Using Ease In / Ease Out Interpolations"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:407
+#: ../../source/editing_curves_and_numerical_columns.rst:413
 msgid "|function_editor_iEase|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:409
+#: ../../source/editing_curves_and_numerical_columns.rst:415
 msgid ""
 "When the interpolation is Ease In / Ease Out, the segment is divided into"
 " three sections by two vertical lines: the first section is an "
@@ -986,55 +1003,55 @@ msgid ""
 "dragging the vertical lines available on the segment."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:411
+#: ../../source/editing_curves_and_numerical_columns.rst:417
 msgid "**To set an Ease In / Ease Out interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:415
+#: ../../source/editing_curves_and_numerical_columns.rst:421
 msgid ""
 "Choose **Ease In / Ease Out** from the dropdown menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:417
+#: ../../source/editing_curves_and_numerical_columns.rst:423
 msgid ""
 "Right-click the curve segment you want to set the transformation for, and"
 " choose **Ease In / Ease Out Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:419
+#: ../../source/editing_curves_and_numerical_columns.rst:425
 msgid "**To set the Ease In / Ease Out of the interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:421
-#: ../../source/editing_curves_and_numerical_columns.rst:449
+#: ../../source/editing_curves_and_numerical_columns.rst:427
+#: ../../source/editing_curves_and_numerical_columns.rst:455
 msgid ""
 "Select the keyframe before or after the Ease In / Ease Out curve segment "
 "you want to edit, or the curve segment itself."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:425
-#: ../../source/editing_curves_and_numerical_columns.rst:453
+#: ../../source/editing_curves_and_numerical_columns.rst:431
+#: ../../source/editing_curves_and_numerical_columns.rst:459
 msgid ""
 "Enter the **Ease In** and **Ease Out** values in the Interpolation area "
 "of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:427
+#: ../../source/editing_curves_and_numerical_columns.rst:433
 msgid ""
 "Move the vertical line setting the Ease In or Ease Out section of the "
-"segment, to change the curve after or before the key point."
+"segment, to change the curve after or before the keyframe."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:433
+#: ../../source/editing_curves_and_numerical_columns.rst:439
 msgid "Using Ease In / Ease Out % Interpolations"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:435
+#: ../../source/editing_curves_and_numerical_columns.rst:441
 msgid "|function_editor_iEasePer|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:437
+#: ../../source/editing_curves_and_numerical_columns.rst:443
 #, python-format
 msgid ""
 "The Ease In / Ease Out % interpolation is similar to the Ease In / Ease "
@@ -1042,43 +1059,43 @@ msgid ""
 "expressed as a percentage of the segment frame duration."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:439
+#: ../../source/editing_curves_and_numerical_columns.rst:445
 #, python-format
 msgid "**To set an Ease In / Ease Out % interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:443
+#: ../../source/editing_curves_and_numerical_columns.rst:449
 msgid ""
 "Choose **Ease In / Ease Out %** from the dropdown menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:445
+#: ../../source/editing_curves_and_numerical_columns.rst:451
 msgid ""
 "Right-click the curve segment you want to set the transformation for, and"
 " choose **Ease In / Ease Out % Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:447
+#: ../../source/editing_curves_and_numerical_columns.rst:453
 #, python-format
 msgid "**To set the Ease In / Ease Out % of the interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:455
+#: ../../source/editing_curves_and_numerical_columns.rst:461
 msgid ""
 "Move the vertical line setting the Ease In or Ease Out section of the "
-"curve segment, to change the curve after or before the key point."
+"curve segment, to change the curve after or before the keyframe."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:461
+#: ../../source/editing_curves_and_numerical_columns.rst:467
 msgid "Using Exponential Interpolations"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:463
+#: ../../source/editing_curves_and_numerical_columns.rst:469
 msgid "|function_editor_iExpon|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:465
+#: ../../source/editing_curves_and_numerical_columns.rst:471
 msgid ""
 "When the interpolation is **Exponential** the curve segment turns to a "
 "curve that continually becomes steeper, because of that, the higher the "
@@ -1086,31 +1103,31 @@ msgid ""
 "significant for this interpolation."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:467
+#: ../../source/editing_curves_and_numerical_columns.rst:473
 msgid "**To set an Exponential interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:471
+#: ../../source/editing_curves_and_numerical_columns.rst:477
 msgid ""
 "Choose **Exponential** from the dropdown menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:473
+#: ../../source/editing_curves_and_numerical_columns.rst:479
 msgid ""
 "Right-click the curve segment you want to set the transformation for, and"
 " choose **Exponential Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:479
+#: ../../source/editing_curves_and_numerical_columns.rst:485
 msgid "Using Interpolations Based on Expressions"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:481
+#: ../../source/editing_curves_and_numerical_columns.rst:487
 msgid "|function_editor_iExpres|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:483
+#: ../../source/editing_curves_and_numerical_columns.rst:489
 msgid ""
 "When the interpolation is defined by an Expression, the segment values "
 "come from a *mathematical formula* that can be typed by using algebra "
@@ -1118,7 +1135,7 @@ msgid ""
 "change as well, according to the typed expression."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:485
+#: ../../source/editing_curves_and_numerical_columns.rst:491
 msgid ""
 "While typing the expression, if the syntax is recognized, a menu "
 "automatically opens suggesting you the possible terms: from the menu you "
@@ -1126,7 +1143,7 @@ msgid ""
 "and to insert it in the expression."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:487
+#: ../../source/editing_curves_and_numerical_columns.rst:493
 msgid ""
 "As soon as terms are recognized, different colors are used to highlight "
 "them: **operators and functions** are displayed in *dark blue*, "
@@ -1134,7 +1151,7 @@ msgid ""
 "expression is entered, any **syntax error** will be displayed in *red*."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:489
+#: ../../source/editing_curves_and_numerical_columns.rst:495
 msgid ""
 "The **Unit** used for the function is displayed in a box next to the "
 "expression; in case the unit refers to a movement, the default unit can "
@@ -1142,488 +1159,492 @@ msgid ""
 " one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:491
+#: ../../source/editing_curves_and_numerical_columns.rst:497
 msgid ""
 "Apart from the standard operators and functions, some variables and "
 "predefined functions can also be used in expressions."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:493
-#: ../../source/editing_curves_and_numerical_columns.rst:641
+#: ../../source/editing_curves_and_numerical_columns.rst:499
+#: ../../source/editing_curves_and_numerical_columns.rst:648
 msgid "Supported terms are the following:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:496
+#: ../../source/editing_curves_and_numerical_columns.rst:502
 msgid "**Operators**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:498
+#: ../../source/editing_curves_and_numerical_columns.rst:504
 msgid "``+`` , ``-`` , ``*`` , ``/``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:499
+#: ../../source/editing_curves_and_numerical_columns.rst:504
+msgid "Addition, Subtraction, Multiplication, Division"
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:505
 msgid "``%``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:499
+#: ../../source/editing_curves_and_numerical_columns.rst:505
 msgid "Modulus: ``10%6=4`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:500
+#: ../../source/editing_curves_and_numerical_columns.rst:506
 msgid "``^``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:500
+#: ../../source/editing_curves_and_numerical_columns.rst:506
 msgid ""
 "Exponentiation: ``a^2``  means ``a*a`` ; ``a^0.5``  is square root of "
 "``a`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:506
+#: ../../source/editing_curves_and_numerical_columns.rst:512
 msgid "**Math Functions**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:508
+#: ../../source/editing_curves_and_numerical_columns.rst:514
 msgid "``sin(), cos(), tan(), atan(), atan2()``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:508
+#: ../../source/editing_curves_and_numerical_columns.rst:514
 msgid "Angles are expressed in degrees."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:509
+#: ../../source/editing_curves_and_numerical_columns.rst:515
 msgid "``sinh()`` , ``cosh()`` , ``tanh()``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:509
+#: ../../source/editing_curves_and_numerical_columns.rst:515
 msgid "Hyperbolic functions."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:510
+#: ../../source/editing_curves_and_numerical_columns.rst:516
 msgid "``log()`` , ``exp()``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:511
+#: ../../source/editing_curves_and_numerical_columns.rst:517
 msgid "``floor(value)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:511
+#: ../../source/editing_curves_and_numerical_columns.rst:517
 msgid "The greatest whole number less or equal than ``value`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:512
+#: ../../source/editing_curves_and_numerical_columns.rst:518
 msgid "``ceiling(value)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:512
+#: ../../source/editing_curves_and_numerical_columns.rst:518
 msgid "The smallest whole number less or equal than ``value`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:513
+#: ../../source/editing_curves_and_numerical_columns.rst:519
 msgid "``round(value)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:513
+#: ../../source/editing_curves_and_numerical_columns.rst:519
 msgid "The integer closest to ``value`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:514
+#: ../../source/editing_curves_and_numerical_columns.rst:520
 msgid "``abs()``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:514
+#: ../../source/editing_curves_and_numerical_columns.rst:520
 msgid "Absolute value: ``abs(a)``  is ``a``  without the sign."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:515
+#: ../../source/editing_curves_and_numerical_columns.rst:521
 msgid "``sign(value)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:515
+#: ../../source/editing_curves_and_numerical_columns.rst:521
 msgid "Returns 0 if ``value``  is 0; -1 if negative; 1 if positive."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:516
+#: ../../source/editing_curves_and_numerical_columns.rst:522
 msgid "``sqrt(value)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:516
+#: ../../source/editing_curves_and_numerical_columns.rst:522
 msgid "Returns square root of ``value`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:517
+#: ../../source/editing_curves_and_numerical_columns.rst:523
 msgid "``min(a,b,c,...)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:517
+#: ../../source/editing_curves_and_numerical_columns.rst:523
 msgid "Returns argument with minimum value."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:518
+#: ../../source/editing_curves_and_numerical_columns.rst:524
 msgid "``max(a,b,c,...)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:518
+#: ../../source/editing_curves_and_numerical_columns.rst:524
 msgid "Returns argument with maximum value."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:519
+#: ../../source/editing_curves_and_numerical_columns.rst:525
 msgid "``clamp(value,min,max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:519
-#: ../../source/editing_curves_and_numerical_columns.rst:520
+#: ../../source/editing_curves_and_numerical_columns.rst:525
+#: ../../source/editing_curves_and_numerical_columns.rst:526
 msgid ""
 "Returns ``min``  if ``value``  is less than ``min`` ; ``max``  if "
 "``value``  is greater than ``max`` ; otherwise it returns ``value`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:520
+#: ../../source/editing_curves_and_numerical_columns.rst:526
 msgid "``crop(value,min,max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:521
+#: ../../source/editing_curves_and_numerical_columns.rst:527
 msgid "``step(value,min)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:521
+#: ../../source/editing_curves_and_numerical_columns.rst:527
 msgid "Returns 0 if ``value``  is less than ``min`` , otherwise it returns 1."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:522
+#: ../../source/editing_curves_and_numerical_columns.rst:528
 msgid "``smoothstep(value,min,max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:522
+#: ../../source/editing_curves_and_numerical_columns.rst:528
 msgid ""
 "Returns 0 if ``value``  is less than ``min`` , 1 if ``value``  is greater"
 " than or equal to ``max`` , and perform a smooth interpolation between 0 "
 "and 1 in interval ``min``  to ``max`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:528
+#: ../../source/editing_curves_and_numerical_columns.rst:534
 msgid "**Logical Operators**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:530
+#: ../../source/editing_curves_and_numerical_columns.rst:536
 msgid "``<``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:530
+#: ../../source/editing_curves_and_numerical_columns.rst:536
 msgid "Less"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:531
+#: ../../source/editing_curves_and_numerical_columns.rst:537
 msgid "``<=``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:531
+#: ../../source/editing_curves_and_numerical_columns.rst:537
 msgid "Less or equal."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:532
+#: ../../source/editing_curves_and_numerical_columns.rst:538
 msgid "``>``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:532
+#: ../../source/editing_curves_and_numerical_columns.rst:538
 msgid "More"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:533
+#: ../../source/editing_curves_and_numerical_columns.rst:539
 msgid "``>=``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:533
+#: ../../source/editing_curves_and_numerical_columns.rst:539
 msgid "More or equal."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:534
+#: ../../source/editing_curves_and_numerical_columns.rst:540
 msgid "``==``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:534
+#: ../../source/editing_curves_and_numerical_columns.rst:540
 msgid "Equal."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:535
+#: ../../source/editing_curves_and_numerical_columns.rst:541
 msgid "``!=``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:535
+#: ../../source/editing_curves_and_numerical_columns.rst:541
 msgid "Not equal."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:541
+#: ../../source/editing_curves_and_numerical_columns.rst:547
 msgid "**Boolean Operators**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:543
+#: ../../source/editing_curves_and_numerical_columns.rst:549
 msgid "``&&``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:543
+#: ../../source/editing_curves_and_numerical_columns.rst:549
 msgid "And."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:544
+#: ../../source/editing_curves_and_numerical_columns.rst:550
 msgid "``||``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:544
+#: ../../source/editing_curves_and_numerical_columns.rst:550
 msgid "Or."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:545
+#: ../../source/editing_curves_and_numerical_columns.rst:551
 msgid "``!``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:545
+#: ../../source/editing_curves_and_numerical_columns.rst:551
 msgid "Not."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:551
+#: ../../source/editing_curves_and_numerical_columns.rst:557
 msgid "**Conditional Expression**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:553
+#: ../../source/editing_curves_and_numerical_columns.rst:559
 msgid "``(logical_expression)?value1:value2``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:553
+#: ../../source/editing_curves_and_numerical_columns.rst:559
 msgid ""
 "If ``logical_expression``  is true, it returns ``value1`` , otherwise it "
 "returns ``value2`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:559
+#: ../../source/editing_curves_and_numerical_columns.rst:565
 msgid "**Variables**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:561
+#: ../../source/editing_curves_and_numerical_columns.rst:567
 msgid "``t``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:561
+#: ../../source/editing_curves_and_numerical_columns.rst:567
 msgid ""
 "Ranges from 0.0 to 1.0 along the transition allowing position/lenght-"
 "independent transitions."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:562
+#: ../../source/editing_curves_and_numerical_columns.rst:568
 msgid "``f`` , ``frame``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:562
+#: ../../source/editing_curves_and_numerical_columns.rst:568
 msgid "The current frame number."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:563
+#: ../../source/editing_curves_and_numerical_columns.rst:569
 msgid "``r`` , ``rframe``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:563
+#: ../../source/editing_curves_and_numerical_columns.rst:569
 msgid "It is relative to the transition."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:569
+#: ../../source/editing_curves_and_numerical_columns.rst:575
 msgid "**Constants**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:571
+#: ../../source/editing_curves_and_numerical_columns.rst:577
 msgid "``pi``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:571
+#: ../../source/editing_curves_and_numerical_columns.rst:577
 msgid "3.141593..."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:572
+#: ../../source/editing_curves_and_numerical_columns.rst:578
 msgid "numeric constant"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:572
+#: ../../source/editing_curves_and_numerical_columns.rst:578
 msgid "E.g. 1, 2, 4.3."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:578
+#: ../../source/editing_curves_and_numerical_columns.rst:584
 msgid "**Predefined Functions**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:580
+#: ../../source/editing_curves_and_numerical_columns.rst:586
 msgid "``cycle(period)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:580
+#: ../../source/editing_curves_and_numerical_columns.rst:586
 msgid "Cycles the transition of the ``period``  previous frames."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:581
+#: ../../source/editing_curves_and_numerical_columns.rst:587
 msgid "``pulse(pos)`` , ``pulse(pos,length)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:581
+#: ../../source/editing_curves_and_numerical_columns.rst:587
 msgid ""
 "Generates a pulse ranging from 0.0 to 1.0 set at position ``pos`` , with "
 "a different breadth depending on the ``length``  of the pulse itself."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:582
+#: ../../source/editing_curves_and_numerical_columns.rst:588
 msgid "``bump(pos)`` , ``bump(pos,length)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:582
+#: ../../source/editing_curves_and_numerical_columns.rst:588
 msgid ""
 "Generates a bump ranging from 0.0 to 1.0 set at position ``pos`` , with a"
 " different breadth depending on the ``length``  of the bump itself."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:583
+#: ../../source/editing_curves_and_numerical_columns.rst:589
 msgid "``random``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:583
+#: ../../source/editing_curves_and_numerical_columns.rst:589
 msgid "Generates random sequences between 0.0 and 1.0."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:584
+#: ../../source/editing_curves_and_numerical_columns.rst:590
 msgid "``random(max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:584
+#: ../../source/editing_curves_and_numerical_columns.rst:590
 msgid "Generates a random number between 0.0 and ``max`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:585
+#: ../../source/editing_curves_and_numerical_columns.rst:591
 msgid "``random(min,max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:585
+#: ../../source/editing_curves_and_numerical_columns.rst:591
 msgid "Generates a random number between ``min``  and ``max`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:586
+#: ../../source/editing_curves_and_numerical_columns.rst:592
 msgid "``random_s(seed)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:586
+#: ../../source/editing_curves_and_numerical_columns.rst:592
 msgid ""
 "Works like random, but allows the user to specify the ``seed``  to modify"
 " the value of the ``random``  function."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:587
+#: ../../source/editing_curves_and_numerical_columns.rst:593
 msgid "``random_s(seed,max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:587
+#: ../../source/editing_curves_and_numerical_columns.rst:593
 msgid "Like above, with ``max``  as the maximum value of the transition."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:588
+#: ../../source/editing_curves_and_numerical_columns.rst:594
 msgid "``random_s(seed,min,max)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:588
+#: ../../source/editing_curves_and_numerical_columns.rst:594
 msgid ""
 "Like above, with ``min``  and ``max``  as the minimum and maximum values "
 "of the transition."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:589
+#: ../../source/editing_curves_and_numerical_columns.rst:595
 msgid "``saw(length)`` , ``saw(length,height)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:589
-#: ../../source/editing_curves_and_numerical_columns.rst:590
+#: ../../source/editing_curves_and_numerical_columns.rst:595
+#: ../../source/editing_curves_and_numerical_columns.rst:596
 msgid ""
 "Generates a periodic sawtooth shaped curve according to the ``length``  "
 "and ``height``  values; if ``height``  is not expressed it is assumed to "
 "be equal to ``length`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:590
+#: ../../source/editing_curves_and_numerical_columns.rst:596
 msgid "``sawtooth(length)`` , ``sawtooth(length,height)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:591
+#: ../../source/editing_curves_and_numerical_columns.rst:597
 msgid "``wave(length)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:591
+#: ../../source/editing_curves_and_numerical_columns.rst:597
 msgid "The same as ``sin(f*2*pi/length)`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:596
+#: ../../source/editing_curves_and_numerical_columns.rst:602
 msgid ""
 "The predefined function ``saw`` , ``wave``  and ``pulse``  use implicitly"
 " a variable independent from the frame number. You can provide explicitly"
-" a variable using the form: fun (var; argument...)."
+" a variable using the form: ``fun (var; argument...)`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:598
+#: ../../source/editing_curves_and_numerical_columns.rst:604
 msgid "**To set an interpolation based on an Expression:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:602
+#: ../../source/editing_curves_and_numerical_columns.rst:608
 msgid ""
 "Choose **Expression** from the dropdown menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:604
+#: ../../source/editing_curves_and_numerical_columns.rst:610
 msgid ""
 "Right-click the curve segment you want to set the transformation for, and"
 " choose **Expression Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:606
+#: ../../source/editing_curves_and_numerical_columns.rst:612
 msgid "**To set the expression:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:608
+#: ../../source/editing_curves_and_numerical_columns.rst:614
 msgid ""
 "Type the expression in the Interpolation area of the Function Editor. As "
 "you type, if the syntax is recognized, a menu automatically opens "
 "suggesting you the possible terms."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:610
+#: ../../source/editing_curves_and_numerical_columns.rst:616
 msgid "Press **Enter** to submit the expression and check its syntax."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:612
+#: ../../source/editing_curves_and_numerical_columns.rst:618
 msgid "If the expression refers to a movement, change the unit if needed."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:614
+#: ../../source/editing_curves_and_numerical_columns.rst:620
 msgid "Press the **Apply** button to apply the desired change."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:616
+#: ../../source/editing_curves_and_numerical_columns.rst:622
 msgid "**To select a suggested term:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:620
+#: ../../source/editing_curves_and_numerical_columns.rst:626
 msgid ""
 "Use the **Up Arrow** and **Down Arrow** keys to select the term in the "
 "menu that opens, then press **Enter**."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:622
+#: ../../source/editing_curves_and_numerical_columns.rst:628
 msgid "Click the term in the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:624
+#: ../../source/editing_curves_and_numerical_columns.rst:630
 msgid ""
 "When selecting a term with the Arrow keys a tooltip box displays the term"
 " correct syntax."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:630
+#: ../../source/editing_curves_and_numerical_columns.rst:636
 msgid "Using Transformation References"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:631
+#: ../../source/editing_curves_and_numerical_columns.rst:637
 msgid ""
 "It is possible to use in expressions references to any *object*, *effect*"
 " or *Plastic vertex* transformation. In this way, expressions can be used"
@@ -1631,327 +1652,366 @@ msgid ""
 "different items that can be of any of the aforementioned types."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:633
+#: ../../source/editing_curves_and_numerical_columns.rst:639
 msgid ""
 "The syntax to create a reference to an object transformation is the "
 "following:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:635
-msgid "``object.transformation``"
+#: ../../source/editing_curves_and_numerical_columns.rst:641
+msgid "``object.transformation`` or ``object.transformation(delta)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:637
+#: ../../source/editing_curves_and_numerical_columns.rst:643
 msgid ""
 "where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the"
 " *table*, as can be read in the Stage and FX Schematic nodes' tooltips; "
-"and ``transformation`` can be any of its available transformations."
+"``transformation`` can be any of its available transformations; and "
+"``delta`` is the difference between the target frame and the current one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:639
-msgid "For example ``camera1.ns``  refers to the N/S position of the Camera1."
+#: ../../source/editing_curves_and_numerical_columns.rst:645
+msgid ""
+"For example ``camera1.ns``  refers to the N/S position of the Camera1. "
+"Whereas ``camera1.ns(f-5)``  refers to the N/S position of the Camera1, 5"
+" frames before the current frame."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:644
+#: ../../source/editing_curves_and_numerical_columns.rst:651
 msgid "**Objects**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:646
+#: ../../source/editing_curves_and_numerical_columns.rst:653
 msgid "``cam<n>`` , ``camera<n>``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:646
+#: ../../source/editing_curves_and_numerical_columns.rst:653
 msgid "Refer to the camera ``n`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:647
+#: ../../source/editing_curves_and_numerical_columns.rst:654
 msgid "``col<n>``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:647
+#: ../../source/editing_curves_and_numerical_columns.rst:654
 msgid "Refers to the column ``n`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:648
+#: ../../source/editing_curves_and_numerical_columns.rst:655
 msgid "``peg<n>`` , ``pegbar<n>``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:648
+#: ../../source/editing_curves_and_numerical_columns.rst:655
 msgid "Refer to the pegbar ``n`` ."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:649
+#: ../../source/editing_curves_and_numerical_columns.rst:656
 msgid "``tab`` , ``table``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:649
+#: ../../source/editing_curves_and_numerical_columns.rst:656
 msgid "Refer to the table."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:655
+#: ../../source/editing_curves_and_numerical_columns.rst:662
 msgid "**Transformations**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:657
+#: ../../source/editing_curves_and_numerical_columns.rst:664
 msgid "``ns`` , ``ew``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:657
+#: ../../source/editing_curves_and_numerical_columns.rst:664
 msgid "Refer to the vertical and horizontal position."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:658
+#: ../../source/editing_curves_and_numerical_columns.rst:665
 msgid "``path`` , ``pos``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:658
+#: ../../source/editing_curves_and_numerical_columns.rst:665
 msgid "Refer to the position along the motion path."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:659
+#: ../../source/editing_curves_and_numerical_columns.rst:666
 msgid "``rot``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:659
+#: ../../source/editing_curves_and_numerical_columns.rst:666
 msgid "Refers to the rotation."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:660
+#: ../../source/editing_curves_and_numerical_columns.rst:667
 msgid "``scale`` , ``scaleh`` , ``scalev``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:660
+#: ../../source/editing_curves_and_numerical_columns.rst:667
 msgid "Refer to the global, horizontal and vertical scaling."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:661
+#: ../../source/editing_curves_and_numerical_columns.rst:668
 msgid "``shearh`` , ``shearv``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:661
+#: ../../source/editing_curves_and_numerical_columns.rst:668
 msgid "Refer to the horizontal and vertical shear."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:662
+#: ../../source/editing_curves_and_numerical_columns.rst:669
 msgid "``z``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:662
+#: ../../source/editing_curves_and_numerical_columns.rst:669
 msgid "Refers to the position along the z axis."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:666
-msgid ""
-"The syntax to create a reference to an effect transformation is the "
-"following:"
+#: ../../source/editing_curves_and_numerical_columns.rst:673
+msgid "The syntax to create a reference to an effect parameter is the following:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:668
-msgid "``fx.name.parameter``"
+#: ../../source/editing_curves_and_numerical_columns.rst:675
+msgid "``fx.name.parameter`` or ``fx.name.parameter(delta)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:670
+#: ../../source/editing_curves_and_numerical_columns.rst:677
 msgid ""
 "where ``name``  is the ID name of an *effect*, as can be read in the FX "
-"Schematic nodes' tooltips, and ``parameter`` is any of the available "
-"effect parameters."
+"Schematic nodes' tooltips, ``parameter`` is any of the available effect "
+"parameters, and ``delta`` is the difference between the target frame and "
+"the current one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:672
+#: ../../source/editing_curves_and_numerical_columns.rst:679
 msgid ""
 "When an effect parameter has multiple sub-parameters, for example the "
 "Center parameter has X and Y sub-parameters, the syntax has to be the "
 "following:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:674
-msgid "``fx.name.parameter.subparameter``"
-msgstr ""
-
-#: ../../source/editing_curves_and_numerical_columns.rst:676
+#: ../../source/editing_curves_and_numerical_columns.rst:681
 msgid ""
-"where ``name``  can be any used effect, ``parameter``  the main effect "
-"parameter, and ``subparameter``  is the effect sub-parameter."
-msgstr ""
-
-#: ../../source/editing_curves_and_numerical_columns.rst:678
-msgid ""
-"For example ``fx.blur2.value``  refers to the Value parameter of the "
-"effect Blur2; ``fx.raylit1.center.x``  refers to the X sub-parameter of "
-"the Center parameter of the effect Raylit1."
-msgstr ""
-
-#: ../../source/editing_curves_and_numerical_columns.rst:680
-msgid ""
-"If the effect parameter name consists of several words, they have to be "
-"typed in expressions without blank spaces."
+"``fx.name.parameter.subparameter`` or "
+"``fx.name.parameter.subparameter(delta)``"
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:683
+msgid ""
+"where ``name``  can be any used effect, ``parameter``  the main effect "
+"parameter, ``subparameter``  is the effect sub-parameter, and ``delta`` "
+"is the difference between the target frame and the current one."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:685
+msgid ""
+"For example ``fx.blur2.value``  refers to the Value parameter of the "
+"effect Blur2; ``fx.blur2.value(f-5)``  refers to the Value parameter of "
+"the effect Blur2, 5 frames before the current frame; and "
+"``fx.raylit1.center.x``  refers to the X sub-parameter of the Center "
+"parameter of the effect Raylit1."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:687
+msgid ""
+"If the effect parameter name consists of several words, they have to be "
+"typed in expressions *without* blank spaces."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:690
 msgid ""
 "The syntax to create a reference to a Plastic vertex transformation is "
 "the following:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:685
-msgid "``vertex(column_number, \"vertex_name\").parameter``"
+#: ../../source/editing_curves_and_numerical_columns.rst:692
+msgid ""
+"``vertex(column_number, \"vertex_name\").transformation`` or "
+"``vertex(column_number, \"vertex_name\").transformation(delta)``"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:687
+#: ../../source/editing_curves_and_numerical_columns.rst:694
 msgid ""
 "where ``column_number``  is the ID number of the *column* in which the "
 "referenced vertex exist, ``vertex_name``  is the exact name of the "
-"referenced Plastic vertex, and ``parameter``  is any of the available "
-"vertex parameters: ``angle``, ``distance`` or ``so``."
+"referenced Plastic vertex, ``transformation``  is any of the available "
+"vertex transformations (see below), and ``delta`` is the difference "
+"between the target frame and the current one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:689
+#: ../../source/editing_curves_and_numerical_columns.rst:697
+msgid "**Plastic Vertex Transformations**"
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:699
+msgid "``angle``"
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:699
+msgid "Refers to the angle between the vertex and its parent."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:700
+msgid "``distance``"
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:700
+msgid "Refers to the distance between the vertex and its parent."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:701
+msgid "``so``"
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:701
+msgid "Refers to the vertex sorting order."
+msgstr ""
+
+#: ../../source/editing_curves_and_numerical_columns.rst:704
 msgid ""
 "See :ref:`Use Mathematical Expression in Plastic Animation "
 "<use_mathematical_expression_in_plastic_animation>` for further details "
 "on animating a Plastic mesh using expressions."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:695
+#: ../../source/editing_curves_and_numerical_columns.rst:710
 msgid "Using Interpolations Based on File Data"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:697
+#: ../../source/editing_curves_and_numerical_columns.rst:712
 msgid "|function_editor_iFile|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:699
+#: ../../source/editing_curves_and_numerical_columns.rst:714
 msgid ""
 "When an interpolation is based on File data, the segment values are "
 "retrieved from the contents of a file. In this case the keyframes at both"
 " ends of the segment may change as well, according to the file data."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:701
+#: ../../source/editing_curves_and_numerical_columns.rst:716
 msgid ""
 "The file can be created by an external device or other applications, such"
 " as motion-control cameras or 3D software; supported file formats are "
 "BAT, DAT, RTF and TXT."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:703
+#: ../../source/editing_curves_and_numerical_columns.rst:718
 msgid ""
 "The value for each frame is taken from the file content, that must "
 "consist of a series of numbers listed in several lines."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:705
+#: ../../source/editing_curves_and_numerical_columns.rst:720
 msgid ""
 "In case the file contains several values in each line, it is possible to "
 "define which value in each line has to be used by specifying a column "
 "number. For example, if you have a file like this:"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:707
+#: ../../source/editing_curves_and_numerical_columns.rst:722
 msgid "100, 200, 300"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:709
+#: ../../source/editing_curves_and_numerical_columns.rst:724
 msgid "101, 201, 301"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:711
+#: ../../source/editing_curves_and_numerical_columns.rst:726
 msgid "102, 202, 302"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:713
+#: ../../source/editing_curves_and_numerical_columns.rst:728
 msgid "the value 2 will cause 200, 201, 202 to be loaded."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:715
+#: ../../source/editing_curves_and_numerical_columns.rst:730
 msgid ""
 "The unit used for the data is displayed in a box next to the file path; "
 "in case the unit refers to a movement, the default unit can be changed, "
 "and the values will be automatically converted to the default one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:717
+#: ../../source/editing_curves_and_numerical_columns.rst:732
 msgid "**To set an interpolation based on File data:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:721
+#: ../../source/editing_curves_and_numerical_columns.rst:736
 msgid ""
 "Choose **File** from the option menu available in the Interpolation area "
 "of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:723
+#: ../../source/editing_curves_and_numerical_columns.rst:738
 msgid ""
 "Right-click the curve segment you want to set the transformation for, and"
 " choose **File Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:725
+#: ../../source/editing_curves_and_numerical_columns.rst:740
 msgid "**To set the File information:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:727
+#: ../../source/editing_curves_and_numerical_columns.rst:742
 msgid ""
 "Type in the **File Path** field, or use the browser button, to set the "
 "path to the data file."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:729
+#: ../../source/editing_curves_and_numerical_columns.rst:744
 msgid ""
 "Specify which value in each line has to be used by specifying the "
 "**Column** number."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:731
+#: ../../source/editing_curves_and_numerical_columns.rst:746
 msgid "If the File data refers to a movement, change the unit if needed."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:733
+#: ../../source/editing_curves_and_numerical_columns.rst:748
 msgid ""
 "If in the Browser you choose any project default folder, in the path "
 "field the full path will be replaced by the related default folder alias "
 "(see  :ref:`Project Default Folders <project_default_folders>`  )."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:739
+#: ../../source/editing_curves_and_numerical_columns.rst:754
 msgid "Using Constant Interpolations"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:741
+#: ../../source/editing_curves_and_numerical_columns.rst:756
 msgid "|function_editor_iConst|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:743
+#: ../../source/editing_curves_and_numerical_columns.rst:758
 msgid ""
 "When an interpolation is **Constant**, the segment values are always "
 "equal to the value of the first key defining the segment."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:745
+#: ../../source/editing_curves_and_numerical_columns.rst:760
 msgid "**To set a Constant interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:749
+#: ../../source/editing_curves_and_numerical_columns.rst:764
 msgid ""
 "Choose **Constant** from the option menu available in the Interpolation "
 "area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:751
+#: ../../source/editing_curves_and_numerical_columns.rst:766
 msgid ""
 "Right-click the curve segment you want to set the interpolation for, and "
 "choose **Constant Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:757
+#: ../../source/editing_curves_and_numerical_columns.rst:772
 msgid "Using Interpolations Based on Similar Shapes"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:759
+#: ../../source/editing_curves_and_numerical_columns.rst:774
 msgid "|function_editor_iSimilar|"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:761
+#: ../../source/editing_curves_and_numerical_columns.rst:776
 msgid ""
 "When the interpolation is based on a Similar Shape, the segment values "
 "changes according to the shape of the curve you specify as reference (see"
@@ -1961,7 +2021,7 @@ msgid ""
 "accordingly."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:763
+#: ../../source/editing_curves_and_numerical_columns.rst:778
 msgid ""
 "This interpolation proves useful when you want to control at once several"
 " curves: if all of them share the same reference curve, by modifying the "
@@ -1969,34 +2029,34 @@ msgid ""
 " it."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:765
+#: ../../source/editing_curves_and_numerical_columns.rst:780
 msgid ""
 "It is also possible to set a **Frame Offset** value so that the "
 "interpolation will refer not to the same frame range of the reference "
 "curve, but to a different one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:767
+#: ../../source/editing_curves_and_numerical_columns.rst:782
 msgid "**To set an interpolation based on a Similar Shape:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:771
+#: ../../source/editing_curves_and_numerical_columns.rst:786
 msgid ""
 "Choose **Similar Shape** from the option menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:773
+#: ../../source/editing_curves_and_numerical_columns.rst:788
 msgid ""
 "Right-click the curve segment you want to set the transformation for, and"
 " choose **Similar Shape Interpolation** from the menu that opens."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:775
+#: ../../source/editing_curves_and_numerical_columns.rst:790
 msgid "**To set the reference curve:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:777
+#: ../../source/editing_curves_and_numerical_columns.rst:792
 msgid ""
 "Set the **Reference Curve:** in the Interpolation area of the Function "
 "Editor by typing the reference to an object or an effect transformation "
@@ -2004,18 +2064,18 @@ msgid ""
 "References <using_transformation_references>`  )."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:779
+#: ../../source/editing_curves_and_numerical_columns.rst:794
 msgid ""
 "Set a **Frame Offset** in the Interpolation area of the Function Editor "
 "if you want the interpolation to refer not to the same frame range of the"
 " reference curve, but to a different one."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:787
+#: ../../source/editing_curves_and_numerical_columns.rst:802
 msgid "Controlling Several Function Curves at the Same Time"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:788
+#: ../../source/editing_curves_and_numerical_columns.rst:803
 msgid ""
 "It's possible to control the keys and the interpolations of all the "
 "function curves visualized in the Function Editor by using widgets "
@@ -2023,14 +2083,14 @@ msgid ""
 "below the frame ruler."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:790
+#: ../../source/editing_curves_and_numerical_columns.rst:805
 msgid ""
 "This allows you to define keys and control the interpolation speed for "
 "different curves at the same time, such as a camera truck and pan, or an "
 "effect animation and a pegbar movement."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:792
+#: ../../source/editing_curves_and_numerical_columns.rst:807
 msgid ""
 "With respect to keys, a keyframe is visible in the strip for each "
 "keyframe defined for any curve visible in the Graph Editor; a line "
@@ -2040,7 +2100,7 @@ msgid ""
 " the same frame in several curves, all the keyframes will move along."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:794
+#: ../../source/editing_curves_and_numerical_columns.rst:809
 msgid ""
 "With respect to interpolation, if all the visible curves have a key at "
 "the same specific frame, and the segment on the side of the key has the "
@@ -2054,33 +2114,33 @@ msgid ""
 "refer to."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:796
+#: ../../source/editing_curves_and_numerical_columns.rst:811
 msgid "**To set which curves have to be controlled:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:798
+#: ../../source/editing_curves_and_numerical_columns.rst:813
 msgid ""
 "Display the curves in the Graph Editor (see  :ref:`Using the Graph Editor"
 " <using_function_curves>`  )."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:802
+#: ../../source/editing_curves_and_numerical_columns.rst:817
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) the frame ruler where you want to add "
 "the keyframe: a keyframe will be added to all the visible curves."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:806
+#: ../../source/editing_curves_and_numerical_columns.rst:821
 msgid ""
 "Click and drag the strip keyframe: all the keyframes it refers to will "
 "move along."
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:808
+#: ../../source/editing_curves_and_numerical_columns.rst:823
 msgid "**To control the speed of the interpolation:**"
 msgstr ""
 
-#: ../../source/editing_curves_and_numerical_columns.rst:810
+#: ../../source/editing_curves_and_numerical_columns.rst:825
 msgid "Move the markers visible on the sides of the strip keyframes."
 msgstr ""
 
@@ -3321,5 +3381,119 @@ msgstr ""
 #~ " at a specific step. The default "
 #~ "animation step can be set in the"
 #~ " Preferences > Animation window."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the *vertical strip* at the "
+#~ "left of column cells, and drag it"
+#~ " up or down to the new "
+#~ "position: the whole content moves along"
+#~ " the column."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Type a value in the **Value** text"
+#~ " box to add a key point at "
+#~ "the current frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the curve and choose "
+#~ "**Activate Cycle** from the menu that"
+#~ " opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move the vertical line setting the "
+#~ "Ease In or Ease Out section of "
+#~ "the segment, to change the curve "
+#~ "after or before the key point."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Move the vertical line setting the "
+#~ "Ease In or Ease Out section of "
+#~ "the curve segment, to change the "
+#~ "curve after or before the key "
+#~ "point."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The predefined function ``saw`` , "
+#~ "``wave``  and ``pulse``  use implicitly "
+#~ "a variable independent from the frame"
+#~ " number. You can provide explicitly a"
+#~ " variable using the form: fun (var;"
+#~ " argument...)."
+#~ msgstr ""
+
+#~ msgid "``object.transformation``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "where ``object``  is the ID name "
+#~ "of a *camera*, *column*, *pegbar* or "
+#~ "the *table*, as can be read in "
+#~ "the Stage and FX Schematic nodes' "
+#~ "tooltips; and ``transformation`` can be "
+#~ "any of its available transformations."
+#~ msgstr ""
+
+#~ msgid "For example ``camera1.ns``  refers to the N/S position of the Camera1."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The syntax to create a reference "
+#~ "to an effect transformation is the "
+#~ "following:"
+#~ msgstr ""
+
+#~ msgid "``fx.name.parameter``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "where ``name``  is the ID name of"
+#~ " an *effect*, as can be read in"
+#~ " the FX Schematic nodes' tooltips, "
+#~ "and ``parameter`` is any of the "
+#~ "available effect parameters."
+#~ msgstr ""
+
+#~ msgid "``fx.name.parameter.subparameter``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "where ``name``  can be any used "
+#~ "effect, ``parameter``  the main effect "
+#~ "parameter, and ``subparameter``  is the "
+#~ "effect sub-parameter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example ``fx.blur2.value``  refers to "
+#~ "the Value parameter of the effect "
+#~ "Blur2; ``fx.raylit1.center.x``  refers to the"
+#~ " X sub-parameter of the Center "
+#~ "parameter of the effect Raylit1."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the effect parameter name consists"
+#~ " of several words, they have to "
+#~ "be typed in expressions without blank"
+#~ " spaces."
+#~ msgstr ""
+
+#~ msgid "``vertex(column_number, \"vertex_name\").parameter``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "where ``column_number``  is the ID "
+#~ "number of the *column* in which "
+#~ "the referenced vertex exist, ``vertex_name``"
+#~ "  is the exact name of the "
+#~ "referenced Plastic vertex, and ``parameter``"
+#~ "  is any of the available vertex "
+#~ "parameters: ``angle``, ``distance`` or ``so``."
 #~ msgstr ""
 

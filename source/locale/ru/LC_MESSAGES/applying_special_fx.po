@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 11:54+0800\n"
+"POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:18
 msgid ""
 "When effects are added, they are displayed as nodes as well, with ports "
-"to create links that let you set the way the FX affect the scene "
+"to create links that let you set the way the effect modify the scene "
 "contents."
 msgstr ""
 
@@ -70,7 +70,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:22
 msgid ""
 "Nodes can be easily selected and arranged. When selected, nodes are "
-"highlighted in white; the current node has its label in yellow."
+"highlighted in *white*; the *current* node has its label in *yellow*."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:24
@@ -110,7 +110,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:424
 #: ../../source/applying_special_fx.rst:464
 #: ../../source/applying_special_fx.rst:506
-#: ../../source/applying_special_fx.rst:598
+#: ../../source/applying_special_fx.rst:600
 msgid "Do one of the following:"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:64
 msgid ""
-"Ctrl-click (PC) or Cmd-click (Mac) to add a node to, or remove it from "
+"Ctrl-click (PC) or Cmd-click (macOS) to add a node to, or remove it from "
 "the selection."
 msgstr ""
 
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:89
-msgid "Press the **Ctrl + G** (PC) or **Cmd + G** (Mac) shortcut."
+msgid "Press the **Ctrl-G** (PC) or **Cmd-G** (macOS) shortcut."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:91
@@ -278,8 +278,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:103
 msgid ""
 "Right-click the Group and choose **Ungroup** from the menu that opens, or"
-" press the shortcut **Ctrl + Shift + G** (PC) or **Cmd + Shift + G** "
-"(Mac)."
+" press the shortcut **Ctrl-Shift-G** (PC) or **Cmd-Shift-G** (macOS)."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:109
@@ -313,8 +312,8 @@ msgstr ""
 msgid ""
 "In case several nodes are selected, the effect will be added/inserted for"
 " *each* selected node, but all the added/inserted effects will be "
-"*Linked*, and connected visually by a dashed line. This means that every "
-"time the effect is edited, all the linked nodes will be edited as well, "
+"*Linked*, and connected visually by a *green* line. This means that every"
+" time the effect is edited, all the linked nodes will be edited as well, "
 "unless you break the link to start editing them separately."
 msgstr ""
 
@@ -390,10 +389,11 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:138
 msgid ""
 "**Effects that create computer generated images**, such as the Radial "
-"Gradient, that are exposed in Xsheet columns and therefore are similar to"
-" columns; they are displayed with an orange node with only an output port"
-" on the right. These effect nodes have to be connected to the Xsheet node"
-" to be rendered, or can be connected to other effect nodes."
+"Gradient, that are exposed in Xsheet columns (and Timeline layers) and "
+"therefore are similar to columns; they are displayed with an orange node "
+"with only an output port on the right. These effect nodes have to be "
+"connected to the Xsheet node to be rendered, or can be connected to other"
+" effect nodes."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:140
@@ -405,7 +405,7 @@ msgid "**To open the FX Browser:**"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:146
-msgid "Choose Xsheet  →  **New FX**."
+msgid "Choose Xsheet  →  **New FX...**"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:148
@@ -506,7 +506,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:192
 msgid ""
-"**Ctrl + double-click** (PC) or **Cmd + double-click** (Mac) the node "
+"**Ctrl + double-click** (PC) or **Cmd + double-click** (macOS) the node "
 "name and type a new name."
 msgstr ""
 
@@ -558,7 +558,7 @@ msgid "When pasting a copied/cut selection, several options are available:"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:211
-msgid "Use **Paste** to paste the copied/cut selection into the FX Schematic"
+msgid "Use **Paste** to paste the copied/cut selection into the FX Schematic."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:213
@@ -609,8 +609,8 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:233
 msgid ""
-"Ctrl-click (PC) or Cmd-click (Mac) to add a node or a link to, or remove "
-"it from the selection."
+"Ctrl-click (PC) or Cmd-click (macOS) to add a node or a link to, or "
+"remove it from the selection."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:235
@@ -777,8 +777,8 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:308
 msgid ""
 "When more than one Output node is defined, you can set which is the "
-"active one (the one that will be considered for previewing or rendering "
-"the scene); the active output node is displayed in *blue*, while the "
+"*active* one (the one that will be considered for previewing or rendering"
+" the scene); the active output node is displayed in *blue*, while the "
 "others in *grey*."
 msgstr ""
 
@@ -807,8 +807,8 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:326
 msgid ""
-"Right-click in the stage and choose **New Output** from the menu that "
-"opens."
+"Right-click in the schematic and choose **New Output** from the menu that"
+" opens."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:328
@@ -870,9 +870,9 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:356
 msgid ""
-"Parameters can be animated by setting key values at specific frames. A "
+"Parameters can be animated by setting keyframes at specific frames. A "
 "**Set Key** button (|key|) is available in the preview area, at the "
-"bottom bar of the window, to set key values for *all* of the parameters. "
+"bottom bar of the window, to set keyframes for *all* of the parameters. "
 "For each of the parameters that can be animated there is also a specific "
 "**Set Key** button (|key|) to the right of the parameter name, in order "
 "to set keyframes for each parameter independently."
@@ -884,18 +884,18 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:360
 msgid ""
-"It is **grey** when no key values for any parameter is defined at the "
+"It is **grey** when no keyframes for any parameter is defined at the "
 "current frame."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:362
 msgid ""
-"It is **blue-striped** when key values are defined at least for one "
+"It is **blue-striped** when keyframes are defined at least for one "
 "parameter."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:364
-msgid "It is **blue** when key values are defined for all the parameters."
+msgid "It is **blue** when keyframes are defined for all the parameters."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:366
@@ -952,8 +952,8 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:386
 msgid ""
-"Right-click the effect node, and choose **Edit FX** from the menu that "
-"opens."
+"Right-click the effect node, and choose **Edit FX...** from the menu that"
+" opens."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:388
@@ -981,11 +981,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:400
-msgid "Move the current frame cursor in the Xsheet or in the Function Editor."
+msgid ""
+"Move the current frame cursor in the Xsheet/Timeline or in the Function "
+"Editor."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:402
-msgid "Use the frame bar or the playback buttons in the bottom bar of the viewer."
+msgid "Use the frame bar or the playback buttons in the bottom bar of the Viewer."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:404
@@ -995,14 +997,15 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:408
 msgid ""
 "If the current frame is not a key, click the **Set Key** button (|key|) "
-"in the bottom bar of the window: it turns from grey to blue and current "
-"values become keyframes for all the parameters at the current frame."
+"in the bottom bar of the window: it turns from *grey* to *blue* and "
+"current values become keyframes for all the parameters at the current "
+"frame."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:410
 msgid ""
 "If the current frame is a keyframe for some parameters only, click the "
-"**Set Key** button (|key|): it turns from blue striped to blue and "
+"**Set Key** button (|key|): it turns from *blue-striped* to *blue* and "
 "current values become keyframes for all the parameters at the current "
 "frame."
 msgstr ""
@@ -1019,8 +1022,8 @@ msgstr ""
 msgid ""
 "If the current frame does not have a keyframe for the parameter, click "
 "the squared **Set Key** button (|key|) to the right of the parameter: it "
-"turns from grey to orange, and the current value becomes a keyframe for "
-"the parameter at the current frame."
+"turns from *grey* to *orange*, and the current value becomes a keyframe "
+"for the parameter at the current frame."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:418
@@ -1031,7 +1034,7 @@ msgstr ""
 msgid ""
 "If the current frame is not a keyframe for the parameter, and you changed"
 " it, the **Set Key** button (|key|) to the right of the parameter turns "
-"yellow. Click it to set the key."
+"*yellow*. Click it to set the key."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:422
@@ -1043,16 +1046,16 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:426
 msgid ""
 "If the keyframes are set for all the parameters, click the **Set Key** "
-"button (|key|) in the bottom bar of the window: it turns from blue to "
-"grey."
+"button (|key|) in the bottom bar of the window: it turns from *blue* to "
+"*grey*."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:428
 msgid ""
 "If the keyframes are set for some parameters only, click twice the **Set "
 "Key** button (|key|) in the bottom bar of the window: with the first "
-"click it turns from blue-striped to blue (as you set keys for all the "
-"parameters); with the second click, it turns from blue to grey."
+"click it turns from *blue-striped* to *blue* (as you set keys for all the"
+" parameters); with the second click, it turns from *blue* to *grey*."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:430
@@ -1062,7 +1065,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:432
 msgid ""
 "Click the **Set Key** button (|key|) to the right of the parameter: it "
-"turns from grey to orange."
+"turns from *grey* to *orange*."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:434
@@ -1076,12 +1079,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:438
-msgid "**To activate/deactivate the preview area:**"
+msgid "**To activate/deactivate the preview:**"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:440
 #: ../../source/applying_special_fx.rst:448
-#: ../../source/applying_special_fx.rst:553
+#: ../../source/applying_special_fx.rst:555
 msgid "Do any of the following:"
 msgstr ""
 
@@ -1118,7 +1121,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:456
-msgid "The A/R of the preview area depends on the A/R of the current camera"
+msgid "The A/R of the preview area depends on the A/R of the current camera."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:458
@@ -1149,7 +1152,7 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:477
 msgid ""
 "Some effects parameters related to positions or dimensions have some "
-"gadgets available in the viewer in order to be set by using the camera "
+"gadgets available in the Viewer in order to be set by using the camera "
 "box and the scene elements as a reference. For example the Radial "
 "Gradient effect has two circular gadgets that can be edited to set the "
 "inner size and the outer size of the gradient."
@@ -1167,7 +1170,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:481
-msgid "**To visualize effects gadgets in the viewer:**"
+msgid "**To visualize effects gadgets in the Viewer:**"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:483
@@ -1180,7 +1183,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:487
 msgid ""
-"Click and drag the effects gadgets visible in the viewer. As you roll "
+"Click and drag the effects gadgets visible in the Viewer. As you roll "
 "over the gadget and the related handles, the cursor changes shape to "
 "indicate you are editing an effect gadget."
 msgstr ""
@@ -1301,69 +1304,78 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:541
 msgid ""
+"Currently the statement above if not true, as by default presets are "
+"being saved in ``OpenToonz stuff\\fxs\\presets``. On Windows it can be "
+"changed to any other path by going to the registry and changing the "
+"``System\\HKEY_LOCAL_MACHINE\\SOFTWARE\\OpenToonz\\OpenToonz\\TOONZFXPRESETS``"
+" key to the desired location."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:543
+msgid ""
 "Once a preset is applied there is no link between the *saved preset* and "
 "the *applied preset*: the applied preset can be edited without affecting "
 "the saved one."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:543
+#: ../../source/applying_special_fx.rst:545
 msgid ""
 "When you save a preset with a name already used, a confirmation dialog "
 "will open, asking you whether you want to overwrite the previously saved "
 "preset."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:545
+#: ../../source/applying_special_fx.rst:547
 msgid "**To save a preset:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:547
+#: ../../source/applying_special_fx.rst:549
 msgid ""
 "Right-click the effect node you want to save as a preset and choose "
 "**Save As Preset** from the menu that opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:549
+#: ../../source/applying_special_fx.rst:551
 msgid "Assign a name to the preset and click the **Save** button."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:551
+#: ../../source/applying_special_fx.rst:553
 msgid "**To retrieve a saved preset:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:555
+#: ../../source/applying_special_fx.rst:557
 msgid ""
 "Open the **FX Browser** and open the folder related to the effect for "
 "which you saved the preset."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:557
+#: ../../source/applying_special_fx.rst:559
 msgid ""
 "In the right-click menus **Insert FX**, **Add FX** or **Replace FX**, "
 "choose the sub-menu related to the effect for which you saved the preset."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:559
+#: ../../source/applying_special_fx.rst:561
 msgid "**To remove a preset from the FX Browser:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:561
+#: ../../source/applying_special_fx.rst:563
 msgid ""
 "Right-click the preset in the FX Browser and choose **Remove Preset** "
 "from the menu that opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:567
+#: ../../source/applying_special_fx.rst:569
 msgid "Creating Macro FX"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:568
+#: ../../source/applying_special_fx.rst:570
 msgid ""
 "Effects can be combined to create a *macro effect* that can be saved and "
 "retrieved when needed."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:570
+#: ../../source/applying_special_fx.rst:572
 msgid ""
 "When a macro effect is defined, you can edit its settings either in the "
 "standard way with the FX Settings window that contains a tab for each "
@@ -1371,186 +1383,186 @@ msgid ""
 "effect at a time."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:572
+#: ../../source/applying_special_fx.rst:574
 msgid ""
 "A macro effect can be opened also to check how the effect nodes are "
 "connected, and can be exploded to dissolve it and put its effect nodes "
 "back in the Schematic."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:574
+#: ../../source/applying_special_fx.rst:576
 msgid ""
 "When saved, the macro effect will be available in the FX Browser and in "
 "the drop-down menus that open when right-clicking nodes or in the "
 "Schematic area, inside the **Macro** folder, at the bottom of the list."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:576
+#: ../../source/applying_special_fx.rst:578
 msgid "**To create a macro effect:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:578
+#: ../../source/applying_special_fx.rst:580
 msgid "Select the effect nodes you want to combine to create the macro effect."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:580
+#: ../../source/applying_special_fx.rst:582
 msgid ""
 "Right-click the selection and select **Make Macro FX** from the menu that"
 " opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:582
+#: ../../source/applying_special_fx.rst:584
 msgid "**To open a macro effect:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:584
+#: ../../source/applying_special_fx.rst:586
 msgid ""
 "Right-click the macro node and choose **Open Macro FX** from the menu "
 "that opens: the macro nodes are displayed in a box, with the right links "
 "to the rest of the schematic."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:586
+#: ../../source/applying_special_fx.rst:588
 msgid ""
 "When the content of a macro is displayed *it is not* possible to edit the"
 " links between macro nodes and links with nodes outside the macro."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:588
+#: ../../source/applying_special_fx.rst:590
 msgid "**To close a macro effect:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:590
+#: ../../source/applying_special_fx.rst:592
 msgid "Click the **Close** button on the right of the macro box bar."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:592
+#: ../../source/applying_special_fx.rst:594
 msgid "**To release a macro effect:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:594
+#: ../../source/applying_special_fx.rst:596
 msgid ""
 "Right-click the macro node and choose **Explode Macro FX** from the menu "
 "that opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:596
+#: ../../source/applying_special_fx.rst:598
 msgid "**To edit a macro effect:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:600
+#: ../../source/applying_special_fx.rst:602
 msgid ""
-"Right-click the macro node and choose **Edit FX** from the menu that "
+"Right-click the macro node and choose **Edit FX...** from the menu that "
 "opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:602
+#: ../../source/applying_special_fx.rst:604
 msgid ""
 "Right-click the macro node and choose **Open Macro FX** from the menu "
 "that opens, then edit the macro effect nodes."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:604
+#: ../../source/applying_special_fx.rst:606
 msgid "**To save a macro effect:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:606
+#: ../../source/applying_special_fx.rst:608
 msgid ""
 "Right click the macro effect node you want to save and choose **Save As "
 "Preset** from the menu that opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:608
+#: ../../source/applying_special_fx.rst:610
 msgid "Assign a name to the macro effect and click the **Save** button."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:610
+#: ../../source/applying_special_fx.rst:612
 msgid "**To remove a macro effect from the FX Browser:**"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:612
+#: ../../source/applying_special_fx.rst:614
 msgid ""
 "Right-click the macro effect in the FX Browser and choose **Remove Macro "
 "FX** from the menu that opens."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:621
+#: ../../source/applying_special_fx.rst:623
 msgid "Effects List"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:627
+#: ../../source/applying_special_fx.rst:629
 msgid "Background"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:632
+#: ../../source/applying_special_fx.rst:634
 msgid "Checkerboard"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:633
-msgid "|Checkerboard|"
-msgstr ""
-
 #: ../../source/applying_special_fx.rst:635
-msgid ""
-"Creates in the selected column a layer with a checkerboard defined by two"
-" Colors, and a grid Size."
+msgid "|Checkerboard|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:637
 msgid ""
-"The grid size can also be set by using a square gadget with a handle in "
-"the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"Creates a new column/layer containing a checkerboard defined by two "
+"Colors, and a grid Size."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:642
+#: ../../source/applying_special_fx.rst:639
+msgid ""
+"The grid size can also be set by using a square gadget with a handle in "
+"the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:644
 msgid "Color Card"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:643
+#: ../../source/applying_special_fx.rst:645
 msgid "|Color_Card|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:645
+#: ../../source/applying_special_fx.rst:647
 msgid ""
-"Creates in the selected column a layer of the set Color. It can be used, "
-"for example, as a background color or to create a colorize effect by "
-"applying it combined with a multiply effect."
+"Creates a new column/layer containing the set Color. It can be used, for "
+"example, as a background color or to create a colorize effect by applying"
+" it combined with a multiply effect."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:650
+#: ../../source/applying_special_fx.rst:652
 msgid "Kaleido"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:651
+#: ../../source/applying_special_fx.rst:653
 msgid "|Kaleido|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:653
+#: ../../source/applying_special_fx.rst:655
 msgid "Repeats the Source generating a kaleidoscopic effect."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:655
+#: ../../source/applying_special_fx.rst:657
 msgid ""
 "The center of the effect can be defined interactively, moving the small "
 "red cross widget in the preview area, or writing the desired values in "
 "the X and Y text fields."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:657
+#: ../../source/applying_special_fx.rst:659
 msgid ""
 "The angle of reflection, and the number of iterations can be set in the "
 "appropriate input text fields (Angle and Count)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:662
+#: ../../source/applying_special_fx.rst:664
 msgid "Tile"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:663
+#: ../../source/applying_special_fx.rst:665
 msgid "|Tile|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:665
+#: ../../source/applying_special_fx.rst:667
 msgid ""
 "Repeats the Source content in order to define a larger image: the Tile "
 "mode forms a pattern that completely fills the camera shot, the Tile "
@@ -1558,7 +1570,7 @@ msgid ""
 " repeats the source content vertically."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:667
+#: ../../source/applying_special_fx.rst:669
 msgid ""
 "The Mirror Horizontally and Mirror Vertically options repeat the tiles by"
 " flipping them respectively in the horizontal and vertical directions; If"
@@ -1566,81 +1578,81 @@ msgid ""
 "directions."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:669
+#: ../../source/applying_special_fx.rst:671
 msgid ""
 "The Margin value sets the size of a margin around each tile, with "
 "positive values adding some space around the tiles, and negative values "
 "collapsing them."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:675
-#: ../../source/applying_special_fx.rst:678
+#: ../../source/applying_special_fx.rst:677
+#: ../../source/applying_special_fx.rst:680
 msgid "Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:679
+#: ../../source/applying_special_fx.rst:681
 msgid "|Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:681
+#: ../../source/applying_special_fx.rst:683
 msgid ""
 "Softens the Source content, creating an out of focus effect, according to"
 " a specific Intensity."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:686
+#: ../../source/applying_special_fx.rst:688
 msgid "Directional Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:687
+#: ../../source/applying_special_fx.rst:689
 msgid "|Directional_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:689
+#: ../../source/applying_special_fx.rst:691
 msgid ""
 "Blurs the Source content according to a specific Intensity along a "
 "specific direction defined by the Angle."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:691
+#: ../../source/applying_special_fx.rst:693
 msgid ""
 "The Bidirectional option applies the blur also on the other side of the "
 "direction."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:693
+#: ../../source/applying_special_fx.rst:695
 msgid ""
 "The intensity and the angle can also be set by using an arrow gadget with"
-" a handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`"
+" a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`"
 "  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:695
+#: ../../source/applying_special_fx.rst:697
 msgid ""
 "The directional blur does not depend on the movement and the speed of the"
 " column to which it is applied."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:700
+#: ../../source/applying_special_fx.rst:702
 msgid "Local Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:701
+#: ../../source/applying_special_fx.rst:703
 msgid "|Local_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:703
+#: ../../source/applying_special_fx.rst:705
 msgid ""
 "Blurs the Source content according to the brightness value of the node "
 "content connected to the Reference input handle. The Intensity value "
 "amplifies uniformly the blur given by the Reference node content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:708
+#: ../../source/applying_special_fx.rst:710
 msgid "Motion Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:709
+#: ../../source/applying_special_fx.rst:711
 msgid ""
 "Creates a motion-blur effect, according to the movement of the Source "
 "content in the previous and current frame. The movement has to be defined"
@@ -1648,7 +1660,7 @@ msgid ""
 "visible the effect."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:711
+#: ../../source/applying_special_fx.rst:713
 msgid ""
 "If the movement is constant between consecutive frames, you can increase "
 "or decrease the Intensity to have a more or less visible effect. If there"
@@ -1656,46 +1668,46 @@ msgid ""
 "blur will be visible even though you may have set a high Intensity."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:713
+#: ../../source/applying_special_fx.rst:715
 msgid ""
 "No result will be visible if the motion blur is applied to a column that "
 "always stands in the same position while the content is a level where the"
 " movement is drawn."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:718
+#: ../../source/applying_special_fx.rst:720
 msgid "Radial Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:719
+#: ../../source/applying_special_fx.rst:721
 msgid "|Radial_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:721
+#: ../../source/applying_special_fx.rst:723
 msgid ""
 "Blurs along radial lines whose origin is the set Center, defined by "
 "horizontal (X) and vertical (Y) coordinates, starting from an unaffected "
 "inner area defined by the Radius."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:723
-#: ../../source/applying_special_fx.rst:733
+#: ../../source/applying_special_fx.rst:725
+#: ../../source/applying_special_fx.rst:735
 msgid ""
 "The center and the radius can be also set by using a point and a circle "
-"gadget with a handle in the viewer (see  :ref:`Using FX Gadgets "
+"gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets "
 "<using_fx_gadgets>`  ); the center can be set in the FX Settings preview "
 "as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:728
+#: ../../source/applying_special_fx.rst:730
 msgid "Spin Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:729
+#: ../../source/applying_special_fx.rst:731
 msgid "|Spin_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:731
+#: ../../source/applying_special_fx.rst:733
 msgid ""
 "Blurs along concentric circular lines as if the Source content turns "
 "around the set Center, defined by horizontal (X) and vertical (Y) "
@@ -1703,19 +1715,19 @@ msgid ""
 "Radius."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:739
+#: ../../source/applying_special_fx.rst:741
 msgid "Distort"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:744
+#: ../../source/applying_special_fx.rst:746
 msgid "Free Distort"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:745
+#: ../../source/applying_special_fx.rst:747
 msgid "|Free_Distort|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:747
+#: ../../source/applying_special_fx.rst:749
 msgid ""
 "Distorts the Source content according to the position of four points, "
 "defined by horizontal (X) and vertical (Y) coordinates. For each point "
@@ -1723,7 +1735,7 @@ msgid ""
 "feature of the image will be distorted to the new position."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:749
+#: ../../source/applying_special_fx.rst:751
 msgid ""
 "The Mode option menu lets you set the way the distortion is applied: "
 "Bilinear distorts the images according to the four points end positions, "
@@ -1731,72 +1743,72 @@ msgid ""
 "plane."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:751
+#: ../../source/applying_special_fx.rst:753
 msgid ""
 "To better set the origin position for each point, you can use the "
 "Deactivate option that lets you see the image without distortion."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:753
+#: ../../source/applying_special_fx.rst:755
 msgid ""
 "The position of the four points and their origins can be also set by "
-"using arrow gadgets with handles at the ends in the viewer (see  "
+"using arrow gadgets with handles at the ends in the Viewer (see  "
 ":ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings "
 "preview as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:758
+#: ../../source/applying_special_fx.rst:760
 msgid "Linear Wave"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:759
-msgid "|Linear_Wave|"
-msgstr ""
-
 #: ../../source/applying_special_fx.rst:761
-msgid ""
-"Distorts the Source content creating a wave effect that uses an "
-"automatically generated displacement map image. The Quantity value sets "
-"the number of waves; the Period sets the distance between waves; the "
-"Cycle shifts distortion in the wave direction."
+msgid "|Linear_Wave|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:763
 msgid ""
-"You can also add a Distortion Wave on the main linear waves: the "
-"Amplitude sets the intensity of the distortion; the Frequency sets the "
-"number of waves creating the distortion; the Phase shifts the distorting "
-"waves."
+"Distorts the Source content creating a wave effect that uses an "
+"automatically generated displacement map image. The Quantity value sets "
+"the number of waves; the Period sets the distance between waves; the "
+"Phase shifts distortion in the wave direction."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:765
-msgid "A rotation for the whole wave effect can be set by using the Angle value."
+msgid ""
+"You can also add a Transverse Wave on the main linear waves: the "
+"Amplitude sets the intensity of the distortion; the Frequency sets the "
+"number of waves creating the distortion; the Cycle shifts the distorting "
+"waves."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:767
-#: ../../source/applying_special_fx.rst:795
-#: ../../source/applying_special_fx.rst:809
-msgid ""
-"The amount of distortion is controlled by the Intensity value; the  of "
-"the distortion, by the Size of the displacement map grid; the sharpen "
-"option allows you to decrease the blur on the final result."
+msgid "A rotation for the whole wave effect can be set by using the Angle value."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:772
+#: ../../source/applying_special_fx.rst:769
+#: ../../source/applying_special_fx.rst:797
+#: ../../source/applying_special_fx.rst:811
+msgid ""
+"The amount of distortion is controlled by the Intensity value; the detail"
+" of the distortion, by the Sensitivity parameter; the Sharpen option "
+"allows you to decrease the blur on the final result."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:774
 msgid "Perlin Noise"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:773
+#: ../../source/applying_special_fx.rst:775
 msgid "|Perlin_Noise|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:775
+#: ../../source/applying_special_fx.rst:777
 msgid ""
 "Distorts the Source content by using a computer-generated displacement "
 "map image whose type can be chosen between Clouds and Marble/Wood."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:777
+#: ../../source/applying_special_fx.rst:779
 msgid ""
 "The amount of distortion is controlled by the Intensity value; the , by "
 "the Size of the displacement map grid. The Horizontal and Vertical "
@@ -1806,27 +1818,27 @@ msgid ""
 "the animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:779
+#: ../../source/applying_special_fx.rst:781
 msgid ""
 "The Alpha option adds also a transparency displacement to fully-opaque "
 "images."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:781
+#: ../../source/applying_special_fx.rst:783
 msgid ""
 "The horizontal and vertical offset can also be set by using a point "
-"gadget in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:786
+#: ../../source/applying_special_fx.rst:788
 msgid "Random Wave"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:787
+#: ../../source/applying_special_fx.rst:789
 msgid "|Random_Wave|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:789
+#: ../../source/applying_special_fx.rst:791
 msgid ""
 "Distorts the Source content creating a random wave effect that uses an "
 "automatically generated displacement map image. It can be used, for "
@@ -1834,8 +1846,8 @@ msgid ""
 "view."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:791
-#: ../../source/applying_special_fx.rst:1593
+#: ../../source/applying_special_fx.rst:793
+#: ../../source/applying_special_fx.rst:1603
 msgid ""
 "The stage of the displacement map image can be controlled by using the "
 "Evolution value; by setting the variation of this value between two keys,"
@@ -1843,29 +1855,29 @@ msgid ""
 "animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:793
+#: ../../source/applying_special_fx.rst:795
 msgid ""
 "The position of the displacement map image can be shifted along the "
 "Horizontal and the Vertical axis. By setting the variation of this value "
 "between two keys, the distortion effect can be animated in any direction."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:797
+#: ../../source/applying_special_fx.rst:799
 msgid ""
 "The position along the horizontal and vertical axis can also be set by "
-"using a point gadget in the viewer (see  :ref:`Using FX Gadgets "
+"using a point gadget in the Viewer (see  :ref:`Using FX Gadgets "
 "<using_fx_gadgets>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:802
+#: ../../source/applying_special_fx.rst:804
 msgid "Ripple"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:803
+#: ../../source/applying_special_fx.rst:805
 msgid "|Ripple|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:805
+#: ../../source/applying_special_fx.rst:807
 msgid ""
 "Distorts the Source content creating a circular wave effect that uses an "
 "automatically generated displacement map image. The Quantity value sets "
@@ -1874,137 +1886,137 @@ msgid ""
 "expanding the ripples, and decreasing values collapsing them."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:807
+#: ../../source/applying_special_fx.rst:809
 msgid ""
 "The Center of the circular waves can be set with a Horizontal and "
 "Vertical value; circular waves can be scaled in the Horizontal and "
 "Vertical directions, and rotated according to a set Angle."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:811
+#: ../../source/applying_special_fx.rst:813
 msgid ""
 "The center and the period can be also set by using a point and a circle "
-"gadget with a handle in the viewer (see  :ref:`Using FX Gadgets "
+"gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets "
 "<using_fx_gadgets>`  ); the center can be set in the FX Settings preview "
 "as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:816
+#: ../../source/applying_special_fx.rst:818
 msgid "Warp"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:817
+#: ../../source/applying_special_fx.rst:819
 msgid "|Warp|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:819
+#: ../../source/applying_special_fx.rst:821
 msgid ""
 "Distorts the Source content according to the brightness variation of the "
 "node content connected to the Warper input handle, that is used as a "
 "displacement map image affecting the Source content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:821
+#: ../../source/applying_special_fx.rst:823
 msgid ""
-"The amount of distortion is controlled by the Intensity value; the  of "
-"the warp, by the Size of the displacement map grid; the sharpen option "
-"allows you to decrease the blur on the final result."
+"The amount of distortion is controlled by the Intensity value; the detail"
+" of the warp, by the Size of the displacement map grid; the Sharpen "
+"option allows you to decrease the blur on the final result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:827
+#: ../../source/applying_special_fx.rst:829
 msgid "Gradients"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:832
+#: ../../source/applying_special_fx.rst:834
 msgid "Diamond Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:833
-msgid "|Diamond_Gradient|"
-msgstr ""
-
 #: ../../source/applying_special_fx.rst:835
-msgid ""
-"Creates in the selected column a gradient, that goes hyperbolically from "
-"the center to the four corners, defined by a color spectrum (see  "
-":ref:`Defining Colors and Color Spectrums "
-"<defining_colors_and_color_spectrums>`  ) and a Size value."
+msgid "|Diamond_Gradient|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:837
 msgid ""
-"The size can also be set by using a circle gadget with a handle in the "
-"viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"Creates a new column/layer containing a gradient, that goes "
+"hyperbolically from the center to the four corners, defined by a color "
+"spectrum (see  :ref:`Defining Colors and Color Spectrums "
+"<defining_colors_and_color_spectrums>`  ) and a Size value."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:842
+#: ../../source/applying_special_fx.rst:839
+msgid ""
+"The size can also be set by using a circle gadget with a handle in the "
+"Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:844
 msgid "Four Points Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:843
-msgid "|Four_Points_Gradient|"
-msgstr ""
-
 #: ../../source/applying_special_fx.rst:845
-msgid ""
-"Creates in the selected column a gradient defined by four Colors, defined"
-" by Red, Green, Blue and Alpha values, whose source Points can be placed "
-"where needed defining horizontal (X) and vertical (Y) coordinates."
+msgid "|Four_Points_Gradient|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:847
 msgid ""
-"The source points can also be set by using point gadgets in the viewer "
+"Creates a new column/layer containing a gradient defined by four Colors, "
+"defined by Red, Green, Blue and Alpha values, whose source Points can be "
+"placed where needed defining horizontal (X) and vertical (Y) coordinates."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:849
+msgid ""
+"The source points can also be set by using point gadgets in the Viewer "
 "(see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX "
 "Settings preview as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:852
+#: ../../source/applying_special_fx.rst:854
 msgid "Linear Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:853
+#: ../../source/applying_special_fx.rst:855
 msgid "|Linear_Gradient|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:855
+#: ../../source/applying_special_fx.rst:857
 msgid ""
-"Creates in the selected column a gradual blend between two Colors defined"
-" by Red, Green, Blue and Alpha values. The Size controls the area of the "
-"gradient between the two colors."
+"Creates a new column/layer containing a gradual blend between two Colors "
+"defined by Red, Green, Blue and Alpha values. The Size controls the area "
+"of the gradient between the two colors."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:857
+#: ../../source/applying_special_fx.rst:859
 msgid ""
 "You can also add a Distortion Wave on the linear gradient: the Amplitude "
 "sets the intensity of the distortion; the Frequency sets the number of "
 "waves creating the distortion; the Phase shifts the distorting waves."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:859
+#: ../../source/applying_special_fx.rst:861
 msgid ""
 "The size can also be set by using a gadget with two handles at the ends "
-"in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:864
+#: ../../source/applying_special_fx.rst:866
 msgid "Multi Linear Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:865
+#: ../../source/applying_special_fx.rst:867
 msgid "|Multi_Linear_Gradient|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:867
+#: ../../source/applying_special_fx.rst:869
 msgid ""
-"Creates in the selected column a multi linear gradient defined by a color"
-" spectrum (see  :ref:`Defining Colors and Color Spectrums "
+"Creates a new column/layer containing a multi linear gradient defined by "
+"a color spectrum (see  :ref:`Defining Colors and Color Spectrums "
 "<defining_colors_and_color_spectrums>`  ). The Period value sets the size"
 " of a spectrum gradient; the Quantity is the number of times the spectrum"
 " is repeated; the Phase shifts the gradient colors."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:869
+#: ../../source/applying_special_fx.rst:871
 msgid ""
 "You can also add a Wave distortion on the multi linear gradient: the "
 "Amplitude sets the intensity of the distortion; the Frequency sets the "
@@ -2012,108 +2024,108 @@ msgid ""
 "waves."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:871
+#: ../../source/applying_special_fx.rst:873
 msgid ""
 "The period can also be set by using a gadget with two handles at the ends"
-" in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )"
+" in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:876
+#: ../../source/applying_special_fx.rst:878
 msgid "Multi Radial Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:877
+#: ../../source/applying_special_fx.rst:879
 msgid "|Multi_Radial_Gradient|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:879
+#: ../../source/applying_special_fx.rst:881
 msgid ""
-"Creates in the selected column a multi radial gradient defined by a color"
-" spectrum (see  :ref:`Defining Colors and Color Spectrums "
+"Creates a new column/layer containing a multi radial gradient defined by "
+"a color spectrum (see  :ref:`Defining Colors and Color Spectrums "
 "<defining_colors_and_color_spectrums>`  ). The Period value sets the size"
 " of a spectrum gradient; the Quantity is the number of times the spectrum"
 " is repeated; the Phase shifts the gradient colors."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:881
+#: ../../source/applying_special_fx.rst:883
 msgid ""
 "The period can be also set by using a circle gadget with a handle in the "
-"viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:886
+#: ../../source/applying_special_fx.rst:888
 msgid "Radial Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:887
-msgid "|Radial_Gradient|"
-msgstr ""
-
 #: ../../source/applying_special_fx.rst:889
-msgid ""
-"Creates in the selected column a gradual blend between two colors, "
-"defined by Red, Green, Blue and Alpha values, shading them in a circular "
-"pattern. The Inner Size controls the area where the gradient between the "
-"two colors begins; the Outer Size where it ends."
+msgid "|Radial_Gradient|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:891
 msgid ""
-"The inner and outer sizes can be also set by using circle gadgets with a "
-"handle in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"Creates a new column/layer containing a gradual blend between two colors,"
+" defined by Red, Green, Blue and Alpha values, shading them in a circular"
+" pattern. The Inner Size controls the area where the gradient between the"
+" two colors begins; the Outer Size where it ends."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:896
+#: ../../source/applying_special_fx.rst:893
+msgid ""
+"The inner and outer sizes can be also set by using circle gadgets with a "
+"handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:898
 msgid "Spiral"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:897
+#: ../../source/applying_special_fx.rst:899
 msgid "|Spiral|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:899
+#: ../../source/applying_special_fx.rst:901
 msgid ""
-"Creates in the selected column a spiral pattern gradient defined by a "
-"color spectrum (see  :ref:`Defining Colors and Color Spectrums "
+"Creates a new column/layer containing a spiral pattern gradient defined "
+"by a color spectrum (see  :ref:`Defining Colors and Color Spectrums "
 "<defining_colors_and_color_spectrums>`  ). The Frequency sets the size "
 "and number of the spires; the Phase shifts the gradient colors."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:904
+#: ../../source/applying_special_fx.rst:906
 msgid "Square Gradient"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:905
-msgid "|Square_Gradient|"
-msgstr ""
-
 #: ../../source/applying_special_fx.rst:907
-msgid ""
-"Creates in the selected column a square gradient, that goes linearly from"
-" the center to the four corners, defined by a color spectrum (see  "
-":ref:`Defining Colors and Color Spectrums "
-"<defining_colors_and_color_spectrums>`  ) and a Size value."
+msgid "|Square_Gradient|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:909
 msgid ""
-"The size can also be set by using a rotated square gadget with handles in"
-" the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"Creates a new column/layer containing a square gradient, that goes "
+"linearly from the center to the four corners, defined by a color spectrum"
+" (see  :ref:`Defining Colors and Color Spectrums "
+"<defining_colors_and_color_spectrums>`  ) and a Size value."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:915
+#: ../../source/applying_special_fx.rst:911
+msgid ""
+"The size can also be set by using a rotated square gadget with handles in"
+" the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:917
 msgid "Image Adjust"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:918
+#: ../../source/applying_special_fx.rst:920
 msgid "Adjust Levels"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:919
+#: ../../source/applying_special_fx.rst:921
 msgid "|Adjust_Levels|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:921
+#: ../../source/applying_special_fx.rst:923
 msgid ""
 "Adjusts the highlights and shadows of the Source content by remapping "
 "pixels intensity according to the Input and Output levels values for the "
@@ -2121,7 +2133,7 @@ msgid ""
 "value for each channel separately."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:923
+#: ../../source/applying_special_fx.rst:925
 msgid ""
 "For each channel the Input values remaps pixel intensity whose value is "
 "equal or lower than the Minimum value, to 0, and those whose value is "
@@ -2129,7 +2141,7 @@ msgid ""
 "increase the contrast of an image."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:925
+#: ../../source/applying_special_fx.rst:927
 msgid ""
 "For each channel the Output values remaps pixel intensity whose value is "
 "lower than the Minimum value, to the Minimum value, and those whose value"
@@ -2137,49 +2149,27 @@ msgid ""
 "helpful to decrease the contrast of an image."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:930
+#: ../../source/applying_special_fx.rst:932
 msgid "Brightness & Contrast"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:931
+#: ../../source/applying_special_fx.rst:933
 msgid "|Brightness_&_Contrast|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:933
+#: ../../source/applying_special_fx.rst:935
 msgid "Increases or decreases the brightness and contrast of the Source content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:938
-msgid "Despeckle"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:939
-msgid "|Despeckle|"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:941
-msgid ""
-"Elimantes small imperfections (dirt, scratches, stains and similar) of "
-"the drawing. The size in pixels of the s that will be retouched can be "
-"defined in the Size input text field. The background of the images can be"
-" Transparent or White, the choise is available in the Detect On menu."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:943
-msgid ""
-"In the preview area is possible to check the results to avoid erasing s "
-"relevant for the drawing."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:948
+#: ../../source/applying_special_fx.rst:940
 msgid "Channel Mixer"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:949
+#: ../../source/applying_special_fx.rst:941
 msgid "|Channel_Mixer|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:951
+#: ../../source/applying_special_fx.rst:943
 msgid ""
 "Swaps the channels of the Source content. For each channel you can set if"
 " it remains as it is, or if you want it to have another channel mixed. "
@@ -2188,89 +2178,129 @@ msgid ""
 "intensity of the green channel to the red one."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:953
+#: ../../source/applying_special_fx.rst:945
 msgid ""
 "It can be used for example to create a black and white key for an image "
 "with the alpha channel, by setting all the values to 0 but the Alpha to "
 "Red, Green, Blue and Alpha to 1."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:958
+#: ../../source/applying_special_fx.rst:950
 msgid "Curves"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:959
+#: ../../source/applying_special_fx.rst:951
 msgid "|Curves|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:961
+#: ../../source/applying_special_fx.rst:953
 msgid ""
-"Adjusts the tonal range of the Source content by remapping pixels "
+"Adjusts the tonal range of the *Source* content by remapping pixels "
 "intensity according to a tonal curve for the RGB, Red, Green, Blue and "
 "Alpha channels."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:963
+#: ../../source/applying_special_fx.rst:955
 msgid ""
 "The horizontal axis of the graph represents the original brightness "
-"levels of the pixels (Input levels); the vertical axis represents the new"
-" brightness levels (Output levels)."
+"levels of the pixels (*Input* levels); the vertical axis represents the "
+"new brightness levels (*Output* levels)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:965
+#: ../../source/applying_special_fx.rst:957
 msgid ""
 "The default diagonal line indicates that no pixels are mapped to new "
 "values, so all pixels have the same Input and Output values."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:967
+#: ../../source/applying_special_fx.rst:959
 msgid ""
-"It is possible to use many adjustment points to correct the curve: to add"
-" a point, click the curve; to change the curve, use the point direction "
-"handles; to delete a point, select it and use the delete shortcut (by "
-"default the Delete button)."
+"It is possible to use many adjustment points to correct the curve: to "
+"*add* a point, click the curve; to change the curvature, use the point "
+"tangent handles; to *delete* a point, select it and use the delete "
+"shortcut (by default the Delete key)."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:961
+msgid ""
+"The **Linear** option constrains the curve to a series of straight "
+"segments."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:966
+msgid "Despeckle"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:967
+msgid "|Despeckle|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:969
-msgid "The Linear option constrains the curve to a series of straight segments."
+msgid ""
+"Elimantes small imperfections (dirt, scratches, stains and similar) of "
+"the drawing. The size in pixels of the details that will be retouched can"
+" be defined in the Size input text field. The background of the images "
+"can be Transparent or White, the choice is available in the Detect On "
+"menu."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:974
+#: ../../source/applying_special_fx.rst:971
+msgid ""
+"In the preview area is possible to check the results to avoid erasing "
+"details relevant for the drawing."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:976
 msgid "Gamma"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:975
+#: ../../source/applying_special_fx.rst:977
 msgid "|Gamma|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:977
+#: ../../source/applying_special_fx.rst:979
 msgid "Changes the gamma value of the Source content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:982
-msgid "Invert"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:983
-msgid "|Invert|"
+#: ../../source/applying_special_fx.rst:984
+msgid "HSV Scale"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:985
+msgid "|HSV_Scale|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:987
+msgid ""
+"Shifts the Hue, Saturation and Value values of the Source content. Hue "
+"ranges from -180 to 180; Saturation and Value from -100 to 100. All the "
+"three settings preserve their original value at 0."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:992
+msgid "Invert"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:993
+msgid "|Invert|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:995
 msgid ""
 "Inverts the color values of the Source content, e.g. makes a positive "
 "black and white image negative, or a positive one from a scanned black "
 "and white negative."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:990
+#: ../../source/applying_special_fx.rst:1000
 msgid "Multitone"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:991
+#: ../../source/applying_special_fx.rst:1001
 msgid "|Multitone|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:993
+#: ../../source/applying_special_fx.rst:1003
 msgid ""
 "Applies to the Source content the colors defined by a color spectrum (see"
 "  :ref:`Defining Colors and Color Spectrums "
@@ -2281,15 +2311,15 @@ msgid ""
 "between grey pixels."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:998
+#: ../../source/applying_special_fx.rst:1008
 msgid "RGBA Cut"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:999
+#: ../../source/applying_special_fx.rst:1009
 msgid "|RGBA_Cut|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1001
+#: ../../source/applying_special_fx.rst:1011
 msgid ""
 "Delimits the Minimum and the Maximum values of the Red, Green, Blue and "
 "Alpha components of the Source content. The maximum can be decreased from"
@@ -2299,288 +2329,260 @@ msgid ""
 "saturated, and alpha will be fully opaque."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1006
+#: ../../source/applying_special_fx.rst:1016
 msgid "RGB Fade"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1007
+#: ../../source/applying_special_fx.rst:1017
 msgid "|RGB_Fade|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1009
+#: ../../source/applying_special_fx.rst:1019
 msgid ""
 "Fades the Source content toward a color defined by Red, Green and Blue "
 "values. The Intensity, expressed as a percentage, ranges from 0 (no fade)"
 " to 100 (fade to full color)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1014
+#: ../../source/applying_special_fx.rst:1024
 msgid "RGBA Scale"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1015
+#: ../../source/applying_special_fx.rst:1025
 msgid "|RGBA_Scale|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1017
+#: ../../source/applying_special_fx.rst:1027
 msgid ""
 "Changes the percentage of the Red, Green, Blue and Alpha components of "
 "the Source content. At 0 there is no red, green, blue or alpha component;"
 " at 100 the components have their original value."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1022
-msgid "HSV Scale"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1023
-msgid "|HSV_Scale|"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1025
-msgid ""
-"Shifts the Hue, Saturation and Value values of the Source content. Hue "
-"ranges from -180 to 180; Saturation and Value from -100 to 100. All the "
-"three settings preserve their original value at 0."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1030
+#: ../../source/applying_special_fx.rst:1032
 msgid "Sharpen"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1031
+#: ../../source/applying_special_fx.rst:1033
 msgid "|Sharpen|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1033
+#: ../../source/applying_special_fx.rst:1035
 msgid ""
 "Increases the sharpness of the Source content according to a specific "
 "Intensity."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1038
+#: ../../source/applying_special_fx.rst:1040
 msgid "Layer Blending"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1042
+#: ../../source/applying_special_fx.rst:1044
 msgid "Add"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1043
+#: ../../source/applying_special_fx.rst:1045
 msgid "|Add|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1045
+#: ../../source/applying_special_fx.rst:1047
 msgid ""
 "Adds the red, green and blue values of the Up node content to the Down "
 "one, pixel by pixel."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1047
+#: ../../source/applying_special_fx.rst:1049
 msgid ""
 "If no Down node is defined, the adding operation is applied to all the "
-"images underlaying the Up node content according to the Xsheet layering "
-"order."
+"images underlaying the Up node content according to the Xsheet/Timeline "
+"layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1049
+#: ../../source/applying_special_fx.rst:1051
 msgid ""
 "The Intensity value expresses the percentage of values used in the "
 "addition; a negative value defines a subtraction instead of an addition."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1054
+#: ../../source/applying_special_fx.rst:1056
 msgid "Color Burn"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1055
+#: ../../source/applying_special_fx.rst:1057
 msgid "|Color_Burn|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1057
+#: ../../source/applying_special_fx.rst:1059
 msgid ""
 "Darkens the pixel colors of the Down node content in order to reflect the"
 " color of the Up node content. The white in the Up node content does not "
 "affect the result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1059
+#: ../../source/applying_special_fx.rst:1061
 msgid ""
 "If no Down node is defined, the color burning operation is applied to all"
-" the images underlaying the Up node content according to the Xsheet "
-"layering order."
+" the images underlaying the Up node content according to the "
+"Xsheet/Timeline layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1064
+#: ../../source/applying_special_fx.rst:1066
 msgid "Color Dodge"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1065
+#: ../../source/applying_special_fx.rst:1067
 msgid "|Color_Dodge|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1067
+#: ../../source/applying_special_fx.rst:1069
 msgid ""
 "Brightens the pixel colors of the Down node content in order to reflect "
 "the color of the Up node content. The black in the up node content does "
 "not affect the result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1069
+#: ../../source/applying_special_fx.rst:1071
 msgid ""
 "If no Down node is defined, the color dodging operation is applied to all"
-" the images underlaying the Up node content according to the Xsheet "
-"layering order."
+" the images underlaying the Up node content according to the "
+"Xsheet/Timeline layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1074
+#: ../../source/applying_special_fx.rst:1076
 msgid "Cross Dissolve"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1075
+#: ../../source/applying_special_fx.rst:1077
 msgid "|Cross_Dissolve|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1077
+#: ../../source/applying_special_fx.rst:1079
 msgid ""
 "Creates a cross-dissolve between the Up and Down node content. When the "
 "Intensity value is 0, only the Down node content is visible; when it is "
 "100, only the Up one."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1082
+#: ../../source/applying_special_fx.rst:1084
 msgid "Darken"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1083
+#: ../../source/applying_special_fx.rst:1085
 msgid "|Darken|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1085
+#: ../../source/applying_special_fx.rst:1087
 msgid ""
 "Compares the pixels color of the Up and Down node content and selects the"
 " darker one as the result color. The white in the Up node content does "
 "not affect the result; the black gives a black result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1087
+#: ../../source/applying_special_fx.rst:1089
 msgid ""
 "If only one node is defined, the darkening operation is applied to all "
-"the images underlaying its content according to the Xsheet layering "
-"order."
+"the images underlaying its content according to the Xsheet/Timeline "
+"layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1092
-msgid "Dissolve"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1093
-msgid "|Dissolve|"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1095
-msgid ""
-"Eliminates randomly pixels from the Source content according to the set "
-"Intensity."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1100
+#: ../../source/applying_special_fx.rst:1094
 msgid "Lighten"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1101
+#: ../../source/applying_special_fx.rst:1095
 msgid "|Lighten|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1103
+#: ../../source/applying_special_fx.rst:1097
 msgid ""
 "Compares the pixels color of the Up and Down node content and selects the"
 " lighter one as the result color. The black in the Up node content does "
 "not affect the result; the white gives a white result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1105
+#: ../../source/applying_special_fx.rst:1099
 msgid ""
 "If only one node is defined, the lightening operation is applied to all "
-"the images underlaying the connected node according to the Xsheet "
-"layering order."
+"the images underlaying the connected node according to the "
+"Xsheet/Timeline layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1110
+#: ../../source/applying_special_fx.rst:1104
 msgid "Local Transparency"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1111
+#: ../../source/applying_special_fx.rst:1105
 msgid "|Local_Transparency|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1113
+#: ../../source/applying_special_fx.rst:1107
 msgid ""
 "Applies a transparency to the Source content according to the brightness "
 "value of the node content connected to the Reference input port."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1115
+#: ../../source/applying_special_fx.rst:1109
 msgid ""
 "The Intensity value amplifies uniformly the transparency given by the "
 "Reference node content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1120
+#: ../../source/applying_special_fx.rst:1114
 msgid "Multiply"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1121
+#: ../../source/applying_special_fx.rst:1115
 msgid "|Multiply|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1123
+#: ../../source/applying_special_fx.rst:1117
 msgid ""
 "Multiplies the red, green, blue and alpha values of the connected noded "
 "content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1125
+#: ../../source/applying_special_fx.rst:1119
 msgid ""
 "The Intensity value expresses the percentage of values used in the "
 "multiplication. By activating the Alpha option, also the alpha "
 "information is considered."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1127
+#: ../../source/applying_special_fx.rst:1121
 msgid ""
 "If only one node is defined, the multiplying operation is applied to all "
-"the images underlaying theupper node content according to the Xsheet "
-"layering order."
+"the images underlaying theupper node content according to the "
+"Xsheet/Timeline layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1132
+#: ../../source/applying_special_fx.rst:1126
 msgid "Over"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1133
+#: ../../source/applying_special_fx.rst:1127
 msgid "|Over|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1135
+#: ../../source/applying_special_fx.rst:1129
 msgid ""
 "Puts the connected nodes one over the other. Each time a node is "
 "connected a new port will be added, this way the overlap of columns can "
-"be defined regardless from the Xsheet columns order.The columns order is "
-"up to bottom, where the column connected on the upper port is over the "
-"other ones.This can be used when you need to combine several nodes in a "
-"single one, for example to mask several columns with the same mask."
+"be defined regardless from the Xsheet columns (or Timeline layers) order."
+" The contents order is up to bottom, where the node connected on the "
+"upper port will be over the other ones. This can be used when you need to"
+" combine several nodes in a single one, for example to mask several "
+"columns with the same mask."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1140
+#: ../../source/applying_special_fx.rst:1134
 msgid "Premultiply"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1141
+#: ../../source/applying_special_fx.rst:1135
 msgid "Premultiplies the alpha channel of the Source node content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1143
+#: ../../source/applying_special_fx.rst:1137
 msgid ""
 "Full-color images which have a meaningful alpha channel come in two "
 "types: premultiplied or not. A non-premultiplied image can be recognized "
@@ -2591,7 +2593,7 @@ msgid ""
 "read by OpenToonz."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1145
+#: ../../source/applying_special_fx.rst:1139
 msgid ""
 "Full-color images can also be premultiplied by using a Level Settings "
 "option, or processed permanently in the browser, so that there is no need"
@@ -2600,15 +2602,15 @@ msgid ""
 "<using_the_file_browser>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1150
+#: ../../source/applying_special_fx.rst:1144
 msgid "Screen"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1151
+#: ../../source/applying_special_fx.rst:1145
 msgid "|Screen|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1153
+#: ../../source/applying_special_fx.rst:1147
 msgid ""
 "Combines by multiplying the inverse of the pixels color of the Up and "
 "Down node content, giving a result color that is lighter than both Up and"
@@ -2616,85 +2618,85 @@ msgid ""
 "node content does not affect the result; the white gives a white result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1155
+#: ../../source/applying_special_fx.rst:1149
 msgid ""
 "If no Down node is defined, the screening operation is applied to all the"
-" images underlaying the Up node content according to the Xsheet layering "
-"order."
+" images underlaying the Up node content according to the Xsheet/Timeline "
+"layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1160
+#: ../../source/applying_special_fx.rst:1154
 msgid "Subtract"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1161
+#: ../../source/applying_special_fx.rst:1155
 msgid "|Subtract|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1163
+#: ../../source/applying_special_fx.rst:1157
 msgid ""
 "Subtracts the red, green and blue values of the Up node content from the "
 "Down one, pixel by pixel. By activating the Alpha option, also the alpha "
 "information is considered."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1165
+#: ../../source/applying_special_fx.rst:1159
 msgid ""
-"If only one node is defined, the screening operation is applied to all "
-"the images underlaying connected node content according to the Xsheet "
-"layering order."
+"If only one node is defined, the subtraction operation is applied to all "
+"the images underlaying connected node content according to the "
+"Xsheet/Timeline layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1170
+#: ../../source/applying_special_fx.rst:1164
 msgid "Transparency"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1171
+#: ../../source/applying_special_fx.rst:1165
 msgid "|Transparency|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1173
+#: ../../source/applying_special_fx.rst:1167
 msgid ""
 "Sets the transparency of the Source content. The Intensity, expressed as "
 "a percentage, ranges from 0, fully opaque, to 100, fully transparent."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1179
+#: ../../source/applying_special_fx.rst:1173
 msgid "Light"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1184
+#: ../../source/applying_special_fx.rst:1178
 msgid "Backlit"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1185
+#: ../../source/applying_special_fx.rst:1179
 msgid "|Backlit|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1187
+#: ../../source/applying_special_fx.rst:1181
 msgid ""
 "Creates a backlit effect, using the Light node content as a light source "
-"affecting the Source node content. The light node content can be also "
-"faded to a Color defined by Red, Green and Blue values, according to the "
-"set Intensity."
+"affecting the Source node content by the set Intensity. The light node "
+"content can be also faded to a Color defined by Red, Green and Blue "
+"values, according to the set Fade."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1192
+#: ../../source/applying_special_fx.rst:1186
 msgid "Body Highlight"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1193
+#: ../../source/applying_special_fx.rst:1187
 msgid "|Body_Highlight|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1195
+#: ../../source/applying_special_fx.rst:1189
 msgid ""
 "Creates a highlighted area for the Source node content, according to its "
 "alpha channel. You can set the Color of the highlight, as well as a "
 "Transparency and a Blur value to be applied."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1197
+#: ../../source/applying_special_fx.rst:1191
 msgid ""
 "The shifting of the highlighted area is defined by horizontal (X) and "
 "vertical (Y) Offset values, that can also be interactively set in the "
@@ -2702,48 +2704,48 @@ msgid ""
 "with a cross."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1199
+#: ../../source/applying_special_fx.rst:1193
 msgid "Enabling the Invert option the effected areas will be toggled."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1201
+#: ../../source/applying_special_fx.rst:1195
 msgid ""
 "The effect can be used to create a body shadow as well, by defining a "
 "black color for the highlight."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1206
+#: ../../source/applying_special_fx.rst:1200
 msgid "Cast Shadow"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1207
+#: ../../source/applying_special_fx.rst:1201
 msgid "|Cast_Shadow|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1209
+#: ../../source/applying_special_fx.rst:1203
 msgid ""
 "Turns the Source content into a shadow that can be distorted and faded to"
 " a color with a variable transparency and blur."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1211
+#: ../../source/applying_special_fx.rst:1205
 msgid ""
 "The distortion can be done like in the Free Distort effect (see  "
 ":ref:`Free Distort <free_distort>`  ). The fade Color can be defined by "
-"Red, Green and Blue values and an Intensity can be set. A different Blur "
-"and Transparency value can be set for the top and the bottom part of the "
-"Source content, in order to have a more realistic shadow."
+"Red, Green and Blue values and a Fade intensity can be set. A different "
+"Blur and Transparency value can be set for the top and the bottom part of"
+" the Source content, in order to have a more realistic shadow."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1216
+#: ../../source/applying_special_fx.rst:1210
 msgid "Glow"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1217
+#: ../../source/applying_special_fx.rst:1211
 msgid "|Glow|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1219
+#: ../../source/applying_special_fx.rst:1213
 msgid ""
 "Creates a glowing effect, using the Light node content as a light glowing"
 " on the node content connected to the Source input port. The Blur and "
@@ -2752,51 +2754,51 @@ msgid ""
 "set Intensity."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1221
+#: ../../source/applying_special_fx.rst:1215
 msgid ""
 "If no Source node is defined, the glowing is applied to all the images "
-"underlaying the Light node content according to the Xsheet layering "
-"order."
+"underlaying the Light node content according to the Xsheet/Timeline "
+"layering order."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1226
+#: ../../source/applying_special_fx.rst:1220
 msgid "Light Spot"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1227
+#: ../../source/applying_special_fx.rst:1221
 msgid "|Light_Spot|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1229
+#: ../../source/applying_special_fx.rst:1223
 msgid ""
-"Creates in the selected column a light spot whose size and color can be "
-"set respectively with the Width and Height values, and the Reg, Green, "
-"Blue and Alpha values. The Softness sets the light diffusion in the area "
-"outside the spot."
+"Creates a new column/layer containing a light spot whose size and color "
+"can be set respectively with the Width and Height values, and the Reg, "
+"Green, Blue and Alpha values. The Softness sets the light diffusion in "
+"the area outside the spot."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1231
+#: ../../source/applying_special_fx.rst:1225
 msgid ""
 "The width and height can be also set by using a box gadget with handles "
-"in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1236
+#: ../../source/applying_special_fx.rst:1230
 msgid "Raylit"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1237
+#: ../../source/applying_special_fx.rst:1231
 msgid "|Raylit|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1239
+#: ../../source/applying_special_fx.rst:1233
 msgid ""
 "Places a source of light behind the Source node content, casting rays of "
 "light outside or inside the image outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1241
-#: ../../source/applying_special_fx.rst:1259
+#: ../../source/applying_special_fx.rst:1235
+#: ../../source/applying_special_fx.rst:1255
 msgid ""
 "The light source position is defined by horizontal (X) and vertical (Y) "
 "coordinates. By changing the light source position you change the way "
@@ -2804,7 +2806,7 @@ msgid ""
 " can make the light source approach to or go away from the image."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1243
+#: ../../source/applying_special_fx.rst:1237
 msgid ""
 "Properties of the light can be set by defining the Intensity, the Color, "
 "that is set by Red, Green, Blue and Alpha values, the Decay, that is the "
@@ -2813,44 +2815,51 @@ msgid ""
 "image outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1245
+#: ../../source/applying_special_fx.rst:1239
 msgid ""
 "The Invert option switches the casting of rays of light from the outside "
 "of the image to the inside."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1247
+#: ../../source/applying_special_fx.rst:1241
+#: ../../source/applying_special_fx.rst:1261
 msgid ""
-"The center can be also set by using a point gadget in the viewer (see  "
+"The Keep Image check-box determines if the original drawing is rendered "
+"in the output or not."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1243
+msgid ""
+"The center can be also set by using a point gadget in the Viewer (see  "
 ":ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings "
 "preview."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1249
+#: ../../source/applying_special_fx.rst:1245
 msgid ""
 "The Source node content needs to have a significant alpha channel in "
 "order to have an effective result."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1254
+#: ../../source/applying_special_fx.rst:1250
 msgid "Color Raylit"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1255
+#: ../../source/applying_special_fx.rst:1251
 msgid "|Color_Raylit|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1257
+#: ../../source/applying_special_fx.rst:1253
 msgid ""
 "Places a source of light behind the Source node content, casting rays of "
 "light outside the image outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1261
+#: ../../source/applying_special_fx.rst:1257
 msgid "The colours of the rays are calculated from the original drawing colours."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1263
+#: ../../source/applying_special_fx.rst:1259
 msgid ""
 "Properties of the light can be set by defining the Intensity, the Decay, "
 "that is the decrease of the light intensity according to its distance "
@@ -2858,65 +2867,59 @@ msgid ""
 "are along the image outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1265
-msgid ""
-"The Keep image check-box determines if the original drawing is rendered "
-"in the output or not."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1270
+#: ../../source/applying_special_fx.rst:1266
 msgid "Target Spot"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1271
+#: ../../source/applying_special_fx.rst:1267
 msgid "|Target_Spot|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1273
+#: ../../source/applying_special_fx.rst:1269
 msgid ""
-"Creates in the selected column a light spot whose size and color can be "
-"set respectively with the Width and Height values, and the Red, Green, "
-"Blue and Alpha values. The direction of the spot can be set by defining "
-"the Distance of the light from the table and the Angle between the light "
-"spot direction and the table. The Decay, that is the decrease of the "
-"light intensity according to the distance from table, can be controlled "
-"as well."
+"Creates a new column/layer containing a light spot whose size and color "
+"can be set respectively with the Width and Height values, and the Red, "
+"Green, Blue and Alpha values. The direction of the spot can be set by "
+"defining the Distance of the light from the table and the Angle between "
+"the light spot direction and the table. The Decay, that is the decrease "
+"of the light intensity according to the distance from table, can be "
+"controlled as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1279
+#: ../../source/applying_special_fx.rst:1275
 msgid "Matte"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1284
+#: ../../source/applying_special_fx.rst:1280
 msgid "Erode/Dilate"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1285
+#: ../../source/applying_special_fx.rst:1281
 msgid "|Erode_Dilate|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1287
+#: ../../source/applying_special_fx.rst:1283
 msgid ""
 "Morphologically erodes or dilates the alpha channel of the connected node"
 " by the specified value, where positive values correspond to dilations "
 "and negative ones to erosion."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1292
+#: ../../source/applying_special_fx.rst:1285
+msgid ""
+"The Type parameter defines the shape of the corners of the frame, applied"
+" around the image, when the Radius value is positive."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1290
 msgid "HSV Key"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1293
+#: ../../source/applying_special_fx.rst:1291
 msgid "|HSV_Key|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1295
-msgid ""
-"The Type parameter specifies the filter shape to be applied, the square "
-"filter being faster than the circular. Key"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1297
+#: ../../source/applying_special_fx.rst:1293
 msgid ""
 "Defines a chroma key for the Source content using the set Hue, Saturation"
 " and Value values. You can set the range for each value by using the "
@@ -2924,116 +2927,130 @@ msgid ""
 "button."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1302
+#: ../../source/applying_special_fx.rst:1298
 msgid "Matte In"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1303
+#: ../../source/applying_special_fx.rst:1299
 msgid "|Matte_In|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1305
+#: ../../source/applying_special_fx.rst:1301
 msgid ""
 "Makes the Source content visible only inside the opaque areas of the node"
 " content connected to the Matte input port."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1310
+#: ../../source/applying_special_fx.rst:1306
 msgid "Matte Out"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1311
+#: ../../source/applying_special_fx.rst:1307
 msgid "|Matte_Out|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1313
+#: ../../source/applying_special_fx.rst:1309
 msgid ""
 "Makes the source content visible only outside the opaque areas of the "
 "node content connected to the Matte input port."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1318
+#: ../../source/applying_special_fx.rst:1314
 msgid "RGB Key"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1319
+#: ../../source/applying_special_fx.rst:1315
 msgid "|RGB_Key|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1321
+#: ../../source/applying_special_fx.rst:1317
 msgid ""
 "Defines a chroma key for the Source content using the set Red, Green and "
 "Blue values. You can set the range for each value by using the related "
 "Range slider. The selection can be inverted using the Invert button."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1326
+#: ../../source/applying_special_fx.rst:1322
 msgid "Visible Matte In"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1327
+#: ../../source/applying_special_fx.rst:1323
 msgid "|Visible_Matte_In|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1329
+#: ../../source/applying_special_fx.rst:1325
 msgid ""
 "Makes the Up node content visible only inside the opaque areas of the "
 "node content connected to the Down input port, keeping the Down node "
 "still visible."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1335
-#: ../../source/applying_special_fx.rst:1338
+#: ../../source/applying_special_fx.rst:1329
+#: ../../source/applying_special_fx.rst:1342
 msgid "Noise"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1339
+#: ../../source/applying_special_fx.rst:1334
+msgid "Dissolve"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1335
+msgid "|Dissolve|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1337
+msgid ""
+"Eliminates randomly pixels from the Source content according to the set "
+"Intensity."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1343
 msgid "|Noise|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1341
+#: ../../source/applying_special_fx.rst:1345
 msgid ""
 "Adds a noise effect to the Source content according to the set Intensity."
 " You can decide which noise component among Red, Green and Blue you want "
 "to activate, and if the result has to be in Black and White."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1346
+#: ../../source/applying_special_fx.rst:1350
 msgid "Salt & Pepper Noise"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1347
+#: ../../source/applying_special_fx.rst:1351
 msgid "|Salt_&_Pepper_Noise|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1349
+#: ../../source/applying_special_fx.rst:1353
 msgid ""
 "Adds a black and white noise effect to the Source content according to "
 "the set Intensity."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1353
+#: ../../source/applying_special_fx.rst:1357
 msgid "Render"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1358
+#: ../../source/applying_special_fx.rst:1362
 msgid "Clouds"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1359
+#: ../../source/applying_special_fx.rst:1363
 msgid "|Clouds|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1361
+#: ../../source/applying_special_fx.rst:1365
 msgid ""
-"Creates in the selected column a fractal image whose type can be chosen "
-"between Clouds and Marble/Wood. The Size affect the grid used for "
+"Creates a new column/layer containing a fractal image whose type can be "
+"chosen between Clouds and Marble/Wood. The Size affect the grid used for "
 "generating the fractal image; a color spectrum defines the used colors "
 "(see  :ref:`Defining Colors and Color Spectrums "
 "<defining_colors_and_color_spectrums>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1363
+#: ../../source/applying_special_fx.rst:1367
 msgid ""
 "Increasing the Minimum value shifts the color spectrum to the right, and "
 "consequently more pixels will be colored as the color defined at the far "
@@ -3042,125 +3059,143 @@ msgid ""
 " color defined at the far right of the spectrum."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1365
+#: ../../source/applying_special_fx.rst:1369
 msgid ""
 "The Evolution stage of the fractal image can be controlled as well; by "
 "setting the variation of this value between two keys, you set how much "
 "the fractal image changes during the animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1370
+#: ../../source/applying_special_fx.rst:1374
 msgid "Particles"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1371
-msgid "See  :ref:`Using the Particles Effect <using_the_particles_effect>` ."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1376
-msgid "Text Iwa"
+#: ../../source/applying_special_fx.rst:1375
+msgid "|particles|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1377
-msgid "|text_1|"
+msgid ""
+"The Particles effect creates a new level in the selected column/layer "
+"containing particles."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1379
 msgid ""
-"This effect allow for the creation of editable and animatable text, using"
-" the following parameters:"
+"It allows you to simulate a wide range of phenomena, such as rain, snow, "
+"sparkles, smoke, and a random configuration of elements, for example a "
+"field of shining stars starting from one shining star or the waving grass"
+" in a meadow starting from one animated blade of grass."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1381
-msgid "**Source**, specifies the text source. You can choose one from:"
+msgid "See  :ref:`Using the Particles Effect <using_the_particles_effect>` ."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1383
-msgid ""
-"**Nearby Note Column**: Get the text from note level column put on the "
-"directly left side of the Text Iwa Fx Column in the Xsheet (For Timeline "
-"view, the Note Level layer just under the Fx Column is used). If the "
-"column does not contain Note Level or the cell is empty, text will not be"
-" rendered."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1385
-msgid "|text_2|"
+#: ../../source/applying_special_fx.rst:1386
+msgid "Text Iwa"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1387
+msgid "|text_1|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1389
+msgid ""
+"Creates a new column/layer containing editable and animatable text, using"
+" the following parameters:"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1391
+msgid "**Source**, specifies the text source. You can choose one from:"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1393
+msgid ""
+"**Nearby Note Column**: Get the text from Note Level column put on the "
+"directly left side of the Text Iwa effect column, in the Xsheet (for "
+"Timeline view, the Note Level layer just under the effect layer is used)."
+" If the respective column/layer does not contain a Note Level or the cell"
+" is empty, text will not be rendered."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1395
+msgid "|text_2|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1397
 msgid ""
 "**Specified Note Column**: It's similar to the **Nearby Note Column** "
 "option, but the Note Level column number to use can be specified using "
 "the **Column Index** field below."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1389
+#: ../../source/applying_special_fx.rst:1399
 msgid ""
 "**Input Text**: The text typed in the **Text** field below will be used "
 "(as shown in the image on top)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1391
+#: ../../source/applying_special_fx.rst:1401
 msgid ""
 "**Column Index**, specifies the source Note Level column number to use. "
 "Only used in **Specified Note Column** Source mode."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1393
+#: ../../source/applying_special_fx.rst:1403
 msgid ""
 "**Text**, specifies the source text. Only used in **Input Text** Source "
 "mode."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1395
+#: ../../source/applying_special_fx.rst:1405
 msgid ""
 "**Horizontal Align**, specifies the text align. Options are: **Left**, "
 "**Right**, **Center**, and **Justify**."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1397
+#: ../../source/applying_special_fx.rst:1407
 msgid "**Center X:**, **Y:** specify the position of the text."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1399
+#: ../../source/applying_special_fx.rst:1409
 msgid ""
 "**Width**, **Height**, define the dimension of the text box. Just like in"
 " the Text items of the Clapperboard feature, the font size will be "
-"automatically adjusted in order to fit the box. (See the  :ref:`Using The"
-" Clapperboard <using_the_clapperboard>` )."
+"automatically adjusted in order to fit the box (see  :ref:`Using The "
+"Clapperboard <using_the_clapperboard>` )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1401
+#: ../../source/applying_special_fx.rst:1411
 msgid "**Font**, specifies the font family to use."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1403
+#: ../../source/applying_special_fx.rst:1413
 msgid "**Style:**, specifies the font style to use."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1405
+#: ../../source/applying_special_fx.rst:1415
 msgid "**Size:**, specifies the *maximum* font size to use."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1407
+#: ../../source/applying_special_fx.rst:1417
 msgid ""
 "The **Size** value will only take effect if the *automatically-calculated"
 " font size* (in order to fit the specified text box) is bigger than the "
 "value specified for this parameter."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1409
+#: ../../source/applying_special_fx.rst:1419
 msgid ""
 "**Text Color**, specifies the color of the text. This color will also be "
 "used for the border line."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1411
+#: ../../source/applying_special_fx.rst:1421
 msgid "**Box Color**, specifies the background color of the text box."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1413
+#: ../../source/applying_special_fx.rst:1423
 msgid ""
 "**Show Border**, when activated, a border line will be rendered around "
 "the *text bounding box*. Please note that the *text box* (specified by "
@@ -3169,7 +3204,7 @@ msgid ""
 "**Size** parameter is set to a small value."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1415
+#: ../../source/applying_special_fx.rst:1425
 msgid ""
 "Known Issue: When you are using a Note Level column for the source text, "
 "a change in the note text will not automatically trigger the preview "
@@ -3177,19 +3212,19 @@ msgid ""
 "context menu of the Viewer."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1421
+#: ../../source/applying_special_fx.rst:1431
 msgid "Stylize"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1426
+#: ../../source/applying_special_fx.rst:1436
 msgid "Color Emboss"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1427
+#: ../../source/applying_special_fx.rst:1437
 msgid "|Color_Emboss|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1429
+#: ../../source/applying_special_fx.rst:1439
 msgid ""
 "Traces the edges of the Source content with a combination of highlights "
 "and shadows. You can set the Intensity of the effect, and the Distance "
@@ -3197,21 +3232,21 @@ msgid ""
 " the depth of the embossing."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1431
+#: ../../source/applying_special_fx.rst:1441
 msgid ""
 "By connecting a node to the Controller port, the Source content will be "
 "embossed according to the Controller node content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1436
+#: ../../source/applying_special_fx.rst:1446
 msgid "Emboss"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1437
+#: ../../source/applying_special_fx.rst:1447
 msgid "|Emboss|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1439
+#: ../../source/applying_special_fx.rst:1449
 msgid ""
 "Turns the Source content to grey areas and traces its edges with a "
 "combination of highlights and shadows. You can set the Intensity of the "
@@ -3219,36 +3254,36 @@ msgid ""
 "emboss effect. The Radius sets the depth of the embossing."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1444
+#: ../../source/applying_special_fx.rst:1454
 msgid "Mosaic"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1445
+#: ../../source/applying_special_fx.rst:1455
 msgid "|Mosaic|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1447
+#: ../../source/applying_special_fx.rst:1457
 msgid ""
 "Turns the Source content in a series of tiles according to the specified "
 "Size and Distance. The color and transparency of the tiles are sampled "
 "from the source content."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1449
+#: ../../source/applying_special_fx.rst:1459
 msgid ""
 "A Background Color can be set, and will be visible around the tiles. The "
 "tile shape can be chosen between Square and Round."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1454
+#: ../../source/applying_special_fx.rst:1464
 msgid "Posterize"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1455
+#: ../../source/applying_special_fx.rst:1465
 msgid "|Posterize|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1457
+#: ../../source/applying_special_fx.rst:1467
 msgid ""
 "Converts the Source content into a number of shades according to the set "
 "number of Levels. The shades depends on the brightness values of the "
@@ -3257,15 +3292,15 @@ msgid ""
 "two for the blue."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1462
+#: ../../source/applying_special_fx.rst:1472
 msgid "Solarize"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1463
+#: ../../source/applying_special_fx.rst:1473
 msgid "|Solarize|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1465
+#: ../../source/applying_special_fx.rst:1475
 msgid ""
 "Blends a negative and a positive version of the Source content, as if "
 "exposing a photographic print briefly to light during development. You "
@@ -3273,11 +3308,11 @@ msgid ""
 "the amount of positive and negative image that is used in the blend."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1471
+#: ../../source/applying_special_fx.rst:1481
 msgid "Toonz Level"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1472
+#: ../../source/applying_special_fx.rst:1482
 msgid ""
 "Toonz Level type of effects can be applied only to Toonz Vector and Toonz"
 " Raster (PLI and TLV files). They usually affect the drawings they are "
@@ -3286,7 +3321,7 @@ msgid ""
 "right corner* of the style in any of the **Thumbnails View** modes."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1474
+#: ../../source/applying_special_fx.rst:1484
 msgid ""
 "Index numbers can be specified in the related text field, separated by a "
 "comma. To define a range of indexes, you should type the first and last "
@@ -3294,7 +3329,7 @@ msgid ""
 "select all indexes, type ``all`` ; to select no index, type ``none`` ."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1476
+#: ../../source/applying_special_fx.rst:1486
 msgid ""
 "Toonz Level type of effects have to be always applied first when a series"
 " of effects are applied to an animation level, as they work only on Toonz"
@@ -3303,15 +3338,15 @@ msgid ""
 "applied to the same animation level."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1481
+#: ../../source/applying_special_fx.rst:1491
 msgid "Art Contour"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1482
+#: ../../source/applying_special_fx.rst:1492
 msgid "|Art_Contour|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1484
+#: ../../source/applying_special_fx.rst:1494
 msgid ""
 "Creates in the Source content a pattern, by repeating the Controller node"
 " content, along lines painted with styles whose indexes are specified in "
@@ -3319,34 +3354,34 @@ msgid ""
 "scattered brush, or hair and fur effects along drawing lines."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1486
+#: ../../source/applying_special_fx.rst:1496
 msgid ""
 "The Keep Color option assigns the color of the line to the applied "
 "pattern; while the Keep Contour option retains the drawing line that will"
 " be visible beneath the pattern."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1488
+#: ../../source/applying_special_fx.rst:1498
 msgid ""
 "The way the contents of the Controller node create the pattern depends on"
 " the Pattern settings."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1490
+#: ../../source/applying_special_fx.rst:1500
 msgid ""
 "The Density sets the amount of pattern to be applied along the line. By "
 "setting the Density to 0, you can specify a Minimum and Maximum Distance "
 "between two subsequent images applied as pattern on the line."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1492
+#: ../../source/applying_special_fx.rst:1502
 msgid ""
 "The Size sets the Minimum and Maximum resizing percentage applied to the "
 "images used as the pattern; the value 100 is the original size of the "
 "images."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1494
+#: ../../source/applying_special_fx.rst:1504
 msgid ""
 "The Orientation sets the Minimum and Maximum rotation angle for the "
 "images used as the pattern, according to the line direction; the value 0 "
@@ -3355,44 +3390,44 @@ msgid ""
 "direction of the lines: the value 0 is the original images orientation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1499
+#: ../../source/applying_special_fx.rst:1509
 msgid "Calligraphic Line"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1500
+#: ../../source/applying_special_fx.rst:1510
 msgid "|Calligraphic_Line|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1502
+#: ../../source/applying_special_fx.rst:1512
 msgid ""
 "Changes in the Source content the thickness of the drawing lines painted "
 "with styles whose indexes are specified in the Color Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1504
-#: ../../source/applying_special_fx.rst:1538
+#: ../../source/applying_special_fx.rst:1514
+#: ../../source/applying_special_fx.rst:1548
 msgid ""
 "You can specify the Thickness increase and how it is applied, as a "
 "percentage, to the different line directions Horizontal, Vertical, Up "
 "Diagonal, Down Diagonal."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1506
+#: ../../source/applying_special_fx.rst:1516
 msgid ""
 "The Smoothness sets the smoothness of the passage between sections of the"
 " lines affected by the effect, and those not affected; while the Noise "
 "sets the regularity of the edge of the line."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1511
+#: ../../source/applying_special_fx.rst:1521
 msgid "Color Blending"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1512
+#: ../../source/applying_special_fx.rst:1522
 msgid "|Color_Blending|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1514
+#: ../../source/applying_special_fx.rst:1524
 msgid ""
 "Blends in the Source content lines and areas painted with styles whose "
 "indexes are specified in the Color Indexes text field. It can be used for"
@@ -3400,14 +3435,14 @@ msgid ""
 " or to create gradients of colors."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1516
+#: ../../source/applying_special_fx.rst:1526
 msgid ""
 "The Intensity sets how wide the blended area between the selected colors "
 "will be; while the Smoothness sets how smooth the dithering between "
 "blended colors is."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1518
+#: ../../source/applying_special_fx.rst:1528
 msgid ""
 "The No Blending over Other Colors option stops the blending as soon as a "
 "line, or an area, whose index is not included in the selection, is "
@@ -3415,64 +3450,64 @@ msgid ""
 "under excluded lines and areas."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1523
+#: ../../source/applying_special_fx.rst:1533
 msgid "External Palette"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1524
+#: ../../source/applying_special_fx.rst:1534
 msgid "|External_Palette|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1526
+#: ../../source/applying_special_fx.rst:1536
 msgid ""
 "Applies to the Source content the palette node connected to the Palette "
 "input port; if a column node is connected to the Palette input port, the "
 "palette related to its content will be considered."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1528
+#: ../../source/applying_special_fx.rst:1538
 msgid ""
 "The original styles of the Toonz levels contained in the source node are "
 "replaced with those of the levels contained in the palette node according"
 " to their style indexes."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1533
+#: ../../source/applying_special_fx.rst:1543
 msgid "Outline"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1534
+#: ../../source/applying_special_fx.rst:1544
 msgid "|Outline|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1536
+#: ../../source/applying_special_fx.rst:1546
 msgid ""
 "Changes in the Source content the thickness of the drawing external "
 "outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1540
+#: ../../source/applying_special_fx.rst:1550
 msgid ""
 "The Smoothness sets the smoothness of the passage between sections of the"
 " lines affected by the effect, and those not affected; while the Noise "
 "sets the regularity of the edge of the outline."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1545
+#: ../../source/applying_special_fx.rst:1555
 msgid "Palette Filter"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1546
+#: ../../source/applying_special_fx.rst:1556
 msgid "|Palette_Filter|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1548
+#: ../../source/applying_special_fx.rst:1558
 msgid ""
 "Filters the styles of the Source content palette according to the indexes"
 " specified in the Color Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1550
+#: ../../source/applying_special_fx.rst:1560
 msgid ""
 "The Apply To option menu lets you choose if you want to affect Lines & "
 "Area, only Lines or only Areas, even if painted with the same styles; the"
@@ -3480,57 +3515,57 @@ msgid ""
 "specified styles."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1555
+#: ../../source/applying_special_fx.rst:1565
 msgid "Pinned Texture"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1556
+#: ../../source/applying_special_fx.rst:1566
 msgid "|Pinned_Texture| |Pinned_Texture_2|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1558
+#: ../../source/applying_special_fx.rst:1568
 msgid ""
 "Distorts the Texture node content and applies it to the Source content "
 "areas that are painted with styles whose indexes are specified in the "
 "Color Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1560
+#: ../../source/applying_special_fx.rst:1570
 msgid ""
 "The distortion can be done like in the Free Distort effect (see  "
 ":ref:`Free Distort <free_distort>`  ) and the texture can be applied like"
 " in the Texture effect (see below)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1565
+#: ../../source/applying_special_fx.rst:1575
 msgid "Texture"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1566
+#: ../../source/applying_special_fx.rst:1576
 msgid "|Texture|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1568
+#: ../../source/applying_special_fx.rst:1578
 msgid ""
 "Applies the Texture node content to the Source content lines and areas "
 "that are painted with styles whose indexes are specified in the Color "
 "Indexes text field."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1570
+#: ../../source/applying_special_fx.rst:1580
 msgid ""
 "As the texture node content can be animated as you like, this effect "
 "allows you to generate animated texture as well."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1572
+#: ../../source/applying_special_fx.rst:1582
 msgid ""
 "The Action option menu lets you choose if you want to apply the texture "
 "to the specified styles (Keep) or to apply it to all styles except for "
 "the specified ones (Delete)."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1574
+#: ../../source/applying_special_fx.rst:1584
 msgid ""
 "The Mode option menu lets you set how the texture node content will be "
 "applied: Texture uses the texture to replace selected styles; Pattern "
@@ -3541,56 +3576,58 @@ msgid ""
 "selected, you can also set the Value of the effect."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1576
+#: ../../source/applying_special_fx.rst:1586
 msgid ""
 "To repeat the texture image and tile it to create a larger texture, you "
 "can apply the Tile effect to the texture column before linking it to the "
 "Texture node (see  :ref:`Tile <tile>`  )."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1582
+#: ../../source/applying_special_fx.rst:1592
 msgid "Shaders"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1583
+#: ../../source/applying_special_fx.rst:1593
 msgid ""
-"OpenToonz enables support for special fxs rendered through hardware-"
+"OpenToonz enables support for effects rendered through hardware-"
 "accelereted pixelshaders. Shaders are simple programs compiled by a "
 "graphics processing unit that harness the massively parallel architecture"
-" of modern graphics devices to execute with extreme speed. OpenToonz's "
-"shader fxs are written in the OpenGL Shading Language (GLSL), and are "
-"located in PROJECTROOT/library/shaders. Refer to the readme.txt file "
-"there for further s on editing or creating new shader fxs."
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1588
-msgid "Caustic"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1589
-msgid "|Caustic|"
-msgstr ""
-
-#: ../../source/applying_special_fx.rst:1591
-msgid ""
-"Create in the selected column a simulation of the reflection of light on "
-"a water surface. Sets the color of the water defining the RGBA values of "
-"the Water Color parameter."
+" of modern graphics devices, to execute with extreme speed. OpenToonz's "
+"shader effects are written in the OpenGL Shading Language (GLSL), and are"
+" located in ``OpenToonz stuff/library/shaders``. Refer to the readme.txt "
+"file there for further details on editing or creating new shader effects."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1598
-msgid "Fireball"
+msgid "Caustic"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1599
-msgid "|Fireball|"
+msgid "|Caustic|"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1601
-msgid "Create in the selected column a ball of flames erupting from a point."
+msgid ""
+"Creates a new column/layer containing a simulation of the reflection of "
+"light on a water surface. Sets the color of the water defining the RGBA "
+"values of the Water Color parameter."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1603
+#: ../../source/applying_special_fx.rst:1608
+msgid "Fireball"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1609
+msgid "|Fireball|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1611
+msgid ""
+"Creates a new column/layer containing a ball of flames erupting from a "
+"point."
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1613
 msgid ""
 "A range of colors can be defined setting the RGBA values of color 1 and "
 "color 2. The stage of the displacement map image can be controlled by "
@@ -3599,21 +3636,21 @@ msgid ""
 " animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1608
+#: ../../source/applying_special_fx.rst:1618
 msgid "Glitter"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1609
+#: ../../source/applying_special_fx.rst:1619
 msgid "|Glitter|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1611
+#: ../../source/applying_special_fx.rst:1621
 msgid ""
 "Adds cross-shaped light rays extending from the brightest part of an "
 "image."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1613
+#: ../../source/applying_special_fx.rst:1623
 msgid ""
 "Use Threshold to specify the cut-out on the input image's brightest part."
 " Higher values will make the fx add lights also to darker image parts, "
@@ -3625,22 +3662,22 @@ msgid ""
 "Higher values will produce broader rays."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1618
+#: ../../source/applying_special_fx.rst:1628
 msgid "Star Sky"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1619
+#: ../../source/applying_special_fx.rst:1629
 msgid "|Star_Sky|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1621
+#: ../../source/applying_special_fx.rst:1631
 msgid ""
-"Creates, in the selected column, a simple star field with variable "
+"Creates a new column/layer containing a simple star field with variable "
 "brightness with overlayed clouds. Sets the color of the overlayed clouds "
 "defining the RGBA values of the Cloud Color parameter."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1623
+#: ../../source/applying_special_fx.rst:1633
 msgid ""
 "The stage of the stars displacement can be controlled by using the "
 "Evolution value; by setting the variation of this value between two keys,"
@@ -3648,56 +3685,56 @@ msgid ""
 "animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1625
+#: ../../source/applying_special_fx.rst:1635
 msgid "Use the Brightness parameters to define the brightness of the stars."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1630
+#: ../../source/applying_special_fx.rst:1640
 msgid "Sun Flare"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1631
+#: ../../source/applying_special_fx.rst:1641
 msgid "|Sun_Flare|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1633
+#: ../../source/applying_special_fx.rst:1643
 msgid ""
-"Creates, in the selected column, rays of colored light extending from a "
-"radial gradient at the center. Sets the color of the sun rays defining "
-"the RGBA values of the Cloud Color parameter. The number of rays is "
+"Creates a new column/layer containing rays of colored light extending "
+"from a radial gradient at the center. Sets the color of the sun rays "
+"defining the RGBA values of the Color parameter. The number of rays is "
 "defined by the Rays parameter while their brightness is set by the "
 "Intensity one. The angle parameter sets the direction of the rays and the"
 " Bias parameter define the size of the rays. Use the Sharpness parameter "
 "to make the rays sharper or smoother."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1638
+#: ../../source/applying_special_fx.rst:1648
 msgid "Wavy"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1639
+#: ../../source/applying_special_fx.rst:1649
 msgid "|Wavy|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1641
+#: ../../source/applying_special_fx.rst:1651
 msgid ""
-"Creates a simple gradient with a colored 'wavy' pattern in the selected "
-"column.The waves colors are definied by setting the RGBA value of the "
-"Color and Color 2 parameters. The stage of the displacement map image can"
-" be controlled by using the Evolution value; by setting the variation of "
-"this value between two keys, you set how much the displacement map image "
-"changes during the animation."
+"Creates a new column/layer containing a simple gradient with a colored "
+"'wavy' pattern. The waves colors are definied by setting the RGBA values "
+"of the Color 1 and Color 2 parameters. The stage of the displacement map "
+"image can be controlled by using the Evolution value; by setting the "
+"variation of this value between two keys, you set how much the "
+"displacement map image changes during the animation."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1646
+#: ../../source/applying_special_fx.rst:1656
 msgid "GPU Radial Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1647
+#: ../../source/applying_special_fx.rst:1657
 msgid "|GPU_Radial_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1649
+#: ../../source/applying_special_fx.rst:1659
 msgid ""
 "Blurs along radial lines whose origin is the set Center, defined by "
 "horizontal (X) and vertical (Y) coordinates, starting from an unaffected "
@@ -3705,15 +3742,15 @@ msgid ""
 " amount of blur."
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1654
+#: ../../source/applying_special_fx.rst:1664
 msgid "GPU Spin Blur"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1655
+#: ../../source/applying_special_fx.rst:1665
 msgid "|GPU_Spin_Blur|"
 msgstr ""
 
-#: ../../source/applying_special_fx.rst:1657
+#: ../../source/applying_special_fx.rst:1667
 msgid ""
 "Blurs along concentric circular lines as if the Source content turns "
 "around the set Center, defined by horizontal (X) and vertical (Y) "
@@ -5438,5 +5475,823 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Select it and choose Edit > **Delete**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When effects are added, they are "
+#~ "displayed as nodes as well, with "
+#~ "ports to create links that let you"
+#~ " set the way the FX affect the"
+#~ " scene contents."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nodes can be easily selected and "
+#~ "arranged. When selected, nodes are "
+#~ "highlighted in white; the current node"
+#~ " has its label in yellow."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ctrl-click (PC) or Cmd-click (Mac)"
+#~ " to add a node to, or remove"
+#~ " it from the selection."
+#~ msgstr ""
+
+#~ msgid "Press the **Ctrl + G** (PC) or **Cmd + G** (Mac) shortcut."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the Group and choose "
+#~ "**Ungroup** from the menu that opens,"
+#~ " or press the shortcut **Ctrl + "
+#~ "Shift + G** (PC) or **Cmd + "
+#~ "Shift + G** (Mac)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case several nodes are selected, "
+#~ "the effect will be added/inserted for"
+#~ " *each* selected node, but all the"
+#~ " added/inserted effects will be *Linked*,"
+#~ " and connected visually by a dashed"
+#~ " line. This means that every time "
+#~ "the effect is edited, all the "
+#~ "linked nodes will be edited as "
+#~ "well, unless you break the link to"
+#~ " start editing them separately."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Effects that create computer generated "
+#~ "images**, such as the Radial Gradient,"
+#~ " that are exposed in Xsheet columns"
+#~ " and therefore are similar to "
+#~ "columns; they are displayed with an "
+#~ "orange node with only an output "
+#~ "port on the right. These effect "
+#~ "nodes have to be connected to the"
+#~ " Xsheet node to be rendered, or "
+#~ "can be connected to other effect "
+#~ "nodes."
+#~ msgstr ""
+
+#~ msgid "Choose Xsheet  →  **New FX**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Ctrl + double-click** (PC) or "
+#~ "**Cmd + double-click** (Mac) the "
+#~ "node name and type a new name."
+#~ msgstr ""
+
+#~ msgid "Use **Paste** to paste the copied/cut selection into the FX Schematic"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ctrl-click (PC) or Cmd-click (Mac)"
+#~ " to add a node or a link "
+#~ "to, or remove it from the "
+#~ "selection."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When more than one Output node is"
+#~ " defined, you can set which is "
+#~ "the active one (the one that will"
+#~ " be considered for previewing or "
+#~ "rendering the scene); the active output"
+#~ " node is displayed in *blue*, while"
+#~ " the others in *grey*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click in the stage and "
+#~ "choose **New Output** from the menu "
+#~ "that opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Parameters can be animated by setting"
+#~ " key values at specific frames. A "
+#~ "**Set Key** button (|key|) is available"
+#~ " in the preview area, at the "
+#~ "bottom bar of the window, to set"
+#~ " key values for *all* of the "
+#~ "parameters. For each of the parameters"
+#~ " that can be animated there is "
+#~ "also a specific **Set Key** button "
+#~ "(|key|) to the right of the "
+#~ "parameter name, in order to set "
+#~ "keyframes for each parameter independently."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is **grey** when no key values"
+#~ " for any parameter is defined at "
+#~ "the current frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is **blue-striped** when key "
+#~ "values are defined at least for "
+#~ "one parameter."
+#~ msgstr ""
+
+#~ msgid "It is **blue** when key values are defined for all the parameters."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the effect node, and "
+#~ "choose **Edit FX** from the menu "
+#~ "that opens."
+#~ msgstr ""
+
+#~ msgid "Move the current frame cursor in the Xsheet or in the Function Editor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the frame bar or the playback"
+#~ " buttons in the bottom bar of "
+#~ "the viewer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the current frame is not a "
+#~ "key, click the **Set Key** button "
+#~ "(|key|) in the bottom bar of the"
+#~ " window: it turns from grey to "
+#~ "blue and current values become keyframes"
+#~ " for all the parameters at the "
+#~ "current frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the current frame is a keyframe"
+#~ " for some parameters only, click the"
+#~ " **Set Key** button (|key|): it turns"
+#~ " from blue striped to blue and "
+#~ "current values become keyframes for all"
+#~ " the parameters at the current frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the current frame does not have"
+#~ " a keyframe for the parameter, click"
+#~ " the squared **Set Key** button "
+#~ "(|key|) to the right of the "
+#~ "parameter: it turns from grey to "
+#~ "orange, and the current value becomes"
+#~ " a keyframe for the parameter at "
+#~ "the current frame."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the current frame is not a "
+#~ "keyframe for the parameter, and you "
+#~ "changed it, the **Set Key** button "
+#~ "(|key|) to the right of the "
+#~ "parameter turns yellow. Click it to "
+#~ "set the key."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the keyframes are set for all"
+#~ " the parameters, click the **Set "
+#~ "Key** button (|key|) in the bottom "
+#~ "bar of the window: it turns from"
+#~ " blue to grey."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the keyframes are set for some"
+#~ " parameters only, click twice the "
+#~ "**Set Key** button (|key|) in the "
+#~ "bottom bar of the window: with the"
+#~ " first click it turns from blue-"
+#~ "striped to blue (as you set keys"
+#~ " for all the parameters); with the"
+#~ " second click, it turns from blue "
+#~ "to grey."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the **Set Key** button (|key|) "
+#~ "to the right of the parameter: it"
+#~ " turns from grey to orange."
+#~ msgstr ""
+
+#~ msgid "**To activate/deactivate the preview area:**"
+#~ msgstr ""
+
+#~ msgid "The A/R of the preview area depends on the A/R of the current camera"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Some effects parameters related to "
+#~ "positions or dimensions have some "
+#~ "gadgets available in the viewer in "
+#~ "order to be set by using the "
+#~ "camera box and the scene elements "
+#~ "as a reference. For example the "
+#~ "Radial Gradient effect has two circular"
+#~ " gadgets that can be edited to "
+#~ "set the inner size and the outer"
+#~ " size of the gradient."
+#~ msgstr ""
+
+#~ msgid "**To visualize effects gadgets in the viewer:**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click and drag the effects gadgets "
+#~ "visible in the viewer. As you roll"
+#~ " over the gadget and the related "
+#~ "handles, the cursor changes shape to "
+#~ "indicate you are editing an effect "
+#~ "gadget."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the macro node and "
+#~ "choose **Edit FX** from the menu "
+#~ "that opens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "layer with a checkerboard defined by "
+#~ "two Colors, and a grid Size."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The grid size can also be set "
+#~ "by using a square gadget with a"
+#~ " handle in the viewer (see  "
+#~ ":ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "layer of the set Color. It can "
+#~ "be used, for example, as a "
+#~ "background color or to create a "
+#~ "colorize effect by applying it combined"
+#~ " with a multiply effect."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The intensity and the angle can "
+#~ "also be set by using an arrow "
+#~ "gadget with a handle in the viewer"
+#~ " (see  :ref:`Using FX Gadgets "
+#~ "<using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The center and the radius can be"
+#~ " also set by using a point and"
+#~ " a circle gadget with a handle "
+#~ "in the viewer (see  :ref:`Using FX "
+#~ "Gadgets <using_fx_gadgets>`  ); the center "
+#~ "can be set in the FX Settings "
+#~ "preview as well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The position of the four points "
+#~ "and their origins can be also set"
+#~ " by using arrow gadgets with handles"
+#~ " at the ends in the viewer (see"
+#~ "  :ref:`Using FX Gadgets <using_fx_gadgets>`  "
+#~ ") and in the FX Settings preview"
+#~ " as well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Distorts the Source content creating a"
+#~ " wave effect that uses an "
+#~ "automatically generated displacement map "
+#~ "image. The Quantity value sets the "
+#~ "number of waves; the Period sets "
+#~ "the distance between waves; the Cycle"
+#~ " shifts distortion in the wave "
+#~ "direction."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also add a Distortion Wave"
+#~ " on the main linear waves: the "
+#~ "Amplitude sets the intensity of the "
+#~ "distortion; the Frequency sets the "
+#~ "number of waves creating the distortion;"
+#~ " the Phase shifts the distorting "
+#~ "waves."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The amount of distortion is controlled"
+#~ " by the Intensity value; the  of "
+#~ "the distortion, by the Size of the"
+#~ " displacement map grid; the sharpen "
+#~ "option allows you to decrease the "
+#~ "blur on the final result."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The horizontal and vertical offset can"
+#~ " also be set by using a point"
+#~ " gadget in the viewer (see  "
+#~ ":ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The position along the horizontal and"
+#~ " vertical axis can also be set "
+#~ "by using a point gadget in the "
+#~ "viewer (see  :ref:`Using FX Gadgets "
+#~ "<using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The center and the period can be"
+#~ " also set by using a point and"
+#~ " a circle gadget with a handle "
+#~ "in the viewer (see  :ref:`Using FX "
+#~ "Gadgets <using_fx_gadgets>`  ); the center "
+#~ "can be set in the FX Settings "
+#~ "preview as well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The amount of distortion is controlled"
+#~ " by the Intensity value; the  of "
+#~ "the warp, by the Size of the "
+#~ "displacement map grid; the sharpen "
+#~ "option allows you to decrease the "
+#~ "blur on the final result."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "gradient, that goes hyperbolically from "
+#~ "the center to the four corners, "
+#~ "defined by a color spectrum (see  "
+#~ ":ref:`Defining Colors and Color Spectrums "
+#~ "<defining_colors_and_color_spectrums>`  ) and a "
+#~ "Size value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The size can also be set by "
+#~ "using a circle gadget with a "
+#~ "handle in the viewer (see  :ref:`Using"
+#~ " FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "gradient defined by four Colors, defined"
+#~ " by Red, Green, Blue and Alpha "
+#~ "values, whose source Points can be "
+#~ "placed where needed defining horizontal "
+#~ "(X) and vertical (Y) coordinates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The source points can also be set"
+#~ " by using point gadgets in the "
+#~ "viewer (see  :ref:`Using FX Gadgets "
+#~ "<using_fx_gadgets>`  ) and in the FX "
+#~ "Settings preview as well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "gradual blend between two Colors defined"
+#~ " by Red, Green, Blue and Alpha "
+#~ "values. The Size controls the area "
+#~ "of the gradient between the two "
+#~ "colors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The size can also be set by "
+#~ "using a gadget with two handles at"
+#~ " the ends in the viewer (see  "
+#~ ":ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "multi linear gradient defined by a "
+#~ "color spectrum (see  :ref:`Defining Colors "
+#~ "and Color Spectrums "
+#~ "<defining_colors_and_color_spectrums>`  ). The "
+#~ "Period value sets the size of a"
+#~ " spectrum gradient; the Quantity is "
+#~ "the number of times the spectrum "
+#~ "is repeated; the Phase shifts the "
+#~ "gradient colors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The period can also be set by "
+#~ "using a gadget with two handles at"
+#~ " the ends in the viewer (see  "
+#~ ":ref:`Using FX Gadgets <using_fx_gadgets>`  )"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "multi radial gradient defined by a "
+#~ "color spectrum (see  :ref:`Defining Colors "
+#~ "and Color Spectrums "
+#~ "<defining_colors_and_color_spectrums>`  ). The "
+#~ "Period value sets the size of a"
+#~ " spectrum gradient; the Quantity is "
+#~ "the number of times the spectrum "
+#~ "is repeated; the Phase shifts the "
+#~ "gradient colors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The period can be also set by "
+#~ "using a circle gadget with a "
+#~ "handle in the viewer (see  :ref:`Using"
+#~ " FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "gradual blend between two colors, "
+#~ "defined by Red, Green, Blue and "
+#~ "Alpha values, shading them in a "
+#~ "circular pattern. The Inner Size "
+#~ "controls the area where the gradient "
+#~ "between the two colors begins; the "
+#~ "Outer Size where it ends."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The inner and outer sizes can be"
+#~ " also set by using circle gadgets "
+#~ "with a handle in the viewer (see"
+#~ "  :ref:`Using FX Gadgets <using_fx_gadgets>`  "
+#~ ")."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "spiral pattern gradient defined by a "
+#~ "color spectrum (see  :ref:`Defining Colors "
+#~ "and Color Spectrums "
+#~ "<defining_colors_and_color_spectrums>`  ). The "
+#~ "Frequency sets the size and number "
+#~ "of the spires; the Phase shifts "
+#~ "the gradient colors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "square gradient, that goes linearly from"
+#~ " the center to the four corners, "
+#~ "defined by a color spectrum (see  "
+#~ ":ref:`Defining Colors and Color Spectrums "
+#~ "<defining_colors_and_color_spectrums>`  ) and a "
+#~ "Size value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The size can also be set by "
+#~ "using a rotated square gadget with "
+#~ "handles in the viewer (see  :ref:`Using"
+#~ " FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Elimantes small imperfections (dirt, "
+#~ "scratches, stains and similar) of the"
+#~ " drawing. The size in pixels of "
+#~ "the s that will be retouched can"
+#~ " be defined in the Size input "
+#~ "text field. The background of the "
+#~ "images can be Transparent or White, "
+#~ "the choise is available in the "
+#~ "Detect On menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the preview area is possible to"
+#~ " check the results to avoid erasing"
+#~ " s relevant for the drawing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adjusts the tonal range of the "
+#~ "Source content by remapping pixels "
+#~ "intensity according to a tonal curve "
+#~ "for the RGB, Red, Green, Blue and"
+#~ " Alpha channels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The horizontal axis of the graph "
+#~ "represents the original brightness levels "
+#~ "of the pixels (Input levels); the "
+#~ "vertical axis represents the new "
+#~ "brightness levels (Output levels)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is possible to use many "
+#~ "adjustment points to correct the curve:"
+#~ " to add a point, click the "
+#~ "curve; to change the curve, use "
+#~ "the point direction handles; to delete"
+#~ " a point, select it and use the"
+#~ " delete shortcut (by default the "
+#~ "Delete button)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Linear option constrains the curve"
+#~ " to a series of straight segments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no Down node is defined, the"
+#~ " adding operation is applied to all"
+#~ " the images underlaying the Up node"
+#~ " content according to the Xsheet "
+#~ "layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no Down node is defined, the"
+#~ " color burning operation is applied "
+#~ "to all the images underlaying the "
+#~ "Up node content according to the "
+#~ "Xsheet layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no Down node is defined, the"
+#~ " color dodging operation is applied "
+#~ "to all the images underlaying the "
+#~ "Up node content according to the "
+#~ "Xsheet layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If only one node is defined, the"
+#~ " darkening operation is applied to "
+#~ "all the images underlaying its content"
+#~ " according to the Xsheet layering "
+#~ "order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If only one node is defined, the"
+#~ " lightening operation is applied to "
+#~ "all the images underlaying the connected"
+#~ " node according to the Xsheet "
+#~ "layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If only one node is defined, the"
+#~ " multiplying operation is applied to "
+#~ "all the images underlaying theupper node"
+#~ " content according to the Xsheet "
+#~ "layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Puts the connected nodes one over "
+#~ "the other. Each time a node is "
+#~ "connected a new port will be "
+#~ "added, this way the overlap of "
+#~ "columns can be defined regardless from"
+#~ " the Xsheet columns order.The columns "
+#~ "order is up to bottom, where the"
+#~ " column connected on the upper port"
+#~ " is over the other ones.This can "
+#~ "be used when you need to combine"
+#~ " several nodes in a single one, "
+#~ "for example to mask several columns "
+#~ "with the same mask."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no Down node is defined, the"
+#~ " screening operation is applied to "
+#~ "all the images underlaying the Up "
+#~ "node content according to the Xsheet "
+#~ "layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If only one node is defined, the"
+#~ " screening operation is applied to "
+#~ "all the images underlaying connected "
+#~ "node content according to the Xsheet "
+#~ "layering order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates a backlit effect, using the "
+#~ "Light node content as a light "
+#~ "source affecting the Source node "
+#~ "content. The light node content can "
+#~ "be also faded to a Color defined"
+#~ " by Red, Green and Blue values, "
+#~ "according to the set Intensity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The distortion can be done like in"
+#~ " the Free Distort effect (see  "
+#~ ":ref:`Free Distort <free_distort>`  ). The "
+#~ "fade Color can be defined by Red,"
+#~ " Green and Blue values and an "
+#~ "Intensity can be set. A different "
+#~ "Blur and Transparency value can be "
+#~ "set for the top and the bottom "
+#~ "part of the Source content, in "
+#~ "order to have a more realistic "
+#~ "shadow."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no Source node is defined, the"
+#~ " glowing is applied to all the "
+#~ "images underlaying the Light node "
+#~ "content according to the Xsheet layering"
+#~ " order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "light spot whose size and color "
+#~ "can be set respectively with the "
+#~ "Width and Height values, and the "
+#~ "Reg, Green, Blue and Alpha values. "
+#~ "The Softness sets the light diffusion"
+#~ " in the area outside the spot."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The width and height can be also"
+#~ " set by using a box gadget with"
+#~ " handles in the viewer (see  "
+#~ ":ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The center can be also set by "
+#~ "using a point gadget in the viewer"
+#~ " (see  :ref:`Using FX Gadgets "
+#~ "<using_fx_gadgets>`  ) and in the FX "
+#~ "Settings preview."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Keep image check-box determines "
+#~ "if the original drawing is rendered "
+#~ "in the output or not."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "light spot whose size and color "
+#~ "can be set respectively with the "
+#~ "Width and Height values, and the "
+#~ "Red, Green, Blue and Alpha values. "
+#~ "The direction of the spot can be"
+#~ " set by defining the Distance of "
+#~ "the light from the table and the"
+#~ " Angle between the light spot "
+#~ "direction and the table. The Decay, "
+#~ "that is the decrease of the light"
+#~ " intensity according to the distance "
+#~ "from table, can be controlled as "
+#~ "well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Type parameter specifies the filter"
+#~ " shape to be applied, the square "
+#~ "filter being faster than the circular."
+#~ " Key"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates in the selected column a "
+#~ "fractal image whose type can be "
+#~ "chosen between Clouds and Marble/Wood. "
+#~ "The Size affect the grid used for"
+#~ " generating the fractal image; a "
+#~ "color spectrum defines the used colors"
+#~ " (see  :ref:`Defining Colors and Color "
+#~ "Spectrums <defining_colors_and_color_spectrums>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This effect allow for the creation "
+#~ "of editable and animatable text, using"
+#~ " the following parameters:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Nearby Note Column**: Get the text "
+#~ "from note level column put on the"
+#~ " directly left side of the Text "
+#~ "Iwa Fx Column in the Xsheet (For"
+#~ " Timeline view, the Note Level layer"
+#~ " just under the Fx Column is "
+#~ "used). If the column does not "
+#~ "contain Note Level or the cell is"
+#~ " empty, text will not be rendered."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Width**, **Height**, define the dimension"
+#~ " of the text box. Just like in"
+#~ " the Text items of the Clapperboard"
+#~ " feature, the font size will be "
+#~ "automatically adjusted in order to fit"
+#~ " the box. (See the  :ref:`Using The"
+#~ " Clapperboard <using_the_clapperboard>` )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "OpenToonz enables support for special "
+#~ "fxs rendered through hardware-accelereted "
+#~ "pixelshaders. Shaders are simple programs "
+#~ "compiled by a graphics processing unit"
+#~ " that harness the massively parallel "
+#~ "architecture of modern graphics devices "
+#~ "to execute with extreme speed. "
+#~ "OpenToonz's shader fxs are written in"
+#~ " the OpenGL Shading Language (GLSL), "
+#~ "and are located in "
+#~ "PROJECTROOT/library/shaders. Refer to the "
+#~ "readme.txt file there for further s "
+#~ "on editing or creating new shader "
+#~ "fxs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create in the selected column a "
+#~ "simulation of the reflection of light"
+#~ " on a water surface. Sets the "
+#~ "color of the water defining the "
+#~ "RGBA values of the Water Color "
+#~ "parameter."
+#~ msgstr ""
+
+#~ msgid "Create in the selected column a ball of flames erupting from a point."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates, in the selected column, a "
+#~ "simple star field with variable "
+#~ "brightness with overlayed clouds. Sets "
+#~ "the color of the overlayed clouds "
+#~ "defining the RGBA values of the "
+#~ "Cloud Color parameter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates, in the selected column, rays"
+#~ " of colored light extending from a"
+#~ " radial gradient at the center. Sets"
+#~ " the color of the sun rays "
+#~ "defining the RGBA values of the "
+#~ "Cloud Color parameter. The number of "
+#~ "rays is defined by the Rays "
+#~ "parameter while their brightness is set"
+#~ " by the Intensity one. The angle "
+#~ "parameter sets the direction of the "
+#~ "rays and the Bias parameter define "
+#~ "the size of the rays. Use the "
+#~ "Sharpness parameter to make the rays "
+#~ "sharper or smoother."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates a simple gradient with a "
+#~ "colored 'wavy' pattern in the selected"
+#~ " column.The waves colors are definied "
+#~ "by setting the RGBA value of the"
+#~ " Color and Color 2 parameters. The"
+#~ " stage of the displacement map image"
+#~ " can be controlled by using the "
+#~ "Evolution value; by setting the "
+#~ "variation of this value between two "
+#~ "keys, you set how much the "
+#~ "displacement map image changes during "
+#~ "the animation."
 #~ msgstr ""
 
