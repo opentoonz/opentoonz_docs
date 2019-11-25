@@ -8,11 +8,9 @@ Installing OpenToonz
 
 Downloading OpenToonz
 ---------------------
-You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or OS X version to start downloading the installer application.
+You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application. Official nightlies bilds you can find `here <https://github.com/opentoonz/opentoonz_nightlies>`_. Other builds HAVE NOT official support.
 
-.. note:: Unofficial releases OpenToonz by Morevna Project for 32-bit Windows can be found `here <https://github.com/morevnaproject/opentoonz/releases>`_.
-
-Currently there is no official support for OpenToonz on Linux, nevertheless with the kind help of the friends of the Morevna Project there are versions available of OpenToonz for Linux, which can be downloaded directly from the `Morevna Project website <https://morevnaproject.org/opentoonz/>`_.
+Also `MorevnaProject <https://github.com/morevnaproject>`_ provide experimental builds for `Windows 32-bit, Windows 64-bit, macOS, appimage <https://github.com/morevnaproject/opentoonz/releases>`_ and `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. OpenToonz eXperimental releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and appimage <https://github.com/manongjohn/OTX/releases>`_.
 
 
 .. _installing_on_windows:
@@ -92,57 +90,40 @@ Follow these steps:
 
  |osx_setup_7| 
 
+Homebrew
+''''''''
 
+``brew cask install opentoonz``
 
 .. _installing_on_linux:
 
 Installing on Linux
 -------------------
 
+.. _arch:
 
-.. _universal_binaries:
+Arch Linux
+''''''''''
 
-Universal binaries
-''''''''''''''''''
+``sudo pacman -S base-devel git``
 
-.. _appimage_by_morevna_project:
+``git clone https://aur.archlinux.org/superlu.git``
 
-AppImage by Morevna Project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``cd superlu``
 
-1. Download AppImage.
+``makepkg -si``
 
-``wget https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage`` for 64-bit OS or ``wget https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage`` for 32-bit OS.
+``cd ..``
 
-2. Make AppImage executable.
+``git clone https://aur.archlinux.org/opentoonz.git``
 
-``chmod a+x OpenToonz*.appimage``
+``cd opentoonz``
 
-3. Run.
+``makepkg -si``
 
-``./OpenToonz*.appimage``
+``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``
 
-.. note:: Builds by Morevna Project contain some experimental features.
-
-.. _flatpak:
-
-Flatpak
-~~~~~~~
-
-1. Installing.
-
-``flatpak install flathub io.github.OpenToonz``
-
-2. Run.
-
-``flatpak run io.github.OpenToonz``
-
-.. _snap:
-
-Snap
-~~~~
-
-``sudo snap install opentoonz``
+``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/opentoonz" >> ~/.bashrc``
 
 .. _debian:
 
@@ -169,39 +150,48 @@ Debian GNU/Linux
 
 .. tip:: For updating enter ``sudo apt update && apt upgrade``.
 
-.. _arch:
+Gentoo, Funtoo
+''''''''''''''
 
-Arch Linux
-''''''''''''
+``sudo emerge media-gfx/opentoonz``
 
-``sudo pacman -S base-devel git``
+openSUSE
+''''''''
 
-``git clone https://aur.archlinux.org/superlu.git``
-
-``cd superlu``
-
-``makepkg -si``
-
-``cd ..``
-
-``git clone https://aur.archlinux.org/opentoonz.git``
-
-``cd opentoonz``
-
-``makepkg -si``
-
-``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``
-
-``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/opentoonz" >> ~/.bashrc``
-
-Gentoo Linux
-''''''''''''
-
-``# emerge media-gfx/opentoonz``
+``sudo zypper install opentoonz``
 
 Solus
 '''''
-``# eopkg install opentoonz``
+
+``sudo eopkg install opentoonz``
+
+Void Linux
+''''''''''
+
+``sudo xbps-install -S opentoonz``
+
+.. _universal_binaries:
+
+Universal binaries
+''''''''''''''''''
+
+Flatpak
+~~~~~~~
+
+1. Installing.
+
+``flatpak install flathub io.github.OpenToonz``
+
+2. Run.
+
+``flatpak run io.github.OpenToonz``
+
+.. _snap:
+
+Snap
+~~~~
+
+``sudo snap install opentoonz``
 
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png
