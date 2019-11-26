@@ -10,7 +10,7 @@ Downloading OpenToonz
 ---------------------
 You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application. It's possible to find the official "nightly" builds `here <https://github.com/opentoonz/opentoonz_nightlies>`_. Other builds ARE NOT officially supported.
 
-Also, the `MorevnaProject <https://github.com/morevnaproject>`_ provides experimental builds for `Windows 32-bit, Windows 64-bit, macOS, appimage <https://github.com/morevnaproject/opentoonz/releases>`_ and `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
+Also, the `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, appimage <https://github.com/morevnaproject/opentoonz/releases>`_ and `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
 Moreover, there are OTX (OpenToonz eXperimental) releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_.
 
 
