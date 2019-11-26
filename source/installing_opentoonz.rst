@@ -8,11 +8,17 @@ Installing OpenToonz
 
 Downloading OpenToonz
 ---------------------
-You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application. It's possible to find the official "nightly" builds `here <https://github.com/opentoonz/opentoonz_nightlies>`_. Other builds ARE NOT officially supported.
+You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application.
 
-Also, the `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, appimage <https://github.com/morevnaproject/opentoonz/releases>`_ and `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
+.. note:: All other builds appart from the ones downloaded from the official web site ARE NOT officially supported.
 
-Finally, there are OTX (OpenToonz eXperimental) releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_.
+It's possible to find the developers' "nightly" builds `here <https://github.com/opentoonz/opentoonz_nightlies>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
+
+.. note:: WARNING: Use at you own risk! This could potentially be a highly unstable build, so it is not adviced to use it in production environments.
+
+Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage <https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
+
+Finally, there are OTX (OpenToonz eXperimental) timely releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_ where it is possible to test the latest features and bug fixes in a portable way (i.e. without the need to do a full OpenToonz install).
 
 
 .. _installing_on_windows:
