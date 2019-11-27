@@ -34,7 +34,7 @@ Styles in the Palette Editor can be displayed in different modes:
 
 - **List View** displays style thumbnails next to their names in a list; the index of the style is displayed as a tooltip. If the palette styles refer to a studio palette, its path will be displayed along with the style name (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  ).
 
-By default the Palette editor is *active*, that means that it automatically displays the styles of the current animation level, but it can be made *inactive* in order not to be updated when you select a different level. In this way, by opening more than one Palette editor it will be possible to compare and edit serveral palettes referring to different animation levels, at the same time.
+By default the Palette editor is *active*, that means that it automatically displays the styles of the current animation level, but it can be made *inactive* in order not to be updated when you select a different level. In this way, by opening more than one Palette editor it will be possible to compare and edit several palettes referring to different animation levels, at the same time.
 
 Palettes also can be saved as independent files in TPL format to be loaded back into the scene to retrieve colors, or to be used with the **External Palette** effect (see  :ref:`Using the File Browser <using_the_file_browser>`  and  :ref:`External Palette <external_palette>`  ).
 
