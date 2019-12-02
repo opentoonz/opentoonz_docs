@@ -12,7 +12,7 @@ You can download the appropriate version of OpenToonz for your operating system 
 
 .. note:: All other builds appart from the ones downloaded from the official web site ARE NOT officially supported.
 
-It's possible to find the developers' "nightly" builds `here <https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
+It's possible to find the developer's "nightly" builds `here <https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
 
 .. note:: WARNING: Use at you own risk! This could potentially be a highly unstable build, so it is not adviced to use it in production environments.
 
