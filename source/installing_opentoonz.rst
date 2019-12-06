@@ -14,7 +14,7 @@ You can download the appropriate version of OpenToonz for your operating system 
 
 It's possible to find the developer's "nightly" builds `here <https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
 
-.. note:: WARNING: Use at you own risk! This could potentially be a highly unstable build, so it is not adviced to use it in production environments.
+.. note:: WARNING: Use at you own risk! The Nightly Build version could potentially be a highly unstable one, so it is not adviced to use it in production environments.
 
 Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage <https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
 
