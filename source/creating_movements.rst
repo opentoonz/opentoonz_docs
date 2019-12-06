@@ -474,6 +474,8 @@ When the Animation tool is in **All** mode, you can also interactively control t
 
 .. note:: As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform. 
 
+.. note:: For greater precision it is possible to keep the **Alt** key depressed before starting to perform any transformation. 
+
 - **Position:** Click and drag anywhere to move the object; if the **Shift** key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction.
 
 - **Rotate:** Click and drag the circle end to rotate the object;
