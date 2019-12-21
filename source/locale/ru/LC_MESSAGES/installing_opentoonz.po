@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 13:46+0800\n"
+"POT-Creation-Date: 2019-12-22 00:04+0800\n"
 "PO-Revision-Date: 2019-05-07 13:49+0800\n"
 "Last-Translator: user <surkow.aleksandr@gmail.com>\n"
 "Language: ru_RU\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Lokalize 2.0\n"
 
 #: ../../source/installing_opentoonz.rst:4
 msgid "Installing OpenToonz"
@@ -29,11 +28,12 @@ msgid "Downloading OpenToonz"
 msgstr "Скачивание OpenToonz"
 
 #: ../../source/installing_opentoonz.rst:11
+#, fuzzy
 msgid ""
 "You can download the appropriate version of OpenToonz for your operating "
 "system from the `Download page "
 "<https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official"
-" OpenToonz web site. Choose either the Windows or OS X version to start "
+" OpenToonz web site. Choose either the Windows or macOS version to start "
 "downloading the installer application."
 msgstr ""
 "Вы можете загрузить соответствующую версию OpenToonz для вашей "
@@ -44,51 +44,68 @@ msgstr ""
 
 #: ../../source/installing_opentoonz.rst:13
 msgid ""
-"Unofficial releases OpenToonz by Morevna Project for 32-bit Windows can "
-"be found `here <https://github.com/morevnaproject/opentoonz/releases>`_."
+"All other builds appart from the ones downloaded from the official web "
+"site ARE NOT officially supported."
 msgstr ""
-"Неофициальные выпуски OpenToonz от Morevna Project для 32-битных Windows "
-"можно найти `здесь "
-"<https://github.com/morevnaproject/opentoonz/releases>`_."
 
 #: ../../source/installing_opentoonz.rst:15
 msgid ""
-"Currently there is no official support for OpenToonz on Linux, "
-"nevertheless with the kind help of the friends of the Morevna Project "
-"there are versions available of OpenToonz for Linux, which can be "
-"downloaded directly from the `Morevna Project website "
-"<https://morevnaproject.org/opentoonz/>`_."
+"It's possible to find the developer's \"nightly\" builds `here "
+"<https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where "
+"you can test the latest features and bug fixes, as they are being "
+"included in OpenToonz."
 msgstr ""
-"В настоящее время официальной поддержки OpenToonz для Linux нет, но с "
-"любезной помощью друзей проекта Morevna доступны версии OpenToonz для "
-"Linux, которые можно загрузить непосредственно с `веб-сайта проекта "
-"Morevna <https: // morevnaproject. орг / opentoonz />`_."
+
+#: ../../source/installing_opentoonz.rst:17
+msgid ""
+"WARNING: Use at you own risk! The Nightly Build version could potentially"
+" be a highly unstable one, so it is not adviced to use it in production "
+"environments."
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:19
+msgid ""
+"Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides "
+"builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage "
+"<https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap"
+" <https://snapcraft.io/opentoonz-morevna>`_ for Linux."
+msgstr ""
 
 #: ../../source/installing_opentoonz.rst:21
+msgid ""
+"Finally, there are OTX (OpenToonz eXperimental) timely releases by "
+"`manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows "
+"64-bit, macOS and in appimage format "
+"<https://github.com/manongjohn/OTX/releases>`_ where it is possible to "
+"test the latest features and bug fixes in a portable way (i.e. without "
+"the need to do a full OpenToonz install)."
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:27
 msgid "Installing on Windows"
 msgstr "Установка на Windows"
 
-#: ../../source/installing_opentoonz.rst:22
+#: ../../source/installing_opentoonz.rst:28
 msgid "Execute the OpenToonzSetup.exe file and follow these steps:"
 msgstr "Запустите файл OpenToonzSetup.exe и выполните следующие действия:"
 
-#: ../../source/installing_opentoonz.rst:25
+#: ../../source/installing_opentoonz.rst:31
 msgid "Choose the language for the installer messages."
 msgstr "Выберите язык для сообщений установщика."
 
-#: ../../source/installing_opentoonz.rst:27
+#: ../../source/installing_opentoonz.rst:33
 msgid "|win_setup_1|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:30
+#: ../../source/installing_opentoonz.rst:36
 msgid "Accept OpenToonz Terms of Use."
 msgstr "Примите условия использования OpenToonz."
 
-#: ../../source/installing_opentoonz.rst:32
+#: ../../source/installing_opentoonz.rst:38
 msgid "|win_setup_2|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:35
+#: ../../source/installing_opentoonz.rst:41
 msgid ""
 "Decide where to install the **OpenToonz stuff** folder and if you wish to"
 " overwrite any settings in a preexisting OpenToonz stuff folder in the "
@@ -99,23 +116,22 @@ msgstr ""
 "перезаписать какие-либо настройки в существующей папке OpenToonz в "
 "выбранном месте (кроме личных настроек пользовате"
 
-#: ../../source/installing_opentoonz.rst:37
+#: ../../source/installing_opentoonz.rst:43
 msgid "|win_setup_3|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:40
+#: ../../source/installing_opentoonz.rst:46
 msgid ""
 "Decide whether or not to create a desktop icon during the installation "
 "process."
-msgstr ""
-"Решите, следует ли создавать значок на рабочем столе в процессе установки."
+msgstr "Решите, следует ли создавать значок на рабочем столе в процессе установки."
 
-#: ../../source/installing_opentoonz.rst:42
+#: ../../source/installing_opentoonz.rst:48
 msgid "|win_setup_4|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:45
-#: ../../source/installing_opentoonz.rst:86
+#: ../../source/installing_opentoonz.rst:51
+#: ../../source/installing_opentoonz.rst:92
 msgid ""
 "Press the Install button to start the installation process with the "
 "chosen settings."
@@ -123,60 +139,59 @@ msgstr ""
 "Нажмите кнопку Установить, чтобы начать процесс установки с выбранными "
 "настройками."
 
-#: ../../source/installing_opentoonz.rst:47
+#: ../../source/installing_opentoonz.rst:53
 msgid "|win_setup_5|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:50
+#: ../../source/installing_opentoonz.rst:56
 msgid ""
 "Decide whether or not to Launch OpenToonz right away after closing the "
 "installer."
 msgstr "Решите, стоит ли запускать OpenToonz сразу после закрытия установщика."
 
-#: ../../source/installing_opentoonz.rst:52
+#: ../../source/installing_opentoonz.rst:58
 msgid "|win_setup_6|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:59
+#: ../../source/installing_opentoonz.rst:65
 msgid "Installing on OS X"
 msgstr "Установка на OS X"
 
-#: ../../source/installing_opentoonz.rst:60
+#: ../../source/installing_opentoonz.rst:66
 msgid "Follow these steps:"
 msgstr "Следуй этим шагам:"
 
-#: ../../source/installing_opentoonz.rst:63
+#: ../../source/installing_opentoonz.rst:69
 msgid "Right-click on the OpenToonz.pkg file in Finder & select Open."
 msgstr ""
 "Щелкните правой кнопкой мыши файл OpenToonz.pkg в Finder и выберите "
 "«Открыть»."
 
-#: ../../source/installing_opentoonz.rst:66
+#: ../../source/installing_opentoonz.rst:72
 msgid "Press the Continue button."
 msgstr "Нажмите кнопку Продолжить."
 
-#: ../../source/installing_opentoonz.rst:68
+#: ../../source/installing_opentoonz.rst:74
 msgid "|osx_setup_2|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:71
+#: ../../source/installing_opentoonz.rst:77
 msgid "Choose a language and press the Continue button."
 msgstr "Выберите язык и нажмите кнопку «Продолжить»."
 
-#: ../../source/installing_opentoonz.rst:73
+#: ../../source/installing_opentoonz.rst:79
 msgid "|osx_setup_3|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:76
+#: ../../source/installing_opentoonz.rst:82
 msgid "Press the Agree button to accept the OpenToonz Terms of Use."
-msgstr ""
-"Нажмите кнопку «Согласен», чтобы принять Условия использования OpenToonz."
+msgstr "Нажмите кнопку «Согласен», чтобы принять Условия использования OpenToonz."
 
-#: ../../source/installing_opentoonz.rst:78
+#: ../../source/installing_opentoonz.rst:84
 msgid "|osx_setup_4|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:81
+#: ../../source/installing_opentoonz.rst:87
 msgid ""
 "Select the install destination (will be Macintosh HD unless multiple "
 "disks are available) and press the Continue button."
@@ -184,207 +199,187 @@ msgstr ""
 "Выберите место установки (будет Macintosh HD, если не доступно несколько "
 "дисков) и нажмите кнопку «Продолжить»."
 
-#: ../../source/installing_opentoonz.rst:83
+#: ../../source/installing_opentoonz.rst:89
 msgid "|osx_setup_5|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:88
+#: ../../source/installing_opentoonz.rst:94
 msgid "|osx_setup_6|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:91
+#: ../../source/installing_opentoonz.rst:97
 msgid "Press the Close button to exit the installer."
 msgstr "Нажмите кнопку Закрыть, чтобы выйти из программы установки."
 
-#: ../../source/installing_opentoonz.rst:93
+#: ../../source/installing_opentoonz.rst:99
 msgid "|osx_setup_7|"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:100
+#: ../../source/installing_opentoonz.rst:102
+msgid "Homebrew"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:104
+msgid "``brew cask install opentoonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:109
 msgid "Installing on Linux"
 msgstr "Установка на Linux"
 
-#: ../../source/installing_opentoonz.rst:106
-msgid "Universal binaries"
-msgstr "Универсальные бинарные файлы"
-
-#: ../../source/installing_opentoonz.rst:111
-msgid "AppImage by Morevna Project"
-msgstr "AppImage от Моревны Проект"
-
-#: ../../source/installing_opentoonz.rst:113
-msgid "Download AppImage."
-msgstr "Загрузите AppImage."
-
-#: ../../source/installing_opentoonz.rst:115
-msgid ""
-"``wget "
-"https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/O"
-"penToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
-" for 64-bit OS or ``wget "
-"https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/O"
-"penToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
-" for 32-bit OS."
-msgstr ""
-"``wget "
-"https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/O"
-"penToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
-" для 64-битных ОС или ``wget "
-"https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/O"
-"penToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
-" для 32-битных."
-
-#: ../../source/installing_opentoonz.rst:117
-msgid "Make AppImage executable."
-msgstr "Сделайте AppImage исполняемым. "
-
-#: ../../source/installing_opentoonz.rst:119
-msgid "``chmod a+x OpenToonz*.appimage``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:121
-#: ../../source/installing_opentoonz.rst:136
-msgid "Run."
-msgstr "Беги."
-
-#: ../../source/installing_opentoonz.rst:123
-msgid "``./OpenToonz*.appimage``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:125
-msgid "Builds by Morevna Project contain some experimental features."
-msgstr ""
-"Сборки по проекту Morevna содержат некоторые экспериментальные функции."
-
-#: ../../source/installing_opentoonz.rst:130
-msgid "Flatpak"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:132
-msgid "Installing."
-msgstr "Установка."
-
-#: ../../source/installing_opentoonz.rst:134
-msgid "``flatpak install flathub io.github.OpenToonz``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:138
-msgid "``flatpak run io.github.OpenToonz``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:143
-msgid "Snap"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:145
-msgid "``sudo snap install opentoonz``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:150
-msgid "Debian GNU/Linux"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:152
-msgid "Download PGP signing key package."
-msgstr "Загрузите пакет ключа подписи PGP."
-
-#: ../../source/installing_opentoonz.rst:154
-msgid ""
-"``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring"
-"/deb-multimedia-keyring_2016.8.1_all.deb``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:156
-msgid "Install PGP package."
-msgstr "Установите пакет PGP."
-
-#: ../../source/installing_opentoonz.rst:158
-msgid "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:160
-msgid "Add repository address to your sources list."
-msgstr "Добавьте адрес хранилища в список источников."
-
-#: ../../source/installing_opentoonz.rst:162
-msgid ""
-"``sudo echo \"deb http://www.deb-multimedia.org stable main\" | tee -a "
-"/etc/apt/sources.list`` Builds for testing and sid also avalaible."
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:164
-msgid "Debian packages avalaible only for amd64, arm64 and i386 architectures."
-msgstr "Пакеты Debian доступны только для архитектур amd64, arm64 и i386."
-
-#: ../../source/installing_opentoonz.rst:166
-msgid "Install OpenToonz."
-msgstr "Установите OpenToonz."
-
-#: ../../source/installing_opentoonz.rst:168
-msgid "``sudo apt update && apt install opentoonz opentoonz-data``"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:170
-msgid "For updating enter ``sudo apt update && apt upgrade``."
-msgstr "Для обновления введите `` sudo apt update && apt upgrade``."
-
-#: ../../source/installing_opentoonz.rst:175
+#: ../../source/installing_opentoonz.rst:114
 msgid "Arch Linux"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:177
+#: ../../source/installing_opentoonz.rst:116
 msgid "``sudo pacman -S base-devel git``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:179
+#: ../../source/installing_opentoonz.rst:118
 msgid "``git clone https://aur.archlinux.org/superlu.git``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:181
+#: ../../source/installing_opentoonz.rst:120
 msgid "``cd superlu``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:183
-#: ../../source/installing_opentoonz.rst:191
+#: ../../source/installing_opentoonz.rst:122
+#: ../../source/installing_opentoonz.rst:130
 msgid "``makepkg -si``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:185
+#: ../../source/installing_opentoonz.rst:124
 msgid "``cd ..``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:187
+#: ../../source/installing_opentoonz.rst:126
 msgid "``git clone https://aur.archlinux.org/opentoonz.git``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:189
+#: ../../source/installing_opentoonz.rst:128
 msgid "``cd opentoonz``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:193
+#: ../../source/installing_opentoonz.rst:132
 msgid "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:195
+#: ../../source/installing_opentoonz.rst:134
 msgid ""
 "``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/opentoonz\" "
 ">> ~/.bashrc``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:198
-msgid "Gentoo Linux"
+#: ../../source/installing_opentoonz.rst:139
+msgid "Debian GNU/Linux"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:200
-msgid "``# emerge media-gfx/opentoonz``"
+#: ../../source/installing_opentoonz.rst:141
+msgid "Download PGP signing key package."
+msgstr "Загрузите пакет ключа подписи PGP."
+
+#: ../../source/installing_opentoonz.rst:143
+msgid ""
+"``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring"
+"/deb-multimedia-keyring_2016.8.1_all.deb``"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:203
+#: ../../source/installing_opentoonz.rst:145
+msgid "Install PGP package."
+msgstr "Установите пакет PGP."
+
+#: ../../source/installing_opentoonz.rst:147
+msgid "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:149
+msgid "Add repository address to your sources list."
+msgstr "Добавьте адрес хранилища в список источников."
+
+#: ../../source/installing_opentoonz.rst:151
+msgid ""
+"``sudo echo \"deb http://www.deb-multimedia.org stable main\" | tee -a "
+"/etc/apt/sources.list`` Builds for testing and sid also avalaible."
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:153
+msgid "Debian packages avalaible only for amd64, arm64 and i386 architectures."
+msgstr "Пакеты Debian доступны только для архитектур amd64, arm64 и i386."
+
+#: ../../source/installing_opentoonz.rst:155
+msgid "Install OpenToonz."
+msgstr "Установите OpenToonz."
+
+#: ../../source/installing_opentoonz.rst:157
+msgid "``sudo apt update && apt install opentoonz opentoonz-data``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:159
+msgid "For updating enter ``sudo apt update && apt upgrade``."
+msgstr "Для обновления введите `` sudo apt update && apt upgrade``."
+
+#: ../../source/installing_opentoonz.rst:162
+msgid "Gentoo, Funtoo"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:164
+msgid "``sudo emerge media-gfx/opentoonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:167
+msgid "openSUSE"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:169
+msgid "``sudo zypper install opentoonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:172
 msgid "Solus"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:204
-msgid "``# eopkg install opentoonz``"
+#: ../../source/installing_opentoonz.rst:174
+msgid "``sudo eopkg install opentoonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:177
+msgid "Void Linux"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:179
+msgid "``sudo xbps-install -S opentoonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:184
+msgid "Universal binaries"
+msgstr "Универсальные бинарные файлы"
+
+#: ../../source/installing_opentoonz.rst:187
+msgid "Flatpak"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:189
+msgid "Installing."
+msgstr "Установка."
+
+#: ../../source/installing_opentoonz.rst:191
+msgid "``flatpak install flathub io.github.OpenToonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:193
+msgid "Run."
+msgstr "Беги."
+
+#: ../../source/installing_opentoonz.rst:195
+msgid "``flatpak run io.github.OpenToonz``"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:200
+msgid "Snap"
+msgstr ""
+
+#: ../../source/installing_opentoonz.rst:202
+msgid "``sudo snap install opentoonz``"
 msgstr ""
 
 #~ msgid ""
@@ -393,5 +388,74 @@ msgstr ""
 #~ " for 64-bit OS or ``wget "
 #~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
 #~ " for 32-bit OS."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Unofficial releases OpenToonz by Morevna "
+#~ "Project for 32-bit Windows can be "
+#~ "found `here "
+#~ "<https://github.com/morevnaproject/opentoonz/releases>`_."
+#~ msgstr ""
+#~ "Неофициальные выпуски OpenToonz от Morevna "
+#~ "Project для 32-битных Windows можно "
+#~ "найти `здесь "
+#~ "<https://github.com/morevnaproject/opentoonz/releases>`_."
+
+#~ msgid ""
+#~ "Currently there is no official support"
+#~ " for OpenToonz on Linux, nevertheless "
+#~ "with the kind help of the friends"
+#~ " of the Morevna Project there are "
+#~ "versions available of OpenToonz for "
+#~ "Linux, which can be downloaded directly"
+#~ " from the `Morevna Project website "
+#~ "<https://morevnaproject.org/opentoonz/>`_."
+#~ msgstr ""
+#~ "В настоящее время официальной поддержки "
+#~ "OpenToonz для Linux нет, но с "
+#~ "любезной помощью друзей проекта Morevna "
+#~ "доступны версии OpenToonz для Linux, "
+#~ "которые можно загрузить непосредственно с "
+#~ "`веб-сайта проекта Morevna <https: // "
+#~ "morevnaproject. орг / opentoonz />`_."
+
+#~ msgid "AppImage by Morevna Project"
+#~ msgstr "AppImage от Моревны Проект"
+
+#~ msgid "Download AppImage."
+#~ msgstr "Загрузите AppImage."
+
+#~ msgid ""
+#~ "``wget "
+#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
+#~ " for 64-bit OS or ``wget "
+#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
+#~ " for 32-bit OS."
+#~ msgstr ""
+#~ "``wget "
+#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
+#~ " для 64-битных ОС или ``wget "
+#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
+#~ " для 32-битных."
+
+#~ msgid "Make AppImage executable."
+#~ msgstr "Сделайте AppImage исполняемым. "
+
+#~ msgid "``chmod a+x OpenToonz*.appimage``"
+#~ msgstr ""
+
+#~ msgid "``./OpenToonz*.appimage``"
+#~ msgstr ""
+
+#~ msgid "Builds by Morevna Project contain some experimental features."
+#~ msgstr "Сборки по проекту Morevna содержат некоторые экспериментальные функции."
+
+#~ msgid "Gentoo Linux"
+#~ msgstr ""
+
+#~ msgid "``# emerge media-gfx/opentoonz``"
+#~ msgstr ""
+
+#~ msgid "``# eopkg install opentoonz``"
 #~ msgstr ""
 
