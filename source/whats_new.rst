@@ -9,15 +9,23 @@ Here, you can also find past versions' Release Notes, to keep track of OpenToonz
 
 .. _v1.4:
 
-OpenToonz 1.4
--------------
+v1.4
+----
 
 .. _new_features:
 
 New Features
 ''''''''''''
 
-List of new features in v1.4.
+(list of new features in v1.4)
+
+
+.. _enhancements:
+
+Enhancements
+''''''''''''
+
+(list of enhancements in v1.4)
 
 
 .. _bug_fixes:
@@ -25,7 +33,7 @@ List of new features in v1.4.
 Bug Fixes
 '''''''''
 
-List of bug fixes in v1.4.
+For a list of the most recent bug fixes, please see the full `**v1.4 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_ hosted in GitHub.
 
 
 
