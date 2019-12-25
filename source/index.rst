@@ -21,6 +21,7 @@ OpenToonz User Manual
 
    installing_opentoonz
    using_ffmpeg_with_opentoonz
+   whats_new
    
 .. toctree::
    :maxdepth: 2
