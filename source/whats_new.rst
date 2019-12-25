@@ -3,6 +3,8 @@
 What's New in OpenToonz
 =======================
 
+.. note:: WARNING: This is a Preview page, not fully functional yet. Stay tuned!
+
 In this section you can find a list of things that have changed in OpenToonz since the previous release, these may include new features, bug fixes or enhancements to already existent features.
 Here, you can also find past versions' Release Notes, to keep track of OpenToonz development history throughout time.
 
