@@ -20,13 +20,15 @@ msgstr ""
 #: ../../source/using_the_version_control.rst:4
 #: ../../source/using_the_version_control.rst:204
 msgid "Using the Version Control System"
-msgstr ""
+msgstr "Использование системы контроля версий"
 
 #: ../../source/using_the_version_control.rst:5
 msgid ""
 "The version control system keeps in a central repository a constant "
 "history of revisions for every file in the production database."
 msgstr ""
+"Система контроля версий хранит в центральном хранилище всю "
+"историю изменений для каждого файла в базе данных производства.»
 
 #: ../../source/using_the_version_control.rst:7
 msgid ""
@@ -35,6 +37,10 @@ msgid ""
 "while the local copy of files, called **working copy**, at a specific "
 "time or revision, should be located on the computer you use."
 msgstr ""
+" **центральное хранилище** должно находиться на общем ресурсе (это может"
+" быть компьютер в вашей локальной сети или реппозиторий в интернет), "
+"локальные копии файлов, называют **working copy**, с отметкой "
+"времени или ревизии, должны находиться на компьютере, который вы используете."
 
 #: ../../source/using_the_version_control.rst:9
 msgid ""
@@ -43,6 +49,10 @@ msgid ""
 "on the file and you want to submit the changes, you can *put* it back "
 "from your working copy to the central repository."
 msgstr ""
+"Когда вам нужно работать над файлом, вы можете *get* (взять) его из центрального "
+"хранилища (реппозитория) в вашу рабочую копию, и *edit* (редактировать) его; по окончании редактирования "
+"файла, решив что вы хотите предоставить изменения, вы можете *put* (положить) его назад  "
+"из вашей рабочей копии в центральное хранилище."
 
 #: ../../source/using_the_version_control.rst:11
 msgid ""
@@ -52,6 +62,11 @@ msgid ""
 "case a previous version of the file is needed, it is always possible to "
 "retrieve it from the central repository."
 msgstr ""
+"файл который вы *put* будет сохранен в качестве последнего изменения (ревизии) файла, "
+"предыдущие изменения будут сохранены в истории файла, и все пользователи "
+"того же реппозитория смогут *get* этот файл. В "
+"случае когда предыдущая версия файла потребуется, вы всегда можете "
+"извлечь ее из центрального реппозитория."
 
 #: ../../source/using_the_version_control.rst:13
 msgid ""
@@ -59,6 +74,9 @@ msgid ""
 "one of the most popular version control systems, used in many high-scale "
 "open source projects."
 msgstr ""
+"OpenToonz поддерживает систему контроля версий **Subversion** , это "
+"одна из самых систем управления популярной версии, используется во многих масштабных "
+"проектов с открытым исходным кодом (куда более популярна система GIT (прим. перев.))."
 
 #: ../../source/using_the_version_control.rst:15
 msgid ""
@@ -68,10 +86,15 @@ msgid ""
 "central repository instead of the projectroot (see  :ref:`Managing "
 "Projects <managing_projects>`  )."
 msgstr ""
+"Установка *центрального реппозитория* для вашей системы контроля версий подобно "
+"на корневую папку проекта (projectroot) OpenToonz, поэтому управление проектом "
+"в рамках системы контроля версий такое же, только ссылается на "
+"центральный реппозиторий а не на projectroot (см.  :ref:`Managing "
+"Projects <managing_projects>`  )."
 
 #: ../../source/using_the_version_control.rst:21
 msgid "Installing the Version Control System"
-msgstr ""
+msgstr "Установка системы контроля версий"
 
 #: ../../source/using_the_version_control.rst:22
 msgid ""
@@ -79,10 +102,13 @@ msgid ""
 "stores all of your files in a central repository, and a client is used to"
 " *get* files to your working copy and *put* file changes to the server."
 msgstr ""
+"Система контроля версий работает как клиент/серверн инструмент: сервер "
+"хранит все файлы в центральном хранилище, и клиент используется чтобы"
+" *get* файлы в вашу рабочую копию и *put* изменения файлов на сервер."
 
 #: ../../source/using_the_version_control.rst:25
 msgid "Installing the Version Control Server"
-msgstr ""
+msgstr "Установка сервера контроля версий"
 
 #: ../../source/using_the_version_control.rst:27
 msgid ""
@@ -90,20 +116,25 @@ msgid ""
 "version control server by installing **Subversion 1.6** or later, or it's"
 " possible to use an on-line service (e.g. Assembla)."
 msgstr ""
+"Можно настроить компьютер в той же локальной сети, что и "
+"сервер управления версиями, установив **Subversion 1.6** или более поздней версии, или"
+" можно использовать онлайн-сервис (например Assembla (или, вероятно, github (прим. переводчика)))."
 
 #: ../../source/using_the_version_control.rst:29
 msgid ""
 "You can go to the `Subversion starting page "
 "<http://subversion.apache.org/>`_ for downloading it."
 msgstr ""
+"Вы можете перейти к `Subversion starting page "
+"<http://subversion.apache.org/>`_ чтобы загрузить её."
 
 #: ../../source/using_the_version_control.rst:31
 msgid "Contact your system administrator to configure a version control server."
-msgstr ""
+msgstr "Обратитесь к системному администратору для настройки сервера управления версиями."
 
 #: ../../source/using_the_version_control.rst:37
 msgid "Installing the Version Control Client on Windows"
-msgstr ""
+msgstr "Установка клиента контроля версий на Windows,"
 
 #: ../../source/using_the_version_control.rst:38
 msgid ""
