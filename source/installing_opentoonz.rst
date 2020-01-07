@@ -57,7 +57,10 @@ Execute the OpenToonzSetup.exe file and follow these steps:
 
  |win_setup_6| 
 
+Chocolatey
+''''''''''
 
+``choco install opentoonz``
 
 .. _installing_on_os_x:
 
