@@ -84,7 +84,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 
 |test|
-
+|test|
 
 .. |new| image:: /_static/whats_new/new.png
 .. |enhancement| image:: /_static/whats_new/enhancement.png
