@@ -18,7 +18,7 @@ v1.4
 Highlights
 ''''''''''
 
-- *New* **Vector Guided Drawing Controls** panel and options.
+- |new| **Vector Guided Drawing Controls** panel and options.
 - *New* **Fill Tool for Raster Levels**.
 - *New* **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
 - *New* **Camera Column** in Xsheet/Timeline.
@@ -38,7 +38,7 @@ Highlights
 - *New* Effects Help Files in **English and Spanish**.
 - *New* OpenToonz Manual **Spanish** translation.
 - *New* **Execute Toonz scripts from commandline**.
-- *Enhancement* **Updated/Reorganized Menus**.
+- |enhancement| **Updated/Reorganized Menus**.
 - *Enhancement* Level Settings window can now **adjust Multiple Selected levels**.
 - *Enhancement* **Double-click in Load Scene and Load Level dialogs** to open files.
 - *Enhancement* Allow to **Copy Selections from Read Only Levels**.
@@ -50,7 +50,7 @@ Highlights
 - *Enhancement* Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
 - *Enhancement* Make vector **Control Points easier to select**.
 - *Enhancement* **Improved Sound Quality on Linux** for Playback and Scrubbing.
-- *Fix* **Transparent QuickTime Output**.
+- |fix| **Transparent QuickTime Output**.
 
 
 For the full list of new features, enhancements and bug fixes, please see the `**v1.4 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_ hosted in GitHub.
@@ -85,4 +85,11 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 
 
-.. |test_image| image:: /_static/whatsnew/test_image.png
+.. |new| image:: /_static/whats_new/new.png
+.. |enhancement| image:: /_static/whats_new/enhancement.png
+.. |fix| image:: /_static/whats_new/fix.png
+
+.. |new_es| image:: /_static/whats_new/es/new.png
+.. |enhancement_es| image:: /_static/whats_new/es/enhancement.png
+.. |fix_es| image:: /_static/whats_new/es/fix.png
+
