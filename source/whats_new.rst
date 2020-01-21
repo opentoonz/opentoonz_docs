@@ -83,6 +83,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 `**v1.0 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0>`_
 
 
+|test|
 
 
 .. |new| image:: /_static/whats_new/new.png
