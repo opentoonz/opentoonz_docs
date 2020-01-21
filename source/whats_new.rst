@@ -19,37 +19,37 @@ Highlights
 ''''''''''
 
 - |new| **Vector Guided Drawing Controls** panel and options.
-- *New* **Fill Tool for Raster Levels**.
-- *New* **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
-- *New* **Camera Column** in Xsheet/Timeline.
-- *New* **Short Play** Feature.
-- *New* **XDTS File Support** (Celsys and Toei Animation xsheet file format Import/Export).
-- *New* Cache folder location & **Clear Cache Command**.
-- *New* **Context Aware Toolbar**.
-- *New* **Create Blank Drawing** command.
-- *New* Effect: **Corridor Gradient Iwa**.
-- *New* Effect: **Spin Gradient Iwa**.
-- *New* **Geometry Tool Driven Motion Paths**.
-- *New* **Shortcuts** for Next/Previous Keyframe commands.
-- *New* **Pencil Mode** for Toonz Raster Eraser in Freehand and Polyline types.
-- *New* **Swap Colors Button** for Gradient effects.
-- *New* **Color settings** for Viewer in Level editing mode.
-- *New* (Initial) Korean UI Translation.
-- *New* Effects Help Files in **English and Spanish**.
-- *New* OpenToonz Manual **Spanish** translation.
-- *New* **Execute Toonz scripts from commandline**.
+- |new| **Fill Tool for Raster Levels**.
+- |new| **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
+- |new| **Camera Column** in Xsheet/Timeline.
+- |new| **Short Play** Feature.
+- |new| **XDTS File Support** (Celsys and Toei Animation xsheet file format Import/Export).
+- |new| Cache folder location & **Clear Cache Command**.
+- |new| **Context Aware Toolbar**.
+- |new| **Create Blank Drawing** command.
+- |new| Effect: **Corridor Gradient Iwa**.
+- |new| Effect: **Spin Gradient Iwa**.
+- |new| **Geometry Tool Driven Motion Paths**.
+- |new| **Shortcuts** for Next/Previous Keyframe commands.
+- |new| **Pencil Mode** for Toonz Raster Eraser in Freehand and Polyline types.
+- |new| **Swap Colors Button** for Gradient effects.
+- |new| **Color settings** for Viewer in Level editing mode.
+- |new| (Initial) Korean UI Translation.
+- |new| Effects Help Files in **English and Spanish**.
+- |new| OpenToonz Manual **Spanish** translation.
+- |new| **Execute Toonz scripts from commandline**.
 - |enhancement| **Updated/Reorganized Menus**.
-- *Enhancement* Level Settings window can now **adjust Multiple Selected levels**.
-- *Enhancement* **Double-click in Load Scene and Load Level dialogs** to open files.
-- *Enhancement* Allow to **Copy Selections from Read Only Levels**.
-- *Enhancement* PSD and FFmpeg loaded levels are now **Read Only**.
-- *Enhancement* **Hide Inbetween Values** option in Function Editor Spreadsheet.
-- *Enhancement* **Step / Interpolation change** for multiple selected Keyframes in Function Editor.
-- *Enhancement* Animate Tool: Precise control using **Alt** key.
-- *Enhancement* Brush Tool: Remember last brush preset used.
-- *Enhancement* Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
-- *Enhancement* Make vector **Control Points easier to select**.
-- *Enhancement* **Improved Sound Quality on Linux** for Playback and Scrubbing.
+- *|enhancement|* Level Settings window can now **adjust Multiple Selected levels**.
+- *|enhancement|* **Double-click in Load Scene and Load Level dialogs** to open files.
+- *|enhancement|* Allow to **Copy Selections from Read Only Levels**.
+- *|enhancement|* PSD and FFmpeg loaded levels are now **Read Only**.
+- *|enhancement|* **Hide Inbetween Values** option in Function Editor Spreadsheet.
+- *|enhancement|* **Step / Interpolation change** for multiple selected Keyframes in Function Editor.
+- *|enhancement|* Animate Tool: Precise control using **Alt** key.
+- *|enhancement|* Brush Tool: Remember last brush preset used.
+- *|enhancement|* Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
+- *|enhancement|* Make vector **Control Points easier to select**.
+- *|enhancement|* **Improved Sound Quality on Linux** for Playback and Scrubbing.
 - |fix| **Transparent QuickTime Output**.
 
 
