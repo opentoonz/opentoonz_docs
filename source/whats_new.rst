@@ -5,7 +5,7 @@ What's New in OpenToonz
 
 .. note:: WARNING: This is a Preview page, not fully functional yet. Stay tuned!
 
-In this section you can find the list of highlights in each new release of OpenToonz, these may include new features, bug fixes or enhancements to already existent features.
+In this section you can find a list of Highlights in the latest release of OpenToonz; these may include New Features, Bug Fixes or Enhancements to already existent features.
 Here, you can also find links to past versions' Release Notes, to keep track of OpenToonz development history throughout time.
 
 
@@ -32,11 +32,10 @@ Highlights
 - |new| **Geometry Tool Driven Motion Paths**.
 - |new| **Shortcuts** for Next/Previous Keyframe commands.
 - |new| **Pencil Mode** for Toonz Raster Eraser in Freehand and Polyline types.
-- |new| **Swap Colors Button** for Gradient effects.
-- |new| **Color settings** for Viewer in Level editing mode.
+- |new| **Color settings** for Viewer Background in Level editing mode.
 - |new| Execute Toonz **scripts from commandline**.
-- |new| (Initial) Korean UI Translation.
-- |new| Effects Help Files in **English and Spanish**.
+- |new| (Initial) **Korean UI** Translation.
+- |new| Effects Help files in **English and Spanish**.
 - |new| OpenToonz Manual **Spanish** translation.
 - |enhancement| **Updated/Reorganized Menus**.
 - |enhancement| Level Settings window can now **adjust Multiple Selected levels**.
@@ -48,6 +47,7 @@ Highlights
 - |enhancement| Animate Tool: Precise control using **Alt** key.
 - |enhancement| Brush Tool: Remember last brush preset used.
 - |enhancement| Make vector **Control Points easier to select**.
+- |enhancement| Added **Swap Colors Button** in Gradient effects.
 - |enhancement| **Improved Sound Quality on Linux** for Playback and Scrubbing.
 - |fix| Brush Tool: **Center mouse cursor on brush preview** (for Pixel Art work)
 - |fix| **Transparent QuickTime Output**.
