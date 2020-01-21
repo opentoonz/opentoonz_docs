@@ -45,7 +45,7 @@ Highlights
 - *Enhancement* Allow to **Copy Selections from Read Only Levels**.
 - *Enhancement* PSD and FFmpeg loaded levels are now **Read Only**.
 - *Enhancement* **Hide Inbetween Values** option in Function Editor Spreadsheet.
-- *Enhancement* **Step and Interpolation type change** for multiple selected Keyframes in Function Editor.
+- *Enhancement* **Step / Interpolation change** for multiple selected Keyframes in Function Editor.
 - *Enhancement* Animate Tool: Precise control using **Alt** key.
 - *Enhancement* Brush Tool: Remember last brush preset used.
 - *Enhancement* Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
