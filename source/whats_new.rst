@@ -39,17 +39,17 @@ Highlights
 - |new| OpenToonz Manual **Spanish** translation.
 - |new| **Execute Toonz scripts from commandline**.
 - |enhancement| **Updated/Reorganized Menus**.
-- *|enhancement|* Level Settings window can now **adjust Multiple Selected levels**.
-- *|enhancement|* **Double-click in Load Scene and Load Level dialogs** to open files.
-- *|enhancement|* Allow to **Copy Selections from Read Only Levels**.
-- *|enhancement|* PSD and FFmpeg loaded levels are now **Read Only**.
-- *|enhancement|* **Hide Inbetween Values** option in Function Editor Spreadsheet.
-- *|enhancement|* **Step / Interpolation change** for multiple selected Keyframes in Function Editor.
-- *|enhancement|* Animate Tool: Precise control using **Alt** key.
-- *|enhancement|* Brush Tool: Remember last brush preset used.
-- *|enhancement|* Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
-- *|enhancement|* Make vector **Control Points easier to select**.
-- *|enhancement|* **Improved Sound Quality on Linux** for Playback and Scrubbing.
+- |enhancement| Level Settings window can now **adjust Multiple Selected levels**.
+- |enhancement| **Double-click in Load Scene and Load Level dialogs** to open files.
+- |enhancement| Allow to **Copy Selections from Read Only Levels**.
+- |enhancement| PSD and FFmpeg loaded levels are now **Read Only**.
+- |enhancement| **Hide Inbetween Values** option in Function Editor Spreadsheet.
+- |enhancement| **Step / Interpolation change** for multiple selected Keyframes in Function Editor.
+- |enhancement| Animate Tool: Precise control using **Alt** key.
+- |enhancement| Brush Tool: Remember last brush preset used.
+- |enhancement| Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
+- |enhancement| Make vector **Control Points easier to select**.
+- |enhancement| **Improved Sound Quality on Linux** for Playback and Scrubbing.
 - |fix| **Transparent QuickTime Output**.
 
 
