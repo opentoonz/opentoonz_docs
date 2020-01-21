@@ -80,10 +80,11 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 `**v1.0.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.2>`_
 
+|test| i like to move it move it!
+
 `**v1.0 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0>`_
 
 
-|test| i like to move it move it!
 
 .. |new| image:: /_static/whats_new/new.png
 .. |enhancement| image:: /_static/whats_new/enhancement.png
