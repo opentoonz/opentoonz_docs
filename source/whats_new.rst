@@ -47,9 +47,9 @@ Highlights
 - |enhancement| **Step / Interpolation change** for multiple selected Keyframes in Function Editor.
 - |enhancement| Animate Tool: Precise control using **Alt** key.
 - |enhancement| Brush Tool: Remember last brush preset used.
-- |enhancement| Brush Tool: Center mouse cursor on brush preview (for Pixel Art work)
 - |enhancement| Make vector **Control Points easier to select**.
 - |enhancement| **Improved Sound Quality on Linux** for Playback and Scrubbing.
+- |fix| Brush Tool: **Center mouse cursor on brush preview** (for Pixel Art work)
 - |fix| **Transparent QuickTime Output**.
 
 
