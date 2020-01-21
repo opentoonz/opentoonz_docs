@@ -38,7 +38,6 @@ Highlights
 - *New* Effects Help Files in **English and Spanish**.
 - *New* OpenToonz Manual **Spanish** translation.
 - *New* **Execute Toonz scripts from commandline**.
-- *New* Portable Test Builds via zip file download at Github (Windows only).
 - *Enhancement* **Updated/Reorganized Menus**.
 - *Enhancement* Level Settings window can now **adjust Multiple Selected levels**.
 - *Enhancement* **Double-click in Load Scene and Load Level dialogs** to open files.
