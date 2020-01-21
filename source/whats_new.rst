@@ -18,12 +18,12 @@ v1.4
 Highlights
 ''''''''''
 
-- New **Vector Guided Drawing Controls** panel and options.
-- New **Fill Tool for Raster Levels**.
-- New **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
-- New **Camera Column** in Xsheet/Timeline.
-- New **Short Play** Feature.
-- New **XDTS File Support** (Celsys and Toei Animation xsheet file format Import/Export).
+- *New* **Vector Guided Drawing Controls** panel and options.
+- *New* **Fill Tool for Raster Levels**.
+- *New* **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
+- *New* **Camera Column** in Xsheet/Timeline.
+- *New* **Short Play** Feature.
+- *New* **XDTS File Support** (Celsys and Toei Animation xsheet file format Import/Export).
 - New Cache folder location & **Clear Cache Command**.
 - New **Context Aware Toolbar**.
 - New **Create Blank Drawing** command.
@@ -39,12 +39,12 @@ Highlights
 - New OpenToonz Manual **Spanish** translation.
 - New **Execute Toonz scripts from commandline**.
 - New Portable Test Builds via zip file download at Github (Windows only).
-- Enhancement **Updated/Reorganized Menus**.
-- Enhancement Level Settings window can now **adjust Multiple Selected levels**.
-- Enhancement **Double-click in Load Scene and Load Level dialogs** to open files.
-- Enhancement Allow to **Copy Selections from Read Only Levels**.
-- Enhancement PSD and FFmpeg loaded levels are now **Read Only**.
-- Enhancement **Hide Inbetween Values** option in Function Editor Spreadsheet.
+- *Enhancement* **Updated/Reorganized Menus**.
+- *Enhancement* Level Settings window can now **adjust Multiple Selected levels**.
+- *Enhancement* **Double-click in Load Scene and Load Level dialogs** to open files.
+- *Enhancement* Allow to **Copy Selections from Read Only Levels**.
+- *Enhancement* PSD and FFmpeg loaded levels are now **Read Only**.
+- *Enhancement* **Hide Inbetween Values** option in Function Editor Spreadsheet.
 - Enhancement **Step and Interpolation type change** for multiple selected Keyframes in Function Editor.
 - Enhancement Animate Tool: Precise control using **Alt** key.
 - Enhancement Brush Tool: Remember last brush preset used.
