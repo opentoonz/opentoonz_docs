@@ -34,10 +34,10 @@ Highlights
 - |new| **Pencil Mode** for Toonz Raster Eraser in Freehand and Polyline types.
 - |new| **Swap Colors Button** for Gradient effects.
 - |new| **Color settings** for Viewer in Level editing mode.
+- |new| Execute Toonz **scripts from commandline**.
 - |new| (Initial) Korean UI Translation.
 - |new| Effects Help Files in **English and Spanish**.
 - |new| OpenToonz Manual **Spanish** translation.
-- |new| **Execute Toonz scripts from commandline**.
 - |enhancement| **Updated/Reorganized Menus**.
 - |enhancement| Level Settings window can now **adjust Multiple Selected levels**.
 - |enhancement| **Double-click in Load Scene and Load Level dialogs** to open files.
