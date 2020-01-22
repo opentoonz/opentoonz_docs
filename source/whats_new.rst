@@ -91,7 +91,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 .. |new| image:: /_static/whats_new/new.png
 .. |enhancement| image:: /_static/whats_new/enhancement.png
 .. |fix| image:: /_static/whats_new/fix.png
-.. |test1| image:: /_static/whats_new/test.gif
+.. |test1| image:: /_static/whats_new/zz.gif
 
 .. |new_es| image:: /_static/whats_new/es/new.png
 .. |enhancement_es| image:: /_static/whats_new/es/enhancement.png
