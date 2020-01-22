@@ -730,12 +730,9 @@ This example explains how to load an image and then create an animation in a lev
 
 	view(b);
 
-|cat|
 
 
 
 .. |toonz_script_console| image:: /_static/toonz_script/toonz_script_console.png
 .. |toonz_script_runscript| image:: /_static/toonz_script/toonz_script_runscript.png
-
-.. |cat| image:: /_static/whats_new/zz.gif
 
