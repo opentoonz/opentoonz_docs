@@ -93,6 +93,9 @@ Installing
 
 |ffmpeg_extracted_mac|
 
+.. tip:: For macOS 10.15 and later, each executable within the FFmpeg folder needs to be opened before using OpenToonz (this only needs to be done one time, due to security features). In Finder, right-click on each executable (ffmpeg, ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal windows have launched successfully, Terminal can be closed.
+
+
 - Next, start OpenToonz and open the **Preferences** window with ``File  →  Preferences...``
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **/Applications/OpenToonz/FFmpeg**:
