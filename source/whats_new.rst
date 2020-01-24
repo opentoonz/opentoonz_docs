@@ -14,7 +14,7 @@ Here, you can also find links to past versions' Release Notes, to keep track of 
 v1.4
 ----
 
-.. _highlights
+.. _highlights:
 
 Highlights
 ''''''''''
