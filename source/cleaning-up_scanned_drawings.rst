@@ -83,8 +83,6 @@ Defining Line Processing Parameters
 '''''''''''''''''''''''''''''''''''
 The Processing parameters set the line processing options in order to prepare drawings for the painting process, recognizing *black lines* (in black and white or grayscale lineart drawings), or *colored lines* (in colored lineart drawings). 
 
-.. note:: Originally in Toonz, the line recognition process could also be skipped, in case you were doing the cleanup only for registering full-color images, such as backgrounds, that were scanned including pegbar holes. This option is not currently present in OpenToonz. 
-
 .. tip:: **To set the type of line processing:**
 
     Set the **Line Processing** option to **None**, if no line processing is required, **Greyscale**, if lines have to be recognized as black, or **Color**, if lines have to be recognized as colored ones.
@@ -389,7 +387,7 @@ The check is visible both in the *preview area* (NOT AVAILABLE in OpenToonz) of 
 
 .. tip:: **To activate and deactivate the opacity check:**
 
-    Click the **Opacity Check** button (|check|) in the bottom bar of the Cleanup Settings pane (NOT AVAILABLE in OpenToonz).
+    Choose Scan & Cleanup  →  **Opacity Check** or press its default shortcut **Alt + 1**.
 
 
 .. _using_the_camera_test:
