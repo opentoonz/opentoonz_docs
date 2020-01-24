@@ -15,6 +15,7 @@ v1.4
 ----
 
 .. _highlights
+
 Highlights
 ''''''''''
 
