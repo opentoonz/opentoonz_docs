@@ -53,7 +53,7 @@ Highlights
 - |fix| **Transparent QuickTime Output**.
 
 
-For the full list of new features, enhancements and bug fixes, please see the `**v1.4 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0rc>`_ hosted in GitHub.
+For the full list of new features, enhancements and bug fixes, please see the `**v1.4 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0rc>`_  hosted in GitHub.
 
 
 
@@ -81,6 +81,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 `**v1.0.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.2>`_
 
 `**v1.0 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0>`_
+
 
 |oooo|
 
