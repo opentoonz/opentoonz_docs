@@ -65,23 +65,23 @@ Previous Versions of OpenToonz
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
 
-`**v1.3 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.3.0>`_
+` **v1.3 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.3.0>`_
 
-`**v1.2.1 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.1>`_
+` **v1.2.1 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.1>`_
 
-`**v1.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
+` **v1.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
 
-`**v1.1.3 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
+` **v1.1.3 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
 
-`**v1.1.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.2>`_
+` **v1.1.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.2>`_
 
-`**v1.1 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.0>`_
+` **v1.1 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.0>`_
 
-`**v1.0.3 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.3>`_
+` **v1.0.3 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.3>`_
 
-`**v1.0.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.2>`_
+` **v1.0.2 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.2>`_
 
-`**v1.0 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0>`_
+` **v1.0 Release Notes** <https://github.com/opentoonz/opentoonz/releases/tag/v1.0>`_
 
 
 
