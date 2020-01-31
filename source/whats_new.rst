@@ -23,13 +23,13 @@ Highlights
 - |new| **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
 - |new| Toolbar: Now tool availability is **Context Aware**.
 - |new| Fill Tool: Can now be used in **Raster Levels**.
-- |new| Eraser Tool: **Pencil Mode** for Toonz Raster levels in Freehand and Polyline types.
+- |new| Eraser Tool: **Pencil Mode** for Toonz Raster levels, also in Freehand and Polyline types.
 - |new| Xsheet/Timeline: **Camera Column** to see and edit animation keyframes.
 - |new| Xsheet/Timeline: **Create Blank Drawing** command.
 - |new| Playback: New **Short Play** command.
 - |new| Import/Export: **XDTS File Support** (Celsys and Toei Animation xsheet file format).
-- |new| Effect: **Corridor Gradient Iwa**.
-- |new| Effect: **Spin Gradient Iwa**.
+- |new| Effects: **Corridor Gradient Iwa**.
+- |new| Effects: **Spin Gradient Iwa**.
 - |new| Motion Paths: Now can be created using the **Geometry Tool**.
 - |new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands.
 - |new| Viewer: **Color settings** for Viewer Background in Level editing mode.
@@ -37,27 +37,27 @@ Highlights
 - |new| Palette Editor: **Delete Unused Styles** right-click command.
 - |new| Cache folder location & **Clear Cache Command**.
 - |new| Execute Toonz **scripts from commandline**.
-- |new| (Initial) **Korean UI** Translation.
+- |new| UI: **Korean UI** Translation. (Initial version)
 - |new| Effects Help files in **English and Spanish**.
-- |new| OpenToonz Manual **Spanish** translation.
+- |new| OpenToonz Manual: **Spanish** translation.
 - |enhancement| UI: **Updated/Reorganized Menus**.
-- |enhancement| Level Settings window: Can now act upon **Multiple Selected levels**.
-- |enhancement| Startup Popup: Now **Scenes are Saved on Creation**.
 - |enhancement| File Browser: **Double-click in Load Scene and Load Level dialogs** to open files.
-- |enhancement| Allow to **Copy Selections from Read Only Levels**.
-- |enhancement| PSD and FFmpeg loaded levels are now **Read Only**.
+- |enhancement| Level Settings window: Now can act upon **Multiple Selected levels**.
+- |enhancement| Startup Popup: Now **Scenes are Saved on Creation**.
+- |enhancement| Effects: Added **Swap Colors Button** in Gradient effects.
+- |enhancement| Read Only levels: Allow to **Copy Selections from Read Only Levels**.
+- |enhancement| Read Only levels: PSD and FFmpeg-loaded levels are now **Read Only**.
 - |enhancement| Function Editor: **Hide Inbetween Values** option in Spreadsheet mode.
 - |enhancement| Function Editor: **Step / Interpolation change** for multiple selected Keyframes.
 - |enhancement| Animate Tool: Precise control using **Alt** key.
 - |enhancement| Brush Tool: Remember last brush preset used.
-- |enhancement| Selection: Make vector **Control Points easier to select**.
-- |enhancement| Effects: Added **Swap Colors Button** in Gradient effects.
-- |enhancement| Sound: **Improved Sound Quality on Linux** for Playback and Scrubbing.
-- |fix| Brush Tool: **Center mouse cursor on brush preview** (for Pixel Art work)
+- |enhancement| Control Point Editor Tool: Make **Control Points easier to select**.
+- |enhancement| Sound: **Improved Sound Quality** for Playback and Scrubbing. (Linux only)
+- |fix| Brush Tool: **Center mouse cursor on brush preview** (for pixel-art work)
 - |fix| **Transparent QuickTime Output**.
+...and much more!
 
-
-For the full list of new features, enhancements and bug fixes, please see the `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0rc>`_  hosted in GitHub.
+Please see the `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0rc>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
 
 
