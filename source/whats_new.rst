@@ -33,13 +33,14 @@ Highlights
 - |new| Motion Paths: Now can be created using the **Geometry Tool**.
 - |new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands.
 - |new| Viewer: **Color settings** for Viewer Background in Level editing mode.
-- |new| Cleanup: **"None" line pocessing mode**, for applying only autocenter/rotation/flipping.
+- |new| Cleanup: **"None" line processing mode**, for applying only autocenter/rotation/flipping.
 - |new| Palette Editor: **Delete Unused Styles** right-click command.
 - |new| Cache folder location & **Clear Cache Command**.
 - |new| Execute Toonz **scripts from commandline**.
-- |new| UI: **Korean UI** Translation. (Initial version)
-- |new| Effects Help files in **English and Spanish**.
-- |new| OpenToonz Manual: **Spanish** translation.
+- |new| UI: New Help menu options **Online Manual**, **What's New**, **Community Forum** and **Report a Bug**.
+- |new| UI: New **Korean** translation. (Initial version)
+- |new| Effects: **Help in English and Spanish**.
+- |new| OpenToonz Manual: New **Spanish** translation.
 - |enhancement| UI: **Updated/Reorganized Menus**.
 - |enhancement| File Browser: **Double-click in Load Scene and Load Level dialogs** to open files.
 - |enhancement| Level Settings window: Now can act upon **Multiple Selected levels**.
