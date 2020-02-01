@@ -57,7 +57,7 @@ Highlights
 
 ...and much more!
 
-Please see the `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0rc>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
+Please see the `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
 
 
