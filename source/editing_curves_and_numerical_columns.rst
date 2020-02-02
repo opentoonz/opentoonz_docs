@@ -825,8 +825,10 @@ With respect to interpolation, if all the visible curves have a key at the same 
     Move the markers visible on the sides of the strip keyframes.
 
 
-
-
+.. toctree::
+   :maxdepth: 1
+   
+   example_expressions
 
 
 .. |function_editor_1| image:: /_static/function_editor/function_editor_1.png
