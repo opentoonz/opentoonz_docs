@@ -49,6 +49,7 @@ OpenToonz User Manual
    using_the_version_control
    toonzscript
    keyboard_shortcuts
+   fx_docs/fx_index
 
 Special Thanks
 --------------
