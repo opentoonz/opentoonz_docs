@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-06-30 14:09-0300\n"
+"POT-Creation-Date: 2020-01-24 15:28-0300\n"
+"PO-Revision-Date: 2020-02-01 16:36-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:4
 msgid "Using FFmpeg with OpenToonz"
@@ -148,7 +148,7 @@ msgid "|ffmpeg_extracted_windows|"
 msgstr ""
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:45
-#: ../../source/using_ffmpeg_with_opentoonz.rst:96
+#: ../../source/using_ffmpeg_with_opentoonz.rst:99
 msgid ""
 "Next, start OpenToonz and open the **Preferences** window with ``File  →  "
 "Preferences...``"
@@ -157,14 +157,14 @@ msgstr ""
 "**Preferencias...**"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:46
-#: ../../source/using_ffmpeg_with_opentoonz.rst:97
-#: ../../source/using_ffmpeg_with_opentoonz.rst:127
+#: ../../source/using_ffmpeg_with_opentoonz.rst:100
+#: ../../source/using_ffmpeg_with_opentoonz.rst:130
 msgid ""
 "Navigate to the **Import/Export** category; at the top you will see a box with "
 "the text **FFmpeg path**."
 msgstr ""
 "Navegar a la categoría **Importación/Exportación**; en la parte superior está "
-"la opción **Ruta a FFmpeg:**"
+"la opción **Ruta a FFmpeg**."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:47
 msgid ""
@@ -179,14 +179,14 @@ msgid "|ffmpeg_path_windows|"
 msgstr ""
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:51
-#: ../../source/using_ffmpeg_with_opentoonz.rst:102
-#: ../../source/using_ffmpeg_with_opentoonz.rst:132
+#: ../../source/using_ffmpeg_with_opentoonz.rst:105
+#: ../../source/using_ffmpeg_with_opentoonz.rst:135
 msgid "Restart OpenToonz."
 msgstr "Reiniciar OpenToonz."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:52
-#: ../../source/using_ffmpeg_with_opentoonz.rst:103
-#: ../../source/using_ffmpeg_with_opentoonz.rst:133
+#: ../../source/using_ffmpeg_with_opentoonz.rst:106
+#: ../../source/using_ffmpeg_with_opentoonz.rst:136
 msgid "Open the **Output Settings** window with ``File  →  Output Settings...``"
 msgstr "Abrir la ventana Archivo → **Opciones de salida...**"
 
@@ -245,7 +245,22 @@ msgstr "Nombrar a la nueva carpeta **FFmpeg**."
 msgid "|ffmpeg_extracted_mac|"
 msgstr ""
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:98
+#: ../../source/using_ffmpeg_with_opentoonz.rst:96
+msgid ""
+"For macOS 10.15 and later, each executable within the FFmpeg folder needs to "
+"be opened before using OpenToonz (this only needs to be done one time, due to "
+"security features). In Finder, right-click on each executable (ffmpeg, "
+"ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal "
+"windows have launched successfully, Terminal can be closed."
+msgstr ""
+"Para macOS 10.15 y posteriores, cada ejecutable dentro de la carpeta FFmpeg "
+"necesitará ser abierto antes de usar OpenToonz (sólo se necesitará hacer esto "
+"una única vez, debido a funciones de seguridad del sistema). En el Finder, "
+"hacer clic derecho en cada uno de los ejecutables (ffmpeg, ffprobe, etc.) y "
+"seleccionar ``Abrir con → Terminal``. Una vez que las ventanas de la Terminal "
+"se hayan abierto exitosamente, podrán ser cerradas."
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:101
 msgid ""
 "Insert the path to your FFmpeg folder that you created earlier, if you have "
 "used the recommended path, this will be **/Applications/OpenToonz/FFmpeg**:"
@@ -253,12 +268,12 @@ msgstr ""
 "Ingresar la ruta a la carpeta de FFmpeg creada previamente, si se usó la ruta "
 "recomendada, esta sería: **/Applications/OpenToonz/FFmpeg**:"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:100
+#: ../../source/using_ffmpeg_with_opentoonz.rst:103
 msgid "|ffmpeg_path_mac|"
 msgstr ""
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:105
-#: ../../source/using_ffmpeg_with_opentoonz.rst:135
+#: ../../source/using_ffmpeg_with_opentoonz.rst:108
+#: ../../source/using_ffmpeg_with_opentoonz.rst:138
 msgid ""
 "In the **File Settings** subsection, you should now see **mp4**, **webm** and "
 "**gif**."
@@ -266,15 +281,15 @@ msgstr ""
 "En la subsección **Opciones de archivo**, ahora deberían estar disponibles "
 "**mp4**, **webm** y **gif**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:107
+#: ../../source/using_ffmpeg_with_opentoonz.rst:110
 msgid "|output_settings_mac|"
 msgstr ""
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:110
+#: ../../source/using_ffmpeg_with_opentoonz.rst:113
 msgid "Installing FFmpeg for Linux"
 msgstr "Instalación de FFmpeg en Linux"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:112
+#: ../../source/using_ffmpeg_with_opentoonz.rst:115
 msgid ""
 "To install FFmpeg, enter the following command in the shell depending on your "
 "distribution."
@@ -282,23 +297,23 @@ msgstr ""
 "Para instalar FFmpeg, ingresar el siguiente comando en la consola, dependiendo "
 "de la distribución usada."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:114
+#: ../../source/using_ffmpeg_with_opentoonz.rst:117
 msgid "Arch Linux: ``# pacman -S extra/ffmpeg``"
 msgstr "Arch Linux: ``# pacman -S extra/ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:116
+#: ../../source/using_ffmpeg_with_opentoonz.rst:119
 msgid "Debian GNU/Linux: ``# apt install ffmpeg``"
 msgstr "Debian GNU/Linux: ``# apt install ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:118
+#: ../../source/using_ffmpeg_with_opentoonz.rst:121
 msgid "Gentoo Linux: ``# emerge media-video/ffmpeg``"
 msgstr "Gentoo Linux: ``# emerge media-video/ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:120
+#: ../../source/using_ffmpeg_with_opentoonz.rst:123
 msgid "Solus: ``# eopkg install ffmpeg``"
 msgstr "Solus: ``# eopkg install ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:122
+#: ../../source/using_ffmpeg_with_opentoonz.rst:125
 msgid ""
 "If you are using a other Linux distribution please refer to its documentation "
 "or visit the `FFmpeg website <https://www.ffmpeg.org/download.html>`_."
@@ -307,7 +322,7 @@ msgstr ""
 "documentación o visitar `el sitio de FFmpeg <https://www.ffmpeg.org/download."
 "html>`_."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:124
+#: ../../source/using_ffmpeg_with_opentoonz.rst:127
 msgid ""
 "To make it possible to export files in **mp4**, **webm** or **gif** formats, "
 "you need to specify the path to FFmpeg installed on your system, usually it is "
@@ -318,20 +333,20 @@ msgstr ""
 "sistema, que usualmente es: **/usr/bin/ffmpeg**. Es posible usar el comando "
 "``which ffmpeg`` en la consola para averiguar esto."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:126
+#: ../../source/using_ffmpeg_with_opentoonz.rst:129
 msgid ""
 "Start OpenToonz and open the **Preferences** window with ``File  →  "
 "Preferences...``"
 msgstr "Ejecutar OpenToonz y abrir la ventana Archivo → **Preferencias...**"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:128
+#: ../../source/using_ffmpeg_with_opentoonz.rst:131
 msgid "Insert the path **/usr/bin**."
 msgstr "Ingresar la ruta **/usr/bin**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:130
+#: ../../source/using_ffmpeg_with_opentoonz.rst:133
 msgid "|ffmpeg_path_linux|"
 msgstr ""
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:137
+#: ../../source/using_ffmpeg_with_opentoonz.rst:140
 msgid "|output_settings_linux|"
 msgstr ""
