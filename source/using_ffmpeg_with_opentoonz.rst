@@ -49,7 +49,7 @@ Installing
 |ffmpeg_path_windows|
 
 - Restart OpenToonz.
-- Open the **Output Settings** window with ``File  →  Output Settings...``
+- Open the **Output Settings** window with ``Render  →  Output Settings...``
 
 | In the **File Settings** subsection, you should now see **mp4** and **webm**.
 
