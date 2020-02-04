@@ -171,8 +171,7 @@ For Toonz Raster drawings the **Tape** tool (|tape|) automatically joins the ope
 
     - **Opacity** sets the opacity of the style used for the line joining the open ends.
     
-     .. note:: Please note that by default **Opacity** value is set to 1, and with this value the gap will be closed using a transparent line that will not be seen in the Viewer. Also, note that the value of this option will affect how the Gap Check function is displayed in the Viewer.
-
+     .. note:: Please note that by default **Opacity** value is set to 1, and with this value the gap will be closed using a transparent line that will not be seen in the Viewer. Also, note that the value of this option will equally affect how the Gap Check function is displayed in the Viewer.
 
 .. tip:: **To close a gap in a vector drawing outline:**
 
@@ -213,7 +212,7 @@ To control the drawing outline and see if areas are well-defined in order to be 
 
 - The **Gap Check** highlights with *magenta lines* the gaps that can be automatically closed by using the **Tape** tool (|tape|) with its current settings; if you change the **Distance** and **Angle** values of the Tape tool, while the check is activated, you can check interactively if the gaps that are detected. 
 
-.. note:: Please note that the **Tape** tool **Opacity** value will affect the display of the Gap Check in Toonz Raster levels, so if it is set to the default value of 1, you will not be able to see anything with the Gap Check function. Set it to 255 instead, to be able to use this check.
+     .. note:: Please note that the **Tape** tool **Opacity** value will affect the display of the Gap Check in Toonz Raster levels, so if it is set to the default value of 1, you will not be able to see anything with the Gap Check function. Set it to 255 instead, to be able to use this check.
 
 - The **Fill Check** displays all the well-defined areas that can be filled with colors in grey, all the lines or vector strokes in black, and the not well-defined areas and the background in white; if the **Black BG Check** is activated, all the lines or vector strokes are displayed in white (see  :ref:`Checking Painted Drawings <checking_painted_drawings>`  ). 
 
