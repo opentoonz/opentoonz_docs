@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-24 15:28-0300\n"
-"PO-Revision-Date: 2020-02-01 16:36-0300\n"
+"POT-Creation-Date: 2020-02-04 20:33-0300\n"
+"PO-Revision-Date: 2020-02-04 21:00-0300\n"
 "Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -30,20 +30,20 @@ msgstr "¿Qué es FFmpeg?"
 #: ../../source/using_ffmpeg_with_opentoonz.rst:8
 msgid ""
 "To render your animation as an **mp4** or **webm**, or also as a **gif** on "
-"Mac, OpenToonz requires the FFmpeg multimedia framework to be installed on "
-"your machine."
+"Mac, OpenToonz requires the FFmpeg multimedia framework to be installed on your "
+"machine."
 msgstr ""
 "Para poder procesar y exportar una animación en formatos como **mp4** o "
-"**webm** (o también como **gif**, en macOS), OpenToonz necesita que FFmpeg "
-"esté instalado en el sistema."
+"**webm** (o también como **gif**, en macOS), OpenToonz necesita que FFmpeg esté "
+"instalado en el sistema."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:9
 msgid ""
-"For more information, please visit this page: `About FFmpeg <https://www."
-"ffmpeg.org/about.html>`_"
+"For more information, please visit this page: `About FFmpeg <https://www.ffmpeg."
+"org/about.html>`_"
 msgstr ""
-"Para más información, por favor visitar la siguiente página (en inglés): "
-"`About FFmpeg <https://www.ffmpeg.org/about.html>`_"
+"Para más información, por favor visitar la siguiente página (en inglés): `About "
+"FFmpeg <https://www.ffmpeg.org/about.html>`_"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:12
 msgid "Installing FFmpeg for Windows"
@@ -57,8 +57,8 @@ msgstr "Descarga"
 #: ../../source/using_ffmpeg_with_opentoonz.rst:17
 #: ../../source/using_ffmpeg_with_opentoonz.rst:64
 msgid ""
-"To download FFmpeg, first visit this page: `Download FFmpeg <https://www."
-"ffmpeg.org/download.html>`_"
+"To download FFmpeg, first visit this page: `Download FFmpeg <https://www.ffmpeg."
+"org/download.html>`_"
 msgstr ""
 "Para descargar FFmpeg, primero visitar la siguiente página (en inglés): "
 "`Download FFmpeg <https://www.ffmpeg.org/download.html>`_"
@@ -137,8 +137,8 @@ msgstr "Nombrar a la nueva carpeta **FFmpeg**."
 #: ../../source/using_ffmpeg_with_opentoonz.rst:41
 #: ../../source/using_ffmpeg_with_opentoonz.rst:92
 msgid ""
-"Drag the contents of the **bin** folder from the archive into the newly "
-"created folder."
+"Drag the contents of the **bin** folder from the archive into the newly created "
+"folder."
 msgstr ""
 "Arrastrar el contenido de la carpeta **bin** desde el archivo zip hasta la "
 "nueva carpeta."
@@ -171,8 +171,8 @@ msgid ""
 "Insert the path to your FFmpeg folder that you created earlier, if you have "
 "used the recommended path, this will be **C:\\\\FFmpeg\\\\**:"
 msgstr ""
-"Ingresar la ruta a la carpeta recién creada, según las recomendaciones "
-"previas, esta sería: **C:\\\\FFmpeg\\\\**:"
+"Ingresar la ruta a la carpeta recién creada, según las recomendaciones previas, "
+"esta sería: **C:\\\\FFmpeg\\\\**:"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:49
 msgid "|ffmpeg_path_windows|"
@@ -185,10 +185,8 @@ msgid "Restart OpenToonz."
 msgstr "Reiniciar OpenToonz."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:52
-#: ../../source/using_ffmpeg_with_opentoonz.rst:106
-#: ../../source/using_ffmpeg_with_opentoonz.rst:136
-msgid "Open the **Output Settings** window with ``File  →  Output Settings...``"
-msgstr "Abrir la ventana Archivo → **Opciones de salida...**"
+msgid "Open the **Output Settings** window with ``Render  →  Output Settings...``"
+msgstr "Abrir la ventana Procesamiento → **Opciones de salida...**"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:54
 msgid ""
@@ -247,11 +245,11 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:96
 msgid ""
-"For macOS 10.15 and later, each executable within the FFmpeg folder needs to "
-"be opened before using OpenToonz (this only needs to be done one time, due to "
-"security features). In Finder, right-click on each executable (ffmpeg, "
-"ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal "
-"windows have launched successfully, Terminal can be closed."
+"For macOS 10.15 and later, each executable within the FFmpeg folder needs to be "
+"opened before using OpenToonz (this only needs to be done one time, due to "
+"security features). In Finder, right-click on each executable (ffmpeg, ffprobe, "
+"and etc.) and select ``Open With → Terminal``. Once the Terminal windows have "
+"launched successfully, Terminal can be closed."
 msgstr ""
 "Para macOS 10.15 y posteriores, cada ejecutable dentro de la carpeta FFmpeg "
 "necesitará ser abierto antes de usar OpenToonz (sólo se necesitará hacer esto "
@@ -271,6 +269,11 @@ msgstr ""
 #: ../../source/using_ffmpeg_with_opentoonz.rst:103
 msgid "|ffmpeg_path_mac|"
 msgstr ""
+
+#: ../../source/using_ffmpeg_with_opentoonz.rst:106
+#: ../../source/using_ffmpeg_with_opentoonz.rst:136
+msgid "Open the **Output Settings** window with ``File  →  Output Settings...``"
+msgstr "Abrir la ventana Procesamiento → **Opciones de salida...**"
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:108
 #: ../../source/using_ffmpeg_with_opentoonz.rst:138
@@ -328,10 +331,10 @@ msgid ""
 "you need to specify the path to FFmpeg installed on your system, usually it is "
 "**/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the shell to find out."
 msgstr ""
-"Para que sea posible exportar archivos en formatos **mp4**, **webm** o "
-"**gif**, es necesario indicar la ruta a la versión de FFmpeg instalada en el "
-"sistema, que usualmente es: **/usr/bin/ffmpeg**. Es posible usar el comando "
-"``which ffmpeg`` en la consola para averiguar esto."
+"Para que sea posible exportar archivos en formatos **mp4**, **webm** o **gif**, "
+"es necesario indicar la ruta a la versión de FFmpeg instalada en el sistema, "
+"que usualmente es: **/usr/bin/ffmpeg**. Es posible usar el comando ``which "
+"ffmpeg`` en la consola para averiguar esto."
 
 #: ../../source/using_ffmpeg_with_opentoonz.rst:129
 msgid ""
