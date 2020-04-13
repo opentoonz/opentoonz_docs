@@ -19,23 +19,27 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:4
 msgid "Editing Animation Levels"
-msgstr ""
+msgstr "Редактирование Уровней Анимации"
 
 #: ../../source/editing_animation_levels.rst:5
 msgid ""
 "Once you have created your animation levels, you may need to work on them"
 " in order to add or insert new drawings, or rearrange the frame sequence."
 msgstr ""
+"После того, как вы создали свои уровни анимации, вам может потребоваться поработать над ними"
+" чтобы добавить или вставить новые рисунки, или изменить последовательность кадров."
 
 #: ../../source/editing_animation_levels.rst:7
 msgid ""
 "All the editing can be saved by saving the level, or by saving the scene "
 "with the Save All command, thus automatically saving all of its levels."
 msgstr ""
+"Все редактирование можно сохранить, сохранив уровень, или сцену "
+"командой Save All, что автоматически сохранит все уровни."
 
 #: ../../source/editing_animation_levels.rst:13
 msgid "Using the Level Strip"
-msgstr ""
+msgstr "Использование Level Strip"
 
 #: ../../source/editing_animation_levels.rst:14
 msgid ""
@@ -44,6 +48,10 @@ msgid ""
 "currently exposed in the Xsheet/Timeline) according to their numbering "
 "order."
 msgstr ""
+"Уровнями анимации можно управлять в Level Strip. Level Strip "
+"показывает все рисунки текущего уровня (даже те, которые не "
+"представлены сейчас в Xsheet/Timeline) в соответствии с их порядковым "
+"номером."
 
 #: ../../source/editing_animation_levels.rst:16
 msgid ""
@@ -52,6 +60,10 @@ msgid ""
 "be visible in the level strip (see  :ref:`Using the File Browser "
 "<using_the_file_browser>`  )."
 msgstr ""
+"Если диапазон кадров уровня анимации был загружен с "
+"помощью окна Load Level, только кадры в пределах выделенного диапазона кадров будут "
+"отображены в level strip (см  :ref:`Использование File Browser "
+"<using_the_file_browser>`  )."
 
 #: ../../source/editing_animation_levels.rst:18
 msgid ""
@@ -61,6 +73,11 @@ msgid ""
 "replacing any previous displayed content, to let you work on it more "
 "easily."
 msgstr ""
+"Когда уровень выбран, каждый кадр в strip содержит рисунок "
+"уровня, согласно порядку нумерации уровней. Когда кадр в "
+"strip выделен, соответствующий рисунок отображается во Viewer, "
+"заменяя любой предыдущий отображаемый контент, позволяя вам работать "
+"проще."
 
 #: ../../source/editing_animation_levels.rst:20
 msgid ""
@@ -69,6 +86,10 @@ msgid ""
 "sequence can be renumbered. From the Level Strip, drawings can be also "
 "exposed in the Xsheet/Timeline."
 msgstr ""
+"Когда выбран один или несколько кадров можно выполнять стандартные операции "
+"вырезания, копирования, удаления и вставки. Можно добавлять новые рисунки, а любая "
+"последовательность может ьыть перенумерована. Через окно Level Strip, рисунки могут также "
+"выставлены в Xsheet/Timeline."
 
 #: ../../source/editing_animation_levels.rst:22
 msgid ""
@@ -80,6 +101,13 @@ msgid ""
 "in the Level Strip, the level name and number turn red, to warn you that "
 "there is no drawing available for that cell anymore."
 msgstr ""
+"Когда вы изменяете порядок рисунков в Level Strip, или когда "
+"рисунок вырезан, удален или вставлен, и рисунки представлены в "
+"сцене, Xsheet/Timeline будет продолжать содержать ссылку на этот "
+"конкретный кадр animation level, каково бы ни было его содержимое. Когда "
+"Xsheet/Timeline содержит ссылку на рисунок который был удален "
+"в Level Strip, имя уровня и номер становятся красными, предупреждая вас о том, что "
+"для этой ячейки больше нет рисунка."
 
 #: ../../source/editing_animation_levels.rst:24
 msgid ""
@@ -87,10 +115,13 @@ msgid ""
 "depends on the size of the animation level preview icons, but it can be "
 "customized in the Preferences  →  Interface dialog."
 msgstr ""
+"Ширина панели level strip не может быть задана произвольно, поскольку "
+"зависит от размера иконки превью уровня, но ее можно "
+"подстроить в настройках: Preferences  →  Interface dialog."
 
 #: ../../source/editing_animation_levels.rst:26
 msgid "**To edit an animation level in the Level Strip:**"
-msgstr ""
+msgstr "**Для редактирования animation level в Level Strip:**"
 
 #: ../../source/editing_animation_levels.rst:28
 #: ../../source/editing_animation_levels.rst:36
@@ -101,45 +132,51 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:417
 #: ../../source/editing_animation_levels.rst:453
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Выполните следующее:"
 
 #: ../../source/editing_animation_levels.rst:30
 msgid ""
 "Select in the Xsheet/Timeline a cell containing a drawing from the "
 "animation level you want to edit."
 msgstr ""
+"Выделите в Xsheet/Timeline ячейку содержащую рисунок из "
+"animation level который хотите редактировать."
 
 #: ../../source/editing_animation_levels.rst:32
 msgid ""
 "Right-click the level icon in the Scene Cast and choose Display in Level "
 "Strip from the menu that opens."
 msgstr ""
+"Правой кнопкой мыши кликните иконку уровня в Scene Cast и выберите Display in Level "
+"Strip в открывшемся меню."
 
 #: ../../source/editing_animation_levels.rst:34
 msgid "**To scroll the Level Strip:**"
-msgstr ""
+msgstr "**Для прокрутки Level Strip:**"
 
 #: ../../source/editing_animation_levels.rst:38
 msgid "Middle-click and drag to scroll up or down."
-msgstr ""
+msgstr "НАжмите среднюю кнопку мыши и перетаскивайте вверх/вниз."
 
 #: ../../source/editing_animation_levels.rst:40
 msgid "Use the mouse wheel to scroll up or down."
-msgstr ""
+msgstr "Используйте колесо мыши для прокрутки вверх/вниз"
 
 #: ../../source/editing_animation_levels.rst:42
 msgid "Use the scrolling bars to scroll only within the actual level extent."
-msgstr ""
+msgstr "Используйте полосы прокрутки для прокрутки только в пределах активного уровня"
 
 #: ../../source/editing_animation_levels.rst:44
 msgid "Use the Up Arrow and Down Arrow keys to move one frame up or down."
-msgstr ""
+msgstr "Используйте клавиши со стрелками вверх и вниз для перемещения на один кадр вверх или вниз."
 
 #: ../../source/editing_animation_levels.rst:46
 msgid ""
 "Use the Page Up and Page Down keys to scroll the visible frames up or "
 "down."
 msgstr ""
+ "Используйте клавиши Page Up и Page Down для прокрутки видимых кадров вверх или"
+ "вниз"
 
 #: ../../source/editing_animation_levels.rst:48
 msgid ""
