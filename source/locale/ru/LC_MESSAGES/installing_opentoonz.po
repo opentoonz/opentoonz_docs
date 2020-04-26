@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the OpenToonz package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# user <surkow.aleksandr@gmail.com>, 2019.
+# user <surkow.aleksandr@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenToonz 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-22 00:04+0800\n"
-"PO-Revision-Date: 2019-05-07 13:49+0800\n"
-"Last-Translator: user <surkow.aleksandr@gmail.com>\n"
+"POT-Creation-Date: 2020-02-10 01:51+0800\n"
+"PO-Revision-Date: 2020-02-05 23:33+0800\n"
+"Last-Translator: Savraska2 <surkow.aleksandr@gmail.com>\n"
 "Language: ru_RU\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -95,7 +95,7 @@ msgstr "Выберите язык для сообщений установщик
 
 #: ../../source/installing_opentoonz.rst:33
 msgid "|win_setup_1|"
-msgstr ""
+msgstr "|win_setup_1|"
 
 #: ../../source/installing_opentoonz.rst:36
 msgid "Accept OpenToonz Terms of Use."
@@ -103,7 +103,7 @@ msgstr "Примите условия использования OpenToonz."
 
 #: ../../source/installing_opentoonz.rst:38
 msgid "|win_setup_2|"
-msgstr ""
+msgstr "|win_setup_2|"
 
 #: ../../source/installing_opentoonz.rst:41
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../source/installing_opentoonz.rst:43
 msgid "|win_setup_3|"
-msgstr ""
+msgstr "|win_setup_3|"
 
 #: ../../source/installing_opentoonz.rst:46
 msgid ""
@@ -128,10 +128,10 @@ msgstr "Решите, следует ли создавать значок на �
 
 #: ../../source/installing_opentoonz.rst:48
 msgid "|win_setup_4|"
-msgstr ""
+msgstr "|win_setup_4|"
 
 #: ../../source/installing_opentoonz.rst:51
-#: ../../source/installing_opentoonz.rst:92
+#: ../../source/installing_opentoonz.rst:95
 msgid ""
 "Press the Install button to start the installation process with the "
 "chosen settings."
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../source/installing_opentoonz.rst:53
 msgid "|win_setup_5|"
-msgstr ""
+msgstr "|win_setup_5|"
 
 #: ../../source/installing_opentoonz.rst:56
 msgid ""
@@ -151,47 +151,56 @@ msgstr "Решите, стоит ли запускать OpenToonz сразу п
 
 #: ../../source/installing_opentoonz.rst:58
 msgid "|win_setup_6|"
+msgstr "|win_setup_6|"
+
+#: ../../source/installing_opentoonz.rst:61
+msgid "Chocolatey"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:65
+#: ../../source/installing_opentoonz.rst:63
+#, fuzzy
+msgid "``choco install opentoonz``"
+msgstr "``sudo eopkg install opentoonz``"
+
+#: ../../source/installing_opentoonz.rst:68
 msgid "Installing on OS X"
 msgstr "Установка на OS X"
 
-#: ../../source/installing_opentoonz.rst:66
+#: ../../source/installing_opentoonz.rst:69
 msgid "Follow these steps:"
 msgstr "Следуй этим шагам:"
 
-#: ../../source/installing_opentoonz.rst:69
+#: ../../source/installing_opentoonz.rst:72
 msgid "Right-click on the OpenToonz.pkg file in Finder & select Open."
 msgstr ""
 "Щелкните правой кнопкой мыши файл OpenToonz.pkg в Finder и выберите "
 "«Открыть»."
 
-#: ../../source/installing_opentoonz.rst:72
+#: ../../source/installing_opentoonz.rst:75
 msgid "Press the Continue button."
 msgstr "Нажмите кнопку Продолжить."
 
-#: ../../source/installing_opentoonz.rst:74
-msgid "|osx_setup_2|"
-msgstr ""
-
 #: ../../source/installing_opentoonz.rst:77
+msgid "|osx_setup_2|"
+msgstr "|osx_setup_2|"
+
+#: ../../source/installing_opentoonz.rst:80
 msgid "Choose a language and press the Continue button."
 msgstr "Выберите язык и нажмите кнопку «Продолжить»."
 
-#: ../../source/installing_opentoonz.rst:79
-msgid "|osx_setup_3|"
-msgstr ""
-
 #: ../../source/installing_opentoonz.rst:82
+msgid "|osx_setup_3|"
+msgstr "|osx_setup_3|"
+
+#: ../../source/installing_opentoonz.rst:85
 msgid "Press the Agree button to accept the OpenToonz Terms of Use."
 msgstr "Нажмите кнопку «Согласен», чтобы принять Условия использования OpenToonz."
 
-#: ../../source/installing_opentoonz.rst:84
-msgid "|osx_setup_4|"
-msgstr ""
-
 #: ../../source/installing_opentoonz.rst:87
+msgid "|osx_setup_4|"
+msgstr "|osx_setup_4|"
+
+#: ../../source/installing_opentoonz.rst:90
 msgid ""
 "Select the install destination (will be Macintosh HD unless multiple "
 "disks are available) and press the Continue button."
@@ -199,188 +208,192 @@ msgstr ""
 "Выберите место установки (будет Macintosh HD, если не доступно несколько "
 "дисков) и нажмите кнопку «Продолжить»."
 
-#: ../../source/installing_opentoonz.rst:89
+#: ../../source/installing_opentoonz.rst:92
 msgid "|osx_setup_5|"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:94
-msgid "|osx_setup_6|"
-msgstr ""
+msgstr "|osx_setup_5|"
 
 #: ../../source/installing_opentoonz.rst:97
+msgid "|osx_setup_6|"
+msgstr "|osx_setup_6|"
+
+#: ../../source/installing_opentoonz.rst:100
 msgid "Press the Close button to exit the installer."
 msgstr "Нажмите кнопку Закрыть, чтобы выйти из программы установки."
 
-#: ../../source/installing_opentoonz.rst:99
-msgid "|osx_setup_7|"
-msgstr ""
-
 #: ../../source/installing_opentoonz.rst:102
+msgid "|osx_setup_7|"
+msgstr "|osx_setup_7|"
+
+#: ../../source/installing_opentoonz.rst:105
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
-#: ../../source/installing_opentoonz.rst:104
+#: ../../source/installing_opentoonz.rst:107
 msgid "``brew cask install opentoonz``"
-msgstr ""
+msgstr "``brew cask install opentoonz``"
 
-#: ../../source/installing_opentoonz.rst:109
+#: ../../source/installing_opentoonz.rst:112
 msgid "Installing on Linux"
 msgstr "Установка на Linux"
 
-#: ../../source/installing_opentoonz.rst:114
+#: ../../source/installing_opentoonz.rst:117
 msgid "Arch Linux"
-msgstr ""
+msgstr "Arch Linux"
 
-#: ../../source/installing_opentoonz.rst:116
+#: ../../source/installing_opentoonz.rst:119
 msgid "``sudo pacman -S base-devel git``"
-msgstr ""
+msgstr "``sudo pacman -S base-devel git``"
 
-#: ../../source/installing_opentoonz.rst:118
+#: ../../source/installing_opentoonz.rst:121
 msgid "``git clone https://aur.archlinux.org/superlu.git``"
-msgstr ""
+msgstr "``git clone https://aur.archlinux.org/superlu.git``"
 
-#: ../../source/installing_opentoonz.rst:120
+#: ../../source/installing_opentoonz.rst:123
 msgid "``cd superlu``"
-msgstr ""
+msgstr "``cd superlu``"
 
-#: ../../source/installing_opentoonz.rst:122
-#: ../../source/installing_opentoonz.rst:130
+#: ../../source/installing_opentoonz.rst:125
+#: ../../source/installing_opentoonz.rst:133
 msgid "``makepkg -si``"
-msgstr ""
+msgstr "``makepkg -si``"
 
-#: ../../source/installing_opentoonz.rst:124
+#: ../../source/installing_opentoonz.rst:127
 msgid "``cd ..``"
-msgstr ""
+msgstr "``cd ..``"
 
-#: ../../source/installing_opentoonz.rst:126
+#: ../../source/installing_opentoonz.rst:129
 msgid "``git clone https://aur.archlinux.org/opentoonz.git``"
-msgstr ""
+msgstr "``git clone https://aur.archlinux.org/opentoonz.git``"
 
-#: ../../source/installing_opentoonz.rst:128
+#: ../../source/installing_opentoonz.rst:131
 msgid "``cd opentoonz``"
-msgstr ""
+msgstr "``cd opentoonz``"
 
-#: ../../source/installing_opentoonz.rst:132
+#: ../../source/installing_opentoonz.rst:135
 msgid "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``"
-msgstr ""
+msgstr "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``"
 
-#: ../../source/installing_opentoonz.rst:134
+#: ../../source/installing_opentoonz.rst:137
 msgid ""
 "``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/opentoonz\" "
 ">> ~/.bashrc``"
 msgstr ""
+"``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/opentoonz\" "
+">> ~/.bashrc``"
 
-#: ../../source/installing_opentoonz.rst:139
+#: ../../source/installing_opentoonz.rst:142
 msgid "Debian GNU/Linux"
-msgstr ""
+msgstr "Debian GNU/Linux"
 
-#: ../../source/installing_opentoonz.rst:141
+#: ../../source/installing_opentoonz.rst:144
 msgid "Download PGP signing key package."
 msgstr "Загрузите пакет ключа подписи PGP."
 
-#: ../../source/installing_opentoonz.rst:143
+#: ../../source/installing_opentoonz.rst:146
 msgid ""
 "``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring"
 "/deb-multimedia-keyring_2016.8.1_all.deb``"
 msgstr ""
+"``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring"
+"/deb-multimedia-keyring_2016.8.1_all.deb``"
 
-#: ../../source/installing_opentoonz.rst:145
+#: ../../source/installing_opentoonz.rst:148
 msgid "Install PGP package."
 msgstr "Установите пакет PGP."
 
-#: ../../source/installing_opentoonz.rst:147
+#: ../../source/installing_opentoonz.rst:150
 msgid "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
-msgstr ""
+msgstr "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
 
-#: ../../source/installing_opentoonz.rst:149
+#: ../../source/installing_opentoonz.rst:152
 msgid "Add repository address to your sources list."
 msgstr "Добавьте адрес хранилища в список источников."
 
-#: ../../source/installing_opentoonz.rst:151
+#: ../../source/installing_opentoonz.rst:154
 msgid ""
 "``sudo echo \"deb http://www.deb-multimedia.org stable main\" | tee -a "
 "/etc/apt/sources.list`` Builds for testing and sid also avalaible."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:153
+#: ../../source/installing_opentoonz.rst:156
 msgid "Debian packages avalaible only for amd64, arm64 and i386 architectures."
 msgstr "Пакеты Debian доступны только для архитектур amd64, arm64 и i386."
 
-#: ../../source/installing_opentoonz.rst:155
+#: ../../source/installing_opentoonz.rst:158
 msgid "Install OpenToonz."
 msgstr "Установите OpenToonz."
 
-#: ../../source/installing_opentoonz.rst:157
+#: ../../source/installing_opentoonz.rst:160
 msgid "``sudo apt update && apt install opentoonz opentoonz-data``"
-msgstr ""
+msgstr "``sudo apt update && apt install opentoonz opentoonz-data``"
 
-#: ../../source/installing_opentoonz.rst:159
+#: ../../source/installing_opentoonz.rst:162
 msgid "For updating enter ``sudo apt update && apt upgrade``."
 msgstr "Для обновления введите `` sudo apt update && apt upgrade``."
 
-#: ../../source/installing_opentoonz.rst:162
+#: ../../source/installing_opentoonz.rst:165
 msgid "Gentoo, Funtoo"
-msgstr ""
-
-#: ../../source/installing_opentoonz.rst:164
-msgid "``sudo emerge media-gfx/opentoonz``"
-msgstr ""
+msgstr "Gentoo, Funtoo"
 
 #: ../../source/installing_opentoonz.rst:167
-msgid "openSUSE"
-msgstr ""
+msgid "``sudo emerge media-gfx/opentoonz``"
+msgstr "``sudo emerge media-gfx/opentoonz``"
 
-#: ../../source/installing_opentoonz.rst:169
-msgid "``sudo zypper install opentoonz``"
-msgstr ""
+#: ../../source/installing_opentoonz.rst:170
+msgid "openSUSE"
+msgstr "openSUSE"
 
 #: ../../source/installing_opentoonz.rst:172
-msgid "Solus"
-msgstr ""
+msgid "``sudo zypper install opentoonz``"
+msgstr "``sudo zypper install opentoonz``"
 
-#: ../../source/installing_opentoonz.rst:174
-msgid "``sudo eopkg install opentoonz``"
-msgstr ""
+#: ../../source/installing_opentoonz.rst:175
+msgid "Solus"
+msgstr "Solus"
 
 #: ../../source/installing_opentoonz.rst:177
+msgid "``sudo eopkg install opentoonz``"
+msgstr "``sudo eopkg install opentoonz``"
+
+#: ../../source/installing_opentoonz.rst:180
 msgid "Void Linux"
-msgstr ""
+msgstr "Void Linux"
 
-#: ../../source/installing_opentoonz.rst:179
+#: ../../source/installing_opentoonz.rst:182
 msgid "``sudo xbps-install -S opentoonz``"
-msgstr ""
+msgstr "``sudo xbps-install -S opentoonz``"
 
-#: ../../source/installing_opentoonz.rst:184
+#: ../../source/installing_opentoonz.rst:187
 msgid "Universal binaries"
 msgstr "Универсальные бинарные файлы"
 
-#: ../../source/installing_opentoonz.rst:187
+#: ../../source/installing_opentoonz.rst:190
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
-#: ../../source/installing_opentoonz.rst:189
+#: ../../source/installing_opentoonz.rst:192
 msgid "Installing."
 msgstr "Установка."
 
-#: ../../source/installing_opentoonz.rst:191
+#: ../../source/installing_opentoonz.rst:194
 msgid "``flatpak install flathub io.github.OpenToonz``"
-msgstr ""
+msgstr "``flatpak install flathub io.github.OpenToonz``"
 
-#: ../../source/installing_opentoonz.rst:193
+#: ../../source/installing_opentoonz.rst:196
 msgid "Run."
 msgstr "Беги."
 
-#: ../../source/installing_opentoonz.rst:195
+#: ../../source/installing_opentoonz.rst:198
 msgid "``flatpak run io.github.OpenToonz``"
-msgstr ""
+msgstr "``flatpak run io.github.OpenToonz``"
 
-#: ../../source/installing_opentoonz.rst:200
+#: ../../source/installing_opentoonz.rst:203
 msgid "Snap"
-msgstr ""
+msgstr "Snap"
 
-#: ../../source/installing_opentoonz.rst:202
+#: ../../source/installing_opentoonz.rst:205
 msgid "``sudo snap install opentoonz``"
-msgstr ""
+msgstr "``sudo snap install opentoonz``"
 
 #~ msgid ""
 #~ "1. Download AppImage. ``wget "
