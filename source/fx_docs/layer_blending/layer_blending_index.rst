@@ -2,6 +2,7 @@ Layer Blending
 ==============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    local_transparency
+   transparency
