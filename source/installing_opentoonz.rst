@@ -143,8 +143,8 @@ Debian GNU/Linux
 
 .. tip:: For updating enter ``sudo apt update && apt upgrade``.
 
-Gentoo, Funtoo
-''''''''''''''
+Gentoo
+''''''
 
 ``sudo emerge media-gfx/opentoonz``
 
