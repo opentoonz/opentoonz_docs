@@ -10,7 +10,7 @@ Downloading OpenToonz
 ---------------------
 You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application.
 
-.. note:: All other builds appart from the ones downloaded from the official web site ARE NOT officially supported.
+.. note:: All other builds apart from the ones downloaded from the official web site ARE NOT officially supported.
 
 It's possible to find the developer's "nightly" builds `here <https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
 
