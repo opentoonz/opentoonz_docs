@@ -116,7 +116,7 @@ Installing on Linux
 Alt Linux
 '''''''''
 
-``# sudo apt-get install opentoonz``
+``# apt-get install opentoonz``
 
 .. _arch:
 
