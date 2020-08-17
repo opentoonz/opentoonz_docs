@@ -113,7 +113,7 @@ Installing on Linux
 
 .. _alt::
 
-Alt Linux
+ALT Linux
 '''''''''
 
 ``# apt-get install opentoonz``
