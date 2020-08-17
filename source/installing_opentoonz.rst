@@ -111,6 +111,13 @@ Homebrew
 Installing on Linux
 -------------------
 
+.. _alt::
+
+Alt Linux
+'''''''''
+
+``# sudo apt-get install opentoonz``
+
 .. _arch:
 
 Arch Linux
