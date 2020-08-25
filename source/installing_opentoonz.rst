@@ -116,7 +116,7 @@ Installing on Linux
 ALT Linux
 '''''''''
 
-``# apt-get install opentoonz``
+``# apt-get install opentoonz opentoonz-doc``
 
 .. _arch:
 
