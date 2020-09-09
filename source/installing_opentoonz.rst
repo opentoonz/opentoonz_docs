@@ -155,6 +155,11 @@ Gentoo
 
 ``sudo emerge media-gfx/opentoonz``
 
+NixOS
+'''''
+
+``nix-env -iA nixos.opentoonz``
+
 openSUSE
 ''''''''
 
