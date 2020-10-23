@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 23:49+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/setting_up_a_scene.rst:4
+msgid "Setting Up a Scene"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:9
+msgid "Scene Settings and Project Default Settings"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:10
+msgid ""
+"When you start working on a scene, automatically it will belong to the "
+"current project, inheriting its settings and default folders. In this way"
+" all the scenes belonging to a project are created with the same "
+"settings, assuring the consistency of the production (see  :ref:`Managing"
+" Projects <managing_projects>`  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:12
+msgid ""
+"Settings concern different tasks you may perform in OpenToonz, such as "
+"the scanning, or cleanup process, the camera size and resolution, the "
+"frame rate, the output options, etc. They can be accessed in dialogs you "
+"can open with commands available in the related menu; for example the "
+"scan and cleanup settings commands are available in the Scan & Cleanup "
+"menu."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:14
+msgid ""
+"Settings for a particular scene can always be changed independently from "
+"the other ones, and will be automatically saved when the scene is saved."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:16
+msgid ""
+"If you want to change the default values you can save current scene "
+"settings as default, so that all new scenes created for that project will"
+" have those values."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:18
+msgid "**To save current scene settings as project default settings:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:20
+msgid ""
+"Select File  →  Save Default Settings: all the settings from the current "
+"scene will become the project default."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:26
+msgid "Choosing the Working Unit"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:27
+msgid ""
+"Positions, distances and sizes can be expressed in several units of "
+"measure: inches, millimeters, centimeters, fields and pixels."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:29
+msgid ""
+"The field unit is equal to 1/2 inch on the horizontal dimension, and it "
+"depends on the A/R set in the field guide information of the Scene "
+"Settings... dialog on the vertical dimension (see  :ref:`Using the Viewer"
+" <using_the_work_area>`  ). For example if the A/R value is 1.77778, two "
+"horizontal fields are equal to an inch, while one vertical field equals "
+"to an inch divided by 1.77778."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:31
+msgid ""
+"In the Files  →  Preferences  →  Interface dialog you can set the "
+"following default units:"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:33
+msgid ""
+"The Unit is used to display all measures in text fields, and applied when"
+" moving or changing the size of stage objects."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:35
+msgid ""
+"The Camera Unit is used to display and define the camera size in the "
+"Xsheet  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings"
+" <defining_camera_settings>`  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:37
+msgid ""
+"You can also express values in an unit different from the default one by "
+"entering any of the following units and abbreviations: in, inch, \" , ' '"
+" (two apostrophes), cm, mm, fld, field and px, after the input value "
+"itself. As soon as the value is entered it's converted in the default "
+"unit."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:39
+msgid ""
+"If a value without a specific unit is used, it is supposed to be "
+"expressed in the default unit."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:41
+msgid "**To set the default working units:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:43
+msgid "Choose File  →  Preferences  →  Interface."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:45
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:47
+msgid "In the Unit option menu choose the unit you want to use as default."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:49
+msgid ""
+"In the Camera Unit option menu choose the unit you want to use to express"
+" the camera size."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:55
+msgid "Setting the Frame Rate"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:56
+msgid "|scene_settings|"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:58
+msgid ""
+"The frame rate is the number of frames per second of animation, and has "
+"to be set according to the type of output you have to render, for "
+"instance it should usually be 24 for cinematic production, 25 for PAL "
+"output, or 30 for NTSC."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:60
+msgid ""
+"The current scene frame rate can be set in the Scene Settings... dialog, "
+"and it is displayed in the bottom bar of any Viewer pane. In case the "
+"play back is activated, the actual frame rate is displayed on its left."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:62
+msgid ""
+"Apart from affecting the playback speed when previewing or rendering a "
+"scene, the frame rate also determines the frame count of an audio file "
+"when it is imported into the Xsheet (see  :ref:`Creating a Soundtrack "
+"<creating_a_soundtrack>`  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:64
+msgid ""
+"Even if a scene has been composited with a specific frame rate for a "
+"certain output, it is possible to render it out at a different frame rate"
+" by using the Stretch from FPS: To: option in the Output Settings  →  "
+"Other Settings dialog (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:66
+msgid "|stretch_fps_to|"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:69
+msgid "**To set the frame rate:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:71
+msgid "Choose Xsheet  →  Scene Settings..."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:73
+msgid "In the Frame Rate text field set the frame rate value."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:79
+msgid "Defining Camera Settings"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:80
+msgid "|camera_settings|"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:82
+msgid ""
+"The Current Camera Settings dialog, that can be opened from the Xsheet "
+"menu, contains parameters for defining the current camera frame size and "
+"resolution."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:84
+msgid ""
+"More than one camera can be defined for each scene, in order to have "
+"different output resolutions, or to shot only a particular area of the "
+"scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`"
+"  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:86
+msgid ""
+"The camera frame size can be expressed in any unit, but will be "
+"visualized in the default one chosen in the Preferences  →  Interface "
+"dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`"
+"  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:88
+msgid "In OpenToonz the Camera is defined by different parameters:"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:90
+msgid ""
+"X (Width) and Y (Height) frame size of the camera, expressed in the "
+"default Camera Unit (usually inches)."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:92
+msgid "A/R is the aspect ratio value resulting by dividing Width/Height."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:94
+msgid "X and Y resolution Pixels of the resulting image frame seen by the camera."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:96
+msgid ""
+"X and Y DPI values, calculated using the standard formulas: "
+"XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to "
+"have the same value, by activating the equal-sign button between them."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:98
+msgid ""
+"When inserting a value in one field, the others change accordingly as "
+"needed for having a consistent camera. You can decide which set of values"
+" has to be considered fixed by OpenToonz. The lock-shaped buttons and the"
+" radio buttons at the leftmost column of the camera parameters, let you "
+"select which column and row of values has to be preserved by OpenToonz, "
+"while changing the others as needed."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:100
+msgid ""
+"The **Use Current Level Settings** button let you set the camera for "
+"framing exactly the content of the selected level. Just press this button"
+" and OpenToonz will calculate the appropriate values for the camera."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:102
+msgid ""
+"Camera resolutions can also be selected from a list of predefined camera "
+"settings. You can add any camera preset you define to the list, as well "
+"as remove any predefined camera from it."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:104
+msgid ""
+"The predefined cameras list is saved in the file ``reslist.txt``  stored "
+"in the projectroot (see  :ref:`Setting the Projectroot "
+"<setting_the_projectroot>`  )."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:106
+msgid "**To add a preset camera resolution:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:108
+msgid "Set the resolution and A/R for the camera you want to save."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:110
+msgid "Click the **Add** button on the right of the preset cameras list."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:112
+msgid "Assign a name to the camera resolution and click the **OK** button."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:114
+msgid "**To remove a preset camera resolution:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:116
+msgid ""
+"Select the camera resolution you want to remove in the preset cameras "
+"list."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:118
+msgid "Click the **Remove** button on the right of the preset cameras list."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:124
+msgid "Color Calibration using Look-up Tables"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:126
+msgid "|3dlut|"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:128
+msgid ""
+"OpenToonz can manage the previsualization of color through the use of 3D "
+"Look-up Tables. By applying a 3D LUT file, properly configured for the "
+"current display monitor, it will be possible to work on different color "
+"spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, "
+"`DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 "
+"<https://en.wikipedia.org/wiki/Rec._2020>`_."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:130
+msgid ""
+"Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, "
+"Flipbook, Color Model, Palette, and Style Editor will be corrected."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:132
+msgid ""
+"Currently, only the .3dl file format is supported. It must follow "
+"specification written `here "
+"<http://download.autodesk.com/us/systemdocs/help/2009/lustre_ext1/index.html?url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,topicNumber=d0e8061>`_."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:134
+msgid ""
+"Currently, only the Windows version of OpenToonz can detect the currently"
+" connected monitor. For other platforms only one 3D LUT file can be "
+"applied for any type of monitors. (Even on Windows, connecting multiple "
+"different monitors at the same time is not supported for now. It will "
+"only identify the first registered monitor)."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:136
+msgid ""
+"PLEASE NOTE: At the moment, using Plastic deformation together with this "
+"feature causes a display issue such that the deformed image is not shown "
+"in *Camera Stand* mode of the Viewer."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:138
+msgid "**To apply a 3DLUT file for previsualizing color:**"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:140
+msgid "Choose File  →  Preferences...  →  Interface."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:142
+msgid "Activate the **Color Calibration using 3D Look-up Table** option."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:144
+msgid ""
+"In the **3DLUT File for [monitor]:** option, press the file browser "
+"button to navigate and select the desired .3DL file."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:146
+msgid "Restart OpenToonz for the changes to take effect."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:152
+msgid "Assigning Memory for the Undo Operations"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:153
+msgid ""
+"All the operations performed in the software can be undone by using the "
+"Edit  →  Undo command, even to go back for several steps."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:155
+msgid ""
+"Undo operations require computer memory in order to be performed, and "
+"some of them may require more memory than some others, according to their"
+" complexity."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:157
+msgid ""
+"To prevent most of the computer memory to be used by undo operations "
+"while you work, a situation that slows down the software performance, it "
+"is possible to set a limit for it by specifying the Undo Memory Size (MB)"
+" in the Files  →  Preferences  →  General dialog."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:159
+msgid ""
+"As soon as the limit is reached, the oldest undo operations will be "
+"discarded to make room for the new ones."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:165
+msgid "Optimizing the Memory Usage"
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:166
+msgid ""
+"When working with Raster images, predominantly being animation levels "
+"scanned with OpenToonz or GTS, an extensive usage of computer memory may "
+"be required during the cleanup, painting and rendering processes."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:168
+msgid ""
+"After a certain amount of time the computer performance may worsen, as "
+"the memory gets fragmented because of the several writing and reading "
+"accesses. To prevent this behavior, the Minimize Raster Memory "
+"Fragmentation* option can be activated in the Files  →  Preferences  →  "
+"General dialog. When activated, a section of computer memory is reserved "
+"and used only for operations concerning Raster images."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:170
+msgid ""
+"If you are working mainly with vector images, that have been drawn inside"
+" OpenToonz, this option should be deactivated, as the reserved memory "
+"section would be otherwise unused by the computer."
+msgstr ""
+
+#: ../../source/setting_up_a_scene.rst:172
+msgid "The change set for this option is valid only after OpenToonz is restarted."
+msgstr ""
+

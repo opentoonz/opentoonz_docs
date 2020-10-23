@@ -1,0 +1,4928 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 23:49+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/working_in_xsheet.rst:4
+msgid "Working in Xsheet/Timeline"
+msgstr "کار در Xsheet/Timeline"
+
+#: ../../source/working_in_xsheet.rst:5
+msgid ""
+"The Xsheet, the digital version of the traditional exposure sheet, allows"
+" you to control the timing of all of the elements of a scene. It is "
+"organized in columns and rows: each column contains a layer of the "
+"animation and each row represents a frame contents. Columns are divided "
+"into cells, representing the content of that column in a particular "
+"frame."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:7
+msgid ""
+"The Timeline is the horizontal counterpart of the Xsheet, it serves the "
+"same purpose, and has the same functionality. The main differences with "
+"the Xsheet are that in the Timeline the different levels are laid out in "
+"horizontal layers, while each frame content is represented by the columns"
+" of the Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:9
+msgid ""
+"In both of them, different items, generically called here as levels, can "
+"be loaded into the scene: animation levels, images for the background and"
+" overlays, and video clips."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:11
+msgid ""
+"Other OpenToonz scenes can be loaded there as well: they will be nested "
+"inside a column/layer, and considered as a Sub-Xsheet of the current "
+"Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:13
+msgid ""
+"All of the Xsheet/Timeline contents can be checked in the viewer, where "
+"the animation can be played back, and the scene contents edited."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:19
+msgid "Using the Viewer"
+msgstr "استفاده از Viewer"
+
+#: ../../source/working_in_xsheet.rst:20
+msgid ""
+"The viewer has different modes of visualizing the scene contents. "
+"According to your needs you can view the whole work area, only the "
+"elements included in the current camera shot, or visualize the whole "
+"scene in a 3D environment. The viewer can also be frozen, so that the "
+"visualization is not updated until you enter with the pointer in the "
+"viewer. When the preview mode is activated, the viewer can display the "
+"rendered animation as in the final render (see  :ref:`Previewing the "
+"Animation <previewing_the_animation>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:24
+msgid "Camera Stand view, 3D view and Camera view modes."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:26
+msgid ""
+"At the bottom of the viewer another customizable set of buttons is "
+"available. Some are used for playback (see  :ref:`Using the Viewer "
+"<using_the_work_area>`  ), some others are relevant only when using the "
+"Animate tool (|animate|) to animate objects and when previewing the "
+"animation in the viewer (see :ref:`Animating Objects <animating_objects>`"
+"  and :ref:`Previewing the Animation <previewing_the_animation>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:28
+msgid ""
+"Additional elements like a field guide, or the table, can be displayed or"
+" hidden, and the background color can be set (see  :ref:`Customizing the "
+"Viewer <customizing_the_work_area>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:30
+msgid "**To switch the view mode in the viewer:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:32
+msgid "Use the buttons available in the viewer title bar to do the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:34
+msgid ""
+"The **Camera Stand View** button (|camera_stand|) is for standard view, "
+"where any part of the work area can be displayed. When playing back the "
+"scene, the work area stands still, while all of the other elements, "
+"including the camera, move in relation to its position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:36
+msgid ""
+"The **3D View** button (|3d|) is for activating or deactivating the 3D "
+"view of the elements composing the scene (see  :ref:`Working in a 3D "
+"Environment <working_in_a_3d_environment>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:38
+msgid ""
+"The **Camera View** button (|camera_view|) is for keeping the box "
+"representing the camera still, while all of the other elements move in "
+"relation to its position. It can help you to better understand the shot "
+"when there are camera trucks, or rotations."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:40
+msgid ""
+"When a frame is selected in the Level Strip, the view mode is set "
+"accordingly to display that level only. Pressing one of these buttons "
+"will revert the viewer back to showing the whole scene content."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:42
+msgid "**To freeze/un-freeze the viewer:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:44
+msgid ""
+"Click the Freeze button (|freeze|) in the viewer title bar to "
+"freeze/unfreeze the displayed content; when activated the word frozen is "
+"displayed at the center of the work area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:46
+msgid "**To update the viewer content when it is frozen:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:48
+msgid "Move the pointer over the viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:54
+msgid "Using the File Browser"
+msgstr "استفاده از File Browser"
+
+#: ../../source/working_in_xsheet.rst:55
+msgid ""
+"All the elements you need for a scene can be retrieved by using a file "
+"browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:57
+msgid "|file_browser|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:59
+msgid ""
+"You can either use the standard OpenToonz file browser to drag and drop "
+"levels or folders to the Xsheet/Timeline or the Scene Cast window, or use"
+" the Load Level... and Load Folder... commands from the File menu. In "
+"both cases you can perform a multiple selection to load several levels or"
+" folders at the same time, that will be exposed each in a separate "
+"column; if you use the Load Level... command, when loading an animation "
+"level you can also specify the frame range to load. When you use the Load"
+" Folder... command all the files contained in the folder (if supported) "
+"are loaded into the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:61
+msgid ""
+"When a level is loaded, OpenToonz checks if its syntax matches one of the"
+" level formats specified into Preferences  →  Loading  →  **Level "
+"Settings by File Format**. In this case the Level Settings specified will"
+" be applied. It is possible to add as many formats as you want, defining "
+"them by using a Regular Expression. This way, different settings can be "
+"automatically applied to different kind of levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:63
+msgid ""
+"It is possible to **Ignore Alpha Channel on Levels in Column 1** by "
+"activating the option in Preferences  →  Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:65
+msgid "In the file tree available on the left there are the following main items:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:67
+msgid "**My Computer** contains files and folders located in your computer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:69
+msgid "**Network** allows the access to network computers."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:71
+msgid ""
+"**My Documents** contains files and folders located in the OS My "
+"Documents folder."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:73
+msgid ""
+"**Library** displays files and folder located in the "
+"``Projectroot\\library``  folder (see  :ref:`Setting the Projectroot "
+"<setting_the_projectroot>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:75
+msgid ""
+"**History** contains recently saved scenes, organized in folders, one for"
+" each of the last seven days OpenToonz was used."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:77
+msgid ""
+"**Projectroot** lists all the projects that have been created as folders "
+"containing the project information and material; the actual path of the "
+"projectroot is displayed in brackets (see  :ref:`Using the Project "
+"Browser <using_the_project_browser>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:79
+msgid ""
+"In case more than one projectroot is defined, each will be displayed with"
+" the related projectroot path in brackets (see  :ref:`Setting the "
+"Projectroot <setting_the_projectroot>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:81
+msgid ""
+"**Version control** repository folder, labeled according to the version "
+"control configuration, contains the folders and files under the version "
+"control system (see  :ref:`Using the Version Control "
+"<using_the_version_control>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:83
+msgid ""
+"In case several repositories are defined, each will be displayed with its"
+" appropriate label (see  :ref:`Configuring the Version Control in "
+"OpenToonz <configuring_the_version_control_in_toonz>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:85
+msgid ""
+"You can open folders and sub-folders in order to retrieve files that are "
+"displayed in the area on the right. The current location path is "
+"displayed at the top of the browser; existing folders can be renamed and "
+"new folders can be created. Files can be displayed as icons or as a list,"
+" displaying additional informations that can be also used to sort them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:87
+msgid ""
+"The way file icons are generated in the OpenToonz browser depends on the "
+"images resolution and on the **Icon Size** option set for the Level Strip"
+" frames in the Preferences  →  Interface dialog (see  :ref:`Using the "
+"Level Strip <using_the_level_strip>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:93
+msgid "Loading Levels"
+msgstr "بارگذاری Level ها"
+
+#: ../../source/working_in_xsheet.rst:95
+msgid ""
+"As part of the scene you can load Toonz Vector and Toonz Raster animation"
+" levels (PLI and TLV), Toonz palettes (TPL), Raster full-color images or "
+"image sequences (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), video "
+"clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), "
+"Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV"
+" and MP3 with the aid of FFMPEG, if installed). Images or clips with "
+"alpha channel information will retain their transparency information, "
+"once imported."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:97
+msgid ""
+"It is also possible to load legacy TZU and TZP files created with Toonz "
+"version 4.x: in this case the files will be automatically converted and "
+"loaded in the TLV format."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:99
+msgid "SVG files are automatically converted and loaded in PLI format."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:101
+msgid ""
+"Photoshop files can be loaded taking into account the layers the document"
+" is made of (see  :ref:`Loading Photoshop Documents "
+"<loading_photoshop_documents>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:103
+msgid ""
+"*Single image* files can have numbers and letters as part of their names,"
+" but they must comply with certain rules to be considered valid ones. "
+"Following are several descriptive examples of valid and invalid image "
+"file names:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:105
+msgid "Valid name types: ``a1.tga``, ``1a1.tga``, ``1aa.tga``, ``1aaa.tga``"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:107
+msgid "Invalid name types: ``1.tga``, ``111.tga``, ``1a.tga``, ``111a.tga``"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:109
+msgid ""
+"*Image sequences* are recognized and loaded by OpenToonz file browser as "
+"a single animation level, if they are named with a progressive four-"
+"digits number written between the *base* file name and the file "
+"*extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , "
+"``etc.`` or ``animation_0001.tif`` , ``animation_0002.tif`` , ``etc.``. "
+"They are displayed in the file browser with a *double dot* or *an "
+"underscore and a dot* before the file extension: e.g. ``animation..tif`` "
+"or ``animation_.tif``"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:111
+msgid ""
+"From the browser, you can **View** images and clips you are going to load"
+" as levels by opening a flipbook whose default shrink factor and step can"
+" be set in the preferences dialog, and see the related file information "
+"by opening an **Info** box (see  :ref:`Using the Flipbook "
+"<using_the_flipbook>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:113
+msgid ""
+"OpenToonz scenes (TNZ files) can be loaded as part of another scene as "
+"well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a"
+" Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:115
+msgid ""
+"When you load levels using the standard OpenToonz file browser, you can "
+"set whether to automatically expose them in the Xsheet/Timeline or not, "
+"by setting the **Expose Loaded Levels in Xsheet** option in the "
+"Preferences  →  Loading dialog. If activated, each level will be placed "
+"in a different column/layer, starting from the first empty one. If "
+"deactivated, the loaded levels will be stored in the Scene Cast, from "
+"where they can be selectively exposed in Xsheet columns or Timeline "
+"layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:117
+msgid ""
+"If you are loading one or several files located outside the default "
+"current project folders, you are prompted whether to **Import** them to "
+"the project database or to **Load** them from where they are. In the "
+"former case files will be copied to the appropriate project folder (PLI, "
+"TLV levels and their palettes in the *+drawings* folder; raster images, "
+"video clips and audio files in the *+extras* folder; standalone palettes "
+"in the *+palettes* folder, etc.) and loaded with a relative path from "
+"this new location (see  :ref:`Managing Projects <managing_projects>`  ); "
+"in the latter case they will be loaded using an absolute path to their "
+"original location."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:119
+msgid ""
+"If any of the files you want to import has the same name of a file "
+"already existing in the destination project folder, you will prompted "
+"whether to keep the existing file, overwrite it with the new one, or "
+"rename it by adding a suffix you can choose. In this way you can control "
+"if files you are importing have already been imported previously, or "
+"manage files that just share the same name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:121
+msgid ""
+"**WARNING:** It is heavily recomended to **Import** assets to the current"
+" project folders, as OpenToonz can ovewrite the files associated with "
+"levels exposed in the Xsheet/Timeline, each time the **Save Level**, "
+"**Save All Levels**, or **Save All** commands are invoked."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:123
+msgid ""
+"Files loaded in a scene without importing can be imported later all at "
+"once by using the **Collect Assets** command (see  :ref:`Collecting "
+"Assets <collecting_assets>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:125
+msgid ""
+"The OpenToonz file browser displays only the relevant files that can be "
+"loaded in OpenToonz. To check the full content of a folder you can use "
+"the **Show Folder Contents** option (see below)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:127
+msgid "**To choose the browser display mode:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:129
+#: ../../source/working_in_xsheet.rst:161
+#: ../../source/working_in_xsheet.rst:177
+#: ../../source/working_in_xsheet.rst:207
+#: ../../source/working_in_xsheet.rst:219
+#: ../../source/working_in_xsheet.rst:554
+#: ../../source/working_in_xsheet.rst:584
+#: ../../source/working_in_xsheet.rst:598
+#: ../../source/working_in_xsheet.rst:608
+#: ../../source/working_in_xsheet.rst:622
+#: ../../source/working_in_xsheet.rst:639
+#: ../../source/working_in_xsheet.rst:649
+#: ../../source/working_in_xsheet.rst:659
+#: ../../source/working_in_xsheet.rst:690
+#: ../../source/working_in_xsheet.rst:738
+#: ../../source/working_in_xsheet.rst:762
+#: ../../source/working_in_xsheet.rst:833
+#: ../../source/working_in_xsheet.rst:863
+#: ../../source/working_in_xsheet.rst:881
+#: ../../source/working_in_xsheet.rst:901
+#: ../../source/working_in_xsheet.rst:958
+#: ../../source/working_in_xsheet.rst:1020
+#: ../../source/working_in_xsheet.rst:1034
+#: ../../source/working_in_xsheet.rst:1069
+#: ../../source/working_in_xsheet.rst:1083
+#: ../../source/working_in_xsheet.rst:1116
+#: ../../source/working_in_xsheet.rst:1191
+#: ../../source/working_in_xsheet.rst:1213
+#: ../../source/working_in_xsheet.rst:1225
+#: ../../source/working_in_xsheet.rst:1243
+#: ../../source/working_in_xsheet.rst:1270
+#: ../../source/working_in_xsheet.rst:1297
+#: ../../source/working_in_xsheet.rst:1396
+#: ../../source/working_in_xsheet.rst:1424
+#: ../../source/working_in_xsheet.rst:1436
+#: ../../source/working_in_xsheet.rst:1460
+#: ../../source/working_in_xsheet.rst:1489
+#: ../../source/working_in_xsheet.rst:1499
+#: ../../source/working_in_xsheet.rst:1615
+#: ../../source/working_in_xsheet.rst:1623
+#: ../../source/working_in_xsheet.rst:1674
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:131
+msgid ""
+"Click the Icon button (|thumbnails|) in the bottom bar of the browser to "
+"display files with the related icons."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:133
+msgid ""
+"Click the List button (|list|) in the bottom bar of the browser to "
+"display files in a list with related s; click the labels at the top of "
+"the  columns to sort files accordingly; right-click the label at the top "
+"of the  columns to open the menu that allows to toggle the visualization "
+"of the  columns."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:135
+msgid "**To resize the browser sections:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:137
+#: ../../source/working_in_xsheet.rst:562
+#: ../../source/working_in_xsheet.rst:1450
+msgid "Do any of the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:139
+#: ../../source/working_in_xsheet.rst:564
+msgid "Click and drag the separator to resize sections."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:141
+#: ../../source/working_in_xsheet.rst:566
+msgid "Click and drag the separator towards the window border to hide a section."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:143
+msgid ""
+"Click and drag the separator collapsed to the window border toward the "
+"window center to display again the hidden section."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:145
+#: ../../source/working_in_xsheet.rst:570
+msgid "**To rename an existing folder:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:147
+#: ../../source/working_in_xsheet.rst:572
+msgid "Double-click the folder name and rename it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:149
+#: ../../source/working_in_xsheet.rst:574
+msgid "**To create a new folder:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:151
+msgid ""
+"Click the new folder button (|new_folder|) in the bottom bar of the "
+"browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:153
+msgid "**To move one folder up in the file tree:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:155
+msgid "Click the folder up button (|folder_up|) in the bottom bar of the browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:157
+msgid "**To load levels from the Load Level browser:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:159
+#: ../../source/working_in_xsheet.rst:173
+msgid ""
+"Select the Xsheet/Timeline cell where you want to start exposing the "
+"level; if any level is already exposed in that cell, a new column/layer "
+"will be inserted to expose the new level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:163
+msgid "Choose File  →  Load Level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:165
+msgid ""
+"Right-click in the Xsheet/Timeline cell and choose Load Level from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:167
+msgid ""
+"In the browser that opens select the file you want to load as a level; if"
+" you select a video or image sequence file, you can select the frame "
+"range you want to load by using the **Load Subsequence Level** options."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:169
+msgid "Click the Load button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:171
+msgid "**To load levels from the OpenToonz standard browser:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:175
+msgid "In the OpenToonz browser select the file you want to load as a level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:179
+msgid "Drag and drop the selection to the Scene Cast pane or to the Viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:181
+#: ../../source/working_in_xsheet.rst:665
+msgid ""
+"Drag and drop the selection to the Xsheet/Timeline cell where you want to"
+" start exposing it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:183
+msgid "Right-click the selection and choose Load from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:185
+msgid ""
+"Files can also be loaded by dragging and dropping them from the Windows "
+"Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline or Viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:187
+msgid "**To load folders:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:189
+msgid ""
+"Select the Xsheet/Timeline cell where you want to start exposing the "
+"levels; if any level is already exposed in that cell, a new column/layer "
+"will be inserted to expose the new levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:191
+msgid "In the OpenToonz File menu select the Load Folder... command."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:193
+msgid "In the File Browser that opens select the folder you want to load."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:195
+msgid "Press the OK button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:197
+msgid ""
+"Folders can also be loaded by dragging and dropping them from the Windows"
+" Explorer or macOS Finder to the scene cast, Xsheet/Timeline, or Viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:199
+msgid ""
+"When a level is loaded, OpenToonz checks if its syntax matches one of the"
+" level formats specified in Preferences  →  Loading  →  **Level Settings "
+"by File Format**. In this case the Level Settings specified when the "
+"corresponding **Edit** button is opened will be applied. It is possible "
+"to add as many file formats as you want, defining them by using a Regular"
+" Expression. This way, different settings can be automatically applied to"
+" different kind of levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:201
+msgid "**To load back a recently loaded level:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:203
+msgid ""
+"Choose File  →  Open Recent Level File, then select the level you want to"
+" load from the available submenu."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:205
+msgid "**To make a multiple selection in the file browser:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:209
+msgid "Click to select a file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:211
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) to add to or remove a file from the "
+"selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:213
+#: ../../source/working_in_xsheet.rst:590
+#: ../../source/working_in_xsheet.rst:655
+#: ../../source/working_in_xsheet.rst:871
+msgid "Shift-click to extend the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:215
+msgid ""
+"Right-click in the right area of the browser and choose Select All from "
+"the menu that opens to select all the files contained in the current "
+"folder."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:217
+msgid "**To view a level in the flipbook:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:221
+msgid ""
+"In the OpenToonz browser or in the Xsheet right-click the level you want "
+"to view and choose View from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:223
+msgid ""
+"Choose Windows  →  Flipbook and drag and drop in the window the file you "
+"want to view."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:225
+msgid ""
+"By opening several Flipbook windows you can view several levels at the "
+"same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:227
+msgid "**To set the default shrink factor and step for the file viewer:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:229
+msgid "Choose File  →  Preferences  →  Interface."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:231
+msgid "Set the default **Viewer Shrink** and **Step** values."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:233
+msgid "**To view a level file information:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:235
+msgid ""
+"In the OpenToonz browser or in the Xsheet/Timeline right-click the level "
+"whose info you want to view and choose **Info** from the menu that opens;"
+" if the file is a video or a sequence of images, use the slider at the "
+"bottom of the box to change the current frame and see the related "
+"information."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:237
+msgid "**To view the entire contents of the current folder:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:239
+msgid ""
+"Right-click in the right area of the browser and choose **Show Folder "
+"Contents** from the menu that opens: the entire folder contents are "
+"displayed in a default OS window."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:245
+msgid "Loading Photoshop Documents"
+msgstr "بارگذاری اسناد فتوشاپ"
+
+#: ../../source/working_in_xsheet.rst:246
+msgid ""
+"Photoshop documents (PSD files) can be loaded as a scene element in "
+"OpenToonz taking into account the layers the document is made of, and "
+"their layering order; text layers are considered as standard layers, "
+"while layer styles are considered only when loading the document as a "
+"single image (see below)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:248
+msgid ""
+"Supported formats are RGB or grayscale images, using 8 or 16 bits per "
+"channel color depth."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:250
+msgid "|load_psd|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:252
+msgid ""
+"When a Photoshop document is loaded, a dialog opens to set the way the "
+"document has to be exposed in the Xsheet. Options are the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:254
+msgid ""
+"**Single Image**, flattens all the document layers into a single image. "
+"Only layers that were visible when the Photoshop document was saved are "
+"considered. The level name and path in Level Settings, and the scene "
+"cast, refer to the original name of the Photoshop document (see  "
+":ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using "
+"the Scene Cast <using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:256
+msgid ""
+"Photoshop documents can be loaded as a Single Image only if the *Maximize"
+" Compatibility* option was checked when saving the original file from "
+"Photoshop. If the option was deactivated, a dummy image is displayed "
+"instead; loading and saving again the document with the option activated "
+"fixes the problem."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:258
+msgid ""
+"**Frames**, loads each document layer as a frame, and exposes them as a "
+"sequence in an Xsheet column. Any layer group defined in the original "
+"document is ignored. The level name and path in Level Settings, and the "
+"Scene Cast, refer to the original name of the Photoshop document with the"
+" #frames suffix (see  :ref:`Editing Level Settings "
+"<editing_level_settings>`  and  :ref:`Using the Scene Cast "
+"<using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:260
+msgid ""
+"**Columns**, loads each document layer as a column, and it is possible to"
+" automatically create a Sub-Xsheet containing the columns by activating "
+"the **Expose in a Sub-Xsheet** option."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:263
+msgid ""
+"When a Photoshop document is loaded as Columns, it is also possible to "
+"set how new Level Names asre assigned. Options are the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:265
+msgid ""
+"**FileName#LayerName**, uses the PSD file name and layer names as the "
+"names of newly created levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:267
+msgid ""
+"**LayerName**, uses the PSD layer names as the names of newly created "
+"levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:270
+msgid ""
+"When a Photoshop document is loaded as Columns, it is also possible to "
+"set the way groups of layers have to be considered. Options are the "
+"following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:272
+msgid ""
+"**Ignore groups**, overlooks any group of layers defined in the document,"
+" and each layer is exposed in a different column. The level name and path"
+" in Level Settings, and the scene cast, for each level refer to the "
+"original name of the Photoshop document with the #layerName suffix (see  "
+":ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using "
+"the Scene Cast <using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:274
+msgid ""
+"**Expose layers in a group as columns in a Sub-Xsheet**, creates for each"
+" group a Sub-Xsheet containing each layer of the group as a column. If a "
+"group contains other groups, the Sub-Xsheet will contain other Sub-"
+"Xsheets that will contain the related layers as columns. The level name "
+"and path in Level Settings, and the scene cast, for each level refer to "
+"the original name of the Photoshop document with the #layerID suffix (see"
+"  :ref:`Editing Level Settings <editing_level_settings>`  and  "
+":ref:`Using the Scene Cast <using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:276
+msgid ""
+"**Expose layers in a group as frames in a column**, creates for each "
+"group a column containing each layer of the group as a cell. If a group "
+"contains other groups, they will be ignored. The level name and path in "
+"Level Settings, and the scene cast, for each level refer to the original "
+"name of the Photoshop document with the #groupID#group suffix (see  "
+":ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using "
+"the Scene Cast <using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:278
+msgid ""
+"In order to be properly displayed in the final rendering, images based on"
+" Photoshop document layers have to be premultiplied either using the "
+"**Premultiply** option in the Level Settings dialog, or the Premultiply "
+"effect (see  :ref:`Editing Level Settings <editing_level_settings>`  and"
+"  :ref:`Premultiply <premultiply>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:284
+msgid "Executing Tasks in the File Browser"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:285
+msgid "Some tasks concerning files can be executed directly in the File Browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:287
+msgid ""
+"Files can be duplicated, converted to a different format, converted to "
+"TLV (Toonz raster image) format, renamed, premultiplied, and you can "
+"choose to separate their colors."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:289
+msgid ""
+"When duplicating files, the new files will be renamed by appending an "
+"underscore followed by progressive numbering."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:291
+msgid ""
+"You can also separate the colors of an image or image sequence by using "
+"the **Separate Colors...** command. For more details on its options, "
+"please see the  :ref:`Separate Colors <separate_colors>`  section."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:293
+msgid ""
+"When renaming, files will be renamed according to the name you specify; "
+"an option allows you also to delete the original files. This can be used "
+"both for renaming sequences of image files in one shot, and for "
+"converting sequence numbering modes to the OpenToonz standard one (i.e. a"
+" progressive four-digits number written between the file name and the "
+"file extension) by selecting only the first file of a sequence."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:295
+msgid ""
+"When premultiplied, the file alpha channel is modified to be properly "
+"displayed in OpenToonz. Images which have a meaningful alpha channel come"
+" in two types: premultiplied or straight. A non-premultiplied (straight) "
+"image can be recognized when it's loaded in OpenToonz because its edges, "
+"where there is a complete transparence on one side and opacity on the "
+"other, are not smooth, but displays show a solid halo; by premultiplying "
+"the image it's possible to fix this problem. This is available only for "
+"full-color images."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:297
+msgid ""
+"When converting files, a dialog prompts the frame range to convert, a "
+"saving location, a name, the new format with related options and a color "
+"for the background of the converted file. It is also possible to select "
+"more files at once but, in this case, the frame range and the file name "
+"fields won’t be available. All levels, images and clips supported by "
+"OpenToonz can be converted. The PLI vector files can also be converted to"
+" the SVG format."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:299
+msgid ""
+"The **Convert...** command is also available in the File menu as "
+"**Convert File...**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:301
+msgid ""
+"When converting files to TLV format, it's possible to choose the painted "
+"or unpainted TLV formats; all levels, images and clips supported by "
+"OpenToonz can be converted, except for PSD files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:303
+msgid ""
+"The conversion to the unpainted TLV format is available when one or "
+"several files are selected and it's meant for lineart images: the images "
+"and levels are converted into black lineart images with a transparent "
+"background, so that they can be painted with the same techniques and "
+"tools you can use for other Toonz Raster levels (see  :ref:`Painting "
+"Animation Levels <painting_animation_levels>`  ). In particular if images"
+" have some transparency, transparent pixels remain transparent, while "
+"solid pixels are transformed into black ones; if images have no "
+"transparency, white and lighter pixels will be assumed as transparent, "
+"while dark pixels are transformed into black ones."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:305
+msgid ""
+"The conversion to the painted TLV format is available when two files are "
+"selected or when the selected files are Raster Full color without "
+"antialiasing. In the case of the two files, one is meant to be the "
+"lineart and the other a painted version of the same image: the images and"
+" levels are converted into painted lineart images with a palette, so that"
+" they can be edited with the same techniques and tools you can use for "
+"other Toonz Raster levels (see  :ref:`Managing Palettes and Styles "
+"<managing_palettes_and_styles>`  and  :ref:`Painting Animation Levels "
+"<painting_animation_levels>`  ). In the case of conversion from Raster "
+"Full color without antialiasing, an Heuristic is used to recognize lines "
+"and painted areas creating a TLV level where the lines are seen as ink "
+"and the painted areas as paint."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:307
+msgid ""
+"In particular if images have some transparency, transparent pixels "
+"remains transparent, while solid pixels are transformed into lines "
+"according to their color; if images have no transparency, white and "
+"lighter pixels will be assumed as transparent, while dark pixels are "
+"transformed into black lines."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:309
+msgid ""
+"When converting to the TLV format, sequence numbering modes different "
+"from the OpenToonz standard one (i.e. a progressive four-digits number "
+"written between the file name and the file extension) are supported, so "
+"that only the first file of a sequence is required to be selected to "
+"include the whole sequence in the conversion."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:311
+msgid "**To Duplicate files:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:313
+msgid "Select the files you want to duplicate."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:315
+msgid ""
+"Right-click any of the selected files and choose **Duplicate** from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:317
+msgid "**To Rename files:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:319
+msgid "Select the files you want to rename."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:321
+msgid ""
+"Right-click any of the selected files and choose **Rename** from the menu"
+" that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:323
+msgid "|rename|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:325
+msgid ""
+"In the dialog that opens assign a new name to the file and choose whether"
+" to **Delete Original Files** by activating the related option."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:327
+msgid "Click the **Rename** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:329
+msgid "**To Premultiply full-color images:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:331
+msgid "Select the files you want to premultiply."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:333
+msgid ""
+"Right-click any of the selected files and choose Premultiply from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:335
+msgid "**To Convert a file to a different format:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:337
+msgid ""
+"Right-click the file you want to convert and choose Convert from the menu"
+" that opens. The Convert window change depending on the format of the "
+"selected files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:339
+msgid "|convert|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:341
+msgid ""
+"Choose the frame range to convert, the saving location, a name, the new "
+"format, and the background color of the converted file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:343
+#: ../../source/working_in_xsheet.rst:361
+msgid ""
+"Activate the Skip Existing Files to to prevent overwriting already "
+"exixting files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:345
+#: ../../source/working_in_xsheet.rst:363
+msgid ""
+"If needed, set the options for the file format chosen pressing the "
+"Options button and inserting the new values."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:347
+#: ../../source/working_in_xsheet.rst:365
+#: ../../source/working_in_xsheet.rst:387
+#: ../../source/working_in_xsheet.rst:413
+#: ../../source/working_in_xsheet.rst:431
+msgid "Click the Convert button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:349
+msgid "**To Convert several files at once to a different format:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:351
+msgid "Select the files you want to convert."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:353
+#: ../../source/working_in_xsheet.rst:371
+#: ../../source/working_in_xsheet.rst:393
+msgid ""
+"Right-click any of the selected files and choose Convert from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:355
+msgid "|convert_several|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:357
+msgid ""
+"Check the number of files you are going to convert reading the value from"
+" the header of the Convert window."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:359
+msgid ""
+"Choose the saving location, the new format, and the background color of "
+"the converted files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:367
+msgid "**To Convert files to the unpainted TLV format:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:369
+msgid "Select the lineart files you want to convert."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:373
+msgid "|convert_tlv_unpainted|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:375
+msgid "Select unpainted tlv from the File format drop down menu."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:377
+#: ../../source/working_in_xsheet.rst:399
+#: ../../source/working_in_xsheet.rst:421
+msgid ""
+"Choose the saving location and, if you have selected one sequence, the "
+"frame range."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:379
+#: ../../source/working_in_xsheet.rst:401
+#: ../../source/working_in_xsheet.rst:423
+msgid ""
+"Activate the Skip Existing Files to to prevent overwriting already "
+"existing files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:381
+#: ../../source/working_in_xsheet.rst:407
+msgid "Activate the Apply Autoclose."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:383
+#: ../../source/working_in_xsheet.rst:409
+msgid ""
+"Choose how to manage Antialiasing fom the drop down menu. You can "
+"preserve the original antialiasing selecting Keep Original; add some "
+"antialiasing selecting Add and writing an Intensity value in the "
+"following text input field; remove the antialiasing selecting the Remove "
+"option and writing a Threshold value in the following text input field."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:385
+#: ../../source/working_in_xsheet.rst:411
+msgid ""
+"Choose how to manage the palette of the tlv file/s you are going to "
+"create. By default a new palette is created. If you prefer to use an "
+"existing palette press the button next the palette field and use the "
+"browser to locate the palette file you desire to use."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:389
+msgid "**To Convert files to the painted TLV format from two images:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:391
+msgid ""
+"Select the lineart file and the painted version of the same file you want"
+" to convert."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:395
+msgid "|convert_tlv_painted|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:397
+msgid "Select painted tlv from the File format drop down menu."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:403
+msgid "Choose the folder where the unpainted files are located."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:405
+msgid ""
+"Specify the Suffix used for namig the unpainted version of the files "
+"(default is _u, but you can use anything you like when preparing the "
+"files for convertion)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:415
+msgid "**To Convert files to the painted TLV format from non AA source:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:417
+msgid "Select the Raster Full color file you want to convert."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:419
+msgid "|convert_tlv_painted_noaa|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:425
+msgid "Choose the output folder."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:427
+msgid "Activate the Apply Autoclose if needed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:429
+msgid ""
+"Choose how to manage the palette of the tlv file/s you are going to "
+"create. By default a new palette is created. If you prefer to use an "
+"existing palette press the button next the palette field and use the "
+"browser to locate the palette file you desire to use. Sets a Tolerance "
+"value for the correlation between the RGB value of the areas and the "
+"indexes color of the palette."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:436
+msgid "Separate Colors"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:438
+msgid ""
+"The **Separate Colors** feature, allows for separating single drawing by "
+"colors of pencils, generating independent image files to make it easier "
+"to use them in a subsequent compositing workflow."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:440
+msgid "|separate_colors|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:442
+msgid ""
+"Unlike conventional *threshold-based* algorithms, this feature can "
+"produce more natural results, since it separates pixels in a more "
+"flexible way, by using the HLS color space."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:444
+msgid ""
+"Currently this is a \"utility\" feature, which means that it's "
+"independent from the current loaded scene or active project. It just "
+"works on selected raster image files in the File Browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:446
+msgid ""
+"The produced output images contain an alpha channel equal to the line "
+"intensity."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:448
+msgid ""
+"You can compose the line by loading the separated images as levels, or "
+"you can also connect the levels to a **MatteIn** effect with some color "
+"card if you would like to alter the line color."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:450
+msgid "The available parameters are:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:452
+msgid "**Preview Frame:**, defines the frame to be shown in the preview area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:454
+msgid ""
+"**Show Mask**, shows the **Alpha Matting** parameters results in the "
+"preview area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:456
+msgid ""
+"**Show Alpha**, shows the generated alpha channel in the preview area. "
+"This is the alpha channel that will be present in the new generated image"
+" files, product of the separation work."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:458
+msgid ""
+"**Pick Color**, lets the user pick a color from the left preview area. "
+"The picked color will be assigned to the currently selected color swatch."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:460
+msgid ""
+"You can click and drag over any of the preview area images to pick an "
+"average color for the defined rectangle."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:462
+msgid ""
+"**Paper Color:**, allows to define the paper color, used to calculate "
+"transparency of the separated images."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:464
+msgid ""
+"**Main Color:**, allows to define the color for the main ink in the "
+"drawings. For better results, it's advised to pick the darkest color "
+"possible."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:466
+msgid ""
+"**Sub Color1:**, **Sub Color2:** and **Sub Color3:**, allows to define "
+"the color for the other respective color inks in the drawings you whish "
+"to separate. For better results, it's advised to pick the deepest "
+"(darkest, more saturated) color possible."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:468
+msgid ""
+"The **Sub Color3:** parameters will only show when **Sub3** suffix is "
+"enabled, in the **File Suffix:** parameters area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:470
+msgid ""
+"**Sub Adjust:**, allows to adjust the prevalence of sub-colors with "
+"respect to the black ink."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:472
+msgid ""
+"**Border Smooth**, allows to make the intersection of lines having "
+"different colors smoother."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:474
+msgid ""
+"**Alpha Matting**, allows to better remove noisy backgrounds, while "
+"preserving subtle faint parts of the pencil's stroke at the sme time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:476
+msgid ""
+"To be able to preview the Alpha Matting, the **Show Mask** option at the "
+"top of the preview area should be activated."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:478
+msgid ""
+"**Mask Threshold**, allows to make the noisy background pixels "
+"transparent."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:480
+msgid ""
+"The regions to become transparent background in the output image are "
+"shown in red or blue colors in the preview area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:482
+msgid ""
+"**Mask Radius**, can create a solid *border area* around the detected "
+"colored strokes, to preserve subtle faint parts of them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:484
+msgid ""
+"**Start:** and **End:**, when separating image sequences it allows to set"
+" a frame range for the color separation work to be done."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:486
+msgid ""
+"**Format:**, defines the file format to use for the new generated files. "
+"Available options are: **PNG** and **TIF**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:488
+msgid "**Save in:**, defines where the new generated files will be saved."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:490
+msgid ""
+"**File Suffix:**, allows the definition of file suffixes for the "
+"**Main**, **Sub1**, **Sub2** and **Sub3** color generated image files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:492
+msgid ""
+"If **Sub3** is enabled the left preview area will change to accomodate "
+"the new separation color. Also, and additional **Sub Color3:** option "
+"will show in the right parameters area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:494
+msgid ""
+"**Auto**, toggles the automatic preview of the separation in the left "
+"preview area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:496
+msgid ""
+"**Preview**, allows to manually preview the separation in the left "
+"preview area. Only active when the **Auto** option is disabled."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:498
+msgid ""
+"**Separate**, executes the color separation operation on the selected "
+"files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:500
+msgid "**To Separate Colors of an image into separate image files:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:502
+msgid ""
+"Right-click the file you want and choose **Separate Colors...** from the "
+"menu that opens. The Separate Colors window shows, where you can select "
+"several options for the operation."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:504
+msgid ""
+"Choose the appropriate preview and separation options for the desired "
+"result."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:506
+msgid "Press the **Separate** button to execute the color separation job."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:508
+msgid "Close the window by pressing the **Close** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:514
+msgid "Exposing Levels"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:515
+msgid ""
+"Toonz level files, images for backgrounds and overlays, audio files, "
+"video clips, and other OpenToonz scenes, have to be exposed in the "
+"Xsheet/Timeline columns in order to be part of the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:517
+msgid ""
+"If the asset you want to use has already been loaded but not exposed, or "
+"it was removed from the scene, it can be retrieved from the Scene Cast "
+"window."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:519
+msgid ""
+"In case you need to retrieve some specific drawings from an animation "
+"level, you can display it in the Level Strip, in order to select the "
+"drawings to expose."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:521
+msgid ""
+"Animation levels you define directly in the scene, for instance levels "
+"you scanned, or drew directly in OpenToonz, are automatically exposed in "
+"the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:527
+msgid "Using the Scene Cast"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:528
+msgid ""
+"All the animation levels you create or load in the scene are stored in "
+"the Scene Cast pane. Levels remain available in the Scene Cast even if "
+"they are not used in the scene anymore. From the Scene Cast, they can be "
+"exposed, edited, saved and removed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:530
+msgid "|scene_cast|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:532
+msgid "In the tree available on the left you can find the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:534
+msgid "A clapboard icon referring to the current scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:536
+msgid ""
+"The **Cast** folder containing all the animation levels you create or "
+"load."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:538
+msgid ""
+"The **Audio** folder containing all the audio files you load or create "
+"(see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:540
+msgid ""
+"You can create new folders and sub-folders where animation levels can be "
+"arranged. The current location path in the cast tree is displayed in the "
+"cast top bar; folders can be renamed and new folders can be created. "
+"Levels can be displayed with related icons, or in a list displaying "
+"additional informations that can be also used to sort files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:542
+msgid ""
+"Animation levels that are no longer available at the defined path are "
+"identified by a red color."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:544
+msgid "**To display all the cast elements of a specific folder:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:546
+msgid "Click the folder icon in the cast tree on the left of the pane."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:548
+msgid "**To display all the cast elements:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:550
+msgid ""
+"Click the clapboard icon at the top of the cast tree on the left of the "
+"pane."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:552
+msgid "**To choose the cast display mode:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:556
+msgid ""
+"Click the **Icon** button (|thumbnails|) in the bottom bar of the cast to"
+" display levels with the related icons."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:558
+msgid ""
+"Click the **List** button (|list|) in the bottom bar of the cast to "
+"display levels in a list; click the labels at the top of the  columns to "
+"sort files accordingly."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:560
+msgid "**To resize the Scene Cast sections:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:568
+msgid ""
+"Click and drag the separator collapsed to the window border towards the "
+"window center to display again the hidden section."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:576
+msgid "Click the **New** button (|new_folder|) in the bottom bar of the cast."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:578
+msgid "**To move one folder up in the cast tree:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:580
+msgid "Click the folder up button (|folder_up|) in the bottom bar of the cast."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:582
+msgid "**To perform a selection:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:586
+msgid "Click to select a level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:588
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) to add a level to or remove it from "
+"the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:592
+msgid "**To move levels to a folder:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:594
+msgid "Select them and drag them to the folder in the cast tree."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:596
+#: ../../source/working_in_xsheet.rst:657
+msgid "**To expose the selection:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:600
+msgid "Choose Level  →  **Expose in Xsheet**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:602
+msgid ""
+"Right-click the selection in the Scene Cast and choose **Expose in "
+"Xsheet** from the menu that opens. In case of a multiple level selection,"
+" each level will be placed in a different column/layer, starting from the"
+" first empty one."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:604
+msgid ""
+"Drag and drop the selection to the Xsheet/Timeline cell where you want to"
+" start exposing it. In case of a multiple level selection, each level "
+"will be placed in a different column/layer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:606
+msgid "**To display an animation level in the Level Strip:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:610
+#: ../../source/working_in_xsheet.rst:643
+msgid ""
+"Select it in the Scene Cast and choose Level  →  **Display in Level "
+"Strip**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:612
+msgid ""
+"Right-click it in the Scene Cast and choose **Display in Level Strip** "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:614
+msgid "**To remove the selected elements:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:616
+msgid ""
+"Right-click the selection in the Scene Cast and choose **Remove Level** "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:618
+msgid "Levels can be removed only if they are not used in the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:620
+msgid "**To remove all the unused elements:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:624
+msgid "Choose Level  →  **Remove All Unused Levels**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:626
+msgid ""
+"Right-click in the Scene Cast and choose **Remove All Unused Levels** "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:632
+msgid "Using the Level Strip"
+msgstr "استفاده از Level Strip"
+
+#: ../../source/working_in_xsheet.rst:633
+msgid ""
+"When an animation level is displayed in the Level Strip, you can select "
+"the specific drawings you want to expose in the Xsheet/Timeline. This "
+"feature may prove useful especially when you need to retrieve some "
+"drawings that belong to the level, but that are not available in the "
+"Xsheet/Timeline cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:635
+msgid "|level_strip|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:637
+msgid "**To display an animation level in the level strip:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:641
+msgid "Select any level drawing exposed in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:645
+msgid ""
+"Right-click it the Scene Cast and choose **Display in Level Strip** from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:647
+msgid "**To select drawings in the Level Strip:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:651
+msgid "Click to select a drawing."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:653
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) to add a drawing to or remove it from "
+"the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:661
+msgid ""
+"Copy and paste the selection in the Xsheet/Timeline, into the cell you "
+"want."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:663
+msgid ""
+"Right-click in the Level Strip selection and choose **Expose in Xsheet** "
+"from the menu that opens. Drawings will be exposed at the beginning of "
+"the first empty column."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:667
+msgid ""
+"Drag and drop the selection to the Xsheet/Timeline cell where you want to"
+" start exposing it and keep the **Shift** key pressed, to insert them if "
+"other content is already exposed in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:669
+msgid ""
+"Drag and drop the selection to the Xsheet/Timeline cell where you want to"
+" start exposing it and keep the **Alt** key pressed, to overwrite any "
+"other content previously exposed in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:671
+msgid ""
+"When it is not possible to expose the selection, a red outline is "
+"displayed instead of the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:677
+msgid "Replacing Levels"
+msgstr "جایگزینی Level ها"
+
+#: ../../source/working_in_xsheet.rst:678
+msgid ""
+"An animation level exposed in the Xsheet/Timeline can be easily replaced "
+"by another animation level, preserving any editing performed in the "
+"sequence of drawings exposed in the column/layer cells. In this way it is"
+" possible to reuse the same edited sequence for different levels. For "
+"example you can reuse the edited sequence of a character level for the "
+"related shadow level by copying and pasting the character sequence, then "
+"replacing the character level with the shadow one."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:680
+msgid ""
+"It is possible to replace the level as a whole, or limited only to "
+"selected cells. In both cases only the content of the selected cells will"
+" be replaced: if any drawing of the replaced level is exposed somewhere "
+"else in the Xsheet/Timeline, it will not be affected by the replacing "
+"operation."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:682
+msgid ""
+"In case the new level does not contain some of the frames you are going "
+"to replace, the level name and number in the cell turn red to warn you "
+"that there is no drawing available for that cell."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:684
+msgid ""
+"The original level is preserved in the Scene Cast from where it can be "
+"retrieved, or removed (see  :ref:`Using the Scene Cast "
+"<using_the_scene_cast>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:686
+msgid "**To replace a level in the Xsheet/Timeline:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:688
+msgid "Select the cells where the level you want to replace is exposed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:692
+msgid "Choose Level  →  **Replace Level...**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:694
+msgid ""
+"Right-click the selection and choose one of the options in the **Replace "
+"Level** submenu, from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:696
+msgid ""
+"In the browser select the new level, and click the OK button (see  "
+":ref:`Using the File Browser <using_the_file_browser>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:702
+msgid "Editing Level Settings"
+msgstr "ویرایش تنظیمات Level"
+
+#: ../../source/working_in_xsheet.rst:704
+msgid "|level_settings|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:706
+msgid ""
+"Once a level is exposed, its properties (path, DPI, subsampling, etc.), "
+"can be controlled in the Level Settings dialog. Settings are the "
+"following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:708
+msgid ""
+"**Name** is the name used to identify the level, by default it is the "
+"same name of the file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:710
+msgid ""
+"**Path** displays the location of the file, using default folder aliases "
+"if needed. By typing in this field, or using the browser button, you can "
+"update the path to a different location, or to different file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:712
+msgid ""
+"If in the browser you choose any project default folder, in the path "
+"field the full path will be replace by the related default folder alias "
+"(see  :ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:714
+msgid ""
+"**Scan Path** displays the location of the scanned images that were "
+"cleaned up to obtain the actual level (see  :ref:`Cleaning-up Scanned "
+"Drawings <cleaning-up_scanned_drawings>`  ). This is available only for "
+"Toonz raster levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:716
+msgid ""
+"**DPI** lets you change the level DPI, thus changing its size. To return "
+"to the original image DPI set the option menu above to Image DPI."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:718
+msgid ""
+"**Forced Squared Pixel** forces a level that has a different horizontal "
+"and vertical DPI, and therefore is displayed stretched, to have the pixel"
+" shape squared, and thus to be displayed properly."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:720
+msgid ""
+"**Width** and **Height** let you set a different size for the level, thus"
+" changing its DPI. The level maintains its A/R."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:722
+msgid ""
+"**Use Camera DPI** button applies to the level automatically the camera "
+"DPI. It is useful when the level has the same size of the camera but "
+"different DPI, and you want it to match perfectly the camera."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:724
+msgid ""
+"Information about **Camera DPI**, **Image DPI** and image **Resolution** "
+"are displayed for reference purposes."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:726
+msgid ""
+"**Premultiply** premultiplies the alpha channel of the level. Images "
+"which have a meaningful alpha channel come in two types: premultiplied or"
+" not. A non-premultiplied image can be recognized when it is loaded in "
+"OpenToonz because its edge, where there is a complete transparence on one"
+" side and opacity on the other, is not smooth, but displays a solid halo."
+" With the premultiply operation it is possible to transform the image "
+"alpha-channel so that it is correctly displayed in OpenToonz camera "
+"stand, preview and rendering."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:728
+msgid ""
+"**White As Transparent** sets the pure white color (i.e. with red, green "
+"and blue values to 255) as transparent and automatically adds some "
+"antialiasing to the level images. This option is meant for animation "
+"levels generated from third-party software (such as Retas) that do not "
+"have a transparent background but a solid white one, and whose lines do "
+"not have antialiasing."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:730
+msgid ""
+"**Add Antialiasing** gives the user the possibility to add antialiasing "
+"to the level. The antialiasing value has to be specified in the "
+"**Antialias Softness** field, which can range from 0 to 100. This option "
+"is available on Toonz Raster and Raster levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:732
+msgid ""
+"**Subsampling** sets the simplifying factor to be applied to animation "
+"levels, clips and images when displayed in the work area in order to have"
+" a faster visualization and playback; for example if it is 2, one pixel "
+"every two pixels is displayed. The default values are defined in Xsheet  "
+"→  Scene Settings dialog, where values for raster (Image) and toonz "
+"raster (TLV) level subsampling can be defined."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:734
+msgid ""
+"The subsampling factor can also be applied to all the animation levels "
+"exposed in selected columns by right-clicking the header of any selected "
+"column and choosing one of the **Subsampling** commands from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:736
+msgid "**To open the Level Settings dialog:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:740
+msgid ""
+"Select a level in the Xsheet/Timeline and choose Level  →  **Level "
+"Settings...**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:742
+msgid ""
+"Right-click a level in the Xsheet/Timeline and choose **Level "
+"Setting...** from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:744
+msgid ""
+"Right-click a level in the Scene Cast and choose **Level Setting...** "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:750
+msgid "Xsheet Toolbar"
+msgstr "نوار ابزار Xsheet"
+
+#: ../../source/working_in_xsheet.rst:752
+msgid "|xsheet_toolbar|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:754
+msgid ""
+"The Xsheet Toolbar, at the top of the Xsheet and Timeline panes, is a "
+"place where the user can display favorite OpenToonz tools and commands to"
+" have them readily available."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:756
+msgid "The Xsheet Toolbar pane can be toggled depending on user preferences."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:758
+msgid ""
+"If the Xsheet Toolbar is too short to display all the command buttons, a "
+"double-arrow symbol will appear at the right end of it, allowing to "
+"display a drop down menu with the rest of them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:760
+msgid "**To toggle the Xsheet Toolbar:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:764
+msgid ""
+"Right click on any column/layer header and choose **Toggle Xsheet "
+"Toolbar** from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:766
+msgid ""
+"Activate the File  →  Preferences  →  Xsheet  →  **Show Toolbar in the "
+"Xsheet** option."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:768
+msgid ""
+"When the Xsheet Toolbar is shown, it's also possible to activate the "
+"**Expand Function Editor Header to Match Xsheet Toolbar Height** option "
+"to correctly match the *frame* rows in both editors, when put side by "
+"side."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:770
+msgid "**To customize the Xsheet Toolbar buttons:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:772
+msgid ""
+"Right click on it and select **Customize Xsheet Toolbar** from the menu "
+"that opens. The Customize Xsheet Toolbar window will open."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:774
+msgid "|xsheet_toolbar_window|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:776
+msgid ""
+"To *add* a command: Search for a command in the **Toolbar Items** list "
+"(right) and drag it to the **Xsheet Toolbar** list (left)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:778
+msgid ""
+"To *add* a separator: At the end of the **Toolbar Items** list (right), "
+"drag the **----Separator----** item to the **Xsheet Toolbar** list "
+"(left)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:780
+msgid ""
+"To *delete* a command: Locate the command in the **Xsheet Toolbar** list "
+"(left), right click on it and select **Remove** from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:782
+msgid "Click **OK** to accept the changes or **Cancel** to discard them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:788
+msgid "Working with Columns/Layers"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:789
+msgid ""
+"When levels are exposed in the Xsheet they are placed in columns (layers,"
+" in the case of the Timeline). The column/layer stacking order sets which"
+" drawings and images are placed on top, or behind, other images. Its "
+"direction is from left to right in the Xsheet, and from bottom to top in "
+"the Timeline, so what is on the left/bottom is behind what is on the "
+"right/top. You can use the keyboard arrow keys to move between the "
+"columns/layers and time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:791
+msgid "|xsheet|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:793
+msgid "|timeline|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:795
+msgid ""
+"The Xsheet is divided into sections divided by horizontal markers "
+"(vertical, in case of the Timeline), whose interval can be customized; at"
+" each marker the name of the levels exposed can be displayed, when the "
+"option **Display Level Name on Each Marker** is active in the Preferences"
+"  →  Interface dialog."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:797
+msgid ""
+"Column/layer cells may have different colors according to the type of "
+"level they contain. Toonz Vector levels are displayed in dark yellow; "
+"Toonz Raster levels in green; Raster levels in light blue; Sub-Xsheets in"
+" violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect "
+"levels generated by OpenToonz in brown (see  :ref:`Using the FX Schematic"
+" <using_the_fx_schematic>`  ); Audio levels in pale green (see  "
+":ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels "
+"in grey."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:799
+msgid ""
+"Each column/layer header contains information about its content. These "
+"are:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:801
+msgid ""
+"**Name**, by default is the name of the first exposed level. The area "
+"color indicates the type of level exposed in the column/layer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:803
+msgid ""
+"**Render toggle** (|preview|) allowing you to include or not the "
+"column/layer contents in the rendering."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:805
+msgid ""
+"**Camera stand toggle** (|camera_stand|) allowing you to hide or display "
+"the column/layer content in the viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:807
+msgid ""
+"The render and camera stand toggles work linked to similar toggles "
+"available in the Schematic nodes of the column/layer (see  :ref:`Using "
+"the Stage Schematic <using_the_stage_schematic>`  and  :ref:`Using the FX"
+" Schematic <using_the_fx_schematic>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:809
+#: ../../source/working_in_xsheet.rst:1341
+msgid ""
+"**Lock toggle** (|lock|) allowing you to prevent any editing in the "
+"column/layer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:811
+msgid ""
+"**Additional settings** button (|additional_settings|) allowing you to "
+"set an **Opacity** value or a **Color Filter** to the column/layer "
+"content, when displayed in the viewer. When a column/layer has a partial "
+"opacity, its **Camera stand toggle** changes to a faded icon to indicate "
+"it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:813
+msgid ""
+"Optionally you can make these additional properties also take effect at "
+"render time by activating the **Enable Column Color Filter and "
+"Transparency for Rendering** option in the Xsheet  →  Scene Settings... "
+"dialog."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:815
+msgid ""
+"**Preview icon** of the first drawing or image exposed in the "
+"column/layer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:817
+msgid ""
+"The icons on the Xsheet column headers can either be displayed at once "
+"when the scene is opened, or on demand by clicking on the column header, "
+"according to the **Column Icon** option available in Preferences  →  "
+"Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:819
+msgid ""
+"**Parent** information, is an area where the object (by default the "
+"Table) and center (by default center B) to which each column/layer is "
+"parented is displayed (see  :ref:`Linking Objects <linking_objects>`  ). "
+"Currently this is not shown in the Timeline header."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:821
+msgid ""
+"In the Xsheet, the column on the far left displays the frame number, with"
+" the cursor indicating the current frame. The cursor can be used to set "
+"the current frame and allows you to activate the onion skin mode to "
+"better check the animation (see  :ref:`Using Onion Skin "
+"<using_onion_skin>`  ). In the Timeline, the same controls are placed in "
+"the time ruler at the top of the Timeline, having an equivalent "
+"functionality."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:823
+msgid ""
+"When the animation is played back, the Xsheet/Timeline scrolls according "
+"to the current frame cursor position, in order to display the current "
+"frame. To disable the scrolling deactivate the **Xsheet Autopan during "
+"Playback** option available in the Preferences  →  Xsheet dialog."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:825
+msgid ""
+"Above the frame number column, there are buttons for creating and "
+"navigating Memos that can be posted in the Xsheet/Timeline (see  "
+":ref:`Using Memos <using_memos>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:827
+msgid ""
+"The Xsheet/Timeline can be scrolled to examine its content, while the "
+"header area and the frame column are always visible; in this way it's "
+"easier to understand how the scene is built."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:829
+msgid ""
+"Columns/layers you want to hide in the Xsheet/Timeline can be folded in "
+"order to save space in the interface. Once folded they can be unfold at "
+"any moment and be visible in their original position by clicking on the "
+"column/layer header area."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:831
+msgid "**To scroll the Xsheet/Timeline:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:835
+msgid "Middle-click and drag to scroll in any direction."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:837
+msgid "Use the mouse wheel to scroll up or down."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:839
+msgid ""
+"Use the scrolling bars to scroll only within the exposed section of the "
+"Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:841
+msgid ""
+"Use the Up Arrow and Down Arrow keys to move one frame backwards or "
+"forward in the Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:843
+msgid ""
+"Use the Left Arrow and Right Arrow keys to move one frame backwards or "
+"forward in the Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:845
+msgid ""
+"Use Shift+Up Arrow and Shift+Down Arrow keys to move to the previous or "
+"next drawing, either in the Xsheet or Timeline. Use this option if you "
+"want to skip the hold frames."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:847
+msgid ""
+"Use the Page Up and Page Down keys to scroll the visible frames up or "
+"down in the Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:849
+msgid ""
+"Use the Home and End keys to scroll up to the beginning or the end of the"
+" Xsheet content."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:851
+msgid "**To set the marker interval:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:853
+msgid "Choose Xsheet  →  Scene Settings..."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:855
+msgid ""
+"In the dialog that opens use the **Marker Interval** to set the frame "
+"interval between two markers, and the **Start Frame** to set at which "
+"frame the first marker has to be displayed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:857
+msgid "**To name a column:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:859
+msgid "Double-click the column/layer name in the header and type a new name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:861
+msgid "**To select columns/layers:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:865
+msgid "Click the column/layer header to select a column."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:867
+msgid "Click and drag in the column/layer icon to select contiguous columns."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:869
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) to add a column/layer to or remove it "
+"from the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:873
+msgid "**To move a column/layer selection:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:875
+msgid ""
+"Click any area displaying the name of columns in the header, and drag it "
+"to the new position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:877
+msgid "**To edit a column/layer selection:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:879
+msgid "Select the columns/layers you want to edit."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:883
+msgid ""
+"Use the Copy command to keep in memory the selection for further "
+"operations."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:885
+msgid ""
+"Use the Cut command: to eliminate the selection from the scene and keep "
+"it in memory for further operations. The column/layer elimination causes "
+"the following columns to shift left (or the layers above to shift down)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:887
+msgid ""
+"Use the Paste command to paste the selection kept in memory starting from"
+" the selected column/layer. The command causes following columns to shift"
+" right (or layers above to shift up)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:889
+msgid "Use the Delete command to delete the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:891
+msgid ""
+"Use the Insert command to insert empty columns before the selection; "
+"inserted columns/layers will be as many as the selected ones."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:893
+msgid ""
+"All of these commands are also available in the menu that opens when "
+"right-clicking the column/layer header."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:895
+msgid "**To include or exclude a column/layer contents from the rendering:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:897
+msgid ""
+"Click the render toggle (|preview|) on the column/layer header. If you "
+"right-click the button you can select commands from a menu that opens, "
+"that let you affect several columns/layers at the same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:899
+msgid "**To show or hide a column/layer contents in the viewer:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:903
+msgid ""
+"Click the camera stand toggle (|camera_stand|) on the column/layer "
+"header. The icon is faded out in case a partial opacity is set (see "
+"below). If you right-click the button you can select commands from a menu"
+" that opens that let you affect several columns/layers at the same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:905
+msgid ""
+"Right-click the column/layer content in the viewer and choose the "
+"**Hide** or **Show** command related to the column/layer you want to hide"
+" or show."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:907
+#: ../../source/working_in_xsheet.rst:1373
+msgid "**To lock or unlock a column/layer contents:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:909
+msgid ""
+"Click the lock toggle (|lock|) on the column/layer header. If you right-"
+"click the button you can select commands from a menu that opens that let "
+"you lock or unlock several columns/layers at the same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:911
+msgid "**To set Opacity for a column/layer content:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:913
+msgid ""
+"Click the triangle icon (|additional_settings|) on the column/layer "
+"header, and do one of the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:915
+msgid "Use the **Opacity** slider to set the column/layer opacity."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:917
+msgid ""
+"Input the desired **Opacity** value in the numeric field, to set the "
+"column/layer opacity."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:919
+msgid "**To set a Color Filter for a column/layer content:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:921
+msgid ""
+"Click the triangle icon (|additional_settings|) on the column/layer "
+"header, and set the **Filter** parameter to one of its predefined colors."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:923
+msgid ""
+"You can make Opacity and Color Filter take effect at render time by "
+"activating the **Enable Column Color Filter and Transparency for "
+"Rendering** option in the Xsheet  →  Scene Settings... dialog."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:925
+msgid "**To fold columns/layers:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:927
+msgid "Select the columns/layers you want to fold."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:929
+msgid ""
+"Right-click the selection and choose **Fold Column** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:931
+msgid "**To unfold columns/layers:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:933
+msgid "Click the fold visible between the column/layer headers."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:939
+msgid "Working with Cells"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:940
+msgid ""
+"When a level is exposed in a column, each cell contains a reference to a "
+"particular image. You may empty some cells, repeat some of them or change"
+" their order without affecting the real drawings sequence, because you "
+"are operating on references. This means that when a scene contains "
+"several cells referring to a drawing of an animation level, they all "
+"refer to the same drawing. This implies that when you modify a drawing of"
+" an animation level, all the cells in the Xsheet/Timeline referring to "
+"that drawing will consequently change their content."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:942
+msgid ""
+"When the scene contains a reference to a drawing that is eliminated from "
+"the level, the drawing name and number in the cell turn red, to warn you "
+"that there is no drawing available for that cell anymore."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:944
+msgid ""
+"When you select a cell, you can work on the drawing it contains by using "
+"tools in the viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:946
+msgid ""
+"When one or more cells are selected you can perform standard cut, copy, "
+"paste, delete and insert operations in the Xsheet/Timeline. In this case "
+"you are not modifying the animation level frames but simply changing the "
+"way it is exposed in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:948
+msgid ""
+"Selected cells can also be dragged to a new position in the "
+"Xsheet/Timeline, in duplicating, inserting or overwriting mode as well. "
+"When they are dragged to an empty column, it is possible to move along "
+"the data of the column/layer, i.e. the movement and special FX, where "
+"they were originally exposed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:950
+msgid "**To modify a drawing exposed in a cell:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:952
+msgid "Select the cell in the Xsheet/Timeline where the drawing is exposed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:954
+msgid "Use the tools to edit it in the viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:956
+msgid "**To select several cells:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:960
+msgid "Click and drag to select a series of cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:962
+msgid "Shift-click a cell to extend the selection up to that cell."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:964
+msgid ""
+"Press Ctrl and drag to include keys in the selection. A red frame will be"
+" shown around the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:966
+msgid ""
+"Click the vertical strip available on the left of the cells in the "
+"Xsheet, to select the continuous sequence of drawings belonging to the "
+"same animation level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:968
+msgid ""
+"Click the horizontal strip available on thetop of the cells in the "
+"Timeline, to select the continuous sequence of drawings belonging to the "
+"same animation level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:970
+msgid "**To edit cells with the Edit menu commands:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:972
+#: ../../source/working_in_xsheet.rst:988
+#: ../../source/working_in_xsheet.rst:1408
+msgid "You can do the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:974
+#: ../../source/working_in_xsheet.rst:1410
+msgid ""
+"Use the **Copy** command to keep in memory the selection for further "
+"operations."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:976
+msgid ""
+"Use the **Cut** command to eliminate the selection from the "
+"Xsheet/Timeline and keep it in memory for further operations. The cell "
+"elimination causes the following cells in the Xsheet to shift up, or in "
+"the Timeline, to shift to the left."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:978
+msgid ""
+"Use the **Paste** command to paste the selection kept in memory into the "
+"Xsheet/Timeline, starting from the selected insertion cell. The command "
+"causes the following cells in the Xsheet to shift down, or in the "
+"Timeline, to shift to the right."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:980
+#: ../../source/working_in_xsheet.rst:1416
+msgid "Use the **Delete** command to empty the selected cells from any reference."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:982
+#: ../../source/working_in_xsheet.rst:1418
+msgid ""
+"Use the **Insert** command to insert blank cells before the selection; "
+"inserted cells will be as many as the selected ones."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:984
+#: ../../source/working_in_xsheet.rst:1420
+msgid ""
+"All the Edit menu commands are also available in the menu that opens when"
+" right-clicking the Xsheet/Timeline cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:986
+msgid "**To edit cells with the Cells menu commands:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:990
+msgid "Use the **Reverse** command to invert the order of the selected cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:992
+msgid ""
+"Use the **Swing** command to append the selected cells, at the end of the"
+" selection, in a reversed order. The last cell of the selection will not "
+"be repeated."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:994
+msgid ""
+"Use the **Random** command to rearrange the selected cells in a random "
+"order. The order changes every time you use the command."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:996
+msgid ""
+"Use the **Autoexpose** command to repeat the selected cells, as if "
+"filling the numbering gap between two subsequent drawings. For example if"
+" the command is applied to two cells where drawing 2 and 5 are exposed, "
+"the result will be four cells with drawings 2, 2, 2 and 5. The command "
+"works only if the selection is increasingly numbered."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:998
+msgid ""
+"If the Autoexpose command is used on an level numbered 1, 3, 5, 7, etc., "
+"the level will be automatically exposed step 2."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1000
+msgid ""
+"Use the **Repeat** command to open a dialog that allows you to repeat "
+"cyclically the selected cells by specifying a number of times, or the "
+"frame number up to which the selection has to be repeated."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1002
+msgid ""
+"Use the **Reset Step** command to remove any animation step in the "
+"selected cells, preserving the order of the exposed drawings."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1004
+msgid ""
+"Use the **Increase Step** command to increase the animation step of the "
+"selected cells by one unit."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1006
+msgid ""
+"Use the **Decrease Step** command to decrease the animation step of the "
+"selected cells by one unit; if a drawing is exposed in one cell only, it "
+"will be preserved."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1008
+msgid ""
+"Use the **Step 2**, **Step 3** or **Step 4** command to repeat the "
+"selected cells in order to have a step 2, step 3, or step 4 animation."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1010
+msgid ""
+"Use the **Each 2**, **Each 3** or **Each 4** command to preserve only one"
+" cell each 2, each 3, or each 4 of the selection, and delete the others."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1012
+msgid ""
+"Use the **Roll Up** command to shift the content of selected cells up, "
+"with the top cell content replacing the bottom cell one."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1014
+msgid ""
+"Use the **Roll Down** to shift the content of selected cells down, with "
+"the bottom cell content replacing the top cell one."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1016
+msgid ""
+"All the Cells menu commands are also available in the menu that opens "
+"when right-clicking the Xsheet/Timeline cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1018
+msgid "**To drag a cell selection in the Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1022
+msgid ""
+"**Click** the vertical strip available on the left of the cells, and drag"
+" to move them to a new position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1024
+msgid ""
+"**Ctrl-click** (PC) or **Cmd-click** (Mac) the vertical strip available "
+"on the left of the cells, and drag them to the new position, duplicating "
+"them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1026
+msgid ""
+"**Shift-click** the vertical strip available on the left of the cells, "
+"and drag them to the new position, inserting them if other content is "
+"exposed in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1028
+msgid ""
+"**Alt-click** the vertical strip available on the left of the cells, and "
+"drag them to the new position, overwriting any other content previously "
+"exposed in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1030
+#: ../../source/working_in_xsheet.rst:1044
+msgid ""
+"When it's not possible to paste the selection, a red outline is displayed"
+" instead of the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1032
+msgid "**To drag a cell selection in the Timeline:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1036
+msgid ""
+"**Click** the horizontal strip available on the top of the cells, and "
+"drag to move them to a new position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1038
+msgid ""
+"**Ctrl-click** (PC) or **Cmd-click** (Mac) the horizontal strip available"
+" on the top of the cells, and drag them to the new position, duplicating "
+"them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1040
+msgid ""
+"**Shift-click** the horizontal strip available on the top of the cells, "
+"and drag them to the new position, inserting them if other content is "
+"exposed in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1042
+msgid ""
+"**Alt-click** the horizontal strip available on the top of the cells, and"
+" drag them to the new position, overwriting any other content previously "
+"exposed in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1046
+msgid "**To drag a cell selection moving along the column/layer data:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1048
+msgid "Choose File  →  Preferences  →  Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1050
+msgid "Set the Cell-dragging Behaviour option to **Cells and Column Data**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1052
+msgid ""
+"Column/layer data are moved along only when dragging the selected cells "
+"to an empty column/layer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1054
+msgid ""
+"The column/layer data are moved along except for the linked "
+"columns/layers, because linked columns/layers can only have one parent "
+"column/layer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1060
+msgid "Using the Smart Fill Handle"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1061
+msgid ""
+"The Fill Handle allows you to edit cells directly from within the "
+"Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1063
+msgid ""
+"It's the small tab appearing at the bottom of the cell selection in the "
+"Xsheet, or at the right of the cell selection in the Timeline. By "
+"dragging this handle you can repeat a cell or a group of cells, you can "
+"add cells, or you can delete the last cells of a sequence. The behavior "
+"of the handle is smart: this means that the way cells are repeated, "
+"added, or deleted depends on the selection content."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1065
+msgid ""
+"Editing cells with the Fill Handle makes the cells placed below the "
+"selection to shift up/down in the Xsheet (or the cells placed to the "
+"right of the selection to shift left/right in the Timeline)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1067
+msgid "**To edit cell content with the Fill Handle in the Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1071
+msgid ""
+"If you want to repeat a cell content for some frames, select the cell and"
+" drag the fill handle down."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1073
+msgid ""
+"If you want to lengthen a progressive sequence, select the cells where "
+"the sequence is exposed, and drag the fill handle down: sequence will be "
+"lengthen according to the progressive numbering. For example if the "
+"sequence is 1, 3, 5, the added images will be 7, 9, 11, etc. This works "
+"for any step the sequence may have."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1075
+msgid ""
+"If you want a random sequence to be repeated, select the sequence and "
+"drag the fill handle down: the sequence will be lengthened according to "
+"the sequence numbering. For example if the sequence is 3, 6, 4, 1, the "
+"added images will be 3, 6, 4, 1, 3, 6, etc."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1077
+msgid ""
+"If you want a progressive sequence to be repeated, first copy the "
+"sequence first drawing at the end of the sequence, then select all and "
+"drag down the fill handle. For example if the sequence is 1, 2, 3, 4, "
+"copy the drawing 1 at the end of the sequence (the result will be 1, 2, "
+"3, 4, 1), and the added drawings will be 2, 3, 4, 1, 2, etc."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1079
+msgid ""
+"If you want to delete some cells, select a region so that the cells you "
+"want to delete are in the last columns, and drag the fill handle up."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1081
+msgid "**To edit cell content with the Fill Handle in the Timeline:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1085
+msgid ""
+"If you want to repeat a cell content for some frames, select the cell and"
+" drag the fill handle to the right."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1087
+msgid ""
+"If you want to lengthen a progressive sequence, select the cells where "
+"the sequence is exposed, and drag the fill handle to the right: sequence "
+"will be lengthen according to the progressive numbering. For example if "
+"the sequence is 1, 3, 5, the added images will be 7, 9, 11, etc. This "
+"works for any step the sequence may have."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1089
+msgid ""
+"If you want a random sequence to be repeated, select the sequence and "
+"drag the fill handle to the right: the sequence will be lengthened "
+"according to the sequence numbering. For example if the sequence is 3, 6,"
+" 4, 1, the added images will be 3, 6, 4, 1, 3, 6, etc."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1091
+msgid ""
+"If you want a progressive sequence to be repeated, first copy the "
+"sequence first drawing at the end of the sequence, then select all and "
+"drag the fill handle to the right. For example if the sequence is 1, 2, "
+"3, 4, copy the drawing 1 at the end of the sequence (the result will be "
+"1, 2, 3, 4, 1), and the added drawings will be 2, 3, 4, 1, 2, etc."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1093
+msgid ""
+"If you want to delete some cells, select a region so that the cells you "
+"want to delete are in the last rows, and drag the fill handle to the "
+"left."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1099
+msgid "Stretching the Timing"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1100
+msgid ""
+"If you need to change the timing of a selection of cells, a selected "
+"frame range, or the whole Xsheet/Timeline, you can use the Time Stretch "
+"dialog."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1102
+msgid "|time_stretch|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1104
+msgid "Options are the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1106
+msgid ""
+"**Stretch** defines if the new timing has to be applied to the **Selected"
+" Cells**, the **Selected Frame Range**, or to the **Whole Xsheet**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1108
+msgid "**Old Range** displays the frame duration of the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1110
+msgid "**New Range** defines the new frame duration of the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1112
+msgid "**To stretch the Xsheet/Timeline timing:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1114
+msgid "Select the cells, or define the frame range you want to stretch."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1118
+msgid "Choose Cells  →  **Time Stretch...**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1120
+msgid ""
+"Right-click the selection and choose **Time Stretch...** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1122
+msgid "Define the time stretching options, then click the Stretch button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1128
+msgid "Working Globally with Frames"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1129
+msgid ""
+"It is possible to insert or delete frames affecting the Xsheet/Timeline "
+"as a whole, or a selection of Xsheet columns or Timeline layers."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1131
+msgid ""
+"Inserting or deleting frames can be useful if you want to change the "
+"timing of the animation, for instance if you want to slow down or speed "
+"up an animation."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1133
+msgid ""
+"When a frame is inserted, the current frame cells are duplicated, and all"
+" the following cells are shifted down (right in the Timeline). If "
+"animation keys are defined for object transformations and FX parameters, "
+"they will be shifted down (or right in the Timeline) as well, to keep the"
+" animation consistency (see  :ref:`Animating Objects <animating_objects>`"
+"  and  :ref:`Editing FX Settings <editing_fx_settings>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1135
+msgid ""
+"When a frame is removed, the current frame cells are deleted, and the "
+"following cells are shifted up (or left in the Timeline). If animation "
+"keys for object transformations and FX parameters are defined in the "
+"removed frame, they will be deleted and following keys will be shifted up"
+" (or left in the Timeline) (see  :ref:`Animating Objects "
+"<animating_objects>`  and  :ref:`Editing FX Settings "
+"<editing_fx_settings>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1137
+msgid "**To insert a frame:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1139
+msgid "Select the frame before which you want to insert a new frame."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1141
+msgid "Choose Xsheet  →  **Insert Frame**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1143
+msgid "**To remove a frame:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1145
+msgid "Select the frame you want to delete."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1147
+msgid "Choose Xsheet  →  **Remove Frame**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1153
+msgid "Using Sub-Xsheets"
+msgstr "استفاده از Sub-Xsheet ها"
+
+#: ../../source/working_in_xsheet.rst:1154
+msgid ""
+"A Sub-Xsheet is a scene exposed in a single Xsheet column or Timeline "
+"layer. It can contain as many columns/layers as you want, and other Sub-"
+"Xsheets as well."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1156
+msgid ""
+"When it's opened, the Sub-Xsheet contents are displayed in the "
+"Xsheet/Timeline pane. When it is closed, it's displayed in the "
+"Xsheet/Timeline as a violet column/layer, with its icon displaying a "
+"render of its content. The column/layer cells display the name of the "
+"Sub-Xsheet, and the cell number is a reference to the frame of the Sub-"
+"Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1158
+msgid ""
+"The closed Sub-Xsheet level length depends on how many frames its content"
+" lasts at the time you create it, and it is not affected when you edit "
+"the Sub-Xsheet content."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1160
+msgid ""
+"Sub-Xsheet levels can be animated like any other animation level, and FX "
+"can be assigned to it, affecting all the Sub-Xsheet content as a whole."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1162
+msgid ""
+"Sub-Xsheet level cells can be edited, for example to create a cycle, or "
+"cut, copied and pasted like any other exposed level (see  :ref:`Working "
+"with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, "
+"if some editing is performed in its frames, all the cells in the main "
+"Xsheet/Timeline referring to that Sub-Xsheet frame will consequently "
+"change their content. In case you want to create a copy of a Sub-Xsheet "
+"that refers to the same animation level database, but whose content can "
+"be edited independently, you can choose to **Clone** it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1164
+msgid ""
+"If you want to reset the editing of a Sub-Xsheet level, you can "
+"**Resequence** it, by resetting it to the original length and order of "
+"its contents."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1166
+msgid ""
+"You can load a scene previously created with OpenToonz as a level of the "
+"current scene. You can also collapse selected columns/layers to form a "
+"new Sub-Xsheet to better manage the scene, for example you can collapse "
+"into a Sub-Xsheet all the columns/layers used to define a character, or "
+"explode a Sub-Xsheet to automatically bring all of its contents into the "
+"Xsheet/Timeline where it is exposed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1168
+msgid ""
+"As Sub-Xsheets can be loaded and saved, they can also be used for "
+"importing or exporting sections of an Xsheet/Timeline from one scene to "
+"another. For example, if you create a scene where several levels compose "
+"a character (head, body, shadow, etc.), you can save it and import it "
+"later in a different scene as a Sub-Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1170
+msgid ""
+"When working inside a Sub-Xsheet, by default only its own contents are "
+"displayed in the viewer. If you need to edit the Sub-Xsheet contents "
+"while looking at the whole scene contents, you can activate the **Edit in"
+" Place** mode."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1172
+msgid ""
+"Like standard Xsheets/Timelines, Sub-Xsheets can also contain audio files"
+" to be used for synchronizing a soundtrack with the animation. However, "
+"audio files loaded inside Sub-Xsheets are ignored when an output file "
+"supporting audio is rendered, because the possibility to edit the Sub-"
+"Xsheet columns/layers frame order could make the resulting soundtrack "
+"inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  "
+")."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1178
+msgid "Creating Sub-Xsheets"
+msgstr "ساخت Sub-Xsheet ها"
+
+#: ../../source/working_in_xsheet.rst:1179
+msgid ""
+"Sub-Xsheets are managed by the Xsheet menu commands, and by buttons in "
+"the Xsheet Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1181
+msgid ""
+"You can create a Sub-Xsheet by collapsing one or several columns/layers "
+"where levels are exposed, choosing to include when needed the pegbars to "
+"which the columns are linked; or you can cut or copy columns/layers and "
+"drawings outside of the Sub-Xsheet, then paste them inside of it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1183
+msgid ""
+"The main Xsheet/Timeline will share with its Sub-Xsheets the animation "
+"level database, so if the same level is exposed in the main "
+"Xsheet/Timeline and in one of its Sub-Xsheets, the level and its "
+"properties will be shared."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1185
+msgid ""
+"When copying Sub-Xsheet columns/layers and cells, their copies refer "
+"always to the same Sub-Xsheet contents: if changes are made in the Sub-"
+"Xsheet, all the cells in the main Xsheet/Timeline referring to that Sub-"
+"Xsheet will consequently change their content. If you want to create a "
+"copy of a Sub-Xsheet whose contents can be changed independently as "
+"concerning internal level exposure, object animation and applied FX, it "
+"is possible to **Clone** it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1187
+msgid "**To create a Sub-Xsheet by collapsing one or several columns:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1189
+msgid ""
+"Select the columns you want to be part of the Sub-Xsheet in the "
+"Xsheet/Timeline or in the Schematic."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1193
+msgid "Choose Xsheet  →  **Collapse**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1195
+msgid "Click the **Collapse** button in the Xsheet Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1197
+msgid ""
+"Right-click any column header and choose **Collapse** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1199
+msgid ""
+"Choose whether to include relevant pegbars in the Sub-Xsheet or collapse "
+"selected columns only, then click the OK button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1201
+msgid "**To exit a Sub-Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1203
+#: ../../source/working_in_xsheet.rst:1233
+msgid "Do one of the following"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1205
+msgid "Choose Xsheet  →  **Close Sub-Xsheet**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1207
+msgid "Click the **Close Sub-Xsheet** button in the Xsheet Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1209
+msgid "**To open a closed Sub-Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1211
+msgid ""
+"Select the Sub-Xsheet column in the Xsheet/Timeline, or the Sub-Xsheet "
+"node in the Schematic."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1215
+msgid "Choose Xsheet  →  **Open Sub-Xsheet**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1217
+msgid "Click the **Open Sub-Xsheet** button in the Xsheet/Timeline Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1219
+msgid ""
+"Right-click the column header and choose **Open Sub-Xsheet** from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1221
+msgid "**To clone a Sub-Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1223
+msgid ""
+"Select the Xsheet column (or Timeline layer) where the Sub-Xsheet you "
+"want to clone is exposed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1227
+msgid "Choose Xsheet  →  **Clone Sub-Xsheet**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1229
+msgid ""
+"Right-click the column header and choose **Clone Sub-Xsheet** from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1231
+msgid "**To toggle edit a Sub-Xsheet in its context:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1235
+msgid "Choose Xsheet  →  **Toggle Edit in Place**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1237
+msgid "Click the **Toggle Edit in Place** button in the Xsheet/Timeline Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1239
+msgid "**To resequence a Sub-Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1241
+msgid "Select the column/layer containing the Sub-Xsheet."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1245
+msgid "Choose Xsheet  →  **Resequence**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1247
+msgid ""
+"Right-click the column header and choose **Resequence** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1253
+msgid "Loading a Scene as a Sub-Xsheet"
+msgstr "بارگذاری یک صحنه به عنوان یک Sub-Xsheet"
+
+#: ../../source/working_in_xsheet.rst:1254
+msgid ""
+"Previously saved OpenToonz scenes can be loaded in a Xsheet/Timeline as "
+"Sub-Xsheets."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1256
+msgid ""
+"Every time a scene is loaded as a Sub-Xsheet, its contents are imported "
+"into the current project database according to the project default "
+"folders, in the same way as it would be if every single level was "
+"imported (see  :ref:`Using the File Browser <using_the_file_browser>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1258
+msgid ""
+"This allows you to create a library of basic animations that can be "
+"loaded and edited in other Xsheets/Timelines to create more complex "
+"animations without affecting the original files or drawings. Even when "
+"the same Sub-Xsheet is loaded twice, it is handled as if two different "
+"Sub-Xsheets were loaded, whose contents and levels can be edited "
+"separately."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1260
+msgid ""
+"To keep the database well-ordered you can also activate the **Create Sub-"
+"folder when Importing Sub-Xsheet** option in the Preferences  →  Loading "
+"dialog, that will automatically create, in the project default folder, a "
+"folder named as the Sub-Xsheet you are importing where the levels from "
+"the Sub-Xsheet will be copied."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1262
+msgid ""
+"Once a Sub-Xsheet is loaded, its levels are available in the Scene Cast "
+"in a sub-folder named as the scene you loaded."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1264
+msgid ""
+"If the camera settings of the scene you are loading as a Sub-Xsheet are "
+"different from those of your current scene, you will be prompted whether "
+"to keep the Sub-Xsheet original camera settings, or to apply the camera "
+"settings of the current scene to the Sub-Xsheet as well."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1266
+msgid ""
+"If the scene you import contains a file whose name is the same of a file "
+"already existing in the destination default folder, you will prompted "
+"whether to keep the existing file, overwrite it with the new one, or "
+"rename it adding a suffix you can decide. In this way you can control if "
+"files you are importing were already imported previously, or manage files"
+" that share the same name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1268
+msgid "**To load a previously saved scene as a Sub-Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1272
+msgid "Choose File  →  **Load Level** and use the browser to load a TNZ file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1274
+msgid ""
+"Choose File  →  **Load As Sub-Xsheet** and use the browser to load a TNZ "
+"file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1276
+msgid ""
+"Use the OpenToonz standard browser to drag the scene icon to the Scene "
+"Cast pane, the Xsheet/Timeline or the viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1278
+msgid ""
+"In the file browser right-click the scene icon and select **Load As Sub-"
+"Xsheet** in the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1280
+msgid ""
+"OpenToonz scene files can also be loaded by dragging and dropping them "
+"from the Windows Explorer or macOS Finder to the Scene Cast, "
+"Xsheet/Timeline, or the viewer."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1286
+msgid "Exploding Sub-Xsheets"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1287
+msgid ""
+"Sub-Xsheets can be exploded to automatically bring their content into the"
+" Xsheet/Timeline where they are exposed. When exploding a Sub-Xsheet it's"
+" possible to choose to bring to the main Xsheet/Timeline, when needed, "
+"the pegbars to which columns are linked."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1289
+msgid ""
+"When a Sub-Xsheet is exploded, its columns/layers and the related FX "
+"nodes are displayed as a group in the FX Schematic, in order to better "
+"retrieve them (see  :ref:`Using the FX Schematic "
+"<using_the_fx_schematic>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1291
+msgid ""
+"If FXs are applied to the Sub-Xsheet column/layer, they will not be "
+"applied to the exploded columns, but the disconnected FX nodes will "
+"remain as reference in the FX Schematic."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1293
+msgid "**To explode a Sub-Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1295
+msgid ""
+"Select the Sub-Xsheet column/layer in the Xsheet/Timeline or in the "
+"Schematic."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1299
+msgid "Choose Xsheet  →  **Explode**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1301
+msgid ""
+"Right-click the Sub-Xsheet column header and choose **Explode** from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1303
+msgid ""
+"Choose whether to bring relevant pegbars to the main Xsheet/Timeline, or "
+"to bring columns/layers only, then click the OK button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1309
+msgid "Saving a Sub-Xsheet as a Scene"
+msgstr "ذخیره یک Sub-Xsheet به عنوان یک صحنه"
+
+#: ../../source/working_in_xsheet.rst:1310
+msgid ""
+"The content of a Sub-Xsheet can be saved as a standard scene, i.e. a TNZ "
+"file, in order to be loaded as a stand-alone scene or to be available for"
+" reuse in other scenes."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1312
+msgid ""
+"The Sub-Xsheet content will be saved according to the current project "
+"settings for default folders, as if you were saving a scene file (see  "
+":ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1314
+msgid "**To save a Sub-Xsheet as a scene:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1316
+msgid ""
+"Open the Sub-Xsheet you want to save, so that its contents are displayed "
+"in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1318
+msgid ""
+"Choose Xsheet  →  **Save Sub-Xsheet As...** and use the browser to save "
+"the scene file (see  :ref:`Saving and Loading Scenes "
+"<saving_and_loading_scenes>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1324
+msgid "Creating a Soundtrack"
+msgstr "ساخت یک Soundtrack"
+
+#: ../../source/working_in_xsheet.rst:1325
+msgid ""
+"Audio clips can be loaded and edited in order to create a soundtrack for "
+"the scene; natively supported file formats are non-compressed ``WAV`` and"
+" ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured "
+"in Preferences  →  Import/Export dialog, ``MP3`` audio files can be "
+"loaded too. There is no limit to the number of audio clips that can be "
+"loaded in a scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1327
+msgid ""
+"To load an audio clip you can use the Browser room; if an audio clip is "
+"imported, it is saved in the *+extras* folder (see  :ref:`Using the File "
+"Browser <using_the_file_browser>`  ). Loaded audio clips are also stored "
+"in the Audio folder of the Scene Cast."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1329
+msgid ""
+"Each loaded audio clip is exposed in a different Xsheet column or "
+"Timeline layer as a series of visible sound waves to make the editing job"
+" easier; the number of frames it spans depends on the length of the audio"
+" file and the frame rate set for the current scene. For example an audio "
+"clip 3 seconds long, imported into a scene whose frame rate is 12, will "
+"occupy 36 frames; if imported in a scene whose frame rate is 24 will "
+"occupy 72 frames (see  :ref:`Setting the Frame Rate "
+"<setting_the_frame_rate>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1331
+msgid "|audio|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1333
+msgid ""
+"Audio columns/layers can be edited the way you edit any other "
+"column/layer. Its header contains the following information about the "
+"content:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1335
+msgid ""
+"**Name**, by default is the number of the column/layer the audio is "
+"exposed in. e.g. Col5."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1337
+msgid ""
+"**Render toggle** (|preview|) allowing you to include or not the audio "
+"column/layer content in the rendering."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1339
+msgid ""
+"**Camera stand toggle** (|camera_stand|) allowing you to include or not "
+"the column/layer content when scrubbing the audio with the current frame "
+"cursor (see below)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1343
+msgid ""
+"**Additional settings** button (|additional_settings|) allowing you to "
+"set the volume."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1345
+msgid "**Loudspeaker** icon that lets you play the contents back."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1347
+msgid ""
+"The **Level Settings** dialog is available for audio clips as well, "
+"allowing you to check the location of the related file, or to update the "
+"loading path to a different location, or to a different file (see  "
+":ref:`Editing Level Settings <editing_level_settings>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1349
+msgid ""
+"The soundtrack you define with audio clips will be created by merging all"
+" of the contents of audio columns/layers according to the volume you set "
+"for each of them. While it cannot be played back when using the playback "
+"controls in the viewer, it can be scrubbed with the current frame cursor "
+"in the Xsheet frame column, the Timeline frame ruler or in the viewer "
+"framebar, and played back when a scene is previewed (see  :ref:`Editing "
+"Audio Clips <editing_audio_clips>`  and  :ref:`Previewing the Animation "
+"<previewing_the_animation>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1351
+msgid ""
+"When a scene is rendered in a file format supporting audio, (MP4, MOV, "
+"WebM or AVI), the soundtrack will be included in the file (see  "
+":ref:`Rendering the Animation <rendering_the_animation>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1353
+msgid ""
+"Audio clips loaded in Sub-Xsheets will not be included in the output "
+"soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1355
+msgid ""
+"As the soundtrack cannot be played back when viewing files in the "
+"OpenToonz flipbook, you can activate the **Use Default Viewer for Movie "
+"Formats** option in the Preferences  →  General dialog, in order to view "
+"files with their own default viewer, e.g. QuickTime for the MOV format, "
+"thus playing back the soundtrack as well."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1357
+msgid "**To play the contents of an audio column/layer back:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1359
+msgid ""
+"Click the loudspeaker icon available in the header of the column/layer. "
+"Click it again to stop the playback."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1361
+msgid "**To set the volume of an audio column/layer:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1363
+msgid ""
+"Click the Additional settings button (|additional_settings|) and use the "
+"Volume slider in there."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1365
+msgid ""
+"**To include or exclude an audio when scrubbing the audio with the "
+"current frame cursor**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1367
+msgid ""
+"Click the Camera stand toggle (|camera_stand|) on the column/layer "
+"header. If you right-click the toggle you can select commands from a menu"
+" that opens that let you affect several columns/layers at the same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1369
+msgid ""
+"**To include or exclude the audio column/layer contents from the "
+"rendering:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1371
+msgid ""
+"Click the Render toggle (|preview|) on the column/layer header. If you "
+"right-click the toggle you can select commands from a menu that opens "
+"that let you affect several columns/layers at the same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1375
+msgid ""
+"Click the Lock toggle (|lock|) on the column/layer header. If you right-"
+"click the toggle you can select commands from a menu that opens that let "
+"you lock or unlock several columns/layers at the same time."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1381
+msgid "Editing Audio Clips"
+msgstr "ویرایش Audio Clip ها"
+
+#: ../../source/working_in_xsheet.rst:1382
+msgid ""
+"Once loaded, audio clips can be moved up and down in a Xsheet column, "
+"left and right in a Timeline layer, or to a different column/layer, in "
+"order to be played starting from a certain frame of the animation. They "
+"can be trimmed to select a part of the whole clip and edited, by deleting"
+" or copying some sections, using standard edit commands the same way you "
+"use them on standard levels."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1384
+msgid ""
+"When a clip is trimmed, the trimmed part is not eliminated, but hidden, "
+"and it has a colored horizontal marker at its starting or ending, "
+"according to where it was trimmed: it is possible to retrieve the trimmed"
+" part by moving back the markers."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1386
+msgid ""
+"When a clip is split into sections by deleting, cutting or moving "
+"operations, it is automatically duplicated and trimmed to create the "
+"right result."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1388
+msgid ""
+"Audio clips can be moved and pasted only to empty columns/layers, or to "
+"other audio columns/layers."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1390
+msgid ""
+"All the editing does not affect the file on disk, as it refers only to "
+"the way the clip is used in the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1392
+msgid ""
+"To find a particular section in an audio file, you can examine it by "
+"scrubbing it with the current frame cursor, either in the Xsheet frame "
+"column, the Timeline frame ruler, in the viewer framebar, or by selecting"
+" any section and automatically playing it back together with the "
+"animation. This allows you to easily spot and excerpt the sections you "
+"need from an audio file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1394
+msgid "**To select audio clips:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1398
+msgid "Click and drag to select a section of the clip."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1400
+msgid "Shift-click a clip cell to extend the selection up to that cell."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1402
+msgid ""
+"In the Xsheet, click the vertical strip available on the left of the "
+"clip, to select the whole clip."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1404
+msgid ""
+"In the Timeline, click the horizontal strip available on the top of the "
+"clip, to select the whole clip."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1406
+msgid "**To edit audio clips with the Edit menu commands:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1412
+msgid ""
+"Use the **Cut** command to eliminate the selection from the "
+"Xsheet/Timeline and keep it in memory for further operations. The cell "
+"elimination causes the following cells to shift up in the Xsheet or left "
+"in the Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1414
+msgid ""
+"Use the **Paste** command to paste the selection kept in memory in the "
+"Xsheet/Timeline, starting from the selected insertion cell. The command "
+"causes the following cells to shift down in the Xsheet or right in the "
+"Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1422
+msgid "**To move a clip selection in the Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1426
+msgid ""
+"**Click** the vertical strip available on the left of the clip cells, and"
+" drag them to move them to a new position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1428
+msgid ""
+"**Ctrl-click** (PC) or **Cmd-click** (Mac) the vertical strip available "
+"on the left of the clip cells, and drag them to the new position "
+"duplicating them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1430
+msgid ""
+"**Shift-click** the vertical strip available on the left of the clip "
+"cells, and drag them to the new position inserting them if other audio "
+"clips are loaded in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1432
+msgid ""
+"**Alt-click** the vertical strip available on the left of the clip cells,"
+" and drag them to the new position overwriting any other audio clips "
+"previously loaded in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1434
+msgid "**To move a clip selection in the Timeline:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1438
+msgid ""
+"**Click** the horizontal strip available on the top of the clip cells, "
+"and drag them to move them to a new position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1440
+msgid ""
+"**Ctrl-click** (PC) or **Cmd-click** (Mac) the horizontal strip available"
+" on the top of the clip cells, and drag them to the new position "
+"duplicating them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1442
+msgid ""
+"**Shift-click** the horizontal strip available on the top of the clip "
+"cells, and drag them to the new position inserting them if other audio "
+"clips are loaded in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1444
+msgid ""
+"**Alt-click** the horizontal strip available on the top of the clip "
+"cells, and drag them to the new position overwriting any other audio "
+"clips previously loaded in the destination cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1446
+msgid ""
+"When it is not possible to release the selection, a red outline is "
+"displayed instead of the selection."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1448
+msgid "**To trim an audio clip:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1452
+msgid "Click and drag the starting of a clip to trim its starting part."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1454
+msgid "Click and drag the ending of a clip to trim its ending part."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1456
+msgid "Click and drag the marker of a trimmed clip to redefine the trimmed part."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1458
+#: ../../source/working_in_xsheet.rst:1487
+msgid "**To scrub audio clips:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1462
+msgid ""
+"Drag the Xsheet frame cursor up or down to scrub all the audio columns "
+"whose Camera Stand toggle is active."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1464
+msgid ""
+"Drag the Timeline frame cursor left or right to scrub all the audio "
+"layers whose Camera Stand toggle is active."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1466
+msgid ""
+"Drag the frame cursor in the viewer framebar to scrub all the audio "
+"columns whose Camera Stand toggle is active."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1468
+msgid ""
+"Windows only: In the Xsheet, click and drag on the dashed vertical strip "
+"available on the right of the audio column cells, the selected section "
+"will be automatically played back."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1470
+msgid ""
+"Windows only: In the Timeline, click and drag on the dashed horizontal "
+"strip available on the bottom of the audio layer cells, the selected "
+"section will be automatically played back."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1476
+msgid "Lip Synching"
+msgstr "لیپ سینک"
+
+#: ../../source/working_in_xsheet.rst:1477
+msgid ""
+"When you need to synchronize the movement of a character’s lips with the "
+"sound of the speech, you can take advantage of the possibility to examine"
+" the audio files loaded in the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1479
+msgid ""
+"Once you have created different mouth images, you can analyze the audio "
+"files to find where to place specific mouth drawings. If mouth drawings "
+"belong to one single animation level, you can quickly change the mouth "
+"drawing at a specific frame by picking drawings from the level strip or "
+"by flipping through drawings using one of the **Skeleton** tool "
+"(|skeleton|) features (see :ref:`Using the Level Strip "
+"<using_the_level_strip>`  and :ref:`Animating Models <animating_models>`"
+"  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1481
+msgid ""
+"The breakdown of audio files can be done by looking at the sound wave in "
+"the scene column, for example to spot where each word starts; by "
+"scrubbing the loaded audio clips with the current frame cursor either in "
+"the Xsheet/Timeline frame ruler or in the Viewer framebar; and by "
+"listening to specific sections of the audio files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1483
+msgid ""
+"When mouth images are placed in the proper place, you can check the sync "
+"by scrubbing or selecting again the audio file section you are interested"
+" in, because while listening to the selected audio section, the viewer "
+"will display the related animation frames."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1485
+msgid ""
+"This technique can be used in any case you need the sound to be perfectly"
+" synchronized with the action, for example a character playing an "
+"instrument, or a scene based on the rhythm of a music."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1491
+msgid ""
+"Drag the Xsheet/Timeline frame cursor forward or backwards to scrub all "
+"the audio levels whose Camera Stand toggle is active."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1493
+msgid ""
+"Drag the frame cursor in the Viewer framebar to scrub all the audio "
+"columns whose Camera Stand toggle is active."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1495
+msgid ""
+"Windows only: click and drag on the dashed strip available on the audio "
+"level cells: the selected section will be automatically played back."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1497
+msgid "**To flip through the mouth drawings:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1501
+msgid ""
+"Select in the Xsheet or Timeline the animation level containing the mouth"
+" drawings."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1503
+msgid ""
+"Right-click in the viewer over the mouth drawing you want to flip "
+"through, and choose the **Select** command related to the column/layer "
+"containing the drawing you clicked."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1505
+msgid ""
+"Choose the **Skeleton** tool (|skeleton|) and set the tool mode to "
+"**Animate**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1507
+msgid ""
+"In the viewer click the label with the level name on the right of the "
+"current section pivot point and flip through following and previous "
+"frames by doing one of the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1509
+msgid "Drag up or down."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1511
+msgid "Click the up or down arrowheads."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1517
+msgid "Importing Magpie Files"
+msgstr "وارد کردن فایل های Magpie"
+
+#: ../../source/working_in_xsheet.rst:1518
+msgid ""
+"It is possible to import into the Xsheet/Timeline .TLS files (i.e. Toonz "
+"Lip Sync) exported from Magpie, a lip-sync and animation timing tool."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1520
+msgid "|magpie_import|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1522
+msgid ""
+"While Magpie takes care of the audio file analysis and phoneme "
+"recognition, importing the .TLS file into OpenToonz allows you to assign "
+"a frame from an animation level to each phoneme and automatically expose "
+"the result in an Xsheet column or Timeline layer; an additional "
+"column/layer displaying the speech text (as recognized in Magpie) is "
+"created for reference."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1524
+msgid "**To export the OpenToonz lip sync file in Magpie:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1526
+msgid ""
+"Copy the file ``export-toonz.lua``  available in ``OpenToonz "
+"stuff\\config``  folder into the ``C:\\Program Files (x86)\\Third Wish "
+"Software & Animation\\Magpie Pro\\Scripts\\Export``  folder."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1528
+msgid ""
+"In Magpie choose File  →  Export and choose Toonz among the 2D software "
+"list to export the TLS file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1530
+msgid "**To import a Magpie file:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1532
+msgid "Choose File  →  **Import Magpie File...**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1534
+msgid ""
+"In the browser that opens retrieve the TLS file you exported from Magpie "
+"and click the **Load** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1536
+msgid "In the dialog that opens choose the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1538
+msgid ""
+"Use **Frame Range** to define which section of the Magpie file you want "
+"to use to create the lip sync column in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1540
+msgid ""
+"Use the **Animation Level** section to retrieve the animation level you "
+"want to expose in the Xsheet/Timeline, and to specify which frame of the "
+"level has to be assigned to each phoneme; you can also use the viewer "
+"available at the bottom of the dialog to examine the frames of the "
+"selected animation level."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1542
+msgid "Click the **Import** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1547
+msgid "Importing Papagayo-NG Files"
+msgstr "وارد کردن فایل های Papagayo-NG"
+
+#: ../../source/working_in_xsheet.rst:1548
+msgid ""
+"It is possible to import into the Xsheet/Timeline DAT files exported from"
+" Papagayo-NG, a lip-sync and animation timing tool."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1550
+msgid "|apply_lip_sync_data|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1552
+msgid ""
+"While Papagayo-NG takes care of the audio file analysis and phoneme "
+"recognition, importing the DAT file into OpenToonz allows you to assign a"
+" frame from an animation level to each phoneme and automatically expose "
+"the result in an Xsheet column or Timeline layer; to be able to hear the "
+"synched sound, the correspondent sound level should be manually loaded "
+"too."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1554
+msgid "**To export the OpenToonz lip sync file in Papagayo-NG:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1556
+msgid "In Papagayo-NG, from the **Export:** dropdown menu, select **MOHO**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1558
+msgid "Press the **Export** button, to export a .DAT file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1560
+msgid "**To import a Papagayo-NG file:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1562
+msgid ""
+"Expose in the Xsheet/Timeline at least one drawing of the level "
+"containing the mouth shapes set."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1564
+msgid ""
+"Select the cell of the column/layer where you want the lip sync to start,"
+" and using the right click menu choose the **Apply Lip Sync Data to "
+"Column** option."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1566
+msgid ""
+"A dialog opens letting you choose which level drawings to assign to each "
+"phoneme."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1568
+msgid ""
+"Use the **Lip Sync Data File:** browser to retrieve the DAT file you "
+"exported from Papagayo-NG, and click the **Choose** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1570
+msgid ""
+"The **Insert at Frame:** parameter should already be showing the frame "
+"number of the cell you previously selected. Still, you can change it to "
+"make the lip sync start at another frame."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1572
+msgid ""
+"Activate the **Extend Rest Drawing to End Marker** if you want to copy "
+"the *Rest Drawing* to all the remaining frames between the loaded lip "
+"sync ending, and the frame where the *End Marker* of the Xsheet/Timeline "
+"is set."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1574
+msgid "Click the **Apply** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1580
+msgid "Using Memos"
+msgstr "استفاده از Memo ها"
+
+#: ../../source/working_in_xsheet.rst:1581
+msgid ""
+"Memos can be posted in the Xsheet/Timeline at specific positions in order"
+" to add notes and comments to the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1583
+msgid "|memo|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1585
+msgid ""
+"When editing a memo its color can be set, and the text you write can be "
+"formatted. Once posted, memos display the first letters of their content "
+"in order to be identified, and can be retrieved in the Xsheet/Timeline by"
+" navigating them."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1587
+msgid "**To post a memo:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1589
+msgid ""
+"Click the **Add New Memo** button at the top of the frame number column "
+"in the Xsheet (or at the top of the layers headers, in the Timeline)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1591
+msgid ""
+"Type the memo text in the window that opens, format it and choose the "
+"memo color (see below) then click the **Post** button: the memo is posted"
+" at the current frame in the current column."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1593
+msgid "Click and drag the posted memo to change its position."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1595
+msgid "**To format the text in the memo:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1597
+msgid "Select the text you want to format."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1599
+msgid ""
+"Click the arrow (|additional_settings|) displayed on the right of the "
+"selection to open the Text Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1601
+msgid "|memo_text_format|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1603
+msgid ""
+"Choose the font family, size, color, style and paragraph alignment by "
+"clicking on the relevant menu and buttons in the Text Toolbar."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1605
+msgid "**To change the memo color:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1607
+msgid ""
+"Choose a color in the palette available at the bottom of the open memo; "
+"palette colors can also be selected and edited by using the Style Editor."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1609
+msgid "**To navigate the memos posted in the Xsheet:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1611
+msgid ""
+"Click the arrow buttons next to the Add New Memo button to check the "
+"previous or next memo: the Xsheet/Timeline automatically pans to show "
+"where the selected memo is posted."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1613
+msgid "**To open a memo:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1617
+msgid "Double-click it."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1619
+msgid "Right-click it and choose **Open Memo** from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1621
+msgid "**To delete a memo:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1625
+msgid "Open it and click the **Discard** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1627
+msgid "Right-click it and choose **Delete Memo** from the menu that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1633
+msgid "Saving and Loading Scenes"
+msgstr "ذخیره و بارگذاری صحنه ها"
+
+#: ../../source/working_in_xsheet.rst:1634
+msgid ""
+"When working on a new scene the default name (untitled) followed by a "
+"progressive number is assigned to the scene until you save it with a "
+"different name. This name is also used in case the *$scenepath* variable "
+"is used in the project settings to store temporarily the material used in"
+" the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1636
+msgid ""
+"Untitled scenes and related material are stored in the ``OpenToonz "
+"stuff\\projects\\temp``  folder, and deleted when the scene is saved with"
+" a proper name or not saved at all. Check regularly the ``temp``  folder,"
+" and if there is some content, delete it to free disk space."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1638
+msgid ""
+"Scene files can be saved and loaded as TNZ files using the related menu "
+"commands. Scenes have to be saved in the current project *+scenes* "
+"folder, or any of its sub-folders, in order to retrieve all the material "
+"when they are loaded back."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1640
+msgid ""
+"When you use the **Save As...** command, if the *$scenepath* is used in "
+"the default folders definition, all the material used in the scenes and "
+"located in project default folders will be duplicated in folders related "
+"to the new scene (see  :ref:`Using the $scenepath Variable in Folder "
+"Definition <using_the_$scenepath_variable_in_folder_definition>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1642
+msgid ""
+"An option **Save Automatically** allows to save the scene every given "
+"number of minutes, and is available in the Preferences  →  General "
+"dialog. If the option is activated, during the saving operation a message"
+" is displayed to notify the process."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1644
+msgid ""
+"An asterisk to the right of the scene name in the Viewer and "
+"Xsheet/Timeline title bars, denotes that there are unsaved changes for "
+"the current scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1646
+msgid "**To work on a new scene:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1648
+msgid "Choose File  →  **New Scene**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1650
+msgid "**To save a scene and all its related levels:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1652
+msgid "Choose File  →  **Save All**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1654
+msgid "**To save a scene:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1656
+msgid "Choose File  →  **Save Scene**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1658
+msgid "**To save the current scene with a different name:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1660
+msgid "Choose File  →  **Save Scene As...**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1662
+msgid ""
+"In the browser that opens select the current project *+scenes* folder, or"
+" any of its sub-folders, where you want to save the scene."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1664
+msgid "Assign a name to the scene and click the **Save** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1666
+msgid "**To load a scene from the Load Scene browser:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1668
+msgid "Choose File  →  **Load Scene...**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1670
+msgid ""
+"In the browser that opens retrieve, in the *+scenes* folder of the "
+"current project or any of its sub-folders, the scene you want to load and"
+" click the **Load** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1672
+msgid "**To load a scene from the OpenToonz standard browser:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1676
+msgid ""
+"Right-click the scene icon and choose **Load Scene...** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1678
+msgid "Drag and drop the scene icon to the clapboard icon in the scene cast pane."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1680
+msgid ""
+"Scenes can also be loaded by dragging and dropping them from the Windows "
+"Explorer or Mac OS Finder to the clapboard icon in the scene cast."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1682
+msgid "**To load back a recently loaded scene:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1684
+msgid ""
+"Choose File  →  **Open Recent Scene File**, then select the scene you "
+"want to load from the available submenu."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1686
+msgid "**To revert the current scene to the last saved version:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1688
+msgid "Choose File  →  **Revert Scene**."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1690
+msgid "**To automatically save a scene every given number of minutes:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1692
+msgid "Choose File  →  Preferences  →  General."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1694
+msgid ""
+"Activate the **Save Automatically** option and enter the number of "
+"minutes that have to pass between each saving operation."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1696
+msgid ""
+"Choose to activate which file will be saved by this function, either or "
+"both of the Scene File and Non-Scene Files."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1702
+msgid "Importing and Exporting Scenes"
+msgstr "وارد کردن و خروجی گرفتن صحنه ها"
+
+#: ../../source/working_in_xsheet.rst:1703
+msgid ""
+"In OpenToonz each scene file belongs to a specific project, so that the "
+"material created and used in the scene is located and can be retrieved "
+"from the project default folders."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1705
+msgid ""
+"If you need to copy the scene and the related material to a different "
+"project, it is possible either to import any scene file in the current "
+"project, or to export it to any other project available in the "
+"projectroot (see  :ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1711
+msgid "Importing Scenes from a Different Project"
+msgstr "وارد کردن صحنه ها از یک پروژه متفاوت"
+
+#: ../../source/working_in_xsheet.rst:1712
+msgid ""
+"When trying to load a scene created in a different project, or not "
+"located in the current project *+scenes* folder or any of its sub-"
+"folders, you are prompted to decide whether you want to import the scene "
+"(**Import Scene**) or change the current project (**Change Project**) "
+"(see  :ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1714
+msgid ""
+"If you decide to import the scene, the scene will be loaded, and all the "
+"scene material will be imported in the following way:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1716
+msgid ""
+"All the files that were located in the original project default folders "
+"(i.e. the ones loaded in the scene by using relative paths) will be "
+"copied into the related default folders of the current project (see  "
+":ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1718
+msgid ""
+"All the files that were located in external folders (i.e. the ones loaded"
+" in the scene by using absolute paths), will remain where they are."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1720
+msgid ""
+"While the material is automatically imported and saved in the current "
+"project, the scene file will not be saved until you will save it by using"
+" the Save Scene... or Save Scene As... commands."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1722
+msgid ""
+"It is also possible to import one or several scenes into the current "
+"project with no need to load and save them by using the Import Scene "
+"command."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1724
+msgid ""
+"In this case both the material files located in the original project "
+"default folders and the scene file will be copied in the related default "
+"folders of the current project."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1726
+msgid ""
+"If the scene you import contains a file whose name is the same as a file "
+"already existing in the destination default folder, you will prompted "
+"whether to keep the existing file, overwrite it with the new one, or "
+"rename it adding a suffix you can decide. In this way you can control if "
+"files you are importing were already imported previously, or manage files"
+" that share the same name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1728
+msgid "**To load and import a scene from a different project:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1730
+msgid ""
+"Load the scene you want to import by using the **Load Scene...** browser "
+"or the OpenToonz standard browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1732
+msgid ""
+"Choose **Import Scene** in the dialog that opens: the scene is loaded and"
+" the related files will be copied into the default folders of the current"
+" project."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1734
+msgid "Save the scene file in the current project *+scenes* folder"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1736
+msgid ""
+"**To import one or several scenes from a different project, without "
+"loading them:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1738
+msgid "Select the scenes you want to import in the OpenToonz standard browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1740
+msgid ""
+"Right-click the selection and choose **Import Scene** from the menu that "
+"opens: the scene and the related material files copied in the default "
+"folders of the current project."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1746
+msgid "Exporting Scenes to a Different Project"
+msgstr "خروجی گرفتن صحنه ها به یک پروژه متفاوت"
+
+#: ../../source/working_in_xsheet.rst:1747
+msgid ""
+"Scenes can be exported if you need either to copy them from a project to "
+"any other existing project, or to copy them to a new project that can be "
+"automatically created according to the current project settings."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1749
+msgid ""
+"In both cases the scenes files and the related assets will be "
+"automatically collected and copied in the related default folders of the "
+"destination project (see  :ref:`Collecting Assets <collecting_assets>`  "
+")."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1751
+msgid "|export_scene|"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1753
+msgid ""
+"If the scene you export contains any file whose name is the same of a "
+"file already existing in the destination default folder, you will "
+"prompted whether to keep the existing file, overwrite it with the new "
+"one, or rename it adding a suffix you can decide. In this way you can "
+"control if files you are exporting were already exported previously, or "
+"manage files that share the same name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1755
+msgid "**To export one or several scenes to a different project:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1757
+msgid "Select the scenes you want to export in the OpenToonz standard browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1759
+msgid ""
+"Right-click the selection and choose **Export Scene...** from the menu "
+"that opens: the Export Scene dialog opens."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1761
+msgid "In the dialog do one of the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1763
+msgid ""
+"Select the **Choose Existing Project** option if you want to export the "
+"selected scenes to an existing project, then navigate the folder tree to "
+"choose the destination project."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1765
+msgid ""
+"Choose the **Create New Project** option if you want to export the "
+"selected scenes to a new project based on the current one, then assign a "
+"name for the new project."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1767
+msgid "Click the **Export** button."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1773
+msgid "Collecting Assets"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1774
+msgid ""
+"Files used in a scene can be located in the default folders of the "
+"current project, or loaded from an external folder (see  :ref:`Project "
+"Default Folders <project_default_folders>`  and  :ref:`Using the File "
+"Browser <using_the_file_browser>`  )."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1776
+msgid ""
+"This means that when a project has to change location for any reason "
+"(e.g. for a backup), moving all the default folders does not grant that "
+"all the files required for the project scenes are moved along, because "
+"files loaded from external folders will remain where they are."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1778
+msgid ""
+"For this reason it's possible to collect all the files used in a scene, "
+"thus importing automatically to the project default folders all the files"
+" that were not imported at loading time. At the same time the scene file "
+"for which you are collecting assets will be automatically updated in "
+"order to correct all the loading paths of the newly imported files to "
+"keep consistency."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1780
+msgid "**To collect the assets of one or several scenes:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1782
+msgid "Select the scenes for which you want to collect assets."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1784
+msgid ""
+"Right-click the selection and choose **Collect Assets** from the menu "
+"that opens: all the scene files that were located in external folders are"
+" copied into the default folders of the project, and the related paths "
+"used in the scene files are updated."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1790
+msgid "Scene Backup Files"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1791
+msgid ""
+"When scenes are saved, backup files of previous versions are "
+"automatically stored in a folder named as the scene, that is located in "
+"``+scenes\\backups``  of the current project."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1793
+msgid ""
+"The four previous scene versions are retained, and they are named as the "
+"scene, with a progressive backup number: the highest the number, the more"
+" recent the backup."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1795
+msgid ""
+"For example if you have saved seven times the scene named my_scene, 4 "
+"backup versions of the scene named ``my_scene_3`` , ``my_scene_4`` , "
+"``my_scene_5``  and ``my_scene_6``  are available in the "
+"``+scenes\\backups\\my_scene`` folder."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1797
+msgid ""
+"If you want to recover a scene backup version of a scene, you have to "
+"remove the backup number so to have the correct scene name, and move the "
+"file into the *+scenes* folder."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1799
+msgid "**To recover a backup version of a scene:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1801
+msgid ""
+"Retrieve in *+scenes\\backups* the folder named as the scene whose backup"
+" you want to recover."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1803
+msgid ""
+"In the folder, retrieve the TNZ file related to the latest backup you "
+"want to recover, and rename it, removing the backup number so to have the"
+" correct scene name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1805
+msgid ""
+"Copy and paste it into the *+scenes* folder to replace the version you "
+"want to scratch."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1811
+msgid "Printing Xsheets"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1812
+msgid ""
+"An Xsheet can be saved as HTML file in order to view it on any computer "
+"by using an Internet browser, and to print it on paper."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1814
+msgid ""
+"The HTML file contains a header with general information, several tables,"
+" whose length and width you can decide, representing the Xsheet with "
+"exposed levels and objects movements, and a list of the levels exposed in"
+" the Xsheet with the related location on disk."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1816
+msgid ""
+"If any Sub-Xsheets are used in the scene, they are displayed after the "
+"main Xsheet where they are exposed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1818
+msgid ""
+"The information displayed in the header and the appearance of the HTML "
+"table can be set by editing the following files located in the folder "
+"``OpenToonz stuff\\profiles\\layouts\\settings`` :"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1820
+msgid ""
+"``xsheet_html.xml``  contains the information used for the HTML Xsheet "
+"header, and the size for the tables used to represent the Xsheet content."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1822
+msgid ""
+"``xsheet.css``  is a Cascading Style Sheet file that is used to define "
+"the colors, layout, and other aspects of the HTML Xsheet file (see below "
+")."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1824
+msgid ""
+"When using the Print Xsheet command, a dialog with information about the "
+"location and name of the generated HTML file is displayed; then the "
+"generated HTML file is displayed in your default browser."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1826
+msgid ""
+"The HTML file is saved in the same location as the TNZ file; the CSS file"
+" used for its formatting is generated as well, by copying the one located"
+" in the folder ``OpenToonz stuff\\profiles\\layouts\\settings`` . If a "
+"CSS file is already available in the location where the HTML Xsheet file "
+"is saved, it will be used instead of generating a new one."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1828
+msgid ""
+"If you want to move the HTML Xsheet file, you should move the CSS file as"
+" well, in order to preserve the HTML file appearance as defined by the "
+"CSS file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1834
+msgid "Editing the HTML Xsheet Header and Table Size"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1835
+msgid ""
+"The HTML Xsheet header and the size for the tables used to represent the "
+"Xsheet content can be defined by editing the`` xsheet_html.xml``  file "
+"available in the folder ``OpenToonz stuff\\profiles\\layouts\\settings`` "
+". It can be edited with any text editor software, e.g. Notepad or "
+"TextEdit."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1837
+msgid ""
+"The whole text is included in the tag ``xsheet_html`` , that contains the"
+" elements ``page``  and ``info`` , where the different users and roles "
+"are defined. The basic structure of the file is the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1849
+msgid ""
+"By editing the ``page row``  and ``page columns``  values you can set the"
+" size of the table used for splitting the Xsheet in sections. The size of"
+" the table allows you to fit each Xsheet section to the paper size you "
+"want to use to print the Xsheet on paper."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1851
+msgid ""
+"The ``info``  lines allows you to set information to be displayed in the "
+"header, for example the production name."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1853
+msgid "In the example file you can find the following lines:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1860
+msgid ""
+"These lines can be edited, and new lines, with the same syntax, can be "
+"appended, to provide all the information you want to appear in the header"
+" of the HTML Xsheet file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1862
+msgid ""
+"By default the header contains the Project and Scene names and the number"
+" of frames the scene consists of; this information cannot be edited, as "
+"they are retrieved automatically from the scene file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1864
+msgid ""
+"The ``xsheet_html.xml``  file has to be well-formed, and so it can not "
+"contain an opening tag without its related closing tag, otherwise "
+"OpenToonz will not run. If you decide to edit the ``xsheet_html.xml``  "
+"file, make a backup copy first in case you need to revert the file to the"
+" original version."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1866
+msgid "**To edit the xsheet_html.xml file:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1868
+msgid ""
+"Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz "
+"stuff\\profiles\\layouts\\settings`` with a text editor application (e.g."
+" Notepad or TextEdit)."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1870
+msgid ""
+"**To change the size of the table used for splitting the Xsheet in "
+"sections:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1872
+msgid ""
+"Change the ``page row``  and ``page columns``  values in the "
+"``xsheet_html.xml``  file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1874
+msgid "**To edit the information displayed in the header:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1876
+msgid ""
+"Edit the ``info``  lines available in the ``xsheet_html.xml``  file, and "
+"append new ones if needed."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1878
+msgid "**To check if the xsheet_html.xml file is well-formed:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1880
+msgid ""
+"Open it with an Internet browser and check if all the elements are "
+"displayed in a nested list where they can be opened and closed to display"
+" or hide the related contents."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1886
+msgid "Editing HTML Xsheet Appearance"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1887
+msgid ""
+"The HTML Xsheet appearance can be defined by editing thexsheet.css file "
+"available in the folder ``OpenToonz stuff\\profiles\\layouts\\settings`` "
+"."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1889
+msgid ""
+"The ``xsheet.css``  is a Cascading Style Sheet file that is used to "
+"define the colors, layout, and other aspects of the HTML Xsheet file. It "
+"can be edited with any text editor software, e.g. Notepad or TextEdit."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1891
+msgid ""
+"Editing the CSS file requires some skill in the CSS language, but some "
+"changes like table ruling thickness, or cell colors, can be easily done "
+"by expressing the thickness in pixels and colors as an RGB triplet in "
+"hexadecimal format."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1893
+msgid "Elements defined in the CSS are the following:"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1895
+msgid "``header``  refers to the table used as header in the HTML Xsheet file."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1897
+msgid "``table``  refers to the table used for displaying the Xsheet sections."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1899
+msgid "``TH``  refers to the header cells of the tables."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1901
+msgid ""
+"``first_numeric``  refers to the first numerical column of the Xsheet "
+"tables."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1903
+msgid "``fxcell``  refers to the table cells belonging to special FX columns."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1905
+msgid ""
+"``subxsheetcell``  refers to the table cells belonging to Sub-Xsheet "
+"columns."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1907
+msgid "``TD``  refers to the generic table cells."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1909
+msgid "``TH.frame``  refers to the frame column"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1911
+msgid ""
+"``TD.levelcell``  refers to the table cells belonging to standard level "
+"columns."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1913
+msgid ""
+"The CSS files have to be written according to a specific syntax. If you "
+"decide to edit the ``xsheet.css``  file, make a backup copy first in case"
+" you need to revert the file to the original version."
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1915
+msgid "**To edit the xsheet.css file:**"
+msgstr ""
+
+#: ../../source/working_in_xsheet.rst:1917
+msgid ""
+"Open the ``xsheet.css``  file available in the folder ``OpenToonz "
+"stuff\\profiles\\layouts\\settings``  with a text editor application "
+"(e.g. Notepad or TextEdit)."
+msgstr ""
