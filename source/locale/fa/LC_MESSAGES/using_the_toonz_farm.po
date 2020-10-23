@@ -1,0 +1,656 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 23:49+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/using_the_toonz_farm.rst:4
+#: ../../source/using_the_toonz_farm.rst:209
+msgid "Using the Toonz Farm"
+msgstr "استفاده از Toonz Farm"
+
+#: ../../source/using_the_toonz_farm.rst:5
+msgid ""
+"The Toonz Farm allows you to process OpenToonz scenes submitted as "
+"cleanup tasks or render tasks in the task list by using a series of "
+"computers connected on the same network using TCP/IP (see  :ref:`Cleaning"
+" up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  and  "
+":ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`  "
+")."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:7
+msgid ""
+"When tasks are executed, they are automatically assigned to the computers"
+" belonging to the farm in order to balance the workload. When all "
+"computers are busy, remaining tasks are not assigned until a machine is "
+"ready to process them."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:9
+msgid ""
+"If you have divided a render task into *chunks*, each chunk will be "
+"assigned to a different computer of the farm, thus speeding up the "
+"rendering of a single render task (see  :ref:`Using Chunks when Rendering"
+" Tasks <using_chunks_when_rendering_tasks>`  )."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:11
+msgid "The Toonz Farm is composed by the following:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:13
+msgid ""
+"**Controller node**: is the computer that dispatches the tasks to server "
+"(rendering) nodes. This computer runs the controller program, named "
+"``tfarmcontroller.exe``  on Windows and ``tfarmcontrollerd``  on "
+"Macintosh. One controller node is needed for defining a farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:15
+msgid "The controller node can also be used as a server (rendering) node."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:17
+msgid ""
+"**Server (rendering) nodes**: are the computers that execute tasks "
+"dispatched by the controller. Each of these computers runs a server "
+"program, named ``tfarmserver.exe``  on Windows and ``tfarmserverd``  on "
+"Macintosh, that is in charge of running tasks, notifying the controller "
+"when a task has been completed, etc."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:19
+msgid ""
+"**Root folder** named FARMROOT: is a shared folder where a number of "
+"configuration files are stored. The controller node and all the rendering"
+" nodes must be able to access this shared folder (see  :ref:`Configuring "
+"the Toonz Farm <configuring_the_toonz_farm>`  )."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:21
+msgid ""
+"**Client program**: is the program run by the user to queue new tasks and"
+" to monitor the Toonz Farm. OpenToonz itself is the client program of the"
+" Toonz Farm, and can be run on any computer on the network, not "
+"necessarily on a controller node or a sever (rendering) node."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:23
+msgid ""
+"In order to render the scenes successfully all the computers involved in "
+"the Toonz Farm, controller, servers and clients have to share the same "
+"projectroot folders (see  :ref:`Setting the Projectroot "
+"<setting_the_projectroot>`  )."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:29
+msgid "Installing the Toonz Farm on Windows"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:30
+#: ../../source/using_the_toonz_farm.rst:93
+msgid ""
+"To install the Toonz Farm, you have to install the Farm Controller "
+"component on the controller node, and the Farm Server component on the "
+"server (rendering) nodes."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:32
+#: ../../source/using_the_toonz_farm.rst:95
+msgid ""
+"If you want to use a computer both as controller and as server "
+"(rendering) node, you have to install both the components."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:34
+msgid ""
+"During the installation of any of the components you must specify the "
+"full-path of the FARMROOT folder. This path must be expressed using the "
+"UNC format, like the following:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:36
+msgid "``\\\\HostName\\ShareName\\FolderName``"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:38
+msgid ""
+"The drive where the FARMROOT folder is located has to be shared on the "
+"network, giving full control to any user by setting the right "
+"permissions."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:40
+msgid ""
+"When you choose to install the Farm Controller component, the "
+"installation program will create for the controller program a Windows "
+"Service, named **Toonz Farm Controller**."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:42
+msgid ""
+"When you choose to install the Farm Server component, the installation "
+"program will create for the server program a Windows Service, named "
+"**Toonz Farm Server**."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:44
+msgid ""
+"As the Toonz Farm requires exchanges of data between computers in the "
+"network by using TCP/IP protocol, any firewall system that may block "
+"access on computer ports has to be disabled."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:50
+msgid "Setting the Controller Node"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:51
+msgid ""
+"On the controller node the controller component is installed as a Windows"
+" service, named **Toonz Farm Controller**. By default a Windows Service "
+"runs under the security credentials of the Local System account. By "
+"default this account is not granted the right to access folders shared by"
+" remote hosts."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:53
+msgid ""
+"Since the **Toonz Farm Controller** needs to access the FARMROOT folder, "
+"typically shared by a remote host, please run this service as a user with"
+" the proper rights."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:55
+msgid ""
+"It is possible to start the service from a DOS shell by navigating to the"
+" folder where the binaries of OpenToonz are installed, and then using the"
+" following command line:``tfarmcontroller -console``"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:57
+msgid "**To run the Toonz Farm Controller as a user with the proper rights:**"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:59
+msgid ""
+"Choose Control Panel  →  Administrative Tools  →  Services, and right-"
+"click the **Toonz Farm Controller** service to open the Properties panel."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:61
+#: ../../source/using_the_toonz_farm.rst:82
+msgid "Select the Log On page, check the **This Account:** option."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:63
+#: ../../source/using_the_toonz_farm.rst:84
+msgid ""
+"Choose the network where the Toonz Farm is going to work and set an "
+"account that has administrator rights on that network. Insert and confirm"
+" the related password."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:65
+#: ../../source/using_the_toonz_farm.rst:86
+#: ../../source/using_the_toonz_farm.rst:205
+msgid "Click the **OK** button."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:71
+msgid "Setting the Server Nodes"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:72
+msgid ""
+"On the server (rendering) nodes, the server component is installed as a "
+"Windows service, named **Toonz Farm Server**. By default a Windows "
+"Service runs under the security credentials of the Local System account. "
+"By default this account is not granted the right to access folders shared"
+" by remote hosts."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:74
+msgid ""
+"Since the **Toonz Farm Server**, for rendering purposes, needs to access "
+"one or more folders shared by remote hosts, please run this service as an"
+" user with the proper rights."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:76
+msgid ""
+"It is possible to start the service from a DOS shell by navigating to the"
+" folder where the binaries of OpenToonz are installed, and then using the"
+" following command line:``tfarmserver -console``"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:78
+msgid "**To run the Toonz Farm Controller as an user with the proper rights:**"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:80
+msgid ""
+"Choose Control Panel  →  Administrative Tools  →  Services, and right-"
+"click the **Toonz Farm Server** service to open the Properties panel."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:92
+msgid "Installing the Toonz Farm on Macintosh"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:97
+msgid ""
+"After the installation of the toonz farm components, a FARMROOT folder "
+"has to be defined, and on all the computers belonging to the farm, both "
+"controller and servers, the full-path of the FARMROOT folder has to be "
+"specified."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:99
+msgid ""
+"To define the FARMROOT folder you can take as model the ``toonzfarm``  "
+"folder stored in ``OpenToonz stuff``. You can take the ``toonzfarm``  "
+"folder from any computer where OpenToonz in installed, choose the "
+"location you prefer, and share it on the network, giving full control to "
+"any user by setting the right permissions."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:101
+msgid ""
+"To specify the path to the FARMROOT on the computers, both controller and"
+" servers, belonging to the farm, you have to edit the "
+"``configfarmroot.txt``  file by typing in it the full path to the "
+"FARMROOT folder."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:103
+msgid ""
+"To retrieve this file open the ``Applications/OpenToonz`` folder, right-"
+"click the OpenToonz icon and choose Show Package Contents from the menu "
+"that opens; in the folder that opens browse to the ``Contents/Resources``"
+"  folder and retrieve the ``configfarmroot.txt``  file."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:105
+msgid ""
+"As the Toonz farm requires exchanges of data between computers in the "
+"network by using TCP/IP protocol, any firewall system that may block "
+"access on computer ports has to be disabled."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:111
+msgid "Configuring the Toonz Farm"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:112
+msgid ""
+"Once the installation has been completed, you have to configure the Toonz"
+" Farm by editing some configuration files stored in the FARMROOT folder."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:114
+msgid ""
+"The FARMROOT folder must be accessible by all the nodes that compose the "
+"Toonz Farm: the controller node, the server (rendering) nodes and the "
+"computers running OpenToonz. This means that the drive where the FARMROOT"
+" folder is located has to be shared on the network, and the permissions "
+"for users have to be maximum, in order to give full control to any users."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:116
+msgid ""
+"For the same reason the computer where the FARMROOT is located has to be "
+"started before all the other computers involved in the farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:118
+msgid "The FARMROOT folder contains the following:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:120
+msgid ""
+"the ``config``  folder containing the ``servers.txt`` , the "
+"``controller.txt`` and the ``id.txt`` ."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:122
+msgid "the ``logs``  folder."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:124
+msgid ""
+"The ``controller.txt`` and the ``servers.txt``  configuration files must "
+"be edited to define the controller node and the server (rendering) nodes "
+"before using the Render Farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:130
+msgid "Defining the Controller Node"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:131
+msgid ""
+"The controller node is defined in the ``controller.txt`` configuration "
+"file placed in the ``FARMROOT\\config``  folder."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:133
+msgid ""
+"The file must contain a single text line that describes the node you want"
+" to use as a controller."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:135
+msgid "For the controller node you must specify the following:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:137
+#: ../../source/using_the_toonz_farm.rst:166
+msgid "Computer name."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:139
+#: ../../source/using_the_toonz_farm.rst:168
+msgid "IP address."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:141
+msgid "The port number you intend to use for the controller service."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:143
+msgid ""
+"Be sure that the port you set is not blocked by any firewall system, and "
+"is open for all the computers belonging to the Toonz farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:145
+msgid ""
+"Each of the above information must be separated by a single space. Here "
+"is an example of a ``controller.txt``  file:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:153
+msgid ""
+"In the above example, ``render1``  is the controller node, its IP address"
+" is ``10.10.0.166``  and the controller program runs on the ``10000``  "
+"port."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:159
+msgid "Defining the Server Nodes"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:160
+msgid ""
+"The server (rendering) nodes are defined in the ``servers.txt``  "
+"configuration file placed in the ``FARMROOT\\config``  directory."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:162
+msgid ""
+"The file must contain a text line for every computer you want to use as a"
+" server (rendering) node."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:164
+msgid "For each sever (rendering) node you must specify the following:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:170
+msgid "The port number you intend to use for the server service."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:172
+msgid ""
+"Be sure that the port you set is not blocked by any firewall system, and "
+"is open for all the computers belonging to the Toonz Farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:174
+msgid ""
+"The above information must be separated by a single space. Here is an "
+"example of a ``servers.txt``  file::"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:182
+msgid ""
+"In the above example, ``render1``  is a server node whose IP address is "
+"``10.10.0.166``  and the server program runs on the ``8002``  port; "
+"``render2``  is a server node whose IP address is ``10.10.0.195``  and "
+"the server program runs on the ``8002``  port; etc."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:184
+msgid ""
+"If you want to add or remove a server (rendering) node from the "
+"``servers.txt``  file, you have to restart the controller node in order "
+"to make the changes effective."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:190
+msgid "Defining the Toonz Farm in OpenToonz"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:191
+msgid ""
+"OpenToonz is the Toonz Farm client program: it allows you to submit new "
+"tasks and monitor the status of the farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:193
+msgid ""
+"If the computer where you run OpenToonz is a controller or a server "
+"(rendering) node for the Toonz Farm, no further settings are required."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:195
+msgid ""
+"If the computer is neither a controller nor a server (rendering) node for"
+" the Toonz Farm, the FARMROOT has to be defined."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:197
+msgid "**To define the FARMROOT in OpenToonz:**"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:199
+msgid "Run OpenToonz and go to the **Farm** room."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:201
+msgid ""
+"In the Batch Servers pane, set the **Process with:** option menu to "
+"**Render Farm**."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:203
+msgid "In the dialog that opens specify the full path to the **FARMROOT** folder."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:210
+msgid ""
+"In OpenToonz you can find the **Farm** room that allows you to monitor "
+"the farm processes. This room contains two main windows: the Tasks window"
+" and the Batch Servers window."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:212
+msgid ""
+"The render farm can be monitored by using both the Tasks pane, where the "
+"list of tasks can be managed and executed, and the Servers pane, where "
+"the computers executing the tasks can be managed."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:214
+msgid ""
+"All shared disks involved in the task processing, i.e. disks where files "
+"resulting from the task execution have to be written, must be shared "
+"granting *full permissions* to any user, otherwise tasks execution will "
+"not succeed. For Windows, disks must have a Share Permission set to Full "
+"Control for Everyone; for Macintosh, the sharing settings must allow any "
+"user to read from and write to disks."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:220
+msgid "Monitoring the Server Nodes"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:221
+msgid ""
+"The Batch Servers pane is divided in three areas: at the top there’s an "
+"option menu to set whether the tasks execution has to be performed with "
+"the Local computer or with the Render Farm; then there is the list of "
+"server (rendering) nodes in the farm; at the bottom you can see "
+"information about the server currently selected in the list."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:223
+msgid ""
+"The server (rendering) nodes included in the list are those defined in "
+"the ``server.txt``  configuration file (see  :ref:`Defining the Server "
+"Nodes <defining_the_server_nodes>`  ). If a server node is down at the "
+"controller startup, it will not be available in the farm: this means that"
+" all the server nodes *must be up before* starting up the controller "
+"node. For the same reason if you want to restart or shut down a server "
+"(rendering) node, you have to restart the controller node in order to "
+"make the changes effective."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:225
+msgid ""
+"If the **Process with:** option menu is set to **Local**, all the tasks "
+"you run will be executed by the local computer; if it's set to **Render "
+"Farm**, the tasks will be executed by the Toonz Farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:227
+msgid ""
+"When you select **Render Farm** you could be prompted to define the "
+"**FARMROOT** (see  :ref:`Defining the Toonz Farm in Toonz "
+"<defining_the_toonz_farm_in_toonz>`  )."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:229
+msgid ""
+"When a server is selected in the list, the following related information "
+"are displayed in the area at the bottom of the window:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:231
+msgid "**Name:** displays the name of the server (rendering) node."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:233
+msgid "**IP Address:** displays its IP address."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:235
+msgid ""
+"**Port Number:** displays the port number used to exchange data with the "
+"farm."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:237
+msgid "**Tasks:** displays the task being executed."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:239
+msgid "**State:** displays if the server is **Ready**, **Busy** or **Down**."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:241
+msgid ""
+"A server node state may be down if the server port you set is blocked by "
+"a firewall system, and is not open for all the computers belonging to the"
+" Toonz Farm (see  :ref:`Defining the Server Nodes "
+"<defining_the_server_nodes>`  )."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:243
+msgid "**Number of CPU:** displays the number of CPUs available on the server."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:245
+msgid ""
+"**Physical Memory:** displays the amount of physical memory available on "
+"the server."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:247
+msgid "**To use the Local computer to execute tasks:**"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:249
+msgid "Set the **Process with:** option menu to **Local**."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:251
+msgid "**To use the Toonz Farm to execute tasks:**"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:253
+msgid "Set the **Process with:** option menu to **Render Farm**."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:259
+msgid "Checking the Toonz Farm Processing"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:260
+msgid ""
+"When the Toonz Farm is used, any problem that may be experienced during "
+"the processing is recorded in LOG files, that can be opened and used to "
+"diagnose problems."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:262
+msgid ""
+"The LOG files are saved in the ``OpenToonz stuff\\toonzfarm``  folder of "
+"the computer experiencing the problem; each LOG refers to the processing "
+"performed by that computer only."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:264
+msgid ""
+"The LOG files that may be generated by the Toonz Farm processing are the "
+"following:"
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:266
+msgid ""
+"**server.log** logs all the operations concerning the server computer "
+"activity."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:268
+msgid ""
+"**controller.log** logs all the operations concerning the controller "
+"computer activity."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:270
+msgid ""
+"**tcomposer.log** logs all the operations concerning the render activity "
+"performed by the server computers."
+msgstr ""
+
+#: ../../source/using_the_toonz_farm.rst:272
+msgid ""
+"**tcleanup.log** logs all the operations concerning the cleanup activity "
+"performed by the server computers."
+msgstr ""

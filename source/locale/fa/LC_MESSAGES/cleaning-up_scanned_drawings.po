@@ -1,0 +1,1597 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 23:49+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:4
+msgid "Cleaning-up Scanned Drawings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:5
+msgid ""
+"In order to be painted and edited with OpenToonz, scanned drawings have "
+"to undergo the cleanup process. The process involves autocentering, to "
+"align each drawing according to the pegbar holes; line processing, to "
+"recognize the drawing outline; image cropping and re-sizing, to make the "
+"drawings fit properly the camera."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:7
+msgid ""
+"The process generates a Toonz raster level (TLV format) and the related "
+"default palette (TPL format), where the styles used to paint the level "
+"will be stored."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:10
+msgid ""
+"If the computer performance slows down during the cleanup process of very"
+" high resolution images, try activating the **Minimize Raster Memory "
+"Fragmentation** option in the Files  →  Preferences  →  General dialog "
+"(see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  "
+")."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:15
+msgid "The Cleanup Settings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:16
+msgid "|cleanup_settings|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:18
+msgid ""
+"The cleanup process can be controlled by using the Cleanup Settings that "
+"include Cleanup, Processing and Camera parameters."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:20
+msgid ""
+"Usually settings are defined and checked for one of the level drawings, "
+"then applied to the whole animation level. If all of the drawings in the "
+"scene have the same characteristics, it is very likely that the same "
+"settings can be used for every drawing throughout all of the animation "
+"levels."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:22
+msgid "**To define cleanup settings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:24
+msgid ""
+"Choose Scan & Cleanup  →  **Cleanup Settings...** and use the dialog to "
+"control the cleanup process parameters and options."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:29
+msgid "Defining Cleanup Parameters"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:31
+msgid ""
+"The Cleanup parameters set the autocentering information and some "
+"geometric transformations."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:36
+msgid "Autocentering"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:37
+msgid "|autocentering|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:39
+msgid ""
+"The **Autocenter** option aligns lineart drawings and full-color images "
+"according to the shape and position of the pegbar holes, in order to set "
+"the correct registration for them, once they are used in an animation "
+"scene."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:41
+msgid ""
+"Pegbar holes have to be included properly during the scanning process in "
+"order to be recognized during the process (see  :ref:`Scanning Guidelines"
+" for Autocentering <scanning_guidelines_for_autocentering>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:43
+msgid ""
+"In case the autocenter fails because it's not possible to recognize "
+"properly the pegbar holes, an error message is displayed; yet the "
+"drawings and images are processed according to the other set parameters."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:45
+msgid "Autocenter parameters are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:47
+msgid "**Autocenter**, when activated, triggers the autocenter process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:49
+msgid ""
+"**Pegbar Holes**, sets the side of the drawing along which holes should "
+"be detected."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:51
+msgid ""
+"**Field Guide**, specifies the size of the reference field guide that has"
+" to be used to set the center of the processed drawings and images, and "
+"the type of pegbar holes that have to be detected (such as Acme or "
+"Oxbry)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:53
+msgid "**To check the autocenter on a selected drawing:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:55
+msgid "Activate the **Autocenter** option."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:57
+msgid "Set the side where **Pegbar Holes** have to be detected."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:59
+msgid ""
+"Set the **Field Guide** to be used as reference to set the center in the "
+"correct place, and to match the shape of the pegbar holes."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:61
+msgid ""
+"Choose Scan & Cleanup  →  **Preview Cleanup** to preview the process in "
+"the Viewer."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:66
+msgid "Other Cleanup Parameters"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:67
+msgid ""
+"The Cleanup pane contains also other parameters that can be activated "
+"regardless of the autocenter, as they will affect processed images even "
+"if the Autocenter option is not activated. Parameters are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:69
+msgid "|rotate|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:71
+msgid ""
+"**Rotate**, rotates the image by 90° steps clockwise. It can be used to "
+"set the right orientation for images scanned with a different direction "
+"in order to fit the scanner bed."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:73
+msgid ""
+"**Flip**, mirrors the image horizontally, vertically or both, according "
+"to the activated options. It can be used, for example, when processing a "
+"shadow level drawn on the other side of the paper where the character "
+"level is drawn, in order to match the two animation levels later."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:75
+msgid "|savein|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:77
+msgid ""
+"**Save In**, lets you define the folder where the cleaned up drawings are"
+" saved. By default it is set to the *+drawings* default folder of the "
+"current project (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:83
+msgid "Defining Line Processing Parameters"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:84
+msgid ""
+"The Processing parameters set the line processing options in order to "
+"prepare drawings for the painting process, recognizing *black lines* (in "
+"black and white or grayscale lineart drawings), or *colored lines* (in "
+"colored lineart drawings)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:86
+msgid "**To set the type of line processing:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:88
+msgid ""
+"Set the **Line Processing** option to **None**, if no line processing is "
+"required, **Greyscale**, if lines have to be recognized as black, or "
+"**Color**, if lines have to be recognized as colored ones."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:94
+msgid "Processing Black and White or Greyscale Lineart Drawings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:95
+msgid "|greyscale|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:97
+msgid "|greyscale_sample|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:99
+msgid ""
+"For black and white or greyscale lineart drawings, a set of parameters "
+"are available to calibrate the black line recognition process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:101
+#: ../../source/cleaning-up_scanned_drawings.rst:172
+msgid ""
+"The result of the process can be previewed in the OpenToonz main Viewer "
+"(see  :ref:`Previewing the Cleanup Process "
+"<previewing_the_cleanup_process>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:103
+msgid "Parameters are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:105
+msgid ""
+"**Antialias:**, can be set to **Standard**, **None** or "
+"**Morphological**. Use **Standard** to keep the antialias resulting from "
+"current camera and defined settings. Use **None** to eliminate the "
+"antialiasing from the processed line, so that the resulting line will be "
+"fully solid with no semi-transparent pixels that smooths its edges. Use "
+"**Morphological** to replace the standard antialias with one obtained by "
+"analyzing the image edges."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:107
+msgid ""
+"**Autoadjust**, corrects the levels of grey in the drawings in order to "
+"avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting"
+" Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  "
+"). (NOTE: This feature is currently not available in OpenToonz)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:109
+#: ../../source/cleaning-up_scanned_drawings.rst:180
+msgid ""
+"**Sharpness:**, defines how sharp the processed lines will be. Higher "
+"values produce sharper, harder lines, and lower values create smoother "
+"lines."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:111
+#: ../../source/cleaning-up_scanned_drawings.rst:182
+msgid ""
+"**Despeckling:**, removes small spots or marks from the processed images."
+" Its value expresses the size in pixels of the side of the maximum area "
+"that has to be removed. The spots and marks removed by this option can "
+"also be checked by activating the Opacity Check (see  :ref:`Using the "
+"Opacity Check <using_the_opacity_check>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:113
+#: ../../source/cleaning-up_scanned_drawings.rst:184
+msgid ""
+"**MLAA Intensity:**, sets the intensity of the *morphological antialias*."
+" The higher the value the more blurred the line. (It is available only "
+"when **Morphological** is selected)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:115
+#: ../../source/cleaning-up_scanned_drawings.rst:188
+msgid ""
+"**Brightness:**, controls the thickness of the recognized line: the lower"
+" the value, the thicker the line."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:117
+msgid ""
+"**Contrast:**, controls the antialiasing of the recognized line: a higher"
+" value produces more solid pixels, a lower value lines with more "
+"antialiased pixels. The amount of antialiasing can also be checked by "
+"activating the **Opacity Check** (see  :ref:`Using the Opacity Check "
+"<using_the_opacity_check>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:120
+msgid ""
+"If the Antialias is set on **None** or **Morphological**, the "
+"**Contrast:** parameter will become deactivated."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:123
+msgid ""
+"**To set the line processing for black and white or greyscale lineart "
+"drawings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:125
+msgid "Activate the Line Processing  →  **Greyscale** option."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:127
+msgid "Define the parameters according to your needs."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:129
+#: ../../source/cleaning-up_scanned_drawings.rst:216
+msgid ""
+"Preview the result of the cleanup process (see  :ref:`Previewing the "
+"Cleanup Process <previewing_the_cleanup_process>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:135
+msgid "Autoadjusting Greyscale Lineart Drawings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:136
+msgid ""
+"The **Autoadjust** clean-up options explained here are currently "
+"unavailable in OpenToonz. There is no certainty about its reinclusion at "
+"a later version or not. If you judge them to be useful for your workflow,"
+" you could file an *Issue* about that in the OpenToonz' GitHub repository"
+" or in the various OpenToonz forums."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:138
+msgid ""
+"The **Autoadjust** option available among the Cleanup parameters allows "
+"you to even the differences between drawings made by key animators and "
+"those made by in-betweeners by adjusting the line darkness of all of the "
+"level drawings."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:140
+msgid ""
+"The **Autoadjust** option has effect only on drawings scanned in "
+"greyscale mode, while it has no effect on drawings scanned in black and "
+"white."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:142
+msgid "Three different autoadjust algorithms are available:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:144
+msgid ""
+"**Black Eq**, computes the average of the darkest grey tone found in "
+"drawing lines below a certain threshold and sets this value to the "
+"conventional black level, so that grey levels of each image are "
+"automatically adjusted."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:146
+msgid ""
+"**Histogram**, makes a histogram of the grey levels of the first image "
+"and equalizes the histograms of the following images according to it. It "
+"works well when the content of the images (apart from line darkness) does"
+" not vary too much across the level."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:148
+msgid ""
+"**Histo-L**, takes into account the number of lines in each image to "
+"normalize the histogram of grey levels, before the histogram equalization"
+" is performed. This is useful for example when a character becomes bigger"
+" or smaller in an animated level, or when parts of the character are "
+"animated independently in some frames."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:150
+msgid ""
+"The advantage of the **Histo-L** mode over the others is that it adjusts "
+"the grey levels of each image independently, while the other algorithms "
+"equalize each image to make it look like the first one of the level."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:152
+msgid ""
+"Only the effects of the **Black Eq** process can be checked using the "
+"Scan & Cleanup  →  **Cleanup Preview** command; the effects of "
+"**Histogram** and **Histo-L** are only visible selecting a sequence of at"
+" least two frames (i.e. one as reference frame and the others to be auto-"
+"adjusted) and processing them using the Scan & Cleanup  →  Cleanup "
+"command. You may need to make a few trials using different algorithms "
+"before obtaining the desired results."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:154
+msgid ""
+"These algorithms work on the area of the drawing specified in the Field "
+"text boxes, excluding a 5 mm boundary edge. In this way any line might be"
+" drawn to delimit the camera shot on paper, and the pegbar holes, do not "
+"affect the result."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:160
+msgid "Processing Colored Lineart Drawings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:161
+msgid "|color|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:163
+msgid "|color_sample|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:166
+msgid ""
+"For colored lineart drawings, a set of parameters are available to "
+"calibrate the line recognition process, and to set which and how colors "
+"have to be detected in the drawings (see  :ref:`Defining Colors for the "
+"Color Line Processing <defining_colors_for_the_color_line_processing>`  "
+")."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:168
+msgid ""
+"For all the cleanup colors you can define a color to be assigned "
+"automatically to the lines after the processing, with no need to paint "
+"them. The two colors, the one used for the recognition and the one to be "
+"assigned to the recognized lines, are available at the bottom area of the"
+" Style Editor pane."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:170
+msgid ""
+"Different parameters are available for the black color, that usually "
+"defines the main outline in lineart drawings, and for the additional "
+"colors, that usually defines special outlines for areas such as shadows "
+"and highlights."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:174
+msgid "General parameters are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:176
+msgid ""
+"**Antialias:**, can be set to **Standard**, **None** or "
+"**Morphological**. Use **Standard** to keep the antialias resulting from "
+"current camera and defined settings. Use **None** to remove the "
+"antialiasing from the processed line, so that the resulting line will be "
+"fully solid with no semi-transparent pixels smoothing its edges. Use "
+"**Morphological** to replace the standard antialias with the one obtained"
+" by analyzing the image edges."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:178
+msgid ""
+"If the Antialias is set to **None** or **Morphological**, the "
+"**Contrast** parameter will become desactivated."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:186
+msgid "In the color list, parameters for the black color are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:190
+msgid ""
+"**Contrast:**, controls the antialiasing of the recognized line: a higher"
+" value produces more solid pixels, a lower value lines with more "
+"antialiased pixels. The amount of antialiasing can also be checked by "
+"activating the Opacity Check (see  :ref:`Using the Opacity Check "
+"<using_the_opacity_check>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:192
+msgid ""
+"**Color Threshold:**, sets pixels that have to be considered as black and"
+" those that have to be considered as colors: the higher the value, the "
+"higher the number of pixels that will be considered as colored."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:194
+msgid ""
+"**White Threshold:**, sets pixels that have to be considered as white, "
+"for example to eliminate the paper color: the higher the value, the "
+"higher the number of pixels that will be considered as white."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:196
+msgid "In the color list, parameters for the other colors are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:198
+msgid ""
+"**Brightness:**, controls the thickness of the recognized colored line: "
+"the lower the value, the thicker the line."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:200
+msgid ""
+"**Contrast:**, controls the antialiasing of the recognized colored line: "
+"a higher value produces more solid pixels, a lower value lines with more "
+"antialiased pixels. The amount of antialiasing can also be checked by "
+"activating the Opacity Check (see  :ref:`Using the Opacity Check "
+"<using_the_opacity_check>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:202
+msgid ""
+"**H Range:**, sets the range of the hue for color recognition: the higher"
+" the value, the higher the number of differently colored pixels that will"
+" be associated to the defined color."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:204
+msgid ""
+"**Line Width:**, sets the width of the recognized colored line: the "
+"higher the value, the higher the number of desaturated pixels that will "
+"be associated to the defined color, thus increasing the line thickness."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:206
+msgid "**To set the line processing for colored lineart drawings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:208
+msgid "Activate the Line Processing  →  **Color** option."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:210
+msgid "Define the general parameters according to your needs."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:212
+msgid ""
+"Define the colors you want to be detected in the drawings (see  "
+":ref:`Defining Colors for the Color Line Processing "
+"<defining_colors_for_the_color_line_processing>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:214
+msgid "Define the color parameters according to your needs."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:222
+msgid "Defining Colors for the Color Line Processing"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:223
+msgid ""
+"The colors used to recognize and process drawing lines when doing color "
+"line processing can be defined by using the style editor or picking color"
+" values directly from the drawing you want to process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:225
+msgid ""
+"It is possible to add colors to the list, or remove them if they are not "
+"needed anymore. The maximum number of color you can define is 7 (black "
+"included)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:228
+msgid ""
+"The first color of the list, i.e. the black color, cannot be edited or "
+"removed."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:231
+msgid "**To define colors:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:233
+msgid ""
+"Select the color you want to define in the list available in the "
+"Processing parameters."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:235
+msgid "Define the color by doing one of the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:237
+msgid "Use the Style Editor (see  :ref:`Editing Styles <editing_styles>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:239
+msgid ""
+"Use the **RGB Picker** tool (|RGB_picker|) to pick the value of the line "
+"color from the drawings visible in the Viewer (see  :ref:`Plain Colors "
+"<plain_colors>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:242
+msgid "**To define colors to be assigned to lines after cleanup processing:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:244
+msgid "Select the color for which you want to define the post-process color."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:246
+msgid ""
+"At the bottom of the Style Editor select the square on the right of the "
+"current color: this is the color to be assigned after the processing is "
+"done."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:248
+msgid "Edit the color in the Style Editor."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:251
+msgid "**To add a color in the color list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:253
+msgid "Click the **+** button available under the color list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:256
+msgid "**To remove a color from the color list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:258
+msgid "Select the color you want to remove from the list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:260
+msgid "Click the **-** button available under the color list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:266
+msgid "Defining Camera"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:267
+msgid "|camera|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:269
+msgid ""
+"The Camera parameters define the size and resolution of the camera that "
+"is used to crop and resize drawings during the cleanup process, in order "
+"to prepare and optimize them for the scene."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:271
+msgid ""
+"For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16"
+" field size, the cleaned up drawings will be cropped according to the 16 "
+"field size and will have the resolution of 1920x1080 pixels."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:273
+msgid ""
+"The cleanup camera definition is similar to the definition of the stage "
+"camera (see  :ref:`Defining Camera Settings <defining_camera_settings>`  "
+"). Usually the two cameras have the same parameters, but sometimes you "
+"may need to define a cleanup camera that is larger than the stage camera "
+"especially if you want drawings border area to overflow the shot."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:275
+msgid "You can also set other parameters and options:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:277
+msgid ""
+"The **Closest Field** parameter (NOT AVAILABLE in OpenToonz) defines the "
+"smallest field size you will zoom into the drawing, with the camera when "
+"compositing the scene. This value is meaningful if it is smaller than the"
+" camera field size, as it increases the final image resolution, "
+"preventing zoomed-in images from appearing jagged. For example if the "
+"cleanup camera is 1920x1080 pixels (HD 1080) with a 16 field size and the"
+" **Closest Field** is set to 8, the cleaned up drawings will have to be "
+"of twice the camera resolution, that is 3840 by 2160 pixels, so that when"
+" the camera closes up, the original image pixel resolution is preserved."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:279
+msgid ""
+"The **E/W** and **N/S** offset parameters shift the camera position, in "
+"case you want to define for the drawings a center different from the one "
+"automatically set by the reference field guide when the **Autocenter** is"
+" *on*, or different from the actual center of the image if the "
+"**Autocenter** is *off*; after the cleanup, the camera center will be the"
+" new center for the processed drawings."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:281
+msgid ""
+"The cleanup camera size, resolution and offset can also be graphically "
+"controlled in OpenToonz's main Viewer when checking the cleanup process "
+"with the **Camera Test** mode (see  :ref:`Using the Camera Test "
+"<using_the_camera_test>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:287
+msgid "Saving and Loading Cleanup Settings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:288
+msgid "|saveloadreset|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:290
+msgid ""
+"Cleanup settings can be saved as CLN files in order to be loaded back and"
+" used in a different scene."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:292
+msgid ""
+"They can also be associated specifically to an animation level by saving "
+"them in the same location and with the same name of the level: in this "
+"way the settings will be automatically displayed when the level is "
+"selected, and used every time the level is cleaned up."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:294
+msgid ""
+"Loaded cleanup settings can also become the default settings for the "
+"scene or for the project (see  :ref:`Scene Settings and Project Default "
+"Settings <scene_settings_and_project_default_settings>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:297
+msgid "**To save the cleanup settings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:299
+#: ../../source/cleaning-up_scanned_drawings.rst:307
+msgid "Select an empty cell in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:301
+#: ../../source/cleaning-up_scanned_drawings.rst:317
+msgid ""
+"Click the **Save Settings** button in the bottom bar of the Cleanup "
+"Settings window."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:303
+msgid ""
+"In the browser that opens choose for the CLN file a location and name, "
+"and click the **Save** button."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:305
+msgid "**To load saved cleanup settings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:309
+#: ../../source/cleaning-up_scanned_drawings.rst:325
+msgid ""
+"Click the **Load Settings** button in the bottom bar of the Cleanup "
+"Settings window."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:311
+#: ../../source/cleaning-up_scanned_drawings.rst:327
+msgid ""
+"In the browser that opens retrieve the CLN file you want to load, and "
+"click the **Load** button."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:313
+msgid "**To save the current cleanup settings for a specific level:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:315
+#: ../../source/cleaning-up_scanned_drawings.rst:323
+msgid "Select any cell where the level is exposed in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:319
+msgid ""
+"In the browser that opens save the CLN file in the same location and with"
+" the same name as the level, and click the **Save** button."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:321
+msgid "**To load cleanup settings for a specific level:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:329
+msgid ""
+"Click the **Save Settings** button and in the browser that opens save the"
+" CLN file in the same location and with the same name as the level, and "
+"click the **Save** button."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:331
+msgid "**To reset cleanup settings to the scene default:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:333
+msgid ""
+"Click the **Reset Settings** button in the bottom bar of the Cleanup "
+"Settings window."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:340
+msgid "Checking the Cleanup Process"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:341
+msgid ""
+"While defining the cleanup settings it is possible to preview the full "
+"cleanup process, or perform the camera test only, in order to check the "
+"result before performing the final cleanup."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:346
+msgid "Previewing the Cleanup Process"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:347
+msgid "The full cleanup process can be checked in the main Viewer."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:352
+msgid "Previewing the Cleanup Process in the Main Viewer"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:353
+msgid ""
+"A cleanup preview can be activated in the main viewer to display the "
+"drawing selected in the Xsheet/Timeline as it will be after the real "
+"cleanup process according to the defined cleanup settings, displaying at "
+"the same time all the other drawings and images exposed in the "
+"Xsheet/Timeline at that frame."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:355
+msgid ""
+"If you change any parameter in the cleanup settings, the preview "
+"automatically updates to display how the changes affect the process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:357
+msgid ""
+"The **Opacity Check** when activated, affects also the cleanup preview in"
+" the main Viewer (see below )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:359
+#: ../../source/cleaning-up_scanned_drawings.rst:403
+msgid ""
+"The **Preview Cleanup** and the **Camera Test** checks cannot be "
+"activated at the same time: when one is activated the other one is "
+"automatically deactivated."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:361
+msgid "**To activate the cleanup preview in the main Viewer:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:363
+msgid ""
+"In the Xsheet/Timeline select the scanned drawing you want to preview, "
+"and choose Scan & Cleanup  →  **Preview Cleanup**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:365
+msgid "**To deactivate the cleanup preview in the main Viewer:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:367
+msgid "Choose Scan & Cleanup  →  **Preview Cleanup**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:369
+msgid "**To preview a different drawing:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:371
+#: ../../source/cleaning-up_scanned_drawings.rst:428
+msgid "Select it in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:373
+msgid "**To exit the preview cleanup mode:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:375
+msgid "Choose Scan & Cleanup  →  **Preview Cleanup** to deactivate it."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:381
+msgid "Using the Opacity Check"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:382
+msgid ""
+"When calibrating the line processing it is important to check the amount "
+"of antialiasing along the drawing outline to understand how smooth the "
+"result will be, and to check the small spots and marks that are removed "
+"from the drawing because of the **Despeckling:** function (see  "
+":ref:`Defining Line Processing Parameters "
+"<defining_line_processing_parameters>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:384
+msgid ""
+"The **Opacity check**, when activated, displays fully solid pixels in "
+"*black*, and semi-transparent pixels belonging to the line antialiasing "
+"in *red*; moreover pixels that will be removed because of the "
+"**Despeckling:** function are displayed in *green*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:386
+msgid ""
+"The check is visible both in the *preview area* (NOT AVAILABLE in "
+"OpenToonz) of the Cleanup Settings pane, and with the **Preview Cleanup**"
+" mode, in the *main Viewer*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:388
+msgid "**To activate and deactivate the opacity check:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:390
+msgid ""
+"Choose Scan & Cleanup  →  **Opacity Check** or press its default shortcut"
+" **Alt + 1**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:396
+msgid "Using the Camera Test"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:397
+msgid ""
+"The **Camera Test** can be used to check the cleanup process as "
+"concerning the Cleanup and the Camera parameters. It displays the drawing"
+" selected in the Xsheet/Timeline directly in the Viewer without line "
+"processing but with the position modified according to the Cleanup "
+"parameters (Autocenter, Rotate and Flip), and the size modified according"
+" to the Camera parameters. In particular a *red* box displays how the "
+"cleanup camera will crop the drawing, and a *blue* box displays the "
+"camera **Closest Field**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:399
+msgid ""
+"It is possible to modify the camera box directly in the Viewer thus "
+"updating the cleanup camera information visible in the Cleanup Settings "
+"dialog (see  :ref:`Defining Camera <defining_camera>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:401
+msgid ""
+"If you change any of the Cleanup or Camera parameters, the camera test "
+"automatically updates to display how the changes affect the process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:406
+msgid "**To activate the camera test:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:408
+msgid ""
+"In the Xsheet/Timeline select the drawing you want to preview, and choose"
+" Scan & Cleanup  →  **Camera Test**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:410
+msgid "**To deactivate the camera test:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:412
+msgid "Choose Scan & Cleanup  →  **Camera Test**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:414
+msgid "**To modify the cleanup camera directly in the Viewer:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:416
+#: ../../source/cleaning-up_scanned_drawings.rst:547
+#: ../../source/cleaning-up_scanned_drawings.rst:626
+msgid "Do any of the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:418
+msgid ""
+"Operate the handles on the top and right edges to scale the camera size "
+"horizontally or vertically, thus changing the camera **A/R** as well."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:420
+msgid ""
+"Operate the handle on the top right corner to scale the camera size while"
+" keeping the A/R."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:422
+msgid ""
+"Activate the DPI Lock in the cleanup camera parameters, and operate the "
+"handles to scale also the camera resolution  (NOT AVAILABLE in "
+"OpenToonz)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:424
+msgid "Move the camera box to modify the cleanup camera E/W and N/S offset."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:426
+msgid "**To perform the camera test on a different drawing:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:430
+msgid "**To exit the camera test mode:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:432
+msgid "Choose Scan & Cleanup  →  **Camera Test** to deactivate it."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:438
+msgid "Cleaning up Drawings"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:439
+msgid ""
+"Once the cleanup settings are defined and the process is checked, it is "
+"possible to cleanup all of the drawings of the scene, or a selection of "
+"them."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:441
+msgid ""
+"Drawings can be processed directly inside the scene after performing a "
+"selection, or they can be processed automatically in batch mode."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:443
+msgid ""
+"In both cases they will be cleaned up according to the Cleanup Settings "
+"defined for the scene, unless a specific CLN file was saved for any of "
+"the animation levels in the scene."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:445
+msgid ""
+"By default cleaned up drawings are saved in the *+drawings* directory of "
+"the current project (see  :ref:`Project Default Folders "
+"<project_default_folders>`  ), but you can change the location by using "
+"the **Save In** option available in the cleanup settings dialog."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:447
+msgid ""
+"Cleaned up animation levels are saved as TLV files; the related palettes "
+"are saved in the same location and with the same name of the animation "
+"levels as TPL files."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:449
+msgid ""
+"It is also possible to automatically create a backup copy of the cleaned "
+"up drawings that will be stored in a subfolder named **nopaint** inside "
+"the same location where the cleaned up drawings are saved. In this way it"
+" will be possible to retrieve the original drawing in case some mistakes "
+"(e.g. a deletion of a drawing section) are made during the painting "
+"process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:451
+msgid "**To automatically create a backup copy of the cleaned up drawings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:453
+msgid "Choose File  →  Preferences  →  Drawing."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:455
+msgid "Activate the **Keep Original Cleaned Up Drawings As Backup** option."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:457
+msgid "**To revert to the original cleaned up drawings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:459
+msgid ""
+"In the Level Strip select the drawings you want to revert (see  "
+":ref:`Using the Level Strip <using_the_level_strip>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:461
+#: ../../source/cleaning-up_scanned_drawings.rst:527
+#: ../../source/cleaning-up_scanned_drawings.rst:537
+#: ../../source/cleaning-up_scanned_drawings.rst:612
+#: ../../source/cleaning-up_scanned_drawings.rst:636
+#: ../../source/cleaning-up_scanned_drawings.rst:644
+#: ../../source/cleaning-up_scanned_drawings.rst:652
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:463
+msgid "Choose Level  →  **Revert to Cleaned Up**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:465
+msgid ""
+"Right click the selection and choose Replace level  →  **Revert to "
+"Cleaned Up** from the menu that opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:471
+msgid "Cleaning up Drawings Directly in the Scene"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:472
+msgid "|progress|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:474
+msgid ""
+"When cleaning up drawings directly in the scene it is possible to perform"
+" a selection of drawings and process them with the current cleanup "
+"settings. In this case you can also manage the process frame by frame, as"
+" you are prompted to choose an action for each drawing of the selection."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:476
+msgid ""
+"You can also select non-consecutive drawings and drawings from different "
+"animation levels. Levels will be processed starting from the first "
+"selected column/layer, considering only exposed drawings according to "
+"their numbering order."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:478
+msgid ""
+"When a drawing is cleaned up, its cell color turns from *light blue* to "
+"*green*, the color denoting Toonz raster levels (see  :ref:`Working with "
+"Xsheet Columns <working_with_xsheet_columns>`  ). If you cleanup "
+"partially an animation level, the remaining cells where the level is "
+"exposed will have a double color (*green and blue*), to stress the fact "
+"that the level is partially processed."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:480
+msgid ""
+"When drawings belonging to partially processed levels are selected to be "
+"cleaned up, you are prompted whether to cleanup selected drawings "
+"overwriting the previous cleaned up version, or to add non-cleaned up "
+"frames to the existing level, or to delete the existing level and create "
+"a new level with the selected drawings only."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:482
+msgid ""
+"If you want you can also revert to the scanned version of the level you "
+"cleaned up by using the Level Settings dialog (see  :ref:`Editing Level "
+"Settings <editing_level_settings>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:484
+msgid ""
+"If you want to create a new TLV level from an already cleaned up level "
+"you can selet it and run the cleanup again. A questions pop up will "
+"appear and giving you the possibility to set a different name for the new"
+" TLV level by adding a suffix."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:486
+msgid "**To process the selection according to the chosen settings:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:488
+msgid "In the Xsheet/Timeline select the drawings you want to process."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:490
+msgid "Choose Scan & Cleanup  →  **Cleanup**."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:492
+msgid "In the Cleanup dialog for each drawing choose one of the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:494
+msgid "**Cleanup**: the current drawing will be cleaned up."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:496
+msgid ""
+"**Skip**: the current drawing will not be cleanup up and the dialog "
+"displays the next drawing."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:498
+msgid ""
+"**Cleanup All**: all the selected drawings will be cleaned up without "
+"further prompts."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:500
+msgid "**Cancel**: the cleanup process will be interrupted."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:502
+msgid "**To revert to the scanned version of a cleaned up level:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:504
+msgid "Select any drawing of the cleaned up level."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:506
+msgid "Choose Level  →  **Level Settings...**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:508
+msgid ""
+"Copy the **Scan Path:** information, and paste it in the **Path:** text "
+"field."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:514
+msgid "Cleaning up Drawings in Batch Mode"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:515
+msgid ""
+"The cleanup of drawings exposed in a scene can be added to a task list "
+"and performed in batch mode in order to run it in the background while "
+"you perform other work on your computer."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:517
+msgid ""
+"*Cleanup tasks* can be submitted from the OpenToonz browser and can be "
+"managed and executed in the Tasks pane, together with *render tasks* (see"
+" for  :ref:`Rendering Scenes in Batch Mode "
+"<rendering_scenes_in_batch_mode>`)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:519
+msgid "|tasks_cleanup|"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:521
+msgid ""
+"The **Tasks** pane is divided into two sections: on the left there is the"
+" task tree where all of the *cleanup tasks* are displayed with a brush "
+"icon and all of the *render tasks* with a clapboard icon; on the right "
+"there is information about the task selected in the tree."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:523
+msgid ""
+"The Task list can be saved as TNZBAT files and loaded back later in case "
+"you want to manage it through different working sessions."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:525
+msgid "**To save a task list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:529
+msgid ""
+"Click the **Save Task List** (|save|) or the **Save Task List As** button"
+" (|save_as|) in the bottom bar of the Tasks pane."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:531
+msgid ""
+"Right-click the **Tasks** item at the top of the list and choose **Save "
+"Task List** or the **Save Task List As** from the menu that opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:533
+msgid "Use the browser that opens to save the list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:535
+msgid "**To load a task list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:539
+msgid ""
+"Click the **Load Task List** button (|load|) in the bottom bar of the "
+"Tasks pane."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:541
+msgid ""
+"Right-click the **Tasks** item at the top of the list and choose **Load "
+"Task List** from the menu that opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:543
+msgid "Use the browser that opens to retrieve and load a previously saved list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:545
+msgid "**To resize the tasks pane sections:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:549
+msgid "Click and drag the separator to resize sections."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:551
+msgid "Click and drag the separator toward the window border to hide a section."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:553
+msgid ""
+"Click and drag the separator collapsed to the window border toward the "
+"window center to display again the hidden section."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:559
+msgid "Managing and Executing Cleanup Tasks"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:560
+msgid ""
+"When a *cleanup task* is selected in the tree, in the section on the "
+"right of the Tasks pane task-related properties are displayed, some of "
+"which can be edited to configure the task. Properties are the following:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:562
+msgid ""
+"**Name:**, displays the tasks name; it can be edited to better identify "
+"the task."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:564
+msgid ""
+"**Status:**, displays if the task is waiting, running, completed or "
+"failed."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:566
+msgid ""
+"**Command Line:**, displays the command line related to the task "
+"execution with arguments and qualifiers."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:568
+msgid "**Server:**, displays the computer that is running, or will run, the task."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:570
+msgid "**Submitted By:**, displays the user that submitted the task."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:572
+msgid ""
+"**Submitted On:**, displays the computer from where the task was "
+"submitted."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:574
+msgid "**Submission Date:**, displays when the task was submitted."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:576
+msgid "**Start Date:**, displays when the execution of the task started."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:578
+msgid ""
+"**Completion Date:**, displays when the execution of the task was "
+"completed."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:580
+msgid "**Duration:**, displays how long the execution lasted."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:582
+msgid "**Step Count:**, displays the number of frames rendered."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:584
+msgid ""
+"**Failed Steps:**, displays the number of frames that failed to be "
+"rendered."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:586
+msgid ""
+"**Successful Steps:**, displays the number of frames successfully "
+"rendered."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:588
+msgid ""
+"**Priority:**, sets the importance or urgency of the task: tasks with a "
+"higher priority will be executed first. This can be edited to change the "
+"priority of a task."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:590
+msgid ""
+"**Visible Only**, when activated, limits the cleanup process only to "
+"columns whose camera stand toggle (|camera_stand|) is on, that is to say "
+"whose content is visible (see :ref:`Working with Xsheet Columns "
+"<working_with_xsheet_columns>`)."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:592
+msgid ""
+"**Overwrite**, when activated, processes levels even if they are already "
+"available in the destination folder, overwriting them."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:594
+msgid ""
+"**Dependencies:**, lets you set which of the other submitted tasks have "
+"to be successfully completed before starting the current task execution: "
+"these tasks can be added from the box on the right where all submitted "
+"tasks are displayed."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:596
+msgid ""
+"Task execution can be started and stopped from the task list. If you are "
+"using the OpenToonz render farm, render tasks and sub-tasks will be "
+"distributed on the farm, one for each computer, so that several tasks can"
+" be executed at the same time (see  :ref:`Using the OpenToonz Farm "
+"<using_the_toonz_farm>`  )."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:598
+msgid ""
+"When the tasks are executed, the icon color tells the status of the task "
+"according to the following color code:"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:600
+msgid "*Grey*, when the task is *waiting* or is *not executed yet*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:602
+msgid "*Yellow*, when the task is *being executed*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:604
+msgid "*Green*, when the task was *successfully executed*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:606
+msgid "*Orange*, when the task was *executed with some errors*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:608
+msgid "*Red*, when the task *execution has failed*."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:610
+msgid "**To add scenes to cleanup in the task list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:614
+msgid ""
+"Click the **Add Cleanup Task** button (|add_cleanup|) in the bottom bar "
+"of the Tasks pane and use the browser to select a scene file."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:616
+msgid ""
+"Select the scenes in the OpenToonz Browser, then right-click any of them "
+"and choose **Add As Cleanup Task** from the menu that opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:618
+msgid "**To configure the cleanup task in the task list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:620
+msgid "Select the cleanup task in the task list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:622
+msgid "Configure it by using the options available on the right of the list."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:624
+msgid "**To select tasks in the task list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:628
+msgid "Click a task to select it."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:630
+msgid "Shift-click a task to extend the selection up to that task."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:632
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from"
+" the selection."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:634
+msgid "**To execute selected tasks:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:638
+msgid "Click the **Start** button (|start|) in the bottom bar of the pane."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:640
+msgid ""
+"Right-click any selected task icons and choose **Start** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:642
+msgid "**To stop the execution of selected tasks:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:646
+msgid "Click the **Stop** button (|stop|) in the bottom bar of the pane."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:648
+msgid ""
+"Right-click any selected task icon and choose **Stop** from the menu that"
+" opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:650
+msgid "**To remove selected tasks from the list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:654
+msgid ""
+"Click the **Remove** button (|remove|) in the bottom bar of the Tasks "
+"pane."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:656
+msgid ""
+"Right-click any selected task in the list and choose **Remove** from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:658
+msgid "**To add tasks to the Dependencies list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:660
+msgid "Select a task in the list on the right and click the **<< Add** button."
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:662
+msgid "**To remove tasks from the Dependencies list:**"
+msgstr ""
+
+#: ../../source/cleaning-up_scanned_drawings.rst:664
+msgid "Select a task in the list on the left and click the **Remove >>** button."
+msgstr ""
+

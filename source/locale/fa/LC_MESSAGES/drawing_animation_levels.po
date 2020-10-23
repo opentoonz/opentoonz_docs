@@ -1,0 +1,4015 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 23:49+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/drawing_animation_levels.rst:4
+#: ../../source/drawing_animation_levels.rst:42
+msgid "Drawing Animation Levels"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:5
+msgid ""
+"In OpenToonz it is possible to create and draw **Toonz Vector** levels "
+"(PLI format), **Toonz Raster** levels (TLV format) and standard "
+"**Raster** levels (TIF format) directly in the viewer. Drawing tools can "
+"also be used for touch-up in cleaned up drawings, and loaded raster "
+"images."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:10
+msgid "Drawing In OpenToonz"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:11
+msgid ""
+"To draw an animation level, first you have to define its type: Toonz "
+"Vector, Toonz Raster or Raster; and its settings like its name, the "
+"number of frames it's made of and the way its drawings are numbered."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:13
+msgid ""
+"Toonz Vector levels are defined by drawing of vector strokes; strokes and"
+" areas defined by strokes can be painted by using the styles available in"
+" the level palette. Toonz Vector levels have an unlimited size and "
+"resolution, as they are vector-based. They are saved as PLI files."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:15
+msgid ""
+"Toonz Raster levels are defined by drawing bitmap lines; lines and areas "
+"defined by lines can be painted by using the styles available in the "
+"level palette. Toonz Raster levels have a specified size and resolution, "
+"defined when they are created. They are saved as TLV files."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:17
+msgid ""
+"Raster levels are defined by drawing bitmap lines using the styles "
+"available in the **Raster Drawing Palette**, that is shared by all of the"
+" Raster levels of the same project (see  :ref:`Project Default Folders "
+"<project_default_folders>`  ). Raster levels have a specified size and "
+"resolution, defined when they are created. They are saved as sequences of"
+" individual TIF files, one per level frame."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:19
+msgid ""
+"When an animation level is defined, you can select any of its frames in "
+"the Xsheet/Timeline or in the Level Strip, and start drawing in the "
+"viewer. You can do this both, when you want to create a drawing from "
+"scratch, and when you want to edit a previously made drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:21
+msgid ""
+"When selected in the Xsheet/Timeline, the viewer displays the whole scene"
+" content at the current frame; when selected in the Level Strip, the "
+"viewer displays the selected frame of the current animation level only, "
+"to let you work more easily on it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:27
+msgid "Setting the Default Type of Level to Draw"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:28
+msgid ""
+"It's possible to define the default level type that will be created when "
+"you draw inside OpenToonz."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:30
+msgid ""
+"By default Toonz Vector and Toonz Raster levels are saved in the "
+"**+drawing** folder of the current project when the scene is saved, while"
+" Raster levels are saved in the **+extras** folder (see  :ref:`Project "
+"Default Folders <project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:32
+msgid "**To define the Default Type of Level to Draw:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:34
+msgid "Open File  →  Preferences  →  Drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:36
+msgid ""
+"Choose the level type you want to use as default from the **Default Level"
+" Type:** option menu. **Width**, **Height** and **DPI** fields are "
+"available for **Toonz Raster Level** and **Raster Level** options."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:38
+msgid ""
+"The Width, Height and DPI values set in the File  →  Preferences  →  "
+"Drawing section will also be used as default for the **New Level** "
+"dialog."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:43
+msgid "Animation levels can be created in the following ways:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:45
+msgid "Using the **New Level** dialog."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:47
+msgid "Setting the Autocreation option to **Enabled**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:49
+msgid "Setting the Autocreation option to **Use Xsheet as Animation Sheet**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:55
+msgid "Using the New Level Dialog"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:56
+msgid ""
+"New animation levels can be defined by using a dialog that lets you set "
+"the number of drawings the level is made of, the animation step used to "
+"expose the frames in the Xsheet/Timeline, and the increment, that sets "
+"the way the level drawings are numbered. For example, a **Step** 2 "
+"repeats each drawing twice in the Xsheet column or Timeline layer, while "
+"an **Increment** 2 will number its drawings as 1, 3, 5, etc. The dialog "
+"also allows you to choose a destination folder, different from the "
+"default one, by using the **Save In** field."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:58
+msgid ""
+"In case you define a Toonz Raster or a Raster level, you can set its "
+"**Width**, **Height** and **DPI** values, according to the way you want "
+"to use it in the scene."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:60
+msgid ""
+"Settings like the length of the level and the numbering order can be "
+"edited later, as you are free to arrange the images composing an "
+"animation level the way you prefer (see  :ref:`Editing Animation Levels "
+"<editing_animation_levels>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:62
+msgid ""
+"When a new level is created in an empty column, the color of that column "
+"header and the cells where the new level gets exposed are colored "
+"denoting the type of level: **light yellow** for Toonz Vector levels, "
+"**light green** for Toonz Raster levels, and **light blue** for Raster "
+"levels (see  :ref:`Working with Xsheet Columns "
+"<working_with_xsheet_columns>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:64
+msgid ""
+"The New Level dialog inherits the **Default Level Type** settings defined"
+" in Preferences  →  Drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:66
+msgid "**To create a new animation level to draw:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:68
+#: ../../source/drawing_animation_levels.rst:151
+#: ../../source/drawing_animation_levels.rst:169
+#: ../../source/drawing_animation_levels.rst:177
+#: ../../source/drawing_animation_levels.rst:187
+#: ../../source/drawing_animation_levels.rst:295
+#: ../../source/drawing_animation_levels.rst:444
+#: ../../source/drawing_animation_levels.rst:450
+#: ../../source/drawing_animation_levels.rst:456
+#: ../../source/drawing_animation_levels.rst:648
+#: ../../source/drawing_animation_levels.rst:725
+#: ../../source/drawing_animation_levels.rst:869
+#: ../../source/drawing_animation_levels.rst:962
+#: ../../source/drawing_animation_levels.rst:972
+#: ../../source/drawing_animation_levels.rst:980
+#: ../../source/drawing_animation_levels.rst:990
+#: ../../source/drawing_animation_levels.rst:1031
+#: ../../source/drawing_animation_levels.rst:1039
+#: ../../source/drawing_animation_levels.rst:1047
+#: ../../source/drawing_animation_levels.rst:1055
+#: ../../source/drawing_animation_levels.rst:1115
+#: ../../source/drawing_animation_levels.rst:1125
+#: ../../source/drawing_animation_levels.rst:1137
+#: ../../source/drawing_animation_levels.rst:1147
+#: ../../source/drawing_animation_levels.rst:1276
+#: ../../source/drawing_animation_levels.rst:1303
+#: ../../source/drawing_animation_levels.rst:1396
+#: ../../source/drawing_animation_levels.rst:1452
+#: ../../source/drawing_animation_levels.rst:1485
+#: ../../source/drawing_animation_levels.rst:1493
+#: ../../source/drawing_animation_levels.rst:1501
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:70
+msgid ""
+"Select a cell in the Xsheet/Timeline where you want to place your "
+"animation level and choose File  →  **New Level...**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:72
+msgid ""
+"Right-click the cell in the Xsheet/Timeline where you want to place your "
+"animation level and choose **New Level...** from the menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:74
+msgid ""
+"(If the Xsheet/Timeline toolbar is visible) Click any of the three **New "
+"Level buttons** at the leftmost part of it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:76
+msgid ""
+"Choose the type of level: Toonz Vector, Toonz Raster or Raster, from the "
+"**Type:** option menu and define its settings, then click the OK button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:78
+msgid ""
+"When using the Xsheet/Timeline's toolbar buttons to create a new level, "
+"the corresponding level type is already preselected in the dialog's "
+"dropdown menu."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:80
+msgid ""
+"If a level is already exposed in the cell column, the new level will be "
+"created in an empty column."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:82
+msgid "**To define the saving location for the level you want to draw:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:84
+msgid ""
+"In the **New Level** dialog type in the **Save In:** field, or use the "
+"**Browser button**, to set the path for the saving location."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:86
+msgid ""
+"If in the browser you choose any project folder, in the path field the "
+"full path will be replaced by the correspondent *folder alias* (see  "
+":ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:92
+msgid "Using the Autocreation Option"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:93
+msgid ""
+"When in Preferences  →  Drawing the **Autocreation:** option is set to "
+"**Enabled**, it is possible to create new drawings automatically by using"
+" drawing tools in the viewer. If the currently selected cell is empty, a "
+"new level will be automatically created and named with the first "
+"available letter of the alphabet; if the currently selected cell is the "
+"one **right after** one containing a level drawing (either in the "
+"Xsheet/Timeline or the Level Strip) a new drawing will be added to that "
+"level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:95
+#: ../../source/drawing_animation_levels.rst:112
+msgid ""
+"The level type will be the one defined in Preferences  →  Drawing as "
+"**Default Level Type**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:101
+msgid "Using the Xsheet as Animation Sheet"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:102
+msgid ""
+"When in Preferences  →  Drawing the **Autocreation:** option is set to "
+"**Use the Xsheet as Animation Sheet**, it's possible to create new "
+"drawings automatically by using drawing tools in the viewer. If the "
+"currently selected cell is empty and belongs to an empty column, a new "
+"level will be automatically created and named with the first available "
+"letter of the alphabet; if the currently selected cell is **anywhere "
+"after** one containing a level drawing, a new drawing will be added to "
+"that level. In both cases the drawings will take its number from the "
+"scene current frame ; if that drawing number already existed in the "
+"level, a letter will be added to its number (e.g. A.0001a.ext)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:104
+msgid ""
+"This working method allows you to work as a traditional animator: you can"
+" start creating the *key drawings*, and then add *breakdown drawings*, "
+"and then *inbetween drawings*. You can quickly check your animation "
+"flipping it in the viewer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:106
+msgid ""
+"When you add a new drawing it will be repeated as a *hold* along the "
+"column/layer up to the following one."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:108
+msgid ""
+"It's also possible to create a new drawing in a cell that contains a "
+"*hold*: the new drawing will replace the hold up to the following "
+"drawing. Drawings can also be duplicated creating a copy with a different"
+" number."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:110
+msgid ""
+"Once the animation is completed you can renumber the whole sequence "
+"according to the Xsheet/Timeline frame numbering."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:114
+msgid "**To create a new animation level**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:116
+msgid ""
+"Click an empty cell in the Xsheet/Timeline and start drawing using a "
+"drawing tool in the viewer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:118
+msgid "**To add a drawing to an existing level**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:120
+msgid ""
+"Click an empty cell in the column/layer containing the existing level and"
+" start drawing using a drawing tool in the viewer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:122
+msgid "**To automatically renumber the drawings**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:124
+msgid "Select the cells with the drawings you want to renumber."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:126
+msgid "Choose the Cells  →  **Autorenumber** command."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:128
+msgid ""
+"The **Autorenumber** command is also available in the menu that opens "
+"when right-clicking in a cell."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:134
+msgid "Using the Viewer"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:135
+msgid ""
+"In the viewer, it's possible to use the tools available in the toolbar to"
+" draw, paint, edit and model drawings. The work area of the viewer is "
+"endless and you can scroll, zoom in, zoom out and rotate it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:137
+msgid ""
+"In the title bar you can find information about what is currently "
+"displayed and selected, the zoom percentage, and a set of buttons that "
+"lets you set the view mode (see  :ref:`Using the Viewer "
+"<using_the_viewer>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:139
+msgid ""
+"At the bottom of the viewer another customizable set of buttons is "
+"available."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:141
+msgid ""
+"The frame bar and the playback buttons let you set the current frame and "
+"move through animation frames. The set frame rate is visualized, and, in "
+"case the playback is activated, the actual frame rate is displayed on its"
+" left."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:143
+msgid ""
+"The other buttons are relevant only using the Animate tool (|animate|) to"
+" animate objects and when previewing the animation in the viewer (see "
+":ref:`Animating Objects <animating_objects>` and :ref:`Previewing the "
+"Animation <previewing_the_animation>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:145
+msgid ""
+"If the bottom bar is too short to display all the options, it can be "
+"scrolled by using arrow buttons available at its ends."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:147
+msgid ""
+"In case a frame range is defined by playback markers, the playback "
+"buttons operate on the defined range only (see  :ref:`Using the Playback "
+"Markers <using_the_playback_markers>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:149
+msgid "**To navigate the work area:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:153
+msgid ""
+"Use the **Zoom** tool (|zoom|): to zoom in, click and drag up; to zoom "
+"out, click and drag down. The point where you click is the center of the "
+"zooming action."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:155
+msgid ""
+"Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom "
+"out at specific steps (e.g. 50%, 100%, 200%, etc.)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:157
+msgid "Use the mouse wheel to zoom in and zoom out."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:159
+msgid ""
+"Middle-click and drag or use the **Hand** tool (|hand|) to scroll in any "
+"direction."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:161
+msgid ""
+"Use the **Rotate** tool (|rotate|) to rotate the viewer: an *horizon "
+"line* is displayed to let you understand the amount of rotation; the "
+"center of rotation is the absolute center of the work area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:163
+msgid ""
+"Use the reset view shortcut (by default the **Alt + 0** key) or right-"
+"click in the viewer and select **Reset View** from the menu that opens, "
+"to display the viewer at its actual size, centered on the absolute center"
+" with no rotation applied."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:165
+msgid ""
+"Right-click and choose **Fit to Window** to automatically zoom the viewer"
+" so that it fits the camera box."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:167
+msgid "**To play the scene contents back:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:171
+msgid "Use the **Play** button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:173
+#: ../../source/drawing_animation_levels.rst:181
+msgid "Drag the frame bar cursor."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:175
+msgid "**To set the current frame:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:179
+msgid "Use the playback buttons."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:183
+msgid ""
+"Type in the **Current Frame** field the number of the frame you want to "
+"view."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:185
+msgid "**To set the playback frame rate:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:189
+msgid "Enter a value in the **FPS** field."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:191
+msgid "Use the frame rate slider."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:197
+msgid "Adjusting the Viewer Visualization"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:198
+msgid ""
+"The way the viewer visualizes the scene content can be adjusted according"
+" to the task to perform."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:200
+msgid ""
+"**Full Screen** mode can be entered to maximize the viewer to the monitor"
+" screen, hiding any interface window border. This is available only on "
+"the Windows platform."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:202
+msgid ""
+"Vector drawings, that can slow down the visualization performance when "
+"used in large amounts in a scene, can be visualized as raster drawings, "
+"faster to visualize, still preserving their vector nature, by using the "
+"**Visualize Vector As Raster** option."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:204
+msgid ""
+"If the current level is vector-based, it will still be displayed as "
+"vector to allow any drawing/editing operation you may perform."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:206
+msgid ""
+"Raster drawings and images that usually are displayed in the viewer "
+"according to their DPI value, can be displayed at their actual pixel "
+"size, that is to say that one pixel from the image is displayed as one "
+"pixel of the screen monitor, to better examine them."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:208
+msgid ""
+"Visualizing an image at its actual pixel size is different from zooming "
+"in because zooming always takes into account the image DPI information."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:210
+msgid "**Windows only - To enter the viewer full screen mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:212
+msgid ""
+"Right-click the viewer and choose **Full Screen Mode** from the menu that"
+" opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:214
+msgid "**Windows only - To exit the viewer full screen mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:216
+msgid ""
+"Right-click the viewer and choose **Exit Full Screen Mode** from the menu"
+" that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:218
+msgid ""
+"**To activate or deactivate the raster visualization for vector "
+"drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:220
+msgid "Activate or deactivate the View  →  **Visualize Vector As Raster** option."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:222
+msgid "**To display raster drawings and images at their actual pixel size:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:224
+msgid ""
+"In the Xsheet/Timeline select the level to which the drawing or image "
+"belongs so that it becomes the current level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:226
+msgid ""
+"Select the drawing or image in the Level Strip in order to display it "
+"alone."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:228
+msgid ""
+"Use the Actual Pixel Size shortcut (by default the **N** key) or right-"
+"click in the viewer and choose **Actual Pixel Size** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:234
+msgid "Customizing the Viewer"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:235
+msgid ""
+"The Viewer can be customized according to your needs: the background "
+"colors visible in the Viewer and inside the camera box can be changed; a "
+"Field Guide and a Safe Area can be displayed for reference; the Table and"
+" Camera Box can be hidden; Custom Guides can be added to help you in "
+"aligning objects or composing the elements of the scene for a particular "
+"frame. The View  →  **Inks Only** check allows to hide the painted areas "
+"of the levels, facilitating the drawing process."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:237
+msgid ""
+"The set of buttons and information available in the bottom bar of the "
+"Viewer can be customized as well, so that only the elements you require "
+"are visible."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:239
+msgid "**To change the Viewer Background color:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:241
+msgid "Open the File  →  Preferences  →  **Colors** dialog."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:243
+msgid "Define the **Viewer BG Color** by doing one of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:245
+msgid "Set the Red, Green and Blue values."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:247
+#: ../../source/drawing_animation_levels.rst:257
+msgid ""
+"Click the color thumbnail and use the **Style Editor** to edit it (see  "
+":ref:`Plain Colors <plain_colors>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:249
+msgid "**To change the Camera Box Background color:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:251
+#: ../../source/drawing_animation_levels.rst:277
+msgid "Open the Xsheet  →  **Scene Settings...** dialog."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:253
+msgid "Define the **Camera BG Color** by doing one of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:255
+msgid "Set the Red, Green, Blue and Alpha values."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:259
+msgid "**To show or hide the Table:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:261
+msgid "Choose View  →  **Table** to show or hide the table."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:263
+msgid "**To show or hide the Camera Box:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:265
+msgid "Choose View  →  **Camera Box** to show or hide the camera box."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:267
+msgid "**To show or hide the Camera Background color:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:269
+msgid ""
+"Choose View  →  **Camera BG Color** to show or hide the camera box "
+"background color."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:271
+msgid "**To show or hide the Field Guide:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:273
+msgid "Choose View  →  **Field Guide** to show or hide the field guide."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:275
+msgid "**To define the displayed Field Guide:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:279
+msgid ""
+"Define the **Field Guide Size:** and **A/R:**. **Size** is the number of "
+"width fields of the field guide (1 field is equal to 1 inch), and the "
+"**A/R** is the ratio between the field guide width and height."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:281
+msgid "**To show or hide the Safe Area:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:283
+msgid "Choose View  →  **Safe Area** to show or hide the safe area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:285
+msgid "**To add a Custom Guide:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:287
+msgid ""
+"Click in the ruler: a click in the horizontal ruler will create a "
+"vertical guide, a click in the vertical ruler will create an horizontal "
+"guide."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:289
+msgid "**To move a Custom Guide:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:291
+msgid "Drag the custom guide marker in the ruler."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:293
+msgid "**To delete a Custom Guide:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:297
+msgid "Right-click on the guide marker in the ruler."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:299
+msgid ""
+"Drag its marker outside of the Viewer, in the opposite direction of the "
+"guide itself."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:301
+msgid "**To show or hide Custom Guides:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:303
+msgid "Choose View  →  **Guides** to show or hide the guides."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:305
+msgid "**To show or hide the Rulers where Custom Guide markers are located:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:307
+msgid "Choose View  →  **Rulers** to show or hide the rulers."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:309
+msgid ""
+"When the Viewer work area is rotated, guides are rotated as well, but "
+"rulers and guide markers will preserve their position and orientation. "
+"However the position of a guide will still be controlled by markers, even"
+" if they visually don’t match anymore."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:311
+msgid "**To customize the set of buttons in the bottom bar of the viewer:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:313
+msgid ""
+"Click the option button (|option|) on the far left of the bottom area, "
+"and select the elements to show, or deselect those to hide, in the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:319
+msgid "Drawing Tools"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:320
+msgid ""
+"You can draw by using the **Brush** (|brush|) and **Geometric** "
+"(|geometric|) tools. For both tools you can set the thickness of the line"
+" you are going to draw: values range from 0 to 100 for Toonz Vector "
+"levels, and from 1 to 100 for Toonz Raster and Raster levels."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:322
+msgid ""
+"For Toonz Raster and Raster levels it's possible to set a Brush tool size"
+" higher than 100 by typing it in the Size value fields."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:324
+msgid ""
+"**Min** and **Max Size/Thickness** can be modified by either of these "
+"methods:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:326
+msgid ""
+"Pressing **Ctrl + Alt** and moving the mouse. *Moving horizontally* "
+"changes the **Max** value, while *moving vertically* changes the **Min** "
+"value."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:328
+msgid ""
+"Using the predefined keyboard shortcuts. **U** and **I** for respectively"
+" decreasing and increasing the **Max** value, or **H** and **J** for "
+"respectively decreasing and increasing the **Min** value."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:330
+msgid ""
+"With the **Brush** tool (|brush|), you can take full advantage of the "
+"pressure sensitivity if you are using a pressure sensitive tablet. The "
+"more you press on the tablet, the thicker the line you draw."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:332
+msgid ""
+"With the **Geometric** tool (|geometric|), the thickness value is "
+"constantly applied to the whole shape you draw."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:334
+msgid ""
+"When creating vector drawings the size/thickness can also be set to 0 "
+"(zero): in this case vector strokes will only exist as a wireframe even "
+"if you zoom in or zoom out, and they will be not visible when the "
+"animation is rendered."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:336
+msgid ""
+"For vector drawings, line thickness can be changed and tweaked afterwards"
+" by using other tools (see  :ref:`Editing Drawings <editing_drawings>`  "
+")."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:342
+msgid "Drawing with the Brush Tool"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:343
+msgid ""
+"The **Brush** tool (|brush|) allows you to draw freehand lines with the "
+"current style."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:345
+msgid ""
+"When using a pressure sensitive tablet, and the **Pressure** option is "
+"activated, varying the pressure of the pen on the tablet will allow you "
+"to create variable-thickness lines that will make your drawings more "
+"expressive."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:347
+msgid ""
+"When using the **Brush** tool (|brush|) on Toonz Raster and Raster "
+"drawings, the cursor displays the exact pixel area that will be affected "
+"by the brush: the inner jagged circle representing the **Minimum Size**, "
+"and the outer one the **Maximum Size** of the brush."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:349
+#: ../../source/drawing_animation_levels.rst:398
+#: ../../source/drawing_animation_levels.rst:485
+#: ../../source/drawing_animation_levels.rst:520
+#: ../../source/drawing_animation_levels.rst:740
+msgid "In the tool options bar you can set the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:351
+msgid ""
+"**Size Min** and **Max** sets the size of the brush; the size will vary "
+"between the two values if you're using a pressure sensitive tablet. If "
+"the two values are the same, your lines will have a constant thickness. "
+"When using a mouse to draw, the **Maximum** thickness value will be used."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:353
+msgid ""
+"**Accuracy** sets how accurate the generated line is compared to what you"
+" draw with the mouse or tablet pen: a high value will generate lines that"
+" completely preserves the movement you perform (even a trembling hand); a"
+" low value will simplify the line. This is available for Toonz Vector "
+"drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:355
+msgid ""
+"**Smooth** allows for stroke stabilization while drawing. This is "
+"available for Toonz Vector and Toonz Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:357
+msgid ""
+"**Hardness** sets the amount of antialiasing along the line border. This "
+"is available for Toonz Raster and Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:359
+msgid ""
+"**Opacity Min** and **Max** sets the opacity of the brush; the opacity "
+"will vary between the two values if you're using a pressure sensitive "
+"tablet. Overlapping areas are not considered while drawing a single line,"
+" but only when different lines are overlapping. This is available for "
+"Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:361
+msgid ""
+"**Break** automatically breaks the drawn stroke into sections, if very "
+"sharp angles are drawn: in this way, drawn shapes may result simpler and "
+"easier to fill. This is available for Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:363
+msgid ""
+"**Draw Order** allows to choose how new drawings will be ordered with "
+"respect to already drawn lines. The options are: **Over All**, **Under "
+"All** and **Palette Order**. When using **Palette Order** new lines will "
+"be drawn above or below already existing ones, using the relative indexes"
+" of the palette Styles as the sorting factor. This is available for Toonz"
+" Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:365
+msgid ""
+"**Pencil** mode draws lines without antialiasing, that is with jagged "
+"edges. This is available for Toonz Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:367
+msgid ""
+"**Pressure** detects, in case you are using a graphic tablet, the "
+"pressure of the pen on the tablet, allowing the creation of variable-"
+"thickness lines."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:369
+msgid ""
+"**Range** allows for the automatic creation of a series of in-between "
+"strokes, by drawing just the extremes of the animation on subsequent "
+"frames of a level, in the Level Strip, or subsequent exposed cells of a "
+"level in the Xsheet/Timeline. By pressing **Ctrl** key, you can draw "
+"intermediate strokes to form a more complex animation sequence. This "
+"method is similar to the one used by the **Inbetween** command (see  "
+":ref:`Using the In-betweener with Vector Drawings <using_the_in-"
+"betweener_with_vector_drawings>`  ). This is available for Toonz Vector "
+"drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:371
+msgid ""
+"**Snap** allows for the snapping of the cursor to other already drawn "
+"strokes of the same level, while drawing a new stroke. It has three "
+"levels of sensitivity: **Low**, **Med** and **High**. This is available "
+"for Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:373
+msgid ""
+"**Preset:** let you choose a brush preset in the option menu on the "
+"right. You can add or remove a preset clicking the **+** and **-** "
+"buttons. A presets list is created *for each level type* and each added "
+"preset will be available for next use."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:375
+msgid ""
+"**Cap** option sets the shape of the ends of the stroke you are going to "
+"draw. Options are **Butt** for squared ends, **Round** for semicircular "
+"ends, and **Projecting** for squared ends extending beyond the end of the"
+" line, according to the vector thickness. This is available for Toonz "
+"Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:377
+msgid ""
+"**Join** option sets the shape of the straight corners along the stroke "
+"you are going to draw. Options are **Miter** for pointed corners, "
+"**Round** for rounded corners, **Bevel** for squared corner. This is "
+"available for Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:379
+msgid ""
+"**Miter:** sets the maximum length of a miter join, that is computed "
+"multiplying the miter value by the stroke thickness. If the length "
+"exceeds the maximum value, the *Miter* join is turned into a *Bevel* "
+"join. This is available for Toonz Vector drawings only, and only if the "
+"**Join** option is set to miter."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:381
+#: ../../source/drawing_animation_levels.rst:424
+#: ../../source/drawing_animation_levels.rst:540
+msgid ""
+"If the tool options bar is too short to display all the tool options, it "
+"can be scrolled by using arrow buttons available at its ends."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:383
+msgid "**To add a new brush preset:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:385
+msgid "Click the **+** button on the right of the presets list."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:387
+msgid "**To remove a new brush preset:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:389
+msgid "Click the **-** button on the right of the presets list."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:395
+msgid "Drawing with the Geometric Tool"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:396
+msgid ""
+"The **Geometric** tool (|geometric|) allows you to draw rectangles, "
+"circles, ellipses, regular polygons, polylines and arcs."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:400
+msgid ""
+"**Thickness** sets the size of the brush used to draw the geometric "
+"shapes."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:402
+msgid ""
+"**Hardness** sets the amount of antialiasing along the shape border. This"
+" is available for Toonz Raster and Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:404
+msgid ""
+"**Opacity** sets the opacity of the shape border. Overlapping areas are "
+"not considered while drawing over the same shape, but only when different"
+" shapes are overlapping. This is available for Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:406
+msgid ""
+"**Shape:** sets the type of shape you want to draw. Available options "
+"are: Rectangle, Circle, Ellipse, Line, Polyline, Arc and Polygon. In case"
+" you want to draw a **Polygon**, the **Polygon Sides:** lets you set the "
+"number of sides."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:408
+msgid ""
+"**Auto Group** automatically defines any drawn closed shape (i.e. "
+"rectangles, circles, ellipses, polygons and closed polylines) as a group,"
+" *thus creating a new layer that is placed in front of the other drawing "
+"vectors*, without intersecting them (see  :ref:`Grouping and Ungrouping "
+"Vectors <grouping_and_ungrouping_vectors>`  ). This is available for "
+"Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:410
+msgid ""
+"**Auto Fill** automatically paints the area defined by any drawn closed "
+"shape (i.e. rectangles, circles, ellipses, polygons and closed polylines)"
+" with the same style used for drawing. This is available for Toonz Vector"
+" drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:412
+msgid ""
+"**Snap** allows for the snapping of the cursor to other already drawn "
+"strokes of the same level, while drawing the shape. It has three levels "
+"of sensitivity: **Low**, **Med** and **High**. This is available for "
+"Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:414
+msgid ""
+"**Selective** allows the drawing operations not to affect already drawn "
+"lines. This is available for Toonz Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:416
+msgid ""
+"**Pencil** mode draws geometric shapes without antialiasing, that is with"
+" jagged edges. This is available for Toonz Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:418
+msgid ""
+"**Cap** option sets the shape of the ends of open shapes you are going to"
+" draw. Options are **Butt** for squared ends, **Round** for semicircular "
+"ends, and **Projecting** for squared ends extending beyond the end of the"
+" line, according to the vector thickness. This is available for Toonz "
+"Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:420
+msgid ""
+"**Join** option sets the shape of the straight corners along the shapes "
+"you are going to draw. Options are **Miter** for pointed corners, "
+"**Round** for rounded corners, **Bevel** for squared corner. This is "
+"available for Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:422
+msgid ""
+"**Miter:** sets the maximum length of a miter join, that is computed "
+"multiplying the miter value by the stroke thickness. If the length "
+"exceeds the maximum value, the *Miter* join is turned into a *Bevel* "
+"join. This is available for Toonz Vector levels only, and only if the "
+"**Join** option is set to **Miter**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:426
+msgid ""
+"While **Rectangles** and **Ellipses** are defined by a (bounding) box, "
+"**Circles** and **Polygons** are defined by a center and radius; "
+"**Polylines** can be used to create open or closed shapes by defining a "
+"series of lines; **Arcs** let you set the end points of a curve, and then"
+" the bend."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:428
+msgid "**To draw a rectangle or an ellipse:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:430
+msgid ""
+"Click to define the upper left corner, drag, and release to define the "
+"bottom right corner. If you press the **Shift** key while dragging, the "
+"shape will be regular, i.e. a square or a circle; if you press the "
+"**Alt** key, shapes will be drawn starting from their center. It's "
+"possible to press both keys at the same time."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:432
+msgid "**To draw a circle:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:434
+msgid "Click to define the center, drag and release to define the radius."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:436
+msgid "**To draw a polygon:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:438
+msgid "Set the number of sides in the **Polygon Sides:** field."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:440
+msgid ""
+"Click to define the center, drag and release to define the radius of a "
+"circle bounding the polygon."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:442
+msgid "**To draw a polyline:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:446
+msgid "**Click** to define the first point as a corner point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:448
+msgid ""
+"**Click and drag** to define the first point as a control point; while "
+"dragging you can set the control point handles."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:452
+msgid ""
+"**Click** to define the end point of the line as a corner point. If you "
+"press the **Shift** key, you will draw a vertical, horizontal or 45° "
+"line."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:454
+msgid ""
+"**Click and drag** to define the end point of the line as a control "
+"point; while dragging you can set the control point handles."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:458
+msgid ""
+"**Click** or **click and drag** again to define the end point of another "
+"line connected to the end point of the previous line."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:460
+msgid "**Double click** to define the last point of an open shape."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:462
+msgid ""
+"**Click** or **click and drag** again on the first point you defined to "
+"draw a closed shape."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:464
+msgid "Press the **Ctrl** key to add a linear point after a Nonlinear one."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:466
+msgid "Press the **ESC** key to cancel the creation of the polyline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:468
+msgid "**To draw an arc:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:470
+msgid "Click to define the first end point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:472
+msgid "Click to define the second endpoint."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:474
+msgid "Drag to set the bend, and click to draw the arc."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:480
+msgid "Adding Text"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:481
+msgid "Text can be added by using the **Type** tool (|type|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:483
+msgid ""
+"It is also possible to work with editable and animatable text in "
+"OpenToonz through the use of the **Text Iwa** effect. For more "
+"information, please see  :ref:`Text Iwa <text_iwa>`  ."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:487
+msgid ""
+"**Font:** to be used, taken from a list based on the Operating System "
+"default fonts folder."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:489
+msgid "**Style:**, for the chosen font."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:491
+msgid "**Size:**, for the chosen font."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:493
+msgid ""
+"Already written text can be resized by using the **Selection** tool "
+"(|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:495
+msgid ""
+"**Vertical Orientation**, lets you place the text vertically, one letter "
+"under another, instead of horizontally."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:497
+msgid ""
+"The *current* palette Style is applied to the text you type. The palette "
+"style can be changed while typing text, thus you can have characters with"
+" different styles in the same text editing session (see  :ref:`Editing "
+"Styles <editing_styles>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:499
+msgid ""
+"For vector levels, as soon as the text is committed, it's converted into "
+"vector outlines, and can no longer be edited as text."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:501
+msgid "**To add text:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:503
+msgid ""
+"Select the **Type** tool (|type|) and click in the viewer where you want "
+"to start writing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:505
+msgid ""
+"Choose options **Font**, **Style**, **Size** and **Vertical "
+"Orientation**. These options can be changed as long as you are in text "
+"editing mode."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:507
+msgid ""
+"Change the current color Style in the palette, if you want to use more "
+"than one style in the same text editing session."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:509
+msgid "Click inside the text editing area to change the text insertion point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:511
+msgid ""
+"Click outside the text editing area, or select a different tool, to "
+"commit the text."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:517
+msgid "Using the Eraser"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:518
+msgid ""
+"The **Eraser** tool (|eraser|) allows you to partially erase lines, both "
+"in vector and raster drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:522
+msgid "**Size** sets the eraser size."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:524
+msgid ""
+"**Hardness** sets the amount of antialiasing along the eraser border. "
+"This is available for Toonz Raster and Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:526
+msgid ""
+"**Opacity** set the opacity of the eraser; passing twice on an area is "
+"not considered while performing a single erasing operation, but only when"
+" performing different erasing operations. This is available for Raster "
+"drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:528
+msgid ""
+"**Type:** has the options **Normal**, to use the standard eraser; "
+"**Rectangular**, to perform the erasing inside the box you define; "
+"**Freehand**, to perform the erasing inside the area you outline by "
+"clicking and dragging; and **Polyline**, to perform the erasing inside "
+"the area you outline by defining a series of lines. In vector drawings, a"
+" stroke is erased only if it is fully included in the area you define."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:530
+msgid ""
+"**Mode:** has the options **Areas**, to erase only areas, **Lines**, to "
+"erase only the drawing outline, and **Lines & Areas**, to perform both "
+"the operations. This is available only for Toonz Raster drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:532
+msgid ""
+"**Selective** allows you to erase only lines or areas made with the "
+"current style. This is available only for Toonz Vector and Toonz Raster "
+"drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:534
+msgid ""
+"**Invert** performs the erasing on the outside of the area defined with "
+"the Rectangular, Freehand or Polyline options. In vector drawings, a "
+"stroke is erased only if it is fully outside of the area you define."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:536
+msgid ""
+"**Frame Range** allows you to perform Rectangular, Freehand and Polyline "
+"erasing on a range of frames, by defining an area in the first and then "
+"in the last frame of the range."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:538
+msgid ""
+"**Pencil** mode erases lines without antialiasing, that is with jagged "
+"edges. This is available for Toonz Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:542
+msgid ""
+"The **Eraser** tool (|eraser|) can be automatically selected by *using "
+"the eraser of the tablet pen*."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:548
+msgid "Converting Raster Drawings to Vectors"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:549
+msgid ""
+"Scanned drawings and raster ones, i.e. drawings not based on vectors, can"
+" be converted into Toonz Vector levels."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:551
+msgid ""
+"Two main conversion modes are available: **Centerline** and **Outline**. "
+"The choice between the two modes depends on which conversion best fits "
+"your needs."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:553
+msgid ""
+"In **Centerline** mode a *single vector stroke with a variable thickness*"
+" is generated for each line in the drawing. This means that the converted"
+" drawing can be edited like vector-based drawings made directly in "
+"OpenToonz, for example you can change the bend of a stroke with the "
+"**Pinch** (|pinch|) or **Control Point Editor** tools, and the thickness "
+"with the **Pump** tool (|pump|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:555
+msgid ""
+"In **Outline** mode *two vector strokes* are generated to define each "
+"line in the drawing, and areas filled with different colors are separated"
+" by a stroke. This means that, for example, to change the bend of a line "
+"you have to change the bend of the two strokes defining it, and to change"
+" the thickness you have to model one or both strokes defining it. *The "
+"thickness of all the strokes is set to 0, so that they won’t be visible "
+"in the final render*."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:557
+msgid ""
+"Parameters that are not considered necessary by the user can be hidden "
+"using the **Options** button (|option|) at the bottom right of the "
+"**Convert To vector Pop Up**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:560
+msgid "In **Outline** mode the following settings are available:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:562
+msgid ""
+"**Accuracy** sets how much the vector strokes will follow the shape of "
+"the original drawing lines. High values create more precise strokes, but "
+"makes them more complex."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:564
+msgid ""
+"**Despeckling** removes small spots or marks from the converted images. "
+"Its value expresses the size in pixels of the maximum area that has to be"
+" removed."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:566
+msgid ""
+"**Preserve Painted Areas**, when activated, includes all the colors in "
+"the converted level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:568
+msgid "**Adherence** sets how much smooth curves bend toward full corners."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:570
+msgid ""
+"**Angle** sets the angular threshold below which full corners are "
+"inserted in the image"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:572
+msgid ""
+"**Curve Radius** sets the measure of a curve's radius below which it is "
+"replaced by a smooth corner"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:574
+msgid ""
+"**Max Colors** defines the maximum number of colors that are considered "
+"in the Raster image and used in the vector one. The value has to be set "
+"taking care of the real number of colors used in the Raster image. High "
+"values increase the time needed for the conversion. This is relevant for "
+"Raster levels only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:576
+msgid ""
+"**Transparent Color** defines the color that has to be set as the "
+"transparent background of the resulting vector level. This is relevant "
+"for Raster levels only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:578
+msgid ""
+"**Tone Threshold** sets the value of the darkest pixels to be taken into "
+"account to detect lines to be converted to vector; for low values only "
+"the darkest pixels are considered thus resulting in thinner lines; for "
+"high values lighter pixels are considered too, thus resulting in thicker "
+"lines. This is relevant for Toonz Raster levels only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:581
+msgid "In **Centerline** mode the following settings are available:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:583
+msgid ""
+"**Threshold** sets the value of the darkest pixels to be taken into "
+"account to detect lines to be converted to vector strokes; for low values"
+" only the darkest pixels are considered thus resulting in thinner "
+"strokes; for high values lighter pixels are considered too, thus "
+"resulting in thicker strokes. For Toonz Raster levels (TLV files) the "
+"process examines only pixels belonging to the lines; for Raster levels it"
+" examines pixels of the whole image."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:585
+msgid ""
+"**Accuracy** sets how much the vector stroke will follow the shape of the"
+" original drawing lines. High values create more precise strokes but "
+"makes them more complex."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:587
+msgid ""
+"**Despeckling** ignores during the conversion small areas generated by "
+"the image noise; the higher the value, the larger the areas ignored."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:589
+msgid ""
+"**Max Thickness** sets the maximum vector stroke thickness; if this value"
+" is low very thick lines will be converted in two centerline strokes "
+"defining the line outline; if this value is high, they will be converted "
+"in a single centerline stroke."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:591
+msgid ""
+"**Thickness Calibration Start:** and **End:** calibrates the vector "
+"stroke thickness defined according to the **Threshold** value; a low "
+"value will reduce the stroke thickness preserving its integrity. A "
+"different value inserted in the **Start** / **End** field determines an "
+"animation of the thickness along the length of the level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:593
+msgid ""
+"**Preserve Painted Areas**, when activated, preserves all painted areas "
+"in Toonz Raster levels (TLV files) and all the areas painted with colors "
+"different from the line color in Raster levels."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:595
+msgid ""
+"**Add Border** adds a vector stroke along the image border in order to "
+"detect also areas bleeding off the image edge."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:597
+msgid ""
+"**Enhanced ink recognition**, when activated, allows to vectorize Raster "
+"images (such as TGA, TIF, PNG etc...) without antialiasing along the "
+"lines. An heuristic is used to recognize lines and painted areas creating"
+" a PLI level, where the lines are seen as ink and the painted areas as "
+"paint."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:599
+msgid ""
+"It's possible to select the images or the level frames that have to be "
+"converted directly in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:601
+msgid ""
+"When a conversion is performed, a new level is created according to the "
+"selection you made, and exposed in the Xsheet/Timeline in the next "
+"column/layer to that containing the source level. The new file will have "
+"the same name of the starting one, but with a PLI extension, and a “v” "
+"suffix, and is saved in the **+drawings** default folder."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:603
+msgid ""
+"In case a PLI level with the same name already exists, the name of the "
+"new file will be followed by a progressive number."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:605
+msgid "**To convert raster drawings into vectors:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:607
+msgid "Select the level frames to convert in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:609
+msgid "Choose Level  →  **Convert to Vectors...**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:611
+msgid "In the dialog set parameters for the conversion."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:613
+msgid "Click the **Convert** button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:619
+msgid "Checking the Convert to Vectors Process"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:620
+msgid ""
+"At the bottom of the **Convert-to-Vectors Settings** window a preview "
+"area is available to display the drawing selected in the Xsheet/Timeline,"
+" as it will be after the conversion according to the defined settings. At"
+" the same time it allows you to compare the final result with the "
+"original Raster drawing that is displayed on the left side, and to "
+"highlight the vector strokes structure by clicking the **Centerlines "
+"Check** button (|check|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:622
+msgid "You can activate or deactivate it, resize it or navigate its content."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:624
+msgid ""
+"If you change any parameter in the **Convert-to-Vector Settings**, the "
+"previewed drawing automatically updates to display how the changes affect"
+" the result."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:626
+msgid "**To activate the preview area:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:628
+msgid "In the Xsheet/Timeline select the drawing you want to preview."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:630
+#: ../../source/drawing_animation_levels.rst:634
+msgid ""
+"Click the **Preview** button (|preview|) in the bottom bar of the "
+"Convert-to-Vector Settings window."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:632
+msgid "**To deactivate the preview area:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:636
+msgid "**To resize the preview area:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:638
+#: ../../source/drawing_animation_levels.rst:1093
+#: ../../source/drawing_animation_levels.rst:1523
+#: ../../source/drawing_animation_levels.rst:1558
+msgid "Do any of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:640
+msgid "Click and drag the horizontal separator."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:642
+msgid ""
+"Click and drag the separator toward the window border to hide the preview"
+" area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:644
+msgid ""
+"Click and drag the separator collapsed to the window border toward the "
+"window center to display again the preview area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:646
+msgid "**To navigate the preview area:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:650
+msgid ""
+"Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) "
+"to zoom in and zoom out."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:652
+msgid "Middle-click and drag to scroll in any direction."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:654
+msgid ""
+"Use the reset view shortcut (by default the 0 key) to display preview at "
+"its actual size"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:656
+msgid "**To activate and deactivate the Centerlines Check:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:658
+msgid ""
+"Click the **Centerlines Check** button (|check|) in the bottom bar of the"
+" Convert-to-Vector Settings window."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:664
+msgid "Saving and Loading Convert To Vector Settings"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:665
+msgid ""
+"Convert To Vector settings can be saved as *tnzsettings* files in order "
+"to have different settings for each level and to be loaded back and used "
+"in a different scene."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:667
+msgid ""
+"Loaded Convert To Vector settings can also become the default settings "
+"for the scene or for the project (see  :ref:`Scene Settings and Project "
+"Default Settings <scene_settings_and_project_default_settings>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:669
+msgid "**To save the Convert To Vector settings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:671
+msgid ""
+"Click the **Save Settings** button (|save|) in the bottom bar of the "
+"Convert-to-Vector Settings window."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:673
+msgid ""
+"In the browser that opens choose for the *tnzsettings* file a location "
+"and a name, and click the **Save** button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:675
+msgid "**To load saved Convert To Vector settings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:677
+msgid ""
+"Click the **Load Settings** button (|load|) in the bottom bar of the "
+"Convert-to-Vector Settings window."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:679
+msgid ""
+"In the browser that opens retrieve the *tnzsettings* file you want to "
+"load, and click the **Load** button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:681
+msgid "**To reset the Convert To Vector settings to the scene default:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:683
+msgid ""
+"Click the **Reset Settings** button (|reset|) in the bottom bar of the "
+"Convert-to-Vector Settings window."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:689
+msgid "Changing the Canvas Size"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:690
+msgid ""
+"It's possible to change the size of Toonz Raster and Raster levels, in "
+"order to increase or decrease the area around the images of a level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:692
+msgid "|canvas_size|"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:694
+msgid ""
+"The new size can be set in any unit supported by OpenToonz, by using "
+"absolute or relative values. If the canvas is enlarged, some white "
+"transparent area is added; if the canvas is reduced, some cropping is "
+"applied to the level images."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:696
+msgid "**To change the canvas size:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:698
+msgid ""
+"Select the Toonz Raster or Raster level you want to modify in the "
+"Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:700
+msgid "Choose Level  →  **Canvas Size...**, the Canvas Size dialog opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:702
+msgid ""
+"In the dialog set the **Unit** to express the new size of the canvas, and"
+" set the **Width** and **Height** of the new canvas; activate the "
+"**Relative** option to define the new size by specifying only the size "
+"the canvas has to increase or decrease."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:704
+msgid ""
+"Use the **Anchor** diagram to decide the position of the current canvas "
+"in the new one: the arrows are a reference to see how the new size will "
+"increase or decrease the current canvas size."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:706
+msgid "Click the **Resize** button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:708
+msgid ""
+"In case the new canvas size is smaller than the current one, a "
+"confirmation dialog will open, asking you whether you want to crop the "
+"canvas."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:714
+msgid "Editing Drawings"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:715
+msgid ""
+"Toonz Vector, Toonz Raster and Raster levels, can be manipulated in "
+"OpenToonz."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:717
+msgid ""
+"To edit a drawing, for example to copy a part of it, you have first to "
+"select it in the Xsheet/Timeline or in the Level Strip. When selected in "
+"the Xsheet/Timeline, the viewer displays the whole scene contents at the "
+"current frame, when selected in the Level Strip, the viewer displays the "
+"selected frame of the current animation level only, to let you work more "
+"easily on it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:719
+msgid ""
+"Drawings can be also selected directly in the viewer: this allows you to "
+"work on the different drawings visible at a certain frame with no need to"
+" retrieve them in the Xsheet/Timeline or Level Strip."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:721
+msgid ""
+"All the editing performed on drawings is not saved until you save the "
+"related level, or use the **Save All** command (see  :ref:`Saving Levels "
+"<saving_levels>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:723
+msgid "**To select the drawing to edit:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:727
+msgid "Select it in the Xsheet/Timeline or Level Strip."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:729
+msgid ""
+"Right-click in the viewer the drawing you want to edit and in the menu "
+"that opens choose the **Select** command related to the column containing"
+" the drawing you want to edit."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:731
+msgid ""
+"The right-click menu first lists all the columns containing overlapping "
+"drawings, then the columns and objects that are hierarchically linked to "
+"the clicked one."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:737
+msgid "Using the Selection Tool"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:738
+msgid ""
+"The **Selection** tool (|selection|) allows you to edit, move, rotate, "
+"scale and distort a selection in a drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:742
+msgid ""
+"**Type:** has the options **Rectangular**, to select the area of the box "
+"you define by clicking and dragging; **Freehand**, to select the area you"
+" outline by clicking and dragging; and **Polyline**, to select the area "
+"you outline by defining a series of lines. In vector drawings, a vector "
+"stroke is selected only if it is fully included in the area you define."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:744
+msgid ""
+"**Mode:** has the options **Standard**, to select vectors; **Selected "
+"Frames**, to edit all the lines of selected frames at once; **Whole "
+"Level**, to transform all of the drawings of the current animation level;"
+" **Same Style**, to select at once all of the vectors painted with the "
+"same style in the current drawing; **Same Style on Selected Frames**, to "
+"select at once all of the vector strokes painted with the same style in "
+"the selected frames of the current animation level; **Same Style on Whole"
+" Level**, to select at once all of the vector strokes painted with the "
+"same style in all the drawings of the current animation level; **Boundary"
+" Strokes**, to select all the boundary strokes of the current drawing; "
+"**Boundary Strokes on Selected Frames**, to select all the boundary "
+"strokes of the selected frames; **Boundary Strokes on Whole Level**, to "
+"select all the boundary strokes of the whole level.This is available for "
+"Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:746
+msgid ""
+"**Preserve Thickness** will preserve the original thickness of the "
+"drawing vectors while performing resizing operations. This is available "
+"for Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:748
+msgid ""
+"**Scale H** and **V** set the horizontal and vertical scaling of the "
+"current selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:750
+msgid ""
+"**Link** will maintain the proportion of the selection while draging over"
+" any of the Scale **H** or **V** letters in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:752
+msgid "**Rotation** sets the rotation of the current selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:754
+msgid ""
+"**Position N/S** and **E/W** set a vertical and horizontal offset for the"
+" selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:756
+msgid ""
+"**Thickness** sets the thickness of the selected vector strokes. In case "
+"the selected strokes have variable thickness, or different thickness "
+"values, the highest value is displayed, and any change will affect the "
+"other values accordingly. This is available for Toonz Vector drawings "
+"only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:758
+msgid ""
+"**Cap:** sets the shape of the ends of the selected vector strokes. "
+"Options are **Butt** for squared ends, **Round** for semicircular ends, "
+"and **Projecting** for squared ends extending beyond the end of the line,"
+" according to the stroke thickness. This is available for Toonz Vector "
+"drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:762
+msgid "A butt cap, a round cap and a projecting cap."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:764
+msgid ""
+"**Join:** sets the shape of the straight corners along the selected "
+"vector strokes. Options are **Miter** for pointed corners, **Round** for "
+"rounded corners, **Bevel** for squared corner. This is available for "
+"Toonz Vector drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:768
+msgid "Miter joins, round joins and bevel joins."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:770
+msgid ""
+"**Miter:** sets the maximum length of a *Miter* join, that is computed "
+"multiplying the Miter value by the stroke thickness. If the length "
+"exceeds the maximum value, the *Miter* join is turned into a *Bevel* "
+"join. This is available for Toonz Vector drawings only, and only if the "
+"**Join:** option is set to **Miter**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:772
+msgid ""
+"**Modify Savebox** check box allows you to resize the *Savebox* of a "
+"drawing. The drawing part that, because of the editing, falls outside of "
+"the savebox will be erased. This is available for Toonz Raster drawings "
+"only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:774
+msgid ""
+"The *Savebox* size can be set automatically to the minimum size by "
+"activating the Preferences  →  Drawing  →  **Minimize Savebox after "
+"Editing** option."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:776
+msgid ""
+"**No Antialiasing** when activated, the antialiasing is not applied when "
+"the selection is deformed or rotated. This is available on Toonz Raster "
+"and Raster drawings only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:778
+msgid ""
+"If the tool options bar is too short to display all the tool options, it "
+"can be scrolled by using the arrow buttons available at its ends."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:780
+msgid ""
+"When a selection is made, it is displayed with a bounding box with "
+"handles that allow you to perform the following transformations:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:782
+msgid ""
+"**Move**, click and drag the inside of the raster selection, or any "
+"selected vector of a vector selection, to move it; by pressing the "
+"**Shift** key while dragging, the movement will be constrained on the "
+"horizontal or vertical direction."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:784
+msgid ""
+"The keyboard arrow keys can be used as well to move the selection one "
+"pixel in any direction; if they are used while pressing the **Shift** "
+"key, the movement will be in 10 pixels steps."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:786
+msgid ""
+"**Rotate**, click and drag outside any corner handle to rotate the "
+"selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:788
+msgid ""
+"**Scale**, click and drag any corner handle to scale the selection "
+"freely; by pressing the **Shift** key while dragging the scaling will be "
+"uniform; by pressing the **Alt** key the scaling will be applied from the"
+" center."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:790
+msgid ""
+"**Scale in one direction**, click and drag any side handle to scale the "
+"selection in one direction; by pressing the **Alt** key the scaling will "
+"be applied symmetrically from the center."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:792
+msgid ""
+"**Center**, click and drag the center handle to change the center of "
+"rotation, and the center used when Alt-scaling."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:794
+msgid ""
+"**Distort**, Ctrl-click (PC) or Cmd-click (Mac) any corner handle to "
+"distort the selection, or any side handle to shear it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:796
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in **Whole "
+"Level** modes (see above)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:798
+msgid ""
+"**Thickness**, click the double arrow-head at the bottom right corner of "
+"the selection and drag up to increase the thickness of selected lines, "
+"down to decrease it. This option is available for Toonz Vector drawings "
+"only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:800
+msgid "To apply the transformations you can click outside the selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:802
+msgid ""
+"As you roll over the handles, the cursor changes shape to indicate the "
+"operations you may perform."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:804
+msgid ""
+"Selections can also be Cut, Copied, Pasted and Deleted by using the "
+"relevant command in the Edit menu. Cut or Copy and Paste also work from "
+"one drawing to another, or onto a new one. This allows you to copy or "
+"move a section of a drawing to another drawing, or split a drawing into "
+"several ones."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:806
+msgid ""
+"When a drawing in a Toonz level, or a section of it is pasted to another "
+"one, the Styles of the pasted drawing are added to the palette of the "
+"target level, unless the same Styles are already available in the "
+"palette."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:808
+msgid ""
+"The selection can also be used to change the Style of vector strokes by "
+"choosing it in the palette, or by creating a new Style while selected. "
+"See  :ref:`Editing Styles <editing_styles>`  ."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:810
+msgid "**To edit the drawing savebox:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:812
+msgid ""
+"Activate the **Modify Savebox** option to visualize the savebox around "
+"the drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:814
+msgid "Use the handles to resize it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:816
+msgid "Deactivate the **Modify Savebox** option to confirm the changes."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:818
+msgid "**To select and transform an area in a Toonz Raster or Raster level:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:820
+msgid "Select the area by doing one of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:822
+msgid ""
+"Set the type to **Rectangular** and click and drag to define the box "
+"whose area you want to select."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:824
+msgid ""
+"Set the type to **Freehand** and click and drag to outline the area you "
+"want to select."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:826
+msgid ""
+"Set the type to **Polyline** and click to outline the area you want to "
+"select by defining a series of lines."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:828
+msgid "Do one of the following to make geometric transformations:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:830
+#: ../../source/drawing_animation_levels.rst:858
+#: ../../source/drawing_animation_levels.rst:877
+msgid "Operate the handles available along the bounding box."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:832
+msgid ""
+"Edit the scale, rotation and position values available in the tool "
+"options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:836
+msgid ""
+"First define the area you want to select, then use the bounding box to "
+"make geometric transformations."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:838
+msgid "**To select and transform vectors in a Toonz Vector level:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:840
+msgid "Select the vectors by doing one of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:842
+msgid "Click a stroke to select it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:844
+msgid "Shift-click to add a stroke to or remove it from the current selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:846
+msgid ""
+"Set the type to **Rectangular** and **click and drag to the right** to "
+"define a box and select all the strokes that are *completely* included in"
+" the box; **click and drag to the left** to select all the strokes that "
+"are *partially* included in the box."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:848
+msgid ""
+"Set the type to **Freehand** and click and drag to outline an area and "
+"select all the strokes that are completely included in the area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:850
+msgid ""
+"Set the type to **Polyline** and click to outline an area by defining a "
+"series of lines and select all the strokes that are completely included "
+"in the area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:852
+msgid ""
+"Set the mode to **Same Style** and click to select automatically all the "
+"vectors painted with the same style used for the vector you select in the"
+" current drawing, or Shift-click to add them to or remove them from the "
+"selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:854
+msgid ""
+"When clicking a stroke belonging to a group, the whole group is selected "
+"(see  :ref:`Grouping and Ungrouping Vectors "
+"<grouping_and_ungrouping_vectors>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:856
+msgid "Do one of the following to make a geometric transformations:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:860
+#: ../../source/drawing_animation_levels.rst:879
+msgid ""
+"Edit the scale, rotation, position and thickness values available in the "
+"tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:864
+msgid ""
+"First select the vector strokes you want to transform, then use the "
+"bounding box to make geometric transformations."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:867
+msgid "**To select and transform all the drawings of a Toonz Vector level:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:871
+msgid ""
+"Set the mode to **Whole Level** to automatically select all the strokes "
+"in all of the drawings of the current animation level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:873
+msgid ""
+"Set the mode to **Same Style on Whole Level** and click to select at once"
+" all of the strokes painted with the same style used for the stroke you "
+"selected in all of the drawings of the current animation level, or Shift-"
+"click to add them to or remove them from the selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:875
+msgid ""
+"Do one of the following to make geometric transformations affecting all "
+"of the level drawings:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:881
+msgid ""
+"When working on the whole level the bounding box displayed in the current"
+" level drawing is double-lined."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:883
+msgid "**To paste a selection in another existing drawing:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:885
+#: ../../source/drawing_animation_levels.rst:897
+msgid "Make a selection in the current drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:887
+#: ../../source/drawing_animation_levels.rst:899
+msgid "Copy/cut it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:889
+msgid "Select the other drawing in the Level Strip or in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:891
+#: ../../source/drawing_animation_levels.rst:903
+#: ../../source/drawing_animation_levels.rst:911
+msgid "Paste the copied/cut selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:893
+msgid ""
+"Selections from Toonz Raster and Toonz Vector levels can be pasted in any"
+" other type of drawing, automatically converting the pasted selection to "
+"the appropriate type; selections from standard Raster levels can only be "
+"pasted in other Raster drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:895
+msgid "**To paste a selection in a new drawing:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:901
+msgid "Select an empty frame in the level strip or an empty cell in the ."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:905
+msgid "**To merge several drawings into one drawing:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:907
+msgid "Select the area you want to merge and copy/cut it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:909
+msgid "Select the drawing you want to paste the selection to."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:913
+msgid ""
+"Several raster animation levels can also be merged at once by using the "
+"related command (see  :ref:`Merging Animation Levels "
+"<merging_animation_levels>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:915
+msgid "**To split a drawing into several drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:917
+msgid "Select the area you want to use as a new drawing and copy/cut it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:919
+msgid "Select an empty cell in the ."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:921
+msgid ""
+"Paste the copied/cut selection: automatically a new drawing will be "
+"created."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:927
+msgid "Grouping and Ungrouping Vectors"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:928
+msgid ""
+"All the vector strokes of a drawing lie on the same plane, therefore "
+"drawing *areas* are outlined by segments defined by strokes "
+"intersections. This means that if you draw two intersecting squares, "
+"automatically three areas are defined: one belonging only to the first "
+"square, one to the second one, and another defined by the intersection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:932
+msgid ""
+"Painting a drawing that contains intersecting vector strokes and shapes "
+"may be an issue, because all of them lie on the same layer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:934
+msgid ""
+"To organize strokes you can use the grouping features, that creates a new"
+" group entity containing only the strokes you select."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:936
+msgid ""
+"In the case of two intersecting squares, if you want the two squares to "
+"be overlapping instead of intersecting, you can create a group containing"
+" the strokes of the first square, and another those of the second square,"
+" thus defining two groups whose order can be arranged."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:938
+msgid ""
+"It's possible to create as many groups as you want in any drawing; groups"
+" can be made of one stroke only as well, for instance a circle, or a "
+"line."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:942
+msgid ""
+"First define groups, then set a proper layering order to solve the "
+"intersection problems."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:944
+msgid ""
+"When drawing with the **Geometric** tool (|geometric|), closed shapes "
+"(i.e. rectangles, circles, ellipses, polygons and closed polylines) can "
+"be defined automatically as a group by activating the **Auto Group** "
+"option (see :ref:`Drawing with the Geometric Tool "
+"<drawing_with_the_geometric_tool>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:946
+msgid ""
+"When your strokes selection includes one or several groups, the new group"
+" will include them as well, preserving them and their original sorting "
+"order position in case the group is released."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:948
+msgid ""
+"It's not possible to define a group if the selection includes only some "
+"strokes belonging to a group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:950
+msgid ""
+"When a group is released, if no other group is defined in the same "
+"drawing, all the strokes will lie at the same plane; if other groups are "
+"defined, the strokes of the released group will lie on a plane behind, in"
+" front of, or between the other groups, according to the original group "
+"sorting order position."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:952
+msgid ""
+"It's possible to enter groups to isolate them visually from the rest of "
+"the drawing and better understand which strokes are inside and which "
+"outside the group. In this way it's also easier to work on the drawing, "
+"for instance to fill an area or to change the color of some strokes."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:954
+msgid ""
+"As the **Selection** tool (|selection|) considers the group as a whole, "
+"if you want to select a stroke belonging to a group, first you have to "
+"enter the group, and then select the stroke."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:956
+msgid ""
+"As groups define which strokes belong to a certain plane, when using the "
+"**Fill** tool (|fill|), only areas defined by strokes within the same "
+"group can be filled."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:958
+msgid "**To Define a group:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:960
+msgid ""
+"Use the **Selection** tool (|selection|) to select the strokes you want "
+"to be in a group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:964
+msgid "Choose Edit  →  **Group**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:966
+msgid ""
+"Right-click on the selection and choose **Group** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:968
+msgid "**To Release a group:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:970
+msgid "Select the group you want to release."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:974
+msgid "Choose Edit  →  **Ungroup**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:976
+msgid ""
+"Right-click on the selection and choose **Ungroup** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:978
+msgid "**To Enter a group:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:982
+msgid "Select the group, then choose Edit  →  **Enter Group**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:984
+msgid "Right-click the group and choose **Enter Group** from the menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:986
+msgid "Double-click the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:988
+msgid "**To Exit a group:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:992
+msgid "Choose Edit  →  **Exit Group**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:994
+msgid "Right-click the group and choose **Exit Group** from the menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:996
+msgid "Double-click outside the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:998
+msgid "**To Select a group:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1000
+msgid "Choose the **Selection** tool (|selection|) and do any of the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1002
+msgid "Click any stroke belonging to the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1004
+msgid "Click and drag to select at least one stroke belonging to the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1006
+msgid ""
+"Set the type to **Rectangular** and click and drag to define a box and "
+"select at least one stroke belonging to the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1008
+msgid ""
+"Set the type to **Freehand** and click and drag to outline an area and "
+"select at least one stroke belonging to the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1010
+msgid ""
+"Set the type to **Polyline** and click to outline an area by defining a "
+"series of lines and select at least one stroke belonging to the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1012
+msgid "**To Select a stroke in a group:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1014
+msgid "Enter the group."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1016
+msgid "Click the stroke to select it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1022
+msgid "Setting Stroke and Group Sorting Order"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1023
+msgid ""
+"For each vector drawing, strokes and groups sorting order can be changed "
+"by setting what has to lie in front of, and what behind."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1027
+msgid ""
+"Select vector strokes, create groups and set their layering order to "
+"better manage the drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1029
+msgid "**To bring the selection to front:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1033
+msgid "Choose Edit  →  **Bring to Front**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1035
+msgid ""
+"Right-click on the selection and choose **Bring to Front** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1037
+msgid "**To bring the selection one level forward:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1041
+msgid "Choose Edit  →  **Bring Forward**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1043
+msgid ""
+"Right-click on the selection and choose **Bring Forward** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1045
+msgid "**To send the selection back:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1049
+msgid "Choose Edit  →  **Send Back**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1051
+msgid ""
+"Right-click on the selection and choose **Send Back** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1053
+msgid "**To send the selection one level backward:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1057
+msgid "Choose Edit  →  **Send Backward**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1059
+msgid ""
+"Right-click on the selection and choose **Send Backward** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1065
+msgid "Editing Vector Drawings"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1066
+msgid ""
+"Vector drawings can be edited in some additional ways by using the set of"
+" tools. This allows you for example to better calibrate the bend of a "
+"vector, or to change its thickness."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1068
+msgid ""
+"All these transformations can be also achieved on already painted "
+"drawings, because the fill styles used to paint will automatically follow"
+" the shape of the areas you modify, working like “liquid” color, flooding"
+" an area defined by an outline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1074
+msgid "Editing Vector Control Points"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1075
+msgid ""
+"To modify a vector by editing its control points you can use the "
+"**Control Point Editor** tool (|cpe|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1077
+msgid ""
+"Control points have handles whose length and direction define the bend of"
+" the vector. With this tool you can select a vector and modify the "
+"control point handles, or the bend of a curve defined by control points, "
+"and move, add or delete control points."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1079
+msgid ""
+"Control point handles may be linked, that is to say they share the same "
+"direction, or not, creating a cusp in the vector; they can also be "
+"collapsed in the control point in order to turn it in a corner point. In "
+"case only one handle is collapsed, the point will be corner on one side "
+"and smooth on the other. When a section of the vector is defined by two "
+"corner points, it will be a straight line."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1081
+msgid ""
+"The option Auto Select Drawing is available to automatically select any "
+"vector of any drawing visible in the viewer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1085
+msgid ""
+"Click to select a vector stroke and edit its control points; Alt-click to"
+" unlink control point handles; Ctrl-click (PC) or Cmd-click (Mac) the "
+"selected stroke to add a control point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1087
+msgid "**To select a vector:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1089
+msgid "Click it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1091
+msgid "**To edit the bend of a vector:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1095
+msgid "Click and drag the ends of the control point handles."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1097
+msgid "Click and drag the curve defined by the control points to edit it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1099
+msgid ""
+"Shift-click and drag the curve defined by the control point to edit it by"
+" keeping the control points position fixed."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1101
+msgid "**To unlink the control point handles:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1103
+msgid "Alt-click one of the handle ends and drag."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1105
+msgid "**To link the control point handles:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1107
+msgid ""
+"Alt-click one of the handle ends and drag: the other handle snaps to the "
+"direction of the one you are dragging."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1109
+msgid "**To add a control point:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1111
+msgid ""
+"Ctrl-click (Pc) or Cmd-click (Mac) the vector where you want to add a "
+"control point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1113
+msgid "**To select control points:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1117
+msgid "Click a control point to select it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1119
+msgid ""
+"Ctrl-click (Pc) or Cmd-click (Mac) a control point to add it to the "
+"selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1121
+msgid ""
+"Click and drag to select all of the control points that are included in "
+"the selection area."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1123
+msgid "**To move the selection:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1127
+msgid "Click any selected control point and drag."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1129
+msgid ""
+"Use the Arrow keys to move the selection one pixel right, left, up or "
+"down."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1131
+msgid "**To delete the selection:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1133
+msgid "Choose Edit  →  Delete."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1135
+msgid "**To turn a control point into a corner point:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1139
+msgid "Alt-click the control point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1141
+msgid "Move the handle ends to the control point, in order to collapse them."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1143
+msgid ""
+"Right-click the control point and choose Set Linear Control Point from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1145
+msgid "**To retrieve handles from a corner point:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1149
+msgid "Alt-click the corner point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1151
+msgid ""
+"Right-click the control point and choose Set Non-linear Control Point "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1157
+msgid "Changing the Bend of Vector Strokes"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1158
+msgid ""
+"To modify a bend of a vector stroke in a more intuitive way you can use "
+"the **Pinch** tool (|pinch|). You can use it anywhere you want on the "
+"stroke, in order to modify the bend in any direction."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1160
+msgid ""
+"When the tool is selected, a segment of the center line of the closest "
+"stroke is highlighted: the segment shows the length of the stroke that "
+"will be affected by the pinching."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1162
+msgid ""
+"The length of the segment depends on the corner points, that the tool "
+"automatically detects along the stroke, according to the **Corner** "
+"value. It can also be manually set by activating the **Manual** option, "
+"and thus using the **Size** value to set the affected length."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1164
+msgid ""
+"When the **Manual** mode is activated, a handle is displayed along the "
+"highlighted stroke to control interactively the length of the segment "
+"that will be affected by the tool. The handle has a double circle and a "
+"square at its ends, that allows you to do the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1166
+msgid "**Double circle** lets you move the handle along the segment."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1168
+msgid ""
+"**Square** lets you increase the length of the segment affected by the "
+"tool by *clicking and dragging right*, or decrease it by *clicking and "
+"dragging left*."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1170
+msgid ""
+"In both Automatic and Manual modes, different types of editing can be "
+"performed when clicking and moving the cursor:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1172
+msgid "**Click** and drag to change the bend of the highlighted segment."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1174
+msgid ""
+"**Shift-click** and drag to edit the highlighted segment by adding a "
+"*cusp*."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1176
+msgid ""
+"**Ctrl-click** (Pc) or **Cmd-click** (Mac) and drag to edit the "
+"highlighted segment by adding a *corner*."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1178
+msgid "**To modify the bend of a stroke:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1180
+msgid ""
+"Change the length of the segment affected by the tool by setting the "
+"**Corner** value in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1182
+msgid ""
+"Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to "
+"modify the bend of the highlighted segment."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1186
+msgid ""
+"Click and drag to change the bend; Shift-click to add a cusp; Ctrl-click "
+"(PC) or Cmd-click (Mac) to add a corner."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1188
+msgid "**To modify the bend of a stroke in manual mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1190
+msgid "Activate the **Manual** option in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1192
+msgid ""
+"Change the length of the segment affected by the tool by doing one of the"
+" following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1194
+msgid "Set the **Size** value in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1196
+msgid ""
+"Click and drag the small square at one end of the handle displayed along "
+"the highlighted stroke."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1198
+msgid ""
+"Click, Shift-click, or Ctrl-click (PC) or Cmd-click (Mac) and drag to "
+"modify the bend of the highlighted segment."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1200
+msgid "**To eliminate a corner point from a segment:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1202
+msgid "Click and drag the point until the smooth segment is formed again."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1204
+msgid "Click and drag to correct the bend of the newly smoothed segment."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1210
+msgid "Using Other Modifier Tools"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1211
+msgid ""
+"To modify the thickness of a stroke you can use the **Pump** tool "
+"(|pump|). You can use it anywhere you want on the stroke to increase or "
+"decrease the thickness locally. When the tool is selected, a segment of "
+"the closest stroke is highlighted: the segment shows the length of the "
+"stroke that will be affected by the tool. To modify this length you can "
+"change the **Size** value in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1213
+msgid ""
+"It's possible to modify the thickness of a stroke, a stroke selection, or"
+" strokes in all of the level drawings, by using the **Selection** tool "
+"(|selection|) and its related options (see :ref:`Using the Selection Tool"
+" <using_the_selection_tool>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1215
+msgid ""
+"To distort more than one stroke at once, you can use the **Magnet** tool "
+"(|magnet|). The tool affects all stroke included in a circular area and "
+"allows you to distort them in the direction of your dragging. Highlighted"
+" segments will show the strokes that will be affected. To modify the "
+"action range of the tool, represented by a circle, you can change the "
+"tool size in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1217
+msgid ""
+"To bend a part of a drawing, for example a character’s arm, you can use "
+"the **Bender** tool (|bender|). The tool allows you to define a line and "
+"then bend all the strokes intersected by the segment. While bending you "
+"can see the affected strokes assuming their position after the "
+"transformation. The bending can be performed in both clockwise and "
+"counterclockwise direction; once you start dragging you cannot change the"
+" bend direction."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1219
+msgid ""
+"If you move the cursor far from the bending center, you will be able to "
+"set with more precision the amount of bend you want to apply to the "
+"strokes."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1221
+msgid ""
+"To smooth a stroke, you can use the **Iron** tool (|iron|). When used "
+"again and again on the same stroke, it increasingly flatten the bends of "
+"the stroke. When the tool is selected, the cursor snaps to the closest "
+"stroke to indicate where you are going to operate."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1223
+msgid "**To modify the thickness of a stroke:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1225
+msgid "Select the **Pump** tool (|pump|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1227
+msgid "Set the **Size:** value in the tool options bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1229
+msgid ""
+"Click the point of the stroke where you want to modify the thickness and "
+"drag up to increase it, or down to decrease it."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1233
+msgid "Using the Pump tool to change the thickness of drawn strokes."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1235
+msgid "**To distort several strokes at once:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1237
+msgid "Select the **Magnet** tool (|magnet|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1239
+msgid ""
+"Click in the Viewer: all the strokes included in the circle will be "
+"affected by the tool."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1241
+msgid "Drag to distort the strokes in the direction of your dragging."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1243
+msgid "**To bend one or several strokes:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1245
+msgid "Select the **Bender** tool (|bender|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1247
+msgid ""
+"Click on one side of the strokes you want to bend to set the center of "
+"the bend."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1249
+msgid ""
+"Click on the opposite side of the strokes: all strokes intersected by the"
+" defined line will be affected by the bending."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1251
+msgid "Drag in the direction you want to bend strokes."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1253
+msgid "**To smooth a stroke:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1255
+msgid "Select the **Iron** tool (|iron|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1257
+msgid ""
+"Click and drag along the stroke you want to smooth. By dragging over and "
+"over the stroke will increasingly flatten."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1263
+msgid "Joining and Splitting"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1264
+msgid ""
+"To join the ends of two different vector strokes, you can use the "
+"**Tape** tool (|tape|). This way it will be possible to handle them as a "
+"single stroke, for instance for modifying their bend, or thickness, as a "
+"whole."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1266
+msgid ""
+"When the tool is used, the pointer snaps to the closest detected stroke "
+"endpoint in order to make the operation easier."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1268
+msgid ""
+"The **Tape** tool (|tape|) can also be used to close gaps along the "
+"drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing "
+"Outline <closing_gaps_in_drawing_outline>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1270
+msgid ""
+"To do the contrary, that is to say splitting a stroke in two sections, "
+"you can use the **Cutter** tool (|cutter|)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1272
+msgid "**To join two open ends of one or two strokes:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1274
+msgid ""
+"Select the **Tape** tool (|tape|), and activate the **Join Vectors** "
+"option; activate also the **Smooth** option if you want a smooth joining "
+"with no corners."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1278
+msgid ""
+"Set the type to **Normal** and the mode to **Endpoint to Endpoint**, "
+"click a stroke endpoint and drag to a different endpoint; the pointer "
+"snaps to the closest detected stroke endpoint."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1280
+msgid ""
+"Set the type to **Rectangular**, and click and drag to define a box "
+"including the endpoints you want to connect; the endpoints will be "
+"automatically joined according to the set **Distance** value."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1282
+msgid ""
+"If the strokes you are going to join have different Styles, the Style of "
+"the first vector where you click on will be assigned to the second one "
+"after joining."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1284
+msgid "**To split a stroke:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1286
+msgid ""
+"Select the **Cutter** tool (|cutter|): the pointer snaps to the closest "
+"stroke indicating, with a small highlighted segment, the point where you "
+"are going to split the stroke."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1288
+msgid "Click to split the stroke at the highlighted point."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1294
+msgid "Cleaning up Strokes Intersections"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1295
+msgid ""
+"Vector strokes intersections may be a weak point in drawings to be "
+"painted, because if a gap occurs, drawing areas cannot be painted "
+"properly."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1297
+msgid ""
+"The best solution for this kind of issue is to overlap the final section "
+"of strokes, in order to define clear intersections, then automatically "
+"remove the sections that overflow."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1299
+msgid "**To cleanup vector intersections:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1301
+msgid ""
+"Use the **Selection** tool (|selection|) to select the strokes whose "
+"intersections you want to cleanup."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1305
+msgid "Choose Edit  →  **Remove Vector Overflow**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1307
+msgid ""
+"Right-click the selection and choose **Remove Vector Overflow** from the "
+"menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1313
+msgid "Animation Techniques"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1314
+msgid ""
+"Besides drawing frame by frame, one image at a time, until you achieve "
+"the animation you want, some other techniques are easier to achieve "
+"thanks to OpenToonz features."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1316
+msgid ""
+"Whatever the technique is, you can control your work and how smooth the "
+"animation is by using the onion skin, that allows you to view more than "
+"one image in the viewer at the same time as reference."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1322
+msgid "Modelling a Vector Drawing"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1323
+msgid ""
+"Instead of animating a level by starting every time from a blank frame, "
+"you can duplicate a vector drawing and make subsequent modifications. You"
+" can do it even if the drawings are painted, because the styles used to "
+"paint will automatically follow the shape of the areas you modify (see  "
+":ref:`Editing Drawings <editing_drawings>`  )."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1325
+msgid ""
+"The sequence of the animation level drawings can be easily controlled in "
+"the Level Strip."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1327
+msgid ""
+"You can use both the Cells  →  **Duplicate Drawing** command and the "
+"standard **Copy** and **Paste** commands to make a copy of a drawing that"
+" you can later modify to create slight movements."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1329
+msgid ""
+"When you use the **Duplicate Drawing** command, the selected drawing is "
+"duplicated in the following frame. If the following frame already "
+"contains a drawing, it's shifted down in order to insert the duplicated "
+"drawing in the sequence."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1331
+msgid ""
+"When you use the **Copy** and **Paste** commands, you can also decide the"
+" frame of the Level Strip where you want to paste the drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1333
+msgid ""
+"Once finished, you can make a copy of the modified drawing, and modify it"
+" in its turn. You can go on duplicating and modifying drawings until you "
+"complete the animation level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1335
+msgid "**To create an animation level by modelling vector drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1337
+msgid ""
+"In the Viewer, select a drawing of the vector animation level you want to"
+" edit."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1339
+msgid "In the Level Strip, select the drawing you want to duplicate."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1341
+msgid ""
+"Copy the selected drawing in the following frame by doing one of the "
+"following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1343
+msgid "Choose Cells  →  **Duplicate Drawing**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1345
+msgid ""
+"Choose Edit  →  **Copy**, then select the following frame and choose "
+"**Paste**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1347
+msgid "Select the new drawing in the Level Strip."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1349
+msgid "Use modifier tools to modify the drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1351
+msgid ""
+"Go on duplicating and modifying drawings until you complete the animation"
+" level."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1357
+msgid "Using the In-betweener with Vector Drawings"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1358
+msgid ""
+"An animation technique reserved to vector animation levels is the use of "
+"the **Inbetween** command. Inbetween creates in-between drawings from the"
+" two extremes of a range of selected frames in the Level Strip."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1360
+msgid ""
+"When more than two frames are selected in the Level Strip, a vertical "
+"strip labeled **INBETWEEN** is displayed on the right of each frame. By "
+"clicking on it, all frames between the first and the last selected, will "
+"be overwritten by images interpolating from the first to the last "
+"drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1364
+msgid ""
+"Duplicate a drawing; modify it; insert blank frames; select the frame "
+"range, then click the INBETWEEN vertical bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1366
+msgid ""
+"The interpolated drawings are created by taking into account the number "
+"of the strokes, and the strokes' direction. This means that the result "
+"will depend on the way drawings were made. For example if the first image"
+" is a single shape drawn clockwise, and the last is another shape, you "
+"will get different results depending on the way it was drawn, clockwise "
+"or counterclockwise."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1368
+msgid ""
+"To obtain the best results with complex drawings, copy the drawing you "
+"want to interpolate from, and paste it in another frame of the level "
+"strip. Modify the pasted drawing without adding and deleting strokes, but"
+" only distorting and moving existing strokes (see  :ref:`Editing Drawings"
+" <editing_drawings>`  ). Select the whole range and then perform the "
+"interpolation."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1370
+msgid ""
+"The interpolation acceleration can be controlled in the dialog that opens"
+" prior to performing in-betweening. Options are the following:"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1372
+msgid "**Linear**, for a constant interpolation."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1374
+msgid "**Ease In**, for an interpolation starting slowly, then getting faster."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1376
+msgid "**Ease Out**, for an interpolation starting quickly, then getting slower."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1378
+msgid ""
+"**Ease In / Ease Out**, for an interpolation starting slowly, getting "
+"faster, then getting slower again."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1380
+msgid ""
+"If you want the interpolation to happen slower or faster, you can insert "
+"frames, or cut them, and use the in-betweener again."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1382
+msgid "**To create in-between drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1384
+msgid "Select the level where you want to perform interpolation."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1386
+msgid ""
+"In the Level Strip select the frame range, from the drawing you want to "
+"interpolate from, to the one you want to interpolate to. If you want the "
+"interpolation to last more frames, make room for more drawings with the "
+"Edit  →  **Insert** command."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1388
+msgid ""
+"Click the vertical strip labeled **INBETWEEN** displayed on the right of "
+"the frame range selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1390
+msgid ""
+"Select the **Interpolation:** mode among **Linear**, **Ease In**, **Ease "
+"Out**, **Ease In / Esase Out**, and click the **Inbetween** button."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1392
+msgid "**To optimize the in-betweening process:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1394
+msgid "Create and paint the drawing you want to interpolate from."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1398
+msgid ""
+"**Copy** and **Paste** it in another frame of the Level Strip, "
+"considering the number of in-between drawings you want to achieve."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1400
+msgid ""
+"**Duplicate** it and insert as many empty frames as the number of in-"
+"between drawings you want to achieve."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1402
+msgid ""
+"Modify the pasted or duplicated drawing using the modifier tools, to "
+"create the final drawing of the interpolation."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1404
+msgid ""
+"Select the frame range from the drawing you want to interpolate from, to "
+"the one you want to interpolate to."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1406
+msgid ""
+"Click the vertical **INBETWEEN** strip displayed on the right of the "
+"frame range selection."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1412
+msgid "Rotoscoping"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1413
+msgid "Rotoscoping consists of tracing drawings taking a live clip as reference."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1417
+msgid "Using the rotoscoping technique to trace the movement of a hand."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1419
+msgid ""
+"As you can import clips and image sequences in a scene, you can simply "
+"load them, and create an animation level by drawing in the Viewer, while "
+"the frames of the clips are visible underneath. See  :ref:`Using the File"
+" Browser <using_the_file_browser>`  ."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1421
+msgid ""
+"The way to obtain best results is not trying to reproduce with fidelity "
+"the clip, but to use its frames just as a reference to better understand "
+"the movement or the transformation of the clip’s subject. In this way you"
+" can take advantage, for example, of a natural movement represented in "
+"the clip, without renouncing an expressive drawing style."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1423
+msgid "**To perform rotoscoping:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1425
+msgid ""
+"Load a video clip or image sequence in an Xsheet column (or Timeline "
+"layer)."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1427
+msgid ""
+"In the Xsheet/Timeline select a cell in a column on the right of the "
+"column (or in a layer on top of the layer) containing the clip you "
+"loaded. The image of the clip placed at the same frame of the cell you "
+"selected will be visible in the Viewer while you're drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1429
+msgid ""
+"Create a new animation level and use tools to trace the first drawing in "
+"the Viewer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1431
+msgid "Move to subsequent frames, and trace the next drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1437
+msgid "Cloning Levels"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1438
+msgid ""
+"Sometimes it may be useful to create a clone of a level, or a part of it,"
+" in order to edit it without affecting the original one. For example you "
+"may want to create a new animation level starting from the drawings of "
+"another level, in order to have two sequences similar but not identical."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1440
+msgid ""
+"The **Clone** command allows you to create a copy of the selected cells, "
+"preserving the numbering order and assigning a new name to it. The "
+"**_clone** suffix appended to the name of the level is the default."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1442
+msgid ""
+"The cloned level will contain *only drawings exposed in the selected "
+"cells*, even if the original level is composed of more drawings; they "
+"will be automatically exposed in the column on the right (or layer on "
+"top) of the selection, shifting the following columns/layers."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1444
+msgid ""
+"The new level will be available in the Scene Cast as a new element; it "
+"will be saved in the **+drawings** or **+extras** default folder, "
+"according to the format of the original file, as soon as you save it with"
+" the **Save Level** command, or you save the scene."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1446
+msgid ""
+"The cell selection can also spread over several columns/layers: in this "
+"case the same number of new columns/layers will be inserted to make room "
+"for the cloning result. If more than one level is selected, the same "
+"number of new levels will be created and it's not possible to assign a "
+"name to the cloned levels."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1448
+msgid "**To clone levels:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1450
+msgid "Select the cells you want to clone."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1454
+msgid "Choose Cells  →  **Clone**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1456
+msgid ""
+"Right-click in the selection and choose **Clone** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1458
+msgid "Enter a **Level Name:** and press **OK** to confirm."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1464
+msgid "Using Onion Skin"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1465
+msgid ""
+"If you want to view more than one level drawing at the same time in the "
+"Viewer as reference when you create drawings, or you want to check the "
+"animation, you can activate the Onion Skin mode."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1467
+msgid ""
+"The Onion Skin is available both in the Xsheet/Timeline and in the Level "
+"Strip, according to where the cursor showing the current frame is "
+"displayed, as the onion skin can be activated starting from the cursor "
+"and managed in the frame number column/bar."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1471
+msgid ""
+"A column animation displayed with the relative Onion Skin set for 6 "
+"previous frames, step two, and an absolute Onion Skin set at frame 35."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1473
+msgid ""
+"When a frame of the Level Strip is selected, the onion skin applies to "
+"the *current level* only, referring to the sequence of the full animation"
+" level as it was created."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1475
+msgid ""
+"When a cell of the Xsheet/Timeline is selected, the onion skin applies to"
+" the current level, according to how the drawing sequence is exposed in "
+"the scene, including movements and transformations performed thanks to "
+"the object animation (see  :ref:`Animating Objects <animating_objects>`  "
+"), while the rest of the scene in the current frame will be visible as "
+"usual. If you want, you can also extend the onion skin to the whole "
+"content of the Xsheet/Timeline, to allow references to all of the "
+"animated or moving elements in the scene as well."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1477
+msgid ""
+"The *relative* Onion Skin mode displays frames in relation to the "
+"position of the current frame. For instance you can activate the frame "
+"previous to the current one, and every time you change the current frame,"
+" the previous frame will be displayed."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1479
+msgid ""
+"The *fixed* Onion Skin mode displays the selected frame independently "
+"from the current frame. For instance you can activate frame 5, and every "
+"time you change the current frame, frame 5 will be displayed in Onion "
+"Skin mode."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1481
+msgid ""
+"The way images are displayed in Onion Skin mode can be customized in the "
+"Preferences pane. It's possible to define the **Paper Thickness**, to set"
+" an independent color correction for previous and following frames, and "
+"to **Display Lines Only** for Toonz Vector and Toonz Raster."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1483
+msgid "**To activate or deactivate frames in Relative Onion Skin mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1487
+msgid ""
+"In the Xsheet, click the small romboid markers available to the left of "
+"the frames column (or above the frame bar in the Timeline). Click and "
+"drag automatically activates or deactivates a series of frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1489
+msgid ""
+"In the Level Strip, click the small circular markers available to the "
+"left of the strip frames. Click and drag automatically activates or "
+"deactivates a series of frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1491
+msgid "**To activate or deactivate frames in Fixed Onion Skin mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1495
+msgid ""
+"In the Xsheet, click the small ghosted romboid markers available to the "
+"very left of the frames column (or above the frame bar in the Timeline). "
+"Click and drag automatically activates or deactivates a series of frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1497
+msgid ""
+"In the Level Strip, click the small ghosted circular markers available to"
+" the very left of the strip frames. Click and drag automatically "
+"activates or deactivates a series of frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1499
+msgid "**To Deactivate (or Activate again) the Onion Skin mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1503
+msgid ""
+"Double-click over the big circle to the left of the current frame cursor."
+" Double-click again to activate it back."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1505
+msgid ""
+"Right-click in the Viewer or in the frames column/bar of the "
+"Xsheet/Timeline, and choose **Deactivate Onion Skin** or **Activate Onion"
+" Skin** in the menu that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1507
+msgid ""
+"The first time you activate Onion Skin mode by Right-clicking in the "
+"Viewer or the Xsheet/Timeline frames column/bar, a default relative onion"
+" skin mode activates, showing the previous three frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1509
+msgid "**To Extend the onion skin to the Whole Scene Content:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1511
+msgid "Activate the onion skin in the Xsheet/Timeline."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1513
+msgid ""
+"Right-click in the Viewer or in the frame column/bar of the "
+"Xsheet/Timeline, and choose **Extend Onion Skin to Scene** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1515
+msgid "**To Limit the onion skin to the Current Level:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1517
+msgid ""
+"Right-click in the Viewer or in the frame column/bar of the "
+"Xsheet/Timeline, and choose **Limit Onion Skin to Level** from the menu "
+"that opens."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1519
+msgid "**To customize the way images are displayed in onion skin mode:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1521
+msgid "Choose File  →  Preferences  →  **Onion Skin**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1525
+msgid ""
+"Set a value for the **Paper Thickness** parameter; the lower the value, "
+"the more transparent the drawings displayed in Onion Skin mode will be."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1527
+msgid ""
+"Use the **Previous Frames Correction** to set a color for displaying "
+"previous frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1529
+msgid ""
+"Use the **Following Frames Correction** to set a color for displaying "
+"following frames."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1531
+msgid ""
+"Activate the **Display Lines Only** option to display Toonz Vector or "
+"Toonz Raster levels with lines only."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1537
+msgid "Using Shift and Trace"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1538
+msgid ""
+"The **Shift and Trace** function can help you in the creation of animated"
+" levels as if you were drawing on paper using a light table; in fact it "
+"allows you to use the previous and next key drawings as references, while"
+" you insert an inbetween or a break down."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1540
+msgid ""
+"It's possible to temporary move and rotate the drawings you want to use "
+"as reference, to fit the position where you want to draw the inbetween. "
+"It's also possible to automatically set the position of the reference "
+"drawings creating and editing a path of action line."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1542
+msgid ""
+"To better check the new drawing and the animation, you can toggle the "
+"Shift and Trace visualization on or off the Viewer."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1544
+msgid "**To enter the Shift and Trace view:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1546
+msgid ""
+"Position the frame cursor on the frame where you want to draw the "
+"inbetween drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1548
+msgid ""
+"Enable View  →  **Shift and Trace**; the previous and next drawings will "
+"be visualized."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1550
+msgid "**To Edit the Position of the reference drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1552
+#: ../../source/drawing_animation_levels.rst:1572
+msgid ""
+"Position the frame cursor where you want to draw the inbetween drawing "
+"and sketch the path of action line beteween your reference points."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1554
+#: ../../source/drawing_animation_levels.rst:1574
+msgid "Activate View  →  **Edit Shift**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1556
+msgid ""
+"Click on the drawing you want to reposition in the Viewer, or use the "
+"**Previous Drawing** / **Following Drawing** options in the tool options "
+"bar; the related reference drawing bounding box will be displayed."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1560
+msgid ""
+"Click and drag *inside the bounding box* to **move** the reference "
+"drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1562
+msgid ""
+"Click and drag *outside the bounding box* to **rotate** the reference "
+"drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1564
+msgid "Click and drag *the center handle* to change the **center of rotation**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1566
+msgid ""
+"Click and drag *any corner handle of the bounding box* to **scale** the "
+"reference drawing from its center."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1568
+msgid "Repeat the same steps on the second reference drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1570
+msgid "**To automatically Edit the Position of the reference drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1576
+msgid ""
+"Ctrl-click and drag to create a path, from the reference point in the "
+"first drawing, to the reference point in the second one. The starting and"
+" the ending points will be overlapped at the center of the path."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1578
+msgid ""
+"Click and drag the handle along the path to change its shape; the "
+"reference drawings will move according to the handle position and rotate "
+"according to the path shape modification."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1580
+msgid ""
+"If needed, use the bounding box handles to fix the rotation of the "
+"reference drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1582
+msgid ""
+"Clicking and dragging one of the reference drawings will remove the path "
+"of action line."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1584
+msgid "**To Toggle the Shift and Trace visualization:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1586
+msgid ""
+"Activate View  →  **No Shift** to toggle the visualization of the "
+"reference drawings back to their original position."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1588
+msgid "**To Reset the position of the reference drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1590
+msgid "Choose the View  →  **Reset Shift** command."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1592
+msgid "**To Reset the transformations of one of the reference drawings:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1594
+msgid ""
+"In the tool options bar click on either **Reset Previous** or **Reset "
+"Following** buttons."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1596
+msgid "**To Create an inbetween drawing using the Shift and Trace feature:**"
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1598
+msgid "Create the first key drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1600
+msgid "Create the second key drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1602
+msgid "Select the cell where you want to create the inbetween drawing."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1604
+msgid "Activate View  →  **Shift and Trace**."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1606
+msgid "Sketch the path of action line beteween your reference points."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1608
+msgid ""
+"Activate View  →  **Edit Shift** and edit the position of the reference "
+"drawings."
+msgstr ""
+
+#: ../../source/drawing_animation_levels.rst:1610
+msgid "Create the inbetween drawing."
+msgstr ""
+

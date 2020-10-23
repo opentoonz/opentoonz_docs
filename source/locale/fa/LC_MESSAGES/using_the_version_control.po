@@ -1,0 +1,934 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 23:49+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/using_the_version_control.rst:4
+#: ../../source/using_the_version_control.rst:204
+msgid "Using the Version Control System"
+msgstr "استفاده از سیستم کنترل نسخه"
+
+#: ../../source/using_the_version_control.rst:5
+msgid ""
+"The version control system keeps in a central repository a constant "
+"history of revisions for every file in the production database."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:7
+msgid ""
+"The **central repository** must be located in a shared resource (that can"
+" be a computer in your local network or an internet-based repository), "
+"while the local copy of files, called **working copy**, at a specific "
+"time or revision, should be located on the computer you use."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:9
+msgid ""
+"When you need to work on a file, you can *get* it from the central "
+"repository to your working copy, and *edit* it; when you finish working "
+"on the file and you want to submit the changes, you can *put* it back "
+"from your working copy to the central repository."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:11
+msgid ""
+"The file you *put* will be saved as the last revision of the file, while "
+"the previous revisions will be retained as file history, and all the "
+"users sharing the same central repository can *get* if from there. In "
+"case a previous version of the file is needed, it is always possible to "
+"retrieve it from the central repository."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:13
+msgid ""
+"OpenToonz supports the **Subversion** version control system, which is "
+"one of the most popular version control systems, used in many high-scale "
+"open source projects."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:15
+msgid ""
+"The *central repository* defined for your version control system behaves "
+"exactly as an OpenToonz projectroot, therefore the project management "
+"under the version control system is the same, only referencing to the "
+"central repository instead of the projectroot (see  :ref:`Managing "
+"Projects <managing_projects>`  )."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:21
+msgid "Installing the Version Control System"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:22
+msgid ""
+"The version control system works as a client/server tool: the server "
+"stores all of your files in a central repository, and a client is used to"
+" *get* files to your working copy and *put* file changes to the server."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:25
+msgid "Installing the Version Control Server"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:27
+msgid ""
+"It's possible to configure a computer in your local network as the "
+"version control server by installing **Subversion 1.6** or later, or it's"
+" possible to use an on-line service (e.g. Assembla)."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:29
+msgid ""
+"You can go to the `Subversion starting page "
+"<http://subversion.apache.org/>`_ for downloading it."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:31
+msgid "Contact your system administrator to configure a version control server."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:37
+msgid "Installing the Version Control Client on Windows"
+msgstr "نصب کلاینت کنترل نسخه روی ویندوز"
+
+#: ../../source/using_the_version_control.rst:38
+msgid ""
+"On Windows the setup of a version control client requires the download "
+"and installation of the **Subversion client 1.6** or later."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:40
+msgid ""
+"You can go to the `Subversion download page "
+"<http://subversion.apache.org/packages.html#windows>`_ for downloading "
+"it. There you should look for the available binary packages and download "
+"a version control client for Windows. We suggest the use of **CollabNet "
+"Subversion Command-Line Client**."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:42
+msgid ""
+"If an older Subversion release is used some version control features "
+"might not work."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:48
+msgid "Installing the Version Control Client on Macintosh"
+msgstr "نصب کلاینت کنترل نسخه روی Macintosh"
+
+#: ../../source/using_the_version_control.rst:49
+msgid ""
+"On Macintosh the setup of a version control client depends on the OS "
+"version."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:51
+msgid ""
+"If the OS is Snow Leopard (version 10.6) or later, the setup requires no "
+"installation as the version control client is included in the operating "
+"system."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:53
+msgid ""
+"If the OS is *older* than Snow Leopard, the setup requires the download "
+"and installation of the **Subversion client 1.6** or later."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:55
+msgid ""
+"You can go to the `Subversion download page "
+"<http://subversion.apache.org/packages.html#osx>`_ for downloading it. "
+"There you should look for the available binary packages and download a "
+"version control client for Macintosh."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:57
+msgid ""
+"After the installation is very important to check where Subversion is "
+"installed, as this information is needed to configure the version control"
+" in OpenToonz: this information is displayed in the last page of the "
+"installation process and by default is usually ``/opt/subversion/bin`` ."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:59
+msgid ""
+"If a Subversion release older than v1.6 is used, some version control "
+"features might not work."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:65
+msgid "Configuring the Version Control in OpenToonz"
+msgstr "پیکربندی کنترل نسخه در اوپن تونز"
+
+#: ../../source/using_the_version_control.rst:66
+msgid ""
+"Once the version control server is configured and the version control "
+"client is installed it's possible to configure OpenToonz in order to use "
+"the version control."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:68
+msgid ""
+"In OpenToonz the version control information is stored in the "
+"``versioncontrol.xml``  file located in the ``OpenToonz stuff\\config`` "
+"folder. By default the file has the following content:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:85
+msgid ""
+"By editing the file with a text editor it's possible to set the "
+"information for the *central repository* and the *working copy* location."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:87
+msgid ""
+"Together with the configuration file, version control *users* must be "
+"defined by editing the ``permissions.xml``  file located in the "
+"``OpenToonz stuff\\config`` folder."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:89
+msgid ""
+"The ``versioncontrol.xml``  and ``permissions.xml``  file have to be "
+"well-formed, and so cannot contain an opening tag without its related "
+"closing tag, otherwise OpenToonz will not run. If you decide to edit the "
+"files, make a backup copy first in case you need to revert the file to "
+"the original version."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:91
+msgid "**To configure the version control in OpenToonz:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:93
+#: ../../source/using_the_version_control.rst:148
+msgid ""
+"Open the ``versioncontrol.xml``  file located in the ``OpenToonz "
+"stuff\\config`` folder with a text editor."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:95
+msgid "Delete the line"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:97
+msgid "``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:99
+msgid "and the line"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:101
+msgid "``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:103
+#: ../../source/using_the_version_control.rst:109
+#: ../../source/using_the_version_control.rst:115
+msgid "In the line"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:105
+msgid "``<name>PutYourRepositoryName</name>``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:107
+msgid ""
+"type between the tags the name you want the repository to have in the "
+"OpenToonz browser."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:111
+msgid "``<localPath>putYourWorkingCopyPath</localPath>``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:113
+msgid ""
+"type between the tags the path to where you want the working copy to be "
+"located on the local computer (e.g. ``C:\\myworkingcopy\\``  for Windows "
+"or ``/myworkingcopy``  for Macintosh)."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:117
+msgid "``<repoPath>putYourRepositoryPath</repoPath>``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:119
+msgid ""
+"type between the tags the URL of the central repository according to how "
+"it was defined on the version control server (e.g. "
+"``http://10.0.0.1/mySVNrepository/``  for a repository located in the "
+"local network; ``file:///C:/mySVNrepository``  for a repository located "
+"in the local Windows computer or ``file:///mySVNrepository``  for a "
+"repository located in the local Macintosh computer; and "
+"``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-"
+"based repository)."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:121
+msgid ""
+"For Macintosh only, if the OS is *older* than Snow Leopard and you "
+"installed the **Subversion client 1.6** or later, in the line"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:123
+msgid "``<svnPath></svnPath>``"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:125
+msgid ""
+"type between the tags the path to the folder where Subversion is "
+"installed (this information is displayed in the last page of the "
+"installation process and by default is ``/opt/subversion/bin`` )."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:127
+#: ../../source/using_the_version_control.rst:162
+msgid "Save the ``versioncontrol.xml``  file."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:130
+msgid "**To define the version control users:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:132
+#: ../../source/using_the_version_control.rst:167
+msgid ""
+"Open the ``permissions.xml``  file located in the ``OpenToonz "
+"stuff\\config`` folder with a text editor."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:134
+msgid ""
+"In the user section define a user and assign him the version control user"
+" name and password as configured on the server. For example to assign to "
+"the user JohnDoe the user johnd whose password is johndpassword, add the "
+"following user:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:143
+#: ../../source/using_the_version_control.rst:179
+msgid "Save the ``permissions.xml``  file."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:146
+msgid "**To define several version control repositories:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:150
+msgid "Add after the lines defining a repository the following lines:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:160
+msgid "and set the related information."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:165
+msgid "**To define users for different repositories:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:169
+msgid ""
+"In the user section assign to a user the version control user name and "
+"password as configured on the server of the second repository. For "
+"example to assign to the user JohnDoe the user johnd2 whose password is "
+"johndpassword2 defined for the second repository, add a ``svn name``  "
+"line so that the ``user name``  section in the ``permissions.xml``  file "
+"will look like the following:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:185
+msgid "Initializing the Version Control in OpenToonz"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:186
+msgid ""
+"Before starting to use the version control system, it has to be "
+"initialized by setting an option in the **Preferences** dialog and "
+"restarting OpenToonz."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:188
+msgid ""
+"At this point the repository will be displayed in the OpenToonz browser, "
+"and you will be able to start using it."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:190
+msgid "**To initialize the version control system:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:192
+msgid ""
+"In OpenToonz open the Preferences  →  Version Control dialog and activate"
+" the **Enable Version Control** option."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:194
+msgid ""
+"If the version control is not correctly installed or the configuration "
+"file is not correctly defined, activating the option will prompt a "
+"warning message."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:196
+msgid "Quit and restart OpenToonz."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:198
+msgid ""
+"In the OpenToonz browser look for the repository at the end of the folder"
+" tree, named as you defined it in the configuration file; right-click it "
+"and choose **Get** from the menu that opens to establish the connection "
+"between the *central repository* and the local *working copy*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:205
+msgid ""
+"The *central repository* and the local *working copy* are displayed in "
+"the OpenToonz browser at the end of the folder tree as one single folder."
+" By navigating the contents of this folder it's possible to retrieve the "
+"folders and files."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:209
+msgid ""
+"One online repository defined (**svn_test**) hosting the active project "
+"(**mySVNproject**)."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:211
+msgid ""
+"When a folder is selected in the folder tree *a refresh operation occurs "
+"automatically*, to check the status of the folder and its content. As "
+"this operations may require some time according to the connection speed "
+"on the local network or in the Internet, the automatic refresh operation "
+"can be disabled."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:213
+msgid ""
+"If several repositories are defined, each of them will be displayed with "
+"the name previously assigned."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:215
+msgid "**To disable the automatic refresh for folder content:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:217
+msgid "Choose File  →  Preferences  →  Version Control."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:219
+msgid "Deactivate the **Automatically Refresh Folder Contents** option."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:221
+msgid "**To manually refresh a folder content visualization:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:223
+msgid ""
+"Right-click the folder icon in the folder tree and choose **Refresh** "
+"from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:229
+msgid "Getting and Putting Folders and Files"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:230
+msgid ""
+"The basic operations in the version control system involves *getting* "
+"files from the central repository to the local working copy; and then "
+"*putting* the modified files back from the local *working copy* to the "
+"*central repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:232
+msgid "|put|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:234
+msgid ""
+"In case you are *putting* folders, in the dialog that opens you can check"
+" which files and folders contained in the selected folder have to be put "
+"in the central repository. Every time files and folders are put, it is "
+"also possible to type a *comment* to let the other users know about s of "
+"the performed modifications."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:236
+msgid "|put_scene|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:238
+msgid ""
+"In case you are *getting* or *putting* scene files (TNZ format), in the "
+"dialog that opens it's possible to check the **Get Scene Contents** or "
+"the **Put Scene Contents** option to include with the request, or return "
+"back, the materials used in the scene as well."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:240
+msgid ""
+"The first time you *get* a folder not previously available in the "
+"*working copy* (folder with grey icon), you get the files contained in "
+"the folder, but not the sub-folders. The next time you *get* the folder "
+"(folder with a colored icon), you get the entire contents of the folder, "
+"including sub-folders and the related contents."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:242
+msgid ""
+"**To get the latest version of a folder or a file from the central "
+"repository to the local working copy:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:244
+msgid ""
+"Right-click the folder icon in the folder tree, or the file icon in the "
+"browser, and choose **Get** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:246
+msgid ""
+"In the dialog that opens if you are getting a scene file (TNZ format) "
+"activate the **Get Scene Contents** if you want to get the files used in "
+"the scene as well."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:248
+#: ../../source/using_the_version_control.rst:366
+msgid "Click the **Update** button."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:250
+msgid ""
+"**To put your modified version of a folder or a file from the local "
+"working copy to the central repository:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:252
+msgid ""
+"Right-click the folder icon in the folder tree, or the file icon in the "
+"browser, and choose **Put** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:254
+msgid "In the dialog that opens do any of the following:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:256
+msgid ""
+"If you are putting a folder, check which files and folders contained by "
+"the selected folder have to be put in the central repository."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:258
+msgid ""
+"If you are putting a scene file (TNZ format) activate the **Put Scene "
+"Contents** if you want to put the files used in the scene as well."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:260
+msgid "Type a comment if required and click the **Put** button."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:266
+msgid "Editing Files"
+msgstr "ویرایش فایل ها"
+
+#: ../../source/using_the_version_control.rst:267
+msgid ""
+"When using the version control system, in order to modify files you have "
+"to put them in **Edit** mode *before loading them* into OpenToonz; if "
+"not, they will be loaded as *read-only*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:269
+msgid "|edit|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:271
+msgid ""
+"The **Edit** operation \"locks\" the file, so only the user running the "
+"command will be able to modify it (preventing other users using the same "
+"*central repository* from unlocking it and being able to modify it). At "
+"the moment a file is about to be edited, it's possible to type in a "
+"*Comment*, to let the other users know about your editing operation."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:273
+msgid "|edit_scene|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:275
+msgid ""
+"When editing a scene file (TNZ format), in the dialog that opens it's "
+"possible to check the **Edit Scene Contents** option, in order to be able"
+" to edit the materials used in the scene as well. If you choose to edit "
+"only the scene file, or if some material used in the scene is currently "
+"being edited by other users sharing the same central repository, the "
+"locked frames of that levels will be displayed with a forbidden icon in "
+"the Level Strip."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:277
+msgid "|edit_frame_range|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:279
+msgid ""
+"The **Edit Frame Range** command is available as well, to let a user edit"
+" only the *needed frames* of any Toonz Vector or Toonz Raster animation "
+"level. This way, different users can work at the same time *on different "
+"frame ranges* of the same animation level."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:281
+msgid "|unlock|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:283
+msgid ""
+"When you want to release files from the *editing mode*, so that others "
+"can work on them, you can use the **Unlock** command."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:285
+msgid ""
+"Files are in read-only mode (or in locked mode) in case a user is "
+"*editing* them, by setting the file system read-only attribute. For this "
+"reason, manually using the OS (instead of the appropriate version control"
+" commands) to change this status, may cause serious inconsistencies in "
+"the version control system."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:287
+msgid "**To edit an updated file:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:289
+#: ../../source/using_the_version_control.rst:297
+msgid "Right-click the file and choose **Edit** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:291
+#: ../../source/using_the_version_control.rst:299
+msgid ""
+"In the dialog that opens if you are editing a scene file (TNZ format) "
+"activate the **Edit Scene Contents** if you want to edit the files used "
+"in the scene as well."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:293
+#: ../../source/using_the_version_control.rst:313
+msgid "Type a comment if required and click the **Edit** button."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:295
+msgid ""
+"**To edit a file that is older than the version available in the central "
+"repository:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:301
+msgid "Type a comment if required and do one of the following:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:303
+msgid ""
+"Click the **Get and Edit** button to get the latest version of the files "
+"and edit them."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:305
+msgid ""
+"Click the **Edit** button to edit the version of the files that is "
+"currently in your local working copy."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:307
+msgid "**To edit only the needed frames of a Toonz level file:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:309
+msgid ""
+"Right-click the file and choose **Edit Frame Range** from the menu that "
+"opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:311
+msgid "In the dialog that opens set the frame range you want to edit."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:315
+msgid "**To release a file from the editing mode:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:317
+msgid "Right-click the file and choose **Unlock** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:319
+msgid "**To check the editing state of a locked file:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:321
+msgid "Right-click the file and choose **Edit Info** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:327
+msgid "Retrieving File Revisions"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:328
+msgid ""
+"One of the main advantages of using a version control system is that the "
+"*history* of the revisions for every file in the production database is "
+"always available. This means that it's possible to very easily retrieve "
+"previous versions of any file."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:330
+msgid ""
+"To retrieve older file versions it's possible to use the **Get Revision**"
+" command. When used on a single file it displays a timeline with all the "
+"file versions; in the timeline you can check the different file versions "
+"with the related icons and information, and select which version to get "
+"in order to edit it."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:332
+msgid "|get_revision|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:334
+msgid ""
+"When getting a revision of a scene file (TNZ format), in the dialog that "
+"opens it's possible to check the **Get Scene Contents** option in order "
+"to get the revisions of the materials used in the scene as well."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:336
+msgid "|get_revision_multiple_files|"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:338
+msgid ""
+"When used on a multiple files selection it opens a dialog that allows you"
+" to specify the time, day, week or date of the files version you want to "
+"retrieve."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:340
+msgid "**To retrieve an older revision of a file:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:342
+msgid "Right-click the file and choose **Get Revision** from the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:344
+msgid ""
+"In the dialog that opens look for the file version you are interested in "
+"and select it; if you are editing a scene file (TNZ format) activate the "
+"**Edit Scene Contents** if you want to get the revision of the files used"
+" in the scene as well."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:346
+msgid "Do one of the following:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:348
+msgid ""
+"Click the **Get Selected Revision** button to get the selected file "
+"version."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:350
+msgid "Click the **Get Last Revision** button to get the latest file version."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:352
+msgid "**To retrieve an older revision of a selection of multiple files:**"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:354
+msgid ""
+"Right-click any of the selected files and choose **Get Revision** from "
+"the menu that opens."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:356
+msgid ""
+"In the dialog that opens specify how much older the version of the files "
+"you want to retrieve has to be, by doing one of the following:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:358
+msgid "Specify a *time* in hours and minutes."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:360
+msgid "Specify a number of *days*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:362
+msgid "Specify a number of *weeks*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:364
+msgid "Specify and exact *date and time*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:372
+msgid "Understanding the Folder and File Icons"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:373
+msgid ""
+"According to the folder and file icons you can tell if the folder or the "
+"file in the working copy is updated or not to the latest version "
+"available in the central repository, and if files are edited by other "
+"users and locked."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:375
+msgid ""
+"If the File Browser displays files as a List, the information about the "
+"version control status is displayed in the column labeled *Version "
+"Control*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:377
+msgid "For **folders** the following icons are used:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:379
+msgid ""
+"|grey_folder| A *grey* folder icon is used for folders available only in "
+"the *repository*. You can use the **Get** command to copy them to the "
+"local *working copy*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:381
+msgid ""
+"|colored_folder_with_yellow_mark| A colored folder icon with a *yellow "
+"mark* is used when the folder contents in the *working copy* is not up to"
+" date and does not match to the folder contents in the *repository*: this"
+" is the case when there are modified or new files in the *working copy* "
+"or there are modified or new files in the *repository*. You can use the "
+"**Get** command to copy them to the local *working copy*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:383
+msgid ""
+"|colored_folder_with_green_mark| A colored folder icon with a *green "
+"mark* is used when the folder contents in the *working copy* is up to "
+"date and matches to the folder contents in the *repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:385
+msgid ""
+"|colored_folder_with_plus_mark| A colored folder with a *plus mark* is "
+"used for folders available only in the *working copy*. You can use the "
+"**Put** command to copy them to the *central repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:388
+msgid "For **files** the following icons are used:"
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:390
+msgid ""
+"A generic *grey* icon is used for files available only in the "
+"*repository*. You can use the **Get** command to copy them to the local "
+"*working copy*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:392
+msgid ""
+"|grey_mark_check| The file icon with a *grey check mark* is used when "
+"files in the *working copy* are up to date and match to the latest "
+"version available in the *repository*. The files are in *read-only mode*,"
+" and they have to be in *edit mode* in order to be modified."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:394
+msgid ""
+"|green_mark_check| The file icon with a *green check mark* is used when "
+"files in the *working copy* are in *edit mode*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:396
+msgid ""
+"|half_grey_mark_check| The file icon with a *green check mark on a grey "
+"and white background* is used when files in the *working copy* are "
+"partially in *edit mode*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:398
+msgid ""
+"|red_exclamation_mark_check| The file icon with a *red exclamation mark* "
+"is used when files in the *working copy* are newer than the latest "
+"version available in the *repository*, because you modified them. You can"
+" use the **Put** command to copy them to the *central repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:400
+msgid ""
+"|half_grey_red_exclamation_mark_check| The file icon with a *red "
+"exclamation mark on a grey and white background* is used when files in "
+"the *working copy* are partially newer than to the latest version "
+"available in the *repository*, because you modified them. You can use the"
+" **Put** command to copy them to the *central repository*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:402
+msgid ""
+"|orange_exclamation_mark_check| The file icon with an *orange exclamation"
+" mark* is used when files in the *working copy* are older than the latest"
+" version available in the *repository*, because someone modified them. "
+"You can use the **Get** command to copy them to the *local working copy*."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:404
+msgid ""
+"|lock_mark| The file icon with an *lock mark* is used when files are in "
+"*edit mode* by other users. For these files it is only possible to check "
+"the information about the user editing the file."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:406
+msgid ""
+"|half_grey_lock_mark| The file icon with a *lock mark on a grey and white"
+" background* is used when files are *partially in edit mode* by other "
+"users."
+msgstr ""
+
+#: ../../source/using_the_version_control.rst:408
+msgid ""
+"|blue_plus_mark| The file icon with the *plus mark* is used for files "
+"available only in the *working copy*. You can use the **Put** command to "
+"copy them to the *central repository*."
+msgstr ""
