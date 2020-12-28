@@ -275,7 +275,7 @@ Message Center
 
 |UI_messagecenter|
 
-The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
+The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear the list completely by pressing the Clear button.
 
 
 .. _toolbar:
