@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 22:42-0300\n"
-"PO-Revision-Date: 2019-07-18 22:44-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"PO-Revision-Date: 2021-02-22 21:55-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/toonzscript.rst:4
 msgid "ToonzScript"
@@ -523,12 +523,12 @@ msgid ""
 "scene.\\ **setCel**\\ (row, col, cell) , scene.\\ **setCell**\\ (row, col, "
 "level, frameId)"
 msgstr ""
-"scene.\\ **setCel**\\ (fila, columna, acetato) , scene.\\ **setCell**\\ (fila, "
+"scene.\\ **setCel**\\ (fila, columna, celda) , scene.\\ **setCell**\\ (fila, "
 "columna, nivel, IDfotograma)"
 
 #: ../../source/toonzscript.rst:295
 msgid "``cell``  is the kind of object returned by ``getCell()`` ."
-msgstr "``acetato``  es la clase de objeto devuelto por ``getCell()`` ."
+msgstr "``celda``  es la clase de objeto devuelto por ``getCell()`` ."
 
 #: ../../source/toonzscript.rst:297
 msgid ""
@@ -538,7 +538,7 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:298
 msgid "To delete a cell: ``scene.setCell(row, col, undefined)``"
-msgstr "Para borrar un acetato: ``scene.setCell(columna, columna, nodefinido)``"
+msgstr "Para borrar una celda: ``scene.setCell(fila, columna, nodefinido)``"
 
 #: ../../source/toonzscript.rst:299
 msgid ""
@@ -546,7 +546,7 @@ msgid ""
 "``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, "
 "col, {level:a, fid:1})``"
 msgstr ""
-"``acetato``  es un objeto estándar de JavaScript que incluye los atributos:"
+"``celda``  es un objeto estándar de JavaScript que incluye los atributos:"
 "``nivel``  y ``idf`` , se permite el siguiente uso: ``scene.setCell(fila, "
 "columna, {nivel:a, idf:1})``"
 
@@ -567,7 +567,7 @@ msgid ""
 "cell = scene.\\ **getCell**\\ (row, col) - returns a JavaScript object with "
 "level and fid attributes"
 msgstr ""
-"acetato = scene.\\ **getCell**\\ (fila, columna) - devuelve un objeto de "
+"celda = scene.\\ **getCell**\\ (fila, columna) - devuelve un objeto de "
 "JavaScript con los atributos nivel e idf"
 
 #: ../../source/toonzscript.rst:305
