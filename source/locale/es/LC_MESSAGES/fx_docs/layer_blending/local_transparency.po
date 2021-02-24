@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-10 01:51+0800\n"
+"PO-Revision-Date: 2021-02-23 22:01-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:4
+msgid "Local Transparency"
+msgstr "Local Transparency (Transparencia local)"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:6
+msgid "|node|"
+msgstr ""
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:9
+msgid "Inputs:"
+msgstr "Entradas:"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:11
+msgid "**Source ->** The image that will be affected."
+msgstr ""
+"**Source (Origen) ->** La imagen a la que le será aplicado el efecto."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:13
+msgid ""
+"**Reference ->** The luminance of the Reference image will control the "
+"opacity of the Source."
+msgstr ""
+"**Reference (Referencia) ->** La luminancia de la imagen conectada a "
+"*Reference* controlará la opacidad de la imagen conectada a *Source*."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:14
+msgid ""
+"The Source will be made transparent where the Reference is light, and "
+"opaque where the Reference is dark."
+msgstr ""
+"La imagen conectada a *Source* se tornará más transparente cuando más "
+"clara sea la imagen conectada a *Reference*, y más opaca cuanto más "
+"oscura sea."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:17
+msgid "Parameters:"
+msgstr "Parámetros:"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:19
+msgid "**Intensity ->** Controls the overall strength of the effect."
+msgstr ""
+"**Intensity (Intensidad) ->** Controla la intensidad global del efecto."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:20
+msgid ""
+"A value of 50 will produce a result halfway between the Source image and "
+"the full effect."
+msgstr ""
+"Un valor de 50 producirá un resultado a mitad de camino entre la imagen "
+"original y el efecto completo."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:23
+msgid "Usage Example:"
+msgstr "Ejemplo de uso:"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:25
+msgid "We can use a checker pattern to control the opacity of a circle"
+msgstr ""
+"Es posible usar un patrón de damero para controlar la opacidad del "
+"círculo"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:27
+msgid "|circle| |checker|"
+msgstr ""
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:30
+msgid ""
+"This is how the two levels are connected in the FX Schematic; by "
+"connecting the checker level to the Reference input, we will use its "
+"luminance to mask portions of the circle"
+msgstr ""
+"Así es cómo los dos niveles se encuentran conectados en el Diagrama de "
+"efectos; conectando el nivel del damero a la entrada *Reference* es "
+"posible usar su luminancia para enmascarar porciones del círculo"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:32
+msgid "|graph|"
+msgstr ""
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:34
+msgid ""
+"Here is the result; the red circle is visible within the black areas of "
+"the checker pattern and not in the white areas"
+msgstr ""
+"Aquí se muestra el resultado; el círculo rojo es visible en las áreas "
+"negras del patrón de damero y no en las blancas"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:36
+msgid "|example| |example_2|"
+msgstr ""
