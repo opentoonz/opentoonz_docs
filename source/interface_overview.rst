@@ -42,7 +42,7 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 .. tip:: **To return to the set of rooms provided with OpenToonz:**
 
-    Choose Windows  →  Worspace  →  Reset to Default Rooms.
+    Choose Windows  →  Worspace  →  **Reset to Default Rooms**.
 
 
 .. _customizing_rooms:
@@ -94,7 +94,7 @@ Most of the panes can be maximized to fill the full interface, and can be added 
 
 .. tip:: **To lock/unlock the rooms configuration:**
 
-    Activate/deactivate the Windows  →  Workspace  →  Lock Room Panes option.
+    Activate/deactivate the Windows  →  Workspace  →  **Lock Room Panes** option.
 
 
 .. _room_panes:
@@ -441,11 +441,11 @@ The Command Bar pane can be docked in any part of the OpenToonz UI.
 
 .. tip:: **To display the Command Bar:**
 
-    - Choose Windows  →  Command Bar.
+    - Choose Windows  →  **Command Bar**.
 
 .. tip:: **To customize the Command Bar buttons:**
 
-    1. Choose Windows  →  Command Bar to open the Command Bar.
+    1. Choose Windows  →  **Command Bar** to open the Command Bar.
 
     2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar window will open.
 
@@ -558,7 +558,7 @@ There are also several included themes to choose from: Default, Blue, Dark, Ligh
 
 .. figure:: /_static/UI/themes.png
 
-   The OpenToonz interface theme set to Default and to Light.
+   The OpenToonz interface theme set to *Default* and to *Light*.
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
