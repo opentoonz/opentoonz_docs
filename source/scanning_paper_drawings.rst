@@ -59,7 +59,7 @@ The driver you want to use must be selected according to your scanner before sta
 
 .. tip:: **To define the scanner:**
 
-    1. Choose Scan & Cleanup  →  **Define Scanner**.
+    1. Choose Scan & Cleanup  →  **Define Scanner...**.
 
     2. Do one of the following:
 
@@ -144,7 +144,7 @@ When an animation level is defined, the name and numbers for the drawings of the
 
     1. Do one of the following:
 
-    - Select a cell in the Xsheet/Timeline where you want to place your animation level to scan and choose File  →  **New Level**.
+    - Select a cell in the Xsheet/Timeline where you want to place your animation level to scan and choose Level  →  New  →  **New Level...**
 
     - Right-click the cell in the Xsheet/Timeline where you want to place your animation level to scan and choose **New Level** from the menu that opens.
 
