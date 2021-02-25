@@ -7,7 +7,7 @@ In order to be painted and edited with OpenToonz, scanned drawings have to under
 The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
 
-.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the **Minimize Raster Memory Fragmentation** option in the Files  →  Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the **Minimize Raster Memory Fragmentation** option in the Files  →  Preferences...  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 .. _the_cleanup_settings:
 
@@ -149,7 +149,7 @@ Three different autoadjust algorithms are available:
 
 .. note:: The advantage of the **Histo-L** mode over the others is that it adjusts the grey levels of each image independently, while the other algorithms equalize each image to make it look like the first one of the level.
 
-Only the effects of the **Black Eq** process can be checked using the Scan & Cleanup  →  **Cleanup Preview** command; the effects of **Histogram** and **Histo-L** are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup  →  Cleanup command. You may need to make a few trials using different algorithms before obtaining the desired results. 
+Only the effects of the **Black Eq** process can be checked using the Scan & Cleanup  →  **Cleanup Preview** command; the effects of **Histogram** and **Histo-L** are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup  →  **Cleanup** command. You may need to make a few trials using different algorithms before obtaining the desired results. 
 
 .. note:: These algorithms work on the area of the drawing specified in the Field text boxes, excluding a 5 mm boundary edge. In this way any line might be drawn to delimit the camera shot on paper, and the pegbar holes, do not affect the result.
 
@@ -450,7 +450,7 @@ It is also possible to automatically create a backup copy of the cleaned up draw
 
 .. tip:: **To automatically create a backup copy of the cleaned up drawings:**
 
-    1. Choose File  →  Preferences  →  Drawing.
+    1. Choose File  →  Preferences...  →  Drawing.
 
     2. Activate the **Keep Original Cleaned Up Drawings As Backup** option.
 
