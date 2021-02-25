@@ -572,7 +572,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To choose the interface language:**
 
-    1. Choose File  →  Preferences  →  Interface.
+    1. Choose File  →  Preferences...  →  Interface.
 
     2. In the Language* option menu choose the language you want to use in the interface.
 
@@ -580,7 +580,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To choose the interface theme:**
 
-    1. Choose File  →  Preferences  →  Interface.
+    1. Choose File  →  Preferences...  →  Interface.
 
     2. In the Theme option menu choose the style to be applied to the interface.
 
