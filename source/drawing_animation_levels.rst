@@ -31,11 +31,11 @@ By default Toonz Vector and Toonz Raster levels are saved in the **+drawing** fo
 
 .. tip:: **To define the Default Type of Level to Draw:**
 
-    1. Open File  →  Preferences  →  Drawing.
+    1. Open File  →  Preferences...  →  Drawing.
 
     2. Choose the level type you want to use as default from the **Default Level Type:** option menu. **Width**, **Height** and **DPI** fields are available for **Toonz Raster Level** and **Raster Level** options.
 
-.. note:: The Width, Height and DPI values set in the File  →  Preferences  →  Drawing section will also be used as default for the **New Level** dialog.
+.. note:: The Width, Height and DPI values set in the File  →  Preferences...  →  Drawing section will also be used as default for the **New Level** dialog.
 
 
 Drawing Animation Levels
@@ -61,13 +61,13 @@ Settings like the length of the level and the numbering order can be edited late
 
 When a new level is created in an empty column, the color of that column header and the cells where the new level gets exposed are colored denoting the type of level: **light yellow** for Toonz Vector levels, **light green** for Toonz Raster levels, and **light blue** for Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
-.. note:: The New Level dialog inherits the **Default Level Type** settings defined in Preferences  →  Drawing.
+.. note:: The New Level dialog inherits the **Default Level Type** settings defined in Preferences...  →  Drawing.
 
 .. tip:: **To create a new animation level to draw:**
 
     1. Do one of the following:
 
-    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose File  →  **New Level...**
+    - Select a cell in the Xsheet/Timeline where you want to place your animation level and choose Level → New  →  **New Level...**
 
     - Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose **New Level...** from the menu that opens.
 
@@ -92,14 +92,14 @@ Using the Autocreation Option
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 When in Preferences  →  Drawing the **Autocreation:** option is set to **Enabled**, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is the one **right after** one containing a level drawing (either in the Xsheet/Timeline or the Level Strip) a new drawing will be added to that level.
 
-.. note:: The level type will be the one defined in Preferences  →  Drawing as **Default Level Type**.
+.. note:: The level type will be the one defined in Preferences...  →  Drawing as **Default Level Type**.
 
 
 .. _using_the_xsheet_as_animation_sheet:
 
 Using the Xsheet as Animation Sheet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-When in Preferences  →  Drawing the **Autocreation:** option is set to **Use the Xsheet as Animation Sheet**, it's possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is **anywhere after** one containing a level drawing, a new drawing will be added to that level. In both cases the drawings will take its number from the scene current frame ; if that drawing number already existed in the level, a letter will be added to its number (e.g. A.0001a.ext). 
+When in Preferences...  →  Drawing the **Autocreation:** option is set to **Use the Xsheet as Animation Sheet**, it's possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is **anywhere after** one containing a level drawing, a new drawing will be added to that level. In both cases the drawings will take its number from the scene current frame ; if that drawing number already existed in the level, a letter will be added to its number (e.g. A.0001a.ext). 
 
 This working method allows you to work as a traditional animator: you can start creating the *key drawings*, and then add *breakdown drawings*, and then *inbetween drawings*. You can quickly check your animation flipping it in the viewer.
 
@@ -109,7 +109,7 @@ It's also possible to create a new drawing in a cell that contains a *hold*: the
 
 Once the animation is completed you can renumber the whole sequence according to the Xsheet/Timeline frame numbering.
 
-.. note:: The level type will be the one defined in Preferences  →  Drawing as **Default Level Type**.
+.. note:: The level type will be the one defined in Preferences...  →  Drawing as **Default Level Type**.
 
 .. tip:: **To create a new animation level**
 
@@ -238,7 +238,7 @@ The set of buttons and information available in the bottom bar of the Viewer can
 
 .. tip:: **To change the Viewer Background color:**
 
-    1. Open the File  →  Preferences  →  **Colors** dialog.
+    1. Open the File  →  Preferences...  →  **Colors** dialog.
 
     2. Define the **Viewer BG Color** by doing one of the following:
 
@@ -606,7 +606,7 @@ When a conversion is performed, a new level is created according to the selectio
 
     1. Select the level frames to convert in the Xsheet/Timeline.
 
-    2. Choose Level  →  **Convert to Vectors...**
+    2. Choose Level → Convert  →  **Convert to Vectors...**
 
     3. In the dialog set parameters for the conversion.
 
@@ -961,7 +961,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     2. Do one of the following:
 
-    - Choose Edit  →  **Group**.
+    - Choose Edit → Group  →  **Group**.
 
     - Right-click on the selection and choose **Group** from the menu that opens.
 
@@ -971,7 +971,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     2. Do one of the following:
 
-    - Choose Edit  →  **Ungroup**.
+    - Choose Edit → Group  →  **Ungroup**.
 
     - Right-click on the selection and choose **Ungroup** from the menu that opens.
 
@@ -979,7 +979,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     Do one of the following:
 
-    - Select the group, then choose Edit  →  **Enter Group**.
+    - Select the group, then choose Edit → Group  →  **Enter Group**.
 
     - Right-click the group and choose **Enter Group** from the menu that opens.
 
@@ -989,7 +989,7 @@ As the **Selection** tool (|selection|) considers the group as a whole, if you w
 
     Do one of the following:
 
-    - Choose Edit  →  **Exit Group**.
+    - Choose Edit → Group  →  **Exit Group**.
 
     - Right-click the group and choose **Exit Group** from the menu that opens.
 
@@ -1030,7 +1030,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit  →  **Bring to Front**.
+    - Choose Edit → Arrange  →  **Bring to Front**.
 
     - Right-click on the selection and choose **Bring to Front** from the menu that opens.
 
@@ -1038,7 +1038,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit  →  **Bring Forward**.
+    - Choose Edit → Arrange  →  **Bring Forward**.
 
     - Right-click on the selection and choose **Bring Forward** from the menu that opens.
 
@@ -1046,7 +1046,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit  →  **Send Back**.
+    - Choose Edit → Arrange  →  **Send Back**.
 
     - Right-click on the selection and choose **Send Back** from the menu that opens.
 
@@ -1054,7 +1054,7 @@ For each vector drawing, strokes and groups sorting order can be changed by sett
 
     Do one of the following:
 
-    - Choose Edit  →  **Send Backward**.
+    - Choose Edit → Arrange  →  **Send Backward**.
 
     - Right-click on the selection and choose **Send Backward** from the menu that opens.
 
@@ -1140,7 +1140,7 @@ The option Auto Select Drawing is available to automatically select any vector o
 
     - Move the handle ends to the control point, in order to collapse them.
 
-    - Right-click the control point and choose Set Linear Control Point from the menu that opens.
+    - Right-click the control point and choose **Set Linear Control Point** from the menu that opens.
 
 .. tip:: **To retrieve handles from a corner point:**
 
@@ -1148,7 +1148,7 @@ The option Auto Select Drawing is available to automatically select any vector o
 
     - Alt-click the corner point.
 
-    - Right-click the control point and choose Set Non-linear Control Point from the menu that opens.
+    - Right-click the control point and choose **Set Nonlinear Control Point** from the menu that opens.
 
 
 .. _changing_the_bend_of_vectors:
@@ -1302,7 +1302,7 @@ The best solution for this kind of issue is to overlap the final section of stro
 
     2. Do one of the following:
 
-    - Choose Edit  →  **Remove Vector Overflow**.
+    - Choose Level → Optimize  →  **Remove Vector Overflow**.
 
     - Right-click the selection and choose **Remove Vector Overflow** from the menu that opens.
 
@@ -1437,7 +1437,7 @@ Cloning Levels
 ''''''''''''''
 Sometimes it may be useful to create a clone of a level, or a part of it, in order to edit it without affecting the original one. For example you may want to create a new animation level starting from the drawings of another level, in order to have two sequences similar but not identical.
 
-The **Clone** command allows you to create a copy of the selected cells, preserving the numbering order and assigning a new name to it. The **_clone** suffix appended to the name of the level is the default.
+The **Clone Cells** command allows you to create an independent copy of the selected cells, preserving the numbering order and assigning a new name to it. The **_clone** suffix appended to the name of the level is the default.
 
 The cloned level will contain *only drawings exposed in the selected cells*, even if the original level is composed of more drawings; they will be automatically exposed in the column on the right (or layer on top) of the selection, shifting the following columns/layers.
 
@@ -1449,11 +1449,7 @@ The cell selection can also spread over several columns/layers: in this case the
 
     1. Select the cells you want to clone.
 
-    2. Do one of the following:
-
-    - Choose Cells  →  **Clone**.
-
-    - Right-click in the selection and choose **Clone** from the menu that opens.
+    2. Choose Cells  →  **Clone Cells**.
 
     3. Enter a **Level Name:** and press **OK** to confirm.
 
@@ -1478,7 +1474,7 @@ The *relative* Onion Skin mode displays frames in relation to the position of th
 
 The *fixed* Onion Skin mode displays the selected frame independently from the current frame. For instance you can activate frame 5, and every time you change the current frame, frame 5 will be displayed in Onion Skin mode.
 
-The way images are displayed in Onion Skin mode can be customized in the Preferences pane. It's possible to define the **Paper Thickness**, to set an independent color correction for previous and following frames, and to **Display Lines Only** for Toonz Vector and Toonz Raster.
+The way images are displayed in Onion Skin mode can be customized in the Preferences... → Onion Skin section. It's possible to define the **Paper Thickness**, to set an independent color correction for previous and following frames, and to **Display Lines Only** for Toonz Vector and Toonz Raster.
 
 .. tip:: **To activate or deactivate frames in Relative Onion Skin mode:**
 
@@ -1518,7 +1514,7 @@ The way images are displayed in Onion Skin mode can be customized in the Prefere
 
 .. tip:: **To customize the way images are displayed in onion skin mode:**
 
-    1. Choose File  →  Preferences  →  **Onion Skin**.
+    1. Choose File  →  Preferences...  →  **Onion Skin**.
 
     2. Do any of the following:
 
