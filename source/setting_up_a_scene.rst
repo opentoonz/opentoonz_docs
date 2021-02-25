@@ -17,7 +17,7 @@ If you want to change the default values you can save current scene settings as 
 
 .. tip:: **To save current scene settings as project default settings:**
 
-    Select File  →  Project Management  →  Save Default Settings: all the settings from the current scene will become the project default.
+    Select File  →  Project Management  →  **Save Default Settings**: all the settings from the current scene will become the project default.
 
 
 .. _choosing_the_working_unit:
@@ -30,9 +30,9 @@ The field unit is equal to 1/2 inch on the horizontal dimension, and it depends 
 
 In the Files  →  Preferences...  →  Interface dialog you can set the following default units:
 
-- The Unit is used to display all measures in text fields, and applied when moving or changing the size of stage objects.
+- The **Unit** is used to display all measures in text fields, and applied when moving or changing the size of stage objects.
 
-- The Camera Unit is used to display and define the camera size in the Xsheet  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
+- The **Camera Unit** is used to display and define the camera size in the Xsheet  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
 You can also express values in an unit different from the default one by entering any of the following units and abbreviations: in, inch, " , ' ' (two apostrophes), cm, mm, fld, field and px, after the input value itself. As soon as the value is entered it's converted in the default unit.
 
@@ -44,9 +44,9 @@ If a value without a specific unit is used, it is supposed to be expressed in th
 
     2. Do one of the following:
 
-    - In the Unit option menu choose the unit you want to use as default.
+    - In the **Unit** option menu choose the unit you want to use as default.
 
-    - In the Camera Unit option menu choose the unit you want to use to express the camera size.
+    - In the **Camera Unit** option menu choose the unit you want to use to express the camera size.
 
 
 .. _setting_the_frame_rate:
@@ -89,11 +89,11 @@ In OpenToonz the Camera is defined by different parameters:
 
     - X (Width) and Y (Height) frame size of the camera, expressed in the default Camera Unit (usually inches).
 
-    - A/R is the aspect ratio value resulting by dividing Width/Height.
+    - **A/R** is the aspect ratio value resulting by dividing Width/Height.
 
-    - X and Y resolution Pixels of the resulting image frame seen by the camera.
+    - X and Y resolution **Pixels** of the resulting image frame seen by the camera.
 
-    - X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal-sign button between them.
+    - X and Y **DPI** values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal-sign button between them.
 
 When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by OpenToonz. The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by OpenToonz, while changing the others as needed.
 
