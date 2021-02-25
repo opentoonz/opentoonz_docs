@@ -101,7 +101,7 @@ If you want a new scene to be part of a new project, first you have to define a 
 
     3. Type the name of the project and set the path to the folders you want to use as default. 
 
-    4. Click the OK button.
+    4. Click the **OK** button.
 
 .. tip:: **To change the current project:**
 
