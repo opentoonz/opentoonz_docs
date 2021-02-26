@@ -233,7 +233,7 @@ Checking Painted Drawings
 '''''''''''''''''''''''''
 To control if all the drawings areas are properly painted, and to see if the filling left small gaps along the lines antialiasing, or where a certain style is being used to paint lines or areas, it is possible to activate a series of checks:
 
-- The **Transparency Check** displays all the painted areas in the color defined in Preferences  →  Colors  →  Paint Color, all the lines or vector strokes in the color defined in Preferences...  →  Colors  →  **Ink Color on White BG** (or **Ink Color on Black BG**, depending on the chosen background color).
+- The **Transparency Check** displays all the painted areas in the color defined in Preferences  →  Colors  →  **Paint Color**, all the lines or vector strokes in the color defined in Preferences...  →  Colors  →  **Ink Color on White BG** (or **Ink Color on Black BG**, depending on the chosen background color).
 
 - The **Ink Check** displays the *lines or vector strokes*, colored with the current style in red.
 
