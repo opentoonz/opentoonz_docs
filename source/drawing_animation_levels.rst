@@ -751,7 +751,7 @@ In the tool options bar you can set the following:
 
 - **Rotation** sets the rotation of the current selection.
 
-- **Position N/S** and **E/W** set a vertical and horizontal offset for the selection.
+- **Position X** and **Y** set a vertical and horizontal offset for the selection.
 
 - **Thickness** sets the thickness of the selected vector strokes. In case the selected strokes have variable thickness, or different thickness values, the highest value is displayed, and any change will affect the other values accordingly. This is available for Toonz Vector drawings only.
 
