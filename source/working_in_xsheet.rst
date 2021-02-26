@@ -58,9 +58,9 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences...  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
-.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences  →  Xsheet.
+.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences...  →  Xsheet dialog section.
 
 In the file tree available on the left there are the following main items:
 
@@ -84,7 +84,7 @@ In the file tree available on the left there are the following main items:
 
 You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed as icons or as a list, displaying additional informations that can be also used to sort them.
 
-.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences  →  Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
+.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Level Strip Thumbnail Size** option set for the Level Strip frames in the Preferences...  →  Interface dialog section (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
 
 
 .. _loading_levels:
@@ -112,7 +112,7 @@ From the browser, you can **View** images and clips you are going to load as lev
 
 OpenToonz scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
 
-When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences  →  Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences...  →  Loading dialog section. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
 If you are loading one or several files located outside the default current project folders, you are prompted whether to **Import** them to the project database or to **Load** them from where they are. In the former case files will be copied to the appropriate project folder (PLI, TLV levels and their palettes in the *+drawings* folder; raster images, video clips and audio files in the *+extras* folder; standalone palettes in the *+palettes* folder, etc.) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter case they will be loaded using an absolute path to their original location.
 
@@ -160,9 +160,9 @@ If any of the files you want to import has the same name of a file already exist
 
     2. Do one of the following:
 
-    - Choose File  →  Load Level.
+    - Choose Level  →  **Load Level...**
 
-    - Right-click in the Xsheet/Timeline cell and choose Load Level from the menu that opens.
+    - Right-click in the Xsheet/Timeline cell and choose **Load Level...** from the menu that opens.
 
     3. In the browser that opens select the file you want to load as a level; if you select a video or image sequence file, you can select the frame range you want to load by using the **Load Subsequence Level** options.
 
@@ -180,7 +180,7 @@ If any of the files you want to import has the same name of a file already exist
 
     - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it. 
 
-    - Right-click the selection and choose Load from the menu that opens.
+    - Right-click the selection and choose **Load** from the menu that opens.
 
 .. note:: Files can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline or Viewer.
 
@@ -188,11 +188,11 @@ If any of the files you want to import has the same name of a file already exist
 
     1. Select the Xsheet/Timeline cell where you want to start exposing the levels; if any level is already exposed in that cell, a new column/layer will be inserted to expose the new levels.
 
-    2. In the OpenToonz File menu select the Load Folder... command.
+    2. Use the File  →  **Load Folder...** command.
 
     3. In the File Browser that opens select the folder you want to load.
 
-    4. Press the OK button.
+    4. Press the **OK** button.
 
     .. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the scene cast, Xsheet/Timeline, or Viewer.
 
@@ -200,7 +200,7 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To load back a recently loaded level:**
 
-    Choose File  →  Open Recent Level File, then select the level you want to load from the available submenu.
+    Choose Level  →  **Open Recent Level File**, then select the level you want to load from the available submenu.
 
 .. tip:: **To make a multiple selection in the file browser:**
 
@@ -212,21 +212,21 @@ If any of the files you want to import has the same name of a file already exist
 
     - Shift-click to extend the selection.
 
-    - Right-click in the right area of the browser and choose Select All from the menu that opens to select all the files contained in the current folder.
+    - Right-click in the right area of the browser and choose **Select All** from the menu that opens to select all the files contained in the current folder.
 
 .. tip:: **To view a level in the flipbook:**
 
     Do one of the following:
 
-    - In the OpenToonz browser or in the Xsheet right-click the level you want to view and choose View from the menu that opens.
+    - In the OpenToonz browser or in the Xsheet/Timeline right-click the level you want to view and choose **View** from the menu that opens.
 
-    - Choose Windows  →  Flipbook and drag and drop in the window the file you want to view.
+    - Choose Windows  →  **Flipbook** and drag and drop in the window the file you want to view.
 
   .. note:: By opening several Flipbook windows you can view several levels at the same time.
 
-.. tip:: **To set the default shrink factor and step for the file viewer:**
+.. tip:: **To set the default shrink factor and step for the file Viewer:**
 
-    1. Choose File  →  Preferences  →  Interface.
+    1. Choose File  →  Preferences...  →  Interface.
 
     2. Set the default **Viewer Shrink** and **Step** values.
 
@@ -284,7 +284,7 @@ Executing Tasks in the File Browser
 '''''''''''''''''''''''''''''''''''
 Some tasks concerning files can be executed directly in the File Browser.
 
-Files can be duplicated, converted to a different format, converted to TLV (Toonz raster image) format, renamed, premultiplied, and you can choose to separate their colors. 
+Files can be duplicated, converted to a different format, converted to TLV (Toonz Raster image) format, renamed, premultiplied, and you can choose to separate their colors. 
 
 When duplicating files, the new files will be renamed by appending an underscore followed by progressive numbering.
 
@@ -330,27 +330,27 @@ In particular if images have some transparency, transparent pixels remains trans
 
     1. Select the files you want to premultiply. 
 
-    2. Right-click any of the selected files and choose Premultiply from the menu that opens.
+    2. Right-click any of the selected files and choose **Premultiply** from the menu that opens.
 
 .. tip:: **To Convert a file to a different format:**
 
-    1. Right-click the file you want to convert and choose Convert from the menu that opens. The Convert window change depending on the format of the selected files.
+    1. Right-click the file you want to convert and choose **Convert...** from the menu that opens. The Convert window change depending on the format of the selected files.
 
     |convert|
 
     2. Choose the frame range to convert, the saving location, a name, the new format, and the background color of the converted file.
 
-    3. Activate the Skip Existing Files to to prevent overwriting already exixting files.
+    3. Activate the **Skip Existing Files** to to prevent overwriting already exixting files.
 
-    4. If needed, set the options for the file format chosen pressing the Options button and inserting the new values.
+    4. If needed, set the options for the file format chosen pressing the **Options** button and inserting the new values.
 
-    5. Click the Convert button.
+    5. Click the **Convert** button.
 
 .. tip:: **To Convert several files at once to a different format:**
 
     1. Select the files you want to convert.
 
-    2. Right-click any of the selected files and choose Convert from the menu that opens.
+    2. Right-click any of the selected files and choose **Convert...** from the menu that opens.
 
     |convert_several|
 
@@ -358,77 +358,78 @@ In particular if images have some transparency, transparent pixels remains trans
 
     4. Choose the saving location, the new format, and the background color of the converted files.
 
-    5. Activate the Skip Existing Files to to prevent overwriting already exixting files.
+    5. Activate the **Skip Existing Files** to to prevent overwriting already exixting files.
 
     6. If needed, set the options for the file format chosen pressing the Options button and inserting the new values.
 
-    7. Click the Convert button.
+    7. Click the **Convert** button.
 
 .. tip:: **To Convert files to the unpainted TLV format:**
 
     1. Select the lineart files you want to convert. 
 
-    2. Right-click any of the selected files and choose Convert from the menu that opens.
+    2. Right-click any of the selected files and choose **Convert** from the menu that opens.
 
     |convert_tlv_unpainted|
 
-    3. Select unpainted tlv from the File format drop down menu.
+    3. Select **Unpainted tlv** from the Mode drop down menu.
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
-    5. Activate the Skip Existing Files to to prevent overwriting already existing files.
+    5. Activate the **Skip Existing Files** to to prevent overwriting already existing files.
 
-    6. Activate the Apply Autoclose.
+    6. Activate the **Apply Autoclose**.
     
-    7. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
+    7. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting **Keep Original Antialiasing**; add some antialiasing selecting **Add Antialiasing with Intensity:** and writing an intensity value in the righthand input field; remove the antialiasing selecting the **Remove Antialiasing using Threshold:** option and writing a threshold value in the righthand input field.
 
-    8. Choose how to manage the palette of the tlv file/s you are going to create. By default a new palette is created. If you prefer to use an existing palette press the button next the palette field and use the browser to locate the palette file you desire to use.
+    8. Choose how to manage the Palette of the TLV file(s) you are going to create. By default a new palette will be created. If you prefer to use an existing palette press the button next the palette field and use the Browser to locate the palette file (TPL) you wish to use. Set a **Tolerance** value for the correlation between the RGB value of the areas and the indexes color of the palette.
 
-    9. Click the Convert button.
+    9. Click the **Convert** button.
 
 .. tip:: **To Convert files to the painted TLV format from two images:**
 
     1. Select the lineart file and the painted version of the same file you want to convert. 
 
-    2. Right-click any of the selected files and choose Convert from the menu that opens.
+    2. Right-click any of the selected files and choose **Convert...** from the menu that opens.
 
     |convert_tlv_painted|
 
-    3. Select painted tlv from the File format drop down menu.
+    3. Select **Painted tlv from two images** from the Mode drop down menu.
 
     4. Choose the saving location and, if you have selected one sequence, the frame range.
 
-    5. Activate the Skip Existing Files to to prevent overwriting already existing files.
+    5. Activate the **Skip Existing Files** to to prevent overwriting already existing files.
 
     6. Choose the folder where the unpainted files are located.
 
-    7. Specify the Suffix used for namig the unpainted version of the files (default is _u, but you can use anything you like when preparing the files for convertion).
+    7. Specify the Unpainted File Suffix used for naming the unpainted version of the files (default is _np, but you can use anything you like when preparing the files for convertion).
 
-    8. Activate the Apply Autoclose.
+    8. Activate the **Apply Autoclose**.
 
-    9. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
+    9. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting **Keep Original Antialiasing**; add some antialiasing selecting **Add Antialiasing with Intensity:** and writing an intensity value in the righthand input field; remove the antialiasing selecting the **Remove Antialiasing using Threshold:** option and writing a threshold value in the righthand input field.
 
-    10. Choose how to manage the palette of the tlv file/s you are going to create. By default a new palette is created. If you prefer to use an existing palette press the button next the palette field and use the browser to locate the palette file you desire to use.
+    10. Choose how to manage the Palette of the TLV file(s) you are going to create. By default a new palette will be created. If you prefer to use an existing palette press the button next the palette field and use the Browser to locate the palette file (TPL) you wish to use. Set a **Tolerance** value for the correlation between the RGB value of the areas and the indexes color of the palette.
 
-    11. Click the Convert button.
+    11. Click the **Convert** button.
 
 .. tip:: **To Convert files to the painted TLV format from non AA source:**
 
-    1. Select the Raster Full color file you want to convert. 
+    1. Select the *raster full color* file you want to convert. 
 
     |convert_tlv_painted_noaa|
 
     2. Choose the saving location and, if you have selected one sequence, the frame range.
 
-    3. Activate the Skip Existing Files to to prevent overwriting already existing files.
+    3. Activate the **Skip Existing Files** to to prevent overwriting already existing files.
 
     4. Choose the output folder.
 
-    5. Activate the Apply Autoclose if needed.
+    5. Activate the **Apply Autoclose** if needed.
 
-    6. Choose how to manage the palette of the tlv file/s you are going to create. By default a new palette is created. If you prefer to use an existing palette press the button next the palette field and use the browser to locate the palette file you desire to use. Sets a Tolerance value for the correlation between the RGB value of the areas and the indexes color of the palette.
+    6. Choose how to manage the Palette of the TLV file(s) you are going to create. By default a new palette will be created. If you prefer to use an existing palette press the button next the palette field and use the Browser to locate the palette file (TPL) you wish to use.
+    
+    7. Click the **Convert** button.
 
-    7. Click the Convert button.
 
 .. _separate_colors:
 
@@ -693,7 +694,7 @@ The original level is preserved in the Scene Cast from where it can be retrieved
 
     - Right-click the selection and choose one of the options in the **Replace Level** submenu, from the menu that opens.
 
-    3. In the browser select the new level, and click the OK button (see  :ref:`Using the File Browser <using_the_file_browser>`  ).
+    3. In the browser select the new level, and click the **OK** button (see  :ref:`Using the File Browser <using_the_file_browser>`  ).
 
 
 .. _editing_level_settings:
@@ -739,9 +740,9 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     - Select a level in the Xsheet/Timeline and choose Level  →  **Level Settings...**.
 
-    - Right-click a level in the Xsheet/Timeline and choose **Level Setting...** from the menu that opens.
+    - Right-click a level in the Xsheet/Timeline and choose **Level Settings...** from the menu that opens.
 
-    - Right-click a level in the Scene Cast and choose **Level Setting...** from the menu that opens.
+    - Right-click a level in the Scene Cast and choose **Level Settings...** from the menu that opens.
 
 
 .. _xsheet_toolbar:
@@ -761,9 +762,9 @@ The Xsheet Toolbar pane can be toggled depending on user preferences.
 
     Do one of the following:
 
-    - Right click on any column/layer header and choose **Toggle Xsheet Toolbar** from the menu that opens.
+    - Right click on any *column/layer header* and choose **Toggle Xsheet Toolbar** from the menu that opens.
 
-    - Activate the File  →  Preferences  →  Xsheet  →  **Show Toolbar in the Xsheet** option.
+    - Activate the File  →  Preferences...  →  Xsheet  →  **Show Toolbar in the Xsheet** option.
 
     .. note:: When the Xsheet Toolbar is shown, it's also possible to activate the **Expand Function Editor Header to Match Xsheet Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
 
@@ -792,9 +793,9 @@ When levels are exposed in the Xsheet they are placed in columns (layers, in the
 
 |timeline|
 
-The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences  →  Interface dialog.
+The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences...  →  Interface dialog.
 
-Column/layer cells may have different colors according to the type of level they contain. Toonz Vector levels are displayed in dark yellow; Toonz Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by OpenToonz in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
+Column/layer cells may have different colors according to the type of level they contain. Toonz Vector levels are displayed in *dark yellow*; Toonz Raster levels in *green*; Raster levels in *light blue*; Sub-Xsheets in *violet* (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by OpenToonz in *brown* (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in *pale green* (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in *grey*.
 
 Each column/layer header contains information about its content. These are:
 
@@ -814,13 +815,13 @@ Each column/layer header contains information about its content. These are:
 
     - **Preview icon** of the first drawing or image exposed in the column/layer.
 
-      .. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the **Column Icon** option available in Preferences  →  Xsheet.
+      .. note:: The icons on the Xsheet column headers can either be displayed at once when the scene is opened, or on demand by clicking on the column header, according to the **Column Icon** option available in Preferences...  →  Xsheet.
 
     - **Parent** information, is an area where the object (by default the Table) and center (by default center B) to which each column/layer is parented is displayed (see  :ref:`Linking Objects <linking_objects>`  ). Currently this is not shown in the Timeline header.
 
 In the Xsheet, the column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). In the Timeline, the same controls are placed in the time ruler at the top of the Timeline, having an equivalent functionality.
 
-.. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences  →  Xsheet dialog.
+.. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences...  →  Xsheet dialog.
 
 Above the frame number column, there are buttons for creating and navigating Memos that can be posted in the Xsheet/Timeline (see  :ref:`Using Memos <using_memos>`  ).
 
@@ -880,15 +881,15 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
     2. Do one of the following:
 
-    - Use the Copy command to keep in memory the selection for further operations.
+    - Use the **Copy** command to keep in memory the selection for further operations.
 
-    - Use the Cut command: to eliminate the selection from the scene and keep it in memory for further operations. The column/layer elimination causes the following columns to shift left (or the layers above to shift down).
+    - Use the **Cut** command: to eliminate the selection from the scene and keep it in memory for further operations. The column/layer elimination causes the following columns to shift left (or the layers above to shift down).
 
-    - Use the Paste command to paste the selection kept in memory starting from the selected column/layer. The command causes following columns to shift right (or layers above to shift up).
+    - Use the **Paste** command to paste the selection kept in memory starting from the selected column/layer. The command causes following columns to shift right (or layers above to shift up).
 
-    - Use the Delete command to delete the selection.
+    - Use the **Delete** command to delete the selection.
 
-    - Use the Insert command to insert empty columns before the selection; inserted columns/layers will be as many as the selected ones.
+    - Use the **Insert** command to insert empty columns before the selection; inserted columns/layers will be as many as the selected ones.
 
 .. note:: All of these commands are also available in the menu that opens when right-clicking the column/layer header.
 
@@ -951,7 +952,7 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
     1. Select the cell in the Xsheet/Timeline where the drawing is exposed.
 
-    2. Use the tools to edit it in the viewer. 
+    2. Use the tools to edit it in the Viewer. 
 
 .. tip:: **To select several cells:**
 
@@ -1045,13 +1046,13 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
 .. tip:: **To drag a cell selection moving along the column/layer data:**
 
-    1. Choose File  →  Preferences  →  Xsheet.
+    1. Choose File  →  Preferences...  →  Xsheet.
 
     2. Set the Cell-dragging Behaviour option to **Cells and Column Data**.
 
-    .. note:: Column/layer data are moved along only when dragging the selected cells to an empty column/layer.
+    .. note:: Column/layer data is moved along only when dragging the selected cells to an empty column/layer.
 
-    .. note:: The column/layer data are moved along except for the linked columns/layers, because linked columns/layers can only have one parent column/layer.
+    .. note:: Column/layer data is moved along except for the linked columns/layers, because linked columns/layers can only have one parent column/layer.
 
 
 .. _using_the_smart_fill_handle:
@@ -1269,11 +1270,11 @@ If the camera settings of the scene you are loading as a Sub-Xsheet are differen
 
     Do one of the following:
 
-    - Choose File  →  **Load Level** and use the browser to load a TNZ file.
+    - Choose Level  →  **Load Level...** and use the browser to load a TNZ file.
 
-    - Choose File  →  **Load As Sub-Xsheet** and use the browser to load a TNZ file.
+    - Choose File  →  **Load As Sub-Xsheet...** and use the browser to load a TNZ file.
 
-    - Use the OpenToonz standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the viewer.
+    - Use the OpenToonz standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the Viewer.
 
     - In the file browser right-click the scene icon and select **Load As Sub-Xsheet** in the menu that opens.
 
@@ -1296,9 +1297,9 @@ Sub-Xsheets can be exploded to automatically bring their content into the Xsheet
 
     2. Do one of the following:
 
-    - Choose Xsheet  →  **Explode**.
+    - Choose Xsheet  →  **Explode Sub-Xsheet**.
 
-    - Right-click the Sub-Xsheet column header and choose **Explode** from the menu that opens.
+    - Right-click the Sub-Xsheet *column header* and choose **Explode Sub-Xsheet** from the menu that opens.
 
     3. Choose whether to bring relevant pegbars to the main Xsheet/Timeline, or to bring columns/layers only, then click the OK button.
 
@@ -1322,7 +1323,7 @@ The Sub-Xsheet content will be saved according to the current project settings f
 
 Creating a Soundtrack
 ---------------------
-Audio clips can be loaded and edited in order to create a soundtrack for the scene; natively supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences  →  Import/Export dialog, ``MP3`` audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
+Audio clips can be loaded and edited in order to create a soundtrack for the scene; natively supported file formats are non-compressed ``WAV`` and ``AIFF``  files at 8 and 16 bit. If FFmpeg is installed and configured in Preferences...  →  Import/Export dialog section, ``MP3`` audio files can be loaded too. There is no limit to the number of audio clips that can be loaded in a scene.
 
 To load an audio clip you can use the Browser room; if an audio clip is imported, it is saved in the *+extras* folder (see  :ref:`Using the File Browser <using_the_file_browser>`  ). Loaded audio clips are also stored in the Audio folder of the Scene Cast.
 
@@ -1352,7 +1353,7 @@ When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or A
 
 .. note:: Audio clips loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
+.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences...  →  General dialog section, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
 .. tip:: **To play the contents of an audio column/layer back:**
 
@@ -1529,7 +1530,7 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
 
 .. tip:: **To import a Magpie file:**
 
-    1. Choose File  →  **Import Magpie File...**.
+    1. Choose File  →  **Import Toonz Lip Sync File...**.
 
     2. In the browser that opens retrieve the TLS file you exported from Magpie and click the **Load** button.
 
@@ -1561,7 +1562,7 @@ While Papagayo-NG takes care of the audio file analysis and phoneme recognition,
 
     1. Expose in the Xsheet/Timeline at least one drawing of the level containing the mouth shapes set.
     
-    2. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option.
+    2. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option or from Xsheet  →  **Apply Lip Sync Data to Column**.
     
     3. A dialog opens letting you choose which level drawings to assign to each phoneme. 
 
@@ -1639,7 +1640,7 @@ Scene files can be saved and loaded as TNZ files using the related menu commands
 
 When you use the **Save As...** command, if the *$scenepath* is used in the default folders definition, all the material used in the scenes and located in project default folders will be duplicated in folders related to the new scene (see  :ref:`Using the $scenepath Variable in Folder Definition <using_the_$scenepath_variable_in_folder_definition>`  ).
 
-An option **Save Automatically** allows to save the scene every given number of minutes, and is available in the Preferences  →  General dialog. If the option is activated, during the saving operation a message is displayed to notify the process.
+An option **Save Automatically** allows to save the scene every given number of minutes, and is available in the Preferences...  →  Saving dialog section. If the option is activated, during the saving operation a message is displayed to notify the process.
 
 .. note:: An asterisk to the right of the scene name in the Viewer and Xsheet/Timeline title bars, denotes that there are unsaved changes for the current scene.
 
@@ -1689,7 +1690,7 @@ An option **Save Automatically** allows to save the scene every given number of 
 
 .. tip:: **To automatically save a scene every given number of minutes:**
 
-    1. Choose File  →  Preferences  →  General.
+    1. Choose File  →  Preferences...  →  Saving.
 
     2. Activate the **Save Automatically** option and enter the number of minutes that have to pass between each saving operation.
    
@@ -1717,9 +1718,9 @@ If you decide to import the scene, the scene will be loaded, and all the scene m
 
 - All the files that were located in external folders (i.e. the ones loaded in the scene by using absolute paths), will remain where they are.
 
-While the material is automatically imported and saved in the current project, the scene file will not be saved until you will save it by using the Save Scene... or Save Scene As... commands.
+While the material is automatically imported and saved in the current project, the scene file will not be saved until you will save it by using the **Save Scene** or **Save Scene As...** commands.
 
-It is also possible to import one or several scenes into the current project with no need to load and save them by using the Import Scene command.
+It is also possible to import one or several scenes into the current project with no need to load and save them by using the **Import Scene** command.
 
 In this case both the material files located in the original project default folders and the scene file will be copied in the related default folders of the current project.
 
