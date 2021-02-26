@@ -410,7 +410,7 @@ Once areas to be tracked are defined in the first frame of a range, it's possibl
 
     3. Select the frame range in the Xsheet/Timeline or in the Level Strip.
 
-    4. Choose Level  →  **Tracking**, set the tracking options and click the **Track** button.
+    4. Choose Level  →  **Tracking...**, set the tracking options and click the **Track** button.
 
 .. tip:: **To link an object to the tracked region:**
 
@@ -429,11 +429,11 @@ In the **Animate tool** (|animate|) options bar you can set the following:
     
     - **Mode:**, lets you choose which transformation options to display in the tool options bar. Options are: **Position**, **Rotation**, **Scale**, **Shear**, **Center** and **All**.
 
-    - **Position**, **N/S:** and **E/W:** set the vertical and horizontal positions of the selected object, position **Z:** sets its position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO:** sets the column/layer stacking order, that can be different from the one defined in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+    - **Position**, **X:** and **Y:** set the horizontal and vertical positions of the selected object, **Z:** sets its position along the Z axis, for defining the depth of the object in 3D space (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO:** sets the column/layer stacking order, that can override the default one defined by the Xsheet column (or Timeline layer) order (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
     |animate_tool_position|
 
-    - **Rotation:**, sets the rotation of the selected object.
+    - **Rotation:**, sets the rotation of the selected object around the Z axis.
 
     |animate_tool_rotation|
 
@@ -445,7 +445,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
     |animate_tool_shear|
 
-    - **Center**, **N/S:** and **E/W:** set the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
+    - **Center**, **X:** and **Y:** set the horizontal and vertical position of the center of the selected object. The Center of an object cannot be animated.
 
     |animate_tool_center|
 
@@ -461,7 +461,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: Position values are expressed in the default unit of measure set in the Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
+.. note:: Position values are expressed in the default unit of measure set in the Preferences...  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
 
 .. _animate_tool_handle:
@@ -643,7 +643,7 @@ A motion path can be assigned to an object node in the Stage Schematic, and it c
    A motion path assigned to pegbar 2.
 
 
-As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard E/W and N/S directions anymore).
+As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard X and Y directions anymore).
 
 The keyframes of the object on the motion path can be defined by dragging the object along it, and they are *expressed as a percentage* where 0% is the starting point and 100% is the ending point of the path. 
 
@@ -872,7 +872,7 @@ Working in a 3D Environment
 ---------------------------
 You can place and move cameras, the table, pegbars and columns/layers in a 3D environment, as if they were elements on a real 3D stage. 
 
-This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
+This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the X and Y directions.
 
 The 3D environment can be activated, or deactivated, with the **3D View** button (|3d|) available in the Viewer title bar. When activated, the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top viewpoint can be set. 
 
