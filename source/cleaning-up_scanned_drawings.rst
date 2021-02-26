@@ -276,7 +276,7 @@ You can also set other parameters and options:
 
 - The **Closest Field** parameter (NOT AVAILABLE in OpenToonz) defines the smallest field size you will zoom into the drawing, with the camera when compositing the scene. This value is meaningful if it is smaller than the camera field size, as it increases the final image resolution, preventing zoomed-in images from appearing jagged. For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16 field size and the **Closest Field** is set to 8, the cleaned up drawings will have to be of twice the camera resolution, that is 3840 by 2160 pixels, so that when the camera closes up, the original image pixel resolution is preserved.
 
-- The **E/W** and **N/S** offset parameters shift the camera position, in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the **Autocenter** is *on*, or different from the actual center of the image if the **Autocenter** is *off*; after the cleanup, the camera center will be the new center for the processed drawings.
+- The **X** and **Y** offset parameters shift the camera position, in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the **Autocenter** is *on*, or different from the actual center of the image if the **Autocenter** is *off*; after the cleanup, the camera center will be the new center for the processed drawings.
 
 The cleanup camera size, resolution and offset can also be graphically controlled in OpenToonz's main Viewer when checking the cleanup process with the **Camera Test** mode (see  :ref:`Using the Camera Test <using_the_camera_test>`  ).
 
@@ -421,7 +421,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
     - Activate the DPI Lock in the cleanup camera parameters, and operate the handles to scale also the camera resolution  (NOT AVAILABLE in OpenToonz).
 
-    - Move the camera box to modify the cleanup camera E/W and N/S offset.
+    - Move the camera box to modify the cleanup camera X and Y offset.
 
 .. tip:: **To perform the camera test on a different drawing:**
 
