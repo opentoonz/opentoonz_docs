@@ -8,7 +8,7 @@ All Toonz level drawings are made of **lines** (determined by the strokes of sca
 
 .. note:: All the painting work is not saved until you save the related level, or use the **Save All** command (see  :ref:`Saving Levels <saving_levels>`  ).
 
-.. note:: If the computer performance worsens during the painting process of Toonz Raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance worsens during the painting process of Toonz Raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences...  →  General dialog section (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 
 .. _painting_tools:
@@ -54,7 +54,7 @@ Areas can be filled when their outline is well-defined, with no gaps occurring a
 
 Options available for the painting tools can help you to speed up the painting job. You can decide which options are the most suitable for your task by following the guidelines below.
 
-.. note:: In Toonz Raster levels, the areas that can be painted are limited either by the image border or by the image Savebox, according to the **Use the TLV Savebox to Limit Filling Operations** option available in Preferences  →  Tools.
+.. note:: In Toonz Raster levels, the areas that can be painted are limited either by the image border or by the image *Savebox*, according to the **Use the TLV Savebox to Limit Filling Operations** option available in Preferences...  →  Tools.
 
 .. note:: Some styles may not be suitable for filling areas, such as the **Trail** or **Vector** styles or some of the **Generated** styles. If you select one of these styles in the Palette, and you use it to fill an area, no operation will be performed.
 
@@ -233,7 +233,7 @@ Checking Painted Drawings
 '''''''''''''''''''''''''
 To control if all the drawings areas are properly painted, and to see if the filling left small gaps along the lines antialiasing, or where a certain style is being used to paint lines or areas, it is possible to activate a series of checks:
 
-- The **Transparency Check** displays all the painted areas in the color defined in Preferences  →  Colors  →  Paint Color, all the lines or vector strokes in the color defined in Preferences  →  Colors  →  Ink Color on White Bg (or Preferences  →  Colors  →  Ink Color on Black Bg, depending on the chosen background color).
+- The **Transparency Check** displays all the painted areas in the color defined in Preferences  →  Colors  →  Paint Color, all the lines or vector strokes in the color defined in Preferences...  →  Colors  →  **Ink Color on White BG** (or **Ink Color on Black BG**, depending on the chosen background color).
 
 - The **Ink Check** displays the *lines or vector strokes*, colored with the current style in red.
 
@@ -468,7 +468,7 @@ When the image is displayed in the Color Model viewer, you can use it not only a
 
     - Choose File  →  **Load Color Model...**, and load the Toonz level or the full color raster image you want to use as a reference.
 
-    - **Right-click** in the Color Model viewer and choose **Load Color Model** from the menu that opens.
+    - **Right-click** in the Color Model viewer and choose **Load Color Model...** from the menu that opens.
 
     - Drag and drop the Toonz level or the full color raster image you want to use as reference to the Color Model viewer.
 
