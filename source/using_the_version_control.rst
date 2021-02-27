@@ -189,7 +189,7 @@ At this point the repository will be displayed in the OpenToonz browser, and you
 
 .. tip:: **To initialize the version control system:**
 
-    1. In OpenToonz open the Preferences  →  Version Control dialog and activate the **Enable Version Control** option.
+    1. In OpenToonz open the Preferences...  →  Version Control dialog section and activate the **Enable Version Control** option.
 
      .. note:: If the version control is not correctly installed or the configuration file is not correctly defined, activating the option will prompt a warning message.
 
@@ -214,7 +214,7 @@ When a folder is selected in the folder tree *a refresh operation occurs automat
 
 .. tip:: **To disable the automatic refresh for folder content:**
 
-    1. Choose File  →  Preferences  →  Version Control.
+    1. Choose File  →  Preferences...  →  Version Control.
 
     2. Deactivate the **Automatically Refresh Folder Contents** option.
 
