@@ -8,12 +8,12 @@ Transparency
 Inputs:
 -------
 
-| **Source ->** The image that will be affected.
+| **Source  →** The image that will be affected.
 
 Parameters:
 -----------
 
-| **Intensity ->** Controls the overall strength of the effect.
+| **Intensity  →** Controls the overall strength of the effect.
 | A value of 50 will produce a result halfway between the Source image and the full effect.
 
 Usage Example:
