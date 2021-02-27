@@ -8,15 +8,15 @@ Local Transparency
 Inputs:
 -------
 
-| **Source ->** The image that will be affected.
+| **Source  →** The image that will be affected.
 
-| **Reference ->** The luminance of the Reference image will control the opacity of the Source.
+| **Reference  →** The luminance of the Reference image will control the opacity of the Source.
 | The Source will be made transparent where the Reference is light, and opaque where the Reference is dark.
 
 Parameters:
 -----------
 
-| **Intensity ->** Controls the overall strength of the effect.
+| **Intensity  →** Controls the overall strength of the effect.
 | A value of 50 will produce a result halfway between the Source image and the full effect.
 
 Usage Example:
