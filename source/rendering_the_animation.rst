@@ -15,7 +15,7 @@ Animations can be previewed directly in the OpenToonz Viewer, including in the *
 
 In both cases the Flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
-.. note:: If the computer performance worsens during the preview process of raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance worsens during the preview process of raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences...  →  General dialog section (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 
 .. _previewing_frames_in_the_viewer:
@@ -91,9 +91,9 @@ The animation can be previewed in a separate window according to specific *Previ
 
 It is possible to define the range of previewed frames both in the Preview Settings and by using the Playback Markers in the Xsheet/Timeline: any change made in one mode is reflected in the other one as well (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ). It is also possible to display blank frames after each preview playback, when looping.
 
-It is possible to activate the Preferences  →  Preview  →  **Fit to Flipbook** option to ensure that the previewed images fit the size of the preview window, regardless their resolution.
+It is possible to activate the Preferences...  →  Preview  →  **Fit to Flipbook** option to ensure that the previewed images fit the size of the preview window, regardless their resolution.
 
-It is possible to clone the Preview window, or to automatically open as many Preview windows as needed by activating the Preferences  →  Preview  →  **Display in a New Flipbook Window** option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
+It is possible to clone the Preview window, or to automatically open as many Preview windows as needed by activating the Preferences...  →  Preview  →  **Display in a New Flipbook Window** option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
 
  |preview_settings_dialog| 
 
@@ -131,13 +131,13 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
 .. tip:: **To set the scene preview settings:**
 
-    1. Choose File  →  **Preview Settings**.
+    1. Choose Render  →  **Preview Settings...**.
 
     2. Set the options you want to use for the preview.
 
 .. tip:: **To open the preview window:**
 
-    Choose File  →  **Preview**.
+    Choose Render  →  **Preview**.
 
 .. tip:: **To clone the preview window:**
 
@@ -149,19 +149,19 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
 .. tip:: **To open a new Flipbook window every time you run a preview:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences...  →  Preview.
 
     2. Activate the **Display in a New Flipbook Window** option.
 
 .. tip:: **To rewind the preview content automatically after playback:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences...  →  Preview.
 
     2. Activate the **Rewind After Playback** option.
 
 .. tip:: **To display blank frames after each preview playback when looping:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences...  →  Preview.
 
     2. Do any of the following:
 
@@ -236,7 +236,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To open a Flipbook:**
 
-    Choose Window  →  **Flipbook**.
+    Choose Windows  →  **Flipbook**.
 
 .. tip:: **To load some contents into a Flipbook:**
 
@@ -286,7 +286,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To rewind the Flipbook content automatically after playback:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences...  →  Preview.
 
     2. Activate the **Rewind after Playback** option.
 
@@ -302,7 +302,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To link the playback of all the open Flipbook windows:**
 
-    Choose View  →  **Link Flipbooks** to activate or deactivate the linked playback mode.
+    Choose Play  →  **Link Flipbooks** to activate or deactivate the linked playback mode.
 
 .. tip:: **To set the playback frame rate:**
 
@@ -441,7 +441,7 @@ Rendering the Animation
 -----------------------
 Final animations can be rendered directly by loading the related scene, or in batch mode. In both cases the rendering properties are defined in the Output Settings dialog.
 
-.. note:: Information about the scene name and frame number can be included when needed in rendered frames by activating the **Show Info in Rendered Frames** option in the Preferences  →  General dialog.
+.. note:: Information about the scene name and frame number can be included when needed in rendered frames by activating the **Show Info in Rendered Frames** option in the Preferences...  →  General dialog section.
 
 
 .. _choosing_the_output_settings:
@@ -543,7 +543,7 @@ Other Settings
 
 .. tip:: **To set the scene output settings:**
 
-    1. Choose File  →  Output Settings.
+    1. Choose Render  →  ***Output Settings...**
 
     2. Set the options you want to use for the final rendering.
 
@@ -571,37 +571,33 @@ They can also be stored in the project's default settings by using the File  →
 
 .. tip:: **To Add a Clapperboard:**
 
-    1. Open the File  →  Output Settings... dialog.
+    1. Open the Render  →  Output Settings... dialog.
     
-    2. Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM).
+    2. Select any *movie* type file format (3GP, AVI, MOV, MP4 or WebM).
     
-    3. Open **Other Settings** group box.
+    3. In the More Settings section, enable the **Add Clapperboard** option.
     
-    4. Enable the **Add Clapperboard** option.
+    4. Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog opens.
     
-    5. Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog opens.
-    
-    6. Set the **Duration (frames):** option to any value greater than 0.
+    5. Set the **Duration (frames):** option to any value greater than 0.
     
    .. note:: Setting the duration to 0 frames will remove the clapperboard data from the scene when it's saved.
 
 .. tip:: **To temporarily deactivate the Clapperboard:**
 
-    1. Open the File  →  Output Settings... dialog.
+    1. Open the Render  →  Output Settings...  →  More dialog section.
     
     2. Disable the **Add Clapperboard** option.
     
 .. tip:: **To Delete the Clapperboard:**
 
-    1. Open the File  →  Output Settings... dialog.
+    1. Open the Render  →  Output Settings...  →  More dialog section.
     
-    2. Open **Other Settings** group box.
+    2. Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog opens.
     
-    3. Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog opens.
-    
-    4. Set the **Duration (frames):** option value to 0.
+    3. Set the **Duration (frames):** option value to 0.
    
-    5. Save the scene.
+    4. Save the scene.
 
 
 .. _creating_multiple_renderings:
@@ -616,7 +612,7 @@ With **Multiple Rendering:** it's possible to render automatically, from a singl
 
 The names of the different output files are automatically generated in order to avoid any name conflict between file names. In particular they are built by appending to the *output file name*: the **column name**, then the **column ID** (as can be read in the node tooltip), then the **effect name**, then the **effect ID** (as can be read in the node tooltip) *in case the effect node was renamed*. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the output files of the scene *scene01* , related to the flow going from column *B* (whose ID is *Col3*) to the effect node *My Blur* (whose ID is *Blur1*).
 
-.. note:: No output will be displayed after the rendering, regardless of **Open Flipbook after Rendering** being activated in Preferences  →  Preview dialog.
+.. note:: No output will be displayed after the rendering, regardless of **Open Flipbook after Rendering** being activated in Preferences...  →  Preview dialog section.
 
 .. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns/layers, you may collapse them in a Sub-Xsheet (in case of **Flows** type multiple rendering) or connect them to several Over nodes (in case of **Terminal Nodes** type multiple rendering).
 
@@ -650,19 +646,19 @@ If the scene contains some audio files and is rendered in a file format supporti
 
 .. note:: Audio files loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz Flipbook by activating the **Open Flipbook after Rendering** option in the Preferences  →  Preview dialog; it's also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it's also possible to listen to it.
+As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz Flipbook by activating the **Open Flipbook after Rendering** option in the Preferences...  →  Preview dialog section; it's also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it's also possible to listen to it.
 
 When displayed in the Flipbook, the rendering can be checked by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
-You can also activate the **Use Default Viewer for Movie Format** option in the Preferences  →  General dialog, in order to play back the output with its own default viewer, e.g. QuickTime Player for the MOV format.
+You can also activate the **Use Default Viewer for Movie Formats** option in the Preferences...  →  General dialog section, in order to play back the output with its own default viewer, e.g. QuickTime Player for the MOV format.
 
 .. tip:: **To render the currently loaded scene:**
 
-    Choose File  →  **Render**.
+    Choose Render  →  **Render**.
 
 .. tip:: **To display blank frames after each rendering playback when looping:**
 
-    1. Choose File  →  Preferences  →  **Preview**.
+    1. Choose File  →  Preferences...  →  **Preview**.
 
     2. Do any of the following:
 
@@ -843,7 +839,7 @@ Using Chunks when Rendering Tasks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you are using the OpenToonz render farm, it's possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
 
-The default value for the chunk size (expressed in number of frames) can be set using the **Render Task Chunk Size** in the Preferences  →  General pane. If the default value is higher than the duration (in frames) of the submitted scene, the value will be automatically adjusted to be equal to the duration of the scene.
+The default value for the chunk size (expressed in number of frames) can be set using the **Render Task Chunk Size** in the Preferences...  →  General dialog section. If the default value is higher than the duration (in frames) of the submitted scene, the value will be automatically adjusted to be equal to the duration of the scene.
 
 Once a task is submitted, it's possible to change the chunk size by editing the related value in the task properties.
 
@@ -851,7 +847,7 @@ When a task is divided into chunks, each chunk of the task is represented in the
 
 Render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
-If you are not using the OpenToonz render farm, dividing the task into chunks is not only useless, but it slows down the rendering process as well. For this reason it's suggested to use a high **Render Task Chunk Size** value (e.g. 1000) in the Preferences  →  General pane.
+If you are not using the OpenToonz render farm, dividing the task into chunks is not only useless, but it slows down the rendering process as well. For this reason it's suggested to use a high **Render Task Chunk Size** value (e.g. 1000) in the Preferences...  →  General dialog section.
 
 .. note:: Chunk size is relevant only when animations are rendered as image sequences (for example in TIF or TGA formats).
 
