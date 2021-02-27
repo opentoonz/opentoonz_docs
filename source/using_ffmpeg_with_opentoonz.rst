@@ -88,7 +88,7 @@ Installing
 
 |ffmpeg_finder|
 
-- Name the new folder **FFmpeg**
+- Name the new folder **FFmpeg**.
 - Drag the contents of the **bin** folder from the archive into the newly created folder.
 
 |ffmpeg_extracted_mac|
