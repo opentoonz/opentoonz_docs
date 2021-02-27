@@ -42,7 +42,7 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 .. tip:: **To return to the set of rooms provided with OpenToonz:**
 
-    Choose Windows  →  Worspace  →  **Reset to Default Rooms**.
+    Choose Windows  →  Workspace  →  **Reset to Default Rooms**.
 
 
 .. _customizing_rooms:
