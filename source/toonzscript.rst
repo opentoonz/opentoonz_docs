@@ -12,7 +12,7 @@ The original ToonzScript page with some (rather old) examples is available at th
 
 `ToonzScript page <http://www.toonz.com/htm/support/Script.htm>`_
 
-Scripts can be run using the ``File  →  Run Script...`` command. Alternatively, commands can be typed and executed directly in the Script Console, which can be opened using the ``File  →  Open Script Console...`` command.
+Scripts can be run using the ``File  →  Script  →  Run Script...`` command. Alternatively, commands can be typed and executed directly in the Script Console, which can be opened using the ``File  →  Script  →  Open Script Console...`` command.
 
 .. note:: When a script is running, the Script Console will open automatically to show the commands contained within the script.
 
