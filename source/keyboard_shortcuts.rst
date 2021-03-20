@@ -165,17 +165,17 @@ Apply Lip Sync Data to Column     **Alt/⌥ Option**   **+**  **L**
 ===============================   =================  =====  ======
 
 
-======================================  =================   =====  =====
+======================================   =================   =====  =====
 **Cells Menu**    
-======================================  =================   =====  =====
-Duplicate Drawing                       **D**
-Increase Step                           **'**
-Decrease Step                           **;**
-Drawing Substitution Backward           **Q**
-Drawing Substitution Forward            **W**
-Similar Drawing Substitution Backward   **Alt/⌥ Option**   **+**  **Q**
-Similar Drawing Substitution Forward    **Alt/⌥ Option**   **+**  **W**
-======================================  =================   =====  =====
+======================================   =================   =====  =====
+Duplicate Drawing                        **D**
+Increase Step                            **'**
+Decrease Step                            **;**
+Drawing Substitution Backward            **Q**
+Drawing Substitution Forward             **W**
+Similar Drawing Substitution Backward    **Alt/⌥ Option**    **+**  **Q**
+Similar Drawing Substitution Forward     **Alt/⌥ Option**    **+**  **W**
+======================================   =================   =====  =====
 
 
 ===============================   =================  =====  ======
