@@ -111,7 +111,7 @@ Homebrew
 Installing on Linux
 -------------------
 
-.. _alt::
+.. _alt:
 
 ALT Linux
 '''''''''
