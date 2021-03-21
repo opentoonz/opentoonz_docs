@@ -57,7 +57,7 @@ Highlights
 
 ...and much more!
 
-Please see the `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
+Please see the `v1.5 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.5.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
 
 
@@ -68,13 +68,15 @@ Previous Versions of OpenToonz
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
 
+`v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_
+
 `v1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.3.0>`_
 
 `v1.2.1 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.1>`_
 
 `v1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
 
-`v1.1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
+`v1.1.34Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.143>`_
 
 `v1.1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.2>`_
 
