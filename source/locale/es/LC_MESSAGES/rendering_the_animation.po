@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-01 02:34-0300\n"
-"PO-Revision-Date: 2021-02-22 21:45-0300\n"
+"POT-Creation-Date: 2021-03-19 23:25-0300\n"
+"PO-Revision-Date: 2021-03-20 20:18-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.9.0\n"
 "X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/rendering_the_animation.rst:4
@@ -68,13 +68,13 @@ msgstr ""
 msgid ""
 "If the computer performance worsens during the preview process of raster "
 "animation levels, try activating the **Minimize Raster Memory Fragmentation** "
-"option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory "
-"Usage <optimizing_the_memory_usage>`  )."
+"option in the Preferences...  →  General dialog section (see  :ref:`Optimizing "
+"the Memory Usage <optimizing_the_memory_usage>`  )."
 msgstr ""
 "Si el rendimiento del sistema se viera enlentecido durante el proceso de "
 "previsualización de niveles de animación de Imagen, se recomienda activar la "
 "opción **Minimizar fragmentación de imágenes en memoria** en el diálogo Archivo "
-"→ Preferencias → General (ver  :ref:`Optimización del uso de memoria "
+"→ Preferencias... → General (ver  :ref:`Optimización del uso de memoria "
 "<optimizing_the_memory_usage>`  )."
 
 #: ../../source/rendering_the_animation.rst:24
@@ -291,13 +291,13 @@ msgstr "**Para guardar fotogramas previsualizados:**"
 #: ../../source/rendering_the_animation.rst:313
 #: ../../source/rendering_the_animation.rst:351
 #: ../../source/rendering_the_animation.rst:363
-#: ../../source/rendering_the_animation.rst:690
-#: ../../source/rendering_the_animation.rst:700
-#: ../../source/rendering_the_animation.rst:785
-#: ../../source/rendering_the_animation.rst:809
-#: ../../source/rendering_the_animation.rst:817
-#: ../../source/rendering_the_animation.rst:825
-#: ../../source/rendering_the_animation.rst:833
+#: ../../source/rendering_the_animation.rst:686
+#: ../../source/rendering_the_animation.rst:696
+#: ../../source/rendering_the_animation.rst:781
+#: ../../source/rendering_the_animation.rst:805
+#: ../../source/rendering_the_animation.rst:813
+#: ../../source/rendering_the_animation.rst:821
+#: ../../source/rendering_the_animation.rst:829
 msgid "Do one of the following:"
 msgstr "Realizar una de las siguientes acciones:"
 
@@ -378,26 +378,26 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:94
 msgid ""
-"It is possible to activate the Preferences  →  Preview  →  **Fit to Flipbook** "
-"option to ensure that the previewed images fit the size of the preview window, "
-"regardless their resolution."
+"It is possible to activate the Preferences...  →  Preview  →  **Fit to "
+"Flipbook** option to ensure that the previewed images fit the size of the "
+"preview window, regardless their resolution."
 msgstr ""
-"Es posible activar la opción Archivo → Preferencias → Previsualización→ "
+"Es posible activar la opción Archivo → Preferencias... → Previsualización→ "
 "**Ajustar al reproductor** para asegurarse de que los fotogramas previsualizados "
 "se ajusten a la ventana del Reproductor, independientemente de su resolución."
 
 #: ../../source/rendering_the_animation.rst:96
 msgid ""
 "It is possible to clone the Preview window, or to automatically open as many "
-"Preview windows as needed by activating the Preferences  →  Preview  →  "
+"Preview windows as needed by activating the Preferences...  →  Preview  →  "
 "**Display in a New Flipbook Window** option, for example to examine or compare "
 "specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook "
 "<using_the_flipbook>` )."
 msgstr ""
-"Es osible clonar la ventana del Reproductor, a abrir automáticamente tantas "
-"ventanas del Reproductor como sea necesario, activando la opción Archivo → "
-"Preferencias → Previsualización → **Mostrar en una nueva ventana de "
-"reproductor**, por ejemplo para examinar o comparar fotogramas específicos "
+"Es posible clonar la ventana del Reproductor o abrir automáticamente tantas "
+"ventanas de Reproductor como sea necesario, activando la opción Archivo → "
+"Preferencias... → Previsualización → **Mostrar en una nueva ventana de "
+"reproductor**, por ejemplo para examinar o comparar fotogramas específicos, "
 "usando las funciones del Reproductor (ver  :ref:`Uso del Reproductor "
 "<using_the_flipbook>` )."
 
@@ -585,8 +585,8 @@ msgid "**To set the scene preview settings:**"
 msgstr "**Para definir las opciones de previsualización de la escena:**"
 
 #: ../../source/rendering_the_animation.rst:134
-msgid "Choose File  →  **Preview Settings**."
-msgstr "Elegir Archivo → **Opciones de previsualización...**."
+msgid "Choose Render  →  **Preview Settings...**."
+msgstr "Elegir Procesamiento → **Opciones de previsualización...**."
 
 #: ../../source/rendering_the_animation.rst:136
 msgid "Set the options you want to use for the preview."
@@ -597,8 +597,8 @@ msgid "**To open the preview window:**"
 msgstr "**Para abrir una ventana de previsualización:**"
 
 #: ../../source/rendering_the_animation.rst:140
-msgid "Choose File  →  **Preview**."
-msgstr "Elegir Archivo → **Previsualizar**."
+msgid "Choose Render  →  **Preview**."
+msgstr "Elegir Procesamiento → **Previsualizar**."
 
 #: ../../source/rendering_the_animation.rst:142
 msgid "**To clone the preview window:**"
@@ -633,8 +633,8 @@ msgstr ""
 #: ../../source/rendering_the_animation.rst:158
 #: ../../source/rendering_the_animation.rst:164
 #: ../../source/rendering_the_animation.rst:289
-msgid "In File  →  Preferences  →  Preview."
-msgstr "En Archivo → Preferencias → Previsualización."
+msgid "In File  →  Preferences...  →  Preview."
+msgstr "En Archivo → Preferencias... → Previsualización."
 
 #: ../../source/rendering_the_animation.rst:154
 msgid "Activate the **Display in a New Flipbook Window** option."
@@ -657,9 +657,9 @@ msgstr ""
 "repetición:**"
 
 #: ../../source/rendering_the_animation.rst:166
-#: ../../source/rendering_the_animation.rst:667
-#: ../../source/rendering_the_animation.rst:710
-#: ../../source/rendering_the_animation.rst:799
+#: ../../source/rendering_the_animation.rst:663
+#: ../../source/rendering_the_animation.rst:706
+#: ../../source/rendering_the_animation.rst:795
 msgid "Do any of the following:"
 msgstr "Realizar cualquiera de las siguientes acciones:"
 
@@ -933,8 +933,8 @@ msgid "**To open a Flipbook:**"
 msgstr "**Para abrir un Reproductor:**"
 
 #: ../../source/rendering_the_animation.rst:239
-msgid "Choose Window  →  **Flipbook**."
-msgstr "Elegir Ventana → **Reproductor**."
+msgid "Choose Windows  →  **Flipbook**."
+msgstr "Elegir Ventanas → **Reproductor**."
 
 #: ../../source/rendering_the_animation.rst:241
 msgid "**To load some contents into a Flipbook:**"
@@ -1086,11 +1086,11 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:305
 msgid ""
-"Choose View  →  **Link Flipbooks** to activate or deactivate the linked playback "
+"Choose Play  →  **Link Flipbooks** to activate or deactivate the linked playback "
 "mode."
 msgstr ""
-"Elegir Ver → **Vincular reproductores** para activar o desactivar el modo de "
-"reproducción vinculada."
+"Elegir Reproducción → **Vincular reproductores** para activar o desactivar el "
+"modo de reproducción vinculada."
 
 #: ../../source/rendering_the_animation.rst:307
 msgid "**To set the playback frame rate:**"
@@ -1511,12 +1511,12 @@ msgstr ""
 msgid ""
 "Information about the scene name and frame number can be included when needed in "
 "rendered frames by activating the **Show Info in Rendered Frames** option in the "
-"Preferences  →  General dialog."
+"Preferences...  →  General dialog section."
 msgstr ""
 "De ser necesario, será posible incluir información respecto al nombre de la "
 "escena y el número de fotograma en los fotogramas procesados, activando la "
 "opción **Sobreimprimir información en los fotogramas procesados** en el diálogo "
-"Archivo → Preferencias → General."
+"Archivo → Preferencias... → General."
 
 #: ../../source/rendering_the_animation.rst:450
 msgid "Choosing the Output Settings"
@@ -2001,8 +2001,8 @@ msgid "**To set the scene output settings:**"
 msgstr "**Para definir las opciones de salida de la escena:**"
 
 #: ../../source/rendering_the_animation.rst:546
-msgid "Choose File  →  Output Settings."
-msgstr "Elegir Archivo → **Opciones de salida...**."
+msgid "Choose Render  →  ***Output Settings...**"
+msgstr "Elegir Procesamiento → **Opciones de salida...**"
 
 #: ../../source/rendering_the_animation.rst:548
 msgid "Set the options you want to use for the final rendering."
@@ -2089,29 +2089,21 @@ msgid "**To Add a Clapperboard:**"
 msgstr "**Para agregar una claqueta:**"
 
 #: ../../source/rendering_the_animation.rst:574
-#: ../../source/rendering_the_animation.rst:590
-#: ../../source/rendering_the_animation.rst:596
-msgid "Open the File  →  Output Settings... dialog."
-msgstr "Abrir el diálogo Archivo → Opciones de salida..."
+msgid "Open the Render  →  Output Settings... dialog."
+msgstr "Abrir el diálogo Procesamiento → Opciones de salida..."
 
 #: ../../source/rendering_the_animation.rst:576
-msgid ""
-"Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM)."
+msgid "Select any *movie* type file format (3GP, AVI, MOV, MP4 or WebM)."
 msgstr ""
-"Seleccionar cualquiera de los formatos de archivo de salida que produzcan video "
-"(3GP, AVI, MOV, MP4 o WebM)."
+"Seleccionar cualquier formato de archivo de *película* (3GP, AVI, MOV, MP4 o "
+"WebM)."
 
 #: ../../source/rendering_the_animation.rst:578
-#: ../../source/rendering_the_animation.rst:598
-msgid "Open **Other Settings** group box."
-msgstr "Abrir el grupo de parámetros llamado **Otras opciones**."
+msgid "In the More Settings section, enable the **Add Clapperboard** option."
+msgstr "En la sección Más opciones, activar la opción **Agregar claqueta**."
 
 #: ../../source/rendering_the_animation.rst:580
-msgid "Enable the **Add Clapperboard** option."
-msgstr "Activar la opción **Agregar claqueta**."
-
-#: ../../source/rendering_the_animation.rst:582
-#: ../../source/rendering_the_animation.rst:600
+#: ../../source/rendering_the_animation.rst:596
 msgid ""
 "Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog "
 "opens."
@@ -2119,11 +2111,11 @@ msgstr ""
 "Hacer clic en el botón **Editar claqueta...**. Se abrirá el diálogo **Opciones "
 "de claqueta**."
 
-#: ../../source/rendering_the_animation.rst:584
+#: ../../source/rendering_the_animation.rst:582
 msgid "Set the **Duration (frames):** option to any value greater than 0."
 msgstr "Definir la opción **Duración (fotogramas):** en algún valor mayor que 0."
 
-#: ../../source/rendering_the_animation.rst:586
+#: ../../source/rendering_the_animation.rst:584
 msgid ""
 "Setting the duration to 0 frames will remove the clapperboard data from the "
 "scene when it's saved."
@@ -2131,31 +2123,36 @@ msgstr ""
 "Volver a definir la duración en 0 fotogramas, eliminará los datos de la claqueta "
 "dela escena, cuando ésta sea guardada."
 
-#: ../../source/rendering_the_animation.rst:588
+#: ../../source/rendering_the_animation.rst:586
 msgid "**To temporarily deactivate the Clapperboard:**"
 msgstr "**Para desactivar temporalmente la Claqueta:**"
 
-#: ../../source/rendering_the_animation.rst:592
+#: ../../source/rendering_the_animation.rst:588
+#: ../../source/rendering_the_animation.rst:594
+msgid "Open the Render  →  Output Settings...  →  More dialog section."
+msgstr "Abrir el diálogo Procesamiento → Opciones de salida... → Más."
+
+#: ../../source/rendering_the_animation.rst:590
 msgid "Disable the **Add Clapperboard** option."
 msgstr "Desactivar la opción **Agregar claqueta**."
 
-#: ../../source/rendering_the_animation.rst:594
+#: ../../source/rendering_the_animation.rst:592
 msgid "**To Delete the Clapperboard:**"
 msgstr "**Para borrar la Claqueta:**"
 
-#: ../../source/rendering_the_animation.rst:602
+#: ../../source/rendering_the_animation.rst:598
 msgid "Set the **Duration (frames):** option value to 0."
 msgstr "Definir la opción **Duración (fotogramas):** en 0."
 
-#: ../../source/rendering_the_animation.rst:604
+#: ../../source/rendering_the_animation.rst:600
 msgid "Save the scene."
 msgstr "Guardar la escena."
 
-#: ../../source/rendering_the_animation.rst:610
+#: ../../source/rendering_the_animation.rst:606
 msgid "Creating Multiple Renderings"
 msgstr "Procesamiento múltiple"
 
-#: ../../source/rendering_the_animation.rst:611
+#: ../../source/rendering_the_animation.rst:607
 msgid ""
 "With **Multiple Rendering:** it's possible to render automatically, from a "
 "single scene, several output files based on the Xsheet columns (or Timeline "
@@ -2168,7 +2165,7 @@ msgstr ""
 "efectos. Las opciones son **No**, **Flujos del diagrama de efectos** y **Nodos "
 "terminales del diagrama de efectos**."
 
-#: ../../source/rendering_the_animation.rst:613
+#: ../../source/rendering_the_animation.rst:609
 msgid ""
 "**Flows**: creates as many outputs as the **flows connecting the column nodes to "
 "the Xsheet node**. Any effect nodes with multiple input ports met along the flow "
@@ -2179,7 +2176,7 @@ msgstr ""
 "múltiples que se encuentre a lo largo del flujo (tales como los efectos Matte) "
 "será ignorado."
 
-#: ../../source/rendering_the_animation.rst:615
+#: ../../source/rendering_the_animation.rst:611
 msgid ""
 "**Terminal Nodes**: creates as many outputs as the **number of nodes linked to "
 "the Xsheet node**; all the columns and effects linked to each of these nodes "
@@ -2190,7 +2187,7 @@ msgstr ""
 "vinculados a cada uno de estos nodos serán tomados en cuenta durante el "
 "procesamiento."
 
-#: ../../source/rendering_the_animation.rst:617
+#: ../../source/rendering_the_animation.rst:613
 msgid ""
 "The names of the different output files are automatically generated in order to "
 "avoid any name conflict between file names. In particular they are built by "
@@ -2213,16 +2210,16 @@ msgstr ""
 "que va desde la columna/capa *B* (cuyo identificador es *Col3*) hasta el nodo de "
 "efecto *Mi Desenfoque* (cuyo identificador es *Blur1*)."
 
-#: ../../source/rendering_the_animation.rst:619
+#: ../../source/rendering_the_animation.rst:615
 msgid ""
 "No output will be displayed after the rendering, regardless of **Open Flipbook "
-"after Rendering** being activated in Preferences  →  Preview dialog."
+"after Rendering** being activated in Preferences...  →  Preview dialog section."
 msgstr ""
 "En este caso, al finalizar el procesamiento, no se mostrará el resultado en el "
 "Reproductor, sin importar el estado de la opción **Abrir el reproductor luego "
-"del procesamiento**, en el diálogo Archivo → Preferencias → Previsualización."
+"del procesamiento**, en el diálogo Archivo → Preferencias... → Previsualización."
 
-#: ../../source/rendering_the_animation.rst:621
+#: ../../source/rendering_the_animation.rst:617
 msgid ""
 "If you need more control on the way scene elements are rendered, you may "
 "consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets "
@@ -2239,11 +2236,11 @@ msgstr ""
 "planilla (para un procesamiento múltiple de tipo **Flujos**) o conectarlas a "
 "varios nodos Over (para un procesamiento múltiple de tipo **Nodos terminales**)."
 
-#: ../../source/rendering_the_animation.rst:627
+#: ../../source/rendering_the_animation.rst:623
 msgid "Rendering Animations with Alpha Channel Information"
 msgstr "Procesamiento de animaciones con canal alfa"
 
-#: ../../source/rendering_the_animation.rst:628
+#: ../../source/rendering_the_animation.rst:624
 msgid ""
 "It's possible to render a scene with a transparent background color in order to "
 "export it to editing systems supporting alpha channel information."
@@ -2251,7 +2248,7 @@ msgstr ""
 "Es posible procesar una escena con un fondo transparente, para exportarla a "
 "sistemas de edición que soporten el uso de canal alfa."
 
-#: ../../source/rendering_the_animation.rst:630
+#: ../../source/rendering_the_animation.rst:626
 msgid ""
 "In this case no image has to be used as background, and the output file format "
 "has to support alpha channel information, e.g. TIF at 32 or 64 bits per pixel, "
@@ -2262,29 +2259,29 @@ msgstr ""
 "píxel, TGA de 32 bits por píxel o MOV al usar compresores que soporten canal "
 "alfa (p.ej: Animación)."
 
-#: ../../source/rendering_the_animation.rst:632
+#: ../../source/rendering_the_animation.rst:628
 msgid "**To render animation with alpha channel information:**"
 msgstr "**Para procesar una animación con canal alfa:**"
 
-#: ../../source/rendering_the_animation.rst:634
+#: ../../source/rendering_the_animation.rst:630
 msgid "Choose Xsheet  →  **Scene Settings...**."
 msgstr "Elegir Planilla → **Opciones de escena...**."
 
-#: ../../source/rendering_the_animation.rst:636
+#: ../../source/rendering_the_animation.rst:632
 msgid "Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent)."
 msgstr ""
 "Definir el *canal alfa* del **Color de fondo de cámara:** en 0 (transparente)."
 
-#: ../../source/rendering_the_animation.rst:638
+#: ../../source/rendering_the_animation.rst:634
 msgid "Choose an output file format supporting alpha channel information."
 msgstr ""
 "Elegir un formato de archivo de salida que soporte información de canal alfa."
 
-#: ../../source/rendering_the_animation.rst:644
+#: ../../source/rendering_the_animation.rst:640
 msgid "Rendering A Loaded Scene"
 msgstr "Procesamiento de una escena cargada"
 
-#: ../../source/rendering_the_animation.rst:645
+#: ../../source/rendering_the_animation.rst:641
 msgid ""
 "The current scene can be rendered directly while being loaded in OpenToonz "
 "according to the defined Output Settings."
@@ -2292,7 +2289,7 @@ msgstr ""
 "Es posible procesar directamente la escena actual en OpenToonz, usando las "
 "opciones definidas en el diálogo Opciones de salida."
 
-#: ../../source/rendering_the_animation.rst:647
+#: ../../source/rendering_the_animation.rst:643
 msgid ""
 "By choosing the appropriate range in the Output Settings it's possible to render "
 "the scene in chunks, for example by rendering a section first, and then another "
@@ -2311,7 +2308,7 @@ msgstr ""
 "archivo (p.ej: MP4 o MOV). Lo mismo aplicará si una sección de la escena tuviera "
 "que ser procesada nuevamente, para corregir algunos errores detectados."
 
-#: ../../source/rendering_the_animation.rst:649
+#: ../../source/rendering_the_animation.rst:645
 msgid ""
 "If the scene contains some audio files and is rendered in a file format "
 "supporting audio (for example MP4), all the audio files will be merged to form "
@@ -2323,7 +2320,7 @@ msgstr ""
 "serán mezcladas para conformar la banda de sonido de la animación (ver  :ref:"
 "`Creación de una banda de sonido <creating_a_soundtrack>`  )."
 
-#: ../../source/rendering_the_animation.rst:651
+#: ../../source/rendering_the_animation.rst:647
 msgid ""
 "Audio files loaded in Sub-Xsheets will not be included in the output soundtrack "
 "(see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  )."
@@ -2332,23 +2329,24 @@ msgstr ""
 "de sonido de la Planilla/Línea de tiempo principal (ver  :ref:`Uso de sub-"
 "planillas <using_sub-xsheets>`  )."
 
-#: ../../source/rendering_the_animation.rst:653
+#: ../../source/rendering_the_animation.rst:649
 msgid ""
 "As soon as the rendering is over, the rendered animation can be automatically "
 "displayed in a OpenToonz Flipbook by activating the **Open Flipbook after "
-"Rendering** option in the Preferences  →  Preview dialog; it's also possible to "
-"display blank frames after each rendering playback when looping. If a soundtrack "
-"is available for the rendered scene, it's also possible to listen to it."
+"Rendering** option in the Preferences...  →  Preview dialog section; it's also "
+"possible to display blank frames after each rendering playback when looping. If "
+"a soundtrack is available for the rendered scene, it's also possible to listen "
+"to it."
 msgstr ""
 "Tan pronto el procesamiento haya terminado, será posible visualizar "
 "automáticamente la animación resultante en una ventana de Reproductor de "
 "OpenToonz, activando la opción **Abrir el reproductor luego del procesamiento** "
-"en el diálogo Archivo → Preferencias → Previsualización; también será posible "
-"mostrar fotogramas en blanco luego de finalizada cada reproducción, al estar "
-"activada la repetición. Si hubiera una banda de sonido disponible para la escena "
-"procesada, será posible escucharla."
+"en el diálogo Archivo → Preferencias... → Previsualización; también será posible "
+"mostrar fotogramas en blanco luego de finalizada cada reproducción, en caso de "
+"que se encontrara activada la repetición. Si hubiera una banda de sonido "
+"disponible para la escena procesada, también será posible escucharla."
 
-#: ../../source/rendering_the_animation.rst:655
+#: ../../source/rendering_the_animation.rst:651
 msgid ""
 "When displayed in the Flipbook, the rendering can be checked by using the "
 "Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
@@ -2357,36 +2355,36 @@ msgstr ""
 "usando las funciones del mismo (ver  :ref:`Uso del Reproductor "
 "<using_the_flipbook>`  )."
 
-#: ../../source/rendering_the_animation.rst:657
+#: ../../source/rendering_the_animation.rst:653
 msgid ""
-"You can also activate the **Use Default Viewer for Movie Format** option in the "
-"Preferences  →  General dialog, in order to play back the output with its own "
-"default viewer, e.g. QuickTime Player for the MOV format."
+"You can also activate the **Use Default Viewer for Movie Formats** option in the "
+"Preferences...  →  General dialog section, in order to play back the output with "
+"its own default viewer, e.g. QuickTime Player for the MOV format."
 msgstr ""
-"También será posible activar la opción **Usar visor predefinido para formatos de "
-"película** en el diálogo Archivo → Preferencias → General, para poder reproducir "
-"el archivo generado, en su propio reproductor nativo, p.ej: el reproductor de "
-"QuickTime, en el caso del formato MOV."
+"También es posible activar la opción **Usar reproductor predefinido para "
+"formatos de película** en el diálogo Preferencias... → General, para reproducir "
+"el video usando su propio reproductor predefinido, p.ej: QuickTime Player para "
+"el formato .MOV."
 
-#: ../../source/rendering_the_animation.rst:659
+#: ../../source/rendering_the_animation.rst:655
 msgid "**To render the currently loaded scene:**"
 msgstr "**Para procesar la escena actualmente cargada:**"
 
-#: ../../source/rendering_the_animation.rst:661
-msgid "Choose File  →  **Render**."
-msgstr "Elegir Archivo → **Procesar**."
+#: ../../source/rendering_the_animation.rst:657
+msgid "Choose Render  →  **Render**."
+msgstr "Elegir Procesamiento → **Procesar**."
 
-#: ../../source/rendering_the_animation.rst:663
+#: ../../source/rendering_the_animation.rst:659
 msgid "**To display blank frames after each rendering playback when looping:**"
 msgstr ""
 "**Para mostrar fotogramas el blanco luego de cada reproducción, en modo "
 "repetición:**"
 
-#: ../../source/rendering_the_animation.rst:665
-msgid "Choose File  →  Preferences  →  **Preview**."
-msgstr "Elegir Archivo → Preferencias → **Previsualizar**."
+#: ../../source/rendering_the_animation.rst:661
+msgid "Choose File  →  Preferences...  →  **Preview**."
+msgstr "Elegir Archivo → Preferencias... → **Previsualizar**."
 
-#: ../../source/rendering_the_animation.rst:669
+#: ../../source/rendering_the_animation.rst:665
 msgid ""
 "In **Blank Frames:** set how many blank frames you want to be displayed after "
 "each preview playback, when looping."
@@ -2394,17 +2392,17 @@ msgstr ""
 "En la opción **Fotogramas en blanco:** definir cuántos fotogramas en blanco se "
 "desea que se muestren luego de finalizar cada ciclo de reproducción."
 
-#: ../../source/rendering_the_animation.rst:671
+#: ../../source/rendering_the_animation.rst:667
 msgid "In **Blank Frames Color:** set the color for the blank frames."
 msgstr ""
 "En la opción **Color de fotogramas en blanco:** definir el color de los "
 "fotogramas en blanco."
 
-#: ../../source/rendering_the_animation.rst:677
+#: ../../source/rendering_the_animation.rst:673
 msgid "Rendering Scenes in Batch Mode"
 msgstr "Procesamiento de escenas por lotes"
 
-#: ../../source/rendering_the_animation.rst:678
+#: ../../source/rendering_the_animation.rst:674
 msgid ""
 "The rendering of a scene can be added to a task list and performed in batch "
 "mode, in order to run it in the background while you perform other work on your "
@@ -2414,7 +2412,7 @@ msgstr ""
 "realizadas por lotes, para poder ser ejecutadas en segundo plano, mientras se "
 "sigue trabajando en la computadora."
 
-#: ../../source/rendering_the_animation.rst:680
+#: ../../source/rendering_the_animation.rst:676
 msgid ""
 "*Render tasks* can be submitted from the OpenToonz Browser and can be managed "
 "and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:"
@@ -2425,11 +2423,11 @@ msgstr ""
 "conjuntamente con *tareas de limpieza* (ver  :ref:`Limpieza de dibujos por lotes "
 "<cleaning_up_drawings_in_batch_mode>`  )."
 
-#: ../../source/rendering_the_animation.rst:682
+#: ../../source/rendering_the_animation.rst:678
 msgid "|tasks_render|"
 msgstr "|tasks_render_es|"
 
-#: ../../source/rendering_the_animation.rst:684
+#: ../../source/rendering_the_animation.rst:680
 msgid ""
 "The Tasks pane is divided into two sections: on the left there is the Task tree "
 "where all of the *Render tasks* are displayed with a clapboard icon and all the "
@@ -2442,7 +2440,7 @@ msgstr ""
 "limpieza*, identificadas con un ícono de pincel; a la derecha se mostrará "
 "información acerca de la tarea seleccionada en el árbol de Tareas."
 
-#: ../../source/rendering_the_animation.rst:686
+#: ../../source/rendering_the_animation.rst:682
 msgid ""
 "The Task list can be saved as TNZBAT files and loaded back later, in case you "
 "want to manage it through different working sessions."
@@ -2451,11 +2449,11 @@ msgstr ""
 "cargado más adelante, en caso de ser necesario acceder a ella a lo largo de "
 "varias sesiones de trabajo."
 
-#: ../../source/rendering_the_animation.rst:688
+#: ../../source/rendering_the_animation.rst:684
 msgid "**To Save a Task list:**"
 msgstr "**Para guardar una lista de tareas:**"
 
-#: ../../source/rendering_the_animation.rst:692
+#: ../../source/rendering_the_animation.rst:688
 msgid ""
 "Click the **Save** (|save|) or the **Save As** (|save_as|) buttons in the top "
 "bar of the Tasks pane."
@@ -2463,7 +2461,7 @@ msgstr ""
 "Hacer clic en el botón **Guardar** (|save|) o **Guardar como** (|save_as|) en la "
 "barra superior del panel Tareas."
 
-#: ../../source/rendering_the_animation.rst:694
+#: ../../source/rendering_the_animation.rst:690
 msgid ""
 "Right-click the **Tasks** item at the top of the list and choose **Save Task "
 "List** or the **Save Task List As** from the menu that opens."
@@ -2471,20 +2469,20 @@ msgstr ""
 "Hacer clic derecho en el elemento **Tareas** en la parte superior de la lista y "
 "elegir **Guardar lista de tareas** o **Guardar lista de tareas como** en el menú."
 
-#: ../../source/rendering_the_animation.rst:696
+#: ../../source/rendering_the_animation.rst:692
 msgid "Use the Browser that opens to save the list."
 msgstr "Usar el Explorador de archivos emergente para guardar la lista."
 
-#: ../../source/rendering_the_animation.rst:698
+#: ../../source/rendering_the_animation.rst:694
 msgid "**To Load a Task list:**"
 msgstr "**Para cargar una lista de tareas:**"
 
-#: ../../source/rendering_the_animation.rst:702
+#: ../../source/rendering_the_animation.rst:698
 msgid "Click the **Load** (|load|) button in the top bar of the Tasks pane."
 msgstr ""
 "Hacer clic en el botón **Cargar** (|load|) en la barra superior del panel Tareas."
 
-#: ../../source/rendering_the_animation.rst:704
+#: ../../source/rendering_the_animation.rst:700
 msgid ""
 "Right-click the **Tasks** item at the top of the list and choose **Load Task "
 "List** from the menu that opens."
@@ -2492,25 +2490,25 @@ msgstr ""
 "Hacer clic derecho en el elemento **Tareas** en la parte superior de la lista y "
 "elegir **Cargar lista de tareas** en el menú."
 
-#: ../../source/rendering_the_animation.rst:706
+#: ../../source/rendering_the_animation.rst:702
 msgid "Use the Browser that opens to retrieve and load a previously saved list."
 msgstr ""
 "Usar el Explorador de archivos emergente para buscar y cargar una lista guardada "
 "con anterioridad."
 
-#: ../../source/rendering_the_animation.rst:708
+#: ../../source/rendering_the_animation.rst:704
 msgid "**To resize the Tasks pane sections:**"
 msgstr "**Para redimensionar las secciones del panel Tareas:**"
 
-#: ../../source/rendering_the_animation.rst:712
+#: ../../source/rendering_the_animation.rst:708
 msgid "Click and drag the separator to resize sections."
 msgstr "Arrastrar el separador para redimensionar sus secciones."
 
-#: ../../source/rendering_the_animation.rst:714
+#: ../../source/rendering_the_animation.rst:710
 msgid "Click and drag the separator toward the window border to hide a section."
 msgstr "Arrastrar el separador hacia el borde del panel para ocultar una sección."
 
-#: ../../source/rendering_the_animation.rst:716
+#: ../../source/rendering_the_animation.rst:712
 msgid ""
 "Click and drag the separator collapsed to the window border toward the window "
 "center to display again the hidden section."
@@ -2518,11 +2516,11 @@ msgstr ""
 "Arrastrar el separador colapsado hacia el centro del panel para volver a mostrar "
 "la sección oculta."
 
-#: ../../source/rendering_the_animation.rst:722
+#: ../../source/rendering_the_animation.rst:718
 msgid "Managing and Executing Render Tasks"
 msgstr "Administración y ejecución de tareas de procesamiento"
 
-#: ../../source/rendering_the_animation.rst:723
+#: ../../source/rendering_the_animation.rst:719
 msgid ""
 "When a *Render task* is selected in the tree, in the section on the right of the "
 "Tasks pane task-related properties are displayed, some of which can be edited to "
@@ -2533,20 +2531,20 @@ msgstr ""
 "algunas de las cuales podrán ser editadas para configurar la tarea. Las "
 "propiedades son las siguientes:"
 
-#: ../../source/rendering_the_animation.rst:725
+#: ../../source/rendering_the_animation.rst:721
 msgid ""
 "**Name** displays the task name; it can be edited to better identify the task."
 msgstr ""
 "**Nombre:**, muestra el nombre de la tarea; puede ser editado para identificar "
 "mejor a la misma."
 
-#: ../../source/rendering_the_animation.rst:727
+#: ../../source/rendering_the_animation.rst:723
 msgid "**Status** shows if the task is: Waiting, Running, Completed or Failed."
 msgstr ""
 "**Estado:**, muestra en qué estado se encuentra la tarea, los estados posibles "
 "son: En espera, En ejecución, Completada o Fallida."
 
-#: ../../source/rendering_the_animation.rst:729
+#: ../../source/rendering_the_animation.rst:725
 msgid ""
 "**Command Line** displays the command line related to the task execution with "
 "arguments and qualifiers."
@@ -2554,54 +2552,54 @@ msgstr ""
 "**Línea de comandos:**, muestra la línea de comandos correspondiente a la "
 "ejecución de dicha tarea, con argumentos y calificadores."
 
-#: ../../source/rendering_the_animation.rst:731
+#: ../../source/rendering_the_animation.rst:727
 msgid "**Server** displays the computer that is running, or will run, the task."
 msgstr ""
 "**Servidor:**, muestra la computadora que está ejecutando o ejecutará la tarea."
 
-#: ../../source/rendering_the_animation.rst:733
+#: ../../source/rendering_the_animation.rst:729
 msgid "**Submitted By** displays the *user* that submitted the task."
 msgstr "**Enviada por:**, muestra el *usuario* que envió la tarea."
 
-#: ../../source/rendering_the_animation.rst:735
+#: ../../source/rendering_the_animation.rst:731
 msgid "**Submitted On** displays the *computer* from where the task was submitted."
 msgstr ""
 "**Enviada desde:**, muestra la *computadora* desde donde fue enviada la tarea."
 
-#: ../../source/rendering_the_animation.rst:737
+#: ../../source/rendering_the_animation.rst:733
 msgid "**Submission Date** displays *when* the task was submitted."
 msgstr "**Fecha de envío:**, muestra *cuando* fue enviada la tarea."
 
-#: ../../source/rendering_the_animation.rst:739
+#: ../../source/rendering_the_animation.rst:735
 msgid "**Start Date** displays when the task execution started."
 msgstr "**Fecha de inicio:**, muestra cuándo comenzó la ejecución de la tarea."
 
-#: ../../source/rendering_the_animation.rst:741
+#: ../../source/rendering_the_animation.rst:737
 msgid "**Completion Date** displays when the task execution was completed."
 msgstr ""
 "**Fecha de finalización:**, muestra cuándo finalizó la ejecución de la tarea."
 
-#: ../../source/rendering_the_animation.rst:743
+#: ../../source/rendering_the_animation.rst:739
 msgid "**Duration** displays how long the execution lasted."
 msgstr "**Duración:**, muestra cuánto duró ejecución de la tarea."
 
-#: ../../source/rendering_the_animation.rst:745
+#: ../../source/rendering_the_animation.rst:741
 msgid "**Step Count** displays the number of frames rendered."
 msgstr "**Cantidad de pasos:**, muestra la cantidad de fotogramas procesados."
 
-#: ../../source/rendering_the_animation.rst:747
+#: ../../source/rendering_the_animation.rst:743
 msgid "**Failed Steps** displays the number of frames that failed to be rendered."
 msgstr ""
 "**Pasos fallidos:**, muestra la cantidad de fotogramas que no pudieron ser "
 "procesados."
 
-#: ../../source/rendering_the_animation.rst:749
+#: ../../source/rendering_the_animation.rst:745
 msgid "**Successful Steps** displays the number of frames successfully rendered."
 msgstr ""
 "**Pasos exitosos:**, muestra la cantidad de fotogramas que fueron procesados de "
 "forma exitosa."
 
-#: ../../source/rendering_the_animation.rst:751
+#: ../../source/rendering_the_animation.rst:747
 msgid ""
 "**Priority** sets the importance or urgency of the task: tasks with a higher "
 "priority will be executed first. It can be edited to change the task priority."
@@ -2610,7 +2608,7 @@ msgstr ""
 "tareas con una prioridad más alta serán ejecutadas primero. Es posible editar "
 "este parámetro para cambiar la prioridad de una tarea."
 
-#: ../../source/rendering_the_animation.rst:753
+#: ../../source/rendering_the_animation.rst:749
 msgid ""
 "**Output** displays the location, name and extension of the rendered output; "
 "this information comes from the scene output settings but can be edited here "
@@ -2620,7 +2618,7 @@ msgstr ""
 "producidos; esta información proviene de las Opciones de salida de la escena, "
 "sin embargo será posible editar este parámetro aquí, antes del procesar la tarea."
 
-#: ../../source/rendering_the_animation.rst:755
+#: ../../source/rendering_the_animation.rst:751
 msgid ""
 "**Frames Per Chunk** sets how the task is divided into sub-tasks in order to "
 "distribute the rendering job in the render farm, one sub-task for each computer. "
@@ -2633,7 +2631,7 @@ msgstr ""
 "parámetro para cambiar el tamaño de los bloques (ver  :ref:`Uso de bloques al "
 "ejecutar tareas de procesamiento <using_chunks_when_rendering_tasks>`  )."
 
-#: ../../source/rendering_the_animation.rst:757
+#: ../../source/rendering_the_animation.rst:753
 msgid ""
 "**From** and **To** set the scene frame range to render; this information comes "
 "from the scene output settings but can be edited here before the rendering "
@@ -2644,7 +2642,7 @@ msgstr ""
 "será posible editar este parámetro aquí, antes del procesar la tarea (ver  :ref:"
 "`Elección de Opciones de salida <choosing_the_output_settings>`  )."
 
-#: ../../source/rendering_the_animation.rst:759
+#: ../../source/rendering_the_animation.rst:755
 msgid ""
 "**Step** sets the step for the rendered sequence; this information comes from "
 "the scene output settings but can be edited here before the rendering (see  :ref:"
@@ -2655,7 +2653,7 @@ msgstr ""
 "será posible editar este parámetro aquí, antes del procesar la tarea (ver  :ref:"
 "`Elección de Opciones de salida <choosing_the_output_settings>`  )."
 
-#: ../../source/rendering_the_animation.rst:761
+#: ../../source/rendering_the_animation.rst:757
 msgid ""
 "**Shrink** sets the reduction value of the rendered sequence resolution; this "
 "information comes from the scene output settings but can be edited here before "
@@ -2668,7 +2666,7 @@ msgstr ""
 "procesar la tarea (ver  :ref:`Elección de Opciones de salida "
 "<choosing_the_output_settings>`  )."
 
-#: ../../source/rendering_the_animation.rst:763
+#: ../../source/rendering_the_animation.rst:759
 msgid ""
 "**Dedicated CPUs** sets how many processors are assigned to the rendering "
 "process; this information comes from the scene output settings but can be edited "
@@ -2681,7 +2679,7 @@ msgstr ""
 "procesar la tarea (ver  :ref:`Elección de Opciones de salida "
 "<choosing_the_output_settings>`  )."
 
-#: ../../source/rendering_the_animation.rst:765
+#: ../../source/rendering_the_animation.rst:761
 msgid ""
 "**Render Tile** sets if the rendering has to be computed in tiles; this "
 "information comes from the scene output settings but can be edited here before "
@@ -2694,7 +2692,7 @@ msgstr ""
 "antes del procesar la tarea (ver  :ref:`Elección de Opciones de salida "
 "<choosing_the_output_settings>`  )."
 
-#: ../../source/rendering_the_animation.rst:767
+#: ../../source/rendering_the_animation.rst:763
 msgid ""
 "**Dependencies** lets you set which of the other submitted tasks *have to be "
 "successfully completed* before starting the current task execution: these tasks "
@@ -2705,12 +2703,12 @@ msgstr ""
 "tareas podrán ser agregadas desde el cuadro de la derecha, donde aparecerán "
 "todas las tareas enviadas."
 
-#: ../../source/rendering_the_animation.rst:769
+#: ../../source/rendering_the_animation.rst:765
 msgid "Task execution can be started and stopped from the task list."
 msgstr ""
 "La ejecución de tareas podrá ser comenzada o detenida desde la lista de tareas."
 
-#: ../../source/rendering_the_animation.rst:771
+#: ../../source/rendering_the_animation.rst:767
 msgid ""
 "When the tasks are executed, the icon color tells the status of the task "
 "according to the following color code:"
@@ -2718,32 +2716,32 @@ msgstr ""
 "Cuando las tareas son ejecutadas, el color de su ícono indicará el estado de las "
 "mismas, de acuerdo al siguiente código de colores:"
 
-#: ../../source/rendering_the_animation.rst:773
+#: ../../source/rendering_the_animation.rst:769
 msgid "*Grey*, when the task is *waiting* or is not executed yet."
 msgstr ""
 "*Gris*, cuando la tarea se encuentra *en espera* o aún no ha sido ejecutada."
 
-#: ../../source/rendering_the_animation.rst:775
+#: ../../source/rendering_the_animation.rst:771
 msgid "*Yellow*, when the task is *being executed*."
 msgstr "*Amarillo*, cuando la tarea se encuentra *en ejecución*."
 
-#: ../../source/rendering_the_animation.rst:777
+#: ../../source/rendering_the_animation.rst:773
 msgid "*Green*, when the task is *successfully executed*."
 msgstr "*Verde*, cuando la tarea ha sido *ejecutada exitosamente*."
 
-#: ../../source/rendering_the_animation.rst:779
+#: ../../source/rendering_the_animation.rst:775
 msgid "*Orange*, when the task is *executed with some errors*."
 msgstr "*Naranja*, cuando la tarea ha sido *ejecutada con algunos errores*."
 
-#: ../../source/rendering_the_animation.rst:781
+#: ../../source/rendering_the_animation.rst:777
 msgid "*Red*, when the task *execution has failed*."
 msgstr "*Rojo*, cuando la ejecución de la tarea *ha fallado*."
 
-#: ../../source/rendering_the_animation.rst:783
+#: ../../source/rendering_the_animation.rst:779
 msgid "**To Add scenes to render in the task list:**"
 msgstr "**Para agregar escenas a ser procesadas a la lista de tareas:**"
 
-#: ../../source/rendering_the_animation.rst:787
+#: ../../source/rendering_the_animation.rst:783
 msgid ""
 "Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane "
 "and use the Browser to select a scene file."
@@ -2752,7 +2750,7 @@ msgstr ""
 "panel Tareas y usar el Explorador de archivos para seleccionar un archivo de "
 "escena."
 
-#: ../../source/rendering_the_animation.rst:789
+#: ../../source/rendering_the_animation.rst:785
 msgid ""
 "Select the scenes in the OpenToonz Browser, then right-click any of them and "
 "choose **Add As Render Task** from the menu that opens."
@@ -2761,31 +2759,31 @@ msgstr ""
 "clic derecho sobre alguna de ellas y elegir **Agregar como tarea de "
 "procesamiento** en el menú."
 
-#: ../../source/rendering_the_animation.rst:791
+#: ../../source/rendering_the_animation.rst:787
 msgid "**To Configure the render task in the task list:**"
 msgstr "**Para configurar una tarea de procesamiento en la lista de tareas:**"
 
-#: ../../source/rendering_the_animation.rst:793
+#: ../../source/rendering_the_animation.rst:789
 msgid "Select a render task in the task list."
 msgstr "Seleccionar una tarea de procesamiento en la lista de tareas."
 
-#: ../../source/rendering_the_animation.rst:795
+#: ../../source/rendering_the_animation.rst:791
 msgid "Configure it by using the options available on the right of the list."
 msgstr "Configurarla usando las opciones disponibles a la derecha de la lista."
 
-#: ../../source/rendering_the_animation.rst:797
+#: ../../source/rendering_the_animation.rst:793
 msgid "**To select tasks in the task list:**"
 msgstr "**Para seleccionar tareas en la lista de tareas.**"
 
-#: ../../source/rendering_the_animation.rst:801
+#: ../../source/rendering_the_animation.rst:797
 msgid "Click a task to select it."
 msgstr "Hacer clic sobre una tarea para seleccionarla."
 
-#: ../../source/rendering_the_animation.rst:803
+#: ../../source/rendering_the_animation.rst:799
 msgid "Shift-click a task to extend the selection up to that task."
 msgstr "Hacer Mayúsculas-clic para extender la selección hasta esa tarea."
 
-#: ../../source/rendering_the_animation.rst:805
+#: ../../source/rendering_the_animation.rst:801
 msgid ""
 "Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from the "
 "selection."
@@ -2793,51 +2791,51 @@ msgstr ""
 "Hacer Ctrl-clic (PC) o Cmd-clic (macOS) sobre una tarea para agregar o quitarla "
 "de la selección."
 
-#: ../../source/rendering_the_animation.rst:807
+#: ../../source/rendering_the_animation.rst:803
 msgid "**To Execute selected tasks:**"
 msgstr "**Para ejecutar las tareas seleccionadas:**"
 
-#: ../../source/rendering_the_animation.rst:811
+#: ../../source/rendering_the_animation.rst:807
 msgid "Click the **Start** (|start|) button in the top bar of the Tasks pane."
 msgstr ""
 "Hacer clic en el botón **Iniciar** (|start|) en la barra superior del panel "
 "Tareas."
 
-#: ../../source/rendering_the_animation.rst:813
+#: ../../source/rendering_the_animation.rst:809
 msgid ""
 "Right-click any selected task icon and choose **Start** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre alguna se las tareas seleccionadas y elegir **Iniciar** "
 "en el menú."
 
-#: ../../source/rendering_the_animation.rst:815
+#: ../../source/rendering_the_animation.rst:811
 msgid "**To Stop the execution of selected tasks:**"
 msgstr "**Para detener la ejecución de las tareas seleccionadas:**"
 
-#: ../../source/rendering_the_animation.rst:819
+#: ../../source/rendering_the_animation.rst:815
 msgid "Click the **Stop** (|stop|) button in the top bar of the Tasks pane."
 msgstr ""
 "Hacer clic en el botón **Detener** (|stop|) en la barra superior del panel "
 "Tareas."
 
-#: ../../source/rendering_the_animation.rst:821
+#: ../../source/rendering_the_animation.rst:817
 msgid ""
 "Right-click any selected task icon and choose **Stop** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre alguna se las tareas seleccionadas y elegir **Detener** "
 "en el menú."
 
-#: ../../source/rendering_the_animation.rst:823
+#: ../../source/rendering_the_animation.rst:819
 msgid "**To Remove selected tasks from the list:**"
 msgstr "**Para eliminar las tareas seleccionadas de la lista:**"
 
-#: ../../source/rendering_the_animation.rst:827
+#: ../../source/rendering_the_animation.rst:823
 msgid "Click the **Remove** (|remove|) button in the top bar of the Tasks pane."
 msgstr ""
 "Hacer clic en el botón **Eliminar** (|remove|) en la barra superior del panel "
 "Tareas."
 
-#: ../../source/rendering_the_animation.rst:829
+#: ../../source/rendering_the_animation.rst:825
 msgid ""
 "Right-click any selected task in the list and choose **Remove** from the menu "
 "that opens."
@@ -2845,11 +2843,11 @@ msgstr ""
 "Hacer clic derecho sobre alguna se las tareas seleccionadas y elegir "
 "**Eliminar** en el menú."
 
-#: ../../source/rendering_the_animation.rst:831
+#: ../../source/rendering_the_animation.rst:827
 msgid "**To Add or Remove tasks from the Dependencies list:**"
 msgstr "**Para agregar o eliminar tareas de la lista de Dependencias:**"
 
-#: ../../source/rendering_the_animation.rst:835
+#: ../../source/rendering_the_animation.rst:831
 msgid ""
 "To Add a task to the dependencies list, select a task in the task list on the "
 "right and click the **<< Add** button."
@@ -2857,7 +2855,7 @@ msgstr ""
 "Para agregar una tarea a la lista de dependencias, seleccionar una tarea en la "
 "lista de la derecha y hacer clic en el botón **<< Agregar**."
 
-#: ../../source/rendering_the_animation.rst:837
+#: ../../source/rendering_the_animation.rst:833
 msgid ""
 "To Remove a task from the dependencies list, select a task in the dependencies "
 "list on the left, and click the **Remove >>** button."
@@ -2865,11 +2863,11 @@ msgstr ""
 "Para eliminar una tarea de la lista de dependencias, seleccionar una tarea en la "
 "lista de dependencias de la izquierda y hacer clic en el botón **Eliminar >>**."
 
-#: ../../source/rendering_the_animation.rst:843
+#: ../../source/rendering_the_animation.rst:839
 msgid "Using Chunks when Rendering Tasks"
 msgstr "Uso de bloques al ejecutar tareas de procesamiento"
 
-#: ../../source/rendering_the_animation.rst:844
+#: ../../source/rendering_the_animation.rst:840
 msgid ""
 "If you are using the OpenToonz render farm, it's possible to divide a task into "
 "chunks so that each computer of the farm will render a section of the same "
@@ -2880,22 +2878,22 @@ msgstr ""
 "procesar una sección de la misma tarea de procesamiento (ver  :ref:`Uso de Toonz "
 "Farm <using_the_toonz_farm>`  )."
 
-#: ../../source/rendering_the_animation.rst:846
+#: ../../source/rendering_the_animation.rst:842
 msgid ""
 "The default value for the chunk size (expressed in number of frames) can be set "
-"using the **Render Task Chunk Size** in the Preferences  →  General pane. If the "
-"default value is higher than the duration (in frames) of the submitted scene, "
-"the value will be automatically adjusted to be equal to the duration of the "
-"scene."
+"using the **Render Task Chunk Size** in the Preferences...  →  General dialog "
+"section. If the default value is higher than the duration (in frames) of the "
+"submitted scene, the value will be automatically adjusted to be equal to the "
+"duration of the scene."
 msgstr ""
 "Es posible establecer el valor predefinido para el tamaño de los bloques "
 "(expresado en cantidad de fotogramas) mediante la opción **Tamaño del bloque de "
-"procesamiento** en el diálogo Archivo → Preferencias → General. Si el valor "
-"predefinido fuera mayor que la duración (en fotogramas) de la escena enviada a "
-"ser procesada, el valor será ajustado automáticamente para coincidir con la "
+"procesamiento** en el diálogo Archivo → Preferencias... → General. Si el valor "
+"predefinido fuera mayor que la duración (en fotogramas) de la escena enviada "
+"para ser procesada, el valor será ajustado automáticamente para coincidir con la "
 "duración de dicha escena."
 
-#: ../../source/rendering_the_animation.rst:848
+#: ../../source/rendering_the_animation.rst:844
 msgid ""
 "Once a task is submitted, it's possible to change the chunk size by editing the "
 "related value in the task properties."
@@ -2903,7 +2901,7 @@ msgstr ""
 "Una vez que una tarea haya sido enviada, será posible cambiar el valor de tamaño "
 "del bloque editando el valor correspondiente en las propiedades de la tarea."
 
-#: ../../source/rendering_the_animation.rst:850
+#: ../../source/rendering_the_animation.rst:846
 msgid ""
 "When a task is divided into chunks, each chunk of the task is represented in the "
 "task tree as a sub-task."
@@ -2911,7 +2909,7 @@ msgstr ""
 "Cuando una tarea haya sido dividida en bloques, cada bloque de la misma será "
 "representado en el árbol de tareas como una sub-tarea."
 
-#: ../../source/rendering_the_animation.rst:852
+#: ../../source/rendering_the_animation.rst:848
 msgid ""
 "Render tasks and sub-tasks will be distributed on the farm, one for each "
 "computer, so that several tasks can be executed at the same time (see  :ref:"
@@ -2921,20 +2919,20 @@ msgstr ""
 "cada computadora, para que varias tareas puedan ser ejecutadas al mismo tiempo "
 "(ver  :ref:`Uso de Toonz Farm <using_the_toonz_farm>`  )."
 
-#: ../../source/rendering_the_animation.rst:854
+#: ../../source/rendering_the_animation.rst:850
 msgid ""
 "If you are not using the OpenToonz render farm, dividing the task into chunks is "
 "not only useless, but it slows down the rendering process as well. For this "
 "reason it's suggested to use a high **Render Task Chunk Size** value (e.g. 1000) "
-"in the Preferences  →  General pane."
+"in the Preferences...  →  General dialog section."
 msgstr ""
 "Si no se estuviera utilizando la granja de procesamiento de OpenToonz, dividir "
 "las tareas en bloques no sólo será inútil, sino que probablemente también "
 "enlentecerá el procesamiento de las mismas. Por esta razón se sugiere usar un "
-"valor alto en la opción **Tamaño del bloque de procesamiento** (p.ej: 1000) del "
-"diálogo Archivo → Preferencias → General."
+"valor alto en la opción **Tamaño del bloque de procesamiento** (p.ej: 1000) en "
+"el diálogo Preferencias... → General."
 
-#: ../../source/rendering_the_animation.rst:856
+#: ../../source/rendering_the_animation.rst:852
 msgid ""
 "Chunk size is relevant only when animations are rendered as image sequences (for "
 "example in TIF or TGA formats)."
@@ -2947,3 +2945,25 @@ msgstr ""
 #~ msgstr ""
 #~ "Activar el botón **Definir región** (|define_preview_subcamera|) a la "
 #~ "izquierda de la barra inferior del Visor."
+
+#~ msgid ""
+#~ "Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM)."
+#~ msgstr ""
+#~ "Seleccionar cualquiera de los formatos de archivo de salida que produzcan "
+#~ "video (3GP, AVI, MOV, MP4 o WebM)."
+
+#~ msgid "Open **Other Settings** group box."
+#~ msgstr "Abrir el grupo de parámetros llamado **Otras opciones**."
+
+#~ msgid "Enable the **Add Clapperboard** option."
+#~ msgstr "Activar la opción **Agregar claqueta**."
+
+#~ msgid ""
+#~ "You can also activate the **Use Default Viewer for Movie Format** option in "
+#~ "the Preferences  →  General dialog, in order to play back the output with its "
+#~ "own default viewer, e.g. QuickTime Player for the MOV format."
+#~ msgstr ""
+#~ "También será posible activar la opción **Usar visor predefinido para formatos "
+#~ "de película** en el diálogo Archivo → Preferencias → General, para poder "
+#~ "reproducir el archivo generado, en su propio reproductor nativo, p.ej: el "
+#~ "reproductor de QuickTime, en el caso del formato MOV."

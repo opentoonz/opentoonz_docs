@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 13:30-0300\n"
-"PO-Revision-Date: 2021-02-22 15:09-0300\n"
+"POT-Creation-Date: 2021-03-19 23:25-0300\n"
+"PO-Revision-Date: 2021-03-20 19:43-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.9.0\n"
 "X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/drawing_animation_levels.rst:4
@@ -149,8 +149,8 @@ msgid "**To define the Default Type of Level to Draw:**"
 msgstr "**Para definir el Tipo Predefinido de nivel a dibujar:**"
 
 #: ../../source/drawing_animation_levels.rst:34
-msgid "Open File  →  Preferences  →  Drawing."
-msgstr "Abrir Archivo → Preferencias → Dibujo."
+msgid "Open File  →  Preferences...  →  Drawing."
+msgstr "Abrir Archivo → Preferencias... → Dibujo."
 
 #: ../../source/drawing_animation_levels.rst:36
 msgid ""
@@ -165,10 +165,10 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:38
 msgid ""
-"The Width, Height and DPI values set in the File  →  Preferences  →  Drawing "
+"The Width, Height and DPI values set in the File  →  Preferences...  →  Drawing "
 "section will also be used as default for the **New Level** dialog."
 msgstr ""
-"Los valores Ancho, Altura y PPP de la sección Archivo → Preferencias → Dibujo "
+"Los valores Ancho, Altura y PPP de la sección Archivo → Preferencias... → Dibujo "
 "también serán usados como valores predefinidos para el diálogo **Nuevo nivel**."
 
 #: ../../source/drawing_animation_levels.rst:43
@@ -252,10 +252,10 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:64
 msgid ""
 "The New Level dialog inherits the **Default Level Type** settings defined in "
-"Preferences  →  Drawing."
+"Preferences...  →  Drawing."
 msgstr ""
 "El diálogo de Nuevo nivel hereda las opciones de **Tipo de nivel predefinido** "
-"definidas en Preferencias → Dibujo."
+"definidas en Preferencias... → Dibujo."
 
 #: ../../source/drawing_animation_levels.rst:66
 msgid "**To create a new animation level to draw:**"
@@ -288,20 +288,19 @@ msgstr "**Para crear un nivel de animación:**"
 #: ../../source/drawing_animation_levels.rst:1276
 #: ../../source/drawing_animation_levels.rst:1303
 #: ../../source/drawing_animation_levels.rst:1396
-#: ../../source/drawing_animation_levels.rst:1452
-#: ../../source/drawing_animation_levels.rst:1485
-#: ../../source/drawing_animation_levels.rst:1493
-#: ../../source/drawing_animation_levels.rst:1501
+#: ../../source/drawing_animation_levels.rst:1481
+#: ../../source/drawing_animation_levels.rst:1489
+#: ../../source/drawing_animation_levels.rst:1497
 msgid "Do one of the following:"
 msgstr "Hacer una de las siguientes cosas:"
 
 #: ../../source/drawing_animation_levels.rst:70
 msgid ""
 "Select a cell in the Xsheet/Timeline where you want to place your animation "
-"level and choose File  →  **New Level...**"
+"level and choose Level → New  →  **New Level...**"
 msgstr ""
 "Seleccionar una celda en la Planilla/Línea de tiempo donde se desee ubicar el "
-"nivel de animación y elegir Archivo → **Nuevo nivel...**"
+"nivel de animación y elegir Nivel → Nuevo → **Nuevo nivel...**"
 
 #: ../../source/drawing_animation_levels.rst:72
 msgid ""
@@ -394,11 +393,11 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:95
 #: ../../source/drawing_animation_levels.rst:112
 msgid ""
-"The level type will be the one defined in Preferences  →  Drawing as **Default "
-"Level Type**."
+"The level type will be the one defined in Preferences...  →  Drawing as "
+"**Default Level Type**."
 msgstr ""
-"El tipo de nivel será el indicado en Preferencias → Dibujo como **Tipo de nivel "
-"predefinido**."
+"El tipo de nivel será el indicado en Preferencias... → Dibujo como **Tipo de "
+"nivel predefinido**."
 
 #: ../../source/drawing_animation_levels.rst:101
 msgid "Using the Xsheet as Animation Sheet"
@@ -406,21 +405,21 @@ msgstr "Uso de la Planilla/Línea de tiempo como planilla de animación"
 
 #: ../../source/drawing_animation_levels.rst:102
 msgid ""
-"When in Preferences  →  Drawing the **Autocreation:** option is set to **Use the "
-"Xsheet as Animation Sheet**, it's possible to create new drawings automatically "
-"by using drawing tools in the viewer. If the currently selected cell is empty "
-"and belongs to an empty column, a new level will be automatically created and "
-"named with the first available letter of the alphabet; if the currently selected "
-"cell is **anywhere after** one containing a level drawing, a new drawing will be "
-"added to that level. In both cases the drawings will take its number from the "
-"scene current frame ; if that drawing number already existed in the level, a "
-"letter will be added to its number (e.g. A.0001a.ext)."
+"When in Preferences...  →  Drawing the **Autocreation:** option is set to **Use "
+"the Xsheet as Animation Sheet**, it's possible to create new drawings "
+"automatically by using drawing tools in the viewer. If the currently selected "
+"cell is empty and belongs to an empty column, a new level will be automatically "
+"created and named with the first available letter of the alphabet; if the "
+"currently selected cell is **anywhere after** one containing a level drawing, a "
+"new drawing will be added to that level. In both cases the drawings will take "
+"its number from the scene current frame ; if that drawing number already existed "
+"in the level, a letter will be added to its number (e.g. A.0001a.ext)."
 msgstr ""
-"Cuando en Preferencias → Dibujo la opción **Creación automática** está en **Usar "
-"la Planilla como planilla de animación**, será posible crear nuevos dibujos "
-"automáticamente usando las herramientas de dibujo en el Visor. Si la celda "
-"seleccionada se encontrara vacía y perteneciera a una columna/capa vacía, se "
-"creará automáticamente un nuevo nivel, al cual se le asignará como nombre la "
+"Cuando en Preferencias... → Dibujo la opción **Creación automática** está en "
+"**Usar la Planilla como planilla de animación**, será posible crear nuevos "
+"dibujos automáticamente usando las herramientas de dibujo en el Visor. Si la "
+"celda seleccionada se encontrara vacía y perteneciera a una columna/capa vacía, "
+"se creará automáticamente un nuevo nivel, al cual se le asignará como nombre la "
 "primera letra disponible del alfabeto; si la celda seleccionada se encontrara "
 "*en cualquier posición posterior* a una celda que exponga un dibujo de un nivel, "
 "el nuevo dibujo a ser creado se agregará a dicho nivel. En ambos casos el nuevo "
@@ -850,8 +849,8 @@ msgid "**To change the Viewer Background color:**"
 msgstr "**Para cambiar el color de Fondo del Visor:**"
 
 #: ../../source/drawing_animation_levels.rst:241
-msgid "Open the File  →  Preferences  →  **Colors** dialog."
-msgstr "Abrir el diálogo Archivo → Preferencias → **Colores**."
+msgid "Open the File  →  Preferences...  →  **Colors** dialog."
+msgstr "Abrir el diálogo Archivo → Preferencias... → **Colores**."
 
 #: ../../source/drawing_animation_levels.rst:243
 msgid "Define the **Viewer BG Color** by doing one of the following:"
@@ -2160,8 +2159,8 @@ msgstr ""
 "convertir."
 
 #: ../../source/drawing_animation_levels.rst:609
-msgid "Choose Level  →  **Convert to Vectors...**"
-msgstr "Elegir Nivel → **Convertir en vectorial...**"
+msgid "Choose Level → Convert  →  **Convert to Vectors...**"
+msgstr "Elegir Nivel → Conversión → **Convertir en vectorial...**"
 
 #: ../../source/drawing_animation_levels.rst:611
 msgid "In the dialog set parameters for the conversion."
@@ -2235,8 +2234,8 @@ msgstr "**Para redimensionar el área de previsualización:**"
 
 #: ../../source/drawing_animation_levels.rst:638
 #: ../../source/drawing_animation_levels.rst:1093
-#: ../../source/drawing_animation_levels.rst:1523
-#: ../../source/drawing_animation_levels.rst:1558
+#: ../../source/drawing_animation_levels.rst:1519
+#: ../../source/drawing_animation_levels.rst:1554
 msgid "Do any of the following:"
 msgstr "Hacer alguna de las siguientes cosas:"
 
@@ -2281,8 +2280,9 @@ msgid ""
 "Use the reset view shortcut (by default the 0 key) to display preview at its "
 "actual size"
 msgstr ""
-"Hacer clic derecho y elegir la opción **Restablecer vista** desde el menú, para "
-"mostrar el área de previsualización a su tamaño real."
+"Hacer clic derecho y elegir la opción **Restablecer vista** (o su atajo de "
+"teclado: 0) desde el menú, para mostrar el área de previsualización a su tamaño "
+"real."
 
 #: ../../source/drawing_animation_levels.rst:656
 msgid "**To activate and deactivate the Centerlines Check:**"
@@ -2621,10 +2621,9 @@ msgstr "**Rotación** permite definir la rotación de la selección actual."
 
 #: ../../source/drawing_animation_levels.rst:754
 msgid ""
-"**Position N/S** and **E/W** set a vertical and horizontal offset for the "
-"selection."
+"**Position X** and **Y** set a vertical and horizontal offset for the selection."
 msgstr ""
-"**Posición X** e **Y** permite definir un desplazamiento horizontal o vertical "
+"**Posición X** e **Y** permiten definir un desplazamiento horizontal o vertical "
 "para la selección."
 
 #: ../../source/drawing_animation_levels.rst:756
@@ -3325,8 +3324,8 @@ msgstr ""
 "que se desea que pertenezcan a un mismo grupo."
 
 #: ../../source/drawing_animation_levels.rst:964
-msgid "Choose Edit  →  **Group**."
-msgstr "Elegir Editar → **Desagrupar**."
+msgid "Choose Edit → Group  →  **Group**."
+msgstr "Elegir Editar → Grupos → **Agrupar**."
 
 #: ../../source/drawing_animation_levels.rst:966
 msgid "Right-click on the selection and choose **Group** from the menu that opens."
@@ -3341,8 +3340,8 @@ msgid "Select the group you want to release."
 msgstr "Seleccionar el grupo que se desea desarmar."
 
 #: ../../source/drawing_animation_levels.rst:974
-msgid "Choose Edit  →  **Ungroup**."
-msgstr "Elegir Editar → **Desagrupar**."
+msgid "Choose Edit → Group  →  **Ungroup**."
+msgstr "Elegir Editar → Grupos → **Desagrupar**."
 
 #: ../../source/drawing_animation_levels.rst:976
 msgid ""
@@ -3354,8 +3353,8 @@ msgid "**To Enter a group:**"
 msgstr "**Para entrar a un grupo:**"
 
 #: ../../source/drawing_animation_levels.rst:982
-msgid "Select the group, then choose Edit  →  **Enter Group**."
-msgstr "Seleccionar el grupo, luego elegir Editar → **Entrar al grupo**."
+msgid "Select the group, then choose Edit → Group  →  **Enter Group**."
+msgstr "Seleccionar el grupo, luego elegir Editar → Grupos → **Entrar al grupo**."
 
 #: ../../source/drawing_animation_levels.rst:984
 msgid "Right-click the group and choose **Enter Group** from the menu that opens."
@@ -3370,8 +3369,8 @@ msgid "**To Exit a group:**"
 msgstr "**Para salir de un grupo:**"
 
 #: ../../source/drawing_animation_levels.rst:992
-msgid "Choose Edit  →  **Exit Group**."
-msgstr "Elegir Editar → **Salir del grupo**."
+msgid "Choose Edit → Group  →  **Exit Group**."
+msgstr "Elegir Editar → Grupos → **Salir del grupo**."
 
 #: ../../source/drawing_animation_levels.rst:994
 msgid "Right-click the group and choose **Exit Group** from the menu that opens."
@@ -3463,8 +3462,8 @@ msgid "**To bring the selection to front:**"
 msgstr "**Para traer la selección al frente:**"
 
 #: ../../source/drawing_animation_levels.rst:1033
-msgid "Choose Edit  →  **Bring to Front**."
-msgstr "Elegir Editar → **Traer al frente**."
+msgid "Choose Edit → Arrange  →  **Bring to Front**."
+msgstr "Elegir Editar → Ordenar → **Traer al frente**."
 
 #: ../../source/drawing_animation_levels.rst:1035
 msgid ""
@@ -3478,8 +3477,8 @@ msgid "**To bring the selection one level forward:**"
 msgstr "**Para traer la selección un nivel hacia adelante:**"
 
 #: ../../source/drawing_animation_levels.rst:1041
-msgid "Choose Edit  →  **Bring Forward**."
-msgstr "Elegir Editar → **Traer hacia adelante**."
+msgid "Choose Edit → Arrange  →  **Bring Forward**."
+msgstr "Elegir Editar → Ordenar → **Traer hacia adelante**."
 
 #: ../../source/drawing_animation_levels.rst:1043
 msgid ""
@@ -3494,8 +3493,8 @@ msgid "**To send the selection back:**"
 msgstr "**Para enviar la selección al fondo:**"
 
 #: ../../source/drawing_animation_levels.rst:1049
-msgid "Choose Edit  →  **Send Back**."
-msgstr "Elegir Editar → **Enviar al fondo**."
+msgid "Choose Edit → Arrange  →  **Send Back**."
+msgstr "Elegir Editar → Ordenar → **Enviar al fondo**."
 
 #: ../../source/drawing_animation_levels.rst:1051
 msgid ""
@@ -3508,8 +3507,8 @@ msgid "**To send the selection one level backward:**"
 msgstr "**Para enviar la selección un nivel hacia atrás:**"
 
 #: ../../source/drawing_animation_levels.rst:1057
-msgid "Choose Edit  →  **Send Backward**."
-msgstr "Elegir Editar → **Enviar hacia atrás**."
+msgid "Choose Edit → Arrange  →  **Send Backward**."
+msgstr "Elegir Editar → Ordenar → **Enviar hacia atrás**."
 
 #: ../../source/drawing_animation_levels.rst:1059
 msgid ""
@@ -3730,8 +3729,8 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1143
 msgid ""
-"Right-click the control point and choose Set Linear Control Point from the menu "
-"that opens."
+"Right-click the control point and choose **Set Linear Control Point** from the "
+"menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el punto de control y elegir la opción **Punto de "
 "control Lineal** en el menú."
@@ -3746,11 +3745,11 @@ msgstr "Hacer Alt-clic sobre el punto de control."
 
 #: ../../source/drawing_animation_levels.rst:1151
 msgid ""
-"Right-click the control point and choose Set Non-linear Control Point from the "
-"menu that opens."
+"Right-click the control point and choose **Set Nonlinear Control Point** from "
+"the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el punto de control y elegir la opción **Punto de "
-"control Bézier** en el menú."
+"control Bezier** en el menú."
 
 #: ../../source/drawing_animation_levels.rst:1157
 msgid "Changing the Bend of Vector Strokes"
@@ -4231,8 +4230,8 @@ msgstr ""
 "cuyas intersecciones se desea limpiar."
 
 #: ../../source/drawing_animation_levels.rst:1305
-msgid "Choose Edit  →  **Remove Vector Overflow**."
-msgstr "Elegir Editar → **Corregir intersecciones de trazos**."
+msgid "Choose Level → Optimize  →  **Remove Vector Overflow**."
+msgstr "Elegir Nivel → Optimización → **Corregir intersecciones de trazos**."
 
 #: ../../source/drawing_animation_levels.rst:1307
 msgid ""
@@ -4663,14 +4662,14 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1440
 msgid ""
-"The **Clone** command allows you to create a copy of the selected cells, "
-"preserving the numbering order and assigning a new name to it. The **_clone** "
-"suffix appended to the name of the level is the default."
+"The **Clone Cells** command allows you to create an independent copy of the "
+"selected cells, preserving the numbering order and assigning a new name to it. "
+"The **_clone** suffix appended to the name of the level is the default."
 msgstr ""
-"El comando **Clonar** permite crear una copia de las celdas seleccionadas, "
-"preservando el orden de numeración y asignándole un nombre al nuevo nivel "
-"clonado. De forma predefinida se anexará el sufijo **_clone** al nombre del "
-"nuevo nivel."
+"El comando **Clonar celdas** permite crear una copia independiente de las celdas "
+"seleccionadas, preservando el orden de numeración y asignándole un nombre al "
+"nuevo nivel creado. De forma predefinida se anexará el sufijo **_clone** al "
+"nombre del nuevo nivel."
 
 #: ../../source/drawing_animation_levels.rst:1442
 msgid ""
@@ -4718,25 +4717,20 @@ msgstr "**Para clonar niveles:**"
 msgid "Select the cells you want to clone."
 msgstr "Seleccionar las celdas que se desea clonar."
 
-#: ../../source/drawing_animation_levels.rst:1454
-msgid "Choose Cells  →  **Clone**."
+#: ../../source/drawing_animation_levels.rst:1452
+msgid "Choose Cells  →  **Clone Cells**."
 msgstr "Elegir Celdas → **Clonar celdas**."
 
-#: ../../source/drawing_animation_levels.rst:1456
-msgid "Right-click in the selection and choose **Clone** from the menu that opens."
-msgstr ""
-"Hacer clic derecho en la selección y elegir la opción **Clonar** en el menú."
-
-#: ../../source/drawing_animation_levels.rst:1458
+#: ../../source/drawing_animation_levels.rst:1454
 msgid "Enter a **Level Name:** and press **OK** to confirm."
 msgstr ""
 "Ingresar el **Nombre del nivel:** y presionar el **Aceptar** para confirmar."
 
-#: ../../source/drawing_animation_levels.rst:1464
+#: ../../source/drawing_animation_levels.rst:1460
 msgid "Using Onion Skin"
 msgstr "Uso de piel de cebolla"
 
-#: ../../source/drawing_animation_levels.rst:1465
+#: ../../source/drawing_animation_levels.rst:1461
 msgid ""
 "If you want to view more than one level drawing at the same time in the Viewer "
 "as reference when you create drawings, or you want to check the animation, you "
@@ -4746,7 +4740,7 @@ msgstr ""
 "referencia al crear dibujos, o se desea comprobar la animación, es posible "
 "activar el modo **Piel de cebolla**."
 
-#: ../../source/drawing_animation_levels.rst:1467
+#: ../../source/drawing_animation_levels.rst:1463
 msgid ""
 "The Onion Skin is available both in the Xsheet/Timeline and in the Level Strip, "
 "according to where the cursor showing the current frame is displayed, as the "
@@ -4758,7 +4752,7 @@ msgstr ""
 "tiempo, ya que la función puede ser activada desde el propio cursor y "
 "administrada desde la columna/barra de fotogramas."
 
-#: ../../source/drawing_animation_levels.rst:1471
+#: ../../source/drawing_animation_levels.rst:1467
 msgid ""
 "A column animation displayed with the relative Onion Skin set for 6 previous "
 "frames, step two, and an absolute Onion Skin set at frame 35."
@@ -4767,7 +4761,7 @@ msgstr ""
 "fotogramas anteriores, a fotograma doble, y con el fotograma 35 marcado como "
 "absoluto."
 
-#: ../../source/drawing_animation_levels.rst:1473
+#: ../../source/drawing_animation_levels.rst:1469
 msgid ""
 "When a frame of the Level Strip is selected, the onion skin applies to the "
 "*current level* only, referring to the sequence of the full animation level as "
@@ -4777,7 +4771,7 @@ msgstr ""
 "cebolla se aplica sólo al *nivel actual*, haciendo referencia a la secuencia "
 "completa del nivel de animación, tal como fue creado."
 
-#: ../../source/drawing_animation_levels.rst:1475
+#: ../../source/drawing_animation_levels.rst:1471
 msgid ""
 "When a cell of the Xsheet/Timeline is selected, the onion skin applies to the "
 "current level, according to how the drawing sequence is exposed in the scene, "
@@ -4797,7 +4791,7 @@ msgstr ""
 "Planilla/Línea de tiempo, para permitir también tener referencias de todos los "
 "elementos animados o en movimiento en la escena."
 
-#: ../../source/drawing_animation_levels.rst:1477
+#: ../../source/drawing_animation_levels.rst:1473
 msgid ""
 "The *relative* Onion Skin mode displays frames in relation to the position of "
 "the current frame. For instance you can activate the frame previous to the "
@@ -4809,7 +4803,7 @@ msgstr ""
 "anterior al actual, y cada vez que el fotograma actual cambie, el fotograma "
 "anterior al mismo será mostrado."
 
-#: ../../source/drawing_animation_levels.rst:1479
+#: ../../source/drawing_animation_levels.rst:1475
 msgid ""
 "The *fixed* Onion Skin mode displays the selected frame independently from the "
 "current frame. For instance you can activate frame 5, and every time you change "
@@ -4820,25 +4814,25 @@ msgstr ""
 "es posible activar el fotograma 5, y cada vez que el fotograma actual cambie, el "
 "fotograma 5 será mostrado en modo Piel de cebolla."
 
-#: ../../source/drawing_animation_levels.rst:1481
+#: ../../source/drawing_animation_levels.rst:1477
 msgid ""
 "The way images are displayed in Onion Skin mode can be customized in the "
-"Preferences pane. It's possible to define the **Paper Thickness**, to set an "
-"independent color correction for previous and following frames, and to **Display "
-"Lines Only** for Toonz Vector and Toonz Raster."
+"Preferences... → Onion Skin section. It's possible to define the **Paper "
+"Thickness**, to set an independent color correction for previous and following "
+"frames, and to **Display Lines Only** for Toonz Vector and Toonz Raster."
 msgstr ""
 "Es posible personalizar la forma en que las imágenes son mostradas en el modo "
-"Piel de cebolla desde el panel de Preferencias. Allí es posible definir el "
-"**Grosor del papel**, definir colores independientes para los fotogramas "
-"anteriores y siguientes, así como **Sólo mostrar líneas** en niveles Vectorial "
-"de Toonz e Imagen de Toonz."
+"Piel de cebolla, desde el panel de Preferencias... → Piel de cebolla. Allí es "
+"posible definir el **Grosor del papel**, definir colores independientes para los "
+"fotogramas anteriores y siguientes, así como **Sólo mostrar líneas** para "
+"niveles Vectorial de Toonz e Imagen de Toonz."
 
-#: ../../source/drawing_animation_levels.rst:1483
+#: ../../source/drawing_animation_levels.rst:1479
 msgid "**To activate or deactivate frames in Relative Onion Skin mode:**"
 msgstr ""
 "**Para activar o desactivar fotogramas de Piel de cebolla en modo Relativo:**"
 
-#: ../../source/drawing_animation_levels.rst:1487
+#: ../../source/drawing_animation_levels.rst:1483
 msgid ""
 "In the Xsheet, click the small romboid markers available to the left of the "
 "frames column (or above the frame bar in the Timeline). Click and drag "
@@ -4849,7 +4843,7 @@ msgstr ""
 "Línea de tiempo). Si se hace clic y se arrastra se activará automáticamente una "
 "serie de fotogramas."
 
-#: ../../source/drawing_animation_levels.rst:1489
+#: ../../source/drawing_animation_levels.rst:1485
 msgid ""
 "In the Level Strip, click the small circular markers available to the left of "
 "the strip frames. Click and drag automatically activates or deactivates a series "
@@ -4859,12 +4853,12 @@ msgstr ""
 "izquierda de los fotogramas de la cinta. Si se hace clic y se arrastra se "
 "activará automáticamente una serie de fotogramas."
 
-#: ../../source/drawing_animation_levels.rst:1491
+#: ../../source/drawing_animation_levels.rst:1487
 msgid "**To activate or deactivate frames in Fixed Onion Skin mode:**"
 msgstr ""
 "**Para activar o desactivar fotogramas de Piel de cebolla en modo Absoluto:**"
 
-#: ../../source/drawing_animation_levels.rst:1495
+#: ../../source/drawing_animation_levels.rst:1491
 msgid ""
 "In the Xsheet, click the small ghosted romboid markers available to the very "
 "left of the frames column (or above the frame bar in the Timeline). Click and "
@@ -4875,7 +4869,7 @@ msgstr ""
 "fotogramas en la Línea de tiempo). Si se hace clic y se arrastra se activará "
 "automáticamente una serie de fotogramas."
 
-#: ../../source/drawing_animation_levels.rst:1497
+#: ../../source/drawing_animation_levels.rst:1493
 msgid ""
 "In the Level Strip, click the small ghosted circular markers available to the "
 "very left of the strip frames. Click and drag automatically activates or "
@@ -4885,11 +4879,11 @@ msgstr ""
 "en el extremo izquierdo de los fotogramas de la cinta. Si se hace clic y se "
 "arrastra se activará automáticamente una serie de fotogramas."
 
-#: ../../source/drawing_animation_levels.rst:1499
+#: ../../source/drawing_animation_levels.rst:1495
 msgid "**To Deactivate (or Activate again) the Onion Skin mode:**"
 msgstr "**Para desactivar (o volver a activar) el modo Piel de cebolla:**"
 
-#: ../../source/drawing_animation_levels.rst:1503
+#: ../../source/drawing_animation_levels.rst:1499
 msgid ""
 "Double-click over the big circle to the left of the current frame cursor. Double-"
 "click again to activate it back."
@@ -4898,7 +4892,7 @@ msgstr ""
 "la Planilla (o encima del mismo en la Línea de tiempo). Hacer doble clic "
 "nuevamente para volver a activarlo."
 
-#: ../../source/drawing_animation_levels.rst:1505
+#: ../../source/drawing_animation_levels.rst:1501
 msgid ""
 "Right-click in the Viewer or in the frames column/bar of the Xsheet/Timeline, "
 "and choose **Deactivate Onion Skin** or **Activate Onion Skin** in the menu that "
@@ -4908,7 +4902,7 @@ msgstr ""
 "Planilla/Línea de tiempo y elegir la opción **Desactivar piel de cebolla** o "
 "**Activar piel de cebolla** en el menú."
 
-#: ../../source/drawing_animation_levels.rst:1507
+#: ../../source/drawing_animation_levels.rst:1503
 msgid ""
 "The first time you activate Onion Skin mode by Right-clicking in the Viewer or "
 "the Xsheet/Timeline frames column/bar, a default relative onion skin mode "
@@ -4918,16 +4912,16 @@ msgstr ""
 "Visor o la columna/barra de fotogramas de la Planilla/Línea de tiempo, se activa "
 "un modo relativo predefinido, que muestra los tres fotogramas anteriores."
 
-#: ../../source/drawing_animation_levels.rst:1509
+#: ../../source/drawing_animation_levels.rst:1505
 msgid "**To Extend the onion skin to the Whole Scene Content:**"
 msgstr ""
 "**Para extender la piel de cebolla para mostrar todo el contenido de la escena:**"
 
-#: ../../source/drawing_animation_levels.rst:1511
+#: ../../source/drawing_animation_levels.rst:1507
 msgid "Activate the onion skin in the Xsheet/Timeline."
 msgstr "Activar la Piel de cebolla en la Planilla/Línea de tiempo."
 
-#: ../../source/drawing_animation_levels.rst:1513
+#: ../../source/drawing_animation_levels.rst:1509
 msgid ""
 "Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and "
 "choose **Extend Onion Skin to Scene** from the menu that opens."
@@ -4936,11 +4930,11 @@ msgstr ""
 "Planilla/Línea de tiempo y elegir la opción **Extender piel de cebolla a toda la "
 "escena** en el menú."
 
-#: ../../source/drawing_animation_levels.rst:1515
+#: ../../source/drawing_animation_levels.rst:1511
 msgid "**To Limit the onion skin to the Current Level:**"
 msgstr "**Para limitar la Piel de cebolla al nivel actual:**"
 
-#: ../../source/drawing_animation_levels.rst:1517
+#: ../../source/drawing_animation_levels.rst:1513
 msgid ""
 "Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and "
 "choose **Limit Onion Skin to Level** from the menu that opens."
@@ -4949,17 +4943,17 @@ msgstr ""
 "Planilla/Línea de tiempo y elegir la opción **Limitar piel de cebolla a este "
 "nivel** en el menú."
 
-#: ../../source/drawing_animation_levels.rst:1519
+#: ../../source/drawing_animation_levels.rst:1515
 msgid "**To customize the way images are displayed in onion skin mode:**"
 msgstr ""
 "**Para personalizar la forma en que las imágenes son mostradas en el modo Piel "
 "de cebolla:**"
 
-#: ../../source/drawing_animation_levels.rst:1521
-msgid "Choose File  →  Preferences  →  **Onion Skin**."
-msgstr "Elegir Archivo → Preferencias → **Piel de cebolla**."
+#: ../../source/drawing_animation_levels.rst:1517
+msgid "Choose File  →  Preferences...  →  **Onion Skin**."
+msgstr "Elegir Archivo → Preferencias... → **Piel de cebolla**."
 
-#: ../../source/drawing_animation_levels.rst:1525
+#: ../../source/drawing_animation_levels.rst:1521
 msgid ""
 "Set a value for the **Paper Thickness** parameter; the lower the value, the more "
 "transparent the drawings displayed in Onion Skin mode will be."
@@ -4967,7 +4961,7 @@ msgstr ""
 "Definir un valor para el parámetro **Grosor del papel**; cuanto menor sea el "
 "mismo, más transparente se mostrarán los dibujos en el modo Piel de cebolla."
 
-#: ../../source/drawing_animation_levels.rst:1527
+#: ../../source/drawing_animation_levels.rst:1523
 msgid ""
 "Use the **Previous Frames Correction** to set a color for displaying previous "
 "frames."
@@ -4975,7 +4969,7 @@ msgstr ""
 "Usar **Fotogramas anteriores:** para definir un color para mostrar los "
 "fotogramas anteriores."
 
-#: ../../source/drawing_animation_levels.rst:1529
+#: ../../source/drawing_animation_levels.rst:1525
 msgid ""
 "Use the **Following Frames Correction** to set a color for displaying following "
 "frames."
@@ -4983,7 +4977,7 @@ msgstr ""
 "Usar **Fotogramas siguientes:** para definir un color para mostrar los "
 "fotogramas siguientes."
 
-#: ../../source/drawing_animation_levels.rst:1531
+#: ../../source/drawing_animation_levels.rst:1527
 msgid ""
 "Activate the **Display Lines Only** option to display Toonz Vector or Toonz "
 "Raster levels with lines only."
@@ -4991,11 +4985,11 @@ msgstr ""
 "Activar la opción **Sólo mostrar líneas** para mostrar sólo las líneas en los "
 "niveles Vectorial de Toonz e Imagen de Toonz."
 
-#: ../../source/drawing_animation_levels.rst:1537
+#: ../../source/drawing_animation_levels.rst:1533
 msgid "Using Shift and Trace"
 msgstr "Uso de Desplazar y trazar"
 
-#: ../../source/drawing_animation_levels.rst:1538
+#: ../../source/drawing_animation_levels.rst:1534
 msgid ""
 "The **Shift and Trace** function can help you in the creation of animated levels "
 "as if you were drawing on paper using a light table; in fact it allows you to "
@@ -5007,7 +5001,7 @@ msgstr ""
 "retroiluminada. Esta función permite usar los dibujos clave anterior y siguiente "
 "como referencia, mientras se está dibujando un intermedio."
 
-#: ../../source/drawing_animation_levels.rst:1540
+#: ../../source/drawing_animation_levels.rst:1536
 msgid ""
 "It's possible to temporary move and rotate the drawings you want to use as "
 "reference, to fit the position where you want to draw the inbetween. It's also "
@@ -5019,7 +5013,7 @@ msgstr ""
 "posible establecer la posición de los dibujos de referencia de forma automática, "
 "creando y editando una curva de trayectoria de acción."
 
-#: ../../source/drawing_animation_levels.rst:1542
+#: ../../source/drawing_animation_levels.rst:1538
 msgid ""
 "To better check the new drawing and the animation, you can toggle the Shift and "
 "Trace visualization on or off the Viewer."
@@ -5027,11 +5021,11 @@ msgstr ""
 "Para poder revisar más fácilmente el nuevo dibujo y la animación, es posible "
 "apagar y encender la visualización de la función Desplazar y trazar en el Visor."
 
-#: ../../source/drawing_animation_levels.rst:1544
+#: ../../source/drawing_animation_levels.rst:1540
 msgid "**To enter the Shift and Trace view:**"
 msgstr "**Para entrar al modo Desplazar y trazar:**"
 
-#: ../../source/drawing_animation_levels.rst:1546
+#: ../../source/drawing_animation_levels.rst:1542
 msgid ""
 "Position the frame cursor on the frame where you want to draw the inbetween "
 "drawing."
@@ -5039,7 +5033,7 @@ msgstr ""
 "Posicionar el cursor de tiempo en el fotograma donde se desee dibujar el "
 "intermedio."
 
-#: ../../source/drawing_animation_levels.rst:1548
+#: ../../source/drawing_animation_levels.rst:1544
 msgid ""
 "Enable View  →  **Shift and Trace**; the previous and next drawings will be "
 "visualized."
@@ -5047,12 +5041,12 @@ msgstr ""
 "Habilitar la opción Ver → **Desplazar y trazar**; se visualizarán los fotogramas "
 "anterior y siguiente."
 
-#: ../../source/drawing_animation_levels.rst:1550
+#: ../../source/drawing_animation_levels.rst:1546
 msgid "**To Edit the Position of the reference drawings:**"
 msgstr "**Para editar la posición de los dibujos de referencia:**"
 
-#: ../../source/drawing_animation_levels.rst:1552
-#: ../../source/drawing_animation_levels.rst:1572
+#: ../../source/drawing_animation_levels.rst:1548
+#: ../../source/drawing_animation_levels.rst:1568
 msgid ""
 "Position the frame cursor where you want to draw the inbetween drawing and "
 "sketch the path of action line beteween your reference points."
@@ -5060,12 +5054,12 @@ msgstr ""
 "Posicionar el cursor de tiempo donde se desee dibujar el intermedio y bocetar la "
 "curva de trayectoria de acción entre los puntos de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1554
-#: ../../source/drawing_animation_levels.rst:1574
+#: ../../source/drawing_animation_levels.rst:1550
+#: ../../source/drawing_animation_levels.rst:1570
 msgid "Activate View  →  **Edit Shift**."
 msgstr "Activar Ver → **Editar desplazamiento**."
 
-#: ../../source/drawing_animation_levels.rst:1556
+#: ../../source/drawing_animation_levels.rst:1552
 msgid ""
 "Click on the drawing you want to reposition in the Viewer, or use the **Previous "
 "Drawing** / **Following Drawing** options in the tool options bar; the related "
@@ -5076,24 +5070,24 @@ msgstr ""
 "la herramienta; se mostrará el marco delimitador del dibujo de referencia "
 "correspondiente."
 
-#: ../../source/drawing_animation_levels.rst:1560
+#: ../../source/drawing_animation_levels.rst:1556
 msgid "Click and drag *inside the bounding box* to **move** the reference drawing."
 msgstr ""
 "Hacer clic y arrastrar *dentro del marco* para **mover** el dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1562
+#: ../../source/drawing_animation_levels.rst:1558
 msgid ""
 "Click and drag *outside the bounding box* to **rotate** the reference drawing."
 msgstr ""
 "Hacer clic y arrastrar *fuera del marco* para **rotar** el dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1564
+#: ../../source/drawing_animation_levels.rst:1560
 msgid "Click and drag *the center handle* to change the **center of rotation**."
 msgstr ""
 "Hacer clic y arrastrar *el círculo central* para cambiar el **centro de "
 "rotación** del dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1566
+#: ../../source/drawing_animation_levels.rst:1562
 msgid ""
 "Click and drag *any corner handle of the bounding box* to **scale** the "
 "reference drawing from its center."
@@ -5101,15 +5095,15 @@ msgstr ""
 "Hacer clic y arrastrar *cualquier esquina del marco* para **escalar** el dibujo "
 "de referencia desde su centro."
 
-#: ../../source/drawing_animation_levels.rst:1568
+#: ../../source/drawing_animation_levels.rst:1564
 msgid "Repeat the same steps on the second reference drawing."
 msgstr "Repetir los mismos pasos con el segundo dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1570
+#: ../../source/drawing_animation_levels.rst:1566
 msgid "**To automatically Edit the Position of the reference drawings:**"
 msgstr "**Para editar la posición de los dibujos de referencia automáticamente:**"
 
-#: ../../source/drawing_animation_levels.rst:1576
+#: ../../source/drawing_animation_levels.rst:1572
 msgid ""
 "Ctrl-click and drag to create a path, from the reference point in the first "
 "drawing, to the reference point in the second one. The starting and the ending "
@@ -5119,7 +5113,7 @@ msgstr ""
 "referencia del primer dibujo hasta el del segundo. Los puntos inicial y final "
 "quedarán superpuestos en el centro de la trayectoria."
 
-#: ../../source/drawing_animation_levels.rst:1578
+#: ../../source/drawing_animation_levels.rst:1574
 msgid ""
 "Click and drag the handle along the path to change its shape; the reference "
 "drawings will move according to the handle position and rotate according to the "
@@ -5129,7 +5123,7 @@ msgstr ""
 "referencia se moverán y rotarán de acuerdo a la modificación realizada a la "
 "trayectoria."
 
-#: ../../source/drawing_animation_levels.rst:1580
+#: ../../source/drawing_animation_levels.rst:1576
 msgid ""
 "If needed, use the bounding box handles to fix the rotation of the reference "
 "drawing."
@@ -5137,7 +5131,7 @@ msgstr ""
 "Si fuera necesario, es posible rotar los dibujos de referencia desde fuera del "
 "marco delimitador."
 
-#: ../../source/drawing_animation_levels.rst:1582
+#: ../../source/drawing_animation_levels.rst:1578
 msgid ""
 "Clicking and dragging one of the reference drawings will remove the path of "
 "action line."
@@ -5145,12 +5139,12 @@ msgstr ""
 "Al hacer clic y arrastrar uno de los dibujos de referencia la trayectoria de "
 "acción será eliminada."
 
-#: ../../source/drawing_animation_levels.rst:1584
+#: ../../source/drawing_animation_levels.rst:1580
 msgid "**To Toggle the Shift and Trace visualization:**"
 msgstr ""
 "**Para apagar y encender la visualización de la función Desplazar y trazar:**"
 
-#: ../../source/drawing_animation_levels.rst:1586
+#: ../../source/drawing_animation_levels.rst:1582
 msgid ""
 "Activate View  →  **No Shift** to toggle the visualization of the reference "
 "drawings back to their original position."
@@ -5158,20 +5152,20 @@ msgstr ""
 "Activar Ver → **Ver sin desplazamiento** para alternar la visualización de los "
 "dibujos de referencia de vuelta a sus posiciones originales."
 
-#: ../../source/drawing_animation_levels.rst:1588
+#: ../../source/drawing_animation_levels.rst:1584
 msgid "**To Reset the position of the reference drawings:**"
 msgstr "**Para restablecer la posición de los dibujos de referencia:**"
 
-#: ../../source/drawing_animation_levels.rst:1590
+#: ../../source/drawing_animation_levels.rst:1586
 msgid "Choose the View  →  **Reset Shift** command."
 msgstr "Elegir el comando Ver → **Restablecer desplazamiento**."
 
-#: ../../source/drawing_animation_levels.rst:1592
+#: ../../source/drawing_animation_levels.rst:1588
 msgid "**To Reset the transformations of one of the reference drawings:**"
 msgstr ""
 "**Para restablecer las transformaciones de uno de los dibujos de referencia:**"
 
-#: ../../source/drawing_animation_levels.rst:1594
+#: ../../source/drawing_animation_levels.rst:1590
 msgid ""
 "In the tool options bar click on either **Reset Previous** or **Reset "
 "Following** buttons."
@@ -5179,40 +5173,40 @@ msgstr ""
 "En la barra de opciones de herramientas hacer clic en el botón **Restablecer "
 "anterior** o **Restablecer siguiente**."
 
-#: ../../source/drawing_animation_levels.rst:1596
+#: ../../source/drawing_animation_levels.rst:1592
 msgid "**To Create an inbetween drawing using the Shift and Trace feature:**"
 msgstr "**Para crear un dibujo intermedio usando la función Desplazar y trazar:**"
 
-#: ../../source/drawing_animation_levels.rst:1598
+#: ../../source/drawing_animation_levels.rst:1594
 msgid "Create the first key drawing."
 msgstr "Crear el primer dibujo clave."
 
-#: ../../source/drawing_animation_levels.rst:1600
+#: ../../source/drawing_animation_levels.rst:1596
 msgid "Create the second key drawing."
 msgstr "Crear el segundo dibujo clave."
 
-#: ../../source/drawing_animation_levels.rst:1602
+#: ../../source/drawing_animation_levels.rst:1598
 msgid "Select the cell where you want to create the inbetween drawing."
 msgstr "Seleccionar la celda donde se desea crear el dibujo intermedio."
 
-#: ../../source/drawing_animation_levels.rst:1604
+#: ../../source/drawing_animation_levels.rst:1600
 msgid "Activate View  →  **Shift and Trace**."
 msgstr "Activar Ver → **Desplazar y trazar**."
 
-#: ../../source/drawing_animation_levels.rst:1606
+#: ../../source/drawing_animation_levels.rst:1602
 msgid "Sketch the path of action line beteween your reference points."
 msgstr ""
 "Activar Ver → **Editar desplazamiento** y bocetar la curva de trayectoria de "
 "acción entre los puntos de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1608
+#: ../../source/drawing_animation_levels.rst:1604
 msgid ""
 "Activate View  →  **Edit Shift** and edit the position of the reference drawings."
 msgstr ""
 "Activar Ver → **Editar desplazamiento** y editar la posición de los dibujos de "
 "referencia."
 
-#: ../../source/drawing_animation_levels.rst:1610
+#: ../../source/drawing_animation_levels.rst:1606
 msgid "Create the inbetween drawing."
 msgstr "Crear el dibujo intermedio."
 
@@ -5256,3 +5250,11 @@ msgstr "Crear el dibujo intermedio."
 #~ msgstr ""
 #~ "Hacer clic sobre el dibujo que se desea reposicionar; se mostrará el marco "
 #~ "delimitador correspondiente."
+
+#~ msgid "Choose Edit  →  **Group**."
+#~ msgstr "Elegir Editar → **Desagrupar**."
+
+#~ msgid ""
+#~ "Right-click in the selection and choose **Clone** from the menu that opens."
+#~ msgstr ""
+#~ "Hacer clic derecho en la selección y elegir la opción **Clonar** en el menú."

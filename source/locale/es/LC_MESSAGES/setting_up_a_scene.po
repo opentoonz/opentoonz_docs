@@ -5,19 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 11:06-0300\n"
-"PO-Revision-Date: 2019-10-25 20:21-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"POT-Creation-Date: 2021-03-19 23:25-0300\n"
+"PO-Revision-Date: 2021-03-20 20:35-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/setting_up_a_scene.rst:4
 msgid "Setting Up a Scene"
@@ -82,11 +82,12 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:20
 msgid ""
-"Select File  →  Save Default Settings: all the settings from the current scene "
-"will become the project default."
+"Select File  →  Project Management  →  **Save Default Settings**: all the "
+"settings from the current scene will become the project default."
 msgstr ""
-"Seleccionar Archivo → **Guardar opciones predefinidas**: todas las opciones de "
-"la escena actual se transformarán en predefinidas para el proyecto."
+"Seleccionar Archivo → Administración de proyectos → **Guardar opciones "
+"predefinidas**: todas las opciones de la escena actual se transformarán en "
+"predefinidas para el proyecto."
 
 #: ../../source/setting_up_a_scene.rst:26
 msgid "Choosing the Working Unit"
@@ -118,15 +119,15 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:31
 msgid ""
-"In the Files  →  Preferences  →  Interface dialog you can set the following "
+"In the Files  →  Preferences...  →  Interface dialog you can set the following "
 "default units:"
 msgstr ""
-"En el diálogo Archivo → Preferencias → Interfaz es posible definir las "
+"En el diálogo Archivo → Preferencias... → Interfaz es posible definir las "
 "siguientes unidades predefinidas:"
 
 #: ../../source/setting_up_a_scene.rst:33
 msgid ""
-"The Unit is used to display all measures in text fields, and applied when "
+"The **Unit** is used to display all measures in text fields, and applied when "
 "moving or changing the size of stage objects."
 msgstr ""
 "La **Unidades** se usan para mostrar todas las medidas en los campos de ingreso "
@@ -135,8 +136,8 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:35
 msgid ""
-"The Camera Unit is used to display and define the camera size in the Xsheet  →  "
-"Camera Settings... dialog (see  :ref:`Defining Camera Settings "
+"The **Camera Unit** is used to display and define the camera size in the "
+"Xsheet  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings "
 "<defining_camera_settings>`  )."
 msgstr ""
 "Las **Unidades de cámara** se usan para mostrar y definir el tamaño de las "
@@ -168,22 +169,22 @@ msgstr ""
 msgid "**To set the default working units:**"
 msgstr "**Para definir las unidades predefinidas:**"
 
-#: ../../source/setting_up_a_scene.rst:43
-msgid "Choose File  →  Preferences  →  Interface."
-msgstr "Elegir Archivo → Preferencias → Interfaz."
+#: ../../source/setting_up_a_scene.rst:43 ../../source/setting_up_a_scene.rst:140
+msgid "Choose File  →  Preferences...  →  Interface."
+msgstr "Elegir Archivo → Preferencias... → Interfaz."
 
 #: ../../source/setting_up_a_scene.rst:45
 msgid "Do one of the following:"
 msgstr "Hacer uno de lo siguiente:"
 
 #: ../../source/setting_up_a_scene.rst:47
-msgid "In the Unit option menu choose the unit you want to use as default."
+msgid "In the **Unit** option menu choose the unit you want to use as default."
 msgstr "En la opción **Unidades:** elegir la unidad deseada como predefinida."
 
 #: ../../source/setting_up_a_scene.rst:49
 msgid ""
-"In the Camera Unit option menu choose the unit you want to use to express the "
-"camera size."
+"In the **Camera Unit** option menu choose the unit you want to use to express "
+"the camera size."
 msgstr ""
 "En la opción **Unidades de cámara:** elegir la unidad a usar para expresar el "
 "tamaño de la cámara."
@@ -234,14 +235,15 @@ msgstr ""
 msgid ""
 "Even if a scene has been composited with a specific frame rate for a certain "
 "output, it is possible to render it out at a different frame rate by using the "
-"Stretch from FPS: To: option in the Output Settings  →  Other Settings dialog "
-"(see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
+"Stretch from FPS: To: option in the Output Settings...  →  More Settings dialog "
+"section (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
 msgstr ""
-"Aunque una escena haya sido creada usando una determinada velocidad para un "
+"Aunque una escena haya sido creada usando una determinada velocidad y para un "
 "cierto tipo de formato de salida, es posible procesarla a una velocidad "
 "distinta, usando la opción **Estirar (fps)  Desde:  Hasta:** en el diálogo "
-"Opciones de salida → Otras opciones. (ver  :ref:`Elección de Opciones de salida "
-"<choosing_the_output_settings>`  )."
+"Opciones de salida... → Más opciones. (ver  :ref:`Elección de Opciones de "
+"salida <choosing_the_output_settings>`  )."
 
 #: ../../source/setting_up_a_scene.rst:66
 msgid "|stretch_fps_to|"
@@ -252,7 +254,7 @@ msgid "**To set the frame rate:**"
 msgstr "**Para definir la velocidad:**"
 
 #: ../../source/setting_up_a_scene.rst:71
-msgid "Choose Xsheet  →  Scene Settings..."
+msgid "Choose Xsheet  →  Scene Settings...  →  More."
 msgstr "Elegir Planilla → Opciones de escena..."
 
 #: ../../source/setting_up_a_scene.rst:73
@@ -290,11 +292,11 @@ msgstr ""
 #: ../../source/setting_up_a_scene.rst:86
 msgid ""
 "The camera frame size can be expressed in any unit, but will be visualized in "
-"the default one chosen in the Preferences  →  Interface dialog (see  :ref:"
+"the default one chosen in the Preferences...  →  Interface dialog (see  :ref:"
 "`Choosing the Working Unit <choosing_the_working_unit>`  )."
 msgstr ""
 "El tamaño de la cámara puede ser expresado en cualquier unidad, sin embargo "
-"será mostrado en la unidad predefinida elegida en el diálogo Preferencias → "
+"será mostrado en la unidad predefinida elegida en el diálogo Preferencias... → "
 "Interfaz (ver  :ref:`Elección de unidades de trabajo "
 "<choosing_the_working_unit>`  )."
 
@@ -307,28 +309,29 @@ msgid ""
 "X (Width) and Y (Height) frame size of the camera, expressed in the default "
 "Camera Unit (usually inches)."
 msgstr ""
-"**Tamaño X (ancho)** e **Y (altura)** de la cámara, expresados en las Unidades "
-"de cámara (usualmente pulgadas)."
+"**Tamaño** horizontal (X) y vertical (Y) de la imagen vista por la cámara, "
+"expresado en Unidades de cámara (usualmente pulgadas)."
 
 #: ../../source/setting_up_a_scene.rst:92
-msgid "A/R is the aspect ratio value resulting by dividing Width/Height."
-msgstr "**Proporción:** es el resultado de dividir ancho/altura."
+msgid "**A/R** is the aspect ratio value resulting by dividing Width/Height."
+msgstr "**Proporción** es el resultado de dividir ancho/altura."
 
 #: ../../source/setting_up_a_scene.rst:94
-msgid "X and Y resolution Pixels of the resulting image frame seen by the camera."
+msgid ""
+"X and Y resolution **Pixels** of the resulting image frame seen by the camera."
 msgstr ""
-"**Resolución X (ancho)** e **Y (altura)** de la imagen vista por la cámara, "
-"expresados en píxeles."
+"**Píxeles** horizontales (X) y verticales (Y) de la imagen vista por la cámara."
 
 #: ../../source/setting_up_a_scene.rst:96
 msgid ""
-"X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and "
-"YDpi=YPx/Height. This two fields can be forced to have the same value, by "
+"X and Y **DPI** values, calculated using the standard formulas: XDpi=XPx/Width, "
+"and YDpi=YPx/Height. This two fields can be forced to have the same value, by "
 "activating the equal-sign button between them."
 msgstr ""
-"**PPP X (ancho)** e **Y (altura)**, calculados usando las fórmulas estándar: "
-"Xppp=Xpx/ancho y Yppp=Ypx/altura. Es posible forzar a que estos dos parámetros "
-"tengan el mismo valor, activando el botón con el símbolo de igual entre ellos."
+"**PPP** (píxeles por pulgada) horizontales (X) y verticales (Y), calculados "
+"usando las fórmulas estándar: pppX=píxX/tamX y pppY=píxY/tamY. Es posible "
+"forzar a que estos dos parámetros tengan el mismo valor, activando el botón con "
+"el símbolo de igual, que se encuentra entre ellos."
 
 #: ../../source/setting_up_a_scene.rst:98
 msgid ""
@@ -485,10 +488,6 @@ msgid "**To apply a 3DLUT file for previsualizing color:**"
 msgstr ""
 "**Para aplicar un archivo 3DLUT para calibrar la previsualización del color:**"
 
-#: ../../source/setting_up_a_scene.rst:140
-msgid "Choose File  →  Preferences...  →  Interface."
-msgstr "Elegir Archivo → Preferencias... → Interfaz."
-
 #: ../../source/setting_up_a_scene.rst:142
 msgid "Activate the **Color Calibration using 3D Look-up Table** option."
 msgstr ""
@@ -532,12 +531,12 @@ msgid ""
 "To prevent most of the computer memory to be used by undo operations while you "
 "work, a situation that slows down the software performance, it is possible to "
 "set a limit for it by specifying the Undo Memory Size (MB) in the Files  →  "
-"Preferences  →  General dialog."
+"Preferences...  →  General dialog."
 msgstr ""
 "Para prevenir que esto llegue a usar una cantidad significativa de memoria del "
 "sistema y enlentecer el rendimiento del programa, es posible establecer un "
 "límite, usando la opción **Deshacer - Tamaño de memoria (MB)** en el diálogo "
-"Archivo → Preferencias → General."
+"Archivo → Preferencias... → General."
 
 #: ../../source/setting_up_a_scene.rst:159
 msgid ""
@@ -566,7 +565,7 @@ msgid ""
 "After a certain amount of time the computer performance may worsen, as the "
 "memory gets fragmented because of the several writing and reading accesses. To "
 "prevent this behavior, the Minimize Raster Memory Fragmentation* option can be "
-"activated in the Files  →  Preferences  →  General dialog. When activated, a "
+"activated in the Files  →  Preferences...  →  General dialog. When activated, a "
 "section of computer memory is reserved and used only for operations concerning "
 "Raster images."
 msgstr ""
@@ -574,8 +573,8 @@ msgstr ""
 "medida que la memoria comienza a quedar fragmentada por el uso de sucesivos "
 "procesos de escritura, lectura y borrado. Para prevenir esta situación, es "
 "posible activar la opción **Minimizar fragmentación de imágenes en memoria** en "
-"el diálogo Archivo → Preferencias → General. Al estar activada, una porción de "
-"la memoria del sistema será reservada solamente para su uso en operaciones "
+"el diálogo Archivo → Preferencias... → General. Al estar activada, una porción "
+"de la memoria del sistema será reservada solamente para su uso en operaciones "
 "relativas a imágenes de mapa de bits."
 
 #: ../../source/setting_up_a_scene.rst:170
@@ -593,3 +592,6 @@ msgid "The change set for this option is valid only after OpenToonz is restarted
 msgstr ""
 "Los cambios definidos para esta opción será válidos recién luego de que "
 "OpenToonz sea reiniciado."
+
+#~ msgid "Choose File  →  Preferences  →  Interface."
+#~ msgstr "Elegir Archivo → Preferencias → Interfaz."

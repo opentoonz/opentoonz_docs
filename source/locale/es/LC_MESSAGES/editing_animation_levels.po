@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-20 00:34-0300\n"
-"PO-Revision-Date: 2021-02-22 15:22-0300\n"
+"POT-Creation-Date: 2021-03-19 23:25-0300\n"
+"PO-Revision-Date: 2021-03-20 19:43-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.9.0\n"
 "X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/editing_animation_levels.rst:4
@@ -114,11 +114,11 @@ msgstr ""
 msgid ""
 "The width of the level strip pane cannot be resized freely, because it depends "
 "on the size of the animation level preview icons, but it can be customized in "
-"the Preferences  →  Interface dialog."
+"the Preferences...  →  Interface dialog."
 msgstr ""
 "Si bien es posible cambiar el ancho del panel Cinta de nivel, el tamaño de las "
 "miniaturas no se ajustará interactivamente; sin embargo sí es posible hacer esto "
-"desde el diálogo Archivo → Preferencias → Interfaz."
+"desde el diálogo Archivo → Preferencias... → Interfaz."
 
 #: ../../source/editing_animation_levels.rst:26
 msgid "**To edit an animation level in the Level Strip:**"
@@ -213,14 +213,15 @@ msgstr ""
 "la selección."
 
 #: ../../source/editing_animation_levels.rst:62
-msgid "Use the Edit  →  Select All command to select all of the level drawings."
+msgid ""
+"Use the Edit  →  **Select All** command to select all of the level drawings."
 msgstr ""
 "Usar el comando Editar → **Seleccionar todo** para seleccionar todos los dibujos "
 "del nivel."
 
 #: ../../source/editing_animation_levels.rst:64
 msgid ""
-"Use the Edit  →  Invert Selection command to invert the current selection of "
+"Use the Edit  →  **Invert Selection** command to invert the current selection of "
 "drawings."
 msgstr ""
 "Usar el comando Editar → **Invertir la selección** para invertir la selección "
@@ -235,7 +236,7 @@ msgstr ""
 "encuentran disponibles en el menú contextual (clic derecho) de la Cinta de nivel."
 
 #: ../../source/editing_animation_levels.rst:68
-msgid "**To exit the level strip editing mode:**"
+msgid "**To exit the Level Strip editing mode:**"
 msgstr "**Para salir del modo de edición en la Cinta de nivel:**"
 
 #: ../../source/editing_animation_levels.rst:70
@@ -245,17 +246,19 @@ msgstr ""
 "de la Planilla/Línea de tiempo."
 
 #: ../../source/editing_animation_levels.rst:72
-msgid "**To customize the level strip width:**"
+msgid "**To customize the Level Strip thumbnail size:**"
 msgstr "**Para personalizar el ancho de la Cinta de nivel:**"
 
 #: ../../source/editing_animation_levels.rst:74
-msgid "Choose File  →  Preferences  →  Interface."
-msgstr "Elegir Archivo → Preferencias → Interfaz."
+msgid "Choose File  →  Preferences...  →  Interface."
+msgstr "Elegir Archivo → Preferencias... → Interfaz."
 
 #: ../../source/editing_animation_levels.rst:76
-msgid "Set the Width and Height values of the level strip Icon Size*."
+msgid ""
+"Set the width and height values of the **Level Strip Thumbnail Size** option."
 msgstr ""
-"Definir los valores de Ancho y Altura de la propiedad **Tamaño de íconos**."
+"Definir los valores de ancho y altura de la propiedad **Miniaturas en Cinta de "
+"nivel**."
 
 #: ../../source/editing_animation_levels.rst:78
 msgid "Restart OpenToonz to make the changes effective."
@@ -310,16 +313,17 @@ msgstr "Hacer alguna de las siguientes cosas:"
 
 #: ../../source/editing_animation_levels.rst:99
 msgid ""
-"Use the Copy command to keep in memory selected drawings for further operations."
+"Use the **Copy** command to keep in memory selected drawings for further "
+"operations."
 msgstr ""
 "Usar el comando **Copiar** para almacenar en memoria los dibujos seleccionados "
 "para posteriores operaciones."
 
 #: ../../source/editing_animation_levels.rst:101
 msgid ""
-"Use the Cut command to eliminate selected drawings from the animation level and "
-"keep them in memory for further operations. The frames elimination causes a gap "
-"in the level numbering order."
+"Use the **Cut** command to eliminate selected drawings from the animation level "
+"and keep them in memory for further operations. The frames elimination causes a "
+"gap in the level numbering order."
 msgstr ""
 "Usar el comando **Cortar** para eliminar los dibujos seleccionados del nivel y "
 "almacenarlos en memoria para posteriores operaciones. La eliminación de "
@@ -328,8 +332,8 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:103
 msgid ""
-"Use the Paste command to paste drawings kept in memory in the animation level, "
-"starting from the selected insertion frame. The operation shifts down the "
+"Use the **Paste** command to paste drawings kept in memory in the animation "
+"level, starting from the selected insertion frame. The operation shifts down the "
 "following frames, and automatically renumbers them. If before the insertion "
 "frame there is a numbering gap, the pasted frames will fill the gap before "
 "starting to shift and renumber the following frames."
@@ -343,7 +347,7 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:105
 msgid ""
-"Use the Paste Into command to paste drawings kept in memory in the frames "
+"Use the **Paste Into** command to paste drawings kept in memory in the frames "
 "selected in the level strip, overwriting their content. If the selection "
 "contains less frames than those kept in memory, frames in excess will be "
 "ignored; if the selection contains more frames than those kept in memory, frames "
@@ -357,12 +361,12 @@ msgstr ""
 "sobrantes de la selección se mantendrán intocados."
 
 #: ../../source/editing_animation_levels.rst:107
-msgid "Use the Delete command to delete selected drawings."
+msgid "Use the **Delete** command to delete selected drawings."
 msgstr "Usar el comando **Borrar** para borrar los fotogramas seleccionados."
 
 #: ../../source/editing_animation_levels.rst:109
 msgid ""
-"Use the Insert command to insert empty (white) frames before the selection; "
+"Use the **Insert** command to insert empty (white) frames before the selection; "
 "inserted frames will be as many as the selected ones. The operation shifts down "
 "the following frames, and automatically renumbers them."
 msgstr ""
@@ -374,7 +378,7 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:111
 msgid ""
 "All of the Edit menu commands are also available in the menu that opens when "
-"right-clicking in the level strip."
+"right-clicking in the Level Strip."
 msgstr ""
 "Todos los comandos del menú Editar también se encuentran disponibles en el menú "
 "contextual (clic derecho) de la Cinta de nivel."
@@ -386,22 +390,23 @@ msgstr ""
 "Celdas:**"
 
 #: ../../source/editing_animation_levels.rst:119
-msgid "Use the Reverse command to invert the order of selected drawings."
+msgid "Use the **Reverse** command to invert the order of selected drawings."
 msgstr ""
 "Usar el comando **Invertir** para invertir el orden de los dibujos seleccionados."
 
 #: ../../source/editing_animation_levels.rst:121
 msgid ""
-"Use the Swing command to append selected drawings to the end of the selection in "
-"a reversed order. The last drawing of the selection will not be repeated."
+"Use the **Swing** command to append selected drawings to the end of the "
+"selection in a reversed order. The last drawing of the selection will not be "
+"repeated."
 msgstr ""
 "Usar el comando **Oscilar** para anexar los dibujos seleccionados al final de la "
 "selección, en orden inverso. El último dibujo de la selección no será repetido."
 
 #: ../../source/editing_animation_levels.rst:123
 msgid ""
-"Use the Step 2, Step 3 or Step 4 command to repeat selected drawings in order to "
-"have a step 2, step 3 or step 4 animation."
+"Use the **Step 2**, **Step 3** or **Step 4** command to repeat selected drawings "
+"in order to have a step 2, step 3 or step 4 animation."
 msgstr ""
 "Usar los comandos **Exposición x2**, **Exposición x3** o **Exposición x4** para "
 "repetir los dibujos seleccionados de manera de obtener una animación a cuadro "
@@ -409,8 +414,8 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:125
 msgid ""
-"Use the Each 2, Each 3 or Each 4, command to preserve only one drawing each 2, "
-"each 3 or each 4, of the selection, and delete the others."
+"Use the **Each 2**, **Each 3** or **Each 4**, command to preserve only one "
+"drawing each 2, each 3 or each 4, of the selection, and delete the others."
 msgstr ""
 "Usar los comandos **Uno de cada 2**, **Uno de cada 3**, **Uno de cada 4** para "
 "conservar sólo un dibujo de cada 2, 3 o 4 de la selección de la Cinta de nivel, "
@@ -418,19 +423,20 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:127
 msgid ""
-"Use the Duplicate Drawing command to make a copy of the first drawing of the "
-"selection in the following frame. If the following frames already contain "
-"drawings, the duplicated drawing will be inserted by shifting the others down."
+"Use the **Duplicate Drawing** command to make a copy of the *first drawing* of "
+"the selection in the following frame. If the following frames already contain "
+"drawings, the duplicated drawing will be inserted by shifting the others down in "
+"the Xsheet (or right in the Timeline)."
 msgstr ""
-"Usar el comando **Duplicar dibujo** para hacer una copia, del primer dibujo de "
-"la selección, en el fotograma siguiente. Si los fotogramas siguientes ya "
+"Usar el comando **Duplicar dibujo** para hacer una copia del primer dibujo de la "
+"selección, en el fotograma siguiente. Si los fotogramas siguientes ya "
 "contuvieran dibujos, el dibujo duplicado será insertado, desplazándolos hacia "
-"abajo."
+"abajo en la Planilla (o hacia la derecha en la Línea de tiempo)."
 
 #: ../../source/editing_animation_levels.rst:129
 msgid ""
-"Use the Merge command to paste in the current level the drawings copied from a "
-"different level, according to their original frame position and regardless of "
+"Use the **Merge** command to paste in the current level the drawings copied from "
+"a different level, according to their original frame position and regardless of "
 "the currently selected frames."
 msgstr ""
 "Usar el comando **Fusionar** para pegar, en el nivel actual, dibujos copiados "
@@ -439,8 +445,8 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:131
 msgid ""
-"All the Cells menu commands are also available in the menu that opens when right-"
-"clicking in the Level Strip."
+"All of the Cells menu commands are also available in the menu that opens when "
+"right-clicking in the Level Strip."
 msgstr ""
 "Todos los comandos del menú Celdas también se encuentran disponibles en el menú "
 "contextual (clic derecho) de la Cinta de nivel."
@@ -453,13 +459,13 @@ msgstr "Renumeración y adición de fotogramas a un nivel"
 msgid ""
 "When you need to add one or several drawings to a level, you first need to "
 "create room for the new drawings. This task can be achieved either using the "
-"Insert command (see  :ref:`Editing Level Frames <editing_level_frames>`  ), or "
-"the Renumber dialog."
+"**Insert** command (see  :ref:`Editing Level Frames <editing_level_frames>`  ), "
+"or the **Renumber...** dialog."
 msgstr ""
 "Cuando se necesita agregar uno o más dibujos a un nivel, primero se debe crear "
 "espacio para los mismos. Esta tarea puede ser realizada mediante el uso del "
 "comando **Insertar** (ver  :ref:`Edición de los fotogramas de un nivel "
-"<editing_level_frames>`  ) o del diálogo **Renumerar**."
+"<editing_level_frames>`  ) o del diálogo **Renumerar...**."
 
 #: ../../source/editing_animation_levels.rst:140
 msgid ""
@@ -509,14 +515,15 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:148
 msgid ""
-"If the Automatically Create Drawings option is activated in the Preferences  →  "
-"Drawing dialog, when you want to add a drawing at the end of the sequence simply "
-"select the first grey frame available, and draw in the Viewer."
+"If the **Automatically Create Drawings** option is activated in the "
+"Preferences...  →  Drawing dialog, when you want to add a drawing at the end of "
+"the sequence simply select the first grey frame available, and draw in the "
+"Viewer."
 msgstr ""
 "Cuando la opción **Creación automática:** se encuentre habilitada en el diálogo "
-"Archivo → Preferencias → Dibujo, para agregar un dibujo al final de la "
-"secuencia, bastará con seleccionar el primer fotograma siguiente al último y "
-"dibujar en el Visor."
+"Preferencias... → Dibujo, para agregar un dibujo al final de la secuencia, "
+"bastará con seleccionar el primer fotograma siguiente al último y dibujar en el "
+"Visor."
 
 #: ../../source/editing_animation_levels.rst:150
 msgid "**To renumber drawings of an animation level:**"
@@ -531,14 +538,14 @@ msgstr ""
 "selección discontinua."
 
 #: ../../source/editing_animation_levels.rst:154
-msgid "Select Level  →  Renumber."
+msgid "Select Level  →  **Renumber...**"
 msgstr "Seleccionar Nivel → **Renumerar...**"
 
 #: ../../source/editing_animation_levels.rst:156
 msgid ""
-"In the dialog that opens set the Start Frame number that will be assigned to the "
-"first drawing of the selection, and the Step used to number all following frames "
-"in the selection."
+"In the dialog that opens set the **Start Frame** number that will be assigned to "
+"the first drawing of the selection, and the **Step** used to number all "
+"following frames in the selection."
 msgstr ""
 "En el diálogo emergente definir en **Inicio:** el número de fotograma que será "
 "asignado al primer dibujo de la selección, y en **Intervalo:** el intervalo a "
@@ -549,13 +556,13 @@ msgid "**To add drawings to an animation level:**"
 msgstr "**Para agregar dibujos a un nivel de animación:**"
 
 #: ../../source/editing_animation_levels.rst:160
-msgid "Select Level  →  Add Frames."
+msgid "Select Level  →  **Add Frames...**"
 msgstr "Seleccionar Nivel → **Agregar fotogramas...**"
 
 #: ../../source/editing_animation_levels.rst:162
 msgid ""
-"In the dialog that opens sets the frame range you want to add, and the Step used "
-"to number the frames in the range."
+"In the dialog that opens sets the frame range you want to add, and the **Step** "
+"used to number the frames in the range."
 msgstr ""
 "En el diálogo emergente definir el rango de fotogramas que se desea agregar, y "
 "el **Intervalo:** a usar para numerar a los fotogramas de dicho rango."
@@ -585,7 +592,7 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:173
 msgid ""
-"For Toonz raster levels generated from a cleanup process, it is also possible to "
+"For Toonz Raster levels generated from a cleanup process, it is also possible to "
 "retrieve the original cleaned up drawings."
 msgstr ""
 "En el caso de niveles de Imagen de Toonz generados a partir del proceso de "
@@ -593,50 +600,53 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:175
 msgid ""
-"In order to revert to the original cleaned up drawings the Preferences  →  "
+"In order to revert to the original cleaned up drawings the Preferences...  →  "
 "Drawing  →  Keep Original Cleaned Up Drawings As Backup option has to be "
 "activated when the cleanup is performed (see  :ref:`Cleaning up Drawings "
 "<cleaning_up_drawings>`  )."
 msgstr ""
 "Para poder revertir a los dibujos originalmente limpiados, es necesario que la "
-"opción Archivo → Preferencias → Dibujo → **Mantener los originales de los "
-"dibujos limpiados como respaldo** se encuentre activada *antes* de realizar el "
-"proceso de limpieza (ver  :ref:`Limpieza de dibujos <cleaning_up_drawings>`  )."
+"opción Archivo → Preferencias... → Dibujo → **Mantener originales de los dibujos "
+"limpiados** se encuentre activada *antes* de realizar el proceso de limpieza "
+"(ver  :ref:`Limpieza de dibujos <cleaning_up_drawings>`  )."
 
 #: ../../source/editing_animation_levels.rst:177
-msgid "**To revert the level drawings to the last saved version:**"
-msgstr "**Para revertir los dibujos de un nivel a la última versión guardada:**"
+msgid "**To reload the level drawings to the last saved version:**"
+msgstr "**Para recargar la última versión guardada de un nivel:**"
 
 #: ../../source/editing_animation_levels.rst:179
-#: ../../source/editing_animation_levels.rst:189
-msgid "In the Level Strip select the drawings you want to revert."
+msgid "In the Level Strip select the drawings you want to reload."
 msgstr "En la Cinta de nivel seleccionar los dibujos que se desee recargar."
 
 #: ../../source/editing_animation_levels.rst:183
-msgid "Choose Level  →  Revert to Last Saved Version."
-msgstr "Elegir Nivel → **Recargar**."
+msgid "Choose Level  →  **Reload**."
+msgstr "Elegir Nivel → **Recargar**"
 
 #: ../../source/editing_animation_levels.rst:185
-msgid ""
-"Right click the selection and choose Revert to Last Saved Version from the menu "
-"that opens."
-msgstr "Hacer clic derecho sobre la selección y elegir **Recargar** en el menú."
+msgid "Right click the selection and choose **Reload** from the menu that opens."
+msgstr ""
+"Hacer clic derecho sobre la selección y elegir Reemplazar nivel → **Recargar** "
+"en el menú."
 
 #: ../../source/editing_animation_levels.rst:187
 msgid "**To revert to the original cleaned up drawings:**"
 msgstr "**Para revertir a los dibujos originales limpiados:**"
 
+#: ../../source/editing_animation_levels.rst:189
+msgid "In the Level Strip select the drawings you want to revert."
+msgstr "En la Cinta de nivel seleccionar los dibujos que se desee recargar."
+
 #: ../../source/editing_animation_levels.rst:193
-msgid "Choose Level  →  Revert to Cleaned Up."
-msgstr "Elegir Nivel → Revertir a versión limpia."
+msgid "Choose Level  →  **Revert to Cleaned Up**."
+msgstr "Elegir Nivel → **Revertir a versión limpia**."
 
 #: ../../source/editing_animation_levels.rst:195
 msgid ""
-"Right click the selection and choose Revert to Cleaned Up from the menu that "
+"Right click the selection and choose **Revert to Cleaned Up** from the menu that "
 "opens."
 msgstr ""
-"Hacer clic derecho sobre la selección y elegir **Revertir a versión limpia** en "
-"el menú."
+"Hacer clic derecho sobre la selección y elegir Reemplazar nivel → **Revertir a "
+"versión limpia** en el menú."
 
 #: ../../source/editing_animation_levels.rst:201
 msgid "Merging Animation Levels"
@@ -644,16 +654,16 @@ msgstr "Fusión de niveles de animación"
 
 #: ../../source/editing_animation_levels.rst:202
 msgid ""
-"Toonz vector levels and standard raster levels can be easily merged into a "
+"Toonz Vector levels and standard Raster levels can be easily merged into a "
 "single animation level generated by flattening them according to their stacking "
-"order, using the   →  Merge Levels command. TLV levels can be merged, using "
-"the   →  Merge TLV Levels command."
+"order, using the Xsheet  →  **Merge Levels** command. Toonz Raster levels can be "
+"merged using the Xsheet  →  **Merge TLV Levels** command."
 msgstr ""
 "Es posible fusionar varios niveles (tanto de tipo Vectorial de Toonz como de "
-"Imagen) en uno solo, generado tomando en cuenta su orden en la Planilla/Línea de "
-"tiempo, mediante el uso del comando Planilla → **Fusionar niveles**. También es "
-"posible fusionar varios niveles de Imagen de Toonz (TLV), usando el comando "
-"Planilla → **Fusionar niveles TLV**."
+"Imagen estándar) en uno solo, generado tomando en cuenta su orden en la Planilla/"
+"Línea de tiempo, mediante el uso del comando Planilla → **Fusionar niveles**. "
+"También es posible fusionar varios niveles de Imagen de Toonz (TLV), usando el "
+"comando Planilla → **Fusionar niveles TLV...**."
 
 #: ../../source/editing_animation_levels.rst:204
 msgid ""
@@ -667,7 +677,8 @@ msgstr ""
 "dibujos."
 
 #: ../../source/editing_animation_levels.rst:206
-msgid "In both cases there is no limit to the number of columns you can merge."
+msgid ""
+"In both cases there is no limit to the number of columns/layers you can merge."
 msgstr ""
 "En ambos casos, no existe un límite para el número de columnas/capas a ser "
 "fusionadas."
@@ -678,17 +689,20 @@ msgstr "Fusión de niveles Vectorial de Toonz o de Imagen"
 
 #: ../../source/editing_animation_levels.rst:213
 msgid ""
-"Using the   →  Merge Levels command the number of resulting drawings will depend "
-"on the number of drawings exposed in the first column on the left of the "
-"selection. When merging raster levels, the resolution of the resulting drawings "
-"will depend on the resolution of the drawings exposed in the first column on the "
-"left of the selection."
+"Using the Xsheet  →  **Merge Levels** command the number of resulting drawings "
+"will depend on the number of drawings exposed in the first Xsheet column on the "
+"left of the selection (or in the first Timeline layer on the bottom of the "
+"selection). When merging Raster levels, the resolution of the resulting drawings "
+"will depend on the resolution of the drawings exposed in the first Xsheet column "
+"on the left of the selection (or in the bottom Timeline layer on the bottom of "
+"the selection)."
 msgstr ""
 "Al usar el comando Planilla → **Fusionar niveles** la cantidad de dibujos "
 "resultantes dependerá de la cantidad de dibujos expuestos en la columna/capa "
-"seleccionada de más a la izquierda/abajo. Al fusionar niveles de Imagen, la "
-"resolución de los dibujos resultantes dependerá de la resolución de los dibujos "
-"expuestos en la columna/capa seleccionada de más a la izquierda/abajo."
+"seleccionada de más a la izquierda/abajo. Al fusionar niveles de Imagen "
+"estándar, la resolución de los dibujos resultantes dependerá de la resolución de "
+"los dibujos expuestos en la columna/capa seleccionada de más a la izquierda/"
+"abajo."
 
 #: ../../source/editing_animation_levels.rst:215
 #: ../../source/editing_animation_levels.rst:243
@@ -698,8 +712,8 @@ msgstr "Los niveles de animación son fusionados de acuerdo a las siguientes gu�
 #: ../../source/editing_animation_levels.rst:217
 msgid ""
 "The frame numbering order is followed; this means that all the drawings exposed "
-"at frame 1 will be merged to the drawing exposed at frame 1 of the first column "
-"of the selection."
+"at frame 1 will be merged to the drawing exposed at frame 1 of the first column/"
+"layer of the selection."
 msgstr ""
 "Se seguirá el orden de numeración de los fotogramas; esto significa que todos "
 "los dibujos expuestos en el fotograma 1 serán fusionados en el dibujo expuesto "
@@ -708,7 +722,8 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:219
 msgid ""
 "If two different drawings are associated at different frames to the same drawing "
-"exposed in the first column of the selection, only the first one will be applied."
+"exposed in the first column/layer of the selection, only the first one will be "
+"applied."
 msgstr ""
 "Si dos dibujos distintos se encuentran asociados, en diferentes fotogramas, al "
 "mismo dibujo expuesto en la primera columna/capa de la selección, sólo el "
@@ -716,19 +731,19 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:221
 msgid ""
-"Drawings not corresponding to any drawing exposed in the first column of the "
-"selection will be ignored."
+"Drawings not corresponding to any drawing exposed in the first column/layer of "
+"the selection will be ignored."
 msgstr ""
 "Los dibujos que no se correspondan con ningún dibujo expuesto en la primera "
 "columna/capa de la selección serán ignorados."
 
 #: ../../source/editing_animation_levels.rst:223
 msgid ""
-"It is not possible to merge columns if more than one level is exposed in any of "
-"them."
+"It is not possible to merge columns/layers if *more than one* level is exposed "
+"in any of them."
 msgstr ""
-"No será posible fusionar columnas/capas cuando haya más de un nivel expuesto en "
-"alguna de ellas."
+"No será posible fusionar columnas/capas cuando haya *más de un nivel* expuesto "
+"en alguna de ellas."
 
 #: ../../source/editing_animation_levels.rst:225
 #: ../../source/editing_animation_levels.rst:251
@@ -742,14 +757,14 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:227
 msgid ""
-"For Toonz vector levels each drawing of the merged levels will be retained as a "
-"group of vectors in the resulting level drawings; the palette of the resulting "
-"level will contain all of the styles used in the drawings of the merged levels."
+"For Toonz Vector levels each drawing of the merged levels will be retained as a "
+"*group* of vectors in the resulting level; the palette of the resulting level "
+"will contain all of the styles used in the drawings of the merged levels."
 msgstr ""
 "En niveles de tipo Vectorial de Toonz, cada dibujo de los niveles fusionados "
-"será mantenido como un grupo independiente, en los dibujos del nivel resultante; "
-"la paleta del nivel resultante contendrá todos los estilos usados en los dibujos "
-"de los niveles fusionados."
+"será mantenido como un *grupo independiente*, en los dibujos del nivel "
+"resultante; la paleta del nivel resultante contendrá todos los estilos usados en "
+"los dibujos de los niveles fusionados."
 
 #: ../../source/editing_animation_levels.rst:229
 msgid "**To merge animation levels:**"
@@ -757,13 +772,14 @@ msgstr "**Para fusionar niveles de animación:**"
 
 #: ../../source/editing_animation_levels.rst:231
 msgid ""
-"Select the columns where the animation levels you want to merge are exposed."
+"Select the columns/layers where the animation levels you want to merge are "
+"exposed."
 msgstr ""
 "Seleccionar las columnas/capas donde se encuentren expuestos los niveles de "
 "animación que se desee fusionar."
 
 #: ../../source/editing_animation_levels.rst:233
-msgid "Choose Xsheet  →  Merge Levels."
+msgid "Choose Xsheet  →  **Merge Levels**."
 msgstr "Elegir Planilla → **Fusionar niveles**."
 
 #: ../../source/editing_animation_levels.rst:238
@@ -772,9 +788,9 @@ msgstr "Fusión de niveles de Imagen de Toonz"
 
 #: ../../source/editing_animation_levels.rst:239
 msgid ""
-"The   →  Merge tlv Levels allows to combine several columns containing Toonz "
-"Raster Levels creating a new TLV level. The merged columns will be eliminated "
-"from the  and replaced with a new TLV level."
+"The Xsheet  →  **Merge TLV Levels** allows to combine several columns containing "
+"Toonz Raster Levels creating a new TLV level. The merged columns will be "
+"eliminated from the Xsheet/Timeline and replaced with a new TLV level."
 msgstr ""
 "El comando Planilla → **Fusionar niveles TLV...** permite combinar varias "
 "columnas/capas conteniendo niveles de tipo Imagen de Toonz para crear un nuevo "
@@ -783,11 +799,11 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:241
 msgid ""
-"Using the   →  Merge tlv Levels command the number of resulting drawings will "
-"depend on the frames combination of the involved levels. When merging Toonz "
+"Using the Xsheet  →  Merge TLV Levels command the number of resulting drawings "
+"will depend on the frames combination of the involved levels. When merging Toonz "
 "Raster levels, the resolution of the resulting level will depend on the "
-"resolution of the drawings exposed in the first column on the left of the "
-"selection."
+"resolution of the drawings exposed in the first Xsheet column on the left of the "
+"selection (or in the first Timeline layer on the bottom of the selection)."
 msgstr ""
 "Al usar el comando Planilla → **Fusionar niveles TLV...** la cantidad de dibujos "
 "resultantes dependerá de la combinación de los fotogramas de los niveles "
@@ -797,7 +813,7 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:245
 msgid ""
-"The  frame numbering order is followed; this means that the merge level will be "
+"The  frame numbering order is followed; this means that the merged level will be "
 "created following the frames numbering."
 msgstr ""
 "Durante la fusión se seguirá el orden de los fotogramas expuestos en la Planilla/"
@@ -806,40 +822,44 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:247
 msgid ""
-"If a combination of drawings will be reused the drawing previously created will "
+"If a combination of drawings will be reused, the drawing previously created will "
 "be reused."
 msgstr ""
 "Si una combinación de fotogramas se repitiera, el dibujo fusionado creado "
 "previamente se reutilizará."
 
 #: ../../source/editing_animation_levels.rst:249
-msgid "Also the palettes of the selected levels will be merged."
+msgid "Also, the palettes of the selected levels will be merged."
 msgstr "También serán fusionadas las paletas de los niveles seleccionados."
 
 #: ../../source/editing_animation_levels.rst:253
 msgid ""
-"**It is not possible to merge columns if more than one level is exposed in any "
-"of them.**"
+"**It is not possible to merge columns/layers if more than one level is exposed "
+"in any of them.**"
 msgstr ""
 "**No será posible fusionar columnas/capas cuando hubiera más de un nivel "
 "expuesto en cualquiera de ellas.**"
 
 #: ../../source/editing_animation_levels.rst:255
-msgid "**To merge tlv levels:**"
-msgstr "**Para fusionar niveles de Imagen de Toonz:**"
+msgid "**To merge Toonz Raster (TLV) levels:**"
+msgstr "**Para fusionar niveles de Imagen de Toonz (TLV):**"
 
 #: ../../source/editing_animation_levels.rst:257
-msgid "Select two ore more columns filled with the tlv you want to merge."
+msgid ""
+"Select two ore more columns/layers where the levels you want to merge are "
+"exposed."
 msgstr ""
-"Seleccionar dos o más columnas/capas conteniendo los niveles TLV que se desee "
-"fusionar."
+"Seleccionar dos o más columnas/capas donde se encuentren expuestos los niveles "
+"de animación que se desee fusionar."
 
 #: ../../source/editing_animation_levels.rst:259
-msgid "Choose   →  Merge tlv Levels"
-msgstr "Elegir Planilla → **Fusionar niveles TLV**."
+msgid "Choose Xsheet  →  **Merge TLV Levels**"
+msgstr "Elegir Planilla → **Fusionar niveles TLV...**"
 
 #: ../../source/editing_animation_levels.rst:261
-msgid "Define File name and location in the pop up that opens and press Apply."
+msgid ""
+"Define the **File Name** and **Save in** location in the pop up that opens and "
+"press **Apply**."
 msgstr ""
 "Definir la ubicación y el nombre del nuevo archivo a ser creado, usando el "
 "diálogo emergente, y luego presionar **Aplicar**."
@@ -850,13 +870,13 @@ msgstr "Manipulación de niveles"
 
 #: ../../source/editing_animation_levels.rst:267
 msgid ""
-"Some commands are available to process the raster levels in order to adjust the "
-"brightness and contrast or the levels, to fade the colors toward a defined set "
-"of Red, Green, Blue and Alpha values, to adjust the levels of the images or to "
-"binarize them. The Adjust Thickness command is available to modify the thickness "
-"of the lines on Toonz Vector Levels."
+"Some commands are available to process Raster level images in order to adjust "
+"their brightness and contrast, to fade their colors toward a defined set of Red, "
+"Green, Blue and Alpha values, to adjust their levels or to binarize them. The "
+"**Adjust Thickness** command is available to modify the thickness of the lines "
+"in Toonz Vector Levels only."
 msgstr ""
-"Existen algunos comandos capaces de procesar niveles de imagen para ajustar su "
+"Existen algunos comandos capaces de procesar niveles de Imagen, para ajustar su "
 "brillo y contraste, fundir hacia un determinado color, ajustar sus niveles, para "
 "binarizarlos o agregar suavizado a sus bordes. En niveles Vectorial de Toonz, se "
 "encuentra disponible el comando **Ajustar grosor** para modificar el grosor de "
@@ -873,8 +893,8 @@ msgstr ""
 
 #: ../../source/editing_animation_levels.rst:271
 msgid ""
-"The processed images are stored in the cache and will be saved on disk using the "
-"save level or the save scene command."
+"The processed images are stored in the cache and will be saved on disk by using "
+"the **Save Level**, **Save All Levels**, or **Save All** commands."
 msgstr ""
 "Las imágenes procesadas son almacenadas en memoria y serán guardadas en disco al "
 "usar los comandos **Guardar nivel**, **Guardar todos los niveles** o **Guardar "
@@ -949,14 +969,15 @@ msgstr "**Para procesar el brillo y contraste de dibujos:**"
 #: ../../source/editing_animation_levels.rst:301
 #: ../../source/editing_animation_levels.rst:317
 #: ../../source/editing_animation_levels.rst:395
-msgid "Select the images or the level frames to process in the ."
+msgid ""
+"Select the level frames to process in the Xsheet/Timeline or the Level Strip."
 msgstr ""
-"Seleccionar, en la Planilla/Línea de tiempo o la Cinta de nivel, las imágenes o "
-"los fotogramas del nivel a procesar."
+"Seleccionar, en la Planilla/Línea de tiempo o la Cinta de nivel, los dibujos a "
+"ser procesados."
 
 #: ../../source/editing_animation_levels.rst:303
-msgid "Choose Level  →  Brightness and Contrast."
-msgstr "Elegir Nivel → **Brillo y contraste**."
+msgid "Choose Level  →  Adjust  →  **Brightness and Contrast...**"
+msgstr "Elegir Nivel → Ajustes → **Brillo y contraste...**."
 
 #: ../../source/editing_animation_levels.rst:305
 msgid "In the dialog that opens set the brightness and contrast variation."
@@ -968,31 +989,31 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:339
 #: ../../source/editing_animation_levels.rst:379
 #: ../../source/editing_animation_levels.rst:403
-msgid "Click the Apply button."
+msgid "Click the **Apply** button."
 msgstr "Hacer clic en el botón **Aplicar**."
 
 #: ../../source/editing_animation_levels.rst:312
-msgid "Add Antialias"
-msgstr "Suavizado de bordes"
+msgid "Antialias"
+msgstr "Aplicar suavizado de bordes"
 
 #: ../../source/editing_animation_levels.rst:313
 msgid ""
-"Allows to add antialias or to make it smoother or harder on raster and Toonz "
-"raster images."
+"Allows to add antialias or to make it smoother or harder on Raster and Toonz "
+"Raster levels."
 msgstr ""
-"Permite agregar suavizado de bordes o hacerlo más suave o definido, en niveles "
-"de Imagen o de Imagen de Toonz."
+"Permite aplicar un suavizado de bordes o hacerlo más suave o definido, en "
+"niveles de Imagen o de Imagen de Toonz."
 
 #: ../../source/editing_animation_levels.rst:315
-msgid "**To use the Add Antialias command:**"
-msgstr "**Para usar el comando Suavizado de bordes:**"
+msgid "**To use the Antialias command:**"
+msgstr "**Para usar el comando Aplicar suavizado de bordes:**"
 
 #: ../../source/editing_animation_levels.rst:319
-msgid "Choose Level  →  Add Antialias..."
-msgstr "Elegir Nivel → **Suavizado de bordes...**"
+msgid "Choose Level  →  Adjust  →  **Antialias...**"
+msgstr "Elegir Nivel → Ajustes → **Aplicar suavizado de bordes...**"
 
 #: ../../source/editing_animation_levels.rst:321
-msgid "In the dialog that opens set the threshold and the smoothness values."
+msgid "In the dialog that opens set the **Threshold** and **Softness** values."
 msgstr "En el diálogo emergente definir los valores **Umbral:** y **Suavizado:**."
 
 #: ../../source/editing_animation_levels.rst:328
@@ -1015,14 +1036,15 @@ msgstr "**Para ajustar los niveles de una imagen:**"
 
 #: ../../source/editing_animation_levels.rst:333
 #: ../../source/editing_animation_levels.rst:349
-msgid "Select the images or the level frames to adjust in the ."
+msgid ""
+"Select the level frames to adjust in the Xsheet/Timeline or the Level Strip."
 msgstr ""
-"Seleccionar las imágenes o los fotogramas del nivel que se desee ajustar en la "
-"Planilla/Línea de tiempo o en la Cinta de nivel."
+"Seleccionar, en la Planilla/Línea de tiempo o la Cinta de nivel, los dibujos a "
+"ser procesados."
 
 #: ../../source/editing_animation_levels.rst:335
-msgid "Choose Level  →  Adjust Levels."
-msgstr "Elegir Nivel → **Ajustar niveles...**"
+msgid "Choose Level  →  Adjust  →  **Adjust Levels...**"
+msgstr "Elegir Nivel → Ajustes → **Ajustar niveles...**"
 
 #: ../../source/editing_animation_levels.rst:337
 msgid "Adjust the image levels"
@@ -1034,29 +1056,29 @@ msgstr "Ajustar grosor"
 
 #: ../../source/editing_animation_levels.rst:345
 msgid ""
-"The Adjust Thickness command allows to modify the thickness of all the lines of "
-"the layer or of those selected. If no line is selected the command acts on the "
-"whole level, otherwise it works on selected lines."
+"The Adjust Thickness command allows to modify the thickness of the selected "
+"lines in the level. If no line is selected the command acts on the whole level, "
+"otherwise it works only on selected lines."
 msgstr ""
-"El comando **Ajustar grosor** permite modificar el grosor de los trazos de un "
-"dibujo vectorial (todos o aquellos seleccionados). Cuando no haya ningún trazo "
-"seleccionado el comando actuará sobre todo el nivel, en caso contrario actuará "
-"únicamente sobre aquellos trazos seleccionados."
+"El comando **Ajustar grosor** permite modificar el grosor de los trazos "
+"seleccionados de un dibujo vectorial. Cuando no hubiera ningún trazo "
+"seleccionado, el comando actuará sobre todos los del nivel, en caso contrario "
+"actuará únicamente sobre aquellos seleccionados."
 
 #: ../../source/editing_animation_levels.rst:347
 msgid "**To adjust the thickness of the lines:**"
 msgstr "**Para ajustar el grosor de las líneas:**"
 
 #: ../../source/editing_animation_levels.rst:351
-msgid "Choose Level  →  Adjust Thickness."
-msgstr "Elegir Nivel → **Ajustar grosor...**"
+msgid "Choose Level  →  Adjust  →  **Adjust Thickness...**"
+msgstr "Elegir Nivel → Ajustes → **Ajustar grosor...**"
 
 #: ../../source/editing_animation_levels.rst:353
 msgid ""
-"Choose a mode. The modes are: Scale Thickness that scale lines up or down using "
-"a percentage value, Add Thickness that add an amount of thickness to the lines "
-"using the current unit, Costant Thickness that apply a thickness value, ignoring "
-"its variations, using the current unit."
+"Choose a mode. The modes are: **Scale Thickness** that scale lines up or down "
+"using a percentage value, **Add Thickness** that add an amount of thickness to "
+"the lines using the current unit, **Costant Thickness** that apply a thickness "
+"value, ignoring its variations, using the current unit."
 msgstr ""
 "Elegir un **Modo** de entre: **Escalar grosor** que cambia el grosor de los "
 "trazos usando un valor porcentual, **Agregar grosor** que suma al grosor de los "
@@ -1065,13 +1087,13 @@ msgstr ""
 "ignorando las variaciones existentes en su grosor."
 
 #: ../../source/editing_animation_levels.rst:355
-msgid "Sets a starting and an ending value."
+msgid "Set **Start** and **End** values."
 msgstr ""
 "Definir sus valores **Inicial:** y **Final:**, usados en caso de estar aplicando "
 "el comando a una secuencia de dibujos de un nivel."
 
 #: ../../source/editing_animation_levels.rst:357
-msgid "Press the Apply button."
+msgid "Press the **Apply** button."
 msgstr "Presionar el botón **Aplicar**."
 
 #: ../../source/editing_animation_levels.rst:362
@@ -1084,10 +1106,10 @@ msgid ""
 "drawings toward a color defined by Red, Green, Blue and Alpha values. The "
 "Intensity, expressed as a percentage, ranges from 0 to 100.The original color "
 "will fade to the color you set according with the Intensity parameter. This is "
-"available only for raster levels."
+"available only for Raster levels."
 msgstr ""
 "En caso de necesitar ajustar los colores de un dibujo, es posible fundirlos "
-"hacia un color definido mediante sus valores de Rojo, Verde, Azul y Alfa. La "
+"hacia un color, definido mediante sus valores Rojo, Verde, Azul y Alfa. La "
 "**Intensidad:**, expresada como un porcentaje, puede ir de 0 a 100. El color "
 "original se fundirá al color especificado de acuerdo al parámetro **Intensidad:"
 "**. El comando se encuentra disponible únicamente para niveles de Imagen."
@@ -1097,37 +1119,37 @@ msgid "**To fade drawing colors:**"
 msgstr "**Para fundir los colores de un dibujo:**"
 
 #: ../../source/editing_animation_levels.rst:367
-msgid "Select the images or the level frames to fade in the ."
+msgid "Select the level frames to fade in the Xsheet/Timeline or the Level Strip."
 msgstr ""
-"Seleccionar las imágenes o los fotogramas del nivel a fundir en la Planilla/"
-"Línea de tiempo o la Cinta de nivel."
+"Seleccionar, en la Planilla/Línea de tiempo o la Cinta de nivel, los dibujos a "
+"ser procesados."
 
 #: ../../source/editing_animation_levels.rst:369
-msgid "Choose Level  →  Color Fade."
-msgstr "Elegir Nivel → **Fundir a un color...**"
+msgid "Choose Level  →  Adjust  →  **Color Fade...**"
+msgstr "Elegir Nivel → Ajustes → **Fundir a un color...**"
 
 #: ../../source/editing_animation_levels.rst:371
 msgid ""
-"In the dialog that opens set the color you want to fade the selection to by "
+"In the dialog that opens set the color you want to fade the selection to, by "
 "doing one of the following:"
 msgstr ""
 "En el diálogo emergente definir el color al cual se desee fundir la selección, "
 "haciendo una de las siguientes cosas:"
 
 #: ../../source/editing_animation_levels.rst:373
-msgid "Set the Red, Green and Blue values."
-msgstr "Definir los valores de Rojo, Verde y Azul."
+msgid "Set the **Red**, **Green**, **Blue** and **Alpha** values."
+msgstr "Definir los valores de **Rojo**, **Verde**, **Azul** y **Alfa**."
 
 #: ../../source/editing_animation_levels.rst:375
 msgid ""
-"Click the color thumbnail and use the Style Editor to edit it (see  :ref:"
+"Click the color thumbnails and use the Style Editor to edit them (see  :ref:"
 "`Editing Styles <editing_styles>`  )."
 msgstr ""
 "Hacer clic en la miniatura de color y usar el Editor de estilos para definirlo "
 "(ver  :ref:`Edición de estilos <editing_styles>`  )."
 
 #: ../../source/editing_animation_levels.rst:377
-msgid "Move the Intensity slider to set the value."
+msgid "Move the intensity sliders to set the color values."
 msgstr "Mover el deslizador de **Intensidad:** para definir su valor."
 
 #: ../../source/editing_animation_levels.rst:384
@@ -1136,36 +1158,36 @@ msgstr "Binarizar"
 
 #: ../../source/editing_animation_levels.rst:385
 msgid ""
-"Allows you to process colored raster lines images recognizing basic colors (red, "
-"green, blue, cyan, magenta and yellow) plus black. The process produce an "
-"uniform background color, eliminating shadows and dirty pixels."
+"Allows you to process images with colored Raster lines, recognizing basic colors "
+"(red, green, blue, cyan, magenta and yellow) plus black. The process will "
+"produce an uniform background color, eliminating shadows and dirty pixels."
 msgstr ""
-"Permite procesar líneas de color en imágenes, para reconocer colores básicos "
-"(rojo, verde, azul, cian, magenta y amarillo) y negro. El proceso produce un "
-"color de fondo uniforme, eliminando sombras y píxeles sucios."
+"Permite procesar líneas de color en niveles de tipo Imagen, siendo capaz de "
+"reconocer los colores básicos (rojo, verde, azul, cian, magenta y amarillo), "
+"además del negro. El proceso producirá un color de fondo uniforme, eliminando "
+"sombras y píxeles sucios."
 
 #: ../../source/editing_animation_levels.rst:387
 msgid ""
 "The colored lines are identified and all the pixels belonging to each line are "
-"changed to the maximum value of the identified color. The anti-aliasing is "
-"removed."
+"changed to the maximum value of the identified color. Anti-aliasing is removed."
 msgstr ""
 "Cuando las líneas de color son identificadas, todos los píxeles pertenecientes a "
-"cada una de ellas son cambiados al valor máximo del color identificado. El "
-"suavizado de bordes es eliminado."
+"cada una de ellas serán cambiados al valor máximo del color identificado. El "
+"suavizado de bordes será eliminado."
 
 #: ../../source/editing_animation_levels.rst:389
 msgid ""
-"The use o f this command is useful to pre-process scanned images simplifying the "
-"Cleanup process."
+"The use of this command is useful to pre-process scanned images, in order to "
+"simplify the Cleanup process."
 msgstr ""
 "Este comando es útil para pre-procesar imágenes escaneadas, simplificando su "
 "proceso de Limpieza."
 
 #: ../../source/editing_animation_levels.rst:391
 msgid ""
-"The preview is available to check the result. The alpha toggle allows to produce "
-"images with a transparent background."
+"The preview is available to check the result. The **Alpha** toggle allows to "
+"produce images with a transparent background."
 msgstr ""
 "La opción **Alfa** permite producir imágenes con un fondo transparente. La "
 "opción **Previsualizar** sirve para comprobar el resultado antes de aplicar el "
@@ -1176,16 +1198,16 @@ msgid "**To binarize images:**"
 msgstr "**Para binarizar imágenes:**"
 
 #: ../../source/editing_animation_levels.rst:397
-msgid "Choose Level  →  Binarize."
-msgstr "Elegir Nivel → **Binarizar...**"
+msgid "Choose Level  →  Adjust  →  **Binarize...**"
+msgstr "Elegir Nivel → Ajustes → **Binarizar...**"
 
 #: ../../source/editing_animation_levels.rst:399
-msgid "Activate the Preview toggle to check the result."
+msgid "Activate the **Preview** toggle to check the result."
 msgstr "Activar la opción **Previsualizar** para comprobar el resultado."
 
 #: ../../source/editing_animation_levels.rst:401
-msgid "Activate the Alpha toggle if you need transparent background."
-msgstr "Activar la opción Alfa si se necesita obtener un fondo transparente."
+msgid "Activate the **Alpha** toggle if you need transparent background."
+msgstr "Activar la opción **Alfa** si se necesita obtener un fondo transparente."
 
 #: ../../source/editing_animation_levels.rst:408
 msgid "Saving Levels"
@@ -1193,10 +1215,10 @@ msgstr "Guardado de niveles"
 
 #: ../../source/editing_animation_levels.rst:409
 msgid ""
-"All the editing performed in the level strip is not saved until you save the "
-"level. You can also automatically save all of the editing done on any level of "
-"the  by saving the scene (see  :ref:`Saving and Loading Scenes "
-"<saving_and_loading_scenes>`  )."
+"All the editing performed in the Level Strip is not saved until you manually "
+"save the level. You can also automatically save all of the editing done on any "
+"level of the Xsheet/Timeline by saving the scene using the **Save All** command "
+"(see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  )."
 msgstr ""
 "Todas las ediciones realizadas en la Cinta de nivel permanecen en memoria hasta "
 "que el nivel es guardado. También es posible guardar todas las ediciones "
@@ -1206,22 +1228,23 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:411
 msgid ""
 "When saving an animation level it is possible to automatically create a backup "
-"file of the previous version by setting the Backup Animation Levels when Saving "
-"option in the Preferences  →  General dialog. The backup version is created in "
-"the same location where the level is saved, and has an _backup suffix."
+"file of the previous version by setting the **Backup Scene and Animation Levels "
+"when Saving** option in the Preferences...  →  Saving dialog section. The backup "
+"version will be created in the same location where the level is saved, and will "
+"have an **_backup** suffix."
 msgstr ""
 "Al guardar un nivel de animación es posible crear un respaldo de la versión "
-"anterior del mismo de forma automática, al activar la opción **Respaldar niveles "
-"de animación al guardarlos** en el diálogo Archivo → Preferencias → General. El "
-"respaldo es creado en la misma ubicación en que se guarda el nivel, usando el "
-"sufijo *_backup*."
+"anterior del mismo de forma automática, al activar la opción **Respaldar escena "
+"y niveles de animación al guardar** en el diálogo Archivo → Preferencias... → "
+"Guardado. El respaldo es creado en la misma ubicación en que se guardó el nivel, "
+"usando el sufijo *_backup*."
 
 #: ../../source/editing_animation_levels.rst:413
 msgid ""
-"An asterisk after the level name in the level strip title bar denotes that there "
+"An asterisk after the level name in the Level Strip title bar denotes that there "
 "are unsaved changes for the current level."
 msgstr ""
-"Un asterisco luego del nombre de un nivel en la Cinta de nivel denota que "
+"Un asterisco luego del nombre de un nivel, en la Cinta de nivel, denota que "
 "existen cambios no guardados en el mismo."
 
 #: ../../source/editing_animation_levels.rst:415
@@ -1229,12 +1252,12 @@ msgid "**To save the current level:**"
 msgstr "**Para guardar el nivel actual:**"
 
 #: ../../source/editing_animation_levels.rst:419
-msgid "Choose File  →  Save Level."
-msgstr "Elegir Archivo → **Guardar nivel**."
+msgid "Choose Level  →  **Save Level**."
+msgstr "Elegir Nivel → **Guardar nivel**."
 
 #: ../../source/editing_animation_levels.rst:421
 msgid ""
-"Right-click in the scene cast and choose Save Level from the menu that opens."
+"Right-click in the Scene Cast and choose **Save Level** from the menu that opens."
 msgstr ""
 "Hacer clic derecho en el panel Componentes de la escena y elegir **Guardar "
 "nivel** en el menú."
@@ -1246,22 +1269,22 @@ msgstr ""
 "**Para guardar el nivel actual con otro nombre y en una ubicación diferente:**"
 
 #: ../../source/editing_animation_levels.rst:425
-msgid "Choose File  →  Save Level As."
-msgstr "Elegir Archivo → **Guardar nivel como...**"
+msgid "Choose Level  →  **Save Level As...**"
+msgstr "Elegir Nivel → **Guardar nivel como...**"
 
 #: ../../source/editing_animation_levels.rst:427
 msgid ""
-"In the browser that opens select for the level you want to save a location and "
-"name, and click the Save button."
+"In the file browser that opens select a location and name for the level you want "
+"to save, and click the **Save** button."
 msgstr ""
 "En el Explorador de archivos emergente seleccionar una ubicación y un nombre "
 "para el nivel que se desea guardar y luego hacer clic en el botón **Guardar**."
 
 #: ../../source/editing_animation_levels.rst:429
 msgid ""
-"The Save Level As command creates a copy of the level with a different file name "
-"and location, but does not change the name and location of the level used in the "
-"scene."
+"The **Save Level As...** command creates a copy of the level with a different "
+"file name and location, but *does not* change the name and location of the level "
+"used in the scene."
 msgstr ""
 "El comando **Guardar nivel como...** crea una copia del nivel con un nombre de "
 "archivo y ubicación distintos, sin embargo no cambia el nombre y ubicación del "
@@ -1274,14 +1297,15 @@ msgstr "Exportación de niveles"
 #: ../../source/editing_animation_levels.rst:435
 msgid ""
 "Animation levels created with OpenToonz can be exported in a variety of image "
-"file formats in order to be used in third-party software. The levels are "
+"file formats, in order to be used in third-party software. The levels are "
 "exported as a sequence of files named with a progressive four-digits number "
 "written between the file name and the file extension, e.g. ``animation.0001."
-"tif`` , ``animation.0002.tif`` , etc.or a single file for the .TLV format. File "
-"formats available are BMP, JPG, PNG, TGA ,TIF and TLV (the .TLV format is "
-"available only to export vector levels (.PLI); the format options can be set for "
-"each format in the Output Settings dialog (see  :ref:`Choosing the Output "
-"Settings <choosing_the_output_settings>`  )."
+"tif`` , ``animation.0002.tif`` , etc. or a single file in case of the .TLV "
+"format. File formats available are BMP, JPG, PNG, TGA ,TIF and TLV (the .TLV "
+"format is available only to export vector levels (.PLI); aditional options for "
+"the chosen format can be set in the same way as to when using the Render  →  "
+"Output Settings... dialog (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
 msgstr ""
 "Es posible exportar niveles de animación creados en OpenToonz en una variedad de "
 "formatos de archivo, para poder ser usados en otros programas. Los niveles de "
@@ -1290,24 +1314,25 @@ msgstr ""
 "ej: ``animación.0001.tif`` , ``animación.0002.tif`` , etc.), y los niveles de "
 "Imagen de Toonz como un único archivo .TLV. Los formatos de archivo soportados "
 "son BMP, JPG, PNG, TGA ,TIF y TLV (el formato .TLV se encuentra disponible sólo "
-"para exportar niveles vectoriales de Toonz); es posible definir las opciones "
-"para cada formato mediante el botón **Opciones**, que abre un diálogo con las "
-"opciones del formato elegido (ver  :ref:`Elección de opciones de salida "
-"<choosing_the_output_settings>`  )."
+"cuando se exportan niveles vectoriales de Toonz (.PLI)); es posible definir las "
+"opciones para cada formato mediante el botón **Opciones**, que abre un diálogo "
+"con las opciones del formato elegido, de forma similar a cuando se usa el "
+"diálogo Procesamiento → Opciones de salida... (ver  :ref:`Elección de opciones "
+"de salida <choosing_the_output_settings>`  )."
 
 #: ../../source/editing_animation_levels.rst:437
 msgid ""
-"When exporting vector levels, the size and resolution of the exported sequence "
-"can be defined in the Export Level dialog. The default size and resolution are "
-"those defined in the camera settings, and the preview of the resulting image is "
-"visible in the preview area of the Export Options page to understand how the "
-"exported images will be cropped (see  :ref:`Defining Camera Settings "
-"<defining_camera_settings>`  ). The size of the exported image can be changed "
-"entering a scale value in the Scale field."
+"When exporting Vector levels, the size and resolution of the exported sequence "
+"can be defined in the **Export Level...** dialog. The default size and "
+"resolution are those defined in the Camera Settings window, and the preview of "
+"the resulting image is visible in the preview area of the **Export Options** "
+"tab, to understand how the exported images will be cropped (see  :ref:`Defining "
+"Camera Settings <defining_camera_settings>`  ). The size of the exported image "
+"can be changed by entering a scale value in the **Scale** field."
 msgstr ""
 "Al exportar niveles vectoriales es posible definir el tamaño y la resolución de "
-"la secuencia exportada, usando el diálogo Exportar nivel. El tamaño y resolución "
-"predefinidos son aquellos establecidos en las Opciones de cámara y la "
+"la secuencia exportada, usando el diálogo **Exportar nivel...**. El tamaño y "
+"resolución predefinidos son aquellos establecidos en las Opciones de cámara y la "
 "previsualización de la imagen resultante es visible en el área de "
 "previsualización de la solapa **Opciones de exportación**, para permitir "
 "entender la forma en que las imágenes exportadas serán recortadas (ver  :ref:"
@@ -1318,30 +1343,35 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:439
 msgid ""
 "Any trucking, resizing and animation of the camera is not considered when "
-"exporting vector levels."
+"exporting Vector levels."
 msgstr ""
-"Los cambios en el tamaño, derivados de los movimientos de cámara, no son "
-"considerados al exportar niveles vectoriales."
+"Los cambios en el tamaño, los derivados de los desplazamientos o de la animación "
+"de la cámara, no serán considerados al exportar niveles vectoriales."
 
 #: ../../source/editing_animation_levels.rst:441
 msgid ""
-"The Retas Compliant option name the exported sequence with a a progressive four-"
-"digits number suffix before the file extension, e.g. ``animation0001.tga`` , "
-"``animation0002.tga`` , etc and sets the exporting format to TGA."
+"The **Retas Compliant** option can be used to automatically name the exported "
+"sequence with a a progressive four-digits number suffix before the file "
+"extension (e.g. ``animation0001.tga`` , ``animation0002.tga`` , etc.) and set "
+"the exporting format to TGA."
 msgstr ""
-"La opción **Compatible con Retas** asegura que la secuencia exportada sea "
-"nombrada usando un sufijo de cuatro dígitos antes de la extensión del archivo (p."
-"ej: ``animación0001.tga`` , ``animación0002.tga`` , etc.) y establece el formato "
-"de exportación en TGA."
+"Es posible activar la opción **Compatible con Retas** para hacer que "
+"automáticamente el nombre de la secuencia incluya un sufijo numérico progresivo "
+"de cuatro dígitos, antes de la extensión del archivo (p.ej: ``animación0001."
+"tga`` , ``animación0002.tga`` , etc.) y que el formato de archivo de salida sea "
+"TGA."
 
 #: ../../source/editing_animation_levels.rst:443
-msgid "Background Color allows to set the RGBA values of the background color."
+msgid ""
+"**Background Color** option allows to set the RGBA values of the background "
+"color."
 msgstr ""
 "**Color de fondo:** permite definir los valores de RVA para el color de fondo."
 
 #: ../../source/editing_animation_levels.rst:445
 msgid ""
-"The No Antialias option allow to remove the antialias from the exported sequence."
+"The **No Antialias** option allows to remove the antialiasing from the exported "
+"sequence."
 msgstr ""
 "La opción **Sin suavizado de bordes** permite eliminar el suavizado de bordes de "
 "la secuencia exportada."
@@ -1351,16 +1381,16 @@ msgid "**To export the current level:**"
 msgstr "**Para exportar el nivel actual:**"
 
 #: ../../source/editing_animation_levels.rst:449
-msgid "Choose File  →  Export Level."
-msgstr "Elegir Archivo → **Exportar nivel...**"
+msgid "Choose Level  →  **Export Level...**"
+msgstr "Elegir Nivel → **Exportar nivel...**"
 
 #: ../../source/editing_animation_levels.rst:451
 msgid ""
-"In the File Browser page select the level you want to save, a location and a "
-"name."
+"In the **File Browser** tab, select the location and name of the level you want "
+"to save."
 msgstr ""
-"En la solapa Explorador de archivos seleccionar una ubicación y un nombre base "
-"de archivo."
+"En la solapa **Explorador de archivos** seleccionar una ubicación y un nombre "
+"base para el archivo."
 
 #: ../../source/editing_animation_levels.rst:455
 msgid "Choose the file format you want the exported level to have."
@@ -1368,45 +1398,47 @@ msgstr "Elegir el formato de archivo en que se desee guardar el nivel exportado.
 
 #: ../../source/editing_animation_levels.rst:457
 msgid ""
-"Activate the Retas Compliant option to export the level in the same format and "
-"with the same options that the Retas software uses when exporting painted "
+"Activate the **Retas Compliant** option to export the level in the same format "
+"and with the same options that the Retas software uses, when exporting painted "
 "drawings."
 msgstr ""
-"Si se desea exportar en el mismo formato y opciones usadas por el programa "
-"Retas, al exportar dibujos pintados, activar la opción **Compatible con Retas**."
+"Si, al exportar dibujos pintados, se desea exportar en el mismo formato y "
+"opciones usadas por el programa Retas, activar la opción **Compatible con "
+"Retas**."
 
 #: ../../source/editing_animation_levels.rst:459
-msgid "In the Export Options, sets the RGBA values for the background color."
+msgid ""
+"In the **Export Options** tab, set the RGBA values for the background color."
 msgstr ""
-"En la solapa Opciones de exportación, definir los valores RVA para el color de "
-"fondo."
+"En la solapa **Opciones de exportación**, definir los valores RVA para el color "
+"de fondo."
 
 #: ../../source/editing_animation_levels.rst:461
 msgid ""
-"Activate the No Antialias option to remove the anitialias from the exported "
-"levels sequence images."
+"Activate the **No Antialias** option if you want to remove the anitialias from "
+"the exported levels sequence images."
 msgstr ""
 "Activar la opción **Sin suavizado de bordes** para eliminar el suavizado de "
-"bordes de las imágenes exportadas a partir de los niveles."
+"bordes de las imágenes exportadas."
 
 #: ../../source/editing_animation_levels.rst:463
 msgid "If you are exporting a Toonz Vector Level:"
 msgstr "Al exportar un nivel Vectorial de Toonz:"
 
 #: ../../source/editing_animation_levels.rst:465
-msgid "Set the Output Size in the Vectors Export Box fields"
+msgid "Set the output size using the **Vectors Export Box** section options."
 msgstr ""
 "Definir el tamaño y resolución de salida usando los valores de la sección "
-"Exportación de vectores."
+"**Exportación vectorial**."
 
 #: ../../source/editing_animation_levels.rst:467
-msgid "Set a Start and End percentage value for the line thickness"
+msgid "Set **Start** and **End** percentage values for the lines thickness."
 msgstr ""
-"Definir un valor **Inicial:** y **Final:** para el Grosor de trazos, si se desea "
-"que varíe a lo largo del nivel de animación."
+"En la sección **Grosor de trazos**. definir un valor **Inicial:** y **Final:**, "
+"si se desea que el grosor de los mismos varíe durante el transcurso del nivel."
 
 #: ../../source/editing_animation_levels.rst:469
-msgid "Click the Export button."
+msgid "Click the **Export** button."
 msgstr "Hacer clic en el botón **Exportar**."
 
 #: ../../source/editing_animation_levels.rst:471
@@ -1424,10 +1456,53 @@ msgid "**To set the file format options:**"
 msgstr "**Para definir las opciones de formato de archivo:**"
 
 #: ../../source/editing_animation_levels.rst:475
-msgid "Choose File  →  Output Settings."
-msgstr "Elegir Archivo → **Opciones de salida**."
+msgid "At the bottom of the window, choose a file **Format** from the dropdown."
+msgstr ""
+"En la parte inferior de la ventana, elegir un **Formato:** desde el menú "
+"desplegable."
 
 #: ../../source/editing_animation_levels.rst:477
-msgid "Set the options for the format you want to use for exporting levels."
+msgid ""
+"Press the **Options** button for setting additional options for the format "
+"previously chosen."
 msgstr ""
-"Definir las opciones para el formato que se desee usar para exportar los niveles."
+"Presionar el botón **Opciones** para definir opciones adicionales del formato "
+"previamente elegido."
+
+#~ msgid ""
+#~ "All the Cells menu commands are also available in the menu that opens when "
+#~ "right-clicking in the Level Strip."
+#~ msgstr ""
+#~ "Todos los comandos del menú Celdas también se encuentran disponibles en el "
+#~ "menú contextual (clic derecho) de la Cinta de nivel."
+
+#~ msgid "Choose Level  →  Revert to Last Saved Version."
+#~ msgstr "Elegir Nivel → **Recargar**."
+
+#~ msgid ""
+#~ "Right click the selection and choose Revert to Last Saved Version from the "
+#~ "menu that opens."
+#~ msgstr "Hacer clic derecho sobre la selección y elegir **Recargar** en el menú."
+
+#~ msgid "Select two ore more columns filled with the tlv you want to merge."
+#~ msgstr ""
+#~ "Seleccionar dos o más columnas/capas conteniendo los niveles TLV que se desee "
+#~ "fusionar."
+
+#~ msgid ""
+#~ "The Retas Compliant option name the exported sequence with a a progressive "
+#~ "four-digits number suffix before the file extension, e.g. ``animation0001."
+#~ "tga`` , ``animation0002.tga`` , etc and sets the exporting format to TGA."
+#~ msgstr ""
+#~ "La opción **Compatible con Retas** asegura que la secuencia exportada sea "
+#~ "nombrada usando un sufijo de cuatro dígitos antes de la extensión del archivo "
+#~ "(p.ej: ``animación0001.tga`` , ``animación0002.tga`` , etc.) y establece el "
+#~ "formato de exportación en TGA."
+
+#~ msgid "Choose File  →  Output Settings."
+#~ msgstr "Elegir Archivo → **Opciones de salida**."
+
+#~ msgid "Set the options for the format you want to use for exporting levels."
+#~ msgstr ""
+#~ "Definir las opciones para el formato que se desee usar para exportar los "
+#~ "niveles."

@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.4\n"
+"Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-04 20:33-0300\n"
-"PO-Revision-Date: 2020-02-04 21:29-0300\n"
+"PO-Revision-Date: 2021-03-20 19:42-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/example_expressions.rst:4
 msgid "Example Expressions"
@@ -32,7 +32,7 @@ msgstr "Esta expresión rota la columna 1 (col1) para que apunte a la columna 2 
 
 #: ../../source/example_expressions.rst:10
 msgid "``atan2(col2.ns - col1.ns, col2.ew - col1.ew)``"
-msgstr ""
+msgstr "``atan2(col2.x - col1.x, col2.y - col1.y)``"
 
 #: ../../source/example_expressions.rst:12
 msgid "|rotate_towards|"
