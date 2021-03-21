@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 23:25-0300\n"
-"PO-Revision-Date: 2021-03-20 19:43-0300\n"
+"PO-Revision-Date: 2021-03-20 22:21-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Español\n"
@@ -4987,7 +4987,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1533
 msgid "Using Shift and Trace"
-msgstr "Uso de Desplazar y trazar"
+msgstr "Uso de Desplazar y calcar"
 
 #: ../../source/drawing_animation_levels.rst:1534
 msgid ""
@@ -4996,10 +4996,10 @@ msgid ""
 "use the previous and next key drawings as references, while you insert an "
 "inbetween or a break down."
 msgstr ""
-"La función **Desplazar y trazar** puede ser de ayuda al crear niveles de "
+"La función **Desplazar y calcar** puede ser de ayuda al crear niveles de "
 "animación, de forma similar a cuando se dibuja en papel usando una mesa "
-"retroiluminada. Esta función permite usar los dibujos clave anterior y siguiente "
-"como referencia, mientras se está dibujando un intermedio."
+"retroiluminada. Esta función permite usar los dibujos clave *anterior* y "
+"*siguiente* como referencias, mientras se está dibujando un nuevo intermedio."
 
 #: ../../source/drawing_animation_levels.rst:1536
 msgid ""
@@ -5011,7 +5011,7 @@ msgstr ""
 "Es posible mover y rotar temporalmente los dibujos usados como referencia, para "
 "ajustarlos a la posición donde se desea dibujar el intermedio. También es "
 "posible establecer la posición de los dibujos de referencia de forma automática, "
-"creando y editando una curva de trayectoria de acción."
+"creando y editando una curva de línea de acción."
 
 #: ../../source/drawing_animation_levels.rst:1538
 msgid ""
@@ -5019,18 +5019,18 @@ msgid ""
 "Trace visualization on or off the Viewer."
 msgstr ""
 "Para poder revisar más fácilmente el nuevo dibujo y la animación, es posible "
-"apagar y encender la visualización de la función Desplazar y trazar en el Visor."
+"apagar y encender la visualización de la función Desplazar y calcar en el Visor."
 
 #: ../../source/drawing_animation_levels.rst:1540
 msgid "**To enter the Shift and Trace view:**"
-msgstr "**Para entrar al modo Desplazar y trazar:**"
+msgstr "**Para entrar al modo Desplazar y calcar:**"
 
 #: ../../source/drawing_animation_levels.rst:1542
 msgid ""
 "Position the frame cursor on the frame where you want to draw the inbetween "
 "drawing."
 msgstr ""
-"Posicionar el cursor de tiempo en el fotograma donde se desee dibujar el "
+"Posicionar el cursor de tiempo en el fotograma donde se desee dibujar el nuevo "
 "intermedio."
 
 #: ../../source/drawing_animation_levels.rst:1544
@@ -5038,7 +5038,7 @@ msgid ""
 "Enable View  →  **Shift and Trace**; the previous and next drawings will be "
 "visualized."
 msgstr ""
-"Habilitar la opción Ver → **Desplazar y trazar**; se visualizarán los fotogramas "
+"Habilitar la opción Ver → **Desplazar y calcar**; se visualizarán los fotogramas "
 "anterior y siguiente."
 
 #: ../../source/drawing_animation_levels.rst:1546
@@ -5052,7 +5052,7 @@ msgid ""
 "sketch the path of action line beteween your reference points."
 msgstr ""
 "Posicionar el cursor de tiempo donde se desee dibujar el intermedio y bocetar la "
-"curva de trayectoria de acción entre los puntos de referencia."
+"curva de línea de acción entre los puntos de referencia."
 
 #: ../../source/drawing_animation_levels.rst:1550
 #: ../../source/drawing_animation_levels.rst:1570
@@ -5066,8 +5066,8 @@ msgid ""
 "reference drawing bounding box will be displayed."
 msgstr ""
 "Hacer clic sobre el dibujo que se desee reposicionar en el Visor, o usar las "
-"opciones **Dibujo anterior** / **Dibujo siguiente** en la barra de opciones de "
-"la herramienta; se mostrará el marco delimitador del dibujo de referencia "
+"opciones **Dibujo anterior** / **Dibujo siguiente** en la Barra de opciones de "
+"herramientas; se mostrará el marco delimitador del dibujo de referencia "
 "correspondiente."
 
 #: ../../source/drawing_animation_levels.rst:1556
@@ -5101,7 +5101,7 @@ msgstr "Repetir los mismos pasos con el segundo dibujo de referencia."
 
 #: ../../source/drawing_animation_levels.rst:1566
 msgid "**To automatically Edit the Position of the reference drawings:**"
-msgstr "**Para editar la posición de los dibujos de referencia automáticamente:**"
+msgstr "**Para editar automáticamente la posición de los dibujos de referencia:**"
 
 #: ../../source/drawing_animation_levels.rst:1572
 msgid ""
@@ -5109,9 +5109,9 @@ msgid ""
 "drawing, to the reference point in the second one. The starting and the ending "
 "points will be overlapped at the center of the path."
 msgstr ""
-"Hacer Ctrl-clic y arrastrar para crear una trayectoria, desde el punto de "
-"referencia del primer dibujo hasta el del segundo. Los puntos inicial y final "
-"quedarán superpuestos en el centro de la trayectoria."
+"Hacer Ctrl-clic y arrastrar para crear una curva desde el punto de referencia "
+"del primer dibujo hasta el del segundo. Los puntos inicial y final quedarán "
+"superpuestos en el centro de la curva."
 
 #: ../../source/drawing_animation_levels.rst:1574
 msgid ""
@@ -5121,7 +5121,7 @@ msgid ""
 msgstr ""
 "Hacer clic y arrastrar el asa central para cambiar su forma; los dibujos de "
 "referencia se moverán y rotarán de acuerdo a la modificación realizada a la "
-"trayectoria."
+"curva."
 
 #: ../../source/drawing_animation_levels.rst:1576
 msgid ""
@@ -5136,13 +5136,13 @@ msgid ""
 "Clicking and dragging one of the reference drawings will remove the path of "
 "action line."
 msgstr ""
-"Al hacer clic y arrastrar uno de los dibujos de referencia la trayectoria de "
+"Al hacer clic y arrastrar uno de los dibujos de referencia la curva de línea de "
 "acción será eliminada."
 
 #: ../../source/drawing_animation_levels.rst:1580
 msgid "**To Toggle the Shift and Trace visualization:**"
 msgstr ""
-"**Para apagar y encender la visualización de la función Desplazar y trazar:**"
+"**Para apagar y encender la visualización de la función Desplazar y calcar:**"
 
 #: ../../source/drawing_animation_levels.rst:1582
 msgid ""
@@ -5175,7 +5175,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1592
 msgid "**To Create an inbetween drawing using the Shift and Trace feature:**"
-msgstr "**Para crear un dibujo intermedio usando la función Desplazar y trazar:**"
+msgstr "**Para crear un dibujo intermedio usando la función Desplazar y calcar:**"
 
 #: ../../source/drawing_animation_levels.rst:1594
 msgid "Create the first key drawing."
@@ -5187,17 +5187,15 @@ msgstr "Crear el segundo dibujo clave."
 
 #: ../../source/drawing_animation_levels.rst:1598
 msgid "Select the cell where you want to create the inbetween drawing."
-msgstr "Seleccionar la celda donde se desea crear el dibujo intermedio."
+msgstr "Seleccionar la celda donde se desee crear el dibujo intermedio."
 
 #: ../../source/drawing_animation_levels.rst:1600
 msgid "Activate View  →  **Shift and Trace**."
-msgstr "Activar Ver → **Desplazar y trazar**."
+msgstr "Activar Ver → **Desplazar y calcar**."
 
 #: ../../source/drawing_animation_levels.rst:1602
 msgid "Sketch the path of action line beteween your reference points."
-msgstr ""
-"Activar Ver → **Editar desplazamiento** y bocetar la curva de trayectoria de "
-"acción entre los puntos de referencia."
+msgstr "Bocetar la curva de línea de acción entre los puntos de referencia."
 
 #: ../../source/drawing_animation_levels.rst:1604
 msgid ""
