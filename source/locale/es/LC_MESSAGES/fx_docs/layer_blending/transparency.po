@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.4\n"
+"Project-Id-Version: OpenToonz 1.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-29 13:48+0800\n"
-"PO-Revision-Date: 2021-02-23 21:52-0300\n"
+"POT-Creation-Date: 2021-03-19 23:25-0300\n"
+"PO-Revision-Date: 2021-03-20 21:56-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language: es\n"
+"Language-Team: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
-"Language-Team: Español\n"
-"Language: es\n"
+"Generated-By: Babel 2.9.0\n"
 "X-Generator: Poedit 2.4.2\n"
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:4
@@ -32,22 +32,21 @@ msgid "Inputs:"
 msgstr "Entradas:"
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:11
-msgid "**Source ->** The image that will be affected."
-msgstr "**Source (Origen) ->** Imagen a la que le será aplicado el efecto."
+msgid "**Source**, The image that will be affected."
+msgstr "**Source (Origen)**, Imagen a la que le será aplicado el efecto."
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:14
 msgid "Parameters:"
 msgstr "Parámetros:"
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:16
-msgid "**Intensity ->** Controls the overall strength of the effect."
-msgstr ""
-"**Intensity (Intensidad) ->** Controla la intensidad global del efecto."
+msgid "**Intensity**, Controls the overall strength of the effect."
+msgstr "**Intensity (Intensidad)**, Controla la intensidad global del efecto."
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:17
 msgid ""
-"A value of 50 will produce a result halfway between the Source image and "
-"the full effect."
+"A value of 50 will produce a result halfway between the Source image and the "
+"full effect."
 msgstr ""
 "Un valor de 50 producirá un resultado a mitad de camino entre la imagen "
 "original y el efecto completo."
@@ -58,8 +57,8 @@ msgstr "Ejemplo de uso:"
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:22
 msgid ""
-"We will see the transparency of a yellow circle on top of a black "
-"rectangle background"
+"We will see the transparency of a yellow circle on top of a black rectangle "
+"background"
 msgstr ""
 "Veremos como se produce la transparencia de un círculo amarillo sobre un "
 "fondo con un rectángulo negro"
@@ -70,13 +69,12 @@ msgstr ""
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:27
 msgid ""
-"This is how the image levels are connected in the FX schematic; by "
-"connecting the circle level to the source input we can control the "
-"circle's transparency"
+"This is how the image levels are connected in the FX schematic; by connecting "
+"the circle level to the source input we can control the circle's transparency"
 msgstr ""
 "Así es cómo se conectan los niveles de imagen en el Diagrama de efectos; "
-"conectando el nivel del círculo al conector de entrada será posible "
-"controlar la transparencia del círculo"
+"conectando el nivel del círculo al conector de entrada será posible controlar "
+"la transparencia del círculo"
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:29
 msgid "|fx_schematic|"
@@ -84,12 +82,12 @@ msgstr ""
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:31
 msgid ""
-"Here is the result; the first image is with zero percent transparency, "
-"the second image is with fifty percent transparency, and the third image "
-"is with seventy five percent transparency"
+"Here is the result; the first image is with zero percent transparency, the "
+"second image is with fifty percent transparency, and the third image is with "
+"seventy five percent transparency"
 msgstr ""
-"Aquí el resultado; la primera imagen muestra una transparencia del 0%, "
-"la segunda un 50% y la tercera un 75%."
+"Aquí el resultado; la primera imagen muestra una transparencia del 0%, la "
+"segunda un 50% y la tercera un 75%"
 
 #: ../../source/fx_docs/layer_blending/transparency.rst:33
 msgid "|example_1| |example_2| |example_3|"
