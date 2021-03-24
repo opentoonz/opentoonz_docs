@@ -7,9 +7,9 @@ In this section you can find a list of Highlights in the latest release of OpenT
 Here, you can also find links to past versions' Release Notes, to keep track of OpenToonz development history throughout time.
 
 
-.. _v1.4:
+.. _v1.5:
 
-v1.4
+v1.5
 ----
 
 .. _highlights:
@@ -17,43 +17,41 @@ v1.4
 Highlights
 ''''''''''
 
-- |new| **Vector Guided Drawing Controls** panel and options.
-- |new| **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
-- |new| Toolbar: Now tool availability is **Context Aware**.
-- |new| Fill Tool: Can now be used in **Raster Levels**.
-- |new| Eraser Tool: **Pencil Mode** for Toonz Raster levels, also in Freehand and Polyline types.
-- |new| Xsheet/Timeline: **Camera Column** to see and edit animation keyframes.
-- |new| Xsheet/Timeline: **Create Blank Drawing** command.
-- |new| Playback: New **Short Play** command.
-- |new| Import/Export: **XDTS File Support** (Celsys and Toei Animation xsheet file format).
-- |new| Effects: **Corridor Gradient Iwa**.
-- |new| Effects: **Spin Gradient Iwa**.
-- |new| Motion Paths: Now can be created using the **Geometry Tool**.
-- |new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands.
-- |new| Viewer: **Color settings** for Viewer Background in Level editing mode.
-- |new| Cleanup: **"None" line processing mode**, for applying only autocenter/rotation/flipping.
-- |new| Palette Editor: **Delete Unused Styles** right-click command.
-- |new| Cache folder location & **Clear Cache Command**.
-- |new| Execute Toonz **scripts from commandline**.
-- |new| UI: New Help menu options **Online Manual**, **What's New**, **Community Forum** and **Report a Bug**.
-- |new| UI: New **Korean** translation. (Initial version)
-- |new| Effects: **Help in English and Spanish**.
-- |new| OpenToonz Manual: New **Spanish** translation.
-- |enhancement| UI: **Updated/Reorganized Menus**.
-- |enhancement| File Browser: **Double-click in Load Scene and Load Level dialogs** to open files.
-- |enhancement| Level Settings window: Now can act upon **Multiple Selected levels**.
-- |enhancement| Startup Popup: Now **Scenes are Saved on Creation**.
-- |enhancement| Effects: Added **Swap Colors Button** in Gradient effects.
-- |enhancement| Read Only levels: Allow to **Copy Selections from Read Only Levels**.
-- |enhancement| Read Only levels: PSD and FFmpeg-loaded levels are now **Read Only**.
-- |enhancement| Function Editor: **Hide Inbetween Values** option in Spreadsheet mode.
-- |enhancement| Function Editor: **Step / Interpolation change** for multiple selected Keyframes.
-- |enhancement| Animate Tool: Precise control using **Alt** key.
-- |enhancement| Brush Tool: Remember last brush preset used.
-- |enhancement| Control Point Editor Tool: Make **Control Points easier to select**.
-- |enhancement| Sound: **Improved Sound Quality** for Playback and Scrubbing. (Linux only)
-- |fix| Brush Tool: **Center mouse cursor on brush preview** (for pixel-art work)
-- |fix| **Transparent QuickTime Output**.
+- |new| UI: All New **Icon set**.
+- |new| Eraser Tool: **Segment** selection type, for quickly cutting stroke intersections.
+- |new| Xsheet/Timeline: **Paste as a Copy** command, for pasting an independent copy of a drawing.
+- |new| Geometry Tool: **MultiArc** shape.
+- |new| Editors: **Production Board** editor (initial implementation), for storyboarding tasks.
+- |new| Effects: **Bloom Iwa**.
+- |new| Effects: **Fractal Noise Iwa**.
+- |new| Effects: **Glare Iwa**.
+- |new| Expressions: **Expression Reference Manager**, for keeping track of objects name changes(optional).
+- |new| Expressions: **Periodic Random** function.
+- |new| Shortcuts: More shapes for Adobe Animate keyboard shortcuts.
+- |new| Translation: Initial support for **Norwegian Bokmal**.
+- |new| Translation: **Weblate** widget.
+- |new| Operating Systems: **FreeBSD** support.
+- |enhancement| Animate Tool: Ease regulations for the use of the Animate Tool.
+- |enhancement| Selection Tool: **Improved** target area for **Transform selection**.
+- |enhancement| Undo: **Reset Undo when Saving Levels** Preference Option.
+- |enhancement| UI: New **Horizontal mode for Level Strip** editor.
+- |enhancement| UI: Added a **New Style button** in the styles area of the Style Editor (optional).
+- |enhancement| UI / Preferences: **Live update for 3DLUTs** in Preferences.
+- |enhancement| UI / Preferences: **Style Sheet customizations** in Preferences.
+- |enhancement| Cutter Tool: Now **Snaps at intersections**.
+- |enhancement| Control Point Editor Tool: Added a **Snap** option.
+- |enhancement| Control Point Editor Tool: Added a **Freehand mode**.
+- |enhancement| Color Separation: **Save/Reload Color Separation** Parameters.
+- |enhancement| Conversion: Added **Align Boundary Strokes Direction** option in **Convert To Vector** feature.
+- |enhancement| Effects: Added a **Search Bar** in **New FX** browser window.
+- |enhancement| Effects: Added **Linear color space** option in **Add Ino** effect.
+- |enhancement| Effects: Added **Logarithmic** option in **Spiral** effect.
+- |enhancement| Eraser Tool: Added **Frame Range** mode when using the new **Segment** selection type.
+- |enhancement| Expressions: Now it's possible to **Copy an expression object address** directly from the UI.
+- |fix| Keyframing: Fix Copy/Paste keyframe causing bad data.
+- |fix| Scenes: Fix incorrect XML in .tnz files.
+- |fix| Tape Tool: Fix **Vector Tape Tool** on Joining Points at the same position.
+- |fix| Xsheet: Fix crash when Drawing on an absent level.
 
 ...and much more!
 
