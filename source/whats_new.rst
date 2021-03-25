@@ -21,7 +21,6 @@ Highlights
 - |new| Eraser Tool: **Segment** selection type, for quickly cutting stroke intersections.
 - |new| Xsheet/Timeline: **Paste as a Copy** command, for pasting an independent copy of a drawing.
 - |new| Geometry Tool: **MultiArc** shape.
-- |new| Editors: **Production Board** editor (initial implementation), for storyboarding tasks.
 - |new| Effects: **Bloom Iwa**.
 - |new| Effects: **Fractal Noise Iwa**.
 - |new| Effects: **Glare Iwa**.
