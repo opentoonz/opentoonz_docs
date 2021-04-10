@@ -61,8 +61,8 @@ Highlights
 - |fix| Scene Cast: Fix Update on Pasting.
 - |fix| Brushes: Fix custom Vector Brush styles.
 - |fix| Tape Tool: Fix **Vector Tape Tool** on Joining Points at the same position.
-- |fix| Geometric Tool: first point offset.
-- |fix| Type Tool: first point offset.
+- |fix| Geometric Tool: Fix first point offset.
+- |fix| Type Tool: Fix first point offset.
 - |fix| Plastic Tool: Fix in OpenGL Line Smoothing
 - |fix| Xsheet: Fix crash when Drawing on an absent level.
 - |fix| Color Model: Fix color model pick mode.
