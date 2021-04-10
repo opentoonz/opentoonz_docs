@@ -93,7 +93,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 `v1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
 
-`v1.1.34Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.143>`_
+`v1.1.34 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.143>`_
 
 `v1.1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.2>`_
 
