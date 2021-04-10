@@ -19,20 +19,20 @@ Highlights
 
 - |new| UI: All New **Icon set**.
 - |new| UI: Updated **Default Room set**.
-- |new| Eraser Tool: **Segment** selection type, for quickly cutting stroke intersections.
-- |new| Xsheet/Timeline: **Paste as a Copy** command, for pasting an independent copy of a drawing.
-- |new| Geometry Tool: **MultiArc** shape.
 - |new| Brushes: **Aotz** Raster Brush Set (MyPaint): Sketch, Ink, Fill, Clouds, Water, Grass, Leaves, Fur, Eraser, etc.
+- |new| Eraser Tool: **Segment** selection type, for quickly cutting stroke intersections.
+- |new| Geometry Tool: **MultiArc** shape.
+- |new| Xsheet/Timeline: **Paste as a Copy** command, for pasting an independent copy of a drawing.
 - |new| Effects: **Bloom Iwa**.
 - |new| Effects: **Fractal Noise Iwa**.
 - |new| Effects: **Glare Iwa**.
-- |new| Effects: New **Particles** effect preset: **Flock**
+- |new| Effects: New **Particles** effect preset: **Flock**.
 - |new| Expressions: **Expression Reference Manager**, for keeping track of objects name changes (experimental).
 - |new| Expressions: **Periodic Random** function.
 - |new| Shortcuts: **Individual Geometric Tool Shapes shortcuts** for compatibility with Adobe Animate keyboard shortcuts.
 - |new| Translation: Initial support for **Norwegian Bokmal**.
 - |new| Translation: **Weblate** widget.
-- |new| Plugins: Updated **Dwango plugins** (separate download)
+- |new| Plugins: Updated **Dwango plugins**. (separate download)
 - |new| Operating Systems: **FreeBSD** support.
 - |enhancement| Animate Tool: Ease regulations for the use of the Animate Tool.
 - |enhancement| Selection Tool: **Improved** target area for **Transform selection**.
@@ -42,9 +42,10 @@ Highlights
 - |enhancement| UI: New **Top/Bottom Toolbar** option in Palette Editor.
 - |enhancement| UI: New **Color Keys** in Global Palette.
 - |enhancement| UI: Updated **Output Settings** dialogue.
-- |enhancement| UI / Preferences: **Live update for 3DLUTs** in Preferences.
-- |enhancement| UI / Preferences: New **Style Sheet customizations** in Preferences.
-- |enhancement| UI / Preferences: New **Switch Tool Temporarily Keypress Length** option
+- |enhancement| UI/Preferences: **Live update for 3DLUTs** in Preferences.
+- |enhancement| UI/Preferences: New **Style Sheet customizations** in Preferences.
+- |enhancement| UI/Preferences: New **Switch Tool Temporarily Keypress Length** option.
+- |enhancement| Eraser Tool: Added **Frame Range** mode when using the new **Segment** selection type.
 - |enhancement| Cutter Tool: Now it **Snaps at intersections**.
 - |enhancement| Control Point Editor Tool: Added a **Snap** option.
 - |enhancement| Control Point Editor Tool: Added a **Freehand mode**.
@@ -53,7 +54,6 @@ Highlights
 - |enhancement| Effects: Added a **Search Bar** in **New FX** browser window.
 - |enhancement| Effects: Added **Linear color space** option in **Add Ino** effect.
 - |enhancement| Effects: Added **Logarithmic** option in **Spiral** effect.
-- |enhancement| Eraser Tool: Added **Frame Range** mode when using the new **Segment** selection type.
 - |enhancement| Expressions: Now it's possible to **Copy an expression object address** directly from the UI.
 - |enhancement| I/O: **Premultiply on Loading PNG** images.
 - |fix| I/O: Fix incorrect XML in .tnz scene files.
@@ -63,8 +63,8 @@ Highlights
 - |fix| Tape Tool: Fix **Vector Tape Tool** on Joining Points at the same position.
 - |fix| Geometric Tool: Fix first point offset.
 - |fix| Type Tool: Fix first point offset.
-- |fix| Plastic Tool: Fix in OpenGL Line Smoothing
-- |fix| Xsheet: Fix crash when Drawing on an absent level.
+- |fix| Plastic Tool: Fix in OpenGL Line Smoothing.
+- |fix| Xsheet/Timeline: Fix crash when Drawing on an absent level.
 - |fix| Color Model: Fix color model pick mode.
 - |fix| Monitors/Screens: Fix for Full Screen on Multiple Monitors. (Windows)
 - |fix| Monitors/Screens: Fix icon rendering for HDPI screens.
@@ -93,7 +93,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 `v1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
 
-`v1.1.34 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.143>`_
+`v1.1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
 
 `v1.1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.2>`_
 
