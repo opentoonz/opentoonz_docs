@@ -34,9 +34,6 @@ Highlights
 - |new| Translation: **Weblate** widget.
 - |new| Plugins: Updated **Dwango plugins**. (separate download)
 - |new| Operating Systems: **FreeBSD** support.
-- |enhancement| Animate Tool: Ease regulations for the use of the Animate Tool.
-- |enhancement| Selection Tool: **Improved** target area for **Transform selection**.
-- |enhancement| Undo: **Reset Undo when Saving Levels** Preference Option.
 - |enhancement| UI: New **Horizontal Mode for Level Strip** editor.
 - |enhancement| UI: Added a **New Style button** in the styles area of the Style Editor (optional).
 - |enhancement| UI: New **Top/Bottom Toolbar** option in Palette Editor.
@@ -45,6 +42,8 @@ Highlights
 - |enhancement| UI/Preferences: **Live update for 3DLUTs** in Preferences.
 - |enhancement| UI/Preferences: New **Style Sheet customizations** in Preferences.
 - |enhancement| UI/Preferences: New **Switch Tool Temporarily Keypress Length** option.
+- |enhancement| Animate Tool: Ease regulations for the use of the Animate Tool.
+- |enhancement| Selection Tool: **Improved** target area for **Transform selection**.
 - |enhancement| Eraser Tool: Added **Frame Range** mode when using the new **Segment** selection type.
 - |enhancement| Cutter Tool: Now it **Snaps at intersections**.
 - |enhancement| Control Point Editor Tool: Added a **Snap** option.
@@ -56,6 +55,7 @@ Highlights
 - |enhancement| Effects: Added **Logarithmic** option in **Spiral** effect.
 - |enhancement| Expressions: Now it's possible to **Copy an expression object address** directly from the UI.
 - |enhancement| I/O: **Premultiply on Loading PNG** images.
+- |enhancement| Undo: **Reset Undo when Saving Levels** Preference Option.
 - |fix| I/O: Fix incorrect XML in .tnz scene files.
 - |fix| Keyframing: Fix Copy/Paste keyframe causing bad data.
 - |fix| Scene Cast: Fix Update on Pasting.
