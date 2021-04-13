@@ -552,7 +552,7 @@ A Sub-Xsheet is a valid object for the Plastic tool, and all or some of its colu
 
 
 
-.. |plastic| image:: /_static/plastic_tool/plastic.png
+.. |plastic| image:: /_static/plastic_tool/plastic.svg
 .. |plastic_tool_example| image:: /_static/plastic_tool/plastic_tool_example.png
 .. |create_mesh| image:: /_static/plastic_tool/create_mesh.png
 .. |create_mesh_options| image:: /_static/plastic_tool/create_mesh_options.png

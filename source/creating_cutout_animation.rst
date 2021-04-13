@@ -285,10 +285,10 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 
 
-.. |animate| image:: /_static/cutout_animation/animate.png
-.. |hook| image:: /_static/cutout_animation/hook.png
-.. |skeleton| image:: /_static/cutout_animation/skeleton.png
-.. |key| image:: /_static/cutout_animation/key.png
+.. |animate| image:: /_static/cutout_animation/animate.svg
+.. |hook| image:: /_static/cutout_animation/hook.svg
+.. |skeleton| image:: /_static/cutout_animation/skeleton.svg
+.. |key| image:: /_static/cutout_animation/key.svg
 .. |character_model_sample| image:: /_static/cutout_animation/character_model_sample.png
 .. |handle| image:: /_static/cutout_animation/handle.png
 .. |basic_model| image:: /_static/cutout_animation/basic_model.png

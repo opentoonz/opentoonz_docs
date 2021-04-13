@@ -67,7 +67,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     Do one of the following:
 
-    - Click the **New Camera** button (|camera|) in the bottom bar of the Stage Schematic window.
+    - Click the **New Camera** button (|camera_view|) in the bottom bar of the Stage Schematic window.
 
     - Right-click in the Stage Schematic and choose **New Camera** from the menu that opens.
 
@@ -950,35 +950,34 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |animate_tool_handle_center| image:: /_static/movements/animate_tool_handle_center.png
 .. |using_column_keys| image:: /_static/movements/using_column_keys.png
 
-.. |animate| image:: /_static/movements/animate.png
-.. |hand| image:: /_static/movements/hand.png
-.. |hook| image:: /_static/movements/hook.png
-.. |rotate| image:: /_static/movements/rotate.png
-.. |tracker| image:: /_static/movements/tracker.png
-.. |selection| image:: /_static/movements/selection.png
-.. |3d| image:: /_static/movements/3d.png
-.. |camera_stand| image:: /_static/movements/camera_stand.png
-.. |camera_view| image:: /_static/movements/camera_view.png
-.. |camera| image:: /_static/movements/camera.png
+.. |animate| image:: /_static/movements/animate.svg
+.. |hand| image:: /_static/movements/hand.svg
+.. |hook| image:: /_static/movements/hook.svg
+.. |rotate| image:: /_static/movements/rotate.svg
+.. |tracker| image:: /_static/movements/tracker.svg
+.. |selection| image:: /_static/movements/selection.svg
+.. |3d| image:: /_static/movements/3d.svg
+.. |camera_stand| image:: /_static/movements/camera_stand.svg
+.. |camera_view| image:: /_static/movements/camera_view.svg
 .. |circular_arrow| image:: /_static/movements/circular_arrow.png
-.. |fit_to_window| image:: /_static/movements/fit_to_window.png
-.. |focus_on_current| image:: /_static/movements/focus_on_current.png
-.. |key| image:: /_static/movements/key.png
-.. |link_to_control_points| image:: /_static/movements/link_to_control_points.png
-.. |lock| image:: /_static/movements/lock.png
-.. |maximize| image:: /_static/movements/maximize.png
-.. |minimize| image:: /_static/movements/minimize.png
-.. |new_motion_path| image:: /_static/movements/new_motion_path.png
-.. |next_key| image:: /_static/movements/next_key.png
-.. |option| image:: /_static/movements/option.png
-.. |pegbar| image:: /_static/movements/pegbar.png
-.. |preview| image:: /_static/movements/preview.png
-.. |prevkey| image:: /_static/movements/prevkey.png
-.. |reorder_nodes| image:: /_static/movements/reorder_nodes.png
-.. |reset| image:: /_static/movements/reset.png
-.. |rhomb| image:: /_static/movements/rhomb.png
-.. |schematic| image:: /_static/movements/schematic.png
-.. |side_view| image:: /_static/movements/side_view.png
-.. |square| image:: /_static/movements/square.png
-.. |switch_output_port| image:: /_static/movements/switch_output_port.png
-.. |top_view| image:: /_static/movements/top_view.png
+.. |fit_to_window| image:: /_static/movements/fit_to_window.svg
+.. |focus_on_current| image:: /_static/movements/focus_on_current.svg
+.. |key| image:: /_static/movements/key.svg
+.. |link_to_control_points| image:: /_static/movements/link_to_control_points.svg
+.. |lock| image:: /_static/movements/lock.svg
+.. |maximize| image:: /_static/movements/maximize.svg
+.. |minimize| image:: /_static/movements/minimize.svg
+.. |new_motion_path| image:: /_static/movements/new_motion_path.svg
+.. |next_key| image:: /_static/movements/next_key.svg
+.. |option| image:: /_static/movements/option.svg
+.. |pegbar| image:: /_static/movements/pegbar.svg
+.. |preview| image:: /_static/movements/preview.svg
+.. |prevkey| image:: /_static/movements/prevkey.svg
+.. |reorder_nodes| image:: /_static/movements/reorder_nodes.svg
+.. |reset| image:: /_static/movements/reset.svg
+.. |rhomb| image:: /_static/movements/rhomb.svg
+.. |schematic| image:: /_static/movements/schematic.svg
+.. |side_view| image:: /_static/movements/side_view.svg
+.. |square| image:: /_static/movements/square.svg
+.. |switch_output_port| image:: /_static/movements/switch_output_port.svg
+.. |top_view| image:: /_static/movements/top_view.svg
