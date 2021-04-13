@@ -882,16 +882,16 @@ The **Name Editor** allows to systematize the naming of styles used in a product
 .. |style_editor_settings-raster| image:: /_static/palettes_styles/style_editor_settings-raster.png
 .. |palette_gizmo| image:: /_static/palettes_styles/palette_gizmo.png
 .. |name_editor| image:: /_static/palettes_styles/name_editor.png
-.. |RGB_picker| image:: /_static/palettes_styles/RGB_picker.png
-.. |drag_palette| image:: /_static/palettes_styles/drag_palette.png
-.. |key| image:: /_static/palettes_styles/key.png
-.. |new_page| image:: /_static/palettes_styles/new_page.png
-.. |new_style| image:: /_static/palettes_styles/new_style.png
-.. |next_key| image:: /_static/palettes_styles/next_key.png
-.. |option| image:: /_static/palettes_styles/option.png
-.. |prevkey| image:: /_static/palettes_styles/prevkey.png
-.. |save_as| image:: /_static/palettes_styles/save_as.png
-.. |switch| image:: /_static/palettes_styles/switch.png
+.. |RGB_picker| image:: /_static/palettes_styles/RGB_picker.svg
+.. |drag_palette| image:: /_static/palettes_styles/drag_palette.svg
+.. |key| image:: /_static/palettes_styles/key.svg
+.. |new_page| image:: /_static/palettes_styles/new_page.svg
+.. |new_style| image:: /_static/palettes_styles/new_style.svg
+.. |next_key| image:: /_static/palettes_styles/next_key.svg
+.. |option| image:: /_static/palettes_styles/option.svg
+.. |prevkey| image:: /_static/palettes_styles/prevkey.svg
+.. |save_as| image:: /_static/palettes_styles/save_as.svg
+.. |switch| image:: /_static/palettes_styles/switch.svg
 
 
 .. |palette_es| image:: /_static/palettes_styles/es/palette.png
