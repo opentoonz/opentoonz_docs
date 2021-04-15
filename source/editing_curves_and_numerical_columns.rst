@@ -845,8 +845,8 @@ Example expressions
 .. |function_editor_iFile| image:: /_static/function_editor/function_editor_iFile.png
 .. |function_editor_iConst| image:: /_static/function_editor/function_editor_iConst.png
 .. |function_editor_iSimilar| image:: /_static/function_editor/function_editor_iSimilar.png
-.. |animate| image:: /_static/function_editor/animate.svg
-.. |key| image:: /_static/function_editor/key.svg
-.. |next_key| image:: /_static/function_editor/next_key.svg
-.. |prevkey| image:: /_static/function_editor/prevkey.svg
-.. |schematic| image:: /_static/function_editor/schematic.svg
+.. |animate| image:: /_static/function_editor/animate.png
+.. |key| image:: /_static/function_editor/key.png
+.. |next_key| image:: /_static/function_editor/next_key.png
+.. |prevkey| image:: /_static/function_editor/prevkey.png
+.. |schematic| image:: /_static/function_editor/schematic.png

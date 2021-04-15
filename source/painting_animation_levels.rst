@@ -549,10 +549,10 @@ When the image is displayed in the Color Model viewer, you can use it not only a
 
 .. |apply_match_lines| image:: /_static/painting_animation_levels/apply_match_lines.png
 .. |color_model| image:: /_static/painting_animation_levels/color_model.png
-.. |brush| image:: /_static/painting_animation_levels/brush.svg
-.. |fill| image:: /_static/painting_animation_levels/fill.svg
-.. |geometric| image:: /_static/painting_animation_levels/geometric.svg
-.. |paint_brush| image:: /_static/painting_animation_levels/paint_brush.svg
-.. |selection| image:: /_static/painting_animation_levels/selection.svg
-.. |style_picker| image:: /_static/painting_animation_levels/style_picker.svg
-.. |tape| image:: /_static/painting_animation_levels/tape.svg
+.. |brush| image:: /_static/painting_animation_levels/brush.png
+.. |fill| image:: /_static/painting_animation_levels/fill.png
+.. |geometric| image:: /_static/painting_animation_levels/geometric.png
+.. |paint_brush| image:: /_static/painting_animation_levels/paint_brush.png
+.. |selection| image:: /_static/painting_animation_levels/selection.png
+.. |style_picker| image:: /_static/painting_animation_levels/style_picker.png
+.. |tape| image:: /_static/painting_animation_levels/tape.png
