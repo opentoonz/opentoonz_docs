@@ -225,24 +225,24 @@ Online Manual...                  **F1**
 
 
 .. |configure_shortcuts_window| image:: /_static/configure_shortcuts/configure_shortcuts_window.png
-.. |animate| image:: /_static/configure_shortcuts/animate.svg
-.. |brush| image:: /_static/configure_shortcuts/brush.svg
-.. |cpe| image:: /_static/configure_shortcuts/cpe.svg
-.. |eraser| image:: /_static/configure_shortcuts/eraser.svg
-.. |fill| image:: /_static/configure_shortcuts/fill.svg
-.. |geometric| image:: /_static/configure_shortcuts/geometric.svg
-.. |hand| image:: /_static/configure_shortcuts/hand.svg
-.. |hook| image:: /_static/configure_shortcuts/hook.svg
-.. |pinch| image:: /_static/configure_shortcuts/pinch.svg
-.. |plastic| image:: /_static/configure_shortcuts/plastic.svg
-.. |RGB_picker| image:: /_static/configure_shortcuts/RGB_picker.svg
-.. |rotate| image:: /_static/configure_shortcuts/rotate.svg
-.. |selection| image:: /_static/configure_shortcuts/selection.svg
-.. |skeleton| image:: /_static/configure_shortcuts/skeleton.svg
-.. |style_picker| image:: /_static/configure_shortcuts/style_picker.svg
-.. |tape| image:: /_static/configure_shortcuts/tape.svg
-.. |tracker| image:: /_static/configure_shortcuts/tracker.svg
-.. |type| image:: /_static/configure_shortcuts/type.svg
-.. |zoom| image:: /_static/configure_shortcuts/zoom.svg
+.. |animate| image:: /_static/configure_shortcuts/animate.png
+.. |brush| image:: /_static/configure_shortcuts/brush.png
+.. |cpe| image:: /_static/configure_shortcuts/cpe.png
+.. |eraser| image:: /_static/configure_shortcuts/eraser.png
+.. |fill| image:: /_static/configure_shortcuts/fill.png
+.. |geometric| image:: /_static/configure_shortcuts/geometric.png
+.. |hand| image:: /_static/configure_shortcuts/hand.png
+.. |hook| image:: /_static/configure_shortcuts/hook.png
+.. |pinch| image:: /_static/configure_shortcuts/pinch.png
+.. |plastic| image:: /_static/configure_shortcuts/plastic.png
+.. |RGB_picker| image:: /_static/configure_shortcuts/RGB_picker.png
+.. |rotate| image:: /_static/configure_shortcuts/rotate.png
+.. |selection| image:: /_static/configure_shortcuts/selection.png
+.. |skeleton| image:: /_static/configure_shortcuts/skeleton.png
+.. |style_picker| image:: /_static/configure_shortcuts/style_picker.png
+.. |tape| image:: /_static/configure_shortcuts/tape.png
+.. |tracker| image:: /_static/configure_shortcuts/tracker.png
+.. |type| image:: /_static/configure_shortcuts/type.png
+.. |zoom| image:: /_static/configure_shortcuts/zoom.png
 
 .. |configure_shortcuts_window_es| image:: /_static/configure_shortcuts/es/configure_shortcuts_window.png
