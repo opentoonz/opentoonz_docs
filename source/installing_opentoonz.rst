@@ -205,6 +205,13 @@ Installing on FreeBSD
 
 ``# cd /usr/ports/multimedia/opentoonz && make install clean``
 
+.. _installing_on_dragonflybsd:
+
+Installing on DragonFly BSD
+---------------------------
+
+``# pkg install opentoonz``
+
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png
 .. |win_setup_3| image:: /_static/installing/windows_setup_3.png
