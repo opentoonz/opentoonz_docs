@@ -575,7 +575,7 @@ A macro effect can be opened also to check how the effect nodes are connected, a
 
 When saved, the macro effect will be available in the FX Browser and in the drop-down menus that open when right-clicking nodes or in the Schematic area, inside the **Macro** folder, at the bottom of the list.
 
-.. note:: Macro effects can't contain zerary effect nodes in them (i.e. any effect in the Render category). If any zerary effect node is selected when trying to use the Make Macro FX command, no macro effect will be created.
+.. note:: Macro effects can't contain zerary effect nodes in them (i.e. any effect in the Background or Render categories). If any zerary effect node is selected when trying to use the Make Macro FX command, no macro effect will be created.
 
 .. tip:: **To create a macro effect:**
 
