@@ -150,6 +150,11 @@ Debian GNU/Linux
 
 .. tip:: For updating enter ``sudo apt update && apt upgrade``.
 
+Fedora
+''''''
+
+``# dnf install opentoonz``
+
 Gentoo
 ''''''
 
