@@ -7,9 +7,9 @@ In this section you can find a list of Highlights in the latest release of OpenT
 Here, you can also find links to past versions' Release Notes, to keep track of OpenToonz development history throughout time.
 
 
-.. _v1.5:
+.. _v1.6:
 
-v1.5
+v1.6
 ----
 
 .. _highlights:
@@ -17,64 +17,95 @@ v1.5
 Highlights
 ''''''''''
 
-- |new| UI: All New **Icon set**.
-- |new| UI: Updated **Default Room set**.
-- |new| Brushes: **Aotz** Raster Brush Set (MyPaint): Sketch, Ink, Fill, Clouds, Water, Grass, Leaves, Fur, Eraser, etc.
-- |new| Eraser Tool: **Segment** selection type, for quickly cutting stroke intersections.
-- |new| Geometry Tool: **MultiArc** shape.
-- |new| Xsheet/Timeline: **Paste as a Copy** command, for pasting an independent copy of a drawing.
-- |new| Effects: **Bloom Iwa**.
-- |new| Effects: **Fractal Noise Iwa**.
-- |new| Effects: **Glare Iwa**.
-- |new| Effects: New **Particles** effect preset: **Flock**.
-- |new| Expressions: **Expression Reference Manager**, for keeping track of objects name changes (experimental).
-- |new| Expressions: **Periodic Random** function.
-- |new| Shortcuts: **Individual Geometric Tool Shapes shortcuts** for compatibility with Adobe Animate keyboard shortcuts.
-- |new| Translation: Initial support for **Norwegian Bokmal**.
-- |new| Translation: **Weblate** widget.
-- |new| Plugins: Updated **Dwango plugins**. (separate download)
-- |new| Operating Systems: **FreeBSD** support.
-- |enhancement| UI: New **Horizontal Mode for Level Strip** editor.
-- |enhancement| UI: Added a **New Style button** in the styles area of the Style Editor (optional).
-- |enhancement| UI: New **Top/Bottom Toolbar** option in Palette Editor.
-- |enhancement| UI: New **Color Keys** in Global Palette.
-- |enhancement| UI: Updated **Output Settings** dialogue.
-- |enhancement| UI/Preferences: **Live update for 3DLUTs** in Preferences.
-- |enhancement| UI/Preferences: New **Style Sheet customizations** in Preferences.
-- |enhancement| UI/Preferences: New **Switch Tool Temporarily Keypress Length** option.
-- |enhancement| Animate Tool: Ease regulations for the use of the Animate Tool.
-- |enhancement| Selection Tool: **Improved** target area for **Transform selection**.
-- |enhancement| Eraser Tool: Added **Frame Range** mode when using the new **Segment** selection type.
-- |enhancement| Cutter Tool: Now it **Snaps at intersections**.
-- |enhancement| Control Point Editor Tool: Added a **Snap** option.
-- |enhancement| Control Point Editor Tool: Added a **Freehand mode**.
-- |enhancement| Color Separation: **Save/Reload Color Separation** Parameters.
-- |enhancement| Conversion: Added **Align Boundary Strokes Direction** option in **Convert To Vector** feature.
-- |enhancement| Effects: Added a **Search Bar** in **New FX** browser window.
-- |enhancement| Effects: Added **Linear color space** option in **Add Ino** effect.
-- |enhancement| Effects: Added **Logarithmic** option in **Spiral** effect.
-- |enhancement| Expressions: Now it's possible to **Copy an expression object address** directly from the UI.
-- |enhancement| I/O: **Premultiply on Loading PNG** images.
-- |enhancement| Undo: **Reset Undo when Saving Levels** Preference Option.
-- |fix| I/O: Fix incorrect XML in .tnz scene files.
-- |fix| Keyframing: Fix Copy/Paste keyframe causing bad data.
-- |fix| Scene Cast: Fix Update on Pasting.
-- |fix| Brushes: Fix custom Vector Brush styles.
-- |fix| Tape Tool: Fix **Vector Tape Tool** on Joining Points at the same position.
-- |fix| Geometric Tool: Fix first point offset.
-- |fix| Type Tool: Fix first point offset.
-- |fix| Plastic Tool: Fix in OpenGL Line Smoothing.
-- |fix| Xsheet/Timeline: Fix crash when Drawing on an absent level.
-- |fix| Color Model: Fix color model pick mode.
-- |fix| Monitors/Screens: Fix for Full Screen on Multiple Monitors. (Windows)
-- |fix| Monitors/Screens: Fix icon rendering for HDPI screens.
-- |fix| Monitors/Screens: Fix for Duplicate Window Title. (Mac)
-- |fix| Audio: Fix crash on Recording audio. (Mac, Windows)
-- |fix| Rendering: Fix Batch Rendering. (Mac)
+- |new| **Rhubarb integration** for automatic lip-syncing.
+- |new| Xsheet/Timeline: Ability to **Shift + drag** an exposed cell to move it, while automatically adjusting neighbouring hold cells.
+- |new| Xsheet/Timeline: Restored original Toonz feature for **changing parent of a column from the XSheet header** [Tahoma2D port].
+- |new| Xsheet/Timeline: **Cell Mark** feature for identifying desired cells using colored dots.
+- |new| UI: Xsheet **Minimum Layout** for ultra-compact column size.
+- |new| UI: Xsheet **zoom** control.
+- |new| UI: Zoom in/out and fit floating panel geometry commands.
+- |new| Color Display: **30bit color display** feature.
+- |new| I/O: Export **Xsheet to PDF**.
+- |new| I/O: Export to **TVPaint JSON** file format.
+- |new| I/O: **OpenEXR** image format support.
+- |new| I/O: File Path Processing Using Regular Expressions.
+- |new| Cleanup: Enabled to **Cleanup without Line Processing**, allows applying Autocenter, Rotation, etc. without further processing of the images.
+- |new| Rendering: **Multi-Thread FFMPEG** option for faster rendering.
+- |new| Brush and Paint Brush Tools: **Lock Alpha** setting for Toonz Raster and Raster level types.
+- |new| Style Editor: **Hex editbox** for color values in Style Editor.
+- |new| Style Editor: Hex color names editor.
+- |new| Effects: **Linear color space** option for all Layer Blending Ino effects.
+- |new| Effects: **Conical Transform** option for Fractal Noise Iwa effect.
+- |new| Effects: **Image Size** option for the Input Size parameter for Tile Iwa effect.
+- |new| Effects: **GPU HSL Blend** shader effect.
+- |new| Effects: **Bokeh Advanced Iwa** effect.
+- |new| Effects: **Compass Gadget** for Radial and Spin Blur effects.
+- |new| Camera Capture: **Camera calibration**.
+- |enhancement| Audio: **Improved Audio Recording**.
+- |enhancement| Xsheet/Timeline: Enhanced **Note level column**.
+- |enhancement| Viewer: Enhanced **Flipbook playback**.
+- |enhancement| Schematic: Allowed **Renaming** Pass Through Nodes (Tahoma2D port).
+- |enhancement| I/O: Enabled to **set Raster level frame number format**.
+- |enhancement| I/O: Enabled to **use PNG for new Raster levels**.
+- |enhancement| I/O: Enhanced **FFMPEG GIF export**.
+- |enhancement| File Browser: Enabled to **view palette files from the File Browser**.
+- |enhancement| Palette: Enabled to **paste style's color into a color field**.
+- |enhancement| Effects: **Fx Intensity** parameter for controlling global effect intensity.
+- |enhancement| Effects: **Redesigned Pass Through** effect node.
+- |enhancement| Camera Capture: Enabled **inputting frame with suffix** in Camera Capture.
+- |enhancement| Stop-motion: Enhanced **Stop motion** feature.
+- |enhancement| Packaging Opentoonz for Fedora distribution.
+- |fix| Crash on showing snapshot in flipbook.
+- |fix| Crash on saving scene containing missing palette level.
+- |fix| Crash on undoing tool.
+- |fix| Crash after starting a pen stroke from inactive window.
+- |fix| Crash on Stage Schematic Column Right click.
+- |fix| Crash on rendering ArtContour fx.
+- |fix| Crash on rendering PaletteFilter Fx (and other fxs) with hyphen.
+- |fix| Crash on cleaning up zerary column.
+- |fix| Crash on creating a zerary fx in the camera column.
+- |fix| Crash on creating Macro Fx from the Fx Browser.
+- |fix| Crash On Inserting Fx.
+- |fix| Crash on clicking shortcut tree.
+- |fix| Crashes when using Type tool.
+- |fix| Crash on deleting control point while dragging.
+- |fix| Crash on switching scenes while selecting raster level frame.
+- |fix| Undo Malfunction.
+- |fix| File browser assertion failure.
+- |fix| "Show Folder Contents" command for UNC path.
+- |fix| Viewer playback.
+- |fix| Flipbook wobbling when dragging while playing.
+- |fix| Pressing Shift key loses focus when renaming cell.
+- |fix| Autorenumber of Raster Level.
+- |fix| Cell Selection on Click.
+- |fix| GIF rendering on older versions.
+- |fix| Saving TLV.
+- |fix| Output file name for movie format.
+- |fix| PSD loading and level format preferences.
+- |fix| Backtab key to work for moving styles shortcut scope.
+- |fix| FrameIDs Inconsistency in Level Strip Commands.
+- |fix| Memo Popup Background Color.
+- |fix| FX gadget picking.
+- |fix| Margin of Directional Blur Fx Iwa.
+- |fix| Zerary Fx bugs.
+- |fix| Friction parameter behavior of the Particles Fx.
+- |fix| Rendering Fx After Xsheet Node.
+- |fix| Channel clamping behavior in Layer Blending Fxs.
+- |fix| Fx Gadget Offset.
+- |fix| Bokeh Fxs Artifacts.
+- |fix| Schematic node placement fix.
+- |fix| Shortcut loading from file.
+- |fix| Tool options' shortcuts to work without opening tool options bar.
+- |fix| Camera capture's level control.
+- |fix| Mesh file naming.
+- |fix| Wheel scrolling on the output settings popup
+- |fix| Missing Checkboxes in Menu Item
+- |fix| Convert to TLV Palette Saving
+- |fix| Raster Deformation Slowness
 
 ...and much more!
 
-Please see the `v1.5 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.5.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
+Please see the `v1.6 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.6.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
 
 
@@ -84,6 +115,8 @@ Previous Versions of OpenToonz
 ------------------------------
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
+
+`v1.5 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.5.0>`_
 
 `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_
 
