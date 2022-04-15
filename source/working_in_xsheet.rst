@@ -1471,9 +1471,9 @@ To find a particular section in an audio file, you can examine it by scrubbing i
     - Windows only: In the Timeline, click and drag on the dashed horizontal strip available on the bottom of the audio layer cells, the selected section will be automatically played back.
 
 
-.. _lip_synching:
+.. _lip_syncing:
 
-Lip Synching
+Lip Syncing
 ------------
 When you need to synchronize the movement of a character’s lips with the sound of the speech, you can take advantage of the possibility to examine the audio files loaded in the scene.
 
@@ -1512,6 +1512,69 @@ This technique can be used in any case you need the sound to be perfectly synchr
     - Click the up or down arrowheads.
 
 
+.. _using_auto_lip-sync:
+
+Automated Lip-Synching using Rhubarb
+''''''''''''''''''''''''''''''''''''
+Automatic lip-sync can be obtained by using the Rhubarb software (which is not bundled with OpenToonz, and must be separately installed and then configured in Preferences window, as explained in ??? section).
+The **Auto Lip-Sync** feature can analyze an audio track and automatically expose the appropriate drawing for each phoneme in the audio to the corresponding cells in the Xsheet/Timeline.
+
+|apply_auto_lip_sync| 
+
+.. tip:: **To apply auto lip-sync to a column/layer:**
+
+    1. Load the audio track onto its own column/layer, if it is not already there (right-click on the cell the audio should begin and select "Load Level").
+    
+    2. Expose in the Xsheet/Timeline at least one drawing of the level containing the mouth shapes set.
+    
+    3. Select the cell of the column/layer where you want the lip sync to start, and using the right-click menu, choose the Lip Sync  →  **Apply Auto Lip Sync to Column** option.
+    
+    4. In the Auto Lip Sync Dialog, choose the desired Xsheet/Timeline audio column/layer or a supported audio file from disc, by using the **Audio Source** drop-down menu.
+    
+    .. note:: Press play to preview the track if needed.
+    
+    .. note:: You can optionally type a transcript of the spoken words in the **Audio Script** field, which will help improve the accuracy of the lip syncing result.
+    
+    5. Choose which level drawings to assign to each phoneme using the arrow buttons below each phoneme.
+    
+    .. note:: Rhubarb utilizes its own phonemes that have been interpreted as Preston Blair phonemes, without a unique phoneme for **WQ**.
+    
+    6. Click the "Apply" button
+    
+
+.. _importing_papagayo_files:
+
+Importing Papagayo-NG Files
+'''''''''''''''''''''''''''
+It is possible to import into the Xsheet/Timeline DAT files exported from Papagayo-NG, a lip-sync and animation timing tool. 
+
+|apply_lip_sync_data| 
+
+While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synced sound, the correspondent sound level should be manually loaded too.
+
+.. tip:: **To export the OpenToonz lip sync file in Papagayo-NG:**
+
+    1. In Papagayo-NG, from the **Export:** dropdown menu, select **MOHO**.
+
+    2. Press the **Export** button, to export a .DAT file.
+
+.. tip:: **To import a Papagayo-NG file:**
+
+    1. Expose in the Xsheet/Timeline at least one drawing of the level containing the mouth shapes set.
+    
+    2. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option or from Xsheet  →  **Apply Lip Sync Data to Column**.
+    
+    3. A dialog opens letting you choose which level drawings to assign to each phoneme. 
+
+    4. Use the **Lip Sync Data File:** browser to retrieve the DAT file you exported from Papagayo-NG, and click the **Choose** button.
+
+    5. The **Insert at Frame:** parameter should already be showing the frame number of the cell you previously selected. Still, you can change it to make the lip sync start at another frame.
+    
+    6. Activate the **Extend Rest Drawing to End Marker** if you want to copy the *Rest Drawing* to all the remaining frames between the loaded lip sync ending, and the frame where the *End Marker* of the Xsheet/Timeline is set.
+
+    7. Click the **Apply** button.
+
+
 .. _importing_magpie_files:
 
 Importing Magpie Files
@@ -1541,38 +1604,6 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
     - Use the **Animation Level** section to retrieve the animation level you want to expose in the Xsheet/Timeline, and to specify which frame of the level has to be assigned to each phoneme; you can also use the viewer available at the bottom of the dialog to examine the frames of the selected animation level.
 
     4. Click the **Import** button.
-
-.. _importing_papagayo_files:
-
-Importing Papagayo-NG Files
-'''''''''''''''''''''''''''
-It is possible to import into the Xsheet/Timeline DAT files exported from Papagayo-NG, a lip-sync and animation timing tool. 
-
-|apply_lip_sync_data| 
-
-While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synched sound, the correspondent sound level should be manually loaded too.
-
-.. tip:: **To export the OpenToonz lip sync file in Papagayo-NG:**
-
-    1. In Papagayo-NG, from the **Export:** dropdown menu, select **MOHO**.
-
-    2. Press the **Export** button, to export a .DAT file.
-
-.. tip:: **To import a Papagayo-NG file:**
-
-    1. Expose in the Xsheet/Timeline at least one drawing of the level containing the mouth shapes set.
-    
-    2. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option or from Xsheet  →  **Apply Lip Sync Data to Column**.
-    
-    3. A dialog opens letting you choose which level drawings to assign to each phoneme. 
-
-    4. Use the **Lip Sync Data File:** browser to retrieve the DAT file you exported from Papagayo-NG, and click the **Choose** button.
-
-    5. The **Insert at Frame:** parameter should already be showing the frame number of the cell you previously selected. Still, you can change it to make the lip sync start at another frame.
-    
-    6. Activate the **Extend Rest Drawing to End Marker** if you want to copy the *Rest Drawing* to all the remaining frames between the loaded lip sync ending, and the frame where the *End Marker* of the Xsheet/Timeline is set.
-
-    7. Click the **Apply** button.
 
 
 .. _using_memos:
@@ -1937,8 +1968,9 @@ Elements defined in the CSS are the following:
 .. |timeline| image:: /_static/xsheet/timeline.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
 .. |audio| image:: /_static/xsheet/audio.png
-.. |magpie_import| image:: /_static/xsheet/magpie_import.png
+.. |apply_auto_lip_sync| image:: /_static/xsheet/apply_lip_sync_data.png
 .. |apply_lip_sync_data| image:: /_static/xsheet/apply_lip_sync_data.png
+.. |magpie_import| image:: /_static/xsheet/magpie_import.png
 .. |memo| image:: /_static/xsheet/memo.png
 .. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
 .. |export_scene| image:: /_static/xsheet/export_scene.png
