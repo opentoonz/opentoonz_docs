@@ -17,7 +17,7 @@ v1.6
 Highlights
 ''''''''''
 
-- |new| **Rhubarb integration** for automatic lip-syncing [Tahoma2D port].
+- |new| **Rhubarb integration** for automatic lip-syncing [Tahoma2D port, with modifications].
 - |new| Xsheet/Timeline: Ability to **Shift + drag** an exposed cell to move it, while automatically adjusting neighbouring hold cells.
 - |new| Xsheet/Timeline: Restored original Toonz feature for **changing parent of a column from the XSheet header** [Tahoma2D port].
 - |new| Xsheet/Timeline: **Cell Mark** feature for identifying desired cells using colored dots.
