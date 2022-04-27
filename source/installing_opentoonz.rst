@@ -10,15 +10,18 @@ Downloading OpenToonz
 ---------------------
 You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application.
 
-.. note:: All other builds apart from the ones downloaded from the official web site ARE NOT officially supported.
+At the bottom of that same page it's also possible to find the developer's "Nightly Builds" (new versions of the software compiled each night for testing purposes), with which you will be able to try out the latest features and bug fixes, as they are being included in OpenToonz.
 
-It's possible to find the developer's "nightly" builds `here <https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
+.. note:: WARNING: Use at you own risk! A Nightly Build version could potentially be an unstable one, so it is not adviced nor supported, for use in production environments.
 
-.. note:: WARNING: Use at you own risk! The Nightly Build version could potentially be a highly unstable one, so it is not adviced to use it in production environments.
+.. note:: All other builds apart from the ones downloaded from the official web site ARE NOT officially supported by OpenToonz.
 
-Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage <https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
+`Morevna Project <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage <https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux.
 
-Finally, there are OTX (OpenToonz eXperimental) timely releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_ where it is possible to test the latest features and bug fixes in a portable way (i.e. without the need to do a full OpenToonz install).
+Finally, there's also an OpenToonz fork called `Tahoma2D <https://tahoma2d.org>`_ avalaible for Windows, macOS and Linux, that could represent a good alternative for certain use cases, where it could be possible to find slightly different approaches to some of the core features in the software, as well as its own new solutions and tools.
+
+All in all, the OpenToonz ecosystem is an open, diverse and fluid one, which means that most novel features, improvements and fixes developed for one of its variants, would most probably end up appearing in the other ones too, with time.
+
 
 
 .. _installing_on_windows:
@@ -27,6 +30,7 @@ Installing on Windows
 ---------------------
 Execute the OpenToonzSetup.exe file and follow these steps:
 
+.. note:: Microsoft Defender's Smart Screen might alert that the installer is not signed. Just click on the "Run anyway" button (select "More info" to make it visible) to proceed with the installation.
 
 1. Choose the language for the installer messages.
 
@@ -57,12 +61,14 @@ Execute the OpenToonzSetup.exe file and follow these steps:
 
  |win_setup_6| 
 
+
 Chocolatey
 ''''''''''
 
 ``choco install opentoonz``
 
 .. _installing_on_os_x:
+
 
 Installing on OS X
 ------------------
@@ -101,12 +107,14 @@ Follow these steps:
 
  |osx_setup_7| 
 
+
 Homebrew
 ''''''''
 
 ``brew cask install opentoonz``
 
 .. _installing_on_linux:
+
 
 Installing on Linux
 -------------------
