@@ -20,7 +20,7 @@ At the bottom of that same page it's also possible to find the developer's "Nigh
 
 Finally, there's also an OpenToonz fork called `Tahoma2D <https://tahoma2d.org>`_ avalaible for Windows, macOS and Linux, that could represent a good alternative for certain use cases, where it could be possible to find slightly different approaches to some of the core features in the software, as well as its own new solutions and tools.
 
-All in all, the OpenToonz ecosystem is an open, diverse and fluid one, which means that most novel features, improvements and fixes developed for one of its variants, would most probably end up appearing in the other ones too, with time.
+All in all, the OpenToonz ecosystem is an open, diverse and fluid one, which means that most novel features, improvements and fixes developed for one of its variants, would most probably end up appearing in the other ones too, within time.
 
 
 
