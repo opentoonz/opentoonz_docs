@@ -148,7 +148,7 @@ Debian GNU/Linux
 
 3. Add repository address to your sources list.
 
-``sudo echo "deb http://www.deb-multimedia.org stable main" | tee -a /etc/apt/sources.list`` Builds for testing and sid also avalaible.
+``echo "deb http://www.deb-multimedia.org stable main" | sudo tee -a /etc/apt/sources.list`` Builds for testing and sid also avalaible.
 
 .. note:: Debian packages avalaible only for amd64, arm64 and i386 architectures.
 
