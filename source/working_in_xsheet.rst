@@ -1516,7 +1516,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
 Automated Lip-Synching using Rhubarb
 ''''''''''''''''''''''''''''''''''''
-Automatic lip-sync can be obtained by using the Rhubarb software (which is not bundled with OpenToonz, and must be separately installed and then configured in Preferences window, as explained in ??? section).
+Automatic lip-sync can be obtained by using the Rhubarb software (which is not bundled with OpenToonz, and must be separately installed and then configured in Preferences window, as explained in :ref:`Using Rhubarb with OpenToonz <using_rhubarb_with_opentoonz>` section).
 The **Auto Lip-Sync** feature can analyze an audio track and automatically expose the appropriate drawing for each phoneme in the audio to the corresponding cells in the Xsheet/Timeline.
 
 |apply_auto_lip_sync| 
