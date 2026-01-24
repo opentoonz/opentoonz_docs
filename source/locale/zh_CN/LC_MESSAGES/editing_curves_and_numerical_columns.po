@@ -1,0 +1,1762 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 21:07+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:4
+msgid "Editing Using Spreadsheet and Curves"
+msgstr "使用电子表格和曲线进行编辑"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:6
+msgid ""
+"Changes in Object transformations and effects parameters are shown in the **Function Editor** window, where keyframes and their related interpolations can be controlled and modified by using a "
+"*Spreadsheet* of numerical columns or a *Graph Editor*."
+msgstr "对象变换和效果参数的变化显示在**函数编辑器**窗口中，可以通过使用数值列的*电子表格*或*图形编辑器*来控制和修改关键帧及其相关的插值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:8
+msgid "The **Spreadsheet** displays changes in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame."
+msgstr "**电子表格**以列的形式显示变化，每列代表一个可动画参数，每行显示该参数在每一帧的值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:9
+msgid "Blank cells represent the absence of a change in a parameters value due to no keyframes being defined."
+msgstr "空白单元格表示由于未定义关键帧，参数值没有变化。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:11
+msgid "The **Graph Editor** displays changes as curves in a graph, where frames are laid horizontally and values are laid vertically."
+msgstr "**图形编辑器**将变化显示为图表中的曲线，其中帧水平放置，数值垂直放置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:12
+msgid "Keyframes are represented as points and the interpolated values between them are visualized as red lines."
+msgstr "关键帧表示为点，它们之间的插值显示为红线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:14
+msgid "The spreadsheet's columns and the graph editor's curves are different representations of the same data, so any changes made in one view are also reflected in the other."
+msgstr "电子表格的列和图形编辑器的曲线是同一数据的不同表现形式，因此在一个视图中所做的任何更改也会反映在另一个视图中。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:20
+msgid "Using the Function Editor"
+msgstr "使用函数编辑器"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:22
+msgid "|function_editor_1|"
+msgstr "|function_editor_1|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:24
+msgid ""
+"The function editor window is divided into three sections. On the left there is an area where the Spreadsheet or Graph Editor is displayed, on the right top is an area where the interpolation of the "
+"current transformation segment is displayed, and on the right bottom is the objects/effects tree."
+msgstr "函数编辑器窗口分为三个部分。左侧是显示电子表格或图形编辑器的区域，右上角是显示当前变换段插值的区域，右下角是对象/效果树。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:26
+msgid ""
+"The tree has two main item folders, *Stage* and *FX*: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each "
+"used effect. Each folder contains the related transformation parameters."
+msgstr "该树有两个主要项目文件夹：*舞台*和*FX*：在第一个文件夹中，可以找到已定义摄像机、工作台、使用的定位钉和列的文件夹；在第二个文件夹中，可以找到每个使用效果的文件夹。每个文件夹都包含相关的变换参数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:28
+msgid "The objects/effects tree tells if the object/effect is animated and which parameter is animated, by using the following icons:"
+msgstr "对象/效果树通过以下图标显示对象/效果是否被动画化以及哪个参数被动画化："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:30
+msgid "A plain folder is for non-animated objects/effects."
+msgstr "普通文件夹用于非动画对象/效果。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:32
+msgid "A folder with an arrow is for animated objects/effects."
+msgstr "带箭头的文件夹用于动画对象/效果。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:34
+msgid "An icon with a dotted straight line is for non-animated parameters."
+msgstr "带有点状直线的图标用于非动画参数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:36
+msgid "An icon with a continuos curve is for animated parameters."
+msgstr "带有连续曲线的图标用于动画参数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:38
+msgid "Clicking these icons allows you to select which object/effect and which parameters have to be displayed as a spreadsheet or curves in the area on the left."
+msgstr "单击这些图标可以选择哪个对象/效果以及哪些参数需要在左侧区域显示为电子表格或曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:40
+msgid ""
+"Transformation data can be saved and loaded as a CURVE file, to allow the exporting and importing from one scene to another, and they can be exported as well as a DAT file in order to be used in other "
+"software."
+msgstr "变换数据可以保存和加载为 CURVE 文件，以便从一个场景导出和导入到另一个场景，也可以导出为 DAT 文件以便在其他软件中使用。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:42
+msgid "**To resize the Function Editor sections:**"
+msgstr "**调整函数编辑器各节的大小：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:44
+msgid "Do any of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:46
+msgid "Click and drag the separators to resize sections."
+msgstr "单击并拖动分隔符以调整各节大小。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:48
+msgid "Click and drag a separator toward the window border to hide a section."
+msgstr "单击一个分隔符并向窗口边框拖动以隐藏一节。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:50
+msgid "Click and drag the separator collapsed to the window border toward the window center to display again the hidden section."
+msgstr "单击已折叠到窗口边框的分隔符并向窗口中心拖动以再次显示隐藏的节。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:52
+msgid "**To display or hide column parameters:**"
+msgstr "**显示或隐藏列参数：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:54
+msgid "Retrieve the object or the effect in the objects/effect tree."
+msgstr "在对象/效果树中找到对象或效果。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:56 ../../source/editing_curves_and_numerical_columns.rst:88 ../../source/editing_curves_and_numerical_columns.rst:105
+#: ../../source/editing_curves_and_numerical_columns.rst:174 ../../source/editing_curves_and_numerical_columns.rst:206 ../../source/editing_curves_and_numerical_columns.rst:214
+#: ../../source/editing_curves_and_numerical_columns.rst:228 ../../source/editing_curves_and_numerical_columns.rst:240 ../../source/editing_curves_and_numerical_columns.rst:248
+#: ../../source/editing_curves_and_numerical_columns.rst:266 ../../source/editing_curves_and_numerical_columns.rst:349 ../../source/editing_curves_and_numerical_columns.rst:371
+#: ../../source/editing_curves_and_numerical_columns.rst:419 ../../source/editing_curves_and_numerical_columns.rst:429 ../../source/editing_curves_and_numerical_columns.rst:447
+#: ../../source/editing_curves_and_numerical_columns.rst:457 ../../source/editing_curves_and_numerical_columns.rst:475 ../../source/editing_curves_and_numerical_columns.rst:606
+#: ../../source/editing_curves_and_numerical_columns.rst:624 ../../source/editing_curves_and_numerical_columns.rst:734 ../../source/editing_curves_and_numerical_columns.rst:762
+#: ../../source/editing_curves_and_numerical_columns.rst:784
+msgid "Do one of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:58
+msgid "Click the folder to display or hide all columns or curves related to its parameters."
+msgstr "单击文件夹以显示或隐藏与其参数相关的所有列或曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:60
+msgid "Click the parameter icon to display or hide its related column or curve."
+msgstr "单击参数图标以显示或隐藏其相关列或曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:62
+msgid "Click a parameter icon and drag to display or hide all the columns or curves you pass upon."
+msgstr "单击一个参数图标并拖动，以显示或隐藏经过的所有列或曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:64
+msgid "Right-click the folder and choose **Show Animated Only** from the menu that opens to display or hide only the animated columns or curves related to its parameters."
+msgstr "右键单击文件夹，然后从打开的菜单中选择**仅显示动画项**，以仅显示或隐藏与其参数相关的动画列或曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:66
+msgid "Right-click the folder and choose **Show All** from the menu that opens to display or hide all columns or curves related to its parameters."
+msgstr "右键单击文件夹，然后从打开的菜单中选择**显示全部**，以显示或隐藏与其参数相关的所有列或曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:68
+msgid "**To open the Graph Editor in a separate window:**"
+msgstr "**在单独的窗口中打开图形编辑器：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:70
+msgid "Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences...  →  Interface dialog section. (Restart OpenToonz)."
+msgstr "确保在首选项... → 界面对话框部分的**函数编辑器：**下拉菜单中选择了**图形编辑器在弹出窗口中打开**选项。（重启 OpenToonz）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:72 ../../source/editing_curves_and_numerical_columns.rst:78 ../../source/editing_curves_and_numerical_columns.rst:84
+msgid "Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor."
+msgstr "单击函数编辑器顶部工具栏中的**函数编辑器切换**按钮（|schematic|）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:74
+msgid "**To open the Spreadsheet in a separate window:**"
+msgstr "**在单独的窗口中打开电子表格：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:76
+msgid "Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences...  →  Interface dialog section. (Restart OpenToonz)."
+msgstr "确保在首选项... → 界面对话框部分的**函数编辑器：**下拉菜单中选择了**电子表格在弹出窗口中打开**选项。（重启 OpenToonz）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:80
+msgid "**To switch between Spreadsheet and Graph Editor in the Function Editor:**"
+msgstr "**在函数编辑器中切换电子表格和图形编辑器：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:82
+msgid ""
+"Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected from the **Function Editor:** dropdown menu, in the Preferences...  →  Interface dialog section. (Restart OpenToonz)."
+msgstr "确保在首选项... → 界面对话框部分的**函数编辑器：**下拉菜单中选择了**在图形编辑器和电子表格之间切换**选项。（重启 OpenToonz）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:86
+msgid "**To scroll the Spreadsheet:**"
+msgstr "**滚动电子表格：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:90
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "中键单击并拖动可在任意方向滚动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:92
+msgid "Use the mouse wheel to scroll up or down."
+msgstr "使用鼠标滚轮向上或向下滚动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:94
+msgid "Use the scrolling bars to scroll only within the actual spreadsheet extent."
+msgstr "使用滚动条仅在电子表格实际范围内滚动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:96
+msgid "Use the Up Arrow and Down Arrow keys to move one frame up or down."
+msgstr "使用向上和向下箭头键向上或向下移动一帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:98
+msgid "Use the Page Up and Page Down keys to scroll the visible frames up or down."
+msgstr "使用 Page Up 和 Page Down 键向上或向下滚动可见帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:100
+msgid "Use the Home and End keys to scroll up to the beginning or the end of the Xsheet/Timeline content."
+msgstr "使用 Home 和 End 键滚动到 Xsheet/时间线内容的开头或结尾。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:103
+msgid "**To navigate the Graph Editor:**"
+msgstr "**在图形编辑器中导航：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:107
+msgid "Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** keys) to zoom in and zoom out."
+msgstr "使用鼠标滚轮或缩放快捷键（默认为 **+** 和 **-** 键）进行缩放。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:109
+msgid "Click in the horizontal ruler and drag up to zoom in horizontally, down to zoom out; click in the value vertical ruler and drag up to zoom in vertically, down to zoom out."
+msgstr "在水平标尺内单击并向上拖动以水平放大，向下拖动以缩小；在数值垂直标尺内单击并向上拖动以垂直放大，向下拖动以缩小。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:111
+msgid "Middle-click and drag the graph area to scroll in any direction, the horizontal ruler to scroll horizontally, and the vertical ruler to scroll vertically."
+msgstr "中键单击并拖动图表区域可在任意方向滚动，拖动水平标尺可水平滚动，拖动垂直标尺可垂直滚动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:113
+msgid ""
+"Use the reset view shortcut (by default the **Alt + 0** key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current Function Curve "
+"Editor window."
+msgstr "使用重置视图快捷键（默认为 **Alt + 0** 键）或右键单击图表区域并选择“适应”，以在当前函数曲线编辑器窗口中显示所有可见曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:115
+msgid "**To save transformation data:**"
+msgstr "**保存变换数据：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:117
+msgid "Right-click the relevant parameter in the objects/effects tree, and choose **Save Curve** from the menu that opens."
+msgstr "右键单击对象/效果树中的相关参数，然后从打开的菜单中选择**保存曲线**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:119
+msgid "Use the Browser to choose a name and location for the file to be saved: the data will be saved as a CURVE file."
+msgstr "使用浏览器为要保存的文件选择名称和位置：数据将保存为 CURVE 文件。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:121
+msgid "**To load transformation data:**"
+msgstr "**加载变换数据：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:123
+msgid "Right-click the relevant parameter in the objects/effects tree, and choose **Load Curve** from the menu that opens."
+msgstr "右键单击对象/效果树中的相关参数，然后从打开的菜单中选择**加载曲线**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:125
+msgid "Use the Browser to retrieve the curve to load; valid files are in CURVE format."
+msgstr "使用浏览器检索要加载的曲线；有效文件为 CURVE 格式。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:127
+msgid "**To export transformation data:**"
+msgstr "**导出变换数据：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:129
+msgid "Right-click the relevant parameter in the objects and effects tree, and choose **Export Data** from the menu that opens."
+msgstr "右键单击对象和效果树中的相关参数，然后从打开的菜单中选择**导出数据**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:131
+msgid "Use the Browser to choose a name and location for the file to be saved: the data will be saved as a DAT file that can be used in other software supporting this type of information."
+msgstr "使用浏览器为要保存的文件选择名称和位置：数据将保存为 DAT 文件，可在支持此类信息的其他软件中使用。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:137
+msgid "Defining keyframes"
+msgstr "定义关键帧"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:138
+msgid ""
+"Keyframes, including those belonging to object transformations done by using the **Animate** tool (|animate|) and those defined for effects parameters in the **FX Settings** window, can be controlled "
+"and edited both using the Spreadsheet's numerical columns and the Graph Editor's curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  )."
+msgstr ""
+"关键帧，包括使用**动画**工具（|animate|）完成的对象变换所对应的关键帧，以及在**FX 设置**窗口中为效果参数定义的关键帧，都可以使用电子表格的数值列和图形编辑器的曲线进行控制和编辑（参见：ref：`动画对象 "
+"<animating_objects>` 和 ：ref：`编辑 FX 设置 <editing_fx_settings>`）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:140
+msgid ""
+"In the Spreadsheet, keyframes are displayed as orange cells; in the Graph Editor, keyframes are represented as control points along the curve. In both cases they can be added, edited, moved and "
+"deleted."
+msgstr "在电子表格中，关键帧显示为橙色单元格；在图形编辑器中，关键帧表示为曲线上的控制点。在这两种情况下，都可以添加、编辑、移动和删除它们。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:146
+msgid "Using the Spreadsheet"
+msgstr "使用电子表格"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:148
+msgid "|function_editor_spreadsheet|"
+msgstr "|function_editor_spreadsheet|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:150
+msgid ""
+"The Spreadsheet displays transformations in columns like the ones available in the Xsheet/Timeline, having one for each parameter. For each frame, the column's cells display the related transformation "
+"values."
+msgstr "电子表格以列的形式显示变换，类似于 Xsheet/时间线中的列，每个参数一列。对于每一帧，列中的单元格显示相关的变换值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:152
+msgid ""
+"Keyframes are displayed in different-colored cells, and can be moved along the column to different frames positions. In-between values are automatically generated according to the keyframes and to the "
+"set interpolation (see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  )."
+msgstr "关键帧显示在不同颜色的单元格中，并且可以沿着列移动到不同的帧位置。中间值根据关键帧和设置的插值自动生成（参见 ：ref：`设置段插值 <setting_segment_interpolations>`）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:154
+msgid "All the columns referring to the same object or effects are grouped under one single header. For example under a pegbar header you can find all the columns referring to its transformations."
+msgstr "所有引用同一对象或效果的列都分组在一个标题下。例如，在定位钉标题下，可以找到引用其变换的所有列。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:156
+msgid ""
+"Columns cells can be used to type in directly values for keys, edit or move them. Values contained in cells can be cut, copied and pasted, so that transformations can be displaced, repeated and "
+"deleted."
+msgstr "列单元格可用于直接键入关键帧的值、编辑或移动它们。单元格中包含的值可以剪切、复制和粘贴，从而可以位移、重复和删除变换。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:158
+msgid "**To define keyframes directly in Spreadsheet columns:**"
+msgstr "**直接在电子表格列中定义关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:160
+msgid "Double click in the column cell where you want to define a keyframe: the cell becomes editable."
+msgstr "双击要定义关键帧的列单元格：该单元格变为可编辑状态。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:162
+msgid "Type in the value for the key, and press **Enter** to confirm."
+msgstr "键入关键帧的值，然后按 **Enter** 确认。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:164 ../../source/editing_curves_and_numerical_columns.rst:819
+msgid "**To move a keyframe:**"
+msgstr "**移动关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:166
+msgid "Click the *vertical strip* at the left of a keyframe cell, and drag it up or down to the new position; the in-between values change accordingly."
+msgstr "单击关键帧单元格左侧的*垂直条*，并将其向上或向下拖动到新位置；中间值相应更改。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:168
+msgid "**To displace the channel along the column:**"
+msgstr "**沿列位移通道：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:170
+msgid ""
+"Click the *vertical strip* at the left of the selected column cells, and drag it up or down to the new position: the content of the segments completely included in the selection will move along the "
+"column."
+msgstr "单击所选列单元格左侧的*垂直条*，并将其向上或向下拖动到新位置：完全包含在选择中的段的内容将沿着列移动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:172
+msgid "**To copy/cut and paste column values:**"
+msgstr "**复制/剪切和粘贴列值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:176
+msgid "Click and drag to perform a selection; the selection can be extended to several columns."
+msgstr "单击并拖动以进行选择；选择可以扩展到多个列。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:178
+msgid "Use the **Copy** command: the selection will be kept in memory for further operations."
+msgstr "使用**复制**命令：选择将保存在内存中以供进一步操作。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:180
+msgid "Use the **Cut** command: the selection will be removed from the columns and will be kept in memory for further operations. The cells removal causes the following cells to shift up."
+msgstr "使用**剪切**命令：选择将从列中移除并保存在内存中以供进一步操作。移除单元格会导致后续单元格上移。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:182
+msgid "Use the **Paste** command: the selection kept in memory will be pasted starting from the selected insertion cell. The command causes the following cells to shift down."
+msgstr "使用**粘贴**命令：保存在内存中的选择将从选定的插入单元格开始粘贴。此命令会导致后续单元格下移。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:184
+msgid "Use the **Delete** command: selected cells will be deleted, causing the following cells to shift up."
+msgstr "使用**删除**命令：选定的单元格将被删除，导致后续单元格上移。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:190
+msgid "Using the Graph Editor"
+msgstr "使用图形编辑器"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:192
+msgid "|function_editor_grapheditor|"
+msgstr "|function_editor_grapheditor|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:194
+msgid "The Graph Editor displays transformations as curves in a graph where *time* is laid horizontally, and parameter *values* are laid vertically."
+msgstr "图形编辑器将变换显示为图表中的曲线，其中*时间*水平放置，参数*值*垂直放置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:196
+msgid ""
+"Curves are defined by control points representing keyframes. Points can be easily added by working directly in the graph or using the **Set Key** button (|key|) in the top bar of the **Function "
+"Editor**."
+msgstr "曲线由代表关键帧的控制点定义。可以直接在图表中工作或使用**函数编辑器**顶部工具栏中的**设置关键帧**按钮（|key|）轻松添加点。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:198
+msgid "Control points can also be selected in order to be edited, moved or deleted."
+msgstr "也可以选择控制点以进行编辑、移动或删除。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:200
+msgid ""
+"The **Set Key** button (|key|) is either *grey* when no keyframe is defined for the current curve at the current frame, or *blue* when a keyframe is defined for the current curve at the current frame."
+msgstr "**设置关键帧**按钮（|key|）在当前帧的当前曲线未定义关键帧时显示为*灰色*，在当前帧的当前曲线已定义关键帧时显示为*蓝色*。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:202
+msgid ""
+"Frames and keyframes can be navigated by using the related buttons in the top bar of the editor. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than "
+"one keyframe is defined."
+msgstr "可以使用编辑器顶部工具栏中的相关按钮浏览帧和关键帧。仅当定义了多个关键帧时，**下一个关键帧**（|next_key|）和**上一个关键帧**按钮（|prevkey|）才可用。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:204
+msgid "**To set the current curve:**"
+msgstr "**设置当前曲线：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:208
+msgid "Click the related parameter name in the objects/effects tree."
+msgstr "单击对象/效果树中的相关参数名称。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:210
+msgid "Display the curve in the Graph Editor, then click to select it."
+msgstr "在图形编辑器中显示曲线，然后单击以选择它。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:212
+msgid "**To set the current frame:**"
+msgstr "**设置当前帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:216
+msgid "Click in the frame horizontal ruler to set a position for the current frame marker."
+msgstr "在帧水平标尺内单击以为当前帧标记设置位置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:218
+msgid "Click and drag the current frame marker in a horizontal direction."
+msgstr "单击当前帧标记并沿水平方向拖动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:220
+msgid "Type the frame number in the **Frame** text box, or use the **Next Frame** and **Previous Frame** buttons available in the top bar of the editor."
+msgstr "在**帧**文本框中键入帧编号，或使用编辑器顶部工具栏中提供的**下一帧**和**上一帧**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:222
+msgid "Move the current frame cursor in the Xsheet/Timeline."
+msgstr "在 Xsheet/时间线中移动当前帧光标。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:224
+msgid "Use the frame bar or the playback buttons in the bottom bar of the main viewer."
+msgstr "使用主查看器底部工具栏中的帧条或播放按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:226 ../../source/editing_curves_and_numerical_columns.rst:815
+msgid "**To add a keyframe:**"
+msgstr "**添加关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:230
+msgid "Click the **Set Key** button (|key|) to add a keyframe at the current frame."
+msgstr "单击**设置关键帧**按钮（|key|）以在当前帧添加关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:232
+msgid "Type a value in the **Value** text box to add a keyframe at the current frame."
+msgstr "在**值**文本框中键入一个值，以在当前帧添加关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:234
+msgid "Right-click and choose **Set Key** from the menu that opens."
+msgstr "右键单击并从打开的菜单中选择**设置关键帧**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:236
+msgid "**Ctrl-click** (PC) or **Cmd-click** (Mac) the curve where you want to add the keyframe point to it."
+msgstr "**Ctrl-单击**（PC）或**Cmd-单击**（Mac）要添加关键帧点的曲线位置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:238
+msgid "**To remove a keyframe:**"
+msgstr "**移除关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:242
+msgid "Select the keyframe to remove and choose Edit  →  **Delete**."
+msgstr "选择要移除的关键帧，然后选择编辑 → **删除**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:244
+msgid "Set the current frame where a keyframe is and click the **Set Key** button (|key|)."
+msgstr "将当前帧设置为有关键帧的位置，然后单击**设置关键帧**按钮（|key|）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:246
+msgid "**To select keyframes:**"
+msgstr "**选择关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:250
+msgid "Click to select a keyframe."
+msgstr "单击以选择一个关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:252
+msgid "Shift-click to add a keyframe to or remove it from the selection."
+msgstr "Shift-单击以将关键帧添加到选择中或从选择中移除。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:254
+msgid "Click and drag to select all of the keyframes that are in the area you define."
+msgstr "单击并拖动以选择位于所定义区域内的所有关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:256
+msgid "**To select curve segments:**"
+msgstr "**选择曲线段：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:258
+msgid "Select the segment or the control points at the ends of the segment."
+msgstr "选择段或段末端的控制点。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:260
+msgid "**To move the selection:**"
+msgstr "**移动选择：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:262
+msgid "Click and drag any of the selected control points."
+msgstr "单击并拖动任何选定的控制点。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:264
+msgid "**To edit curves:**"
+msgstr "**编辑曲线：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:268
+msgid "Use the **Copy** command: the selected segments will be kept in memory for further operations."
+msgstr "使用**复制**命令：选定的段将保存在内存中以供进一步操作。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:270
+msgid "Use the **Cut** command: the selected segments will be removed from the curve and will be kept in memory for further operations."
+msgstr "使用**剪切**命令：选定的段将从曲线中移除并保存在内存中以供进一步操作。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:272
+msgid "Use the **Paste** command: the segments kept in memory will be pasted starting from the selected keyframe, preserving any other previously defined keyframes not replaced by the new ones."
+msgstr "使用**粘贴**命令：保存在内存中的段将从选定的关键帧开始粘贴，保留任何其他先前定义且未被新关键帧替换的关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:274
+msgid "Use the **Delete** command: the selection will be deleted."
+msgstr "使用**删除**命令：选择将被删除。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:276
+msgid "**To navigate keyframes for the current curve:**"
+msgstr "**浏览当前曲线的关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:278
+msgid "Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the sides of the **Set Key** button."
+msgstr "使用**设置关键帧**按钮两侧的**下一个关键帧**（|next_key|）和**上一个关键帧**按钮（|prevkey|）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:280
+msgid "**To cycle previously created keyframes:**"
+msgstr "**循环先前创建的关键帧：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:282
+msgid "Right-click the dashed line after the end of the curve and choose **Activate Cycle** from the menu that opens."
+msgstr "右键单击曲线结束后的虚线，然后从打开的菜单中选择**激活循环**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:284
+msgid "**To disable the cycle:**"
+msgstr "**禁用循环：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:286
+msgid "Right-click the curve and choose **Deactivate Cycle** from the menu that opens."
+msgstr "右键单击曲线，然后从打开的菜单中选择**取消激活循环**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:288
+msgid "Only keyframes included in the selection are considered when performing copy, cut and paste operations."
+msgstr "执行复制、剪切和粘贴操作时，仅考虑选择中包含的关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:290
+msgid "All the **Edit** menu commands are also available in the menu that opens when right-clicking in the Xsheet/Timeline cells."
+msgstr "所有**编辑**菜单命令也可以在右键单击 Xsheet/时间线单元格时打开的菜单中找到。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:296
+msgid "Setting Segment Interpolations"
+msgstr "设置段插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:297
+msgid ""
+"A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be "
+"displayed graphically in the Graph Editor, and as a series of values, one for each frame, in the Spreadsheet."
+msgstr "变换段，即两个关键帧之间的部分，可以有不同的插值，影响值从一个关键帧到另一个关键帧的变化方式。设置的插值将以图形方式显示在图形编辑器中，并在电子表格中显示为一系列值（每帧一个）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:299
+msgid ""
+"Available interpolations are the following: **Linear**, **Speed In / Speed Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, **Expression**, **File**, **Constant** and "
+"**Similar Shape**. The Default Interpolation option can be set in the Preferences...  →  Animation dialog section, but it can be changed at any time in the interpolation area of the Function Editor, "
+"on the top right of the window."
+msgstr ""
+"可用的插值如下：**线性**、**缓入/缓出（速度）**、**缓入/缓出**、**缓入/缓出 %**、**指数**、**表达式**、**文件**、**常数**和**相似形状**。默认插值选项可以在首选项... → 动画对话框部分中设置，但也可以随时"
+"在函数编辑器窗口右上角的插值区域进行更改。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:301
+msgid ""
+"In the same area it is also possible to define an interpolation **Step**, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement "
+"with an animation level exposed at a specific step. The default animation step can be set in the Preferences...  →  Animation dialog section."
+msgstr "在同一区域还可以定义插值**步长**，即插值值需要重复的帧数，例如，使运动与以特定步长曝光的动画层级相匹配。默认动画步长可以在首选项... → 动画对话框部分中设置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:303
+msgid "**To set the type of interpolation for a segment in the Spreadsheet:**"
+msgstr "**在电子表格中设置段的插值类型：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:305
+msgid "Move the current frame cursor to a frame belonging to a segment."
+msgstr "将当前帧光标移动到属于某个段的帧上。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:307
+msgid "Choose the interpolation from the option menu available in the **Interpolation:** area of the Function Editor."
+msgstr "从函数编辑器**插值：**区域中可用的选项菜单中选择插值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:309 ../../source/editing_curves_and_numerical_columns.rst:327 ../../source/editing_curves_and_numerical_columns.rst:335
+#: ../../source/editing_curves_and_numerical_columns.rst:796
+msgid "Click the **Apply** button to apply the desired change."
+msgstr "单击**应用**按钮以应用所需的更改。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:311
+msgid "**To set the type of interpolation for multiple segments in the Spreadsheet:**"
+msgstr "**在电子表格中设置多个段的插值类型：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:313
+msgid "Make a cell selection that encompases multiple keyframe segments."
+msgstr "进行一个包含多个关键帧段的单元格选择。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:315
+msgid "Right click on one of the selected cells and choose the desired interpolation type in the menu that opens."
+msgstr "右键单击其中一个选定的单元格，然后在打开的菜单中选择所需的插值类型。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:317
+msgid "**To set the type of interpolation for a segment in the Graph Editor:**"
+msgstr "**在图形编辑器中设置段的插值类型：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:319
+msgid "Set the segment by doing one of the following:"
+msgstr "通过执行以下任一操作来设置段："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:321
+msgid "Click a segment to select it."
+msgstr "单击一个段以选择它。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:323
+msgid "Move the **Current Frame Marker** to a frame belonging to a segment."
+msgstr "将**当前帧标记**移动到一个属于某个段的帧上。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:325
+msgid "Choose the interpolation from the dropdown menu available in the **Interpolation:** area of the Function Editor."
+msgstr "从函数编辑器**插值：**区域中可用的下拉菜单中选择插值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:329
+msgid "The interpolation options are also available when right-clicking a segment."
+msgstr "右键单击段时也可以使用插值选项。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:331
+msgid "**To set the Step of the interpolation:**"
+msgstr "**设置插值的步长：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:333
+msgid "Specify the **Step** value in the interpolation area of the Function Editor."
+msgstr "在函数编辑器的插值区域中指定**步长**值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:341
+msgid "Using Linear Interpolations"
+msgstr "使用线性插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:343
+msgid "|function_editor_iLinear|"
+msgstr "|function_editor_iLinear|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:345
+msgid "When the interpolation is *Linear* the curve segment turns to a straight line and the speed of the transformation is constant."
+msgstr "当插值为*线性*时，曲线段变为直线，变换速度是恒定的。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:347
+msgid "**To set a Linear interpolation:**"
+msgstr "**设置线性插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:351
+msgid "Choose **Linear** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的选项菜单中选择**线性**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:353
+msgid "Right-click the curve segment you want to set the interpolation for, and choose **Linear Interpolation** from the menu that opens."
+msgstr "右键单击要设置插值的曲线段，然后从打开的菜单中选择**线性插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:359
+msgid "Using Speed In / Speed Out Interpolations"
+msgstr "使用缓入/缓出（速度）插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:361
+msgid "|function_editor_iSpeed|"
+msgstr "|function_editor_iSpeed|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:363
+msgid ""
+"When the interpolation is Speed In / Speed Out, both control points at the ends of the segment have handles whose direction and length define the slope of the curve, therefore the speed of the "
+"transformation. The handles direction and length can be set by entering values in the Interpolation area of the Function Editor, or by dragging the handles themselves."
+msgstr ""
+"当插值为缓入/缓出（速度）时，段两端的控制点都有控制柄，其方向和长度定义了曲线的斜率，从而定义了变换的速度。控制柄的方向和长度可以通过在函数编辑器的插值区域输入值来设置，也可以通过拖动控制柄本身来设置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:365
+msgid ""
+"By default the handles are linked, making their degree of movement dependent on adjacent segments in order to define a smooth curve, but the link can be broken in order to move the handle freely. For "
+"example if subsequent segments have the Speed In / Speed Out interpolation, the handles of the shared points share the same direction, but breaking the link each handle can have a different direction."
+msgstr ""
+"默认情况下，控制柄是链接的，使其移动程度依赖于相邻段以定义平滑曲线，但可以断开链接以便自由移动控制柄。例如，如果后续段具有缓入/缓出（速度）插值，则共享点的控制柄具有相同的方向，但断开链接后每个控制柄可"
+"以有不同的方向。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:367
+msgid "Handles can also be collapsed in control points in order to turn them into corner points; in this case to retrieve the handles it is possible to reset their length and direction."
+msgstr "控制柄也可以折叠到控制点中，以将其变成角点；在这种情况下，可以通过重置其长度和方向来恢复控制柄。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:369
+msgid "**To set a Speed In / Speed Out interpolation:**"
+msgstr "**设置缓入/缓出（速度）插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:373
+msgid "Choose **Speed In / Speed Out** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的下拉菜单中选择**缓入/缓出（速度）**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:375
+msgid "Right-click the curve segment you want to set the interpolation for, and choose **Speed In / Speed Out Interpolation** from the menu that opens."
+msgstr "右键单击要设置插值的曲线段，然后从打开的菜单中选择**缓入/缓出（速度）插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:377
+msgid "**To set the speed of the interpolation:**"
+msgstr "**设置插值的速度：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:379
+msgid "Select the keyframe at the beginning or at the end of the curve segment you want to edit, or the curve segment itself."
+msgstr "选择要编辑的曲线段开头或结尾的关键帧，或者曲线段本身。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:381
+msgid "Set the slope of the curve after or before the keyframe by doing one of the following:"
+msgstr "通过执行以下任一操作来设置关键帧之后或之前曲线的斜率："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:383
+msgid "Enter the **Speed In** and **Speed Out** direction and length values in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "在函数编辑器的插值区域中输入**缓入**和**缓出**的方向和长度值，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:385
+msgid "Click and drag the end of the handles to move them freely."
+msgstr "单击并拖动控制柄的末端以自由移动它们。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:387
+msgid "**Shift-click** and drag the end of the handles to move them with a constraint in the horizontal or vertical direction."
+msgstr "**Shift-单击**并拖动控制柄的末端，以在水平或垂直方向受约束地移动它们。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:389
+msgid "**To move a control point handle free from the adjacent segments:**"
+msgstr "**自由移动控制点控制柄（不受相邻段影响）：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:391
+msgid "Right-click the control point and choose **Unlink Handles** from the menu that opens."
+msgstr "右键单击控制点，然后从打开的菜单中选择**取消链接控制柄**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:393
+msgid "**To link back handles to adjacent segments:**"
+msgstr "**将控制柄重新链接到相邻段：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:395
+msgid "Right-click the control point and choose **Link Handles** from the menu that opens."
+msgstr "右键单击控制点，然后从打开的菜单中选择**链接控制柄**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:397
+msgid "**To turn a control point into a corner point:**"
+msgstr "**将控制点转换为角点：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:399
+msgid "Select the control point."
+msgstr "选择控制点。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:401
+msgid "Move the handle ends to the control point, in order to collapse them."
+msgstr "将控制柄末端移动到控制点，以便将其折叠。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:403
+msgid "**To retrieve handles from a corner point:**"
+msgstr "**从角点恢复控制柄：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:405
+msgid "Right-click the control point and choose **Reset Handles** from the menu that opens."
+msgstr "右键单击控制点，然后从打开的菜单中选择**重置控制柄**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:411
+msgid "Using Ease In / Ease Out Interpolations"
+msgstr "使用缓入/缓出插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:413
+msgid "|function_editor_iEase|"
+msgstr "|function_editor_iEase|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:415
+msgid ""
+"When the interpolation is Ease In / Ease Out, the segment is divided into three sections by two vertical lines: the first section is an acceleration, the second is at constant speed, the third is a "
+"deceleration. The duration in frames of each section can be set by entering values in the Interpolation area of the Function Editor, or by dragging the vertical lines available on the segment."
+msgstr ""
+"当插值为缓入/缓出时，该段被两条垂直线分为三个部分：第一部分是加速，第二部分是匀速，第三部分是减速。每个部分的帧持续时间可以通过在函数编辑器的插值区域输入值来设置，也可以通过拖动段上可用的垂直线来设置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:417
+msgid "**To set an Ease In / Ease Out interpolation:**"
+msgstr "**设置缓入/缓出插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:421
+msgid "Choose **Ease In / Ease Out** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的下拉菜单中选择**缓入/缓出**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:423
+msgid "Right-click the curve segment you want to set the transformation for, and choose **Ease In / Ease Out Interpolation** from the menu that opens."
+msgstr "右键单击要设置变换的曲线段，然后从打开的菜单中选择**缓入/缓出插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:425
+msgid "**To set the Ease In / Ease Out % interpolation:**"
+msgstr "**设置插值的缓入/缓出：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:427 ../../source/editing_curves_and_numerical_columns.rst:455
+msgid "Select the keyframe before or after the Ease In / Ease Out curve segment you want to edit, or the curve segment itself."
+msgstr "选择要编辑的缓入/缓出曲线段之前或之后的关键帧，或者曲线段本身。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:431 ../../source/editing_curves_and_numerical_columns.rst:459
+msgid "Enter the **Ease In** and **Ease Out** values in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "在函数编辑器的插值区域中输入**缓入**和**缓出**值，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:433
+msgid "Move the vertical line setting the Ease In or Ease Out section of the segment, to change the curve after or before the keyframe."
+msgstr "移动设置段缓入或缓出部分的垂直线，以更改关键帧之后或之前的曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:439
+msgid "Using Ease In / Ease Out % Interpolations"
+msgstr "使用缓入/缓出 % 插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:441
+msgid "|function_editor_iEasePer|"
+msgstr "|function_editor_iEasePer|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:443
+msgid "The Ease In / Ease Out % interpolation is similar to the Ease In / Ease Out one, but the Ease In and Ease Out sections of the segments are expressed as a percentage of the segment frame duration."
+msgstr "缓进/缓出百分比插值类似于缓进/易出插值，但分段的缓进和缓出部分表示为分段帧持续时间的百分比。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:445
+msgid "**To set an Ease In / Ease Out % interpolation:**"
+msgstr "**要设置缓进/缓出百分比插值，请执行以下操作：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:449
+msgid "Choose **Ease In / Ease Out %** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的下拉菜单中选择**缓入/缓出 %**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:451
+msgid "Right-click the curve segment you want to set the transformation for, and choose **Ease In / Ease Out % Interpolation** from the menu that opens."
+msgstr "右键单击要设置变换的曲线段，然后从打开的菜单中选择**缓入/缓出 % 插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:453
+msgid "**To set the Ease In / Ease Out % of the interpolation:**"
+msgstr "**要设置插值的缓进/缓出百分比，请执行以下操作：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:461
+msgid "Move the vertical line setting the Ease In or Ease Out section of the curve segment, to change the curve after or before the keyframe."
+msgstr "移动设置曲线段缓入或缓出部分的垂直线，以更改关键帧之后或之前的曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:467
+msgid "Using Exponential Interpolations"
+msgstr "使用指数插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:469
+msgid "|function_editor_iExpon|"
+msgstr "|function_editor_iExpon|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:471
+msgid ""
+"When the interpolation is **Exponential** the curve segment turns to a curve that continually becomes steeper, because of that, the higher the frame, the faster the related value grows. Only positive "
+"values are significant for this interpolation."
+msgstr "当插值为**指数**时，曲线段变为一条不断变陡的曲线，因此，帧数越高，相关值增长得越快。只有正值对此插值有意义。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:473
+msgid "**To set an Exponential interpolation:**"
+msgstr "**设置指数插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:477
+msgid "Choose **Exponential** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的下拉菜单中选择**指数**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:479
+msgid "Right-click the curve segment you want to set the transformation for, and choose **Exponential Interpolation** from the menu that opens."
+msgstr "右键单击要设置变换的曲线段，然后从打开的菜单中选择**指数插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:485
+msgid "Using Interpolations Based on Expressions"
+msgstr "使用基于表达式的插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:487
+msgid "|function_editor_iExpres|"
+msgstr "|function_editor_iExpres|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:489
+msgid ""
+"When the interpolation is defined by an Expression, the segment values come from a *mathematical formula* that can be typed by using algebra notations. In this case the keyframes at both ends of the "
+"segment may change as well, according to the typed expression."
+msgstr "当插值由表达式定义时，段值来自可以用代数符号键入的*数学公式*。在这种情况下，段两端的关键帧也可能会根据键入的表达式而改变。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:491
+msgid ""
+"While typing the expression, if the syntax is recognized, a menu automatically opens suggesting you the possible terms: from the menu you can select the term both to display in a tooltip box its "
+"correct syntax, and to insert it in the expression."
+msgstr "键入表达式时，如果语法被识别，将自动打开一个菜单，提示可能的项：您可以从菜单中选择该项，既可以在工具提示框中显示其正确语法，又可以将其插入到表达式中。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:493
+msgid ""
+"As soon as terms are recognized, different colors are used to highlight them: **operators and functions** are displayed in *dark blue*, **variables** in *light blue*, **constants** in *green*. When "
+"the expression is entered, any **syntax error** will be displayed in *red*."
+msgstr "一旦项被识别，就会使用不同的颜色来高亮显示它们：**运算符和函数**以*深蓝色*显示，**变量**以*浅蓝色*显示，**常量**以*绿色*显示。输入表达式时，任何**语法错误**将以*红色*显示。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:495
+msgid ""
+"The **Unit** used for the function is displayed in a box next to the expression; in case the unit refers to a movement, the default unit can be changed, and the values will be automatically converted "
+"to the default one."
+msgstr "函数使用的**单位**显示在表达式旁边的框中；如果单位指的是运动，可以更改默认单位，值将自动转换为默认单位。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:497
+msgid "Apart from the standard operators and functions, some variables and predefined functions can also be used in expressions."
+msgstr "除了标准运算符和函数外，表达式中还可以使用一些变量和预定义函数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:499 ../../source/editing_curves_and_numerical_columns.rst:648
+msgid "Supported terms are the following:"
+msgstr "支持的项如下："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:502
+msgid "**Operators**"
+msgstr "**运算符**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:504
+msgid "``+`` , ``-`` , ``*`` , ``/``"
+msgstr "``+`` , ``-`` , ``*`` , ``/``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:504
+msgid "Addition, Subtraction, Multiplication, Division"
+msgstr "加、减、乘、除"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:505
+msgid "``%``"
+msgstr "``%``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:505
+msgid "Modulus: ``10%6=4`` ."
+msgstr "取模：``10%6=4`` 。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:506
+msgid "``^``"
+msgstr "``^``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:506
+msgid "Exponentiation: ``a^2``  means ``a*a`` ; ``a^0.5``  is square root of ``a`` ."
+msgstr "幂运算：``a^2`` 表示 ``a*a``；``a^0.5`` 是 ``a`` 的平方根。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:512
+msgid "**Math Functions**"
+msgstr "**数学函数**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:514
+msgid "``sin(), cos(), tan(), atan(), atan2()``"
+msgstr "``sin(), cos(), tan(), atan(), atan2()``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:514
+msgid "Angles are expressed in degrees."
+msgstr "角度以度表示。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:515
+msgid "``sinh()`` , ``cosh()`` , ``tanh()``"
+msgstr "``sinh()`` , ``cosh()`` , ``tanh()``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:515
+msgid "Hyperbolic functions."
+msgstr "双曲函数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:516
+msgid "``log()`` , ``exp()``"
+msgstr "``log()`` , ``exp()``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:517
+msgid "``floor(value)``"
+msgstr "``floor(value)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:517
+msgid "The greatest whole number less or equal than ``value`` ."
+msgstr "小于或等于 ``value`` 的最大整数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:518
+msgid "``ceiling(value)``"
+msgstr "``ceiling(value)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:518
+msgid "The smallest whole number less or equal than ``value`` ."
+msgstr "小于或等于 ``value`` 的最小整数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:519
+msgid "``round(value)``"
+msgstr "``round(value)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:519
+msgid "The integer closest to ``value`` ."
+msgstr "最接近 ``value`` 的整数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:520
+msgid "``abs()``"
+msgstr "``abs()``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:520
+msgid "Absolute value: ``abs(a)``  is ``a``  without the sign."
+msgstr "绝对值：``abs(a)`` 是去掉符号的 ``a``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:521
+msgid "``sign(value)``"
+msgstr "``sign(value)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:521
+msgid "Returns 0 if ``value``  is 0; -1 if negative; 1 if positive."
+msgstr "如果 ``value`` 为 0 则返回 0；如果为负则返回 -1；如果为正则返回 1。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:522
+msgid "``sqrt(value)``"
+msgstr "``sqrt(value)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:522
+msgid "Returns square root of ``value`` ."
+msgstr "返回 ``value`` 的平方根。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:523
+msgid "``min(a,b,c,...)``"
+msgstr "``min(a,b,c,...)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:523
+msgid "Returns argument with minimum value."
+msgstr "返回具有最小值的参数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:524
+msgid "``max(a,b,c,...)``"
+msgstr "``max(a,b,c,...)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:524
+msgid "Returns argument with maximum value."
+msgstr "返回具有最大值的参数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:525
+msgid "``clamp(value,min,max)``"
+msgstr "``clamp(value,min,max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:525 ../../source/editing_curves_and_numerical_columns.rst:526
+msgid "Returns ``min``  if ``value``  is less than ``min`` ; ``max``  if ``value``  is greater than ``max`` ; otherwise it returns ``value`` ."
+msgstr "如果 ``value`` 小于 ``min`` 则返回 ``min``；如果 ``value`` 大于 ``max`` 则返回 ``max``；否则返回 ``value``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:526
+msgid "``crop(value,min,max)``"
+msgstr "``crop(value,min,max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:527
+msgid "``step(value,min)``"
+msgstr "``step(value,min)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:527
+msgid "Returns 0 if ``value``  is less than ``min`` , otherwise it returns 1."
+msgstr "如果 ``value`` 小于 ``min`` 则返回 0，否则返回 1。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:528
+msgid "``smoothstep(value,min,max)``"
+msgstr "``smoothstep(value,min,max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:528
+msgid "Returns 0 if ``value``  is less than ``min`` , 1 if ``value``  is greater than or equal to ``max`` , and perform a smooth interpolation between 0 and 1 in interval ``min``  to ``max`` ."
+msgstr "如果 ``value`` 小于 ``min`` 则返回 0，如果 ``value`` 大于或等于 ``max`` 则返回 1，并在 ``min`` 到 ``max`` 的区间内执行 0 到 1 的平滑插值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:534
+msgid "**Logical Operators**"
+msgstr "**逻辑运算符**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:536
+msgid "``<``"
+msgstr "``<``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:536
+msgid "Less"
+msgstr "小于"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:537
+msgid "``<=``"
+msgstr "``<=``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:537
+msgid "Less or equal."
+msgstr "小于或等于。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:538
+msgid "``>``"
+msgstr "``>``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:538
+msgid "More"
+msgstr "大于"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:539
+msgid "``>=``"
+msgstr "``>=``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:539
+msgid "More or equal."
+msgstr "大于或等于。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:540
+msgid "``==``"
+msgstr "``==``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:540
+msgid "Equal."
+msgstr "等于。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:541
+msgid "``!=``"
+msgstr "``!=``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:541
+msgid "Not equal."
+msgstr "不等于。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:547
+msgid "**Boolean Operators**"
+msgstr "**布尔运算符**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:549
+msgid "``&&``"
+msgstr "``&&``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:549
+msgid "And."
+msgstr "与。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:550
+msgid "``||``"
+msgstr "``||``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:550
+msgid "Or."
+msgstr "或。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:551
+msgid "``!``"
+msgstr "``!``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:551
+msgid "Not."
+msgstr "非。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:557
+msgid "**Conditional Expression**"
+msgstr "**条件表达式**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:559
+msgid "``(logical_expression)?value1:value2``"
+msgstr "``(logical_expression)?value1:value2``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:559
+msgid "If ``logical_expression``  is true, it returns ``value1`` , otherwise it returns ``value2`` ."
+msgstr "如果 ``logical_expression`` 为真，则返回 ``value1``，否则返回 ``value2``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:565
+msgid "**Variables**"
+msgstr "**变量**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:567
+msgid "``t``"
+msgstr "``t``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:567
+msgid "Ranges from 0.0 to 1.0 along the transition allowing position/lenght-independent transitions."
+msgstr "在过渡过程中从 0.0 到 1.0 变化，允许与位置/长度无关的过渡。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:568
+msgid "``f`` , ``frame``"
+msgstr "``f`` , ``frame``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:568
+msgid "The current frame number."
+msgstr "当前帧编号。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:569
+msgid "``r`` , ``rframe``"
+msgstr "``r`` , ``rframe``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:569
+msgid "It is relative to the transition."
+msgstr "相对于过渡。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:575
+msgid "**Constants**"
+msgstr "**常量**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:577
+msgid "``pi``"
+msgstr "``pi``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:577
+msgid "3.141593..."
+msgstr "3.141593..."
+
+#: ../../source/editing_curves_and_numerical_columns.rst:578
+msgid "numeric constant"
+msgstr "数值常量"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:578
+msgid "E.g. 1, 2, 4.3."
+msgstr "例如 1、2、4.3。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:584
+msgid "**Predefined Functions**"
+msgstr "**预定义函数**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:586
+msgid "``cycle(period)``"
+msgstr "``cycle(period)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:586
+msgid "Cycles the transition of the ``period``  previous frames."
+msgstr "循环前 ``period`` 帧的过渡。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:587
+msgid "``pulse(pos)`` , ``pulse(pos,length)``"
+msgstr "``pulse(pos)`` , ``pulse(pos,length)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:587
+msgid "Generates a pulse ranging from 0.0 to 1.0 set at position ``pos`` , with a different breadth depending on the ``length``  of the pulse itself."
+msgstr "生成一个设置在位置 ``pos``、范围从 0.0 到 1.0 的脉冲，其宽度取决于脉冲本身的 ``length``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:588
+msgid "``bump(pos)`` , ``bump(pos,length)``"
+msgstr "``bump(pos)`` , ``bump(pos,length)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:588
+msgid "Generates a bump ranging from 0.0 to 1.0 set at position ``pos`` , with a different breadth depending on the ``length``  of the bump itself."
+msgstr "生成一个设置在位置 ``pos``、范围从 0.0 到 1.0 的突起，其宽度取决于突起本身的 ``length``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:589
+msgid "``random``"
+msgstr "``random``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:589
+msgid "Generates random sequences between 0.0 and 1.0."
+msgstr "生成 0.0 到 1.0 之间的随机序列。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:590
+msgid "``random(max)``"
+msgstr "``random(max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:590
+msgid "Generates a random number between 0.0 and ``max`` ."
+msgstr "生成一个介于 0.0 和 ``max`` 之间的随机数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:591
+msgid "``random(min,max)``"
+msgstr "``random(min,max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:591
+msgid "Generates a random number between ``min``  and ``max`` ."
+msgstr "生成一个介于 ``min`` 和 ``max`` 之间的随机数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:592
+msgid "``random_s(seed)``"
+msgstr "``random_s(seed)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:592
+msgid "Works like random, but allows the user to specify the ``seed``  to modify the value of the ``random``  function."
+msgstr "工作方式类似于 random，但允许用户指定 ``seed`` 来修改 ``random`` 函数的值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:593
+msgid "``random_s(seed,max)``"
+msgstr "``random_s(seed,max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:593
+msgid "Like above, with ``max``  as the maximum value of the transition."
+msgstr "同上，``max`` 作为过渡的最大值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:594
+msgid "``random_s(seed,min,max)``"
+msgstr "``random_s(seed,min,max)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:594
+msgid "Like above, with ``min``  and ``max``  as the minimum and maximum values of the transition."
+msgstr "同上，``min`` 和 ``max`` 作为过渡的最小值和最大值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:595
+msgid "``saw(length)`` , ``saw(length,height)``"
+msgstr "``saw(length)`` , ``saw(length,height)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:595 ../../source/editing_curves_and_numerical_columns.rst:596
+msgid "Generates a periodic sawtooth shaped curve according to the ``length``  and ``height``  values; if ``height``  is not expressed it is assumed to be equal to ``length`` ."
+msgstr "根据 ``length`` 和 ``height`` 值生成周期性的锯齿形曲线；如果未指定 ``height``，则假定其等于 ``length``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:596
+msgid "``sawtooth(length)`` , ``sawtooth(length,height)``"
+msgstr "``sawtooth(length)`` , ``sawtooth(length,height)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:597
+msgid "``wave(length)``"
+msgstr "``wave(length)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:597
+msgid "The same as ``sin(f*2*pi/length)`` ."
+msgstr "与 ``sin(f*2*pi/length)`` 相同。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:602
+msgid ""
+"The predefined function ``saw`` , ``wave``  and ``pulse``  use implicitly a variable independent from the frame number. You can provide explicitly a variable using the form: ``fun (var; "
+"argument...)`` ."
+msgstr "预定义函数 ``saw``、``wave`` 和 ``pulse`` 隐式使用一个独立于帧编号的变量。您可以使用以下形式显式提供一个变量：``fun (var; argument...)``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:604
+msgid "**To set an interpolation based on an Expression:**"
+msgstr "**设置基于表达式的插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:608
+msgid "Choose **Expression** from the dropdown menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的下拉菜单中选择**表达式**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:610
+msgid "Right-click the curve segment you want to set the transformation for, and choose **Expression Interpolation** from the menu that opens."
+msgstr "右键单击要设置变换的曲线段，然后从打开的菜单中选择**表达式插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:612
+msgid "**To set the expression:**"
+msgstr "**设置表达式：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:614
+msgid "Type the expression in the Interpolation area of the Function Editor. As you type, if the syntax is recognized, a menu automatically opens suggesting you the possible terms."
+msgstr "在函数编辑器的插值区域中键入表达式。键入时，如果语法被识别，将自动打开一个菜单，提示可能的项。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:616
+msgid "Press **Enter** to submit the expression and check its syntax."
+msgstr "按 **Enter** 提交表达式并检查其语法。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:618
+msgid "If the expression refers to a movement, change the unit if needed."
+msgstr "如果表达式指的是运动，请根据需要更改单位。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:620
+msgid "Press the **Apply** button to apply the desired change."
+msgstr "按**应用**按钮以应用所需的更改。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:622
+msgid "**To select a suggested term:**"
+msgstr "**选择建议的项：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:626
+msgid "Use the **Up Arrow** and **Down Arrow** keys to select the term in the menu that opens, then press **Enter**."
+msgstr "使用**向上箭头**和**向下箭头**键在打开的菜单中选择项，然后按 **Enter**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:628
+msgid "Click the term in the menu that opens."
+msgstr "单击打开的菜单中的项。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:630
+msgid "When selecting a term with the Arrow keys a tooltip box displays the term correct syntax."
+msgstr "使用箭头键选择项时，工具提示框会显示该项的正确语法。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:636
+msgid "Using Transformation References"
+msgstr "使用变换引用"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:637
+msgid ""
+"It is possible to use in expressions references to any *object*, *effect* or *Plastic vertex* transformation. In this way, expressions can be used to create relationships between different "
+"transformations belonging to different items that can be of any of the aforementioned types."
+msgstr "可以在表达式中引用任何*对象*、*效果*或*Plastic 顶点*变换。这样，表达式可用于在不同项（可以是上述任何类型）的不同变换之间创建关系。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:639
+msgid "The syntax to create a reference to an object transformation is the following:"
+msgstr "创建对象变换引用的语法如下："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:641
+msgid "``object.transformation`` or ``object.transformation(delta)``"
+msgstr "``object.transformation`` 或 ``object.transformation(delta)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:643
+msgid ""
+"where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the *table*, as can be read in the Stage and FX Schematic nodes' tooltips; ``transformation`` can be any of its available "
+"transformations; and ``delta`` is the difference between the target frame and the current one."
+msgstr "其中 ``object`` 是*摄像机*、*列*、*定位钉*或*工作台*的 ID 名称，可在舞台和 FX 示意图节点的工具提示中读取；``transformation`` 可以是其任何可用的变换；``delta`` 是目标帧与当前帧之间的差值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:645
+msgid "For example ``camera1.y``  refers to the Y position of the Camera1. Whereas ``camera1.y(f-5)``  refers to the Y position of the Camera1, 5 frames before the current frame."
+msgstr "例如 ``camera1.y`` 指的是 Camera1 的 Y 位置。而 ``camera1.y(f-5)`` 指的是 Camera1 在当前帧前 5 帧的 Y 位置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:651
+msgid "**Objects**"
+msgstr "**对象**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:653
+msgid "``cam<n>`` , ``camera<n>``"
+msgstr "``cam<n>`` , ``camera<n>``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:653
+msgid "Refer to the camera ``n`` ."
+msgstr "指摄像机 ``n``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:654
+msgid "``col<n>``"
+msgstr "``col<n>``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:654
+msgid "Refers to the column ``n`` ."
+msgstr "指列 ``n``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:655
+msgid "``peg<n>`` , ``pegbar<n>``"
+msgstr "``peg<n>`` , ``pegbar<n>``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:655
+msgid "Refer to the pegbar ``n`` ."
+msgstr "指定位钉 ``n``。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:656
+msgid "``tab`` , ``table``"
+msgstr "``tab`` , ``table``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:656
+msgid "Refer to the table."
+msgstr "指工作台。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:662
+msgid "**Transformations**"
+msgstr "**变换**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:664
+msgid "``x`` , ``y``"
+msgstr "``x`` , ``y``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:664
+msgid "Refer to the horizontal and vertical position."
+msgstr "指水平和垂直位置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:665
+msgid "``path`` , ``pos``"
+msgstr "``path`` , ``pos``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:665
+msgid "Refer to the position along the motion path."
+msgstr "指沿运动路径的位置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:666
+msgid "``rot``"
+msgstr "``rot``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:666
+msgid "Refers to the rotation around the z axis."
+msgstr "指围绕 z 轴的旋转。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:667
+msgid "``scale`` , ``scaleh`` , ``scalev``"
+msgstr "``scale`` , ``scaleh`` , ``scalev``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:667
+msgid "Refer to the global, horizontal and vertical scaling."
+msgstr "指全局、水平和垂直缩放。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:668
+msgid "``shearh`` , ``shearv``"
+msgstr "``shearh`` , ``shearv``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:668
+msgid "Refer to the horizontal and vertical shear."
+msgstr "指水平和垂直剪切。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:669
+msgid "``z``"
+msgstr "``z``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:669
+msgid "Refers to the position along the z axis."
+msgstr "指沿 z 轴的位置。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:673
+msgid "The syntax to create a reference to an effect parameter is the following:"
+msgstr "创建效果参数引用的语法如下："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:675
+msgid "``fx.name.parameter`` or ``fx.name.parameter(delta)``"
+msgstr "``fx.name.parameter`` 或 ``fx.name.parameter(delta)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:677
+msgid ""
+"where ``name``  is the ID name of an *effect*, as can be read in the FX Schematic nodes' tooltips, ``parameter`` is any of the available effect parameters, and ``delta`` is the difference between the "
+"target frame and the current one."
+msgstr "其中 ``name`` 是*效果*的 ID 名称，可在 FX 示意图节点的工具提示中读取，``parameter`` 是任何可用的效果参数，``delta`` 是目标帧与当前帧之间的差值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:679
+msgid "When an effect parameter has multiple sub-parameters, for example the Center parameter has X and Y sub-parameters, the syntax has to be the following:"
+msgstr "当效果参数有多个子参数时，例如 Center 参数有 X 和 Y 子参数，语法必须如下："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:681
+msgid "``fx.name.parameter.subparameter`` or ``fx.name.parameter.subparameter(delta)``"
+msgstr "``fx.name.parameter.subparameter`` 或 ``fx.name.parameter.subparameter(delta)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:683
+msgid ""
+"where ``name``  can be any used effect, ``parameter``  the main effect parameter, ``subparameter``  is the effect sub-parameter, and ``delta`` is the difference between the target frame and the "
+"current one."
+msgstr "其中 ``name`` 可以是任何使用的效果，``parameter`` 是主要效果参数，``subparameter`` 是效果子参数，``delta`` 是目标帧与当前帧之间的差值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:685
+msgid ""
+"For example ``fx.blur2.value``  refers to the Value parameter of the effect Blur2; ``fx.blur2.value(f-5)``  refers to the Value parameter of the effect Blur2, 5 frames before the current frame; and "
+"``fx.raylit1.center.x``  refers to the X sub-parameter of the Center parameter of the effect Raylit1."
+msgstr ""
+"例如 ``fx.blur2.value`` 指的是效果 Blur2 的 Value 参数；``fx.blur2.value(f-5)`` 指的是效果 Blur2 在当前帧前 5 帧的 Value 参数；``fx.raylit1.center.x`` 指的是效果 Raylit1 的 Center 参数的 X 子参数。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:687
+msgid "If the effect parameter name consists of several words, they have to be typed in expressions *without* blank spaces."
+msgstr "如果效果参数名称由多个单词组成，则必须在表达式中键入*不带*空格的名称。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:690
+msgid "The syntax to create a reference to a Plastic vertex transformation is the following:"
+msgstr "创建 Plastic 顶点变换引用的语法如下："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:692
+msgid "``vertex(column_number, \"vertex_name\").transformation`` or ``vertex(column_number, \"vertex_name\").transformation(delta)``"
+msgstr "``vertex(column_number, \"vertex_name\").transformation`` 或 ``vertex(column_number, \"vertex_name\").transformation(delta)``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:694
+msgid ""
+"where ``column_number``  is the ID number of the *column* in which the referenced vertex exist, ``vertex_name``  is the exact name of the referenced Plastic vertex, ``transformation``  is any of the "
+"available vertex transformations (see below), and ``delta`` is the difference between the target frame and the current one."
+msgstr "其中 ``column_number`` 是引用顶点所在的*列*的 ID 编号，``vertex_name`` 是引用的 Plastic 顶点的确切名称，``transformation`` 是任何可用的顶点变换（见下文），``delta`` 是目标帧与当前帧之间的差值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:697
+msgid "**Plastic Vertex Transformations**"
+msgstr "**Plastic 顶点变换**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:699
+msgid "``angle``"
+msgstr "``angle``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:699
+msgid "Refers to the angle between the vertex and its parent."
+msgstr "指顶点与其父级之间的角度。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:700
+msgid "``distance``"
+msgstr "``distance``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:700
+msgid "Refers to the distance between the vertex and its parent."
+msgstr "指顶点与其父级之间的距离。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:701
+msgid "``so``"
+msgstr "``so``"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:701
+msgid "Refers to the vertex sorting order."
+msgstr "指顶点排序顺序。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:704
+msgid "See :ref:`Use Mathematical Expression in Plastic Animation <use_mathematical_expression_in_plastic_animation>` for further details on animating a Plastic mesh using expressions."
+msgstr "有关使用表达式对 Plastic 网格进行动画处理的更多详细信息，请参见：ref：`在 Plastic 动画中使用数学表达式 <use_mathematical_expression_in_plastic_animation>`。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:710
+msgid "Using Interpolations Based on File Data"
+msgstr "使用基于文件数据的插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:712
+msgid "|function_editor_iFile|"
+msgstr "|function_editor_iFile|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:714
+msgid ""
+"When an interpolation is based on File data, the segment values are retrieved from the contents of a file. In this case the keyframes at both ends of the segment may change as well, according to the "
+"file data."
+msgstr "当插值基于文件数据时，段值从文件内容中检索。在这种情况下，段两端的关键帧也可能会根据文件数据而改变。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:716
+msgid "The file can be created by an external device or other applications, such as motion-control cameras or 3D software; supported file formats are BAT, DAT, RTF and TXT."
+msgstr "该文件可以由外部设备或其他应用程序创建，例如运动控制摄像机或 3D 软件；支持的文件格式为 BAT、DAT、RTF 和 TXT。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:718
+msgid "The value for each frame is taken from the file content, that must consist of a series of numbers listed in several lines."
+msgstr "每一帧的值都取自文件内容，该内容必须由列在多行中的一系列数字组成。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:720
+msgid "In case the file contains several values in each line, it is possible to define which value in each line has to be used by specifying a column number. For example, if you have a file like this:"
+msgstr "如果文件中每行包含多个值，则可以通过指定列号来定义必须使用每行中的哪个值。例如，如果您有一个如下文件："
+
+#: ../../source/editing_curves_and_numerical_columns.rst:722
+msgid "100, 200, 300"
+msgstr "100, 200, 300"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:724
+msgid "101, 201, 301"
+msgstr "101, 201, 301"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:726
+msgid "102, 202, 302"
+msgstr "102, 202, 302"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:728
+msgid "the value 2 will cause 200, 201, 202 to be loaded."
+msgstr "值 2 将导致加载 200、201、202。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:730
+msgid ""
+"The unit used for the data is displayed in a box next to the file path; in case the unit refers to a movement, the default unit can be changed, and the values will be automatically converted to the "
+"default one."
+msgstr "数据使用的单位显示在文件路径旁边的框中；如果单位指的是运动，可以更改默认单位，值将自动转换为默认单位。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:732
+msgid "**To set an interpolation based on File data:**"
+msgstr "**设置基于文件数据的插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:736
+msgid "Choose **File** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的选项菜单中选择**文件**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:738
+msgid "Right-click the curve segment you want to set the transformation for, and choose **File Interpolation** from the menu that opens."
+msgstr "右键单击要设置变换的曲线段，然后从打开的菜单中选择**文件插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:740
+msgid "**To set the File information:**"
+msgstr "**设置文件信息：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:742
+msgid "Type in the **File Path** field, or use the browser button, to set the path to the data file."
+msgstr "在**文件路径**字段中键入，或使用浏览器按钮，以设置数据文件的路径。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:744
+msgid "Specify which value in each line has to be used by specifying the **Column** number."
+msgstr "通过指定**列**号来指定必须使用每行中的哪个值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:746
+msgid "If the File data refers to a movement, change the unit if needed."
+msgstr "如果文件数据指的是运动，请根据需要更改单位。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:748
+msgid ""
+"If in the Browser you choose any project default folder, in the path field the full path will be replaced by the related default folder alias (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr "如果在浏览器中选择任何项目默认文件夹，则路径字段中的完整路径将被相关的默认文件夹别名替换（参见 ：ref：`项目默认文件夹 <project_default_folders>`）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:754
+msgid "Using Constant Interpolations"
+msgstr "使用常数插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:756
+msgid "|function_editor_iConst|"
+msgstr "|function_editor_iConst|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:758
+msgid "When an interpolation is **Constant**, the segment values are always equal to the value of the first key defining the segment."
+msgstr "当插值为**常数**时，段值始终等于定义该段的第一个关键帧的值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:760
+msgid "**To set a Constant interpolation:**"
+msgstr "**设置常数插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:764
+msgid "Choose **Constant** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的选项菜单中选择**常数**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:766
+msgid "Right-click the curve segment you want to set the interpolation for, and choose **Constant Interpolation** from the menu that opens."
+msgstr "右键单击要设置插值的曲线段，然后从打开的菜单中选择**常数插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:772
+msgid "Using Interpolations Based on Similar Shapes"
+msgstr "使用基于相似形状的插值"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:774
+msgid "|function_editor_iSimilar|"
+msgstr "|function_editor_iSimilar|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:776
+msgid ""
+"When the interpolation is based on a Similar Shape, the segment values changes according to the shape of the curve you specify as reference (see  :ref:`Using Transformation References "
+"<using_transformation_references>`  ). As soon as the interpolation is set, whenever the reference curve is edited, the segment will change accordingly."
+msgstr "当插值基于相似形状时，段值根据指定为参考的曲线形状而变化（参见 ：ref：`使用变换引用 <using_transformation_references>`）。一旦设置了插值，每当参考曲线被编辑时，段也会相应更改。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:778
+msgid ""
+"This interpolation proves useful when you want to control at once several curves: if all of them share the same reference curve, by modifying the reference curve you will modify automatically all the "
+"curves referring to it."
+msgstr "当您想同时控制多条曲线时，此插值非常有用：如果它们都共享同一条参考曲线，则通过修改参考曲线，将自动修改所有引用它的曲线。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:780
+msgid "It is also possible to set a **Frame Offset** value so that the interpolation will refer not to the same frame range of the reference curve, but to a different one."
+msgstr "还可以设置**帧偏移**值，以便插值将引用参考曲线不同的帧范围，而非相同的帧范围。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:782
+msgid "**To set an interpolation based on a Similar Shape:**"
+msgstr "**设置基于相似形状的插值：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:786
+msgid "Choose **Similar Shape** from the option menu available in the Interpolation area of the Function Editor and click the **Apply** button."
+msgstr "从函数编辑器插值区域中可用的选项菜单中选择**相似形状**，然后单击**应用**按钮。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:788
+msgid "Right-click the curve segment you want to set the transformation for, and choose **Similar Shape Interpolation** from the menu that opens."
+msgstr "右键单击要设置变换的曲线段，然后从打开的菜单中选择**相似形状插值**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:790
+msgid "**To set the reference curve:**"
+msgstr "**设置参考曲线：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:792
+msgid ""
+"Set the **Reference Curve:** in the Interpolation area of the Function Editor by typing the reference to an object or an effect transformation by using the appropriate syntax (see  :ref:`Using "
+"Transformation References <using_transformation_references>`  )."
+msgstr "在函数编辑器的插值区域中设置**参考曲线：**，通过使用适当的语法键入对对象或效果变换的引用（参见 ：ref：`使用变换引用 <using_transformation_references>`）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:794
+msgid "Set a **Frame Offset** in the Interpolation area of the Function Editor if you want the interpolation to refer not to the same frame range of the reference curve, but to a different one."
+msgstr "如果您希望插值引用参考曲线不同的帧范围，而非相同的帧范围，请在函数编辑器的插值区域中设置**帧偏移**。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:802
+msgid "Controlling Several Function Curves at the Same Time"
+msgstr "同时控制多条函数曲线"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:803
+msgid ""
+"It's possible to control the keys and the interpolations of all the function curves visualized in the Function Editor by using widgets available in a horizontal strip at the top of the **Graph "
+"Editor** area, below the frame ruler."
+msgstr "可以使用**图形编辑器**区域顶部、帧标尺下方水平条中可用的小部件，控制函数编辑器中可视化的所有函数曲线的关键帧和插值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:805
+msgid "This allows you to define keys and control the interpolation speed for different curves at the same time, such as a camera truck and pan, or an effect animation and a pegbar movement."
+msgstr "这允许您同时为不同的曲线定义关键帧并控制插值速度，例如摄像机推拉和平移，或效果动画和定位钉移动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:807
+msgid ""
+"With respect to keys, a keyframe is visible in the strip for each keyframe defined for any curve visible in the Graph Editor; a line connects the keyframes for all the frames where there is an "
+"animation going on. The strip keyframe can be moved, automatically moving the keyframes it refers to; in case the strip keyframe refers to keyframes at the same frame in several curves, all the "
+"keyframes will move along."
+msgstr ""
+"关于关键帧，条带中为图形编辑器中可见的任何曲线定义的每个关键帧都显示一个关键帧；一条线连接所有正在进行动画的帧的关键帧。可以移动条带关键帧，自动移动其引用的关键帧；如果条带关键帧引用多条曲线中同一帧的"
+"关键帧，则所有关键帧都将随之移动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:809
+msgid ""
+"With respect to interpolation, if all the visible curves have a key at the same specific frame, and the segment on the side of the key has the same **Ease In / Ease Out** value or the same **Speed "
+"In / Speed Out** horizontal component, a marker will be visible in the strip on the side of the strip keyframes. The marker shaped as an *opening square bracket* is for the segment to the right of the "
+"keyframe, the one shaped like a *closing square bracket* is for the segment on the left of the keyframe. The markers can be moved, automatically changing the **Ease In / Ease Out** or the **Speed In / "
+"Speed Out** values of all the segments they refer to."
+msgstr ""
+"关于插值，如果所有可见曲线在同一个特定帧都有关键帧，并且关键帧一侧的段具有相同的**缓入/缓出**值或相同的**缓入/缓出（速度）**水平分量，则条带关键帧一侧的条带中会显示一个标记。形状为*左方括号*的标记用于"
+"关键帧右侧的段，形状为*右方括号*的标记用于关键帧左侧的段。可以移动这些标记，自动更改它们所引用的所有段的**缓入/缓出**或**缓入/缓出（速度）**值。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:811
+msgid "**To set which curves have to be controlled:**"
+msgstr "**设置要控制哪些曲线：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:813
+msgid "Display the curves in the Graph Editor (see  :ref:`Using the Graph Editor <using_function_curves>`  )."
+msgstr "在图形编辑器中显示曲线（参见 ：ref：`使用图形编辑器 <using_function_curves>`）。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:817
+msgid "Ctrl-click (PC) or Cmd-click (Mac) the frame ruler where you want to add the keyframe: a keyframe will be added to all the visible curves."
+msgstr "Ctrl-单击（PC）或 Cmd-单击（Mac）要添加关键帧的帧标尺位置：将向所有可见曲线添加关键帧。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:821
+msgid "Click and drag the strip keyframe: all the keyframes it refers to will move along."
+msgstr "单击并拖动条带关键帧：其引用的所有关键帧都将随之移动。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:823
+msgid "**To control the speed of the interpolation:**"
+msgstr "**控制插值的速度：**"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:825
+msgid "Move the markers visible on the sides of the strip keyframes."
+msgstr "移动条带关键帧两侧可见的标记。"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:829
+msgid "Example expressions"
+msgstr "表达式示例"

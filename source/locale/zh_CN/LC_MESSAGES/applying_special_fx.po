@@ -1,0 +1,2986 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 21:35+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/applying_special_fx.rst:4
+msgid "Applying Effects"
+msgstr "应用特效"
+
+#: ../../source/applying_special_fx.rst:5
+msgid "Effects can be applied to animation levels, images and clips exposed in Xsheet columns (or Timeline layers) in the **FX Schematic**, where each element is represented as a node."
+msgstr "特效可以应用到在**特效示意图**中显示的动画层、图像和剪辑上（通过Xsheet列或时间轴图层），其中每个元素都表示为一个节点。"
+
+#: ../../source/applying_special_fx.rst:7
+msgid "The relationship between the contents of columns/layers and effects can be managed by connecting or disconnecting links between nodes."
+msgstr "列/图层内容与特效之间的关系可以通过连接或断开节点之间的链接来管理。"
+
+#: ../../source/applying_special_fx.rst:9
+msgid "|dwanko_before_fx| |dwanko_after_fx|"
+msgstr "|dwanko_before_fx| |dwanko_after_fx|"
+
+#: ../../source/applying_special_fx.rst:15
+msgid "Using the FX Schematic"
+msgstr "使用特效示意图"
+
+#: ../../source/applying_special_fx.rst:16
+msgid "In the FX schematic all columns/layers are displayed as nodes having an output port connected to the Xsheet node: this means that their content is part of the scene and is rendered as it is."
+msgstr "在特效示意图中，所有列/图层都显示为节点，其输出端口连接到Xsheet节点：这意味着它们的内容是场景的一部分，并按原样渲染。"
+
+#: ../../source/applying_special_fx.rst:18
+msgid "When effects are added, they are displayed as nodes as well, with ports to create links that let you set the way the effect modify the scene contents."
+msgstr "当添加特效时，它们也显示为节点，带有用于创建链接的端口，这些链接让你可以设置特效修改场景内容的方式。"
+
+#: ../../source/applying_special_fx.rst:20
+msgid ""
+"Column/layer nodes have the **Camera Stand** (|camera_stand|) and the **Render** (|preview|) toggles on the top right: these toggles are the same as the toggles available in the Xsheet column (or "
+"Timeline layer) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). Effects nodes only have the **Render** toggle (|preview|) allowing you to include or exclude "
+"temporarily the effect in the rendering."
+msgstr ""
+"列/图层节点右上角有**拍摄台** (|camera_stand|) 和**渲染** (|preview|) 切换按钮：这些切换按钮与Xsheet列（或时间轴图层）标题中的切换按钮相同（参见 :ref:`处理Xsheet列 <working_with_xsheet_columns>`）。特"
+"效节点只有**渲染**切换按钮 (|preview|)，允许你临时在渲染中包含或排除该特效。"
+
+#: ../../source/applying_special_fx.rst:22
+msgid "Nodes can be easily selected and arranged. When selected, nodes are highlighted in *white*; the *current* node has its label in *yellow*."
+msgstr "节点可以轻松选择和排列。选中时，节点以*白色*高亮显示；*当前*节点的标签显示为*黄色*。"
+
+#: ../../source/applying_special_fx.rst:24
+msgid "**To access the FX Schematic:**"
+msgstr "**要访问特效示意图：**"
+
+#: ../../source/applying_special_fx.rst:26
+msgid "Click the Schematic toggle button (|schematic|) at the right of the bottom bar of the Schematic window until the title bar displays **FX Schematic**."
+msgstr "点击示意图窗口底部栏右侧的示意图切换按钮 (|schematic|)，直到标题栏显示**特效示意图**。"
+
+#: ../../source/applying_special_fx.rst:28
+msgid "**To navigate the FX Schematic:**"
+msgstr "**要在特效示意图中导航：**"
+
+#: ../../source/applying_special_fx.rst:30 ../../source/applying_special_fx.rst:50 ../../source/applying_special_fx.rst:58 ../../source/applying_special_fx.rst:85
+#: ../../source/applying_special_fx.rst:144 ../../source/applying_special_fx.rst:152 ../../source/applying_special_fx.rst:164 ../../source/applying_special_fx.rst:174
+#: ../../source/applying_special_fx.rst:184 ../../source/applying_special_fx.rst:227 ../../source/applying_special_fx.rst:245 ../../source/applying_special_fx.rst:253
+#: ../../source/applying_special_fx.rst:269 ../../source/applying_special_fx.rst:314 ../../source/applying_special_fx.rst:322 ../../source/applying_special_fx.rst:338
+#: ../../source/applying_special_fx.rst:384 ../../source/applying_special_fx.rst:396 ../../source/applying_special_fx.rst:406 ../../source/applying_special_fx.rst:424
+#: ../../source/applying_special_fx.rst:464 ../../source/applying_special_fx.rst:506 ../../source/applying_special_fx.rst:602
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/applying_special_fx.rst:32 ../../source/applying_special_fx.rst:466
+msgid "Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** keys) to zoom in and zoom out."
+msgstr "使用鼠标滚轮或缩放快捷键（默认是 **+** 和 **-** 键）进行放大和缩小。"
+
+#: ../../source/applying_special_fx.rst:34 ../../source/applying_special_fx.rst:468
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "中键点击并拖动可在任意方向滚动。"
+
+#: ../../source/applying_special_fx.rst:36
+msgid "Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the Schematic window to display all of the nodes in the current window."
+msgstr "使用示意图窗口底部栏中的**适应窗口**按钮 (|fit_to_window|) 可在当前窗口中显示所有节点。"
+
+#: ../../source/applying_special_fx.rst:38
+msgid "Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the Schematic window to center the Schematic on the current node."
+msgstr "使用示意图窗口底部栏中的**聚焦当前**按钮 (|focus_on_current|) 可将示意图视图居中于当前节点。"
+
+#: ../../source/applying_special_fx.rst:40
+msgid "Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the Schematic window to reorder all the nodes."
+msgstr "使用示意图窗口底部栏中的**重排节点**按钮 (|reorder_nodes|) 可重新排列所有节点。"
+
+#: ../../source/applying_special_fx.rst:42
+msgid ""
+"Use the **Reset Size** button (|reset|) in the bottom bar of the Schematic window, or use the **Reset View** shortcut (by default the **Alt + 0** key) to display all of the nodes at the default size."
+msgstr "使用示意图窗口底部栏中的**重置大小**按钮 (|reset|)，或使用**重置视图**快捷键（默认是 **Alt + 0** 键），可按默认大小显示所有节点。"
+
+#: ../../source/applying_special_fx.rst:44 ../../source/applying_special_fx.rst:190
+msgid "**To rename a node:**"
+msgstr "**要重命名节点：**"
+
+#: ../../source/applying_special_fx.rst:46
+msgid "Ctrl + double-click the node name and type a new name."
+msgstr "Ctrl + 双击节点名称，然后输入新名称。"
+
+#: ../../source/applying_special_fx.rst:48
+msgid "**To minimize or maximize the column/layer and effect nodes:**"
+msgstr "**要最小化或最大化列/图层和特效节点：**"
+
+#: ../../source/applying_special_fx.rst:52
+msgid "Click the arrowhead to the left of the node name to minimize/maximize columns selectively."
+msgstr "点击节点名称左侧的箭头可选择性最小化/最大化列。"
+
+#: ../../source/applying_special_fx.rst:54
+msgid "Click the **Minimize/Maximize** (|minimize|/|maximize|) button in the bottom bar of the Schematic window to minimize/maximize all the column nodes."
+msgstr "点击示意图窗口底部栏中的**最小化/最大化**按钮 (|minimize|/|maximize|) 可最小化/最大化所有列节点。"
+
+#: ../../source/applying_special_fx.rst:56
+msgid "**To select nodes:**"
+msgstr "**要选择节点：**"
+
+#: ../../source/applying_special_fx.rst:60
+msgid "Click to select a node."
+msgstr "点击选择一个节点。"
+
+#: ../../source/applying_special_fx.rst:62
+msgid "Click and drag to select a group of nodes."
+msgstr "点击并拖拽以选择一组节点。"
+
+#: ../../source/applying_special_fx.rst:64
+msgid "Ctrl-click (PC) or Cmd-click (macOS) to add a node to, or remove it from the selection."
+msgstr "Ctrl-点击（PC）或 Cmd-点击（macOS）可将节点添加到选区或从选区中移除。"
+
+#: ../../source/applying_special_fx.rst:66
+msgid "*Links* can be selected together with nodes (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  )."
+msgstr "*链接*可以与节点一起选择（参见 :ref:`编辑特效示意图 <editing_the_fx_schematic>`）。"
+
+#: ../../source/applying_special_fx.rst:68
+msgid "**To move the selection:**"
+msgstr "**要移动选区：**"
+
+#: ../../source/applying_special_fx.rst:70
+msgid "Click and drag any node of the selection."
+msgstr "点击并拖拽选区中的任意节点。"
+
+#: ../../source/applying_special_fx.rst:72
+msgid "**To include or exclude temporally an effect from the rendering:**"
+msgstr "**要临时在渲染中包含或排除一个特效：**"
+
+#: ../../source/applying_special_fx.rst:74
+msgid "Click the **Render** toggle (|preview|) on the upper right corner of the effect node."
+msgstr "点击特效节点右上角的**渲染**切换按钮 (|preview|)。"
+
+#: ../../source/applying_special_fx.rst:80
+msgid "Grouping Nodes"
+msgstr "节点编组"
+
+#: ../../source/applying_special_fx.rst:81
+msgid ""
+"It's possible to group several nodes into one single node, in order to better manage the whole FX Schematic. Groups can be opened to be examined and edited, and its components can be selected for "
+"further operations, like editing effect settings, or creating new groups."
+msgstr "可以将多个节点编组为一个单独的节点，以便更好地管理整个特效示意图。可以打开组进行检查和编辑，也可以选择其组件进行进一步操作，如编辑特效设置或创建新组。"
+
+#: ../../source/applying_special_fx.rst:83
+msgid "**To Group selected nodes:**"
+msgstr "**要将选中的节点编组：**"
+
+#: ../../source/applying_special_fx.rst:87
+msgid "Right-click any selected node and choose **Group** from the menu that opens."
+msgstr "右键点击任意选中的节点，从弹出的菜单中选择**编组**。"
+
+#: ../../source/applying_special_fx.rst:89
+msgid "Press the **Ctrl-G** (PC) or **Cmd-G** (macOS) shortcut."
+msgstr "按下 **Ctrl-G**（PC）或 **Cmd-G**（macOS）快捷键。"
+
+#: ../../source/applying_special_fx.rst:91
+msgid "**To open a Group:**"
+msgstr "**要打开一个组：**"
+
+#: ../../source/applying_special_fx.rst:93
+msgid "Right-click the group and choose **Open Group** from the menu that opens: the group nodes are displayed in a box, showing links between group nodes, and links with nodes outside of the group."
+msgstr "右键点击组，从弹出的菜单中选择**打开组**：组节点显示在一个框内，展示组节点之间的链接以及与组外节点的链接。"
+
+#: ../../source/applying_special_fx.rst:95
+msgid "In the FX Schematic, when the content of a group is displayed, it's possible to edit the links between Group nodes and links with nodes outside of the group."
+msgstr "在特效示意图中，当组的内容显示时，可以编辑组内节点之间以及与组外节点的链接。"
+
+#: ../../source/applying_special_fx.rst:97
+msgid "**To close a Group:**"
+msgstr "**要关闭一个组：**"
+
+#: ../../source/applying_special_fx.rst:99
+msgid "Click the **Close** button on the right of the group box title bar."
+msgstr "点击组框标题栏右侧的**关闭**按钮。"
+
+#: ../../source/applying_special_fx.rst:101
+msgid "**To release a Group:**"
+msgstr "**要释放一个组（取消编组）：**"
+
+#: ../../source/applying_special_fx.rst:103
+msgid "Right-click the Group and choose **Ungroup** from the menu that opens, or press the shortcut **Ctrl-Shift-G** (PC) or **Cmd-Shift-G** (macOS)."
+msgstr "右键点击组，从弹出的菜单中选择**取消编组**，或按下快捷键 **Ctrl-Shift-G**（PC）或 **Cmd-Shift-G**（macOS）。"
+
+#: ../../source/applying_special_fx.rst:109
+msgid "Inserting Effects"
+msgstr "插入特效"
+
+#: ../../source/applying_special_fx.rst:110
+msgid ""
+"You can **Insert** effects to selected nodes, **Add** effects to the Schematic, or **Replace** previously added effect nodes. This can be done from the **FX Browser** window or by using the drop-down "
+"menu that opens when right-clicking nodes or an empty area of the FX Schematic. Both are organized in folders/submenus containing sets of effects; if some *Presets* are defined for an effect, an "
+"additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  )."
+msgstr ""
+"你可以向选定的节点**插入**特效、向示意图**添加**特效或**替换**先前添加的特效节点。这可以通过**特效浏览器**窗口，或通过右键点击节点或特效示意图空白区域时弹出的下拉菜单来完成。两者都按包含特效集的文件"
+"夹/子菜单进行组织；如果为某个特效定义了一些*预设*，则会有一个额外的文件夹/子菜单可用（参见 :ref:`创建预设 <creating_presets>`）。"
+
+#: ../../source/applying_special_fx.rst:112
+msgid "|FX_Browser|"
+msgstr "|FX_Browser|"
+
+#: ../../source/applying_special_fx.rst:114
+msgid ""
+"When *inserting* effects, they will be placed along the link that starts from the selected node output port; when *adding* effects, they will be placed at the end of a new link that will start from "
+"the selected node output port."
+msgstr "*插入*特效时，它们将放置在从选定节点输出端口开始的链接上；*添加*特效时，它们将放置在从选定节点输出端口开始的新链接的末端。"
+
+#: ../../source/applying_special_fx.rst:116
+msgid ""
+"In case several nodes are selected, the effect will be added/inserted for *each* selected node, but all the added/inserted effects will be *Linked*, and connected visually by a *green* line. This "
+"means that every time the effect is edited, all the linked nodes will be edited as well, unless you break the link to start editing them separately."
+msgstr ""
+"如果选中了多个节点，特效将被添加/插入到*每个*选定的节点，但所有添加/插入的特效将是*链接的*，并通过一条*绿色*线视觉连接。这意味着每次编辑该特效时，所有链接的节点也会被编辑，除非你断开链接以开始单独编辑"
+"它们。"
+
+#: ../../source/applying_special_fx.rst:118
+msgid "To globally apply effects it's possible to use the **Xsheet** node as if it were a standard column node (representing the whole content of the scene) and inserting effects from there."
+msgstr "要全局应用特效，可以使用**Xsheet**节点，就像它是一个标准列节点（代表场景的整个内容）一样，并从此处插入特效。"
+
+#: ../../source/applying_special_fx.rst:120
+msgid "Three different types of effects can be used in the Schematic, each with a different type of node:"
+msgstr "示意图中可以使用三种不同类型的特效，每种对应不同类型的节点："
+
+#: ../../source/applying_special_fx.rst:122
+msgid ""
+"**Basic effects**, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled *Source*, and an output port on "
+"the right."
+msgstr "**基础特效**，例如模糊特效，仅修改列的内容；它们显示为一个黄色的节点，左侧有一个输入端口，标记为*源*，右侧有一个输出端口。"
+
+#: ../../source/applying_special_fx.rst:124
+msgid "|Basic_FX_Example|"
+msgstr "|Basic_FX_Example|"
+
+#: ../../source/applying_special_fx.rst:126
+msgid ""
+"To affect a column/layer, they have to be inserted in the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the effect input port, and the effect node "
+"output port is connected to the Xsheet node."
+msgstr "要影响列/图层，必须将它们插入到从列/图层节点到Xsheet节点的链接中，这样列/图层节点就连接到特效的输入端口，而特效节点的输出端口则连接到Xsheet节点。"
+
+#: ../../source/applying_special_fx.rst:128
+msgid "If several effects are applied in a chain, they will be applied one after the other, following the order from the column/layer node to the Xsheet node."
+msgstr "如果多个特效以链式应用，它们将按照从列/图层节点到Xsheet节点的顺序依次应用。"
+
+#: ../../source/applying_special_fx.rst:130
+msgid ""
+"**Combined effects**, such as the Matte In effect, that modify the column/layer contents according to the contents other columns/layers; they are displayed with a yellow node with two or more input "
+"ports on the left, and one output port on the right."
+msgstr "**组合特效**，例如遮罩内效果，根据其他列/图层的内容来修改列/图层的内容；它们显示为一个黄色的节点，左侧有两个或更多输入端口，右侧有一个输出端口。"
+
+#: ../../source/applying_special_fx.rst:132
+msgid ""
+"To affect a column/layer, they have to be inserted into the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the first effect input port labelled "
+"*Source*, while the other columns/layers are connected to the other input ports, whose labels depend on the effect; the effect node output port has to be connected to the Xsheet node."
+msgstr ""
+"要影响列/图层，必须将它们插入到从列/图层节点到Xsheet节点的链接中，这样列/图层节点就连接到标记为*源*的第一个特效输入端口，而其他列/图层则连接到其他输入端口（其标签取决于特效）；特效节点的输出端口必须连"
+"接到Xsheet节点。"
+
+#: ../../source/applying_special_fx.rst:134
+msgid "|Combined_FX_Example|"
+msgstr "|Combined_FX_Example|"
+
+#: ../../source/applying_special_fx.rst:136
+msgid ""
+"For example in case of a Matte In effect, the column to be matted has to be linked to the *Source* input port, the matte column has to be linked to the *Matte* input port, and the output port has to "
+"be connected to the Xsheet node."
+msgstr "例如，对于遮罩内效果，要被遮罩的列必须链接到*源*输入端口，遮罩列必须链接到*遮罩*输入端口，输出端口必须连接到Xsheet节点。"
+
+#: ../../source/applying_special_fx.rst:138
+msgid ""
+"**Effects that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns (and Timeline layers) and therefore are similar to columns; they are displayed with "
+"an orange node with only an output port on the right. These effect nodes have to be connected to the Xsheet node to be rendered, or can be connected to other effect nodes."
+msgstr ""
+"**生成计算机图像的特效**，例如径向渐变，它们显示在Xsheet列（和时间轴图层）中，因此类似于列；它们显示为一个橙色的节点，仅在右侧有一个输出端口。这些特效节点必须连接到Xsheet节点才能被渲染，或者可以连接到"
+"其他特效节点。"
+
+#: ../../source/applying_special_fx.rst:140
+msgid "|Generated_FX_Example|"
+msgstr "|Generated_FX_Example|"
+
+#: ../../source/applying_special_fx.rst:142
+msgid "**To open the FX Browser:**"
+msgstr "**要打开特效浏览器：**"
+
+#: ../../source/applying_special_fx.rst:146
+msgid "Choose Xsheet  →  **New FX...**"
+msgstr "选择 Xsheet → **新建特效...**"
+
+#: ../../source/applying_special_fx.rst:148
+msgid "Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window."
+msgstr "点击特效示意图窗口底部栏中的**新建特效**按钮 (|fx|)。"
+
+#: ../../source/applying_special_fx.rst:150
+msgid "**To Insert an effect:**"
+msgstr "**要插入特效：**"
+
+#: ../../source/applying_special_fx.rst:154
+msgid "Select the nodes for which you want to insert a new effect, select the effect you want to insert in the **FX Browser** and click the **Insert** button."
+msgstr "选择你想要为其插入新特效的节点，在**特效浏览器**中选择你想要插入的特效，然后点击**插入**按钮。"
+
+#: ../../source/applying_special_fx.rst:156
+msgid ""
+"Select the nodes for which you want to insert a new effect, right-click any of them and choose **Insert FX** from the menu that opens, then select the effect you want to insert from the available "
+"submenus."
+msgstr "选择你想要为其插入新特效的节点，右键点击其中任意一个，从弹出的菜单中选择**插入特效**，然后从可用的子菜单中选择你想要插入的特效。"
+
+#: ../../source/applying_special_fx.rst:158
+msgid ""
+"Select the *links* where you want to insert a new effect, right-click any of them and choose **Insert FX** from the menu that opens, then select the effect you want to insert from the available "
+"submenus (see  :ref:`Editing the FX Schematic <editing_the_fx_schematic>`  )."
+msgstr "选择你想要插入新特效的*链接*，右键点击其中任意一个，从弹出的菜单中选择**插入特效**，然后从可用的子菜单中选择你想要插入的特效（参见 :ref:`编辑特效示意图 <editing_the_fx_schematic>`）。"
+
+#: ../../source/applying_special_fx.rst:160
+msgid "**To Add an effect:**"
+msgstr "**要添加特效：**"
+
+#: ../../source/applying_special_fx.rst:162
+msgid "Select the nodes for which you want to add a new effect at the end of a new link."
+msgstr "选择你想要在其新链接末端添加新特效的节点。"
+
+#: ../../source/applying_special_fx.rst:166
+msgid "Select the effect you want to add in the **FX Browser** and click the **Add** button."
+msgstr "在**特效浏览器**中选择你想要添加的特效，然后点击**添加**按钮。"
+
+#: ../../source/applying_special_fx.rst:168
+msgid "Right-click any of the selected nodes and choose **Add FX** from the menu that opens, then select the effect you want to add from the available submenus."
+msgstr "右键点击任意选中的节点，从弹出的菜单中选择**添加特效**，然后从可用的子菜单中选择你想要添加的特效。"
+
+#: ../../source/applying_special_fx.rst:170
+msgid "**To Replace an effect:**"
+msgstr "**要替换特效：**"
+
+#: ../../source/applying_special_fx.rst:172
+msgid "Select the effect nodes you want to replace with a new effect."
+msgstr "选择你想要用新特效替换的特效节点。"
+
+#: ../../source/applying_special_fx.rst:176
+msgid "Select the effect you want to add in the **FX Browser** and click the **Replace** button."
+msgstr "在**特效浏览器**中选择你想要添加的特效，然后点击**替换**按钮。"
+
+#: ../../source/applying_special_fx.rst:178
+msgid "Right-click any of the selected nodes and choose **Replace FX** from the menu that opens, then select the new effect from the available submenus."
+msgstr "右键点击任意选中的节点，从弹出的菜单中选择**替换特效**，然后从可用的子菜单中选择新的特效。"
+
+#: ../../source/applying_special_fx.rst:180
+msgid "**To Insert/Add effects globally:**"
+msgstr "**要全局插入/添加特效：**"
+
+#: ../../source/applying_special_fx.rst:182
+msgid "Select the **Xsheet** node."
+msgstr "选择**Xsheet**节点。"
+
+#: ../../source/applying_special_fx.rst:186
+msgid "Select the effect you want to insert/add in the **FX Browser** and click the **Insert** or **Add** buttons."
+msgstr "在**特效浏览器**中选择你想要插入/添加的特效，然后点击**插入**或**添加**按钮。"
+
+#: ../../source/applying_special_fx.rst:188
+msgid "Right-click any of the selected nodes and choose **Insert FX** or **Add FX** from the menu that opens, then select the effect you want to a insert/add from the available submenus."
+msgstr "右键点击任意选中的节点，从弹出的菜单中选择**插入特效**或**添加特效**，然后从可用的子菜单中选择你想要插入/添加的特效。"
+
+#: ../../source/applying_special_fx.rst:192
+msgid "**Ctrl + double-click** (PC) or **Cmd + double-click** (macOS) the node name and type a new name."
+msgstr "**Ctrl + 双击**（PC）或 **Cmd + 双击**（macOS）节点名称，然后输入新名称。"
+
+#: ../../source/applying_special_fx.rst:198
+msgid "Editing the FX Schematic"
+msgstr "编辑特效示意图"
+
+#: ../../source/applying_special_fx.rst:199
+msgid ""
+"Links between nodes have to be considered like flows going to the right, from the column/layer nodes to the *Output* node, via the Xsheet node. If along the way there is one or several effects, the "
+"column content will be consequently processed before becoming part of the output."
+msgstr "节点之间的链接应被视为向右流动，从列/图层节点经过Xsheet节点流向*输出*节点。如果沿途有一个或多个特效，列内容将在成为输出的一部分之前被相应地处理。"
+
+#: ../../source/applying_special_fx.rst:201
+msgid ""
+"From the nodes output port several links can start at the same time, thus allowing, for example, a column/layer to be rendered as it is, and to be also used as a mask for another column/layer. It is "
+"also possible to determine permanently whether columns/layers will be rendered or not, by leaving or deleting the link to the Xsheet node."
+msgstr "从节点的输出端口可以同时发出多个链接，例如，允许一个列/图层按原样渲染，同时也用作另一个列/图层的遮罩。还可以通过保留或删除到Xsheet节点的链接，来永久决定列/图层是否被渲染。"
+
+#: ../../source/applying_special_fx.rst:203
+msgid "By editing the links between nodes, or by creating new ones, you can control how column/layer nodes will interact with each other and with effects before being rendered."
+msgstr "通过编辑节点之间的链接，或创建新的链接，你可以控制列/图层节点在渲染前如何相互交互以及如何与特效交互。"
+
+#: ../../source/applying_special_fx.rst:205
+msgid "In the effects that accept multiple input nodes it is possible to change the stacking order of the input nodes by clicking and dragging in the *ports* area."
+msgstr "在支持多个输入节点的特效中，可以通过在*端口*区域点击并拖动来更改输入节点的堆叠顺序。"
+
+#: ../../source/applying_special_fx.rst:207
+msgid ""
+"Effect nodes and links can be selected in order to be cut, copied, pasted or deleted. When selected, nodes and links are highlighted in white; the current node has its label in yellow; when at least "
+"one object is selected, the related links are displayed in blue."
+msgstr "可以选择特效节点和链接以便剪切、复制、粘贴或删除。选中时，节点和链接以白色高亮显示；当前节点的标签为黄色；当至少一个对象被选中时，相关链接显示为蓝色。"
+
+#: ../../source/applying_special_fx.rst:209
+msgid "When pasting a copied/cut selection, several options are available:"
+msgstr "粘贴复制/剪切的选区时，有几个选项可用："
+
+#: ../../source/applying_special_fx.rst:211
+msgid "Use **Paste** to paste the copied/cut selection into the FX Schematic."
+msgstr "使用**粘贴**将复制/剪切的选区粘贴到特效示意图中。"
+
+#: ../../source/applying_special_fx.rst:213
+msgid "Use **Paste Insert** to insert the pasted selection into the *selected links*."
+msgstr "使用**粘贴插入**将粘贴的选区插入到*选定的链接*中。"
+
+#: ../../source/applying_special_fx.rst:215
+msgid "Use **Paste Add** to add the pasted selection from the *selected nodes* at the end of new links."
+msgstr "使用**粘贴添加**将粘贴的选区从*选定的节点*在新链接的末端添加。"
+
+#: ../../source/applying_special_fx.rst:217
+msgid "Use **Paste Replace** to replace *selected effects nodes* with the pasted selection."
+msgstr "使用**粘贴替换**用粘贴的选区替换*选定的特效节点*。"
+
+#: ../../source/applying_special_fx.rst:219
+msgid "Links have to be selected together with nodes when copying/cutting a selection if you want to preserve the links among them when pasting."
+msgstr "如果希望在粘贴时保留节点间的链接关系，在复制/剪切选区时，必须同时选中节点和链接。"
+
+#: ../../source/applying_special_fx.rst:221
+msgid "**To create links between nodes:**"
+msgstr "**要在节点间创建链接：**"
+
+#: ../../source/applying_special_fx.rst:223
+msgid "Click and drag the output port of the node to the input port of the effect node."
+msgstr "点击并拖动节点的输出端口到特效节点的输入端口。"
+
+#: ../../source/applying_special_fx.rst:225
+msgid "**To select nodes and links:**"
+msgstr "**要选择节点和链接：**"
+
+#: ../../source/applying_special_fx.rst:229
+msgid "Click to select a node or a link."
+msgstr "点击选择一个节点或链接。"
+
+#: ../../source/applying_special_fx.rst:231
+msgid "Click and drag to select a group of nodes and links."
+msgstr "点击并拖动以选择一组节点和链接。"
+
+#: ../../source/applying_special_fx.rst:233
+msgid "Ctrl-click (PC) or Cmd-click (macOS) to add a node or a link to, or remove it from the selection."
+msgstr "Ctrl-点击（PC）或 Cmd-点击（macOS）可将节点或链接添加到选区或从选区中移除。"
+
+#: ../../source/applying_special_fx.rst:235
+msgid "**To delete links between nodes:**"
+msgstr "**要删除节点间的链接：**"
+
+#: ../../source/applying_special_fx.rst:237
+msgid "Select the links you want to delete and do one of the following:"
+msgstr "选择你想要删除的链接，然后执行以下操作之一："
+
+#: ../../source/applying_special_fx.rst:239
+msgid "Choose Edit  →  **Delete**."
+msgstr "选择 编辑 → **删除**。"
+
+#: ../../source/applying_special_fx.rst:241
+msgid "Right-click any selected link and choose **Delete** from the menu that opens."
+msgstr "右键点击任意选中的链接，从弹出的菜单中选择**删除**。"
+
+#: ../../source/applying_special_fx.rst:243
+msgid "**To connect a node to the Xsheet node:**"
+msgstr "**要将节点连接到Xsheet节点：**"
+
+#: ../../source/applying_special_fx.rst:247
+msgid "Click and drag the output port of the node to the input port of the **Xsheet** node."
+msgstr "点击并拖动节点的输出端口到**Xsheet**节点的输入端口。"
+
+#: ../../source/applying_special_fx.rst:249
+msgid "Right-click the node you want to connect to the Xsheet node, and choose **Connect to Xsheet** from the menu that opens."
+msgstr "右键点击你想要连接到Xsheet节点的节点，从弹出的菜单中选择**连接到Xsheet**。"
+
+#: ../../source/applying_special_fx.rst:251
+msgid "**To disconnect a flow from the Xsheet node:**"
+msgstr "**要从Xsheet节点断开一个流：**"
+
+#: ../../source/applying_special_fx.rst:255
+msgid "Delete the link from the node to the Xsheet node."
+msgstr "删除从该节点到Xsheet节点的链接。"
+
+#: ../../source/applying_special_fx.rst:257
+msgid "Right-click the node you want to disconnect from the Xsheet node, and choose **Disconnect from Xsheet** from the menu that opens."
+msgstr "右键点击你想要从Xsheet节点断开的节点，从弹出的菜单中选择**从Xsheet断开**。"
+
+#: ../../source/applying_special_fx.rst:259
+msgid "**To insert an effect node into a link:**"
+msgstr "**要将特效节点插入到链接中：**"
+
+#: ../../source/applying_special_fx.rst:261
+msgid "**Alt-click and drag** it onto the link."
+msgstr "**Alt-点击并拖动**它到链接上。"
+
+#: ../../source/applying_special_fx.rst:263
+msgid "**To extract an effect node from a link:**"
+msgstr "**要从链接中提取特效节点：**"
+
+#: ../../source/applying_special_fx.rst:265
+msgid "**Alt-click and drag** it away from the link."
+msgstr "**Alt-点击并拖动**它使其脱离链接。"
+
+#: ../../source/applying_special_fx.rst:267
+msgid "**To edit an effect nodes selection:**"
+msgstr "**要编辑特效节点选区：**"
+
+#: ../../source/applying_special_fx.rst:271
+msgid "Use the **Copy** command to keep the selection in memory for further operations."
+msgstr "使用**复制**命令将选区保存在内存中以供后续操作。"
+
+#: ../../source/applying_special_fx.rst:273
+msgid "Use the **Cut** command to eliminate the selection from the schematic and keep it in memory for further operations."
+msgstr "使用**剪切**命令从示意图中移除选区，并将其保存在内存中以供后续操作。"
+
+#: ../../source/applying_special_fx.rst:275
+msgid "Use the **Paste** command to paste the selection kept in memory in the FX Schematic."
+msgstr "使用**粘贴**命令将保存在内存中的选区粘贴到特效示意图中。"
+
+#: ../../source/applying_special_fx.rst:277
+msgid "Right-click a link and use the **Paste Insert** command to insert the selection kept in memory into the *selected link*."
+msgstr "右键点击一个链接，使用**粘贴插入**命令将保存在内存中的选区插入到*选定的链接*中。"
+
+#: ../../source/applying_special_fx.rst:279
+msgid "Right-click any node and use the **Paste Add** command to add the selection kept in memory from the *selected nodes* at the end of the new links."
+msgstr "右键点击任意节点，使用**粘贴添加**命令将保存在内存中的选区从*选定的节点*在新链接的末端添加。"
+
+#: ../../source/applying_special_fx.rst:281
+msgid "Right-click an effect node and use the **Paste Replace** command to replace the *selected effect nodes* with the selection kept in memory."
+msgstr "右键点击一个特效节点，使用**粘贴替换**命令用保存在内存中的选区替换*选定的特效节点*。"
+
+#: ../../source/applying_special_fx.rst:283
+msgid "Use the **Delete** command to delete the selection."
+msgstr "使用**删除**命令删除选区。"
+
+#: ../../source/applying_special_fx.rst:285
+msgid "All these commands are available in the menu that opens when right-clicking nodes and links."
+msgstr "所有这些命令都在右键点击节点和链接时弹出的菜单中可用。"
+
+#: ../../source/applying_special_fx.rst:287
+msgid "**To create a linked effect:**"
+msgstr "**要创建链接特效：**"
+
+#: ../../source/applying_special_fx.rst:289
+msgid "Select the effect nodes you want to duplicate."
+msgstr "选择你想要复制的特效节点。"
+
+#: ../../source/applying_special_fx.rst:291
+msgid "Right-click any of the selected nodes and choose **Create Linked FX** from the menu that opens."
+msgstr "右键点击任意选中的节点，从弹出的菜单中选择**创建链接特效**。"
+
+#: ../../source/applying_special_fx.rst:293
+msgid "**To break linked effects:**"
+msgstr "**要断开链接特效：**"
+
+#: ../../source/applying_special_fx.rst:295
+msgid "Select the effect nodes you want to unlink."
+msgstr "选择你想要解除链接的特效节点。"
+
+#: ../../source/applying_special_fx.rst:297
+msgid "Right-click any of the selected nodes and choose **Unlink** from the menu that opens."
+msgstr "右键点击任意选中的节点，从弹出的菜单中选择**解除链接**。"
+
+#: ../../source/applying_special_fx.rst:303
+msgid "Using Multiple Output Nodes"
+msgstr "使用多个输出节点"
+
+#: ../../source/applying_special_fx.rst:304
+msgid ""
+"In the FX Schematic by default the Xsheet node is connected to an Output node: this means that all the nodes connected to the Xsheet node will be rendered both in the preview and in the final "
+"rendering."
+msgstr "在特效示意图中，默认情况下Xsheet节点连接到一个输出节点：这意味着连接到Xsheet节点的所有节点都将在预览和最终渲染中被渲染。"
+
+#: ../../source/applying_special_fx.rst:306
+msgid "The scene rendering can be limited to a specific node of the schematic by creating additional Output nodes, connected to the node where you want to limit the rendering."
+msgstr "可以通过创建额外的输出节点，连接到你想限制渲染的节点，从而将场景渲染限制在示意图的特定节点上。"
+
+#: ../../source/applying_special_fx.rst:308
+msgid ""
+"When more than one Output node is defined, you can set which is the *active* one (the one that will be considered for previewing or rendering the scene); the active output node is displayed in "
+"*blue*, while the others in *grey*."
+msgstr "当定义了多个输出节点时，你可以设置哪个是*活动的*（将被用于预览或渲染场景的那个）；活动的输出节点显示为*蓝色*，而其他节点显示为*灰色*。"
+
+#: ../../source/applying_special_fx.rst:310
+msgid "**To limit the output to a specific node:**"
+msgstr "**要将输出限制到特定节点：**"
+
+#: ../../source/applying_special_fx.rst:312
+msgid "Select the node to which you want to limit the output."
+msgstr "选择你想要限制输出的节点。"
+
+#: ../../source/applying_special_fx.rst:316 ../../source/applying_special_fx.rst:324
+msgid "Click the **New Output** button (|output|) in the bottom bar of the schematic window."
+msgstr "点击示意图窗口底部栏中的**新建输出**按钮 (|output|)。"
+
+#: ../../source/applying_special_fx.rst:318
+msgid "Right-click the node and choose **New Output** from the menu that opens."
+msgstr "右键点击该节点，从弹出的菜单中选择**新建输出**。"
+
+#: ../../source/applying_special_fx.rst:320
+msgid "**To add an Output node:**"
+msgstr "**要添加输出节点：**"
+
+#: ../../source/applying_special_fx.rst:326
+msgid "Right-click in the schematic and choose **New Output** from the menu that opens."
+msgstr "在示意图中右键点击，从弹出的菜单中选择**新建输出**。"
+
+#: ../../source/applying_special_fx.rst:328
+msgid "**To connect a node to an Output node:**"
+msgstr "**要将节点连接到输出节点：**"
+
+#: ../../source/applying_special_fx.rst:330
+msgid "Click and drag the output port of the node to the input port of the Output node."
+msgstr "点击并拖动节点的输出端口到输出节点的输入端口。"
+
+#: ../../source/applying_special_fx.rst:332
+msgid "**To set the current Output node:**"
+msgstr "**要设置当前输出节点：**"
+
+#: ../../source/applying_special_fx.rst:334
+msgid "Right-click the Output you want to set as current and choose **Activate** from the menu that opens."
+msgstr "右键点击你想要设置为当前的输出节点，从弹出的菜单中选择**激活**。"
+
+#: ../../source/applying_special_fx.rst:336
+msgid "**To remove an Output node:**"
+msgstr "**要移除输出节点：**"
+
+#: ../../source/applying_special_fx.rst:340
+msgid "Select it and choose Edit  →  **Delete**."
+msgstr "选中它，然后选择 编辑 → **删除**。"
+
+#: ../../source/applying_special_fx.rst:342
+msgid "Right-click it and choose **Delete** from the menu that opens."
+msgstr "右键点击它，从弹出的菜单中选择**删除**。"
+
+#: ../../source/applying_special_fx.rst:344
+msgid "The last Output node remaining cannot be removed from the Schematic."
+msgstr "剩余的最后一个输出节点不能从示意图中移除。"
+
+#: ../../source/applying_special_fx.rst:350
+msgid "Editing Effects Settings"
+msgstr "编辑特效设置"
+
+#: ../../source/applying_special_fx.rst:351
+msgid ""
+"Effects parameters and their animation can be controlled in the **FX Settings** window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc."
+msgstr "特效参数及其动画可以在**特效设置**窗口中控制。根据所选的特效，它会显示不同的滑块、复选框、文本字段等布局。"
+
+#: ../../source/applying_special_fx.rst:353
+msgid ""
+"At the bottom of the window a *preview area* is available to check the result of the applied effect: you can expand it or contract it, activate it or deactivate it, navigate its content, set its "
+"size, its background color, and limit it to the camera shot. The preview area can be expanded or contracted by clicking on the **+**/**-** symbol to the left of the **Swatch Viewer** text, at the "
+"bottom left of the FX Settings window."
+msgstr ""
+"窗口底部有一个*预览区域*，用于检查应用特效的结果：你可以展开或收缩它、激活或停用它、导航其内容、设置其大小、背景颜色，并将其限制在摄像机取景范围内。预览区域可以通过点击特效设置窗口左下角**色板查看器**"
+"文字左侧的 **+**/**-** 符号来展开或收缩。"
+
+#: ../../source/applying_special_fx.rst:356
+msgid ""
+"Parameters can be animated by setting keyframes at specific frames. A **Set Key** button (|key|) is available in the preview area, at the bottom bar of the window, to set keyframes for *all* of the "
+"parameters. For each of the parameters that can be animated there is also a specific **Set Key** button (|key|) to the right of the parameter name, in order to set keyframes for each parameter "
+"independently."
+msgstr ""
+"可以通过在特定帧设置关键帧来制作参数动画。预览区域的窗口底部栏有一个**设置关键帧**按钮 (|key|)，用于为*所有*参数设置关键帧。对于每个可以动画化的参数，其名称右侧也有一个特定的**设置关键帧**按钮 (|"
+"key|)，以便为每个参数独立设置关键帧。"
+
+#: ../../source/applying_special_fx.rst:358
+msgid "The **Set Key** button (|key|) may have the following colors:"
+msgstr "**设置关键帧**按钮 (|key|) 可能有以下颜色："
+
+#: ../../source/applying_special_fx.rst:360
+msgid "It is **grey** when no keyframes for any parameter is defined at the current frame."
+msgstr "当当前帧没有为任何参数定义关键帧时，它是**灰色**。"
+
+#: ../../source/applying_special_fx.rst:362
+msgid "It is **blue-striped** when keyframes are defined at least for one parameter."
+msgstr "当至少有一个参数定义了关键帧时，它是**蓝色条纹**。"
+
+#: ../../source/applying_special_fx.rst:364
+msgid "It is **blue** when keyframes are defined for all the parameters."
+msgstr "当所有参数都定义了关键帧时，它是**蓝色**。"
+
+#: ../../source/applying_special_fx.rst:366
+msgid "The parameter specific **Set Key** button (|key|) may have the following colors:"
+msgstr "参数特定的**设置关键帧**按钮 (|key|) 可能有以下颜色："
+
+#: ../../source/applying_special_fx.rst:368
+msgid "It is **grey** if no key value is defined for the parameter at the current frame."
+msgstr "如果当前帧没有为该参数定义关键帧值，它是**灰色**。"
+
+#: ../../source/applying_special_fx.rst:370
+msgid "It is **orange** when a key value is defined for the parameter at the current frame."
+msgstr "当当前帧为该参数定义了关键帧值时，它是**橙色**。"
+
+#: ../../source/applying_special_fx.rst:372
+msgid "It is **pale yellow** if the parameter is animated but no key value is defined at the current frame."
+msgstr "如果该参数已动画化但在当前帧没有定义关键帧值，它是**淡黄色**。"
+
+#: ../../source/applying_special_fx.rst:374
+msgid "It is **yellow** if you changed the parameter value and the current frame does not have a key for the parameter."
+msgstr "如果你更改了参数值，而当前帧没有该参数的关键帧，它是**黄色**。"
+
+#: ../../source/applying_special_fx.rst:376
+msgid ""
+"Frames and keyframes can be navigated by using the related buttons in the bottom bar of the window. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more "
+"than one keyframe is defined."
+msgstr "可以使用窗口底部栏的相关按钮来导航帧和关键帧。只有在定义了多个关键帧时，**下一个关键帧** (|next_key|) 和**上一个关键帧**按钮 (|prevkey|) 才可用。"
+
+#: ../../source/applying_special_fx.rst:378
+msgid "|FX_Settings_Example|"
+msgstr "|FX_Settings_Example|"
+
+#: ../../source/applying_special_fx.rst:380
+msgid "If no keyframes are defined, parameters you set will be used throughout the scene."
+msgstr "如果没有定义关键帧，你设置的参数将在整个场景中使用。"
+
+#: ../../source/applying_special_fx.rst:382
+msgid "**To open the FX Settings window:**"
+msgstr "**要打开特效设置窗口：**"
+
+#: ../../source/applying_special_fx.rst:386
+msgid "Right-click the effect node, and choose **Edit FX...** from the menu that opens."
+msgstr "右键点击特效节点，从弹出的菜单中选择**编辑特效...**。"
+
+#: ../../source/applying_special_fx.rst:388
+msgid "Double-click the effect node."
+msgstr "双击特效节点。"
+
+#: ../../source/applying_special_fx.rst:390
+msgid "**To define values for the effect:**"
+msgstr "**要为特效定义值：**"
+
+#: ../../source/applying_special_fx.rst:392
+msgid "Use the available sliders, check boxes, text fields, etc., to configure the effect the way you prefer."
+msgstr "使用可用的滑块、复选框、文本字段等，按照你喜欢的方式配置特效。"
+
+#: ../../source/applying_special_fx.rst:394
+msgid "**To set the current frame:**"
+msgstr "**要设置当前帧：**"
+
+#: ../../source/applying_special_fx.rst:398
+msgid "Type the frame number or use the **Next Frame** and **Previous Frame** buttons available in the bottom bar of the window."
+msgstr "输入帧号，或使用窗口底部栏提供的**下一帧**和**上一帧**按钮。"
+
+#: ../../source/applying_special_fx.rst:400
+msgid "Move the current frame cursor in the Xsheet/Timeline or in the Function Editor."
+msgstr "在Xsheet/时间轴或函数编辑器中移动当前帧光标。"
+
+#: ../../source/applying_special_fx.rst:402
+msgid "Use the frame bar or the playback buttons in the bottom bar of the Viewer."
+msgstr "使用查看器底部栏的帧数栏或播放按钮。"
+
+#: ../../source/applying_special_fx.rst:404
+msgid "**To set keyframes for all the effect parameters at the current frame:**"
+msgstr "**要在当前帧为所有特效参数设置关键帧：**"
+
+#: ../../source/applying_special_fx.rst:408
+msgid ""
+"If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from *grey* to *blue* and current values become keyframes for all the parameters at "
+"the current frame."
+msgstr "如果当前帧不是关键帧，点击窗口底部栏的**设置关键帧**按钮 (|key|)：它会从*灰色*变为*蓝色*，当前值将成为当前帧所有参数的关键帧。"
+
+#: ../../source/applying_special_fx.rst:410
+msgid ""
+"If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from *blue-striped* to *blue* and current values become keyframes for all the parameters at "
+"the current frame."
+msgstr "如果当前帧仅是某些参数的关键帧，点击**设置关键帧**按钮 (|key|)：它会从*蓝色条纹*变为*蓝色*，当前值将成为当前帧所有参数的关键帧。"
+
+#: ../../source/applying_special_fx.rst:412
+msgid "Define the values for the parameters."
+msgstr "定义参数的值。"
+
+#: ../../source/applying_special_fx.rst:414
+msgid "**To set keyframes for a specific parameter at the current frame:**"
+msgstr "**要在当前帧为特定参数设置关键帧：**"
+
+#: ../../source/applying_special_fx.rst:416
+msgid ""
+"If the current frame does not have a keyframe for the parameter, click the squared **Set Key** button (|key|) to the right of the parameter: it turns from *grey* to *orange*, and the current value "
+"becomes a keyframe for the parameter at the current frame."
+msgstr "如果当前帧没有该参数的关键帧，点击参数右侧的方形**设置关键帧**按钮 (|key|)：它会从*灰色*变为*橙色*，当前值将成为该参数在当前帧的关键帧。"
+
+#: ../../source/applying_special_fx.rst:418
+msgid "Define the value for the parameter."
+msgstr "定义参数的值。"
+
+#: ../../source/applying_special_fx.rst:420
+msgid "If the current frame is not a keyframe for the parameter, and you changed it, the **Set Key** button (|key|) to the right of the parameter turns *yellow*. Click it to set the key."
+msgstr "如果当前帧不是该参数的关键帧，并且你更改了它的值，参数右侧的**设置关键帧**按钮 (|key|) 会变为*黄色*。点击它来设置关键帧。"
+
+#: ../../source/applying_special_fx.rst:422
+msgid "**To remove all keyframes for the effect parameters at the current frame:**"
+msgstr "**要在当前帧移除所有特效参数的关键帧：**"
+
+#: ../../source/applying_special_fx.rst:426
+msgid "If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from *blue* to *grey*."
+msgstr "如果为所有参数都设置了关键帧，点击窗口底部栏的**设置关键帧**按钮 (|key|)：它会从*蓝色*变为*灰色*。"
+
+#: ../../source/applying_special_fx.rst:428
+msgid ""
+"If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from *blue-striped* to *blue* (as you set "
+"keys for all the parameters); with the second click, it turns from *blue* to *grey*."
+msgstr "如果仅为部分参数设置了关键帧，双击窗口底部栏的**设置关键帧**按钮 (|key|)：第一次点击时，它会从*蓝色条纹*变为*蓝色*（因为你为所有参数设置了关键帧）；第二次点击时，它会从*蓝色*变为*灰色*。"
+
+#: ../../source/applying_special_fx.rst:430
+msgid "**To remove a keyframe for a specific parameter at the current frame:**"
+msgstr "**要在当前帧移除特定参数的关键帧：**"
+
+#: ../../source/applying_special_fx.rst:432
+msgid "Click the **Set Key** button (|key|) to the right of the parameter: it turns from *grey* to *orange*."
+msgstr "点击参数右侧的**设置关键帧**按钮 (|key|)：它会从*灰色*变为*橙色*。"
+
+#: ../../source/applying_special_fx.rst:434
+msgid "**To navigate frames where keyframes are defined:**"
+msgstr "**要导航定义了关键帧的帧：**"
+
+#: ../../source/applying_special_fx.rst:436
+msgid "Use the **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) available at the side of the **Set Key** button."
+msgstr "使用**设置关键帧**按钮旁边的**下一个关键帧** (|next_key|) 和**上一个关键帧**按钮 (|prevkey|)。"
+
+#: ../../source/applying_special_fx.rst:438
+msgid "**To activate/deactivate the preview:**"
+msgstr "**要激活/停用预览：**"
+
+#: ../../source/applying_special_fx.rst:440 ../../source/applying_special_fx.rst:448 ../../source/applying_special_fx.rst:555
+msgid "Do any of the following:"
+msgstr "执行以下任何操作："
+
+#: ../../source/applying_special_fx.rst:442
+msgid "Click the **Camera Preview** button (|camera|) in the bottom bar of the FX Settings window to limit the preview to the camera shot."
+msgstr "点击特效设置窗口底部栏的**摄像机预览**按钮 (|camera|)，将预览限制在摄像机取景范围内。"
+
+#: ../../source/applying_special_fx.rst:444
+msgid "Click the **Preview** button (|preview|) in the bottom bar of the FX Settings window to preview the results regardless of the camera shot."
+msgstr "点击特效设置窗口底部栏的**预览**按钮 (|preview|)，无论摄像机取景范围如何，直接预览结果。"
+
+#: ../../source/applying_special_fx.rst:446
+msgid "**To resize the preview area:**"
+msgstr "**要调整预览区域大小：**"
+
+#: ../../source/applying_special_fx.rst:450
+msgid "Click and drag the horizontal separator."
+msgstr "点击并拖动水平分隔条。"
+
+#: ../../source/applying_special_fx.rst:452
+msgid "Click and drag the separator toward the window border to hide the preview area."
+msgstr "点击并拖动分隔条到窗口边框以隐藏预览区域。"
+
+#: ../../source/applying_special_fx.rst:454
+msgid "Click and drag the separator collapsed to the window border toward the window center to display again the preview area."
+msgstr "点击并拖动已折叠到窗口边框的分隔条向窗口中心移动，以再次显示预览区域。"
+
+#: ../../source/applying_special_fx.rst:456
+msgid "The A/R of the preview area depends on the A/R of the current camera."
+msgstr "预览区域的宽高比取决于当前摄像机的宽高比。"
+
+#: ../../source/applying_special_fx.rst:458
+msgid "**To change the background color of the preview area:**"
+msgstr "**要更改预览区域的背景颜色：**"
+
+#: ../../source/applying_special_fx.rst:460
+msgid "Use the buttons in the bottom bar of the FX Settings window to choose a **White** (|preview_white|), **Black** (|preview_black|) or **Transparent** (|preview_checkbox|) background."
+msgstr "使用特效设置窗口底部栏的按钮选择**白色** (|preview_white|)、**黑色** (|preview_black|) 或**透明** (|preview_checkbox|) 背景。"
+
+#: ../../source/applying_special_fx.rst:462
+msgid "**To navigate the preview area:**"
+msgstr "**要在预览区域中导航：**"
+
+#: ../../source/applying_special_fx.rst:470
+msgid "Use the Reset View shortcut (by default the **Alt + 0** key) to display preview at its actual size."
+msgstr "使用重置视图快捷键（默认是 **Alt + 0** 键）以实际大小显示预览。"
+
+#: ../../source/applying_special_fx.rst:476
+msgid "Using Effects Gadgets"
+msgstr "使用特效小工具"
+
+#: ../../source/applying_special_fx.rst:477
+msgid ""
+"Some effects parameters related to positions or dimensions have some gadgets available in the Viewer in order to be set by using the camera box and the scene elements as a reference. For example the "
+"Radial Gradient effect has two circular gadgets that can be edited to set the inner size and the outer size of the gradient."
+msgstr "一些与位置或尺寸相关的特效参数在查看器中有可用的小工具，以便使用摄像机框和场景元素作为参考来设置。例如，径向渐变效果有两个圆形小工具，可以编辑它们来设置渐变的内外大小。"
+
+#: ../../source/applying_special_fx.rst:479
+msgid ""
+"As soon as an effect node is selected in the schematic, the **Animate** tool becomes the current tool and the related effect gadgets, if available, are shown. The Animate tool settings will refer to "
+"the column the effect is applied to, but in case the effect creates a computer generated image (e.g. a radial gradient or a light spot) the settings will refer to the effect column itself (see  :ref:"
+"`Animating Objects <animating_objects>`  )."
+msgstr ""
+"一旦在示意图中选中了一个特效节点，**动画**工具就会成为当前工具，并且如果可用，相关的特效小工具会显示出来。动画工具的设置将参考应用特效的列，但如果特效生成的是计算机图像（例如径向渐变或光斑），设置将参"
+"考特效列本身（参见 :ref:`动画对象 <animating_objects>`）。"
+
+#: ../../source/applying_special_fx.rst:481
+msgid "**To visualize effects gadgets in the Viewer:**"
+msgstr "**要在查看器中可视化特效小工具：**"
+
+#: ../../source/applying_special_fx.rst:483
+msgid "Select the effect node in the FX Schematic."
+msgstr "在特效示意图中选择特效节点。"
+
+#: ../../source/applying_special_fx.rst:485
+msgid "**To edit effects gadgets:**"
+msgstr "**要编辑特效小工具：**"
+
+#: ../../source/applying_special_fx.rst:487
+msgid "Click and drag the effects gadgets visible in the Viewer. As you roll over the gadget and the related handles, the cursor changes shape to indicate you are editing an effect gadget."
+msgstr "点击并拖动查看器中可见的特效小工具。当你悬停在小工具及相关手柄上时，光标会改变形状，表示你正在编辑特效小工具。"
+
+#: ../../source/applying_special_fx.rst:489
+msgid "Some gadgets have a handle for reference; however any point along the gadget shape can be clicked and dragged."
+msgstr "一些小工具有一个参考手柄；然而，沿着小工具形状的任何点都可以点击并拖动。"
+
+#: ../../source/applying_special_fx.rst:495
+msgid "Defining Colors and Color Spectrums"
+msgstr "定义颜色和色阶"
+
+#: ../../source/applying_special_fx.rst:496
+msgid "Some effects may require the definition of a color, or a color spectrum."
+msgstr "一些特效可能需要定义一个颜色，或一个色阶。"
+
+#: ../../source/applying_special_fx.rst:498
+msgid "Colors can be defined by editing the related Red, Green, Blue and Alpha values, or by using the Style Editor."
+msgstr "可以通过编辑相关的红、绿、蓝和Alpha值，或使用样式编辑器来定义颜色。"
+
+#: ../../source/applying_special_fx.rst:500
+msgid "|Defining_Colors_Example|"
+msgstr "|Defining_Colors_Example|"
+
+#: ../../source/applying_special_fx.rst:502
+msgid ""
+"Color spectrums, i.e. a series of colors defining a continuous gradient, can be defined by adding any color you need, and editing each color separately. The color in the spectrum can be moved to set "
+"the distance between two colors and the related gradient."
+msgstr "色阶，即定义连续渐变的一系列颜色，可以通过添加你需要的任何颜色，并分别编辑每种颜色来定义。可以移动色阶中的颜色来设置两种颜色之间的距离及相关渐变。"
+
+#: ../../source/applying_special_fx.rst:504
+msgid "**To define a color:**"
+msgstr "**要定义一个颜色：**"
+
+#: ../../source/applying_special_fx.rst:508
+msgid "Set the Red, Green, Blue and Alpha values."
+msgstr "设置红、绿、蓝和Alpha值。"
+
+#: ../../source/applying_special_fx.rst:510
+msgid "Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain Colors <plain_colors>`  )."
+msgstr "点击颜色缩略图，使用样式编辑器进行编辑（参见 :ref:`纯色 <plain_colors>`）。"
+
+#: ../../source/applying_special_fx.rst:512
+msgid "**To set a color of the spectrum:**"
+msgstr "**要设置色阶中的一个颜色：**"
+
+#: ../../source/applying_special_fx.rst:514
+msgid "Select the arrow below the spectrum identifying the color, and edit the related color."
+msgstr "选择标识颜色的色阶下方的箭头，然后编辑相关的颜色。"
+
+#: ../../source/applying_special_fx.rst:516
+msgid "**To add a color to the spectrum:**"
+msgstr "**要向色阶添加颜色：**"
+
+#: ../../source/applying_special_fx.rst:518
+msgid "Click the spectrum where you want to add the new color."
+msgstr "在你想添加新颜色的色阶位置点击。"
+
+#: ../../source/applying_special_fx.rst:520
+msgid "**To move a color in the spectrum:**"
+msgstr "**要移动色阶中的颜色：**"
+
+#: ../../source/applying_special_fx.rst:522
+msgid "Click and drag the arrow identifying the color to a new position."
+msgstr "点击并拖动标识颜色的箭头到新位置。"
+
+#: ../../source/applying_special_fx.rst:524
+msgid "**To remove a color from the spectrum:**"
+msgstr "**要从色阶中移除颜色：**"
+
+#: ../../source/applying_special_fx.rst:526
+msgid "Click and drag the arrow identifying the color *down*."
+msgstr "点击并拖动标识颜色的箭头*向下*。"
+
+#: ../../source/applying_special_fx.rst:532
+msgid "Creating Presets"
+msgstr "创建预设"
+
+#: ../../source/applying_special_fx.rst:533
+msgid ""
+"A particular configuration and animation of an effect parameters can be saved as a **Preset** to be available later on, both in the FX Browser and the drop-down menus that open when right-clicking "
+"nodes or in the Schematic area."
+msgstr "特效参数的特定配置和动画可以保存为**预设**，以便以后在特效浏览器中，以及在右键点击节点或示意图区域时弹出的下拉菜单中使用。"
+
+#: ../../source/applying_special_fx.rst:535
+msgid ""
+"When a preset for a particular effect is saved, in the FX Browser the effect icon turns into a folder containing the saved preset, with the folder icon still selectable to insert the effect with its "
+"default values; in the drop-down menus the effect has an additional drop down menu where the first item can be selected to insert the effect with its default values."
+msgstr ""
+"当保存了特定特效的预设后，在特效浏览器中，该特效的图标会变成一个包含已保存预设的文件夹，文件夹图标仍可选择以使用默认值插入该特效；在下拉菜单中，该特效会有一个额外的下拉菜单，其中第一项可选择以使用默认"
+"值插入该特效。"
+
+#: ../../source/applying_special_fx.rst:537
+msgid "|Creating_Presets_Example|"
+msgstr "|Creating_Presets_Example|"
+
+#: ../../source/applying_special_fx.rst:539
+msgid ""
+"Presets are saved in the ``<projectroot>\\fxs\\preset`` folder. This allow the presets to be available on all the computers sharing the same *Projectroot* (see  :ref:`Setting the Projectroot "
+"<setting_the_projectroot>`  )."
+msgstr "预设保存在 ``<项目根目录>\\fxs\\preset`` 文件夹中。这使得预设在所有共享相同*项目根目录*的计算机上可用（参见 :ref:`设置项目根目录 <setting_the_projectroot>`）。"
+
+#: ../../source/applying_special_fx.rst:541
+msgid ""
+"Currently the statement above if not true, as by default presets are being saved in ``OpenToonz stuff\\fxs\\presets``. On Windows it can be changed to any other path by going to the registry and "
+"changing the ``System\\HKEY_LOCAL_MACHINE\\SOFTWARE\\OpenToonz\\OpenToonz\\TOONZFXPRESETS`` key to the desired location."
+msgstr ""
+"目前上述声明并不准确，因为默认情况下预设保存在 ``OpenToonz stuff\\fxs\\presets`` 中。在Windows上，可以通过修改注册表，将 ``System\\HKEY_LOCAL_MACHINE\\SOFTWARE\\OpenToonz\\OpenToonz\\TOONZFXPRESETS`` "
+"键值更改为所需路径来改变其位置。"
+
+#: ../../source/applying_special_fx.rst:543
+msgid "Once a preset is applied there is no link between the *saved preset* and the *applied preset*: the applied preset can be edited without affecting the saved one."
+msgstr "一旦应用了预设，*保存的预设*与*应用的预设*之间没有链接关系：可以编辑应用的预设而不会影响已保存的预设。"
+
+#: ../../source/applying_special_fx.rst:545
+msgid "When you save a preset with a name already used, a confirmation dialog will open, asking you whether you want to overwrite the previously saved preset."
+msgstr "当你保存一个已使用名称的预设时，会打开一个确认对话框，询问你是否要覆盖先前保存的预设。"
+
+#: ../../source/applying_special_fx.rst:547
+msgid "**To save a preset:**"
+msgstr "**要保存预设：**"
+
+#: ../../source/applying_special_fx.rst:549
+msgid "Right-click the effect node you want to save as a preset and choose **Save As Preset** from the menu that opens."
+msgstr "右键点击你想要保存为预设的特效节点，从弹出的菜单中选择**另存为预设**。"
+
+#: ../../source/applying_special_fx.rst:551
+msgid "Assign a name to the preset and click the **Save** button."
+msgstr "为预设指定一个名称，然后点击**保存**按钮。"
+
+#: ../../source/applying_special_fx.rst:553
+msgid "**To retrieve a saved preset:**"
+msgstr "**要检索已保存的预设：**"
+
+#: ../../source/applying_special_fx.rst:557
+msgid "Open the **FX Browser** and open the folder related to the effect for which you saved the preset."
+msgstr "打开**特效浏览器**，打开与你保存预设的特效相关的文件夹。"
+
+#: ../../source/applying_special_fx.rst:559
+msgid "In the right-click menus **Insert FX**, **Add FX** or **Replace FX**, choose the sub-menu related to the effect for which you saved the preset."
+msgstr "在右键菜单**插入特效**、**添加特效**或**替换特效**中，选择与你保存预设的特效相关的子菜单。"
+
+#: ../../source/applying_special_fx.rst:561
+msgid "**To remove a preset from the FX Browser:**"
+msgstr "**要从特效浏览器中移除预设：**"
+
+#: ../../source/applying_special_fx.rst:563
+msgid "Right-click the preset in the FX Browser and choose **Remove Preset** from the menu that opens."
+msgstr "在特效浏览器中右键点击预设，从弹出的菜单中选择**移除预设**。"
+
+#: ../../source/applying_special_fx.rst:569
+msgid "Creating Macro FX"
+msgstr "创建宏特效"
+
+#: ../../source/applying_special_fx.rst:570
+msgid "Effects can be combined to create a *macro effect* that can be saved and retrieved when needed."
+msgstr "可以组合多个特效来创建一个*宏特效*，该宏特效可以保存并在需要时检索。"
+
+#: ../../source/applying_special_fx.rst:572
+msgid ""
+"When a macro effect is defined, you can edit its settings either in the standard way with the FX Settings window that contains a tab for each effect combined to define the macro, or by opening it and "
+"editing one effect at a time."
+msgstr "定义宏特效后，你可以通过标准方式使用特效设置窗口（其中包含定义宏特效的每个组合特效的标签页）来编辑其设置，也可以通过打开宏特效并逐个编辑其中的特效来设置。"
+
+#: ../../source/applying_special_fx.rst:574
+msgid "A macro effect can be opened also to check how the effect nodes are connected, and can be exploded to dissolve it and put its effect nodes back in the Schematic."
+msgstr "也可以打开宏特效来检查特效节点是如何连接的，并且可以将其分解以解散宏特效，并将其中的特效节点放回示意图中。"
+
+#: ../../source/applying_special_fx.rst:576
+msgid ""
+"When saved, the macro effect will be available in the FX Browser and in the drop-down menus that open when right-clicking nodes or in the Schematic area, inside the **Macro** folder, at the bottom of "
+"the list."
+msgstr "保存后，宏特效将在特效浏览器中，以及在右键点击节点或示意图区域时弹出的下拉菜单中可用，位于列表底部的**宏**文件夹内。"
+
+#: ../../source/applying_special_fx.rst:578
+msgid ""
+"Macro effects can't contain zerary effect nodes in them (i.e. any effects in the Background or Render categories). If any zerary effect node is selected when trying to use the Make Macro FX command, "
+"no macro effect will be created."
+msgstr "宏特效中不能包含零元特效节点（即背景或渲染类别中的任何特效）。如果在尝试使用“创建宏特效”命令时选择了任何零元特效节点，则不会创建宏特效。"
+
+#: ../../source/applying_special_fx.rst:580
+msgid "**To create a macro effect:**"
+msgstr "**要创建宏特效：**"
+
+#: ../../source/applying_special_fx.rst:582
+msgid "Select the effect nodes you want to combine to create the macro effect."
+msgstr "选择你想要组合以创建宏特效的特效节点。"
+
+#: ../../source/applying_special_fx.rst:584
+msgid "Right-click the selection and select **Make Macro FX** from the menu that opens."
+msgstr "右键点击选区，从弹出的菜单中选择**创建宏特效**。"
+
+#: ../../source/applying_special_fx.rst:586
+msgid "**To open a macro effect:**"
+msgstr "**要打开宏特效：**"
+
+#: ../../source/applying_special_fx.rst:588
+msgid "Right-click the macro node and choose **Open Macro FX** from the menu that opens: the macro nodes are displayed in a box, with the right links to the rest of the schematic."
+msgstr "右键点击宏节点，从弹出的菜单中选择**打开宏特效**：宏节点显示在一个框内，并具有与示意图其余部分的正确链接。"
+
+#: ../../source/applying_special_fx.rst:590
+msgid "When the content of a macro is displayed *it is not* possible to edit the links between macro nodes and links with nodes outside the macro."
+msgstr "当显示宏的内容时，*无法*编辑宏节点之间以及宏与外部节点之间的链接。"
+
+#: ../../source/applying_special_fx.rst:592
+msgid "**To close a macro effect:**"
+msgstr "**要关闭宏特效：**"
+
+#: ../../source/applying_special_fx.rst:594
+msgid "Click the **Close** button on the right of the macro box bar."
+msgstr "点击宏特效框标题栏右侧的**关闭**按钮。"
+
+#: ../../source/applying_special_fx.rst:596
+msgid "**To release a macro effect:**"
+msgstr "**要释放宏特效（分解）：**"
+
+#: ../../source/applying_special_fx.rst:598
+msgid "Right-click the macro node and choose **Explode Macro FX** from the menu that opens."
+msgstr "右键点击宏节点，从弹出的菜单中选择**分解宏特效**。"
+
+#: ../../source/applying_special_fx.rst:600
+msgid "**To edit a macro effect:**"
+msgstr "**要编辑宏特效：**"
+
+#: ../../source/applying_special_fx.rst:604
+msgid "Right-click the macro node and choose **Edit FX...** from the menu that opens."
+msgstr "右键点击宏节点，从弹出的菜单中选择**编辑特效...**。"
+
+#: ../../source/applying_special_fx.rst:606
+msgid "Right-click the macro node and choose **Open Macro FX** from the menu that opens, then edit the macro effect nodes."
+msgstr "右键点击宏节点，从弹出的菜单中选择**打开宏特效**，然后编辑宏特效节点。"
+
+#: ../../source/applying_special_fx.rst:608
+msgid "**To save a macro effect:**"
+msgstr "**要保存宏特效：**"
+
+#: ../../source/applying_special_fx.rst:610
+msgid "Right click the macro effect node you want to save and choose **Save As Preset** from the menu that opens."
+msgstr "右键点击你想要保存的宏特效节点，从弹出的菜单中选择**另存为预设**。"
+
+#: ../../source/applying_special_fx.rst:612
+msgid "Assign a name to the macro effect and click the **Save** button."
+msgstr "为宏特效指定一个名称，然后点击**保存**按钮。"
+
+#: ../../source/applying_special_fx.rst:614
+msgid "**To remove a macro effect from the FX Browser:**"
+msgstr "**要从特效浏览器中移除宏特效：**"
+
+#: ../../source/applying_special_fx.rst:616
+msgid "Right-click the macro effect in the FX Browser and choose **Remove Macro FX** from the menu that opens."
+msgstr "在特效浏览器中右键点击宏特效，从弹出的菜单中选择**移除宏特效**。"
+
+#: ../../source/applying_special_fx.rst:625
+msgid "Effects List"
+msgstr "特效列表"
+
+#: ../../source/applying_special_fx.rst:631
+msgid "Background"
+msgstr "背景"
+
+#: ../../source/applying_special_fx.rst:636
+msgid "Checkerboard"
+msgstr "棋盘格"
+
+#: ../../source/applying_special_fx.rst:637
+msgid "|Checkerboard|"
+msgstr "|Checkerboard|"
+
+#: ../../source/applying_special_fx.rst:639
+msgid "Creates a new column/layer containing a checkerboard defined by two Colors, and a grid Size."
+msgstr "创建一个包含由两种颜色和一个网格大小定义的棋盘格的新列/图层。"
+
+#: ../../source/applying_special_fx.rst:641
+msgid "The grid size can also be set by using a square gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "网格大小也可以通过使用查看器中带手柄的方形小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:646
+msgid "Color Card"
+msgstr "色卡"
+
+#: ../../source/applying_special_fx.rst:647
+msgid "|Color_Card|"
+msgstr "|Color_Card|"
+
+#: ../../source/applying_special_fx.rst:649
+msgid "Creates a new column/layer containing the set Color. It can be used, for example, as a background color or to create a colorize effect by applying it combined with a multiply effect."
+msgstr "创建一个包含设定颜色的新列/图层。例如，它可以作为背景色，或通过将其与相乘特效结合应用来创建着色效果。"
+
+#: ../../source/applying_special_fx.rst:654
+msgid "Kaleido"
+msgstr "万花筒"
+
+#: ../../source/applying_special_fx.rst:655
+msgid "|Kaleido|"
+msgstr "|Kaleido|"
+
+#: ../../source/applying_special_fx.rst:657
+msgid "Repeats the Source generating a kaleidoscopic effect."
+msgstr "重复源内容，产生万花筒效果。"
+
+#: ../../source/applying_special_fx.rst:659
+msgid "The center of the effect can be defined interactively, moving the small red cross widget in the preview area, or writing the desired values in the X and Y text fields."
+msgstr "可以交互式地定义效果的中心，在预览区域移动小红十字部件，或在X和Y文本字段中输入所需的值。"
+
+#: ../../source/applying_special_fx.rst:661
+msgid "The angle of reflection, and the number of iterations can be set in the appropriate input text fields (Angle and Count)."
+msgstr "反射角度和迭代次数可以在相应的输入文本字段（角度和计数）中设置。"
+
+#: ../../source/applying_special_fx.rst:666
+msgid "Tile"
+msgstr "平铺"
+
+#: ../../source/applying_special_fx.rst:667
+msgid "|Tile|"
+msgstr "|Tile|"
+
+#: ../../source/applying_special_fx.rst:669
+msgid ""
+"Repeats the Source content in order to define a larger image: the Tile mode forms a pattern that completely fills the camera shot, the Tile Horizontally repeats the source content horizontally; the "
+"Tile Vertically repeats the source content vertically."
+msgstr "重复源内容以定义更大的图像：平铺模式形成完全填充摄像机取景范围的图案，水平平铺水平重复源内容；垂直平铺垂直重复源内容。"
+
+#: ../../source/applying_special_fx.rst:671
+msgid ""
+"The Mirror Horizontally and Mirror Vertically options repeat the tiles by flipping them respectively in the horizontal and vertical directions; If both the options are activated, tiles will be "
+"mirrored in both directions."
+msgstr "水平镜像和垂直镜像选项分别通过在水平和垂直方向翻转来重复图块；如果两个选项都激活，图块将在两个方向上都进行镜像。"
+
+#: ../../source/applying_special_fx.rst:673
+msgid "The Margin value sets the size of a margin around each tile, with positive values adding some space around the tiles, and negative values collapsing them."
+msgstr "边距值设置每个图块周围的边距大小，正值在图块周围添加一些空间，负值使它们重叠。"
+
+#: ../../source/applying_special_fx.rst:679 ../../source/applying_special_fx.rst:682
+msgid "Blur"
+msgstr "模糊"
+
+#: ../../source/applying_special_fx.rst:683
+msgid "|Blur|"
+msgstr "|Blur|"
+
+#: ../../source/applying_special_fx.rst:685
+msgid "Softens the Source content, creating an out of focus effect, according to a specific Intensity."
+msgstr "根据特定的强度柔化源内容，产生失焦效果。"
+
+#: ../../source/applying_special_fx.rst:690
+msgid "Directional Blur"
+msgstr "方向性模糊"
+
+#: ../../source/applying_special_fx.rst:691
+msgid "|Directional_Blur|"
+msgstr "|Directional_Blur|"
+
+#: ../../source/applying_special_fx.rst:693
+msgid "Blurs the Source content according to a specific Intensity along a specific direction defined by the Angle."
+msgstr "根据特定的强度，沿着由角度定义的特定方向模糊源内容。"
+
+#: ../../source/applying_special_fx.rst:695
+msgid "The Bidirectional option applies the blur also on the other side of the direction."
+msgstr "双向选项也将模糊应用于方向的另一侧。"
+
+#: ../../source/applying_special_fx.rst:697
+msgid "The intensity and the angle can also be set by using an arrow gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "强度和角度也可以通过使用查看器中带手柄的箭头小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:699
+msgid "The directional blur does not depend on the movement and the speed of the column to which it is applied."
+msgstr "方向性模糊不依赖于应用它的列的运动和速度。"
+
+#: ../../source/applying_special_fx.rst:704
+msgid "Local Blur"
+msgstr "局部模糊"
+
+#: ../../source/applying_special_fx.rst:705
+msgid "|Local_Blur|"
+msgstr "|Local_Blur|"
+
+#: ../../source/applying_special_fx.rst:707
+msgid ""
+"Blurs the Source content according to the brightness value of the node content connected to the Reference input handle. The Intensity value amplifies uniformly the blur given by the Reference node "
+"content."
+msgstr "根据连接到参考输入端口的节点内容的亮度值来模糊源内容。强度值均匀地放大了由参考节点内容产生的模糊。"
+
+#: ../../source/applying_special_fx.rst:712
+msgid "Motion Blur"
+msgstr "运动模糊"
+
+#: ../../source/applying_special_fx.rst:713
+msgid ""
+"Creates a motion-blur effect, according to the movement of the Source content in the previous and current frame. The movement has to be defined by an animated column, pegbar or table: the higher the "
+"speed, the more visible the effect."
+msgstr "根据源内容在上一帧和当前帧中的移动创建运动模糊效果。运动必须由动画列、定位条或定位表定义：速度越快，效果越明显。"
+
+#: ../../source/applying_special_fx.rst:715
+msgid ""
+"If the movement is constant between consecutive frames, you can increase or decrease the Intensity to have a more or less visible effect. If there is no movement between the previous and the current "
+"frame, no motion blur will be visible even though you may have set a high Intensity."
+msgstr "如果连续帧之间的运动是恒定的，你可以增加或减少强度以获得或多或少的可见效果。如果上一帧和当前帧之间没有运动，即使你设置了高强度，也不会看到运动模糊。"
+
+#: ../../source/applying_special_fx.rst:717
+msgid "No result will be visible if the motion blur is applied to a column that always stands in the same position while the content is a level where the movement is drawn."
+msgstr "如果将运动模糊应用于始终处于同一位置的列，而内容是一个绘制了运动的层，则不会看到任何结果。"
+
+#: ../../source/applying_special_fx.rst:722
+msgid "Radial Blur"
+msgstr "径向模糊"
+
+#: ../../source/applying_special_fx.rst:723
+msgid "|Radial_Blur|"
+msgstr "|Radial_Blur|"
+
+#: ../../source/applying_special_fx.rst:725
+msgid "Blurs along radial lines whose origin is the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Radius."
+msgstr "沿着径向线模糊，其原点是由水平（X）和垂直（Y）坐标定义的设定中心，从由半径定义的不受影响的内部区域开始。"
+
+#: ../../source/applying_special_fx.rst:727 ../../source/applying_special_fx.rst:737
+msgid ""
+"The center and the radius can be also set by using a point and a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX "
+"Settings preview as well."
+msgstr "中心和半径也可以通过使用查看器中带手柄的点和小圆形工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）；也可以在特效设置预览中设置中心。"
+
+#: ../../source/applying_special_fx.rst:732
+msgid "Spin Blur"
+msgstr "旋转模糊"
+
+#: ../../source/applying_special_fx.rst:733
+msgid "|Spin_Blur|"
+msgstr "|Spin_Blur|"
+
+#: ../../source/applying_special_fx.rst:735
+msgid ""
+"Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by "
+"the Radius."
+msgstr "沿着同心圆线模糊，仿佛源内容围绕设定的中心旋转，中心由水平（X）和垂直（Y）坐标定义，从由半径定义的不受影响的内部区域开始。"
+
+#: ../../source/applying_special_fx.rst:743
+msgid "Distort"
+msgstr "扭曲"
+
+#: ../../source/applying_special_fx.rst:748
+msgid "Free Distort"
+msgstr "自由扭曲"
+
+#: ../../source/applying_special_fx.rst:749
+msgid "|Free_Distort|"
+msgstr "|Free_Distort|"
+
+#: ../../source/applying_special_fx.rst:751
+msgid ""
+"Distorts the Source content according to the position of four points, defined by horizontal (X) and vertical (Y) coordinates. For each point you can set the actual position and its origin, to "
+"determine which feature of the image will be distorted to the new position."
+msgstr "根据四个点的位置扭曲源内容，这些点由水平（X）和垂直（Y）坐标定义。对于每个点，你可以设置其实际位置和原点，以确定图像的哪些特征将被扭曲到新位置。"
+
+#: ../../source/applying_special_fx.rst:753
+msgid ""
+"The Mode option menu lets you set the way the distortion is applied: Bilinear distorts the images according to the four points end positions, and Perspective forces the distortion to fit a "
+"perspective projection plane."
+msgstr "模式选项菜单让你可以设置应用扭曲的方式：双线性根据四个点的最终位置扭曲图像，而透视则强制扭曲以适配透视投影平面。"
+
+#: ../../source/applying_special_fx.rst:755
+msgid "To better set the origin position for each point, you can use the Deactivate option that lets you see the image without distortion."
+msgstr "为了更好地设置每个点的原点位置，你可以使用停用选项，让你看到未扭曲的图像。"
+
+#: ../../source/applying_special_fx.rst:757
+msgid ""
+"The position of the four points and their origins can be also set by using arrow gadgets with handles at the ends in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX "
+"Settings preview as well."
+msgstr "四个点及其原点的位置也可以通过使用查看器中两端带手柄的箭头小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`），同样也可以在特效设置预览中设置。"
+
+#: ../../source/applying_special_fx.rst:762
+msgid "Linear Wave"
+msgstr "线性波纹"
+
+#: ../../source/applying_special_fx.rst:763
+msgid "|Linear_Wave|"
+msgstr "|Linear_Wave|"
+
+#: ../../source/applying_special_fx.rst:765
+msgid ""
+"Distorts the Source content creating a wave effect that uses an automatically generated displacement map image. The Quantity value sets the number of waves; the Period sets the distance between "
+"waves; the Phase shifts distortion in the wave direction."
+msgstr "扭曲源内容，创建使用自动生成的置换贴图图像的波纹效果。数量值设置波纹的数量；周期设置波纹之间的距离；相位沿波纹方向移动扭曲。"
+
+#: ../../source/applying_special_fx.rst:767
+msgid ""
+"You can also add a Transverse Wave on the main linear waves: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Cycle shifts the "
+"distorting waves."
+msgstr "你还可以在主线性波纹上添加横波：振幅设置扭曲的强度；频率设置产生扭曲的波纹数量；周期移动扭曲的波纹。"
+
+#: ../../source/applying_special_fx.rst:769
+msgid "A rotation for the whole wave effect can be set by using the Angle value."
+msgstr "可以使用角度值为整个波纹效果设置旋转。"
+
+#: ../../source/applying_special_fx.rst:771 ../../source/applying_special_fx.rst:799 ../../source/applying_special_fx.rst:813
+msgid "The amount of distortion is controlled by the Intensity value; the detail of the distortion, by the Sensitivity parameter; the Sharpen option allows you to decrease the blur on the final result."
+msgstr "扭曲量由强度值控制；扭曲的细节由敏感度参数控制；锐化选项允许你减少最终结果的模糊度。"
+
+#: ../../source/applying_special_fx.rst:776
+msgid "Perlin Noise"
+msgstr "柏林噪波"
+
+#: ../../source/applying_special_fx.rst:777
+msgid "|Perlin_Noise|"
+msgstr "|Perlin_Noise|"
+
+#: ../../source/applying_special_fx.rst:779
+msgid "Distorts the Source content by using a computer-generated displacement map image whose type can be chosen between Clouds and Marble/Wood."
+msgstr "使用计算机生成的置换贴图图像扭曲源内容，其类型可以在云彩和大理石/木材之间选择。"
+
+#: ../../source/applying_special_fx.rst:781
+msgid ""
+"The amount of distortion is controlled by the Intensity value; the , by the Size of the displacement map grid. The Horizontal and Vertical Offset, and the Evolution stage of the displacement map "
+"image can be controlled as well; by setting the variation of these values between two keys, you can set how much the displacement map moves and changes during the animation."
+msgstr ""
+"扭曲量由强度值控制；扭曲的细节由置换贴图网格的大小控制。水平和垂直偏移，以及置换贴图图像的演化阶段也可以控制；通过设置这些值在两个关键帧之间的变化，你可以设定置换贴图在动画过程中移动和变化的程度。"
+
+#: ../../source/applying_special_fx.rst:783
+msgid "The Alpha option adds also a transparency displacement to fully-opaque images."
+msgstr "Alpha选项也为完全不透明的图像添加透明度置换。"
+
+#: ../../source/applying_special_fx.rst:785
+msgid "The horizontal and vertical offset can also be set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "水平和垂直偏移也可以通过使用查看器中的点小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:790
+msgid "Random Wave"
+msgstr "随机波纹"
+
+#: ../../source/applying_special_fx.rst:791
+msgid "|Random_Wave|"
+msgstr "|Random_Wave|"
+
+#: ../../source/applying_special_fx.rst:793
+msgid ""
+"Distorts the Source content creating a random wave effect that uses an automatically generated displacement map image. It can be used, for instance, to create a reflection on a water surface, or an "
+"underwater view."
+msgstr "扭曲源内容，创建使用自动生成的置换贴图图像的随机波纹效果。例如，它可以用于创建水面反射或水下视图。"
+
+#: ../../source/applying_special_fx.rst:795 ../../source/applying_special_fx.rst:1605
+msgid ""
+"The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes "
+"during the animation."
+msgstr "置换贴图图像的演化阶段可以通过使用演化值来控制；通过设置该值在两个关键帧之间的变化，你可以设定置换贴图图像在动画过程中变化的程度。"
+
+#: ../../source/applying_special_fx.rst:797
+msgid ""
+"The position of the displacement map image can be shifted along the Horizontal and the Vertical axis. By setting the variation of this value between two keys, the distortion effect can be animated in "
+"any direction."
+msgstr "置换贴图图像的位置可以沿水平轴和垂直轴移动。通过设置该值在两个关键帧之间的变化，扭曲效果可以在任何方向进行动画。"
+
+#: ../../source/applying_special_fx.rst:801
+msgid "The position along the horizontal and vertical axis can also be set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "沿水平和垂直轴的位置也可以通过使用查看器中的点小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:806
+msgid "Ripple"
+msgstr "涟漪"
+
+#: ../../source/applying_special_fx.rst:807
+msgid "|Ripple|"
+msgstr "|Ripple|"
+
+#: ../../source/applying_special_fx.rst:809
+msgid ""
+"Distorts the Source content creating a circular wave effect that uses an automatically generated displacement map image. The Quantity value sets the number of ripples; the Period value sets the "
+"distance between ripples; the Cycle shifts the ripple distortion, with increasing values expanding the ripples, and decreasing values collapsing them."
+msgstr "扭曲源内容，创建使用自动生成的置换贴图图像的圆形波纹效果。数量值设置涟漪的数量；周期值设置涟漪之间的距离；周期移动涟漪扭曲，值增大会扩展涟漪，值减小会收缩涟漪。"
+
+#: ../../source/applying_special_fx.rst:811
+msgid "The Center of the circular waves can be set with a Horizontal and Vertical value; circular waves can be scaled in the Horizontal and Vertical directions, and rotated according to a set Angle."
+msgstr "圆形波纹的中心可以用水平和垂直值设置；圆形波纹可以在水平和垂直方向缩放，并根据设定的角度旋转。"
+
+#: ../../source/applying_special_fx.rst:815
+msgid ""
+"The center and the period can be also set by using a point and a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ); the center can be set in the FX "
+"Settings preview as well."
+msgstr "中心和周期也可以通过使用查看器中带手柄的点和小圆形工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）；也可以在特效设置预览中设置中心。"
+
+#: ../../source/applying_special_fx.rst:820
+msgid "Warp"
+msgstr "弯曲"
+
+#: ../../source/applying_special_fx.rst:821
+msgid "|Warp|"
+msgstr "|Warp|"
+
+#: ../../source/applying_special_fx.rst:823
+msgid "Distorts the Source content according to the brightness variation of the node content connected to the Warper input handle, that is used as a displacement map image affecting the Source content."
+msgstr "根据连接到弯曲器输入端口的节点内容的亮度变化来扭曲源内容，该节点内容用作影响源内容的置换贴图图像。"
+
+#: ../../source/applying_special_fx.rst:825
+msgid ""
+"The amount of distortion is controlled by the Intensity value; the detail of the warp, by the Size of the displacement map grid; the Sharpen option allows you to decrease the blur on the final result."
+msgstr "扭曲量由强度值控制；弯曲的细节由置换贴图网格的大小控制；锐化选项允许你减少最终结果的模糊度。"
+
+#: ../../source/applying_special_fx.rst:831
+msgid "Gradients"
+msgstr "渐变"
+
+#: ../../source/applying_special_fx.rst:836
+msgid "Diamond Gradient"
+msgstr "菱形渐变"
+
+#: ../../source/applying_special_fx.rst:837
+msgid "|Diamond_Gradient|"
+msgstr "|Diamond_Gradient|"
+
+#: ../../source/applying_special_fx.rst:839
+msgid ""
+"Creates a new column/layer containing a gradient, that goes hyperbolically from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums "
+"<defining_colors_and_color_spectrums>`  ) and a Size value."
+msgstr "创建一个包含渐变的新列/图层，该渐变从中心到四个角呈双曲线分布，由一个色阶（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）和一个大小值定义。"
+
+#: ../../source/applying_special_fx.rst:841
+msgid "The size can also be set by using a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "大小也可以通过使用查看器中带手柄的圆形小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:846
+msgid "Four Points Gradient"
+msgstr "四点渐变"
+
+#: ../../source/applying_special_fx.rst:847
+msgid "|Four_Points_Gradient|"
+msgstr "|Four_Points_Gradient|"
+
+#: ../../source/applying_special_fx.rst:849
+msgid ""
+"Creates a new column/layer containing a gradient defined by four Colors, defined by Red, Green, Blue and Alpha values, whose source Points can be placed where needed defining horizontal (X) and "
+"vertical (Y) coordinates."
+msgstr "创建一个包含由四种颜色定义的渐变的新列/图层，颜色由红、绿、蓝和Alpha值定义，其源点可以根据需要放置，定义水平（X）和垂直（Y）坐标。"
+
+#: ../../source/applying_special_fx.rst:851
+msgid "The source points can also be set by using point gadgets in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview as well."
+msgstr "源点也可以通过使用查看器中的点小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`），同样也可以在特效设置预览中设置。"
+
+#: ../../source/applying_special_fx.rst:856
+msgid "Linear Gradient"
+msgstr "线性渐变"
+
+#: ../../source/applying_special_fx.rst:857
+msgid "|Linear_Gradient|"
+msgstr "|Linear_Gradient|"
+
+#: ../../source/applying_special_fx.rst:859
+msgid "Creates a new column/layer containing a gradual blend between two Colors defined by Red, Green, Blue and Alpha values. The Size controls the area of the gradient between the two colors."
+msgstr "创建一个包含两种颜色之间逐渐混合的新列/图层，颜色由红、绿、蓝和Alpha值定义。大小控制两种颜色之间的渐变区域。"
+
+#: ../../source/applying_special_fx.rst:861
+msgid ""
+"You can also add a Distortion Wave on the linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts the "
+"distorting waves."
+msgstr "你还可以在线性渐变上添加扭曲波纹：振幅设置扭曲的强度；频率设置产生扭曲的波纹数量；相位移动扭曲的波纹。"
+
+#: ../../source/applying_special_fx.rst:863
+msgid "The size can also be set by using a gadget with two handles at the ends in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "大小也可以通过使用查看器中两端带手柄的小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:868
+msgid "Multi Linear Gradient"
+msgstr "多重线性渐变"
+
+#: ../../source/applying_special_fx.rst:869
+msgid "|Multi_Linear_Gradient|"
+msgstr "|Multi_Linear_Gradient|"
+
+#: ../../source/applying_special_fx.rst:871
+msgid ""
+"Creates a new column/layer containing a multi linear gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value "
+"sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors."
+msgstr "创建一个包含由色阶定义的多重线性渐变的新列/图层（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）。周期值设置色阶渐变的尺寸；数量是色阶重复的次数；相位移动渐变色。"
+
+#: ../../source/applying_special_fx.rst:873
+msgid ""
+"You can also add a Wave distortion on the multi linear gradient: the Amplitude sets the intensity of the distortion; the Frequency sets the number of waves creating the distortion; the Phase shifts "
+"the distorting waves."
+msgstr "你还可以在多重线性渐变上添加波纹扭曲：振幅设置扭曲的强度；频率设置产生扭曲的波纹数量；相位移动扭曲的波纹。"
+
+#: ../../source/applying_special_fx.rst:875
+msgid "The period can also be set by using a gadget with two handles at the ends in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )"
+msgstr "周期也可以通过使用查看器中两端带手柄的小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）"
+
+#: ../../source/applying_special_fx.rst:880
+msgid "Multi Radial Gradient"
+msgstr "多重径向渐变"
+
+#: ../../source/applying_special_fx.rst:881
+msgid "|Multi_Radial_Gradient|"
+msgstr "|Multi_Radial_Gradient|"
+
+#: ../../source/applying_special_fx.rst:883
+msgid ""
+"Creates a new column/layer containing a multi radial gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Period value "
+"sets the size of a spectrum gradient; the Quantity is the number of times the spectrum is repeated; the Phase shifts the gradient colors."
+msgstr "创建一个包含由色阶定义的多重径向渐变的新列/图层（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）。周期值设置色阶渐变的尺寸；数量是色阶重复的次数；相位移动渐变色。"
+
+#: ../../source/applying_special_fx.rst:885
+msgid "The period can be also set by using a circle gadget with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "周期也可以通过使用查看器中带手柄的圆形小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:890
+msgid "Radial Gradient"
+msgstr "径向渐变"
+
+#: ../../source/applying_special_fx.rst:891
+msgid "|Radial_Gradient|"
+msgstr "|Radial_Gradient|"
+
+#: ../../source/applying_special_fx.rst:893
+msgid ""
+"Creates a new column/layer containing a gradual blend between two colors, defined by Red, Green, Blue and Alpha values, shading them in a circular pattern. The Inner Size controls the area where the "
+"gradient between the two colors begins; the Outer Size where it ends."
+msgstr "创建一个包含两种颜色之间逐渐混合的新列/图层，颜色由红、绿、蓝和Alpha值定义，以圆形图案着色。内部大小控制两种颜色之间渐变开始的区域；外部大小控制渐变结束的区域。"
+
+#: ../../source/applying_special_fx.rst:895
+msgid "The inner and outer sizes can be also set by using circle gadgets with a handle in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "内部和外部大小也可以通过使用查看器中带手柄的圆形小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:900
+msgid "Spiral"
+msgstr "螺旋"
+
+#: ../../source/applying_special_fx.rst:901
+msgid "|Spiral|"
+msgstr "|Spiral|"
+
+#: ../../source/applying_special_fx.rst:903
+msgid ""
+"Creates a new column/layer containing a spiral pattern gradient defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ). The Frequency "
+"sets the size and number of the spires; the Phase shifts the gradient colors."
+msgstr "创建一个包含由色阶定义的螺旋图案渐变的新列/图层（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）。频率设置螺旋的大小和数量；相位移动渐变色。"
+
+#: ../../source/applying_special_fx.rst:908
+msgid "Square Gradient"
+msgstr "方形渐变"
+
+#: ../../source/applying_special_fx.rst:909
+msgid "|Square_Gradient|"
+msgstr "|Square_Gradient|"
+
+#: ../../source/applying_special_fx.rst:911
+msgid ""
+"Creates a new column/layer containing a square gradient, that goes linearly from the center to the four corners, defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums "
+"<defining_colors_and_color_spectrums>`  ) and a Size value."
+msgstr "创建一个包含方形渐变的新列/图层，该渐变从中心到四个角线性分布，由一个色阶（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）和一个大小值定义。"
+
+#: ../../source/applying_special_fx.rst:913
+msgid "The size can also be set by using a rotated square gadget with handles in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "大小也可以通过使用查看器中带手柄的旋转方形小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:919
+msgid "Image Adjust"
+msgstr "图像调整"
+
+#: ../../source/applying_special_fx.rst:922
+msgid "Adjust Levels"
+msgstr "调整色阶"
+
+#: ../../source/applying_special_fx.rst:923
+msgid "|Adjust_Levels|"
+msgstr "|Adjust_Levels|"
+
+#: ../../source/applying_special_fx.rst:925
+msgid ""
+"Adjusts the highlights and shadows of the Source content by remapping pixels intensity according to the Input and Output levels values for the RGB, Red, Green, Blue and Alpha channels; it also "
+"controls the Gamma value for each channel separately."
+msgstr "通过根据RGB、红、绿、蓝和Alpha通道的输入和输出色阶值重新映射像素强度来调整源内容的高光和阴影；它还分别控制每个通道的Gamma值。"
+
+#: ../../source/applying_special_fx.rst:927
+msgid ""
+"For each channel the Input values remaps pixel intensity whose value is equal or lower than the Minimum value, to 0, and those whose value is equal or higher than the Maximum value, to 255. This may "
+"be helpful to increase the contrast of an image."
+msgstr "对于每个通道，输入值将强度值等于或低于最小值的像素重新映射为0，将强度值等于或高于最大值的像素重新映射为255。这可能有助于增加图像的对比度。"
+
+#: ../../source/applying_special_fx.rst:929
+msgid ""
+"For each channel the Output values remaps pixel intensity whose value is lower than the Minimum value, to the Minimum value, and those whose value is higher than the Maximum value, to the Maximum "
+"value. This may be helpful to decrease the contrast of an image."
+msgstr "对于每个通道，输出值将强度值低于最小值的像素重新映射为最小值，将强度值高于最大值的像素重新映射为最大值。这可能有助于降低图像的对比度。"
+
+#: ../../source/applying_special_fx.rst:934
+msgid "Brightness & Contrast"
+msgstr "亮度与对比度"
+
+#: ../../source/applying_special_fx.rst:935
+msgid "|Brightness_&_Contrast|"
+msgstr "|Brightness_&_Contrast|"
+
+#: ../../source/applying_special_fx.rst:937
+msgid "Increases or decreases the brightness and contrast of the Source content."
+msgstr "增加或减少源内容的亮度和对比度。"
+
+#: ../../source/applying_special_fx.rst:942
+msgid "Channel Mixer"
+msgstr "通道混合器"
+
+#: ../../source/applying_special_fx.rst:943
+msgid "|Channel_Mixer|"
+msgstr "|Channel_Mixer|"
+
+#: ../../source/applying_special_fx.rst:945
+msgid ""
+"Swaps the channels of the Source content. For each channel you can set if it remains as it is, or if you want it to have another channel mixed. For example to leave the red channel as it is, Red to "
+"Red is 1, the other channels to Red are 0; by setting Green to Red to 0.5 adds half intensity of the green channel to the red one."
+msgstr ""
+"交换源内容的通道。对于每个通道，你可以设置它保持不变，或者你想让它混合另一个通道。例如，要让红色通道保持不变，红到红设为1，其他通道到红设为0；将绿到红设为0.5则会将绿色通道的一半强度加到红色通道上。"
+
+#: ../../source/applying_special_fx.rst:947
+msgid "It can be used for example to create a black and white key for an image with the alpha channel, by setting all the values to 0 but the Alpha to Red, Green, Blue and Alpha to 1."
+msgstr "例如，它可以用来为带有Alpha通道的图像创建黑白键，将所有值设为0，但Alpha到红、绿、蓝和Alpha设为1。"
+
+#: ../../source/applying_special_fx.rst:952
+msgid "Curves"
+msgstr "曲线"
+
+#: ../../source/applying_special_fx.rst:953
+msgid "|Curves|"
+msgstr "|Curves|"
+
+#: ../../source/applying_special_fx.rst:955
+msgid "Adjusts the tonal range of the *Source* content by remapping pixels intensity according to a tonal curve for the RGB, Red, Green, Blue and Alpha channels."
+msgstr "通过根据RGB、红、绿、蓝和Alpha通道的色调曲线重新映射像素强度来调整*源*内容的色调范围。"
+
+#: ../../source/applying_special_fx.rst:957
+msgid "The horizontal axis of the graph represents the original brightness levels of the pixels (*Input* levels); the vertical axis represents the new brightness levels (*Output* levels)."
+msgstr "图表的水平轴代表像素的原始亮度级别（*输入*色阶）；垂直轴代表新的亮度级别（*输出*色阶）。"
+
+#: ../../source/applying_special_fx.rst:959
+msgid "The default diagonal line indicates that no pixels are mapped to new values, so all pixels have the same Input and Output values."
+msgstr "默认的对角线表示没有像素被映射到新值，因此所有像素的输入和输出值相同。"
+
+#: ../../source/applying_special_fx.rst:961
+msgid ""
+"It is possible to use many adjustment points to correct the curve: to *add* a point, click the curve; to change the curvature, use the point tangent handles; to *delete* a point, select it and use "
+"the delete shortcut (by default the Delete key)."
+msgstr "可以使用多个调整点来校正曲线：要*添加*点，点击曲线；要改变曲率，使用点的切线手柄；要*删除*点，选中它并使用删除快捷键（默认是Delete键）。"
+
+#: ../../source/applying_special_fx.rst:963
+msgid "The **Linear** option constrains the curve to a series of straight segments."
+msgstr "**线性**选项将曲线约束为一系列直线段。"
+
+#: ../../source/applying_special_fx.rst:968
+msgid "Despeckle"
+msgstr "去斑"
+
+#: ../../source/applying_special_fx.rst:969
+msgid "|Despeckle|"
+msgstr "|Despeckle|"
+
+#: ../../source/applying_special_fx.rst:971
+msgid ""
+"Elimantes small imperfections (dirt, scratches, stains and similar) of the drawing. The size in pixels of the details that will be retouched can be defined in the Size input text field. The "
+"background of the images can be Transparent or White, the choice is available in the Detect On menu."
+msgstr "消除绘图中的小瑕疵（污点、划痕、污渍等）。将在大小输入文本字段中定义要进行修饰的细节的像素大小。图像的背景可以是透明或白色，选择可在检测依据菜单中找到。"
+
+#: ../../source/applying_special_fx.rst:973
+msgid "In the preview area is possible to check the results to avoid erasing details relevant for the drawing."
+msgstr "在预览区域可以检查结果，以避免擦除与绘图相关的细节。"
+
+#: ../../source/applying_special_fx.rst:978
+msgid "Gamma"
+msgstr "伽马"
+
+#: ../../source/applying_special_fx.rst:979
+msgid "|Gamma|"
+msgstr "|Gamma|"
+
+#: ../../source/applying_special_fx.rst:981
+msgid "Changes the gamma value of the Source content."
+msgstr "更改源内容的伽马值。"
+
+#: ../../source/applying_special_fx.rst:986
+msgid "HSV Scale"
+msgstr "HSV缩放"
+
+#: ../../source/applying_special_fx.rst:987
+msgid "|HSV_Scale|"
+msgstr "|HSV_Scale|"
+
+#: ../../source/applying_special_fx.rst:989
+msgid "Shifts the Hue, Saturation and Value values of the Source content. Hue ranges from -180 to 180; Saturation and Value from -100 to 100. All the three settings preserve their original value at 0."
+msgstr "移动源内容的色相、饱和度和明度值。色相范围从-180到180；饱和度和明度从-100到100。所有三个设置在0时保持其原始值。"
+
+#: ../../source/applying_special_fx.rst:994
+msgid "Invert"
+msgstr "反相"
+
+#: ../../source/applying_special_fx.rst:995
+msgid "|Invert|"
+msgstr "|Invert|"
+
+#: ../../source/applying_special_fx.rst:997
+msgid "Inverts the color values of the Source content, e.g. makes a positive black and white image negative, or a positive one from a scanned black and white negative."
+msgstr "反转源内容的颜色值，例如，将正片黑白图像变为负片，或将扫描的黑白负片变为正片。"
+
+#: ../../source/applying_special_fx.rst:1002
+msgid "Multitone"
+msgstr "多重色调"
+
+#: ../../source/applying_special_fx.rst:1003
+msgid "|Multitone|"
+msgstr "|Multitone|"
+
+#: ../../source/applying_special_fx.rst:1005
+msgid ""
+"Applies to the Source content the colors defined by a color spectrum (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  ) according to the image brightness. The "
+"original image is turned into black and white and the color on the far left of the spectrum will be use for black pixels, the color on the far right for white pixels, and in-between colors for in-"
+"between grey pixels."
+msgstr ""
+"根据图像亮度，将色阶定义的颜色（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）应用于源内容。原始图像转换为黑白，色阶最左侧的颜色将用于黑色像素，最右侧的颜色用于白色像素，中间颜色用"
+"于中间灰色像素。"
+
+#: ../../source/applying_special_fx.rst:1010
+msgid "RGBA Cut"
+msgstr "RGBA剪切"
+
+#: ../../source/applying_special_fx.rst:1011
+msgid "|RGBA_Cut|"
+msgstr "|RGBA_Cut|"
+
+#: ../../source/applying_special_fx.rst:1013
+msgid ""
+"Delimits the Minimum and the Maximum values of the Red, Green, Blue and Alpha components of the Source content. The maximum can be decreased from 255, the original value, to 0, when no red, green, "
+"blue or alpha component will be visible. The minimum can be increased from 0, the original value, to 255, when the red, green, blue components will be saturated, and alpha will be fully opaque."
+msgstr "划定源内容的红、绿、蓝和Alpha分量的最小值和最大值。最大值可以从原始值255降低到0，此时将看不到红、绿、蓝或Alpha分量。最小值可以从原始值0增加到255，此时红、绿、蓝分量将饱和，Alpha将完全不透明。"
+
+#: ../../source/applying_special_fx.rst:1018
+msgid "RGB Fade"
+msgstr "RGB淡出"
+
+#: ../../source/applying_special_fx.rst:1019
+msgid "|RGB_Fade|"
+msgstr "|RGB_Fade|"
+
+#: ../../source/applying_special_fx.rst:1021
+msgid "Fades the Source content toward a color defined by Red, Green and Blue values. The Intensity, expressed as a percentage, ranges from 0 (no fade) to 100 (fade to full color)."
+msgstr "将源内容淡出到由红、绿、蓝值定义的颜色。强度以百分比表示，范围从0（无淡出）到100（淡出到全色）。"
+
+#: ../../source/applying_special_fx.rst:1026
+msgid "RGBA Scale"
+msgstr "RGBA缩放"
+
+#: ../../source/applying_special_fx.rst:1027
+msgid "|RGBA_Scale|"
+msgstr "|RGBA_Scale|"
+
+#: ../../source/applying_special_fx.rst:1029
+msgid "Changes the percentage of the Red, Green, Blue and Alpha components of the Source content. At 0 there is no red, green, blue or alpha component; at 100 the components have their original value."
+msgstr "更改源内容的红、绿、蓝和Alpha分量的百分比。在0时，没有红、绿、蓝或Alpha分量；在100时，分量具有其原始值。"
+
+#: ../../source/applying_special_fx.rst:1034
+msgid "Sharpen"
+msgstr "锐化"
+
+#: ../../source/applying_special_fx.rst:1035
+msgid "|Sharpen|"
+msgstr "|Sharpen|"
+
+#: ../../source/applying_special_fx.rst:1037
+msgid "Increases the sharpness of the Source content according to a specific Intensity."
+msgstr "根据特定强度增加源内容的锐度。"
+
+#: ../../source/applying_special_fx.rst:1042
+msgid "Layer Blending"
+msgstr "图层混合"
+
+#: ../../source/applying_special_fx.rst:1046
+msgid "Add"
+msgstr "相加"
+
+#: ../../source/applying_special_fx.rst:1047
+msgid "|Add|"
+msgstr "|Add|"
+
+#: ../../source/applying_special_fx.rst:1049
+msgid "Adds the red, green and blue values of the Up node content to the Down one, pixel by pixel."
+msgstr "将上节点内容的红、绿、蓝值逐个像素地加到下节点内容上。"
+
+#: ../../source/applying_special_fx.rst:1051
+msgid "If no Down node is defined, the adding operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order."
+msgstr "如果未定义下节点，则相加操作将根据Xsheet/时间轴图层顺序应用于上节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1053
+msgid "The Intensity value expresses the percentage of values used in the addition; a negative value defines a subtraction instead of an addition."
+msgstr "强度值表示在加法中使用的值百分比；负值定义的是减法而不是加法。"
+
+#: ../../source/applying_special_fx.rst:1058
+msgid "Color Burn"
+msgstr "颜色加深"
+
+#: ../../source/applying_special_fx.rst:1059
+msgid "|Color_Burn|"
+msgstr "|Color_Burn|"
+
+#: ../../source/applying_special_fx.rst:1061
+msgid "Darkens the pixel colors of the Down node content in order to reflect the color of the Up node content. The white in the Up node content does not affect the result."
+msgstr "加深下节点内容的像素颜色以反映上节点内容的颜色。上节点内容中的白色不影响结果。"
+
+#: ../../source/applying_special_fx.rst:1063
+msgid "If no Down node is defined, the color burning operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order."
+msgstr "如果未定义下节点，则颜色加深操作将根据Xsheet/时间轴图层顺序应用于上节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1068
+msgid "Color Dodge"
+msgstr "颜色减淡"
+
+#: ../../source/applying_special_fx.rst:1069
+msgid "|Color_Dodge|"
+msgstr "|Color_Dodge|"
+
+#: ../../source/applying_special_fx.rst:1071
+msgid "Brightens the pixel colors of the Down node content in order to reflect the color of the Up node content. The black in the up node content does not affect the result."
+msgstr "提亮下节点内容的像素颜色以反映上节点内容的颜色。上节点内容中的黑色不影响结果。"
+
+#: ../../source/applying_special_fx.rst:1073
+msgid "If no Down node is defined, the color dodging operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order."
+msgstr "如果未定义下节点，则颜色减淡操作将根据Xsheet/时间轴图层顺序应用于上节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1078
+msgid "Cross Dissolve"
+msgstr "交叉溶解"
+
+#: ../../source/applying_special_fx.rst:1079
+msgid "|Cross_Dissolve|"
+msgstr "|Cross_Dissolve|"
+
+#: ../../source/applying_special_fx.rst:1081
+msgid "Creates a cross-dissolve between the Up and Down node content. When the Intensity value is 0, only the Down node content is visible; when it is 100, only the Up one."
+msgstr "在上节点内容和下节点内容之间创建交叉溶解。当强度值为0时，仅显示下节点内容；当为100时，仅显示上节点内容。"
+
+#: ../../source/applying_special_fx.rst:1086
+msgid "Darken"
+msgstr "变暗"
+
+#: ../../source/applying_special_fx.rst:1087
+msgid "|Darken|"
+msgstr "|Darken|"
+
+#: ../../source/applying_special_fx.rst:1089
+msgid ""
+"Compares the pixels color of the Up and Down node content and selects the darker one as the result color. The white in the Up node content does not affect the result; the black gives a black result."
+msgstr "比较上节点和下节点内容的像素颜色，并选择较暗的作为结果颜色。上节点内容中的白色不影响结果；黑色产生黑色结果。"
+
+#: ../../source/applying_special_fx.rst:1091
+msgid "If only one node is defined, the darkening operation is applied to all the images underlaying its content according to the Xsheet/Timeline layering order."
+msgstr "如果只定义了一个节点，则变暗操作将根据Xsheet/时间轴图层顺序应用于其内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1096
+msgid "Lighten"
+msgstr "变亮"
+
+#: ../../source/applying_special_fx.rst:1097
+msgid "|Lighten|"
+msgstr "|Lighten|"
+
+#: ../../source/applying_special_fx.rst:1099
+msgid ""
+"Compares the pixels color of the Up and Down node content and selects the lighter one as the result color. The black in the Up node content does not affect the result; the white gives a white result."
+msgstr "比较上节点和下节点内容的像素颜色，并选择较亮的作为结果颜色。上节点内容中的黑色不影响结果；白色产生白色结果。"
+
+#: ../../source/applying_special_fx.rst:1101
+msgid "If only one node is defined, the lightening operation is applied to all the images underlaying the connected node according to the Xsheet/Timeline layering order."
+msgstr "如果只定义了一个节点，则变亮操作将根据Xsheet/时间轴图层顺序应用于该连接节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1106
+msgid "Local Transparency"
+msgstr "局部透明度"
+
+#: ../../source/applying_special_fx.rst:1107
+msgid "|Local_Transparency|"
+msgstr "|Local_Transparency|"
+
+#: ../../source/applying_special_fx.rst:1109
+msgid "Applies a transparency to the Source content according to the brightness value of the node content connected to the Reference input port."
+msgstr "根据连接到参考输入端口的节点内容的亮度值向源内容应用透明度。"
+
+#: ../../source/applying_special_fx.rst:1111
+msgid "The Intensity value amplifies uniformly the transparency given by the Reference node content."
+msgstr "强度值均匀地放大了由参考节点内容提供的透明度。"
+
+#: ../../source/applying_special_fx.rst:1116
+msgid "Multiply"
+msgstr "相乘"
+
+#: ../../source/applying_special_fx.rst:1117
+msgid "|Multiply|"
+msgstr "|Multiply|"
+
+#: ../../source/applying_special_fx.rst:1119
+msgid "Multiplies the red, green, blue and alpha values of the connected noded content."
+msgstr "相乘连接节点内容的红、绿、蓝和Alpha值。"
+
+#: ../../source/applying_special_fx.rst:1121
+msgid "The Intensity value expresses the percentage of values used in the multiplication. By activating the Alpha option, also the alpha information is considered."
+msgstr "强度值表示在乘法中使用的值百分比。激活Alpha选项后，Alpha信息也会被考虑在内。"
+
+#: ../../source/applying_special_fx.rst:1123
+msgid "If only one node is defined, the multiplying operation is applied to all the images underlaying theupper node content according to the Xsheet/Timeline layering order."
+msgstr "如果只定义了一个节点，则相乘操作将根据Xsheet/时间轴图层顺序应用于上层节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1128
+msgid "Over"
+msgstr "上方叠加"
+
+#: ../../source/applying_special_fx.rst:1129
+msgid "|Over|"
+msgstr "|Over|"
+
+#: ../../source/applying_special_fx.rst:1131
+msgid ""
+"Puts the connected nodes one over the other. Each time a node is connected a new port will be added, this way the overlap of columns can be defined regardless from the Xsheet columns (or Timeline "
+"layers) order. The contents order is up to bottom, where the node connected on the upper port will be over the other ones. This can be used when you need to combine several nodes in a single one, for "
+"example to mask several columns with the same mask."
+msgstr ""
+"将连接的节点一个放在另一个上方。每次连接一个节点时都会添加一个新端口，这样无论Xsheet列（或时间轴图层）的顺序如何，都可以定义列的重叠。内容顺序是从上到下，连接在上方端口的节点将位于其他节点之上。当需要"
+"将多个节点组合成一个时可以使用此功能，例如用同一个遮罩遮罩多个列。"
+
+#: ../../source/applying_special_fx.rst:1136
+msgid "Premultiply"
+msgstr "预乘"
+
+#: ../../source/applying_special_fx.rst:1137
+msgid "Premultiplies the alpha channel of the Source node content."
+msgstr "预乘源节点内容的Alpha通道。"
+
+#: ../../source/applying_special_fx.rst:1139
+msgid ""
+"Full-color images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where "
+"there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply effect it is possible to transform the image alpha-channel so "
+"that it is correctly read by OpenToonz."
+msgstr ""
+"具有有意义Alpha通道的全彩图像有两种类型：预乘或非预乘。非预乘图像在加载到OpenToonz时可以识别，因为其边缘一侧完全透明而另一侧不透明，边缘不光滑，显示为实心光晕。使用预乘效果可以转换图像的Alpha通道，使"
+"其被OpenToonz正确读取。"
+
+#: ../../source/applying_special_fx.rst:1141
+msgid ""
+"Full-color images can also be premultiplied by using a Level Settings option, or processed permanently in the browser, so that there is no need to apply the effect in the schematic (see  :ref:"
+"`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the File Browser <using_the_file_browser>`  )."
+msgstr ""
+"全彩图像也可以通过使用层设置选项进行预乘，或在浏览器中进行永久处理，这样就无需在示意图中应用特效（参见 :ref:`编辑层设置 <editing_level_settings>` 和 :ref:`使用文件浏览器 <using_the_file_browser>`）。"
+
+#: ../../source/applying_special_fx.rst:1146
+msgid "Screen"
+msgstr "滤色"
+
+#: ../../source/applying_special_fx.rst:1147
+msgid "|Screen|"
+msgstr "|Screen|"
+
+#: ../../source/applying_special_fx.rst:1149
+msgid ""
+"Combines by multiplying the inverse of the pixels color of the Up and Down node content, giving a result color that is lighter than both Up and Down node pixels, except when one of them equals 0. The "
+"black in the Up node content does not affect the result; the white gives a white result."
+msgstr "通过相乘上节点和下节点内容的像素颜色的反色来组合，产生比上节点和下节点像素都亮的结果颜色，除非其中一方等于0。上节点内容中的黑色不影响结果；白色产生白色结果。"
+
+#: ../../source/applying_special_fx.rst:1151
+msgid "If no Down node is defined, the screening operation is applied to all the images underlaying the Up node content according to the Xsheet/Timeline layering order."
+msgstr "如果未定义下节点，则滤色操作将根据Xsheet/时间轴图层顺序应用于上节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1156
+msgid "Subtract"
+msgstr "相减"
+
+#: ../../source/applying_special_fx.rst:1157
+msgid "|Subtract|"
+msgstr "|Subtract|"
+
+#: ../../source/applying_special_fx.rst:1159
+msgid "Subtracts the red, green and blue values of the Up node content from the Down one, pixel by pixel. By activating the Alpha option, also the alpha information is considered."
+msgstr "将下节点内容的红、绿、蓝值逐个像素地减去上节点内容的值。激活Alpha选项后，Alpha信息也会被考虑在内。"
+
+#: ../../source/applying_special_fx.rst:1161
+msgid "If only one node is defined, the subtraction operation is applied to all the images underlaying connected node content according to the Xsheet/Timeline layering order."
+msgstr "如果只定义了一个节点，则相减操作将根据Xsheet/时间轴图层顺序应用于该连接节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1166
+msgid "Transparency"
+msgstr "透明度"
+
+#: ../../source/applying_special_fx.rst:1167
+msgid "|Transparency|"
+msgstr "|Transparency|"
+
+#: ../../source/applying_special_fx.rst:1169
+msgid "Sets the transparency of the Source content. The Intensity, expressed as a percentage, ranges from 0, fully opaque, to 100, fully transparent."
+msgstr "设置源内容的透明度。强度以百分比表示，范围从0（完全不透明）到100（完全透明）。"
+
+#: ../../source/applying_special_fx.rst:1175
+msgid "Light"
+msgstr "光照"
+
+#: ../../source/applying_special_fx.rst:1180
+msgid "Backlit"
+msgstr "背光"
+
+#: ../../source/applying_special_fx.rst:1181
+msgid "|Backlit|"
+msgstr "|Backlit|"
+
+#: ../../source/applying_special_fx.rst:1183
+msgid ""
+"Creates a backlit effect, using the Light node content as a light source affecting the Source node content by the set Intensity. The light node content can be also faded to a Color defined by Red, "
+"Green and Blue values, according to the set Fade."
+msgstr "创建背光效果，使用光节点内容作为光源，以设定的强度影响源节点内容。光节点内容也可以根据设定的淡出值淡出到由红、绿、蓝值定义的颜色。"
+
+#: ../../source/applying_special_fx.rst:1188
+msgid "Body Highlight"
+msgstr "主体高光"
+
+#: ../../source/applying_special_fx.rst:1189
+msgid "|Body_Highlight|"
+msgstr "|Body_Highlight|"
+
+#: ../../source/applying_special_fx.rst:1191
+msgid "Creates a highlighted area for the Source node content, according to its alpha channel. You can set the Color of the highlight, as well as a Transparency and a Blur value to be applied."
+msgstr "根据源节点内容的Alpha通道为其创建高光区域。你可以设置高光的颜色，以及要应用的透明度和模糊值。"
+
+#: ../../source/applying_special_fx.rst:1193
+msgid ""
+"The shifting of the highlighted area is defined by horizontal (X) and vertical (Y) Offset values, that can also be interactively set in the preview of the FX Settings window, where the offset center "
+"is displayed with a cross."
+msgstr "高光区域的偏移由水平（X）和垂直（Y）偏移值定义，这些值也可以在特效设置窗口的预览中交互式地设置，偏移中心以十字显示。"
+
+#: ../../source/applying_special_fx.rst:1195
+msgid "Enabling the Invert option the effected areas will be toggled."
+msgstr "启用反转选项将切换受影响的区域。"
+
+#: ../../source/applying_special_fx.rst:1197
+msgid "The effect can be used to create a body shadow as well, by defining a black color for the highlight."
+msgstr "该效果也可用于创建主体阴影，只需为高光定义黑色即可。"
+
+#: ../../source/applying_special_fx.rst:1202
+msgid "Cast Shadow"
+msgstr "投射阴影"
+
+#: ../../source/applying_special_fx.rst:1203
+msgid "|Cast_Shadow|"
+msgstr "|Cast_Shadow|"
+
+#: ../../source/applying_special_fx.rst:1205
+msgid "Turns the Source content into a shadow that can be distorted and faded to a color with a variable transparency and blur."
+msgstr "将源内容转换为阴影，该阴影可以扭曲并淡出到一种颜色，具有可变的透明度和模糊度。"
+
+#: ../../source/applying_special_fx.rst:1207
+msgid ""
+"The distortion can be done like in the Free Distort effect (see  :ref:`Free Distort <free_distort>`  ). The fade Color can be defined by Red, Green and Blue values and a Fade intensity can be set. A "
+"different Blur and Transparency value can be set for the top and the bottom part of the Source content, in order to have a more realistic shadow."
+msgstr "扭曲可以像自由扭曲效果一样完成（参见 :ref:`自由扭曲 <free_distort>`）。淡出颜色可以由红、绿、蓝值定义，并可设置淡出强度。可以为源内容的上部和下部设置不同的模糊和透明度值，以获得更真实的阴影。"
+
+#: ../../source/applying_special_fx.rst:1212
+msgid "Glow"
+msgstr "辉光"
+
+#: ../../source/applying_special_fx.rst:1213
+msgid "|Glow|"
+msgstr "|Glow|"
+
+#: ../../source/applying_special_fx.rst:1215
+msgid ""
+"Creates a glowing effect, using the Light node content as a light glowing on the node content connected to the Source input port. The Blur and Brightness of the glowing can be set; the Light node "
+"content can be also faded to a color defined by Red, Green and Blue values, according to the set Intensity."
+msgstr "创建辉光效果，使用光节点内容作为发光源，照射在连接到源输入端口的节点内容上。可以设置辉光的模糊度和亮度；光节点内容也可以根据设定的强度淡出到由红、绿、蓝值定义的颜色。"
+
+#: ../../source/applying_special_fx.rst:1217
+msgid "If no Source node is defined, the glowing is applied to all the images underlaying the Light node content according to the Xsheet/Timeline layering order."
+msgstr "如果未定义源节点，则辉光将根据Xsheet/时间轴图层顺序应用于光节点内容下方的所有图像。"
+
+#: ../../source/applying_special_fx.rst:1222
+msgid "Light Spot"
+msgstr "光斑"
+
+#: ../../source/applying_special_fx.rst:1223
+msgid "|Light_Spot|"
+msgstr "|Light_Spot|"
+
+#: ../../source/applying_special_fx.rst:1225
+msgid ""
+"Creates a new column/layer containing a light spot whose size and color can be set respectively with the Width and Height values, and the Reg, Green, Blue and Alpha values. The Softness sets the "
+"light diffusion in the area outside the spot."
+msgstr "创建一个包含光斑的新列/图层，其大小和颜色可以分别用宽度和高度值以及红、绿、蓝和Alpha值设置。柔化度设置光斑外部区域的光线扩散。"
+
+#: ../../source/applying_special_fx.rst:1227
+msgid "The width and height can be also set by using a box gadget with handles in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr "宽度和高度也可以通过使用查看器中带手柄的方框小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`）。"
+
+#: ../../source/applying_special_fx.rst:1232
+msgid "Raylit"
+msgstr "光线照射"
+
+#: ../../source/applying_special_fx.rst:1233
+msgid "|Raylit|"
+msgstr "|Raylit|"
+
+#: ../../source/applying_special_fx.rst:1235
+msgid "Places a source of light behind the Source node content, casting rays of light outside or inside the image outline."
+msgstr "在源节点内容后方放置一个光源，将光线投射到图像轮廓的外部或内部。"
+
+#: ../../source/applying_special_fx.rst:1237 ../../source/applying_special_fx.rst:1257
+msgid ""
+"The light source position is defined by horizontal (X) and vertical (Y) coordinates. By changing the light source position you change the way rays are cast along the image outline; by changing the "
+"Distance value you can make the light source approach to or go away from the image."
+msgstr "光源位置由水平（X）和垂直（Y）坐标定义。改变光源位置会改变光线沿图像轮廓投射的方式；改变距离值可以使光源接近或远离图像。"
+
+#: ../../source/applying_special_fx.rst:1239
+msgid ""
+"Properties of the light can be set by defining the Intensity, the Color, that is set by Red, Green, Blue and Alpha values, the Decay, that is the decrease of the light intensity according to its "
+"distance from the image, and the Smoothness, that determines how sharp the rays are along the image outline."
+msgstr "可以通过定义强度、颜色（由红、绿、蓝和Alpha值设置）、衰减（根据与图像距离减少光强度）以及平滑度（决定沿图像轮廓的光线锐利程度）来设置光的属性。"
+
+#: ../../source/applying_special_fx.rst:1241
+msgid "The Invert option switches the casting of rays of light from the outside of the image to the inside."
+msgstr "反转选项将光线投射从图像外部切换到内部。"
+
+#: ../../source/applying_special_fx.rst:1243 ../../source/applying_special_fx.rst:1263
+msgid "The Keep Image check-box determines if the original drawing is rendered in the output or not."
+msgstr "保留图像复选框决定原始绘图是否在输出中渲染。"
+
+#: ../../source/applying_special_fx.rst:1245
+msgid "The center can be also set by using a point gadget in the Viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  ) and in the FX Settings preview."
+msgstr "中心也可以通过使用查看器中的点小工具来设置（参见 :ref:`使用特效小工具 <using_fx_gadgets>`），同样也可以在特效设置预览中设置。"
+
+#: ../../source/applying_special_fx.rst:1247
+msgid "The Source node content needs to have a significant alpha channel in order to have an effective result."
+msgstr "源节点内容需要具有显著的Alpha通道才能获得有效的结果。"
+
+#: ../../source/applying_special_fx.rst:1252
+msgid "Color Raylit"
+msgstr "彩色光线照射"
+
+#: ../../source/applying_special_fx.rst:1253
+msgid "|Color_Raylit|"
+msgstr "|Color_Raylit|"
+
+#: ../../source/applying_special_fx.rst:1255
+msgid "Places a source of light behind the Source node content, casting rays of light outside the image outline."
+msgstr "在源节点内容后方放置一个光源，将光线投射到图像轮廓的外部。"
+
+#: ../../source/applying_special_fx.rst:1259
+msgid "The colours of the rays are calculated from the original drawing colours."
+msgstr "光线的颜色是根据原始绘图的颜色计算得出的。"
+
+#: ../../source/applying_special_fx.rst:1261
+msgid ""
+"Properties of the light can be set by defining the Intensity, the Decay, that is the decrease of the light intensity according to its distance from the image, and the Smoothness, that determines how "
+"sharp the rays are along the image outline."
+msgstr "可以通过定义强度、衰减（根据与图像距离减少光强度）以及平滑度（决定沿图像轮廓的光线锐利程度）来设置光的属性。"
+
+#: ../../source/applying_special_fx.rst:1268
+msgid "Target Spot"
+msgstr "目标光斑"
+
+#: ../../source/applying_special_fx.rst:1269
+msgid "|Target_Spot|"
+msgstr "|Target_Spot|"
+
+#: ../../source/applying_special_fx.rst:1271
+msgid ""
+"Creates a new column/layer containing a light spot whose size and color can be set respectively with the Width and Height values, and the Red, Green, Blue and Alpha values. The direction of the spot "
+"can be set by defining the Distance of the light from the table and the Angle between the light spot direction and the table. The Decay, that is the decrease of the light intensity according to the "
+"distance from table, can be controlled as well."
+msgstr ""
+"创建一个包含光斑的新列/图层，其大小和颜色可以分别用宽度和高度值以及红、绿、蓝和Alpha值设置。光斑的方向可以通过定义光线与桌面的距离以及光斑方向与桌面之间的角度来设置。衰减（根据与桌面距离减少光强度）也"
+"可以控制。"
+
+#: ../../source/applying_special_fx.rst:1277
+msgid "Matte"
+msgstr "遮罩"
+
+#: ../../source/applying_special_fx.rst:1282
+msgid "Erode/Dilate"
+msgstr "腐蚀/膨胀"
+
+#: ../../source/applying_special_fx.rst:1283
+msgid "|Erode_Dilate|"
+msgstr "|Erode_Dilate|"
+
+#: ../../source/applying_special_fx.rst:1285
+msgid "Morphologically erodes or dilates the alpha channel of the connected node by the specified value, where positive values correspond to dilations and negative ones to erosion."
+msgstr "按指定值对连接节点的Alpha通道进行形态学腐蚀或膨胀，正值对应膨胀，负值对应腐蚀。"
+
+#: ../../source/applying_special_fx.rst:1287
+msgid "The Type parameter defines the shape of the corners of the frame, applied around the image, when the Radius value is positive."
+msgstr "当半径值为正时，类型参数定义了应用于图像周围的帧的角点形状。"
+
+#: ../../source/applying_special_fx.rst:1292
+msgid "HSV Key"
+msgstr "HSV抠像"
+
+#: ../../source/applying_special_fx.rst:1293
+msgid "|HSV_Key|"
+msgstr "|HSV_Key|"
+
+#: ../../source/applying_special_fx.rst:1295
+msgid ""
+"Defines a chroma key for the Source content using the set Hue, Saturation and Value values. You can set the range for each value by using the related Range slider. The selection can be inverted using "
+"the Invert button."
+msgstr "使用设定的色相、饱和度和明度值为源内容定义色度键。你可以使用相关的范围滑块为每个值设置范围。可以使用反转按钮反转选区。"
+
+#: ../../source/applying_special_fx.rst:1300
+msgid "Matte In"
+msgstr "遮罩内"
+
+#: ../../source/applying_special_fx.rst:1301
+msgid "|Matte_In|"
+msgstr "|Matte_In|"
+
+#: ../../source/applying_special_fx.rst:1303
+msgid "Makes the Source content visible only inside the opaque areas of the node content connected to the Matte input port."
+msgstr "使源内容仅在连接到遮罩输入端口的节点内容的不透明区域内可见。"
+
+#: ../../source/applying_special_fx.rst:1308
+msgid "Matte Out"
+msgstr "遮罩外"
+
+#: ../../source/applying_special_fx.rst:1309
+msgid "|Matte_Out|"
+msgstr "|Matte_Out|"
+
+#: ../../source/applying_special_fx.rst:1311
+msgid "Makes the source content visible only outside the opaque areas of the node content connected to the Matte input port."
+msgstr "使源内容仅在连接到遮罩输入端口的节点内容的不透明区域外可见。"
+
+#: ../../source/applying_special_fx.rst:1316
+msgid "RGB Key"
+msgstr "RGB抠像"
+
+#: ../../source/applying_special_fx.rst:1317
+msgid "|RGB_Key|"
+msgstr "|RGB_Key|"
+
+#: ../../source/applying_special_fx.rst:1319
+msgid ""
+"Defines a chroma key for the Source content using the set Red, Green and Blue values. You can set the range for each value by using the related Range slider. The selection can be inverted using the "
+"Invert button."
+msgstr "使用设定的红、绿和蓝值为源内容定义色度键。你可以使用相关的范围滑块为每个值设置范围。可以使用反转按钮反转选区。"
+
+#: ../../source/applying_special_fx.rst:1324
+msgid "Visible Matte In"
+msgstr "可见遮罩内"
+
+#: ../../source/applying_special_fx.rst:1325
+msgid "|Visible_Matte_In|"
+msgstr "|Visible_Matte_In|"
+
+#: ../../source/applying_special_fx.rst:1327
+msgid "Makes the Up node content visible only inside the opaque areas of the node content connected to the Down input port, keeping the Down node still visible."
+msgstr "使上节点内容仅在连接到下输入端口的节点内容的不透明区域内可见，同时保持下节点仍然可见。"
+
+#: ../../source/applying_special_fx.rst:1331 ../../source/applying_special_fx.rst:1344
+msgid "Noise"
+msgstr "噪波"
+
+#: ../../source/applying_special_fx.rst:1336
+msgid "Dissolve"
+msgstr "溶解"
+
+#: ../../source/applying_special_fx.rst:1337
+msgid "|Dissolve|"
+msgstr "|Dissolve|"
+
+#: ../../source/applying_special_fx.rst:1339
+msgid "Eliminates randomly pixels from the Source content according to the set Intensity."
+msgstr "根据设定的强度随机消除源内容的像素。"
+
+#: ../../source/applying_special_fx.rst:1345
+msgid "|Noise|"
+msgstr "|Noise|"
+
+#: ../../source/applying_special_fx.rst:1347
+msgid ""
+"Adds a noise effect to the Source content according to the set Intensity. You can decide which noise component among Red, Green and Blue you want to activate, and if the result has to be in Black and "
+"White."
+msgstr "根据设定的强度向源内容添加噪波效果。你可以决定激活红、绿、蓝中的哪个噪波分量，以及结果是否必须是黑白的。"
+
+#: ../../source/applying_special_fx.rst:1352
+msgid "Salt & Pepper Noise"
+msgstr "椒盐噪波"
+
+#: ../../source/applying_special_fx.rst:1353
+msgid "|Salt_&_Pepper_Noise|"
+msgstr "|Salt_&_Pepper_Noise|"
+
+#: ../../source/applying_special_fx.rst:1355
+msgid "Adds a black and white noise effect to the Source content according to the set Intensity."
+msgstr "根据设定的强度向源内容添加黑白噪波效果。"
+
+#: ../../source/applying_special_fx.rst:1359
+msgid "Render"
+msgstr "渲染"
+
+#: ../../source/applying_special_fx.rst:1364
+msgid "Clouds"
+msgstr "云彩"
+
+#: ../../source/applying_special_fx.rst:1365
+msgid "|Clouds|"
+msgstr "|Clouds|"
+
+#: ../../source/applying_special_fx.rst:1367
+msgid ""
+"Creates a new column/layer containing a fractal image whose type can be chosen between Clouds and Marble/Wood. The Size affect the grid used for generating the fractal image; a color spectrum defines "
+"the used colors (see  :ref:`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  )."
+msgstr "创建一个包含分形图像的新列/图层，其类型可以在云彩和大理石/木材之间选择。大小影响用于生成分形图像的网格；色阶定义使用的颜色（参见 :ref:`定义颜色和色阶 <defining_colors_and_color_spectrums>`）。"
+
+#: ../../source/applying_special_fx.rst:1369
+msgid ""
+"Increasing the Minimum value shifts the color spectrum to the right, and consequently more pixels will be colored as the color defined at the far left of the spectrum. Decreasing the Maximum value "
+"shifts the color spectrum to the left, and consequently more pixels will be colored as the color defined at the far right of the spectrum."
+msgstr "增加最小值会将色阶向右移动，因此更多的像素将被着色为色阶最左侧定义的颜色。减小最大值会将色阶向左移动，因此更多的像素将被着色为色阶最右侧定义的颜色。"
+
+#: ../../source/applying_special_fx.rst:1371
+msgid "The Evolution stage of the fractal image can be controlled as well; by setting the variation of this value between two keys, you set how much the fractal image changes during the animation."
+msgstr "分形图像的演化阶段也可以控制；通过设置该值在两个关键帧之间的变化，你可以设定分形图像在动画过程中变化的程度。"
+
+#: ../../source/applying_special_fx.rst:1376
+msgid "Particles"
+msgstr "粒子"
+
+#: ../../source/applying_special_fx.rst:1377
+msgid "|particles|"
+msgstr "|particles|"
+
+#: ../../source/applying_special_fx.rst:1379
+msgid "The Particles effect creates a new level in the selected column/layer containing particles."
+msgstr "粒子特效在选定的列/图层中创建一个包含粒子的新层。"
+
+#: ../../source/applying_special_fx.rst:1381
+msgid ""
+"It allows you to simulate a wide range of phenomena, such as rain, snow, sparkles, smoke, and a random configuration of elements, for example a field of shining stars starting from one shining star "
+"or the waving grass in a meadow starting from one animated blade of grass."
+msgstr "它允许你模拟各种现象，如雨、雪、火花、烟雾，以及元素的随机配置，例如，从一个闪亮的星星开始的一片闪亮星场，或从一片动画草叶开始的一片摇曳的草地。"
+
+#: ../../source/applying_special_fx.rst:1383
+msgid "See  :ref:`Using the Particles Effect <using_the_particles_effect>` ."
+msgstr "参见 :ref:`使用粒子特效 <using_the_particles_effect>`。"
+
+#: ../../source/applying_special_fx.rst:1388
+msgid "Text Iwa"
+msgstr "文本 Iwa"
+
+#: ../../source/applying_special_fx.rst:1389
+msgid "|text_1|"
+msgstr "|text_1|"
+
+#: ../../source/applying_special_fx.rst:1391
+msgid "Creates a new column/layer containing editable and animatable text, using the following parameters:"
+msgstr "创建一个包含可编辑和可动画文本的新列/图层，使用以下参数："
+
+#: ../../source/applying_special_fx.rst:1393
+msgid "**Source**, specifies the text source. You can choose one from:"
+msgstr "**来源**，指定文本来源。你可以从以下选项中选择："
+
+#: ../../source/applying_special_fx.rst:1395
+msgid ""
+"**Nearby Note Column**: Get the text from Note Level column put on the directly left side of the Text Iwa effect column, in the Xsheet (for Timeline view, the Note Level layer just under the effect "
+"layer is used). If the respective column/layer does not contain a Note Level or the cell is empty, text will not be rendered."
+msgstr "**邻近注释列**：从Xsheet中位于文本Iwa特效列正左侧的注释层列获取文本（对于时间轴视图，使用特效层正下方的注释层）。如果相应的列/图层不包含注释层或单元格为空，则不会渲染文本。"
+
+#: ../../source/applying_special_fx.rst:1397
+msgid "|text_2|"
+msgstr "|text_2|"
+
+#: ../../source/applying_special_fx.rst:1399
+msgid "**Specified Note Column**: It's similar to the **Nearby Note Column** option, but the Note Level column number to use can be specified using the **Column Index** field below."
+msgstr "**指定注释列**：类似于**邻近注释列**选项，但可以使用下面的**列索引**字段指定要使用的注释层列号。"
+
+#: ../../source/applying_special_fx.rst:1401
+msgid "**Input Text**: The text typed in the **Text** field below will be used (as shown in the image on top)."
+msgstr "**输入文本**：在下面的**文本**字段中输入的文本将被使用（如顶部图像所示）。"
+
+#: ../../source/applying_special_fx.rst:1403
+msgid "**Column Index**, specifies the source Note Level column number to use. Only used in **Specified Note Column** Source mode."
+msgstr "**列索引**，指定要使用的源注释层列号。仅在**指定注释列**来源模式下使用。"
+
+#: ../../source/applying_special_fx.rst:1405
+msgid "**Text**, specifies the source text. Only used in **Input Text** Source mode."
+msgstr "**文本**，指定源文本。仅在**输入文本**来源模式下使用。"
+
+#: ../../source/applying_special_fx.rst:1407
+msgid "**Horizontal Align**, specifies the text align. Options are: **Left**, **Right**, **Center**, and **Justify**."
+msgstr "**水平对齐**，指定文本对齐方式。选项有：**左对齐**、**右对齐**、**居中**和**两端对齐**。"
+
+#: ../../source/applying_special_fx.rst:1409
+msgid "**Center X:**, **Y:** specify the position of the text."
+msgstr "**中心 X:**, **Y:** 指定文本的位置。"
+
+#: ../../source/applying_special_fx.rst:1411
+msgid ""
+"**Width**, **Height**, define the dimension of the text box. Just like in the Text items of the Clapperboard feature, the font size will be automatically adjusted in order to fit the box (see  :ref:"
+"`Using The Clapperboard <using_the_clapperboard>` )."
+msgstr "**宽度**、**高度**，定义文本框的尺寸。就像场记板功能中的文本项目一样，字体大小会自动调整以适应文本框（参见 :ref:`使用场记板 <using_the_clapperboard>`）。"
+
+#: ../../source/applying_special_fx.rst:1413
+msgid "**Font**, specifies the font family to use."
+msgstr "**字体**，指定要使用的字体系列。"
+
+#: ../../source/applying_special_fx.rst:1415
+msgid "**Style:**, specifies the font style to use."
+msgstr "**样式:**，指定要使用的字体样式。"
+
+#: ../../source/applying_special_fx.rst:1417
+msgid "**Size:**, specifies the *maximum* font size to use."
+msgstr "**大小:**，指定要使用的*最大*字体大小。"
+
+#: ../../source/applying_special_fx.rst:1419
+msgid "The **Size** value will only take effect if the *automatically-calculated font size* (in order to fit the specified text box) is bigger than the value specified for this parameter."
+msgstr "仅当*自动计算的字体大小*（为了适应指定的文本框）大于为此参数指定的值时，**大小**值才会生效。"
+
+#: ../../source/applying_special_fx.rst:1421
+msgid "**Text Color**, specifies the color of the text. This color will also be used for the border line."
+msgstr "**文本颜色**，指定文本的颜色。此颜色也将用于边框线。"
+
+#: ../../source/applying_special_fx.rst:1423
+msgid "**Box Color**, specifies the background color of the text box."
+msgstr "**框颜色**，指定文本框的背景颜色。"
+
+#: ../../source/applying_special_fx.rst:1425
+msgid ""
+"**Show Border**, when activated, a border line will be rendered around the *text bounding box*. Please note that the *text box* (specified by the user) and the *text bounding box* (automatically "
+"computed from the rendered text) may become different, especially when the maximum font **Size** parameter is set to a small value."
+msgstr "**显示边框**，激活后，将在*文本边界框*周围渲染边框线。请注意，*文本框*（由用户指定）和*文本边界框*（根据渲染的文本自动计算）可能会变得不同，特别是当最大字体**大小**参数设置为较小值时。"
+
+#: ../../source/applying_special_fx.rst:1427
+msgid ""
+"Known Issue: When you are using a Note Level column for the source text, a change in the note text will not automatically trigger the preview regeneration. You will need to manually regenerate the "
+"preview using the context menu of the Viewer."
+msgstr "已知问题：当你使用注释层列作为源文本时，注释文本的更改不会自动触发预览重新生成。你需要使用查看器的上下文菜单手动重新生成预览。"
+
+#: ../../source/applying_special_fx.rst:1433
+msgid "Stylize"
+msgstr "风格化"
+
+#: ../../source/applying_special_fx.rst:1438
+msgid "Color Emboss"
+msgstr "彩色浮雕"
+
+#: ../../source/applying_special_fx.rst:1439
+msgid "|Color_Emboss|"
+msgstr "|Color_Emboss|"
+
+#: ../../source/applying_special_fx.rst:1441
+msgid ""
+"Traces the edges of the Source content with a combination of highlights and shadows. You can set the Intensity of the effect, and the Distance and Direction of the light that create the emboss "
+"effect. The Radius sets the depth of the embossing."
+msgstr "用高光和阴影的组合勾勒出源内容的边缘。你可以设置效果的强度，以及产生浮雕效果的光线的距离和方向。半径设置浮雕的深度。"
+
+#: ../../source/applying_special_fx.rst:1443
+msgid "By connecting a node to the Controller port, the Source content will be embossed according to the Controller node content."
+msgstr "通过将一个节点连接到控制器端口，源内容将根据控制器节点内容进行浮雕处理。"
+
+#: ../../source/applying_special_fx.rst:1448
+msgid "Emboss"
+msgstr "浮雕"
+
+#: ../../source/applying_special_fx.rst:1449
+msgid "|Emboss|"
+msgstr "|Emboss|"
+
+#: ../../source/applying_special_fx.rst:1451
+msgid ""
+"Turns the Source content to grey areas and traces its edges with a combination of highlights and shadows. You can set the Intensity of the effect, and the Distance and Direction of the light that "
+"create the emboss effect. The Radius sets the depth of the embossing."
+msgstr "将源内容转换为灰色区域，并用高光和阴影的组合勾勒其边缘。你可以设置效果的强度，以及产生浮雕效果的光线的距离和方向。半径设置浮雕的深度。"
+
+#: ../../source/applying_special_fx.rst:1456
+msgid "Mosaic"
+msgstr "马赛克"
+
+#: ../../source/applying_special_fx.rst:1457
+msgid "|Mosaic|"
+msgstr "|Mosaic|"
+
+#: ../../source/applying_special_fx.rst:1459
+msgid "Turns the Source content in a series of tiles according to the specified Size and Distance. The color and transparency of the tiles are sampled from the source content."
+msgstr "根据指定的大小和距离将源内容转换为一系列图块。图块的颜色和透明度从源内容中采样。"
+
+#: ../../source/applying_special_fx.rst:1461
+msgid "A Background Color can be set, and will be visible around the tiles. The tile shape can be chosen between Square and Round."
+msgstr "可以设置背景颜色，将在图块周围可见。图块形状可以在方形和圆形之间选择。"
+
+#: ../../source/applying_special_fx.rst:1466
+msgid "Posterize"
+msgstr "色调分离"
+
+#: ../../source/applying_special_fx.rst:1467
+msgid "|Posterize|"
+msgstr "|Posterize|"
+
+#: ../../source/applying_special_fx.rst:1469
+msgid ""
+"Converts the Source content into a number of shades according to the set number of Levels. The shades depends on the brightness values of the source content and the levels are intended for each "
+"channel; for example, two levels produces six colors: two for the red, two for the green, and two for the blue."
+msgstr "根据设定的色阶数量将源内容转换为多种色调。色调取决于源内容的亮度值，色阶是针对每个通道的；例如，两个色阶产生六种颜色：红色两个，绿色两个，蓝色两个。"
+
+#: ../../source/applying_special_fx.rst:1474
+msgid "Solarize"
+msgstr "曝光"
+
+#: ../../source/applying_special_fx.rst:1475
+msgid "|Solarize|"
+msgstr "|Solarize|"
+
+#: ../../source/applying_special_fx.rst:1477
+msgid ""
+"Blends a negative and a positive version of the Source content, as if exposing a photographic print briefly to light during development. You can set the Intensity of the effect and control the Peak "
+"Edge, that is the amount of positive and negative image that is used in the blend."
+msgstr "混合源内容的负片和正片版本，就像在显影过程中将照片短暂曝光于光线中一样。你可以设置效果的强度并控制峰值边缘，即混合中使用的正负图像量。"
+
+#: ../../source/applying_special_fx.rst:1483
+msgid "Toonz Level"
+msgstr "Toonz层级"
+
+#: ../../source/applying_special_fx.rst:1484
+msgid ""
+"Toonz Level type of effects can be applied only to Toonz Vector and Toonz Raster (PLI and TLV files). They usually affect the drawings they are applied to according to Style indexes. Style indexes "
+"can be retrieved in the Palette after the # symbol in the Style tooltip, or in the *bottom right corner* of the style in any of the **Thumbnails View** modes."
+msgstr ""
+"Toonz层级类型的特效只能应用于Toonz矢量和Toonz栅格（PLI和TLV文件）。它们通常根据样式索引影响应用到的绘图。样式索引可以在样式工具提示中#符号后的调色板中检索，或者在**缩略图视图**模式下的样式*右下角*看"
+"到。"
+
+#: ../../source/applying_special_fx.rst:1486
+msgid ""
+"Index numbers can be specified in the related text field, separated by a comma. To define a range of indexes, you should type the first and last separated by a dash (e.g. 4-7 will refer to indexes 4, "
+"5, 6 and 7). To select all indexes, type ``all`` ; to select no index, type ``none`` ."
+msgstr "可以在相关文本字段中指定索引号，用逗号分隔。要定义索引范围，应输入第一个和最后一个索引，用短划线分隔（例如4-7将引用索引4、5、6和7）。要选择所有索引，输入 ``all``；要选择无索引，输入 ``none``。"
+
+#: ../../source/applying_special_fx.rst:1488
+msgid ""
+"Toonz Level type of effects have to be always applied first when a series of effects are applied to an animation level, as they work only on Toonz Vector or Toonz Raster levels that have not been "
+"transformed by other type of effects. However two or more Toonz Level type of effects can be applied to the same animation level."
+msgstr "当一系列特效应用于动画层时，必须始终首先应用Toonz层级类型的特效，因为它们仅作用于尚未被其他类型特效转换的Toonz矢量或Toonz栅格层级。然而，两个或更多Toonz层级类型的特效可以应用于同一个动画层。"
+
+#: ../../source/applying_special_fx.rst:1493
+msgid "Art Contour"
+msgstr "艺术轮廓"
+
+#: ../../source/applying_special_fx.rst:1494
+msgid "|Art_Contour|"
+msgstr "|Art_Contour|"
+
+#: ../../source/applying_special_fx.rst:1496
+msgid ""
+"Creates in the Source content a pattern, by repeating the Controller node content, along lines painted with styles whose indexes are specified in the Color Indexes text field. It can be used for "
+"example to create scattered brush, or hair and fur effects along drawing lines."
+msgstr "在源内容中创建图案，通过沿用颜色索引文本字段中指定的样式索引绘制的线条重复控制器节点内容。例如，它可以用于沿绘制线条创建分散的笔刷，或毛发和绒毛效果。"
+
+#: ../../source/applying_special_fx.rst:1498
+msgid "The Keep Color option assigns the color of the line to the applied pattern; while the Keep Contour option retains the drawing line that will be visible beneath the pattern."
+msgstr "保留颜色选项将线条的颜色分配给应用的图案；而保留轮廓选项则保留将在图案下方可见的绘制线条。"
+
+#: ../../source/applying_special_fx.rst:1500
+msgid "The way the contents of the Controller node create the pattern depends on the Pattern settings."
+msgstr "控制器节点内容创建图案的方式取决于图案设置。"
+
+#: ../../source/applying_special_fx.rst:1502
+msgid ""
+"The Density sets the amount of pattern to be applied along the line. By setting the Density to 0, you can specify a Minimum and Maximum Distance between two subsequent images applied as pattern on "
+"the line."
+msgstr "密度设置沿线条应用的图案数量。通过将密度设置为0，你可以指定作为图案应用于线条上的两个连续图像之间的最小和最大距离。"
+
+#: ../../source/applying_special_fx.rst:1504
+msgid "The Size sets the Minimum and Maximum resizing percentage applied to the images used as the pattern; the value 100 is the original size of the images."
+msgstr "大小设置应用于作为图案的图像的最小和最大缩放百分比；值100是图像的原始大小。"
+
+#: ../../source/applying_special_fx.rst:1506
+msgid ""
+"The Orientation sets the Minimum and Maximum rotation angle for the images used as the pattern, according to the line direction; the value 0 display the images perpendicular to the line direction. If "
+"the Absolute Orientation option is used, the orientation values do not depend on the direction of the lines: the value 0 is the original images orientation."
+msgstr "方向设置用作图案的图像根据线条方向的最小和最大旋转角度；值0显示与线条方向垂直的图像。如果使用绝对方向选项，方向值不依赖于线条的方向：值0是图像的原始方向。"
+
+#: ../../source/applying_special_fx.rst:1511
+msgid "Calligraphic Line"
+msgstr "书法线条"
+
+#: ../../source/applying_special_fx.rst:1512
+msgid "|Calligraphic_Line|"
+msgstr "|Calligraphic_Line|"
+
+#: ../../source/applying_special_fx.rst:1514
+msgid "Changes in the Source content the thickness of the drawing lines painted with styles whose indexes are specified in the Color Indexes text field."
+msgstr "更改源内容中，用颜色索引文本字段中指定的样式索引绘制的绘制线条的粗细。"
+
+#: ../../source/applying_special_fx.rst:1516 ../../source/applying_special_fx.rst:1550
+msgid "You can specify the Thickness increase and how it is applied, as a percentage, to the different line directions Horizontal, Vertical, Up Diagonal, Down Diagonal."
+msgstr "你可以指定厚度增加量以及它如何作为百分比应用于不同的线条方向：水平、垂直、向上对角线、向下对角线。"
+
+#: ../../source/applying_special_fx.rst:1518
+msgid "The Smoothness sets the smoothness of the passage between sections of the lines affected by the effect, and those not affected; while the Noise sets the regularity of the edge of the line."
+msgstr "平滑度设置受效果影响的线条部分与未受影响部分之间过渡的平滑度；而噪波设置线条边缘的规则性。"
+
+#: ../../source/applying_special_fx.rst:1523
+msgid "Color Blending"
+msgstr "颜色混合"
+
+#: ../../source/applying_special_fx.rst:1524
+msgid "|Color_Blending|"
+msgstr "|Color_Blending|"
+
+#: ../../source/applying_special_fx.rst:1526
+msgid ""
+"Blends in the Source content lines and areas painted with styles whose indexes are specified in the Color Indexes text field. It can be used for example to blend shadow and highlight areas with the "
+"plain colored area, or to create gradients of colors."
+msgstr "混合源内容中用颜色索引文本字段中指定的样式索引绘制的线条和区域。例如，它可以用于将阴影和高光区域与纯色区域混合，或创建颜色渐变。"
+
+#: ../../source/applying_special_fx.rst:1528
+msgid "The Intensity sets how wide the blended area between the selected colors will be; while the Smoothness sets how smooth the dithering between blended colors is."
+msgstr "强度设置选定颜色之间的混合区域有多宽；而平滑度设置混合颜色之间的抖动有多平滑。"
+
+#: ../../source/applying_special_fx.rst:1530
+msgid ""
+"The No Blending over Other Colors option stops the blending as soon as a line, or an area, whose index is not included in the selection, is detected; if deactivated, the blending between selected "
+"colors continues under excluded lines and areas."
+msgstr "不在其他颜色上混合选项一旦检测到索引未包含在选区中的线条或区域，就会停止混合；如果停用，则在排除的线条和区域下继续混合选定颜色。"
+
+#: ../../source/applying_special_fx.rst:1535
+msgid "External Palette"
+msgstr "外部调色板"
+
+#: ../../source/applying_special_fx.rst:1536
+msgid "|External_Palette|"
+msgstr "|External_Palette|"
+
+#: ../../source/applying_special_fx.rst:1538
+msgid ""
+"Applies to the Source content the palette node connected to the Palette input port; if a column node is connected to the Palette input port, the palette related to its content will be considered."
+msgstr "将连接到调色板输入端口的调色板节点应用于源内容；如果列节点连接到调色板输入端口，将考虑与其内容相关的调色板。"
+
+#: ../../source/applying_special_fx.rst:1540
+msgid "The original styles of the Toonz levels contained in the source node are replaced with those of the levels contained in the palette node according to their style indexes."
+msgstr "源节点中包含的Toonz层级的原始样式将根据其样式索引，替换为调色板节点中包含的层级的样式。"
+
+#: ../../source/applying_special_fx.rst:1545
+msgid "Outline"
+msgstr "轮廓"
+
+#: ../../source/applying_special_fx.rst:1546
+msgid "|Outline|"
+msgstr "|Outline|"
+
+#: ../../source/applying_special_fx.rst:1548
+msgid "Changes in the Source content the thickness of the drawing external outline."
+msgstr "更改源内容中绘制的外部轮廓的粗细。"
+
+#: ../../source/applying_special_fx.rst:1552
+msgid "The Smoothness sets the smoothness of the passage between sections of the lines affected by the effect, and those not affected; while the Noise sets the regularity of the edge of the outline."
+msgstr "平滑度设置受效果影响的轮廓部分与未受影响部分之间过渡的平滑度；而噪波设置轮廓边缘的规则性。"
+
+#: ../../source/applying_special_fx.rst:1557
+msgid "Palette Filter"
+msgstr "调色板过滤器"
+
+#: ../../source/applying_special_fx.rst:1558
+msgid "|Palette_Filter|"
+msgstr "|Palette_Filter|"
+
+#: ../../source/applying_special_fx.rst:1560
+msgid "Filters the styles of the Source content palette according to the indexes specified in the Color Indexes text field."
+msgstr "根据颜色索引文本字段中指定的索引过滤源内容调色板的样式。"
+
+#: ../../source/applying_special_fx.rst:1562
+msgid ""
+"The Apply To option menu lets you choose if you want to affect Lines & Area, only Lines or only Areas, even if painted with the same styles; the Action option menu lets you choose if you want to keep "
+"or remove the specified styles."
+msgstr "应用到选项菜单让你选择是影响线条和区域、仅线条还是仅区域，即使是用相同样式绘制的；操作选项菜单让你选择是保留还是移除指定的样式。"
+
+#: ../../source/applying_special_fx.rst:1567
+msgid "Pinned Texture"
+msgstr "固定纹理"
+
+#: ../../source/applying_special_fx.rst:1568
+msgid "|Pinned_Texture| |Pinned_Texture_2|"
+msgstr "|Pinned_Texture| |Pinned_Texture_2|"
+
+#: ../../source/applying_special_fx.rst:1570
+msgid "Distorts the Texture node content and applies it to the Source content areas that are painted with styles whose indexes are specified in the Color Indexes text field."
+msgstr "扭曲纹理节点内容，并将其应用于源内容中用颜色索引文本字段中指定的样式索引绘制的区域。"
+
+#: ../../source/applying_special_fx.rst:1572
+msgid "The distortion can be done like in the Free Distort effect (see  :ref:`Free Distort <free_distort>`  ) and the texture can be applied like in the Texture effect (see below)."
+msgstr "扭曲可以像自由扭曲效果一样完成（参见 :ref:`自由扭曲 <free_distort>`），纹理可以像纹理效果一样应用（见下文）。"
+
+#: ../../source/applying_special_fx.rst:1577
+msgid "Texture"
+msgstr "纹理"
+
+#: ../../source/applying_special_fx.rst:1578
+msgid "|Texture|"
+msgstr "|Texture|"
+
+#: ../../source/applying_special_fx.rst:1580
+msgid "Applies the Texture node content to the Source content lines and areas that are painted with styles whose indexes are specified in the Color Indexes text field."
+msgstr "将纹理节点内容应用于源内容中用颜色索引文本字段中指定的样式索引绘制的线条和区域。"
+
+#: ../../source/applying_special_fx.rst:1582
+msgid "As the texture node content can be animated as you like, this effect allows you to generate animated texture as well."
+msgstr "由于纹理节点内容可以按你喜欢的方式制作动画，此效果也允许你生成动画纹理。"
+
+#: ../../source/applying_special_fx.rst:1584
+msgid "The Action option menu lets you choose if you want to apply the texture to the specified styles (Keep) or to apply it to all styles except for the specified ones (Delete)."
+msgstr "操作选项菜单让你选择是将纹理应用于指定样式（保留）还是应用于除指定样式外的所有样式（删除）。"
+
+#: ../../source/applying_special_fx.rst:1586
+msgid ""
+"The Mode option menu lets you set how the texture node content will be applied: Texture uses the texture to replace selected styles; Pattern preserves the original colors but varies them according to "
+"the texture brightness; Add, Subtract, Multiply, Lighten and Darken defines the way the texture is applied to the original colors (see  :ref:`Layer Blending <layer_blending>`  ). In case the Add, "
+"Subtract or Multiply mode are selected, you can also set the Value of the effect."
+msgstr ""
+"模式选项菜单让你设置如何应用纹理节点内容：纹理使用纹理替换选定的样式；图案保留原始颜色但根据纹理亮度变化；相加、相减、相乘、变亮和变暗定义纹理应用于原始颜色的方式（参见 :ref:`图层混合 "
+"<layer_blending>`）。如果选择了相加、相减或相乘模式，你还可以设置效果的值。"
+
+#: ../../source/applying_special_fx.rst:1588
+msgid "To repeat the texture image and tile it to create a larger texture, you can apply the Tile effect to the texture column before linking it to the Texture node (see  :ref:`Tile <tile>`  )."
+msgstr "要重复纹理图像并平铺以创建更大的纹理，可以在将纹理列链接到纹理节点之前对其应用平铺效果（参见 :ref:`平铺 <tile>`）。"
+
+#: ../../source/applying_special_fx.rst:1594
+msgid "Shaders"
+msgstr "着色器"
+
+#: ../../source/applying_special_fx.rst:1595
+msgid ""
+"OpenToonz enables support for effects rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel "
+"architecture of modern graphics devices, to execute with extreme speed. OpenToonz's shader effects are written in the OpenGL Shading Language (GLSL), and are located in ``OpenToonz stuff/library/"
+"shaders``. Refer to the readme.txt file there for further details on editing or creating new shader effects."
+msgstr ""
+"OpenToonz支持通过硬件加速的像素着色器渲染的特效。着色器是由图形处理单元编译的简单程序，利用现代图形设备的大规模并行架构，以极快的速度执行。OpenToonz的着色器效果使用OpenGL着色语言（GLSL）编写，位于 "
+"``OpenToonz stuff/library/shaders`` 目录下。请参阅该目录下的readme.txt文件，了解编辑或创建新着色器效果的更多细节。"
+
+#: ../../source/applying_special_fx.rst:1600
+msgid "Caustic"
+msgstr "焦散"
+
+#: ../../source/applying_special_fx.rst:1601
+msgid "|Caustic|"
+msgstr "|Caustic|"
+
+#: ../../source/applying_special_fx.rst:1603
+msgid "Creates a new column/layer containing a simulation of the reflection of light on a water surface. Sets the color of the water defining the RGBA values of the Water Color parameter."
+msgstr "创建一个新列/图层，包含水面上光线反射的模拟。通过定义水颜色参数的RGBA值来设置水的颜色。"
+
+#: ../../source/applying_special_fx.rst:1610
+msgid "Fireball"
+msgstr "火球"
+
+#: ../../source/applying_special_fx.rst:1611
+msgid "|Fireball|"
+msgstr "|Fireball|"
+
+#: ../../source/applying_special_fx.rst:1613
+msgid "Creates a new column/layer containing a ball of flames erupting from a point."
+msgstr "创建一个新列/图层，包含从一个点爆发的火球。"
+
+#: ../../source/applying_special_fx.rst:1615
+msgid ""
+"A range of colors can be defined setting the RGBA values of color 1 and color 2. The stage of the displacement map image can be controlled by using the Evolution value; by setting the variation of "
+"this value between two keys, you set how much the displacement map image changes during the animation."
+msgstr "可以通过设置颜色1和颜色2的RGBA值来定义一系列颜色。置换贴图图像的演化阶段可以通过使用演化值来控制；通过设置该值在两个关键帧之间的变化，你可以设定置换贴图图像在动画过程中变化的程度。"
+
+#: ../../source/applying_special_fx.rst:1620
+msgid "Glitter"
+msgstr "闪耀"
+
+#: ../../source/applying_special_fx.rst:1621
+msgid "|Glitter|"
+msgstr "|Glitter|"
+
+#: ../../source/applying_special_fx.rst:1623
+msgid "Adds cross-shaped light rays extending from the brightest part of an image."
+msgstr "添加从图像最亮部分延伸出的十字形光线。"
+
+#: ../../source/applying_special_fx.rst:1625
+msgid ""
+"Use Threshold to specify the cut-out on the input image's brightest part. Higher values will make the fx add lights also to darker image parts, producing more lights. The Brightness specifies the "
+"brightness of added light rays; the Radius specify how much the light rays will extend from bright input pixels; the Angle specify the angle of light crosses. A value 0 means that produced light "
+"crosses will be axis-aligned. Halo is the amount of light disperion orthogonal to the direction of light rays. Higher values will produce broader rays."
+msgstr ""
+"使用阈值指定输入图像最亮部分的截止点。较高的值将使特效也将光线添加到较暗的图像部分，产生更多光线。亮度指定添加光线的亮度；半径指定光线从明亮的输入像素延伸多远；角度指定光线交叉的角度。值0表示产生的光"
+"线交叉将与轴对齐。光晕是与光线方向正交的光线扩散量。较高的值会产生更宽的光线。"
+
+#: ../../source/applying_special_fx.rst:1630
+msgid "Star Sky"
+msgstr "星空"
+
+#: ../../source/applying_special_fx.rst:1631
+msgid "|Star_Sky|"
+msgstr "|Star_Sky|"
+
+#: ../../source/applying_special_fx.rst:1633
+msgid ""
+"Creates a new column/layer containing a simple star field with variable brightness with overlayed clouds. Sets the color of the overlayed clouds defining the RGBA values of the Cloud Color parameter."
+msgstr "创建一个新列/图层，包含一个具有可变亮度的简单星场，并覆盖有云层。通过定义云颜色参数的RGBA值来设置覆盖云层的颜色。"
+
+#: ../../source/applying_special_fx.rst:1635
+msgid ""
+"The stage of the stars displacement can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during "
+"the animation."
+msgstr "星星位移的演化阶段可以通过使用演化值来控制；通过设置该值在两个关键帧之间的变化，你可以设定置换贴图图像在动画过程中变化的程度。"
+
+#: ../../source/applying_special_fx.rst:1637
+msgid "Use the Brightness parameters to define the brightness of the stars."
+msgstr "使用亮度参数来定义星星的亮度。"
+
+#: ../../source/applying_special_fx.rst:1642
+msgid "Sun Flare"
+msgstr "太阳耀斑"
+
+#: ../../source/applying_special_fx.rst:1643
+msgid "|Sun_Flare|"
+msgstr "|Sun_Flare|"
+
+#: ../../source/applying_special_fx.rst:1645
+msgid ""
+"Creates a new column/layer containing rays of colored light extending from a radial gradient at the center. Sets the color of the sun rays defining the RGBA values of the Color parameter. The number "
+"of rays is defined by the Rays parameter while their brightness is set by the Intensity one. The angle parameter sets the direction of the rays and the Bias parameter define the size of the rays. Use "
+"the Sharpness parameter to make the rays sharper or smoother."
+msgstr ""
+"创建一个新列/图层，包含从中心径向渐变延伸出的彩色光线。通过定义颜色参数的RGBA值来设置太阳光线的颜色。光线数量由光线参数定义，而亮度由强度参数设置。角度参数设置光线的方向，偏差参数定义光线的大小。使用"
+"锐度参数使光线更锐利或更平滑。"
+
+#: ../../source/applying_special_fx.rst:1650
+msgid "Wavy"
+msgstr "波浪"
+
+#: ../../source/applying_special_fx.rst:1651
+msgid "|Wavy|"
+msgstr "|Wavy|"
+
+#: ../../source/applying_special_fx.rst:1653
+msgid ""
+"Creates a new column/layer containing a simple gradient with a colored 'wavy' pattern. The waves colors are definied by setting the RGBA values of the Color 1 and Color 2 parameters. The stage of the "
+"displacement map image can be controlled by using the Evolution value; by setting the variation of this value between two keys, you set how much the displacement map image changes during the "
+"animation."
+msgstr ""
+"创建一个新列/图层，包含带有彩色'波浪'图案的简单渐变。波浪颜色通过设置颜色1和颜色2参数的RGBA值来定义。置换贴图图像的演化阶段可以通过使用演化值来控制；通过设置该值在两个关键帧之间的变化，你可以设定置换"
+"贴图图像在动画过程中变化的程度。"
+
+#: ../../source/applying_special_fx.rst:1658
+msgid "GPU Radial Blur"
+msgstr "GPU径向模糊"
+
+#: ../../source/applying_special_fx.rst:1659
+msgid "|GPU_Radial_Blur|"
+msgstr "|GPU_Radial_Blur|"
+
+#: ../../source/applying_special_fx.rst:1661
+msgid ""
+"Blurs along radial lines whose origin is the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by the Safe Radius. The Blur Factor "
+"parameter sets the amount of blur."
+msgstr "沿着径向线模糊，其原点是由水平（X）和垂直（Y）坐标定义的设定中心，从由安全半径定义的不受影响的内部区域开始。模糊因子参数设置模糊量。"
+
+#: ../../source/applying_special_fx.rst:1666
+msgid "GPU Spin Blur"
+msgstr "GPU旋转模糊"
+
+#: ../../source/applying_special_fx.rst:1667
+msgid "|GPU_Spin_Blur|"
+msgstr "|GPU_Spin_Blur|"
+
+#: ../../source/applying_special_fx.rst:1669
+msgid ""
+"Blurs along concentric circular lines as if the Source content turns around the set Center, defined by horizontal (X) and vertical (Y) coordinates, starting from an unaffected inner area defined by "
+"the Safe Radius. The Blur parameter sets the amount of blur."
+msgstr "沿着同心圆线模糊，仿佛源内容围绕设定的中心旋转，中心由水平（X）和垂直（Y）坐标定义，从由安全半径定义的不受影响的内部区域开始。模糊参数设置模糊量。"

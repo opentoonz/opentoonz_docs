@@ -1,0 +1,950 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 14:10+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/managing_projects.rst:4
+msgid "Managing Projects"
+msgstr "管理项目"
+
+#: ../../source/managing_projects.rst:5
+msgid ""
+"Projects are an easy way to manage scenes and files used in them. They allow "
+"you to organize your production material not only by defining default settings "
+"used throughout the production, but also default folders where files will be "
+"automatically saved, and from where they will be retrieved when needed. This "
+"means that, for example, as soon as you scan drawings, they will be saved "
+"automatically in the input default folders you specified for your project."
+msgstr ""
+"项目是管理其中使用的场景和文件的一种简单方法。它们允许您组织生产材料，不仅可以"
+"定义整个生产过程中使用的默认设置，还可以定义自动保存文件的默认文件夹，以及在需"
+"要时从何处检索文件。这意味着，例如，一旦扫描图形，它们将自动保存在为项目指定的"
+"输入默认文件夹中。"
+
+#: ../../source/managing_projects.rst:7
+msgid ""
+"The main advantage of managing the production through projects, is that a "
+"consistency of production settings and production material can be achieved."
+msgstr "通过项目管理生产的主要优点是可以实现生产设置和生产材料的一致性。"
+
+#: ../../source/managing_projects.rst:9
+msgid ""
+"The consistency of production settings is achieved because all the scenes of a "
+"projects, as soon as they are created, inherit all the settings from the "
+"project (see  :ref:`Setting Up a Scene <setting_up_a_scene>`  )."
+msgstr ""
+"生产设置的一致性得以实现，因为项目的所有场景在创建后都会继承项目的所有设置（请"
+"参阅：ref:`设置场景<Setting_Up_a_Scene>`）。"
+
+#: ../../source/managing_projects.rst:11
+msgid ""
+"The right use of production material is achieved because once you have defined "
+"a production structure through projects, all the scenes are able to save and "
+"retrieve files by using the project default folders."
+msgstr ""
+"生产材料的正确使用得以实现，因为一旦您通过项目定义了生产结构，所有场景都可以使"
+"用项目默认文件夹保存和检索文件。"
+
+#: ../../source/managing_projects.rst:16
+msgid "Setting the Projectroot"
+msgstr "设置项目根目录"
+
+#: ../../source/managing_projects.rst:18
+msgid ""
+"The projectroot is the folder where the project information and database are "
+"stored; it is displayed in the OpenToonz browser as one of the main folders "
+"with the related path in brackets."
+msgstr ""
+"projectroot是存储项目信息和数据库的文件夹；它在OpenToonz浏览器中显示为主文件夹"
+"之一，相关路径在括号中。"
+
+#: ../../source/managing_projects.rst:20
+msgid ""
+"The default value is ``C:\\OpenToonz stuff\\projects``  on Windows and ``/"
+"Applications/OpenToonz/OpenToonz stuff/projects``  on Macintosh."
+msgstr ""
+"默认值在Windows上为“C:\\OpenToonz stuff\\projects”，在Macintosh上为“/"
+"Applications/OpenToonz/OpenToons stuff/projects”。"
+
+#: ../../source/managing_projects.rst:22
+msgid ""
+"If your production has to be managed on more than one computer on a network, "
+"you can share the same project database on all the computers you want, by "
+"defining the same projectroot on each computer."
+msgstr ""
+"如果您的生产必须在网络上的多台计算机上进行管理，则可以通过在每台计算机上定义相"
+"同的项目根，在所有需要的计算机上共享相同的项目数据库。"
+
+#: ../../source/managing_projects.rst:25
+msgid ""
+"It is also possible to define more than one projectroot if needed: in this "
+"case projectroot folders will be visible in the OpenToonz browser, each with "
+"the related path in brackets."
+msgstr ""
+"如果需要，还可以定义多个项目根：在这种情况下，项目根文件夹将在OpenToonz浏览器中"
+"可见，每个文件夹的相关路径都在括号中。"
+
+#: ../../source/managing_projects.rst:27
+msgid "|additional_project_locations|"
+msgstr "|附加项目|"
+
+#: ../../source/managing_projects.rst:29
+msgid ""
+"The projectroot information can be changed at any moment, for instance if you "
+"need to move the project database files from one computer to another."
+msgstr ""
+"项目根信息可以随时更改，例如，如果您需要将项目数据库文件从一台计算机移动到另一"
+"台计算机。"
+
+#: ../../source/managing_projects.rst:31
+msgid "**To set the projectroot on Windows:**"
+msgstr "**要在Windows上设置项目根目录，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:33
+msgid "Open the Run application dialog by selecting Run from the Start menu."
+msgstr "从“开始”菜单中选择“运行”，打开“运行应用程序”对话框。"
+
+#: ../../source/managing_projects.rst:35
+msgid ""
+"Type ``regedit``  in the text box and click OK. This will open the Registry "
+"Editor application."
+msgstr "在文本框中键入“regedit”，然后单击“确定”。这将打开注册表编辑器应用程序。"
+
+#: ../../source/managing_projects.rst:37
+msgid ""
+"Navigate to the ``HKEY_LOCAL_MACHINE\\SOFTWARE\\OpenToonz\\OpenToonz`` and "
+"double-click TOONZPROJECTS in the right part of the window: the Edit String "
+"dialog opens."
+msgstr ""
+"导航到“HKEY_LOCAL_MACHINE\\SOFTWARE\\OpenToonz\\OpenToonz”，双击窗口右侧的"
+"TOONZPROJECTS：将打开“编辑字符串”对话框。"
+
+#: ../../source/managing_projects.rst:39
+msgid "Enter the new path for the projectroot."
+msgstr "输入项目根的新路径。"
+
+#: ../../source/managing_projects.rst:41 ../../source/managing_projects.rst:51
+msgid "Click OK and exit from the Registry Editor application."
+msgstr "单击“确定”并退出注册表编辑器应用程序。"
+
+#: ../../source/managing_projects.rst:43 ../../source/managing_projects.rst:53
+#: ../../source/managing_projects.rst:76
+msgid "Restart OpenToonz to make the change effective."
+msgstr "重新启动OpenToonz以使更改生效。"
+
+#: ../../source/managing_projects.rst:45
+msgid "**To add a projectroot on Windows:**"
+msgstr "**要在Windows上添加项目根，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:47
+msgid ""
+"Open the registry editor to edit the TOONZPROJECTS registry as described above."
+msgstr "打开注册表编辑器，如上所述编辑TOONZPROJECTS注册表。"
+
+#: ../../source/managing_projects.rst:49
+msgid ""
+"Enter the path for the new projectroot, separated by a semicolon (e.g. ``C:"
+"\\production01;D:\\production02`` )."
+msgstr ""
+"输入新项目根的路径，用分号分隔（例如“C:\\productin01；D:\\productin02”）。"
+
+#: ../../source/managing_projects.rst:55
+msgid "**To set the projectroot on Macintosh:**"
+msgstr "**要在Macintosh上设置项目根：**"
+
+#: ../../source/managing_projects.rst:57
+msgid ""
+"Right-click the OpenToonz icon in the ``Applications/OpenToonz`` folder, and "
+"choose Show Package Contents from the menu that opens."
+msgstr ""
+"右键单击“Applications/OpenToonz”文件夹中的OpenToonz图标，然后从打开的菜单中选"
+"择“显示包内容”。"
+
+#: ../../source/managing_projects.rst:59
+msgid ""
+"In the folder that opens browse to the ``Contents/Resources``  folder and open "
+"the ``SystemVar.ini``  file with a text editor application, such as TextEdit."
+msgstr ""
+"在打开的文件夹中，浏览到“Contents/Resources”文件夹，并使用文本编辑器应用程序"
+"（如TextEdit）打开“SystemVar.ini”文件。"
+
+#: ../../source/managing_projects.rst:61
+msgid ""
+"3. Look for the following line where the projectroot is defined: "
+"``TOONZPROJECTS=”/Applications/OpenToonz/OpenToonz stuff/projects”``"
+msgstr ""
+"3.查找以下定义项目根的行：`TOONZPROJECTS=“/Applications/OpenToonz/OpenTooz-"
+"stuff/projects”``"
+
+#: ../../source/managing_projects.rst:64
+msgid "Change the path in inverted commas by typing a new one."
+msgstr "通过键入新路径来更改引号中的路径。"
+
+#: ../../source/managing_projects.rst:66 ../../source/managing_projects.rst:74
+msgid "Save the ``SystemVar.ini``  file."
+msgstr "保存“SystemVar.ini”文件。"
+
+#: ../../source/managing_projects.rst:68
+msgid "**To add a projectroot on Macintosh:**"
+msgstr "**要在Macintosh上添加项目根：**"
+
+#: ../../source/managing_projects.rst:70
+msgid ""
+"Open the configuration file to edit the TOONZPROJECTS variable as described "
+"above."
+msgstr "打开配置文件，如上所述编辑TOONZPROJECTS变量。"
+
+#: ../../source/managing_projects.rst:72
+msgid ""
+"Change the path in inverted commas by adding a new path for the new "
+"projectroot, separated by a semicolon (e.g. ``/Applications/OpenToonz/"
+"OpenToonz stuff/production01`` ``;`` ``/Applications/OpenToonz/OpenToonz stuff/"
+"production02`` )."
+msgstr ""
+"通过为新的项目根添加一个用分号分隔的新路径（例如“/Applications/OpenToonz/"
+"OpenToons stuff/production 01”“；”“/Appliance/OpenToonz/OpenToonz stuff/"
+"production 02”）来更改引号中的路径。"
+
+#: ../../source/managing_projects.rst:81
+msgid "Setting up Projects"
+msgstr "设置项目"
+
+#: ../../source/managing_projects.rst:82
+msgid "|new_project|"
+msgstr "|新建工程|"
+
+#: ../../source/managing_projects.rst:84
+msgid ""
+"When you define a new project you can specify its default folders, while its "
+"default settings will be inherited from the current project. Default folders "
+"and settings can be modified at any time to satisfy new production needs."
+msgstr ""
+"定义新项目时，可以指定其默认文件夹，而其默认设置将继承自当前项目。默认文件夹和"
+"设置可以随时修改，以满足新的生产需求。"
+
+#: ../../source/managing_projects.rst:86
+msgid ""
+"Project information is stored in an XML file named as the project with the "
+"``_otprj``  suffix, in a folder named as the project located in the "
+"projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  )."
+msgstr ""
+"项目信息存储在一个名为项目的XML文件中，后缀为“_otprj”，位于项目根目录中名为该项"
+"目的文件夹中（请参阅：ref:“设置项目根<Setting_the_projectroot>”）。"
+
+#: ../../source/managing_projects.rst:88
+msgid ""
+"Projects can be organized in folders and can contain sub-projects that can be "
+"browsed in the OpenToonz file browser. This allows you to customize the "
+"project structures in order to follow your production needs, for instance "
+"creating a folder for each episode, then a project for each scene belonging to "
+"that episode. As the project browser will display the project tree and all the "
+"folders contained in the projectroot, you can also organize your folder "
+"structure in the projectroot by using the OS file system."
+msgstr ""
+"项目可以组织在文件夹中，并且可以包含可以在OpenToonz文件浏览器中浏览的子项目。这"
+"允许您自定义项目结构，以满足您的制作需求，例如为每集创建一个文件夹，然后为属于"
+"该集的每个场景创建一个项目。由于项目浏览器将显示项目树和项目根中包含的所有文件"
+"夹，您还可以使用操作系统文件系统在项目根中组织文件夹结构。"
+
+#: ../../source/managing_projects.rst:90
+msgid ""
+"There is always one current project selected in the project browser: when you "
+"start working on a scene, automatically it will belong to the current project, "
+"inheriting its settings and default folders."
+msgstr ""
+"在项目浏览器中始终选择一个当前项目：当您开始处理场景时，它将自动属于当前项目，"
+"继承其设置和默认文件夹。"
+
+#: ../../source/managing_projects.rst:92
+msgid ""
+"If you want a new scene to be part of a new project, first you have to define "
+"a new project. If you want it to be part of a previously created project, "
+"first you have to set that project as the current one."
+msgstr ""
+"如果你想让一个新场景成为新项目的一部分，首先你必须定义一个新项目。如果你想让它"
+"成为以前创建的项目的一部分，首先你必须将该项目设置为当前项目。"
+
+#: ../../source/managing_projects.rst:94
+msgid ""
+"If you want to use the farm for rendering scenes, all the server (rendering) "
+"nodes of the farm have to share the same projectroot (see  :ref:`Installing "
+"the Toonz Farm on Windows <installing_the_toonz_farm_on_windows>`  ) and all "
+"the drives containing the projects database, have to be shared on the network."
+msgstr ""
+"如果你想使用场来渲染场景，场的所有服务器（渲染）节点都必须共享相同的项目根（请"
+"参阅：ref:`在Windows上安装Toonz场<Installing_the_Toonz_farm_on_Windows>`），并"
+"且包含项目数据库的所有驱动器都必须在网络上共享。"
+
+#: ../../source/managing_projects.rst:96
+msgid "**To create a new project:**"
+msgstr "**要创建新项目，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:98
+msgid "Choose File  →  Project Management  →  New Project..."
+msgstr "选择文件→  项目管理→  新项目。.."
+
+#: ../../source/managing_projects.rst:100
+msgid ""
+"Select the projectroot or repository (see  :ref:`Configuring the Version "
+"Control in OpenToonz <configuring_the_version_control_in_toonz>`  ), and the "
+"project or folder where you want to create the new project."
+msgstr ""
+"选择项目根或存储库（请参阅：ref:“在OpenToonz中配置版本控制"
+"<Configuring_the_Version_Control_in_toonz>”），以及要在其中创建新项目的项目或文"
+"件夹。"
+
+#: ../../source/managing_projects.rst:102
+msgid ""
+"Type the name of the project and set the path to the folders you want to use "
+"as default."
+msgstr "键入项目的名称，并设置要用作默认文件夹的路径。"
+
+#: ../../source/managing_projects.rst:104
+msgid "Click the **OK** button."
+msgstr "单击**确定**按钮。"
+
+#: ../../source/managing_projects.rst:106
+msgid "**To change the current project:**"
+msgstr "**要更改当前项目，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:108
+msgid ""
+"Click the small round button on the left of the project name in the project "
+"tree available in the OpenToonz file browser. It becomes red when selected."
+msgstr ""
+"单击OpenToonz文件浏览器中项目树中项目名称左侧的小圆形按钮。选中后变为红色。"
+
+#: ../../source/managing_projects.rst:110
+msgid "**To add a scene to a project:**"
+msgstr "**要将场景添加到项目中，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:112
+msgid "Set the project as the current one."
+msgstr "将项目设置为当前项目。"
+
+#: ../../source/managing_projects.rst:114
+msgid "Choose File  →  New Scene."
+msgstr "选择文件→  新场景。"
+
+#: ../../source/managing_projects.rst:116
+msgid "**To change project default folders:**"
+msgstr "**要更改项目默认文件夹，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:118
+msgid ""
+"Select File  →  Project Management  →  Project Settings... and change default "
+"folders paths."
+msgstr "选择文件→  项目管理→  项目设置。..并更改默认文件夹路径。"
+
+#: ../../source/managing_projects.rst:120
+msgid ""
+"When changing default folders, scenes previously created in the same project "
+"may fail retrieving used files."
+msgstr "更改默认文件夹时，以前在同一项目中创建的场景可能无法检索已使用的文件。"
+
+#: ../../source/managing_projects.rst:126
+msgid "Project Default Folders"
+msgstr "项目默认文件夹"
+
+#: ../../source/managing_projects.rst:127
+msgid ""
+"Projects have default folders where scanned drawings, painted drawings, "
+"scenes, rendered frames and palettes are automatically saved. These folders "
+"are shared by all of the scenes created for that particular project, and are "
+"labelled in the following way:"
+msgstr ""
+"项目有默认文件夹，其中自动保存扫描的图形、绘制的图形、场景、渲染的帧和调色板。"
+"这些文件夹由为该特定项目创建的所有场景共享，并按以下方式标记："
+
+#: ../../source/managing_projects.rst:129
+msgid ""
+"**+inputs** is the folder where all scanned drawings are saved (as TIF files)."
+msgstr "**+inputs**是保存所有扫描图形（作为TIF文件）的文件夹。"
+
+#: ../../source/managing_projects.rst:131
+msgid ""
+"**+drawings** is the folder where OpenToonz cleaned up drawings, drawings made "
+"directly in OpenToonz and imported OpenToonz drawings are saved (TLV and PLI "
+"files)."
+msgstr ""
+"**+drawings**是OpenToonz清理图纸、直接在OpenToonz中制作的图纸和导入的OpenToonz"
+"图纸（TLV和PLI文件）的保存文件夹。"
+
+#: ../../source/managing_projects.rst:133
+msgid ""
+"**+scenes** is the folder where the OpenToonz scenes are saved (TNZ files)."
+msgstr "**+scenes**是保存OpenToonz场景（TNZ文件）的文件夹。"
+
+#: ../../source/managing_projects.rst:135
+msgid ""
+"**+extras** is the folder where all the imported non-OpenToonz levels, images "
+"and audio files are saved."
+msgstr "**+extras**是保存所有导入的非OpenToonz级别、图像和音频文件的文件夹。"
+
+#: ../../source/managing_projects.rst:137
+msgid "**+outputs** is the folder where rendered images are saved."
+msgstr "**+outputs**是保存渲染图像的文件夹。"
+
+#: ../../source/managing_projects.rst:139
+msgid ""
+"**+palettes** is the folder where the project palettes of the studio palette "
+"are saved, and where the Raster Drawing Palette, shared by all the raster "
+"levels belonging to the project, is stored."
+msgstr ""
+"**+调色板**是保存工作室调色板的项目调色板的文件夹，也是存储属于项目的所有光栅级"
+"别共享的光栅绘图调色板的文件夹。"
+
+#: ../../source/managing_projects.rst:141
+msgid ""
+"For each of these folders you can specify different locations on your computer "
+"network depending on the way you set up the storage of your production "
+"material."
+msgstr ""
+"对于这些文件夹中的每一个，您可以根据设置生产材料存储的方式在计算机网络上指定不"
+"同的位置。"
+
+#: ../../source/managing_projects.rst:143
+msgid ""
+"Absolute or relative paths can be specified for the default folders definition."
+msgstr "可以为默认文件夹定义指定绝对或相对路径。"
+
+#: ../../source/managing_projects.rst:145
+msgid ""
+"If you specify an absolute path, the folders will be created, when needed, "
+"where specified. For example you can set **+drawings** to be ``C:\\production"
+"\\drawings01`` on Windows, or ``/Volume/Macintosh HD/production/drawing01``  "
+"on Macintosh: this means that the OpenToonz drawn and cleaned up levels will "
+"be automatically saved in ``C:\\production\\drawings01`` on Windows, or in ``/"
+"Volume/Macintosh HD/production/drawing01``  on Macintosh."
+msgstr ""
+"如果指定绝对路径，则将在需要时在指定的位置创建文件夹。例如，您可以在Windows上将"
+"**+绘图**设置为“C:\\product\\drawings 01”，或在Macintosh上设置为“/Volume/"
+"Mintosh-HD/product/drawing01”：这意味着OpenToonz绘制和清理的级别将自动保存在"
+"Windows上的“C:\\product\\drawings 01“中，或Macintosh上的“/Volume/MintoshHD/"
+"product/drawing 01”中。"
+
+#: ../../source/managing_projects.rst:147
+msgid ""
+"If you specify a relative path, all the folders you specify in the path will "
+"be created, when needed, in the project folder under the selected projectroot "
+"or repository (see  :ref:`Configuring the Version Control in OpenToonz "
+"<configuring_the_version_control_in_toonz>`  ). For example, for the project "
+"myproject, you can set **+drawings** to be ``sequence01\\mydrawings`` : this "
+"means that the OpenToonz drawn and cleaned up levels will be automatically "
+"saved in the ``myproject\\sequence01\\mydrawings``  folder located in the "
+"selected projectroot or repository."
+msgstr ""
+"如果指定相对路径，则在需要时，您在路径中指定的所有文件夹都将在所选项目根目录或"
+"存储库下的项目文件夹中创建（请参阅：ref:`在OpenToonz中配置版本控制"
+"<Configuring_the_Version_Control_in_toonz>`）。例如，对于项目myproject，您可以"
+"将**+图形**设置为“sequence01\\mydrawings”：这意味着OpenToonz绘制和清理的级别将"
+"自动保存在所选项目根或存储库中的“myproject\\sequence01\\mydawings”文件夹中。"
+
+#: ../../source/managing_projects.rst:149
+msgid ""
+"The $scenepath variable can also be used to automatically create specific "
+"folders according to the scene you are working on. The variable can be either "
+"appended to the specified paths, or used in the path definition."
+msgstr ""
+"$scenepath变量还可以用于根据您正在处理的场景自动创建特定文件夹。该变量可以附加"
+"到指定的路径，也可以在路径定义中使用。"
+
+#: ../../source/managing_projects.rst:151
+msgid ""
+"The labels of the default folders you can find in the project settings (i.e. **"
+"+drawings**, **+extras**, etc.) can be used as aliases in OpenToonz. For "
+"example if some material is retrieved from the extras default folder, its "
+"loading path will contain the alias **+extras**. They can be also used when "
+"you need to specify a saving path, for example in the Path field of the New "
+"Level dialog."
+msgstr ""
+"您可以在项目设置中找到的默认文件夹的标签（即**+图形**、**+附加**等）可以在"
+"OpenToonz中用作别名。例如，如果从extrass默认文件夹中检索到某些材料，则其加载路"
+"径将包含别名**+extras**。当您需要指定保存路径时，也可以使用它们，例如在“新建级"
+"别”对话框的“路径”字段中。"
+
+#: ../../source/managing_projects.rst:153
+msgid ""
+"When in a scene you load material not located in the current project folders, "
+"you can choose whether to import files, that is to say copy them in the "
+"related project folders, or to create a link with the external file. The link "
+"is defined by an absolute path."
+msgstr ""
+"在场景中加载不在当前项目文件夹中的材质时，可以选择是导入文件，也就是说将它们复"
+"制到相关项目文件夹中，还是创建与外部文件的链接。链接由绝对路径定义。"
+
+#: ../../source/managing_projects.rst:155
+msgid ""
+"Files loaded in a scene without importing can be imported later on at once by "
+"using the Collect Assets feature (see  :ref:`Collecting Assets "
+"<collecting_assets>`  )."
+msgstr ""
+"稍后可以使用“收集资源”功能一次性导入场景中加载但未导入的文件（请参见：ref:“收集"
+"资源<Collecting_Assets>”）。"
+
+#: ../../source/managing_projects.rst:157
+msgid ""
+"All shared disks involved in the folder definitions, i.e. disks where "
+"production material has to be written and read, must be shared granting full "
+"permissions to any user, otherwise the exchange of files will not succeed. For "
+"Windows, disks must have a Share Permission set to Full Control for Everyone; "
+"for Macintosh, the sharing settings must allow any user to read from and write "
+"to disks."
+msgstr ""
+"文件夹定义中涉及的所有共享磁盘，即必须写入和读取生产材料的磁盘，必须共享，授予"
+"任何用户完全权限，否则文件交换将无法成功。对于Windows，磁盘的共享权限必须设置"
+"为“所有人完全控制”；对于Macintosh，共享设置必须允许任何用户对磁盘进行读写操作。"
+
+#: ../../source/managing_projects.rst:159
+msgid ""
+"When no project is defined, the ``OpenToonz stuff/sandbox`` project is used by "
+"default."
+msgstr "当没有定义项目时，默认情况下使用“OpenToonz stuff/sandbox”项目。"
+
+#: ../../source/managing_projects.rst:161
+msgid "**To set default folders for a new project:**"
+msgstr "**要为新项目设置默认文件夹，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:163
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/managing_projects.rst:165
+msgid "Type the path to the folder you want to use as default."
+msgstr "键入要用作默认文件夹的路径。"
+
+#: ../../source/managing_projects.rst:167
+msgid ""
+"Use the browser button on the right of each text field, to set the folder you "
+"want to use as default."
+msgstr "使用每个文本字段右侧的浏览器按钮，将要用作默认文件夹。"
+
+#: ../../source/managing_projects.rst:173
+msgid "Adding Custom Default Folders"
+msgstr "添加自定义默认文件夹"
+
+#: ../../source/managing_projects.rst:174
+msgid ""
+"Besides the basic default folders you can also add your own default folders, "
+"and use the related aliases, by defining a TXT file named ``project_folders."
+"txt``  in the ``OpenToonz stuff\\profiles``  folder. In this file you can also "
+"change the order of the folders already available to change the way they are "
+"listed in the project settings dialog."
+msgstr ""
+"除了基本的默认文件夹外，您还可以添加自己的默认文件夹，并使用相关的别名，方法是"
+"在“OpenToonz stuff\\profiles”文件夹中定义一个名为“project_folders.TXT”的TXT文"
+"件。在此文件中，您还可以更改已可用文件夹的顺序，以更改它们在项目设置对话框中的"
+"列出方式。"
+
+#: ../../source/managing_projects.rst:176
+msgid "The following is an example of a ``projectfolders.txt``  file:"
+msgstr "以下是一个“projectfolders.txt”文件的示例："
+
+#: ../../source/managing_projects.rst:178
+msgid "inputs"
+msgstr ""
+
+#: ../../source/managing_projects.rst:179
+msgid "drawings"
+msgstr ""
+
+#: ../../source/managing_projects.rst:180
+msgid "backgrounds"
+msgstr ""
+
+#: ../../source/managing_projects.rst:181
+msgid "scenes"
+msgstr ""
+
+#: ../../source/managing_projects.rst:182
+msgid "extras"
+msgstr ""
+
+#: ../../source/managing_projects.rst:183
+msgid "outputs"
+msgstr ""
+
+#: ../../source/managing_projects.rst:184
+msgid "palettes"
+msgstr ""
+
+#: ../../source/managing_projects.rst:185
+msgid "3D"
+msgstr ""
+
+#: ../../source/managing_projects.rst:187
+msgid ""
+"where the **+backgrounds** and **+3D** aliases were added to the default ones."
+msgstr "其中***+背景**和**+3D**别名被添加到默认别名中。"
+
+#: ../../source/managing_projects.rst:190
+msgid "**To add more default folders to projects:**"
+msgstr "**要向项目添加更多默认文件夹，请执行以下操作：**"
+
+#: ../../source/managing_projects.rst:192
+msgid "Open the ``OpenToonz stuff\\profiles\\project_folders.txt``  file."
+msgstr "打开“OpenToonz stuff\\profiles\\project_folders.txt”文件。"
+
+#: ../../source/managing_projects.rst:194
+msgid ""
+"List the default folders you want to define, one per line, and save the file."
+msgstr "列出要定义的默认文件夹，每行一个，然后保存文件。"
+
+#: ../../source/managing_projects.rst:200
+msgid "Using the $scenepath Variable in Folder Definition"
+msgstr "Using the $scenepath Variable in Folder Definition"
+
+#: ../../source/managing_projects.rst:201
+msgid ""
+"The $scenepath variable can also be used in the definition of the **+inputs**, "
+"**+drawings**, and **+extras** aliases when typing the default folder path. In "
+"this case the path where you save the current scene will replace the "
+"$scenepath variable in the path definition, with the needed folders "
+"automatically created during the saving process."
+msgstr ""
+"在键入默认文件夹路径时，$scenepath变量也可用于定义**+输入**、**+绘图**和**+附加"
+"**别名。在这种情况下，保存当前场景的路径将用保存过程中自动创建的所需文件夹替换"
+"路径定义中的$scenepath变量。"
+
+#: ../../source/managing_projects.rst:203
+msgid ""
+"For example if **+drawings** is ``$scenepath\\mydrawings,`` and you save the "
+"scene scene01 in ``+scenes\\seq01`` , OpenToonz drawn or cleaned up levels for "
+"that scene will be saved in ``seq01\\scene01\\mydrawings`` ; when you save the "
+"scene scene02, in ``seq01\\scene02\\mydrawings`` ; and so on."
+msgstr ""
+"例如，如果**+绘图**是“$scenepath\\mydrawings”，并且您将场景scene01保存在“+scene"
+"\\seq01”中，则为该场景绘制或清理的OpenToonz级别将保存"
+"在“seq01\\scene01\\mydrawing”中；在“seq01\\scene02\\mydrawings”中保存场景"
+"scene02时；等等。"
+
+#: ../../source/managing_projects.rst:205
+msgid ""
+"In this way the needed default folders are automatically created with the same "
+"given name (mydrawings), one for each scene, according to the path used when "
+"saving the scene. As a consequence, if the variable is used in this way for "
+"all the aliases, all the files related to a scene will be stored in a folder "
+"named as the scene."
+msgstr ""
+"通过这种方式，根据保存场景时使用的路径，自动创建具有相同给定名称（mydrawings）"
+"的所需默认文件夹，每个场景一个。因此，如果变量以这种方式用于所有别名，则与场景"
+"相关的所有文件都将存储在名为场景的文件夹中。"
+
+#: ../../source/managing_projects.rst:207
+msgid "|scenepath_variable|"
+msgstr "|scenepath_变量|"
+
+#: ../../source/managing_projects.rst:209
+msgid ""
+"A second example: if **+drawings** is ``mydrawings\\$scenepath,`` when you "
+"save the scene scene01 in ``+scenes\\seq01`` , OpenToonz drawn or cleaned up "
+"levels for that scene will be saved in ``mydrawings\\seq01\\scene01`` ; when "
+"you save the scene scene02, in ``mydrawings\\seq01\\scene02`` ; and so on."
+msgstr ""
+"第二个例子：如果**+drawings**是“mydrawings \\$scenepath”，当您将场景scene01保存"
+"在“+scenes\\seq01”中时，OpenToonz为该场景绘制或清理的级别将保存在“mydrawings"
+"\\seq01\\scene01”中；当您在“mydrawings\\seq01\\scene02”中保存场景scene02时；等"
+"等。"
+
+#: ../../source/managing_projects.rst:211
+msgid ""
+"In this case the needed default folders are automatically created with the "
+"name and path of folders used when saving the scene, inside the path specified "
+"(mydrawings). As a consequence, if the variable is used in this way for all "
+"the aliases, all the files used in the project will be stored in a main folder "
+"for each alias, whose content is divided into folders named as the scenes."
+msgstr ""
+"在这种情况下，所需的默认文件夹会自动创建，其中包含保存场景时使用的文件夹的名称"
+"和路径，位于指定的路径（mydrawings）内。因此，如果以这种方式将变量用于所有别"
+"名，则项目中使用的所有文件都将存储在每个别名的主文件夹中，其内容将分为名为场景"
+"的文件夹。"
+
+#: ../../source/managing_projects.rst:213
+msgid ""
+"The definition of the **+palettes** alias cannot include $scenepath, as the "
+"palettes refer to the whole project, not to specific scenes."
+msgstr ""
+"**+调色板**别名的定义不能包含$scenepath，因为调色板指的是整个项目，而不是特定的"
+"场景。"
+
+#: ../../source/managing_projects.rst:215
+msgid ""
+"It is not possible to use at the same time for an alias the $scenepath "
+"variable in folder definition and the Append $scenepath option."
+msgstr "文件夹定义中的$scenepath变量和Append$scenepass选项不能同时用于别名。"
+
+#: ../../source/managing_projects.rst:221
+msgid "Using the Append $scenepath Option"
+msgstr "使用Append$scenepath选项"
+
+#: ../../source/managing_projects.rst:222
+msgid ""
+"The Append $scenepath option is available for the **+inputs**, **+drawings** "
+"and **+extras** aliases. If you activate the Append $scenepath option for an "
+"alias, the path where you save the current scene will be added to the path of "
+"the alias, with the needed folders automatically created during the saving "
+"process."
+msgstr ""
+"Append$scenepath选项可用于**+输入**、**+绘图**和**+附加**别名。如果为别名激活"
+"Append$scenepath选项，则保存当前场景的路径将添加到别名的路径中，并在保存过程中"
+"自动创建所需的文件夹。"
+
+#: ../../source/managing_projects.rst:224
+msgid ""
+"For example if **+drawings** is ``mydrawings`` , and you save the scene "
+"scene01 in ``+scenes\\seq01`` , OpenToonz drawn or cleaned up levels for that "
+"scene will be saved in ``mydrawings\\seq01\\scene01`` ; if you save the scene "
+"scene02 in ``+scenes\\seq01`` , OpenToonz drawn or cleaned up levels for that "
+"scene will be saved in ``mydrawings\\seq01\\scene02`` ; and so on."
+msgstr ""
+"例如，如果**+drawings**是“mydrawings”，并且您将场景scene01保存在“+scenes"
+"\\seq01”中，则为该场景绘制或清理的OpenToonz级别将保存在“mydrawings"
+"\\seq01\\scene01”中；如果将场景scene02保存在“+scenes\\seq01”中，则OpenToonz为该"
+"场景绘制或清理的级别将保存在“mydrawings\\seq01\\scene02”中；等等。"
+
+#: ../../source/managing_projects.rst:226
+msgid "|append_scenepath|"
+msgstr "|附录_附件|"
+
+#: ../../source/managing_projects.rst:228
+msgid ""
+"This allows OpenToonz to create scene-related folders automatically when "
+"saving OpenToonz files or importing external files, while allowing the use of "
+"the generic aliases **+drawings**, **+inputs** and **+extras**, no matter "
+"where levels are loaded from within the current project."
+msgstr ""
+"这允许OpenToonz在保存OpenToonz文件或导入外部文件时自动创建与场景相关的文件夹，"
+"同时允许使用通用别名**+图形**、**+输入**和**+附加**，无论从当前项目中的哪个位置"
+"加载级别。"
+
+#: ../../source/managing_projects.rst:230
+msgid ""
+"When a scene is saved in the **+scenes** folder, the value for $scenepath is "
+"the scene name; for example if you save the scene scene02 in **+scenes**, "
+"$scenepath will be scene02."
+msgstr ""
+"当场景保存在**+scenes**文件夹中时，$scenepath的值是场景名称；例如，如果将场景"
+"scene02保存在**+scenes**中，$scenepath将是scene02。"
+
+#: ../../source/managing_projects.rst:232
+msgid ""
+"It is not possible to use for an alias the Append $scenepath option and at the "
+"same time the $scenepath variable in defining the related folder."
+msgstr ""
+"在定义相关文件夹时，不能同时使用Append$scenepath选项和$scenepass变量作为别名。"
+
+#: ../../source/managing_projects.rst:238
+msgid "Using the Project Browser"
+msgstr "使用项目浏览器"
+
+#: ../../source/managing_projects.rst:239
+msgid ""
+"The project browser is available at the end of the file browser tree. It lists "
+"all of the projects that have been created, whose actual location is in the "
+"projectroot that was defined in the initial installation of OpenToonz. The "
+"projectroot value is displayed in brackets."
+msgstr ""
+"项目浏览器位于文件浏览器树的末尾。它列出了所有已创建的项目，其实际位置在"
+"OpenToonz初始安装中定义的项目根中。projectroot值显示在括号中。"
+
+#: ../../source/managing_projects.rst:241
+msgid "The name of the folders which the aliases point to are displayed in blue."
+msgstr "别名指向的文件夹名称以蓝色显示。"
+
+#: ../../source/managing_projects.rst:243
+msgid ""
+"In case more than one projectroot is defined, each will be listed with the "
+"related projectroot value in brackets (see  :ref:`Setting the Projectroot "
+"<setting_the_projectroot>`  )."
+msgstr ""
+"如果定义了多个项目根，则每个项目根都将在括号中列出相关的项目根值（请参阅：ref:`"
+"设置项目根<Setting_the_projectroot>`）。"
+
+#: ../../source/managing_projects.rst:248
+msgid "Default Folders with Relative Paths"
+msgstr "具有相对路径的默认文件夹"
+
+#: ../../source/managing_projects.rst:249
+msgid ""
+"When default folders are defined by using a relative path, in the project "
+"browser you will see all the folders specified in the path under the "
+"projectroot, and the project folders tree will be the same of the file system "
+"tree. The folders that are the target of the paths are displayed in blue."
+msgstr ""
+"当使用相对路径定义默认文件夹时，在项目浏览器中，您将看到项目根下路径中指定的所"
+"有文件夹，项目文件夹树将与文件系统树相同。作为路径目标的文件夹以蓝色显示。"
+
+#: ../../source/managing_projects.rst:251
+msgid ""
+"For example, for the project Project01, with **+drawings** that is "
+"``section01\\prod drawings`` , the project browser will display the following:"
+msgstr ""
+"例如，对于项目Project01，使用**+图纸**即“section01\\prod图纸”，项目浏览器将显示"
+"以下内容："
+
+#: ../../source/managing_projects.rst:256 ../../source/managing_projects.rst:265
+#: ../../source/managing_projects.rst:273 ../../source/managing_projects.rst:282
+#: ../../source/managing_projects.rst:294 ../../source/managing_projects.rst:304
+#: ../../source/managing_projects.rst:312
+msgid "Projects"
+msgstr ""
+
+#: ../../source/managing_projects.rst:256 ../../source/managing_projects.rst:265
+#: ../../source/managing_projects.rst:273 ../../source/managing_projects.rst:282
+#: ../../source/managing_projects.rst:294 ../../source/managing_projects.rst:304
+#: ../../source/managing_projects.rst:312
+msgid "Project01"
+msgstr ""
+
+#: ../../source/managing_projects.rst:256 ../../source/managing_projects.rst:265
+msgid "section01"
+msgstr ""
+
+#: ../../source/managing_projects.rst:256 ../../source/managing_projects.rst:273
+msgid "**prod drawings**"
+msgstr ""
+
+#: ../../source/managing_projects.rst:258 ../../source/managing_projects.rst:298
+msgid ""
+"If the option Append $scenepath is activated, and you save the scene scene01 "
+"in ``+scenes\\seq01`` , the project browser will display the following:"
+msgstr ""
+"如果激活了Append$scenepath选项，并将场景scene01保存在“+scene\\seq01”中，项目浏"
+"览器将显示以下内容："
+
+#: ../../source/managing_projects.rst:265 ../../source/managing_projects.rst:282
+msgid "prod drawings"
+msgstr ""
+
+#: ../../source/managing_projects.rst:265 ../../source/managing_projects.rst:273
+#: ../../source/managing_projects.rst:282 ../../source/managing_projects.rst:304
+msgid "seq01"
+msgstr ""
+
+#: ../../source/managing_projects.rst:265 ../../source/managing_projects.rst:281
+#: ../../source/managing_projects.rst:304
+msgid "**scene01**"
+msgstr ""
+
+#: ../../source/managing_projects.rst:267
+msgid ""
+"If the $scenepath is used in the folder definition, with +drawings that is ``"
+"$scenepath\\prod drawings,`` and you save the scene scene01 in ``+scenes"
+"\\seq01`` , the project browser will display the following:"
+msgstr ""
+"如果在文件夹定义中使用$scenepath，其中+图形为“$scenepath\\prod图形”，并且您将场"
+"景scene01保存在“+scene\\seq01”中，项目浏览器将显示以下内容："
+
+#: ../../source/managing_projects.rst:273
+msgid "scene01"
+msgstr ""
+
+#: ../../source/managing_projects.rst:275
+msgid ""
+"If the $scenepath is used in the folder definition, with +drawings that is "
+"``mydrawings\\$scenepath,`` and you save the scene scene01 in ``+scenes"
+"\\seq01`` , the project browser will display the following:"
+msgstr ""
+"如果在文件夹定义中使用$scenepath，其中+图形为“mydrawings\\$scenepaath”，并且您"
+"将场景scene01保存在“+scene\\seq01”中，项目浏览器将显示f"
+
+#: ../../source/managing_projects.rst:287
+msgid "Default Folders with Absolute Paths"
+msgstr "具有绝对路径的默认文件夹"
+
+#: ../../source/managing_projects.rst:288
+msgid ""
+"When default folders are defined by using an absolute path, in the project "
+"browser you will see only the related aliases, whatever their location on the "
+"network is. In this way you can quickly access the production material without "
+"browsing the computer, or the network. The aliases are displayed in blue, "
+"because they are the location the default folders paths point to."
+msgstr ""
+"当使用绝对路径定义默认文件夹时，在项目浏览器中，您将只看到相关的别名，无论它们"
+"在网络上的位置如何。通过这种方式，您可以快速访问生产资料，而无需浏览计算机或网"
+"络。别名显示为蓝色，因为它们是默认文件夹路径指向的位置。"
+
+#: ../../source/managing_projects.rst:290
+msgid ""
+"For example, for the project Project01, with **+drawings** that is ``C:"
+"\\production\\prod drawings`` on Windows, or ``/Volume/Macintosh HD/production/"
+"prod drawings`` on Macintosh, the project browser will display the following:"
+msgstr ""
+"例如，对于项目Project01，在Windows上使用**+图纸**，即“C:\\produce\\prod图纸”，"
+"或在Macintosh上使用“/Volume/Mintosh-HD/product/prod图纸”，项目浏览器将显示以下"
+"内容："
+
+#: ../../source/managing_projects.rst:294 ../../source/managing_projects.rst:312
+msgid "**+drawings**"
+msgstr ""
+
+#: ../../source/managing_projects.rst:296
+msgid ""
+"where **+drawings** is an alias for ``C:\\production\\prod drawings`` on "
+"Windows, or ``/Volume/Macintosh HD/production/prod drawings`` on Macintosh."
+msgstr ""
+"其中**+图纸**是Windows上“C:\\product\\prod图纸”或Macintosh上“/Volume/Mintosh-"
+"HD/product/prod图纸”的别名。"
+
+#: ../../source/managing_projects.rst:304
+msgid "\\+drawings \\"
+msgstr ""
+
+#: ../../source/managing_projects.rst:306
+msgid ""
+"If the $scenepath is used in the folder definition, with **+drawings** that is "
+"``C:\\$scenepath\\prod drawings`` on Windows, or ``/Volume/Macintosh HD/"
+"$scenepath/prod drawings`` on Macintosh, and you save the scene scene01 in ``"
+"+scenes\\seq01`` , the project browser will display the following:"
+msgstr ""
+"如果在文件夹定义中使用$scenepath，在Windows上使用**+图纸**，即“C:\\$scenepath"
+"\\prod图纸”，或在Macintosh上使用“/Volume/Mintosh-HD/$scenepaath/prod图纸”，并且"
+"将场景scene01保存在“+scenes\\seq01”中，项目浏览器将显示以下内容："
+
+#: ../../source/managing_projects.rst:312
+msgid "\\+scenes \\"
+msgstr ""
+
+#: ../../source/managing_projects.rst:312
+msgid "scene01.tnz"
+msgstr ""
+
+#: ../../source/managing_projects.rst:314
+msgid ""
+"with **+drawings** that is ``C:\\seq01\\scene01\\prod drawings`` on Windows, "
+"or ``/Volume/Macintosh HD/seq01/scene01/prod drawings`` on Macintosh, and is "
+"located under the related scene file (TNZ format)."
+msgstr ""
+"带有**+图纸**，即Windows上的“C:\\seq01\\scene01\\prod图纸”，或Macintosh上的“/"
+"Volume/Mintosh-HD/seq01/scene01/prod图纸“，位于相关场景文件（TNZ格式）下。"
+
+#: ../../source/managing_projects.rst:316
+msgid ""
+"If the $scenepath is used in the folder definition, with **+drawings** that is "
+"``C:\\prod drawings\\$scenepath`` on Windows, or ``/Volume/Macintosh HD/prod "
+"drawings/$scenepath`` on Macintosh, and you save the scene scene01 in ``+scenes"
+"\\seq01`` , the project browser will display the same as above, but this time "
+"**+drawings** is ``C:\\prod drawings\\seq01\\scene01`` on Windows, or ``/"
+"Volume/Macintosh HD/prod drawings/seq01/scene01`` on Macintosh."
+msgstr ""
+"If the $scenepath is used in the folder definition, with **+drawings** that is "
+"``C:\\prod drawings\\$scenepath`` on Windows, or ``/Volume/Macintosh HD/prod "
+"drawings/$scenepath`` on Macintosh, and you save the scene scene01 in ``+scenes"
+"\\seq01`` , the project browser will display the same as above, but this time "
+"**+drawings** is ``C:\\prod drawings\\seq01\\scene01`` on Windows, or ``/"
+"Volume/Macintosh HD/prod drawings/seq01/scene01`` on Macintosh."

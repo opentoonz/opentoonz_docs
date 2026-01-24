@@ -1,0 +1,2457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 14:00+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/managing_palettes_and_styles.rst:4
+msgid "Managing Palettes and Styles"
+msgstr "管理调色板和样式"
+
+#: ../../source/managing_palettes_and_styles.rst:5
+msgid ""
+"In OpenToonz, Toonz Vector and Toonz Raster animation levels comes with their "
+"own palette, containing styles that can be used to *draw lines* and *paint "
+"lines and areas*. Raster levels, on the contrary, can be just edited by using "
+"the styles available in the **Raster Drawing Palette**, that is shared by all "
+"of the raster levels in the project."
+msgstr ""
+"在OpenToonz中，Toonz矢量和Toonz光栅动画级别都有自己的调色板，其中包含可用于*绘制"
+"线条*和*绘制线条和区域*的样式。相反，光栅级别可以通过使用**光栅绘图调色板**中可"
+"用的样式进行编辑，该调色板由项目中的所有光栅级别共享。"
+
+#: ../../source/managing_palettes_and_styles.rst:7
+msgid ""
+"In Toonz Vector and Toonz Raster levels, palette styles are interactively "
+"“linked” to drawn *lines* and filled *areas* by using indexes. The main "
+"advantage of this method is that if you edit a style of the palette, all the "
+"lines and filled areas using that style will be automatically updated. This "
+"allows you to change or calibrate colors, even after the painting process has "
+"been done, without having to correct the style line by line, or area by area in "
+"the image."
+msgstr ""
+"在Toonz Vector和Toonz Raster级别中，调色板样式通过使用索引交互式地“链接”到绘制的"
+"*线条*和填充的*区域*。这种方法的主要优点是，如果编辑调色板的样式，则使用该样式的"
+"所有线条和填充区域都将自动更新。这允许您更改或校准颜色，即使在绘制过程完成后，也"
+"不必逐行或逐区域校正图像中的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:9
+msgid ""
+"In Raster levels, palette styles are simply used to draw or touch up the image, "
+"and no link exists between the styles and the already drawn lines. This "
+"palette, named **Raster Drawing Palette**, is shared by all the Raster levels "
+"belonging to a specific project and is stored in the **+palettes**  project "
+"default folder (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr ""
+"在光栅级别中，调色板样式仅用于绘制或润色图像，样式与已绘制的线条之间不存在任何链"
+"接。此调色板名为**光栅绘图调色板**，由属于特定项目的所有光栅级别共享，并存储在"
+"***+调色板**项目默认文件夹中（请参阅：ref:`项目默认文件夹"
+"<project_default_Folders>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:11
+msgid ""
+"All the editing performed in palettes and styles is not saved until you save "
+"the related Toonz level, the palette itself, or the **Save All** command is "
+"used (see  :ref:`Saving Levels <saving_levels>`  )."
+msgstr ""
+"在保存相关的Toanz级别、调色板本身或使用**全部保存**命令之前，调色板和样式中执行"
+"的所有编辑都不会保存（请参阅：ref:`保存级别<saveing_Levels>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:17
+msgid "The Palette Editor"
+msgstr "调色板编辑器"
+
+#: ../../source/managing_palettes_and_styles.rst:19
+msgid ""
+"The Palette Editor displays the styles of the current animation level that are "
+"(or can be) used, to draw and paint the level."
+msgstr ""
+"调色板编辑器显示当前动画级别的样式，这些样式用于（或可以用于）绘制和绘制级别。"
+
+#: ../../source/managing_palettes_and_styles.rst:21
+msgid "|palette|"
+msgstr "|调色板|"
+
+#: ../../source/managing_palettes_and_styles.rst:23
+msgid ""
+"The default palette of any new **Toonz Vector** level contains only the plain "
+"black color; the default palette of a **Toonz Raster** level contains either "
+"the plain black color, for new levels, or the colors recognized during the "
+"cleanup process, for cleaned up levels from scans. Any palette always contains "
+"the **Color_0** item, that allows you to remove any style from *lines* and "
+"filled *areas*."
+msgstr ""
+"任何新**Toanz Vector**级别的默认调色板仅包含纯黑色；**Toanz Raster**级别的默认调"
+"色板包含纯黑色，用于新级别，或在清理过程中识别的颜色，用于扫描中清理的级别。任何"
+"调色板都始终包含**Color_0**项，这允许您从*行*和填充的*区域*中删除任何样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:25
+msgid "Each palette can contain up to 4096 styles."
+msgstr "每个调色板最多可包含4096种样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:27
+msgid "Styles in the Palette Editor can be displayed in different modes:"
+msgstr "调色板编辑器中的样式可以以不同的模式显示："
+
+#: ../../source/managing_palettes_and_styles.rst:29
+msgid ""
+"**Small Thumbnails View** displays styles as small squares. The style index is "
+"displayed at the bottom right corner. Full name of the style can be displayed "
+"as a tooltip."
+msgstr ""
+"**小缩略图视图**将样式显示为小方块。样式索引显示在右下角。样式的全名可以显示为工"
+"具提示。"
+
+#: ../../source/managing_palettes_and_styles.rst:31
+msgid ""
+"**Medium Thumbnails View** displays styles as medium squares. You can read the "
+"first letters of the name of the style directly inside the chips; the style "
+"index is displayed at the bottom right corner. Full name of the style can be "
+"displayed as a tooltip."
+msgstr ""
+"**中等缩略图视图**将样式显示为中等正方形。您可以直接在芯片内读取样式名称的首字"
+"母；样式索引显示在右下角。样式的全名可以显示为工具提示。"
+
+#: ../../source/managing_palettes_and_styles.rst:33
+msgid ""
+"**Large Thumbnails View** displays styles as large squares. You can read the "
+"first letters of the name of the style directly inside the chips; the style "
+"index is displayed at the bottom right corner. Full name of the style can be "
+"displayed as a tooltip."
+msgstr ""
+"**大缩略图视图**将样式显示为大正方形。您可以直接在芯片内读取样式名称的首字母；样"
+"式索引显示在右下角。样式的全名可以显示为工具提示。"
+
+#: ../../source/managing_palettes_and_styles.rst:35
+msgid ""
+"**List View** displays style thumbnails next to their names in a list; the "
+"index of the style is displayed as a tooltip. If the palette styles refer to a "
+"studio palette, its path will be displayed along with the style name (see  :ref:"
+"`Using the Studio Palette <using_the_studio_palette>`  )."
+msgstr ""
+"**列表视图**在列表中的名称旁边显示样式缩略图；样式的索引显示为工具提示。如果调色"
+"板样式引用工作室调色板，则其路径将与样式名称一起显示（请参阅：ref:`使用工作室调"
+"色板<Using_the_strudio_palette>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:37
+msgid ""
+"By default the Palette editor is *active*, that means that it automatically "
+"displays the styles of the current animation level, but it can be made "
+"*inactive* in order not to be updated when you select a different level. In "
+"this way, by opening more than one Palette editor it will be possible to "
+"simultaneously compare and edit several palettes referring to different "
+"animation levels."
+msgstr ""
+"默认情况下，调色板编辑器是*活动*的，这意味着它会自动显示当前动画级别的样式，但也"
+"可以将其设置为*非活动*，以便在选择其他级别时不会更新。这样，通过打开多个调色板编"
+"辑器，可以同时比较和编辑涉及不同动画级别的多个调色板。"
+
+#: ../../source/managing_palettes_and_styles.rst:39
+msgid ""
+"Palettes also can be saved as independent files in TPL format to be loaded back "
+"into the scene to retrieve colors, or to be used with the **External Palette** "
+"effect (see  :ref:`Using the File Browser <using_the_file_browser>`  and  :ref:"
+"`External Palette <external_palette>`  )."
+msgstr ""
+"调色板也可以保存为TPL格式的独立文件，以加载回场景中检索颜色，或与**外部调色板**"
+"效果一起使用（请参阅：ref:“使用文件浏览器<Using_the_File_Browser>”和：ref:`外部"
+"调色板<External_plete>”）。"
+
+#: ../../source/managing_palettes_and_styles.rst:41
+msgid ""
+"Most of the palette editing described below can be applied to the **Palette** "
+"viewer available in the **Studio Palette** as well (see  :ref:`Using the Studio "
+"Palette <using_the_studio_palette>`  )."
+msgstr ""
+"下面描述的大多数调色板编辑也可以应用于**Studio palette**中可用的**palette**查看"
+"器（请参阅：ref:`使用Studio palette<Using_the_Studio_palette>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:43
+msgid "**To change the palette display mode:**"
+msgstr "**要更改调色板显示模式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:45
+#: ../../source/managing_palettes_and_styles.rst:75
+#: ../../source/managing_palettes_and_styles.rst:87
+#: ../../source/managing_palettes_and_styles.rst:141
+#: ../../source/managing_palettes_and_styles.rst:214
+#: ../../source/managing_palettes_and_styles.rst:250
+#: ../../source/managing_palettes_and_styles.rst:274
+#: ../../source/managing_palettes_and_styles.rst:375
+#: ../../source/managing_palettes_and_styles.rst:417
+#: ../../source/managing_palettes_and_styles.rst:795
+#: ../../source/managing_palettes_and_styles.rst:805
+#: ../../source/managing_palettes_and_styles.rst:815
+#: ../../source/managing_palettes_and_styles.rst:825
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/managing_palettes_and_styles.rst:47
+msgid ""
+"Click the option button (|option|) on the right of the top bar of the **Palette "
+"Editor**, and choose a display mode from the menu that opens."
+msgstr ""
+"单击**调色板编辑器**顶部栏右侧的选项按钮（|options|），然后从打开的菜单中选择显"
+"示模式。"
+
+#: ../../source/managing_palettes_and_styles.rst:49
+msgid ""
+"Use the standard zoom **+** or **-** shortcut keys in the **Palette Editor** to "
+"increase or decrease the styles chips size."
+msgstr ""
+"使用**调色板编辑器**中的标准缩放**+**或**-**快捷键来增加或减小样式芯片大小。"
+
+#: ../../source/managing_palettes_and_styles.rst:52
+msgid "**To make the Palette editor inactive or active:**"
+msgstr "**要使调色板编辑器处于非活动或活动状态，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:54
+msgid ""
+"Click the **Switch** button (|switch|) on the right of the **Palette Editor** "
+"title bar."
+msgstr "单击**调色板编辑器**标题栏右侧的**切换**按钮（|切换|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:56
+msgid "**To save a palette with a different name in a different location:**"
+msgstr "**要将具有不同名称的调色板保存在不同位置，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:58
+msgid ""
+"Click the **Save Palette As** button (|save_as|) in the top bar of the "
+"**Palette Editor**."
+msgstr "单击**调色板编辑器**顶部栏中的**将调色板另存为**按钮（|Save_As|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:60
+msgid ""
+"In the browser that opens choose a location and name for the palette you want "
+"to save, and click the **Save** button."
+msgstr "在打开的浏览器中，为要保存的调色板选择位置和名称，然后单击**保存**按钮。"
+
+#: ../../source/managing_palettes_and_styles.rst:62
+msgid ""
+"The **Save Palette As** command creates a copy of the palette with a different "
+"file name and location, but does not change the name and location of the "
+"palette used in the scene."
+msgstr ""
+"**将调色板另存为**命令使用不同的文件名和位置创建调色板的副本，但不会更改场景中使"
+"用的调色板的名称和位置。"
+
+#: ../../source/managing_palettes_and_styles.rst:68
+msgid "Arranging Palette Styles and Pages"
+msgstr "排列调色板样式和页面"
+
+#: ../../source/managing_palettes_and_styles.rst:69
+msgid ""
+"Palette styles can be added, named, reordered and arranged in pages. They can "
+"be copied and pasted from one position to another, or from one palette to "
+"another."
+msgstr ""
+"调色板样式可以在页面中添加、命名、重新排序和排列。它们可以从一个位置复制粘贴到另"
+"一个位置，或者从一个调色板复制粘贴到其他调色板。"
+
+#: ../../source/managing_palettes_and_styles.rst:71
+msgid ""
+"When styles used for painting drawings are **Cut**, lines and areas painted "
+"with them will be displayed in **red**; if they are **Deleted**, you will be "
+"prompted whether to delete the styles only and show the lines and areas painted "
+"with them in red, or to delete the lines and areas painted with them as well."
+msgstr ""
+"当用于绘制图纸的样式为**剪切**时，用它们绘制的线条和区域将显示为**红色**；如果它"
+"们是**已删除**，系统将提示您是仅删除样式并将用它们绘制的线条和区域显示为红色，还"
+"是也删除用它们绘画的线条和面积。"
+
+#: ../../source/managing_palettes_and_styles.rst:73
+msgid "**To select a style:**"
+msgstr "**要选择样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:77
+msgid "Click it in the **Palette Editor**."
+msgstr "在**调色板编辑器**中单击它。"
+
+#: ../../source/managing_palettes_and_styles.rst:79
+msgid ""
+"Use the number keys on the main or numerical keyboards to select the "
+"corresponding style."
+msgstr "使用主键盘或数字键盘上的数字键选择相应的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:81
+msgid ""
+"When in **Medium/Large Thumbnails View** a visual cue of which key shortcut "
+"corresponds to which style is shown on the upper center of each style chip."
+msgstr ""
+"在**中/大缩略图视图**中，每个样式芯片的上部中心显示了哪个快捷键对应哪个样式的视"
+"觉提示。"
+
+#: ../../source/managing_palettes_and_styles.rst:83
+msgid ""
+"In case of having more than 10 styles in the current palette, you can use the "
+"**Tab key** on the keyboard to switch to the next bank of 10 styles."
+msgstr ""
+"如果当前调色板中有超过10种样式，您可以使用键盘上的**Tab键**切换到下一组10种样"
+"式。"
+
+#: ../../source/managing_palettes_and_styles.rst:85
+msgid "**To select multiple styles:**"
+msgstr "**选择多个样式:**"
+
+#: ../../source/managing_palettes_and_styles.rst:89
+msgid "Shift-click to extend the selection."
+msgstr "按住Shift键并单击以扩展选择。"
+
+#: ../../source/managing_palettes_and_styles.rst:91
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) to add a style to, or remove it from the "
+"selection."
+msgstr "Ctrl键单击（PC）或Cmd键单击（Mac）可将样式添加到选择中或从选择中删除。"
+
+#: ../../source/managing_palettes_and_styles.rst:93
+msgid "**To add a new style:**"
+msgstr "**要添加新样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:95
+msgid ""
+"Click the **New Style** button (|new_style|) in the top bar of the palette "
+"editor."
+msgstr "单击调色板编辑器顶部栏中的**新建样式**按钮（|New_Style|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:97
+msgid "**To name a style:**"
+msgstr "**要命名样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:99
+msgid ""
+"When styles are displayed in **Medium/Large Thumbnails View** or **List View** "
+"modes, double-click the style name to edit it."
+msgstr ""
+"当样式以**中/大缩略图视图**或**列表视图**模式显示时，双击样式名称进行编辑。"
+
+#: ../../source/managing_palettes_and_styles.rst:101
+msgid "**To edit palette styles with the Edit menu commands:**"
+msgstr "**要使用“编辑”菜单命令编辑调色板样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:103
+msgid "Select the styles you want to edit."
+msgstr "选择要编辑的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:105
+#: ../../source/managing_palettes_and_styles.rst:316
+msgid "Do any of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/managing_palettes_and_styles.rst:107
+msgid ""
+"Use the **Cut** command to eliminate selected styles from the palette and keep "
+"them in memory for further operations."
+msgstr ""
+"使用**剪切**命令从调色板中删除选定样式，并将其保留在内存中以供进一步操作。"
+
+#: ../../source/managing_palettes_and_styles.rst:109
+msgid ""
+"Use the **Copy** command to keep in memory selected styles for further "
+"operations."
+msgstr "使用**复制**命令将选定样式保留在内存中以供进一步操作。"
+
+#: ../../source/managing_palettes_and_styles.rst:111
+msgid ""
+"Use the **Paste Insert** command to paste styles kept in memory in the palette, "
+"after the currently selected style. **Cut** styles will be added preserving "
+"their indexes; **Copied** styles will be added using new indexes."
+msgstr ""
+"使用**粘贴插入**命令将保存在调色板内存中的样式粘贴到当前选定的样式之后。**将添加"
+"剪切**样式，保留其索引；**复制的**样式将使用新索引添加。"
+
+#: ../../source/managing_palettes_and_styles.rst:113
+msgid ""
+"Use the **Paste Color & Name** command to paste styles kept in memory, over the "
+"styles selected in the palette, overwriting their content. If the selection "
+"contains less styles than those kept in memory, styles in excess will be "
+"ignored; if the selection contains more styles than those kept in memory, "
+"styles in excess will be left as they are."
+msgstr ""
+"使用**粘贴颜色和名称**命令将保存在内存中的样式粘贴到调色板中选定的样式上，覆盖其"
+"内容。如果所选内容包含的样式少于内存中保存的样式，则多余的样式将被忽略；如果所选"
+"内容包含的样式比内存中保存的样式多，则多余的样式将保持原样。"
+
+#: ../../source/managing_palettes_and_styles.rst:115
+msgid ""
+"Use the **Paste Color** command to paste the red, green, blue and alpha values "
+"of the styles kept in memory in the styles selected in the palette, preserving "
+"their name. If the selection contains less styles than those kept in memory, "
+"styles in excess will be ignored; if the selection contains more styles than "
+"those kept in memory, styles in excess will be left as they are."
+msgstr ""
+"使用**粘贴颜色**命令将内存中保存的样式的红色、绿色、蓝色和阿尔法值粘贴到调色板中"
+"选定的样式中，并保留其名称。如果所选内容包含的样式少于内存中保存的样式，则多余的"
+"样式将被忽略；如果所选内容包含的样式比内存中保存的样式多，则多余的样式将保持原"
+"样。"
+
+#: ../../source/managing_palettes_and_styles.rst:117
+msgid ""
+"Use the **Paste Name** command to paste the names of the styles kept in memory "
+"in the styles selected in the palette, preserving their colors. If the "
+"selection contains less styles than those kept in memory, styles in excess will "
+"be ignored; if the selection contains more styles than those kept in memory, "
+"styles in excess will be left as they are."
+msgstr ""
+"使用**粘贴名称**命令将内存中保存的样式名称粘贴到调色板中选定的样式中，并保留其颜"
+"色。如果所选内容包含的样式少于内存中保存的样式，则多余的样式将被忽略；如果所选内"
+"容包含的样式比内存中保存的样式多，则多余的样式将保持原样。"
+
+#: ../../source/managing_palettes_and_styles.rst:119
+msgid "Use the **Delete** command to delete selected styles."
+msgstr "使用**删除**命令删除选定样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:121
+msgid ""
+"All the **Edit** menu commands are also available in the menu that opens when "
+"right-clicking the selection."
+msgstr "所有**编辑**菜单命令也可在右键单击选择时打开的菜单中使用。"
+
+#: ../../source/managing_palettes_and_styles.rst:123
+msgid "**To move selected styles:**"
+msgstr "**要移动选定样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:125
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the new position; "
+"the insertion point is marked while you drag."
+msgstr ""
+"Ctrl键单击（PC）或Cmd键单击（Mac）并将所选内容拖动到新位置；拖动时会标记插入点。"
+
+#: ../../source/managing_palettes_and_styles.rst:127
+msgid "**To move selected styles into a different page:**"
+msgstr "**要将所选样式移动到其他页面，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:129
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the tab of the "
+"page where you want to put selected styles."
+msgstr ""
+"按住Ctrl键单击（PC）或按住Cmd键单击（Mac），然后将所选内容拖动到要放置所选样式的"
+"页面选项卡上。"
+
+#: ../../source/managing_palettes_and_styles.rst:131
+msgid "**To move styles into a new page:**"
+msgstr "**要将样式移动到新页面中，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:133
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the right of the "
+"last page tab: a new page will be created containing the dragged styles."
+msgstr ""
+"按住Ctrl键单击（PC）或Cmd键单击（Mac），然后将所选内容拖动到最后一个页面选项卡的"
+"右侧：将创建一个包含拖动样式的新页面。"
+
+#: ../../source/managing_palettes_and_styles.rst:135
+msgid "**To remove all the unused styles:**"
+msgstr "**要删除所有未使用的样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:137
+msgid ""
+"Right-click in the palette and choose **Remove Unused Styles** from the menu "
+"that opens."
+msgstr "在调色板中单击鼠标右键，然后从打开的菜单中选择**删除未使用的样式**。"
+
+#: ../../source/managing_palettes_and_styles.rst:139
+msgid "**To add a new page:**"
+msgstr "**要添加新页面，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:143
+msgid ""
+"Click the **New Page** button (|new_page|) in the top bar of the Palette Editor."
+msgstr "单击调色板编辑器顶部栏中的**新建页面**按钮（|New_Page|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:145
+msgid ""
+"Right-click in the palette area where page tabs are displayed and choose **New "
+"Page** from the menu that opens."
+msgstr ""
+"在显示页面选项卡的调色板区域中单击鼠标右键，然后从打开的菜单中选择**新建页面**。"
+
+#: ../../source/managing_palettes_and_styles.rst:147
+msgid "**To name a page:**"
+msgstr "**要命名页面，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:149
+msgid "Double-click the page name to edit it."
+msgstr "双击页面名称进行编辑。"
+
+#: ../../source/managing_palettes_and_styles.rst:151
+msgid "**To move a page:**"
+msgstr "**要移动页面，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:153
+msgid "Click and drag the page tab to the new position."
+msgstr "单击页面选项卡并将其拖动到新位置。"
+
+#: ../../source/managing_palettes_and_styles.rst:155
+msgid "**To delete a page:**"
+msgstr "**要删除页面，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:157
+msgid ""
+"Right-click the page tab and choose **Delete Page** from the menu that opens. "
+"The current page cannot be deleted."
+msgstr ""
+"右键单击页面选项卡，然后从打开的菜单中选择**删除页面**。当前页面无法删除。"
+
+#: ../../source/managing_palettes_and_styles.rst:163
+msgid "Using the Studio Palette"
+msgstr "使用Studio调色板"
+
+#: ../../source/managing_palettes_and_styles.rst:165
+msgid "|studio_palette|"
+msgstr "|工作室调色板|"
+
+#: ../../source/managing_palettes_and_styles.rst:167
+msgid ""
+"The Studio Palette allows you to store and manage an unlimited number of "
+"palettes. It is intended as a library of character and prop palettes related to "
+"one or more specific productions. From here Palettes, or Styles contained in "
+"them, can be *retrieved*, *assigned*, or *merged* to the current level palette, "
+"with no need to define the same styles again and again."
+msgstr ""
+"Studio调色板允许您存储和管理无限数量的调色板。它旨在作为一个与一个或多个特定作品"
+"相关的角色和道具调色板库。从这里，调色板或其中包含的样式可以*检索*、*分配*或*合"
+"并*到当前级别调色板，而不需要一次又一次地定义相同的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:169
+msgid ""
+"It consists of a Palette Tree and a Palette Viewer: the **Palette Tree** lists "
+"two main folders: **Global Palettes** and **Project Palettes**, and all the "
+"folders and palettes you add; the **Palette Viewer** displays the currently "
+"selected palette and allows you to edit it as a standard palette (see  :ref:"
+"`The Palette Window <the_palette_window>`  )."
+msgstr ""
+"它由调色板树和调色板查看器组成：**调色板树**列出了两个主要文件夹：**全局调色板**"
+"和**项目调色板**，以及您添加的所有文件夹和调色板；**调色板查看器**显示当前选定的"
+"调色板，并允许您将其作为标准调色板进行编辑（请参阅：ref:`调色板窗口"
+"<the_palete_Window>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:171
+msgid ""
+"Any level palette can be added to the Studio Palette; if a **Color Model** is "
+"defined for that level, it will be saved along with the palette and retrieved "
+"any time that palette will be assigned to a level (see  :ref:`Using a Color "
+"Model <using_a_color_model>`  )."
+msgstr ""
+"任何级别的调色板都可以添加到Studio调色板中；如果为该级别定义了**颜色模型**，则它"
+"将与调色板一起保存，并在任何时候将调色板分配给级别时检索（请参阅：ref:`使用颜色"
+"模型<Using_a_Color_Model>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:173
+msgid ""
+"Palettes added to the **Global Palettes** folder will be available in the "
+"Studio Palette in any OpenToonz session, regardless of the current project."
+msgstr ""
+"添加到**全局选项板**文件夹的选项板将在任何OpenToonz会话的Studio选项板中可用，而"
+"不管当前项目如何。"
+
+#: ../../source/managing_palettes_and_styles.rst:175
+msgid ""
+"Palettes added to the **Project Palettes** folder will be available only when "
+"the current project is the relevant one. For example if your current project is "
+"*Production One*, and you add some palettes to the **Project Palettes** folder, "
+"those palettes will be available only when the current project is *Production "
+"One*."
+msgstr ""
+"添加到**项目选项板**文件夹的选项板仅在当前项目是相关项目时可用。例如，如果您当前"
+"的项目是*Production One*，并且您向**project palettes**文件夹中添加了一些调色板，"
+"则这些调色板仅在当前项目是*Produce One*时可用。"
+
+#: ../../source/managing_palettes_and_styles.rst:177
+msgid ""
+"If you want to add to the **Studio Palette** a series of palettes you have "
+"previously created and stored in a folder, you can also automatically retrieve "
+"them by searching that specific folder."
+msgstr ""
+"如果您想将之前创建并存储在文件夹中的一系列调色板添加到**Studio Palette**中，您还"
+"可以通过搜索该特定文件夹来自动检索它们。"
+
+#: ../../source/managing_palettes_and_styles.rst:179
+msgid ""
+"Styles that are imported from the **Studio Palette** to the palette of the "
+"current level are marked with a *small white square*. This reference can be "
+"used to link styles to the original Studio Palette styles: the link can be "
+"activated or deactivated anytime for any selection of styles."
+msgstr ""
+"从**工作室调色板**导入到当前级别调色板的样式用*白色小方块*标记。此引用可用于将样"
+"式链接到原始Studio调色板样式：可以随时激活或停用任何样式选择的链接。"
+
+#: ../../source/managing_palettes_and_styles.rst:181
+msgid "|regular-imported-linked_style|"
+msgstr "|常规导入链接样式|"
+
+#: ../../source/managing_palettes_and_styles.rst:183
+msgid ""
+"When the link is activated, an arrow is displayed on the small white square, "
+"and the style will be updated according to the original Studio Palette style. "
+"When the link is deactivated, the style can be modified regardless of the "
+"original Studio Palette style."
+msgstr ""
+"激活链接后，白色小方块上会显示一个箭头，样式将根据原始Studio Palette样式进行更"
+"新。当链接被停用时，无论原始的Studio调色板样式如何，都可以修改样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:185
+msgid ""
+"Linking animation level palettes to the Studio Palette can assure color "
+"consistency for the whole production, because as soon as a change is needed, it "
+"can be done in the Studio Palette, automatically updating all the linked "
+"animation levels palettes and, consequently, drawings."
+msgstr ""
+"将动画级别调色板链接到Studio调色板可以确保整个制作的颜色一致性，因为一旦需要更"
+"改，就可以在Studio调色板中完成，自动更新所有链接的动画级别调色板，从而更新图形。"
+
+#: ../../source/managing_palettes_and_styles.rst:187
+msgid ""
+"In the level palette, the information about which Studio Palette the palette "
+"styles refers to can be retrieved in the **List View** mode, where, next to the "
+"style thumbnails and names, the path to the source studio palette is displayed."
+msgstr ""
+"在级别调色板中，可以在**列表视图**模式下检索调色板样式引用的Studio调色板的信息，"
+"在该模式下，样式缩略图和名称旁边显示了源Studio调色板的路径。"
+
+#: ../../source/managing_palettes_and_styles.rst:189
+msgid ""
+"When palettes are added to **Global Palettes**, they are copied to the "
+"**studiopalette**  folder located where OpenToonz projects are stored (see  :"
+"ref:`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+"当调色板被添加到**全局调色板**时，它们会被复制到存储OpenToonz项目的"
+"**studiopalette**文件夹中（请参阅：ref:`设置项目<Setting_up_projects>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:191
+msgid ""
+"When palettes are added to **Project Palettes**, they are copied to the **"
+"+palettes** folder you specified for the current project (see  :ref:`Project "
+"Default Folders <project_default_folders>`  )."
+msgstr ""
+"将选项板添加到**项目选项板**时，它们将被复制到您为当前项目指定的**+选项板**文件"
+"夹中（请参阅：ref:`项目默认文件夹<Project_Default_Folders>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:193
+msgid ""
+"These folders can be used, for example, to move your Studio Palette, or the "
+"Project Palette, to a different network, or to make a backup copy of it."
+msgstr ""
+"例如，这些文件夹可用于将Studio调色板或项目调色板移动到其他网络，或制作其备份副"
+"本。"
+
+#: ../../source/managing_palettes_and_styles.rst:196
+msgid "**To add an empty palette:**"
+msgstr "**要添加空调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:198
+msgid "Select the folder where you want to create the new palette."
+msgstr "选择要在其中创建新调色板的文件夹。"
+
+#: ../../source/managing_palettes_and_styles.rst:200
+msgid ""
+"Right-click the folder where you want to locate the palette and choose **New "
+"Palette** from the menu that opens."
+msgstr "右键单击要查找调色板的文件夹，然后从打开的菜单中选择**新建调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:202
+msgid "**To name a palette:**"
+msgstr "**要命名调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:204
+#: ../../source/managing_palettes_and_styles.rst:236
+msgid "Double click its name and type a new name."
+msgstr "双击它的名称并且输入一个新名称"
+
+#: ../../source/managing_palettes_and_styles.rst:206
+msgid "**To view a palette in the Studio Palette:**"
+msgstr "**要在Studio调色板中查看调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:208
+#: ../../source/managing_palettes_and_styles.rst:240
+msgid "Select it in the **Palette Tree**."
+msgstr "在**调色板树**中选择它。"
+
+#: ../../source/managing_palettes_and_styles.rst:210
+msgid "**To add a level palette to the Studio Palette:**"
+msgstr "**要将标高调色板添加到Studio调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:212
+msgid "Select the level to display its palette."
+msgstr "选择要显示其调色板的级别。"
+
+#: ../../source/managing_palettes_and_styles.rst:216
+msgid ""
+"Click the **Palette** button (|drag_palette|) in the top bar of the palette "
+"editor and drag the current palette to the **Studio Palette** folder where you "
+"want to locate it. The palette will retain its name."
+msgstr ""
+"单击调色板编辑器顶部栏中的**Palette**按钮（|drag_Palette|），将当前调色板拖动到"
+"要定位的**Studio Palette**文件夹中。调色板将保留其名称。"
+
+#: ../../source/managing_palettes_and_styles.rst:218
+msgid ""
+"Add an empty palette in the Studio Palette editor, right-click it and select "
+"**Replace with Current Palette** from the menu that opens."
+msgstr ""
+"在Studio palette编辑器中添加一个空调色板，右键单击它，然后从打开的菜单中选择**替"
+"换为当前调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:220
+msgid "**To add palettes by searching in a computer folder:**"
+msgstr "**要通过在计算机文件夹中搜索来添加调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:222
+msgid ""
+"Select the folder where you want to place palettes retrieved during the search."
+msgstr "选择要放置搜索期间检索到的调色板的文件夹。"
+
+#: ../../source/managing_palettes_and_styles.rst:224
+msgid ""
+"Right-click the folder and select **Search for Palettes** from the menu that "
+"opens."
+msgstr "右键单击该文件夹，然后从打开的菜单中选择**搜索选项板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:226
+msgid "Browse to the computer folder you want to scan."
+msgstr "浏览到要扫描的计算机文件夹。"
+
+#: ../../source/managing_palettes_and_styles.rst:228
+msgid "**To add a new folder:**"
+msgstr "**要添加新文件夹，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:230
+msgid "Select the folder where you want to create the new folder."
+msgstr "选择要在其中创建新文件夹的文件夹。"
+
+#: ../../source/managing_palettes_and_styles.rst:232
+msgid ""
+"Right-click the folder where you want to locate your new folder and choose "
+"**New Folder** from the menu that opens."
+msgstr "右键单击要查找新文件夹的文件夹，然后从打开的菜单中选择**新建文件夹**。"
+
+#: ../../source/managing_palettes_and_styles.rst:234
+msgid "**To name a folder:**"
+msgstr "**要命名文件夹，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:238
+msgid "**To delete a palette or a folder:**"
+msgstr "**要删除调色板或文件夹，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:242
+msgid ""
+"Right-click the palette or the folder you want to delete and choose **Delete "
+"Palette** from the menu that opens."
+msgstr "右键单击要删除的调色板或文件夹，然后从打开的菜单中选择**删除调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:244
+msgid "**To rearrange palettes in the Studio Palette folders:**"
+msgstr "**要重新排列Studio Palette文件夹中的调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:246
+msgid "Click and drag the palette from the current location to the new one."
+msgstr "单击并将调色板从当前位置拖动到新位置。"
+
+#: ../../source/managing_palettes_and_styles.rst:248
+msgid ""
+"**To load a palette from the Studio Palette to the current level palette:**"
+msgstr "**要将调色板从Studio调色板加载到当前级别调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:252
+msgid ""
+"Click and drag the palette, from the **Studio Palette Tree** to the **Palette** "
+"button (|drag_palette|) in the top bar of the **Palette Editor**."
+msgstr ""
+"单击调色板并将其从**Studio调色板树**拖动到**调色板编辑器**顶部栏中的**调色板**按"
+"钮（|drag_palette|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:254
+msgid ""
+"Right-click the palette you want to use and select **Load into Current "
+"Palette** from the menu that opens."
+msgstr "右键单击要使用的调色板，然后从打开的菜单中选择**加载到当前调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:256
+msgid ""
+"In case the palette misses some styles used to paint the level drawings, you "
+"will be prompted whether to delete the styles only and show the lines and areas "
+"painted with them in red, or to delete the lines and areas painted with them as "
+"well."
+msgstr ""
+"如果调色板缺少用于绘制标高图形的某些样式，系统将提示您是仅删除这些样式并将用它们"
+"绘制的线条和区域显示为红色，还是也删除用这些线条和区域。"
+
+#: ../../source/managing_palettes_and_styles.rst:258
+msgid ""
+"**To reorder the current palette using a specific Studio Palette as reference:**"
+msgstr ""
+"**要使用特定的Studio调色板作为参考对当前调色板进行重新排序，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:260
+msgid "Select the level that uses the palette that has to be modified."
+msgstr "选择使用必须修改的调色板的级别。"
+
+#: ../../source/managing_palettes_and_styles.rst:262
+msgid ""
+"Select into the **Studio Palette** pane the palette you want to use as "
+"reference."
+msgstr "在**Studio Palette**窗格中选择要用作参考的调色板。"
+
+#: ../../source/managing_palettes_and_styles.rst:264
+msgid ""
+"Right-click the palette and select **Adjust Current Level to This Palette**."
+msgstr "右键单击调色板，然后选择**将当前级别调整到此调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:266
+msgid "Insert a **Tolerance** value in the window that opens."
+msgstr "在打开的窗口中插入**容差**值。"
+
+#: ../../source/managing_palettes_and_styles.rst:268
+msgid ""
+"The **Tolerance** parameter defines the range of RGB values that will be used "
+"for matching colors from the curret palette to those of the Studio Palette. "
+"Default value of 0 means no range use, so just colors with the same RGB values "
+"will be reordered and all the others will be added as new colors."
+msgstr ""
+"**Tolerance**参数定义了用于将颜色从curret调色板匹配到Studio调色板的RGB值范围。默"
+"认值0表示不使用范围，因此只有具有相同RGB值的颜色将被重新排序，所有其他颜色将作为"
+"新颜色添加。"
+
+#: ../../source/managing_palettes_and_styles.rst:270
+msgid ""
+"All the colors of the Studio Palette will be transferred into the current "
+"palette, all of this colors will show the **Reference to Studio Palette** box. "
+"The colors that are used in both palettes will be ordered, for positon and "
+"color index, as in the reference Studio Palette. All the colors that are new "
+"into the curent palette will be moved after the last transferred color. Pages "
+"will be added when required."
+msgstr ""
+"Studio调色板的所有颜色都将转移到当前调色板中，所有这些颜色都将显示**参考Studio调"
+"色板**框。两个调色板中使用的颜色将按顺序排列，用于位置和颜色索引，如参考Studio调"
+"色板中所示。当前调色板中的所有新颜色都将在上次传输的颜色之后移动。需要时将添加页"
+"面。"
+
+#: ../../source/managing_palettes_and_styles.rst:272
+msgid ""
+"**To merge a palette from the Studio Palette to the current level palette:**"
+msgstr "**要将Studio调色板中的调色板合并到当前级别调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:276
+msgid ""
+"Click and drag the palette from the Studio Palette tree to the level palette."
+msgstr "单击调色板并将其从Studio调色板树拖动到标高调色板。"
+
+#: ../../source/managing_palettes_and_styles.rst:278
+msgid ""
+"Right-click the palette you want to use and select **Merge to Current Palette** "
+"from the menu that opens."
+msgstr "右键单击要使用的调色板，然后从打开的菜单中选择**合并到当前调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:280
+msgid "**To replace a palette from the Studio Palette with the current palette:**"
+msgstr "**要用当前调色板替换Studio调色板中的调色板，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:282
+msgid ""
+"Select the palette you want modify in the Global Palette, or Project Palette."
+msgstr "在“全局选项板”或“项目选项板”中选择要修改的选项板。"
+
+#: ../../source/managing_palettes_and_styles.rst:284
+msgid "Right-click the palette and select **Replace with Current Palette**."
+msgstr "右键单击调色板，然后选择**替换为当前调色板**。"
+
+#: ../../source/managing_palettes_and_styles.rst:286
+msgid ""
+"**To copy styles from the Studio Palette to the current level palette, and vice "
+"versa:**"
+msgstr "**要将样式从Studio调色板复制到当前级别调色板，反之亦然：**"
+
+#: ../../source/managing_palettes_and_styles.rst:288
+msgid ""
+"Select the palette in the Studio Palette to display it in the palette viewer."
+msgstr "在Studio调色板中选择调色板以在调色板查看器中显示它。"
+
+#: ../../source/managing_palettes_and_styles.rst:290
+msgid "Select the styles you want to copy in one palette."
+msgstr "在一个选项板中选择要复制的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:292
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) and drag the selection to the other palette."
+msgstr "Ctrl键单击（PC）或Cmd键单击（Mac），然后将所选内容拖动到其他调色板。"
+
+#: ../../source/managing_palettes_and_styles.rst:294
+msgid ""
+"If you drag the selection to the right of the last page tab, a new page will be "
+"created containing the dragged styles."
+msgstr ""
+"如果将所选内容拖动到最后一个页面选项卡的右侧，将创建一个包含拖动样式的新页面。"
+
+#: ../../source/managing_palettes_and_styles.rst:296
+msgid "**To activate a Style Link to the studio palette:**"
+msgstr "**要激活工作室调色板的样式链接，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:298
+msgid "Select the styles that have been imported from the Studio Palette."
+msgstr "选择从Studio调色板导入的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:300
+#: ../../source/managing_palettes_and_styles.rst:306
+msgid ""
+"Right-click the selection and select **Toggle Link to Studio Palette** from the "
+"menu that opens."
+msgstr "右键单击所选内容，然后从打开的菜单中选择**切换链接到Studio Palette**。"
+
+#: ../../source/managing_palettes_and_styles.rst:302
+msgid "**To deactivate a style link to the Studio Palette:**"
+msgstr "**要停用指向Studio调色板的样式链接，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:304
+msgid "Select the styles that have been linked to the Studio Palette."
+msgstr "选择已链接到Studio调色板的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:308
+msgid "**To remove style reference to the Studio Palette:**"
+msgstr "**要删除对Studio调色板的样式引用，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:310
+msgid "Select the styles that have a reference to the Studio Palette."
+msgstr "选择引用Studio调色板的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:312
+msgid ""
+"Right-click the selection and select **Remove Reference to Studio Palette** "
+"from the menu that opens."
+msgstr "右键单击所选内容，然后从打开的菜单中选择**删除对Studio Palette的引用**。"
+
+#: ../../source/managing_palettes_and_styles.rst:314
+msgid "**To resize the Studio Palette sections:**"
+msgstr "**要调整Studio调色板部分的大小，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:318
+msgid "Click and drag the separator to resize sections."
+msgstr "单击并拖动分隔符以调整截面大小。"
+
+#: ../../source/managing_palettes_and_styles.rst:320
+msgid "Click and drag the separator towards the pane border to hide a section."
+msgstr "单击分隔符并将其拖动到窗格边界以隐藏部分。"
+
+#: ../../source/managing_palettes_and_styles.rst:322
+msgid ""
+"Click and drag the separator collapsed to the pane border towards the pane "
+"center to display again the hidden section."
+msgstr "单击并将折叠的分隔符拖动到窗格中心的窗格边界，以再次显示隐藏部分。"
+
+#: ../../source/managing_palettes_and_styles.rst:328
+msgid "Animating Palettes"
+msgstr "动画调色板"
+
+#: ../../source/managing_palettes_and_styles.rst:329
+msgid ""
+"For Toonz Vector and Toonz Raster levels, colors in a palette can be animated "
+"and changed according to the frames of the Xsheet/Timeline."
+msgstr ""
+"对于Toanz矢量和Toanz光栅级别，调色板中的颜色可以根据Xsheet/Timeline的帧进行动画"
+"设置和更改。"
+
+#: ../../source/managing_palettes_and_styles.rst:331
+msgid ""
+"The animation is defined by keys that refer to the absolute timing of the "
+"Xsheet/Timeline: this means that there is no relation between the level length "
+"and the length of the animation of the palette colors. For example you can "
+"create a palette animated from frame 1 to 100 even if its level is only five "
+"frames long."
+msgstr ""
+"动画由引用Xsheet/Timeline绝对计时的键定义：这意味着级别长度与调色板颜色的动画长"
+"度之间没有关系。例如，即使其级别只有五帧长，您也可以创建从第1帧到第100帧的动画调"
+"色板。"
+
+#: ../../source/managing_palettes_and_styles.rst:333
+msgid ""
+"The color animation will always refer to the Xsheet/Timeline timing, even if "
+"you move the related level to a different frame range. For example, if you "
+"animate a palette from frame 1 to frame 20, and the level is exposed after "
+"frame 20, no color animation will be visible and the color used for the level "
+"will refer to the last key of the colors animation."
+msgstr ""
+"即使将相关级别移动到不同的帧范围，彩色动画也将始终引用Xsheet/Timeline计时。例"
+"如，如果从第1帧到第20帧设置调色板的动画，并且级别在第20帧后曝光，则不会显示任何"
+"颜色动画，级别使用的颜色将引用颜色动画的最后一个关键帧。"
+
+#: ../../source/managing_palettes_and_styles.rst:335
+msgid ""
+"Keys are set for *all* the palette Colors and Settings (in the case of "
+"**Generated** styles and **Textures**) at once, and can be navigated directly "
+"in the **Palette Editor** (with the expected update of the viewer content) to "
+"check the color animation."
+msgstr ""
+"一次为*所有*调色板颜色和设置（在**生成的**样式和**纹理**的情况下）设置关键帧，并"
+"且可以直接在**调色板编辑器**中导航（随着查看器内容的预期更新）以检查颜色动画。"
+
+#: ../../source/managing_palettes_and_styles.rst:337
+msgid "**To define a palette key:**"
+msgstr "**要定义调色板关键点，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:339
+msgid "Select in the Xsheet/Timeline the frame where you want to define the key."
+msgstr "在Xsheet/Timeline中选择要定义关键帧的帧。"
+
+#: ../../source/managing_palettes_and_styles.rst:341
+msgid "Click the **Key** button (|key|) in the top bar of the Palette Editor."
+msgstr "单击调色板编辑器顶部栏中的**键**按钮（|Key|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:343
+msgid "**To check if the palette has a key at a specific frame:**"
+msgstr "**要检查调色板是否在特定帧处有关键点，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:345
+msgid ""
+"Select the frame you want to check: if the **Key** button (|key|) in the top "
+"bar of the Palette Editor is blue, the colors have a key at the current frame."
+msgstr ""
+"选择要检查的帧：如果调色板编辑器顶部栏中的**关键点**按钮（|关键点|）为蓝色，则颜"
+"色在当前帧处有一个关键点。"
+
+#: ../../source/managing_palettes_and_styles.rst:347
+msgid "**To navigate the palette keys:**"
+msgstr "**要浏览调色板键，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:349
+msgid ""
+"Use the **Previous Key** (|next_key|) and **Next Key** buttons (|prevkey|) "
+"available at the side of the key button in the top bar of the palette editor."
+msgstr ""
+"使用调色板编辑器顶部栏中键按钮侧面的**上一个键**（|next_Key|）和**下一个键***按"
+"钮（|prevkey|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:351
+msgid "**To remove a palette key:**"
+msgstr "**要删除调色板关键点，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:353
+msgid ""
+"Do one of the following to select the frame you want to remove the key from:"
+msgstr "执行以下操作之一以选择要从中删除关键帧的帧："
+
+#: ../../source/managing_palettes_and_styles.rst:355
+msgid "Select it in the Xsheet frame column or the Timeline frame ruler."
+msgstr "在Xsheet框架列或时间线框架标尺中选择它。"
+
+#: ../../source/managing_palettes_and_styles.rst:357
+msgid "Navigate the palette keys."
+msgstr "浏览调色板按键。"
+
+#: ../../source/managing_palettes_and_styles.rst:359
+msgid ""
+"Click the **Key** button (|key|) in the top bar of the **Palette Editor** to "
+"remove it."
+msgstr "单击**调色板编辑器**顶部栏中的**键**按钮（|Key|）将其删除。"
+
+#: ../../source/managing_palettes_and_styles.rst:365
+msgid "Editing Styles"
+msgstr "编辑样式"
+
+#: ../../source/managing_palettes_and_styles.rst:367
+msgid ""
+"Palette styles can be modified with the Style Editor. There are four types of "
+"styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. Under "
+"the **Vector** tab, there are the **Generated**, **Trail** and **Vector "
+"Brushes** categories, available for Toonz Vector levels only. For several types "
+"of styles, there is also control over various styles options in the "
+"**Settings** tab."
+msgstr ""
+"调色板样式可以使用样式编辑器进行修改。有四种样式可供选择：**颜色**、**纹理**、**"
+"矢量**和**光栅**。在**矢量**选项卡下，有**生成**、**轨迹**和**矢量画笔**类别，仅"
+"适用于Toanz矢量级别。对于几种类型的样式，还可以在**设置**选项卡中控制各种样式选"
+"项。"
+
+#: ../../source/managing_palettes_and_styles.rst:369
+msgid ""
+"An **Auto** button lets you decide whether the edits have to be assigned "
+"automatically to the style, or only after you click on the **Apply** button. In "
+"the bottom right corner you can see swatches for the previous and new style "
+"status; if you want to go back to the previous style, simply click on it."
+msgstr ""
+"**自动**按钮允许您决定是否必须将编辑自动分配给样式，或者只有在您单击**应用**按钮"
+"后才能进行。在右下角，您可以看到以前和新样式状态的样例；如果你想回到以前的样式，"
+"只需点击它。"
+
+#: ../../source/managing_palettes_and_styles.rst:371
+msgid ""
+"Only the first style in the palette, labeled **Color_0**, cannot be edited: "
+"instead, it allows you to remove any style from lines and filled areas."
+msgstr ""
+"只有调色板中标记为**Color_0**的第一个样式不能编辑：相反，它允许您从线条和填充区"
+"域中删除任何样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:373
+msgid "**To open the Style Editor as a floating window:**"
+msgstr "**要将样式编辑器作为浮动窗口打开，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:377
+msgid "Choose Windows  →  **Style Editor**."
+msgstr "选择Windows→  **样式编辑器**。"
+
+#: ../../source/managing_palettes_and_styles.rst:379
+msgid "Double-click the style you want to edit in the Palette Editor."
+msgstr "在调色板编辑器中双击要编辑的样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:381
+msgid "**To automatically apply the editing to the style:**"
+msgstr "**要自动将编辑应用于样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:383
+msgid "Activate the **Auto** button in the Style Editor."
+msgstr "激活样式编辑器中的**自动**按钮。"
+
+#: ../../source/managing_palettes_and_styles.rst:385
+msgid "**To apply manually the editing to the style:**"
+msgstr "**要手动将编辑应用于样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:387
+msgid "Deactivate the **Auto** button in the Style Editor."
+msgstr "停用样式编辑器中的**自动**按钮。"
+
+#: ../../source/managing_palettes_and_styles.rst:389
+msgid ""
+"Click the **Apply** button every time you want to apply the editing to the "
+"style."
+msgstr ""
+"Click the **Apply** button every time you want to apply the editing to the "
+"style."
+
+#: ../../source/managing_palettes_and_styles.rst:391
+msgid "**To return to the old style cancelling the editing:**"
+msgstr "**要恢复旧样式取消编辑，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:393
+msgid ""
+"Click the style swatch in the very bottom right corner of the Style Editor."
+msgstr "单击样式编辑器右下角的样式样例。"
+
+#: ../../source/managing_palettes_and_styles.rst:399
+msgid "Colors"
+msgstr "颜色"
+
+#: ../../source/managing_palettes_and_styles.rst:401
+msgid "|style_editor_color|"
+msgstr "|样式编辑器颜色|"
+
+#: ../../source/managing_palettes_and_styles.rst:403
+msgid ""
+"Colors can be defined either by Hue / Saturation / Value or the Red / Green / "
+"Blue values. They can be used for both drawing *lines* and filling *areas*."
+msgstr ""
+"颜色可以通过色调/饱和度/值或红/绿/蓝值来定义。它们可用于绘制*线条*和填充*区域*。"
+
+#: ../../source/managing_palettes_and_styles.rst:405
+msgid ""
+"You can also set the opacity with the Alpha slider: the lower the value, the "
+"more transparent the color. You can check the opacity of the color with the "
+"checkerboard pattern visible beneath the color, whose visibility is "
+"proportional to the color transparency."
+msgstr ""
+"您还可以使用Alpha滑块设置不透明度：值越低，颜色越透明。您可以使用颜色下方可见的"
+"棋盘图案检查颜色的不透明度，其可见性与颜色透明度成正比。"
+
+#: ../../source/managing_palettes_and_styles.rst:407
+msgid ""
+"To edit a color you can use either the sliders or the color wheel. To pick a "
+"color from the sliders or from the wheel, click it; to adjust values you can "
+"use the arrowhead buttons available at each slider ends."
+msgstr ""
+"要编辑颜色，您可以使用滑块或色轮。要从滑块或控制盘中选择颜色，请单击它；要调整"
+"值，可以使用每个滑块末端的箭头按钮。"
+
+#: ../../source/managing_palettes_and_styles.rst:409
+msgid ""
+"Colors can also be picked from the Viewer content by using the **RGB Picker** "
+"tool (|RGB_picker|), whose **Type:** option lets you choose the following: "
+"**Normal**, to pick values of a color; **Rectangular**, to pick the average "
+"values of the colors included in the box you define; **Freehand**, to pick the "
+"average values of the colors included in the area you outline by clicking and "
+"dragging; and **Polyline**, to pick the average values of the colors included "
+"in the area you outline by defining a series of lines."
+msgstr ""
+"还可以使用**RGB选择器**工具（|RGB_Picker|）从查看器内容中拾取颜色，该工具的**类"
+"型：**选项允许您选择以下内容：**普通**，以拾取颜色值；**矩形**，用于选择您定义的"
+"框中包含的颜色的平均值；**徒手**，通过单击并拖动来选择您轮廓区域中包含的颜色的平"
+"均值；**折线**，通过定义一系列线条来选取轮廓区域中包含的颜色的平均值。"
+
+#: ../../source/managing_palettes_and_styles.rst:411
+msgid ""
+"If the current style is not a plain color, the color you edit in the **Color** "
+"tab is the color used by the special style. If the special style uses more than "
+"one color, you can select the color to edit in the row of thumbnails available "
+"below the **Auto** and **Apply** buttons. (see  :ref:`Special Styles "
+"<special_styles>`  )."
+msgstr ""
+"如果当前样式不是纯色，则在**颜色**选项卡中编辑的颜色是特殊样式使用的颜色。如果特"
+"殊样式使用多种颜色，您可以在**自动**和**应用**按钮下方的缩略图行中选择要编辑的颜"
+"色。（参见：ref:`特殊样式<Special_Styles>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:413
+msgid "**To pick the color from the viewer content:**"
+msgstr "**要从查看器内容中选择颜色，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:415
+msgid "Select the **RGB Picker** tool (|RGB_picker|)."
+msgstr "选择**RGB选择器**工具（|RGB_Picker|）。"
+
+#: ../../source/managing_palettes_and_styles.rst:419
+msgid "Click in the viewer to pick the needed color values."
+msgstr "在查看器中单击以选择所需的颜色值。"
+
+#: ../../source/managing_palettes_and_styles.rst:421
+msgid ""
+"Set the type to **Rectangular**, then click and drag in the viewer to define a "
+"box which picks the average values of the colors included in the box."
+msgstr ""
+"将类型设置为**矩形**，然后在查看器中单击并拖动以定义一个框，该框拾取框中包含的颜"
+"色的平均值。"
+
+#: ../../source/managing_palettes_and_styles.rst:423
+msgid ""
+"Set the type to **Freehand**, then click and drag in the viewer to outline an "
+"area which picks the average values of the colors included in the area."
+msgstr ""
+"将类型设置为**徒手**，然后在查看器中单击并拖动以勾勒出一个区域，该区域将拾取该区"
+"域中包含的颜色的平均值。"
+
+#: ../../source/managing_palettes_and_styles.rst:425
+msgid ""
+"Set the type to **Polyline**, then click in the viewer to outline an area by "
+"defining a series of lines and this will pick the average values of the colors "
+"included in the area."
+msgstr ""
+"将类型设置为**折线**，然后在查看器中单击，通过定义一系列线条来勾勒出一个区域的轮"
+"廓，这将拾取该区域中包含的颜色的平均值。"
+
+#: ../../source/managing_palettes_and_styles.rst:431
+msgid "Textures"
+msgstr "材质"
+
+#: ../../source/managing_palettes_and_styles.rst:433
+msgid "|style_editor_texture|"
+msgstr "|样式编辑器文本|"
+
+#: ../../source/managing_palettes_and_styles.rst:435
+msgid ""
+"Textures can be used both for drawing *lines* and filling *areas*. They can be "
+"selected from a list available in the **Texture** tab, where your own textures "
+"can be added as well, or custom textures can be added by clicking the **Custom "
+"Texture** button."
+msgstr ""
+"纹理既可用于绘制*线条*，也可用于填充*区域*。它们可以从**纹理**选项卡中的列表中选"
+"择，您也可以在其中添加自己的纹理，或者通过单击**自定义纹理**按钮添加自定义纹理。"
+
+#: ../../source/managing_palettes_and_styles.rst:437
+msgid ""
+"Texture styles can be used both in Toonz Vector and Toonz Raster levels, but "
+"only when applied to Toonz Raster levels they react to the settings values in "
+"the **Settings** tab (see  :ref:`Texture Settings <texture_settings>`  )."
+msgstr ""
+"纹理样式可以在Toanz矢量和Toanz光栅级别中使用，但只有当应用于Toanz栅格级别时，它"
+"们才会对**设置**选项卡中的设置值做出反应（请参阅：ref:`纹理设置"
+"<Texture_settings>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:439
+msgid ""
+"Image sequences can also be loaded as textures, provided they follow the "
+"OpenToonz rules for being detected as such. In the case an image sequence is "
+"loaded as a texture their frames will change with each new frame of the Xsheet/"
+"Timeline, and will cycle when it reaches its last frame."
+msgstr ""
+"图像序列也可以作为纹理加载，前提是它们遵循OpenToonz规则进行检测。如果图像序列作"
+"为纹理加载，则其帧将随着Xsheet/Timeline的每一个新帧而变化，并在到达最后一帧时循"
+"环。"
+
+#: ../../source/managing_palettes_and_styles.rst:441
+msgid "**To add a new texture to the Texture library:**"
+msgstr "**To add a new texture to the Texture library:**"
+
+#: ../../source/managing_palettes_and_styles.rst:443
+msgid ""
+"Create the image you want to use as a texture with the following "
+"characteristics:"
+msgstr "创建要用作具有以下特征的纹理的图像："
+
+#: ../../source/managing_palettes_and_styles.rst:445
+msgid ""
+"The number of pixels of the width and height of the image has to be equal to 2 "
+"to the power of any number (i.e. 2, 4, 8, 16, 32, 64, 128, 256, etc.); if not, "
+"texture images will show stretched."
+msgstr ""
+"图像的宽度和高度的像素数必须等于任何数字的幂的2（即2、4、8、16、32、64、128、256"
+"等）；如果没有，纹理图像将显示拉伸。"
+
+#: ../../source/managing_palettes_and_styles.rst:447
+msgid ""
+"The file has to be saved in any of the following formats: TIF, TGA, PNG, BMP, "
+"JPG, NOL, RGB and SGI."
+msgstr "文件必须以以下任何格式保存：TIF、TGA、PNG、BMP、JPG、NOL、RGB和SGI。"
+
+#: ../../source/managing_palettes_and_styles.rst:449
+msgid ""
+"Save the texture file in one of the following folders: ``<projectroot>\\library"
+"\\textures`` or ``Opentoonz stuff\\library\\textures`` (see  :ref:`Setting up "
+"Projects <setting_up_projects>`  )."
+msgstr ""
+"Save the texture file in one of the following folders: ``<projectroot>\\library"
+"\\textures`` or ``Opentoonz stuff\\library\\textures`` (see  :ref:`Setting up "
+"Projects <setting_up_projects>`  )."
+
+#: ../../source/managing_palettes_and_styles.rst:455
+msgid "Custom Textures"
+msgstr "自定义纹理"
+
+#: ../../source/managing_palettes_and_styles.rst:456
+msgid ""
+"Custom textures can be loaded for drawing both *lines* and filling *areas*. The "
+"custom texture will be saved into the Palette and its icon will be replaced "
+"with an icon of the loaded texture."
+msgstr ""
+"可以加载自定义纹理来绘制*线条*和填充*区域*。自定义纹理将保存到调色板中，其图标将"
+"被加载纹理的图标替换。"
+
+#: ../../source/managing_palettes_and_styles.rst:459
+msgid "**To add a custom texture:**"
+msgstr "**要添加自定义纹理，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:461
+msgid "Select a style in the Palette editor."
+msgstr "在调色板编辑器中选择样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:463
+msgid ""
+"Go in the **Texture** tab of the Style Editor and press the **Custom Texture** "
+"button."
+msgstr "进入样式编辑器的**纹理**选项卡，然后按**自定义纹理**按钮。"
+
+#: ../../source/managing_palettes_and_styles.rst:465
+msgid ""
+"Go in the **Settings** tab, use the **Load From File** field and choose the "
+"image (or image sequence) you want to use as texture."
+msgstr ""
+"进入**设置**选项卡，使用**从文件加载**字段，选择要用作纹理的图像（或图像序列）。"
+
+#: ../../source/managing_palettes_and_styles.rst:467
+msgid ""
+"In Toonz Raster levels, press the **Preview** button to visualize the texture."
+msgstr "在Toanz光栅级别中，按**预览**按钮以可视化纹理。"
+
+#: ../../source/managing_palettes_and_styles.rst:473
+msgid "Texture Mapping"
+msgstr "纹理贴图"
+
+#: ../../source/managing_palettes_and_styles.rst:474
+msgid ""
+"Texture mapping is the way the texture is applied to the *lines* or *areas* "
+"using the style. It's applied differently either if the level is a Toonz Vector "
+"or Toonz Raster one:"
+msgstr ""
+"纹理映射是使用样式将纹理应用于*线条*或*区域*的方式。如果级别是Toanz矢量或Toanz光"
+"栅，则应用方式不同："
+
+#: ../../source/managing_palettes_and_styles.rst:476
+msgid ""
+"**Toonz Vector**: Texture mapping is performed using the vector stroke "
+"parametric coordinates; this means that for *lines* the texture automatically "
+"“follows” the stroke's shape and thickness, whether for *areas* the texture "
+"image is tiled to cover the area painted with the style."
+msgstr ""
+"**Toonz Vector**：使用矢量笔划参数坐标进行纹理映射；这意味着，对于*线条*，纹理会"
+"自动“遵循”笔划的形状和厚度，无论对于*区域*，纹理图像是否被平铺以覆盖用该样式绘制"
+"的区域。"
+
+#: ../../source/managing_palettes_and_styles.rst:478
+msgid ""
+"**Toonz Raster**: Texture mapping is performed using standard mapping "
+"coordinates; this means that the texture image is tiled to cover the lines or "
+"areas painted with the style."
+msgstr ""
+"**Toanz Raster**：使用标准映射坐标进行纹理映射；这意味着纹理图像被平铺以覆盖用该"
+"样式绘制的线条或区域。"
+
+#: ../../source/managing_palettes_and_styles.rst:481
+msgid ""
+"A more powerful texture mapping can be performed by using the **Texture** and "
+"**Pinned Texture** special FX (see  :ref:`Toonz Level <toonz_level>`  )."
+msgstr ""
+"通过使用**纹理**和**钉扎纹理**特殊FX，可以执行更强大的纹理映射（请参见：ref:"
+"`Toonz Level<Toonz_Level>"
+
+#: ../../source/managing_palettes_and_styles.rst:487
+msgid "Texture Settings"
+msgstr "纹理设置"
+
+#: ../../source/managing_palettes_and_styles.rst:488
+msgid ""
+"Textures applied to styles used in Toonz Raster levels allow to set various "
+"parameters such as:"
+msgstr "应用于Toanz光栅级别中使用的样式的纹理允许设置各种参数，例如："
+
+#: ../../source/managing_palettes_and_styles.rst:490
+msgid ""
+"**Use As Pattern**, allows to use the brightness of the image to modulate the "
+"brightness of the plain Color of the style to which it is applied."
+msgstr "**使用作为图案**，允许使用图像的亮度来调节其应用样式的纯色的亮度。"
+
+#: ../../source/managing_palettes_and_styles.rst:492
+msgid ""
+"**Position**, allows to control how the texture is applied to the drawing. "
+"Options include: **Fixed** (the texture will be fixed and slide when the "
+"character moves), **Automatic** (the texture will follow the character's "
+"position during the animation) and **Random** (the texture position will change "
+"at each frame in a random way);"
+msgstr ""
+"**位置**，允许控制纹理如何应用于图形。选项包括：**固定**（当角色移动时，纹理将固"
+"定并滑动）、**自动**（纹理将在动画过程中跟随角色的位置）和**随机**（纹理位置将在"
+"每一帧随机变化）；"
+
+#: ../../source/managing_palettes_and_styles.rst:494
+msgid "**Scale**, allows to set the scale of the texture pattern."
+msgstr "**缩放**，允许设置纹理图案的缩放比例。"
+
+#: ../../source/managing_palettes_and_styles.rst:496
+msgid "**Rotation**, allows to set a rotation angle to the texture pattern."
+msgstr "**旋转**，允许设置纹理图案的旋转角度。"
+
+#: ../../source/managing_palettes_and_styles.rst:498
+msgid ""
+"**X displ** and **Y displ**, allow to offset the texture pattern horizontally "
+"or vertically."
+msgstr "**X显示**和**Y显示**，允许水平或垂直偏移纹理图案。"
+
+#: ../../source/managing_palettes_and_styles.rst:500
+msgid ""
+"**Contrast**, allows to change the contrast of the image applied as texture."
+msgstr "**对比度**，允许更改作为纹理应用的图像的对比度。"
+
+#: ../../source/managing_palettes_and_styles.rst:506
+msgid "Generated Styles"
+msgstr "生成的样式"
+
+#: ../../source/managing_palettes_and_styles.rst:508
+msgid "|style_editor_generated|"
+msgstr "|styleeditor_已生成|"
+
+#: ../../source/managing_palettes_and_styles.rst:510
+msgid ""
+"Generated styles use a number of mathematical functions to create effects that "
+"can be used either for vector strokes or for filling areas defined by vectors. "
+"They can be selected from a list available in the Generated section of the "
+"Vector tab, where styles suitable for vector strokes have a thumbnail "
+"representing how they will look as a diagonal line; styles suitable for filling "
+"have a thumbnail representing the top right corner piece of an area."
+msgstr ""
+"适用于矢量笔划的样式有一个缩略图，表示它们看起来像一条对角线；适合填充的样式有一"
+"个代表区域右上角的缩略图。"
+
+#: ../../source/managing_palettes_and_styles.rst:512
+msgid ""
+"Generated styles can simulate for instance a frieze, a leaf, or a pencil stroke "
+"along a vector, or allow you to fill areas with special effects such as polka "
+"dots."
+msgstr ""
+"适用于矢量笔划的样式有一个缩略图，表示它们看起来像一条对角线；适合填充的样式有一"
+"个代表区域右上角的缩略图。"
+
+#: ../../source/managing_palettes_and_styles.rst:514
+msgid ""
+"Generated styles can be customized by defining the parameters available in the "
+"Settings tab. This allows you to have many similar styles, each with a "
+"different configuration of settings."
+msgstr ""
+"通过定义“设置”选项卡中的可用参数，可以自定义生成的样式。这允许您有许多类似的样"
+"式，每种样式都有不同的设置配置。"
+
+#: ../../source/managing_palettes_and_styles.rst:516
+msgid ""
+"Colors used by generated styles can be modified by using the Color tab "
+"available in the Style Editor."
+msgstr "可以使用样式编辑器中的“颜色”选项卡修改生成样式使用的颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:518
+msgid ""
+"The first item available in the list allows you to remove the Generated style, "
+"in order to return it to a Color style."
+msgstr "列表中的第一个可用项允许您删除生成的样式，以便将其恢复为颜色样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:520
+msgid "**To change colors used by a generated style:**"
+msgstr "**要更改生成样式使用的颜色，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:522
+msgid "Move to the Color tab in the Style Editor."
+msgstr "移动到样式编辑器中的“颜色”选项卡。"
+
+#: ../../source/managing_palettes_and_styles.rst:524
+#: ../../source/managing_palettes_and_styles.rst:582
+msgid "Edit the color using the wheel and sliders."
+msgstr "Edit the color using the wheel and sliders."
+
+#: ../../source/managing_palettes_and_styles.rst:526
+msgid ""
+"If the generated style uses more than one color, select the color to edit in "
+"the row of swatches available below the Auto and Apply buttons."
+msgstr ""
+"如果生成的样式使用多种颜色，请在“自动”和“应用”按钮下方的可用色样行中选择要编辑的"
+"颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:532
+msgid "Trail Styles"
+msgstr "步道风格"
+
+#: ../../source/managing_palettes_and_styles.rst:534
+msgid "|style_editor_trail|"
+msgstr "|样式编辑器轨迹|"
+
+#: ../../source/managing_palettes_and_styles.rst:536
+msgid ""
+"Trail styles are available for vector levels only. A trail style repeats an "
+"image or an animation level, created with OpenToonz or third party software, "
+"along the vectors of a vector level. Trail styles cannot be used to paint areas."
+msgstr ""
+"轨迹样式仅适用于矢量级别。轨迹样式沿着矢量级别的矢量重复使用OpenToonz或第三方软"
+"件创建的图像或动画级别。轨迹样式不能用于绘制区域。"
+
+#: ../../source/managing_palettes_and_styles.rst:538
+msgid ""
+"In the Trail section on the Vector tab you can select the image or the "
+"animation level you want to use as a style. You can add to the list your own "
+"animation levels as well: both OpenToonz animation levels (PLI) and full-color "
+"images or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, "
+"RGB, SGI, TGA, TIF and TIFF) are supported."
+msgstr ""
+"在“矢量”选项卡的“轨迹”部分，您可以选择要用作样式的图像或动画级别。您也可以向列表"
+"中添加自己的动画级别：支持OpenToonz动画级别（PLI）和全彩图像或全彩图像序列"
+"（BMP、JPG、NOL、PIC、PICT、PCT、PNG、RGB、SGI、TGA、TIF和TIFF）。"
+
+#: ../../source/managing_palettes_and_styles.rst:540
+#: ../../source/managing_palettes_and_styles.rst:564
+msgid ""
+"PLI levels are rendered according to the vector length and thickness, thus "
+"appearing jagged when zoomed in. If the output format is a vector one, then the "
+"PLI level will remain vector-based. (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+"PLI级别根据矢量长度和厚度进行渲染，因此放大时会出现锯齿状。如果输出格式是矢量格"
+"式，则PLI级别将保持基于矢量的状态。（参见：ref:`选择输出设置"
+"<Choosing_the_Output_Settings>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:542
+msgid ""
+"The images are repeated changing their placement and size according to the "
+"vector’s shape and thickness. If the animation levels contains different "
+"drawings, they are repeated cyclically along the vector length."
+msgstr ""
+"图像不断重复，根据矢量的形状和厚度改变其位置和大小。如果动画级别包含不同的图形，"
+"则它们将沿矢量长度循环重复。"
+
+#: ../../source/managing_palettes_and_styles.rst:544
+msgid ""
+"Parameters such as the distance between subsequent images along the vector and "
+"their rotation can be defined in the Settings tab (see  :ref:`Settings "
+"<settings>`  )."
+msgstr ""
+"参数，如沿矢量的后续图像之间的距离及其旋转，可以在“设置”选项卡中定义（请参阅："
+"ref:“设置<设置>”）。"
+
+#: ../../source/managing_palettes_and_styles.rst:546
+msgid "**To add a new custom style:**"
+msgstr "**要添加新的自定义样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:548
+msgid ""
+"Create an image or an animation level with OpenToonz, or with third-party "
+"software."
+msgstr "使用OpenToonz或第三方软件创建图像或动画关卡。"
+
+#: ../../source/managing_palettes_and_styles.rst:550
+msgid ""
+"Save it in the folder ``Projectroot\\library\\custom styles`` (see  :ref:"
+"`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+"将其保存在文件夹“Projectroot\\library\\custom-styles”中（请参阅：ref:“设置项目"
+"<Setting_up_Projects>”）。"
+
+#: ../../source/managing_palettes_and_styles.rst:556
+msgid "Vector Brush Styles"
+msgstr "矢量画笔样式"
+
+#: ../../source/managing_palettes_and_styles.rst:558
+msgid "|style_editor_vectorbrush|"
+msgstr "|styleeditor_vectorbrush|"
+
+#: ../../source/managing_palettes_and_styles.rst:560
+msgid ""
+"Vector brush styles are available for vector levels only. A vector brush "
+"applies a vector image, created with OpenToonz, along the vector strokes of a "
+"vector level. Vector brush styles cannot be used to paint areas."
+msgstr ""
+"矢量笔刷样式仅适用于矢量级别。矢量画笔沿着矢量级的矢量笔划应用由OpenToonz创建的"
+"矢量图像。矢量笔刷样式不能用于绘制区域。"
+
+#: ../../source/managing_palettes_and_styles.rst:562
+msgid ""
+"In the Vector Brush section of the Vector tab, you can select the image you "
+"want to use as a style. You can add to the list your own PLI images as well."
+msgstr ""
+"在“矢量”选项卡的“矢量画笔”部分，您可以选择要用作样式的图像。您也可以将自己的PLI"
+"图像添加到列表中。"
+
+#: ../../source/managing_palettes_and_styles.rst:566
+msgid ""
+"The Vector Brush image is applyed to each stroke of the drawing that use this "
+"style according to the stroke’s shape and thickness. If the animation levels "
+"used as vector Brush contains different drawings, only the first one will be "
+"taken into account."
+msgstr ""
+"矢量画笔图像根据笔划的形状和粗细应用于使用此样式的绘图的每个笔划。如果用作矢量画"
+"笔的动画级别包含不同的图形，则只考虑第一个图形。"
+
+#: ../../source/managing_palettes_and_styles.rst:568
+msgid ""
+"Colors used by vector brushes can be modified by using the Color tab available "
+"in the style editor."
+msgstr "矢量画笔使用的颜色可以通过使用样式编辑器中的“颜色”选项卡进行修改。"
+
+#: ../../source/managing_palettes_and_styles.rst:570
+msgid ""
+"The first item available in the list allows you to remove the Vector Brush in "
+"order to return it to a Color style."
+msgstr "列表中的第一项允许您删除矢量画笔，以便将其恢复为颜色样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:572
+msgid "**To add a new vector brush:**"
+msgstr "**要添加新的矢量画笔，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:574
+msgid "Create a PLI level with OpenToonz."
+msgstr "使用OpenToonz创建PLI级别。"
+
+#: ../../source/managing_palettes_and_styles.rst:576
+msgid ""
+"Save it in the folder ``Projectroot\\library\\vector brushes`` (see  :ref:"
+"`Setting up Projects <setting_up_projects>`  )."
+msgstr ""
+"将其保存在“Projectroot\\library\\vector brush”文件夹中（请参阅：ref:“设置项目"
+"<Setting_up_Projects>”）。"
+
+#: ../../source/managing_palettes_and_styles.rst:578
+msgid "**To change colors used by a Vector Brush style:**"
+msgstr "**要更改矢量笔刷样式使用的颜色，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:580
+msgid "Move to the **Color** tab in the Style Editor."
+msgstr "移动到样式编辑器中的**颜色**选项卡。"
+
+#: ../../source/managing_palettes_and_styles.rst:584
+msgid ""
+"If the Vector Brush uses more than one color, select the color to edit in the "
+"row of swatches available below the Auto and Apply buttons."
+msgstr ""
+"如果矢量笔刷使用多种颜色，请在“自动”和“应用”按钮下方可用的色板行中选择要编辑的颜"
+"色。"
+
+#: ../../source/managing_palettes_and_styles.rst:590
+msgid "Raster Brushes"
+msgstr "光栅笔刷"
+
+#: ../../source/managing_palettes_and_styles.rst:592
+msgid "|style_editor_raster|"
+msgstr "|样式编辑器光栅|"
+
+#: ../../source/managing_palettes_and_styles.rst:594
+msgid ""
+"Raster brushes are available to paint in Raster levels and, with some "
+"limitations, in Toonz Raster levels. They are essentially brushes compatible "
+"with the `MyPaint <http://mypaint.org/about/>`_ open source painting software."
+msgstr ""
+"光栅画笔可以在光栅级别中绘制，也可以在Toanz光栅级别中进行绘制，但有一些限制。它"
+"们本质上是与“MyPaint”兼容的画笔<http://mypaint.org/about/>`_开源绘画软件。"
+
+#: ../../source/managing_palettes_and_styles.rst:596
+msgid ""
+"The Raster brushes use the **Color** from the current style as a base, and all "
+"its remaining options can be found in the **Settings** tab of the Style Editor "
+"pane (see  :ref:`Settings for Raster Brushes <settings_for_raster_brushes>`  )."
+msgstr ""
+"光栅画笔使用当前样式中的**颜色**作为基础，其所有剩余选项都可以在“样式编辑器”窗格"
+"的**设置**选项卡中找到（请参见：ref:`光栅画笔设置"
+"<Settings_for_Raster_brush>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:598
+msgid ""
+"In Toonz Raster levels, currently only *additive* Raster brushes can be used (i."
+"e. brushes that add paint to a level, not the ones that erase, blend or blur "
+"already painted strokes)."
+msgstr ""
+"在Toonz光栅级别中，目前只能使用*附加*光栅画笔（即向级别添加绘画的画笔，而不是擦"
+"除、混合或模糊已绘制笔划的画笔）。"
+
+#: ../../source/managing_palettes_and_styles.rst:600
+msgid ""
+"In Toonz Raster levels, Raster brushes use only the **Opacity** values of the "
+"selected brush to paint with the current style color, and cannot use any of the "
+"other *Color related* settings of that brush."
+msgstr ""
+"在Toonz光栅级别中，光栅画笔仅使用所选画笔的**不透明度**值来绘制当前样式颜色，而"
+"不能使用该画笔的任何其他*颜色相关*设置。"
+
+#: ../../source/managing_palettes_and_styles.rst:602
+msgid ""
+"In Toonz Raster levels, Raster brushes can only paint *lines* (they cannot be "
+"used to fill *areas*)."
+msgstr ""
+"In Toonz Raster levels, Raster brushes can only paint *lines* (they cannot be "
+"used to fill *areas*)."
+
+#: ../../source/managing_palettes_and_styles.rst:609
+msgid "Settings"
+msgstr "设置"
+
+#: ../../source/managing_palettes_and_styles.rst:611
+msgid "|style_editor_settings|"
+msgstr "|样式编辑器设置|"
+
+#: ../../source/managing_palettes_and_styles.rst:613
+msgid "The Settings tab is available for defining some style properties."
+msgstr "“设置”选项卡可用于定义某些样式属性。"
+
+#: ../../source/managing_palettes_and_styles.rst:615
+msgid ""
+"For Toonz Raster levels, it contains only the **Autopaint for Lines** option, "
+"that can be used to automatically paint border *lines* of an area, with the "
+"same color used to fill that *area* (see  :ref:`Using the Autopaint for Lines "
+"Option <using_the_autopaint_for_lines_option>`  )."
+msgstr ""
+"对于Toonz光栅级别，它只包含**自动绘制线条**选项，该选项可用于自动绘制区域的边框*"
+"线条*，颜色与填充该*区域*的颜色相同（请参阅：ref:`使用线条自动绘制选项"
+"<Using_the_Autopaint_For_Lines_option>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:617
+msgid ""
+"For Toonz Vector levels, it contains parameters only when the style is a "
+"**Generated** or **Trail** one."
+msgstr "对于Toonz矢量级别，只有当样式为**生成**或**轨迹**时，它才包含参数。"
+
+#: ../../source/managing_palettes_and_styles.rst:619
+msgid ""
+"When the style is a **Generated** one, the Settings tab contains one or more "
+"sliders that allow you to finetune the predefined style to your needs. When the "
+"style is a **Trail** one, the Settings tab contains two sliders: **Distance** "
+"sets the space between two subsequent images of the animation level used as a "
+"trail; **Rotation** sets the angle of all the images."
+msgstr ""
+"当样式是**生成的**样式时，“设置”选项卡包含一个或多个滑块，允许您根据需要微调预定"
+"义的样式。当样式为**轨迹**时，“设置”选项卡包含两个滑块：**距离**设置用作轨迹的动"
+"画级别的两个后续图像之间的空间；**旋转**设置所有图像的角度。"
+
+#: ../../source/managing_palettes_and_styles.rst:621
+msgid ""
+"You can add the same **Generated** or **Trail** style as many times as you "
+"want, each time defining different settings for it."
+msgstr ""
+"您可以根据需要多次添加相同的**生成**或**轨迹**样式，每次都可以为其定义不同的设"
+"置。"
+
+#: ../../source/managing_palettes_and_styles.rst:627
+msgid "Settings for Raster Brushes"
+msgstr "光栅画笔的设置"
+
+#: ../../source/managing_palettes_and_styles.rst:629
+msgid "|style_editor_settings-raster|"
+msgstr "|样式编辑器光栅设置编辑器|"
+
+#: ../../source/managing_palettes_and_styles.rst:631
+msgid ""
+"Raster brushes have an extensive set of parameters to finetune their behaviour. "
+"These parameters can be changed in the Settings tab of the Style Editor pane. "
+"They include:"
+msgstr ""
+"光栅画笔有一组广泛的参数来微调它们的行为。可以在“样式编辑器”窗格的“设置”选项卡中"
+"更改这些参数。其中包括："
+
+#: ../../source/managing_palettes_and_styles.rst:634
+msgid "Basic"
+msgstr "基本"
+
+#: ../../source/managing_palettes_and_styles.rst:636
+msgid ""
+"**Radius**, basic brush radius (logarithmic). 0.7 means 2 pixels; 3.0 means 20 "
+"pixels."
+msgstr "**半径**，基本画笔半径（对数）。0.7表示2个像素；3.0表示20像素。"
+
+#: ../../source/managing_palettes_and_styles.rst:638
+msgid ""
+"**Radius by random**, alter the radius randomly in each dab. You can also do "
+"this with the by\\_random input on the radius setting. If you do it here, there "
+"are two differences:. 1) the opaque value will be corrected such that a big-"
+"radius dabs is more transparent. 2) it will not change the actual radius seen "
+"by dabs\\_per\\_actual\\_radius."
+msgstr ""
+"**随机半径**，在每个点中随机更改半径。您还可以使用半径设置上的by_random输入来实"
+"现此操作。如果你在这里这样做，有两个区别：。1）不透明值将被校正，使得大半径的斑"
+"点更透明。2）它不会改变dabs\\_per\\_actical \\_radius看到的实际半径。"
+
+#: ../../source/managing_palettes_and_styles.rst:640
+msgid "**Hardness**, hard brush-circle borders (setting to 0 will draw nothing)."
+msgstr "**硬度**，硬刷圆边界（设置为0将不会绘制任何内容）。"
+
+#: ../../source/managing_palettes_and_styles.rst:642
+msgid "**Pixel feather**, (info needed)."
+msgstr "**像素羽毛**，（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:644
+msgid ""
+"**Eraser**, how much this tool behaves like an eraser. 0.0 for normal painting; "
+"1.0 for standard eraser behavior; 0.5 pixels go towards 50% transparency."
+msgstr ""
+"**橡皮擦**，这个工具的行为有多像橡皮擦。0.0表示正常绘画；1.0表示标准橡皮擦行为；"
+"0.5像素将达到50%的透明度。"
+
+#: ../../source/managing_palettes_and_styles.rst:646
+msgid ""
+"**Jitter**, add a random offset to the position where each dab is drawn. 0.0 is "
+"disabled; 1.0 standard deviation is one basic radius away; \\<0.0 negative "
+"values produce no jitter."
+msgstr ""
+"**抖动**，在绘制每个点的位置添加一个随机偏移。0.0被禁用；1.0标准偏差为一个基本半"
+"径；小于0.0的负值不会产生抖动。"
+
+#: ../../source/managing_palettes_and_styles.rst:648
+msgid ""
+"**Elliptical dab: angle**, this defines the angle by which elliptical dabs are "
+"tilted. 0.0 makes horizontal dabs; 45.0 produces 45 degree dabs, turned "
+"clockwise; 180.0 is horizontal again."
+msgstr ""
+"**椭圆点：角度**，定义椭圆点倾斜的角度。0.0表示水平点；45.0顺时针旋转可产生45度"
+"光斑；180.0再次是水平的。"
+
+#: ../../source/managing_palettes_and_styles.rst:650
+msgid ""
+"**Elliptical dab: ratio**, aspect ratio of the dabs; must be \\>= 1.0, where "
+"1.0 means a perfectly round dab."
+msgstr "**椭圆点：比率**，点的纵横比；必须大于等于1.0，其中1.0表示完美的圆形。"
+
+#: ../../source/managing_palettes_and_styles.rst:652
+msgid ""
+"**Direction filter**, a low value will make the direction input adapt more "
+"quickly, a high value will make it smoother."
+msgstr "**方向滤波器**，低值将使方向输入适应得更快，高值将使其更平滑。"
+
+#: ../../source/managing_palettes_and_styles.rst:654
+msgid "**Snap to pixel**, (info needed)."
+msgstr "**捕捉到像素**，（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:656
+msgid "**Pressure gain**, change the gain factor for the pressure of the brush."
+msgstr "**压力增益**，更改刷子压力的增益系数。"
+
+#: ../../source/managing_palettes_and_styles.rst:659
+msgid "Opacity"
+msgstr "不透明度"
+
+#: ../../source/managing_palettes_and_styles.rst:661
+msgid ""
+"**Opacity**, 0 means brush is transparent; 1 fully visible. (also known as "
+"alpha)."
+msgstr "**不透明度**，0表示画笔是透明的；1完全可见。（也称为alpha）。"
+
+#: ../../source/managing_palettes_and_styles.rst:663
+msgid ""
+"**Opacity multiply**, this gets multiplied with Opacity. It is used for making "
+"opaque depend on pressure (or other inputs)."
+msgstr ""
+"**不透明度乘**，这将与不透明度相乘。它用于根据压力（或其他输入）使不透明。"
+
+#: ../../source/managing_palettes_and_styles.rst:665
+msgid ""
+"**Opacity linearize**, correct the nonlinearity introduced by blending multiple "
+"dabs on top of each other. This correction should get you a linear (\"natural"
+"\") pressure response when pressure is mapped to opaque\\_multiply, as it is "
+"usually done. 0.9 is good for standard strokes, set it smaller if your brush "
+"scatters a lot, or higher if you use dabs\\_per\\_second. 0.0 the **Opacity** "
+"value above is for the individual dabs; 1.0 the **Opacity** value above is for "
+"the final brush stroke, assuming each pixel gets (dabs\\_per\\_radius\\*2) "
+"brush dabs on average, during a stroke."
+msgstr ""
+"**不透明度线性化**，纠正通过将多个点叠加在一起而引入的非线性。当压力被映射为不透"
+"明倍数时，这种校正应该会让你得到线性（“自然”）压力响应，就像通常所做的那样。0.9"
+"适用于标准笔划，如果画笔散射很大，则将其设置得较小，如果使用每秒一次的画笔散射，"
+"则设置得较高。0.0上述**不透明度**值适用于单个点；1.0上述**不透明度**值适用于最后"
+"一个画笔笔划，假设每个像素在笔划期间平均获得（dabs\\_per\\_radius\\*2）个画笔"
+"dabs。"
+
+#: ../../source/managing_palettes_and_styles.rst:667
+msgid "**Lock alpha**, (info needed)."
+msgstr "**锁定alpha**，（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:670
+msgid "Dabs"
+msgstr "点"
+
+#: ../../source/managing_palettes_and_styles.rst:672
+msgid ""
+"**Dabs per basic radius**, how many dabs to draw while the pointer moves a "
+"distance of 1 brush radius (i.e. the base value of the radius)."
+msgstr ""
+"**每个基本半径的点**，当指针移动1个画笔半径（即半径的基值）的距离时，要绘制多少"
+"个点。"
+
+#: ../../source/managing_palettes_and_styles.rst:674
+msgid ""
+"**Dabs per actual radius**, same as above but the radius actually drawn is "
+"used, which can change dynamically with pressure."
+msgstr ""
+"**每个实际半径**的点，与上述相同，但使用实际绘制的半径，该半径可以随压力动态变"
+"化。"
+
+#: ../../source/managing_palettes_and_styles.rst:676
+msgid ""
+"**Dabs per second**, dabs to draw each second, no matter how far the pointer "
+"moves."
+msgstr "**每秒点击**，每秒点击绘制，无论指针移动多远。"
+
+#: ../../source/managing_palettes_and_styles.rst:679
+msgid "Smudge"
+msgstr "污迹"
+
+#: ../../source/managing_palettes_and_styles.rst:681
+msgid ""
+"**Smudge**, paint with the smudge color instead of the brush color. The smudge "
+"color is slowly changed to the color you are painting on. 0.0 do not use the "
+"smudge color; 0.5 mix the smudge color with the brush color; 1.0 use only the "
+"smudge color."
+msgstr ""
+"**涂抹**，用涂抹颜色而不是画笔颜色进行绘制。涂抹颜色会慢慢变为您正在绘制的颜色。"
+"0.0不要使用涂抹颜色；0.5将污迹颜色与画笔颜色混合；1.0仅使用涂抹颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:683
+msgid ""
+"**Smudge length**, this controls how fast the smudge color becomes the color "
+"you are painting on. 0.0 immediately change the smudge color; 1.0 never change "
+"the smudge color."
+msgstr ""
+"**涂抹长度**，这控制了涂抹颜色变成您正在绘制的颜色的速度。0.0会立即更改涂抹颜"
+"色；1.0永远不要更改污迹颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:685
+msgid "**Smudge radius**, (info needed)."
+msgstr "**涂抹半径**，（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:688
+msgid "Speed"
+msgstr "速度"
+
+#: ../../source/managing_palettes_and_styles.rst:690
+msgid ""
+"**Fine speed filter**, how slow the input fine speed is following the real "
+"speed. 0.0 change immediately as your speed changes (not recommended, but try "
+"it)."
+msgstr ""
+"**精细速度过滤器**，输入精细速度跟随实际速度的速度有多慢。0.0会随着速度的变化而"
+"立即变化（不推荐，但可以尝试一下）。"
+
+#: ../../source/managing_palettes_and_styles.rst:692
+msgid ""
+"**Gross speed filter**, same as **Fine speed filter**, but note that the range "
+"is different."
+msgstr "**粗速度过滤器**，与**细速度过滤器**相同，但注意范围不同。"
+
+#: ../../source/managing_palettes_and_styles.rst:694
+msgid ""
+"**Fine speed gamma**, this changes the reaction of the **Fine speed** input to "
+"extreme physical speed. You will see the difference best if **Fine speed** is "
+"mapped to the radius. -8.0 very fast speed does not increase *Fine speed* much "
+"more; +8.0 very fast speed increases *Fine speed* a lot. For very slow speed "
+"the opposite happens."
+msgstr ""
+"**精细速度γ**，这会改变**精细速度**输入到极端物理速度的反应。如果将**精细速度**"
+"映射到半径，您将看到最好的差异。-8.0非常快的速度不会增加*精细速度*更多；+8.0非常"
+"快的速度增加*精细的速度*很多。对于非常慢的速度，情况正好相反。"
+
+#: ../../source/managing_palettes_and_styles.rst:696
+msgid "**Gross speed gamma**, same as **Fine speed gamma** for gross speed."
+msgstr "**总速度γ**，与总速度的精细速度γ**相同。"
+
+#: ../../source/managing_palettes_and_styles.rst:698
+msgid ""
+"**Offset by speed**, change position depending on pointer speed. = 0 disable; "
+"\\> 0 draw where the pointer moves to; \\< 0 draw where the pointer comes from."
+msgstr ""
+"**速度偏移**，根据指针速度改变位置。=0禁用；\\>0绘制指针移动到的位置；\\<0绘制指"
+"针的来源。"
+
+#: ../../source/managing_palettes_and_styles.rst:700
+msgid ""
+"**Offset by speed filter**, how slow the offset goes back to zero when the "
+"cursor stops moving."
+msgstr "**速度过滤器**的偏移，当光标停止移动时，偏移返回到零的速度有多慢。"
+
+#: ../../source/managing_palettes_and_styles.rst:703
+msgid "Tracking"
+msgstr "追踪"
+
+#: ../../source/managing_palettes_and_styles.rst:705
+msgid ""
+"**Slow position tracking**, slowdown pointer tracking speed. 0 disables it, "
+"higher values remove more jitter in cursor movements. Useful for drawing "
+"smooth, comic-like outlines."
+msgstr ""
+"**位置跟踪速度慢**，指针跟踪速度慢。0禁用它，更高的值会消除光标移动中的更多抖"
+"动。可用于绘制平滑、滑稽的轮廓。"
+
+#: ../../source/managing_palettes_and_styles.rst:707
+msgid ""
+"**Slow tracking per dab**, similar as above but at brushdab level (ignoring how "
+"much time has past, if brushdabs do not depend on time)."
+msgstr ""
+"**每次点击的跟踪速度较慢**，与上述类似，但在刷点级别（如果刷点不依赖于时间，则忽"
+"略过去的时间）。"
+
+#: ../../source/managing_palettes_and_styles.rst:709
+msgid ""
+"**Tracking noise**, add randomness to the mouse pointer; this usually generates "
+"many small lines in random directions; maybe try this together with **Slow "
+"tracking**."
+msgstr ""
+"**跟踪噪音**，为鼠标指针添加随机性；这通常会在随机方向上产生许多小线条；也许可以"
+"与**慢速跟踪**一起尝试。"
+
+#: ../../source/managing_palettes_and_styles.rst:712
+msgid "Stroke"
+msgstr "绘制"
+
+#: ../../source/managing_palettes_and_styles.rst:714
+msgid ""
+"**Stroke threshold**, how much pressure is needed to start a stroke. This "
+"affects the stroke input only. OpenToonz does not need a minimal pressure to "
+"start drawing."
+msgstr ""
+"**绘制阈值**，开始绘制需要多大的压力。这仅影响笔划输入。OpenToonz不需要最小的压"
+"力来开始绘图。"
+
+#: ../../source/managing_palettes_and_styles.rst:716
+msgid ""
+"**Stroke duration**, how far you have to move until the stroke input reaches "
+"1.0. This value is logarithmic (negative values will not inverse the process)."
+msgstr ""
+"**笔划持续时间**，在笔划输入达到1.0之前，您必须移动多远。此值是对数值（负值不会"
+"反转过程）。"
+
+#: ../../source/managing_palettes_and_styles.rst:718
+msgid ""
+"**Stroke hold time**, this defines how long the stroke input stays at 1.0. "
+"After that it will reset to 0.0 and start growing again, even if the stroke is "
+"not yet finished.. 2.0 means twice as long as it takes to go from 0.0 to 1.0; "
+"9.9 and bigger stands for infinite."
+msgstr ""
+"**笔划保持时间**，这定义了笔划输入保持在1.0的时间。之后，它将重置为0.0并再次开始"
+"生长，即使笔划尚未完成。.2.0表示从0.0到1.0所需时间的两倍；9.9及以上代表无限。"
+
+#: ../../source/managing_palettes_and_styles.rst:721
+msgid "Color"
+msgstr "颜色"
+
+#: ../../source/managing_palettes_and_styles.rst:723
+msgid "**Color hue**, (info needed)."
+msgstr "**色调**，（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:725
+msgid "**Color saturation**, (info needed)."
+msgstr "**颜色饱和度**（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:727
+msgid "**Color value**, (info needed)."
+msgstr "**颜色值**（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:729
+msgid ""
+"**Change color hue**, change color hue. -0.1 small clockwise color hue shift; "
+"0.0 disable; 0.5 counterclockwise hue shift by 180 degrees."
+msgstr ""
+"**更改色调**，更改色调。-0.1小顺时针色调偏移；0.0禁用；0.5逆时针色调偏移180度。"
+
+#: ../../source/managing_palettes_and_styles.rst:731
+msgid ""
+"**Change color lightness (HSL)**, change the color lightness (luminance) using "
+"the HSL color model. -1.0 blacker; 0.0 disable; 1.0 whiter."
+msgstr ""
+"**更改颜色亮度（HSL）**，使用HSL颜色模型更改颜色亮度。-1.0更黑；0.0禁用；1.0更"
+"白。"
+
+#: ../../source/managing_palettes_and_styles.rst:733
+msgid ""
+"**Change color satur. (HSL)**, change the color saturation using the HSL color "
+"model. -1.0 more grayish; 0.0 disable; 1.0 more saturated."
+msgstr ""
+"**更改颜色亮度（HSL）**，使用HSL颜色模型更改颜色亮度。-1.0更黑；0.0禁用；1.0更"
+"白。"
+
+#: ../../source/managing_palettes_and_styles.rst:735
+msgid ""
+"**Change color value (HSV)**, change the color value (brightness, intensity) "
+"using the HSV color model. HSV changes are applied before HSL ones. -1.0 "
+"darker; 0.0 disable; 1.0 brighter."
+msgstr ""
+"**更改HSV颜色值**，使用HSV颜色模型更改颜色值（亮度、强度）。HSV更改在HSL更改之前"
+"应用。-1.0暗；0.0禁用；1.0更亮。"
+
+#: ../../source/managing_palettes_and_styles.rst:737
+msgid ""
+"**Change color satur. (HSV)**, change the color saturation using the HSV color "
+"model. HSV changes are applied before HSL ones. -1.0 more grayish; 0.0 disable; "
+"1.0 more saturated."
+msgstr ""
+"**改变土星的颜色。（HSV）**，使用HSV颜色模型更改颜色饱和度。HSV更改在HSL更改之前"
+"应用。-1.0更多的灰色；0.0禁用；1.0更饱和。"
+
+#: ../../source/managing_palettes_and_styles.rst:739
+msgid "**Save color**, (info needed)."
+msgstr "**保存颜色**（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:741
+msgid "**Colorize**, (info needed)."
+msgstr "**着色**，（需要信息）。"
+
+#: ../../source/managing_palettes_and_styles.rst:744
+msgid "Custom"
+msgstr "自定义"
+
+#: ../../source/managing_palettes_and_styles.rst:746
+msgid ""
+"**Custom input**, set the custom input to this value. If it is slowed down, "
+"move it towards this value (see below). The idea is that you make this input "
+"depend on a mixture of pressure/speed/whatever, and then make other settings "
+"depend on this 'custom input' instead of repeating this combination everywhere "
+"you need it. If you make it change *by random* you can generate a slow (smooth) "
+"random input."
+msgstr ""
+"**自定义输入**，将自定义输入设置为此值。如果速度减慢，请将其移向此值（见下文）。"
+"这个想法是，你让这个输入取决于压力/速度/任何东西的混合，然后让其他设置取决于这"
+"个“自定义输入”，而不是在需要的地方重复这个组合。如果你让它随机变化，你可以生成一"
+"个缓慢（平滑）的随机输入。"
+
+#: ../../source/managing_palettes_and_styles.rst:748
+msgid ""
+"**Custom input filter**, how slow the custom input actually follows the desired "
+"value (the one above). This happens at brushdab level (ignoring how much time "
+"has past, if brushdabs do not depend on time). 0.0 no slowdown (changes apply "
+"instantly)."
+msgstr ""
+"**自定义输入过滤器**，自定义输入实际跟随所需值（如上所述）的速度有多慢。这发生在"
+"画笔级别（如果画笔不依赖于时间，则忽略过去的时间）。0.0无减速（更改立即生效）。"
+
+#: ../../source/managing_palettes_and_styles.rst:754
+msgid "Changing the Type of Style"
+msgstr "更改样式类型"
+
+#: ../../source/managing_palettes_and_styles.rst:755
+msgid ""
+"When you select a Color, Texture, Generated, Trail, Vector Brush or Raster "
+"brush style in the Style Editor, you automatically assign it to the current "
+"style, thus changing its style type."
+msgstr ""
+"在样式编辑器中选择“颜色”、“纹理”、“生成”、“轨迹”、“矢量笔刷”或“光栅”笔刷样式时，"
+"会自动将其指定给当前样式，从而更改其样式类型。"
+
+#: ../../source/managing_palettes_and_styles.rst:757
+msgid ""
+"A different case is when you want to *change back* from a **Generated**, "
+"**Vector Brush** or **Raster** brush style to a **Color** one, because when the "
+"current style is one of those types, the Color tab is used for setting their "
+"colors. So, in this case you first have to remove the Generated, Vector Brush "
+"or Raster brush styles by using the first swatch available in the swatch list, "
+"and then move to the **Color** tab."
+msgstr ""
+"另一种情况是，当您想将**生成**、**矢量画笔**或**光栅**画笔样式更改回**颜色**画笔"
+"样式时，因为当当前样式是这些类型之一时，颜色选项卡用于设置它们的颜色。因此，在这"
+"种情况下，您首先必须使用样例列表中可用的第一个样例删除“生成”、“矢量笔刷”或“光"
+"栅”笔刷样式，然后移动到“颜色”选项卡。"
+
+#: ../../source/managing_palettes_and_styles.rst:759
+msgid ""
+"Also note that when you change from a style suitable for both *lines* and "
+"*areas* to a style suitable only for *lines*, the *areas* painted with that "
+"style will become invisible, and vice versa. For example if you change a style "
+"from Color to Trail, all areas painted with that style will become invisible. "
+"If you modify the style so that it's suitable again for *lines* and *areas*, "
+"the invisible parts will become visible again."
+msgstr ""
+"另请注意，当您从同时适用于*线条*和*区域*的样式更改为仅适用于*线*的样式时，使用该"
+"样式绘制的*区域*将变得不可见，反之亦然。例如，如果将样式从“颜色”更改为“轨迹”，则"
+"使用该样式绘制的所有区域都将不可见。如果修改样式，使其再次适用于*线条*和*区域*，"
+"则不可见的部分将再次可见。"
+
+#: ../../source/managing_palettes_and_styles.rst:761
+msgid "**To change the type of style from Color to any other:**"
+msgstr "**To change the type of style from Color to any other:**"
+
+#: ../../source/managing_palettes_and_styles.rst:763
+msgid "Choose an item in the **Texture**, **Vector** or **Raster** tabs."
+msgstr "在**纹理**、**矢量**或**光栅**选项卡中选择一个项目。"
+
+#: ../../source/managing_palettes_and_styles.rst:765
+msgid "**To change the type of style back to Color:**"
+msgstr "**要将样式类型更改回“颜色”，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:767
+msgid ""
+"Choose the *Color* tab and start moving a slider or the selector in the color "
+"wheel."
+msgstr ""
+"Choose the *Color* tab and start moving a slider or the selector in the color "
+"wheel."
+
+#: ../../source/managing_palettes_and_styles.rst:769
+msgid ""
+"**To change the type of style from Generated, Vector Brush or Raster brush back "
+"to color:**"
+msgstr ""
+"**To change the type of style from Generated, Vector Brush or Raster brush back "
+"to color:**"
+
+#: ../../source/managing_palettes_and_styles.rst:771
+msgid ""
+"In the **Generated**, **Vector Brush** or **Raster** brush sections of the "
+"Style Editor select the first style in the list (the top-left most one) to "
+"remove any special type from the current style."
+msgstr ""
+"In the **Generated**, **Vector Brush** or **Raster** brush sections of the "
+"Style Editor select the first style in the list (the top-left most one) to "
+"remove any special type from the current style."
+
+#: ../../source/managing_palettes_and_styles.rst:773
+msgid ""
+"Choose the **Color** tab and start moving a slider or the selector in the color "
+"wheel."
+msgstr ""
+"Choose the **Color** tab and start moving a slider or the selector in the color "
+"wheel."
+
+#: ../../source/managing_palettes_and_styles.rst:779
+msgid "Editing Several Styles at the Same Time"
+msgstr "同时编辑多个样式"
+
+#: ../../source/managing_palettes_and_styles.rst:781
+msgid ""
+"You can modify several styles at the same time by using the **Palette Gizmo**. "
+"It allows you to scale or shift the value, saturation, hue and alpha of the "
+"selected styles, blend them, or fade them to a specific color."
+msgstr ""
+"您可以使用**调色板小控件**同时修改多个样式。它允许您缩放或移动所选样式的值、饱和"
+"度、色调和阿尔法值，将其混合或淡化为特定颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:783
+msgid "|palette_gizmo|"
+msgstr "|调色板小工具|"
+
+#: ../../source/managing_palettes_and_styles.rst:785
+msgid ""
+"Only the **Color** styles are affected by the **Palette Gizmo** editing and the "
+"blending. e.g. Generated and Trail styles will not be affected."
+msgstr ""
+"只有**颜色**样式受**调色板小控件**编辑和混合的影响。例如，生成样式和轨迹样式将不"
+"受影响。"
+
+#: ../../source/managing_palettes_and_styles.rst:787
+msgid "**To open the Palette Gizmo:**"
+msgstr "**要打开调色板小控件，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:789
+msgid ""
+"Right-click the selected styles and choose **Palette Gizmo** from the menu that "
+"opens."
+msgstr "右键单击所选样式，然后从打开的菜单中选择**调色板小控件**。"
+
+#: ../../source/managing_palettes_and_styles.rst:791
+msgid "**To change the value of the selected styles:**"
+msgstr "**要更改选定样式的值，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:793
+msgid ""
+"Set the percentage of variation or the shift magnitude you want to apply to the "
+"styles value."
+msgstr "设置要应用于样式值的变化百分比或偏移幅度。"
+
+#: ../../source/managing_palettes_and_styles.rst:797
+msgid ""
+"Click the **+** button to increase the value on the set percentage or shift "
+"magnitude."
+msgstr "单击**+**按钮以增加设定百分比或偏移幅度的值。"
+
+#: ../../source/managing_palettes_and_styles.rst:799
+msgid ""
+"Click the **-** button to decrease the value on the set percentage or shift "
+"magnitude."
+msgstr "单击**-**按钮以减小设置百分比或偏移幅度上的值。"
+
+#: ../../source/managing_palettes_and_styles.rst:801
+msgid "**To change the saturation of the selected styles:**"
+msgstr "**要更改选定样式的饱和度，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:803
+msgid ""
+"Set the percentage of variation or the shift magnitude you want to apply to the "
+"styles saturation."
+msgstr "设置要应用于样式饱和度的变化百分比或偏移幅度。"
+
+#: ../../source/managing_palettes_and_styles.rst:807
+msgid ""
+"Click the **+** button to increase the saturation on the set percentage or "
+"shift magnitude."
+msgstr "单击**+**按钮以增加设置百分比或偏移幅度的饱和度。"
+
+#: ../../source/managing_palettes_and_styles.rst:809
+msgid ""
+"Click the **-** button to decrease the saturation on the set percentage or "
+"shift magnitude."
+msgstr "单击**-**按钮以降低设定百分比或偏移幅度的饱和度。"
+
+#: ../../source/managing_palettes_and_styles.rst:811
+msgid "**To change the hue of the selected styles:**"
+msgstr "**要更改选定样式的色调，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:813
+msgid "Set the shift magnitude you want to apply to the styles hue."
+msgstr "设置要应用于样式色调的偏移幅度。"
+
+#: ../../source/managing_palettes_and_styles.rst:817
+msgid "Click the **+** button to increase the hue on the set shift magnitude."
+msgstr "单击**+**按钮以增加设置的偏移幅度上的色调。"
+
+#: ../../source/managing_palettes_and_styles.rst:819
+msgid "Click the **-** button to decrease the hue on the set shift magnitude."
+msgstr "单击**-**按钮以降低设置的偏移幅度上的色调。"
+
+#: ../../source/managing_palettes_and_styles.rst:821
+msgid "**To change the alpha of the selected styles:**"
+msgstr "**要更改选定样式的alpha，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:823
+msgid ""
+"Set the percentage of variation or the shift magnitude you want to apply to the "
+"styles alpha."
+msgstr "设置要应用于样式alpha的变化百分比或偏移幅度。"
+
+#: ../../source/managing_palettes_and_styles.rst:827
+msgid ""
+"Click the **+** button to increase the alpha on the set percentage or shift "
+"magnitude."
+msgstr "单击**+**按钮以增加设定百分比或偏移幅度的alpha值。"
+
+#: ../../source/managing_palettes_and_styles.rst:829
+msgid ""
+"Click the **-** button to decrease the alpha on the set percentage or shift "
+"magnitude."
+msgstr "单击**-**按钮以减小设定百分比或偏移幅度的alpha值。"
+
+#: ../../source/managing_palettes_and_styles.rst:831
+msgid "**To blend selected styles:**"
+msgstr "**要混合选定的样式，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:833
+msgid "Select a set of styles in the **Palette Editor**."
+msgstr "在**调色板编辑器**中选择一组样式。"
+
+#: ../../source/managing_palettes_and_styles.rst:835
+msgid ""
+"Click the **Blend** button: style colors will be blended from the first to the "
+"last color of the selected styles."
+msgstr "单击**混合**按钮：样式颜色将从所选样式的第一种颜色混合到最后一种颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:837
+msgid "**To fade the selected styles to a specific color:**"
+msgstr "**要将所选样式淡化为特定颜色，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:839
+msgid ""
+"Choose the color you want to fade the selection to by doing one of the "
+"following:"
+msgstr "通过执行以下操作之一，选择要淡化所选内容的颜色："
+
+#: ../../source/managing_palettes_and_styles.rst:841
+msgid "Set the **Red**, **Green** and **Blue** values."
+msgstr "设置**红色**、**绿色**和**蓝色**值。"
+
+#: ../../source/managing_palettes_and_styles.rst:843
+msgid ""
+"Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain "
+"Colors <plain_colors>`  )."
+msgstr ""
+"单击颜色缩略图，然后使用样式编辑器对其进行编辑（请参阅：ref:`纯色"
+"<Plain_Colors>`）。"
+
+#: ../../source/managing_palettes_and_styles.rst:845
+msgid "Set the percentage of the fading you want to apply to the styles."
+msgstr "设置要应用于样式的褪色百分比。"
+
+#: ../../source/managing_palettes_and_styles.rst:847
+msgid ""
+"Click the **Fade** button to fade styles to the set color, according to the set "
+"percentage."
+msgstr "单击**淡入淡出**按钮，根据设置的百分比将样式淡入淡出到设置的颜色。"
+
+#: ../../source/managing_palettes_and_styles.rst:853
+msgid "Using the Name Editor"
+msgstr "使用名称编辑器"
+
+#: ../../source/managing_palettes_and_styles.rst:855
+msgid ""
+"The **Name Editor** allows to systematize the naming of styles used in a "
+"production, by defining preset names for **Character**, **Part** and "
+"**Suffix**. In that way, styles in a palette can easily be given significant "
+"names that will ease its use later on the production."
+msgstr ""
+"**名称编辑器**允许通过为**字符**、**部分**和**后缀**定义预设名称，对生产中使用的"
+"样式命名进行系统化。通过这种方式，调色板中的样式可以很容易地被赋予重要的名称，这"
+"将使其在以后的生产中更容易使用。"
+
+#: ../../source/managing_palettes_and_styles.rst:857
+msgid "|name_editor|"
+msgstr "|名称编辑器|"
+
+#: ../../source/managing_palettes_and_styles.rst:859
+msgid ""
+"Currently there's no standard separator character inserted between the "
+"different preset names used, so if you want to have those separated by an "
+"underscore, for example, you should insert that character at the beginning or "
+"end of the different names in each category, as shown in the image above."
+msgstr ""
+"目前，在使用的不同预设名称之间没有插入标准分隔符，因此，如果你想用下划线分隔这些"
+"名称，例如，你应该在每个类别中不同名称的开头或结尾插入该字符，如上图所示。"
+
+#: ../../source/managing_palettes_and_styles.rst:861
+msgid "**To open the Name Editor:**"
+msgstr "**要打开名称编辑器，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:863
+msgid ""
+"Right-click in the **Palette Editor** and choose **Name Editor** from the menu "
+"that opens."
+msgstr "在**调色板编辑器**中单击鼠标右键，然后从打开的菜单中选择**名称编辑器**。"
+
+#: ../../source/managing_palettes_and_styles.rst:865
+msgid "**To delete a preset name:**"
+msgstr "**要删除预设名称，请执行以下操作：**"
+
+#: ../../source/managing_palettes_and_styles.rst:867
+msgid ""
+"Right-click over the desired *preset name* and choose **Remove** from the menu "
+"that opens."
+msgstr "右键单击所需的*预设名称*，然后从打开的菜单中选择**删除**。"

@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 15:52+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:4
+msgid "Using Rhubarb with OpenToonz"
+msgstr "Rhubarb与OpenToonz的配合使用"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:7
+msgid "What is Rhubarb?"
+msgstr "什么是Rhubarb?"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:8
+msgid ""
+"Rhubarb Lip Sync is a command-line tool that automatically creates 2D "
+"mouth animation from voice recordings. It can be used to provide "
+"automatic lip-sync capabilities inside OpenToonz, for that to be "
+"possible OpenToonz requires Rhubarb to be installed on your machine and "
+"appropriately configured in Preferences."
+msgstr ""
+"大黄唇同步是一个命令行工具，可以从录音中自动创建2D嘴部动画。它可用于在"
+"OpenToonz中提供自动唇形同步功能，为此，OpenToonz需要在您的机器上安装大黄"
+"并在首选项中进行适当配置。"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:9
+msgid ""
+"For more information, please visit this page: `About Rhubarb <https://"
+"github.com/DanielSWolf/rhubarb-lip-sync>`_"
+msgstr ""
+"欲了解更多信息，请访问此页面：`关于大黄<https://github.com/DanielSWolf/"
+"rhubarb-lip-sync>`_"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:13
+msgid "Installing Rhubarb for Windows"
+msgstr "安装Windows版大黄"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:16
+#: ../../source/using_rhubarb_with_opentoonz.rst:41
+msgid "Downloading"
+msgstr "下载中"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:18
+#: ../../source/using_rhubarb_with_opentoonz.rst:43
+msgid ""
+"To download Rhubarb, visit this page: `Download Rhubarb <https://github."
+"com/DanielSWolf/rhubarb-lip-sync/releases>`_"
+msgstr ""
+"要下载大黄，请访问此页面：`下载大黄<https://github.com/DanielSWolf/"
+"rhubarb-lip-sync/releases>`_"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:19
+msgid ""
+"Download the latest **Rhubarb-Lip-Sync-x.y.z-Windows.zip** file (where "
+"'x.y.z' represent the software version number)."
+msgstr ""
+"下载最新的**Rhubarb-Lip-Sync-x.y.z-Windows.zip**文件（其中“x.y.z”表示软件"
+"版本号）。"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:22
+#: ../../source/using_rhubarb_with_opentoonz.rst:47
+msgid "Installing"
+msgstr "安装"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:24
+msgid ""
+"Once you have downloaded the Rhubarb zip archive, extract it in the "
+"desired location of your system (**C:\\\\** is recomended)."
+msgstr ""
+"下载大黄zip存档后，将其解压缩到系统的所需位置（建议使用**C:\\**）。"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:26
+msgid "|rhubarb_extracted_windows|"
+msgstr "|rhubarb_extracted_windows|"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:28
+#: ../../source/using_rhubarb_with_opentoonz.rst:53
+msgid ""
+"Next, start OpenToonz and open the Preferences window with File  →  "
+"**Preferences...**"
+msgstr "接下来，启动OpenToonz并使用文件打开首选项窗口→  **偏好。..**"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:29
+#: ../../source/using_rhubarb_with_opentoonz.rst:54
+#: ../../source/using_rhubarb_with_opentoonz.rst:80
+msgid ""
+"Navigate to the **Auto Lip-Sync** category; at the top you will see a "
+"box with the text **Rhubarb Path**."
+msgstr ""
+"导航到**自动唇部同步**类别；在顶部，您将看到一个文本框**大黄路径**。"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:30
+msgid ""
+"Insert the path to your extracted Rhubarb folder (if you have used the "
+"recommended path, this will be **C:\\\\Rhubarb-Lip-Sync-x.y.z-Windows\\"
+"\\**):"
+msgstr ""
+"插入提取的大黄文件夹的路径（如果您使用了推荐的路径，这将是**C:\\"
+"\\Ruhubarb-Lip-Sync-x.y.z-Windows\\\\**）："
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:32
+msgid "|rhubarb_path_windows|"
+msgstr "|rhubarb_path_windows|"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:34
+#: ../../source/using_rhubarb_with_opentoonz.rst:59
+#: ../../source/using_rhubarb_with_opentoonz.rst:85
+msgid "Restart OpenToonz."
+msgstr "重新启动OpenToonz"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:38
+msgid "Installing Rhubarb for Mac"
+msgstr "Installing Rhubarb for Mac"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:44
+msgid ""
+"Download the latest ** Rhubarb-Lip-Sync-x.y.z-macOS.zip ** file (where "
+"'x.y.z' represent the software version number)."
+msgstr ""
+"下载最新的**Rhubarb-Lip-Sync-x.y.z-macOS.zip**文件（其中“x.y.z”表示软件版"
+"本号）。"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:49
+msgid ""
+"Once you have downloaded the Rhubarb zip archive, extract it in the "
+"desired location of your system."
+msgstr ""
+"Once you have downloaded the Rhubarb zip archive, extract it in the "
+"desired location of your system."
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:51
+msgid "|rhubarb_extracted_mac|"
+msgstr "|rhubarb_extracted_mac|"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:55
+msgid "Insert the path to your extracted Rhubarb folder:"
+msgstr "插入提取的大黄文件夹的路径："
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:57
+msgid "|rhubarb_path_mac|"
+msgstr "|rhubarb_path_mac|"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:63
+msgid "Installing Rhubarb for Linux"
+msgstr "安装Linux版大黄"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:65
+msgid ""
+"To install Rhubarb, enter the following command in the shell depending "
+"on your distribution."
+msgstr "要安装大黄，请根据您的发行版在shell中输入以下命令。"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:67
+msgid "Arch Linux: ``# pacman -S extra/rhubarb``"
+msgstr "Arch Linux: ``# pacman -S extra/rhubarb``"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:69
+msgid "Debian GNU/Linux: ``# apt install rhubarb``"
+msgstr "Debian GNU/Linux: ``# apt install rhubarb``"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:71
+msgid "Gentoo Linux: ``# emerge media-audio/rhubarb``"
+msgstr "Gentoo Linux: ``# emerge media-audio/rhubarb``"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:73
+msgid "Solus: ``# eopkg install rhubarb``"
+msgstr "Solus: ``# eopkg install rhubarb``"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:75
+msgid ""
+"If you are using any other Linux distribution please refer to its "
+"documentation or visit the `Rhubarb download page <https://github.com/"
+"DanielSWolf/rhubarb-lip-sync/releases>`_ and download the latest "
+"**Rhubarb-Lip-Sync-x.y.z-Linux.zip** file (where 'x.y.z' represent the "
+"software version number)."
+msgstr ""
+"If you are using any other Linux distribution please refer to its "
+"documentation or visit the `Rhubarb download page <https://github.com/"
+"DanielSWolf/rhubarb-lip-sync/releases>`_ and download the latest "
+"**Rhubarb-Lip-Sync-x.y.z-Linux.zip** file (where 'x.y.z' represent the "
+"software version number)."
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:77
+msgid "|rhubarb_extracted_linux|"
+msgstr "|rhubarb_extracted_linux|"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:79
+msgid ""
+"Start OpenToonz and open the Preferences window with File  →  "
+"**Preferences...**"
+msgstr ""
+"Start OpenToonz and open the Preferences window with File  →  "
+"**Preferences...**"
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:81
+msgid ""
+"Insert the path **/usr/bin**, or a path pointing to where you've "
+"extracted the downloaded zip file."
+msgstr ""
+"Insert the path **/usr/bin**, or a path pointing to where you've "
+"extracted the downloaded zip file."
+
+#: ../../source/using_rhubarb_with_opentoonz.rst:83
+msgid "|ffmpeg_path_linux|"
+msgstr "|ffmpeg_path_linux|"
