@@ -1,0 +1,1768 @@
+# 某些描述性标题。
+# 版权所有 (C)：本页遵循 CC-BY-NC 4.0 国际许可协议
+# 本文件根据与 OpenToonz 软件包相同的许可协议分发。
+# 第一作者 <EMAIL@ADDRESS>, 2026。
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 22:26+0800\n"
+"Last-Translator: 你的名字 <你的邮箱@地址>\n"
+"Language-Team: 中文（简体） <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/creating_movements.rst:4
+msgid "Creating Movements"
+msgstr "创建运动"
+
+#: ../../source/creating_movements.rst:5
+msgid "Each scene has a series of *objects* that can be transformed; they can be Xsheet columns (or Timeline layers), pegbars, cameras, or the table."
+msgstr "每个场景都有一系列可以变换的*对象*；它们可以是 Xsheet 列（或时间轴图层）、定位尺、摄影机或动画台。"
+
+#: ../../source/creating_movements.rst:7
+msgid "Every transformation you set for an object at a specific frame automatically defines a keyframe. When keyframes are defined at several frames, in-between positions are automatically interpolated."
+msgstr "你在特定帧为对象设置的每一次变换都会自动定义一个关键帧。当在多个帧定义关键帧时，中间位置会自动插值计算。"
+
+#: ../../source/creating_movements.rst:9
+msgid "To create more complex animations, you can also work in a 3D environment, where cameras and scene elements can be placed like on a stage at different distances one from another."
+msgstr "要创建更复杂的动画，您也可以在 3D 环境中工作，在此环境下，摄影机和场景元素可以像在舞台上一样以不同距离彼此放置。"
+
+#: ../../source/creating_movements.rst:15
+msgid "Using the Stage Schematic"
+msgstr "使用舞台示意图"
+
+#: ../../source/creating_movements.rst:16
+msgid ""
+"The Stage Schematic contains *nodes* for all of the objects used in a scene, making it possible to manage the way they are linked to each other. It's organized in a hierarchy starting from the animation table, where all the columns/layers "
+"and pegbars are placed. A camera is available as well, and additional cameras can be defined."
+msgstr "舞台示意图包含场景中使用的所有对象的*节点*，使得管理它们彼此链接的方式成为可能。它按层次结构组织，从动画台开始，所有的列/图层和定位尺都放置其上。默认有一个摄影机，也可以定义额外的摄影机。"
+
+#: ../../source/creating_movements.rst:18
+msgid "|stage_schematic|"
+msgstr "|stage_schematic|"
+
+#: ../../source/creating_movements.rst:20
+msgid "By default the Stage Schematic contains the table node and one camera node."
+msgstr "默认情况下，舞台示意图包含动画台节点和一个摄影机节点。"
+
+#: ../../source/creating_movements.rst:22
+msgid "Column/layer nodes are added as soon as you load or create some content; pegbars and cameras can be added at any time (pegbars will be automatically linked to the table)."
+msgstr "加载或创建内容后，列/图层节点会立即添加；定位尺和摄影机可以随时添加（定位尺会自动链接到动画台）。"
+
+#: ../../source/creating_movements.rst:24
+msgid ""
+"When more than one camera is created, you can set which is the active one, used in the Viewer; the active camera node is displayed in blue while the others are left idle in grey. Each camera can have a different size and resolution, and each "
+"of them can be animated independently (see  :ref:`Defining Camera Settings <defining_camera_settings>`  )."
+msgstr "创建多个摄影机后，您可以设置哪个是活动摄影机，用于查看器中；活动摄影机节点显示为蓝色，而其他节点则以灰色闲置。每个摄影机可以有不同的尺寸和分辨率，并且每个都可以独立设置动画（参见 :ref:`定义摄影机设置 <defining_camera_settings>`）。"
+
+#: ../../source/creating_movements.rst:26
+msgid ""
+"Objects nodes can be easily added and arranged and they can be selected in order to be cut, copied, pasted or deleted. When selected, nodes' edges are highlighted in white; the current node has its label displayed in yellow; when at least "
+"one node is selected, its related links are displayed in cyan."
+msgstr "对象节点可以轻松添加和排列，并且可以选中以进行剪切、复制、粘贴或删除。选中时，节点边缘高亮为白色；当前节点的标签显示为黄色；当至少选中一个节点时，其相关链接显示为青色。"
+
+#: ../../source/creating_movements.rst:28
+msgid ""
+"It's also possible to *group* several nodes into one single node, in order to better manage a complex Stage Schematic. Groups can be opened to be examined, and its components can be selected for further operations, like creating animations "
+"or new groups."
+msgstr "也可以将多个节点*分组*为单个节点，以便更好地管理复杂的舞台示意图。可以打开组进行检查，并且可以选中其组件以进行进一步操作，例如创建动画或新组。"
+
+#: ../../source/creating_movements.rst:30
+msgid ""
+"Column/layer nodes have buttons defining their visibility in Camera stand (|camera_stand|) and Render (|preview|) views, these buttons are located at the top right of the nodes: the toggles are linked to the ones available in the Xsheet "
+"columns (Timeline layers) headers (see :ref:`Working with Xsheet Columns <working_with_xsheet_columns>` )."
+msgstr "列/图层节点有按钮定义其在摄影台 (|camera_stand|) 和渲染 (|preview|) 视图中的可见性，这些按钮位于节点的右上角：这些开关与 Xsheet 列（时间轴图层）表头中的开关相关联（参见 :ref:`使用 Xsheet 列 <working_with_xsheet_columns>`）。"
+
+#: ../../source/creating_movements.rst:32
+msgid "**To access the stage schematic:**"
+msgstr "**访问舞台示意图：**"
+
+#: ../../source/creating_movements.rst:34
+msgid "Go to the Window menu, and choose the Schematic option."
+msgstr "转到窗口菜单，然后选择示意图选项。"
+
+#: ../../source/creating_movements.rst:36
+msgid "If necessary, click the FX/Stage toggle button (|schematic|) in the bottom bar of the Schematic pane until the title bar displays Stage Schematic."
+msgstr "如有必要，点击示意图窗格底部的 FX/舞台切换按钮 (|schematic|)，直到标题栏显示“舞台示意图”。"
+
+#: ../../source/creating_movements.rst:38
+msgid "**To navigate the stage schematic:**"
+msgstr "**导航舞台示意图：**"
+
+#: ../../source/creating_movements.rst:40 ../../source/creating_movements.rst:60 ../../source/creating_movements.rst:68 ../../source/creating_movements.rst:84 ../../source/creating_movements.rst:92 ../../source/creating_movements.rst:108
+#: ../../source/creating_movements.rst:183 ../../source/creating_movements.rst:193 ../../source/creating_movements.rst:294 ../../source/creating_movements.rst:302 ../../source/creating_movements.rst:310 ../../source/creating_movements.rst:510
+#: ../../source/creating_movements.rst:544 ../../source/creating_movements.rst:570 ../../source/creating_movements.rst:584 ../../source/creating_movements.rst:660 ../../source/creating_movements.rst:738 ../../source/creating_movements.rst:765
+#: ../../source/creating_movements.rst:773 ../../source/creating_movements.rst:791 ../../source/creating_movements.rst:823 ../../source/creating_movements.rst:846 ../../source/creating_movements.rst:858 ../../source/creating_movements.rst:901
+#: ../../source/creating_movements.rst:921
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/creating_movements.rst:42
+msgid "Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to zoom in and zoom out."
+msgstr "使用鼠标滚轮或缩放快捷键（默认为 + 和 - 键）进行放大和缩小。"
+
+#: ../../source/creating_movements.rst:44
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "中键单击并拖动可在任意方向滚动。"
+
+#: ../../source/creating_movements.rst:46
+msgid "Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the stage window to display all the objects in the current window."
+msgstr "使用舞台窗口底部栏的**适合窗口**按钮 (|fit_to_window|)，在当前窗口中显示所有对象。"
+
+#: ../../source/creating_movements.rst:48
+msgid "Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the stage window to center the stage on the current object."
+msgstr "使用舞台窗口底部栏的**聚焦当前对象**按钮 (|focus_on_current|)，将舞台中心对准当前对象。"
+
+#: ../../source/creating_movements.rst:50
+msgid "Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage window to change the position of the nodes in the schematic to a default arrangement."
+msgstr "使用舞台窗口底部栏的**重新排序节点**按钮 (|reorder_nodes|)，将示意图中节点的位置更改为默认排列。"
+
+#: ../../source/creating_movements.rst:52
+msgid "Use the **Reset Size** button (|reset|) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size."
+msgstr "使用舞台窗口底部栏的**重置尺寸**按钮 (|reset|)，或使用重置视图快捷键（默认为 0 键），以默认尺寸显示所有对象。"
+
+#: ../../source/creating_movements.rst:54
+msgid "**To add a column/layer:**"
+msgstr "**添加列/图层：**"
+
+#: ../../source/creating_movements.rst:56
+msgid "Load or create some content for the Xsheet column (Timeline layer): it will be automatically displayed in the Stage Schematic."
+msgstr "为 Xsheet 列（时间轴图层）加载或创建一些内容：它将自动显示在舞台示意图中。"
+
+#: ../../source/creating_movements.rst:58
+msgid "**To add a pegbar:**"
+msgstr "**添加定位尺：**"
+
+#: ../../source/creating_movements.rst:62
+msgid "Click the **New Pegbar** button (|pegbar|) in the bottom bar of the Stage Schematic window."
+msgstr "点击舞台示意图窗口底部栏的**新建定位尺**按钮 (|pegbar|)。"
+
+#: ../../source/creating_movements.rst:64
+msgid "Right-click in the Stage Schematic and choose **New Pegbar** from the menu that opens."
+msgstr "在舞台示意图中右键单击，并从打开的菜单中选择**新建定位尺**。"
+
+#: ../../source/creating_movements.rst:66
+msgid "**To add a camera:**"
+msgstr "**添加摄影机：**"
+
+#: ../../source/creating_movements.rst:70
+msgid "Click the **New Camera** button (|camera|) in the bottom bar of the Stage Schematic window."
+msgstr "点击舞台示意图窗口底部栏的**新建摄影机**按钮 (|camera|)。"
+
+#: ../../source/creating_movements.rst:72
+msgid "Right-click in the Stage Schematic and choose **New Camera** from the menu that opens."
+msgstr "在舞台示意图中右键单击，并从打开的菜单中选择**新建摄影机**。"
+
+#: ../../source/creating_movements.rst:74
+msgid "**To set the active camera:**"
+msgstr "**设置活动摄影机：**"
+
+#: ../../source/creating_movements.rst:76
+msgid "In the Stage Schematic right-click the camera node you want to set as active and choose **Activate** from the menu that opens."
+msgstr "在舞台示意图中，右键单击要设置为活动状态的摄影机节点，并从打开的菜单中选择**激活**。"
+
+#: ../../source/creating_movements.rst:78
+msgid "**To rename an object:**"
+msgstr "**重命名对象：**"
+
+#: ../../source/creating_movements.rst:80
+msgid "Ctrl + double-click the node name and type a new one."
+msgstr "Ctrl + 双击节点名称并输入新名称。"
+
+#: ../../source/creating_movements.rst:82
+msgid "**To minimize or maximize column/layer nodes:**"
+msgstr "**最小化或最大化列/图层节点：**"
+
+#: ../../source/creating_movements.rst:86
+msgid "Click the arrowhead button to the left of the node name to minimize/maximize it selectively."
+msgstr "点击节点名称左侧的箭头按钮以选择性地最小化/最大化它。"
+
+#: ../../source/creating_movements.rst:88
+msgid "Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage Schematic pane to minimize/maximize all of the nodes."
+msgstr "点击舞台示意图窗格底部栏的**最大化节点** (|maximize|) 按钮，以最小化/最大化所有节点。"
+
+#: ../../source/creating_movements.rst:90
+msgid "**To select objects and links:**"
+msgstr "**选择对象和链接：**"
+
+#: ../../source/creating_movements.rst:94
+msgid "Click to select an object."
+msgstr "点击以选择一个对象。"
+
+#: ../../source/creating_movements.rst:96
+msgid "Click and drag to select a group of objects."
+msgstr "点击并拖动以选择一组对象。"
+
+#: ../../source/creating_movements.rst:98
+msgid "Ctrl-click (PC) or Cmd-click (Mac) to add an object to, or remove it from the selection."
+msgstr "Ctrl-单击（PC）或 Cmd-单击（Mac）以向选择添加对象或从中移除对象。"
+
+#: ../../source/creating_movements.rst:100
+msgid "Links can be selected together with objects (see  :ref:`Linking Objects <linking_objects>`  )."
+msgstr "链接可以与对象一起选择（参见 :ref:`链接对象 <linking_objects>`）。"
+
+#: ../../source/creating_movements.rst:102
+msgid "**To move the selection:**"
+msgstr "**移动选中的内容：**"
+
+#: ../../source/creating_movements.rst:104
+msgid "Click and drag any object of the selection."
+msgstr "点击并拖动选中内容中的任何对象。"
+
+#: ../../source/creating_movements.rst:106
+msgid "**To edit an objects selection:**"
+msgstr "**编辑对象选择：**"
+
+#: ../../source/creating_movements.rst:110 ../../source/creating_movements.rst:795
+msgid "Use the **Copy** command to keep the selection in memory for further operations."
+msgstr "使用**复制**命令将选中内容保留在内存中以供进一步操作。"
+
+#: ../../source/creating_movements.rst:112
+msgid "Use the **Cut** command to eliminate the nodes selection from the Stage Schematic and keep them in memory for further operations."
+msgstr "使用**剪切**命令从舞台示意图中移除节点选中内容，并将其保留在内存中以供进一步操作。"
+
+#: ../../source/creating_movements.rst:114
+msgid "Use the **Paste** command to paste the selection kept in memory in the Stage Schematic: the pasted selection will be linked to the same object to which the copied or cut objects were linked."
+msgstr "使用**粘贴**命令将内存中保留的选中内容粘贴到舞台示意图中：粘贴的选中内容将链接到被复制或剪切对象所链接的同一对象。"
+
+#: ../../source/creating_movements.rst:116 ../../source/creating_movements.rst:799
+msgid "Use the **Delete** command to delete the selection."
+msgstr "使用**删除**命令删除选中内容。"
+
+#: ../../source/creating_movements.rst:118
+msgid "All of these commands are available in the menu that opens when right-clicking nodes and links."
+msgstr "所有这些命令都可在右键单击节点和链接时打开的菜单中找到。"
+
+#: ../../source/creating_movements.rst:120
+msgid "The table and the default camera cannot be removed from the Stage Schematic."
+msgstr "动画台和默认摄影机无法从舞台示意图中移除。"
+
+#: ../../source/creating_movements.rst:122
+msgid "**To Group selected objects:**"
+msgstr "**将选中对象分组：**"
+
+#: ../../source/creating_movements.rst:124
+msgid "Right-click any selected nodes and choose **Group** from the menu that opens."
+msgstr "右键单击任何选中的节点，并从打开的菜单中选择**分组**。"
+
+#: ../../source/creating_movements.rst:126
+msgid "Nodes can only be grouped if they share the parent node, and the parent node is included in the selection."
+msgstr "只有当节点共享父节点，并且该父节点包含在选中内容中时，才能将它们分组。"
+
+#: ../../source/creating_movements.rst:128
+msgid "**To open a Group:**"
+msgstr "**打开组：**"
+
+#: ../../source/creating_movements.rst:130
+msgid "Right-click the group and choose **Open Group** from the menu that opens: the group objects are displayed in a box, showing links between group nodes, and links with nodes outside of the group."
+msgstr "右键单击组，并从打开的菜单中选择**打开组**：组对象显示在一个方框中，显示组节点之间的链接以及与组外节点的链接。"
+
+#: ../../source/creating_movements.rst:132
+msgid "In the Stage Schematic, when the content of a group is displayed it's not possible to edit the links between group nodes, and links with nodes outside of the group."
+msgstr "在舞台示意图中，当显示组的内容时，无法编辑组节点之间的链接以及与组外节点的链接。"
+
+#: ../../source/creating_movements.rst:134
+msgid "**To close a Group:**"
+msgstr "**关闭组：**"
+
+#: ../../source/creating_movements.rst:136
+msgid "Click the **Close button** on the right of the group box bar."
+msgstr "点击组框栏右侧的**关闭按钮**。"
+
+#: ../../source/creating_movements.rst:138
+msgid "**To release a Group:**"
+msgstr "**释放组（取消分组）：**"
+
+#: ../../source/creating_movements.rst:140
+msgid "Right-click the group and choose **Ungroup** from the menu that opens."
+msgstr "右键单击组，并从打开的菜单中选择**取消分组**。"
+
+#: ../../source/creating_movements.rst:142
+msgid "**To reorder nodes in the Stage Schematic:**"
+msgstr "**在舞台示意图中重新排序节点：**"
+
+#: ../../source/creating_movements.rst:144
+msgid "Click the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage window."
+msgstr "点击舞台窗口底部栏的**重新排序节点**按钮 (|reorder_nodes|)。"
+
+#: ../../source/creating_movements.rst:150
+msgid "Linking Objects"
+msgstr "链接对象"
+
+#: ../../source/creating_movements.rst:151
+msgid ""
+"Objects can be linked in order to create shared movements (movements that all the linked objects share with the parent object) and relative movements (movements that are the sum of the object's own movement and the movement of its parent "
+"object)."
+msgstr "对象可以被链接以创建共享运动（所有链接对象与父对象共享的运动）和相对运动（对象自身运动与其父对象运动之和）。"
+
+#: ../../source/creating_movements.rst:153
+msgid "As parent objects can be linked, in their turn, to other moving objects, it is possible to define a complex hierarchy of transformations."
+msgstr "由于父对象本身也可以链接到其他运动对象，因此可以定义一个复杂的变换层次结构。"
+
+#: ../../source/creating_movements.rst:155
+msgid ""
+"The hierarchy between objects can be edited by setting links that allow you to set parent and linked objects: columns/layers can be linked to other columns/layers, pegbars, the table or cameras; pegbars can be linked to other pegbars, the "
+"table or cameras; cameras can be linked to any object in order to create complex shots, for example with a camera following the movement of a character in the scene."
+msgstr ""
+"对象之间的层次结构可以通过设置链接来编辑，这些链接允许您设置父对象和链接对象：列/图层可以链接到其他列/图层、定位尺、动画台或摄影机；定位尺可以链接到其他定位尺、动画台或摄影机；摄影机可以链接到任何对象以创建复杂的镜头，例如让摄影机跟随场景中角"
+"色的运动。"
+
+#: ../../source/creating_movements.rst:157
+msgid "Links can be set by using the ports located at each side of the object node:"
+msgstr "链接可以通过使用位于对象节点各侧的端口来设置："
+
+#: ../../source/creating_movements.rst:159
+msgid "The **port on the left** is for linking the object to a **parent** object."
+msgstr "**左侧的端口**用于将对象链接到**父**对象。"
+
+#: ../../source/creating_movements.rst:161
+msgid "The **port on the right** is for linking the object to a **child** object."
+msgstr "**右侧的端口**用于将对象链接到**子**对象。"
+
+#: ../../source/creating_movements.rst:163
+msgid "The **port at the bottom** is for assigning the object a **motion path** to follow (see for  :ref:`Creating a Movement along a Motion Path <creating_a_movement_along_a_motion_path>` )."
+msgstr "**底部的端口**用于为对象分配要遵循的**运动路径**（参见 :ref:`沿运动路径创建运动 <creating_a_movement_along_a_motion_path>`）。"
+
+#: ../../source/creating_movements.rst:165
+msgid "Links can also be selected in order to be deleted: when selected, links are highlighted; when at least one object is selected, the related links are displayed in blue."
+msgstr "链接也可以被选中以便删除：选中时，链接会高亮显示；当至少有一个对象被选中时，相关链接会以蓝色显示。"
+
+#: ../../source/creating_movements.rst:167
+msgid "Columns/layers and pegbars are always linked, at least to the table: this means that their links cannot be deleted, but only replaced with different ones or restored to their default: the table."
+msgstr "列/图层和定位尺始终链接，至少链接到动画台：这意味着它们的链接不能被删除，只能替换为不同的链接或恢复为默认值：动画台。"
+
+#: ../../source/creating_movements.rst:169
+msgid "**To link a node to another:**"
+msgstr "**将一个节点链接到另一个：**"
+
+#: ../../source/creating_movements.rst:171
+msgid "In the Stage Schematic, click and drag from a node's left port to the parent node's right port, or viceversa."
+msgstr "在舞台示意图中，从一个节点的左端口点击并拖动到父节点的右端口，反之亦然。"
+
+#: ../../source/creating_movements.rst:173
+msgid "**To link a column/layer to another object:**"
+msgstr "**将列/图层链接到另一个对象：**"
+
+#: ../../source/creating_movements.rst:175 ../../source/creating_movements.rst:247 ../../source/creating_movements.rst:598
+msgid "Do any of the following:"
+msgstr "执行以下任意操作："
+
+#: ../../source/creating_movements.rst:177
+msgid "Define the link in the Stage Schematic."
+msgstr "在舞台示意图中定义链接。"
+
+#: ../../source/creating_movements.rst:179
+msgid "Select the **Animate** tool (|animate|) with the **Pick:** option set to **Column**, and in the viewer **Shift-click** the column contents to which you want to link the current column."
+msgstr "选择**动画**工具 (|animate|)，将**拾取：**选项设置为**列**，然后在查看器中**Shift-单击**要链接当前列到的列内容。"
+
+#: ../../source/creating_movements.rst:181
+msgid "**To select the linked object to edit in the hierarchy:**"
+msgstr "**选择要编辑的层次结构中的链接对象：**"
+
+#: ../../source/creating_movements.rst:185
+msgid "Select it in the Stage Schematic."
+msgstr "在舞台示意图中选择它。"
+
+#: ../../source/creating_movements.rst:187
+msgid "Use the **Animate** tool (|animate|) with the **Pick:** option set to **Pegbar** to click a drawing in the viewer and select the first pegbar in the hierarchy the column containing the drawing is linked to."
+msgstr "使用**动画**工具 (|animate|)，将**拾取：**选项设置为**定位尺**，在查看器中点击一个绘图，选择包含该绘图的列所链接到的层次结构中的第一个定位尺。"
+
+#: ../../source/creating_movements.rst:189
+msgid "Right-click a drawing in the viewer to choose from the menu that opens the **Select** command related to the object that you want to edit."
+msgstr "在查看器中右键单击一个绘图，从打开的菜单中选择与要编辑的对象相关的**选择**命令。"
+
+#: ../../source/creating_movements.rst:191
+msgid "**To select links:**"
+msgstr "**选择链接：**"
+
+#: ../../source/creating_movements.rst:195
+msgid "Click to select a link."
+msgstr "点击以选择一个链接。"
+
+#: ../../source/creating_movements.rst:197
+msgid "Click and drag to select several links."
+msgstr "点击并拖动以选择多个链接。"
+
+#: ../../source/creating_movements.rst:199
+msgid "Ctrl-click (PC) or Cmd-click (Mac) to add a link to, or remove it from the selection."
+msgstr "Ctrl-单击（PC）或 Cmd-单击（Mac）以向选择添加链接或从中移除链接。"
+
+#: ../../source/creating_movements.rst:201
+msgid "Objects can be selected together with links (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  )."
+msgstr "对象可以与链接一起选择（参见 :ref:`使用舞台示意图 <using_the_stage_schematic>`）。"
+
+#: ../../source/creating_movements.rst:203
+msgid "**To remove selected links:**"
+msgstr "**移除选中的链接：**"
+
+#: ../../source/creating_movements.rst:205
+msgid "Choose Edit  →  **Delete**, links will be replaced by default ones (i.e to the table)."
+msgstr "选择 编辑 → **删除**，链接将被替换为默认链接（即链接到动画台）。"
+
+#: ../../source/creating_movements.rst:211
+msgid "Advanced Linking"
+msgstr "高级链接"
+
+#: ../../source/creating_movements.rst:212
+msgid "Optionally, the connector ports can be displayed as letters (instead of the default circles), to be able to control, in more advanced ways, the position of the centers to be used when linking the nodes:"
+msgstr "可选地，连接器端口可以显示为字母（而不是默认的圆圈），以便能够以更高级的方式控制链接节点时使用的中心位置："
+
+#: ../../source/creating_movements.rst:214
+msgid "|adv_linking_1|"
+msgstr "|adv_linking_1|"
+
+#: ../../source/creating_movements.rst:216
+msgid "|adv_linking_2|"
+msgstr "|adv_linking_2|"
+
+#: ../../source/creating_movements.rst:218
+msgid "Center **B** is the geometrical center of each object (and the default connection option)."
+msgstr "中心 **B** 是每个对象的几何中心（也是默认的连接选项）。"
+
+#: ../../source/creating_movements.rst:219
+msgid "Center **A** is placed 8 inches to the left."
+msgstr "中心 **A** 放置在左侧 8 英寸处。"
+
+#: ../../source/creating_movements.rst:220
+msgid "Center **C** is placed 8 inches to the right."
+msgstr "中心 **C** 放置在右侧 8 英寸处。"
+
+#: ../../source/creating_movements.rst:221 ../../source/creating_movements.rst:229
+msgid "etc."
+msgstr "等等。"
+
+#: ../../source/creating_movements.rst:223
+msgid ""
+"When a link is created, the letters at its ends set the way the linked object overlaps with the parent object. If at both ends of the link you set the same letter, the two objects will overlap with no offset respect to their default centers; "
+"while if for example, a column centered on B is linked to a pegbar centered on A, it will have an offset of 8 inches to the left."
+msgstr "创建链接时，其两端的字母设定了链接对象与父对象重叠的方式。如果在链接两端设置相同的字母，则两个对象将以其默认中心对齐，没有偏移；而如果例如一个以 B 为中心的列链接到一个以 A 为中心的定位尺，它将有 8 英寸的向左偏移。"
+
+#: ../../source/creating_movements.rst:225
+msgid "Apart from letters, columns have also numbered centers as well; these serve for setting links relative to the position of Hooks assigned to these columns (see  :ref:`Using Hooks <using_hooks>` )."
+msgstr "除了字母，列还有带编号的中心；这些用于设置相对于分配给这些列的挂钩点位置的链接（参见 :ref:`使用挂钩点 <using_hooks>`）。"
+
+#: ../../source/creating_movements.rst:227
+msgid "Center **1** is the center defined by hook number 1."
+msgstr "中心 **1** 是由挂钩点 1 定义的中心。"
+
+#: ../../source/creating_movements.rst:228
+msgid "Center **2** is the center defined by hook number 2."
+msgstr "中心 **2** 是由挂钩点 2 定义的中心。"
+
+#: ../../source/creating_movements.rst:231
+msgid ""
+"While in this mode, each node will have always a free connector port available in order to accept a link to a different center. In this way if you want to link another object to the same parent object, you can choose whether to use the same "
+"center or a different one."
+msgstr "在此模式下，每个节点始终有一个空闲的连接器端口可用，以便接受链接到不同的中心。这样，如果您想将另一个对象链接到同一个父对象，您可以选择是使用相同的中心还是不同的中心。"
+
+#: ../../source/creating_movements.rst:233
+msgid "By defining parent and child objects you can also create cutout animation (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  )."
+msgstr "通过定义父子对象，您还可以创建剪纸动画（参见 :ref:`创建剪纸动画 <creating_cutout_animation>`）。"
+
+#: ../../source/creating_movements.rst:235
+msgid "**To switch the connector ports display mode:**"
+msgstr "**切换连接器端口显示模式：**"
+
+#: ../../source/creating_movements.rst:237
+msgid "Click the **Switch Output Port Display Mode** button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles."
+msgstr "点击舞台示意图窗格底部栏的**切换输出端口显示模式**按钮 (|switch_output_port|)，直到您在节点两侧看到字母，而不是默认的圆圈。"
+
+#: ../../source/creating_movements.rst:239
+msgid "**To set the center of an object:**"
+msgstr "**设置对象的中心：**"
+
+#: ../../source/creating_movements.rst:241
+msgid "Place the mouse pointer over the object left port and wait for the double-arrow button to appear."
+msgstr "将鼠标指针悬停在对象的左端口上，等待双箭头按钮出现。"
+
+#: ../../source/creating_movements.rst:243
+msgid "Click and **drag up or down the double-arrow** button to scroll the options available: letters and numbers for columns, and letters for all the other types of objects."
+msgstr "点击并**向上或向下拖动双箭头**按钮以滚动可用的选项：列的字母和数字，以及其他所有类型对象的字母。"
+
+#: ../../source/creating_movements.rst:245
+msgid "**To set the way a child object overlaps its parent object:**"
+msgstr "**设置子对象与其父对象重叠的方式：**"
+
+#: ../../source/creating_movements.rst:249
+msgid "Set the *same letter* for the two ports at the end of a link to overlap the objects without an offset."
+msgstr "为链接两端的两个端口设置*相同的字母*，使对象重叠而没有偏移。"
+
+#: ../../source/creating_movements.rst:251
+msgid "Set the *following letter* in alphabetical order on the **left port** of the **child object** to offset it to the left: for each successive letter there is an offset of 8 inches to the left."
+msgstr "在**子对象**的**左端口**上按字母顺序设置*下一个字母*，使其向左偏移：每增加一个字母，就有 8 英寸的向左偏移。"
+
+#: ../../source/creating_movements.rst:253
+msgid "Set the *following letter* in alphabetical order on the **right port** of the **parent object** to offset it to the right: for each successive letter there is an offset of 8 inches to the right."
+msgstr "在**父对象**的**右端口**上按字母顺序设置*下一个字母*，使其向右偏移：每增加一个字母，就有 8 英寸的向右偏移。"
+
+#: ../../source/creating_movements.rst:259
+msgid "Using Hooks"
+msgstr "使用挂钩点"
+
+#: ../../source/creating_movements.rst:260
+msgid "Hooks are reference points that can be defined for any animation level directly in the viewer, by using the **Hook** tool (|hook|)."
+msgstr "挂钩点是可以在查看器中直接为任何动画层定义的参考点，使用**挂钩点**工具 (|hook|)。"
+
+#: ../../source/creating_movements.rst:262
+msgid "Once defined for a column/layer, they can be used in the Stage Schematic to link another object to it in relation to a specific hook, or to move it, according to any of its hook sets."
+msgstr "为列/图层定义挂钩点后，可以在舞台示意图中使用它们，将另一个对象相对于特定挂钩点链接到该列/图层，或者根据其任意一套挂钩点来移动它。"
+
+#: ../../source/creating_movements.rst:264
+msgid ""
+"In the first case the hook is used as a tracking point to link another object (a column/layer or camera) to a specific feature of the animation level. For example, if you have a character carrying a lamp, you can track the lamp position with "
+"a hook, and link a radial gradient to it (placed over the lamp for every frame of the animation) to create a glow."
+msgstr "在第一种情况下，挂钩点用作跟踪点，将另一个对象（列/图层或摄影机）链接到动画层的特定特征。例如，如果有一个角色提着一盏灯，您可以用挂钩点跟踪灯的位置，并将一个径向渐变链接到它（在动画的每一帧都放置在灯上）以创建发光效果。"
+
+#: ../../source/creating_movements.rst:266
+msgid ""
+"In the second case, the hook is used as the center of the column/layer where the hooked level will be exposed, thus creating a different center and offset for each level frame. For example, if you have a walking animation cycle, you can set "
+"a new center following the character’s feet with a hook, and make the level move accordingly to prevent a moon-walking effect on the background."
+msgstr "在第二种情况下，挂钩点用作将要展示的挂钩层的列/图层的中心，从而为每一层帧创建不同的中心和偏移。例如，如果您有一个行走动画循环，您可以用挂钩点跟随角色的脚设置一个新中心，并使该层相应地移动，以防止背景上出现滑步效果。"
+
+#: ../../source/creating_movements.rst:268
+msgid ""
+"Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example, the hook following the character’s foot feature can pass from one foot to another, in order to make the character "
+"move continuously onward."
+msgstr "挂钩点也可以拆分并从图的一个特征传递到另一个，自动创建一个偏移位置。例如，跟随角色脚部特征的挂钩点可以从一只脚传递到另一只脚，以使角色持续向前移动。"
+
+#: ../../source/creating_movements.rst:273
+msgid "The hook set 2 follows the lamp, while the hook set 1 follows the character’s feet, passing from one feet to another when both are on the ground."
+msgstr "挂钩点集 2 跟随灯，而挂钩点集 1 跟随角色的脚，当双脚都在地面上时，从一只脚传递到另一只脚。"
+
+#: ../../source/creating_movements.rst:276
+msgid "A hook can be created starting from any frame. Once it is created, it will appear on the following level frames in the same position, from where it can be moved."
+msgstr "挂钩点可以从任何帧开始创建。一旦创建，它将在后续的层帧中以相同位置出现，并可以从该位置移动。"
+
+#: ../../source/creating_movements.rst:278
+msgid "You can use up to 20 hooks for each level; each hook is labeled with a number, to reference it in each level frame."
+msgstr "您可以为每层使用最多 20 个挂钩点；每个挂钩点都标有一个数字，以便在每一层帧中引用。"
+
+#: ../../source/creating_movements.rst:280
+msgid ""
+"By activating the **Snap** option, hooks for the current level can be accurately placed by snapping them exactly to the same position of hooks defined for the other animation levels visible in the viewer. In case the current level is a Toonz "
+"Vector level, hooks will snap also to the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout "
+"animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  )."
+msgstr ""
+"通过激活**吸附**选项，可以准确定位当前层的挂钩点，将其精确吸附到查看器中可见的其他动画层定义的挂钩点的相同位置。如果当前层是 Toonz 矢量层，挂钩点还会吸附到其可能包含的任何闭合形状的中心（例如，矩形、圆形或用 Tape 工具闭合的单个矢量形状）。此"
+"选项尤其在为剪纸动画模型定义挂钩点时非常有用（参见 :ref:`创建剪纸动画 <creating_cutout_animation>`）。"
+
+#: ../../source/creating_movements.rst:282
+msgid "Hook information is saved along with each level, as a file in XML format, named as the file but with the *_hooks* suffix. For example, hooks defined for the level ``mouse``  will be saved in the file ``mouse_hooks.xml`` ."
+msgstr "挂钩点信息与每层一起保存，为一个 XML 格式的文件，文件名与原文件相同，但带有 *_hooks* 后缀。例如，为层 ``mouse`` 定义的挂钩点将保存在文件 ``mouse_hooks.xml`` 中。"
+
+#: ../../source/creating_movements.rst:284
+msgid "Hooks are also visible in Onion Skin mode (see  :ref:`Using Onion Skin <using_onion_skin>`  )."
+msgstr "挂钩点在洋葱皮模式下也可见（参见 :ref:`使用洋葱皮 <using_onion_skin>`）。"
+
+#: ../../source/creating_movements.rst:286
+msgid "Hooks can be also used to create a cutout animation model, as they allow you to link the model sections according to specific pivot points (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  )."
+msgstr "挂钩点也可用于创建剪纸动画模型，因为它们允许您根据特定的枢轴点链接模型的各个部分（参见 :ref:`创建剪纸动画 <creating_cutout_animation>`）。"
+
+#: ../../source/creating_movements.rst:288
+msgid "**To define a hook for a level:**"
+msgstr "**为层定义挂钩点：**"
+
+#: ../../source/creating_movements.rst:290
+msgid "Select a frame from the level you want to set hooks for."
+msgstr "从要设置挂钩点的层中选择一帧。"
+
+#: ../../source/creating_movements.rst:292
+msgid "Choose the **Hook** tool (|hook|)."
+msgstr "选择**挂钩点**工具 (|hook|)。"
+
+#: ../../source/creating_movements.rst:296
+msgid "Click to create a hook and drag to define the hook starting position."
+msgstr "点击以创建挂钩点并拖动以定义挂钩点的起始位置。"
+
+#: ../../source/creating_movements.rst:298
+msgid "Click elsewhere to create another hook and the related hook starting position."
+msgstr "在其他地方点击以创建另一个挂钩点及其相关的起始位置。"
+
+#: ../../source/creating_movements.rst:300
+msgid "**To select hooks:**"
+msgstr "**选择挂钩点：**"
+
+#: ../../source/creating_movements.rst:304
+msgid "Click a hook to select it."
+msgstr "点击一个挂钩点以选中它。"
+
+#: ../../source/creating_movements.rst:306
+msgid "Ctrl-click (PC) or Cmd-click (Mac) to add a hook to, or remove it from the selection."
+msgstr "Ctrl-单击（PC）或 Cmd-单击（Mac）以向选择添加挂钩点或从中移除挂钩点。"
+
+#: ../../source/creating_movements.rst:308
+msgid "**To move selected hooks:**"
+msgstr "**移动选中的挂钩点：**"
+
+#: ../../source/creating_movements.rst:312
+msgid "Drag them to a new position."
+msgstr "将它们拖动到新位置。"
+
+#: ../../source/creating_movements.rst:314
+msgid "**Shift-drag** to constrain an horizontal or vertical movement."
+msgstr "**Shift-拖动**以约束水平或垂直移动。"
+
+#: ../../source/creating_movements.rst:316
+msgid "Activate the **Snap** option to place the hook exactly at the same position of hooks defined for other animation levels visible in the viewer, or in case the level is a Toonz Vector level, also at the center of closed shapes."
+msgstr "激活**吸附**选项，将挂钩点精确放置在查看器中可见的其他动画层定义的挂钩点的相同位置，或者如果该层是 Toonz 矢量层，则还可以放置在闭合形状的中心。"
+
+#: ../../source/creating_movements.rst:318
+msgid "**To pass a hook from one position to another:**"
+msgstr "**将挂钩点从一个位置传递到另一个位置：**"
+
+#: ../../source/creating_movements.rst:320
+msgid "**Alt-click and drag** the hook to split it into two."
+msgstr "**Alt-单击并拖动**挂钩点以将其拆分为两个。"
+
+#: ../../source/creating_movements.rst:322
+msgid "Place the **double circle** where the hook has to be for the current frame."
+msgstr "将**双圆圈**放置在当前帧挂钩点需要所在的位置。"
+
+#: ../../source/creating_movements.rst:324
+msgid "Place the **cross** where you want the reference point to be from the next frame onwards."
+msgstr "将**十字**放置在您希望从下一帧开始的参考点位置。"
+
+#: ../../source/creating_movements.rst:326
+msgid "**To delete a hook:**"
+msgstr "**删除挂钩点：**"
+
+#: ../../source/creating_movements.rst:328
+msgid "Select the related hook in any frame and choose Edit  →  **Delete**."
+msgstr "在任何帧中选择相关的挂钩点，然后选择 编辑 → **删除**。"
+
+#: ../../source/creating_movements.rst:330
+msgid "**To link an object to a level hook:**"
+msgstr "**将对象链接到层的挂钩点：**"
+
+#: ../../source/creating_movements.rst:332
+msgid "Link the object to the column containing the hook."
+msgstr "将对象链接到包含挂钩点的列。"
+
+#: ../../source/creating_movements.rst:334
+msgid "Place the mouse pointer over the column right port and wait for the double-arrow button to appear."
+msgstr "将鼠标指针悬停在列的右端口上，等待双箭头按钮出现。"
+
+#: ../../source/creating_movements.rst:336
+msgid "**Click and drag up** the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook number to be used."
+msgstr "**点击并向上拖动**双箭头按钮以滚动字母 A 之前可用的数字，然后释放鼠标按钮以定义要使用的挂钩点编号。"
+
+#: ../../source/creating_movements.rst:341
+msgid "Column 3 is linked to the hook set 2 of column 2, while column 2 is moving according to its own hook set 1."
+msgstr "列 3 链接到列 2 的挂钩点集 2，而列 2 根据其自身的挂钩点集 1 移动。"
+
+#: ../../source/creating_movements.rst:344
+msgid "**To make the level move according to one of its hooks:**"
+msgstr "**使层根据其某个挂钩点移动：**"
+
+#: ../../source/creating_movements.rst:346
+msgid "Place the mouse pointer over the left port of the column containing the hook, and wait for the double-arrow button to appear."
+msgstr "将鼠标指针悬停在包含挂钩点的列的左端口上，等待双箭头按钮出现。"
+
+#: ../../source/creating_movements.rst:348
+msgid "**Click and drag up** the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook to be used."
+msgstr "**点击并向上拖动**双箭头按钮以滚动字母 A 之前可用的数字，然后释放鼠标按钮以定义要使用的挂钩点。"
+
+#: ../../source/creating_movements.rst:350
+msgid "**To prevent an animation walking cycle from moon-walking:**"
+msgstr "**防止动画行走循环出现滑步：**"
+
+#: ../../source/creating_movements.rst:352
+msgid "Define a hook by following these guidelines:"
+msgstr "按照以下指南定义挂钩点："
+
+#: ../../source/creating_movements.rst:354
+msgid "Place the hook on the *same foot feature* along the whole sequence, for example the tip of the foot."
+msgstr "将挂钩点放置在贯穿整个序列的*同一脚部特征*上，例如脚趾尖。"
+
+#: ../../source/creating_movements.rst:356
+msgid ""
+"If the character is supposed to be moving horizontally on the ground, *the hook should always lie on the ground line* (without changing its vertical position along the sequence). If the feature you are following leaves the ground, still "
+"place the hook on the ground line, under the feature you were following."
+msgstr "如果角色应该在地面上水平移动，*挂钩点应始终位于地面线上*（沿着序列不改变其垂直位置）。如果跟随的特征离开地面，仍然将挂钩点放置在地面线上，在您跟随的特征下方。"
+
+#: ../../source/creating_movements.rst:358
+msgid "When both feet are on the ground line you can split the hook to pass it form one foot to the other."
+msgstr "当双脚都在地面线上时，您可以拆分挂钩点以将其从一只脚传递到另一只脚。"
+
+#: ../../source/creating_movements.rst:360
+msgid ""
+"If the animation is a cycle and you want the character to keep on walking, the last hook position has to be connected to the first one, and the hook has to pass from one foot to the other by splitting it, and then to the first one again by "
+"splitting it again."
+msgstr "如果动画是一个循环，并且您希望角色继续行走，最后一个挂钩点位置必须连接到第一个，并且挂钩点必须通过拆分从一只脚传递到另一只脚，然后再通过再次拆分传递回第一只脚。"
+
+#: ../../source/creating_movements.rst:366
+msgid "Tracking Points"
+msgstr "跟踪点"
+
+#: ../../source/creating_movements.rst:367
+msgid "It is possible to automatically track specific regions in a sequence of images by using the **Tracker** tool (|tracker|). The results of the tool are a series of hooks that can be used to link an object to another (see above)."
+msgstr "可以使用**跟踪器**工具 (|tracker|) 自动跟踪一系列图像中的特定区域。该工具的结果是一系列挂钩点，可用于将一个对象链接到另一个对象（参见上文）。"
+
+#: ../../source/creating_movements.rst:369
+msgid "|tracking_regions|"
+msgstr "|tracking_regions|"
+
+#: ../../source/creating_movements.rst:371
+msgid ""
+"When selected, the Tracker tool (|tracker|) allows you to define one or several regions in an image, by defining a center and a size; regions can also be connected to one another to better track points having a visual geometrical "
+"relationship. The region defined with the tool sets both, the *pattern* that the tracking system will try to recognize in the following images, and the *size* of the search area where it will look for it (that will be of approximately twice "
+"that region)."
+msgstr ""
+"选中时，跟踪器工具 (|tracker|) 允许您通过定义中心和大小来在图像中定义一个或多个区域；区域也可以彼此连接，以更好地跟踪具有视觉几何关系的点。用该工具定义的区域设定了跟踪系统将在后续图像中尝试识别的*图案*，以及将在其中寻找该图案的搜索区域的*大小"
+"*（大约是该区域的两倍）。"
+
+#: ../../source/creating_movements.rst:373
+msgid "Once areas to be tracked are defined in the first frame of a range, it's possible to automatically track the regions in a selected range, by specifying the following options:"
+msgstr "一旦在范围的第一帧中定义了要跟踪的区域，就可以通过指定以下选项自动跟踪选定范围内的区域："
+
+#: ../../source/creating_movements.rst:375
+msgid "|tracking_options|"
+msgstr "|tracking_options|"
+
+#: ../../source/creating_movements.rst:377
+msgid ""
+"**Threshold** sets the amount of difference between the defined pattern and the recognized one. When using low values, the tracking system will look for an area with an almost identical pattern, and when using high values, will look for an "
+"area that can be quite different from the original one. This means that if the value is too low, it’s more likely for the tracking to fail on certain images; if too high, the tracking may fail by following the wrong areas."
+msgstr "**阈值**设置定义图案与识别图案之间的差异量。使用低值时，跟踪系统将寻找图案几乎相同的区域；使用高值时，将寻找可能与原始图案差异很大的区域。这意味着如果值太低，跟踪在某些图像上更可能失败；如果太高，跟踪可能会因跟随错误区域而失败。"
+
+#: ../../source/creating_movements.rst:379
+msgid "**Sensitivity** sets how often the defined pattern has to be updated according to the variation it may have in the following images. For the maximum value, the pattern will be updated after each image is tracked."
+msgstr "**敏感度**设置定义的图案需要根据其在后续图像中可能发生的变化而更新的频率。对于最大值，图案将在每跟踪完一张图像后更新。"
+
+#: ../../source/creating_movements.rst:381
+msgid "**Variable Region Size**, when activated, will look for the defined pattern considering also the different sizes that it can have in the following images."
+msgstr "**可变区域大小**，激活后，将在寻找定义的图案时考虑其在后续图像中可能具有的不同大小。"
+
+#: ../../source/creating_movements.rst:383
+msgid "**Include Background**, when activated, it considers the background as part of the defined pattern. It can be deactivated when tracking an element whose background does not affect the pattern, such as a green/blue screen background."
+msgstr "**包含背景**，激活后，会将背景视为定义图案的一部分。当跟踪背景不影响图案的元素时（例如绿屏/蓝屏背景），可以停用此选项。"
+
+#: ../../source/creating_movements.rst:385
+msgid "**To define a region to be tracked:**"
+msgstr "**定义要跟踪的区域：**"
+
+#: ../../source/creating_movements.rst:387
+msgid "Choose the **Tracker** tool (|tracker|) and click and drag in the image."
+msgstr "选择**跟踪器**工具 (|tracker|) 并在图像中点击并拖动。"
+
+#: ../../source/creating_movements.rst:389
+msgid "Use the handles along the defined region bounding box to resize it."
+msgstr "使用已定义区域边界框上的手柄来调整其大小。"
+
+#: ../../source/creating_movements.rst:391
+msgid "Click and drag elsewhere to define a second region: the center of the region will be labelled with a different letter."
+msgstr "在其他地方点击并拖动以定义第二个区域：该区域的中心将用不同的字母标记。"
+
+#: ../../source/creating_movements.rst:393
+msgid "**To define a region connected to another one:**"
+msgstr "**定义连接到另一个区域的区域：**"
+
+#: ../../source/creating_movements.rst:395
+msgid "Choose the **Tracker** tool (|tracker|) and **select the region** to which you want to connect another region."
+msgstr "选择**跟踪器**工具 (|tracker|) 并**选择要连接另一个区域的区域**。"
+
+#: ../../source/creating_movements.rst:397
+msgid "Click and drag elsewhere to define a connected region: the center of the region will be labelled with the same letter of the first one."
+msgstr "在其他地方点击并拖动以定义一个连接区域：该区域的中心将与第一个区域用相同的字母标记。"
+
+#: ../../source/creating_movements.rst:399
+msgid "**To delete a defined region:**"
+msgstr "**删除已定义的区域：**"
+
+#: ../../source/creating_movements.rst:401
+msgid "Choose the **Tracker** tool (|tracker|) and select the region you want to delete."
+msgstr "选择**跟踪器**工具 (|tracker|) 并选择要删除的区域。"
+
+#: ../../source/creating_movements.rst:403 ../../source/creating_movements.rst:684
+msgid "Choose Edit  →  **Delete**."
+msgstr "选择 编辑 → **删除**。"
+
+#: ../../source/creating_movements.rst:405
+msgid "**To track a defined region in a series of images:**"
+msgstr "**在一系列图像中跟踪已定义的区域：**"
+
+#: ../../source/creating_movements.rst:407
+msgid "Select the first image of the range you want to track."
+msgstr "选择要跟踪的范围的第一张图像。"
+
+#: ../../source/creating_movements.rst:409
+msgid "Choose the **Tracker** tool (|tracker|) and define the regions to be tracked."
+msgstr "选择**跟踪器**工具 (|tracker|) 并定义要跟踪的区域。"
+
+#: ../../source/creating_movements.rst:411
+msgid "Select the frame range in the Xsheet/Timeline or in the Level Strip."
+msgstr "在 Xsheet/时间轴或层条中选择帧范围。"
+
+#: ../../source/creating_movements.rst:413
+msgid "Choose Level  →  **Tracking...**, set the tracking options and click the **Track** button."
+msgstr "选择 层 → **跟踪...**，设置跟踪选项并点击**跟踪**按钮。"
+
+#: ../../source/creating_movements.rst:415
+msgid "**To link an object to the tracked region:**"
+msgstr "**将对象链接到跟踪区域：**"
+
+#: ../../source/creating_movements.rst:417
+msgid "Link the object to one of the hooks defined by the tracking process (see  :ref:`Using Hooks <using_hooks>`  )."
+msgstr "将对象链接到跟踪过程定义的其中一个挂钩点（参见 :ref:`使用挂钩点 <using_hooks>`）。"
+
+#: ../../source/creating_movements.rst:423
+msgid "Animating Objects"
+msgstr "为对象设置动画"
+
+#: ../../source/creating_movements.rst:424
+msgid ""
+"You can animate the position, rotation, scale and shear (plus edit the center) of columns, pegbars, cameras and the table by using the Animate tool. Objects to be animated can be selected either in the Stage Schematic, the Viewer, the Xsheet/"
+"Timeline or by using a dropdown menu in the Animate tool's own options bar."
+msgstr "您可以使用动画工具为列、定位尺、摄影机和动画台的位置、旋转、缩放和斜切（以及编辑中心）设置动画。要设置动画的对象可以在舞台示意图、查看器、Xsheet/时间轴中选择，也可以通过动画工具自身选项栏中的下拉菜单选择。"
+
+#: ../../source/creating_movements.rst:426
+msgid "In the **Animate tool** (|animate|) options bar you can set the following:"
+msgstr "在**动画工具** (|animate|) 选项栏中，您可以设置以下内容："
+
+#: ../../source/creating_movements.rst:428
+msgid "**Object:**, lets you select which scene object is to be effected by the tool. Here will be listed all columns, cameras and pegbars created, plus the table itself."
+msgstr "**对象：**，让您选择工具将影响哪个场景对象。这里将列出所有创建的列、摄影机和定位尺，以及动画台本身。"
+
+#: ../../source/creating_movements.rst:430
+msgid "**Mode:**, lets you choose which transformation options to display in the tool options bar. Options are: **Position**, **Rotation**, **Scale**, **Shear**, **Center** and **All**."
+msgstr "**模式：**，让您选择在工具选项栏中显示哪些变换选项。选项有：**位置**、**旋转**、**缩放**、**斜切**、**中心**和**全部**。"
+
+#: ../../source/creating_movements.rst:432
+msgid ""
+"**Position**, **X:** and **Y:** set the horizontal and vertical positions of the selected object, **Z:** sets its position along the Z axis, for defining the depth of the object in 3D space (see  :ref:`Working in a 3D Environment "
+"<working_in_a_3d_environment>`  ), and **SO:** sets the column/layer stacking order, that can override the default one defined by the Xsheet column (or Timeline layer) order (see  :ref:`Changing Columns Stacking Order "
+"<changing_columns_stacking_order>`  )."
+msgstr ""
+"**位置**，**X:** 和 **Y:** 设置选定对象的水平和垂直位置，**Z:** 设置其沿 Z 轴的位置，用于定义对象在 3D 空间中的深度（参见 :ref:`在 3D 环境中工作 <working_in_a_3d_environment>`），而 **SO:** 设置列/图层的堆叠顺序，可以覆盖由 Xsheet 列（或时间"
+"轴图层）顺序定义的默认顺序（参见 :ref:`更改列堆叠顺序 <changing_columns_stacking_order>`）。"
+
+#: ../../source/creating_movements.rst:434
+msgid "|animate_tool_position|"
+msgstr "|animate_tool_position|"
+
+#: ../../source/creating_movements.rst:436
+msgid "**Rotation:**, sets the rotation of the selected object around the Z axis."
+msgstr "**旋转：**，设置选定对象绕 Z 轴的旋转。"
+
+#: ../../source/creating_movements.rst:438
+msgid "|animate_tool_rotation|"
+msgstr "|animate_tool_rotation|"
+
+#: ../../source/creating_movements.rst:440
+msgid ""
+"**Scale**, **Global:**, **H:** and **V:** set the global, horizontal and vertical scaling of the selected object. **Maintain:** sets a constraint for scaling operations performed by using the Animate tool handle: if it is set to **A/R** the "
+"object will maintain its proportions, if it is set to **Mass** the object will maintain its overall volume."
+msgstr "**缩放**，**全局：**，**H:** 和 **V:** 设置选定对象的全局、水平和垂直缩放。**保持：** 为使用动画工具手柄执行的缩放操作设置约束：如果设置为 **A/R**，对象将保持其比例；如果设置为 **Mass**，对象将保持其总体体积。"
+
+#: ../../source/creating_movements.rst:442
+msgid "|animate_tool_scale|"
+msgstr "|animate_tool_scale|"
+
+#: ../../source/creating_movements.rst:444
+msgid "**Shear**, **H:** and **V:** set the horizontal and vertical shearing of the selected object."
+msgstr "**斜切**，**H:** 和 **V:** 设置选定对象的水平和垂直斜切。"
+
+#: ../../source/creating_movements.rst:446
+msgid "|animate_tool_shear|"
+msgstr "|animate_tool_shear|"
+
+#: ../../source/creating_movements.rst:448
+msgid "**Center**, **X:** and **Y:** set the horizontal and vertical position of the center of the selected object. The Center of an object cannot be animated."
+msgstr "**中心**，**X:** 和 **Y:** 设置选定对象中心的水平和垂直位置。对象的中心不能设置动画。"
+
+#: ../../source/creating_movements.rst:450
+msgid "|animate_tool_center|"
+msgstr "|animate_tool_center|"
+
+#: ../../source/creating_movements.rst:452
+msgid "**All** displays all transformation types at the same time. In the viewer a handle will also be available that let users visually change any of the transformation types: Position, Rotation, Scale, Shear and Center."
+msgstr "**全部** 同时显示所有变换类型。在查看器中还会提供一个手柄，让用户能够可视地更改任何变换类型：位置、旋转、缩放、斜切和中心。"
+
+#: ../../source/creating_movements.rst:454
+msgid "|animate_tool_all|"
+msgstr "|animate_tool_all|"
+
+#: ../../source/creating_movements.rst:456
+msgid ""
+"**Pick:** (only available in All mode) lets the user choose to automatically select columns/layers or pegbars to be animated when the selection is done by clicking in the Viewer: when set to **Column**, clicking a drawing automatically "
+"selects the related column/layer; when set to **Pegbar**, clicking a drawing automatically selects the pegbar to which the column/layer containing the drawing is linked (if there is one); when set to **None** the selection of drawings in the "
+"Viewer is disabled."
+msgstr ""
+"**拾取：**（仅在全部模式下可用）让用户选择在通过点击查看器进行选择时自动选择要设置动画的列/图层或定位尺：当设置为**列**时，点击绘图自动选择相关的列/图层；当设置为**定位尺**时，点击绘图自动选择包含该绘图的列/图层所链接到的定位尺（如果有的"
+"话）；当设置为**无**时，在查看器中选择绘图的功能被禁用。"
+
+#: ../../source/creating_movements.rst:458
+msgid "**Lock buttons** (|lock|) define which values remain locked while transforming the object."
+msgstr "**锁定按钮** (|lock|) 定义在变换对象时哪些值保持锁定。"
+
+#: ../../source/creating_movements.rst:460
+msgid ""
+"**Global Key** when activated, sets a key for all of the object transformations as soon as a key is set for any of its transformations interactively in the viewer. For example if you change the position of an object, thus defining a keyframe "
+"for it, keys will also be automatically defined for the rotation, scaling and shearing transformations as well. This option will not take any effect if the values for the property are input directly in the toolbar, and not interactively."
+msgstr ""
+"**全局关键帧** 激活后，一旦在查看器中交互式地为对象的任何变换设置了关键帧，就会为该对象的所有变换设置关键帧。例如，如果您更改了对象的位置，从而为其定义了关键帧，那么也会自动为旋转、缩放和斜切变换定义关键帧。如果属性值是直接在工具栏中输入而不"
+"是交互式输入的，则此选项不会产生任何效果。"
+
+#: ../../source/creating_movements.rst:462
+msgid "If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends."
+msgstr "如果工具选项栏太短无法显示所有工具选项，可以使用其两端的箭头按钮滚动。"
+
+#: ../../source/creating_movements.rst:464
+msgid "Position values are expressed in the default unit of measure set in the Preferences...  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  )."
+msgstr "位置值以在首选项... → 界面对话框中设置的默认度量单位表示（参见 :ref:`选择工作单位 <choosing_the_working_unit>`）。"
+
+#: ../../source/creating_movements.rst:470
+msgid "Animate Tool Handle"
+msgstr "动画工具手柄"
+
+#: ../../source/creating_movements.rst:471
+msgid ""
+"When the Animation tool is in **All** mode, you can also interactively control transformation values by using the handle available in the viewer. The handle is made of an inner double circle with three arms that allow you to change any of "
+"the following transformations:"
+msgstr "当动画工具处于**全部**模式时，您还可以使用查看器中可用的手柄交互式地控制变换值。该手柄由一个内部双圆圈和三个臂组成，允许您更改以下任何变换："
+
+#: ../../source/creating_movements.rst:473
+msgid "|animate_tool_handle|"
+msgstr "|animate_tool_handle|"
+
+#: ../../source/creating_movements.rst:475
+msgid "As you roll over the handles, the cursor changes shape to indicate to you the operations you may perform."
+msgstr "当您将鼠标悬停在各手柄上时，光标会改变形状以指示您可以执行的操作。"
+
+#: ../../source/creating_movements.rst:477
+msgid "For greater precision it is possible to keep the **Alt** key depressed before starting to perform any transformation."
+msgstr "为了获得更高的精度，可以在开始执行任何变换之前按住 **Alt** 键。"
+
+#: ../../source/creating_movements.rst:479
+msgid "**Position:** Click and drag anywhere to move the object; if the **Shift** key is pressed while dragging, the movement will be constrained in the horizontal or vertical direction."
+msgstr "**位置：** 点击并拖动任意位置以移动对象；如果在拖动时按下 **Shift** 键，移动将被约束在水平或垂直方向。"
+
+#: ../../source/creating_movements.rst:481
+msgid "**Rotate:** Click and drag the circle end to rotate the object;"
+msgstr "**旋转：** 点击并拖动圆圈末端以旋转对象；"
+
+#: ../../source/creating_movements.rst:483
+msgid "|animate_tool_handle_rotate|"
+msgstr "|animate_tool_handle_rotate|"
+
+#: ../../source/creating_movements.rst:485
+msgid ""
+"**Scale:** Click and drag the outer square of the double-square end to scale the object uniformly on the vertical and horizontal; click and drag the inner square of the double-square end to scale the object according to the constraint set in "
+"the options bar; if no constraint is set and the **Shift** key is pressed while dragging, the scaling will be uniform."
+msgstr "**缩放：** 点击并拖动双方块末端的外部方块，在垂直和水平方向上均匀缩放对象；点击并拖动双方块末端的内部方块，根据选项栏中设置的约束缩放对象；如果未设置约束并且在拖动时按下 **Shift** 键，则缩放将是均匀的。"
+
+#: ../../source/creating_movements.rst:487
+msgid "|animate_tool_handle_scale| |animate_tool_handle_scaleHV|"
+msgstr "|animate_tool_handle_scale| |animate_tool_handle_scaleHV|"
+
+#: ../../source/creating_movements.rst:490
+msgid "**Shear:** Click and drag the parallelogram end to shear the object; if the **Shift** key is pressed while dragging, the shearing will be constrained in the horizontal or vertical direction."
+msgstr "**斜切：** 点击并拖动平行四边形末端以斜切对象；如果在拖动时按下 **Shift** 键，斜切将被约束在水平或垂直方向。"
+
+#: ../../source/creating_movements.rst:492
+msgid "|animate_tool_handle_shear|"
+msgstr "|animate_tool_handle_shear|"
+
+#: ../../source/creating_movements.rst:494
+msgid "**Center:** Click and drag the double circle at the center to change the center of the object."
+msgstr "**中心：** 点击并拖动中心的双圆圈以更改对象的中心。"
+
+#: ../../source/creating_movements.rst:496
+msgid "|animate_tool_handle_center|"
+msgstr "|animate_tool_handle_center|"
+
+#: ../../source/creating_movements.rst:498
+msgid ""
+"The object center can be moved, but cannot be animated. Once it is set, or modified, it is retained in that position during all of the animation. If the Center is changed many times, and you want to set it back to its original position, "
+"right-click the object in the Stage Schematic and choose **Reset Center** from the menu that opens."
+msgstr "对象的中心可以移动，但不能设置动画。一旦设置或修改，它将在整个动画过程中保留在该位置。如果中心被多次更改，并且您想将其设置回原始位置，请在舞台示意图中右键单击该对象，并从打开的菜单中选择**重置中心**。"
+
+#: ../../source/creating_movements.rst:500
+msgid ""
+"When entering a value or operating the handle, a keyframe will be automatically generated at the current frame only for the set transformation; if the **Global Key** option is activated, keys will be generated for all of the transformations."
+msgstr "输入值或操作手柄时，将在当前帧自动生成仅针对所设置变换的关键帧；如果激活了**全局关键帧**选项，则将为所有变换生成关键帧。"
+
+#: ../../source/creating_movements.rst:502
+msgid ""
+"If you want to set a key for an object transformation, maintaining its value as it is at the current frame, you can just press **Enter** on the displayed value. If you want to set keys for all of the object transformations maintaining their "
+"values as they are at the current frame, you can use the **Set Key** button (|key|) available in the bottom bar of the viewer; in this case keys are created for all of the object transformations, regardless of the **Global Key** option."
+msgstr ""
+"如果您想为对象变换设置关键帧，并保持其在当前帧的值不变，只需在显示的值上按 **Enter** 键。如果您想为对象的所有变换设置关键帧，并保持它们在当前帧的值不变，可以使用查看器底部栏中的**设置关键帧**按钮 (|key|)；在这种情况下，无论**全局关键帧**选项"
+"如何，都会为对象的所有变换创建关键帧。"
+
+#: ../../source/creating_movements.rst:504
+msgid "Objects can also be animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  )."
+msgstr "对象也可以通过函数编辑器来设置动画（参见 :ref:`编辑曲线和数值列 <editing_curves_and_numerical_columns>`）。"
+
+#: ../../source/creating_movements.rst:506
+msgid "The movement of the column contents can be checked by activating the Onion Skin mode, as it will display the position of drawings contained in the current column at different frames (see  :ref:`Using Onion Skin <using_onion_skin>`  )."
+msgstr "可以通过激活洋葱皮模式来检查列内容的移动，因为它会显示当前列中包含的绘图在不同帧的位置（参见 :ref:`使用洋葱皮 <using_onion_skin>`）。"
+
+#: ../../source/creating_movements.rst:508
+msgid "**To select the object to edit:**"
+msgstr "**选择要编辑的对象：**"
+
+#: ../../source/creating_movements.rst:512
+msgid "Select it in the stage schematic."
+msgstr "在舞台示意图中选择它。"
+
+#: ../../source/creating_movements.rst:514
+msgid "If the object is a column/layer, select it in the Xsheet/Timeline."
+msgstr "如果对象是列/图层，在 Xsheet/时间轴中选择它。"
+
+#: ../../source/creating_movements.rst:516
+msgid "Use the **Animate** tool (|animate|) with the **Pick:** option set to **Column** to click a drawing in the viewer to select the related column."
+msgstr "使用**动画**工具 (|animate|)，将**拾取：**选项设置为**列**，在查看器中点击绘图以选择相关列。"
+
+#: ../../source/creating_movements.rst:518
+msgid "Use the **Animate** tool (|animate|) with the **Pick:** option set to **Pegbar** to click a drawing in the viewer to select the pegbar that the column containing the drawing is linked to."
+msgstr "使用**动画**工具 (|animate|)，将**拾取：**选项设置为**定位尺**，在查看器中点击绘图以选择包含该绘图的列所链接到的定位尺。"
+
+#: ../../source/creating_movements.rst:520
+msgid "Right-click in the Viewer a drawing to select an object from the list of scene objects."
+msgstr "在查看器中右键单击绘图，从场景对象列表中选择一个对象。"
+
+#: ../../source/creating_movements.rst:522
+msgid "**To animate an object with the Animate tool:**"
+msgstr "**使用动画工具为对象设置动画：**"
+
+#: ../../source/creating_movements.rst:524
+msgid "Select the object you want to animate."
+msgstr "选择要设置动画的对象。"
+
+#: ../../source/creating_movements.rst:526 ../../source/creating_movements.rst:623 ../../source/creating_movements.rst:696
+msgid "Choose the **Animate** tool (|animate|)."
+msgstr "选择**动画**工具 (|animate|)。"
+
+#: ../../source/creating_movements.rst:528
+msgid "Set the frame where you want to define the key by doing one of the following:"
+msgstr "通过执行以下操作之一来设置要定义关键帧的帧："
+
+#: ../../source/creating_movements.rst:530
+msgid "Move the current frame cursor in the Xsheet/Timeline or in the Function Editor."
+msgstr "在 Xsheet/时间轴或函数编辑器中移动当前帧光标。"
+
+#: ../../source/creating_movements.rst:532
+msgid "Use the Frame bar or the Playback buttons in the bottom bar of the viewer."
+msgstr "使用查看器底部栏中的帧栏或播放按钮。"
+
+#: ../../source/creating_movements.rst:534
+msgid "When animating columns only, select the related cell in the column/layer."
+msgstr "仅在为列设置动画时，选择列/图层中的相关单元格。"
+
+#: ../../source/creating_movements.rst:536
+msgid "Define a keyframe."
+msgstr "定义关键帧。"
+
+#: ../../source/creating_movements.rst:538
+msgid "Select a different frame, and go on defining keyframes."
+msgstr "选择另一帧，继续定义关键帧。"
+
+#: ../../source/creating_movements.rst:540
+msgid "**To define a keyframe only for some object transformations:**"
+msgstr "**仅为某些对象变换定义关键帧：**"
+
+#: ../../source/creating_movements.rst:542 ../../source/creating_movements.rst:562
+msgid "Deactivate the **Global Key** option in the tool options bar."
+msgstr "在工具选项栏中停用**全局关键帧**选项。"
+
+#: ../../source/creating_movements.rst:546
+msgid "Enter values in the **Animate** tool options bar for the object transformations you want to set a key for."
+msgstr "在**动画**工具选项栏中输入要为哪些对象变换设置关键帧的值。"
+
+#: ../../source/creating_movements.rst:548
+msgid "If in **All** mode, operate the handle to move, scale, rotate or shear the object, automatically generating a key only for the modified transformation."
+msgstr "如果处于**全部**模式，操作手柄以移动、缩放、旋转或斜切对象，仅自动为修改的变换生成关键帧。"
+
+#: ../../source/creating_movements.rst:550 ../../source/creating_movements.rst:566
+msgid "As this keyframe is partial and refers only to some transformations, the **Set Key** button turns striped-blue."
+msgstr "由于此关键帧是局部的且仅涉及某些变换，**设置关键帧**按钮变为条纹蓝色。"
+
+#: ../../source/creating_movements.rst:552
+msgid "**To define a keyframe for all the object transformations:**"
+msgstr "**为所有对象变换定义关键帧：**"
+
+#: ../../source/creating_movements.rst:554
+msgid "Activate the **Global Key** option in the tool options bar."
+msgstr "在工具选项栏中激活**全局关键帧**选项。"
+
+#: ../../source/creating_movements.rst:556
+msgid "Interactively move, rotate, scale or shear the object in the viewer."
+msgstr "在查看器中交互式地移动、旋转、缩放或斜切对象。"
+
+#: ../../source/creating_movements.rst:558 ../../source/creating_movements.rst:576
+msgid "As this keyframe is global and refers to all the transformations, the **Set Key** button turns blue."
+msgstr "由于此关键帧是全局的且涉及所有变换，**设置关键帧**按钮变为蓝色。"
+
+#: ../../source/creating_movements.rst:560
+msgid "**To define a key for an object transformation leaving its value as it is at the current frame:**"
+msgstr "**为对象变换定义关键帧，并保持其在当前帧的值不变：**"
+
+#: ../../source/creating_movements.rst:564
+msgid "In the **Animate** tool options bar click in the field of the object transformations you want to set a key for, and press the **Enter** key."
+msgstr "在**动画**工具选项栏中，点击要为其设置关键帧的对象变换的字段，然后按 **Enter** 键。"
+
+#: ../../source/creating_movements.rst:568
+msgid "**To define keys for all of the object transformations leaving their values as they are at the current frame:**"
+msgstr "**为对象的所有变换定义关键帧，并保持它们在当前帧的值不变：**"
+
+#: ../../source/creating_movements.rst:572
+msgid "Click the **Set Key** button (|key|)."
+msgstr "点击**设置关键帧**按钮 (|key|)。"
+
+#: ../../source/creating_movements.rst:574
+msgid "When animating columns/layers only, right-click in the column/layer cell and choose **Set Key** from the menu that opens."
+msgstr "仅在为列/图层设置动画时，右键单击列/图层单元格，并从打开的菜单中选择**设置关键帧**。"
+
+#: ../../source/creating_movements.rst:578
+msgid "**To turn a partial keyframe to a global key:**"
+msgstr "**将局部关键帧转换为全局关键帧：**"
+
+#: ../../source/creating_movements.rst:580
+msgid "Click the **Set Key** button (|key|): it turns from blue-striped to blue."
+msgstr "点击**设置关键帧**按钮 (|key|)：它会从条纹蓝色变为蓝色。"
+
+#: ../../source/creating_movements.rst:582
+msgid "**To remove a set keyframe from the viewer bottom bar:**"
+msgstr "**从查看器底部栏移除已设置的关键帧：**"
+
+#: ../../source/creating_movements.rst:586
+msgid "If the keyframe is global, click the **Set Key** button (|key|): it turns from blue to grey."
+msgstr "如果关键帧是全局的，点击**设置关键帧**按钮 (|key|)：它会从蓝色变为灰色。"
+
+#: ../../source/creating_movements.rst:588
+msgid "If the keyframe is partial, click twice the **Set Key** button (|key|): with the first click it turns from striped-blue to blue, with the second from blue to grey."
+msgstr "如果关键帧是局部的，点击两次**设置关键帧**按钮 (|key|)：第一次点击它从条纹蓝色变为蓝色，第二次从蓝色变为灰色。"
+
+#: ../../source/creating_movements.rst:590
+msgid "**To navigate frames where keyframes are defined in the viewer bottom bar:**"
+msgstr "**在查看器底部栏中导航已定义关键帧的帧：**"
+
+#: ../../source/creating_movements.rst:592
+msgid "Use the **Previous Key** (|prevkey|) and **Next Key** (|next_key|) buttons available at the side of the Set Key button."
+msgstr "使用设置关键帧按钮旁边的**上一个关键帧** (|prevkey|) 和**下一个关键帧** (|next_key|) 按钮。"
+
+#: ../../source/creating_movements.rst:594
+msgid "Keys can also be removed or navigated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  )."
+msgstr "也可以通过函数编辑器移除或导航关键帧（参见 :ref:`编辑曲线和数值列 <editing_curves_and_numerical_columns>`）。"
+
+#: ../../source/creating_movements.rst:596
+msgid "**To customize the Animate tool options bar:**"
+msgstr "**自定义动画工具选项栏：**"
+
+#: ../../source/creating_movements.rst:600
+msgid "Use the **Tool Mode:** dropdown menu to choose from one of its modes: Position, Rotate, Scale, Shear, Center or All: only the options for the selected transformation category will be displayed."
+msgstr "使用**工具模式：**下拉菜单从其模式中选择：位置、旋转、缩放、斜切、中心或全部：仅显示所选变换类别的选项。"
+
+#: ../../source/creating_movements.rst:602
+msgid "Use the **Lock** button (|lock|) to choose which transformations have to be locked while transforming the object: only selected items will be locked."
+msgstr "使用**锁定**按钮 (|lock|) 选择在变换对象时必须锁定哪些变换：只有选中的项目才会被锁定。"
+
+#: ../../source/creating_movements.rst:608
+msgid "Changing Stacking Order of Columns/Layers"
+msgstr "更改列/图层的堆叠顺序"
+
+#: ../../source/creating_movements.rst:609
+msgid ""
+"The column/layer stacking order, which sets which drawings and images are placed on top or behind, other images, by default depends on how columns/layers are placed in the Xsheet/Timeline: Xsheet direction is from left to right, while "
+"Timeline direction is from bottom to top, making what's on the left/bottom to be behind of what's on the right/top."
+msgstr "列/图层的堆叠顺序决定了哪些绘图和图像放置在其他图像的上方或后方，默认情况下取决于列/图层在 Xsheet/时间轴中的放置方式：Xsheet 的方向是从左到右，而时间轴的方向是从下到上，使得左侧/底部的对象位于右侧/顶部对象的后面。"
+
+#: ../../source/creating_movements.rst:611
+msgid ""
+"This would mean that if an animation element has to move behind another animation element and then in front of it, it'd have to be exposed in two different columns, one before and one after the column containing the second animation element."
+msgstr "这意味着，如果一个动画元素需要移动到另一个动画元素后面，然后再移动到其前面，则它必须在两个不同的列中展示，一个在包含第二个动画元素的列之前，一个在其之后。"
+
+#: ../../source/creating_movements.rst:613
+msgid "By editing the **SO** (i.e. stacking order) value it's possible to change and animate the element compositing order without editing the columns/layers position in the Xsheet/Timeline."
+msgstr "通过编辑 **SO**（即堆叠顺序）值，可以更改并动态调整元素的合成顺序，而无需编辑列/图层在 Xsheet/时间轴中的位置。"
+
+#: ../../source/creating_movements.rst:615
+msgid ""
+"The **SO** default value for all the columns is 0, meaning that the Xsheet column (or Timeline layer) order is what's taken into account when there are no modifications to the SO position. As soon as a column/layer has a higher SO value, it "
+"will be placed on top, regardless of the position of the column/layer in the Xsheet/Timeline; conversely if the SO value is lower it will be placed behind."
+msgstr "所有列的 **SO** 默认值为 0，这意味着当没有修改 SO 位置时，会考虑 Xsheet 列（或时间轴图层）的顺序。一旦列/图层具有更高的 SO 值，无论其在 Xsheet/时间轴中的位置如何，它都将被放置在顶部；相反，如果 SO 值较低，它将被放置在后面。"
+
+#: ../../source/creating_movements.rst:617
+msgid ""
+"In case a column/layer's Z position is edited, columns/layers closer to the camera will be composited on top of others, ignoring both its Xsheet/Timeline order and its SO value (see  :ref:`Working in a 3D Environment "
+"<working_in_a_3d_environment>` )."
+msgstr "如果编辑了列/图层的 Z 位置，离摄影机较近的列/图层将合成在其他图层的上方，忽略其 Xsheet/时间轴顺序及其 SO 值（参见 :ref:`在 3D 环境中工作 <working_in_a_3d_environment>`）。"
+
+#: ../../source/creating_movements.rst:619
+msgid "**To edit and animate a column/layer SO value:**"
+msgstr "**编辑并为列/图层的 SO 值设置动画：**"
+
+#: ../../source/creating_movements.rst:621
+msgid "Select the column/layer to which you want to edit the SO value."
+msgstr "选择要编辑其 SO 值的列/图层。"
+
+#: ../../source/creating_movements.rst:625
+msgid "Set the frame where you want to define the key."
+msgstr "设置要定义关键帧的帧。"
+
+#: ../../source/creating_movements.rst:627
+msgid "In the tool options bar enter the value in the **SO** field."
+msgstr "在工具选项栏中的 **SO** 字段中输入值。"
+
+#: ../../source/creating_movements.rst:629
+msgid "Columns/layers **SO** values can also be edited and animated by working in the Function Editor (see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  )."
+msgstr "列/图层的 **SO** 值也可以通过函数编辑器进行编辑和设置动画（参见 :ref:`编辑曲线和数值列 <editing_curves_and_numerical_columns>`）。"
+
+#: ../../source/creating_movements.rst:635
+msgid "Creating a Movement along a Motion Path"
+msgstr "沿运动路径创建运动"
+
+#: ../../source/creating_movements.rst:636
+msgid "Objects can be moved along a motion path according to two different type of movements: one without changing the object orientation, and the other with an automatic orientation, set according to the direction of the motion path."
+msgstr "对象可以根据两种不同类型的运动沿运动路径移动：一种是不改变对象方向，另一种是根据运动路径的方向自动设置方向。"
+
+#: ../../source/creating_movements.rst:638
+msgid ""
+"A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers "
+"indicating the control points defining the vector stroke."
+msgstr "可以在舞台示意图中将运动路径分配给对象节点，并且可以使用绘图工具定义它，并在查看器中像矢量绘图一样进行编辑。定义后，它显示为红色虚线，小数字表示定义矢量笔画的控点。"
+
+#: ../../source/creating_movements.rst:643
+msgid "A motion path assigned to pegbar 2."
+msgstr "分配给定位尺 2 的运动路径。"
+
+#: ../../source/creating_movements.rst:646
+msgid ""
+"As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard X and Y directions anymore)."
+msgstr "一旦将路径分配给对象的节点，对象将根据其中心自动放置在路径的起点，并且将只能沿路径移动（而不能再沿标准的 X 和 Y 方向移动）。"
+
+#: ../../source/creating_movements.rst:648
+msgid "The keyframes of the object on the motion path can be defined by dragging the object along it, and they are *expressed as a percentage* where 0% is the starting point and 100% is the ending point of the path."
+msgstr "对象在运动路径上的关键帧可以通过沿路径拖动对象来定义，它们*以百分比表示*，其中 0% 是路径的起点，100% 是路径的终点。"
+
+#: ../../source/creating_movements.rst:650
+msgid ""
+"It's also possible to link the keyframes of the objects to the positions of the control points defining the motion path, so that they remain consistent when the motion path is edited. To help you better understand where the control points "
+"are, the object snaps to them when it is dragged along the motion path."
+msgstr "还可以将对象的关键帧链接到定义运动路径的控点位置，这样在编辑运动路径时它们能保持一致。为了帮助您更好地理解控点位置，当沿运动路径拖动对象时，对象会吸附到这些控点上。"
+
+#: ../../source/creating_movements.rst:652
+msgid "If you want to change the center of the object, you can move it using the **Animate** tool (|animate|), and then use the **Reset Center** command in the Stage Schematic."
+msgstr "如果您想更改对象的中心，可以使用**动画**工具 (|animate|) 移动它，然后在舞台示意图中使用**重置中心**命令。"
+
+#: ../../source/creating_movements.rst:654
+msgid "A motion path can also be created by copying and pasting a drawing vector stroke, and conversely a drawing vector stroke can be created by copying and pasting a motion path."
+msgstr "也可以通过复制和粘贴绘图矢量笔画来创建运动路径，反之亦然，也可以通过复制和粘贴运动路径来创建绘图矢量笔画。"
+
+#: ../../source/creating_movements.rst:656
+msgid "**To create a motion path:**"
+msgstr "**创建运动路径：**"
+
+#: ../../source/creating_movements.rst:658
+msgid "Select the object for which you want to define a motion path."
+msgstr "选择要为其定义运动路径的对象。"
+
+#: ../../source/creating_movements.rst:662
+msgid "Click the **New Motion Path** button (|new_motion_path|) in the bottom bar of the stage window."
+msgstr "点击舞台窗口底部栏中的**新建运动路径**按钮 (|new_motion_path|)。"
+
+#: ../../source/creating_movements.rst:664
+msgid "Right-click in the stage and choose **New Motion Path** from the menu that opens."
+msgstr "在舞台中右键单击，并从打开的菜单中选择**新建运动路径**。"
+
+#: ../../source/creating_movements.rst:666
+msgid "**To define and edit a motion path:**"
+msgstr "**定义和编辑运动路径：**"
+
+#: ../../source/creating_movements.rst:668
+msgid "Select the motion path node in the stage and do any of the following:"
+msgstr "在舞台中选择运动路径节点，然后执行以下任一操作："
+
+#: ../../source/creating_movements.rst:670
+msgid "Use the drawing tools to define it in the viewer."
+msgstr "使用绘图工具在查看器中定义它。"
+
+#: ../../source/creating_movements.rst:672
+msgid "Use the modifier tools to edit it."
+msgstr "使用修改工具编辑它。"
+
+#: ../../source/creating_movements.rst:674
+msgid "Draw a new line, and confirm in the dialog that opens, to replace a previously created motion path with the new one."
+msgstr "绘制一条新线，并在打开的对话框中确认，以用新的运动路径替换先前创建的运动路径。"
+
+#: ../../source/creating_movements.rst:676
+msgid "**To assign a motion path to an object:**"
+msgstr "**将运动路径分配给对象：**"
+
+#: ../../source/creating_movements.rst:678
+msgid "Click and drag the motion path top port to the object node bottom port."
+msgstr "点击运动路径的顶部端口并拖动到对象节点的底部端口。"
+
+#: ../../source/creating_movements.rst:680
+msgid "**To remove a motion path from an object:**"
+msgstr "**从对象移除运动路径：**"
+
+#: ../../source/creating_movements.rst:682
+msgid "Select the link between the object and the motion path."
+msgstr "选择对象和运动路径之间的链接。"
+
+#: ../../source/creating_movements.rst:686
+msgid "**To set the type of movement along a motion path:**"
+msgstr "**设置沿运动路径的运动类型：**"
+
+#: ../../source/creating_movements.rst:688
+msgid ""
+"Click the button at *the far left* of the object bottom port to switch between two options: the **Square** button (|square|) will preserve the object's original orientation, and the **Rotated Square** button (|rhomb|) will automatically "
+"rotate the object according to the motion path's direction."
+msgstr "点击对象底部端口*最左侧*的按钮可在两个选项之间切换：**方形**按钮 (|square|) 将保留对象的原始方向，而**旋转方形**按钮 (|rhomb|) 将根据运动路径的方向自动旋转对象。"
+
+#: ../../source/creating_movements.rst:690
+msgid "**To link the object keyframes to the control points defining the motion path:**"
+msgstr "**将对象关键帧链接到定义运动路径的控点：**"
+
+#: ../../source/creating_movements.rst:692
+msgid "Click the button *next to* the object bottom port to activate or deactivate the **Link to Control Points** option (|link_to_control_points|)."
+msgstr "点击对象底部端口*旁边*的按钮以激活或停用**链接到控点**选项 (|link_to_control_points|)。"
+
+#: ../../source/creating_movements.rst:694
+msgid "**To change the center of the object:**"
+msgstr "**更改对象的中心：**"
+
+#: ../../source/creating_movements.rst:698
+msgid "Move the center of the object to the new position."
+msgstr "将对象的中心移动到新位置。"
+
+#: ../../source/creating_movements.rst:700
+msgid "Right-click the object node in the Stage Schematic and select **Reset Center** from the menu that opens."
+msgstr "在舞台示意图中右键单击对象节点，并从打开的菜单中选择**重置中心**。"
+
+#: ../../source/creating_movements.rst:702
+msgid "**To save a motion path:**"
+msgstr "**保存运动路径：**"
+
+#: ../../source/creating_movements.rst:704
+msgid "Right-click it and select **Save Motion Path** from the menu that opens."
+msgstr "右键单击它，并从打开的菜单中选择**保存运动路径**。"
+
+#: ../../source/creating_movements.rst:706
+msgid "In the browser choose a location and a name and click the **Save** button. The file will be saved with the MPATH extension."
+msgstr "在浏览器中选择位置和名称，然后点击**保存**按钮。文件将以 MPATH 扩展名保存。"
+
+#: ../../source/creating_movements.rst:708
+msgid "**To load a motion path:**"
+msgstr "**加载运动路径：**"
+
+#: ../../source/creating_movements.rst:710
+msgid "Right-click the motion path and select **Load Motion Path** from the menu that opens."
+msgstr "右键单击运动路径，并从打开的菜单中选择**加载运动路径**。"
+
+#: ../../source/creating_movements.rst:712
+msgid "In the browser retrieve the MPATH file you want to load and click the Load button."
+msgstr "在浏览器中检索要加载的 MPATH 文件，然后点击加载按钮。"
+
+#: ../../source/creating_movements.rst:714
+msgid "**To use a drawing vector stroke as a motion path:**"
+msgstr "**使用绘图矢量笔画作为运动路径：**"
+
+#: ../../source/creating_movements.rst:716
+msgid "Select the vector stroke you want to use as a motion path with the **Selection** tool (|selection|)."
+msgstr "使用**选择**工具 (|selection|) 选择要用作运动路径的矢量笔画。"
+
+#: ../../source/creating_movements.rst:718 ../../source/creating_movements.rst:730
+msgid "Copy/cut it."
+msgstr "复制/剪切它。"
+
+#: ../../source/creating_movements.rst:720
+msgid "Select the motion path you want to paste to, in the Stage Schematic."
+msgstr "在舞台示意图中选择要粘贴到的运动路径。"
+
+#: ../../source/creating_movements.rst:722
+msgid "Click in the viewer and paste the copied/cut vector that will automatically become the motion path."
+msgstr "在查看器中点击并粘贴复制/剪切的矢量，它将自动成为运动路径。"
+
+#: ../../source/creating_movements.rst:724
+msgid "**To use a motion path as a vector stroke in a drawing:**"
+msgstr "**使用运动路径作为绘图中的矢量笔画：**"
+
+#: ../../source/creating_movements.rst:726
+msgid "Select the motion path in the Stage Schematic."
+msgstr "在舞台示意图中选择运动路径。"
+
+#: ../../source/creating_movements.rst:728
+msgid "Select the motion path with the **Selection** tool (|selection|) in the viewer."
+msgstr "在查看器中使用**选择**工具 (|selection|) 选择运动路径。"
+
+#: ../../source/creating_movements.rst:732
+msgid "Select the drawing where you want to paste the new stroke."
+msgstr "选择要粘贴新笔画的绘图。"
+
+#: ../../source/creating_movements.rst:734
+msgid "Paste the copied/cut motion path that will automatically become a stroke."
+msgstr "粘贴复制/剪切的运动路径，它将自动成为笔画。"
+
+#: ../../source/creating_movements.rst:736
+msgid "**To remove a motion path from the Stage Schematic:**"
+msgstr "**从舞台示意图中移除运动路径：**"
+
+#: ../../source/creating_movements.rst:740
+msgid "Select the motion path node and choose Edit  →  **Delete**."
+msgstr "选择运动路径节点，然后选择 编辑 → **删除**。"
+
+#: ../../source/creating_movements.rst:742
+msgid "Right-click the motion path node and choose **Delete** from the menu that opens."
+msgstr "右键单击运动路径节点，并从打开的菜单中选择**删除**。"
+
+#: ../../source/creating_movements.rst:748
+msgid "Using Keys in Columns/Layers"
+msgstr "在列/图层中使用关键帧"
+
+#: ../../source/creating_movements.rst:749
+msgid "When columns/layers are animated, their animation can be controlled in a quick way by managing keyframes and interpolations directly in the Xsheet or Timeline, with no need to use the Function Editor."
+msgstr "当列/图层被设置动画时，可以通过直接在 Xsheet 或时间轴中管理关键帧和插值来快速控制其动画，无需使用函数编辑器。"
+
+#: ../../source/creating_movements.rst:751
+msgid ""
+"As soon as a keyframe is defined for a column/layer, a **Key icon** is displayed on the right of the column/layer cell to which it refers; the key is displayed regardless of how many parameters are animated. Keys can be moved within the "
+"column/layer they refer to, and selected in order to be cut/copied and pasted from one cell to another."
+msgstr "一旦为列/图层定义了关键帧，就会在其所指的列/图层单元格右侧显示一个**关键帧图标**；无论有多少参数被设置动画，都会显示该图标。关键帧可以在其所属的列/图层内移动，并可以被选中以便从一个单元格剪切/复制并粘贴到另一个单元格。"
+
+#: ../../source/creating_movements.rst:753
+msgid "|using_column_keys|"
+msgstr "|using_column_keys|"
+
+#: ../../source/creating_movements.rst:755
+msgid ""
+"When the **Global Key** option is activated for the **Animate** tool, and the default interpolation is not set to **Linear**, as soon as at least two keyframes are created for a column, **a line connecting them with two arrowheads** is "
+"displayed (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  ). The two arrowheads divide the line into three sections indicating the speed in, the constant speed, "
+"and speed out phases *of all the transformations defined*. This allows you to control the speed of the movement between the two keys as you wish, including a constant speed movement."
+msgstr ""
+"当为**动画**工具激活**全局关键帧**选项，并且默认插值未设置为**线性**时，一旦为列创建了至少两个关键帧，就会显示**一条连接它们并带有两个箭头的线**（参见 :ref:`为对象设置动画 <animating_objects>` 和 :ref:`设置段插值 "
+"<setting_segment_interpolations>`）。这两个箭头将线分成三段，分别表示*所有已定义变换*的加速、匀速和减速阶段。这允许您根据需要控制两个关键帧之间运动的速度，包括匀速运动。"
+
+#: ../../source/creating_movements.rst:757
+msgid "You can also cycle previously created keys, in order to repeat automatically all the previously defined keys for the whole length of the scene, with no need to copy and paste keys from cells to cells."
+msgstr "您还可以循环先前创建的关键帧，以便在整个场景长度内自动重复所有先前定义的关键帧，而无需将关键帧从一个单元格复制粘贴到另一个单元格。"
+
+#: ../../source/creating_movements.rst:759
+msgid ""
+"All animations and interpolations set for the column/layer can be visible and edited with the Function Editor. When you edit any column/layer transformation in the Function Editor, the arrowheads will not be displayed anymore between keys, "
+"to stress the fact that a specific interpolation has been modified with the Function Editor. If needed, you can **Reset** the whole column/layer transformation to the default interpolation values, and make the arrowheads available again "
+"(see  :ref:`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  )."
+msgstr ""
+"为列/图层设置的所有动画和插值都可以在函数编辑器中查看和编辑。当您在函数编辑器中编辑任何列/图层变换时，关键帧之间的箭头将不再显示，以强调特定插值已通过函数编辑器修改。如果需要，您可以将整个列/图层变换**重置**为默认插值，并再次使箭头可用（参"
+"见 :ref:`编辑曲线和数值列 <editing_curves_and_numerical_columns>`）。"
+
+#: ../../source/creating_movements.rst:761
+msgid "**To modify a key:**"
+msgstr "**修改关键帧：**"
+
+#: ../../source/creating_movements.rst:763
+msgid "Select the cell the key refers to."
+msgstr "选择关键帧所指向的单元格。"
+
+#: ../../source/creating_movements.rst:767
+msgid "Use the **Animate** tool (|animate|) to modify position and size."
+msgstr "使用**动画**工具 (|animate|) 修改位置和大小。"
+
+#: ../../source/creating_movements.rst:769
+msgid "Enter values you want to modify in the Animate tool (|animate|) options bar."
+msgstr "在动画工具 (|animate|) 选项栏中输入要修改的值。"
+
+#: ../../source/creating_movements.rst:771
+msgid "**To select keys:**"
+msgstr "**选择关键帧：**"
+
+#: ../../source/creating_movements.rst:775
+msgid "**Click a key icon** to select it."
+msgstr "**点击关键帧图标**以选中它。"
+
+#: ../../source/creating_movements.rst:777
+msgid "**Click a key icon and drag** to select a range of keys on different columns and at different frames."
+msgstr "**点击关键帧图标并拖动**以选择不同列和不同帧上的一系列关键帧。"
+
+#: ../../source/creating_movements.rst:779
+msgid "**Shift-click** to extend the selection to a specific key."
+msgstr "**Shift-单击**以将选择范围扩展到特定关键帧。"
+
+#: ../../source/creating_movements.rst:781
+msgid "**Ctrl-click** (PC) or **Cmd-click** (Mac) to add to, or remove a key to the selection."
+msgstr "**Ctrl-单击**（PC）或 **Cmd-单击**（Mac）以向选择添加关键帧或从中移除关键帧。"
+
+#: ../../source/creating_movements.rst:783
+msgid "**Right-click** a key icon and choose the related command from the menu that opens to perform specific selections, such as all keys in the row, all previous ones, all following ones, etc."
+msgstr "**右键单击**关键帧图标，并从打开的菜单中选择相关命令以执行特定选择，例如行中的所有关键帧、所有先前的关键帧、所有后续的关键帧等。"
+
+#: ../../source/creating_movements.rst:785
+msgid "**To move a key selection:**"
+msgstr "**移动选中的关键帧：**"
+
+#: ../../source/creating_movements.rst:787
+msgid "Click any of the selected keys and drag the selection to the new position. Dragging is allowed only inside its own column/layer."
+msgstr "点击任何选中的关键帧并将选中内容拖动到新位置。拖动仅允许在其所属的列/图层内进行。"
+
+#: ../../source/creating_movements.rst:789
+msgid "**To edit a key selection:**"
+msgstr "**编辑选中的关键帧：**"
+
+#: ../../source/creating_movements.rst:793
+msgid "Use the **Cut** command to eliminate the selection from the scene and keep it in memory for further operations."
+msgstr "使用**剪切**命令从场景中移除选中内容，并将其保留在内存中以供进一步操作。"
+
+#: ../../source/creating_movements.rst:797
+msgid "Use the **Paste** command to paste the selection kept in memory starting from the selected cell."
+msgstr "使用**粘贴**命令从选定的单元格开始粘贴内存中保留的选中内容。"
+
+#: ../../source/creating_movements.rst:801
+msgid "All these commands are also available in the menu that opens when right-clicking the key icon."
+msgstr "所有这些命令也可以在右键单击关键帧图标时打开的菜单中找到。"
+
+#: ../../source/creating_movements.rst:803
+msgid "**To set the speed of the movement or transformation:**"
+msgstr "**设置运动或变换的速度：**"
+
+#: ../../source/creating_movements.rst:805
+msgid "**Click the arrowheads** available on the line connecting two subsequent keys, **and drag them up or down** to the new position. In particular:"
+msgstr "**点击**连接两个连续关键帧的线上可用的**箭头**，**并将它们向上或向下拖动**到新位置。具体来说："
+
+#: ../../source/creating_movements.rst:807
+msgid "To set a **constant speed**, drag the top arrowhead close to the first key icon to eliminate the ease in section, and the bottom arrowhead close to the second key icon to eliminate the ease out section."
+msgstr "要设置**恒定速度**，将顶部箭头拖动到靠近第一个关键帧图标以消除加速段，将底部箭头拖动到靠近第二个关键帧图标以消除减速段。"
+
+#: ../../source/creating_movements.rst:809
+msgid "To set a **continuous acceleration**, drag both arrowheads close to the second key icon in order to increase the speed in section."
+msgstr "要设置**持续加速**，将两个箭头都拖动到靠近第二个关键帧图标，以增加加速段。"
+
+#: ../../source/creating_movements.rst:811
+msgid "To set a **continuous deceleration**, drag both arrowheads close to the first key icon in order to increase the speed out section."
+msgstr "要设置**持续减速**，将两个箭头都拖动到靠近第一个关键帧图标，以增加减速段。"
+
+#: ../../source/creating_movements.rst:813
+msgid "**To make the arrowheads available when they are not:**"
+msgstr "**在箭头不可用时使其可用：**"
+
+#: ../../source/creating_movements.rst:815
+msgid "Right-click the line connecting two subsequent keys and choose **Reset Interpolation** from the menu that opens."
+msgstr "右键单击连接两个连续关键帧的线，并从打开的菜单中选择**重置插值**。"
+
+#: ../../source/creating_movements.rst:817
+msgid "**To activate/deactivate the cycling of previously created keys:**"
+msgstr "**激活/停用先前创建的关键帧的循环：**"
+
+#: ../../source/creating_movements.rst:819
+msgid "Click the **Circular arrow** icon (|circular_arrow|) visible after the last key of a series.The cells affected by the cycled movement are marked on the right by *a zigzagged line*."
+msgstr "点击一系列最后一个关键帧之后可见的**循环箭头**图标 (|circular_arrow|)。受循环运动影响的单元格右侧会标有*锯齿线*。"
+
+#: ../../source/creating_movements.rst:821
+msgid "**To open the Function Editor:**"
+msgstr "**打开函数编辑器：**"
+
+#: ../../source/creating_movements.rst:825
+msgid "Double-click a key."
+msgstr "双击一个关键帧。"
+
+#: ../../source/creating_movements.rst:827
+msgid "Right-click a key and choose **Function Editor** from the menu that opens."
+msgstr "右键单击一个关键帧，并从打开的菜单中选择**函数编辑器**。"
+
+#: ../../source/creating_movements.rst:833
+msgid "Working with Multiple Column/Layer Keys"
+msgstr "处理多列/图层关键帧"
+
+#: ../../source/creating_movements.rst:834
+msgid "It is possible to insert or delete keys affecting the Xsheet/Timeline as a whole, or a selection of Xsheet columns (or Timeline layers)."
+msgstr "可以插入或删除影响整个 Xsheet/时间轴的关键帧，或者选定的 Xsheet 列（或时间轴图层）的关键帧。"
+
+#: ../../source/creating_movements.rst:836
+msgid ""
+"Inserting or deleting multiple keys allows you to manage keys for several columns/layers at the same time, for instance when you are working on a cutout animation where keys may be required for all the columns/layers where model sections are "
+"exposed (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  )."
+msgstr "插入或删除多个关键帧允许您同时管理多个列/图层的关键帧，例如，当您在处理剪纸动画时，可能需要为所有展示模型部分的列/图层设置关键帧（参见 :ref:`创建剪纸动画 <creating_cutout_animation>`）。"
+
+#: ../../source/creating_movements.rst:838
+msgid "Inserted keys are created for all the column transformations."
+msgstr "插入的关键帧是为所有列变换创建的。"
+
+#: ../../source/creating_movements.rst:840
+msgid ""
+"When a multiple key is inserted at the current frame, a key is created for each Xsheet column (or Timeline layer) where an animation level is exposed; if a column/layer selection is defined, keys are created in selected columns/layers only "
+"(see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  )."
+msgstr "当在当前帧插入多重关键帧时，会为每个展示动画层的 Xsheet 列（或时间轴图层）创建一个关键帧；如果定义了列/图层选择，则仅在选中的列/图层中创建关键帧（参见 :ref:`使用 Xsheet 列 <working_with_xsheet_columns>`）。"
+
+#: ../../source/creating_movements.rst:842
+msgid "When a multiple key is deleted at the current frame, any key available in any Xsheet column (or Timeline layer) at the current frame is deleted; if a column/layer selection is defined, keys are deleted in selected columns/layers only."
+msgstr "当在当前帧删除多重关键帧时，会删除当前帧任何 Xsheet 列（或时间轴图层）中存在的任何关键帧；如果定义了列/图层选择，则仅在选中的列/图层中删除关键帧。"
+
+#: ../../source/creating_movements.rst:844
+msgid "**To create several keys at once:**"
+msgstr "**一次性创建多个关键帧：**"
+
+#: ../../source/creating_movements.rst:848
+msgid "Select the columns/layers for which you want to create keys."
+msgstr "选择要为其创建关键帧的列/图层。"
+
+#: ../../source/creating_movements.rst:850
+msgid "Select no column by clicking anywhere in the Xsheet/Timeline, to create keys for all the columns/layers."
+msgstr "通过点击 Xsheet/时间轴中的任意位置不选择任何列，以为所有列/图层创建关键帧。"
+
+#: ../../source/creating_movements.rst:852
+msgid "Select the frame where you want to insert keys."
+msgstr "选择要插入关键帧的帧。"
+
+#: ../../source/creating_movements.rst:854
+msgid "Choose Xsheet  →  **Insert Multiple Keys**."
+msgstr "选择 Xsheet → **插入多重关键帧**。"
+
+#: ../../source/creating_movements.rst:856
+msgid "**To remove several keys at once:**"
+msgstr "**一次性移除多个关键帧：**"
+
+#: ../../source/creating_movements.rst:860
+msgid "Select the columns/layers from which you want to delete keys."
+msgstr "选择要从中删除关键帧的列/图层。"
+
+#: ../../source/creating_movements.rst:862
+msgid "Select no column by clicking anywhere in the Xsheet/Timeline, to delete keys from all the columns/layers."
+msgstr "通过点击 Xsheet/时间轴中的任意位置不选择任何列，以从所有列/图层删除关键帧。"
+
+#: ../../source/creating_movements.rst:864
+msgid "Select the frame where you want to delete keys."
+msgstr "选择要删除关键帧的帧。"
+
+#: ../../source/creating_movements.rst:866
+msgid "Choose Xsheet  →  **Remove Multiple Keys**."
+msgstr "选择 Xsheet → **移除多重关键帧**。"
+
+#: ../../source/creating_movements.rst:872
+msgid "Working in a 3D Environment"
+msgstr "在 3D 环境中工作"
+
+#: ../../source/creating_movements.rst:873
+msgid "You can place and move cameras, the table, pegbars and columns/layers in a 3D environment, as if they were elements on a real 3D stage."
+msgstr "您可以在 3D 环境中放置和移动摄影机、动画台、定位尺以及列/图层，就像它们在真实的 3D 舞台上一样。"
+
+#: ../../source/creating_movements.rst:875
+msgid ""
+"This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a "
+"depth movement with movements in the X and Y directions."
+msgstr "这意味着可以移动摄影机自动生成多层效果，或者推动它穿过角色和元素以模拟透视效果，或者通过结合深度移动与 X 和 Y 方向的移动为任何元素创建复杂的 3D 运动路径。"
+
+#: ../../source/creating_movements.rst:877
+msgid ""
+"The 3D environment can be activated, or deactivated, with the **3D View** button (|3d|) available in the Viewer title bar. When activated, the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is "
+"the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top viewpoint can be set."
+msgstr "可以通过查看器标题栏中的**3D 视图**按钮 (|3d|) 激活或停用 3D 环境。激活后，查看器会显示摄影机的视锥以及沿 Z 轴（从摄影机到动画台的方向）的所有场景内容。可以移动和旋转显示的区域以获得最佳视角，也可以设置侧面或顶部视点。"
+
+#: ../../source/creating_movements.rst:879
+msgid ""
+"By default all the pegbars and columns are on the table: their Z position is equal to the number of horizontal fields defined for the default camera (as the value represents the size of the area that is shot by the camera) (see  :ref:"
+"`Defining Camera Settings <defining_camera_settings>`  ). By increasing the field value, objects are placed farther from the camera; by decreasing it, objects are placed closer to the camera; at zero they are at the same Z position as the "
+"camera, and for negative values they are behind the camera."
+msgstr ""
+"默认情况下，所有定位尺和列都在动画台上：它们的 Z 位置等于为默认摄影机定义的水平场数（因为该值表示摄影机拍摄区域的大小）（参见 :ref:`定义摄影机设置 <defining_camera_settings>`）。增加场数值，对象会离摄影机更远；减小该值，对象会离摄影机更近；为"
+"零时，它们与摄影机处于相同的 Z 位置；为负值时，它们在摄影机后面。"
+
+#: ../../source/creating_movements.rst:881
+msgid ""
+"As concerning the camera, by default its Z position is equal to the number of horizontal fields defined for the default camera. By increasing the field value, the camera moves farther from the table; by decreasing it, it moves closer; at "
+"zero it is at the same Z position of the table and for negative values it is behind the table."
+msgstr "关于摄影机，默认情况下其 Z 位置等于为默认摄影机定义的水平场数。增加场数值，摄影机会远离动画台；减小该值，摄影机会靠近；为零时，它与动画台处于相同的 Z 位置；为负值时，它在动画台后面。"
+
+#: ../../source/creating_movements.rst:883
+msgid ""
+"As soon as objects are moved, *projections on an imaginary floor and side wall* let you understand the position of the drawings in relation to each other and to the camera. If the current object is a column/layer, a dotted bounding box "
+"displays the area of it currently being shot by the camera."
+msgstr "一旦对象被移动，*在假想地面和侧墙上的投影*可以让您理解绘图彼此之间以及与摄影机之间的位置关系。如果当前对象是列/图层，一个虚线边界框会显示其当前正被摄影机拍摄的区域。"
+
+#: ../../source/creating_movements.rst:885
+msgid ""
+"The size of the objects changes according to its Z position, like in a real 3D environment, decreasing when an object is farther from the camera and increasing when closer. To keep control of this behaviour it's possible to define an "
+"additional Z position value in the tool options bar, that sets the position at which the object has to keep its original size."
+msgstr "对象的大小会根据其 Z 位置而变化，就像在真实的 3D 环境中一样，当对象离摄影机较远时缩小，较近时放大。为了控制这种行为，可以在工具选项栏中定义一个额外的 Z 位置值，该值设置对象必须保持其原始大小的位置。"
+
+#: ../../source/creating_movements.rst:887
+msgid ""
+"Columns closer to the camera are displayed on top of others, ignoring the Xsheet/Timeline order and the **SO** value. In case two or several columns have exactly the same distance, the **SO** value prevails; if two or several columns have "
+"exactly the same distance and SO value, the Xsheet column (or Timeline layer) order prevails (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  )."
+msgstr ""
+"离摄影机较近的列会显示在其他列的上方，忽略 Xsheet/时间轴顺序和 **SO** 值。如果两个或多个列距离完全相同，则 **SO** 值优先；如果两个或多个列距离和 SO 值都完全相同，则 Xsheet 列（或时间轴图层）顺序优先（参见 :ref:`更改列堆叠顺序 "
+"<changing_columns_stacking_order>`）。"
+
+#: ../../source/creating_movements.rst:889
+msgid "**To enter the 3D environment:**"
+msgstr "**进入 3D 环境：**"
+
+#: ../../source/creating_movements.rst:891
+msgid "Click the **3D View** button (|3d|) available on the right of the viewer title bar."
+msgstr "点击查看器标题栏右侧可用的**3D 视图**按钮 (|3d|)。"
+
+#: ../../source/creating_movements.rst:893
+msgid "**To set an object position in the 3D environment:**"
+msgstr "**在 3D 环境中设置对象位置：**"
+
+#: ../../source/creating_movements.rst:895
+msgid "Activate the **3D View**."
+msgstr "激活**3D 视图**。"
+
+#: ../../source/creating_movements.rst:897
+msgid "Select the object you want to move."
+msgstr "选择要移动的对象。"
+
+#: ../../source/creating_movements.rst:899
+msgid "Select the **Animate** tool (|animate|)."
+msgstr "选择**动画**工具 (|animate|)。"
+
+#: ../../source/creating_movements.rst:903
+msgid "Enter a value for the **Z** position in the tool options bar."
+msgstr "在工具选项栏中输入 **Z** 位置的值。"
+
+#: ../../source/creating_movements.rst:905
+msgid "Use the **double-arrow handle** parallel to the floor of the 3D environment, to move the selected object and set its Z position."
+msgstr "使用平行于 3D 环境地面的**双箭头手柄**，移动选定对象并设置其 Z 位置。"
+
+#: ../../source/creating_movements.rst:907
+msgid "**To set at which position the object has to keep its original size:**"
+msgstr "**设置对象在哪个位置必须保持其原始大小：**"
+
+#: ../../source/creating_movements.rst:909
+msgid ""
+"Enter a value for the **additional Z position** field *displayed in brackets* in the tool options bar. For example if you want a column content to keep its original size when placed at the Z position 8, also enter 8 as the value in brackets."
+msgstr "在工具选项栏中*显示在括号内*的**额外 Z 位置**字段中输入一个值。例如，如果您希望列内容在放置在 Z 位置 8 时保持其原始大小，则在括号内也输入 8 作为值。"
+
+#: ../../source/creating_movements.rst:911
+msgid "**To move the work area displayed in 3D:**"
+msgstr "**移动 3D 中显示的工作区域：**"
+
+#: ../../source/creating_movements.rst:913
+msgid "Select the **Hand** tool (|hand|) and drag in the viewer."
+msgstr "选择**抓手**工具 (|hand|) 并在查看器中拖动。"
+
+#: ../../source/creating_movements.rst:915
+msgid "**To rotate the work area displayed in 3D:**"
+msgstr "**旋转 3D 中显示的工作区域：**"
+
+#: ../../source/creating_movements.rst:917
+msgid "Select the **Rotate** tool (|rotate|) and drag in the viewer."
+msgstr "选择**旋转**工具 (|rotate|) 并在查看器中拖动。"
+
+#: ../../source/creating_movements.rst:919
+msgid "**To set a side or a top view:**"
+msgstr "**设置侧面或顶视图：**"
+
+#: ../../source/creating_movements.rst:923
+msgid "To set a **Side view** use the button (|side_view|) available on the side wall of the 3D environment."
+msgstr "要设置**侧视图**，请使用 3D 环境侧墙上可用的按钮 (|side_view|)。"
+
+#: ../../source/creating_movements.rst:925
+msgid "To set a **Top view** use the button (|top_view|) available on the floor of the 3D environment."
+msgstr "要设置**顶视图**，请使用 3D 环境地面上可用的按钮 (|top_view|)。"
+
+#: ../../source/creating_movements.rst:927
+msgid "**To exit the 3D environment:**"
+msgstr "**退出 3D 环境：**"
+
+#: ../../source/creating_movements.rst:929
+msgid "Click the **Camera Stand** (|camera_stand|) or **Camera View** (|camera_view|) buttons available on the right of the viewer title bar."
+msgstr "点击查看器标题栏右侧可用的**摄影台** (|camera_stand|) 或**摄影机视图** (|camera_view|) 按钮。"

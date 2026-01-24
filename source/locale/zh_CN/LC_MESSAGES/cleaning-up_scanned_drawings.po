@@ -1,0 +1,1772 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 20:34+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:4
+msgid "Cleaning-up Scanned Drawings"
+msgstr "清理扫描的图纸"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:5
+msgid ""
+"In order to be painted and edited with OpenToonz, scanned drawings have to "
+"undergo the cleanup process. The process involves autocentering, to align each "
+"drawing according to the pegbar holes; line processing, to recognize the "
+"drawing outline; image cropping and re-sizing, to make the drawings fit "
+"properly the camera."
+msgstr ""
+"为了使用OpenToonz进行绘制和编辑，扫描的图纸必须经过清理过程。该过程涉及自动输"
+"入，根据钉杆孔对齐每个图形；线条处理，识别图纸轮廓；图像裁剪和重新调整大小，使图"
+"纸与相机完美匹配。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:7
+msgid ""
+"The process generates a Toonz raster level (TLV format) and the related default "
+"palette (TPL format), where the styles used to paint the level will be stored."
+msgstr ""
+"该过程生成一个Toonz光栅级别（TLV格式）和相关的默认调色板（TPL格式），用于绘制级"
+"别的样式将存储在其中。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:10
+msgid ""
+"If the computer performance slows down during the cleanup process of very high "
+"resolution images, try activating the **Minimize Raster Memory Fragmentation** "
+"option in the Files  →  Preferences...  →  General dialog (see  :ref:"
+"`Optimizing the Memory Usage <optimizing_the_memory_usage>`  )."
+msgstr ""
+"如果在清理高分辨率图像的过程中计算机性能变慢，请尝试激活“文件”中的“最小化光栅内"
+"存碎片”选项→  偏好。..  →  常规对话框（请参阅：ref:“优化内存使用"
+"<Optimizing_the_Memory_usexuse>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:15
+msgid "The Cleanup Settings"
+msgstr "清理设置"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:16
+msgid "|cleanup_settings|"
+msgstr "|cleanup_settings|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:18
+msgid ""
+"The cleanup process can be controlled by using the Cleanup Settings that "
+"include Cleanup, Processing and Camera parameters."
+msgstr "清理过程可以通过使用包括清理、处理和相机参数的清理设置来控制。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:20
+msgid ""
+"Usually settings are defined and checked for one of the level drawings, then "
+"applied to the whole animation level. If all of the drawings in the scene have "
+"the same characteristics, it is very likely that the same settings can be used "
+"for every drawing throughout all of the animation levels."
+msgstr ""
+"通常，会为其中一个级别图形定义和检查设置，然后将其应用于整个动画级别。如果场景中"
+"的所有图形都具有相同的特征，则很可能在所有动画级别中，每个图形都可以使用相同的设"
+"置。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:22
+msgid "**To define cleanup settings:**"
+msgstr "**要定义清理设置，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:24
+msgid ""
+"Choose Scan & Cleanup  →  **Cleanup Settings...** and use the dialog to control "
+"the cleanup process parameters and options."
+msgstr "选择扫描和清理→  **清理设置。..**并使用对话框控制清理过程参数和选项。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:29
+msgid "Defining Cleanup Parameters"
+msgstr "定义清理参数"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:31
+msgid ""
+"The Cleanup parameters set the autocentering information and some geometric "
+"transformations."
+msgstr "“清理”参数设置自动输入信息和一些几何变换。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:36
+msgid "Autocentering"
+msgstr "自动定心"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:37
+msgid "|autocentering|"
+msgstr "|autocentering|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:39
+msgid ""
+"The **Autocenter** option aligns lineart drawings and full-color images "
+"according to the shape and position of the pegbar holes, in order to set the "
+"correct registration for them, once they are used in an animation scene."
+msgstr "自动定心"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:41
+msgid ""
+"Pegbar holes have to be included properly during the scanning process in order "
+"to be recognized during the process (see  :ref:`Scanning Guidelines for "
+"Autocentering <scanning_guidelines_for_autocentering>`  )."
+msgstr ""
+"在扫描过程中，必须正确地包含定位杆孔，以便在过程中被识别（请参阅：ref:“自动输入"
+"扫描指南<scanning_Guidelines_for_autocentring>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:43
+msgid ""
+"In case the autocenter fails because it's not possible to recognize properly "
+"the pegbar holes, an error message is displayed; yet the drawings and images "
+"are processed according to the other set parameters."
+msgstr ""
+"如果自动中心因无法正确识别钉杆孔而失败，则会显示错误消息；然而，图纸和图像是根据"
+"其他设置的参数进行处理的。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:45
+msgid "Autocenter parameters are the following:"
+msgstr "自动中心参数如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:47
+msgid "**Autocenter**, when activated, triggers the autocenter process."
+msgstr "**激活自动中心**后，会触发自动中心过程。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:49
+msgid ""
+"**Pegbar Holes**, sets the side of the drawing along which holes should be "
+"detected."
+msgstr "**Pegbar孔**，设置应检测孔的图纸侧面。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:51
+msgid ""
+"**Field Guide**, specifies the size of the reference field guide that has to be "
+"used to set the center of the processed drawings and images, and the type of "
+"pegbar holes that have to be detected (such as Acme or Oxbry)."
+msgstr ""
+"**Field Guide**指定了必须用于设置已处理图形和图像中心的参考场导向的大小，以及必"
+"须检测的栓钉孔的类型（如Acme或Oxbry）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:53
+msgid "**To check the autocenter on a selected drawing:**"
+msgstr "**要检查选定图形上的自动中心，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:55
+msgid "Activate the **Autocenter** option."
+msgstr "激活**自动输入**选项。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:57
+msgid "Set the side where **Pegbar Holes** have to be detected."
+msgstr "设置必须检测**Pegbar孔**的侧面。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:59
+msgid ""
+"Set the **Field Guide** to be used as reference to set the center in the "
+"correct place, and to match the shape of the pegbar holes."
+msgstr ""
+"将**Field Guide**设置为参考，以将中心设置在正确的位置，并与钉杆孔的形状相匹配。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:61
+msgid ""
+"Choose Scan & Cleanup  →  **Preview Cleanup** to preview the process in the "
+"Viewer."
+msgstr "选择扫描和清理→  **预览清理**以在查看器中预览流程。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:66
+msgid "Other Cleanup Parameters"
+msgstr "其他清理参数"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:67
+msgid ""
+"The Cleanup pane contains also other parameters that can be activated "
+"regardless of the autocenter, as they will affect processed images even if the "
+"Autocenter option is not activated. Parameters are the following:"
+msgstr ""
+"“清理”窗格还包含其他参数，无论自动中心如何，这些参数都可以被激活，因为即使未激"
+"活“自动中心”选项，它们也会影响处理后的图像。参数如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:69
+msgid "|rotate|"
+msgstr "|rotate|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:71
+msgid ""
+"**Rotate**, rotates the image by 90° steps clockwise. It can be used to set the "
+"right orientation for images scanned with a different direction in order to fit "
+"the scanner bed."
+msgstr ""
+"**旋转**，将图像顺时针旋转90°。它可用于为不同方向扫描的图像设置正确的方向，以适"
+"应扫描仪床。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:73
+msgid ""
+"**Flip**, mirrors the image horizontally, vertically or both, according to the "
+"activated options. It can be used, for example, when processing a shadow level "
+"drawn on the other side of the paper where the character level is drawn, in "
+"order to match the two animation levels later."
+msgstr ""
+"**翻转**，根据激活的选项水平、垂直或同时镜像图像。例如，在处理绘制在绘制角色级别"
+"的纸张另一侧的阴影级别时，可以使用它，以便稍后匹配两个动画级别。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:75
+msgid "|savein|"
+msgstr "|savein|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:77
+msgid ""
+"**Save In**, lets you define the folder where the cleaned up drawings are "
+"saved. By default it is set to the *+drawings* default folder of the current "
+"project (see  :ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+"**翻转**，根据激活的选项水平、垂直或同时镜像图像。例如，在处理绘制在绘制角色级别"
+"的纸张另一侧的阴影级别时，可以使用它，以便稍后匹配两个动画级别。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:83
+msgid "Defining Line Processing Parameters"
+msgstr "定义生产线加工参数"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:84
+msgid ""
+"The Processing parameters set the line processing options in order to prepare "
+"drawings for the painting process, recognizing *black lines* (in black and "
+"white or grayscale lineart drawings), or *colored lines* (in colored lineart "
+"drawings)."
+msgstr ""
+"“处理”参数设置线条处理选项，以便为绘画过程准备图纸，识别*黑线*（在黑白或灰度线条"
+"图中）或*彩色线*（在彩色线条画中）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:86
+msgid "**To set the type of line processing:**"
+msgstr "**要设置线条处理的类型，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:88
+msgid ""
+"Set the **Line Processing** option to **None**, if no line processing is "
+"required, **Greyscale**, if lines have to be recognized as black, or **Color**, "
+"if lines have to be recognized as colored ones."
+msgstr ""
+"如果不需要行处理，将**行处理**选项设置为**无**，如果必须将行识别为黑色，则将**灰"
+"度**设置为**，或者如果必须将线识别为彩色，则将***彩色**设置为***。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:94
+msgid "Processing Black and White or Greyscale Lineart Drawings"
+msgstr "处理黑白或灰度线性图形"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:95
+msgid "|greyscale|"
+msgstr "|greyscale|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:97
+msgid "|greyscale_sample|"
+msgstr "|greyscale_sample|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:99
+msgid ""
+"For black and white or greyscale lineart drawings, a set of parameters are "
+"available to calibrate the black line recognition process."
+msgstr "对于黑白或灰度线条图，有一组参数可用于校准黑线识别过程。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:101
+#: ../../source/cleaning-up_scanned_drawings.rst:172
+msgid ""
+"The result of the process can be previewed in the OpenToonz main Viewer (see  :"
+"ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  )."
+msgstr ""
+"可以在OpenToonz主查看器中预览该过程的结果（请参阅：ref:“预览清理过程"
+"<Previewing_The_Cleanup_pprocess>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:103
+msgid "Parameters are the following:"
+msgstr "参数如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:105
+msgid ""
+"**Antialias:**, can be set to **Standard**, **None** or **Morphological**. Use "
+"**Standard** to keep the antialias resulting from current camera and defined "
+"settings. Use **None** to eliminate the antialiasing from the processed line, "
+"so that the resulting line will be fully solid with no semi-transparent pixels "
+"that smooths its edges. Use **Morphological** to replace the standard antialias "
+"with one obtained by analyzing the image edges."
+msgstr ""
+"**别名：**，可以设置为**标准**、**无**或**形态学**。使用**标准**保留当前相机和定"
+"义设置产生的抗锯齿效果。使用**无**消除处理后线条的抗锯齿，这样生成的线条将完全实"
+"心，没有半透明像素来平滑其边缘。使用**形态学**将标准抗锯齿替换为通过分析图像边缘"
+"获得的抗锯齿。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:107
+msgid ""
+"**Autoadjust**, corrects the levels of grey in the drawings in order to avoid "
+"darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale "
+"Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). (NOTE: This "
+"feature is currently not available in OpenToonz)."
+msgstr ""
+"**自动调整**，校正图形中的灰度级，以避免按顺序显示较暗和较亮的图形（请参阅："
+"ref:“自动调整灰度线性图形<Autoadjusting_Greyscale_linear_drawings>”）。（注意："
+"此功能目前在OpenToonz中不可用）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:109
+#: ../../source/cleaning-up_scanned_drawings.rst:180
+msgid ""
+"**Sharpness:**, defines how sharp the processed lines will be. Higher values "
+"produce sharper, harder lines, and lower values create smoother lines."
+msgstr ""
+"**锐度：**，定义处理后的线条的锐度。值越高，线条越清晰、越硬，值越低，线条越平"
+"滑。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:111
+#: ../../source/cleaning-up_scanned_drawings.rst:182
+msgid ""
+"**Despeckling:**, removes small spots or marks from the processed images. Its "
+"value expresses the size in pixels of the side of the maximum area that has to "
+"be removed. The spots and marks removed by this option can also be checked by "
+"activating the Opacity Check (see  :ref:`Using the Opacity Check "
+"<using_the_opacity_check>`  )."
+msgstr ""
+"**去斑：**，从处理后的图像中去除小斑点或标记。其值表示必须删除的最大区域侧面的像"
+"素大小。通过激活不透明度检查，也可以检查此选项删除的斑点和标记（请参阅：ref:“使"
+"用不透明度检查<Using_The_Opacity_Check>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:113
+#: ../../source/cleaning-up_scanned_drawings.rst:184
+msgid ""
+"**MLAA Intensity:**, sets the intensity of the *morphological antialias*. The "
+"higher the value the more blurred the line. (It is available only when "
+"**Morphological** is selected)."
+msgstr ""
+"**MLAA强度：**，设置*形态抗锯齿*的强度。值越高，线越模糊。（仅当选择**形态学**时"
+"可用）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:115
+#: ../../source/cleaning-up_scanned_drawings.rst:188
+msgid ""
+"**Brightness:**, controls the thickness of the recognized line: the lower the "
+"value, the thicker the line."
+msgstr "**亮度：**，控制识别线条的粗细：值越低，线条越粗。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:117
+msgid ""
+"**Contrast:**, controls the antialiasing of the recognized line: a higher value "
+"produces more solid pixels, a lower value lines with more antialiased pixels. "
+"The amount of antialiasing can also be checked by activating the **Opacity "
+"Check** (see  :ref:`Using the Opacity Check <using_the_opacity_check>`  )."
+msgstr ""
+"**对比度：**，控制识别线的抗锯齿：值越高，产生的实心像素越多，值越低，产生的抗锯"
+"齿像素越多。还可以通过激活**不透明度检查**来检查抗锯齿量（请参阅：ref:`使用不透"
+"明度检查<Using_The_Opacity_Check>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:120
+msgid ""
+"If the Antialias is set on **None** or **Morphological**, the **Contrast:** "
+"parameter will become deactivated."
+msgstr "如果Antialias设置为**无**或**形态学**，则**对比度：**参数将被停用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:123
+msgid ""
+"**To set the line processing for black and white or greyscale lineart drawings:"
+"**"
+msgstr "**要设置黑白或灰度线条艺术图形的线条处理，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:125
+msgid "Activate the Line Processing  →  **Greyscale** option."
+msgstr "激活生产线处理→  **灰度**选项。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:127
+msgid "Define the parameters according to your needs."
+msgstr "根据您的需求定义参数。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:129
+#: ../../source/cleaning-up_scanned_drawings.rst:216
+msgid ""
+"Preview the result of the cleanup process (see  :ref:`Previewing the Cleanup "
+"Process <previewing_the_cleanup_process>`  )."
+msgstr ""
+"预览清理过程的结果（请参阅：ref:`预览清理过程"
+"<Previewing_the_cleanup_pprocess>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:135
+msgid "Autoadjusting Greyscale Lineart Drawings"
+msgstr "自动调整灰度线性图"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:136
+msgid ""
+"The **Autoadjust** clean-up options explained here are currently unavailable in "
+"OpenToonz. There is no certainty about its reinclusion at a later version or "
+"not. If you judge them to be useful for your workflow, you could file an "
+"*Issue* about that in the OpenToonz' GitHub repository or in the various "
+"OpenToonz forums."
+msgstr ""
+"此处解释的**自动调整**清理选项目前在OpenToonz中不可用。目前尚不确定其是否会在后"
+"续版本中重新纳入。如果你认为它们对你的工作流程有用，你可以在OpenToonz的GitHub存"
+"储库或各种OpenToonz论坛上提交一个*问题*。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:138
+msgid ""
+"The **Autoadjust** option available among the Cleanup parameters allows you to "
+"even the differences between drawings made by key animators and those made by "
+"in-betweeners by adjusting the line darkness of all of the level drawings."
+msgstr ""
+"清理参数中可用的**自动调整**选项允许您通过调整所有关卡图形的线条暗度来平衡关键动"
+"画师和中间人绘制的图形之间的差异。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:140
+msgid ""
+"The **Autoadjust** option has effect only on drawings scanned in greyscale "
+"mode, while it has no effect on drawings scanned in black and white."
+msgstr "**自动调整**选项仅对以灰度模式扫描的图形有效，而对以黑白扫描的图形无效。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:142
+msgid "Three different autoadjust algorithms are available:"
+msgstr "有三种不同的自动调整算法可供选择："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:144
+msgid ""
+"**Black Eq**, computes the average of the darkest grey tone found in drawing "
+"lines below a certain threshold and sets this value to the conventional black "
+"level, so that grey levels of each image are automatically adjusted."
+msgstr ""
+"**Black Eq**计算在低于某个阈值的绘制线条中发现的最暗灰色调的平均值，并将该值设置"
+"为传统的黑色级别，从而自动调整每个图像的灰度级。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:146
+msgid ""
+"**Histogram**, makes a histogram of the grey levels of the first image and "
+"equalizes the histograms of the following images according to it. It works well "
+"when the content of the images (apart from line darkness) does not vary too "
+"much across the level."
+msgstr ""
+"**直方图**，对第一幅图像的灰度级进行直方图，并根据它对后续图像的直方图进行均衡。"
+"当图像的内容（除线条暗度外）在灰度级上变化不大时，它工作得很好。**直方图**，对第"
+"一幅图像的灰度级进行直方图，并根据它对后续图像的直方图进行均衡。当图像的内容（除"
+"线条暗度外）在灰度级上变化不大时，它工作得很好。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:148
+msgid ""
+"**Histo-L**, takes into account the number of lines in each image to normalize "
+"the histogram of grey levels, before the histogram equalization is performed. "
+"This is useful for example when a character becomes bigger or smaller in an "
+"animated level, or when parts of the character are animated independently in "
+"some frames."
+msgstr ""
+"**Hist-L**在执行直方图均衡化之前，考虑了每个图像中的行数来归一化灰度直方图。例"
+"如，当角色在动画级别中变大或变小时，或者当角色的某些部分在某些帧中独立设置动画"
+"时，这很有用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:150
+msgid ""
+"The advantage of the **Histo-L** mode over the others is that it adjusts the "
+"grey levels of each image independently, while the other algorithms equalize "
+"each image to make it look like the first one of the level."
+msgstr ""
+"**Histo-L**模式相对于其他模式的优势在于，它独立调整每个图像的灰度级，而其他算法"
+"则均衡每个图像，使其看起来像第一个灰度级。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:152
+msgid ""
+"Only the effects of the **Black Eq** process can be checked using the Scan & "
+"Cleanup  →  **Cleanup Preview** command; the effects of **Histogram** and "
+"**Histo-L** are only visible selecting a sequence of at least two frames (i.e. "
+"one as reference frame and the others to be auto-adjusted) and processing them "
+"using the Scan & Cleanup  →  **Cleanup** command. You may need to make a few "
+"trials using different algorithms before obtaining the desired results."
+msgstr ""
+"使用扫描和清理只能检查**Black Eq**过程的效果→  **清理预览**命令；**直方图**和**"
+"直方图-L**的效果仅在选择至少两个帧的序列（即一个作为参考帧，其他帧自动调整）并使"
+"用扫描和清理对其进行处理时可见→  **清理**命令。在获得所需结果之前，您可能需要使"
+"用不同的算法进行一些试验。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:154
+msgid ""
+"These algorithms work on the area of the drawing specified in the Field text "
+"boxes, excluding a 5 mm boundary edge. In this way any line might be drawn to "
+"delimit the camera shot on paper, and the pegbar holes, do not affect the "
+"result."
+msgstr ""
+"这些算法适用于“字段”文本框中指定的图形区域，不包括5mm的边界边。通过这种方式，可"
+"以在纸上绘制任何线条来分隔相机拍摄，而钉杆孔不会影响结果。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:160
+msgid "Processing Colored Lineart Drawings"
+msgstr "处理彩色线性图纸"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:161
+msgid "|color|"
+msgstr "|color|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:163
+msgid "|color_sample|"
+msgstr "|color_sample|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:166
+msgid ""
+"For colored lineart drawings, a set of parameters are available to calibrate "
+"the line recognition process, and to set which and how colors have to be "
+"detected in the drawings (see  :ref:`Defining Colors for the Color Line "
+"Processing <defining_colors_for_the_color_line_processing>`  )."
+msgstr ""
+"对于彩色线条图形，有一组参数可用于校准线条识别过程，并设置必须在图形中检测哪些颜"
+"色以及如何检测颜色（请参阅：ref:`为彩色线条处理定义颜色"
+"<Defining_Color_For_the_Color_line_procession>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:168
+msgid ""
+"For all the cleanup colors you can define a color to be assigned automatically "
+"to the lines after the processing, with no need to paint them. The two colors, "
+"the one used for the recognition and the one to be assigned to the recognized "
+"lines, are available at the bottom area of the Style Editor pane."
+msgstr ""
+"对于所有清理颜色，您可以定义一种颜色，在处理后自动分配给线条，而无需对其进行绘"
+"制。两种颜色，一种用于识别，另一种分配给识别的线条，位于“样式编辑器”窗格的底部区"
+"域。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:170
+msgid ""
+"Different parameters are available for the black color, that usually defines "
+"the main outline in lineart drawings, and for the additional colors, that "
+"usually defines special outlines for areas such as shadows and highlights."
+msgstr ""
+"黑色和其他颜色有不同的参数可供选择，黑色通常定义线条艺术图形中的主要轮廓，其他颜"
+"色通常定义阴影和高光等区域的特殊轮廓。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:174
+msgid "General parameters are the following:"
+msgstr "一般参数如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:176
+msgid ""
+"**Antialias:**, can be set to **Standard**, **None** or **Morphological**. Use "
+"**Standard** to keep the antialias resulting from current camera and defined "
+"settings. Use **None** to remove the antialiasing from the processed line, so "
+"that the resulting line will be fully solid with no semi-transparent pixels "
+"smoothing its edges. Use **Morphological** to replace the standard antialias "
+"with the one obtained by analyzing the image edges."
+msgstr ""
+"**别名：**，可以设置为**标准**、**无**或**形态学**。使用**标准**保留当前相机和定"
+"义设置产生的抗锯齿效果。使用**无**从处理后的线条中删除抗锯齿，这样生成的线条将完"
+"全实心，没有半透明像素平滑其边缘。使用**形态学**将标准抗锯齿替换为通过分析图像边"
+"缘获得的抗锯齿。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:178
+msgid ""
+"If the Antialias is set to **None** or **Morphological**, the **Contrast** "
+"parameter will become desactivated."
+msgstr "如果Antialias设置为**无**或**形态学**，则**对比度**参数将被禁用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:186
+msgid "In the color list, parameters for the black color are the following:"
+msgstr "在颜色列表中，黑色的参数如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:190
+msgid ""
+"**Contrast:**, controls the antialiasing of the recognized line: a higher value "
+"produces more solid pixels, a lower value lines with more antialiased pixels. "
+"The amount of antialiasing can also be checked by activating the Opacity Check "
+"(see  :ref:`Using the Opacity Check <using_the_opacity_check>`  )."
+msgstr ""
+"**对比度：**，控制识别线的抗锯齿：值越高，产生的实心像素越多，值越低，产生的抗锯"
+"齿像素越多。还可以通过激活不透明度检查来检查抗锯齿量（请参阅：ref:“使用不透明度"
+"检查<Using_The_Opacity_Check>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:192
+msgid ""
+"**Color Threshold:**, sets pixels that have to be considered as black and those "
+"that have to be considered as colors: the higher the value, the higher the "
+"number of pixels that will be considered as colored."
+msgstr ""
+"**颜色阈值：**，设置必须视为黑色的像素和必须视为颜色的像素：值越高，被视为彩色的"
+"像素数量就越多。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:194
+msgid ""
+"**White Threshold:**, sets pixels that have to be considered as white, for "
+"example to eliminate the paper color: the higher the value, the higher the "
+"number of pixels that will be considered as white."
+msgstr ""
+"**白色阈值：**，设置必须被视为白色的像素，例如消除纸张颜色：值越高，被视为白的像"
+"素数量就越多。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:196
+msgid "In the color list, parameters for the other colors are the following:"
+msgstr "在颜色列表中，其他颜色的参数如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:198
+msgid ""
+"**Brightness:**, controls the thickness of the recognized colored line: the "
+"lower the value, the thicker the line."
+msgstr "**亮度：**，控制识别的彩色线条的粗细：值越低，线条越粗。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:200
+msgid ""
+"**Contrast:**, controls the antialiasing of the recognized colored line: a "
+"higher value produces more solid pixels, a lower value lines with more "
+"antialiased pixels. The amount of antialiasing can also be checked by "
+"activating the Opacity Check (see  :ref:`Using the Opacity Check "
+"<using_the_opacity_check>`  )."
+msgstr ""
+"**对比度：**，控制识别的彩色线的抗锯齿：值越高，产生的实心像素越多，值越低的线产"
+"生的抗锯齿像素越多。还可以通过激活不透明度检查来检查抗锯齿量（请参阅：ref:“使用"
+"不透明度检查<Using_The_Opacity_Check>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:202
+msgid ""
+"**H Range:**, sets the range of the hue for color recognition: the higher the "
+"value, the higher the number of differently colored pixels that will be "
+"associated to the defined color."
+msgstr ""
+"**H范围：**，设置颜色识别的色调范围：值越高，与定义的颜色关联的不同颜色像素的数"
+"量就越多。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:204
+msgid ""
+"**Line Width:**, sets the width of the recognized colored line: the higher the "
+"value, the higher the number of desaturated pixels that will be associated to "
+"the defined color, thus increasing the line thickness."
+msgstr ""
+"**线宽：**，设置识别的彩色线的宽度：值越高，与定义的颜色关联的去饱和像素的数量就"
+"越多，从而增加线的粗细。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:206
+msgid "**To set the line processing for colored lineart drawings:**"
+msgstr "**要设置彩色线条艺术图形的线条处理，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:208
+msgid "Activate the Line Processing  →  **Color** option."
+msgstr "激活生产线处理→  **颜色**选项。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:210
+msgid "Define the general parameters according to your needs."
+msgstr "根据您的需求定义一般参数。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:212
+msgid ""
+"Define the colors you want to be detected in the drawings (see  :ref:`Defining "
+"Colors for the Color Line Processing "
+"<defining_colors_for_the_color_line_processing>`  )."
+msgstr ""
+"定义要在图形中检测到的颜色（请参阅：ref:“为颜色线处理定义颜"
+"色”<Defining_Color_for_the_Color_Line_procession>）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:214
+msgid "Define the color parameters according to your needs."
+msgstr "根据您的需求定义颜色参数。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:222
+msgid "Defining Colors for the Color Line Processing"
+msgstr "定义颜色线处理的颜色"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:223
+msgid ""
+"The colors used to recognize and process drawing lines when doing color line "
+"processing can be defined by using the style editor or picking color values "
+"directly from the drawing you want to process."
+msgstr ""
+"在进行颜色线处理时用于识别和处理图形线的颜色可以通过使用样式编辑器或直接从要处理"
+"的图形中拾取颜色值来定义。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:225
+msgid ""
+"It is possible to add colors to the list, or remove them if they are not needed "
+"anymore. The maximum number of color you can define is 7 (black included)."
+msgstr ""
+"可以将颜色添加到列表中，或者在不再需要时将其删除。您可以定义的最大颜色数为7（包"
+"括黑色）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:228
+msgid ""
+"The first color of the list, i.e. the black color, cannot be edited or removed."
+msgstr "列表的第一种颜色，即黑色，无法编辑或删除。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:231
+msgid "**To define colors:**"
+msgstr "**要定义颜色，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:233
+msgid ""
+"Select the color you want to define in the list available in the Processing "
+"parameters."
+msgstr "在“处理参数”中的可用列表中选择要定义的颜色。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:235
+msgid "Define the color by doing one of the following:"
+msgstr "通过执行以下操作之一定义颜色："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:237
+msgid "Use the Style Editor (see  :ref:`Editing Styles <editing_styles>`  )."
+msgstr "使用样式编辑器（请参见：ref:`编辑样式<Editing_Styles>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:239
+msgid ""
+"Use the **RGB Picker** tool (|RGB_picker|) to pick the value of the line color "
+"from the drawings visible in the Viewer (see  :ref:`Plain Colors "
+"<plain_colors>`  )."
+msgstr ""
+"使用**RGB选择器**工具（|RGB_Picker|）从查看器中可见的图形中拾取线条颜色的值（请"
+"参阅：ref:“纯色<Plain_Colors>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:242
+msgid "**To define colors to be assigned to lines after cleanup processing:**"
+msgstr "**要定义清理处理后要分配给线条的颜色，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:244
+msgid "Select the color for which you want to define the post-process color."
+msgstr "选择要为其定义后处理颜色的颜色。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:246
+msgid ""
+"At the bottom of the Style Editor select the square on the right of the current "
+"color: this is the color to be assigned after the processing is done."
+msgstr ""
+"在样式编辑器的底部，选择当前颜色右侧的正方形：这是处理完成后要指定的颜色。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:248
+msgid "Edit the color in the Style Editor."
+msgstr "在样式编辑器中编辑颜色。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:251
+msgid "**To add a color in the color list:**"
+msgstr "**要在颜色列表中添加颜色，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:253
+msgid "Click the **+** button available under the color list."
+msgstr "单击颜色列表下的**+**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:256
+msgid "**To remove a color from the color list:**"
+msgstr "**要从颜色列表中删除颜色，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:258
+msgid "Select the color you want to remove from the list."
+msgstr "选择要从列表中删除的颜色。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:260
+msgid "Click the **-** button available under the color list."
+msgstr "单击颜色列表下的**-**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:266
+msgid "Defining Camera"
+msgstr "定义相机"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:267
+msgid "|camera|"
+msgstr "|照相机|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:269
+msgid ""
+"The Camera parameters define the size and resolution of the camera that is used "
+"to crop and resize drawings during the cleanup process, in order to prepare and "
+"optimize them for the scene."
+msgstr ""
+"摄影机参数定义了摄影机的大小和分辨率，用于在清理过程中裁剪和调整图形大小，以便为"
+"场景准备和优化图形。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:271
+msgid ""
+"For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16 field "
+"size, the cleaned up drawings will be cropped according to the 16 field size "
+"and will have the resolution of 1920x1080 pixels."
+msgstr ""
+"例如，如果清理摄像头为1920x1080像素（HD 1080），16场大小，则清理后的图形将根据16"
+"场大小进行裁剪，分辨率为1920x108像素。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:273
+msgid ""
+"The cleanup camera definition is similar to the definition of the stage camera "
+"(see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). Usually "
+"the two cameras have the same parameters, but sometimes you may need to define "
+"a cleanup camera that is larger than the stage camera especially if you want "
+"drawings border area to overflow the shot."
+msgstr ""
+"清理摄影机的定义类似于舞台摄影机的定义（请参阅：ref:`定义摄影机设置"
+"<Defining_camera_Settings>`）。通常这两个摄影机具有相同的参数，但有时您可能需要"
+"定义一个比舞台摄影机大的清理摄影机，特别是如果您希望图形边框区域溢出镜头。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:275
+msgid "You can also set other parameters and options:"
+msgstr "您还可以设置其他参数和选项："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:277
+msgid ""
+"The **Closest Field** parameter (NOT AVAILABLE in OpenToonz) defines the "
+"smallest field size you will zoom into the drawing, with the camera when "
+"compositing the scene. This value is meaningful if it is smaller than the "
+"camera field size, as it increases the final image resolution, preventing "
+"zoomed-in images from appearing jagged. For example if the cleanup camera is "
+"1920x1080 pixels (HD 1080) with a 16 field size and the **Closest Field** is "
+"set to 8, the cleaned up drawings will have to be of twice the camera "
+"resolution, that is 3840 by 2160 pixels, so that when the camera closes up, the "
+"original image pixel resolution is preserved."
+msgstr ""
+"**最近场**参数（OpenToonz中不可用）定义了合成场景时使用相机放大图形的最小场大"
+"小。如果此值小于相机场大小，则此值有意义，因为它增加了最终图像分辨率，防止放大图"
+"像出现锯齿状。例如，如果清理相机为1920x1080像素（HD 1080），16场大小，**最近场**"
+"设置为8，则清理后的图形必须是相机分辨率的两倍，即3840乘2160像素，这样当相机关闭"
+"时，原始图像像素分辨率才能保留。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:279
+msgid ""
+"The **X** and **Y** offset parameters shift the camera position, in case you "
+"want to define for the drawings a center different from the one automatically "
+"set by the reference field guide when the **Autocenter** is *on*, or different "
+"from the actual center of the image if the **Autocenter** is *off*; after the "
+"cleanup, the camera center will be the new center for the processed drawings."
+msgstr ""
+"**X**和**Y**偏移参数会移动相机位置，以防您想为图形定义一个与**自动中心**打开*时"
+"参考字段指南自动设置的中心不同的中心，或者如果**自动中心***关闭*，则与图像的实际"
+"中心不同；清理后，相机中心将成为处理图纸的新中心。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:281
+msgid ""
+"The cleanup camera size, resolution and offset can also be graphically "
+"controlled in OpenToonz's main Viewer when checking the cleanup process with "
+"the **Camera Test** mode (see  :ref:`Using the Camera Test "
+"<using_the_camera_test>`  )."
+msgstr ""
+"当使用**相机测试**模式检查清理过程时，还可以在OpenToonz的主查看器中以图形方式控"
+"制清理相机的大小、分辨率和偏移（请参阅：ref:`使用相机测试"
+"<Using_The_camera_Test>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:287
+msgid "Saving and Loading Cleanup Settings"
+msgstr "保存和加载清理设置"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:288
+msgid "|saveloadreset|"
+msgstr "|saveloadreset|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:290
+msgid ""
+"Cleanup settings can be saved as CLN files in order to be loaded back and used "
+"in a different scene."
+msgstr "清理设置可以另存为CLN文件，以便重新加载并在不同的场景中使用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:292
+msgid ""
+"They can also be associated specifically to an animation level by saving them "
+"in the same location and with the same name of the level: in this way the "
+"settings will be automatically displayed when the level is selected, and used "
+"every time the level is cleaned up."
+msgstr ""
+"通过将它们保存在同一位置并使用相同的级别名称，它们也可以专门与动画级别相关联：这"
+"样，当选择级别时，设置将自动显示，并在每次清理级别时使用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:294
+msgid ""
+"Loaded cleanup settings can also become the default settings for the scene or "
+"for the project (see  :ref:`Scene Settings and Project Default Settings "
+"<scene_settings_and_project_default_settings>`  )."
+msgstr ""
+"加载的清理设置也可以成为场景或项目的默认设置（请参见：ref:`场景设置和项目默认设"
+"置<scene_settings_and_project_default_settings>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:297
+msgid "**To save the cleanup settings:**"
+msgstr "**要保存清理设置，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:299
+#: ../../source/cleaning-up_scanned_drawings.rst:307
+msgid "Select an empty cell in the Xsheet/Timeline."
+msgstr "在Xsheet/Timeline中选择一个空单元格。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:301
+#: ../../source/cleaning-up_scanned_drawings.rst:317
+msgid ""
+"Click the **Save Settings** button in the bottom bar of the Cleanup Settings "
+"window."
+msgstr "单击“清理设置”窗口底部栏中的**保存设置**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:303
+msgid ""
+"In the browser that opens choose for the CLN file a location and name, and "
+"click the **Save** button."
+msgstr "在打开的浏览器中为CLN文件选择位置和名称，然后单击**保存**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:305
+msgid "**To load saved cleanup settings:**"
+msgstr "**要加载已保存的清理设置，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:309
+#: ../../source/cleaning-up_scanned_drawings.rst:325
+msgid ""
+"Click the **Load Settings** button in the bottom bar of the Cleanup Settings "
+"window."
+msgstr "单击“清理设置”窗口底部栏中的**加载设置**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:311
+#: ../../source/cleaning-up_scanned_drawings.rst:327
+msgid ""
+"In the browser that opens retrieve the CLN file you want to load, and click the "
+"**Load** button."
+msgstr "在打开的浏览器中检索要加载的CLN文件，然后单击**加载**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:313
+msgid "**To save the current cleanup settings for a specific level:**"
+msgstr "**要保存特定级别的当前清理设置，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:315
+#: ../../source/cleaning-up_scanned_drawings.rst:323
+msgid "Select any cell where the level is exposed in the Xsheet/Timeline."
+msgstr "选择Xsheet/Timeline中显示级别的任何单元格。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:319
+msgid ""
+"In the browser that opens save the CLN file in the same location and with the "
+"same name as the level, and click the **Save** button."
+msgstr ""
+"在打开的浏览器中，将CLN文件保存在与级别相同的位置并使用相同的名称，然后单击**保"
+"存**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:321
+msgid "**To load cleanup settings for a specific level:**"
+msgstr "**要加载特定级别的清理设置，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:329
+msgid ""
+"Click the **Save Settings** button and in the browser that opens save the CLN "
+"file in the same location and with the same name as the level, and click the "
+"**Save** button."
+msgstr ""
+"单击**保存设置**按钮，在打开的浏览器中，将CLN文件保存在与级别相同的位置并使用相"
+"同的名称，然后单击**保存**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:331
+msgid "**To reset cleanup settings to the scene default:**"
+msgstr "**要将清理设置重置为场景默认值，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:333
+msgid ""
+"Click the **Reset Settings** button in the bottom bar of the Cleanup Settings "
+"window."
+msgstr "单击“清理设置”窗口底部栏中的**重置设置**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:340
+msgid "Checking the Cleanup Process"
+msgstr "检查清理过程"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:341
+msgid ""
+"While defining the cleanup settings it is possible to preview the full cleanup "
+"process, or perform the camera test only, in order to check the result before "
+"performing the final cleanup."
+msgstr ""
+"在定义清理设置时，可以预览完整的清理过程，或仅执行相机测试，以便在执行最终清理之"
+"前检查结果。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:346
+msgid "Previewing the Cleanup Process"
+msgstr "预览清理过程"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:347
+msgid "The full cleanup process can be checked in the main Viewer."
+msgstr "可以在主查看器中查看完整的清理过程。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:352
+msgid "Previewing the Cleanup Process in the Main Viewer"
+msgstr "在主查看器中预览清理过程"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:353
+msgid ""
+"A cleanup preview can be activated in the main viewer to display the drawing "
+"selected in the Xsheet/Timeline as it will be after the real cleanup process "
+"according to the defined cleanup settings, displaying at the same time all the "
+"other drawings and images exposed in the Xsheet/Timeline at that frame."
+msgstr ""
+"可以在主查看器中激活清理预览，以显示在Xsheet/Timeline中选择的图形，就像根据定义"
+"的清理设置在实际清理过程后一样，同时显示该帧Xsheet/TTimeline中显示的所有其他图形"
+"和图像。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:355
+msgid ""
+"If you change any parameter in the cleanup settings, the preview automatically "
+"updates to display how the changes affect the process."
+msgstr "如果更改清理设置中的任何参数，预览将自动更新以显示更改对过程的影响。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:357
+msgid ""
+"The **Opacity Check** when activated, affects also the cleanup preview in the "
+"main Viewer (see below )."
+msgstr "激活**不透明度检查**后，还会影响主查看器中的清理预览（见下文）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:359
+#: ../../source/cleaning-up_scanned_drawings.rst:403
+msgid ""
+"The **Preview Cleanup** and the **Camera Test** checks cannot be activated at "
+"the same time: when one is activated the other one is automatically deactivated."
+msgstr ""
+"**预览清理**和**相机测试**检查不能同时激活：当一个被激活时，另一个会自动停用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:361
+msgid "**To activate the cleanup preview in the main Viewer:**"
+msgstr "**要在主查看器中激活清理预览，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:363
+msgid ""
+"In the Xsheet/Timeline select the scanned drawing you want to preview, and "
+"choose Scan & Cleanup  →  **Preview Cleanup**."
+msgstr ""
+"在Xsheet/Timeline中选择要预览的扫描图形，然后选择“扫描和清理”→  **预览清理**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:365
+msgid "**To deactivate the cleanup preview in the main Viewer:**"
+msgstr "**要在主查看器中停用清理预览，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:367
+msgid "Choose Scan & Cleanup  →  **Preview Cleanup**."
+msgstr "选择扫描和清理→  **预览清理**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:369
+msgid "**To preview a different drawing:**"
+msgstr "**要预览其他图形，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:371
+#: ../../source/cleaning-up_scanned_drawings.rst:428
+msgid "Select it in the Xsheet/Timeline."
+msgstr "在X表格/时间线中选择它。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:373
+msgid "**To exit the preview cleanup mode:**"
+msgstr "**要退出预览清理模式，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:375
+msgid "Choose Scan & Cleanup  →  **Preview Cleanup** to deactivate it."
+msgstr "选择扫描和清理→  **预览清理**以将其停用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:381
+msgid "Using the Opacity Check"
+msgstr "使用不透明度检查"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:382
+msgid ""
+"When calibrating the line processing it is important to check the amount of "
+"antialiasing along the drawing outline to understand how smooth the result will "
+"be, and to check the small spots and marks that are removed from the drawing "
+"because of the **Despeckling:** function (see  :ref:`Defining Line Processing "
+"Parameters <defining_line_processing_parameters>`  )."
+msgstr ""
+"校准线条处理时，重要的是要检查沿图形轮廓的抗锯齿量，以了解结果的平滑程度，并检查"
+"由于**取消勾选：**功能而从图形中删除的小点和标记（请参阅：ref:`定义线条处理参数<"
+"定义线条处理过程参数>'）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:384
+msgid ""
+"The **Opacity check**, when activated, displays fully solid pixels in *black*, "
+"and semi-transparent pixels belonging to the line antialiasing in *red*; "
+"moreover pixels that will be removed because of the **Despeckling:** function "
+"are displayed in *green*."
+msgstr ""
+"**不透明度检查**激活后，以*黑色*显示完全实心像素，以*红色*显示属于线条抗锯齿的半"
+"透明像素；此外，由于**去斑：**功能而将被删除的像素显示为*绿色*。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:386
+msgid ""
+"The check is visible both in the *preview area* (NOT AVAILABLE in OpenToonz) of "
+"the Cleanup Settings pane, and with the **Preview Cleanup** mode, in the *main "
+"Viewer*."
+msgstr ""
+"该检查在清理设置窗格的*预览区域*（OpenToonz中不可用）和*主查看器*中的**预览清理"
+"**模式中都可见。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:388
+msgid "**To activate and deactivate the opacity check:**"
+msgstr "**要激活和停用不透明度检查，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:390
+msgid ""
+"Choose Scan & Cleanup  →  **Opacity Check** or press its default shortcut **Alt "
+"+ 1**."
+msgstr "选择扫描和清理→  **不透明度检查**或按其默认快捷键**Alt+1**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:396
+msgid "Using the Camera Test"
+msgstr "使用相机测试"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:397
+msgid ""
+"The **Camera Test** can be used to check the cleanup process as concerning the "
+"Cleanup and the Camera parameters. It displays the drawing selected in the "
+"Xsheet/Timeline directly in the Viewer without line processing but with the "
+"position modified according to the Cleanup parameters (Autocenter, Rotate and "
+"Flip), and the size modified according to the Camera parameters. In particular "
+"a *red* box displays how the cleanup camera will crop the drawing, and a *blue* "
+"box displays the camera **Closest Field**."
+msgstr ""
+"**相机测试**可用于检查与清理和相机参数有关的清理过程。它直接在查看器中显示在"
+"Xsheet/Timeline中选择的图形，不进行线条处理，但根据清理参数（自动中心、旋转和翻"
+"转）修改了位置，并根据相机参数修改了大小。特别是一个*红色*框显示了清理相机将如何"
+"裁剪图形，一个*蓝色*框显示相机**最近场**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:399
+msgid ""
+"It is possible to modify the camera box directly in the Viewer thus updating "
+"the cleanup camera information visible in the Cleanup Settings dialog (see  :"
+"ref:`Defining Camera <defining_camera>`  )."
+msgstr ""
+"可以直接在查看器中修改相机框，从而更新“清理设置”对话框中可见的清理相机信息（请参"
+"阅：ref:“定义相机<Defining_camera>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:401
+msgid ""
+"If you change any of the Cleanup or Camera parameters, the camera test "
+"automatically updates to display how the changes affect the process."
+msgstr ""
+"如果更改了“清理”或“摄影机”参数中的任何一个，摄影机测试将自动更新，以显示更改对过"
+"程的影响。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:406
+msgid "**To activate the camera test:**"
+msgstr "**要激活摄像头测试：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:408
+msgid ""
+"In the Xsheet/Timeline select the drawing you want to preview, and choose Scan "
+"& Cleanup  →  **Camera Test**."
+msgstr ""
+"在Xsheet/Timeline中选择要预览的图形，然后选择“扫描和清理”→  **摄像头测试**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:410
+msgid "**To deactivate the camera test:**"
+msgstr "**要停用摄像头测试：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:412
+msgid "Choose Scan & Cleanup  →  **Camera Test**."
+msgstr "选择扫描和清理→  **摄像头测试**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:414
+msgid "**To modify the cleanup camera directly in the Viewer:**"
+msgstr "**要在查看器中直接修改清理相机，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:416
+#: ../../source/cleaning-up_scanned_drawings.rst:547
+#: ../../source/cleaning-up_scanned_drawings.rst:626
+msgid "Do any of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:418
+msgid ""
+"Operate the handles on the top and right edges to scale the camera size "
+"horizontally or vertically, thus changing the camera **A/R** as well."
+msgstr ""
+"操作顶部和右侧边缘的手柄，水平或垂直缩放相机尺寸，从而也可以更改相机**A/R**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:420
+msgid ""
+"Operate the handle on the top right corner to scale the camera size while "
+"keeping the A/R."
+msgstr "操作右上角的手柄，在保持A/R的同时缩放相机尺寸。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:422
+msgid ""
+"Activate the DPI Lock in the cleanup camera parameters, and operate the handles "
+"to scale also the camera resolution  (NOT AVAILABLE in OpenToonz)."
+msgstr ""
+"在清理相机参数中激活DPI锁定，并操作手柄以缩放相机分辨率（OpenToonz中不可用）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:424
+msgid "Move the camera box to modify the cleanup camera X and Y offset."
+msgstr "移动相机框以修改清理相机的X和Y偏移。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:426
+msgid "**To perform the camera test on a different drawing:**"
+msgstr "**要在其他图形上执行相机测试，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:430
+msgid "**To exit the camera test mode:**"
+msgstr "**要退出相机测试模式，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:432
+msgid "Choose Scan & Cleanup  →  **Camera Test** to deactivate it."
+msgstr "选择扫描和清理→  **相机测试**以将其停用。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:438
+msgid "Cleaning up Drawings"
+msgstr "清理图纸"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:439
+msgid ""
+"Once the cleanup settings are defined and the process is checked, it is "
+"possible to cleanup all of the drawings of the scene, or a selection of them."
+msgstr ""
+"一旦定义了清理设置并检查了该过程，就可以清理场景的所有图形或其中的一部分。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:441
+msgid ""
+"Drawings can be processed directly inside the scene after performing a "
+"selection, or they can be processed automatically in batch mode."
+msgstr "执行选择后，可以在场景内直接处理图形，也可以在批处理模式下自动处理图形。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:443
+msgid ""
+"In both cases they will be cleaned up according to the Cleanup Settings defined "
+"for the scene, unless a specific CLN file was saved for any of the animation "
+"levels in the scene."
+msgstr ""
+"在这两种情况下，它们都将根据为场景定义的清理设置进行清理，除非为场景中的任何动画"
+"级别保存了特定的CLN文件。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:445
+msgid ""
+"By default cleaned up drawings are saved in the *+drawings* directory of the "
+"current project (see  :ref:`Project Default Folders "
+"<project_default_folders>`  ), but you can change the location by using the "
+"**Save In** option available in the cleanup settings dialog."
+msgstr ""
+"默认情况下，已清理的图形保存在当前项目的*+drawings*目录中（请参见：ref:“项目默认"
+"文件夹<project_default_Folders>”），但您可以使用清理设置对话框中的**保存位置**选"
+"项更改位置。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:447
+msgid ""
+"Cleaned up animation levels are saved as TLV files; the related palettes are "
+"saved in the same location and with the same name of the animation levels as "
+"TPL files."
+msgstr ""
+"已清理的动画级别保存为TLV文件；相关调色板与TPL文件保存在相同的位置，并具有相同的"
+"动画级别名称。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:449
+msgid ""
+"It is also possible to automatically create a backup copy of the cleaned up "
+"drawings that will be stored in a subfolder named **nopaint** inside the same "
+"location where the cleaned up drawings are saved. In this way it will be "
+"possible to retrieve the original drawing in case some mistakes (e.g. a "
+"deletion of a drawing section) are made during the painting process."
+msgstr ""
+"还可以自动创建清理后的图形的备份副本，该副本将存储在保存清理后图形的同一位置内名"
+"为**nopaint**的子文件夹中。这样，如果在涂漆过程中出现一些错误（例如删除绘图部"
+"分），就可以检索到原始图纸。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:451
+msgid "**To automatically create a backup copy of the cleaned up drawings:**"
+msgstr "**要自动创建已清理图形的备份副本，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:453
+msgid "Choose File  →  Preferences...  →  Drawing."
+msgstr "选择文件→  偏好。..  →  绘图。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:455
+msgid "Activate the **Keep Original Cleaned Up Drawings As Backup** option."
+msgstr "激活**将原始清理图纸作为备份**选项。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:457
+msgid "**To revert to the original cleaned up drawings:**"
+msgstr "**要恢复到原始的已清理图纸：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:459
+msgid ""
+"In the Level Strip select the drawings you want to revert (see  :ref:`Using the "
+"Level Strip <using_the_level_strip>`  )."
+msgstr ""
+"在“水平条”中选择要还原的图形（请参见：ref:“使用水平条"
+"<Using_the_Level_Strip>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:461
+#: ../../source/cleaning-up_scanned_drawings.rst:527
+#: ../../source/cleaning-up_scanned_drawings.rst:537
+#: ../../source/cleaning-up_scanned_drawings.rst:612
+#: ../../source/cleaning-up_scanned_drawings.rst:636
+#: ../../source/cleaning-up_scanned_drawings.rst:644
+#: ../../source/cleaning-up_scanned_drawings.rst:652
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:463
+msgid "Choose Level  →  **Revert to Cleaned Up**."
+msgstr "选择级别→  **恢复到已清理**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:465
+msgid ""
+"Right click the selection and choose Replace level  →  **Revert to Cleaned Up** "
+"from the menu that opens."
+msgstr "右键单击所选内容，然后选择“替换级别”→  **从打开的菜单中恢复到“已清理”**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:471
+msgid "Cleaning up Drawings Directly in the Scene"
+msgstr "现场直接清理图纸"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:472
+msgid "|progress|"
+msgstr "|progress|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:474
+msgid ""
+"When cleaning up drawings directly in the scene it is possible to perform a "
+"selection of drawings and process them with the current cleanup settings. In "
+"this case you can also manage the process frame by frame, as you are prompted "
+"to choose an action for each drawing of the selection."
+msgstr ""
+"直接在场景中清理图形时，可以执行选定的图形并使用当前的清理设置对其进行处理。在这"
+"种情况下，您还可以逐帧管理流程，因为系统会提示您为所选的每个图形选择一个操作。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:476
+msgid ""
+"You can also select non-consecutive drawings and drawings from different "
+"animation levels. Levels will be processed starting from the first selected "
+"column/layer, considering only exposed drawings according to their numbering "
+"order."
+msgstr ""
+"您还可以选择非连续图形和来自不同动画级别的图形。将从第一个选定的列/层开始处理标"
+"高，根据编号顺序仅考虑外露的图纸。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:478
+msgid ""
+"When a drawing is cleaned up, its cell color turns from *light blue* to "
+"*green*, the color denoting Toonz raster levels (see  :ref:`Working with Xsheet "
+"Columns <working_with_xsheet_columns>`  ). If you cleanup partially an "
+"animation level, the remaining cells where the level is exposed will have a "
+"double color (*green and blue*), to stress the fact that the level is partially "
+"processed."
+msgstr ""
+"当图形被清理时，其单元格颜色从*浅蓝色*变为*绿色*，该颜色表示Toanz光栅级别（请参"
+"见：ref:`使用Xsheet Columns<Working_with_Xsheet_Columns>`）。如果部分清理动画级"
+"别，则暴露该级别的其余单元格将具有双色（*绿色和蓝色*），以强调该级别是部分处理"
+"的。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:480
+msgid ""
+"When drawings belonging to partially processed levels are selected to be "
+"cleaned up, you are prompted whether to cleanup selected drawings overwriting "
+"the previous cleaned up version, or to add non-cleaned up frames to the "
+"existing level, or to delete the existing level and create a new level with the "
+"selected drawings only."
+msgstr ""
+"当选择清理属于部分处理级别的图形时，系统会提示您是清理选定的图形以覆盖之前的清理"
+"版本，还是将未清理的框架添加到现有级别，或者删除现有级别并仅使用选定的图形创建新"
+"级别。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:482
+msgid ""
+"If you want you can also revert to the scanned version of the level you cleaned "
+"up by using the Level Settings dialog (see  :ref:`Editing Level Settings "
+"<editing_level_settings>`  )."
+msgstr ""
+"如果需要，您还可以使用“级别设置”对话框恢复到您清理的级别的扫描版本（请参阅："
+"ref:“编辑级别设置<Editing_level_Settings>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:484
+msgid ""
+"If you want to create a new TLV level from an already cleaned up level you can "
+"selet it and run the cleanup again. A questions pop up will appear and giving "
+"you the possibility to set a different name for the new TLV level by adding a "
+"suffix."
+msgstr ""
+"如果要从已清理的级别创建新的TLV级别，可以选择它并再次运行清理。将出现一个弹出问"
+"题，您可以通过添加后缀为新的TLV级别设置不同的名称。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:486
+msgid "**To process the selection according to the chosen settings:**"
+msgstr "**要根据所选设置处理选择：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:488
+msgid "In the Xsheet/Timeline select the drawings you want to process."
+msgstr "在Xsheet/Timeline中选择要处理的图形。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:490
+msgid "Choose Scan & Cleanup  →  **Cleanup**."
+msgstr "选择扫描和清理→  **清理**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:492
+msgid "In the Cleanup dialog for each drawing choose one of the following:"
+msgstr "在每个图形的“清理”对话框中，选择以下选项之一："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:494
+msgid "**Cleanup**: the current drawing will be cleaned up."
+msgstr "**清理**：当前图形将被清理。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:496
+msgid ""
+"**Skip**: the current drawing will not be cleanup up and the dialog displays "
+"the next drawing."
+msgstr "**跳过**：当前图形将不会被清理，对话框将显示下一个图形。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:498
+msgid ""
+"**Cleanup All**: all the selected drawings will be cleaned up without further "
+"prompts."
+msgstr "**全部清理**：所有选定的图纸都将被清理，无需进一步提示。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:500
+msgid "**Cancel**: the cleanup process will be interrupted."
+msgstr "**取消**：清理过程将被中断。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:502
+msgid "**To revert to the scanned version of a cleaned up level:**"
+msgstr "**要还原到已清理级别的扫描版本，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:504
+msgid "Select any drawing of the cleaned up level."
+msgstr "选择已清理标高的任何图形。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:506
+msgid "Choose Level  →  **Level Settings...**"
+msgstr "选择级别→  **级别设置。..**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:508
+msgid ""
+"Copy the **Scan Path:** information, and paste it in the **Path:** text field."
+msgstr "复制**扫描路径：**信息，并将其粘贴到**路径：**文本字段中。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:514
+msgid "Cleaning up Drawings in Batch Mode"
+msgstr "以批处理模式清理图纸"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:515
+msgid ""
+"The cleanup of drawings exposed in a scene can be added to a task list and "
+"performed in batch mode in order to run it in the background while you perform "
+"other work on your computer."
+msgstr ""
+"可以将场景中显示的图形的清理添加到任务列表中，并以批处理模式执行，以便在计算机上"
+"执行其他工作时在后台运行。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:517
+msgid ""
+"*Cleanup tasks* can be submitted from the OpenToonz browser and can be managed "
+"and executed in the Tasks pane, together with *render tasks* (see for  :ref:"
+"`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`)."
+msgstr ""
+"*清理任务*可以从OpenToonz浏览器提交，并可以在“任务”窗格中与*渲染任务*一起管理和"
+"执行（请参阅：ref:“在批处理模式下渲染场景<Rendering_Scenes_in_Batch_Mode>”）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:519
+msgid "|tasks_cleanup|"
+msgstr "|tasks_cleanup|"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:521
+msgid ""
+"The **Tasks** pane is divided into two sections: on the left there is the task "
+"tree where all of the *cleanup tasks* are displayed with a brush icon and all "
+"of the *render tasks* with a clapboard icon; on the right there is information "
+"about the task selected in the tree."
+msgstr ""
+"**任务**窗格分为两部分：左侧是任务树，其中所有*清理任务*都用画笔图标显示，所有*"
+"渲染任务*都有隔板图标显示；右边是关于树中选择的任务的信息。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:523
+msgid ""
+"The Task list can be saved as TNZBAT files and loaded back later in case you "
+"want to manage it through different working sessions."
+msgstr ""
+"任务列表可以另存为TNZBAT文件，如果您想通过不同的工作会话进行管理，可以稍后重新加"
+"载。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:525
+msgid "**To save a task list:**"
+msgstr "**要保存任务列表，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:529
+msgid ""
+"Click the **Save Task List** (|save|) or the **Save Task List As** button (|"
+"save_as|) in the bottom bar of the Tasks pane."
+msgstr ""
+"单击“任务”窗格底部栏中的**保存任务列表**（|Save|）或**将任务列表另存为**按钮（|"
+"Save_As|）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:531
+msgid ""
+"Right-click the **Tasks** item at the top of the list and choose **Save Task "
+"List** or the **Save Task List As** from the menu that opens."
+msgstr ""
+"右键单击列表顶部的**任务**项，然后从打开的菜单中选择**保存任务列表**或**将任务列"
+"表另存为**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:533
+msgid "Use the browser that opens to save the list."
+msgstr "使用打开的浏览器保存列表。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:535
+msgid "**To load a task list:**"
+msgstr "**要加载任务列表，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:539
+msgid ""
+"Click the **Load Task List** button (|load|) in the bottom bar of the Tasks "
+"pane."
+msgstr "单击“任务”窗格底部栏中的**加载任务列表**按钮（|Load|）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:541
+msgid ""
+"Right-click the **Tasks** item at the top of the list and choose **Load Task "
+"List** from the menu that opens."
+msgstr "右键单击列表顶部的**任务**项，然后从打开的菜单中选择**加载任务列表**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:543
+msgid "Use the browser that opens to retrieve and load a previously saved list."
+msgstr "使用打开的浏览器检索和加载以前保存的列表。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:545
+msgid "**To resize the tasks pane sections:**"
+msgstr "**要调整任务窗格部分的大小，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:549
+msgid "Click and drag the separator to resize sections."
+msgstr "单击并拖动分隔符以调整截面大小。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:551
+msgid "Click and drag the separator toward the window border to hide a section."
+msgstr "单击并将分隔符拖动到窗口边框以隐藏部分。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:553
+msgid ""
+"Click and drag the separator collapsed to the window border toward the window "
+"center to display again the hidden section."
+msgstr "单击并将折叠的分隔符向窗口中心拖动到窗口边界，以再次显示隐藏部分。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:559
+msgid "Managing and Executing Cleanup Tasks"
+msgstr "管理和执行清理任务"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:560
+msgid ""
+"When a *cleanup task* is selected in the tree, in the section on the right of "
+"the Tasks pane task-related properties are displayed, some of which can be "
+"edited to configure the task. Properties are the following:"
+msgstr ""
+"在树中选择*清理任务*后，在“任务”窗格右侧的部分中会显示与任务相关的属性，其中一些"
+"属性可以编辑以配置任务。属性如下："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:562
+msgid ""
+"**Name:**, displays the tasks name; it can be edited to better identify the "
+"task."
+msgstr "**名称：**，显示任务名称；可以对其进行编辑以更好地识别任务。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:564
+msgid ""
+"**Status:**, displays if the task is waiting, running, completed or failed."
+msgstr "**状态：**，显示任务是否正在等待、运行、已完成或失败。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:566
+msgid ""
+"**Command Line:**, displays the command line related to the task execution with "
+"arguments and qualifiers."
+msgstr "**命令行：**，显示与任务执行相关的命令行，包括参数和限定符。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:568
+msgid "**Server:**, displays the computer that is running, or will run, the task."
+msgstr "**服务器：**，显示正在运行或将要运行任务的计算机。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:570
+msgid "**Submitted By:**, displays the user that submitted the task."
+msgstr "**提交人：**，显示提交任务的用户。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:572
+msgid ""
+"**Submitted On:**, displays the computer from where the task was submitted."
+msgstr "**提交时间：**，显示提交任务的计算机。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:574
+msgid "**Submission Date:**, displays when the task was submitted."
+msgstr "**提交日期：**，显示任务提交的时间。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:576
+msgid "**Start Date:**, displays when the execution of the task started."
+msgstr "**开始日期：**，显示任务执行开始的时间。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:578
+msgid ""
+"**Completion Date:**, displays when the execution of the task was completed."
+msgstr "**完成日期：**，显示任务执行完成的时间。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:580
+msgid "**Duration:**, displays how long the execution lasted."
+msgstr "**持续时间：**，显示执行持续了多长时间。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:582
+msgid "**Step Count:**, displays the number of frames rendered."
+msgstr "**步数：**，显示渲染的帧数。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:584
+msgid ""
+"**Failed Steps:**, displays the number of frames that failed to be rendered."
+msgstr "**失败步骤：**，显示未能渲染的帧数。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:586
+msgid ""
+"**Successful Steps:**, displays the number of frames successfully rendered."
+msgstr "**成功步骤：**，显示成功渲染的帧数。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:588
+msgid ""
+"**Priority:**, sets the importance or urgency of the task: tasks with a higher "
+"priority will be executed first. This can be edited to change the priority of a "
+"task."
+msgstr ""
+"**优先级：**，设置任务的重要性或紧迫性：优先级较高的任务将首先执行。可以编辑此选"
+"项以更改任务的优先级。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:590
+msgid ""
+"**Visible Only**, when activated, limits the cleanup process only to columns "
+"whose camera stand toggle (|camera_stand|) is on, that is to say whose content "
+"is visible (see :ref:`Working with Xsheet Columns "
+"<working_with_xsheet_columns>`)."
+msgstr ""
+"**仅可见**，当激活时，将清理过程仅限于相机支架切换（|camera_stand|）打开的列，也"
+"就是说，其内容是可见的（请参阅：ref:`使用Xsheet列"
+"<Working_with_Xsheet_columns>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:592
+msgid ""
+"**Overwrite**, when activated, processes levels even if they are already "
+"available in the destination folder, overwriting them."
+msgstr "**覆盖**，激活后，即使目标文件夹中已有进程级别，也会覆盖它们。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:594
+msgid ""
+"**Dependencies:**, lets you set which of the other submitted tasks have to be "
+"successfully completed before starting the current task execution: these tasks "
+"can be added from the box on the right where all submitted tasks are displayed."
+msgstr ""
+"**依赖关系：**，允许您设置在开始当前任务执行之前必须成功完成哪些其他提交的任务："
+"这些任务可以从显示所有提交任务的右侧框中添加。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:596
+msgid ""
+"Task execution can be started and stopped from the task list. If you are using "
+"the OpenToonz render farm, render tasks and sub-tasks will be distributed on "
+"the farm, one for each computer, so that several tasks can be executed at the "
+"same time (see  :ref:`Using the OpenToonz Farm <using_the_toonz_farm>`  )."
+msgstr ""
+"可以从任务列表中启动和停止任务执行。如果您使用的是OpenToonz渲染场，渲染任务和子"
+"任务将分布在场上，每台计算机一个，这样就可以同时执行多个任务（请参阅：ref:`使用"
+"OpenToonz场<using_the_toonz_farm>`）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:598
+msgid ""
+"When the tasks are executed, the icon color tells the status of the task "
+"according to the following color code:"
+msgstr "执行任务时，图标颜色根据以下颜色代码告诉任务的状态："
+
+#: ../../source/cleaning-up_scanned_drawings.rst:600
+msgid "*Grey*, when the task is *waiting* or is *not executed yet*."
+msgstr "*灰色*，当任务*正在等待*或*尚未执行*时。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:602
+msgid "*Yellow*, when the task is *being executed*."
+msgstr "*黄色*，表示任务正在执行*。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:604
+msgid "*Green*, when the task was *successfully executed*."
+msgstr "*绿色*，表示任务已*成功执行*。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:606
+msgid "*Orange*, when the task was *executed with some errors*."
+msgstr "*橙色*，任务执行时*出现一些错误*。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:608
+msgid "*Red*, when the task *execution has failed*."
+msgstr "*红色*，表示任务*执行失败*。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:610
+msgid "**To add scenes to cleanup in the task list:**"
+msgstr "**要在任务列表中添加要清理的场景，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:614
+msgid ""
+"Click the **Add Cleanup Task** button (|add_cleanup|) in the bottom bar of the "
+"Tasks pane and use the browser to select a scene file."
+msgstr ""
+"单击“任务”窗格底部栏中的**添加清理任务**按钮（|Add_Cleanup|），并使用浏览器选择"
+"场景文件。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:616
+msgid ""
+"Select the scenes in the OpenToonz Browser, then right-click any of them and "
+"choose **Add As Cleanup Task** from the menu that opens."
+msgstr ""
+"在OpenToonz浏览器中选择场景，然后右键单击其中任何一个场景，并从打开的菜单中选择"
+"**添加为清理任务**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:618
+msgid "**To configure the cleanup task in the task list:**"
+msgstr "**要在任务列表中配置清理任务，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:620
+msgid "Select the cleanup task in the task list."
+msgstr "在任务列表中选择清理任务。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:622
+msgid "Configure it by using the options available on the right of the list."
+msgstr "使用列表右侧的可用选项进行配置。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:624
+msgid "**To select tasks in the task list:**"
+msgstr "**要在任务列表中选择任务，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:628
+msgid "Click a task to select it."
+msgstr "单击任务以选择它。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:630
+msgid "Shift-click a task to extend the selection up to that task."
+msgstr "按住Shift键并单击任务，将选择范围扩展到该任务。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:632
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from the "
+"selection."
+msgstr ""
+"Ctrl键单击（PC）或Cmd键单击（Mac）任务以将其添加到选择中，或将其从选择中删除。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:634
+msgid "**To execute selected tasks:**"
+msgstr "**要执行所选任务，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:638
+msgid "Click the **Start** button (|start|) in the bottom bar of the pane."
+msgstr "单击窗格底部栏中的**开始**按钮（|Start|）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:640
+msgid ""
+"Right-click any selected task icons and choose **Start** from the menu that "
+"opens."
+msgstr "右键单击任何选定的任务图标，然后从打开的菜单中选择**开始**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:642
+msgid "**To stop the execution of selected tasks:**"
+msgstr "**要停止执行所选任务，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:646
+msgid "Click the **Stop** button (|stop|) in the bottom bar of the pane."
+msgstr "单击窗格底部栏中的**停止**按钮（|Stop|）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:648
+msgid ""
+"Right-click any selected task icon and choose **Stop** from the menu that opens."
+msgstr "右键单击任何选定的任务图标，然后从打开的菜单中选择**停止**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:650
+msgid "**To remove selected tasks from the list:**"
+msgstr "**要从列表中删除所选任务，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:654
+msgid ""
+"Click the **Remove** button (|remove|) in the bottom bar of the Tasks pane."
+msgstr "单击“任务”窗格底部栏中的**删除**按钮（|Remove|）。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:656
+msgid ""
+"Right-click any selected task in the list and choose **Remove** from the menu "
+"that opens."
+msgstr "右键单击列表中的任何选定任务，然后从打开的菜单中选择**删除**。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:658
+msgid "**To add tasks to the Dependencies list:**"
+msgstr "**要将任务添加到“依赖关系”列表中，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:660
+msgid "Select a task in the list on the right and click the **<< Add** button."
+msgstr "在右侧列表中选择一个任务，然后单击**<<添加**按钮。"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:662
+msgid "**To remove tasks from the Dependencies list:**"
+msgstr "**要从“依赖关系”列表中删除任务，请执行以下操作：**"
+
+#: ../../source/cleaning-up_scanned_drawings.rst:664
+msgid "Select a task in the list on the left and click the **Remove >>** button."
+msgstr "在左侧列表中选择一个任务，然后单击**删除>>**按钮。"

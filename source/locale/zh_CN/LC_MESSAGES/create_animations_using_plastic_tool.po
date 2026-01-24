@@ -1,0 +1,1522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 19:54+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/create_animations_using_plastic_tool.rst:4
+msgid "Create animations using Plastic tool"
+msgstr "使用塑料工具创建动画"
+
+#: ../../source/create_animations_using_plastic_tool.rst:5
+msgid ""
+"Plastic is a powerful tool (|plastic|) that can be used as complement in a "
+"cutout animation context, as well as a stand-alone animation tool capable of "
+"bringing to life a character starting from a single drawing. Using a reference "
+"skeleton and a deformable mesh, Plastic allows to curving and deforming each "
+"element it's applied to, creating smooth animations."
+msgstr ""
+"塑料是一种强大的工具（|Plastic|），可以在剪切动画环境中用作补充，也是一种独立的"
+"动画工具，能够从一幅画开始赋予角色生命。使用参考骨架和可变形网格，Plastic允许弯"
+"曲和变形其应用的每个元素，从而创建平滑的动画。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:7
+msgid "|plastic_tool_example|"
+msgstr "|plastic_tool_example|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:13
+msgid "Using Plastic tool"
+msgstr "使用塑料工具"
+
+#: ../../source/create_animations_using_plastic_tool.rst:14
+msgid ""
+"The **Plastic** tool needs as starting input at least one column of the Xsheet "
+"(or layer of the Timeline) where one or more drawings are exposed; from now on "
+"this will be referred to as the *texture-column* (or **TC**). Using the "
+"outlines of the exposed drawing/s as references, the Plastic tool generates a "
+"triangular mesh contained in a new kind of column/layer: the *Mesh* column/"
+"layer. Each newly created Mesh column/layer is automatically connected to the "
+"proper TC. This link is a core point in the way Plastic works: every column/"
+"layer linked to a mesh will be deformed by it, and displayed within the mesh "
+"boundaries while rendering."
+msgstr ""
+"**塑料**工具需要Xsheet（或时间线层）中至少一列作为起始输入，其中显示一个或多个图"
+"形；从现在开始，这将被称为*纹理列*（或**TC**）。使用暴露图形的轮廓作为参考，塑料"
+"工具生成一个包含在新型柱/层中的三角形网格：*mesh*柱/层。每个新创建的网格列/层都"
+"会自动连接到适当的TC。此链接是Plastic工作方式的核心点：链接到网格的每个列/层将被"
+"其变形，并在渲染时显示在网格边界内。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:16
+msgid ""
+"For animating/deforming a Mesh level, Plastic allows the building of a specific "
+"skeleton structure active on the mesh. The skeleton is a set of connected "
+"vertices, and, for each vertex, different parameters can be specified as: "
+"**Position**, **Angle Bounds**, **Rigidity** and **Staking Order**. Thus a "
+"great range of animations and effects can easily be created."
+msgstr ""
+"为了设置网格级别的动画/变形，塑料允许在网格上构建活动的特定骨架结构。骨架是一组"
+"连接的顶点，对于每个顶点，可以指定不同的参数：**位置**、**角度边界**、**刚度**和"
+"**桩号顺序**。因此，可以轻松创建各种动画和效果。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:18
+msgid ""
+"The Plastic tool is applied to a column of the Xsheet (or layer of the "
+"Timeline), and the content of it can be an animated level."
+msgstr "塑料工具应用于Xsheet的列（或时间线的层），其内容可以是动画级别。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:24
+msgid "Building a Plastic mesh"
+msgstr "构建塑料网"
+
+#: ../../source/create_animations_using_plastic_tool.rst:25
+msgid ""
+"The first step for using Plastic is creating a mesh for the Xsheet column (or "
+"Timeline layer) that we are going to animate using the **Plastic** tool. The "
+"Mesh is a special kind of level, and can be saved as any other kind of levels."
+msgstr ""
+"使用塑料的第一步是为Xsheet列（或时间线层）创建网格，我们将使用**塑料**工具为其设"
+"置动画。网格是一种特殊的关卡，可以保存为任何其他类型的关卡。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:27
+msgid ""
+"The Mesh level can be seen as *purple* column/layer created when the button "
+"**Create Mesh** of the **Plastic** tool is pressed."
+msgstr ""
+"按下**塑料**工具的**创建网格**按钮时，网格级别可以被视为创建的*紫色*列/层。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:29
+msgid "|create_mesh|"
+msgstr "|create_mesh|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:31
+msgid ""
+"The mesh is the real object that the Plastic tool modifies when a plastic "
+"skeleton is animated. For this reason all the elements, that are going to be "
+"animated by the Plastic tool, need a mesh."
+msgstr ""
+"网格是塑料骨架设置动画时塑料工具修改的真实对象。因此，所有将由塑料工具设置动画的"
+"元素都需要一个网格。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:33
+msgid "**To create a Plastic mesh:**"
+msgstr "**要创建塑料网格，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:35
+msgid ""
+"Select the column/layer that is going to be animated using the Plastic tool. "
+"This will be the *texture-column* (TC) of the mesh that is going to be created."
+msgstr "使用塑料工具选择要设置动画的列/层。这将是要创建的网格的*纹理列*（TC）。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:37
+#: ../../source/create_animations_using_plastic_tool.rst:404
+#: ../../source/create_animations_using_plastic_tool.rst:420
+msgid "Choose the **Plastic** tool (|plastic|)"
+msgstr "选择**塑料**工具（|塑料|）"
+
+#: ../../source/create_animations_using_plastic_tool.rst:39
+msgid "Press the **Create Mesh** button in the tool options bar."
+msgstr "按下工具选项栏中的**创建网格**按钮。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:41
+msgid ""
+"Check, in the dialog that opens, the Mesh density in the preview area. Adjust "
+"as needed the density using the **Mesh Edges Length** slider."
+msgstr ""
+"在打开的对话框中，检查预览区域中的网格密度。根据需要使用**网格边长度**滑块调整密"
+"度。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:43
+msgid "|create_mesh_options|"
+msgstr "|create_mesh_options|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:45
+msgid ""
+"The density of the mesh is crucial for having smooth curves when rotating the "
+"skeleton vertex. Lower the **Mesh Edges Length** value and higher the density "
+"of the mesh will be, thus a better quality of the animation will be assured, "
+"but more computing resources will be required."
+msgstr ""
+"旋转骨架顶点时，网格的密度对于具有平滑曲线至关重要。降低**网格边长度**值并提高网"
+"格密度，可以确保更好的动画质量，但需要更多的计算资源。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:47
+msgid ""
+"The preview will show you just one level at time, even if you have selected "
+"multiple columns/layers, to check the preview of each column/layer you have to "
+"select them one by one *while* the **Plastic** tool is active. Each time you "
+"change the column/layer selection the preview will update for the new content."
+msgstr ""
+"预览一次只会显示一个级别，即使您选择了多个列/层，要检查每个列/层的预览，您必须在"
+"**塑料**工具处于活动状态时逐一选择它们。每次更改列/层选择时，预览都会针对新内容"
+"进行更新。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:49
+msgid ""
+"If needed, change the value of the **Rasterization DPI** parameter. This value "
+"represents the DPI used when the TC is rendered as a texture for the mesh. It's "
+"recommend using a value consistent with the Camera resolution. A DPI too high "
+"compared to the Camera resolution might cause the contours of the TC not to be "
+"very soft."
+msgstr ""
+"如果需要，请更改**光栅化DPI**参数的值。此值表示将TC渲染为网格纹理时使用的DPI。建"
+"议使用与相机分辨率一致的值。与相机分辨率相比，DPI过高可能会导致TC的轮廓不是很"
+"软。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:51
+msgid ""
+"The **Rasterization DPI** parameter is available only when you are creating the "
+"mesh from Toonz Vector levels."
+msgstr "**光栅化DPI**参数仅在从Toonz矢量级别创建网格时可用。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:53
+msgid ""
+"Adjust the **Mesh Margin** value. This parameter is expressed in *pixels* "
+"because it's used when the texture is projected on the mesh, an appropriate "
+"amount of margin will be needed to preserve the aliasing of the picture."
+msgstr ""
+"调整**网格边距**值。此参数以*像素*表示，因为当纹理投影到网格上时，需要适当的边距"
+"来保留图片的混叠。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:55
+msgid ""
+"If you are creating a mesh from a **Sub-Xsheet**, you can choose which elements "
+"of the Sub-Xsheet will be used by the Plastic tool for computing the mesh: "
+"simply turn off visibility for the elements that will not contribute to the "
+"mesh outline."
+msgstr ""
+"如果要从**子Xsheet**创建网格，则可以选择塑料工具将使用子Xsheet的哪些元素来计算网"
+"格：只需关闭对网格轮廓没有贡献的元素的可见性。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:57
+msgid ""
+"Click the **Apply** button to create the mesh. Now you can see the mesh drawn "
+"in *green* colour in the Viewer, and a new *purple* column in the Xsheet (or "
+"layer in the Timeline) next to the TC."
+msgstr ""
+"单击**应用**按钮创建网格。现在，您可以在查看器中看到以*绿色*绘制的网格，并在TC旁"
+"边的Xsheet（或Timeline中的层）中看到一个新的*紫色*列。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:59
+msgid ""
+"In the **Stage Schematic** you can see that the *TC* node is now connected to "
+"the *Mesh* node just created, its node has a *purple* header for easing "
+"recognition."
+msgstr ""
+"在**阶段示意图**中，您可以看到*TC*节点现在连接到刚刚创建的*Mesh*节点，其节点有一"
+"个*紫色*标头以便于识别。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:61
+msgid ""
+"If the **Create Mesh** is applied to a column/layer that is already modified by "
+"the Plastic tool (then already linked to a Mesh level) a dialog will prompt "
+"asking how to manage the new and the old Mesh files, and the user can choose "
+"from one of three options:"
+msgstr ""
+"如果**创建网格**应用于已被塑料工具修改（然后已链接到网格级别）的列/层，则会出现"
+"一个对话框，询问如何管理新旧网格文件，用户可以从三个选项中选择一个："
+
+#: ../../source/create_animations_using_plastic_tool.rst:63
+msgid "|create_mesh_warning|"
+msgstr "|create_mesh_warning|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:65
+msgid ""
+"**Delete the old level entirely** : the original mesh file is replaced by a new "
+"one with the data of the last mesh generated; a new column for the new mesh is "
+"created as the old column retains the old structure but exposes only the new "
+"created mesh."
+msgstr ""
+"如果**创建网格**应用于已被塑料工具修改（然后已链接到网格级别）的列/层，则会出现"
+"一个对话框，询问如何管理新旧网格文件，用户可以从三个选项中选择一个。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:67
+msgid ""
+"**Keep the old level and overwrite processed frames** : the original mesh file "
+"is updated and the old mesh column exposes the new content for the selected "
+"frames, a new column is created exposing just the contents of the selected "
+"frames."
+msgstr ""
+"**保留旧级别并覆盖已处理的帧**：原始网格文件被更新，旧网格列显示所选帧的新内容，"
+"创建一个新列仅显示所选框架的内容。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:69
+msgid ""
+"**Choose a different path** (same name as the original level plus _X where X is "
+"the ordinal number of the copy): an entirely new mesh file is generated and a "
+"new column exposes the new contents while the old column exposes the old ones."
+msgstr ""
+"**选择一个不同的路径**（与原始级别相同的名称加上_X，其中X是副本的序号）：生成一"
+"个全新的网格文件，一个新列显示新内容，而旧列显示旧内容。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:71
+msgid ""
+"All the above options cause the creation of a new Mesh column and the building "
+"of a chain, linking the *texture-column* and the *meshes columns* in the Stage "
+"Schematic. In this chain, the older mesh is linked to the younger and the "
+"youngest mesh is linked to the *texture-column*. Rearranging the links in the "
+"Stage Schematic can be needed for avoiding undesired results while animating."
+msgstr ""
+"上述所有选项都会创建一个新的网格列并构建一条链，将“舞台示意图”中的*纹理列*和*网"
+"格列*链接起来。在这个链中，较旧的网格链接到较年轻的网格，最年轻的网格连接到*纹理"
+"列*。可能需要重新排列舞台示意图中的链接，以避免动画制作时出现不希望的结果。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:77
+msgid "Modifying a Plastic mesh"
+msgstr "修改塑料网格"
+
+#: ../../source/create_animations_using_plastic_tool.rst:78
+msgid ""
+"It's not always easy to estimate the right density for a mesh. Sometimes a "
+"higher density could be needed to avoid *straight lines* on bending elements, "
+"or a lower density could be used for saving computing resources in a complex "
+"scene, or, simply, the drawings of an element are changed. In all this "
+"occurrences, modifying the mesh can solve the problem."
+msgstr ""
+"估计网格的正确密度并不总是那么容易。有时可能需要更高的密度来避免弯曲元素上的*直"
+"线*，或者可以使用较低的密度来节省复杂场景中的计算资源，或者简单地说，更改元素的"
+"图形。在所有这些情况下，修改网格可以解决问题。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:80
+msgid "**To update a Plastic mesh to reflect changes in the Level Strip:**"
+msgstr "**要更新塑料网格以反映标高带中的更改，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:82
+#: ../../source/create_animations_using_plastic_tool.rst:92
+msgid "Select the Mesh column/layer that needs to be modified."
+msgstr "选择需要修改的网格列/层。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:84
+msgid "Press the **Create Mesh** button."
+msgstr "按下**创建网格**按钮。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:86
+msgid ""
+"In the dialog that opens change the **Mesh Edges Length** slider value as "
+"needed, checking the result in the preview area."
+msgstr ""
+"在打开的对话框中，根据需要更改**网格边长度**滑块值，在预览区域中检查结果。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:88
+msgid ""
+"Click the **Apply** button to create the mesh. The new mesh replaces the old "
+"one, and now is visible drawn in *green* colour in the main viewer."
+msgstr ""
+"单击**应用**按钮创建网格。新网格取代了旧网格，现在可以在主查看器中看到以*绿色*绘"
+"制的网格。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:90
+msgid "**To add new mesh frames to an existing mesh level:**"
+msgstr "**要将新网格框架添加到现有网格级别，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:94
+msgid ""
+"Create the new frames (inserting or appending them) as it's usually done for "
+"any standard Toonz level, corresponding to the new frames created for the "
+"*Texture Column*."
+msgstr ""
+"创建新帧（插入或附加它们），就像通常为任何标准Toanz级别所做的那样，对应于为*纹理"
+"列创建的新帧*。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:96
+msgid "Activate the **Plastic** tool."
+msgstr "激活**塑料**工具。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:98
+msgid ""
+"Press the **Create Mesh** button and adjust the **Mesh Edges Length** slider."
+msgstr "按下**创建网格**按钮并调整**网格边长度**滑块。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:100
+msgid "Press the **Apply** button."
+msgstr "按下**应用**按钮。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:106
+msgid "Edit a Plastic mesh"
+msgstr "编辑塑料网"
+
+#: ../../source/create_animations_using_plastic_tool.rst:107
+msgid ""
+"The mesh created using the **Create Mesh** button can be edited in several "
+"ways. It's possible to: Move a mesh point, Swap, Collapse, Split and Cut the "
+"mesh by its edges."
+msgstr ""
+"使用**创建网格**按钮创建的网格可以通过多种方式进行编辑。可以执行以下操作：移动网"
+"格点、交换、折叠、拆分和按边缘切割网格。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:109
+msgid "|edit_mesh_mode|"
+msgstr "|edit_mesh_mode|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:111
+msgid ""
+"**Swap** an edge if you want to change the shape of a mesh triangle; "
+"**Collapse** an edge if you want to join the ends of the edge; **Split** an "
+"edge if you want to increase the density of the mesh at any given point; "
+"**Cut** the mesh if you want to duplicate an edge to have the possibility, for "
+"example, to create a hole in the mesh and be able to animate it."
+msgstr ""
+"**如果要更改网格三角形的形状，请交换**边；**如果要连接边的端点，请折叠**边；**如"
+"果要在任何给定点增加网格的密度，请分割**边；**如果你想复制一条边，可以剪切**网"
+"格，例如，在网格中创建一个孔并为其设置动画。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:113
+msgid "The **Cut Mesh** command is visible only if the selected edges can be cut."
+msgstr "**剪切网格**命令仅在可以剪切选定边时可见。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:115
+msgid "**To enter Plastic mesh editing mode:**"
+msgstr "**要进入塑料网格编辑模式，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:117
+msgid "Select the mesh column/layer you want to modify."
+msgstr "选择要修改的网格柱/层。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:119
+#: ../../source/create_animations_using_plastic_tool.rst:179
+msgid "If not already active, choose the **Plastic** tool (|plastic|)"
+msgstr "如果尚未激活，请选择**塑料**工具（|Plastic|）"
+
+#: ../../source/create_animations_using_plastic_tool.rst:121
+msgid "In the Tool Options bar set the **Mode:** to **Edit Mesh**."
+msgstr "在工具选项栏中，将**模式：**设置为**编辑网格**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:123
+msgid "**To move selected mesh points:**"
+msgstr "**要移动选定的网格点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:125
+msgid ""
+"Select the mesh points you want to modify. Use the **Ctrl** key to select "
+"multiple points. Selected mesh points become *red*."
+msgstr "选择要修改的网格点。使用**Ctrl+*键选择多个点。选定的网格点变为*红色*。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:127
+msgid "Drag to move the point to its new position."
+msgstr "拖动以将点移动到其新位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:129
+msgid "**To swap an edge of the mesh:**"
+msgstr "**要交换网格的边，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:131
+#: ../../source/create_animations_using_plastic_tool.rst:141
+#: ../../source/create_animations_using_plastic_tool.rst:149
+msgid "Select a mesh edge."
+msgstr "选择网格边。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:133
+#: ../../source/create_animations_using_plastic_tool.rst:143
+#: ../../source/create_animations_using_plastic_tool.rst:151
+#: ../../source/create_animations_using_plastic_tool.rst:159
+msgid "Click the right mouse button to open the context menu."
+msgstr "单击鼠标右键打开上下文菜单。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:135
+msgid "Choose the **Swap Edge** command."
+msgstr "选择**交换边**命令。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:137
+msgid "|swap-collapse-split_edge|"
+msgstr "|swap-collapse-split_edge|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:139
+msgid "**To collapse an edge of the mesh:**"
+msgstr "**要折叠网格的边缘，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:145
+msgid "Choose the **Collapse Edge** command."
+msgstr "选择**折叠边**命令。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:147
+msgid "**To split an edge of the mesh:**"
+msgstr "**要分割网格的边，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:153
+msgid "Choose the **Split Edge** command."
+msgstr "选择**分割边**命令。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:155
+msgid "**To cut edges of the mesh:**"
+msgstr "**要切割网格的边缘，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:157
+msgid "Select several mesh edges."
+msgstr "选择多条网格边。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:161
+msgid "Choose the **Cut Mesh** command."
+msgstr "选择**剪切网格**命令。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:163
+msgid "|cut_mesh|"
+msgstr "|cut_mesh|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:169
+msgid "Building a Plastic skeleton"
+msgstr "构建塑料骨架"
+
+#: ../../source/create_animations_using_plastic_tool.rst:170
+msgid ""
+"The Plastic skeleton is a control structure linked to a mesh level that "
+"provides handles for deforming/animating the chosen elements of the Xsheet/"
+"Timeline."
+msgstr ""
+"塑料骨架是一个链接到网格级别的控制结构，它提供了用于对Xsheet/Timeline的选定元素"
+"进行变形/设置动画的控制柄。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:172
+msgid "|build_skeleton_mode|"
+msgstr "|build_skeleton_mode|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:175
+msgid "**To create a Plastic skeleton:**"
+msgstr "**要创建塑料骨架，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:177
+msgid "Select in the mesh column/layer for which you want to build the skeleton."
+msgstr "在要为其构建骨架的网格列/层中选择。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:181
+msgid "In the Tool Options bar set the **Mode:** to **Build Skeleton**."
+msgstr "在工具选项栏中，将**模式：**设置为**构建骨架**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:183
+msgid ""
+"Move the mouse pointer on the Viewer. A small red square is now visible near "
+"the tip of the cursor."
+msgstr "在查看器上移动鼠标指针。光标尖端附近现在可以看到一个红色的小方块。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:185
+msgid "|build_skeleton|"
+msgstr "|build_skeleton|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:187
+msgid ""
+"In the Viewer click (to set in place) or click and drag (to adjust its "
+"positioning) to place the first vertex. A *purple* square is now visible in the "
+"Viewer."
+msgstr ""
+"在查看器中，单击（设置到位）或单击并拖动（调整其位置）以放置第一个顶点。现在查看"
+"器中可以看到一个*紫色*正方形。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:189
+msgid ""
+"The first time you release the mouse button, you are setting the position of "
+"the parent of all the hierarchy, *the Root vertex*. This vertex differs "
+"visually from the others vertices: its square is solid while the others are "
+"hollow in the middle, giving a visual hint for determining the right "
+"hierarchical order in the skeleton chains. The **Root vertex** will be *static* "
+"in **Animate** mode, but it can still be moved while in **Build Skeleton** mode "
+"by selecting it and dragging."
+msgstr ""
+"第一次释放鼠标按钮时，您正在设置所有层次的父级位置，即根顶点。该顶点在视觉上与其"
+"他顶点不同：它的方形是实心的，而其他顶点中间是空心的，这为确定骨骼链中的正确层次"
+"顺序提供了视觉提示。**根顶点**在**动画**模式下将是*静态*的，但在**构建骨架**模式"
+"下，通过选择并拖动，它仍然可以移动。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:191
+msgid ""
+"Move to the position where you want to add the second vertex and click or click "
+"and drag to place it. An *orange* line with a black border will connect the two "
+"vertices."
+msgstr ""
+"移动到要添加第二个顶点的位置，然后单击或单击并拖动以放置它。一条带黑色边框的*橙"
+"色*线将连接这两个顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:193
+msgid ""
+"Continue clicking or clicking and dragging until all the vertices are in the "
+"right places and the skeleton is completed."
+msgstr "继续单击或单击并拖动，直到所有顶点都在正确的位置，骨架完成。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:199
+msgid "Using multiple skeletons on a mesh level"
+msgstr "在网格级别上使用多个骨架"
+
+#: ../../source/create_animations_using_plastic_tool.rst:200
+msgid ""
+"Every mesh level uses at least one skeleton for animating, but this is just the "
+"easier configuration for working: a mesh level can have multiple skeletons "
+"active at different frames for building more complex animations: like a "
+"character turn-around, or for animating a level with multiple drawings of "
+"different shapes. Every time the drawings change in shape, a new *ad-hoc* "
+"skeleton structure can be built with the number of vertices needed and placed "
+"in the right positions."
+msgstr ""
+"每个网格级别都至少使用一个骨架进行动画制作，但这只是更容易操作的配置：一个网格级"
+"别可以在不同的帧上有多个活动的骨架，用于构建更复杂的动画：比如角色转身，或者用不"
+"同形状的多个图形为级别制作动画。每当图形的形状发生变化时，都可以使用所需的顶点数"
+"量构建一个新的“ad-hoc”骨架结构，并将其放置在正确的位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:202
+msgid "|multiple_skeletons|"
+msgstr "|multiple_skeletons|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:205
+msgid "**To add a new skeleton on a mesh level**"
+msgstr "**在网格级别上添加新骨架的步骤**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:207
+msgid ""
+"In the Xsheet/Timeline select the Mesh level and the frame where the new "
+"skeleton is needed."
+msgstr "在Xsheet/Timeline中，选择网格级别和需要新骨架的帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:209
+msgid ""
+"In the Tool Options bar press the **+** button to the right of the options menu "
+"labeled **Skeleton:**. A new numeric entry is added to the list and a keyframe "
+"is created at the selected frame."
+msgstr ""
+"在工具选项栏中，按标签为**骨架：**的选项菜单右侧的**+**按钮。新的数字条目将添加"
+"到列表中，并在所选帧处创建关键帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:211
+msgid "Start building the new skeleton as usual."
+msgstr "像往常一样开始构建新骨架。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:213
+msgid "**To link an available skeleton to a chosen frame of a mesh level**"
+msgstr "**将可用骨架链接到网格级别的选定框架的步骤**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:215
+msgid ""
+"In the Xsheet/Timeline select the frame of the Mesh level where the skeleton "
+"has to change."
+msgstr "在Xsheet/Timeline中，选择骨架必须更改的网格级别的帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:217
+msgid ""
+"In the Tool Options bar open the option menu labeled **Skeleton:**, a list of "
+"the ID numbers of the already built skeletons opens."
+msgstr ""
+"在工具选项栏中打开标记为**骨架：**的选项菜单，将打开已构建骨架的ID号列表。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:219
+msgid "Select the **ID number** matching the skeleton you need."
+msgstr "选择与所需骨架匹配的**ID号**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:221
+msgid ""
+"The selected skeleton is now visible in the main Viewer, and a keyframe is "
+"created at the chosen frame."
+msgstr "选定的骨架现在在主查看器中可见，并在选定的帧处创建关键帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:223
+msgid "**To delete a skeleton from the Skeleton list**"
+msgstr "**从“骨架”列表中删除骨架**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:225
+msgid ""
+"In the Xsheet/Timeline select the Mesh level owning the skeleton that has to be "
+"deleted."
+msgstr "在Xsheet/Timeline中，选择拥有必须删除的骨架的网格级别。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:227
+msgid ""
+"Select from the **Skeleton:** drop down the **ID** matching the skeleton to "
+"delete."
+msgstr "从**骨架：**下拉列表中选择与要删除的骨架匹配的**ID**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:229
+msgid "Press the **-** button."
+msgstr "按下**-**按钮。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:235
+msgid "Modifying a Plastic skeleton"
+msgstr "修改塑料骨架"
+
+#: ../../source/create_animations_using_plastic_tool.rst:236
+msgid ""
+"While drawing the skeleton or after finishing its creation, some adjustments to "
+"the positions or the number of vertices may be required:"
+msgstr ""
+"While drawing the skeleton or after finishing its creation, some adjustments to "
+"the positions or the number of vertices may be required:"
+
+#: ../../source/create_animations_using_plastic_tool.rst:238
+msgid "**To Select a vertex:**"
+msgstr "**要选择顶点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:240
+msgid ""
+"While in **Build Skeleton** mode, move the mouse pointer on an already placed "
+"vertex."
+msgstr "在**构建骨架**模式下，将鼠标指针移动到已放置的顶点上。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:242
+msgid ""
+"Click, when the name of the vertex appears and a dashed square encloses the "
+"vertex position."
+msgstr "当顶点名称出现并且虚线方块包围顶点位置时，单击。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:244
+msgid "**To Delete a vertex:**"
+msgstr "**要删除顶点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:246
+msgid ""
+"While in **Build Skeleton** mode, select the vertex that has to be deleted."
+msgstr "在**构建骨架**模式下，选择必须删除的顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:248
+msgid "Press the **Del** key."
+msgstr "按**Del**键。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:250
+msgid "**To Insert a vertex:**"
+msgstr "**要插入顶点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:252
+msgid ""
+"While in **Build Skeleton** mode, move the mouse pointer over the line "
+"connecting the two vertices that need a vertex between them."
+msgstr ""
+"在**构建骨架**模式下，将鼠标指针移动到连接两个顶点的线上，这两个顶点之间需要一个"
+"顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:254
+msgid ""
+"Click to set the new vertex in place, or click and drag to adjust the position "
+"of the new vertex."
+msgstr "单击以将新顶点设置到位，或单击并拖动以调整新顶点的位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:256
+msgid "**To Move a vertex:**"
+msgstr "**要移动顶点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:258
+msgid "Click on the vertex to select it, and drag for adjusting its position."
+msgstr "单击顶点以选择它，然后拖动以调整其位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:260
+msgid "**To Prevent a vertex from Stretching the mesh:**"
+msgstr "**要防止顶点拉伸网格，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:262
+msgid "Select the vertex that you wish to modify."
+msgstr "选择要修改的顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:264
+msgid "Uncheck the **Allow Stretching** option in the Tool Options bar."
+msgstr "取消选中工具选项栏中的**允许拉伸**选项。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:266
+msgid ""
+"The square marking the vertex position becomes *yellow*, and from now on the "
+"vertex *will not stretch* the Mesh while you are moving it."
+msgstr ""
+"标记顶点位置的正方形变为*黄色*，从现在开始，在移动网格时，顶点*将不会拉伸*网格。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:268
+msgid "**To Snap a vertex to the mesh**"
+msgstr "**将顶点捕捉到网格的步骤**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:270
+msgid "While in **Build Skeleton** mode, activate the **Snap To Mesh** option."
+msgstr "在**构建骨架**模式下，激活**捕捉到网格**选项。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:272
+msgid "Select the vertex you wish to snap."
+msgstr "选择要捕捉的顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:274
+msgid "Drag it near the *mesh point* at which you want to snap it."
+msgstr "将其拖动到要捕捉它的*网格点*附近。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:276
+msgid "**To Branch the skeleton:**"
+msgstr "**要分支骨架，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:278
+msgid ""
+"While in **Build Skeleton** mode, **select the vertex** from which the new "
+"branch will start."
+msgstr "在**构建骨架**模式下，**选择新分支将从中开始的顶点**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:280
+msgid ""
+"Move to the position where the first vertex of the new branch will be "
+"positioned."
+msgstr "移动到新分支的第一个顶点所在的位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:282
+msgid "Click to create it."
+msgstr "单击以创建它。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:284
+msgid "**To Copy a skeleton:**"
+msgstr "**要复制骨架，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:286
+msgid ""
+"While in **Build Skeleton** mode, **select the Root vertex** and click the "
+"right mouse button."
+msgstr "在**构建骨架**模式下，**选择根顶点**并单击鼠标右键。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:288
+msgid "From the context menu that opens, select the **Copy Skeleton** option."
+msgstr "从打开的上下文菜单中，选择**复制骨架**选项。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:290
+msgid "|copy_skeleton|"
+msgstr "|copy_skeleton|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:292
+msgid "**To Paste a skeleton:**"
+msgstr "**要粘贴骨架，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:294
+msgid "Select a mesh column in the Xsheet/Timeline."
+msgstr "在Xsheet/Timeline中选择网格列。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:296
+msgid "If needed press the **+** button to create a new empty skeleton."
+msgstr "如果需要，按**+**按钮创建新的空骨架。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:298
+msgid "Click the right mouse button and select the **Paste Skeleton** option."
+msgstr "单击鼠标右键并选择**粘贴骨架**选项。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:300
+msgid ""
+"Pasting the skeleton on *an already existing one* will cause the deletion of "
+"the old structure and all its animation. This can be reverted to the previous "
+"state by using the **Undo** command."
+msgstr ""
+"将骨架粘贴到*已有的骨架上*将导致删除旧结构及其所有动画。使用**撤消**命令可以将其"
+"恢复到以前的状态。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:306
+msgid "Animating Plastic elements"
+msgstr "塑料元素动画"
+
+#: ../../source/create_animations_using_plastic_tool.rst:307
+msgid ""
+"Creating an animation in Plastic is quite an easy task: just select the "
+"vertices and move them to the desired positions at a specific frames and "
+"animation keyframes will be automatically created. Play back the sequence to "
+"check the results."
+msgstr ""
+"在Plastic中创建动画是一项非常简单的任务：只需选择顶点并将其移动到特定帧的所需位"
+"置，就会自动创建动画关键帧。播放序列以检查结果。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:309
+msgid "|animate_mode|"
+msgstr "|animate_mode|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:311
+msgid "**To animate Plastic elements:**"
+msgstr "**要设置塑料元素的动画，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:313
+msgid "Select the mesh column/layer you like to animate."
+msgstr "选择要设置动画的网格列/层。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:315
+msgid ""
+"Select **Plastic** tool and set **Mode:** to **Animate**. Now, in the Viewer, "
+"you can see the skeleton and the mesh of the selected column/layer."
+msgstr ""
+"选择**塑料**工具并将**模式：**设置为**动画**。现在，在查看器中，您可以看到选定"
+"列/层的骨架和网格。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:317
+msgid "Select the first frame of the animation in the Xsheet/Timeline."
+msgstr "在X表格/时间线中选择动画的第一帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:319
+msgid ""
+"Select the *vertices* of the skeleton and move them to the desired positions to "
+"set the relative keyframes, or write the desired values into the text fields of "
+"the Tool Options bar."
+msgstr ""
+"选择骨架的*顶点*，并将其移动到所需的位置以设置相对关键帧，或将所需的值写入工具选"
+"项栏的文本字段。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:321
+msgid ""
+"Move to the next keyframe of the animation and modify the vertices positions to "
+"define a new pose."
+msgstr "移动到动画的下一个关键帧，并修改顶点位置以定义新的姿势。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:323
+msgid "Repeat the step 5 until the end the animation is finished."
+msgstr "重复步骤5，直到动画结束。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:325
+msgid "**To Set a Rest Position key for one vertex:**"
+msgstr "**要为一个顶点设置“静止位置”关键点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:327
+msgid ""
+"The first time you draw a skeleton you are also creating the *rest position* of "
+"this structure. This pose is automatically stored and you can recall it on any "
+"vertex."
+msgstr ""
+"第一次绘制骨架时，您也在创建此结构的*静止位置*。此姿势会自动存储，您可以在任何顶"
+"点上回忆它。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:329
+#: ../../source/create_animations_using_plastic_tool.rst:341
+msgid "Select a vertex and click the right mouse button."
+msgstr "选择一个顶点并单击鼠标右键。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:331
+msgid "From the context menu that opens, select **Set Rest Key**."
+msgstr "从打开的上下文菜单中，选择**设置静止键**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:333
+msgid ""
+"A new keyframe at the current frame is created for the vertex, using its *rest "
+"values*."
+msgstr "使用顶点的*rest值*为当前帧创建一个新的关键帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:335
+msgid "|set_keys|"
+msgstr "|set_keys|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:337
+msgid "**To Set a Global Rest Position key for the whole skeleton:**"
+msgstr "**要为整个骨架设置全局静止位置关键点，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:339
+msgid ""
+"The first time you draw a skeleton you are also creating the *rest position* of "
+"this structure. This pose is automatically stored and you can recall it on all "
+"the vertices."
+msgstr ""
+"第一次绘制骨架时，您也在创建此结构的*静止位置*。此姿势会自动存储，您可以在所有顶"
+"点上回忆它。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:343
+msgid "From the context menu that opens, select **Set Global Rest Key**."
+msgstr "从打开的上下文菜单中，选择**设置全局静止键**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:345
+msgid ""
+"A new keyframe at the current frame is created for all the vertices, using "
+"their *rest values*."
+msgstr "使用所有顶点的*rest值*为当前帧创建一个新的关键帧。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:347
+msgid "**To preserve the distance between vertices while animating:**"
+msgstr "**要在设置动画时保留顶点之间的距离，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:349
+msgid ""
+"If it's required that the distance between two joints stays constant during the "
+"animation, check the **Keep Distance** checkbox in the Tool Options bar."
+msgstr ""
+"如果要求在动画过程中两个关节之间的距离保持恒定，请选中工具选项栏中的**保持距离**"
+"复选框。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:351
+msgid "|keep_distance|"
+msgstr "|keep_distance|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:353
+msgid "**To Set Keyframes on all vertices at the same time:**"
+msgstr "**要同时在所有顶点上设置关键帧，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:355
+msgid ""
+"By default when you move a vertex in **Animate** mode, you set a keyframe just "
+"for this selected vertex. For setting a keyframe simultaneously for all the "
+"vertices of the skeleton, when just moving one of them, check the **Global "
+"Key** checkbox."
+msgstr ""
+"默认情况下，在**动画**模式下移动顶点时，仅为此选定顶点设置关键帧。要为骨架的所有"
+"顶点同时设置关键帧，只需移动其中一个顶点，请选中**全局关键帧**复选框。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:357
+msgid "**To Set a Keyframe for a vertex which hasn’t changed position:**"
+msgstr "**要为未改变位置的顶点设置关键帧，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:359
+msgid "Select the vertex for which you want to create a keyframe."
+msgstr "选择要为其创建关键帧的顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:361
+#: ../../source/create_animations_using_plastic_tool.rst:369
+msgid "Click the right mouse button."
+msgstr "单击鼠标右键。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:363
+msgid "Select the **Set Key** option from the context menu that opens."
+msgstr "从打开的上下文菜单中选择**设置键**选项。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:365
+msgid ""
+"**To Set a Keyframe for all the skeleton vertices which hasn’t changed position:"
+"**"
+msgstr "**要为所有未改变位置的骨架顶点设置关键帧，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:367
+msgid "Select a skeleton vertex."
+msgstr "选择骨架顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:371
+msgid "Select the **Set Global Key** option from the context menu that opens."
+msgstr "从打开的上下文菜单中选择**设置全局键**选项。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:373
+msgid "**To animate the Stacking Order of a vertex:**"
+msgstr "**要设置顶点堆叠顺序的动画，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:375
+msgid ""
+"Using Plastic you can simulate the effect of overlapping limbs defining a "
+"stacking order for the vertices involved in the animation."
+msgstr "使用“塑料”可以模拟重叠肢体的效果，为动画中涉及的顶点定义堆叠顺序。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:377
+msgid "Select the vertex you wish to animate."
+msgstr "选择要设置动画的顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:379
+msgid ""
+"Input the **Stacking Order** value you wish to assign to the vertex into the "
+"**SO** text field in the Tool Options bar."
+msgstr "在工具选项栏的**SO**文本字段中输入要指定给顶点的**堆叠顺序**值。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:381
+msgid ""
+"Plastic stacking order is a *per vertex* characteristic, you have to define the "
+"value you wish for each vertex required. The default value is 0 for all "
+"vertices, and can be modified freely using positive or negative values as "
+"needed."
+msgstr ""
+"塑料堆叠顺序是一个*逐顶点*特征，您必须为每个所需顶点定义所需的值。所有顶点的默认"
+"值为0，可以根据需要使用正值或负值自由修改。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:383
+msgid "**To define an Angle Bounds for a vertex:**"
+msgstr "**要为顶点定义角度边界，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:385
+msgid "Select the desired vertex."
+msgstr "选择所需的顶点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:387
+msgid ""
+"Set the minimum and maximum **Angle Bounds** values for the vertex rotation."
+msgstr "设置顶点旋转的最小和最大**角度边界**值。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:393
+msgid "Defining Rigidity for a Plastic mesh"
+msgstr "定义塑料网格的刚度"
+
+#: ../../source/create_animations_using_plastic_tool.rst:394
+msgid ""
+"In many occasions it may be required that certain portions of a Mesh that's "
+"being animated using the Plastic tool, preserve their shape even if following "
+"the overall transformations of the whole element, simulating a more *rigid "
+"structure* or a part of it. To achieve this kind of effect a **Rigidity** value "
+"can be painted directly on the Mesh."
+msgstr ""
+"在许多情况下，可能需要使用塑料工具设置动画的网格的某些部分保持其形状，即使遵循整"
+"个元素的整体变换，模拟更刚性的结构或其一部分。为了实现这种效果，可以直接在网格上"
+"绘制**刚度**值。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:396
+msgid "|paint_rigid_mode|"
+msgstr "|paint_rigid_mode|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:398
+msgid ""
+"When activating the **Paint Rigid** mode in the **Plastic** Tool Options bar, a "
+"specific drawing tool becomes available. In the Viewer a *red circle* is "
+"visible near the tip of the mouse pointer, the size of the circle is the size "
+"of the brush you are going to use for painting the rigidity on the mesh."
+msgstr ""
+"在**塑料**工具选项栏中激活**绘制刚性**模式时，特定的绘图工具将可用。在查看器中，"
+"鼠标指针尖端附近可见一个*红色圆圈*，圆圈的大小是您将用于在网格上绘制刚性的画笔的"
+"大小。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:400
+msgid "**To paint Rigidity on a mesh:**"
+msgstr "**要在网格上绘制“刚性”，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:402
+#: ../../source/create_animations_using_plastic_tool.rst:418
+msgid "Select the mesh column/layer in the Xsheet/Timeline."
+msgstr "在Xsheet/Timeline中选择网格列/层。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:406
+#: ../../source/create_animations_using_plastic_tool.rst:422
+msgid "Set the **Mode:** to **Paint Rigid**."
+msgstr "将**模式：**设置为**绘制刚性**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:408
+#: ../../source/create_animations_using_plastic_tool.rst:424
+msgid ""
+"Set the size of the brush moving the **Thickness** slider or entering a value "
+"into the text field."
+msgstr "设置画笔的大小，移动**厚度**滑块或在文本字段中输入值。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:410
+msgid ""
+"Select **Rigid** from the option menu to the right of the Thickness slider "
+"(**Rigid** is the default value)."
+msgstr "从“厚度”滑块右侧的选项菜单中选择**刚性**（**刚性**是默认值）。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:412
+msgid ""
+"Move the cursor on the Viewer and start painting on the selected Mesh. The "
+"colour of the mesh will change to *red* where painted. Now the *red* areas "
+"behave as *rigid* portions of the Mesh."
+msgstr ""
+"在查看器上移动光标，开始在选定的网格上绘制。网格的颜色将在涂漆处变为*红色*。现"
+"在，*红色*区域表现为网格的*刚性*部分。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:414
+msgid "|paint_rigid_options_rigid|"
+msgstr "|paint_rigid_options_rigid|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:416
+msgid "**To modify, correct, erase Rigidity on a mesh:**"
+msgstr "**要修改、更正、擦除网格上的“刚性”，请执行以下操作：**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:426
+msgid "Select **Flex** from the option menu to the right of the Thickness slider."
+msgstr "从“厚度”滑块右侧的选项菜单中选择**Flex**。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:428
+msgid ""
+"Move the cursor on the Viewer and start painting on the selected Mesh. The "
+"colour of the mesh will change to *green* where painted. Now the *green* areas "
+"behave as *flexible* portions of the Mesh."
+msgstr ""
+"在查看器上移动光标，开始在选定的网格上绘制。网格的颜色将在涂漆处变为“绿色”。现"
+"在，*绿色*区域表现为网格的*柔性*部分。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:430
+msgid "|paint_rigid_options_flex|"
+msgstr "|paint_rigid_options_flex|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:432
+msgid ""
+"The default colour of a mesh is *green*; it means that the whole mesh is "
+"*flexible*. The *red* colour is used to point out the *rigid* areas of the mesh "
+"(if there are any defined). But if a mesh is all painted in red colour it "
+"behaves as a flexible one too."
+msgstr ""
+"网格的默认颜色为*绿色*；这意味着整个网格是柔性的。*红色*用于指出网格的*刚性*区域"
+"（如果有任何定义）。但如果一个网格全部涂成红色，它也会表现得像一个灵活的网格。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:438
+msgid "Displaying Plastic elements and properties"
+msgstr "显示塑料元素和属性"
+
+#: ../../source/create_animations_using_plastic_tool.rst:439
+msgid ""
+"While working with the Plastic tool there is an easy way for customizing which "
+"information have to be displayed in the Viewer. Clicking the right mouse button "
+"on the Viewer *while* the **Plastic** tool is active brings up a context menu. "
+"There are four checkboxes that set the display properties for the Mesh, the "
+"**Rigidity**, the **SO** (Stacking Order) and the **Skeleton Onion Skin**."
+msgstr ""
+"在使用塑料工具时，有一种简单的方法可以定制哪些信息必须显示在查看器中。当**塑料**"
+"工具处于活动状态时，在查看器*上单击鼠标右键会打开一个上下文菜单。有四个复选框可"
+"以设置网格、**刚度**、**SO**（堆叠顺序）和**骨架洋葱皮**的显示属性。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:441
+msgid "|display_options|"
+msgstr "|display_options|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:443
+msgid ""
+"If **Show Mesh** is enabled, the mesh will be visible as a triangulated wire "
+"frame shape."
+msgstr "如果启用了**显示网格**，网格将显示为三角线框形状。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:445
+msgid "|display_options_mesh|"
+msgstr "|display_options_mesh|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:447
+msgid ""
+"If **Show Rigidity** is enabled, continuous *green* areas will show the "
+"flexibility, while *red* areas will show rigidity."
+msgstr ""
+"如果启用**显示刚性**，连续的*绿色*区域将显示灵活性，而*红色*区域将表示刚性。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:449
+msgid "|display_options_rigidity|"
+msgstr "|display_options_rigidity|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:451
+msgid ""
+"If **Show SO** is enabled *a grey shading* shows the Stacking Order values of "
+"the vertices, where lighter areas will be on top, and darker ones behind."
+msgstr ""
+"如果启用了**Show SO**，*灰色阴影*将显示顶点的堆叠顺序值，其中较亮的区域将在顶"
+"部，较暗的区域在后面。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:453
+msgid "|display_options_so|"
+msgstr "|display_options_so|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:455
+msgid ""
+"If **Show Skeleton Onion Skin** is enabled, ghosts of the skeleton at the "
+"selected frames will be displayed with incremental levels of transparency."
+msgstr ""
+"如果启用了**显示骨架洋葱皮**，则所选帧处的骨架重影将以递增的透明度级别显示。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:457
+msgid "|display_options_onion_skin|"
+msgstr "|display_options_onion_skin|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:459
+msgid ""
+"All of this information can be displayed at once (by checking all the options), "
+"giving an overall description of the vertices state."
+msgstr ""
+"所有这些信息都可以一次显示（通过选中所有选项），从而对顶点状态进行总体描述。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:465
+msgid "Parenting Plastic levels using vertices and hooks"
+msgstr "使用顶点和钩子为塑料层设置家长"
+
+#: ../../source/create_animations_using_plastic_tool.rst:466
+msgid ""
+"For building interesting and complex animations it could be useful and time "
+"saving to create a hierarchical relationship between standard levels and "
+"Plastic modified levels, or between Plastic modified levels themselves, so that "
+"the children levels inherit the transformations of the parent automatically. "
+"It's always possible to link the levels using the column/layer center as "
+"target, but what if something more subtler is needed as using *Hooks*? We have "
+"already described similar techniques for OpenToonz standard elements (see  :ref:"
+"`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), "
+"but Plastic modified levels works in a slightly different way because the Hook "
+"tool *is not* enabled on this kind of levels. Plastic modified levels use their "
+"skeleton vertices instead of the hook points."
+msgstr ""
+"为了构建有趣而复杂的动画，在标准级别和塑料修改级别之间，或塑料修改级别本身之间创"
+"建层次关系，这样子级别会自动继承父级别的变换，这可能会很有用，也会节省时间。总是"
+"可以使用列/层中心作为目标来链接级别，但如果需要使用*Hooks*等更微妙的东西呢？我们"
+"已经描述了OpenToonz标准元素的类似技术（参见：ref:`链接对象<Linking_Objects>`或："
+"ref:使用钩子<Using_Hooks>），但塑料修改的关卡的工作方式略有不同，因为在这种关卡"
+"上没有启用钩子工具*。塑料修改的标高使用其骨架顶点而不是钩点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:468
+msgid "**To link a standard level to a Plastic modified level**"
+msgstr "**将标准标高链接到塑料修改标高**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:470
+msgid "Select in the Xsheet/Timeline the level that has to be linked."
+msgstr "在Xsheet/Timeline中选择必须链接的级别。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:472
+msgid ""
+"Use the **Hook** tool in the Viewer to create a hook on the spot that will be "
+"used as pivot for the level."
+msgstr "使用查看器中的**挂钩**工具在现场创建一个挂钩，该挂钩将用作标高的枢轴。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:474
+msgid ""
+"Go to the Stage Schematic and select the node of the column/layer that has to "
+"be linked. Click on the small square on its left side, and drag to one of the "
+"small squares on the right side of the Plastic modified node target of the "
+"link. Now the two levels are linked but the reference points for the link are "
+"probably wrong (by default the column/layer centers are used)."
+msgstr ""
+"转到“阶段示意图”，选择必须链接的列/层的节点。单击其左侧的小方块，然后拖动到链接"
+"的塑料修改节点目标右侧的小方块之一。现在，这两个级别已链接，但链接的参考点可能错"
+"误（默认情况下使用列/图层中心）。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:476
+msgid ""
+"Hover on the small square on the left side of the node of the standard level "
+"until two small arrows (pointing up and down) appear."
+msgstr "将鼠标悬停在标准标高节点左侧的小方块上，直到出现两个小箭头（指向上下）。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:478
+msgid ""
+"Click on the arrows and drag to change the value in the small square. Stop when "
+"**the number of the hook point** that has to be used as pivot point is reached. "
+"In the Viewer the level moves using the chosen point as new center."
+msgstr ""
+"单击箭头并拖动以更改小方块中的值。当**达到必须用作枢轴点的钩点**的数量时停止。在"
+"查看器中，以所选点为新中心移动标高。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:480
+msgid ""
+"Do the same procedure of point 5 on the small square on the right of the "
+"Plastic modified node that was used as target for the link. Select **the number "
+"of the skeleton vertex** that has to be used as target reference point for the "
+"link. Into the Viewer the standard level moves to overlap the position of the "
+"hook point selected as reference to the position of the skeleton vertex "
+"selected on the Plastic modified level."
+msgstr ""
+"执行与用作链接目标的塑料修改节点右侧小方块上的点5相同的程序。选择**必须用作链接"
+"目标参考点的骨架顶点的编号**。在查看器中，标准标高移动到与选定为参照的钩点的位置"
+"重叠，以与在塑料修改标高上选定的骨架顶点的位置重叠。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:482
+msgid ""
+"A mirror procedure can be used for linking a Plastic modified level to a "
+"standard level."
+msgstr "镜像程序可用于将塑料修改标高链接到标准标高。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:484
+msgid "**To link Plastic modified levels**"
+msgstr "**链接塑料改性层**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:486
+msgid ""
+"The procedure requires that all the levels involved and that need to be linked "
+"using determined positions, have at least one skeleton built and one of its "
+"vertices has to be positioned at the desired spot for the linking. As said, the "
+"Hook tool doesn’t work on the Plastic modified levels so, for exact "
+"positioning, skeleton vertices are needed as reference points both on the "
+"source and on the target of the link."
+msgstr ""
+"该程序要求所有涉及的级别以及需要使用确定位置链接的级别至少构建一个骨架，并且其顶"
+"点之一必须位于链接所需的位置。如上所述，Hook工具在塑料修改的标高上不起作用，因"
+"此，为了精确定位，需要骨架顶点作为链接源和目标上的参考点。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:488
+msgid ""
+"Go to the Stage Schematic and select the node of the column/layer that has to "
+"be linked. Click on the small square on its left side, and drag to one of the "
+"small squares on the right side of the target of the link. Now the two levels "
+"are linked but the reference points for the link are probably wrong (by default "
+"the column/layer centers are used)."
+msgstr ""
+"转到“阶段示意图”，选择必须链接的列/层的节点。单击其左侧的小方块，然后拖动到链接"
+"目标右侧的小方块之一。现在，这两个级别已链接，但链接的参考点可能错误（默认情况下"
+"使用列/图层中心）。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:490
+msgid ""
+"Hover on the small square on the left of the node of the first node until two "
+"small arrows appear."
+msgstr "将鼠标悬停在第一个节点左侧的小方块上，直到出现两个小箭头。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:492
+msgid ""
+"Click on the arrows and drag to change the value in the small square. Stop when "
+"**the number of the skeleton vertex** point that has to be used as pivot point "
+"is reached. In the Viewer the level adjusts its position in respect of the new "
+"selected center."
+msgstr ""
+"单击箭头并拖动以更改小方块中的值。当达到必须用作枢轴点的骨架顶点**点的数量时停"
+"止。在查看器中，标高会调整其相对于新选定中心的位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:494
+msgid ""
+"Do the same procedure of point 3 on the small square on the right of the "
+"Plastic modified node that was used as target for the link. Select **the number "
+"of the skeleton vertex** that has to be used as target reference point for the "
+"link. Into the Viewer the first level moves to overlap the position of its "
+"selected skeleton vertex to that of the target skeleton vertex just selected."
+msgstr ""
+"执行与用作链接目标的塑料修改节点右侧小方块上的点3相同的程序。选择**必须用作链接"
+"目标参考点的骨架顶点的编号**。在查看器中，第一个级别移动到将其选定骨架顶点的位置"
+"与刚刚选定的目标骨架顶点重叠。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:500
+msgid "Function Editor representation of Plastic data"
+msgstr "塑料数据的函数编辑器表示"
+
+#: ../../source/create_animations_using_plastic_tool.rst:501
+msgid ""
+"While animating Plastic elements, keyframes are created for the vertices of the "
+"skeleton. You can see them as standard keyframes in the Xsheet/Timeline, or you "
+"can operate on the values of each vertex into the Function Editor."
+msgstr ""
+"在为塑料元素设置动画时，会为骨架的顶点创建关键帧。您可以在Xsheet/Timeline中将它"
+"们视为标准关键帧，也可以在函数编辑器中对每个顶点的值进行操作。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:503
+msgid ""
+"The keyframess of the Xsheet/Timeline mark a keyframe for the Plastic skeleton "
+"at the specified frame, but don’t give any information about the number of "
+"vertices involved or their actual keyframed properties; they can be "
+"indifferently, one, some or all. Moving these keyframes you can easily change "
+"the timing of the whole animation."
+msgstr ""
+"Xsheet/Timeline的关键帧在指定帧处标记塑料骨架的关键帧，但不提供有关所涉及的顶点"
+"数量或其实际关键帧属性的任何信息；他们可以是漠不关心的，一个、一些或全部。移动这"
+"些关键帧可以轻松更改整个动画的时间。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:505
+msgid ""
+"The keyframes into the Function Editor are more detailed, giving you the chance "
+"for fine-tuning and modify each vertex parameter animation."
+msgstr "功能编辑器中的关键帧更详细，使您有机会微调和修改每个顶点参数动画。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:507
+msgid ""
+"When in the Function Editor Tree, you open the folder of a column/layer that "
+"has the Plastic tool applied, you can see a **Plastic Skeleton** folder. This "
+"folder contains the **Skeleton Id** channel, the **Root** subfolder, and one "
+"subfolder *for each vertex* of the Plastic skeleton, labeled with the name of "
+"the related vertex."
+msgstr ""
+"在函数编辑器树中，打开应用了塑料工具的列/层的文件夹时，可以看到一个**塑料骨架**"
+"文件夹。此文件夹包含**骨架Id**通道、**根**子文件夹和塑料骨架的每个顶点*的一个子"
+"文件夹，标有相关顶点的名称。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:509
+msgid "|plastic_data_in_function_editor|"
+msgstr "|plastic_data_in_function_editor|"
+
+#: ../../source/create_animations_using_plastic_tool.rst:511
+msgid ""
+"The **Skeleton Id** channel contains the data related to which skeleton is "
+"active at a certain frame. If the level is using multiple skeletons here you "
+"can see the switches from one skeleton to the other, both as numeric values and "
+"in a graphical format."
+msgstr ""
+"**骨架Id**通道包含与某一帧中哪个骨架处于活动状态相关的数据。如果该级别在此处使用"
+"多个骨架，您可以看到从一个骨架到另一个骨架的切换，无论是数值还是图形格式。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:513
+msgid ""
+"The **Root** subfolder shows all the parameter channels, but only the **SO** "
+"(Staking Order) parameter can be animated when this vertex is actually used as "
+"root of the skeleton"
+msgstr ""
+"**Root**子文件夹显示了所有参数通道，但当该顶点实际用作骨架的根时，只有**SO**（桩"
+"号顺序）参数可以设置动画"
+
+#: ../../source/create_animations_using_plastic_tool.rst:515
+msgid ""
+"The **Vertex** subfolders (one for each vertex of the skeletons), contain three "
+"parameters: **Angle**, **Distance** and **SO**, that are used to determine the "
+"position of the vertex at every frame during the animation."
+msgstr ""
+"**顶点**子文件夹（骨架的每个顶点对应一个）包含三个参数：**角度**、**距离**和"
+"**SO**，用于确定动画过程中每帧顶点的位置。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:517
+msgid ""
+"The values of these parameters can be visualized in the Function Editor as a "
+"spreadsheet or as curves, and modified as required."
+msgstr ""
+"这些参数的值可以在函数编辑器中显示为电子表格或曲线，并可根据需要进行修改。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:519
+msgid ""
+"The vertices of multiple skeletons are shown as a single list, and *not "
+"grouped* for each skeleton. In this way the animation curve of *Vertex_1* is "
+"built using the animation values of the vertices named *Vertex_1* of all the "
+"skeletons of the mesh, so just one curve can be modified to adjust the "
+"animation of related vertices on different skeletons."
+msgstr ""
+"多个骨架的顶点显示为单个列表，每个骨架的顶点*未分组*。这样，*Vertex_1*的动画曲线"
+"是使用网格所有骨架中名为*Vertex_1*的顶点的动画值构建的，因此只需修改一条曲线即可"
+"调整不同骨架上相关顶点的动画。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:525
+msgid "Use Mathematical Expressions in Plastic Animation"
+msgstr "在塑料动画中使用数学表达式"
+
+#: ../../source/create_animations_using_plastic_tool.rst:526
+msgid ""
+"To use OpenToonz mathematical expressions in the Plastic Animation, you can "
+"link the vertices of the skeleton to each other or to a column/layer, pegbar or "
+"camera."
+msgstr ""
+"要在塑料动画中使用OpenToonz数学表达式，可以将骨架的顶点相互链接，也可以链接到列/"
+"层、钉杆或摄影机。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:528
+msgid ""
+"This allows to set some automatic actions of the skeleton, for example you can "
+"link the main vertices of the shoulders, so that moving just one shoulder "
+"automatically moves the other."
+msgstr ""
+"这允许设置骨架的一些自动动作，例如，您可以链接肩膀的主要顶点，这样只移动一个肩膀"
+"就会自动移动另一个肩膀。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:530
+msgid ""
+"Suppose that the main vertices of the shoulders are named *Shoulder_left* and "
+"*Shoulder_right*, and the Mesh is in column 2 of the Xsheet (or layer 2 of the "
+"Timeline). You can set the rotation of *Shoulder_left* vertex to be the same "
+"amount of that of *Shoulder_right*, by setting in the Function Editor the "
+"following expression in the **Angle** parameter of *Shoulder_left*:"
+msgstr ""
+"假设肩部的主要顶点名为*Shoulder_left*和*Shoulder _right*，网格位于Xsheet的第2列"
+"（或时间线的第2层）。通过在函数编辑器中设置*Shoulder_lef*的**角度**参数中的以下"
+"表达式，可以将*Shoulder _lef*顶点的旋转设置为与*Shoulders_right*相同的旋转量："
+
+#: ../../source/create_animations_using_plastic_tool.rst:532
+msgid "``vertex(2, \"Shoulder_right\").angle``"
+msgstr "``vertex(2, \"Shoulder_right\").angle``"
+
+#: ../../source/create_animations_using_plastic_tool.rst:534
+msgid ""
+"If you prefer the rotation of the left shoulder to react opposite to the one of "
+"the right shoulder, you could add a multiplication as following:"
+msgstr "如果您希望左肩的旋转与右肩的旋转反应相反，可以按如下方式添加乘法："
+
+#: ../../source/create_animations_using_plastic_tool.rst:536
+msgid "``vertex(2, \"Shoulder_right\").angle*-1``"
+msgstr "``vertex(2, \"Shoulder_right\").angle*-1``"
+
+#: ../../source/create_animations_using_plastic_tool.rst:538
+msgid "The general syntax is:"
+msgstr "一般语法为："
+
+#: ../../source/create_animations_using_plastic_tool.rst:540
+msgid "**vertex(column_number, \"vertex_name\").parameter**"
+msgstr "**vertex(column_number, \"vertex_name\").parameter**"
+
+#: ../../source/create_animations_using_plastic_tool.rst:542
+msgid ""
+"For more information about the *mathematical expressions* usage refer to (See  :"
+"ref:`Using Interpolations Based on Expressions "
+"<using_interpolations_based_on_expressions>`  )."
+msgstr ""
+"有关*数学表达式*用法的更多信息，请参阅（参见：ref:“使用基于表达式的插值"
+"<Using_Interpolations_Based_on-expressions>”）。"
+
+#: ../../source/create_animations_using_plastic_tool.rst:548
+msgid "Plastic and Sub-Xsheets"
+msgstr "塑料和Sub-Xsheets"
+
+#: ../../source/create_animations_using_plastic_tool.rst:549
+msgid ""
+"A Sub-Xsheet is a valid object for the Plastic tool, and all or some of its "
+"columns can have a mesh for animating. When a Sub-Xsheet is selected as a "
+"starting element, all of the columns in the Sub-Xsheet visible when the "
+"**Create Mesh** button is pressed, are taken into count for the creation of the "
+"Mesh. These levels will be visible in render and will be deformed by Mesh "
+"transformations. If, after creating the Mesh, hidden levels are set to visible, "
+"they will behave in a slightly different way: they will be deformed by Mesh "
+"transformations, but they will be shown in render *only inside the mesh "
+"boundaries* (i.e. the Mesh acts as a *mask* that determines what is visible in "
+"the rendered image, even if the newly-shown levels are placed into a nested Sub-"
+"Xsheet with its own mesh and skeleton)."
+msgstr ""
+"A Sub-Xsheet is a valid object for the Plastic tool, and all or some of its "
+"columns can have a mesh for animating. When a Sub-Xsheet is selected as a "
+"starting element, all of the columns in the Sub-Xsheet visible when the "
+"**Create Mesh** button is pressed, are taken into count for the creation of the "
+"Mesh. These levels will be visible in render and will be deformed by Mesh "
+"transformations. If, after creating the Mesh, hidden levels are set to visible, "
+"they will behave in a slightly different way: they will be deformed by Mesh "
+"transformations, but they will be shown in render *only inside the mesh "
+"boundaries* (i.e. the Mesh acts as a *mask* that determines what is visible in "
+"the rendered image, even if the newly-shown levels are placed into a nested Sub-"
+"Xsheet with its own mesh and skeleton)."

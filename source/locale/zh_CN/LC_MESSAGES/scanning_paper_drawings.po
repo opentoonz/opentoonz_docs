@@ -1,0 +1,806 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 15:31+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/scanning_paper_drawings.rst:4
+msgid "Scanning Paper Drawings"
+msgstr "扫描纸张图纸"
+
+#: ../../source/scanning_paper_drawings.rst:6
+msgid ""
+"Currently OpenToonz DOES NOT SUPPORT the native scanning functionality, as "
+"described in this page. Instead you can use the provided GTS scanning and "
+"cleaning software, please follow `this link to download GTS <https://"
+"opentoonz.github.io/e/download/gts.html>`_ ."
+msgstr ""
+"目前OpenToonz不支持本机扫描功能，如本页所述。相反，您可以使用提供的GTS扫描和清"
+"洁软件，请点击“此链接下载GTS”<https://opentoonz.github.io/e/download/gts."
+"html>`_ ."
+
+#: ../../source/scanning_paper_drawings.rst:8
+msgid ""
+"This manual page is preserved in its original form, in case the scanning code "
+"of OpenToonz is reactivated in a future version."
+msgstr "本手册页以原始形式保留，以防OpenToonz的扫描码在未来版本中重新激活。"
+
+#: ../../source/scanning_paper_drawings.rst:11
+msgid ""
+"In order to be managed by OpenToonz, paper drawings have to be scanned into "
+"OpenToonz. Paper drawings can be both animation levels, consisting of a large "
+"number of sequenced drawings, and other elements such as backgrounds and "
+"overlays."
+msgstr ""
+"In order to be managed by OpenToonz, paper drawings have to be scanned into "
+"OpenToonz. Paper drawings can be both animation levels, consisting of a large "
+"number of sequenced drawings, and other elements such as backgrounds and "
+"overlays."
+
+#: ../../source/scanning_paper_drawings.rst:13
+msgid ""
+"The scan process can be done in different modes, and in case autocenter is "
+"needed it has to follow specific guidelines."
+msgstr ""
+"扫描过程可以在不同的模式下进行，如果需要自动中心，则必须遵循特定的指导方针。"
+
+#: ../../source/scanning_paper_drawings.rst:15
+msgid ""
+"Animation levels have to be defined first and then scanned according to a "
+"defined set of parameters."
+msgstr "必须首先定义动画级别，然后根据一组定义的参数进行扫描。"
+
+#: ../../source/scanning_paper_drawings.rst:21
+msgid "Supported Scanners"
+msgstr "支持的扫描仪"
+
+#: ../../source/scanning_paper_drawings.rst:22
+msgid ""
+"OpenToonz supports directly, by using internal drivers, some specific "
+"scanners via a USB connection; all the other scanners are supported via any "
+"type of connection by using TWAIN drivers."
+msgstr ""
+"OpenToonz通过USB连接使用内部驱动程序直接支持某些特定的扫描仪；使用TWAIN驱动程"
+"序通过任何类型的连接支持所有其他扫描仪。"
+
+#: ../../source/scanning_paper_drawings.rst:24
+msgid "|define_scanner|"
+msgstr "|定义扫描仪|"
+
+#: ../../source/scanning_paper_drawings.rst:26
+msgid ""
+"For an updated list of directly supported scanners, please visit the "
+"`OpenToonz Web site <https://opentoonz.github.io/e/>`_ ."
+msgstr ""
+"有关直接支持的扫描仪的更新列表，请访问“OpenToonz网站”<https://opentoonz."
+"github.io/e/>`_ ."
+
+#: ../../source/scanning_paper_drawings.rst:28
+msgid ""
+"If your scanner is supported via internal drivers, the scanning process is "
+"managed completely by OpenToonz and the Scan Settings dialog; if it is not, "
+"the scanning process is managed by the TWAIN interface."
+msgstr ""
+"如果您的扫描仪通过内部驱动程序支持，则扫描过程完全由OpenToonz和“扫描设置”对话"
+"框管理；如果不是，则扫描过程由TWAIN接口管理。"
+
+#: ../../source/scanning_paper_drawings.rst:30
+msgid ""
+"On Windows, the TWAIN drivers provided with the scanner need to be installed. "
+"Note that if you decide to use internal drivers, you have to disable the "
+"**Windows Image Acquisition (WIA)** service on your computer; if you want to "
+"use TWAIN drivers, you have to enable it."
+msgstr ""
+"在Windows上，需要安装扫描仪附带的TWAIN驱动程序。请注意，如果您决定使用内部驱动"
+"程序，则必须禁用计算机上的**Windows图像采集（WIA）**服务；如果你想使用TWAIN驱"
+"动程序，你必须启用它。"
+
+#: ../../source/scanning_paper_drawings.rst:32
+msgid ""
+"On macOS, you need to install the TWAIN drivers only if you are going to use "
+"them. Note that if you decide to use internal drivers, any TWAIN driver "
+"referring to that scanner has to be removed."
+msgstr ""
+"在macOS上，只有当您要使用TWAIN驱动程序时，才需要安装它们。请注意，如果您决定使"
+"用内部驱动程序，则必须删除任何引用该扫描仪的TWAIN驱动程序。"
+
+#: ../../source/scanning_paper_drawings.rst:34
+msgid ""
+"The driver you want to use must be selected according to your scanner before "
+"starting the scanning process. You can choose whether to use the internal or "
+"TWAIN drivers; in the latter case, you have to select which driver to use "
+"from a list based on the TWAIN drivers installed on your computer."
+msgstr ""
+"在开始扫描过程之前，必须根据扫描仪选择要使用的驱动程序。您可以选择是使用内部驱"
+"动程序还是TWAIN驱动程序；在后一种情况下，您必须根据计算机上安装的TWAIN驱动程序"
+"从列表中选择要使用的驱动程序。"
+
+#: ../../source/scanning_paper_drawings.rst:36
+msgid ""
+"When using TWAIN drivers you need to specify the driver every time you "
+"restart OpenToonz: the dialog box is automatically displayed when you select "
+"any Scan related command."
+msgstr ""
+"使用TWAIN驱动程序时，每次重新启动OpenToonz时都需要指定驱动程序：当您选择任何与"
+"扫描相关的命令时，会自动显示对话框。"
+
+#: ../../source/scanning_paper_drawings.rst:38
+msgid "**To install TWAIN drivers:**"
+msgstr "**要安装TWAIN驱动程序，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:40
+#: ../../source/scanning_paper_drawings.rst:58
+msgid "Refer to the scanner documentation for more details."
+msgstr "有关更多详细信息，请参阅扫描仪文档。"
+
+#: ../../source/scanning_paper_drawings.rst:42
+msgid ""
+"**Windows only - To disable or enable the Windows Image Acquisition (WIA) "
+"service:**"
+msgstr ""
+"**仅限Windows-要禁用或启用Windows图像采集（WIA）服务，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:44
+msgid "Open the Control Panel  →  Administrative Tools  →  **Services** dialog."
+msgstr "打开控制面板→  管理工具→  **服务**对话框。"
+
+#: ../../source/scanning_paper_drawings.rst:46
+msgid ""
+"Right-click the **Windows Image Acquisition (WIA)** service and choose "
+"**Properties** from the menu that opens."
+msgstr ""
+"右键单击**Windows图像采集（WIA）**服务，然后从打开的菜单中选择**属性**。"
+
+#: ../../source/scanning_paper_drawings.rst:48
+msgid "In the Properties dialog do one of the following:"
+msgstr "在“属性”对话框中，执行以下操作之一："
+
+#: ../../source/scanning_paper_drawings.rst:50
+msgid "Set the **Startup Type** option to **Disabled** to use internal drivers."
+msgstr "将**启动类型**选项设置为**禁用**以使用内部驱动程序。"
+
+#: ../../source/scanning_paper_drawings.rst:52
+msgid "Set the **Startup Type** option to **Automatic** to use TWAIN drivers."
+msgstr "将**启动类型**选项设置为**自动**以使用TWAIN驱动程序。"
+
+#: ../../source/scanning_paper_drawings.rst:54
+msgid "Restart the computer."
+msgstr "重启计算机。"
+
+#: ../../source/scanning_paper_drawings.rst:56
+msgid "**Macintosh only - To remove the scanner TWAIN drivers:**"
+msgstr "**仅限Macintosh-要删除扫描仪TWAIN驱动程序，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:60
+msgid "**To define the scanner:**"
+msgstr "**要定义扫描仪，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:62
+msgid "Choose Scan & Cleanup  →  **Define Scanner...**."
+msgstr "选择扫描和清理→  **定义扫描仪。..**."
+
+#: ../../source/scanning_paper_drawings.rst:64
+#: ../../source/scanning_paper_drawings.rst:145
+#: ../../source/scanning_paper_drawings.rst:157
+#: ../../source/scanning_paper_drawings.rst:204
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/scanning_paper_drawings.rst:66
+msgid ""
+"If your scanner is directly supported, choose Scanner Driver  →  "
+"**Internal**, and click the **OK** button."
+msgstr ""
+"如果您的扫描仪直接受支持，请选择扫描仪驱动程序→  **内部**，然后单击**确定**按"
+"钮。"
+
+#: ../../source/scanning_paper_drawings.rst:68
+msgid ""
+"If your scanner is not directly supported, be sure that TWAIN drivers are "
+"installed, and choose Scanner Driver  →  **TWAIN**, and click the **OK** "
+"button: in the dialog that opens, select the TWAIN driver related to your "
+"scanner."
+msgstr ""
+"如果您的扫描仪不受直接支持，请确保已安装TWAIN驱动程序，并选择“扫描仪驱动程"
+"序”→  **TWAIN**，然后单击**确定**按钮：在打开的对话框中，选择与扫描仪相关的"
+"TWAIN驱动程序。"
+
+#: ../../source/scanning_paper_drawings.rst:74
+msgid "Scanning Modes"
+msgstr "扫描模式"
+
+#: ../../source/scanning_paper_drawings.rst:75
+msgid ""
+"Drawings can be scanned mainly in three different modes: *black and white*, "
+"*greyscale* and *color*."
+msgstr "图纸的扫描主要有三种模式：*黑白*、*灰度*和*彩色*。"
+
+#: ../../source/scanning_paper_drawings.rst:77
+msgid ""
+"The first two modes can be used to acquire standard lineart drawings whose "
+"outline is usually made in a single color, that during the scanning is "
+"acquired as black or dark grey. Even if the outline color is lost during the "
+"scanning, later on you can assign one or more colors to it during the "
+"painting process."
+msgstr ""
+"前两种模式可用于获取标准线条图，其轮廓通常以单一颜色绘制，在扫描过程中被获取为"
+"黑色或深灰色。即使轮廓颜色在扫描过程中丢失，稍后您也可以在绘制过程中为其指定一"
+"种或多种颜色。"
+
+#: ../../source/scanning_paper_drawings.rst:79
+msgid ""
+"**Black and white** scanning gives you the most immediate results, and fewer "
+"parameters need to be set. Once a **Threshold:** value is set, pixels of the "
+"scanned image are considered as either black or white. Due to the simplicity "
+"of this concept, less time is required to scan the image, and scanned files "
+"are lighter to manage. Even if images show hard edges, the proper "
+"antialiasing will be added during the cleanup process."
+msgstr ""
+"**黑白**扫描可获得最直接的结果，需要设置的参数更少。一旦设置了**阈值：**值，扫"
+"描图像的像素将被视为黑色或白色。由于这个概念的简单性，扫描图像所需的时间更少，"
+"扫描的文件也更易于管理。即使图像显示硬边缘，在清理过程中也会添加适当的抗锯齿处"
+"理。"
+
+#: ../../source/scanning_paper_drawings.rst:81
+msgid ""
+"**Greyscale** scanning, being based on a range of grey values, requires a "
+"longer scanning time. Determining **Brightness:** and **Contrast:** "
+"parameters depends considerably on the individual animated sequence and on "
+"what you want to achieve. The greyscale mode also offers **Autoadjust** "
+"options during the cleanup process, useful to even the differences between "
+"drawings made by key animators and those made by in-betweeners. See  :ref:"
+"`Autoadjusting Greyscale Lineart Drawings "
+"<autoadjusting_greyscale_lineart_drawings>`  ."
+msgstr ""
+"**灰度**扫描基于一系列灰度值，需要更长的扫描时间。确定**亮度：**和**对比度：**"
+"参数在很大程度上取决于单个动画序列和您想要实现的目标。灰度模式在清理过程中还提"
+"供了**自动调整**选项，甚至可以区分关键动画师和中间人绘制的图形之间的差异。请参"
+"阅：ref:“自动调整灰度线性图形<Autoadjusting_Greyscale_linear_Drawings>”。"
+
+#: ../../source/scanning_paper_drawings.rst:83
+msgid ""
+"**Color** scanning is for scanning colored lineart and other colored images "
+"as backgrounds and overlays. Using colors in lineart allows you to draw "
+"different lines with different colors, for example a character outline in "
+"black and its body shadow in red or in blue. As colored lines can be "
+"identified later during the cleanup process, scanning colored artwork in "
+"colors allows you to preserve different line colors with no need of intensive "
+"painting work. See  :ref:`Processing Colored Lineart Drawings "
+"<processing_colored_lineart_drawings>`  ."
+msgstr ""
+"**彩色**扫描用于扫描彩色线条和其他彩色图像作为背景和叠加。在线条艺术中使用颜色"
+"可以让你用不同的颜色绘制不同的线条，例如，一个黑色的角色轮廓和一个红色或蓝色的"
+"身体阴影。由于在清理过程中稍后可以识别彩色线条，因此以彩色扫描彩色艺术品可以让"
+"您保留不同的线条颜色，而不需要密集的绘画工作。请参阅：ref:`处理彩色线性图纸"
+"<Processing_colored_linert_Drawings>`。"
+
+#: ../../source/scanning_paper_drawings.rst:89
+msgid "Scanning Guidelines for Autocentering"
+msgstr "自动输入扫描指南"
+
+#: ../../source/scanning_paper_drawings.rst:90
+msgid ""
+"To autocenter scanned drawings during the cleanup process, the pegbar holes "
+"need to be detected on the images (see  :ref:`Autocentering "
+"<autocentering>`  ). For this reason they have to be scanned in black, by "
+"properly preparing the scanner and performing the scanning process according "
+"to the following guidelines."
+msgstr ""
+"要在清理过程中自动输入扫描的图形，需要在图像上检测钉杆孔（请参见：ref:“自动输"
+"入<自动输入>”）。因此，必须按照以下指南正确准备扫描仪并执行扫描过程，以黑色扫"
+"描它们。"
+
+#: ../../source/scanning_paper_drawings.rst:96
+msgid "Preparing Scanners"
+msgstr "准备扫描仪"
+
+#: ../../source/scanning_paper_drawings.rst:97
+msgid ""
+"If you use the scanner automatic paper feeder, you should stick a piece of "
+"thin black tape in the feeder on the opposite side of the scanner lamp. Be "
+"sure to stick the black tape in a position to face the peg holes when the "
+"paper is fed into the scanner."
+msgstr ""
+"如果您使用扫描仪自动进纸器，您应该在扫描仪灯的另一侧的进纸器中粘贴一条薄的黑色"
+"胶带。当纸张被送入扫描仪时，一定要将黑色胶带粘在面向钉孔的位置。"
+
+#: ../../source/scanning_paper_drawings.rst:99
+msgid ""
+"If you use the scanner bed, you should place a black sheet of paper under the "
+"scanner cover, so that when a drawing is scanned facing down the glass of the "
+"scanner bed, the black paper will be behind it. The black paper must be "
+"larger than your animation paper, but it does not have to cover the entire "
+"scanner bed."
+msgstr ""
+"如果您使用扫描仪床，您应该在扫描仪盖下放置一张黑色纸张，这样当扫描面向扫描仪床"
+"玻璃的图形时，黑色纸张就会在后面。黑色纸张必须大于动画纸张，但不必覆盖整个扫描"
+"仪床。"
+
+#: ../../source/scanning_paper_drawings.rst:105
+msgid "Scanning Artwork"
+msgstr "扫描艺术品"
+
+#: ../../source/scanning_paper_drawings.rst:106
+msgid ""
+"It is better to use quite thick animation paper for your artwork: very thin "
+"paper may jam the scanner, and the scanner light may pass through picking up "
+"some grey from the black paper or tape placed behind it. When this happens, "
+"the process will take longer to perform and will produce a poor quality "
+"result."
+msgstr ""
+"最好使用相当厚的动画纸来制作你的艺术品：非常薄的纸可能会堵塞扫描仪，扫描仪的光"
+"线可能会穿过，从放置在它后面的黑色纸或胶带上拾取一些灰色。当这种情况发生时，这"
+"个过程将需要更长的时间来执行，并且会产生质量较差的结果。"
+
+#: ../../source/scanning_paper_drawings.rst:108
+msgid ""
+"Avoid using *black* or *colored* paper reinforcements around the pegbar holes "
+"in your drawing sheets. The scanner has to read the exact shape of the hole "
+"punches, and colored reinforcements may cause holes to be scanned larger than "
+"their actual size. If you do use *white* reinforcements, make sure they are "
+"aligned directly over the peg holes: if the holes are slightly covered by the "
+"reinforcement, the registration may fail."
+msgstr ""
+"避免在图纸中的钉杆孔周围使用*黑色*或*彩色*纸张加固。扫描仪必须读取孔冲头的确切"
+"形状，彩色钢筋可能会导致孔被扫描得比实际尺寸大。如果您确实使用了*白色*钢筋，请"
+"确保它们直接对齐在栓孔上方：如果孔被钢筋稍微覆盖，则配准可能会失败。"
+
+#: ../../source/scanning_paper_drawings.rst:110
+msgid ""
+"Do not draw too close to the pegbar holes. Avoid drawing anything with the "
+"same shape or area of the pegbar hole in the pegbar holes area; leave at "
+"least 1 cm (~1/2”) of clear space between the pegbar holes and the rest of "
+"your drawings. Lines drawn near the pegbar holes may cause the registration "
+"to fail."
+msgstr ""
+"不要画得太靠近钉杆孔。避免在栓钉孔区域绘制与栓钉孔形状或面积相同的任何东西；在"
+"钉杆孔和其余图形之间留出至少1厘米（约1/2英寸）的净空间。在钉杆孔附近绘制的线可"
+"能会导致配准失败。"
+
+#: ../../source/scanning_paper_drawings.rst:116
+msgid "Defining Animation Levels to Scan"
+msgstr "定义要扫描的动画级别"
+
+#: ../../source/scanning_paper_drawings.rst:117
+msgid ""
+"To scan an animation level, first you have to define its name, the number of "
+"frames it is made of, and the way its drawings are numbered. Its size and "
+"resolution will be set during the scanning session."
+msgstr ""
+"要扫描动画级别，首先必须定义其名称、帧数以及图形的编号方式。其大小和分辨率将在"
+"扫描过程中设置。"
+
+#: ../../source/scanning_paper_drawings.rst:119
+msgid ""
+"The definition can be made drawing by drawing directly in the Xsheet/"
+"Timeline, or at once by using the **New Level** dialog. You can assign it the "
+"name and the numbering order you prefer."
+msgstr ""
+"要扫描动画级别，首先必须定义其名称、帧数以及图形的编号方式。其大小和分辨率将在"
+"扫描过程中设置。"
+
+#: ../../source/scanning_paper_drawings.rst:121
+msgid ""
+"In case you use the **New Level** dialog you can set the number of drawings "
+"the level is made of, the animation step to expose the level repeating its "
+"frames, and the increment, that sets the way the level drawings are numbered. "
+"For example a **Step:** value 2 repeats each drawing twice in the Xsheet "
+"column (or Timeline layer), while an **Increment:** value 2 numbers the "
+"drawings 1, 3, 5, etc."
+msgstr ""
+"如果使用**新建标高**对话框，则可以设置标高所包含的图形数量、重复帧显示标高的动"
+"画步骤以及设置标高图形编号方式的增量。例如，**步：**值2在Xsheet列（或时间线"
+"层）中重复每个图形两次，而**增量：**值2中的图形编号为1、3、5等。"
+
+#: ../../source/scanning_paper_drawings.rst:123
+msgid "|new_scan_level|"
+msgstr "|新扫描级别|"
+
+#: ../../source/scanning_paper_drawings.rst:125
+msgid ""
+"By default scanned drawings are saved in the **+inputs** directory of the "
+"current project; if the *+inputs* definition uses the $scenepath variable, "
+"they are saved only if the scene is saved (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr ""
+"默认情况下，扫描的图纸保存在当前项目的**+inputs**目录中；如果*+inputs*定义使用"
+"$scenepath变量，则只有在保存场景时才会保存它们（请参阅：ref:“项目默认文件夹"
+"<Project_Default_Folders>”）。"
+
+#: ../../source/scanning_paper_drawings.rst:127
+msgid ""
+"You can change the location by using either the **Path:** field in the **New "
+"Level** dialog, or the **Level Settings** window in case you define a level "
+"directly in Xsheet/Timeline."
+msgstr ""
+"您可以使用**新建级别**对话框中的**路径：**字段或**级别设置**窗口（如果您直接在"
+"Xsheet/Timeline中定义级别）更改位置。"
+
+#: ../../source/scanning_paper_drawings.rst:129
+msgid ""
+"Settings such as the length of the level and the numbering order can be "
+"edited later, as you are free to arrange the images composing your animation "
+"level the way you prefer (see  :ref:`Editing Animation Levels "
+"<editing_animation_levels>`  )."
+msgstr ""
+"稍后可以编辑级别长度和编号顺序等设置，因为您可以自由地以自己喜欢的方式排列组成"
+"动画级别的图像（请参阅：ref:`编辑动画级别<Editing_animation_Levels>）。"
+
+#: ../../source/scanning_paper_drawings.rst:131
+msgid ""
+"When an animation level is defined, the name and numbers for the drawings of "
+"the level are displayed in *red* as no level actually exists yet; the column/"
+"layer cells where the level is exposed are colored in *light blue*, the color "
+"denoting full-color images (see  :ref:`Working with Columns/Layers "
+"<working_with_xsheet_columns>`  )."
+msgstr ""
+"当定义动画级别时，该级别图形的名称和编号显示为*红色*，因为实际上还不存在级别；"
+"暴露级别的列/层单元格以*浅蓝色*着色，该颜色表示全彩图像（请参阅：ref:“使用列/"
+"层<Working_with_xsheet_Columns>”）。"
+
+#: ../../source/scanning_paper_drawings.rst:133
+msgid "**To define an animation level directly in Xsheet:**"
+msgstr "**要在Xsheet中直接定义动画级别，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:135
+msgid ""
+"Double-click a cell, then type a name and a number; the name and the number "
+"must be separated by a space."
+msgstr "双击单元格，然后键入名称和数字；姓名和号码必须用空格隔开。"
+
+#: ../../source/scanning_paper_drawings.rst:137
+msgid ""
+"Press **Enter** to add a new drawing, and type a different number that will "
+"be assigned to the new drawing."
+msgstr "按**Enter**添加新图形，然后键入将分配给新图形的其他编号。"
+
+#: ../../source/scanning_paper_drawings.rst:139
+msgid "Go on adding all the drawings you need."
+msgstr "继续添加你需要的所有图纸。"
+
+#: ../../source/scanning_paper_drawings.rst:141
+msgid "Click a different cell to end the process."
+msgstr "单击其他单元格以结束该过程。"
+
+#: ../../source/scanning_paper_drawings.rst:143
+msgid "**To define an animation level with the New Level dialog:**"
+msgstr "**要使用“新建级别”对话框定义动画级别，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:147
+msgid ""
+"Select a cell in the Xsheet/Timeline where you want to place your animation "
+"level to scan and choose Level  →  New  →  **New Level...**"
+msgstr ""
+"在Xsheet/Timeline中选择要放置动画级别进行扫描的单元格，然后选择级别→  New  →  "
+"**新水平。..**"
+
+#: ../../source/scanning_paper_drawings.rst:149
+msgid ""
+"Right-click the cell in the Xsheet/Timeline where you want to place your "
+"animation level to scan and choose **New Level** from the menu that opens."
+msgstr ""
+"右键单击Xsheet/Timeline中要放置动画级别进行扫描的单元格，然后从打开的菜单中选"
+"择**新建级别**。"
+
+#: ../../source/scanning_paper_drawings.rst:151
+msgid ""
+"If any level is already exposed in the cell column/layer, it will shift down/"
+"right from the cell you selected on."
+msgstr ""
+"如果单元格列/层中已经暴露了任何级别，它将从您选择的单元格向下/向右移动。"
+
+#: ../../source/scanning_paper_drawings.rst:153
+msgid ""
+"In the New Level dialog choose **Scan Level** from the **Type:** option menu "
+"and define its settings, then click the **OK** button."
+msgstr ""
+"在“新建级别”对话框中，从**类型：**选项菜单中选择**扫描级别**并定义其设置，然后"
+"单击**确定**按钮。"
+
+#: ../../source/scanning_paper_drawings.rst:155
+msgid "**To define the saving location for the level to be scanned:**"
+msgstr "**要定义要扫描的级别的保存位置，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:159
+msgid ""
+"If you are using the **New Level** dialog, type in the **Path:** field, or "
+"use the browser button, to set the path for the saving location."
+msgstr ""
+"如果使用**新建级别**对话框，请在**路径：**字段中键入，或使用浏览器按钮设置保存"
+"位置的路径。"
+
+#: ../../source/scanning_paper_drawings.rst:161
+msgid ""
+"If you are defining the level directly in Xsheet/Timeline, right-click the "
+"level cells and select **Level Settings** from the menu that opens. In the "
+"Level Settings window, type in the **Path:** field, or use the browser "
+"button, to set the path for the saving location."
+msgstr ""
+"如果您直接在Xsheet/Timeline中定义级别，请右键单击级别单元格，然后从打开的菜单"
+"中选择**级别设置**。在“级别设置”窗口中，键入**路径：**字段，或使用浏览器按钮设"
+"置保存位置的路径。"
+
+#: ../../source/scanning_paper_drawings.rst:163
+msgid ""
+"If in the browser you choose any project default folder, in the **Path:** "
+"field the full path will be replace by the related default folder alias "
+"(see  :ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+"如果在浏览器中选择任何项目默认文件夹，则在**路径：**字段中，完整路径将被相关的"
+"默认文件夹别名替换（请参阅：ref:“项目默认文件夹<project_default_Folders>”）。"
+
+#: ../../source/scanning_paper_drawings.rst:169
+msgid "Scanning Drawings"
+msgstr "扫描图纸"
+
+#: ../../source/scanning_paper_drawings.rst:170
+msgid ""
+"According to the driver you are using, internal or TWAIN, the scanning "
+"process will be controlled either by the Scan Settings dialog or the TWAIN "
+"interface."
+msgstr ""
+"根据您使用的驱动程序（内部驱动程序或TWAIN驱动程序），扫描过程将由“扫描设置”对"
+"话框或者TWAIN界面控制。"
+
+#: ../../source/scanning_paper_drawings.rst:172
+msgid "|scan_settings|"
+msgstr "|扫描设置|"
+
+#: ../../source/scanning_paper_drawings.rst:174
+msgid "The Scan Settings dialog allows you to define the following:"
+msgstr "扫描设置对话框允许您定义以下内容："
+
+#: ../../source/scanning_paper_drawings.rst:176
+msgid ""
+"**Paper Format** sets the size for the drawings to be scanned. The option "
+"menu contains a list of already defined formats."
+msgstr "**纸张格式**设置要扫描的图纸的大小。选项菜单包含已定义格式的列表。"
+
+#: ../../source/scanning_paper_drawings.rst:178
+msgid ""
+"**Reverse Order** makes the scanning process in a reverse order, starting "
+"from the last selected frame to the first one."
+msgstr ""
+"**反转顺序**使扫描过程以相反的顺序进行，从最后一个选定的帧开始到第一个帧。"
+
+#: ../../source/scanning_paper_drawings.rst:180
+msgid ""
+"**Paper Feeder** lets the scanner use the automatic document feeder, in case "
+"the scanner has one, to scan all the selected drawings without having to "
+"insert one image at a time into the scanner."
+msgstr ""
+"**进纸器**允许扫描仪使用自动文档进纸器（如果扫描仪有）扫描所有选定的图形，而无"
+"需一次将一个图像插入扫描仪。"
+
+#: ../../source/scanning_paper_drawings.rst:182
+msgid ""
+"**Mode** is for setting the scanning mode among: **Black and White**, "
+"**Greyscale** and **Color**."
+msgstr "**模式**用于在**黑白**、**灰度**和**彩色**之间设置扫描模式。"
+
+#: ../../source/scanning_paper_drawings.rst:184
+msgid ""
+"The TWAIN interface is related to the scanner you are using and will be "
+"available only when the TWAIN drivers, provided with the scanner, are "
+"installed on your computer. Refer to the scanner documentation for more "
+"details."
+msgstr ""
+"TWAIN接口与您正在使用的扫描仪有关，只有在您的计算机上安装了扫描仪附带的TWAIN驱"
+"动程序时才能使用。有关更多详细信息，请参阅扫描仪文档。"
+
+#: ../../source/scanning_paper_drawings.rst:186
+msgid ""
+"The Scan Settings dialog can be used in combination with the TWAIN interface "
+"settings to set the Reverse Order option."
+msgstr "扫描设置对话框可以与TWAIN界面设置结合使用，以设置反向顺序选项。"
+
+#: ../../source/scanning_paper_drawings.rst:188
+msgid ""
+"The settings, either defined in the Scan Settings dialog or in the TWAIN "
+"interface, will be used to scan the drawings selected in the Xsheet/Timeline. "
+"In case you select several drawings, and you are using the scanner paper "
+"feeder, all the drawings to be scanned will be taken from the feeder; if you "
+"are not using the paper feeder, you will be prompted to replace the drawing "
+"on the scanner bed, before scanning the following drawing."
+msgstr ""
+"在“扫描设置”对话框或TWAIN界面中定义的设置将用于扫描在Xsheet/Timeline中选择的图"
+"形。如果您选择了多个图纸，并且您正在使用扫描仪进纸器，则所有要扫描的图纸都将从"
+"进纸器中取出；如果您没有使用进纸器，在扫描以下图形之前，系统将提示您更换扫描仪"
+"床上的图形。"
+
+#: ../../source/scanning_paper_drawings.rst:190
+msgid ""
+"You can also select non-consecutive drawings and drawings from different "
+"animation levels. Levels will be scanned starting from the first selected "
+"column/layer. Only exposed drawings will be scanned according the level "
+"numbering order, regardless of the way the animation level is exposed in one "
+"or several Xsheet columns (or Timeline layers). The opposite order will be "
+"followed if the **Reverse Order** option is on."
+msgstr ""
+"您还可以选择非连续图形和来自不同动画级别的图形。将从第一个选定的列/层开始扫描"
+"级别。无论动画级别在一个或多个Xsheet列（或时间线层）中以何种方式显示，都只会根"
+"据级别编号顺序扫描显示的图形。如果启用了**反转**选项，则将遵循相反的顺序。"
+
+#: ../../source/scanning_paper_drawings.rst:192
+msgid ""
+"As soon as a drawing is scanned, it is saved and its name and number "
+"displayed in the Xsheet/Timeline turn black, as the level now has physical "
+"drawings saved on disk."
+msgstr ""
+"一旦扫描了图形，它就会被保存，其名称和编号显示在Xsheet/Timeline中会变为黑色，"
+"因为该级别现在将物理图形保存在磁盘上。"
+
+#: ../../source/scanning_paper_drawings.rst:194
+msgid ""
+"Images are saved as compressed TIF files with a progressive four-digits "
+"number written between the file name and the file extension, e.g. "
+"``animation.0001.tif`` , ``animation.0002.tif`` , etc. They are displayed in "
+"the OpenToonz browser with a double dot before the file extension, e.g. "
+"``animation..tif`` ."
+msgstr ""
+"图像保存为压缩的TIF文件，文件名和文件扩展名之间写有递增的四位数，例"
+"如“animation.0001.TIF”、“animation-0002.TIF”等。它们在OpenToonz浏览器中显示，"
+"文件扩展名前有一个双点，例如“animation”。.tif。"
+
+#: ../../source/scanning_paper_drawings.rst:196
+msgid ""
+"If you need to scan again an animation level, or a part of it, select the "
+"relevant drawings and scan them again. Drawings can be also inserted by "
+"editing the level sequence (see  :ref:`Renumbering and Adding Frames in a "
+"Level <renumbering_and_adding_frames_in_a_level>`  )."
+msgstr ""
+"如果需要再次扫描动画级别或其一部分，请选择相关图形并再次扫描。也可以通过编辑级"
+"别顺序插入图形（请参见：ref:“在级别中重新编号和添加帧<重新编号_和添加帧_输入_"
+"级别>”）。"
+
+#: ../../source/scanning_paper_drawings.rst:198
+msgid "**To scan an animation level:**"
+msgstr "**要扫描动画级别，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:200
+msgid "In the Xsheet/Timeline, select the drawings you want to scan."
+msgstr "在Xsheet/Timeline中，选择要扫描的图形。"
+
+#: ../../source/scanning_paper_drawings.rst:202
+msgid ""
+"Choose Scan & Cleanup  →  **Scan Settings...** and use the dialog to control "
+"scan options."
+msgstr "选择扫描和清理→  **扫描设置。..**并使用对话框控制扫描选项。"
+
+#: ../../source/scanning_paper_drawings.rst:206
+msgid ""
+"If you are using the internal drivers, choose Scan & Cleanup  →  **Scan**: "
+"the selected drawings will be scanned and automatically saved."
+msgstr ""
+"如果您使用的是内部驱动程序，请选择扫描和清理→  **扫描**：所选图纸将被扫描并自"
+"动保存。"
+
+#: ../../source/scanning_paper_drawings.rst:208
+msgid ""
+"If you are using the TWAIN drivers, choose Scan & Cleanup  →  **Scan**, and "
+"guide the scanning process by using the TWAIN interface that opens: the "
+"selected drawings will be scanned and automatically saved."
+msgstr ""
+"如果您使用的是TWAIN驱动程序，请选择扫描和清理→  **扫描**，并使用打开的TWAIN界"
+"面指导扫描过程：所选图形将被扫描并自动保存。"
+
+#: ../../source/scanning_paper_drawings.rst:210
+msgid "In case you selected several drawings, do one of the following:"
+msgstr "如果选择了多个图形，请执行以下操作之一："
+
+#: ../../source/scanning_paper_drawings.rst:212
+msgid ""
+"If you are using the scanner paper feeder, wait for all of the drawings to be "
+"scanned."
+msgstr "如果您使用的是扫描仪进纸器，请等待所有图纸都被扫描。"
+
+#: ../../source/scanning_paper_drawings.rst:214
+msgid ""
+"If you are not using the paper feeder, you will be prompted to replace the "
+"drawing on the scanner bed, before scanning the following drawing."
+msgstr ""
+"如果您没有使用进纸器，在扫描以下图形之前，系统将提示您更换扫描仪床上的图形。"
+
+#: ../../source/scanning_paper_drawings.rst:216
+msgid ""
+"After a drawing is scanned, or several drawings are scanned at once by using "
+"the paper feeder, in some TWAIN interfaces you may need to use a specific "
+"command (such as **Back to Application**) to return to OpenToonz before "
+"proceeding with the next scanning session. Refer to the scanner documentation "
+"for more details."
+msgstr ""
+"在扫描完一个图形或使用进纸器一次扫描多个图形后，在某些TWAIN界面中，您可能需要"
+"使用特定命令（如**返回应用程序**）返回OpenToonz，然后才能继续下一个扫描会话。"
+"有关更多详细信息，请参阅扫描仪文档。"
+
+#: ../../source/scanning_paper_drawings.rst:222
+msgid "Setting the Cropbox"
+msgstr "设置Cropbox"
+
+#: ../../source/scanning_paper_drawings.rst:223
+msgid ""
+"When using directly supported scanners it is possible to define a *cropbox* "
+"smaller than the paper format to optimize the scanning process. When the "
+"*cropbox* is set the final scanned image will be the size of the selected "
+"paper format, but only the area defined by the *cropbox* is actually scanned, "
+"thus speeding up the scanning operations."
+msgstr ""
+"使用直接支持的扫描仪时，可以定义一个比纸张格式小的*cropbox*，以优化扫描过程。"
+"当设置了*cropbox*时，最终扫描的图像将是所选纸张格式的大小，但实际上只有"
+"*cropbox*定义的区域被扫描，从而加快了扫描操作。"
+
+#: ../../source/scanning_paper_drawings.rst:225
+msgid ""
+"Once defined the cropbox will be used for any scanning performed for the "
+"scene."
+msgstr "一旦定义，cropbox将用于对场景执行的任何扫描。"
+
+#: ../../source/scanning_paper_drawings.rst:227
+msgid ""
+"The cropbox size information is not saved along with the scene file; it is "
+"also automatically reset when working on a new scene."
+msgstr "cropbox大小信息不与场景文件一起保存；在处理新场景时，它也会自动重置。"
+
+#: ../../source/scanning_paper_drawings.rst:229
+msgid "**To define the scanning cropbox:**"
+msgstr "**要定义扫描框，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:231
+msgid ""
+"Choose Scan & Cleanup  →  **Set Cropbox**: the drawing currently placed in "
+"the scanner is scanned and the cropbox is displayed in *red*."
+msgstr ""
+"选择扫描和清理→  **设置Cropbox**：扫描当前放置在扫描仪中的图形，并将Cropbox显"
+"示为*红色*。"
+
+#: ../../source/scanning_paper_drawings.rst:233
+msgid ""
+"Use the handles along the cropbox to set its size, and click and drag "
+"anywhere to change its position."
+msgstr "使用滚动框上的控制柄设置其大小，然后单击并拖动任意位置以更改其位置。"
+
+#: ../../source/scanning_paper_drawings.rst:235
+msgid "The cropbox default size is the same as the size of the scanned image."
+msgstr "cropbox默认大小与扫描图像的大小相同。"
+
+#: ../../source/scanning_paper_drawings.rst:237
+msgid "The cropbox cannot be moved outside the area of the scanned image."
+msgstr "滚动框不能移动到扫描图像的区域之外。"
+
+#: ../../source/scanning_paper_drawings.rst:239
+msgid "**To use the defined cropbox when scanning:**"
+msgstr "**要在扫描时使用定义的cropbox：**"
+
+#: ../../source/scanning_paper_drawings.rst:241
+msgid "Scan drawings after defining the cropbox size (see above )."
+msgstr "在定义了cropbox大小后扫描图纸（见上文）。"
+
+#: ../../source/scanning_paper_drawings.rst:243
+msgid "**To dismiss the scanning cropbox visualization:**"
+msgstr "**要关闭扫描cropbox可视化：**"
+
+#: ../../source/scanning_paper_drawings.rst:245
+msgid "Choose Scan & Cleanup  →  **Set Cropbox**."
+msgstr "选择扫描和清理→  **设置Cropbox**。"
+
+#: ../../source/scanning_paper_drawings.rst:247
+msgid "**To reset the scanning cropbox:**"
+msgstr "**要重置扫描框，请执行以下操作：**"
+
+#: ../../source/scanning_paper_drawings.rst:249
+msgid "Choose Scan & Cleanup  →  **Reset Cropbox**."
+msgstr "选择扫描和清理→ **重置Cropbox**。"

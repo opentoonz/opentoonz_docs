@@ -1,0 +1,3020 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# 本文件遵循与 OpenToonz 软件包相同的许可协议分发。
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 22:04+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/drawing_animation_levels.rst:4 ../../source/drawing_animation_levels.rst:42
+msgid "Drawing Animation Levels"
+msgstr "绘制动画层级"
+
+#: ../../source/drawing_animation_levels.rst:5
+msgid ""
+"In OpenToonz it is possible to create and draw **Toonz Vector** levels (PLI format), **Toonz Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for "
+"touch-up in cleaned up drawings, and loaded raster images."
+msgstr "在 OpenToonz 中，可以直接在检视器中创建和绘制 **Toonz 矢量** 层级（PLI 格式）、**Toonz 栅格** 层级（TLV 格式）和标准 **栅格** 层级（TIF 格式）。绘图工具也可用于清理后的描线润色以及已加载的栅格图像。"
+
+#: ../../source/drawing_animation_levels.rst:10
+msgid "Drawing In OpenToonz"
+msgstr "在 OpenToonz 中绘制"
+
+#: ../../source/drawing_animation_levels.rst:11
+msgid "To draw an animation level, first you have to define its type: Toonz Vector, Toonz Raster or Raster; and its settings like its name, the number of frames it's made of and the way its drawings are numbered."
+msgstr "要绘制动画层级，首先需要定义其类型：Toonz 矢量、Toonz 栅格或栅格；以及其设置，如名称、构成帧数及其绘图的编号方式。"
+
+#: ../../source/drawing_animation_levels.rst:13
+msgid ""
+"Toonz Vector levels are defined by drawing of vector strokes; strokes and areas defined by strokes can be painted by using the styles available in the level palette. Toonz Vector levels have an unlimited size and resolution, "
+"as they are vector-based. They are saved as PLI files."
+msgstr "Toonz 矢量层级通过绘制矢量笔触定义；笔触及由笔触定义的区域可以使用层级调色板中的样式进行上色。Toonz 矢量层级具有无限的大小和分辨率，因为它们是基于矢量的。它们保存为 PLI 文件。"
+
+#: ../../source/drawing_animation_levels.rst:15
+msgid ""
+"Toonz Raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz Raster levels have a specified size and resolution, defined "
+"when they are created. They are saved as TLV files."
+msgstr "Toonz 栅格层级通过绘制位图线条定义；线条及由线条定义的区域可以使用层级调色板中的样式进行上色。Toonz 栅格层级具有创建时指定的固定大小和分辨率。它们保存为 TLV 文件。"
+
+#: ../../source/drawing_animation_levels.rst:17
+msgid ""
+"Raster levels are defined by drawing bitmap lines using the styles available in the **Raster Drawing Palette**, that is shared by all of the Raster levels of the same project (see  :ref:`Project Default Folders "
+"<project_default_folders>`  ). Raster levels have a specified size and resolution, defined when they are created. They are saved as sequences of individual TIF files, one per level frame."
+msgstr ""
+"栅格层级通过使用 **栅格绘图调色板** 中的样式绘制位图线条定义，该调色板由同一项目的所有栅格层级共享（参见 :ref:`项目默认文件夹 <project_default_folders>`）。栅格层级具有创建时指定的固定大小和分辨率。它们保存为单独的 TIF 文件序"
+"列，每个层级帧对应一个文件。"
+
+#: ../../source/drawing_animation_levels.rst:19
+msgid ""
+"When an animation level is defined, you can select any of its frames in the Xsheet/Timeline or in the Level Strip, and start drawing in the viewer. You can do this both, when you want to create a drawing from scratch, and when "
+"you want to edit a previously made drawing."
+msgstr "定义动画层级后，您可以在摄影表/时间轴或层级条中选择其任意帧，然后在检视器中开始绘制。无论是想从头创建绘图，还是想编辑先前制作的绘图，都可以这样做。"
+
+#: ../../source/drawing_animation_levels.rst:21
+msgid ""
+"When selected in the Xsheet/Timeline, the viewer displays the whole scene content at the current frame; when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you "
+"work more easily on it."
+msgstr "在摄影表/时间轴中选中时，检视器显示当前帧的整个场景内容；在层级条中选中时，检视器仅显示当前动画层级的选中帧，以便您更轻松地对其进行操作。"
+
+#: ../../source/drawing_animation_levels.rst:27
+msgid "Setting the Default Type of Level to Draw"
+msgstr "设置默认要绘制的层级类型"
+
+#: ../../source/drawing_animation_levels.rst:28
+msgid "It's possible to define the default level type that will be created when you draw inside OpenToonz."
+msgstr "可以定义在 OpenToonz 内部绘制时将创建的默认层级类型。"
+
+#: ../../source/drawing_animation_levels.rst:30
+msgid ""
+"By default Toonz Vector and Toonz Raster levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders "
+"<project_default_folders>`  )."
+msgstr "默认情况下，保存场景时，Toonz 矢量和 Toonz 栅格层级保存在当前项目的 **+drawings** 文件夹中，而栅格层级保存在 **+extras** 文件夹中（参见 :ref:`项目默认文件夹 <project_default_folders>`）。"
+
+#: ../../source/drawing_animation_levels.rst:32
+msgid "**To define the Default Type of Level to Draw:**"
+msgstr "**定义要绘制的默认层级类型：**"
+
+#: ../../source/drawing_animation_levels.rst:34
+msgid "Open File  →  Preferences...  →  Drawing."
+msgstr "打开 文件 → 首选项... → 绘图。"
+
+#: ../../source/drawing_animation_levels.rst:36
+msgid "Choose the level type you want to use as default from the **Default Level Type:** option menu. **Width**, **Height** and **DPI** fields are available for **Toonz Raster Level** and **Raster Level** options."
+msgstr "从**默认层级类型：**选项菜单中选择要作为默认使用的层级类型。**Toonz 栅格层级**和**栅格层级**选项提供**宽度**、**高度**和**DPI**字段。"
+
+#: ../../source/drawing_animation_levels.rst:38
+msgid "The Width, Height and DPI values set in the File  →  Preferences...  →  Drawing section will also be used as default for the **New Level** dialog."
+msgstr "在文件 → 首选项... → 绘图部分设置的宽度、高度和DPI值也将用作**新建层级**对话框的默认值。"
+
+#: ../../source/drawing_animation_levels.rst:43
+msgid "Animation levels can be created in the following ways:"
+msgstr "可以通过以下方式创建动画层级："
+
+#: ../../source/drawing_animation_levels.rst:45
+msgid "Using the **New Level** dialog."
+msgstr "使用**新建层级**对话框。"
+
+#: ../../source/drawing_animation_levels.rst:47
+msgid "Setting the Autocreation option to **Enabled**."
+msgstr "将自动创建选项设置为**启用**。"
+
+#: ../../source/drawing_animation_levels.rst:49
+msgid "Setting the Autocreation option to **Use Xsheet as Animation Sheet**."
+msgstr "将自动创建选项设置为**使用摄影表作为动画纸**。"
+
+#: ../../source/drawing_animation_levels.rst:55
+msgid "Using the New Level Dialog"
+msgstr "使用新建层级对话框"
+
+#: ../../source/drawing_animation_levels.rst:56
+msgid ""
+"New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the Xsheet/Timeline, and the increment, that sets the way the "
+"level drawings are numbered. For example, a **Step** 2 repeats each drawing twice in the Xsheet column or Timeline layer, while an **Increment** 2 will number its drawings as 1, 3, 5, etc. The dialog also allows you to choose "
+"a destination folder, different from the default one, by using the **Save In** field."
+msgstr ""
+"可以使用一个对话框定义新的动画层级，该对话框允许您设置构成层级的绘图数量、在摄影表/时间轴中曝光帧所用的动画步长，以及设置层级绘图编号方式的增量。例如，**步长** 2 会在摄影表列或时间轴图层中将每个绘图重复两次，而**增量** 2 会将其"
+"绘图编号为 1、3、5 等。该对话框还允许您通过**保存于**字段选择一个与默认文件夹不同的目标文件夹。"
+
+#: ../../source/drawing_animation_levels.rst:58
+msgid "In case you define a Toonz Raster or a Raster level, you can set its **Width**, **Height** and **DPI** values, according to the way you want to use it in the scene."
+msgstr "如果您定义的是 Toonz 栅格或栅格层级，可以根据您在场景中的使用方式设置其**宽度**、**高度**和**DPI**值。"
+
+#: ../../source/drawing_animation_levels.rst:60
+msgid ""
+"Settings like the length of the level and the numbering order can be edited later, as you are free to arrange the images composing an animation level the way you prefer (see  :ref:`Editing Animation Levels "
+"<editing_animation_levels>`  )."
+msgstr "层级长度和编号顺序等设置可以稍后编辑，因为您可以自由地按您喜欢的方式排列构成动画层级的图像（参见 :ref:`编辑动画层级 <editing_animation_levels>`）。"
+
+#: ../../source/drawing_animation_levels.rst:62
+msgid ""
+"When a new level is created in an empty column, the color of that column header and the cells where the new level gets exposed are colored denoting the type of level: **light yellow** for Toonz Vector levels, **light green** "
+"for Toonz Raster levels, and **light blue** for Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  )."
+msgstr ""
+"在空列中创建新层级时，该列的表头以及新层级曝光所在的单元格会着色以表示层级类型：**浅黄色**表示 Toonz 矢量层级，**浅绿色**表示 Toonz 栅格层级，**浅蓝色**表示栅格层级（参见 :ref:`使用摄影表列 <working_with_xsheet_columns>`）。"
+
+#: ../../source/drawing_animation_levels.rst:64
+msgid "The New Level dialog inherits the **Default Level Type** settings defined in Preferences...  →  Drawing."
+msgstr "新建层级对话框继承在首选项... → 绘图中定义的**默认层级类型**设置。"
+
+#: ../../source/drawing_animation_levels.rst:66
+msgid "**To create a new animation level to draw:**"
+msgstr "**创建要绘制的新动画层级：**"
+
+#: ../../source/drawing_animation_levels.rst:68 ../../source/drawing_animation_levels.rst:151 ../../source/drawing_animation_levels.rst:169 ../../source/drawing_animation_levels.rst:177
+#: ../../source/drawing_animation_levels.rst:187 ../../source/drawing_animation_levels.rst:295 ../../source/drawing_animation_levels.rst:444 ../../source/drawing_animation_levels.rst:450
+#: ../../source/drawing_animation_levels.rst:456 ../../source/drawing_animation_levels.rst:648 ../../source/drawing_animation_levels.rst:725 ../../source/drawing_animation_levels.rst:869
+#: ../../source/drawing_animation_levels.rst:962 ../../source/drawing_animation_levels.rst:972 ../../source/drawing_animation_levels.rst:980 ../../source/drawing_animation_levels.rst:990
+#: ../../source/drawing_animation_levels.rst:1031 ../../source/drawing_animation_levels.rst:1039 ../../source/drawing_animation_levels.rst:1047 ../../source/drawing_animation_levels.rst:1055
+#: ../../source/drawing_animation_levels.rst:1115 ../../source/drawing_animation_levels.rst:1125 ../../source/drawing_animation_levels.rst:1137 ../../source/drawing_animation_levels.rst:1147
+#: ../../source/drawing_animation_levels.rst:1276 ../../source/drawing_animation_levels.rst:1303 ../../source/drawing_animation_levels.rst:1396 ../../source/drawing_animation_levels.rst:1481
+#: ../../source/drawing_animation_levels.rst:1489 ../../source/drawing_animation_levels.rst:1497
+msgid "Do one of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/drawing_animation_levels.rst:70
+msgid "Select a cell in the Xsheet/Timeline where you want to place your animation level and choose Level → New  →  **New Level...**"
+msgstr "在摄影表/时间轴中选择要放置动画层级的单元格，然后选择 层级 → 新建 → **新建层级...**"
+
+#: ../../source/drawing_animation_levels.rst:72
+msgid "Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose **New Level...** from the menu that opens."
+msgstr "右键单击摄影表/时间轴中要放置动画层级的单元格，然后从打开的菜单中选择**新建层级...**。"
+
+#: ../../source/drawing_animation_levels.rst:74
+msgid "(If the Xsheet/Timeline toolbar is visible) Click any of the three **New Level buttons** at the leftmost part of it."
+msgstr "（如果摄影表/时间轴工具栏可见）单击其最左侧三个**新建层级按钮**中的任意一个。"
+
+#: ../../source/drawing_animation_levels.rst:76
+msgid "Choose the type of level: Toonz Vector, Toonz Raster or Raster, from the **Type:** option menu and define its settings, then click the OK button."
+msgstr "从**类型：**选项菜单中选择层级类型：Toonz 矢量、Toonz 栅格或栅格，并定义其设置，然后单击确定按钮。"
+
+#: ../../source/drawing_animation_levels.rst:78
+msgid "When using the Xsheet/Timeline's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu."
+msgstr "使用摄影表/时间轴的工具栏按钮创建新层级时，对话框的下拉菜单中已预选了相应的层级类型。"
+
+#: ../../source/drawing_animation_levels.rst:80
+msgid "If a level is already exposed in the cell column, the new level will be created in an empty column."
+msgstr "如果单元格列中已曝光了某个层级，则新层级将在空列中创建。"
+
+#: ../../source/drawing_animation_levels.rst:82
+msgid "**To define the saving location for the level you want to draw:**"
+msgstr "**定义要绘制的层级的保存位置：**"
+
+#: ../../source/drawing_animation_levels.rst:84
+msgid "In the **New Level** dialog type in the **Save In:** field, or use the **Browser button**, to set the path for the saving location."
+msgstr "在**新建层级**对话框的**保存于：**字段中输入路径，或使用**浏览按钮**设置保存位置路径。"
+
+#: ../../source/drawing_animation_levels.rst:86
+msgid "If in the browser you choose any project folder, in the path field the full path will be replaced by the correspondent *folder alias* (see  :ref:`Project Default Folders <project_default_folders>`  )."
+msgstr "如果在浏览器中选择任何项目文件夹，路径字段中的完整路径将被相应的*文件夹别名*替换（参见 :ref:`项目默认文件夹 <project_default_folders>`）。"
+
+#: ../../source/drawing_animation_levels.rst:92
+msgid "Using the Autocreation Option"
+msgstr "使用自动创建选项"
+
+#: ../../source/drawing_animation_levels.rst:93
+msgid ""
+"When in Preferences  →  Drawing the **Autocreation:** option is set to **Enabled**, it is possible to create new drawings automatically by using drawing tools in the viewer. If the currently selected cell is empty, a new level "
+"will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is the one **right after** one containing a level drawing (either in the Xsheet/Timeline or the Level "
+"Strip) a new drawing will be added to that level."
+msgstr ""
+"当首选项 → 绘图中的**自动创建：**选项设置为**启用**时，可以通过在检视器中使用绘图工具自动创建新绘图。如果当前选中的单元格为空，将自动创建一个新层级，并以字母表中第一个可用的字母命名；如果当前选中的单元格是**紧接在**包含层级绘图"
+"的单元格之后（无论是在摄影表/时间轴还是层级条中），则会将新绘图添加到该层级。"
+
+#: ../../source/drawing_animation_levels.rst:95 ../../source/drawing_animation_levels.rst:112
+msgid "The level type will be the one defined in Preferences...  →  Drawing as **Default Level Type**."
+msgstr "层级类型将是首选项... → 绘图中定义为**默认层级类型**的类型。"
+
+#: ../../source/drawing_animation_levels.rst:101
+msgid "Using the Xsheet as Animation Sheet"
+msgstr "使用摄影表作为动画纸"
+
+#: ../../source/drawing_animation_levels.rst:102
+msgid ""
+"When in Preferences...  →  Drawing the **Autocreation:** option is set to **Use the Xsheet as Animation Sheet**, it's possible to create new drawings automatically by using drawing tools in the viewer. If the currently "
+"selected cell is empty and belongs to an empty column, a new level will be automatically created and named with the first available letter of the alphabet; if the currently selected cell is **anywhere after** one containing a "
+"level drawing, a new drawing will be added to that level. In both cases the drawings will take its number from the scene current frame ; if that drawing number already existed in the level, a letter will be added to its number "
+"(e.g. A.0001a.ext)."
+msgstr ""
+"当首选项... → 绘图中的**自动创建：**选项设置为**使用摄影表作为动画纸**时，可以通过在检视器中使用绘图工具自动创建新绘图。如果当前选中的单元格为空且属于空列，将自动创建一个新层级，并以字母表中第一个可用的字母命名；如果当前选中的"
+"单元格是包含层级绘图的单元格之后的**任意位置**，则会将新绘图添加到该层级。在这两种情况下，绘图将从场景当前帧获取其编号；如果该绘图编号在层级中已存在，则会在其编号后添加一个字母（例如 A.0001a.ext）。"
+
+#: ../../source/drawing_animation_levels.rst:104
+msgid ""
+"This working method allows you to work as a traditional animator: you can start creating the *key drawings*, and then add *breakdown drawings*, and then *inbetween drawings*. You can quickly check your animation flipping it in "
+"the viewer."
+msgstr "这种工作方式允许您像传统动画师一样工作：可以先创建*关键张*，然后添加*中间张*，再然后是*中间画*。您可以在检视器中快速翻动检查动画。"
+
+#: ../../source/drawing_animation_levels.rst:106
+msgid "When you add a new drawing it will be repeated as a *hold* along the column/layer up to the following one."
+msgstr "当您添加新绘图时，它将在列/图层中作为*停顿*重复，直到下一个绘图为止。"
+
+#: ../../source/drawing_animation_levels.rst:108
+msgid "It's also possible to create a new drawing in a cell that contains a *hold*: the new drawing will replace the hold up to the following drawing. Drawings can also be duplicated creating a copy with a different number."
+msgstr "也可以在包含*停顿*的单元格中创建新绘图：新绘图将替换停顿，直到下一个绘图。绘图也可以复制，创建具有不同编号的副本。"
+
+#: ../../source/drawing_animation_levels.rst:110
+msgid "Once the animation is completed you can renumber the whole sequence according to the Xsheet/Timeline frame numbering."
+msgstr "动画完成后，可以根据摄影表/时间轴的帧编号对整个序列重新编号。"
+
+#: ../../source/drawing_animation_levels.rst:114
+msgid "**To create a new animation level**"
+msgstr "**创建新的动画层级**"
+
+#: ../../source/drawing_animation_levels.rst:116
+msgid "Click an empty cell in the Xsheet/Timeline and start drawing using a drawing tool in the viewer."
+msgstr "单击摄影表/时间轴中的一个空单元格，然后使用检视器中的绘图工具开始绘制。"
+
+#: ../../source/drawing_animation_levels.rst:118
+msgid "**To add a drawing to an existing level**"
+msgstr "**向现有层级添加绘图**"
+
+#: ../../source/drawing_animation_levels.rst:120
+msgid "Click an empty cell in the column/layer containing the existing level and start drawing using a drawing tool in the viewer."
+msgstr "单击包含现有层级的列/图层中的一个空单元格，然后使用检视器中的绘图工具开始绘制。"
+
+#: ../../source/drawing_animation_levels.rst:122
+msgid "**To automatically renumber the drawings**"
+msgstr "**自动对绘图重新编号**"
+
+#: ../../source/drawing_animation_levels.rst:124
+msgid "Select the cells with the drawings you want to renumber."
+msgstr "选择包含要重新编号的绘图的单元格。"
+
+#: ../../source/drawing_animation_levels.rst:126
+msgid "Choose the Cells  →  **Autorenumber** command."
+msgstr "选择 单元格 → **自动重新编号**命令。"
+
+#: ../../source/drawing_animation_levels.rst:128
+msgid "The **Autorenumber** command is also available in the menu that opens when right-clicking in a cell."
+msgstr "**自动重新编号**命令在右键单击单元格时打开的菜单中也可用。"
+
+#: ../../source/drawing_animation_levels.rst:134
+msgid "Using the Viewer"
+msgstr "使用检视器"
+
+#: ../../source/drawing_animation_levels.rst:135
+msgid "In the viewer, it's possible to use the tools available in the toolbar to draw, paint, edit and model drawings. The work area of the viewer is endless and you can scroll, zoom in, zoom out and rotate it."
+msgstr "在检视器中，可以使用工具栏中的工具绘制、上色、编辑和建模绘图。检视器的工作区域是无限制的，可以滚动、放大、缩小和旋转。"
+
+#: ../../source/drawing_animation_levels.rst:137
+msgid "In the title bar you can find information about what is currently displayed and selected, the zoom percentage, and a set of buttons that lets you set the view mode (see  :ref:`Using the Viewer <using_the_viewer>`  )."
+msgstr "在标题栏中，可以找到关于当前显示和选中的内容、缩放百分比以及一组用于设置视图模式的按钮的信息（参见 :ref:`使用检视器 <using_the_viewer>`）。"
+
+#: ../../source/drawing_animation_levels.rst:139
+msgid "At the bottom of the viewer another customizable set of buttons is available."
+msgstr "检视器底部提供另一组可自定义的按钮。"
+
+#: ../../source/drawing_animation_levels.rst:141
+msgid ""
+"The frame bar and the playback buttons let you set the current frame and move through animation frames. The set frame rate is visualized, and, in case the playback is activated, the actual frame rate is displayed on its left."
+msgstr "帧栏和播放按钮允许您设置当前帧并在动画帧之间移动。设定的帧速率会显示出来，如果播放被激活，其左侧会显示实际帧速率。"
+
+#: ../../source/drawing_animation_levels.rst:143
+msgid ""
+"The other buttons are relevant only using the Animate tool (|animate|) to animate objects and when previewing the animation in the viewer (see :ref:`Animating Objects <animating_objects>` and :ref:`Previewing the Animation "
+"<previewing_the_animation>`  )."
+msgstr "其他按钮仅在使用动画工具（|animate|）为对象设置动画以及在检视器中预览动画时相关（参见 :ref:`对象动画 <animating_objects>` 和 :ref:`预览动画 <previewing_the_animation>`）。"
+
+#: ../../source/drawing_animation_levels.rst:145
+msgid "If the bottom bar is too short to display all the options, it can be scrolled by using arrow buttons available at its ends."
+msgstr "如果底部栏太短无法显示所有选项，可以使用其两端的箭头按钮滚动。"
+
+#: ../../source/drawing_animation_levels.rst:147
+msgid "In case a frame range is defined by playback markers, the playback buttons operate on the defined range only (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  )."
+msgstr "如果帧范围由播放标记定义，则播放按钮仅对定义的范围进行操作（参见 :ref:`使用播放标记 <using_the_playback_markers>`）。"
+
+#: ../../source/drawing_animation_levels.rst:149
+msgid "**To navigate the work area:**"
+msgstr "**导航工作区域：**"
+
+#: ../../source/drawing_animation_levels.rst:153
+msgid "Use the **Zoom** tool (|zoom|): to zoom in, click and drag up; to zoom out, click and drag down. The point where you click is the center of the zooming action."
+msgstr "使用**缩放**工具（|zoom|）：要放大，单击并向上拖动；要缩小，单击并向下拖动。单击的点是缩放操作的中心。"
+
+#: ../../source/drawing_animation_levels.rst:155
+msgid "Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at specific steps (e.g. 50%, 100%, 200%, etc.)."
+msgstr "使用缩放快捷键（默认为 + 和 - 键）以特定步长放大和缩小（例如 50%、100%、200% 等）。"
+
+#: ../../source/drawing_animation_levels.rst:157
+msgid "Use the mouse wheel to zoom in and zoom out."
+msgstr "使用鼠标滚轮放大和缩小。"
+
+#: ../../source/drawing_animation_levels.rst:159
+msgid "Middle-click and drag or use the **Hand** tool (|hand|) to scroll in any direction."
+msgstr "中键单击并拖动或使用**抓手**工具（|hand|）向任意方向滚动。"
+
+#: ../../source/drawing_animation_levels.rst:161
+msgid "Use the **Rotate** tool (|rotate|) to rotate the viewer: an *horizon line* is displayed to let you understand the amount of rotation; the center of rotation is the absolute center of the work area."
+msgstr "使用**旋转**工具（|rotate|）旋转检视器：会显示一条*水平线*以便您了解旋转量；旋转中心是工作区域的绝对中心。"
+
+#: ../../source/drawing_animation_levels.rst:163
+msgid ""
+"Use the reset view shortcut (by default the **Alt + 0** key) or right-click in the viewer and select **Reset View** from the menu that opens, to display the viewer at its actual size, centered on the absolute center with no "
+"rotation applied."
+msgstr "使用重置视图快捷键（默认为**Alt + 0**键）或右键单击检视器并从打开的菜单中选择**重置视图**，以实际大小显示检视器，居中对齐绝对中心且不应用任何旋转。"
+
+#: ../../source/drawing_animation_levels.rst:165
+msgid "Right-click and choose **Fit to Window** to automatically zoom the viewer so that it fits the camera box."
+msgstr "右键单击并选择**适应窗口**，自动缩放检视器使其适应摄像机框。"
+
+#: ../../source/drawing_animation_levels.rst:167
+msgid "**To play the scene contents back:**"
+msgstr "**回放场景内容：**"
+
+#: ../../source/drawing_animation_levels.rst:171
+msgid "Use the **Play** button."
+msgstr "使用**播放**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:173 ../../source/drawing_animation_levels.rst:181
+msgid "Drag the frame bar cursor."
+msgstr "拖动帧栏光标。"
+
+#: ../../source/drawing_animation_levels.rst:175
+msgid "**To set the current frame:**"
+msgstr "**设置当前帧：**"
+
+#: ../../source/drawing_animation_levels.rst:179
+msgid "Use the playback buttons."
+msgstr "使用播放按钮。"
+
+#: ../../source/drawing_animation_levels.rst:183
+msgid "Type in the **Current Frame** field the number of the frame you want to view."
+msgstr "在**当前帧**字段中输入要查看的帧的编号。"
+
+#: ../../source/drawing_animation_levels.rst:185
+msgid "**To set the playback frame rate:**"
+msgstr "**设置播放帧速率：**"
+
+#: ../../source/drawing_animation_levels.rst:189
+msgid "Enter a value in the **FPS** field."
+msgstr "在**FPS**字段中输入一个值。"
+
+#: ../../source/drawing_animation_levels.rst:191
+msgid "Use the frame rate slider."
+msgstr "使用帧速率滑块。"
+
+#: ../../source/drawing_animation_levels.rst:197
+msgid "Adjusting the Viewer Visualization"
+msgstr "调整检视器可视化"
+
+#: ../../source/drawing_animation_levels.rst:198
+msgid "The way the viewer visualizes the scene content can be adjusted according to the task to perform."
+msgstr "检视器可视化场景内容的方式可以根据要执行的任务进行调整。"
+
+#: ../../source/drawing_animation_levels.rst:200
+msgid "**Full Screen** mode can be entered to maximize the viewer to the monitor screen, hiding any interface window border. This is available only on the Windows platform."
+msgstr "可以进入**全屏**模式，将检视器最大化到监视器屏幕，隐藏任何界面窗口边框。此功能仅在 Windows 平台上可用。"
+
+#: ../../source/drawing_animation_levels.rst:202
+msgid ""
+"Vector drawings, that can slow down the visualization performance when used in large amounts in a scene, can be visualized as raster drawings, faster to visualize, still preserving their vector nature, by using the **Visualize "
+"Vector As Raster** option."
+msgstr "矢量绘图在场景中大量使用时可能会降低可视化性能，可以通过使用**将矢量可视化为栅格**选项，将其可视化为栅格绘图，可视化速度更快，同时仍保留其矢量特性。"
+
+#: ../../source/drawing_animation_levels.rst:204
+msgid "If the current level is vector-based, it will still be displayed as vector to allow any drawing/editing operation you may perform."
+msgstr "如果当前层级是基于矢量的，它仍将显示为矢量，以允许您执行任何绘图/编辑操作。"
+
+#: ../../source/drawing_animation_levels.rst:206
+msgid ""
+"Raster drawings and images that usually are displayed in the viewer according to their DPI value, can be displayed at their actual pixel size, that is to say that one pixel from the image is displayed as one pixel of the "
+"screen monitor, to better examine them."
+msgstr "通常根据其DPI值在检视器中显示的栅格绘图和图像，可以以其实际像素大小显示，即图像中的一个像素显示为屏幕监视器的一个像素，以便更好地检查它们。"
+
+#: ../../source/drawing_animation_levels.rst:208
+msgid "Visualizing an image at its actual pixel size is different from zooming in because zooming always takes into account the image DPI information."
+msgstr "以实际像素大小可视化图像与放大不同，因为放大总是会考虑图像的DPI信息。"
+
+#: ../../source/drawing_animation_levels.rst:210
+msgid "**Windows only - To enter the viewer full screen mode:**"
+msgstr "**仅限 Windows - 进入检视器全屏模式：**"
+
+#: ../../source/drawing_animation_levels.rst:212
+msgid "Right-click the viewer and choose **Full Screen Mode** from the menu that opens."
+msgstr "右键单击检视器，然后从打开的菜单中选择**全屏模式**。"
+
+#: ../../source/drawing_animation_levels.rst:214
+msgid "**Windows only - To exit the viewer full screen mode:**"
+msgstr "**仅限 Windows - 退出检视器全屏模式：**"
+
+#: ../../source/drawing_animation_levels.rst:216
+msgid "Right-click the viewer and choose **Exit Full Screen Mode** from the menu that opens."
+msgstr "右键单击检视器，然后从打开的菜单中选择**退出全屏模式**。"
+
+#: ../../source/drawing_animation_levels.rst:218
+msgid "**To activate or deactivate the raster visualization for vector drawings:**"
+msgstr "**激活或停用矢量绘图的栅格可视化：**"
+
+#: ../../source/drawing_animation_levels.rst:220
+msgid "Activate or deactivate the View  →  **Visualize Vector As Raster** option."
+msgstr "激活或停用 视图 → **将矢量可视化为栅格**选项。"
+
+#: ../../source/drawing_animation_levels.rst:222
+msgid "**To display raster drawings and images at their actual pixel size:**"
+msgstr "**以实际像素大小显示栅格绘图和图像：**"
+
+#: ../../source/drawing_animation_levels.rst:224
+msgid "In the Xsheet/Timeline select the level to which the drawing or image belongs so that it becomes the current level."
+msgstr "在摄影表/时间轴中选择绘图或图像所属的层级，使其成为当前层级。"
+
+#: ../../source/drawing_animation_levels.rst:226
+msgid "Select the drawing or image in the Level Strip in order to display it alone."
+msgstr "在层级条中选择绘图或图像，以便单独显示它。"
+
+#: ../../source/drawing_animation_levels.rst:228
+msgid "Use the Actual Pixel Size shortcut (by default the **N** key) or right-click in the viewer and choose **Actual Pixel Size** from the menu that opens."
+msgstr "使用实际像素大小快捷键（默认为**N**键）或右键单击检视器并从打开的菜单中选择**实际像素大小**。"
+
+#: ../../source/drawing_animation_levels.rst:234
+msgid "Customizing the Viewer"
+msgstr "自定义检视器"
+
+#: ../../source/drawing_animation_levels.rst:235
+msgid ""
+"The Viewer can be customized according to your needs: the background colors visible in the Viewer and inside the camera box can be changed; a Field Guide and a Safe Area can be displayed for reference; the Table and Camera Box "
+"can be hidden; Custom Guides can be added to help you in aligning objects or composing the elements of the scene for a particular frame. The View  →  **Inks Only** check allows to hide the painted areas of the levels, "
+"facilitating the drawing process."
+msgstr ""
+"可以根据需要自定义检视器：可以更改检视器中以及摄像机框内可见的背景颜色；可以显示场导和安全区域作为参考；可以隐藏台面和摄像机框；可以添加自定义参考线，以帮助您对齐对象或为特定帧构图场景元素。视图 → **仅墨线**复选框允许隐藏层级的"
+"已上色区域，方便绘图过程。"
+
+#: ../../source/drawing_animation_levels.rst:237
+msgid "The set of buttons and information available in the bottom bar of the Viewer can be customized as well, so that only the elements you require are visible."
+msgstr "检视器底部栏中的按钮和信息集也可以自定义，以便仅显示您需要的元素。"
+
+#: ../../source/drawing_animation_levels.rst:239
+msgid "**To change the Viewer Background color:**"
+msgstr "**更改检视器背景颜色：**"
+
+#: ../../source/drawing_animation_levels.rst:241
+msgid "Open the File  →  Preferences...  →  **Colors** dialog."
+msgstr "打开 文件 → 首选项... → **颜色**对话框。"
+
+#: ../../source/drawing_animation_levels.rst:243
+msgid "Define the **Viewer BG Color** by doing one of the following:"
+msgstr "通过以下任一方式定义**检视器背景颜色**："
+
+#: ../../source/drawing_animation_levels.rst:245
+msgid "Set the Red, Green and Blue values."
+msgstr "设置红色、绿色和蓝色值。"
+
+#: ../../source/drawing_animation_levels.rst:247 ../../source/drawing_animation_levels.rst:257
+msgid "Click the color thumbnail and use the **Style Editor** to edit it (see  :ref:`Plain Colors <plain_colors>`  )."
+msgstr "单击颜色缩略图并使用**样式编辑器**进行编辑（参见 :ref:`纯色 <plain_colors>`）。"
+
+#: ../../source/drawing_animation_levels.rst:249
+msgid "**To change the Camera Box Background color:**"
+msgstr "**更改摄像机框背景颜色：**"
+
+#: ../../source/drawing_animation_levels.rst:251 ../../source/drawing_animation_levels.rst:277
+msgid "Open the Xsheet  →  **Scene Settings...** dialog."
+msgstr "打开 摄影表 → **场景设置...**对话框。"
+
+#: ../../source/drawing_animation_levels.rst:253
+msgid "Define the **Camera BG Color** by doing one of the following:"
+msgstr "通过以下任一方式定义**摄像机背景颜色**："
+
+#: ../../source/drawing_animation_levels.rst:255
+msgid "Set the Red, Green, Blue and Alpha values."
+msgstr "设置红色、绿色、蓝色和 Alpha 值。"
+
+#: ../../source/drawing_animation_levels.rst:259
+msgid "**To show or hide the Table:**"
+msgstr "**显示或隐藏台面：**"
+
+#: ../../source/drawing_animation_levels.rst:261
+msgid "Choose View  →  **Table** to show or hide the table."
+msgstr "选择 视图 → **台面**以显示或隐藏台面。"
+
+#: ../../source/drawing_animation_levels.rst:263
+msgid "**To show or hide the Camera Box:**"
+msgstr "**显示或隐藏摄像机框：**"
+
+#: ../../source/drawing_animation_levels.rst:265
+msgid "Choose View  →  **Camera Box** to show or hide the camera box."
+msgstr "选择 视图 → **摄像机框**以显示或隐藏摄像机框。"
+
+#: ../../source/drawing_animation_levels.rst:267
+msgid "**To show or hide the Camera Background color:**"
+msgstr "**显示或隐藏摄像机背景颜色：**"
+
+#: ../../source/drawing_animation_levels.rst:269
+msgid "Choose View  →  **Camera BG Color** to show or hide the camera box background color."
+msgstr "选择 视图 → **摄像机背景颜色**以显示或隐藏摄像机框背景颜色。"
+
+#: ../../source/drawing_animation_levels.rst:271
+msgid "**To show or hide the Field Guide:**"
+msgstr "**显示或隐藏场导：**"
+
+#: ../../source/drawing_animation_levels.rst:273
+msgid "Choose View  →  **Field Guide** to show or hide the field guide."
+msgstr "选择 视图 → **场导**以显示或隐藏场导。"
+
+#: ../../source/drawing_animation_levels.rst:275
+msgid "**To define the displayed Field Guide:**"
+msgstr "**定义显示的场导：**"
+
+#: ../../source/drawing_animation_levels.rst:279
+msgid "Define the **Field Guide Size:** and **A/R:**. **Size** is the number of width fields of the field guide (1 field is equal to 1 inch), and the **A/R** is the ratio between the field guide width and height."
+msgstr "定义**场导尺寸：**和**宽高比：**。**尺寸**是场导的宽度场数（1 场等于 1 英寸），**宽高比**是场导宽度与高度之间的比率。"
+
+#: ../../source/drawing_animation_levels.rst:281
+msgid "**To show or hide the Safe Area:**"
+msgstr "**显示或隐藏安全区域：**"
+
+#: ../../source/drawing_animation_levels.rst:283
+msgid "Choose View  →  **Safe Area** to show or hide the safe area."
+msgstr "选择 视图 → **安全区域**以显示或隐藏安全区域。"
+
+#: ../../source/drawing_animation_levels.rst:285
+msgid "**To add a Custom Guide:**"
+msgstr "**添加自定义参考线：**"
+
+#: ../../source/drawing_animation_levels.rst:287
+msgid "Click in the ruler: a click in the horizontal ruler will create a vertical guide, a click in the vertical ruler will create an horizontal guide."
+msgstr "在标尺上单击：在水平标尺上单击将创建垂直参考线，在垂直标尺上单击将创建水平参考线。"
+
+#: ../../source/drawing_animation_levels.rst:289
+msgid "**To move a Custom Guide:**"
+msgstr "**移动自定义参考线：**"
+
+#: ../../source/drawing_animation_levels.rst:291
+msgid "Drag the custom guide marker in the ruler."
+msgstr "在标尺中拖动自定义参考线标记。"
+
+#: ../../source/drawing_animation_levels.rst:293
+msgid "**To delete a Custom Guide:**"
+msgstr "**删除自定义参考线：**"
+
+#: ../../source/drawing_animation_levels.rst:297
+msgid "Right-click on the guide marker in the ruler."
+msgstr "右键单击标尺中的参考线标记。"
+
+#: ../../source/drawing_animation_levels.rst:299
+msgid "Drag its marker outside of the Viewer, in the opposite direction of the guide itself."
+msgstr "将其标记向参考线本身的反方向拖出检视器。"
+
+#: ../../source/drawing_animation_levels.rst:301
+msgid "**To show or hide Custom Guides:**"
+msgstr "**显示或隐藏自定义参考线：**"
+
+#: ../../source/drawing_animation_levels.rst:303
+msgid "Choose View  →  **Guides** to show or hide the guides."
+msgstr "选择 视图 → **参考线**以显示或隐藏参考线。"
+
+#: ../../source/drawing_animation_levels.rst:305
+msgid "**To show or hide the Rulers where Custom Guide markers are located:**"
+msgstr "**显示或隐藏自定义参考线标记所在的标尺：**"
+
+#: ../../source/drawing_animation_levels.rst:307
+msgid "Choose View  →  **Rulers** to show or hide the rulers."
+msgstr "选择 视图 → **标尺**以显示或隐藏标尺。"
+
+#: ../../source/drawing_animation_levels.rst:309
+msgid ""
+"When the Viewer work area is rotated, guides are rotated as well, but rulers and guide markers will preserve their position and orientation. However the position of a guide will still be controlled by markers, even if they "
+"visually don’t match anymore."
+msgstr "当检视器工作区域旋转时，参考线也会随之旋转，但标尺和参考线标记将保持其位置和方向。然而，参考线的位置仍将由标记控制，即使它们在视觉上不再匹配。"
+
+#: ../../source/drawing_animation_levels.rst:311
+msgid "**To customize the set of buttons in the bottom bar of the viewer:**"
+msgstr "**自定义检视器底部栏中的按钮集：**"
+
+#: ../../source/drawing_animation_levels.rst:313
+msgid "Click the option button (|option|) on the far left of the bottom area, and select the elements to show, or deselect those to hide, in the menu that opens."
+msgstr "单击底部区域最左侧的选项按钮（|option|），然后在打开的菜单中选中要显示的元素，或取消选中要隐藏的元素。"
+
+#: ../../source/drawing_animation_levels.rst:319
+msgid "Drawing Tools"
+msgstr "绘图工具"
+
+#: ../../source/drawing_animation_levels.rst:320
+msgid ""
+"You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz Vector levels, and from 1 to "
+"100 for Toonz Raster and Raster levels."
+msgstr "您可以使用**画笔**（|brush|）和**几何体**（|geometric|）工具进行绘制。对于这两种工具，都可以设置要绘制的线条粗细：Toonz 矢量层级的范围是 0 到 100，Toonz 栅格和栅格层级的范围是 1 到 100。"
+
+#: ../../source/drawing_animation_levels.rst:322
+msgid "For Toonz Raster and Raster levels it's possible to set a Brush tool size higher than 100 by typing it in the Size value fields."
+msgstr "对于 Toonz 栅格和栅格层级，可以在大小值字段中输入大于 100 的值来设置画笔工具大小。"
+
+#: ../../source/drawing_animation_levels.rst:324
+msgid "**Min** and **Max Size/Thickness** can be modified by either of these methods:"
+msgstr "**最小**和**最大大小/粗细**可以通过以下任一方法修改："
+
+#: ../../source/drawing_animation_levels.rst:326
+msgid "Pressing **Ctrl + Alt** and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value."
+msgstr "按下**Ctrl + Alt**并移动鼠标。*水平移动*改变**最大**值，而*垂直移动*改变**最小**值。"
+
+#: ../../source/drawing_animation_levels.rst:328
+msgid "Using the predefined keyboard shortcuts. **U** and **I** for respectively decreasing and increasing the **Max** value, or **H** and **J** for respectively decreasing and increasing the **Min** value."
+msgstr "使用预定义的键盘快捷键。**U**和**I**分别用于减小和增大**最大**值，或**H**和**J**分别用于减小和增大**最小**值。"
+
+#: ../../source/drawing_animation_levels.rst:330
+msgid "With the **Brush** tool (|brush|), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw."
+msgstr "使用**画笔**工具（|brush|），如果您使用压感数位板，可以充分利用其压感功能。在数位板上按压得越用力，绘制的线条就越粗。"
+
+#: ../../source/drawing_animation_levels.rst:332
+msgid "With the **Geometric** tool (|geometric|), the thickness value is constantly applied to the whole shape you draw."
+msgstr "使用**几何体**工具（|geometric|），粗细值会持续应用于您绘制的整个形状。"
+
+#: ../../source/drawing_animation_levels.rst:334
+msgid ""
+"When creating vector drawings the size/thickness can also be set to 0 (zero): in this case vector strokes will only exist as a wireframe even if you zoom in or zoom out, and they will be not visible when the animation is "
+"rendered."
+msgstr "创建矢量绘图时，大小/粗细也可以设置为 0（零）：在这种情况下，矢量笔触将仅作为线框存在，即使您放大或缩小，并且在渲染动画时它们将不可见。"
+
+#: ../../source/drawing_animation_levels.rst:336
+msgid "For vector drawings, line thickness can be changed and tweaked afterwards by using other tools (see  :ref:`Editing Drawings <editing_drawings>`  )."
+msgstr "对于矢量绘图，线条粗细可以在之后使用其他工具进行更改和调整（参见 :ref:`编辑绘图 <editing_drawings>`）。"
+
+#: ../../source/drawing_animation_levels.rst:342
+msgid "Drawing with the Brush Tool"
+msgstr "使用画笔工具绘制"
+
+#: ../../source/drawing_animation_levels.rst:343
+msgid "The **Brush** tool (|brush|) allows you to draw freehand lines with the current style."
+msgstr "**画笔**工具（|brush|）允许您使用当前样式绘制自由线条。"
+
+#: ../../source/drawing_animation_levels.rst:345
+msgid ""
+"When using a pressure sensitive tablet, and the **Pressure** option is activated, varying the pressure of the pen on the tablet will allow you to create variable-thickness lines that will make your drawings more expressive."
+msgstr "使用压感数位板且**压力**选项被激活时，改变笔在数位板上的压力可以让您创建粗细变化的线条，使您的绘图更具表现力。"
+
+#: ../../source/drawing_animation_levels.rst:347
+msgid ""
+"When using the **Brush** tool (|brush|) on Toonz Raster and Raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the **Minimum Size**, and the outer "
+"one the **Maximum Size** of the brush."
+msgstr "在 Toonz 栅格和栅格绘图上使用**画笔**工具（|brush|）时，光标会显示将受画笔影响的确切像素区域：内部的锯齿状圆圈代表画笔的**最小尺寸**，外部的代表**最大尺寸**。"
+
+#: ../../source/drawing_animation_levels.rst:349 ../../source/drawing_animation_levels.rst:398 ../../source/drawing_animation_levels.rst:485 ../../source/drawing_animation_levels.rst:520
+#: ../../source/drawing_animation_levels.rst:740
+msgid "In the tool options bar you can set the following:"
+msgstr "在工具选项栏中，您可以设置以下内容："
+
+#: ../../source/drawing_animation_levels.rst:351
+msgid ""
+"**Size Min** and **Max** sets the size of the brush; the size will vary between the two values if you're using a pressure sensitive tablet. If the two values are the same, your lines will have a constant thickness. When using "
+"a mouse to draw, the **Maximum** thickness value will be used."
+msgstr "**大小 最小**和**最大**设置画笔的大小；如果您使用压感数位板，大小将在两个值之间变化。如果两个值相同，您的线条将具有恒定的粗细。使用鼠标绘制时，将使用**最大**粗细值。"
+
+#: ../../source/drawing_animation_levels.rst:353
+msgid ""
+"**Accuracy** sets how accurate the generated line is compared to what you draw with the mouse or tablet pen: a high value will generate lines that completely preserves the movement you perform (even a trembling hand); a low "
+"value will simplify the line. This is available for Toonz Vector drawings only."
+msgstr "**精度**设置生成的线条与您用鼠标或数位板笔绘制的线条相比的准确度：高值将生成完全保留您执行动作（即使是手抖）的线条；低值将简化线条。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:355
+msgid "**Smooth** allows for stroke stabilization while drawing. This is available for Toonz Vector and Toonz Raster drawings only."
+msgstr "**平滑**允许在绘制时稳定笔触。此功能仅适用于 Toonz 矢量和 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:357
+msgid "**Hardness** sets the amount of antialiasing along the line border. This is available for Toonz Raster and Raster drawings only."
+msgstr "**硬度**设置线条边框的抗锯齿量。此功能仅适用于 Toonz 栅格和栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:359
+msgid ""
+"**Opacity Min** and **Max** sets the opacity of the brush; the opacity will vary between the two values if you're using a pressure sensitive tablet. Overlapping areas are not considered while drawing a single line, but only "
+"when different lines are overlapping. This is available for Raster drawings only."
+msgstr "**不透明度 最小**和**最大**设置画笔的不透明度；如果您使用压感数位板，不透明度将在两个值之间变化。绘制单条线时不考虑重叠区域，仅在绘制不同线条重叠时才考虑。此功能仅适用于栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:361
+msgid "**Break** automatically breaks the drawn stroke into sections, if very sharp angles are drawn: in this way, drawn shapes may result simpler and easier to fill. This is available for Toonz Vector drawings only."
+msgstr "**打断**在绘制非常尖锐的角度时自动将绘制的笔触分成若干段：这样，绘制的形状可能会更简单，更容易填充。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:363
+msgid ""
+"**Draw Order** allows to choose how new drawings will be ordered with respect to already drawn lines. The options are: **Over All**, **Under All** and **Palette Order**. When using **Palette Order** new lines will be drawn "
+"above or below already existing ones, using the relative indexes of the palette Styles as the sorting factor. This is available for Toonz Raster drawings only."
+msgstr ""
+"**绘制顺序**允许选择新绘图相对于已绘制线条的排序方式。选项有：**在所有之上**、**在所有之下**和**调色板顺序**。使用**调色板顺序**时，新线条将绘制在现有线条之上或之下，使用调色板样式的相对索引作为排序因素。此功能仅适用于 Toonz 栅"
+"格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:365
+msgid "**Pencil** mode draws lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only."
+msgstr "**铅笔**模式绘制不带抗锯齿的线条，即具有锯齿状边缘。此功能仅适用于 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:367
+msgid "**Pressure** detects, in case you are using a graphic tablet, the pressure of the pen on the tablet, allowing the creation of variable-thickness lines."
+msgstr "**压力**在您使用绘图板时检测笔在板上的压力，允许创建粗细可变的线条。"
+
+#: ../../source/drawing_animation_levels.rst:369
+msgid ""
+"**Range** allows for the automatic creation of a series of in-between strokes, by drawing just the extremes of the animation on subsequent frames of a level, in the Level Strip, or subsequent exposed cells of a level in the "
+"Xsheet/Timeline. By pressing **Ctrl** key, you can draw intermediate strokes to form a more complex animation sequence. This method is similar to the one used by the **Inbetween** command (see  :ref:`Using the In-betweener "
+"with Vector Drawings <using_the_in-betweener_with_vector_drawings>`  ). This is available for Toonz Vector drawings only."
+msgstr ""
+"**范围**允许自动创建一系列中间笔触，只需在层级条中层级的后续帧上，或在摄影表/时间轴中层级的后续曝光单元格上绘制动画的极端位置即可。通过按住**Ctrl**键，可以绘制中间笔触以形成更复杂的动画序列。此方法与**中间画**命令使用的方法类似"
+"（参见 :ref:`对矢量绘图使用中间画生成器 <using_the_in-betweener_with_vector_drawings>`）。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:371
+msgid ""
+"**Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing a new stroke. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Toonz Vector "
+"drawings only."
+msgstr "**吸附**允许在绘制新笔触时将光标吸附到同一层级的其他已绘制笔触。它具有三个敏感度级别：**低**、**中**和**高**。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:373
+msgid ""
+"**Preset:** let you choose a brush preset in the option menu on the right. You can add or remove a preset clicking the **+** and **-** buttons. A presets list is created *for each level type* and each added preset will be "
+"available for next use."
+msgstr "**预设：**让您在右侧的选项菜单中选择画笔预设。您可以单击**+**和**-**按钮添加或删除预设。预设列表是*针对每种层级类型*创建的，每个添加的预设都将在下次使用时可用。"
+
+#: ../../source/drawing_animation_levels.rst:375
+msgid ""
+"**Cap** option sets the shape of the ends of the stroke you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, "
+"according to the vector thickness. This is available for Toonz Vector drawings only."
+msgstr "**线帽**选项设置您将要绘制的笔触末端的形状。选项有：**平头**用于方形末端，**圆头**用于半圆形末端，**突出**用于根据矢量粗细超出线条末端的方形末端。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:377
+msgid ""
+"**Join** option sets the shape of the straight corners along the stroke you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz "
+"Vector drawings only."
+msgstr "**连接**选项设置您将要绘制的笔触沿线直角的形状。选项有：**斜接**用于尖角，**圆角**用于圆角，**斜角**用于方角。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:379
+msgid ""
+"**Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is "
+"available for Toonz Vector drawings only, and only if the **Join** option is set to miter."
+msgstr "**斜接限制：**设置斜接连接的最大长度，该长度通过将斜接值乘以笔触粗细计算得出。如果长度超过最大值，*斜接*连接将转变为*斜角*连接。此功能仅适用于 Toonz 矢量绘图，并且仅在**连接**选项设置为斜接时才可用。"
+
+#: ../../source/drawing_animation_levels.rst:381 ../../source/drawing_animation_levels.rst:424 ../../source/drawing_animation_levels.rst:540
+msgid "If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends."
+msgstr "如果工具选项栏太短无法显示所有工具选项，可以使用其两端的箭头按钮滚动。"
+
+#: ../../source/drawing_animation_levels.rst:383
+msgid "**To add a new brush preset:**"
+msgstr "**添加新画笔预设：**"
+
+#: ../../source/drawing_animation_levels.rst:385
+msgid "Click the **+** button on the right of the presets list."
+msgstr "单击预设列表右侧的**+**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:387
+msgid "**To remove a new brush preset:**"
+msgstr "**移除画笔预设：**"
+
+#: ../../source/drawing_animation_levels.rst:389
+msgid "Click the **-** button on the right of the presets list."
+msgstr "单击预设列表右侧的**-**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:395
+msgid "Drawing with the Geometric Tool"
+msgstr "使用几何体工具绘制"
+
+#: ../../source/drawing_animation_levels.rst:396
+msgid "The **Geometric** tool (|geometric|) allows you to draw rectangles, circles, ellipses, regular polygons, polylines and arcs."
+msgstr "**几何体**工具（|geometric|）允许您绘制矩形、圆形、椭圆形、正多边形、折线和弧线。"
+
+#: ../../source/drawing_animation_levels.rst:400
+msgid "**Thickness** sets the size of the brush used to draw the geometric shapes."
+msgstr "**粗细**设置用于绘制几何形状的画笔大小。"
+
+#: ../../source/drawing_animation_levels.rst:402
+msgid "**Hardness** sets the amount of antialiasing along the shape border. This is available for Toonz Raster and Raster drawings only."
+msgstr "**硬度**设置形状边框的抗锯齿量。此功能仅适用于 Toonz 栅格和栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:404
+msgid "**Opacity** sets the opacity of the shape border. Overlapping areas are not considered while drawing over the same shape, but only when different shapes are overlapping. This is available for Raster drawings only."
+msgstr "**不透明度**设置形状边框的不透明度。在同一形状上绘制时不考虑重叠区域，仅在不同形状重叠时才考虑。此功能仅适用于栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:406
+msgid ""
+"**Shape:** sets the type of shape you want to draw. Available options are: Rectangle, Circle, Ellipse, Line, Polyline, Arc and Polygon. In case you want to draw a **Polygon**, the **Polygon Sides:** lets you set the number of "
+"sides."
+msgstr "**形状：**设置要绘制的形状类型。可用选项有：矩形、圆形、椭圆形、直线、折线、弧线和多边形。如果要绘制**多边形**，**多边形边数：**允许您设置边数。"
+
+#: ../../source/drawing_animation_levels.rst:408
+msgid ""
+"**Auto Group** automatically defines any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) as a group, *thus creating a new layer that is placed in front of the other drawing vectors*, "
+"without intersecting them (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). This is available for Toonz Vector drawings only."
+msgstr ""
+"**自动成组**自动将任何绘制的封闭形状（即矩形、圆形、椭圆形、多边形和闭合折线）定义为一个组，*从而创建一个放置在其他绘图矢量前面的新图层*，而不会与它们相交（参见 :ref:`矢量成组和解组 <grouping_and_ungrouping_vectors>`）。此功能"
+"仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:410
+msgid ""
+"**Auto Fill** automatically paints the area defined by any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) with the same style used for drawing. This is available for Toonz Vector "
+"drawings only."
+msgstr "**自动填充**自动使用用于绘制的相同样式填充任何绘制的封闭形状（即矩形、圆形、椭圆形、多边形和闭合折线）定义的区域。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:412
+msgid ""
+"**Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing the shape. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Toonz Vector "
+"drawings only."
+msgstr "**吸附**允许在绘制形状时将光标吸附到同一层级的其他已绘制笔触。它具有三个敏感度级别：**低**、**中**和**高**。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:414
+msgid "**Selective** allows the drawing operations not to affect already drawn lines. This is available for Toonz Raster drawings only."
+msgstr "**选择性**允许绘图操作不影响已绘制的线条。此功能仅适用于 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:416
+msgid "**Pencil** mode draws geometric shapes without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only."
+msgstr "**铅笔**模式绘制不带抗锯齿的几何形状，即具有锯齿状边缘。此功能仅适用于 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:418
+msgid ""
+"**Cap** option sets the shape of the ends of open shapes you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, "
+"according to the vector thickness. This is available for Toonz Vector drawings only."
+msgstr "**线帽**选项设置您将要绘制的开放形状末端的形状。选项有：**平头**用于方形末端，**圆头**用于半圆形末端，**突出**用于根据矢量粗细超出线条末端的方形末端。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:420
+msgid ""
+"**Join** option sets the shape of the straight corners along the shapes you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz "
+"Vector drawings only."
+msgstr "**连接**选项设置您将要绘制的形状沿线直角的形状。选项有：**斜接**用于尖角，**圆角**用于圆角，**斜角**用于方角。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:422
+msgid ""
+"**Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is "
+"available for Toonz Vector levels only, and only if the **Join** option is set to **Miter**."
+msgstr "**斜接限制：**设置斜接连接的最大长度，该长度通过将斜接值乘以笔触粗细计算得出。如果长度超过最大值，*斜接*连接将转变为*斜角*连接。此功能仅适用于 Toonz 矢量层级，并且仅在**连接**选项设置为**斜接**时才可用。"
+
+#: ../../source/drawing_animation_levels.rst:426
+msgid ""
+"While **Rectangles** and **Ellipses** are defined by a (bounding) box, **Circles** and **Polygons** are defined by a center and radius; **Polylines** can be used to create open or closed shapes by defining a series of lines; "
+"**Arcs** let you set the end points of a curve, and then the bend."
+msgstr "**矩形**和**椭圆形**由（边界）框定义，而**圆形**和**多边形**由中心和半径定义；**折线**可通过定义一系列线条来创建开放或闭合形状；**弧线**允许您设置曲线的端点，然后是弯曲度。"
+
+#: ../../source/drawing_animation_levels.rst:428
+msgid "**To draw a rectangle or an ellipse:**"
+msgstr "**绘制矩形或椭圆形：**"
+
+#: ../../source/drawing_animation_levels.rst:430
+msgid ""
+"Click to define the upper left corner, drag, and release to define the bottom right corner. If you press the **Shift** key while dragging, the shape will be regular, i.e. a square or a circle; if you press the **Alt** key, "
+"shapes will be drawn starting from their center. It's possible to press both keys at the same time."
+msgstr "单击定义左上角，拖动并释放定义右下角。如果在拖动时按住**Shift**键，形状将是规则的，即正方形或圆形；如果按住**Alt**键，形状将从其中心开始绘制。可以同时按住这两个键。"
+
+#: ../../source/drawing_animation_levels.rst:432
+msgid "**To draw a circle:**"
+msgstr "**绘制圆形：**"
+
+#: ../../source/drawing_animation_levels.rst:434
+msgid "Click to define the center, drag and release to define the radius."
+msgstr "单击定义中心，拖动并释放定义半径。"
+
+#: ../../source/drawing_animation_levels.rst:436
+msgid "**To draw a polygon:**"
+msgstr "**绘制多边形：**"
+
+#: ../../source/drawing_animation_levels.rst:438
+msgid "Set the number of sides in the **Polygon Sides:** field."
+msgstr "在**多边形边数：**字段中设置边数。"
+
+#: ../../source/drawing_animation_levels.rst:440
+msgid "Click to define the center, drag and release to define the radius of a circle bounding the polygon."
+msgstr "单击定义中心，拖动并释放定义包围多边形的圆的半径。"
+
+#: ../../source/drawing_animation_levels.rst:442
+msgid "**To draw a polyline:**"
+msgstr "**绘制折线：**"
+
+#: ../../source/drawing_animation_levels.rst:446
+msgid "**Click** to define the first point as a corner point."
+msgstr "**单击**将第一个点定义为角点。"
+
+#: ../../source/drawing_animation_levels.rst:448
+msgid "**Click and drag** to define the first point as a control point; while dragging you can set the control point handles."
+msgstr "**单击并拖动**将第一个点定义为控制点；拖动时可以设置控制点手柄。"
+
+#: ../../source/drawing_animation_levels.rst:452
+msgid "**Click** to define the end point of the line as a corner point. If you press the **Shift** key, you will draw a vertical, horizontal or 45° line."
+msgstr "**单击**将线的终点定义为角点。如果按住**Shift**键，将绘制垂直、水平或 45° 线。"
+
+#: ../../source/drawing_animation_levels.rst:454
+msgid "**Click and drag** to define the end point of the line as a control point; while dragging you can set the control point handles."
+msgstr "**单击并拖动**将线的终点定义为控制点；拖动时可以设置控制点手柄。"
+
+#: ../../source/drawing_animation_levels.rst:458
+msgid "**Click** or **click and drag** again to define the end point of another line connected to the end point of the previous line."
+msgstr "再次**单击**或**单击并拖动**以定义连接到前一条线终点的另一条线的终点。"
+
+#: ../../source/drawing_animation_levels.rst:460
+msgid "**Double click** to define the last point of an open shape."
+msgstr "**双击**定义开放形状的最后一个点。"
+
+#: ../../source/drawing_animation_levels.rst:462
+msgid "**Click** or **click and drag** again on the first point you defined to draw a closed shape."
+msgstr "在定义的第一个点上再次**单击**或**单击并拖动**以绘制闭合形状。"
+
+#: ../../source/drawing_animation_levels.rst:464
+msgid "Press the **Ctrl** key to add a linear point after a Nonlinear one."
+msgstr "按住**Ctrl**键可在非线性点后添加线性点。"
+
+#: ../../source/drawing_animation_levels.rst:466
+msgid "Press the **ESC** key to cancel the creation of the polyline."
+msgstr "按**ESC**键取消创建折线。"
+
+#: ../../source/drawing_animation_levels.rst:468
+msgid "**To draw an arc:**"
+msgstr "**绘制弧线：**"
+
+#: ../../source/drawing_animation_levels.rst:470
+msgid "Click to define the first end point."
+msgstr "单击定义第一个端点。"
+
+#: ../../source/drawing_animation_levels.rst:472
+msgid "Click to define the second endpoint."
+msgstr "单击定义第二个端点。"
+
+#: ../../source/drawing_animation_levels.rst:474
+msgid "Drag to set the bend, and click to draw the arc."
+msgstr "拖动设置弯曲度，然后单击绘制弧线。"
+
+#: ../../source/drawing_animation_levels.rst:480
+msgid "Adding Text"
+msgstr "添加文本"
+
+#: ../../source/drawing_animation_levels.rst:481
+msgid "Text can be added by using the **Type** tool (|type|)."
+msgstr "可以使用**文本**工具（|type|）添加文本。"
+
+#: ../../source/drawing_animation_levels.rst:483
+msgid "It is also possible to work with editable and animatable text in OpenToonz through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  ."
+msgstr "也可以通过使用**Text Iwa**效果在 OpenToonz 中处理可编辑和可设置动画的文本。有关更多信息，请参阅 :ref:`Text Iwa <text_iwa>`。"
+
+#: ../../source/drawing_animation_levels.rst:487
+msgid "**Font:** to be used, taken from a list based on the Operating System default fonts folder."
+msgstr "**字体：**要使用的字体，从基于操作系统默认字体文件夹的列表中选取。"
+
+#: ../../source/drawing_animation_levels.rst:489
+msgid "**Style:**, for the chosen font."
+msgstr "**样式：**用于所选字体。"
+
+#: ../../source/drawing_animation_levels.rst:491
+msgid "**Size:**, for the chosen font."
+msgstr "**大小：**用于所选字体。"
+
+#: ../../source/drawing_animation_levels.rst:493
+msgid "Already written text can be resized by using the **Selection** tool (|selection|) (see  :ref:`Editing Drawings <editing_drawings>`  )."
+msgstr "已写入的文本可以使用**选择**工具（|selection|）调整大小（参见 :ref:`编辑绘图 <editing_drawings>`）。"
+
+#: ../../source/drawing_animation_levels.rst:495
+msgid "**Vertical Orientation**, lets you place the text vertically, one letter under another, instead of horizontally."
+msgstr "**垂直方向**允许您将文本垂直放置，一个字母在另一个字母下方，而不是水平放置。"
+
+#: ../../source/drawing_animation_levels.rst:497
+msgid ""
+"The *current* palette Style is applied to the text you type. The palette style can be changed while typing text, thus you can have characters with different styles in the same text editing session (see  :ref:`Editing Styles "
+"<editing_styles>`  )."
+msgstr "*当前*调色板样式将应用于您键入的文本。可以在键入文本时更改调色板样式，从而在同一文本编辑会话中拥有不同样式的字符（参见 :ref:`编辑样式 <editing_styles>`）。"
+
+#: ../../source/drawing_animation_levels.rst:499
+msgid "For vector levels, as soon as the text is committed, it's converted into vector outlines, and can no longer be edited as text."
+msgstr "对于矢量层级，一旦文本被提交，就会转换为矢量轮廓，无法再作为文本进行编辑。"
+
+#: ../../source/drawing_animation_levels.rst:501
+msgid "**To add text:**"
+msgstr "**添加文本：**"
+
+#: ../../source/drawing_animation_levels.rst:503
+msgid "Select the **Type** tool (|type|) and click in the viewer where you want to start writing."
+msgstr "选择**文本**工具（|type|），然后在检视器中要开始书写的位置单击。"
+
+#: ../../source/drawing_animation_levels.rst:505
+msgid "Choose options **Font**, **Style**, **Size** and **Vertical Orientation**. These options can be changed as long as you are in text editing mode."
+msgstr "选择**字体**、**样式**、**大小**和**垂直方向**选项。只要处于文本编辑模式，就可以更改这些选项。"
+
+#: ../../source/drawing_animation_levels.rst:507
+msgid "Change the current color Style in the palette, if you want to use more than one style in the same text editing session."
+msgstr "如果要在同一文本编辑会话中使用多种样式，请在调色板中更改当前颜色样式。"
+
+#: ../../source/drawing_animation_levels.rst:509
+msgid "Click inside the text editing area to change the text insertion point."
+msgstr "在文本编辑区域内单击以更改文本插入点。"
+
+#: ../../source/drawing_animation_levels.rst:511
+msgid "Click outside the text editing area, or select a different tool, to commit the text."
+msgstr "在文本编辑区域外单击，或选择其他工具以提交文本。"
+
+#: ../../source/drawing_animation_levels.rst:517
+msgid "Using the Eraser"
+msgstr "使用橡皮擦"
+
+#: ../../source/drawing_animation_levels.rst:518
+msgid "The **Eraser** tool (|eraser|) allows you to partially erase lines, both in vector and raster drawings."
+msgstr "**橡皮擦**工具（|eraser|）允许您部分擦除线条，适用于矢量和栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:522
+msgid "**Size** sets the eraser size."
+msgstr "**大小**设置橡皮擦大小。"
+
+#: ../../source/drawing_animation_levels.rst:524
+msgid "**Hardness** sets the amount of antialiasing along the eraser border. This is available for Toonz Raster and Raster drawings only."
+msgstr "**硬度**设置橡皮擦边框的抗锯齿量。此功能仅适用于 Toonz 栅格和栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:526
+msgid ""
+"**Opacity** set the opacity of the eraser; passing twice on an area is not considered while performing a single erasing operation, but only when performing different erasing operations. This is available for Raster drawings "
+"only."
+msgstr "**不透明度**设置橡皮擦的不透明度；执行单次擦除操作时不考虑在同一区域擦除两次，仅在执行不同的擦除操作时才考虑。此功能仅适用于栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:528
+msgid ""
+"**Type:** has the options **Normal**, to use the standard eraser; **Rectangular**, to perform the erasing inside the box you define; **Freehand**, to perform the erasing inside the area you outline by clicking and dragging; "
+"and **Polyline**, to perform the erasing inside the area you outline by defining a series of lines. In vector drawings, a stroke is erased only if it is fully included in the area you define."
+msgstr ""
+"**类型：**选项有**普通**，使用标准橡皮擦；**矩形**，在您定义的框内执行擦除；**自由手绘**，在您通过单击和拖动勾勒出的区域内执行擦除；以及**折线**，通过定义一系列线条在您勾勒出的区域内执行擦除。在矢量绘图中，仅当笔触完全包含在您"
+"定义的区域内时才会被擦除。"
+
+#: ../../source/drawing_animation_levels.rst:530
+msgid "**Mode:** has the options **Areas**, to erase only areas, **Lines**, to erase only the drawing outline, and **Lines & Areas**, to perform both the operations. This is available only for Toonz Raster drawings."
+msgstr "**模式：**选项有**区域**，仅擦除区域；**线条**，仅擦除绘图轮廓；以及**线条和区域**，执行两种操作。此功能仅适用于 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:532
+msgid "**Selective** allows you to erase only lines or areas made with the current style. This is available only for Toonz Vector and Toonz Raster drawings."
+msgstr "**选择性**允许您仅擦除使用当前样式制作的线条或区域。此功能仅适用于 Toonz 矢量和 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:534
+msgid "**Invert** performs the erasing on the outside of the area defined with the Rectangular, Freehand or Polyline options. In vector drawings, a stroke is erased only if it is fully outside of the area you define."
+msgstr "**反选**在由矩形、自由手绘或折线选项定义的区域外部执行擦除。在矢量绘图中，仅当笔触完全在您定义的区域外部时才会被擦除。"
+
+#: ../../source/drawing_animation_levels.rst:536
+msgid "**Frame Range** allows you to perform Rectangular, Freehand and Polyline erasing on a range of frames, by defining an area in the first and then in the last frame of the range."
+msgstr "**帧范围**允许您在一系列帧上执行矩形、自由手绘和折线擦除，方法是在范围的第一帧和最后一帧中定义一个区域。"
+
+#: ../../source/drawing_animation_levels.rst:538
+msgid "**Pencil** mode erases lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only."
+msgstr "**铅笔**模式擦除不带抗锯齿的线条，即具有锯齿状边缘。此功能仅适用于 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:542
+msgid "The **Eraser** tool (|eraser|) can be automatically selected by *using the eraser of the tablet pen*."
+msgstr "**橡皮擦**工具（|eraser|）可以通过*使用数位板笔的橡皮擦*自动选择。"
+
+#: ../../source/drawing_animation_levels.rst:548
+msgid "Converting Raster Drawings to Vectors"
+msgstr "将栅格绘图转换为矢量"
+
+#: ../../source/drawing_animation_levels.rst:549
+msgid "Scanned drawings and raster ones, i.e. drawings not based on vectors, can be converted into Toonz Vector levels."
+msgstr "扫描的绘图和栅格绘图，即不基于矢量的绘图，可以转换为 Toonz 矢量层级。"
+
+#: ../../source/drawing_animation_levels.rst:551
+msgid "Two main conversion modes are available: **Centerline** and **Outline**. The choice between the two modes depends on which conversion best fits your needs."
+msgstr "有两种主要的转换模式：**中心线**和**轮廓线**。两种模式之间的选择取决于哪种转换最适合您的需求。"
+
+#: ../../source/drawing_animation_levels.rst:553
+msgid ""
+"In **Centerline** mode a *single vector stroke with a variable thickness* is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, "
+"for example you can change the bend of a stroke with the **Pinch** (|pinch|) or **Control Point Editor** tools, and the thickness with the **Pump** tool (|pump|)."
+msgstr ""
+"在**中心线**模式下，绘图中的每条线都会生成*一条粗细可变的矢量笔触*。这意味着转换后的绘图可以像直接在 OpenToonz 中制作的基于矢量的绘图一样进行编辑，例如，您可以使用**捏合**（|pinch|）或**控制点编辑器**工具更改笔触的弯曲度，使用"
+"**膨胀**工具（|pump|）更改粗细。"
+
+#: ../../source/drawing_animation_levels.rst:555
+msgid ""
+"In **Outline** mode *two vector strokes* are generated to define each line in the drawing, and areas filled with different colors are separated by a stroke. This means that, for example, to change the bend of a line you have "
+"to change the bend of the two strokes defining it, and to change the thickness you have to model one or both strokes defining it. *The thickness of all the strokes is set to 0, so that they won’t be visible in the final "
+"render*."
+msgstr ""
+"在**轮廓线**模式下，生成*两条矢量笔触*来定义绘图中的每条线，填充不同颜色的区域由笔触分隔。这意味着，例如，要更改线条的弯曲度，您必须更改定义它的两条笔触的弯曲度；要更改粗细，您必须对定义它的一条或两条笔触进行建模。*所有笔触的粗"
+"细都设置为 0，因此它们在最终渲染中将不可见*。"
+
+#: ../../source/drawing_animation_levels.rst:557
+msgid "Parameters that are not considered necessary by the user can be hidden using the **Options** button (|option|) at the bottom right of the **Convert To vector Pop Up**."
+msgstr "用户认为不必要的参数可以使用**转换为矢量弹出窗口**右下角的**选项**按钮（|option|）隐藏。"
+
+#: ../../source/drawing_animation_levels.rst:560
+msgid "In **Outline** mode the following settings are available:"
+msgstr "在**轮廓线**模式下，提供以下设置："
+
+#: ../../source/drawing_animation_levels.rst:562
+msgid "**Accuracy** sets how much the vector strokes will follow the shape of the original drawing lines. High values create more precise strokes, but makes them more complex."
+msgstr "**精度**设置矢量笔触在多大程度上遵循原始绘图线条的形状。高值创建更精确的笔触，但也使其更复杂。"
+
+#: ../../source/drawing_animation_levels.rst:564
+msgid "**Despeckling** removes small spots or marks from the converted images. Its value expresses the size in pixels of the maximum area that has to be removed."
+msgstr "**去斑点**从转换后的图像中移除小斑点或标记。其值表示要移除的最大区域的像素大小。"
+
+#: ../../source/drawing_animation_levels.rst:566
+msgid "**Preserve Painted Areas**, when activated, includes all the colors in the converted level."
+msgstr "**保留已上色区域**激活时，在转换后的层级中包含所有颜色。"
+
+#: ../../source/drawing_animation_levels.rst:568
+msgid "**Adherence** sets how much smooth curves bend toward full corners."
+msgstr "**粘附度**设置平滑曲线向完全角点弯曲的程度。"
+
+#: ../../source/drawing_animation_levels.rst:570
+msgid "**Angle** sets the angular threshold below which full corners are inserted in the image"
+msgstr "**角度**设置角度阈值，低于该阈值时会在图像中插入完全角点"
+
+#: ../../source/drawing_animation_levels.rst:572
+msgid "**Curve Radius** sets the measure of a curve's radius below which it is replaced by a smooth corner"
+msgstr "**曲线半径**设置曲线半径的度量，低于该值时曲线将被平滑角点替代"
+
+#: ../../source/drawing_animation_levels.rst:574
+msgid ""
+"**Max Colors** defines the maximum number of colors that are considered in the Raster image and used in the vector one. The value has to be set taking care of the real number of colors used in the Raster image. High values "
+"increase the time needed for the conversion. This is relevant for Raster levels only."
+msgstr "**最大颜色数**定义在栅格图像中考虑并在矢量图像中使用的最大颜色数量。设置该值时必须注意栅格图像中实际使用的颜色数量。高值会增加转换所需的时间。此设置仅与栅格层级相关。"
+
+#: ../../source/drawing_animation_levels.rst:576
+msgid "**Transparent Color** defines the color that has to be set as the transparent background of the resulting vector level. This is relevant for Raster levels only."
+msgstr "**透明色**定义必须设置为结果矢量层级透明背景的颜色。此设置仅与栅格层级相关。"
+
+#: ../../source/drawing_animation_levels.rst:578
+msgid ""
+"**Tone Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vector; for low values only the darkest pixels are considered thus resulting in thinner lines; for high values "
+"lighter pixels are considered too, thus resulting in thicker lines. This is relevant for Toonz Raster levels only."
+msgstr "**色调阈值**设置要考虑的最暗像素值以检测要转换为矢量的线条；低值时仅考虑最暗像素，从而产生较细的线条；高值时也考虑较亮的像素，从而产生较粗的线条。此设置仅与 Toonz 栅格层级相关。"
+
+#: ../../source/drawing_animation_levels.rst:581
+msgid "In **Centerline** mode the following settings are available:"
+msgstr "在**中心线**模式下，提供以下设置："
+
+#: ../../source/drawing_animation_levels.rst:583
+msgid ""
+"**Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vector strokes; for low values only the darkest pixels are considered thus resulting in thinner strokes; for high "
+"values lighter pixels are considered too, thus resulting in thicker strokes. For Toonz Raster levels (TLV files) the process examines only pixels belonging to the lines; for Raster levels it examines pixels of the whole image."
+msgstr ""
+"**阈值**设置要考虑的最暗像素值以检测要转换为矢量笔触的线条；低值时仅考虑最暗像素，从而产生较细的笔触；高值时也考虑较亮的像素，从而产生较粗的笔触。对于 Toonz 栅格层级（TLV 文件），该过程仅检查属于线条的像素；对于栅格层级，它检查"
+"整个图像的像素。"
+
+#: ../../source/drawing_animation_levels.rst:585
+msgid "**Accuracy** sets how much the vector stroke will follow the shape of the original drawing lines. High values create more precise strokes but makes them more complex."
+msgstr "**精度**设置矢量笔触在多大程度上遵循原始绘图线条的形状。高值创建更精确的笔触，但也使其更复杂。"
+
+#: ../../source/drawing_animation_levels.rst:587
+msgid "**Despeckling** ignores during the conversion small areas generated by the image noise; the higher the value, the larger the areas ignored."
+msgstr "**去斑点**在转换过程中忽略图像噪声生成的小区域；值越高，忽略的区域越大。"
+
+#: ../../source/drawing_animation_levels.rst:589
+msgid ""
+"**Max Thickness** sets the maximum vector stroke thickness; if this value is low very thick lines will be converted in two centerline strokes defining the line outline; if this value is high, they will be converted in a single "
+"centerline stroke."
+msgstr "**最大粗细**设置矢量笔触的最大粗细；如果此值较低，非常粗的线条将转换为定义线条轮廓的两条中心线笔触；如果此值较高，它们将转换为单条中心线笔触。"
+
+#: ../../source/drawing_animation_levels.rst:591
+msgid ""
+"**Thickness Calibration Start:** and **End:** calibrates the vector stroke thickness defined according to the **Threshold** value; a low value will reduce the stroke thickness preserving its integrity. A different value "
+"inserted in the **Start** / **End** field determines an animation of the thickness along the length of the level."
+msgstr "**粗细校准 起始：**和**结束：**校准根据**阈值**值定义的矢量笔触粗细；低值将减少笔触粗细，同时保持其完整性。在**起始**/**结束**字段中输入不同的值将确定沿层级长度的粗细动画。"
+
+#: ../../source/drawing_animation_levels.rst:593
+msgid "**Preserve Painted Areas**, when activated, preserves all painted areas in Toonz Raster levels (TLV files) and all the areas painted with colors different from the line color in Raster levels."
+msgstr "**保留已上色区域**激活时，保留 Toonz 栅格层级（TLV 文件）中的所有已上色区域以及栅格层级中所有使用与线条颜色不同的颜色上色的区域。"
+
+#: ../../source/drawing_animation_levels.rst:595
+msgid "**Add Border** adds a vector stroke along the image border in order to detect also areas bleeding off the image edge."
+msgstr "**添加边框**沿图像边框添加矢量笔触，以便也检测超出图像边缘的区域。"
+
+#: ../../source/drawing_animation_levels.rst:597
+msgid ""
+"**Enhanced ink recognition**, when activated, allows to vectorize Raster images (such as TGA, TIF, PNG etc...) without antialiasing along the lines. An heuristic is used to recognize lines and painted areas creating a PLI "
+"level, where the lines are seen as ink and the painted areas as paint."
+msgstr "**增强墨水识别**激活时，允许对栅格图像（如 TGA、TIF、PNG 等）进行矢量化，线条不带抗锯齿。使用启发式方法来识别线条和已上色区域，创建 PLI 层级，其中线条被视为墨水，已上色区域被视为颜料。"
+
+#: ../../source/drawing_animation_levels.rst:599
+msgid "It's possible to select the images or the level frames that have to be converted directly in the Xsheet/Timeline."
+msgstr "可以直接在摄影表/时间轴中选择要转换的图像或层级帧。"
+
+#: ../../source/drawing_animation_levels.rst:601
+msgid ""
+"When a conversion is performed, a new level is created according to the selection you made, and exposed in the Xsheet/Timeline in the next column/layer to that containing the source level. The new file will have the same name "
+"of the starting one, but with a PLI extension, and a “v” suffix, and is saved in the **+drawings** default folder."
+msgstr "执行转换时，会根据您的选择创建一个新层级，并在摄影表/时间轴中将其曝光在包含源层级的下一列/图层中。新文件将与起始文件同名，但扩展名为 PLI，并带有“v”后缀，并保存在**+drawings**默认文件夹中。"
+
+#: ../../source/drawing_animation_levels.rst:603
+msgid "In case a PLI level with the same name already exists, the name of the new file will be followed by a progressive number."
+msgstr "如果已存在同名的 PLI 层级，新文件的名称后将附加一个递增数字。"
+
+#: ../../source/drawing_animation_levels.rst:605
+msgid "**To convert raster drawings into vectors:**"
+msgstr "**将栅格绘图转换为矢量：**"
+
+#: ../../source/drawing_animation_levels.rst:607
+msgid "Select the level frames to convert in the Xsheet/Timeline."
+msgstr "在摄影表/时间轴中选择要转换的层级帧。"
+
+#: ../../source/drawing_animation_levels.rst:609
+msgid "Choose Level → Convert  →  **Convert to Vectors...**"
+msgstr "选择 层级 → 转换 → **转换为矢量...**"
+
+#: ../../source/drawing_animation_levels.rst:611
+msgid "In the dialog set parameters for the conversion."
+msgstr "在对话框中设置转换参数。"
+
+#: ../../source/drawing_animation_levels.rst:613
+msgid "Click the **Convert** button."
+msgstr "单击**转换**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:619
+msgid "Checking the Convert to Vectors Process"
+msgstr "检查转换为矢量过程"
+
+#: ../../source/drawing_animation_levels.rst:620
+msgid ""
+"At the bottom of the **Convert-to-Vectors Settings** window a preview area is available to display the drawing selected in the Xsheet/Timeline, as it will be after the conversion according to the defined settings. At the same "
+"time it allows you to compare the final result with the original Raster drawing that is displayed on the left side, and to highlight the vector strokes structure by clicking the **Centerlines Check** button (|check|)."
+msgstr ""
+"在**转换为矢量设置**窗口底部，有一个预览区域，用于显示在摄影表/时间轴中选定的绘图，该绘图将根据定义的设置进行转换后的样子。同时，它允许您将最终结果与左侧显示的原始栅格绘图进行比较，并通过单击**中心线检查**按钮（|check|）高亮显"
+"示矢量笔触结构。"
+
+#: ../../source/drawing_animation_levels.rst:622
+msgid "You can activate or deactivate it, resize it or navigate its content."
+msgstr "您可以激活或停用它，调整其大小或浏览其内容。"
+
+#: ../../source/drawing_animation_levels.rst:624
+msgid "If you change any parameter in the **Convert-to-Vector Settings**, the previewed drawing automatically updates to display how the changes affect the result."
+msgstr "如果更改**转换为矢量设置**中的任何参数，预览的绘图会自动更新以显示更改如何影响结果。"
+
+#: ../../source/drawing_animation_levels.rst:626
+msgid "**To activate the preview area:**"
+msgstr "**激活预览区域：**"
+
+#: ../../source/drawing_animation_levels.rst:628
+msgid "In the Xsheet/Timeline select the drawing you want to preview."
+msgstr "在摄影表/时间轴中选择要预览的绘图。"
+
+#: ../../source/drawing_animation_levels.rst:630 ../../source/drawing_animation_levels.rst:634
+msgid "Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings window."
+msgstr "单击转换为矢量设置窗口底部栏中的**预览**按钮（|preview|）。"
+
+#: ../../source/drawing_animation_levels.rst:632
+msgid "**To deactivate the preview area:**"
+msgstr "**停用预览区域：**"
+
+#: ../../source/drawing_animation_levels.rst:636
+msgid "**To resize the preview area:**"
+msgstr "**调整预览区域大小：**"
+
+#: ../../source/drawing_animation_levels.rst:638 ../../source/drawing_animation_levels.rst:1093 ../../source/drawing_animation_levels.rst:1519 ../../source/drawing_animation_levels.rst:1554
+msgid "Do any of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/drawing_animation_levels.rst:640
+msgid "Click and drag the horizontal separator."
+msgstr "单击并拖动水平分隔条。"
+
+#: ../../source/drawing_animation_levels.rst:642
+msgid "Click and drag the separator toward the window border to hide the preview area."
+msgstr "将分隔条向窗口边框拖动以隐藏预览区域。"
+
+#: ../../source/drawing_animation_levels.rst:644
+msgid "Click and drag the separator collapsed to the window border toward the window center to display again the preview area."
+msgstr "将已折叠到窗口边框的分隔条向窗口中心拖动以再次显示预览区域。"
+
+#: ../../source/drawing_animation_levels.rst:646
+msgid "**To navigate the preview area:**"
+msgstr "**浏览预览区域：**"
+
+#: ../../source/drawing_animation_levels.rst:650
+msgid "Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to zoom in and zoom out."
+msgstr "使用鼠标滚轮或缩放快捷键（默认为 + 和 - 键）放大和缩小。"
+
+#: ../../source/drawing_animation_levels.rst:652
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "中键单击并拖动以向任意方向滚动。"
+
+#: ../../source/drawing_animation_levels.rst:654
+msgid "Use the reset view shortcut (by default the 0 key) to display preview at its actual size"
+msgstr "使用重置视图快捷键（默认为 0 键）以实际大小显示预览"
+
+#: ../../source/drawing_animation_levels.rst:656
+msgid "**To activate and deactivate the Centerlines Check:**"
+msgstr "**激活和停用中心线检查：**"
+
+#: ../../source/drawing_animation_levels.rst:658
+msgid "Click the **Centerlines Check** button (|check|) in the bottom bar of the Convert-to-Vector Settings window."
+msgstr "单击转换为矢量设置窗口底部栏中的**中心线检查**按钮（|check|）。"
+
+#: ../../source/drawing_animation_levels.rst:664
+msgid "Saving and Loading Convert To Vector Settings"
+msgstr "保存和加载转换为矢量设置"
+
+#: ../../source/drawing_animation_levels.rst:665
+msgid "Convert To Vector settings can be saved as *tnzsettings* files in order to have different settings for each level and to be loaded back and used in a different scene."
+msgstr "可以将转换为矢量设置保存为 *tnzsettings* 文件，以便为每个层级拥有不同的设置，并在不同的场景中加载和使用。"
+
+#: ../../source/drawing_animation_levels.rst:667
+msgid "Loaded Convert To Vector settings can also become the default settings for the scene or for the project (see  :ref:`Scene Settings and Project Default Settings <scene_settings_and_project_default_settings>`  )."
+msgstr "加载的转换为矢量设置也可以成为场景或项目的默认设置（参见 :ref:`场景设置和项目默认设置 <scene_settings_and_project_default_settings>`）。"
+
+#: ../../source/drawing_animation_levels.rst:669
+msgid "**To save the Convert To Vector settings:**"
+msgstr "**保存转换为矢量设置：**"
+
+#: ../../source/drawing_animation_levels.rst:671
+msgid "Click the **Save Settings** button (|save|) in the bottom bar of the Convert-to-Vector Settings window."
+msgstr "单击转换为矢量设置窗口底部栏中的**保存设置**按钮（|save|）。"
+
+#: ../../source/drawing_animation_levels.rst:673
+msgid "In the browser that opens choose for the *tnzsettings* file a location and a name, and click the **Save** button."
+msgstr "在打开的浏览器中为 *tnzsettings* 文件选择位置和名称，然后单击**保存**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:675
+msgid "**To load saved Convert To Vector settings:**"
+msgstr "**加载已保存的转换为矢量设置：**"
+
+#: ../../source/drawing_animation_levels.rst:677
+msgid "Click the **Load Settings** button (|load|) in the bottom bar of the Convert-to-Vector Settings window."
+msgstr "单击转换为矢量设置窗口底部栏中的**加载设置**按钮（|load|）。"
+
+#: ../../source/drawing_animation_levels.rst:679
+msgid "In the browser that opens retrieve the *tnzsettings* file you want to load, and click the **Load** button."
+msgstr "在打开的浏览器中找到要加载的 *tnzsettings* 文件，然后单击**加载**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:681
+msgid "**To reset the Convert To Vector settings to the scene default:**"
+msgstr "**将转换为矢量设置重置为场景默认值：**"
+
+#: ../../source/drawing_animation_levels.rst:683
+msgid "Click the **Reset Settings** button (|reset|) in the bottom bar of the Convert-to-Vector Settings window."
+msgstr "单击转换为矢量设置窗口底部栏中的**重置设置**按钮（|reset|）。"
+
+#: ../../source/drawing_animation_levels.rst:689
+msgid "Changing the Canvas Size"
+msgstr "更改画布大小"
+
+#: ../../source/drawing_animation_levels.rst:690
+msgid "It's possible to change the size of Toonz Raster and Raster levels, in order to increase or decrease the area around the images of a level."
+msgstr "可以更改 Toonz 栅格和栅格层级的大小，以增加或减少层级图像周围的区域。"
+
+#: ../../source/drawing_animation_levels.rst:692
+msgid "|canvas_size|"
+msgstr "|canvas_size|"
+
+#: ../../source/drawing_animation_levels.rst:694
+msgid ""
+"The new size can be set in any unit supported by OpenToonz, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level "
+"images."
+msgstr "新大小可以使用 OpenToonz 支持的任何单位，通过使用绝对值或相对值来设置。如果画布被放大，则会添加一些白色透明区域；如果画布被缩小，则会对层级图像进行一些裁剪。"
+
+#: ../../source/drawing_animation_levels.rst:696
+msgid "**To change the canvas size:**"
+msgstr "**更改画布大小：**"
+
+#: ../../source/drawing_animation_levels.rst:698
+msgid "Select the Toonz Raster or Raster level you want to modify in the Xsheet/Timeline."
+msgstr "在摄影表/时间轴中选择要修改的 Toonz 栅格或栅格层级。"
+
+#: ../../source/drawing_animation_levels.rst:700
+msgid "Choose Level  →  **Canvas Size...**, the Canvas Size dialog opens."
+msgstr "选择 层级 → **画布大小...**，画布大小对话框打开。"
+
+#: ../../source/drawing_animation_levels.rst:702
+msgid ""
+"In the dialog set the **Unit** to express the new size of the canvas, and set the **Width** and **Height** of the new canvas; activate the **Relative** option to define the new size by specifying only the size the canvas has "
+"to increase or decrease."
+msgstr "在对话框中设置**单位**以表示画布的新大小，并设置新画布的**宽度**和**高度**；激活**相对**选项，仅通过指定画布必须增加或减少的大小来定义新大小。"
+
+#: ../../source/drawing_animation_levels.rst:704
+msgid "Use the **Anchor** diagram to decide the position of the current canvas in the new one: the arrows are a reference to see how the new size will increase or decrease the current canvas size."
+msgstr "使用**锚点**图决定当前画布在新画布中的位置：箭头是参考，用于查看新大小将如何增加或减少当前画布大小。"
+
+#: ../../source/drawing_animation_levels.rst:706
+msgid "Click the **Resize** button."
+msgstr "单击**调整大小**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:708
+msgid "In case the new canvas size is smaller than the current one, a confirmation dialog will open, asking you whether you want to crop the canvas."
+msgstr "如果新画布大小小于当前大小，将打开一个确认对话框，询问您是否要裁剪画布。"
+
+#: ../../source/drawing_animation_levels.rst:714
+msgid "Editing Drawings"
+msgstr "编辑绘图"
+
+#: ../../source/drawing_animation_levels.rst:715
+msgid "Toonz Vector, Toonz Raster and Raster levels, can be manipulated in OpenToonz."
+msgstr "Toonz 矢量、Toonz 栅格和栅格层级可以在 OpenToonz 中进行操作。"
+
+#: ../../source/drawing_animation_levels.rst:717
+msgid ""
+"To edit a drawing, for example to copy a part of it, you have first to select it in the Xsheet/Timeline or in the Level Strip. When selected in the Xsheet/Timeline, the viewer displays the whole scene contents at the current "
+"frame, when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you work more easily on it."
+msgstr "要编辑绘图，例如复制其中一部分，首先需要在摄影表/时间轴或层级条中选中它。在摄影表/时间轴中选中时，检视器显示当前帧的整个场景内容；在层级条中选中时，检视器仅显示当前动画层级的选定帧，以便您更轻松地对其进行操作。"
+
+#: ../../source/drawing_animation_levels.rst:719
+msgid "Drawings can be also selected directly in the viewer: this allows you to work on the different drawings visible at a certain frame with no need to retrieve them in the Xsheet/Timeline or Level Strip."
+msgstr "绘图也可以直接在检视器中选择：这允许您在特定帧可见的不同绘图上工作，而无需在摄影表/时间轴或层级条中查找它们。"
+
+#: ../../source/drawing_animation_levels.rst:721
+msgid "All the editing performed on drawings is not saved until you save the related level, or use the **Save All** command (see  :ref:`Saving Levels <saving_levels>`  )."
+msgstr "对绘图执行的所有编辑都不会保存，除非您保存相关层级或使用**全部保存**命令（参见 :ref:`保存层级 <saving_levels>`）。"
+
+#: ../../source/drawing_animation_levels.rst:723
+msgid "**To select the drawing to edit:**"
+msgstr "**选择要编辑的绘图：**"
+
+#: ../../source/drawing_animation_levels.rst:727
+msgid "Select it in the Xsheet/Timeline or Level Strip."
+msgstr "在摄影表/时间轴或层级条中选择它。"
+
+#: ../../source/drawing_animation_levels.rst:729
+msgid "Right-click in the viewer the drawing you want to edit and in the menu that opens choose the **Select** command related to the column containing the drawing you want to edit."
+msgstr "在检视器中右键单击要编辑的绘图，然后在打开的菜单中选择与包含要编辑绘图的列相关的**选择**命令。"
+
+#: ../../source/drawing_animation_levels.rst:731
+msgid "The right-click menu first lists all the columns containing overlapping drawings, then the columns and objects that are hierarchically linked to the clicked one."
+msgstr "右键菜单首先列出所有包含重叠绘图的列，然后列出在层次结构上链接到所单击列和对象的列和对象。"
+
+#: ../../source/drawing_animation_levels.rst:737
+msgid "Using the Selection Tool"
+msgstr "使用选择工具"
+
+#: ../../source/drawing_animation_levels.rst:738
+msgid "The **Selection** tool (|selection|) allows you to edit, move, rotate, scale and distort a selection in a drawing."
+msgstr "**选择**工具（|selection|）允许您在绘图中编辑、移动、旋转、缩放和扭曲选区。"
+
+#: ../../source/drawing_animation_levels.rst:742
+msgid ""
+"**Type:** has the options **Rectangular**, to select the area of the box you define by clicking and dragging; **Freehand**, to select the area you outline by clicking and dragging; and **Polyline**, to select the area you "
+"outline by defining a series of lines. In vector drawings, a vector stroke is selected only if it is fully included in the area you define."
+msgstr "**类型：**选项有**矩形**，通过单击和拖动定义框来选择区域；**自由手绘**，通过单击和拖动勾勒区域来选择；以及**折线**，通过定义一系列线条勾勒区域来选择。在矢量绘图中，仅当矢量笔触完全包含在您定义的区域内时才会被选中。"
+
+#: ../../source/drawing_animation_levels.rst:744
+msgid ""
+"**Mode:** has the options **Standard**, to select vectors; **Selected Frames**, to edit all the lines of selected frames at once; **Whole Level**, to transform all of the drawings of the current animation level; **Same "
+"Style**, to select at once all of the vectors painted with the same style in the current drawing; **Same Style on Selected Frames**, to select at once all of the vector strokes painted with the same style in the selected "
+"frames of the current animation level; **Same Style on Whole Level**, to select at once all of the vector strokes painted with the same style in all the drawings of the current animation level; **Boundary Strokes**, to select "
+"all the boundary strokes of the current drawing; **Boundary Strokes on Selected Frames**, to select all the boundary strokes of the selected frames; **Boundary Strokes on Whole Level**, to select all the boundary strokes of "
+"the whole level.This is available for Toonz Vector drawings only."
+msgstr ""
+"**模式：**选项有**标准**，选择矢量；**选定帧**，一次性编辑选定帧的所有线条；**整个层级**，变换当前动画层级的所有绘图；**相同样式**，一次性选择当前绘图中使用相同样式上色的所有矢量；**选定帧上的相同样式**，一次性选择当前动画层级"
+"选定帧中使用相同样式上色的所有矢量笔触；**整个层级上的相同样式**，一次性选择当前动画层级所有绘图中使用相同样式上色的所有矢量笔触；**边界笔触**，选择当前绘图的所有边界笔触；**选定帧上的边界笔触**，选择选定帧的所有边界笔触；**整"
+"个层级上的边界笔触**，选择整个层级的所有边界笔触。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:746
+msgid "**Preserve Thickness** will preserve the original thickness of the drawing vectors while performing resizing operations. This is available for Toonz Vector drawings only."
+msgstr "**保留粗细**在执行缩放操作时将保留绘图矢量的原始粗细。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:748
+msgid "**Scale H** and **V** set the horizontal and vertical scaling of the current selection."
+msgstr "**缩放 H**和**V**设置当前选区的水平和垂直缩放比例。"
+
+#: ../../source/drawing_animation_levels.rst:750
+msgid "**Link** will maintain the proportion of the selection while draging over any of the Scale **H** or **V** letters in the tool options bar."
+msgstr "**链接**在工具选项栏中拖动**缩放 H**或**V**字母时将保持选区的比例。"
+
+#: ../../source/drawing_animation_levels.rst:752
+msgid "**Rotation** sets the rotation of the current selection."
+msgstr "**旋转**设置当前选区的旋转角度。"
+
+#: ../../source/drawing_animation_levels.rst:754
+msgid "**Position X** and **Y** set a vertical and horizontal offset for the selection."
+msgstr "**位置 X**和**Y**为选区设置垂直和水平偏移量。"
+
+#: ../../source/drawing_animation_levels.rst:756
+msgid ""
+"**Thickness** sets the thickness of the selected vector strokes. In case the selected strokes have variable thickness, or different thickness values, the highest value is displayed, and any change will affect the other values "
+"accordingly. This is available for Toonz Vector drawings only."
+msgstr "**粗细**设置所选矢量笔触的粗细。如果所选笔触具有可变粗细或不同的粗细值，则显示最高值，任何更改都会相应地影响其他值。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:758
+msgid ""
+"**Cap:** sets the shape of the ends of the selected vector strokes. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to "
+"the stroke thickness. This is available for Toonz Vector drawings only."
+msgstr "**线帽：**设置所选矢量笔触末端的形状。选项有：**平头**用于方形末端，**圆头**用于半圆形末端，**突出**用于根据笔触粗细超出线条末端的方形末端。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:762
+msgid "A butt cap, a round cap and a projecting cap."
+msgstr "平头线帽、圆头线帽和突出线帽。"
+
+#: ../../source/drawing_animation_levels.rst:764
+msgid ""
+"**Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector "
+"drawings only."
+msgstr "**连接：**设置所选矢量笔触沿线直角的形状。选项有：**斜接**用于尖角，**圆角**用于圆角，**斜角**用于方角。此功能仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:768
+msgid "Miter joins, round joins and bevel joins."
+msgstr "斜接连接、圆角连接和斜角连接。"
+
+#: ../../source/drawing_animation_levels.rst:770
+msgid ""
+"**Miter:** sets the maximum length of a *Miter* join, that is computed multiplying the Miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is "
+"available for Toonz Vector drawings only, and only if the **Join:** option is set to **Miter**."
+msgstr "**斜接限制：**设置*斜接*连接的最大长度，该长度通过将斜接值乘以笔触粗细计算得出。如果长度超过最大值，*斜接*连接将转变为*斜角*连接。此功能仅适用于 Toonz 矢量绘图，并且仅在**连接：**选项设置为**斜接**时才可用。"
+
+#: ../../source/drawing_animation_levels.rst:772
+msgid "**Modify Savebox** check box allows you to resize the *Savebox* of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Toonz Raster drawings only."
+msgstr "**修改保存框**复选框允许您调整绘图*保存框*的大小。由于编辑而落在保存框外部的绘图部分将被擦除。此功能仅适用于 Toonz 栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:774
+msgid "The *Savebox* size can be set automatically to the minimum size by activating the Preferences  →  Drawing  →  **Minimize Savebox after Editing** option."
+msgstr "可以通过激活首选项 → 绘图 → **编辑后最小化保存框**选项，将*保存框*大小自动设置为最小值。"
+
+#: ../../source/drawing_animation_levels.rst:776
+msgid "**No Antialiasing** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Toonz Raster and Raster drawings only."
+msgstr "**无抗锯齿**激活时，在选区变形或旋转时不应用抗锯齿。此功能仅适用于 Toonz 栅格和栅格绘图。"
+
+#: ../../source/drawing_animation_levels.rst:778
+msgid "If the tool options bar is too short to display all the tool options, it can be scrolled by using the arrow buttons available at its ends."
+msgstr "如果工具选项栏太短无法显示所有工具选项，可以使用其两端的箭头按钮滚动。"
+
+#: ../../source/drawing_animation_levels.rst:780
+msgid "When a selection is made, it is displayed with a bounding box with handles that allow you to perform the following transformations:"
+msgstr "进行选择后，会显示一个带有手柄的边界框，允许您执行以下变换："
+
+#: ../../source/drawing_animation_levels.rst:782
+msgid ""
+"**Move**, click and drag the inside of the raster selection, or any selected vector of a vector selection, to move it; by pressing the **Shift** key while dragging, the movement will be constrained on the horizontal or "
+"vertical direction."
+msgstr "**移动**，单击并拖动栅格选区的内部，或矢量选区中的任何选定矢量，以移动它；在拖动时按住**Shift**键，移动将被限制在水平或垂直方向。"
+
+#: ../../source/drawing_animation_levels.rst:784
+msgid "The keyboard arrow keys can be used as well to move the selection one pixel in any direction; if they are used while pressing the **Shift** key, the movement will be in 10 pixels steps."
+msgstr "键盘方向键也可用于将选区向任意方向移动一个像素；如果在按住**Shift**键时使用，移动将以 10 像素为步长。"
+
+#: ../../source/drawing_animation_levels.rst:786
+msgid "**Rotate**, click and drag outside any corner handle to rotate the selection."
+msgstr "**旋转**，单击并拖动任何角点手柄外部以旋转选区。"
+
+#: ../../source/drawing_animation_levels.rst:788
+msgid "**Scale**, click and drag any corner handle to scale the selection freely; by pressing the **Shift** key while dragging the scaling will be uniform; by pressing the **Alt** key the scaling will be applied from the center."
+msgstr "**缩放**，单击并拖动任何角点手柄以自由缩放选区；在拖动时按住**Shift**键，缩放将是均匀的；按住**Alt**键，缩放将从中心应用。"
+
+#: ../../source/drawing_animation_levels.rst:790
+msgid "**Scale in one direction**, click and drag any side handle to scale the selection in one direction; by pressing the **Alt** key the scaling will be applied symmetrically from the center."
+msgstr "**单向缩放**，单击并拖动任何边手柄以在一个方向上缩放选区；按住**Alt**键，缩放将从中心对称应用。"
+
+#: ../../source/drawing_animation_levels.rst:792
+msgid "**Center**, click and drag the center handle to change the center of rotation, and the center used when Alt-scaling."
+msgstr "**中心**，单击并拖动中心手柄以更改旋转中心，以及 Alt-缩放时使用的中心。"
+
+#: ../../source/drawing_animation_levels.rst:794
+msgid "**Distort**, Ctrl-click (PC) or Cmd-click (Mac) any corner handle to distort the selection, or any side handle to shear it."
+msgstr "**扭曲**，Ctrl-单击（PC）或 Cmd-单击（Mac）任何角点手柄以扭曲选区，或任何边手柄以剪切它。"
+
+#: ../../source/drawing_animation_levels.rst:796
+msgid "Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in **Whole Level** modes (see above)."
+msgstr "在**整个层级**模式下不允许 Ctrl-单击（PC）或 Cmd-单击（Mac）操作（见上文）。"
+
+#: ../../source/drawing_animation_levels.rst:798
+msgid "**Thickness**, click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This option is available for Toonz Vector drawings only."
+msgstr "**粗细**，单击选区右下角的双箭头并向上拖动以增加选定线条的粗细，向下拖动以减少粗细。此选项仅适用于 Toonz 矢量绘图。"
+
+#: ../../source/drawing_animation_levels.rst:800
+msgid "To apply the transformations you can click outside the selection."
+msgstr "要应用变换，可以在选区外单击。"
+
+#: ../../source/drawing_animation_levels.rst:802
+msgid "As you roll over the handles, the cursor changes shape to indicate the operations you may perform."
+msgstr "当鼠标悬停在手柄上时，光标会改变形状以指示您可以执行的操作。"
+
+#: ../../source/drawing_animation_levels.rst:804
+msgid ""
+"Selections can also be Cut, Copied, Pasted and Deleted by using the relevant command in the Edit menu. Cut or Copy and Paste also work from one drawing to another, or onto a new one. This allows you to copy or move a section "
+"of a drawing to another drawing, or split a drawing into several ones."
+msgstr "选区也可以使用编辑菜单中的相关命令进行剪切、复制、粘贴和删除。剪切或复制和粘贴也适用于从一个绘图到另一个绘图，或到一个新绘图。这允许您将绘图的一部分复制或移动到另一个绘图，或将一个绘图拆分为多个。"
+
+#: ../../source/drawing_animation_levels.rst:806
+msgid "When a drawing in a Toonz level, or a section of it is pasted to another one, the Styles of the pasted drawing are added to the palette of the target level, unless the same Styles are already available in the palette."
+msgstr "当 Toonz 层级中的绘图或其一部分粘贴到另一个层级时，粘贴绘图的样式将添加到目标层级的调色板中，除非调色板中已有相同的样式。"
+
+#: ../../source/drawing_animation_levels.rst:808
+msgid "The selection can also be used to change the Style of vector strokes by choosing it in the palette, or by creating a new Style while selected. See  :ref:`Editing Styles <editing_styles>`  ."
+msgstr "选区也可用于通过在选择时在调色板中选择样式或创建新样式来更改矢量笔触的样式。参见 :ref:`编辑样式 <editing_styles>`。"
+
+#: ../../source/drawing_animation_levels.rst:810
+msgid "**To edit the drawing savebox:**"
+msgstr "**编辑绘图保存框：**"
+
+#: ../../source/drawing_animation_levels.rst:812
+msgid "Activate the **Modify Savebox** option to visualize the savebox around the drawing."
+msgstr "激活**修改保存框**选项以可视化绘图周围的保存框。"
+
+#: ../../source/drawing_animation_levels.rst:814
+msgid "Use the handles to resize it."
+msgstr "使用手柄调整其大小。"
+
+#: ../../source/drawing_animation_levels.rst:816
+msgid "Deactivate the **Modify Savebox** option to confirm the changes."
+msgstr "停用**修改保存框**选项以确认更改。"
+
+#: ../../source/drawing_animation_levels.rst:818
+msgid "**To select and transform an area in a Toonz Raster or Raster level:**"
+msgstr "**在 Toonz 栅格或栅格层级中选择并变换区域：**"
+
+#: ../../source/drawing_animation_levels.rst:820
+msgid "Select the area by doing one of the following:"
+msgstr "通过以下任一方式选择区域："
+
+#: ../../source/drawing_animation_levels.rst:822
+msgid "Set the type to **Rectangular** and click and drag to define the box whose area you want to select."
+msgstr "将类型设置为**矩形**，然后单击并拖动以定义要选择其区域的框。"
+
+#: ../../source/drawing_animation_levels.rst:824
+msgid "Set the type to **Freehand** and click and drag to outline the area you want to select."
+msgstr "将类型设置为**自由手绘**，然后单击并拖动以勾勒要选择的区域。"
+
+#: ../../source/drawing_animation_levels.rst:826
+msgid "Set the type to **Polyline** and click to outline the area you want to select by defining a series of lines."
+msgstr "将类型设置为**折线**，然后单击通过定义一系列线条来勾勒要选择的区域。"
+
+#: ../../source/drawing_animation_levels.rst:828
+msgid "Do one of the following to make geometric transformations:"
+msgstr "执行以下任一操作进行几何变换："
+
+#: ../../source/drawing_animation_levels.rst:830 ../../source/drawing_animation_levels.rst:858 ../../source/drawing_animation_levels.rst:877
+msgid "Operate the handles available along the bounding box."
+msgstr "操作边界框上可用的手柄。"
+
+#: ../../source/drawing_animation_levels.rst:832
+msgid "Edit the scale, rotation and position values available in the tool options bar."
+msgstr "编辑工具选项栏中可用的缩放、旋转和位置值。"
+
+#: ../../source/drawing_animation_levels.rst:836
+msgid "First define the area you want to select, then use the bounding box to make geometric transformations."
+msgstr "首先定义要选择的区域，然后使用边界框进行几何变换。"
+
+#: ../../source/drawing_animation_levels.rst:838
+msgid "**To select and transform vectors in a Toonz Vector level:**"
+msgstr "**在 Toonz 矢量层级中选择并变换矢量：**"
+
+#: ../../source/drawing_animation_levels.rst:840
+msgid "Select the vectors by doing one of the following:"
+msgstr "通过以下任一方式选择矢量："
+
+#: ../../source/drawing_animation_levels.rst:842
+msgid "Click a stroke to select it."
+msgstr "单击笔触以选中它。"
+
+#: ../../source/drawing_animation_levels.rst:844
+msgid "Shift-click to add a stroke to or remove it from the current selection."
+msgstr "Shift-单击以将笔触添加到当前选区或从中移除。"
+
+#: ../../source/drawing_animation_levels.rst:846
+msgid ""
+"Set the type to **Rectangular** and **click and drag to the right** to define a box and select all the strokes that are *completely* included in the box; **click and drag to the left** to select all the strokes that are "
+"*partially* included in the box."
+msgstr "将类型设置为**矩形**，然后**向右单击并拖动**以定义一个框并选择*完全*包含在框中的所有笔触；**向左单击并拖动**以选择*部分*包含在框中的所有笔触。"
+
+#: ../../source/drawing_animation_levels.rst:848
+msgid "Set the type to **Freehand** and click and drag to outline an area and select all the strokes that are completely included in the area."
+msgstr "将类型设置为**自由手绘**，然后单击并拖动以勾勒一个区域并选择完全包含在该区域中的所有笔触。"
+
+#: ../../source/drawing_animation_levels.rst:850
+msgid "Set the type to **Polyline** and click to outline an area by defining a series of lines and select all the strokes that are completely included in the area."
+msgstr "将类型设置为**折线**，然后单击通过定义一系列线条来勾勒一个区域并选择完全包含在该区域中的所有笔触。"
+
+#: ../../source/drawing_animation_levels.rst:852
+msgid ""
+"Set the mode to **Same Style** and click to select automatically all the vectors painted with the same style used for the vector you select in the current drawing, or Shift-click to add them to or remove them from the "
+"selection."
+msgstr "将模式设置为**相同样式**，然后单击以自动选择当前绘图中使用与所选矢量相同样式上色的所有矢量，或 Shift-单击将它们添加到选区或从中移除。"
+
+#: ../../source/drawing_animation_levels.rst:854
+msgid "When clicking a stroke belonging to a group, the whole group is selected (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  )."
+msgstr "单击属于组的笔触时，会选择整个组（参见 :ref:`矢量成组和解组 <grouping_and_ungrouping_vectors>`）。"
+
+#: ../../source/drawing_animation_levels.rst:856
+msgid "Do one of the following to make a geometric transformations:"
+msgstr "执行以下任一操作进行几何变换："
+
+#: ../../source/drawing_animation_levels.rst:860 ../../source/drawing_animation_levels.rst:879
+msgid "Edit the scale, rotation, position and thickness values available in the tool options bar."
+msgstr "编辑工具选项栏中可用的缩放、旋转、位置和粗细值。"
+
+#: ../../source/drawing_animation_levels.rst:864
+msgid "First select the vector strokes you want to transform, then use the bounding box to make geometric transformations."
+msgstr "首先选择要变换的矢量笔触，然后使用边界框进行几何变换。"
+
+#: ../../source/drawing_animation_levels.rst:867
+msgid "**To select and transform all the drawings of a Toonz Vector level:**"
+msgstr "**选择并变换 Toonz 矢量层级的所有绘图：**"
+
+#: ../../source/drawing_animation_levels.rst:871
+msgid "Set the mode to **Whole Level** to automatically select all the strokes in all of the drawings of the current animation level."
+msgstr "将模式设置为**整个层级**以自动选择当前动画层级所有绘图中的所有笔触。"
+
+#: ../../source/drawing_animation_levels.rst:873
+msgid ""
+"Set the mode to **Same Style on Whole Level** and click to select at once all of the strokes painted with the same style used for the stroke you selected in all of the drawings of the current animation level, or Shift-click to "
+"add them to or remove them from the selection."
+msgstr "将模式设置为**整个层级上的相同样式**，然后单击以一次性选择当前动画层级所有绘图中使用与所选笔触相同样式上色的所有笔触，或 Shift-单击将它们添加到选区或从中移除。"
+
+#: ../../source/drawing_animation_levels.rst:875
+msgid "Do one of the following to make geometric transformations affecting all of the level drawings:"
+msgstr "执行以下任一操作进行影响层级所有绘图的几何变换："
+
+#: ../../source/drawing_animation_levels.rst:881
+msgid "When working on the whole level the bounding box displayed in the current level drawing is double-lined."
+msgstr "在处理整个层级时，当前层级绘图中显示的边界框是双线的。"
+
+#: ../../source/drawing_animation_levels.rst:883
+msgid "**To paste a selection in another existing drawing:**"
+msgstr "**将选区粘贴到另一个现有绘图中：**"
+
+#: ../../source/drawing_animation_levels.rst:885 ../../source/drawing_animation_levels.rst:897
+msgid "Make a selection in the current drawing."
+msgstr "在当前绘图中进行选择。"
+
+#: ../../source/drawing_animation_levels.rst:887 ../../source/drawing_animation_levels.rst:899
+msgid "Copy/cut it."
+msgstr "复制/剪切它。"
+
+#: ../../source/drawing_animation_levels.rst:889
+msgid "Select the other drawing in the Level Strip or in the Xsheet/Timeline."
+msgstr "在层级条或摄影表/时间轴中选择另一个绘图。"
+
+#: ../../source/drawing_animation_levels.rst:891 ../../source/drawing_animation_levels.rst:903 ../../source/drawing_animation_levels.rst:911
+msgid "Paste the copied/cut selection."
+msgstr "粘贴复制的/剪切的选择。"
+
+#: ../../source/drawing_animation_levels.rst:893
+msgid ""
+"Selections from Toonz Raster and Toonz Vector levels can be pasted in any other type of drawing, automatically converting the pasted selection to the appropriate type; selections from standard Raster levels can only be pasted "
+"in other Raster drawings."
+msgstr "来自 Toonz 栅格和 Toonz 矢量层级的选区可以粘贴到任何其他类型的绘图中，自动将粘贴的选区转换为适当的类型；来自标准栅格层级的选区只能粘贴到其他栅格绘图中。"
+
+#: ../../source/drawing_animation_levels.rst:895
+msgid "**To paste a selection in a new drawing:**"
+msgstr "**将选区粘贴到新绘图中：**"
+
+#: ../../source/drawing_animation_levels.rst:901
+msgid "Select an empty frame in the level strip or an empty cell in the ."
+msgstr "在层级条中选择一个空帧或在摄影表/时间轴中选择一个空单元格。"
+
+#: ../../source/drawing_animation_levels.rst:905
+msgid "**To merge several drawings into one drawing:**"
+msgstr "**将多个绘图合并为一个绘图：**"
+
+#: ../../source/drawing_animation_levels.rst:907
+msgid "Select the area you want to merge and copy/cut it."
+msgstr "选择要合并的区域并复制/剪切它。"
+
+#: ../../source/drawing_animation_levels.rst:909
+msgid "Select the drawing you want to paste the selection to."
+msgstr "选择要将选区粘贴到的绘图。"
+
+#: ../../source/drawing_animation_levels.rst:913
+msgid "Several raster animation levels can also be merged at once by using the related command (see  :ref:`Merging Animation Levels <merging_animation_levels>`  )."
+msgstr "也可以使用相关命令一次性合并多个栅格动画层级（参见 :ref:`合并动画层级 <merging_animation_levels>`）。"
+
+#: ../../source/drawing_animation_levels.rst:915
+msgid "**To split a drawing into several drawings:**"
+msgstr "**将一个绘图拆分为多个绘图：**"
+
+#: ../../source/drawing_animation_levels.rst:917
+msgid "Select the area you want to use as a new drawing and copy/cut it."
+msgstr "选择要用作新绘图的区域并复制/剪切它。"
+
+#: ../../source/drawing_animation_levels.rst:919
+msgid "Select an empty cell in the ."
+msgstr "在摄影表/时间轴中选择一个空单元格。"
+
+#: ../../source/drawing_animation_levels.rst:921
+msgid "Paste the copied/cut selection: automatically a new drawing will be created."
+msgstr "粘贴复制的/剪切的选择：将自动创建新绘图。"
+
+#: ../../source/drawing_animation_levels.rst:927
+msgid "Grouping and Ungrouping Vectors"
+msgstr "矢量成组和解组"
+
+#: ../../source/drawing_animation_levels.rst:928
+msgid ""
+"All the vector strokes of a drawing lie on the same plane, therefore drawing *areas* are outlined by segments defined by strokes intersections. This means that if you draw two intersecting squares, automatically three areas "
+"are defined: one belonging only to the first square, one to the second one, and another defined by the intersection."
+msgstr "绘图中所有矢量笔触都位于同一平面上，因此绘图*区域*由笔触交叉点定义的线段勾勒。这意味着如果绘制两个相交的正方形，会自动定义三个区域：一个仅属于第一个正方形，一个属于第二个正方形，另一个由相交部分定义。"
+
+#: ../../source/drawing_animation_levels.rst:932
+msgid "Painting a drawing that contains intersecting vector strokes and shapes may be an issue, because all of them lie on the same layer."
+msgstr "为包含相交矢量笔触和形状的绘图上色可能会出现问题，因为它们都位于同一图层上。"
+
+#: ../../source/drawing_animation_levels.rst:934
+msgid "To organize strokes you can use the grouping features, that creates a new group entity containing only the strokes you select."
+msgstr "要组织笔触，可以使用分组功能，该功能创建一个仅包含您所选笔触的新组实体。"
+
+#: ../../source/drawing_animation_levels.rst:936
+msgid ""
+"In the case of two intersecting squares, if you want the two squares to be overlapping instead of intersecting, you can create a group containing the strokes of the first square, and another those of the second square, thus "
+"defining two groups whose order can be arranged."
+msgstr "对于两个相交的正方形，如果您希望两个正方形重叠而不是相交，可以创建一个包含第一个正方形笔触的组，以及另一个包含第二个正方形笔触的组，从而定义两个可以排列顺序的组。"
+
+#: ../../source/drawing_animation_levels.rst:938
+msgid "It's possible to create as many groups as you want in any drawing; groups can be made of one stroke only as well, for instance a circle, or a line."
+msgstr "可以在任何绘图中创建任意数量的组；组也可以仅由一条笔触构成，例如一个圆或一条线。"
+
+#: ../../source/drawing_animation_levels.rst:942
+msgid "First define groups, then set a proper layering order to solve the intersection problems."
+msgstr "首先定义组，然后设置适当的图层顺序以解决交叉问题。"
+
+#: ../../source/drawing_animation_levels.rst:944
+msgid ""
+"When drawing with the **Geometric** tool (|geometric|), closed shapes (i.e. rectangles, circles, ellipses, polygons and closed polylines) can be defined automatically as a group by activating the **Auto Group** option (see :"
+"ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  )."
+msgstr "使用**几何体**工具（|geometric|）绘制时，可以通过激活**自动成组**选项将封闭形状（即矩形、圆形、椭圆形、多边形和闭合折线）自动定义为组（参见 :ref:`使用几何体工具绘制 <drawing_with_the_geometric_tool>`）。"
+
+#: ../../source/drawing_animation_levels.rst:946
+msgid "When your strokes selection includes one or several groups, the new group will include them as well, preserving them and their original sorting order position in case the group is released."
+msgstr "当您的笔触选择包含一个或多个组时，新组也将包含它们，并在组被释放时保留它们及其原始排序顺序位置。"
+
+#: ../../source/drawing_animation_levels.rst:948
+msgid "It's not possible to define a group if the selection includes only some strokes belonging to a group."
+msgstr "如果选择仅包含属于某个组的部分笔触，则无法定义组。"
+
+#: ../../source/drawing_animation_levels.rst:950
+msgid ""
+"When a group is released, if no other group is defined in the same drawing, all the strokes will lie at the same plane; if other groups are defined, the strokes of the released group will lie on a plane behind, in front of, or "
+"between the other groups, according to the original group sorting order position."
+msgstr "释放组时，如果同一绘图中未定义其他组，则所有笔触将位于同一平面上；如果定义了其他组，则释放组的笔触将根据原始组排序顺序位置位于其他组后面、前面或之间的平面上。"
+
+#: ../../source/drawing_animation_levels.rst:952
+msgid ""
+"It's possible to enter groups to isolate them visually from the rest of the drawing and better understand which strokes are inside and which outside the group. In this way it's also easier to work on the drawing, for instance "
+"to fill an area or to change the color of some strokes."
+msgstr "可以进入组以在视觉上将其与绘图的其他部分隔离开来，并更好地了解哪些笔触在组内，哪些在组外。这样也更容易处理绘图，例如填充区域或更改某些笔触的颜色。"
+
+#: ../../source/drawing_animation_levels.rst:954
+msgid "As the **Selection** tool (|selection|) considers the group as a whole, if you want to select a stroke belonging to a group, first you have to enter the group, and then select the stroke."
+msgstr "由于**选择**工具（|selection|）将组视为一个整体，如果要选择属于组的笔触，首先必须进入组，然后选择笔触。"
+
+#: ../../source/drawing_animation_levels.rst:956
+msgid "As groups define which strokes belong to a certain plane, when using the **Fill** tool (|fill|), only areas defined by strokes within the same group can be filled."
+msgstr "由于组定义了哪些笔触属于某个平面，因此使用**填充**工具（|fill|）时，只能填充由同一组内笔触定义的区域。"
+
+#: ../../source/drawing_animation_levels.rst:958
+msgid "**To Define a group:**"
+msgstr "**定义组：**"
+
+#: ../../source/drawing_animation_levels.rst:960
+msgid "Use the **Selection** tool (|selection|) to select the strokes you want to be in a group."
+msgstr "使用**选择**工具（|selection|）选择要放入组中的笔触。"
+
+#: ../../source/drawing_animation_levels.rst:964
+msgid "Choose Edit → Group  →  **Group**."
+msgstr "选择 编辑 → 组 → **成组**。"
+
+#: ../../source/drawing_animation_levels.rst:966
+msgid "Right-click on the selection and choose **Group** from the menu that opens."
+msgstr "右键单击选区，然后从打开的菜单中选择**成组**。"
+
+#: ../../source/drawing_animation_levels.rst:968
+msgid "**To Release a group:**"
+msgstr "**释放组：**"
+
+#: ../../source/drawing_animation_levels.rst:970
+msgid "Select the group you want to release."
+msgstr "选择要释放的组。"
+
+#: ../../source/drawing_animation_levels.rst:974
+msgid "Choose Edit → Group  →  **Ungroup**."
+msgstr "选择 编辑 → 组 → **解组**。"
+
+#: ../../source/drawing_animation_levels.rst:976
+msgid "Right-click on the selection and choose **Ungroup** from the menu that opens."
+msgstr "右键单击选区，然后从打开的菜单中选择**解组**。"
+
+#: ../../source/drawing_animation_levels.rst:978
+msgid "**To Enter a group:**"
+msgstr "**进入组：**"
+
+#: ../../source/drawing_animation_levels.rst:982
+msgid "Select the group, then choose Edit → Group  →  **Enter Group**."
+msgstr "选择组，然后选择 编辑 → 组 → **进入组**。"
+
+#: ../../source/drawing_animation_levels.rst:984
+msgid "Right-click the group and choose **Enter Group** from the menu that opens."
+msgstr "右键单击组，然后从打开的菜单中选择**进入组**。"
+
+#: ../../source/drawing_animation_levels.rst:986
+msgid "Double-click the group."
+msgstr "双击该组。"
+
+#: ../../source/drawing_animation_levels.rst:988
+msgid "**To Exit a group:**"
+msgstr "**退出组：**"
+
+#: ../../source/drawing_animation_levels.rst:992
+msgid "Choose Edit → Group  →  **Exit Group**."
+msgstr "选择 编辑 → 组 → **退出组**。"
+
+#: ../../source/drawing_animation_levels.rst:994
+msgid "Right-click the group and choose **Exit Group** from the menu that opens."
+msgstr "右键单击组，然后从打开的菜单中选择**退出组**。"
+
+#: ../../source/drawing_animation_levels.rst:996
+msgid "Double-click outside the group."
+msgstr "在组外双击。"
+
+#: ../../source/drawing_animation_levels.rst:998
+msgid "**To Select a group:**"
+msgstr "**选择组：**"
+
+#: ../../source/drawing_animation_levels.rst:1000
+msgid "Choose the **Selection** tool (|selection|) and do any of the following:"
+msgstr "选择**选择**工具（|selection|）并执行以下任一操作："
+
+#: ../../source/drawing_animation_levels.rst:1002
+msgid "Click any stroke belonging to the group."
+msgstr "单击属于该组的任何笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1004
+msgid "Click and drag to select at least one stroke belonging to the group."
+msgstr "单击并拖动以选择至少一条属于该组的笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1006
+msgid "Set the type to **Rectangular** and click and drag to define a box and select at least one stroke belonging to the group."
+msgstr "将类型设置为**矩形**，然后单击并拖动以定义一个框并选择至少一条属于该组的笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1008
+msgid "Set the type to **Freehand** and click and drag to outline an area and select at least one stroke belonging to the group."
+msgstr "将类型设置为**自由手绘**，然后单击并拖动以勾勒一个区域并选择至少一条属于该组的笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1010
+msgid "Set the type to **Polyline** and click to outline an area by defining a series of lines and select at least one stroke belonging to the group."
+msgstr "将类型设置为**折线**，然后单击通过定义一系列线条来勾勒一个区域并选择至少一条属于该组的笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1012
+msgid "**To Select a stroke in a group:**"
+msgstr "**选择组中的笔触：**"
+
+#: ../../source/drawing_animation_levels.rst:1014
+msgid "Enter the group."
+msgstr "进入该组。"
+
+#: ../../source/drawing_animation_levels.rst:1016
+msgid "Click the stroke to select it."
+msgstr "单击该笔触以选中它。"
+
+#: ../../source/drawing_animation_levels.rst:1022
+msgid "Setting Stroke and Group Sorting Order"
+msgstr "设置笔触和组排序顺序"
+
+#: ../../source/drawing_animation_levels.rst:1023
+msgid "For each vector drawing, strokes and groups sorting order can be changed by setting what has to lie in front of, and what behind."
+msgstr "对于每个矢量绘图，可以通过设置哪些必须在前，哪些在后来更改笔触和组的排序顺序。"
+
+#: ../../source/drawing_animation_levels.rst:1027
+msgid "Select vector strokes, create groups and set their layering order to better manage the drawing."
+msgstr "选择矢量笔触，创建组并设置其图层顺序，以更好地管理绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1029
+msgid "**To bring the selection to front:**"
+msgstr "**将选区置于顶层：**"
+
+#: ../../source/drawing_animation_levels.rst:1033
+msgid "Choose Edit → Arrange  →  **Bring to Front**."
+msgstr "选择 编辑 → 排列 → **置于顶层**。"
+
+#: ../../source/drawing_animation_levels.rst:1035
+msgid "Right-click on the selection and choose **Bring to Front** from the menu that opens."
+msgstr "右键单击选区，然后从打开的菜单中选择**置于顶层**。"
+
+#: ../../source/drawing_animation_levels.rst:1037
+msgid "**To bring the selection one level forward:**"
+msgstr "**将选区上移一层：**"
+
+#: ../../source/drawing_animation_levels.rst:1041
+msgid "Choose Edit → Arrange  →  **Bring Forward**."
+msgstr "选择 编辑 → 排列 → **上移一层**。"
+
+#: ../../source/drawing_animation_levels.rst:1043
+msgid "Right-click on the selection and choose **Bring Forward** from the menu that opens."
+msgstr "右键单击选区，然后从打开的菜单中选择**上移一层**。"
+
+#: ../../source/drawing_animation_levels.rst:1045
+msgid "**To send the selection back:**"
+msgstr "**将选区置于底层：**"
+
+#: ../../source/drawing_animation_levels.rst:1049
+msgid "Choose Edit → Arrange  →  **Send Back**."
+msgstr "选择 编辑 → 排列 → **置于底层**。"
+
+#: ../../source/drawing_animation_levels.rst:1051
+msgid "Right-click on the selection and choose **Send Back** from the menu that opens."
+msgstr "右键单击选区，然后从打开的菜单中选择**置于底层**。"
+
+#: ../../source/drawing_animation_levels.rst:1053
+msgid "**To send the selection one level backward:**"
+msgstr "**将选区下移一层：**"
+
+#: ../../source/drawing_animation_levels.rst:1057
+msgid "Choose Edit → Arrange  →  **Send Backward**."
+msgstr "选择 编辑 → 排列 → **下移一层**。"
+
+#: ../../source/drawing_animation_levels.rst:1059
+msgid "Right-click on the selection and choose **Send Backward** from the menu that opens."
+msgstr "右键单击选区，然后从打开的菜单中选择**下移一层**。"
+
+#: ../../source/drawing_animation_levels.rst:1065
+msgid "Editing Vector Drawings"
+msgstr "编辑矢量绘图"
+
+#: ../../source/drawing_animation_levels.rst:1066
+msgid "Vector drawings can be edited in some additional ways by using the set of tools. This allows you for example to better calibrate the bend of a vector, or to change its thickness."
+msgstr "矢量绘图可以使用工具集中的一些额外方式进行编辑。例如，这允许您更好地校准矢量的弯曲度，或更改其粗细。"
+
+#: ../../source/drawing_animation_levels.rst:1068
+msgid ""
+"All these transformations can be also achieved on already painted drawings, because the fill styles used to paint will automatically follow the shape of the areas you modify, working like “liquid” color, flooding an area "
+"defined by an outline."
+msgstr "所有这些变换也可以在已上色的绘图上实现，因为用于上色的填充样式会自动跟随您修改区域的形状，就像“液体”颜色一样，填充由轮廓定义的区域。"
+
+#: ../../source/drawing_animation_levels.rst:1074
+msgid "Editing Vector Control Points"
+msgstr "编辑矢量控制点"
+
+#: ../../source/drawing_animation_levels.rst:1075
+msgid "To modify a vector by editing its control points you can use the **Control Point Editor** tool (|cpe|)."
+msgstr "要通过编辑其控制点来修改矢量，可以使用**控制点编辑器**工具（|cpe|）。"
+
+#: ../../source/drawing_animation_levels.rst:1077
+msgid ""
+"Control points have handles whose length and direction define the bend of the vector. With this tool you can select a vector and modify the control point handles, or the bend of a curve defined by control points, and move, add "
+"or delete control points."
+msgstr "控制点具有手柄，其长度和方向定义了矢量的弯曲度。使用此工具，您可以选择矢量并修改控制点手柄，或由控制点定义的曲线的弯曲度，以及移动、添加或删除控制点。"
+
+#: ../../source/drawing_animation_levels.rst:1079
+msgid ""
+"Control point handles may be linked, that is to say they share the same direction, or not, creating a cusp in the vector; they can also be collapsed in the control point in order to turn it in a corner point. In case only one "
+"handle is collapsed, the point will be corner on one side and smooth on the other. When a section of the vector is defined by two corner points, it will be a straight line."
+msgstr ""
+"控制点手柄可以链接，即它们共享相同的方向，也可以不链接，从而在矢量中创建一个尖点；它们也可以折叠到控制点中，以将其转变为角点。如果仅折叠一个手柄，则该点将一侧为角点，另一侧为平滑点。当矢量的一段由两个角点定义时，它将是一条直"
+"线。"
+
+#: ../../source/drawing_animation_levels.rst:1081
+msgid "The option Auto Select Drawing is available to automatically select any vector of any drawing visible in the viewer."
+msgstr "提供自动选择绘图选项，可自动选择检视器中任何可见绘图的任何矢量。"
+
+#: ../../source/drawing_animation_levels.rst:1085
+msgid "Click to select a vector stroke and edit its control points; Alt-click to unlink control point handles; Ctrl-click (PC) or Cmd-click (Mac) the selected stroke to add a control point."
+msgstr "单击以选择矢量笔触并编辑其控制点；Alt-单击以取消链接控制点手柄；Ctrl-单击（PC）或 Cmd-单击（Mac）选定的笔触以添加控制点。"
+
+#: ../../source/drawing_animation_levels.rst:1087
+msgid "**To select a vector:**"
+msgstr "**选择矢量：**"
+
+#: ../../source/drawing_animation_levels.rst:1089
+msgid "Click it."
+msgstr "单击它。"
+
+#: ../../source/drawing_animation_levels.rst:1091
+msgid "**To edit the bend of a vector:**"
+msgstr "**编辑矢量的弯曲度：**"
+
+#: ../../source/drawing_animation_levels.rst:1095
+msgid "Click and drag the ends of the control point handles."
+msgstr "单击并拖动控制点手柄的末端。"
+
+#: ../../source/drawing_animation_levels.rst:1097
+msgid "Click and drag the curve defined by the control points to edit it."
+msgstr "单击并拖动由控制点定义的曲线以进行编辑。"
+
+#: ../../source/drawing_animation_levels.rst:1099
+msgid "Shift-click and drag the curve defined by the control point to edit it by keeping the control points position fixed."
+msgstr "Shift-单击并拖动由控制点定义的曲线，通过保持控制点位置固定来编辑它。"
+
+#: ../../source/drawing_animation_levels.rst:1101
+msgid "**To unlink the control point handles:**"
+msgstr "**取消链接控制点手柄：**"
+
+#: ../../source/drawing_animation_levels.rst:1103
+msgid "Alt-click one of the handle ends and drag."
+msgstr "Alt-单击其中一个手柄末端并拖动。"
+
+#: ../../source/drawing_animation_levels.rst:1105
+msgid "**To link the control point handles:**"
+msgstr "**链接控制点手柄：**"
+
+#: ../../source/drawing_animation_levels.rst:1107
+msgid "Alt-click one of the handle ends and drag: the other handle snaps to the direction of the one you are dragging."
+msgstr "Alt-单击其中一个手柄末端并拖动：另一个手柄将吸附到您拖动手柄的方向。"
+
+#: ../../source/drawing_animation_levels.rst:1109
+msgid "**To add a control point:**"
+msgstr "**添加控制点：**"
+
+#: ../../source/drawing_animation_levels.rst:1111
+msgid "Ctrl-click (Pc) or Cmd-click (Mac) the vector where you want to add a control point."
+msgstr "Ctrl-单击（PC）或 Cmd-单击（Mac）要添加控制点的矢量位置。"
+
+#: ../../source/drawing_animation_levels.rst:1113
+msgid "**To select control points:**"
+msgstr "**选择控制点：**"
+
+#: ../../source/drawing_animation_levels.rst:1117
+msgid "Click a control point to select it."
+msgstr "单击控制点以选中它。"
+
+#: ../../source/drawing_animation_levels.rst:1119
+msgid "Ctrl-click (Pc) or Cmd-click (Mac) a control point to add it to the selection."
+msgstr "Ctrl-单击（PC）或 Cmd-单击（Mac）控制点以将其添加到选择中。"
+
+#: ../../source/drawing_animation_levels.rst:1121
+msgid "Click and drag to select all of the control points that are included in the selection area."
+msgstr "单击并拖动以选择包含在选区内的所有控制点。"
+
+#: ../../source/drawing_animation_levels.rst:1123
+msgid "**To move the selection:**"
+msgstr "**移动选择：**"
+
+#: ../../source/drawing_animation_levels.rst:1127
+msgid "Click any selected control point and drag."
+msgstr "单击任何选定的控制点并拖动。"
+
+#: ../../source/drawing_animation_levels.rst:1129
+msgid "Use the Arrow keys to move the selection one pixel right, left, up or down."
+msgstr "使用方向键将选择向右、左、上或下移动一个像素。"
+
+#: ../../source/drawing_animation_levels.rst:1131
+msgid "**To delete the selection:**"
+msgstr "**删除选择：**"
+
+#: ../../source/drawing_animation_levels.rst:1133
+msgid "Choose Edit  →  Delete."
+msgstr "选择 编辑 → 删除。"
+
+#: ../../source/drawing_animation_levels.rst:1135
+msgid "**To turn a control point into a corner point:**"
+msgstr "**将控制点转变为角点：**"
+
+#: ../../source/drawing_animation_levels.rst:1139
+msgid "Alt-click the control point."
+msgstr "Alt-单击该控制点。"
+
+#: ../../source/drawing_animation_levels.rst:1141
+msgid "Move the handle ends to the control point, in order to collapse them."
+msgstr "将手柄末端移动到控制点，以折叠它们。"
+
+#: ../../source/drawing_animation_levels.rst:1143
+msgid "Right-click the control point and choose **Set Linear Control Point** from the menu that opens."
+msgstr "右键单击控制点，然后从打开的菜单中选择**设置线性控制点**。"
+
+#: ../../source/drawing_animation_levels.rst:1145
+msgid "**To retrieve handles from a corner point:**"
+msgstr "**从角点恢复手柄：**"
+
+#: ../../source/drawing_animation_levels.rst:1149
+msgid "Alt-click the corner point."
+msgstr "Alt-单击该角点。"
+
+#: ../../source/drawing_animation_levels.rst:1151
+msgid "Right-click the control point and choose **Set Nonlinear Control Point** from the menu that opens."
+msgstr "右键单击控制点，然后从打开的菜单中选择**设置非线性控制点**。"
+
+#: ../../source/drawing_animation_levels.rst:1157
+msgid "Changing the Bend of Vector Strokes"
+msgstr "更改矢量笔触的弯曲度"
+
+#: ../../source/drawing_animation_levels.rst:1158
+msgid "To modify a bend of a vector stroke in a more intuitive way you can use the **Pinch** tool (|pinch|). You can use it anywhere you want on the stroke, in order to modify the bend in any direction."
+msgstr "要以更直观的方式修改矢量笔触的弯曲度，可以使用**捏合**工具（|pinch|）。可以在笔触上任意位置使用它，以向任意方向修改弯曲度。"
+
+#: ../../source/drawing_animation_levels.rst:1160
+msgid "When the tool is selected, a segment of the center line of the closest stroke is highlighted: the segment shows the length of the stroke that will be affected by the pinching."
+msgstr "选择工具后，最近笔触中心线的一段会高亮显示：该段显示了将受捏合影响的笔触长度。"
+
+#: ../../source/drawing_animation_levels.rst:1162
+msgid ""
+"The length of the segment depends on the corner points, that the tool automatically detects along the stroke, according to the **Corner** value. It can also be manually set by activating the **Manual** option, and thus using "
+"the **Size** value to set the affected length."
+msgstr "该段的长度取决于角点，工具会根据**角点**值沿笔触自动检测角点。也可以通过激活**手动**选项来手动设置，从而使用**大小**值设置受影响的长度。"
+
+#: ../../source/drawing_animation_levels.rst:1164
+msgid ""
+"When the **Manual** mode is activated, a handle is displayed along the highlighted stroke to control interactively the length of the segment that will be affected by the tool. The handle has a double circle and a square at its "
+"ends, that allows you to do the following:"
+msgstr "激活**手动**模式时，会沿高亮笔触显示一个手柄，以交互方式控制将受工具影响的段长度。手柄两端有一个双圆圈和一个方块，允许您执行以下操作："
+
+#: ../../source/drawing_animation_levels.rst:1166
+msgid "**Double circle** lets you move the handle along the segment."
+msgstr "**双圆圈**允许您沿段移动手柄。"
+
+#: ../../source/drawing_animation_levels.rst:1168
+msgid "**Square** lets you increase the length of the segment affected by the tool by *clicking and dragging right*, or decrease it by *clicking and dragging left*."
+msgstr "**方块**允许您通过*向右单击并拖动*来增加受工具影响的段长度，或通过*向左单击并拖动*来减少长度。"
+
+#: ../../source/drawing_animation_levels.rst:1170
+msgid "In both Automatic and Manual modes, different types of editing can be performed when clicking and moving the cursor:"
+msgstr "在自动和手动模式下，单击和移动光标时可以执行不同类型的编辑："
+
+#: ../../source/drawing_animation_levels.rst:1172
+msgid "**Click** and drag to change the bend of the highlighted segment."
+msgstr "**单击**并拖动以更改高亮段的弯曲度。"
+
+#: ../../source/drawing_animation_levels.rst:1174
+msgid "**Shift-click** and drag to edit the highlighted segment by adding a *cusp*."
+msgstr "**Shift-单击**并拖动，通过添加*尖点*来编辑高亮段。"
+
+#: ../../source/drawing_animation_levels.rst:1176
+msgid "**Ctrl-click** (Pc) or **Cmd-click** (Mac) and drag to edit the highlighted segment by adding a *corner*."
+msgstr "**Ctrl-单击**（PC）或**Cmd-单击**（Mac）并拖动，通过添加*角点*来编辑高亮段。"
+
+#: ../../source/drawing_animation_levels.rst:1178
+msgid "**To modify the bend of a stroke:**"
+msgstr "**修改笔触的弯曲度：**"
+
+#: ../../source/drawing_animation_levels.rst:1180
+msgid "Change the length of the segment affected by the tool by setting the **Corner** value in the tool options bar."
+msgstr "通过在工具选项栏中设置**角点**值来更改受工具影响的段长度。"
+
+#: ../../source/drawing_animation_levels.rst:1182
+msgid "Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment."
+msgstr "单击、Shift-单击或 Ctrl-单击（PC）或 Cmd-单击（Mac）并拖动以修改高亮段的弯曲度。"
+
+#: ../../source/drawing_animation_levels.rst:1186
+msgid "Click and drag to change the bend; Shift-click to add a cusp; Ctrl-click (PC) or Cmd-click (Mac) to add a corner."
+msgstr "单击并拖动以更改弯曲度；Shift-单击以添加尖点；Ctrl-单击（PC）或 Cmd-单击（Mac）以添加角点。"
+
+#: ../../source/drawing_animation_levels.rst:1188
+msgid "**To modify the bend of a stroke in manual mode:**"
+msgstr "**在手动模式下修改笔触的弯曲度：**"
+
+#: ../../source/drawing_animation_levels.rst:1190
+msgid "Activate the **Manual** option in the tool options bar."
+msgstr "激活工具选项栏中的**手动**选项。"
+
+#: ../../source/drawing_animation_levels.rst:1192
+msgid "Change the length of the segment affected by the tool by doing one of the following:"
+msgstr "通过以下任一方式更改受工具影响的段长度："
+
+#: ../../source/drawing_animation_levels.rst:1194
+msgid "Set the **Size** value in the tool options bar."
+msgstr "在工具选项栏中设置**大小**值。"
+
+#: ../../source/drawing_animation_levels.rst:1196
+msgid "Click and drag the small square at one end of the handle displayed along the highlighted stroke."
+msgstr "单击并拖动沿高亮笔触显示的手柄一端的小方块。"
+
+#: ../../source/drawing_animation_levels.rst:1198
+msgid "Click, Shift-click, or Ctrl-click (PC) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment."
+msgstr "单击、Shift-单击或 Ctrl-单击（PC）或 Cmd-单击（Mac）并拖动以修改高亮段的弯曲度。"
+
+#: ../../source/drawing_animation_levels.rst:1200
+msgid "**To eliminate a corner point from a segment:**"
+msgstr "**从段中消除角点：**"
+
+#: ../../source/drawing_animation_levels.rst:1202
+msgid "Click and drag the point until the smooth segment is formed again."
+msgstr "单击并拖动该点，直到再次形成平滑段。"
+
+#: ../../source/drawing_animation_levels.rst:1204
+msgid "Click and drag to correct the bend of the newly smoothed segment."
+msgstr "单击并拖动以校正新平滑段的弯曲度。"
+
+#: ../../source/drawing_animation_levels.rst:1210
+msgid "Using Other Modifier Tools"
+msgstr "使用其他修改工具"
+
+#: ../../source/drawing_animation_levels.rst:1211
+msgid ""
+"To modify the thickness of a stroke you can use the **Pump** tool (|pump|). You can use it anywhere you want on the stroke to increase or decrease the thickness locally. When the tool is selected, a segment of the closest "
+"stroke is highlighted: the segment shows the length of the stroke that will be affected by the tool. To modify this length you can change the **Size** value in the tool options bar."
+msgstr "要修改笔触的粗细，可以使用**膨胀**工具（|pump|）。可以在笔触上任意位置使用它，以局部增加或减少粗细。选择工具后，最近笔触的一段会高亮显示：该段显示了将受工具影响的笔触长度。要修改此长度，可以更改工具选项栏中的**大小**值。"
+
+#: ../../source/drawing_animation_levels.rst:1213
+msgid ""
+"It's possible to modify the thickness of a stroke, a stroke selection, or strokes in all of the level drawings, by using the **Selection** tool (|selection|) and its related options (see :ref:`Using the Selection Tool "
+"<using_the_selection_tool>`  )."
+msgstr "可以使用**选择**工具（|selection|）及其相关选项来修改笔触的粗细、笔触选择或层级所有绘图中的笔触粗细（参见 :ref:`使用选择工具 <using_the_selection_tool>`）。"
+
+#: ../../source/drawing_animation_levels.rst:1215
+msgid ""
+"To distort more than one stroke at once, you can use the **Magnet** tool (|magnet|). The tool affects all stroke included in a circular area and allows you to distort them in the direction of your dragging. Highlighted "
+"segments will show the strokes that will be affected. To modify the action range of the tool, represented by a circle, you can change the tool size in the tool options bar."
+msgstr "要同时扭曲多个笔触，可以使用**磁力**工具（|magnet|）。该工具影响圆形区域内包含的所有笔触，并允许您沿拖动方向扭曲它们。高亮段将显示将受影响的笔触。要修改工具的作用范围（以圆形表示），可以更改工具选项栏中的工具大小。"
+
+#: ../../source/drawing_animation_levels.rst:1217
+msgid ""
+"To bend a part of a drawing, for example a character’s arm, you can use the **Bender** tool (|bender|). The tool allows you to define a line and then bend all the strokes intersected by the segment. While bending you can see "
+"the affected strokes assuming their position after the transformation. The bending can be performed in both clockwise and counterclockwise direction; once you start dragging you cannot change the bend direction."
+msgstr ""
+"要弯曲绘图的一部分，例如角色的手臂，可以使用**弯曲器**工具（|bender|）。该工具允许您定义一条线，然后弯曲与该段相交的所有笔触。弯曲时，可以看到受影响的笔触在变换后所处的位置。弯曲可以按顺时针和逆时针方向进行；一旦开始拖动，就无"
+"法更改弯曲方向。"
+
+#: ../../source/drawing_animation_levels.rst:1219
+msgid "If you move the cursor far from the bending center, you will be able to set with more precision the amount of bend you want to apply to the strokes."
+msgstr "如果将光标远离弯曲中心移动，将能够更精确地设置要应用于笔触的弯曲量。"
+
+#: ../../source/drawing_animation_levels.rst:1221
+msgid ""
+"To smooth a stroke, you can use the **Iron** tool (|iron|). When used again and again on the same stroke, it increasingly flatten the bends of the stroke. When the tool is selected, the cursor snaps to the closest stroke to "
+"indicate where you are going to operate."
+msgstr "要平滑笔触，可以使用**熨斗**工具（|iron|）。在同一笔触上反复使用时，它会逐渐压平笔触的弯曲处。选择工具后，光标会吸附到最近的笔触，以指示将在哪里操作。"
+
+#: ../../source/drawing_animation_levels.rst:1223
+msgid "**To modify the thickness of a stroke:**"
+msgstr "**修改笔触的粗细：**"
+
+#: ../../source/drawing_animation_levels.rst:1225
+msgid "Select the **Pump** tool (|pump|)."
+msgstr "选择**膨胀**工具（|pump|）。"
+
+#: ../../source/drawing_animation_levels.rst:1227
+msgid "Set the **Size:** value in the tool options bar."
+msgstr "在工具选项栏中设置**大小：**值。"
+
+#: ../../source/drawing_animation_levels.rst:1229
+msgid "Click the point of the stroke where you want to modify the thickness and drag up to increase it, or down to decrease it."
+msgstr "单击要修改粗细的笔触点，然后向上拖动以增加粗细，或向下拖动以减少粗细。"
+
+#: ../../source/drawing_animation_levels.rst:1233
+msgid "Using the Pump tool to change the thickness of drawn strokes."
+msgstr "使用膨胀工具更改绘制笔触的粗细。"
+
+#: ../../source/drawing_animation_levels.rst:1235
+msgid "**To distort several strokes at once:**"
+msgstr "**同时扭曲多个笔触：**"
+
+#: ../../source/drawing_animation_levels.rst:1237
+msgid "Select the **Magnet** tool (|magnet|)."
+msgstr "选择**磁力**工具（|magnet|）。"
+
+#: ../../source/drawing_animation_levels.rst:1239
+msgid "Click in the Viewer: all the strokes included in the circle will be affected by the tool."
+msgstr "在检视器中单击：圆圈内包含的所有笔触都将受工具影响。"
+
+#: ../../source/drawing_animation_levels.rst:1241
+msgid "Drag to distort the strokes in the direction of your dragging."
+msgstr "拖动以沿拖动方向扭曲笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1243
+msgid "**To bend one or several strokes:**"
+msgstr "**弯曲一个或多个笔触：**"
+
+#: ../../source/drawing_animation_levels.rst:1245
+msgid "Select the **Bender** tool (|bender|)."
+msgstr "选择**弯曲器**工具（|bender|）。"
+
+#: ../../source/drawing_animation_levels.rst:1247
+msgid "Click on one side of the strokes you want to bend to set the center of the bend."
+msgstr "单击要弯曲笔触的一侧以设置弯曲中心。"
+
+#: ../../source/drawing_animation_levels.rst:1249
+msgid "Click on the opposite side of the strokes: all strokes intersected by the defined line will be affected by the bending."
+msgstr "单击笔触的另一侧：与定义直线相交的所有笔触都将受弯曲影响。"
+
+#: ../../source/drawing_animation_levels.rst:1251
+msgid "Drag in the direction you want to bend strokes."
+msgstr "向要弯曲笔触的方向拖动。"
+
+#: ../../source/drawing_animation_levels.rst:1253
+msgid "**To smooth a stroke:**"
+msgstr "**平滑笔触：**"
+
+#: ../../source/drawing_animation_levels.rst:1255
+msgid "Select the **Iron** tool (|iron|)."
+msgstr "选择**熨斗**工具（|iron|）。"
+
+#: ../../source/drawing_animation_levels.rst:1257
+msgid "Click and drag along the stroke you want to smooth. By dragging over and over the stroke will increasingly flatten."
+msgstr "沿要平滑的笔触单击并拖动。反复拖动，笔触会逐渐变平。"
+
+#: ../../source/drawing_animation_levels.rst:1263
+msgid "Joining and Splitting"
+msgstr "连接与拆分"
+
+#: ../../source/drawing_animation_levels.rst:1264
+msgid "To join the ends of two different vector strokes, you can use the **Tape** tool (|tape|). This way it will be possible to handle them as a single stroke, for instance for modifying their bend, or thickness, as a whole."
+msgstr "要连接两个不同矢量笔触的端点，可以使用**胶带**工具（|tape|）。这样可以将它们作为单个笔触处理，例如整体修改其弯曲度或粗细。"
+
+#: ../../source/drawing_animation_levels.rst:1266
+msgid "When the tool is used, the pointer snaps to the closest detected stroke endpoint in order to make the operation easier."
+msgstr "使用该工具时，指针会吸附到检测到的最近笔触端点，以便操作更简便。"
+
+#: ../../source/drawing_animation_levels.rst:1268
+msgid "The **Tape** tool (|tape|) can also be used to close gaps along the drawing outline for painting purposes (see :ref:`Closing Gaps in Drawing Outline <closing_gaps_in_drawing_outline>`  )."
+msgstr "**胶带**工具（|tape|）也可用于闭合绘图轮廓中的间隙以便上色（参见 :ref:`闭合绘图轮廓中的间隙 <closing_gaps_in_drawing_outline>`）。"
+
+#: ../../source/drawing_animation_levels.rst:1270
+msgid "To do the contrary, that is to say splitting a stroke in two sections, you can use the **Cutter** tool (|cutter|)."
+msgstr "相反地，即要将笔触拆分为两段，可以使用**切割器**工具（|cutter|）。"
+
+#: ../../source/drawing_animation_levels.rst:1272
+msgid "**To join two open ends of one or two strokes:**"
+msgstr "**连接一个或两个笔触的两个开放端点：**"
+
+#: ../../source/drawing_animation_levels.rst:1274
+msgid "Select the **Tape** tool (|tape|), and activate the **Join Vectors** option; activate also the **Smooth** option if you want a smooth joining with no corners."
+msgstr "选择**胶带**工具（|tape|），并激活**连接矢量**选项；如果需要平滑连接且无角点，也激活**平滑**选项。"
+
+#: ../../source/drawing_animation_levels.rst:1278
+msgid "Set the type to **Normal** and the mode to **Endpoint to Endpoint**, click a stroke endpoint and drag to a different endpoint; the pointer snaps to the closest detected stroke endpoint."
+msgstr "将类型设置为**普通**，模式设置为**端点到端点**，单击一个笔触端点并拖动到另一个端点；指针会吸附到检测到的最近笔触端点。"
+
+#: ../../source/drawing_animation_levels.rst:1280
+msgid "Set the type to **Rectangular**, and click and drag to define a box including the endpoints you want to connect; the endpoints will be automatically joined according to the set **Distance** value."
+msgstr "将类型设置为**矩形**，然后单击并拖动以定义一个包含要连接端点的框；端点将根据设置的**距离**值自动连接。"
+
+#: ../../source/drawing_animation_levels.rst:1282
+msgid "If the strokes you are going to join have different Styles, the Style of the first vector where you click on will be assigned to the second one after joining."
+msgstr "如果要连接的笔触具有不同的样式，则单击的第一个矢量的样式将在连接后分配给第二个矢量。"
+
+#: ../../source/drawing_animation_levels.rst:1284
+msgid "**To split a stroke:**"
+msgstr "**拆分笔触：**"
+
+#: ../../source/drawing_animation_levels.rst:1286
+msgid "Select the **Cutter** tool (|cutter|): the pointer snaps to the closest stroke indicating, with a small highlighted segment, the point where you are going to split the stroke."
+msgstr "选择**切割器**工具（|cutter|）：指针会吸附到最近的笔触，并用一个小高亮段指示您将拆分笔触的位置。"
+
+#: ../../source/drawing_animation_levels.rst:1288
+msgid "Click to split the stroke at the highlighted point."
+msgstr "单击以在高亮点拆分笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1294
+msgid "Cleaning up Strokes Intersections"
+msgstr "清理笔触交叉点"
+
+#: ../../source/drawing_animation_levels.rst:1295
+msgid "Vector strokes intersections may be a weak point in drawings to be painted, because if a gap occurs, drawing areas cannot be painted properly."
+msgstr "矢量笔触交叉点可能是待上色绘图中的一个薄弱点，因为如果出现间隙，绘图区域就无法正确上色。"
+
+#: ../../source/drawing_animation_levels.rst:1297
+msgid "The best solution for this kind of issue is to overlap the final section of strokes, in order to define clear intersections, then automatically remove the sections that overflow."
+msgstr "此类问题的最佳解决方案是重叠笔触的末端部分，以定义清晰的交叉点，然后自动移除溢出的部分。"
+
+#: ../../source/drawing_animation_levels.rst:1299
+msgid "**To cleanup vector intersections:**"
+msgstr "**清理矢量交叉点：**"
+
+#: ../../source/drawing_animation_levels.rst:1301
+msgid "Use the **Selection** tool (|selection|) to select the strokes whose intersections you want to cleanup."
+msgstr "使用**选择**工具（|selection|）选择要清理其交叉点的笔触。"
+
+#: ../../source/drawing_animation_levels.rst:1305
+msgid "Choose Level → Optimize  →  **Remove Vector Overflow**."
+msgstr "选择 层级 → 优化 → **移除矢量溢出**。"
+
+#: ../../source/drawing_animation_levels.rst:1307
+msgid "Right-click the selection and choose **Remove Vector Overflow** from the menu that opens."
+msgstr "右键单击选择，然后从打开的菜单中选择**移除矢量溢出**。"
+
+#: ../../source/drawing_animation_levels.rst:1313
+msgid "Animation Techniques"
+msgstr "动画技术"
+
+#: ../../source/drawing_animation_levels.rst:1314
+msgid "Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to OpenToonz features."
+msgstr "除了逐帧绘制，一次一张图像，直到获得想要的动画之外，由于 OpenToonz 的功能，其他一些技术也更容易实现。"
+
+#: ../../source/drawing_animation_levels.rst:1316
+msgid "Whatever the technique is, you can control your work and how smooth the animation is by using the onion skin, that allows you to view more than one image in the viewer at the same time as reference."
+msgstr "无论采用何种技术，都可以使用洋葱皮来控制工作并检查动画的流畅度，它允许您在检视器中同时查看多个图像作为参考。"
+
+#: ../../source/drawing_animation_levels.rst:1322
+msgid "Modelling a Vector Drawing"
+msgstr "建模矢量绘图"
+
+#: ../../source/drawing_animation_levels.rst:1323
+msgid ""
+"Instead of animating a level by starting every time from a blank frame, you can duplicate a vector drawing and make subsequent modifications. You can do it even if the drawings are painted, because the styles used to paint "
+"will automatically follow the shape of the areas you modify (see  :ref:`Editing Drawings <editing_drawings>`  )."
+msgstr "与其每次从空白帧开始为层级制作动画，不如复制矢量绘图并进行后续修改。即使绘图已上色也可以这样做，因为用于上色的样式会自动跟随您修改区域的形状（参见 :ref:`编辑绘图 <editing_drawings>`）。"
+
+#: ../../source/drawing_animation_levels.rst:1325
+msgid "The sequence of the animation level drawings can be easily controlled in the Level Strip."
+msgstr "动画层级绘图的序列可以在层级条中轻松控制。"
+
+#: ../../source/drawing_animation_levels.rst:1327
+msgid "You can use both the Cells  →  **Duplicate Drawing** command and the standard **Copy** and **Paste** commands to make a copy of a drawing that you can later modify to create slight movements."
+msgstr "可以使用单元格 → **复制绘图**命令以及标准的**复制**和**粘贴**命令来复制绘图，稍后可以修改它来创建微小的运动。"
+
+#: ../../source/drawing_animation_levels.rst:1329
+msgid ""
+"When you use the **Duplicate Drawing** command, the selected drawing is duplicated in the following frame. If the following frame already contains a drawing, it's shifted down in order to insert the duplicated drawing in the "
+"sequence."
+msgstr "使用**复制绘图**命令时，所选绘图将在下一帧复制。如果下一帧已包含绘图，则会将其下移，以便在序列中插入复制的绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1331
+msgid "When you use the **Copy** and **Paste** commands, you can also decide the frame of the Level Strip where you want to paste the drawing."
+msgstr "使用**复制**和**粘贴**命令时，还可以决定要在层级条的哪一帧粘贴绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1333
+msgid "Once finished, you can make a copy of the modified drawing, and modify it in its turn. You can go on duplicating and modifying drawings until you complete the animation level."
+msgstr "完成后，可以复制修改后的绘图，并对其进行进一步修改。可以继续复制和修改绘图，直到完成动画层级。"
+
+#: ../../source/drawing_animation_levels.rst:1335
+msgid "**To create an animation level by modelling vector drawings:**"
+msgstr "**通过建模矢量绘图创建动画层级：**"
+
+#: ../../source/drawing_animation_levels.rst:1337
+msgid "In the Viewer, select a drawing of the vector animation level you want to edit."
+msgstr "在检视器中，选择要编辑的矢量动画层级的绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1339
+msgid "In the Level Strip, select the drawing you want to duplicate."
+msgstr "在层级条中，选择要复制的绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1341
+msgid "Copy the selected drawing in the following frame by doing one of the following:"
+msgstr "通过以下任一方式在下一帧中复制所选绘图："
+
+#: ../../source/drawing_animation_levels.rst:1343
+msgid "Choose Cells  →  **Duplicate Drawing**."
+msgstr "选择 单元格 → **复制绘图**。"
+
+#: ../../source/drawing_animation_levels.rst:1345
+msgid "Choose Edit  →  **Copy**, then select the following frame and choose **Paste**."
+msgstr "选择 编辑 → **复制**，然后选择下一帧并选择**粘贴**。"
+
+#: ../../source/drawing_animation_levels.rst:1347
+msgid "Select the new drawing in the Level Strip."
+msgstr "在层级条中选择新绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1349
+msgid "Use modifier tools to modify the drawing."
+msgstr "使用修改工具修改绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1351
+msgid "Go on duplicating and modifying drawings until you complete the animation level."
+msgstr "继续复制和修改绘图，直到完成动画层级。"
+
+#: ../../source/drawing_animation_levels.rst:1357
+msgid "Using the In-betweener with Vector Drawings"
+msgstr "对矢量绘图使用中间画生成器"
+
+#: ../../source/drawing_animation_levels.rst:1358
+msgid "An animation technique reserved to vector animation levels is the use of the **Inbetween** command. Inbetween creates in-between drawings from the two extremes of a range of selected frames in the Level Strip."
+msgstr "中间画是一种专用于矢量动画层级的技术，它使用**中间画**命令。中间画根据层级条中一系列选定帧的两个极端创建中间绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1360
+msgid ""
+"When more than two frames are selected in the Level Strip, a vertical strip labeled **INBETWEEN** is displayed on the right of each frame. By clicking on it, all frames between the first and the last selected, will be "
+"overwritten by images interpolating from the first to the last drawings."
+msgstr "在层级条中选择超过两帧时，每帧右侧会显示一个标记为**中间画**的垂直条带。单击它时，从第一帧到最后一帧之间的所有帧都将被从第一个绘图到最后一个绘图插值生成的图像覆盖。"
+
+#: ../../source/drawing_animation_levels.rst:1364
+msgid "Duplicate a drawing; modify it; insert blank frames; select the frame range, then click the INBETWEEN vertical bar."
+msgstr "复制绘图；修改它；插入空白帧；选择帧范围，然后单击中间画垂直条带。"
+
+#: ../../source/drawing_animation_levels.rst:1366
+msgid ""
+"The interpolated drawings are created by taking into account the number of the strokes, and the strokes' direction. This means that the result will depend on the way drawings were made. For example if the first image is a "
+"single shape drawn clockwise, and the last is another shape, you will get different results depending on the way it was drawn, clockwise or counterclockwise."
+msgstr "插值绘图是通过考虑笔触数量和笔触方向创建的。这意味着结果将取决于绘图的方式。例如，如果第一个图像是按顺时针方向绘制的单个形状，而最后一个是另一个形状，则根据其绘制方式（顺时针或逆时针），您将得到不同的结果。"
+
+#: ../../source/drawing_animation_levels.rst:1368
+msgid ""
+"To obtain the best results with complex drawings, copy the drawing you want to interpolate from, and paste it in another frame of the level strip. Modify the pasted drawing without adding and deleting strokes, but only "
+"distorting and moving existing strokes (see  :ref:`Editing Drawings <editing_drawings>`  ). Select the whole range and then perform the interpolation."
+msgstr "要对复杂绘图获得最佳效果，请复制要从中插值的绘图，并将其粘贴到层级条的另一帧中。修改粘贴的绘图时不要添加或删除笔触，仅扭曲和移动现有笔触（参见 :ref:`编辑绘图 <editing_drawings>`）。然后选择整个范围并执行插值。"
+
+#: ../../source/drawing_animation_levels.rst:1370
+msgid "The interpolation acceleration can be controlled in the dialog that opens prior to performing in-betweening. Options are the following:"
+msgstr "插值加速度可以在执行中间画之前打开的对话框中进行控制。选项如下："
+
+#: ../../source/drawing_animation_levels.rst:1372
+msgid "**Linear**, for a constant interpolation."
+msgstr "**线性**，用于恒定插值。"
+
+#: ../../source/drawing_animation_levels.rst:1374
+msgid "**Ease In**, for an interpolation starting slowly, then getting faster."
+msgstr "**缓入**，用于插值开始时缓慢，然后逐渐加快。"
+
+#: ../../source/drawing_animation_levels.rst:1376
+msgid "**Ease Out**, for an interpolation starting quickly, then getting slower."
+msgstr "**缓出**，用于插值开始时快速，然后逐渐减慢。"
+
+#: ../../source/drawing_animation_levels.rst:1378
+msgid "**Ease In / Ease Out**, for an interpolation starting slowly, getting faster, then getting slower again."
+msgstr "**缓入/缓出**，用于插值开始时缓慢，逐渐加快，然后再逐渐减慢。"
+
+#: ../../source/drawing_animation_levels.rst:1380
+msgid "If you want the interpolation to happen slower or faster, you can insert frames, or cut them, and use the in-betweener again."
+msgstr "如果希望插值更慢或更快，可以插入帧或剪切帧，然后再次使用中间画生成器。"
+
+#: ../../source/drawing_animation_levels.rst:1382
+msgid "**To create in-between drawings:**"
+msgstr "**创建中间画：**"
+
+#: ../../source/drawing_animation_levels.rst:1384
+msgid "Select the level where you want to perform interpolation."
+msgstr "选择要执行插值的层级。"
+
+#: ../../source/drawing_animation_levels.rst:1386
+msgid ""
+"In the Level Strip select the frame range, from the drawing you want to interpolate from, to the one you want to interpolate to. If you want the interpolation to last more frames, make room for more drawings with the Edit  →  "
+"**Insert** command."
+msgstr "在层级条中选择帧范围，从要插值的起始绘图到结束绘图。如果希望插值持续更多帧，请使用编辑 → **插入**命令为更多绘图腾出空间。"
+
+#: ../../source/drawing_animation_levels.rst:1388
+msgid "Click the vertical strip labeled **INBETWEEN** displayed on the right of the frame range selection."
+msgstr "单击显示在帧范围选择右侧的标记为**中间画**的垂直条带。"
+
+#: ../../source/drawing_animation_levels.rst:1390
+msgid "Select the **Interpolation:** mode among **Linear**, **Ease In**, **Ease Out**, **Ease In / Esase Out**, and click the **Inbetween** button."
+msgstr "在**线性**、**缓入**、**缓出**、**缓入/缓出**中选择**插值：**模式，然后单击**中间画**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:1392
+msgid "**To optimize the in-betweening process:**"
+msgstr "**优化中间画生成过程：**"
+
+#: ../../source/drawing_animation_levels.rst:1394
+msgid "Create and paint the drawing you want to interpolate from."
+msgstr "创建并上色要从中插值的绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1398
+msgid "**Copy** and **Paste** it in another frame of the Level Strip, considering the number of in-between drawings you want to achieve."
+msgstr "**复制**并**粘贴**到层级条的另一帧中，同时考虑要实现的中间画数量。"
+
+#: ../../source/drawing_animation_levels.rst:1400
+msgid "**Duplicate** it and insert as many empty frames as the number of in-between drawings you want to achieve."
+msgstr "**复制**它，并插入与要实现的中间画数量相同的空帧。"
+
+#: ../../source/drawing_animation_levels.rst:1402
+msgid "Modify the pasted or duplicated drawing using the modifier tools, to create the final drawing of the interpolation."
+msgstr "使用修改工具修改粘贴或复制的绘图，以创建插值的最终绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1404
+msgid "Select the frame range from the drawing you want to interpolate from, to the one you want to interpolate to."
+msgstr "选择帧范围，从要插值的起始绘图到结束绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1406
+msgid "Click the vertical **INBETWEEN** strip displayed on the right of the frame range selection."
+msgstr "单击显示在帧范围选择右侧的**中间画**垂直条带。"
+
+#: ../../source/drawing_animation_levels.rst:1412
+msgid "Rotoscoping"
+msgstr "转描"
+
+#: ../../source/drawing_animation_levels.rst:1413
+msgid "Rotoscoping consists of tracing drawings taking a live clip as reference."
+msgstr "转描是指以实拍片段为参考进行描摹绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1417
+msgid "Using the rotoscoping technique to trace the movement of a hand."
+msgstr "使用转描技术描摹手的运动。"
+
+#: ../../source/drawing_animation_levels.rst:1419
+msgid ""
+"As you can import clips and image sequences in a scene, you can simply load them, and create an animation level by drawing in the Viewer, while the frames of the clips are visible underneath. See  :ref:`Using the File Browser "
+"<using_the_file_browser>`  ."
+msgstr "由于可以在场景中导入片段和图像序列，只需加载它们，然后在检视器中绘制以创建动画层级，同时片段帧在下方可见。参见 :ref:`使用文件浏览器 <using_the_file_browser>`。"
+
+#: ../../source/drawing_animation_levels.rst:1421
+msgid ""
+"The way to obtain best results is not trying to reproduce with fidelity the clip, but to use its frames just as a reference to better understand the movement or the transformation of the clip’s subject. In this way you can "
+"take advantage, for example, of a natural movement represented in the clip, without renouncing an expressive drawing style."
+msgstr "获得最佳效果的方法不是试图忠实地复制片段，而是将其帧仅用作参考，以更好地理解片段主体的运动或变换。这样，例如，您可以利用片段中表现的自然运动，同时不放弃富有表现力的绘图风格。"
+
+#: ../../source/drawing_animation_levels.rst:1423
+msgid "**To perform rotoscoping:**"
+msgstr "**执行转描：**"
+
+#: ../../source/drawing_animation_levels.rst:1425
+msgid "Load a video clip or image sequence in an Xsheet column (or Timeline layer)."
+msgstr "将视频片段或图像序列加载到摄影表列（或时间轴图层）中。"
+
+#: ../../source/drawing_animation_levels.rst:1427
+msgid ""
+"In the Xsheet/Timeline select a cell in a column on the right of the column (or in a layer on top of the layer) containing the clip you loaded. The image of the clip placed at the same frame of the cell you selected will be "
+"visible in the Viewer while you're drawing."
+msgstr "在摄影表/时间轴中，选择包含所加载片段的列右侧列（或图层上方图层）中的一个单元格。您所选单元格相同帧的片段图像将在您绘制时显示在检视器中。"
+
+#: ../../source/drawing_animation_levels.rst:1429
+msgid "Create a new animation level and use tools to trace the first drawing in the Viewer."
+msgstr "创建新的动画层级并使用工具在检视器中描摹第一张绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1431
+msgid "Move to subsequent frames, and trace the next drawings."
+msgstr "移动到后续帧，并描摹下一张绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1437
+msgid "Cloning Levels"
+msgstr "克隆层级"
+
+#: ../../source/drawing_animation_levels.rst:1438
+msgid ""
+"Sometimes it may be useful to create a clone of a level, or a part of it, in order to edit it without affecting the original one. For example you may want to create a new animation level starting from the drawings of another "
+"level, in order to have two sequences similar but not identical."
+msgstr "有时创建层级或其部分的克隆可能很有用，以便在不影响原始层级的情况下进行编辑。例如，您可能希望从另一个层级的绘图开始创建新的动画层级，以获得相似但不完全相同的两个序列。"
+
+#: ../../source/drawing_animation_levels.rst:1440
+msgid ""
+"The **Clone Cells** command allows you to create an independent copy of the selected cells, preserving the numbering order and assigning a new name to it. The **_clone** suffix appended to the name of the level is the default."
+msgstr "**克隆单元格**命令允许您创建所选单元格的独立副本，保留编号顺序并为其分配新名称。默认情况下，会在层级名称后附加 **_clone** 后缀。"
+
+#: ../../source/drawing_animation_levels.rst:1442
+msgid ""
+"The cloned level will contain *only drawings exposed in the selected cells*, even if the original level is composed of more drawings; they will be automatically exposed in the column on the right (or layer on top) of the "
+"selection, shifting the following columns/layers."
+msgstr "克隆的层级将*仅包含选定单元格中曝光的绘图*，即使原始层级由更多绘图组成；它们将自动曝光在选定区域右侧的列（或上方的图层）中，并移动后续列/图层。"
+
+#: ../../source/drawing_animation_levels.rst:1444
+msgid ""
+"The new level will be available in the Scene Cast as a new element; it will be saved in the **+drawings** or **+extras** default folder, according to the format of the original file, as soon as you save it with the **Save "
+"Level** command, or you save the scene."
+msgstr "新层级将在场景演员表中作为新元素提供；根据原始文件的格式，一旦使用**保存层级**命令保存它或保存场景，它将保存在**+drawings**或**+extras**默认文件夹中。"
+
+#: ../../source/drawing_animation_levels.rst:1446
+msgid ""
+"The cell selection can also spread over several columns/layers: in this case the same number of new columns/layers will be inserted to make room for the cloning result. If more than one level is selected, the same number of "
+"new levels will be created and it's not possible to assign a name to the cloned levels."
+msgstr "单元格选择也可以跨越多个列/图层：在这种情况下，将插入相同数量的新列/图层以为克隆结果腾出空间。如果选择了多个层级，将创建相同数量的新层级，并且无法为克隆的层级分配名称。"
+
+#: ../../source/drawing_animation_levels.rst:1448
+msgid "**To clone levels:**"
+msgstr "**克隆层级：**"
+
+#: ../../source/drawing_animation_levels.rst:1450
+msgid "Select the cells you want to clone."
+msgstr "选择要克隆的单元格。"
+
+#: ../../source/drawing_animation_levels.rst:1452
+msgid "Choose Cells  →  **Clone Cells**."
+msgstr "选择 单元格 → **克隆单元格**。"
+
+#: ../../source/drawing_animation_levels.rst:1454
+msgid "Enter a **Level Name:** and press **OK** to confirm."
+msgstr "输入**层级名称：**并按**确定**确认。"
+
+#: ../../source/drawing_animation_levels.rst:1460
+msgid "Using Onion Skin"
+msgstr "使用洋葱皮"
+
+#: ../../source/drawing_animation_levels.rst:1461
+msgid "If you want to view more than one level drawing at the same time in the Viewer as reference when you create drawings, or you want to check the animation, you can activate the Onion Skin mode."
+msgstr "如果希望在创建绘图时同时在检视器中查看多个层级绘图作为参考，或者想检查动画，可以激活洋葱皮模式。"
+
+#: ../../source/drawing_animation_levels.rst:1463
+msgid ""
+"The Onion Skin is available both in the Xsheet/Timeline and in the Level Strip, according to where the cursor showing the current frame is displayed, as the onion skin can be activated starting from the cursor and managed in "
+"the frame number column/bar."
+msgstr "洋葱皮在摄影表/时间轴和层级条中都可用，具体取决于显示当前帧光标的位置，因为洋葱皮可以从光标开始激活，并在帧数列/栏中管理。"
+
+#: ../../source/drawing_animation_levels.rst:1467
+msgid "A column animation displayed with the relative Onion Skin set for 6 previous frames, step two, and an absolute Onion Skin set at frame 35."
+msgstr "显示一个列动画，其中相对洋葱皮设置为前 6 帧，步长为 2，以及一个绝对洋葱皮设置在帧 35。"
+
+#: ../../source/drawing_animation_levels.rst:1469
+msgid "When a frame of the Level Strip is selected, the onion skin applies to the *current level* only, referring to the sequence of the full animation level as it was created."
+msgstr "当选择层级条中的一帧时，洋葱皮仅适用于*当前层级*，指的是完整动画层级创建时的序列。"
+
+#: ../../source/drawing_animation_levels.rst:1471
+msgid ""
+"When a cell of the Xsheet/Timeline is selected, the onion skin applies to the current level, according to how the drawing sequence is exposed in the scene, including movements and transformations performed thanks to the object "
+"animation (see  :ref:`Animating Objects <animating_objects>`  ), while the rest of the scene in the current frame will be visible as usual. If you want, you can also extend the onion skin to the whole content of the Xsheet/"
+"Timeline, to allow references to all of the animated or moving elements in the scene as well."
+msgstr ""
+"当选择摄影表/时间轴中的一个单元格时，洋葱皮将根据绘图序列在场景中的曝光方式应用于当前层级，包括通过对象动画执行的运动和变换（参见 :ref:`对象动画 <animating_objects>`），而当前帧中场景的其余部分将照常可见。如果需要，也可以将洋葱"
+"皮扩展到摄影表/时间轴的整个内容，以便同时参考场景中所有动画或移动的元素。"
+
+#: ../../source/drawing_animation_levels.rst:1473
+msgid ""
+"The *relative* Onion Skin mode displays frames in relation to the position of the current frame. For instance you can activate the frame previous to the current one, and every time you change the current frame, the previous "
+"frame will be displayed."
+msgstr "*相对*洋葱皮模式根据当前帧的位置显示帧。例如，可以激活当前帧的前一帧，每次更改当前帧时，都会显示前一帧。"
+
+#: ../../source/drawing_animation_levels.rst:1475
+msgid ""
+"The *fixed* Onion Skin mode displays the selected frame independently from the current frame. For instance you can activate frame 5, and every time you change the current frame, frame 5 will be displayed in Onion Skin mode."
+msgstr "*固定*洋葱皮模式独立于当前帧显示选定的帧。例如，可以激活帧 5，每次更改当前帧时，帧 5 都将以洋葱皮模式显示。"
+
+#: ../../source/drawing_animation_levels.rst:1477
+msgid ""
+"The way images are displayed in Onion Skin mode can be customized in the Preferences... → Onion Skin section. It's possible to define the **Paper Thickness**, to set an independent color correction for previous and following "
+"frames, and to **Display Lines Only** for Toonz Vector and Toonz Raster."
+msgstr "可以在首选项... → 洋葱皮部分自定义洋葱皮模式下图像的显示方式。可以定义**纸张厚度**，为前后帧设置独立的颜色校正，以及为 Toonz 矢量和 Toonz 栅格设置**仅显示线条**。"
+
+#: ../../source/drawing_animation_levels.rst:1479
+msgid "**To activate or deactivate frames in Relative Onion Skin mode:**"
+msgstr "**在相对洋葱皮模式下激活或停用帧：**"
+
+#: ../../source/drawing_animation_levels.rst:1483
+msgid "In the Xsheet, click the small romboid markers available to the left of the frames column (or above the frame bar in the Timeline). Click and drag automatically activates or deactivates a series of frames."
+msgstr "在摄影表中，单击帧列左侧（或时间轴帧栏上方）可用的菱形小标记。单击并拖动可自动激活或停用一系列帧。"
+
+#: ../../source/drawing_animation_levels.rst:1485
+msgid "In the Level Strip, click the small circular markers available to the left of the strip frames. Click and drag automatically activates or deactivates a series of frames."
+msgstr "在层级条中，单击条带帧左侧可用的圆形小标记。单击并拖动可自动激活或停用一系列帧。"
+
+#: ../../source/drawing_animation_levels.rst:1487
+msgid "**To activate or deactivate frames in Fixed Onion Skin mode:**"
+msgstr "**在固定洋葱皮模式下激活或停用帧：**"
+
+#: ../../source/drawing_animation_levels.rst:1491
+msgid "In the Xsheet, click the small ghosted romboid markers available to the very left of the frames column (or above the frame bar in the Timeline). Click and drag automatically activates or deactivates a series of frames."
+msgstr "在摄影表中，单击帧列最左侧（或时间轴帧栏上方）可用的半透明菱形小标记。单击并拖动可自动激活或停用一系列帧。"
+
+#: ../../source/drawing_animation_levels.rst:1493
+msgid "In the Level Strip, click the small ghosted circular markers available to the very left of the strip frames. Click and drag automatically activates or deactivates a series of frames."
+msgstr "在层级条中，单击条带帧最左侧可用的半透明圆形小标记。单击并拖动可自动激活或停用一系列帧。"
+
+#: ../../source/drawing_animation_levels.rst:1495
+msgid "**To Deactivate (or Activate again) the Onion Skin mode:**"
+msgstr "**停用（或再次激活）洋葱皮模式：**"
+
+#: ../../source/drawing_animation_levels.rst:1499
+msgid "Double-click over the big circle to the left of the current frame cursor. Double-click again to activate it back."
+msgstr "双击当前帧光标左侧的大圆圈。再次双击可重新激活它。"
+
+#: ../../source/drawing_animation_levels.rst:1501
+msgid "Right-click in the Viewer or in the frames column/bar of the Xsheet/Timeline, and choose **Deactivate Onion Skin** or **Activate Onion Skin** in the menu that opens."
+msgstr "右键单击检视器或摄影表/时间轴的帧列/栏，然后在打开的菜单中选择**停用洋葱皮**或**激活洋葱皮**。"
+
+#: ../../source/drawing_animation_levels.rst:1503
+msgid "The first time you activate Onion Skin mode by Right-clicking in the Viewer or the Xsheet/Timeline frames column/bar, a default relative onion skin mode activates, showing the previous three frames."
+msgstr "首次通过右键单击检视器或摄影表/时间轴帧列/栏激活洋葱皮模式时，会激活默认的相对洋葱皮模式，显示前三帧。"
+
+#: ../../source/drawing_animation_levels.rst:1505
+msgid "**To Extend the onion skin to the Whole Scene Content:**"
+msgstr "**将洋葱皮扩展到整个场景内容：**"
+
+#: ../../source/drawing_animation_levels.rst:1507
+msgid "Activate the onion skin in the Xsheet/Timeline."
+msgstr "在摄影表/时间轴中激活洋葱皮。"
+
+#: ../../source/drawing_animation_levels.rst:1509
+msgid "Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and choose **Extend Onion Skin to Scene** from the menu that opens."
+msgstr "右键单击检视器或摄影表/时间轴的帧列/栏，然后从打开的菜单中选择**将洋葱皮扩展到场景**。"
+
+#: ../../source/drawing_animation_levels.rst:1511
+msgid "**To Limit the onion skin to the Current Level:**"
+msgstr "**将洋葱皮限制在当前层级：**"
+
+#: ../../source/drawing_animation_levels.rst:1513
+msgid "Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and choose **Limit Onion Skin to Level** from the menu that opens."
+msgstr "右键单击检视器或摄影表/时间轴的帧列/栏，然后从打开的菜单中选择**将洋葱皮限制在层级**。"
+
+#: ../../source/drawing_animation_levels.rst:1515
+msgid "**To customize the way images are displayed in onion skin mode:**"
+msgstr "**自定义洋葱皮模式下图像的显示方式：**"
+
+#: ../../source/drawing_animation_levels.rst:1517
+msgid "Choose File  →  Preferences...  →  **Onion Skin**."
+msgstr "选择 文件 → 首选项... → **洋葱皮**。"
+
+#: ../../source/drawing_animation_levels.rst:1521
+msgid "Set a value for the **Paper Thickness** parameter; the lower the value, the more transparent the drawings displayed in Onion Skin mode will be."
+msgstr "为**纸张厚度**参数设置一个值；值越低，洋葱皮模式下显示的绘图就越透明。"
+
+#: ../../source/drawing_animation_levels.rst:1523
+msgid "Use the **Previous Frames Correction** to set a color for displaying previous frames."
+msgstr "使用**前帧校正**为显示前帧设置颜色。"
+
+#: ../../source/drawing_animation_levels.rst:1525
+msgid "Use the **Following Frames Correction** to set a color for displaying following frames."
+msgstr "使用**后帧校正**为显示后帧设置颜色。"
+
+#: ../../source/drawing_animation_levels.rst:1527
+msgid "Activate the **Display Lines Only** option to display Toonz Vector or Toonz Raster levels with lines only."
+msgstr "激活**仅显示线条**选项以仅显示线条形式的 Toonz 矢量或 Toonz 栅格层级。"
+
+#: ../../source/drawing_animation_levels.rst:1533
+msgid "Using Shift and Trace"
+msgstr "使用移动与描绘"
+
+#: ../../source/drawing_animation_levels.rst:1534
+msgid ""
+"The **Shift and Trace** function can help you in the creation of animated levels as if you were drawing on paper using a light table; in fact it allows you to use the previous and next key drawings as references, while you "
+"insert an inbetween or a break down."
+msgstr "**移动与描绘**功能可以帮助您创建动画层级，就像在拷贝台上在纸上绘图一样；实际上，它允许您使用前后关键张作为参考，同时插入中间画或中间张。"
+
+#: ../../source/drawing_animation_levels.rst:1536
+msgid ""
+"It's possible to temporary move and rotate the drawings you want to use as reference, to fit the position where you want to draw the inbetween. It's also possible to automatically set the position of the reference drawings "
+"creating and editing a path of action line."
+msgstr "可以临时移动和旋转要用作参考的绘图，以适合要绘制中间画的位置。也可以通过创建和编辑动作线路径来自动设置参考绘图的位置。"
+
+#: ../../source/drawing_animation_levels.rst:1538
+msgid "To better check the new drawing and the animation, you can toggle the Shift and Trace visualization on or off the Viewer."
+msgstr "为了更好地检查新绘图和动画，可以在检视器上切换移动与描绘可视化的开关。"
+
+#: ../../source/drawing_animation_levels.rst:1540
+msgid "**To enter the Shift and Trace view:**"
+msgstr "**进入移动与描绘视图：**"
+
+#: ../../source/drawing_animation_levels.rst:1542
+msgid "Position the frame cursor on the frame where you want to draw the inbetween drawing."
+msgstr "将帧光标定位在要绘制中间画的帧上。"
+
+#: ../../source/drawing_animation_levels.rst:1544
+msgid "Enable View  →  **Shift and Trace**; the previous and next drawings will be visualized."
+msgstr "启用 视图 → **移动与描绘**；前后绘图将被可视化显示。"
+
+#: ../../source/drawing_animation_levels.rst:1546
+msgid "**To Edit the Position of the reference drawings:**"
+msgstr "**编辑参考绘图的位置：**"
+
+#: ../../source/drawing_animation_levels.rst:1548 ../../source/drawing_animation_levels.rst:1568
+msgid "Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points."
+msgstr "将帧光标定位在要绘制中间画的位置，并在参考点之间勾勒动作线路径。"
+
+#: ../../source/drawing_animation_levels.rst:1550 ../../source/drawing_animation_levels.rst:1570
+msgid "Activate View  →  **Edit Shift**."
+msgstr "激活 视图 → **编辑移动**。"
+
+#: ../../source/drawing_animation_levels.rst:1552
+msgid "Click on the drawing you want to reposition in the Viewer, or use the **Previous Drawing** / **Following Drawing** options in the tool options bar; the related reference drawing bounding box will be displayed."
+msgstr "在检视器中单击要重新定位的绘图，或使用工具选项栏中的**前一绘图**/**后一绘图**选项；相关的参考绘图边界框将显示出来。"
+
+#: ../../source/drawing_animation_levels.rst:1556
+msgid "Click and drag *inside the bounding box* to **move** the reference drawing."
+msgstr "在边界框内单击并拖动以**移动**参考绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1558
+msgid "Click and drag *outside the bounding box* to **rotate** the reference drawing."
+msgstr "在边界框外单击并拖动以**旋转**参考绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1560
+msgid "Click and drag *the center handle* to change the **center of rotation**."
+msgstr "单击并拖动*中心手柄*以更改**旋转中心**。"
+
+#: ../../source/drawing_animation_levels.rst:1562
+msgid "Click and drag *any corner handle of the bounding box* to **scale** the reference drawing from its center."
+msgstr "单击并拖动*边界框的任何角点手柄*以从中心**缩放**参考绘图。"
+
+#: ../../source/drawing_animation_levels.rst:1564
+msgid "Repeat the same steps on the second reference drawing."
+msgstr "在第二个参考绘图上重复相同的步骤。"
+
+#: ../../source/drawing_animation_levels.rst:1566
+msgid "**To automatically Edit the Position of the reference drawings:**"
+msgstr "**自动编辑参考绘图的位置：**"
+
+#: ../../source/drawing_animation_levels.rst:1572
+msgid "Ctrl-click and drag to create a path, from the reference point in the first drawing, to the reference point in the second one. The starting and the ending points will be overlapped at the center of the path."
+msgstr "Ctrl-单击并拖动以创建一条路径，从第一个绘图中的参考点到第二个绘图中的参考点。起点和终点将重叠在路径中心。"
+
+#: ../../source/drawing_animation_levels.rst:1574
+msgid "Click and drag the handle along the path to change its shape; the reference drawings will move according to the handle position and rotate according to the path shape modification."
+msgstr "沿路径单击并拖动手柄以更改其形状；参考绘图将根据手柄位置移动，并根据路径形状修改旋转。"
+
+#: ../../source/drawing_animation_levels.rst:1576
+msgid "If needed, use the bounding box handles to fix the rotation of the reference drawing."
+msgstr "如果需要，使用边界框手柄来固定参考绘图的旋转。"
+
+#: ../../source/drawing_animation_levels.rst:1578
+msgid "Clicking and dragging one of the reference drawings will remove the path of action line."
+msgstr "单击并拖动其中一个参考绘图将移除动作线路径。"
+
+#: ../../source/drawing_animation_levels.rst:1580
+msgid "**To Toggle the Shift and Trace visualization:**"
+msgstr "**切换移动与描绘可视化：**"
+
+#: ../../source/drawing_animation_levels.rst:1582
+msgid "Activate View  →  **No Shift** to toggle the visualization of the reference drawings back to their original position."
+msgstr "激活 视图 → **无移动**以将参考绘图的可视化切换回其原始位置。"
+
+#: ../../source/drawing_animation_levels.rst:1584
+msgid "**To Reset the position of the reference drawings:**"
+msgstr "**重置参考绘图的位置：**"
+
+#: ../../source/drawing_animation_levels.rst:1586
+msgid "Choose the View  →  **Reset Shift** command."
+msgstr "选择 视图 → **重置移动**命令。"
+
+#: ../../source/drawing_animation_levels.rst:1588
+msgid "**To Reset the transformations of one of the reference drawings:**"
+msgstr "**重置其中一个参考绘图的变换：**"
+
+#: ../../source/drawing_animation_levels.rst:1590
+msgid "In the tool options bar click on either **Reset Previous** or **Reset Following** buttons."
+msgstr "在工具选项栏中单击**重置前一**或**重置后一**按钮。"
+
+#: ../../source/drawing_animation_levels.rst:1592
+msgid "**To Create an inbetween drawing using the Shift and Trace feature:**"
+msgstr "**使用移动与描绘功能创建中间画：**"
+
+#: ../../source/drawing_animation_levels.rst:1594
+msgid "Create the first key drawing."
+msgstr "创建第一张关键张。"
+
+#: ../../source/drawing_animation_levels.rst:1596
+msgid "Create the second key drawing."
+msgstr "创建第二张关键张。"
+
+#: ../../source/drawing_animation_levels.rst:1598
+msgid "Select the cell where you want to create the inbetween drawing."
+msgstr "选择要创建中间画的单元格。"
+
+#: ../../source/drawing_animation_levels.rst:1600
+msgid "Activate View  →  **Shift and Trace**."
+msgstr "激活 视图 → **移动与描绘**。"
+
+#: ../../source/drawing_animation_levels.rst:1602
+msgid "Sketch the path of action line beteween your reference points."
+msgstr "在参考点之间勾勒动作线路径。"
+
+#: ../../source/drawing_animation_levels.rst:1604
+msgid "Activate View  →  **Edit Shift** and edit the position of the reference drawings."
+msgstr "激活 视图 → **编辑移动**并编辑参考绘图的位置。"
+
+#: ../../source/drawing_animation_levels.rst:1606
+msgid "Create the inbetween drawing."
+msgstr "创建中间画。"

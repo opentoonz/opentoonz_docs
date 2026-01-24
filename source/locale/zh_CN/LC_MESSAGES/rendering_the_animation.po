@@ -1,0 +1,2482 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 15:19+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/rendering_the_animation.rst:4
+msgid "Previewing and Rendering"
+msgstr "预览和渲染"
+
+#: ../../source/rendering_the_animation.rst:5
+msgid ""
+"In order to generate the final animation, including all the transformations and "
+"effects applied to the scene elements, the scene has to be *rendered*."
+msgstr ""
+"为了生成最终的动画，包括应用于场景元素的所有变换和效果，必须对场景进行*渲染*。"
+
+#: ../../source/rendering_the_animation.rst:7
+msgid ""
+"It is also possible to *preview* the animation for performing checks and tune-"
+"ups before the full rendering process."
+msgstr "还可以在完整渲染过程之前预览动画以进行检查和调整。"
+
+#: ../../source/rendering_the_animation.rst:13
+msgid "Previewing the Animation"
+msgstr "预览动画"
+
+#: ../../source/rendering_the_animation.rst:14
+msgid ""
+"Animations can be previewed directly in the OpenToonz Viewer, including in the "
+"**Preview** mode all the Flipbook features, or by rendering a preview and "
+"visualizing it in a separate Flipbook window."
+msgstr ""
+"动画可以直接在OpenToonz查看器中预览，包括在**预览**模式下预览所有动画书功能，也"
+"可以通过渲染预览并在单独的动画书窗口中可视化来预览。"
+
+#: ../../source/rendering_the_animation.rst:16
+msgid ""
+"In both cases the Flipbook window tools can be used, and its appearance can be "
+"customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
+msgstr ""
+"在这两种情况下，都可以使用动画书窗口工具，并且可以自定义其外观（请参阅：ref:“使"
+"用动画书<Using_the_Flipbook>”）。"
+
+#: ../../source/rendering_the_animation.rst:18
+msgid ""
+"If the computer performance worsens during the preview process of raster "
+"animation levels, try activating the **Minimize Raster Memory Fragmentation** "
+"option in the Preferences...  →  General dialog section (see  :ref:`Optimizing "
+"the Memory Usage <optimizing_the_memory_usage>`  )."
+msgstr ""
+"如果在光栅动画级别的预览过程中计算机性能恶化，请尝试激活“首选项”中的**最小化光栅"
+"内存碎片**选项。..  →  常规对话框部分（请参阅：ref:“优化内存使用"
+"<Optimizing_the_Memory_usexuse>”）。"
+
+#: ../../source/rendering_the_animation.rst:24
+msgid "Previewing Frames in the Viewer"
+msgstr "在查看器中预览帧"
+
+#: ../../source/rendering_the_animation.rst:25
+msgid ""
+"In the Viewer it is possible to activate the Preview mode to render the current "
+"frame according to the current camera (see  :ref:`Using the Stage Schematic "
+"<using_the_stage_schematic>`  for s)."
+msgstr ""
+"在查看器中，可以激活预览模式，根据当前相机渲染当前帧（请参阅：ref:“使用舞台示意"
+"图<Using_the_Stage_Schematic>”for s）。"
+
+#: ../../source/rendering_the_animation.rst:27
+msgid ""
+"When changing the current frame, for example by using the playback buttons, it "
+"is possible to render other frames of the scene as well. The framebar displays "
+"already rendered frames in *dark grey*, frames that have yet to be rendered in "
+"*light red*, and the current frame, while being rendered in *light green* and "
+"when already rendered in *light grey*."
+msgstr ""
+"更改当前帧时，例如使用播放按钮，也可以渲染场景的其他帧。框架栏以*深灰色*显示已渲"
+"染的帧，以*浅红色*显示尚未渲染的帧以及当前帧，同时以*浅绿色*渲染，并且已以*浅灰"
+"色*渲染。"
+
+#: ../../source/rendering_the_animation.rst:29
+msgid ""
+"For the current camera it is also possible to define a **Sub-camera**, having "
+"an area smaller than the camera frame, inside which the preview will be "
+"rendered, and outside which the scene elements will be displayed as they are."
+msgstr ""
+"对于当前相机，还可以定义一个**子相机**，其面积小于相机帧，预览将在其内部渲染，场"
+"景元素将在其外部按原样显示。对于当前相机，还可以定义一个**子相机**，其面积小于相"
+"机帧，预览将在其内部渲染，场景元素将在其外部按原样显示。"
+
+#: ../../source/rendering_the_animation.rst:31
+msgid ""
+"To optimize the preview time, only the area visible in the Viewer will be "
+"rendered: if you zoom out the viewer the preview will resume to render the new "
+"visualized area."
+msgstr ""
+"为了优化预览时间，只会渲染查看器中可见的区域：如果缩小查看器，预览将恢复以渲染新"
+"的可视化区域。"
+
+#: ../../source/rendering_the_animation.rst:33
+msgid ""
+"When the **Preview mode** is activated, every change made in the scene will "
+"cause the preview of frames affected by the changes to be recomputed. If, for "
+"some reason, the preview fails during the update process, you can regenerate "
+"the preview, which will automatically delete previously previewed frames, and "
+"compute them again."
+msgstr ""
+"当**预览模式**被激活时，场景中的每一个更改都会导致重新计算受更改影响的帧的预览。"
+"如果由于某种原因，在更新过程中预览失败，您可以重新生成预览，这将自动删除以前预览"
+"的帧，并重新计算它们。"
+
+#: ../../source/rendering_the_animation.rst:35
+msgid "Once the frames are previewed, the results can be saved to disk."
+msgstr "预览帧后，可以将结果保存到磁盘。"
+
+#: ../../source/rendering_the_animation.rst:37
+msgid ""
+"The background colors of the preview window, including the colors of the camera "
+"background, the window background and the checkerboard visible when transparent "
+"images are rendered, are those defined for the Flipbook (see  :ref:`Using the "
+"Flipbook <using_the_flipbook>`  )."
+msgstr ""
+"预览窗口的背景颜色，包括渲染透明图像时可见的相机背景、窗口背景和棋盘的颜色，是为"
+"动画书定义的颜色（请参阅：ref:“使用动画书<Using_The_Flipbook>”）。"
+
+#: ../../source/rendering_the_animation.rst:39
+msgid ""
+"When previewing frames in the Viewer it is possible to display blank frames "
+"after each preview playback, when looping (see  :ref:`Using the Flipbook "
+"<using_the_flipbook>`  ), and to limit the range of frames to be considered "
+"when playing back the animation by using the **Playback Markers** (see  :ref:"
+"`Using the Playback Markers <using_the_playback_markers>`  )."
+msgstr ""
+"在查看器中预览帧时，可以在每次预览播放后、循环播放时显示空白帧（请参阅：ref:“使"
+"用动画书<Using_the_Flipbook>”），并使用**播放标记**限制播放动画时要考虑的帧范围"
+"（请参阅；ref:“使用播放标记<Using_the_playback_Markers>”）。"
+
+#: ../../source/rendering_the_animation.rst:41
+msgid ""
+"The Camera Box, the Field Guide, the Safe Area and the Guides can be shown or "
+"hidden in the Viewer during Preview as well (see  :ref:`Customizing the Viewer "
+"<customizing_the_work_area>`  )."
+msgstr ""
+"在预览期间，也可以在查看器中显示或隐藏相机盒、现场指南、安全区和指南（请参阅："
+"ref:`自定义查看器<Customizing_The_work_Area>`）。"
+
+#: ../../source/rendering_the_animation.rst:43
+msgid ""
+"If the **Apply Shrink to Main Viewer** option is activated in the Preview "
+"Settings dialog, the previewed frames may have a reduced resolution (see  :ref:"
+"`Using the Preview Window <using_the_preview_window>`  )."
+msgstr ""
+"如果在“预览设置”对话框中激活了**将收缩应用于主查看器**选项，则预览帧的分辨率可能"
+"会降低（请参阅：ref:“使用预览窗口<Using_the_Preview_Window>”）。"
+
+#: ../../source/rendering_the_animation.rst:45
+msgid "**To activate and deactivate the preview:**"
+msgstr "**要激活和停用预览，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:47
+msgid ""
+"Click the **Preview** button (|preview|) in the viewer title bar to activate or "
+"deactivate the *Preview mode*."
+msgstr "单击查看器标题栏中的**预览**按钮（|Preview|）以激活或停用*预览模式*。"
+
+#: ../../source/rendering_the_animation.rst:49
+msgid "**To define a preview Sub-camera for the current camera:**"
+msgstr "**要为当前摄影机定义预览子摄影机，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:51
+msgid ""
+"Activate the **Define Sub-camera** button (|define_preview_subcamera|) in the "
+"viewer bottom bar."
+msgstr "激活查看器底部栏中的**定义子摄像头**按钮（|Define_preview_subcamera|）。"
+
+#: ../../source/rendering_the_animation.rst:53
+msgid ""
+"Click and drag in the Viewer to define the box for the *Sub-camera area*; once "
+"the box is defined you can resize it by clicking and dragging its sides and "
+"corners, and move it by clicking and dragging inside of it."
+msgstr ""
+"在查看器中单击并拖动以定义*子相机区域*的框；定义好框后，您可以通过单击并拖动其边"
+"和角来调整其大小，并通过在框内单击并拖动来移动它。"
+
+#: ../../source/rendering_the_animation.rst:55
+msgid "**To hide the Sub-camera box:**"
+msgstr "**要隐藏“子摄影机”框，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:57
+msgid ""
+"Deactivate the **Define Sub-camera** button (|define_preview_subcamera|) in the "
+"Viewer bottom bar."
+msgstr "停用查看器底部栏中的**定义子摄像头**按钮（|Define_preview_subcamera|）。"
+
+#: ../../source/rendering_the_animation.rst:59
+msgid "**To activate and deactivate the Sub-camera preview:**"
+msgstr "**要激活和停用子摄影机预览，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:61
+msgid ""
+"Click the **Sub-camera Preview** button (|subcamera_preview|) in the Viewer "
+"title bar to activate or deactivate the *Sub-camera Preview mode*."
+msgstr ""
+"单击查看器标题栏中的**子相机预览**按钮（|subcamera_Preview|）以激活或停用*子相机"
+"预览模式*。"
+
+#: ../../source/rendering_the_animation.rst:63
+msgid "**To regenerate the preview:**"
+msgstr "**要重新生成预览，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:65
+msgid ""
+"Right-click in the viewer in *Preview mode* and choose from the menu that opens "
+"one of the following:"
+msgstr "在*预览模式*的查看器中右键单击，然后从打开以下菜单之一的菜单中选择："
+
+#: ../../source/rendering_the_animation.rst:67
+msgid ""
+"**Regenerate Frame Preview** to delete and recompute the current frame only."
+msgstr "**重新生成帧预览**以仅删除和重新计算当前帧。"
+
+#: ../../source/rendering_the_animation.rst:69
+msgid ""
+"**Regenerate Preview** to delete and recompute the whole previewed frame range."
+msgstr "**重新生成预览**以删除并重新计算整个预览帧范围。"
+
+#: ../../source/rendering_the_animation.rst:71
+msgid "**To save previewed frames:**"
+msgstr "**要保存预览的帧，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:73
+#: ../../source/rendering_the_animation.rst:243
+#: ../../source/rendering_the_animation.rst:255
+#: ../../source/rendering_the_animation.rst:281
+#: ../../source/rendering_the_animation.rst:295
+#: ../../source/rendering_the_animation.rst:313
+#: ../../source/rendering_the_animation.rst:351
+#: ../../source/rendering_the_animation.rst:363
+#: ../../source/rendering_the_animation.rst:686
+#: ../../source/rendering_the_animation.rst:696
+#: ../../source/rendering_the_animation.rst:781
+#: ../../source/rendering_the_animation.rst:805
+#: ../../source/rendering_the_animation.rst:813
+#: ../../source/rendering_the_animation.rst:821
+#: ../../source/rendering_the_animation.rst:829
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/rendering_the_animation.rst:75
+msgid "Click the **Save Images** button (|save|) in the Viewer bottom bar."
+msgstr "单击查看器底部栏中的**保存图像**按钮（|Save|）。"
+
+#: ../../source/rendering_the_animation.rst:77
+msgid ""
+"Right-click in the Viewer, and choose **Save Previewed Frames** from the menu "
+"that opens."
+msgstr "在查看器中右键单击，然后从打开的菜单中选择**保存预览帧**。"
+
+#: ../../source/rendering_the_animation.rst:79
+msgid "Use the Browser to choose a name and location for the file to be saved."
+msgstr "使用浏览器为要保存的文件选择名称和位置。"
+
+#: ../../source/rendering_the_animation.rst:81
+msgid ""
+"The saved files format will be the one currently defined in the **Output "
+"Settings** dialog, and the format options used at save time will also be the "
+"ones defined by using the **Options** button there (see  :ref:`Choosing the "
+"Output Settings <choosing_the_output_settings>`  )."
+msgstr ""
+"保存的文件格式将是当前在**输出设置**对话框中定义的格式，保存时使用的格式选项也将"
+"是使用那里的**选项**按钮定义的格式选项（请参阅：ref:`选择输出设置"
+"<Choosing_The_Output_Settings>`）。"
+
+#: ../../source/rendering_the_animation.rst:83
+msgid ""
+"The saved files *color depth* will always be 8 bit, regardless of the options "
+"chosen in the Output Settings or Preview Settings dialogs."
+msgstr ""
+"保存的文件格式将是当前在**输出设置**对话框中定义的格式，保存时使用的格式选项也将"
+"是使用那里的**选项**按钮定义的格式选项（请参阅：ref:`选择输出设置"
+"<Choosing_The_Output_Settings>`）。"
+
+#: ../../source/rendering_the_animation.rst:89
+msgid "Using the Preview Window"
+msgstr "使用预览窗口"
+
+#: ../../source/rendering_the_animation.rst:90
+msgid ""
+"The animation can be previewed in a separate window according to specific "
+"*Preview Settings*, that can be different from the *Output Settings*. In this "
+"way the preview can be configured so that it is faster to compute then the "
+"final output, for example because it uses a camera with a smaller resolution."
+msgstr ""
+"可以根据特定的“预览设置”在单独的窗口中预览动画，该设置可能与“输出设置”不同。通过"
+"这种方式，可以配置预览，使其计算速度比最终输出更快，例如，因为它使用了分辨率较小"
+"的相机。"
+
+#: ../../source/rendering_the_animation.rst:92
+msgid ""
+"It is possible to define the range of previewed frames both in the Preview "
+"Settings and by using the Playback Markers in the Xsheet/Timeline: any change "
+"made in one mode is reflected in the other one as well (see  :ref:`Using the "
+"Playback Markers <using_the_playback_markers>`  ). It is also possible to "
+"display blank frames after each preview playback, when looping."
+msgstr ""
+"可以在预览设置中定义预览帧的范围，也可以使用Xsheet/Timeline中的播放标记来定义："
+"在一种模式下所做的任何更改也会反映在另一种模式中（请参阅：ref:`使用播放标记"
+"<using_the_Playback_Markers>'）。循环时，也可以在每次预览播放后显示空白帧。"
+
+#: ../../source/rendering_the_animation.rst:94
+msgid ""
+"It is possible to activate the Preferences...  →  Preview  →  **Fit to "
+"Flipbook** option to ensure that the previewed images fit the size of the "
+"preview window, regardless their resolution."
+msgstr ""
+"可以激活首选项。..  →  预览→  **“适合动画书”**选项，以确保预览的图像适合预览窗口"
+"的大小，而不管其分辨率如何。"
+
+#: ../../source/rendering_the_animation.rst:96
+msgid ""
+"It is possible to clone the Preview window, or to automatically open as many "
+"Preview windows as needed by activating the Preferences...  →  Preview  →  "
+"**Display in a New Flipbook Window** option, for example to examine or compare "
+"specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook "
+"<using_the_flipbook>` )."
+msgstr ""
+"可以克隆预览窗口，或通过激活首选项自动打开所需数量的预览窗口。..  →  预览→  **"
+"在“新动画书窗口”**选项中显示，例如使用动画书工具检查或比较特定帧（请参阅："
+"ref:“使用动画书<using_the_Flipbook>”）。"
+
+#: ../../source/rendering_the_animation.rst:98
+msgid "|preview_settings_dialog|"
+msgstr "|预览设置对话框|"
+
+#: ../../source/rendering_the_animation.rst:100
+msgid ""
+"As when changes are made in the scene all the preview windows automatically "
+"update, it is possible to check the animation before and after some editing by "
+"freezing any of the Previews."
+msgstr ""
+"当在场景中进行更改时，所有预览窗口都会自动更新，因此可以通过冻结任何预览来检查编"
+"辑前后的动画。"
+
+#: ../../source/rendering_the_animation.rst:102
+msgid ""
+"The Preview window framebar displays rendered frames in *grey*, frames that "
+"have yet to be rendered in *light red*, and the current frame that is being "
+"rendered in *light green*."
+msgstr ""
+"“预览”窗口框架栏以*灰色*显示渲染帧，以*浅红色*显示尚未渲染的帧，并以*浅绿色*显示"
+"正在渲染的当前帧。"
+
+#: ../../source/rendering_the_animation.rst:104
+msgid ""
+"To optimize the preview time, only the area visible in the Preview window will "
+"be rendered: if you zoom out the Viewer the preview will resume to render the "
+"new visualized area."
+msgstr ""
+"为了优化预览时间，只会渲染预览窗口中可见的区域：如果缩小查看器，预览将恢复以渲染"
+"新的可视化区域。"
+
+#: ../../source/rendering_the_animation.rst:106
+msgid ""
+"The Preview Settings dialog lets you define the resolution, range, step and "
+"shrink of the preview frames. Settings are the following:"
+msgstr "“预览设置”对话框允许您定义预览帧的分辨率、范围、步长和收缩。设置如下："
+
+#: ../../source/rendering_the_animation.rst:108
+msgid ""
+"**Output Camera:** sets which camera, among the ones defined in the scene, has "
+"to be used to set the resolution and preview the animation."
+msgstr ""
+"**输出摄影机：**设置场景中定义的摄影机中必须用于设置分辨率和预览动画的摄影机。"
+
+#: ../../source/rendering_the_animation.rst:110
+msgid ""
+"**Frame Start:** and **End:** set the frame range of the scene to preview; by "
+"default these values refer to the whole scene length."
+msgstr ""
+"**帧开始：**和**结束：**设置要预览的场景的帧范围；默认情况下，这些值指的是整个场"
+"景的长度。"
+
+#: ../../source/rendering_the_animation.rst:112
+msgid ""
+"**Step:** sets the step for the rendered sequence; for example if it is two, "
+"one frame each two will be rendered."
+msgstr "**步骤：**设置渲染序列的步骤；例如，如果是两帧，则每两帧渲染一帧。"
+
+#: ../../source/rendering_the_animation.rst:114
+msgid ""
+"**Shrink:** sets the reduction value for the previewed sequence resolution; for "
+"example if it is 2, one pixel each two will be rendered, thus resulting in "
+"previewed frames having half of the original output camera resolution."
+msgstr ""
+"**收缩：**设置预览序列分辨率的缩减值；例如，如果它是2，则每两个像素将渲染一个像"
+"素，从而导致预览帧具有原始输出相机分辨率的一半。"
+
+#: ../../source/rendering_the_animation.rst:116
+msgid ""
+"**Apply Shrink to Main Viewer** if activated uses the shrink value set in the "
+"preview settings to the preview mode of the viewer as well (see  :ref:"
+"`Previewing Frames in the Viewer <previewing_frames_in_the_viewer>`  )."
+msgstr ""
+"**如果激活，将收缩应用于主查看器**也会将预览设置中设置的收缩值应用于查看器的预览"
+"模式（请参阅：ref:`查看器中的预览帧<Previewing_Frames_inthe_Viewer>`）。"
+
+#: ../../source/rendering_the_animation.rst:118
+msgid ""
+"**Resample Balance:** controls the resample that is used when images are scaled "
+"or rotated. In scenes where images are strongly resampled, for instance when "
+"their size changes dramatically, the final rendering may appear slightly out of "
+"focus. By balancing the resample you can give some sharpness back to the "
+"rendered frames."
+msgstr ""
+"**重采样平衡：**控制图像缩放或旋转时使用的重采样。在图像被强烈重采样的场景中，例"
+"如当它们的大小发生巨大变化时，最终渲染可能会出现轻微失焦。通过平衡重采样，您可以"
+"为渲染帧提供一些锐度。"
+
+#: ../../source/rendering_the_animation.rst:120
+msgid ""
+"There are several options to choose from. Originally *Toonz* provided three "
+"options: **Standard**, **Improved**, **High**. The higher the balance chosen, "
+"the longer the time needed for rendering the output. Additionally, *OpenToonz* "
+"provides several other standard resampling filters that could help improve the "
+"final results in a wider range of situations."
+msgstr ""
+"有几个选项可供选择。最初，*图恩斯*提供了三个选项：**标准**、**改进**、**高**。选"
+"择的平衡值越高，渲染输出所需的时间就越长。此外，*OpenToonz*还提供了其他几个标准"
+"重采样过滤器，可以在更广泛的情况下帮助改进最终结果。"
+
+#: ../../source/rendering_the_animation.rst:123
+msgid ""
+"**Channel Width:** sets the color depth for rendered images; choices are 8 bit "
+"or 16 bit per color channel."
+msgstr "**通道宽度：**设置渲染图像的颜色深度；每个颜色通道的选择是8位或16位。"
+
+#: ../../source/rendering_the_animation.rst:125
+msgid ""
+"**Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many "
+"processors will be assigned to the previewing process. Setting the value to All "
+"will generate a number of rendering threads equal to the number of processors, "
+"thus speeding up the previewing process. However it is suggested to use the "
+"Half or Single values if the scene to preview is very complex, because the "
+"higher the dedicated CPUs, the more the memory required to perform the preview."
+msgstr ""
+"**专用CPU：**设置，如果您的计算机有多个CPU，将为预览过程分配多少个处理器。将该值"
+"设置为“全部”将生成与处理器数量相等的渲染线程数量，从而加快预览过程。但是，如果要"
+"预览的场景非常复杂，建议使用半值或单值，因为专用CPU越高，执行预览所需的内存就越"
+"多。"
+
+#: ../../source/rendering_the_animation.rst:127
+msgid ""
+"**Render Tile:** allows the preview of very complex scenes whose frames will be "
+"computed in tiles that are automatically stitched to create the final preview: "
+"the smaller the size of the tile, the longer the preview process. Setting the "
+"value to Medium or Small will allow the preview of very high resolution outputs "
+"of very complex scenes, that otherwise may fail to be previewed; setting the "
+"value to None may prevent some artifacts that the tile stitching may generate. "
+"In most of the cases the Large value will do the work, because it is not slower "
+"than the None option, and yet is able to preview complex scenes."
+msgstr ""
+"**专用CPU：**设置，如果您的计算机有多个CPU，将为预览过程分配多少个处理器。将该值"
+"设置为“全部”将生成与处理器数量相等的渲染线程数量，从而加快预览过程。但是，如果要"
+"预览的场景非常复杂，建议使用半值或单值，因为专用CPU越高，执行预览所需的内存就越"
+"多。"
+
+#: ../../source/rendering_the_animation.rst:129
+msgid ""
+"**Use Sub-camera**, when activated, uses the sub-camera defined for the "
+"selected camera in the preview frames (see  :ref:`Previewing Frames in the "
+"Viewer <previewing_frames_in_the_viewer>`  )."
+msgstr ""
+"**使用子相机**，激活后，使用为预览帧中选定相机定义的子相机（请参阅：ref:`查看器"
+"中的预览帧<Previewing_frames_inthe_Viewer>`）。"
+
+#: ../../source/rendering_the_animation.rst:132
+msgid "**To set the scene preview settings:**"
+msgstr "**要设置场景预览设置，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:134
+msgid "Choose Render  →  **Preview Settings...**."
+msgstr "选择渲染→  **预览设置。..**."
+
+#: ../../source/rendering_the_animation.rst:136
+msgid "Set the options you want to use for the preview."
+msgstr "设置要用于预览的选项。"
+
+#: ../../source/rendering_the_animation.rst:138
+msgid "**To open the preview window:**"
+msgstr "**要打开预览窗口，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:140
+msgid "Choose Render  →  **Preview**."
+msgstr "选择渲染→  **预览**。"
+
+#: ../../source/rendering_the_animation.rst:142
+msgid "**To clone the preview window:**"
+msgstr "**要克隆预览窗口，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:144
+msgid ""
+"Right-click in the Flipbook window and choose **Clone Preview** from the menu "
+"that opens."
+msgstr "在“动画书”窗口中单击鼠标右键，然后从打开的菜单中选择**克隆预览**。"
+
+#: ../../source/rendering_the_animation.rst:146
+msgid "**To freeze the preview rendering:**"
+msgstr "**要冻结预览渲染，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:148
+msgid ""
+"Right-click in the Flipbook window and choose **Freeze Preview** from the menu "
+"that opens."
+msgstr "在“动画书”窗口中单击鼠标右键，然后从打开的菜单中选择**冻结预览**。"
+
+#: ../../source/rendering_the_animation.rst:150
+msgid "**To open a new Flipbook window every time you run a preview:**"
+msgstr "**要在每次运行预览时打开新的动画书窗口，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:152
+#: ../../source/rendering_the_animation.rst:158
+#: ../../source/rendering_the_animation.rst:164
+#: ../../source/rendering_the_animation.rst:289
+msgid "In File  →  Preferences...  →  Preview."
+msgstr "在文件中→  偏好。..  →  预览。"
+
+#: ../../source/rendering_the_animation.rst:154
+msgid "Activate the **Display in a New Flipbook Window** option."
+msgstr "激活**在新动画书窗口中显示**选项。"
+
+#: ../../source/rendering_the_animation.rst:156
+msgid "**To rewind the preview content automatically after playback:**"
+msgstr "**要在播放后自动倒带预览内容，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:160
+msgid "Activate the **Rewind After Playback** option."
+msgstr "激活**播放后回放**选项。"
+
+#: ../../source/rendering_the_animation.rst:162
+msgid "**To display blank frames after each preview playback when looping:**"
+msgstr "*要在循环时每次预览播放后显示空白帧，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:166
+#: ../../source/rendering_the_animation.rst:663
+#: ../../source/rendering_the_animation.rst:706
+#: ../../source/rendering_the_animation.rst:795
+msgid "Do any of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/rendering_the_animation.rst:168
+msgid ""
+"Use **Blank Frames** option to set how many blank frames you want to be "
+"displayed after each preview playback, when looping."
+msgstr "使用**空白帧**选项设置循环时每次预览播放后要显示多少空白帧。"
+
+#: ../../source/rendering_the_animation.rst:170
+msgid "Use **Blank Frames Color** option to set the color for the blank frames."
+msgstr "使用**空白帧颜色**选项设置空白帧的颜色。"
+
+#: ../../source/rendering_the_animation.rst:176
+msgid "Previewing and Caching Effect Nodes in the Schematic"
+msgstr "预览和缓存示意图中的效果节点"
+
+#: ../../source/rendering_the_animation.rst:177
+msgid ""
+"The Preview window can also be opened from the FX Schematic, to check the "
+"compositing result up to a specific node. The behaviour of the FX Schematic "
+"Preview window is the same as the standard one (see  :ref:`Using the Preview "
+"Window <using_the_preview_window>`  )."
+msgstr ""
+"预览窗口也可以从FX原理图打开，以检查特定节点的合成结果。FX原理图预览窗口的行为与"
+"标准窗口相同（参见：ref:“使用预览窗口<Using_The_Preview_window>”）。"
+
+#: ../../source/rendering_the_animation.rst:179
+msgid ""
+"In case the Sub-camera is used, the Preview window will fit the Sub-camera area "
+"(see  :ref:`Using the Preview Window <using_the_preview_window>`  )."
+msgstr ""
+"如果使用了子相机，预览窗口将适合子相机区域（请参阅：ref:“使用预览窗口"
+"<Using_the_Preview_window>”）。"
+
+#: ../../source/rendering_the_animation.rst:181
+msgid ""
+"It is also possible to cache the preview up to a specific node, so that the "
+"result of the compositing up to that node is stored in the computer memory and "
+"will be reused with no need to recompute it the next time the preview is run."
+msgstr ""
+"还可以将预览缓存到特定节点，以便将该节点的合成结果存储在计算机内存中，并在下次运"
+"行预览时重复使用，而无需重新计算。"
+
+#: ../../source/rendering_the_animation.rst:183
+msgid ""
+"Of course if something changes in the flow up to the cached node (for example "
+"if an object transformation or an effect parameter is changed), the cached "
+"preview will be discarded and will be stored again the next time the Preview is "
+"run."
+msgstr ""
+"当然，如果缓存节点的流中发生了变化（例如，如果对象变换或效果参数发生了变化），缓"
+"存的预览将被丢弃，并在下次运行预览时再次存储。"
+
+#: ../../source/rendering_the_animation.rst:185
+msgid "**To open a Preview window referring to an FX Schematic node:**"
+msgstr "**要打开参照FX原理图节点的预览窗口，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:187
+msgid "Right-click the node and choose **Preview** from the menu that opens."
+msgstr "右键单击节点，然后从打开的菜单中选择**预览**。"
+
+#: ../../source/rendering_the_animation.rst:189
+msgid "**To cache an effect node:**"
+msgstr "**要缓存效果节点，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:191
+msgid ""
+"Right-click the node and choose **Cache FX** from the menu that opens: the "
+"effect node will be displayed with a fold at the bottom right corner to "
+"highlight that it has been cached."
+msgstr ""
+"右键单击节点，然后从打开的菜单中选择**缓存FX**：效果节点将在右下角显示一个折叠，"
+"以突出显示它已被缓存。"
+
+#: ../../source/rendering_the_animation.rst:193
+msgid "**To uncache an effect node:**"
+msgstr "**要取消缓存效果节点，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:195
+msgid ""
+"Right-click the node and choose **Cache FX** from the menu that opens: the "
+"cached preview images will be discarded."
+msgstr "右键单击节点，然后从打开的菜单中选择**缓存FX**：缓存的预览图像将被丢弃。"
+
+#: ../../source/rendering_the_animation.rst:201
+msgid "Using the Flipbook"
+msgstr "使用动画书"
+
+#: ../../source/rendering_the_animation.rst:202
+msgid ""
+"The Flipbook is an image viewer where animation levels, images, clips and "
+"rendered frames can be displayed. In OpenToonz it is used to display the scene "
+"contents in the Viewer, including the Preview mode, and to display the "
+"previewed or rendered animations. It is also used to view files and levels from "
+"the browser or the Xsheet/Timeline, and to display the loaded Color Model."
+msgstr ""
+"动画书是一个图像查看器，可以显示动画级别、图像、剪辑和渲染帧。在OpenToonz中，它"
+"用于在查看器中显示场景内容，包括预览模式，并显示预览或渲染的动画。它还用于从浏览"
+"器或Xsheet/Timeline查看文件和级别，并显示加载的颜色模型。"
+
+#: ../../source/rendering_the_animation.rst:204
+msgid ""
+"The Safe Area is the only element that can be shown or hidden in the Flipbook "
+"when previewing the animation (see  :ref:`Customizing the Viewer "
+"<customizing_the_work_area>`  )."
+msgstr ""
+"安全区域是预览动画时动画书中唯一可以显示或隐藏的元素（请参阅：ref:`自定义查看器"
+"<Customizing_The_work_Area>`）。"
+
+#: ../../source/rendering_the_animation.rst:206
+msgid ""
+"The Flipbook title bar displays the information about the content on the left, "
+"and the zoom percentage on the right."
+msgstr "动画书标题栏左侧显示有关内容的信息，右侧显示缩放百分比。"
+
+#: ../../source/rendering_the_animation.rst:208
+msgid "At the bottom a customizable set of buttons is available:"
+msgstr "动画书标题栏左侧显示有关内容的信息，右侧显示缩放百分比。"
+
+#: ../../source/rendering_the_animation.rst:210
+msgid ""
+"The **Option** button (|option|) sets which buttons and elements have to be "
+"displayed in the bottom bar."
+msgstr "**选项**按钮（|Option|）设置必须在底部栏中显示的按钮和元素。"
+
+#: ../../source/rendering_the_animation.rst:212
+msgid ""
+"The **Save Images** button (|save|) opens a browser to save the flipbook "
+"content."
+msgstr "**保存图像**按钮（|Save|）打开浏览器以保存翻页书内容。"
+
+#: ../../source/rendering_the_animation.rst:214
+msgid ""
+"The **Snapshot** (|snapshot|) and **Compare to Snapshot** (|compare|) buttons "
+"allow the comparison between different frames of the flipbook content."
+msgstr ""
+"**快照**（|Snapshot |）和**与快照比较**（|Compare|）按钮允许对翻页书内容的不同帧"
+"进行比较。"
+
+#: ../../source/rendering_the_animation.rst:216
+msgid ""
+"The **Define Sub-camera** button (|define_preview_subcamera|) allows the "
+"definition of a region, smaller than the size of the loaded image sequence, "
+"that will limit the portion of the images that will be displayed in the "
+"Flipbook. It may prove useful to speed up the loading time and increase the "
+"playback speed, when you are only interested in a certain region of the full "
+"camera image."
+msgstr ""
+"**定义子相机**按钮（|Define_preview_subcamera|）允许定义一个小于加载图像序列大小"
+"的区域，该区域将限制动画书中显示的图像部分。当您只对全相机图像的某个区域感兴趣"
+"时，加快加载时间和提高播放速度可能会很有用。"
+
+#: ../../source/rendering_the_animation.rst:218
+msgid ""
+"The **Sub-camera Preview** button (|subcamera_preview|) lets you activate or "
+"deactivate the defined sub-camera region (see above)."
+msgstr ""
+"**子摄影机预览**按钮（|subcamera_Preview|）允许您激活或停用已定义的子摄影机区域"
+"（见上文）。"
+
+#: ../../source/rendering_the_animation.rst:220
+msgid ""
+"The **Background** color buttons sets a **White** (|preview_white|), **Black** "
+"(|preview_black|) or **Checkered** (|preview_checkboard|) background for "
+"transparent images."
+msgstr ""
+"**背景**颜色按钮为透明图像设置**白色**（|preview_White|）、**黑色**（|"
+"preview_Black|）或**格子**（|review_checkboard|）背景。"
+
+#: ../../source/rendering_the_animation.rst:222
+msgid ""
+"The framerate slider sets the number of frames per second to be displayed "
+"during playback."
+msgstr "帧率滑块设置播放期间每秒显示的帧数。"
+
+#: ../../source/rendering_the_animation.rst:224
+msgid ""
+"The playback buttons can be used to play the Flipbook content back and set the "
+"current frame."
+msgstr "播放按钮可用于播放动画书内容并设置当前帧。"
+
+#: ../../source/rendering_the_animation.rst:226
+msgid ""
+"The **Channel** buttons display the Red, Green, Blue and Alpha channels of the "
+"Flipbook content, both in *colors* and *grey-scale*."
+msgstr "**频道**按钮以*颜色*和*灰度*显示动画书内容的红色、绿色、蓝色和Alpha频道。"
+
+#: ../../source/rendering_the_animation.rst:228
+msgid ""
+"The **Histogram** button (|histogram|) opens a window displaying histograms "
+"mapping the amount of the darkest and lightest pixels in each channel."
+msgstr ""
+"**直方图**按钮（|直方图|）打开一个窗口，显示映射每个通道中最暗和最亮像素数量的直"
+"方图。"
+
+#: ../../source/rendering_the_animation.rst:230
+msgid ""
+"If the bottom bar is too short to display all the options, it can be scrolled "
+"by using arrow buttons available at its ends."
+msgstr "如果底部栏太短，无法显示所有选项，可以使用其末端的箭头按钮进行滚动。"
+
+#: ../../source/rendering_the_animation.rst:233
+msgid ""
+"In an opened Flipbook it is possible to load new contents both replacing the "
+"previous animation, or appending the new contents to it. When several Flipbooks "
+"are opened, their playback can be *linked*, so that moving the current frame or "
+"playing the contents back in one of them, automatically moves the current "
+"frames and plays the contents back in *all* the other Flipbooks as well."
+msgstr ""
+"在打开的动画书中，可以加载新内容，既可以替换之前的动画，也可以将新内容附加到其"
+"中。当打开多个动画书时，可以*链接*它们的播放，这样移动当前帧或在其中一个中播放内"
+"容，会自动移动当前帧，并在*所有*其他动画书中播放内容。"
+
+#: ../../source/rendering_the_animation.rst:235
+msgid ""
+"The colors displayed as background in the flipbook can also be customized so "
+"that they can better fit the color scheme of the production."
+msgstr "动画书中显示为背景的颜色也可以定制，以便更好地适应制作的配色方案。"
+
+#: ../../source/rendering_the_animation.rst:237
+msgid "**To open a Flipbook:**"
+msgstr "**要打开动画书，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:239
+msgid "Choose Windows  →  **Flipbook**."
+msgstr "选择Windows→  **动画书**。"
+
+#: ../../source/rendering_the_animation.rst:241
+msgid "**To load some contents into a Flipbook:**"
+msgstr "**要将某些内容加载到动画书中，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:245
+msgid ""
+"Right-click in the Flipbook and choose **Load Images** from the menu that "
+"opens, then use the Browser to retrieve the file you want to load."
+msgstr ""
+"在动画书中单击鼠标右键，从打开的菜单中选择**加载图像**，然后使用浏览器检索要加载"
+"的文件。"
+
+#: ../../source/rendering_the_animation.rst:247
+msgid ""
+"Drag and drop the file you want to load from the OpenToonz file browser to the "
+"Flipbook."
+msgstr "将要从OpenToonz文件浏览器加载的文件拖放到动画书中。"
+
+#: ../../source/rendering_the_animation.rst:249
+msgid "**To append some content to the Flipbook content:**"
+msgstr "**要将某些内容附加到动画书内容中，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:251
+msgid ""
+"Right-click in the Flipbook and choose **Append Images** from the menu that "
+"opens, then use the Browser to retrieve the file you want to append to the "
+"current content."
+msgstr ""
+"在动画书中单击鼠标右键，从打开的菜单中选择**附加图像**，然后使用浏览器检索要附加"
+"到当前内容的文件。"
+
+#: ../../source/rendering_the_animation.rst:253
+msgid "**To navigate the Flipbook content:**"
+msgstr "**要浏览动画书内容，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:257
+msgid ""
+"Use the zoom shortcut keys (by default **+** and **-** keys) to zoom in and "
+"zoom out at specific steps (e.g. 50%, 100%, 200%, etc.)."
+msgstr ""
+"使用缩放快捷键（默认情况下为**+**和**-**键）按特定步骤（例如50%、100%、200%等）"
+"放大和缩小。"
+
+#: ../../source/rendering_the_animation.rst:259
+msgid "Use the mouse wheel to zoom in and zoom out."
+msgstr "使用鼠标滚轮放大和缩小。"
+
+#: ../../source/rendering_the_animation.rst:261
+msgid "Click and drag to define an area you want to zoom to."
+msgstr "单击并拖动以定义要缩放的区域。"
+
+#: ../../source/rendering_the_animation.rst:263
+msgid ""
+"Use the Reset View shortcut (by default the **Alt + 0** key), or right-click in "
+"the Viewer and choose **Reset View** from the menu that opens, to display the "
+"Flipbook content at its actual size, and centered on the image center."
+msgstr ""
+"使用“重置视图”快捷方式（默认情况下为**Alt+0**键），或在查看器中单击鼠标右键，然"
+"后从打开的菜单中选择**重置视图**，以实际大小显示动画书内容，并居中显示在图像中"
+"心。"
+
+#: ../../source/rendering_the_animation.rst:265
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "单击鼠标中键并拖动可向任何方向滚动。"
+
+#: ../../source/rendering_the_animation.rst:267
+msgid "**To fit the size of the Flipbook window to its content:**"
+msgstr "**要使动画书窗口的大小与其内容相匹配，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:269
+msgid "Double-click the Flipbook title bar."
+msgstr "双击动画书标题栏。"
+
+#: ../../source/rendering_the_animation.rst:271
+msgid "**Windows only - to enter/exit the Flipbook full screen mode:**"
+msgstr "**仅限Windows-进入/退出动画书全屏模式：**"
+
+#: ../../source/rendering_the_animation.rst:273
+msgid ""
+"Right-click the Flipbook and choose **Full Screen Mode** / **Exit Full Screen "
+"Mode** from the menu that opens."
+msgstr "右键单击动画书，然后从打开的菜单中选择**全屏模式**/**退出全屏模式**。"
+
+#: ../../source/rendering_the_animation.rst:275
+msgid "**To customize the Flipbook bottom bar:**"
+msgstr "**要自定义动画书底部栏，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:277
+msgid ""
+"Use the **Option** button (|option|) to choose which buttons and elements have "
+"to be displayed: only selected items will be displayed."
+msgstr "使用**选项**按钮（|选项|）选择必须显示的按钮和元素：只显示选定的项目。"
+
+#: ../../source/rendering_the_animation.rst:279
+msgid "**To play the Flipbook content back:**"
+msgstr "**要播放动画书内容，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:283
+msgid "Use the **Play** button."
+msgstr "使用**播放**按钮。"
+
+#: ../../source/rendering_the_animation.rst:285
+#: ../../source/rendering_the_animation.rst:299
+msgid "Drag the frame bar cursor."
+msgstr "拖动框架栏光标。"
+
+#: ../../source/rendering_the_animation.rst:287
+msgid "**To rewind the Flipbook content automatically after playback:**"
+msgstr "**要在播放后自动倒带动画书内容，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:291
+msgid "Activate the **Rewind after Playback** option."
+msgstr "激活**播放后回放**选项。"
+
+#: ../../source/rendering_the_animation.rst:293
+msgid "**To set the current frame:**"
+msgstr "**要设置当前帧，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:297
+msgid "Use the playback buttons."
+msgstr "使用播放按钮。"
+
+#: ../../source/rendering_the_animation.rst:301
+msgid "Type in the frame bar field the number of the frame you want to view."
+msgstr "在框架栏字段中键入要查看的框架编号。"
+
+#: ../../source/rendering_the_animation.rst:303
+msgid "**To link the playback of all the open Flipbook windows:**"
+msgstr "**要链接所有打开的动画书窗口的播放，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:305
+msgid ""
+"Choose Play  →  **Link Flipbooks** to activate or deactivate the linked "
+"playback mode."
+msgstr "选择播放→  **链接动画书**以激活或停用链接播放模式。"
+
+#: ../../source/rendering_the_animation.rst:307
+msgid "**To set the playback frame rate:**"
+msgstr "**要设置播放帧率，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:309
+msgid ""
+"Use the frame rate slider; by default the framerate is the one set in the "
+"**Scene Settings** dialog (see  :ref:`Setting the Frame Rate "
+"<setting_the_frame_rate>`  )."
+msgstr ""
+"使用帧率滑块；默认情况下，帧速率是在**场景设置**对话框中设置的帧速率（请参阅："
+"ref:`设置帧速率<Setting_the_Frame_Rate>`）。"
+
+#: ../../source/rendering_the_animation.rst:311
+msgid "**To save the Flipbook content:**"
+msgstr "**要保存动画书内容，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:315
+msgid ""
+"Right-click in the Flipbook and choose **Save Images** from the menu that opens."
+msgstr "在动画书中单击鼠标右键，然后从打开的菜单中选择**保存图像**。"
+
+#: ../../source/rendering_the_animation.rst:317
+msgid "Click the **Save Images** button (|save|) in the Flipbook bottom bar."
+msgstr "单击动画书底部栏中的**保存图像**按钮（|Save|）。"
+
+#: ../../source/rendering_the_animation.rst:319
+msgid ""
+"Use the Browser to choose a name, a format and a location for the file to be "
+"saved."
+msgstr "使用浏览器为要保存的文件选择名称、格式和位置。"
+
+#: ../../source/rendering_the_animation.rst:321
+msgid "**To take a snapshot of a frame and compare it to another frame:**"
+msgstr "**要拍摄一帧的快照并将其与另一帧进行比较，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:323
+msgid ""
+"Select the frame you want to store and click the **Snapshot** button (|"
+"snapshot|) in the Flipbook bottom bar."
+msgstr "选择要存储的帧，然后单击动画书底部栏中的**快照**按钮（|Snapshot|）。"
+
+#: ../../source/rendering_the_animation.rst:325
+msgid ""
+"Move to a different frame, or load some different content, and click the "
+"**Compare to Snapshot** button (|compare|)."
+msgstr ""
+"移动到其他帧，或加载一些不同的内容，然后单击**与快照比较**按钮（|比较|）。"
+
+#: ../../source/rendering_the_animation.rst:327
+msgid ""
+"Click and drag the vertical or horizontal marker to display the taken snapshot "
+"under the current frame."
+msgstr "单击并拖动垂直或水平标记，以显示当前帧下拍摄的快照。"
+
+#: ../../source/rendering_the_animation.rst:329
+msgid ""
+"Click again the **Compare to Snapshot** button (|compare|) to exit the compare "
+"mode."
+msgstr "再次单击**与快照比较**按钮（|Compare|）退出比较模式。"
+
+#: ../../source/rendering_the_animation.rst:331
+msgid "**To Define the Loading Box:**"
+msgstr "**要定义装载箱，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:333
+msgid "Load in the Flipbook the sequence of images you want to visualize."
+msgstr "在动画书中加载要可视化的图像序列。"
+
+#: ../../source/rendering_the_animation.rst:335
+msgid ""
+"Activate the **Define Loading Box** button (|define_preview_subcamera|) in the "
+"Flipbook bottom bar."
+msgstr "激活动画书底部栏中的**定义加载框**按钮（|Define_preview_subcamera|）。"
+
+#: ../../source/rendering_the_animation.rst:337
+msgid ""
+"Click and drag in the image to Define the Loading Box; once the box is defined "
+"you can resize it by clicking and dragging its sides and corners, and move it "
+"by clicking and dragging inside it."
+msgstr ""
+"在图像中单击并拖动以定义加载框；定义框后，您可以通过单击并拖动其边和角来调整其大"
+"小，并通过在其中单击并拖动来移动它。"
+
+#: ../../source/rendering_the_animation.rst:339
+msgid "**To activate and deactivate the Loading Box:**"
+msgstr "**要激活和停用装载箱：**"
+
+#: ../../source/rendering_the_animation.rst:341
+msgid ""
+"Click the **Use Loading Box** button (|subcamera_preview|) in the Flipbook "
+"bottombar to activate or deactivate the loading box."
+msgstr ""
+"单击动画书底部栏中的**使用加载框**按钮（|subcamera_preview|）以激活或停用加载"
+"框。"
+
+#: ../../source/rendering_the_animation.rst:343
+msgid "**To set the Flipbook background color for transparent images:**"
+msgstr "**要设置透明图像的动画书背景颜色，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:345
+msgid ""
+"Click the **White Background** (|preview_white|), **Black Background** (|"
+"preview_black|) or **Checkered Background** (|preview_checkboard|) buttons in "
+"the Flipbook bottom bar to activate/deactivate the desired background color."
+msgstr ""
+"单击动画书底部栏中的**白色背景**（|preview_White|）、**黑色背景**（|| "
+"preview_Black|）或**格子背景**（| preview_checkboard|）按钮，以激活/停用所需的背"
+"景颜色。"
+
+#: ../../source/rendering_the_animation.rst:347
+msgid ""
+"In the Preview window and when the Viewer is in *Preview mode* the background "
+"color will be visible behind the *Camera BG Color* (see below )."
+msgstr ""
+"在预览窗口中，当查看器处于*预览模式*时，背景颜色将显示在*相机BG颜色*后面（见下"
+"文）。"
+
+#: ../../source/rendering_the_animation.rst:349
+msgid "**To set the image channels to be displayed:**"
+msgstr "**要设置要显示的图像通道，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:353
+msgid ""
+"Click the top section of the **Red**, **Green** and **Blue** buttons in the "
+"Flipbook bottom bar to display, or hide, the related *image channel* in colors."
+msgstr ""
+"单击动画书底部栏中**红色**、**绿色**和**蓝色**按钮的顶部，以彩色显示或隐藏相关的"
+"*图像通道*。"
+
+#: ../../source/rendering_the_animation.rst:355
+msgid ""
+"Click *the bottom* section of the **Red**, **Green** and **Blue** buttons in "
+"the Flipbook bottom bar to display, or hide, the related *image channel* in "
+"grey-scale."
+msgstr ""
+"单击动画书底部栏中**红色**、**绿色**和**蓝色**按钮的*底部*部分，以灰度显示或隐藏"
+"相关的*图像通道*。"
+
+#: ../../source/rendering_the_animation.rst:357
+msgid ""
+"Click the **Alpha Channel** button in the Flipbook bottom bar to display, or "
+"hide, the image alpha channel."
+msgstr "单击动画书底部栏中的**Alpha通道**按钮以显示或隐藏图像Alpha通道。"
+
+#: ../../source/rendering_the_animation.rst:359
+msgid "When no channel button is activated the full image is displayed."
+msgstr "当没有激活频道按钮时，将显示完整图像。"
+
+#: ../../source/rendering_the_animation.rst:361
+msgid "**To display the Histograms of the Flipbook content:**"
+msgstr "**要显示动画书内容的直方图，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:365
+msgid "Click the **Histogram** button (|histogram|) in the Flipbook bottom bar."
+msgstr "单击动画书底部栏中的**直方图**按钮（|直方图|）。"
+
+#: ../../source/rendering_the_animation.rst:367
+msgid ""
+"Right-click the Flipbook content and choose **Show Histogram** from the menu "
+"that opens."
+msgstr "右键单击动画书内容，然后从打开的菜单中选择**显示直方图**。"
+
+#: ../../source/rendering_the_animation.rst:369
+msgid "Choose the channel for which you want to see the histogram."
+msgstr "选择要查看直方图的通道。"
+
+#: ../../source/rendering_the_animation.rst:371
+msgid "**To define the previewed images background color:**"
+msgstr "**要定义预览图像的背景颜色，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:373
+#: ../../source/rendering_the_animation.rst:385
+msgid "Choose Xsheet  →  **Scene Settings...**"
+msgstr "选择Xsheet→  **场景设置。..**"
+
+#: ../../source/rendering_the_animation.rst:375
+msgid "Set the **Camera BG Color** by doing one of the following:"
+msgstr "通过执行以下操作之一设置**相机BG颜色**："
+
+#: ../../source/rendering_the_animation.rst:377
+msgid "Set the **Red**, **Green** and **Blue** values."
+msgstr "设置**红色**、**绿色**和**蓝色**值。"
+
+#: ../../source/rendering_the_animation.rst:379
+msgid ""
+"Click the *color thumbnail* and use the Style Editor to edit it (see  :ref:"
+"`Plain Colors <plain_colors>`  )."
+msgstr ""
+"单击*颜色缩略图*，然后使用样式编辑器对其进行编辑（请参阅：ref:`Plain "
+"Colors<Plain_Colors>`）。"
+
+#: ../../source/rendering_the_animation.rst:381
+msgid ""
+"This color is relevant only in the Preview window and when the Viewer is in "
+"*Preview mode*."
+msgstr "此颜色仅在预览窗口中以及查看器处于*预览模式*时相关。"
+
+#: ../../source/rendering_the_animation.rst:383
+msgid "**To define the Flipbook checkerboard colors:**"
+msgstr "**要定义动画书棋盘颜色，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:387
+msgid ""
+"Set the **Checkerboard Color 1** and **Color 2** by doing one of the following:"
+msgstr "通过执行以下操作之一设置**棋盘颜色1**和**颜色2**："
+
+#: ../../source/rendering_the_animation.rst:389
+msgid "Set the Red, Green and Blue values."
+msgstr "设置红色、绿色和蓝色值。"
+
+#: ../../source/rendering_the_animation.rst:391
+msgid ""
+"Click the color thumbnail and use the Style Editor to edit it (see  :ref:`Plain "
+"Colors <plain_colors>`  )."
+msgstr ""
+"单击颜色缩略图，然后使用样式编辑器对其进行编辑（请参阅：ref:`纯色"
+"<Plain_Colors>`）。"
+
+#: ../../source/rendering_the_animation.rst:397
+msgid "Using the Playback Markers"
+msgstr "使用播放标记"
+
+#: ../../source/rendering_the_animation.rst:398
+msgid ""
+"Two markers, **Playback Start Marker** and **Playback End Marker**, are "
+"available in the frame column of the Xsheet (and the frame row of the Timeline) "
+"to define the playback range."
+msgstr ""
+"Xsheet的帧列（和时间线的帧行）中有两个标记，**播放开始标记**和**播放结束标记**，"
+"用于定义播放范围。"
+
+#: ../../source/rendering_the_animation.rst:400
+msgid ""
+"The user can manually set the playback markers to define the *starting* and "
+"*ending* frames to be considered when playing back the animation, or leave them "
+"unset, so OpenToonz automatically defines a playback range that includes all of "
+"the Xsheet/Timeline contents."
+msgstr ""
+"用户可以手动设置播放标记，以定义播放动画时要考虑的*开始*和*结束*帧，也可以不设置"
+"它们，因此OpenToonz会自动定义一个包含所有Xsheet/Timeline内容的播放范围。"
+
+#: ../../source/rendering_the_animation.rst:402
+msgid ""
+"When the playback markers are activated, the frame range in the **Preview "
+"Settings...** dialog changes accordingly (see  :ref:`Using the Preview Window "
+"<using_the_preview_window>`  )."
+msgstr ""
+"当播放标记被激活时，**预览设置中的帧范围。..**对话框会相应地更改（请参阅："
+"ref:“使用预览窗口<Using_the_Preview_Window>”）。"
+
+#: ../../source/rendering_the_animation.rst:404
+msgid "**To set a playback range:**"
+msgstr "**要设置播放范围，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:406
+msgid "Set the starting frame by doing one of the following:"
+msgstr "通过执行以下操作之一设置起始帧："
+
+#: ../../source/rendering_the_animation.rst:408
+msgid "Drag the **Playback Start Marker** to the desired frame."
+msgstr "将**播放开始标记**拖动到所需的帧。"
+
+#: ../../source/rendering_the_animation.rst:410
+msgid ""
+"Right-click on the desired frame in the frame column/bar and select **Set Start "
+"Marker** from the menu that shows."
+msgstr "在帧列/栏中右键单击所需的帧，然后从显示的菜单中选择**设置开始标记**。"
+
+#: ../../source/rendering_the_animation.rst:412
+msgid "Set the ending frame by doing one of the following:"
+msgstr "通过执行以下操作之一设置结束帧："
+
+#: ../../source/rendering_the_animation.rst:414
+msgid "Drag the **Playback End Marker** to the desired frame."
+msgstr "将**播放结束标记**拖动到所需的帧。"
+
+#: ../../source/rendering_the_animation.rst:416
+msgid ""
+"Right-click on the desired frame in the frame column and select **Set Stop "
+"Marker** from the menu that shows."
+msgstr "右键单击帧列中所需的帧，然后从显示的菜单中选择**设置停止标记**。"
+
+#: ../../source/rendering_the_animation.rst:418
+msgid ""
+"**To set the playback range to match the duration of a block of contiguous "
+"exposed cells:**"
+msgstr "**要设置播放范围以匹配连续暴露单元格块的持续时间，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:420
+msgid ""
+"In the Xsheet/Timeline, select an exposed cell from the desired column/layer."
+msgstr "在Xsheet/Timeline中，从所需的列/层中选择一个暴露的单元格。"
+
+#: ../../source/rendering_the_animation.rst:422
+msgid ""
+"Right-click on the desired frame in the frame column and select **Set Auto "
+"Markers** from the menu that shows."
+msgstr "在帧列中的所需帧上单击鼠标右键，然后从显示的菜单中选择**设置自动标记**。"
+
+#: ../../source/rendering_the_animation.rst:424
+msgid ""
+"There must be an exposed cell in that column/layer at that frame for the **Set "
+"Auto Markers** option to be available."
+msgstr "在该帧的该列/层中必须有一个暴露的单元格，才能使用**设置自动标记**选项。"
+
+#: ../../source/rendering_the_animation.rst:426
+msgid ""
+"No matter to what block of contiguous exposed cells the selected cell belongs "
+"to, this function will take into account the frame in which the user performed "
+"the right click operation to set the markers."
+msgstr ""
+"无论所选单元格属于哪个连续的暴露单元格块，此函数都会考虑用户执行右键单击操作以设"
+"置标记的帧。"
+
+#: ../../source/rendering_the_animation.rst:428
+msgid "**To set a single-frame playback range:**"
+msgstr "**要设置单帧播放范围，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:430
+msgid ""
+"Right-click on the desired frame in the frame column/bar and select **Preview "
+"This** from the menu that shows."
+msgstr "在框架列/栏中右键单击所需的框架，然后从显示的菜单中选择**预览此**。"
+
+#: ../../source/rendering_the_animation.rst:432
+msgid "**To unset the playback markers:**"
+msgstr "**要取消设置播放标记，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:434
+msgid ""
+"Right click on the frame column and select **Remove Markers** from the menu "
+"that shows."
+msgstr "右键单击框架列，然后从显示的菜单中选择**删除标记**。"
+
+#: ../../source/rendering_the_animation.rst:436
+msgid "When deactivated, playback markers turn *grey*."
+msgstr "停用后，播放标记将变为*灰色*。"
+
+#: ../../source/rendering_the_animation.rst:441
+msgid "Rendering the Animation"
+msgstr "渲染动画"
+
+#: ../../source/rendering_the_animation.rst:442
+msgid ""
+"Final animations can be rendered directly by loading the related scene, or in "
+"batch mode. In both cases the rendering properties are defined in the Output "
+"Settings dialog."
+msgstr ""
+"最终动画可以通过加载相关场景或以批处理模式直接渲染。在这两种情况下，渲染属性都"
+"在“输出设置”对话框中定义。"
+
+#: ../../source/rendering_the_animation.rst:444
+msgid ""
+"Information about the scene name and frame number can be included when needed "
+"in rendered frames by activating the **Show Info in Rendered Frames** option in "
+"the Preferences...  →  General dialog section."
+msgstr ""
+"通过激活“首选项”中的“在渲染帧中显示信息”**选项，可以在需要时将有关场景名称和帧号"
+"的信息包含在渲染帧内。..  →  常规对话框se"
+
+#: ../../source/rendering_the_animation.rst:450
+msgid "Choosing the Output Settings"
+msgstr "选择输出设置"
+
+#: ../../source/rendering_the_animation.rst:451
+msgid ""
+"The Output Settings dialog lets you define the file format, location and "
+"properties for the final rendering. Settings are the following:"
+msgstr "“输出设置”对话框允许您定义最终渲染的文件格式、位置和属性。设置如下："
+
+#: ../../source/rendering_the_animation.rst:453
+msgid "|output_settings_dialog|"
+msgstr "|输出设置对话框|"
+
+#: ../../source/rendering_the_animation.rst:458
+msgid "Camera Settings"
+msgstr "相机设置"
+
+#: ../../source/rendering_the_animation.rst:460
+msgid ""
+"**Output Camera:** sets which camera, among the ones defined in the scene, has "
+"to be used to render the animation."
+msgstr "**输出摄影机：**设置场景中定义的摄影机中必须用于渲染动画的摄影机。"
+
+#: ../../source/rendering_the_animation.rst:462
+msgid ""
+"**Frame Size** sets the frame size of the current camera, also available in the "
+"Xsheet  →  **Camera Settings...** dialog (see  :ref:`Defining Camera Settings "
+"<defining_camera_settings>`  )."
+msgstr ""
+"**Frame Size**设置当前相机的帧大小，也可在Xsheet中使用→  **相机设置。..**对话框"
+"（请参阅：ref:`定义相机设置<Defining_Camera_Settings>`）。"
+
+#: ../../source/rendering_the_animation.rst:464
+msgid ""
+"**Frame Start:** and **End:** set the frame range of the scene to render; by "
+"default these values refer to the whole scene length."
+msgstr ""
+"**帧开始：**和**结束：**设置要渲染的场景的帧范围；默认情况下，这些值指的是整个场"
+"景的长度。"
+
+#: ../../source/rendering_the_animation.rst:466
+msgid ""
+"**Step:** sets the step for the rendered sequence; for example if it is 2, one "
+"frame each two will be rendered."
+msgstr "**步骤：**设置渲染序列的步骤；例如，如果它是2，则每两帧渲染一帧。"
+
+#: ../../source/rendering_the_animation.rst:468
+msgid ""
+"**Shrink:** sets a reduction value for the defined render resolution; for "
+"example if it is 2, one pixel each two will be rendered, thus resulting in "
+"frames having half of the original output camera resolution."
+msgstr ""
+"**收缩：**为定义的渲染分辨率设置缩减值；例如，如果它是2，则每两个像素将渲染一个"
+"像素，从而导致帧具有原始输出相机分辨率的一半。"
+
+#: ../../source/rendering_the_animation.rst:473
+msgid "File Settings"
+msgstr "文件设置"
+
+#: ../../source/rendering_the_animation.rst:475
+msgid ""
+"**Save in:** is for setting the location where the output is saved; the "
+"location can be set by typing or by using the Browser button."
+msgstr ""
+"**保存位置：**用于设置输出保存的位置；可以通过键入或使用浏览器按钮来设置位置。"
+
+#: ../../source/rendering_the_animation.rst:477
+msgid ""
+"If in the Browser you choose any default folder of the active project, in the "
+"path field the full path will be replaced by the related default folder alias "
+"(see  :ref:`Project Default Folders <project_default_folders>`  )."
+msgstr ""
+"**保存位置：**用于设置输出保存的位置；可以通过键入或使用浏览器按钮来设置位置。"
+
+#: ../../source/rendering_the_animation.rst:479
+msgid ""
+"**Name:** is the name you want to assign to the output file; by default it's "
+"the name of the scene."
+msgstr "**名称：**是您要分配给输出文件的名称；默认情况下，它是场景的名称。"
+
+#: ../../source/rendering_the_animation.rst:481
+msgid ""
+"In case the chosen file format produces image sequences, the base name will be "
+"assigned to all rendered frames, that will be identified by a progressive four-"
+"digits number written between the *base name* and the *file extension*, e.g. "
+"``animation.0001.tif`` , ``animation.0002.tif`` , etc. These file sequences "
+"will be displayed in the OpenToonz File Browser with a double dot before the "
+"file extension, e.g. ``animation..tif`` , and treated as a single animation "
+"level when loaded back into OpenToonz."
+msgstr ""
+"如果所选文件格式产生图像序列，则将为所有渲染帧分配基本名称，该名称将由写在*基本"
+"名称*和*文件扩展名*之间的递增四位数标识，例如“animation.0001."
+"tif”、“animation-0002.tif”等。这些文件序列将在OpenToonz文件浏览器中显示，文件扩"
+"展名前有一个双点，例如“”动画。.tif，并在加载回OpenToonz时被视为单个动画级别。"
+
+#: ../../source/rendering_the_animation.rst:483
+msgid ""
+"**File Format** is the format for the output; natively supported formats are "
+"the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, "
+"TGA, TIF and TIFF."
+msgstr ""
+"**文件格式**是输出的格式；本机支持的格式如下：3GP、AVI、BMP、GIF、JPG、MOV、"
+"NOL、PNG、RGB、SGI、Spritesheet、TGA、TIF和TIFF。"
+
+#: ../../source/rendering_the_animation.rst:485
+msgid ""
+"OpenToonz supports the 3GP and MOV formats by using the 32-bit version of "
+"QuickTime."
+msgstr "OpenToonz通过使用32位版本的QuickTime支持3GP和MOV格式。"
+
+#: ../../source/rendering_the_animation.rst:487
+msgid ""
+"To save in other popular video formats, like MP4 and WebM, OpenToonz uses "
+"FFmpeg (a free software project that produces libraries and programs for "
+"handling multimedia data). Once FFmpeg is installed in the system, and "
+"configured to work with OpenToonz, MP4 and WebM will be listed along the other "
+"standard output file formats. For detailed instructions on how to install and "
+"configure FFmpeg, please see  :ref:`Using FFmpeg with OpenToonz "
+"<using_ffmpeg_with_opentoonz>`  ."
+msgstr ""
+"为了保存为其他流行的视频格式，如MP4和WebM，OpenToonz使用FFmpeg（一个生成处理多媒"
+"体数据的库和程序的自由软件项目）。一旦FFmpeg安装在系统中，并配置为与OpenToonz一"
+"起使用，MP4和WebM将与其他标准输出文件格式一起列出。有关如何安装和配置FFmpeg的详"
+"细说明，请参阅：ref:`在OpenToonz中使用FFmpeg<Using _FFmpeg_with_OpenToonz>`。"
+
+#: ../../source/rendering_the_animation.rst:489
+msgid ""
+"Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output "
+"image sequences."
+msgstr "除了3GP、AVI、GIF、MOV、MP4和WebM，所有其他格式都将输出图像序列。"
+
+#: ../../source/rendering_the_animation.rst:491
+msgid ""
+"**Options** button, opens a dialog to set specific properties related to the "
+"chosen file format, such as codecs for video files, color depth for TIF images, "
+"etc."
+msgstr ""
+"**选项**按钮，打开一个对话框，设置与所选文件格式相关的特定属性，如视频文件的编解"
+"码器、TIF图像的颜色深度等。"
+
+#: ../../source/rendering_the_animation.rst:493
+msgid ""
+"**Resample Balance:** controls the resample that is used when images are scaled "
+"or rotated. In scenes where images are strongly resampled, for instance when "
+"their size changes dramatically, the final rendering may appear slightly out of "
+"focus. By chosing a different resampling algorithm you can give some sharpness "
+"back to the rendered frames."
+msgstr ""
+"**重采样平衡：**控制图像缩放或旋转时使用的重采样。在图像被强烈重采样的场景中，例"
+"如当它们的大小发生巨大变化时，最终渲染可能会出现轻微失焦。通过选择不同的重采样算"
+"法，您可以为渲染帧提供一些锐度。"
+
+#: ../../source/rendering_the_animation.rst:495
+msgid ""
+"There are several options to choose from. Originally Toonz provided only three "
+"options: **Standard**, **Improved**, and **High**. The higher the balance "
+"chosen, the longer the time needed for rendering the output. Currently "
+"OpenToonz also provides several other standard resampling options that could "
+"help improve the final results in a wider range of situations. These include: "
+"**Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, "
+"**Hann window**, **Hamming window**, **Lanczos window**, **Gaussian "
+"convolution**, **Closest Pixel** and **Bilinear**."
+msgstr ""
+"有几个选项可供选择。最初，Toonz只提供了三个选项：**标准**、**改进**和**高**。选"
+"择的平衡值越高，渲染输出所需的时间就越长。目前，OpenToonz还提供了其他几种标准重"
+"采样选项，可以在更广泛的情况下帮助改善最终结果。这些包括：**三角滤波器**、"
+"**Mitchell Netravali滤波器**、***三次卷积**、**Hann窗**、**汉明窗**、**Lanczos窗"
+"**、***高斯卷积**、***最近像素**和**双线性**。"
+
+#: ../../source/rendering_the_animation.rst:497
+msgid ""
+"**Channel Width:** sets the color depth for rendered images; choices are **8 "
+"bit** and **16 bit** per color channel. If using the 16 bit channel width, be "
+"sure to select an output file format supporting it, for example the **TIF** "
+"format with the **64(RGBA)** option activated."
+msgstr ""
+"**通道宽度：**设置渲染图像的颜色深度；每个颜色通道可选择**8位**和**16位**。如果"
+"使用16位通道宽度，请务必选择支持它的输出文件格式，例如激活**64（RGBA）**选项的"
+"**TIF**格式。"
+
+#: ../../source/rendering_the_animation.rst:499
+msgid ""
+"**Dedicated CPUs:** sets, in case your computer has multiple CPUs, how many "
+"processor threads will be assigned to the rendering process. Setting the value "
+"to **All** will generate a number of rendering threads equal to the number of "
+"processors, thus speeding up the rendering process. However in systems with "
+"limited RAM resources, it's suggested to use the **Half** or **Single** options "
+"if the scene to render is very complex, because the higher the dedicated CPUs, "
+"the more RAM will be required to perform the rendering, leading to potentially "
+"longer rendering times or system instability."
+msgstr ""
+"**专用CPU：**设置，如果您的计算机有多个CPU，将为渲染进程分配多少处理器线程。将该"
+"值设置为**All**将生成与处理器数量相等的渲染线程数量，从而加快渲染过程。然而，在"
+"RAM资源有限的系统中，如果要渲染的场景非常复杂，建议使用**半**或**单**选项，因为"
+"专用CPU越高，执行渲染所需的RAM就越多，这可能会导致渲染时间延长或系统不稳定。"
+
+#: ../../source/rendering_the_animation.rst:501
+msgid ""
+"**Render Tile:** allows the rendering of complex scenes, by dividing each frame "
+"in a certain number of *tiles*, which are individually rendered and finally "
+"stitched together to create the final output frame: the smaller the size of the "
+"tiles, the longer the rendering will take but the less RAM will require. "
+"Setting the value to **Medium** or **Small** will allow the rendering of very "
+"high resolution outputs of very complex scenes, that otherwise may fail to be "
+"rendered; setting the value to **None** may prevent some artifacts that the "
+"tile stitching may generate. In most cases the **Large** value will do the "
+"work, because it's not slower than the **None** option, and yet is able to "
+"render complex scenes."
+msgstr ""
+"**渲染图块：**允许渲染复杂场景，通过将每一帧划分为一定数量的*图块*，这些图块被单"
+"独渲染并最终拼接在一起以创建最终输出帧：图块的大小越小，渲染所需的时间就越长，但"
+"所需的RAM就越少。将该值设置为**中**或**小**将允许渲染非常复杂场景的非常高分辨率"
+"的输出，否则可能无法渲染；将该值设置为**无**可以防止拼贴拼接可能产生的一些伪影。"
+"在大多数情况下，**Large**值会起作用，因为它不会比**None**选项慢，但能够渲染复杂"
+"的场景。"
+
+#: ../../source/rendering_the_animation.rst:506
+msgid "Other Settings"
+msgstr "其他设置"
+
+#: ../../source/rendering_the_animation.rst:508
+msgid ""
+"**Add Clapperboard** allows to add a Clapperboard. A clapperboard is a static "
+"image intended to display information of the scene. It will be added before the "
+"rendered frames, in order to record and convey information to subsequent phases "
+"of the pipeline."
+msgstr ""
+"**Add Clapper board**允许添加一个Clapper board。拍板是一种静态图像，用于显示场景"
+"的信息。它将被添加到渲染帧之前，以便记录信息并将其传达给管道的后续阶段。"
+
+#: ../../source/rendering_the_animation.rst:510
+msgid ""
+"For this option to be enabled you must first choose any video file format from "
+"the **File Format** dropdown menu (i.e. 3GP, AVI, MOV, MP4 or WebM)."
+msgstr ""
+"要启用此选项，您必须首先从**文件格式**下拉菜单中选择任何视频文件格式（即3GP、"
+"AVI、MOV、MP4或WebM）。"
+
+#: ../../source/rendering_the_animation.rst:512
+msgid ""
+"**Edit Clapperboard...** button, opens a dialog for designing the clapperboard "
+"and setting its properties. For detailed information on using the Clapperboard "
+"feature, please see the  :ref:`Using The Clapperboard "
+"<using_the_clapperboard>`  section."
+msgstr ""
+"**编辑隔板。..**按钮，打开一个对话框，用于设计拍手板并设置其属性。有关使用"
+"Clapper board功能的详细信息，请参阅：ref:“使用Clapper "
+"board<using_the_clairboard>”部分。"
+
+#: ../../source/rendering_the_animation.rst:514
+msgid ""
+"**Gamma:** performs a gamma correction on rendered images before writing them "
+"to a file; the value you specify can include decimal fractions."
+msgstr ""
+"**Gamma：**在将渲染图像写入文件之前，对其执行伽马校正；您指定的值可以包含小数。"
+
+#: ../../source/rendering_the_animation.rst:516
+msgid ""
+"**Dominant Field:** allows you to render two images per frame, then keeping "
+"only *odd* lines from one image, and *even* lines from the other to compose a "
+"final frame. This process is called *interlacing*."
+msgstr ""
+"**主场：**允许您每帧渲染两个图像，然后只保留一个图像的*奇数*行，另一个图像中的*"
+"偶数*行，以组成最后一帧。这个过程被称为*交错*。"
+
+#: ../../source/rendering_the_animation.rst:518
+msgid ""
+"*Interlaced* images are useful when experiencing a strobe effect due to a fast "
+"camera or object movement, as all movement interpolation will be effectively "
+"doubled (having one *odd-lines image* and one *even-lines image*, instead of "
+"just one full *progresive* frame), thus becoming smoother."
+msgstr ""
+"*当因相机或物体快速移动而产生频闪效果时，交错*图像非常有用，因为所有运动插值都将"
+"有效地加倍（具有一个*奇数行图像*和一个*偶数行图像*，而不仅仅是一个完整的*渐进*"
+"帧），从而变得更平滑。"
+
+#: ../../source/rendering_the_animation.rst:520
+msgid ""
+"Field rendering is only relevant for scenes that are intended for video output. "
+"Options are **None** (for rendering *progresive* frames), **Even (PAL)** and "
+"**Odd (NTSC)** (for chosing which of the rendered *interlaced* fields is to be "
+"shown in first place). Usually you should choose it according to the video "
+"standard you are outputting to."
+msgstr ""
+"场渲染仅适用于用于视频输出的场景。选项有**无**（用于渲染*逐行扫描*帧）、**偶数"
+"（PAL）**和**奇数（NTSC）**（用于选择首先显示哪个渲染的*隔行扫描*场）。通常，您"
+"应该根据要输出的视频标准来选择它。"
+
+#: ../../source/rendering_the_animation.rst:522
+msgid ""
+"**Frame Rate**: is the frame rate of the scene, also available in the Xsheet  "
+"→  **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate "
+"<setting_the_frame_rate>`  )."
+msgstr ""
+"**帧率**：是场景的帧率，也可在Xsheet中获得→  **场景设置。..**对话框（请参阅："
+"ref:`设置帧率<Setting_the_Frame_Rate>`）。"
+
+#: ../../source/rendering_the_animation.rst:524
+msgid ""
+"**Stretch from FPS:  To:** changes the timing of the Xsheet when outputting "
+"files; in this way you can output a number of frames that is independent from "
+"the frame rate set in the scene settings."
+msgstr ""
+"**从FPS拉伸：到：**更改输出文件时Xsheet的时间；通过这种方式，您可以输出与场景设"
+"置中设置的帧速率无关的多个帧。"
+
+#: ../../source/rendering_the_animation.rst:526
+msgid ""
+"For example, if you are working at 25 fps, a 150 frames Xsheet will produce 6 "
+"seconds of animation. If you need to transfer the frame rate to 30 fps using "
+"the same Xsheet, the animation will last 5 seconds (150 frames divided by 30 "
+"fps is equal to 5 seconds), and consequently it will be a little bit faster. "
+"Stretching from 25 to 30 fps, the output will include an increased number of "
+"frames to retain the original time length, and the rendered frames will be 180 "
+"(6 seconds multiplied by 30 fps is equal to 180 frames)."
+msgstr ""
+"例如，如果你以每秒25帧的速度工作，150帧的Xsheet将产生6秒的动画。如果需要使用相同"
+"的Xsheet将帧率转换为30fps，动画将持续5秒（150帧除以30fps等于5秒），因此速度会快"
+"一点。从25 fps扩展到30 fps，输出将包括更多的帧数以保持原始时间长度，渲染的帧数将"
+"为180（6秒乘以30 fps等于180帧）。"
+
+#: ../../source/rendering_the_animation.rst:528
+msgid ""
+"When going from a higher frame rate to a lower one, some level drawings will "
+"not be used because the number of output frames decreases. When doing the "
+"contrary, some level drawings will be repeated because the number of output "
+"frames is higher. Interpolations for object movements and special effects "
+"variations will be re-computed according to the final frame rate, in order to "
+"keep all the interpolations as smooth as possible."
+msgstr ""
+"当从较高的帧速率切换到较低的帧速率时，由于输出帧数减少，某些级别的图形将不会被使"
+"用。当执行相反的操作时，由于输出帧数较高，某些级别的绘图将被重复。对象运动和特效"
+"变化的插值将根据最终帧率重新计算，以保持所有插值尽可能平滑。"
+
+#: ../../source/rendering_the_animation.rst:530
+msgid ""
+"When the field rendering is used (by using the **Dominant Field** option) and "
+"the **Stretch** feature is set for passing from a lower frame rate to a higher "
+"one, drawings and images *will be interlaced* as well, to create newly added "
+"frames."
+msgstr ""
+"当使用场渲染（通过使用**主导场**选项）并且将**拉伸**功能设置为从较低的帧速率传递"
+"到较高的帧速率时，图形和图像*也将交错*，以创建新添加的帧。"
+
+#: ../../source/rendering_the_animation.rst:532
+msgid ""
+"The **Particles** effect may have unexpected results when the scene is "
+"stretched to a higher FPS value, as the effect requires the original timing "
+"information."
+msgstr ""
+"当场景拉伸到更高的FPS值时，**粒子**效果可能会产生意想不到的结果，因为该效果需要"
+"原始计时信息。"
+
+#: ../../source/rendering_the_animation.rst:534
+msgid ""
+"**Multiple Rendering:** creates automatically for a single scene several output "
+"files based on the Xsheet columns (or Timeline layers) content, and according "
+"to the FX Schematic. Options are **None**, **FX Schematic Flows** and **FX "
+"Schematic Terminal Nodes** (see  :ref:`Creating Multiple Renderings "
+"<creating_multiple_renderings>`  )."
+msgstr ""
+"**多重渲染：**根据Xsheet列（或时间线层）内容和FX原理图，为单个场景自动创建多个输"
+"出文件。选项有**无**、**FX原理图流**和**FX原理图示终端节点**（请参阅：ref:“创建"
+"多个渲染<Creating_Multiple_rendering>”）。"
+
+#: ../../source/rendering_the_animation.rst:536
+msgid ""
+"**Do stereoscopy** activates the stereoscopic 3D output of the scenes. Each "
+"frame will be rendered from two different camera view creating two sequences of "
+"files, one for each view. The suffixes **_l** (left) and **_r** (right) will be "
+"used to identify sequences."
+msgstr ""
+"**Do stereoscopy**激活场景的立体3D输出。每一帧将从两个不同的相机视图渲染，创建两"
+"个文件序列，每个视图一个。后缀**_l**（左）和**_r**（右）将用于标识序列。"
+
+#: ../../source/rendering_the_animation.rst:538
+msgid "**Camera Shift:** sets the distance between the two camera views."
+msgstr "**相机偏移：**设置两个相机视图之间的距离。"
+
+#: ../../source/rendering_the_animation.rst:540
+msgid ""
+"For working properly at least some elements of the scene must have **Z-Depth** "
+"values other than 0 in their positioning. OpenToonz uses these values and the "
+"**Camera Shift** parameter for rendering the stereoscopic effect."
+msgstr ""
+"为了正常工作，场景中至少有一些元素的位置必须具有**Z-Depth**值，而不是0。"
+"OpenToonz使用这些值和**Camera Shift**参数来渲染立体效果。"
+
+#: ../../source/rendering_the_animation.rst:542
+msgid ""
+"**Render** button, starts rendering the scene using the current render settings."
+msgstr "**“渲染**”按钮，使用当前渲染设置开始渲染场景。"
+
+#: ../../source/rendering_the_animation.rst:544
+msgid "**To set the scene output settings:**"
+msgstr "**要设置场景输出设置，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:546
+msgid "Choose Render  →  ***Output Settings...**"
+msgstr "选择渲染→  ***输出设置。..**"
+
+#: ../../source/rendering_the_animation.rst:548
+msgid "Set the options you want to use for the final rendering."
+msgstr "设置要用于最终渲染的选项。"
+
+#: ../../source/rendering_the_animation.rst:554
+msgid "Using The Clapperboard"
+msgstr "使用隔板"
+
+#: ../../source/rendering_the_animation.rst:555
+msgid ""
+"A clapperboard is a static image intended to display information of the scene. "
+"It will be added before the rendered frames, in order to record and convey "
+"information to subsequent phases of the pipeline."
+msgstr ""
+"拍板是一种静态图像，用于显示场景的信息。它将被添加到渲染帧之前，以便记录信息并将"
+"其传达给管道的后续阶段。"
+
+#: ../../source/rendering_the_animation.rst:557
+msgid "|clapperboard|"
+msgstr "|拍手板|"
+
+#: ../../source/rendering_the_animation.rst:559
+msgid ""
+"The clapperboard consists of board *items*. At the bottom-right of the "
+"Clapperboard Settings dialog there is a list of all the clapperboard items, "
+"which can be layered by moving them **Up** or **Down** in the list by using the "
+"appropriate buttons. Items can also be created or deleted by using the **Add** "
+"or **Remove** buttons."
+msgstr ""
+"拍手板由板*个项目*组成。在“拍板设置”对话框的右下角，有一个所有拍板项目的列表，可"
+"以通过使用相应的按钮在列表中移动**向上**或**向下**来对其进行分层。还可以使用**添"
+"加**或**删除**按钮创建或删除项目。"
+
+#: ../../source/rendering_the_animation.rst:563
+msgid ""
+"Settings for the *currently selected* item are displayed above the items list, "
+"at the top-right of the Clapperboard Settings dialog. Each item has an "
+"information **Type:**. Most of them will automatically retrieve the "
+"correspondent data from the current scene or the system, such as: scene "
+"**Duration**, **Scene location**, **Current date**, etc. Other types, such as "
+"**Text** or **Image** allow to input user defined data to be displayed in the "
+"Clapperboard."
+msgstr ""
+"*当前选定*项目的设置显示在“隔板设置”对话框右上角的项目列表上方。每个项目都有一个"
+"信息**类型：**。它们中的大多数会自动从当前场景或系统中检索相应的数据，例如：场景"
+"**持续时间**、**场景位置**、**当前日期**等。其他类型，如**文本**或**图像**，允许"
+"输入用户定义的数据以在Clapper板中显示。"
+
+#: ../../source/rendering_the_animation.rst:567
+msgid ""
+"The settings can be saved as a *Preset* in order to be reused later, using the "
+"**Save as Preset** and **Load Preset** buttons. They can also be stored in the "
+"project's default settings by using the File  →  **Save Default Settings** "
+"command."
+msgstr ""
+"使用**另存为预设**和**加载预设**按钮，可以将设置另存为*预设*，以便以后重复使用。"
+"也可以使用文件将它们存储在项目的默认设置中→  **保存默认设置**命令。"
+
+#: ../../source/rendering_the_animation.rst:570
+msgid ""
+"WARNING: Adding the Clapperboard will make the scene file to lose compatibility "
+"with older versions of OpenToonz. Setting the **Duration:** back to 0 will "
+"remove the clapperboard data from the scene, so that compatibility can be "
+"restored."
+msgstr ""
+"警告：添加Clapperboard将使场景文件与旧版本的OpenToonz失去兼容性。将**持续时间："
+"**设置回0将从场景中删除拍手板数据，以便恢复兼容性。"
+
+#: ../../source/rendering_the_animation.rst:572
+msgid "**To Add a Clapperboard:**"
+msgstr "**要添加隔板，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:574
+msgid "Open the Render  →  Output Settings... dialog."
+msgstr "打开渲染→  输出设置。..对话框。"
+
+#: ../../source/rendering_the_animation.rst:576
+msgid "Select any *movie* type file format (3GP, AVI, MOV, MP4 or WebM)."
+msgstr "选择任何*电影*类型的文件格式（3GP、AVI、MOV、MP4或WebM）。"
+
+#: ../../source/rendering_the_animation.rst:578
+msgid "In the More Settings section, enable the **Add Clapperboard** option."
+msgstr "在“更多设置”部分，启用**添加隔板**选项。"
+
+#: ../../source/rendering_the_animation.rst:580
+#: ../../source/rendering_the_animation.rst:596
+msgid ""
+"Click **Edit Clapperboard...** button. The **Clapperboard Settings** dialog "
+"opens."
+msgstr "单击**编辑隔板。..**按钮。**隔板设置**对话框打开。"
+
+#: ../../source/rendering_the_animation.rst:582
+msgid "Set the **Duration (frames):** option to any value greater than 0."
+msgstr "将**持续时间（帧）：**选项设置为大于0的任何值。"
+
+#: ../../source/rendering_the_animation.rst:584
+msgid ""
+"Setting the duration to 0 frames will remove the clapperboard data from the "
+"scene when it's saved."
+msgstr "将持续时间设置为0帧将在保存时从场景中删除拍板数据。"
+
+#: ../../source/rendering_the_animation.rst:586
+msgid "**To temporarily deactivate the Clapperboard:**"
+msgstr "**要暂时停用Clapperboard，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:588
+#: ../../source/rendering_the_animation.rst:594
+msgid "Open the Render  →  Output Settings...  →  More dialog section."
+msgstr "打开渲染→  输出设置。..  →  更多对话部分。"
+
+#: ../../source/rendering_the_animation.rst:590
+msgid "Disable the **Add Clapperboard** option."
+msgstr "禁用**添加隔板**选项。"
+
+#: ../../source/rendering_the_animation.rst:592
+msgid "**To Delete the Clapperboard:**"
+msgstr "**要删除隔板：**"
+
+#: ../../source/rendering_the_animation.rst:598
+msgid "Set the **Duration (frames):** option value to 0."
+msgstr "将**持续时间（帧）：**选项值设置为0。"
+
+#: ../../source/rendering_the_animation.rst:600
+msgid "Save the scene."
+msgstr "保存场景"
+
+#: ../../source/rendering_the_animation.rst:606
+msgid "Creating Multiple Renderings"
+msgstr "创建多个渲染"
+
+#: ../../source/rendering_the_animation.rst:607
+msgid ""
+"With **Multiple Rendering:** it's possible to render automatically, from a "
+"single scene, several output files based on the Xsheet columns (or Timeline "
+"layers) content and according to the FX Schematic. Options are **None**, **FX "
+"Schematic Flows** and **FX Schematic Terminal Nodes**."
+msgstr ""
+"使用**多重渲染：**可以根据Xsheet列（或时间线层）内容和FX原理图从单个场景自动渲染"
+"多个输出文件。选项有**无**、**FX原理图流程**和**FX原理图示终端节点**。"
+
+#: ../../source/rendering_the_animation.rst:609
+msgid ""
+"**Flows**: creates as many outputs as the **flows connecting the column nodes "
+"to the Xsheet node**. Any effect nodes with multiple input ports met along the "
+"flow (such as Matte effects) will be ignored."
+msgstr ""
+"**流**：创建与将列节点连接到Xsheet节点**的**流一样多的输出。沿流遇到的具有多个输"
+"入端口的任何效果节点（如无光泽效果）都将被忽略。"
+
+#: ../../source/rendering_the_animation.rst:611
+msgid ""
+"**Terminal Nodes**: creates as many outputs as the **number of nodes linked to "
+"the Xsheet node**; all the columns and effects linked to each of these nodes "
+"will be taken into account for the rendering."
+msgstr ""
+"**终端节点**：创建与链接到Xsheet节点**的节点数量一样多的输出；渲染时将考虑链接到"
+"每个节点的所有列和效果。"
+
+#: ../../source/rendering_the_animation.rst:613
+msgid ""
+"The names of the different output files are automatically generated in order to "
+"avoid any name conflict between file names. In particular they are built by "
+"appending to the *output file name*: the **column name**, then the **column "
+"ID** (as can be read in the node tooltip), then the **effect name**, then the "
+"**effect ID** (as can be read in the node tooltip) *in case the effect node was "
+"renamed*. For example ``scene01_B(Col3)_My Blur(Blur1)..tif``  is one of the "
+"output files of the scene *scene01* , related to the flow going from column *B* "
+"(whose ID is *Col3*) to the effect node *My Blur* (whose ID is *Blur1*)."
+msgstr ""
+"不同输出文件的名称是自动生成的，以避免文件名之间的任何名称冲突。特别是，如果效果"
+"节点被重命名，它们是通过在*输出文件名*后附加以下内容来构建的：**列名**，然后是**"
+"列ID**（可以在节点工具提示中读取），然后是***效果名称**，最后是**效果ID**（可在"
+"节点工具提示中阅读）*。例如“scene01_B（Col3）_My模糊（Blur1）”。.tif是场景"
+"*scene01*的输出文件之一，与从列*B*（其ID为*Col3*）到效果节点*My Blur*（其ID为"
+"*Blur1*）的流有关。"
+
+#: ../../source/rendering_the_animation.rst:615
+msgid ""
+"No output will be displayed after the rendering, regardless of **Open Flipbook "
+"after Rendering** being activated in Preferences...  →  Preview dialog section."
+msgstr ""
+"无论在“首选项”中激活**“渲染后打开动画书”**，渲染后都不会显示任何输出。..  →  预"
+"览对话框部分。"
+
+#: ../../source/rendering_the_animation.rst:617
+msgid ""
+"If you need more control on the way scene elements are rendered, you may "
+"consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-"
+"Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you "
+"want a single output for a set of columns/layers, you may collapse them in a "
+"Sub-Xsheet (in case of **Flows** type multiple rendering) or connect them to "
+"several Over nodes (in case of **Terminal Nodes** type multiple rendering)."
+msgstr ""
+"如果您需要对场景元素的渲染方式进行更多控制，可以考虑使用Sub Xsheets和**Over**效"
+"果（请参阅：ref:“使用Sub Xseets<using Sub-Xsheets>”和：ref:` Over<Over>”）。例"
+"如，如果你想为一组列/层提供一个输出，你可以在子X表中折叠它们（在**Flows**类型的"
+"多重渲染的情况下），或者将它们连接到多个Over节点（在**终端节点**类型的多元渲染的"
+"情况中）。"
+
+#: ../../source/rendering_the_animation.rst:623
+msgid "Rendering Animations with Alpha Channel Information"
+msgstr "使用Alpha通道信息渲染动画"
+
+#: ../../source/rendering_the_animation.rst:624
+msgid ""
+"It's possible to render a scene with a transparent background color in order to "
+"export it to editing systems supporting alpha channel information."
+msgstr ""
+"可以渲染具有透明背景颜色的场景，以便将其导出到支持阿尔法通道信息的编辑系统。"
+
+#: ../../source/rendering_the_animation.rst:626
+msgid ""
+"In this case no image has to be used as background, and the output file format "
+"has to support alpha channel information, e.g. TIF at 32 or 64 bits per pixel, "
+"TGA at 32 bits per pixel, or MOV with codecs supporting alpha (i.e. Animation)."
+msgstr ""
+"在这种情况下，不必使用图像作为背景，输出文件格式必须支持阿尔法通道信息，例如每像"
+"素32或64位的TIF、每像素32位的TGA或具有支持阿尔法的编解码器的MOV（即动画）。"
+
+#: ../../source/rendering_the_animation.rst:628
+msgid "**To render animation with alpha channel information:**"
+msgstr "**要使用alpha通道信息渲染动画，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:630
+msgid "Choose Xsheet  →  **Scene Settings...**."
+msgstr "选择Xsheet→  **场景设置。..**."
+
+#: ../../source/rendering_the_animation.rst:632
+msgid "Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent)."
+msgstr "将**相机BG颜色**的alpha通道设置为0（即透明）。"
+
+#: ../../source/rendering_the_animation.rst:634
+msgid "Choose an output file format supporting alpha channel information."
+msgstr "选择支持alpha通道信息的输出文件格式。"
+
+#: ../../source/rendering_the_animation.rst:640
+msgid "Rendering A Loaded Scene"
+msgstr "渲染加载的场景"
+
+#: ../../source/rendering_the_animation.rst:641
+msgid ""
+"The current scene can be rendered directly while being loaded in OpenToonz "
+"according to the defined Output Settings."
+msgstr "根据定义的输出设置，当前场景可以在OpenToonz中加载时直接渲染。"
+
+#: ../../source/rendering_the_animation.rst:643
+msgid ""
+"By choosing the appropriate range in the Output Settings it's possible to "
+"render the scene in chunks, for example by rendering a section first, and then "
+"another one. In this case the animation available in the Output location will "
+"always include all frames rendered up to that point, both if the format is a "
+"multiple-files output (e.g. TIF or TGA), and a single-file one (e.g. MP4 or "
+"MOV). The same applies if a section of the scene has to be rendered again "
+"because some corrections were needed."
+msgstr ""
+"通过在“输出设置”中选择适当的范围，可以按块渲染场景，例如先渲染一个部分，然后渲染"
+"另一个部分。在这种情况下，输出位置中可用的动画将始终包括到那时为止渲染的所有帧，"
+"无论是多文件输出（如TIF或TGA）还是单文件输出（例如MP4或MOV）。如果由于需要进行一"
+"些校正而必须再次渲染场景的一部分，则情况也是如此。"
+
+#: ../../source/rendering_the_animation.rst:645
+msgid ""
+"If the scene contains some audio files and is rendered in a file format "
+"supporting audio (for example MP4), all the audio files will be merged to form "
+"the soundtrack of the movie (see  :ref:`Creating a Soundtrack "
+"<creating_a_soundtrack>`  )."
+msgstr ""
+"如果场景包含一些音频文件，并且以支持音频的文件格式（例如MP4）呈现，则所有音频文"
+"件都将被合并以形成电影的配乐（请参阅：ref:`创建音轨<Creating_a_track>`）。"
+
+#: ../../source/rendering_the_animation.rst:647
+msgid ""
+"Audio files loaded in Sub-Xsheets will not be included in the output soundtrack "
+"(see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  )."
+msgstr ""
+"加载到Sub Xsheets中的音频文件将不会包含在输出音轨中（请参阅：ref:“使用Sub "
+"Xsheets<Using_Sub-Xsheets>”）。"
+
+#: ../../source/rendering_the_animation.rst:649
+msgid ""
+"As soon as the rendering is over, the rendered animation can be automatically "
+"displayed in a OpenToonz Flipbook by activating the **Open Flipbook after "
+"Rendering** option in the Preferences...  →  Preview dialog section; it's also "
+"possible to display blank frames after each rendering playback when looping. If "
+"a soundtrack is available for the rendered scene, it's also possible to listen "
+"to it."
+msgstr ""
+"渲染结束后，通过激活首选项中的**渲染后打开动画书**选项，渲染的动画可以自动显示在"
+"OpenToonz动画书中。..  →  预览对话框部分；循环时，也可以在每次渲染回放后显示空白"
+"帧。如果渲染场景有可用的配乐，也可以听。"
+
+#: ../../source/rendering_the_animation.rst:651
+msgid ""
+"When displayed in the Flipbook, the rendering can be checked by using the "
+"Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  )."
+msgstr ""
+"当在动画书中显示时，可以使用动画书工具检查渲染（请参阅：ref:“使用动画书"
+"<using_the_Flipbook>”）。"
+
+#: ../../source/rendering_the_animation.rst:653
+msgid ""
+"You can also activate the **Use Default Viewer for Movie Formats** option in "
+"the Preferences...  →  General dialog section, in order to play back the output "
+"with its own default viewer, e.g. QuickTime Player for the MOV format."
+msgstr ""
+"您还可以在“首选项”中激活**使用默认查看器的电影格式**选项。..  →  常规对话框部"
+"分，以便使用自己的默认查看器播放输出，例如MOV格式的QuickTime Player。"
+
+#: ../../source/rendering_the_animation.rst:655
+msgid "**To render the currently loaded scene:**"
+msgstr "**要渲染当前加载的场景，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:657
+msgid "Choose Render  →  **Render**."
+msgstr "选择渲染→  **渲染**。"
+
+#: ../../source/rendering_the_animation.rst:659
+msgid "**To display blank frames after each rendering playback when looping:**"
+msgstr "**要在循环时每次渲染播放后显示空白帧，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:661
+msgid "Choose File  →  Preferences...  →  **Preview**."
+msgstr "选择文件→  偏好。..  →  **预览**。"
+
+#: ../../source/rendering_the_animation.rst:665
+msgid ""
+"In **Blank Frames:** set how many blank frames you want to be displayed after "
+"each preview playback, when looping."
+msgstr "在**空白帧中：**设置循环时每次预览播放后要显示多少空白帧。"
+
+#: ../../source/rendering_the_animation.rst:667
+msgid "In **Blank Frames Color:** set the color for the blank frames."
+msgstr "在**空白帧颜色中：**设置空白帧的颜色。"
+
+#: ../../source/rendering_the_animation.rst:673
+msgid "Rendering Scenes in Batch Mode"
+msgstr "在批处理模式下渲染场景"
+
+#: ../../source/rendering_the_animation.rst:674
+msgid ""
+"The rendering of a scene can be added to a task list and performed in batch "
+"mode, in order to run it in the background while you perform other work on your "
+"computer."
+msgstr ""
+"场景的渲染可以添加到任务列表中并以批处理模式执行，以便在计算机上执行其他工作时在"
+"后台运行。"
+
+#: ../../source/rendering_the_animation.rst:676
+msgid ""
+"*Render tasks* can be submitted from the OpenToonz Browser and can be managed "
+"and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:"
+"`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  )."
+msgstr ""
+"*渲染任务*可以从OpenToonz浏览器提交，并可以在“任务”窗格中与*清理任务*一起管理和"
+"执行（请参阅：ref:“在批处理模式下清理图形"
+"<Cleaning_updrawings_in_Batch_Mode>”）。"
+
+#: ../../source/rendering_the_animation.rst:678
+msgid "|tasks_render|"
+msgstr "|任务渲染器|"
+
+#: ../../source/rendering_the_animation.rst:680
+msgid ""
+"The Tasks pane is divided into two sections: on the left there is the Task tree "
+"where all of the *Render tasks* are displayed with a clapboard icon and all the "
+"*Cleanup tasks* with a brush icon; on the right there is Information about the "
+"task selected in the Task tree."
+msgstr ""
+"任务窗格分为两部分：左侧是任务树，其中所有*渲染任务*都用隔板图标显示，所有*清理"
+"任务*都有画笔图标显示；右侧是关于任务树中所选任务的信息。"
+
+#: ../../source/rendering_the_animation.rst:682
+msgid ""
+"The Task list can be saved as TNZBAT files and loaded back later, in case you "
+"want to manage it through different working sessions."
+msgstr ""
+"任务列表可以另存为TNZBAT文件，稍后可以重新加载，以防您想通过不同的工作会话进行管"
+"理。"
+
+#: ../../source/rendering_the_animation.rst:684
+msgid "**To Save a Task list:**"
+msgstr "**要保存任务列表，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:688
+msgid ""
+"Click the **Save** (|save|) or the **Save As** (|save_as|) buttons in the top "
+"bar of the Tasks pane."
+msgstr "单击“任务”窗格顶部栏中的**保存**（|保存|）或**另存为**（|另存为|）按钮。"
+
+#: ../../source/rendering_the_animation.rst:690
+msgid ""
+"Right-click the **Tasks** item at the top of the list and choose **Save Task "
+"List** or the **Save Task List As** from the menu that opens."
+msgstr ""
+"右键单击列表顶部的**任务**项，然后从打开的菜单中选择**保存任务列表**或**将任务列"
+"表另存为**。"
+
+#: ../../source/rendering_the_animation.rst:692
+msgid "Use the Browser that opens to save the list."
+msgstr "使用打开的浏览器保存列表。"
+
+#: ../../source/rendering_the_animation.rst:694
+msgid "**To Load a Task list:**"
+msgstr "**要加载任务列表，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:698
+msgid "Click the **Load** (|load|) button in the top bar of the Tasks pane."
+msgstr "单击“任务”窗格顶部栏中的**加载**（|Load|）按钮。"
+
+#: ../../source/rendering_the_animation.rst:700
+msgid ""
+"Right-click the **Tasks** item at the top of the list and choose **Load Task "
+"List** from the menu that opens."
+msgstr "右键单击列表顶部的**任务**项，然后从打开的菜单中选择**加载任务列表**。"
+
+#: ../../source/rendering_the_animation.rst:702
+msgid "Use the Browser that opens to retrieve and load a previously saved list."
+msgstr "使用打开的浏览器检索和加载以前保存的列表。"
+
+#: ../../source/rendering_the_animation.rst:704
+msgid "**To resize the Tasks pane sections:**"
+msgstr "**要调整“任务”窗格部分的大小，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:708
+msgid "Click and drag the separator to resize sections."
+msgstr "单击并拖动分隔符以调整截面大小。"
+
+#: ../../source/rendering_the_animation.rst:710
+msgid "Click and drag the separator toward the window border to hide a section."
+msgstr "单击并将分隔符拖动到窗口边框以隐藏部分。"
+
+#: ../../source/rendering_the_animation.rst:712
+msgid ""
+"Click and drag the separator collapsed to the window border toward the window "
+"center to display again the hidden section."
+msgstr "单击并将折叠的分隔符向窗口中心拖动到窗口边界，以再次显示隐藏部分。"
+
+#: ../../source/rendering_the_animation.rst:718
+msgid "Managing and Executing Render Tasks"
+msgstr "管理和执行渲染任务"
+
+#: ../../source/rendering_the_animation.rst:719
+msgid ""
+"When a *Render task* is selected in the tree, in the section on the right of "
+"the Tasks pane task-related properties are displayed, some of which can be "
+"edited to configure the task. Properties are the following:"
+msgstr ""
+"在树中选择“渲染任务”后，在“任务”窗格右侧的部分中会显示与任务相关的属性，其中一些"
+"属性可以编辑以配置任务。属性如下："
+
+#: ../../source/rendering_the_animation.rst:721
+msgid ""
+"**Name** displays the task name; it can be edited to better identify the task."
+msgstr "**Name**显示任务名称；可以对其进行编辑以更好地识别任务。"
+
+#: ../../source/rendering_the_animation.rst:723
+msgid "**Status** shows if the task is: Waiting, Running, Completed or Failed."
+msgstr "**状态**显示任务是：等待、运行、已完成还是失败。"
+
+#: ../../source/rendering_the_animation.rst:725
+msgid ""
+"**Command Line** displays the command line related to the task execution with "
+"arguments and qualifiers."
+msgstr "**命令行**显示与任务执行相关的命令行，包括参数和限定符。"
+
+#: ../../source/rendering_the_animation.rst:727
+msgid "**Server** displays the computer that is running, or will run, the task."
+msgstr "**服务器**显示正在运行或将要运行任务的计算机。"
+
+#: ../../source/rendering_the_animation.rst:729
+msgid "**Submitted By** displays the *user* that submitted the task."
+msgstr "**提交人**显示提交任务的*用户*。"
+
+#: ../../source/rendering_the_animation.rst:731
+msgid ""
+"**Submitted On** displays the *computer* from where the task was submitted."
+msgstr "**提交日期**显示提交任务的*计算机*。"
+
+#: ../../source/rendering_the_animation.rst:733
+msgid "**Submission Date** displays *when* the task was submitted."
+msgstr "**提交日期**显示*任务提交的时间。"
+
+#: ../../source/rendering_the_animation.rst:735
+msgid "**Start Date** displays when the task execution started."
+msgstr "**开始日期**显示任务执行开始的时间。"
+
+#: ../../source/rendering_the_animation.rst:737
+msgid "**Completion Date** displays when the task execution was completed."
+msgstr "**完成日期**显示任务执行完成的时间。"
+
+#: ../../source/rendering_the_animation.rst:739
+msgid "**Duration** displays how long the execution lasted."
+msgstr "**持续时间**显示执行持续了多长时间。"
+
+#: ../../source/rendering_the_animation.rst:741
+msgid "**Step Count** displays the number of frames rendered."
+msgstr "**步数**显示渲染的帧数。"
+
+#: ../../source/rendering_the_animation.rst:743
+msgid "**Failed Steps** displays the number of frames that failed to be rendered."
+msgstr "**失败步骤**显示未能渲染的帧数。"
+
+#: ../../source/rendering_the_animation.rst:745
+msgid "**Successful Steps** displays the number of frames successfully rendered."
+msgstr "**成功步骤**显示成功渲染的帧数。"
+
+#: ../../source/rendering_the_animation.rst:747
+msgid ""
+"**Priority** sets the importance or urgency of the task: tasks with a higher "
+"priority will be executed first. It can be edited to change the task priority."
+msgstr ""
+"**优先级**设置任务的重要性或紧迫性：优先级较高的任务将首先执行。可以编辑它以更改"
+"任务优先级。"
+
+#: ../../source/rendering_the_animation.rst:749
+msgid ""
+"**Output** displays the location, name and extension of the rendered output; "
+"this information comes from the scene output settings but can be edited here "
+"before the rendering."
+msgstr ""
+"**输出**显示渲染输出的位置、名称和扩展名；此信息来自场景输出设置，但可以在渲染之"
+"前在此处进行编辑。"
+
+#: ../../source/rendering_the_animation.rst:751
+msgid ""
+"**Frames Per Chunk** sets how the task is divided into sub-tasks in order to "
+"distribute the rendering job in the render farm, one sub-task for each "
+"computer. It can be edited to change the chunk size (see  :ref:`Using Chunks "
+"when Rendering Tasks <using_chunks_when_rendering_tasks>`  )."
+msgstr ""
+"**Frames Per Chunk**设置如何将任务划分为子任务，以便在渲染场中分配渲染作业，每台"
+"计算机一个子任务。可以对其进行编辑以更改块大小（请参阅：ref:“渲染任务时使用块"
+"<Using _Chunks_when _Rendering_Tasks>”）。"
+
+#: ../../source/rendering_the_animation.rst:753
+msgid ""
+"**From** and **To** set the scene frame range to render; this information comes "
+"from the scene output settings but can be edited here before the rendering "
+"(see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
+msgstr ""
+"**从**和**到**设置要渲染的场景帧范围；此信息来自场景输出设置，但可以在渲染前在此"
+"处进行编辑（请参阅：ref:“选择输出设置<Choosing_the_output_settings>”）。"
+
+#: ../../source/rendering_the_animation.rst:755
+msgid ""
+"**Step** sets the step for the rendered sequence; this information comes from "
+"the scene output settings but can be edited here before the rendering (see  :"
+"ref:`Choosing the Output Settings <choosing_the_output_settings>`  )."
+msgstr ""
+"**Step**设置渲染序列的步骤；此信息来自场景输出设置，但可以在渲染前在此处进行编辑"
+"（请参阅：ref:“选择输出设置<Choosing_the_output_settings>”）。"
+
+#: ../../source/rendering_the_animation.rst:757
+msgid ""
+"**Shrink** sets the reduction value of the rendered sequence resolution; this "
+"information comes from the scene output settings but can be edited here before "
+"the rendering (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+"**Shrink**设置渲染序列分辨率的缩减值；此信息来自场景输出设置，但可以在渲染前在此"
+"处进行编辑（请参阅：ref:“选择输出设置<Choosing_the_output_settings>”）。"
+
+#: ../../source/rendering_the_animation.rst:759
+msgid ""
+"**Dedicated CPUs** sets how many processors are assigned to the rendering "
+"process; this information comes from the scene output settings but can be "
+"edited here before the rendering (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+"**专用CPU**设置分配给渲染进程的处理器数量；此信息来自场景输出设置，但可以在渲染"
+"前在此处进行编辑（请参阅：ref:“选择输出设置<Choosing_the_output_settings>”）。"
+
+#: ../../source/rendering_the_animation.rst:761
+msgid ""
+"**Render Tile** sets if the rendering has to be computed in tiles; this "
+"information comes from the scene output settings but can be edited here before "
+"the rendering (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+"**如果渲染必须在图块中计算，则设置渲染图块**；此信息来自场景输出设置，但可以在渲"
+"染前在此处进行编辑（请参阅：ref:“选择输出设置<Choosing_the_output_settings>”）。"
+
+#: ../../source/rendering_the_animation.rst:763
+msgid ""
+"**Dependencies** lets you set which of the other submitted tasks *have to be "
+"successfully completed* before starting the current task execution: these tasks "
+"can be added from the box on the right where all submitted tasks are displayed."
+msgstr ""
+"**依赖关系**允许您设置在开始当前任务执行之前，必须成功完成哪些其他提交的任务*："
+"这些任务可以从显示所有提交任务的右侧框中添加。"
+
+#: ../../source/rendering_the_animation.rst:765
+msgid "Task execution can be started and stopped from the task list."
+msgstr "可以从任务列表中启动和停止任务执行。"
+
+#: ../../source/rendering_the_animation.rst:767
+msgid ""
+"When the tasks are executed, the icon color tells the status of the task "
+"according to the following color code:"
+msgstr "执行任务时，图标颜色根据以下颜色代码告诉任务的状态："
+
+#: ../../source/rendering_the_animation.rst:769
+msgid "*Grey*, when the task is *waiting* or is not executed yet."
+msgstr "*灰色*，表示任务正在*等待*或尚未执行。"
+
+#: ../../source/rendering_the_animation.rst:771
+msgid "*Yellow*, when the task is *being executed*."
+msgstr "*黄色*，表示任务正在执行*。"
+
+#: ../../source/rendering_the_animation.rst:773
+msgid "*Green*, when the task is *successfully executed*."
+msgstr "*绿色*，当任务*成功执行*时。"
+
+#: ../../source/rendering_the_animation.rst:775
+msgid "*Orange*, when the task is *executed with some errors*."
+msgstr "*橙色*，当任务*执行时出现一些错误*。"
+
+#: ../../source/rendering_the_animation.rst:777
+msgid "*Red*, when the task *execution has failed*."
+msgstr "*红色*，表示任务*执行失败*。"
+
+#: ../../source/rendering_the_animation.rst:779
+msgid "**To Add scenes to render in the task list:**"
+msgstr "**要在任务列表中添加要渲染的场景，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:783
+msgid ""
+"Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane "
+"and use the Browser to select a scene file."
+msgstr ""
+"单击“任务”窗格顶部栏中的**添加渲染**按钮（|Add_Render|），然后使用浏览器选择场景"
+"文件。"
+
+#: ../../source/rendering_the_animation.rst:785
+msgid ""
+"Select the scenes in the OpenToonz Browser, then right-click any of them and "
+"choose **Add As Render Task** from the menu that opens."
+msgstr ""
+"在OpenToonz浏览器中选择场景，然后右键单击其中任何一个场景，并从打开的菜单中选择"
+"**添加为渲染任务**。"
+
+#: ../../source/rendering_the_animation.rst:787
+msgid "**To Configure the render task in the task list:**"
+msgstr "**要在任务列表中配置渲染任务，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:789
+msgid "Select a render task in the task list."
+msgstr "在任务列表中选择渲染任务。"
+
+#: ../../source/rendering_the_animation.rst:791
+msgid "Configure it by using the options available on the right of the list."
+msgstr "使用列表右侧的可用选项进行配置。"
+
+#: ../../source/rendering_the_animation.rst:793
+msgid "**To select tasks in the task list:**"
+msgstr "**要在任务列表中选择任务，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:797
+msgid "Click a task to select it."
+msgstr "单击任务以选择它。"
+
+#: ../../source/rendering_the_animation.rst:799
+msgid "Shift-click a task to extend the selection up to that task."
+msgstr "按住Shift键并单击任务，将选择范围扩展到该任务。"
+
+#: ../../source/rendering_the_animation.rst:801
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) a task to add it to, or remove it from the "
+"selection."
+msgstr ""
+"Ctrl键单击（PC）或Cmd键单击（Mac）任务以将其添加到选择中，或将其从选择中删除。"
+
+#: ../../source/rendering_the_animation.rst:803
+msgid "**To Execute selected tasks:**"
+msgstr "**要执行所选任务，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:807
+msgid "Click the **Start** (|start|) button in the top bar of the Tasks pane."
+msgstr "单击“任务”窗格顶部栏中的**开始**（|Start|）按钮。"
+
+#: ../../source/rendering_the_animation.rst:809
+msgid ""
+"Right-click any selected task icon and choose **Start** from the menu that "
+"opens."
+msgstr "右键单击任何选定的任务图标，然后从打开的菜单中选择**开始**。"
+
+#: ../../source/rendering_the_animation.rst:811
+msgid "**To Stop the execution of selected tasks:**"
+msgstr "**要停止执行所选任务，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:815
+msgid "Click the **Stop** (|stop|) button in the top bar of the Tasks pane."
+msgstr "单击“任务”窗格顶部栏中的**停止**（|Stop|）按钮。"
+
+#: ../../source/rendering_the_animation.rst:817
+msgid ""
+"Right-click any selected task icon and choose **Stop** from the menu that opens."
+msgstr "右键单击任何选定的任务图标，然后从打开的菜单中选择**停止**。"
+
+#: ../../source/rendering_the_animation.rst:819
+msgid "**To Remove selected tasks from the list:**"
+msgstr "**要从列表中删除所选任务，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:823
+msgid "Click the **Remove** (|remove|) button in the top bar of the Tasks pane."
+msgstr "单击“任务”窗格顶部栏中的**删除**（|Remove|）按钮。"
+
+#: ../../source/rendering_the_animation.rst:825
+msgid ""
+"Right-click any selected task in the list and choose **Remove** from the menu "
+"that opens."
+msgstr "右键单击列表中的任何选定任务，然后从打开的菜单中选择**删除**。"
+
+#: ../../source/rendering_the_animation.rst:827
+msgid "**To Add or Remove tasks from the Dependencies list:**"
+msgstr "**要在“依赖关系”列表中添加或删除任务，请执行以下操作：**"
+
+#: ../../source/rendering_the_animation.rst:831
+msgid ""
+"To Add a task to the dependencies list, select a task in the task list on the "
+"right and click the **<< Add** button."
+msgstr ""
+"要将任务添加到依赖关系列表中，请在右侧的任务列表中选择一个任务，然后单击**<<添加"
+"**按钮。"
+
+#: ../../source/rendering_the_animation.rst:833
+msgid ""
+"To Remove a task from the dependencies list, select a task in the dependencies "
+"list on the left, and click the **Remove >>** button."
+msgstr ""
+"要从依赖列表中删除任务，请在左侧的依赖列表中选择一个任务，然后单击**删除>>**按"
+"钮。"
+
+#: ../../source/rendering_the_animation.rst:839
+msgid "Using Chunks when Rendering Tasks"
+msgstr "渲染任务时使用块"
+
+#: ../../source/rendering_the_animation.rst:840
+msgid ""
+"If you are using the OpenToonz render farm, it's possible to divide a task into "
+"chunks so that each computer of the farm will render a section of the same "
+"render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  )."
+msgstr ""
+"如果您使用的是OpenToonz渲染场，则可以将任务划分为块，以便场中的每台计算机都将渲"
+"染同一渲染任务的一部分（请参阅：ref:`使用Toonz场<using_the_Toonz_farm>`）。"
+
+#: ../../source/rendering_the_animation.rst:842
+msgid ""
+"The default value for the chunk size (expressed in number of frames) can be set "
+"using the **Render Task Chunk Size** in the Preferences...  →  General dialog "
+"section. If the default value is higher than the duration (in frames) of the "
+"submitted scene, the value will be automatically adjusted to be equal to the "
+"duration of the scene."
+msgstr ""
+"块大小的默认值（以帧数表示）可以使用首选项中的**渲染任务块大小**进行设置。..  "
+"→  常规对话框部分。如果默认值高于提交场景的持续时间（以帧为单位），则该值将自动"
+"调整为等于场景的持续时长。"
+
+#: ../../source/rendering_the_animation.rst:844
+msgid ""
+"Once a task is submitted, it's possible to change the chunk size by editing the "
+"related value in the task properties."
+msgstr "提交任务后，可以通过编辑任务属性中的相关值来更改块大小。"
+
+#: ../../source/rendering_the_animation.rst:846
+msgid ""
+"When a task is divided into chunks, each chunk of the task is represented in "
+"the task tree as a sub-task."
+msgstr "当任务被划分为块时，任务的每个块在任务树中都表示为子任务。"
+
+#: ../../source/rendering_the_animation.rst:848
+msgid ""
+"Render tasks and sub-tasks will be distributed on the farm, one for each "
+"computer, so that several tasks can be executed at the same time (see  :ref:"
+"`Using the Toonz Farm <using_the_toonz_farm>`  )."
+msgstr ""
+"渲染任务和子任务将分布在农场上，每台计算机一个，这样就可以同时执行多个任务（请参"
+"阅：ref:`使用Toanz农场<Using_the_Toonz_farm>`）。"
+
+#: ../../source/rendering_the_animation.rst:850
+msgid ""
+"If you are not using the OpenToonz render farm, dividing the task into chunks "
+"is not only useless, but it slows down the rendering process as well. For this "
+"reason it's suggested to use a high **Render Task Chunk Size** value (e.g. "
+"1000) in the Preferences...  →  General dialog section."
+msgstr ""
+"如果您没有使用OpenToonz渲染场，将任务划分为块不仅没有用，而且还会减慢渲染过程。"
+"因此，建议在“首选项”中使用高**渲染任务块大小**值（例如1000）。..  →  常规对话框"
+"部分。"
+
+#: ../../source/rendering_the_animation.rst:852
+msgid ""
+"Chunk size is relevant only when animations are rendered as image sequences "
+"(for example in TIF or TGA formats)."
+msgstr "只有当动画被渲染为图像序列（例如TIF或TGA格式）时，块大小才相关。"

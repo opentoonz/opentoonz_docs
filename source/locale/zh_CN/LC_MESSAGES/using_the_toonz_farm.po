@@ -1,0 +1,762 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 16:31+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/using_the_toonz_farm.rst:4
+#: ../../source/using_the_toonz_farm.rst:209
+msgid "Using the Toonz Farm"
+msgstr "使用Toonz农场"
+
+#: ../../source/using_the_toonz_farm.rst:5
+msgid ""
+"The Toonz Farm allows you to process OpenToonz scenes submitted as cleanup "
+"tasks or render tasks in the task list by using a series of computers connected "
+"on the same network using TCP/IP (see  :ref:`Cleaning up Drawings in Batch Mode "
+"<cleaning_up_drawings_in_batch_mode>`  and  :ref:`Rendering Scenes in Batch "
+"Mode <rendering_scenes_in_batch_mode>`  )."
+msgstr ""
+"Toonz Farm允许您通过使用TCP/IP连接在同一网络上的一系列计算机来处理作为清理任务或"
+"任务列表中的渲染任务提交的OpenToonz场景（请参阅：ref:“在批处理模式下清理图形"
+"<Cleaning_up_Drawings_in_Batch_Mode>”和：ref:`在批处理方式下渲染场景"
+"<Rendering_scenes_in_Batch_Mode>）。"
+
+#: ../../source/using_the_toonz_farm.rst:7
+msgid ""
+"When tasks are executed, they are automatically assigned to the computers "
+"belonging to the farm in order to balance the workload. When all computers are "
+"busy, remaining tasks are not assigned until a machine is ready to process them."
+msgstr ""
+"执行任务时，它们会自动分配给属于服务器场的计算机，以平衡工作负载。当所有计算机都"
+"忙时，在机器准备好处理剩余任务之前，不会分配这些任务。"
+
+#: ../../source/using_the_toonz_farm.rst:9
+msgid ""
+"If you have divided a render task into *chunks*, each chunk will be assigned to "
+"a different computer of the farm, thus speeding up the rendering of a single "
+"render task (see  :ref:`Using Chunks when Rendering Tasks "
+"<using_chunks_when_rendering_tasks>`  )."
+msgstr ""
+"如果将渲染任务划分为*个块*，则每个块都将分配给服务器场的不同计算机，从而加快单个"
+"渲染任务的渲染速度（请参阅：ref:`渲染任务时使用块<Using _chunks_when "
+"_rendering_Tasks>`）。"
+
+#: ../../source/using_the_toonz_farm.rst:11
+msgid "The Toonz Farm is composed by the following:"
+msgstr "图恩斯农场由以下部分组成："
+
+#: ../../source/using_the_toonz_farm.rst:13
+msgid ""
+"**Controller node**: is the computer that dispatches the tasks to server "
+"(rendering) nodes. This computer runs the controller program, named "
+"``tfarmcontroller.exe``  on Windows and ``tfarmcontrollerd``  on Macintosh. One "
+"controller node is needed for defining a farm."
+msgstr ""
+"**控制器节点**：是将任务分派给服务器（渲染）节点的计算机。这台计算机运行控制器程"
+"序，在Windows上名为“tfarmcontroller.exe”，在Macintosh上名为”tfarmcontroller“。定"
+"义场需要一个控制器节点。"
+
+#: ../../source/using_the_toonz_farm.rst:15
+msgid "The controller node can also be used as a server (rendering) node."
+msgstr ""
+"**控制器节点**：是将任务分派给服务器（渲染）节点的计算机。这台计算机运行控制器程"
+"序，在Windows上名为“tfarmcontroller.exe”，在Macintosh上名为”tfarmcontroller“。定"
+"义场需要一个控制器节点。"
+
+#: ../../source/using_the_toonz_farm.rst:17
+msgid ""
+"**Server (rendering) nodes**: are the computers that execute tasks dispatched "
+"by the controller. Each of these computers runs a server program, named "
+"``tfarmserver.exe``  on Windows and ``tfarmserverd``  on Macintosh, that is in "
+"charge of running tasks, notifying the controller when a task has been "
+"completed, etc."
+msgstr ""
+"**服务器（渲染）节点**：是执行控制器分派的任务的计算机。这些计算机中的每一台都运"
+"行一个服务器程序，在Windows上称为“tfarmserver.exe”，在Macintosh上名为“tfarm "
+"serverd”，负责运行任务，在任务完成时通知控制器等。"
+
+#: ../../source/using_the_toonz_farm.rst:19
+msgid ""
+"**Root folder** named FARMROOT: is a shared folder where a number of "
+"configuration files are stored. The controller node and all the rendering nodes "
+"must be able to access this shared folder (see  :ref:`Configuring the Toonz "
+"Farm <configuring_the_toonz_farm>`  )."
+msgstr ""
+"**名为FARMROOT的根文件夹**：是一个共享文件夹，其中存储了许多配置文件。控制器节点"
+"和所有渲染节点必须能够访问此共享文件夹（请参阅：ref:“配置Toanz "
+"Farm<Configuring_The_Toonz_Farm>”）。"
+
+#: ../../source/using_the_toonz_farm.rst:21
+msgid ""
+"**Client program**: is the program run by the user to queue new tasks and to "
+"monitor the Toonz Farm. OpenToonz itself is the client program of the Toonz "
+"Farm, and can be run on any computer on the network, not necessarily on a "
+"controller node or a sever (rendering) node."
+msgstr ""
+"**客户端程序**：是用户运行的程序，用于对新任务进行排队并监控Toanz Farm。"
+"OpenToonz本身是Toanz Farm的客户端程序，可以在网络上的任何计算机上运行，不一定在"
+"控制器节点或服务器（渲染）节点上运行。"
+
+#: ../../source/using_the_toonz_farm.rst:23
+msgid ""
+"In order to render the scenes successfully all the computers involved in the "
+"Toonz Farm, controller, servers and clients have to share the same projectroot "
+"folders (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  )."
+msgstr ""
+"为了成功渲染场景，Toanz Farm中涉及的所有计算机、控制器、服务器和客户端必须共享相"
+"同的项目根文件夹（请参阅：ref:`设置项目根<Setting_the_projectroot>`）。"
+
+#: ../../source/using_the_toonz_farm.rst:29
+msgid "Installing the Toonz Farm on Windows"
+msgstr "在Windows上安装Toanz农场"
+
+#: ../../source/using_the_toonz_farm.rst:30
+#: ../../source/using_the_toonz_farm.rst:93
+msgid ""
+"To install the Toonz Farm, you have to install the Farm Controller component on "
+"the controller node, and the Farm Server component on the server (rendering) "
+"nodes."
+msgstr ""
+"要安装Toanz Farm，您必须在控制器节点上安装Farm Controller组件，在服务器（渲染）"
+"节点上安装Farm Server组件。"
+
+#: ../../source/using_the_toonz_farm.rst:32
+#: ../../source/using_the_toonz_farm.rst:95
+msgid ""
+"If you want to use a computer both as controller and as server (rendering) "
+"node, you have to install both the components."
+msgstr "如果要将计算机同时用作控制器和服务器（渲染）节点，则必须安装这两个组件。"
+
+#: ../../source/using_the_toonz_farm.rst:34
+msgid ""
+"During the installation of any of the components you must specify the full-path "
+"of the FARMROOT folder. This path must be expressed using the UNC format, like "
+"the following:"
+msgstr ""
+"在安装任何组件期间，您必须指定FARMROOT文件夹的完整路径。此路径必须使用UNC格式表"
+"示，如下所示："
+
+#: ../../source/using_the_toonz_farm.rst:36
+msgid "``\\\\HostName\\ShareName\\FolderName``"
+msgstr "``\\\\HostName\\ShareName\\FolderName``"
+
+#: ../../source/using_the_toonz_farm.rst:38
+msgid ""
+"The drive where the FARMROOT folder is located has to be shared on the network, "
+"giving full control to any user by setting the right permissions."
+msgstr ""
+"FARMROOT文件夹所在的驱动器必须在网络上共享，通过设置正确的权限赋予任何用户完全控"
+"制权。"
+
+#: ../../source/using_the_toonz_farm.rst:40
+msgid ""
+"When you choose to install the Farm Controller component, the installation "
+"program will create for the controller program a Windows Service, named **Toonz "
+"Farm Controller**."
+msgstr ""
+"当您选择安装农场控制器组件时，安装程序将为控制器程序创建一个名为**Toanz农场控制"
+"器**的Windows服务。"
+
+#: ../../source/using_the_toonz_farm.rst:42
+msgid ""
+"When you choose to install the Farm Server component, the installation program "
+"will create for the server program a Windows Service, named **Toonz Farm "
+"Server**."
+msgstr ""
+"当您选择安装Farm Server组件时，安装程序将为服务器程序创建一个名为**Toanz Farm "
+"Server**的Windows服务。"
+
+#: ../../source/using_the_toonz_farm.rst:44
+msgid ""
+"As the Toonz Farm requires exchanges of data between computers in the network "
+"by using TCP/IP protocol, any firewall system that may block access on computer "
+"ports has to be disabled."
+msgstr ""
+"由于Toonz Farm需要使用TCP/IP协议在网络中的计算机之间交换数据，因此必须禁用任何可"
+"能阻止计算机端口访问的防火墙系统。"
+
+#: ../../source/using_the_toonz_farm.rst:50
+msgid "Setting the Controller Node"
+msgstr "设置控制器节点"
+
+#: ../../source/using_the_toonz_farm.rst:51
+msgid ""
+"On the controller node the controller component is installed as a Windows "
+"service, named **Toonz Farm Controller**. By default a Windows Service runs "
+"under the security credentials of the Local System account. By default this "
+"account is not granted the right to access folders shared by remote hosts."
+msgstr ""
+"在控制器节点上，控制器组件作为Windows服务安装，名为**Toanz Farm controller**。默"
+"认情况下，Windows服务在本地系统帐户的安全凭据下运行。默认情况下，此帐户无权访问"
+"远程主机共享的文件夹。"
+
+#: ../../source/using_the_toonz_farm.rst:53
+msgid ""
+"Since the **Toonz Farm Controller** needs to access the FARMROOT folder, "
+"typically shared by a remote host, please run this service as a user with the "
+"proper rights."
+msgstr ""
+"由于**Toonz Farm Controller**需要访问FARMROOT文件夹，该文件夹通常由远程主机共"
+"享，请以具有适当权限的用户身份运行此服务。"
+
+#: ../../source/using_the_toonz_farm.rst:55
+msgid ""
+"It is possible to start the service from a DOS shell by navigating to the "
+"folder where the binaries of OpenToonz are installed, and then using the "
+"following command line:``tfarmcontroller -console``"
+msgstr ""
+"通过导航到安装OpenToonz二进制文件的文件夹，然后使用以下命令行，可以从DOS shell启"
+"动服务：`tfarmcontroller-console``"
+
+#: ../../source/using_the_toonz_farm.rst:57
+msgid "**To run the Toonz Farm Controller as a user with the proper rights:**"
+msgstr "**要以具有适当权限的用户身份运行Toanz Farm Controller，请执行以下操作：**"
+
+#: ../../source/using_the_toonz_farm.rst:59
+msgid ""
+"Choose Control Panel  →  Administrative Tools  →  Services, and right-click the "
+"**Toonz Farm Controller** service to open the Properties panel."
+msgstr ""
+"选择控制面板→  管理工具→  服务，右键单击**Toanz Farm Controller**服务以打开“属"
+"性”面板。"
+
+#: ../../source/using_the_toonz_farm.rst:61
+#: ../../source/using_the_toonz_farm.rst:82
+msgid "Select the Log On page, check the **This Account:** option."
+msgstr "选择登录页面，选中**此帐户：**选项。"
+
+#: ../../source/using_the_toonz_farm.rst:63
+#: ../../source/using_the_toonz_farm.rst:84
+msgid ""
+"Choose the network where the Toonz Farm is going to work and set an account "
+"that has administrator rights on that network. Insert and confirm the related "
+"password."
+msgstr ""
+"选择Toanz Farm将要工作的网络，并设置一个在该网络上具有管理员权限的帐户。插入并确"
+"认相关密码。"
+
+#: ../../source/using_the_toonz_farm.rst:65
+#: ../../source/using_the_toonz_farm.rst:86
+#: ../../source/using_the_toonz_farm.rst:205
+msgid "Click the **OK** button."
+msgstr "单击**确定**按钮。"
+
+#: ../../source/using_the_toonz_farm.rst:71
+msgid "Setting the Server Nodes"
+msgstr "设置服务器节点"
+
+#: ../../source/using_the_toonz_farm.rst:72
+msgid ""
+"On the server (rendering) nodes, the server component is installed as a Windows "
+"service, named **Toonz Farm Server**. By default a Windows Service runs under "
+"the security credentials of the Local System account. By default this account "
+"is not granted the right to access folders shared by remote hosts."
+msgstr ""
+"在服务器（渲染）节点上，服务器组件作为Windows服务安装，名为**Toanz Farm "
+"server**。默认情况下，Windows服务在本地系统帐户的安全凭据下运行。默认情况下，此"
+"帐户无权访问远程主机共享的文件夹。"
+
+#: ../../source/using_the_toonz_farm.rst:74
+msgid ""
+"Since the **Toonz Farm Server**, for rendering purposes, needs to access one or "
+"more folders shared by remote hosts, please run this service as an user with "
+"the proper rights."
+msgstr ""
+"由于**Toanz Farm Server**出于渲染目的需要访问远程主机共享的一个或多个文件夹，请"
+"以具有适当权限的用户身份运行此服务。"
+
+#: ../../source/using_the_toonz_farm.rst:76
+msgid ""
+"It is possible to start the service from a DOS shell by navigating to the "
+"folder where the binaries of OpenToonz are installed, and then using the "
+"following command line:``tfarmserver -console``"
+msgstr ""
+"通过导航到安装OpenToonz二进制文件的文件夹，然后使用以下命令行，可以从DOS shell启"
+"动服务：`tfarmserver-console``"
+
+#: ../../source/using_the_toonz_farm.rst:78
+msgid "**To run the Toonz Farm Controller as an user with the proper rights:**"
+msgstr "**要以具有适当权限的用户身份运行Toanz Farm Controller，请执行以下操作：**"
+
+#: ../../source/using_the_toonz_farm.rst:80
+msgid ""
+"Choose Control Panel  →  Administrative Tools  →  Services, and right-click the "
+"**Toonz Farm Server** service to open the Properties panel."
+msgstr ""
+"选择控制面板→  管理工具→  服务，右键单击**Toanz Farm Server**服务以打开“属性”面"
+"板。"
+
+#: ../../source/using_the_toonz_farm.rst:92
+msgid "Installing the Toonz Farm on Macintosh"
+msgstr "在Macintosh上安装Toanz Farm"
+
+#: ../../source/using_the_toonz_farm.rst:97
+msgid ""
+"After the installation of the toonz farm components, a FARMROOT folder has to "
+"be defined, and on all the computers belonging to the farm, both controller and "
+"servers, the full-path of the FARMROOT folder has to be specified."
+msgstr ""
+"安装toonz场组件后，必须定义一个FARMROOT文件夹，并且必须在属于场的所有计算机（包"
+"括控制器和服务器）上指定FARMROOT文件夹的完整路径。"
+
+#: ../../source/using_the_toonz_farm.rst:99
+msgid ""
+"To define the FARMROOT folder you can take as model the ``toonzfarm``  folder "
+"stored in ``OpenToonz stuff``. You can take the ``toonzfarm``  folder from any "
+"computer where OpenToonz in installed, choose the location you prefer, and "
+"share it on the network, giving full control to any user by setting the right "
+"permissions."
+msgstr ""
+"要定义FARMROOT文件夹，您可以将存储在“OpenToonz stuff”中的“toonzfarm”文件夹作为模"
+"型。您可以从安装了OpenToonz的任何计算机上获取“toonzfarm”文件夹，选择您喜欢的位"
+"置，并在网络上共享，通过设置正确的权限赋予任何用户完全控制权。"
+
+#: ../../source/using_the_toonz_farm.rst:101
+msgid ""
+"To specify the path to the FARMROOT on the computers, both controller and "
+"servers, belonging to the farm, you have to edit the ``configfarmroot.txt``  "
+"file by typing in it the full path to the FARMROOT folder."
+msgstr ""
+"要指定属于场的计算机（控制器和服务器）上FARMROOT的路径，您必须通过"
+"在“configfarmroot.txt”文件中键入FARMROOT文件夹的完整路径来编辑该文件。"
+
+#: ../../source/using_the_toonz_farm.rst:103
+msgid ""
+"To retrieve this file open the ``Applications/OpenToonz`` folder, right-click "
+"the OpenToonz icon and choose Show Package Contents from the menu that opens; "
+"in the folder that opens browse to the ``Contents/Resources``  folder and "
+"retrieve the ``configfarmroot.txt``  file."
+msgstr ""
+"要检索此文件，请打开“Applications/OpenToonz”文件夹，右键单击OpenToonz图标，然后"
+"从打开的菜单中选择“显示包内容”；在打开的文件夹中，浏览到“Contents/Resources”文件"
+"夹并检索“configarmroot.txt”文件。"
+
+#: ../../source/using_the_toonz_farm.rst:105
+msgid ""
+"As the Toonz farm requires exchanges of data between computers in the network "
+"by using TCP/IP protocol, any firewall system that may block access on computer "
+"ports has to be disabled."
+msgstr ""
+"由于Toanz农场需要使用TCP/IP协议在网络中的计算机之间交换数据，因此必须禁用任何可"
+"能阻止计算机端口访问的防火墙系统。"
+
+#: ../../source/using_the_toonz_farm.rst:111
+msgid "Configuring the Toonz Farm"
+msgstr "配置Toanz农场"
+
+#: ../../source/using_the_toonz_farm.rst:112
+msgid ""
+"Once the installation has been completed, you have to configure the Toonz Farm "
+"by editing some configuration files stored in the FARMROOT folder."
+msgstr ""
+"安装完成后，您必须通过编辑存储在FARMROOT文件夹中的一些配置文件来配置Toanz Farm。"
+
+#: ../../source/using_the_toonz_farm.rst:114
+msgid ""
+"The FARMROOT folder must be accessible by all the nodes that compose the Toonz "
+"Farm: the controller node, the server (rendering) nodes and the computers "
+"running OpenToonz. This means that the drive where the FARMROOT folder is "
+"located has to be shared on the network, and the permissions for users have to "
+"be maximum, in order to give full control to any users."
+msgstr ""
+"FARMROOT文件夹必须可由组成Toanz Farm的所有节点访问：控制器节点、服务器（渲染）节"
+"点和运行OpenToonz的计算机。这意味着FARMROOT文件夹所在的驱动器必须在网络上共享，"
+"并且用户的权限必须是最大的，以便为任何用户提供完全控制权。"
+
+#: ../../source/using_the_toonz_farm.rst:116
+msgid ""
+"For the same reason the computer where the FARMROOT is located has to be "
+"started before all the other computers involved in the farm."
+msgstr ""
+"出于同样的原因，FARMROOT所在的计算机必须在农场中涉及的所有其他计算机之前启动。"
+
+#: ../../source/using_the_toonz_farm.rst:118
+msgid "The FARMROOT folder contains the following:"
+msgstr "FARMROOT文件夹包含以下内容："
+
+#: ../../source/using_the_toonz_farm.rst:120
+msgid ""
+"the ``config``  folder containing the ``servers.txt`` , the ``controller.txt`` "
+"and the ``id.txt`` ."
+msgstr "“config”文件夹包含“servers.txt”、“controller.txt”和“id.txt”。"
+
+#: ../../source/using_the_toonz_farm.rst:122
+msgid "the ``logs``  folder."
+msgstr "“logs”文件夹。"
+
+#: ../../source/using_the_toonz_farm.rst:124
+msgid ""
+"The ``controller.txt`` and the ``servers.txt``  configuration files must be "
+"edited to define the controller node and the server (rendering) nodes before "
+"using the Render Farm."
+msgstr ""
+"在使用渲染场之前，必须编辑“controller.txt”和“servers.txt”配置文件，以定义控制器"
+"节点和服务器（渲染）节点。"
+
+#: ../../source/using_the_toonz_farm.rst:130
+msgid "Defining the Controller Node"
+msgstr "定义控制器节点"
+
+#: ../../source/using_the_toonz_farm.rst:131
+msgid ""
+"The controller node is defined in the ``controller.txt`` configuration file "
+"placed in the ``FARMROOT\\config``  folder."
+msgstr "控制器节点在“FARMROOT\\config”文件夹中的“controller.txt”配置文件中定义。"
+
+#: ../../source/using_the_toonz_farm.rst:133
+msgid ""
+"The file must contain a single text line that describes the node you want to "
+"use as a controller."
+msgstr "该文件必须包含一行文本，描述要用作控制器的节点。"
+
+#: ../../source/using_the_toonz_farm.rst:135
+msgid "For the controller node you must specify the following:"
+msgstr "对于控制器节点，您必须指定以下内容："
+
+#: ../../source/using_the_toonz_farm.rst:137
+#: ../../source/using_the_toonz_farm.rst:166
+msgid "Computer name."
+msgstr "计算机名称"
+
+#: ../../source/using_the_toonz_farm.rst:139
+#: ../../source/using_the_toonz_farm.rst:168
+msgid "IP address."
+msgstr "IP地址"
+
+#: ../../source/using_the_toonz_farm.rst:141
+msgid "The port number you intend to use for the controller service."
+msgstr "您打算用于控制器服务的端口号。"
+
+#: ../../source/using_the_toonz_farm.rst:143
+msgid ""
+"Be sure that the port you set is not blocked by any firewall system, and is "
+"open for all the computers belonging to the Toonz farm."
+msgstr ""
+"确保您设置的端口未被任何防火墙系统阻止，并且对属于Toanz场的所有计算机都是开放"
+"的。"
+
+#: ../../source/using_the_toonz_farm.rst:145
+msgid ""
+"Each of the above information must be separated by a single space. Here is an "
+"example of a ``controller.txt``  file:"
+msgstr "上述信息必须用一个空格隔开。下面是一个“controller.txt”文件的示例："
+
+#: ../../source/using_the_toonz_farm.rst:153
+msgid ""
+"In the above example, ``render1``  is the controller node, its IP address is "
+"``10.10.0.166``  and the controller program runs on the ``10000``  port."
+msgstr ""
+"在上述示例中，“render1”是控制器节点，其IP地址为“10.10.0.166”，控制器程序"
+"在“10000”端口上运行。"
+
+#: ../../source/using_the_toonz_farm.rst:159
+msgid "Defining the Server Nodes"
+msgstr "定义服务器节点"
+
+#: ../../source/using_the_toonz_farm.rst:160
+msgid ""
+"The server (rendering) nodes are defined in the ``servers.txt``  configuration "
+"file placed in the ``FARMROOT\\config``  directory."
+msgstr ""
+"服务器（渲染）节点在“FARMROOT\\config”目录中的“servers.txt”配置文件中定义。"
+
+#: ../../source/using_the_toonz_farm.rst:162
+msgid ""
+"The file must contain a text line for every computer you want to use as a "
+"server (rendering) node."
+msgstr "该文件必须包含要用作服务器（渲染）节点的每台计算机的文本行。"
+
+#: ../../source/using_the_toonz_farm.rst:164
+msgid "For each sever (rendering) node you must specify the following:"
+msgstr "对于每个服务器（渲染）节点，必须指定以下内容："
+
+#: ../../source/using_the_toonz_farm.rst:170
+msgid "The port number you intend to use for the server service."
+msgstr "您打算用于服务器服务的端口号。"
+
+#: ../../source/using_the_toonz_farm.rst:172
+msgid ""
+"Be sure that the port you set is not blocked by any firewall system, and is "
+"open for all the computers belonging to the Toonz Farm."
+msgstr ""
+"确保您设置的端口未被任何防火墙系统阻止，并且对属于Toanz Farm的所有计算机都是开放"
+"的。"
+
+#: ../../source/using_the_toonz_farm.rst:174
+msgid ""
+"The above information must be separated by a single space. Here is an example "
+"of a ``servers.txt``  file::"
+msgstr "上述信息必须用一个空格隔开。以下是一个`servers.txt`文件的示例："
+
+#: ../../source/using_the_toonz_farm.rst:182
+msgid ""
+"In the above example, ``render1``  is a server node whose IP address is "
+"``10.10.0.166``  and the server program runs on the ``8002``  port; "
+"``render2``  is a server node whose IP address is ``10.10.0.195``  and the "
+"server program runs on the ``8002``  port; etc."
+msgstr ""
+"在上述示例中，“render1”是一个服务器节点，其IP地址为“10.10.0.166”，服务器程序"
+"在“8002”端口上运行；“render2”是一个服务器节点，其IP地址为“10.10.0.195”，服务器程"
+"序在“8002”端口上运行；等等"
+
+#: ../../source/using_the_toonz_farm.rst:184
+msgid ""
+"If you want to add or remove a server (rendering) node from the ``servers."
+"txt``  file, you have to restart the controller node in order to make the "
+"changes effective."
+msgstr ""
+"如果要在“servers.txt”文件中添加或删除服务器（渲染）节点，则必须重新启动控制器节"
+"点才能使更改生效。"
+
+#: ../../source/using_the_toonz_farm.rst:190
+msgid "Defining the Toonz Farm in OpenToonz"
+msgstr "在OpenToonz中定义Toonz农场"
+
+#: ../../source/using_the_toonz_farm.rst:191
+msgid ""
+"OpenToonz is the Toonz Farm client program: it allows you to submit new tasks "
+"and monitor the status of the farm."
+msgstr "OpenToonz是Toonz Farm客户端程序：它允许您提交新任务并监控农场的状态。"
+
+#: ../../source/using_the_toonz_farm.rst:193
+msgid ""
+"If the computer where you run OpenToonz is a controller or a server (rendering) "
+"node for the Toonz Farm, no further settings are required."
+msgstr ""
+"如果运行OpenToonz的计算机是Toanz场的控制器或服务器（渲染）节点，则不需要进一步设"
+"置。"
+
+#: ../../source/using_the_toonz_farm.rst:195
+msgid ""
+"If the computer is neither a controller nor a server (rendering) node for the "
+"Toonz Farm, the FARMROOT has to be defined."
+msgstr ""
+"如果计算机既不是Toanz农场的控制器也不是服务器（渲染）节点，则必须定义FARMROOT。"
+
+#: ../../source/using_the_toonz_farm.rst:197
+msgid "**To define the FARMROOT in OpenToonz:**"
+msgstr "**要在OpenToonz中定义FARMROOT，请执行以下操作：**"
+
+#: ../../source/using_the_toonz_farm.rst:199
+msgid "Run OpenToonz and go to the **Farm** room."
+msgstr "运行OpenToonz并前往**农场**房间。"
+
+#: ../../source/using_the_toonz_farm.rst:201
+msgid ""
+"In the Batch Servers pane, set the **Process with:** option menu to **Render "
+"Farm**."
+msgstr "在“批处理服务器”窗格中，将**进程：**选项菜单设置为**渲染场**。"
+
+#: ../../source/using_the_toonz_farm.rst:203
+msgid "In the dialog that opens specify the full path to the **FARMROOT** folder."
+msgstr "在打开的对话框中，指定**FARMROOT**文件夹的完整路径。"
+
+#: ../../source/using_the_toonz_farm.rst:210
+msgid ""
+"In OpenToonz you can find the **Farm** room that allows you to monitor the farm "
+"processes. This room contains two main windows: the Tasks window and the Batch "
+"Servers window."
+msgstr ""
+"在OpenToonz中，您可以找到**农场**室，该室允许您监控农场流程。此房间包含两个主窗"
+"口：任务窗口和批处理服务器窗口。"
+
+#: ../../source/using_the_toonz_farm.rst:212
+msgid ""
+"The render farm can be monitored by using both the Tasks pane, where the list "
+"of tasks can be managed and executed, and the Servers pane, where the computers "
+"executing the tasks can be managed."
+msgstr ""
+"可以通过使用“任务”窗格和“服务器”窗格来监视渲染场，在“任务”面板中可以管理和执行任"
+"务列表，在“服务器”面板中则可以管理执行任务的计算机。"
+
+#: ../../source/using_the_toonz_farm.rst:214
+msgid ""
+"All shared disks involved in the task processing, i.e. disks where files "
+"resulting from the task execution have to be written, must be shared granting "
+"*full permissions* to any user, otherwise tasks execution will not succeed. For "
+"Windows, disks must have a Share Permission set to Full Control for Everyone; "
+"for Macintosh, the sharing settings must allow any user to read from and write "
+"to disks."
+msgstr ""
+"任务处理中涉及的所有共享磁盘，即必须写入任务执行产生的文件的磁盘，必须共享，授予"
+"任何用户*完全权限*，否则任务执行将无法成功。对于Windows，磁盘的共享权限必须设置"
+"为“所有人完全控制”；对于Macintosh，共享设置必须允许任何用户对磁盘进行读写操作。"
+
+#: ../../source/using_the_toonz_farm.rst:220
+msgid "Monitoring the Server Nodes"
+msgstr "监控服务器节点"
+
+#: ../../source/using_the_toonz_farm.rst:221
+msgid ""
+"The Batch Servers pane is divided in three areas: at the top there’s an option "
+"menu to set whether the tasks execution has to be performed with the Local "
+"computer or with the Render Farm; then there is the list of server (rendering) "
+"nodes in the farm; at the bottom you can see information about the server "
+"currently selected in the list."
+msgstr ""
+"批处理服务器窗格分为三个区域：顶部有一个选项菜单，用于设置任务执行是必须使用本地"
+"计算机还是渲染场执行；然后是服务器场中的服务器（渲染）节点列表；在底部，您可以看"
+"到列表中当前选定服务器的信息。"
+
+#: ../../source/using_the_toonz_farm.rst:223
+msgid ""
+"The server (rendering) nodes included in the list are those defined in the "
+"``server.txt``  configuration file (see  :ref:`Defining the Server Nodes "
+"<defining_the_server_nodes>`  ). If a server node is down at the controller "
+"startup, it will not be available in the farm: this means that all the server "
+"nodes *must be up before* starting up the controller node. For the same reason "
+"if you want to restart or shut down a server (rendering) node, you have to "
+"restart the controller node in order to make the changes effective."
+msgstr ""
+"列表中包含的服务器（渲染）节点是在“server.txt”配置文件中定义的节点（请参阅："
+"ref:“定义服务器节点<Defining_The_server_nodes>”）。如果服务器节点在控制器启动时"
+"关闭，则它在服务器场中不可用：这意味着在启动控制器节点之前，所有服务器节点*都必"
+"须打开。出于同样的原因，如果要重新启动或关闭服务器（渲染）节点，则必须重新启动控"
+"制器节点才能使更改生效。"
+
+#: ../../source/using_the_toonz_farm.rst:225
+msgid ""
+"If the **Process with:** option menu is set to **Local**, all the tasks you run "
+"will be executed by the local computer; if it's set to **Render Farm**, the "
+"tasks will be executed by the Toonz Farm."
+msgstr ""
+"如果**进程：**选项菜单设置为**本地**，则您运行的所有任务都将由本地计算机执行；如"
+"果设置为**渲染农场**，则任务将由Toanz农场执行。"
+
+#: ../../source/using_the_toonz_farm.rst:227
+msgid ""
+"When you select **Render Farm** you could be prompted to define the "
+"**FARMROOT** (see  :ref:`Defining the Toonz Farm in Toonz "
+"<defining_the_toonz_farm_in_toonz>`  )."
+msgstr ""
+"当您选择**渲染场**时，系统可能会提示您定义**FARMROOT**（请参阅：ref:`在Toonz中定"
+"义Toonz场<Defining_the_Toonz_Farm_in_Toonz>`）。"
+
+#: ../../source/using_the_toonz_farm.rst:229
+msgid ""
+"When a server is selected in the list, the following related information are "
+"displayed in the area at the bottom of the window:"
+msgstr "当在列表中选择服务器时，以下相关信息将显示在窗口底部的区域中："
+
+#: ../../source/using_the_toonz_farm.rst:231
+msgid "**Name:** displays the name of the server (rendering) node."
+msgstr "**名称：**显示服务器（渲染）节点的名称。"
+
+#: ../../source/using_the_toonz_farm.rst:233
+msgid "**IP Address:** displays its IP address."
+msgstr "**IP地址：**显示其IP地址。"
+
+#: ../../source/using_the_toonz_farm.rst:235
+msgid ""
+"**Port Number:** displays the port number used to exchange data with the farm."
+msgstr "**端口号：**显示用于与服务器场交换数据的端口号。"
+
+#: ../../source/using_the_toonz_farm.rst:237
+msgid "**Tasks:** displays the task being executed."
+msgstr "**任务：**显示正在执行的任务。"
+
+#: ../../source/using_the_toonz_farm.rst:239
+msgid "**State:** displays if the server is **Ready**, **Busy** or **Down**."
+msgstr "**状态：**显示服务器是否为**就绪**、**忙碌**或**关闭**。"
+
+#: ../../source/using_the_toonz_farm.rst:241
+msgid ""
+"A server node state may be down if the server port you set is blocked by a "
+"firewall system, and is not open for all the computers belonging to the Toonz "
+"Farm (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  )."
+msgstr ""
+"如果您设置的服务器端口被防火墙系统阻止，并且没有对属于Toanz场的所有计算机开放，"
+"则服务器节点状态可能会关闭（请参阅：ref:“定义服务器节点"
+"<Defining_the_server_Nodes>”）。"
+
+#: ../../source/using_the_toonz_farm.rst:243
+msgid "**Number of CPU:** displays the number of CPUs available on the server."
+msgstr "**CPU数量：**显示服务器上可用的CPU数量。"
+
+#: ../../source/using_the_toonz_farm.rst:245
+msgid ""
+"**Physical Memory:** displays the amount of physical memory available on the "
+"server."
+msgstr "**物理内存：**显示服务器上可用的物理内存量。"
+
+#: ../../source/using_the_toonz_farm.rst:247
+msgid "**To use the Local computer to execute tasks:**"
+msgstr "**要使用本地计算机执行任务，请执行以下操作：**"
+
+#: ../../source/using_the_toonz_farm.rst:249
+msgid "Set the **Process with:** option menu to **Local**."
+msgstr "将**进程：**选项菜单设置为**本地**。"
+
+#: ../../source/using_the_toonz_farm.rst:251
+msgid "**To use the Toonz Farm to execute tasks:**"
+msgstr "**要使用Toanz Farm执行任务，请执行以下操作：**"
+
+#: ../../source/using_the_toonz_farm.rst:253
+msgid "Set the **Process with:** option menu to **Render Farm**."
+msgstr "将**进程：**选项菜单设置为**渲染场**。"
+
+#: ../../source/using_the_toonz_farm.rst:259
+msgid "Checking the Toonz Farm Processing"
+msgstr "检查Toonz农场加工"
+
+#: ../../source/using_the_toonz_farm.rst:260
+msgid ""
+"When the Toonz Farm is used, any problem that may be experienced during the "
+"processing is recorded in LOG files, that can be opened and used to diagnose "
+"problems."
+msgstr ""
+"使用Toanz Farm时，处理过程中可能遇到的任何问题都会记录在LOG文件中，可以打开并用"
+"于诊断问题。"
+
+#: ../../source/using_the_toonz_farm.rst:262
+msgid ""
+"The LOG files are saved in the ``OpenToonz stuff\\toonzfarm``  folder of the "
+"computer experiencing the problem; each LOG refers to the processing performed "
+"by that computer only."
+msgstr ""
+"LOG文件保存在遇到问题的计算机的“OpenToonz stuff\\toonzfarm”文件夹中；每个LOG仅指"
+"由该计算机执行的处理。"
+
+#: ../../source/using_the_toonz_farm.rst:264
+msgid ""
+"The LOG files that may be generated by the Toonz Farm processing are the "
+"following:"
+msgstr "Toanz Farm处理过程中可能生成的日志文件如下："
+
+#: ../../source/using_the_toonz_farm.rst:266
+msgid ""
+"**server.log** logs all the operations concerning the server computer activity."
+msgstr "**log**记录与服务器计算机活动有关的所有操作。"
+
+#: ../../source/using_the_toonz_farm.rst:268
+msgid ""
+"**controller.log** logs all the operations concerning the controller computer "
+"activity."
+msgstr "**controller.log**记录与控制器计算机活动有关的所有操作。"
+
+#: ../../source/using_the_toonz_farm.rst:270
+msgid ""
+"**tcomposer.log** logs all the operations concerning the render activity "
+"performed by the server computers."
+msgstr "**tcompose.log**记录服务器计算机执行的与呈现活动有关的所有操作。"
+
+#: ../../source/using_the_toonz_farm.rst:272
+msgid ""
+"**tcleanup.log** logs all the operations concerning the cleanup activity "
+"performed by the server computers."
+msgstr "**tcleanup.log**记录服务器计算机执行的与清理活动有关的所有操作。"

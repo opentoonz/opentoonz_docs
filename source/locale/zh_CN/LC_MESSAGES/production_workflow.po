@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 14:49+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/production_workflow.rst:4
+msgid "Production Workflow"
+msgstr "生产工作流"
+
+#: ../../source/production_workflow.rst:10
+msgid "Traditional Workflow"
+msgstr "传统工作流"
+
+#: ../../source/production_workflow.rst:11
+msgid ""
+"The following is an example of how OpenToonz allows the management of a "
+"traditional animation production."
+msgstr "以下是OpenToonz如何允许管理传统动画制作的示例。"
+
+#: ../../source/production_workflow.rst:13
+msgid "|traditional_workflow|"
+msgstr "以下是OpenToonz如何允许管理传统动画制作的示例。"
+
+#: ../../source/production_workflow.rst:19
+msgid "Scanning"
+msgstr "扫描"
+
+#: ../../source/production_workflow.rst:20
+msgid ""
+"Hand-drawn elements are first defined in an OpenToonz Xsheet, and then "
+"acquired by using a scanner. These elements can consist of animation "
+"levels, i.e. sequences of drawings belonging to the same animation, or "
+"background images and overlays."
+msgstr ""
+"手绘元素首先在OpenToonz Xsheet中定义，然后使用扫描仪获取。这些元素可以由"
+"动画级别组成，即属于同一动画的图形序列，或背景图像和叠加。"
+
+#: ../../source/production_workflow.rst:22
+msgid ""
+"The scanned images then pass through a cleanup process, and are auto "
+"centered when necessary, using their pegbar holes as a guide and their "
+"related field guide setting. In the case of lineart drawings, these are "
+"further prepared for the painting process."
+msgstr ""
+"然后，扫描的图像会经过清理过程，并在必要时自动居中，使用它们的钉杆孔作为"
+"指导及其相关的场指导设置。对于线条画，这些是为绘画过程进一步准备的。"
+
+#: ../../source/production_workflow.rst:24
+msgid "See  :ref:`Scanning Paper Drawings <scanning_paper_drawings>`  ."
+msgstr "请参阅：ref:“扫描纸图纸<Scanning_Paper_Drawings>”。"
+
+#: ../../source/production_workflow.rst:30
+msgid "Paperless Drawing"
+msgstr "无纸化绘图"
+
+#: ../../source/production_workflow.rst:31
+msgid ""
+"Additional drawings and animation levels can be drawn directly in "
+"OpenToonz. Drawings can be an important part of the scene, such as a "
+"background or a character’s prop, or incidental elements needed to "
+"achieve a particular result, for example a mask image to create a matte "
+"effect."
+msgstr ""
+"其他图形和动画级别可以直接在OpenToonz中绘制。绘图可以是场景的重要组成部"
+"分，例如背景或角色的道具，也可以是实现特定结果所需的附带元素，例如创建蒙"
+"版效果的蒙版图像。"
+
+#: ../../source/production_workflow.rst:33
+msgid "See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  ."
+msgstr "请参见：ref:“绘图动画级别<Drawing_Animation_Levels>”。"
+
+#: ../../source/production_workflow.rst:39
+msgid "Color Model"
+msgstr "颜色模型"
+
+#: ../../source/production_workflow.rst:40
+msgid ""
+"Color models are created for accurate color-referencing during "
+"production, when painting characters and props. They can be drawings "
+"made in OpenToonz, scanned images processed in OpenToonz, or images "
+"coming from a 3rd party software."
+msgstr ""
+"创建颜色模型是为了在制作过程中绘制角色和道具时进行精确的颜色参考。它们可"
+"以是在OpenToonz中绘制的图形、在OpenToonzs中处理的扫描图像或来自第三方软件"
+"的图像。"
+
+#: ../../source/production_workflow.rst:42
+msgid ""
+"In case of OpenToonz drawings, the color model palette can be defined by "
+"creating styles and colors to be used for painting animation levels."
+msgstr ""
+"对于OpenToonz图形，可以通过创建用于绘制动画级别的样式和颜色来定义颜色模型"
+"调色板。"
+
+#: ../../source/production_workflow.rst:44
+msgid ""
+"See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  "
+"and  :ref:`Using a Color Model <using_a_color_model>`  ."
+msgstr ""
+"请参阅：ref:“管理调色板和样式<manageing_pletes_and_Styles>”和：ref:`使用"
+"颜色模型<Using_a_Color_Model>”。"
+
+#: ../../source/production_workflow.rst:50
+msgid "Ink & Painting"
+msgstr "水墨画"
+
+#: ../../source/production_workflow.rst:51
+msgid ""
+"Animation levels scanned and cleaned up in OpenToonz, and those made "
+"directly in OpenToonz, are painted by using the styles stored in the "
+"palette and a set of tools."
+msgstr "使用调色板中存储的样式和一组"
+
+#: ../../source/production_workflow.rst:53
+msgid ""
+"Palette styles are interactively “linked” to drawn lines and filled "
+"areas by using indexes. The main advantage of this method is that if you "
+"edit a style of the palette, all the lines and filled areas using that "
+"style will be automatically updated. This allows you to change or "
+"calibrate colors also after the painting process has been done, without "
+"correcting the style line by line, or area by area."
+msgstr "允许您在绘制过程完成后更改或校准颜色，而无需逐行或逐区域校正样式。"
+
+#: ../../source/production_workflow.rst:55
+msgid ""
+"See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  "
+"and  :ref:`Painting Animation Levels <painting_animation_levels>`  ."
+msgstr ""
+"请参见：ref:“管理选项板和样式<manageing_Palettes_and_Styles>”和：ref:`绘"
+"制动画级别<Painting_Animation_Levels>”。"
+
+#: ../../source/production_workflow.rst:61
+msgid "Compositing"
+msgstr "影像合成"
+
+#: ../../source/production_workflow.rst:62
+msgid ""
+"All OpenToonz painted levels and images are exposed in the Xsheet where "
+"the timing of all the elements of a scene can be controlled. Images, "
+"animations and clips from 3rd party software can be loaded as well."
+msgstr ""
+"所有OpenToonz绘制的关卡和图像都暴露在Xsheet中，可以控制场景中所有元素的时"
+"序。也可以加载来自第三方软件的图像、动画和剪辑。"
+
+#: ../../source/production_workflow.rst:64
+msgid ""
+"After adding and arranging the required elements to the Xsheet as "
+"layered columns, they are then animated by using interpolated keys "
+"placed on necessary parameters. Elements that can be animated in this "
+"way include the camera, columns, pegbars and the table."
+msgstr ""
+"在将所需元素作为分层列添加并排列到Xsheet后，然后使用放置在必要参数上的插"
+"值键对其进行动画处理。可以以这种方式设置动画的元素包括相机、柱、钉杆和桌"
+"子。"
+
+#: ../../source/production_workflow.rst:66
+msgid ""
+"Special FX, such as blurs, lights, keys, masks, warps, gradients, etc. "
+"can be applied to the content of Xsheet columns, and can also be "
+"animated by setting key value to the parameters."
+msgstr ""
+"特殊FX，如模糊、灯光、关键帧、遮罩、扭曲、渐变等，可以应用于Xsheet列的内"
+"容，也可以通过为参数设置关键帧值来设置动画。"
+
+#: ../../source/production_workflow.rst:68
+msgid ""
+"Object and special FX transformations are mapped in the function editor "
+"window, where set key values and related interpolations can be "
+"controlled and modified by using function curves or numerical columns."
+msgstr ""
+"对象和特殊FX变换在函数编辑器窗口中映射，在该窗口中，可以使用函数曲线或数"
+"值列来控制和修改设置键值和相关插值。"
+
+#: ../../source/production_workflow.rst:70
+msgid ""
+"See  :ref:`Working in Xsheet <working_in_xsheet>` ,  :ref:`Creating "
+"Movements <creating_movements>` ,  :ref:`Applying Special FX "
+"<applying_special_fx>`  and  :ref:`Editing Using Spreadsheet and Curves "
+"<editing_curves_and_numerical_columns>`  ."
+msgstr ""
+"请参阅：ref:“在Xsheet中工作<Working_in_Xsheet>”，：ref:`创建运动"
+"<Creating_motions>，：ref:`应用特殊FX<appling_Special_FX>和：ref:'使用电"
+"子表格和曲线编辑<Editing_Curves_and_numerical_columns>。"
+
+#: ../../source/production_workflow.rst:76
+msgid "Render Farm"
+msgstr "渲染农场"
+
+#: ../../source/production_workflow.rst:77
+msgid ""
+"The scene is rendered in order to compose all the transformations and "
+"applied special FX in a sequence of frames in the format and resolution "
+"you prefer."
+msgstr ""
+"渲染场景是为了组合所有变换，并以您喜欢的格式和分辨率在一系列帧中应用特殊"
+"的FX。"
+
+#: ../../source/production_workflow.rst:79
+#: ../../source/production_workflow.rst:178
+msgid ""
+"The OpenToonz render farm allows you to batch-render OpenToonz scenes by "
+"using a series of computers connected on the same network using TCP/IP."
+msgstr ""
+"OpenToonz渲染场允许您使用使用TCP/IP连接在同一网络上的一系列计算机批量渲染"
+"OpenToonz场景。"
+
+#: ../../source/production_workflow.rst:81
+#: ../../source/production_workflow.rst:180
+msgid ""
+"See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:"
+"`Using the Toonz Farm <using_the_toonz_farm>`  ."
+msgstr ""
+"请参见：ref:`渲染动画<Rendering_the_Animation>'和：ref:'使用Toanz农场"
+"<Using_the_Toonz_Farm>'。"
+
+#: ../../source/production_workflow.rst:87
+msgid "Paperless Workflow"
+msgstr "无纸化办公"
+
+#: ../../source/production_workflow.rst:88
+msgid ""
+"The following is an example of how OpenToonz allows the management of a "
+"paperless animation production."
+msgstr ""
+"The following is an example of how OpenToonz allows the management of a "
+"paperless animation production."
+
+#: ../../source/production_workflow.rst:90
+msgid "|paperless_workflow|"
+msgstr "|无纸工作流程|"
+
+#: ../../source/production_workflow.rst:95
+msgid "Preproduction: Concept"
+msgstr "预生产：概念"
+
+#: ../../source/production_workflow.rst:96
+msgid ""
+"Even if a paperless project can be run regardless of the script, the "
+"concept of a format with few settings and a stable cast of characters "
+"will ease the arrangement of libraries to be prepared before the actual "
+"episode production."
+msgstr ""
+"即使一个无纸化的项目可以不管剧本如何运行，一种设置少、角色阵容稳定的格式"
+"的概念也将简化在实际剧集制作之前准备的库的安排。"
+
+#: ../../source/production_workflow.rst:102
+msgid "Preproduction: Graphic Design"
+msgstr "预制作：平面设计"
+
+#: ../../source/production_workflow.rst:103
+msgid ""
+"The graphic design of characters, props and locations is equally "
+"important, in order to find out a style that will fit well both with the "
+"drawing capabilities of the software and with the cutout animation "
+"technique."
+msgstr ""
+"角色、道具和地点的图形设计同样重要，以便找到一种既适合软件绘图功能又适合"
+"剪切动画技术的风格。"
+
+#: ../../source/production_workflow.rst:105
+msgid ""
+"In particular when designing character models and props, for which you "
+"could develop a specific line style to apply to vectors, or use very "
+"neat lines typical of vector animations, you should consider a design "
+"where the model animation pivot points can be easily disguised under "
+"drawings features (for example the pivot point of a ponytail linked to "
+"the character’s head can be disguised under a ribbon)."
+msgstr ""
+"特别是在设计角色模型和道具时，你可以开发一种特定的线条样式来应用于矢量，"
+"或者使用矢量动画中非常整洁的线条，你应该考虑一种设计，在这种设计中，模型"
+"动画的枢轴点可以很容易地伪装在图形特征下（例如，与角色头部相连的马尾辫的"
+"枢轴点也可以伪装在丝带下）。"
+
+#: ../../source/production_workflow.rst:111
+msgid "Preproduction: Storyboard"
+msgstr "预制作：故事板"
+
+#: ../../source/production_workflow.rst:112
+msgid ""
+"While usually the storyboard is used by the director to control the "
+"rhythm of the action, in case of a paperless production it also "
+"identifies all the elements needed for the production of each scene, by "
+"listing all of the character animations and poses, and identifying all "
+"of the props and backgrounds that are needed to implement the story."
+msgstr ""
+"虽然故事板通常由导演用来控制动作的节奏，但在无纸化制作的情况下，它还通过"
+"列出所有角色动画和姿势，并确定实现故事所需的所有道具和背景，来确定每个场"
+"景制作所需的全部元素。"
+
+#: ../../source/production_workflow.rst:118
+msgid "Animatic"
+msgstr "动画"
+
+#: ../../source/production_workflow.rst:119
+msgid ""
+"The animatic is created starting from the scanned storyboard drawings. "
+"In OpenToonz, or in a third-party software, the storyboard drawings are "
+"imported, timing is adjusted and camera movements are set. Audio files "
+"too can be imported for reference."
+msgstr ""
+"动画是从扫描的故事板图形开始创建的。在OpenToonz或第三方软件中，导入故事板"
+"图形，调整时间并设置相机移动。音频文件也可以导入以供参考。"
+
+#: ../../source/production_workflow.rst:121
+msgid ""
+"In case the animatic is created in OpenToonz, it can also be split so "
+"that each cut can be used as a starting point for the final compositing "
+"of each scene."
+msgstr ""
+"如果动画是在OpenToonz中创建的，也可以对其进行分割，以便每个剪辑都可以用作"
+"每个场景最终合成的起点。"
+
+#: ../../source/production_workflow.rst:127
+msgid "Libraries"
+msgstr "库"
+
+#: ../../source/production_workflow.rst:128
+msgid ""
+"Libraries are prepared by drawing directly in OpenToonz all of the "
+"elements composing the scenes, such as locations, characters, props, etc."
+msgstr ""
+"库是通过在OpenToonz中直接绘制构成场景的所有元素来准备的，如地点、人物、道"
+"具等。"
+
+#: ../../source/production_workflow.rst:130
+msgid ""
+"As far as the characters are concerned, they will be decomposed in "
+"multiple levels (i.e. head, torso, arms etc.) used as skeleton "
+"components rejoined through a hierarchy which at the end will make "
+"models available to the animators."
+msgstr ""
+"就角色而言，它们将被分解为多个层次（即头部、躯干、手臂等），用作通过层次"
+"重新连接的骨架组件，最终将使模型可供动画师使用。"
+
+#: ../../source/production_workflow.rst:132
+msgid ""
+"According to the storyboard analysis, the drawings needed both for the "
+"canonical turn-around model (i.e. a collection of models as seen from "
+"different points of view: front, back, side and three-quarter views) and "
+"for additional movements are prepared. Starting from these reference "
+"animations, such as running or walking cycles, jumping, may be stored as "
+"well in order to be re-used in the scene production."
+msgstr ""
+"根据故事板分析，准备了规范周转模型（即从不同角度看的模型集合：前视图、后"
+"视图、侧视图和四分之三视图）和其他动作所需的图纸。从这些参考动画开始，如"
+"跑步或步行周期、跳跃，也可以存储起来，以便在场景制作中重复使用。"
+
+#: ../../source/production_workflow.rst:134
+msgid ""
+"Props and backgrounds can be also created with third-party software, "
+"including rendered images from 3D software."
+msgstr "道具和背景也可以使用第三方软件创建，包括来自3D软件的渲染图像。"
+
+#: ../../source/production_workflow.rst:136
+msgid ""
+"See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  and  :"
+"ref:`Creating Cutout Animation <creating_cutout_animation>`  ."
+msgstr ""
+"See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  and  :"
+"ref:`Creating Cutout Animation <creating_cutout_animation>`  ."
+
+#: ../../source/production_workflow.rst:142
+msgid "Layout"
+msgstr ""
+
+#: ../../source/production_workflow.rst:143
+msgid ""
+"In the layout phase, all of the elements that are necessary for the "
+"scene (backgrounds, props, characters, reference animations) are loaded "
+"from the library in Xsheet, usually as Sub-Xsheets. They are put in "
+"place according to the animatic. Basic animation is achieved by setting "
+"key positions for animated characters or importing reference animations."
+msgstr ""
+"在Layout阶段，场景所需的所有元素（背景、道具、角色、参考动画）都从Xsheet"
+"中的库加载，通常作为子Xsheets加载。它们是根据动画设置的。基本动画是通过为"
+"动画角色设置关键位置或导入参考动画来实现的。"
+
+#: ../../source/production_workflow.rst:145
+msgid ""
+"Camera movements and animation timing previously set in the animatic are "
+"refined."
+msgstr "对之前在动画中设置的摄影机移动和动画定时进行了优化。"
+
+#: ../../source/production_workflow.rst:147
+msgid ""
+"See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Sub-"
+"Xsheets <using_sub-xsheets>`  ."
+msgstr ""
+"请参阅：ref:`在Xsheet中工作<Working_in_Xsheet>'和：ref:'使用子"
+"Xsheets<Using_Sub-Xsheets>'。"
+
+#: ../../source/production_workflow.rst:153
+msgid "Animation"
+msgstr "动画"
+
+#: ../../source/production_workflow.rst:154
+msgid ""
+"The animation for the scene defined in the layout is refined by adding "
+"key position to the character movements. Character poses are added by "
+"tweaking the model to achieve a more fluid animation."
+msgstr ""
+"通过将关键点位置添加到角色移动中来细化布局中定义的场景的动画。通过调整模"
+"型来添加角色姿势，以实现更流畅的动画。"
+
+#: ../../source/production_workflow.rst:156
+msgid ""
+"The right speed for all the movements is set by controlling "
+"interpolation mode in the function editor."
+msgstr "通过在函数编辑器中控制插值模式来设置所有运动的正确速度。"
+
+#: ../../source/production_workflow.rst:158
+msgid ""
+"See  :ref:`Animating Objects <animating_objects>`  and  :ref:`Using the "
+"Function Editor <using_the_function_editor>`  ."
+msgstr ""
+"请参见：ref:“为对象设置动画<animation_Objects>”和：ref：“使用函数编辑器"
+"<Using_the_Function_enditor>”。"
+
+#: ../../source/production_workflow.rst:164
+msgid "Special FX"
+msgstr "特殊效果"
+
+#: ../../source/production_workflow.rst:165
+msgid ""
+"Special FX, such as blur, glow, color corrections, particles, are "
+"applied to the scene elements."
+msgstr "特殊的FX，如模糊、光晕、颜色校正、粒子，被应用于场景元素。"
+
+#: ../../source/production_workflow.rst:167
+msgid ""
+"Additional animation elements related to special FX, for example masks "
+"or images for the particles effect, are drawn directly in the scene, or "
+"imported from external files."
+msgstr ""
+"与特殊FX相关的其他动画元素，例如粒子效果的遮罩或图像，直接绘制在场景中，"
+"或从外部文件导入。"
+
+#: ../../source/production_workflow.rst:169
+msgid "See  :ref:`Applying Special FX <applying_special_fx>`  ."
+msgstr "请参阅：ref:“应用特殊FX<appling_Special_FX>”。"
+
+#: ../../source/production_workflow.rst:175
+msgid "Render"
+msgstr "渲染"
+
+#: ../../source/production_workflow.rst:176
+msgid ""
+"The scene has to be rendered in order to compose all the transformations "
+"and applied special FX in a sequence of frames in the format and "
+"resolution you prefer."
+msgstr ""
+"必须渲染场景，以便组合所有变换，并以您喜欢的格式和分辨率在一系列帧中应用"
+"特殊的FX。"

@@ -1,0 +1,847 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 15:46+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/toonzscript.rst:4
+msgid "ToonzScript"
+msgstr "ToonzScript"
+
+#: ../../source/toonzscript.rst:5
+msgid ""
+"ToonzScript is the scripting language used in OpenToonz. Using ToonzScript "
+"allows users to create sequences of commands, thus avoiding the need to perform "
+"repetitive tasks manually. ToonzScript is based on QtScript and is built on the "
+"ECMAScript standard. A reference guide for the ECMAScript standard can be found "
+"at the following URL:"
+msgstr ""
+"ToonzScript是OpenToonz中使用的脚本语言。使用ToonzScript允许用户创建命令序列，从"
+"而避免了手动执行重复任务的需要。ToonzScript基于QtScript，并基于ECMAScript标准构"
+"建。ECMAScript标准的参考指南可以在以下网址找到："
+
+#: ../../source/toonzscript.rst:7
+msgid "`ECMAScript Reference <http://doc.qt.io/qt-5/ecmascript.html>`_"
+msgstr "`ECMAScript参考<http://doc.qt.io/qt-5/ecmascript.html>`_"
+
+#: ../../source/toonzscript.rst:9
+msgid ""
+"Several well known scripting languages are based on the ECMAScript standard "
+"such as JavaScript, JScript, and ActionScript. The ToonzScript syntax is "
+"similar to that of JavaScript, for this reason, a good introduction to "
+"JavaScript can be very useful to better understand ToonzScript's basics."
+msgstr ""
+"几种众所周知的脚本语言基于ECMAScript标准，如JavaScript、JScript和ActionScript。"
+"ToonzScript语法与JavaScript语法相似，因此，对JavaScript进行一个很好的介绍对于更"
+"好地理解ToonzScript的基础知识非常有用。"
+
+#: ../../source/toonzscript.rst:11
+msgid ""
+"The original ToonzScript page with some (rather old) examples is available at "
+"the following URL:"
+msgstr "原始的ToonzScript页面和一些（相当旧的）示例可以在以下网址上找到："
+
+#: ../../source/toonzscript.rst:13
+msgid "`ToonzScript page <http://www.toonz.com/htm/support/Script.htm>`_"
+msgstr "`ToonzScript页面<http://www.toonz.com/htm/support/Script.htm>`_"
+
+#: ../../source/toonzscript.rst:15
+msgid ""
+"Scripts can be run using the ``File  →  Script  →  Run Script...`` command. "
+"Alternatively, commands can be typed and executed directly in the Script "
+"Console, which can be opened using the ``File  →  Script  →  Open Script "
+"Console...`` command."
+msgstr ""
+"脚本可以使用``文件运行→  脚本→  运行脚本。..命令。或者，可以直接在脚本控制台中键"
+"入和执行命令，该控制台可以使用“文件”打开→  脚本→  打开脚本控制台。..命令。"
+
+#: ../../source/toonzscript.rst:17
+msgid ""
+"When a script is running, the Script Console will open automatically to show "
+"the commands contained within the script."
+msgstr "当脚本运行时，脚本控制台将自动打开，显示脚本中包含的命令。"
+
+#: ../../source/toonzscript.rst:23
+msgid "File management"
+msgstr "文件管理"
+
+#: ../../source/toonzscript.rst:25
+msgid "|toonz_script_runscript|"
+msgstr "|toonz_script_runscript|"
+
+#: ../../source/toonzscript.rst:27
+msgid ""
+"The ToonzScript file extension is .js, scripts need to be in the ``OpenToonz "
+"stuff/library/script`` folder, to be automatically retrieved by opening the Run "
+"Script command browser."
+msgstr ""
+"ToonzScript文件扩展名为.js，脚本需要在“OpenToonz stuff/library/script”文件夹中，"
+"通过打开Run script命令浏览器自动检索。"
+
+#: ../../source/toonzscript.rst:33
+msgid "Using the Script Console"
+msgstr "使用脚本控制台"
+
+#: ../../source/toonzscript.rst:35
+msgid "|toonz_script_console|"
+msgstr "|toonz_script_console|"
+
+#: ../../source/toonzscript.rst:37
+msgid ""
+"The Script Console allows the user to directly enter commands, additionally, "
+"dragging & dropping external text files into the console will automatically "
+"insert the path of the file(s)."
+msgstr ""
+"脚本控制台允许用户直接输入命令，此外，将外部文本文件拖放到控制台中会自动插入文件"
+"的路径。"
+
+#: ../../source/toonzscript.rst:39
+msgid ""
+"Start a series of lengthy operations from the console does not block the "
+"interface."
+msgstr "从控制台启动一系列冗长的操作不会阻塞界面。"
+
+#: ../../source/toonzscript.rst:45
+msgid "Console use conventions"
+msgstr "控制台使用约定"
+
+#: ../../source/toonzscript.rst:46
+msgid ""
+"The following conventions are implemented in the use of the Script Console:"
+msgstr "在使用脚本控制台时实现了以下约定："
+
+#: ../../source/toonzscript.rst:48
+msgid "Only the text of the last paragraph can be edited."
+msgstr "只能编辑最后一段的文本。"
+
+#: ../../source/toonzscript.rst:50
+msgid "The Up and Down arrow keys allow the navigation of the command history."
+msgstr "向上和向下箭头键允许导航命令历史记录。"
+
+#: ../../source/toonzscript.rst:52
+msgid ""
+"The execution of time consuming commands doesn’t prevent interaction with the "
+"software interface."
+msgstr "执行耗时的命令并不妨碍与软件界面的交互。"
+
+#: ../../source/toonzscript.rst:54
+msgid ""
+"The **ctrl+y**  shortcut interrupts the execution of time consuming commands."
+msgstr "**ctrl+y**快捷键会中断耗时命令的执行。"
+
+#: ../../source/toonzscript.rst:56
+msgid ""
+"When entering a path in a string, any and all backslashes must be doubled. "
+"Following this rule the path: ``C:\\tmp\\test.jpg``  becomes ``C:\\\\tmp\\"
+"\\test.jpg`` ."
+msgstr ""
+"在字符串中输入路径时，任何和所有反斜杠都必须加倍。遵循此规则，路径“C:\\tmp"
+"\\test.jpg”将变为“C:\\\\tmp\\\\test.jpg”。"
+
+#: ../../source/toonzscript.rst:58
+msgid ""
+"Even if working on a Windows family OS the slash and the backslash can be used "
+"in the same way, thus the path ``C:\\tmp\\test.jpg``  is equivalent to the path "
+"``C:/tmp/test.jpg`` ."
+msgstr ""
+"即使在Windows系列操作系统上工作，斜线和反斜线也可以以相同的方式使用，因此路径“C:"
+"\\tmp\\test.jpg”等效于路径“C:/tmp/test.jpg”。"
+
+#: ../../source/toonzscript.rst:60
+msgid ""
+"The drag & drop of an external file into the console generates a string "
+"containing the file’s path and the backslashes are doubled automatically."
+msgstr ""
+"将外部文件拖放到控制台中会生成一个包含文件路径的字符串，反斜杠会自动加倍。"
+
+#: ../../source/toonzscript.rst:62
+msgid ""
+"While you can copy multiple lines of text from the console is allowed only one "
+"line paste."
+msgstr "虽然您可以从控制台复制多行文本，但只允许粘贴一行。"
+
+#: ../../source/toonzscript.rst:68
+msgid "ToonzScript specifications"
+msgstr "ToonzScript规范"
+
+#: ../../source/toonzscript.rst:69
+msgid ""
+"Built on the foundaments of ECMAScript, ToonzScript retains a degree of "
+"similarity to the JavaScript syntax but, at the same time, implements some "
+"functions and several classes specifically built to make easier the interaction "
+"with the OpenToonz software architecture. Here follows the list of the "
+"ToonzScript specifications:"
+msgstr ""
+"ToonzScript建立在ECMAScript的基础上，保留了与JavaScript语法的某种程度的相似性，"
+"但同时实现了一些专门构建的函数和几个类，以使与OpenToonz软件架构的交互更容易。以"
+"下是ToonzScript规范列表："
+
+#: ../../source/toonzscript.rst:75
+msgid "Commands"
+msgstr "Commands"
+
+#: ../../source/toonzscript.rst
+msgid "**print(arg1, arg2, ...)**: writes a message on console."
+msgstr "**print（arg1，arg2，…）**：在控制台上写入消息。"
+
+#: ../../source/toonzscript.rst
+msgid "The print command doesn’t return the ``undefined``  value."
+msgstr "print命令不返回“undefined”值。"
+
+#: ../../source/toonzscript.rst:79 ../../source/toonzscript.rst:95
+msgid "Example::"
+msgstr "例子：："
+
+#: ../../source/toonzscript.rst
+msgid "**run(filename)**: runs the script saved in filename."
+msgstr "**run（filename）**：运行保存在filename中的脚本。"
+
+#: ../../source/toonzscript.rst
+msgid ""
+"The relative path are referred to the folder \"<opentoonz library>/scripts/\""
+msgstr "相对路径指向文件夹“<opentoonz library>/scripts/”"
+
+#: ../../source/toonzscript.rst:86
+msgid "Examples::"
+msgstr "示例："
+
+#: ../../source/toonzscript.rst
+msgid "**view(image)**: allows to view an image."
+msgstr "**view(image)**: allows to view an image."
+
+#: ../../source/toonzscript.rst
+msgid ""
+"The view command can be legally used in the following context: ``view(new "
+"Image(filename))``"
+msgstr "view命令可以在以下上下文中合法使用：`view（new Image（filename））``"
+
+#: ../../source/toonzscript.rst
+msgid "**view(level)**: allows to view a level."
+msgstr "**视图（级别）**：允许查看级别。"
+
+#: ../../source/toonzscript.rst:99
+msgid ""
+"The variable ``ToonzVersion`` can be used to check the current version of "
+"OpenToonz."
+msgstr "变量“ToonzVersion”可用于检查OpenToonz的当前版本。"
+
+#: ../../source/toonzscript.rst:105
+msgid "Classes"
+msgstr "类"
+
+#: ../../source/toonzscript.rst:106
+msgid "For each class, the related constructor, methods and attibutes are listed."
+msgstr "对于每个类，都列出了相关的构造函数、方法和属性。"
+
+#: ../../source/toonzscript.rst:112
+msgid "File path"
+msgstr "文件路径"
+
+#: ../../source/toonzscript.rst:113
+msgid "contains the path of an object."
+msgstr "包含对象的路径。"
+
+#: ../../source/toonzscript.rst:115 ../../source/toonzscript.rst:176
+#: ../../source/toonzscript.rst:217 ../../source/toonzscript.rst:281
+#: ../../source/toonzscript.rst:376 ../../source/toonzscript.rst:405
+#: ../../source/toonzscript.rst:453 ../../source/toonzscript.rst:500
+#: ../../source/toonzscript.rst:543 ../../source/toonzscript.rst:586
+msgid "**Constructor:**"
+msgstr "**构造器：**"
+
+#: ../../source/toonzscript.rst:117
+msgid "new **FilePath**\\ (path)"
+msgstr "new **FilePath**\\ (path)"
+
+#: ../../source/toonzscript.rst:119 ../../source/toonzscript.rst:180
+#: ../../source/toonzscript.rst:221 ../../source/toonzscript.rst:285
+#: ../../source/toonzscript.rst:380 ../../source/toonzscript.rst:409
+#: ../../source/toonzscript.rst:457 ../../source/toonzscript.rst:504
+#: ../../source/toonzscript.rst:547 ../../source/toonzscript.rst:590
+msgid "**Methods:**"
+msgstr "**Methods:**"
+
+#: ../../source/toonzscript.rst:121
+msgid "path2 = path.\\ **withExtension**\\ (e)"
+msgstr "path2 = path.\\ **withExtension**\\ (e)"
+
+#: ../../source/toonzscript.rst:123
+msgid "path2 = path.\\ **withName**\\ (name)"
+msgstr "path2 = path.\\ **withName**\\ (name)"
+
+#: ../../source/toonzscript.rst:125
+msgid "path2 = path.\\ **withParentDirectory**\\ (d)"
+msgstr "path2 = path.\\ **withParentDirectory**\\ (d)"
+
+#: ../../source/toonzscript.rst:127
+msgid "path2 = path.\\ **concat**\\ (f) - where f can be a FilePath or a string"
+msgstr "path2 = path.\\ **concat**\\ (f) - where f can be a FilePath or a string"
+
+#: ../../source/toonzscript.rst:129
+msgid ""
+"files = path.\\ **files**\\ () - if path is a folder then this method returns "
+"the files inside the folder."
+msgstr ""
+"files = path.\\ **files**\\ () - if path is a folder then this method returns "
+"the files inside the folder."
+
+#: ../../source/toonzscript.rst:131 ../../source/toonzscript.rst:186
+#: ../../source/toonzscript.rst:235 ../../source/toonzscript.rst:317
+#: ../../source/toonzscript.rst:419 ../../source/toonzscript.rst:461
+#: ../../source/toonzscript.rst:508 ../../source/toonzscript.rst:551
+#: ../../source/toonzscript.rst:598
+msgid "**Attributes:**"
+msgstr "**Attributes:**"
+
+#: ../../source/toonzscript.rst:133
+msgid "path.\\ **extension**  - read and write attribute"
+msgstr "path.\\ **extension**  - read and write attribute"
+
+#: ../../source/toonzscript.rst:135
+msgid "path.\\ **name** - read and write attribute"
+msgstr "path.\\ **name** - read and write attribute"
+
+#: ../../source/toonzscript.rst:137
+msgid "path.\\ **parentDirectory** - read and write attribute"
+msgstr "path.\\ **parentDirectory** - read and write attribute"
+
+#: ../../source/toonzscript.rst:139
+msgid "path.\\ **lastModified** - read only attribute"
+msgstr "path.\\ **lastModified** - read only attribute"
+
+#: ../../source/toonzscript.rst:141
+msgid "path.\\ **exists** - read only attribute"
+msgstr "path.\\ **exists** - read only attribute"
+
+#: ../../source/toonzscript.rst:143
+msgid "path.\\ **isDirectory** - read only attribute"
+msgstr "path.\\ **isDirectory** - read only attribute"
+
+#: ../../source/toonzscript.rst:145 ../../source/toonzscript.rst:196
+#: ../../source/toonzscript.rst:245 ../../source/toonzscript.rst:325
+#: ../../source/toonzscript.rst:392 ../../source/toonzscript.rst:423
+#: ../../source/toonzscript.rst:481 ../../source/toonzscript.rst:524
+#: ../../source/toonzscript.rst:561 ../../source/toonzscript.rst:604
+msgid "**Examples**::"
+msgstr "**Examples**::"
+
+#: ../../source/toonzscript.rst:173
+msgid "Image"
+msgstr "Image"
+
+#: ../../source/toonzscript.rst:174
+msgid "contains an image, supported types are: tlv, pli or fullcolor."
+msgstr "包含图像，支持的类型有：tlv、pli或全色。"
+
+#: ../../source/toonzscript.rst:178
+msgid "new **Image**\\ ()  or new **Image**\\ (filename)"
+msgstr "new **Image**\\ ()  or new **Image**\\ (filename)"
+
+#: ../../source/toonzscript.rst:182
+msgid ""
+"img.\\ **save**\\ (filename) - the file extension has to be compatible with the "
+"kind of used level"
+msgstr ""
+"img.\\ **save**\\ (filename) - the file extension has to be compatible with the "
+"kind of used level"
+
+#: ../../source/toonzscript.rst:184
+msgid "img.\\ **load**\\ (filename)"
+msgstr "img.\\ **load**\\ (filename)"
+
+#: ../../source/toonzscript.rst:188
+msgid "img.\\ **width**  - has value 0 if the image is a pli"
+msgstr "img.\\ **width**  - has value 0 if the image is a pli"
+
+#: ../../source/toonzscript.rst:190
+msgid "img.\\ **height** - has value 0 if the image is a pli"
+msgstr "img.\\ **height** - has value 0 if the image is a pli"
+
+#: ../../source/toonzscript.rst:192
+msgid "img.\\ **dpi** - has value 0 if the image is a pli"
+msgstr "img.\\ **dpi** - has value 0 if the image is a pli"
+
+#: ../../source/toonzscript.rst:194
+msgid ""
+"img.\\ **type**  - accepted values (“Empty”, “Raster”, “ToonzRaster”, “Vector”)"
+msgstr ""
+"img.\\ **type**  - accepted values (“Empty”, “Raster”, “ToonzRaster”, “Vector”)"
+
+#: ../../source/toonzscript.rst:214
+msgid "Level"
+msgstr "Level"
+
+#: ../../source/toonzscript.rst:215
+msgid "contains a level, the supported types are: tlv, pli or fullcolor."
+msgstr "包含一个级别，支持的类型有：tlv、pli或全色。"
+
+#: ../../source/toonzscript.rst:219
+msgid "new **Level**\\ ()  or new **Level**\\ (filename)"
+msgstr "new **Level**\\ ()  or new **Level**\\ (filename)"
+
+#: ../../source/toonzscript.rst:223
+msgid "level.\\ **load**\\ (filename)"
+msgstr "level.\\ **load**\\ (filename)"
+
+#: ../../source/toonzscript.rst:225
+msgid ""
+"level.\\ **save**\\ (filename) - the file extension has to be compatible with "
+"the kind of usedlevel"
+msgstr ""
+"level.\\ **save**\\ (filename) - the file extension has to be compatible with "
+"the kind of usedlevel"
+
+#: ../../source/toonzscript.rst:227
+msgid "level.\\ **getFrameIds**\\ () - lists the names of all the frames"
+msgstr "level.\\ **getFrameIds**\\ () - lists the names of all the frames"
+
+#: ../../source/toonzscript.rst:229
+msgid ""
+"level.\\ **getFrame**\\ (frameId) - retrive the image of the specified frame"
+msgstr ""
+"level.\\ **getFrame**\\ (frameId) - retrive the image of the specified frame"
+
+#: ../../source/toonzscript.rst:231
+msgid ""
+"level.\\ **getFrameByIndex**\\ (index) - gets the frame specified by the index "
+"value (first value of index is 0)"
+msgstr ""
+"level.\\ **getFrameByIndex**\\ (index) - gets the frame specified by the index "
+"value (first value of index is 0)"
+
+#: ../../source/toonzscript.rst:233
+msgid ""
+"level.\\ **setFrame**\\ (frameId, image) - sets a frame (if the level is not "
+"empty its content and the type of image has to be compatible)"
+msgstr ""
+"level.\\ **setFrame**\\ (frameId, image) - sets a frame (if the level is not "
+"empty its content and the type of image has to be compatible)"
+
+#: ../../source/toonzscript.rst:237
+msgid "level.\\ **name** - is a read and write attribute"
+msgstr "level.\\ **name** - is a read and write attribute"
+
+#: ../../source/toonzscript.rst:239
+msgid "level.\\ **path** - is a read and write attribute"
+msgstr "level.\\ **path** - is a read and write attribute"
+
+#: ../../source/toonzscript.rst:241
+msgid "level.\\ **frameCount** - is a read only value"
+msgstr "level.\\ **frameCount** - is a read only value"
+
+#: ../../source/toonzscript.rst:243
+msgid ""
+"level.\\ **type**  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read "
+"only value"
+msgstr ""
+"level.\\ **type**  (“Empty”, ”Raster”, ”ToonzRaster”, ”Vector”) - is a read "
+"only value"
+
+#: ../../source/toonzscript.rst:278
+msgid "Scene"
+msgstr "场景"
+
+#: ../../source/toonzscript.rst:279
+msgid "contains a Toonz scene."
+msgstr "contains a Toonz scene."
+
+#: ../../source/toonzscript.rst:283
+msgid "new **Scene**\\ ()  or **new Scene**\\ (filename)"
+msgstr "new **Scene**\\ ()  or **new Scene**\\ (filename)"
+
+#: ../../source/toonzscript.rst:287
+msgid "scene.\\ **load**\\ (filename)"
+msgstr "scene.\\ **load**\\ (filename)"
+
+#: ../../source/toonzscript.rst:289
+msgid "If the path is relative, scenes of the current project are used."
+msgstr "If the path is relative, scenes of the current project are used."
+
+#: ../../source/toonzscript.rst:291
+msgid "scene.\\ **save**\\ (filename)"
+msgstr "scene.\\ **save**\\ (filename)"
+
+#: ../../source/toonzscript.rst:293
+msgid ""
+"scene.\\ **setCel**\\ (row, col, cell) , scene.\\ **setCell**\\ (row, col, "
+"level, frameId)"
+msgstr ""
+"scene.\\ **setCel**\\ (row, col, cell) , scene.\\ **setCell**\\ (row, col, "
+"level, frameId)"
+
+#: ../../source/toonzscript.rst:295
+msgid "``cell``  is the kind of object returned by ``getCell()`` ."
+msgstr "``cell``  is the kind of object returned by ``getCell()`` ."
+
+#: ../../source/toonzscript.rst:297
+msgid ""
+"The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))``"
+msgstr ""
+"The following syntax is allowed ``scene.setCell(1, 0, scene.getCell(0,0))``"
+
+#: ../../source/toonzscript.rst:298
+msgid "To delete a cell: ``scene.setCell(row, col, undefined)``"
+msgstr "To delete a cell: ``scene.setCell(row, col, undefined)``"
+
+#: ../../source/toonzscript.rst:299
+msgid ""
+"``cell``  is a standard JavaScript object that includes the attributes:"
+"``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, "
+"col, {level:a, fid:1})``"
+msgstr ""
+"``cell``  is a standard JavaScript object that includes the attributes:"
+"``level``  and ``fid`` , the following use is allowed: ``scene.setCell(row, "
+"col, {level:a, fid:1})``"
+
+#: ../../source/toonzscript.rst:300
+msgid ""
+"``level`` can be a Level or a level name. The level has to be already in the "
+"scene."
+msgstr ""
+"``level`` can be a Level or a level name. The level has to be already in the "
+"scene."
+
+#: ../../source/toonzscript.rst:301
+msgid "``fid``  supports numeric values or string values as “2” or “2a”."
+msgstr "``fid``  supports numeric values or string values as “2” or “2a”."
+
+#: ../../source/toonzscript.rst:303
+msgid ""
+"cell = scene.\\ **getCell**\\ (row, col) - returns a JavaScript object with "
+"level and fid attributes"
+msgstr ""
+"cell = scene.\\ **getCell**\\ (row, col) - returns a JavaScript object with "
+"level and fid attributes"
+
+#: ../../source/toonzscript.rst:305
+msgid "scene.\\ **insertColumn**\\ (col)"
+msgstr "scene.\\ **insertColumn**\\ (col)"
+
+#: ../../source/toonzscript.rst:307
+msgid "scene.\\ **deleteColumn**\\ (col)"
+msgstr "scene.\\ **deleteColumn**\\ (col)"
+
+#: ../../source/toonzscript.rst:309
+msgid ""
+"scene.\\ **getLevels**\\ () - returns an arrray that contains all the levels "
+"belonging to the scene"
+msgstr ""
+"scene.\\ **getLevels**\\ () - returns an arrray that contains all the levels "
+"belonging to the scene"
+
+#: ../../source/toonzscript.rst:311
+msgid ""
+"scene.\\ **getLevel**\\ (name) - returns the level basing on its name. If a "
+"level using the name specified does not exists the value ``undefined``  is "
+"returned."
+msgstr ""
+"scene.\\ **getLevel**\\ (name) - returns the level basing on its name. If a "
+"level using the name specified does not exists the value ``undefined``  is "
+"returned."
+
+#: ../../source/toonzscript.rst:313
+msgid ""
+"level = scene.\\ **newLevel**\\ (type, name) -  Adds a layer to the scene. Type "
+"can be \"Raster\", \"ToonzRaster\" or \"Vector\". Name must not be already "
+"'used in the scene."
+msgstr ""
+"level = scene.\\ **newLevel**\\ (type, name) -  Adds a layer to the scene. Type "
+"can be \"Raster\", \"ToonzRaster\" or \"Vector\". Name must not be already "
+"'used in the scene."
+
+#: ../../source/toonzscript.rst:315
+msgid ""
+"level = scene.\\ **loadLevel**\\ (name, path) - Load a level (mode '\"links\") "
+"in the scene. The path must exist and be an absolute path.The name must not "
+"have been already used for another level of the scene."
+msgstr ""
+"level = scene.\\ **loadLevel**\\ (name, path) - Load a level (mode '\"links\") "
+"in the scene. The path must exist and be an absolute path.The name must not "
+"have been already used for another level of the scene."
+
+#: ../../source/toonzscript.rst:319
+msgid "scene.\\ **frameCount**  - is a read only value"
+msgstr "scene.\\ **frameCount**  - is a read only value"
+
+#: ../../source/toonzscript.rst:321
+msgid "scene.\\ **columnCount**  - is a read only value"
+msgstr "scene.\\ **columnCount**  - is a read only value"
+
+#: ../../source/toonzscript.rst:373
+msgid "Transform"
+msgstr "Transform"
+
+#: ../../source/toonzscript.rst:374
+msgid ""
+"represents a geometric tansformation (composed by rotation, translation and "
+"scale). Used by ImageBuilder."
+msgstr ""
+"represents a geometric tansformation (composed by rotation, translation and "
+"scale). Used by ImageBuilder."
+
+#: ../../source/toonzscript.rst:378
+msgid "new **Transform**\\ ()"
+msgstr "new **Transform**\\ ()"
+
+#: ../../source/toonzscript.rst:382
+msgid "transform.\\ **translate**\\ (dx, dy)"
+msgstr "transform.\\ **translate**\\ (dx, dy)"
+
+#: ../../source/toonzscript.rst:384
+msgid "transform.\\ **rotate**\\ (degrees)"
+msgstr "transform.\\ **rotate**\\ (degrees)"
+
+#: ../../source/toonzscript.rst:386
+msgid "Positive values correspond to a counterclockwise rotation."
+msgstr "Positive values correspond to a counterclockwise rotation."
+
+#: ../../source/toonzscript.rst:388
+msgid "transform.\\ **scale**\\ (s)"
+msgstr "transform.\\ **scale**\\ (s)"
+
+#: ../../source/toonzscript.rst:390
+msgid "transform.\\ **scale**\\ (sx, sy)"
+msgstr "transform.\\ **scale**\\ (sx, sy)"
+
+#: ../../source/toonzscript.rst:402
+msgid "ImageBuilder"
+msgstr "ImageBuilder"
+
+#: ../../source/toonzscript.rst:403
+msgid ""
+"allows to modify an image (rotate, scale, crop), or to make an over between two "
+"or more images."
+msgstr ""
+"allows to modify an image (rotate, scale, crop), or to make an over between two "
+"or more images."
+
+#: ../../source/toonzscript.rst:407
+msgid "new **ImageBuilder**\\ ()  or new **ImageBuilder**\\ (xres, yres)"
+msgstr "new **ImageBuilder**\\ ()  or new **ImageBuilder**\\ (xres, yres)"
+
+#: ../../source/toonzscript.rst:411
+msgid "builder.\\ **add**\\ (img)"
+msgstr "builder.\\ **add**\\ (img)"
+
+#: ../../source/toonzscript.rst:413
+msgid "builder.\\ **add**\\ (img, transform)"
+msgstr "builder.\\ **add**\\ (img, transform)"
+
+#: ../../source/toonzscript.rst:415
+msgid ""
+"The component of translation of the transform means expressed in pixels for "
+"Raster and Toonz Raster levels, and in Camera Stand units for Vector levels."
+msgstr ""
+"The component of translation of the transform means expressed in pixels for "
+"Raster and Toonz Raster levels, and in Camera Stand units for Vector levels."
+
+#: ../../source/toonzscript.rst:417
+msgid "builder.\\ **fill**\\ (color)"
+msgstr "builder.\\ **fill**\\ (color)"
+
+#: ../../source/toonzscript.rst:421
+msgid "builder.\\ **image**  - returns the actual result."
+msgstr "builder.\\ **image**  - returns the actual result."
+
+#: ../../source/toonzscript.rst:450
+msgid "OutlineVectorizer"
+msgstr "OutlineVectorizer"
+
+#: ../../source/toonzscript.rst:451
+msgid "vectorize raster images using an outline algorithm."
+msgstr "vectorize raster images using an outline algorithm."
+
+#: ../../source/toonzscript.rst:455
+msgid "new **OutlineVectorizer**\\ ()"
+msgstr "new **OutlineVectorizer**\\ ()"
+
+#: ../../source/toonzscript.rst:459 ../../source/toonzscript.rst:506
+msgid ""
+"v.\\ **vectorize**\\ (level or image) - returns the new vectorized level (or "
+"image), supports as input: Raster or Toonz Raster images and levels."
+msgstr ""
+"v.\\ **vectorize**\\ (level or image) - returns the new vectorized level (or "
+"image), supports as input: Raster or Toonz Raster images and levels."
+
+#: ../../source/toonzscript.rst:463 ../../source/toonzscript.rst:512
+msgid "v.\\ **accuracy**"
+msgstr "v.\\ **accuracy**"
+
+#: ../../source/toonzscript.rst:465 ../../source/toonzscript.rst:514
+msgid "v.\\ **despeckling**"
+msgstr "v.\\ **despeckling**"
+
+#: ../../source/toonzscript.rst:467 ../../source/toonzscript.rst:520
+msgid "v.\\ **preservePaintedAreas**"
+msgstr "v.\\ **preservePaintedAreas**"
+
+#: ../../source/toonzscript.rst:469
+msgid "v.\\ **cornerAdherence**"
+msgstr "v.\\ **cornerAdherence**"
+
+#: ../../source/toonzscript.rst:471
+msgid "v.\\ **cornerAngle**"
+msgstr "v.\\ **cornerAngle**"
+
+#: ../../source/toonzscript.rst:473
+msgid "v.\\ **cornerCurveRadius**"
+msgstr "v.\\ **cornerCurveRadius**"
+
+#: ../../source/toonzscript.rst:475
+msgid "v.\\ **maxColors**"
+msgstr "v.\\ **maxColors**"
+
+#: ../../source/toonzscript.rst:477
+msgid "v.\\ **transparentColor**"
+msgstr "v.\\ **transparentColor**"
+
+#: ../../source/toonzscript.rst:479
+msgid "v.\\ **toneThreshold**"
+msgstr "v.\\ **toneThreshold**"
+
+#: ../../source/toonzscript.rst:497
+msgid "CenterlineVectorizer"
+msgstr "CenterlineVectorizer"
+
+#: ../../source/toonzscript.rst:498
+msgid "vectorize raster images using a centerline algorithm."
+msgstr "vectorize raster images using a centerline algorithm."
+
+#: ../../source/toonzscript.rst:502
+msgid "new **CenterlineVectorizer**\\ ()"
+msgstr "new **CenterlineVectorizer**\\ ()"
+
+#: ../../source/toonzscript.rst:510
+msgid "v.\\ **threshold**"
+msgstr "v.\\ **threshold**"
+
+#: ../../source/toonzscript.rst:516
+msgid "v.\\ **maxThickness**"
+msgstr "v.\\ **maxThickness**"
+
+#: ../../source/toonzscript.rst:518
+msgid "v.\\ **thicknessCalibration**"
+msgstr "v.\\ **thicknessCalibration**"
+
+#: ../../source/toonzscript.rst:522
+msgid "v.\\ **addBorder**"
+msgstr "v.\\ **addBorder**"
+
+#: ../../source/toonzscript.rst:540
+msgid "Rasterizer"
+msgstr "Rasterizer"
+
+#: ../../source/toonzscript.rst:541
+msgid "converts vector images into Raster or ToonzRaster images."
+msgstr "converts vector images into Raster or ToonzRaster images."
+
+#: ../../source/toonzscript.rst:545
+msgid "new **Rasterizer**\\ ()"
+msgstr "new **Rasterizer**\\ ()"
+
+#: ../../source/toonzscript.rst:549
+msgid "out = r.\\ **rasterize**\\ (vimg) - converts to raster an image or a level"
+msgstr ""
+"out = r.\\ **rasterize**\\ (vimg) - converts to raster an image or a level"
+
+#: ../../source/toonzscript.rst:553
+msgid ""
+"r.\\ **colorMapped** - if its value is set to True the generated image is of "
+"ToonzRaster type"
+msgstr ""
+"r.\\ **colorMapped** - if its value is set to True the generated image is of "
+"ToonzRaster type"
+
+#: ../../source/toonzscript.rst:555
+msgid "r.\\ **xres**"
+msgstr "r.\\ **xres**"
+
+#: ../../source/toonzscript.rst:557
+msgid "r.\\ **yres**"
+msgstr "r.\\ **yres**"
+
+#: ../../source/toonzscript.rst:559
+msgid "r.\\ **dpi**"
+msgstr "r.\\ **dpi**"
+
+#: ../../source/toonzscript.rst:583
+msgid "Renderer"
+msgstr "Renderer"
+
+#: ../../source/toonzscript.rst:584
+msgid "renders a whole scene or part of a scene, creating levels or images."
+msgstr "renders a whole scene or part of a scene, creating levels or images."
+
+#: ../../source/toonzscript.rst:588
+msgid "new **Renderer**\\ ()"
+msgstr "new **Renderer**\\ ()"
+
+#: ../../source/toonzscript.rst:592
+msgid "level = c.\\ **renderScene**\\ (scene)"
+msgstr "level = c.\\ **renderScene**\\ (scene)"
+
+#: ../../source/toonzscript.rst:594
+msgid "image = c.\\ **renderFrame**\\ (scene, frameIndex)"
+msgstr "image = c.\\ **renderFrame**\\ (scene, frameIndex)"
+
+#: ../../source/toonzscript.rst:596
+msgid "frameIndex starts from 0"
+msgstr "frameIndex starts from 0"
+
+#: ../../source/toonzscript.rst:600
+msgid ""
+"r.\\ **columns** (list of indices of columns to render.  e.g. r.columns = [0,3])"
+msgstr ""
+"r.\\ **columns** (list of indices of columns to render.  e.g. r.columns = [0,3])"
+
+#: ../../source/toonzscript.rst:602
+msgid ""
+"r.\\ **frames** (list of indices of frames to render.  e.g. r.frames = "
+"[0,1,2,3])"
+msgstr ""
+"r.\\ **frames** (list of indices of frames to render.  e.g. r.frames = "
+"[0,1,2,3])"
+
+#: ../../source/toonzscript.rst:632
+msgid "Code examples"
+msgstr "Code examples"
+
+#: ../../source/toonzscript.rst:633
+msgid "Following there are some examples of scripting code:"
+msgstr "Following there are some examples of scripting code:"
+
+#: ../../source/toonzscript.rst:639
+msgid "Outline vectorization"
+msgstr "轮廓矢量化"
+
+#: ../../source/toonzscript.rst:640
+msgid ""
+"This brief script is an example of using the OutlineVectorizer on a single "
+"image. The script is commented, explaining what each section does::"
+msgstr ""
+"这个简短的脚本是在单个图像上使用OutlineVectorizer的示例。脚本有注释，解释了每个"
+"部分的作用："
+
+#: ../../source/toonzscript.rst:679
+msgid "Rotating an image"
+msgstr "旋转图像"
+
+#: ../../source/toonzscript.rst:680
+msgid ""
+"This example explains how to load an image and then create an animation in a "
+"level, rotating the loaded frame::"
+msgstr "此示例解释了如何加载图像，然后在关卡中创建动画，旋转加载的帧："

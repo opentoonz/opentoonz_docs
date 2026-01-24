@@ -1,0 +1,1250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 20:14+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/editing_animation_levels.rst:4
+msgid "Editing Animation Levels"
+msgstr "编辑动画级别"
+
+#: ../../source/editing_animation_levels.rst:5
+msgid ""
+"Once you have created your animation levels, you may need to work on them in "
+"order to add or insert new drawings, or rearrange the frame sequence."
+msgstr ""
+"创建动画级别后，可能需要对其进行处理，以便添加或插入新图形，或重新排列帧序列。"
+
+#: ../../source/editing_animation_levels.rst:7
+msgid ""
+"All the editing can be saved by saving the level, or by saving the scene with "
+"the Save All command, thus automatically saving all of its levels."
+msgstr ""
+"所有编辑都可以通过保存级别或使用“全部保存”命令保存场景来保存，从而自动保存其所有"
+"级别。"
+
+#: ../../source/editing_animation_levels.rst:13
+msgid "Using the Level Strip"
+msgstr "使用水平条"
+
+#: ../../source/editing_animation_levels.rst:14
+msgid ""
+"An animation level can be managed in the Level Strip. The Level Strip shows all "
+"of the drawings of the current level (even drawings not currently exposed in "
+"the Xsheet/Timeline) according to their numbering order."
+msgstr ""
+"动画级别可以在级别条中管理。标高条根据编号顺序显示当前标高的所有图形（即使是当前"
+"未在Xsheet/Timeline中显示的图形）。"
+
+#: ../../source/editing_animation_levels.rst:16
+msgid ""
+"In case a frame range of the animation level has been loaded with the Load "
+"Level dialog, only the frames within the allocated frame range will be visible "
+"in the level strip (see  :ref:`Using the File Browser "
+"<using_the_file_browser>`  )."
+msgstr ""
+"如果已使用“加载级别”对话框加载动画级别的帧范围，则只有分配的帧范围内的帧才会在级"
+"别条中可见（请参阅：ref:“使用文件浏览器<Using_the_File_Browser>”）。"
+
+#: ../../source/editing_animation_levels.rst:18
+msgid ""
+"When a level is selected, each frame of the strip contains a level drawing, "
+"according to the level numbering order. When a frame in the strip is selected, "
+"the related drawing is displayed in the Viewer, replacing any previous "
+"displayed content, to let you work on it more easily."
+msgstr ""
+"选择标高后，根据标高编号顺序，条形图的每一帧都包含一个标高图。当选择条带中的帧"
+"时，相关图形将显示在查看器中，替换之前显示的任何内容，以便您更轻松地处理它。"
+
+#: ../../source/editing_animation_levels.rst:20
+msgid ""
+"When one or more frames are selected you can perform standard cut, copy, paste, "
+"delete and insert operations. New drawings can be added, and any sequence can "
+"be renumbered. From the Level Strip, drawings can be also exposed in the Xsheet/"
+"Timeline."
+msgstr ""
+"当选择一个或多个帧时，您可以执行标准的剪切、复制、粘贴、删除和插入操作。可以添加"
+"新图形，也可以对任何序列进行重新编号。从水平条中，图形也可以在Xsheet/Timeline中"
+"显示。"
+
+#: ../../source/editing_animation_levels.rst:22
+msgid ""
+"When you change the order of the drawings in the Level Strip, or when a drawing "
+"is cut, deleted or inserted, and drawings are exposed in the scene, the Xsheet/"
+"Timeline will continue to contain a reference to that particular frame of the "
+"animation level, whatever its content is. When the Xsheet/Timeline contains a "
+"reference to a drawing that is eliminated in the Level Strip, the level name "
+"and number turn red, to warn you that there is no drawing available for that "
+"cell anymore."
+msgstr ""
+"当您更改“水平条”中图形的顺序，或者当图形被剪切、删除或插入，并且图形在场景中显示"
+"时，Xsheet/Timeline将继续包含对动画级别特定帧的引用，无论其内容是什么。当Xsheet/"
+"Time包含对“水平条》中删除的图形的引用时，级别名称和编号将变为红色，以警告您该单"
+"元格不再有可用的图形。"
+
+#: ../../source/editing_animation_levels.rst:24
+msgid ""
+"The width of the level strip pane cannot be resized freely, because it depends "
+"on the size of the animation level preview icons, but it can be customized in "
+"the Preferences...  →  Interface dialog."
+msgstr ""
+"级别条窗格的宽度不能自由调整大小，因为它取决于动画级别预览图标的大小，但可以"
+"在“首选项”中进行自定义。..  →  界面对话框。"
+
+#: ../../source/editing_animation_levels.rst:26
+msgid "**To edit an animation level in the Level Strip:**"
+msgstr "**要在“级别条”中编辑动画级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:28
+#: ../../source/editing_animation_levels.rst:36
+#: ../../source/editing_animation_levels.rst:52
+#: ../../source/editing_animation_levels.rst:181
+#: ../../source/editing_animation_levels.rst:191
+#: ../../source/editing_animation_levels.rst:285
+#: ../../source/editing_animation_levels.rst:417
+#: ../../source/editing_animation_levels.rst:453
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/editing_animation_levels.rst:30
+msgid ""
+"Select in the Xsheet/Timeline a cell containing a drawing from the animation "
+"level you want to edit."
+msgstr "在Xsheet/Timeline中选择一个包含要编辑的动画级别图形的单元格。"
+
+#: ../../source/editing_animation_levels.rst:32
+msgid ""
+"Right-click the level icon in the Scene Cast and choose Display in Level Strip "
+"from the menu that opens."
+msgstr ""
+"在“场景投射”中的标高图标上单击鼠标右键，然后从打开的菜单中选择“在标高条中显示”。"
+
+#: ../../source/editing_animation_levels.rst:34
+msgid "**To scroll the Level Strip:**"
+msgstr "**要滚动水平条，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:38
+msgid "Middle-click and drag to scroll up or down."
+msgstr "单击鼠标中键并拖动可向上或向下滚动。"
+
+#: ../../source/editing_animation_levels.rst:40
+msgid "Use the mouse wheel to scroll up or down."
+msgstr "使用鼠标滚轮向上或向下滚动。"
+
+#: ../../source/editing_animation_levels.rst:42
+msgid "Use the scrolling bars to scroll only within the actual level extent."
+msgstr "使用滚动条仅在实际级别范围内滚动。"
+
+#: ../../source/editing_animation_levels.rst:44
+msgid "Use the Up Arrow and Down Arrow keys to move one frame up or down."
+msgstr "使用鼠标滚轮向上或向下滚动。"
+
+#: ../../source/editing_animation_levels.rst:46
+msgid ""
+"Use the Page Up and Page Down keys to scroll the visible frames up or down."
+msgstr "使用Page Up和Page Down键向上或向下滚动可见帧。"
+
+#: ../../source/editing_animation_levels.rst:48
+msgid ""
+"Use the Home and End keys to scroll up to the beginning or the end of the level "
+"strip content."
+msgstr "使用Home和End键向上滚动到水平条内容的开头或结尾。"
+
+#: ../../source/editing_animation_levels.rst:50
+msgid "**To select drawings in the Level Strip:**"
+msgstr "**要在标高栏中选择图形，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:54
+msgid "Click a drawing to select it."
+msgstr "单击图形以选择它。"
+
+#: ../../source/editing_animation_levels.rst:56
+msgid "Click and drag to select a series of drawings."
+msgstr "单击并拖动以选择一系列图形。"
+
+#: ../../source/editing_animation_levels.rst:58
+msgid "Shift-click a frame to extend the selection up to that frame."
+msgstr "按住Shift键并单击一个帧，将选择范围扩展到该帧。"
+
+#: ../../source/editing_animation_levels.rst:60
+msgid ""
+"Ctrl-click (PC) or Cmd-click (Mac) the frames to add them to, or remove them "
+"from the selection."
+msgstr "Ctrl键单击（PC）或Cmd键单击（Mac）要将其添加到或从选择中删除的帧。"
+
+#: ../../source/editing_animation_levels.rst:62
+msgid ""
+"Use the Edit  →  **Select All** command to select all of the level drawings."
+msgstr "使用Edit→  **选择“全部**”命令以选择所有标高图形。"
+
+#: ../../source/editing_animation_levels.rst:64
+msgid ""
+"Use the Edit  →  **Invert Selection** command to invert the current selection "
+"of drawings."
+msgstr "使用Edit→  **反转选择**命令可反转当前图形选择。"
+
+#: ../../source/editing_animation_levels.rst:66
+msgid ""
+"The Select All and Invert Selection commands are also available in the menu "
+"that opens when right-clicking in the Level Strip."
+msgstr "在“标高条”中右键单击时打开的菜单中也提供了“全选”和“反转选择”命令。"
+
+#: ../../source/editing_animation_levels.rst:68
+msgid "**To exit the Level Strip editing mode:**"
+msgstr "**要退出“水平条”编辑模式，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:70
+msgid "Click a cell or select a frame in the frames area of the Xsheet/Timeline."
+msgstr "单击单元格或在Xsheet/Timeline的帧区域中选择帧。"
+
+#: ../../source/editing_animation_levels.rst:72
+msgid "**To customize the Level Strip thumbnail size:**"
+msgstr "**要自定义“水平条”缩略图大小，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:74
+msgid "Choose File  →  Preferences...  →  Interface."
+msgstr "选择文件→  偏好。..  →  接口。"
+
+#: ../../source/editing_animation_levels.rst:76
+msgid ""
+"Set the width and height values of the **Level Strip Thumbnail Size** option."
+msgstr "设置**水平条缩略图大小**选项的宽度和高度值。"
+
+#: ../../source/editing_animation_levels.rst:78
+msgid "Restart OpenToonz to make the changes effective."
+msgstr "重新启动OpenToonz以使更改生效。"
+
+#: ../../source/editing_animation_levels.rst:84
+msgid "Editing Level Frames"
+msgstr "编辑标高框架"
+
+#: ../../source/editing_animation_levels.rst:85
+msgid ""
+"The level content can be edited one frame at a time, for example for retouching "
+"some artwork or copying a part of a drawing to a different frame, or several "
+"frames at the same time, for example to rearrange the drawing sequence."
+msgstr ""
+"级别内容可以一次编辑一帧，例如修饰一些艺术品或将图形的一部分复制到不同的帧，或同"
+"时编辑多个帧，例如重新排列图形顺序。"
+
+#: ../../source/editing_animation_levels.rst:87
+msgid "**To edit a drawing of an animation level:**"
+msgstr "**要编辑动画级别的图形，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:89
+msgid ""
+"Select the frame in the Level Strip containing the drawing you want to modify."
+msgstr "在包含要修改的图形的标高栏中选择框架。"
+
+#: ../../source/editing_animation_levels.rst:91
+msgid "Use the tools to edit the drawing in the Viewer."
+msgstr "使用这些工具在查看器中编辑图形。"
+
+#: ../../source/editing_animation_levels.rst:93
+msgid "**To edit drawings of an animation level with the Edit menu commands:**"
+msgstr "**要使用“编辑”菜单命令编辑动画级别的图形，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:95
+#: ../../source/editing_animation_levels.rst:115
+msgid "Select the frames you want to edit."
+msgstr "选择要编辑的帧。"
+
+#: ../../source/editing_animation_levels.rst:97
+#: ../../source/editing_animation_levels.rst:117
+#: ../../source/editing_animation_levels.rst:275
+msgid "Do any of the following:"
+msgstr "执行以下任一操作："
+
+#: ../../source/editing_animation_levels.rst:99
+msgid ""
+"Use the **Copy** command to keep in memory selected drawings for further "
+"operations."
+msgstr "使用**复制**命令将所选图形保存在内存中以供进一步操作。"
+
+#: ../../source/editing_animation_levels.rst:101
+msgid ""
+"Use the **Cut** command to eliminate selected drawings from the animation level "
+"and keep them in memory for further operations. The frames elimination causes a "
+"gap in the level numbering order."
+msgstr ""
+"使用**剪切**命令从动画级别中删除选定的图形，并将其保留在内存中以供进一步操作。帧"
+"消除会导致级别编号顺序出现间隙。"
+
+#: ../../source/editing_animation_levels.rst:103
+msgid ""
+"Use the **Paste** command to paste drawings kept in memory in the animation "
+"level, starting from the selected insertion frame. The operation shifts down "
+"the following frames, and automatically renumbers them. If before the insertion "
+"frame there is a numbering gap, the pasted frames will fill the gap before "
+"starting to shift and renumber the following frames."
+msgstr ""
+"使用**粘贴**命令从选定的插入帧开始粘贴动画级别内存中保存的图形。该操作将以下帧下"
+"移，并自动重新编号。如果在插入帧之前存在编号间隙，则粘贴的帧将在开始移动和重新编"
+"号以下帧之前填充该间隙。"
+
+#: ../../source/editing_animation_levels.rst:105
+msgid ""
+"Use the **Paste Into** command to paste drawings kept in memory in the frames "
+"selected in the level strip, overwriting their content. If the selection "
+"contains less frames than those kept in memory, frames in excess will be "
+"ignored; if the selection contains more frames than those kept in memory, "
+"frames in excess will be left as they are."
+msgstr ""
+"使用**粘贴到**命令将内存中保存的图形粘贴到水平条中选定的帧中，覆盖其内容。如果所"
+"选内容包含的帧少于内存中保存的帧，则多余的帧将被忽略；如果所选内容包含的帧比内存"
+"中保存的帧多，则多余的帧将保持原样。"
+
+#: ../../source/editing_animation_levels.rst:107
+msgid "Use the **Delete** command to delete selected drawings."
+msgstr "使用**删除**命令删除选定的图形。"
+
+#: ../../source/editing_animation_levels.rst:109
+msgid ""
+"Use the **Insert** command to insert empty (white) frames before the selection; "
+"inserted frames will be as many as the selected ones. The operation shifts down "
+"the following frames, and automatically renumbers them."
+msgstr ""
+"使用**插入**命令在选择之前插入空（白色）帧；插入的帧将与所选帧一样多。该操作将以"
+"下帧下移，并自动重新编号。"
+
+#: ../../source/editing_animation_levels.rst:111
+msgid ""
+"All of the Edit menu commands are also available in the menu that opens when "
+"right-clicking in the Level Strip."
+msgstr "在“标高条”中右键单击时打开的菜单中也可以使用所有“编辑”菜单命令。"
+
+#: ../../source/editing_animation_levels.rst:113
+msgid "**To edit drawings of an animation level with the Cells menu commands:**"
+msgstr "**要使用“单元格”菜单命令编辑动画级别的图形，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:119
+msgid "Use the **Reverse** command to invert the order of selected drawings."
+msgstr "使用**反转**命令反转选定图形的顺序。"
+
+#: ../../source/editing_animation_levels.rst:121
+msgid ""
+"Use the **Swing** command to append selected drawings to the end of the "
+"selection in a reversed order. The last drawing of the selection will not be "
+"repeated."
+msgstr ""
+"使用**Swing**命令以相反的顺序将所选图形附加到选择的末尾。所选内容的最后一张图将"
+"不会重复。"
+
+#: ../../source/editing_animation_levels.rst:123
+msgid ""
+"Use the **Step 2**, **Step 3** or **Step 4** command to repeat selected "
+"drawings in order to have a step 2, step 3 or step 4 animation."
+msgstr ""
+"使用**步骤2**、**步骤3**或**步骤4**命令重复所选图形，以获得步骤2、步骤3或步骤4动"
+"画。"
+
+#: ../../source/editing_animation_levels.rst:125
+msgid ""
+"Use the **Each 2**, **Each 3** or **Each 4**, command to preserve only one "
+"drawing each 2, each 3 or each 4, of the selection, and delete the others."
+msgstr ""
+"使用**每2个**、**每3个**或**每4个**命令，仅保留所选内容的每2个、每3个或每4个图"
+"形，并删除其他图形。"
+
+#: ../../source/editing_animation_levels.rst:127
+msgid ""
+"Use the **Duplicate Drawing** command to make a copy of the *first drawing* of "
+"the selection in the following frame. If the following frames already contain "
+"drawings, the duplicated drawing will be inserted by shifting the others down "
+"in the Xsheet (or right in the Timeline)."
+msgstr ""
+"使用**复制图形**命令复制下一帧中所选内容的*第一个图形*。如果以下框架已包含图形，"
+"则将通过在Xsheet中向下（或在Timeline中向右）移动其他框架来插入复制的图形。"
+
+#: ../../source/editing_animation_levels.rst:129
+msgid ""
+"Use the **Merge** command to paste in the current level the drawings copied "
+"from a different level, according to their original frame position and "
+"regardless of the currently selected frames."
+msgstr ""
+"使用**合并**命令将从不同级别复制的图形粘贴到当前级别，根据其原始帧位置，而不管当"
+"前选择的帧。"
+
+#: ../../source/editing_animation_levels.rst:131
+msgid ""
+"All of the Cells menu commands are also available in the menu that opens when "
+"right-clicking in the Level Strip."
+msgstr "在“水平条”中右键单击时打开的菜单中也可以使用所有“单元格”菜单命令。"
+
+#: ../../source/editing_animation_levels.rst:137
+msgid "Renumbering and Adding Frames in a Level"
+msgstr "在级别中重新编号和添加帧"
+
+#: ../../source/editing_animation_levels.rst:138
+msgid ""
+"When you need to add one or several drawings to a level, you first need to "
+"create room for the new drawings. This task can be achieved either using the "
+"**Insert** command (see  :ref:`Editing Level Frames <editing_level_frames>`  ), "
+"or the **Renumber...** dialog."
+msgstr ""
+"当需要将一个或多个图形添加到标高时，首先需要为新图形创建空间。此任务可以使用**插"
+"入**命令（请参阅：ref:`编辑级别框架<Editing_Level_Frames>`）或**重新编号来实"
+"现。..**对话框。"
+
+#: ../../source/editing_animation_levels.rst:140
+msgid ""
+"While the inserting operation automatically shifts the numbering of the "
+"following frames in order to make room for the new ones, the renumbering lets "
+"you control the way frames have to be renumbered."
+msgstr ""
+"虽然插入操作会自动移动以下帧的编号，以便为新帧腾出空间，但重新编号可以让您控制帧"
+"重新编号的方式。"
+
+#: ../../source/editing_animation_levels.rst:142
+msgid ""
+"After the renumbering, drawings are rearranged to have an incremental numbering "
+"in the Level Strip, where blank frames are not considered. For example for a "
+"level where frames 4 and 5 are renumbered 11 and 12, the Level Strip will "
+"display only five frames correctly numbered 1, 2, 3, 11 and 12."
+msgstr ""
+"重新编号后，将重新排列图形，使其在“标高带”中具有增量编号，其中不考虑空白帧。例"
+"如，对于第4帧和第5帧重新编号为11帧和第12帧的级别，级别条将仅显示正确编号为1、2、"
+"3、11和12的五个帧。"
+
+#: ../../source/editing_animation_levels.rst:144
+msgid ""
+"If you need to add a range of frames to a level, for instance for scanning them "
+"or creating some artwork, you can add it with the Add Frames dialog. This "
+"dialog allows you also to insert drawings in a level numbered in an irregular "
+"way, for example after some frames which have been cut or renumbered."
+msgstr ""
+"如果需要将一系列帧添加到某个级别，例如扫描它们或创建一些艺术品，可以使用“添加"
+"帧”对话框添加。此对话框还允许您在以不规则方式编号的级别中插入图形，例如在已剪切"
+"或重新编号的某些帧之后。"
+
+#: ../../source/editing_animation_levels.rst:146
+msgid ""
+"Both the renumbering and the adding frames operation fails if the numbering "
+"assigned to the frames is used by already existing frames."
+msgstr "如果分配给帧的编号被现有帧使用，则重新编号和添加帧操作都会失败。"
+
+#: ../../source/editing_animation_levels.rst:148
+msgid ""
+"If the **Automatically Create Drawings** option is activated in the "
+"Preferences...  →  Drawing dialog, when you want to add a drawing at the end of "
+"the sequence simply select the first grey frame available, and draw in the "
+"Viewer."
+msgstr ""
+"如果在首选项中激活了**自动创建图形**选项。..  →  在“绘图”对话框中，如果要在序列"
+"末尾添加绘图，只需选择第一个可用的灰色边框，然后在查看器中绘图。"
+
+#: ../../source/editing_animation_levels.rst:150
+msgid "**To renumber drawings of an animation level:**"
+msgstr "**要对动画级别的图形重新编号，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:152
+msgid ""
+"Select the drawings you want to renumber; also a non-continuous selection is "
+"allowed."
+msgstr "选择要重新编号的图形；也允许非连续选择。"
+
+#: ../../source/editing_animation_levels.rst:154
+msgid "Select Level  →  **Renumber...**"
+msgstr "选择级别→  **重新编号。..**"
+
+#: ../../source/editing_animation_levels.rst:156
+msgid ""
+"In the dialog that opens set the **Start Frame** number that will be assigned "
+"to the first drawing of the selection, and the **Step** used to number all "
+"following frames in the selection."
+msgstr ""
+"在打开的对话框中，设置将分配给选择的第一个图形的**开始帧**编号，以及用于对选择中"
+"的所有后续帧进行编号的**步骤**。"
+
+#: ../../source/editing_animation_levels.rst:158
+msgid "**To add drawings to an animation level:**"
+msgstr "**要将图形添加到动画级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:160
+msgid "Select Level  →  **Add Frames...**"
+msgstr "选择级别→  **添加框架。..**"
+
+#: ../../source/editing_animation_levels.rst:162
+msgid ""
+"In the dialog that opens sets the frame range you want to add, and the **Step** "
+"used to number the frames in the range."
+msgstr ""
+"在打开的对话框中设置要添加的帧范围，以及用于对该范围内的帧进行编号的**步骤**。"
+
+#: ../../source/editing_animation_levels.rst:164
+msgid ""
+"The Add Frames and Renumber commands are also available in the menu that opens "
+"when right-clicking in the Level Strip."
+msgstr "在“标高条”中右键单击时打开的菜单中也提供了“添加帧”和“重新编号”命令。"
+
+#: ../../source/editing_animation_levels.rst:170
+msgid "Reverting Level Frames to a Previous Version"
+msgstr "将级别帧还原到以前的版本"
+
+#: ../../source/editing_animation_levels.rst:171
+msgid ""
+"In case some mistakes are made during the editing of a level, or during the "
+"painting process, e.g. a drawing section is accidentally deleted, it is "
+"possible to retrieve the last saved version of the level frames."
+msgstr "将级别帧还原到以前的版本"
+
+#: ../../source/editing_animation_levels.rst:173
+msgid ""
+"For Toonz Raster levels generated from a cleanup process, it is also possible "
+"to retrieve the original cleaned up drawings."
+msgstr "对于从清理过程中生成的Toanz光栅级别，也可以检索原始清理后的图形。"
+
+#: ../../source/editing_animation_levels.rst:175
+msgid ""
+"In order to revert to the original cleaned up drawings the Preferences...  →  "
+"Drawing  →  Keep Original Cleaned Up Drawings As Backup option has to be "
+"activated when the cleanup is performed (see  :ref:`Cleaning up Drawings "
+"<cleaning_up_drawings>`  )."
+msgstr ""
+"为了恢复到原始的已清理图形，请使用“首选项”。..  →  绘图→  执行清理时，必须激"
+"活“将原始清理的图形保留为备份”选项（请参阅：ref:“清理图形"
+"<Cleaning_Up_trawings>”）。"
+
+#: ../../source/editing_animation_levels.rst:177
+msgid "**To reload the level drawings to the last saved version:**"
+msgstr "**要将标高图形重新加载到上次保存的版本，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:179
+msgid "In the Level Strip select the drawings you want to reload."
+msgstr "在“标高栏”中选择要重新加载的图形。"
+
+#: ../../source/editing_animation_levels.rst:183
+msgid "Choose Level  →  **Reload**."
+msgstr "选择级别→  **重新加载**。"
+
+#: ../../source/editing_animation_levels.rst:185
+msgid "Right click the selection and choose **Reload** from the menu that opens."
+msgstr "右键单击所选内容，然后从打开的菜单中选择**重新加载**。"
+
+#: ../../source/editing_animation_levels.rst:187
+msgid "**To revert to the original cleaned up drawings:**"
+msgstr "**要恢复到原始的已清理图纸：**"
+
+#: ../../source/editing_animation_levels.rst:189
+msgid "In the Level Strip select the drawings you want to revert."
+msgstr "在“标高条”中选择要还原的图形。"
+
+#: ../../source/editing_animation_levels.rst:193
+msgid "Choose Level  →  **Revert to Cleaned Up**."
+msgstr "选择级别→  **恢复到已清理**。"
+
+#: ../../source/editing_animation_levels.rst:195
+msgid ""
+"Right click the selection and choose **Revert to Cleaned Up** from the menu "
+"that opens."
+msgstr "右键单击所选内容，然后从打开的菜单中选择**恢复到已清理**。"
+
+#: ../../source/editing_animation_levels.rst:201
+msgid "Merging Animation Levels"
+msgstr "合并动画级别"
+
+#: ../../source/editing_animation_levels.rst:202
+msgid ""
+"Toonz Vector levels and standard Raster levels can be easily merged into a "
+"single animation level generated by flattening them according to their stacking "
+"order, using the Xsheet  →  **Merge Levels** command. Toonz Raster levels can "
+"be merged using the Xsheet  →  **Merge TLV Levels** command."
+msgstr ""
+"Toonz矢量级别和标准光栅级别可以很容易地合并到一个动画级别中，该级别是通过使用"
+"Xsheet根据堆叠顺序将它们压平而生成的→  **合并级别**命令。Toonz光栅级别可以使用"
+"Xsheet合并→  **合并TLV级别**命令。"
+
+#: ../../source/editing_animation_levels.rst:204
+msgid ""
+"This can be useful for instance if you are sketching an animation with drawings "
+"repeated in several cells and exposed in several columns, and you want to "
+"generate a single sequence of drawings."
+msgstr ""
+"例如，如果您正在绘制一个动画，其中图形在多个单元格中重复并在多个列中显示，并且您"
+"想生成一个图形序列，则这可能很有用。"
+
+#: ../../source/editing_animation_levels.rst:206
+msgid ""
+"In both cases there is no limit to the number of columns/layers you can merge."
+msgstr "在这两种情况下，您可以合并的列/层的数量都没有限制。"
+
+#: ../../source/editing_animation_levels.rst:212
+msgid "Merging Toonz Vector Levels or Raster Levels"
+msgstr "合并Toonz矢量级别或光栅级别"
+
+#: ../../source/editing_animation_levels.rst:213
+msgid ""
+"Using the Xsheet  →  **Merge Levels** command the number of resulting drawings "
+"will depend on the number of drawings exposed in the first Xsheet column on the "
+"left of the selection (or in the first Timeline layer on the bottom of the "
+"selection). When merging Raster levels, the resolution of the resulting "
+"drawings will depend on the resolution of the drawings exposed in the first "
+"Xsheet column on the left of the selection (or in the bottom Timeline layer on "
+"the bottom of the selection)."
+msgstr ""
+"使用Xsheet→  **合并级别**命令生成的图形数量将取决于所选内容左侧第一个Xsheet列"
+"（或所选内容底部第一个时间线层）中显示的图形数量。合并光栅级别时，生成图形的分辨"
+"率将取决于所选内容左侧第一个Xsheet列（或所选内容底部的底部时间线层）中显示的图形"
+"的分辨率。"
+
+#: ../../source/editing_animation_levels.rst:215
+#: ../../source/editing_animation_levels.rst:243
+msgid "Animation levels are merged according to the following guidelines:"
+msgstr "根据以下准则合并动画级别："
+
+#: ../../source/editing_animation_levels.rst:217
+msgid ""
+"The frame numbering order is followed; this means that all the drawings exposed "
+"at frame 1 will be merged to the drawing exposed at frame 1 of the first column/"
+"layer of the selection."
+msgstr ""
+"遵循帧编号顺序；这意味着在第1帧中显示的所有图形将合并到选择的第一列/层的第1帧显"
+"示的图形中。"
+
+#: ../../source/editing_animation_levels.rst:219
+msgid ""
+"If two different drawings are associated at different frames to the same "
+"drawing exposed in the first column/layer of the selection, only the first one "
+"will be applied."
+msgstr ""
+"如果两个不同的图形在不同的帧处与选择的第一列/层中显示的同一图形相关联，则只应用"
+"第一个图形。"
+
+#: ../../source/editing_animation_levels.rst:221
+msgid ""
+"Drawings not corresponding to any drawing exposed in the first column/layer of "
+"the selection will be ignored."
+msgstr "与选择的第一列/层中显示的任何图纸不对应的图纸将被忽略。"
+
+#: ../../source/editing_animation_levels.rst:223
+msgid ""
+"It is not possible to merge columns/layers if *more than one* level is exposed "
+"in any of them."
+msgstr "如果列/层中的任何一个中暴露了*多个*级别，则无法合并列/层。"
+
+#: ../../source/editing_animation_levels.rst:225
+#: ../../source/editing_animation_levels.rst:251
+msgid ""
+"When levels are merged, any geometrical transformation achieved by editing and "
+"moving the related column or pegbar, will be retained."
+msgstr "合并标高时，通过编辑和移动相关柱或钉杆实现的任何几何变换都将保留。"
+
+#: ../../source/editing_animation_levels.rst:227
+msgid ""
+"For Toonz Vector levels each drawing of the merged levels will be retained as a "
+"*group* of vectors in the resulting level; the palette of the resulting level "
+"will contain all of the styles used in the drawings of the merged levels."
+msgstr ""
+"对于Toont-Vector级别，合并级别的每个图形将在结果级别中保留为一组向量；生成的标高"
+"的调色板将包含合并标高的图形中使用的所有样式。"
+
+#: ../../source/editing_animation_levels.rst:229
+msgid "**To merge animation levels:**"
+msgstr "**要合并动画级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:231
+msgid ""
+"Select the columns/layers where the animation levels you want to merge are "
+"exposed."
+msgstr "选择要合并的动画级别所在的列/层。"
+
+#: ../../source/editing_animation_levels.rst:233
+msgid "Choose Xsheet  →  **Merge Levels**."
+msgstr "选择Xsheet→  **合并级别**。"
+
+#: ../../source/editing_animation_levels.rst:238
+msgid "Merging Toonz Raster Levels"
+msgstr "合并Toonz光栅级别"
+
+#: ../../source/editing_animation_levels.rst:239
+msgid ""
+"The Xsheet  →  **Merge TLV Levels** allows to combine several columns "
+"containing Toonz Raster Levels creating a new TLV level. The merged columns "
+"will be eliminated from the Xsheet/Timeline and replaced with a new TLV level."
+msgstr ""
+"Xsheet→  **合并TLV级别**允许组合包含Toanz光栅级别的多个列，以创建新的TLV级别。合"
+"并的列将从Xsheet/Timeline中删除，并替换为新的TLV级别。"
+
+#: ../../source/editing_animation_levels.rst:241
+msgid ""
+"Using the Xsheet  →  Merge TLV Levels command the number of resulting drawings "
+"will depend on the frames combination of the involved levels. When merging "
+"Toonz Raster levels, the resolution of the resulting level will depend on the "
+"resolution of the drawings exposed in the first Xsheet column on the left of "
+"the selection (or in the first Timeline layer on the bottom of the selection)."
+msgstr ""
+"使用Xsheet→  合并TLV级别命令生成的图形数量将取决于所涉及级别的帧组合。合并Toanz"
+"光栅级别时，生成级别的分辨率将取决于所选内容左侧第一个Xsheet列（或所选内容底部第"
+"一个Timeline层）中显示的图形的分辨率。"
+
+#: ../../source/editing_animation_levels.rst:245
+msgid ""
+"The  frame numbering order is followed; this means that the merged level will "
+"be created following the frames numbering."
+msgstr "遵循帧编号顺序；这意味着合并后的级别将按照帧编号创建。"
+
+#: ../../source/editing_animation_levels.rst:247
+msgid ""
+"If a combination of drawings will be reused, the drawing previously created "
+"will be reused."
+msgstr "如果将重复使用图形组合，则将重复使用以前创建的图形。"
+
+#: ../../source/editing_animation_levels.rst:249
+msgid "Also, the palettes of the selected levels will be merged."
+msgstr "此外，所选级别的调色板也将被合并。"
+
+#: ../../source/editing_animation_levels.rst:253
+msgid ""
+"**It is not possible to merge columns/layers if more than one level is exposed "
+"in any of them.**"
+msgstr "**如果任何列/层中暴露了多个级别，则无法合并列/层**"
+
+#: ../../source/editing_animation_levels.rst:255
+msgid "**To merge Toonz Raster (TLV) levels:**"
+msgstr "**要合并Toanz光栅（TLV）级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:257
+msgid ""
+"Select two ore more columns/layers where the levels you want to merge are "
+"exposed."
+msgstr "选择两个或更多列/层，在其中显示要合并的级别。"
+
+#: ../../source/editing_animation_levels.rst:259
+msgid "Choose Xsheet  →  **Merge TLV Levels**"
+msgstr "选择Xsheet→  **合并TLV级别**"
+
+#: ../../source/editing_animation_levels.rst:261
+msgid ""
+"Define the **File Name** and **Save in** location in the pop up that opens and "
+"press **Apply**."
+msgstr "在打开的弹出窗口中定义**文件名**和**保存在**位置，然后按**应用**。"
+
+#: ../../source/editing_animation_levels.rst:266
+msgid "Processing Levels"
+msgstr "处理级别"
+
+#: ../../source/editing_animation_levels.rst:267
+msgid ""
+"Some commands are available to process Raster level images in order to adjust "
+"their brightness and contrast, to fade their colors toward a defined set of "
+"Red, Green, Blue and Alpha values, to adjust their levels or to binarize them. "
+"The **Adjust Thickness** command is available to modify the thickness of the "
+"lines in Toonz Vector Levels only."
+msgstr ""
+"一些命令可用于处理光栅级图像，以调整其亮度和对比度，将其颜色淡化为一组定义的红、"
+"绿、蓝和阿尔法值，调整其级别或将其二值化。**调整厚度**命令仅可用于修改Toanz矢量"
+"级别中线条的厚度。"
+
+#: ../../source/editing_animation_levels.rst:269
+msgid ""
+"A preview area is available to check the result of the applied processing: you "
+"can navigate its content and set its size."
+msgstr "预览区域可用于检查应用处理的结果：您可以浏览其内容并设置其大小。"
+
+#: ../../source/editing_animation_levels.rst:271
+msgid ""
+"The processed images are stored in the cache and will be saved on disk by using "
+"the **Save Level**, **Save All Levels**, or **Save All** commands."
+msgstr ""
+"处理后的图像存储在缓存中，并将使用**保存级别**、**保存所有级别**或**保存所有**命"
+"令保存在磁盘上。"
+
+#: ../../source/editing_animation_levels.rst:273
+msgid "**To resize the preview area:**"
+msgstr "**要调整预览区域的大小，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:277
+msgid "Click and drag the horizontal separator."
+msgstr "单击并拖动水平分隔符。"
+
+#: ../../source/editing_animation_levels.rst:279
+msgid ""
+"Click and drag the separator toward the window border to hide the preview area."
+msgstr "单击并将分隔符拖动到窗口边框以隐藏预览区域。"
+
+#: ../../source/editing_animation_levels.rst:281
+msgid ""
+"Click and drag the separator collapsed to the window border toward the window "
+"center to display again the preview area."
+msgstr "单击并将收拢的分隔符向窗口中心拖动到窗口边框，以再次显示预览区域。"
+
+#: ../../source/editing_animation_levels.rst:283
+msgid "**To navigate the preview area:**"
+msgstr "**要浏览预览区域，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:287
+msgid ""
+"Use the mouse wheel, or the zoom shortcut keys (by default + and - keys) to "
+"zoom in and zoom out."
+msgstr "使用鼠标滚轮或缩放快捷键（默认情况下为+和-键）进行放大和缩小。"
+
+#: ../../source/editing_animation_levels.rst:289
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "单击鼠标中键并拖动可向任何方向滚动。"
+
+#: ../../source/editing_animation_levels.rst:291
+msgid ""
+"Use the reset view shortcut (by default the 0 key) to display preview at its "
+"actual size."
+msgstr "使用重置视图快捷方式（默认情况下为0键）以实际大小显示预览。"
+
+#: ../../source/editing_animation_levels.rst:296
+msgid "Brightness and Contrast"
+msgstr "亮度和对比度"
+
+#: ../../source/editing_animation_levels.rst:297
+msgid ""
+"In case it is needed to adjust drawings in order to increase the darkness and "
+"the opacity of the drawing, it is possible to process them by calibrating the "
+"brightness and contrast.This is available only for raster levels."
+msgstr ""
+"如果需要调整图形以增加图形的暗度和不透明度，可以通过校准亮度和对比度来处理它们。"
+"这仅适用于光栅级别。"
+
+#: ../../source/editing_animation_levels.rst:299
+msgid "**To process drawings brightness and contrast:**"
+msgstr "**要处理图形亮度和对比度：**"
+
+#: ../../source/editing_animation_levels.rst:301
+#: ../../source/editing_animation_levels.rst:317
+#: ../../source/editing_animation_levels.rst:395
+msgid ""
+"Select the level frames to process in the Xsheet/Timeline or the Level Strip."
+msgstr "在X表格/时间线或水平条中选择要处理的水平帧。"
+
+#: ../../source/editing_animation_levels.rst:303
+msgid "Choose Level  →  Adjust  →  **Brightness and Contrast...**"
+msgstr "选择级别→  调整→  **亮度和对比度。..**"
+
+#: ../../source/editing_animation_levels.rst:305
+msgid "In the dialog that opens set the brightness and contrast variation."
+msgstr "在打开的对话框中设置亮度和对比度变化。"
+
+#: ../../source/editing_animation_levels.rst:307
+#: ../../source/editing_animation_levels.rst:323
+#: ../../source/editing_animation_levels.rst:339
+#: ../../source/editing_animation_levels.rst:379
+#: ../../source/editing_animation_levels.rst:403
+msgid "Click the **Apply** button."
+msgstr "单击**应用**按钮。"
+
+#: ../../source/editing_animation_levels.rst:312
+msgid "Antialias"
+msgstr "抗锯齿"
+
+#: ../../source/editing_animation_levels.rst:313
+msgid ""
+"Allows to add antialias or to make it smoother or harder on Raster and Toonz "
+"Raster levels."
+msgstr "允许添加抗锯齿效果，或在光栅和图恩斯光栅级别上使其更平滑或更硬。"
+
+#: ../../source/editing_animation_levels.rst:315
+msgid "**To use the Antialias command:**"
+msgstr "**要使用Antialias命令，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:319
+msgid "Choose Level  →  Adjust  →  **Antialias...**"
+msgstr "选择级别→  调整→  **化名。..**"
+
+#: ../../source/editing_animation_levels.rst:321
+msgid "In the dialog that opens set the **Threshold** and **Softness** values."
+msgstr "在打开的对话框中设置**阈值**和**柔软度**值。"
+
+#: ../../source/editing_animation_levels.rst:328
+msgid "Adjust Levels"
+msgstr "调整级别"
+
+#: ../../source/editing_animation_levels.rst:329
+msgid ""
+"Adjusts the highlights and shadows of the Source content by remapping pixels "
+"intensity according to the Input and Output levels values for the RGB, Red, "
+"Green, Blue and Alpha channels."
+msgstr ""
+"通过根据RGB、红色、绿色、蓝色和Alpha通道的输入和输出级别值重新映射像素强度来调整"
+"源内容的高光和阴影。"
+
+#: ../../source/editing_animation_levels.rst:331
+msgid "**To adjust images levels:**"
+msgstr "**要调整图像级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:333
+#: ../../source/editing_animation_levels.rst:349
+msgid ""
+"Select the level frames to adjust in the Xsheet/Timeline or the Level Strip."
+msgstr "在X表格/时间线或水平条中选择要调整的水平框。"
+
+#: ../../source/editing_animation_levels.rst:335
+msgid "Choose Level  →  Adjust  →  **Adjust Levels...**"
+msgstr "选择级别→  调整→  **调整级别。..**"
+
+#: ../../source/editing_animation_levels.rst:337
+msgid "Adjust the image levels"
+msgstr "调整图像级别"
+
+#: ../../source/editing_animation_levels.rst:344
+msgid "Adjust Thickness"
+msgstr "调整厚度"
+
+#: ../../source/editing_animation_levels.rst:345
+msgid ""
+"The Adjust Thickness command allows to modify the thickness of the selected "
+"lines in the level. If no line is selected the command acts on the whole level, "
+"otherwise it works only on selected lines."
+msgstr ""
+"“调整厚度”命令允许修改标高中选定线的厚度。如果未选择任何行，则该命令在整个级别上"
+"起作用，否则它仅在选定的行上起作用。"
+
+#: ../../source/editing_animation_levels.rst:347
+msgid "**To adjust the thickness of the lines:**"
+msgstr "**要调整线条的粗细，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:351
+msgid "Choose Level  →  Adjust  →  **Adjust Thickness...**"
+msgstr "选择级别→  调整→  **调整厚度。..**"
+
+#: ../../source/editing_animation_levels.rst:353
+msgid ""
+"Choose a mode. The modes are: **Scale Thickness** that scale lines up or down "
+"using a percentage value, **Add Thickness** that add an amount of thickness to "
+"the lines using the current unit, **Costant Thickness** that apply a thickness "
+"value, ignoring its variations, using the current unit."
+msgstr ""
+"选择一种模式。模式有：**缩放厚度**使用百分比值向上或向下缩放线条，**添加厚度**使"
+"用当前单位向线条添加一定量的厚度，**恒定厚度**应用厚度值，忽略其变化，使用当前单"
+"位。"
+
+#: ../../source/editing_animation_levels.rst:355
+msgid "Set **Start** and **End** values."
+msgstr "设置**开始**和**结束**值。"
+
+#: ../../source/editing_animation_levels.rst:357
+msgid "Press the **Apply** button."
+msgstr "按下**应用**按钮。"
+
+#: ../../source/editing_animation_levels.rst:362
+msgid "Color Fade"
+msgstr "颜色褪色"
+
+#: ../../source/editing_animation_levels.rst:363
+msgid ""
+"In case it is needed to adjust the drawing colors it is possible to fade the "
+"drawings toward a color defined by Red, Green, Blue and Alpha values. The "
+"Intensity, expressed as a percentage, ranges from 0 to 100.The original color "
+"will fade to the color you set according with the Intensity parameter. This is "
+"available only for Raster levels."
+msgstr ""
+"如果需要调整图形颜色，可以将图形淡化为由红色、绿色、蓝色和Alpha值定义的颜色。强"
+"度（以百分比表示）的范围为0到100。原始颜色将褪色为您根据强度参数设置的颜色。这仅"
+"适用于光栅级别。"
+
+#: ../../source/editing_animation_levels.rst:365
+msgid "**To fade drawing colors:**"
+msgstr "**要淡化图形颜色，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:367
+msgid "Select the level frames to fade in the Xsheet/Timeline or the Level Strip."
+msgstr "在X表格/时间线或水平条中选择要淡入的水平框。"
+
+#: ../../source/editing_animation_levels.rst:369
+msgid "Choose Level  →  Adjust  →  **Color Fade...**"
+msgstr "选择级别→  调整→  **颜色褪色。..**"
+
+#: ../../source/editing_animation_levels.rst:371
+msgid ""
+"In the dialog that opens set the color you want to fade the selection to, by "
+"doing one of the following:"
+msgstr "在打开的对话框中，通过执行以下操作之一，设置要淡化选择的颜色："
+
+#: ../../source/editing_animation_levels.rst:373
+msgid "Set the **Red**, **Green**, **Blue** and **Alpha** values."
+msgstr "设置**红色**、**绿色**、**蓝色**和**阿尔法**值。"
+
+#: ../../source/editing_animation_levels.rst:375
+msgid ""
+"Click the color thumbnails and use the Style Editor to edit them (see  :ref:"
+"`Editing Styles <editing_styles>`  )."
+msgstr ""
+"单击颜色缩略图，然后使用样式编辑器对其进行编辑（请参阅：ref:`编辑样式"
+"<Editing_Styles>`）。"
+
+#: ../../source/editing_animation_levels.rst:377
+msgid "Move the intensity sliders to set the color values."
+msgstr "移动强度滑块以设置颜色值。"
+
+#: ../../source/editing_animation_levels.rst:384
+msgid "Binarize"
+msgstr "二值化"
+
+#: ../../source/editing_animation_levels.rst:385
+msgid ""
+"Allows you to process images with colored Raster lines, recognizing basic "
+"colors (red, green, blue, cyan, magenta and yellow) plus black. The process "
+"will produce an uniform background color, eliminating shadows and dirty pixels."
+msgstr ""
+"允许您处理带有彩色光栅线的图像，识别基本颜色（红色、绿色、蓝色、青色、品红色和黄"
+"色）和黑色。该过程将产生均匀的背景颜色，消除阴影和脏像素。"
+
+#: ../../source/editing_animation_levels.rst:387
+msgid ""
+"The colored lines are identified and all the pixels belonging to each line are "
+"changed to the maximum value of the identified color. Anti-aliasing is removed."
+msgstr "识别彩色线，并将属于每条线的所有像素更改为所识别颜色的最大值。消除混叠。"
+
+#: ../../source/editing_animation_levels.rst:389
+msgid ""
+"The use of this command is useful to pre-process scanned images, in order to "
+"simplify the Cleanup process."
+msgstr "使用此命令可用于预处理扫描图像，以简化清理过程。"
+
+#: ../../source/editing_animation_levels.rst:391
+msgid ""
+"The preview is available to check the result. The **Alpha** toggle allows to "
+"produce images with a transparent background."
+msgstr "预览可用于检查结果。**Alpha**切换允许生成具有透明背景的图像。"
+
+#: ../../source/editing_animation_levels.rst:393
+msgid "**To binarize images:**"
+msgstr "**要对图像进行二值化：**"
+
+#: ../../source/editing_animation_levels.rst:397
+msgid "Choose Level  →  Adjust  →  **Binarize...**"
+msgstr "选择级别→  调整→  **二元化。..**"
+
+#: ../../source/editing_animation_levels.rst:399
+msgid "Activate the **Preview** toggle to check the result."
+msgstr "激活**预览**切换以检查结果。"
+
+#: ../../source/editing_animation_levels.rst:401
+msgid "Activate the **Alpha** toggle if you need transparent background."
+msgstr "如果需要透明背景，请激活**Alpha**切换。"
+
+#: ../../source/editing_animation_levels.rst:408
+msgid "Saving Levels"
+msgstr "Saving Levels"
+
+#: ../../source/editing_animation_levels.rst:409
+msgid ""
+"All the editing performed in the Level Strip is not saved until you manually "
+"save the level. You can also automatically save all of the editing done on any "
+"level of the Xsheet/Timeline by saving the scene using the **Save All** command "
+"(see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  )."
+msgstr ""
+"在手动保存标高之前，在标高栏中执行的所有编辑都不会保存。您还可以通过使用**全部保"
+"存**命令保存场景，自动保存在Xsheet/Timeline的任何级别上完成的所有编辑（请参阅："
+"ref:“保存和加载场景<saveg_and_Loading_Scenes>”）。"
+
+#: ../../source/editing_animation_levels.rst:411
+msgid ""
+"When saving an animation level it is possible to automatically create a backup "
+"file of the previous version by setting the **Backup Scene and Animation Levels "
+"when Saving** option in the Preferences...  →  Saving dialog section. The "
+"backup version will be created in the same location where the level is saved, "
+"and will have an **_backup** suffix."
+msgstr ""
+"保存动画级别时，可以通过在“首选项”中设置“保存时备份场景和动画级别”选项，自动创建"
+"以前版本的备份文件。..  →  保存对话框部分。备份版本将在保存级别的同一位置创建，"
+"并具有**_backup**后缀。"
+
+#: ../../source/editing_animation_levels.rst:413
+msgid ""
+"An asterisk after the level name in the Level Strip title bar denotes that "
+"there are unsaved changes for the current level."
+msgstr "标高栏标题栏中标高名称后的星号表示当前标高有未保存的更改。"
+
+#: ../../source/editing_animation_levels.rst:415
+msgid "**To save the current level:**"
+msgstr "**要保存当前级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:419
+msgid "Choose Level  →  **Save Level**."
+msgstr "Choose Level  →  **Save Level**."
+
+#: ../../source/editing_animation_levels.rst:421
+msgid ""
+"Right-click in the Scene Cast and choose **Save Level** from the menu that "
+"opens."
+msgstr "在“场景投射”中单击鼠标右键，然后从打开的菜单中选择**保存级别**。"
+
+#: ../../source/editing_animation_levels.rst:423
+msgid ""
+"**To save the current level with a different name in a different location:**"
+msgstr "**要将当前级别以其他名称保存在其他位置，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:425
+msgid "Choose Level  →  **Save Level As...**"
+msgstr "选择级别→  **将级别另存为**"
+
+#: ../../source/editing_animation_levels.rst:427
+msgid ""
+"In the file browser that opens select a location and name for the level you "
+"want to save, and click the **Save** button."
+msgstr ""
+"在打开的文件浏览器中，为要保存的级别选择位置和名称，然后单击**保存**按钮。"
+
+#: ../../source/editing_animation_levels.rst:429
+msgid ""
+"The **Save Level As...** command creates a copy of the level with a different "
+"file name and location, but *does not* change the name and location of the "
+"level used in the scene."
+msgstr ""
+"**将级别另存为…**命令使用不同的文件名和位置创建级别的副本，但*不会*更改场景中使"
+"用的级别的名称和位置。"
+
+#: ../../source/editing_animation_levels.rst:434
+msgid "Exporting Levels"
+msgstr "Exporting Levels"
+
+#: ../../source/editing_animation_levels.rst:435
+msgid ""
+"Animation levels created with OpenToonz can be exported in a variety of image "
+"file formats, in order to be used in third-party software. The levels are "
+"exported as a sequence of files named with a progressive four-digits number "
+"written between the file name and the file extension, e.g. ``animation.0001."
+"tif`` , ``animation.0002.tif`` , etc. or a single file in case of the .TLV "
+"format. File formats available are BMP, JPG, PNG, TGA ,TIF and TLV (the .TLV "
+"format is available only to export vector levels (.PLI); aditional options for "
+"the chosen format can be set in the same way as to when using the Render  →  "
+"Output Settings... dialog (see  :ref:`Choosing the Output Settings "
+"<choosing_the_output_settings>`  )."
+msgstr ""
+"使用OpenToonz创建的动画级别可以以各种图像文件格式导出，以便在第三方软件中使用。"
+"这些级别以一系列文件的形式导出，文件名和文件扩展名之间写有递增的四位数，例"
+"如“animation.0001.tif”、“animation-0002.tif”等，如果是，则导出为单个文件。TLV格"
+"式。可用的文件格式有BMP、JPG、PNG、TGA、TIF和TLV（.TLV格式仅适用于导出矢量级别"
+"（.PLI）；可以使用与使用“渲染”时相同的方式设置所选格式的其他选项→  输出设置。.."
+"对话框（请参阅：ref:`选择输出设置<Choosing_the_Output_Settings>`）。"
+
+#: ../../source/editing_animation_levels.rst:437
+msgid ""
+"When exporting Vector levels, the size and resolution of the exported sequence "
+"can be defined in the **Export Level...** dialog. The default size and "
+"resolution are those defined in the Camera Settings window, and the preview of "
+"the resulting image is visible in the preview area of the **Export Options** "
+"tab, to understand how the exported images will be cropped (see  :ref:`Defining "
+"Camera Settings <defining_camera_settings>`  ). The size of the exported image "
+"can be changed by entering a scale value in the **Scale** field."
+msgstr ""
+"导出矢量级别时，可以在**导出级别中定义导出序列的大小和分辨率。..**对话框。默认大"
+"小和分辨率是在“相机设置”窗口中定义的，在**导出选项**选项卡的预览区域中可以看到结"
+"果图像的预览，以了解导出图像的裁剪方式（请参阅：ref:“定义相机设置"
+"<Defining_Camera_Settings>”）。通过在**缩放**字段中输入缩放值，可以更改导出图像"
+"的大小。"
+
+#: ../../source/editing_animation_levels.rst:439
+msgid ""
+"Any trucking, resizing and animation of the camera is not considered when "
+"exporting Vector levels."
+msgstr "导出矢量级别时，不考虑相机的任何移动、调整大小和动画。"
+
+#: ../../source/editing_animation_levels.rst:441
+msgid ""
+"The **Retas Compliant** option can be used to automatically name the exported "
+"sequence with a a progressive four-digits number suffix before the file "
+"extension (e.g. ``animation0001.tga`` , ``animation0002.tga`` , etc.) and set "
+"the exporting format to TGA."
+msgstr ""
+"**Retas Compliant**选项可用于在文件扩展名前自动命名导出序列，后缀为递增的四位数"
+"（例如“animation0001.tga”、“animation00002.tga”等），并将导出格式设置为tga。"
+
+#: ../../source/editing_animation_levels.rst:443
+msgid ""
+"**Background Color** option allows to set the RGBA values of the background "
+"color."
+msgstr "**背景颜色**选项允许设置背景颜色的RGBA值。"
+
+#: ../../source/editing_animation_levels.rst:445
+msgid ""
+"The **No Antialias** option allows to remove the antialiasing from the exported "
+"sequence."
+msgstr "**无抗锯齿**选项允许从导出序列中删除抗锯齿。"
+
+#: ../../source/editing_animation_levels.rst:447
+msgid "**To export the current level:**"
+msgstr "**要导出当前级别，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:449
+msgid "Choose Level  →  **Export Level...**"
+msgstr "Choose Level  →  **Export Level...**"
+
+#: ../../source/editing_animation_levels.rst:451
+msgid ""
+"In the **File Browser** tab, select the location and name of the level you want "
+"to save."
+msgstr "在**文件浏览器**选项卡中，选择要保存的级别的位置和名称。"
+
+#: ../../source/editing_animation_levels.rst:455
+msgid "Choose the file format you want the exported level to have."
+msgstr "选择导出级别所需的文件格式。"
+
+#: ../../source/editing_animation_levels.rst:457
+msgid ""
+"Activate the **Retas Compliant** option to export the level in the same format "
+"and with the same options that the Retas software uses, when exporting painted "
+"drawings."
+msgstr ""
+"激活**Retas Compliant**选项，以导出绘制图形时Retas软件使用的相同格式和相同选项导"
+"出标高。"
+
+#: ../../source/editing_animation_levels.rst:459
+msgid ""
+"In the **Export Options** tab, set the RGBA values for the background color."
+msgstr "在**导出选项**选项卡中，设置背景颜色的RGBA值。"
+
+#: ../../source/editing_animation_levels.rst:461
+msgid ""
+"Activate the **No Antialias** option if you want to remove the anitialias from "
+"the exported levels sequence images."
+msgstr "如果要从导出的级别序列图像中删除Antialias，请激活**No Antialias**选项。"
+
+#: ../../source/editing_animation_levels.rst:463
+msgid "If you are exporting a Toonz Vector Level:"
+msgstr "如果要导出Toanz矢量级别："
+
+#: ../../source/editing_animation_levels.rst:465
+msgid "Set the output size using the **Vectors Export Box** section options."
+msgstr "使用**矢量导出框**部分选项设置输出大小。"
+
+#: ../../source/editing_animation_levels.rst:467
+msgid "Set **Start** and **End** percentage values for the lines thickness."
+msgstr "设置线条粗细的**开始**和**结束**百分比值。"
+
+#: ../../source/editing_animation_levels.rst:469
+msgid "Click the **Export** button."
+msgstr "单击**导出**按钮。"
+
+#: ../../source/editing_animation_levels.rst:471
+msgid ""
+"The Export Level command creates a new version of the level with a different "
+"file name, location and format, but does not change the name, location and "
+"format of the level used in the scene."
+msgstr ""
+"“导出标高”命令使用不同的文件名、位置和格式创建新版本的标高，但不会更改场景中使用"
+"的标高的名称、位置和形式。"
+
+#: ../../source/editing_animation_levels.rst:473
+msgid "**To set the file format options:**"
+msgstr "**要设置文件格式选项，请执行以下操作：**"
+
+#: ../../source/editing_animation_levels.rst:475
+msgid "At the bottom of the window, choose a file **Format** from the dropdown."
+msgstr "在窗口底部，从下拉列表中选择一个文件**格式**。"
+
+#: ../../source/editing_animation_levels.rst:477
+msgid ""
+"Press the **Options** button for setting additional options for the format "
+"previously chosen."
+msgstr "按**选项**按钮为之前选择的格式设置其他选项。"

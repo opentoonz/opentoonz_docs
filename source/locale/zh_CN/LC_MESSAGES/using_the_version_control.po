@@ -1,0 +1,1075 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 16:43+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/using_the_version_control.rst:4
+#: ../../source/using_the_version_control.rst:204
+msgid "Using the Version Control System"
+msgstr "使用版本控制系统"
+
+#: ../../source/using_the_version_control.rst:5
+msgid ""
+"The version control system keeps in a central repository a constant history of "
+"revisions for every file in the production database."
+msgstr "版本控制系统在中央存储库中保存生产数据库中每个文件的不断修订历史。"
+
+#: ../../source/using_the_version_control.rst:7
+msgid ""
+"The **central repository** must be located in a shared resource (that can be a "
+"computer in your local network or an internet-based repository), while the "
+"local copy of files, called **working copy**, at a specific time or revision, "
+"should be located on the computer you use."
+msgstr ""
+"**中央存储库**必须位于共享资源中（可以是本地网络中的计算机或基于互联网的存储"
+"库），而文件的本地副本，即特定时间或版本的**工作副本**，应位于您使用的计算机上。"
+
+#: ../../source/using_the_version_control.rst:9
+msgid ""
+"When you need to work on a file, you can *get* it from the central repository "
+"to your working copy, and *edit* it; when you finish working on the file and "
+"you want to submit the changes, you can *put* it back from your working copy to "
+"the central repository."
+msgstr ""
+"当你需要处理一个文件时，你可以从中央存储库*获取*到*你的工作副本，并*编辑*它；当"
+"您完成对文件的处理并希望提交更改时，您可以将其从工作副本放回中央存储库。"
+
+#: ../../source/using_the_version_control.rst:11
+msgid ""
+"The file you *put* will be saved as the last revision of the file, while the "
+"previous revisions will be retained as file history, and all the users sharing "
+"the same central repository can *get* if from there. In case a previous version "
+"of the file is needed, it is always possible to retrieve it from the central "
+"repository."
+msgstr ""
+"您*放置*的文件将保存为文件的最后一个版本，而之前的版本将保留为文件历史记录，共享"
+"同一中央存储库的所有用户都可以从那里*获取*。如果需要文件的先前版本，始终可以从中"
+"央存储库中检索它。"
+
+#: ../../source/using_the_version_control.rst:13
+msgid ""
+"OpenToonz supports the **Subversion** version control system, which is one of "
+"the most popular version control systems, used in many high-scale open source "
+"projects."
+msgstr ""
+"OpenToonz支持**Subversion**版本控制系统，这是最流行的版本控制系统之一，用于许多"
+"大规模的开源项目。"
+
+#: ../../source/using_the_version_control.rst:15
+msgid ""
+"The *central repository* defined for your version control system behaves "
+"exactly as an OpenToonz projectroot, therefore the project management under the "
+"version control system is the same, only referencing to the central repository "
+"instead of the projectroot (see  :ref:`Managing Projects "
+"<managing_projects>`  )."
+msgstr ""
+"为您的版本控制系统定义的*中央存储库*的行为与OpenToonz项目根完全相同，因此版本控"
+"制系统下的项目管理是相同的，只引用中央存储库而不是项目根（请参阅：ref:“管理项目"
+"<manageing_Projects>”）。"
+
+#: ../../source/using_the_version_control.rst:21
+msgid "Installing the Version Control System"
+msgstr "安装版本控制系统"
+
+#: ../../source/using_the_version_control.rst:22
+msgid ""
+"The version control system works as a client/server tool: the server stores all "
+"of your files in a central repository, and a client is used to *get* files to "
+"your working copy and *put* file changes to the server."
+msgstr ""
+"版本控制系统作为客户端/服务器工具工作：服务器将您的所有文件存储在中央存储库中，"
+"客户端用于将*文件获取到您的工作副本，并将*文件更改放入服务器。"
+
+#: ../../source/using_the_version_control.rst:25
+msgid "Installing the Version Control Server"
+msgstr "安装版本控制系统"
+
+#: ../../source/using_the_version_control.rst:27
+msgid ""
+"It's possible to configure a computer in your local network as the version "
+"control server by installing **Subversion 1.6** or later, or it's possible to "
+"use an on-line service (e.g. Assembla)."
+msgstr ""
+"通过安装**Subversion 1.6**或更高版本，可以将本地网络中的计算机配置为版本控制服务"
+"器，也可以使用在线服务（例如Assembla）。"
+
+#: ../../source/using_the_version_control.rst:29
+msgid ""
+"You can go to the `Subversion starting page <http://subversion.apache.org/>`_ "
+"for downloading it."
+msgstr "您可以转到“Subversion起始页”<http://subversion.apache.org/>`_下载它。"
+
+#: ../../source/using_the_version_control.rst:31
+msgid "Contact your system administrator to configure a version control server."
+msgstr "请与系统管理员联系以配置版本控制服务器。"
+
+#: ../../source/using_the_version_control.rst:37
+msgid "Installing the Version Control Client on Windows"
+msgstr "在Windows上安装版本控制客户端"
+
+#: ../../source/using_the_version_control.rst:38
+msgid ""
+"On Windows the setup of a version control client requires the download and "
+"installation of the **Subversion client 1.6** or later."
+msgstr ""
+"在Windows上，安装版本控制客户端需要下载并安装**Subversion客户端1.6**或更高版本。"
+
+#: ../../source/using_the_version_control.rst:40
+msgid ""
+"You can go to the `Subversion download page <http://subversion.apache.org/"
+"packages.html#windows>`_ for downloading it. There you should look for the "
+"available binary packages and download a version control client for Windows. We "
+"suggest the use of **CollabNet Subversion Command-Line Client**."
+msgstr ""
+"你可以去“Subversion下载页面<http://subversion.apache.org/packages."
+"html#windows>`_您应该在那里查找可用的二进制包，并下载适用于Windows的版本控制客户"
+"端。我们建议使用**CollabNet Subversion命令行客户端**。"
+
+#: ../../source/using_the_version_control.rst:42
+msgid ""
+"If an older Subversion release is used some version control features might not "
+"work."
+msgstr "如果使用较旧的Subversion版本，某些版本控制功能可能无法工作。"
+
+#: ../../source/using_the_version_control.rst:48
+msgid "Installing the Version Control Client on Macintosh"
+msgstr "在Macintosh上安装版本控制客户端"
+
+#: ../../source/using_the_version_control.rst:49
+msgid ""
+"On Macintosh the setup of a version control client depends on the OS version."
+msgstr "在Macintosh上，版本控制客户端的设置取决于操作系统版本。"
+
+#: ../../source/using_the_version_control.rst:51
+msgid ""
+"If the OS is Snow Leopard (version 10.6) or later, the setup requires no "
+"installation as the version control client is included in the operating system."
+msgstr ""
+"如果操作系统是Snow Leopard（10.6版）或更高版本，则安装程序不需要安装，因为版本控"
+"制客户端包含在操作系统中。"
+
+#: ../../source/using_the_version_control.rst:53
+msgid ""
+"If the OS is *older* than Snow Leopard, the setup requires the download and "
+"installation of the **Subversion client 1.6** or later."
+msgstr ""
+"如果操作系统比Snow Leopard*旧*，则安装程序需要下载并安装**Subversion客户端1.6**"
+"或更高版本。"
+
+#: ../../source/using_the_version_control.rst:55
+msgid ""
+"You can go to the `Subversion download page <http://subversion.apache.org/"
+"packages.html#osx>`_ for downloading it. There you should look for the "
+"available binary packages and download a version control client for Macintosh."
+msgstr ""
+"你可以去“Subversion下载页面<http://subversion.apache.org/packages.html#osx>`_您"
+"应该在那里查找可用的二进制包，并下载Macintosh的版本控制客户端。"
+
+#: ../../source/using_the_version_control.rst:57
+msgid ""
+"After the installation is very important to check where Subversion is "
+"installed, as this information is needed to configure the version control in "
+"OpenToonz: this information is displayed in the last page of the installation "
+"process and by default is usually ``/opt/subversion/bin`` ."
+msgstr ""
+"安装后检查Subversion的安装位置非常重要，因为在OpenToonz中配置版本控制需要此信"
+"息：此信息显示在安装过程的最后一页，默认情况下通常为“/opt/Subversion/bin”。"
+
+#: ../../source/using_the_version_control.rst:59
+msgid ""
+"If a Subversion release older than v1.6 is used, some version control features "
+"might not work."
+msgstr "如果使用早于v1.6的Subversion版本，则某些版本控制功能可能无法工作。"
+
+#: ../../source/using_the_version_control.rst:65
+msgid "Configuring the Version Control in OpenToonz"
+msgstr "在OpenToonz中配置版本控制"
+
+#: ../../source/using_the_version_control.rst:66
+msgid ""
+"Once the version control server is configured and the version control client is "
+"installed it's possible to configure OpenToonz in order to use the version "
+"control."
+msgstr ""
+"一旦配置了版本控制服务器并安装了版本控制客户端，就可以配置OpenToonz以使用版本控"
+"制。"
+
+#: ../../source/using_the_version_control.rst:68
+msgid ""
+"In OpenToonz the version control information is stored in the ``versioncontrol."
+"xml``  file located in the ``OpenToonz stuff\\config`` folder. By default the "
+"file has the following content:"
+msgstr ""
+"在OpenToonz中，版本控制信息存储在位于“OpenToonz stuff\\config”文件夹中"
+"的“versioncontrol.xml”文件中。默认情况下，文件包含以下内容："
+
+#: ../../source/using_the_version_control.rst:85
+msgid ""
+"By editing the file with a text editor it's possible to set the information for "
+"the *central repository* and the *working copy* location."
+msgstr "通过使用文本编辑器编辑文件，可以设置*中央存储库*和*工作副本*位置的信息。"
+
+#: ../../source/using_the_version_control.rst:87
+msgid ""
+"Together with the configuration file, version control *users* must be defined "
+"by editing the ``permissions.xml``  file located in the ``OpenToonz stuff"
+"\\config`` folder."
+msgstr ""
+"与配置文件一起，版本控制*用户*必须通过编辑位于“OpenToonz stuff\\config”文件夹中"
+"的“permissions.xml”文件来定义。"
+
+#: ../../source/using_the_version_control.rst:89
+msgid ""
+"The ``versioncontrol.xml``  and ``permissions.xml``  file have to be well-"
+"formed, and so cannot contain an opening tag without its related closing tag, "
+"otherwise OpenToonz will not run. If you decide to edit the files, make a "
+"backup copy first in case you need to revert the file to the original version."
+msgstr ""
+"“versioncontrol.xml”和“permissions.xml”文件必须格式良好，因此不能包含没有相关结"
+"束标记的开始标记，否则OpenToonz将无法运行。如果您决定编辑文件，请先制作一个备份"
+"副本，以防需要将文件还原为原始版本。"
+
+#: ../../source/using_the_version_control.rst:91
+msgid "**To configure the version control in OpenToonz:**"
+msgstr "**要在OpenToonz中配置版本控制，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:93
+#: ../../source/using_the_version_control.rst:148
+msgid ""
+"Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff"
+"\\config`` folder with a text editor."
+msgstr ""
+"使用文本编辑器打开位于“OpenToonz stuff\\config”文件夹中的“versioncontrol.xml”文"
+"件。"
+
+#: ../../source/using_the_version_control.rst:95
+msgid "Delete the line"
+msgstr "删除该行"
+
+#: ../../source/using_the_version_control.rst:97
+msgid "``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN``"
+msgstr "``<!-- REMOVE ENTIRELY THIS LINE TO ENABLE SVN``"
+
+#: ../../source/using_the_version_control.rst:99
+msgid "and the line"
+msgstr "和这行"
+
+#: ../../source/using_the_version_control.rst:101
+msgid "``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``"
+msgstr "``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``"
+
+#: ../../source/using_the_version_control.rst:103
+#: ../../source/using_the_version_control.rst:109
+#: ../../source/using_the_version_control.rst:115
+msgid "In the line"
+msgstr "在行中"
+
+#: ../../source/using_the_version_control.rst:105
+msgid "``<name>PutYourRepositoryName</name>``"
+msgstr "``<name>PutYourRepositoryName</name>``"
+
+#: ../../source/using_the_version_control.rst:107
+msgid ""
+"type between the tags the name you want the repository to have in the OpenToonz "
+"browser."
+msgstr "在标签之间键入您希望存储库在OpenToonz浏览器中具有的名称。"
+
+#: ../../source/using_the_version_control.rst:111
+msgid "``<localPath>putYourWorkingCopyPath</localPath>``"
+msgstr "``<localPath>putYourWorkingCopyPath</localPath>``"
+
+#: ../../source/using_the_version_control.rst:113
+msgid ""
+"type between the tags the path to where you want the working copy to be located "
+"on the local computer (e.g. ``C:\\myworkingcopy\\``  for Windows or ``/"
+"myworkingcopy``  for Macintosh)."
+msgstr ""
+"在标签之间键入您希望工作副本在本地计算机上的位置路径（例如，Windows的“C:"
+"\\myworkingcopy”或Macintosh的“/myworkingcopy”）。"
+
+#: ../../source/using_the_version_control.rst:117
+msgid "``<repoPath>putYourRepositoryPath</repoPath>``"
+msgstr "``<repoPath>putYourRepositoryPath</repoPath>``"
+
+#: ../../source/using_the_version_control.rst:119
+msgid ""
+"type between the tags the URL of the central repository according to how it was "
+"defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/"
+"``  for a repository located in the local network; ``file:///C:/"
+"mySVNrepository``  for a repository located in the local Windows computer or "
+"``file:///mySVNrepository``  for a repository located in the local Macintosh "
+"computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an "
+"internet-based repository)."
+msgstr ""
+"在标签之间键入中央存储库的URL，具体取决于它在版本控制服务器上的定义方式（例如"
+"``http://10.0.0.1/mySVNrepository/``用于位于本地网络中的存储库； ``file:///C:/"
+"mySVNrepository``对于位于本地Windows计算机中的存储库，或``file:///"
+"mySVNrepository``用于位于本地Macintosh计算机中的存储库；以及``https://"
+"subversion.assembla.com/svn/mySVNrepository``用于基于互联网的存储库）。"
+
+#: ../../source/using_the_version_control.rst:121
+msgid ""
+"For Macintosh only, if the OS is *older* than Snow Leopard and you installed "
+"the **Subversion client 1.6** or later, in the line"
+msgstr ""
+"在标签之间键入中央存储库的URL，具体取决于它在版本控制服务器上的定义方式（例如"
+"``http://10.0.0.1/mySVNrepository/``用于位于本地网络中的存储库； ``file:///C:/"
+"mySVNrepository``对于位于本地Windows计算机中的存储库，或``file:///"
+"mySVNrepository``用于位于本地Macintosh计算机中的存储库；以及``https://"
+"subversion.assembla.com/svn/mySVNrepository``用于基于互联网的存储库）。"
+
+#: ../../source/using_the_version_control.rst:123
+msgid "``<svnPath></svnPath>``"
+msgstr "``<svnPath></svnPath>``"
+
+#: ../../source/using_the_version_control.rst:125
+msgid ""
+"type between the tags the path to the folder where Subversion is installed "
+"(this information is displayed in the last page of the installation process and "
+"by default is ``/opt/subversion/bin`` )."
+msgstr ""
+"在标签之间键入安装Subversion的文件夹的路径（此信息显示在安装过程的最后一页，默认"
+"情况下为“/opt/Subversion/bin”）。"
+
+#: ../../source/using_the_version_control.rst:127
+#: ../../source/using_the_version_control.rst:162
+msgid "Save the ``versioncontrol.xml``  file."
+msgstr "保存“versioncontrol.xml”文件。"
+
+#: ../../source/using_the_version_control.rst:130
+msgid "**To define the version control users:**"
+msgstr "**要定义版本控制用户，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:132
+#: ../../source/using_the_version_control.rst:167
+msgid ""
+"Open the ``permissions.xml``  file located in the ``OpenToonz stuff\\config`` "
+"folder with a text editor."
+msgstr ""
+"使用文本编辑器打开位于“OpenToonz stuff\\config”文件夹中的“permissions.xml”文件。"
+
+#: ../../source/using_the_version_control.rst:134
+msgid ""
+"In the user section define a user and assign him the version control user name "
+"and password as configured on the server. For example to assign to the user "
+"JohnDoe the user johnd whose password is johndpassword, add the following user:"
+msgstr ""
+"在用户部分，定义一个用户，并为其分配服务器上配置的版本控制用户名和密码。例如，要"
+"将密码为johndpassword的用户johnd分配给用户JohnDoe，请添加以下用户："
+
+#: ../../source/using_the_version_control.rst:143
+#: ../../source/using_the_version_control.rst:179
+msgid "Save the ``permissions.xml``  file."
+msgstr "保存`permissions.xml`文件。"
+
+#: ../../source/using_the_version_control.rst:146
+msgid "**To define several version control repositories:**"
+msgstr "**要定义多个版本控制存储库，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:150
+msgid "Add after the lines defining a repository the following lines:"
+msgstr "在定义存储库的行之后添加以下行："
+
+#: ../../source/using_the_version_control.rst:160
+msgid "and set the related information."
+msgstr "并设置相关信息。"
+
+#: ../../source/using_the_version_control.rst:165
+msgid "**To define users for different repositories:**"
+msgstr "**要为不同的存储库定义用户，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:169
+msgid ""
+"In the user section assign to a user the version control user name and password "
+"as configured on the server of the second repository. For example to assign to "
+"the user JohnDoe the user johnd2 whose password is johndpassword2 defined for "
+"the second repository, add a ``svn name``  line so that the ``user name``  "
+"section in the ``permissions.xml``  file will look like the following:"
+msgstr ""
+"在用户部分，将第二存储库服务器上配置的版本控制用户名和密码分配给用户。例如，要将"
+"密码为第二个存储库定义的johndpassword2的用户johnd2分配给用户JohnDoe，请添加一"
+"行“svn name”，以便“permissions.xml”文件中的“user name”部分如下："
+
+#: ../../source/using_the_version_control.rst:185
+msgid "Initializing the Version Control in OpenToonz"
+msgstr "在OpenToonz中初始化版本控制"
+
+#: ../../source/using_the_version_control.rst:186
+msgid ""
+"Before starting to use the version control system, it has to be initialized by "
+"setting an option in the **Preferences** dialog and restarting OpenToonz."
+msgstr ""
+"在开始使用版本控制系统之前，必须通过在**首选项**对话框中设置一个选项并重新启动"
+"OpenToonz来初始化它。"
+
+#: ../../source/using_the_version_control.rst:188
+msgid ""
+"At this point the repository will be displayed in the OpenToonz browser, and "
+"you will be able to start using it."
+msgstr "此时，存储库将显示在OpenToonz浏览器中，您将能够开始使用它。"
+
+#: ../../source/using_the_version_control.rst:190
+msgid "**To initialize the version control system:**"
+msgstr "**要初始化版本控制系统：**"
+
+#: ../../source/using_the_version_control.rst:192
+msgid ""
+"In OpenToonz open the Preferences...  →  Version Control dialog section and "
+"activate the **Enable Version Control** option."
+msgstr ""
+"在OpenToonz中打开“首选项”。..  →  版本控制对话框部分，并激活**启用版本控制**选"
+"项。"
+
+#: ../../source/using_the_version_control.rst:194
+msgid ""
+"If the version control is not correctly installed or the configuration file is "
+"not correctly defined, activating the option will prompt a warning message."
+msgstr "如果版本控制安装不正确或配置文件定义不正确，激活该选项将提示警告消息。"
+
+#: ../../source/using_the_version_control.rst:196
+msgid "Quit and restart OpenToonz."
+msgstr "退出并重新启动OpenToonz。"
+
+#: ../../source/using_the_version_control.rst:198
+msgid ""
+"In the OpenToonz browser look for the repository at the end of the folder tree, "
+"named as you defined it in the configuration file; right-click it and choose "
+"**Get** from the menu that opens to establish the connection between the "
+"*central repository* and the local *working copy*."
+msgstr ""
+"在OpenToonz浏览器中，在文件夹树的末尾查找存储库，其名称与您在配置文件中定义的名"
+"称相同；右键单击它，然后从打开的菜单中选择**获取**，以建立*中央存储库*和本地*工"
+"作副本*之间的连接。"
+
+#: ../../source/using_the_version_control.rst:205
+msgid ""
+"The *central repository* and the local *working copy* are displayed in the "
+"OpenToonz browser at the end of the folder tree as one single folder. By "
+"navigating the contents of this folder it's possible to retrieve the folders "
+"and files."
+msgstr ""
+"*中央存储库*和本地*工作副本*在OpenToonz浏览器的文件夹树末尾显示为一个文件夹。通"
+"过浏览此文件夹的内容，可以检索文件夹和文件。"
+
+#: ../../source/using_the_version_control.rst:209
+msgid ""
+"One online repository defined (**svn_test**) hosting the active project "
+"(**mySVNproject**)."
+msgstr ""
+"定义了一个在线存储库（**svn_test**），用于托管活动项目（**mySVNproject**）。"
+
+#: ../../source/using_the_version_control.rst:211
+msgid ""
+"When a folder is selected in the folder tree *a refresh operation occurs "
+"automatically*, to check the status of the folder and its content. As this "
+"operations may require some time according to the connection speed on the local "
+"network or in the Internet, the automatic refresh operation can be disabled."
+msgstr ""
+"当在文件夹树中选择一个文件夹时，会自动执行刷新操作，以检查文件夹及其内容的状态。"
+"由于根据本地网络或互联网上的连接速度，此操作可能需要一些时间，因此可以禁用自动刷"
+"新操作。"
+
+#: ../../source/using_the_version_control.rst:213
+msgid ""
+"If several repositories are defined, each of them will be displayed with the "
+"name previously assigned."
+msgstr "如果定义了多个存储库，则每个存储库都将显示之前分配的名称。"
+
+#: ../../source/using_the_version_control.rst:215
+msgid "**To disable the automatic refresh for folder content:**"
+msgstr "**要禁用文件夹内容的自动刷新，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:217
+msgid "Choose File  →  Preferences...  →  Version Control."
+msgstr "选择文件→  偏好。..  →  版本控制。"
+
+#: ../../source/using_the_version_control.rst:219
+msgid "Deactivate the **Automatically Refresh Folder Contents** option."
+msgstr "停用**自动刷新文件夹内容**选项。"
+
+#: ../../source/using_the_version_control.rst:221
+msgid "**To manually refresh a folder content visualization:**"
+msgstr "**要手动刷新文件夹内容可视化，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:223
+msgid ""
+"Right-click the folder icon in the folder tree and choose **Refresh** from the "
+"menu that opens."
+msgstr "右键单击文件夹树中的文件夹图标，然后从打开的菜单中选择**刷新**。"
+
+#: ../../source/using_the_version_control.rst:229
+msgid "Getting and Putting Folders and Files"
+msgstr ""
+"右键单击文件夹树中的文件夹图标，然后从打开的菜单中选择**刷新**。获取和放置文件夹"
+"和文件"
+
+#: ../../source/using_the_version_control.rst:230
+msgid ""
+"The basic operations in the version control system involves *getting* files "
+"from the central repository to the local working copy; and then *putting* the "
+"modified files back from the local *working copy* to the *central repository*."
+msgstr ""
+"版本控制系统中的基本操作包括从中央存储库*获取*文件到本地工作副本；然后将修改后的"
+"文件从本地工作副本放回中央存储库。"
+
+#: ../../source/using_the_version_control.rst:232
+msgid "|put|"
+msgstr "|put|"
+
+#: ../../source/using_the_version_control.rst:234
+msgid ""
+"In case you are *putting* folders, in the dialog that opens you can check which "
+"files and folders contained in the selected folder have to be put in the "
+"central repository. Every time files and folders are put, it is also possible "
+"to type a *comment* to let the other users know about s of the performed "
+"modifications."
+msgstr ""
+"如果您正在放置文件夹，在打开的对话框中，您可以检查所选文件夹中包含的哪些文件和文"
+"件夹必须放置在中央存储库中。每次放置文件和文件夹时，也可以键入*注释*，让其他用户"
+"知道所执行的修改。"
+
+#: ../../source/using_the_version_control.rst:236
+msgid "|put_scene|"
+msgstr "|put_scene|"
+
+#: ../../source/using_the_version_control.rst:238
+msgid ""
+"In case you are *getting* or *putting* scene files (TNZ format), in the dialog "
+"that opens it's possible to check the **Get Scene Contents** or the **Put Scene "
+"Contents** option to include with the request, or return back, the materials "
+"used in the scene as well."
+msgstr ""
+"如果您正在*获取*或*放置*场景文件（TNZ格式），在打开的对话框中，可以选中**获取场"
+"景内容**或**放置场景内容**选项，将其包含在请求中，或返回场景中使用的材质。"
+
+#: ../../source/using_the_version_control.rst:240
+msgid ""
+"The first time you *get* a folder not previously available in the *working "
+"copy* (folder with grey icon), you get the files contained in the folder, but "
+"not the sub-folders. The next time you *get* the folder (folder with a colored "
+"icon), you get the entire contents of the folder, including sub-folders and the "
+"related contents."
+msgstr ""
+"第一次*获得*工作副本*中以前不可用的文件夹（灰色图标的文件夹）时，您将获得该文件"
+"夹中包含的文件，但不会获得子文件夹。下次您*获取*文件夹（带有彩色图标的文件夹）"
+"时，您将获得文件夹的全部内容，包括子文件夹和相关内容。"
+
+#: ../../source/using_the_version_control.rst:242
+msgid ""
+"**To get the latest version of a folder or a file from the central repository "
+"to the local working copy:**"
+msgstr ""
+"**要将文件夹或文件的最新版本从中央存储库获取到本地工作副本，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:244
+msgid ""
+"Right-click the folder icon in the folder tree, or the file icon in the "
+"browser, and choose **Get** from the menu that opens."
+msgstr ""
+"右键单击文件夹树中的文件夹图标或浏览器中的文件图标，然后从打开的菜单中选择**获取"
+"**。"
+
+#: ../../source/using_the_version_control.rst:246
+msgid ""
+"In the dialog that opens if you are getting a scene file (TNZ format) activate "
+"the **Get Scene Contents** if you want to get the files used in the scene as "
+"well."
+msgstr ""
+"如果要获取场景文件（TNZ格式），请在打开的对话框中激活**获取场景内容**，如果要同"
+"时获取场景中使用的文件。"
+
+#: ../../source/using_the_version_control.rst:248
+#: ../../source/using_the_version_control.rst:366
+msgid "Click the **Update** button."
+msgstr "单击**更新**按钮。"
+
+#: ../../source/using_the_version_control.rst:250
+msgid ""
+"**To put your modified version of a folder or a file from the local working "
+"copy to the central repository:**"
+msgstr ""
+"**要将文件夹或文件的修改版本从本地工作副本放入中央存储库，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:252
+msgid ""
+"Right-click the folder icon in the folder tree, or the file icon in the "
+"browser, and choose **Put** from the menu that opens."
+msgstr ""
+"右键单击文件夹树中的文件夹图标或浏览器中的文件图标，然后从打开的菜单中选择**放置"
+"**。"
+
+#: ../../source/using_the_version_control.rst:254
+msgid "In the dialog that opens do any of the following:"
+msgstr "在打开的对话框中，执行以下任一操作："
+
+#: ../../source/using_the_version_control.rst:256
+msgid ""
+"If you are putting a folder, check which files and folders contained by the "
+"selected folder have to be put in the central repository."
+msgstr ""
+"如果要放置文件夹，请检查所选文件夹包含的哪些文件和文件夹必须放置在中央存储库中。"
+
+#: ../../source/using_the_version_control.rst:258
+msgid ""
+"If you are putting a scene file (TNZ format) activate the **Put Scene "
+"Contents** if you want to put the files used in the scene as well."
+msgstr ""
+"如果要放置场景文件（TNZ格式），如果要同时放置场景中使用的文件，请激活**放置场景"
+"内容**。"
+
+#: ../../source/using_the_version_control.rst:260
+msgid "Type a comment if required and click the **Put** button."
+msgstr "如果需要，请键入注释，然后单击**放置**按钮。"
+
+#: ../../source/using_the_version_control.rst:266
+msgid "Editing Files"
+msgstr "编辑文件"
+
+#: ../../source/using_the_version_control.rst:267
+msgid ""
+"When using the version control system, in order to modify files you have to put "
+"them in **Edit** mode *before loading them* into OpenToonz; if not, they will "
+"be loaded as *read-only*."
+msgstr ""
+"使用版本控制系统时，为了修改文件，您必须在将文件加载到OpenToonz之前将其置于**编"
+"辑**模式*；如果没有，它们将被加载为只读。"
+
+#: ../../source/using_the_version_control.rst:269
+msgid "|edit|"
+msgstr "|编辑|"
+
+#: ../../source/using_the_version_control.rst:271
+msgid ""
+"The **Edit** operation \"locks\" the file, so only the user running the command "
+"will be able to modify it (preventing other users using the same *central "
+"repository* from unlocking it and being able to modify it). At the moment a "
+"file is about to be edited, it's possible to type in a *Comment*, to let the "
+"other users know about your editing operation."
+msgstr ""
+"**编辑**操作“锁定”文件，因此只有运行该命令的用户才能修改它（防止使用同一*中央存"
+"储库*的其他用户解锁并修改它）。当文件即将被编辑时，可以键入*注释*，让其他用户知"
+"道您的编辑操作。"
+
+#: ../../source/using_the_version_control.rst:273
+msgid "|edit_scene|"
+msgstr "|edit_scene|"
+
+#: ../../source/using_the_version_control.rst:275
+msgid ""
+"When editing a scene file (TNZ format), in the dialog that opens it's possible "
+"to check the **Edit Scene Contents** option, in order to be able to edit the "
+"materials used in the scene as well. If you choose to edit only the scene file, "
+"or if some material used in the scene is currently being edited by other users "
+"sharing the same central repository, the locked frames of that levels will be "
+"displayed with a forbidden icon in the Level Strip."
+msgstr ""
+"编辑场景文件（TNZ格式）时，在打开的对话框中，可以选中**编辑场景内容**选项，以便"
+"能够编辑场景中使用的材质。如果您选择仅编辑场景文件，或者场景中使用的某些材质当前"
+"正由共享同一中央存储库的其他用户编辑，则该级别的锁定帧将在级别栏中显示为禁用图"
+"标。"
+
+#: ../../source/using_the_version_control.rst:277
+msgid "|edit_frame_range|"
+msgstr "|edit_frame_range|"
+
+#: ../../source/using_the_version_control.rst:279
+msgid ""
+"The **Edit Frame Range** command is available as well, to let a user edit only "
+"the *needed frames* of any Toonz Vector or Toonz Raster animation level. This "
+"way, different users can work at the same time *on different frame ranges* of "
+"the same animation level."
+msgstr ""
+"**编辑帧范围**命令也可用，允许用户仅编辑任何Toonz矢量或Toonz光栅动画级别的*所需"
+"帧*。这样，不同的用户可以同时*在同一动画级别的不同帧范围*上工作。"
+
+#: ../../source/using_the_version_control.rst:281
+msgid "|unlock|"
+msgstr "|unlock|"
+
+#: ../../source/using_the_version_control.rst:283
+msgid ""
+"When you want to release files from the *editing mode*, so that others can work "
+"on them, you can use the **Unlock** command."
+msgstr ""
+"当您想从*编辑模式*中释放文件，以便其他人可以对其进行操作时，可以使用**解锁**命"
+"令。"
+
+#: ../../source/using_the_version_control.rst:285
+msgid ""
+"Files are in read-only mode (or in locked mode) in case a user is *editing* "
+"them, by setting the file system read-only attribute. For this reason, manually "
+"using the OS (instead of the appropriate version control commands) to change "
+"this status, may cause serious inconsistencies in the version control system."
+msgstr ""
+"通过设置文件系统只读属性，如果用户正在*编辑*文件，则文件处于只读模式（或锁定模"
+"式）。因此，手动使用操作系统（而不是适当的版本控制命令）更改此状态可能会导致版本"
+"控制系统中的严重不一致。"
+
+#: ../../source/using_the_version_control.rst:287
+msgid "**To edit an updated file:**"
+msgstr "**要编辑更新的文件，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:289
+#: ../../source/using_the_version_control.rst:297
+msgid "Right-click the file and choose **Edit** from the menu that opens."
+msgstr "右键单击文件，然后从打开的菜单中选择**编辑**。"
+
+#: ../../source/using_the_version_control.rst:291
+#: ../../source/using_the_version_control.rst:299
+msgid ""
+"In the dialog that opens if you are editing a scene file (TNZ format) activate "
+"the **Edit Scene Contents** if you want to edit the files used in the scene as "
+"well."
+msgstr ""
+"在编辑场景文件（TNZ格式）时打开的对话框中，如果要编辑场景中使用的文件，请激活**"
+"编辑场景内容**。"
+
+#: ../../source/using_the_version_control.rst:293
+#: ../../source/using_the_version_control.rst:313
+msgid "Type a comment if required and click the **Edit** button."
+msgstr "如果需要，请键入注释，然后单击**编辑**按钮。"
+
+#: ../../source/using_the_version_control.rst:295
+msgid ""
+"**To edit a file that is older than the version available in the central "
+"repository:**"
+msgstr "**要编辑比中央存储库中可用版本旧的文件，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:301
+msgid "Type a comment if required and do one of the following:"
+msgstr "如果需要，请键入注释，然后执行以下操作之一："
+
+#: ../../source/using_the_version_control.rst:303
+msgid ""
+"Click the **Get and Edit** button to get the latest version of the files and "
+"edit them."
+msgstr "单击**获取和编辑**按钮以获取文件的最新版本并对其进行编辑。"
+
+#: ../../source/using_the_version_control.rst:305
+msgid ""
+"Click the **Edit** button to edit the version of the files that is currently in "
+"your local working copy."
+msgstr "单击**编辑**按钮编辑当前本地工作副本中的文件版本。"
+
+#: ../../source/using_the_version_control.rst:307
+msgid "**To edit only the needed frames of a Toonz level file:**"
+msgstr "**要仅编辑Toanz级别文件所需的帧，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:309
+msgid ""
+"Right-click the file and choose **Edit Frame Range** from the menu that opens."
+msgstr "右键单击该文件，然后从打开的菜单中选择**编辑帧范围**。"
+
+#: ../../source/using_the_version_control.rst:311
+msgid "In the dialog that opens set the frame range you want to edit."
+msgstr "在打开的对话框中设置要编辑的帧范围。"
+
+#: ../../source/using_the_version_control.rst:315
+msgid "**To release a file from the editing mode:**"
+msgstr "**要从编辑模式中释放文件，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:317
+msgid "Right-click the file and choose **Unlock** from the menu that opens."
+msgstr "右键单击文件，然后从打开的菜单中选择**解锁**。"
+
+#: ../../source/using_the_version_control.rst:319
+msgid "**To check the editing state of a locked file:**"
+msgstr "**要检查锁定文件的编辑状态，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:321
+msgid "Right-click the file and choose **Edit Info** from the menu that opens."
+msgstr "右键单击文件，然后从打开的菜单中选择**编辑信息**。"
+
+#: ../../source/using_the_version_control.rst:327
+msgid "Retrieving File Revisions"
+msgstr "检索文件修订"
+
+#: ../../source/using_the_version_control.rst:328
+msgid ""
+"One of the main advantages of using a version control system is that the "
+"*history* of the revisions for every file in the production database is always "
+"available. This means that it's possible to very easily retrieve previous "
+"versions of any file."
+msgstr ""
+"使用版本控制系统的主要优点之一是，生产数据库中每个文件的修订历史始终可用。这意味"
+"着可以非常容易地检索任何文件的先前版本。"
+
+#: ../../source/using_the_version_control.rst:330
+msgid ""
+"To retrieve older file versions it's possible to use the **Get Revision** "
+"command. When used on a single file it displays a timeline with all the file "
+"versions; in the timeline you can check the different file versions with the "
+"related icons and information, and select which version to get in order to edit "
+"it."
+msgstr ""
+"要检索旧文件版本，可以使用**获取修订**命令。当在单个文件上使用时，它会显示一个包"
+"含所有文件版本的时间线；在时间线中，您可以使用相关图标和信息检查不同的文件版本，"
+"并选择要获取的版本进行编辑。"
+
+#: ../../source/using_the_version_control.rst:332
+msgid "|get_revision|"
+msgstr "|get_revision|"
+
+#: ../../source/using_the_version_control.rst:334
+msgid ""
+"When getting a revision of a scene file (TNZ format), in the dialog that opens "
+"it's possible to check the **Get Scene Contents** option in order to get the "
+"revisions of the materials used in the scene as well."
+msgstr ""
+"获取场景文件（TNZ格式）的修订版时，可以在打开的对话框中选中**获取场景内容**选"
+"项，以获取场景中使用的材质的修订版。"
+
+#: ../../source/using_the_version_control.rst:336
+msgid "|get_revision_multiple_files|"
+msgstr "|get_vision_multiple_files|"
+
+#: ../../source/using_the_version_control.rst:338
+msgid ""
+"When used on a multiple files selection it opens a dialog that allows you to "
+"specify the time, day, week or date of the files version you want to retrieve."
+msgstr ""
+"当用于多个文件选择时，它会打开一个对话框，允许您指定要检索的文件版本的时间、日"
+"期、星期或日期。"
+
+#: ../../source/using_the_version_control.rst:340
+msgid "**To retrieve an older revision of a file:**"
+msgstr "**要检索文件的旧版本，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:342
+msgid "Right-click the file and choose **Get Revision** from the menu that opens."
+msgstr "右键单击该文件，然后从打开的菜单中选择**获取修订**。"
+
+#: ../../source/using_the_version_control.rst:344
+msgid ""
+"In the dialog that opens look for the file version you are interested in and "
+"select it; if you are editing a scene file (TNZ format) activate the **Edit "
+"Scene Contents** if you want to get the revision of the files used in the scene "
+"as well."
+msgstr ""
+"在打开的对话框中，查找您感兴趣的文件版本并选择它；如果要编辑场景文件（TNZ格"
+"式），请激活**编辑场景内容**，以获取场景中使用的文件的修订版。"
+
+#: ../../source/using_the_version_control.rst:346
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/using_the_version_control.rst:348
+msgid ""
+"Click the **Get Selected Revision** button to get the selected file version."
+msgstr "单击**获取所选修订**按钮以获取所选文件版本。"
+
+#: ../../source/using_the_version_control.rst:350
+msgid "Click the **Get Last Revision** button to get the latest file version."
+msgstr "单击**获取上次修订**按钮以获取最新文件版本。"
+
+#: ../../source/using_the_version_control.rst:352
+msgid "**To retrieve an older revision of a selection of multiple files:**"
+msgstr "**要检索所选多个文件的旧版本，请执行以下操作：**"
+
+#: ../../source/using_the_version_control.rst:354
+msgid ""
+"Right-click any of the selected files and choose **Get Revision** from the menu "
+"that opens."
+msgstr "右键单击任何选定的文件，然后从打开的菜单中选择**获取修订**。"
+
+#: ../../source/using_the_version_control.rst:356
+msgid ""
+"In the dialog that opens specify how much older the version of the files you "
+"want to retrieve has to be, by doing one of the following:"
+msgstr "在打开的对话框中，通过执行以下操作之一，指定要检索的文件版本必须有多旧："
+
+#: ../../source/using_the_version_control.rst:358
+msgid "Specify a *time* in hours and minutes."
+msgstr "指定以小时和分钟为单位的*时间*。"
+
+#: ../../source/using_the_version_control.rst:360
+msgid "Specify a number of *days*."
+msgstr "指定天数。"
+
+#: ../../source/using_the_version_control.rst:362
+msgid "Specify a number of *weeks*."
+msgstr "指定*周数*。"
+
+#: ../../source/using_the_version_control.rst:364
+msgid "Specify and exact *date and time*."
+msgstr "指定并精确*日期和时间*。"
+
+#: ../../source/using_the_version_control.rst:372
+msgid "Understanding the Folder and File Icons"
+msgstr "了解文件夹和文件图标"
+
+#: ../../source/using_the_version_control.rst:373
+msgid ""
+"According to the folder and file icons you can tell if the folder or the file "
+"in the working copy is updated or not to the latest version available in the "
+"central repository, and if files are edited by other users and locked."
+msgstr ""
+"根据文件夹和文件图标，您可以判断工作副本中的文件夹或文件是否已更新到中央存储库中"
+"可用的最新版本，以及文件是否已被其他用户编辑并锁定。"
+
+#: ../../source/using_the_version_control.rst:375
+msgid ""
+"If the File Browser displays files as a List, the information about the version "
+"control status is displayed in the column labeled *Version Control*."
+msgstr ""
+"如果文件浏览器将文件显示为列表，则有关版本控制状态的信息将显示在标记为*版本控制*"
+"的列中。"
+
+#: ../../source/using_the_version_control.rst:377
+msgid "For **folders** the following icons are used:"
+msgstr "对于**文件夹**，使用以下图标："
+
+#: ../../source/using_the_version_control.rst:379
+msgid ""
+"|grey_folder| A *grey* folder icon is used for folders available only in the "
+"*repository*. You can use the **Get** command to copy them to the local "
+"*working copy*."
+msgstr ""
+"|grey_folder|*grey*文件夹图标用于仅在*存储库*中可用的文件夹。您可以使用**获取**"
+"命令将它们复制到本地*工作副本*。"
+
+#: ../../source/using_the_version_control.rst:381
+msgid ""
+"|colored_folder_with_yellow_mark| A colored folder icon with a *yellow mark* is "
+"used when the folder contents in the *working copy* is not up to date and does "
+"not match to the folder contents in the *repository*: this is the case when "
+"there are modified or new files in the *working copy* or there are modified or "
+"new files in the *repository*. You can use the **Get** command to copy them to "
+"the local *working copy*."
+msgstr ""
+"|colored_folder_with_yellow_mark |当*工作副本*中的文件夹内容不是最新的，并且与*"
+"存储库*中的内容不匹配时，使用带有*黄色标记*的彩色文件夹图标：当*工作拷贝*中有修"
+"改过的或新的文件，或者*存储库中有修改后的或新文件时，就会出现这种情况。您可以使"
+"用**获取**命令将它们复制到本地*工作副本*。"
+
+#: ../../source/using_the_version_control.rst:383
+msgid ""
+"|colored_folder_with_green_mark| A colored folder icon with a *green mark* is "
+"used when the folder contents in the *working copy* is up to date and matches "
+"to the folder contents in the *repository*."
+msgstr ""
+"|colored_folder_with_green_mark |当*工作副本*中的文件夹内容是最新的并且与*存储库"
+"*中的内容匹配时，使用带有*绿色标记*的彩色文件夹图标。"
+
+#: ../../source/using_the_version_control.rst:385
+msgid ""
+"|colored_folder_with_plus_mark| A colored folder with a *plus mark* is used for "
+"folders available only in the *working copy*. You can use the **Put** command "
+"to copy them to the *central repository*."
+msgstr ""
+"|colored_folder_with_plus_mark |带有*加号*的彩色文件夹用于仅在*工作副本*中可用的"
+"文件夹。您可以使用**Put**命令将它们复制到*中央存储库*。"
+
+#: ../../source/using_the_version_control.rst:388
+msgid "For **files** the following icons are used:"
+msgstr "对于**文件**，使用以下图标："
+
+#: ../../source/using_the_version_control.rst:390
+msgid ""
+"A generic *grey* icon is used for files available only in the *repository*. You "
+"can use the **Get** command to copy them to the local *working copy*."
+msgstr ""
+"通用*灰色*图标用于仅在*存储库*中可用的文件。您可以使用**获取**命令将它们复制到本"
+"地*工作副本*。"
+
+#: ../../source/using_the_version_control.rst:392
+msgid ""
+"|grey_mark_check| The file icon with a *grey check mark* is used when files in "
+"the *working copy* are up to date and match to the latest version available in "
+"the *repository*. The files are in *read-only mode*, and they have to be in "
+"*edit mode* in order to be modified."
+msgstr ""
+"|grey_mark_check |当*工作副本*中的文件是最新的并且与*存储库*中可用的最新版本匹配"
+"时，使用带有*灰色复选标记*的文件图标。文件处于*只读模式*，必须处于*编辑模式*才能"
+"进行修改。"
+
+#: ../../source/using_the_version_control.rst:394
+msgid ""
+"|green_mark_check| The file icon with a *green check mark* is used when files "
+"in the *working copy* are in *edit mode*."
+msgstr ""
+"|green_mark_check |当*工作副本*中的文件处于*编辑模式*时，使用带有*绿色复选标记*"
+"的文件图标。"
+
+#: ../../source/using_the_version_control.rst:396
+msgid ""
+"|half_grey_mark_check| The file icon with a *green check mark on a grey and "
+"white background* is used when files in the *working copy* are partially in "
+"*edit mode*."
+msgstr ""
+"|half_grey_mark_check |当*工作副本*中的文件部分处于*编辑模式*时，使用灰白色背景"
+"上带有*绿色复选标记的文件图标。"
+
+#: ../../source/using_the_version_control.rst:398
+msgid ""
+"|red_exclamation_mark_check| The file icon with a *red exclamation mark* is "
+"used when files in the *working copy* are newer than the latest version "
+"available in the *repository*, because you modified them. You can use the "
+"**Put** command to copy them to the *central repository*."
+msgstr ""
+"|half_grey_mark_check |当*工作副本*中的文件部分处于*编辑模式*时，使用灰白色背景"
+"上带有*绿色复选标记的文件图标。"
+
+#: ../../source/using_the_version_control.rst:400
+msgid ""
+"|half_grey_red_exclamation_mark_check| The file icon with a *red exclamation "
+"mark on a grey and white background* is used when files in the *working copy* "
+"are partially newer than to the latest version available in the *repository*, "
+"because you modified them. You can use the **Put** command to copy them to the "
+"*central repository*."
+msgstr ""
+"|half_grey_red_exclamation_mark_check |当*工作副本*中的文件部分更新于*存储库*中"
+"可用的最新版本时，使用灰色和白色背景上带有*红色感叹号的文件图标。您可以使用"
+"**Put**命令将它们复制到*中央存储库*。"
+
+#: ../../source/using_the_version_control.rst:402
+msgid ""
+"|orange_exclamation_mark_check| The file icon with an *orange exclamation mark* "
+"is used when files in the *working copy* are older than the latest version "
+"available in the *repository*, because someone modified them. You can use the "
+"**Get** command to copy them to the *local working copy*."
+msgstr ""
+"|orange_exclamation_mark_check |当*工作副本*中的文件比*存储库*中可用的最新版本旧"
+"时，使用带有*橙色感叹号*的文件图标，因为有人修改了它们。您可以使用**获取**命令将"
+"它们复制到*本地工作副本*。"
+
+#: ../../source/using_the_version_control.rst:404
+msgid ""
+"|lock_mark| The file icon with an *lock mark* is used when files are in *edit "
+"mode* by other users. For these files it is only possible to check the "
+"information about the user editing the file."
+msgstr ""
+"|lock_mark |当文件处于*编辑模式*时，其他用户会使用带有*锁标记*的文件图标。对于这"
+"些文件，只能检查有关编辑文件的用户的信息。"
+
+#: ../../source/using_the_version_control.rst:406
+msgid ""
+"|half_grey_lock_mark| The file icon with a *lock mark on a grey and white "
+"background* is used when files are *partially in edit mode* by other users."
+msgstr ""
+"|half_grey_lock_mark |当其他用户*部分处于编辑模式*时，使用灰色和白色背景上带有*"
+"锁标记的文件图标。"
+
+#: ../../source/using_the_version_control.rst:408
+msgid ""
+"|blue_plus_mark| The file icon with the *plus mark* is used for files available "
+"only in the *working copy*. You can use the **Put** command to copy them to the "
+"*central repository*."
+msgstr ""
+"|blue_plus_mark |带有*加号*的文件图标用于仅在*工作副本*中可用的文件。您可以使用"
+"**Put**命令将它们复制到*中央存储库*。"

@@ -1,0 +1,1711 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the OpenToonz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenToonz 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-24 09:43+0800\n"
+"PO-Revision-Date: 2026-01-24 14:42+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../../source/painting_animation_levels.rst:4
+msgid "Painting Animation Levels"
+msgstr "绘制动画水平"
+
+#: ../../source/painting_animation_levels.rst:5
+msgid ""
+"Toonz animation levels, both those cleaned up, and those made directly in "
+"OpenToonz, can be painted by using the styles, stored in the palette, and a set "
+"of tools."
+msgstr ""
+"Toonz动画关卡，无论是清理后的还是直接在OpenToonz中制作的，都可以通过使用存储在调"
+"色板中的样式和一组工具来绘制。"
+
+#: ../../source/painting_animation_levels.rst:7
+msgid ""
+"All Toonz level drawings are made of **lines** (determined by the strokes of "
+"scanned or vector drawings), and **areas** defined by *closed lines*. Raster "
+"and vector lines can be painted or erased, partially or for their full extent; "
+"areas can be filled with styles, or remain empty, with complete transparency."
+msgstr ""
+"所有Toonz水平图纸均由**条线**（由扫描或矢量图纸的笔划确定）和**个区域**组成，**"
+"个区域由*条闭合线*定义。光栅和矢量线可以部分或全部绘制或擦除；区域可以填充样式，"
+"也可以保持空白，完全透明。"
+
+#: ../../source/painting_animation_levels.rst:9
+msgid ""
+"All the painting work is not saved until you save the related level, or use the "
+"**Save All** command (see  :ref:`Saving Levels <saving_levels>`  )."
+msgstr ""
+"在保存相关级别或使用**全部保存**命令之前，所有绘画作品都不会保存（请参阅：ref:`"
+"保存级别<saveing_Levels>`）。"
+
+#: ../../source/painting_animation_levels.rst:11
+msgid ""
+"If the computer performance worsens during the painting process of Toonz Raster "
+"animation levels, try activating the **Minimize Raster Memory Fragmentation** "
+"option in the Preferences...  →  General dialog section (see  :ref:`Optimizing "
+"the Memory Usage <optimizing_the_memory_usage>`  )."
+msgstr ""
+"如果在Toonz光栅动画级别的绘制过程中计算机性能恶化，请尝试激活“首选项”中的**最小"
+"化光栅内存碎片**选项。..  →  常规对话框部分（请参阅：ref:“优化内存使用"
+"<Optimizing_the_Memory_usexuse>”）。"
+
+#: ../../source/painting_animation_levels.rst:17
+msgid "Painting Tools"
+msgstr "绘制工具"
+
+#: ../../source/painting_animation_levels.rst:18
+msgid ""
+"Painting operations can be performed by using the **Fill** tool (|fill|) and "
+"the **Paint Brush** tool (|paint_brush|)."
+msgstr ""
+"可以使用**填充**工具（|Fill|）和**绘制画笔**工具（| Paint_Brush|）执行绘制操作。"
+
+#: ../../source/painting_animation_levels.rst:20
+msgid ""
+"In case you want to retrieve a style already used in the drawing, you can pick "
+"it with the **Style Picker** tool (|style_picker|)."
+msgstr ""
+"如果要检索图形中已使用的样式，可以使用**样式选择器**工具（|style_Picker|）进行拾"
+"取。"
+
+#: ../../source/painting_animation_levels.rst:22
+msgid ""
+"The filling operation can be performed by activating different options, that "
+"can be combined together to perform particular tasks, for example to fill "
+"several areas at the same time with the same style, or several frames, with a "
+"single operation."
+msgstr ""
+"填充操作可以通过激活不同的选项来执行，这些选项可以组合在一起执行特定的任务，例如"
+"用同一样式同时填充多个区域，或者用一个操作填充多个帧。"
+
+#: ../../source/painting_animation_levels.rst:24
+msgid ""
+"The **Fill** tool (|fill|) allows you to paint a drawing area or line by "
+"clicking it. Options available are the following:"
+msgstr ""
+"**填充**工具（|Fill|）允许您通过单击来绘制绘图区域或线条。可用的选项如下："
+
+#: ../../source/painting_animation_levels.rst:26
+msgid ""
+"**Type:** has the options **Normal**, to fill an area by clicking in it; "
+"**Rectangular**, to fill all the areas included in the box you define; "
+"**Freehand**, to fill all the areas included in the area you outline by "
+"clicking and dragging; and **Polyline**, to fill all the areas included in the "
+"area you outline by defining a series of lines."
+msgstr ""
+"**类型：**有选项**普通**，点击填充区域；**矩形**，用于填充您定义的框中包含的所有"
+"区域；**徒手**，通过单击并拖动来填充您勾勒出的区域中包含的所有区域；以及**折线"
+"**，通过定义一系列线条来填充您勾勒出的区域中包含的所有区域。"
+
+#: ../../source/painting_animation_levels.rst:28
+msgid ""
+"**Mode:** has the options **Areas**, to fill only areas, **Lines**, to paint "
+"only the strokes, and **Lines and Areas**, to perform both operations."
+msgstr ""
+"**模式：**有选项**区域**，仅填充区域，**线条**，仅绘制笔划，**线条和区域**，执行"
+"这两种操作。"
+
+#: ../../source/painting_animation_levels.rst:30
+msgid ""
+"**Selective** prevents the fill operation to be performed on *already filled* "
+"areas."
+msgstr "**选择性**可防止对*已填充*区域执行填充操作。"
+
+#: ../../source/painting_animation_levels.rst:32
+msgid ""
+"**Fill Depth** sets how much the fill style passes through the antialiasing of "
+"the area lines. With low values, even a very thin line made of semitransparent "
+"pixels will be effective to stop de filling operation; with high values, only "
+"the more opaque pixels will stop color from flooding outside. This option "
+"applies to Toonz Raster drawings only. It is possible to set two values: the "
+"minimum value is used when using the tool with the standard mouse **click**, "
+"the maximum value when using the tool with the **Shift-click**."
+msgstr ""
+"**填充深度**设置填充样式通过区域线抗锯齿的程度。对于低值，即使是由半透明像素组成"
+"的非常细的线也会有效地停止去填充操作；对于高值，只有更不透明的像素才能阻止颜色淹"
+"没在外面。此选项仅适用于Toanz光栅图形。可以设置两个值：使用标准鼠标**点击**工具"
+"时使用最小值，使用工具**Shift点击**时使用最大值。"
+
+#: ../../source/painting_animation_levels.rst:34
+msgid ""
+"**Segment** lets you apply the fill only to a segment of raster lines. A "
+"segment is determined by an abrupt change of *thickness* or *direction* in the "
+"stroke. This is available for Toonz Raster drawings only."
+msgstr ""
+"**Segment**允许您仅将填充应用于一段光栅线。一个分段是由笔划中*厚度*或*方向*的突"
+"然变化决定的。这仅适用于Toanz Raster图形。"
+
+#: ../../source/painting_animation_levels.rst:36
+msgid ""
+"**Onion Skin** lets you pick the style to use for the filling operation from "
+"other drawings, visible in onion skin mode, and apply it to the current drawing "
+"(see  :ref:`Using Onion Skin <using_onion_skin>`  )."
+msgstr ""
+"**洋葱皮**允许您从洋葱皮模式下可见的其他图形中选择用于填充操作的样式，并将其应用"
+"于当前图形（请参见：ref:“使用洋葱皮<Using_Onion_Skin>”）。"
+
+#: ../../source/painting_animation_levels.rst:38
+msgid ""
+"**Frame Range** allows you to perform the filling on a range of frames, by "
+"clicking in the first and then in the last frame of the range. You can also "
+"Shift-click to define the filling position for intermediate frames."
+msgstr ""
+"**帧范围**允许您通过单击范围的第一帧和最后一帧来对一系列帧进行填充。您还可以按住"
+"Shift键并单击以定义中间帧的填充位置。"
+
+#: ../../source/painting_animation_levels.rst:40
+msgid ""
+"The **Paint Brush** tool (|paint_brush|) allows you to paint a drawing area or "
+"a line, as if you were using a brush. It is available for Toonz Raster drawings "
+"only. Options are the following:"
+msgstr ""
+"**Paint Brush**工具（|Paint_Brush|）允许您绘制绘图区域或线条，就像使用画笔一样。"
+"它仅适用于Toanz Raster图形。选项如下："
+
+#: ../../source/painting_animation_levels.rst:42
+msgid "**Size** sets the brush size."
+msgstr "**大小**设置画笔大小。"
+
+#: ../../source/painting_animation_levels.rst:44
+msgid ""
+"**Mode:** has the options **Areas**, to paint only inside areas, **Lines**, to "
+"paint manually only the drawing lines, and **Lines and Areas**, to perform both "
+"operations."
+msgstr ""
+"**模式：**有选项**区域**，仅绘制内部区域，**线条**，仅手动绘制绘制线条，**线条和"
+"区域**，执行这两种操作。"
+
+#: ../../source/painting_animation_levels.rst:46
+msgid ""
+"**Selective** prevents the painting operation to be performed on *already "
+"painted* areas."
+msgstr "**选择性**可防止在已涂漆的区域进行涂漆操作。"
+
+#: ../../source/painting_animation_levels.rst:52
+msgid "Filling Areas"
+msgstr "填充区域"
+
+#: ../../source/painting_animation_levels.rst:53
+msgid ""
+"Areas can be filled when their outline is well-defined, with no gaps occurring "
+"along it. For vector drawings, the outline can be defined by a single vector "
+"with overlapping or joined ends, or by different vectors."
+msgstr ""
+"当轮廓明确时，可以填充区域，沿其没有间隙。对于矢量图形，轮廓可以由具有重叠或连接"
+"端的单个矢量定义，也可以由不同的矢量定义。"
+
+#: ../../source/painting_animation_levels.rst:55
+msgid ""
+"Options available for the painting tools can help you to speed up the painting "
+"job. You can decide which options are the most suitable for your task by "
+"following the guidelines below."
+msgstr ""
+"绘画工具的可用选项可以帮助您加快绘画工作。您可以通过遵循以下指南来决定哪些选项最"
+"适合您的任务。"
+
+#: ../../source/painting_animation_levels.rst:57
+msgid ""
+"In Toonz Raster levels, the areas that can be painted are limited either by the "
+"image border or by the image *Savebox*, according to the **Use the TLV Savebox "
+"to Limit Filling Operations** option available in Preferences...  →  Tools."
+msgstr ""
+"根据首选项中的**使用TLV保存框限制填充操作**选项，在Toonz光栅级别中，可以绘制的区"
+"域受到图像边框或图像*保存框*的限制。..  →  工具。"
+
+#: ../../source/painting_animation_levels.rst:59
+msgid ""
+"Some styles may not be suitable for filling areas, such as the **Trail** or "
+"**Vector** styles or some of the **Generated** styles. If you select one of "
+"these styles in the Palette, and you use it to fill an area, no operation will "
+"be performed."
+msgstr ""
+"某些样式可能不适合填充区域，例如**轨迹**或**矢量**样式或某些**生成**样式。如果在"
+"调色板中选择这些样式之一，并使用它填充区域，则不会执行任何操作。"
+
+#: ../../source/painting_animation_levels.rst:61
+msgid "**To fill an area:**"
+msgstr "**要填充区域，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:63
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill type to **Normal** and the mode "
+"to **Areas**, and select a style in the Palette."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充类型设置为**普通**，模式设置为**区域**，然后在"
+"调色板中选择一种样式。"
+
+#: ../../source/painting_animation_levels.rst:65
+msgid "Click in the area you want to fill."
+msgstr "单击要填充的区域。"
+
+#: ../../source/painting_animation_levels.rst:67
+msgid ""
+"If the filling color doesn’t flood the narrowest areas in raster drawings "
+"because of semitransparent pixels, try to increase the minimum **Fill Depth** "
+"value, or **Shift-click** to use the maximum value (see  :ref:`Painting Tools "
+"<painting_tools>`  )."
+msgstr ""
+"如果由于半透明像素，填充颜色没有淹没光栅图形中最窄的区域，请尝试增加最小的**填充"
+"深度**值，或**按住Shift键并单击**以使用最大值（请参阅：ref:“Painting "
+"Tools<Painting_Tools>”）。"
+
+#: ../../source/painting_animation_levels.rst:69
+msgid "**To fill several frames with a single command:**"
+msgstr "**要使用单个命令填充多个帧，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:71
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill type to **Normal** and the mode "
+"to **Areas**, and activate the **Frame Range** option."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充类型设置为**普通**，模式设置为**区域**，并激活"
+"**帧范围**选项。"
+
+#: ../../source/painting_animation_levels.rst:73
+msgid ""
+"Select the first frame of the range and **click** in the area you want to fill, "
+"for example the character’s face."
+msgstr "选择范围的第一帧，然后在要填充的区域（例如角色的脸）中**单击**。"
+
+#: ../../source/painting_animation_levels.rst:75
+#: ../../source/painting_animation_levels.rst:87
+#: ../../source/painting_animation_levels.rst:111
+#: ../../source/painting_animation_levels.rst:180
+#: ../../source/painting_animation_levels.rst:270
+#: ../../source/painting_animation_levels.rst:278
+#: ../../source/painting_animation_levels.rst:290
+#: ../../source/painting_animation_levels.rst:306
+#: ../../source/painting_animation_levels.rst:322
+#: ../../source/painting_animation_levels.rst:467
+#: ../../source/painting_animation_levels.rst:481
+#: ../../source/painting_animation_levels.rst:497
+msgid "Do one of the following:"
+msgstr "执行以下操作之一："
+
+#: ../../source/painting_animation_levels.rst:77
+msgid ""
+"Select the last frame of the range you want to apply the Fill to, and **click** "
+"in the same area, in the example the character’s face: the areas in all of the "
+"frames in the range will be automatically filled according to the first and "
+"second clicking positions."
+msgstr ""
+"选择要应用填充的范围的最后一帧，并在同一区域中**单击**，在示例中为角色的面部：范"
+"围内所有帧中的区域将根据第一次和第二次单击位置自动填充。"
+
+#: ../../source/painting_animation_levels.rst:79
+msgid ""
+"Select an intermediate frame of the range you want to apply the Fill to, and "
+"**Shift-click** in the same area, in the example the character’s face: the "
+"areas in all of the frames in the range will be automatically filled according "
+"to the first and second clicking positions. Select another intermediate frame "
+"and **Shift-click** again: the areas in all of the frames in the new range will "
+"be automatically filled according to the second and third clicking positions. "
+"Do the same as many times as you like, then **click** in the same area on the "
+"last frame of the range to complete the multi frame filling mode."
+msgstr ""
+"选择要应用填充的范围的中间帧，并在同一区域中**按住Shift键单击**，在示例中为角色"
+"的面部：该范围内所有帧中的区域将根据第一次和第二次单击位置自动填充。选择另一个中"
+"间帧，**按住Shift键再次单击**：新范围内所有帧中的区域将根据第二次和第三次单击位"
+"置自动填充。根据需要重复多次，然后在范围最后一帧的同一区域**单击**，完成多帧填充"
+"模式。"
+
+#: ../../source/painting_animation_levels.rst:81
+msgid ""
+"Since the **Fill** with the **Frame Range** option is applied making a linear "
+"interpolation from the first clicking point to the following one, some painting "
+"mistakes may occur. The more the area you want to fill moves along the frame "
+"range, the more mistakes may be made."
+msgstr ""
+"由于应用了“用**帧范围**填充**”选项，从第一个点击点到下一个点击点进行线性插值，因"
+"此可能会出现一些绘画错误。要填充的区域在帧范围内移动得越多，出错的可能性就越大。"
+
+#: ../../source/painting_animation_levels.rst:83
+msgid "**To fill several areas at once with the same style:**"
+msgstr "**要用相同的样式同时填充多个区域，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:85
+msgid "Select the **Fill** tool (|fill|), set the fill mode to **Areas**."
+msgstr "选择**填充**工具（|Fill|），将填充模式设置为**区域**。"
+
+#: ../../source/painting_animation_levels.rst:89
+msgid ""
+"Set the type to **Rectangular** and click and drag to define a box: all the "
+"areas *completely included* in the box will be filled with the current style."
+msgstr ""
+"将类型设置为**矩形**，然后单击并拖动以定义一个框：框中所有*完全包含*的区域都将填"
+"充为当前样式。"
+
+#: ../../source/painting_animation_levels.rst:91
+msgid ""
+"Set the type to **Freehand** and click and drag to outline an area: all the "
+"areas *completely included* in the area you outline will be filled with the "
+"current style. If the ends of the outline you draw are open, the area will be "
+"defined as if joining the two open ends."
+msgstr ""
+"将类型设置为**徒手**，然后单击并拖动以勾勒出一个区域：您勾勒出的区域中*完全包含*"
+"的所有区域都将用当前样式填充。如果绘制的轮廓的端点是开放的，则该区域将被定义为连"
+"接两个开放的端点。"
+
+#: ../../source/painting_animation_levels.rst:93
+msgid ""
+"Set the type to **Polyline** and click to outline an area by defining a series "
+"of lines: all the areas *completely included* in the area you outline will be "
+"filled with the current style. If the ends of the outline you draw are open, "
+"the area will be defined as if joining the two open ends."
+msgstr ""
+"将类型设置为**折线**，然后单击以通过定义一系列线条来勾勒出一个区域的轮廓：您勾勒"
+"出的区域中完全包含的所有区域都将用当前样式填充。如果绘制的轮廓的端点是开放的，则"
+"该区域将被定义为连接两个开放的端点。"
+
+#: ../../source/painting_animation_levels.rst:95
+msgid "**To fill all remaining areas in a level drawing with the same style:**"
+msgstr "**要使用相同样式填充标高图形中的所有剩余区域，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:97
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill type to **Rectangular** and the "
+"mode to **Areas**, and activate the **Selective** option."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充类型设置为**矩形**，模式设置为**区域**，并激活"
+"**选择性**选项。"
+
+#: ../../source/painting_animation_levels.rst:99
+msgid ""
+"**Click and drag** to define a box: all the outlined non-filled areas "
+"*completely included* in the box will be filled with the current style. This "
+"option combination may be useful if the drawing has a lot of areas to be "
+"painted with the same style, that can be painted at the end at once by using "
+"this command."
+msgstr ""
+"**单击并拖动**以定义一个框：框中所有轮廓未填充的区域*完全包含*将用当前样式填充。"
+"如果图形有很多区域要使用相同的样式进行绘制，则此选项组合可能很有用，可以使用此命"
+"令在最后一次绘制。"
+
+#: ../../source/painting_animation_levels.rst:101
+msgid ""
+"You can add to this combination the **Frame Range** option as well, to perform "
+"the same task extended to a range of frames."
+msgstr "您还可以向此组合中添加**帧范围**选项，以执行扩展到帧范围的相同任务。"
+
+#: ../../source/painting_animation_levels.rst:103
+msgid "**To fill drawing areas using as reference a previously painted drawing:**"
+msgstr "**要使用以前绘制的图形作为参考来填充绘图区域，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:105
+#: ../../source/painting_animation_levels.rst:121
+#: ../../source/painting_animation_levels.rst:316
+msgid ""
+"**Activate the onion skin** mode to display the painted drawing behind your "
+"current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  )."
+msgstr ""
+"**激活洋葱皮**模式以在当前图形后面显示绘制的图形（请参阅：ref:“使用洋葱皮<使用"
+"_onion_skin>”）。"
+
+#: ../../source/painting_animation_levels.rst:107
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill mode to **Areas** and activate "
+"the **Onion Skin** option."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充模式设置为**区域**，并激活**洋葱皮**选项。"
+
+#: ../../source/painting_animation_levels.rst:109
+msgid ""
+"**Click** to pick the style to use from the drawing displayed in onion skin "
+"mode."
+msgstr "**单击**从洋葱皮模式下显示的图形中选择要使用的样式。"
+
+#: ../../source/painting_animation_levels.rst:113
+msgid "**Release** to fill the area where the cursor is."
+msgstr "**释放**以填充光标所在的区域。"
+
+#: ../../source/painting_animation_levels.rst:115
+msgid "**Drag** to the area you want to fill and **release** the mouse button."
+msgstr "**将**拖动到要填充的区域，然后**释放**鼠标按钮。"
+
+#: ../../source/painting_animation_levels.rst:117
+#: ../../source/painting_animation_levels.rst:127
+msgid ""
+"If several drawings are displayed in onion skin mode, only the drawing closest "
+"to the current one will be considered."
+msgstr "如果以洋葱皮模式显示多个图形，则只考虑最接近当前图形的图形。"
+
+#: ../../source/painting_animation_levels.rst:119
+msgid ""
+"**To automatically fill a whole drawing using as reference a previously painted "
+"drawing:**"
+msgstr "**要使用以前绘制的图形作为参考自动填充整个图形，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:123
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill type to **Rectangular**, the "
+"mode to **Areas**, and activate the **Onion Skin** option."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充类型设置为**矩形**，模式设置为**区域**，并激活"
+"**洋葱皮**选项。"
+
+#: ../../source/painting_animation_levels.rst:125
+msgid ""
+"**Click and drag** to define a box: all the areas *completely included* in the "
+"box will be filled with the styles picked from the painted areas of the drawing "
+"displayed in onion skin mode."
+msgstr ""
+"**单击并拖动**以定义一个框：框中完全包含的所有区域都将填充从洋葱皮模式显示的绘图"
+"绘制区域中选取的样式。"
+
+#: ../../source/painting_animation_levels.rst:129
+msgid ""
+"If some areas are automatically painted with the wrong style, fix them to "
+"prevent the mistake to be amplified in the following frames you are going to "
+"paint."
+msgstr ""
+"如果某些区域自动绘制了错误的样式，请对其进行修复，以防止在接下来要绘制的帧中放大"
+"错误。"
+
+#: ../../source/painting_animation_levels.rst:131
+#: ../../source/painting_animation_levels.rst:328
+msgid "**To retrieve a style from a drawing:**"
+msgstr "**要从图形中检索样式，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:133
+#: ../../source/painting_animation_levels.rst:330
+msgid "Select the **Style Picker** tool (|style_picker|)."
+msgstr "选择**样式选择器**工具（|Style_Picker|）。"
+
+#: ../../source/painting_animation_levels.rst:135
+msgid ""
+"Click in the area whose style you want to pick. The picked style becomes the "
+"current one."
+msgstr "在要选择样式的区域中单击。选择的样式将成为当前样式。"
+
+#: ../../source/painting_animation_levels.rst:141
+msgid "Closing Gaps in Drawing Outline"
+msgstr "缩小图纸轮廓中的间隙"
+
+#: ../../source/painting_animation_levels.rst:142
+msgid ""
+"If the area outline is not perfectly defined, you will not be able to fill it. "
+"The gap can be closed by adding a line with the **Brush** (|brush|) or "
+"**Geometric** (|geometric|) tools (see :ref:`Drawing Tools <drawing_tools>`  ), "
+"or by using the **Tape** tool (|tape|)."
+msgstr ""
+"如果区域轮廓没有完全定义，您将无法填充它。可以通过使用**Brush**（|Brush|）或"
+"**Geometric**（|Geometric|）工具添加一条线（请参阅：ref:“Drawing "
+"tools<Drawing_tools>”）或使用**Tape**工具（|Tape|）来闭合间隙。"
+
+#: ../../source/painting_animation_levels.rst:144
+msgid ""
+"For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vector "
+"strokes manually or automatically, both considering their endpoints and any "
+"point along the strokes themselves, according to the tool settings. Options "
+"available are the following:"
+msgstr ""
+"对于Toonz矢量图形，**Tape**工具（|Tape|）允许您根据工具设置手动或自动连接矢量笔"
+"划，同时考虑其端点和笔划本身的任何点。可用选项如下："
+
+#: ../../source/painting_animation_levels.rst:146
+msgid ""
+"**Type:** has the options **Normal**, to manually define joining vectors, or "
+"**Rectangular**, to automatically close all the gaps detected in the box you "
+"define."
+msgstr ""
+"**类型：**有选项**普通**，手动定义连接向量，或**矩形**，自动关闭您定义的框中检测"
+"到的所有间隙"
+
+#: ../../source/painting_animation_levels.rst:148
+msgid ""
+"When the type is set to **Rectangular** only gaps between endpoints, and "
+"between an endpoint and a line, are considered."
+msgstr "当类型设置为**矩形**时，只考虑端点之间以及端点和直线之间的间隙。"
+
+#: ../../source/painting_animation_levels.rst:150
+msgid ""
+"**Mode:** has the option **Endpoint to Endpoint**, to join two lines endpoints; "
+"**Endpoint to Line**, to join an endpoint to any point along a line; and **Line "
+"to Line**, to join any point along a line to any other point along another line."
+msgstr ""
+"**模式：**具有**端点到端点**选项，用于连接两条线的端点；**端点到直线**，将端点连"
+"接到直线上的任何点；以及**线到线**，将一条线上的任何点连接到另一条线上的任何其他"
+"点。"
+
+#: ../../source/painting_animation_levels.rst:152
+msgid ""
+"**Distance** sets the maximum distance between endpoints, and between an "
+"endpoint and a line, that are automatically joined when using the Rectangular "
+"option."
+msgstr ""
+"**距离**设置使用“矩形”选项时自动连接的端点之间以及端点和直线之间的最大距离。"
+
+#: ../../source/painting_animation_levels.rst:154
+msgid ""
+"**Join Vectors**, when activated, connects the join stroke to the endpoint thus "
+"creating a single stroke; if deactivated the join stroke will be a new "
+"independent stroke (see  :ref:`Joining and Splitting "
+"<joining_and_splitting>`  )."
+msgstr ""
+"**连接向量**激活后，将连接笔划连接到端点，从而创建单个笔划；如果停用，连接笔划将"
+"是一个新的独立笔划（参见：ref:`连接和拆分<Joining_and_Splitting>`）。"
+
+#: ../../source/painting_animation_levels.rst:156
+msgid ""
+"If the strokes you are going to join have different styles, the style of the "
+"first stroke you click on will be assigned to the second one, after the joining."
+msgstr ""
+"如果要连接的笔划具有不同的样式，则连接后，您单击的第一个笔划的样式将分配给第二个"
+"笔划。"
+
+#: ../../source/painting_animation_levels.rst:158
+msgid ""
+"**Smooth**, when activated, creates a smooth joined stroke with no corners."
+msgstr "**平滑**激活后，会创建一个没有角的平滑连接笔划。"
+
+#: ../../source/painting_animation_levels.rst:160
+msgid ""
+"For Toonz Raster drawings the **Tape** tool (|tape|) automatically joins the "
+"open ends detected in the drawing according to the tool settings. Options "
+"available are the following:"
+msgstr ""
+"对于Toanz Raster图形，**Tape**工具（|Tape|）会根据工具设置自动连接图形中检测到的"
+"开口端。可用选项如下："
+
+#: ../../source/painting_animation_levels.rst:162
+msgid ""
+"**Type:** has the options **Normal**, to close all the gaps detected in the "
+"drawing by clicking in it; **Rectangular**, to close all the gaps detected in "
+"the box you define; **Freehand**, to close on all the gaps detected in the area "
+"you define by clicking and dragging; and **Polyline**, to close on all the gaps "
+"detected in the area you define by drawing a series of straight lines."
+msgstr ""
+"**类型：**具有选项**普通**，通过单击来关闭图形中检测到的所有间隙；**矩形**，用于"
+"闭合您定义的框中检测到的所有间隙；**徒手**，通过单击和拖动来闭合在您定义的区域中"
+"检测到的所有间隙；**折线**，通过绘制一系列直线来闭合在您定义的区域中检测到的所有"
+"间隙。"
+
+#: ../../source/painting_animation_levels.rst:164
+msgid ""
+"**Frame Range** allows you to perform the joining on a range of frames, by "
+"clicking in the first and then in the last frame of the range."
+msgstr "**帧范围**允许您通过单击范围的第一帧和最后一帧来对一系列帧执行连接。"
+
+#: ../../source/painting_animation_levels.rst:166
+msgid ""
+"**Distance** sets the maximum distance between two open ends to be detected, in "
+"order to join them."
+msgstr "**距离**设置要检测的两个开口端之间的最大距离，以便将它们连接起来。"
+
+#: ../../source/painting_animation_levels.rst:168
+msgid ""
+"**Angle** sets the maximum angle between two open ends to be detected, in order "
+"to join them."
+msgstr "**角度**设置要检测的两个开口端之间的最大角度，以便将它们连接起来。"
+
+#: ../../source/painting_animation_levels.rst:170
+msgid ""
+"**Style Index** sets the style to be used for the line joining the open ends. "
+"If instead of a style index you type ``current`` , the currentntly selected "
+"style will be used."
+msgstr ""
+"**样式索引**设置用于连接开口端的线的样式。如果键入“current”而不是样式索引，则将"
+"使用当前选定的样式。"
+
+#: ../../source/painting_animation_levels.rst:172
+msgid ""
+"**Opacity** sets the opacity of the style used for the line joining the open "
+"ends."
+msgstr "**不透明度**设置用于连接开口端的线的样式的不透明度。"
+
+#: ../../source/painting_animation_levels.rst:174
+msgid ""
+"Please note that by default **Opacity** value is set to 1, and with this value "
+"the gap will be closed using a transparent line that will not be seen in the "
+"Viewer. Also, note that the value of this option will equally affect how the "
+"Gap Check function is displayed in the Viewer."
+msgstr ""
+"请注意，默认情况下，**不透明度**值设置为1，使用此值，间隙将使用在查看器中看不到"
+"的透明线闭合。此外，请注意，此选项的值同样会影响“间隙检查”功能在查看器中的显示方"
+"式。"
+
+#: ../../source/painting_animation_levels.rst:176
+msgid "**To close a gap in a vector drawing outline:**"
+msgstr "**要缩小矢量图形轮廓中的间隙，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:178
+msgid ""
+"Select the **Tape** tool (|tape|), set the type to **Normal** and set whether "
+"to join vectors, or to create a smooth joining."
+msgstr ""
+"选择**Tape**工具（|Tape|），将类型设置为**Normal**，并设置是连接向量还是创建平滑"
+"连接。"
+
+#: ../../source/painting_animation_levels.rst:182
+msgid ""
+"Set the mode to **Endpoint to Endpoint**, then click a stroke endpoint and drag "
+"to a different endpoint; the pointer snaps to the closest detected stroke "
+"endpoint, as start and end."
+msgstr ""
+"将模式设置为**端点到端点**，然后单击笔划端点并拖动到其他端点；指针会捕捉到最近的"
+"检测到的笔划端点，作为开始和结束。"
+
+#: ../../source/painting_animation_levels.rst:184
+msgid ""
+"Set the mode to **Endpoint to Line**, then click a stroke endpoint and drag to "
+"any point along a stroke; the pointer snaps to the closest detected stroke "
+"endpoint as start, and to any closest point along a stroke as end."
+msgstr ""
+"将模式设置为**端点为直线**，然后单击笔划端点并沿笔划拖动到任意点；指针以最接近的"
+"检测到的笔划端点为起点，以笔划上的任何最近点为终点。"
+
+#: ../../source/painting_animation_levels.rst:186
+msgid ""
+"Set the mode to **Line to Line**, then click any point along a stroke and drag "
+"to any other point along a stroke; the pointer snaps to the closest point along "
+"a stroke as start, and to the any other closest point along a stroke as end."
+msgstr ""
+"将模式设置为**线到线**，然后单击笔划上的任意点并拖动到笔划上的任何其他点；指针以"
+"笔划上最近的点为起点，以笔划上任何其他最接近的点为终点。"
+
+#: ../../source/painting_animation_levels.rst:188
+msgid "**To close all gaps in a vector drawing outline in a specific area:**"
+msgstr "**要闭合特定区域中矢量图形轮廓中的所有间隙，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:190
+msgid "Select the **Tape** tool (|tape|), set the type to **Rectangular**."
+msgstr "选择**磁带**工具（|Tape|），将类型设置为**矩形**。"
+
+#: ../../source/painting_animation_levels.rst:192
+msgid ""
+"Click and drag to define an area: all the gaps between endpoints, and between "
+"endpoints and lines, detected in the area according to the set distance will be "
+"closed."
+msgstr ""
+"单击并拖动以定义区域：根据设置的距离在区域中检测到的端点之间以及端点和直线之间的"
+"所有间隙都将闭合。"
+
+#: ../../source/painting_animation_levels.rst:194
+msgid "**To close all gaps in a raster drawing outline:**"
+msgstr "**要闭合光栅图形轮廓中的所有间隙，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:196
+msgid "Select the **Tape** tool (|tape|)."
+msgstr "选择**磁带**工具（|Tape|）。"
+
+#: ../../source/painting_animation_levels.rst:198
+msgid ""
+"Click in the viewer to close all the gaps detected according to the set "
+"distance and angle."
+msgstr "在查看器中单击以关闭根据设置的距离和角度检测到的所有间隙。"
+
+#: ../../source/painting_animation_levels.rst:200
+msgid "**To close a specific gap in a raster drawing outline:**"
+msgstr "**要闭合光栅图形轮廓中的特定间隙，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:202
+msgid "Select the **Tape** tool (|tape|) and activate the **Rectangular** option."
+msgstr "选择**磁带**工具（|Tape|）并激活**矩形**选项。"
+
+#: ../../source/painting_animation_levels.rst:204
+msgid ""
+"Click and drag to define an area: all the gaps detected in the area according "
+"to the set distance and angle will be closed."
+msgstr ""
+"点击并拖动以定义一个区域：根据设定的距离和角度在该区域中检测到的所有间隙都将被关"
+"闭。"
+
+#: ../../source/painting_animation_levels.rst:210
+msgid "Checking Gaps in the Drawing Outline"
+msgstr "检查图纸轮廓中的间隙"
+
+#: ../../source/painting_animation_levels.rst:211
+msgid ""
+"To control the drawing outline and see if areas are well-defined in order to be "
+"filled with colors, it is possible to activate a series of checks:"
+msgstr "要控制图形轮廓并查看区域是否定义良好以便填充颜色，可以激活一系列检查："
+
+#: ../../source/painting_animation_levels.rst:213
+msgid ""
+"The **Gap Check** highlights with *magenta lines* the gaps that can be "
+"automatically closed by using the **Tape** tool (|tape|) with its current "
+"settings; if you change the **Distance** and **Angle** values of the Tape tool, "
+"while the check is activated, you can check interactively if the gaps that are "
+"detected."
+msgstr ""
+"**间隙检查**用*品红色线条*突出显示了使用**胶带**工具（|Tape|）及其当前设置可以自"
+"动闭合的间隙；如果在激活检查时更改“磁带”工具的**距离**和**角度**值，则可以交互式"
+"检查是否检测到间隙。"
+
+#: ../../source/painting_animation_levels.rst:215
+msgid ""
+"Please note that the **Tape** tool **Opacity** value will affect the display of "
+"the Gap Check in Toonz Raster levels, so if it is set to the default value of "
+"1, you will not be able to see anything with the Gap Check function. Set it to "
+"255 instead, to be able to use this check."
+msgstr ""
+"请注意，**磁带**工具**不透明度**值将影响Toanz光栅级别中间隙检查的显示，因此如果"
+"将其设置为默认值1，您将无法通过间隙检查功能看到任何内容。将其设置为255，以便能够"
+"使用此检查。"
+
+#: ../../source/painting_animation_levels.rst:217
+msgid ""
+"The **Fill Check** displays all the well-defined areas that can be filled with "
+"colors in grey, all the lines or vector strokes in black, and the not well-"
+"defined areas and the background in white; if the **Black BG Check** is "
+"activated, all the lines or vector strokes are displayed in white (see  :ref:"
+"`Checking Painted Drawings <checking_painted_drawings>`  )."
+msgstr ""
+"**填充检查**以灰色显示所有可以填充颜色的明确区域，以黑色显示所有线条或矢量笔划，"
+"以白色显示未明确区域和背景；如果激活了**黑色BG检查**，则所有线条或矢量笔划都将显"
+"示为白色（请参阅：ref:“检查绘制的图纸<Checking_print_Drawings>”）。"
+
+#: ../../source/painting_animation_levels.rst:219
+msgid ""
+"All the checks can also be combined in order to achieve specific display modes "
+"(see also  :ref:`Checking Painted Drawings <checking_painted_drawings>` )."
+msgstr ""
+"所有检查也可以组合在一起，以实现特定的显示模式（另请参阅：ref:“检查已绘制的图纸"
+"<Checking_print_Drawings>”）。"
+
+#: ../../source/painting_animation_levels.rst:221
+msgid "**To check if gaps occur in the drawing outline:**"
+msgstr "**要检查图形轮廓中是否出现间隙，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:223
+msgid "Activate or deactivate the **Gap Check** from the View menu."
+msgstr "从“视图”菜单中激活或停用**间隙检查**。"
+
+#: ../../source/painting_animation_levels.rst:225
+msgid "**To check if the areas in the drawing are well-defined:**"
+msgstr "**要检查图形中的区域是否定义良好：**"
+
+#: ../../source/painting_animation_levels.rst:227
+msgid "Activate or deactivate the **Fill Check** from the View menu."
+msgstr "从“视图”菜单中激活或停用**填充检查**。"
+
+#: ../../source/painting_animation_levels.rst:233
+msgid "Checking Painted Drawings"
+msgstr "检查涂漆图纸"
+
+#: ../../source/painting_animation_levels.rst:234
+msgid ""
+"To control if all the drawings areas are properly painted, and to see if the "
+"filling left small gaps along the lines antialiasing, or where a certain style "
+"is being used to paint lines or areas, it is possible to activate a series of "
+"checks:"
+msgstr ""
+"要控制所有绘图区域是否都正确绘制，并查看填充是否会在线条上留下小间隙以防锯齿，或"
+"者在使用某种样式绘制线条或区域的地方，可以激活一系列检查："
+
+#: ../../source/painting_animation_levels.rst:236
+msgid ""
+"The **Transparency Check** displays all the painted areas in the color defined "
+"in Preferences  →  Colors  →  **Paint Color**, all the lines or vector strokes "
+"in the color defined in Preferences...  →  Colors  →  **Ink Color on White BG** "
+"(or **Ink Color on Black BG**, depending on the chosen background color)."
+msgstr ""
+"**透明度检查**以首选项中定义的颜色显示所有涂漆区域→  颜色→  **绘制颜色**，所有线"
+"条或矢量笔划均采用首选项中定义的颜色。..  →  颜色→  **白色背景上的墨水颜色**（或"
+"黑色背景上的**墨水颜色**，取决于所选的背景颜色）。"
+
+#: ../../source/painting_animation_levels.rst:238
+msgid ""
+"The **Ink Check** displays the *lines or vector strokes*, colored with the "
+"current style in red."
+msgstr "**墨迹检查**显示*线条或矢量笔划*，用当前样式着色为红色。"
+
+#: ../../source/painting_animation_levels.rst:240
+msgid ""
+"The **Paint Check** displays the *areas* painted with the current color in red."
+msgstr "**油漆检查**以红色显示当前颜色的*区域*。"
+
+#: ../../source/painting_animation_levels.rst:242
+msgid ""
+"The **Black BG Check** displays the background color, defined in the Scene "
+"Settings, in black (see  :ref:`Customizing the Viewer "
+"<customizing_the_work_area>`  )."
+msgstr ""
+"**黑色BG检查**以黑色显示在“场景设置”中定义的背景颜色（请参阅：ref:“自定义查看器"
+"<Customizing_The_work_area>”）。"
+
+#: ../../source/painting_animation_levels.rst:244
+msgid ""
+"All the checks can also be combined in order to achieve specific display modes "
+"(see also  :ref:`Checking Gaps in the Drawing Outline "
+"<checking_gaps_in_the_drawing_outline>` )."
+msgstr ""
+"所有检查也可以组合在一起，以实现特定的显示模式（另请参见：ref:“检查图形轮廓中的"
+"间隙<Checking_caps_in_the_Drawing_Outline>”）。"
+
+#: ../../source/painting_animation_levels.rst:246
+msgid "**To activate or deactivate a check:**"
+msgstr "**要激活或停用检查，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:248
+msgid "Activate or deactivate the check from the View menu."
+msgstr "从“视图”菜单中激活或停用该复选框。"
+
+#: ../../source/painting_animation_levels.rst:254
+msgid "Painting Lines"
+msgstr "绘画线条"
+
+#: ../../source/painting_animation_levels.rst:255
+msgid ""
+"Lines of a drawing can be painted with the **Fill** tool (|fill|). For Toonz "
+"Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the "
+"same style; for Toonz Vector drawings, only a single vector stroke at a time."
+msgstr ""
+"可以使用**填充**工具（|Fill|）绘制图形的线条。对于Toanz Raster图形，填充工具（|"
+"Fill|）会影响共享相同样式的连续线条；对于Toanz矢量绘图，一次只能绘制一个矢量笔"
+"划。"
+
+#: ../../source/painting_animation_levels.rst:258
+msgid ""
+"For Toonz Raster drawings, lines can be also painted with the **Paint Brush** "
+"tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of "
+"the tool, you can paint any section of the lines as if you were using a brush."
+msgstr ""
+"对于Toanz Raster图形，也可以使用设置为**线条**模式的**画笔**工具（|"
+"Paint_Brush|）绘制线条。在这种情况下，通过设置工具的大小，您可以像使用画笔一样绘"
+"制线条的任何部分。"
+
+#: ../../source/painting_animation_levels.rst:260
+msgid ""
+"For Toonz Vector drawings, a vector stroke can be also painted by selecting it "
+"first, then selecting the style you want in the level Palette."
+msgstr ""
+"对于Toanz矢量图形，也可以通过先选择矢量笔划，然后在级别调色板中选择所需的样式来"
+"绘制矢量笔划。"
+
+#: ../../source/painting_animation_levels.rst:262
+msgid "**To paint a Toonz Raster line:**"
+msgstr "**要绘制Toonz光栅线，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:264
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill mode to **Lines** and select a "
+"style in the palette."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充模式设置为**线条**，然后在调色板中选择一种样"
+"式。"
+
+#: ../../source/painting_animation_levels.rst:266
+msgid "Click the line you want to paint."
+msgstr "单击要绘制的线。"
+
+#: ../../source/painting_animation_levels.rst:268
+msgid "**To paint a Toonz Vector stroke:**"
+msgstr "**要绘制Toanz矢量笔划，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:272
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill mode to **Lines**, select a "
+"style in the Palette and click the stroke you want to paint."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充模式设置为**线条**，在调色板中选择一种样式，然"
+"后单击要绘制的笔划。"
+
+#: ../../source/painting_animation_levels.rst:274
+msgid ""
+"With the **Selection** tool (|selection|) select the strokes you want to paint, "
+"then select a style in the Palette (see  :ref:`Using the Selection Tool "
+"<using_the_selection_tool>`  )."
+msgstr ""
+"使用**选择**工具（|Selection|）选择要绘制的笔划，然后在调色板中选择一种样式（请"
+"参阅：ref:`使用选择工具<Using_the_Selection_tool>`）。"
+
+#: ../../source/painting_animation_levels.rst:276
+msgid "**To partially paint a Toonz Raster line:**"
+msgstr "**要部分绘制Toanz光栅线，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:280
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill mode to **Lines**, activate the "
+"**Segment** option, and click the line section you want to paint."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充模式设置为**线条**，激活**分段**选项，然后单击"
+"要绘制的线段。"
+
+#: ../../source/painting_animation_levels.rst:282
+msgid ""
+"Select the **Paint Brush** tool (|paint_brush|), set the mode to **Lines** and "
+"use it on the line section you want to paint."
+msgstr ""
+"选择**画笔**工具（|Paint_Brush|），将模式设置为**线条**，并在要绘制的线段上使用"
+"它。"
+
+#: ../../source/painting_animation_levels.rst:284
+msgid ""
+"Use the **Paint Brush** tool (|paint_brush|) with the proper style to split a "
+"continuous line into sections, then use the **Fill** tool (|fill|) to paint the "
+"previously separated sections."
+msgstr ""
+"使用具有适当样式的**Paint Brush**工具（|Paint_Brush|）将连续线条分割成多个部分，"
+"然后使用**Fill**工具（| Fill|）绘制之前分离的部分。"
+
+#: ../../source/painting_animation_levels.rst:286
+msgid "**To paint several separated lines or vector strokes, at once:**"
+msgstr "**要一次绘制多条分开的线或矢量笔划，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:288
+msgid "Select the **Fill** tool (|fill|), set the fill mode to **Lines**."
+msgstr "选择**填充**工具（|Fill|），将填充模式设置为**行**。"
+
+#: ../../source/painting_animation_levels.rst:292
+msgid ""
+"Set the type to **Rectangular** and click and drag to define a box: all the "
+"lines included in the box will be painted with the current style."
+msgstr ""
+"将类型设置为**矩形**，然后单击并拖动以定义一个框：框中包含的所有线条都将使用当前"
+"样式绘制。"
+
+#: ../../source/painting_animation_levels.rst:294
+msgid ""
+"Set the type to **Freehand** and click and drag to define an area: all the "
+"lines included in the area you defined will be painted with the current style. "
+"If the ends of the area you draw are open, it will be defined as if joining the "
+"two open ends."
+msgstr ""
+"将类型设置为**徒手**，然后单击并拖动以定义一个区域：您定义的区域中包含的所有线条"
+"都将使用当前样式绘制。如果绘制的区域的端点是开放的，则将其定义为连接两个开放的端"
+"点。"
+
+#: ../../source/painting_animation_levels.rst:296
+msgid ""
+"Set the type to **Polyline** and click to define an area by drawing a series of "
+"straight lines: all the lines *completely included* in the area you defined "
+"will be painted with the current style. If the ends of the area you draw are "
+"open, the area will be defined as if joining the two open ends."
+msgstr ""
+"将类型设置为**折线**，然后单击以通过绘制一系列直线来定义一个区域：您定义的区域中"
+"完全包含的所有线条都将使用当前样式绘制。如果绘制的区域的端点是开放的，则该区域将"
+"被定义为连接两个开放的端点。"
+
+#: ../../source/painting_animation_levels.rst:298
+msgid ""
+"A vector stroke will be painted only if it's *fully included* in the area you "
+"define."
+msgstr "只有当矢量笔划完全包含在您定义的区域中时，才会绘制矢量笔划。"
+
+#: ../../source/painting_animation_levels.rst:300
+msgid ""
+"**To paint lines or vector strokes, in several frames with a single command:**"
+msgstr "**要使用单个命令在多个帧中绘制线条或矢量笔划，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:302
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill mode to **Lines** and activate "
+"the **Frame Range** option."
+msgstr ""
+"选择**填充**工具（|Fill|），将填充模式设置为**线条**，并激活**帧范围**选项。"
+
+#: ../../source/painting_animation_levels.rst:304
+msgid ""
+"Select the first frame of the range and **click** the line you want to paint."
+msgstr "选择范围的第一帧，然后**单击**要绘制的线。"
+
+#: ../../source/painting_animation_levels.rst:308
+msgid ""
+"Select the last frame of the range you want to apply the paint to, and "
+"**click** on the same line: the line in all the frames in the range will be "
+"automatically painted according to the first and second clicking positions."
+msgstr ""
+"选择要应用绘制的范围的最后一帧，然后在同一行上**单击**：该范围内所有帧中的线将根"
+"据第一次和第二次单击位置自动绘制。"
+
+#: ../../source/painting_animation_levels.rst:310
+msgid ""
+"Select an intermediate frame of the range you want to apply the paint to, and "
+"**Shift-click** in the same line: the line in all of the frames in the range "
+"will be automatically painted, according to the first and second clicking "
+"positions. Select another intermediate frame and **Shift-click** again: the "
+"line in all of the frames in the new range will be automatically painted, "
+"according to the second and third clicking positions. Do the same as many times "
+"as you like, then **click** in the same line on the last frame of the range, to "
+"complete the multi frame painting mode."
+msgstr ""
+"选择要应用绘制的范围的中间帧，然后**按住Shift键单击同一行中的**：将根据第一次和"
+"第二次单击的位置自动绘制该范围内所有帧中的线。选择另一个中间帧，然后**按住Shift"
+"键再次单击**：新范围内所有帧中的线将根据第二次和第三次单击位置自动绘制。根据需要"
+"重复多次，然后在范围的最后一帧的同一行中**单击**，以完成多帧绘画模式。"
+
+#: ../../source/painting_animation_levels.rst:312
+msgid ""
+"Since the Fill tool (|fill|) with the Frame Range option is applied making a "
+"linear interpolation from the first to the second clicking point, some painting "
+"mistakes may occur. The more the line you want to fill moves along the frame "
+"range, the more mistakes may be made."
+msgstr ""
+"由于应用了具有“帧范围”选项的“填充”工具（|Fill|），从第一个单击点到第二个单击点进"
+"行线性插值，因此可能会出现一些绘制错误。要填充的线条在帧范围内移动得越多，可能会"
+"出现越多的错误。"
+
+#: ../../source/painting_animation_levels.rst:314
+msgid "**To paint a line using as reference a previously painted drawing:**"
+msgstr "**要使用以前绘制的图形作为参考绘制线条，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:318
+msgid ""
+"Select the **Fill** tool (|fill|), set the fill mode to Lines and activate the "
+"**Onion Skin** option."
+msgstr "选择**填充**工具（|Fill|），将填充模式设置为线条，并激活**洋葱皮**选项。"
+
+#: ../../source/painting_animation_levels.rst:320
+msgid ""
+"Click to pick the style to use, from the drawing displayed in onion skin mode."
+msgstr "单击以从洋葱皮模式显示的图形中选择要使用的样式。"
+
+#: ../../source/painting_animation_levels.rst:324
+msgid "Release to paint the line where the cursor is."
+msgstr "释放以绘制光标所在的线。"
+
+#: ../../source/painting_animation_levels.rst:326
+msgid "Drag to the line you want to paint and release the mouse button."
+msgstr "拖动到要绘制的线，然后松开鼠标按钮。"
+
+#: ../../source/painting_animation_levels.rst:332
+msgid ""
+"Click the line whose style you want to pick. The picked style becomes the "
+"current one."
+msgstr "单击要选择其样式的线。选择的样式将成为当前样式。"
+
+#: ../../source/painting_animation_levels.rst:338
+msgid "Using Match Lines"
+msgstr "使用匹配线"
+
+#: ../../source/painting_animation_levels.rst:339
+msgid ""
+"Sometimes it may be useful to split a hand-drawn animation level into several "
+"animation levels that can be scanned separately, and later re-assembled before "
+"the painting process. For example you can draw an animation level with some "
+"shadow lines that match perfectly a character animation, then apply them with a "
+"color different from the character lines in order to paint them more easily."
+msgstr ""
+"有时，将手绘动画级别拆分为几个动画级别可能很有用，这些级别可以单独扫描，然后在绘"
+"画过程之前重新组装。例如，您可以用一些与角色动画完美匹配的阴影线绘制动画级别，然"
+"后用与角色线不同的颜色应用它们，以便更容易地绘制它们。"
+
+#: ../../source/painting_animation_levels.rst:341
+msgid ""
+"Some other times you may need to merge two or several animation levels into a "
+"single one, or automatically add the same drawing on all of the drawings of an "
+"animation level, for example a line closing the drawing areas that fall outside "
+"the shot and that the animator left open."
+msgstr ""
+"其他时候，您可能需要将两个或多个动画级别合并为一个级别，或者在动画级别的所有图形"
+"上自动添加相同的图形，例如，一条线关闭了镜头外的绘图区域，而动画师将其保持打开状"
+"态。"
+
+#: ../../source/painting_animation_levels.rst:343
+msgid ""
+"In both cases you can use the match lines feature to achieve your tasks, as it "
+"allows you to merge the levels exposed in two columns/layers, and if needed to "
+"delete the merged match lines."
+msgstr ""
+"在这两种情况下，您都可以使用匹配线功能来完成任务，因为它允许您合并两列/层中显示"
+"的级别，并在需要时删除合并的匹配线。"
+
+#: ../../source/painting_animation_levels.rst:345
+msgid "Match lines can only be applied to Toonz Raster (TLV) animation levels."
+msgstr "匹配线只能应用于Toanz光栅（TLV）动画级别。"
+
+#: ../../source/painting_animation_levels.rst:347
+msgid ""
+"In the Xsheet, when two columns are merged, the column drawings on the right "
+"are considered as match lines applied to the drawings on the left (in the "
+"Timeline, when two layers are merged, the layer drawings on top are considered "
+"as match lines applied to the drawings on the bottom)."
+msgstr ""
+"在Xsheet中，当合并两列时，右侧的列图形被视为应用于左侧图形的匹配线（在时间线中，"
+"当两个图层合并时，顶部的图层图形被视为由应用于底部图形的匹接线）。"
+
+#: ../../source/painting_animation_levels.rst:349
+msgid "|apply_match_lines|"
+msgstr "|应用程序匹配线|"
+
+#: ../../source/painting_animation_levels.rst:351
+msgid "In both cases it's possible to define the following:"
+msgstr "在这两种情况下，都可以定义以下内容："
+
+#: ../../source/painting_animation_levels.rst:353
+msgid ""
+"**Add Match Line Inks** preserves the original match line styles and adds them "
+"to the destination level palette in a separate page named **match lines**."
+msgstr ""
+"**添加匹配线墨水**保留原始匹配线样式，并将其添加到名为**匹配线**的单独页面中的目"
+"标级别调色板中。"
+
+#: ../../source/painting_animation_levels.rst:355
+msgid ""
+"**Use Ink:** allows you to define which style, among those in the destination "
+"level palette, has to be used for the applied match lines, replacing any "
+"original styles the match lines may be painted with."
+msgstr ""
+"**使用墨迹：**允许您定义目标级别调色板中的哪些样式必须用于应用的匹配线，以替换匹"
+"配线可能绘制的任何原始样式。"
+
+#: ../../source/painting_animation_levels.rst:357
+msgid ""
+"**Merge Inks** if the target level has the same styles (i.e. with the same "
+"index and color) as the match lines inks, the existing styles will be used. "
+"Otherwise, the original match line styles will be preserved and added to the "
+"destination level palette in a separate page named **match lines**."
+msgstr ""
+"**合并墨水**如果目标级别与匹配线墨水具有相同的样式（即具有相同的索引和颜色），则"
+"将使用现有样式。否则，原始匹配线样式将被保留，并添加到名为**匹配线**的单独页面中"
+"的目标级别调色板中。"
+
+#: ../../source/painting_animation_levels.rst:359
+msgid ""
+"**Line Stacking Order** let you graphically select which of the two columns "
+"(left or right) will be drawn on top, and also how to merge them: **Keep "
+"Halftones** or **Fill Gaps**"
+msgstr ""
+"**线条堆叠顺序**允许您以图形方式选择将在顶部绘制两列（左侧或右侧）中的哪一列，以"
+"及如何合并它们：**保持半色调**或**填充间隙**"
+
+#: ../../source/painting_animation_levels.rst:361
+msgid ""
+"**Line Prevalence** sets whether the match lines have to be placed behind the "
+"lines of the destination level (value set to 0), or on top of them (value set "
+"to 100)."
+msgstr ""
+"**线路普及率**设置匹配线是必须放置在目标级别的线路后面（值设置为0），还是放置在"
+"线路上方（值设置为此100）。"
+
+#: ../../source/painting_animation_levels.rst:363
+msgid ""
+"When the **Line Prevalence** value is set to 0, the match lines are applied "
+"without modifying the lines in the destination level at all."
+msgstr "当**线路患病率**值设置为0时，将应用匹配线，而根本不修改目标级别中的线路。"
+
+#: ../../source/painting_animation_levels.rst:365
+msgid ""
+"When the match lines are applied, any geometrical transformation achieved by "
+"editing and moving the related column/layer or pegbar, will be retained."
+msgstr "应用匹配线时，通过编辑和移动相关列/层或钉杆实现的任何几何变换都将保留。"
+
+#: ../../source/painting_animation_levels.rst:367
+msgid ""
+"Match lines are associated to the animation level drawings according to the "
+"following guidelines:"
+msgstr "根据以下准则，匹配线与动画级别图形相关联："
+
+#: ../../source/painting_animation_levels.rst:369
+msgid ""
+"The Xsheet/Timeline frame numbering order is followed. This means that the "
+"match line drawing exposed at frame 1 will be applied to the animation drawing "
+"exposed at frame 1."
+msgstr ""
+"遵循Xsheet/Timeline帧编号顺序。这意味着在第1帧显示的匹配线图形将应用于在第1框显"
+"示的动画图形。"
+
+#: ../../source/painting_animation_levels.rst:371
+msgid ""
+"If two different match line drawings are associated to the same drawing of the "
+"animation level at different frames, only the first one (according to the frame "
+"numbering order) will be applied."
+msgstr ""
+"如果两个不同的匹配线图形在不同帧处与动画级别的同一图形相关联，则只应用第一个（根"
+"据帧编号顺序）。"
+
+#: ../../source/painting_animation_levels.rst:373
+msgid ""
+"For all the drawings not corresponding to any match line drawing, no match "
+"lines will be applied."
+msgstr "对于所有与任何匹配线图不对应的图纸，将不应用匹配线。"
+
+#: ../../source/painting_animation_levels.rst:375
+msgid "Match lines not corresponding to any drawing will be ignored."
+msgstr "与任何图形都不对应的匹配线将被忽略。"
+
+#: ../../source/painting_animation_levels.rst:377
+msgid ""
+"If several animation levels are exposed in the column/layer to which match "
+"lines have to be applied, only the first one (according to the frame numbering "
+"order) will be considered."
+msgstr ""
+"如果在必须应用匹配线的列/层中显示了多个动画级别，则只会考虑第一个（根据帧编号顺"
+"序）。"
+
+#: ../../source/painting_animation_levels.rst:379
+msgid ""
+"If several animation levels are exposed in the column used as match line, all "
+"of them will be applied."
+msgstr "如果在用作匹配线的列中显示了多个动画级别，则将应用所有级别。"
+
+#: ../../source/painting_animation_levels.rst:381
+msgid ""
+"Several match lines can be added to the same animation level, by applying them "
+"one at a time."
+msgstr "通过一次应用一条匹配线，可以将多条匹配线添加到同一动画级别。"
+
+#: ../../source/painting_animation_levels.rst:383
+msgid ""
+"Applied match lines can be deleted as a whole from the destination level, or it "
+"is possible to delete specific lines according to their style indexes."
+msgstr "应用的匹配线可以从目标级别整体删除，也可以根据其样式索引删除特定行。"
+
+#: ../../source/painting_animation_levels.rst:385
+msgid "**To apply match lines to an animation level:**"
+msgstr "**要将匹配线应用于动画级别，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:387
+msgid "Expose in a column/layer the level you want to apply the match lines to."
+msgstr "在列/层中显示要应用匹配线的级别。"
+
+#: ../../source/painting_animation_levels.rst:389
+msgid ""
+"Expose the match line animation level(s) in another column of the Xsheet, to "
+"the right of the previous one (or if using the Timeline, expose the match line "
+"animation level(s) in another layer, above the previous one)."
+msgstr ""
+"在Xsheet的另一列中，在上一列的右侧显示匹配线动画级别（或者如果使用时间线，则在上"
+"一层上方的另一层中显示匹配线的动画级别）。"
+
+#: ../../source/painting_animation_levels.rst:391
+msgid "Move, scale, rotate the match line drawings if needed."
+msgstr "如果需要，移动、缩放、旋转匹配线图形。"
+
+#: ../../source/painting_animation_levels.rst:393
+msgid "Select the two columns by shift-clicking or click-draging their headers."
+msgstr "通过按住shift键单击或拖动标题来选择两列。"
+
+#: ../../source/painting_animation_levels.rst:395
+msgid "Choose Xsheet  →  **Apply Match Lines...**"
+msgstr "选择Xsheet→  **应用匹配线。..**"
+
+#: ../../source/painting_animation_levels.rst:397
+msgid ""
+"In the dialog that opens choose the styles to be used for the match lines and "
+"the line prevalence, and click the Apply button."
+msgstr "在打开的对话框中，选择要用于匹配线和线普遍性的样式，然后单击“应用”按钮。"
+
+#: ../../source/painting_animation_levels.rst:399
+msgid "**To delete all applied match lines:**"
+msgstr "**要删除所有应用的匹配线，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:401
+msgid ""
+"Select the columns/layers, the cells, or the Level Strip frames where the "
+"animation level with the applied match lines is."
+msgstr "选择具有应用匹配线的动画级别所在的列/层、单元格或“级别条”帧。"
+
+#: ../../source/painting_animation_levels.rst:403
+msgid "Choose Xsheet  →  **Delete Match Lines**."
+msgstr "选择Xsheet→  **删除匹配线**。"
+
+#: ../../source/painting_animation_levels.rst:405
+msgid "**To delete lines by selecting the style index:**"
+msgstr "**要通过选择样式索引删除线条，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:407
+msgid ""
+"Select the columns/layers, the cells, or the Level Strip frames where the "
+"animation level whose lines you want to delete is."
+msgstr "选择要删除其线条的动画级别所在的列/层、单元格或“级别条”帧。"
+
+#: ../../source/painting_animation_levels.rst:409
+msgid "Choose Xsheet  →  **Delete Lines...**"
+msgstr "选择Xsheet→  **删除行。..**"
+
+#: ../../source/painting_animation_levels.rst:411
+msgid ""
+"In the dialog that opens choose the indexes of the styles used for lines you "
+"want to delete, and the frames where you want to apply the deletion."
+msgstr "在打开的对话框中，选择要删除的线条所用样式的索引，以及要应用删除的框架。"
+
+#: ../../source/painting_animation_levels.rst:413
+msgid "Click the Delete button."
+msgstr "单击删除按钮。"
+
+#: ../../source/painting_animation_levels.rst:415
+msgid ""
+"To specify multiple indexes or frames, values have to be separated by a comma; "
+"to define a range of values, you can type the first and the last separated by a "
+"dash (e.g. 4-7 will refer to values 4, 5, 6 and 7)."
+msgstr ""
+"要指定多个索引或帧，值必须用逗号分隔；要定义一个值范围，您可以键入用破折号分隔的"
+"第一个和最后一个值（例如，4-7表示值4、5、6和7）。"
+
+#: ../../source/painting_animation_levels.rst:421
+msgid "Using the Autopaint for Lines Option"
+msgstr "使用“自动绘制线条”选项"
+
+#: ../../source/painting_animation_levels.rst:422
+msgid ""
+"Toonz Raster levels may include colored lines coming from a color cleanup "
+"session, or from some applied match line levels (see  :ref:`Processing Colored "
+"Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match "
+"Lines <using_match_lines>`  for details)."
+msgstr ""
+"Toonz光栅级别可能包括来自颜色清理会话或某些应用的匹配线级别的彩色线条（有关详细"
+"信息，请参阅：ref:“处理彩色线性图形<Processing_colored_linert_Drawings>”和：ref:"
+"`使用匹配线<Using _match_lines>”）。"
+
+#: ../../source/painting_animation_levels.rst:424
+msgid ""
+"In most of the cases these colored lines are meant to set the outline of the "
+"body shadow, or body highlight, and for this reason usually they have to be "
+"painted with the same color of the shadow or highlight areas they help define."
+msgstr ""
+"在大多数情况下，这些彩色线条旨在设置身体阴影或身体高光的轮廓，因此通常必须用它们"
+"帮助定义的阴影或高光区域的相同颜色绘制。"
+
+#: ../../source/painting_animation_levels.rst:426
+msgid ""
+"This task can be performed automatically by setting a special property for the "
+"color, so that when you paint an area defined totally or partially by a line "
+"whose color has this property, the line is automatically painted with the same "
+"color you use for the area."
+msgstr ""
+"通过为颜色设置特殊属性，可以自动执行此任务，这样当您绘制完全或部分由颜色具有此属"
+"性的线定义的区域时，该线会自动绘制为与该区域使用的颜色相同的颜色。"
+
+#: ../../source/painting_animation_levels.rst:428
+msgid "**To set the autopaint property for a color:**"
+msgstr "**要设置颜色的自动绘制属性，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:430
+msgid "Select the color in the palette."
+msgstr "在调色板中选择颜色。"
+
+#: ../../source/painting_animation_levels.rst:432
+msgid ""
+"In the Style Editor select the Settings page and activate the **Autopaint for "
+"Lines** option."
+msgstr "在样式编辑器中，选择“设置”页面，然后激活**“自动绘制线条”**选项。"
+
+#: ../../source/painting_animation_levels.rst:434
+msgid "**To automatically paint lines when painting areas:**"
+msgstr "**要在绘制区域时自动绘制线条，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:436
+msgid ""
+"Paint an area defined totally or partially by a line whose color has the "
+"**Autopaint for Lines** option activated: the line is automatically painted "
+"with the same color you use for the area."
+msgstr ""
+"绘制完全或部分由颜色已激活**自动绘制线条**选项的线条定义的区域：线条将自动绘制为"
+"与您用于该区域的颜色相同的颜色。"
+
+#: ../../source/painting_animation_levels.rst:442
+msgid "Using a Color Model"
+msgstr "使用颜色模型"
+
+#: ../../source/painting_animation_levels.rst:443
+msgid ""
+"Color models, usually created for accurate color-referencing during a "
+"production, in the form of images or animation levels, can be used while "
+"painting animation levels."
+msgstr ""
+"颜色模型通常以图像或动画级别的形式在制作过程中创建，用于精确的颜色参考，可以在绘"
+"制动画级别时使用。"
+
+#: ../../source/painting_animation_levels.rst:445
+msgid ""
+"Any image or animation level can be used as a reference by loading it in the "
+"Color Model viewer. In case an animation level is loaded, you can select any "
+"frame as a reference at any moment; in this way you can also create color "
+"models made of several drawings, for example one drawing for the Front view of "
+"the character, and one for the Back view."
+msgstr ""
+"通过在“颜色模型”查看器中加载任何图像或动画级别，都可以将其用作参考。如果加载了动"
+"画级别，您可以随时选择任何帧作为参考；通过这种方式，您还可以创建由多个图形组成的"
+"颜色模型，例如一个图形用于角色的前视图，另一个用于后视图。"
+
+#: ../../source/painting_animation_levels.rst:447
+msgid "|color_model|"
+msgstr "|颜色模型|"
+
+#: ../../source/painting_animation_levels.rst:449
+msgid ""
+"When a color model is loaded for the current level, you can decide to load its "
+"palette, thus overwriting the current level palette, or to keep the current "
+"animation level palette."
+msgstr ""
+"为当前级别加载颜色模型时，您可以决定加载其调色板，从而覆盖当前级别调色板，或保留"
+"当前动画级别调色板。"
+
+#: ../../source/painting_animation_levels.rst:451
+msgid ""
+"If the color model is a Toonz Raster or Vector level (TLV or PLI file), it "
+"already comes with a palette, whose style names and page configuration will be "
+"preserved."
+msgstr ""
+"如果颜色模型是Toanz光栅或矢量级（TLV或PLI文件），则它已经附带了一个调色板，其样"
+"式名称和页面配置将被保留。"
+
+#: ../../source/painting_animation_levels.rst:453
+msgid ""
+"If the color model is a full-color Raster image or animation level, the palette "
+"is automatically generated by extracting colors from the image, or the first "
+"image of the level. If the full-color image contains many shaded colors, the "
+"palette will be optimized to reduce the number of colors."
+msgstr ""
+"如果颜色模型是全彩光栅图像或动画级别，则通过从图像或级别的第一个图像中提取颜色来"
+"自动生成调色板。如果全色图像包含许多着色颜色，则将优化调色板以减少颜色数量。"
+
+#: ../../source/painting_animation_levels.rst:455
+msgid ""
+"Best results can be achieved by preparing models painted with flat colors and "
+"whose lines have no antialiasing."
+msgstr "通过准备涂有平面颜色且线条没有抗锯齿的模型，可以获得最佳效果。"
+
+#: ../../source/painting_animation_levels.rst:457
+msgid ""
+"When a color model is loaded for a certain animation level, it is associated to "
+"that level and the related palette, and it's displayed in the Color Model "
+"viewer every time that level is selected."
+msgstr ""
+"当为某个动画级别加载颜色模型时，它与该级别和相关调色板相关联，每次选择该级别时，"
+"它都会显示在颜色模型查看器中。"
+
+#: ../../source/painting_animation_levels.rst:459
+msgid ""
+"A color model can be associated to palettes stored in the Studio Palette. In "
+"this way every time you assign a palette to an animation level retrieving it "
+"from the Studio Palette, its related color model will be automatically "
+"associated to the level (see  :ref:`Using the Studio Palette "
+"<using_the_studio_palette>`  for details)."
+msgstr ""
+"颜色模型可以与存储在Studio调色板中的调色板相关联。这样，每次您将调色板分配给从"
+"Studio palette检索的动画级别时，其相关的颜色模型都会自动与该级别相关联（有关详细"
+"信息，请参阅：ref:`使用Studio palette<Using_the_strudio_palette>`）。"
+
+#: ../../source/painting_animation_levels.rst:461
+msgid ""
+"You can also use any drawing belonging to the animation level as a color model "
+"to be used on the fly, but in this case it will neither be associated to the "
+"level, nor to the palette saved in the Studio Palette."
+msgstr ""
+"您还可以将属于动画级别的任何图形用作动态使用的颜色模型，但在这种情况下，它既不会"
+"与级别相关联，也不会与保存在Studio调色板中的调色板相关联。"
+
+#: ../../source/painting_animation_levels.rst:463
+msgid ""
+"When the image is displayed in the Color Model viewer, you can use it not only "
+"as visual reference, but also for picking styles with no need to use the "
+"Palette or the Style Picker tool (|style_picker|). The color model can also be "
+"panned and zoomed in or out, by using standard shortcuts."
+msgstr ""
+"当图像显示在颜色模型查看器中时，您不仅可以将其用作视觉参考，还可以用于拾取样式，"
+"而无需使用调色板或样式选择器工具（|Style_Picker|）。通过使用标准快捷键，还可以平"
+"移和放大或缩小颜色模型。"
+
+#: ../../source/painting_animation_levels.rst:465
+msgid "**To load a color model:**"
+msgstr "**要加载颜色模型，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:469
+msgid ""
+"Choose File  →  **Load Color Model...**, and load the Toonz level or the full "
+"color raster image you want to use as a reference."
+msgstr ""
+"选择文件→  **加载颜色模型。..**，然后加载要用作参考的Toanz级别或全彩光栅图像。"
+
+#: ../../source/painting_animation_levels.rst:471
+msgid ""
+"**Right-click** in the Color Model viewer and choose **Load Color Model...** "
+"from the menu that opens."
+msgstr ""
+"**在“颜色模型”查看器中右键单击**，然后选择**加载颜色模型。..**从打开的菜单中选"
+"择。"
+
+#: ../../source/painting_animation_levels.rst:473
+msgid ""
+"Drag and drop the Toonz level or the full color raster image you want to use as "
+"reference to the Color Model viewer."
+msgstr "将Toonz级别或要用作颜色模型查看器参考的全色光栅图像拖放。"
+
+#: ../../source/painting_animation_levels.rst:475
+msgid ""
+"Choose whether to overwrite current palette with the Color Model palette, or to "
+"keep the current animation level palette."
+msgstr "选择是用“颜色模型”调色板覆盖当前调色板，还是保留当前动画级别调色板。"
+
+#: ../../source/painting_animation_levels.rst:477
+msgid ""
+"If you decide to keep the current animation level palette, the current level "
+"palette will be applied to the Color Model as well."
+msgstr "如果决定保留当前动画级别调色板，则当前级别调色板也将应用于颜色模型。"
+
+#: ../../source/painting_animation_levels.rst:479
+msgid "**To select a frame from the loaded color model level:**"
+msgstr "**要从加载的颜色模型级别中选择帧，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:483
+msgid "Use the playback buttons."
+msgstr "使用播放按钮。"
+
+#: ../../source/painting_animation_levels.rst:485
+msgid "Drag the frame bar cursor."
+msgstr "拖动框架栏光标。"
+
+#: ../../source/painting_animation_levels.rst:487
+msgid "Type in the frame bar field the number of the frame you want to view."
+msgstr "在框架栏字段中键入要查看的框架编号。"
+
+#: ../../source/painting_animation_levels.rst:489
+msgid "**To pick styles from a color model:**"
+msgstr "**要从颜色模型中选择样式，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:491
+msgid ""
+"Click the area or line whose style you want to pick, whatever your current tool "
+"is."
+msgstr "单击要拾取其样式的区域或线条，无论您当前的工具是什么。"
+
+#: ../../source/painting_animation_levels.rst:493
+msgid ""
+"If you are using a Raster image as reference and you decided to keep the "
+"current animation level palette, when you click an area or a line, the closest "
+"style available in the palette will be picked."
+msgstr ""
+"如果您使用光栅图像作为参考，并决定保留当前的动画级别调色板，则当您单击一个区域或"
+"一条线时，将拾取调色板中最接近的可用样式。"
+
+#: ../../source/painting_animation_levels.rst:495
+msgid "**To navigate the color model viewer:**"
+msgstr "**要浏览颜色模型查看器，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:499
+msgid ""
+"Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at "
+"specific steps (e.g. 50%, 100%, 200%, etc.)."
+msgstr ""
+"使用缩放快捷键（默认情况下为+和-键）按特定步骤（例如50%、100%、200%等）放大和缩"
+"小。"
+
+#: ../../source/painting_animation_levels.rst:501
+msgid "Use the mouse wheel to zoom in and zoom out."
+msgstr "使用鼠标滚轮放大和缩小。"
+
+#: ../../source/painting_animation_levels.rst:503
+msgid ""
+"Use the Reset View shortcut (by default the 0 key), or right-click in the "
+"viewer and choose **Reset View** from the menu that opens, to display the "
+"flipbook content at its actual size, centered on the image center."
+msgstr ""
+"使用“重置视图”快捷方式（默认情况下为0键），或在查看器中单击鼠标右键，然后从打开"
+"的菜单中选择**重置视图**，以图像中心为中心以实际大小显示翻页书内容。"
+
+#: ../../source/painting_animation_levels.rst:505
+msgid "Middle-click and drag to scroll in any direction."
+msgstr "单击鼠标中键并拖动可向任何方向滚动。"
+
+#: ../../source/painting_animation_levels.rst:507
+msgid "**To create a color model from an original drawing:**"
+msgstr "**要从原始图形创建颜色模型，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:509
+msgid "Scan and cleanup, or draw, your color model."
+msgstr "扫描和清理，或绘制你的颜色模型。"
+
+#: ../../source/painting_animation_levels.rst:511
+msgid "Create the needed styles in the palette and paint the image."
+msgstr "在调色板中创建所需的样式并绘制图像。"
+
+#: ../../source/painting_animation_levels.rst:513
+msgid "Save the image and load it as color model whenever it is needed."
+msgstr "保存图像，并在需要时将其作为颜色模型加载。"
+
+#: ../../source/painting_animation_levels.rst:515
+msgid "**To use a drawing from the current animation level as a model:**"
+msgstr "**要将当前动画级别的图形用作模型，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:517
+msgid ""
+"Select the drawing you want to use as a reference for the current animation "
+"level."
+msgstr "选择要用作当前动画级别参考的图形。"
+
+#: ../../source/painting_animation_levels.rst:519
+msgid ""
+"Right-click in the Color Model viewer and choose **Use Current Frame** from the "
+"menu that opens."
+msgstr "在“颜色模型”查看器中单击鼠标右键，然后从打开的菜单中选择**使用当前帧**。"
+
+#: ../../source/painting_animation_levels.rst:521
+msgid "**To store a color model together with a palette in the studio palette:**"
+msgstr "**要将颜色模型与调色板一起存储在工作室调色板中，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:523
+msgid "Load the color model to associate it to the current level palette."
+msgstr "加载颜色模型以将其与当前级别调色板相关联。"
+
+#: ../../source/painting_animation_levels.rst:525
+msgid ""
+"Store the level palette in the Studio Palette (see  :ref:`Using the Studio "
+"Palette <using_the_studio_palette>`  for details)."
+msgstr ""
+"将级别调色板存储在Studio调色板中（有关详细信息，请参阅：ref:“使用Studio调色板"
+"<Using_the_Studio_palette>”）。"
+
+#: ../../source/painting_animation_levels.rst:527
+msgid ""
+"**To associate a color model to a palette already saved in the studio palette:**"
+msgstr "**要将颜色模型与已保存在工作室调色板中的调色板相关联，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:529
+msgid ""
+"In the Studio Palette select the palette to which you want to associate a color "
+"model, and do one of the following:"
+msgstr "在Studio调色板中，选择要与颜色模型关联的调色板，然后执行以下操作之一："
+
+#: ../../source/painting_animation_levels.rst:531
+msgid "Choose File  →  **Load Color Model...**."
+msgstr "选择文件→  **加载颜色模型。..**."
+
+#: ../../source/painting_animation_levels.rst:533
+msgid ""
+"Right-click the palette in the studio palette tree and choose **Load Color "
+"Model...** from the menu that opens (see  :ref:`Using the Studio Palette "
+"<using_the_studio_palette>`  for details)."
+msgstr ""
+"在工作室调色板树中右键单击调色板，然后选择**加载颜色模型。..**从打开的菜单中选择"
+"（有关详细信息，请参阅：ref:“使用Studio调色板<Using_the_Studio_Palette>”）。"
+
+#: ../../source/painting_animation_levels.rst:535
+msgid "Retrieve the color model from the browser that opens."
+msgstr "从打开的浏览器中检索颜色模型。"
+
+#: ../../source/painting_animation_levels.rst:537
+msgid ""
+"If the color model uses a palette different from the one stored in the Studio "
+"Palette, you will be prompted whether to keep it or to overwrite it."
+msgstr ""
+"如果颜色模型使用的调色板与Studio调色板中存储的调色板不同，系统将提示您是保留还是"
+"覆盖它。"
+
+#: ../../source/painting_animation_levels.rst:539
+msgid "**To retrieve a color model stored in the studio palette:**"
+msgstr "**要检索存储在工作室调色板中的颜色模型，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:541
+msgid ""
+"Load the palette it's associated to from the Studio Palette as the current "
+"level palette (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  "
+"for details)."
+msgstr ""
+"从Studio palette加载与其关联的调色板作为当前级别调色板（有关详细信息，请参阅："
+"ref:“使用Studio调色板<Using_the_Studio _palette>”）。"
+
+#: ../../source/painting_animation_levels.rst:543
+msgid "**To remove the association of a palette to a color model:**"
+msgstr "**要删除调色板与颜色模型的关联，请执行以下操作：**"
+
+#: ../../source/painting_animation_levels.rst:545
+msgid ""
+"Right-click in the Color Model viewer and choose **Remove Color Model** from "
+"the menu that opens."
+msgstr ""
+"在“颜色模型”查看器中单击鼠标右键，然后从打开的菜单中选择**删除颜色模型**。"
